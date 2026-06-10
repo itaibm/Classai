@@ -63,10 +63,25 @@ export function ParentDashboard() {
 
         {data && (
           <>
-            {!brainConnected && (
-              <div className="banner warn" style={{ marginBottom: 16 }}>
-                No AI brain connected yet — connect one so your tutor can teach.{' '}
-                <button className="btn small" onClick={() => navigate('/connect')}>Connect</button>
+            {(!brainConnected || data.kids.length === 0) && (
+              <div className="card" style={{ marginBottom: 16 }}>
+                <h3>Get started</h3>
+                <ol className="setup-steps">
+                  <li className={brainConnected ? 'done' : ''}>
+                    <span className="step-mark">{brainConnected ? '✓' : '1'}</span>
+                    <span className="grow"><strong>Connect an AI brain</strong><div className="muted small">Use your own Anthropic/OpenAI key, or a free local model.</div></span>
+                    {!brainConnected && <button className="btn small" onClick={() => navigate('/connect')}>Connect</button>}
+                  </li>
+                  <li className={data.kids.length > 0 ? 'done' : ''}>
+                    <span className="step-mark">{data.kids.length > 0 ? '✓' : '2'}</span>
+                    <span className="grow"><strong>Add a learner</strong><div className="muted small">Name, age, interests, and a character to learn with.</div></span>
+                    {data.kids.length === 0 && <button className="btn small" onClick={() => setAdding(true)}>Add</button>}
+                  </li>
+                  <li>
+                    <span className="step-mark">3</span>
+                    <span className="grow"><strong>Create a class</strong><div className="muted small">Open a learner and add a subject (paste a curriculum or let Classai build one).</div></span>
+                  </li>
+                </ol>
               </div>
             )}
 

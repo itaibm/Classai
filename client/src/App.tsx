@@ -11,7 +11,7 @@ import { Classroom } from './screens/Classroom.tsx';
 export function App() {
   const path = useRoute();
 
-  if (path === '/connect') return <ConnectBrain />;
+  if (path === '/connect') return <ParentGate><ConnectBrain /></ParentGate>;
   if (path === '/parent') return <ParentGate><ParentDashboard /></ParentGate>;
 
   let m;
