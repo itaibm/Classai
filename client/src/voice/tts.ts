@@ -27,6 +27,50 @@ export interface SpeakHandle {
 export function listVoices(): SpeechSynthesisVoice[] {
   return typeof speechSynthesis !== 'undefined' ? speechSynthesis.getVoices() : [];
 }
+
+// A single AudioContext, created/resumed on a user gesture, reused everywhere.
+let sharedCtx: AudioContext | null = null;
+export function getAudioContext(): AudioContext {
+  if (!sharedCtx) sharedCtx = new AudioContext();
+  if (sharedCtx.state === 'suspended') sharedCtx.resume().catch(() => {});
+  return sharedCtx;
+}
+
+/**
+ * Must be called from a user gesture (a tap/click) before the first lesson turn.
+ * Browsers (esp. Safari) block audio until then — without this the character's
+ * first sentence can play silently. Unlocks both Web Audio and SpeechSynthesis.
+ */
+export function unlockAudio(): void {
+  try {
+    getAudioContext();
+  } catch {
+    /* ignore */
+  }
+  if (typeof speechSynthesis !== 'undefined') {
+    try {
+      const u = new SpeechSynthesisUtterance(' ');
+      u.volume = 0;
+      speechSynthesis.speak(u);
+    } catch {
+      /* ignore */
+    }
+  }
+}
+
+/** Pick a high-quality English voice (Mac/most browsers ship several). */
+export function pickBestVoice(): SpeechSynthesisVoice | undefined {
+  const voices = listVoices();
+  if (!voices.length) return undefined;
+  const en = voices.filter((v) => /^en(-|_|$)/i.test(v.lang));
+  const pool = en.length ? en : voices;
+  const prefer = [/premium/i, /enhanced/i, /\b(ava|samantha|allison|serena|zoe|karen|moira|tessa)\b/i];
+  for (const re of prefer) {
+    const hit = pool.find((v) => re.test(v.name));
+    if (hit) return hit;
+  }
+  return pool.find((v) => v.localService) || pool[0];
+}
 export function voicesReady(): Promise<SpeechSynthesisVoice[]> {
   return new Promise((resolve) => {
     if (typeof speechSynthesis === 'undefined') return resolve([]);
@@ -54,10 +98,9 @@ function speakBrowser(opts: SpeakOpts): SpeakHandle {
   }
   const u = new SpeechSynthesisUtterance(opts.text);
   u.rate = opts.rate ?? 1;
-  if (opts.voice) {
-    const v = speechSynthesis.getVoices().find((x) => x.name === opts.voice);
-    if (v) u.voice = v;
-  }
+  const named = opts.voice ? speechSynthesis.getVoices().find((x) => x.name === opts.voice) : undefined;
+  const chosen = named || pickBestVoice();
+  if (chosen) u.voice = chosen;
   let raf = 0;
   let speaking = false;
   let pulse = 0; // decays; bumped on word boundaries
@@ -135,7 +178,7 @@ function speakKokoro(opts: SpeakOpts): SpeakHandle {
       if (stopped) return;
       const float = new Float32Array(out.audio);
       const sr: number = out.sampling_rate || 24000;
-      ctx = new AudioContext();
+      ctx = getAudioContext();
       const buffer = ctx.createBuffer(1, float.length, sr);
       buffer.copyToChannel(float, 0);
       src = ctx.createBufferSource();
@@ -180,7 +223,8 @@ function speakKokoro(opts: SpeakOpts): SpeakHandle {
       cancelAnimationFrame(raf);
       try {
         src?.stop();
-        ctx?.close();
+        src?.disconnect();
+        // Do NOT close ctx — it's shared across the session.
       } catch {
         /* ignore */
       }

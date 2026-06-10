@@ -20,6 +20,7 @@ import type {
   WorkingMemory,
   Momentum
 } from '../../../shared/types.ts';
+import { blockIsInteractive } from '../../../shared/types.ts';
 import * as db from '../db/index.ts';
 import { getBrain, type ChatMessage } from '../ai/provider.ts';
 import { generateStructured, TurnSchema, ReportSchema } from '../ai/schemas.ts';
@@ -137,7 +138,7 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
     role: 'teacher',
     text: turn.speech,
     emotion: turn.emotion,
-    interaction: turn.interaction,
+    block: turn.block,
     ts: new Date().toISOString()
   });
 
@@ -167,7 +168,7 @@ function applyDirectorState(w: WorkingMemory, turn: TeacherTurn, beatKind: strin
   w.teacherTurns++;
   w.lastEmotion = turn.emotion;
 
-  const asked = ['choice', 'type', 'speak'].includes(turn.interaction.type);
+  const asked = blockIsInteractive(turn.block);
   w.turnsSinceCheck = asked || turn.answerEval !== 'na' ? 0 : w.turnsSinceCheck + 1;
 
   if (turn.answerEval !== 'na') {

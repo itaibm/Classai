@@ -7,6 +7,7 @@
  */
 import { z } from 'zod';
 import type { Brain, GenerateOptions } from './provider.ts';
+import { BlockSchema } from './blocks.ts';
 
 // ---- tolerant JSON extraction ---------------------------------------------
 
@@ -59,13 +60,8 @@ export const TurnSchema = z.object({
   emotion: z
     .enum(['neutral', 'happy', 'encouraging', 'celebrating', 'thinking', 'curious', 'gentle'])
     .default('neutral'),
-  interaction: z
-    .object({
-      type: z.enum(['choice', 'type', 'speak', 'continue', 'none']).default('continue'),
-      prompt: z.string().default(''),
-      choices: z.array(z.string()).optional()
-    })
-    .default({ type: 'continue', prompt: '' }),
+  // A malformed block must not fail the whole turn — drop it and keep the speech.
+  block: BlockSchema.optional().catch(undefined),
   assessment: z.string().default(''),
   answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na'),
   beatComplete: z.boolean().default(false),
