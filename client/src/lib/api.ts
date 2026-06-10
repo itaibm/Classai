@@ -110,10 +110,10 @@ export const api = {
   // teaching
   startLesson: (lessonId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, { method: 'POST' }),
   turn: (sessionId: string, response?: KidResponse) =>
-    req<{ turn: TeacherTurn; ended: boolean; sessionId: string }>(`/sessions/${sessionId}/turn`, {
-      method: 'POST',
-      body: JSON.stringify({ response })
-    }),
+    req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number } }>(
+      `/sessions/${sessionId}/turn`,
+      { method: 'POST', body: JSON.stringify({ response }) }
+    ),
   session: (id: string) => req<{ session: Session }>(`/sessions/${id}`),
 
   // progress / memory / history

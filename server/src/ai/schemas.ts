@@ -52,6 +52,8 @@ export const TurnSchema = z.object({
     })
     .default({ type: 'continue', prompt: '' }),
   assessment: z.string().default(''),
+  answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na'),
+  beatComplete: z.boolean().default(false),
   memoryUpdates: z
     .array(
       z.object({
@@ -87,16 +89,47 @@ export const SyllabusSchema = z.object({
     .min(1)
 });
 
+const WrongAnswerSchema = z.object({
+  answer: z.string(),
+  why: z.string().default(''),
+  remedy: z.string().default('')
+});
+
+const BeatCheckSchema = z.object({
+  question: z.string(),
+  expectedAnswer: z.string().default(''),
+  wrongAnswers: z.array(WrongAnswerSchema).default([])
+});
+
+const EMPTY_ANALYSIS = { keyConcepts: [], misconceptions: [], hooks: [], priorKnowledge: [] };
+
+export const LessonAnalysisSchema = z.object({
+  keyConcepts: z.array(z.string()).default([]),
+  misconceptions: z.array(z.string()).default([]),
+  hooks: z.array(z.string()).default([]),
+  priorKnowledge: z.array(z.string()).default([])
+});
+
 export const LessonPlanSchema = z.object({
   title: z.string(),
   objectives: z.array(z.string()).default([]),
   difficulty: z.enum(['gentle', 'standard', 'challenge']).default('standard'),
+  analysis: z
+    .object({
+      keyConcepts: z.array(z.string()).default([]),
+      misconceptions: z.array(z.string()).default([]),
+      hooks: z.array(z.string()).default([]),
+      priorKnowledge: z.array(z.string()).default([])
+    })
+    .default(EMPTY_ANALYSIS),
   plan: z
     .array(
       z.object({
         kind: z.enum(['hook', 'explain', 'example', 'check', 'practice', 'recap']),
         goal: z.string(),
-        note: z.string().default('')
+        note: z.string().default(''),
+        successCriteria: z.string().default(''),
+        check: BeatCheckSchema.optional()
       })
     )
     .min(1)

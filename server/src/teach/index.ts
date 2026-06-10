@@ -1,11 +1,13 @@
 /**
- * The live teaching loop — the agentic core of Classai.
+ * The live teaching loop — Classai's agentic core, run as a deterministic
+ * "lesson director" wrapped around the LLM.
  *
- * Each beat, the brain returns a structured TeacherTurn built from persona +
- * long-term memory + short-term working memory + the lesson plan + subject
- * pedagogy + safety rules. We update both memory tiers from what comes back,
- * and when the lesson completes we distill a parent report and refresh the
- * learner's long-term profile.
+ * The director owns the lesson state (which beat, struggle streak, checks
+ * passed, elapsed time) and, each turn, injects a STATE block + a DIRECTIVE
+ * (continue / check now / the learner is stuck, slow down / wrap up). The LLM
+ * produces the actual teaching speech and judges the learner's answer; the
+ * director updates state from that judgement and decides when to advance beats
+ * or end the lesson. This keeps lessons on-track instead of drifting.
  */
 import { z } from 'zod';
 import type {
@@ -15,32 +17,37 @@ import type {
   Session,
   TeacherTurn,
   KidResponse,
-  WorkingMemory
+  WorkingMemory,
+  Momentum
 } from '../../../shared/types.ts';
 import * as db from '../db/index.ts';
 import { getBrain, type ChatMessage } from '../ai/provider.ts';
 import { generateStructured, TurnSchema, ReportSchema } from '../ai/schemas.ts';
-import { teachSystemPrompt, teachKickoff, reportPrompt, summaryPrompt } from '../ai/prompts.ts';
+import { teachSystemPrompt, teachKickoff, turnDirective, reportPrompt, summaryPrompt } from '../ai/prompts.ts';
 import { subjectProfile } from '../ai/subjects.ts';
 import { getOrInitLearner, applyTurnMemory, updateNarrative, addEpisode } from '../memory/index.ts';
 
-const SummarySchema = z.object({
-  summary: z.string().default(''),
-  preferences: z.string().default('')
-});
+const SummarySchema = z.object({ summary: z.string().default(''), preferences: z.string().default('') });
 
-export function startSession(kid: Kid, course: Course, lesson: Lesson): Session {
-  const working: WorkingMemory = {
+function freshWorking(lesson: Lesson): WorkingMemory {
+  return {
     focus: lesson.objectives[0] || lesson.topic,
     momentum: 'steady',
     lastEmotion: 'neutral',
     beatIndex: 0,
     turnsSinceCheck: 0,
+    teacherTurns: 0,
+    struggleStreak: 0,
+    checksPassed: 0,
+    checksTotal: 0,
     notes: [],
     observed: {}
   };
+}
+
+export function startSession(kid: Kid, course: Course, lesson: Lesson): Session {
   const session: Session = {
-    id: cryptoId(),
+    id: 's_' + Math.random().toString(36).slice(2) + Date.now().toString(36),
     kidId: kid.id,
     courseId: course.id,
     lessonId: lesson.id,
@@ -49,25 +56,27 @@ export function startSession(kid: Kid, course: Course, lesson: Lesson): Session 
     status: 'active',
     startedAt: new Date().toISOString(),
     transcript: [],
-    working
+    working: freshWorking(lesson)
   };
   db.sessions.insert(session);
   db.lessons.setStatus(lesson.id, 'in_progress');
   return session;
 }
 
-function cryptoId(): string {
-  return 's_' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+/** Soft time budget (minutes) for a lesson, from its plan size. */
+function softLimit(lesson: Lesson): number {
+  return Math.min(35, Math.max(12, lesson.plan.length * 5));
 }
 
-/** Build the alternating message history from the transcript, anchored by a
- *  kickoff user turn so it always starts with `user`. */
-function buildMessages(session: Session, kid: Kid, lesson: Lesson, returning: boolean): ChatMessage[] {
+function buildMessages(session: Session, kid: Kid, lesson: Lesson, returning: boolean, directive: string): ChatMessage[] {
   const msgs: ChatMessage[] = [{ role: 'user', content: teachKickoff(kid, lesson, returning) }];
   for (const e of session.transcript) {
-    if (e.role === 'teacher') msgs.push({ role: 'assistant', content: e.text });
-    else msgs.push({ role: 'user', content: e.text });
+    msgs.push(e.role === 'teacher' ? { role: 'assistant', content: e.text } : { role: 'user', content: e.text });
   }
+  // Attach the per-turn directive to the trailing user turn (or add one).
+  const last = msgs[msgs.length - 1]!;
+  if (last.role === 'user') last.content = `${last.content}\n\n${directive}`;
+  else msgs.push({ role: 'user', content: directive });
   return msgs;
 }
 
@@ -75,9 +84,9 @@ export interface TurnResult {
   turn: TeacherTurn;
   ended: boolean;
   sessionId: string;
+  beat: { index: number; total: number };
 }
 
-/** Produce the next teacher turn (optionally in response to the kid). */
 export async function nextTurn(sessionId: string, response?: KidResponse): Promise<TurnResult> {
   const session = db.sessions.get(sessionId);
   if (!session) throw new Error('session_not_found');
@@ -89,29 +98,41 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   if (!kid || !course || !lesson) throw new Error('session_context_missing');
 
   if (response) {
-    session.transcript.push({
-      role: 'kid',
-      text: response.text?.trim() || '(continue)',
-      ts: new Date().toISOString()
-    });
+    session.transcript.push({ role: 'kid', text: response.text?.trim() || '(continue)', ts: new Date().toISOString() });
   }
 
   const model = getOrInitLearner(kid.id);
   const profile = subjectProfile(course.subjectKey);
   const returning = Boolean(model.summary) || db.sessions.listByKid(kid.id).length > 1;
+  const w = session.working;
+
+  const beatIdx = Math.min(w.beatIndex, lesson.plan.length - 1);
+  const beat = lesson.plan[beatIdx]!;
+  const minutesElapsed = Math.floor((Date.now() - new Date(session.startedAt).getTime()) / 60000);
+
+  const directive = turnDirective({
+    beatNo: beatIdx + 1,
+    beatTotal: lesson.plan.length,
+    beatKind: beat.kind,
+    beatGoal: beat.goal,
+    successCriteria: beat.successCriteria,
+    check: beat.check,
+    working: w,
+    minutesElapsed,
+    softLimitMin: softLimit(lesson)
+  });
 
   const brain = await getBrain();
   const system = teachSystemPrompt(kid, course, lesson, profile, model);
-  const messages = buildMessages(session, kid, lesson, returning);
+  const messages = buildMessages(session, kid, lesson, returning, directive);
 
   const turn = (await generateStructured(brain, TurnSchema, {
     system,
     messages,
-    maxTokens: 1200,
+    maxTokens: 1100,
     quality: 'fast'
   })) as TeacherTurn;
 
-  // Record the teacher's turn.
   session.transcript.push({
     role: 'teacher',
     text: turn.speech,
@@ -120,13 +141,8 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
     ts: new Date().toISOString()
   });
 
-  // Update SHORT-TERM working memory.
-  updateWorkingMemory(session.working, turn);
-
-  // Fold observations into LONG-TERM memory.
+  applyDirectorState(w, turn, beat.kind);
   if (turn.memoryUpdates.length) applyTurnMemory(kid.id, turn.memoryUpdates);
-
-  // Surface anything a parent should see.
   if (turn.concern) addEpisode(kid.id, 'note', `⚠️ ${turn.concern}`, lesson.topic);
 
   let ended = false;
@@ -136,53 +152,76 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   } else {
     db.sessions.save(session);
   }
-  return { turn, ended, sessionId };
+  return { turn, ended, sessionId, beat: { index: Math.min(w.beatIndex, lesson.plan.length - 1), total: lesson.plan.length } };
 }
 
-function updateWorkingMemory(w: WorkingMemory, turn: TeacherTurn): void {
+/** The director updates lesson state from the LLM's judgement of the turn. */
+function applyDirectorState(w: WorkingMemory, turn: TeacherTurn, beatKind: string): void {
+  w.teacherTurns++;
   w.lastEmotion = turn.emotion;
-  const asked = ['choice', 'type', 'speak'].includes(turn.interaction.type);
-  w.turnsSinceCheck = asked ? 0 : w.turnsSinceCheck + 1;
-  w.beatIndex = Math.max(w.beatIndex, w.beatIndex + (asked ? 1 : 0));
 
-  if (turn.memoryUpdates.length) {
-    const ms = turn.memoryUpdates.map((u) => u.mastery);
-    const min = Math.min(...ms);
-    const avg = ms.reduce((a, b) => a + b, 0) / ms.length;
-    w.momentum = min < 0.4 ? 'stuck' : avg > 0.7 ? 'flowing' : 'steady';
-    for (const u of turn.memoryUpdates) {
-      w.observed[u.topic] = {
-        signal: u.mastery < 0.4 ? 'struggling' : u.mastery < 0.7 ? 'shaky' : 'got_it',
-        note: u.note || ''
-      };
+  const asked = ['choice', 'type', 'speak'].includes(turn.interaction.type);
+  w.turnsSinceCheck = asked || turn.answerEval !== 'na' ? 0 : w.turnsSinceCheck + 1;
+
+  if (turn.answerEval !== 'na') {
+    w.checksTotal++;
+    if (turn.answerEval === 'correct') {
+      w.checksPassed++;
+      w.struggleStreak = 0;
+    } else if (turn.answerEval === 'incorrect') {
+      w.struggleStreak++;
+    } else {
+      // partial: not a clean miss, ease the streak but don't clear it
+      w.struggleStreak = Math.max(0, w.struggleStreak - 1);
     }
+  }
+
+  if (turn.beatComplete) {
+    w.beatIndex = w.beatIndex + 1;
+    w.struggleStreak = 0;
+  }
+
+  // Live momentum read.
+  let momentum: Momentum = 'steady';
+  if (w.struggleStreak >= 2) momentum = 'stuck';
+  else if (turn.answerEval === 'correct' && w.struggleStreak === 0) momentum = 'flowing';
+  if (turn.memoryUpdates.length) {
+    const min = Math.min(...turn.memoryUpdates.map((u) => u.mastery));
+    if (min < 0.35) momentum = 'stuck';
+  }
+  w.momentum = momentum;
+
+  for (const u of turn.memoryUpdates) {
+    w.observed[u.topic] = {
+      signal: u.mastery < 0.4 ? 'struggling' : u.mastery < 0.7 ? 'shaky' : 'got_it',
+      note: u.note || ''
+    };
   }
   if (turn.assessment) {
     w.notes.push(turn.assessment);
-    while (w.notes.length > 20) w.notes.shift();
+    while (w.notes.length > 24) w.notes.shift();
   }
 }
 
-/** Wrap up: write the parent report, refresh the long-term profile, log episodes. */
 async function finalizeSession(session: Session, kid: Kid): Promise<void> {
   session.status = 'ended';
   session.endedAt = new Date().toISOString();
-
   try {
     const brain = await getBrain();
-
+    const rp = reportPrompt(kid, session);
     const report = await generateStructured(brain, ReportSchema, {
-      system: reportPrompt(kid, session).system,
-      messages: [{ role: 'user', content: reportPrompt(kid, session).user }],
+      system: rp.system,
+      messages: [{ role: 'user', content: rp.user }],
       maxTokens: 1200,
       quality: 'deep'
     });
     session.report = report;
 
     const model = getOrInitLearner(kid.id);
+    const sp = summaryPrompt(kid, model, session);
     const sum = await generateStructured(brain, SummarySchema, {
-      system: summaryPrompt(kid, model, session).system,
-      messages: [{ role: 'user', content: summaryPrompt(kid, model, session).user }],
+      system: sp.system,
+      messages: [{ role: 'user', content: sp.user }],
       maxTokens: 600,
       quality: 'deep'
     });
@@ -191,19 +230,12 @@ async function finalizeSession(session: Session, kid: Kid): Promise<void> {
     for (const h of report.highlights.slice(0, 3)) addEpisode(kid.id, 'highlight', h, session.topic);
     for (const n of report.needsWork.slice(0, 3)) addEpisode(kid.id, 'struggle', n, session.topic);
     if (report.mastered.length) addEpisode(kid.id, 'milestone', `Mastered: ${report.mastered.join(', ')}`, session.topic);
-  } catch (err) {
-    // A report failure must never lose the session; persist what we have.
+  } catch {
     session.report = session.report || {
       summary: 'Lesson completed. (Report generation was unavailable.)',
-      mastered: [],
-      needsWork: [],
-      highlights: [],
-      nextSteps: '',
-      concerns: [],
-      score: 50
+      mastered: [], needsWork: [], highlights: [], nextSteps: '', concerns: [], score: 50
     };
   }
-
   db.sessions.save(session);
   db.lessons.setStatus(session.lessonId, 'complete');
 }

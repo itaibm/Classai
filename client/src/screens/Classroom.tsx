@@ -23,6 +23,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [recording, setRecording] = useState(false);
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
+  const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
   const [hd, setHd] = useState(localStorage.getItem(HD_KEY) === '1');
   const [muted, setMuted] = useState(localStorage.getItem(MUTE_KEY) === '1');
 
@@ -68,7 +69,8 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     setEmotion('thinking');
     setCaptions('');
     try {
-      const { turn, ended } = await api.turn(sessionRef.current, response as any);
+      const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
+      setBeat(beat);
       present(turn, ended);
     } catch (e: any) {
       setErrMsg(e.message || 'The tutor had trouble responding.');
@@ -170,6 +172,13 @@ export function Classroom({ lessonId }: { lessonId: string }) {
             {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions}
             {phase === 'error' && <span className="muted">{errMsg}</span>}
           </div>
+          {beat && phase !== 'ended' && (
+            <div className="beats" title={`Step ${beat.index + 1} of ${beat.total}`}>
+              {Array.from({ length: beat.total }).map((_, i) => (
+                <span key={i} className={`dot ${i < beat.index ? 'done' : i === beat.index ? 'now' : ''}`} />
+              ))}
+            </div>
+          )}
         </div>
 
         {phase === 'error' && (

@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS topics (
 );
 CREATE TABLE IF NOT EXISTS lessons (
   id TEXT PRIMARY KEY, kidId TEXT, courseId TEXT, topicId TEXT, kind TEXT,
-  subject TEXT, topic TEXT, title TEXT, objectives TEXT, plan TEXT,
+  subject TEXT, topic TEXT, title TEXT, objectives TEXT, analysis TEXT, plan TEXT,
   difficulty TEXT, status TEXT, createdAt TEXT
 );
 CREATE TABLE IF NOT EXISTS learner_models (
@@ -56,6 +56,13 @@ CREATE TABLE IF NOT EXISTS sessions (
 );
 CREATE TABLE IF NOT EXISTS settings ( key TEXT PRIMARY KEY, value TEXT );
 `);
+
+// Lightweight migration for DBs created before the `analysis` column existed.
+try {
+  db.exec('ALTER TABLE lessons ADD COLUMN analysis TEXT');
+} catch {
+  /* column already exists */
+}
 
 const J = (v: unknown) => JSON.stringify(v ?? null);
 const P = <T,>(v: unknown, fallback: T): T => {
@@ -190,10 +197,10 @@ export const lessons = {
   },
   insert(l: Lesson): Lesson {
     db.prepare(
-      'INSERT INTO lessons (id,kidId,courseId,topicId,kind,subject,topic,title,objectives,plan,difficulty,status,createdAt) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)'
+      'INSERT INTO lessons (id,kidId,courseId,topicId,kind,subject,topic,title,objectives,analysis,plan,difficulty,status,createdAt) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)'
     ).run(
       l.id, l.kidId, l.courseId, l.topicId, l.kind, l.subject, l.topic, l.title,
-      J(l.objectives), J(l.plan), l.difficulty, l.status, l.createdAt
+      J(l.objectives), J(l.analysis ?? null), J(l.plan), l.difficulty, l.status, l.createdAt
     );
     return l;
   },
@@ -211,6 +218,7 @@ function rowToLesson(r: any): Lesson {
     topic: r.topic,
     title: r.title,
     objectives: P(r.objectives, [] as string[]),
+    analysis: P(r.analysis, undefined as Lesson['analysis']),
     plan: P(r.plan, [] as Lesson['plan']),
     difficulty: r.difficulty,
     status: r.status,
@@ -306,8 +314,9 @@ function rowToSession(r: any): Session {
     endedAt: r.endedAt || undefined,
     transcript: P(r.transcript, [] as Session['transcript']),
     working: P(r.working, {
-      focus: '', momentum: 'steady', lastEmotion: 'neutral',
-      beatIndex: 0, turnsSinceCheck: 0, notes: [], observed: {}
+      focus: '', momentum: 'steady', lastEmotion: 'neutral', beatIndex: 0,
+      turnsSinceCheck: 0, teacherTurns: 0, struggleStreak: 0, checksPassed: 0,
+      checksTotal: 0, notes: [], observed: {}
     } as Session['working']),
     report: P(r.report, undefined as Session['report'])
   };

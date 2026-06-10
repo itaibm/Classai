@@ -130,11 +130,35 @@ export interface SubjectProfile {
 
 export type LessonKind = 'lesson' | 'diagnostic' | 'review';
 
+/** An anticipated wrong answer, the misconception behind it, and how to fix it. */
+export interface WrongAnswer {
+  answer: string;
+  why: string; // the misconception / error behind this answer
+  remedy: string; // the teaching move that corrects it
+}
+
+/** A pre-authored understanding check attached to a beat. */
+export interface BeatCheck {
+  question: string;
+  expectedAnswer: string;
+  wrongAnswers: WrongAnswer[];
+}
+
 /** One ordered teaching beat the brain drafts when generating a lesson. */
 export interface LessonBeat {
   kind: 'hook' | 'explain' | 'example' | 'check' | 'practice' | 'recap';
   goal: string;
   note: string; // guidance to the teacher for this beat
+  successCriteria: string; // observable evidence this beat landed
+  check?: BeatCheck; // for check/practice beats
+}
+
+/** The designer's analysis of the topic, produced before the beats. */
+export interface LessonAnalysis {
+  keyConcepts: string[];
+  misconceptions: string[]; // common wrong mental models for this topic
+  hooks: string[]; // real-world angles tied to the learner's interests
+  priorKnowledge: string[]; // what this lesson assumes the learner has
 }
 
 export interface Lesson {
@@ -147,6 +171,7 @@ export interface Lesson {
   topic: string;
   title: string;
   objectives: string[];
+  analysis?: LessonAnalysis;
   plan: LessonBeat[];
   difficulty: 'gentle' | 'standard' | 'challenge';
   status: 'ready' | 'in_progress' | 'complete';
@@ -185,12 +210,17 @@ export interface MemoryUpdate {
   interest?: string; // an interest revealed, to personalize future lessons
 }
 
+/** How the teacher judged the learner's last answer. */
+export type AnswerEval = 'correct' | 'partial' | 'incorrect' | 'na';
+
 /** Structured object the brain returns on every beat of a lesson. */
 export interface TeacherTurn {
   speech: string; // spoken aloud (short, kid-friendly); also shown as captions
   emotion: Emotion;
   interaction: Interaction;
   assessment: string; // private read on how it's going (not spoken)
+  answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)
+  beatComplete: boolean; // true when the current beat's success criteria are met
   memoryUpdates: MemoryUpdate[];
   concern?: string; // set if the kid said something a parent should see
   lessonComplete: boolean;
@@ -229,9 +259,20 @@ export interface WorkingMemory {
   momentum: Momentum; // the tutor's live read
   lastEmotion: Emotion;
   beatIndex: number; // where we are in the lesson plan
-  turnsSinceCheck: number; // beats since we last checked understanding
+  turnsSinceCheck: number; // teacher turns since we last checked understanding
+  teacherTurns: number; // total teacher turns this session
+  struggleStreak: number; // consecutive incorrect/struggling answers
+  checksPassed: number; // answers judged correct
+  checksTotal: number; // answers judged (correct+partial+incorrect)
   notes: string[]; // running scratch notes for this lesson
   observed: Record<string, { signal: 'got_it' | 'shaky' | 'struggling'; note: string }>;
+}
+
+/** Where the live lesson currently is, returned with each turn. */
+export interface BeatPosition {
+  index: number; // 0-based current beat
+  total: number;
+  kind: LessonBeat['kind'] | 'done';
 }
 
 export interface MemoryEpisode {
