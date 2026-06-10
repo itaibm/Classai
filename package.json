@@ -1,0 +1,40 @@
+{
+  "name": "classai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Classai — an open, character-driven AI homeschool tutor. Parents bring a curriculum; a friendly animated character teaches kids interactively with voice and facial expressions, adapts in real time (short-term memory), and remembers each learner across lessons (long-term memory). Bring your own AI brain (your own Anthropic/OpenAI key, an OAuth-connected account, or a free local model) — no developer key baked in.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,magenta \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "tsx watch server/src/index.ts",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "cross-env NODE_ENV=production tsx server/src/index.ts",
+    "typecheck": "tsc -p server/tsconfig.json --noEmit && tsc -p client/tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "@fastify/cors": "^10.0.1",
+    "@fastify/static": "^8.0.3",
+    "fastify": "^5.2.0",
+    "nanoid": "^5.0.9",
+    "openai": "^4.77.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
