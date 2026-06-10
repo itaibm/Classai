@@ -207,6 +207,11 @@ export type BlockType =
   | 'numberLine' // a labeled number line (math)
   | 'table' // a small data table
   | 'emojiViz' // a big emoji / row of emojis as an illustration
+  | 'image' // an image by URL (diagram, photo, map)
+  | 'video' // an embedded teaching video (YouTube/Vimeo)
+  | 'slideshow' // an interactive multi-slide explainer ("next ▸")
+  | 'flashcards' // flippable cards (tap to reveal the back)
+  | 'custom' // an AI-composed element built from safe UI primitives (see CustomNode)
   // interactive / checks
   | 'multipleChoice' // pick one; wrong answer animates toward the right one
   | 'multiSelect' // pick all that apply
@@ -225,6 +230,47 @@ export interface KeyTermBlock { type: 'keyTerm'; term: string; definition: strin
 export interface NumberLineBlock { type: 'numberLine'; min: number; max: number; step?: number; marks?: { value: number; label?: string }[]; highlight?: number; }
 export interface TableBlock { type: 'table'; headers: string[]; rows: string[][]; caption?: string; }
 export interface EmojiVizBlock { type: 'emojiViz'; emojis: string; caption?: string; }
+export interface ImageBlock { type: 'image'; src: string; alt?: string; caption?: string; }
+export interface VideoBlock { type: 'video'; url: string; title?: string; caption?: string; }
+export interface SlideshowBlock {
+  type: 'slideshow';
+  title?: string;
+  slides: { title?: string; body?: string; emoji?: string; imageUrl?: string }[];
+}
+export interface FlashcardsBlock { type: 'flashcards'; cards: { front: string; back: string }[]; }
+
+/**
+ * A node in the AI-composed "custom" block — a small, SAFE declarative UI tree.
+ * The AI builds new lesson elements ("click me", reveals, mini-presentations,
+ * illustrations, layouts) by composing these primitives only. There is no raw
+ * HTML/JS: the renderer interprets this tree using the app's design system, so
+ * custom tools always match the UI guidance and can't run arbitrary code.
+ */
+export type NodeAnim = 'none' | 'pop' | 'float' | 'spin' | 'pulse' | 'bounce' | 'fade';
+export type NodeColor = 'ink' | 'muted' | 'accent' | 'good' | 'bad';
+
+export type CustomNode =
+  // layout
+  | { t: 'col' | 'row' | 'card' | 'grid'; children: CustomNode[]; cols?: number; anim?: NodeAnim }
+  // content
+  | { t: 'text'; value: string; size?: 'sm' | 'md' | 'lg' | 'xl'; bold?: boolean; color?: NodeColor; align?: 'left' | 'center'; anim?: NodeAnim }
+  | { t: 'emoji'; value: string; size?: 'md' | 'lg' | 'xl'; anim?: NodeAnim }
+  | { t: 'image'; src: string; alt?: string; anim?: NodeAnim }
+  | { t: 'badge'; value: string; color?: NodeColor }
+  | { t: 'divider' }
+  | { t: 'spacer' }
+  // interactive (self-contained; no cross-node wiring)
+  | { t: 'reveal'; label: string; children: CustomNode[] } // a "click me" card that expands
+  | { t: 'steps'; slides: CustomNode[][] } // an interactive presentation (next/prev)
+  | { t: 'button'; label: string; action: 'complete' | 'continue' | 'speak'; say?: string; correct?: boolean }
+  | { t: 'choice'; prompt?: string; options: string[]; correct: number };
+
+export interface CustomBlock {
+  type: 'custom';
+  title?: string;
+  root: CustomNode;
+  interactive?: boolean; // true if this block is a check the kid must complete (via a button/choice)
+}
 
 export interface MultipleChoiceBlock { type: 'multipleChoice'; prompt: string; options: string[]; correct: number; explain?: string; }
 export interface MultiSelectBlock { type: 'multiSelect'; prompt: string; options: string[]; correct: number[]; explain?: string; }
@@ -239,6 +285,7 @@ export interface SpeakBlock { type: 'speak'; prompt: string; target?: string; }
 
 export type LessonBlock =
   | RichTextBlock | StepsBlock | KeyTermBlock | NumberLineBlock | TableBlock | EmojiVizBlock
+  | ImageBlock | VideoBlock | SlideshowBlock | FlashcardsBlock | CustomBlock
   | MultipleChoiceBlock | MultiSelectBlock | TrueFalseBlock | FillBlankBlock | MatchPairsBlock
   | OrderingBlock | CategorizeBlock | NumberEntryBlock | ShortTextBlock | SpeakBlock;
 
@@ -248,6 +295,12 @@ export const INTERACTIVE_BLOCKS: BlockType[] = [
 ];
 export function isInteractiveBlock(t?: BlockType): boolean {
   return !!t && INTERACTIVE_BLOCKS.includes(t);
+}
+/** Whether a block requires the learner to finish it before the lesson advances. */
+export function blockIsInteractive(block?: LessonBlock): boolean {
+  if (!block) return false;
+  if (block.type === 'custom') return block.interactive === true;
+  return isInteractiveBlock(block.type);
 }
 
 /** Result the client reports back after the kid finishes an interactive block. */

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Kid, Lesson, TeacherTurn, Emotion, LessonReport, LessonBlock, BlockResult } from '@shared/types';
-import { isInteractiveBlock } from '@shared/types';
+import { blockIsInteractive } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { Character } from '../avatar/Character.tsx';
@@ -132,7 +132,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
 
   const hue = kid?.avatar.hue ?? 210;
   const speaking = phase === 'speaking';
-  const interactive = isInteractiveBlock(block?.type);
+  const interactive = blockIsInteractive(block ?? undefined);
   const showContinue = phase === 'awaiting' && !interactive;
 
   return (

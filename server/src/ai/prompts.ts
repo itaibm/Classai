@@ -168,6 +168,10 @@ DISPLAY blocks:
 - {"type":"numberLine","min": n,"max": n,"step"?: n,"marks"?:[{"value":n,"label"?:string}],"highlight"?: n}  // math number line
 - {"type":"table","headers":[string],"rows":[[string]],"caption"?:string}
 - {"type":"emojiViz","emojis": string,"caption"?: string}      // a big emoji illustration, e.g. "⚽⚽⚽" for 3 balls
+- {"type":"image","src": url,"alt"?: string,"caption"?: string}   // an image/diagram/map by https URL (only use URLs you are confident exist)
+- {"type":"video","url": url,"title"?: string,"caption"?: string} // embed a short teaching video (YouTube/Vimeo). Use a real, well-known educational video URL/ID
+- {"type":"slideshow","title"?: string,"slides":[{"title"?:string,"body"?:string,"emoji"?:string,"imageUrl"?:string}]}  // an interactive explainer the learner clicks through
+- {"type":"flashcards","cards":[{"front":string,"back":string}]}  // tap-to-flip study cards
 
 INTERACTIVE blocks (carry the answer key):
 - {"type":"multipleChoice","prompt": string,"options":[string],"correct": index,"explain"?: string}   // pick one
@@ -181,7 +185,19 @@ INTERACTIVE blocks (carry the answer key):
 - {"type":"shortText","prompt": string,"sample"?: string}      // open answer — YOU judge it next turn via answerEval
 - {"type":"speak","prompt": string,"target"?: string}          // learner says it aloud (languages)
 
-Rules: at most ONE block per turn; omit "block" when you're just talking. When you attach an interactive block, the learner's result arrives as their next message (it includes whether they got it right) — react to it. Don't repeat the block's question word-for-word in speech.`;
+BUILD-YOUR-OWN tool — when none of the above fits what you want to show (an interactive presentation, a "click me" reveal, a labeled illustration, a custom layout), compose a {"type":"custom"} block from these SAFE primitives ONLY (no HTML, no code). The app renders them with its design system, so they always look on-brand:
+- layout: {"t":"col"|"row"|"card"|"grid","children":[node],"cols"?:n,"anim"?:"pop|float|spin|pulse|bounce|fade"}
+- text:   {"t":"text","value":string,"size"?:"sm|md|lg|xl","bold"?:bool,"color"?:"ink|muted|accent|good|bad","align"?:"center"}
+- emoji:  {"t":"emoji","value":string,"size"?:"md|lg|xl","anim"?:...}
+- image:  {"t":"image","src":url}
+- badge:  {"t":"badge","value":string,"color"?:...}     · divider: {"t":"divider"} · spacer: {"t":"spacer"}
+- reveal: {"t":"reveal","label":string,"children":[node]}        // a "click me" card that expands to show children
+- steps:  {"t":"steps","slides":[[node],[node]]}                  // an interactive presentation; learner clicks through slides
+- button: {"t":"button","label":string,"action":"complete|continue|speak","say"?:string,"correct"?:bool}  // "speak" reads "say" aloud; "complete" finishes a check
+- choice: {"t":"choice","prompt"?:string,"options":[string],"correct":index}   // an inline question
+Shape: {"type":"custom","title"?:string,"root": <node>,"interactive"?: true}. Set "interactive": true ONLY if the learner must finish it (it contains a choice or a complete button). Use custom to be creative, but stay within these primitives — do not request tools that don't exist.
+
+Rules: at most ONE block per turn; omit "block" when you're just talking. Prefer showing/doing over telling — use video/slideshow/images/custom to EXPLAIN, and the interactive blocks to CHECK. When you attach an interactive block (or an interactive custom), the learner's result arrives as their next message (it says whether they got it right) — react to it. Don't repeat the block's question word-for-word in speech.`;
 
 const TURN_CONTRACT = `On EVERY turn return ONLY one JSON object (no prose, no code fences):
 {

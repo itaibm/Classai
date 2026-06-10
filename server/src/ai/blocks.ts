@@ -23,6 +23,39 @@ const table = z.object({
   caption: z.string().optional()
 });
 const emojiViz = z.object({ type: z.literal('emojiViz'), emojis: z.string(), caption: z.string().optional() });
+const image = z.object({ type: z.literal('image'), src: z.string(), alt: z.string().optional(), caption: z.string().optional() });
+const video = z.object({ type: z.literal('video'), url: z.string(), title: z.string().optional(), caption: z.string().optional() });
+const slideshow = z.object({
+  type: z.literal('slideshow'),
+  title: z.string().optional(),
+  slides: z.array(z.object({
+    title: z.string().optional(), body: z.string().optional(), emoji: z.string().optional(), imageUrl: z.string().optional()
+  })).min(1)
+});
+const flashcards = z.object({
+  type: z.literal('flashcards'),
+  cards: z.array(z.object({ front: z.string(), back: z.string() })).min(1)
+});
+
+// Safe, recursive custom-UI node tree (no raw HTML/JS).
+const anim = z.enum(['none', 'pop', 'float', 'spin', 'pulse', 'bounce', 'fade']);
+const color = z.enum(['ink', 'muted', 'accent', 'good', 'bad']);
+const customNode: z.ZodType<any> = z.lazy(() =>
+  z.union([
+    z.object({ t: z.enum(['col', 'row', 'card', 'grid']), children: z.array(customNode), cols: z.number().int().min(1).max(6).optional(), anim: anim.optional() }),
+    z.object({ t: z.literal('text'), value: z.string(), size: z.enum(['sm', 'md', 'lg', 'xl']).optional(), bold: z.boolean().optional(), color: color.optional(), align: z.enum(['left', 'center']).optional(), anim: anim.optional() }),
+    z.object({ t: z.literal('emoji'), value: z.string(), size: z.enum(['md', 'lg', 'xl']).optional(), anim: anim.optional() }),
+    z.object({ t: z.literal('image'), src: z.string(), alt: z.string().optional(), anim: anim.optional() }),
+    z.object({ t: z.literal('badge'), value: z.string(), color: color.optional() }),
+    z.object({ t: z.literal('divider') }),
+    z.object({ t: z.literal('spacer') }),
+    z.object({ t: z.literal('reveal'), label: z.string(), children: z.array(customNode) }),
+    z.object({ t: z.literal('steps'), slides: z.array(z.array(customNode)).min(1) }),
+    z.object({ t: z.literal('button'), label: z.string(), action: z.enum(['complete', 'continue', 'speak']), say: z.string().optional(), correct: z.boolean().optional() }),
+    z.object({ t: z.literal('choice'), prompt: z.string().optional(), options: z.array(z.string()).min(2), correct: z.number().int().min(0) })
+  ])
+);
+const custom = z.object({ type: z.literal('custom'), title: z.string().optional(), root: customNode, interactive: z.boolean().optional() });
 
 const multipleChoice = z.object({
   type: z.literal('multipleChoice'),
@@ -64,6 +97,7 @@ const speak = z.object({ type: z.literal('speak'), prompt: z.string(), target: z
 
 export const BlockSchema = z.discriminatedUnion('type', [
   richText, steps, keyTerm, numberLine, table, emojiViz,
+  image, video, slideshow, flashcards, custom,
   multipleChoice, multiSelect, trueFalse, fillBlank, matchPairs,
   ordering, categorize, numberEntry, shortText, speak
 ]);

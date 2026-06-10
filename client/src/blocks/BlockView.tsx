@@ -7,10 +7,12 @@ import { Fragment, useMemo, useRef, useState } from 'react';
 import type {
   LessonBlock, BlockResult,
   RichTextBlock, StepsBlock, KeyTermBlock, NumberLineBlock, TableBlock, EmojiVizBlock,
+  ImageBlock, VideoBlock, SlideshowBlock, FlashcardsBlock,
   MultipleChoiceBlock, MultiSelectBlock, TrueFalseBlock, FillBlankBlock, NumberEntryBlock, ShortTextBlock, SpeakBlock
 } from '@shared/types';
 import { listen, liveSttSupported, type ListenHandle } from '../voice/stt.ts';
 import { MatchPairs, Ordering, Categorize } from './Arrange.tsx';
+import { CustomBlock } from './CustomBlock.tsx';
 
 type Done = (r: BlockResult) => void;
 
@@ -22,6 +24,11 @@ export function BlockView({ block, active, onComplete }: { block: LessonBlock; a
     case 'numberLine': return <NumberLine block={block} />;
     case 'table': return <TableView block={block} />;
     case 'emojiViz': return <EmojiViz block={block} />;
+    case 'image': return <ImageView block={block} />;
+    case 'video': return <Video block={block} />;
+    case 'slideshow': return <Slideshow block={block} />;
+    case 'flashcards': return <Flashcards block={block} />;
+    case 'custom': return <CustomBlock block={block} active={active} onComplete={onComplete} />;
     case 'multipleChoice': return <Choice prompt={block.prompt} options={block.options} correct={[block.correct]} explain={block.explain} active={active} onComplete={onComplete} />;
     case 'trueFalse': return <Choice prompt={block.statement} options={['True', 'False']} correct={[block.correct ? 0 : 1]} explain={block.explain} active={active} onComplete={onComplete} />;
     case 'multiSelect': return <MultiSelect block={block} active={active} onComplete={onComplete} />;
@@ -136,6 +143,86 @@ function EmojiViz({ block }: { block: EmojiVizBlock }) {
     <div className="block-card emoji-viz">
       <div className="emoji-row">{block.emojis}</div>
       {block.caption && <div className="muted">{block.caption}</div>}
+    </div>
+  );
+}
+
+function ImageView({ block }: { block: ImageBlock }) {
+  const [ok, setOk] = useState(true);
+  if (!ok) return <div className="block-card muted" style={{ textAlign: 'center' }}>🖼️ {block.alt || block.caption || 'image'}</div>;
+  return (
+    <figure className="block-card" style={{ margin: 0, textAlign: 'center' }}>
+      <img className="cu-image" src={block.src} alt={block.alt || ''} loading="lazy" referrerPolicy="no-referrer" onError={() => setOk(false)} />
+      {block.caption && <figcaption className="muted small" style={{ marginTop: 6 }}>{block.caption}</figcaption>}
+    </figure>
+  );
+}
+
+/** Turn a YouTube/Vimeo/url into an embeddable src; null if unrecognized. */
+function embedSrc(url: string): string | null {
+  const yt = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]{11})/);
+  if (yt) return `https://www.youtube.com/embed/${yt[1]}`;
+  const vm = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+  if (vm) return `https://player.vimeo.com/video/${vm[1]}`;
+  if (/^https:\/\/(www\.youtube\.com\/embed\/|player\.vimeo\.com\/)/.test(url)) return url;
+  if (/^[\w-]{11}$/.test(url)) return `https://www.youtube.com/embed/${url}`; // bare YouTube id
+  return null;
+}
+
+function Video({ block }: { block: VideoBlock }) {
+  const src = embedSrc(block.url);
+  return (
+    <div className="block-card">
+      {block.title && <div className="board-title">{block.title}</div>}
+      {src ? (
+        <div className="video-embed">
+          <iframe src={src} title={block.title || 'video'} allow="accelerometer; encrypted-media; picture-in-picture" allowFullScreen />
+        </div>
+      ) : (
+        <a className="btn" href={block.url} target="_blank" rel="noreferrer">▶ Open video</a>
+      )}
+      {block.caption && <div className="muted small" style={{ marginTop: 8 }}>{block.caption}</div>}
+    </div>
+  );
+}
+
+function Slideshow({ block }: { block: SlideshowBlock }) {
+  const [i, setI] = useState(0);
+  const s = block.slides[i]!;
+  return (
+    <div className="block-card">
+      {block.title && <div className="board-title">{block.title}</div>}
+      <div className="slide" key={i}>
+        {s.emoji && <div className="emoji-row" style={{ fontSize: '2.6rem' }}>{s.emoji}</div>}
+        {s.imageUrl && <img className="cu-image" src={s.imageUrl} alt="" loading="lazy" referrerPolicy="no-referrer" onError={(e) => ((e.target as HTMLImageElement).style.display = 'none')} />}
+        {s.title && <h3 style={{ margin: '6px 0' }}>{s.title}</h3>}
+        {s.body && <p style={{ fontSize: '1.05rem' }}>{s.body}</p>}
+      </div>
+      <div className="cu-steps-nav">
+        <button className="btn ghost small" disabled={i === 0} onClick={() => setI(i - 1)}>◂ Back</button>
+        <span className="beats">{block.slides.map((_, j) => <span key={j} className={`dot ${j === i ? 'now' : j < i ? 'done' : ''}`} />)}</span>
+        <button className="btn small" disabled={i >= block.slides.length - 1} onClick={() => setI(i + 1)}>Next ▸</button>
+      </div>
+    </div>
+  );
+}
+
+function Flashcards({ block }: { block: FlashcardsBlock }) {
+  const [flipped, setFlipped] = useState<Set<number>>(new Set());
+  const toggle = (i: number) => setFlipped((f) => { const n = new Set(f); n.has(i) ? n.delete(i) : n.add(i); return n; });
+  return (
+    <div className="block-card">
+      <div className="flashcards">
+        {block.cards.map((c, i) => (
+          <button key={i} className={`flashcard ${flipped.has(i) ? 'flipped' : ''}`} onClick={() => toggle(i)}>
+            <span className="flashcard-inner">
+              <span className="flashcard-face front">{c.front}</span>
+              <span className="flashcard-face back">{c.back}</span>
+            </span>
+          </button>
+        ))}
+      </div>
+      <div className="muted small" style={{ textAlign: 'center', marginTop: 8 }}>Tap a card to flip it</div>
     </div>
   );
 }
