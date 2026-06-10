@@ -13,6 +13,7 @@ import type {
 import { listen, liveSttSupported, type ListenHandle } from '../voice/stt.ts';
 import { MatchPairs, Ordering, Categorize } from './Arrange.tsx';
 import { CustomBlock } from './CustomBlock.tsx';
+import { Whiteboard } from './Whiteboard.tsx';
 
 type Done = (r: BlockResult) => void;
 
@@ -28,6 +29,7 @@ export function BlockView({ block, active, onComplete }: { block: LessonBlock; a
     case 'video': return <Video block={block} />;
     case 'slideshow': return <Slideshow block={block} />;
     case 'flashcards': return <Flashcards block={block} />;
+    case 'whiteboard': return <Whiteboard block={block} />;
     case 'custom': return <CustomBlock block={block} active={active} onComplete={onComplete} />;
     case 'multipleChoice': return <Choice prompt={block.prompt} options={block.options} correct={[block.correct]} explain={block.explain} active={active} onComplete={onComplete} />;
     case 'trueFalse': return <Choice prompt={block.statement} options={['True', 'False']} correct={[block.correct ? 0 : 1]} explain={block.explain} active={active} onComplete={onComplete} />;

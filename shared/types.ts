@@ -211,6 +211,7 @@ export type BlockType =
   | 'video' // an embedded teaching video (YouTube/Vimeo)
   | 'slideshow' // an interactive multi-slide explainer ("next ▸")
   | 'flashcards' // flippable cards (tap to reveal the back)
+  | 'whiteboard' // a board the tutor draws on (lines, arrows, shapes, labels)
   | 'custom' // an AI-composed element built from safe UI primitives (see CustomNode)
   // interactive / checks
   | 'multipleChoice' // pick one; wrong answer animates toward the right one
@@ -238,6 +239,28 @@ export interface SlideshowBlock {
   slides: { title?: string; body?: string; emoji?: string; imageUrl?: string }[];
 }
 export interface FlashcardsBlock { type: 'flashcards'; cards: { front: string; back: string }[]; }
+
+/**
+ * A whiteboard the tutor draws on. Elements live on a 100 (wide) × 62 (tall)
+ * coordinate canvas (0,0 = top-left). With `animate`, elements are drawn in one
+ * by one (lines/paths "ink in"), so the character appears to sketch as it talks.
+ */
+export type DrawColor = 'ink' | 'accent' | 'red' | 'green' | 'blue' | 'orange' | 'purple';
+
+export type WhiteboardElement =
+  | { k: 'line'; x1: number; y1: number; x2: number; y2: number; color?: DrawColor; width?: number; arrow?: boolean; dashed?: boolean }
+  | { k: 'rect'; x: number; y: number; w: number; h: number; color?: DrawColor; fill?: boolean; label?: string }
+  | { k: 'circle'; x: number; y: number; r: number; color?: DrawColor; fill?: boolean; label?: string }
+  | { k: 'path'; points: { x: number; y: number }[]; color?: DrawColor; width?: number; closed?: boolean } // polyline / freehand
+  | { k: 'text'; x: number; y: number; value: string; size?: number; color?: DrawColor; bold?: boolean }
+  | { k: 'dot'; x: number; y: number; color?: DrawColor; label?: string };
+
+export interface WhiteboardBlock {
+  type: 'whiteboard';
+  title?: string;
+  elements: WhiteboardElement[];
+  animate?: boolean; // draw elements in sequence
+}
 
 /**
  * A node in the AI-composed "custom" block — a small, SAFE declarative UI tree.
@@ -285,7 +308,7 @@ export interface SpeakBlock { type: 'speak'; prompt: string; target?: string; }
 
 export type LessonBlock =
   | RichTextBlock | StepsBlock | KeyTermBlock | NumberLineBlock | TableBlock | EmojiVizBlock
-  | ImageBlock | VideoBlock | SlideshowBlock | FlashcardsBlock | CustomBlock
+  | ImageBlock | VideoBlock | SlideshowBlock | FlashcardsBlock | WhiteboardBlock | CustomBlock
   | MultipleChoiceBlock | MultiSelectBlock | TrueFalseBlock | FillBlankBlock | MatchPairsBlock
   | OrderingBlock | CategorizeBlock | NumberEntryBlock | ShortTextBlock | SpeakBlock;
 

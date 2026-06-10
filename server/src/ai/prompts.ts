@@ -172,6 +172,15 @@ DISPLAY blocks:
 - {"type":"video","url": url,"title"?: string,"caption"?: string} // embed a short teaching video (YouTube/Vimeo). Use a real, well-known educational video URL/ID
 - {"type":"slideshow","title"?: string,"slides":[{"title"?:string,"body"?:string,"emoji"?:string,"imageUrl"?:string}]}  // an interactive explainer the learner clicks through
 - {"type":"flashcards","cards":[{"front":string,"back":string}]}  // tap-to-flip study cards
+- {"type":"whiteboard","title"?:string,"animate"?:true,"elements":[ ... ]}   // a board you DRAW on to diagram/sketch
+    canvas is 100 wide × 62 tall, (0,0)=top-left. element kinds:
+      {"k":"line","x1":n,"y1":n,"x2":n,"y2":n,"arrow"?:true,"dashed"?:true,"color"?:c}
+      {"k":"rect","x":n,"y":n,"w":n,"h":n,"label"?:string,"fill"?:true,"color"?:c}
+      {"k":"circle","x":n,"y":n,"r":n,"label"?:string,"fill"?:true,"color"?:c}
+      {"k":"path","points":[{"x":n,"y":n}],"closed"?:true,"color"?:c}   // polyline/curve/freehand
+      {"k":"text","x":n,"y":n,"value":string,"size"?:n,"color"?:c}
+      {"k":"dot","x":n,"y":n,"label"?:string,"color"?:c}
+    color c ∈ ink|accent|red|green|blue|orange|purple. Use it to sketch diagrams (label boxes + arrows for processes/cause-effect), number bonds, geometry figures, graphs/axes, timelines, maps. Set "animate":true so it draws in as you talk.
 
 INTERACTIVE blocks (carry the answer key):
 - {"type":"multipleChoice","prompt": string,"options":[string],"correct": index,"explain"?: string}   // pick one

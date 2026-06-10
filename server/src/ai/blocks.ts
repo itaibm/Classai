@@ -37,6 +37,22 @@ const flashcards = z.object({
   cards: z.array(z.object({ front: z.string(), back: z.string() })).min(1)
 });
 
+const drawColor = z.enum(['ink', 'accent', 'red', 'green', 'blue', 'orange', 'purple']);
+const wbElement = z.union([
+  z.object({ k: z.literal('line'), x1: z.number(), y1: z.number(), x2: z.number(), y2: z.number(), color: drawColor.optional(), width: z.number().optional(), arrow: z.boolean().optional(), dashed: z.boolean().optional() }),
+  z.object({ k: z.literal('rect'), x: z.number(), y: z.number(), w: z.number(), h: z.number(), color: drawColor.optional(), fill: z.boolean().optional(), label: z.string().optional() }),
+  z.object({ k: z.literal('circle'), x: z.number(), y: z.number(), r: z.number(), color: drawColor.optional(), fill: z.boolean().optional(), label: z.string().optional() }),
+  z.object({ k: z.literal('path'), points: z.array(z.object({ x: z.number(), y: z.number() })).min(2), color: drawColor.optional(), width: z.number().optional(), closed: z.boolean().optional() }),
+  z.object({ k: z.literal('text'), x: z.number(), y: z.number(), value: z.string(), size: z.number().optional(), color: drawColor.optional(), bold: z.boolean().optional() }),
+  z.object({ k: z.literal('dot'), x: z.number(), y: z.number(), color: drawColor.optional(), label: z.string().optional() })
+]);
+const whiteboard = z.object({
+  type: z.literal('whiteboard'),
+  title: z.string().optional(),
+  elements: z.array(wbElement).min(1),
+  animate: z.boolean().optional()
+});
+
 // Safe, recursive custom-UI node tree (no raw HTML/JS).
 const anim = z.enum(['none', 'pop', 'float', 'spin', 'pulse', 'bounce', 'fade']);
 const color = z.enum(['ink', 'muted', 'accent', 'good', 'bad']);
@@ -97,7 +113,7 @@ const speak = z.object({ type: z.literal('speak'), prompt: z.string(), target: z
 
 export const BlockSchema = z.discriminatedUnion('type', [
   richText, steps, keyTerm, numberLine, table, emojiViz,
-  image, video, slideshow, flashcards, custom,
+  image, video, slideshow, flashcards, whiteboard, custom,
   multipleChoice, multiSelect, trueFalse, fillBlank, matchPairs,
   ordering, categorize, numberEntry, shortText, speak
 ]);

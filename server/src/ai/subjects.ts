@@ -11,7 +11,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'Math',
     pedagogy:
       'Teach with concrete worked examples, then guided practice. Show steps one at a time and check the kid can do each step before moving on. Use numbers from the kid\'s interests in word problems. When the kid answers, check the reasoning, not just the final number. If wrong, find the specific step that broke down and reteach just that.',
-    recommendedBlocks: ['steps', 'numberLine', 'numberEntry', 'multipleChoice', 'ordering', 'emojiViz'],
+    recommendedBlocks: ['steps', 'numberLine', 'whiteboard', 'numberEntry', 'multipleChoice', 'ordering'],
     encourageSpeaking: false
   },
   science: {
@@ -19,7 +19,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'Science',
     pedagogy:
       'Build intuition first with everyday phenomena, then introduce the concept and vocabulary. Use predict → explain → check. Suggest simple, safe at-home observations or thought experiments. Surface and correct common misconceptions explicitly.',
-    recommendedBlocks: ['multipleChoice', 'categorize', 'ordering', 'keyTerm', 'trueFalse', 'matchPairs'],
+    recommendedBlocks: ['whiteboard', 'multipleChoice', 'categorize', 'keyTerm', 'trueFalse', 'matchPairs'],
     encourageSpeaking: false
   },
   language_arts: {

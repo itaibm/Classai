@@ -231,6 +231,13 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .flashcard-face.front { background: #fff; }
 .flashcard-face.back { background: var(--accent-soft); color: var(--accent-ink); transform: rotateY(180deg); }
 
+/* whiteboard */
+.whiteboard .wb-svg { display: block; background: #fcfbf7; border: 1px solid var(--line); border-radius: 12px; max-height: 380px; }
+.wb-draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: wbDraw .6s ease forwards; }
+@keyframes wbDraw { to { stroke-dashoffset: 0; } }
+.wb-fade { opacity: 0; transform-box: fill-box; transform-origin: center; animation: wbFade .4s ease forwards; }
+@keyframes wbFade { from { opacity: 0; transform: scale(.9); } to { opacity: 1; transform: scale(1); } }
+
 /* custom-block primitives */
 .cu-col { display: flex; flex-direction: column; gap: 10px; }
 .cu-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
