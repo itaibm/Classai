@@ -319,10 +319,21 @@ export const INTERACTIVE_BLOCKS: BlockType[] = [
 export function isInteractiveBlock(t?: BlockType): boolean {
   return !!t && INTERACTIVE_BLOCKS.includes(t);
 }
+/** Does a custom node tree contain a control that can finish the block? */
+export function customHasCompleter(node: CustomNode): boolean {
+  if (node.t === 'choice') return true;
+  if (node.t === 'button') return node.action === 'complete' || node.action === 'continue';
+  if (node.t === 'reveal' || node.t === 'col' || node.t === 'row' || node.t === 'card' || node.t === 'grid') {
+    return (node.children || []).some(customHasCompleter);
+  }
+  if (node.t === 'steps') return node.slides.some((s) => s.some(customHasCompleter));
+  return false;
+}
+
 /** Whether a block requires the learner to finish it before the lesson advances. */
 export function blockIsInteractive(block?: LessonBlock): boolean {
   if (!block) return false;
-  if (block.type === 'custom') return block.interactive === true;
+  if (block.type === 'custom') return block.interactive === true && customHasCompleter(block.root);
   return isInteractiveBlock(block.type);
 }
 
