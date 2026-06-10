@@ -69,15 +69,18 @@ export function captureLoopbackCode(expectedState: string, timeoutMs = 300_000):
       }
       const code = url.searchParams.get('code');
       const state = url.searchParams.get('state');
+      const okMatch = Boolean(code) && state === expectedState;
       res.writeHead(200, { 'content-type': 'text/html' });
       res.end(
         '<html><body style="font-family:system-ui;text-align:center;padding:3rem">' +
-          '<h2>Classai is connected ✅</h2><p>You can close this tab and return to Classai.</p>' +
+          (okMatch
+            ? '<h2>Classai is connected ✅</h2><p>You can close this tab and return to Classai.</p>'
+            : '<h2>Sign-in didn’t complete ⚠️</h2><p>Please return to Classai and try again.</p>') +
           '</body></html>'
       );
       cleanup();
-      if (!code || state !== expectedState) reject(new Error('oauth_callback_mismatch'));
-      else resolve(code);
+      if (!okMatch) reject(new Error('oauth_callback_mismatch'));
+      else resolve(code!);
     });
     const timer = setTimeout(() => {
       cleanup();
@@ -121,7 +124,7 @@ function extractAccountId(jwt?: string): string | undefined {
   const part = jwt.split('.')[1];
   if (!part) return undefined;
   try {
-    const payload = JSON.parse(Buffer.from(part, 'base64').toString('utf8'));
+    const payload = JSON.parse(Buffer.from(part, 'base64url').toString('utf8'));
     return (
       payload['https://api.openai.com/auth']?.chatgpt_account_id ||
       payload.account_id ||

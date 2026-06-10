@@ -88,6 +88,10 @@ function speakBrowser(opts: SpeakOpts): SpeakHandle {
     stop() {
       speaking = false;
       cancelAnimationFrame(raf);
+      // Detach onend BEFORE cancel() — cancel() fires onend, which would
+      // otherwise call opts.onEnd and advance the UI for an interrupted turn.
+      u.onend = null;
+      u.onboundary = null;
       speechSynthesis.cancel();
     }
   };

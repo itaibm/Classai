@@ -145,8 +145,13 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   if (turn.memoryUpdates.length) applyTurnMemory(kid.id, turn.memoryUpdates);
   if (turn.concern) addEpisode(kid.id, 'note', `⚠️ ${turn.concern}`, lesson.topic);
 
+  // Deterministic backstop: never let a lesson run forever if the model keeps
+  // omitting lessonComplete. End hard on a turn cap or 2x the soft time budget.
+  const exhausted = w.teacherTurns >= MAX_TEACHER_TURNS || minutesElapsed >= softLimit(lesson) * 2;
+
   let ended = false;
-  if (turn.lessonComplete) {
+  if (turn.lessonComplete || exhausted) {
+    if (exhausted) turn.lessonComplete = true;
     await finalizeSession(session, kid);
     ended = true;
   } else {
@@ -154,6 +159,8 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   }
   return { turn, ended, sessionId, beat: { index: Math.min(w.beatIndex, lesson.plan.length - 1), total: lesson.plan.length } };
 }
+
+const MAX_TEACHER_TURNS = 40;
 
 /** The director updates lesson state from the LLM's judgement of the turn. */
 function applyDirectorState(w: WorkingMemory, turn: TeacherTurn, beatKind: string): void {

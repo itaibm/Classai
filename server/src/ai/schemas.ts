@@ -15,9 +15,24 @@ export function extractJson(text: string): unknown {
   // strip ```json ... ``` fences
   const fence = t.match(/```(?:json)?\s*([\s\S]*?)```/i);
   if (fence?.[1]) t = fence[1].trim();
-  // find the first balanced {...}
-  const start = t.indexOf('{');
-  if (start === -1) throw new Error('no_json_found');
+
+  // Try each '{' as a candidate start; return the first that yields a
+  // balanced, parseable object. This is robust to prose that contains braces
+  // before the real JSON (e.g. "the JSON for {your topic}: {\"speech\":...}").
+  for (let start = t.indexOf('{'); start !== -1; start = t.indexOf('{', start + 1)) {
+    const end = matchingBrace(t, start);
+    if (end === -1) continue;
+    try {
+      return JSON.parse(t.slice(start, end + 1));
+    } catch {
+      /* not valid from here — try the next '{' */
+    }
+  }
+  throw new Error('no_json_found');
+}
+
+/** Index of the '}' that closes the '{' at `start`, string/escape aware, or -1. */
+function matchingBrace(t: string, start: number): number {
   let depth = 0;
   let inStr = false;
   let esc = false;
@@ -31,10 +46,10 @@ export function extractJson(text: string): unknown {
     else if (c === '{') depth++;
     else if (c === '}') {
       depth--;
-      if (depth === 0) return JSON.parse(t.slice(start, i + 1));
+      if (depth === 0) return i;
     }
   }
-  throw new Error('unbalanced_json');
+  return -1;
 }
 
 // ---- schemas --------------------------------------------------------------
@@ -157,12 +172,20 @@ export async function generateStructured<S extends z.ZodTypeAny>(
   opts: GenerateOptions
 ): Promise<z.infer<S>> {
   const attempt = async (extra?: string): Promise<z.infer<S>> => {
-    const messages = extra
-      ? [...opts.messages, { role: 'user' as const, content: extra }]
-      : opts.messages;
+    let messages = opts.messages;
+    if (extra) {
+      // Merge the corrective nudge into the trailing user turn rather than
+      // appending a second consecutive user message (which some providers reject).
+      messages = [...opts.messages];
+      const last = messages[messages.length - 1];
+      if (last && last.role === 'user') {
+        messages[messages.length - 1] = { ...last, content: `${last.content}\n\n${extra}` };
+      } else {
+        messages.push({ role: 'user', content: extra });
+      }
+    }
     const raw = await brain.generate({ ...opts, json: true, messages });
-    const parsed = schema.parse(extractJson(raw));
-    return parsed;
+    return schema.parse(extractJson(raw));
   };
   try {
     return await attempt();

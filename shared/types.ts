@@ -268,13 +268,6 @@ export interface WorkingMemory {
   observed: Record<string, { signal: 'got_it' | 'shaky' | 'struggling'; note: string }>;
 }
 
-/** Where the live lesson currently is, returned with each turn. */
-export interface BeatPosition {
-  index: number; // 0-based current beat
-  total: number;
-  kind: LessonBeat['kind'] | 'done';
-}
-
 export interface MemoryEpisode {
   id: string;
   kidId: string;

@@ -151,12 +151,14 @@ async function localBrain(p: ReturnType<typeof authStore.getStored> & object): P
   return {
     vendor: 'local',
     model,
-    async generate({ system, messages, maxTokens = 1400, json }) {
+    async generate({ system, messages, maxTokens = 1400 }) {
+      // Note: we deliberately do NOT send `response_format` here — many
+      // OpenAI-compatible local servers (Ollama, etc.) reject json_object.
+      // JSON is enforced via the prompt and parsed tolerantly upstream.
       const res = await client.chat.completions.create({
         model,
         max_tokens: maxTokens,
-        messages: [{ role: 'system', content: system }, ...messages],
-        ...(json ? { response_format: { type: 'json_object' as const } } : {})
+        messages: [{ role: 'system', content: system }, ...messages]
       });
       return (res.choices[0]?.message?.content || '').trim();
     }
