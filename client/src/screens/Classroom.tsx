@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Kid, Lesson, TeacherTurn, Interaction, Emotion, LessonReport, Board } from '@shared/types';
+import type { Kid, Lesson, TeacherTurn, Emotion, LessonReport, LessonBlock, BlockResult } from '@shared/types';
+import { isInteractiveBlock } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { Character } from '../avatar/Character.tsx';
+import { BlockView } from '../blocks/BlockView.tsx';
 import { speak, unlockAudio, type SpeakHandle } from '../voice/tts.ts';
-import { listen, liveSttSupported, type ListenHandle } from '../voice/stt.ts';
 
 type Phase = 'gate' | 'starting' | 'thinking' | 'speaking' | 'awaiting' | 'ended' | 'error';
 
@@ -18,10 +19,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [emotion, setEmotion] = useState<Emotion>('happy');
   const [mouthOpen, setMouthOpen] = useState(0);
   const [captions, setCaptions] = useState('');
-  const [board, setBoard] = useState<Board | null>(null);
-  const [interaction, setInteraction] = useState<Interaction | null>(null);
-  const [typed, setTyped] = useState('');
-  const [recording, setRecording] = useState(false);
+  const [block, setBlock] = useState<LessonBlock | null>(null);
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
   const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
@@ -30,15 +28,12 @@ export function Classroom({ lessonId }: { lessonId: string }) {
 
   const sessionRef = useRef<string>('');
   const speakRef = useRef<SpeakHandle | null>(null);
-  const listenRef = useRef<ListenHandle | null>(null);
   const kidRef = useRef<Kid | null>(null);
   const mutedRef = useRef(muted);
   const hdRef = useRef(hd);
   mutedRef.current = muted;
   hdRef.current = hd;
 
-  // Load the lesson + learner so we can show the character, but DON'T start the
-  // session (or any audio) until the kid taps Start — that tap unlocks audio.
   useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -57,13 +52,12 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     return () => {
       cancelled = true;
       speakRef.current?.stop();
-      listenRef.current?.stop();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lessonId]);
 
   async function begin() {
-    unlockAudio(); // critical: must run inside the tap so audio can play
+    unlockAudio(); // must run inside the tap so audio can play
     setPhase('starting');
     try {
       const { sessionId } = await api.startLesson(lessonId);
@@ -75,11 +69,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     }
   }
 
-  async function fetchTurn(response?: { text: string; via: 'choice' | 'type' | 'speak' | 'continue' }) {
-    setInteraction(null);
+  async function fetchTurn(response?: { text: string; via: 'block' | 'continue'; correct?: boolean }) {
     setPhase('thinking');
     setEmotion('thinking');
     setCaptions('');
+    setBlock(null);
     try {
       const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
       setBeat(beat);
@@ -93,16 +87,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   function present(turn: TeacherTurn, ended: boolean) {
     setEmotion(turn.emotion || 'neutral');
     setCaptions(turn.speech);
-    if (turn.board && (turn.board.title || turn.board.lines?.length)) setBoard(turn.board);
+    setBlock(turn.block ?? null);
     const afterSpeech = () => {
       setMouthOpen(0);
       if (ended || turn.lessonComplete) finish();
-      else {
-        const it = turn.interaction;
-        setInteraction(it.type === 'none' ? { type: 'continue', prompt: '' } : it);
-        setTyped('');
-        setPhase('awaiting');
-      }
+      else setPhase('awaiting');
     };
     if (mutedRef.current) {
       setPhase('speaking');
@@ -123,7 +112,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   async function finish() {
     setPhase('ended');
     setEmotion('celebrating');
-    setBoard(null);
+    setBlock(null);
     try {
       const { session } = await api.session(sessionRef.current);
       setReport(session.report || null);
@@ -132,31 +121,19 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     }
   }
 
-  const answer = (text: string, via: 'choice' | 'type' | 'speak' | 'continue') => {
+  const onBlockComplete = (r: BlockResult) => {
     speakRef.current?.stop();
-    listenRef.current?.stop();
-    setRecording(false);
-    fetchTurn({ text, via });
+    fetchTurn({ text: r.text, via: 'block', correct: r.correct });
   };
-
-  function toggleRecord() {
-    if (recording) {
-      listenRef.current?.stop();
-      setRecording(false);
-      return;
-    }
-    setRecording(true);
-    setTyped('');
-    listenRef.current = listen({
-      onPartial: (t) => setTyped(t),
-      onFinal: (t) => setTyped(t),
-      onEnd: () => setRecording(false),
-      onError: () => setRecording(false)
-    });
-  }
+  const onContinue = () => {
+    speakRef.current?.stop();
+    fetchTurn({ text: '(continue)', via: 'continue' });
+  };
 
   const hue = kid?.avatar.hue ?? 210;
   const speaking = phase === 'speaking';
+  const interactive = isInteractiveBlock(block?.type);
+  const showContinue = phase === 'awaiting' && !interactive;
 
   return (
     <div className="app" style={{ ['--accent-h' as any]: hue }}>
@@ -173,10 +150,9 @@ export function Classroom({ lessonId }: { lessonId: string }) {
       </div>
 
       <div className="container">
-        <div className="stage">
+        <div className="stage compact">
           {kid && <Character character={kid.avatar.character} hue={hue} emotion={emotion} mouthOpen={mouthOpen} speaking={speaking} />}
 
-          {/* Start gate — unlocks audio on tap so the character is never silent */}
           {phase === 'gate' && (
             <div className="col center" style={{ gap: 12 }}>
               <div className="captions">{lesson ? `Ready for “${lesson.topic}”?` : 'Getting ready…'}</div>
@@ -203,13 +179,16 @@ export function Classroom({ lessonId }: { lessonId: string }) {
           )}
         </div>
 
-        {/* The tutor's board */}
-        {board && phase !== 'ended' && phase !== 'gate' && (
-          <div className="board">
-            {board.title && <div className="board-title">{board.title}</div>}
-            {board.lines && board.lines.length > 0 && (
-              <ul className="list-reset">{board.lines.map((l, i) => <li key={i} className="board-line">{l}</li>)}</ul>
-            )}
+        {/* the tool-belt block for this turn */}
+        {block && (phase === 'speaking' || phase === 'awaiting') && (
+          <div className="block-area">
+            <BlockView key={`${beat?.index}-${block.type}`} block={block} active={phase === 'awaiting'} onComplete={onBlockComplete} />
+          </div>
+        )}
+
+        {showContinue && (
+          <div className="row center" style={{ marginTop: 16 }}>
+            <button className="btn lg" onClick={onContinue}>Continue ▶</button>
           </div>
         )}
 
@@ -227,51 +206,6 @@ export function Classroom({ lessonId }: { lessonId: string }) {
             <div className="row center" style={{ gap: 10, marginTop: 14 }}>
               <button className="btn lg" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Done</button>
             </div>
-          </div>
-        )}
-
-        {phase === 'awaiting' && interaction && (
-          <div className="interaction">
-            {interaction.prompt && <p style={{ textAlign: 'center', fontWeight: 600 }}>{interaction.prompt}</p>}
-
-            {interaction.type === 'choice' && interaction.choices && (
-              <div className="choices">
-                {interaction.choices.map((c, i) => (
-                  <button key={i} className="choice" onClick={() => answer(c, 'choice')}>{c}</button>
-                ))}
-              </div>
-            )}
-
-            {interaction.type === 'type' && (
-              <form className="answer-row" onSubmit={(e) => { e.preventDefault(); if (typed.trim()) answer(typed.trim(), 'type'); }}>
-                <input autoFocus type="text" value={typed} onChange={(e) => setTyped(e.target.value)} placeholder="Type your answer…" />
-                <button className="btn" type="submit" disabled={!typed.trim()}>Send</button>
-              </form>
-            )}
-
-            {interaction.type === 'speak' && (
-              <div className="col center" style={{ gap: 12 }}>
-                <button className={`mic ${recording ? 'recording' : ''}`} onClick={toggleRecord} title="Speak your answer">
-                  {recording ? '■' : '🎤'}
-                </button>
-                {typed && <p className="muted">“{typed}”</p>}
-                <div className="row center" style={{ gap: 10 }}>
-                  <button className="btn" disabled={!typed.trim()} onClick={() => answer(typed.trim(), 'speak')}>Send answer</button>
-                  {!liveSttSupported() && <span className="muted small">Speaking isn’t supported here — type instead.</span>}
-                </div>
-                {!liveSttSupported() && (
-                  <form className="answer-row" onSubmit={(e) => { e.preventDefault(); if (typed.trim()) answer(typed.trim(), 'speak'); }}>
-                    <input type="text" value={typed} onChange={(e) => setTyped(e.target.value)} placeholder="Type what you'd say…" />
-                  </form>
-                )}
-              </div>
-            )}
-
-            {interaction.type === 'continue' && (
-              <div className="row center">
-                <button className="btn lg" onClick={() => answer('(continue)', 'continue')}>Continue ▶</button>
-              </div>
-            )}
           </div>
         )}
       </div>

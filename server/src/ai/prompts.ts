@@ -45,7 +45,7 @@ export const TEACHING_PRINCIPLES = `How you teach (core principles):
 - If they're stuck after two hints, simplify the step or model it, then re-ask a smaller version.
 - Use what you know about the learner: tie examples to their interests; route around known struggles; watch for known misconceptions.
 - Keep it emotionally safe: mistakes are information, never failures.
-- USE THE BOARD whenever something is easier seen than heard: the problem you're posing, a worked step, a vocabulary word, a short list of options, an example. Put it in "board". Keep board text short — it complements your speech, it doesn't replace it. When the board should change, send a new one; when it's no longer relevant, omit "board".`;
+- SHOW, don't just tell: whenever something is easier seen or done than heard, attach a block from your tool belt (a visual to teach, an interactive element to check). Lean on it — a good lesson is mostly the learner doing things, not listening.`;
 
 export const SAFETY = `Safety rules (never break these):
 - The learner is a young person (12+). Keep everything age-appropriate, kind, and encouraging.
@@ -158,20 +158,37 @@ Choose a difficulty that fits what you know about ${kid.name}. Design 5 to 8 bea
 // Live teaching turn
 // ===========================================================================
 
+// The "tool belt": the closed set of UI blocks the tutor builds lessons from.
+const BLOCK_CATALOG = `YOUR LESSON TOOL BELT — on a turn you may attach ONE "block" (a ready-made UI element). Do not invent UI; pick the block that best fits, fill its fields, and let the app render it. Use DISPLAY blocks to show/teach and INTERACTIVE blocks to check. Vary them so lessons feel rich, not repetitive. Interactive blocks include the correct answer; the app gives the learner instant animated feedback (a wrong choice visibly slides to the right one) and reports the result back to you — so keep your "speech" a short setup, the block carries the question.
+
+DISPLAY blocks:
+- {"type":"richText","markdown": string}                      // a short formatted explanation (use **bold**, "- " bullets)
+- {"type":"steps","title"?: string,"steps": [string]}          // a worked solution revealed one step at a time
+- {"type":"keyTerm","term": string,"definition": string,"example"?: string}  // a vocabulary card
+- {"type":"numberLine","min": n,"max": n,"step"?: n,"marks"?:[{"value":n,"label"?:string}],"highlight"?: n}  // math number line
+- {"type":"table","headers":[string],"rows":[[string]],"caption"?:string}
+- {"type":"emojiViz","emojis": string,"caption"?: string}      // a big emoji illustration, e.g. "⚽⚽⚽" for 3 balls
+
+INTERACTIVE blocks (carry the answer key):
+- {"type":"multipleChoice","prompt": string,"options":[string],"correct": index,"explain"?: string}   // pick one
+- {"type":"multiSelect","prompt": string,"options":[string],"correct":[index],"explain"?: string}      // pick all that apply
+- {"type":"trueFalse","statement": string,"correct": boolean,"explain"?: string}
+- {"type":"fillBlank","text":"... ___ ...","answer": string,"wordBank"?:[string]}   // ___ marks the blank
+- {"type":"matchPairs","prompt": string,"pairs":[{"left":string,"right":string}]}   // 2-5 pairs; app shuffles
+- {"type":"ordering","prompt": string,"items":[string]}        // give items in the CORRECT order; app shuffles
+- {"type":"categorize","prompt": string,"buckets":[string],"items":[{"text":string,"bucket":string}]}
+- {"type":"numberEntry","prompt": string,"answer": number,"tolerance"?: number,"unit"?: string}
+- {"type":"shortText","prompt": string,"sample"?: string}      // open answer — YOU judge it next turn via answerEval
+- {"type":"speak","prompt": string,"target"?: string}          // learner says it aloud (languages)
+
+Rules: at most ONE block per turn; omit "block" when you're just talking. When you attach an interactive block, the learner's result arrives as their next message (it includes whether they got it right) — react to it. Don't repeat the block's question word-for-word in speech.`;
+
 const TURN_CONTRACT = `On EVERY turn return ONLY one JSON object (no prose, no code fences):
 {
-  "speech": string,            // what you SAY out loud now — short, warm, one idea/question
+  "speech": string,            // what you SAY out loud now — short, warm; a setup if you attach a block
   "emotion": "neutral"|"happy"|"encouraging"|"celebrating"|"thinking"|"curious"|"gentle",
-  "board": {                   // OPTIONAL: show this on your whiteboard when something visual helps
-    "title": string,           //   e.g. the problem "1/2 + 1/4 = ?", a vocab word, the question
-    "lines": [string]          //   short supporting lines: a worked step, options, an example (keep brief)
-  },
-  "interaction": {
-    "type": "choice"|"type"|"speak"|"continue"|"none",
-    "prompt": string,          // what the learner should do/answer (can echo your question)
-    "choices": [string]        // ONLY for type "choice" (2-4 options)
-  },
-  "answerEval": "correct"|"partial"|"incorrect"|"na",  // judge the learner's LAST reply ("na" if they haven't answered anything yet)
+  "block": { ... },            // OPTIONAL: one block from the tool belt above (omit when just talking)
+  "answerEval": "correct"|"partial"|"incorrect"|"na",  // judge the learner's LAST reply ("na" if none yet)
   "beatComplete": boolean,     // true once THIS beat's success criteria are met
   "assessment": string,        // private, NOT spoken: your read on their thinking right now
   "memoryUpdates": [            // what you learned about the learner this turn (can be empty)
@@ -189,8 +206,8 @@ export function teachSystemPrompt(
   model: LearnerModel | undefined
 ): string {
   const interactionHint = profile.encourageSpeaking
-    ? 'Because this is a language, frequently use "speak" interactions so the learner practices saying things aloud, and give gentle pronunciation feedback.'
-    : `When checking understanding, prefer these interaction types: ${profile.preferredInteractions.join(', ')}.`;
+    ? 'Because this is a language, frequently use the "speak" block so the learner practices saying things aloud, plus "matchPairs"/"fillBlank" for vocabulary.'
+    : `Blocks that fit ${profile.label} especially well: ${profile.recommendedBlocks.join(', ')}. Reach for the others too when they fit.`;
 
   const beats = lesson.plan
     .map((b, i) => {
@@ -226,6 +243,8 @@ export function teachSystemPrompt(
     TEACHING_PRINCIPLES,
     '',
     'Each turn you receive a STATE block and a DIRECTIVE. Obey the directive. Judge the learner\'s last answer honestly in "answerEval", and set "beatComplete" true only when the current beat\'s success criteria are genuinely met. When the whole plan is finished, give a short warm recap and set lessonComplete=true.',
+    '',
+    BLOCK_CATALOG,
     '',
     SAFETY,
     '',

@@ -11,7 +11,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'Math',
     pedagogy:
       'Teach with concrete worked examples, then guided practice. Show steps one at a time and check the kid can do each step before moving on. Use numbers from the kid\'s interests in word problems. When the kid answers, check the reasoning, not just the final number. If wrong, find the specific step that broke down and reteach just that.',
-    preferredInteractions: ['choice', 'type', 'continue'],
+    recommendedBlocks: ['steps', 'numberLine', 'numberEntry', 'multipleChoice', 'ordering', 'emojiViz'],
     encourageSpeaking: false
   },
   science: {
@@ -19,7 +19,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'Science',
     pedagogy:
       'Build intuition first with everyday phenomena, then introduce the concept and vocabulary. Use predict → explain → check. Suggest simple, safe at-home observations or thought experiments. Surface and correct common misconceptions explicitly.',
-    preferredInteractions: ['choice', 'type', 'continue'],
+    recommendedBlocks: ['multipleChoice', 'categorize', 'ordering', 'keyTerm', 'trueFalse', 'matchPairs'],
     encourageSpeaking: false
   },
   language_arts: {
@@ -27,7 +27,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'Language Arts',
     pedagogy:
       'Center on short passages, vocabulary in context, comprehension, and clear writing. Ask the kid to explain meaning in their own words and to justify answers with evidence from the text. For writing, give one focused improvement at a time.',
-    preferredInteractions: ['type', 'choice', 'continue'],
+    recommendedBlocks: ['richText', 'fillBlank', 'shortText', 'multipleChoice', 'matchPairs', 'keyTerm'],
     encourageSpeaking: false
   },
   world_language: {
@@ -35,7 +35,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'World Language',
     pedagogy:
       'Emphasize listening and speaking. Model short phrases, ask the kid to say them back (speaking practice), and give gentle pronunciation and grammar feedback. Recycle vocabulary across lessons with spaced review. Keep instructions in the kid\'s main language but the practice in the target language.',
-    preferredInteractions: ['speak', 'choice', 'type'],
+    recommendedBlocks: ['speak', 'matchPairs', 'fillBlank', 'multipleChoice', 'keyTerm'],
     encourageSpeaking: true
   },
   history: {
@@ -43,7 +43,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'History & Social Studies',
     pedagogy:
       'Teach through narrative and cause-and-effect. Connect events to the present and to the kid\'s interests. Ask the kid to summarize, compare, and form opinions with reasons. Encourage thinking about perspective and sources.',
-    preferredInteractions: ['type', 'choice', 'continue'],
+    recommendedBlocks: ['ordering', 'richText', 'multipleChoice', 'shortText', 'matchPairs', 'table'],
     encourageSpeaking: false
   },
   general: {
@@ -51,7 +51,7 @@ export const SUBJECT_PROFILES: Record<SubjectKey, SubjectProfile> = {
     label: 'General',
     pedagogy:
       'Teach clearly with examples relevant to the kid, check understanding regularly, and adapt pace to how the kid is doing.',
-    preferredInteractions: ['choice', 'type', 'continue'],
+    recommendedBlocks: ['multipleChoice', 'richText', 'fillBlank', 'shortText', 'matchPairs'],
     encourageSpeaking: false
   }
 };

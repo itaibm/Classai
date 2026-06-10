@@ -120,8 +120,8 @@ export interface SubjectProfile {
   key: SubjectKey;
   label: string;
   pedagogy: string; // injected into the teaching prompt
-  preferredInteractions: InteractionType[]; // what kinds of checks fit this subject
-  encourageSpeaking: boolean; // bias toward 'speak' interactions (languages)
+  recommendedBlocks: BlockType[]; // tool-belt blocks that fit this subject well
+  encourageSpeaking: boolean; // bias toward 'speak' blocks (languages)
 }
 
 // ---------------------------------------------------------------------------
@@ -191,12 +191,69 @@ export type Emotion =
   | 'curious'
   | 'gentle';
 
-export type InteractionType = 'choice' | 'type' | 'speak' | 'continue' | 'none';
+// ---------------------------------------------------------------------------
+// The lesson UI "tool belt" — the closed set of interactive/visual elements the
+// tutor composes lessons from. The brain picks a block type per turn and fills
+// its props; the client renders the matching polished component. Interactive
+// blocks carry their own answer key so they can give instant animated feedback
+// (e.g. nudge a wrong choice to the right answer) before reporting the result.
+// ---------------------------------------------------------------------------
 
-export interface Interaction {
-  type: InteractionType;
-  prompt: string;
-  choices?: string[]; // for 'choice'
+export type BlockType =
+  // display / teaching
+  | 'richText' // formatted explanation (bold, lists)
+  | 'steps' // a worked solution revealed step by step
+  | 'keyTerm' // a vocabulary card (term + definition + example)
+  | 'numberLine' // a labeled number line (math)
+  | 'table' // a small data table
+  | 'emojiViz' // a big emoji / row of emojis as an illustration
+  // interactive / checks
+  | 'multipleChoice' // pick one; wrong answer animates toward the right one
+  | 'multiSelect' // pick all that apply
+  | 'trueFalse' // true/false
+  | 'fillBlank' // complete a sentence (optional word bank)
+  | 'matchPairs' // match left items to right items
+  | 'ordering' // arrange items into the correct order
+  | 'categorize' // sort items into buckets
+  | 'numberEntry' // type a numeric answer
+  | 'shortText' // open written answer (tutor judges)
+  | 'speak'; // say it aloud (language practice)
+
+export interface RichTextBlock { type: 'richText'; markdown: string; }
+export interface StepsBlock { type: 'steps'; title?: string; steps: string[]; }
+export interface KeyTermBlock { type: 'keyTerm'; term: string; definition: string; example?: string; }
+export interface NumberLineBlock { type: 'numberLine'; min: number; max: number; step?: number; marks?: { value: number; label?: string }[]; highlight?: number; }
+export interface TableBlock { type: 'table'; headers: string[]; rows: string[][]; caption?: string; }
+export interface EmojiVizBlock { type: 'emojiViz'; emojis: string; caption?: string; }
+
+export interface MultipleChoiceBlock { type: 'multipleChoice'; prompt: string; options: string[]; correct: number; explain?: string; }
+export interface MultiSelectBlock { type: 'multiSelect'; prompt: string; options: string[]; correct: number[]; explain?: string; }
+export interface TrueFalseBlock { type: 'trueFalse'; statement: string; correct: boolean; explain?: string; }
+export interface FillBlankBlock { type: 'fillBlank'; text: string; answer: string; wordBank?: string[]; } // `text` uses ___ for the blank
+export interface MatchPairsBlock { type: 'matchPairs'; prompt: string; pairs: { left: string; right: string }[]; }
+export interface OrderingBlock { type: 'ordering'; prompt: string; items: string[]; } // items given in CORRECT order
+export interface CategorizeBlock { type: 'categorize'; prompt: string; buckets: string[]; items: { text: string; bucket: string }[]; }
+export interface NumberEntryBlock { type: 'numberEntry'; prompt: string; answer: number; tolerance?: number; unit?: string; }
+export interface ShortTextBlock { type: 'shortText'; prompt: string; sample?: string; }
+export interface SpeakBlock { type: 'speak'; prompt: string; target?: string; }
+
+export type LessonBlock =
+  | RichTextBlock | StepsBlock | KeyTermBlock | NumberLineBlock | TableBlock | EmojiVizBlock
+  | MultipleChoiceBlock | MultiSelectBlock | TrueFalseBlock | FillBlankBlock | MatchPairsBlock
+  | OrderingBlock | CategorizeBlock | NumberEntryBlock | ShortTextBlock | SpeakBlock;
+
+export const INTERACTIVE_BLOCKS: BlockType[] = [
+  'multipleChoice', 'multiSelect', 'trueFalse', 'fillBlank', 'matchPairs',
+  'ordering', 'categorize', 'numberEntry', 'shortText', 'speak'
+];
+export function isInteractiveBlock(t?: BlockType): boolean {
+  return !!t && INTERACTIVE_BLOCKS.includes(t);
+}
+
+/** Result the client reports back after the kid finishes an interactive block. */
+export interface BlockResult {
+  text: string; // human-readable summary of what the kid did
+  correct?: boolean; // client-side judgement when the block has an answer key
 }
 
 /** A single observation the brain made about the learner this turn. */
@@ -213,18 +270,11 @@ export interface MemoryUpdate {
 /** How the teacher judged the learner's last answer. */
 export type AnswerEval = 'correct' | 'partial' | 'incorrect' | 'na';
 
-/** Something the tutor shows on its "board" (a whiteboard moment). */
-export interface Board {
-  title?: string; // a heading: the word, the equation, the question
-  lines?: string[]; // short lines: steps, options, an example
-}
-
 /** Structured object the brain returns on every beat of a lesson. */
 export interface TeacherTurn {
   speech: string; // spoken aloud (short, kid-friendly); also shown as captions
   emotion: Emotion;
-  board?: Board; // optional: what to display on the on-screen board this turn
-  interaction: Interaction;
+  block?: LessonBlock; // the UI element to show/use this turn (from the tool belt)
   assessment: string; // private read on how it's going (not spoken)
   answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)
   beatComplete: boolean; // true when the current beat's success criteria are met
@@ -290,7 +340,7 @@ export interface TranscriptEntry {
   role: TranscriptRole;
   text: string;
   emotion?: Emotion;
-  interaction?: Interaction;
+  block?: LessonBlock;
   ts: string;
 }
 
@@ -353,5 +403,6 @@ export interface Recommendation {
 /** A kid's answer submitted back to the teaching loop. */
 export interface KidResponse {
   text: string;
-  via: 'choice' | 'type' | 'speak' | 'continue';
+  via: 'block' | 'continue';
+  correct?: boolean; // client-side correctness when the block had an answer key
 }
