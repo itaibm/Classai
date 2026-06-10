@@ -213,10 +213,17 @@ export interface MemoryUpdate {
 /** How the teacher judged the learner's last answer. */
 export type AnswerEval = 'correct' | 'partial' | 'incorrect' | 'na';
 
+/** Something the tutor shows on its "board" (a whiteboard moment). */
+export interface Board {
+  title?: string; // a heading: the word, the equation, the question
+  lines?: string[]; // short lines: steps, options, an example
+}
+
 /** Structured object the brain returns on every beat of a lesson. */
 export interface TeacherTurn {
   speech: string; // spoken aloud (short, kid-friendly); also shown as captions
   emotion: Emotion;
+  board?: Board; // optional: what to display on the on-screen board this turn
   interaction: Interaction;
   assessment: string; // private read on how it's going (not spoken)
   answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)

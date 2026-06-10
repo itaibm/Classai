@@ -66,6 +66,9 @@ export const TurnSchema = z.object({
       choices: z.array(z.string()).optional()
     })
     .default({ type: 'continue', prompt: '' }),
+  board: z
+    .object({ title: z.string().optional(), lines: z.array(z.string()).optional() })
+    .optional(),
   assessment: z.string().default(''),
   answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na'),
   beatComplete: z.boolean().default(false),
