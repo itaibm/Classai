@@ -410,6 +410,9 @@ export interface WorkingMemory {
   checksTotal: number; // answers judged (correct+partial+incorrect)
   notes: string[]; // running scratch notes for this lesson
   observed: Record<string, { signal: 'got_it' | 'shaky' | 'struggling'; note: string }>;
+  // Set when the last turn's block failed validation and was dropped — the
+  // next directive tells the model so it can correct instead of retry-looping.
+  lastBlockError?: string;
 }
 
 export interface MemoryEpisode {

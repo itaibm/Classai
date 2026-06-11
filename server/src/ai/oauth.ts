@@ -6,15 +6,18 @@
  *    the loopback callback, and exchange at auth.openai.com/oauth/token.
  *
  *  - Anthropic ("reuse local Claude login"): we read the access token from the
- *    user's existing local Claude CLI login via `ant auth print-credentials
- *    --access-token` (OpenClaw treats this reuse as allowed per Anthropic staff
- *    guidance). No secret is stored by Classai in that mode.
+ *    user's existing Claude login — the Claude Code credentials file / macOS
+ *    Keychain, falling back to the internal `ant` CLI. No secret is stored by
+ *    Classai in that mode.
  *
  * Endpoints and the public client id are configurable via env so this keeps
  * working if the upstream backend changes — the exact values mirror OpenClaw's.
  */
 import crypto from 'node:crypto';
 import http from 'node:http';
+import os from 'node:os';
+import path from 'node:path';
+import { readFileSync } from 'node:fs';
 import { execFile } from 'node:child_process';
 import type { OAuthTokens } from './auth-store.ts';
 
@@ -24,7 +27,11 @@ const OPENAI_CLIENT_ID = process.env.OPENAI_OAUTH_CLIENT_ID || 'app_EMoamEEZ73f0
 const OPENAI_SCOPE = process.env.OPENAI_OAUTH_SCOPE || 'openid profile email offline_access';
 const CALLBACK_PORT = Number(process.env.OPENAI_OAUTH_PORT || 1455);
 const CALLBACK_PATH = '/auth/callback';
-const REDIRECT_URI = `http://127.0.0.1:${CALLBACK_PORT}${CALLBACK_PATH}`;
+// Must EXACTLY match the redirect URI registered for the OpenAI client. The
+// ChatGPT (Codex) client registers `localhost`, not `127.0.0.1` — using the IP
+// form makes OpenAI reject the authorize request (authorize_hydra_invalid_request).
+const CALLBACK_HOST = process.env.OPENAI_OAUTH_HOST || 'localhost';
+const REDIRECT_URI = `http://${CALLBACK_HOST}:${CALLBACK_PORT}${CALLBACK_PATH}`;
 
 function b64url(buf: Buffer): string {
   return buf.toString('base64').replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -91,7 +98,7 @@ export function captureLoopbackCode(expectedState: string, timeoutMs = 300_000):
       server.close();
     }
     server.on('error', reject);
-    server.listen(CALLBACK_PORT, '127.0.0.1');
+    server.listen(CALLBACK_PORT, CALLBACK_HOST);
   });
 }
 
@@ -161,20 +168,52 @@ export async function refreshOpenAI(refresh: string): Promise<OAuthTokens> {
 }
 
 /**
- * Reuse the user's existing local Claude login by asking the `ant` CLI for a
- * fresh access token. Returns undefined if the CLI isn't installed / logged in.
+ * Reuse the user's existing local Claude login. Sources, tried in order:
+ *   1. Claude Code credentials file (~/.claude/.credentials.json) — Linux/manual.
+ *   2. macOS Keychain entry written by Claude Code ("Claude Code-credentials").
+ *   3. The internal `ant` CLI (`ant auth print-credentials --access-token`).
+ * Returns undefined if none yield a token. No secret is persisted by Classai.
  */
-export function getAnthropicLocalToken(): Promise<string | undefined> {
+export async function getAnthropicLocalToken(): Promise<string | undefined> {
+  return readClaudeCredsFile() || (await readClaudeKeychain()) || (await readAntCli());
+}
+
+/** Pull `claudeAiOauth.accessToken` out of a Claude Code credentials JSON blob. */
+function tokenFromCredsJson(raw: string): string | undefined {
+  try {
+    const tok = JSON.parse(raw)?.claudeAiOauth?.accessToken;
+    return typeof tok === 'string' && tok ? tok : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+function readClaudeCredsFile(): string | undefined {
+  try {
+    return tokenFromCredsJson(readFileSync(path.join(os.homedir(), '.claude', '.credentials.json'), 'utf8'));
+  } catch {
+    return undefined;
+  }
+}
+
+function readClaudeKeychain(): Promise<string | undefined> {
+  if (process.platform !== 'darwin') return Promise.resolve(undefined);
   return new Promise((resolve) => {
     execFile(
-      'ant',
-      ['auth', 'print-credentials', '--access-token'],
+      'security',
+      ['find-generic-password', '-s', 'Claude Code-credentials', '-w'],
       { timeout: 15_000 },
-      (err, stdout) => {
-        if (err) return resolve(undefined);
-        const token = stdout.trim();
-        resolve(token || undefined);
-      }
+      (err, stdout) => resolve(err ? undefined : tokenFromCredsJson(stdout))
     );
+  });
+}
+
+function readAntCli(): Promise<string | undefined> {
+  return new Promise((resolve) => {
+    execFile('ant', ['auth', 'print-credentials', '--access-token'], { timeout: 15_000 }, (err, stdout) => {
+      if (err) return resolve(undefined);
+      const token = stdout.trim();
+      resolve(token || undefined);
+    });
   });
 }

@@ -18,6 +18,7 @@ export function ConnectBrain() {
   // OpenAI OAuth state
   const [oauthState, setOauthState] = useState('');
   const [oauthCode, setOauthCode] = useState('');
+  const [authUrl, setAuthUrl] = useState('');
 
   const models = data?.models?.[vendor] || [];
   const chosenModel = model || models[0]?.id || '';
@@ -33,22 +34,30 @@ export function ConnectBrain() {
     setBusy(true);
     try {
       if (vendor === 'openai' && method === 'oauth') {
+        // Open the tab synchronously inside the click so the popup blocker
+        // allows it — opening it *after* the await would get silently blocked.
+        const win = window.open('about:blank', '_blank');
         const { authorizeUrl, state } = await api.brainOauthStart();
         setOauthState(state);
-        window.open(authorizeUrl, '_blank', 'noopener');
-        show('Finish signing in, then paste the code if asked.');
+        setAuthUrl(authorizeUrl);
+        if (win && !win.closed) {
+          win.location.href = authorizeUrl;
+          show('Finish signing in in the new tab, then paste the code if asked.');
+        } else {
+          show('Popup blocked — use the “Open sign-in page” link below.');
+        }
         // also poll for loopback success
         pollConnected();
         return;
       }
-      await api.brainConnect({
+      const res = await api.brainConnect({
         vendor,
         method: method === 'oauth' ? 'api_key' : (method as any),
         model: chosenModel,
         apiKey: apiKey || undefined,
         baseUrl: vendor === 'local' ? baseUrl : undefined
       });
-      show('Brain connected ✓');
+      show(res.verified === false ? `Saved, but couldn't verify: ${res.error}` : 'Brain connected ✓');
       reload();
     } catch (e: any) {
       show(e.message || 'Could not connect');
@@ -89,8 +98,12 @@ export function ConnectBrain() {
 
   async function test(id: string) {
     show('Testing…');
-    const r = await api.brainTest(id);
-    show(r.ok ? `Working: ${r.model}` : `Failed: ${r.error}`);
+    try {
+      const r = await api.brainTest(id);
+      show(r.ok ? `Working: ${r.model}` : `Failed: ${r.error}`);
+    } catch (e: any) {
+      show(`Failed: ${e.message || 'connection error'}`);
+    }
   }
 
   return (
@@ -197,7 +210,17 @@ export function ConnectBrain() {
 
               {oauthState ? (
                 <div className="banner" style={{ marginTop: 8 }}>
-                  Finishing ChatGPT sign-in… if it doesn't connect automatically, paste the code from the redirect URL:
+                  Finishing ChatGPT sign-in…{' '}
+                  {authUrl && (
+                    <>
+                      if no tab opened,{' '}
+                      <a href={authUrl} target="_blank" rel="noreferrer">
+                        open the sign-in page
+                      </a>
+                      .{' '}
+                    </>
+                  )}
+                  If it doesn't connect automatically, paste the code from the redirect URL:
                   <div className="answer-row" style={{ marginTop: 8 }}>
                     <input type="text" value={oauthCode} onChange={(e) => setOauthCode(e.target.value)} placeholder="authorization code" />
                     <button className="btn" disabled={busy || !oauthCode.trim()} onClick={finishOauth}>Finish</button>

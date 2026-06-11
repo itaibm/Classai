@@ -127,12 +127,13 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   const system = teachSystemPrompt(kid, course, lesson, profile, model);
   const messages = buildMessages(session, kid, lesson, returning, directive);
 
-  const turn = (await generateStructured(brain, TurnSchema, {
+  const { blockError, ...parsedTurn } = await generateStructured(brain, TurnSchema, {
     system,
     messages,
     maxTokens: 1100,
     quality: 'fast'
-  })) as TeacherTurn;
+  });
+  const turn = parsedTurn as TeacherTurn;
 
   session.transcript.push({
     role: 'teacher',
@@ -143,6 +144,9 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   });
 
   applyDirectorState(w, turn, beat.kind);
+  // If the block was dropped, the next directive feeds the error back so the
+  // model can self-correct instead of re-promising a visual that never shows.
+  w.lastBlockError = blockError;
   if (turn.memoryUpdates.length) applyTurnMemory(kid.id, turn.memoryUpdates);
   if (turn.concern) addEpisode(kid.id, 'note', `⚠️ ${turn.concern}`, lesson.topic);
 

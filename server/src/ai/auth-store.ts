@@ -106,7 +106,7 @@ export const authStore = {
 
 function toPublic(p: StoredProfile): BrainProfilePublic {
   const connected =
-    p.method === 'none' || Boolean(p.apiKey) || Boolean(p.oauth?.access);
+    p.method === 'none' || p.method === 'local_login' || Boolean(p.apiKey) || Boolean(p.oauth?.access);
   const { apiKey, oauth, ...rest } = p;
   return { ...rest, connected };
 }

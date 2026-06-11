@@ -134,6 +134,13 @@ export function courseProgress(course: Course, topics: Topic[], model: LearnerMo
   return { course, topics: tp, completion: topics.length ? mastered / topics.length : 0 };
 }
 
+/** Human-readable course name; titles often already contain the subject ("Math" / "Math"). */
+function courseLabel(course: Course): string {
+  return course.title.toLowerCase().includes(course.subject.toLowerCase())
+    ? course.title
+    : `${course.subject} ${course.title}`;
+}
+
 /** Recommend the single best next thing for this course. */
 export function recommendNext(course: Course, topics: Topic[], model: LearnerModel): Recommendation | null {
   if (!topics.length) return null;
@@ -147,7 +154,7 @@ export function recommendNext(course: Course, topics: Topic[], model: LearnerMod
       courseId: course.id,
       topicId: first.id,
       topicTitle: first.title,
-      note: `Start with a quick check-in to see what ${course.subject} ${course.title} already feels like.`
+      note: `Start with a quick check-in to see what ${courseLabel(course)} already feels like.`
     };
   }
 

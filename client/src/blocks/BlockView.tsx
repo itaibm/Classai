@@ -102,9 +102,13 @@ function KeyTerm({ block }: { block: KeyTermBlock }) {
 function NumberLine({ block }: { block: NumberLineBlock }) {
   const { min, max } = block;
   const span = max - min || 1;
-  const step = block.step || niceStep(span);
+  let step = block.step || niceStep(span);
+  // a derived step on an integral range (e.g. an integers lesson) must never show decimal
+  // ticks; an explicit block.step (e.g. 0.25 on a fractions line) is honored as-is
+  if (!block.step && Number.isInteger(min) && Number.isInteger(max)) step = Math.max(1, Math.round(step));
+  const start = Math.ceil((min - 1e-9) / step) * step; // ticks sit on the step grid, not offset from min
   const ticks: number[] = [];
-  for (let v = min; v <= max + 1e-9; v += step) ticks.push(Math.round(v * 1000) / 1000);
+  for (let v = start; v <= max + 1e-9; v += step) ticks.push(Math.round(v * 1000) / 1000);
   const x = (v: number) => 6 + ((v - min) / span) * 88; // percent
   return (
     <div className="block-card">
@@ -127,7 +131,12 @@ function NumberLine({ block }: { block: NumberLineBlock }) {
     </div>
   );
 }
-function niceStep(span: number) { const raw = span / 10; const p = Math.pow(10, Math.floor(Math.log10(raw))); return Math.max(p, Math.round(raw / p) * p); }
+function niceStep(span: number) {
+  const raw = span / 10;
+  const p = Math.pow(10, Math.floor(Math.log10(raw)));
+  const r = raw / p;
+  return (r >= 7 ? 10 : r >= 3 ? 5 : r >= 1.5 ? 2 : 1) * p;
+}
 
 function TableView({ block }: { block: TableBlock }) {
   return (

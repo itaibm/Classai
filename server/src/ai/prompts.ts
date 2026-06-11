@@ -321,14 +321,20 @@ export function turnDirective(args: {
     ? `\n  beat question: "${args.check.question}" | expected: ${args.check.expectedAnswer}`
     : '';
 
-  return [
+  const lines = [
     '--- LESSON STATE (not spoken) ---',
     `beat ${args.beatNo}/${args.beatTotal} [${args.beatKind}]: ${args.beatGoal}`,
     `  done when: ${args.successCriteria || '—'}${checkLine}`,
     `momentum: ${w.momentum} | struggle streak: ${w.struggleStreak} | checks passed: ${w.checksPassed}/${w.checksTotal} | turns since check: ${w.turnsSinceCheck} | minutes: ${args.minutesElapsed}/${args.softLimitMin}`,
-    `DIRECTIVE: ${directive}`,
-    '--- end state ---'
-  ].join('\n');
+    `DIRECTIVE: ${directive}`
+  ];
+  if (w.lastBlockError) {
+    lines.push(
+      `BLOCK ERROR: the "block" you sent last turn was invalid and was NOT shown to the learner (${w.lastBlockError}). Don't refer to it as if it were visible. If the visual is still needed, send a corrected block now — omit optional fields entirely instead of sending null.`
+    );
+  }
+  lines.push('--- end state ---');
+  return lines.join('\n');
 }
 
 // ===========================================================================
