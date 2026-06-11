@@ -43,7 +43,9 @@ export async function generateLesson(
   const result = await generateStructured(brain, LessonPlanSchema, {
     system: p.system,
     messages: [{ role: 'user', content: p.user }],
-    maxTokens: 3000,
+    // A full gradual-release plan (7–8 beats with notes + checks) can run long;
+    // 3000 truncated the JSON mid-`plan` on smaller models. Give it headroom.
+    maxTokens: 4096,
     quality: 'deep'
   });
 

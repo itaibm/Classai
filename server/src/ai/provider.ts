@@ -79,6 +79,11 @@ async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object
     throw new NoBrainError();
   }
 
+  // Adaptive thinking is only available on the larger 4.x models — Haiku (and
+  // other models) reject it with "adaptive thinking is not supported on this
+  // model", so gate it by capability rather than sending it unconditionally.
+  const supportsAdaptiveThinking = /opus|sonnet/.test(model);
+
   return {
     vendor: 'anthropic',
     model,
@@ -87,8 +92,8 @@ async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object
         model,
         max_tokens: maxTokens,
         system,
-        // 'deep' tasks (syllabus/report) get adaptive thinking; live turns stay snappy.
-        ...(quality === 'deep' ? { thinking: { type: 'adaptive' as const } } : {}),
+        // 'deep' tasks (syllabus/report) get adaptive thinking where supported; live turns stay snappy.
+        ...(quality === 'deep' && supportsAdaptiveThinking ? { thinking: { type: 'adaptive' as const } } : {}),
         messages: messages.map((m) => ({ role: m.role, content: m.content }))
       } as any);
       const text = (res.content || [])

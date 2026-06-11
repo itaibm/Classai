@@ -9,7 +9,7 @@
  * hand-to-chin thinking), eye saccades + blinking, springy transitions between
  * emotions, and a gentle idle bob/breathe.
  */
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useId, useState } from 'react';
 import type { Emotion } from '@shared/types';
 
 interface Props {
@@ -41,7 +41,7 @@ const POSE: Record<Emotion, Pose> = {
 export function Character({ character, hue, emotion, mouthOpen, speaking }: Props) {
   const [blink, setBlink] = useState(false);
   const [gaze, setGaze] = useState({ x: 0, y: 0 });
-  const breatheRef = useRef(0);
+  const uid = useId().replace(/[^a-zA-Z0-9]/g, '');
 
   // blink loop
   useEffect(() => {
@@ -91,6 +91,16 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
   return (
     <div className="avatar-wrap" style={{ animation: 'bob 4.5s ease-in-out infinite' }}>
       <svg viewBox="0 0 240 280" width="100%" height="100%" role="img" aria-label={`tutor feeling ${emotion}`}>
+        <defs>
+          <radialGradient id={`face-${uid}`} cx="42%" cy="36%" r="72%">
+            <stop offset="0%" stopColor={`hsl(${hue} 78% 93%)`} />
+            <stop offset="100%" stopColor={`hsl(${hue} 58% 80%)`} />
+          </radialGradient>
+          <filter id={`shadow-${uid}`} x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="5" stdDeviation="5" floodColor={`hsl(${hue} 40% 40%)`} floodOpacity="0.18" />
+          </filter>
+        </defs>
+        <g className="breathe" filter={`url(#shadow-${uid})`}>
         {emotion === 'celebrating' && (
           <g fill={accent} className="sparkle">
             <circle cx="40" cy="40" r="3.5" /><circle cx="206" cy="54" r="4.5" />
@@ -132,19 +142,24 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
             </g>
           )}
 
-          <circle cx="120" cy="104" r="62" fill={face} stroke={faceEdge} strokeWidth="3" />
+          <circle cx="120" cy="104" r="62" fill={`url(#face-${uid})`} stroke={faceEdge} strokeWidth="3" />
           {character === 'pip' && <circle cx="120" cy="104" r="62" fill="none" stroke={accent} strokeWidth="2" strokeDasharray="4 8" />}
-          <circle cx="58" cy="104" r="11" fill={face} stroke={faceEdge} strokeWidth="3" />
-          <circle cx="182" cy="104" r="11" fill={face} stroke={faceEdge} strokeWidth="3" />
+          <circle cx="58" cy="104" r="11" fill={`url(#face-${uid})`} stroke={faceEdge} strokeWidth="3" />
+          <circle cx="182" cy="104" r="11" fill={`url(#face-${uid})`} stroke={faceEdge} strokeWidth="3" />
 
           <circle cx="86" cy="120" r="9" fill={cheek} opacity="0.6" />
           <circle cx="154" cy="120" r="9" fill={cheek} opacity="0.6" />
 
-          {/* brows (smoothly transition position/angle) */}
-          <g stroke={ink} strokeWidth="4" strokeLinecap="round" style={{ transition: 'transform 250ms ease' }}>
-            <line x1="84" y1={80 + pose.brow.y} x2="108" y2={80 + pose.brow.y} transform={`rotate(${pose.brow.angle} 96 ${80 + pose.brow.y})`} />
-            <line x1="132" y1={80 + pose.brow.y} x2="156" y2={80 + pose.brow.y} transform={`rotate(${-pose.brow.angle} 144 ${80 + pose.brow.y})`} />
-          </g>
+          {/* brows (smoothly transition; lift a touch on loud speech) */}
+          {(() => {
+            const by = 80 + pose.brow.y - open * 2;
+            return (
+              <g stroke={ink} strokeWidth="4" strokeLinecap="round" style={{ transition: 'transform 250ms ease' }}>
+                <line x1="84" y1={by} x2="108" y2={by} transform={`rotate(${pose.brow.angle} 96 ${by})`} />
+                <line x1="132" y1={by} x2="156" y2={by} transform={`rotate(${-pose.brow.angle} 144 ${by})`} />
+              </g>
+            );
+          })()}
 
           {/* eyes with gaze + blink */}
           <g>
@@ -168,6 +183,7 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
 
           {/* mouth — viseme shapes from amplitude */}
           <Mouth open={open} smile={pose.smile} ink={ink} cheek={cheek} />
+        </g>
         </g>
       </svg>
     </div>

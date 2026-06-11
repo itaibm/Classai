@@ -7,6 +7,7 @@
  */
 import { z } from 'zod';
 import type { Brain, GenerateOptions } from './provider.ts';
+import { BlockSchema } from './blocks.ts';
 
 // ---- tolerant JSON extraction ---------------------------------------------
 
@@ -54,37 +55,58 @@ function matchingBrace(t: string, start: number): number {
 
 // ---- schemas --------------------------------------------------------------
 
-export const TurnSchema = z.object({
-  speech: z.string(),
-  emotion: z
-    .enum(['neutral', 'happy', 'encouraging', 'celebrating', 'thinking', 'curious', 'gentle'])
-    .default('neutral'),
-  interaction: z
-    .object({
-      type: z.enum(['choice', 'type', 'speak', 'continue', 'none']).default('continue'),
-      prompt: z.string().default(''),
-      choices: z.array(z.string()).optional()
-    })
-    .default({ type: 'continue', prompt: '' }),
-  assessment: z.string().default(''),
-  answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na'),
-  beatComplete: z.boolean().default(false),
-  memoryUpdates: z
-    .array(
-      z.object({
-        topic: z.string(),
-        mastery: z.number().min(0).max(1).default(0.5),
-        note: z.string().optional(),
-        strength: z.string().optional(),
-        struggle: z.string().optional(),
-        misconception: z.string().optional(),
-        interest: z.string().optional()
-      })
-    )
-    .default([]),
-  concern: z.string().optional(),
-  lessonComplete: z.boolean().default(false)
-});
+/** Compact one-line summary of a zod error, for logs and corrective prompts. */
+export function summarizeZodError(error: z.ZodError): string {
+  return error.issues
+    .slice(0, 5)
+    .map((i) => (i.path.length ? `${i.path.join('.')}: ${i.message}` : i.message))
+    .join('; ');
+}
+
+export const TurnSchema = z
+  .object({
+    speech: z.string(),
+    emotion: z
+      .enum(['neutral', 'happy', 'encouraging', 'celebrating', 'thinking', 'curious', 'gentle'])
+      .default('neutral'),
+    // Validated against BlockSchema in the transform below — a malformed block
+    // must not fail the whole turn, but it must also not vanish silently.
+    block: z.unknown().optional(),
+    assessment: z.string().default(''),
+    answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na'),
+    beatComplete: z.boolean().default(false),
+    // Models often emit `null` for "no value" on optional fields — treat any
+    // invalid optional as absent rather than failing the turn.
+    memoryUpdates: z
+      .array(
+        z.object({
+          topic: z.string(),
+          mastery: z.number().min(0).max(1).default(0.5),
+          note: z.string().optional().catch(undefined),
+          strength: z.string().optional().catch(undefined),
+          struggle: z.string().optional().catch(undefined),
+          misconception: z.string().optional().catch(undefined),
+          interest: z.string().optional().catch(undefined)
+        })
+      )
+      .default([])
+      .catch([]),
+    concern: z.string().optional().catch(undefined),
+    lessonComplete: z.boolean().default(false)
+  })
+  .transform((t) => {
+    // Drop a malformed block but keep the speech — and make the failure
+    // visible: log it server-side and surface `blockError` so the lesson
+    // director can feed a corrective hint back to the model next turn
+    // (otherwise the model keeps promising a visual that never renders).
+    if (t.block == null) return { ...t, block: undefined, blockError: undefined };
+    const parsed = BlockSchema.safeParse(t.block);
+    if (parsed.success) return { ...t, block: parsed.data, blockError: undefined };
+    const blockError = summarizeZodError(parsed.error);
+    console.warn('[TurnSchema] dropping malformed block:', blockError);
+    console.warn('[TurnSchema] raw block was:', JSON.stringify(t.block)?.slice(0, 600));
+    return { ...t, block: undefined, blockError };
+  });
 
 export const SyllabusSchema = z.object({
   title: z.string(),
@@ -126,7 +148,9 @@ export const LessonAnalysisSchema = z.object({
 });
 
 export const LessonPlanSchema = z.object({
-  title: z.string(),
+  // Defaulted so a model that omits it doesn't fail the whole lesson — the
+  // caller falls back to the topic title (see services/lessons.ts).
+  title: z.string().default(''),
   objectives: z.array(z.string()).default([]),
   difficulty: z.enum(['gentle', 'standard', 'challenge']).default('standard'),
   analysis: z
@@ -140,11 +164,13 @@ export const LessonPlanSchema = z.object({
   plan: z
     .array(
       z.object({
-        kind: z.enum(['hook', 'explain', 'example', 'check', 'practice', 'recap']),
-        goal: z.string(),
+        // Tolerate weaker models: bad enum -> 'explain', null/invalid check -> dropped,
+        // missing goal -> empty. A malformed beat must not fail the whole lesson.
+        kind: z.enum(['hook', 'explain', 'example', 'check', 'practice', 'recap']).catch('explain'),
+        goal: z.string().default(''),
         note: z.string().default(''),
         successCriteria: z.string().default(''),
-        check: BeatCheckSchema.optional()
+        check: BeatCheckSchema.optional().catch(undefined)
       })
     )
     .min(1)
@@ -171,6 +197,7 @@ export async function generateStructured<S extends z.ZodTypeAny>(
   schema: S,
   opts: GenerateOptions
 ): Promise<z.infer<S>> {
+  let lastRaw = '';
   const attempt = async (extra?: string): Promise<z.infer<S>> => {
     let messages = opts.messages;
     if (extra) {
@@ -184,14 +211,22 @@ export async function generateStructured<S extends z.ZodTypeAny>(
         messages.push({ role: 'user', content: extra });
       }
     }
-    const raw = await brain.generate({ ...opts, json: true, messages });
-    return schema.parse(extractJson(raw));
+    lastRaw = await brain.generate({ ...opts, json: true, messages });
+    return schema.parse(extractJson(lastRaw));
   };
   try {
     return await attempt();
   } catch {
-    return await attempt(
-      'Your previous reply could not be parsed. Reply again with ONLY a single valid JSON object that matches the required shape — no prose, no code fences.'
-    );
+    try {
+      return await attempt(
+        'Your previous reply could not be parsed. Reply again with ONLY a single valid JSON object that matches the required shape — no prose, no code fences.'
+      );
+    } catch (e) {
+      // Surface what the model actually produced so flaky generations on weaker
+      // models are diagnosable instead of failing silently.
+      console.warn('[generateStructured] unparseable after retry:', (e as Error)?.message);
+      console.warn('[generateStructured] raw output was:', lastRaw.slice(0, 600));
+      throw e;
+    }
   }
 }

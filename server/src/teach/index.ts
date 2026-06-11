@@ -20,6 +20,7 @@ import type {
   WorkingMemory,
   Momentum
 } from '../../../shared/types.ts';
+import { blockIsInteractive } from '../../../shared/types.ts';
 import * as db from '../db/index.ts';
 import { getBrain, type ChatMessage } from '../ai/provider.ts';
 import { generateStructured, TurnSchema, ReportSchema } from '../ai/schemas.ts';
@@ -126,22 +127,26 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   const system = teachSystemPrompt(kid, course, lesson, profile, model);
   const messages = buildMessages(session, kid, lesson, returning, directive);
 
-  const turn = (await generateStructured(brain, TurnSchema, {
+  const { blockError, ...parsedTurn } = await generateStructured(brain, TurnSchema, {
     system,
     messages,
     maxTokens: 1100,
     quality: 'fast'
-  })) as TeacherTurn;
+  });
+  const turn = parsedTurn as TeacherTurn;
 
   session.transcript.push({
     role: 'teacher',
     text: turn.speech,
     emotion: turn.emotion,
-    interaction: turn.interaction,
+    block: turn.block,
     ts: new Date().toISOString()
   });
 
   applyDirectorState(w, turn, beat.kind);
+  // If the block was dropped, the next directive feeds the error back so the
+  // model can self-correct instead of re-promising a visual that never shows.
+  w.lastBlockError = blockError;
   if (turn.memoryUpdates.length) applyTurnMemory(kid.id, turn.memoryUpdates);
   if (turn.concern) addEpisode(kid.id, 'note', `⚠️ ${turn.concern}`, lesson.topic);
 
@@ -167,7 +172,7 @@ function applyDirectorState(w: WorkingMemory, turn: TeacherTurn, beatKind: strin
   w.teacherTurns++;
   w.lastEmotion = turn.emotion;
 
-  const asked = ['choice', 'type', 'speak'].includes(turn.interaction.type);
+  const asked = blockIsInteractive(turn.block);
   w.turnsSinceCheck = asked || turn.answerEval !== 'na' ? 0 : w.turnsSinceCheck + 1;
 
   if (turn.answerEval !== 'na') {

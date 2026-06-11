@@ -71,7 +71,19 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       },
       true
     );
-    return { profile };
+    // Verify the connection actually works before claiming success, so we never
+    // report "connected" for a method whose credentials can't be resolved.
+    try {
+      const brain = await getBrain(id);
+      await brain.generate({
+        system: 'You are a helpful assistant.',
+        messages: [{ role: 'user', content: 'Reply with the single word: ready' }],
+        maxTokens: 16
+      });
+      return { profile, verified: true };
+    } catch (e: any) {
+      return { profile, verified: false, error: e?.message || 'Could not reach this brain.' };
+    }
   });
 
   // Begin OpenAI "Sign in with ChatGPT" (OAuth + PKCE).

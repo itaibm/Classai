@@ -49,7 +49,11 @@ export const api = {
     label?: string;
     apiKey?: string;
     baseUrl?: string;
-  }) => req<{ profile: BrainProfilePublic }>('/brain/connect', { method: 'POST', body: JSON.stringify(body) }),
+  }) =>
+    req<{ profile: BrainProfilePublic; verified?: boolean; error?: string }>('/brain/connect', {
+      method: 'POST',
+      body: JSON.stringify(body)
+    }),
   brainOauthStart: () =>
     req<{ authorizeUrl: string; state: string; redirectUri: string }>('/brain/oauth/start', { method: 'POST' }),
   brainOauthPaste: (state: string, code: string, model?: string) =>

@@ -1,18 +1,23 @@
 import { useState } from 'react';
+import type { AvatarConfig } from '@shared/types';
 import { api, type CourseCard } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast, masteryPill } from '../lib/ui.tsx';
 import { Character } from '../avatar/Character.tsx';
+import { InterestsInput } from '../components/InterestsInput.tsx';
+
+const CHARACTERS: AvatarConfig['character'][] = ['sage', 'nova', 'pip'];
 
 export function KidDetail({ kidId }: { kidId: string }) {
   const { data, loading, error, reload } = useAsync(async () => {
-    const [{ kid }, { courses }, mem, { sessions }] = await Promise.all([
+    const [{ kid }, { courses }, mem, { sessions }, { profiles }] = await Promise.all([
       api.kid(kidId),
       api.courses(kidId),
       api.memory(kidId),
-      api.sessions(kidId)
+      api.sessions(kidId),
+      api.brainProfiles()
     ]);
-    return { kid, courses, model: mem.model, episodes: mem.episodes, sessions };
+    return { kid, courses, model: mem.model, episodes: mem.episodes, sessions, brainConnected: profiles.some((p) => p.connected) };
   }, [kidId]);
   const { msg, show } = useToast();
 
@@ -21,6 +26,7 @@ export function KidDetail({ kidId }: { kidId: string }) {
   const [curriculum, setCurriculum] = useState('');
   const [busy, setBusy] = useState(false);
   const [showReport, setShowReport] = useState<string>('');
+  const [editing, setEditing] = useState(false);
 
   async function addClass() {
     if (!subject.trim()) return show('Enter a subject');
@@ -55,8 +61,13 @@ export function KidDetail({ kidId }: { kidId: string }) {
                   <span className="muted">{data.kid.gradeLevel || `age ${data.kid.age}`}</span>
                 </div>
               </div>
-              <button className="btn" onClick={() => navigate(`/learn/${kidId}`)}>Start learning →</button>
+              <div className="row" style={{ gap: 8 }}>
+                <button className="btn ghost" onClick={() => setEditing((e) => !e)}>{editing ? 'Close' : '✎ Edit'}</button>
+                <button className="btn" onClick={() => navigate(`/learn/${kidId}`)}>Start learning →</button>
+              </div>
             </div>
+
+            {editing && <EditLearner kid={data.kid} onSaved={() => { setEditing(false); reload(); }} onToast={show} />}
 
             {/* Classes */}
             <h3 style={{ marginTop: 24 }}>Classes</h3>
@@ -75,17 +86,26 @@ export function KidDetail({ kidId }: { kidId: string }) {
 
             <div className="card" style={{ marginTop: 14 }}>
               <h3>Add a class</h3>
-              <div className="row">
-                <label className="field grow">Subject<input type="text" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="e.g. Pre-Algebra, Biology, Spanish" /></label>
-                <label className="field grow">Grade / level<input type="text" value={grade} onChange={(e) => setGrade(e.target.value)} placeholder={data.kid.gradeLevel || '7th grade'} /></label>
-              </div>
-              <label className="field">
-                Curriculum <span className="hint">(paste a syllabus, a textbook's table of contents, or describe what to cover — optional)</span>
-                <textarea value={curriculum} onChange={(e) => setCurriculum(e.target.value)} placeholder="Leave blank to let Classai build a standard syllabus." />
-              </label>
-              <button className="btn" disabled={busy} onClick={addClass}>
-                {busy ? <span className="row" style={{ gap: 8 }}><span className="spinner" /> Building syllabus…</span> : 'Create class'}
-              </button>
+              {!data.brainConnected ? (
+                <div className="banner warn">
+                  Connect an AI brain first so Classai can build the syllabus and teach.{' '}
+                  <button className="btn small" onClick={() => navigate('/connect')}>Connect a brain</button>
+                </div>
+              ) : (
+                <>
+                  <div className="row">
+                    <label className="field grow">Subject<input type="text" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="e.g. Pre-Algebra, Biology, Spanish" /></label>
+                    <label className="field grow">Grade / level<input type="text" value={grade} onChange={(e) => setGrade(e.target.value)} placeholder={data.kid.gradeLevel || '7th grade'} /></label>
+                  </div>
+                  <label className="field">
+                    Curriculum <span className="hint">(paste a syllabus, a textbook's table of contents, or describe what to cover — optional)</span>
+                    <textarea value={curriculum} onChange={(e) => setCurriculum(e.target.value)} placeholder="Leave blank to let Classai build a standard syllabus." />
+                  </label>
+                  <button className="btn" disabled={busy} onClick={addClass}>
+                    {busy ? <span className="row" style={{ gap: 8 }}><span className="spinner" /> Building syllabus…</span> : 'Create class'}
+                  </button>
+                </>
+              )}
             </div>
 
             {/* Long-term memory */}
@@ -170,6 +190,59 @@ export function KidDetail({ kidId }: { kidId: string }) {
         )}
       </div>
       <Toast msg={msg} />
+    </div>
+  );
+}
+
+function EditLearner({ kid, onSaved, onToast }: { kid: import('@shared/types').Kid; onSaved: () => void; onToast: (m: string) => void }) {
+  const [name, setName] = useState(kid.name);
+  const [age, setAge] = useState(kid.age);
+  const [grade, setGrade] = useState(kid.gradeLevel);
+  const [interests, setInterests] = useState<string[]>(kid.interests);
+  const [character, setCharacter] = useState<AvatarConfig['character']>(kid.avatar.character);
+  const [hue, setHue] = useState(kid.avatar.hue);
+  const [busy, setBusy] = useState(false);
+
+  async function save() {
+    if (!name.trim()) return onToast('Name cannot be empty');
+    setBusy(true);
+    try {
+      await api.updateKid(kid.id, {
+        name: name.trim(), age, gradeLevel: grade, interests,
+        avatar: { ...kid.avatar, character, hue }
+      });
+      onToast('Saved ✓');
+      onSaved();
+    } catch (e: any) {
+      onToast(e.message || 'Could not save');
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <div className="card pad-lg" style={{ marginTop: 14, ['--accent-h' as any]: hue }}>
+      <h3>Edit {kid.name}</h3>
+      <div className="row">
+        <div className="grow">
+          <label className="field">Name<input type="text" value={name} onChange={(e) => setName(e.target.value)} /></label>
+          <div className="row">
+            <label className="field grow">Age<input type="number" min={8} max={19} value={age} onChange={(e) => setAge(Number(e.target.value))} /></label>
+            <label className="field grow">Grade / level<input type="text" value={grade} onChange={(e) => setGrade(e.target.value)} /></label>
+          </div>
+          <label className="field">Interests<InterestsInput value={interests} onChange={setInterests} /></label>
+        </div>
+        <div style={{ width: 200, textAlign: 'center' }}>
+          <div style={{ width: 130, height: 130, margin: '0 auto' }}>
+            <Character character={character} hue={hue} emotion="happy" mouthOpen={0} speaking={false} />
+          </div>
+          <div className="row center" style={{ gap: 6, marginTop: 6 }}>
+            {CHARACTERS.map((c) => <button key={c} className={`btn ${character === c ? '' : 'ghost'} small`} onClick={() => setCharacter(c)}>{c}</button>)}
+          </div>
+          <label className="field small" style={{ marginTop: 10 }}>Color<input type="range" min={0} max={360} value={hue} onChange={(e) => setHue(Number(e.target.value))} style={{ width: '100%' }} /></label>
+        </div>
+      </div>
+      <button className="btn" disabled={busy} onClick={save}>{busy ? 'Saving…' : 'Save changes'}</button>
     </div>
   );
 }

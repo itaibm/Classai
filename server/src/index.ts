@@ -11,6 +11,20 @@ const app = Fastify({
   bodyLimit: 4 * 1024 * 1024 // curricula can be large
 });
 
+// The client always sends content-type: application/json, even for POSTs with no
+// body (start lesson, regenerate syllabus, oauth start). Fastify's default JSON
+// parser 400s on an empty body, so treat empty/whitespace as an empty object.
+app.addContentTypeParser('application/json', { parseAs: 'string' }, (_req, body, done) => {
+  const text = typeof body === 'string' ? body.trim() : '';
+  if (!text) return done(null, {});
+  try {
+    done(null, JSON.parse(text));
+  } catch (err) {
+    (err as any).statusCode = 400;
+    done(err as Error, undefined);
+  }
+});
+
 await app.register(cors, { origin: true });
 await registerRoutes(app);
 

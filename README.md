@@ -94,14 +94,27 @@ client/src/
   screens/             Home, ConnectBrain, Parent area, LearnHome, Classroom
 ```
 
-## Run it
+## Run it (easiest way)
 
-Requires **Node 22+**.
+Requires **Node.js 22+** (one-time install from [nodejs.org](https://nodejs.org) — get the "LTS" version).
+
+1. **Download the project** — on the GitHub page click the green **Code ▸ Download ZIP**, then unzip it (or `git clone` if you prefer).
+2. **Launch it:**
+   - **Mac:** double-click **`start.command`** in the unzipped folder.
+     *(The first time, macOS may say it's from an unidentified developer — right-click the file → **Open** → **Open**.)*
+   - **Any system / terminal:** run `bash start.sh` from inside the folder.
+3. The script installs and builds everything the first time (a minute or two), then a browser tab opens at **http://localhost:8787**. Leave that window open while you use Classai; press **Ctrl+C** to stop.
+
+First time in the app: click **Connect your brain** → add your Anthropic or OpenAI key (or a local Ollama model) → **Parent area** → set a PIN → add a learner → create a class → **Start learning**.
+
+> Re-launching later is instant — it skips install/build if they're already done.
+
+## Run it (manual / for development)
 
 ```bash
 npm install
 
-# Dev (API on :8787, client on :5173 with proxy)
+# Dev (API on :8787, client on :5173 with hot reload + proxy)
 npm run dev
 # open http://localhost:5173
 
@@ -110,10 +123,6 @@ npm run build
 npm start
 # open http://localhost:8787
 ```
-
-First run: open **Connect your brain** → connect a provider → **Parent area** →
-set a PIN → add a learner → create a class (paste curriculum or leave blank) →
-**Start learning**.
 
 Config (all optional) lives in `.env` — see `.env.example`.
 

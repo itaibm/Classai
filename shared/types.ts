@@ -120,8 +120,8 @@ export interface SubjectProfile {
   key: SubjectKey;
   label: string;
   pedagogy: string; // injected into the teaching prompt
-  preferredInteractions: InteractionType[]; // what kinds of checks fit this subject
-  encourageSpeaking: boolean; // bias toward 'speak' interactions (languages)
+  recommendedBlocks: BlockType[]; // tool-belt blocks that fit this subject well
+  encourageSpeaking: boolean; // bias toward 'speak' blocks (languages)
 }
 
 // ---------------------------------------------------------------------------
@@ -191,12 +191,156 @@ export type Emotion =
   | 'curious'
   | 'gentle';
 
-export type InteractionType = 'choice' | 'type' | 'speak' | 'continue' | 'none';
+// ---------------------------------------------------------------------------
+// The lesson UI "tool belt" — the closed set of interactive/visual elements the
+// tutor composes lessons from. The brain picks a block type per turn and fills
+// its props; the client renders the matching polished component. Interactive
+// blocks carry their own answer key so they can give instant animated feedback
+// (e.g. nudge a wrong choice to the right answer) before reporting the result.
+// ---------------------------------------------------------------------------
 
-export interface Interaction {
-  type: InteractionType;
-  prompt: string;
-  choices?: string[]; // for 'choice'
+export type BlockType =
+  // display / teaching
+  | 'richText' // formatted explanation (bold, lists)
+  | 'steps' // a worked solution revealed step by step
+  | 'keyTerm' // a vocabulary card (term + definition + example)
+  | 'numberLine' // a labeled number line (math)
+  | 'table' // a small data table
+  | 'emojiViz' // a big emoji / row of emojis as an illustration
+  | 'image' // an image by URL (diagram, photo, map)
+  | 'video' // an embedded teaching video (YouTube/Vimeo)
+  | 'slideshow' // an interactive multi-slide explainer ("next ▸")
+  | 'flashcards' // flippable cards (tap to reveal the back)
+  | 'whiteboard' // a board the tutor draws on (lines, arrows, shapes, labels)
+  | 'custom' // an AI-composed element built from safe UI primitives (see CustomNode)
+  // interactive / checks
+  | 'multipleChoice' // pick one; wrong answer animates toward the right one
+  | 'multiSelect' // pick all that apply
+  | 'trueFalse' // true/false
+  | 'fillBlank' // complete a sentence (optional word bank)
+  | 'matchPairs' // match left items to right items
+  | 'ordering' // arrange items into the correct order
+  | 'categorize' // sort items into buckets
+  | 'numberEntry' // type a numeric answer
+  | 'shortText' // open written answer (tutor judges)
+  | 'speak'; // say it aloud (language practice)
+
+export interface RichTextBlock { type: 'richText'; markdown: string; }
+export interface StepsBlock { type: 'steps'; title?: string; steps: string[]; }
+export interface KeyTermBlock { type: 'keyTerm'; term: string; definition: string; example?: string; }
+export interface NumberLineBlock { type: 'numberLine'; min: number; max: number; step?: number; marks?: { value: number; label?: string }[]; highlight?: number; }
+export interface TableBlock { type: 'table'; headers: string[]; rows: string[][]; caption?: string; }
+export interface EmojiVizBlock { type: 'emojiViz'; emojis: string; caption?: string; }
+export interface ImageBlock { type: 'image'; src: string; alt?: string; caption?: string; }
+export interface VideoBlock { type: 'video'; url: string; title?: string; caption?: string; }
+export interface SlideshowBlock {
+  type: 'slideshow';
+  title?: string;
+  slides: { title?: string; body?: string; emoji?: string; imageUrl?: string }[];
+}
+export interface FlashcardsBlock { type: 'flashcards'; cards: { front: string; back: string }[]; }
+
+/**
+ * A whiteboard the tutor draws on. Elements live on a 100 (wide) × 62 (tall)
+ * coordinate canvas (0,0 = top-left). With `animate`, elements are drawn in one
+ * by one (lines/paths "ink in"), so the character appears to sketch as it talks.
+ */
+export type DrawColor = 'ink' | 'accent' | 'red' | 'green' | 'blue' | 'orange' | 'purple';
+
+export type WhiteboardElement =
+  | { k: 'line'; x1: number; y1: number; x2: number; y2: number; color?: DrawColor; width?: number; arrow?: boolean; dashed?: boolean }
+  | { k: 'rect'; x: number; y: number; w: number; h: number; color?: DrawColor; fill?: boolean; label?: string }
+  | { k: 'circle'; x: number; y: number; r: number; color?: DrawColor; fill?: boolean; label?: string }
+  | { k: 'path'; points: { x: number; y: number }[]; color?: DrawColor; width?: number; closed?: boolean } // polyline / freehand
+  | { k: 'text'; x: number; y: number; value: string; size?: number; color?: DrawColor; bold?: boolean }
+  | { k: 'dot'; x: number; y: number; color?: DrawColor; label?: string };
+
+export interface WhiteboardBlock {
+  type: 'whiteboard';
+  title?: string;
+  elements: WhiteboardElement[];
+  animate?: boolean; // draw elements in sequence
+}
+
+/**
+ * A node in the AI-composed "custom" block — a small, SAFE declarative UI tree.
+ * The AI builds new lesson elements ("click me", reveals, mini-presentations,
+ * illustrations, layouts) by composing these primitives only. There is no raw
+ * HTML/JS: the renderer interprets this tree using the app's design system, so
+ * custom tools always match the UI guidance and can't run arbitrary code.
+ */
+export type NodeAnim = 'none' | 'pop' | 'float' | 'spin' | 'pulse' | 'bounce' | 'fade';
+export type NodeColor = 'ink' | 'muted' | 'accent' | 'good' | 'bad';
+
+export type CustomNode =
+  // layout
+  | { t: 'col' | 'row' | 'card' | 'grid'; children: CustomNode[]; cols?: number; anim?: NodeAnim }
+  // content
+  | { t: 'text'; value: string; size?: 'sm' | 'md' | 'lg' | 'xl'; bold?: boolean; color?: NodeColor; align?: 'left' | 'center'; anim?: NodeAnim }
+  | { t: 'emoji'; value: string; size?: 'md' | 'lg' | 'xl'; anim?: NodeAnim }
+  | { t: 'image'; src: string; alt?: string; anim?: NodeAnim }
+  | { t: 'badge'; value: string; color?: NodeColor }
+  | { t: 'divider' }
+  | { t: 'spacer' }
+  // interactive (self-contained; no cross-node wiring)
+  | { t: 'reveal'; label: string; children: CustomNode[] } // a "click me" card that expands
+  | { t: 'steps'; slides: CustomNode[][] } // an interactive presentation (next/prev)
+  | { t: 'button'; label: string; action: 'complete' | 'continue' | 'speak'; say?: string; correct?: boolean }
+  | { t: 'choice'; prompt?: string; options: string[]; correct: number };
+
+export interface CustomBlock {
+  type: 'custom';
+  title?: string;
+  root: CustomNode;
+  interactive?: boolean; // true if this block is a check the kid must complete (via a button/choice)
+}
+
+export interface MultipleChoiceBlock { type: 'multipleChoice'; prompt: string; options: string[]; correct: number; explain?: string; }
+export interface MultiSelectBlock { type: 'multiSelect'; prompt: string; options: string[]; correct: number[]; explain?: string; }
+export interface TrueFalseBlock { type: 'trueFalse'; statement: string; correct: boolean; explain?: string; }
+export interface FillBlankBlock { type: 'fillBlank'; text: string; answer: string; wordBank?: string[]; } // `text` uses ___ for the blank
+export interface MatchPairsBlock { type: 'matchPairs'; prompt: string; pairs: { left: string; right: string }[]; }
+export interface OrderingBlock { type: 'ordering'; prompt: string; items: string[]; } // items given in CORRECT order
+export interface CategorizeBlock { type: 'categorize'; prompt: string; buckets: string[]; items: { text: string; bucket: string }[]; }
+export interface NumberEntryBlock { type: 'numberEntry'; prompt: string; answer: number; tolerance?: number; unit?: string; }
+export interface ShortTextBlock { type: 'shortText'; prompt: string; sample?: string; }
+export interface SpeakBlock { type: 'speak'; prompt: string; target?: string; }
+
+export type LessonBlock =
+  | RichTextBlock | StepsBlock | KeyTermBlock | NumberLineBlock | TableBlock | EmojiVizBlock
+  | ImageBlock | VideoBlock | SlideshowBlock | FlashcardsBlock | WhiteboardBlock | CustomBlock
+  | MultipleChoiceBlock | MultiSelectBlock | TrueFalseBlock | FillBlankBlock | MatchPairsBlock
+  | OrderingBlock | CategorizeBlock | NumberEntryBlock | ShortTextBlock | SpeakBlock;
+
+export const INTERACTIVE_BLOCKS: BlockType[] = [
+  'multipleChoice', 'multiSelect', 'trueFalse', 'fillBlank', 'matchPairs',
+  'ordering', 'categorize', 'numberEntry', 'shortText', 'speak'
+];
+export function isInteractiveBlock(t?: BlockType): boolean {
+  return !!t && INTERACTIVE_BLOCKS.includes(t);
+}
+/** Does a custom node tree contain a control that can finish the block? */
+export function customHasCompleter(node: CustomNode): boolean {
+  if (node.t === 'choice') return true;
+  if (node.t === 'button') return node.action === 'complete' || node.action === 'continue';
+  if (node.t === 'reveal' || node.t === 'col' || node.t === 'row' || node.t === 'card' || node.t === 'grid') {
+    return (node.children || []).some(customHasCompleter);
+  }
+  if (node.t === 'steps') return node.slides.some((s) => s.some(customHasCompleter));
+  return false;
+}
+
+/** Whether a block requires the learner to finish it before the lesson advances. */
+export function blockIsInteractive(block?: LessonBlock): boolean {
+  if (!block) return false;
+  if (block.type === 'custom') return block.interactive === true && customHasCompleter(block.root);
+  return isInteractiveBlock(block.type);
+}
+
+/** Result the client reports back after the kid finishes an interactive block. */
+export interface BlockResult {
+  text: string; // human-readable summary of what the kid did
+  correct?: boolean; // client-side judgement when the block has an answer key
 }
 
 /** A single observation the brain made about the learner this turn. */
@@ -217,7 +361,7 @@ export type AnswerEval = 'correct' | 'partial' | 'incorrect' | 'na';
 export interface TeacherTurn {
   speech: string; // spoken aloud (short, kid-friendly); also shown as captions
   emotion: Emotion;
-  interaction: Interaction;
+  block?: LessonBlock; // the UI element to show/use this turn (from the tool belt)
   assessment: string; // private read on how it's going (not spoken)
   answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)
   beatComplete: boolean; // true when the current beat's success criteria are met
@@ -266,6 +410,9 @@ export interface WorkingMemory {
   checksTotal: number; // answers judged (correct+partial+incorrect)
   notes: string[]; // running scratch notes for this lesson
   observed: Record<string, { signal: 'got_it' | 'shaky' | 'struggling'; note: string }>;
+  // Set when the last turn's block failed validation and was dropped — the
+  // next directive tells the model so it can correct instead of retry-looping.
+  lastBlockError?: string;
 }
 
 export interface MemoryEpisode {
@@ -283,7 +430,7 @@ export interface TranscriptEntry {
   role: TranscriptRole;
   text: string;
   emotion?: Emotion;
-  interaction?: Interaction;
+  block?: LessonBlock;
   ts: string;
 }
 
@@ -346,5 +493,6 @@ export interface Recommendation {
 /** A kid's answer submitted back to the teaching loop. */
 export interface KidResponse {
   text: string;
-  via: 'choice' | 'type' | 'speak' | 'continue';
+  via: 'block' | 'continue';
+  correct?: boolean; // client-side correctness when the block had an answer key
 }
