@@ -11,6 +11,7 @@ import type {
   MultipleChoiceBlock, MultiSelectBlock, TrueFalseBlock, FillBlankBlock, NumberEntryBlock, ShortTextBlock, SpeakBlock
 } from '@shared/types';
 import { listen, liveSttSupported, type ListenHandle } from '../voice/stt.ts';
+import { useTurnComplete } from './useComplete.ts';
 import { MatchPairs, Ordering, Categorize } from './Arrange.tsx';
 import { CustomBlock } from './CustomBlock.tsx';
 import { Whiteboard } from './Whiteboard.tsx';
@@ -190,7 +191,8 @@ function Video({ block }: { block: VideoBlock }) {
 
 function Slideshow({ block }: { block: SlideshowBlock }) {
   const [i, setI] = useState(0);
-  const s = block.slides[i]!;
+  if (!block.slides.length) return null;
+  const s = block.slides[Math.min(i, block.slides.length - 1)]!;
   return (
     <div className="block-card">
       {block.title && <div className="board-title">{block.title}</div>}
@@ -234,14 +236,13 @@ function Flashcards({ block }: { block: FlashcardsBlock }) {
 function Choice({ prompt, options, correct, explain, active, onComplete }:
   { prompt: string; options: string[]; correct: number[]; explain?: string; active: boolean; onComplete: Done }) {
   const [picked, setPicked] = useState<number | null>(null);
+  const { complete } = useTurnComplete(onComplete);
   const correctIdx = correct[0]!;
   function pick(i: number) {
     if (!active || picked !== null) return;
     setPicked(i);
     const ok = i === correctIdx;
-    setTimeout(() => {
-      onComplete({ text: `Chose “${options[i]}”${ok ? ' (correct)' : ` (incorrect — correct: “${options[correctIdx]}”)`}`, correct: ok });
-    }, ok ? 950 : 1600);
+    complete({ text: `Chose “${options[i]}”${ok ? ' (correct)' : ` (incorrect — correct: “${options[correctIdx]}”)`}`, correct: ok }, ok ? 950 : 1600);
   }
   return (
     <div className="interaction">
@@ -265,12 +266,13 @@ function Choice({ prompt, options, correct, explain, active, onComplete }:
 function MultiSelect({ block, active, onComplete }: { block: MultiSelectBlock; active: boolean; onComplete: Done }) {
   const [sel, setSel] = useState<Set<number>>(new Set());
   const [checked, setChecked] = useState(false);
+  const { complete } = useTurnComplete(onComplete);
   const correct = new Set(block.correct);
   function toggle(i: number) { if (!active || checked) return; const n = new Set(sel); n.has(i) ? n.delete(i) : n.add(i); setSel(n); }
   function check() {
     setChecked(true);
     const ok = sel.size === correct.size && [...sel].every((i) => correct.has(i));
-    setTimeout(() => onComplete({ text: `Selected ${[...sel].map((i) => `“${block.options[i]}”`).join(', ') || 'nothing'} ${ok ? '(correct)' : '(not quite)'}`, correct: ok }), 1500);
+    complete({ text: `Selected ${[...sel].map((i) => `“${block.options[i]}”`).join(', ') || 'nothing'} ${ok ? '(correct)' : '(not quite)'}`, correct: ok }, 1500);
   }
   return (
     <div className="interaction">
@@ -292,13 +294,14 @@ function MultiSelect({ block, active, onComplete }: { block: MultiSelectBlock; a
 function FillBlank({ block, active, onComplete }: { block: FillBlankBlock; active: boolean; onComplete: Done }) {
   const [val, setVal] = useState('');
   const [checked, setChecked] = useState(false);
+  const { complete } = useTurnComplete(onComplete);
   const [parts] = useState(() => block.text.split(/_{2,}|\[blank\]/i));
   function submit(v: string) {
     if (!active || checked || !v.trim()) return;
     setVal(v);
     setChecked(true);
     const ok = v.trim().toLowerCase() === block.answer.trim().toLowerCase();
-    setTimeout(() => onComplete({ text: `Filled “${v}”${ok ? ' (correct)' : ` (incorrect — answer: “${block.answer}”)`}`, correct: ok }), ok ? 950 : 1500);
+    complete({ text: `Filled “${v}”${ok ? ' (correct)' : ` (incorrect — answer: “${block.answer}”)`}`, correct: ok }, ok ? 950 : 1500);
   }
   const ok = checked && val.trim().toLowerCase() === block.answer.trim().toLowerCase();
   return (
@@ -326,13 +329,14 @@ function FillBlank({ block, active, onComplete }: { block: FillBlankBlock; activ
 function NumberEntry({ block, active, onComplete }: { block: NumberEntryBlock; active: boolean; onComplete: Done }) {
   const [val, setVal] = useState('');
   const [checked, setChecked] = useState(false);
+  const { complete } = useTurnComplete(onComplete);
   const tol = block.tolerance ?? 0;
   const ok = checked && Math.abs(parseFloat(val) - block.answer) <= tol + 1e-9;
   function submit() {
     if (!active || checked || val.trim() === '') return;
     setChecked(true);
     const good = Math.abs(parseFloat(val) - block.answer) <= tol + 1e-9;
-    setTimeout(() => onComplete({ text: `Answered ${val}${block.unit ? ' ' + block.unit : ''}${good ? ' (correct)' : ` (incorrect — answer: ${block.answer}${block.unit ? ' ' + block.unit : ''})`}`, correct: good }), good ? 950 : 1500);
+    complete({ text: `Answered ${val}${block.unit ? ' ' + block.unit : ''}${good ? ' (correct)' : ` (incorrect — answer: ${block.answer}${block.unit ? ' ' + block.unit : ''})`}`, correct: good }, good ? 950 : 1500);
   }
   return (
     <div className="interaction">

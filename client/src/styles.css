@@ -231,6 +231,14 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .flashcard-face.front { background: #fff; }
 .flashcard-face.back { background: var(--accent-soft); color: var(--accent-ink); transform: rotateY(180deg); }
 
+/* parent get-started checklist */
+.setup-steps { list-style: none; margin: 8px 0 0; padding: 0; }
+.setup-steps li { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.setup-steps li:last-child { border-bottom: none; }
+.setup-steps .step-mark { flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; background: var(--accent-soft); color: var(--accent-ink); }
+.setup-steps li.done .step-mark { background: var(--good); color: #fff; }
+.setup-steps li.done strong { opacity: .7; }
+
 /* whiteboard */
 .whiteboard .wb-svg { display: block; background: #fcfbf7; border: 1px solid var(--line); border-radius: 12px; max-height: 380px; }
 .wb-draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: wbDraw .6s ease forwards; }

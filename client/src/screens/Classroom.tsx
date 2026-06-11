@@ -23,6 +23,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
   const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
+  const [turnSeq, setTurnSeq] = useState(0); // unique per turn → forces a fresh block instance
   const [hd, setHd] = useState(localStorage.getItem(HD_KEY) === '1');
   const [muted, setMuted] = useState(localStorage.getItem(MUTE_KEY) === '1');
 
@@ -88,6 +89,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     setEmotion(turn.emotion || 'neutral');
     setCaptions(turn.speech);
     setBlock(turn.block ?? null);
+    setTurnSeq((n) => n + 1);
     const afterSpeech = () => {
       setMouthOpen(0);
       if (ended || turn.lessonComplete) finish();
@@ -182,7 +184,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
         {/* the tool-belt block for this turn */}
         {block && (phase === 'speaking' || phase === 'awaiting') && (
           <div className="block-area">
-            <BlockView key={`${beat?.index}-${block.type}`} block={block} active={phase === 'awaiting'} onComplete={onBlockComplete} />
+            <BlockView key={turnSeq} block={block} active={phase === 'awaiting'} onComplete={onBlockComplete} />
           </div>
         )}
 

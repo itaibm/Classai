@@ -6,6 +6,7 @@
 import { useState } from 'react';
 import type { CustomBlock as CustomBlockT, CustomNode, BlockResult } from '@shared/types';
 import { speak } from '../voice/tts.ts';
+import { useTurnComplete } from './useComplete.ts';
 
 interface Ctx { active: boolean; onComplete: (r: BlockResult) => void; }
 
@@ -106,11 +107,12 @@ function Steps({ node, ctx }: { node: Extract<CustomNode, { t: 'steps' }>; ctx: 
 
 function InlineChoice({ node, ctx }: { node: Extract<CustomNode, { t: 'choice' }>; ctx: Ctx }) {
   const [picked, setPicked] = useState<number | null>(null);
+  const { complete } = useTurnComplete(ctx.onComplete);
   function pick(k: number) {
     if (!ctx.active || picked !== null) return;
     setPicked(k);
     const ok = k === node.correct;
-    setTimeout(() => ctx.onComplete({ text: `Chose “${node.options[k]}”${ok ? ' (correct)' : ` (incorrect — correct: “${node.options[node.correct]}”)`}`, correct: ok }), ok ? 950 : 1500);
+    complete({ text: `Chose “${node.options[k]}”${ok ? ' (correct)' : ` (incorrect — correct: “${node.options[node.correct]}”)`}`, correct: ok }, ok ? 950 : 1500);
   }
   return (
     <div>
