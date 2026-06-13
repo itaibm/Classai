@@ -93,17 +93,53 @@ export interface RecorderHandle {
   cancel: () => void;
 }
 
+export interface RecordOpts {
+  /** Live input loudness 0..1, ~60fps, so the UI can prove the mic is hearing you. */
+  onLevel?: (level: number) => void;
+}
+
 /** Press-to-record capture: record the mic, then transcribe in-browser with
  *  Whisper. Reliable on localhost — unlike the Web Speech API, it doesn't depend
  *  on a vendor speech service and works the same across browsers. */
-export async function startRecording(): Promise<RecorderHandle> {
+export async function startRecording(opts: RecordOpts = {}): Promise<RecorderHandle> {
   const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
   const chunks: BlobPart[] = [];
   const rec = new MediaRecorder(stream);
   rec.ondataavailable = (e) => { if (e.data && e.data.size) chunks.push(e.data); };
   rec.start();
+
+  // Live level metering (optional) so the UI can show it's actually hearing audio.
+  let raf = 0;
+  let levelCtx: AudioContext | null = null;
+  if (opts.onLevel) {
+    try {
+      levelCtx = new AudioContext();
+      const analyser = levelCtx.createAnalyser();
+      analyser.fftSize = 512;
+      levelCtx.createMediaStreamSource(stream).connect(analyser);
+      const data = new Uint8Array(analyser.frequencyBinCount);
+      const tick = () => {
+        analyser.getByteTimeDomainData(data);
+        let sum = 0;
+        for (let i = 0; i < data.length; i++) {
+          const v = (data[i]! - 128) / 128;
+          sum += v * v;
+        }
+        opts.onLevel!(Math.min(1, Math.sqrt(sum / data.length) * 3)); // RMS, scaled for visibility
+        raf = requestAnimationFrame(tick);
+      };
+      raf = requestAnimationFrame(tick);
+    } catch {
+      /* metering is best-effort */
+    }
+  }
+
   let done = false;
-  const release = () => stream.getTracks().forEach((t) => t.stop());
+  const release = () => {
+    if (raf) cancelAnimationFrame(raf);
+    levelCtx?.close().catch(() => {});
+    stream.getTracks().forEach((t) => t.stop());
+  };
   return {
     async stop() {
       if (done) return '';

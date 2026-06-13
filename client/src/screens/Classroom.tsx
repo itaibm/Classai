@@ -4,13 +4,14 @@ import { blockIsInteractive } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { Character } from '../avatar/Character.tsx';
-import { BlockView } from '../blocks/BlockView.tsx';
+import { BlockView, AnswerInput } from '../blocks/BlockView.tsx';
 import { speak, unlockAudio, type SpeakHandle } from '../voice/tts.ts';
 
 type Phase = 'gate' | 'starting' | 'thinking' | 'speaking' | 'awaiting' | 'ended' | 'error';
 
 const HD_KEY = 'classai_hd';
 const MUTE_KEY = 'classai_mute';
+const MIC_KEY = 'classai_mic';
 
 export function Classroom({ lessonId }: { lessonId: string }) {
   const [kid, setKid] = useState<Kid | null>(null);
@@ -27,6 +28,8 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [turnSeq, setTurnSeq] = useState(0); // unique per turn → forces a fresh block instance
   const [hd, setHd] = useState(localStorage.getItem(HD_KEY) === '1');
   const [muted, setMuted] = useState(localStorage.getItem(MUTE_KEY) === '1');
+  const [micOn, setMicOn] = useState(localStorage.getItem(MIC_KEY) !== '0'); // default on
+  const [listening, setListening] = useState(false); // mic actively recording (for top-bar indicator)
 
   const sessionRef = useRef<string>('');
   const revealRef = useRef<number | null>(null);
@@ -100,6 +103,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     stopReveal();
     setShown('');
     setBlock(null);
+    setListening(false);
     try {
       const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
       setBeat(beat);
@@ -159,6 +163,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     speakRef.current?.stop();
     fetchTurn({ text: '(continue)', via: 'continue' });
   };
+  // Free-text / spoken answer when the turn has no interactive block.
+  const onAnswer = (t: string) => {
+    speakRef.current?.stop();
+    fetchTurn({ text: t, via: 'block' });
+  };
 
   const hue = kid?.avatar.hue ?? 210;
   const speaking = phase === 'speaking';
@@ -171,6 +180,18 @@ export function Classroom({ lessonId }: { lessonId: string }) {
         <div className="brand" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>← Leave class</div>
         <div className="spacer" />
         <span className="muted small">{lesson?.title}</span>
+        {listening && (
+          <span className="listening-pill" title="Microphone is listening">
+            <span className="rec-dot" /> Listening…
+          </span>
+        )}
+        <button
+          className="btn ghost small"
+          title={micOn ? 'Microphone is on — click to turn off' : 'Microphone is off — click to turn on'}
+          onClick={() => setMicOn((m) => { localStorage.setItem(MIC_KEY, m ? '0' : '1'); return !m; })}
+        >
+          {micOn ? '🎙️ Mic on' : '🎙️ Mic off'}
+        </button>
         <button className="btn ghost small" onClick={() => setMuted((m) => { localStorage.setItem(MUTE_KEY, m ? '0' : '1'); return !m; })}>
           {muted ? '🔇 Muted' : '🔊 Voice on'}
         </button>
@@ -214,13 +235,24 @@ export function Classroom({ lessonId }: { lessonId: string }) {
         {/* the tool-belt block for this turn */}
         {block && (phase === 'speaking' || phase === 'awaiting') && (
           <div className="block-area">
-            <BlockView key={turnSeq} block={block} active={phase === 'awaiting'} onComplete={onBlockComplete} />
+            <BlockView key={turnSeq} block={block} active={phase === 'awaiting'} onComplete={onBlockComplete} micEnabled={micOn} onMicState={setListening} />
           </div>
         )}
 
         {showContinue && (
-          <div className="row center" style={{ marginTop: 16 }}>
-            <button className="btn lg" onClick={onContinue}>Continue ▶</button>
+          <div className="block-area">
+            {/* Always give the kid a way to respond when the tutor is waiting —
+                speak or type — even on turns that carry no interactive block. */}
+            <AnswerInput
+              active={true}
+              micEnabled={micOn}
+              onMicState={setListening}
+              onSubmit={onAnswer}
+              placeholder="Speak or type your answer…"
+            />
+            <div className="row center" style={{ marginTop: 10 }}>
+              <button className="btn ghost" onClick={onContinue}>Skip / Continue ▶</button>
+            </div>
           </div>
         )}
 

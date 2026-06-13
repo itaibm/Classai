@@ -3,7 +3,7 @@
  * Display blocks just render; interactive blocks capture the kid's response,
  * give instant animated feedback, and call onComplete with a BlockResult.
  */
-import { Fragment, useMemo, useRef, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import type {
   LessonBlock, BlockResult,
   RichTextBlock, StepsBlock, KeyTermBlock, NumberLineBlock, TableBlock, EmojiVizBlock,
@@ -18,7 +18,7 @@ import { Whiteboard } from './Whiteboard.tsx';
 
 type Done = (r: BlockResult) => void;
 
-export function BlockView({ block, active, onComplete }: { block: LessonBlock; active: boolean; onComplete: Done }) {
+export function BlockView({ block, active, onComplete, micEnabled, onMicState }: { block: LessonBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void }) {
   switch (block.type) {
     case 'richText': return <RichText block={block} />;
     case 'steps': return <Steps block={block} />;
@@ -38,7 +38,7 @@ export function BlockView({ block, active, onComplete }: { block: LessonBlock; a
     case 'fillBlank': return <FillBlank block={block} active={active} onComplete={onComplete} />;
     case 'numberEntry': return <NumberEntry block={block} active={active} onComplete={onComplete} />;
     case 'shortText': return <ShortText block={block} active={active} onComplete={onComplete} />;
-    case 'speak': return <Speak block={block} active={active} onComplete={onComplete} />;
+    case 'speak': return <Speak block={block} active={active} onComplete={onComplete} micEnabled={micEnabled} onMicState={onMicState} />;
     case 'matchPairs': return <MatchPairs block={block} active={active} onComplete={onComplete} />;
     case 'ordering': return <Ordering block={block} active={active} onComplete={onComplete} />;
     case 'categorize': return <Categorize block={block} active={active} onComplete={onComplete} />;
@@ -374,15 +374,37 @@ function ShortText({ block, active, onComplete }: { block: ShortTextBlock; activ
   );
 }
 
-function Speak({ block, active, onComplete }: { block: SpeakBlock; active: boolean; onComplete: Done }) {
+/** Reusable mic + typing answer input. Used by the Speak block AND by the
+ *  Classroom's always-available answer bar, so the kid can always respond when
+ *  the tutor is waiting — even on turns that carry no interactive block. */
+export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placeholder = 'Type your answer…' }: {
+  active: boolean; micEnabled?: boolean; onMicState?: (listening: boolean) => void;
+  onSubmit: (text: string) => void; placeholder?: string;
+}) {
   const [text, setText] = useState('');
   const [status, setStatus] = useState<'idle' | 'recording' | 'transcribing'>('idle');
+  const [level, setLevel] = useState(0); // live mic loudness 0..1 while recording
   const [error, setError] = useState('');
   const [, setFails] = useState(0);
-  // Fall back to typing when the mic can't work (insecure origin / no device)
-  // or after 2 failed attempts.
-  const [typeMode, setTypeMode] = useState(!micSupported());
+  const [typeMode, setTypeMode] = useState(false); // user chose to type (or after 2 misses)
   const recRef = useRef<RecorderHandle | null>(null);
+
+  // The mic is usable only on a secure origin AND when not switched off globally.
+  const micAvailable = micSupported() && micEnabled !== false;
+  const showTyping = !micAvailable || typeMode;
+
+  // Tell the Classroom top bar whether we're actively listening.
+  useEffect(() => { onMicState?.(status === 'recording'); }, [status, onMicState]);
+  useEffect(() => () => onMicState?.(false), [onMicState]); // clear on unmount (turn change)
+  // If the mic is switched off mid-recording, stop cleanly.
+  useEffect(() => {
+    if (!micAvailable && (status === 'recording' || recRef.current)) {
+      recRef.current?.cancel();
+      recRef.current = null;
+      setLevel(0);
+      setStatus('idle');
+    }
+  }, [micAvailable, status]);
 
   function registerFail(msg: string) {
     setError(msg);
@@ -397,7 +419,7 @@ function Speak({ block, active, onComplete }: { block: SpeakBlock; active: boole
     if (!active) return;
     setError(''); setText('');
     try {
-      recRef.current = await startRecording();
+      recRef.current = await startRecording({ onLevel: setLevel });
       setStatus('recording');
     } catch (e: any) {
       const denied = /denied|not ?allowed|permission/i.test(e?.message || '');
@@ -413,6 +435,7 @@ function Speak({ block, active, onComplete }: { block: SpeakBlock; active: boole
   async function stop() {
     const handle = recRef.current;
     recRef.current = null;
+    setLevel(0);
     if (!handle) { setStatus('idle'); return; }
     setStatus('transcribing');
     try {
@@ -434,27 +457,38 @@ function Speak({ block, active, onComplete }: { block: SpeakBlock; active: boole
   function switchToTyping() {
     recRef.current?.cancel();
     recRef.current = null;
+    setLevel(0);
     setStatus('idle');
     setTypeMode(true);
     setError('');
   }
-  const submit = () => { if (text.trim()) onComplete({ text: `Said: “${text.trim()}”` }); };
+  const submit = () => { if (text.trim()) onSubmit(text.trim()); };
 
   return (
     <div className="interaction col center" style={{ gap: 12 }}>
-      <p className="block-prompt">{block.prompt}</p>
-      {block.target && <div className="board-title" style={{ textAlign: 'center' }}>{block.target}</div>}
-
-      {!typeMode && (
+      {!showTyping && (
         <>
           <button
             className={`mic ${status === 'recording' ? 'recording' : ''}`}
             disabled={!active || status === 'transcribing'}
             onClick={toggle}
+            aria-label={status === 'recording' ? 'Stop recording' : 'Start recording'}
+            // halo grows with your actual voice level — visible proof it's hearing you
+            style={status === 'recording' ? { boxShadow: `0 0 0 ${6 + level * 28}px var(--accent-soft)` } : undefined}
           >
-            {status === 'recording' ? '■' : '🎤'}
+            {status === 'recording' ? '■' : status === 'transcribing' ? '…' : '🎤'}
           </button>
-          {status === 'recording' && <span className="muted small">Recording… tap to stop.</span>}
+
+          {status === 'recording' && (
+            <>
+              <div className="mic-meter" aria-hidden="true">
+                {[0.6, 1, 0.78, 1, 0.6].map((m, i) => (
+                  <span key={i} style={{ transform: `scaleY(${Math.max(0.12, Math.min(1, level * m * 1.6))})` }} />
+                ))}
+              </div>
+              <span className="listening-label"><span className="rec-dot" /> Listening… tap to stop</span>
+            </>
+          )}
           {status === 'transcribing' && <span className="muted small">Transcribing… (first time downloads a small voice model)</span>}
           {status === 'idle' && !text && !error && <span className="muted small">Tap the mic, say your answer, then tap again.</span>}
         </>
@@ -463,27 +497,42 @@ function Speak({ block, active, onComplete }: { block: SpeakBlock; active: boole
       {error && <p className="muted small" style={{ color: '#c0392b' }}>{error}</p>}
       {text && <p className="muted">“{text}”</p>}
 
-      {typeMode && (
+      {showTyping && (
         <form className="answer-row" style={{ width: '100%' }} onSubmit={(e) => { e.preventDefault(); submit(); }}>
-          <input autoFocus value={text} disabled={!active} onChange={(e) => setText(e.target.value)} placeholder="Type your answer…" />
+          <input autoFocus value={text} disabled={!active} onChange={(e) => setText(e.target.value)} placeholder={placeholder} />
         </form>
       )}
 
       <div className="row center" style={{ gap: 10 }}>
         <button className="btn" disabled={!active || !text.trim()} onClick={submit}>Send</button>
-        {micSupported() && !typeMode && (
+        {micAvailable && !typeMode && (
           <button className="btn ghost small" type="button" disabled={!active} onClick={switchToTyping}>Type instead</button>
         )}
-        {micSupported() && typeMode && (
+        {micAvailable && typeMode && (
           <button className="btn ghost small" type="button" disabled={!active} onClick={() => { setTypeMode(false); setError(''); }}>Use mic</button>
         )}
       </div>
 
-      {typeMode && !micSupported() && (
+      {showTyping && !micSupported() && (
         <span className="muted small">
           The mic needs the app opened at <strong>http://localhost:8787</strong> (not a 192.168.x.x address).
         </span>
       )}
+    </div>
+  );
+}
+
+function Speak({ block, active, onComplete, micEnabled, onMicState }: { block: SpeakBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void }) {
+  return (
+    <div className="col center" style={{ gap: 12 }}>
+      <p className="block-prompt" style={{ textAlign: 'center' }}>{block.prompt}</p>
+      {block.target && <div className="board-title" style={{ textAlign: 'center' }}>{block.target}</div>}
+      <AnswerInput
+        active={active}
+        micEnabled={micEnabled}
+        onMicState={onMicState}
+        onSubmit={(t) => onComplete({ text: `Said: “${t}”` })}
+      />
     </div>
   );
 }

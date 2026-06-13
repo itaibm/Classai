@@ -25,7 +25,12 @@ Classai is a private, character-driven AI homeschool tutor. Parents supply a cur
 
 **Two-tier memory**: short-term `WorkingMemory` lives on the Session and is updated by the teach loop; long-term `LearnerModel` (`server/src/memory/`) blends each turn's observations into a durable mastery map plus strengths/struggles/misconceptions/interests, and powers progress rollups, spaced review, and next-lesson recommendations.
 
-**Provider abstraction** (`server/src/ai/provider.ts`): `getBrain()` returns a `Brain` with a single `generate()` method, built from the user's stored auth profile (`auth-store.ts`). The API-key and Ollama paths are standard; the OAuth/local-login paths mirror OpenClaw and depend on unofficial upstream endpoints — treat them as best-effort.
+**Provider abstraction** (`server/src/ai/provider.ts`): `getBrain()` returns a `Brain` with a single `generate()` method, built from the user's stored auth profile (`auth-store.ts`). Paths:
+- **Anthropic API key / OpenAI API key / Ollama** — standard SDK calls.
+- **Anthropic "reuse local Claude login"** — reads the local `claude` CLI token (creds file → macOS Keychain → legacy `ant`), used as an OAuth bearer. See `oauth.ts:getAnthropicLocalToken`.
+- **OpenAI "Sign in with ChatGPT"** — `codexBrain` hits the **Codex subscription backend** (`chatgpt.com/backend-api/codex/responses`), NOT the standard API. It's the Responses API over SSE, requires `stream:true` + `store:false` + Codex headers (`originator: codex_cli_rs`, `OpenAI-Beta: responses=experimental`, `session_id`, codex User-Agent, `chatgpt-account-id`), and only serves **current plan models** (default `gpt-5.5`; older names like gpt-4o are rejected). Runs on the user's ChatGPT plan, no API billing, but rate-limited (~15–80 gpt-5.5 msgs / 5h) and undocumented/best-effort.
+
+Both subscription paths are a ToS gray area and depend on unofficial endpoints — treat as best-effort.
 
 ## Architecture constraints (don't break these)
 
@@ -51,4 +56,24 @@ Classai is a private, character-driven AI homeschool tutor. Parents supply a cur
 
 ## Env vars (see `.env.example`)
 
-`PORT` (8787), `CLASSAI_DATA_DIR` (`./data`, git-ignored), `CLASSAI_PARENT_PIN` (first user sets it if unset), `LOG_LEVEL` (`info`).
+`PORT` (8787), `CLASSAI_DATA_DIR` (`./data`, git-ignored), `CLASSAI_PARENT_PIN` (first user sets it if unset), `LOG_LEVEL` (`info`). Codex path also reads `OPENAI_OAUTH_BASE_URL` and `OPENAI_CODEX_MODEL` (default `gpt-5.5`).
+
+## Session handoff (as of 2026-06-13)
+
+Active branch: **`claude/brain-connect-codex-classroom`** (off `main`). Work is committed locally; **not pushed / no PR yet**.
+
+**What works now (verified end-to-end):**
+- Connect-your-brain: Claude "reuse local login" (reads the real `claude` token), API-key, and OpenAI "Sign in with ChatGPT" → Codex `gpt-5.5` (free on the user's plan). Connect now verifies with a real generation; Test button reports Working/Failed.
+- Full lesson pipeline (learner → AI syllabus → AI lesson → live teaching turn) on both Claude Haiku and Codex gpt-5.5.
+- Classroom redesign: speech bubble with word-by-word reveal, talking avatar, activity-forward layout.
+- Voice answers: on-device Whisper capture (not Web Speech), live mic level meter, top-bar 🎙️ mic on/off + "● Listening…" pill, and a **universal answer bar** (mic+type) shown whenever the tutor waits with no interactive block — plus Skip/Continue.
+
+**Important runtime notes:**
+- The mic needs the app at **`http://localhost:8787`** — on a `192.168.x.x` LAN address the browser blocks all mic APIs.
+- Brain selection persists in `data/auth-profiles.json`; default may be OpenAI gpt-5.5. If Codex hits its rate limit, switch to the Claude brain.
+- First voice use downloads a small Whisper model (cached after).
+
+**Known follow-ups / not done:**
+- No **delete-course** endpoint — QA left junk courses on learner "Leo" (e.g. "Codex Test — Weather", "Answerbar Test"). Adding a delete-class action would let us clean them.
+- The OpenAI "Sign in with ChatGPT" path only works for accounts whose plan includes Codex (current gpt-5.x models); older model names are rejected by the backend.
+- Optional from `/init`: no linter/test runner exists; `npm run typecheck` is the only check.
