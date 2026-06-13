@@ -80,6 +80,57 @@ async function getWhisper(): Promise<any> {
   return whisperPromise;
 }
 
+/** True only where the mic APIs actually work: a secure context (https or
+ *  localhost) with getUserMedia. On a LAN IP over plain http the browser
+ *  blocks both getUserMedia and SpeechRecognition. */
+export function micSupported(): boolean {
+  if (typeof navigator === 'undefined' || !navigator.mediaDevices?.getUserMedia) return false;
+  return typeof isSecureContext === 'undefined' ? true : isSecureContext;
+}
+
+export interface RecorderHandle {
+  stop: () => Promise<string>; // stop recording, transcribe on-device, resolve with text
+  cancel: () => void;
+}
+
+/** Press-to-record capture: record the mic, then transcribe in-browser with
+ *  Whisper. Reliable on localhost — unlike the Web Speech API, it doesn't depend
+ *  on a vendor speech service and works the same across browsers. */
+export async function startRecording(): Promise<RecorderHandle> {
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  const chunks: BlobPart[] = [];
+  const rec = new MediaRecorder(stream);
+  rec.ondataavailable = (e) => { if (e.data && e.data.size) chunks.push(e.data); };
+  rec.start();
+  let done = false;
+  const release = () => stream.getTracks().forEach((t) => t.stop());
+  return {
+    async stop() {
+      if (done) return '';
+      done = true;
+      const stopped = new Promise<void>((resolve) => (rec.onstop = () => resolve()));
+      try { rec.stop(); } catch { /* already stopped */ }
+      await stopped;
+      release();
+      const blob = new Blob(chunks, { type: rec.mimeType || 'audio/webm' });
+      const buf = await blob.arrayBuffer();
+      if (!buf.byteLength) return '';
+      const ctx = new AudioContext({ sampleRate: 16000 });
+      const audio = await ctx.decodeAudioData(buf);
+      const mono = audio.getChannelData(0);
+      const asr = await getWhisper();
+      const out = await asr(mono);
+      return (out?.text || '').trim();
+    },
+    cancel() {
+      if (done) return;
+      done = true;
+      try { rec.stop(); } catch { /* ignore */ }
+      release();
+    }
+  };
+}
+
 /** Record a short clip and transcribe it with in-browser Whisper. */
 export async function recordAndTranscribe(maxMs = 12000): Promise<string> {
   const stream = await navigator.mediaDevices.getUserMedia({ audio: true });

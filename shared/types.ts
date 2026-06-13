@@ -413,6 +413,12 @@ export interface WorkingMemory {
   // Set when the last turn's block failed validation and was dropped — the
   // next directive tells the model so it can correct instead of retry-looping.
   lastBlockError?: string;
+  // Display-block loop detector: counts consecutive turns that re-sent the same
+  // look-only block type with no answer judged and no beat progress (the model
+  // asking the learner to act on a block they can't touch). The director uses
+  // it to inject a change-approach directive.
+  lastBlockType?: string;
+  sameDisplayBlockStreak?: number;
 }
 
 export interface MemoryEpisode {

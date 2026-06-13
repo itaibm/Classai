@@ -175,6 +175,17 @@ function applyDirectorState(w: WorkingMemory, turn: TeacherTurn, beatKind: strin
   const asked = blockIsInteractive(turn.block);
   w.turnsSinceCheck = asked || turn.answerEval !== 'na' ? 0 : w.turnsSinceCheck + 1;
 
+  // Display-block loop detector: the model re-sending the same look-only block
+  // while nothing moves (no answer to judge, beat not advancing) means it is
+  // asking the learner to act on a block they can't touch.
+  const stalledDisplay = !!turn.block && !asked && turn.answerEval === 'na' && !turn.beatComplete;
+  if (stalledDisplay) {
+    w.sameDisplayBlockStreak = turn.block!.type === w.lastBlockType ? (w.sameDisplayBlockStreak ?? 0) + 1 : 1;
+  } else {
+    w.sameDisplayBlockStreak = 0;
+  }
+  w.lastBlockType = turn.block?.type;
+
   if (turn.answerEval !== 'na') {
     w.checksTotal++;
     if (turn.answerEval === 'correct') {

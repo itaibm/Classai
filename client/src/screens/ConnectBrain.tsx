@@ -200,11 +200,25 @@ export function ConnectBrain() {
                 {vendor === 'local' ? (
                   <input type="text" value={chosenModel} onChange={(e) => setModel(e.target.value)} placeholder="qwen2.5" />
                 ) : (
-                  <select value={chosenModel} onChange={(e) => setModel(e.target.value)}>
-                    {models.map((m) => (
-                      <option key={m.id} value={m.id}>{m.label}{m.note ? ` — ${m.note}` : ''}</option>
-                    ))}
-                  </select>
+                  <>
+                    {/* Editable combobox: suggest known models, but allow typing any
+                        id the account supports (e.g. gpt-5) — the list is not live. */}
+                    <input
+                      type="text"
+                      list="model-suggestions"
+                      value={chosenModel}
+                      onChange={(e) => setModel(e.target.value)}
+                      placeholder={models[0]?.id || 'model id'}
+                    />
+                    <datalist id="model-suggestions">
+                      {models.map((m) => (
+                        <option key={m.id} value={m.id}>
+                          {m.label}{m.note ? ` — ${m.note}` : ''}
+                        </option>
+                      ))}
+                    </datalist>
+                    <span className="hint small">Pick a suggestion or type any model your account supports.</span>
+                  </>
                 )}
               </label>
 

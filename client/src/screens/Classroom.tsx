@@ -19,6 +19,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [emotion, setEmotion] = useState<Emotion>('happy');
   const [mouthOpen, setMouthOpen] = useState(0);
   const [captions, setCaptions] = useState('');
+  const [shown, setShown] = useState(''); // progressively-revealed portion of captions
   const [block, setBlock] = useState<LessonBlock | null>(null);
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
@@ -28,7 +29,28 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [muted, setMuted] = useState(localStorage.getItem(MUTE_KEY) === '1');
 
   const sessionRef = useRef<string>('');
+  const revealRef = useRef<number | null>(null);
   const speakRef = useRef<SpeakHandle | null>(null);
+
+  function stopReveal() {
+    if (revealRef.current) { clearInterval(revealRef.current); revealRef.current = null; }
+  }
+  /** Reveal the tutor's speech word-by-word so it reads like talking, not a dump.
+   *  Pace roughly tracks spoken length; always completes on the final tick. */
+  function startReveal(text: string) {
+    stopReveal();
+    const tokens = text.split(/(\s+)/); // keep whitespace so join('') restores text
+    if (tokens.length <= 1) { setShown(text); return; }
+    const totalMs = Math.min(14000, 600 + text.length * 32);
+    const stepMs = Math.max(40, Math.round(totalMs / tokens.length));
+    let i = 0;
+    setShown('');
+    revealRef.current = window.setInterval(() => {
+      i += 1;
+      setShown(tokens.slice(0, i).join(''));
+      if (i >= tokens.length) stopReveal();
+    }, stepMs);
+  }
   const kidRef = useRef<Kid | null>(null);
   const mutedRef = useRef(muted);
   const hdRef = useRef(hd);
@@ -53,6 +75,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     return () => {
       cancelled = true;
       speakRef.current?.stop();
+      stopReveal();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lessonId]);
@@ -74,6 +97,8 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     setPhase('thinking');
     setEmotion('thinking');
     setCaptions('');
+    stopReveal();
+    setShown('');
     setBlock(null);
     try {
       const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
@@ -90,8 +115,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     setCaptions(turn.speech);
     setBlock(turn.block ?? null);
     setTurnSeq((n) => n + 1);
+    startReveal(turn.speech);
     const afterSpeech = () => {
       setMouthOpen(0);
+      stopReveal();
+      setShown(turn.speech); // ensure the full text is visible once speech ends
       if (ended || turn.lessonComplete) finish();
       else setPhase('awaiting');
     };
@@ -163,12 +191,14 @@ export function Classroom({ lessonId }: { lessonId: string }) {
             </div>
           )}
 
-          {phase !== 'gate' && (
-            <div className={`captions ${phase === 'thinking' ? 'thinking' : ''}`}>
-              {phase === 'starting' && 'Getting ready…'}
-              {phase === 'thinking' && 'thinking…'}
-              {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions}
-              {phase === 'error' && <span className="muted">{errMsg}</span>}
+          {(phase === 'starting' || phase === 'thinking') && (
+            <div className="captions thinking">{phase === 'starting' ? 'Getting ready…' : 'thinking…'}</div>
+          )}
+          {phase === 'error' && <div className="captions"><span className="muted">{errMsg}</span></div>}
+          {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions && (
+            <div className="speech-bubble">
+              {shown}
+              {phase === 'speaking' && shown.length < captions.length && <span className="caret">▌</span>}
             </div>
           )}
 

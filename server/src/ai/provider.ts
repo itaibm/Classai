@@ -11,6 +11,7 @@
  * The three key/local paths are fully standard. The OAuth paths follow
  * OpenClaw's approach and depend on unofficial upstream endpoints.
  */
+import { randomUUID } from 'node:crypto';
 import Anthropic from '@anthropic-ai/sdk';
 import OpenAI from 'openai';
 import type { BrainVendor } from '../../../shared/types.ts';
@@ -110,39 +111,124 @@ async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object
 
 async function openaiBrain(p: ReturnType<typeof authStore.getStored> & object): Promise<Brain> {
   const model = p!.model || 'gpt-4o';
-  let client: OpenAI;
 
-  if (p!.method === 'api_key' && p!.apiKey) {
-    client = new OpenAI({ apiKey: p!.apiKey, baseURL: p!.baseUrl });
-  } else if (p!.oauth?.access) {
-    let oauth = p!.oauth;
-    // Refresh shortly before expiry.
-    if (oauth.expires && oauth.refresh && oauth.expires < Date.now() + 60_000) {
-      oauth = await refreshOpenAI(oauth.refresh);
-      authStore.updateTokens(p!.id, oauth);
-    }
-    client = new OpenAI({
-      apiKey: oauth.access,
-      baseURL: p!.baseUrl || process.env.OPENAI_OAUTH_BASE_URL || 'https://chatgpt.com/backend-api/codex',
-      defaultHeaders: oauth.accountId ? { 'chatgpt-account-id': oauth.accountId } : {}
-    });
-  } else {
-    throw new NoBrainError();
+  // "Sign in with ChatGPT" (OAuth) → the Codex subscription backend, which is
+  // NOT the standard OpenAI API. It speaks the Responses API at /responses, only
+  // serves current ChatGPT-plan models (e.g. gpt-5.5), requires stream:true +
+  // store:false, and needs the Codex client headers. Runs on the user's plan,
+  // no API billing.
+  if (p!.method !== 'api_key' && p!.oauth?.access) {
+    return codexBrain(p!, model);
   }
 
+  // API key → standard OpenAI Chat Completions.
+  if (p!.method === 'api_key' && p!.apiKey) {
+    const client = new OpenAI({ apiKey: p!.apiKey, baseURL: p!.baseUrl });
+    // Newer OpenAI models (GPT-5, o-series reasoning) reject `max_tokens` — they
+    // require `max_completion_tokens`. Older models (gpt-4o) only accept `max_tokens`.
+    const isReasoning = /^(gpt-5|o[1-9])/.test(model);
+    return {
+      vendor: 'openai',
+      model,
+      async generate({ system, messages, maxTokens = 1400, json }) {
+        const res = await client.chat.completions.create({
+          model,
+          messages: [{ role: 'system', content: system }, ...messages],
+          ...(isReasoning
+            ? { max_completion_tokens: maxTokens + 2000, reasoning_effort: 'low' as const }
+            : { max_tokens: maxTokens }),
+          ...(json ? { response_format: { type: 'json_object' as const } } : {})
+        });
+        return (res.choices[0]?.message?.content || '').trim();
+      }
+    };
+  }
+
+  throw new NoBrainError();
+}
+
+const CODEX_BASE = process.env.OPENAI_OAUTH_BASE_URL || 'https://chatgpt.com/backend-api/codex';
+// Default Codex model for ChatGPT-plan accounts; the backend rejects non-plan
+// models. Overridable via env as OpenAI ships new ones.
+const CODEX_MODEL = process.env.OPENAI_CODEX_MODEL || 'gpt-5.5';
+
+/** Brain backed by the ChatGPT Codex subscription backend (Responses API + SSE). */
+async function codexBrain(p: ReturnType<typeof authStore.getStored> & object, model: string): Promise<Brain> {
+  // Only current gpt-5.x plan models work here; anything else (e.g. a leftover
+  // gpt-4o from an older connect) falls back to the known-good default.
+  const codexModel = /^gpt-5\.\d/.test(model) ? model : CODEX_MODEL;
   return {
     vendor: 'openai',
-    model,
-    async generate({ system, messages, maxTokens = 1400, json }) {
-      const res = await client.chat.completions.create({
-        model,
-        max_tokens: maxTokens,
-        messages: [{ role: 'system', content: system }, ...messages],
-        ...(json ? { response_format: { type: 'json_object' as const } } : {})
+    model: codexModel,
+    async generate({ system, messages }) {
+      let oauth = p!.oauth!;
+      if (oauth.expires && oauth.refresh && oauth.expires < Date.now() + 60_000) {
+        oauth = await refreshOpenAI(oauth.refresh);
+        authStore.updateTokens(p!.id, oauth);
+      }
+      const input = messages.map((m) => ({
+        type: 'message',
+        role: m.role,
+        content: [{ type: m.role === 'assistant' ? 'output_text' : 'input_text', text: m.content }]
+      }));
+      const res = await fetch(`${CODEX_BASE}/responses`, {
+        method: 'POST',
+        headers: {
+          authorization: `Bearer ${oauth.access}`,
+          ...(oauth.accountId ? { 'chatgpt-account-id': oauth.accountId } : {}),
+          'content-type': 'application/json',
+          accept: 'text/event-stream',
+          'OpenAI-Beta': 'responses=experimental',
+          originator: 'codex_cli_rs',
+          'User-Agent': 'codex_cli_rs/0.20.0 (Classai)',
+          session_id: randomUUID()
+        },
+        body: JSON.stringify({
+          model: codexModel,
+          instructions: system,
+          input,
+          stream: true, // required by the codex backend
+          store: false, // required by the codex backend
+          reasoning: { effort: 'low' } // keep turns snappy
+        })
       });
-      return (res.choices[0]?.message?.content || '').trim();
+      if (!res.ok || !res.body) {
+        const detail = await res.text().catch(() => '');
+        throw new Error(`Codex ${res.status}: ${detail.slice(0, 300)}`);
+      }
+      return await readCodexStream(res.body);
     }
   };
+}
+
+/** Parse a Codex Responses SSE stream and return the assembled output text. */
+async function readCodexStream(body: ReadableStream<Uint8Array>): Promise<string> {
+  const reader = body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let out = '';
+  let doneText = '';
+  for (;;) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop() || '';
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed.startsWith('data:')) continue;
+      const payload = trimmed.slice(5).trim();
+      if (!payload || payload === '[DONE]') continue;
+      try {
+        const evt = JSON.parse(payload);
+        if (evt.type === 'response.output_text.delta' && typeof evt.delta === 'string') out += evt.delta;
+        else if (evt.type === 'response.output_text.done' && typeof evt.text === 'string') doneText = evt.text;
+      } catch {
+        /* ignore keep-alives / non-JSON frames */
+      }
+    }
+  }
+  return (out || doneText).trim();
 }
 
 // ---- Local (Ollama / any OpenAI-compatible) -------------------------------
@@ -178,8 +264,11 @@ export const MODEL_OPTIONS: Record<BrainVendor, { id: string; label: string; not
     { id: 'claude-haiku-4-5', label: 'Claude Haiku 4.5', note: 'Most economical' }
   ],
   openai: [
-    { id: 'gpt-4o', label: 'GPT-4o', note: 'Balanced' },
-    { id: 'gpt-4o-mini', label: 'GPT-4o mini', note: 'Economical' }
+    { id: 'gpt-5.5', label: 'GPT-5.5', note: 'ChatGPT login (Codex) — best' },
+    { id: 'gpt-5.4', label: 'GPT-5.4', note: 'ChatGPT login (Codex)' },
+    { id: 'gpt-5', label: 'GPT-5', note: 'API key only' },
+    { id: 'gpt-4o', label: 'GPT-4o', note: 'API key only' },
+    { id: 'gpt-4o-mini', label: 'GPT-4o mini', note: 'API key only' }
   ],
   local: [
     { id: 'qwen2.5', label: 'Qwen2.5 (Ollama)', note: 'Good default' },

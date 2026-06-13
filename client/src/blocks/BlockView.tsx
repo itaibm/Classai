@@ -10,7 +10,7 @@ import type {
   ImageBlock, VideoBlock, SlideshowBlock, FlashcardsBlock,
   MultipleChoiceBlock, MultiSelectBlock, TrueFalseBlock, FillBlankBlock, NumberEntryBlock, ShortTextBlock, SpeakBlock
 } from '@shared/types';
-import { listen, liveSttSupported, type ListenHandle } from '../voice/stt.ts';
+import { startRecording, micSupported, type RecorderHandle } from '../voice/stt.ts';
 import { useTurnComplete } from './useComplete.ts';
 import { MatchPairs, Ordering, Categorize } from './Arrange.tsx';
 import { CustomBlock } from './CustomBlock.tsx';
@@ -376,28 +376,113 @@ function ShortText({ block, active, onComplete }: { block: ShortTextBlock; activ
 
 function Speak({ block, active, onComplete }: { block: SpeakBlock; active: boolean; onComplete: Done }) {
   const [text, setText] = useState('');
-  const [recording, setRecording] = useState(false);
-  const ref = useRef<ListenHandle | null>(null);
-  function toggle() {
-    if (!active) return;
-    if (recording) { ref.current?.stop(); setRecording(false); return; }
-    setRecording(true); setText('');
-    ref.current = listen({ onPartial: setText, onFinal: setText, onEnd: () => setRecording(false), onError: () => setRecording(false) });
+  const [status, setStatus] = useState<'idle' | 'recording' | 'transcribing'>('idle');
+  const [error, setError] = useState('');
+  const [, setFails] = useState(0);
+  // Fall back to typing when the mic can't work (insecure origin / no device)
+  // or after 2 failed attempts.
+  const [typeMode, setTypeMode] = useState(!micSupported());
+  const recRef = useRef<RecorderHandle | null>(null);
+
+  function registerFail(msg: string) {
+    setError(msg);
+    setFails((n) => {
+      const next = n + 1;
+      if (next >= 2) setTypeMode(true);
+      return next;
+    });
   }
+
+  async function start() {
+    if (!active) return;
+    setError(''); setText('');
+    try {
+      recRef.current = await startRecording();
+      setStatus('recording');
+    } catch (e: any) {
+      const denied = /denied|not ?allowed|permission/i.test(e?.message || '');
+      registerFail(
+        denied
+          ? 'Microphone is blocked. Allow mic access for this site (macOS System Settings → Privacy → Microphone), or type your answer.'
+          : 'Could not start the microphone. Type your answer instead.'
+      );
+      setStatus('idle');
+    }
+  }
+
+  async function stop() {
+    const handle = recRef.current;
+    recRef.current = null;
+    if (!handle) { setStatus('idle'); return; }
+    setStatus('transcribing');
+    try {
+      const said = await handle.stop();
+      setStatus('idle');
+      if (said.trim()) setText(said.trim());
+      else registerFail("I didn't catch that — try again, or type your answer.");
+    } catch {
+      setStatus('idle');
+      registerFail("I couldn't process the audio — type your answer instead.");
+    }
+  }
+
+  function toggle() {
+    if (status === 'recording') stop();
+    else if (status === 'idle') start();
+  }
+
+  function switchToTyping() {
+    recRef.current?.cancel();
+    recRef.current = null;
+    setStatus('idle');
+    setTypeMode(true);
+    setError('');
+  }
+  const submit = () => { if (text.trim()) onComplete({ text: `Said: “${text.trim()}”` }); };
+
   return (
     <div className="interaction col center" style={{ gap: 12 }}>
       <p className="block-prompt">{block.prompt}</p>
       {block.target && <div className="board-title" style={{ textAlign: 'center' }}>{block.target}</div>}
-      <button className={`mic ${recording ? 'recording' : ''}`} disabled={!active} onClick={toggle}>{recording ? '■' : '🎤'}</button>
+
+      {!typeMode && (
+        <>
+          <button
+            className={`mic ${status === 'recording' ? 'recording' : ''}`}
+            disabled={!active || status === 'transcribing'}
+            onClick={toggle}
+          >
+            {status === 'recording' ? '■' : '🎤'}
+          </button>
+          {status === 'recording' && <span className="muted small">Recording… tap to stop.</span>}
+          {status === 'transcribing' && <span className="muted small">Transcribing… (first time downloads a small voice model)</span>}
+          {status === 'idle' && !text && !error && <span className="muted small">Tap the mic, say your answer, then tap again.</span>}
+        </>
+      )}
+
+      {error && <p className="muted small" style={{ color: '#c0392b' }}>{error}</p>}
       {text && <p className="muted">“{text}”</p>}
-      <div className="row center" style={{ gap: 10 }}>
-        <button className="btn" disabled={!active || !text.trim()} onClick={() => onComplete({ text: `Said: “${text.trim()}”` })}>Send</button>
-        {!liveSttSupported() && <span className="muted small">Speaking isn’t supported here — type instead.</span>}
-      </div>
-      {!liveSttSupported() && (
-        <form className="answer-row" onSubmit={(e) => { e.preventDefault(); if (text.trim()) onComplete({ text: `Said: “${text.trim()}”` }); }}>
-          <input value={text} onChange={(e) => setText(e.target.value)} placeholder="Type what you'd say…" />
+
+      {typeMode && (
+        <form className="answer-row" style={{ width: '100%' }} onSubmit={(e) => { e.preventDefault(); submit(); }}>
+          <input autoFocus value={text} disabled={!active} onChange={(e) => setText(e.target.value)} placeholder="Type your answer…" />
         </form>
+      )}
+
+      <div className="row center" style={{ gap: 10 }}>
+        <button className="btn" disabled={!active || !text.trim()} onClick={submit}>Send</button>
+        {micSupported() && !typeMode && (
+          <button className="btn ghost small" type="button" disabled={!active} onClick={switchToTyping}>Type instead</button>
+        )}
+        {micSupported() && typeMode && (
+          <button className="btn ghost small" type="button" disabled={!active} onClick={() => { setTypeMode(false); setError(''); }}>Use mic</button>
+        )}
+      </div>
+
+      {typeMode && !micSupported() && (
+        <span className="muted small">
+          The mic needs the app opened at <strong>http://localhost:8787</strong> (not a 192.168.x.x address).
+        </span>
       )}
     </div>
   );

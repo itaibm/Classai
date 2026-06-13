@@ -161,11 +161,11 @@ Choose a difficulty that fits what you know about ${kid.name}. Design 5 to 8 bea
 // The "tool belt": the closed set of UI blocks the tutor builds lessons from.
 const BLOCK_CATALOG = `YOUR LESSON TOOL BELT — on a turn you may attach ONE "block" (a ready-made UI element). Do not invent UI; pick the block that best fits, fill its fields, and let the app render it. Use DISPLAY blocks to show/teach and INTERACTIVE blocks to check. Vary them so lessons feel rich, not repetitive. Interactive blocks include the correct answer; the app gives the learner instant animated feedback (a wrong choice visibly slides to the right one) and reports the result back to you — so keep your "speech" a short setup, the block carries the question.
 
-DISPLAY blocks:
+DISPLAY blocks (LOOK-ONLY — the learner cannot tap, drag, place, move, or type on these; their only option is to continue. NEVER ask the learner to "do" something on a display block — to have them act, use an INTERACTIVE block):
 - {"type":"richText","markdown": string}                      // a short formatted explanation (use **bold**, "- " bullets)
 - {"type":"steps","title"?: string,"steps": [string]}          // a worked solution revealed one step at a time
 - {"type":"keyTerm","term": string,"definition": string,"example"?: string}  // a vocabulary card
-- {"type":"numberLine","min": n,"max": n,"step"?: n,"marks"?:[{"value":n,"label"?:string}],"highlight"?: n}  // math number line
+- {"type":"numberLine","min": n,"max": n,"step"?: n,"marks"?:[{"value":n,"label"?:string}],"highlight"?: n}  // math number line — YOU place the marks to show; to ask the learner where a number goes, use multipleChoice/numberEntry instead
 - {"type":"table","headers":[string],"rows":[[string]],"caption"?:string}
 - {"type":"emojiViz","emojis": string,"caption"?: string}      // a big emoji illustration, e.g. "⚽⚽⚽" for 3 balls
 - {"type":"image","src": url,"alt"?: string,"caption"?: string}   // an image/diagram/map by https URL (only use URLs you are confident exist)
@@ -206,7 +206,7 @@ BUILD-YOUR-OWN tool — when none of the above fits what you want to show (an in
 - choice: {"t":"choice","prompt"?:string,"options":[string],"correct":index}   // an inline question
 Shape: {"type":"custom","title"?:string,"root": <node>,"interactive"?: true}. Set "interactive": true ONLY if the learner must finish it (it contains a choice or a complete button). Use custom to be creative, but stay within these primitives — do not request tools that don't exist.
 
-Rules: at most ONE block per turn; omit "block" when you're just talking. Prefer showing/doing over telling — use video/slideshow/images/custom to EXPLAIN, and the interactive blocks to CHECK. When you attach an interactive block (or an interactive custom), the learner's result arrives as their next message (it says whether they got it right) — react to it. Don't repeat the block's question word-for-word in speech.`;
+Rules: at most ONE block per turn; omit "block" when you're just talking. Prefer showing/doing over telling — use video/slideshow/images/custom to EXPLAIN, and the interactive blocks to CHECK. Remember which is which: display blocks are look-only, so any task that needs the learner to place/pick/enter/arrange something MUST be an interactive block (e.g. never say "place these numbers on the number line" — they can't; show the marks yourself, then check with numberEntry or multipleChoice). When you attach an interactive block (or an interactive custom), the learner's result arrives as their next message (it says whether they got it right) — react to it. Don't repeat the block's question word-for-word in speech.`;
 
 const TURN_CONTRACT = `On EVERY turn return ONLY one JSON object (no prose, no code fences):
 {
@@ -305,6 +305,8 @@ export function turnDirective(args: {
   let directive: string;
   if (args.minutesElapsed >= args.softLimitMin) {
     directive = 'TIME IS UP for this session — wrap up now: give a short, warm recap of what was learned and set lessonComplete=true.';
+  } else if ((w.sameDisplayBlockStreak ?? 0) >= 2) {
+    directive = `STOP AND CHANGE APPROACH: you have sent the same display-only "${w.lastBlockType}" block ${w.sameDisplayBlockStreak} turns in a row with no progress. Display blocks are LOOK-ONLY — the learner cannot place, move, or type anything on them; all they could do was press continue. Do NOT send that block again or ask them to act on it. Instead: show the result yourself (fill it in) and ask in speech, or check with an INTERACTIVE block (multipleChoice, numberEntry, ordering, fillBlank).`;
   } else if (w.struggleStreak >= 2) {
     directive = 'The learner is STUCK (2+ misses in a row). Do NOT advance. Slow down: simplify to the smallest next step, model it or give one concrete hint, then re-ask a smaller version. Keep it encouraging.';
   } else if (w.momentum === 'flowing' && (args.beatKind === 'explain' || args.beatKind === 'example')) {

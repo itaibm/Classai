@@ -66,14 +66,17 @@ export function summarizeZodError(error: z.ZodError): string {
 export const TurnSchema = z
   .object({
     speech: z.string(),
+    // `.catch` (not just `.default`) so an out-of-enum value the model invents
+    // — e.g. emotion "warm" — falls back instead of crashing the whole turn.
     emotion: z
       .enum(['neutral', 'happy', 'encouraging', 'celebrating', 'thinking', 'curious', 'gentle'])
-      .default('neutral'),
+      .default('neutral')
+      .catch('neutral'),
     // Validated against BlockSchema in the transform below — a malformed block
     // must not fail the whole turn, but it must also not vanish silently.
     block: z.unknown().optional(),
     assessment: z.string().default(''),
-    answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na'),
+    answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na').catch('na'),
     beatComplete: z.boolean().default(false),
     // Models often emit `null` for "no value" on optional fields — treat any
     // invalid optional as absent rather than failing the turn.
@@ -152,7 +155,7 @@ export const LessonPlanSchema = z.object({
   // caller falls back to the topic title (see services/lessons.ts).
   title: z.string().default(''),
   objectives: z.array(z.string()).default([]),
-  difficulty: z.enum(['gentle', 'standard', 'challenge']).default('standard'),
+  difficulty: z.enum(['gentle', 'standard', 'challenge']).default('standard').catch('standard'),
   analysis: z
     .object({
       keyConcepts: z.array(z.string()).default([]),

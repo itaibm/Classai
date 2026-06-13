@@ -68,7 +68,7 @@ export function CourseDetail({ courseId }: { courseId: string }) {
           <>
             <button className="btn ghost small" onClick={() => navigate(`/parent/kid/${data.kid.id}`)}>← {data.kid.name}</button>
             <h1 style={{ marginTop: 8 }}>{data.course.title}</h1>
-            <p className="muted">{data.course.subject} · {data.course.gradeLevel}{data.course.description ? ` · ${data.course.description}` : ''}</p>
+            <p className="muted">{[data.course.subject, data.course.gradeLevel, data.course.description].filter(Boolean).join(' · ')}</p>
 
             {data.recommendation && (
               <div className="banner" style={{ margin: '12px 0' }}>

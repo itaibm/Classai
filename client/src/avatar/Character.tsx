@@ -89,7 +89,7 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
   const rightArm = armTransform(pose.gesture, 'right', speaking);
 
   return (
-    <div className="avatar-wrap" style={{ animation: 'bob 4.5s ease-in-out infinite' }}>
+    <div className={`avatar-wrap${speaking ? ' talking' : ''}`}>
       <svg viewBox="0 0 240 280" width="100%" height="100%" role="img" aria-label={`tutor feeling ${emotion}`}>
         <defs>
           <radialGradient id={`face-${uid}`} cx="42%" cy="36%" r="72%">
