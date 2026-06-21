@@ -131,7 +131,7 @@ export function courseProgress(course: Course, topics: Topic[], model: LearnerMo
     };
   });
   const mastered = tp.filter((t) => t.mastery >= MASTERY_THRESHOLD).length;
-  return { course, topics: tp, completion: topics.length ? mastered / topics.length : 0 };
+  return { classDefinition: course, topics: tp, completion: topics.length ? mastered / topics.length : 0 };
 }
 
 /** Human-readable course name; titles often already contain the subject ("Math" / "Math"). */
@@ -151,7 +151,7 @@ export function recommendNext(course: Course, topics: Topic[], model: LearnerMod
     const first = topics[0]!;
     return {
       reason: 'diagnostic',
-      courseId: course.id,
+      classId: course.id,
       topicId: first.id,
       topicTitle: first.title,
       note: `Start with a quick check-in to see what ${courseLabel(course)} already feels like.`
@@ -166,7 +166,7 @@ export function recommendNext(course: Course, topics: Topic[], model: LearnerMod
   if (due) {
     return {
       reason: 'spaced_review',
-      courseId: course.id,
+      classId: course.id,
       topicId: due.t.id,
       topicTitle: due.t.title,
       note: `Time to lock in "${due.t.title}" with a short review.`
@@ -184,7 +184,7 @@ export function recommendNext(course: Course, topics: Topic[], model: LearnerMod
     if (ready) {
       return {
         reason: 'next_topic',
-        courseId: course.id,
+        classId: course.id,
         topicId: t.id,
         topicTitle: t.title,
         note: `Next up: "${t.title}".`
@@ -198,7 +198,7 @@ export function recommendNext(course: Course, topics: Topic[], model: LearnerMod
     .sort((a, b) => a.m - b.m)[0]!;
   return {
     reason: 'continue',
-    courseId: course.id,
+    classId: course.id,
     topicId: weakest.t.id,
     topicTitle: weakest.t.title,
     note: `Great progress! Keep "${weakest.t.title}" sharp.`

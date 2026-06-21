@@ -1,7 +1,16 @@
 /** All Classai HTTP endpoints, registered under /api. */
 import type { FastifyInstance } from 'fastify';
 import { nanoid } from 'nanoid';
-import type { Kid, AvatarConfig, KidResponse, WeeklySchedule, ScheduleEntry, Weekday } from '../../shared/types.ts';
+import type {
+  AISuggestion,
+  AvatarConfig,
+  Kid,
+  KidResponse,
+  Lesson,
+  WeeklySchedule,
+  ScheduleEntry,
+  Weekday
+} from '../../shared/types.ts';
 import { WEEKDAYS } from '../../shared/types.ts';
 import * as db from './db/index.ts';
 import { authStore, profileId } from './ai/auth-store.ts';
@@ -13,8 +22,22 @@ import {
   captureLoopbackCode,
   exchangeOpenAICode
 } from './ai/oauth.ts';
-import { createCourse, addCurriculum, buildSyllabus } from './services/courses.ts';
-import { generateLesson } from './services/lessons.ts';
+import {
+  addKnowledgeMaterial,
+  buildSyllabus,
+  createClass,
+  createSchoolYear,
+  enrollLearner,
+  updateClass
+} from './services/class-library.ts';
+import {
+  approveLesson,
+  archiveLesson,
+  deleteLesson,
+  generateLessonDraft,
+  reviseLessonDraft,
+  saveLessonDraft
+} from './services/lesson-authoring.ts';
 import { startSession, nextTurn } from './teach/index.ts';
 import {
   getOrInitLearner,
@@ -31,17 +54,17 @@ function emptyWeek(kidId: string): WeeklySchedule {
   return { kidId, days, updatedAt: now() };
 }
 
-/** Read a kid's schedule, dropping entries whose course no longer exists. */
+/** Read a kid's schedule, dropping entries for classes they are not enrolled in. */
 function readSchedule(kidId: string): WeeklySchedule {
   const raw = db.settings.get(`schedule:${kidId}`);
   if (!raw) return emptyWeek(kidId);
   let parsed: WeeklySchedule;
   try { parsed = JSON.parse(raw) as WeeklySchedule; } catch { return emptyWeek(kidId); }
-  const live = new Set(db.courses.listByKid(kidId).map((c) => c.id));
+  const live = new Set(db.enrollments.listByKid(kidId).map((enrollment) => enrollment.classId));
   const base = emptyWeek(kidId);
   for (const d of WEEKDAYS) {
     const entries = Array.isArray(parsed.days?.[d]) ? parsed.days[d] : [];
-    base.days[d] = entries.filter((e) => e && live.has(e.courseId));
+    base.days[d] = entries.filter((e) => e && live.has(e.classId));
   }
   base.updatedAt = parsed.updatedAt || base.updatedAt;
   return base;
@@ -49,15 +72,15 @@ function readSchedule(kidId: string): WeeklySchedule {
 
 /** Validate + normalize an incoming schedule, then persist it. */
 function writeSchedule(kidId: string, incoming: WeeklySchedule): WeeklySchedule {
-  const live = new Set(db.courses.listByKid(kidId).map((c) => c.id));
+  const live = new Set(db.enrollments.listByKid(kidId).map((enrollment) => enrollment.classId));
   const out = emptyWeek(kidId);
   for (const d of WEEKDAYS) {
     const entries = Array.isArray(incoming.days?.[d]) ? incoming.days[d] : [];
     out.days[d] = entries
-      .filter((e) => e && typeof e.courseId === 'string' && live.has(e.courseId))
+      .filter((e) => e && typeof e.classId === 'string' && live.has(e.classId))
       .map((e, i) => ({
         id: typeof e.id === 'string' && e.id ? e.id : `${d}-${i}-${nanoid(6)}`,
-        courseId: e.courseId,
+        classId: e.classId,
         time: typeof e.time === 'string' && /^\d{1,2}:\d{2}$/.test(e.time) ? e.time : undefined,
         order: typeof e.order === 'number' ? e.order : i,
       }))
@@ -271,7 +294,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.get('/api/kids/:id', async (req, reply) => {
     const kid = db.kids.get((req.params as { id: string }).id);
     if (!kid) return reply.status(404).send({ error: 'not found' });
-    return { kid, courses: db.courses.listByKid(kid.id) };
+    const classes = db.enrollments.listByKid(kid.id)
+      .map((enrollment) => db.classes.get(enrollment.classId))
+      .filter((item): item is NonNullable<typeof item> => Boolean(item));
+    return { kid, classes };
   });
 
   app.put('/api/kids/:id', async (req, reply) => {
@@ -312,88 +338,117 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     return { schedule: writeSchedule(id, { ...body.schedule, kidId: id }) };
   });
 
-  // ---- courses & curriculum ------------------------------------------------
+  // ---- shared class library ------------------------------------------------
 
-  app.get('/api/kids/:kidId/courses', async (req) => {
-    const kidId = (req.params as { kidId: string }).kidId;
-    const model = getOrInitLearner(kidId);
-    const courses = db.courses.listByKid(kidId).map((course) => {
-      const topics = db.topics.listByCourse(course.id);
-      return {
-        course,
-        progress: courseProgress(course, topics, model),
-        recommendation: recommendNext(course, topics, model),
-        topicCount: topics.length
-      };
-    });
-    return { courses };
+  app.get('/api/library', async () => ({
+    years: db.schoolYears.list().map((year) => ({ ...year, classes: db.classes.listByYear(year.id) }))
+  }));
+
+  app.post('/api/years', async (req, reply) => {
+    const body = req.body as { name?: string; order?: number };
+    if (!body?.name?.trim()) return reply.status(400).send({ error: 'year name required' });
+    try { return { year: createSchoolYear({ name: body.name, order: body.order }) }; }
+    catch (error: any) { return reply.status(409).send({ error: error.message }); }
   });
 
-  app.post('/api/kids/:kidId/courses', async (req, reply) => {
-    const kid = db.kids.get((req.params as { kidId: string }).kidId);
-    if (!kid) return reply.status(404).send({ error: 'kid not found' });
-    const b = req.body as {
-      subject: string;
-      title?: string;
-      description?: string;
-      gradeLevel?: string;
-      curriculum?: string;
-      source?: 'pasted' | 'described' | 'file';
-    };
-    if (!b?.subject) return reply.status(400).send({ error: 'subject required' });
-    const course = createCourse(kid, b);
-    if (b.curriculum?.trim()) {
-      addCurriculum(course, { source: b.source || 'pasted', rawText: b.curriculum });
-    }
-    const topics = await buildSyllabus(kid, course);
-    return { course, topics };
+  app.post('/api/classes', async (req, reply) => {
+    const body = req.body as { yearId?: string; subject?: string; title?: string; description?: string };
+    if (!body?.yearId || !body.subject?.trim()) return reply.status(400).send({ error: 'year and subject required' });
+    try { return { classDefinition: createClass({ yearId: body.yearId, subject: body.subject, title: body.title, description: body.description }) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
   });
 
-  app.get('/api/courses/:id', async (req, reply) => {
-    const course = db.courses.get((req.params as { id: string }).id);
-    if (!course) return reply.status(404).send({ error: 'not found' });
-    const kid = db.kids.get(course.kidId)!;
-    const topics = db.topics.listByCourse(course.id);
-    const model = getOrInitLearner(course.kidId);
+  app.get('/api/classes/:id', async (req, reply) => {
+    const classDefinition = db.classes.get((req.params as { id: string }).id);
+    if (!classDefinition) return reply.status(404).send({ error: 'class not found' });
+    const enrolledKids = db.enrollments.listByClass(classDefinition.id)
+      .map((enrollment) => db.kids.get(enrollment.kidId))
+      .filter((kid): kid is Kid => Boolean(kid));
     return {
-      course,
-      kid,
-      topics,
-      curricula: db.curricula.listByCourse(course.id),
-      lessons: db.lessons.listByCourse(course.id),
-      progress: courseProgress(course, topics, model),
-      recommendation: recommendNext(course, topics, model)
+      classDefinition,
+      year: db.schoolYears.get(classDefinition.yearId),
+      topics: db.topics.listByClass(classDefinition.id),
+      materials: db.knowledgeMaterials.listByClass(classDefinition.id),
+      lessons: db.lessons.listByClass(classDefinition.id),
+      suggestions: db.aiSuggestions.listByClass(classDefinition.id),
+      enrolledKids,
+      allKids: db.kids.list()
     };
   });
 
-  app.post('/api/courses/:id/curriculum', async (req, reply) => {
-    const course = db.courses.get((req.params as { id: string }).id);
-    if (!course) return reply.status(404).send({ error: 'not found' });
-    const kid = db.kids.get(course.kidId)!;
-    const b = req.body as { rawText: string; source?: 'pasted' | 'described' | 'file' };
-    addCurriculum(course, { source: b.source || 'pasted', rawText: b.rawText });
-    const topics = await buildSyllabus(kid, course);
-    return { topics };
+  app.put('/api/classes/:id', async (req, reply) => {
+    const classDefinition = db.classes.get((req.params as { id: string }).id);
+    if (!classDefinition) return reply.status(404).send({ error: 'class not found' });
+    return { classDefinition: updateClass(classDefinition, req.body as any) };
   });
 
-  app.post('/api/courses/:id/syllabus/regenerate', async (req, reply) => {
-    const course = db.courses.get((req.params as { id: string }).id);
-    if (!course) return reply.status(404).send({ error: 'not found' });
-    const kid = db.kids.get(course.kidId)!;
-    return { topics: await buildSyllabus(kid, course) };
+  app.delete('/api/classes/:id', async (req) => {
+    db.classes.remove((req.params as { id: string }).id);
+    return { ok: true };
   });
 
-  // ---- lessons -------------------------------------------------------------
+  app.post('/api/classes/:id/materials', async (req, reply) => {
+    const classId = (req.params as { id: string }).id;
+    const body = req.body as { title?: string; rawText?: string; source?: 'pasted' | 'described' | 'file' | 'system'; lessonId?: string };
+    if (!body?.rawText?.trim()) return reply.status(400).send({ error: 'material text required' });
+    try { return { material: addKnowledgeMaterial(classId, { ...body, rawText: body.rawText }) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
 
-  app.post('/api/courses/:id/lessons', async (req, reply) => {
-    const course = db.courses.get((req.params as { id: string }).id);
-    if (!course) return reply.status(404).send({ error: 'not found' });
-    const kid = db.kids.get(course.kidId)!;
-    const b = req.body as { topicId: string; kind?: 'lesson' | 'diagnostic' | 'review' };
-    const topic = db.topics.get(b.topicId);
-    if (!topic) return reply.status(404).send({ error: 'topic not found' });
-    const lesson = await generateLesson(kid, course, topic, b.kind || 'lesson');
-    return { lesson };
+  app.delete('/api/materials/:id', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    if (!db.knowledgeMaterials.get(id)) return reply.status(404).send({ error: 'material not found' });
+    db.knowledgeMaterials.remove(id);
+    return { ok: true };
+  });
+
+  app.post('/api/classes/:id/syllabus/regenerate', async (req, reply) => {
+    try { return { topics: await buildSyllabus((req.params as { id: string }).id) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
+
+  app.get('/api/kids/:id/classes', async (req, reply) => {
+    const kidId = (req.params as { id: string }).id;
+    if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
+    const model = getOrInitLearner(kidId);
+    const classes = db.enrollments.listByKid(kidId).flatMap((enrollment) => {
+      const classDefinition = db.classes.get(enrollment.classId);
+      if (!classDefinition) return [];
+      const topics = db.topics.listByClass(classDefinition.id);
+      const approvedLessons = db.lessons.listByClass(classDefinition.id).filter((lesson) => lesson.status === 'approved');
+      return [{
+        classDefinition,
+        year: db.schoolYears.get(classDefinition.yearId),
+        progress: courseProgress(classDefinition, topics, model),
+        recommendation: recommendNext(classDefinition, topics, model),
+        topicCount: topics.length,
+        approvedLessons
+      }];
+    });
+    return { classes };
+  });
+
+  app.post('/api/classes/:id/enrollments', async (req, reply) => {
+    const classId = (req.params as { id: string }).id;
+    const body = req.body as { kidId?: string };
+    if (!body?.kidId) return reply.status(400).send({ error: 'kidId required' });
+    try { return { enrollment: enrollLearner(classId, body.kidId) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
+
+  app.delete('/api/classes/:id/enrollments/:kidId', async (req) => {
+    const { id, kidId } = req.params as { id: string; kidId: string };
+    db.enrollments.remove(id, kidId);
+    return { ok: true };
+  });
+
+  // ---- lesson authoring ----------------------------------------------------
+
+  app.post('/api/classes/:id/lessons', async (req, reply) => {
+    const body = req.body as { topicId?: string; kind?: 'lesson' | 'diagnostic' | 'review' };
+    if (!body?.topicId) return reply.status(400).send({ error: 'topicId required' });
+    try { return { lesson: await generateLessonDraft((req.params as { id: string }).id, body.topicId, body.kind || 'lesson') }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
   });
 
   app.get('/api/lessons/:id', async (req, reply) => {
@@ -402,15 +457,46 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     return { lesson };
   });
 
+  app.put('/api/lessons/:id', async (req, reply) => {
+    try { return { lesson: saveLessonDraft((req.params as { id: string }).id, req.body as any) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
+
+  app.post('/api/lessons/:id/revise', async (req, reply) => {
+    const instruction = (req.body as { instruction?: string })?.instruction;
+    if (!instruction?.trim()) return reply.status(400).send({ error: 'revision instruction required' });
+    try { return { lesson: await reviseLessonDraft((req.params as { id: string }).id, instruction) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
+
+  app.post('/api/lessons/:id/approve', async (req, reply) => {
+    try { return { lesson: approveLesson((req.params as { id: string }).id) }; }
+    catch (error: any) { return reply.status(409).send({ error: error.message }); }
+  });
+
+  app.post('/api/lessons/:id/archive', async (req, reply) => {
+    try { return { lesson: archiveLesson((req.params as { id: string }).id) }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
+
+  app.delete('/api/lessons/:id', async (req, reply) => {
+    try { deleteLesson((req.params as { id: string }).id); return { ok: true }; }
+    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+  });
+
   // ---- live teaching -------------------------------------------------------
 
   app.post('/api/lessons/:id/start', async (req, reply) => {
     const lesson = db.lessons.get((req.params as { id: string }).id);
     if (!lesson) return reply.status(404).send({ error: 'lesson not found' });
-    const kid = db.kids.get(lesson.kidId);
-    const course = db.courses.get(lesson.courseId);
-    if (!kid || !course) return reply.status(404).send({ error: 'context missing' });
-    const session = startSession(kid, course, lesson);
+    const kidId = (req.body as { kidId?: string })?.kidId;
+    if (!kidId) return reply.status(400).send({ error: 'kidId required' });
+    const kid = db.kids.get(kidId);
+    const classDefinition = db.classes.get(lesson.classId);
+    if (!kid || !classDefinition) return reply.status(404).send({ error: 'context missing' });
+    if (lesson.status !== 'approved') return reply.status(409).send({ error: 'lesson is not approved' });
+    if (!db.enrollments.get(lesson.classId, kidId)) return reply.status(409).send({ error: 'learner is not enrolled in this class' });
+    const session = startSession(kid, classDefinition, lesson);
     return { sessionId: session.id };
   });
 
@@ -427,13 +513,45 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     return { session: s };
   });
 
+  // ---- AI activity suggestions --------------------------------------------
+
+  app.put('/api/suggestions/:id', async (req, reply) => {
+    const suggestion = db.aiSuggestions.get((req.params as { id: string }).id);
+    if (!suggestion) return reply.status(404).send({ error: 'suggestion not found' });
+    const body = req.body as Partial<Pick<AISuggestion, 'title' | 'objective' | 'lessonId' | 'block'>>;
+    const updated: AISuggestion = {
+      ...suggestion,
+      title: body.title?.trim() || suggestion.title,
+      objective: body.objective?.trim() || suggestion.objective,
+      lessonId: body.lessonId ?? suggestion.lessonId,
+      block: body.block ?? suggestion.block,
+      updatedAt: now()
+    };
+    return { suggestion: db.aiSuggestions.update(updated) };
+  });
+
+  app.post('/api/suggestions/:id/approve', async (req, reply) => {
+    const suggestion = db.aiSuggestions.get((req.params as { id: string }).id);
+    if (!suggestion) return reply.status(404).send({ error: 'suggestion not found' });
+    const body = (req.body || {}) as { lessonId?: string };
+    return { suggestion: db.aiSuggestions.update({ ...suggestion, lessonId: body.lessonId ?? suggestion.lessonId, status: 'approved', updatedAt: now() }) };
+  });
+
+  app.post('/api/suggestions/:id/discard', async (req, reply) => {
+    const suggestion = db.aiSuggestions.get((req.params as { id: string }).id);
+    if (!suggestion) return reply.status(404).send({ error: 'suggestion not found' });
+    return { suggestion: db.aiSuggestions.update({ ...suggestion, status: 'discarded', updatedAt: now() }) };
+  });
+
   // ---- progress, history, memory (parent views) ----------------------------
 
   app.get('/api/kids/:id/progress', async (req) => {
     const kidId = (req.params as { id: string }).id;
     const model = getOrInitLearner(kidId);
-    const courses = db.courses.listByKid(kidId).map((course) => {
-      const topics = db.topics.listByCourse(course.id);
+    const courses = db.enrollments.listByKid(kidId).flatMap((enrollment) => {
+      const course = db.classes.get(enrollment.classId);
+      if (!course) return [];
+      const topics = db.topics.listByClass(course.id);
       return {
         progress: courseProgress(course, topics, model),
         recommendation: recommendNext(course, topics, model)

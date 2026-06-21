@@ -1,9 +1,9 @@
 /**
  * Shared type contract for Classai, imported by both the server and the client.
  *
- * Hierarchy: Learner(Kid) → Course ("a class") → Topic (syllabus unit) →
- * Lesson (generated) → Session (a live run). Cross-cutting: LearnerModel
- * (long-term memory), Episodes, Reports.
+ * Hierarchy: SchoolYear → ClassDefinition → Topic → Lesson blueprint.
+ * Learners join shared classes through ClassEnrollment; Session, LearnerModel,
+ * Episodes, Reports, and progress remain learner-specific.
  *
  * The most important type is `TeacherTurn` — the structured object the AI brain
  * returns on every beat of a live lesson. It is the single interface between
@@ -67,29 +67,53 @@ export interface AvatarConfig {
 }
 
 // ---------------------------------------------------------------------------
-// Courses, curriculum, topics
+// Shared class library
 // ---------------------------------------------------------------------------
 
-/** A "class" — one subject for one kid (e.g. "7th-Grade Math"). */
-export interface Course {
+export interface SchoolYear {
   id: string;
-  kidId: string;
+  name: string;
+  order: number;
+  createdAt: string;
+}
+
+/** A reusable subject class owned by the parent library, never by one kid. */
+export interface ClassDefinition {
+  id: string;
+  yearId: string;
+  yearName: string;
   subject: string; // free text; mapped to a SubjectProfile by family
   subjectKey: SubjectKey; // resolved pedagogy family
   title: string;
   description: string;
-  gradeLevel: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+/** Compatibility name used by the teaching/prompt layer. */
+export type Course = ClassDefinition;
+
+export interface ClassEnrollment {
+  id: string;
+  classId: string;
+  kidId: string;
   createdAt: string;
 }
 
-export interface Curriculum {
+export interface KnowledgeMaterial {
   id: string;
-  courseId: string;
-  kidId: string;
-  source: 'pasted' | 'described' | 'file';
-  rawText: string; // what the parent provided
+  classId: string;
+  lessonId?: string;
+  title: string;
+  source: 'pasted' | 'described' | 'file' | 'system';
+  rawText: string;
+  status: 'ready' | 'pending' | 'error';
   createdAt: string;
+  updatedAt: string;
 }
+
+/** Compatibility name while curriculum copy is retired from old screens. */
+export type Curriculum = KnowledgeMaterial;
 
 // ---- Weekly schedule ------------------------------------------------------
 // A parent-built weekly plan: which classes a kid does on each weekday, in
@@ -100,7 +124,7 @@ export const WEEKDAYS: Weekday[] = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 's
 
 export interface ScheduleEntry {
   id: string;
-  courseId: string;
+  classId: string;
   time?: string; // optional "HH:MM" (24h); undefined = no fixed time
   order: number; // position within the day
 }
@@ -111,11 +135,10 @@ export interface WeeklySchedule {
   updatedAt: string;
 }
 
-/** A syllabus unit within a course. Mastery is tracked per topic. */
+/** A syllabus unit within a shared class. Mastery is tracked per learner. */
 export interface Topic {
   id: string;
-  courseId: string;
-  kidId: string;
+  classId: string;
   title: string;
   summary: string;
   order: number;
@@ -190,8 +213,9 @@ export interface LessonAnalysis {
 
 export interface Lesson {
   id: string;
-  kidId: string;
-  courseId: string;
+  classId: string;
+  familyId: string;
+  revision: number;
   topicId: string;
   kind: LessonKind;
   subject: string;
@@ -201,8 +225,23 @@ export interface Lesson {
   analysis?: LessonAnalysis;
   plan: LessonBeat[];
   difficulty: 'gentle' | 'standard' | 'challenge';
-  status: 'ready' | 'in_progress' | 'complete';
+  status: 'draft' | 'approved' | 'archived';
   createdAt: string;
+  updatedAt: string;
+}
+
+export interface AISuggestion {
+  id: string;
+  classId: string;
+  lessonId?: string;
+  sourceSessionId: string;
+  sourceTurnTs: string;
+  title: string;
+  objective: string;
+  block: LessonBlock;
+  status: 'draft' | 'approved' | 'discarded';
+  createdAt: string;
+  updatedAt: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -468,6 +507,7 @@ export interface TranscriptEntry {
   text: string;
   emotion?: Emotion;
   block?: LessonBlock;
+  blocks?: LessonBlock[];
   ts: string;
 }
 
@@ -484,8 +524,9 @@ export interface LessonReport {
 export interface Session {
   id: string;
   kidId: string;
-  courseId: string;
+  classId: string;
   lessonId: string;
+  lessonSnapshot: Lesson;
   subject: string;
   topic: string;
   status: 'active' | 'ended';
@@ -510,14 +551,14 @@ export interface TopicProgress {
 }
 
 export interface CourseProgress {
-  course: Course;
+  classDefinition: ClassDefinition;
   topics: TopicProgress[];
   completion: number; // 0..1 share of topics at/above mastery threshold
 }
 
 export interface Recommendation {
   reason: 'next_topic' | 'spaced_review' | 'diagnostic' | 'continue';
-  courseId: string;
+  classId: string;
   topicId: string;
   topicTitle: string;
   note: string;

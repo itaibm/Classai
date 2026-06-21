@@ -35,12 +35,12 @@ const model = {
 } as unknown as LearnerModel;
 
 const course = {
-  id: 'sample', kidId: 'sample', title: 'Pre-Algebra', subject: 'Math',
-  subjectKey: 'math', gradeLevel: '7th grade', description: '', createdAt: '2026-01-01T00:00:00.000Z'
+  id: 'sample', yearId: 'year-7', yearName: 'Year 7', title: 'Pre-Algebra', subject: 'Math',
+  subjectKey: 'math', description: '', createdAt: '2026-01-01T00:00:00.000Z', updatedAt: '2026-01-01T00:00:00.000Z'
 } as unknown as Course;
 
 const topic = {
-  id: 'sample', courseId: 'sample', title: 'Adding Integers',
+  id: 'sample', classId: 'sample', title: 'Adding Integers',
   summary: 'Adding positive and negative whole numbers using a number line.',
   estMinutes: 20, prerequisites: ['Number line basics'], order: 1
 } as unknown as Topic;
@@ -53,7 +53,7 @@ const analysis: LessonAnalysis = {
 };
 
 const lesson = {
-  id: 'sample', kidId: 'sample', courseId: 'sample', topicId: 'sample',
+  id: 'sample', classId: 'sample', familyId: 'family-sample', revision: 1, topicId: 'sample',
   kind: 'lesson', subject: 'Math', topic: 'Adding Integers',
   title: 'Adding Integers with a Number Line', difficulty: 'standard',
   objectives: ['Add two integers using a number line', 'Predict the sign of a sum'],
@@ -66,7 +66,7 @@ const lesson = {
       check: { question: 'What is -3 + 5?', expectedAnswer: '2 — start at -3 and move 5 to the right', wrongAnswers: [{ answer: '-8', why: 'added the magnitudes and kept the negative sign', remedy: 'walk it on the number line, counting the direction of each step' }] }
     }
   ],
-  createdAt: '2026-01-01T00:00:00.000Z'
+  status: 'approved', createdAt: '2026-01-01T00:00:00.000Z', updatedAt: '2026-01-01T00:00:00.000Z'
 } as unknown as Lesson;
 
 const session = {
@@ -85,7 +85,7 @@ const profile = subjectProfile('math');
 
 /** Build the reviewable list of prompt templates with sample data filled in. */
 export function promptTemplates(): PromptTemplate[] {
-  const syllabus = syllabusPrompt(kid, course.subject, course.gradeLevel, "Chapter 3: Integers — adding and subtracting positive and negative numbers.");
+  const syllabus = syllabusPrompt(course.subject, course.yearName, "Chapter 3: Integers — adding and subtracting positive and negative numbers.");
   const lessonAnalysis = lessonAnalysisPrompt(kid, course, topic, profile, model);
   const plan = lessonPlanPrompt(kid, course, topic, profile, model, 'lesson', analysis);
   const report = reportPrompt(kid, session);

@@ -51,8 +51,9 @@ export function startSession(kid: Kid, course: Course, lesson: Lesson): Session 
   const session: Session = {
     id: 's_' + Math.random().toString(36).slice(2) + Date.now().toString(36),
     kidId: kid.id,
-    courseId: course.id,
+    classId: course.id,
     lessonId: lesson.id,
+    lessonSnapshot: lesson,
     subject: course.subject,
     topic: lesson.topic,
     status: 'active',
@@ -61,7 +62,6 @@ export function startSession(kid: Kid, course: Course, lesson: Lesson): Session 
     working: freshWorking(lesson)
   };
   db.sessions.insert(session);
-  db.lessons.setStatus(lesson.id, 'in_progress');
   return session;
 }
 
@@ -95,10 +95,11 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   if (session.status === 'ended') throw new Error('session_ended');
 
   const kid = db.kids.get(session.kidId);
-  const course = db.courses.get(session.courseId);
-  const lesson = db.lessons.get(session.lessonId);
-  if (!kid || !course || !lesson) throw new Error('session_context_missing');
+  const course = db.classes.get(session.classId);
+  const lesson = session.lessonSnapshot;
+  if (!kid || !course || !lesson?.id) throw new Error('session_context_missing');
 
+  const previousTeacherTurn = [...session.transcript].reverse().find((entry) => entry.role === 'teacher');
   if (response) {
     session.transcript.push({ role: 'kid', text: response.text?.trim() || '(continue)', ts: new Date().toISOString() });
   }
@@ -135,7 +136,13 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   }
 
   const brain = await getBrain();
-  const system = teachSystemPrompt(kid, course, lesson, profile, model);
+  const materials = db.knowledgeMaterials.listByClass(course.id)
+    .filter((material) => !material.lessonId || material.lessonId === lesson.id)
+    .filter((material) => material.status === 'ready' && material.rawText.trim());
+  const knowledge = materials.length
+    ? `\n\nPARENT-APPROVED KNOWLEDGE — use and adapt this; do not contradict it:\n${materials.map((material) => `--- ${material.title} ---\n${material.rawText}`).join('\n\n')}`
+    : '';
+  const system = teachSystemPrompt(kid, course, lesson, profile, model) + knowledge;
   const messages = buildMessages(session, kid, lesson, returning, directive);
 
   const { blockError, ...parsedTurn } = await generateStructured(brain, TurnSchema, {
@@ -157,6 +164,7 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
     text: turn.speech,
     emotion: turn.emotion,
     block: turn.block,
+    blocks: turn.blocks,
     ts: new Date().toISOString()
   });
 
@@ -166,6 +174,26 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   w.lastBlockError = blockError;
   if (turn.memoryUpdates.length) applyTurnMemory(kid.id, turn.memoryUpdates);
   if (turn.concern) addEpisode(kid.id, 'note', `⚠️ ${turn.concern}`, lesson.topic);
+  if (response && turn.answerEval === 'correct' && previousTeacherTurn) {
+    const previousBlocks = previousTeacherTurn.blocks ?? (previousTeacherTurn.block ? [previousTeacherTurn.block] : []);
+    const successfulActivity = previousBlocks.find(blockIsInteractive);
+    if (successfulActivity) {
+      const timestamp = new Date().toISOString();
+      db.aiSuggestions.insert({
+        id: 'a_' + Math.random().toString(36).slice(2) + Date.now().toString(36),
+        classId: course.id,
+        lessonId: lesson.id,
+        sourceSessionId: session.id,
+        sourceTurnTs: previousTeacherTurn.ts,
+        title: `Successful ${successfulActivity.type} activity`,
+        objective: w.focus || lesson.objectives[0] || lesson.topic,
+        block: successfulActivity,
+        status: 'draft',
+        createdAt: timestamp,
+        updatedAt: timestamp
+      });
+    }
+  }
 
   // Deterministic backstop: never let a lesson run forever if the model keeps
   // omitting lessonComplete. End hard on a turn cap or 2x the soft time budget.
@@ -302,5 +330,4 @@ async function finalizeSession(session: Session, kid: Kid): Promise<void> {
     };
   }
   db.sessions.save(session);
-  db.lessons.setStatus(session.lessonId, 'complete');
 }

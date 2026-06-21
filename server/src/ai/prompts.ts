@@ -83,11 +83,11 @@ function renderLearnerContext(kid: Kid, model: LearnerModel | undefined): string
 // Syllabus extraction (curriculum -> ordered topics)
 // ===========================================================================
 
-export function syllabusPrompt(kid: Kid, subject: string, gradeLevel: string, curriculumText: string) {
-  const system = `You are an expert curriculum designer building a course outline for a one-on-one homeschool tutor. Produce a clear, well-sequenced syllabus appropriate for a ${gradeLevel} learner studying ${subject}.
+export function syllabusPrompt(subject: string, yearName: string, curriculumText: string) {
+  const system = `You are an expert curriculum designer building a shared course outline for a one-on-one homeschool tutor. Produce a clear, well-sequenced syllabus appropriate for ${yearName} learners studying ${subject}.
 Principles: order topics so each builds on the last (foundational → advanced); list real prerequisites; keep each topic small enough to teach in one short lesson (10-30 min); use the standard scope & sequence a good teacher would for this subject and level.
 Return ONLY a JSON object: {"title": string, "description": string, "subjectKey": one of ["math","science","language_arts","world_language","history","general"], "topics": [{"title": string, "summary": string, "estMinutes": number, "prerequisites": [string]}]}`;
-  const user = `Subject: ${subject}\nGrade level: ${gradeLevel}\nLearner interests: ${kid.interests.join(', ') || 'unknown'}\n\nParent's curriculum (may be sparse — fill gaps with a sound standard sequence):\n"""\n${curriculumText}\n"""\n\nProduce 6 to 14 topics.`;
+  const user = `Subject: ${subject}\nSchool year: ${yearName}\n\nParent's curriculum (may be sparse — fill gaps with a sound standard sequence):\n"""\n${curriculumText}\n"""\n\nProduce 6 to 14 topics.`;
   return { system, user };
 }
 
@@ -102,7 +102,7 @@ Return ONLY JSON: {"keyConcepts": [string], "misconceptions": [string], "hooks":
 - misconceptions: the specific wrong ideas learners commonly hold about THIS topic, and the wrong answers they produce.
 - hooks: concrete real-world angles that would grab THIS learner, drawing on their interests.
 - priorKnowledge: what this lesson assumes they already know.`;
-  const user = `${renderLearnerContext(kid, model)}\n\nCourse: ${course.title} (${course.subject}, ${course.gradeLevel})\nTopic: ${topic.title}\nTopic summary: ${topic.summary}`;
+  const user = `${renderLearnerContext(kid, model)}\n\nCourse: ${course.title} (${course.subject}, ${course.yearName})\nTopic: ${topic.title}\nTopic summary: ${topic.summary}`;
   return { system, user };
 }
 
