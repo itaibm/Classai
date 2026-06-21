@@ -17,7 +17,8 @@ import type {
   TeacherTurn,
   KidResponse,
   PromptLogEntry,
-  PromptTemplate
+  PromptTemplate,
+  WeeklySchedule
 } from '@shared/types';
 
 async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
@@ -87,6 +88,11 @@ export const api = {
   updateKid: (id: string, body: Partial<Kid>) =>
     req<{ kid: Kid }>(`/kids/${id}`, { method: 'PUT', body: JSON.stringify(body) }),
   deleteKid: (id: string) => req(`/kids/${id}`, { method: 'DELETE' }),
+
+  // weekly schedule
+  schedule: (kidId: string) => req<{ schedule: WeeklySchedule }>(`/kids/${kidId}/schedule`),
+  saveSchedule: (kidId: string, schedule: WeeklySchedule) =>
+    req<{ schedule: WeeklySchedule }>(`/kids/${kidId}/schedule`, { method: 'PUT', body: JSON.stringify({ schedule }) }),
 
   // courses
   courses: (kidId: string) => req<{ courses: CourseCard[] }>(`/kids/${kidId}/courses`),

@@ -1,7 +1,8 @@
 /** All Classai HTTP endpoints, registered under /api. */
 import type { FastifyInstance } from 'fastify';
 import { nanoid } from 'nanoid';
-import type { Kid, AvatarConfig, KidResponse } from '../../shared/types.ts';
+import type { Kid, AvatarConfig, KidResponse, WeeklySchedule, ScheduleEntry, Weekday } from '../../shared/types.ts';
+import { WEEKDAYS } from '../../shared/types.ts';
 import * as db from './db/index.ts';
 import { authStore, profileId } from './ai/auth-store.ts';
 import { getBrain, MODEL_OPTIONS, NoBrainError } from './ai/provider.ts';
@@ -23,6 +24,50 @@ import {
 import { PARENT_PIN_ENV } from './config.ts';
 
 const now = () => new Date().toISOString();
+
+// ---- weekly schedule helpers ----------------------------------------------
+function emptyWeek(kidId: string): WeeklySchedule {
+  const days = { mon: [], tue: [], wed: [], thu: [], fri: [], sat: [], sun: [] } as Record<Weekday, ScheduleEntry[]>;
+  return { kidId, days, updatedAt: now() };
+}
+
+/** Read a kid's schedule, dropping entries whose course no longer exists. */
+function readSchedule(kidId: string): WeeklySchedule {
+  const raw = db.settings.get(`schedule:${kidId}`);
+  if (!raw) return emptyWeek(kidId);
+  let parsed: WeeklySchedule;
+  try { parsed = JSON.parse(raw) as WeeklySchedule; } catch { return emptyWeek(kidId); }
+  const live = new Set(db.courses.listByKid(kidId).map((c) => c.id));
+  const base = emptyWeek(kidId);
+  for (const d of WEEKDAYS) {
+    const entries = Array.isArray(parsed.days?.[d]) ? parsed.days[d] : [];
+    base.days[d] = entries.filter((e) => e && live.has(e.courseId));
+  }
+  base.updatedAt = parsed.updatedAt || base.updatedAt;
+  return base;
+}
+
+/** Validate + normalize an incoming schedule, then persist it. */
+function writeSchedule(kidId: string, incoming: WeeklySchedule): WeeklySchedule {
+  const live = new Set(db.courses.listByKid(kidId).map((c) => c.id));
+  const out = emptyWeek(kidId);
+  for (const d of WEEKDAYS) {
+    const entries = Array.isArray(incoming.days?.[d]) ? incoming.days[d] : [];
+    out.days[d] = entries
+      .filter((e) => e && typeof e.courseId === 'string' && live.has(e.courseId))
+      .map((e, i) => ({
+        id: typeof e.id === 'string' && e.id ? e.id : `${d}-${i}-${nanoid(6)}`,
+        courseId: e.courseId,
+        time: typeof e.time === 'string' && /^\d{1,2}:\d{2}$/.test(e.time) ? e.time : undefined,
+        order: typeof e.order === 'number' ? e.order : i,
+      }))
+      .sort((a, b) => (a.time ?? '99:99').localeCompare(b.time ?? '99:99') || a.order - b.order)
+      .map((e, i) => ({ ...e, order: i }));
+  }
+  out.updatedAt = now();
+  db.settings.set(`schedule:${kidId}`, JSON.stringify(out));
+  return out;
+}
 
 /** In-flight OpenAI OAuth attempts (state -> PKCE verifier). */
 const pendingOAuth = new Map<string, { verifier: string }>();
@@ -247,6 +292,24 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.delete('/api/kids/:id', async (req) => {
     db.kids.remove((req.params as { id: string }).id);
     return { ok: true };
+  });
+
+  // ---- weekly schedule -----------------------------------------------------
+
+  app.get('/api/kids/:id/schedule', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    if (!db.kids.get(id)) return reply.status(404).send({ error: 'not found' });
+    return { schedule: readSchedule(id) };
+  });
+
+  app.put('/api/kids/:id/schedule', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    if (!db.kids.get(id)) return reply.status(404).send({ error: 'not found' });
+    const body = req.body as { schedule?: WeeklySchedule };
+    if (!body?.schedule || typeof body.schedule !== 'object' || !body.schedule.days) {
+      return reply.status(400).send({ error: 'invalid schedule' });
+    }
+    return { schedule: writeSchedule(id, { ...body.schedule, kidId: id }) };
   });
 
   // ---- courses & curriculum ------------------------------------------------

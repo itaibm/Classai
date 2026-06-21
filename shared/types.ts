@@ -91,6 +91,26 @@ export interface Curriculum {
   createdAt: string;
 }
 
+// ---- Weekly schedule ------------------------------------------------------
+// A parent-built weekly plan: which classes a kid does on each weekday, in
+// order, with an optional time. Entries are course-level — the kid "continues"
+// the course and the recommendation engine picks the next topic.
+export type Weekday = 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun';
+export const WEEKDAYS: Weekday[] = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+
+export interface ScheduleEntry {
+  id: string;
+  courseId: string;
+  time?: string; // optional "HH:MM" (24h); undefined = no fixed time
+  order: number; // position within the day
+}
+
+export interface WeeklySchedule {
+  kidId: string;
+  days: Record<Weekday, ScheduleEntry[]>; // each day sorted by time then order
+  updatedAt: string;
+}
+
 /** A syllabus unit within a course. Mastery is tracked per topic. */
 export interface Topic {
   id: string;
