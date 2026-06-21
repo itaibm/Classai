@@ -182,7 +182,10 @@ function embedSrc(url: string): string | null {
 }
 
 function Video({ block }: { block: VideoBlock }) {
-  const src = embedSrc(block.url);
+  // The server resolves a video's search query into a real URL before it reaches
+  // here; if there's still no usable URL, render nothing rather than a dead link.
+  const src = block.url ? embedSrc(block.url) : null;
+  if (!block.url) return null;
   return (
     <div className="block-card">
       {block.title && <div className="board-title">{block.title}</div>}

@@ -29,7 +29,7 @@ const table = z.object({
 });
 const emojiViz = z.object({ type: z.literal('emojiViz'), emojis: z.string(), caption: opt(z.string()) });
 const image = z.object({ type: z.literal('image'), src: z.string(), alt: opt(z.string()), caption: opt(z.string()) });
-const video = z.object({ type: z.literal('video'), url: z.string(), title: opt(z.string()), caption: opt(z.string()) });
+const video = z.object({ type: z.literal('video'), url: opt(z.string()), query: opt(z.string()), title: opt(z.string()), caption: opt(z.string()) });
 const slideshow = z.object({
   type: z.literal('slideshow'),
   title: opt(z.string()),

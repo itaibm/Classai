@@ -259,7 +259,7 @@ export interface NumberLineBlock { type: 'numberLine'; min: number; max: number;
 export interface TableBlock { type: 'table'; headers: string[]; rows: string[][]; caption?: string; }
 export interface EmojiVizBlock { type: 'emojiViz'; emojis: string; caption?: string; }
 export interface ImageBlock { type: 'image'; src: string; alt?: string; caption?: string; }
-export interface VideoBlock { type: 'video'; url: string; title?: string; caption?: string; }
+export interface VideoBlock { type: 'video'; url?: string; query?: string; title?: string; caption?: string; }
 export interface SlideshowBlock {
   type: 'slideshow';
   title?: string;

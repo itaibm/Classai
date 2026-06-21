@@ -21,6 +21,7 @@ import type {
   Momentum
 } from '../../../shared/types.ts';
 import { blockIsInteractive } from '../../../shared/types.ts';
+import { findVideo } from '../services/video.ts';
 import * as db from '../db/index.ts';
 import { getBrain, type ChatMessage } from '../ai/provider.ts';
 import { generateStructured, TurnSchema, ReportSchema } from '../ai/schemas.ts';
@@ -138,6 +139,11 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   });
   const turn = parsedTurn as TeacherTurn;
 
+  // Resolve any video block's search `query` into a real, embeddable URL before
+  // the turn reaches the client. Unresolved videos are dropped so the learner
+  // never sees a broken embed.
+  await resolveTurnVideos(turn);
+
   session.transcript.push({
     role: 'teacher',
     text: turn.speech,
@@ -169,6 +175,26 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
 }
 
 const MAX_TEACHER_TURNS = 40;
+
+/** Resolve video blocks that carry a search `query` into a real embeddable URL.
+ *  Drops the video block if search is disabled or finds nothing — never ship a
+ *  broken embed. Mutates turn.blocks/turn.block in place. */
+async function resolveTurnVideos(turn: TeacherTurn): Promise<void> {
+  const blocks = turn.blocks ?? (turn.block ? [turn.block] : []);
+  if (!blocks.length) return;
+  const out: typeof blocks = [];
+  for (const b of blocks) {
+    if (b.type === 'video' && !b.url && b.query) {
+      const v = await findVideo(b.query);
+      if (v) out.push({ ...b, url: v.url, title: b.title || v.title });
+      // else: drop the unresolved video block
+    } else {
+      out.push(b);
+    }
+  }
+  turn.blocks = out;
+  turn.block = out[0];
+}
 
 /** The director updates lesson state from the LLM's judgement of the turn. */
 function applyDirectorState(w: WorkingMemory, turn: TeacherTurn, beatKind: string): void {

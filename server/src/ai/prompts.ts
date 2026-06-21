@@ -23,6 +23,7 @@ import type {
   Session,
   LessonAnalysis
 } from '../../../shared/types.ts';
+import { videoSearchEnabled } from '../services/video.ts';
 
 const CHARACTERS: Record<string, string> = {
   sage: 'Sage, a warm, patient mentor with a quiet sense of humor — calm, steady, and genuinely curious about how the learner thinks.',
@@ -177,7 +178,7 @@ DISPLAY blocks (LOOK-ONLY — the learner cannot tap, drag, place, move, or type
 - {"type":"table","headers":[string],"rows":[[string]],"caption"?:string}
 - {"type":"emojiViz","emojis": string,"caption"?: string}      // a big emoji illustration, e.g. "⚽⚽⚽" for 3 balls
 - {"type":"image","src": url,"alt"?: string,"caption"?: string}   // an image/diagram/map by https URL (only use URLs you are confident exist)
-- {"type":"video","url": url,"title"?: string,"caption"?: string} // embed a short teaching video (YouTube/Vimeo). Use a real, well-known educational video URL/ID
+- {"type":"video","query": string,"title"?: string,"caption"?: string} // a short teaching video — give a SEARCH QUERY (e.g. "water cycle for kids"), NOT a URL; the app finds a real, safe, embeddable video. Use only when a real kids' video on this exact idea would plausibly exist.
 - {"type":"slideshow","title"?: string,"slides":[{"title"?:string,"body"?:string,"emoji"?:string,"imageUrl"?:string}]}  // an interactive explainer the learner clicks through
 - {"type":"flashcards","cards":[{"front":string,"back":string}]}  // tap-to-flip study cards
 - {"type":"whiteboard","title"?:string,"animate"?:true,"elements":[ ... ]}   // a board you DRAW on to diagram/sketch
@@ -280,6 +281,9 @@ export function teachSystemPrompt(
     'Each turn you receive a STATE block and a DIRECTIVE. Obey the directive. Judge the learner\'s last answer honestly in "answerEval", and set "beatComplete" true only when the current beat\'s success criteria are genuinely met. When the whole plan is finished, give a short warm recap and set lessonComplete=true.',
     '',
     BLOCK_CATALOG,
+    videoSearchEnabled()
+      ? ''
+      : 'VIDEO IS UNAVAILABLE right now — do NOT use the "video" block. Teach with whiteboard, slideshow, steps, image, table, or custom instead.',
     '',
     SAFETY,
     '',
