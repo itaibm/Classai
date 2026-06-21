@@ -6,6 +6,7 @@ import { navigate } from '../lib/router.ts';
 import { Character } from '../avatar/Character.tsx';
 import { BlockView, AnswerInput } from '../blocks/BlockView.tsx';
 import { speak, unlockAudio, type SpeakHandle } from '../voice/tts.ts';
+import { subjectStyle } from '../lib/subject.ts';
 
 type Phase = 'gate' | 'starting' | 'thinking' | 'speaking' | 'awaiting' | 'ended' | 'error';
 
@@ -24,6 +25,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [block, setBlock] = useState<LessonBlock | null>(null);
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
+  const [subjectKey, setSubjectKey] = useState<string>('');
   const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
   const [turnSeq, setTurnSeq] = useState(0); // unique per turn → forces a fresh block instance
   const [hd, setHd] = useState(localStorage.getItem(HD_KEY) === '1');
@@ -75,6 +77,13 @@ export function Classroom({ lessonId }: { lessonId: string }) {
         setLesson(lesson);
         setKid(kid);
         kidRef.current = kid;
+        // resolve the course's subject for color theming (non-fatal)
+        api.courses(lesson.kidId)
+          .then(({ courses }) => {
+            const sk = courses.find((c) => c.course.id === lesson.courseId)?.course.subjectKey;
+            if (!cancelled && sk) setSubjectKey(sk);
+          })
+          .catch(() => {});
       } catch (e: any) {
         setErrMsg(e.message || 'Could not load the lesson.');
         setPhase('error');
@@ -197,7 +206,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const showContinue = phase === 'awaiting' && !interactive;
 
   return (
-    <div className="app" style={{ ['--accent-h' as any]: hue }}>
+    <div className="app classroom" style={{ ['--accent-h' as any]: hue, ...subjectStyle(subjectKey) }}>
       <div className="topbar">
         <div className="brand" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>← Leave class</div>
         <div className="spacer" />
@@ -287,15 +296,39 @@ export function Classroom({ lessonId }: { lessonId: string }) {
         )}
 
         {phase === 'ended' && (
-          <div className="card pad-lg" style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto' }}>
-            <h2>Great work today! 🎉</h2>
-            {report && <p className="muted">{report.summary}</p>}
-            <div className="row center" style={{ gap: 10, marginTop: 14 }}>
-              <button className="btn lg" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Done</button>
+          <>
+            <Confetti />
+            <div className="card pad-lg celebrate-card" style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto' }}>
+              <div className="celebrate-emoji">🎉</div>
+              <h2>Great work today!</h2>
+              {report && <p className="muted">{report.summary}</p>}
+              <div className="row center" style={{ gap: 10, marginTop: 14 }}>
+                <button className="btn lg" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Done</button>
+              </div>
             </div>
-          </div>
+          </>
         )}
       </div>
     </div>
   );
+}
+
+/** One-shot celebratory confetti burst (CSS-only, respects reduced-motion). */
+function Confetti() {
+  const colors = ['#5b6cff', '#1bb6a6', '#ff7a6b', '#e8a33a', '#9a6cff'];
+  const pieces = Array.from({ length: 36 }).map((_, i) => {
+    const left = (i * 137.5) % 100;
+    const delay = (i % 9) * 0.06;
+    const dur = 1.6 + ((i * 7) % 10) / 10;
+    const color = colors[i % colors.length]!;
+    const rot = (i * 53) % 360;
+    return (
+      <span
+        key={i}
+        className="confetti-piece"
+        style={{ left: `${left}%`, background: color, animationDelay: `${delay}s`, animationDuration: `${dur}s`, ['--rot' as any]: `${rot}deg` }}
+      />
+    );
+  });
+  return <div className="confetti" aria-hidden>{pieces}</div>;
 }

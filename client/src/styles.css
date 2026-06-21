@@ -138,10 +138,34 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 
 /* ---- avatar stage ---- */
 .stage {
+  position: relative;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 14px; padding: 20px;
-  background: radial-gradient(600px 380px at 50% 0%, var(--accent-soft), transparent 70%);
-  border-radius: 24px; min-height: 260px;
+  background:
+    radial-gradient(420px 300px at 50% 12%, #ffffff, transparent 70%),
+    radial-gradient(680px 440px at 50% 0%, var(--subject-soft), transparent 72%);
+  border-radius: 28px; min-height: 260px;
+  border: 1px solid var(--line);
+}
+/* themed accents inside the lesson */
+.classroom .speech-bubble .caret { color: var(--subject); }
+.classroom .beats .dot.done { background: var(--subject); }
+.classroom .beats .dot.now { background: var(--subject); box-shadow: 0 0 0 4px var(--subject-soft); }
+.classroom .block-card { border-left-color: var(--subject); }
+.classroom .board-title { color: var(--subject-ink); }
+
+/* ---- lesson completion celebration ---- */
+.celebrate-card { animation: pop .5s cubic-bezier(.34,1.6,.64,1); }
+.celebrate-emoji { font-size: 3.4rem; animation: bounce 1.2s ease-in-out 2; }
+.confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 40; }
+.confetti-piece {
+  position: absolute; top: -16px; width: 10px; height: 14px; border-radius: 2px;
+  opacity: 0; transform: rotate(var(--rot));
+  animation-name: confettiFall; animation-timing-function: ease-in; animation-iteration-count: 1; animation-fill-mode: forwards;
+}
+@keyframes confettiFall {
+  0% { opacity: 1; transform: translateY(0) rotate(var(--rot)); }
+  100% { opacity: 0; transform: translateY(105vh) rotate(calc(var(--rot) + 540deg)); }
 }
 /* fills whatever box the screen gives it; the stage sets an explicit size below */
 .avatar-wrap { width: 100%; height: 100%; animation: bob 4.5s ease-in-out infinite; }
