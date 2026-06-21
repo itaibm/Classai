@@ -1,0 +1,133 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito:wght@500;600;700;800&display=swap');
+:root{
+  --paper:#f4ead8; --paper2:#efe2cb; --card:#fffdf7; --ink:#42352a; --muted:#8a7864;
+  --terra:#d9774e; --terra-ink:#a84f2e; --honey:#e8a83a; --sage:#6f9a6b; --berry:#b8607d;
+  --line:#e3d4ba; --shadow:0 10px 26px rgba(99,72,40,.14);
+}
+*{box-sizing:border-box;margin:0} body{font-family:Nunito,system-ui;background:var(--paper);color:var(--ink)}
+.frame{max-width:1280px;margin:0 auto;padding:28px}
+.tag{font:600 12px Nunito;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:30px 0 10px}
+h1,h2,h3{font-family:Fraunces}
+/* ---------- KID CLASSROOM (hero) ---------- */
+.stage{position:relative;border-radius:32px;overflow:hidden;min-height:560px;
+  background:
+    radial-gradient(120% 80% at 50% 0%, #fbeed4 0%, #f3dcb6 55%, #e9cb9c 100%);
+  box-shadow:var(--shadow);border:1px solid var(--line)}
+.stage::after{content:"";position:absolute;inset:0;opacity:.5;background-image:
+  radial-gradient(circle at 12% 22%, #fff7e6 0 3px, transparent 4px),
+  radial-gradient(circle at 82% 30%, #fff7e6 0 2px, transparent 3px),
+  radial-gradient(circle at 65% 12%, #ffe9bf 0 2px, transparent 3px);pointer-events:none}
+.shelf{position:absolute;left:0;right:0;bottom:0;height:120px;
+  background:linear-gradient(#d9b483,#c89a63);border-top:6px solid #b9854f}
+.window{position:absolute;top:34px;left:40px;width:150px;height:170px;border-radius:14px 14px 8px 8px;
+  background:linear-gradient(#bfe3f0,#dff2f7);border:8px solid #efe2cb;box-shadow:inset 0 0 0 3px #cdb287}
+.window::before{content:"☁";position:absolute;top:18px;left:14px;font-size:34px;color:#fff}
+.plant{position:absolute;right:46px;top:64px;font-size:64px;filter:drop-shadow(0 6px 6px rgba(0,0,0,.12))}
+.topbar{position:relative;z-index:3;display:flex;align-items:center;gap:12px;padding:18px 24px}
+.pillbtn{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font:700 14px Nunito;color:var(--terra-ink);box-shadow:var(--shadow)}
+.spacer{flex:1}
+.progress-coins{display:flex;gap:6px;align-items:center;font:800 15px Nunito;color:var(--terra-ink)}
+.scene{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center;padding:6px 24px 0}
+.avatar{width:180px;height:180px;animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.bubble{position:relative;max-width:620px;background:var(--card);border:2px solid var(--line);
+  border-radius:22px;padding:18px 24px;font:600 20px Nunito;box-shadow:var(--shadow);margin-top:-6px}
+.bubble::before{content:"";position:absolute;top:-12px;left:50%;transform:translateX(-50%) rotate(45deg);
+  width:20px;height:20px;background:var(--card);border-left:2px solid var(--line);border-top:2px solid var(--line)}
+.bubble .name{font-family:Fraunces;font-weight:700;color:var(--terra);margin-right:6px}
+.beats{display:flex;gap:8px;margin:16px 0 4px}
+.beat{width:11px;height:11px;border-radius:50%;background:#e3cba0}
+.beat.now{background:var(--terra);box-shadow:0 0 0 5px rgba(217,119,78,.22)}
+.beat.done{background:var(--sage)}
+.board{position:relative;z-index:3;width:100%;max-width:680px;margin:14px auto 30px;background:var(--card);
+  border:2px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.board h3{font-size:22px;text-align:center;color:var(--terra-ink);margin-bottom:16px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chip{background:#fff;border:2px solid var(--line);border-radius:999px;padding:10px 16px;font:700 16px Nunito;
+  box-shadow:0 4px 10px rgba(99,72,40,.08)}
+.chip.pick{border-color:var(--honey);background:#fdf3da}
+.buckets{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.bucket{border:2px dashed var(--line);border-radius:16px;padding:14px;min-height:88px;text-align:center}
+.bucket.alive{border-color:var(--sage);background:#eef6ec} .bucket.not{border-color:var(--berry);background:#fbeef2}
+.bucket b{font-family:Fraunces}
+.cta{display:block;margin:18px auto 0;background:var(--terra);color:#fff;border:none;border-radius:999px;
+  padding:14px 34px;font:800 17px Nunito;box-shadow:0 8px 18px rgba(217,119,78,.4)}
+/* ---------- PARENT ---------- */
+.parent{background:var(--paper2);border-radius:28px;padding:30px;border:1px solid var(--line)}
+.parent h2{font-size:26px;margin-bottom:4px}
+.subtle{color:var(--muted);margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow)}
+.kidrow{display:flex;align-items:center;gap:14px}
+.miniav{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;font-size:30px}
+.subject-row{display:flex;align-items:center;gap:10px;margin-top:14px;padding:12px 14px;border-radius:14px;background:#fbf4e6}
+.dot{width:10px;height:10px;border-radius:50%}
+.bar{height:8px;border-radius:99px;background:#e7d6b8;overflow:hidden;flex:1}
+.bar>i{display:block;height:100%;border-radius:99px}
+.btnrow{display:flex;gap:10px;margin-top:8px}
+.gbtn{border-radius:12px;border:1px solid var(--line);background:#fff;padding:9px 14px;font:700 13px Nunito;color:var(--terra-ink)}
+</style></head><body>
+<div class="frame">
+  <div class="tag">Direction A · “Cozy Storybook” — kid lesson</div>
+  <div class="stage">
+    <div class="window"></div><div class="plant">🪴</div><div class="shelf"></div>
+    <div class="topbar">
+      <button class="pillbtn">← Leave class</button>
+      <div class="spacer"></div>
+      <div class="progress-coins">⭐ 3 &nbsp; 🔥 5-day streak</div>
+      <button class="pillbtn">🎙️ Mic on</button>
+    </div>
+    <div class="scene">
+      <svg class="avatar" viewBox="0 0 200 200">
+        <ellipse cx="100" cy="178" rx="58" ry="12" fill="rgba(99,72,40,.16)"/>
+        <path d="M58 120c0-40 84-40 84 0v34c0 12-84 12-84 0z" fill="#a06bd6"/>
+        <circle cx="100" cy="86" r="50" fill="#b483e6"/>
+        <circle cx="100" cy="86" r="50" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="4"/>
+        <circle cx="84" cy="84" r="8" fill="#3a2a4a"/><circle cx="116" cy="84" r="8" fill="#3a2a4a"/>
+        <circle cx="87" cy="81" r="2.6" fill="#fff"/><circle cx="119" cy="81" r="2.6" fill="#fff"/>
+        <path d="M86 104q14 12 28 0" stroke="#3a2a4a" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <circle cx="74" cy="98" r="7" fill="#e88aa8" opacity=".5"/><circle cx="126" cy="98" r="7" fill="#e88aa8" opacity=".5"/>
+      </svg>
+      <div class="bubble"><span class="name">Pip:</span>Whoa, five out of six — great detective eyes! Tell me one of your picks.</div>
+      <div class="beats"><span class="beat done"></span><span class="beat done"></span><span class="beat now"></span><span class="beat"></span><span class="beat"></span></div>
+    </div>
+    <div class="board">
+      <h3>Detective sort: which feel ALIVE?</h3>
+      <div class="chips">
+        <span class="chip">🌊 river</span><span class="chip">🤖 robot</span><span class="chip pick">🌱 seed</span>
+        <span class="chip">🍂 dead leaf</span><span class="chip">🚗 toy car</span><span class="chip">🔥 fire</span><span class="chip">🍄 mushroom</span>
+      </div>
+      <div class="buckets">
+        <div class="bucket alive"><b>Feels Alive</b></div>
+        <div class="bucket not"><b>Not Alive</b></div>
+      </div>
+      <button class="cta">Check ✓</button>
+    </div>
+  </div>
+
+  <div class="tag">Direction A — parent area</div>
+  <div class="parent">
+    <h2>Welcome back 👋</h2>
+    <div class="subtle">Two learners · everything’s on track this week.</div>
+    <div class="grid">
+      <div class="pcard">
+        <div class="kidrow"><div class="miniav" style="background:#e7f0e6">🦊</div><div><b style="font-family:Fraunces;font-size:18px">Leo</b><div class="subtle" style="margin:0">age 10</div></div></div>
+        <div class="subject-row"><span class="dot" style="background:var(--terra)"></span>Algebra<div class="bar"><i style="width:62%;background:var(--terra)"></i></div></div>
+        <div class="subject-row"><span class="dot" style="background:var(--sage)"></span>Science<div class="bar"><i style="width:40%;background:var(--sage)"></i></div></div>
+        <div class="btnrow"><button class="gbtn">Open</button><button class="gbtn">Start learning →</button></div>
+      </div>
+      <div class="pcard">
+        <div class="kidrow"><div class="miniav" style="background:#f3e6ef">🐰</div><div><b style="font-family:Fraunces;font-size:18px">Anna</b><div class="subtle" style="margin:0">4th grade</div></div></div>
+        <div class="subject-row"><span class="dot" style="background:var(--berry)"></span>Biology<div class="bar"><i style="width:18%;background:var(--berry)"></i></div></div>
+        <div class="btnrow"><button class="gbtn">Open</button><button class="gbtn">Start learning →</button></div>
+      </div>
+      <div class="pcard" style="display:flex;flex-direction:column;justify-content:center;align-items:center;border-style:dashed;background:#fbf4e6">
+        <div style="font-size:34px">＋</div><b style="font-family:Fraunces">Add a learner</b>
+        <div class="btnrow" style="margin-top:14px"><button class="gbtn">🔎 AI monitor</button><button class="gbtn">⚙ AI brain</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

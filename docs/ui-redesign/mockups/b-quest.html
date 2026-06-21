@@ -1,0 +1,131 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@600;700;800&display=swap');
+:root{
+  --bg:#0e1430; --bg2:#161d44; --card:#1c2552; --ink:#eaf0ff; --muted:#9aa6d6;
+  --cyan:#37d6ff; --violet:#8b6cff; --lime:#9be15d; --pink:#ff6fae; --amber:#ffce4a;
+  --line:rgba(255,255,255,.12); --glow:0 0 30px rgba(139,108,255,.45);
+}
+*{box-sizing:border-box;margin:0} body{font-family:Nunito,system-ui;background:var(--bg);color:var(--ink)}
+.frame{max-width:1280px;margin:0 auto;padding:28px}
+.tag{font:700 12px Nunito;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:30px 0 10px}
+h1,h2,h3{font-family:'Baloo 2'}
+/* hero */
+.stage{position:relative;border-radius:30px;overflow:hidden;min-height:580px;border:1px solid var(--line);
+  background:radial-gradient(130% 90% at 50% -10%, #2a2270 0%, #161d44 50%, #0e1430 100%)}
+.stage::after{content:"";position:absolute;inset:0;background-image:
+  radial-gradient(circle at 18% 26%, #fff 0 1.6px, transparent 2px),
+  radial-gradient(circle at 72% 16%, #fff 0 1.2px, transparent 2px),
+  radial-gradient(circle at 86% 44%, #bfe0ff 0 1.6px, transparent 2px),
+  radial-gradient(circle at 32% 64%, #fff 0 1.2px, transparent 2px);opacity:.7}
+.planet{position:absolute;right:-50px;top:-40px;width:200px;height:200px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%, #ffd98a, #ff8f6f 60%, #d65a8f);filter:blur(.3px);opacity:.85;box-shadow:0 0 60px rgba(255,143,111,.5)}
+.topbar{position:relative;z-index:3;display:flex;align-items:center;gap:12px;padding:18px 22px}
+.glassbtn{background:rgba(255,255,255,.08);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font:700 14px Nunito;color:var(--ink);backdrop-filter:blur(6px)}
+.spacer{flex:1}
+.hud{display:flex;gap:10px;align-items:center}
+.xp{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font:800 14px Nunito}
+.xpbar{width:120px;height:9px;border-radius:99px;background:rgba(255,255,255,.14);overflow:hidden}
+.xpbar>i{display:block;height:100%;width:64%;background:linear-gradient(90deg,var(--cyan),var(--lime));box-shadow:0 0 10px var(--cyan)}
+.scene{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center;padding:8px 24px 0}
+.halo{position:absolute;top:30px;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,rgba(139,108,255,.5),transparent 65%);filter:blur(6px)}
+.avatar{width:190px;height:190px;position:relative;z-index:2;animation:bob 3.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-10px) rotate(-2deg)}}
+.bubble{position:relative;z-index:2;max-width:600px;background:rgba(255,255,255,.96);color:#1b2150;border-radius:22px;
+  padding:18px 24px;font:700 20px Nunito;box-shadow:var(--glow);margin-top:-4px}
+.bubble .name{font-family:'Baloo 2';color:var(--violet)}
+.bubble::before{content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(45deg);width:20px;height:20px;background:#fff}
+.beats{display:flex;gap:8px;margin:16px 0 4px}
+.beat{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.2)}
+.beat.now{background:var(--cyan);box-shadow:0 0 12px var(--cyan)} .beat.done{background:var(--lime)}
+.board{position:relative;z-index:3;width:100%;max-width:690px;margin:14px auto 30px;
+  background:linear-gradient(#222c63,#1c2552);border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.board h3{font-size:23px;text-align:center;color:var(--cyan);margin-bottom:16px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chip{background:rgba(255,255,255,.07);border:2px solid var(--line);border-radius:14px;padding:11px 16px;font:800 16px Nunito;color:var(--ink)}
+.chip.pick{border-color:var(--amber);background:rgba(255,206,74,.16);box-shadow:0 0 14px rgba(255,206,74,.35)}
+.buckets{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.bucket{border:2px dashed var(--line);border-radius:18px;padding:16px;min-height:92px;text-align:center;font-family:'Baloo 2';font-size:18px}
+.bucket.alive{border-color:var(--lime);background:rgba(155,225,93,.12);color:var(--lime)}
+.bucket.not{border-color:var(--pink);background:rgba(255,111,174,.12);color:var(--pink)}
+.cta{display:block;margin:18px auto 0;background:linear-gradient(90deg,var(--violet),var(--cyan));color:#0b1030;border:none;border-radius:999px;
+  padding:15px 38px;font:800 18px 'Baloo 2';box-shadow:0 10px 26px rgba(55,214,255,.45)}
+/* parent */
+.parent{background:linear-gradient(#161d44,#10153a);border-radius:28px;padding:30px;border:1px solid var(--line)}
+.parent h2{font-size:27px} .subtle{color:var(--muted);margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px}
+.kidrow{display:flex;align-items:center;gap:14px}
+.miniav{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;font-size:30px}
+.subject-row{display:flex;align-items:center;gap:10px;margin-top:14px;padding:11px 14px;border-radius:14px;background:rgba(255,255,255,.05)}
+.dot{width:10px;height:10px;border-radius:50%}
+.bar{height:8px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden;flex:1}
+.bar>i{display:block;height:100%;border-radius:99px}
+.btnrow{display:flex;gap:10px;margin-top:8px}
+.gbtn{border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.06);padding:9px 14px;font:800 13px Nunito;color:var(--ink)}
+.badge{font:800 12px Nunito;color:var(--amber)}
+</style></head><body>
+<div class="frame">
+  <div class="tag">Direction B · “Quest” — kid lesson</div>
+  <div class="stage">
+    <div class="planet"></div>
+    <div class="topbar">
+      <button class="glassbtn">← Leave class</button>
+      <div class="spacer"></div>
+      <div class="hud">
+        <div class="xp">⭐ 240 XP <div class="xpbar"><i></i></div></div>
+        <div class="xp">🔥 5</div>
+        <button class="glassbtn">🎙️</button>
+      </div>
+    </div>
+    <div class="scene">
+      <div class="halo"></div>
+      <svg class="avatar" viewBox="0 0 200 200">
+        <ellipse cx="100" cy="182" rx="56" ry="10" fill="rgba(0,0,0,.3)"/>
+        <path d="M58 122c0-40 84-40 84 0v30c0 12-84 12-84 0z" fill="#6c5ce7"/>
+        <circle cx="100" cy="86" r="50" fill="#8b6cff"/>
+        <circle cx="100" cy="86" r="50" fill="none" stroke="#bda7ff" stroke-width="4" opacity=".7"/>
+        <circle cx="84" cy="84" r="9" fill="#fff"/><circle cx="116" cy="84" r="9" fill="#fff"/>
+        <circle cx="86" cy="85" r="4.5" fill="#22203a"/><circle cx="118" cy="85" r="4.5" fill="#22203a"/>
+        <path d="M84 105q16 14 32 0" stroke="#22203a" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <circle cx="73" cy="99" r="7" fill="#ff8fc0" opacity=".6"/><circle cx="127" cy="99" r="7" fill="#ff8fc0" opacity=".6"/>
+        <path d="M100 30l4 9 9 1-7 7 2 9-8-5-8 5 2-9-7-7 9-1z" fill="#ffce4a"/>
+      </svg>
+      <div class="bubble"><span class="name">Pip: </span>Whoa, five out of six — great detective eyes! Tell me one of your picks. ⚡</div>
+      <div class="beats"><span class="beat done"></span><span class="beat done"></span><span class="beat now"></span><span class="beat"></span><span class="beat"></span></div>
+    </div>
+    <div class="board">
+      <h3>🛰️ Detective sort: which feel ALIVE?</h3>
+      <div class="chips">
+        <span class="chip">🌊 river</span><span class="chip">🤖 robot</span><span class="chip pick">🌱 seed</span>
+        <span class="chip">🍂 dead leaf</span><span class="chip">🚗 toy car</span><span class="chip">🔥 fire</span><span class="chip">🍄 mushroom</span>
+      </div>
+      <div class="buckets"><div class="bucket alive">Feels Alive</div><div class="bucket not">Not Alive</div></div>
+      <button class="cta">Check ✓</button>
+    </div>
+  </div>
+
+  <div class="tag">Direction B — parent area</div>
+  <div class="parent">
+    <h2>Mission Control 🚀</h2>
+    <div class="subtle">Two explorers · 5-day streak going strong.</div>
+    <div class="grid">
+      <div class="pcard">
+        <div class="kidrow"><div class="miniav" style="background:rgba(55,214,255,.18)">🦊</div><div><b style="font-family:'Baloo 2';font-size:19px">Leo</b><div class="subtle" style="margin:0">age 10 · <span class="badge">Lvl 4</span></div></div></div>
+        <div class="subject-row"><span class="dot" style="background:var(--cyan)"></span>Algebra<div class="bar"><i style="width:62%;background:var(--cyan)"></i></div></div>
+        <div class="subject-row"><span class="dot" style="background:var(--lime)"></span>Science<div class="bar"><i style="width:40%;background:var(--lime)"></i></div></div>
+        <div class="btnrow"><button class="gbtn">Open</button><button class="gbtn">Start →</button></div>
+      </div>
+      <div class="pcard">
+        <div class="kidrow"><div class="miniav" style="background:rgba(255,111,174,.18)">🐰</div><div><b style="font-family:'Baloo 2';font-size:19px">Anna</b><div class="subtle" style="margin:0">4th · <span class="badge">Lvl 2</span></div></div></div>
+        <div class="subject-row"><span class="dot" style="background:var(--pink)"></span>Biology<div class="bar"><i style="width:18%;background:var(--pink)"></i></div></div>
+        <div class="btnrow"><button class="gbtn">Open</button><button class="gbtn">Start →</button></div>
+      </div>
+      <div class="pcard" style="display:flex;flex-direction:column;justify-content:center;align-items:center;border-style:dashed">
+        <div style="font-size:34px">＋</div><b style="font-family:'Baloo 2'">Add explorer</b>
+        <div class="btnrow" style="margin-top:14px"><button class="gbtn">🔎 AI monitor</button><button class="gbtn">⚙ AI brain</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>
