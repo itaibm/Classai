@@ -1,19 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@400;500;600;700;800&display=swap');
+
 :root {
-  --accent-h: 210;
-  --accent: hsl(var(--accent-h) 75% 52%);
-  --accent-soft: hsl(var(--accent-h) 80% 96%);
-  --accent-ink: hsl(var(--accent-h) 60% 28%);
-  --bg: #f6f4ee;
+  /* --accent-h kept for the kid's personal avatar hue; the app accent is a fixed
+     indigo and per-subject color carries class identity via --subject. */
+  --accent-h: 232;
+  --accent: #5b6cff;
+  --accent-soft: #eef0ff;
+  --accent-ink: #3a45c4;
+  --bg: #f7f9ff;
   --surface: #ffffff;
-  --ink: #1f2430;
-  --muted: #6b7280;
-  --line: #e7e3d8;
-  --good: #2e9e6b;
-  --warn: #d98324;
-  --bad: #d35c5c;
-  --radius: 18px;
-  --shadow: 0 8px 30px rgba(31, 36, 48, 0.08);
-  --font: ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --ink: #1d2433;
+  --muted: #6b7488;
+  --line: #e8ecf6;
+  --good: #1bb6a6;
+  --warn: #e8a33a;
+  --bad: #ff6f6b;
+  --radius: 22px;
+  --shadow: 0 14px 40px rgba(46, 57, 120, 0.12);
+  --shadow-sm: 0 6px 16px rgba(46, 57, 120, 0.08);
+  /* per-subject accent — overridden inline per course/lesson via subjectStyle() */
+  --subject: var(--accent);
+  --subject-soft: var(--accent-soft);
+  --subject-ink: var(--accent-ink);
+  --font: "Nunito", ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-display: "Poppins", var(--font);
 }
 
 * { box-sizing: border-box; }
@@ -22,10 +32,19 @@ body {
   margin: 0;
   font-family: var(--font);
   color: var(--ink);
-  background: radial-gradient(1200px 600px at 70% -10%, var(--accent-soft), transparent 60%), var(--bg);
+  background:
+    radial-gradient(1100px 620px at 12% -8%, #eef1ff, transparent 60%),
+    radial-gradient(1000px 600px at 92% 4%, #fff1f0, transparent 55%),
+    radial-gradient(900px 560px at 60% 110%, #e9faf6, transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
 }
-h1, h2, h3 { margin: 0 0 0.4em; line-height: 1.15; }
+h1, h2, h3 { margin: 0 0 0.4em; line-height: 1.15; font-family: var(--font-display); font-weight: 700; }
 h1 { font-size: 2rem; letter-spacing: -0.02em; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
 p { line-height: 1.55; }
 a { color: var(--accent-ink); }
 button { font-family: inherit; }
@@ -62,18 +81,22 @@ button { font-family: inherit; }
 
 /* buttons */
 .btn {
-  appearance: none; border: 1px solid transparent; border-radius: 999px;
-  padding: 11px 20px; font-weight: 700; font-size: 0.98rem; cursor: pointer;
-  background: var(--accent); color: white; transition: transform .06s ease, filter .15s ease;
+  appearance: none; border: 1px solid transparent; border-radius: 14px;
+  padding: 11px 20px; font-weight: 700; font-size: 0.98rem; cursor: pointer; font-family: var(--font-display);
+  background: var(--accent); color: white;
+  box-shadow: 0 8px 18px rgba(91, 108, 255, 0.32);
+  transition: transform .08s ease, filter .15s ease, box-shadow .15s ease;
 }
-.btn:hover { filter: brightness(1.05); }
+.btn:hover { filter: brightness(1.04); box-shadow: 0 10px 22px rgba(91, 108, 255, 0.42); }
 .btn:active { transform: translateY(1px); }
-.btn:disabled { opacity: 0.5; cursor: default; }
-.btn.ghost { background: transparent; color: var(--accent-ink); border-color: var(--line); }
-.btn.soft { background: var(--accent-soft); color: var(--accent-ink); }
-.btn.lg { padding: 15px 28px; font-size: 1.1rem; }
+.btn:disabled { opacity: 0.5; cursor: default; box-shadow: none; }
+.btn.ghost { background: var(--surface); color: var(--accent-ink); border-color: var(--line); box-shadow: var(--shadow-sm); }
+.btn.soft { background: var(--accent-soft); color: var(--accent-ink); box-shadow: none; }
+.btn.lg { padding: 15px 28px; font-size: 1.1rem; border-radius: 16px; }
 .btn.block { width: 100%; }
-.btn.danger { background: var(--bad); }
+.btn.danger { background: var(--bad); box-shadow: 0 8px 18px rgba(255, 111, 107, 0.32); }
+/* subject-themed primary button */
+.btn.subject { background: var(--subject); box-shadow: 0 8px 18px color-mix(in srgb, var(--subject) 38%, transparent); }
 
 /* inputs */
 label.field { display: block; margin-bottom: 14px; font-weight: 600; font-size: 0.92rem; }
@@ -99,8 +122,8 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .pill.neutral { background: #eef0f4; color: var(--muted); }
 
 /* progress bar */
-.bar { height: 9px; border-radius: 999px; background: #d7d1c0; overflow: hidden; }
-.bar > span { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
+.bar { height: 9px; border-radius: 999px; background: #e3e8f5; overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--subject); border-radius: 999px; transition: width .4s ease; }
 
 /* hero / home */
 .hero { text-align: center; padding: 40px 0 24px; }
