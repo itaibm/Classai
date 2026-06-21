@@ -5,13 +5,23 @@ import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast } from '../lib/ui.tsx';
 import { Character } from '../avatar/Character.tsx';
 import { InterestsInput } from '../components/InterestsInput.tsx';
+import { subjectColor } from '../lib/subject.ts';
+import type { CourseCard } from '../lib/api.ts';
 
 const CHARACTERS: AvatarConfig['character'][] = ['sage', 'nova', 'pip'];
+
+const greeting = () => {
+  const h = new Date().getHours();
+  return h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';
+};
 
 export function ParentDashboard() {
   const { data, loading, error, reload } = useAsync(async () => {
     const [{ kids }, { profiles }] = await Promise.all([api.kids(), api.brainProfiles()]);
-    return { kids, profiles };
+    const courseLists = await Promise.all(kids.map((k) => api.courses(k.id).then((r) => r.courses).catch(() => [] as CourseCard[])));
+    const coursesByKid: Record<string, CourseCard[]> = {};
+    kids.forEach((k, i) => { coursesByKid[k.id] = courseLists[i] ?? []; });
+    return { kids, profiles, coursesByKid };
   });
   const { msg, show } = useToast();
 
@@ -51,8 +61,11 @@ export function ParentDashboard() {
     <div className="app">
       <TopBar />
       <div className="container wide">
-        <div className="row" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
-          <h1>Parent area</h1>
+        <div className="row" style={{ justifyContent: 'space-between', alignItems: 'flex-end' }}>
+          <div>
+            <h1 style={{ marginBottom: 2 }}>{greeting()} 👋</h1>
+            <span className="muted">Manage learners, classes, schedules, and reports.</span>
+          </div>
           <div className="row" style={{ gap: 8 }}>
             <button className="btn ghost" onClick={() => navigate('/parent/prompts')}>🔎 AI prompt monitor</button>
             <button className="btn ghost" onClick={() => navigate('/connect')}>
@@ -88,23 +101,41 @@ export function ParentDashboard() {
               </div>
             )}
 
-            <h3>Learners</h3>
+            <h3 style={{ marginTop: 22 }}>Learners</h3>
             <div className="grid cols-2">
-              {data.kids.map((k) => (
-                <div key={k.id} className="card row" style={{ alignItems: 'center', gap: 14, cursor: 'pointer', ['--accent-h' as any]: k.avatar.hue }} onClick={() => navigate(`/parent/kid/${k.id}`)}>
-                  <div style={{ width: 72, height: 72 }}>
-                    <Character character={k.avatar.character} hue={k.avatar.hue} emotion="happy" mouthOpen={0} speaking={false} />
+              {data.kids.map((k) => {
+                const courses = data.coursesByKid[k.id] ?? [];
+                return (
+                  <div key={k.id} className="card learner-card" style={{ ['--accent-h' as any]: k.avatar.hue }} onClick={() => navigate(`/parent/kid/${k.id}`)}>
+                    <div className="row" style={{ alignItems: 'center', gap: 14 }}>
+                      <div style={{ width: 64, height: 64, flex: 'none' }}>
+                        <Character character={k.avatar.character} hue={k.avatar.hue} emotion="happy" mouthOpen={0} speaking={false} />
+                      </div>
+                      <div className="grow">
+                        <strong style={{ fontSize: '1.1rem' }}>{k.name}</strong>
+                        <div className="muted small">{k.gradeLevel || `age ${k.age}`} · {courses.length} {courses.length === 1 ? 'class' : 'classes'}</div>
+                      </div>
+                      <button className="btn small" onClick={(e) => { e.stopPropagation(); navigate(`/learn/${k.id}`); }}>Start learning →</button>
+                    </div>
+                    {courses.length > 0 && (
+                      <div className="subject-rows">
+                        {courses.slice(0, 4).map((c) => (
+                          <div key={c.course.id} className="subject-row">
+                            <span className="today-dot" style={{ background: subjectColor(c.course.subjectKey).accent }} />
+                            <span className="subject-name">{c.course.title}</span>
+                            <span className="bar" style={{ ['--subject' as any]: subjectColor(c.course.subjectKey).accent }}><span style={{ width: `${Math.round(c.progress.completion * 100)}%` }} /></span>
+                            <span className="muted small" style={{ width: 34, textAlign: 'right' }}>{Math.round(c.progress.completion * 100)}%</span>
+                          </div>
+                        ))}
+                        {courses.length > 4 && <div className="muted small">+{courses.length - 4} more</div>}
+                      </div>
+                    )}
                   </div>
-                  <div>
-                    <strong>{k.name}</strong>
-                    <div className="muted small">{k.gradeLevel || `age ${k.age}`}</div>
-                    {k.interests.length > 0 && <div className="muted small">likes {k.interests.slice(0, 3).join(', ')}</div>}
-                  </div>
-                </div>
-              ))}
+                );
+              })}
 
               {!adding && (
-                <div className="card center" style={{ cursor: 'pointer', minHeight: 100 }} onClick={() => setAdding(true)}>
+                <div className="card center add-learner-card" style={{ cursor: 'pointer', minHeight: 100 }} onClick={() => setAdding(true)}>
                   <strong className="muted">+ Add a learner</strong>
                 </div>
               )}
