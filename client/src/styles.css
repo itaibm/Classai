@@ -151,7 +151,7 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
    block element (chips, choices, blanks, number line, Check button, beat dots,
    speech caret) picks up the class's color in one move. --subject is always a
    concrete value (set inline via subjectStyle), so there's no variable cycle. */
-.classroom { --accent: var(--subject); --accent-soft: var(--subject-soft); --accent-ink: var(--subject-ink); }
+.classroom, .subject-themed { --accent: var(--subject); --accent-soft: var(--subject-soft); --accent-ink: var(--subject-ink); }
 
 /* ---- lesson completion celebration ---- */
 .celebrate-card { animation: pop .5s cubic-bezier(.34,1.6,.64,1); }

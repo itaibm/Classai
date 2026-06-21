@@ -5,6 +5,7 @@ import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast, masteryPill } from '../lib/ui.tsx';
 import { Character } from '../avatar/Character.tsx';
 import { InterestsInput } from '../components/InterestsInput.tsx';
+import { subjectStyle, subjectColor } from '../lib/subject.ts';
 
 const CHARACTERS: AvatarConfig['character'][] = ['sage', 'nova', 'pip'];
 
@@ -74,9 +75,12 @@ export function KidDetail({ kidId }: { kidId: string }) {
             <h3 style={{ marginTop: 24 }}>Classes</h3>
             <div className="grid cols-2">
               {data.courses.map((c: CourseCard) => (
-                <div key={c.course.id} className="card" style={{ cursor: 'pointer' }} onClick={() => navigate(`/parent/course/${c.course.id}`)}>
-                  <div className="row" style={{ justifyContent: 'space-between' }}>
-                    <strong>{c.course.title}</strong>
+                <div key={c.course.id} className="card class-card" style={{ cursor: 'pointer', ...subjectStyle(c.course.subjectKey) }} onClick={() => navigate(`/parent/course/${c.course.id}`)}>
+                  <div className="row" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span className="row" style={{ gap: 8, alignItems: 'center' }}>
+                      <span className="today-dot" style={{ background: subjectColor(c.course.subjectKey).accent }} />
+                      <strong>{c.course.title}</strong>
+                    </span>
                     <span className="muted small">{Math.round(c.progress.completion * 100)}%</span>
                   </div>
                   <div className="bar" style={{ margin: '10px 0' }}><span style={{ width: `${Math.round(c.progress.completion * 100)}%` }} /></div>

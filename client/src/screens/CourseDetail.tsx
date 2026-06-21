@@ -3,6 +3,7 @@ import type { LessonKind } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast, masteryPill } from '../lib/ui.tsx';
+import { subjectStyle, subjectColor } from '../lib/subject.ts';
 
 export function CourseDetail({ courseId }: { courseId: string }) {
   const { data, loading, error, reload } = useAsync(() => api.course(courseId), [courseId]);
@@ -54,7 +55,7 @@ export function CourseDetail({ courseId }: { courseId: string }) {
   const masteryFor = (title: string) => data?.progress.topics.find((t) => t.title === title)?.mastery ?? 0;
 
   return (
-    <div className="app" style={{ ['--accent-h' as any]: hue }}>
+    <div className="app subject-themed" style={{ ['--accent-h' as any]: hue, ...subjectStyle(data?.course.subjectKey) }}>
       <TopBar accentHue={hue} />
       <div className="container wide">
         {loading && <Loading />}
@@ -67,7 +68,10 @@ export function CourseDetail({ courseId }: { courseId: string }) {
         {data && (
           <>
             <button className="btn ghost small" onClick={() => navigate(`/parent/kid/${data.kid.id}`)}>← {data.kid.name}</button>
-            <h1 style={{ marginTop: 8 }}>{data.course.title}</h1>
+            <h1 style={{ marginTop: 8, display: 'flex', alignItems: 'center', gap: 10 }}>
+              <span className="today-dot" style={{ background: subjectColor(data.course.subjectKey).accent, width: 14, height: 14 }} />
+              {data.course.title}
+            </h1>
             <p className="muted">{[data.course.subject, data.course.gradeLevel, data.course.description].filter(Boolean).join(' · ')}</p>
 
             {data.recommendation && (
