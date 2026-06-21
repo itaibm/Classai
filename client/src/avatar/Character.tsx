@@ -143,12 +143,14 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
           )}
 
           <circle cx="120" cy="104" r="62" fill={`url(#face-${uid})`} stroke={faceEdge} strokeWidth="3" />
+          {/* glossy head sheen — adds life without changing silhouette */}
+          <ellipse cx="98" cy="78" rx="26" ry="18" fill="#fff" opacity="0.28" transform="rotate(-20 98 78)" />
           {character === 'pip' && <circle cx="120" cy="104" r="62" fill="none" stroke={accent} strokeWidth="2" strokeDasharray="4 8" />}
           <circle cx="58" cy="104" r="11" fill={`url(#face-${uid})`} stroke={faceEdge} strokeWidth="3" />
           <circle cx="182" cy="104" r="11" fill={`url(#face-${uid})`} stroke={faceEdge} strokeWidth="3" />
 
-          <circle cx="86" cy="120" r="9" fill={cheek} opacity="0.6" />
-          <circle cx="154" cy="120" r="9" fill={cheek} opacity="0.6" />
+          <circle cx="84" cy="122" r="10.5" fill={cheek} opacity="0.72" />
+          <circle cx="156" cy="122" r="10.5" fill={cheek} opacity="0.72" />
 
           {/* brows (smoothly transition; lift a touch on loud speech) */}
           {(() => {
@@ -163,14 +165,16 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
 
           {/* eyes with gaze + blink */}
           <g>
-            <ellipse cx="96" cy={eyeY} rx="11" ry={blink ? 1.4 : 12} fill="#fff" stroke={faceEdge} strokeWidth="2" />
-            <ellipse cx="144" cy={eyeY} rx="11" ry={blink ? 1.4 : 12} fill="#fff" stroke={faceEdge} strokeWidth="2" />
+            <ellipse cx="96" cy={eyeY} rx="12.5" ry={blink ? 1.6 : 13.5} fill="#fff" stroke={faceEdge} strokeWidth="2" />
+            <ellipse cx="144" cy={eyeY} rx="12.5" ry={blink ? 1.6 : 13.5} fill="#fff" stroke={faceEdge} strokeWidth="2" />
             {!blink && (
               <g style={{ transition: 'transform 140ms ease-out', transform: `translate(${gaze.x}px, ${gaze.y}px)` }}>
-                <circle cx="96" cy={eyeY} r="5" fill={ink} />
-                <circle cx="144" cy={eyeY} r="5" fill={ink} />
-                <circle cx="98" cy={eyeY - 2} r="1.7" fill="#fff" />
-                <circle cx="146" cy={eyeY - 2} r="1.7" fill="#fff" />
+                <circle cx="96" cy={eyeY} r="5.6" fill={ink} />
+                <circle cx="144" cy={eyeY} r="5.6" fill={ink} />
+                <circle cx="98" cy={eyeY - 2.4} r="2.3" fill="#fff" />
+                <circle cx="146" cy={eyeY - 2.4} r="2.3" fill="#fff" />
+                <circle cx="93.5" cy={eyeY + 2.4} r="1.1" fill="#fff" opacity="0.6" />
+                <circle cx="141.5" cy={eyeY + 2.4} r="1.1" fill="#fff" opacity="0.6" />
               </g>
             )}
             {character === 'sage' && (

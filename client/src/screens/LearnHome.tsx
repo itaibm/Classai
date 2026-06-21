@@ -85,7 +85,7 @@ export function LearnHome({ kidId }: { kidId: string }) {
         {data && (
           <>
             <div className="row" style={{ alignItems: 'center', gap: 16 }}>
-              <div style={{ width: 96, height: 96 }}>
+              <div style={{ width: 120, height: 120 }}>
                 <Character character={data.kid.avatar.character} hue={hue} emotion="happy" mouthOpen={0} speaking={false} />
               </div>
               <div>
