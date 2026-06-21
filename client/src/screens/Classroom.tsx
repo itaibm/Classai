@@ -24,7 +24,6 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [shown, setShown] = useState(''); // progressively-revealed portion of captions
   const [blocks, setBlocks] = useState<LessonBlock[]>([]);
   const [expectsAnswer, setExpectsAnswer] = useState(false); // this turn asks an open question
-  const [answerOpen, setAnswerOpen] = useState(false); // kid chose to answer on an explanation turn
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
   const [subjectKey, setSubjectKey] = useState<string>('');
@@ -139,7 +138,6 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     // The turn expects a spoken/typed answer only if it says so, or its speech is
     // clearly a question. Otherwise it's an explanation — lead with Continue.
     setExpectsAnswer(!!turn.awaitResponse || /\?\s*["'”’)\]]*\s*$/.test((turn.speech || '').trim()));
-    setAnswerOpen(false);
     setTurnSeq((n) => n + 1);
     startReveal(turn.speech);
     // Show the bubble immediately — never depend on the TTS engine firing onStart
@@ -206,12 +204,24 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     fetchTurn({ text: t, via: 'block' });
   };
 
+
   const hue = kid?.avatar.hue ?? 210;
   const speaking = phase === 'speaking';
   const interactiveIdx = blocks.findIndex((b) => blockIsInteractive(b));
   const interactive = interactiveIdx >= 0;
   const awaitingNoBlock = phase === 'awaiting' && !interactive;
-  const showAnswerBar = awaitingNoBlock && (expectsAnswer || answerOpen);
+  const showAnswerBar = awaitingNoBlock && expectsAnswer;
+
+  // Auto-advance no-question explanation turns after a short, length-scaled pause
+  // (~4s, longer for more text) so the lesson flows without a click every turn.
+  // Only fires when the tutor is just explaining — never on a question/check.
+  useEffect(() => {
+    if (!awaitingNoBlock || expectsAnswer) return;
+    const ms = Math.min(9000, Math.max(4000, 2500 + captions.length * 25));
+    const t = window.setTimeout(() => onContinue(), ms);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [awaitingNoBlock, expectsAnswer, turnSeq]);
 
   return (
     <div className="app classroom" style={{ ['--accent-h' as any]: hue, ...subjectStyle(subjectKey) }}>
@@ -313,11 +323,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
                 </div>
               </>
             ) : (
-              /* Explanation turn — no question, so lead with Continue. The kid can
-                 still choose to answer in their own words (no mic until tapped). */
-              <div className="col center" style={{ gap: 10 }}>
+              /* Explanation turn — no question. Just Continue (and it auto-advances
+                 after a short pause so the lesson keeps flowing). */
+              <div className="col center" style={{ gap: 6 }}>
                 <button className="btn lg" onClick={onContinue}>Continue ▶</button>
-                <button className="btn ghost small" onClick={() => setAnswerOpen(true)}>💬 Answer in my own words</button>
+                <span className="muted small">continuing automatically…</span>
               </div>
             )}
           </div>
