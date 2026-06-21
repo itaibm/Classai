@@ -24,6 +24,8 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [shown, setShown] = useState(''); // progressively-revealed portion of captions
   const [blocks, setBlocks] = useState<LessonBlock[]>([]);
   const [expectsAnswer, setExpectsAnswer] = useState(false); // this turn asks an open question
+  const [autoAdvance, setAutoAdvance] = useState(true); // explanation turn flows on automatically
+  const [continueLabel, setContinueLabel] = useState(''); // AI-chosen advance button text
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
   const [subjectKey, setSubjectKey] = useState<string>('');
@@ -138,6 +140,12 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     // The turn expects a spoken/typed answer only if it says so, or its speech is
     // clearly a question. Otherwise it's an explanation — lead with Continue.
     setExpectsAnswer(!!turn.awaitResponse || /\?\s*["'”’)\]]*\s*$/.test((turn.speech || '').trim()));
+    // Auto-advance only pure-speech transitions by default; when there's a visual
+    // to study (table/diagram/steps/slideshow) wait for the kid — unless the tutor
+    // explicitly opts in/out via autoAdvance.
+    const hasVisual = (turn.blocks ?? (turn.block ? [turn.block] : [])).length > 0;
+    setAutoAdvance(turn.autoAdvance ?? !hasVisual);
+    setContinueLabel((turn.continueLabel || '').trim());
     setTurnSeq((n) => n + 1);
     startReveal(turn.speech);
     // Show the bubble immediately — never depend on the TTS engine firing onStart
@@ -212,16 +220,16 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const awaitingNoBlock = phase === 'awaiting' && !interactive;
   const showAnswerBar = awaitingNoBlock && expectsAnswer;
 
-  // Auto-advance no-question explanation turns after a short, length-scaled pause
-  // (~4s, longer for more text) so the lesson flows without a click every turn.
-  // Only fires when the tutor is just explaining — never on a question/check.
+  // Auto-advance an explanation turn after a short, length-scaled pause — but ONLY
+  // when the tutor opted in (autoAdvance). After a key idea the tutor sets
+  // autoAdvance=false so the kid actively confirms ("I got it!") before moving on.
   useEffect(() => {
-    if (!awaitingNoBlock || expectsAnswer) return;
+    if (!awaitingNoBlock || expectsAnswer || !autoAdvance) return;
     const ms = Math.min(9000, Math.max(4000, 2500 + captions.length * 25));
     const t = window.setTimeout(() => onContinue(), ms);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [awaitingNoBlock, expectsAnswer, turnSeq]);
+  }, [awaitingNoBlock, expectsAnswer, autoAdvance, turnSeq]);
 
   return (
     <div className="app classroom" style={{ ['--accent-h' as any]: hue, ...subjectStyle(subjectKey) }}>
@@ -323,11 +331,13 @@ export function Classroom({ lessonId }: { lessonId: string }) {
                 </div>
               </>
             ) : (
-              /* Explanation turn — no question. Just Continue (and it auto-advances
-                 after a short pause so the lesson keeps flowing). */
+              /* Explanation turn — no question. The tutor decides whether the lesson
+                 flows on automatically or waits for the kid to confirm ("I got it!"). */
               <div className="col center" style={{ gap: 6 }}>
-                <button className="btn lg" onClick={onContinue}>Continue ▶</button>
-                <span className="muted small">continuing automatically…</span>
+                <button className="btn lg" onClick={onContinue}>
+                  {continueLabel || (autoAdvance ? 'Continue ▶' : 'I got it! ▶')}
+                </button>
+                {autoAdvance && <span className="muted small">continuing automatically…</span>}
               </div>
             )}
           </div>

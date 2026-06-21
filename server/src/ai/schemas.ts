@@ -79,6 +79,8 @@ export const TurnSchema = z
     assessment: z.string().default(''),
     answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na').catch('na'),
     awaitResponse: z.boolean().default(false).catch(false),
+    autoAdvance: z.boolean().optional().catch(undefined),
+    continueLabel: z.string().optional().catch(undefined),
     beatComplete: z.boolean().default(false),
     // Models often emit `null` for "no value" on optional fields — treat any
     // invalid optional as absent rather than failing the turn.

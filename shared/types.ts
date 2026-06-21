@@ -392,7 +392,9 @@ export interface TeacherTurn {
   blocks?: LessonBlock[]; // the UI element(s) this turn — e.g. a display block to explain + an interactive block to check
   assessment: string; // private read on how it's going (not spoken)
   answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)
-  awaitResponse?: boolean; // true when this turn asks an open question (no interactive block) and waits for a spoken/typed reply; false/absent = just explaining, learner taps Continue
+  awaitResponse?: boolean; // true when this turn asks an open question (no interactive block) and waits for a spoken/typed reply; false/absent = just explaining
+  autoAdvance?: boolean; // explanation turns only: true/absent = flow on automatically; false = wait for the learner to actively continue (e.g. confirm they understood a key idea)
+  continueLabel?: string; // explanation turns only: the advance button's text, e.g. "I got it!" / "Next" (default "Continue")
   beatComplete: boolean; // true when the current beat's success criteria are met
   memoryUpdates: MemoryUpdate[];
   concern?: string; // set if the kid said something a parent should see
