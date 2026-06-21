@@ -1,22 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-> ## 🏫 PROJECT NORTH STAR — READ FIRST
->
-> **The overarching goal of this project is to build the best international primary school
-> in the world: a complete, year-by-year curriculum (ages 6–12), every subject, with the
-> best lessons, best books, and best teaching methods — so every child becomes the most
-> successful, capable, curious, and well-rounded version of themselves.**
->
-> Every chat, question, file, and decision serves that vision. Before doing any work, read
-> **[`SCHOOL-CHARTER.md`](./SCHOOL-CHARTER.md)** and frame the task against it: which
-> **year**, which **subject**, which **unit/lesson**, and does it move us toward the best
-> school for the most successful kid? Default to *best, not fast*. The charter governs the
-> educational vision, curriculum structure, and teaching quality; the rest of this file
-> governs the Classai codebase that will help deliver it.
-
----
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
 
 ## What this is
 
@@ -43,7 +27,7 @@ Classai is a private, character-driven AI homeschool tutor. Parents supply a cur
 
 **Provider abstraction** (`server/src/ai/provider.ts`): `getBrain()` returns a `Brain` with a single `generate()` method, built from the user's stored auth profile (`auth-store.ts`). Paths:
 - **Anthropic API key / OpenAI API key / Ollama** — standard SDK calls.
-- **Anthropic "reuse local Claude login"** — reads the local `claude` CLI token (creds file → macOS Keychain → legacy `ant`), used as an OAuth bearer. See `oauth.ts:getAnthropicLocalToken`.
+- **Anthropic "reuse local Codex login"** — reads the local `Codex` CLI token (creds file → macOS Keychain → legacy `ant`), used as an OAuth bearer. See `oauth.ts:getAnthropicLocalToken`.
 - **OpenAI "Sign in with ChatGPT"** — `codexBrain` hits the **Codex subscription backend** (`chatgpt.com/backend-api/codex/responses`), NOT the standard API. It's the Responses API over SSE, requires `stream:true` + `store:false` + Codex headers (`originator: codex_cli_rs`, `OpenAI-Beta: responses=experimental`, `session_id`, codex User-Agent, `chatgpt-account-id`), and only serves **current plan models** (default `gpt-5.5`; older names like gpt-4o are rejected). Runs on the user's ChatGPT plan, no API billing, but rate-limited (~15–80 gpt-5.5 msgs / 5h) and undocumented/best-effort.
 
 Both subscription paths are a ToS gray area and depend on unofficial endpoints — treat as best-effort.
@@ -76,17 +60,17 @@ Both subscription paths are a ToS gray area and depend on unofficial endpoints �
 
 ## Session handoff (as of 2026-06-21)
 
-Active branch: **`claude/brain-connect-codex-classroom`** (off `main`). Committed locally; **not pushed / no PR yet**.
+Active branch: **`Codex/brain-connect-codex-classroom`** (off `main`). Committed locally; **not pushed / no PR yet**.
 
 **What works now (verified end-to-end):**
-- Connect-your-brain: Claude "reuse local login" (reads the real `claude` token), API-key, and OpenAI "Sign in with ChatGPT" → Codex `gpt-5.5` (free on the user's plan). Connect verifies with a real generation; Test button reports Working/Failed.
-- Full lesson pipeline (learner → AI syllabus → AI lesson → live teaching turn) on Claude (opus-4-8) and Codex gpt-5.5.
+- Connect-your-brain: Codex "reuse local login" (reads the real `Codex` token), API-key, and OpenAI "Sign in with ChatGPT" → Codex `gpt-5.5` (free on the user's plan). Connect verifies with a real generation; Test button reports Working/Failed.
+- Full lesson pipeline (learner → AI syllabus → AI lesson → live teaching turn) on Codex (opus-4-8) and Codex gpt-5.5.
 - Classroom redesign: speech bubble w/ word-by-word reveal, talking avatar, activity-forward layout.
 - Voice answers: on-device Whisper capture, live mic meter, top-bar 🎙️ mic on/off + "● Listening…" pill, universal answer bar (mic+type) on no-block turns, Skip/Continue.
 
 **Fixed this session (2026-06-19→21) — all verified:**
 - **Mic "nothing opens" hang** (`client/src/screens/Classroom.tsx`): the spoken-turn path relied entirely on TTS `onEnd` to advance `speaking → awaiting`; browser SpeechSynthesis often never fires it, stranding the lesson so no answer UI/mic ever appeared. Added a **watchdog** timer in `present()` (idempotent `afterSpeech`) that force-advances even if TTS never reports done. Also **auto-opens the mic** once per turn when the tutor is waiting (`AnswerInput` in `client/src/blocks/BlockView.tsx`), so it actually listens without a hidden tap. Verified with Playwright (Chromium has no voices → reproduces the hang).
-- **Anthropic OAuth 401** (`server/src/ai/provider.ts` `anthropicBrain`): Claude-login/OAuth tokens are only accepted when the request's **first system block is exactly** `"You are Claude Code, Anthropic's official CLI for Claude."` Without it → 401/429 even with a valid token. Fix: for `local_login`/oauth path only, send `system` as `[identity, appPrompt]` array (api_key path unchanged). Token is read live from macOS **Keychain** ("Claude Code-credentials"), not the creds file. Verified via real `getBrain('anthropic:default').generate()`.
+- **Anthropic OAuth 401** (`server/src/ai/provider.ts` `anthropicBrain`): Codex-login/OAuth tokens are only accepted when the request's **first system block is exactly** `"You are Codex, Anthropic's official CLI for Codex."` Without it → 401/429 even with a valid token. Fix: for `local_login`/oauth path only, send `system` as `[identity, appPrompt]` array (api_key path unchanged). Token is read live from macOS **Keychain** ("Codex-credentials"), not the creds file. Verified via real `getBrain('anthropic:default').generate()`.
 
 **AI prompt monitor (Parent area) — new feature, complete & verified:**
 - Parent route **`/#/parent/prompts`** (`client/src/screens/ParentPrompts.tsx`, linked from ParentDashboard "🔎 AI prompt monitor"). Two tabs: **Live activity** (real prompts sent during sessions — system+messages+reply, labeled, newest-first, refresh/clear) and **Prompt templates** (the 9 fixed templates rendered with a sample learner "Alex").
@@ -101,3 +85,5 @@ Active branch: **`claude/brain-connect-codex-classroom`** (off `main`). Committe
 - No **delete-course** endpoint — QA left junk courses on learner "Leo".
 - OpenAI "Sign in with ChatGPT" only works for plans including Codex (current gpt-5.x); older model names rejected.
 - No linter/test runner; `npm run typecheck` is the only check.
+
+## Imported Claude Cowork project instructions
