@@ -354,6 +354,19 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .beats .dot.done { background: var(--accent); }
 .beats .dot.now { background: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
 
+/* ===== kid home: today + grouped classes ===== */
+.section-head { display: flex; align-items: center; gap: 9px; font-size: 1.25rem; margin-bottom: 12px; }
+.today-list { display: flex; flex-direction: column; gap: 12px; }
+.today-row {
+  display: flex; align-items: center; gap: 14px; background: var(--surface);
+  border: 1px solid var(--line); border-left: 5px solid var(--subject); border-radius: 18px;
+  padding: 16px 18px; box-shadow: var(--shadow-sm);
+}
+.today-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--subject); flex: none; }
+.today-main { flex: 1; min-width: 0; }
+.today-title { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; }
+.class-card { border-top: 4px solid var(--subject); }
+
 /* ===== weekly schedule editor ===== */
 .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 12px; margin-top: 22px; }
 @media (max-width: 900px) { .week-grid { grid-template-columns: repeat(2, 1fr); } }
