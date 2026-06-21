@@ -25,10 +25,14 @@ function materialContext(classId: string, lessonId?: string): string {
   const materials = db.knowledgeMaterials.listByClass(classId)
     .filter((material) => !material.lessonId || material.lessonId === lessonId)
     .filter((material) => material.status === 'ready' && material.rawText.trim());
-  if (!materials.length) return '';
-  return `\n\nPARENT-APPROVED KNOWLEDGE (ground the plan in this material):\n${materials
+  const activities = db.aiSuggestions.listByClass(classId).filter((suggestion) => suggestion.status === 'approved');
+  const knowledge = materials.length ? `\n\nPARENT-APPROVED KNOWLEDGE (ground the plan in this material):\n${materials
     .map((material) => `--- ${material.title} ---\n${material.rawText}`)
-    .join('\n\n')}`;
+    .join('\n\n')}` : '';
+  const activityLibrary = activities.length ? `\n\nPARENT-APPROVED ACTIVITY LIBRARY (reuse when it fits):\n${activities
+    .map((activity) => `--- ${activity.title}: ${activity.objective} ---\n${JSON.stringify(activity.block)}`)
+    .join('\n\n')}` : '';
+  return (knowledge + activityLibrary).slice(0, 30_000);
 }
 
 function copyLessonMaterials(fromLessonId: string, toLessonId: string): void {

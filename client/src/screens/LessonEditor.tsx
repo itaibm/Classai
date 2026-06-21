@@ -20,7 +20,7 @@ export function LessonEditor({ lessonId }: { lessonId: string }) {
       <div className="container wide">
         {loading && <Loading />}
         {error && <ErrorNote error={error} onRetry={reload} />}
-        {data && <Editor initial={data.lesson} materials={data.materials} />}
+        {data && <Editor key={data.lesson.id} initial={data.lesson} materials={data.materials} />}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { LessonKind } from '@shared/types';
+import type { AISuggestion, LessonKind } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { ErrorNote, Loading, Toast, TopBar, useAsync, useToast } from '../lib/ui.tsx';
@@ -144,13 +144,12 @@ export function ClassDetail({ classId }: { classId: string }) {
                 <h3>Activities suggested by live teaching</h3>
                 {data.suggestions.filter((suggestion) => suggestion.status === 'draft').length === 0 && <p className="muted">Successful live activities will appear here for review.</p>}
                 {data.suggestions.filter((suggestion) => suggestion.status === 'draft').map((suggestion) => (
-                  <div key={suggestion.id} className="kv">
-                    <div><strong>{suggestion.title}</strong><div className="muted small">{suggestion.objective} · {suggestion.block.type}</div></div>
-                    <span className="row" style={{ gap: 6 }}>
-                      <button className="btn small" onClick={() => work(() => api.approveSuggestion(suggestion.id, suggestion.lessonId), 'Activity approved')}>Approve</button>
-                      <button className="btn ghost small" onClick={() => work(() => api.discardSuggestion(suggestion.id), 'Suggestion discarded')}>Discard</button>
-                    </span>
-                  </div>
+                  <SuggestionReview key={suggestion.id} suggestion={suggestion} onDone={reload} onToast={show} />
+                ))}
+                <h4 style={{ marginTop: 20 }}>Approved activity library</h4>
+                {data.suggestions.filter((suggestion) => suggestion.status === 'approved').length === 0 && <p className="muted small">No reusable activities approved yet.</p>}
+                {data.suggestions.filter((suggestion) => suggestion.status === 'approved').map((suggestion) => (
+                  <div key={suggestion.id} className="kv"><span><strong>{suggestion.title}</strong><div className="muted small">{suggestion.objective} · {suggestion.block.type}</div></span><span className="pill good">Reusable</span></div>
                 ))}
               </div>
             )}
@@ -177,6 +176,42 @@ export function ClassDetail({ classId }: { classId: string }) {
         )}
       </div>
       <Toast msg={msg} />
+    </div>
+  );
+}
+
+function SuggestionReview({ suggestion, onDone, onToast }: {
+  suggestion: AISuggestion;
+  onDone: () => void;
+  onToast: (message: string) => void;
+}) {
+  const [title, setTitle] = useState(suggestion.title);
+  const [objective, setObjective] = useState(suggestion.objective);
+  const [busy, setBusy] = useState(false);
+
+  async function act(action: 'save' | 'approve' | 'discard') {
+    setBusy(true);
+    try {
+      await api.updateSuggestion(suggestion.id, { title, objective });
+      if (action === 'approve') await api.approveSuggestion(suggestion.id, suggestion.lessonId);
+      if (action === 'discard') await api.discardSuggestion(suggestion.id);
+      onToast(action === 'save' ? 'Suggestion saved' : action === 'approve' ? 'Activity approved for reuse' : 'Suggestion discarded');
+      onDone();
+    } catch (cause: any) {
+      onToast(cause.message || 'Could not update suggestion');
+    } finally { setBusy(false); }
+  }
+
+  return (
+    <div className="inset" style={{ marginBottom: 10 }}>
+      <label className="field">Activity title<input value={title} onChange={(event) => setTitle(event.target.value)} /></label>
+      <label className="field">Learning objective<input value={objective} onChange={(event) => setObjective(event.target.value)} /></label>
+      <div className="muted small" style={{ marginBottom: 8 }}>Activity type: {suggestion.block.type}</div>
+      <span className="row" style={{ gap: 6 }}>
+        <button className="btn ghost small" disabled={busy} onClick={() => act('save')}>Save</button>
+        <button className="btn small" disabled={busy} onClick={() => act('approve')}>Approve for reuse</button>
+        <button className="btn danger small" disabled={busy} onClick={() => act('discard')}>Discard</button>
+      </span>
     </div>
   );
 }

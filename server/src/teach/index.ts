@@ -139,10 +139,14 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   const materials = db.knowledgeMaterials.listByClass(course.id)
     .filter((material) => !material.lessonId || material.lessonId === lesson.id)
     .filter((material) => material.status === 'ready' && material.rawText.trim());
+  const activities = db.aiSuggestions.listByClass(course.id).filter((suggestion) => suggestion.status === 'approved');
   const knowledge = materials.length
     ? `\n\nPARENT-APPROVED KNOWLEDGE — use and adapt this; do not contradict it:\n${materials.map((material) => `--- ${material.title} ---\n${material.rawText}`).join('\n\n')}`
     : '';
-  const system = teachSystemPrompt(kid, course, lesson, profile, model) + knowledge;
+  const activityLibrary = activities.length
+    ? `\n\nPARENT-APPROVED ACTIVITY LIBRARY — reuse or adapt these when helpful:\n${activities.map((activity) => `--- ${activity.title}: ${activity.objective} ---\n${JSON.stringify(activity.block)}`).join('\n\n')}`
+    : '';
+  const system = teachSystemPrompt(kid, course, lesson, profile, model) + (knowledge + activityLibrary).slice(0, 30_000);
   const messages = buildMessages(session, kid, lesson, returning, directive);
 
   const { blockError, ...parsedTurn } = await generateStructured(brain, TurnSchema, {
