@@ -380,9 +380,10 @@ function ShortText({ block, active, onComplete }: { block: ShortTextBlock; activ
 /** Reusable mic + typing answer input. Used by the Speak block AND by the
  *  Classroom's always-available answer bar, so the kid can always respond when
  *  the tutor is waiting — even on turns that carry no interactive block. */
-export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placeholder = 'Type your answer…' }: {
+export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placeholder = 'Type your answer…', autoMic = false }: {
   active: boolean; micEnabled?: boolean; onMicState?: (listening: boolean) => void;
   onSubmit: (text: string) => void; placeholder?: string;
+  autoMic?: boolean; // open the mic automatically (only for a deliberate "say it aloud" task)
 }) {
   const [text, setText] = useState('');
   const [status, setStatus] = useState<'idle' | 'recording' | 'transcribing'>('idle');
@@ -400,17 +401,17 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   // Tell the Classroom top bar whether we're actively listening.
   useEffect(() => { onMicState?.(status === 'recording'); }, [status, onMicState]);
   useEffect(() => () => onMicState?.(false), [onMicState]); // clear on unmount (turn change)
-  // Open the mic automatically the moment the tutor is waiting — the kid
-  // shouldn't have to discover a button. Once per turn only: if they stop it,
-  // we don't grab the mic again until the next turn (this component remounts).
+  // Open the mic automatically ONLY for a deliberate speaking task (autoMic).
+  // Otherwise the mic stays off until the kid taps it — never "default on" after
+  // an explanation turn. Once per turn: if they stop it, we don't re-grab.
   useEffect(() => {
-    if (autoStartedRef.current) return;
+    if (!autoMic || autoStartedRef.current) return;
     if (active && micAvailable && status === 'idle' && !typeMode && !text && !error) {
       autoStartedRef.current = true;
       start();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [active, micAvailable, status, typeMode]);
+  }, [autoMic, active, micAvailable, status, typeMode]);
   // If the mic is switched off mid-recording, stop cleanly.
   useEffect(() => {
     if (!micAvailable && (status === 'recording' || recRef.current)) {
@@ -546,6 +547,7 @@ function Speak({ block, active, onComplete, micEnabled, onMicState }: { block: S
         active={active}
         micEnabled={micEnabled}
         onMicState={onMicState}
+        autoMic
         onSubmit={(t) => onComplete({ text: `Said: “${t}”` })}
       />
     </div>

@@ -224,6 +224,7 @@ const TURN_CONTRACT = `On EVERY turn return ONLY one JSON object (no prose, no c
   "block": { ... },            // OPTIONAL: a single block (omit when just talking)
   "blocks": [ {display}, {interactive} ], // OPTIONAL: to explain AND check in one turn — a display block then an interactive block (at most one of each). Use this OR "block", not both.
   "answerEval": "correct"|"partial"|"incorrect"|"na",  // judge the learner's LAST reply ("na" if none yet)
+  "awaitResponse": boolean,    // true ONLY when this turn asks the learner an open question and waits for their spoken/typed reply AND you attached no interactive block. When you're just explaining/showing and they should tap Continue, set false. (Interactive blocks collect the answer themselves — set false then.)
   "beatComplete": boolean,     // true once THIS beat's success criteria are met
   "assessment": string,        // private, NOT spoken: your read on their thinking right now
   "memoryUpdates": [            // what you learned about the learner this turn (can be empty)

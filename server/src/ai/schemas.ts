@@ -78,6 +78,7 @@ export const TurnSchema = z
     blocks: z.unknown().optional(), // multi-block turn (explain display + check)
     assessment: z.string().default(''),
     answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na').catch('na'),
+    awaitResponse: z.boolean().default(false).catch(false),
     beatComplete: z.boolean().default(false),
     // Models often emit `null` for "no value" on optional fields — treat any
     // invalid optional as absent rather than failing the turn.

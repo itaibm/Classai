@@ -392,6 +392,7 @@ export interface TeacherTurn {
   blocks?: LessonBlock[]; // the UI element(s) this turn — e.g. a display block to explain + an interactive block to check
   assessment: string; // private read on how it's going (not spoken)
   answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)
+  awaitResponse?: boolean; // true when this turn asks an open question (no interactive block) and waits for a spoken/typed reply; false/absent = just explaining, learner taps Continue
   beatComplete: boolean; // true when the current beat's success criteria are met
   memoryUpdates: MemoryUpdate[];
   concern?: string; // set if the kid said something a parent should see
