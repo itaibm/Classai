@@ -75,6 +75,7 @@ export const TurnSchema = z
     // Validated against BlockSchema in the transform below — a malformed block
     // must not fail the whole turn, but it must also not vanish silently.
     block: z.unknown().optional(),
+    blocks: z.unknown().optional(), // multi-block turn (explain display + check)
     assessment: z.string().default(''),
     answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na').catch('na'),
     beatComplete: z.boolean().default(false),
@@ -98,17 +99,28 @@ export const TurnSchema = z
     lessonComplete: z.boolean().default(false)
   })
   .transform((t) => {
-    // Drop a malformed block but keep the speech — and make the failure
-    // visible: log it server-side and surface `blockError` so the lesson
-    // director can feed a corrective hint back to the model next turn
-    // (otherwise the model keeps promising a visual that never renders).
-    if (t.block == null) return { ...t, block: undefined, blockError: undefined };
-    const parsed = BlockSchema.safeParse(t.block);
-    if (parsed.success) return { ...t, block: parsed.data, blockError: undefined };
-    const blockError = summarizeZodError(parsed.error);
-    console.warn('[TurnSchema] dropping malformed block:', blockError);
-    console.warn('[TurnSchema] raw block was:', JSON.stringify(t.block)?.slice(0, 600));
-    return { ...t, block: undefined, blockError };
+    // A turn may carry one block (`block`) or up to two (`blocks` — e.g. a display
+    // block to explain + an interactive block to check). Validate each tolerantly:
+    // drop malformed ones but keep the speech, and surface `blockError` so the
+    // director can feed a corrective hint back next turn.
+    const raw: unknown[] = [];
+    if (Array.isArray((t as { blocks?: unknown }).blocks)) raw.push(...((t as { blocks: unknown[] }).blocks));
+    if (t.block != null) raw.push(t.block);
+    const blocks: z.infer<typeof BlockSchema>[] = [];
+    let blockError: string | undefined;
+    for (const b of raw) {
+      if (b == null) continue;
+      if (blocks.length >= 2) break; // cap: at most explain + check per turn
+      const parsed = BlockSchema.safeParse(b);
+      if (parsed.success) {
+        blocks.push(parsed.data);
+      } else {
+        blockError = summarizeZodError(parsed.error);
+        console.warn('[TurnSchema] dropping malformed block:', blockError);
+        console.warn('[TurnSchema] raw block was:', JSON.stringify(b)?.slice(0, 600));
+      }
+    }
+    return { ...t, block: blocks[0], blocks, blockError };
   });
 
 export const SyllabusSchema = z.object({

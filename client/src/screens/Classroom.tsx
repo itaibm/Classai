@@ -22,7 +22,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const [mouthOpen, setMouthOpen] = useState(0);
   const [captions, setCaptions] = useState('');
   const [shown, setShown] = useState(''); // progressively-revealed portion of captions
-  const [block, setBlock] = useState<LessonBlock | null>(null);
+  const [blocks, setBlocks] = useState<LessonBlock[]>([]);
   const [errMsg, setErrMsg] = useState('');
   const [report, setReport] = useState<LessonReport | null>(null);
   const [subjectKey, setSubjectKey] = useState<string>('');
@@ -118,7 +118,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     stopReveal();
     clearWatchdog();
     setShown('');
-    setBlock(null);
+    setBlocks([]);
     setListening(false);
     try {
       const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
@@ -133,7 +133,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   function present(turn: TeacherTurn, ended: boolean) {
     setEmotion(turn.emotion || 'neutral');
     setCaptions(turn.speech);
-    setBlock(turn.block ?? null);
+    setBlocks(turn.blocks ?? (turn.block ? [turn.block] : []));
     setTurnSeq((n) => n + 1);
     startReveal(turn.speech);
     // Show the bubble immediately — never depend on the TTS engine firing onStart
@@ -177,7 +177,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   async function finish() {
     setPhase('ended');
     setEmotion('celebrating');
-    setBlock(null);
+    setBlocks([]);
     try {
       const { session } = await api.session(sessionRef.current);
       setReport(session.report || null);
@@ -202,7 +202,8 @@ export function Classroom({ lessonId }: { lessonId: string }) {
 
   const hue = kid?.avatar.hue ?? 210;
   const speaking = phase === 'speaking';
-  const interactive = blockIsInteractive(block ?? undefined);
+  const interactiveIdx = blocks.findIndex((b) => blockIsInteractive(b));
+  const interactive = interactiveIdx >= 0;
   const showContinue = phase === 'awaiting' && !interactive;
 
   return (
@@ -266,10 +267,23 @@ export function Classroom({ lessonId }: { lessonId: string }) {
           )}
         </div>
 
-        {/* the tool-belt block for this turn */}
-        {block && (phase === 'speaking' || phase === 'awaiting') && (
+        {/* the tool-belt block(s) for this turn — a display block to explain may be
+            paired with an interactive block to check; render them stacked. */}
+        {blocks.length > 0 && (phase === 'speaking' || phase === 'awaiting') && (
           <div className="block-area">
-            <BlockView key={turnSeq} block={block} active={phase === 'awaiting'} onComplete={onBlockComplete} micEnabled={micOn} onMicState={setListening} />
+            {blocks.map((b, i) => {
+              const isInteractive = i === interactiveIdx;
+              return (
+                <BlockView
+                  key={`${turnSeq}-${i}`}
+                  block={b}
+                  active={isInteractive && phase === 'awaiting'}
+                  onComplete={isInteractive ? onBlockComplete : () => {}}
+                  micEnabled={isInteractive ? micOn : false}
+                  onMicState={isInteractive ? setListening : () => {}}
+                />
+              );
+            })}
           </div>
         )}
 

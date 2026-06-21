@@ -388,7 +388,8 @@ export type AnswerEval = 'correct' | 'partial' | 'incorrect' | 'na';
 export interface TeacherTurn {
   speech: string; // spoken aloud (short, kid-friendly); also shown as captions
   emotion: Emotion;
-  block?: LessonBlock; // the UI element to show/use this turn (from the tool belt)
+  block?: LessonBlock; // back-compat: the first block this turn (blocks[0])
+  blocks?: LessonBlock[]; // the UI element(s) this turn — e.g. a display block to explain + an interactive block to check
   assessment: string; // private read on how it's going (not spoken)
   answerEval: AnswerEval; // judgement of the learner's last reply ('na' if none)
   beatComplete: boolean; // true when the current beat's success criteria are met
