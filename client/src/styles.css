@@ -354,6 +354,30 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .beats .dot.done { background: var(--accent); }
 .beats .dot.now { background: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
 
+/* ===== weekly schedule editor ===== */
+.week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 12px; margin-top: 22px; }
+@media (max-width: 900px) { .week-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .week-grid { grid-template-columns: 1fr; } }
+.week-day {
+  display: flex; flex-direction: column; gap: 10px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 18px; padding: 12px; box-shadow: var(--shadow-sm); min-height: 140px;
+}
+.week-day-name { font-family: var(--font-display); font-weight: 700; font-size: 0.95rem; color: var(--ink); text-align: center; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.week-entries { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.week-empty { text-align: center; padding: 10px 0; }
+.sched-entry { border: 1px solid var(--line); border-left: 4px solid var(--subject); border-radius: 12px; padding: 8px 10px; background: var(--subject-soft); }
+.sched-entry-top { display: flex; align-items: center; gap: 7px; }
+.sched-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--subject); flex: none; }
+.sched-title { font-weight: 700; font-size: 0.9rem; color: var(--subject-ink); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sched-x { border: none; background: none; cursor: pointer; color: var(--muted); font-size: 0.85rem; line-height: 1; }
+.sched-entry-controls { display: flex; align-items: center; gap: 4px; margin-top: 6px; }
+.sched-entry-controls input[type=time] { width: auto; margin: 0; padding: 4px 6px; font-size: 0.8rem; border-radius: 8px; }
+.ord-btn { width: 26px; height: 26px; border-radius: 8px; border: 1px solid var(--line); background: #fff; cursor: pointer; color: var(--subject-ink); font-weight: 700; }
+.ord-btn:disabled { opacity: .35; cursor: default; }
+.add-class-btn { width: 100%; border: 1px dashed var(--line); background: transparent; color: var(--accent-ink); border-radius: 12px; padding: 9px; font-weight: 700; cursor: pointer; font-size: 0.86rem; }
+.add-class-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
+.add-pick { margin: 0; }
+
 /* report / lists */
 .kv { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px dashed var(--line); }
 .kv:last-child { border-bottom: none; }

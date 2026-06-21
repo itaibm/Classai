@@ -63,6 +63,7 @@ export function KidDetail({ kidId }: { kidId: string }) {
               </div>
               <div className="row" style={{ gap: 8 }}>
                 <button className="btn ghost" onClick={() => setEditing((e) => !e)}>{editing ? 'Close' : '✎ Edit'}</button>
+                <button className="btn ghost" onClick={() => navigate(`/parent/kid/${kidId}/schedule`)}>📅 Weekly schedule</button>
                 <button className="btn" onClick={() => navigate(`/learn/${kidId}`)}>Start learning →</button>
               </div>
             </div>
