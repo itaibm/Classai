@@ -532,6 +532,7 @@ export interface KidResponse {
   text: string;
   via: 'block' | 'continue';
   correct?: boolean; // client-side correctness when the block had an answer key
+  confused?: boolean; // learner pressed "I don't get it" — re-explain differently, don't advance
 }
 
 // ===========================================================================

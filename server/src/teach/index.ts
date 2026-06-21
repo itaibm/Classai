@@ -112,7 +112,7 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
   const beat = lesson.plan[beatIdx]!;
   const minutesElapsed = Math.floor((Date.now() - new Date(session.startedAt).getTime()) / 60000);
 
-  const directive = turnDirective({
+  let directive = turnDirective({
     beatNo: beatIdx + 1,
     beatTotal: lesson.plan.length,
     beatKind: beat.kind,
@@ -125,6 +125,14 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
     minutesElapsed,
     softLimitMin: softLimit(lesson)
   });
+
+  // The learner pressed "I don't get it" — they understood neither the words nor the
+  // visual. Override: re-teach the SAME idea a different way, don't advance.
+  if (response?.confused) {
+    directive =
+      'OVERRIDE — the learner just pressed "I DON\'T GET IT" on your last explanation. Do NOT advance the beat and do NOT just repeat yourself. Re-teach the SAME idea a different, simpler way: a fresh analogy or a different VISUAL (e.g. switch a table for an animated whiteboard, or break it into smaller steps), check the one piece they likely missed, and keep it warm and encouraging.\n\n' +
+      directive;
+  }
 
   const brain = await getBrain();
   const system = teachSystemPrompt(kid, course, lesson, profile, model);

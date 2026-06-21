@@ -114,7 +114,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     }
   }
 
-  async function fetchTurn(response?: { text: string; via: 'block' | 'continue'; correct?: boolean }) {
+  async function fetchTurn(response?: { text: string; via: 'block' | 'continue'; correct?: boolean; confused?: boolean }) {
     setPhase('thinking');
     setEmotion('thinking');
     setCaptions('');
@@ -205,6 +205,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const onContinue = () => {
     speakRef.current?.stop();
     fetchTurn({ text: '(continue)', via: 'continue' });
+  };
+  // "I don't get it" — ask the tutor to re-explain the same idea a different way.
+  const onConfused = () => {
+    speakRef.current?.stop();
+    fetchTurn({ text: "I don't get it yet — can you explain it a different way?", via: 'continue', confused: true });
   };
   // Free-text / spoken answer when the turn has no interactive block.
   const onAnswer = (t: string) => {
@@ -333,10 +338,13 @@ export function Classroom({ lessonId }: { lessonId: string }) {
             ) : (
               /* Explanation turn — no question. The tutor decides whether the lesson
                  flows on automatically or waits for the kid to confirm ("I got it!"). */
-              <div className="col center" style={{ gap: 6 }}>
-                <button className="btn lg" onClick={onContinue}>
-                  {continueLabel || (autoAdvance ? 'Continue ▶' : 'I got it! ▶')}
-                </button>
+              <div className="col center" style={{ gap: 8 }}>
+                <div className="row center" style={{ gap: 10 }}>
+                  <button className="btn lg" onClick={onContinue}>
+                    {continueLabel || (autoAdvance ? 'Continue ▶' : 'I got it! ▶')}
+                  </button>
+                  <button className="btn ghost" onClick={onConfused}>🤔 I don’t get it</button>
+                </div>
                 {autoAdvance && <span className="muted small">continuing automatically…</span>}
               </div>
             )}
