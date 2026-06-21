@@ -116,6 +116,7 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
     beatTotal: lesson.plan.length,
     beatKind: beat.kind,
     beatGoal: beat.goal,
+    beatNote: beat.note,
     successCriteria: beat.successCriteria,
     check: beat.check,
     working: w,
