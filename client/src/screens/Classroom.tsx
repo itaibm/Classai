@@ -249,8 +249,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
           {phase === 'error' && <div className="captions"><span className="muted">{errMsg}</span></div>}
           {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions && (
             <div className="speech-bubble">
-              {shown}
-              {phase === 'speaking' && shown.length < captions.length && <span className="caret">▌</span>}
+              {kid && <span className="speech-name">{kid.avatar.character.charAt(0).toUpperCase() + kid.avatar.character.slice(1)}</span>}
+              <div>
+                {shown}
+                {phase === 'speaking' && shown.length < captions.length && <span className="caret">▌</span>}
+              </div>
             </div>
           )}
 

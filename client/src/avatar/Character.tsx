@@ -84,9 +84,13 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
   const eyeY = 96 + gaze.y * 0.4;
 
   // arm transforms by gesture (spring-transitioned via CSS)
+  // A wave only reads right while the tutor is greeting/talking; when idle it
+  // freezes the hand up by the cheek and looks "stuck", so relax it to rest.
+  const gesture: Pose['gesture'] = !speaking && pose.gesture === 'wave' ? 'rest' : pose.gesture;
+  const waving = speaking && gesture === 'wave';
   const armSpring = 'transform 360ms cubic-bezier(.34,1.56,.64,1)';
-  const leftArm = armTransform(pose.gesture, 'left', speaking);
-  const rightArm = armTransform(pose.gesture, 'right', speaking);
+  const leftArm = armTransform(gesture, 'left', speaking);
+  const rightArm = armTransform(gesture, 'right', speaking);
 
   return (
     <div className={`avatar-wrap${speaking ? ' talking' : ''}`}>
@@ -121,7 +125,10 @@ export function Character({ character, hue, emotion, mouthOpen, speaking }: Prop
             <path d="M86 184 q-30 6 -34 40" fill="none" stroke={body} strokeWidth="15" strokeLinecap="round" />
             <circle cx="52" cy="224" r="10" fill={face} stroke={faceEdge} strokeWidth="2.5" />
           </g>
-          <g style={{ transition: armSpring, transformOrigin: '154px 184px', transform: rightArm }}>
+          <g
+            className={waving ? 'wave-arm' : ''}
+            style={waving ? { transformOrigin: '154px 184px' } : { transition: armSpring, transformOrigin: '154px 184px', transform: rightArm }}
+          >
             <path d="M154 184 q30 6 34 40" fill="none" stroke={body} strokeWidth="15" strokeLinecap="round" />
             <circle cx="188" cy="224" r="10" fill={face} stroke={faceEdge} strokeWidth="2.5" />
           </g>
