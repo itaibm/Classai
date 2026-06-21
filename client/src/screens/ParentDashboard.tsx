@@ -6,7 +6,7 @@ import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast } from '../lib/ui
 import { Character } from '../avatar/Character.tsx';
 import { InterestsInput } from '../components/InterestsInput.tsx';
 import { subjectColor } from '../lib/subject.ts';
-import type { CourseCard } from '../lib/api.ts';
+import type { ClassCard } from '../lib/api.ts';
 
 const CHARACTERS: AvatarConfig['character'][] = ['sage', 'nova', 'pip'];
 
@@ -18,10 +18,10 @@ const greeting = () => {
 export function ParentDashboard() {
   const { data, loading, error, reload } = useAsync(async () => {
     const [{ kids }, { profiles }] = await Promise.all([api.kids(), api.brainProfiles()]);
-    const courseLists = await Promise.all(kids.map((k) => api.courses(k.id).then((r) => r.courses).catch(() => [] as CourseCard[])));
-    const coursesByKid: Record<string, CourseCard[]> = {};
-    kids.forEach((k, i) => { coursesByKid[k.id] = courseLists[i] ?? []; });
-    return { kids, profiles, coursesByKid };
+    const classLists = await Promise.all(kids.map((k) => api.kidClasses(k.id).then((r) => r.classes).catch(() => [] as ClassCard[])));
+    const classesByKid: Record<string, ClassCard[]> = {};
+    kids.forEach((k, i) => { classesByKid[k.id] = classLists[i] ?? []; });
+    return { kids, profiles, classesByKid };
   });
   const { msg, show } = useToast();
 
@@ -67,6 +67,7 @@ export function ParentDashboard() {
             <span className="muted">Manage learners, classes, schedules, and reports.</span>
           </div>
           <div className="row" style={{ gap: 8 }}>
+            <button className="btn" onClick={() => navigate('/parent/classes')}>📚 Class library</button>
             <button className="btn ghost" onClick={() => navigate('/parent/prompts')}>🔎 AI prompt monitor</button>
             <button className="btn ghost" onClick={() => navigate('/connect')}>
               {brainConnected ? '⚙ Manage AI brain' : '⚡ Connect AI brain'}
@@ -95,7 +96,8 @@ export function ParentDashboard() {
                   </li>
                   <li>
                     <span className="step-mark">3</span>
-                    <span className="grow"><strong>Create a class</strong><div className="muted small">Open a learner and add a subject (paste a curriculum or let Classai build one).</div></span>
+                    <span className="grow"><strong>Create a shared class</strong><div className="muted small">Build it once in the class library, then enroll one or more learners.</div></span>
+                    <button className="btn small" onClick={() => navigate('/parent/classes')}>Open library</button>
                   </li>
                 </ol>
               </div>
@@ -104,7 +106,7 @@ export function ParentDashboard() {
             <h3 style={{ marginTop: 22 }}>Learners</h3>
             <div className="grid cols-2">
               {data.kids.map((k) => {
-                const courses = data.coursesByKid[k.id] ?? [];
+                const courses = data.classesByKid[k.id] ?? [];
                 return (
                   <div key={k.id} className="card learner-card" style={{ ['--accent-h' as any]: k.avatar.hue }} onClick={() => navigate(`/parent/kid/${k.id}`)}>
                     <div className="row" style={{ alignItems: 'center', gap: 14 }}>
@@ -120,10 +122,10 @@ export function ParentDashboard() {
                     {courses.length > 0 && (
                       <div className="subject-rows">
                         {courses.slice(0, 4).map((c) => (
-                          <div key={c.course.id} className="subject-row">
-                            <span className="today-dot" style={{ background: subjectColor(c.course.subjectKey).accent }} />
-                            <span className="subject-name">{c.course.title}</span>
-                            <span className="bar" style={{ ['--subject' as any]: subjectColor(c.course.subjectKey).accent }}><span style={{ width: `${Math.round(c.progress.completion * 100)}%` }} /></span>
+                          <div key={c.classDefinition.id} className="subject-row">
+                            <span className="today-dot" style={{ background: subjectColor(c.classDefinition.subjectKey).accent }} />
+                            <span className="subject-name">{c.classDefinition.yearName} · {c.classDefinition.title}</span>
+                            <span className="bar" style={{ ['--subject' as any]: subjectColor(c.classDefinition.subjectKey).accent }}><span style={{ width: `${Math.round(c.progress.completion * 100)}%` }} /></span>
                             <span className="muted small" style={{ width: 34, textAlign: 'right' }}>{Math.round(c.progress.completion * 100)}%</span>
                           </div>
                         ))}

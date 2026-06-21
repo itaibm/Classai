@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { AvatarConfig } from '@shared/types';
-import { api, type CourseCard } from '../lib/api.ts';
+import { api, type ClassCard } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast, masteryPill } from '../lib/ui.tsx';
 import { Character } from '../avatar/Character.tsx';
@@ -11,36 +11,18 @@ const CHARACTERS: AvatarConfig['character'][] = ['sage', 'nova', 'pip'];
 
 export function KidDetail({ kidId }: { kidId: string }) {
   const { data, loading, error, reload } = useAsync(async () => {
-    const [{ kid }, { courses }, mem, { sessions }, { profiles }] = await Promise.all([
+    const [{ kid }, { classes }, mem, { sessions }] = await Promise.all([
       api.kid(kidId),
-      api.courses(kidId),
+      api.kidClasses(kidId),
       api.memory(kidId),
-      api.sessions(kidId),
-      api.brainProfiles()
+      api.sessions(kidId)
     ]);
-    return { kid, courses, model: mem.model, episodes: mem.episodes, sessions, brainConnected: profiles.some((p) => p.connected) };
+    return { kid, classes, model: mem.model, episodes: mem.episodes, sessions };
   }, [kidId]);
   const { msg, show } = useToast();
 
-  const [subject, setSubject] = useState('');
-  const [grade, setGrade] = useState('');
-  const [curriculum, setCurriculum] = useState('');
-  const [busy, setBusy] = useState(false);
   const [showReport, setShowReport] = useState<string>('');
   const [editing, setEditing] = useState(false);
-
-  async function addClass() {
-    if (!subject.trim()) return show('Enter a subject');
-    setBusy(true);
-    try {
-      const { course } = await api.createCourse(kidId, { subject: subject.trim(), gradeLevel: grade, curriculum });
-      navigate(`/parent/course/${course.id}`);
-    } catch (e: any) {
-      show(e.message || 'Could not create class');
-    } finally {
-      setBusy(false);
-    }
-  }
 
   const hue = data?.kid.avatar.hue ?? 210;
 
@@ -74,12 +56,12 @@ export function KidDetail({ kidId }: { kidId: string }) {
             {/* Classes */}
             <h3 style={{ marginTop: 24 }}>Classes</h3>
             <div className="grid cols-2">
-              {data.courses.map((c: CourseCard) => (
-                <div key={c.course.id} className="card class-card" style={{ cursor: 'pointer', ...subjectStyle(c.course.subjectKey) }} onClick={() => navigate(`/parent/course/${c.course.id}`)}>
+              {data.classes.map((c: ClassCard) => (
+                <div key={c.classDefinition.id} className="card class-card" style={{ cursor: 'pointer', ...subjectStyle(c.classDefinition.subjectKey) }} onClick={() => navigate(`/parent/class/${c.classDefinition.id}`)}>
                   <div className="row" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
                     <span className="row" style={{ gap: 8, alignItems: 'center' }}>
-                      <span className="today-dot" style={{ background: subjectColor(c.course.subjectKey).accent }} />
-                      <strong>{c.course.title}</strong>
+                      <span className="today-dot" style={{ background: subjectColor(c.classDefinition.subjectKey).accent }} />
+                      <strong>{c.classDefinition.yearName} · {c.classDefinition.title}</strong>
                     </span>
                     <span className="muted small">{Math.round(c.progress.completion * 100)}%</span>
                   </div>
@@ -90,27 +72,9 @@ export function KidDetail({ kidId }: { kidId: string }) {
             </div>
 
             <div className="card" style={{ marginTop: 14 }}>
-              <h3>Add a class</h3>
-              {!data.brainConnected ? (
-                <div className="banner warn">
-                  Connect an AI brain first so Classai can build the syllabus and teach.{' '}
-                  <button className="btn small" onClick={() => navigate('/connect')}>Connect a brain</button>
-                </div>
-              ) : (
-                <>
-                  <div className="row">
-                    <label className="field grow">Subject<input type="text" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder="e.g. Pre-Algebra, Biology, Spanish" /></label>
-                    <label className="field grow">Grade / level<input type="text" value={grade} onChange={(e) => setGrade(e.target.value)} placeholder={data.kid.gradeLevel || '7th grade'} /></label>
-                  </div>
-                  <label className="field">
-                    Curriculum <span className="hint">(paste a syllabus, a textbook's table of contents, or describe what to cover — optional)</span>
-                    <textarea value={curriculum} onChange={(e) => setCurriculum(e.target.value)} placeholder="Leave blank to let Classai build a standard syllabus." />
-                  </label>
-                  <button className="btn" disabled={busy} onClick={addClass}>
-                    {busy ? <span className="row" style={{ gap: 8 }}><span className="spinner" /> Building syllabus…</span> : 'Create class'}
-                  </button>
-                </>
-              )}
+              <h3>Shared class enrollment</h3>
+              <p className="muted small">Classes now live in the parent library. Open a class to enroll or remove {data.kid.name}.</p>
+              <button className="btn" onClick={() => navigate('/parent/classes')}>Open class library</button>
             </div>
 
             {/* Long-term memory */}

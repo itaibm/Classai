@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import type { Course, ScheduleEntry, Weekday, WeeklySchedule } from '@shared/types';
+import type { ClassDefinition, ScheduleEntry, Weekday, WeeklySchedule } from '@shared/types';
 import { WEEKDAYS } from '@shared/types';
-import { api, type CourseCard } from '../lib/api.ts';
+import { api, type ClassCard } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync, useToast, Toast } from '../lib/ui.tsx';
 import { subjectStyle } from '../lib/subject.ts';
@@ -17,10 +17,10 @@ const emptyDays = (): DayMap => ({ mon: [], tue: [], wed: [], thu: [], fri: [], 
 
 export function ScheduleEditor({ kidId }: { kidId: string }) {
   const { data, loading, error, reload } = useAsync(async () => {
-    const [{ kid }, { courses }, { schedule }] = await Promise.all([
-      api.kid(kidId), api.courses(kidId), api.schedule(kidId),
+    const [{ kid }, { classes }, { schedule }] = await Promise.all([
+      api.kid(kidId), api.kidClasses(kidId), api.schedule(kidId),
     ]);
-    return { kid, courses, schedule };
+    return { kid, classes, schedule };
   }, [kidId]);
   const { msg, show } = useToast();
 
@@ -33,14 +33,14 @@ export function ScheduleEditor({ kidId }: { kidId: string }) {
     if (data?.schedule) setDays({ ...emptyDays(), ...data.schedule.days });
   }, [data?.schedule]);
 
-  const courseById = (id: string): Course | undefined => data?.courses.find((c) => c.course.id === id)?.course;
+  const classById = (id: string): ClassDefinition | undefined => data?.classes.find((card) => card.classDefinition.id === id)?.classDefinition;
 
   function mutate(day: Weekday, fn: (list: ScheduleEntry[]) => ScheduleEntry[]) {
     setDays((d) => ({ ...d, [day]: fn(d[day]).map((e, i) => ({ ...e, order: i })) }));
     setDirty(true);
   }
-  const addClass = (day: Weekday, courseId: string) =>
-    mutate(day, (l) => [...l, { id: uid(), courseId, order: l.length }]);
+  const addClass = (day: Weekday, classId: string) =>
+    mutate(day, (list) => [...list, { id: uid(), classId, order: list.length }]);
   const removeEntry = (day: Weekday, id: string) => mutate(day, (l) => l.filter((e) => e.id !== id));
   const setTime = (day: Weekday, id: string, time: string) =>
     mutate(day, (l) => l.map((e) => (e.id === id ? { ...e, time: time || undefined } : e)));
@@ -88,7 +88,7 @@ export function ScheduleEditor({ kidId }: { kidId: string }) {
               <button className="btn lg" onClick={save} disabled={saving || !dirty}>{saving ? 'Saving…' : dirty ? 'Save schedule' : 'Saved'}</button>
             </div>
 
-            {data.courses.length === 0 && (
+            {data.classes.length === 0 && (
               <div className="card" style={{ marginTop: 18 }}>
                 <p className="muted">No classes yet. Add a class on {data.kid.name}’s page first, then schedule it here.</p>
               </div>
@@ -101,12 +101,12 @@ export function ScheduleEditor({ kidId }: { kidId: string }) {
                   <div className="week-entries">
                     {days[day].length === 0 && <div className="week-empty muted small">No classes</div>}
                     {days[day].map((e, i) => {
-                      const course = courseById(e.courseId);
+                      const classDefinition = classById(e.classId);
                       return (
-                        <div key={e.id} className="sched-entry" style={subjectStyle(course?.subjectKey)}>
+                        <div key={e.id} className="sched-entry" style={subjectStyle(classDefinition?.subjectKey)}>
                           <div className="sched-entry-top">
                             <span className="sched-dot" />
-                            <span className="sched-title">{course?.title ?? 'class'}</span>
+                            <span className="sched-title">{classDefinition?.title ?? 'class'}</span>
                             <button className="sched-x" title="Remove" onClick={() => removeEntry(day, e.id)}>✕</button>
                           </div>
                           <div className="sched-entry-controls">
@@ -119,7 +119,7 @@ export function ScheduleEditor({ kidId }: { kidId: string }) {
                       );
                     })}
                   </div>
-                  {data.courses.length > 0 && (
+                  {data.classes.length > 0 && (
                     adding === day ? (
                       <select
                         className="add-pick"
@@ -129,8 +129,8 @@ export function ScheduleEditor({ kidId }: { kidId: string }) {
                         onBlur={() => setAdding(null)}
                       >
                         <option value="" disabled>Pick a class…</option>
-                        {data.courses.map((c: CourseCard) => (
-                          <option key={c.course.id} value={c.course.id}>{c.course.title}</option>
+                        {data.classes.map((card: ClassCard) => (
+                          <option key={card.classDefinition.id} value={card.classDefinition.id}>{card.classDefinition.yearName} · {card.classDefinition.title}</option>
                         ))}
                       </select>
                     ) : (

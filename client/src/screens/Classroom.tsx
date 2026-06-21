@@ -14,7 +14,7 @@ const HD_KEY = 'classai_hd';
 const MUTE_KEY = 'classai_mute';
 const MIC_KEY = 'classai_mic';
 
-export function Classroom({ lessonId }: { lessonId: string }) {
+export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string }) {
   const [kid, setKid] = useState<Kid | null>(null);
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [phase, setPhase] = useState<Phase>('gate');
@@ -75,16 +75,15 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     (async () => {
       try {
         const { lesson } = await api.lesson(lessonId);
-        const { kid } = await api.kid(lesson.kidId);
+        const { kid } = await api.kid(kidId);
         if (cancelled) return;
         setLesson(lesson);
         setKid(kid);
         kidRef.current = kid;
-        // resolve the course's subject for color theming (non-fatal)
-        api.courses(lesson.kidId)
-          .then(({ courses }) => {
-            const sk = courses.find((c) => c.course.id === lesson.courseId)?.course.subjectKey;
-            if (!cancelled && sk) setSubjectKey(sk);
+        // resolve the shared class subject for color theming (non-fatal)
+        api.classDetail(lesson.classId)
+          .then(({ classDefinition }) => {
+            if (!cancelled) setSubjectKey(classDefinition.subjectKey);
           })
           .catch(() => {});
       } catch (e: any) {
@@ -99,13 +98,13 @@ export function Classroom({ lessonId }: { lessonId: string }) {
       clearWatchdog();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lessonId]);
+  }, [lessonId, kidId]);
 
   async function begin() {
     unlockAudio(); // must run inside the tap so audio can play
     setPhase('starting');
     try {
-      const { sessionId } = await api.startLesson(lessonId);
+      const { sessionId } = await api.startLesson(lessonId, kidId);
       sessionRef.current = sessionId;
       fetchTurn();
     } catch (e: any) {

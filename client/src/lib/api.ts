@@ -1,9 +1,12 @@
 /** Typed client for the Classai API. */
 import type {
   Kid,
-  Course,
+  AISuggestion,
+  ClassDefinition,
+  ClassEnrollment,
+  SchoolYear,
   Topic,
-  Curriculum,
+  KnowledgeMaterial,
   Lesson,
   Session,
   LessonKind,
@@ -31,11 +34,13 @@ async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
   return data as T;
 }
 
-export interface CourseCard {
-  course: Course;
+export interface ClassCard {
+  classDefinition: ClassDefinition;
+  year?: SchoolYear;
   progress: CourseProgress;
   recommendation: Recommendation | null;
   topicCount: number;
+  approvedLessons: Lesson[];
 }
 
 export const api = {
@@ -83,7 +88,7 @@ export const api = {
 
   // kids
   kids: () => req<{ kids: Kid[] }>('/kids'),
-  kid: (id: string) => req<{ kid: Kid; courses: Course[] }>(`/kids/${id}`),
+  kid: (id: string) => req<{ kid: Kid; classes: ClassDefinition[] }>(`/kids/${id}`),
   createKid: (body: Partial<Kid>) => req<{ kid: Kid }>('/kids', { method: 'POST', body: JSON.stringify(body) }),
   updateKid: (id: string, body: Partial<Kid>) =>
     req<{ kid: Kid }>(`/kids/${id}`, { method: 'PUT', body: JSON.stringify(body) }),
@@ -94,37 +99,61 @@ export const api = {
   saveSchedule: (kidId: string, schedule: WeeklySchedule) =>
     req<{ schedule: WeeklySchedule }>(`/kids/${kidId}/schedule`, { method: 'PUT', body: JSON.stringify({ schedule }) }),
 
-  // courses
-  courses: (kidId: string) => req<{ courses: CourseCard[] }>(`/kids/${kidId}/courses`),
-  createCourse: (
-    kidId: string,
-    body: { subject: string; title?: string; description?: string; gradeLevel?: string; curriculum?: string }
-  ) => req<{ course: Course; topics: Topic[] }>(`/kids/${kidId}/courses`, { method: 'POST', body: JSON.stringify(body) }),
-  course: (id: string) =>
+  // shared class library
+  library: () => req<{ years: (SchoolYear & { classes: ClassDefinition[] })[] }>('/library'),
+  createYear: (body: { name: string; order?: number }) =>
+    req<{ year: SchoolYear }>('/years', { method: 'POST', body: JSON.stringify(body) }),
+  createClass: (body: { yearId: string; subject: string; title?: string; description?: string }) =>
+    req<{ classDefinition: ClassDefinition }>('/classes', { method: 'POST', body: JSON.stringify(body) }),
+  updateClass: (id: string, body: Partial<ClassDefinition>) =>
+    req<{ classDefinition: ClassDefinition }>(`/classes/${id}`, { method: 'PUT', body: JSON.stringify(body) }),
+  deleteClass: (id: string) => req<{ ok: true }>(`/classes/${id}`, { method: 'DELETE' }),
+  classDetail: (id: string) =>
     req<{
-      course: Course;
-      kid: Kid;
+      classDefinition: ClassDefinition;
+      year: SchoolYear;
       topics: Topic[];
-      curricula: Curriculum[];
+      materials: KnowledgeMaterial[];
       lessons: Lesson[];
-      progress: CourseProgress;
-      recommendation: Recommendation | null;
-    }>(`/courses/${id}`),
-  addCurriculum: (courseId: string, rawText: string) =>
-    req<{ topics: Topic[] }>(`/courses/${courseId}/curriculum`, { method: 'POST', body: JSON.stringify({ rawText }) }),
-  regenerateSyllabus: (courseId: string) =>
-    req<{ topics: Topic[] }>(`/courses/${courseId}/syllabus/regenerate`, { method: 'POST' }),
+      suggestions: AISuggestion[];
+      enrolledKids: Kid[];
+      allKids: Kid[];
+    }>(`/classes/${id}`),
+  addMaterial: (classId: string, body: { title?: string; rawText: string; lessonId?: string }) =>
+    req<{ material: KnowledgeMaterial }>(`/classes/${classId}/materials`, { method: 'POST', body: JSON.stringify(body) }),
+  deleteMaterial: (id: string) => req<{ ok: true }>(`/materials/${id}`, { method: 'DELETE' }),
+  regenerateSyllabus: (classId: string) =>
+    req<{ topics: Topic[] }>(`/classes/${classId}/syllabus/regenerate`, { method: 'POST' }),
+  kidClasses: (kidId: string) => req<{ classes: ClassCard[] }>(`/kids/${kidId}/classes`),
+  enroll: (classId: string, kidId: string) =>
+    req<{ enrollment: ClassEnrollment }>(`/classes/${classId}/enrollments`, { method: 'POST', body: JSON.stringify({ kidId }) }),
+  unenroll: (classId: string, kidId: string) =>
+    req<{ ok: true }>(`/classes/${classId}/enrollments/${kidId}`, { method: 'DELETE' }),
 
   // lessons
-  generateLesson: (courseId: string, topicId: string, kind: LessonKind = 'lesson') =>
-    req<{ lesson: Lesson }>(`/courses/${courseId}/lessons`, {
+  generateLesson: (classId: string, topicId: string, kind: LessonKind = 'lesson') =>
+    req<{ lesson: Lesson }>(`/classes/${classId}/lessons`, {
       method: 'POST',
       body: JSON.stringify({ topicId, kind })
     }),
   lesson: (id: string) => req<{ lesson: Lesson }>(`/lessons/${id}`),
+  saveLesson: (id: string, body: Partial<Lesson>) =>
+    req<{ lesson: Lesson }>(`/lessons/${id}`, { method: 'PUT', body: JSON.stringify(body) }),
+  reviseLesson: (id: string, instruction: string) =>
+    req<{ lesson: Lesson }>(`/lessons/${id}/revise`, { method: 'POST', body: JSON.stringify({ instruction }) }),
+  approveLesson: (id: string) => req<{ lesson: Lesson }>(`/lessons/${id}/approve`, { method: 'POST' }),
+  archiveLesson: (id: string) => req<{ lesson: Lesson }>(`/lessons/${id}/archive`, { method: 'POST' }),
+  deleteLesson: (id: string) => req<{ ok: true }>(`/lessons/${id}`, { method: 'DELETE' }),
+  updateSuggestion: (id: string, body: Partial<AISuggestion>) =>
+    req<{ suggestion: AISuggestion }>(`/suggestions/${id}`, { method: 'PUT', body: JSON.stringify(body) }),
+  approveSuggestion: (id: string, lessonId?: string) =>
+    req<{ suggestion: AISuggestion }>(`/suggestions/${id}/approve`, { method: 'POST', body: JSON.stringify({ lessonId }) }),
+  discardSuggestion: (id: string) => req<{ suggestion: AISuggestion }>(`/suggestions/${id}/discard`, { method: 'POST' }),
 
   // teaching
-  startLesson: (lessonId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, { method: 'POST' }),
+  startLesson: (lessonId: string, kidId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
+    method: 'POST', body: JSON.stringify({ kidId })
+  }),
   turn: (sessionId: string, response?: KidResponse) =>
     req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number } }>(
       `/sessions/${sessionId}/turn`,
