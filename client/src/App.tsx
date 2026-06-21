@@ -3,6 +3,7 @@ import { Home } from './screens/Home.tsx';
 import { ConnectBrain } from './screens/ConnectBrain.tsx';
 import { ParentGate } from './screens/ParentGate.tsx';
 import { ParentDashboard } from './screens/ParentDashboard.tsx';
+import { ParentPrompts } from './screens/ParentPrompts.tsx';
 import { KidDetail } from './screens/KidDetail.tsx';
 import { CourseDetail } from './screens/CourseDetail.tsx';
 import { LearnHome } from './screens/LearnHome.tsx';
@@ -13,6 +14,7 @@ export function App() {
 
   if (path === '/connect') return <ParentGate><ConnectBrain /></ParentGate>;
   if (path === '/parent') return <ParentGate><ParentDashboard /></ParentGate>;
+  if (path === '/parent/prompts') return <ParentGate><ParentPrompts /></ParentGate>;
 
   let m;
   if ((m = match('/parent/kid/:id', path))) return <ParentGate><KidDetail kidId={m.id!} /></ParentGate>;

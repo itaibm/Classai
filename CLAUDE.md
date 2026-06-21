@@ -58,22 +58,30 @@ Both subscription paths are a ToS gray area and depend on unofficial endpoints �
 
 `PORT` (8787), `CLASSAI_DATA_DIR` (`./data`, git-ignored), `CLASSAI_PARENT_PIN` (first user sets it if unset), `LOG_LEVEL` (`info`). Codex path also reads `OPENAI_OAUTH_BASE_URL` and `OPENAI_CODEX_MODEL` (default `gpt-5.5`).
 
-## Session handoff (as of 2026-06-13)
+## Session handoff (as of 2026-06-21)
 
-Active branch: **`claude/brain-connect-codex-classroom`** (off `main`). Work is committed locally; **not pushed / no PR yet**.
+Active branch: **`claude/brain-connect-codex-classroom`** (off `main`). Committed locally; **not pushed / no PR yet**.
 
 **What works now (verified end-to-end):**
-- Connect-your-brain: Claude "reuse local login" (reads the real `claude` token), API-key, and OpenAI "Sign in with ChatGPT" → Codex `gpt-5.5` (free on the user's plan). Connect now verifies with a real generation; Test button reports Working/Failed.
-- Full lesson pipeline (learner → AI syllabus → AI lesson → live teaching turn) on both Claude Haiku and Codex gpt-5.5.
-- Classroom redesign: speech bubble with word-by-word reveal, talking avatar, activity-forward layout.
-- Voice answers: on-device Whisper capture (not Web Speech), live mic level meter, top-bar 🎙️ mic on/off + "● Listening…" pill, and a **universal answer bar** (mic+type) shown whenever the tutor waits with no interactive block — plus Skip/Continue.
+- Connect-your-brain: Claude "reuse local login" (reads the real `claude` token), API-key, and OpenAI "Sign in with ChatGPT" → Codex `gpt-5.5` (free on the user's plan). Connect verifies with a real generation; Test button reports Working/Failed.
+- Full lesson pipeline (learner → AI syllabus → AI lesson → live teaching turn) on Claude (opus-4-8) and Codex gpt-5.5.
+- Classroom redesign: speech bubble w/ word-by-word reveal, talking avatar, activity-forward layout.
+- Voice answers: on-device Whisper capture, live mic meter, top-bar 🎙️ mic on/off + "● Listening…" pill, universal answer bar (mic+type) on no-block turns, Skip/Continue.
+
+**Fixed this session (2026-06-19→21) — all verified:**
+- **Mic "nothing opens" hang** (`client/src/screens/Classroom.tsx`): the spoken-turn path relied entirely on TTS `onEnd` to advance `speaking → awaiting`; browser SpeechSynthesis often never fires it, stranding the lesson so no answer UI/mic ever appeared. Added a **watchdog** timer in `present()` (idempotent `afterSpeech`) that force-advances even if TTS never reports done. Also **auto-opens the mic** once per turn when the tutor is waiting (`AnswerInput` in `client/src/blocks/BlockView.tsx`), so it actually listens without a hidden tap. Verified with Playwright (Chromium has no voices → reproduces the hang).
+- **Anthropic OAuth 401** (`server/src/ai/provider.ts` `anthropicBrain`): Claude-login/OAuth tokens are only accepted when the request's **first system block is exactly** `"You are Claude Code, Anthropic's official CLI for Claude."` Without it → 401/429 even with a valid token. Fix: for `local_login`/oauth path only, send `system` as `[identity, appPrompt]` array (api_key path unchanged). Token is read live from macOS **Keychain** ("Claude Code-credentials"), not the creds file. Verified via real `getBrain('anthropic:default').generate()`.
+
+**AI prompt monitor (Parent area) — new feature, complete & verified:**
+- Parent route **`/#/parent/prompts`** (`client/src/screens/ParentPrompts.tsx`, linked from ParentDashboard "🔎 AI prompt monitor"). Two tabs: **Live activity** (real prompts sent during sessions — system+messages+reply, labeled, newest-first, refresh/clear) and **Prompt templates** (the 9 fixed templates rendered with a sample learner "Alex").
+- Server: `server/src/ai/prompt-log.ts` (in-memory ring buffer, 60 entries, not persisted) — every `brain.generate()` is captured by a `withPromptLog()` wrapper added inside `getBrain()`. `GenerateOptions.label` threads a purpose label from each call site (Teaching turn / Lesson plan / Lesson analysis / Syllabus / Progress report / Learner profile update / Connection test). `server/src/ai/prompt-templates.ts` renders templates from sample data. Endpoints: `GET /api/parent/prompts`, `DELETE /api/parent/prompts/log`. Types `PromptLogEntry`/`PromptTemplate` in `shared/types.ts`.
 
 **Important runtime notes:**
-- The mic needs the app at **`http://localhost:8787`** — on a `192.168.x.x` LAN address the browser blocks all mic APIs.
-- Brain selection persists in `data/auth-profiles.json`; default may be OpenAI gpt-5.5. If Codex hits its rate limit, switch to the Claude brain.
-- First voice use downloads a small Whisper model (cached after).
+- Mic needs the app at **`http://localhost:8787`** — a `192.168.x.x` LAN address makes the browser block all mic APIs.
+- **Server-side edits need a restart** — `npm start` is production (no watch). Client edits need `npm run build` + browser reload (already built).
+- Brain default persists in `data/auth-profiles.json` (two profiles: `anthropic:default` opus local-login, `openai:default` gpt-5.5 oauth — currently default). If one rate-limits, switch the other.
 
 **Known follow-ups / not done:**
-- No **delete-course** endpoint — QA left junk courses on learner "Leo" (e.g. "Codex Test — Weather", "Answerbar Test"). Adding a delete-class action would let us clean them.
-- The OpenAI "Sign in with ChatGPT" path only works for accounts whose plan includes Codex (current gpt-5.x models); older model names are rejected by the backend.
-- Optional from `/init`: no linter/test runner exists; `npm run typecheck` is the only check.
+- No **delete-course** endpoint — QA left junk courses on learner "Leo".
+- OpenAI "Sign in with ChatGPT" only works for plans including Codex (current gpt-5.x); older model names rejected.
+- No linter/test runner; `npm run typecheck` is the only check.

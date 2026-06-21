@@ -52,7 +52,8 @@ export async function buildSyllabus(kid: Kid, course: Course): Promise<Topic[]> 
     system,
     messages: [{ role: 'user', content: user }],
     maxTokens: 2500,
-    quality: 'deep'
+    quality: 'deep',
+    label: 'Syllabus'
   });
 
   // Persist resolved subjectKey if the model refined it.

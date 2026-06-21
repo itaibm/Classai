@@ -502,3 +502,31 @@ export interface KidResponse {
   via: 'block' | 'continue';
   correct?: boolean; // client-side correctness when the block had an answer key
 }
+
+// ===========================================================================
+// Prompt inspector (Parent area) — transparency into what the AI is told
+// ===========================================================================
+
+/** One recorded AI call, so a parent can see exactly what was sent and returned. */
+export interface PromptLogEntry {
+  id: string;
+  ts: string; // ISO timestamp
+  label: string; // what this call was for, e.g. 'Teaching turn', 'Syllabus'
+  vendor: string;
+  model: string;
+  system: string; // the system prompt actually sent
+  messages: { role: 'user' | 'assistant'; content: string }[];
+  response?: string; // the model's reply (omitted/empty on error)
+  ms: number; // round-trip duration
+  ok: boolean;
+  error?: string;
+}
+
+/** A static prompt template the app uses, rendered with sample data for review. */
+export interface PromptTemplate {
+  key: string;
+  title: string;
+  description: string;
+  system: string;
+  user?: string; // sample first user message, where the call has one
+}

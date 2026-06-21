@@ -131,7 +131,8 @@ export async function nextTurn(sessionId: string, response?: KidResponse): Promi
     system,
     messages,
     maxTokens: 1100,
-    quality: 'fast'
+    quality: 'fast',
+    label: 'Teaching turn'
   });
   const turn = parsedTurn as TeacherTurn;
 
@@ -236,7 +237,8 @@ async function finalizeSession(session: Session, kid: Kid): Promise<void> {
       system: rp.system,
       messages: [{ role: 'user', content: rp.user }],
       maxTokens: 1200,
-      quality: 'deep'
+      quality: 'deep',
+      label: 'Progress report'
     });
     session.report = report;
 
@@ -246,7 +248,8 @@ async function finalizeSession(session: Session, kid: Kid): Promise<void> {
       system: sp.system,
       messages: [{ role: 'user', content: sp.user }],
       maxTokens: 600,
-      quality: 'deep'
+      quality: 'deep',
+      label: 'Learner profile update'
     });
     updateNarrative(kid.id, sum.summary, sum.preferences);
 

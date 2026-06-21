@@ -5,6 +5,8 @@ import type { Kid, AvatarConfig, KidResponse } from '../../shared/types.ts';
 import * as db from './db/index.ts';
 import { authStore, profileId } from './ai/auth-store.ts';
 import { getBrain, MODEL_OPTIONS, NoBrainError } from './ai/provider.ts';
+import { getPromptLog, clearPromptLog } from './ai/prompt-log.ts';
+import { promptTemplates } from './ai/prompt-templates.ts';
 import {
   beginOpenAIOAuth,
   captureLoopbackCode,
@@ -78,7 +80,8 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       await brain.generate({
         system: 'You are a helpful assistant.',
         messages: [{ role: 'user', content: 'Reply with the single word: ready' }],
-        maxTokens: 16
+        maxTokens: 16,
+        label: 'Connection check'
       });
       return { profile, verified: true };
     } catch (e: any) {
@@ -153,7 +156,8 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       const out = await brain.generate({
         system: 'You are a helpful assistant.',
         messages: [{ role: 'user', content: 'Reply with the single word: ready' }],
-        maxTokens: 16
+        maxTokens: 16,
+        label: 'Connection test'
       });
       return { ok: true, vendor: brain.vendor, model: brain.model, sample: out.slice(0, 40) };
     } catch (e: any) {
@@ -178,6 +182,20 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     const real = PARENT_PIN_ENV || db.settings.get('parent_pin');
     if (!real || String(pin) === String(real)) return { ok: true };
     return reply.status(403).send({ ok: false, error: 'incorrect PIN' });
+  });
+
+  // ---- prompt inspector (parent transparency) ------------------------------
+  // Lets a parent see the prompt templates the app uses AND a live log of the
+  // real prompts sent during their child's sessions.
+
+  app.get('/api/parent/prompts', async () => ({
+    templates: promptTemplates(),
+    log: getPromptLog()
+  }));
+
+  app.delete('/api/parent/prompts/log', async () => {
+    clearPromptLog();
+    return { ok: true };
   });
 
   // ---- kids ----------------------------------------------------------------

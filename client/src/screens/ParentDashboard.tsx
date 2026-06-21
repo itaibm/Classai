@@ -53,9 +53,12 @@ export function ParentDashboard() {
       <div className="container wide">
         <div className="row" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
           <h1>Parent area</h1>
-          <button className="btn ghost" onClick={() => navigate('/connect')}>
-            {brainConnected ? '⚙ Manage AI brain' : '⚡ Connect AI brain'}
-          </button>
+          <div className="row" style={{ gap: 8 }}>
+            <button className="btn ghost" onClick={() => navigate('/parent/prompts')}>🔎 AI prompt monitor</button>
+            <button className="btn ghost" onClick={() => navigate('/connect')}>
+              {brainConnected ? '⚙ Manage AI brain' : '⚡ Connect AI brain'}
+            </button>
+          </div>
         </div>
 
         {loading && <Loading />}

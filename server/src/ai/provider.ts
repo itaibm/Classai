@@ -17,6 +17,7 @@ import OpenAI from 'openai';
 import type { BrainVendor } from '../../../shared/types.ts';
 import { authStore } from './auth-store.ts';
 import { getAnthropicLocalToken, refreshOpenAI } from './oauth.ts';
+import { recordPrompt } from './prompt-log.ts';
 
 export interface ChatMessage {
   role: 'user' | 'assistant';
@@ -29,6 +30,7 @@ export interface GenerateOptions {
   maxTokens?: number;
   json?: boolean; // hint the model to return a single JSON object
   quality?: 'fast' | 'deep'; // 'deep' enables thinking on capable models
+  label?: string; // what this call is for; shown in the Parent prompt inspector
 }
 
 export interface Brain {
@@ -50,16 +52,49 @@ export async function getBrain(profileId?: string): Promise<Brain> {
   const profile = id ? authStore.getStored(id) : undefined;
   if (!profile) throw new NoBrainError();
 
+  let brain: Brain;
   switch (profile.vendor) {
     case 'anthropic':
-      return anthropicBrain(profile);
+      brain = await anthropicBrain(profile);
+      break;
     case 'openai':
-      return openaiBrain(profile);
+      brain = await openaiBrain(profile);
+      break;
     case 'local':
-      return localBrain(profile);
+      brain = await localBrain(profile);
+      break;
     default:
       throw new NoBrainError();
   }
+  return withPromptLog(brain);
+}
+
+/** Wrap a brain so every generate() call is recorded for the Parent inspector. */
+function withPromptLog(brain: Brain): Brain {
+  return {
+    vendor: brain.vendor,
+    model: brain.model,
+    async generate(opts) {
+      const start = Date.now();
+      const base = {
+        id: `${start.toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
+        ts: new Date(start).toISOString(),
+        label: opts.label || 'AI call',
+        vendor: brain.vendor,
+        model: brain.model,
+        system: opts.system,
+        messages: opts.messages
+      };
+      try {
+        const out = await brain.generate(opts);
+        recordPrompt({ ...base, response: out, ms: Date.now() - start, ok: true });
+        return out;
+      } catch (e: any) {
+        recordPrompt({ ...base, ms: Date.now() - start, ok: false, error: e?.message || 'failed' });
+        throw e;
+      }
+    }
+  };
 }
 
 // ---- Anthropic ------------------------------------------------------------
@@ -67,6 +102,11 @@ export async function getBrain(profileId?: string): Promise<Brain> {
 async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object): Promise<Brain> {
   const model = p!.model || 'claude-opus-4-8';
   let client: Anthropic;
+  // OAuth (Claude-login / subscription) tokens are NOT general API keys: Anthropic
+  // only honors them when the request identifies itself as Claude Code. The first
+  // system block MUST be this exact line, or the call is rejected (401/429) even
+  // with a valid token. API-key requests don't need it.
+  let oauthMode = false;
 
   if (p!.method === 'api_key' && p!.apiKey) {
     client = new Anthropic({ apiKey: p!.apiKey });
@@ -74,11 +114,15 @@ async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object
     const token = await getAnthropicLocalToken();
     if (!token) throw new Error('No local Claude login found. Run `claude` or `ant auth login` first, or connect an API key.');
     client = new Anthropic({ authToken: token, defaultHeaders: { 'anthropic-beta': 'oauth-2025-04-20' } });
+    oauthMode = true;
   } else if (p!.oauth?.access) {
     client = new Anthropic({ authToken: p!.oauth.access, defaultHeaders: { 'anthropic-beta': 'oauth-2025-04-20' } });
+    oauthMode = true;
   } else {
     throw new NoBrainError();
   }
+
+  const CLAUDE_CODE_IDENTITY = "You are Claude Code, Anthropic's official CLI for Claude.";
 
   // Adaptive thinking is only available on the larger 4.x models — Haiku (and
   // other models) reject it with "adaptive thinking is not supported on this
@@ -89,10 +133,18 @@ async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object
     vendor: 'anthropic',
     model,
     async generate({ system, messages, maxTokens = 1400, json, quality = 'fast' }) {
+      // For OAuth tokens, prepend the required Claude Code identity as the first
+      // system block (keeping the app's real instructions as a second block).
+      const sys = oauthMode
+        ? [
+            { type: 'text' as const, text: CLAUDE_CODE_IDENTITY },
+            ...(system ? [{ type: 'text' as const, text: system }] : [])
+          ]
+        : system;
       const res = await client.messages.create({
         model,
         max_tokens: maxTokens,
-        system,
+        system: sys as any,
         // 'deep' tasks (syllabus/report) get adaptive thinking where supported; live turns stay snappy.
         ...(quality === 'deep' && supportsAdaptiveThinking ? { thinking: { type: 'adaptive' as const } } : {}),
         messages: messages.map((m) => ({ role: m.role, content: m.content }))

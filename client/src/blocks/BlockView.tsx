@@ -388,6 +388,7 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   const [, setFails] = useState(0);
   const [typeMode, setTypeMode] = useState(false); // user chose to type (or after 2 misses)
   const recRef = useRef<RecorderHandle | null>(null);
+  const autoStartedRef = useRef(false); // open the mic once per turn, don't re-grab after the user stops
 
   // The mic is usable only on a secure origin AND when not switched off globally.
   const micAvailable = micSupported() && micEnabled !== false;
@@ -396,6 +397,17 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   // Tell the Classroom top bar whether we're actively listening.
   useEffect(() => { onMicState?.(status === 'recording'); }, [status, onMicState]);
   useEffect(() => () => onMicState?.(false), [onMicState]); // clear on unmount (turn change)
+  // Open the mic automatically the moment the tutor is waiting — the kid
+  // shouldn't have to discover a button. Once per turn only: if they stop it,
+  // we don't grab the mic again until the next turn (this component remounts).
+  useEffect(() => {
+    if (autoStartedRef.current) return;
+    if (active && micAvailable && status === 'idle' && !typeMode && !text && !error) {
+      autoStartedRef.current = true;
+      start();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [active, micAvailable, status, typeMode]);
   // If the mic is switched off mid-recording, stop cleanly.
   useEffect(() => {
     if (!micAvailable && (status === 'recording' || recRef.current)) {
@@ -490,7 +502,7 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
             </>
           )}
           {status === 'transcribing' && <span className="muted small">Transcribing… (first time downloads a small voice model)</span>}
-          {status === 'idle' && !text && !error && <span className="muted small">Tap the mic, say your answer, then tap again.</span>}
+          {status === 'idle' && !text && !error && <span className="muted small">Tap the mic to speak your answer, then tap it again when you're done.</span>}
         </>
       )}
 

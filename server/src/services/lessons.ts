@@ -32,7 +32,8 @@ export async function generateLesson(
       system: a.system,
       messages: [{ role: 'user', content: a.user }],
       maxTokens: 900,
-      quality: 'deep'
+      quality: 'deep',
+      label: 'Lesson analysis'
     });
   } catch {
     // Analysis is an enhancer; if it fails, design from the topic alone.
@@ -46,7 +47,8 @@ export async function generateLesson(
     // A full gradual-release plan (7–8 beats with notes + checks) can run long;
     // 3000 truncated the JSON mid-`plan` on smaller models. Give it headroom.
     maxTokens: 4096,
-    quality: 'deep'
+    quality: 'deep',
+    label: 'Lesson plan'
   });
 
   const lesson: Lesson = {

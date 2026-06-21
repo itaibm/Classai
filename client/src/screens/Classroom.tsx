@@ -34,6 +34,11 @@ export function Classroom({ lessonId }: { lessonId: string }) {
   const sessionRef = useRef<string>('');
   const revealRef = useRef<number | null>(null);
   const speakRef = useRef<SpeakHandle | null>(null);
+  const watchdogRef = useRef<number | null>(null); // forces the answer UI to appear if TTS never reports it finished
+
+  function clearWatchdog() {
+    if (watchdogRef.current) { clearTimeout(watchdogRef.current); watchdogRef.current = null; }
+  }
 
   function stopReveal() {
     if (revealRef.current) { clearInterval(revealRef.current); revealRef.current = null; }
@@ -79,6 +84,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
       cancelled = true;
       speakRef.current?.stop();
       stopReveal();
+      clearWatchdog();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lessonId]);
@@ -101,6 +107,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     setEmotion('thinking');
     setCaptions('');
     stopReveal();
+    clearWatchdog();
     setShown('');
     setBlock(null);
     setListening(false);
@@ -120,18 +127,33 @@ export function Classroom({ lessonId }: { lessonId: string }) {
     setBlock(turn.block ?? null);
     setTurnSeq((n) => n + 1);
     startReveal(turn.speech);
+    // Show the bubble immediately — never depend on the TTS engine firing onStart
+    // to reveal the question (some engines/voices never fire it).
+    setPhase('speaking');
+
+    let done = false;
     const afterSpeech = () => {
+      if (done) return; // idempotent: onEnd and the watchdog must not both advance
+      done = true;
+      clearWatchdog();
       setMouthOpen(0);
       stopReveal();
       setShown(turn.speech); // ensure the full text is visible once speech ends
       if (ended || turn.lessonComplete) finish();
-      else setPhase('awaiting');
+      else setPhase('awaiting'); // <- this is what reveals the answer bar / mic
     };
-    if (mutedRef.current) {
-      setPhase('speaking');
-      setTimeout(afterSpeech, Math.min(6000, 900 + turn.speech.length * 35));
-      return;
-    }
+
+    // WATCHDOG: the browser SpeechSynthesis engine frequently fails to fire
+    // onend (long text, tab blur, no loaded voice). Without this, the lesson is
+    // stranded in 'speaking' forever and the learner never gets a way to answer.
+    // Cap generously above expected speech length so it only fires on real hangs.
+    const cap = mutedRef.current
+      ? Math.min(6000, 900 + turn.speech.length * 35)
+      : Math.min(60000, 5000 + turn.speech.length * 90);
+    watchdogRef.current = window.setTimeout(afterSpeech, cap);
+
+    if (mutedRef.current) return; // muted: the watchdog alone advances the turn
+
     speakRef.current = speak({
       text: turn.speech,
       hd: hdRef.current,
@@ -244,6 +266,7 @@ export function Classroom({ lessonId }: { lessonId: string }) {
             {/* Always give the kid a way to respond when the tutor is waiting —
                 speak or type — even on turns that carry no interactive block. */}
             <AnswerInput
+              key={turnSeq}
               active={true}
               micEnabled={micOn}
               onMicState={setListening}

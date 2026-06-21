@@ -15,7 +15,9 @@ import type {
   LearnerModel,
   MemoryEpisode,
   TeacherTurn,
-  KidResponse
+  KidResponse,
+  PromptLogEntry,
+  PromptTemplate
 } from '@shared/types';
 
 async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
@@ -73,6 +75,10 @@ export const api = {
   parentStatus: () => req<{ pinSet: boolean }>('/parent/status'),
   parentSetPin: (pin: string) => req('/parent/set-pin', { method: 'POST', body: JSON.stringify({ pin }) }),
   parentVerify: (pin: string) => req<{ ok: boolean }>('/parent/verify', { method: 'POST', body: JSON.stringify({ pin }) }),
+
+  // prompt inspector
+  promptInspector: () => req<{ templates: PromptTemplate[]; log: PromptLogEntry[] }>('/parent/prompts'),
+  clearPromptLog: () => req<{ ok: boolean }>('/parent/prompts/log', { method: 'DELETE' }),
 
   // kids
   kids: () => req<{ kids: Kid[] }>('/kids'),
