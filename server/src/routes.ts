@@ -404,7 +404,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
 
   app.post('/api/classes/:id/syllabus/regenerate', async (req, reply) => {
     try { return { topics: await buildSyllabus((req.params as { id: string }).id) }; }
-    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+    catch (error: any) {
+      const status = String(error.message).includes('existing lesson') ? 409 : 404;
+      return reply.status(status).send({ error: error.message });
+    }
   });
 
   app.get('/api/kids/:id/classes', async (req, reply) => {

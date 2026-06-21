@@ -31,6 +31,19 @@ function materialContext(classId: string, lessonId?: string): string {
     .join('\n\n')}`;
 }
 
+function copyLessonMaterials(fromLessonId: string, toLessonId: string): void {
+  for (const material of db.knowledgeMaterials.listByLesson(fromLessonId)) {
+    const timestamp = now();
+    db.knowledgeMaterials.insert({
+      ...material,
+      id: nanoid(),
+      lessonId: toLessonId,
+      createdAt: timestamp,
+      updatedAt: timestamp
+    });
+  }
+}
+
 export async function generateLessonDraft(
   classId: string,
   topicId: string,
@@ -114,7 +127,10 @@ export function saveLessonDraft(lessonId: string, input: LessonDraftInput): Less
     kind: input.kind ?? current.kind,
     updatedAt: now()
   };
-  return current.status === 'draft' ? db.lessons.update(updated) : db.lessons.insert(updated);
+  if (current.status === 'draft') return db.lessons.update(updated);
+  const inserted = db.lessons.insert(updated);
+  copyLessonMaterials(current.id, inserted.id);
+  return inserted;
 }
 
 export async function reviseLessonDraft(lessonId: string, instruction: string): Promise<Lesson> {
@@ -134,7 +150,7 @@ export async function reviseLessonDraft(lessonId: string, instruction: string): 
     label: 'Lesson revision'
   });
   const timestamp = now();
-  return db.lessons.insert({
+  const revised = db.lessons.insert({
     ...current,
     id: nanoid(),
     revision: db.lessons.latestRevision(current.familyId) + 1,
@@ -147,6 +163,8 @@ export async function reviseLessonDraft(lessonId: string, instruction: string): 
     createdAt: timestamp,
     updatedAt: timestamp
   });
+  copyLessonMaterials(current.id, revised.id);
+  return revised;
 }
 
 export function approveLesson(lessonId: string): Lesson {

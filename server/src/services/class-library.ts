@@ -104,6 +104,9 @@ export function enrollLearner(classId: string, kidId: string): ClassEnrollment {
 export async function buildSyllabus(classId: string): Promise<Topic[]> {
   const classDefinition = db.classes.get(classId);
   if (!classDefinition) throw new Error('class not found');
+  if (db.lessons.listByClass(classId).length > 0) {
+    throw new Error('remove existing lesson revisions before regenerating the syllabus');
+  }
   const materials = db.knowledgeMaterials.listByClass(classId).filter((material) => !material.lessonId);
   const curriculumText = materials.map((material) => material.rawText).filter(Boolean).join('\n\n---\n\n') ||
     `Create a sensible standard syllabus for ${classDefinition.subject} in ${classDefinition.yearName}.`;
