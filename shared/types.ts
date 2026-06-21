@@ -164,12 +164,19 @@ export interface BeatCheck {
   wrongAnswers: WrongAnswer[];
 }
 
+/** A visual the designer plans for an explain/example beat, realized at teach time. */
+export interface BeatVisual {
+  kind: string; // a block type, e.g. 'whiteboard' | 'slideshow' | 'steps' | 'video' | 'image' | 'emojiViz' | 'numberLine' | 'table' | 'custom'
+  brief: string; // what it should show, concretely
+}
+
 /** One ordered teaching beat the brain drafts when generating a lesson. */
 export interface LessonBeat {
   kind: 'hook' | 'explain' | 'example' | 'check' | 'practice' | 'recap';
   goal: string;
   note: string; // guidance to the teacher for this beat
   successCriteria: string; // observable evidence this beat landed
+  visual?: BeatVisual; // for hook/explain/example: the planned visual to teach with
   check?: BeatCheck; // for check/practice beats
 }
 

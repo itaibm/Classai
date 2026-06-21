@@ -173,6 +173,10 @@ export const LessonPlanSchema = z.object({
         goal: z.string().default(''),
         note: z.string().default(''),
         successCriteria: z.string().default(''),
+        visual: z
+          .object({ kind: z.string().default(''), brief: z.string().default('') })
+          .optional()
+          .catch(undefined),
         check: BeatCheckSchema.optional().catch(undefined)
       })
     )

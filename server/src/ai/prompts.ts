@@ -131,7 +131,13 @@ Teaching approach for ${profile.label}: ${profile.pedagogy}
 
 Structure the beats so they flow as a real lesson — EXPLAIN BEFORE YOU ASK: HOOK (connect to the learner / a real situation) → EXPLAIN (model the idea with a visual, "I do") → EXAMPLE (work one together, "we do") → CHECK (a question that reveals understanding) → EXPLAIN/EXAMPLE the next idea → PRACTICE (they try one, "you do") → RECAP. Most lessons have 2-3 explain/example beats interleaved with checks — teach a piece, check it, teach the next. Don't stack all the questions at the end or the front.
 
-SHOW, don't just tell: every EXPLAIN and EXAMPLE beat MUST teach with a VISUAL, not words alone. In each such beat's "note", name the concrete visual the tutor should build and what it shows — e.g. "animated whiteboard: number line 0-10 with jumps of 3", "slideshow: 3 slides walking through photosynthesis", "steps: the 4 long-division steps", "short video overview of the water cycle", "labeled diagram of a plant cell". Pick the visual that genuinely makes the idea clearer (whiteboard for diagrams/processes/geometry/graphs, slideshow for multi-step explainers, steps for worked procedures, video for an overview, image/emojiViz/table where they fit).
+SHOW, don't just tell: every HOOK, EXPLAIN and EXAMPLE beat MUST teach with a VISUAL, not words alone. Give each such beat a "visual" object: {"kind": <block type>, "brief": <concretely what it shows>}. Choose the kind that genuinely makes THIS idea clearer:
+- "whiteboard" — diagrams, processes, number bonds, geometry, graphs/axes, timelines, cause→effect (it animates as the tutor talks). Default for anything spatial or step-by-step visual.
+- "slideshow" — a multi-step explainer the learner clicks through (e.g. the stages of photosynthesis).
+- "steps" — a worked procedure revealed one line at a time (e.g. the long-division algorithm).
+- "video" — a short overview of a real-world phenomenon (give the brief as a search topic, e.g. "the water cycle for kids").
+- "image" / "table" / "numberLine" / "emojiViz" — when one of those is the most natural fit.
+Vary them across the lesson; don't make every beat the same kind. Example: {"kind":"whiteboard","brief":"number line 0-12, show 12 split into 4 equal jumps of 3"}.
 
 CRUCIAL: every "check" and "practice" beat MUST include a pre-authored check object:
 - "question": what you'll ask.
@@ -139,7 +145,7 @@ CRUCIAL: every "check" and "practice" beat MUST include a pre-authored check obj
 - "wrongAnswers": 1-3 likely WRONG answers, each with "why" (the misconception/error behind it) and "remedy" (the specific teaching move to fix it). Draw these from the misconception analysis.
 Each beat also needs "successCriteria": the observable evidence the beat landed.
 
-Return ONLY JSON: {"title": string, "objectives": [string], "difficulty": "gentle"|"standard"|"challenge", "plan": [{"kind": "hook"|"explain"|"example"|"check"|"practice"|"recap", "goal": string, "note": string, "successCriteria": string, "check"?: {"question": string, "expectedAnswer": string, "wrongAnswers": [{"answer": string, "why": string, "remedy": string}]}}]}`;
+Return ONLY JSON: {"title": string, "objectives": [string], "difficulty": "gentle"|"standard"|"challenge", "plan": [{"kind": "hook"|"explain"|"example"|"check"|"practice"|"recap", "goal": string, "note": string, "successCriteria": string, "visual"?: {"kind": string, "brief": string}, "check"?: {"question": string, "expectedAnswer": string, "wrongAnswers": [{"answer": string, "why": string, "remedy": string}]}}]}`;
 
   const user = `${renderLearnerContext(kid, model)}
 
@@ -240,6 +246,7 @@ export function teachSystemPrompt(
     .map((b, i) => {
       let s = `  ${i + 1}. [${b.kind}] ${b.goal}`;
       if (b.note) s += ` — ${b.note}`;
+      if (b.visual?.brief) s += `\n     show with: ${b.visual.kind || 'a visual'} — ${b.visual.brief}`;
       if (b.successCriteria) s += `\n     ✓ done when: ${b.successCriteria}`;
       if (b.check) {
         s += `\n     ask: "${b.check.question}"  (expected: ${b.check.expectedAnswer})`;
@@ -298,6 +305,7 @@ export function turnDirective(args: {
   beatKind: string;
   beatGoal: string;
   beatNote?: string;
+  beatVisual?: { kind: string; brief: string };
   successCriteria: string;
   check?: Lesson['plan'][number]['check'];
   working: WorkingMemory;
@@ -313,9 +321,13 @@ export function turnDirective(args: {
   } else if (w.struggleStreak >= 2) {
     directive = 'The learner is STUCK (2+ misses in a row). Do NOT advance. Slow down: simplify to the smallest next step, model it or give one concrete hint, then re-ask a smaller version. Keep it encouraging.';
   } else if (args.beatKind === 'explain' || args.beatKind === 'example') {
-    const visualNote = args.beatNote ? ` Planned visual for this beat: ${args.beatNote}` : '';
+    const visualNote = args.beatVisual?.brief
+      ? ` BUILD THIS PLANNED VISUAL: a "${args.beatVisual.kind || 'display'}" block showing — ${args.beatVisual.brief}. Realize it faithfully (fill the block's fields); only substitute a different display block if you truly can't build this one.`
+      : args.beatNote
+        ? ` Planned visual for this beat: ${args.beatNote}`
+        : '';
     directive =
-      `This is an ${args.beatKind.toUpperCase()} beat — TEACH WITH A VISUAL, don't just talk. Attach a DISPLAY block that SHOWS this idea (animated whiteboard for diagrams/processes/graphs, slideshow for a multi-step explainer, steps for a worked procedure, video for an overview, image/table/emojiViz where they fit), and let your speech narrate it in 1-2 short sentences. Only skip the block if you genuinely showed this exact visual last turn.${visualNote}` +
+      `This is an ${args.beatKind.toUpperCase()} beat — TEACH WITH A VISUAL, don't just talk. Attach a DISPLAY block that SHOWS this idea, and let your speech narrate it in 1-2 short sentences. Only skip the block if you genuinely showed this exact visual last turn.${visualNote}` +
       (w.momentum === 'flowing' ? ' The learner is flowing — keep it crisp, you may raise the challenge slightly.' : '');
   } else if (args.beatKind === 'check' || args.beatKind === 'practice') {
     directive = 'This is a CHECK beat: ask the beat\'s question with an INTERACTIVE block and wait for an answer. Judge it (answerEval). If wrong, diagnose and hint — do not reveal the answer. Advance only when they show they\'ve got it.';
