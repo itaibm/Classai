@@ -31,15 +31,34 @@ export function Whiteboard({ block }: { block: WhiteboardBlock }) {
             <path d="M0 0 L10 5 L0 10 z" fill="context-stroke" />
           </marker>
         </defs>
-        {block.elements.map((el, i) => (
-          <Element key={i} el={el} i={i} animate={animate} step={step} marker={`url(#arrow-${uid})`} />
-        ))}
+        {block.elements.map((el, i) => {
+          const hostRect = el.k === 'text'
+            ? block.elements.find((candidate): candidate is Extract<WhiteboardElement, { k: 'rect' }> =>
+                candidate.k === 'rect' && el.x >= candidate.x && el.x <= candidate.x + candidate.w && el.y >= candidate.y && el.y <= candidate.y + candidate.h)
+            : undefined;
+          const hasInnerText = el.k === 'rect' && block.elements.some((candidate) =>
+            candidate.k === 'text' && candidate.x >= el.x && candidate.x <= el.x + el.w && candidate.y >= el.y && candidate.y <= el.y + el.h);
+          return (
+            <Element key={i} el={el} i={i} animate={animate} step={step}
+              marker={`url(#arrow-${uid})`} hostRect={hostRect} hasInnerText={hasInnerText} />
+          );
+        })}
       </svg>
     </div>
   );
 }
 
-function Element({ el, i, animate, step, marker }: { el: WhiteboardElement; i: number; animate: boolean; step: number; marker: string }) {
+type RectElement = Extract<WhiteboardElement, { k: 'rect' }>;
+
+function Element({ el, i, animate, step, marker, hostRect, hasInnerText }: {
+  el: WhiteboardElement;
+  i: number;
+  animate: boolean;
+  step: number;
+  marker: string;
+  hostRect?: RectElement;
+  hasInnerText?: boolean;
+}) {
   const delay = `${i * step}s`;
   const drawStyle = animate ? { animationDelay: delay } : undefined;
   const drawCls = animate ? 'wb-draw' : '';
@@ -68,7 +87,7 @@ function Element({ el, i, animate, step, marker }: { el: WhiteboardElement; i: n
           <rect x={el.x} y={el.y} width={el.w} height={el.h} rx={1.5}
             style={{ stroke: c, fill: el.fill ? c : 'transparent', fillOpacity: el.fill ? 0.12 : 0 }}
             strokeWidth={1.2} vectorEffect="non-scaling-stroke" />
-          {el.label && <text x={el.x + el.w / 2} y={el.y + el.h / 2} fontSize={4.5} textAnchor="middle" dominantBaseline="central" style={{ fill: c }}>{el.label}</text>}
+          {el.label && <ShapeLabel rect={el} color={c} compact={Boolean(hasInnerText)} />}
         </g>
       );
     case 'circle':
@@ -88,10 +107,40 @@ function Element({ el, i, animate, step, marker }: { el: WhiteboardElement; i: n
         </g>
       );
     case 'text':
+      if (hostRect) {
+        const glyphs = Math.max(1, Array.from(el.value).length);
+        const fontSize = Math.max(2.5, Math.min(el.size ?? 5, hostRect.h * 0.42, (hostRect.w - 3) / (glyphs * 0.72)));
+        return (
+          <text x={hostRect.x + hostRect.w / 2} y={hostRect.y + hostRect.h * 0.66}
+            fontSize={fontSize} textAnchor="middle" dominantBaseline="central"
+            className={fadeCls} style={{ ...drawStyle, fill: c, fontWeight: el.bold ? 800 : 600 }}>
+            {el.value}
+          </text>
+        );
+      }
       return (
         <text x={el.x} y={el.y} fontSize={el.size ?? 5} className={fadeCls} style={{ ...drawStyle, fill: c, fontWeight: el.bold ? 800 : 600 }}>{el.value}</text>
       );
     default:
       return null;
   }
+}
+
+function ShapeLabel({ rect, color, compact }: { rect: RectElement; color: string; compact: boolean }) {
+  const x = rect.x + 1;
+  const y = rect.y + (compact ? 1 : 1.5);
+  const width = Math.max(1, rect.w - 2);
+  const height = compact ? Math.max(4, rect.h * 0.28) : Math.max(1, rect.h - 3);
+  const fontSize = compact ? 2.8 : rect.label && rect.label.length > 14 ? 3.1 : 3.6;
+  return (
+    <foreignObject x={x} y={y} width={width} height={height} pointerEvents="none">
+      <div className="wb-shape-label" style={{
+        width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+        overflow: 'hidden', textAlign: 'center', overflowWrap: 'anywhere', lineHeight: 1.05,
+        fontSize: `${fontSize}px`, fontWeight: 700, color, boxSizing: 'border-box', padding: '0 .4px'
+      }}>
+        {rect.label}
+      </div>
+    </foreignObject>
+  );
 }

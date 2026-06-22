@@ -189,7 +189,7 @@ DISPLAY blocks (LOOK-ONLY — the learner cannot tap, drag, place, move, or type
       {"k":"path","points":[{"x":n,"y":n}],"closed"?:true,"color"?:c}   // polyline/curve/freehand
       {"k":"text","x":n,"y":n,"value":string,"size"?:n,"color"?:c}
       {"k":"dot","x":n,"y":n,"label"?:string,"color"?:c}
-    color c ∈ ink|accent|red|green|blue|orange|purple. Use it to sketch diagrams (label boxes + arrows for processes/cause-effect), number bonds, geometry figures, graphs/axes, timelines, maps. Set "animate":true so it draws in as you talk.
+    color c ∈ ink|accent|red|green|blue|orange|purple. Shape labels render INSIDE their shape: keep them to 1-3 short words. Do not place a separate text element at the same position as a shape label; if adding an icon/text inside a labeled rectangle, put the label near the top and the content clearly below it. Keep every text element within its shape/canvas bounds. Use whiteboard to sketch diagrams (label boxes + arrows for processes/cause-effect), number bonds, geometry figures, graphs/axes, timelines, maps. Set "animate":true so it draws in as you talk.
 
 INTERACTIVE blocks (carry the answer key):
 - {"type":"multipleChoice","prompt": string,"options":[string],"correct": index,"explain"?: string}   // pick one
