@@ -11,9 +11,13 @@ import { ClassDetail } from './screens/ClassDetail.tsx';
 import { LessonEditor } from './screens/LessonEditor.tsx';
 import { LearnHome } from './screens/LearnHome.tsx';
 import { Classroom } from './screens/Classroom.tsx';
+import { ElementGallery } from './screens/ElementGallery.tsx';
 
 export function App() {
   const path = useRoute();
+
+  // Dev-only: not linked from any user-facing nav.
+  if (path === '/dev/elements') return <ElementGallery />;
 
   if (path === '/connect') return <ParentGate><ConnectBrain /></ParentGate>;
   if (path === '/parent') return <ParentGate><ParentDashboard /></ParentGate>;
