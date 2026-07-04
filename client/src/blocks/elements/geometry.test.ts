@@ -13,6 +13,11 @@ test('numberLineTicks marks every integer and flags evens big', () => {
   assert.equal(t.length, 11);
   assert.equal(t.find(x => x.n === 4)?.big, true);
 });
+test('numberLineTicks handles min === max without NaN', () => {
+  const t = numberLineTicks(5, 5);
+  assert.equal(t.length, 1);
+  assert.ok(Number.isFinite(t[0]!.x), 'x must be finite');
+});
 test('pieSlices returns one path per slice', () => {
   assert.equal(pieSlices(4).length, 4);
 });

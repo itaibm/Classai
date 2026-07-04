@@ -62,7 +62,7 @@ export function numberLineTicks(
 
   for (let i = 0; i < count; i++) {
     const n = min + i;
-    const x = startX + (i / (count - 1)) * width;
+    const x = count === 1 ? startX + width / 2 : startX + (i / (count - 1)) * width;
     result.push({
       n,
       x,
