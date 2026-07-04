@@ -41,4 +41,35 @@ export const GALLERY_SAMPLES: LessonElement[] = [
     label: 'A dog barking',
     listenTask: 'Listen closely — what do you hear?',
   },
+  {
+    type: 'numberLine',
+    min: 0,
+    max: 12,
+    step: 3,
+    jumps: [0, 3, 6, 9],
+    target: 9,
+  },
+  {
+    type: 'baseTen',
+    value: 47,
+    mode: 'blocks',
+    target: 47,
+  },
+  {
+    type: 'fraction',
+    whole: ['circle'],
+    num: 3,
+    den: 4,
+  },
+  {
+    type: 'barModel',
+    whole: 12,
+    parts: [7, '?'],
+    label: 'There are 12 sweets. 7 are red, the rest are blue.',
+  },
+  {
+    type: 'numberBond',
+    whole: 10,
+    parts: [6, '?'],
+  },
 ];

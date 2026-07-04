@@ -5,6 +5,12 @@ import { ImageElement } from './image.tsx';
 import { VideoElement } from './video.tsx';
 import { SceneElement } from './scene.tsx';
 import { AudioElement } from './audio.tsx';
+import { ArrayElement } from './array.tsx';
+import { NumberLineElement } from './numberLine.tsx';
+import { BaseTenElement } from './baseTen.tsx';
+import { FractionElement } from './fraction.tsx';
+import { BarModelElement } from './barModel.tsx';
+import { NumberBondElement } from './numberBond.tsx';
 
 /**
  * Maps an element `type` to its React renderer. Empty at first — each
@@ -17,6 +23,12 @@ export const ELEMENT_REGISTRY: Partial<Record<ElementType, React.FC<ElementProps
   video: VideoElement as React.FC<ElementProps>,
   scene: SceneElement as React.FC<ElementProps>,
   audio: AudioElement as React.FC<ElementProps>,
+  array: ArrayElement as React.FC<ElementProps>,
+  numberLine: NumberLineElement as React.FC<ElementProps>,
+  baseTen: BaseTenElement as React.FC<ElementProps>,
+  fraction: FractionElement as React.FC<ElementProps>,
+  barModel: BarModelElement as React.FC<ElementProps>,
+  numberBond: NumberBondElement as React.FC<ElementProps>,
 };
 
 export function hasRenderer(t: ElementType): boolean {
