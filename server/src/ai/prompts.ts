@@ -17,6 +17,8 @@ import type {
   Course,
   Topic,
   Lesson,
+  LessonBeatFull,
+  PracticeItem,
   LearnerModel,
   WorkingMemory,
   SubjectProfile,
@@ -363,6 +365,121 @@ export function turnDirective(args: {
   }
   lines.push('--- end state ---');
   return lines.join('\n');
+}
+
+// ===========================================================================
+// Authored-lesson STATE + DIRECTIVE (curriculum `classai-lesson/1`)
+//
+// For hand-built lessons the director owns the control flow and supplies the
+// authored beat data verbatim. The LLM's job narrows to voicing the script
+// (personalizing only interest nouns) and, for free text, judging the answer.
+// This is what makes the prompt log show authored scripts/remedies each turn.
+// ===========================================================================
+
+export type AuthoredMode =
+  | 'teach'
+  | 'recap'
+  | 'check'
+  | 'checkRemedy'
+  | 'practice'
+  | 'practiceHint'
+  | 'reteach'
+  | 'endOnSuccess';
+
+export function authoredDirective(args: {
+  beatNo: number;
+  beatTotal: number;
+  beat: LessonBeatFull;
+  emphasize: string[];
+  interests: string[];
+  personalization: string;
+  mode: AuthoredMode;
+  authoredBlock: boolean;
+  item?: PracticeItem;
+  practiceLevel?: number;
+  correctSoFar?: number;
+  hint?: string;
+  remedy?: { why: string; remedy: string };
+  reteachSay?: string;
+  stuck?: string[];
+  endOnSuccessNote?: string;
+  working: WorkingMemory;
+  minutesElapsed: number;
+  softLimitMin: number;
+}): string {
+  const { beat, working: w } = args;
+  const script = beat.script?.say?.trim();
+  const adaptHints = beat.script?.adaptHints?.trim();
+  const swapNote =
+    `Personalize ONLY names and interest nouns (learner likes: ${args.interests.join(', ') || '—'}); ` +
+    `NEVER change any number, quantity, maths, spelling target, or fact. ${args.personalization || ''}`.trim();
+
+  let directive: string;
+  switch (args.mode) {
+    case 'teach':
+      directive =
+        `Deliver the SCRIPT below essentially VERBATIM in character (warm, short sentences), personalizing only per the hints. ` +
+        (args.authoredBlock
+          ? `Present the AUTHORED block(s) exactly as given — do NOT invent, replace, or regenerate them. `
+          : `No block this turn unless the script implies one. `) +
+        `Then hand back to the learner.`;
+      break;
+    case 'recap':
+      directive =
+        `This is the RECAP. Voice the recap script warmly and invite ${'the learner'} to state the rule in their OWN words (wait for their reply). ` +
+        `End on an earned win with SPECIFIC PROCESS praise — what they DID (built first, counted in tens, self-corrected) — never "you're so clever".`;
+      break;
+    case 'check':
+      directive =
+        `Ask this check using the AUTHORED block below (present it exactly). Keep your speech a short, warm setup — the block carries the question. Do NOT reveal the answer.`;
+      break;
+    case 'checkRemedy':
+      directive =
+        `The learner answered WRONG. Do NOT reveal the answer and do NOT advance. ` +
+        (args.remedy
+          ? `Their likely error: ${args.remedy.why}. Use THIS remedy move: "${args.remedy.remedy}". `
+          : `Diagnose why, then give ONE small hint. `) +
+        `Re-ask with the same block. Keep it emotionally safe.` +
+        (args.stuck?.length ? ` STUCK PROTOCOL (follow in order): ${args.stuck.join(' → ')}` : '');
+      break;
+    case 'practice':
+      directive =
+        `PRACTICE. Give a one-line warm setup for the item below (AUTHORED block — present exactly) and let them try. ` +
+        `Frame with the learner's interests if natural, but NEVER change the numbers/answer.`;
+      break;
+    case 'practiceHint':
+      directive =
+        `The learner MISSED this item. Do NOT reveal the answer. ` +
+        (args.remedy ? `Their error: ${args.remedy.why}. ` : '') +
+        `Give exactly ONE nudge: "${args.hint || 'try a smaller step'}". Re-ask the SAME item (block below). Mistakes are information.`;
+      break;
+    case 'reteach':
+      directive =
+        `RETEACH — they've missed this skill twice. Give a FRESH, SMALLER re-explanation (not a repeat) in your voice, based on: "${args.reteachSay || ''}". ` +
+        (args.authoredBlock ? `Show the visual below. ` : '') +
+        `Warm and steady; then they'll try an easier one.`;
+      break;
+    case 'endOnSuccess':
+      directive =
+        `END ON SUCCESS. This is a deliberately winnable item so the lesson ends on a real win. Present the block; keep the setup light and confident. ` +
+        `When they get it, celebrate with SPECIFIC PROCESS praise. ${args.endOnSuccessNote || ''}`;
+      break;
+  }
+
+  const lines = [
+    '--- LESSON STATE (not spoken) ---',
+    `beat ${args.beatNo}/${args.beatTotal} [${beat.kind}] delivery:${beat.delivery}: ${beat.goal}`,
+    beat.successCriteria ? `  done when: ${beat.successCriteria}` : '',
+    args.emphasize.length ? `MUST land: ${args.emphasize.join(' | ')}` : '',
+    `PERSONALIZATION: ${swapNote}`,
+    args.item ? `practice item ${args.item.id} — skill "${args.item.skill}", level ${args.item.level}${typeof args.practiceLevel === 'number' ? ` (current level ${args.practiceLevel})` : ''}; answered correct so far: ${args.correctSoFar ?? 0}` : '',
+    `momentum: ${w.momentum} | struggle streak: ${w.struggleStreak} | minutes: ${args.minutesElapsed}/${args.softLimitMin}`,
+    script ? `SCRIPT (say this, essentially verbatim): "${script}"` : '',
+    adaptHints ? `adapt hints: ${adaptHints}` : '',
+    `DIRECTIVE: ${directive}`,
+    '--- end state ---'
+  ];
+  return lines.filter(Boolean).join('\n');
 }
 
 // ===========================================================================

@@ -6,6 +6,7 @@ import type {
   AISuggestion,
   ClassDefinition,
   ClassEnrollment,
+  CurriculumAttachment,
   Kid,
   KnowledgeMaterial,
   LearnerModel,
@@ -113,6 +114,12 @@ CREATE TABLE IF NOT EXISTS ai_suggestions (
   UNIQUE(sourceSessionId, sourceTurnTs),
   FOREIGN KEY(classId) REFERENCES classes(id) ON DELETE CASCADE,
   FOREIGN KEY(sourceSessionId) REFERENCES sessions(id) ON DELETE CASCADE
+);
+CREATE TABLE IF NOT EXISTS curriculum_attachments (
+  id TEXT PRIMARY KEY, classId TEXT NOT NULL, curriculumId TEXT NOT NULL,
+  contentHash TEXT NOT NULL, title TEXT NOT NULL, createdAt TEXT NOT NULL,
+  UNIQUE(classId, curriculumId),
+  FOREIGN KEY(classId) REFERENCES classes(id) ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 PRAGMA user_version = 2;
@@ -505,6 +512,27 @@ function rowToSession(row: any): Session {
     report: P(row.report, undefined as Session['report'])
   };
 }
+
+export const curriculumAttachments = {
+  listByClass: (classId: string): CurriculumAttachment[] =>
+    db.prepare('SELECT * FROM curriculum_attachments WHERE classId=? ORDER BY createdAt')
+      .all(classId) as unknown as CurriculumAttachment[],
+  get(id: string): CurriculumAttachment | undefined {
+    return db.prepare('SELECT * FROM curriculum_attachments WHERE id=?').get(id) as unknown as
+      | CurriculumAttachment
+      | undefined;
+  },
+  getByClassAndCurriculum(classId: string, curriculumId: string): CurriculumAttachment | undefined {
+    return db.prepare('SELECT * FROM curriculum_attachments WHERE classId=? AND curriculumId=?')
+      .get(classId, curriculumId) as unknown as CurriculumAttachment | undefined;
+  },
+  insert(item: CurriculumAttachment): CurriculumAttachment {
+    db.prepare('INSERT OR IGNORE INTO curriculum_attachments (id,classId,curriculumId,contentHash,title,createdAt) VALUES (?,?,?,?,?,?)')
+      .run(item.id, item.classId, item.curriculumId, item.contentHash, item.title, item.createdAt);
+    return this.getByClassAndCurriculum(item.classId, item.curriculumId) ?? item;
+  },
+  remove: (id: string): void => void db.prepare('DELETE FROM curriculum_attachments WHERE id=?').run(id)
+};
 
 export const settings = {
   get(key: string): string | undefined {

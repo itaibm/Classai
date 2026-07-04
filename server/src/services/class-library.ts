@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid';
 import type {
   ClassDefinition,
   ClassEnrollment,
+  CurriculumAttachment,
   KnowledgeMaterial,
   SchoolYear,
   Topic
@@ -12,6 +13,7 @@ import { getBrain } from '../ai/provider.ts';
 import { generateStructured, SyllabusSchema } from '../ai/schemas.ts';
 import { syllabusPrompt } from '../ai/prompts.ts';
 import { resolveSubjectKey } from '../ai/subjects.ts';
+import { getCurriculumLesson } from './curriculum.ts';
 
 const now = () => new Date().toISOString();
 
@@ -91,6 +93,23 @@ export function addKnowledgeMaterial(classId: string, input: {
     status: 'ready',
     createdAt: timestamp,
     updatedAt: timestamp
+  });
+}
+
+/** Attach an authored curriculum lesson to a class by reference (disk = truth).
+ *  Stores only id + content hash; the file is re-read fresh at session start. */
+export function attachCurriculumLesson(classId: string, curriculumId: string): CurriculumAttachment {
+  const classDefinition = db.classes.get(classId);
+  if (!classDefinition) throw new Error('class not found');
+  const lesson = getCurriculumLesson(curriculumId);
+  if (!lesson) throw new Error('curriculum lesson not found');
+  return db.curriculumAttachments.insert({
+    id: nanoid(),
+    classId,
+    curriculumId,
+    contentHash: lesson.contentHash || '',
+    title: lesson.title,
+    createdAt: now()
   });
 }
 

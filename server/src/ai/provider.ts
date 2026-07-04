@@ -46,8 +46,41 @@ export class NoBrainError extends Error {
   }
 }
 
+/** Dev/test-only canned brain. Inert unless CLASSAI_MOCK_BRAIN=1 is set
+ *  explicitly — it ships no key and is never reachable in normal use. */
+export function mockBrainEnabled(): boolean {
+  return process.env.CLASSAI_MOCK_BRAIN === '1';
+}
+
+function mockGenerate(opts: GenerateOptions): string {
+  const s = opts.system || '';
+  if (/\{"correct": boolean\}/.test(s) || /grade a young learner/i.test(s)) return '{"correct": true}';
+  if (/progress report/i.test(s)) {
+    return JSON.stringify({ summary: 'Mock session report.', mastered: [], needsWork: [], highlights: [], nextSteps: '', concerns: [], score: 70 });
+  }
+  if (/evolving profile/i.test(s)) return JSON.stringify({ summary: 'Mock learner summary.', preferences: '' });
+  if (/curriculum designer/i.test(s)) {
+    return JSON.stringify({ title: 'Mock', description: '', topics: [{ title: 'Topic', summary: '', estMinutes: 20, prerequisites: [] }] });
+  }
+  // Default: a valid teaching turn (the director overrides blocks in authored mode).
+  return JSON.stringify({
+    speech: 'Mock tutor speaking.',
+    emotion: 'happy',
+    answerEval: 'na',
+    awaitResponse: false,
+    beatComplete: false,
+    memoryUpdates: [],
+    lessonComplete: false
+  });
+}
+
+function mockBrain(): Brain {
+  return { vendor: 'local', model: 'mock', async generate(opts) { return mockGenerate(opts); } };
+}
+
 /** Build the active brain from the default connected profile. */
 export async function getBrain(profileId?: string): Promise<Brain> {
+  if (mockBrainEnabled()) return withPromptLog(mockBrain());
   const id = profileId || authStore.getDefaultId();
   const profile = id ? authStore.getStored(id) : undefined;
   if (!profile) throw new NoBrainError();

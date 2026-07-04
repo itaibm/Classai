@@ -12,6 +12,12 @@ export const DATA_DIR = path.resolve(
   process.env.CLASSAI_DATA_DIR || './data'
 );
 
+/** Where the authored `classai-lesson/1` curriculum files live (disk = truth). */
+export const CURRICULUM_DIR = path.resolve(
+  repoRoot,
+  process.env.CLASSAI_CURRICULUM_DIR || './curriculum'
+);
+
 /** Where per-user brain credentials live (git-ignored, never sent to client). */
 export const AUTH_PROFILES_PATH = path.join(DATA_DIR, 'auth-profiles.json');
 

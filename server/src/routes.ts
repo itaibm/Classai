@@ -7,11 +7,13 @@ import type {
   Kid,
   KidResponse,
   Lesson,
+  LessonFull,
   WeeklySchedule,
   ScheduleEntry,
   Weekday
 } from '../../shared/types.ts';
-import { WEEKDAYS } from '../../shared/types.ts';
+import { WEEKDAYS, isLessonFull } from '../../shared/types.ts';
+import { curriculumTree, getCurriculumLesson } from './services/curriculum.ts';
 import * as db from './db/index.ts';
 import { authStore, profileId } from './ai/auth-store.ts';
 import { getBrain, MODEL_OPTIONS, NoBrainError } from './ai/provider.ts';
@@ -24,6 +26,7 @@ import {
 } from './ai/oauth.ts';
 import {
   addKnowledgeMaterial,
+  attachCurriculumLesson,
   buildSyllabus,
   createClass,
   createSchoolYear,
@@ -266,6 +269,33 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     return { ok: true };
   });
 
+  // ---- curriculum library (authored classai-lesson/1 files) ----------------
+
+  app.get('/api/curriculum', async () => ({ years: curriculumTree() }));
+
+  app.get('/api/curriculum/lessons/:id', async (req, reply) => {
+    const lesson = getCurriculumLesson((req.params as { id: string }).id);
+    if (!lesson) return reply.status(404).send({ error: 'curriculum lesson not found' });
+    return { lesson };
+  });
+
+  // Attach a curriculum lesson to a class (reference + hash; disk stays truth).
+  app.post('/api/classes/:id/curriculum', async (req, reply) => {
+    const classId = (req.params as { id: string }).id;
+    const curriculumId = (req.body as { curriculumId?: string })?.curriculumId;
+    if (!curriculumId) return reply.status(400).send({ error: 'curriculumId required' });
+    try {
+      return { attachment: attachCurriculumLesson(classId, curriculumId) };
+    } catch (error: any) {
+      return reply.status(404).send({ error: error.message });
+    }
+  });
+
+  app.delete('/api/curriculum/attachments/:id', async (req) => {
+    db.curriculumAttachments.remove((req.params as { id: string }).id);
+    return { ok: true };
+  });
+
   // ---- kids ----------------------------------------------------------------
 
   app.get('/api/kids', async () => ({ kids: db.kids.list() }));
@@ -370,6 +400,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       topics: db.topics.listByClass(classDefinition.id),
       materials: db.knowledgeMaterials.listByClass(classDefinition.id),
       lessons: db.lessons.listByClass(classDefinition.id),
+      curriculumAttachments: db.curriculumAttachments.listByClass(classDefinition.id),
       suggestions: db.aiSuggestions.listByClass(classDefinition.id),
       enrolledKids,
       allKids: db.kids.list()
@@ -419,13 +450,15 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       if (!classDefinition) return [];
       const topics = db.topics.listByClass(classDefinition.id);
       const approvedLessons = db.lessons.listByClass(classDefinition.id).filter((lesson) => lesson.status === 'approved');
+      const curriculumLessons = db.curriculumAttachments.listByClass(classDefinition.id);
       return [{
         classDefinition,
         year: db.schoolYears.get(classDefinition.yearId),
         progress: courseProgress(classDefinition, topics, model),
         recommendation: recommendNext(classDefinition, topics, model),
         topicCount: topics.length,
-        approvedLessons
+        approvedLessons,
+        curriculumLessons
       }];
     });
     return { classes };
@@ -490,14 +523,30 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   // ---- live teaching -------------------------------------------------------
 
   app.post('/api/lessons/:id/start', async (req, reply) => {
-    const lesson = db.lessons.get((req.params as { id: string }).id);
-    if (!lesson) return reply.status(404).send({ error: 'lesson not found' });
+    const id = (req.params as { id: string }).id;
     const kidId = (req.body as { kidId?: string })?.kidId;
     if (!kidId) return reply.status(400).send({ error: 'kidId required' });
     const kid = db.kids.get(kidId);
+    if (!kid) return reply.status(404).send({ error: 'learner not found' });
+
+    // A lesson id is either a generated blueprint OR a curriculum attachment.
+    let lesson: Lesson | LessonFull | undefined = db.lessons.get(id);
+    if (!lesson) {
+      const attachment = db.curriculumAttachments.get(id);
+      if (attachment) {
+        const full = getCurriculumLesson(attachment.curriculumId); // re-read fresh from disk
+        if (!full) return reply.status(404).send({ error: 'curriculum file is missing or invalid' });
+        full.classId = attachment.classId;
+        full.id = attachment.id; // stable session lessonId; curriculumId stays the file id
+        lesson = full;
+      }
+    }
+    if (!lesson) return reply.status(404).send({ error: 'lesson not found' });
+
     const classDefinition = db.classes.get(lesson.classId);
-    if (!kid || !classDefinition) return reply.status(404).send({ error: 'context missing' });
-    if (lesson.status !== 'approved') return reply.status(409).send({ error: 'lesson is not approved' });
+    if (!classDefinition) return reply.status(404).send({ error: 'context missing' });
+    // Generated blueprints must be approved; curriculum files ship approved.
+    if (!isLessonFull(lesson) && lesson.status !== 'approved') return reply.status(409).send({ error: 'lesson is not approved' });
     if (!db.enrollments.get(lesson.classId, kidId)) return reply.status(409).send({ error: 'learner is not enrolled in this class' });
     const session = startSession(kid, classDefinition, lesson);
     return { sessionId: session.id };

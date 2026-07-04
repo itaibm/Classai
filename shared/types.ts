@@ -230,6 +230,152 @@ export interface Lesson {
   updatedAt: string;
 }
 
+// ---------------------------------------------------------------------------
+// Authored curriculum lessons (`classai-lesson/1`)
+//
+// A fully hand-built lesson is a SUPERSET of `Lesson`: same core fields, plus
+// verbatim scripts, authored blocks, a graded practice bank, explicit
+// adaptivity rules, delivery modes (human/video/ai) and curated video. These
+// files live on disk under curriculum/ and are the source of truth; the app
+// loads and plays them. All additions are additive — `Lesson` is untouched.
+// ---------------------------------------------------------------------------
+
+export type BeatDelivery = 'human' | 'video' | 'ai';
+
+/** Verbatim character/human speech for a beat, with personalization guidance. */
+export interface BeatScript {
+  say: string;
+  adaptHints?: string;
+}
+
+/** A human-run beat's setup and the exact cue that hands control back to the AI. */
+export interface HumanHandoff {
+  setup: string;
+  cueToResume: string;
+}
+
+/** One authored teaching beat — extends the generated `LessonBeat`. */
+export interface LessonBeatFull extends LessonBeat {
+  delivery: BeatDelivery;
+  timeboxMin?: [number, number];
+  script?: BeatScript;
+  blocks?: LessonBlock[];
+  humanHandoff?: HumanHandoff;
+  stuckProtocol?: string[];
+}
+
+/** A single graded practice item the director draws from during practice. */
+export interface PracticeItem {
+  id: string;
+  skill: string;
+  level: 1 | 2 | 3;
+  block: LessonBlock;
+  expectedAnswer: string;
+  wrongAnswers: WrongAnswer[];
+  hints: string[];
+  reteach: { say: string; block?: LessonBlock };
+  interestSlots?: string[];
+}
+
+/** Explicit adaptivity rules that drive the practice engine deterministically. */
+export interface LessonAdaptivity {
+  startLevel: 1 | 2 | 3;
+  levelUp: string;
+  levelDown: string;
+  masterySignal: string;
+  struggleProtocol: string[];
+  personalization: string;
+  endOnSuccess: string;
+}
+
+/** A verified, curated teaching video with an active watch task + after-check. */
+export interface CuratedVideo {
+  role: 'hook' | 'teach' | 'reinforce';
+  url?: string; // verified link; when absent, resolve via searchTerm/channel or skip
+  title?: string;
+  channel?: string;
+  searchTerm?: string;
+  verifiedAt?: string;
+  watchTask: string;
+  afterCheck?: { question: string; expectedAnswer: string };
+}
+
+export interface LessonFull extends Lesson {
+  format: 'classai-lesson/1';
+  year: number;
+  subjectLabel: string;
+  unit: { number: number; title: string; essentialQuestion: string };
+  lessonNumber: number;
+  durationMin: number;
+  vocabulary: { term: string; definition: string; example?: string }[];
+  emphasize: string[];
+  materials: { human: string[]; digital: string[] };
+  delivery: { mode: 'fully_ai' | 'human_intro_then_ai' | 'video_then_ai' | 'human_lesson'; humanNotes: string };
+  video?: CuratedVideo;
+  plan: LessonBeatFull[];
+  practiceBank: PracticeItem[];
+  adaptivity: LessonAdaptivity;
+  differentiation: { support: string; stretch: string };
+  extension: string;
+  assessmentEvidence: string;
+  revisitLater: string;
+  /** Set when this lesson was loaded from disk: its stable curriculum id + hash. */
+  curriculumId?: string;
+  contentHash?: string;
+}
+
+/** Runtime check: is this session running an authored curriculum lesson? */
+export function isLessonFull(lesson: Lesson | LessonFull | undefined | null): lesson is LessonFull {
+  return !!lesson && (lesson as LessonFull).format === 'classai-lesson/1';
+}
+
+// ---------------------------------------------------------------------------
+// Curriculum library (on-disk `classai-lesson/1` files → browsable tree)
+// ---------------------------------------------------------------------------
+
+/** One lesson as it appears in the browsable curriculum tree (summary only). */
+export interface CurriculumLessonSummary {
+  id: string; // e.g. "y2-maths-u1-l01"
+  lessonNumber: number;
+  title: string;
+  topic: string;
+  durationMin: number;
+  deliveryMode: LessonFull['delivery']['mode'];
+  kind: LessonKind;
+  status: string;
+  valid: boolean;
+  contentHash: string;
+}
+
+export interface CurriculumUnit {
+  number: number;
+  title: string;
+  essentialQuestion: string;
+  lessons: CurriculumLessonSummary[];
+}
+
+export interface CurriculumSubject {
+  subject: string; // folder name, e.g. "maths"
+  subjectKey: SubjectKey;
+  subjectLabel: string;
+  units: CurriculumUnit[];
+}
+
+export interface CurriculumYear {
+  year: number;
+  subjects: CurriculumSubject[];
+}
+
+/** A curriculum lesson attached to a class (reference + hash; disk is truth). */
+export interface CurriculumAttachment {
+  id: string;
+  classId: string;
+  curriculumId: string;
+  contentHash: string;
+  title: string;
+  createdAt: string;
+}
+
 export interface AISuggestion {
   id: string;
   classId: string;
@@ -423,6 +569,16 @@ export interface MemoryUpdate {
 /** How the teacher judged the learner's last answer. */
 export type AnswerEval = 'correct' | 'partial' | 'incorrect' | 'na';
 
+/** A full-screen parent handoff card shown during a `human` delivery beat. */
+export interface HandoffCard {
+  setup: string; // what the parent lays out / runs
+  notes: string[]; // delivery.humanNotes + beat guidance
+  materials: string[]; // materials.human to have ready
+  script?: string; // the verbatim lines the parent says, in their own words
+  cueToResume: string; // the exact moment the AI takes over again
+  continueLabel: string; // the resume button, e.g. "We did it — continue"
+}
+
 /** Structured object the brain returns on every beat of a lesson. */
 export interface TeacherTurn {
   speech: string; // spoken aloud (short, kid-friendly); also shown as captions
@@ -438,6 +594,9 @@ export interface TeacherTurn {
   memoryUpdates: MemoryUpdate[];
   concern?: string; // set if the kid said something a parent should see
   lessonComplete: boolean;
+  // ---- authored-lesson extensions (deterministic, set by the director) ----
+  handoff?: HandoffCard; // human beat: client shows a handoff card instead of TTS
+  watchTask?: string; // curated-video turn: what to watch for, shown before play
 }
 
 // ---------------------------------------------------------------------------
@@ -489,6 +648,43 @@ export interface WorkingMemory {
   // it to inject a change-approach directive.
   lastBlockType?: string;
   sameDisplayBlockStreak?: number;
+  // ---- authored-lesson director state (only set for `classai-lesson/1`) ----
+  practice?: PracticeState; // the practice-bank adaptivity state machine
+  authored?: AuthoredState; // where we are within the authored beat sequence
+}
+
+/** Deterministic practice-bank adaptivity state (see teach/practice.ts). */
+export interface PracticeState {
+  currentLevel: 1 | 2 | 3;
+  consecutiveCorrect: number; // correct-in-a-row at the current level
+  missesBySkill: Record<string, number>; // consecutive misses per skill
+  usedItemIds: string[]; // items already served this session
+  attemptsByItem: Record<string, number>; // attempts on the currently-open item (hint ladder)
+  correctCount: number; // total practice items answered correctly
+  askedCount: number; // total practice items served
+  currentItemId?: string; // the item awaiting an answer
+  lastItemId?: string; // last served item (no back-to-back repeats)
+  pendingReteachItemId?: string; // an item whose reteach must run next
+  earnedSuccess: boolean; // the practice/recap phase ended on a correct answer
+  lastWasMiss: boolean; // the most recent practice answer was wrong
+}
+
+/** What the last authored turn is waiting on — drives the director's transitions. */
+export type AuthoredPending =
+  | 'human' // a parent handoff card is showing; waiting for the resume tap
+  | 'video_watch' // a curated video is playing; waiting for "I watched it"
+  | 'video_check' // the video after-check question is out; waiting for the answer
+  | 'beat_present' // a hook/explain/example/recap turn is out; waiting for continue
+  | 'beat_check' // a check block is out; waiting for the answer
+  | 'practice_item' // a practice item is out; waiting for the answer
+  | 'reteach' // a reteach explanation is out; waiting for continue
+  | 'recovery_item'; // an end-on-success item is out; waiting for the answer
+
+/** Tracks progress through an authored lesson's special (non-LLM) moments. */
+export interface AuthoredState {
+  pending?: AuthoredPending; // what the last turn asked, resolved on the next response
+  humanRunEnd?: number; // beatIndex to resume at after a merged run of human beats
+  videoDone?: boolean; // the lesson-level curated video has been shown (or skipped)
 }
 
 export interface MemoryEpisode {
@@ -526,7 +722,8 @@ export interface Session {
   kidId: string;
   classId: string;
   lessonId: string;
-  lessonSnapshot: Lesson;
+  lessonSnapshot: Lesson | LessonFull;
+  curriculumId?: string; // set when the session runs an authored curriculum lesson
   subject: string;
   topic: string;
   status: 'active' | 'ended';
