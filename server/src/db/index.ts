@@ -492,12 +492,16 @@ export const sessions = {
 };
 
 function rowToSession(row: any): Session {
+  const lessonSnapshot = P(row.lessonSnapshot, {} as Lesson);
   return {
     id: row.id,
     kidId: row.kidId,
     classId: row.classId,
     lessonId: row.lessonId,
-    lessonSnapshot: P(row.lessonSnapshot, {} as Lesson),
+    lessonSnapshot,
+    // Derived from the snapshot (which carries it for authored lessons) so no
+    // schema migration is needed to surface it in reports/history.
+    curriculumId: (lessonSnapshot as { curriculumId?: string }).curriculumId,
     subject: row.subject,
     topic: row.topic,
     status: row.status,

@@ -136,6 +136,22 @@ export function ClassDetail({ classId }: { classId: string }) {
                     );
                   })}
                 </ul>
+
+                <h3 style={{ marginTop: 20 }}>Curriculum lessons in this class</h3>
+                {data.curriculumAttachments.length === 0 && (
+                  <p className="muted small">None yet. Add hand-built lessons from the <button className="btn ghost small" onClick={() => navigate('/parent/library')}>Class library → Curriculum</button> tab.</p>
+                )}
+                <ul className="list-reset">
+                  {data.curriculumAttachments.map((attachment) => (
+                    <li key={attachment.id} className="row" style={{ justifyContent: 'space-between', alignItems: 'center', padding: '8px 0', borderBottom: '1px solid var(--line)' }}>
+                      <span>📘 {attachment.title} <span className="muted small"><code>{attachment.curriculumId}</code></span></span>
+                      <button
+                        className="btn ghost small"
+                        onClick={async () => { await api.detachCurriculum(attachment.id); show('Removed from class'); reload(); }}
+                      >Remove</button>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
 

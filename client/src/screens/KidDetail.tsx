@@ -118,6 +118,7 @@ export function KidDetail({ kidId }: { kidId: string }) {
                     <div className="row" style={{ justifyContent: 'space-between', alignItems: 'center' }}>
                       <div>
                         <strong>{s.topic}</strong> <span className="muted small">· {s.subject} · {new Date(s.startedAt).toLocaleDateString()}</span>
+                        {s.curriculumId && <span className="pill neutral" style={{ marginLeft: 8 }} title="Authored curriculum lesson"><code>{s.curriculumId}</code></span>}
                         {s.report?.concerns?.length ? <span className="pill warn" style={{ marginLeft: 8 }}>note for you</span> : null}
                       </div>
                       <div className="row" style={{ gap: 8, alignItems: 'center' }}>

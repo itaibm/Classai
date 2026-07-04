@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Kid, Lesson, TeacherTurn, Emotion, LessonReport, LessonBlock, BlockResult } from '@shared/types';
+import type { Kid, Lesson, TeacherTurn, Emotion, LessonReport, LessonBlock, BlockResult, HandoffCard } from '@shared/types';
 import { blockIsInteractive } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
@@ -30,6 +30,7 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
   const [report, setReport] = useState<LessonReport | null>(null);
   const [subjectKey, setSubjectKey] = useState<string>('');
   const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
+  const [handoff, setHandoff] = useState<HandoffCard | null>(null); // parent-run beat card
   const [turnSeq, setTurnSeq] = useState(0); // unique per turn → forces a fresh block instance
   const [hd, setHd] = useState(localStorage.getItem(HD_KEY) === '1');
   const [muted, setMuted] = useState(localStorage.getItem(MUTE_KEY) === '1');
@@ -121,6 +122,7 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
     clearWatchdog();
     setShown('');
     setBlocks([]);
+    setHandoff(null);
     setListening(false);
     try {
       const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
@@ -134,6 +136,21 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
 
   function present(turn: TeacherTurn, ended: boolean) {
     setEmotion(turn.emotion || 'neutral');
+    // Parent handoff beat: show the full-screen card, do NOT run TTS, and wait
+    // for the parent to tap resume. The session clock keeps running server-side;
+    // no further AI call happens until they continue.
+    if (turn.handoff) {
+      stopReveal();
+      clearWatchdog();
+      setCaptions('');
+      setShown('');
+      setBlocks([]);
+      setHandoff(turn.handoff);
+      setMouthOpen(0);
+      setPhase('awaiting');
+      return;
+    }
+    setHandoff(null);
     setCaptions(turn.speech);
     setBlocks(turn.blocks ?? (turn.block ? [turn.block] : []));
     // The turn expects a spoken/typed answer only if it says so, or its speech is
@@ -221,7 +238,7 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
   const speaking = phase === 'speaking';
   const interactiveIdx = blocks.findIndex((b) => blockIsInteractive(b));
   const interactive = interactiveIdx >= 0;
-  const awaitingNoBlock = phase === 'awaiting' && !interactive;
+  const awaitingNoBlock = phase === 'awaiting' && !interactive && !handoff;
   const showAnswerBar = awaitingNoBlock && expectsAnswer;
 
   // Auto-advance an explanation turn after a short, length-scaled pause — but ONLY
@@ -295,6 +312,64 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
             </div>
           )}
         </div>
+
+        {handoff && phase !== 'ended' && (
+          <div className="block-area">
+            <div className="card pad-lg handoff-card" style={{ maxWidth: 620, margin: '0 auto' }}>
+              <div className="row" style={{ gap: 8, alignItems: 'center' }}>
+                <span style={{ fontSize: 26 }}>🙋</span>
+                <h3 style={{ margin: 0 }}>Grown-up moment</h3>
+              </div>
+              <p className="muted" style={{ marginTop: 6 }}>
+                This part is hands-on — a parent or helper runs it with real materials. The tutor waits here.
+              </p>
+
+              {handoff.materials.length > 0 && (
+                <div style={{ marginTop: 12 }}>
+                  <strong>Have ready</strong>
+                  <ul style={{ margin: '6px 0 0', paddingLeft: 20 }}>
+                    {handoff.materials.map((m, i) => <li key={i}>{m}</li>)}
+                  </ul>
+                </div>
+              )}
+
+              {handoff.setup && (
+                <div style={{ marginTop: 12 }}>
+                  <strong>Set up</strong>
+                  <p style={{ margin: '6px 0 0' }}>{handoff.setup}</p>
+                </div>
+              )}
+
+              {handoff.script && (
+                <div style={{ marginTop: 12 }}>
+                  <strong>Say it (your own words are fine — keep the numbers exact)</strong>
+                  <blockquote style={{ margin: '6px 0 0', padding: '8px 12px', borderLeft: '3px solid var(--accent, #5b6cff)', whiteSpace: 'pre-wrap' }}>
+                    {handoff.script}
+                  </blockquote>
+                </div>
+              )}
+
+              {handoff.notes.length > 0 && (
+                <details style={{ marginTop: 12 }}>
+                  <summary className="muted">Teaching notes</summary>
+                  <ul style={{ margin: '6px 0 0', paddingLeft: 20 }}>
+                    {handoff.notes.map((n, i) => <li key={i} className="muted">{n}</li>)}
+                  </ul>
+                </details>
+              )}
+
+              {handoff.cueToResume && (
+                <p className="muted small" style={{ marginTop: 12 }}>
+                  ▸ Resume when: {handoff.cueToResume}
+                </p>
+              )}
+
+              <div className="row center" style={{ marginTop: 16 }}>
+                <button className="btn lg" onClick={onContinue}>{handoff.continueLabel || 'Continue ▶'}</button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* the tool-belt block(s) for this turn — a display block to explain may be
             paired with an interactive block to check; render them stacked. */}

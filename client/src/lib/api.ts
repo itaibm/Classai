@@ -21,7 +21,10 @@ import type {
   KidResponse,
   PromptLogEntry,
   PromptTemplate,
-  WeeklySchedule
+  WeeklySchedule,
+  CurriculumYear,
+  CurriculumAttachment,
+  LessonFull
 } from '@shared/types';
 
 async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
@@ -41,6 +44,7 @@ export interface ClassCard {
   recommendation: Recommendation | null;
   topicCount: number;
   approvedLessons: Lesson[];
+  curriculumLessons: CurriculumAttachment[];
 }
 
 export const api = {
@@ -115,6 +119,7 @@ export const api = {
       topics: Topic[];
       materials: KnowledgeMaterial[];
       lessons: Lesson[];
+      curriculumAttachments: CurriculumAttachment[];
       suggestions: AISuggestion[];
       enrolledKids: Kid[];
       allKids: Kid[];
@@ -149,6 +154,16 @@ export const api = {
   approveSuggestion: (id: string, lessonId?: string) =>
     req<{ suggestion: AISuggestion }>(`/suggestions/${id}/approve`, { method: 'POST', body: JSON.stringify({ lessonId }) }),
   discardSuggestion: (id: string) => req<{ suggestion: AISuggestion }>(`/suggestions/${id}/discard`, { method: 'POST' }),
+
+  // curriculum library (authored classai-lesson/1 files)
+  curriculum: () => req<{ years: CurriculumYear[] }>('/curriculum'),
+  curriculumLesson: (id: string) => req<{ lesson: LessonFull }>(`/curriculum/lessons/${encodeURIComponent(id)}`),
+  attachCurriculum: (classId: string, curriculumId: string) =>
+    req<{ attachment: CurriculumAttachment }>(`/classes/${classId}/curriculum`, {
+      method: 'POST', body: JSON.stringify({ curriculumId })
+    }),
+  detachCurriculum: (attachmentId: string) =>
+    req<{ ok: true }>(`/curriculum/attachments/${attachmentId}`, { method: 'DELETE' }),
 
   // teaching
   startLesson: (lessonId: string, kidId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {

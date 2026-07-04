@@ -4,14 +4,37 @@ import { navigate } from '../lib/router.ts';
 import { ErrorNote, Loading, Toast, TopBar, useAsync, useToast } from '../lib/ui.tsx';
 import { subjectColor } from '../lib/subject.ts';
 
+const DELIVERY_BADGE: Record<string, { label: string; cls: string }> = {
+  fully_ai: { label: '🤖 AI', cls: 'neutral' },
+  human_intro_then_ai: { label: '🙋 Parent intro', cls: 'warn' },
+  video_then_ai: { label: '🎬 Video + AI', cls: 'neutral' },
+  human_lesson: { label: '🙋 Parent-led', cls: 'warn' }
+};
+
 export function ClassLibrary() {
   const { data, loading, error, reload } = useAsync(() => api.library());
+  const curriculum = useAsync(() => api.curriculum());
   const { msg, show } = useToast();
+  const [tab, setTab] = useState<'structure' | 'curriculum'>('structure');
   const [yearName, setYearName] = useState('');
   const [yearId, setYearId] = useState('');
   const [subject, setSubject] = useState('');
   const [title, setTitle] = useState('');
   const [busy, setBusy] = useState(false);
+
+  const allClasses = (data?.years ?? []).flatMap((year) =>
+    year.classes.map((c) => ({ id: c.id, label: `${year.name} · ${c.title}` }))
+  );
+
+  async function attach(curriculumId: string, classId: string) {
+    if (!classId) return;
+    try {
+      await api.attachCurriculum(classId, curriculumId);
+      show('Added to class — it will appear in the learner’s lessons.');
+    } catch (cause: any) {
+      show(cause.message || 'Could not add lesson');
+    }
+  }
 
   async function addYear() {
     if (!yearName.trim()) return show('Enter a year name');
@@ -50,9 +73,73 @@ export function ClassLibrary() {
         <h1 style={{ marginBottom: 4 }}>Class library</h1>
         <p className="muted">Build each year and subject once, then enroll any learner who should take it.</p>
 
+        <div className="row" style={{ gap: 8, margin: '14px 0 6px' }}>
+          <button className={`btn ${tab === 'structure' ? '' : 'ghost'} small`} onClick={() => setTab('structure')}>Your classes</button>
+          <button className={`btn ${tab === 'curriculum' ? '' : 'ghost'} small`} onClick={() => setTab('curriculum')}>Curriculum</button>
+        </div>
+
+        {tab === 'curriculum' && (
+          <section style={{ marginTop: 10 }}>
+            <p className="muted">Hand-built, ready-to-play lessons. Add one to a class and it appears in that learner’s lessons — exactly as authored, not generated on the fly.</p>
+            {curriculum.loading && <Loading />}
+            {curriculum.error && <ErrorNote error={curriculum.error} onRetry={curriculum.reload} />}
+            {curriculum.data && curriculum.data.years.length === 0 && (
+              <div className="banner" style={{ marginTop: 12 }}>No curriculum files found on disk.</div>
+            )}
+            {curriculum.data?.years.map((year) => (
+              <section key={year.year} style={{ marginTop: 18 }}>
+                <h2>Year {year.year}</h2>
+                {year.subjects.map((subj) => (
+                  <div key={subj.subject} className="card" style={{ marginTop: 10, borderColor: subjectColor(subj.subjectKey).soft }}>
+                    <h3 className="row" style={{ gap: 8, alignItems: 'center' }}>
+                      <span className="today-dot" style={{ background: subjectColor(subj.subjectKey).accent }} />
+                      {subj.subjectLabel}
+                    </h3>
+                    {subj.units.map((unit) => (
+                      <details key={unit.number} style={{ marginTop: 8 }} open>
+                        <summary style={{ cursor: 'pointer' }}>
+                          <strong>Unit {unit.number}: {unit.title}</strong>
+                          {unit.essentialQuestion && <span className="muted small"> — {unit.essentialQuestion}</span>}
+                        </summary>
+                        <ul className="list-reset" style={{ marginTop: 8 }}>
+                          {unit.lessons.map((lesson) => {
+                            const badge = DELIVERY_BADGE[lesson.deliveryMode] ?? { label: '🤖 AI', cls: 'neutral' };
+                            return (
+                              <li key={lesson.id} className="row" style={{ justifyContent: 'space-between', alignItems: 'center', gap: 10, padding: '8px 0', borderBottom: '1px solid var(--line)' }}>
+                                <div style={{ minWidth: 0 }}>
+                                  <div className="row" style={{ gap: 6, alignItems: 'center', flexWrap: 'wrap' }}>
+                                    <strong>{lesson.lessonNumber}. {lesson.title}</strong>
+                                    <span className={`pill ${badge.cls}`}>{badge.label}</span>
+                                    <span className="pill neutral">{lesson.durationMin} min</span>
+                                    {lesson.valid ? <span className="pill good">✓ valid</span> : <span className="pill warn">needs review</span>}
+                                  </div>
+                                  <span className="muted small">{lesson.topic} · <code>{lesson.id}</code></span>
+                                </div>
+                                <select
+                                  className="small"
+                                  defaultValue=""
+                                  disabled={allClasses.length === 0}
+                                  onChange={(e) => { attach(lesson.id, e.target.value); e.target.value = ''; }}
+                                >
+                                  <option value="">＋ Add to class…</option>
+                                  {allClasses.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}
+                                </select>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </details>
+                    ))}
+                  </div>
+                ))}
+              </section>
+            ))}
+          </section>
+        )}
+
         {loading && <Loading />}
         {error && <ErrorNote error={error} onRetry={reload} />}
-        {data && (
+        {tab === 'structure' && data && (
           <>
             {data.years.length === 0 && (
               <div className="banner" style={{ margin: '18px 0' }}>

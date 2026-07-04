@@ -132,6 +132,19 @@ export function LearnHome({ kidId }: { kidId: string }) {
                         <Continue card={c} />
                       </div>
                       <div className="bar" style={{ margin: '12px 0 6px' }}><span style={{ width: `${Math.round(c.progress.completion * 100)}%` }} /></div>
+                      {c.curriculumLessons.length > 0 && (
+                        <div style={{ marginTop: 10 }}>
+                          <span className="muted small">Curriculum lessons</span>
+                          <ul className="list-reset" style={{ marginTop: 6 }}>
+                            {c.curriculumLessons.map((lesson) => (
+                              <li key={lesson.id} className="row" style={{ justifyContent: 'space-between', alignItems: 'center', padding: '8px 0', borderBottom: '1px solid var(--line)' }}>
+                                <span>📘 {lesson.title}</span>
+                                <button className="btn subject small" onClick={() => navigate(`/learn/${kidId}/lesson/${lesson.id}`)}>▶ Start</button>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       <details>
                         <summary className="muted small" style={{ cursor: 'pointer' }}>All topics</summary>
                         <ul className="list-reset" style={{ marginTop: 10 }}>
