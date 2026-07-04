@@ -43,7 +43,7 @@ export const VideoElement: React.FC<ElementProps<VideoEl>> = ({ el, mode, onResu
             height: 52,
             borderRadius: '50%',
             background: 'var(--el-accent)',
-            color: '#fff',
+            color: 'var(--el-on-accent)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',

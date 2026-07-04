@@ -18,6 +18,7 @@
   --el-faint: #8b95b0;
   --el-line: #e4e9f3;
   --el-accent: #4f46e5;
+  --el-on-accent: #ffffff;
   --el-accent-soft: #eef0fe;
   --el-blue: #3b82f6;
   --el-orange: #f97316;
@@ -41,6 +42,7 @@
     --el-faint: #69739033;
     --el-line: #27304a;
     --el-accent: #818cf8;
+    --el-on-accent: #ffffff;
     --el-accent-soft: #20264a;
     --el-blue: #60a5fa;
     --el-orange: #fb923c;
@@ -64,6 +66,7 @@
   --el-faint: #8b95b0;
   --el-line: #e4e9f3;
   --el-accent: #4f46e5;
+  --el-on-accent: #ffffff;
   --el-accent-soft: #eef0fe;
   --el-blue: #3b82f6;
   --el-orange: #f97316;
@@ -86,6 +89,7 @@
   --el-faint: #697390;
   --el-line: #27304a;
   --el-accent: #818cf8;
+  --el-on-accent: #ffffff;
   --el-accent-soft: #20264a;
   --el-blue: #60a5fa;
   --el-orange: #fb923c;

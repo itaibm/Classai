@@ -64,7 +64,7 @@ export const ELEMENT_JOB: Record<ElementType, ElementJob> = {
 
 /** Elements that can run in MANIPULATE mode (child acts -> reports a result). */
 export const MANIPULABLE: ElementType[] = [
-  'scene','video','audio',
+  'image','scene','video','audio',
   'array','numberLine','baseTen','fraction','barModel','numberBond','shape','grid','dataChart','measure',
   'wordBuild','textMark','sentence','diagram','map','timeline','sort','music','draw',
   'steps','choice','enter','speak'

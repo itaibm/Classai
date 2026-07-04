@@ -181,7 +181,7 @@ export const ImageElement: React.FC<ElementProps<ImageEl>> = ({ el, mode, onResu
                 borderRadius: isOpen ? 10 : 999,
                 whiteSpace: 'nowrap',
                 background: isOpen ? 'var(--el-accent)' : 'var(--el-surface)',
-                color: isOpen ? '#fff' : 'var(--el-ink)',
+                color: isOpen ? 'var(--el-on-accent)' : 'var(--el-ink)',
                 borderColor: 'var(--el-accent)',
               }}
             >
