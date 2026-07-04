@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import type { ElementProps } from './types.ts';
 import type { DataChartEl, ElementResult } from '@shared/elements.ts';
-import { pieSlices } from './geometry.ts';
-
 type Datum = { label: string; value: number };
 
 const SLICE_COLORS = ['var(--el-blue)', 'var(--el-orange)', 'var(--el-green)', 'var(--el-purple)', 'var(--el-pink)', 'var(--el-amber)'];
@@ -134,26 +132,49 @@ function LineChart({ data }: { data: Datum[] }) {
 }
 
 /**
- * `pieSlices(n, r)` only divides a circle into `n` *equal-angle* wedges — it
- * has no notion of value. To still get "sized by value" out of it (as asked)
- * we call it once per datum with a per-datum radius scaled to that datum's
- * share of the max value, and keep only that datum's slice — an equal-angle,
- * variable-radius "rose"/coxcomb pie, built entirely from the shared helper.
+ * True angle-weighted pie: each datum's share of the circle is
+ * `value / total * 2π`, encoded as ANGLE (not radius, which would make it a
+ * coxcomb/rose chart). Every slice shares the same fixed radius `r`.
  */
 function PieChart({ data, unit }: { data: Datum[]; unit?: string }) {
-  const n = Math.max(data.length, 1);
-  const maxV = Math.max(1, ...data.map((d) => d.value));
-  const minR = 16;
-  const maxR = 34;
+  const total = data.reduce((sum, d) => sum + d.value, 0);
+  const r = 34;
+  const cx = 0;
+  const cy = 0;
+  const twoPi = Math.PI * 2;
+
+  let startAngle = -Math.PI / 2;
+  const slices = data.map((d, i) => {
+    const share = total > 0 ? d.value / total : 0;
+    const angle = share * twoPi;
+    const endAngle = startAngle + angle;
+    const slice = { i, d, startAngle, endAngle, angle };
+    startAngle = endAngle;
+    return slice;
+  });
+
   return (
     <div className="el-stack">
       <svg viewBox="-40 -40 80 80" width="150" height="150" role="img" aria-label="pie chart">
-        {data.map((d, i) => {
-          const r = minR + (maxR - minR) * (d.value / maxV);
-          const path = pieSlices(n, r)[i];
-          if (!path) return null;
-          return <path key={i} d={path} fill={sliceColor(i)} stroke="var(--el-surface)" strokeWidth="1.5" />;
-        })}
+        {data.length === 1 ? (
+          <circle cx={cx} cy={cy} r={r} fill={sliceColor(0)} stroke="var(--el-surface)" strokeWidth="1.5" />
+        ) : (
+          slices.map(({ i, angle, startAngle: sa, endAngle: ea }) => {
+            // A slice whose span rounds up to a full circle would draw
+            // nothing as an arc (start === end); render it as a full circle.
+            if (angle >= twoPi - 1e-6) {
+              return <circle key={i} cx={cx} cy={cy} r={r} fill={sliceColor(i)} stroke="var(--el-surface)" strokeWidth="1.5" />;
+            }
+            if (angle <= 1e-6) return null;
+            const x1 = cx + r * Math.cos(sa);
+            const y1 = cy + r * Math.sin(sa);
+            const x2 = cx + r * Math.cos(ea);
+            const y2 = cy + r * Math.sin(ea);
+            const largeArc = ea - sa > Math.PI ? 1 : 0;
+            const path = `M ${cx} ${cy} L ${x1} ${y1} A ${r} ${r} 0 ${largeArc} 1 ${x2} ${y2} Z`;
+            return <path key={i} d={path} fill={sliceColor(i)} stroke="var(--el-surface)" strokeWidth="1.5" />;
+          })
+        )}
       </svg>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'center' }}>
         {data.map((d, i) => (
