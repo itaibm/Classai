@@ -1,0 +1,351 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u7-l25",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 7, "title": "Statistics, shape and symmetry", "essentialQuestion": "How do we record data, and how do we describe shapes by their parts and their symmetry?" },
+  "lessonNumber": 25,
+  "kind": "review",
+  "topic": "Statistics, shape and symmetry",
+  "title": "Retrieval & fluency: shape, data and symmetry",
+  "durationMin": 20,
+  "objectives": ["By the end, I can quickly recall shape properties, read a chart and spot symmetry."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "key", "definition": "the little note on a pictogram that says what ONE symbol is worth", "example": "key: 🍎 = 5, so 4 apples mean 20" },
+    { "term": "side", "definition": "a straight edge of a flat shape", "example": "a pentagon has 5 sides" },
+    { "term": "vertex", "definition": "a corner where two sides meet (more than one: vertices)", "example": "a pentagon has 5 vertices" },
+    { "term": "face", "definition": "a flat surface of a solid shape", "example": "a cube has 6 faces" },
+    { "term": "edge", "definition": "where two faces of a solid meet", "example": "a cube has 12 edges" },
+    { "term": "line of symmetry", "definition": "a fold line where both halves match exactly", "example": "a square has 4 lines of symmetry" }
+  ],
+  "emphasize": [
+    "This is a fluency workout — fast, accurate recall of Unit 7, NO new idea.",
+    "Charts → read the KEY first; solids → count the HIDDEN parts too.",
+    "Mix the question types so the child has to choose the right approach each time."
+  ],
+  "analysis": {
+    "keyConcepts": ["pictograms and keys", "block diagrams: most/least/how many more", "2-D sides and vertices, 3-D faces/edges/vertices", "lines of symmetry"],
+    "misconceptions": [
+      "reading a keyed pictogram as one-each (ignoring the key)",
+      "mixing 2-D and 3-D words (saying 'faces' for a flat shape)",
+      "counting only the faces you can see — 'a cube has 4 faces'",
+      "assuming any line through a shape is a line of symmetry"
+    ],
+    "hooks": ["Quiz challenge — how many can you fire back without a pause?"],
+    "priorKnowledge": ["tally charts and pictograms (Lesson 21)", "block diagrams (Lesson 22)", "shape properties (Lesson 23)", "symmetry (Lesson 24)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["quiz blocks with charts and shape pictures", "whiteboard bar chart and pictogram", "streak counter framing in the script"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set up the quiz-challenge energy and retrieve an easy shape fact to start the streak.",
+      "note": "Light, fast rhythm from the first second. Warm-up question must be a guaranteed win.",
+      "successCriteria": "Child answers 'a triangle has 3 sides' quickly and wants more questions.",
+      "script": {
+        "say": "Quiz challenge! Today there's nothing new to learn — just everything from our shape and chart unit, fired at you fast. How many can you answer without a pause? Let's warm up nice and easy: a triangle — how many sides?",
+        "adaptHints": "Match the child's energy; frame the streak like their favourite game (levels, points, a high score to beat)."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🔺📊🦋⏱️", "caption": "Shapes, charts and symmetry — quick-fire round!" }
+      ],
+      "stuckProtocol": ["If even the triangle is shaky: draw a triangle and count its sides together — 1, 2, 3 — then re-ask. Start the streak at one."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 6],
+      "goal": "Model the answering routine: charts → key first; solids → count the hidden parts in your mind.",
+      "note": "Short warm-up teach, not a full explain — just the two habits that catch most mistakes.",
+      "successCriteria": "Child can say the two rules back: 'key first' and 'count the hidden ones too'.",
+      "script": {
+        "say": "Watch how a quiz champion answers. Rule one: if it's a chart, read the KEY first. Look — this pictogram's key says one apple picture is worth 2. Three apple pictures: 2, 4, 6. Not three — six! Rule two: if it's a solid shape, turn it in your mind and count the hidden parts too. A cube: I see 3 faces, but spinning it round in my head… there are 6. Say my two rules back to me?",
+        "adaptHints": "If the child parrots quickly, celebrate and speed up; if not, repeat each rule with the picture once more."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "The two champion rules",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 25, "y": 6, "value": "Key first!", "size": 6, "bold": true, "color": "blue" },
+            { "k": "text", "x": 25, "y": 14, "value": "key: 1 🍎 = 2", "size": 5 },
+            { "k": "text", "x": 25, "y": 24, "value": "🍎 🍎 🍎", "size": 7 },
+            { "k": "text", "x": 25, "y": 34, "value": "2, 4, 6 — six!", "size": 5, "color": "accent" },
+            { "k": "text", "x": 75, "y": 6, "value": "Hidden parts!", "size": 6, "bold": true, "color": "blue" },
+            { "k": "rect", "x": 65, "y": 14, "w": 16, "h": 16, "color": "orange", "fill": false },
+            { "k": "line", "x1": 65, "y1": 14, "x2": 71, "y2": 10, "color": "orange" },
+            { "k": "line", "x1": 81, "y1": 14, "x2": 87, "y2": 10, "color": "orange" },
+            { "k": "line", "x1": 71, "y1": 10, "x2": 87, "y2": 10, "color": "orange" },
+            { "k": "line", "x1": 87, "y1": 10, "x2": 87, "y2": 26, "color": "orange" },
+            { "k": "line", "x1": 81, "y1": 30, "x2": 87, "y2": 26, "color": "orange" },
+            { "k": "text", "x": 75, "y": 38, "value": "I see 3 faces…", "size": 4 },
+            { "k": "text", "x": 75, "y": 45, "value": "a cube has 6!", "size": 5, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 56, "value": "Charts → key first · Solids → hidden parts too", "size": 4, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [6, 9],
+      "goal": "Shared round: pentagon sides and vertices, then read 'most' from a quick bar chart.",
+      "note": "'We do' — the character asks, the child answers, the character thinks aloud on any wobble.",
+      "successCriteria": "Child says 5 sides and 5 vertices, and picks the tallest bar for 'most'.",
+      "script": {
+        "say": "Practice round together. A pentagon — how many sides, and how many vertices? … Five and five, the corners match the sides! Now a chart one. Here's a block diagram of pets: look at the bars. Which pet is the MOST popular? Remember — the tallest bar wins.",
+        "adaptHints": "If the child hesitates on 'vertices', whisper 'corners'. Swap the pet categories for animals the child loves — keep the numbers."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Pets in our street",
+          "animate": true,
+          "elements": [
+            { "k": "rect", "x": 15, "y": 30, "w": 12, "h": 20, "color": "blue", "fill": true },
+            { "k": "rect", "x": 43, "y": 20, "w": 12, "h": 30, "color": "orange", "fill": true },
+            { "k": "rect", "x": 71, "y": 40, "w": 12, "h": 10, "color": "green", "fill": true },
+            { "k": "line", "x1": 10, "y1": 50, "x2": 90, "y2": 50, "color": "ink" },
+            { "k": "text", "x": 21, "y": 55, "value": "cats 4", "size": 4 },
+            { "k": "text", "x": 49, "y": 55, "value": "dogs 6", "size": 4 },
+            { "k": "text", "x": 77, "y": 55, "value": "birds 2", "size": 4 },
+            { "k": "text", "x": 50, "y": 8, "value": "Which is MOST?", "size": 6, "bold": true }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Which pet is the most popular on the chart?",
+        "expectedAnswer": "Dogs — the tallest bar (6)",
+        "wrongAnswers": [
+          { "answer": "birds", "why": "picked 'least' — mixed up most and least", "remedy": "Most means the TALLEST bar. Run your eyes along the tops — which bar reaches highest?" },
+          { "answer": "cats", "why": "read the first bar instead of comparing heights", "remedy": "Don't stop at the first bar — compare all three tops. Which is tallest?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [9, 12],
+      "goal": "Diagnostic: pentagon sides AND vertices — reveals 2-D/3-D word mix-ups and miscounts.",
+      "note": "After a correct answer, always probe: 'Are sides and vertices always the same number for flat shapes like these?'",
+      "successCriteria": "Child answers 5 sides, 5 vertices and uses the right words for a flat shape.",
+      "script": {
+        "say": "Streak check! A pentagon — tell me its sides AND its vertices. Take a breath, picture it, fire away.",
+        "adaptHints": "If correct and fast, add the probe question; if correct but slow, praise the accuracy and note speed comes with practice."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "A pentagon has…",
+          "options": ["5 sides and 5 vertices", "4 sides and 4 vertices", "6 sides and 6 vertices", "5 faces and 5 edges"],
+          "correct": 0,
+          "explain": "A pentagon is a flat shape with 5 straight sides, and 5 vertices where the sides meet."
+        }
+      ],
+      "check": {
+        "question": "How many sides and vertices does a pentagon have?",
+        "expectedAnswer": "5 sides and 5 vertices",
+        "wrongAnswers": [
+          { "answer": "5 faces and 5 edges", "why": "mixed 2-D and 3-D words — faces and edges belong to solids", "remedy": "A pentagon is FLAT. Flat shapes have sides and corners — what do we call the corners?" },
+          { "answer": "4 and 4 (or 6 and 6)", "why": "miscounted or confused it with a square/hexagon", "remedy": "Trace the pentagon with your finger and count each side out loud — 1, 2, 3…" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [12, 17],
+      "goal": "Quick-fire mixed set: shape facts, keyed pictograms, block diagrams, symmetry — keep a visible streak.",
+      "note": "Director draws from the practiceBank, start level 2, MIX the skills — never two of the same type in a row. Count the streak out loud. Once secure, ask 'explain WHY' on one answer (stretch).",
+      "successCriteria": "Child answers 4+ mixed items correctly, including a keyed pictogram and one solid-shape fact.",
+      "script": {
+        "say": "Quick-fire time! I'll mix everything up — shapes, charts, symmetry. Every right answer grows your streak. Remember the champion rules: key first, hidden parts too. Ready… go!",
+        "adaptHints": "Announce the streak after each correct answer ('that's three in a row!'). Use the child's interests for chart categories — never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: which concept slipped — the key, the hidden faces, or the 2-D/3-D words?",
+        "Show the matching picture (the pictogram with its key, or the cube drawing) and look at it together.",
+        "One hint: 'Key first — what is ONE symbol worth?' or 'Turn the solid in your mind.'",
+        "Re-ask an easier version (smaller key, simpler shape), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — the streak can restart, that's how champions train.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Honest self-assessment: which Unit 7 question felt easiest, which needs more practice; end on a win.",
+      "note": "Child-led reflection. Log the named weak spot — it becomes the next lesson's warm-up.",
+      "successCriteria": "Child names one strong area and one to practise, honestly.",
+      "script": {
+        "say": "What a round! Tell me — which question felt easiest today, and which one would you like more practice on? … That's really honest, and knowing your tricky spot is a champion move. You read the key before every chart question — that habit stuck. Brilliant.",
+        "adaptHints": "Praise the specific process observed this session (key first, counting hidden faces, checking before answering). Record the named weak spot for the Unit 8 warm-ups."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l25-p01", "skill": "2-D shape properties", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "How many sides does a triangle have?", "options": ["3", "4", "5"], "correct": 0, "explain": "Tri- means three — a triangle has 3 straight sides." },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "4", "why": "confused with a square", "remedy": "Trace a triangle in the air with your finger — count each straight line as you draw it." },
+        { "answer": "5", "why": "confused with a pentagon", "remedy": "TRIangle — like a TRIcycle with 3 wheels. Draw it and count." }
+      ],
+      "hints": ["'Tri' means three, like a tricycle.", "Draw one in the air and count the lines."],
+      "reteach": { "say": "Let's draw it together: one line across, one line up to a point, one line back down. Three lines, three sides — that's why it's a TRI-angle.", "block": { "type": "emojiViz", "emojis": "🔺", "caption": "Triangle = 3 sides, 3 vertices" } }
+    },
+    {
+      "id": "l25-p02", "skill": "tally marks", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "In a tally chart, how do we show the number 5?", "options": ["Four strokes with a fifth crossing them", "Five strokes in a row", "The digit 5", "One big stroke"], "correct": 0, "explain": "Tallies bundle into gates of 5 — four standing strokes and the fifth lying across, so counting in 5s is easy." },
+      "expectedAnswer": "Four strokes with a fifth crossing them (a gate of 5)",
+      "wrongAnswers": [
+        { "answer": "Five strokes in a row", "why": "forgot the crossing stroke that closes the gate", "remedy": "Five loose strokes are hard to count fast. What does the fifth stroke DO to the four?" },
+        { "answer": "The digit 5", "why": "mixed up tallying with writing numerals", "remedy": "Tallies are little sticks we draw one at a time as we count. How does the fifth stick go?" }
+      ],
+      "hints": ["Think of a gate — four posts and one bar across.", "The fifth stroke lies down across the other four."],
+      "reteach": { "say": "Watch me tally to five: stick, stick, stick, stick — and the fifth stick lies ACROSS them like a gate closing. Now the bundle shouts 'FIVE!' at a glance, and we can count charts in 5s: 5, 10, 15…", "block": { "type": "emojiViz", "emojis": "🖐️ = 卌", "caption": "Four strokes + one across = a gate of 5" } }
+    },
+    {
+      "id": "l25-p03", "skill": "read a pictogram with a key", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Pictogram key: 1 🍎 = 5. A row shows 4 apples. How many apples were picked?", "answer": 20 },
+      "expectedAnswer": "20",
+      "wrongAnswers": [
+        { "answer": "4", "why": "ignored the key and counted each symbol as 1", "remedy": "Key first! What is ONE apple picture worth? Now count in 5s along the row." },
+        { "answer": "9", "why": "added the key to the count (5 + 4)", "remedy": "The key isn't added — EVERY picture is worth 5. Count: 5, 10, 15…" }
+      ],
+      "hints": ["Read the key first — one picture is worth 5.", "Count in 5s: 5, 10, 15, …"],
+      "reteach": { "say": "The key is the secret code: one apple picture means FIVE real apples. Four pictures — touch each one and count in 5s: 5, 10, 15, 20. Twenty apples!", "block": { "type": "table", "headers": ["pictures", "worth"], "rows": [["🍎", "5"], ["🍎🍎", "10"], ["🍎🍎🍎", "15"], ["🍎🍎🍎🍎", "20"]], "caption": "key: 1 🍎 = 5" } },
+      "interestSlots": ["apples", "stickers"]
+    },
+    {
+      "id": "l25-p04", "skill": "3-D shape properties", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "How many faces does a cube have?", "options": ["6", "4", "3", "8"], "correct": 0, "explain": "Turn the cube in your mind: top, bottom, front, back, left, right — 6 faces, even the hidden ones count." },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "3", "why": "counted only the faces you can see at once", "remedy": "Spin the cube in your mind — what's hiding at the back, the bottom, the other side?" },
+        { "answer": "8", "why": "counted vertices instead of faces", "remedy": "Faces are the FLAT surfaces, like the sides of a dice. Count the flats: top, bottom…" }
+      ],
+      "hints": ["Think of a dice — it has a number on every face.", "Top and bottom, front and back, left and right — pairs!"],
+      "reteach": { "say": "A cube is like a dice. A dice shows numbers 1 to 6 — one number per face. So a cube must have exactly 6 faces, even though you can only ever SEE three at once. The hidden ones still count!", "block": { "type": "emojiViz", "emojis": "🎲", "caption": "A dice has faces 1–6 → a cube has 6 faces" } }
+    },
+    {
+      "id": "l25-p05", "skill": "read a block diagram", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "A block diagram shows dogs = 6 and cats = 4. How many MORE dogs than cats?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "10", "why": "added the two bars instead of finding the difference", "remedy": "'How many MORE' is a comparing question — find the gap between the bars, don't join them." },
+        { "answer": "6", "why": "just read the taller bar", "remedy": "6 is how many dogs. The question asks how many EXTRA dogs — count up from 4 to 6." }
+      ],
+      "hints": ["'How many more' means find the difference.", "Count up from 4 to 6 — how many steps?"],
+      "reteach": { "say": "Picture the two bars standing side by side. The cat bar reaches 4; the dog bar reaches 6. The dog bar pokes ABOVE the cat bar by the gap: 5, 6 — two steps. Two more dogs than cats.", "block": { "type": "numberLine", "min": 0, "max": 10, "step": 1, "highlight": 6, "marks": [{ "value": 4, "label": "cats" }, { "value": 6, "label": "dogs" }] } },
+      "interestSlots": ["dogs", "cats"]
+    },
+    {
+      "id": "l25-p06", "skill": "symmetry", "level": 2,
+      "block": { "type": "trueFalse", "statement": "A square has a line of symmetry.", "correct": true, "explain": "Fold a square in half — the halves match exactly. In fact a square has 4 lines of symmetry." },
+      "expectedAnswer": "True — a square has 4 lines of symmetry",
+      "wrongAnswers": [
+        { "answer": "False", "why": "unsure what a line of symmetry is, or thinks only 'fancy' shapes have them", "remedy": "Imagine folding a square down the middle. Do the two halves land exactly on top of each other?" }
+      ],
+      "hints": ["Imagine folding it — do the halves match?", "Try folding top-to-bottom, side-to-side, and corner-to-corner."],
+      "reteach": { "say": "The fold test never lies: fold a square top to bottom — the halves match. Side to side — match. Corner to corner both ways — match, match! Four perfect folds, four lines of symmetry.", "block": { "type": "emojiViz", "emojis": "⬜ ✂️ = 🪞", "caption": "Fold a square 4 ways — the halves always match" } }
+    },
+    {
+      "id": "l25-p07", "skill": "2-D shape properties", "level": 2,
+      "block": { "type": "fillBlank", "text": "A hexagon has ___ sides.", "answer": "6", "wordBank": ["5", "6", "8"] },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "5", "why": "confused hexagon with pentagon", "remedy": "Pentagon is 5, HEXagon is one more. Trace and count its sides." },
+        { "answer": "8", "why": "confused hexagon with octagon", "remedy": "An octagon is the stop-sign shape with 8. A hexagon is like a honeycomb cell — count its sides." }
+      ],
+      "hints": ["Think of a honeycomb cell.", "It's one more side than a pentagon."],
+      "reteach": { "say": "Bees know this one! Every cell in a honeycomb is a hexagon — count around one: 1, 2, 3, 4, 5, 6. Six sides, six vertices.", "block": { "type": "emojiViz", "emojis": "🐝 ⬡", "caption": "Hexagon = 6 sides, like a honeycomb cell" } }
+    },
+    {
+      "id": "l25-p08", "skill": "2-D shape properties", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "How many vertices does a rectangle have?", "options": ["4", "2", "6", "0"], "correct": 0, "explain": "A rectangle has 4 corners — 4 vertices — and 4 sides." },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "2", "why": "counted only the long sides or two corners", "remedy": "Vertices are the corners. Touch every corner of a book cover and count." },
+        { "answer": "6", "why": "guessing / mixing shapes up", "remedy": "Picture a door or a book — go round it corner by corner: 1, 2, 3, 4." }
+      ],
+      "hints": ["Vertices are the corners.", "Picture a book cover — touch each corner."],
+      "reteach": { "say": "Grab an imaginary book. Touch the corners one at a time: top-left, top-right, bottom-right, bottom-left. Four corners — four vertices. And four sides joining them.", "block": { "type": "emojiViz", "emojis": "📖", "caption": "Rectangle = 4 sides, 4 vertices" } }
+    },
+    {
+      "id": "l25-p09", "skill": "sort 2-D and 3-D vocabulary", "level": 3,
+      "block": { "type": "categorize", "prompt": "Sort these words into the right family.", "buckets": ["flat shape (2-D) words", "solid shape (3-D) words"], "items": [ { "text": "side", "bucket": "flat shape (2-D) words" }, { "text": "face", "bucket": "solid shape (3-D) words" }, { "text": "edge", "bucket": "solid shape (3-D) words" }, { "text": "line of symmetry", "bucket": "flat shape (2-D) words" } ] },
+      "expectedAnswer": "side, line of symmetry → 2-D; face, edge → 3-D",
+      "wrongAnswers": [
+        { "answer": "face → 2-D", "why": "uses 'face' for flat shapes in everyday talk", "remedy": "In maths a FACE is a flat surface OF A SOLID — a dice has 6 of them. What do we call the straight lines of a flat shape?" },
+        { "answer": "side → 3-D", "why": "everyday 'side of the box' language", "remedy": "For solids we say faces and edges. SIDES belong to flat shapes like triangles and pentagons." }
+      ],
+      "hints": ["Faces and edges belong to solids you can hold.", "Sides belong to flat shapes you can draw."],
+      "reteach": { "say": "Two word families. Flat shapes — the ones we DRAW — have sides, vertices and lines of symmetry. Solid shapes — the ones we HOLD, like a dice — have faces, edges and vertices. Vertices is the sneaky word that lives in both families!", "block": { "type": "table", "headers": ["flat (2-D)", "solid (3-D)"], "rows": [["side", "face"], ["vertex", "edge"], ["line of symmetry", "vertex"]], "caption": "Which words belong to which shapes" } }
+    },
+    {
+      "id": "l25-p10", "skill": "read a pictogram with a key", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! Key: 1 ⚽ = 2. A row shows 3 whole footballs and one HALF football. How many goals is that?", "answer": 7 },
+      "expectedAnswer": "7",
+      "wrongAnswers": [
+        { "answer": "8", "why": "counted the half symbol as a whole one", "remedy": "The half picture is only worth HALF the key. If a whole ball is 2, half a ball is…?" },
+        { "answer": "3", "why": "ignored the key (counted symbols as 1 each) and dropped the half", "remedy": "Key first! One ball = 2 goals. Count in 2s, then add the half-ball's share." }
+      ],
+      "hints": ["Whole balls first: 2, 4, 6.", "Half a ball is worth half of 2."],
+      "reteach": { "say": "Count the whole balls in 2s: 2, 4, 6. Now the half ball — a whole ball means 2, so half a ball means just 1. Six and one more: seven goals. Half the symbol, half the value!", "block": { "type": "table", "headers": ["symbols", "worth"], "rows": [["⚽⚽⚽", "6"], ["half ⚽", "1"], ["total", "7"]], "caption": "key: 1 ⚽ = 2" } },
+      "interestSlots": ["footballs", "stars"]
+    },
+    {
+      "id": "l25-p11", "skill": "symmetry", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend draws a line straight through the middle of a shape and says 'that's ALWAYS a line of symmetry'. Are they right? How would you check?", "sample": "No — a line is only a line of symmetry if folding along it makes the two halves match exactly. You check by folding (or imagining the fold)." },
+      "expectedAnswer": "No — only if folding makes both halves match exactly; test with the fold test",
+      "wrongAnswers": [
+        { "answer": "Yes, any middle line works", "why": "the 'any line' misconception — hasn't tested with folding", "remedy": "Picture a scalene triangle (all sides different). Fold it anywhere — do the halves ever match? So does every middle line work?" },
+        { "answer": "You check by measuring the sides", "why": "right instinct to check, wrong test", "remedy": "The real test is the FOLD: fold on the line — do the halves land exactly on top of each other?" }
+      ],
+      "hints": ["What's the fold test?", "Think of a shape where the halves DON'T match when you fold."],
+      "reteach": { "say": "A line of symmetry has to pass the fold test: fold on the line, and both halves must land EXACTLY on top of each other — no bits poking out. Lots of middle lines fail the test. Some shapes, like a scalene triangle, have no line of symmetry at all!", "block": { "type": "emojiViz", "emojis": "🦋 ✅ / 🥾 ❌", "caption": "Fold test: butterfly halves match; a boot's don't" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, keep interleaving (never two items of the same skill in a row) and ask 'explain why' on one answer.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the picture in view, then serve a level-1 item of the same skill.",
+    "masterySignal": "5+ correct across mixed skills at levels 2–3, including a keyed pictogram read (key first) and a solid-shape fact (hidden faces) → Unit 7 retrieval secure, mastery ≥ 0.8 for shape, data and symmetry.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why — which concept slipped (the key, hidden faces, 2-D/3-D words, the fold test).",
+      "Bring the matching picture back on screen and look at it together.",
+      "Give ONE hint ('key first' / 'turn it in your mind' / 'fold it in your head').",
+      "Re-ask an easier version (smaller key, simpler shape), then build back up.",
+      "Keep it safe: 'The streak can restart — that's how champions train.'"
+    ],
+    "personalization": "Use the learner's interests for chart categories and quiz framing (their favourite animals, teams, collections) — never change the numbers or the shape facts.",
+    "endOnSuccess": "Finish on a question from the child's strongest skill so the streak ends on a win; give specific process praise ('you read the key first every single time')."
+  },
+
+  "differentiation": {
+    "support": "Keep the shape picture or chart on screen while answering; fewer, slower questions; whisper 'corners' for vertices.",
+    "stretch": "Explain WHY each answer is right; a timed no-look streak; the half-symbol pictogram item."
+  },
+  "extension": "Be the quiz master — the child invents three Unit 7 questions (with answers) and fires them at the tutor, who deliberately gets one wrong for the child to correct.",
+  "assessmentEvidence": "Child fluently recalls 2-D and 3-D shape properties, reads a keyed pictogram and a block diagram correctly, and applies the fold test for symmetry.",
+  "revisitLater": "Use the child's named weak spot as the warm-up for Lesson 26; fold shape/data questions into the Lesson 28 champion circuit."
+}

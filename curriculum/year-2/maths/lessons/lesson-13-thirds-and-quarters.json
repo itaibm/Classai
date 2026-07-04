@@ -1,0 +1,331 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u3-l13",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 3, "title": "Fractions of shapes and quantities", "essentialQuestion": "What does each part of a fraction tell us, and how do we find a fraction of a number?" },
+  "lessonNumber": 13,
+  "kind": "lesson",
+  "topic": "Fractions of shapes",
+  "title": "Thirds and quarters of shapes",
+  "durationMin": 24,
+  "objectives": ["By the end, I can find ⅓, ¼ and ¾ of a shape and explain that the parts must be equal."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "equal parts", "definition": "parts that are exactly the same size — they land on top of each other when folded", "example": "a strip folded into 3 matching pieces" },
+    { "term": "third (⅓)", "definition": "one of THREE equal parts", "example": "fold a strip in three — each part is ⅓" },
+    { "term": "quarter (¼)", "definition": "one of FOUR equal parts", "example": "one slice of a bar cut into 4 equal slices" },
+    { "term": "three-quarters (¾)", "definition": "three of the four equal parts", "example": "shade 3 of 4 equal parts — that's ¾" },
+    { "term": "denominator", "definition": "the bottom number — it says how many equal parts the whole is cut into", "example": "the 3 in ⅓ means three equal parts" }
+  ],
+  "emphasize": [
+    "The parts must be EQUAL — a fraction is only real if the pieces match exactly.",
+    "The big reveal: the MORE equal parts you cut, the SMALLER each part is — so ⅓ is smaller than ½, not bigger.",
+    "Pre-empt the classic misconception '⅓ > ½ because 3 > 2' — fold the same strip both ways and compare the pieces."
+  ],
+  "analysis": {
+    "keyConcepts": ["fractions as equal parts of a whole", "thirds, quarters and three-quarters", "the denominator counts the equal parts", "more parts → smaller parts"],
+    "misconceptions": [
+      "'⅓ is bigger than ½ because 3 is bigger than 2'",
+      "any split counts — calling three UNEQUAL pieces 'thirds'",
+      "muddling '¾ shaded' with '¾ left over'"
+    ],
+    "hooks": ["Three friends, one chocolate bar — how do we split it so nobody grumbles?"],
+    "priorKnowledge": ["halves and quarters from Year 1 — a fraction is one of EQUAL parts", "sharing equally (Lesson 11)"]
+  },
+
+  "materials": {
+    "human": ["several paper strips and paper circles", "colouring pencils", "scissors", "a real chocolate bar (or a paper one marked in squares)", "the strips within the child's reach for the whole lesson — the AI will ask for folding again during practice"],
+    "digital": ["animated fraction bars on the whiteboard block", "shading and sorting practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes with the REAL chocolate bar and paper strips (hook + concrete explain). The folding is the heart of this lesson — thirds folded like a letter into an envelope, quarters by folding in half twice — and paper in the hands beats any animation. Say the script lines warmly in your own words; the maths and the anchor phrases ('equal parts', 'more pieces means smaller pieces') must stay exact. When you lay the third-strip beside the quarter-strip and say the handoff line, the AI character takes over on screen. Keep the strips and pencils within reach — the AI will ask the child to fold and shade again during the checks and practice."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=wsnJtCloGf0",
+    "title": "Fractions Are a Piece of Cake - Full Episode | Series 8 E24 | Numberblocks",
+    "channel": "Numberblocks",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time the Numberblocks split something at the party, shout out whether the parts are EQUAL or NOT equal — only equal parts make real fractions!",
+    "afterCheck": { "question": "What had to be true about the pieces before the Numberblocks could share them fairly?", "expectedAnswer": "The parts had to be equal — all exactly the same size" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Set the fairness problem — three friends, one bar; retrieve 'equal' from Year 1 halves.",
+      "note": "Mime an unfair break (one giant piece, two tiny) and let the child protest — the outrage IS the hook. Don't teach yet.",
+      "successCriteria": "Child protests the unfair split and says a real half means 'both parts the same / equal'.",
+      "script": {
+        "say": "Three friends, one chocolate bar — and everyone wants a fair share. How do we split it so nobody grumbles? What if I break it like THIS — one giant piece for me, two crumbs for you two? … Not fair?! Alright, alright. Quick first: what does 'equal' mean? Last year we made halves and quarters — what made a piece a REAL half?",
+        "adaptHints": "Play the unfair break for laughs and let the child correct you. Listen for 'both parts the same / equal'. If 'equal' is shaky: fold a strip into two matching halves — 'equal means they land exactly on top.'"
+      },
+      "humanHandoff": {
+        "setup": "Chocolate bar held up; paper strips, circles, pencils and scissors laid out but untouched.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If 'equal' is shaky: fold one strip in half and open it — 'two parts that land exactly on top of each other. THAT'S equal.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Model folding real strips: thirds (letter-fold), quarters (half then half again), shade ¾; reveal that more pieces means smaller pieces.",
+      "note": "This is the CPA concrete stage and the reason this lesson has a human intro — the child must SEE and FEEL real paper folding. Lay the third-strip beside the quarter-strip for the size reveal before handing off.",
+      "successCriteria": "Child watches thirds and quarters folded, sees ¾ shaded, and hears 'more pieces means each piece is smaller' with the two strips side by side.",
+      "script": {
+        "say": "Watch. To make THIRDS I fold this strip into three equal parts — like a letter going into an envelope. One, two, three — three equal parts. Each one is a third, and we write it ⅓. The bottom number, 3, tells me how many equal parts I made. Now a new strip, folded into FOUR equal parts — half… and half again — quarters, ¼. If I colour three of the four — look — that's three-quarters, ¾. Now the magic bit: I'll put the third-strip right next to the quarter-strip. Look closely — which piece is bigger? The THIRD! More pieces means each piece is smaller. — Right, now my friend on the screen is going to draw some fraction bars for us. Watch!",
+        "adaptHints": "The final sentence is the handoff line — say it as written. Let the child run a finger along both strips to compare the piece sizes."
+      },
+      "humanHandoff": {
+        "setup": "A thirds-strip and a quarters-strip (3 of 4 parts shaded) lying side by side in front of the child. Leave them visible — the AI refers back to them.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Move to pictorial: the character draws fraction bars matching the folded strips; the child directs the shading of ⅓ and then names ¾.",
+      "note": "Bridge concrete → pictorial: the bars on screen mirror the real strips on the table. The child is the boss of the shading.",
+      "successCriteria": "Child tells the character to shade 1 of 3 parts for ⅓ and correctly names 3 shaded quarters as ¾.",
+      "script": {
+        "say": "I saw what you two folded! Let me draw those strips my way. Here's a bar cut into three EQUAL parts — just like your letter-fold. You be the boss: to show one third, how many parts do I colour? … One — and there it is, ⅓! Now my four-part bar. I'm colouring one, two, three of the four equal parts… What fraction have I shaded? … And here's my puzzle back to you: the bottom number of ⅓ is 3 — what is that 3 actually telling us?",
+        "adaptHints": "Pause for the child's answer after each question. If they say 'three quarters' with values, celebrate; if they say '3 out of 4', bridge it: 'yes — three of the four equal parts, three-quarters, ¾.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Thirds and three-quarters",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 5, "value": "⅓ and ¾", "size": 8, "bold": true },
+            { "k": "rect", "x": 10, "y": 12, "w": 26, "h": 12, "color": "orange", "fill": true },
+            { "k": "rect", "x": 36, "y": 12, "w": 26, "h": 12, "color": "ink" },
+            { "k": "rect", "x": 62, "y": 12, "w": 26, "h": 12, "color": "ink" },
+            { "k": "text", "x": 23, "y": 30, "value": "⅓", "size": 6, "bold": true, "color": "orange" },
+            { "k": "text", "x": 62, "y": 30, "value": "3 equal parts — shade 1", "size": 4, "color": "ink" },
+            { "k": "rect", "x": 10, "y": 38, "w": 19, "h": 12, "color": "blue", "fill": true },
+            { "k": "rect", "x": 29, "y": 38, "w": 19, "h": 12, "color": "blue", "fill": true },
+            { "k": "rect", "x": 48, "y": 38, "w": 19, "h": 12, "color": "blue", "fill": true },
+            { "k": "rect", "x": 67, "y": 38, "w": 19, "h": 12, "color": "ink" },
+            { "k": "text", "x": 20, "y": 56, "value": "¾", "size": 6, "bold": true, "color": "blue" },
+            { "k": "text", "x": 62, "y": 56, "value": "4 equal parts — shade 3", "size": 4, "color": "ink" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "I shaded 3 of 4 equal parts — what fraction is shaded?",
+        "expectedAnswer": "Three-quarters (¾)",
+        "wrongAnswers": [
+          { "answer": "a third (⅓)", "why": "counted the shaded parts (3) and made it the bottom number", "remedy": "The bottom number counts ALL the equal parts. How many parts does the whole bar have?" },
+          { "answer": "¾ is what's LEFT", "why": "muddling shaded with unshaded", "remedy": "Point to the coloured parts and count just those: one, two, three… of how many?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "The key diagnostic: which is bigger, ½ or ¼? — catching 'bigger bottom number = bigger piece'.",
+      "note": "This is the lesson's heart. After the on-screen answer, send the child to the REAL strips to prove it — fold and compare.",
+      "successCriteria": "Child answers ½ and proves it with the strips (the half-piece is longer).",
+      "script": {
+        "say": "Big question — think carefully, it's sneaky. Which is BIGGER: one half, or one quarter? … Now don't just tell me — PROVE it! Grab two strips from your table: fold one into halves, one into quarters, and lay one piece against one piece. What do the strips say?",
+        "adaptHints": "If the child answers ¼ 'because 4 is bigger', don't correct — send them straight to the folding proof and let the paper do the arguing."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which is bigger — ½ or ¼?",
+          "options": ["½ — fewer pieces means bigger pieces", "¼ — because 4 is bigger than 2", "They're the same", "You can't tell"],
+          "correct": 0,
+          "explain": "Fold the SAME strip into 2 and into 4: the half-piece is twice as long. More cuts make smaller pieces — the bottom number counts pieces, it doesn't measure size!"
+        }
+      ],
+      "check": {
+        "question": "Which is bigger — ½ or ¼? Prove it with the strips.",
+        "expectedAnswer": "½ — folding the same strip into 2 gives longer pieces than folding it into 4",
+        "wrongAnswers": [
+          { "answer": "¼ (or '⅓ > ½')", "why": "treating the bigger bottom number as the bigger piece", "remedy": "Fold the SAME strip into 2, then another into 4, and lay one piece on one piece. More cuts, smaller pieces — what do you see?" },
+          { "answer": "calls an unequal split 'thirds' during the proof", "why": "counting pieces, not EQUAL pieces", "remedy": "Fold the three parts on top of each other. Do they land exactly? If not, they aren't thirds." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 21],
+      "goal": "Independent folding, shading and sorting: real thirds/quarters vs impostors, ¾ two ways, size comparisons.",
+      "note": "Director draws from the practiceBank, start level 2. The child may use the real strips for any item — encourage folding on a miss (CPA step down). The equal-parts test ('do they land on top of each other?') is the self-check habit.",
+      "successCriteria": "Child completes 3+ items correctly including one 'impostor' (unequal split) spotted and one size comparison.",
+      "script": {
+        "say": "Practice time, fraction inspector! Some of these shapes are cut into REAL thirds and quarters… and some are impostors — unequal cheats! Your badge question for every one: are the parts EQUAL? Fold your strips any time you want to prove an answer.",
+        "adaptHints": "Frame shaded parts with the child's interests (flag designs, pizza toppings, chocolate flavours). Never change the fractions."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the pieces got counted without checking they're equal' or 'the bigger bottom number tricked us.'",
+        "Drop to concrete: fold a real strip and overlay the pieces.",
+        "One hint: 'Do the parts land exactly on top of each other?'",
+        "Re-ask with halves vs quarters only, then build back to thirds.",
+        "Keep it safe: 'Mistakes show us what to practise — let's take a smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [21, 24],
+      "goal": "Child states both rules — equal parts, and more parts means smaller parts; end on an earned win.",
+      "note": "Child-led recall; the character listens. The chocolate bar can now be shared for real!",
+      "successCriteria": "Child explains what makes a piece a third (one of THREE EQUAL parts) and why a third beats a quarter.",
+      "script": {
+        "say": "In your own words, inspector: what makes a piece a real THIRD? … And which is bigger, a third or a quarter — why? … Exactly! Three EQUAL parts, and fewer pieces means bigger pieces. You checked the parts were equal before you named a single fraction — that's a real mathematician's habit. I think three friends can share that chocolate bar fairly now…",
+        "adaptHints": "Praise the specific process observed: folding to prove, overlaying pieces, spotting impostors. If the real bar is present, let the fair share happen!"
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l13-p01", "skill": "name fractions of shapes", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "A strip is folded into 2 EQUAL parts. What is each part called?", "options": ["a half (½)", "a quarter (¼)", "a third (⅓)"], "correct": 0, "explain": "Two equal parts — each one is a half, ½. The bottom number 2 counts the equal parts." },
+      "expectedAnswer": "a half (½)",
+      "wrongAnswers": [
+        { "answer": "a quarter (¼)", "why": "fraction names not yet tied to the number of parts", "remedy": "Count the equal parts: two. Which fraction has a 2 on the bottom?" },
+        { "answer": "a third (⅓)", "why": "guessing among the new words", "remedy": "The bottom number counts the parts. Two parts — so the bottom number is…?" }
+      ],
+      "hints": ["Count the equal parts first.", "The bottom number = how many equal parts."],
+      "reteach": { "say": "The name is hiding in the count! Fold into TWO equal parts → halves. THREE → thirds. FOUR → quarters. Count the parts, and the fraction names itself.", "block": { "type": "table", "headers": ["equal parts", "each part is"], "rows": [["2", "a half — ½"], ["3", "a third — ⅓"], ["4", "a quarter — ¼"]], "caption": "The bottom number counts the parts" } }
+    },
+    {
+      "id": "l13-p02", "skill": "equal parts test", "level": 1,
+      "block": { "type": "trueFalse", "statement": "To make real quarters, the 4 parts must all be EQUAL.", "correct": true, "explain": "Yes! Four parts only make quarters if they're exactly the same size — fold them on top of each other to check." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "the lesson's core misconception — any 4 pieces count", "remedy": "Imagine your friend gets a crumb and you get half the bar — are those fair quarters? What went wrong?" }
+      ],
+      "hints": ["Would an unfair split make anyone grumble?", "The fold test: do the parts land exactly on top of each other?"],
+      "reteach": { "say": "Fractions are the fairness police! Four pieces are only QUARTERS if every piece matches exactly. One giant piece and three crumbs is four pieces — but nobody would call that fair, and maths doesn't either.", "block": { "type": "emojiViz", "emojis": "🍫🍫🍫🍫 ✅ | 🍫🍫🤏🤏 ❌", "caption": "Equal parts = real quarters. Unequal = impostor!" } }
+    },
+    {
+      "id": "l13-p03", "skill": "name fractions of shapes", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "A pizza is cut into 3 EQUAL slices. What is one slice?", "options": ["⅓ — one of three equal parts", "¼", "½", "3 — because there are 3 slices"], "correct": 0, "explain": "Three equal parts — each slice is one third, ⅓. The 3 on the bottom counts the equal slices." },
+      "expectedAnswer": "⅓",
+      "wrongAnswers": [
+        { "answer": "¼", "why": "thirds and quarters muddled", "remedy": "Count the slices: one, two, three. Which fraction has that number on the bottom?" },
+        { "answer": "3", "why": "counted the slices instead of naming the fraction of ONE slice", "remedy": "Three slices altogether, yes — but ONE slice is one out of…? That's the fraction." }
+      ],
+      "hints": ["Count the equal slices.", "One slice out of three equal slices is…?"],
+      "reteach": { "say": "One pizza, three equal slices. Each slice is one of the three — one third, written ⅓. Bottom number 3: how many equal parts. Top number 1: how many of them you're holding.", "block": { "type": "emojiViz", "emojis": "🍕🍕🍕", "caption": "3 equal slices — each is ⅓" } }
+    },
+    {
+      "id": "l13-p04", "skill": "equal parts test", "level": 2,
+      "block": { "type": "trueFalse", "statement": "A bar is cut into 3 pieces: one BIG piece and two tiny ones. Each piece is a third.", "correct": false, "explain": "No — thirds must be three EQUAL pieces. Three unequal pieces are just… three pieces. The fold test would catch it: they don't land on top of each other." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "counting pieces, not equal pieces — the impostor trap", "remedy": "Fold the three pieces on top of each other. Do they match exactly? If not, they aren't thirds." }
+      ],
+      "hints": ["Count is right — but what else must be true?", "Would the friend with the tiny piece call that fair?"],
+      "reteach": { "say": "Three pieces is only HALF the rule. The other half: they must be EQUAL. One big and two tiny pieces fail the fold test — they don't land on top of each other — so no thirds badge for them. Impostors!", "block": { "type": "table", "headers": ["split", "3 pieces?", "equal?", "real thirds?"], "rows": [["letter-fold strip", "yes", "yes", "✓"], ["one big + two tiny", "yes", "NO", "✗ impostor"]], "caption": "Both rules must pass" } }
+    },
+    {
+      "id": "l13-p05", "skill": "non-unit fractions (¾)", "level": 2,
+      "block": { "type": "fillBlank", "text": "Shade 3 of the 4 equal parts — that's ___-quarters of the shape.", "answer": "three", "wordBank": ["three", "four", "one"] },
+      "expectedAnswer": "three",
+      "wrongAnswers": [
+        { "answer": "four", "why": "counted all the parts instead of the shaded ones", "remedy": "The bottom counts ALL parts; the top counts the SHADED ones. How many did you colour?" },
+        { "answer": "one", "why": "defaulted to the unit fraction", "remedy": "One quarter is just ONE part coloured. You coloured more — count them." }
+      ],
+      "hints": ["Count only the coloured parts.", "Top number = coloured parts; bottom = all parts."],
+      "reteach": { "say": "¾ is a team of quarters! One quarter, two quarters, three quarters — three of the four equal parts coloured in. Three on top (what you shaded), four on the bottom (all the parts).", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦⬜", "caption": "3 shaded of 4 equal parts = ¾" } }
+    },
+    {
+      "id": "l13-p06", "skill": "compare fraction sizes", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which is bigger — ½ or ¼?", "options": ["½ — fewer pieces, bigger pieces", "¼ — because 4 > 2", "the same"], "correct": 0, "explain": "Fold the same strip into 2 and into 4 — the half is twice as long as the quarter. More cuts make smaller pieces." },
+      "expectedAnswer": "½",
+      "wrongAnswers": [
+        { "answer": "¼ because 4 > 2", "why": "bigger bottom number read as bigger piece — the classic trap", "remedy": "Fold the SAME strip into 2, then into 4. Lay one piece on one piece — which is longer?" },
+        { "answer": "the same", "why": "comparing counts of pieces, not sizes", "remedy": "Same whole strip, different number of cuts — can the pieces be the same size?" }
+      ],
+      "hints": ["Same strip, more cuts — what happens to each piece?", "Prove it with your real strips!"],
+      "reteach": { "say": "Think of sharing one cake: between 2 people or between 4 people — when do you get MORE cake? With fewer sharers! The bottom number counts the sharers, so a BIGGER bottom number means a SMALLER piece. ½ beats ¼.", "block": { "type": "emojiViz", "emojis": "🟩🟩 | 🟨🟨🟨🟨", "caption": "Halves are big, quarters are small — same whole!" } }
+    },
+    {
+      "id": "l13-p07", "skill": "compare fraction sizes", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Trickier! Which is bigger — ⅓ or ¼?", "options": ["⅓ — three sharers get more than four", "¼ — because 4 > 3", "the same"], "correct": 0, "explain": "Cut the same bar into 3 or into 4: three pieces are each bigger than four pieces. ⅓ > ¼." },
+      "expectedAnswer": "⅓",
+      "wrongAnswers": [
+        { "answer": "¼ because 4 > 3", "why": "bigger denominator still read as bigger piece", "remedy": "Fold two same-size strips — one into 3, one into 4. Compare one piece with one piece." },
+        { "answer": "the same", "why": "both are 'one piece' so they seem equal", "remedy": "One piece of THREE and one piece of FOUR from the same bar — same size? Fold and check!" }
+      ],
+      "hints": ["Fewer sharers means bigger shares.", "Same bar: 3 pieces each bigger, or 4 pieces each bigger?"],
+      "reteach": { "say": "Line up the fraction pieces from your folded strips like a staircase: the half is the giant, the third is next, the quarter is smallest. Every extra cut shrinks the pieces. So ⅓ beats ¼ — even though 4 looks bigger!", "block": { "type": "table", "headers": ["fraction", "equal parts", "piece size"], "rows": [["½", "2", "biggest"], ["⅓", "3", "middle"], ["¼", "4", "smallest"]], "caption": "More parts → smaller parts" } }
+    },
+    {
+      "id": "l13-p08", "skill": "equal parts test", "level": 3,
+      "block": { "type": "categorize", "prompt": "Fraction inspector! Sort these splits.", "buckets": ["real fraction (equal parts)", "impostor (unequal parts)"], "items": [ { "text": "square cut into 4 matching small squares", "bucket": "real fraction (equal parts)" }, { "text": "circle cut into 4 matching wedges", "bucket": "real fraction (equal parts)" }, { "text": "strip cut into 4 pieces, all different sizes", "bucket": "impostor (unequal parts)" }, { "text": "strip letter-folded into 3 matching parts", "bucket": "real fraction (equal parts)" }, { "text": "bar 'in thirds': one huge piece, two crumbs", "bucket": "impostor (unequal parts)" }, { "text": "pizza in 3 slices — one is half the pizza", "bucket": "impostor (unequal parts)" } ] },
+      "expectedAnswer": "matching squares, matching wedges, letter-fold → real; different sizes, huge+crumbs, half-pizza slice → impostor",
+      "wrongAnswers": [
+        { "answer": "any split with the right COUNT goes to 'real'", "why": "counting pieces, ignoring equality", "remedy": "Count is only rule one. Rule two: would the pieces land exactly on top of each other?" }
+      ],
+      "hints": ["Ask both questions: how many parts, AND are they equal?", "Imagine folding the parts on top of each other."],
+      "reteach": { "say": "An inspector checks TWO things: the count and the match. Four matching wedges? Real quarters. Four random chunks? Impostor — right count, wrong sizes. Equal parts or it isn't a fraction at all.", "block": { "type": "steps", "title": "The inspector's checklist", "steps": ["Count the parts — does it match the bottom number?", "Fold test — would every part land exactly on the others?", "Both yes → real fraction. Any no → impostor!"] } }
+    },
+    {
+      "id": "l13-p09", "skill": "compare fraction sizes", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend says: '⅓ is bigger than ½, because 3 is bigger than 2.' What would you tell them? How could you PROVE it with paper?", "sample": "The bottom number counts the pieces, it doesn't measure them. Fold the same strip into 2 and into 3 — the half-piece is longer. More pieces means smaller pieces, so ½ > ⅓." },
+      "expectedAnswer": "They're wrong — fold the same strip into 2 and into 3 and compare: the half is bigger, because more parts means smaller parts",
+      "wrongAnswers": [
+        { "answer": "agrees — ⅓ > ½", "why": "shares the bigger-bottom-number misconception", "remedy": "Don't argue — fold! Same strip, into 2 and into 3. Lay one piece on one piece. What does the paper say?" }
+      ],
+      "hints": ["What does the bottom number actually count?", "The proof is a fold: same strip, 2 parts vs 3 parts."],
+      "reteach": { "say": "The bottom number is the number of SHARERS, not the size of the share. Three sharers each get less than two sharers — every time. Fold the same strip both ways and the paper proves it: the half-piece wins.", "block": { "type": "emojiViz", "emojis": "🟩🟩 vs 🟧🟧🟧", "caption": "Same strip: halves are bigger than thirds" } }
+    },
+    {
+      "id": "l13-p10", "skill": "non-unit fractions (¾)", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "A flag has 4 equal stripes. 3 are red, 1 is white. What fraction is NOT red?", "options": ["¼", "¾", "⅓", "3"], "correct": 0, "explain": "3 of the 4 stripes are red (¾), so just 1 of the 4 — one quarter, ¼ — is not red. ¾ and ¼ make the whole flag." },
+      "expectedAnswer": "¼",
+      "wrongAnswers": [
+        { "answer": "¾", "why": "gave the shaded part instead of the unshaded — the '¾ left' muddle", "remedy": "¾ is the RED part. The question asks about the stripe that ISN'T red — how many of the 4 is that?" },
+        { "answer": "⅓", "why": "counted 1 white out of 3 red instead of out of ALL parts", "remedy": "The bottom number counts ALL the equal stripes, red and white together. How many stripes altogether?" }
+      ],
+      "hints": ["How many stripes altogether? How many are white?", "¾ red and ___ white make the whole flag."],
+      "reteach": { "say": "The whole flag is all four quarters. If three quarters are red, the leftover is exactly one quarter — white. ¾ and ¼ are partners: together they make one whole. What's shaded and what's left always add up to everything!", "block": { "type": "emojiViz", "emojis": "🟥🟥🟥⬜", "caption": "¾ red + ¼ white = 1 whole flag" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave naming, impostor-spotting and size comparisons.",
+    "levelDown": "2 misses on the same skill → run that item's reteach, invite the child to fold a REAL strip and overlay the pieces (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "4+ correct across levels 2–3 including one impostor spotted (unequal split rejected) and one size comparison (½ vs ¼ or ⅓ vs ¼) explained with 'more parts means smaller parts' → mastery ≥ 0.8 for 'thirds and quarters of shapes'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the pieces weren't checked for EQUAL' or 'the bigger bottom number tricked us'.",
+      "Drop a CPA stage: fold a real strip, overlay the pieces.",
+      "Give ONE hint: 'Do the parts land exactly on top of each other?'",
+      "Re-ask with halves vs quarters only, then build back to thirds.",
+      "Keep it safe: 'Mistakes show us what to practise — let's take a smaller step.'"
+    ],
+    "personalization": "Recast shaded shapes as the learner's interests — flag designs, pizza toppings, chocolate flavours, football-shirt stripes. The equal-parts fold test stays in every framing; never change the fractions.",
+    "endOnSuccess": "Finish on a winnable item (halves vs quarters if needed), then process praise: 'you checked the parts were EQUAL before naming any fraction — that's a real mathematician's habit.' If the real chocolate bar is there, share it fairly in three as the victory lap."
+  },
+
+  "differentiation": {
+    "support": "Fold the same bar into 2 vs 3 to FEEL that thirds are smaller (the KB fix for '⅓ > ½'); use pre-creased strips so the folds land true.",
+    "stretch": "'Is this split into quarters?' with a deliberately unequal split → no, and say why; show ¾ of a square two DIFFERENT ways."
+  },
+  "extension": "Make a 'fraction flag' — design a flag that is exactly ¾ one colour and ¼ another; check it with the fold test.",
+  "assessmentEvidence": "Child folds/shades correct thirds and quarters, identifies ¾, rejects an unequal split, and explains that ½ > ¼ because fewer parts are larger.",
+  "revisitLater": "Feeds straight into fractions of a QUANTITY next lesson (¼ of 12 shares into 4 piles); quick 'real or impostor?' recall in Lesson 25."
+}

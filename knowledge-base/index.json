@@ -1,0 +1,976 @@
+{
+  "version": "3.0",
+  "curriculum": "UK National Curriculum (KS1-KS2) + Israeli MoE (משרד החינוך) for Hebrew/French/Israel — cross-referenced to US CCSS/NGSS & IB PYP",
+  "ageRange": "5-12",
+  "generated": "auto from headings",
+  "sections": {
+    "teaching": [
+      "teaching/assessment-and-feedback.md",
+      "teaching/child-development.md",
+      "teaching/lesson-anatomy.md",
+      "teaching/pedagogy-core.md",
+      "teaching/research-ai-tutoring.md",
+      "teaching/research-learning-science.md"
+    ],
+    "methods": {
+      "readme": "methods/README.md",
+      "files": [
+        "methods/assessment-methods.md",
+        "methods/cooperative-and-active-learning.md",
+        "methods/differentiation-and-inclusion.md",
+        "methods/inquiry-and-problem-based.md",
+        "methods/instruction-models.md",
+        "methods/literacy-across-curriculum.md",
+        "methods/mastery-and-personalised.md",
+        "methods/metacognition-and-self-regulation.md",
+        "methods/motivation-and-engagement.md",
+        "methods/play-and-game-based.md",
+        "methods/questioning-and-dialogue.md",
+        "methods/representation-and-modelling.md",
+        "methods/retrieval-and-memory.md",
+        "methods/routines-and-environment.md",
+        "methods/technology-and-multimedia.md"
+      ]
+    },
+    "templates": [
+      "templates/README.md",
+      "templates/activity-bank-README.md",
+      "templates/activity-bank-by-subject.md",
+      "templates/activity-bank-generic.md",
+      "templates/assessment-and-rubric-bank.md",
+      "templates/lesson-plan-templates.md",
+      "templates/question-bank-guide.md"
+    ],
+    "standards": [
+      "standards/README.md",
+      "standards/english-literacy-progressions.md",
+      "standards/humanities-and-other-progressions.md",
+      "standards/maths-progressions.md",
+      "standards/science-progressions.md"
+    ],
+    "videoLibrary": {
+      "overview": "video-library.md",
+      "perSubject": [
+        "subjects/maths/videos.md",
+        "subjects/english/videos.md",
+        "subjects/science/videos.md",
+        "subjects/history-geography/videos.md",
+        "subjects/languages/videos.md",
+        "subjects/art-music/videos.md",
+        "subjects/computing-life-skills/videos.md",
+        "subjects/hebrew/videos.md",
+        "subjects/french/videos.md",
+        "subjects/israel-history/videos.md",
+        "subjects/french-history/videos.md"
+      ]
+    },
+    "crossSubjectLessonBanks": [
+      "subjects/_lesson-banks-humanities.md"
+    ]
+  },
+  "subjects": [
+    {
+      "key": "maths",
+      "subjectKey": "math",
+      "label": "Mathematics",
+      "readme": "subjects/maths/README.md",
+      "resources": "subjects/maths/resources.md",
+      "misconceptions": "subjects/maths/misconceptions.md",
+      "videos": "subjects/maths/videos.md",
+      "years": [
+        {
+          "year": 1,
+          "ages": "5-6",
+          "file": "subjects/maths/year-1.md",
+          "topicCount": 10,
+          "topics": [
+            "Counting and numbers to 20",
+            "One more and one less",
+            "Number bonds within 10",
+            "Addition and subtraction within 20",
+            "Place value: tens and ones to 100",
+            "Halves and quarters",
+            "Money: recognising coins",
+            "Telling the time: o'clock and half past",
+            "2-D and 3-D shapes",
+            "Position and direction"
+          ]
+        },
+        {
+          "year": 2,
+          "ages": "6-7",
+          "file": "subjects/maths/year-2.md",
+          "topicCount": 10,
+          "topics": [
+            "Numbers and place value to 100",
+            "Counting in 2s, 3s, 5s and 10s",
+            "Addition and subtraction within 100",
+            "Multiplication and division: 2, 5 and 10 tables",
+            "Fractions: ⅓, ¼, ½, ¾ of shapes and quantities",
+            "Money: pounds and pence",
+            "Measurement: length, mass, capacity and temperature",
+            "Telling the time to 5 minutes",
+            "Statistics: pictograms, tally charts and block diagrams",
+            "Properties of 2-D and 3-D shapes; symmetry"
+          ]
+        },
+        {
+          "year": 3,
+          "ages": "7-8",
+          "file": "subjects/maths/year-3.md",
+          "topicCount": 10,
+          "topics": [
+            "Numbers and place value to 1000",
+            "Column addition and subtraction",
+            "The 3, 4 and 8 times tables",
+            "Multiplication and division methods",
+            "Fractions: tenths and equivalence",
+            "Adding and subtracting fractions",
+            "Measurement: length, perimeter and mass/capacity",
+            "Telling the time to the minute",
+            "Angles, lines and 2-D/3-D shape properties",
+            "Statistics: bar charts and pictograms"
+          ]
+        },
+        {
+          "year": 4,
+          "ages": "8-9",
+          "file": "subjects/maths/year-4.md",
+          "topicCount": 10,
+          "topics": [
+            "Numbers and place value to 10,000",
+            "Rounding to the nearest 10, 100 and 1000",
+            "Negative numbers and Roman numerals",
+            "Times tables to 12 × 12",
+            "Column multiplication and short division",
+            "Decimals: tenths and hundredths",
+            "Equivalent fractions and fractions of amounts",
+            "Area and perimeter",
+            "Coordinates and translation",
+            "Statistics: line graphs and tables"
+          ]
+        },
+        {
+          "year": 5,
+          "ages": "9-10",
+          "file": "subjects/maths/year-5.md",
+          "topicCount": 10,
+          "topics": [
+            "Numbers and place value to 1,000,000",
+            "Multiples, factors, primes, squares and cubes",
+            "Long multiplication and short division",
+            "Add and subtract fractions",
+            "Multiply fractions; decimals to 3 places",
+            "Percentages",
+            "Area, perimeter and volume",
+            "Angles: measuring and drawing",
+            "Polygons, reflection and translation",
+            "Statistics: line graphs and timetables"
+          ]
+        },
+        {
+          "year": 6,
+          "ages": "10-11",
+          "file": "subjects/maths/year-6.md",
+          "topicCount": 10,
+          "topics": [
+            "Numbers to 10,000,000 and order of operations",
+            "Long multiplication and long division",
+            "Four operations with fractions",
+            "Fractions, decimals and percentages: equivalence",
+            "Ratio and proportion",
+            "Algebra: formulae, expressions and equations",
+            "Area, perimeter and volume",
+            "Circles, angles and nets",
+            "Coordinates in four quadrants",
+            "Statistics: pie charts and the mean"
+          ]
+        }
+      ],
+      "extension": [
+        {
+          "file": "subjects/maths/extension-topics.md",
+          "topicCount": 12,
+          "topics": [
+            "Long division: the deep dive",
+            "Negative numbers in context",
+            "Ratio problem-solving",
+            "Area and perimeter problem-solving",
+            "Roman numerals to 1000",
+            "The mean (average) and using it to solve problems",
+            "Algebra-readiness: function machines, missing numbers & simple formulae",
+            "Mental-maths strategies",
+            "Multi-step word problems",
+            "Reading SATs-style data",
+            "Prime numbers, factors and divisibility tests",
+            "Equivalence: fractions, decimals and percentages of amounts"
+          ]
+        },
+        {
+          "file": "subjects/maths/lesson-bank.md",
+          "topicCount": 0,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "key": "english",
+      "subjectKey": "language_arts",
+      "label": "English / Language Arts",
+      "readme": "subjects/english/README.md",
+      "resources": "subjects/english/resources.md",
+      "misconceptions": "subjects/english/misconceptions.md",
+      "videos": "subjects/english/videos.md",
+      "years": [
+        {
+          "year": 1,
+          "ages": "5-6",
+          "file": "subjects/english/year-1.md",
+          "topicCount": 10,
+          "topics": [
+            "Blending sounds to read words",
+            "Segmenting to spell",
+            "Digraphs and trigraphs",
+            "Split digraphs and Phase 5 alternatives",
+            "Common exception (tricky) words",
+            "Capital letters and full stops",
+            "Joining ideas with *and*",
+            "Plurals with *-s* and *-es*",
+            "Predicting and talking about a story",
+            "Writing a short story"
+          ]
+        },
+        {
+          "year": 2,
+          "ages": "6-7",
+          "file": "subjects/english/year-2.md",
+          "topicCount": 10,
+          "topics": [
+            "Reading longer words and building fluency",
+            "Adding suffixes: the spelling rules",
+            "Suffixes that make new words",
+            "Apostrophes: contractions and possession",
+            "Nouns, adjectives, verbs and expanded noun phrases",
+            "The four sentence types",
+            "Joining sentences: subordination with *because, when, if, that*",
+            "Homophones: *there / their / they're* and friends",
+            "Making inferences from a text",
+            "Writing instructions"
+          ]
+        },
+        {
+          "year": 3,
+          "ages": "7-8",
+          "file": "subjects/english/year-3.md",
+          "topicCount": 10,
+          "topics": [
+            "Prefixes that change meaning",
+            "Suffixes -ly and -ous, and the suffix -tion family",
+            "The Year 3/4 statutory word list & tricky spellings",
+            "Adverbs and prepositions for time, place and cause",
+            "*a* or *an* — choosing the right article",
+            "Punctuating direct speech",
+            "Inference and retrieval with evidence",
+            "Organising writing into paragraphs",
+            "Writing a recount",
+            "Speaking clearly: explaining and presenting"
+          ]
+        },
+        {
+          "year": 4,
+          "ages": "8-9",
+          "file": "subjects/english/year-4.md",
+          "topicCount": 8,
+          "topics": [
+            "Fronted adverbials and the comma",
+            "The possessive apostrophe with plural nouns",
+            "Standard English and verb tenses",
+            "The /shun/ and /zhun/ spelling families",
+            "Summarising the main idea",
+            "How writers create effect",
+            "Creating settings and characters in a story",
+            "Writing an explanation text"
+          ]
+        },
+        {
+          "year": 5,
+          "ages": "9-10",
+          "file": "subjects/english/year-5.md",
+          "topicCount": 9,
+          "topics": [
+            "Relative clauses",
+            "Modal verbs and adverbs of possibility",
+            "Brackets, dashes and commas for parenthesis",
+            "Spelling: -able/-ible and -ant/-ent",
+            "Silent letters, the ei/ie rule, and the Y5/6 word list",
+            "Distinguishing fact from opinion; comparing texts",
+            "Writing to persuade",
+            "Cohesion: linking ideas across paragraphs",
+            "Integrating dialogue to show character"
+          ]
+        },
+        {
+          "year": 6,
+          "ages": "10-11",
+          "file": "subjects/english/year-6.md",
+          "topicCount": 8,
+          "topics": [
+            "Semicolons, colons and dashes between clauses",
+            "The passive voice",
+            "The subjunctive and formal vs informal language",
+            "Hyphens, bullet points and the colon for lists",
+            "The Y5/6 statutory word list and advanced spelling",
+            "Summarising and analysing a whole text",
+            "Précis: shrinking a longer passage",
+            "Planning, editing and proof-reading for audience and purpose"
+          ]
+        }
+      ],
+      "extension": [
+        {
+          "file": "subjects/english/extension-topics.md",
+          "topicCount": 12,
+          "topics": [
+            "Writing a balanced argument",
+            "Editing and proofreading craft",
+            "Poetry forms",
+            "Reading inference: the deep dive",
+            "Dictionary and thesaurus skills",
+            "Formal vs informal register",
+            "Paragraphing and cohesion",
+            "Apostrophes mastery: the its / it's trap and tricky possessives",
+            "Figurative language and imagery",
+            "Reading non-fiction: skimming, scanning and retrieval",
+            "Speech punctuation mastery",
+            "Root words, prefixes and suffixes"
+          ]
+        },
+        {
+          "file": "subjects/english/lesson-bank.md",
+          "topicCount": 0,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "key": "science",
+      "subjectKey": "science",
+      "label": "Science",
+      "readme": "subjects/science/README.md",
+      "resources": "subjects/science/resources.md",
+      "misconceptions": "subjects/science/misconceptions.md",
+      "videos": "subjects/science/videos.md",
+      "years": [
+        {
+          "year": 1,
+          "ages": "5-6",
+          "file": "subjects/science/year-1.md",
+          "topicCount": 6,
+          "topics": [
+            "Naming plants and their parts",
+            "Trees: deciduous and evergreen",
+            "Animals: grouping and what they eat",
+            "The human body and the five senses",
+            "Everyday materials and their properties",
+            "Seasonal changes and the weather"
+          ]
+        },
+        {
+          "year": 2,
+          "ages": "6-7",
+          "file": "subjects/science/year-2.md",
+          "topicCount": 6,
+          "topics": [
+            "Living, dead, and never-alive",
+            "Habitats and microhabitats",
+            "Food chains",
+            "How seeds and bulbs grow into plants",
+            "Animals and their offspring; staying healthy",
+            "Choosing the right material for the job"
+          ]
+        },
+        {
+          "year": 3,
+          "ages": "7-8",
+          "file": "subjects/science/year-3.md",
+          "topicCount": 8,
+          "topics": [
+            "The jobs of a plant's parts",
+            "Water, pollination and seed dispersal",
+            "Nutrition, skeletons and muscles",
+            "Rocks, fossils and soils",
+            "Light, dark and shadows",
+            "How light reflects",
+            "Forces: pushes, pulls and friction",
+            "Magnets: attract, repel and magnetic materials"
+          ]
+        },
+        {
+          "year": 4,
+          "ages": "8-9",
+          "file": "subjects/science/year-4.md",
+          "topicCount": 6,
+          "topics": [
+            "Grouping living things with classification keys",
+            "Environments and dangers to living things",
+            "Digestion and teeth",
+            "States of matter and the water cycle",
+            "Sound: vibrations, pitch and volume",
+            "Simple circuits, conductors and insulators"
+          ]
+        },
+        {
+          "year": 5,
+          "ages": "9-10",
+          "file": "subjects/science/year-5.md",
+          "topicCount": 7,
+          "topics": [
+            "Life cycles of animals",
+            "Reproduction in plants",
+            "Growing up: humans from birth to old age",
+            "Properties of materials and separating mixtures",
+            "Reversible and irreversible changes",
+            "Earth and Space",
+            "Forces: gravity, resistance and mechanisms"
+          ]
+        },
+        {
+          "year": 6,
+          "ages": "10-11",
+          "file": "subjects/science/year-6.md",
+          "topicCount": 5,
+          "topics": [
+            "Classifying living things into broad groups",
+            "The circulatory system",
+            "Evolution and inheritance",
+            "How we see: light travels in straight lines",
+            "Electricity: voltage, brightness and circuit symbols"
+          ]
+        }
+      ],
+      "extension": [
+        {
+          "file": "subjects/science/extension-topics.md",
+          "topicCount": 12,
+          "topics": [
+            "Variables and fair testing",
+            "Recording and reading data: tables, bar charts and line graphs",
+            "Prediction and conclusions",
+            "Food chains, food webs and energy from the Sun",
+            "The water cycle",
+            "Reversible vs irreversible change",
+            "Deeper circuits: what changes the brightness of a bulb?",
+            "Classification keys",
+            "Adaptation and survival",
+            "Shadows and how we see",
+            "Sound: how it travels and how we hear",
+            "Asking scientific questions and choosing the right enquiry"
+          ]
+        },
+        {
+          "file": "subjects/science/lesson-bank.md",
+          "topicCount": 0,
+          "topics": []
+        }
+      ]
+    },
+    {
+      "key": "history-geography",
+      "subjectKey": "history",
+      "label": "History & Geography",
+      "readme": "subjects/history-geography/README.md",
+      "resources": "subjects/history-geography/resources.md",
+      "misconceptions": "subjects/history-geography/misconceptions.md",
+      "videos": "subjects/history-geography/videos.md",
+      "units": [
+        {
+          "unit": "History KS1",
+          "ages": "5-7",
+          "file": "subjects/history-geography/history-ks1.md",
+          "topicCount": 5,
+          "topics": [
+            "Changes within living memory — then and now",
+            "The Great Fire of London",
+            "Significant explorers — Columbus & Armstrong",
+            "Significant nurses — Florence Nightingale & Mary Seacole",
+            "Local history — a significant place or person near home"
+          ]
+        },
+        {
+          "unit": "History KS2",
+          "ages": "7-11",
+          "file": "subjects/history-geography/history-ks2.md",
+          "topicCount": 9,
+          "topics": [
+            "Stone Age to Iron Age Britain",
+            "Ancient Egypt",
+            "Ancient Greece",
+            "The Roman Empire and its impact on Britain",
+            "Anglo-Saxons and Scots",
+            "The Vikings and the struggle for England",
+            "A non-European society — the Maya",
+            "A local history study",
+            "A theme beyond 1066 — the history of flight"
+          ]
+        },
+        {
+          "unit": "Geography KS1",
+          "ages": "5-7",
+          "file": "subjects/history-geography/geography-ks1.md",
+          "topicCount": 5,
+          "topics": [
+            "The United Kingdom — countries, capitals & surrounding seas",
+            "Continents & oceans of the world",
+            "Hot & cold places — the Equator and the Poles",
+            "My local area — simple maps, aerial views & the compass",
+            "Weather & seasons in the UK"
+          ]
+        },
+        {
+          "unit": "Geography KS2",
+          "ages": "7-11",
+          "file": "subjects/history-geography/geography-ks2.md",
+          "topicCount": 7,
+          "topics": [
+            "Latitude, longitude, hemispheres & time zones",
+            "Climate zones & biomes",
+            "Rivers & the water cycle",
+            "Mountains, volcanoes & earthquakes",
+            "Settlements & land use",
+            "Map skills — grid references, symbols & contours",
+            "A region study — UK, Europe & the Americas"
+          ]
+        },
+        {
+          "unit": "Extension",
+          "ages": "7-11",
+          "file": "subjects/history-geography/extension-topics.md",
+          "topicCount": 12,
+          "topics": [
+            "Working with sources — primary, secondary & \"how reliable?\"",
+            "Chronology across the whole timeline — putting the periods in order",
+            "Interpretations & significance — why we remember some people, and why stories change",
+            "Ancient Sumer & the Indus Valley — the first cities",
+            "The Tudors — a turning point beyond 1066",
+            "The Second World War home front — a child's-eye view",
+            "The wider world & the transatlantic trade — a sensitive, honest introduction",
+            "Ordnance Survey map skills in depth — six-figure references, scale & symbols",
+            "Economic geography — trade, jobs & where our things come from",
+            "Climate change at a child's level — and how geographers study a changing world",
+            "Fieldwork methods — being a geographer outdoors",
+            "Biomes in depth — adaptation, food chains & people in the rainforest"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "languages",
+      "subjectKey": "world_language",
+      "label": "World Language (Spanish)",
+      "readme": "subjects/languages/README.md",
+      "resources": "subjects/languages/resources.md",
+      "videos": "subjects/languages/videos.md",
+      "units": [
+        {
+          "unit": "Spanish KS2",
+          "ages": "7-11",
+          "file": "subjects/languages/spanish-ks2.md",
+          "topicCount": 14,
+          "topics": [
+            "Greetings & introductions",
+            "Numbers 0–31",
+            "Colours",
+            "Classroom objects",
+            "Family",
+            "Animals & pets",
+            "Food & drink",
+            "Days, months & birthdays",
+            "Weather",
+            "Hobbies & free time",
+            "The body",
+            "Telling the time",
+            "Simple present-tense verbs",
+            "Descriptions: adjectives & agreement"
+          ]
+        },
+        {
+          "unit": "Spanish extension",
+          "ages": "7-11",
+          "file": "subjects/languages/spanish-extension.md",
+          "topicCount": 10,
+          "topics": [
+            "More verbs — regular -er and -ir present tense",
+            "Talking about the past — the simple past (el pretérito), gently",
+            "The near future — voy a + verb",
+            "Opinions, reasons & connectives",
+            "Classroom questions & survival language",
+            "Directions & places in town",
+            "Shopping & café role-plays",
+            "Retelling a simple story",
+            "Festivals & celebrations in the Spanish-speaking world",
+            "The Spanish-speaking world — countries, capitals & where Spanish is spoken"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "art-music",
+      "subjectKey": "general",
+      "label": "Art & Design and Music",
+      "readme": "subjects/art-music/README.md",
+      "resources": "subjects/art-music/resources.md",
+      "videos": "subjects/art-music/videos.md",
+      "units": [
+        {
+          "unit": "Art & Design",
+          "ages": "5-11",
+          "file": "subjects/art-music/art-ks1-ks2.md",
+          "topicCount": 11,
+          "topics": [
+            "Drawing & line",
+            "Colour mixing & the colour wheel",
+            "Painting",
+            "Printmaking",
+            "Collage",
+            "Sculpture & 3-D",
+            "Sketchbooks & observational drawing",
+            "Studying artists",
+            "Pattern",
+            "Tone & shading",
+            "Perspective & space"
+          ]
+        },
+        {
+          "unit": "Music",
+          "ages": "5-11",
+          "file": "subjects/art-music/music-ks1-ks2.md",
+          "topicCount": 11,
+          "topics": [
+            "Pulse & beat",
+            "Rhythm & note values",
+            "Pitch",
+            "Singing",
+            "Dynamics & tempo",
+            "Timbre & instrument families",
+            "The elements together",
+            "Simple notation",
+            "Composing a short piece",
+            "Listening & appraising",
+            "Basic music history"
+          ]
+        },
+        {
+          "unit": "Extension",
+          "ages": "5-11",
+          "file": "subjects/art-music/extension-topics.md",
+          "topicCount": 11,
+          "topics": [
+            "Impressionism — light, colour & quick brushstrokes",
+            "Pop Art — bold, bright & everyday",
+            "Aboriginal & Indigenous art — symbols, dots & storytelling",
+            "Islamic geometric art & tessellation — pattern with maths",
+            "Digital art — drawing and designing on a screen",
+            "Working with clay & textiles — 3-D making and joining",
+            "Photography basics — framing, light & viewpoint",
+            "Playing an instrument — ukulele, recorder & keyboard basics",
+            "World music — rhythms and instruments from around the globe",
+            "Composing with structure & music technology",
+            "Performance skills — sharing your art and music with confidence"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "computing-life-skills",
+      "subjectKey": "general",
+      "label": "Computing & Life Skills",
+      "readme": "subjects/computing-life-skills/README.md",
+      "resources": "subjects/computing-life-skills/resources.md",
+      "videos": "subjects/computing-life-skills/videos.md",
+      "units": [
+        {
+          "unit": "Computing",
+          "ages": "5-11",
+          "file": "subjects/computing-life-skills/computing-ks1-ks2.md",
+          "topicCount": 12,
+          "topics": [
+            "What is an algorithm?",
+            "Precise instructions & sequencing",
+            "Debugging — finding and fixing mistakes",
+            "Scratch Jr & first programs — sequence and events",
+            "Loops & repetition in Scratch",
+            "Variables in Scratch — keeping score",
+            "Selection — \"if … then …\"",
+            "Using technology safely & purposefully",
+            "How the internet & networks work",
+            "Search engines & evaluating results",
+            "Data, pictograms & spreadsheets",
+            "Creating digital content"
+          ]
+        },
+        {
+          "unit": "Online Safety",
+          "ages": "5-11",
+          "file": "subjects/computing-life-skills/online-safety.md",
+          "topicCount": 6,
+          "topics": [
+            "Personal information & privacy",
+            "Being kind online",
+            "What to do if something worries you",
+            "Reliable vs unreliable information",
+            "Screen-time balance",
+            "Age-appropriate choices online"
+          ]
+        },
+        {
+          "unit": "Life Skills",
+          "ages": "5-11",
+          "file": "subjects/computing-life-skills/life-skills.md",
+          "topicCount": 12,
+          "topics": [
+            "What is money & where it comes from",
+            "Needs vs wants",
+            "Saving, spending & simple budgeting",
+            "Asking good questions & simple logic",
+            "Facts vs opinions",
+            "Healthy eating",
+            "Sleep & exercise",
+            "Feelings & calming down",
+            "Growth mindset & resilience",
+            "Social skills — listening, sharing & resolving disagreements",
+            "Telling the time, days & the calendar",
+            "Staying safe — road safety & first-aid awareness"
+          ]
+        },
+        {
+          "unit": "Extension",
+          "ages": "7-11",
+          "file": "subjects/computing-life-skills/extension-topics.md",
+          "topicCount": 12,
+          "topics": [
+            "Scratch project — build a simple game",
+            "Loops vs events vs conditionals — the logic of programs",
+            "First steps in text coding",
+            "Spreadsheets & data handling",
+            "How the internet really works",
+            "Your digital footprint",
+            "Spotting fake & evaluating what you read online",
+            "AI awareness for kids",
+            "Money skills 2 — earning, value & simple enterprise",
+            "Study skills & managing your time",
+            "Looking after our world",
+            "Being part of a community"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hebrew",
+      "subjectKey": "language_arts",
+      "label": "Hebrew reading & writing (עברית)",
+      "readme": "subjects/hebrew/README.md",
+      "resources": "subjects/hebrew/resources.md",
+      "language": "he",
+      "misconceptions": "subjects/hebrew/misconceptions.md",
+      "videos": "subjects/hebrew/videos.md",
+      "units": [
+        {
+          "unit": "כיתות א'–ב'",
+          "ages": "6-8",
+          "file": "subjects/hebrew/kita-1-2.md",
+          "topicCount": 12,
+          "topics": [
+            "מודעות פונולוגית — לשמוע את צלילי המילה",
+            "סדר האותיות והכרת צורתן",
+            "התנועות והניקוד — חמש התנועות בעברית",
+            "הרכבת הברות — מצרפים עיצור ותנועה",
+            "קריאת מילים ומשפטים מנוקדים",
+            "אותיות סופיות — ך ם ן ף ץ",
+            "אותיות דומות בצליל — לא לבלבל בשמיעה",
+            "כתב יד — צורת האות, כיוון וישיבה על השורה",
+            "כתיבה פונטית של מילים — לכתוב מה ששומעים",
+            "ביסוס שטף — לקרוא בדיוק, במהירות ובהנגנה",
+            "דהיית הניקוד — מטקסט מנוקד לטקסט עם פחות ניקוד",
+            "כתיבת משפט שלם ופיסוק בסיסי"
+          ]
+        },
+        {
+          "unit": "כיתות ג'–ד'",
+          "ages": "8-10",
+          "file": "subjects/hebrew/kita-3-4.md",
+          "topicCount": 12,
+          "topics": [
+            "קריאה שוטפת בטקסט לא מנוקד",
+            "אסטרטגיית איתור מידע בטקסט",
+            "אסטרטגיית הסקה — לקרוא \"בין השורות\"",
+            "רעיון מרכזי וסיכום פסקה",
+            "כתיב נכון — אימהות הקריאה וכתיב מלא",
+            "שם עצם, פועל ושם תואר",
+            "מין ומספר — זכר/נקבה, יחיד/רבים",
+            "זמני הפועל — עבר, הווה, עתיד",
+            "שורש המילה — היכרות ראשונית",
+            "כתיבת פסקה מאורגנת",
+            "אוצר מילים — מילים נרדפות והפכים",
+            "כתיבת סיפור קצר — התחלה, אמצע, סוף"
+          ]
+        },
+        {
+          "unit": "כיתות ה'–ו'",
+          "ages": "10-12",
+          "file": "subjects/hebrew/kita-5-6.md",
+          "topicCount": 12,
+          "topics": [
+            "הסקה מעמיקה ופרשנות הטקסט",
+            "הבחנה בין עובדה לדעה",
+            "סוגות ומאפייניהן — סיפור, מאמר מידע, שיר",
+            "אמצעים אמנותיים — דימוי והשאלה",
+            "כתיבה תיאורית — לצייר במילים",
+            "כתיבת טיעון — טענה, נימוק ודוגמה",
+            "שורש ומשקל — איך נבנית מילה",
+            "מערכת הפועל — היכרות עם בניינים",
+            "אוצר מילים עשיר — ביטויים וניבים",
+            "כתיבת סיפור עשיר — עלילה, דמויות ושיא",
+            "השוואה בין טקסטים וזיהוי עמדת הכותב",
+            "הגהה עצמית — כתיב, פיסוק וניסוח"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "french",
+      "subjectKey": "world_language",
+      "label": "French (taught in Hebrew)",
+      "readme": "subjects/french/README.md",
+      "resources": "subjects/french/resources.md",
+      "language": "he",
+      "misconceptions": "subjects/french/misconceptions.md",
+      "videos": "subjects/french/videos.md",
+      "units": [
+        {
+          "unit": "French foundations A1",
+          "ages": "7-12",
+          "file": "subjects/french/french-foundations.md",
+          "topicCount": 16,
+          "topics": [
+            "ברכות והיכרות",
+            "האלפבית והצלילים הצרפתיים",
+            "מספרים 0–31",
+            "צבעים",
+            "חפצי כיתה",
+            "המשפחה",
+            "חיות וחיות מחמד",
+            "אוכל ושתייה",
+            "ימים, חודשים ויום הולדת",
+            "מזג אוויר",
+            "תחביבים וזמן פנוי",
+            "הגוף",
+            "מה השעה",
+            "פעלים פשוטים בהווה",
+            "תיאורים והתאמת תואר",
+            "שאלות, כיוונים וקפה/קניות"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "israel-history",
+      "subjectKey": "history",
+      "label": "Israel History & Heritage",
+      "readme": "subjects/israel-history/README.md",
+      "resources": "subjects/israel-history/resources.md",
+      "misconceptions": "subjects/israel-history/misconceptions.md",
+      "videos": "subjects/israel-history/videos.md",
+      "units": [
+        {
+          "unit": "Ancient Israel",
+          "ages": "5-12",
+          "file": "subjects/israel-history/ancient-israel.md",
+          "topicCount": 8,
+          "topics": [
+            "The Land of Israel and its place in the story",
+            "Abraham and the Patriarchs",
+            "The Exodus and Moses",
+            "The Judges and the first Kings — Saul, David and Solomon",
+            "Jerusalem and the First Temple",
+            "The Prophets (voices of conscience) — a brief look",
+            "The Second Temple period",
+            "The Maccabees and the Hasmoneans"
+          ]
+        },
+        {
+          "unit": "Festivals & Heritage",
+          "ages": "5-12",
+          "file": "subjects/israel-history/festivals-and-heritage.md",
+          "topicCount": 8,
+          "topics": [
+            "Pesach (Passover) — the festival of freedom",
+            "Shavuot — receiving the Torah, and the harvest",
+            "Sukkot — the festival of booths",
+            "Rosh Hashanah and Yom Kippur — the High Holy Days",
+            "Hanukkah — the festival of lights",
+            "Purim — the story of Esther",
+            "Tu BiShvat — the new year of the trees",
+            "Yom HaZikaron and Yom HaAtzmaut — remembrance and independence"
+          ]
+        },
+        {
+          "unit": "Diaspora & Modern",
+          "ages": "7-12",
+          "file": "subjects/israel-history/diaspora-and-modern.md",
+          "topicCount": 7,
+          "topics": [
+            "Exile and life in the diaspora",
+            "The revival of the Hebrew language",
+            "The Zionist movement",
+            "Aliyah — coming home to the land",
+            "The founding of the State of Israel",
+            "National symbols — flag, anthem and Jerusalem",
+            "Modern Israel — a diverse society"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "french-history",
+      "subjectKey": "history",
+      "label": "French History",
+      "readme": "subjects/french-history/README.md",
+      "resources": "subjects/french-history/resources.md",
+      "misconceptions": "subjects/french-history/misconceptions.md",
+      "videos": "subjects/french-history/videos.md",
+      "units": [
+        {
+          "unit": "French History",
+          "ages": "5-12",
+          "file": "subjects/french-history/french-history.md",
+          "topicCount": 14,
+          "topics": [
+            "Prehistoric France — the cave painters of Lascaux",
+            "The Gauls and Vercingetorix",
+            "Roman Gaul",
+            "Clovis and the Franks",
+            "Charlemagne, the great emperor",
+            "Medieval France — castles, knights and cathedrals",
+            "Joan of Arc",
+            "Kings and the Renaissance — François I and the Loire châteaux",
+            "Louis XIV, the Sun King, and Versailles",
+            "Everyday life long ago — the three \"estates\"",
+            "The French Revolution — 1789 and the Bastille",
+            "Liberty, Equality, Fraternity — what the Revolution changed",
+            "Napoleon",
+            "Modern France and its symbols"
+          ]
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "subjects": 11,
+    "subjectTopics": 415,
+    "methods": 201,
+    "methodFiles": 15,
+    "templateFiles": 7,
+    "standardsFiles": 5,
+    "teachingFiles": 6
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u4-l15",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 4, "title": "Money: pounds and pence", "essentialQuestion": "How do we use pounds and pence to pay and work out change?" },
+  "lessonNumber": 15,
+  "kind": "lesson",
+  "topic": "Money",
+  "title": "Pounds, pence and making amounts",
+  "durationMin": 22,
+  "objectives": ["By the end, I can show that £1 = 100p and make an amount the efficient way."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "pound (£)", "definition": "the big money unit — worth one hundred pennies", "example": "a £1 coin" },
+    { "term": "pence (p)", "definition": "the small money unit — pennies", "example": "a 5p coin is worth five pence" },
+    { "term": "£1 = 100p", "definition": "one pound is exactly one hundred pence", "example": "100 pennies fill the pound pot" },
+    { "term": "fewest coins", "definition": "making an amount with as few coins as possible", "example": "80p = 50p + 20p + 10p — just three coins" },
+    { "term": "total", "definition": "how much all the coins are worth together", "example": "50p and 20p total 70p" },
+    { "term": "decimal point", "definition": "the dot that splits pounds from pence", "example": "£1.50 = 1 pound and 50 pence" }
+  ],
+  "emphasize": [
+    "£1 = 100p — one hundred pennies make one pound.",
+    "To make an amount efficiently, start with the BIGGEST coin that fits — fewest coins.",
+    "Pre-empt the £1.5 trap: the two digits after the dot are PENCE, so £1.50 = 1 pound and 50 pence (and £1.05 = 1 pound and 5 pence)."
+  ],
+  "analysis": {
+    "keyConcepts": ["£1 = 100p", "a coin's value is not its size", "making amounts with the fewest coins (biggest first)", "reading £.pp — the dot splits pounds from pence"],
+    "misconceptions": [
+      "a bigger coin must be worth more (2p beats 5p because it's bigger)",
+      "counting coins by how many there are, not their value (three coins = 3p)",
+      "£1.50 read as 'one pound and five pence' — ignoring place value after the dot"
+    ],
+    "hooks": ["How many pennies does it take to make a whole pound? Let's count them into the pot and find out."],
+    "priorKnowledge": ["counting in 2s/5s/10s", "a coin's value isn't its size (Year 1 money)"]
+  },
+
+  "materials": {
+    "human": ["a tray of plastic coins — lots of 1p, 2p, 5p, 10p, 20p, 50p, £1, £2", "a clear 'pound pot' jar", "price labels", "a mini-whiteboard and pen for writing £1.50"],
+    "digital": ["coin drawings on the whiteboard block", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes with REAL coins (hook + concrete explain). Before the lesson: tip a heap of 1p coins next to the empty pound pot, and keep the coin tray (1p to £2) within the child's reach — the AI will ask the child to build amounts with real coins during practice. Say the script lines warmly in your own words, but keep the maths exact: £1 = 100p, biggest coin first, and the dot splits pounds from pence. When you finish writing £1.50 and say the handoff line, the AI character takes over on screen."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=TzlR77WkZXM",
+    "title": "Working With Money  | KS1 Maths Year2 | Home Learning",
+    "channel": "Explore Planet English",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time a coin appears, say its VALUE out loud before the video does — and shout 'ONE HUNDRED!' if anyone asks how many pence make a pound.",
+    "afterCheck": { "question": "How many pence make one pound?", "expectedAnswer": "100p" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Create curiosity about how many pennies make £1; retrieve value-not-size from Year 1.",
+      "note": "Don't rush to 100 — the counting-in-tens chant is the point. Leave the pot visible all lesson.",
+      "successCriteria": "Child joins the tens count to 100 and answers that the 5p beats the 2p because of VALUE.",
+      "script": {
+        "say": "How many pennies do you think it takes to make a whole pound? Let's count them into the pot and find out — call out the tens with me! 10, 20, 30… all the way up. And a quick puzzle while we count: which is worth more — this tiny 5p or this big 2p?",
+        "adaptHints": "Take the child's guess seriously before counting. Listen for '5p — the size doesn't matter'; if they say 2p, just note it and let the lesson resolve it."
+      },
+      "humanHandoff": {
+        "setup": "The empty pound pot and a heap of 1p coins on the table; a 5p and a 2p side by side for the puzzle.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If counting in tens is shaky: stack the pennies in piles of ten first, then count the piles together — 10, 20, 30…"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Land £1 = 100p; model making 80p the clever way (biggest coin first); show that the dot splits pounds from pence.",
+      "note": "Think aloud, smallest steps. This is the concrete stage — real coins moving. The last sentence is the handoff line.",
+      "successCriteria": "Child sees 100p become £1, watches 80p built with three coins, and hears '£1.50 is 1 pound and 50 pence'.",
+      "script": {
+        "say": "One hundred pennies make one pound — £1 = 100p. But carrying 100 pennies is silly! Watch me make 80p the clever way: biggest coin that fits first — a 50p… then a 20p makes 70… then a 10p makes 80. Three coins, not eighty! And when we write money like £1.50, the dot splits it: 1 POUND and 50 PENCE. — Right, now my friend on the screen is going to draw the coins we just used. Watch!",
+        "adaptHints": "Physically swap two 50p coins for a £1 coin to show they're worth the same. Write £1.50 large and point at each part. Say the final sentence as written — it's the handoff."
+      },
+      "humanHandoff": {
+        "setup": "80p built on the table as 50p + 20p + 10p; £1.50 written on the mini-whiteboard. Leave both visible.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Bridge to pictorial: the character redraws the 80p build, then the child directs making 65p with the fewest coins.",
+      "note": "The child should reach for the real coins from the tray while answering on screen. Count up out loud together: 50, 60, 65.",
+      "successCriteria": "Child picks 50p first for 65p and completes it with 10p + 5p, counting '50, 60, 65'.",
+      "script": {
+        "say": "I saw that clever build! Eighty pence with just three coins — let me draw it: a 50p… a 20p makes 70… a 10p makes 80. Biggest coin first, every time. Now YOU be the clever shopper: make 65p with the fewest coins. Grab the real coins from the tray! Which big coin goes down first?",
+        "adaptHints": "Pause after 'which big coin first?' — listen for '50p'. If the child picks lots of small coins, don't correct yet; ask 'could a bigger coin do that job?'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "80p the clever way",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "80p", "size": 10, "bold": true },
+            { "k": "circle", "x": 20, "y": 26, "r": 9, "color": "orange", "fill": true, "label": "50p" },
+            { "k": "circle", "x": 45, "y": 26, "r": 7, "color": "blue", "fill": true, "label": "20p" },
+            { "k": "circle", "x": 66, "y": 26, "r": 5, "color": "purple", "fill": true, "label": "10p" },
+            { "k": "text", "x": 20, "y": 42, "value": "50", "size": 5, "color": "orange" },
+            { "k": "text", "x": 45, "y": 42, "value": "70", "size": 5, "color": "blue" },
+            { "k": "text", "x": 66, "y": 42, "value": "80", "size": 5, "color": "purple" },
+            { "k": "text", "x": 50, "y": 52, "value": "3 coins, not 80!", "size": 6, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 59, "value": "Biggest coin that fits goes first", "size": 4, "color": "ink" }
+          ]
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Make 65p with the FEWEST coins. Which set wins?",
+          "options": ["50p + 10p + 5p", "20p + 20p + 20p + 5p", "10p + 10p + 10p + 10p + 10p + 10p + 5p", "50p + 5p"],
+          "correct": 0,
+          "explain": "Start big: 50p… a 10p makes 60… a 5p makes 65. Three coins! (50p + 5p only makes 55p — check by counting up.)"
+        }
+      ],
+      "check": {
+        "question": "Make 65p with the fewest coins.",
+        "expectedAnswer": "50p + 10p + 5p — counting up 50, 60, 65",
+        "wrongAnswers": [
+          { "answer": "lots of small coins (e.g. six 10p and a 5p)", "why": "didn't start with the biggest coin that fits", "remedy": "What's the BIGGEST coin that still fits inside 65p? Put that down first, then see what's left." },
+          { "answer": "50p + 5p = 65p", "why": "counted the coins' digits (50 and 5 look like 55… or 65 if you squint) instead of counting up carefully", "remedy": "Count up out loud: 50… then 5 more is 55. Are we at 65 yet? What's still missing?" },
+          { "answer": "picked the 2p because it's bigger than the 5p", "why": "judging value by size", "remedy": "Size doesn't decide! Look at the number stamped on the coin — which NUMBER is bigger, 5 or 2?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "Reveal whether the child owns £1 = 100p and can read £.pp correctly — the £1.50 vs £1.05 diagnostic.",
+      "note": "Ask the child to build £1.50 with the REAL coins (a £1 coin and a 50p) while answering on screen. After a correct answer, probe: 'How do you know the .50 is fifty pence, not five?'",
+      "successCriteria": "Child states 100p, builds £1.50 as £1 + 50p, and can say why £1.05 is different.",
+      "script": {
+        "say": "Quick-fire round! First: how many pence are in £1? … Now the sneaky one. Look at £1.50 — what does it actually mean? Show me with the real coins!",
+        "adaptHints": "If the child answers fast, stretch with: 'So what would £1.05 look like in coins?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "£1.50 means…",
+          "options": ["1 pound and 50 pence", "1 pound and 5 pence", "150 pounds", "15 pence"],
+          "correct": 0,
+          "explain": "The dot splits pounds from pence. The TWO digits after the dot are the pence: 50. So £1.50 = £1 + 50p."
+        }
+      ],
+      "check": {
+        "question": "How many pence in £1? And show me £1.50 in coins.",
+        "expectedAnswer": "100p; £1 coin + 50p coin",
+        "wrongAnswers": [
+          { "answer": "£1.50 is 'one pound and five pence'", "why": "ignoring place value after the dot — reading .50 as 5", "remedy": "Build both side by side: £1.50 = £1 + 50p, and £1.05 = £1 + 5p. Look at the two digits after the dot — which one has the 0 holding the tens place?" },
+          { "answer": "£1 = 10p", "why": "mixing pounds and pence — treating £1 like a ten", "remedy": "Remember the pound pot — how many pennies did we drop in before it made a pound? Count the tens again: 10, 20… 100." },
+          { "answer": "shows £1.50 as many small coins", "why": "not minimising coins", "remedy": "That works! Now the clever-shopper version: what's the biggest coin that fits?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Independent amount-making with the fewest coins: 30p, 75p, 90p, £1.20 — then 'make 80p a different way'.",
+      "note": "Director draws from the practiceBank, start level 2. Encourage using the real coin tray on any item — required on a miss (CPA step down).",
+      "successCriteria": "Child makes 3+ amounts with the fewest coins and reads one £.pp amount correctly.",
+      "script": {
+        "say": "Practice time, clever shopper! I'll call out amounts — you build them with the fewest coins you can. Remember the rule: biggest coin that fits goes first. And watch out… one of them has a pound in it.",
+        "adaptHints": "Use the kid's interests for what's being bought (stickers, comics, football cards). Never change the amounts."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the coin's size tricked us' or 'the dot got skipped.'",
+        "Go concrete: lay the coins out big to small, left to right, before choosing.",
+        "One hint: 'Biggest coin that fits first.'",
+        "Re-ask with 30p (two coins), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the two big ideas in their own words; end on an earned success.",
+      "note": "Child-led recall — the character listens, doesn't lecture.",
+      "successCriteria": "Child says '£1 = 100p' and 'start with the biggest coin' (or their own words for both).",
+      "script": {
+        "say": "Two things to remember about money — can you tell me both? … Yes! One pound is one hundred pence, and the clever way starts with the biggest coin. You reached for the 50p first every time — that's efficient, real-shop thinking.",
+        "adaptHints": "Praise the specific process observed: counting up out loud, checking with the pound pot, swapping small coins for big ones."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l15-p01", "skill": "value not size", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which coin is worth MORE — a little 5p or a big 2p?", "options": ["the 5p", "the 2p", "they're the same", "whichever is shinier"], "correct": 0, "explain": "The number on the coin decides, not the size. 5 is more than 2." },
+      "expectedAnswer": "the 5p",
+      "wrongAnswers": [
+        { "answer": "the 2p", "why": "judging value by size", "remedy": "Look at the numbers stamped on them. Which NUMBER is bigger, 5 or 2?" },
+        { "answer": "they're the same", "why": "hasn't attached values to coins", "remedy": "Swap each for pennies: a 5p is five pennies, a 2p is two pennies. Which pile is bigger?" }
+      ],
+      "hints": ["Read the number on each coin.", "Swap each coin for pennies — which makes the bigger pile?"],
+      "reteach": { "say": "Coins are like players in fancy dress — the costume's size doesn't matter, only the number on the shirt. A 5p swaps for FIVE pennies; a big 2p only swaps for two.", "block": { "type": "table", "headers": ["coin", "swaps for"], "rows": [["5p (small)", "🪙🪙🪙🪙🪙 five pennies"], ["2p (big)", "🪙🪙 two pennies"]], "caption": "The number wins, not the size" } },
+      "interestSlots": ["sweets", "stickers"]
+    },
+    {
+      "id": "l15-p02", "skill": "£1 = 100p", "level": 1,
+      "block": { "type": "fillBlank", "text": "£1 = ___ p", "answer": "100", "wordBank": ["10", "100", "1000"] },
+      "expectedAnswer": "100",
+      "wrongAnswers": [
+        { "answer": "10", "why": "mixing £ and p — treating a pound like a ten", "remedy": "Remember the pound pot — we counted WAY past ten. Count the tens on your fingers: 10, 20, 30… how many tens until the pot was full?" },
+        { "answer": "1000", "why": "over-shot — confusing with 1 kg = 1000 g or just adding zeros", "remedy": "Count ten tens: 10, 20, 30, 40, 50, 60, 70, 80, 90… one more ten lands exactly on…?" }
+      ],
+      "hints": ["Think of the pound pot — how high did we count?", "Ten tens make it. 10, 20, 30…"],
+      "reteach": { "say": "Let's refill the pound pot in our heads. Drop pennies in tens: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 — full! One hundred pennies, one pound. £1 = 100p.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 100, "marks": [{ "value": 100, "label": "£1!" }] } }
+    },
+    {
+      "id": "l15-p03", "skill": "count coins by value", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "You have three 10p coins. How much money is that?", "options": ["30p", "3p", "10p", "13p"], "correct": 0, "explain": "Count in tens, one per coin: 10, 20, 30. Three coins worth 10p each make 30p." },
+      "expectedAnswer": "30p",
+      "wrongAnswers": [
+        { "answer": "3p", "why": "counted the coins, not their value — the classic 'three coins = 3p'", "remedy": "Each coin is worth TEN pennies, not one. Touch each coin and count in tens: 10, 20…" },
+        { "answer": "13p", "why": "muddled the count of coins with the value", "remedy": "Forget how many coins there are for a moment — touch each and say its value: 10… 20… 30." }
+      ],
+      "hints": ["Each coin is worth 10, not 1.", "Touch each coin and count: 10, 20, …"],
+      "reteach": { "say": "Coins are little treasure chests — you count what's INSIDE. Each 10p holds ten pennies. Touch, count: 10, 20, 30. Three chests, thirty pennies.", "block": { "type": "emojiViz", "emojis": "🪙=10  🪙=10  🪙=10", "caption": "10, 20, 30 — count the value, not the coins" } },
+      "interestSlots": ["treasure", "pirate coins"]
+    },
+    {
+      "id": "l15-p04", "skill": "make amounts with fewest coins", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Make 30p with the FEWEST coins.", "options": ["20p + 10p", "10p + 10p + 10p", "5p + 5p + 5p + 5p + 5p + 5p", "2p + 2p + 2p"], "correct": 0, "explain": "Biggest coin that fits first: 20p… then 10p makes 30. Two coins beats three or six. (The 2p pile only makes 6p!)" },
+      "expectedAnswer": "20p + 10p",
+      "wrongAnswers": [
+        { "answer": "10p + 10p + 10p", "why": "correct total but not the fewest — didn't start big", "remedy": "That does make 30p! Now the clever-shopper version: is there a BIGGER coin than 10p that fits inside 30p?" },
+        { "answer": "2p + 2p + 2p", "why": "counted three coins as 30 — value/count mix-up", "remedy": "Count the value, not the coins: 2, 4, 6. Only 6p! Which coins are worth more each?" }
+      ],
+      "hints": ["What's the biggest coin that fits inside 30p?", "20 first… how much more do you need?"],
+      "reteach": { "say": "The clever shopper always asks: what's the BIGGEST coin that fits? For 30p: a 50p is too big, a 20p fits! 20… then 10 more makes 30. Two coins. Done.", "block": { "type": "steps", "title": "30p the clever way", "steps": ["Biggest coin that fits inside 30p? → 20p", "20p down. How much more? → 10p", "20p + 10p = 30p. Two coins!"] } }
+    },
+    {
+      "id": "l15-p05", "skill": "count coins by value", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "You put down 50p, then 20p, then 10p. How many pence altogether?", "answer": 80 },
+      "expectedAnswer": "80",
+      "wrongAnswers": [
+        { "answer": "3", "why": "counted the coins, not the value", "remedy": "Three coins, yes — but what's INSIDE them? Count up: 50… then 20 more… then 10 more." },
+        { "answer": "70", "why": "missed a coin while counting up", "remedy": "Touch each coin as you count: 50… 70… and the last one takes you to…?" }
+      ],
+      "hints": ["Start at 50 and count on.", "50… add 20… add 10."],
+      "reteach": { "say": "Count up coin by coin, touching each one: 50… add the 20 — that's 70… add the 10 — 80. Three coins, eighty pence.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 80, "marks": [{ "value": 50, "label": "50p" }, { "value": 70, "label": "+20p" }, { "value": 80, "label": "+10p" }] } }
+    },
+    {
+      "id": "l15-p06", "skill": "read £.pp amounts", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The sneaky one! £1.05 means…", "options": ["1 pound and 5 pence", "1 pound and 50 pence", "105 pounds", "15 pence"], "correct": 0, "explain": "The two digits after the dot are the pence: 05 means five pence. The 0 holds the tens place." },
+      "expectedAnswer": "1 pound and 5 pence",
+      "wrongAnswers": [
+        { "answer": "1 pound and 50 pence", "why": "ignored the 0 holding the tens place — swapped £1.05 with £1.50", "remedy": "Look at the two digits after the dot: 0 then 5. Is that fifty… or five? Build both with coins side by side." },
+        { "answer": "15 pence", "why": "mixed £ and p — dropped the pound entirely", "remedy": "The number BEFORE the dot is whole pounds. How many pounds does £1.05 have?" }
+      ],
+      "hints": ["The dot splits pounds from pence.", "After the dot: 0, then 5. Zero tens, five ones."],
+      "reteach": { "say": "The dot is a little wall: pounds live on the left, pence on the right. £1.05 — one pound on the left; after the wall, 05 — just five pence. £1.50 would be fifty. That zero matters!", "block": { "type": "table", "headers": ["written", "pounds", "pence"], "rows": [["£1.05", "1 pound", "5p"], ["£1.50", "1 pound", "50p"]], "caption": "The two digits after the dot are the pence" } }
+    },
+    {
+      "id": "l15-p07", "skill": "make amounts with fewest coins", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each amount to its fewest-coins build.", "pairs": [ { "left": "15p", "right": "10p + 5p" }, { "left": "25p", "right": "20p + 5p" }, { "left": "60p", "right": "50p + 10p" }, { "left": "70p", "right": "50p + 20p" } ] },
+      "expectedAnswer": "15p→10p+5p, 25p→20p+5p, 60p→50p+10p, 70p→50p+20p",
+      "wrongAnswers": [
+        { "answer": "60p → 50p + 20p", "why": "counted up carelessly — 50 + 20 is 70, not 60", "remedy": "Check by counting up: 50… then 20 more lands on…? Which pair really lands on 60?" },
+        { "answer": "25p → 10p + 5p", "why": "didn't total the coins — 10 + 5 is only 15", "remedy": "Count each pair up out loud before matching. 10 and 5 make…?" }
+      ],
+      "hints": ["Count each pair up: does it land exactly on the amount?", "Biggest coin first: for 70p, start with 50p."],
+      "reteach": { "say": "Every match is a mini count-up. Take 70p: biggest coin that fits is 50p… 50, then 20 more — 70. Landed exactly! If a pair overshoots or falls short, it's the wrong match.", "block": { "type": "steps", "title": "Check a match", "steps": ["Start at the big coin: 50", "Count on the next coin: 50 + 20 = 70", "Landed exactly on 70p? Match!"] } }
+    },
+    {
+      "id": "l15-p08", "skill": "make amounts with fewest coins", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! What's the FEWEST number of coins that makes exactly 99p? Type how many coins.", "answer": 6 },
+      "expectedAnswer": "6 — 50p + 20p + 20p + 5p + 2p + 2p",
+      "wrongAnswers": [
+        { "answer": "99", "why": "used all pennies — no grouping into bigger coins", "remedy": "Ninety-nine pennies would fill your pocket! Start with the biggest coin that fits inside 99p — which is it?" },
+        { "answer": "5", "why": "missed that 99 needs two 20p coins or two 2p coins — the greedy path has a double step", "remedy": "Walk it slowly: 50… biggest that fits in the 49 left? 20… then 29 left… 20 again! Keep going and count your coins at the end." }
+      ],
+      "hints": ["Biggest first: 50p. Now 49p left — biggest that fits?", "You'll need a coin twice along the way. Count the coins at the end."],
+      "reteach": { "say": "Let's walk the 99p staircase together, always taking the biggest step that fits: 50 (49 left)… 20 (29 left)… 20 again (9 left)… 5 (4 left)… 2 (2 left)… 2. Landed on 99 exactly — count the steps: six coins!", "block": { "type": "steps", "title": "99p, biggest step first", "steps": ["50p → 49p left", "20p → 29p left", "20p → 9p left", "5p → 4p left", "2p → 2p left", "2p → 0p left. Six coins!"] } }
+    },
+    {
+      "id": "l15-p09", "skill": "read £.pp amounts", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Make £1.35 with the FEWEST coins.", "options": ["£1 + 20p + 10p + 5p", "£1 + 25p coin", "50p + 50p + 20p + 10p + 5p", "£1 + 10p + 10p + 10p + 5p"], "correct": 0, "explain": "The £1 coin covers the pound; then 35p the clever way: 20p + 10p + 5p. Four coins. (There's no 25p coin in UK money!)" },
+      "expectedAnswer": "£1 + 20p + 10p + 5p",
+      "wrongAnswers": [
+        { "answer": "£1 + 25p coin", "why": "invented a coin — there is no 25p", "remedy": "Check the coin tray: 1p, 2p, 5p, 10p, 20p, 50p, £1, £2. Can you find a 25p? So build 35p from real coins." },
+        { "answer": "50p + 50p + 20p + 10p + 5p", "why": "didn't use the £1 coin — more coins than needed", "remedy": "Two 50p coins are worth the same as one…? Swap them and count your coins again." }
+      ],
+      "hints": ["The dot splits it: 1 pound, then 35 pence.", "Cover the pound with ONE coin, then build 35p biggest-first."],
+      "reteach": { "say": "Split the job at the dot: first the pounds — one £1 coin, done. Then the pence — 35p, biggest first: 20, then 10 makes 30, then 5 makes 35. Four coins altogether.", "block": { "type": "steps", "title": "£1.35 the clever way", "steps": ["Pounds first: £1 coin", "Pence: 20p → 20", "10p → 30", "5p → 35. £1.35 with 4 coins!"] } }
+    },
+    {
+      "id": "l15-p10", "skill": "value not size", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend says: 'This 2p is bigger than this 5p, so the 2p is worth more.' Are they right? Explain.", "sample": "No — a coin's value comes from the number on it, not its size. 5p swaps for five pennies, 2p only for two." },
+      "expectedAnswer": "No; the number on the coin gives its value — 5p is worth more than 2p even though it's smaller",
+      "wrongAnswers": [
+        { "answer": "Yes, bigger coins are worth more", "why": "the size-means-value misconception", "remedy": "Swap each coin for pennies: the 2p gives you two, the 5p gives you five. Which pile would you rather have?" },
+        { "answer": "They're worth the same because they're both coins", "why": "no values attached to coins at all", "remedy": "Read the number stamped on each coin out loud. Do they say the same thing?" }
+      ],
+      "hints": ["What matters — the metal or the number?", "Swap each coin for pennies and compare the piles."],
+      "reteach": { "say": "Here's the proof your friend needs: trade each coin for pennies. The big 2p trades for just two pennies. The little 5p trades for FIVE. The number wins, every time — that's why a tiny £1 coin beats a giant pile of 2p coins.", "block": { "type": "table", "headers": ["coin", "size", "worth"], "rows": [["2p", "big", "2 pennies"], ["5p", "small", "5 pennies"]], "caption": "Value comes from the number, not the size" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave making-amounts and reading-£.pp items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the REAL coins laid big-to-small (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one fewest-coins build and one £.pp reading (£1.05 or £1.50) → mastery ≥ 0.8 for 'pounds, pence and making amounts'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why (size-not-value / counted coins not value / skipped the dot).",
+      "Go concrete: real coins out, laid big to small before choosing.",
+      "One hint: 'Biggest coin that fits first.'",
+      "Re-ask with 30p (two coins), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Swap what's being bought for the learner's interests (stickers, comics, football cards) in prompts and the hook — never change the amounts or the coin values.",
+    "endOnSuccess": "Finish with an item the child can win (drop a level if needed), then specific process praise: what they DID (reached for the biggest coin, counted up out loud, checked with pennies) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Read £1.50 as '1 pound and 50 pence' with the coins laid out (build £1.50 and £1.05 side by side); fewer target amounts; coins pre-sorted big to small.",
+    "stretch": "Make £1.35 the fewest-coins way; 'what's the fewest coins for 99p?'; 'make 80p a DIFFERENT way — how many ways can you find?'"
+  },
+  "extension": "Price three toys with the labels (e.g. 45p, 80p, £1.20) and find the fewest coins to buy each one.",
+  "assessmentEvidence": "Child states £1 = 100p, makes amounts with the fewest coins (biggest first), and reads simple £.pp amounts correctly including a zero-tens case (£1.05).",
+  "revisitLater": "Straight into totalling and change next lesson (L16); bring back £1.05 vs £1.50 as a starter; money problems return in Unit 8."
+}

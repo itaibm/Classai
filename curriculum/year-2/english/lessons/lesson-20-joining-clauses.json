@@ -1,0 +1,365 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u4-l20",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 4, "title": "Word classes & sentence types", "essentialQuestion": "What jobs do words do, and how do sentences come in different types?" },
+  "lessonNumber": 20,
+  "kind": "lesson",
+  "topic": "Word classes & sentence types",
+  "title": "Joining clauses: and / but / or, and because / when / if / that",
+  "durationMin": 25,
+  "objectives": ["By the end, I can join two ideas with the right conjunction, including because for a reason."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "conjunction", "definition": "a joining word that glues two ideas together", "example": "and, but, or, because, when, if" },
+    { "term": "and / but / or", "definition": "join equal ideas: and adds, but shows a difference, or gives a choice", "example": "I like cats and dogs. It's small but strong." },
+    { "term": "because", "definition": "the reason word — it must be followed by a real reason", "example": "I wore my coat because it was cold." },
+    { "term": "when / if", "definition": "when adds a time; if adds a maybe", "example": "We'll play outside when it stops raining. If it snows, we'll build a snowman." }
+  ],
+  "emphasize": [
+    "The joining word must MATCH THE MEANING: and adds, but contrasts, or chooses, because gives a reason, when a time, if a maybe.",
+    "because must be followed by a REAL reason — and the reason comes AFTER because ('I went to bed because I was tired', not 'I was tired because I went to bed').",
+    "Pre-empt joining everything with 'and' — stop and ask: add? difference? choice? reason?"
+  ],
+  "analysis": {
+    "keyConcepts": ["conjunctions join ideas", "co-ordination: and/but/or join equal ideas", "subordination: because/when/if/that add an extra part", "because = reason; the reason follows because"],
+    "misconceptions": [
+      "defaulting to 'and' for every join",
+      "because with no real reason after it, or the clauses in the wrong order (the reason must follow because)",
+      "using 'but' where a reason is needed (contrast vs cause)"
+    ],
+    "hooks": ["'I was happy.' …Why, though? Add the magic word BECAUSE and tell us: 'I was happy because it was my birthday!'"],
+    "priorKnowledge": ["what a sentence is; end marks (Lessons 18–19)", "verbs and word jobs (Lesson 16)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["conjunction bank with meanings on screen", "sentence-pair cards (practice blocks)", "whiteboard join demos"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Feel the power of because: a bare statement begs for a reason; retrieve two tiny sentences to join later.",
+      "note": "Let the child invent the birthday-style reason — their reason, their sentence.",
+      "successCriteria": "Child completes 'I was happy because…' with a real reason and offers two tiny sentences about a dog.",
+      "script": {
+        "say": "I was happy. …Why, though? That sentence is hiding the best part! Add the magic word BECAUSE and tell us the reason: I was happy because it was my birthday! Today we join ideas with exactly the right word. Your turn — finish it your way: I was happy because… And while you're warm: give me two tiny sentences about a dog. We'll join them later!",
+        "adaptHints": "Accept any genuine reason with delight. Keep the child's two dog sentences to reuse in the example beat."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "I was happy because ___", "answer": "it was my birthday", "wordBank": ["it was my birthday", "and", "happy"] }
+      ],
+      "stuckProtocol": ["If no reason comes: offer two choices aloud — 'because it was sunny, or because you had cake?' — then let the child pick or invent a third."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Meet the two conjunction families: and/but/or join equal ideas; because/when/if/that add an extra part. Underline because + reason.",
+      "note": "The meanings table is the anchor. Say each conjunction's one-word meaning every time: adds, difference, choice, reason, time, maybe.",
+      "successCriteria": "Child can say what each of and/but/or/because does, and that because tells us WHY.",
+      "script": {
+        "say": "Conjunctions join ideas. Some join EQUAL ideas: and — it adds: I like cats and dogs. But — it shows a difference: It's small but strong. Or — a choice: apple or pear? Others add an extra part: because — a reason. When — a time. If — a maybe. That — it points. Watch: I wore my coat because it was cold. The word because tells us WHY — and listen: the reason comes straight after it. Pick the joining word that matches the meaning — because equals a reason.",
+        "adaptHints": "Tap the table row as each conjunction is named. Underline 'because it was cold' with a flourish — 'there's the reason, right after because.'"
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["conjunction", "what it does", "example"],
+          "rows": [
+            ["and", "adds", "I like cats and dogs."],
+            ["but", "shows a difference", "It's small but strong."],
+            ["or", "gives a choice", "an apple or a pear"],
+            ["because", "gives a REASON (the why)", "I wore my coat because it was cold."],
+            ["when", "adds a time", "We play outside when it is sunny."],
+            ["if", "adds a maybe", "If it snows, we'll build a snowman."]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared joining: pick the reason word for 'It was raining' + 'we stayed in'; then join with or; quick meaning check.",
+      "note": "Ask the meaning question every time: add? difference? choice? reason? The child's own dog sentences from the hook get joined here too.",
+      "successCriteria": "Child chooses because for the rain pair, or for the fruit pair, and answers 'because' to the reason question.",
+      "script": {
+        "say": "Join these two with me: It was raining — we stayed in. Which word shows WHY we stayed in? Ask yourself: are we adding? Showing a difference? Choosing? Or giving a reason? … Now this one: You can have an apple — a pear. Adding, or choosing? … And those two dog sentences you gave me earlier — let's join them with the word that fits!",
+        "adaptHints": "Reuse the child's own hook sentences verbatim. If they pick 'so' for the rain pair, honour it — 'so works too! Today our reason word is because: we stayed in because it was raining.'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "It was raining ___ we stayed in. Which joining word shows WHY?",
+          "options": ["and", "or", "so we can say: We stayed in because it was raining", "but"],
+          "correct": 2,
+          "explain": "The rain is the REASON we stayed in — the reason word is because: We stayed in because it was raining."
+        }
+      ],
+      "check": {
+        "question": "Which word shows a reason: and, but, because?",
+        "expectedAnswer": "because",
+        "wrongAnswers": [
+          { "answer": "and", "why": "defaulting to the all-purpose joiner", "remedy": "'And' just adds more. Which of the three tells you WHY something happened?" },
+          { "answer": "but", "why": "contrast confused with cause", "remedy": "'But' shows a difference — two ideas pulling apart. Which word glues an idea to its REASON?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Key diagnostic: 'I was tired ___ I went to bed.' — because beats and/but; probe what because tells the reader.",
+      "note": "'and' is the defaulting trap; 'but' is the contrast-for-cause trap. Probe after success: 'what does because tell the reader?'",
+      "successCriteria": "Child picks because and says it tells the reader the reason (why).",
+      "script": {
+        "say": "Finish with the BEST word: I was tired ___ I went to bed. Your choices: and, but, because. Think about the meaning — is the second idea an add-on, a difference, or the reason?",
+        "adaptHints": "After a correct answer, probe: 'What does because tell the reader?' (the reason). Then flip it playfully: 'I went to bed because I was tired — same reason, spot it after because!'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I was tired ___ I went to bed.",
+          "options": ["and", "but", "because"],
+          "correct": 2,
+          "explain": "Being tired is the reason for going to bed — because glues the idea to its reason. (Best of all: I went to bed because I was tired.)"
+        }
+      ],
+      "check": {
+        "question": "Finish with the best word: 'I was tired ___ I went to bed.' (and / but / because)",
+        "expectedAnswer": "because — it tells the reader the reason",
+        "wrongAnswers": [
+          { "answer": "and", "why": "defaulting to and", "remedy": "Does 'and' tell us WHY? We need the reason word — which one is it?" },
+          { "answer": "but", "why": "picked a contrast for a reason", "remedy": "'But' shows a difference. Going to bed BECAUSE you're tired is a reason — which word gives reasons?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [18, 23],
+      "goal": "Independent joining: five sentences with the meaning-matched conjunction (mix of and/but/or/because); interleave when/if once secure.",
+      "note": "Director draws from practiceBank, start level 2. Watch for: over-using and; because with no real reason after it; clause order slips with because/when/if.",
+      "successCriteria": "Child completes five joins choosing by meaning, including a reasoned because.",
+      "script": {
+        "say": "Your glue gun now! Five sentences are coming, each with a gap. Before you pick a word, ask the four questions: adding? difference? choice? reason? The bank with meanings is right there if you need it.",
+        "adaptHints": "Frame the sentence content around the child's interests (football, pets, space) — the meanings never change. Once secure, slip in a when/if item."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'The meaning and the joining word don't match yet.'",
+        "Read the two ideas aloud and ask: add? difference? choice? reason?",
+        "ONE hint: point to the conjunction bank meanings.",
+        "Re-ask an easy and/because pair, then build back.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [23, 25],
+      "goal": "Child produces a because sentence with a genuine reason; end on a win with process praise.",
+      "note": "Child-led. The genuine reason IS the mastery evidence — listen for it.",
+      "successCriteria": "Child says a full sentence: idea + because + a real reason.",
+      "script": {
+        "say": "Last one, all yours: tell me a sentence with because and a REAL reason. … Beautiful. You stopped reaching for 'and' and chose the word that fit the meaning — that's precise writing.",
+        "adaptHints": "If the reason is thin ('because yes'), smile and ask 'because WHAT happened?' — then celebrate the upgraded version."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l20-p01",
+      "skill": "join equal ideas with and",
+      "level": 1,
+      "block": { "type": "fillBlank", "text": "I like cats ___ dogs.", "answer": "and", "wordBank": ["and", "but", "because"] },
+      "expectedAnswer": "and (I like cats and dogs.)",
+      "wrongAnswers": [
+        { "answer": "but", "why": "contrast word where nothing contrasts", "remedy": "'But' pulls two ideas apart — do cats and dogs disagree here? You like BOTH. Which word adds one to the other?" },
+        { "answer": "because", "why": "reason word with no reason present", "remedy": "Is 'dogs' the REASON you like cats? No — it's just one more thing you like. Which word simply adds?" }
+      ],
+      "hints": ["You like both — nothing disagrees.", "Which word ADDS one more thing?"],
+      "reteach": { "say": "'And' is the adding word — it stacks likes together like blocks: I like cats AND dogs AND rabbits. No difference, no choice, no reason — just adding. That's and's whole job.", "block": { "type": "emojiViz", "emojis": "🐱 ➕ 🐶", "caption": "and = adds: cats AND dogs" } },
+      "interestSlots": ["cats", "dogs"]
+    },
+    {
+      "id": "l20-p02",
+      "skill": "recognise because as the reason word",
+      "level": 1,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Which joining word shows a REASON?",
+        "options": ["and", "but", "because"],
+        "correct": 2,
+        "explain": "because glues an idea to its reason — it answers 'why?'"
+      },
+      "expectedAnswer": "because",
+      "wrongAnswers": [
+        { "answer": "and", "why": "defaulting to the familiar joiner", "remedy": "'And' just adds more. If I ask you WHY, which word starts your answer?" },
+        { "answer": "but", "why": "contrast confused with cause", "remedy": "'But' shows a difference. Try answering 'Why are you smiling?' — do you start with but, or because?" }
+      ],
+      "hints": ["It answers the question 'why?'", "I was happy ___ it was my birthday."],
+      "reteach": { "say": "Whenever anyone asks WHY, one word rushes to help: because! Why did you wear a coat? Because it was cold. Why were you happy? Because it was my birthday. Because is the reason word — that's its only job, and it does it brilliantly.", "block": { "type": "keyTerm", "term": "because", "definition": "the reason word — it answers 'why?' and the reason comes right after it" } }
+    },
+    {
+      "id": "l20-p03",
+      "skill": "choose but for a contrast",
+      "level": 2,
+      "block": { "type": "fillBlank", "text": "The spider is small ___ strong.", "answer": "but", "wordBank": ["but", "and", "or"] },
+      "expectedAnswer": "but (The spider is small but strong.)",
+      "wrongAnswers": [
+        { "answer": "and", "why": "defaulting to and — missing the surprise", "remedy": "Small AND strong just stacks them — but there's a surprise here! Small things usually aren't strong. Which word shows that difference?" },
+        { "answer": "or", "why": "choice word where nothing is being chosen", "remedy": "Is the spider choosing between small and strong? It's BOTH — and that's surprising. Which word shows a difference?" }
+      ],
+      "hints": ["Small… yet strong — that's a surprise!", "Which word shows two ideas pulling different ways?"],
+      "reteach": { "say": "'But' is the surprise word — it joins two ideas that pull against each other. Small BUT strong. Tired BUT happy. When the second idea makes you go 'ooh, really?', that's but's moment.", "block": { "type": "emojiViz", "emojis": "🕷️ ↔️ 💪", "caption": "small BUT strong — ideas pulling different ways" } },
+      "interestSlots": ["spider"]
+    },
+    {
+      "id": "l20-p04",
+      "skill": "choose or for a choice",
+      "level": 2,
+      "block": { "type": "fillBlank", "text": "You can have an apple ___ a pear.", "answer": "or", "wordBank": ["or", "and", "because"] },
+      "expectedAnswer": "or (You can have an apple or a pear.)",
+      "wrongAnswers": [
+        { "answer": "and", "why": "adding when the sentence offers a pick-one choice", "remedy": "With 'and' you'd get BOTH! This sentence offers a pick. Which word says 'choose one'?" },
+        { "answer": "because", "why": "reason word with no reason", "remedy": "Is the pear the REASON for the apple? No — they're two choices on a plate. Which word offers a choice?" }
+      ],
+      "hints": ["Pick one — not both.", "Which word offers a choice?"],
+      "reteach": { "say": "'Or' is the choosing word — it holds up two things and says: pick one! An apple OR a pear. Football OR tag. When only one can happen, or does the joining.", "block": { "type": "emojiViz", "emojis": "🍎 🤔 🍐", "caption": "or = choose one: an apple OR a pear" } },
+      "interestSlots": ["apple", "pear"]
+    },
+    {
+      "id": "l20-p05",
+      "skill": "complete a because sentence with a real reason",
+      "level": 2,
+      "block": {
+        "type": "shortText",
+        "prompt": "Finish this with a REAL reason: 'I was late because…' — make it true-sounding (or wonderfully silly, as long as it's a reason!)",
+        "sample": "I was late because a duck stole my shoe."
+      },
+      "expectedAnswer": "Any completion that is a genuine reason, e.g. 'because I missed the bus' / 'because a duck stole my shoe'",
+      "wrongAnswers": [
+        { "answer": "I was late because I was late.", "why": "circular — repeats the idea instead of giving a reason", "remedy": "That tells me you were late twice! WHAT happened to make you late? The bit after because must be the why." },
+        { "answer": "I was late because and then I ran.", "why": "conjunction pile-up — no clear reason clause", "remedy": "One glue word at a time! After because, give me just the reason: 'because I…' what?" }
+      ],
+      "hints": ["Ask yourself: what MADE you late?", "After because comes the why."],
+      "reteach": { "say": "The bit after because has one job: to be the reason. Test it with the why-question: Why were you late? …because a duck stole my shoe! If your ending answers the why, because is happy. If it doesn't — no glue!", "block": { "type": "steps", "title": "Because test", "steps": ["Say the idea: I was late", "Ask: WHY?", "The answer goes after because: …because I missed the bus."] } },
+      "interestSlots": ["duck", "shoe"]
+    },
+    {
+      "id": "l20-p06",
+      "skill": "match conjunctions to their meanings",
+      "level": 2,
+      "block": {
+        "type": "matchPairs",
+        "prompt": "Match each joining word to its job.",
+        "pairs": [
+          { "left": "and", "right": "adds one more" },
+          { "left": "but", "right": "shows a difference" },
+          { "left": "or", "right": "gives a choice" },
+          { "left": "because", "right": "gives a reason" }
+        ]
+      },
+      "expectedAnswer": "and→adds, but→difference, or→choice, because→reason",
+      "wrongAnswers": [
+        { "answer": "but → gives a reason", "why": "contrast and cause muddled", "remedy": "Try it in a sentence: 'I went to bed but I was tired'? Strange! Which word makes that sentence make sense — and what does but really show?" },
+        { "answer": "or → adds one more", "why": "or treated like and", "remedy": "'An apple or a pear' — do you get both? No, you pick! What does or offer?" }
+      ],
+      "hints": ["Say each one in a sentence to test it.", "because answers 'why?'"],
+      "reteach": { "say": "Four glue words, four jobs, no overlaps: and stacks, but surprises, or offers, because explains. Keep the four questions handy — adding? difference? choice? reason? — and the right glue picks itself.", "block": { "type": "table", "headers": ["word", "job", "ask yourself"], "rows": [["and", "adds", "adding more?"], ["but", "difference", "a surprise?"], ["or", "choice", "pick one?"], ["because", "reason", "answers why?"]] } }
+    },
+    {
+      "id": "l20-p07",
+      "skill": "use when/if correctly",
+      "level": 3,
+      "block": { "type": "fillBlank", "text": "We will go to the park ___ it stops raining.", "answer": "when", "wordBank": ["when", "but", "or"] },
+      "expectedAnswer": "when (We will go to the park when it stops raining.)",
+      "wrongAnswers": [
+        { "answer": "but", "why": "contrast word forced into a time slot", "remedy": "Is the rain stopping a SURPRISE against the park? No — it's the TIME you'll go. Which word adds a time?" },
+        { "answer": "or", "why": "choice word where there's no choice", "remedy": "Park or rain-stopping — are we picking one? No! The second part tells us WHEN. Which word does time?" }
+      ],
+      "hints": ["The second part tells you the TIME it will happen.", "when = a time; if = a maybe."],
+      "reteach": { "say": "when and if are cousins: when adds a TIME that will come — we'll go WHEN it stops raining. if adds a MAYBE — we'll build a snowman IF it snows (it might not!). Time you can wait for: when. Maybe: if.", "block": { "type": "table", "headers": ["word", "adds", "example"], "rows": [["when", "a time", "when it stops raining"], ["if", "a maybe", "if it snows"]] } },
+      "interestSlots": ["park"]
+    },
+    {
+      "id": "l20-p08",
+      "skill": "spot correct because clause order",
+      "level": 3,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Detective work! Which sentence uses because correctly?",
+        "options": [
+          "I put on my coat because it was cold.",
+          "It was cold because I put on my coat.",
+          "I put on my coat because."
+        ],
+        "correct": 0,
+        "explain": "The reason must follow because: the cold is WHY the coat went on. Sentence 2 says your coat made the weather cold — magic coat! Sentence 3 gives no reason at all."
+      },
+      "expectedAnswer": "I put on my coat because it was cold.",
+      "wrongAnswers": [
+        { "answer": "It was cold because I put on my coat.", "why": "clauses swapped — the reason and the result traded places", "remedy": "Read it slowly — did your coat MAKE the weather cold? Which thing caused which? Put the real reason after because." },
+        { "answer": "I put on my coat because.", "why": "because left hanging with no reason clause", "remedy": "Because made a promise — a reason is coming! — and then nothing came. Finish it: because WHAT?" }
+      ],
+      "hints": ["Ask: which part is the REASON? It goes after because.", "Could a coat make the weather cold?"],
+      "reteach": { "say": "Because points backwards at the why. The cold came first — THAT's the reason — so it sits after because: I put on my coat because it was cold. Swap them and your coat controls the weather! Always ask: which part caused which?", "block": { "type": "table", "headers": ["sentence", "makes sense?"], "rows": [["I put on my coat because it was cold.", "✓ cold → coat"], ["It was cold because I put on my coat.", "✗ magic weather coat!"], ["I put on my coat because.", "✗ the reason never came"]] } },
+      "interestSlots": ["coat"]
+    },
+    {
+      "id": "l20-p09",
+      "skill": "rebuild a jumbled because sentence",
+      "level": 3,
+      "block": {
+        "type": "ordering",
+        "prompt": "Sentence builder! Put the words in order — remember, the reason follows because.",
+        "items": ["I", "wore", "my", "coat", "because", "it", "was", "cold."]
+      },
+      "expectedAnswer": "I wore my coat because it was cold.",
+      "wrongAnswers": [
+        { "answer": "It was cold because I wore my coat (reversed clauses)", "why": "reason and result swapped around because", "remedy": "Check with the why-question: why did you wear the coat? The answer — it was cold — goes AFTER because." },
+        { "answer": "Because it was cold I wore my coat (no comma awareness)", "why": "starting with because — fine in Y3+, but today's pattern is idea + because + reason", "remedy": "You CAN start with because — clever! — but today build it our way: say what you did first, then because, then the why." }
+      ],
+      "hints": ["Start with what YOU did.", "because sits in the middle; the reason comes after it."],
+      "reteach": { "say": "Build it in three chunks, like train carriages: the doing — I wore my coat. The glue — because. The why — it was cold. Hook them up: I wore my coat because it was cold. Doing, glue, why — in that order, every time today.", "block": { "type": "steps", "title": "Three carriages", "steps": ["🚂 the doing: I wore my coat", "🔗 the glue: because", "🚃 the why: it was cold."] } },
+      "interestSlots": ["coat"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave and/but/or, because, and when/if items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the conjunction bank meanings on screen, then a level-1 item (and vs because only).",
+    "masterySignal": "3+ correct across levels 2–3 including one because item with a genuine reason in the right order and one but-or-or contrast/choice item → mastery ≥ 0.8 for 'conjunctions'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'The meaning and the joining word don't match yet.'",
+      "Read the two ideas aloud and ask: add? difference? choice? reason?",
+      "ONE hint: point to the conjunction bank meanings.",
+      "Re-ask an easy and/because pair, then build back.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Build sentence content from the learner's world (matches, pets, playdates) — 'I was excited because…' invites their true reasons. The four meaning-questions never change.",
+    "endOnSuccess": "Finish on a winnable join; praise the process — 'you stopped reaching for and and matched the word to the meaning.'"
+  },
+
+  "differentiation": {
+    "support": "Conjunction bank with child-friendly meanings stays beside every item; start with and-vs-because pairs only.",
+    "stretch": "Write a sentence using when or if correctly, then one with that ('I think that…'); explain why 'It was cold because I put on my coat' is backwards."
+  },
+  "extension": "Finish three silly 'I was late because…' sentences with your own reasons — the sillier the better, as long as each one is truly a reason.",
+  "assessmentEvidence": "Child joins clauses with the meaning-correct conjunction across five sentences and gives a real reason after because (in the right clause order).",
+  "revisitLater": "because-reasons power the inference work in Unit 5 ('because the text says…'). Re-pose one join as retrieval next session; when/if return in Year 3 subordination."
+}

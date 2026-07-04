@@ -14,3 +14,6 @@ auth-profiles.json
 *.log
 .DS_Store
 .vite/
+
+# editor workspace
+.obsidian/

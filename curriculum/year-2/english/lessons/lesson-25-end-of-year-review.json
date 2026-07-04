@@ -1,0 +1,328 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u5-l25",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 5, "title": "Comprehension & composition", "essentialQuestion": "How do I read between the lines, and how do I write a clear set of instructions?" },
+  "lessonNumber": 25,
+  "kind": "review",
+  "topic": "Whole-year review",
+  "title": "End-of-year review: read it, prove it, write it",
+  "durationMin": 25,
+  "objectives": ["By the end, I can read fluently, infer with evidence, and write a correctly punctuated sentence."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "syllable-chop", "definition": "read a long word by chopping it into beats", "example": "steg-o-saur-us → stegosaurus." },
+    { "term": "fluency", "definition": "reading smoothly, not robot-by-word", "example": "Read the sentence like a storyteller." },
+    { "term": "inference", "definition": "work out a hidden answer from clues", "example": "I think… because the text says…" },
+    { "term": "clue", "definition": "the text words that prove your idea", "example": "'She stood very still' shows the shock." },
+    { "term": "end mark", "definition": "the mark that finishes a sentence: . ? !", "example": "A question wears a ?" },
+    { "term": "because", "definition": "the reason word", "example": "I was happy because it was sunny." }
+  ],
+  "emphasize": [
+    "Low-stakes show-off day: everything from the year in one confident round — celebrate growth.",
+    "The three moves: read smoothly, PROVE inferences with a clue, punctuate every sentence (capital + end mark + a because reason).",
+    "Pre-empt the old traps one last time: guessing instead of the text, evidence-free inferences, story-mode instructions, plural apostrophes."
+  ],
+  "analysis": {
+    "keyConcepts": ["fluent reading via syllable-chopping", "inference with quoted evidence", "sentence punctuation with a because reason", "mixed retrieval across the year's spelling, apostrophe and sentence-type rules"],
+    "misconceptions": [
+      "answering reading questions from memory or opinion instead of the text",
+      "inference without pointing to a clue ('I just know')",
+      "spelling suffix words without the rule (hoping/hopping muddle, happyer)",
+      "apostrophes for plain plurals (dog's for two dogs)",
+      "instructions written as a story instead of commands with order words"
+    ],
+    "hooks": ["Show-off day! Everything you've learned this year — in one mini challenge with a personal best to beat."],
+    "priorKnowledge": ["the whole of Year 2 English: Units 1–5"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["review passage as richText", "mixed task blocks", "the 'I think… because the text says…' stem card"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the celebratory, low-stakes tone — a personal-best challenge across the year — and retrieve syllable-chopping.",
+      "note": "Energy up, stakes down. This is a victory lap with evidence, not a test.",
+      "successCriteria": "Child says long words are read by chopping into syllables/beats.",
+      "script": {
+        "say": "Show-off day! Everything you've learned this whole year — reading, detective-thinking, writing — all in one mini challenge. No marks, no worries: just you against your own personal best. Warm-up question: when a word looks impossibly long, how do we read it?",
+        "adaptHints": "Frame the personal best around whatever motivates this child — beating a time, collecting stars, filling a trophy shelf."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🏅📚✨", "caption": "Show what you know — beat your personal best!" }
+      ],
+      "stuckProtocol": ["If chopping doesn't come back: clap 'fan-tas-tic' together and ask what the claps did to the word."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 6],
+      "goal": "Model the three stations once each: beat-read a long word, prove an inference with the stem, write a punctuated because-sentence.",
+      "note": "Quick modelling only — the child does the real work today. One crisp demo per station.",
+      "successCriteria": "Child can name the three stations: read smoothly, prove with a clue, punctuate the sentence.",
+      "script": {
+        "say": "Three stations today. Station one — READ IT: I chop a monster word into beats… steg-o-saur-us… stegosaurus! Then read a sentence smoothly, like a storyteller. Station two — PROVE IT: I answer an inference with the magic stem: 'I think… because the text says…'. Station three — WRITE IT: one sentence with a capital at the front, an end mark at the back, and a because reason in the middle: 'I was happy because it was sunny.' Read smoothly, prove with a clue, punctuate everything!",
+        "adaptHints": "Keep each demo under 30 seconds. Let the child join in on 'stegosaurus'."
+      },
+      "blocks": [
+        { "type": "table", "headers": ["station", "the move", "my demo"], "rows": [["1. Read it", "chop, then read smoothly", "steg-o-saur-us → stegosaurus"], ["2. Prove it", "I think… because the text says…", "I think Tom is scared because his hands shook"], ["3. Write it", "capital + because reason + end mark", "I was happy because it was sunny."]] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [6, 9],
+      "goal": "Warm-up together: child beat-reads 'playground', reads one sentence with expression, and recalls the proof stem.",
+      "note": "Shared, quick, winnable — confidence fuel before the solo round.",
+      "successCriteria": "Child chops play-ground, reads the sentence smoothly on the second go, and says the stem.",
+      "script": {
+        "say": "Warm up with me. Chop this one: playground… play-ground — now say it whole. Lovely. Read this sentence once to decode, then again like a storyteller: 'The playground was silent under the falling snow.' … Beautiful. Last warm-up: give me the sentence stem that proves an inference.",
+        "adaptHints": "If the first read is robotic, celebrate the decode and ask for the 'storyteller take two'."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Warm-up sentence**\n\nThe playground was silent under the falling snow." },
+        { "type": "speak", "prompt": "Beat-read 'playground', then read the sentence like a storyteller.", "target": "play-ground → playground; then a smooth, expressive read." }
+      ],
+      "check": {
+        "question": "Give me the sentence stem that proves an inference.",
+        "expectedAnswer": "I think… because the text says…",
+        "wrongAnswers": [
+          { "answer": "I think… (stops there)", "why": "remembered the idea half but dropped the evidence half", "remedy": "That's part one! What glues your idea to the text? 'I think… because the…?'" },
+          { "answer": "Because I know it", "why": "evidence from memory, not the text — the year's oldest trap", "remedy": "Detectives never 'just know'! Where must the proof come from — your head, or the words on the page?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [9, 13],
+      "goal": "The review passage: child reads 'The Lost Kite' fluently, then proves one inference from it with the full stem.",
+      "note": "This is the day's core evidence moment: fluent read + evidenced inference on a fresh text.",
+      "successCriteria": "Child reads the passage smoothly (second pass allowed) and gives a feeling + matching clue in the stem.",
+      "script": {
+        "say": "Station one and two together now, on a brand-new story. Read 'The Lost Kite' aloud — decode first if you need, then the storyteller read… Now the detective bit: how does Ella feel when the string slips? Full proof, please: 'I think… because the text says…'.",
+        "adaptHints": "Accept upset/shocked/sad — any feeling the clues support. Probe: 'Which words exactly are your clue?'"
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**The Lost Kite**\n\nElla held the string of her red kite. A gust of wind tugged it high over the trees. The string slipped through her fingers. Ella stood very still and stared at the empty sky. Then Dad lifted her onto his shoulders, and she spotted a flash of red in the oak tree." },
+        { "type": "shortText", "prompt": "How does Ella feel when the string slips? Prove it: 'I think… because the text says…'", "sample": "I think Ella feels shocked and upset because the text says she stood very still and stared at the empty sky." }
+      ],
+      "check": {
+        "question": "How does Ella feel when the string slips — with your clue?",
+        "expectedAnswer": "Shocked/upset — because the text says she stood very still and stared at the empty sky.",
+        "wrongAnswers": [
+          { "answer": "Sad. (no clue)", "why": "evidence-free inference — the year's classic trap", "remedy": "I believe you — now prove it! Which words show the feeling? 'Because the text says…'" },
+          { "answer": "Happy, because she got a kite", "why": "answered from a guess about kites, not from this text's clues", "remedy": "Check the clues at that exact moment: the string SLIPS, she stands very still, the sky is EMPTY. What do those words leak?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [13, 22],
+      "goal": "The mixed solo round: interleaved retrieval across the whole year — reading questions, spelling rules, apostrophes, sentence types, instructions, and the written because-sentence.",
+      "note": "Director draws from the 12-item practiceBank, start level 2, deliberately interleaving strands (never two of the same strand back-to-back). The written because-sentence (l25-p09) must appear for every child.",
+      "successCriteria": "Child completes 4+ mixed items including one written, fully punctuated because-sentence.",
+      "script": {
+        "say": "Solo round — the whole year, mixed up! Spelling, apostrophes, sentence types, detective questions, instructions… anything can come up. Beat your personal best!",
+        "adaptHints": "Keep score visibly if the child enjoys it; otherwise just narrate wins. Interleave strands so each item feels fresh."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name which skill slipped ('the suffix rule' / 'the clue is missing' / 'the end mark fell off').",
+        "Give that skill's scaffold: syllable chop / the stem card / 'capital crown, end-mark shoes'.",
+        "One hint from the item.",
+        "Re-ask an easier version of the SAME strand, then build back.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Growth reflection: the child names something they can do now that they couldn't at the start of the year; end the year on process praise.",
+      "note": "Child-led. Listen for a genuine growth statement; reflect their real progress back with specifics from today.",
+      "successCriteria": "Child states one real thing they can do now that they couldn't before.",
+      "script": {
+        "say": "Final question of Year 2, and it's my favourite: tell me ONE thing you can do in English now that you couldn't do at the start of the year… That's real growth. Today you read smoothly, proved your thinking with a clue, AND punctuated your sentences — a brilliant Year 2 reader and writer. Take a bow!",
+        "adaptHints": "Name their specific wins from today's round in the praise — the exact word they chopped, the exact clue they quoted."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say one thing you can do in English now that you couldn't at the start of Year 2.", "target": "Any genuine growth statement — e.g. 'I can read long words by chopping them into beats.'" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l25-p01", "skill": "retrieval vs inference (Unit 5)", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The text says: 'Ella held the string of her red kite.' Question: 'What colour was the kite?' — retrieval or inference?", "options": ["Retrieval — the answer is written there", "Inference — you work it out from clues", "Neither", "Impossible to say"], "correct": 0, "explain": "Finger on 'her RED kite' — the answer sits in the words. Find it = retrieval." },
+      "expectedAnswer": "Retrieval — the answer is written there",
+      "wrongAnswers": [
+        { "answer": "Inference — you work it out from clues", "why": "the label-everything-inference habit", "remedy": "Finger test! Can you point to the exact colour word in the text? Then which kind is it?" },
+        { "answer": "Red (answers instead of labelling)", "why": "answered the question instead of naming its kind", "remedy": "Good finding! Now the label: was that written there, or worked out? Which kind of question is it?" }
+      ],
+      "hints": ["Can you point to the exact words that answer it?", "Written word-for-word = retrieval."],
+      "reteach": { "say": "One last time, the detective rule: retrieval means FIND IT — finger on the words, 'her red kite', done. Inference means WORK IT OUT — no answer written, so you use clues. Colour of the kite? Written. Retrieval.", "block": { "type": "table", "headers": ["kind", "move"], "rows": [["retrieval", "point at the words"], ["inference", "work it out from clues"]] } }
+    },
+    {
+      "id": "l25-p02", "skill": "apostrophe for belonging (Unit 3)", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which shows the bag belongs to Sam?", "options": ["Sam's bag", "Sams bag", "Sams' bag", "Sam bag's"], "correct": 0, "explain": "Belonging gets 's right after the owner: Sam's bag = the bag of Sam." },
+      "expectedAnswer": "Sam's bag",
+      "wrongAnswers": [
+        { "answer": "Sams bag", "why": "the belonging apostrophe was dropped", "remedy": "Whose bag is it? The tiny 's tells us — where does it clip on, right after the owner's name?" },
+        { "answer": "Sams' bag", "why": "apostrophe drifted after the s — a plural-owner shape for one Sam", "remedy": "There's only ONE Sam. For one owner, the apostrophe hugs the name first, THEN the s: Sam + 's." }
+      ],
+      "hints": ["The 's clips straight onto the owner's name.", "Say it as 'the bag of Sam' — then write Sam + 's."],
+      "reteach": { "say": "The belonging apostrophe is a little ownership label. One owner? Name first, then 's: Sam's bag, the cat's tail, Mia's pencil. It always answers the question 'whose?'", "block": { "type": "table", "headers": ["whose?", "write it"], "rows": [["the bag of Sam", "Sam's bag"], ["the tail of the cat", "the cat's tail"]] } }
+    },
+    {
+      "id": "l25-p03", "skill": "contractions (Unit 3)", "level": 1,
+      "block": { "type": "fillBlank", "text": "Squash 'do not' into one word: ___", "answer": "don't", "wordBank": ["don't", "dont", "do'nt"] },
+      "expectedAnswer": "don't",
+      "wrongAnswers": [
+        { "answer": "dont", "why": "letters squashed but the apostrophe gravestone forgotten", "remedy": "Letters fell out when we squashed — which one? The apostrophe marks exactly where the o of 'not' used to live." },
+        { "answer": "do'nt", "why": "apostrophe placed at the join, not where the letter vanished", "remedy": "The apostrophe isn't a stapler between words — it's a gravestone for the missing letter. Which letter of 'not' vanished? Put the mark right there." }
+      ],
+      "hints": ["Which letter of 'not' fell out?", "The apostrophe sits exactly where the missing letter was."],
+      "reteach": { "say": "Squash 'do not' and the o of 'not' falls out: do-n_t. The apostrophe is its little gravestone, right in the gap: don't. Not dont — the gravestone matters; not do'nt — it marks the missing letter, not the join.", "block": { "type": "table", "headers": ["full", "what fell out", "contraction"], "rows": [["do not", "the o of not", "don't"], ["can not", "n-o", "can't"], ["I am", "the a", "I'm"]] } }
+    },
+    {
+      "id": "l25-p04", "skill": "sentence types (Unit 4)", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "'Close the door.' — what type of sentence is it?", "options": ["A command", "A question", "A statement", "An exclamation"], "correct": 0, "explain": "It bosses you with a bossy verb at the front — Close! That's a command." },
+      "expectedAnswer": "A command",
+      "wrongAnswers": [
+        { "answer": "A statement", "why": "mixing telling with bossing", "remedy": "A statement TELLS ('The door is closed.'). This one gives you a JOB. Which type bosses you?" },
+        { "answer": "A question", "why": "guessing among the four types", "remedy": "Does it ask you anything? Does your voice go up? It starts with a doing word and bosses — which type is that?" }
+      ],
+      "hints": ["Obey-test it: does it give you a job?", "Bossy verb at the front = ?"],
+      "reteach": { "say": "The four flavours, one last tour: a statement TELLS (The door is shut.). A question ASKS (Is the door shut?). A command BOSSES (Close the door.). An exclamation BURSTS with feeling (What a heavy door!). 'Close the door.' bosses — command.", "block": { "type": "table", "headers": ["type", "job", "example"], "rows": [["statement", "tells", "The door is shut."], ["question", "asks", "Is the door shut?"], ["command", "bosses", "Close the door."], ["exclamation", "bursts", "What a heavy door!"]] } }
+    },
+    {
+      "id": "l25-p05", "skill": "suffix spelling rules (Unit 2)", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "hop + -ing = ?", "options": ["hopping", "hoping", "hopeing", "hopying"], "correct": 0, "explain": "Short vowel + one consonant → double it: hop → hopping. (Hoping is hope minus its e!)" },
+      "expectedAnswer": "hopping",
+      "wrongAnswers": [
+        { "answer": "hoping", "why": "didn't double — and landed on a different word (hope + ing)", "remedy": "Say them: HOP-ping (bouncing) vs HO-ping (wishing). Your word is hop — short o, one p. What does the doubling rule say?" },
+        { "answer": "hopeing", "why": "added a stray e — muddling the drop-the-e rule backwards", "remedy": "Hop never had an e! Which rule fits a short-vowel word ending in one consonant?" }
+      ],
+      "hints": ["Hop: short vowel, one consonant at the end.", "The doubling rule protects the short o."],
+      "reteach": { "say": "The twin-letter trick, one last time: short vowel + one consonant means the last letter makes a copy of itself before -ing. Hop → hoPPing — the twins guard the short o. Without them you get hoping, and that's a different word about wishing!", "block": { "type": "table", "headers": ["root", "rule", "result"], "rows": [["hop", "double the p", "hopping"], ["run", "double the n", "running"], ["hope", "drop the e", "hoping"]] } }
+    },
+    {
+      "id": "l25-p06", "skill": "suffix spelling rules: y→i (Unit 2)", "level": 2,
+      "block": { "type": "fillBlank", "text": "happy + -er = ___", "answer": "happier", "wordBank": ["happier", "happyer", "happyier"] },
+      "expectedAnswer": "happier",
+      "wrongAnswers": [
+        { "answer": "happyer", "why": "suffix bolted on with no rule — the y never transformed", "remedy": "Words ending in y have a transformation trick before -er. What does the y turn into?" },
+        { "answer": "happyier", "why": "y changed to i but the old y stayed too", "remedy": "The y TURNS INTO the i — it doesn't stay behind as well! Happ + i + er. Try again." }
+      ],
+      "hints": ["The y transforms before -er.", "y → i, then add the ending."],
+      "reteach": { "say": "The transformation rule: when a word ends in y, the y turns into an i before -er, -est or -ed. Happy → happi → happier. Watch it work everywhere: funny → funnier, sunny → sunniest, cry → cried. (Only -ing lets the y stay: crying!)", "block": { "type": "table", "headers": ["root", "y → i", "word"], "rows": [["happy", "happi + er", "happier"], ["funny", "funni + est", "funniest"], ["cry", "cri + ed", "cried"]] } }
+    },
+    {
+      "id": "l25-p07", "skill": "order instruction steps (Unit 5)", "level": 2,
+      "block": { "type": "ordering", "prompt": "One last unscramble: How to post a letter.", "items": ["Write your letter.", "Put the letter in an envelope.", "Stick a stamp on the envelope.", "Post it in the postbox."] },
+      "expectedAnswer": "Write → envelope → stamp → post",
+      "wrongAnswers": [
+        { "answer": "Post it first", "why": "grabbed the goal step before the making steps", "remedy": "Post WHAT? Your hands are empty! Which step gives you something to post?" },
+        { "answer": "Envelope before the letter is written", "why": "steps not tested in sequence", "remedy": "The fixing question: could you really do that yet? What goes IN the envelope — and does it exist yet?" }
+      ],
+      "hints": ["Could you really do this step yet?", "Make it, wrap it, stamp it, send it."],
+      "reteach": { "say": "The fixing question never retires: could I do this step YET? Post an empty hand? No. Envelope with nothing in it? No. Write, then wrap, then stamp, then post — each step feeds the next. First, next, then, finally.", "block": { "type": "steps", "title": "How to post a letter", "steps": ["First, write your letter.", "Next, put the letter in an envelope.", "Then, stick a stamp on the envelope.", "Finally, post it in the postbox."] } }
+    },
+    {
+      "id": "l25-p08", "skill": "inference with evidence (Unit 5)", "level": 2,
+      "block": { "type": "shortText", "prompt": "'Dev hid the last biscuit behind his back and looked at the floor.' How does Dev feel? Prove it with the stem.", "sample": "I think Dev feels guilty because the text says he hid the biscuit behind his back and looked at the floor." },
+      "expectedAnswer": "Guilty/sneaky/ashamed — because the text says he hid the biscuit and looked at the floor.",
+      "wrongAnswers": [
+        { "answer": "Hungry. (no clue)", "why": "a guess with no evidence — and the clues point elsewhere", "remedy": "Check the clues: HIDING the biscuit, eyes on the FLOOR. Hungry people munch! What do hiding and floor-staring leak?" },
+        { "answer": "Guilty. (no clue)", "why": "right idea, missing proof — inference without evidence", "remedy": "I agree — now prove it like a detective. Which words show the guilt? 'Because the text says…'" }
+      ],
+      "hints": ["What do HIDING something and looking DOWN usually leak?", "Both parts: I think… because the text says…"],
+      "interestSlots": ["biscuit", "sweet", "slice of cake"],
+      "reteach": { "say": "The proof stem, one final outing. Part one, the idea: Dev feels guilty. Part two, the glue and the clue: BECAUSE THE TEXT SAYS he hid the biscuit behind his back and looked at the floor. Hiding plus floor-staring — guilt leaking everywhere. Idea + because + clue: that's the whole recipe.", "block": { "type": "steps", "title": "Prove it", "steps": ["Idea: Dev feels guilty.", "Glue: because the text says…", "Clue: he hid the biscuit and looked at the floor."] } }
+    },
+    {
+      "id": "l25-p09", "skill": "write a punctuated because-sentence (Units 4–5)", "level": 3,
+      "block": { "type": "shortText", "prompt": "Station three — WRITE IT: one sentence of your own with a capital at the front, an end mark at the back, and a because reason in the middle.", "sample": "I love Saturdays because we go swimming." },
+      "expectedAnswer": "Any sentence with capital + genuine because-reason + end mark, e.g. 'I love Saturdays because we go swimming.'",
+      "wrongAnswers": [
+        { "answer": "i love saturdays because we go swimming", "why": "the reason works but the capital crown and end-mark shoes are missing", "remedy": "Dress the sentence! Every sentence wears a capital crown at the front and an end mark at the back. Fix both." },
+        { "answer": "I love Saturdays because I do.", "why": "'because' present but no real reason after it", "remedy": "'Because I do' tells us nothing new! What ACTUALLY makes Saturdays great? Put the real reason after the because." }
+      ],
+      "hints": ["Capital crown at the front, end mark at the back.", "After 'because' comes the REAL reason — something true for you."],
+      "interestSlots": ["Saturdays", "swimming", "football club", "grandma's house"],
+      "reteach": { "say": "A complete sentence gets fully dressed: capital crown at the front, end-mark shoes at the back — and a because in the middle needs a REAL reason after it. 'I love Saturdays because we go swimming.' Crown, reason, shoes. Now dress one of your own.", "block": { "type": "table", "headers": ["part", "check"], "rows": [["capital crown", "I…"], ["real reason", "…because we go swimming…"], ["end-mark shoes", "…full stop."]] } }
+    },
+    {
+      "id": "l25-p10", "skill": "suffix rules: meaning check (Unit 2)", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Stretch! 'Hoping' or 'hopping' — which one means bouncing on one leg, and WHY is it spelled that way?", "options": ["hopping — the doubled p protects hop's short o", "hoping — it has only one p", "hopping — because it is a longer word", "hoping — the e was dropped from hop"], "correct": 0, "explain": "Hop has a short o and one p, so the p doubles: hopping. One p would make hoping — from hope!" },
+      "expectedAnswer": "hopping — the doubled p protects hop's short o",
+      "wrongAnswers": [
+        { "answer": "hoping — the e was dropped from hop", "why": "rules swapped — hop never had an e; drop-the-e belongs to hope", "remedy": "Which root means bounce — hop or hope? Hop has no e to drop! Which rule fits a short-vowel, one-consonant root?" },
+        { "answer": "hopping — because it is a longer word", "why": "right word, made-up reason — the rule isn't understood", "remedy": "Right spelling! But WHY the double p? Say hop-ping and ho-ping aloud — what does the double letter do to the o sound?" }
+      ],
+      "hints": ["Which root word means bounce: hop or hope?", "Say both aloud — what does the double p do to the vowel sound?"],
+      "reteach": { "say": "One letter, two different words — this is why the rules matter. Hop (short o) doubles its p so the o stays short: hopping, bouncing. Hope (long o, silent e) drops its e: hoping, wishing. The double letters are bodyguards for short vowels. Spell the rule, keep the meaning.", "block": { "type": "table", "headers": ["root", "rule", "word", "meaning"], "rows": [["hop", "double the p", "hopping", "bouncing"], ["hope", "drop the e", "hoping", "wishing"]] } }
+    },
+    {
+      "id": "l25-p11", "skill": "apostrophe trap: plurals (Unit 3)", "level": 3,
+      "block": { "type": "trueFalse", "statement": "A sign says: 'Fresh apple's 50p'. The apostrophe in apple's is correct.", "correct": false, "explain": "The apples don't own anything — it's just more than one apple. Plain plurals never take an apostrophe: apples." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the grocer's-apostrophe trap — apostrophe added to a plain plural", "remedy": "Ask the gate question: do the apples OWN something? Is anything squashed together? No and no — so what is that apostrophe doing there?" },
+        { "answer": "True, because there are lots of apples", "why": "believes apostrophes mark 'more than one'", "remedy": "Apostrophes never make plurals! An s alone does that job: one apple, two apples. Apostrophes only mark belonging (Sam's) or squashing (don't)." }
+      ],
+      "hints": ["The two apostrophe jobs: belonging and squashing. Is either happening here?", "More-than-one just takes an s — no apostrophe."],
+      "reteach": { "say": "Be the sign inspector one last time! Apostrophes have exactly two jobs: belonging (Sam's bag) and squashed words (don't). 'Fresh apple's 50p' has neither — nobody owns anything, nothing is squashed. It's just more than one apple: apples. Case closed — that shop needs YOU.", "block": { "type": "table", "headers": ["sign", "verdict", "fix"], "rows": [["apple's 50p", "✗ plain plural", "apples 50p"], ["Sam's bag", "✓ belonging", "keep it"], ["don't run", "✓ squashed words", "keep it"]] } }
+    },
+    {
+      "id": "l25-p12", "skill": "sentence types + expanded noun phrase (Unit 4)", "level": 3,
+      "block": { "type": "categorize", "prompt": "Final sort! Put each sentence with its type.", "buckets": ["Statement", "Question", "Command", "Exclamation"], "items": [ { "text": "The sea is cold.", "bucket": "Statement" }, { "text": "Is the sea cold?", "bucket": "Question" }, { "text": "Hold my hand.", "bucket": "Command" }, { "text": "What a cold sea!", "bucket": "Exclamation" } ] },
+      "expectedAnswer": "The sea is cold.→statement; Is the sea cold?→question; Hold my hand.→command; What a cold sea!→exclamation",
+      "wrongAnswers": [
+        { "answer": "What a cold sea! → command", "why": "any ! read as bossing", "remedy": "Does 'What a cold sea!' give you a job? No — it BURSTS with feeling, and it starts with What. Which type starts What or How?" },
+        { "answer": "Hold my hand. → statement", "why": "command missed because it ends in a full stop", "remedy": "End marks can trick you — listen to the JOB instead. Does it tell you about something, or tell you to DO something?" }
+      ],
+      "hints": ["Listen for the job: tells, asks, bosses, or bursts?", "Exclamation sentences start What or How."],
+      "reteach": { "say": "Same words, four different jobs — that's the magic of sentence types. 'The sea is cold.' tells. 'Is the sea cold?' asks — voice up, question-mark hook. 'Hold my hand.' bosses — bossy verb first. 'What a cold sea!' bursts — starts with What, ends with a bang. Read each aloud in its own voice and the type names itself. Stretch: now say the statement again with an expanded noun phrase — 'The deep, icy sea is cold.'", "block": { "type": "table", "headers": ["sentence", "job", "type"], "rows": [["The sea is cold.", "tells", "statement"], ["Is the sea cold?", "asks", "question"], ["Hold my hand.", "bosses", "command"], ["What a cold sea!", "bursts", "exclamation"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave strands hard (spelling → inference → apostrophes → sentence work).",
+    "levelDown": "2 misses on the same strand → run that item's reteach with its scaffold (chop / stem card / rule table), then a level-1 item from the SAME strand before moving on.",
+    "masterySignal": "A fluent passage read, one evidenced inference (stem + matching clue), and one written capital+because+end-mark sentence, plus 3+ correct mixed items → year-end mastery snapshot across all five units.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name which skill slipped ('the doubling rule' / 'the clue is missing' / 'the end mark fell off').",
+      "Give that skill's scaffold: syllable chop / the proof stem / capital-crown reminder / the fixing question.",
+      "One hint from the item.",
+      "Re-ask an easier version of the same strand, then build back.",
+      "Keep it safe — today especially: 'Look how far you've come; mistakes just show us the warm-up for Year 3.'"
+    ],
+    "personalization": "Personal-best framing tuned to the child (stars, time, trophy shelf); interestSlots in the because-sentence and inference items may swap to their real life. Passages, rules and answers never change.",
+    "endOnSuccess": "Always end on the growth reflection after a won item; praise the year's process — 'you chop, you prove, you punctuate — like a real reader and writer.'"
+  },
+
+  "differentiation": {
+    "support": "Choose the easier read (the warm-up sentence instead of the full passage); stem card and capital/end-mark reminder stay on screen; two answer options instead of four.",
+    "stretch": "Add an expanded noun phrase to the written sentence; prove Ella's SECOND feeling (relief at the flash of red) with its own clue."
+  },
+  "extension": "Write a two-sentence book recommendation for a favourite book, using a because reason and full punctuation — the child's first Year 3-style opinion writing.",
+  "assessmentEvidence": "Child reads a passage fluently, makes one evidenced inference using the stem, and writes one correctly punctuated sentence with a genuine because reason — plus mixed-item accuracy across spelling, apostrophes and sentence types.",
+  "revisitLater": "Carry any shaky strand into Year 3 as an opening warm-up; the mastery snapshot from this review seeds the Year 3 baseline."
+}

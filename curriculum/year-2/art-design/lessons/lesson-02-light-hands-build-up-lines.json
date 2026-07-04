@@ -1,0 +1,1398 @@
+{
+  "vocabulary": [
+    {
+      "term": "sketchbook",
+      "definition": "A book artists use to collect ideas, practise, test, and improve.",
+      "example": "I tried three different cup shapes in my sketchbook before choosing one."
+    },
+    {
+      "term": "light line",
+      "definition": "A pale, gentle pencil line made without pressing hard.",
+      "example": "The first oval at the top of my cup is a light line."
+    },
+    {
+      "term": "build-up",
+      "definition": "Drawing several light lines to slowly find the best shape.",
+      "example": "I used build-up lines around the side of the cup until the curve looked right."
+    },
+    {
+      "term": "outline",
+      "definition": "The outside edge line of an object.",
+      "example": "I darkened the outline of the cup handle."
+    },
+    {
+      "term": "detail",
+      "definition": "Small parts added to a drawing after the big shape is found.",
+      "example": "The rim and little shadow inside the cup are details."
+    },
+    {
+      "term": "experiment",
+      "definition": "Trying something out to see what happens and learn from it.",
+      "example": "I experimented with drawing softly before using my fine-liner."
+    }
+  ],
+  "emphasize": [
+    "Artists often draw lightly first so they can fix and improve the shape before committing.",
+    "Build-up lines are useful ‘ghost lines’, not mistakes or mess.",
+    "Misconception to pre-empt: pressing hard at the start does not make a drawing better; it makes changes harder."
+  ],
+  "analysis": {
+    "keyConcepts": [
+      "A sketchbook is for trying, testing, practising, and improving, not just for perfect finished pictures.",
+      "Light build-up lines help an artist find the shape by looking carefully and adjusting.",
+      "After the shape looks right, the artist darkens only the keeper lines with pencil or fine-liner."
+    ],
+    "misconceptions": [
+      "If there are lots of pale lines, the drawing is wrong or messy.",
+      "A good artist draws the final line perfectly the first time.",
+      "Fine-liner should be used first because it looks neat.",
+      "Erasing every construction line is always necessary."
+    ],
+    "hooks": [
+      "Why do artists draw ghost lines before the real one?",
+      "A clean confident cup can appear from a fuzzy cloud of light lines."
+    ],
+    "priorKnowledge": [
+      "Year 2 learners have explored different kinds of line and simple observational drawing.",
+      "They may know that a sketchbook records ideas and experiments.",
+      "They can identify simple shapes such as ovals, curves, and straight lines."
+    ]
+  },
+  "materials": {
+    "human": [
+      "Sketchbook or plain paper",
+      "Soft pencil if possible, or any pencil held gently",
+      "Fine-liner or dark felt-tip/pencil for the final keeper lines",
+      "One simple object to draw, ideally a chunky cup, mug, glue stick, toy block, or small box",
+      "Optional eraser, used sparingly"
+    ],
+    "digital": []
+  },
+  "delivery": {
+    "mode": "fully_ai",
+    "humanNotes": "The learner will need real drawing materials for the practice beat. If no fine-liner is available, use a darker pencil line instead."
+  },
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [
+        3,
+        4
+      ],
+      "goal": "Spark curiosity about why artists begin with pale ‘ghost lines’.",
+      "note": "Keep it playful and process-focused. Do not imply the pale lines are errors.",
+      "successCriteria": "Learner can say that ghost lines help artists try out a shape before choosing the final line.",
+      "script": {
+        "say": "Today we’re going to use a proper artist trick: ghost lines. They look pale and wobbly at first, but they help a clean drawing appear at the end. The question is: why would an artist draw a line they might not keep?",
+        "adaptHints": "If the learner likes sports, compare ghost lines to a practice swing or warm-up shot. If they like games, compare them to testing a route before choosing it."
+      },
+      "blocks": [
+        {
+          "type": "custom",
+          "title": "Ghost line mystery",
+          "root": {
+            "t": "col",
+            "children": [
+              {
+                "t": "text",
+                "value": "Which line comes first?",
+                "size": "lg",
+                "bold": true,
+                "align": "center"
+              },
+              {
+                "t": "row",
+                "children": [
+                  {
+                    "t": "card",
+                    "children": [
+                      {
+                        "t": "emoji",
+                        "value": "👻",
+                        "size": "xl",
+                        "anim": "float"
+                      },
+                      {
+                        "t": "text",
+                        "value": "Pale ghost lines",
+                        "align": "center"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "card",
+                    "children": [
+                      {
+                        "t": "emoji",
+                        "value": "🖊️",
+                        "size": "xl",
+                        "anim": "pop"
+                      },
+                      {
+                        "t": "text",
+                        "value": "Dark keeper line",
+                        "align": "center"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "t": "text",
+                "value": "Artists usually test softly first, then choose what to darken.",
+                "size": "md",
+                "color": "muted",
+                "align": "center"
+              }
+            ]
+          }
+        }
+      ],
+      "stuckProtocol": [
+        "Offer the phrase: ‘Try first, choose after.’",
+        "Reassure that artists are allowed to change their minds in a sketchbook."
+      ]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [
+        5,
+        6
+      ],
+      "goal": "Teach the single new idea: draw lightly first, then darken only the lines to keep.",
+      "note": "Use the formal element of line. Focus on pressure and sequence, not on shading or tone.",
+      "successCriteria": "Learner can distinguish light build-up lines from dark keeper lines.",
+      "script": {
+        "say": "We’re working with line today. A light line is made with a gentle hand. Build-up means we make a few light tries until the shape looks right. Then we choose the best edge and make that line darker.",
+        "adaptHints": "Use the learner’s name in encouragement: ‘[Name], your job is not to be perfect first time. Your job is to look, try, and choose.’"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Light first → darken the keepers",
+          "animate": true,
+          "elements": [
+            {
+              "k": "text",
+              "x": 5,
+              "y": 4,
+              "value": "1. Light build-up",
+              "size": 5,
+              "color": "blue"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 20,
+                  "y": 18
+                },
+                {
+                  "x": 35,
+                  "y": 14
+                },
+                {
+                  "x": 50,
+                  "y": 18
+                },
+                {
+                  "x": 52,
+                  "y": 39
+                },
+                {
+                  "x": 34,
+                  "y": 47
+                },
+                {
+                  "x": 18,
+                  "y": 39
+                },
+                {
+                  "x": 20,
+                  "y": 18
+                }
+              ],
+              "closed": false,
+              "color": "blue"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 23,
+                  "y": 20
+                },
+                {
+                  "x": 36,
+                  "y": 16
+                },
+                {
+                  "x": 49,
+                  "y": 20
+                },
+                {
+                  "x": 50,
+                  "y": 38
+                },
+                {
+                  "x": 35,
+                  "y": 44
+                },
+                {
+                  "x": 21,
+                  "y": 38
+                },
+                {
+                  "x": 23,
+                  "y": 20
+                }
+              ],
+              "closed": false,
+              "color": "blue"
+            },
+            {
+              "k": "text",
+              "x": 58,
+              "y": 4,
+              "value": "2. Dark keepers",
+              "size": 5,
+              "color": "ink"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 65,
+                  "y": 19
+                },
+                {
+                  "x": 78,
+                  "y": 16
+                },
+                {
+                  "x": 91,
+                  "y": 19
+                },
+                {
+                  "x": 90,
+                  "y": 38
+                },
+                {
+                  "x": 78,
+                  "y": 45
+                },
+                {
+                  "x": 66,
+                  "y": 38
+                },
+                {
+                  "x": 65,
+                  "y": 19
+                }
+              ],
+              "closed": false,
+              "color": "ink"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 90,
+                  "y": 24
+                },
+                {
+                  "x": 96,
+                  "y": 27
+                },
+                {
+                  "x": 95,
+                  "y": 35
+                },
+                {
+                  "x": 90,
+                  "y": 37
+                }
+              ],
+              "closed": false,
+              "color": "ink"
+            },
+            {
+              "k": "line",
+              "x1": 51,
+              "y1": 31,
+              "x2": 61,
+              "y2": 31,
+              "arrow": true,
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "stuckProtocol": [
+        "Ask the learner to hold their pencil near the end, not near the tip, to reduce pressure.",
+        "Use the phrase ‘tickle the page’ for a light line."
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [
+        5,
+        6
+      ],
+      "goal": "Model the process on a simple object: cup outline from wobbly light lines to chosen dark lines.",
+      "note": "This is the worked demonstration before the child draws. Keep it observational: big shape first, details later.",
+      "successCriteria": "Learner can name the order: look, light outline, adjust, darken keeper lines, add small details.",
+      "script": {
+        "say": "Watch the order. I don’t start with the fine-liner. I look at the big cup shape first, make soft wobbly tries, then only darken the lines that describe the cup best. The pale lines helped me find the shape.",
+        "adaptHints": "If the learner has a different object, replace ‘cup’ verbally with their object, but keep the same process."
+      },
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "Demo: cup with build-up lines",
+          "steps": [
+            "Look at the big shape: the cup is like a tall rounded rectangle with an oval top.",
+            "Use a very gentle pencil to draw a wobbly light outline. It is allowed to be fuzzy.",
+            "Add another light line if the side or oval needs fixing.",
+            "Choose the best edge lines and darken only those keepers.",
+            "Add small details last, like the rim, handle, or bottom curve."
+          ]
+        }
+      ],
+      "stuckProtocol": [
+        "If the learner focuses on details too early, redirect: ‘Big shape first, tiny parts after.’",
+        "If they worry about wobble, say: ‘Wobble is useful at the ghost-line stage.’"
+      ]
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [
+        3,
+        4
+      ],
+      "goal": "Check understanding of why artists draw lightly first.",
+      "note": "This is the lesson’s key concept check. The app will report whether the learner chose correctly.",
+      "successCriteria": "Learner selects that light lines let you fix the shape before committing.",
+      "script": {
+        "say": "Quick artist check. Choose the reason that matches today’s trick.",
+        "adaptHints": "If the learner answers quickly and correctly, praise the thinking: ‘You understood the reason, not just the rule.’"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Why draw lightly first?",
+          "options": [
+            "So you can fix the shape before committing to a dark line",
+            "So nobody can see your drawing at all",
+            "Because artists are not allowed to use dark lines",
+            "So you never need to look at the object"
+          ],
+          "correct": 0,
+          "explain": "Light lines help you test and adjust the shape. Then you darken only the lines you want to keep."
+        }
+      ],
+      "check": {
+        "question": "Why draw lightly first?",
+        "expectedAnswer": "So you can fix the shape before committing to a dark line.",
+        "wrongAnswers": [
+          {
+            "answer": "So nobody can see your drawing at all.",
+            "why": "This confuses light drawing with invisible drawing. The lines should be pale but still useful to the artist.",
+            "remedy": "Say: ‘Light enough to change, clear enough to help.’ Show the pale cup lines again if needed."
+          },
+          {
+            "answer": "Because artists are not allowed to use dark lines.",
+            "why": "This misses the sequence. Artists do use dark lines, but after they have chosen the keeper lines.",
+            "remedy": "Repeat: ‘Light first, dark later.’ Ask the learner to point to the keeper line in the demo."
+          },
+          {
+            "answer": "So you never need to look at the object.",
+            "why": "Observational drawing depends on looking carefully. Light lines help record and adjust what you see.",
+            "remedy": "Prompt: ‘Look, draw softly, look again, fix.’"
+          }
+        ]
+      },
+      "stuckProtocol": [
+        "Narrow to two choices: fixing the shape or hiding the drawing.",
+        "Use an everyday comparison: pencil before pen, practice before final."
+      ]
+    },
+    {
+      "kind": "practice",
+      "delivery": "human",
+      "timeboxMin": [
+        10,
+        12
+      ],
+      "goal": "Learner draws one real object using light build-up lines, then darkens the keeper lines.",
+      "note": "This is the heart of the lesson. Most time should be spent drawing. Encourage slow looking and gentle pressure.",
+      "successCriteria": "Learner creates a drawing with visible light build-up lines and darker chosen keeper lines. They do not darken every line.",
+      "script": {
+        "say": "Now it’s your turn. Put one simple object in front of you. First, draw the big shape with ghost lines. Keep your hand light, like the pencil is tickling the page. When the shape looks right enough, use your fine-liner or darker pencil to go over only the keeper lines. Leave some ghost lines showing — they are proof of your artist thinking.",
+        "adaptHints": "If the learner has a cup, use cup language: oval, sides, handle. If they have a box, use edge, corner, top, side. If they are nervous, suggest doing a tiny test page corner first."
+      },
+      "blocks": [
+        {
+          "type": "slideshow",
+          "title": "Your drawing mission",
+          "slides": [
+            {
+              "title": "1. Choose",
+              "body": "Pick one simple object: cup, glue stick, block, toy, or small box.",
+              "emoji": "☕"
+            },
+            {
+              "title": "2. Ghost",
+              "body": "Use very light pencil lines to find the big outline. Wobbly is okay.",
+              "emoji": "👻"
+            },
+            {
+              "title": "3. Choose",
+              "body": "Look again. Which lines show the shape best?",
+              "emoji": "👀"
+            },
+            {
+              "title": "4. Commit",
+              "body": "Darken only the keeper lines with fine-liner or a darker pencil.",
+              "emoji": "🖊️"
+            },
+            {
+              "title": "5. Celebrate the process",
+              "body": "The pale lines show how your drawing improved.",
+              "emoji": "🌟"
+            }
+          ]
+        }
+      ],
+      "humanHandoff": {
+        "setup": "Place the object where the learner can see it clearly. Give the learner a sketchbook or paper, pencil, and fine-liner/darker pencil.",
+        "cueToResume": "Resume when the learner has drawn light build-up lines and darkened the keeper outline."
+      },
+      "stuckProtocol": [
+        "If the learner presses too hard, ask them to draw three feather-light test lines at the side of the page.",
+        "If the learner says ‘it’s messy’, respond: ‘At this stage, messy means searching. Now choose the best lines.’",
+        "If the learner finishes too fast, ask them to look again and add one careful detail, such as the rim, handle, or bottom edge."
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [
+        3,
+        4
+      ],
+      "goal": "Consolidate the method and end with an earned win.",
+      "note": "Celebrate process evidence: light lines, changes, and chosen dark lines.",
+      "successCriteria": "Learner can state the sequence and identify one place where ghost lines helped.",
+      "script": {
+        "say": "You used a real sketchbook habit today: try lightly, look again, then commit. Your ghost lines are not a mistake — they show your artist brain working. Earned win: you made a cleaner, more confident drawing by starting softly.",
+        "adaptHints": "Refer to a specific visible success if known: ‘I can see where you chose the side line’ or ‘Your dark rim line looks confident because you tested it first.’"
+      },
+      "blocks": [
+        {
+          "type": "fillBlank",
+          "text": "Artists draw lightly first so they can ___ the shape before darkening the keeper lines.",
+          "answer": "fix",
+          "wordBank": [
+            "fix",
+            "hide",
+            "rush",
+            "forget"
+          ]
+        }
+      ],
+      "check": {
+        "question": "Artists draw lightly first so they can ___ the shape before darkening the keeper lines.",
+        "expectedAnswer": "fix",
+        "wrongAnswers": [
+          {
+            "answer": "hide",
+            "why": "Light lines are not for hiding the drawing; they are for testing and improving it.",
+            "remedy": "Say: ‘The artist still needs to see the light lines to choose the best ones.’"
+          },
+          {
+            "answer": "rush",
+            "why": "Build-up lines slow the artist down enough to look carefully.",
+            "remedy": "Prompt the sequence: ‘Look, light line, look again, darken.’"
+          },
+          {
+            "answer": "forget",
+            "why": "A sketchbook helps artists record and remember their experiments.",
+            "remedy": "Connect to sketchbook purpose: ‘We keep the tries because they show learning.’"
+          }
+        ]
+      },
+      "stuckProtocol": [
+        "Give the sentence starter: ‘I drew ghost lines because…’",
+        "Ask the learner to point to one pale line and one keeper line in their drawing."
+      ]
+    }
+  ],
+  "differentiation": {
+    "support": "Use a very soft pencil, a chunky simple object, and the phrase ‘tickle the page’. Allow a small test page of light lines before the object drawing. The adult may lightly tap the table rhythmically to slow the looking-drawing pace.",
+    "stretch": "Draw two simple objects overlapping, such as a cup in front of a box. Use light build-up lines to find both shapes, then darken only the visible keeper outlines, leaving hidden overlap lines pale."
+  },
+  "extension": "Make a tiny ‘before and after’ corner in the sketchbook: one pale ghost-line version and one dark keeper-line version of the same object, labelled ‘light first’ and ‘keepers’.",
+  "assessmentEvidence": "Look for a sketchbook drawing that shows pale build-up lines, a darker selected outline, and the learner’s verbal explanation that drawing lightly helps fix the shape before committing.",
+  "revisitLater": "Next lesson, revisit light build-up lines before adding details or mark-making textures, so learners keep the habit of big shape first, details after.",
+  "format": "classai-lesson/1",
+  "id": "y2-art-design-u1-l02",
+  "year": 2,
+  "subject": "art-design",
+  "subjectLabel": "Art & Design",
+  "unit": {
+    "number": 1,
+    "title": "Sketchbook habits & line revisited",
+    "essentialQuestion": "How does an artist use a sketchbook to get better?"
+  },
+  "lessonNumber": 2,
+  "kind": "lesson",
+  "topic": "Sketchbook habits & line revisited",
+  "title": "Light hands: build-up lines",
+  "durationMin": 30,
+  "objectives": [
+    "By the end, I can draw lightly first and darken only the lines I want to keep."
+  ],
+  "difficulty": "standard",
+  "status": "approved",
+  "practiceBank": [
+    {
+      "id": "y2-art-design-u1-l02-p01",
+      "skill": "purpose of light lines",
+      "level": 1,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Why do artists draw light “ghost lines” first?",
+        "options": [
+          "So they can fix the shape before making dark keeper lines",
+          "So nobody can see the drawing at the end",
+          "So the pencil breaks more easily"
+        ],
+        "correct": 0,
+        "explain": "Light lines are easy to change. Then the artist darkens only the best lines."
+      },
+      "expectedAnswer": "So they can fix the shape before making dark keeper lines.",
+      "wrongAnswers": [
+        {
+          "answer": "So nobody can see the drawing at the end",
+          "why": "This mixes up light sketching with hiding the drawing. The final drawing should still have clear keeper lines.",
+          "remedy": "Say: “Light first, clear later.” Show a pale line, then a darker line over the best part."
+        },
+        {
+          "answer": "So the pencil breaks more easily",
+          "why": "This focuses on the tool breaking, not on improving the shape.",
+          "remedy": "Have the learner press gently with one finger on the pencil and notice it glides softly."
+        }
+      ],
+      "hints": [
+        "Think: what is easier to change — a pale line or a dark line?",
+        "Artists use light lines before they commit to the final outline."
+      ],
+      "reteach": {
+        "say": "A ghost line is a quiet first try. It helps the artist search for the shape. When the shape looks right, the artist darkens the keeper line.",
+        "block": {
+          "type": "whiteboard",
+          "title": "Ghost line → keeper line",
+          "animate": true,
+          "elements": [
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 20,
+                  "y": 20
+                },
+                {
+                  "x": 42,
+                  "y": 18
+                },
+                {
+                  "x": 60,
+                  "y": 23
+                }
+              ],
+              "color": "blue"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 22,
+                  "y": 35
+                },
+                {
+                  "x": 43,
+                  "y": 32
+                },
+                {
+                  "x": 62,
+                  "y": 35
+                }
+              ],
+              "color": "ink"
+            },
+            {
+              "k": "text",
+              "x": 12,
+              "y": 9,
+              "value": "Light first",
+              "size": 5,
+              "color": "blue"
+            },
+            {
+              "k": "text",
+              "x": 14,
+              "y": 45,
+              "value": "Darken keeper",
+              "size": 5,
+              "color": "ink"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "toy car",
+        "shell",
+        "mug",
+        "trainer"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p02",
+      "skill": "identify light hand",
+      "level": 1,
+      "block": {
+        "type": "trueFalse",
+        "statement": "A light line should be pale and easy to cover or change.",
+        "correct": true,
+        "explain": "Yes. A light line is a soft first try, not the final bold outline."
+      },
+      "expectedAnswer": "True.",
+      "wrongAnswers": [
+        {
+          "answer": "False",
+          "why": "The learner may think all drawing lines should be strong straight away.",
+          "remedy": "Remind them: the first lines are for testing, and the darker lines come later."
+        }
+      ],
+      "hints": [
+        "Would a light line be easy or hard to change?",
+        "Light lines are like a whisper on the page."
+      ],
+      "reteach": {
+        "say": "Use a whisper line first. It should be so soft that you can draw over it without making the page messy.",
+        "block": {
+          "type": "keyTerm",
+          "term": "light line",
+          "definition": "A soft, pale line used at the start of a drawing so the artist can adjust the shape.",
+          "example": "A pale oval for the top of a cup before drawing the final rim."
+        }
+      },
+      "interestSlots": [
+        "animal",
+        "robot",
+        "flower",
+        "cup",
+        "football"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p03",
+      "skill": "sequence drawing process",
+      "level": 1,
+      "block": {
+        "type": "ordering",
+        "prompt": "Put these sketchbook steps in the best order.",
+        "items": [
+          "Look carefully at the object",
+          "Draw light build-up lines",
+          "Choose the best keeper lines",
+          "Darken the keeper lines"
+        ]
+      },
+      "expectedAnswer": "Look carefully at the object → Draw light build-up lines → Choose the best keeper lines → Darken the keeper lines.",
+      "wrongAnswers": [
+        {
+          "answer": "Darken the keeper lines before drawing light build-up lines",
+          "why": "The learner is committing too early, before testing and fixing the shape.",
+          "remedy": "Use the phrase: “Look, ghost, choose, darken.” Repeat it with finger actions."
+        },
+        {
+          "answer": "Choose the best keeper lines before looking carefully",
+          "why": "The learner may skip observation, but artists need to look first.",
+          "remedy": "Ask them to point to the object and name one shape they can see before drawing."
+        }
+      ],
+      "hints": [
+        "What should your eyes do before your pencil starts?",
+        "The dark fine-liner comes near the end, not the beginning."
+      ],
+      "reteach": {
+        "say": "The order is: eyes first, light pencil second, choose third, dark line last. That helps the clean drawing emerge from the ghost lines.",
+        "block": {
+          "type": "steps",
+          "title": "Light-hand drawing order",
+          "steps": [
+            "Look carefully.",
+            "Sketch lightly.",
+            "Pick the best lines.",
+            "Darken only the keepers."
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "teddy",
+        "plant pot",
+        "shoe",
+        "toy dinosaur"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p04",
+      "skill": "vocabulary: build-up lines",
+      "level": 2,
+      "block": {
+        "type": "fillBlank",
+        "text": "Light, repeated sketch lines that help you find the shape are called ___ lines.",
+        "answer": "build-up",
+        "wordBank": [
+          "outline",
+          "build-up",
+          "detail"
+        ]
+      },
+      "expectedAnswer": "build-up",
+      "wrongAnswers": [
+        {
+          "answer": "outline",
+          "why": "An outline is usually the edge of a shape; build-up lines are the light searching lines before the final edge is chosen.",
+          "remedy": "Compare: build-up lines are many soft tries; the outline is the clearer edge you keep."
+        },
+        {
+          "answer": "detail",
+          "why": "Details are smaller features added after the main shape, like a handle line or pattern.",
+          "remedy": "Point to the big shape first, then tiny extras. Name the first light lines as build-up lines."
+        }
+      ],
+      "hints": [
+        "These lines help the drawing grow slowly.",
+        "The word starts with “build”."
+      ],
+      "reteach": {
+        "say": "Build-up lines are the soft lines that build the shape. They are not mistakes — they are thinking lines.",
+        "block": {
+          "type": "flashcards",
+          "cards": [
+            {
+              "front": "build-up lines",
+              "back": "Soft repeated lines that help find the shape."
+            },
+            {
+              "front": "outline",
+              "back": "The clearer edge line the artist wants to keep."
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "mug",
+        "toy",
+        "fruit",
+        "hat"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p05",
+      "skill": "choose correct tool timing",
+      "level": 2,
+      "block": {
+        "type": "categorize",
+        "prompt": "Sort each action into the best time: first or later.",
+        "buckets": [
+          "First: light pencil",
+          "Later: darken keepers"
+        ],
+        "items": [
+          {
+            "text": "Make pale searching lines",
+            "bucket": "First: light pencil"
+          },
+          {
+            "text": "Fix the cup shape",
+            "bucket": "First: light pencil"
+          },
+          {
+            "text": "Use fine-liner on the best outline",
+            "bucket": "Later: darken keepers"
+          },
+          {
+            "text": "Make the chosen line clearer",
+            "bucket": "Later: darken keepers"
+          }
+        ]
+      },
+      "expectedAnswer": "First: make pale searching lines, fix the cup shape. Later: use fine-liner on the best outline, make the chosen line clearer.",
+      "wrongAnswers": [
+        {
+          "answer": "Using fine-liner first",
+          "why": "Fine-liner is hard to change, so it makes correcting the shape more difficult.",
+          "remedy": "Ask: “Can we rub out fine-liner easily?” Then restate: pencil tests, fine-liner commits."
+        },
+        {
+          "answer": "Fixing the cup shape later after fine-liner",
+          "why": "The learner may think correction happens after committing, but fixing is easiest while lines are light.",
+          "remedy": "Have them air-draw a wobbly oval, then trace only the best part with a finger."
+        }
+      ],
+      "hints": [
+        "Which actions help you test and change?",
+        "Which actions make the drawing final and clearer?"
+      ],
+      "reteach": {
+        "say": "Pencil is for testing. Fine-liner is for committing. If you use the fine-liner too soon, the wobbly line becomes hard to change.",
+        "block": {
+          "type": "table",
+          "headers": [
+            "Tool",
+            "Job"
+          ],
+          "rows": [
+            [
+              "Soft pencil",
+              "Test and fix the shape"
+            ],
+            [
+              "Fine-liner",
+              "Darken the keeper lines"
+            ]
+          ],
+          "caption": "Each tool has a different job."
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "water bottle",
+        "toy rocket",
+        "pencil case",
+        "apple"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p06",
+      "skill": "explain the reason",
+      "level": 2,
+      "block": {
+        "type": "shortText",
+        "prompt": "In your own words: why draw lightly first before using fine-liner?",
+        "sample": "Because I can fix the shape first, then darken only the lines I want to keep."
+      },
+      "expectedAnswer": "The learner explains that light drawing lets them fix/change/improve the shape before committing to dark keeper lines or fine-liner.",
+      "wrongAnswers": [
+        {
+          "answer": "Because it looks messy",
+          "why": "The learner notices the ghost-line appearance but misses the purpose: fixing the shape before committing.",
+          "remedy": "Acknowledge: “It can look messy at first.” Add: “The mess helps us choose the best line.”"
+        },
+        {
+          "answer": "Because the teacher said to",
+          "why": "This is compliance, not understanding of the artistic reason.",
+          "remedy": "Ask: “What can a light line do that a dark fine-liner line cannot do easily?”"
+        },
+        {
+          "answer": "Because dark lines are bad",
+          "why": "Dark lines are not bad; they are useful at the right time.",
+          "remedy": "Clarify: dark lines are keeper lines. They come after the light testing stage."
+        }
+      ],
+      "hints": [
+        "Use the words “fix” and “shape”.",
+        "Try: “Light first so I can…, then darken…”"
+      ],
+      "reteach": {
+        "say": "Light lines are planning lines. They let you change the drawing. Fine-liner lines are keeper lines. They show the final choice.",
+        "block": {
+          "type": "richText",
+          "markdown": "**Remember:**\n- Light pencil = test and fix\n- Fine-liner = keep and show\n- Artists do not need perfect first lines"
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "game controller",
+        "book",
+        "shoe",
+        "snack box"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p07",
+      "skill": "decide which lines to keep",
+      "level": 3,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "You drew three light lines for one side of a cup. Which line should you darken?",
+        "options": [
+          "The line that best matches the real cup shape",
+          "Every light line, even the wobbly ones",
+          "The darkest accidental line"
+        ],
+        "correct": 0,
+        "explain": "A keeper line is the line that best shows the shape you observed."
+      },
+      "expectedAnswer": "The line that best matches the real cup shape.",
+      "wrongAnswers": [
+        {
+          "answer": "Every light line, even the wobbly ones",
+          "why": "This would make the final drawing confusing and remove the benefit of choosing keeper lines.",
+          "remedy": "Say: “Ghost lines can stay pale. Only the best line gets the spotlight.”"
+        },
+        {
+          "answer": "The darkest accidental line",
+          "why": "The darkest line is not always the most accurate line.",
+          "remedy": "Remind the learner to choose by looking at the object, not by line darkness."
+        }
+      ],
+      "hints": [
+        "Keeper means the one you want to stay important.",
+        "Look back at the object: which line fits it best?"
+      ],
+      "reteach": {
+        "say": "When you build up lines, you may have several tries. Do not darken them all. Choose the one that looks most like the object.",
+        "block": {
+          "type": "whiteboard",
+          "title": "Choosing a keeper line",
+          "animate": true,
+          "elements": [
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 25,
+                  "y": 15
+                },
+                {
+                  "x": 28,
+                  "y": 30
+                },
+                {
+                  "x": 25,
+                  "y": 48
+                }
+              ],
+              "color": "blue"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 35,
+                  "y": 15
+                },
+                {
+                  "x": 36,
+                  "y": 30
+                },
+                {
+                  "x": 35,
+                  "y": 48
+                }
+              ],
+              "color": "ink"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 45,
+                  "y": 15
+                },
+                {
+                  "x": 42,
+                  "y": 30
+                },
+                {
+                  "x": 45,
+                  "y": 48
+                }
+              ],
+              "color": "blue"
+            },
+            {
+              "k": "text",
+              "x": 52,
+              "y": 29,
+              "value": "darken best fit",
+              "size": 5,
+              "color": "ink"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "vase",
+        "bottle",
+        "boot",
+        "lamp"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p08",
+      "skill": "apply to overlapping objects",
+      "level": 3,
+      "block": {
+        "type": "multiSelect",
+        "prompt": "You are drawing two objects that overlap. Which choices will help?",
+        "options": [
+          "Start with light build-up lines for both objects",
+          "Look carefully at which object is in front",
+          "Darken every line hidden behind the front object",
+          "Darken only the visible keeper lines"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "explain": "For overlapping objects, draw lightly first, check what is in front, and darken the visible keeper lines."
+      },
+      "expectedAnswer": "Start with light build-up lines for both objects; look carefully at which object is in front; darken only the visible keeper lines.",
+      "wrongAnswers": [
+        {
+          "answer": "Darken every line hidden behind the front object",
+          "why": "Hidden lines should usually stay pale or not be final, otherwise the overlap becomes confusing.",
+          "remedy": "Use two hands: one hand in front of the other. Ask which edges can be seen."
+        },
+        {
+          "answer": "Only look at one object",
+          "why": "Overlapping drawings need observation of both objects and where they meet.",
+          "remedy": "Prompt: “Find the front object, the back object, and the touching edge.”"
+        }
+      ],
+      "hints": [
+        "When one thing sits in front, can you see all of the thing behind?",
+        "Keeper lines are the lines you want the viewer to notice."
+      ],
+      "reteach": {
+        "say": "With overlapping objects, light lines help you plan both shapes. Then you darken the edges you can really see, especially the front object’s edge.",
+        "block": {
+          "type": "whiteboard",
+          "title": "Overlap: front and behind",
+          "animate": true,
+          "elements": [
+            {
+              "k": "circle",
+              "x": 42,
+              "y": 31,
+              "r": 17,
+              "label": "behind",
+              "color": "blue"
+            },
+            {
+              "k": "rect",
+              "x": 38,
+              "y": 18,
+              "w": 26,
+              "h": 28,
+              "label": "front",
+              "color": "ink"
+            },
+            {
+              "k": "text",
+              "x": 10,
+              "y": 53,
+              "value": "Darken visible keeper edges",
+              "size": 5,
+              "color": "ink"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup and apple",
+        "toy car and block",
+        "shell and pebble",
+        "book and pencil",
+        "mug and spoon"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p09",
+      "skill": "self-check drawing habit",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "After drawing your object, write one artist self-check sentence about your lines.",
+        "sample": "I used light build-up lines first, then I darkened the keeper outline."
+      },
+      "expectedAnswer": "A sentence that mentions using light/build-up lines first and darkening/chosen/keeper lines after, or a clear self-check about whether they did this.",
+      "wrongAnswers": [
+        {
+          "answer": "I drew a cup",
+          "why": "This names the object but does not reflect on the line habit.",
+          "remedy": "Ask the learner to add how they used their lines: light first or dark keeper lines."
+        },
+        {
+          "answer": "It is good",
+          "why": "This gives an opinion but not evidence of the skill practised.",
+          "remedy": "Prompt: “What did your pencil do first? What did your fine-liner do later?”"
+        },
+        {
+          "answer": "I used fine-liner first",
+          "why": "This shows the process was reversed and misses the lesson objective.",
+          "remedy": "Celebrate honesty, then set a mini redo: add a tiny second object using light pencil first."
+        }
+      ],
+      "hints": [
+        "Use the words “light” and “keeper”.",
+        "Try: “First I…, then I…”"
+      ],
+      "reteach": {
+        "say": "An artist self-check is not just ‘good’ or ‘bad’. It names the habit you used. Today’s habit is: light first, darken keepers later.",
+        "block": {
+          "type": "sentenceFrames",
+          "frames": [
+            "First I used ___ lines.",
+            "Then I darkened the ___ lines.",
+            "Next time I will ___ before using fine-liner."
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "chosen object",
+        "favourite toy",
+        "overlapping objects",
+        "sketchbook page"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p10",
+      "skill": "separate outline and detail",
+      "level": 1,
+      "block": {
+        "type": "matchPairs",
+        "prompt": "Match each art word to what it means in today’s drawing.",
+        "pairs": [
+          {
+            "left": "outline",
+            "right": "The outside edge of the object"
+          },
+          {
+            "left": "detail",
+            "right": "A smaller part, like a handle or pattern"
+          },
+          {
+            "left": "light line",
+            "right": "A pale line that is easy to change"
+          }
+        ]
+      },
+      "expectedAnswer": "outline = outside edge; detail = smaller part; light line = pale line easy to change.",
+      "wrongAnswers": [
+        {
+          "answer": "detail matched to outside edge",
+          "why": "The learner may not yet distinguish the main shape from smaller features.",
+          "remedy": "Point to a cup: trace the outside edge in the air, then point to the handle as a detail."
+        },
+        {
+          "answer": "light line matched to smaller part",
+          "why": "The learner is thinking of line size rather than line pressure.",
+          "remedy": "Explain that light means softly pressed, not small."
+        }
+      ],
+      "hints": [
+        "The outline goes around the outside.",
+        "A detail is usually added after the big shape."
+      ],
+      "reteach": {
+        "say": "First find the big outside shape: that is the outline. Then look for smaller features: those are details. A light line is about how softly you press.",
+        "block": {
+          "type": "whiteboard",
+          "title": "Cup words",
+          "animate": true,
+          "elements": [
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 30,
+                  "y": 15
+                },
+                {
+                  "x": 65,
+                  "y": 15
+                },
+                {
+                  "x": 60,
+                  "y": 48
+                },
+                {
+                  "x": 35,
+                  "y": 48
+                },
+                {
+                  "x": 30,
+                  "y": 15
+                }
+              ],
+              "closed": true,
+              "color": "ink"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 65,
+                  "y": 25
+                },
+                {
+                  "x": 80,
+                  "y": 30
+                },
+                {
+                  "x": 65,
+                  "y": 38
+                }
+              ],
+              "color": "orange"
+            },
+            {
+              "k": "text",
+              "x": 18,
+              "y": 52,
+              "value": "outline outside, detail smaller",
+              "size": 5,
+              "color": "ink"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "mug",
+        "trainer",
+        "toy animal",
+        "plant pot"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p11",
+      "skill": "spot unhelpful habit",
+      "level": 2,
+      "block": {
+        "type": "trueFalse",
+        "statement": "If my first pencil line is wobbly, I should press harder over it straight away.",
+        "correct": false,
+        "explain": "No. Keep it light, adjust the shape with more soft build-up lines, then choose the best keeper line."
+      },
+      "expectedAnswer": "False.",
+      "wrongAnswers": [
+        {
+          "answer": "True",
+          "why": "The learner may think pressing harder will fix the wobble, but it usually makes the mistake more visible.",
+          "remedy": "Model the phrase: “Don’t panic-darken. Softly search again.”"
+        }
+      ],
+      "hints": [
+        "What happens if you make a wobbly line darker?",
+        "Can another light line help you find a better shape?"
+      ],
+      "reteach": {
+        "say": "A wobbly first line is normal. Artists do not panic. They keep their hand light and build up a better shape beside it.",
+        "block": {
+          "type": "richText",
+          "markdown": "**Artist habit:**\n- Wobbly line? Keep calm.\n- Add another soft line.\n- Choose the best one later."
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "bottle",
+        "toy",
+        "spoon",
+        "fruit"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l02-p12",
+      "skill": "plan sketchbook page",
+      "level": 3,
+      "block": {
+        "type": "ordering",
+        "prompt": "You are setting up your sketchbook page for this lesson. Put these actions in order.",
+        "items": [
+          "Write the date",
+          "Choose and look at the object",
+          "Draw light build-up lines",
+          "Darken only the keeper lines with fine-liner",
+          "Add one small detail if it helps the drawing"
+        ]
+      },
+      "expectedAnswer": "Write the date → Choose and look at the object → Draw light build-up lines → Darken only the keeper lines with fine-liner → Add one small detail if it helps the drawing.",
+      "wrongAnswers": [
+        {
+          "answer": "Add detail before the main light build-up lines",
+          "why": "The learner may be decorating before the main shape is solved.",
+          "remedy": "Remind them: big shape first, details after."
+        },
+        {
+          "answer": "Fine-liner before light build-up lines",
+          "why": "This skips the fixable planning stage.",
+          "remedy": "Repeat the lesson mantra: “Light first, keeper lines later.”"
+        },
+        {
+          "answer": "Date at the end or missing",
+          "why": "The learner may not connect the sketchbook habit with tracking improvement.",
+          "remedy": "Explain that the date helps artists see progress over time."
+        }
+      ],
+      "hints": [
+        "A sketchbook habit starts by recording when you made the work.",
+        "Do the big shape before small details."
+      ],
+      "reteach": {
+        "say": "A sketchbook helps artists get better because it records practice. Date the page, look carefully, test lightly, then darken the keepers.",
+        "block": {
+          "type": "steps",
+          "title": "Sketchbook page plan",
+          "steps": [
+            "Date the page.",
+            "Look at the object.",
+            "Use light build-up lines.",
+            "Darken the keeper outline.",
+            "Add helpful details."
+          ]
+        }
+      },
+      "interestSlots": [
+        "cup",
+        "overlapping toys",
+        "favourite object",
+        "sports bottle",
+        "pencil pot"
+      ]
+    }
+  ],
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "Move up one level after 2 correct responses in a row with confident reasoning, especially if the learner says that light lines help them fix the shape before darkening keeper lines.",
+    "levelDown": "Move down one level if the learner misses the purpose of light lines, chooses fine-liner too early, or cannot explain keeper lines after one hint.",
+    "masterySignal": "The learner can say, choose, or show the process: look carefully, draw light build-up lines, fix the shape, choose the best keeper lines, and darken only those lines.",
+    "struggleProtocol": [
+      "Use the short mantra: “Light first, keeper lines later.”",
+      "Give a physical pressure cue: hold the pencil softly, like it is a feather, and make a whisper line.",
+      "Reduce the object: choose one chunky simple object, such as a cup or block, not a detailed toy.",
+      "Ask one focused question: “Which line best matches the shape?”",
+      "Delay fine-liner until the learner has pointed to or named the keeper line.",
+      "Celebrate ghost lines as useful thinking lines, not mistakes."
+    ],
+    "personalization": "Swap the object in prompts for a simple interest-based object the child can imagine or see, such as a toy car, football, shell, trainer, mug, game controller, or favourite soft toy. Keep the same art facts: light pencil first, fine-liner only on keeper lines.",
+    "endOnSuccess": "Finish with an easy win: ask the learner to complete the sentence, “I draw lightly first so I can ___ before I darken the keeper lines.” Accept “fix the shape” or similar, then praise the process: careful looking, soft pressure, and smart choosing."
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l06",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 6,
+  "kind": "lesson",
+  "topic": "Addition and subtraction",
+  "title": "Adding two-digit numbers (with regrouping)",
+  "durationMin": 28,
+  "objectives": ["By the end, I can add two-digit numbers, exchanging ten ones for a ten when needed."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "add / total", "definition": "put amounts together to find how much altogether", "example": "36 + 27 — the total is 63" },
+    { "term": "regroup / exchange", "definition": "swap ten ones for one ten", "example": "13 ones become 1 ten and 3 ones" },
+    { "term": "carry", "definition": "move the traded ten over to the tens column", "example": "the new ten joins 30 + 20" },
+    { "term": "tens", "definition": "rods worth ten each", "example": "36 has 3 tens" },
+    { "term": "ones", "definition": "single cubes worth one each", "example": "36 has 6 ones" }
+  ],
+  "emphasize": [
+    "When the ones make TEN OR MORE, you must exchange — ten ones become one ten. You can't keep 13 in the ones column.",
+    "Pre-empt the '713' error: writing 7 tens and 13 ones side by side (45 + 38 = '713').",
+    "Repeat the anchor phrase: 'Ten ones become one ten — trade them in.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["adding two-digit numbers", "regrouping/exchanging ten ones for a ten", "ones first, then tens", "partition method: 36 + 27 = 50 + 13"],
+    "misconceptions": [
+      "45 + 38 = '713' — writing 13 straight into the ones column with no exchange",
+      "forgetting the carried ten — 45 + 38 = 73",
+      "always exchanging, even when the ones stay under ten"
+    ],
+    "hooks": ["Two prices in a shop — 36p and 27p — how much altogether?"],
+    "priorKnowledge": ["partitioning into tens and ones (Lesson 2)", "number bonds within 20"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["virtual rods and cubes on the whiteboard block (animated exchange)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "Math with Mr. J",
+    "searchTerm": "2-digit addition with regrouping",
+    "watchTask": "Every time Mr. J trades ten ones for a ten, shout 'EXCHANGE!' — and watch where the new ten goes.",
+    "afterCheck": { "question": "When did Mr. J have to exchange?", "expectedAnswer": "When the ones added up to ten or more." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the shop problem (36p + 27p) and tease 'the great exchange'; retrieve partitioning.",
+      "note": "Don't solve it yet — the exchange is the reveal of the explain beat.",
+      "successCriteria": "Child wants both toys and answers '30 and 6' for partitioning 36.",
+      "script": {
+        "say": "We're in the toy shop! A toy car costs 36p and a sticker pack costs 27p — and I want BOTH. How much do I need altogether? We'll build it with blocks… and somewhere in the middle we'll have to make a clever swap called the great exchange. Quick warm-up first: partition 36 — tens and ones?",
+        "adaptHints": "Swap the car and stickers for two things the child would buy. Listen for '30 and 6'; if shaky, rebuild 36 as rods and count the tens."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🚗 36p  +  ✨ 27p", "caption": "How much altogether?" }
+      ],
+      "stuckProtocol": ["If partitioning is shaky: draw 36 as 3 sticks and 6 dots and count the sticks in tens: 10, 20, 30."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 10],
+      "goal": "Model 36 + 27 with virtual blocks: ones first (6 + 7 = 13), exchange ten ones for a ten, then total the tens.",
+      "note": "The animated whiteboard acts out the exchange — this is the concrete/pictorial heart of the lesson. Go slowly at the trade.",
+      "successCriteria": "Child sees the 13 ones become 1 ten + 3 ones and hears 'ten ones become one ten — trade them in'.",
+      "script": {
+        "say": "Watch me build it. 36 is 3 tens and 6 ones. Below it, 27 — 2 tens and 7 ones. Rule one: add the ONES first. 6 and 7 make 13 ones. But wait — I can't keep 13 ones in the ones column! It's too crowded. So here comes the great exchange: ten of those ones melt together into one shiny new ten-rod, and 3 ones stay behind. Now the tens: 30, plus 20, plus my brand-new 10 — that's 60. And the 3 ones left over. 60 and 3… 63! The car AND the stickers cost 63p.",
+        "adaptHints": "Make the exchange moment dramatic — it's the whole lesson. Repeat: 'Ten ones become one ten — trade them in.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "36 + 27 — the great exchange",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 30, "y": 6, "value": "36 + 27", "size": 8, "bold": true },
+            { "k": "rect", "x": 6, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 11, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 16, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "dot", "x": 26, "y": 16, "color": "orange" },
+            { "k": "dot", "x": 30, "y": 16, "color": "orange" },
+            { "k": "dot", "x": 34, "y": 16, "color": "orange" },
+            { "k": "dot", "x": 26, "y": 22, "color": "orange" },
+            { "k": "dot", "x": 30, "y": 22, "color": "orange" },
+            { "k": "dot", "x": 34, "y": 22, "color": "orange" },
+            { "k": "rect", "x": 6, "y": 34, "w": 3, "h": 16, "color": "green", "fill": true },
+            { "k": "rect", "x": 11, "y": 34, "w": 3, "h": 16, "color": "green", "fill": true },
+            { "k": "dot", "x": 26, "y": 38, "color": "red" },
+            { "k": "dot", "x": 30, "y": 38, "color": "red" },
+            { "k": "dot", "x": 34, "y": 38, "color": "red" },
+            { "k": "dot", "x": 38, "y": 38, "color": "red" },
+            { "k": "dot", "x": 26, "y": 44, "color": "red" },
+            { "k": "dot", "x": 30, "y": 44, "color": "red" },
+            { "k": "dot", "x": 34, "y": 44, "color": "red" },
+            { "k": "text", "x": 70, "y": 14, "value": "ones: 6 + 7 = 13", "size": 5 },
+            { "k": "text", "x": 70, "y": 24, "value": "trade 10 ones → 1 ten", "size": 5, "bold": true, "color": "accent" },
+            { "k": "text", "x": 70, "y": 34, "value": "tens: 30 + 20 + 10 = 60", "size": 5 },
+            { "k": "text", "x": 70, "y": 44, "value": "60 + 3 = 63", "size": 6, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 58, "value": "Ten ones become one ten — trade them in!", "size": 5, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [10, 16],
+      "goal": "Shared build of 27 + 46: the child drives the exchange and states the final tens and ones.",
+      "note": "The character builds; the child decides each step. 7 + 6 = 13 → exchange → 7 tens and 3 ones = 73.",
+      "successCriteria": "Child says the ones make 13, calls for the exchange, and answers '7 tens and 3 ones — 73'.",
+      "script": {
+        "say": "Your turn to be the shopkeeper! Together: 27 + 46. I've built both numbers. Add the ones for me — 7 and 6 make…? … Thirteen! Can we keep 13 ones in the ones column? … No! Shout it with me: EXCHANGE! Ten ones become one ten. Now count it all up: after the swap, how many tens and how many ones?",
+        "adaptHints": "Pause for the child at each decision. If they say '6 tens', ask: 'Don't forget the brand-new ten from the trade — now how many?'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "27 + 46: the ones make 13. After the trade there are ___ tens and 3 ones.", "answer": "7", "wordBank": ["6", "7", "13"] }
+      ],
+      "check": {
+        "question": "27 + 46 = ?",
+        "expectedAnswer": "73",
+        "wrongAnswers": [
+          { "answer": "613", "why": "wrote the 13 ones straight into the answer — no exchange", "remedy": "Can 13 ones live in the ones column? Trade ten of them for a ten-rod — now count the tens again." },
+          { "answer": "63", "why": "exchanged but forgot to add the carried ten", "remedy": "Where did your traded-in ten go? It has to join the tens: 20 + 40 + 10 = ?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [16, 20],
+      "goal": "Independent diagnostic: 45 + 38 — the classic '713' trap.",
+      "note": "This is the KB misconception check. Watch the answer shape: '713' = no exchange; '73' = dropped the carried ten.",
+      "successCriteria": "Child answers 83 and can show where the exchange happened.",
+      "script": {
+        "say": "Solo challenge! 45 + 38. Build it in your head or on the board — ones first, and watch out: this one needs the great exchange. Type your total.",
+        "adaptHints": "After a correct answer, probe: 'Did you have to exchange? Show me the swap.'"
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "45 + 38 = ?", "answer": 83 }
+      ],
+      "check": {
+        "question": "45 + 38 = ?",
+        "expectedAnswer": "83",
+        "wrongAnswers": [
+          { "answer": "713", "why": "wrote 7 tens and 13 ones side by side — no exchange", "remedy": "You can't keep 13 in the ones column. Swap ten ones for one ten — now how many tens do you have?" },
+          { "answer": "73", "why": "added the ones but dropped the traded ten", "remedy": "Where did your traded-in ten go? Add it to the tens column: 40 + 30 + 10 = ?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [20, 25],
+      "goal": "Independent adding with and WITHOUT exchange, so the child decides whether to trade; stretch to three numbers.",
+      "note": "Director draws from practiceBank, start level 2. Interleave a no-exchange sum (42 + 35) so trading is a decision, not a habit.",
+      "successCriteria": "Child solves 3+ additions correctly, including one with no exchange, explaining each time whether a trade was needed.",
+      "script": {
+        "say": "Shopkeeper practice! I'll give you sums — some need the great exchange, some don't. Your first job every time: add the ones and ask, 'is it ten or more?'",
+        "adaptHints": "Frame sums as prices of things the child loves. Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the ten didn't get traded.'",
+        "Go fully concrete — act out the exchange slowly on the whiteboard, ten ones melting into one rod.",
+        "One hint: 'Count the ones — is it ten or more?'",
+        "Re-ask with smaller ones (43 + 24, no exchange needed), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [25, 28],
+      "goal": "Child states when the exchange happens; end on an earned success.",
+      "note": "Child-led recall; the character listens.",
+      "successCriteria": "Child says the exchange happens 'when the ones make ten or more'.",
+      "script": {
+        "say": "Last question, shopkeeper: tell me — WHEN do we have to do the great exchange? … Exactly: when the ones make ten or more. You spotted exactly when to trade ten ones for a ten today — that's the whole secret of adding big numbers. Every giant sum you'll ever meet uses YOUR trick.",
+        "adaptHints": "Praise the specific process observed: adding ones first, checking 'ten or more?', remembering the carried ten."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l06-p01", "skill": "add the ones first", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "First step of 36 + 27: add the ones. 6 + 7 = ?", "answer": 13 },
+      "expectedAnswer": "13",
+      "wrongAnswers": [
+        { "answer": "12", "why": "a bonds slip", "remedy": "Use the make-ten trick: 6 + 7 — take 4 from the 7 to fill the 6 up to ten. What's left?" },
+        { "answer": "67", "why": "wrote the digits side by side instead of adding", "remedy": "We're joining the cubes, not lining up digits. Count on from 6: seven more." }
+      ],
+      "hints": ["Make ten first: 6 + 4 = 10, then add what's left of the 7.", "Count on from 6: 7, 8, 9…"],
+      "reteach": { "say": "Ones first, always. Six cubes, then seven more: 6… 10 (that used 4 of them)… and 3 more makes 13. Six plus seven is thirteen — more than ten, so a trade is coming!", "block": { "type": "emojiViz", "emojis": "🔸🔸🔸🔸🔸🔸 + 🔸🔸🔸🔸🔸🔸🔸", "caption": "6 + 7 = 13 ones — too many for the ones column!" } }
+    },
+    {
+      "id": "l06-p02", "skill": "know when to exchange", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "You added the ones and got 13. What do you do now?", "options": ["Trade ten ones for one ten — 3 ones stay", "Keep all 13 ones in the ones column", "Throw away the extra 3 ones", "Start the sum again"], "correct": 0, "explain": "Ten ones become one ten — trade them in. The new ten joins the tens column; 3 ones stay behind." },
+      "expectedAnswer": "Trade ten ones for one ten — 3 ones stay",
+      "wrongAnswers": [
+        { "answer": "Keep all 13 ones in the ones column", "why": "the no-exchange error — this is what creates answers like '713'", "remedy": "The ones column only holds up to 9. What can ten of those ones become?" },
+        { "answer": "Throw away the extra 3 ones", "why": "thinks the leftover ones disappear", "remedy": "Nothing vanishes in maths! Ten ones trade in; the other 3 still count. Where do they live?" }
+      ],
+      "hints": ["Ten ones are worth exactly one…?", "The ones column can never hold more than 9."],
+      "reteach": { "say": "Think of it like a piggy-bank rule: ten pennies trade in for one shiny ten-coin. 13 ones → trade ten of them → one new ten, and 3 pennies stay. Nothing lost, just swapped!", "block": { "type": "steps", "title": "The great exchange", "steps": ["Add the ones: 6 + 7 = 13", "13 is ten or more → trade!", "Ten ones become 1 ten; 3 ones stay", "The new ten joins the tens column"] } }
+    },
+    {
+      "id": "l06-p03", "skill": "add with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "27 + 46 = ?", "answer": 73 },
+      "expectedAnswer": "73",
+      "wrongAnswers": [
+        { "answer": "613", "why": "kept 13 in the ones column — no exchange", "remedy": "13 ones can't stay. Trade ten for a ten-rod — now count your tens: 20 + 40 + 10." },
+        { "answer": "63", "why": "dropped the carried ten", "remedy": "Where did the traded ten go? It must join the tens: 20 + 40 + 10 = ?" }
+      ],
+      "hints": ["Ones first: 7 + 6 = ? Is it ten or more?", "After the trade: how many tens altogether?"],
+      "reteach": { "say": "Slow motion: 27 is 2 tens 7 ones; 46 is 4 tens 6 ones. Ones: 7 + 6 = 13 → trade! One new ten, 3 ones stay. Tens: 20 + 40 + 10 = 70. Answer: 73.", "block": { "type": "steps", "title": "27 + 46", "steps": ["ones: 7 + 6 = 13", "trade: 13 = 1 ten + 3 ones", "tens: 20 + 40 + 10 = 70", "70 + 3 = 73"] } },
+      "interestSlots": ["stickers", "marbles", "game points"]
+    },
+    {
+      "id": "l06-p04", "skill": "add with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "48 + 37 = ?", "answer": 85 },
+      "expectedAnswer": "85",
+      "wrongAnswers": [
+        { "answer": "715", "why": "kept 15 in the ones column — no exchange", "remedy": "8 + 7 = 15 ones — too many! Trade ten of them. Now how many tens and ones?" },
+        { "answer": "75", "why": "dropped the carried ten", "remedy": "You traded ten ones for a new ten — did it join the tens? 40 + 30 + 10 = ?" }
+      ],
+      "hints": ["Ones first: 8 + 7 = ?", "15 ones means a trade: 1 new ten and 5 ones stay."],
+      "reteach": { "say": "Ones: 8 + 7 = 15 — ten or more, so trade! One new ten, 5 ones stay. Tens: 40 + 30 + 10 = 80. Total: 85.", "block": { "type": "steps", "title": "48 + 37", "steps": ["ones: 8 + 7 = 15", "trade: 15 = 1 ten + 5 ones", "tens: 40 + 30 + 10 = 80", "80 + 5 = 85"] } }
+    },
+    {
+      "id": "l06-p05", "skill": "add with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "29 + 25 = ?", "answer": 54 },
+      "expectedAnswer": "54",
+      "wrongAnswers": [
+        { "answer": "414", "why": "kept 14 in the ones column — no exchange", "remedy": "9 + 5 = 14 ones. Trade ten of them in — what's left in the ones, and how many tens now?" },
+        { "answer": "44", "why": "dropped the carried ten", "remedy": "The traded ten is missing! 20 + 20 + 10 = ?" }
+      ],
+      "hints": ["Ones first: 9 + 5 = ?", "After trading: 4 ones stay, and the tens grow by one."],
+      "reteach": { "say": "9 + 5 = 14 ones → trade ten → 1 new ten, 4 ones stay. Tens: 20 + 20 + 10 = 50. So 29 + 25 = 54. The trade is what keeps the columns tidy.", "block": { "type": "steps", "title": "29 + 25", "steps": ["ones: 9 + 5 = 14", "trade: 14 = 1 ten + 4 ones", "tens: 20 + 20 + 10 = 50", "50 + 4 = 54"] } }
+    },
+    {
+      "id": "l06-p06", "skill": "decide whether to exchange", "level": 2,
+      "block": { "type": "trueFalse", "statement": "42 + 35 needs the great exchange.", "correct": false, "explain": "Check the ones: 2 + 5 = 7 — under ten, so no trade needed. 42 + 35 = 77, no exchange." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "thinks every two-digit sum needs a trade", "remedy": "The trade only happens when the ones make ten or MORE. Add the ones: 2 + 5 = ? Is that ten or more?" },
+        { "answer": "True, because the numbers are big", "why": "judging by the size of the numbers, not the ones", "remedy": "Big tens don't matter — only the ones decide. Look just at 2 + 5." }
+      ],
+      "hints": ["Only the ones decide: 2 + 5 = ?", "Trade only when the ones reach ten."],
+      "reteach": { "say": "The exchange isn't for every sum — it's only for crowded ones columns. 2 + 5 = 7 ones: they all fit, no trade. Compare with 6 + 7 = 13: too crowded, trade! Always ask the ones first.", "block": { "type": "table", "headers": ["sum", "ones make", "trade?"], "rows": [["42 + 35", "2 + 5 = 7", "no"], ["36 + 27", "6 + 7 = 13", "yes"]] } }
+    },
+    {
+      "id": "l06-p07", "skill": "add with exchange", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each sum to its total.", "pairs": [ { "left": "36 + 27", "right": "63" }, { "left": "42 + 35", "right": "77" }, { "left": "29 + 25", "right": "54" }, { "left": "45 + 38", "right": "83" } ] },
+      "expectedAnswer": "36+27→63, 42+35→77, 29+25→54, 45+38→83",
+      "wrongAnswers": [
+        { "answer": "45 + 38 → 77", "why": "guessed by nearness instead of working the ones", "remedy": "Work it properly: 5 + 8 = 13 → trade → tens: 40 + 30 + 10. Which total matches?" },
+        { "answer": "36 + 27 → 54", "why": "swapped two answers — no self-check", "remedy": "Check one: 36 + 27 — ones make 13, trade, tens make 60. Which total has 3 ones?" }
+      ],
+      "hints": ["Work out the ones of each sum first — the ones digit of the total must match.", "Only one sum here needs NO trade: find it first."],
+      "reteach": { "say": "Match like a detective, using the ones. 36 + 27: ones 6 + 7 = 13, so the total ends in 3 → 63. 42 + 35: ones 2 + 5 = 7, ends in 7 → 77. The ones digit is your fingerprint!", "block": { "type": "table", "headers": ["sum", "ones make", "total ends in", "total"], "rows": [["36 + 27", "13", "3", "63"], ["42 + 35", "7", "7", "77"], ["29 + 25", "14", "4", "54"], ["45 + 38", "13", "3", "83"]] } }
+    },
+    {
+      "id": "l06-p08", "skill": "add three two-digit numbers (stretch)", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! 12 + 23 + 14 = ?", "answer": 49 },
+      "expectedAnswer": "49",
+      "wrongAnswers": [
+        { "answer": "39", "why": "missed one of the tens when totalling", "remedy": "Count the tens carefully: 10 + 20 + 10 = ? Then the ones: 2 + 3 + 4." },
+        { "answer": "48", "why": "a ones slip while adding three numbers", "remedy": "Add the ones in pairs: 2 + 3 = 5, then 5 + 4 = ?" }
+      ],
+      "hints": ["Same plan: ALL the ones first (2 + 3 + 4), then all the tens.", "Do the ones make ten or more? Then no trade needed here."],
+      "reteach": { "say": "Three numbers, same trick. Ones: 2 + 3 + 4 = 9 — under ten, no trade. Tens: 10 + 20 + 10 = 40. Total 49. However many numbers you add, it's always ones first, then tens.", "block": { "type": "steps", "title": "12 + 23 + 14", "steps": ["ones: 2 + 3 + 4 = 9", "tens: 10 + 20 + 10 = 40", "40 + 9 = 49"] } }
+    },
+    {
+      "id": "l06-p09", "skill": "partition method", "level": 3,
+      "block": { "type": "fillBlank", "text": "36 + 27 = 50 + ___ = 63", "answer": "13", "wordBank": ["13", "3", "10"] },
+      "expectedAnswer": "13",
+      "wrongAnswers": [
+        { "answer": "3", "why": "dropped the ten inside 13", "remedy": "The ones made 6 + 7 — that's more than 3! Add them again: 6 + 7 = ?" },
+        { "answer": "10", "why": "kept the trade but lost the 3 leftover ones", "remedy": "Ten of the ones traded in, but 3 more are still there. 6 + 7 makes exactly…?" }
+      ],
+      "hints": ["The 50 is the tens: 30 + 20. What did the ones make?", "6 + 7 = ? That whole amount goes in the gap."],
+      "reteach": { "say": "This is the smash-and-add way: partition both numbers. Tens: 30 + 20 = 50. Ones: 6 + 7 = 13. Then 50 + 13 = 63 — the 13 carries its own ten across. Same answer as the blocks, written the fast way!", "block": { "type": "steps", "title": "Partition method", "steps": ["36 = 30 + 6, 27 = 20 + 7", "tens: 30 + 20 = 50", "ones: 6 + 7 = 13", "50 + 13 = 63"] } }
+    },
+    {
+      "id": "l06-p10", "skill": "explain the 713 error (stretch)", "level": 3,
+      "block": { "type": "shortText", "prompt": "Sam says 45 + 38 = 713. Explain what went wrong, and give the real answer.", "sample": "Sam kept 13 in the ones column instead of trading. Ten ones become one ten: tens are 40 + 30 + 10 = 80, plus 3 ones — the real answer is 83." },
+      "expectedAnswer": "Sam didn't exchange — 13 ones must become 1 ten and 3 ones; the real answer is 83",
+      "wrongAnswers": [
+        { "answer": "Sam just typed it wrong", "why": "doesn't see the missing exchange", "remedy": "Look at Sam's 13 sitting in the ones. Can a column hold 13? What should ten of those ones become?" },
+        { "answer": "The real answer is 73", "why": "spotted the error but dropped the carried ten", "remedy": "Good — the 13 traded in! But the new ten must JOIN the tens: 40 + 30 + 10 = ?" }
+      ],
+      "hints": ["Where did Sam's 13 come from — and where should ten of it go?", "Is 713 even a sensible size for 45 + 38? Estimate: about 50 + 40."],
+      "reteach": { "say": "Sam's answer fails the size test: 45 + 38 is about 50 + 40 — around 90, nowhere near seven hundred! The 13 ones needed the great exchange: one new ten joins 40 + 30 to make 80, and 3 ones stay. 83.", "block": { "type": "table", "headers": ["step", "Sam did", "should be"], "rows": [["ones: 5 + 8", "wrote 13 in the answer", "trade: 1 ten + 3 ones"], ["tens", "40 + 30 = 70", "40 + 30 + 10 = 80"], ["answer", "713", "83"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave exchange, no-exchange and three-number sums.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the exchange acted out slowly on the whiteboard, then serve a level-1 item (ones-only or 'what do you do with 13?').",
+    "masterySignal": "3+ correct across levels 2–3 including one sum WITH exchange, one WITHOUT (42 + 35 style), and the child stating when a trade is needed → mastery ≥ 0.8 for 'two-digit addition with regrouping'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the ten didn't get traded.'",
+      "Go fully concrete — act out the exchange slowly: ten ones melting into one rod.",
+      "One hint: 'Count the ones — is it ten or more?'",
+      "Re-ask with smaller ones (43 + 24, no exchange), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame every sum as prices or points from LearnerModel.interests (toy prices, match scores, sticker counts) — never change the numbers or the exchange language.",
+    "endOnSuccess": "Finish with a sum the child can win (no-exchange if needed), then specific process praise: what they DID (added ones first, checked 'ten or more?', remembered the carried ten) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Act out the swap of 10 ones for 1 ten every single time so 45 + 38 can never become '713'; keep sums with one clear exchange; say 'ten ones become one ten' together at the trade.",
+    "stretch": "Add three two-digit numbers (12 + 23 + 14); estimate the total first, then check; invent two prices that need an exchange and two that don't."
+  },
+  "extension": "'The great exchange' shop challenge — invent two prices that total exactly 80p (one pair must need an exchange, one pair must not), and prove each total with blocks.",
+  "assessmentEvidence": "Child solves 2 two-digit additions with regrouping and one without, exchanging correctly, keeping the carried ten, and recording the right totals.",
+  "revisitLater": "A two-digit addition with exchange as a starter in Lessons 8 and 12; the exchange idea reverses in Lesson 7 (breaking a ten) and returns with money in Lesson 16."
+}

@@ -1,0 +1,346 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u8-l26",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 8, "title": "Year-end consolidation", "essentialQuestion": "Can I bring all my Year 2 maths together to solve mixed problems?" },
+  "lessonNumber": 26,
+  "kind": "review",
+  "topic": "Year-end consolidation",
+  "title": "Mixed problems: number and calculation",
+  "durationMin": 24,
+  "objectives": ["By the end, I can choose the right operation to solve a worded number problem."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "operation", "definition": "the maths move a problem needs: add, subtract, multiply or divide", "example": "'give away' needs the subtract operation" },
+    { "term": "altogether", "definition": "a clue word for adding — joining amounts into one total", "example": "12 and 5 altogether is 17" },
+    { "term": "fewer / left", "definition": "clue words for subtracting — the amount gets smaller", "example": "48 marbles, give 19 away — 29 left" },
+    { "term": "groups of", "definition": "a clue for multiplying — equal groups counted together", "example": "5 bags of 5 sweets is 5 × 5" },
+    { "term": "share", "definition": "a clue for dividing — splitting equally", "example": "share 20 between 4 — everyone gets 5" },
+    { "term": "estimate", "definition": "a quick rough answer to check against", "example": "48 − 19 is about 50 − 20 = 30" }
+  ],
+  "emphasize": [
+    "The hard part isn't the sum — it's DECIDING which operation the story needs.",
+    "Clue words help, but ACT THE STORY OUT to be sure: is the amount getting bigger or smaller? Joining, or splitting?",
+    "Keep the routine: estimate → solve → check it makes sense."
+  ],
+  "analysis": {
+    "keyConcepts": ["choosing the operation from a story", "clue words: altogether/left/groups of/share", "estimate–solve–check", "the four operations within 100"],
+    "misconceptions": [
+      "grabbing a keyword without understanding the story (adds whenever it sees two numbers)",
+      "adding the group size instead of multiplying (5 bags of 5 → 5 + 5 = 10)",
+      "subtracting digit-by-digit the wrong way round (48 − 19: doing 9 − 8 → 31)",
+      "forgetting the exchanged ten when adding (48 + 37 → 75)",
+      "skipping the estimate, so silly answers go unnoticed"
+    ],
+    "hooks": ["Be the maths detective — which operation does this story need?"],
+    "priorKnowledge": ["add/subtract with regrouping (Lessons 6–7)", "inverse checking (Lesson 8)", "times tables and equal groups (Lessons 9–10)", "division as sharing (Lesson 11)", "estimate–solve–check routine (Lesson 12)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["word-problem cards rendered as blocks", "clue-word table on the whiteboard", "virtual counters/arrays in reteach visuals"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame the lesson as detective work — every word problem hides one clue: WHICH operation; retrieve the estimate habit.",
+      "note": "Flip the first 'case card' dramatically. Don't solve anything yet.",
+      "successCriteria": "Child says a good mathematician estimates roughly before solving.",
+      "script": {
+        "say": "Put on your detective hat! Every word problem hides one secret clue — WHICH operation does it need? Add? Take away? Times? Share? Crack the clue and the answer falls out. But first, a memory check from our training: before solving, what does a good maths detective always do?",
+        "adaptHints": "Lean into the detective role-play — magnifying glass, case files. If the child forgets 'estimate', prompt: 'the rough answer we get FIRST, to catch silly mistakes…'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🕵️🔍📋", "caption": "Case files open — find the operation clue!" }
+      ],
+      "stuckProtocol": ["If 'estimate' doesn't come back: model it once — '48 − 19… that's about 50 − 20, so the answer should be near 30' — then continue."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model cracking three cases: give away → subtract (48 − 19), groups of → multiply (5 × 5), share → divide (20 ÷ 4) — each with estimate–solve–check.",
+      "note": "Think aloud: underline the clue word, name the operation, estimate, solve one fully. Keep the clue-word table on screen.",
+      "successCriteria": "Child hears the clue word named before each operation and sees one full estimate–solve–check.",
+      "script": {
+        "say": "Watch me crack three cases. Case one: '48 marbles, I give 19 away.' The clue is GIVE AWAY — the pile gets smaller, that's subtract. Estimate first: about 50 take away 20, so near 30. Solve: 48 minus 19… 29. Close to 30 — checks out! Case two: '5 bags of 5 sweets.' GROUPS OF — equal groups, that's multiply: 5 times 5 is 25. Case three: 'share 20 stickers between 4 friends.' SHARE — that's divide: 20 shared into 4 is 5 each. Clue word, operation, estimate, solve, check. That's the detective way.",
+        "adaptHints": "Swap marbles/sweets/stickers for the child's interests — never the numbers. Stress the underlined clue words with your voice."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["clue words", "operation", "what happens"],
+          "rows": [
+            ["altogether, total, more", "add +", "amounts join — bigger"],
+            ["give away, left, fewer", "subtract −", "amount gets smaller"],
+            ["groups of, lots of, each", "multiply ×", "equal groups counted"],
+            ["share, between, each gets", "divide ÷", "split equally"]
+          ],
+          "caption": "The detective's clue-word card"
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared case: child spots the clue in '5 bags with 5 sweets each', names multiply, and models it as equal groups.",
+      "note": "'We do' — the child identifies the operation FIRST, then solves. If they say 'add', act the story out: five bags, five in each.",
+      "successCriteria": "Child names multiply (groups of) before calculating, then reaches 25.",
+      "script": {
+        "say": "Your turn to spot the clue, detective. Here's the case: '5 bags with 5 sweets each — how many sweets?' Don't solve it yet! First: which operation, and what clue told you? … Yes — bags of sweets, GROUPS OF, that's multiply. Now picture it: five bags, five sweets hiding in each. Count in fives with me: 5, 10, 15, 20, 25.",
+        "adaptHints": "If the child jumps to '10', don't correct directly — 'act it out: how many bags? How many in EACH bag? Is that just two numbers to add?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "'5 bags with 5 sweets each.' Which operation does this story need?",
+          "options": ["Multiply — it's 5 groups of 5", "Add — 5 + 5", "Subtract — take 5 from 5", "Divide — share 5 between 5"],
+          "correct": 0,
+          "explain": "'Bags of' means equal groups — 5 groups of 5 is 5 × 5."
+        }
+      ],
+      "check": {
+        "question": "Which operation, and why?",
+        "expectedAnswer": "Multiply, because it's 5 equal groups of 5 (clue: 'bags of / each')",
+        "wrongAnswers": [
+          { "answer": "Add — 5 + 5", "why": "saw two 5s and joined them; missed that one 5 counts GROUPS", "remedy": "Act it out: five whole bags, and EVERY bag has five inside. Is 5 + 5 enough sweets for all five bags?" },
+          { "answer": "Divide — share them", "why": "grabbed 'each' as a sharing clue without the story", "remedy": "Is anything being split up here? Or are we counting up what's in all the groups together?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "Diagnostic: solve the bags case fully — 5 × 5 = 25 — and justify the clue.",
+      "note": "After a correct answer, probe: 'Which clue told you to multiply?' Estimate is optional here (tables are known facts) but praise it if offered.",
+      "successCriteria": "Child answers 25 and names the 'groups of' clue.",
+      "script": {
+        "say": "Case check! '5 bags with 5 sweets each — how many sweets altogether?' Solve it and tell me your answer, detective.",
+        "adaptHints": "'Altogether' here totals the groups — if the child says 'altogether means add!', agree it means the total, and ask what kind of counting gets the total of five EQUAL groups fastest."
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "5 bags × 5 sweets each = ? sweets", "answer": 25 }
+      ],
+      "check": {
+        "question": "5 bags with 5 sweets each — how many sweets?",
+        "expectedAnswer": "25",
+        "wrongAnswers": [
+          { "answer": "10", "why": "added 5 + 5 — missed 'groups of'", "remedy": "Five BAGS, each with five inside — that's five groups. Count them in fives: 5, 10, 15…" },
+          { "answer": "30", "why": "counted in 5s one group too far (or 6 groups)", "remedy": "How many bags exactly? Hold up a finger per bag and count in fives — stop at the fifth finger." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 21],
+      "goal": "Mixed cases across the four operations (plus number traps), clue underlined, estimate–solve–check each time.",
+      "note": "Director draws from the practiceBank, start level 2, one of each operation before repeating any. Once secure, serve the two-step case (level 3).",
+      "successCriteria": "Child solves 4+ mixed problems choosing the right operation, including one subtraction with exchange.",
+      "script": {
+        "say": "Case files open — a whole stack of mysteries! For each one: find the clue, name the operation, estimate if it's a big sum, solve, and check it makes sense. Detective badge on the line!",
+        "adaptHints": "Frame problems with the child's interests (their collections, snacks, games) — never change the numbers. Ask 'bigger or smaller?' whenever they hesitate on the operation."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: wrong operation chosen, or a slip in the calculation?",
+        "Act the story out with counters drawn on the board — watch what happens to the amount.",
+        "One hint: 'Is the amount getting bigger or smaller? Joining, or splitting?'",
+        "Re-ask a one-step, smaller-number version, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — even top detectives re-check their clues.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [21, 24],
+      "goal": "Child states their own rule for choosing an operation; end on an earned win.",
+      "note": "Child-led. Listen for 'find the clue' AND 'act it out / bigger or smaller'.",
+      "successCriteria": "Child explains how they decide which operation a story needs.",
+      "script": {
+        "say": "Detective debrief: how do YOU decide which operation a problem needs? … Exactly — find the clue word, and if you're not sure, act the story out: is the amount getting bigger, smaller, grouped, or shared? You acted the stories out before choosing today — that's real problem-solving, not guessing. Case closed!",
+        "adaptHints": "Praise the specific process observed (underlining clues, estimating first, checking answers against the story)."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l26-p01", "skill": "choose the operation", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "'12 stickers and 5 MORE stickers — how many ALTOGETHER?' Which operation?", "options": ["Add", "Subtract", "Multiply", "Divide"], "correct": 0, "explain": "'More' and 'altogether' join amounts — that's adding. 12 + 5 = 17." },
+      "expectedAnswer": "Add (12 + 5 = 17)",
+      "wrongAnswers": [
+        { "answer": "Subtract", "why": "guessing without reading the story", "remedy": "Is the sticker pile getting bigger or smaller? MORE stickers arrive — which way does the pile go?" },
+        { "answer": "Multiply", "why": "saw two numbers and reached for times", "remedy": "Are there equal groups here, or just two amounts joining? Act it out: a pile of 12, then 5 land on top." }
+      ],
+      "hints": ["'Altogether' means join the amounts.", "Is the pile getting bigger or smaller?"],
+      "reteach": { "say": "Act it out: a pile of 12 stickers… and 5 more slide in. The pile GROWS — growing means add. 12 + 5 = 17.", "block": { "type": "emojiViz", "emojis": "🌟×12 ➕ 🌟×5", "caption": "More arriving → add" } },
+      "interestSlots": ["stickers", "trading cards"]
+    },
+    {
+      "id": "l26-p02", "skill": "division as sharing", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "Share 10 sweets fairly between 2 friends. How many sweets EACH?", "answer": 5 },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "8", "why": "subtracted 10 − 2 instead of sharing", "remedy": "'Share between' means deal them out fairly — one for you, one for me — until they're gone. How many in each pile?" },
+        { "answer": "12", "why": "added — the amount each person gets can't be more than the whole bag", "remedy": "There are only 10 sweets in total! Deal them into 2 piles and count one pile." }
+      ],
+      "hints": ["Deal them out: one for you, one for me…", "Two equal piles from 10 — count one pile."],
+      "reteach": { "say": "Sharing is dealing cards: one for you, one for me, again and again until the 10 sweets are gone. Count your pile: 1, 2, 3, 4, 5. Ten shared between two is five each — 10 ÷ 2 = 5.", "block": { "type": "emojiViz", "emojis": "🍬🍬🍬🍬🍬 | 🍬🍬🍬🍬🍬", "caption": "10 shared between 2 = 5 each" } },
+      "interestSlots": ["sweets", "grapes"]
+    },
+    {
+      "id": "l26-p03", "skill": "subtraction with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "You have 48 marbles and give 19 away. How many are left?", "answer": 29 },
+      "expectedAnswer": "29",
+      "wrongAnswers": [
+        { "answer": "31", "why": "digit-swap: did 9 − 8 in the ones instead of exchanging", "remedy": "In the ones we need 8 take away 9 — not enough! We can't flip it round. What can we exchange a ten for?" },
+        { "answer": "67", "why": "added instead of subtracting — missed 'give away'", "remedy": "Clue check: GIVE AWAY — is the pile getting bigger or smaller? Estimate: about 50 − 20 is 30 — can 67 be right?" }
+      ],
+      "hints": ["Estimate first: about 50 − 20 = 30.", "8 take away 9 doesn't work — exchange a ten for ten ones."],
+      "reteach": { "say": "The ones run short: 8 take away 9 — can't do it, and we never swap it round! So exchange: break one ten of 48 into ten ones. Now it's 3 tens and 18 ones. 18 − 9 = 9, and 3 tens − 1 ten = 2 tens. Twenty-nine — right next to our estimate of 30.", "block": { "type": "table", "headers": ["step", "tens", "ones"], "rows": [["48", "4", "8"], ["exchange a ten", "3", "18"], ["take 19", "3 − 1 = 2", "18 − 9 = 9"], ["answer", "2", "9 → 29"]], "caption": "Exchange, don't swap!" } },
+      "interestSlots": ["marbles", "conkers"]
+    },
+    {
+      "id": "l26-p04", "skill": "addition with regrouping", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "One jar has 48 buttons, another has 37. How many buttons altogether?", "answer": 85 },
+      "expectedAnswer": "85",
+      "wrongAnswers": [
+        { "answer": "75", "why": "no-exchange trap: 8 + 7 made a new ten that got dropped", "remedy": "8 + 7 is 15 — that's a whole new ten AND 5 ones. Where does the new ten go?" },
+        { "answer": "715", "why": "wrote 15 straight down instead of carrying the ten", "remedy": "15 ones is 1 ten and 5 ones — only the 5 stays in the ones place. Send the ten to live with the other tens." }
+      ],
+      "hints": ["Estimate: about 50 + 40 = 90.", "8 + 7 = 15 — one new ten, five ones."],
+      "reteach": { "say": "Ones first: 8 + 7 = 15. Fifteen ones is too many for one column — bundle ten of them into a NEW ten. Five ones stay. Now the tens: 4 + 3 + our new one = 8 tens. Eighty-five — nice and close to the estimate of 90.", "block": { "type": "table", "headers": ["column", "working"], "rows": [["ones", "8 + 7 = 15 → write 5, carry 1 ten"], ["tens", "4 + 3 + 1 = 8"], ["answer", "85"]], "caption": "48 + 37 = 85" } },
+      "interestSlots": ["buttons", "shells"]
+    },
+    {
+      "id": "l26-p05", "skill": "compare two-digit numbers", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Two teams scored 19 and 21 points. Which score is BIGGER?", "options": ["21", "19", "They are equal"], "correct": 0, "explain": "Compare tens first: 21 has 2 tens, 19 has only 1 ten — so 21 is bigger, even though 9 is a big ones digit." },
+      "expectedAnswer": "21",
+      "wrongAnswers": [
+        { "answer": "19", "why": "the classic trap — compared the ones (9 > 1) instead of the tens", "remedy": "Tens first, always! How many tens in 19? And in 21? Which tens pile is taller?" },
+        { "answer": "They are equal", "why": "avoided deciding / compared digit totals", "remedy": "Count both in tens and ones: 19 is 1 ten and 9; 21 is 2 tens and 1. Which has more TENS?" }
+      ],
+      "hints": ["Look at the tens first.", "1 ten and 9 ones… or 2 tens and 1 one — which is more?"],
+      "reteach": { "say": "The 9 in 19 LOOKS big, but it's only nine little ones. Tens are the bosses: 21 has TWO tens — twenty — and 19 only has one ten. Twenty beats nineteen before the ones even matter. Tens first, every time.", "block": { "type": "numberLine", "min": 15, "max": 25, "step": 1, "highlight": 21, "marks": [{ "value": 19, "label": "19" }, { "value": 21, "label": "21" }] } },
+      "interestSlots": ["points", "goals"]
+    },
+    {
+      "id": "l26-p06", "skill": "multiplication as equal groups", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "There are 4 packs of 5 pencils. How many pencils in total?", "answer": 20 },
+      "expectedAnswer": "20",
+      "wrongAnswers": [
+        { "answer": "9", "why": "added 4 + 5 instead of multiplying the groups", "remedy": "Four PACKS, five in EACH — that's four groups of five. Count in fives, one per pack." },
+        { "answer": "25", "why": "counted five groups instead of four", "remedy": "How many packs exactly? One finger per pack: 5, 10, 15, 20 — stop at the fourth finger." }
+      ],
+      "hints": ["'Packs of' means equal groups — multiply.", "Count in 5s: one count per pack."],
+      "reteach": { "say": "Picture the four packs in a row. Tap each one and count in fives: 5… 10… 15… 20. Four groups of five is 4 × 5 = 20. Adding 4 + 5 only counts one pack and the number of packs — the story needs ALL the pencils.", "block": { "type": "emojiViz", "emojis": "✏️✏️✏️✏️✏️ | ✏️✏️✏️✏️✏️ | ✏️✏️✏️✏️✏️ | ✏️✏️✏️✏️✏️", "caption": "4 packs of 5 = 20" } },
+      "interestSlots": ["pencils", "felt tips"]
+    },
+    {
+      "id": "l26-p07", "skill": "division as sharing", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Share 20 grapes between 4 plates. How many grapes on each plate?", "answer": 5 },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "16", "why": "subtracted 20 − 4 instead of sharing", "remedy": "'Share between' means deal them round the 4 plates till they're gone — then count ONE plate." },
+        { "answer": "4", "why": "mixed up the number of plates with the share", "remedy": "The 4 is how many plates. Deal the grapes round: how many land on each?" }
+      ],
+      "hints": ["Deal them round the plates: one each, again and again.", "Count in 5s: 5, 10, 15, 20 — four plates of…?"],
+      "reteach": { "say": "Four plates on the table. Deal the grapes round and round — one, one, one, one — until all 20 are gone. Now count a single plate: 5. Twenty shared between four is five each: 20 ÷ 4 = 5. And check: 4 plates of 5 is 20 — it rebuilds!", "block": { "type": "emojiViz", "emojis": "🍇🍇🍇🍇🍇 🍇🍇🍇🍇🍇 🍇🍇🍇🍇🍇 🍇🍇🍇🍇🍇", "caption": "20 ÷ 4 = 5 on each plate" } },
+      "interestSlots": ["grapes", "strawberries"]
+    },
+    {
+      "id": "l26-p08", "skill": "inverse checking", "level": 2,
+      "block": { "type": "fillBlank", "text": "To check 48 − 19 = 29, add back: 29 + ___ should make 48.", "answer": "19", "wordBank": ["19", "29", "48"] },
+      "expectedAnswer": "19",
+      "wrongAnswers": [
+        { "answer": "48", "why": "added the whole back instead of the part taken away", "remedy": "We took 19 AWAY — so to rebuild, we put the 19 back. What did we remove?" },
+        { "answer": "29", "why": "reused the answer instead of the subtracted part", "remedy": "29 is what's LEFT. To check, add back what left the pile." }
+      ],
+      "hints": ["Addition undoes subtraction.", "Put back exactly what was taken away."],
+      "reteach": { "say": "Subtraction and addition are opposites — like walking downstairs and back up. We took 19 away and landed on 29. To check, climb back up: 29 + 19. If it lands exactly on 48, our answer was right. It does — 29 + 19 = 48!", "block": { "type": "table", "headers": ["move", "sum"], "rows": [["down", "48 − 19 = 29"], ["back up (check)", "29 + 19 = 48 ✓"]], "caption": "The inverse check" } }
+    },
+    {
+      "id": "l26-p09", "skill": "estimate before solving", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Detective estimate: 48 + 37 is ABOUT…", "options": ["90", "12", "700", "40"], "correct": 0, "explain": "Round to friendly numbers: about 50 + 40 = 90. The real answer (85) should land near it." },
+      "expectedAnswer": "About 90 (50 + 40)",
+      "wrongAnswers": [
+        { "answer": "12", "why": "added the digits 4 + 8 or similar — lost the tens", "remedy": "48 is nearly FIFTY, 37 is nearly FORTY. Add the friendly numbers." },
+        { "answer": "40", "why": "estimated only one number", "remedy": "Both numbers join the total. About 50… plus about 40… lands near?" }
+      ],
+      "hints": ["Round each number to the nearest ten.", "About 50 plus about 40."],
+      "reteach": { "say": "An estimate is the detective's safety net. Make the numbers friendly: 48 is nearly 50, 37 is nearly 40. 50 + 40 = 90 — so the true answer must live near 90. If we ever get 12 or 700, the estimate shouts 'check again!'", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 90, "marks": [{ "value": 85, "label": "real: 85" }, { "value": 90, "label": "estimate: 90" }] } }
+    },
+    {
+      "id": "l26-p10", "skill": "two-step problems", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Two-step case! You buy 3 pens at 5p each and pay with a 20p coin. How much change (in p)?", "answer": 5 },
+      "expectedAnswer": "5p",
+      "wrongAnswers": [
+        { "answer": "15", "why": "stopped after step one — found the cost, forgot the change", "remedy": "Great — the pens cost 15p. But the case isn't closed: you handed over 20p. What comes back?" },
+        { "answer": "12", "why": "subtracted the 8 wrong things (20 − 3 − 5)", "remedy": "Step one FIRST: what do 3 pens at 5p each cost altogether? Then take that from 20p." }
+      ],
+      "hints": ["Step one: 3 pens at 5p each cost…?", "Step two: take the cost from 20p."],
+      "reteach": { "say": "Two-step cases hide two little sums. Step one: 3 pens at 5p — count in fives: 5, 10, 15p. Step two: pay 20p, so count up from 15 to 20 — that's 5p change. Solve the steps in order and the mystery unravels.", "block": { "type": "steps", "items": ["3 × 5p = 15p (the cost)", "20p − 15p = 5p (the change)"], "title": "Two steps, one case" } },
+      "interestSlots": ["pens", "toy cars"]
+    },
+    {
+      "id": "l26-p11", "skill": "choose the operation", "level": 3,
+      "block": { "type": "shortText", "prompt": "Be the author! Make up a short story problem that needs 20 ÷ 4 — then say the answer.", "sample": "I have 20 conkers and share them between 4 pockets — 5 conkers in each pocket." },
+      "expectedAnswer": "A sharing/grouping story using 20 and 4, answer 5",
+      "wrongAnswers": [
+        { "answer": "a story about 20 + 4 or 20 − 4", "why": "story doesn't match the operation — no sharing or grouping", "remedy": "20 ÷ 4 means splitting 20 into 4 equal parts. Who or what could share your 20 things?" },
+        { "answer": "a sharing story but answer 4", "why": "gave the number of groups, not the share", "remedy": "Deal your 20 things into the 4 groups — how many land in EACH group?" }
+      ],
+      "hints": ["÷ stories share things out equally.", "20 things, 4 people or pots — how many each?"],
+      "reteach": { "say": "Division stories always share or group. Here's mine: 20 strawberries, 4 bowls, dealt out fairly — 5 in each bowl. Now yours: pick any 20 things you love and share them between 4. The answer will always be 5 each!", "block": { "type": "emojiViz", "emojis": "🍓×20 → 🥣🥣🥣🥣", "caption": "20 ÷ 4 = 5 each" } },
+      "interestSlots": ["strawberries", "dinosaurs"]
+    },
+    {
+      "id": "l26-p12", "skill": "choose the operation", "level": 3,
+      "block": { "type": "categorize", "prompt": "Sort each story by the operation it needs.", "buckets": ["add", "subtract", "multiply", "divide"], "items": [ { "text": "14 cars and 5 more arrive", "bucket": "add" }, { "text": "30 stickers, give 12 away", "bucket": "subtract" }, { "text": "3 boxes of 10 eggs", "bucket": "multiply" }, { "text": "share 15 grapes between 5", "bucket": "divide" }, { "text": "how many FEWER than before?", "bucket": "subtract" }, { "text": "2 lots of 5 marbles", "bucket": "multiply" } ] },
+      "expectedAnswer": "add: cars arriving · subtract: give away, fewer · multiply: boxes of, lots of · divide: share between",
+      "wrongAnswers": [
+        { "answer": "'3 boxes of 10 eggs' → add", "why": "joined 3 and 10 instead of seeing equal groups", "remedy": "Three whole BOXES, ten in each — that's three equal groups. Which operation counts equal groups?" },
+        { "answer": "'how many fewer' → add", "why": "comparison words misread as joining", "remedy": "'Fewer' compares — we find the difference, the gap between two amounts. Which operation finds a gap?" }
+      ],
+      "hints": ["Bigger, smaller, grouped, or shared?", "'Of' and 'lots of' hint at equal groups."],
+      "reteach": { "say": "Every story does ONE of four things to the amount: joins it (add), shrinks it or finds a gap (subtract), counts equal groups (multiply), or splits it fairly (divide). Read the story, watch the amount in your head — what happened to it?", "block": { "type": "table", "headers": ["what the amount does", "operation"], "rows": [["joins / grows", "add"], ["shrinks / gap", "subtract"], ["equal groups counted", "multiply"], ["split fairly", "divide"]], "caption": "Watch what happens to the amount" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave all four operations and serve the two-step case.",
+    "levelDown": "2 misses on the same skill → run that item's reteach acting the story out with drawn counters, then a level-1 item of the same skill.",
+    "masterySignal": "4+ correct across levels 2–3 covering at least three different operations, including one exchange subtraction or regrouping addition solved with an estimate → mastery ≥ 0.8 for 'choosing operations in worded problems'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why — wrong operation chosen, or a calculation slip?",
+      "Act the story out: draw the counters/groups on the board and watch the amount.",
+      "One hint: 'Is the amount getting bigger or smaller? Joining, grouping, or sharing?'",
+      "Re-ask a one-step version with smaller numbers, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — detectives re-check clues all the time.'"
+    ],
+    "personalization": "Recast every story with the learner's interests (their collections, favourite snacks, teams) from LearnerModel.interests — keep every number and clue word intact.",
+    "endOnSuccess": "Close with a case the child can crack (drop a level if needed) and give specific process praise: 'you found the clue AND acted the story out before choosing — that's real detective maths.'"
+  },
+
+  "differentiation": {
+    "support": "Act every story out with drawn counters before choosing; keep the clue-word card on screen; one-step problems only.",
+    "stretch": "Two-step problems (pens and change); write a story to match a given calculation (20 ÷ 4); estimate before every solve without being reminded."
+  },
+  "extension": "Invent one word problem for EACH of the four operations and test them on the tutor — the tutor deliberately picks a wrong operation once for the child to catch.",
+  "assessmentEvidence": "Child selects the correct operation for mixed worded problems (all four operations), solves with an estimate where sensible, and checks answers against the story.",
+  "revisitLater": "Money, measure and time problems next lesson (27); everything meets in the Lesson 28 champion circuit. Keep '48 + 37' and 'give 19 away' as warm-up retrieval."
+}

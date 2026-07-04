@@ -1,0 +1,322 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l12",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 12,
+  "kind": "review",
+  "topic": "Calculation — retrieval and fluency",
+  "title": "Retrieval & fluency: calculation",
+  "durationMin": 20,
+  "objectives": ["By the end, I can quickly add/subtract two-digit numbers and recall 2/5/10 facts."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "estimate", "definition": "a quick sensible guess made BEFORE solving", "example": "48 + 37 is about 50 + 40 = 90" },
+    { "term": "regroup / exchange", "definition": "swap ten ones for a ten (or a ten for ten ones)", "example": "8 + 7 = 15 → exchange ten ones for a ten" },
+    { "term": "inverse", "definition": "the operation that undoes another — used to check", "example": "48 + 37 = 85, so 85 − 37 should be 48" },
+    { "term": "fact", "definition": "a times-table answer you recall from memory", "example": "6 × 5 = 30" },
+    { "term": "fluency", "definition": "fast AND accurate — strong maths muscles", "example": "answering 4 × 10 before the timer ticks" }
+  ],
+  "emphasize": [
+    "This is a fluency WORKOUT — speed and accuracy together. No new idea today: it's all retrieval.",
+    "The routine for every question: ESTIMATE, SOLVE, CHECK. The estimate is the safety net that catches silly answers.",
+    "Mix the strands (add, subtract, times, divide) so the child must CHOOSE the right method each time."
+  ],
+  "analysis": {
+    "keyConcepts": ["estimate–solve–check routine", "regrouping addition and subtraction retrieval", "2/5/10 fact recall", "division as inverse", "choosing the operation"],
+    "misconceptions": [
+      "skipping the estimate, so wild answers go unnoticed",
+      "regrouping slips under time pressure (forgetting the exchanged ten)",
+      "confusing operations in mixed practice (30 ÷ 10 answered as 300 or 20)",
+      "not using the inverse to check — treating checking as extra work"
+    ],
+    "hooks": ["Maths Gym Day — let's flex every muscle we've built!"],
+    "priorKnowledge": ["everything from Unit 2: regrouping add/subtract (L6–7), inverse (L8), arrays (L9), tables (L10), division (L11)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["train-track progress relay (one station per correct answer)", "number line and base-10 visuals as backup tools", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the gym-day energy; warm up with a skip-count; retrieve why we estimate.",
+      "note": "High energy, zero new content. The train-track relay is introduced here: every correct answer moves the train one station.",
+      "successCriteria": "Child skip-counts in 5s to 30 and says an estimate 'checks the answer makes sense'.",
+      "script": {
+        "say": "It's Maths Gym Day! This unit you've built serious maths muscles — adding, taking away, times tables, sharing. Today we flex ALL of them, and every correct answer moves your train one station down the track. Warm-up first: count in 5s to 30 — go! … Lovely. Now, brain question: what's the first thing a good mathematician does before solving — a rough guess. Why?",
+        "adaptHints": "Swap the train for the child's favourite vehicle or creature journeying along the track. Listen for 'to check the answer makes sense'."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🚂 ── 🚉 ── 🚉 ── 🚉 ── 🚉 ── 🏁", "caption": "Every correct answer moves the train one station!" }
+      ],
+      "stuckProtocol": ["If the skip-count stalls: count in 5s together with fingers, one finger per jump."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 6],
+      "goal": "Model the estimate–solve–check routine once, on 48 + 37 — light and quick, no new maths.",
+      "note": "Review lesson: this 'explain' only models the ROUTINE. Think aloud, fast and confident.",
+      "successCriteria": "Child hears the full routine — estimate ~90, solve 85, check against the estimate — and can name its three steps.",
+      "script": {
+        "say": "Here's our gym routine for every single question: ESTIMATE, SOLVE, CHECK. Watch me do one rep. 48 + 37. Estimate first: that's about 50 and 40 — around 90. Solve: ones first — 8 + 7 = 15, that's a ten and 5, exchange! Tens: 40 + 30 + my new ten = 80. Answer: 85. Check: is 85 close to my estimate of 90? Yes — makes sense! Say the three steps with me: estimate… solve… check!",
+        "adaptHints": "Keep it brisk — this is a warm-up demo, not a teach. Let the child shout the three steps."
+      },
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "The gym routine",
+          "steps": [
+            "ESTIMATE — round and guess: 48 + 37 ≈ 50 + 40 = 90",
+            "SOLVE — ones first: 8 + 7 = 15 → exchange; tens: 40 + 30 + 10 = 80 → 85",
+            "CHECK — 85 is near 90 ✓ (or prove it: 85 − 37 = 48)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [6, 9],
+      "goal": "Child runs the routine on 71 − 26, then flexes the tables/division link with 6 × 5 → 30 ÷ 5.",
+      "note": "The child leads; the character only prompts the next step of the routine.",
+      "successCriteria": "Child estimates ~45–50, solves 71 − 26 = 45 with the exchange, and answers 6 × 5 = 30 then 30 ÷ 5 = 6, naming them inverses.",
+      "script": {
+        "say": "Your turn on the machines! 71 − 26. Step one — estimate: roughly 70 take away 30 is about…? Now solve — careful, are there enough ones? You'll need to break a ten. … 45! Does that sit near your estimate? Now a tables superset: 6 × 5? … And if 6 × 5 = 30, then 30 ÷ 5 is…? See — they're inverses, one undoes the other!",
+        "adaptHints": "If the exchange stumbles, slow down just that step: '1 take away 6 — not enough — break a ten: 71 becomes 60 and 11.'"
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "71 − 26 = ? (estimate first!)", "answer": 45 }
+      ],
+      "check": {
+        "question": "6 × 5, and then 30 ÷ 5?",
+        "expectedAnswer": "30, then 6 — they're inverses",
+        "wrongAnswers": [
+          { "answer": "30, then 25", "why": "subtracted 5 instead of dividing — ÷ read as −", "remedy": "30 ÷ 5 asks how many 5s are in 30 — you JUST said six 5s make 30!" },
+          { "answer": "11 for 6 × 5", "why": "added instead of multiplied", "remedy": "Six GROUPS of 5 — skip-count: 5, 10, 15…" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [9, 12],
+      "goal": "Diagnostic: mixed-operation recall (30 ÷ 10) plus using the inverse to PROVE an answer.",
+      "note": "Two-part check straight from the script. The inverse proof is the deeper diagnostic — checking must feel like power, not chores.",
+      "successCriteria": "Child answers 30 ÷ 10 = 3 and explains that 85 − 37 = 48 proves 48 + 37 = 85.",
+      "script": {
+        "say": "Checkpoint! First: 30 ÷ 10. … Now the detective one: earlier we found 48 + 37 = 85. Prove it's right using a SUBTRACTION. Which subtraction should we do, and where should it land?",
+        "adaptHints": "After a correct proof, probe: 'how does that check prove it?' Listen for 'take a part away from the whole and you must land on the other part'."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which subtraction PROVES that 48 + 37 = 85?",
+          "options": ["85 − 37 = 48 — take a part from the whole, land on the other part", "37 − 48", "85 + 37", "48 − 37"],
+          "correct": 0,
+          "explain": "The whole is 85. Take away one part (37) and you must land exactly on the other part (48). If you don't, the sum was wrong."
+        }
+      ],
+      "check": {
+        "question": "Solve 30 ÷ 10, then prove 48 + 37 = 85 using subtraction.",
+        "expectedAnswer": "3; and 85 − 37 = 48, so the sum is right",
+        "wrongAnswers": [
+          { "answer": "30 ÷ 10 = 20 (or 300)", "why": "confused the operation — subtracted or multiplied instead", "remedy": "How many 10s in 30? Skip-count: 10, 20, 30 — how many jumps?" },
+          { "answer": "can't build the inverse check", "why": "part-whole link not used — checking feels like new work", "remedy": "The whole is 85. Take a part, 37, away — where SHOULD you land if the sum was right?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [12, 17],
+      "goal": "The main workout: interleaved quick-fire across all Unit 2 skills, estimate-solve-check each time, train advancing per correct answer.",
+      "note": "Director draws from the practiceBank, start level 2, deliberately ALTERNATING strands (add → times → subtract → divide → inverse…) so the child chooses the method. Every correct answer moves the train. Keep pace brisk; backup tools only on a miss.",
+      "successCriteria": "Child completes 5+ mixed items mostly correct, estimating before each calculation and using one inverse check.",
+      "script": {
+        "say": "Main workout — the relay! I'll mix everything: adding, taking away, times, sharing. Estimate, solve, check, and the train rolls one station every time you're right. If a muscle wobbles, we grab a tool, fix it, and roll on. Ready? Wheels rolling!",
+        "adaptHints": "Narrate the train's journey with the child's interests (dragon flying between castles, rocket between planets). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: slip vs missing fact vs wrong operation.",
+        "Hand over the backup tool for that one item — number line for facts, drawn base-10 for regrouping.",
+        "One hint or a sentence starter ('ones first…', 'how many 5s in…').",
+        "Re-ask a smaller version, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Honest self-assessment: strongest muscle and the one needing more gym time; end on a win.",
+      "note": "The child's named weak strand becomes the next lesson's warm-up. Record it.",
+      "successCriteria": "Child names one strong strand and one to practise, honestly.",
+      "script": {
+        "say": "Cool-down time, athlete! Look back at the track — what a journey. Tell me: which maths muscle felt STRONGEST today — adding, taking away, times tables or sharing? … And which one needs more gym time? … That's a champion's answer — knowing what to train next is how you get stronger. And you estimated before every answer — that's why the silly mistakes nearly vanished!",
+        "adaptHints": "Whatever strand the child names as weak, respond warmly and store it for the next warm-up — never treat it as a failure."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l12-p01", "skill": "add two-digit numbers", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "Warm-up: 23 + 14 = ? (Estimate first: about 20 + 10.)", "answer": 37 },
+      "expectedAnswer": "37",
+      "wrongAnswers": [
+        { "answer": "34", "why": "added tens to tens but muddled the ones (3 + 4 slip)", "remedy": "Ones first: 3 + 4. Then tens: 20 + 10. Put the parts together." },
+        { "answer": "97", "why": "added a digit into the wrong column", "remedy": "Line up tens under tens, ones under ones — which digits belong together?" }
+      ],
+      "hints": ["Ones first: 3 + 4. Then the tens.", "20 + 10 = 30, and 3 + 4 = 7 — combine!"],
+      "reteach": { "say": "Split both numbers: 23 is 20 and 3; 14 is 10 and 4. Tens together: 30. Ones together: 7. Recombine: 37 — and no exchanging needed this time.", "block": { "type": "steps", "title": "23 + 14", "steps": ["20 + 10 = 30", "3 + 4 = 7", "30 + 7 = 37"] } }
+    },
+    {
+      "id": "l12-p02", "skill": "recall 2/5/10 facts", "level": 1,
+      "block": { "type": "fillBlank", "text": "2 × 5 = ___", "answer": "10", "wordBank": ["10", "7", "25"] },
+      "expectedAnswer": "10",
+      "wrongAnswers": [
+        { "answer": "7", "why": "added 2 + 5", "remedy": "Two GROUPS of 5 — jump twice: 5… 10." },
+        { "answer": "25", "why": "grabbed 5 × 5 by mistake", "remedy": "Only TWO jumps of 5 — count them." }
+      ],
+      "hints": ["Two jumps of 5.", "Double 5 is…?"],
+      "reteach": { "say": "Two 5p coins: 5… 10. Two 5s make 10 — that one should pop out fast now!", "block": { "type": "emojiViz", "emojis": "🪙 🪙", "caption": "2 × 5 = 10" } }
+    },
+    {
+      "id": "l12-p03", "skill": "divide using facts", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "10 ÷ 2 = ?", "options": ["5", "8", "20"], "correct": 0, "explain": "How many 2s in 10? Count: 2, 4, 6, 8, 10 — five of them. And 5 × 2 = 10!" },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "8", "why": "subtracted 2 — read ÷ as −", "remedy": "We're not taking 2 away — we're asking how many 2s FIT in 10. Count in 2s." },
+        { "answer": "20", "why": "multiplied instead of divided", "remedy": "Dividing splits the number up — should the answer be bigger or smaller than 10?" }
+      ],
+      "hints": ["How many 2s in 10? Count in 2s.", "? × 2 = 10 — what's the ?"],
+      "reteach": { "say": "Count the 2s hiding in 10 on your fingers: 2, 4, 6, 8, 10 — five fingers up! 10 ÷ 2 = 5, because 5 × 2 = 10. The times table answers the division for free.", "block": { "type": "numberLine", "min": 0, "max": 12, "step": 2, "highlight": 10, "marks": [{ "value": 10, "label": "five 2s" }] } }
+    },
+    {
+      "id": "l12-p04", "skill": "add with regrouping", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "56 + 28 = ? (Estimate first: about 60 + 30.)", "answer": 84 },
+      "expectedAnswer": "84",
+      "wrongAnswers": [
+        { "answer": "74", "why": "forgot the exchanged ten — classic regrouping slip", "remedy": "6 + 8 = 14 — that's a ten AND a 4. Where did your new ten go? Add it with the tens." },
+        { "answer": "714", "why": "wrote 14 whole instead of exchanging", "remedy": "14 ones is too many for the ones seat — swap ten of them for a ten-rod first." }
+      ],
+      "hints": ["Ones first: 6 + 8 = 14 — exchange!", "Tens: 50 + 20 + the new ten."],
+      "reteach": { "say": "Estimate: 60 + 30 is about 90. Now solve: 6 + 8 = 14 — exchange ten ones for a ten, keep the 4. Tens: 50 + 20 + 10 = 80. Answer 84 — nice and close to 90, so it makes sense!", "block": { "type": "steps", "title": "56 + 28 with the exchange", "steps": ["Estimate: ≈ 60 + 30 = 90", "Ones: 6 + 8 = 14 → exchange → ten + 4", "Tens: 50 + 20 + 10 = 80", "80 + 4 = 84 ✓ close to 90"] } }
+    },
+    {
+      "id": "l12-p05", "skill": "subtract with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "64 − 39 = ? (Estimate first: about 60 − 40.)", "answer": 25 },
+      "expectedAnswer": "25",
+      "wrongAnswers": [
+        { "answer": "35", "why": "flipped the ones (did 9 − 4 'because you can't do 4 − 9')", "remedy": "You CAN — break a ten! 64 becomes 50 and 14. Now 14 − 9 is fine." },
+        { "answer": "25 but says 35 checks fine", "why": "no estimate or inverse check used", "remedy": "Check it: 25 + 39 — do you land back on 64?" }
+      ],
+      "hints": ["Not enough ones? Break a ten: 64 → 50 and 14.", "14 − 9 first, then 50 − 30."],
+      "reteach": { "say": "Estimate: about 60 − 40 = 20. Solve: 4 − 9 — not enough ones, so break a ten. 64 becomes 50 and 14. Now 14 − 9 = 5, and 50 − 30 = 20. Answer 25 — right next to the estimate. The exchange saves the day again!", "block": { "type": "steps", "title": "64 − 39 with the exchange", "steps": ["Estimate: ≈ 60 − 40 = 20", "Not enough ones → 64 = 50 and 14", "14 − 9 = 5", "50 − 30 = 20 → 25 ✓"] } }
+    },
+    {
+      "id": "l12-p06", "skill": "recall 2/5/10 facts", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Quick-fire: 7 × 5 = ?", "answer": 35 },
+      "expectedAnswer": "35",
+      "wrongAnswers": [
+        { "answer": "12", "why": "added 7 + 5", "remedy": "Seven GROUPS of 5 — skip-count on fingers: 5, 10, 15…" },
+        { "answer": "30", "why": "one jump short (landed on 6 × 5)", "remedy": "Count your jumps on fingers — you need exactly seven fives." }
+      ],
+      "hints": ["Start from 5 × 5 = 25 and jump two more fives.", "The answer must end in 0 or 5."],
+      "reteach": { "say": "Ladder trick: stand on 5 × 5 = 25, take two more jumps of 5 — 30, 35. So 7 × 5 = 35. Ends in 5 — correct uniform for the 5s!", "block": { "type": "numberLine", "min": 20, "max": 40, "step": 5, "highlight": 35, "marks": [{ "value": 25, "label": "5×5" }, { "value": 35, "label": "7×5" }] } }
+    },
+    {
+      "id": "l12-p07", "skill": "divide using facts", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "25 ÷ 5 = ?", "options": ["5", "20", "30", "125"], "correct": 0, "explain": "How many 5s in 25? 5, 10, 15, 20, 25 — five. And 5 × 5 = 25." },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "20", "why": "subtracted 5 — read ÷ as −", "remedy": "How many 5s FIT in 25? Use the fact: ? × 5 = 25." },
+        { "answer": "125", "why": "multiplied instead of divided", "remedy": "Dividing splits 25 into equal groups — can the answer be bigger than 25?" }
+      ],
+      "hints": ["? × 5 = 25 — what's the ?", "Count in 5s to 25 — how many jumps?"],
+      "reteach": { "say": "The times table walks backwards: 5 × 5 = 25, so 25 ÷ 5 = 5. No counting needed when you own the fact!", "block": { "type": "table", "headers": ["forwards", "backwards"], "rows": [["5 × 5 = 25", "25 ÷ 5 = 5"]], "caption": "One fact, two directions" } }
+    },
+    {
+      "id": "l12-p08", "skill": "inverse check", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "You worked out 56 + 28 = 84. Which check PROVES it?", "options": ["84 − 28 = 56", "84 + 28", "56 − 28", "28 − 56"], "correct": 0, "explain": "Take a part (28) away from the whole (84) — you must land on the other part (56). You did, so the sum is right." },
+      "expectedAnswer": "84 − 28 = 56",
+      "wrongAnswers": [
+        { "answer": "84 + 28", "why": "added again instead of undoing", "remedy": "A check must UNDO the operation. You added — so what undoes adding?" },
+        { "answer": "56 − 28", "why": "subtracted the parts from each other, not from the whole", "remedy": "Start from the WHOLE, 84. Take one part away — where should you land?" }
+      ],
+      "hints": ["The check must undo the +.", "Whole − one part = the other part."],
+      "reteach": { "say": "Think part-part-whole: 56 and 28 are the parts, 84 is the whole. Take 28 off the whole and you MUST land back on 56 — if you don't, sound the alarm! That's the detective check.", "block": { "type": "table", "headers": ["parts", "whole", "the check"], "rows": [["56 and 28", "84", "84 − 28 = 56 ✓"]], "caption": "Inverse = the detective check" } }
+    },
+    {
+      "id": "l12-p09", "skill": "estimate first", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Before solving 52 + 39, which is the BEST estimate?", "options": ["about 90 (50 + 40)", "about 50", "about 120", "no need to estimate"], "correct": 0, "explain": "Round each number: 52 ≈ 50, 39 ≈ 40. 50 + 40 = 90 — so the real answer should land near 90." },
+      "expectedAnswer": "about 90",
+      "wrongAnswers": [
+        { "answer": "about 120", "why": "over-rounded or added a stray ten", "remedy": "Round each number to its nearest ten first: 52 is close to…? 39 is close to…?" },
+        { "answer": "no need to estimate", "why": "sees estimating as extra work, not a safety net", "remedy": "If you accidentally got 811, what would tell you something went wrong? That's the estimate's job!" }
+      ],
+      "hints": ["Round each number to the nearest ten.", "50 + 40 = ?"],
+      "reteach": { "say": "The estimate is your safety net. Round: 52 is about 50, 39 is about 40 — together about 90. Now if your solved answer comes out at 91, brilliant. If it comes out at 811 — the net catches you!", "block": { "type": "steps", "title": "How to estimate", "steps": ["Round each number to the nearest ten: 52 → 50, 39 → 40", "Add the easy numbers: 50 + 40 = 90", "Solve properly, then check you landed NEAR 90"] } }
+    },
+    {
+      "id": "l12-p10", "skill": "choose the operation", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Word problem: 5 bags with 5 sweets in each. You eat 3 sweets. How many are left?", "answer": 22 },
+      "expectedAnswer": "22 (5 × 5 = 25, then 25 − 3 = 22)",
+      "wrongAnswers": [
+        { "answer": "25", "why": "did the multiplication but forgot step two", "remedy": "Great start — 25 sweets! But then you ate 3. What happens next?" },
+        { "answer": "7", "why": "grabbed the numbers and added (5 + 5 − 3)", "remedy": "Act it out: 5 bags, 5 in EACH — is that 5 + 5 or 5 groups of 5?" }
+      ],
+      "hints": ["Two steps: first how many sweets altogether?", "5 × 5 first… then take away the eaten ones."],
+      "reteach": { "say": "Detective work — this story has TWO steps. Step one: 5 bags of 5 is 5 × 5 = 25 sweets. Step two: you ate 3, so 25 − 3 = 22. Read the story, spot the steps, solve them in order.", "block": { "type": "steps", "title": "Two-step problem", "steps": ["5 bags of 5 → 5 × 5 = 25", "eat 3 → 25 − 3 = 22"] } }
+    },
+    {
+      "id": "l12-p11", "skill": "subtract with exchange", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Champion round, no tools: 70 − 23 = ?", "answer": 47 },
+      "expectedAnswer": "47",
+      "wrongAnswers": [
+        { "answer": "53", "why": "avoided the exchange — did 3 − 0 upside down", "remedy": "0 − 3 needs a broken ten: 70 becomes 60 and 10. Now 10 − 3 works." },
+        { "answer": "57", "why": "broke the ten but forgot the tens went down to 60", "remedy": "You broke a ten off 70 — so how many tens are LEFT before you subtract 20?" }
+      ],
+      "hints": ["70 has no loose ones — break a ten: 60 and 10.", "10 − 3 = 7, then 60 − 20."],
+      "reteach": { "say": "Estimate: about 70 − 20 = 50. Now the crunch: 70 has zero loose ones, so break a ten — 70 becomes 60 and 10. 10 − 3 = 7. 60 − 20 = 40. Answer 47, snuggled right by the estimate. Crossing a tens number is exactly when the exchange shines.", "block": { "type": "steps", "title": "70 − 23", "steps": ["Estimate: ≈ 50", "70 = 60 and 10 (break a ten)", "10 − 3 = 7", "60 − 20 = 40 → 47 ✓"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, run a timed streak — no tools, interleaving all four operations.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the backup tool visible (drawn base-10 for regrouping, number line for facts), then serve a level-1 item of that skill.",
+    "masterySignal": "6+ correct across levels 2–3 spanning at least three strands (add / subtract / tables / divide), each preceded by an estimate where relevant, plus one successful inverse check → mastery ≥ 0.8 for 'Unit 2 calculation fluency'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: slip vs missing fact vs wrong operation.",
+      "Hand over the backup tool for that one item (drawn blocks / number line).",
+      "One hint or sentence starter ('ones first…', 'how many 5s in…').",
+      "Re-ask a smaller version, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Theme the relay track with the learner's interests (rocket between planets, dragon between castles); use their named weak strand from previous sessions to pick extra items. Never change the numbers.",
+    "endOnSuccess": "Finish on a strand the child is strong in so the train reaches the final station on a win; process praise: 'you estimated before every answer — that's why the silly mistakes nearly vanished.'"
+  },
+
+  "differentiation": {
+    "support": "Backup tools (drawn base-10, number line) stay one tap away; fewer questions, same estimate-solve-check routine every time.",
+    "stretch": "Timed streak with no tools; add the two-step word problem and 70 − 23 (crossing the tens)."
+  },
+  "extension": "Be the quiz master — the child writes three calculation questions (with answers!) for the tutor to solve, and catches the tutor's deliberate mistake.",
+  "assessmentEvidence": "Child completes a mixed calculation set with mostly accurate, fluent answers, estimating first and using an inverse check.",
+  "revisitLater": "Log the child's self-named weak strand and use it as the next lessons' warm-up; full mixed calculation retrieval returns before Unit 8."
+}

@@ -1,0 +1,351 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u8-l27",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 8, "title": "Year-end consolidation", "essentialQuestion": "Can I bring all my Year 2 maths together to solve mixed problems?" },
+  "lessonNumber": 27,
+  "kind": "review",
+  "topic": "Year-end consolidation",
+  "title": "Mixed problems: money, measure and time",
+  "durationMin": 24,
+  "objectives": ["By the end, I can solve everyday problems with money, measurement and time."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "total", "definition": "all the amounts joined together", "example": "30p and 25p make a total of 55p" },
+    { "term": "change", "definition": "the money you get back when you pay too much", "example": "pay £1 for 55p — 45p change" },
+    { "term": "compare", "definition": "look at two amounts and say which is more, less, longer or shorter", "example": "20 cm is longer than 15 cm" },
+    { "term": "quarter past", "definition": "15 minutes after the hour — the minute hand points at the 3", "example": "quarter past 3 is 3:15" },
+    { "term": "quarter to", "definition": "15 minutes before the NEXT hour — the minute hand points at the 9", "example": "quarter to 7 is 6:45" },
+    { "term": "length", "definition": "how long something is, measured from 0 on the ruler", "example": "the ribbon is 20 cm long" }
+  ],
+  "emphasize": [
+    "Pick the RIGHT TOOL for the context — coins for money, the clock for time, the ruler for length — then read it CAREFULLY.",
+    "Change is found by COUNTING UP from the price to what you paid.",
+    "The same estimate–solve–check habit works everywhere: shops, clocks and rulers."
+  ],
+  "analysis": {
+    "keyConcepts": ["totalling amounts and finding change by counting up", "reading and setting the clock to 5 minutes (past/to)", "measuring from 0 and comparing lengths", "choosing the right tool for the context"],
+    "misconceptions": [
+      "a coin's size or the NUMBER of coins tells its worth (3 coins must beat 1 coin)",
+      "finding change by guessing or counting back with slips instead of counting up",
+      "measuring from the end of the ruler (or from 2) instead of from 0",
+      "reading 'twenty to 4' as 4:20 — mixing past and to",
+      "crossing a ten wrongly when totalling (30p + 25p → 65p)"
+    ],
+    "hooks": ["A whole pretend trip out — can you handle the money AND the clock like a grown-up?"],
+    "priorKnowledge": ["coins and making amounts (Lesson 15)", "totals and change by counting up (Lesson 16)", "ruler from 0 and reading scales (Lessons 17–18)", "time past and to the hour (Lessons 19–20)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["pretend-shop scenario blocks", "count-up number line for change", "clock and ruler visuals on the whiteboard"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Launch the pretend trip out (shop → bus → measuring) and retrieve 'change by counting up'.",
+      "note": "Hand over the imaginary coin purse with ceremony. Keep the trip story running all lesson.",
+      "successCriteria": "Child says change is found by counting UP from the price.",
+      "script": {
+        "say": "Today we're going on a whole pretend trip out! You'll buy snacks at the shop, check the clock so we don't miss the bus, and measure something on the way. Money AND time, like a proper grown-up. Here's your coin purse. Quick training question first: when the shopkeeper gives change, do we count UP from the price, or backwards?",
+        "adaptHints": "Name the trip destination after somewhere the child loves (the park, the pool, grandma's). If 'count up' is shaky, demo once: 55 → 60 → 100."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🛍️🚌🕒📏", "caption": "Shop → bus → measure — a whole trip of maths!" }
+      ],
+      "stuckProtocol": ["If counting up is forgotten: rehearse one tiny change count together — price 8p, pay 10p, count up 9, 10 — two pence change — then set off."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the whole trip once: total 30p + 25p = 55p, change from £1 by counting up (45p); set the clock to quarter past 3; measure a ribbon from 0.",
+      "note": "Three quick models, one per context. Emphasise the tool-match each time: coins, clock, ruler — different tools, same careful reading.",
+      "successCriteria": "Child sees the count-up for change and hears 'ruler starts at 0' and 'quarter past — minute hand on the 3'.",
+      "script": {
+        "say": "Watch me do the trip first. At the shop: a snack for 30p and a drink for 25p. Total: 30 add 20 is 50, and the 5 more makes 55p. I pay with £1 — that's 100p — so I count UP for the change: 55… 60, that's 5p… then 70, 80, 90, 100 — forty more. 45p change! Next, the bus leaves at quarter past 3 — on my clock the little hand is just past the 3 and the long minute hand points at the 3. And on the way, I measure my ribbon: I line it up starting at ZERO… it reaches 20. Twenty centimetres. Coins, clock, ruler — different tools, same careful reading.",
+        "adaptHints": "Keep each model snappy. Stress ZERO on the ruler and UP for the change with your voice."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Change from £1: count UP from 55p",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "55p → £1 (100p)", "size": 6, "bold": true },
+            { "k": "line", "x1": 8, "y1": 30, "x2": 92, "y2": 30, "color": "ink" },
+            { "k": "text", "x": 10, "y": 37, "value": "55", "size": 5, "bold": true },
+            { "k": "text", "x": 26, "y": 37, "value": "60", "size": 5 },
+            { "k": "text", "x": 42, "y": 37, "value": "70", "size": 5 },
+            { "k": "text", "x": 58, "y": 37, "value": "80", "size": 5 },
+            { "k": "text", "x": 74, "y": 37, "value": "90", "size": 5 },
+            { "k": "text", "x": 90, "y": 37, "value": "100", "size": 5, "bold": true },
+            { "k": "text", "x": 18, "y": 22, "value": "+5", "size": 5, "color": "orange" },
+            { "k": "text", "x": 34, "y": 22, "value": "+10", "size": 5, "color": "blue" },
+            { "k": "text", "x": 50, "y": 22, "value": "+10", "size": 5, "color": "blue" },
+            { "k": "text", "x": 66, "y": 22, "value": "+10", "size": 5, "color": "blue" },
+            { "k": "text", "x": 82, "y": 22, "value": "+10", "size": 5, "color": "blue" },
+            { "k": "text", "x": 50, "y": 52, "value": "5 + 40 = 45p change", "size": 6, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared shop stop: the child totals 30p + 25p and counts up the change from £1 themselves.",
+      "note": "'We do' — the character plays shopkeeper, the child pays and works both steps aloud. Total first, then change.",
+      "successCriteria": "Child reaches 55p total and counts up to 45p change.",
+      "script": {
+        "say": "Your turn at the shop! Two snacks: one is 30p, one is 25p. First job — the total. 30 and 25… add the tens, then the ones. What do you get? … Now you hand me £1, which is 100p. Count UP from 55 with me — 60… and keep hopping in tens to 100. How much change comes back?",
+        "adaptHints": "Let the child pick what the two snacks ARE (their favourites) — the prices stay 30p and 25p. Pause and let them lead the count-up."
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "Total: 30p + 25p = ? p", "answer": 55 }
+      ],
+      "check": {
+        "question": "What's the total of 30p and 25p?",
+        "expectedAnswer": "55p",
+        "wrongAnswers": [
+          { "answer": "65p", "why": "crossed the ten wrongly (30 + 25 misadded as 30 + 35 or tens slip)", "remedy": "Break 25 up: 30 + 20 first — that's 50 — then the 5. Where do you land?" },
+          { "answer": "45p", "why": "mixed the total up with the change from the model", "remedy": "This is the PRICE step, not the change yet. Join the two prices: 30 and 25 together." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "Diagnostic: full money problem — total AND change from £1 — with the count-up shown.",
+      "note": "After a correct answer, probe: 'Show me the count-up for the change.' Guessed change with no count-up is the thing to catch.",
+      "successCriteria": "Child answers 55p total, 45p change, and can voice the count-up 55→60→100.",
+      "script": {
+        "say": "Shopkeeper check! Two snacks cost 30p and 25p, and you pay with £1. Tell me the total AND the change — and prove the change with your count-up.",
+        "adaptHints": "If the child answers instantly and correctly, still ask for the count-up once — the habit is the point."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Snacks cost 30p + 25p. You pay £1. Total and change?",
+          "options": ["Total 55p, change 45p", "Total 55p, change 55p", "Total 65p, change 35p", "Total 55p, change 65p"],
+          "correct": 0,
+          "explain": "30 + 25 = 55p. Count up from 55 to 100: 5 to reach 60, then 40 more — 45p change."
+        }
+      ],
+      "check": {
+        "question": "Two snacks at 30p and 25p, pay £1 — total and change?",
+        "expectedAnswer": "Total 55p; change 45p (count up 55→60→100)",
+        "wrongAnswers": [
+          { "answer": "total 65p", "why": "slipped crossing the ten in the total", "remedy": "30 + 20 = 50 first, then the extra 5 → where do you land?" },
+          { "answer": "change 55p", "why": "gave the total again / guessed instead of counting up", "remedy": "Count up from 55: 60, 70, 80, 90, 100 — add up your hops. How much came back?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 21],
+      "goal": "Scenario cards across the trip: money totals and change, set/read the clock (past AND to), compare lengths, read a scale.",
+      "note": "Director draws from the practiceBank, start level 2, rotate contexts (money → time → measure) — never two of the same in a row. Once secure, serve the two-context combo (level 3).",
+      "successCriteria": "Child solves one problem in each context correctly, including a 'to the hour' time and a count-up change.",
+      "script": {
+        "say": "The trip continues — scenario cards! Some are shop jobs, some are clock jobs, some are measuring jobs. First question for each: which tool does this job need? Then read it carefully. Off we go!",
+        "adaptHints": "Keep the running trip story: each solved card moves the trip along (bought the snack, caught the bus). Use the child's interests for items and destinations — never change numbers or times."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why — wrong tool for the context, or a careless read (ruler not on 0, past/to mixed)?",
+        "Bring the matching tool on screen (coins, clock face, ruler) and model ONE step.",
+        "One hint: 'Count up from the price' / 'Which number does the minute hand point to?' / 'Where must the ruler start?'",
+        "Re-ask a one-context, smaller version, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — grown-ups double-check the clock too.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [21, 24],
+      "goal": "Child reflects on the trip: most confident context, and the tool-matching rule; end on a win.",
+      "note": "Child-led reflection naming a context. Log the shakiest context for Lesson 28's circuit.",
+      "successCriteria": "Child names their strongest context and states the 'right tool, careful read' idea.",
+      "script": {
+        "say": "Trip complete — you shopped, caught the bus AND measured on the way! Which job felt best today: money, time, or measuring? And which needs a bit more practice? … You switched tools for every job and read each one carefully — coins, clock, ruler — that's exactly real-life maths. Same trip tomorrow? You'd smash it.",
+        "adaptHints": "Praise the observed process (counting up for change, checking the ruler's zero, saying past/to correctly). Note the weak context for the Lesson 28 stations."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l27-p01", "skill": "know coin and pound facts", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "How many pence make £1?", "options": ["100p", "10p", "50p", "1000p"], "correct": 0, "explain": "£1 is worth exactly 100 pence." },
+      "expectedAnswer": "100p",
+      "wrongAnswers": [
+        { "answer": "10p", "why": "confused pounds with tens", "remedy": "Ten 10p coins fit in £1 — count them in tens: 10, 20, … how far do you get?" },
+        { "answer": "1000p", "why": "over-multiplied", "remedy": "Count ten 10ps: 10, 20, 30… you land exactly on £1. How many pence is that?" }
+      ],
+      "hints": ["Count 10p coins into a pound: 10, 20, 30…", "It's the same as counting to a hundred."],
+      "reteach": { "say": "One pound is a hundred pennies in one shiny coin. Stack ten 10p coins and count: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 — that whole stack equals £1. So £1 = 100p.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 100, "marks": [{ "value": 100, "label": "£1" }] } }
+    },
+    {
+      "id": "l27-p02", "skill": "match tool to job", "level": 1,
+      "block": { "type": "matchPairs", "prompt": "Match each trip job to its tool.", "pairs": [ { "left": "How long is the pencil?", "right": "ruler" }, { "left": "When does the bus leave?", "right": "clock" }, { "left": "How much do the snacks cost?", "right": "coins" }, { "left": "How heavy is the apple?", "right": "weighing scales" } ] },
+      "expectedAnswer": "length→ruler, time→clock, money→coins, mass→scales",
+      "wrongAnswers": [
+        { "answer": "how heavy → ruler", "why": "mixed length with mass", "remedy": "A ruler measures how LONG. What tool do we put things ON to find how heavy?" },
+        { "answer": "when does the bus leave → coins", "why": "matched randomly without reading the job", "remedy": "Read the job again: it asks WHEN — which tool tells us the time?" }
+      ],
+      "hints": ["How long → ruler; how heavy → scales.", "'When' questions always need the clock."],
+      "reteach": { "say": "Every job has its tool. How LONG — ruler. How HEAVY — scales. How MUCH money — coins. WHEN — the clock. Say the question word out loud and the tool almost picks itself!", "block": { "type": "table", "headers": ["question word", "tool"], "rows": [["how long?", "ruler"], ["how heavy?", "scales"], ["how much money?", "coins"], ["when?", "clock"]], "caption": "Match the tool to the job" } }
+    },
+    {
+      "id": "l27-p03", "skill": "read the clock: quarter past", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "At QUARTER PAST 3, where does the long minute hand point?", "options": ["At the 3", "At the 9", "At the 12", "At the 4"], "correct": 0, "explain": "Quarter past means 15 minutes after the hour — the minute hand has travelled a quarter of the way round, to the 3." },
+      "expectedAnswer": "At the 3",
+      "wrongAnswers": [
+        { "answer": "At the 9", "why": "mixed quarter past with quarter to", "remedy": "PAST means just after the hour has started — the hand has gone a quarter of the way round. Which side of the clock is that?" },
+        { "answer": "At the 12", "why": "that's o'clock — the start position", "remedy": "At 3 o'clock the hand is at the 12. Then it travels a quarter of the circle — count 5, 10, 15 minutes. Where does it stop?" }
+      ],
+      "hints": ["A quarter of the way round the clock.", "Count the minutes in 5s: 5, 10, 15 — which number did you reach?"],
+      "reteach": { "say": "Picture the clock as a pizza with 4 quarter-slices. At quarter past, the minute hand has eaten one slice — it started at the 12 and swept round to the 3. Count in fives as it goes: 5, 10, 15 minutes past.", "block": { "type": "emojiViz", "emojis": "🕒 = 🍕¼", "caption": "Quarter past = minute hand on the 3 (15 min)" } }
+    },
+    {
+      "id": "l27-p04", "skill": "total two amounts", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "At the shop: a comic costs 30p and a lolly costs 25p. Total in pence?", "answer": 55 },
+      "expectedAnswer": "55p",
+      "wrongAnswers": [
+        { "answer": "65", "why": "tens slip when joining 30 and 25", "remedy": "Split 25 into 20 and 5. First 30 + 20, THEN the 5." },
+        { "answer": "35", "why": "added only the 5, or 30 + 5", "remedy": "25p is twenty AND five. Add the twenty first — where are you? Now the five." }
+      ],
+      "hints": ["Tens first: 30 + 20.", "Then add the 5 ones."],
+      "reteach": { "say": "Join money tens-first: 30 add 20 makes 50… then the little 5 hops on: 55p. Tens together, then ones — the total behaves itself every time.", "block": { "type": "steps", "items": ["30p + 20p = 50p", "50p + 5p = 55p"], "title": "30p + 25p" } },
+      "interestSlots": ["comic", "lolly"]
+    },
+    {
+      "id": "l27-p05", "skill": "find change by counting up", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Your snacks cost 55p and you pay £1 (100p). How much change (in p)?", "answer": 45 },
+      "expectedAnswer": "45p",
+      "wrongAnswers": [
+        { "answer": "55", "why": "gave the price back / mixed price and change", "remedy": "55p is what the snacks COST. The change is the journey from 55 up to 100 — count the hops." },
+        { "answer": "35", "why": "count-up slip (missed a ten)", "remedy": "Careful hops: 55 → 60 is 5. Then 60, 70, 80, 90, 100 — count those tens on your fingers." }
+      ],
+      "hints": ["Count UP: 55 → 60 first.", "Then hop in tens to 100 and add your hops."],
+      "reteach": { "say": "Change is a counting-up journey. Start at the price, 55. One small hop to 60 — that's 5. Now big tens: 70, 80, 90, 100 — four tens, forty. 5 and 40 make 45p change. Count up, never guess!", "block": { "type": "numberLine", "min": 50, "max": 100, "step": 5, "highlight": 100, "marks": [{ "value": 55, "label": "price" }, { "value": 60, "label": "+5" }, { "value": 100, "label": "paid £1" }] } }
+    },
+    {
+      "id": "l27-p06", "skill": "coin value vs coin count", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Who has more money: Ava with THREE 2p coins, or Ben with ONE 10p coin?", "options": ["Ben — 10p beats 6p", "Ava — three coins beat one", "They have the same"], "correct": 0, "explain": "Count the VALUE, not the coins: Ava has 2 + 2 + 2 = 6p; Ben's single coin is worth 10p." },
+      "expectedAnswer": "Ben — one 10p (10p) is worth more than three 2p coins (6p)",
+      "wrongAnswers": [
+        { "answer": "Ava — she has more coins", "why": "the classic trap: counting coins instead of value", "remedy": "Coins aren't all worth the same! Count Ava's money: 2, 4, 6. Now Ben's one coin — what does it SAY on it?" },
+        { "answer": "They have the same", "why": "didn't total either amount", "remedy": "Work each out: three 2ps — count in 2s. One 10p — just read it. Compare." }
+      ],
+      "hints": ["Count Ava's in 2s: 2, 4, 6.", "It's the number ON the coin that counts, not how many coins."],
+      "reteach": { "say": "A big handful can still be worth less! Ava's three coins: 2, 4, 6 — six pence. Ben's ONE coin says 10 — ten pence. Ten beats six. Always count the value written on the coins, never just the pile.", "block": { "type": "table", "headers": ["person", "coins", "value"], "rows": [["Ava", "2p, 2p, 2p", "6p"], ["Ben", "10p", "10p ✓"]], "caption": "Value beats count" } },
+      "interestSlots": ["pocket money", "tuck shop"]
+    },
+    {
+      "id": "l27-p07", "skill": "measure from 0", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "A ribbon lies along a ruler. It STARTS at the 2 cm mark and ENDS at the 8 cm mark. How long is it?", "options": ["6 cm", "8 cm", "2 cm", "10 cm"], "correct": 0, "explain": "It didn't start at 0! Count from 2 to 8 — the ribbon covers 6 centimetres." },
+      "expectedAnswer": "6 cm",
+      "wrongAnswers": [
+        { "answer": "8 cm", "why": "read the end number without checking the start — the ruler-from-0 trap", "remedy": "Where does the ribbon START? Not at 0! Count the centimetres it actually covers, from 2 up to 8." },
+        { "answer": "10 cm", "why": "added the two marks (2 + 8)", "remedy": "Don't add the marks — count the gap between them. Hop from 2 to 8: how many hops?" }
+      ],
+      "hints": ["Check where it STARTS — is it at 0?", "Count the hops from 2 to 8."],
+      "reteach": { "say": "The ruler's golden rule: start at ZERO — and if something doesn't, count the gap instead. Hop from 2: 3, 4, 5, 6, 7, 8 — six hops, six centimetres. The end number only tells the truth when the start is 0.", "block": { "type": "numberLine", "min": 0, "max": 10, "step": 1, "highlight": 8, "marks": [{ "value": 2, "label": "start" }, { "value": 8, "label": "end" }] } }
+    },
+    {
+      "id": "l27-p08", "skill": "read the clock: minutes to", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The bus leaves at TWENTY TO 4. What time is that on a digital clock?", "options": ["3:40", "4:20", "4:40", "3:20"], "correct": 0, "explain": "'To 4' means we haven't reached 4 yet — it's still 3-something. Twenty minutes before 4:00 is 3:40." },
+      "expectedAnswer": "3:40",
+      "wrongAnswers": [
+        { "answer": "4:20", "why": "the past/to trap — read 'twenty to 4' as twenty past 4", "remedy": "TO means BEFORE the hour — the 4 o'clock hasn't happened yet. Is it still 3-something or already 4-something?" },
+        { "answer": "4:40", "why": "kept the 4 and bolted the 40 on", "remedy": "At 4:40 the 4 o'clock is long gone. 'Twenty to 4' means 20 minutes STILL TO GO until 4. Count back from 4:00." }
+      ],
+      "hints": ["'To' means before the hour — it's still 3-something.", "Count back 20 minutes from 4:00."],
+      "reteach": { "say": "'To' is a countdown word: twenty to 4 means twenty minutes LEFT until 4 o'clock. So the hour is still 3. Count back from 4:00 in tens: 3:50, 3:40. Twenty to 4 = 3:40 — and the minute hand points at the 8.", "block": { "type": "table", "headers": ["words", "meaning", "digital"], "rows": [["twenty PAST 3", "20 min after 3:00", "3:20"], ["twenty TO 4", "20 min before 4:00", "3:40"]], "caption": "Past looks back; to looks forward" } }
+    },
+    {
+      "id": "l27-p09", "skill": "read a scale", "level": 2,
+      "block": { "type": "fillBlank", "text": "A jug is marked 0, 100, 200, 300, 400 ml. The water reaches the mark after 200. There are ___ ml of water.", "answer": "300", "wordBank": ["300", "3", "201"] },
+      "expectedAnswer": "300 ml",
+      "wrongAnswers": [
+        { "answer": "3", "why": "counted marks instead of reading their values", "remedy": "Each mark has a VALUE written next to it. The water is at the third mark up — what number lives there?" },
+        { "answer": "201", "why": "thinks the next mark is just one more", "remedy": "Look at the jumps between marks: 0, 100, 200… each step is a whole hundred. What comes after 200?" }
+      ],
+      "hints": ["Read the numbers on the marks: 0, 100, 200…", "The marks jump in hundreds."],
+      "reteach": { "say": "Scales are number lines standing up! This jug counts in hundreds: 0, 100, 200, 300, 400. The water sits one mark above 200 — that mark is 300. Three hundred millilitres.", "block": { "type": "numberLine", "min": 0, "max": 400, "step": 100, "highlight": 300, "marks": [{ "value": 300, "label": "water level" }] } }
+    },
+    {
+      "id": "l27-p10", "skill": "two-step money problems", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Big shop! A banana costs 35p and an apple costs 40p. You pay £1. How much change (in p)?", "answer": 25 },
+      "expectedAnswer": "25p",
+      "wrongAnswers": [
+        { "answer": "75", "why": "found the total and stopped — forgot the change step", "remedy": "75p is the COST — well done on step one! Now the £1 goes over the counter. Count up from 75 to 100." },
+        { "answer": "35", "why": "count-up slip or subtracted only one item", "remedy": "Total BOTH items first: 35 + 40. Then count up from that total to 100." }
+      ],
+      "hints": ["Step 1: total 35p + 40p.", "Step 2: count up from the total to 100."],
+      "reteach": { "say": "Two steps, like yesterday's detective cases. Step one, the total: 35 + 40 — tens first, 30 + 40 = 70, plus 5 is 75p. Step two, the change: count up 75 → 80 is 5, then 90, 100 — twenty more. 25p change.", "block": { "type": "steps", "items": ["35p + 40p = 75p (total)", "75 → 100: 5 + 20 = 25p (change)"], "title": "Total, then change" } },
+      "interestSlots": ["banana", "apple"]
+    },
+    {
+      "id": "l27-p11", "skill": "time intervals", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "It's 3 o'clock now. The bus leaves at quarter past 3. How many minutes until the bus?", "answer": 15 },
+      "expectedAnswer": "15 minutes",
+      "wrongAnswers": [
+        { "answer": "3", "why": "read the minute hand's NUMBER (3) instead of the minutes", "remedy": "The minute hand pointing at the 3 doesn't mean 3 minutes — count round in 5s from the 12: 5, 10…" },
+        { "answer": "45", "why": "mixed quarter past with quarter to", "remedy": "Quarter PAST is just after the hour — one quarter-slice of the clock. How many minutes is one quarter?" }
+      ],
+      "hints": ["Quarter past = a quarter of the way round.", "Count in 5s from the 12 to the 3."],
+      "reteach": { "say": "From 3 o'clock the minute hand starts at the 12 and sweeps to the 3 — count its journey in fives: 5, 10, 15. A quarter of an hour is 15 minutes. That's your countdown to the bus!", "block": { "type": "numberLine", "min": 0, "max": 60, "step": 5, "highlight": 15, "marks": [{ "value": 0, "label": "3:00" }, { "value": 15, "label": "bus!" }] } }
+    },
+    {
+      "id": "l27-p12", "skill": "compare lengths", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Combo card! Ribbon A is 20 cm. Ribbon B is 15 cm. You tie them end to end — how long is the whole ribbon (in cm)?", "answer": 35 },
+      "expectedAnswer": "35 cm",
+      "wrongAnswers": [
+        { "answer": "5", "why": "found the difference instead of joining them", "remedy": "5 cm is how much LONGER A is — good comparing! But these ribbons are tied END TO END. Do the lengths join or compare?" },
+        { "answer": "25", "why": "adding slip (20 + 15)", "remedy": "Tens first: 20 + 10 = 30, then the 5. Where do you land?" }
+      ],
+      "hints": ["End to end means the lengths JOIN — add.", "20 + 10 first, then the 5."],
+      "reteach": { "say": "Tied end to end, the ribbons make one long ribbon — so we add: 20 + 15. Tens first, 20 + 10 = 30, then 5 more: 35 cm. If the question had asked 'how much longer', THEN we'd find the gap — 5 cm. Read what the story does!", "block": { "type": "table", "headers": ["question", "operation", "answer"], "rows": [["tied end to end?", "add: 20 + 15", "35 cm"], ["how much longer is A?", "difference: 20 − 15", "5 cm"]], "caption": "Same ribbons, two different questions" } },
+      "interestSlots": ["ribbons", "paper chains"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, serve the combo cards that mix two contexts (money+steps, time+counting, length+adding).",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the matching tool on screen (count-up line, clock face, ruler), then a level-1 item in the same context.",
+    "masterySignal": "4+ correct across levels 2–3 spanning all three contexts (one money total-and-change with a voiced count-up, one past/to time, one measure read) → mastery ≥ 0.8 for 'everyday problems: money, measure and time'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why — wrong tool for the context, or a careless read (ruler start, past/to, coin values)?",
+      "Bring the matching tool on screen and model exactly one step.",
+      "One hint: 'count up from the price' / 'is it still 3-something?' / 'where does the ruler start?'",
+      "Re-ask a one-context version with smaller numbers, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — grown-ups double-check the clock too.'"
+    ],
+    "personalization": "Build the trip around the learner's world: their favourite shop items at the same prices, their real bus or swimming time for the clock cards, their toys for measuring — numbers and times never change.",
+    "endOnSuccess": "Finish the trip on a card from the child's strongest context, then specific process praise: 'you counted up for every change and checked the ruler's zero — real-life maths, done properly.'"
+  },
+
+  "differentiation": {
+    "support": "Coins, clock face and ruler stay on screen for every card; one context per card; count all change count-ups aloud together.",
+    "stretch": "Combo cards mixing two contexts; two-step money problems; convert quarter past/to into digital times without the clock picture."
+  },
+  "extension": "Plan a pretend day out: choose three things to buy within a £1 budget, set the clock for leaving and returning, and measure how far the picnic blanket stretches.",
+  "assessmentEvidence": "Child totals amounts and finds change by counting up, reads and sets times past and to the hour, and measures/compares lengths from 0 — across mixed, interleaved scenario cards.",
+  "revisitLater": "All three contexts return as stations in the Lesson 28 champion circuit; keep 'twenty to 4' and the ruler-from-2 ribbon as warm-up retrieval into Year 3."
+}

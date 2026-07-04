@@ -1,0 +1,338 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l05",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 5,
+  "kind": "lesson",
+  "topic": "Multiplication and division",
+  "title": "Counting in 2s, 5s and 10s",
+  "durationMin": 18,
+  "objectives": ["By the end, I can skip-count in 2s, 5s and 10s and spot the pattern in the last digits."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "skip-count", "definition": "count in equal jumps instead of one at a time", "example": "2, 4, 6, 8" },
+    { "term": "step", "definition": "the size of each jump", "example": "counting in 5s, the step is 5" },
+    { "term": "equal groups", "definition": "groups with the same number in each", "example": "pairs of socks are groups of 2" },
+    { "term": "even", "definition": "a number you say when counting in 2s", "example": "2, 4, 6, 8 are even" },
+    { "term": "pattern", "definition": "something that repeats in the same way", "example": "5s always end in 0 or 5" }
+  ],
+  "emphasize": [
+    "Skip-counting means jumps of the SAME size every time — never a different-sized jump.",
+    "The last-digit patterns: 5s end in 0 or 5; 10s end in 0; 2s are even.",
+    "Pre-empt the misconception that any number can appear when counting in 5s — 23 can NEVER be said (it ends in 3)."
+  ],
+  "analysis": {
+    "keyConcepts": ["skip-counting in 2s, 5s and 10s", "equal jumps of a constant step", "last-digit patterns as a self-check", "seed of multiplication: 'lots of' equal groups"],
+    "misconceptions": [
+      "saying 23 when counting in 5s (no last-digit check)",
+      "uneven jumps — 5, 10, 14, 20 (losing the constant step)",
+      "restarting from 1 each time instead of jumping on"
+    ],
+    "hooks": ["Count the socks in 2s — how much faster is that than counting one by one?"],
+    "priorKnowledge": ["counting to 100", "what a 'ten' is (Unit 1)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated number line with jumps on the whiteboard block", "virtual 5p coins (emoji viz)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=GvTcpfSnOMQ",
+    "title": "The Counting by Twos Song | Counting Songs | Scratch Garden",
+    "channel": "Scratch Garden",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Sing along and clap on every number — every number you sing should be EVEN. Catch the pattern in the last digits!",
+    "afterCheck": { "question": "In the song, did you ever sing a number ending in 3?", "expectedAnswer": "No — counting in 2s you only say even numbers (ending 0, 2, 4, 6, 8)." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Show that skip-counting is a superpower — much faster than one-by-one; retrieve counting in tens.",
+      "note": "Keep the energy high; the 'super-speed' frame carries the lesson.",
+      "successCriteria": "Child joins the 2s count and answers '40' for what comes after 30 in tens.",
+      "script": {
+        "say": "I've got a BIG pile of socks to count. One… two… three… oh no, this is so slow! But wait — socks come in pairs! Watch my super-speed: 2, 4, 6, 8 — done! Counting in 2s is like having super-speed. Today we find that speed for 2s, 5s AND 10s. Quick warm-up first: if I count in tens, what comes after 30?",
+        "adaptHints": "Swap socks for paired things the child loves (shoes, wheels, gloves). Listen for '40'; if shaky, count in tens together: 10, 20, 30, 40."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🧦🧦 🧦🧦 🧦🧦 🧦🧦", "caption": "Pairs! Count them in 2s: 2, 4, 6, 8" }
+      ],
+      "stuckProtocol": ["If counting in tens is shaky: show a tower of ten-rods and count them together in tens — 10, 20, 30, 40."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 7],
+      "goal": "Model the rule — every jump is the SAME size — with jumps of 5 on the number line, then reveal the last-digit patterns.",
+      "note": "The animated number line is the pictorial stage. Circle the last digits: 5, 0, 5, 0.",
+      "successCriteria": "Child chants 5, 10, 15, 20, 25 along and hears the three patterns: 5s end in 0/5, 10s end in 0, 2s are even.",
+      "script": {
+        "say": "Here's the one rule of skip-counting: every jump is the SAME size. In 5s I jump 5 every single time. Watch the number line: 5… 10… 15… 20… 25 — say it with me! Now look ONLY at the last digits: 5, 0, 5, 0, 5. Only ever 0 or 5! That's the 5s' secret badge. In 10s — 10, 20, 30 — the last digit is always 0. And in 2s — 2, 4, 6, 8 — every number is even. The pattern is your checker: if a number doesn't wear the badge, you made an uneven jump!",
+        "adaptHints": "Chant the 5s twice if the child enjoys it. Stress SAME size on every jump."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Jumps of 5 — same size every time",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "5, 10, 15, 20, 25", "size": 7, "bold": true },
+            { "k": "line", "x1": 5, "y1": 40, "x2": 95, "y2": 40, "color": "ink" },
+            { "k": "text", "x": 5, "y": 46, "value": "0", "size": 4 },
+            { "k": "text", "x": 20, "y": 46, "value": "5", "size": 4, "color": "accent" },
+            { "k": "text", "x": 35, "y": 46, "value": "10", "size": 4, "color": "accent" },
+            { "k": "text", "x": 50, "y": 46, "value": "15", "size": 4, "color": "accent" },
+            { "k": "text", "x": 65, "y": 46, "value": "20", "size": 4, "color": "accent" },
+            { "k": "text", "x": 80, "y": 46, "value": "25", "size": 4, "color": "accent" },
+            { "k": "line", "x1": 5, "y1": 36, "x2": 20, "y2": 36, "color": "blue", "arrow": true },
+            { "k": "line", "x1": 20, "y1": 32, "x2": 35, "y2": 32, "color": "blue", "arrow": true },
+            { "k": "line", "x1": 35, "y1": 36, "x2": 50, "y2": 36, "color": "blue", "arrow": true },
+            { "k": "line", "x1": 50, "y1": 32, "x2": 65, "y2": 32, "color": "blue", "arrow": true },
+            { "k": "line", "x1": 65, "y1": 36, "x2": 80, "y2": 36, "color": "blue", "arrow": true },
+            { "k": "text", "x": 12, "y": 28, "value": "+5", "size": 4, "color": "blue" },
+            { "k": "text", "x": 42, "y": 28, "value": "+5", "size": 4, "color": "blue" },
+            { "k": "text", "x": 72, "y": 28, "value": "+5", "size": 4, "color": "blue" },
+            { "k": "text", "x": 50, "y": 56, "value": "Last digits: 5, 0, 5, 0, 5 — only ever 0 or 5!", "size": 5, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [7, 11],
+      "goal": "Child skip-counts five 5p coins in 5s and lands on 25p — the concrete 'lots of' moment.",
+      "note": "The child touches (points at) each coin on screen and counts aloud; then fills the missing number.",
+      "successCriteria": "Child counts 5, 10, 15, 20, 25 and says 'that's 25p altogether'.",
+      "script": {
+        "say": "Your turn! Here are five 5p coins — each coin is worth 5. Point to each coin and count with me in 5s… 5… 10… keep going! How much money is that altogether? Fill in the last jump for me.",
+        "adaptHints": "If the child counts unevenly, restart slowly and tap the rhythm. Celebrate '25p — that's five 5s!'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🪙 🪙 🪙 🪙 🪙", "caption": "Five 5p coins — count them in 5s" },
+        { "type": "fillBlank", "text": "5, 10, 15, 20, ___", "answer": "25", "wordBank": ["21", "25", "30"] }
+      ],
+      "check": {
+        "question": "Five 5p coins — how much altogether?",
+        "expectedAnswer": "25p (5, 10, 15, 20, 25)",
+        "wrongAnswers": [
+          { "answer": "21", "why": "switched to counting on by 1 at the end", "remedy": "Every jump must be the SAME size. Say 'plus 5' out loud as you jump from 20." },
+          { "answer": "5", "why": "counted the coins, not their value", "remedy": "There are 5 coins, yes — but each coin is WORTH 5. Touch each coin and say its value: 5, 10…" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [11, 14],
+      "goal": "Reveal whether the child owns the last-digit pattern: can 23 ever be said counting in 5s?",
+      "note": "This is the lesson's key diagnostic — the KB misconception. 'Yes' means the 0/5 badge hasn't landed.",
+      "successCriteria": "Child answers no, explains that 5s end in 0 or 5, and names 20 or 25 as the nearby numbers you WOULD say.",
+      "script": {
+        "say": "Detective question! I'm counting in 5s: 5, 10, 15… Could I EVER say the number 23? Think about the secret badge before you answer… and tell me what number near 23 I WOULD say.",
+        "adaptHints": "After a correct answer, probe: 'What's the badge that 23 is missing?' (it doesn't end in 0 or 5)."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Counting in 5s: 5, 10, 15… will you ever say 23?",
+          "options": ["No — numbers in the 5s count always end in 0 or 5", "Yes — 23 comes just after 20", "Yes — every number gets a turn", "Only if you count really fast"],
+          "correct": 0,
+          "explain": "5s wear a badge: their last digit is always 0 or 5. 23 ends in 3 — no badge, so it's never said. You'd say 20, then 25."
+        }
+      ],
+      "check": {
+        "question": "Counting in 5s, could you ever say 23?",
+        "expectedAnswer": "No — 5s end in 0 or 5, and 23 ends in 3. You'd say 20, then 25.",
+        "wrongAnswers": [
+          { "answer": "Yes", "why": "hasn't spotted the 0/5 last-digit pattern", "remedy": "List 5, 10, 15, 20, 25 and look only at the last digit of each. Do you ever see a 3?" },
+          { "answer": "5, 10, 14, 20…", "why": "uneven jumps — lost the constant step", "remedy": "Make equal groups of 5 and say 'plus 5' out loud on every jump. Is 10 to 14 a jump of 5?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "Independent skip-counting: fill gaps in 2s/5s/10s sequences, spot pattern-breakers; stretch into 3s.",
+      "note": "Director draws from practiceBank, start level 2. Watch for uneven jumps and restarting from 1.",
+      "successCriteria": "Child completes 3+ sequences across 2s, 5s and 10s and rejects a pattern-breaker using the last-digit rule.",
+      "script": {
+        "say": "Super-speed practice! I'll give you counting puzzles — some have missing numbers, and one has a sneaky impostor that breaks the pattern. Use the last-digit badge to catch it!",
+        "adaptHints": "Frame counts with the child's interests (2 wheels per bike, 5 points per star, 10p coins). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the jumps got different sizes.'",
+        "Go concrete: show equal groups of the step size (pairs of socks, 5p coins) and count them together.",
+        "One hint: 'Say the step out loud — plus 5 — on every jump.'",
+        "Re-ask a shorter sequence (just two jumps), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [17, 18],
+      "goal": "Child names one last-digit pattern in their own words; end on an earned success.",
+      "note": "Child-led recall; the character listens.",
+      "successCriteria": "Child states at least one pattern: 5s end in 0/5, 10s end in 0, or 2s are even.",
+      "script": {
+        "say": "Tell me one pattern you spotted today — a secret badge for 2s, 5s or 10s… Yes! And you used the pattern to CHECK your counting — that's how you catch your own slips. That's a real mathematician's trick.",
+        "adaptHints": "Praise the specific process observed: equal jumps, saying the step aloud, using the badge to reject 23."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l05-p01", "skill": "skip-count in 2s", "level": 1,
+      "block": { "type": "fillBlank", "text": "2, 4, ___, 8", "answer": "6", "wordBank": ["5", "6", "7"] },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "5", "why": "counted on by 1 instead of jumping 2", "remedy": "The step is 2 — every jump the same. Say '4… plus 2 is…?'" },
+        { "answer": "7", "why": "landed on an odd number", "remedy": "Counting in 2s you only ever land on even numbers. Is 7 even?" }
+      ],
+      "hints": ["Every jump is +2.", "Count the pairs: 🧦🧦 🧦🧦 🧦🧦 — 2, 4…?"],
+      "reteach": { "say": "Let's count socks in pairs. One pair — 2. Two pairs — 4. Three pairs — 6. Four pairs — 8. Every jump adds exactly 2.", "block": { "type": "emojiViz", "emojis": "🧦🧦 🧦🧦 🧦🧦 🧦🧦", "caption": "2, 4, 6, 8 — jumps of 2" } },
+      "interestSlots": ["socks", "shoes", "bicycle wheels"]
+    },
+    {
+      "id": "l05-p02", "skill": "skip-count in 10s", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Counting in 10s: 10, 20, 30, … what comes next?", "options": ["40", "31", "35", "50"], "correct": 0, "explain": "The step is 10 every time: 30 plus 10 is 40." },
+      "expectedAnswer": "40",
+      "wrongAnswers": [
+        { "answer": "31", "why": "switched to counting on by 1", "remedy": "The jump is a whole TEN, not one. 30 and one more ten makes…?" },
+        { "answer": "50", "why": "jumped two tens at once", "remedy": "One jump at a time! 30, plus one ten — what's next?" }
+      ],
+      "hints": ["Every number counting in 10s ends in 0.", "30 plus one more ten…?"],
+      "reteach": { "say": "Tens are the easiest super-speed — the last digit is ALWAYS 0. Count rods with me: 10, 20, 30, 40. One rod more each jump.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 40 } }
+    },
+    {
+      "id": "l05-p03", "skill": "skip-count in 10s", "level": 2,
+      "block": { "type": "fillBlank", "text": "10, 20, ___, 40", "answer": "30", "wordBank": ["25", "30", "21"] },
+      "expectedAnswer": "30",
+      "wrongAnswers": [
+        { "answer": "25", "why": "mixed the 5s pattern into a 10s count", "remedy": "Check the badge: counting in 10s, every number ends in 0. Does 25?" },
+        { "answer": "21", "why": "counted on by 1 from 20", "remedy": "The step is a whole ten. 20 plus ten is…?" }
+      ],
+      "hints": ["The step is 10 — same size every jump.", "All the 10s numbers end in 0."],
+      "reteach": { "say": "Watch the jumps stay the same: 10… plus 10 is 20… plus 10 is 30… plus 10 is 40. The gap between 20 and 40 needs exactly one ten-jump: 30.", "block": { "type": "numberLine", "min": 0, "max": 50, "step": 10, "highlight": 30 } }
+    },
+    {
+      "id": "l05-p04", "skill": "skip-count in 5s", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Count in 5s: 5, 10, 15, 20 — type the NEXT number.", "answer": 25 },
+      "expectedAnswer": "25",
+      "wrongAnswers": [
+        { "answer": "21", "why": "counted on by 1 instead of jumping 5", "remedy": "Say the step out loud: '20… plus 5 is…?'" },
+        { "answer": "30", "why": "jumped 10 instead of 5", "remedy": "That's the 10s speed! Our step today is 5. 20 and 5 more is…?" }
+      ],
+      "hints": ["The step is +5 every time.", "5s end in 0 or 5 — which comes after 20?"],
+      "reteach": { "say": "Use your hand — five fingers per jump! 5, 10, 15, 20… one more hand… 25. Every jump adds exactly one hand of 5.", "block": { "type": "numberLine", "min": 0, "max": 30, "step": 5, "highlight": 25 } },
+      "interestSlots": ["5p coins", "star points", "high-fives"]
+    },
+    {
+      "id": "l05-p05", "skill": "last-digit pattern check", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Odd one out! 5, 10, 15, 17, 25 — which number breaks the 5s pattern?", "options": ["17", "15", "25", "10"], "correct": 0, "explain": "5s always end in 0 or 5. 17 ends in 7 — it sneaked in with an uneven jump!" },
+      "expectedAnswer": "17",
+      "wrongAnswers": [
+        { "answer": "15", "why": "unsure of the pattern — 15 wears the badge (ends in 5)", "remedy": "Check the last digit of 15. Is it 0 or 5? Then it belongs. Which one ISN'T 0 or 5?" },
+        { "answer": "25", "why": "thinks the sequence should stop at 20", "remedy": "Keep jumping: 15, 20, 25 — 25 ends in 5, badge on! Look for the number with no badge." }
+      ],
+      "hints": ["Look ONLY at the last digit of each number.", "The 5s badge is: ends in 0 or 5."],
+      "reteach": { "say": "Line up the last digits like a parade: 5, 0, 5, 7, 5. One of those isn't wearing the 0-or-5 badge… the 7! So 17 is the impostor — the jump from 15 to 17 was only 2, not 5.", "block": { "type": "table", "headers": ["number", "last digit", "badge?"], "rows": [["5", "5", "✓"], ["10", "0", "✓"], ["15", "5", "✓"], ["17", "7", "✗ impostor!"], ["25", "5", "✓"]] } }
+    },
+    {
+      "id": "l05-p06", "skill": "last-digit pattern check", "level": 2,
+      "block": { "type": "trueFalse", "statement": "Counting in 5s from 5, you will say the number 23.", "correct": false, "explain": "Never! 5s always end in 0 or 5. 23 ends in 3 — you'd say 20, then 25, and skip right over it." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — no last-digit check", "remedy": "Count it out: 5, 10, 15, 20, 25. Did 23 ever get said? What do all the said numbers end in?" },
+        { "answer": "True, after 20", "why": "counting on by ones after 20", "remedy": "The jump from 20 must be a full 5. 20 plus 5 lands on…? So where does 23 hide?" }
+      ],
+      "hints": ["What do numbers in the 5s count always end in?", "Say the count out loud from 20: 20, then…?"],
+      "reteach": { "say": "The 5s are a members-only club: you need a last digit of 0 or 5 to get in. 23 shows up wearing a 3 — sorry, not on the list! The count goes 20, then jumps straight to 25.", "block": { "type": "numberLine", "min": 15, "max": 30, "step": 5, "highlight": 25 } }
+    },
+    {
+      "id": "l05-p07", "skill": "skip-count in 2s", "level": 2,
+      "block": { "type": "ordering", "prompt": "Put these numbers in skip-counting-in-2s order, smallest first.", "items": ["2", "4", "6", "8", "10"] },
+      "expectedAnswer": "2, 4, 6, 8, 10",
+      "wrongAnswers": [
+        { "answer": "2, 4, 8, 6, 10", "why": "ordered by feel, not by equal +2 jumps", "remedy": "Check every jump: is each one exactly +2? Where does the jump go wrong?" },
+        { "answer": "10, 8, 6, 4, 2", "why": "ordered biggest first", "remedy": "Great backwards counting! But we want smallest first — start with the smallest number." }
+      ],
+      "hints": ["Start at 2 and add 2 each time.", "Every neighbour should be exactly 2 apart."],
+      "reteach": { "say": "Think of climbing stairs two at a time: 2, 4, 6, 8, 10. Each stair is exactly 2 higher — if a jump is bigger or smaller, we've slipped.", "block": { "type": "emojiViz", "emojis": "🧦🧦 🧦🧦 🧦🧦 🧦🧦 🧦🧦", "caption": "2, 4, 6, 8, 10 — five pairs" } }
+    },
+    {
+      "id": "l05-p08", "skill": "last-digit pattern check", "level": 3,
+      "block": { "type": "categorize", "prompt": "Counting in 5s — sort these numbers!", "buckets": ["you SAY it counting in 5s", "you NEVER say it in 5s"], "items": [ { "text": "20", "bucket": "you SAY it counting in 5s" }, { "text": "23", "bucket": "you NEVER say it in 5s" }, { "text": "35", "bucket": "you SAY it counting in 5s" }, { "text": "42", "bucket": "you NEVER say it in 5s" }, { "text": "40", "bucket": "you SAY it counting in 5s" }, { "text": "51", "bucket": "you NEVER say it in 5s" } ] },
+      "expectedAnswer": "20, 35, 40 → say; 23, 42, 51 → never",
+      "wrongAnswers": [
+        { "answer": "42 → you SAY it", "why": "checked 'is it even' instead of the 0-or-5 badge", "remedy": "That's the 2s badge! For 5s, look at the last digit: is it a 0 or a 5?" },
+        { "answer": "40 → you NEVER say it", "why": "thinks numbers ending in 0 belong only to the 10s", "remedy": "Count in 5s past 35: 35, then plus 5 is…? The 10s numbers are ALSO in the 5s club." }
+      ],
+      "hints": ["Only the last digit matters: 0 or 5 means you say it.", "40 ends in 0 — check the badge rule again."],
+      "reteach": { "say": "One rule sorts them all: last digit 0 or 5 → said in the 5s count. 20 ✓, 35 ✓, 40 ✓. But 23 ends in 3, 42 ends in 2, 51 ends in 1 — never said, no matter how far you count.", "block": { "type": "table", "headers": ["number", "last digit", "said in 5s?"], "rows": [["20", "0", "yes"], ["23", "3", "no"], ["35", "5", "yes"], ["42", "2", "no"], ["40", "0", "yes"], ["51", "1", "no"]] } }
+    },
+    {
+      "id": "l05-p09", "skill": "skip-count in 3s (stretch)", "level": 3,
+      "block": { "type": "fillBlank", "text": "Stretch! Count in 3s: 3, 6, ___, 12", "answer": "9", "wordBank": ["8", "9", "10"] },
+      "expectedAnswer": "9",
+      "wrongAnswers": [
+        { "answer": "8", "why": "jumped 2 instead of 3", "remedy": "The step here is 3. 6 and 3 more — count it on your fingers." },
+        { "answer": "10", "why": "jumped 4, or guessed a 'round' number", "remedy": "Check the jump: 6 to 10 is 4 steps. Our step is exactly 3. 6, 7, 8…?" }
+      ],
+      "hints": ["Same rule, new step: every jump is +3.", "6… plus 3 is…?"],
+      "reteach": { "say": "New speed, same rule! Jumps of 3: 3… 6… now three more — 7, 8, 9! Then 9 plus 3 is 12. Any step works, as long as every jump matches.", "block": { "type": "numberLine", "min": 0, "max": 15, "step": 3, "highlight": 9 } }
+    },
+    {
+      "id": "l05-p10", "skill": "skip-count backwards in 10s (stretch)", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Super-stretch! Count BACKWARDS in 10s: 50, 40, 30 — type the next number.", "answer": 20 },
+      "expectedAnswer": "20",
+      "wrongAnswers": [
+        { "answer": "29", "why": "counted back 1 instead of a whole ten", "remedy": "The jump is a whole ten, backwards. 30 take away ten is…?" },
+        { "answer": "25", "why": "switched to jumps of 5", "remedy": "Stay at 10s speed! Check the badge: backwards in 10s, every number still ends in 0." }
+      ],
+      "hints": ["Same jumps, opposite direction: −10 each time.", "The last digit stays 0 all the way down."],
+      "reteach": { "say": "Going down the stairs ten at a time: 50, 40, 30… one more ten-step down… 20! Backwards or forwards, the jump stays exactly the same size.", "block": { "type": "numberLine", "min": 0, "max": 50, "step": 10, "highlight": 20 } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave steps (mix 2s, 5s, 10s and the 3s stretch).",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the groups shown concretely (pairs, coins, rods), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one pattern-check item (rejecting 23 or the 17 impostor) and sequences in at least two different steps → mastery ≥ 0.8 for 'skip-counting in 2s, 5s and 10s'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the jumps got different sizes.'",
+      "Go concrete — make physical groups of the step size (pairs, hands of five, ten-rods).",
+      "One hint: 'Say the step out loud — plus 5 — on every jump.'",
+      "Re-ask a shorter sequence (two jumps only), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Count the learner's interests in equal groups (2 wheels per bike, 5 points per star, 10p coins) using LearnerModel.interests — never change the numbers or the step.",
+    "endOnSuccess": "Finish with a sequence the child can win (drop to a two-jump 10s count if needed), then specific process praise: what they DID (kept the jumps equal, said the step aloud, used the last-digit badge to check) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Physically make equal groups and say the step on each jump; touch each coin/cube as you count; stay on 10s (the easiest badge) until secure.",
+    "stretch": "Skip-count in 3s to 30; count backwards in 10s from 50; 'could you ever say 34 counting in 5s? Prove it.'"
+  },
+  "extension": "'Hit the Button' style skip-count race — how far can you get in 2s, 5s and 10s before the 30-second timer? Beat your own record.",
+  "assessmentEvidence": "Child completes skip-count sequences in 2s, 5s and 10s (filling gaps, not restarting from 1) and states one last-digit pattern, using it to reject a number like 23.",
+  "revisitLater": "Daily skip-count chant (2s, 5s, 10s) as a starter before every Unit 2 lesson — it feeds the times tables in Lesson 10; bring back 'could you say 23?' in Lesson 12."
+}

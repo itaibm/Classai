@@ -1,0 +1,335 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u2-l08",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 2, "title": "Spelling with suffixes", "essentialQuestion": "How do I add an ending to a word so it's still spelled correctly?" },
+  "lessonNumber": 8,
+  "kind": "lesson",
+  "topic": "Spelling with suffixes",
+  "title": "y → i (happy → happier)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can change a final y to i before -er/-est/-ed (but keep y before -ing)."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "root word", "definition": "the main word before any ending", "example": "happy is the root of happier" },
+    { "term": "suffix", "definition": "a little ending (tail) added to a word", "example": "-er in happier" },
+    { "term": "y → i", "definition": "change the final y to an i before adding the suffix", "example": "happy → happier" },
+    { "term": "exception", "definition": "a special case that breaks the rule", "example": "crying keeps its y before -ing" }
+  ],
+  "emphasize": [
+    "When a root ends in y, change the y to i before -er, -est, -ed.",
+    "The one exception that MUST be flagged: keep the y before -ing (we never want ii — crying, not criing).",
+    "Pre-empt 'happyer'/'cryed' (kept the y). Repeated image: the y TRANSFORMS into an i."
+  ],
+  "analysis": {
+    "keyConcepts": ["y-ending roots change y to i before -er/-est/-ed", "the -ing exception: keep the y (no double i)", "checking the suffix FIRST decides whether the y transforms"],
+    "misconceptions": [
+      "keeping the y: happy + er → 'happyer', cry + ed → 'cryed'",
+      "over-applying the rule before -ing: cry + ing → 'criing'",
+      "applying the y rule to a word with no y (sad is a doubler → sadder)"
+    ],
+    "hooks": ["The y TRANSFORMS into an i like magic — but before -ing it refuses to change, because two i's in a row look wrong."],
+    "priorKnowledge": ["root + suffix", "the earlier suffix rules: just-add (L5), drop-e (L6), double (L7)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated whiteboard showing the y transforming into i", "side-by-side contrast of cried vs crying", "practice bank"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Feel 'happyer' fail, watch the y transform into an i, and preview the -ing twist; retrieve Lesson 6.",
+      "note": "Two tricks in one lesson — flag both in the hook so the twist doesn't blindside later.",
+      "successCriteria": "Child answers 'drop the e → hoping' for the retrieval and is curious about the transformation.",
+      "script": {
+        "say": "Happy plus -er — is it happyer? Read it… nope, that's not right. Watch the magic: the y TRANSFORMS into an i — happi-er — happier! But watch this twist: with -ing, the y stays put — crying, not criing. Two tricks in one lesson. Ready? First, quick memory check — we've learned three suffix tricks already. What do we do to hope before -ing?",
+        "adaptHints": "Listen for: drop the e → hoping. If shaky, quick recap: just-add (jump), drop-e (hope), double (hop) — 'today is a fourth trick, for words ending in y.' Mime the transformation with your hands."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "The y transforms!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 26, "y": 14, "value": "happyer", "size": 8, "color": "red" },
+            { "k": "line", "x1": 12, "y1": 18, "x2": 40, "y2": 10, "color": "red" },
+            { "k": "text", "x": 58, "y": 14, "value": "✗ not right!", "size": 5, "color": "red" },
+            { "k": "text", "x": 20, "y": 34, "value": "happ", "size": 8 },
+            { "k": "text", "x": 31, "y": 34, "value": "y", "size": 8, "color": "orange" },
+            { "k": "line", "x1": 36, "y1": 34, "x2": 46, "y2": 34, "color": "ink", "arrow": true },
+            { "k": "text", "x": 50, "y": 34, "value": "i", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 70, "y": 34, "value": "happier ✓", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 52, "value": "…but before -ing the y STAYS: crying!", "size": 5, "bold": true, "color": "blue" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If the retrieval is shaky: one-line recap of each earlier trick with its example word (jump, hope, hop), then straight back to happy."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the rule + exception: y → i before -er/-est/-ed; keep y before -ing. Model happy → happier/happiest, cry → cried BUT crying.",
+      "note": "Build cried and crying side by side — the contrast carries the exception.",
+      "successCriteria": "Child can say both parts back: change y to i, except keep the y before -ing.",
+      "script": {
+        "say": "Rule: if the root ends in y, change the y to i before -er, -est, -ed. Watch happy: change y to i, add -er → happier; add -est → happiest. Now cry: change y to i, add -ed → cried. BUT — big exception — keep the y before -ing, because two i's look wrong: cry + -ing = crying, NOT criing. So: y to i for -er, -est, -ed; keep y for -ing.",
+        "adaptHints": "Repeat the two-part rule rhythmically: 'y to i… except before -ing.' Let the child cross the y and write the i themselves in the air."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "y → i (except -ing)",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 12, "y": 12, "value": "happy", "size": 7 },
+            { "k": "line", "x1": 26, "y1": 12, "x2": 38, "y2": 12, "color": "ink", "arrow": true },
+            { "k": "text", "x": 52, "y": 12, "value": "happier, happiest", "size": 7, "bold": true, "color": "accent" },
+            { "k": "text", "x": 12, "y": 26, "value": "cry", "size": 7 },
+            { "k": "line", "x1": 26, "y1": 26, "x2": 38, "y2": 26, "color": "ink", "arrow": true },
+            { "k": "text", "x": 48, "y": 26, "value": "cried", "size": 7, "bold": true, "color": "accent" },
+            { "k": "text", "x": 12, "y": 40, "value": "cry + ing", "size": 7 },
+            { "k": "line", "x1": 30, "y1": 40, "x2": 42, "y2": 40, "color": "ink", "arrow": true },
+            { "k": "text", "x": 52, "y": 40, "value": "crying", "size": 7, "bold": true, "color": "blue" },
+            { "k": "text", "x": 74, "y": 40, "value": "(y stays!)", "size": 5, "color": "blue" },
+            { "k": "text", "x": 76, "y": 26, "value": "not cryed!", "size": 4, "color": "red" },
+            { "k": "text", "x": 50, "y": 56, "value": "y → i for -er / -est / -ed … keep y for -ing", "size": 5, "bold": true }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared transforming: funny + er, sunny + est, try + ed — then the twist: try + ing keeps the y.",
+      "note": "The child announces what happens to the y BEFORE spelling. End on the -ing twist so it's fresh.",
+      "successCriteria": "Child says 'change it to i' unprompted for -er/-est/-ed, and 'keep it' for -ing.",
+      "script": {
+        "say": "You make the change. Funny plus -er. What happens to the y? … That's it — funnier! Now sunny plus -est… and try plus -ed. And here comes the twist: try plus -ing. Careful — what does the y do this time?",
+        "adaptHints": "If the child changes the y before -ing, don't correct directly — write 'triing' and ask them to read it. Two i's look wrong; the y stays."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "funny + er = ___", "answer": "funnier", "wordBank": ["funnier", "funnyer", "funniyer"] },
+        { "type": "fillBlank", "text": "try + ing = ___", "answer": "trying", "wordBank": ["trying", "triing", "tryeing"] }
+      ],
+      "check": {
+        "question": "Add -est to happy.",
+        "expectedAnswer": "happiest (y → i)",
+        "wrongAnswers": [
+          { "answer": "happyest", "why": "kept the y", "remedy": "Read it — happy-est? The rule says change the y to i before -est. Cross the y, write i." },
+          { "answer": "happiist", "why": "changed y to i but doubled the i", "remedy": "Just ONE i — the y becomes i, then -est joins on: happi + est." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The key diagnostic: happy + est. 'happyest' means the y survived; also guard the -ing over-application.",
+      "note": "After a correct answer, probe: 'What did the y do?' (turned into an i).",
+      "successCriteria": "Child spells 'happiest' and states the transformation.",
+      "script": {
+        "say": "Add -est to happy. Remember the magic.",
+        "adaptHints": "After success, probe: 'What did the y do?' Then a lightning bonus: 'and before -ing, what would the y do?' (stay)."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "happy + est = ?", "options": ["happiest", "happyest", "happyiest", "happist"], "correct": 0, "explain": "The y transforms into an i, then -est joins on: happiest." }
+      ],
+      "check": {
+        "question": "Add -est to happy.",
+        "expectedAnswer": "happiest (y → i)",
+        "wrongAnswers": [
+          { "answer": "happyest", "why": "kept the y", "remedy": "Read it — happy-est? The rule says change the y to i before -est. Cross the y, write i." },
+          { "answer": "happyiest", "why": "added the i without removing the y", "remedy": "The y doesn't get a partner — it TRANSFORMS. Cross the y out, the i takes its place." },
+          { "answer": "happist", "why": "lost a letter in the swap", "remedy": "Careful — only the y changes. happ-i-est: the double p stays, the i replaces the y." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent spelling: happiest, sadder (decoy — a doubler!), dried, flying (the -ing exception), each read back.",
+      "note": "Director draws from practiceBank, start level 2. The sad decoy and the flying exception are the highest-value items — make sure both appear.",
+      "successCriteria": "Child changes y → i in at least three words, keeps the y in flying/crying, and spots that sad has no y.",
+      "script": {
+        "say": "Your turn, transformer! I'll send you words. Check the suffix FIRST — is it -ing? Then the y stays. Anything else — the y turns into an i. And watch out: one of my words is a sneaky imposter with no y at all!",
+        "adaptHints": "Frame feelings words around the child's world (their happiest day, the funniest joke) — the spelling words never change."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'the y needs to change' or 'before -ing the y stays.'",
+        "Step down: give the pair side by side (happy → happi__) so the child copies the change.",
+        "ONE hint: 'is the suffix -ing? If not, change y to i.'",
+        "Re-ask a smaller version (just one word), then build back up.",
+        "Keep it safe: 'The -ing twist is tricky for everyone — let's check the suffix first.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child teaches back the rule AND the twist; end on an earned win.",
+      "note": "Child-led. All four rules now learned — tease Lesson 9's Sorting Office.",
+      "successCriteria": "Child states: change y to i before -er/-est/-ed; keep the y before -ing.",
+      "script": {
+        "say": "Teach me the y rule — and don't forget the twist. … Perfect. You transformed the y into an i every time — and you remembered the tricky -ing twist that catches lots of people out. That's all four suffix tricks learned — next time you become a Sorting Office worker and use them ALL!",
+        "adaptHints": "Process praise the suffix-checking habit. Preview, don't teach, the Lesson 9 sort."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say the whole rule out loud: 'y to i — except keep the y before -ing!'", "target": "y to i, except keep the y before -ing" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l08-p01", "skill": "y → i before -er", "level": 1,
+      "block": { "type": "fillBlank", "text": "funny + er = ___", "answer": "funnier", "wordBank": ["funnier", "funnyer", "funniyer"] },
+      "expectedAnswer": "funnier",
+      "wrongAnswers": [
+        { "answer": "funnyer", "why": "kept the y", "remedy": "Read it back — funny-er? The y needs its magic. What does it turn into before -er?" },
+        { "answer": "funniyer", "why": "added the i without removing the y", "remedy": "The y transforms — it doesn't stay for the party. Cross the y, the i takes its seat." }
+      ],
+      "hints": ["The suffix is -er — not -ing — so the y transforms.", "Cross the y, write i, then add -er."],
+      "reteach": { "say": "Funny wants to grow: cross the y — funn — the i steps in — funni — add -er: funnier! Your jokes just got funnier.", "block": { "type": "table", "headers": ["root", "y → i", "new word"], "rows": [["funny", "funni—", "funnier"]] } },
+      "interestSlots": ["jokes", "funny animals"]
+    },
+    {
+      "id": "l08-p02", "skill": "y → i before -est", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "happy + est = ?", "options": ["happiest", "happyest", "happyiest"], "correct": 0, "explain": "The y transforms into an i: happi + est = happiest." },
+      "expectedAnswer": "happiest",
+      "wrongAnswers": [
+        { "answer": "happyest", "why": "kept the y", "remedy": "Is the suffix -ing? No — so the y must change. What does it become?" },
+        { "answer": "happyiest", "why": "kept the y AND added an i", "remedy": "It's a swap, not a squeeze — the i REPLACES the y. happi + est." }
+      ],
+      "hints": ["-est is not -ing — so the y changes.", "happi… then -est."],
+      "reteach": { "say": "The happiest day! Happy: the y transforms — happi — then -est: happiest. Say the two beats of the change: happ-i… est.", "block": { "type": "emojiViz", "emojis": "😄🌟", "caption": "happy → happiest" } },
+      "interestSlots": ["birthdays", "holidays"]
+    },
+    {
+      "id": "l08-p03", "skill": "state the rule", "level": 1,
+      "block": { "type": "trueFalse", "statement": "Before -er, the y in happy changes to an i.", "correct": true, "explain": "Yes — y → i before -er, -est and -ed. Only -ing lets the y stay." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "hasn't fixed the y → i rule yet", "remedy": "Try writing happyer and reading it back — does it look right? What fixes it?" }
+      ],
+      "hints": ["Remember happier from the hook.", "The y transforms before -er, -est, -ed."],
+      "reteach": { "say": "The y rule in one breath: y turns into i before -er, -est and -ed — happy → happier. The only tail that lets the y stay is -ing.", "block": { "type": "table", "headers": ["suffix", "what the y does"], "rows": [["-er / -est / -ed", "changes to i"], ["-ing", "stays as y"]] } }
+    },
+    {
+      "id": "l08-p04", "skill": "y → i before -est", "level": 2,
+      "block": { "type": "fillBlank", "text": "sunny + est = ___", "answer": "sunniest", "wordBank": ["sunniest", "sunnyest", "suniest"] },
+      "expectedAnswer": "sunniest",
+      "wrongAnswers": [
+        { "answer": "sunnyest", "why": "kept the y", "remedy": "Check the suffix — is it -ing? No! So what happens to the y?" },
+        { "answer": "suniest", "why": "changed the y but lost one n", "remedy": "Only the y changes — the twin n's in sunny both stay. sunn-i-est." }
+      ],
+      "hints": ["The suffix is -est — the y transforms.", "Keep both n's: sunni + est."],
+      "reteach": { "say": "The sunniest day of the year! Sunny: cross the y — sunn — i steps in — sunni — add -est: sunniest. Everything else in the root stays put.", "block": { "type": "table", "headers": ["root", "y → i", "new word"], "rows": [["sunny", "sunni—", "sunniest"]] } },
+      "interestSlots": ["the beach", "summer holidays"]
+    },
+    {
+      "id": "l08-p05", "skill": "y → i before -ed", "level": 2,
+      "block": { "type": "fillBlank", "text": "try + ed = ___", "answer": "tried", "wordBank": ["tried", "tryed", "tryd"] },
+      "expectedAnswer": "tried",
+      "wrongAnswers": [
+        { "answer": "tryed", "why": "kept the y", "remedy": "Read it — try-ed? Before -ed the y transforms. Cross it, write i: tri + ed." },
+        { "answer": "tryd", "why": "kept the y and lost the suffix's e", "remedy": "Two fixes needed: the y becomes i, and -ed keeps its e. tri + ed = tried." }
+      ],
+      "hints": ["-ed is not -ing — so the y changes.", "tri… then -ed."],
+      "reteach": { "say": "Yesterday I tried my best! Try: y transforms — tri — add -ed: tried. Short and neat — t-r-i-e-d.", "block": { "type": "emojiViz", "emojis": "💪", "caption": "try → tried" } }
+    },
+    {
+      "id": "l08-p06", "skill": "keep the y before -ing (the exception)", "level": 2,
+      "block": { "type": "fillBlank", "text": "fly + ing = ___", "answer": "flying", "wordBank": ["flying", "fliing", "flyeing"] },
+      "expectedAnswer": "flying",
+      "wrongAnswers": [
+        { "answer": "fliing", "why": "over-applied y → i before -ing", "remedy": "Read it — fl-i-i-ng? Two i's in a row look wrong. Before -ing, the y STAYS." },
+        { "answer": "flyeing", "why": "invented an e to glue the parts", "remedy": "No glue needed! Fly keeps its y, -ing joins straight on: flying." }
+      ],
+      "hints": ["Check the suffix FIRST — it's -ing!", "Before -ing the y stays put."],
+      "reteach": { "say": "The twist! Before -ing the y refuses to change, because criing and fliing with two i's look wrong. Fly + ing = flying, y proudly staying. Same for cry → crying, try → trying.", "block": { "type": "table", "headers": ["root", "+ ing (y stays)", "+ ed (y → i)"], "rows": [["fly", "flying", "—"], ["cry", "crying", "cried"], ["try", "trying", "tried"]] } },
+      "interestSlots": ["aeroplanes", "superheroes"]
+    },
+    {
+      "id": "l08-p07", "skill": "match roots to suffixed forms across the rule + exception", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each build to its correct spelling.", "pairs": [ { "left": "happy + est", "right": "happiest" }, { "left": "dry + ed", "right": "dried" }, { "left": "try + ing", "right": "trying" }, { "left": "funny + er", "right": "funnier" } ] },
+      "expectedAnswer": "happy+est→happiest, dry+ed→dried, try+ing→trying, funny+er→funnier",
+      "wrongAnswers": [
+        { "answer": "try + ing → tried", "why": "matched the -ed form to the -ing build", "remedy": "Check the tail on the build — -ing keeps the y. Which answer still has its y?" },
+        { "answer": "dry + ed → dryed", "why": "kept the y before -ed", "remedy": "-ed is a transformer tail: the y becomes i. Which spelling shows that?" }
+      ],
+      "hints": ["Find the -ing build first — its answer keeps the y.", "All the others transform y → i."],
+      "reteach": { "say": "Sort by the tail! One build has -ing — trying, y stays. The other three have -er, -est or -ed — so their y's all turned into i's: happiest, dried, funnier.", "block": { "type": "table", "headers": ["build", "spelling", "why"], "rows": [["try + ing", "trying", "y stays before -ing"], ["dry + ed", "dried", "y → i"], ["happy + est", "happiest", "y → i"], ["funny + er", "funnier", "y → i"]] } }
+    },
+    {
+      "id": "l08-p08", "skill": "spot when the y rule does NOT apply", "level": 3,
+      "block": { "type": "fillBlank", "text": "sad + er = ___ (careful — is there a y?)", "answer": "sadder", "wordBank": ["sadder", "sadier", "sader"] },
+      "expectedAnswer": "sadder",
+      "wrongAnswers": [
+        { "answer": "sadier", "why": "applied the y rule to a word with no y", "remedy": "Look at the end of sad — is there a y to change? What kind of word is s-a-d (one short vowel, one consonant)?" },
+        { "answer": "sader", "why": "forgot Lesson 7's doubling rule", "remedy": "Read it — say-der? The short a needs protecting. What does the d do before -er?" }
+      ],
+      "hints": ["Check the end of sad — no y here!", "One short vowel + one consonant… which rule is that?"],
+      "reteach": { "say": "Imposter alert! Sad has no y — it's a short-vowel word, so it uses Lesson 7's trick: double the d. Sad → sadder. Always look at the END of the root before choosing the rule.", "block": { "type": "table", "headers": ["root", "ends in", "rule", "word"], "rows": [["sad", "short vowel + d", "double", "sadder"], ["happy", "y", "y → i", "happier"]] } }
+    },
+    {
+      "id": "l08-p09", "skill": "reject the double-i error", "level": 3,
+      "block": { "type": "trueFalse", "statement": "cry + ing = criing.", "correct": false, "explain": "Before -ing the y stays — crying. Two i's in a row look wrong." },
+      "expectedAnswer": "False — it's crying (keep the y)",
+      "wrongAnswers": [
+        { "answer": "True", "why": "over-applied y → i to the -ing exception", "remedy": "Look at criing — two i's in a row! That's exactly what the exception avoids. What does the y do before -ing?" }
+      ],
+      "hints": ["Count the i's in criing — what do you notice?", "Before -ing the y stays."],
+      "reteach": { "say": "The whole reason for the twist: English hates ii. If cry's y changed before -ing we'd get criing — yuck! So the y stands its ground: crying. y → i everywhere EXCEPT -ing.", "block": { "type": "table", "headers": ["build", "wrong", "right"], "rows": [["cry + ing", "criing ✗", "crying ✓"]] } }
+    },
+    {
+      "id": "l08-p10", "skill": "explain the exception", "level": 3,
+      "block": { "type": "shortText", "prompt": "Why does crying keep its y, but cried changes to an i? Explain like a spelling teacher.", "sample": "Before -ing we keep the y so we don't get two i's in a row (criing looks wrong). Before -ed the y changes to i: cried." },
+      "expectedAnswer": "Keeping the y before -ing avoids a double i (criing); before -ed the y changes to i (cried)",
+      "wrongAnswers": [
+        { "answer": "They're just random / you have to remember", "why": "hasn't connected the exception to the double-i reason", "remedy": "Write criing and look at it. What do you see in the middle? That's the reason the y stays." },
+        { "answer": "cried should be cryed", "why": "shares the kept-the-y misconception", "remedy": "Which suffix is on cried — is it -ing? No, it's -ed — so the y transforms. Only -ing lets it stay." }
+      ],
+      "hints": ["Try writing criing — what looks odd?", "The exception protects us from double letters that confuse readers."],
+      "reteach": { "say": "Here's the teacher's secret: the -ing exception isn't random — it exists so we never write ii. Cried gets the transform because -ed causes no clash. Crying keeps the y because -ing starts with i, and ii looks broken. One reason, whole rule explained.", "block": { "type": "table", "headers": ["suffix", "starts with", "y does"], "rows": [["-ed / -er / -est", "e", "changes to i"], ["-ing", "i", "stays (no ii!)"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave the sad decoy and the -ing exception with straight y → i items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the pair written side by side (happy → happi__), then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one -ing exception (flying/crying kept the y) and the sad decoy → mastery ≥ 0.8 for 'y → i before a suffix'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'the y needs to change' or 'before -ing the y stays.'",
+      "Step down: give the pair side by side so the child copies the change.",
+      "ONE hint: 'is the suffix -ing? If not, change y to i.'",
+      "Re-ask a smaller version (just one word), then build back up.",
+      "Keep it safe: 'The -ing twist is tricky for everyone — let's check the suffix first.'"
+    ],
+    "personalization": "Use the child's happiest/funniest/sunniest real moments in the sentences around the words — the spelling words never change.",
+    "endOnSuccess": "Finish on a winnable y → i item; process praise: 'you checked the suffix first every time — that's exactly how spellers beat the twist.'"
+  },
+
+  "differentiation": {
+    "support": "Pairs given side by side (happy → happi__) so the child copies the change and adds the suffix. Avoid the -ing exception until the main rule is secure.",
+    "stretch": "Explain WHY crying keeps the y (we don't want ii) and spell trying, drier, busiest."
+  },
+  "extension": "Find two more y-ending words (lucky, dirty) and make them into 'more/most' words (luckier, dirtiest).",
+  "assessmentEvidence": "Child correctly changes y → i in at least three words (happiest, cried, sadder) and keeps the y in flying/crying.",
+  "revisitLater": "Include happier/happiest and crying in the Lesson 9 sort; bring back the -ing exception as a quick check next session."
+}

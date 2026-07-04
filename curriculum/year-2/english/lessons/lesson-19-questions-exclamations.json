@@ -1,0 +1,358 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u4-l19",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 4, "title": "Word classes & sentence types", "essentialQuestion": "What jobs do words do, and how do sentences come in different types?" },
+  "lessonNumber": 19,
+  "kind": "lesson",
+  "topic": "Word classes & sentence types",
+  "title": "Questions & exclamations (the special marks)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can write a question with a ? and a true exclamation starting What/How."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "question", "definition": "an asking sentence — your voice goes UP at the end", "example": "Is the sky blue?" },
+    { "term": "question mark (?)", "definition": "the special hook that ends every asking sentence", "example": "Where are you?" },
+    { "term": "exclamation", "definition": "a big-feeling sentence that starts with What or How", "example": "What a big cake!" },
+    { "term": "exclamation mark (!)", "definition": "the mark that ends an exclamation", "example": "How fast it runs!" }
+  ],
+  "emphasize": [
+    "A question makes your voice go UP — and it always needs the ? hook. Never a full stop on a question.",
+    "A TRUE exclamation sentence starts with What or How and ends with ! — a loud statement with a ! is not the Year 2 exclamation form.",
+    "Two moves make questions: start with a question word (who/what/where/when/why/how) or flip the order (The sky is blue. → Is the sky blue?)."
+  ],
+  "analysis": {
+    "keyConcepts": ["rising voice = question = ?", "question words: who, what, where, when, why, how", "flip-the-order move for yes/no questions", "exclamation form: What/How + … + !"],
+    "misconceptions": [
+      "ending a question with a full stop (question mark forgotten)",
+      "writing a 'loud statement' with ! and calling it an exclamation — the Y2 form must start What/How",
+      "thinking a command with ! (Stop!) is an exclamation sentence"
+    ],
+    "hooks": ["Listen: 'The sky is blue.' — flat. 'Is the sky blue?' — hear it go UP? Your voice already knows the rule."],
+    "priorKnowledge": ["the four sentence types and their marks (Lesson 18)", "capital letters and full stops"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["question-word bank on screen (who, what, where, when, why, how)", "statement cards to transform", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Hear the rising voice: statement flat vs question up; child performs the contrast; retrieve the full stop.",
+      "note": "The child's own voice is the lesson's main tool — get them performing the rise immediately.",
+      "successCriteria": "Child says 'Is the sky blue?' with a clear rise and answers 'a full stop' for the telling sentence.",
+      "script": {
+        "say": "Listen to my voice: The sky is blue. Flat. Now: Is the sky blue? — hear it go UP at the end? An asking sentence needs a special hook on the end — a question mark. Let's master it. Your turn to try the rise… and quick check first: what mark ends a normal telling sentence?",
+        "adaptHints": "Exaggerate the flat/rising contrast theatrically. Swap 'the sky is blue' for a fact about the child's favourite topic."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say it flat, then make it fly: first 'The sky is blue.' then 'Is the sky blue?' — voice UP at the end!", "target": "Is the sky blue?" }
+      ],
+      "stuckProtocol": ["If the rise doesn't come: say it together twice with a hand gesture lifting on 'blue?', then let the child solo it."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the two question moves (question word / flip the order) and the true exclamation form (What/How … !).",
+      "note": "Two clear recipes, one for each special mark. Anchor them side by side on the board.",
+      "successCriteria": "Child can say the two ways to start a question and how a true exclamation begins.",
+      "script": {
+        "say": "To make a QUESTION, I often start with a question word — who, what, where, when, why, how — or I flip the order: The sky is blue. becomes Is the sky blue? — and I end with a question mark. Now the other special mark. A real EXCLAMATION sentence starts with What or How: The cake is big. becomes What a big cake! It shows a big feeling and ends with an exclamation mark. Asking → question mark. What or How plus a big feeling → exclamation mark.",
+        "adaptHints": "Point at the question-word bank as each word is said. Perform 'What a big cake!' with genuine delight — the feeling is the point."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["special sentence", "how to build it", "example", "ends with"],
+          "rows": [
+            ["question", "start with who/what/where/when/why/how — or flip the order", "Is the sky blue?", "?"],
+            ["exclamation", "start with What or How + a big feeling", "What a big cake!", "!"]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared fixing and transforming: repair 'Is it raining.' together, then turn 'The dog is fast.' into 'What a fast dog!'",
+      "note": "The broken question is deliberately shown — the child is the fixer. Then the exclamation transformation together.",
+      "successCriteria": "Child swaps the full stop for a ? and co-builds 'What a fast dog!'",
+      "script": {
+        "say": "Here's a question I wrote wrong — it ends in a full stop: Is it raining. Yuck! Read it aloud — your voice went up, but my mark didn't! Fix it for me. … Now let's transform together: The dog is fast. Make it burst — start with 'What a…'",
+        "adaptHints": "Let the child physically choose the ? from the bank. For the exclamation, scaffold just the opener 'What a…' and let the child finish."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "Is it raining___", "answer": "?", "wordBank": ["?", ".", "!"] }
+      ],
+      "check": {
+        "question": "Turn 'The dog is fast.' into an exclamation.",
+        "expectedAnswer": "What a fast dog!",
+        "wrongAnswers": [
+          { "answer": "The dog is fast!", "why": "loud statement — didn't use the What/How opener", "remedy": "That's a statement wearing a !. A true exclamation sentence begins What or How — start it again with 'What a…'" },
+          { "answer": "What a fast dog. (full stop)", "why": "right form, wrong mark", "remedy": "You built the burst — now let it burst! Which mark shows the big feeling at the end?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 16],
+      "goal": "Key diagnostic: transform 'The cake is big.' into an exclamation AND write a question about the cake.",
+      "note": "Two-part check straight from the script. Probe the rising voice on the question after success.",
+      "successCriteria": "Child produces 'What a big cake!' and a correctly hooked question (e.g. 'Is the cake big?').",
+      "script": {
+        "say": "Double challenge! Take: The cake is big. First — turn it into an exclamation. Then — write me a QUESTION about the cake. When you're done, read your question aloud: how does your voice sound?",
+        "adaptHints": "Swap cake for a treat the child loves. Probe after: 'How does your voice sound for the question?' (it goes up)."
+      },
+      "blocks": [
+        {
+          "type": "shortText",
+          "prompt": "Turn 'The cake is big.' into an exclamation, then write one question about the cake.",
+          "sample": "What a big cake! Is the cake big?"
+        }
+      ],
+      "check": {
+        "question": "Turn 'The cake is big.' into an exclamation, then write a question about the cake.",
+        "expectedAnswer": "What a big cake! — and e.g. Is the cake big? / Who made the cake?",
+        "wrongAnswers": [
+          { "answer": "The cake is big! (as the exclamation)", "why": "confusing a loud statement with an exclamation sentence", "remedy": "An exclamation sentence begins What or How — start it again with 'What…'" },
+          { "answer": "Is the cake big. (question with a full stop)", "why": "question mark forgotten", "remedy": "Read it aloud — your voice went up, so it needs the ? hook." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 19],
+      "goal": "Independent writing: two questions (using the word bank) and one What/How exclamation; then interleave spotting.",
+      "note": "Director draws from practiceBank, start level 2. Watch for: missing ?; exclamations that are really statements with a !.",
+      "successCriteria": "Child writes two correctly hooked questions and one true What/How exclamation.",
+      "script": {
+        "say": "Author time! Write me two questions — the word bank is right there to start you off — and one true exclamation beginning What or How. Read each one aloud when you finish: your voice will check your marks for you.",
+        "adaptHints": "Aim the questions at the child's interests (write a question about dragons, about football). The read-aloud self-check is the habit to build."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: end mark, or exclamation form.",
+        "Say it aloud together and listen for the rising voice.",
+        "ONE hint: 'Start with a question word.'",
+        "Re-ask a simpler flip: The dog is wet. → Is the dog wet?",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [19, 20],
+      "goal": "Child states the two rules; end on a win.",
+      "note": "One minute, child-led, crisp.",
+      "successCriteria": "Child says: questions go up and take ?; exclamations start What/How and take !.",
+      "script": {
+        "say": "How does a question sound, and how do exclamation sentences start? … Exactly. You heard your voice rise and added the question mark every time — great listening-to-your-writing.",
+        "adaptHints": "If time is tight, take the answer verbally while the confetti moment plays."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l19-p01",
+      "skill": "choose the right end mark for a question",
+      "level": 1,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Which mark ends an ASKING sentence?",
+        "options": [". full stop", "? question mark", "! exclamation mark"],
+        "correct": 1,
+        "explain": "Asking sentences make your voice go up — and they always end with the question-mark hook."
+      },
+      "expectedAnswer": "? question mark",
+      "wrongAnswers": [
+        { "answer": ". full stop", "why": "the question-mark-forgotten habit", "remedy": "Full stops are for flat telling sentences. When your voice goes UP, which special hook catches it?" },
+        { "answer": "! exclamation mark", "why": "muddles the two special marks", "remedy": "The ! is for bursting feelings. Asking isn't bursting — it's wondering. Which mark is the asking hook?" }
+      ],
+      "hints": ["Asking = voice goes up.", "It's the mark shaped like a little hook."],
+      "reteach": { "say": "Three marks, three jobs. Full stop: flat telling. Question mark: asking, voice up. Exclamation mark: bursting feeling. When a sentence ASKS, only the hook will do.", "block": { "type": "table", "headers": ["mark", "job"], "rows": [[".", "tells — flat"], ["?", "asks — voice up"], ["!", "bursts — big feeling"]] } }
+    },
+    {
+      "id": "l19-p02",
+      "skill": "fix a question ending in a full stop",
+      "level": 1,
+      "block": { "type": "fillBlank", "text": "Where is my shoe___", "answer": "?", "wordBank": ["?", ".", "!"] },
+      "expectedAnswer": "? (Where is my shoe?)",
+      "wrongAnswers": [
+        { "answer": ".", "why": "question mark forgotten", "remedy": "Read it aloud — where is my shoe… did your voice go up? Up-voice needs the hook. Swap the mark." },
+        { "answer": "!", "why": "excitement mark on an asking sentence", "remedy": "Are you bursting about the shoe, or ASKING where it is? It starts with 'Where' — a question word. Which mark follows a question?" }
+      ],
+      "hints": ["It starts with the question word 'Where'.", "Voice up at the end → ?"],
+      "reteach": { "say": "'Where' at the front is a giant clue — it's one of the six question words: who, what, where, when, why, how. Any sentence starting with one of those is asking, and asking always ends with the hook: Where is my shoe?", "block": { "type": "keyTerm", "term": "question words", "definition": "who, what, where, when, why, how — starters that make a sentence ask (and end with ?)" } },
+      "interestSlots": ["shoe"]
+    },
+    {
+      "id": "l19-p03",
+      "skill": "write a question using a question word",
+      "level": 2,
+      "block": {
+        "type": "shortText",
+        "prompt": "Write one question about a dog. Start with a question word: who, what, where, when, why or how — and don't forget the hook!",
+        "sample": "Why does the dog bark?"
+      },
+      "expectedAnswer": "Any real question starting with a question word and ending with ?, e.g. 'Where does the dog sleep?'",
+      "wrongAnswers": [
+        { "answer": "Why does the dog bark. (full stop)", "why": "question mark forgotten", "remedy": "Lovely question — now read it aloud. Voice up? Then it needs the ? hook at the end." },
+        { "answer": "The dog barks a lot. (a statement)", "why": "wrote a telling sentence instead of an asking one", "remedy": "That TELLS me about the dog. To ASK, start with one of the six question words — try 'Why…' or 'Where…'." }
+      ],
+      "hints": ["Pick a starter: who, what, where, when, why, how.", "Read it back — does your voice go up? Then hook it with ?"],
+      "reteach": { "say": "A question recipe, three steps: pick a question word — say, WHY. Add your wondering — why does the dog bark. Hook it — why does the dog bark? Question word, wondering, hook. Every time.", "block": { "type": "steps", "title": "Question recipe", "steps": ["1. Question word: Why", "2. The wondering: …does the dog bark", "3. The hook: ?"] } },
+      "interestSlots": ["dog"]
+    },
+    {
+      "id": "l19-p04",
+      "skill": "spot the true exclamation sentence",
+      "level": 2,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Which one is a TRUE exclamation sentence?",
+        "options": ["The cake is big!", "What a big cake!", "Eat the cake!"],
+        "correct": 1,
+        "explain": "A true exclamation sentence starts with What or How: What a big cake! The first is a loud statement; the last is a command with a !."
+      },
+      "expectedAnswer": "What a big cake!",
+      "wrongAnswers": [
+        { "answer": "The cake is big!", "why": "loud statement mistaken for an exclamation — the Y2 form must start What/How", "remedy": "It's shouty, but check the first word — 'The'. True exclamations begin What or How. Which option does?" },
+        { "answer": "Eat the cake!", "why": "command with a ! called an exclamation", "remedy": "'Eat' is a bossy verb ordering you about — that's a command borrowing a !. Which option starts with What or How?" }
+      ],
+      "hints": ["Check the FIRST word of each.", "True exclamations start with What or How."],
+      "reteach": { "say": "Three sentences, all ending with ! — but only one is a true exclamation. The secret is the first word: What a big cake! begins with What. A loud statement or a bossy command can borrow the mark, but they can't borrow the What/How opener.", "block": { "type": "table", "headers": ["sentence", "first word", "type"], "rows": [["The cake is big!", "The", "loud statement"], ["Eat the cake!", "Eat (bossy verb)", "command"], ["What a big cake!", "What", "exclamation ✓"]] } },
+      "interestSlots": ["cake"]
+    },
+    {
+      "id": "l19-p05",
+      "skill": "rebuild a jumbled question",
+      "level": 2,
+      "block": {
+        "type": "ordering",
+        "prompt": "Sentence surgeon! Put the words back in order to make a question — the hook goes last.",
+        "items": ["Why", "is", "the", "sky", "blue?"]
+      },
+      "expectedAnswer": "Why is the sky blue?",
+      "wrongAnswers": [
+        { "answer": "The sky is blue? Why", "why": "statement order with a floating question word", "remedy": "The question word leads the parade! Which word starts the asking? Put 'Why' at the front and rebuild." },
+        { "answer": "Is why the sky blue?", "why": "flip-move and question-word move mixed together", "remedy": "Pick ONE opener. Here the question word 'Why' goes first, then the rest follows: Why is…" }
+      ],
+      "hints": ["Question words lead the sentence.", "The word carrying the ? goes last."],
+      "reteach": { "say": "Questions have a marching order: question word first — Why — then the helper — is — then the rest — the sky blue — and the hook rides on the last word. Why is the sky blue? Question word front, hook at the back.", "block": { "type": "steps", "title": "Marching order", "steps": ["Why (question word first)", "is (the helper)", "the sky blue? (hook last)"] } }
+    },
+    {
+      "id": "l19-p06",
+      "skill": "perform the rising question voice",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Read this aloud and make your voice go UP at the end: Is it snowing?", "target": "Is it snowing?" },
+      "expectedAnswer": "Reads 'Is it snowing?' with a clear rise at the end",
+      "wrongAnswers": [
+        { "answer": "reads it flat like a statement", "why": "voice not matching the mark", "remedy": "That sounded like telling! The ? at the end is asking your voice to climb. Try again — lift on 'snowing?'" },
+        { "answer": "shouts it", "why": "confusing loud with rising", "remedy": "Not louder — HIGHER. Like the end of the sentence is floating up. Iiis it snoooowing?" }
+      ],
+      "hints": ["The ? is a little ramp — ride it up.", "Try humming it first: da-da-da-DAA⬆"],
+      "reteach": { "say": "Your voice is the question detector. Flat means telling; rising means asking. Listen: It is snowing. — flat. Is it snowing? — up! When you write, read your sentence aloud, and if your voice climbs, the hook goes on.", "block": { "type": "emojiViz", "emojis": "😐➡️ . · 🙂⬆️ ?", "caption": "flat voice = full stop · rising voice = question mark" } },
+      "interestSlots": ["snow"]
+    },
+    {
+      "id": "l19-p07",
+      "skill": "transform one statement into both special types",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Stretch! Take 'The dog is fast.' — write it as a question AND as a true exclamation.",
+        "sample": "Is the dog fast? How fast the dog is! (or: What a fast dog!)"
+      },
+      "expectedAnswer": "A flipped question (Is the dog fast?) and a What/How exclamation (What a fast dog! / How fast the dog is!)",
+      "wrongAnswers": [
+        { "answer": "The dog is fast! (as the exclamation)", "why": "loud statement, not the What/How form", "remedy": "The words haven't changed — only the mark got louder! Rebuild it starting with 'What a…' or 'How…'." },
+        { "answer": "Is the dog fast. (question with a full stop)", "why": "question mark forgotten after a good flip", "remedy": "Perfect flip! Now read it aloud — voice up? Finish the job with the hook." }
+      ],
+      "hints": ["For the question: flip it — 'Is the dog…'.", "For the exclamation: start with 'What a…' or 'How…'."],
+      "reteach": { "say": "One statement, two magic spells. Spell one, the flip: The dog is fast → Is the dog fast? Spell two, the burst: start with What or How → What a fast dog! Same idea, two special sentences, two special marks.", "block": { "type": "table", "headers": ["spell", "result", "mark"], "rows": [["flip the order", "Is the dog fast", "?"], ["start What/How", "What a fast dog", "!"]] } },
+      "interestSlots": ["dog"]
+    },
+    {
+      "id": "l19-p08",
+      "skill": "explain why a command with ! is not an exclamation sentence",
+      "level": 3,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Expert question: 'Stop!' ends with ! — why is it NOT an exclamation sentence?",
+        "options": [
+          "Because it's too short to be a sentence",
+          "Because it starts with a bossy verb, not What or How — it's a command",
+          "Because it should end with a question mark",
+          "It IS an exclamation sentence"
+        ],
+        "correct": 1,
+        "explain": "The type comes from the job and the opener: 'Stop!' bosses with a bossy verb — a command. True exclamation sentences start with What or How."
+      },
+      "expectedAnswer": "Because it starts with a bossy verb, not What or How — it's a command",
+      "wrongAnswers": [
+        { "answer": "It IS an exclamation sentence", "why": "mark/type confusion", "remedy": "The ! only shows feeling. Check the first word — 'stop' is ordering you about. Which type orders? And what do true exclamations start with?" },
+        { "answer": "Because it's too short to be a sentence", "why": "length mistaken for the reason", "remedy": "Short can still be a sentence! The real clue is the FIRST word. What kind of word is 'stop', and which type starts that way?" }
+      ],
+      "hints": ["The mark shows feeling; the TYPE comes from the first word's job.", "What do true exclamation sentences start with?"],
+      "reteach": { "say": "This is the cleverest idea in the unit, so let's pin it down: the exclamation MARK is a feeling-flag any strong sentence can wave. But the exclamation TYPE has a strict uniform — it must start What or How. Stop! waves the flag but wears a command's uniform: bossy verb first. Flag ≠ uniform.", "block": { "type": "table", "headers": ["sentence", "waves ! flag", "uniform (first word)", "type"], "rows": [["Stop!", "yes", "bossy verb", "command"], ["What a mess!", "yes", "What", "exclamation"]] } }
+    },
+    {
+      "id": "l19-p09",
+      "skill": "write a mini interview (multiple questions)",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Grand stretch! Write a tiny interview: THREE questions for your favourite storybook character — three different question words, a hook on each.",
+        "sample": "Where do you live? Why did you climb the beanstalk? How did you escape the giant?"
+      },
+      "expectedAnswer": "Three questions, three different question words, each ending with ?",
+      "wrongAnswers": [
+        { "answer": "one or more questions ending in a full stop", "why": "question mark forgotten in the flow of writing", "remedy": "Interview check! Read each one aloud — every rising voice needs its hook. Which one is missing it?" },
+        { "answer": "Tell me about your house. (a command, not a question)", "why": "polite command mistaken for a question", "remedy": "'Tell' is a bossy verb — that's a command in disguise! Rebuild it with a question word: 'Where do you…?'" }
+      ],
+      "hints": ["Pick three different starters from: who, what, where, when, why, how.", "Read each aloud — voice up, hook on."],
+      "reteach": { "say": "Interviewers use the six question words like keys on a keyring: who, what, where, when, why, how. Pick three keys, unlock three questions: Where do you live? Why did you go? How did you escape? Every key opens with a capital and closes with a hook.", "block": { "type": "steps", "title": "Interview kit", "steps": ["Key 1: Where…?", "Key 2: Why…?", "Key 3: How…?"] } },
+      "interestSlots": ["storybook character"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave writing, transforming and mark-vs-type items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the question-word bank on screen, then a level-1 item (choose/fix the mark only).",
+    "masterySignal": "3+ correct across levels 2–3 including one self-written question with ? and one true What/How exclamation → mastery ≥ 0.8 for 'questions and exclamations'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: end mark, or exclamation form.",
+      "Say it aloud together and listen for the rising voice.",
+      "ONE hint: 'Start with a question word.'",
+      "Re-ask a simpler flip (The dog is wet. → Is the dog wet?), build back.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Point the questions at the learner's world — their pet, favourite character, best game. The read-it-aloud voice check is the habit in every framing.",
+    "endOnSuccess": "Finish on a winnable transform; praise the process — 'you read your sentence aloud and let your voice check the mark.'"
+  },
+
+  "differentiation": {
+    "support": "Question-word bank (who, what, where, when, why, how) stays on the desk; work on choose-the-mark items before writing whole questions.",
+    "stretch": "Explain why a command with ! (Stop!) is not an exclamation sentence; write both a What… and a How… exclamation for the same idea."
+  },
+  "extension": "Write a tiny interview — three questions for a favourite character, three different question words, then read it aloud in your best interviewer voice.",
+  "assessmentEvidence": "Child writes correctly punctuated questions (question word or flip, ending ?) and one true What/How exclamation ending !.",
+  "revisitLater": "Sentence types feed the writing in Unit 5 (instructions use commands); quick recall of question/exclamation forms in Lesson 25."
+}

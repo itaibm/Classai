@@ -1,0 +1,312 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u5-l24",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 5, "title": "Comprehension & composition", "essentialQuestion": "How do I read between the lines, and how do I write a clear set of instructions?" },
+  "lessonNumber": 24,
+  "kind": "lesson",
+  "topic": "Composition: instructions",
+  "title": "Write your own instructions",
+  "durationMin": 30,
+  "objectives": ["By the end, I can write a clear set of instructions with commands and order words."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "title", "definition": "the top line that says what the instructions make or do", "example": "How to make toast." },
+    { "term": "you will need", "definition": "the list of things to collect before starting", "example": "You will need: bread, a toaster, butter." },
+    { "term": "step", "definition": "one numbered action for the reader to do", "example": "1. First, put the bread in the toaster." },
+    { "term": "bossy verb", "definition": "the doing word each step starts with", "example": "Put, press, wait, spread." },
+    { "term": "order words", "definition": "first, next, then, finally — they keep steps marching in order", "example": "Finally, spread the butter." }
+  ],
+  "emphasize": [
+    "Plan first (title + you will need), THEN write numbered command steps in order.",
+    "Say each step ALOUD before writing it — oral rehearsal makes clear sentences.",
+    "Pre-empt story-mode: every step is order word + bossy verb ('Next, press the button'), never 'Then I pressed the button'."
+  ],
+  "analysis": {
+    "keyConcepts": ["planning an instruction text (title, you will need, steps)", "writing steps as commands with order words", "oral rehearsal before writing", "checking by reading back in order"],
+    "misconceptions": [
+      "writing the instructions as a story ('First I got the bread and then I…') with no commands or order words",
+      "skipping the plan and diving in, so steps arrive out of order",
+      "steps so vague no one could follow them ('do the bread bit')",
+      "forgetting the 'you will need' list so the reader starts unprepared"
+    ],
+    "hooks": ["You're the author! Write something so clear that someone in your family could follow it without you in the room."],
+    "priorKnowledge": ["instruction features, commands, bossy verbs, order words (Lesson 23)", "sentence punctuation (Unit 4)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["on-screen writing frame (title / you will need / numbered steps)", "order-word bank", "model instruction sheet"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Cast the child as the instruction author, pick a simple topic they know, and retrieve the three must-have features.",
+      "note": "Help them choose something genuinely simple and doable in 3–4 steps: a snack, a game move, a craft. Steer away from anything needing 10 steps.",
+      "successCriteria": "Child picks a topic and names title / you will need / numbered command steps.",
+      "script": {
+        "say": "Today YOU'RE the instruction author! Pick something you truly know how to do — make a snack, play a game, do a craft — and we'll write it SO clearly that someone in your family could do it without you in the room. What will you teach the world? … Great choice! Quick memory check from Inspector duty: what three features must our instructions have?",
+        "adaptHints": "Nudge toward the child's real hobbies for the topic — their game, their snack. If they pick something huge, shrink it: 'Which PART could we teach in four steps?'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "✍️📋⭐", "caption": "You're the author — write it so anyone could follow it!" },
+        { "type": "richText", "markdown": "**The author's checklist**\n\n1. A **title** — *How to…*\n2. **You will need** — the collect-first list\n3. **Numbered steps** — order word + bossy verb, in order" }
+      ],
+      "stuckProtocol": ["If no topic comes: offer three concrete choices from the child's known interests and let them pick one."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model the whole journey on 'How to make toast': plan aloud (title, you will need), then say-then-write each command step with its order word.",
+      "note": "Think aloud the entire time — including saying each step OUT LOUD before 'writing' it. That rehearsal habit is the heart of the lesson.",
+      "successCriteria": "Child sees the plan built before the steps and hears each step rehearsed aloud before it's written.",
+      "script": {
+        "say": "Watch me be the author first. I plan BEFORE I write. Title: 'How to make toast'. You will need: bread, a toaster, butter, a knife. Now the steps — and here's my author's secret: I SAY each step aloud before I write it. Listen: 'First, put the bread in the toaster.' Sounds right — NOW I write it. 'Next, press the button down.' Say it… write it. 'Then, wait for the toast to pop up.' 'Finally, spread butter on the toast.' Four steps, each one an order word plus a bossy verb — put, press, wait, spread — in the exact right order.",
+        "adaptHints": "Underline each bossy verb with your voice. If the child chose a food topic, say 'yours will work just like my toast — same skeleton, different steps.'"
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "## How to make toast\n\n**You will need:** bread, a toaster, butter, a knife.\n\n1. **First**, **put** the bread in the toaster.\n2. **Next**, **press** the button down.\n3. **Then**, **wait** for the toast to pop up.\n4. **Finally**, **spread** butter on the toast." },
+        { "type": "steps", "title": "The author's routine", "steps": ["Plan: title + you will need.", "SAY the step aloud — order word + bossy verb.", "Write the step you just said.", "Read it all back: could a stranger follow it?"] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 12],
+      "goal": "Plan the child's own text together: title, 'you will need' list, and step one rehearsed aloud as a command.",
+      "note": "The child supplies everything; the character scribes and echoes. Insist on the aloud-first habit for step one.",
+      "successCriteria": "Child states a title, lists 2–4 needed things, and says step one aloud as order word + bossy verb.",
+      "script": {
+        "say": "Now let's plan YOURS together. What's your title? Start it 'How to…'. … Lovely. What will your reader need? List everything — imagine them fetching it all before they start. … Now the big author moment: say step one OUT LOUD as a command. Start with 'First,' then the bossy verb. Don't write yet — just say it!",
+        "adaptHints": "Echo their step back so they hear it. If it comes out as a story ('First I get…'), reflect it: 'You're telling ME your story — boss your READER instead: First, get…'"
+      },
+      "blocks": [
+        { "type": "shortText", "prompt": "Your plan: write your title (How to…) and your 'you will need' list.", "sample": "How to make a paper aeroplane. You will need: a sheet of paper, a flat table." },
+        { "type": "speak", "prompt": "Say your step one out loud as a command: order word first, then the bossy verb.", "target": "First, fold the paper in half." }
+      ],
+      "check": {
+        "question": "Why do we start each step with a bossy verb?",
+        "expectedAnswer": "So the reader knows exactly what to DO.",
+        "wrongAnswers": [
+          { "answer": "Because it sounds polite", "why": "hasn't linked the command form to its job", "remedy": "Bossy isn't polite — it's CLEAR! If step one just said 'the paper is nice', what would the reader actually do?" },
+          { "answer": "Don't know", "why": "feature memorised without purpose", "remedy": "Imagine your reader standing there, hands empty, asking 'what do I DO?' Which word in 'Fold the paper' answers them?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "Quick pre-flight diagnostic before the big write: the child can tell an instruction step from a story sentence.",
+      "note": "Fast gate, not a full beat of teaching. A miss here means re-model one step before releasing them to write.",
+      "successCriteria": "Child picks the command step and can say what's wrong with the story version.",
+      "script": {
+        "say": "Pre-flight check before you write, author! Which of these belongs in your instructions — and what's wrong with the other one?",
+        "adaptHints": "If they pass instantly, celebrate briefly and release them to write — protect the writing minutes."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which step belongs in a set of instructions?",
+          "options": ["Next, cut along the line.", "Then I cut along the line and it was fun.", "Cutting lines is easy.", "I like cutting."],
+          "correct": 0,
+          "explain": "Order word + bossy verb = a proper step. The others chat or tell a story — no job for the reader."
+        }
+      ],
+      "check": {
+        "question": "Which one belongs in instructions, and what's wrong with 'Then I cut along the line and it was fun'?",
+        "expectedAnswer": "'Next, cut along the line.' — the other is a story about ME, not a command to the reader.",
+        "wrongAnswers": [
+          { "answer": "'Then I cut along the line and it was fun' because it has an order word", "why": "spotted the order word but missed the story-mode 'I'", "remedy": "Good eye on 'then'! But who does the cutting there — the reader, or 'I'? Instructions boss the READER." },
+          { "answer": "'Cutting lines is easy.'", "why": "chose a statement — no command, no job", "remedy": "Obey-test it: what does your hand do when I say 'cutting lines is easy'? Nothing! Which one gives your hand a job?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 26],
+      "goal": "The big write: title, 'you will need', and 3–4 numbered command steps with order words — each step rehearsed aloud first, then the whole text read back to check.",
+      "note": "This is protected writing time. Director keeps the frame on screen and works step by step: say it → write it. Use practiceBank items only as warm-ups or if the child finishes early / stalls completely.",
+      "successCriteria": "A complete instruction text: title, you-will-need list, 3–4 ordered command steps with order words, read back aloud.",
+      "script": {
+        "say": "Author time — the real thing! Your frame is on screen: title, you will need, then your steps. For every step: SAY it aloud first — order word, bossy verb — then write it. I'll be your editor. When your last step is down, read the whole thing back to me like I've never seen it before… could I follow it?",
+        "adaptHints": "Frame the reader as someone real to the child ('write it so Grandma could do it'). Praise mid-write for process: rehearsing aloud, checking order."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Your writing frame**\n\n## How to ______\n\n**You will need:** ______\n\n1. First, ______\n2. Next, ______\n3. Then, ______\n4. Finally, ______" },
+        { "type": "shortText", "prompt": "Write your full instructions here: title, 'you will need', then 3–4 numbered steps (order word + bossy verb).", "sample": "How to make a paper aeroplane. You will need: a sheet of paper, a flat table. 1. First, fold the paper in half. 2. Next, fold the top corners into the middle. 3. Then, fold the sides down to make wings. 4. Finally, throw your aeroplane gently." }
+      ],
+      "check": {
+        "question": "Read your finished instructions back — could a reader follow them without you?",
+        "expectedAnswer": "A title, a you-will-need list, and 3–4 numbered steps, each an order word + bossy verb, in a followable order.",
+        "wrongAnswers": [
+          { "answer": "Steps written as a story ('First I fold the paper…')", "why": "story-mode — telling their own tale instead of commanding the reader", "remedy": "You're telling me YOUR story! Boss your reader instead — cross out the 'I' and start with the doing word: 'First, fold…'." },
+          { "answer": "A vague step like 'do the paper bit'", "why": "the step lives in the author's head, not on the page", "remedy": "I'm your reader and I'm stuck — what exactly do my hands DO to 'the paper bit'? Give me the bossy verb: fold? cut? press?" }
+        ]
+      },
+      "stuckProtocol": [
+        "Don't reveal or write it for them.",
+        "Name why: 'the step got stuck between your head and the page' or 'that one turned into a story'.",
+        "Say the next step aloud together — order word, bossy verb — THEN write only what was said.",
+        "One hint: 'Start with the doing word.'",
+        "Shrink to a 3-step version of the same topic.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [26, 30],
+      "goal": "The child reads their finished instructions aloud as the author; the tutor 'follows' them and celebrates the process; end on the earned win.",
+      "note": "Mime following the steps literally — any gap becomes a friendly discovery, not a criticism. Finish with process praise for the rehearse-aloud habit.",
+      "successCriteria": "Child reads their complete text aloud and confirms (or fixes) that each step is followable.",
+      "script": {
+        "say": "Author's reading! Read me your instructions from the title down — and I'll pretend to follow every word exactly… … You know what makes these so easy to follow? You said every step aloud before you wrote it, and you kept every step bossy and in order. That's real author's craft. Next lesson: show-off day — everything from the whole year!",
+        "adaptHints": "If following reveals a gap, celebrate the catch: 'You found it before your reader did — that's what real authors do!'"
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Read your whole instruction text aloud, like an author at a book reading.", "target": "Title, you will need, then each numbered step read in order." }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l24-p01", "skill": "use order words in steps", "level": 1,
+      "block": { "type": "fillBlank", "text": "1. First, put the bread in the toaster. 2. ___, press the button down.", "answer": "Next", "wordBank": ["Next", "First", "Toast"] },
+      "expectedAnswer": "Next",
+      "wrongAnswers": [
+        { "answer": "First", "why": "reused the opener — order words move forward, not repeat", "remedy": "'First' already started the march! Which order word takes step two — first, NEXT, then, finally?" },
+        { "answer": "Toast", "why": "grabbed a noun instead of an order word", "remedy": "We need a marching word, not a thing. First… what comes after first?" }
+      ],
+      "hints": ["The march goes: first, next, then, finally.", "Step one took 'First' — step two takes…?"],
+      "reteach": { "say": "Order words march in a fixed parade: FIRST leads, NEXT follows, THEN keeps going, FINALLY closes the show. Step two always gets the second marcher: Next, press the button down.", "block": { "type": "emojiViz", "emojis": "🥇➡️🥈➡️🥉➡️🏁", "caption": "first → next → then → finally" } }
+    },
+    {
+      "id": "l24-p02", "skill": "choose a proper command step", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which is the best step one for 'How to make toast'?", "options": ["Put the bread in the toaster.", "I like toast a lot.", "Toast is warm and crunchy.", "The toaster is silver."], "correct": 0, "explain": "It starts with a bossy verb and gives the reader a job — that's a step." },
+      "expectedAnswer": "Put the bread in the toaster.",
+      "wrongAnswers": [
+        { "answer": "I like toast a lot.", "why": "an opinion — chats instead of commanding", "remedy": "Your reader is standing there, hands empty. Which sentence gives their hands a JOB?" },
+        { "answer": "Toast is warm and crunchy.", "why": "a describing statement — nothing to do", "remedy": "Lovely description — but obey-test it: what do you actually DO? Which option starts with a doing word?" }
+      ],
+      "hints": ["Obey-test each option: which one CAN you actually do?", "A step starts with a bossy verb."],
+      "reteach": { "say": "Steps pass the obey-test. 'I like toast' — can't obey a feeling. 'Toast is crunchy' — can't obey a fact. 'PUT the bread in the toaster' — my hands know exactly what to do. Every step you write must pass the same test.", "block": { "type": "table", "headers": ["sentence", "obey-able?"], "rows": [["I like toast a lot.", "no"], ["Toast is warm and crunchy.", "no"], ["Put the bread in the toaster.", "YES — a step!"]] } }
+    },
+    {
+      "id": "l24-p03", "skill": "write a title and 'you will need' list", "level": 2,
+      "block": { "type": "shortText", "prompt": "Plan the top of an instruction sheet for washing your hands: write the title and the 'you will need' list.", "sample": "How to wash your hands. You will need: soap, warm water, a towel." },
+      "expectedAnswer": "A 'How to…' title plus a short collect-first list (soap, water, towel).",
+      "wrongAnswers": [
+        { "answer": "Washing hands (no 'How to', no list)", "why": "title incomplete and the collect-first list forgotten", "remedy": "Start the title with the author's magic words: 'How to…'. And what must your reader fetch before the first step — think about their hands at the sink." },
+        { "answer": "You will need: a bath, shampoo, a duck", "why": "list drifted to a different job (a bath, not hand-washing)", "remedy": "Check each item against the TITLE: do you need a whole bath to wash your hands? What do your hands actually touch?" }
+      ],
+      "hints": ["Titles start 'How to…'.", "Walk through it in your head: what does your reader pick up or touch?"],
+      "reteach": { "say": "Plan the top in two moves. Move one, the title: 'How to' + the job — 'How to wash your hands'. Move two, the list: replay the job in your head like a film and write down everything your hands touch — soap… water… towel. Title says the job; list gets the reader ready.", "block": { "type": "richText", "markdown": "## How to wash your hands\n\n**You will need:** soap, warm water, a towel." } }
+    },
+    {
+      "id": "l24-p04", "skill": "write a command step with an order word", "level": 2,
+      "block": { "type": "shortText", "prompt": "Write step one for ANY 'how to' you like. Order word first, then the bossy verb.", "sample": "First, get out the paper and pencils." },
+      "expectedAnswer": "An order word + bossy verb command, e.g. 'First, get out the paper.'",
+      "wrongAnswers": [
+        { "answer": "First I get out the paper", "why": "story-mode — the 'I' crept in", "remedy": "Who's doing this step — you, or your READER? Cross out the 'I' and boss them: 'First, get…'." },
+        { "answer": "Paper and pencils", "why": "wrote the things, not the action — a list item, not a step", "remedy": "That's WHAT, but not what to DO with it. Add the doing word at the front: get? fold? draw?" }
+      ],
+      "hints": ["Shape: order word, comma, bossy verb, the rest.", "Say it aloud first — does it BOSS someone?"],
+      "reteach": { "say": "Every step is built from the same kit: ORDER WORD + comma + BOSSY VERB + the rest. 'First, get out the paper.' Say your step aloud before writing — if it doesn't boss anybody, rebuild it from the kit.", "block": { "type": "table", "headers": ["order word", "bossy verb", "the rest"], "rows": [["First,", "get", "out the paper and pencils."], ["Next,", "draw", "a big circle."], ["Finally,", "colour", "it in."]] } }
+    },
+    {
+      "id": "l24-p05", "skill": "order your own steps logically", "level": 2,
+      "block": { "type": "ordering", "prompt": "An author muddled their steps for 'How to make a drink of squash'. Fix the order.", "items": ["Get a cup.", "Pour a little squash into the cup.", "Add water to the top.", "Stir and enjoy your drink."] },
+      "expectedAnswer": "Cup → squash → water → stir",
+      "wrongAnswers": [
+        { "answer": "Add water before the squash", "why": "sequence not tested against reality", "remedy": "Both orders LOOK fine written down — so act it out. Which way round makes mixing easier, and which does the recipe promise first?" },
+        { "answer": "Stir and enjoy first", "why": "grabbed the exciting step first", "remedy": "Stir WHAT? The cup's empty! Which step must give you something to stir?" }
+      ],
+      "hints": ["Could you really do this step yet?", "You can't stir an empty cup."],
+      "interestSlots": ["orange squash", "apple juice"],
+      "reteach": { "say": "Authors test their order with the fixing question: could my reader really do this step YET? Stir — with an empty cup? No. Water — before there's a cup? No. Cup, squash, water, stir: each step hands the next one what it needs.", "block": { "type": "steps", "title": "How to make squash", "steps": ["First, get a cup.", "Next, pour a little squash into the cup.", "Then, add water to the top.", "Finally, stir and enjoy your drink."] } }
+    },
+    {
+      "id": "l24-p06", "skill": "oral rehearsal before writing", "level": 2,
+      "block": { "type": "speak", "prompt": "Author's secret in action: say your NEXT step out loud as a command before you write it — order word first, then the bossy verb.", "target": "e.g. Next, pour the water into the cup." },
+      "expectedAnswer": "A spoken command: order word + bossy verb + the rest.",
+      "wrongAnswers": [
+        { "answer": "Um, the water goes in", "why": "spoke a description, not a command — the rehearsal isn't in step-shape yet", "remedy": "Nearly! Now boss me with it: start with your order word, then the doing word. 'Next, POUR…'" },
+        { "answer": "(writes without saying it)", "why": "skipped the rehearsal — the habit the lesson builds", "remedy": "Authors say it FIRST — your ears catch mistakes your pencil misses. Say it to me, then write exactly what you said." }
+      ],
+      "hints": ["Order word, then the doing word.", "Say it like you're bossing me about — kindly!"],
+      "reteach": { "say": "Why say it first? Because your EARS are brilliant editors. A muddled step sounds muddled out loud — you fix it before the pencil moves. Say: 'Next, pour the water into the cup.' Hear how it bosses? NOW write exactly those words.", "block": { "type": "steps", "title": "Say-then-write", "steps": ["Think the step.", "SAY it aloud — order word + bossy verb.", "Does it boss? Fix it by ear if not.", "Write exactly what you said."] } }
+    },
+    {
+      "id": "l24-p07", "skill": "write a complete instruction text", "level": 3,
+      "block": { "type": "shortText", "prompt": "The full author job: write a complete set of instructions — title, 'you will need', and 3–4 numbered steps with order words and bossy verbs. Any topic you know well.", "sample": "How to make a paper aeroplane. You will need: a sheet of paper, a flat table. 1. First, fold the paper in half. 2. Next, fold the top corners into the middle. 3. Then, fold the sides down to make wings. 4. Finally, throw your aeroplane gently." },
+      "expectedAnswer": "Title + you-will-need + 3–4 ordered, numbered command steps with order words.",
+      "wrongAnswers": [
+        { "answer": "A story version ('First I folded my paper and then I threw it and it flew')", "why": "the whole text slid into story-mode — recount, not instructions", "remedy": "That's the story of YOUR aeroplane! Turn it round to boss your reader: cross every 'I', start every step with the doing word. 'First, fold…'" },
+        { "answer": "Steps with no order words or numbers", "why": "commands present but the sequence signals are missing", "remedy": "Your commands are good — now march them: number each step and give it its order word. Which one is 'First'?" }
+      ],
+      "hints": ["Skeleton first: title, you will need, then the steps.", "Every step: number, order word, bossy verb.", "Read it back as a stranger — could they do it?"],
+      "interestSlots": ["paper aeroplane", "fruit kebab", "den under the table"],
+      "reteach": { "say": "Build it like a house. Roof first: the title — 'How to…'. Doorstep: 'you will need' — the fetch list. Then the rooms, one per step: number, order word, bossy verb. 'First, fold the paper in half.' One action per step, in the order your hands would really do it. Finish by reading it back as a total stranger.", "block": { "type": "richText", "markdown": "## How to ______\n\n**You will need:** ______\n\n1. First, *(bossy verb)* ______\n2. Next, ______\n3. Then, ______\n4. Finally, ______" } }
+    },
+    {
+      "id": "l24-p08", "skill": "turn a recount into instructions", "level": 3,
+      "block": { "type": "shortText", "prompt": "Fix this author's story back into instructions: 'I got a cup and then I poured the milk into it and drank it all up.'", "sample": "1. First, get a cup. 2. Next, pour the milk into the cup. 3. Finally, drink the milk." },
+      "expectedAnswer": "Three numbered command steps: get the cup, pour the milk, drink it — with order words, no 'I'.",
+      "wrongAnswers": [
+        { "answer": "You got a cup and poured the milk and drank it", "why": "swapped the pronoun but kept one long past-tense story sentence", "remedy": "Still one long tale! Chop it into steps — one action each — and make every verb boss the reader NOW: get, pour, drink." },
+        { "answer": "1. Get a cup. 2. Drink the milk. 3. Pour the milk.", "why": "commands right but the order broke in the rewrite", "remedy": "Read your steps as a robot: at step two, what's in the cup? Nothing yet! Which step fills it?" }
+      ],
+      "hints": ["Chop the story at every 'and then' — one action = one step.", "Cross out every 'I'; start each step with the doing word."],
+      "reteach": { "say": "A recount hides instructions inside it — your job is surgery. Chop at each joint: 'I got a cup' / 'I poured the milk' / 'I drank it'. Now de-story each piece: cut the 'I', wake the verb up to NOW: 'Get a cup.' 'Pour the milk.' 'Drink the milk.' Number them, add the marchers — first, next, finally — done.", "block": { "type": "table", "headers": ["story piece", "instruction step"], "rows": [["I got a cup", "1. First, get a cup."], ["I poured the milk", "2. Next, pour the milk into the cup."], ["I drank it all up", "3. Finally, drink the milk."]] } }
+    },
+    {
+      "id": "l24-p09", "skill": "test instructions and fix the gap", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Follow these EXACTLY: 'How to send a birthday card. 1. First, write inside the card. 2. Next, seal the card in the envelope. 3. Finally, post it.' What will go wrong for the reader?", "options": ["The envelope has no address on it, so it can't arrive", "Cards can't go in envelopes", "You can't write inside a card", "Nothing — the instructions are perfect"], "correct": 0, "explain": "Follow it like a robot: sealed, posted… addressed to nobody! The missing step: write the address on the envelope." },
+      "expectedAnswer": "The envelope was never addressed — a step is missing",
+      "wrongAnswers": [
+        { "answer": "Nothing — the instructions are perfect", "why": "read the steps but didn't TEST them by following exactly", "remedy": "Be the robot: seal the envelope, walk to the postbox… where is this card going? What did no step ever tell you to write?" },
+        { "answer": "Cards can't go in envelopes", "why": "challenged a fine step instead of hunting the gap", "remedy": "That step works! The problem comes LATER. Picture the postie holding your envelope — what's missing from the front of it?" }
+      ],
+      "hints": ["Follow the steps exactly, like a robot with no common sense.", "Picture the envelope at the postbox — what's on the front?"],
+      "reteach": { "say": "The author's final superpower: the robot test. Robots do ONLY what the steps say. Write inside — done. Seal it — done. Post it — the robot drops a blank envelope in the box, and the card is lost forever! The gap: 'Then, write the address on the envelope.' Test your own writing the same way — follow it with no common sense at all, and every gap shows itself.", "block": { "type": "steps", "title": "The robot test", "steps": ["Follow each step EXACTLY — no common sense allowed.", "Watch for the moment the job breaks.", "The break shows the missing step.", "Write the missing step in — gap fixed!"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, move from single steps to the full text and the robot test.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then rehearse one step orally together before any more writing (level 1).",
+    "masterySignal": "A complete instruction text (title, you-will-need, 3–4 ordered command steps with order words) read back aloud → mastery ≥ 0.8 for 'writing instructions'.",
+    "struggleProtocol": [
+      "Don't reveal or write it for them.",
+      "Name why ('that step turned into a story' / 'the order slipped' / 'the step is too vague to follow').",
+      "Say the next step aloud together, then write only what was said.",
+      "One hint: 'Start with the doing word.'",
+      "Shrink to a 3-step version of the same topic.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "The topic IS the personalization — steer the child toward writing about their own game, snack or craft. Keep the frame and step structure identical whatever the topic.",
+    "endOnSuccess": "Always end with the author's reading of their own finished text; praise the process — 'you said every step aloud before writing it.'"
+  },
+
+  "differentiation": {
+    "support": "Writing frame with starters on screen (First, … Next, …); a familiar 3-step topic; tutor scribes the you-will-need list from the child's words.",
+    "stretch": "Run the robot test on their own text and fix any gap; add a 'Top tip' line at the end."
+  },
+  "extension": "Give the finished instructions to a family member tonight and watch them follow it EXACTLY — every gap found is an author's victory.",
+  "assessmentEvidence": "A completed instruction text: title, 'you will need' list, and 3–4 numbered command steps with order words, in a followable order, read back aloud.",
+  "revisitLater": "Lesson 25's review includes one instruction-ordering task; instruction writing returns as a genre in Year 3 composition."
+}

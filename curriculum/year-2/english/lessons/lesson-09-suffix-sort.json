@@ -1,0 +1,330 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u2-l09",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 2, "title": "Spelling with suffixes", "essentialQuestion": "How do I add an ending to a word so it's still spelled correctly?" },
+  "lessonNumber": 9,
+  "kind": "review",
+  "topic": "Spelling with suffixes",
+  "title": "Suffix sort (which rule?) — retrieval",
+  "durationMin": 25,
+  "objectives": ["By the end, I can choose the right suffix rule for any root word."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "root word", "definition": "the main word before any ending", "example": "hope, run, happy" },
+    { "term": "suffix", "definition": "a little ending (tail) added to a word", "example": "-ing, -ed" },
+    { "term": "just add", "definition": "stick the suffix straight on — nothing changes", "example": "jump → jumping" },
+    { "term": "drop the e", "definition": "cross off the silent e before a vowel suffix", "example": "hope → hoping" },
+    { "term": "double the consonant", "definition": "twin the last letter of a short-vowel word", "example": "run → running" },
+    { "term": "y → i", "definition": "change the final y to i (but keep y before -ing)", "example": "happy → happier" }
+  ],
+  "emphasize": [
+    "This is RETRIEVAL — the child decides WHICH rule each word needs, then applies it.",
+    "The thinking routine: look at the END of the root → choose the rule → spell it.",
+    "Catch the cross-rule confusions: hope (drop-e) vs hop (double); play (just-add — vowel before the y) vs cry (y → i)."
+  ],
+  "analysis": {
+    "keyConcepts": ["the three sorting questions: silent e? short vowel + one consonant? ends in y?", "applying the chosen rule to spell the suffixed form", "the default: none of those → just add"],
+    "misconceptions": [
+      "hope/hop mix-ups (dropping when you should double and vice versa)",
+      "adding a rule where none applies: jump → 'jumpping', play → 'plaiing' (play just adds — vowel before the y)",
+      "sorting correctly but forgetting to apply the rule when spelling"
+    ],
+    "hooks": ["The Spelling Sorting Office — every word must go in the right rule-bag, and a mis-filed word comes out spelled wrong!"],
+    "priorKnowledge": ["just add (Lesson 5)", "drop the e (Lesson 6)", "double the consonant (Lesson 7)", "y → i (Lesson 8)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["four-column digital sorting mat (categorize blocks)", "the three-questions routine on screen", "interleaved practice bank"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set up the Sorting Office game and retrieve the names of all four rules.",
+      "note": "Pure retrieval energy — the child should feel like an expert being handed a job, not a student being tested.",
+      "successCriteria": "Child names (or recognises) all four rules: just add, drop the e, double, y → i.",
+      "script": {
+        "say": "Welcome to the Spelling Sorting Office! Every word that arrives has to go in the right rule-bag: Just add, Drop the e, Double, or y to i. You're the sorting-office worker — your job is to read the end of each word and pop it in the correct bag. Mis-file one and the spelling goes wrong! Ready to sort? Quick recall first — name me the four rules we've learned.",
+        "adaptHints": "Listen for all four rule names. If shaky, point to each column heading and give one example word: jump, hope, run, happy."
+      },
+      "blocks": [
+        { "type": "table", "headers": ["Just add 📦", "Drop the e 📦", "Double 📦", "y → i 📦"], "rows": [["jump → jumping", "hope → hoping", "run → running", "happy → happier"]] }
+      ],
+      "stuckProtocol": ["If the rule names are shaky: show the table with one example per column and re-ask — 'which rule is jump using?'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the three-question sorting routine and think aloud through bake, sit, cry, play.",
+      "note": "The routine is the lesson: END of the root → choose → spell. Think aloud slowly on bake; speed up by play.",
+      "successCriteria": "Child can recite the three questions in order.",
+      "script": {
+        "say": "Here's how I sort. I look at the END of the root and ask three quick questions. One — does it end in a silent e? Then DROP the e (hope). Two — is it a short vowel and one consonant, like run? Then DOUBLE. Three — does it end in y? Then y to i. If none of those, it just goes in JUST ADD (jump, play). Watch me sort bake: ends in silent e → Drop the e bag → baking.",
+        "adaptHints": "Think aloud through sit (double → sitting), cry (y→i → cried) and play (just add — the y has a vowel before it → playing). Say 'Look at the END of the word — that tells you the rule' every time."
+      },
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "The Sorting Office's 3 questions",
+          "steps": [
+            "1. Silent e on the end? → DROP the e (hope → hoping)",
+            "2. One short vowel + one consonant? → DOUBLE (run → running)",
+            "3. Ends in y? → change y → i (happy → happier) — but keep y before -ing!",
+            "None of those? → JUST ADD (jump → jumping, play → playing)"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Guided sort of the sneaky pairs: hope vs hop, happy vs play — the child sorts, the tutor probes the reasoning.",
+      "note": "hope/hop is THE contrast of the unit. Draw out the silent-e-vs-no-e difference explicitly.",
+      "successCriteria": "Child sorts hope → drop-e and hop → double, and explains the difference.",
+      "script": {
+        "say": "Sort these with me. Hope — what's on the end? So which bag? Now spell hope plus -ing. Next, hop — careful, this one's sneaky! What's different about it? … And two more: happy… and play. Watch out — play ends in y but it has a vowel just before it, so the y is happy where it is: just add!",
+        "adaptHints": "For each card, ask 'what's on the END?' before allowing a sort. If hope/hop confuses, write both and circle the e."
+      },
+      "blocks": [
+        {
+          "type": "categorize",
+          "prompt": "Sort each word into its rule-bag.",
+          "buckets": ["Just add", "Drop the e", "Double", "y → i"],
+          "items": [
+            { "text": "hope", "bucket": "Drop the e" },
+            { "text": "hop", "bucket": "Double" },
+            { "text": "happy", "bucket": "y → i" },
+            { "text": "play", "bucket": "Just add" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Which rule for run + -ing?",
+        "expectedAnswer": "Double the consonant → running",
+        "wrongAnswers": [
+          { "answer": "drop the e → runing", "why": "mis-sorted; no e to drop and didn't double", "remedy": "Is there a silent e on run? No. Is it a short vowel and one consonant? Yes → which bag?" },
+          { "answer": "just add → runing", "why": "missed the short-vowel + one-consonant pattern", "remedy": "Read runing back — roo-ning? The u went long! What protects it?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 16],
+      "goal": "The key diagnostic: run + -ing — the child must name the rule AND produce the spelling.",
+      "note": "Probe HOW they knew (what's on the end of run). Naming the reasoning is the retrieval win.",
+      "successCriteria": "Child answers 'double the consonant → running' and explains via the word's ending.",
+      "script": {
+        "say": "Which rule does run need to add -ing, and what do you get?",
+        "adaptHints": "After a correct answer, probe: 'How did you know — what's on the end of run?' Listen for: one short vowel + one consonant."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "run + ing = ?", "options": ["running (double the n)", "runing (just add)", "runeing (drop the e?!)", "runying (y → i?!)"], "correct": 0, "explain": "Run ends in one short vowel + one consonant → double the n: running." }
+      ],
+      "check": {
+        "question": "Which rule does run need to add -ing, and what do you get?",
+        "expectedAnswer": "Double the consonant → running",
+        "wrongAnswers": [
+          { "answer": "drop the e / runing", "why": "mis-sorted; no e to drop and didn't double", "remedy": "Is there a silent e on run? No. Is it a short vowel and one consonant? Yes → double. Move the card to the right bag." },
+          { "answer": "runned / rule mix-up with play", "why": "cross-rule confusion", "remedy": "Re-read the end of the word and walk the three questions in order: silent e? short vowel + one consonant? ends in y?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 22],
+      "goal": "Independent sorting and spelling: the full eight-card sort (jump, hope, run, happy, bake, sit, play, cry) plus interleaved spell-its from the bank.",
+      "note": "Director draws from practiceBank, start level 2 — the full sort (l09-p04) is the centrepiece; surround it with spell-it items so sorting always ends in spelling.",
+      "successCriteria": "Child sorts at least six of eight words correctly and spells the suffixed forms accurately (esp. hoping/hopping).",
+      "script": {
+        "say": "The morning post has arrived, sorting-office worker — eight words, four bags! Sort each one, then spell it with -ing or -ed to prove the bag was right. Read the end of the word before you file it!",
+        "adaptHints": "Frame the 'post' with the child's interests (parcels of dinosaurs, football stickers). The words themselves never change."
+      },
+      "stuckProtocol": [
+        "Don't sort it for them.",
+        "Name why: 'let's check the end of this word again.'",
+        "Step down: narrow to three columns or pre-group the cards roughly.",
+        "ONE hint: ask just one of the three questions ('does it end in a silent e?').",
+        "Re-ask a smaller version (sort two cards only), then build back up.",
+        "Keep it safe: 'Sorting takes a careful eye — read the end and we'll check together.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Child recites the three sorting questions; end on process praise for expert sorting.",
+      "note": "Child-led. This routine feeds the End-of-Unit 2 check (spell hopping, hoped, happier).",
+      "successCriteria": "Child states: silent e? → drop; short vowel + one consonant? → double; ends in y? → y → i; else → just add.",
+      "script": {
+        "say": "You're a top sorting-office worker. Tell me the three questions you ask to choose the right bag. … That's it. You read the end of every word and chose the right rule — even the sneaky hope-and-hop pair. That's careful, expert spelling.",
+        "adaptHints": "If a question is missed, point at the steps list and let the child fill the gap themselves."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say the three sorting questions out loud, like you're training a new sorting-office worker.", "target": "Silent e? Drop it. Short vowel and one consonant? Double it. Ends in y? Change y to i. Otherwise — just add!" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l09-p01", "skill": "sort just-add vs drop-e", "level": 1,
+      "block": { "type": "categorize", "prompt": "Two bags only: sort these words.", "buckets": ["Just add", "Drop the e"], "items": [ { "text": "jump", "bucket": "Just add" }, { "text": "bake", "bucket": "Drop the e" }, { "text": "play", "bucket": "Just add" }, { "text": "smile", "bucket": "Drop the e" } ] },
+      "expectedAnswer": "jump/play → Just add; bake/smile → Drop the e",
+      "wrongAnswers": [
+        { "answer": "play → Drop the e", "why": "saw a letter to remove where there is none", "remedy": "Does play end in a silent e? Look at the last letter — what is it?" },
+        { "answer": "bake → Just add", "why": "missed the silent e", "remedy": "Say bake — hear the long a? That's the silent e's magic. What must it do before -ing?" }
+      ],
+      "hints": ["Question 1 only: silent e on the end?", "jump and play have no silent e."],
+      "reteach": { "say": "Easy sort, one question: silent e on the end? Bake and smile — yes, e on the end → Drop bag. Jump and play — no e → Just add bag. One look at the last letter does it.", "block": { "type": "table", "headers": ["word", "ends in e?", "bag"], "rows": [["bake", "yes", "Drop the e"], ["smile", "yes", "Drop the e"], ["jump", "no", "Just add"], ["play", "no", "Just add"]] } }
+    },
+    {
+      "id": "l09-p02", "skill": "name the rule for a word", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which bag does happy go in?", "options": ["y → i", "Just add", "Drop the e", "Double"], "correct": 0, "explain": "Happy ends in y (with a consonant before it) → the y → i bag: happier, happiest." },
+      "expectedAnswer": "y → i",
+      "wrongAnswers": [
+        { "answer": "Just add", "why": "didn't check the ending", "remedy": "Look at the last letter of happy. Which question does that trigger?" },
+        { "answer": "Double", "why": "rule mix-up", "remedy": "Doubling is for short-vowel words like run. Happy ends in… what letter?" }
+      ],
+      "hints": ["Look at the LAST letter of happy.", "Question 3: does it end in y?"],
+      "reteach": { "say": "Happy ends in y — that's question three! y → i bag: happy → happier. The end of the word always tells you the rule.", "block": { "type": "emojiViz", "emojis": "😊➡️📦", "caption": "happy ends in y → the y → i bag" } }
+    },
+    {
+      "id": "l09-p03", "skill": "match words to rules", "level": 1,
+      "block": { "type": "matchPairs", "prompt": "Match each word to its rule.", "pairs": [ { "left": "run", "right": "Double" }, { "left": "hope", "right": "Drop the e" }, { "left": "jump", "right": "Just add" }, { "left": "cry", "right": "y → i" } ] },
+      "expectedAnswer": "run→Double, hope→Drop the e, jump→Just add, cry→y → i",
+      "wrongAnswers": [
+        { "answer": "hope → Double", "why": "hope/hop confusion", "remedy": "Look at the end of hope — is there a silent e? Then which rule?" },
+        { "answer": "jump → Double", "why": "doubled where no doubling applies", "remedy": "Jump ends in TWO consonants (m, p) — not one. So no doubling needed. Which bag takes the leftovers?" }
+      ],
+      "hints": ["Walk the three questions for each word.", "Only one of these words ends in a silent e."],
+      "reteach": { "say": "Four words, four different endings: hope has the silent e (drop), run has short u + one n (double), cry ends in y (transform), and jump matches nothing — so it just adds. Every bag gets exactly one!", "block": { "type": "table", "headers": ["word", "ending", "rule"], "rows": [["hope", "silent e", "Drop the e"], ["run", "short vowel + n", "Double"], ["cry", "y", "y → i"], ["jump", "two consonants", "Just add"]] } }
+    },
+    {
+      "id": "l09-p04", "skill": "full four-rule sort", "level": 2,
+      "block": { "type": "categorize", "prompt": "The full morning post! Sort all eight words into their rule-bags.", "buckets": ["Just add", "Drop the e", "Double", "y → i"], "items": [ { "text": "jump", "bucket": "Just add" }, { "text": "hope", "bucket": "Drop the e" }, { "text": "run", "bucket": "Double" }, { "text": "happy", "bucket": "y → i" }, { "text": "bake", "bucket": "Drop the e" }, { "text": "sit", "bucket": "Double" }, { "text": "play", "bucket": "Just add" }, { "text": "cry", "bucket": "y → i" } ] },
+      "expectedAnswer": "jump/play → Just add; hope/bake → Drop the e; run/sit → Double; happy/cry → y → i",
+      "wrongAnswers": [
+        { "answer": "play → y → i", "why": "saw the y but missed the vowel before it", "remedy": "Play's y has a vowel (a) right before it — that y is comfy, it never changes. Which bag takes words that need no change?" },
+        { "answer": "hope → Double", "why": "hope/hop confusion", "remedy": "Spell hope out loud — h-o-p-e. There's the silent e! Which bag?" }
+      ],
+      "hints": ["Ask the three questions for every single word.", "Each bag gets exactly two words."],
+      "reteach": { "say": "Let's sort just the two sneakiest: hope has a silent e → Drop bag. Play ends in y BUT there's a vowel before it — that y never changes → Just add bag. Now try the other six with the three questions.", "block": { "type": "table", "headers": ["bag", "words"], "rows": [["Just add", "jump, play"], ["Drop the e", "hope, bake"], ["Double", "run, sit"], ["y → i", "happy, cry"]] } },
+      "interestSlots": ["parcels", "letters"]
+    },
+    {
+      "id": "l09-p05", "skill": "apply drop-e after sorting", "level": 2,
+      "block": { "type": "fillBlank", "text": "hope + ing = ___", "answer": "hoping", "wordBank": ["hoping", "hopping", "hopeing"] },
+      "expectedAnswer": "hoping",
+      "wrongAnswers": [
+        { "answer": "hopping", "why": "sorted into the Double bag — but hope has a silent e", "remedy": "Spell the root: h-o-p-e. See the e? Which bag — and what does the e do?" },
+        { "answer": "hopeing", "why": "sorted correctly but didn't apply the rule", "remedy": "Right bag! Now DO the rule: the e hops off before -ing moves in." }
+      ],
+      "hints": ["Question 1: silent e on the end of hope?", "Cross the e, then add -ing."],
+      "reteach": { "say": "Hope arrives at the office: silent e on the end → Drop bag → cross the e → hoping. One p, no e. (Hopping with twin p's belongs to hop!)", "block": { "type": "table", "headers": ["root", "bag", "spelling"], "rows": [["hope", "Drop the e", "hoping"], ["hop", "Double", "hopping"]] } }
+    },
+    {
+      "id": "l09-p06", "skill": "apply doubling after sorting", "level": 2,
+      "block": { "type": "fillBlank", "text": "hop + ing = ___", "answer": "hopping", "wordBank": ["hopping", "hoping", "hopeing"] },
+      "expectedAnswer": "hopping",
+      "wrongAnswers": [
+        { "answer": "hoping", "why": "didn't double — that's hope's word (wishing)", "remedy": "Spell the root: h-o-p. No e! Short o, one p → which bag? What do twins protect?" },
+        { "answer": "hopeing", "why": "invented a silent e", "remedy": "Hop has no e to drop. Short vowel + one consonant → double the p." }
+      ],
+      "hints": ["Spell hop out loud — is there an e?", "Short vowel + one consonant → twin letters."],
+      "reteach": { "say": "Hop: h-o-p, short and bouncy, no e anywhere. Question two says YES — one short vowel, one consonant → double the p → hopping. The twin p's keep it bouncing.", "block": { "type": "emojiViz", "emojis": "🐰🐰", "caption": "hop → hopping (twin p's, like twin bunnies)" } }
+    },
+    {
+      "id": "l09-p07", "skill": "apply y → i after sorting", "level": 2,
+      "block": { "type": "fillBlank", "text": "cry + ed = ___", "answer": "cried", "wordBank": ["cried", "cryed", "criing"] },
+      "expectedAnswer": "cried",
+      "wrongAnswers": [
+        { "answer": "cryed", "why": "sorted right but kept the y", "remedy": "Right bag — now do the transformation! Before -ed, the y becomes…?" },
+        { "answer": "criing", "why": "grabbed the -ing exception form for an -ed build", "remedy": "Check the tail I asked for — it's -ed, not -ing. y → i, then -ed: cried." }
+      ],
+      "hints": ["Cry ends in y — question three!", "The suffix is -ed, so the y transforms."],
+      "reteach": { "say": "Cry ends in y → y → i bag. The suffix is -ed (not -ing!), so the y transforms: cri + ed = cried. Only -ing would let the y stay: crying.", "block": { "type": "table", "headers": ["build", "y does", "word"], "rows": [["cry + ed", "changes to i", "cried"], ["cry + ing", "stays", "crying"]] } }
+    },
+    {
+      "id": "l09-p08", "skill": "read built words aloud across rules", "level": 2,
+      "block": { "type": "speak", "prompt": "Read the sorted post out loud: jumping… hoping… hopping… happier.", "target": "jumping, hoping, hopping, happier" },
+      "expectedAnswer": "Reads all four words correctly, with hoping (long o) and hopping (short o) clearly different",
+      "wrongAnswers": [
+        { "answer": "hoping and hopping read the same", "why": "not using the double letter as a sound clue", "remedy": "Look at the p's! One p — the o says its long name: HOH-ping. Twin p's — short and bouncy: HOP-ping." },
+        { "answer": "happy-er for happier", "why": "read the root + suffix instead of the new word", "remedy": "The y already transformed — read the new word in two smooth beats: happi-er." }
+      ],
+      "hints": ["Count the p's before you read.", "Twin letters = short, bouncy sound."],
+      "reteach": { "say": "Reading is the sorting-office's final check! One p in hoping — long o, a wishing word. Twin p's in hopping — short o, a bouncing word. Read each one and let the letters tell you the sound." }
+    },
+    {
+      "id": "l09-p09", "skill": "spot the just-add trap (vowel before y)", "level": 3,
+      "block": { "type": "fillBlank", "text": "play + ing = ___", "answer": "playing", "wordBank": ["playing", "plaiing", "playying"] },
+      "expectedAnswer": "playing",
+      "wrongAnswers": [
+        { "answer": "plaiing", "why": "applied y → i to a word where the y has a vowel before it", "remedy": "Look just before the y in play — there's an a! A y with a vowel friend never changes. Which bag?" },
+        { "answer": "playying", "why": "doubled where no rule applies", "remedy": "Play matches none of the three questions — no silent e, not CVC, and its y has a vowel before it. So…just add!" }
+      ],
+      "hints": ["Check the letter BEFORE the y in play.", "A y with a vowel before it stays put — just add."],
+      "reteach": { "say": "The trickster of the office! Play ends in y, but peek before it — a vowel, a. A y with a vowel friend is comfy and never transforms. No silent e, no CVC pattern either… so play walks straight into Just add: playing.", "block": { "type": "table", "headers": ["word", "before the y", "rule"], "rows": [["play", "vowel (a)", "just add → playing"], ["cry", "consonant (r)", "y → i → cried"]] } }
+    },
+    {
+      "id": "l09-p10", "skill": "reject a rule where none applies", "level": 3,
+      "block": { "type": "trueFalse", "statement": "jump + ing = jumpping.", "correct": false, "explain": "Jump ends in TWO consonants (m, p) — no doubling needed. Just add: jumping." },
+      "expectedAnswer": "False — it's jumping (just add)",
+      "wrongAnswers": [
+        { "answer": "True", "why": "added a rule where none applies — doubled after two consonants", "remedy": "Walk the questions: silent e? No. ONE short vowel + ONE consonant? Look — jump ends in m AND p, two consonants. So which bag?" }
+      ],
+      "hints": ["Count the consonants at the end of jump.", "Doubling is only for ONE vowel + ONE consonant."],
+      "reteach": { "say": "The doubling test is strict: exactly ONE vowel then ONE consonant. Jump ends in m-p — two consonants guarding the u already, no twins needed. Jump just adds: jumping. Extra rules make extra mistakes!", "block": { "type": "table", "headers": ["word", "ending", "double?"], "rows": [["run", "u + n (one!)", "yes → running"], ["jump", "m + p (two)", "no → jumping"]] } }
+    },
+    {
+      "id": "l09-p11", "skill": "explain a word that fits no bag neatly", "level": 3,
+      "block": { "type": "shortText", "prompt": "The word 'see' arrives at the sorting office for -ing. Which bag does it go in — and why is it a bit tricky?", "sample": "Just add — seeing. It looks like it ends in e, but ee is a vowel team, not a silent e, so nothing is dropped." },
+      "expectedAnswer": "Just add → seeing; the ee is a vowel team, not a silent e",
+      "wrongAnswers": [
+        { "answer": "Drop the e → seing", "why": "treated the vowel-team ee like a silent e", "remedy": "Say see — do you HEAR that long e? A silent e is quiet; this e is doing the talking. Both e's stay: seeing." },
+        { "answer": "Double → seeeing", "why": "guessed a rule instead of walking the questions", "remedy": "Is see a short-vowel word with one consonant at the end? It doesn't even end in a consonant! Which bag takes the words that match nothing?" }
+      ],
+      "hints": ["Say see out loud — is that e silent?", "When a word matches none of the three questions, it just adds."],
+      "reteach": { "say": "Expert-level post! See ends in ee — a LOUD vowel team, not a quiet silent e. It matches none of our three questions, so it takes the default bag: just add → seeing. The questions protect you even from brand-new words.", "block": { "type": "table", "headers": ["word", "the e is…", "result"], "rows": [["hope", "silent", "drop → hoping"], ["see", "loud (ee team)", "just add → seeing"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave sorting, spelling and explain-why items in a random order.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then narrow to a two-bag sort (level 1) before rebuilding to four bags.",
+    "masterySignal": "6+ of the 8 core words sorted correctly AND the suffixed forms spelled accurately (especially hoping/hopping) → mastery ≥ 0.8 for 'choose the right suffix rule'.",
+    "struggleProtocol": [
+      "Don't sort it for them.",
+      "Name why: 'let's check the end of this word again.'",
+      "Step down: narrow to three columns or pre-group the cards roughly.",
+      "ONE hint: ask just one of the three questions ('does it end in a silent e?').",
+      "Re-ask a smaller version (sort two cards only), then build back up.",
+      "Keep it safe: 'Sorting takes a careful eye — read the end and we'll check together.'"
+    ],
+    "personalization": "The 'post' can be parcels of anything the child loves (dinosaur cards, football stickers) and the office can be renamed after them — the root words themselves never change.",
+    "endOnSuccess": "Finish on a winnable sort; process praise: 'you read the end of every word before filing it — that's expert sorting.'"
+  },
+
+  "differentiation": {
+    "support": "Use three columns only (park y → i until secure) and pre-group the cards roughly so the child confirms rather than sorts from scratch.",
+    "stretch": "Add a 'trick' word that fits none of the four bags (see → seeing — a vowel team, not a silent e) and explain why."
+  },
+  "extension": "Invent two new word cards, sort them, and teach the rule back to the tutor.",
+  "assessmentEvidence": "Child sorts at least six of eight words into the correct rule column and spells the suffixed forms accurately (esp. hoping/hopping).",
+  "revisitLater": "Keep a couple of these cards for a warm-up before Lesson 10; this routine feeds the End-of-Unit 2 check (spell hopping, hoped, happier)."
+}

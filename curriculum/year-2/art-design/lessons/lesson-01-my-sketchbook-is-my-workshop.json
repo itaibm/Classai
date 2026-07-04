@@ -1,0 +1,1271 @@
+{
+  "vocabulary": [
+    {
+      "term": "sketchbook",
+      "definition": "A book artists use to collect, practise, test, and record ideas.",
+      "example": "I tried six different pencil marks on my sketchbook page."
+    },
+    {
+      "term": "date",
+      "definition": "The day, month, and year written on a page so you know when you made it.",
+      "example": "Today I write the date at the top of my sketchbook page."
+    },
+    {
+      "term": "test page",
+      "definition": "A sketchbook page for trying things out, not for making a perfect picture.",
+      "example": "My first page is a test page full of different lines."
+    },
+    {
+      "term": "experiment",
+      "definition": "To try something and see what happens.",
+      "example": "I experimented by pressing the crayon softly, then hard."
+    },
+    {
+      "term": "mark-making",
+      "definition": "Making different kinds of lines, dots, textures, and marks with art tools.",
+      "example": "Zig-zags, dots, loops, scratches, and wavy lines are all mark-making."
+    }
+  ],
+  "emphasize": [
+    "A sketchbook is an artist’s workshop: it is for testing, experimenting, practising, and recording ideas.",
+    "The date matters because it helps artists see their work and progress over time.",
+    "Misconception to pre-empt: a sketchbook is not only for neat, finished, perfect pictures; crossings-out and messy tests are useful."
+  ],
+  "analysis": {
+    "keyConcepts": [
+      "Sketchbooks help artists improve because they are used often for practice and experiments.",
+      "A dated page is a record of learning.",
+      "Mark-making explores line: thick, thin, straight, curved, wavy, dotted, light, dark, scratchy, smooth."
+    ],
+    "misconceptions": [
+      "Thinking every sketchbook page must look tidy or beautiful.",
+      "Thinking mistakes should be rubbed out immediately.",
+      "Thinking artists only draw finished pictures, not tests and experiments."
+    ],
+    "hooks": [
+      "Real artists’ sketchbooks often look busy, messy, crossed-out, and full of brave experiments.",
+      "Mess and mistakes are not a problem today — they are the point."
+    ],
+    "priorKnowledge": [
+      "The learner can use pencils, crayons, or fine-liners to make simple lines and shapes.",
+      "The learner may know some line words such as straight, wavy, zig-zag, thick, and thin.",
+      "The learner may have used a book or paper for drawing before."
+    ]
+  },
+  "materials": {
+    "human": [
+      "Sketchbook or several sheets of paper stapled/folded together",
+      "Pencil",
+      "Fine-liner or felt-tip if available",
+      "Crayons or coloured pencils",
+      "Optional support: adult draws a small date box and a 6-square grid before the activity"
+    ],
+    "digital": []
+  },
+  "delivery": {
+    "mode": "fully_ai",
+    "humanNotes": "An adult may help gather materials and, if needed, pre-draw a date box and 6-square grid. The AI leads the lesson."
+  },
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [
+        2,
+        3
+      ],
+      "goal": "Spark curiosity and make the learner feel safe about messy experiments.",
+      "note": "Open with the big idea that artists use sketchbooks as workshops, not galleries.",
+      "successCriteria": "Learner understands that today’s page does not need to be perfect.",
+      "script": {
+        "say": "Today your sketchbook becomes your artist workshop. In a workshop, artists try things, change their minds, and make messy discoveries. So today, crossings-out, wild lines, and surprising marks are welcome.",
+        "adaptHints": "If the learner likes a hobby, compare the sketchbook to a practice place: a football pitch for training, a dance studio for rehearsing, or a science lab for testing."
+      },
+      "blocks": [
+        {
+          "type": "slideshow",
+          "title": "Inside an artist’s sketchbook",
+          "slides": [
+            {
+              "title": "Not a perfect picture book",
+              "body": "Artists use sketchbooks to try things out.",
+              "emoji": "📒"
+            },
+            {
+              "title": "Mess is useful",
+              "body": "Pages can have crossings-out, scribbles, tests, and notes.",
+              "emoji": "✏️"
+            },
+            {
+              "title": "Ideas grow here",
+              "body": "A small test today can become a bigger artwork later.",
+              "emoji": "🌱"
+            }
+          ]
+        }
+      ],
+      "stuckProtocol": [
+        "Reassure: “You do not have to make it neat today.”",
+        "Repeat the phrase: “Workshop, not gallery.”"
+      ]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [
+        4,
+        5
+      ],
+      "goal": "Teach the new idea: a sketchbook is for testing, experimenting, and recording ideas, with a date.",
+      "note": "One new idea only: the sketchbook as a workshop/test space. Include vocabulary in context.",
+      "successCriteria": "Learner can say that a sketchbook is for trying, testing, and recording, not just finished art.",
+      "script": {
+        "say": "A sketchbook is like a workshop in book form. Artists use it to test marks, practise lines, collect ideas, and remember what they tried. The date is important because it shows when the artist made that page.",
+        "adaptHints": "Use the learner’s name: “In [name]’s sketchbook, we want to see ideas growing.”"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Sketchbook = artist workshop",
+          "animate": true,
+          "elements": [
+            {
+              "k": "rect",
+              "x": 5,
+              "y": 8,
+              "w": 34,
+              "h": 18,
+              "label": "Sketchbook",
+              "color": "blue"
+            },
+            {
+              "k": "line",
+              "x1": 39,
+              "y1": 17,
+              "x2": 55,
+              "y2": 17,
+              "arrow": true,
+              "color": "ink"
+            },
+            {
+              "k": "rect",
+              "x": 58,
+              "y": 5,
+              "w": 35,
+              "h": 12,
+              "label": "Test marks",
+              "color": "green"
+            },
+            {
+              "k": "rect",
+              "x": 58,
+              "y": 22,
+              "w": 35,
+              "h": 12,
+              "label": "Try ideas",
+              "color": "orange"
+            },
+            {
+              "k": "rect",
+              "x": 58,
+              "y": 39,
+              "w": 35,
+              "h": 12,
+              "label": "Record date",
+              "color": "purple"
+            },
+            {
+              "k": "text",
+              "x": 8,
+              "y": 38,
+              "value": "Workshop, not gallery",
+              "size": 5,
+              "color": "accent"
+            },
+            {
+              "k": "path",
+              "points": [
+                {
+                  "x": 12,
+                  "y": 30
+                },
+                {
+                  "x": 18,
+                  "y": 34
+                },
+                {
+                  "x": 24,
+                  "y": 30
+                },
+                {
+                  "x": 30,
+                  "y": 34
+                },
+                {
+                  "x": 36,
+                  "y": 30
+                }
+              ],
+              "color": "red"
+            },
+            {
+              "k": "dot",
+              "x": 15,
+              "y": 48,
+              "color": "ink"
+            },
+            {
+              "k": "dot",
+              "x": 21,
+              "y": 48,
+              "color": "ink"
+            },
+            {
+              "k": "dot",
+              "x": 27,
+              "y": 48,
+              "color": "ink"
+            }
+          ]
+        }
+      ],
+      "stuckProtocol": [
+        "Point back to the three boxes: test marks, try ideas, record date.",
+        "Say: “Finished art can happen later. Today we are collecting tries.”"
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [
+        4,
+        5
+      ],
+      "goal": "Model how to set up and start a first test page with a date and warm-up mark-making strip.",
+      "note": "Concrete demonstration before learner makes their own page. No rubbing out rule introduced positively.",
+      "successCriteria": "Learner sees exactly where to put the date and what a warm-up strip can contain.",
+      "script": {
+        "say": "Here is one way to start. First, make a small date box. Then make a warm-up strip: little spaces for different marks. The rule today is: no rubbing out. If a mark surprises you, keep it — it is evidence of experimenting.",
+        "adaptHints": "If the learner does not know today’s date, tell them to ask an adult or write a simple version such as “Today” for now, then add the date later."
+      },
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "Set up your first test page",
+          "steps": [
+            "Open to a fresh page and write the date at the top.",
+            "Draw a long strip or 6 small boxes under the date.",
+            "Fill each space with a different kind of mark: dots, zig-zags, loops, scratches, soft lines, dark lines.",
+            "Do not rub out. Add more marks around the page if you want.",
+            "Optional: write one tiny note, like “I tried soft pencil” or “scratchy crayon.”"
+          ]
+        }
+      ],
+      "stuckProtocol": [
+        "Offer a 6-box version: dots, zig-zag, wavy, loops, light line, dark line.",
+        "Remind: “A test page cannot be ruined by testing.”"
+      ]
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [
+        3,
+        4
+      ],
+      "goal": "Check understanding of the purpose of a sketchbook before independent making.",
+      "note": "Interactive block carries the question and answer. React to the app result next turn in implementation.",
+      "successCriteria": "Learner chooses testing, experimenting, and recording ideas as the real purpose.",
+      "script": {
+        "say": "Quick artist-thinking check. Choose the answer that best matches today’s big idea.",
+        "adaptHints": "Keep tone light; if incorrect, frame it as a useful almost-answer, not failure."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "What is a sketchbook really for?",
+          "options": [
+            "Only perfect finished pictures",
+            "Testing, experimenting, and recording ideas",
+            "Keeping every page clean and empty",
+            "Drawing only one kind of line"
+          ],
+          "correct": 1,
+          "explain": "A sketchbook is an artist’s workshop. It is for testing, experimenting, practising, and recording ideas — not just perfect finished pictures."
+        }
+      ],
+      "check": {
+        "question": "What is a sketchbook really for?",
+        "expectedAnswer": "Testing, experimenting, practising, and recording ideas; not only perfect finished pictures.",
+        "wrongAnswers": [
+          {
+            "answer": "Only perfect finished pictures",
+            "why": "This treats the sketchbook like a gallery, not a workshop.",
+            "remedy": "Say: “Finished pictures can be lovely, but sketchbooks help artists get better by trying things first.”"
+          },
+          {
+            "answer": "Keeping every page clean and empty",
+            "why": "An empty page does not show experiments or learning.",
+            "remedy": "Say: “A useful sketchbook page often has lots of marks because it records thinking.”"
+          },
+          {
+            "answer": "Drawing only one kind of line",
+            "why": "Artists use sketchbooks to explore many marks, materials, and ideas.",
+            "remedy": "Ask the learner to name two different marks, such as dots and zig-zags."
+          }
+        ]
+      },
+      "stuckProtocol": [
+        "Repeat: “Workshop, not gallery.”",
+        "Ask: “Would an artist learn more from trying one mark or many marks?”"
+      ]
+    },
+    {
+      "kind": "practice",
+      "delivery": "human",
+      "timeboxMin": [
+        10,
+        12
+      ],
+      "goal": "Learner creates a first dated sketchbook test page filled with many marks.",
+      "note": "This is the heart of the lesson. Most time is learner doing. Adult only supports setup and safety with materials.",
+      "successCriteria": "Learner dates the page and fills it with varied marks without rubbing out; stretch learner adds one written note next to a mark.",
+      "script": {
+        "say": "Now it is your turn. Open your sketchbook, add the date, and fill your first test page with as many different marks as you can. Try pencil, fine-liner, and crayon if you have them. Remember: no rubbing out today — every mark is part of the experiment.",
+        "adaptHints": "Encourage the learner to use favourite movement words: bouncy lines, rainy dots, racing zig-zags, sleepy soft lines."
+      },
+      "humanHandoff": {
+        "setup": "Give the child the sketchbook/paper, pencil, fine-liner or felt-tip, and crayons. If they need support, draw a small date box and a 6-square grid before they begin.",
+        "cueToResume": "When the child has filled the test page or after about 10 minutes, return to the AI and say: “We’re ready to recap.”"
+      },
+      "stuckProtocol": [
+        "If the learner freezes, suggest six starter marks: dots, dashes, zig-zags, spirals, wavy lines, and scribbly texture.",
+        "If the learner wants to erase, say: “Keep it. Artists need evidence of the experiment.”",
+        "If the learner finishes quickly, challenge: “Can you make the same mark light, medium, and dark?”"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [
+        2,
+        3
+      ],
+      "goal": "Consolidate the earned win and reinforce process praise.",
+      "note": "End on pride in the dated test page and the concept of sketchbook as workshop.",
+      "successCriteria": "Learner can explain that their page is a dated test page for experiments, not a perfect picture.",
+      "script": {
+        "say": "You have made your first artist workshop page. The date shows when you began, and the marks show your experiments. The win today is not neatness — it is bravery, trying, and filling the page with ideas.",
+        "adaptHints": "Name a visible effort if known: “I like how you kept going even when a mark changed direction.”"
+      },
+      "blocks": [
+        {
+          "type": "keyTerm",
+          "term": "test page",
+          "definition": "A sketchbook page where an artist tries marks, tools, and ideas to see what happens.",
+          "example": "My dated test page has dots, zig-zags, soft pencil lines, dark crayon lines, and one note about what I tried."
+        }
+      ],
+      "stuckProtocol": [
+        "If the learner says it is messy, respond: “Yes — useful messy. That is what a workshop page can look like.”",
+        "Ask them to point to one mark they are glad they tried."
+      ]
+    }
+  ],
+  "differentiation": {
+    "support": "Use a pre-drawn date box and 6-square grid. Offer six simple mark prompts: dots, dashes, zig-zags, waves, loops, and soft lines. Adult may scribe the date if needed.",
+    "stretch": "Add a short written note next to one mark explaining what was tried, such as “pressed hard,” “used crayon sideways,” or “made tiny dots.”"
+  },
+  "extension": "Make a second mini strip using only one tool, but change pressure and speed: light, hard, slow, fast, tiny, huge.",
+  "assessmentEvidence": "The learner’s dated page contains multiple different marks and the learner can state that a sketchbook is for testing, experimenting, and recording ideas rather than only perfect pictures.",
+  "revisitLater": "Next lesson, refer back to this first dated test page and ask what mark they might build up, outline, or add detail to.",
+  "format": "classai-lesson/1",
+  "id": "y2-art-design-u1-l01",
+  "year": 2,
+  "subject": "art-design",
+  "subjectLabel": "Art & Design",
+  "unit": {
+    "number": 1,
+    "title": "Sketchbook habits & line revisited",
+    "essentialQuestion": "How does an artist use a sketchbook to get better?"
+  },
+  "lessonNumber": 1,
+  "kind": "lesson",
+  "topic": "Sketchbook habits & line revisited",
+  "title": "My sketchbook is my workshop",
+  "durationMin": 25,
+  "objectives": [
+    "By the end, I can set up and date a sketchbook page and explain it is for testing, not for perfect pictures."
+  ],
+  "difficulty": "standard",
+  "status": "approved",
+  "practiceBank": [
+    {
+      "id": "y2-art-design-u1-l01-p01",
+      "skill": "understand sketchbook purpose",
+      "level": 1,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "What is a sketchbook really for?",
+        "options": [
+          "Testing and trying ideas",
+          "Only perfect finished pictures",
+          "Keeping blank pages clean"
+        ],
+        "correct": 0,
+        "explain": "A sketchbook is like an artist’s workshop: a place to test, try, record, and learn."
+      },
+      "expectedAnswer": "Testing and trying ideas",
+      "wrongAnswers": [
+        {
+          "answer": "Only perfect finished pictures",
+          "why": "The learner may think art pages must look neat or complete.",
+          "remedy": "Say: Finished pictures can happen later. In a sketchbook, the trying is the important part."
+        },
+        {
+          "answer": "Keeping blank pages clean",
+          "why": "The learner may be worried about making mistakes or making a mess.",
+          "remedy": "Say: A clean blank page does not teach us much. Marks, tests, and even crossings-out show learning."
+        }
+      ],
+      "hints": [
+        "Think: is a workshop tidy and perfect, or full of trying?",
+        "Artists use sketchbooks before the finished artwork."
+      ],
+      "reteach": {
+        "say": "A sketchbook is not a display wall. It is a workshop page where artists test marks, ideas, colours, and shapes.",
+        "block": {
+          "type": "keyTerm",
+          "term": "sketchbook",
+          "definition": "A book artists use to test, practise, record ideas, and experiment.",
+          "example": "A page with pencil lines, colour tests, notes, and crossings-out."
+        }
+      },
+      "interestSlots": [
+        "football",
+        "dinosaurs",
+        "cats",
+        "space",
+        "trains"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p02",
+      "skill": "identify date on page",
+      "level": 1,
+      "block": {
+        "type": "fillBlank",
+        "text": "At the top of my sketchbook page, I write the ___ so I can remember when I made it.",
+        "answer": "date",
+        "wordBank": [
+          "date",
+          "rubber",
+          "mistake"
+        ]
+      },
+      "expectedAnswer": "date",
+      "wrongAnswers": [
+        {
+          "answer": "rubber",
+          "why": "The learner may focus on the tool rather than the page habit.",
+          "remedy": "Point to the time idea: we write something that tells us when we made the page."
+        },
+        {
+          "answer": "mistake",
+          "why": "The learner may remember that mistakes are allowed, but not the setup habit.",
+          "remedy": "Say: Mistakes can stay on the page, but the first setup step is the date."
+        }
+      ],
+      "hints": [
+        "It tells you the day you made the page.",
+        "It is often written near the top or in a small date box."
+      ],
+      "reteach": {
+        "say": "Dating a page means writing today’s date on it. Later, you can look back and see how your artist skills have grown.",
+        "block": {
+          "type": "richText",
+          "markdown": "**Sketchbook setup habit**\n- Open a new page\n- Write the **date**\n- Then begin testing marks"
+        }
+      },
+      "interestSlots": [
+        "birthday",
+        "calendar",
+        "school day",
+        "art day"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p03",
+      "skill": "no rubbing out mindset",
+      "level": 1,
+      "block": {
+        "type": "trueFalse",
+        "statement": "In a test page, I should rub out every mark that looks strange.",
+        "correct": false,
+        "explain": "Strange marks are useful tests. In this lesson, no rubbing out: the page shows your experiments."
+      },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        {
+          "answer": "True",
+          "why": "The learner may believe unusual marks are mistakes that must be hidden.",
+          "remedy": "Say: In a sketchbook workshop, strange marks are evidence. We keep them so we can learn from them."
+        }
+      ],
+      "hints": [
+        "What did we say is the point of the page: perfect or testing?",
+        "If a mark is strange, it can still teach you something."
+      ],
+      "reteach": {
+        "say": "Today, the sketchbook rule is: test it, keep it, learn from it. Rubbing out can stop us seeing what we tried.",
+        "block": {
+          "type": "emojiViz",
+          "emojis": "✏️〰️➿✖️⭐",
+          "caption": "Different marks can all belong on a test page."
+        }
+      },
+      "interestSlots": [
+        "muddy boots",
+        "silly monsters",
+        "wild rockets",
+        "wobbly worms"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p04",
+      "skill": "recognise test page features",
+      "level": 2,
+      "block": {
+        "type": "multiSelect",
+        "prompt": "Which things belong on a first sketchbook test page? Pick all that fit.",
+        "options": [
+          "Today’s date",
+          "A warm-up strip of different marks",
+          "Only one perfect drawing",
+          "Colour or pencil experiments",
+          "Every mistake rubbed away"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "explain": "A test page can have the date, a warm-up strip, and lots of experiments. It does not need to be perfect."
+      },
+      "expectedAnswer": "Today’s date; a warm-up strip of different marks; colour or pencil experiments",
+      "wrongAnswers": [
+        {
+          "answer": "Only one perfect drawing",
+          "why": "The learner may still connect art with polished final outcomes.",
+          "remedy": "Remind them: this page is a workshop, not a gallery."
+        },
+        {
+          "answer": "Every mistake rubbed away",
+          "why": "The learner may be avoiding visible mistakes.",
+          "remedy": "Say: On a test page, odd marks stay because they show what was tried."
+        },
+        {
+          "answer": "Misses date",
+          "why": "The learner may understand experimenting but forget the setup routine.",
+          "remedy": "Prompt: What tiny writing habit helps us remember when the page was made?"
+        }
+      ],
+      "hints": [
+        "Choose the things that help an artist test and remember.",
+        "A test page can be messy and useful."
+      ],
+      "reteach": {
+        "say": "A first test page needs two kinds of things: a setup habit, like the date, and experimenting habits, like trying lots of marks.",
+        "block": {
+          "type": "table",
+          "headers": [
+            "Belongs on test page",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Date",
+              "Records when you worked"
+            ],
+            [
+              "Warm-up strip",
+              "Gets your hand moving"
+            ],
+            [
+              "Experiments",
+              "Helps you discover marks"
+            ]
+          ],
+          "caption": "A sketchbook page is a record of trying."
+        }
+      },
+      "interestSlots": [
+        "superheroes",
+        "flowers",
+        "cars",
+        "dragons",
+        "underwater animals"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p05",
+      "skill": "sequence sketchbook setup",
+      "level": 2,
+      "block": {
+        "type": "ordering",
+        "prompt": "Put these sketchbook steps in a good order.",
+        "items": [
+          "Open a fresh page",
+          "Write the date",
+          "Make a warm-up strip",
+          "Fill the page with test marks"
+        ]
+      },
+      "expectedAnswer": "Open a fresh page → Write the date → Make a warm-up strip → Fill the page with test marks",
+      "wrongAnswers": [
+        {
+          "answer": "Making marks before writing the date",
+          "why": "The learner may be eager to draw and skip the recording habit.",
+          "remedy": "Say: The date is quick. It comes first so the page becomes part of your artist record."
+        },
+        {
+          "answer": "Filling the page before the warm-up strip",
+          "why": "The learner may not see the warm-up strip as preparation.",
+          "remedy": "Explain: The warm-up strip wakes up your hand before the bigger testing."
+        }
+      ],
+      "hints": [
+        "What must you open before you can work?",
+        "The date is a setup step, so it comes near the start."
+      ],
+      "reteach": {
+        "say": "Think of it like getting ready for PE: first you get to the space, then warm up, then do the main activity. In art: page, date, warm-up strip, then lots of testing.",
+        "block": {
+          "type": "steps",
+          "title": "Sketchbook start routine",
+          "steps": [
+            "Open a fresh page.",
+            "Write the date at the top or in the date box.",
+            "Make a strip of quick warm-up marks.",
+            "Keep going: fill the page with tests."
+          ]
+        }
+      },
+      "interestSlots": [
+        "PE warm-up",
+        "dance warm-up",
+        "football practice",
+        "music practice"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p06",
+      "skill": "sort sketchbook vs finished artwork",
+      "level": 2,
+      "block": {
+        "type": "categorize",
+        "prompt": "Sort each idea into the best place.",
+        "buckets": [
+          "Sketchbook workshop",
+          "Finished artwork"
+        ],
+        "items": [
+          {
+            "text": "Trying six different zigzag marks",
+            "bucket": "Sketchbook workshop"
+          },
+          {
+            "text": "Writing the date before testing",
+            "bucket": "Sketchbook workshop"
+          },
+          {
+            "text": "A neat picture chosen to display",
+            "bucket": "Finished artwork"
+          },
+          {
+            "text": "Crossing out an idea and trying again",
+            "bucket": "Sketchbook workshop"
+          },
+          {
+            "text": "Carefully signing a final piece",
+            "bucket": "Finished artwork"
+          }
+        ]
+      },
+      "expectedAnswer": "Sketchbook workshop: trying six different zigzag marks, writing the date before testing, crossing out an idea and trying again. Finished artwork: a neat picture chosen to display, carefully signing a final piece.",
+      "wrongAnswers": [
+        {
+          "answer": "Putting crossings-out in finished artwork only",
+          "why": "The learner may think crossing out is bad and not part of art learning.",
+          "remedy": "Say: Crossings-out often appear in sketchbooks because they show thinking and changing ideas."
+        },
+        {
+          "answer": "Putting all neat things in sketchbook workshop",
+          "why": "The learner may not distinguish practice from presentation.",
+          "remedy": "Explain: Sketchbooks can be neat sometimes, but their main job is testing. Finished artwork is selected and presented."
+        }
+      ],
+      "hints": [
+        "A workshop is where you try things before choosing the final idea.",
+        "Crossing out can be part of thinking."
+      ],
+      "reteach": {
+        "say": "A sketchbook workshop is for trying. A finished artwork is for showing a chosen result. Both matter, but they have different jobs.",
+        "block": {
+          "type": "whiteboard",
+          "title": "Workshop or Gallery?",
+          "animate": true,
+          "elements": [
+            {
+              "k": "rect",
+              "x": 5,
+              "y": 12,
+              "w": 38,
+              "h": 34,
+              "label": "Workshop",
+              "color": "blue"
+            },
+            {
+              "k": "text",
+              "x": 10,
+              "y": 24,
+              "value": "try • test",
+              "size": 5,
+              "color": "ink"
+            },
+            {
+              "k": "text",
+              "x": 10,
+              "y": 33,
+              "value": "change ideas",
+              "size": 5,
+              "color": "ink"
+            },
+            {
+              "k": "rect",
+              "x": 57,
+              "y": 12,
+              "w": 38,
+              "h": 34,
+              "label": "Gallery",
+              "color": "purple"
+            },
+            {
+              "k": "text",
+              "x": 62,
+              "y": 24,
+              "value": "chosen work",
+              "size": 5,
+              "color": "ink"
+            },
+            {
+              "k": "text",
+              "x": 62,
+              "y": 33,
+              "value": "display",
+              "size": 5,
+              "color": "ink"
+            },
+            {
+              "k": "line",
+              "x1": 43,
+              "y1": 29,
+              "x2": 57,
+              "y2": 29,
+              "arrow": true,
+              "color": "accent"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "gallery",
+        "museum",
+        "studio",
+        "maker space"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p07",
+      "skill": "explain sketchbook purpose",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "In one sentence, explain why an artist uses a sketchbook. Try to use the word ‘experiment’ or ‘test’.",
+        "sample": "An artist uses a sketchbook to test and experiment with ideas before making finished art."
+      },
+      "expectedAnswer": "A sentence explaining that an artist uses a sketchbook to test, experiment, practise, or record ideas, not only to make perfect pictures.",
+      "wrongAnswers": [
+        {
+          "answer": "An artist uses it to draw perfect pictures.",
+          "why": "This misses the lesson’s main idea that sketchbooks are for trying and learning.",
+          "remedy": "Ask them to add testing language: What might the artist try before a final picture?"
+        },
+        {
+          "answer": "An artist uses it because they have to.",
+          "why": "This is too vague and does not explain the purpose.",
+          "remedy": "Prompt with vocabulary: test, experiment, record ideas, practise marks."
+        },
+        {
+          "answer": "I don’t know.",
+          "why": "The learner may need sentence structure support.",
+          "remedy": "Offer a frame: An artist uses a sketchbook to ___."
+        }
+      ],
+      "hints": [
+        "Use this frame: An artist uses a sketchbook to…",
+        "Try adding: test marks, experiment, record ideas, practise."
+      ],
+      "reteach": {
+        "say": "The big idea is simple: sketchbooks help artists get better because they keep their tests and ideas in one place.",
+        "block": {
+          "type": "richText",
+          "markdown": "**Sentence frame**\nAn artist uses a sketchbook to **test** and **experiment** with ideas.\n\nYou can also say:\n- practise marks\n- record ideas\n- try again"
+        }
+      },
+      "interestSlots": [
+        "game designer",
+        "comic artist",
+        "fashion designer",
+        "inventor",
+        "builder"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p08",
+      "skill": "add reflective note",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Write a tiny artist note for a mark you tried. Start with: ‘I tried…’",
+        "sample": "I tried pressing lightly to make a pale, scratchy line."
+      },
+      "expectedAnswer": "A short note beginning with or similar to ‘I tried…’ that describes a mark-making experiment, such as pressing hard, pressing lightly, making zigzags, dots, spirals, fast lines, slow lines, thick lines, or thin lines.",
+      "wrongAnswers": [
+        {
+          "answer": "It is bad.",
+          "why": "The learner is judging the mark instead of describing the experiment.",
+          "remedy": "Shift from judgement to observation: What did you try with your hand or tool?"
+        },
+        {
+          "answer": "I drew a picture.",
+          "why": "This is too general and does not name the mark-making test.",
+          "remedy": "Ask: What kind of line or mark did you try—dotty, curly, hard, soft, fast, slow?"
+        },
+        {
+          "answer": "I tried art.",
+          "why": "The learner has the frame but needs more detail.",
+          "remedy": "Prompt them to add one action word: pressing, tapping, scribbling, zigzagging."
+        }
+      ],
+      "hints": [
+        "Name the action: pressing, tapping, dragging, scribbling, dotting.",
+        "Name what the mark looked like: light, dark, spiky, smooth, curly, broken."
+      ],
+      "reteach": {
+        "say": "An artist note does not need to be long. It just records what you tested, so future-you can remember it.",
+        "block": {
+          "type": "flashcards",
+          "cards": [
+            {
+              "front": "I tried pressing hard…",
+              "back": "…to make a dark, bold line."
+            },
+            {
+              "front": "I tried moving quickly…",
+              "back": "…to make scratchy zigzags."
+            },
+            {
+              "front": "I tried tapping…",
+              "back": "…to make tiny dots."
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "lightning",
+        "snake",
+        "robot",
+        "rain",
+        "grass"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p09",
+      "skill": "choose mark-making variety",
+      "level": 3,
+      "block": {
+        "type": "multiSelect",
+        "prompt": "Which choices would help you make a page full of different marks?",
+        "options": [
+          "Press hard, then press lightly",
+          "Use only the same line again and again",
+          "Try dots, zigzags, spirals, and dashes",
+          "Change speed: slow lines and fast lines",
+          "Stop after one tiny mark"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "explain": "Variety comes from changing pressure, shape, and speed."
+      },
+      "expectedAnswer": "Press hard then lightly; try dots, zigzags, spirals, and dashes; change speed with slow and fast lines.",
+      "wrongAnswers": [
+        {
+          "answer": "Use only the same line again and again",
+          "why": "Repeating one line does not explore many kinds of marks.",
+          "remedy": "Encourage changing one thing: pressure, direction, speed, or shape."
+        },
+        {
+          "answer": "Stop after one tiny mark",
+          "why": "A test page needs lots of attempts to discover possibilities.",
+          "remedy": "Set a mini challenge: make five different marks before stopping."
+        },
+        {
+          "answer": "Only selects dots/zigzags/spirals/dashes",
+          "why": "The learner recognises shapes but may miss pressure and speed as mark-making choices.",
+          "remedy": "Ask: What happens if your hand presses harder or moves faster?"
+        }
+      ],
+      "hints": [
+        "Different marks can come from different hand movements.",
+        "Think about pressure, speed, and shape."
+      ],
+      "reteach": {
+        "say": "To make many marks, change one thing at a time: how hard you press, how fast you move, or the shape your hand makes.",
+        "block": {
+          "type": "custom",
+          "title": "Three ways to change a mark",
+          "root": {
+            "t": "grid",
+            "cols": 3,
+            "children": [
+              {
+                "t": "card",
+                "children": [
+                  {
+                    "t": "text",
+                    "value": "Pressure",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  {
+                    "t": "text",
+                    "value": "light ↔ hard",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "t": "card",
+                "children": [
+                  {
+                    "t": "text",
+                    "value": "Speed",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  {
+                    "t": "text",
+                    "value": "slow ↔ fast",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "t": "card",
+                "children": [
+                  {
+                    "t": "text",
+                    "value": "Shape",
+                    "bold": true,
+                    "align": "center"
+                  },
+                  {
+                    "t": "text",
+                    "value": "dots • zigzags • spirals",
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "interestSlots": [
+        "waves",
+        "stars",
+        "spider webs",
+        "fireworks",
+        "animal fur"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p10",
+      "skill": "vocabulary match",
+      "level": 1,
+      "block": {
+        "type": "matchPairs",
+        "prompt": "Match the sketchbook words to what they mean.",
+        "pairs": [
+          {
+            "left": "date",
+            "right": "Shows when the page was made"
+          },
+          {
+            "left": "experiment",
+            "right": "Try something to see what happens"
+          },
+          {
+            "left": "mark-making",
+            "right": "Making different lines, dots, and textures"
+          }
+        ]
+      },
+      "expectedAnswer": "date = shows when the page was made; experiment = try something to see what happens; mark-making = making different lines, dots, and textures.",
+      "wrongAnswers": [
+        {
+          "answer": "date matched with making lines",
+          "why": "The learner may know date as a word but not connect it to recording time.",
+          "remedy": "Point to calendars and birthdays: a date tells when something happened."
+        },
+        {
+          "answer": "experiment matched with perfect picture",
+          "why": "The learner may confuse experimenting with finishing.",
+          "remedy": "Say: An experiment is a try-out. It may be surprising, messy, or useful."
+        },
+        {
+          "answer": "mark-making matched with shows when made",
+          "why": "The learner may not yet understand art vocabulary.",
+          "remedy": "Show examples: dots, dashes, zigzags, scribbles are all marks."
+        }
+      ],
+      "hints": [
+        "A date belongs on a calendar.",
+        "Experiment means try and see."
+      ],
+      "reteach": {
+        "say": "Let’s shrink the words: date means when, experiment means try, mark-making means making lines and dots.",
+        "block": {
+          "type": "table",
+          "headers": [
+            "Word",
+            "Tiny meaning"
+          ],
+          "rows": [
+            [
+              "date",
+              "when"
+            ],
+            [
+              "experiment",
+              "try"
+            ],
+            [
+              "mark-making",
+              "lines and dots"
+            ]
+          ],
+          "caption": "Quick sketchbook vocabulary"
+        }
+      },
+      "interestSlots": [
+        "calendar",
+        "science experiment",
+        "secret code",
+        "treasure map"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p11",
+      "skill": "count warm-up grid marks",
+      "level": 2,
+      "block": {
+        "type": "numberEntry",
+        "prompt": "Your warm-up strip has 6 boxes. If you put 1 different mark in each box, how many different marks will you test?",
+        "answer": 6,
+        "tolerance": 0,
+        "unit": "marks"
+      },
+      "expectedAnswer": "6 marks",
+      "wrongAnswers": [
+        {
+          "answer": "1",
+          "why": "The learner may be thinking about one mark per box but not the total number of boxes.",
+          "remedy": "Count each box aloud: 1, 2, 3, 4, 5, 6."
+        },
+        {
+          "answer": "5",
+          "why": "The learner may have miscounted the grid.",
+          "remedy": "Use finger counting or draw six quick squares and count them."
+        },
+        {
+          "answer": "More than 6",
+          "why": "The learner may imagine extra marks in boxes, which is possible, but the question asks one per box.",
+          "remedy": "Emphasise: one different mark in each of the six boxes means six marks."
+        }
+      ],
+      "hints": [
+        "Count the boxes.",
+        "One mark in each box: 1, 2, 3, 4, 5, 6."
+      ],
+      "reteach": {
+        "say": "If there are six spaces and each space gets one different mark, the total is six marks.",
+        "block": {
+          "type": "whiteboard",
+          "title": "6-box warm-up strip",
+          "animate": true,
+          "elements": [
+            {
+              "k": "rect",
+              "x": 8,
+              "y": 24,
+              "w": 12,
+              "h": 14,
+              "label": "1",
+              "color": "blue"
+            },
+            {
+              "k": "rect",
+              "x": 22,
+              "y": 24,
+              "w": 12,
+              "h": 14,
+              "label": "2",
+              "color": "blue"
+            },
+            {
+              "k": "rect",
+              "x": 36,
+              "y": 24,
+              "w": 12,
+              "h": 14,
+              "label": "3",
+              "color": "blue"
+            },
+            {
+              "k": "rect",
+              "x": 50,
+              "y": 24,
+              "w": 12,
+              "h": 14,
+              "label": "4",
+              "color": "blue"
+            },
+            {
+              "k": "rect",
+              "x": 64,
+              "y": 24,
+              "w": 12,
+              "h": 14,
+              "label": "5",
+              "color": "blue"
+            },
+            {
+              "k": "rect",
+              "x": 78,
+              "y": 24,
+              "w": 12,
+              "h": 14,
+              "label": "6",
+              "color": "blue"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "sticker boxes",
+        "treasure boxes",
+        "train carriages",
+        "comic panels"
+      ]
+    },
+    {
+      "id": "y2-art-design-u1-l01-p12",
+      "skill": "respond to messy artist sketchbook",
+      "level": 3,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "You see an artist’s sketchbook page with crossings-out, scribbles, and notes. What is the best artist response?",
+        "options": [
+          "That page is useless because it is messy.",
+          "That page shows experiments and thinking.",
+          "The artist must hide it and start again.",
+          "Only the neatest mark matters."
+        ],
+        "correct": 1,
+        "explain": "Mess, crossings-out, and notes can show the artist’s experiments and thinking."
+      },
+      "expectedAnswer": "That page shows experiments and thinking.",
+      "wrongAnswers": [
+        {
+          "answer": "That page is useless because it is messy.",
+          "why": "The learner may equate neatness with value.",
+          "remedy": "Say: In a sketchbook, mess can be useful because it records the artist’s choices and tests."
+        },
+        {
+          "answer": "The artist must hide it and start again.",
+          "why": "The learner may feel shame about mistakes.",
+          "remedy": "Reassure: Sketchbooks are private workshops. They do not need to be hidden or perfect."
+        },
+        {
+          "answer": "Only the neatest mark matters.",
+          "why": "The learner may focus on final appearance instead of learning process.",
+          "remedy": "Ask: What could the strange mark teach the artist?"
+        }
+      ],
+      "hints": [
+        "Think: workshop, not gallery.",
+        "Crossings-out can show that an artist changed their mind."
+      ],
+      "reteach": {
+        "say": "A messy sketchbook can be a strong sketchbook. It shows the artist was brave enough to try, change, and keep going.",
+        "block": {
+          "type": "slideshow",
+          "title": "Mess can mean learning",
+          "slides": [
+            {
+              "title": "Crossing-out",
+              "body": "The artist noticed something and changed direction.",
+              "emoji": "✏️"
+            },
+            {
+              "title": "Scribbles",
+              "body": "The artist warmed up their hand and tested movement.",
+              "emoji": "〰️"
+            },
+            {
+              "title": "Notes",
+              "body": "The artist recorded what they tried so they can remember.",
+              "emoji": "📝"
+            }
+          ]
+        }
+      },
+      "interestSlots": [
+        "detective clues",
+        "science lab",
+        "inventor notebook",
+        "wizard spellbook"
+      ]
+    }
+  ],
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "If the learner answers two Level 2 items correctly with confident language such as ‘test’, ‘experiment’, ‘date’, or ‘not perfect’, move to Level 3 stretch items that ask them to explain, choose variety, or write an artist note.",
+    "levelDown": "If the learner misses a Level 2 item or shows worry about neatness/perfection, move to Level 1 items using simple vocabulary, matching, and true/false reassurance before returning to Level 2.",
+    "masterySignal": "The learner can set up the page habit in order, identify the date, explain that a sketchbook is for testing/experimenting/recording ideas rather than perfect pictures, and name or write at least one mark-making test.",
+    "struggleProtocol": [
+      "Praise the process first: ‘You are thinking like an artist because you are trying.’",
+      "Restate the one big idea in smaller words: ‘Sketchbook = testing place.’",
+      "Offer a sentence frame: ‘An artist uses a sketchbook to ___.’",
+      "Use a concrete example: six boxes, six different marks, no rubbing out.",
+      "Reduce choices to two options if needed: ‘testing place or perfect gallery?’",
+      "Return to an easy win item, then build back to the core skill."
+    ],
+    "personalization": "Swap interestSlots into examples only, without changing the art facts. For example: ‘If you love space, your test page might include rocket-fast lines, planet circles, and star dots — but it is still for testing, not perfection.’",
+    "endOnSuccess": "Finish with a prompt the learner can succeed at: naming one mark they tried or completing the sentence ‘My sketchbook is my workshop because…’. Celebrate the brave testing, not neatness."
+  }
+}

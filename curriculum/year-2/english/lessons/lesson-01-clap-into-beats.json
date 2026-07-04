@@ -1,0 +1,366 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u1-l01",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 1, "title": "Fluent reading: longer words & expression", "essentialQuestion": "How do I read big words and long sentences smoothly, like a storyteller?" },
+  "lessonNumber": 1,
+  "kind": "lesson",
+  "topic": "Reading long words by syllable",
+  "title": "Clap it into beats: reading long words by syllable",
+  "durationMin": 20,
+  "objectives": ["By the end, I can read a long word by chopping it into syllables (beats)."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "syllable", "definition": "a beat in a word", "example": "rab-bit has two syllables" },
+    { "term": "blend", "definition": "push sounds together", "example": "rab + bit pushed together makes rabbit" },
+    { "term": "decode", "definition": "sound a word out", "example": "decode cat as /c/ /a/ /t/" }
+  ],
+  "emphasize": [
+    "A long word is not one scary lump — it is a string of small beats you already know how to read.",
+    "The move that must land: clap → read each beat → push together. Repeat the magic phrase: 'Clap it into beats first.'",
+    "Pre-empt the misconception that you must read a long word in one go (working-memory overload) — and catch guessing from the first letter instead of reading every beat."
+  ],
+  "analysis": {
+    "keyConcepts": ["a syllable is a beat in a word", "clap the beats, read each beat, blend the whole word", "long words are strings of readable chunks"],
+    "misconceptions": [
+      "trying to read a long word in one gulp and stalling (working-memory overload)",
+      "guessing a long word from its first letter instead of reading each beat",
+      "merging beats when clapping (saying 2 beats for elephant)"
+    ],
+    "hooks": ["Knock down a scary word like toppling a tower of blocks — one clap per beat."],
+    "priorKnowledge": ["blending sounds in short CVC words like cat (Year 1 Phase 5)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["word cards on screen (rabbit, sunset, playground, elephant, picnic, dinosaur, jumper, basket, fantastic)", "whiteboard with beat dots", "speak blocks — the tutor listens to the child read aloud"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=pIKzbTK7w-4",
+    "title": "#BacktoSchool - Introducing: Syllables | Learn to Read | Alphablocks",
+    "channel": "Alphablocks (official, BBC/CBeebies)",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time the Alphablocks build a word, clap its beats and say them OUT LOUD before the video does.",
+    "afterCheck": { "question": "What do we call each beat in a word?", "expectedAnswer": "A syllable" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame long words as towers to knock down beat by beat; retrieve Year 1 blending with a quick CVC read.",
+      "note": "Keep the energy playful — the 'knock the tower down' image carries the whole lesson. The warm-up speak block checks blending is secure before we chop anything.",
+      "successCriteria": "Child reads 'cat' aloud smoothly and is curious about the fantastic trick.",
+      "script": {
+        "say": "I've got a word here that looks SO long it might be a bit scary. Ready? FANTASTIC! Whoa. But watch this — I'm going to knock that big word down, one beat at a time, like toppling a tower of blocks. Fan — tas — tic! Want to learn the trick? First, warm up your reading voice. Read this little word for me out loud: cat.",
+        "adaptHints": "If the child loves a building toy or a game with towers, swap 'tower of blocks' for that. If blending 'cat' is shaky, sound it finger by finger — /c/ /a/ /t/ — push together, then do 'sun' before moving on."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🧱🧱🧱💥👏", "caption": "One clap per beat — knock the big word down!" },
+        { "type": "speak", "prompt": "Warm up your reading voice — read this little word out loud.", "target": "cat" }
+      ],
+      "stuckProtocol": ["If blending is shaky: sound it with the child sound by sound — /c/ /a/ /t/ — then 'push them together: cat.' Do one more, sun, before moving on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the three magic steps on rabbit: clap the beats, read each beat, push together.",
+      "note": "The whiteboard shows the dots appearing under each beat as the tutor claps. Say the magic phrase at least twice: 'Clap it into beats first.'",
+      "successCriteria": "Child can point to the two beats of rabbit and echo the three steps.",
+      "script": {
+        "say": "A long word is made of little beats. We call each beat a SYLLABLE. Watch me read rabbit. Step one — I clap the beats: rab (clap!) bit (clap!). Two beats! Step two — I read each beat on its own: /r/ /a/ /b/… rab. /b/ /i/ /t/… bit. Step three — I push them together, faster: rab-bit… rabbit! Three steps every time: clap, read each beat, push together. Clap it into beats first — we never read a long word in one big gulp.",
+        "adaptHints": "Invite the child to clap along on the table or their knees. Match the clap speed to the child's energy."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "rabbit = rab + bit",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 12, "value": "rabbit", "size": 12, "bold": true },
+            { "k": "dot", "x": 40, "y": 22, "color": "accent" },
+            { "k": "dot", "x": 62, "y": 22, "color": "accent" },
+            { "k": "text", "x": 40, "y": 34, "value": "rab", "size": 8, "bold": true, "color": "blue" },
+            { "k": "text", "x": 62, "y": 34, "value": "bit", "size": 8, "bold": true, "color": "orange" },
+            { "k": "text", "x": 50, "y": 48, "value": "rab + bit = rabbit!", "size": 6, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 57, "value": "clap · read each beat · push together", "size": 4, "color": "ink" }
+          ]
+        },
+        { "type": "steps", "title": "The three magic steps", "steps": ["Clap the beats", "Read each beat on its own", "Push them together — read the whole word"] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared beat-reading: sunset (2), playground (2), elephant (3) — the child claps along, then leads on elephant.",
+      "note": "Tutor claps first, child echoes, then the child leads. The speak block is the child's first solo beat-read — listen for beats, not a one-gulp guess.",
+      "successCriteria": "Child claps three beats for elephant and reads it beat by beat, then blended.",
+      "script": {
+        "say": "Now you clap WITH me. Here's sunset. Clap the beats with me… sun (clap!) set (clap!). Two beats! Read each one… sun… set… push together — sunset! Let's do playground… play (clap!) ground (clap!)… playground! Now the big one — elephant. It's YOUR turn to lead. Clap it, count the beats, then read it to me beat by beat.",
+        "adaptHints": "If the child loves animals, celebrate elephant extra hard. If they merge beats, say it slowly together with a hand under the chin — the jaw drops once per beat."
+      },
+      "blocks": [
+        { "type": "flashcards", "cards": [
+          { "front": "sunset", "back": "sun · set — 2 beats" },
+          { "front": "playground", "back": "play · ground — 2 beats" },
+          { "front": "elephant", "back": "el · e · phant — 3 beats" }
+        ] },
+        { "type": "speak", "prompt": "Your turn to lead! Clap the beats, then read this word out loud, beat by beat.", "target": "elephant" }
+      ],
+      "check": {
+        "question": "Clap elephant and tell me how many beats.",
+        "expectedAnswer": "Three claps — el-e-phant — 3 beats",
+        "wrongAnswers": [
+          { "answer": "2 beats", "why": "beats ran together", "remedy": "Put a hand under your chin — the jaw drops once per beat. Say it slowly: el… e… phant. How many drops did you feel?" },
+          { "answer": "tries to read it in one go and stalls", "why": "working-memory overload — too many sounds at once", "remedy": "Clap it into beats first! Clap with me: el (clap) e (clap) phant (clap). Now read just the first beat." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The lesson's key check: count the syllables in elephant AND read it aloud by beats.",
+      "note": "Both halves matter — the count shows they hear the beats; the read shows they can use them. Probe after success: 'How did you knock it down? Show me the beats.'",
+      "successCriteria": "Child answers 3 beats and reads el-e-phant → elephant aloud.",
+      "script": {
+        "say": "Check time! How many syllables are in elephant? Pick your answer… and then read the whole word to me out loud, beat by beat.",
+        "adaptHints": "After a correct answer, probe: 'How did you knock it down? Show me the beats.'"
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "How many syllables (beats) in elephant?", "options": ["2", "3", "4", "5"], "correct": 1, "explain": "el (clap) e (clap) phant (clap) — three beats!" },
+        { "type": "speak", "prompt": "Now read it to me — beat by beat, then push it together.", "target": "elephant" }
+      ],
+      "check": {
+        "question": "How many syllables in elephant — and read it.",
+        "expectedAnswer": "3 (el-e-phant) → 'elephant'",
+        "wrongAnswers": [
+          { "answer": "2", "why": "beats run together", "remedy": "Hand under the chin — the jaw drops once per beat. Say it slowly: el… e… phant — feel three drops." },
+          { "answer": "reads it in one gulp and stalls", "why": "working-memory overload — trying to hold all the sounds at once", "remedy": "Clap it into beats first. Clap it together, dot each beat, then read one beat at a time." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent beat-reading: picnic, dinosaur, jumper, basket — clap, read each beat, blend.",
+      "note": "Director draws from practiceBank, start level 2, biased towards speak items — this is a reading-aloud lesson. Watch for skipping the clap and guessing from the first letter; remind 'clap first'. Watch for reading beats correctly but forgetting to blend — prompt 'now push them together.'",
+      "successCriteria": "Child beat-reads at least three long words (one 3-beat) with no one-gulp attempts.",
+      "script": {
+        "say": "Practice time, word-toppler! I'll show you words — you clap the beats, read each beat out loud, then push them together and read me the whole word. Ready? Knock them down!",
+        "adaptHints": "Celebrate each toppled word with the tower image. If the child has favourite animals or foods, note that dinosaur and picnic connect nicely — but never change the target words."
+      },
+      "stuckProtocol": [
+        "Don't say the word.",
+        "Name why: 'This one's got lots of beats — let's chop it.'",
+        "Drop to concrete: clap it together and dot each beat on the board.",
+        "ONE hint: read just the first beat with them.",
+        "Re-ask the smaller version: 'read just pic… now just nic' — then blend.",
+        "Keep it safe: 'Mistakes show us what to practise. Let's take it one beat at a time.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child teaches back the three magic steps; end on process praise and an earned win.",
+      "note": "Child-led teach-back — the tutor listens. Then the optional Alphablocks syllables video as a reinforcer with the clap-along task.",
+      "successCriteria": "Child states: clap the beats, read each beat, push together.",
+      "script": {
+        "say": "Teach it back to me — if a word looks really long and scary, what are the three magic steps? … Yes! Clap the beats, read each beat, push together. You didn't give up on the big words — you clapped them into beats and knocked them down one at a time. That's exactly what strong readers do.",
+        "adaptHints": "Praise the observed process only — the clapping, the beat-by-beat reading, the not-guessing. If there's time, offer the Alphablocks syllables video with the clap-along task."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l01-p01",
+      "skill": "beat-read a 2-syllable word aloud",
+      "level": 1,
+      "block": { "type": "speak", "prompt": "Clap the beats, read each beat out loud, then push them together.", "target": "rabbit" },
+      "expectedAnswer": "rab-bit read as two beats, then blended: 'rabbit'",
+      "wrongAnswers": [
+        { "answer": "guesses a different word from the first letters (e.g. 'rub' or 'ribbon')", "why": "guessing from the first letter instead of reading each beat", "remedy": "Cover everything except 'rab'. Read just that beat… now just 'bit'. Push them together — what word did you build?" },
+        { "answer": "reads it in one long gulp and stalls", "why": "working-memory overload — too many sounds at once", "remedy": "Clap it into beats first: rab (clap) bit (clap). Now read one beat at a time." }
+      ],
+      "hints": ["Clap it first — how many beats do you feel?", "Read just the first beat: rab. Now the next one."],
+      "reteach": {
+        "say": "Let's knock this one down together. Clap with me: rab (clap), bit (clap) — two beats. Read the first beat… rab. The second… bit. Now push them together, faster: rab-bit… rabbit! Two little beats, one big word.",
+        "block": { "type": "emojiViz", "emojis": "👏👏", "caption": "rab · bit — two beats make rabbit" }
+      }
+    },
+    {
+      "id": "l01-p02",
+      "skill": "count syllables by clapping",
+      "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Clap it out: how many beats in sunset?", "options": ["1", "2", "3", "4"], "correct": 1, "explain": "sun (clap) set (clap) — two beats." },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "1", "why": "beats merged into one", "remedy": "Hand under your chin and say it slowly — sun… set. How many times did your jaw drop?" },
+        { "answer": "3", "why": "clapped an extra beat by stretching a sound", "remedy": "Say it at talking speed and clap: sun-set. Each clap is one beat — try again with me." }
+      ],
+      "hints": ["Say the word and clap along with your voice.", "sun… set — one clap for each part."],
+      "reteach": {
+        "say": "Beats are the claps hiding inside a word. Say sunset with me and clap: sun (clap), set (clap). Two claps, two beats. Your chin drops once for each beat too — try it with your hand under your chin!",
+        "block": { "type": "emojiViz", "emojis": "🌅👏👏", "caption": "sun · set = 2 beats" }
+      }
+    },
+    {
+      "id": "l01-p03",
+      "skill": "beat-read a 2-syllable word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Knock this word down! Clap the beats, read each beat, then read the whole word.", "target": "picnic" },
+      "expectedAnswer": "pic-nic read beat by beat, then blended: 'picnic'",
+      "wrongAnswers": [
+        { "answer": "guesses 'pick' or 'pink' and stops", "why": "read the first letters and guessed instead of finishing the beats", "remedy": "Good start on 'pic' — but there's a whole second beat waiting. Read just 'nic'… now push them together." },
+        { "answer": "reads the beats but never blends the word", "why": "forgot step three — push together", "remedy": "You read both beats perfectly! Now say them faster and faster: pic-nic, pic-nic… what word is it?" }
+      ],
+      "hints": ["Clap it: pic (clap) nic (clap).", "Read just the first beat, then the second — then push."],
+      "reteach": {
+        "say": "Watch me chop it: pic… nic. Two beats. I read the first one — pic. The second — nic. Now the magic push: pic-nic… picnic! A picnic is much friendlier once you've chopped it up.",
+        "block": { "type": "emojiViz", "emojis": "🧺👏👏", "caption": "pic · nic = picnic" }
+      },
+      "interestSlots": ["a picnic with the child's favourite snack"]
+    },
+    {
+      "id": "l01-p04",
+      "skill": "beat-read a 2-syllable word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Another tower to topple! Clap the beats, read each one, then the whole word.", "target": "basket" },
+      "expectedAnswer": "bas-ket read beat by beat, then blended: 'basket'",
+      "wrongAnswers": [
+        { "answer": "guesses 'bat' or 'best' from the first letters", "why": "guessing from the first letter instead of reading every beat", "remedy": "Cover the second half. Read just 'bas'… now uncover and read 'ket'. Push them together." },
+        { "answer": "reads it in one gulp and stumbles", "why": "one-gulp overload", "remedy": "Clap it into beats first: bas (clap) ket (clap). One beat at a time." }
+      ],
+      "hints": ["Two claps hide in this word — find them.", "bas… then ket — read each, then push together."],
+      "reteach": {
+        "say": "Let's chop it together. Bas (clap)… ket (clap). Read with me: bas… ket… bas-ket… basket! See? You already knew how to read both beats — the clap just showed you where to stop.",
+        "block": { "type": "emojiViz", "emojis": "🧺👏👏", "caption": "bas · ket = basket" }
+      }
+    },
+    {
+      "id": "l01-p05",
+      "skill": "count syllables by clapping",
+      "level": 2,
+      "block": { "type": "categorize", "prompt": "Clap each word out loud, then sort it by its beats.", "buckets": ["2 beats", "3 beats"], "items": [
+        { "text": "rabbit", "bucket": "2 beats" },
+        { "text": "elephant", "bucket": "3 beats" },
+        { "text": "picnic", "bucket": "2 beats" },
+        { "text": "dinosaur", "bucket": "3 beats" }
+      ] },
+      "expectedAnswer": "rabbit and picnic → 2 beats; elephant and dinosaur → 3 beats",
+      "wrongAnswers": [
+        { "answer": "elephant in 2 beats", "why": "ran el-e together into one beat", "remedy": "Hand under the chin: el… e… phant. Count the jaw drops — how many?" },
+        { "answer": "dinosaur in 2 beats", "why": "squashed di-no into one beat", "remedy": "Clap it slowly with me: di (clap) no (clap) saur (clap). How many claps?" }
+      ],
+      "hints": ["Say each word OUT LOUD and clap — don't sort silently.", "Your chin drops once per beat — use your hand to count."],
+      "reteach": {
+        "say": "The secret is to say the word out loud — beats hide when we read silently. Rabbit: rab-bit, two claps. Elephant: el-e-phant, three claps. Picnic: pic-nic, two. Dinosaur: di-no-saur, three. Clap first, then sort!",
+        "block": { "type": "table", "headers": ["word", "beats", "count"], "rows": [["rabbit", "rab · bit", "2"], ["picnic", "pic · nic", "2"], ["elephant", "el · e · phant", "3"], ["dinosaur", "di · no · saur", "3"]] }
+      }
+    },
+    {
+      "id": "l01-p06",
+      "skill": "beat-read a 2-syllable word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "This one's a compound tower — clap the beats, read each, then the whole word.", "target": "playground" },
+      "expectedAnswer": "play-ground read beat by beat, then blended: 'playground'",
+      "wrongAnswers": [
+        { "answer": "guesses 'playing' from the first beat", "why": "read the first beat then guessed the rest", "remedy": "'Play' is spot on — now READ the second beat, don't guess it. Cover 'play' and read what's left." },
+        { "answer": "says one beat: 'playground' counted as 1", "why": "beats merged", "remedy": "Hand under chin — feel the jaw drop twice: play… ground." }
+      ],
+      "hints": ["Clap it: play (clap) ground (clap).", "Both beats are words you know — read each one."],
+      "reteach": {
+        "say": "Here's a friendly secret: playground is two little words holding hands. Play… ground. Read the first — play. The second — ground. Push together: playground! Some big words are just small words stuck together.",
+        "block": { "type": "emojiViz", "emojis": "🛝👏👏", "caption": "play · ground = playground" }
+      }
+    },
+    {
+      "id": "l01-p07",
+      "skill": "beat-read a 3-syllable word aloud",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "A three-beat tower! Clap the beats, read each one, then roar the whole word.", "target": "dinosaur" },
+      "expectedAnswer": "di-no-saur read beat by beat, then blended: 'dinosaur'",
+      "wrongAnswers": [
+        { "answer": "guesses 'dino' and stops", "why": "guessed from the first beats instead of reading all three", "remedy": "Two beats down, one to go! Cover di-no and read just the last beat… now push all three together." },
+        { "answer": "reads it in one gulp and stalls", "why": "three beats is too much for one gulp", "remedy": "Clap it into beats first: di (clap) no (clap) saur (clap). Read one stepping stone at a time." }
+      ],
+      "hints": ["Three claps hide in here — find them first.", "di… no… then the last beat. One at a time."],
+      "reteach": {
+        "say": "Even dinosaur-sized words fall to the three steps. Clap: di (clap) no (clap) saur (clap). Read each beat: di… no… saur. Now push: di-no-saur… dinosaur! You just read a three-beat word — that's expert chopping.",
+        "block": { "type": "emojiViz", "emojis": "🦕👏👏👏", "caption": "di · no · saur = 3 beats" }
+      },
+      "interestSlots": ["the child's favourite dinosaur"]
+    },
+    {
+      "id": "l01-p08",
+      "skill": "beat-read a 4-syllable word aloud",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "The stretch challenge — a FOUR-beat word! Clap all four beats, read each, then the whole word.", "target": "caterpillar" },
+      "expectedAnswer": "cat-er-pil-lar read beat by beat, then blended: 'caterpillar'",
+      "wrongAnswers": [
+        { "answer": "reads 'cat' then guesses the rest", "why": "guessing from the first beat", "remedy": "'Cat' is beat one of FOUR. Read the next beat on its own… and the next. Every beat gets read, none get guessed." },
+        { "answer": "reads all four beats but can't blend the whole word", "why": "lost the thread over four beats", "remedy": "Join them two at a time: cat-er… pil-lar… now push the two halves together." }
+      ],
+      "hints": ["Clap it slowly — four claps hide in there.", "Read two beats, then the next two, then join the halves."],
+      "reteach": {
+        "say": "Four beats — our biggest tower yet! Watch: cat (clap) er (clap) pil (clap) lar (clap). Read each: cat… er… pil… lar. Now join two at a time: cat-er… pil-lar… caterpillar! Any word, however long, falls to the clap.",
+        "block": { "type": "emojiViz", "emojis": "🐛👏👏👏👏", "caption": "cat · er · pil · lar = 4 beats" }
+      }
+    },
+    {
+      "id": "l01-p09",
+      "skill": "beat-read a 3-syllable word aloud",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "The word from the start of the lesson — can you topple it yourself now? Clap, read each beat, push together.", "target": "fantastic" },
+      "expectedAnswer": "fan-tas-tic read beat by beat, then blended: 'fantastic'",
+      "wrongAnswers": [
+        { "answer": "guesses 'fan' or 'fantasy' and drifts", "why": "guessed after the first beat", "remedy": "'Fan' is beat one — now READ beat two on its own. Cover the rest so your eyes stay on one stepping stone." },
+        { "answer": "one-gulp attempt that stalls in the middle", "why": "working-memory overload", "remedy": "Clap it into beats first: fan (clap) tas (clap) tic (clap). One beat at a time — you know all three." }
+      ],
+      "hints": ["This was our scary word — but you know the trick now. Clap first!", "fan… tas… tic — read each beat, then push."],
+      "reteach": {
+        "say": "Remember when fantastic looked scary? Watch it fall: fan (clap) tas (clap) tic (clap). Read: fan… tas… tic… fantastic! The word that scared us at the start is yours now. That's what the three steps do.",
+        "block": { "type": "emojiViz", "emojis": "🌟👏👏👏", "caption": "fan · tas · tic — you toppled the scary word!" }
+      }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level. At level 3, interleave 3- and 4-beat speak items. Prefer speak items throughout — this is a reading-aloud lesson and the tutor should hear the child's voice on most turns.",
+    "levelDown": "2 misses on the same skill → run the item's reteach (clap together, dot the beats), then drop one level to a 2-beat word for a guaranteed win.",
+    "masterySignal": "Child independently beat-reads 3+ words including one 3-beat word, using clap → read beats → blend with no one-gulp attempts → mastery ≥ 0.8 for 'reading long words by syllable'.",
+    "struggleProtocol": [
+      "Don't say the word.",
+      "Name why: 'This one's got lots of beats — let's chop it.'",
+      "Drop to concrete: clap it together and dot each beat.",
+      "ONE hint: read just the first beat with them.",
+      "Re-ask the smaller version: one beat at a time, then blend.",
+      "Keep it safe: 'Mistakes show us what to practise. One beat at a time.'"
+    ],
+    "personalization": "Swap the 'tower of blocks' frame for a construction toy or game the child loves. Celebrate dinosaur/animal words if the child is an animal fan. Never change the target words — the syllable work is the lesson.",
+    "endOnSuccess": "Finish on a word the child can topple (drop to a 2-beat word if needed) and praise the process: 'you clapped it into beats and read every single one — no guessing.'"
+  },
+
+  "differentiation": {
+    "support": "Tutor claps the beats first; child echoes the claps, then reads each beat. Use 2-beat words only (rabbit, sunset, picnic, jumper, basket) for a guaranteed win before any 3-beat word.",
+    "stretch": "Chop a 4-beat word — caterpillar (cat-er-pil-lar) — clapping and reading all four beats."
+  },
+  "extension": "Hunt for the longest word on a page of a favourite book and beat-read it out loud to the tutor.",
+  "assessmentEvidence": "Child independently claps and reads at least two long words (one 3-beat) using clap → read beats → blend, with no one-gulp attempts.",
+  "revisitLater": "Bring back elephant and picnic as a 30-second warm-up at the start of Lesson 2, and again in Lesson 4's Robot vs Storyteller review."
+}

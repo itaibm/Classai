@@ -1,0 +1,330 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u3-l11",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 3, "title": "Apostrophes & homophones", "essentialQuestion": "When does a word need an apostrophe, and how do I pick between sound-alike words?" },
+  "lessonNumber": 11,
+  "kind": "lesson",
+  "topic": "Apostrophes & homophones",
+  "title": "Apostrophes job 1: squashing words (contractions)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can write a contraction with the apostrophe where letters are missing."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "apostrophe", "definition": "the tiny floating mark ( ' ) that does special jobs in words", "example": "the ' in don't" },
+    { "term": "contraction", "definition": "two words squashed into one, with some letters dropped", "example": "do not → don't" },
+    { "term": "missing letters", "definition": "the letters that fall out when two words get squashed", "example": "the o of not disappears in don't" }
+  ],
+  "emphasize": [
+    "The apostrophe stands EXACTLY where the letters went missing — like a little gravestone marking the gap.",
+    "The move: find the missing letters → put the apostrophe there.",
+    "Pre-empt the wrong-spot apostrophe (do'nt) and the missing one (cant)."
+  ],
+  "analysis": {
+    "keyConcepts": ["contraction = two words squashed into one", "letters drop out when we squash", "the apostrophe marks the exact spot where letters went missing"],
+    "misconceptions": [
+      "apostrophe placed at the join of the two words instead of where letters dropped (do'nt)",
+      "leaving the apostrophe out entirely (cant, dont)",
+      "keeping the dropped letters AND adding an apostrophe (I'am)"
+    ],
+    "hooks": ["Bury the missing letters under a tiny apostrophe gravestone — we squash words like this every day when we talk."],
+    "priorKnowledge": ["capital letters and full stops (Year 1)", "the child already says don't and I'm naturally in speech"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated whiteboard (crossing out dropped letters in red)", "word-pair cards on screen", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=6Ov54DSvjS8",
+    "title": "Sing with Grammarsaurus - Apostrophes",
+    "channel": "Grammarsaurus",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time the song squashes two words together, shout out which letters went missing BEFORE the apostrophe appears.",
+    "afterCheck": { "question": "In a contraction, what does the apostrophe stand in place of?", "expectedAnswer": "The missing letters (the ones that dropped out when the words were squashed)" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame the apostrophe as a tiny gravestone marking where squashed-out letters are buried; connect to how the child already talks.",
+      "note": "Keep it playful — the gravestone image carries the whole lesson. Retrieve natural speech contractions.",
+      "successCriteria": "Child says a natural sentence with don't or I'm and notices letters 'fall out' when we squash.",
+      "script": {
+        "say": "When we talk fast, we squash words together. Do not becomes don't. But look — some letters fall out when we squash! Where did the o in not go? We mark the gap with a tiny apostrophe — like a little gravestone showing where the letters are buried. Let's bury some letters! Quick question first: do you ever say don't or I'm when you talk? Say me a sentence with don't.",
+        "adaptHints": "Listen for natural use, e.g. 'I don't like spiders' — echo it back warmly. If unsure, model: 'I am hungry → I'm hungry. People squash words all the time when they speak.' Swap the example sentence topic for the child's interests."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "do not → don't",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 10, "value": "do not", "size": 10, "bold": true },
+            { "k": "line", "x1": 62, "y1": 6, "x2": 68, "y2": 14, "color": "red" },
+            { "k": "text", "x": 50, "y": 32, "value": "don't", "size": 10, "bold": true, "color": "accent" },
+            { "k": "line", "x1": 50, "y1": 16, "x2": 50, "y2": 26, "color": "ink", "arrow": true },
+            { "k": "text", "x": 50, "y": 48, "value": "the ' is buried where the o was!", "size": 5, "color": "red" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If no contraction comes naturally: say 'I am hungry' fast three times — hear it turn into 'I'm hungry'? That squash is a contraction."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the move on three contractions: squash the words, cross the dropped letters in red, put the apostrophe exactly in the gap.",
+      "note": "Same three-step routine each time: write both words → cross the dropped letter(s) → apostrophe in their exact place.",
+      "successCriteria": "Child can point to where the apostrophe sits in don't, I'm and it's and say it marks the missing letters.",
+      "script": {
+        "say": "Job one of the apostrophe: squashing words. Watch do not. I squash them: donot — too long. The o in not drops out. The apostrophe takes its place: don't. The apostrophe sits EXACTLY where the letter went missing. Now I am: squash to Iam, the a drops out — I'm. And it is: the i drops out — it's. Find the missing letter, put the apostrophe there.",
+        "adaptHints": "Repeat the rule rhythmically: 'find the missing letters, bury them with the apostrophe.' Keep each squash quick and dramatic."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["two words", "letters buried", "contraction"],
+          "rows": [
+            ["do not", "the o of not", "don't"],
+            ["I am", "the a of am", "I'm"],
+            ["it is", "the i of is", "it's"]
+          ],
+          "caption": "The apostrophe marks the spot where the letters went missing."
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared squashing: the child finds the dropped letters for can not, she will and we are, then matches contractions to their long forms.",
+      "note": "Child supplies the missing letters; character confirms and places the apostrophe. Finish with the matching block.",
+      "successCriteria": "Child names the buried letters in can't (the n and o of not) and matches all four pairs.",
+      "script": {
+        "say": "Squash these with me. Can not — which letters drop out? The n and the o of not! So it becomes can't. Now she will — the w-i drops — she'll. And we are — the a drops — we're. Your turn: match each squashed word to the two words it came from. Then tell me — in can't, which letters did we bury?",
+        "adaptHints": "Point to where each apostrophe sits as the child matches. If they hesitate, un-squash the contraction out loud: 'can't… caaan nnnot.'"
+      },
+      "blocks": [
+        {
+          "type": "matchPairs",
+          "prompt": "Match each contraction to the two words it was squashed from.",
+          "pairs": [
+            { "left": "can't", "right": "can not" },
+            { "left": "she'll", "right": "she will" },
+            { "left": "we're", "right": "we are" },
+            { "left": "I'm", "right": "I am" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "In can't, which letters did we bury?",
+        "expectedAnswer": "The n and o of not — the apostrophe stands in their place",
+        "wrongAnswers": [
+          { "answer": "the t", "why": "thinks the last letter merged or vanished", "remedy": "Say can't slowly — the t is still there at the end! Which bit of 'not' can you NOT hear any more?" },
+          { "answer": "no letters — it just glues the words", "why": "thinks the apostrophe is a glue mark at the join, not a gap marker", "remedy": "Write can not, then can't underneath. Compare letter by letter — which two letters disappeared?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "Diagnostic: contract cannot — placement of the apostrophe is the key evidence.",
+      "note": "The wrong options are the two classic errors: apostrophe at the join (ca'nt) and no apostrophe (cant).",
+      "successCriteria": "Child picks can't and can say which letters the apostrophe replaces.",
+      "script": {
+        "say": "Your inspector moment. Contract cannot into one word. Think: which letters fall out, and where must the apostrophe sit?",
+        "adaptHints": "After a correct answer, probe: 'Which letters are missing, and is the apostrophe sitting in their spot?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Contract cannot into one word.",
+          "options": ["can't", "ca'nt", "cant", "cant'"],
+          "correct": 0,
+          "explain": "The n and o of not drop out, and the apostrophe stands exactly in their place: can't."
+        }
+      ],
+      "check": {
+        "question": "Contract cannot into one word.",
+        "expectedAnswer": "can't",
+        "wrongAnswers": [
+          { "answer": "ca'nt (or cant')", "why": "apostrophe at the join or the end, not where the letters dropped", "remedy": "Where did the letters drop out? In not — the n and o go. The apostrophe goes right there: can't." },
+          { "answer": "cant", "why": "forgot the gravestone — no apostrophe at all", "remedy": "Letters went missing — we must mark the gap. Where did they go? Put the apostrophe there." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent squashing: the child writes contractions for word pairs, always naming the buried letters.",
+      "note": "Director draws from practiceBank, start level 2. Ask 'which letters did you bury?' after each answer — it is the self-check habit.",
+      "successCriteria": "Child writes 3+ contractions with the apostrophe correctly placed where letters were dropped.",
+      "script": {
+        "say": "Practice time, letter-burier! I'll give you word pairs — you squash them, and every time, point to the spot where the letters got buried.",
+        "adaptHints": "Frame sentences with the child's interests (pets, football, dinosaurs). Never change the target contractions."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'let's find which letters fall out.'",
+        "Step down: cross the dropped letters together in red first.",
+        "ONE hint: 'the apostrophe goes exactly where you crossed out.'",
+        "Re-ask a smaller version (one pair, e.g. I am → I'm).",
+        "Keep it safe: 'Apostrophes hide where letters used to be — let's hunt for the gap.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child states the apostrophe's first job and where it sits; end on a win.",
+      "note": "Child-led; the character listens. Process praise only.",
+      "successCriteria": "Child says: it squashes two words into one, and the apostrophe sits where the missing letters were.",
+      "script": {
+        "say": "Tell me the apostrophe's first job, and where it sits. … Exactly — squashing words, and the apostrophe stands right where the letters went missing. You found the missing letters every time and put the apostrophe right on the spot — that's exactly how contractions work.",
+        "adaptHints": "Tease tomorrow: 'the apostrophe has a SECOND job — it can show who owns things. See you then!'"
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l11-p01", "skill": "write a contraction with the apostrophe in the gap", "level": 1,
+      "block": { "type": "fillBlank", "text": "I am happy. → ___ happy.", "answer": "I'm", "wordBank": ["I'm", "Im", "I'am"] },
+      "expectedAnswer": "I'm",
+      "wrongAnswers": [
+        { "answer": "Im", "why": "left out the apostrophe — the gap is unmarked", "remedy": "A letter went missing — the a of am. We must mark the gap. Where does the apostrophe go?" },
+        { "answer": "I'am", "why": "added the apostrophe but kept the dropped letter", "remedy": "If the a is still there, nothing went missing! Cross the a out first — THEN the apostrophe takes its place." }
+      ],
+      "hints": ["Squash I and am — which letter falls out?", "The a of am drops. Put the apostrophe exactly in its spot."],
+      "reteach": { "say": "Watch the squash in slow motion: I am → Iam → the a falls out → I'm. The apostrophe is the a's little gravestone.", "block": { "type": "table", "headers": ["step", "what we see"], "rows": [["squash", "Iam"], ["a drops out", "I m"], ["bury it", "I'm"]] } },
+      "interestSlots": ["happy", "excited"]
+    },
+    {
+      "id": "l11-p02", "skill": "write a contraction with the apostrophe in the gap", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which one shows do not squashed correctly?", "options": ["don't", "dont", "do'nt", "do not'"], "correct": 0, "explain": "The o of not drops out, and the apostrophe sits exactly in its place: don't." },
+      "expectedAnswer": "don't",
+      "wrongAnswers": [
+        { "answer": "dont", "why": "no apostrophe — forgot to mark the missing letter", "remedy": "Compare do not and dont letter by letter — the o of not vanished. How do we mark a vanished letter?" },
+        { "answer": "do'nt", "why": "apostrophe at the join of the words, not where the o dropped", "remedy": "The apostrophe isn't glue between words — it marks the gap. WHICH letter fell out, and where was it sitting?" }
+      ],
+      "hints": ["Write do not, then cross out the letter that disappears.", "The o of not goes — the apostrophe takes that exact seat: do n't."],
+      "reteach": { "say": "The apostrophe never sits at the join — it sits in the gap. do not: the o of not is buried, so the apostrophe goes between the n and the t: don't.", "block": { "type": "emojiViz", "emojis": "🪦", "caption": "don't — the ' is the o's tiny gravestone" } }
+    },
+    {
+      "id": "l11-p03", "skill": "match contractions to their long forms", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each squashed word to the two words it came from.", "pairs": [ { "left": "can't", "right": "can not" }, { "left": "it's", "right": "it is" }, { "left": "we're", "right": "we are" }, { "left": "she'll", "right": "she will" } ] },
+      "expectedAnswer": "can't→can not, it's→it is, we're→we are, she'll→she will",
+      "wrongAnswers": [
+        { "answer": "she'll → she is", "why": "guessed the long form instead of un-squashing", "remedy": "Un-squash it out loud: she'll… she wiiill. What did the apostrophe swallow? The w-i of will." },
+        { "answer": "it's → it has/its", "why": "muddling it's with the belonging word its", "remedy": "It's with an apostrophe is squashed 'it is'. Say 'it is' in its place — does it fit?" }
+      ],
+      "hints": ["Un-squash each one out loud — stretch it back into two words.", "The apostrophe shows where letters hid: we're = we a-re… which word lost its a?"],
+      "reteach": { "say": "Every contraction can be stretched back out. can't → can not. it's → it is. we're → we are. she'll → she will. If you can stretch it back, you know exactly which letters are buried.", "block": { "type": "table", "headers": ["contraction", "stretched back", "buried letters"], "rows": [["can't", "can not", "n, o"], ["it's", "it is", "i"], ["we're", "we are", "a"], ["she'll", "she will", "w, i"]] } }
+    },
+    {
+      "id": "l11-p04", "skill": "write a contraction with the apostrophe in the gap", "level": 2,
+      "block": { "type": "fillBlank", "text": "We are late! → ___ late!", "answer": "We're", "wordBank": ["We're", "Were", "We'are"] },
+      "expectedAnswer": "We're",
+      "wrongAnswers": [
+        { "answer": "Were", "why": "dropped the apostrophe — and accidentally made a different word", "remedy": "Careful — were is a whole other word! Which letter of are went missing? Mark its gap." },
+        { "answer": "We'are", "why": "kept the a AND added an apostrophe", "remedy": "The apostrophe only appears when a letter LEAVES. Cross out the a of are first — then bury it." }
+      ],
+      "hints": ["Squash we and are — the a of are falls out.", "The apostrophe sits where the a was: we're."],
+      "reteach": { "say": "We are → squash → the a of are drops out → we're. And listen: were without the apostrophe is a totally different word — the little gravestone really matters!", "block": { "type": "table", "headers": ["with '", "without '"], "rows": [["we're = we are", "were = a different word!"]] } }
+    },
+    {
+      "id": "l11-p05", "skill": "identify which letters the apostrophe replaces", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "she will → she'll. Which letters went missing?", "options": ["the w and i of will", "the s of she", "no letters — the words just joined", "the ll of will"], "correct": 0, "explain": "she will squashes to she'll — the w and i of will drop out and the apostrophe marks their spot." },
+      "expectedAnswer": "the w and i of will",
+      "wrongAnswers": [
+        { "answer": "no letters — the words just joined", "why": "thinks the apostrophe glues words together", "remedy": "Write she will and she'll one above the other. Compare — two letters have vanished. Which ones?" },
+        { "answer": "the ll of will", "why": "picked the letters still visible instead of the missing ones", "remedy": "Look at she'll — the two l's are still there at the end! Which letters of will can you NOT see any more?" }
+      ],
+      "hints": ["Line up she will and she'll and compare letter by letter.", "The ll survived — so what got buried?"],
+      "reteach": { "say": "Detective work: she will has s-h-e-w-i-l-l. she'll has s-h-e-'-l-l. The w and the i are gone — and the apostrophe stands guard in their place.", "block": { "type": "table", "headers": ["word", "letters"], "rows": [["she will", "s h e  w i l l"], ["she'll", "s h e  '  l l"]] } }
+    },
+    {
+      "id": "l11-p06", "skill": "identify which letters the apostrophe replaces", "level": 2,
+      "block": { "type": "trueFalse", "statement": "In can't, the apostrophe marks where the n and o of not used to be.", "correct": true, "explain": "True — can not loses the n and o, and the apostrophe stands exactly in their place." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "unsure what the apostrophe stands for", "remedy": "Stretch can't back out: can not. Now squash again slowly — watch which letters vanish." },
+        { "answer": "True, but it marks the join", "why": "right answer, wrong reason — join-glue idea", "remedy": "It's not glue! Cross out the n and o of not — see how the apostrophe sits exactly in that gap?" }
+      ],
+      "hints": ["Stretch can't back into two words.", "can not → cross the n and o → can't."],
+      "reteach": { "say": "One more slow-motion squash: can not. The n and o of not fall away, and the apostrophe is their gravestone: can't. Find the missing letters, put the apostrophe there — every single time.", "block": { "type": "emojiViz", "emojis": "✂️🪦", "caption": "cut the n and o… bury them: can't" } }
+    },
+    {
+      "id": "l11-p07", "skill": "use contractions in own writing", "level": 3,
+      "block": { "type": "shortText", "prompt": "Write your own sentence using don't or can't — then say which letters the apostrophe buried.", "sample": "I don't like thunder. The apostrophe buried the o of not." },
+      "expectedAnswer": "A sensible sentence with don't/can't spelled correctly, plus naming the buried o (or n and o)",
+      "wrongAnswers": [
+        { "answer": "a sentence with dont/cant", "why": "apostrophe dropped in own writing — the skill hasn't transferred yet", "remedy": "Read your word back — is it squashed from two words? Then letters are missing and need their gravestone." },
+        { "answer": "a sentence with do'nt", "why": "wrong-spot apostrophe under pressure", "remedy": "Stop and stretch it back out: do not. Which letter drops? Bury the apostrophe exactly there." }
+      ],
+      "hints": ["Say your sentence out loud first, then write it.", "After writing, stretch your contraction back into two words to check the apostrophe's spot."],
+      "reteach": { "say": "Writers double-check contractions by un-squashing: write don't, stretch it to do not, and make sure the apostrophe sits where the missing o was. Try one short sentence about something you love.", "block": { "type": "emojiViz", "emojis": "📝🔍", "caption": "write it → stretch it back → check the gap" } },
+      "interestSlots": ["thunder", "broccoli", "spiders"]
+    },
+    {
+      "id": "l11-p08", "skill": "spot and fix wrong-spot apostrophes", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "A friend writes do'nt. What went wrong?", "options": ["The apostrophe is at the join, not where the o dropped out", "Nothing — do'nt is correct", "They should write dont with no apostrophe", "They squashed the wrong two words"], "correct": 0, "explain": "The o of not is the missing letter, so the apostrophe belongs between the n and t: don't." },
+      "expectedAnswer": "The apostrophe is at the join, not where the o dropped out",
+      "wrongAnswers": [
+        { "answer": "Nothing — do'nt is correct", "why": "hasn't anchored WHERE the apostrophe lives", "remedy": "Stretch it back: do not. Cross out the letter that vanishes. Is the apostrophe of do'nt sitting in that gap?" },
+        { "answer": "They should write dont", "why": "fixes the wrong thing by deleting the needed apostrophe", "remedy": "A letter really is missing, so we DO need the mark — it's just in the wrong seat. Where should it move to?" }
+      ],
+      "hints": ["Which letter of not disappeared?", "The apostrophe must sit exactly in that letter's old seat."],
+      "reteach": { "say": "The apostrophe is fussy about its seat. do not loses the o of not — so the apostrophe sits between n and t: don't. At the join (do'nt) it's in the wrong seat entirely.", "block": { "type": "table", "headers": ["spelling", "verdict"], "rows": [["do'nt", "✗ — wrong seat"], ["dont", "✗ — gap unmarked"], ["don't", "✓ — buried where the o was"]] } }
+    },
+    {
+      "id": "l11-p09", "skill": "write a contraction with the apostrophe in the gap", "level": 3,
+      "block": { "type": "fillBlank", "text": "they are → ___", "answer": "they're", "wordBank": ["they're", "there", "their"] },
+      "expectedAnswer": "they're",
+      "wrongAnswers": [
+        { "answer": "there", "why": "grabbed a sound-alike word — there means a place", "remedy": "We're squashing two words, so we need an apostrophe for the missing letter. Which option has one?" },
+        { "answer": "their", "why": "another sound-alike — their means belonging", "remedy": "Squashed 'they are' must show its buried a. Look for the word with the little gravestone in it." }
+      ],
+      "hints": ["Squash they and are — the a of are drops out.", "The answer needs an apostrophe where the a was: they're."],
+      "reteach": { "say": "they are → squash → the a of are falls out → they're. Watch out: two copycat words SOUND the same — there and their — but only they're has the apostrophe, because only they're is a squash. We'll meet those copycats properly soon!", "block": { "type": "table", "headers": ["word", "what it is"], "rows": [["they're", "squashed 'they are' — apostrophe for the lost a"], ["there", "a place (no squash, no apostrophe)"], ["their", "belonging (no squash, no apostrophe)"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, mix writing contractions with spotting wrong-spot apostrophes.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the slow-motion squash (write both words, cross the dropped letters in red), then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one placement question (which letters went missing?) and one written contraction → mastery ≥ 0.8 for 'apostrophes for contraction'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'let's find which letters fall out.'",
+      "Step down: cross the dropped letters together first.",
+      "ONE hint: 'the apostrophe goes exactly where you crossed out.'",
+      "Re-ask a smaller version (one pair: I am → I'm).",
+      "Keep it safe: 'Apostrophes hide where letters used to be — let's hunt for the gap.'"
+    ],
+    "personalization": "Build practice sentences around the learner's interests (pets, games, foods) — 'I don't like…', 'We're going to…'. Never change the target contraction.",
+    "endOnSuccess": "Finish on a winnable squash; praise the process — 'you found the missing letters every time and put the apostrophe right on the spot.'"
+  },
+
+  "differentiation": {
+    "support": "Cross out the dropped letters FOR the child first; they just place the apostrophe in the gap. Stay on I'm / don't / it's.",
+    "stretch": "Write they're and you're and say exactly which letters are missing (they are → they're: the a; you are → you're: the a)."
+  },
+  "extension": "Find three contractions in a favourite storybook page and write out the two words each one came from.",
+  "assessmentEvidence": "Child writes at least three contractions with the apostrophe correctly placed where letters were dropped (e.g. can't, I'm, it's) and can name the buried letters.",
+  "revisitLater": "Lesson 12 introduces the apostrophe's second job (belonging) — recall this one as the contrast; both return in Lesson 13's 'trap'. they're returns in Lesson 14."
+}

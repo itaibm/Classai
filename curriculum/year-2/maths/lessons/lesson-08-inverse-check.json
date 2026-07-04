@@ -1,0 +1,319 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l08",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 8,
+  "kind": "lesson",
+  "topic": "Addition and subtraction",
+  "title": "Inverse: addition and subtraction check each other",
+  "durationMin": 20,
+  "objectives": ["By the end, I can use an addition fact to check a subtraction (and the reverse)."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "inverse", "definition": "the opposite operation — it undoes the other one", "example": "subtraction is the inverse of addition" },
+    { "term": "check", "definition": "prove your answer is right", "example": "check 63 − 25 = 38 with 38 + 25" },
+    { "term": "fact family", "definition": "the four facts made by the same three numbers", "example": "38 + 25 = 63, 25 + 38 = 63, 63 − 25 = 38, 63 − 38 = 25" },
+    { "term": "part-whole", "definition": "two parts join to make a whole", "example": "38 and 25 are parts; 63 is the whole" }
+  ],
+  "emphasize": [
+    "Addition and subtraction are OPPOSITES — one undoes the other, so each can prove the other right.",
+    "The same three numbers make all four facts: the biggest number is always the whole.",
+    "Repeat the anchor phrase: 'Add to put together, subtract to take apart — same three numbers.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["inverse operations", "using addition to check subtraction and vice versa", "fact families (two parts and a whole)", "the whole is the biggest number"],
+    "misconceptions": [
+      "mixing up parts and whole (writing 38 − 25 = 63 or starting subtraction from a part)",
+      "recalculating from scratch instead of using the inverse — and slipping",
+      "writing only two of the four family facts"
+    ],
+    "hooks": ["How can you be SURE your answer is right — like a detective proving a case?"],
+    "priorKnowledge": ["adding two-digit numbers with regrouping (Lesson 6)", "subtracting with exchange (Lesson 7)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["part-whole bar model on the whiteboard block", "fact-family table", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame the lesson as detective work: proving your own answer; retrieve 'the opposite of adding'.",
+      "note": "The detective frame carries the lesson — every check is 'proving the case'.",
+      "successCriteria": "Child answers 'taking away / subtracting' for the opposite of adding.",
+      "script": {
+        "say": "Imagine you've just finished a tricky sum… and a little voice whispers, 'are you SURE?' Today you become a maths detective — you'll learn a trick that PROVES your answer is right, no guessing. Here's our case: 38 + 25 = 63. First, detective — what's the opposite of adding?",
+        "adaptHints": "Give the detective a fun name from the child's interests. Listen for 'subtracting/taking away'; if shaky: 'I put 2 and 3 together to get 5 — what takes me back to 2?'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🕵️ 38 + 25 = 63 … ❓", "caption": "Can we PROVE it?" }
+      ],
+      "stuckProtocol": ["If 'opposite of adding' doesn't come: act it tiny — 'I put 2 and 3 together and get 5. What move takes me back to 2?'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the undo: 38 + 25 = 63 built as a part-whole bar; removing the 25 lands back on 38 — so 63 − 25 = 38. Write the full fact family.",
+      "note": "The bar model is the pictorial heart: whole on top, parts below. Show all four facts from the same three numbers.",
+      "successCriteria": "Child sees the take-away land exactly back on 38 and hears 'same three numbers — four facts'.",
+      "script": {
+        "say": "Look at my bar: the whole is 63, and its two parts are 38 and 25 — because 38 + 25 = 63. Now watch me UNDO it. I take the 25 part away from the whole… and I land exactly back on 38! So 63 − 25 = 38. Subtraction undoes addition — they check each other. And here's the treasure: the same three numbers make FOUR facts. 38 + 25 = 63. 25 + 38 = 63. 63 − 25 = 38. 63 − 38 = 25. One family, three numbers, four facts — and the biggest number, 63, is always the whole.",
+        "adaptHints": "Point along the bar as each fact is read. Repeat: 'add to put together, subtract to take apart — same three numbers.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "One family — four facts",
+          "animate": true,
+          "elements": [
+            { "k": "rect", "x": 10, "y": 10, "w": 80, "h": 10, "color": "accent", "fill": true },
+            { "k": "text", "x": 50, "y": 15, "value": "63", "size": 6, "bold": true },
+            { "k": "rect", "x": 10, "y": 24, "w": 48, "h": 10, "color": "blue", "fill": true },
+            { "k": "text", "x": 34, "y": 29, "value": "38", "size": 6, "bold": true },
+            { "k": "rect", "x": 58, "y": 24, "w": 32, "h": 10, "color": "orange", "fill": true },
+            { "k": "text", "x": 74, "y": 29, "value": "25", "size": 6, "bold": true },
+            { "k": "text", "x": 30, "y": 44, "value": "38 + 25 = 63", "size": 5, "color": "blue" },
+            { "k": "text", "x": 70, "y": 44, "value": "25 + 38 = 63", "size": 5, "color": "blue" },
+            { "k": "text", "x": 30, "y": 52, "value": "63 − 25 = 38", "size": 5, "color": "orange" },
+            { "k": "text", "x": 70, "y": 52, "value": "63 − 38 = 25", "size": 5, "color": "orange" },
+            { "k": "text", "x": 50, "y": 59, "value": "Same three numbers — the whole is the biggest!", "size": 4.5, "bold": true, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared detective check: prove last lesson's 27 + 46 = 73 by taking 46 from 73 and landing on 27.",
+      "note": "The child predicts where the undo should land BEFORE computing — that's the inverse habit.",
+      "successCriteria": "Child predicts 'we should land on 27', computes 73 − 46 = 27, and declares the case proved.",
+      "script": {
+        "say": "Let's prove a real case together. Last time you worked out 27 + 46 = 73. If that's true, and I take the 46 back off the 73… where SHOULD we land? … On 27, exactly! Now do it — 73 take away 46 — and tell me: did we land where the prediction said?",
+        "adaptHints": "Let the child make the prediction before any calculating. If they recalculate 27 + 46 instead, redirect: 'no need — undo it!'"
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "Prove it: 73 − 46 = ?", "answer": 27 }
+      ],
+      "check": {
+        "question": "73 − 46 = ? (checking 27 + 46 = 73)",
+        "expectedAnswer": "27 — we land back on the other part, so the addition was right",
+        "wrongAnswers": [
+          { "answer": "46", "why": "gave back the part we removed instead of the one that's left", "remedy": "We took the 46 AWAY. Look at the bar — which part is still sitting there?" },
+          { "answer": "119", "why": "added instead of undoing", "remedy": "To check an addition we go BACKWARDS — take a part off the whole. Start at 73 and remove 46." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 15],
+      "goal": "Diagnostic: given 38 + 25 = 63, answer 63 − 25 WITHOUT recalculating.",
+      "note": "The probe matters as much as the answer: 'how did you know without working it out?'",
+      "successCriteria": "Child answers 38 instantly and explains 'same family — take one part off the whole and the other part is left'.",
+      "script": {
+        "say": "Quick-fire detective test! You know 38 + 25 = 63. So — no working out allowed — what is 63 − 25?",
+        "adaptHints": "After a correct answer, probe: 'How did you know without calculating?' Listen for family/parts language."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "38 + 25 = 63. So 63 − 25 = ?",
+          "options": ["38", "25", "88", "35"],
+          "correct": 0,
+          "explain": "Same family! 63 is the whole; take the 25 part away and the 38 part is left. No new sum needed."
+        }
+      ],
+      "check": {
+        "question": "If 38 + 25 = 63, what is 63 − 25?",
+        "expectedAnswer": "38 — same three numbers; removing one part leaves the other",
+        "wrongAnswers": [
+          { "answer": "25", "why": "gave the part that was removed — parts and whole mixed up", "remedy": "Point to the two parts and the whole on the bar. We took the 25 away — what's LEFT?" },
+          { "answer": "88", "why": "added instead of using the inverse", "remedy": "Subtraction takes apart. Start at the whole, 63, and remove the 25 part — do we get bigger or smaller?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [15, 18],
+      "goal": "Independent inverse work: state matching facts, check given sums by adding back, build a full fact family; stretch to missing numbers.",
+      "note": "Director draws from practiceBank, start level 2. Watch for parts/whole mix-ups and for recalculating instead of undoing.",
+      "successCriteria": "Child completes 3+ items including one add-back check and one full fact family.",
+      "script": {
+        "say": "Detective casework! I'll hand you sums that need PROVING — and one mystery with a missing number. Remember your badge rule: same three numbers, and the biggest one is the whole.",
+        "adaptHints": "Frame cases with the child's interests (marbles collected and given away, points scored). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the parts and the whole got swapped.'",
+        "Keep the bar model on screen so the part-whole relationship stays visible.",
+        "One hint: 'The biggest number is the whole — start there for subtraction.'",
+        "Re-ask with a bond within 20 (7 + 3 = 10 → 10 − 3 = ?), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child explains how subtraction proves an addition; end on an earned success.",
+      "note": "Child-led recall; the character listens.",
+      "successCriteria": "Child says something like 'it undoes it — you land back on the other part'.",
+      "script": {
+        "say": "Close the case for me, detective: how can subtraction prove an addition is right? … Yes — it undoes it, and you land right back on the part you started with. You checked your own work today instead of just trusting it. That's what real mathematicians do — they never leave a case unproved.",
+        "adaptHints": "Praise the specific process observed: predicting before computing, using the family instead of recalculating, spotting the whole."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l08-p01", "skill": "use the inverse within 20", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "7 + 3 = 10. So 10 − 3 = ?", "options": ["7", "3", "10", "4"], "correct": 0, "explain": "Same family: 7 and 3 are the parts, 10 is the whole. Take the 3 away and the 7 is left." },
+      "expectedAnswer": "7",
+      "wrongAnswers": [
+        { "answer": "3", "why": "gave back the part that was removed", "remedy": "The 3 already left! Which part is still there?" },
+        { "answer": "4", "why": "recalculated and slipped", "remedy": "No new sum needed — you already know the three family numbers. Take 3 off 10 and you land on…?" }
+      ],
+      "hints": ["Same three numbers: 7, 3 and 10.", "Take one part off the whole — the other part is left."],
+      "reteach": { "say": "Three friends: 7, 3 and 10. Put the parts together — 7 + 3 = 10. Undo it — take the 3 back off — and the 7 pops out. One family does both jobs!", "block": { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵🔵🔵 + 🟠🟠🟠 = 10", "caption": "Take the 3 orange away — the 7 blue are left" } }
+    },
+    {
+      "id": "l08-p02", "skill": "use the inverse within 20", "level": 1,
+      "block": { "type": "fillBlank", "text": "5 + 4 = 9, so 9 − 4 = ___", "answer": "5", "wordBank": ["5", "4", "9"] },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "4", "why": "gave the removed part", "remedy": "The 4 is the part we took away. What's left in the bar?" },
+        { "answer": "9", "why": "gave the whole", "remedy": "9 is the whole — the number we started from. After taking 4 away, is it still all there?" }
+      ],
+      "hints": ["The family is 5, 4 and 9.", "Whole minus one part = the other part."],
+      "reteach": { "say": "Build it tiny: 5 cubes and 4 cubes make 9. Slide the 4 away… count what's left… 5! The subtraction just un-does the addition.", "block": { "type": "emojiViz", "emojis": "🔸🔸🔸🔸🔸 + 🔹🔹🔹🔹 = 9", "caption": "9 − 4 lands back on 5" } }
+    },
+    {
+      "id": "l08-p03", "skill": "use an addition fact to answer a subtraction", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "40 + 15 = 55. Use the family — no new sum! 55 − 15 = ?", "answer": 40 },
+      "expectedAnswer": "40",
+      "wrongAnswers": [
+        { "answer": "15", "why": "gave back the removed part", "remedy": "We took the 15 away — which part of the family is still standing?" },
+        { "answer": "70", "why": "added instead of undoing", "remedy": "Check the size: 55 take away something must be SMALLER than 55." }
+      ],
+      "hints": ["The three family numbers are 40, 15 and 55.", "Whole (55) minus one part (15) = the other part."],
+      "reteach": { "say": "Family of three: 40, 15, 55. The whole is 55 — the biggest. Take the 15 part off the whole and the 40 part is left. You never need to count — the family already knows the answer.", "block": { "type": "table", "headers": ["fact", "family job"], "rows": [["40 + 15 = 55", "parts join into the whole"], ["55 − 15 = 40", "whole loses a part → other part left"]] } },
+      "interestSlots": ["marbles", "football stickers", "gems"]
+    },
+    {
+      "id": "l08-p04", "skill": "pick the checking fact", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which subtraction CHECKS that 27 + 46 = 73 is right?", "options": ["73 − 46 = 27", "46 − 27 = 19", "73 + 46 = 119", "27 − 46"], "correct": 0, "explain": "To check an addition, take one part off the whole: 73 − 46 should land exactly on 27 — and it does." },
+      "expectedAnswer": "73 − 46 = 27",
+      "wrongAnswers": [
+        { "answer": "46 − 27 = 19", "why": "subtracted part from part — the whole never appeared", "remedy": "A check must start from the WHOLE. Which of the three numbers is the whole here?" },
+        { "answer": "73 + 46 = 119", "why": "added again instead of undoing", "remedy": "Adding more doesn't check anything — we need the OPPOSITE move. What undoes adding 46?" }
+      ],
+      "hints": ["Start from the whole — the biggest number.", "Undo means take a part back OFF."],
+      "reteach": { "say": "A proper check walks backwards along the same road: 27 + 46 walked UP to 73, so the check walks DOWN — 73 − 46 — and must land exactly on 27. If it lands anywhere else, the sum was wrong.", "block": { "type": "steps", "title": "The detective check", "steps": ["The sum says: 27 + 46 = 73", "Walk backwards: 73 − 46", "Land on 27? ✓ proved!", "Land somewhere else? Redo the sum"] } }
+    },
+    {
+      "id": "l08-p05", "skill": "pick the checking fact", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each addition to the subtraction that checks it.", "pairs": [ { "left": "38 + 25 = 63", "right": "63 − 25 = 38" }, { "left": "40 + 15 = 55", "right": "55 − 40 = 15" }, { "left": "27 + 46 = 73", "right": "73 − 46 = 27" }, { "left": "31 + 51 = 82", "right": "82 − 31 = 51" } ] },
+      "expectedAnswer": "38+25=63→63−25=38; 40+15=55→55−40=15; 27+46=73→73−46=27; 31+51=82→82−31=51",
+      "wrongAnswers": [
+        { "answer": "matched by the first number they saw", "why": "not tracking the three family numbers", "remedy": "Each pair must use the SAME three numbers. Find the whole in the addition — the check must start from it." },
+        { "answer": "38 + 25 = 63 → 55 − 40 = 15", "why": "families mixed", "remedy": "The family of 38 + 25 = 63 is 38, 25, 63. Does 55 − 40 = 15 use any of those?" }
+      ],
+      "hints": ["A check uses the same three numbers as its sum.", "The check always starts from the biggest number — the whole."],
+      "reteach": { "say": "Each addition and its check are the same family in two directions. Spot the whole (the biggest number), then find the subtraction that STARTS from it with the same two other numbers.", "block": { "type": "table", "headers": ["family numbers", "adding up", "checking down"], "rows": [["38, 25, 63", "38 + 25 = 63", "63 − 25 = 38"], ["40, 15, 55", "40 + 15 = 55", "55 − 40 = 15"]] } }
+    },
+    {
+      "id": "l08-p06", "skill": "check a subtraction by adding back", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Check 82 − 31 = 51 by adding back: 51 + 31 = ?", "answer": 82 },
+      "expectedAnswer": "82 — it rebuilds the whole, so the subtraction was right",
+      "wrongAnswers": [
+        { "answer": "20", "why": "subtracted again instead of adding back", "remedy": "To check a SUBTRACTION we go the other way — put the parts back together. 51 plus 31." },
+        { "answer": "84", "why": "an adding slip — the check itself went wrong", "remedy": "Careful — the check only works if it's exact. Ones first: 1 + 1 = ? Tens: 50 + 30 = ?" }
+      ],
+      "hints": ["A subtraction is checked with an ADDITION.", "Put the two parts back together — do you rebuild 82?"],
+      "reteach": { "say": "Subtraction took the whole apart: 82 − 31 = 51. To prove it, glue the parts back: 51 + 31. Ones: 1 + 1 = 2. Tens: 50 + 30 = 80. That's 82 — the whole rebuilt perfectly, case closed!", "block": { "type": "steps", "title": "Add-back check", "steps": ["claim: 82 − 31 = 51", "glue the parts: 51 + 31", "51 + 31 = 82 ✓", "the whole rebuilt — proved!"] } }
+    },
+    {
+      "id": "l08-p07", "skill": "check a subtraction by adding back", "level": 2,
+      "block": { "type": "trueFalse", "statement": "82 − 31 = 51 can be checked with 51 + 31 = 82.", "correct": true, "explain": "Yes — adding the two parts back together rebuilds the whole. That's the inverse check." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "doesn't yet trust that addition undoes subtraction", "remedy": "Build it: take 31 off 82 to get 51, then put the 31 straight back. Where do you land?" },
+        { "answer": "False — you should subtract again", "why": "thinks checking means repeating", "remedy": "Repeating can repeat the same mistake! The OPPOSITE operation catches slips. What's the opposite of subtracting?" }
+      ],
+      "hints": ["What's the opposite of taking away?", "Parts glued back together should rebuild the whole."],
+      "reteach": { "say": "Doing the same sum twice can make the same slip twice. The inverse is a fresh pair of eyes: 51 + 31 rebuilds 82, so 82 − 31 = 51 must be true. Opposite moves catch what repeats miss.", "block": { "type": "keyTerm", "term": "inverse check", "definition": "prove a subtraction by adding the parts back into the whole", "example": "82 − 31 = 51 ✓ because 51 + 31 = 82" } }
+    },
+    {
+      "id": "l08-p08", "skill": "find a missing number with the inverse (stretch)", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Mystery! □ + 25 = 63. What is the missing number?", "answer": 38 },
+      "expectedAnswer": "38",
+      "wrongAnswers": [
+        { "answer": "88", "why": "added the two visible numbers", "remedy": "The 63 is the WHOLE, not a part. To find a missing part, take the known part off the whole." },
+        { "answer": "42", "why": "a subtraction slip while finding the part", "remedy": "Check yourself with the family: does your number plus 25 really make 63? Try 63 − 25 again — break a ten if you need." }
+      ],
+      "hints": ["63 is the whole; 25 is one part — the box is the other part.", "Whole minus the known part: 63 − 25."],
+      "reteach": { "say": "A missing-number puzzle is just a family with one member hiding. The whole is 63, one part is 25 — so the hider is 63 − 25 = 38. Prove it: 38 + 25 = 63. Found!", "block": { "type": "steps", "title": "Find the hiding part", "steps": ["□ + 25 = 63", "the whole is 63, the known part is 25", "hider = 63 − 25 = 38", "prove: 38 + 25 = 63 ✓"] } }
+    },
+    {
+      "id": "l08-p09", "skill": "build the full fact family (stretch)", "level": 3,
+      "block": { "type": "categorize", "prompt": "The family numbers are 38, 25 and 63. Sort these facts!", "buckets": ["in the family", "NOT in the family"], "items": [ { "text": "38 + 25 = 63", "bucket": "in the family" }, { "text": "63 − 25 = 38", "bucket": "in the family" }, { "text": "25 + 38 = 63", "bucket": "in the family" }, { "text": "63 − 38 = 25", "bucket": "in the family" }, { "text": "63 + 25 = 88", "bucket": "NOT in the family" }, { "text": "38 − 25 = 13", "bucket": "NOT in the family" } ] },
+      "expectedAnswer": "The four facts using parts 38, 25 and whole 63 are in; 63 + 25 = 88 and 38 − 25 = 13 are out",
+      "wrongAnswers": [
+        { "answer": "63 + 25 = 88 → in the family", "why": "used family numbers but made the whole into a part", "remedy": "In this family 63 is the WHOLE — it can't be added to a part. Which number must every addition end on?" },
+        { "answer": "38 − 25 = 13 → in the family", "why": "subtracted part from part, dragging in a stranger (13)", "remedy": "13 isn't one of our three numbers! Family subtraction always starts from the whole, 63." }
+      ],
+      "hints": ["Every family fact uses exactly the numbers 38, 25 and 63 — no strangers.", "Additions end on the whole; subtractions start from it."],
+      "reteach": { "say": "A fact family is strict: three numbers only, and 63 — the biggest — is always the whole. Add the parts either way round: two facts. Take either part off the whole: two more. Anything that brings a new number, like 88 or 13, is a gatecrasher!", "block": { "type": "table", "headers": ["fact", "in the family?"], "rows": [["38 + 25 = 63", "✓"], ["25 + 38 = 63", "✓"], ["63 − 25 = 38", "✓"], ["63 − 38 = 25", "✓"], ["63 + 25 = 88", "✗ whole used as a part"], ["38 − 25 = 13", "✗ brings a stranger, 13"]] } }
+    },
+    {
+      "id": "l08-p10", "skill": "prove an answer with the inverse (stretch)", "level": 3,
+      "block": { "type": "shortText", "prompt": "You worked out 64 − 28 = 36. PROVE it right with an addition — and say what landing means.", "sample": "36 + 28 = 64. The parts rebuild the whole exactly, so 36 must be correct." },
+      "expectedAnswer": "36 + 28 = 64 — adding the parts back rebuilds the whole, so the subtraction was right",
+      "wrongAnswers": [
+        { "answer": "64 + 28 = 92", "why": "added from the whole instead of gluing the parts", "remedy": "64 is the whole — it's what we should land ON, not start from. Which two numbers are the parts?" },
+        { "answer": "just do 64 − 28 again", "why": "checking by repeating", "remedy": "Repeating can repeat a slip! Use the opposite move: glue 36 and 28 back together — where should you land?" }
+      ],
+      "hints": ["The parts are 36 and 28; the whole is 64.", "Glue the parts: if they rebuild 64 exactly, the case is proved."],
+      "reteach": { "say": "Detective proof, step by step: the claim says the whole 64 splits into parts 36 and 28. Glue the parts: 36 + 28 — ones: 6 + 8 = 14, trade! — tens: 30 + 20 + 10 = 60 — total 64. Landed exactly on the whole: proved. If we'd landed on 63 or 65, we'd reopen the case!", "block": { "type": "steps", "title": "Prove 64 − 28 = 36", "steps": ["parts: 36 and 28; whole: 64", "glue: 36 + 28", "ones 6 + 8 = 14 → trade", "tens 30 + 20 + 10 = 60 → total 64 ✓"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave missing-number puzzles with fact-family sorting.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the bar model kept on screen, then serve a level-1 item (bonds within 20, e.g. 7 + 3 = 10 → 10 − 3).",
+    "masterySignal": "3+ correct across levels 2–3 including one add-back check and one full fact family (or missing-number) item, with the child using the family instead of recalculating → mastery ≥ 0.8 for 'inverse checking'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the parts and the whole got swapped.'",
+      "Keep the bar model visible so the part-whole relationship never disappears.",
+      "One hint: 'The biggest number is the whole — start there for subtraction.'",
+      "Re-ask with a bond within 20 (7 + 3 = 10 → 10 − 3 = ?), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame the detective cases with LearnerModel.interests (marbles collected and given away, match points, sticker albums) — never change the numbers or the family language.",
+    "endOnSuccess": "Finish with a case the child can win (a within-20 family if needed), then specific process praise: what they DID (predicted before computing, used the family, proved instead of trusting) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Keep the bar model built and visible so the part-whole relationship stays concrete; use a fact-family triangle; start from bonds within 20.",
+    "stretch": "Write all four facts in the family unaided; use the inverse to find a missing number (□ + 25 = 63); explain why checking by repeating is weaker than checking by inverse."
+  },
+  "extension": "'The detective check' — solve three sums of your choice and prove each one correct with its inverse; stamp each proved case CLOSED.",
+  "assessmentEvidence": "Child uses an addition fact to state the matching subtraction (and vice versa) without recalculating, and writes a correct four-fact family.",
+  "revisitLater": "'Prove it with the inverse' becomes a standing habit in every calculation lesson; revisit explicitly in Lesson 12 (retrieval) and when checking change in Lesson 16."
+}

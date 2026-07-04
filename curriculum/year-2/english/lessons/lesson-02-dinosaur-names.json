@@ -1,0 +1,358 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u1-l02",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 1, "title": "Fluent reading: longer words & expression", "essentialQuestion": "How do I read big words and long sentences smoothly, like a storyteller?" },
+  "lessonNumber": 2,
+  "kind": "lesson",
+  "topic": "Reading long unfamiliar words by syllable",
+  "title": "Dinosaur names & place names: beat-reading challenge",
+  "durationMin": 20,
+  "objectives": ["By the end, I can read very long, unfamiliar words by syllable-chopping."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "syllable", "definition": "a beat in a word", "example": "ste-go-sau-rus has four syllables" },
+    { "term": "decode", "definition": "sound a word out", "example": "decode each beat, then blend" },
+    { "term": "blend", "definition": "push sounds together", "example": "ste + go + sau + rus blends into stegosaurus" }
+  ],
+  "emphasize": [
+    "The exact same trick works for words you have NEVER seen — dinosaur names, city names. Chop into beats, read beat by beat.",
+    "The new tool: mark the beats with little dots BEFORE you read, so your eyes know where to stop — dots are stepping stones across a big puddle.",
+    "Pre-empt the 'read it all at once and give up' overload, and catch guessing from the first letter instead of reading every beat."
+  ],
+  "analysis": {
+    "keyConcepts": ["dotting the beats before reading", "beat-by-beat decoding of unfamiliar words", "blending long words in halves when needed"],
+    "misconceptions": [
+      "reading a brand-new long word as one blur and giving up",
+      "guessing from the first letter instead of reading every beat",
+      "reading beats correctly but losing the thread and failing to blend the whole word"
+    ],
+    "hooks": ["Read a word as long as a dinosaur is tall — stegosaurus! — and feel like an expert."],
+    "priorKnowledge": ["clap → read each beat → push together (Lesson 1)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["dinosaur cards on screen (T-rex, triceratops, stegosaurus, diplodocus)", "place-name cards (Manchester, London, Australia)", "whiteboard with beat dots", "speak blocks — the tutor listens to the child read aloud"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the dinosaur-sized challenge; retrieve Lesson 1's beat-reading with a warm-up on elephant.",
+      "note": "Say stegosaurus slowly, tapping four times — ste · go · sau · rus — so the child hears the beats before seeing the trick.",
+      "successCriteria": "Child beat-reads elephant from Lesson 1 and is fired up to try a dinosaur name.",
+      "script": {
+        "say": "Big challenge today. Could you read a word as long as a dinosaur is tall? I think you can. Listen — Ste… go… sau… rus. That's a real dinosaur AND a really long word. By the end of today you'll read it like an expert. But first, a quick warm-up from last time — read elephant for me, by its beats.",
+        "adaptHints": "If the child loves dinosaurs, let them name their favourite — promise we'll read a real dinosaur name today. If elephant is shaky, clap it together and dot the three beats first."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🦕📏😮", "caption": "A word as long as a dinosaur is tall!" },
+        { "type": "speak", "prompt": "Warm-up from last lesson — clap it and read it by its beats.", "target": "elephant" }
+      ],
+      "stuckProtocol": ["If elephant is shaky: clap it together, dot the three beats, read one at a time — el… e… phant — then blend."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the new tool on triceratops: dot the beats first, then read each stepping stone, then blend.",
+      "note": "The whiteboard shows the dots appearing one by one under each beat as the tutor claps. Land the image: dots are stepping stones across a big puddle.",
+      "successCriteria": "Child sees the dots placed and hears each beat read before the blend.",
+      "script": {
+        "say": "When a word is REALLY long, I help my eyes by marking the beats first. Watch triceratops. I clap as I go and put a little dot under each beat: tri (dot) cer (dot) a (dot) tops (dot). Now my eyes know exactly where to stop. I read each beat — tri… cer… a… tops — then I push them together: tri-cer-a-tops… triceratops! The dots are like little stepping stones across a big puddle. Dot the beats, then read the stepping stones one at a time.",
+        "adaptHints": "Emphasise that this word is brand new — even grown-ups chop dinosaur names. Match the tapping rhythm to the child's energy."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Dot the beats: triceratops",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 12, "value": "triceratops", "size": 10, "bold": true },
+            { "k": "dot", "x": 28, "y": 22, "color": "accent" },
+            { "k": "dot", "x": 44, "y": 22, "color": "accent" },
+            { "k": "dot", "x": 56, "y": 22, "color": "accent" },
+            { "k": "dot", "x": 72, "y": 22, "color": "accent" },
+            { "k": "text", "x": 28, "y": 33, "value": "tri", "size": 7, "bold": true, "color": "blue" },
+            { "k": "text", "x": 44, "y": 33, "value": "cer", "size": 7, "bold": true, "color": "orange" },
+            { "k": "text", "x": 56, "y": 33, "value": "a", "size": 7, "bold": true, "color": "green" },
+            { "k": "text", "x": 72, "y": 33, "value": "tops", "size": 7, "bold": true, "color": "purple" },
+            { "k": "text", "x": 50, "y": 46, "value": "tri · cer · a · tops = triceratops!", "size": 6, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 56, "value": "Dots are stepping stones across the puddle", "size": 4, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared dotting and reading: Manchester (3 beats) and T-rex (2), then the child dots and reads triceratops.",
+      "note": "The child claps while the tutor places dots on screen, then reads. On triceratops the child leads — listen for every beat being read, not guessed.",
+      "successCriteria": "Child reads Manchester and T-rex with the tutor, then reads tri-cer-a-tops beat by beat.",
+      "script": {
+        "say": "Let's do Manchester together — that's a big city. Clap with me and we'll dot it: Man (dot) chest (dot) er (dot). Read each beat… Man… chest… er… now push together — Manchester! Easy one next: T-rex. T (dot) rex (dot) — T-rex! Now YOU lead the big one: triceratops. Tell me where the dots go, then read it to me, stepping stone by stepping stone.",
+        "adaptHints": "If the child has visited or knows a big city, mention that place names fall to the same trick. Keep the dots visible while the child reads."
+      },
+      "blocks": [
+        { "type": "flashcards", "cards": [
+          { "front": "Manchester", "back": "Man · chest · er — 3 beats" },
+          { "front": "T-rex", "back": "T · rex — 2 beats" },
+          { "front": "triceratops", "back": "tri · cer · a · tops — 4 beats" }
+        ] },
+        { "type": "speak", "prompt": "You lead! Say where the dots go, then read this dinosaur beat by beat.", "target": "triceratops" }
+      ],
+      "check": {
+        "question": "Dot and read triceratops.",
+        "expectedAnswer": "Four dots — tri-cer-a-tops — read beat by beat, then 'triceratops'",
+        "wrongAnswers": [
+          { "answer": "reads 'tri' then guesses 'tricky' or 'trike'", "why": "guessing from the first letters instead of reading every beat", "remedy": "'Tri' is stepping stone one of FOUR. Cover the rest and read just the next stone… no guessing, every beat gets read." },
+          { "answer": "reads it as one blur and stops", "why": "overload from too many sounds at once", "remedy": "Chop it into beats first — dot it together, then read one stepping stone at a time." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The lesson's key check: read stegosaurus by its beats, dotting first.",
+      "note": "This is the hook's promise paid off. Probe after success: 'Show me your dots — where did each beat stop?'",
+      "successCriteria": "Child reads ste-go-sau-rus beat by beat and blends to 'stegosaurus'.",
+      "script": {
+        "say": "The moment we've trained for! Here's stegosaurus. Dot the beats first — say where they go — then read it to me, beat by beat, and push it together.",
+        "adaptHints": "After a correct read, probe: 'Show me your dots — where did each beat stop?' Celebrate hard — this was the hook's challenge."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "How many beats (dots) does stegosaurus need?", "options": ["2", "3", "4", "5"], "correct": 2, "explain": "ste · go · sau · rus — four stepping stones!" },
+        { "type": "speak", "prompt": "Now read it — beat by beat, then the whole dinosaur.", "target": "stegosaurus" }
+      ],
+      "check": {
+        "question": "Read stegosaurus by its beats — dot them first.",
+        "expectedAnswer": "ste-go-sau-rus → 'stegosaurus', read beat by beat",
+        "wrongAnswers": [
+          { "answer": "reads it as one long blur and stops", "why": "overload from too many sounds", "remedy": "Chop it into beats first — dot it together, then read one stepping stone at a time." },
+          { "answer": "reads the beats correctly but can't blend the whole word", "why": "lost the thread over four beats", "remedy": "Read the first two beats together — ste-go — then the next two — sau-rus — then join the two halves." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent beat-reading: child picks from the dinosaur/place pile, dots the beats, reads each aloud.",
+      "note": "Director draws from practiceBank, start level 2, biased to speak items. Watch for dots placed mid-beat (model the clap again) and for guessing from the first letter instead of reading every beat.",
+      "successCriteria": "Child dots and reads at least one unfamiliar 3+ beat word beat by beat, then blends it.",
+      "script": {
+        "say": "Practice time, word explorer! Pick your challenges from the dinosaur and place-name pile. For each one: dot the beats, read each stepping stone out loud, then push the whole word together. These are words most grown-ups stumble on — let's go!",
+        "adaptHints": "Let the child choose dinosaurs vs places — choice fuels effort. Never change the target words."
+      },
+      "stuckProtocol": [
+        "Don't read it for them.",
+        "Name why: 'This is a brand-new word, so we chop it.'",
+        "Step down to concrete: clap it together and place the dots.",
+        "ONE hint: cover all but the first beat with the highlight.",
+        "Re-ask smaller: 'just read this one beat' — then uncover the next.",
+        "Keep it safe: 'Even grown-ups chop dinosaur names. One beat at a time.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child states the trick for brand-new long words; end on process praise.",
+      "note": "Child-led teach-back. Keep one dinosaur card to re-read at the start of Lesson 3.",
+      "successCriteria": "Child says: dot the beats, read each beat, push together.",
+      "script": {
+        "say": "You just read words most grown-ups stumble on! Tell me the trick for a brand-new, super-long word… Yes — dot the beats, read each stepping stone, push together. You marked your own stepping stones and read every single beat — you didn't guess. That's expert reading.",
+        "adaptHints": "Name the specific words the child conquered ('you read stegosaurus AND Manchester'). Process praise only."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l02-p01",
+      "skill": "beat-read a short unfamiliar word aloud",
+      "level": 1,
+      "block": { "type": "speak", "prompt": "Start with the king! Dot the beats, read each one, then the whole name.", "target": "T-rex" },
+      "expectedAnswer": "T-rex read as two beats — T… rex — then blended: 'T-rex'",
+      "wrongAnswers": [
+        { "answer": "says 'tricks' or blurs it", "why": "ran the two beats together", "remedy": "This one has a helpful dash showing where to stop! Read just 'T'… now just 'rex'. Push together." },
+        { "answer": "stalls at the capital T", "why": "unsure how to read a lone letter beat", "remedy": "The first beat is just the letter's name: 'T'. Say it… now read 'rex'… T-rex!" }
+      ],
+      "hints": ["The dash already splits it — two stepping stones.", "Say the letter name 'T', then read 'rex'."],
+      "reteach": {
+        "say": "T-rex is the friendliest dinosaur name — the dash does the dotting for you! Beat one is just the letter T. Beat two is rex. T… rex… T-rex! Two stones, one king of the dinosaurs.",
+        "block": { "type": "emojiViz", "emojis": "🦖👏👏", "caption": "T · rex = 2 beats" }
+      }
+    },
+    {
+      "id": "l02-p02",
+      "skill": "beat-read a short unfamiliar word aloud",
+      "level": 1,
+      "block": { "type": "speak", "prompt": "A famous city! Dot the beats, read each one, then the whole place name.", "target": "London" },
+      "expectedAnswer": "Lon-don read as two beats, then blended: 'London'",
+      "wrongAnswers": [
+        { "answer": "guesses 'lion' or 'long' from the first letters", "why": "guessing from the first letter instead of reading each beat", "remedy": "Cover the second half. Read just 'Lon'… now 'don'. Push them together — which city did you build?" },
+        { "answer": "reads it in one gulp and stumbles", "why": "one-gulp overload", "remedy": "Dot it first: Lon (dot) don (dot). Read one stepping stone at a time." }
+      ],
+      "hints": ["Clap it: Lon (clap) don (clap).", "Read the first beat, then the second, then push."],
+      "reteach": {
+        "say": "London — the capital city — falls to the same trick as the dinosaurs. Lon (dot)… don (dot). Read: Lon… don… London! Place names are just long words wearing capital letters.",
+        "block": { "type": "emojiViz", "emojis": "🏙️👏👏", "caption": "Lon · don = 2 beats" }
+      }
+    },
+    {
+      "id": "l02-p03",
+      "skill": "beat-read a 3-beat unfamiliar word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "A big city up north! Dot the beats, read each stepping stone, then the whole name.", "target": "Manchester" },
+      "expectedAnswer": "Man-chest-er read beat by beat, then blended: 'Manchester'",
+      "wrongAnswers": [
+        { "answer": "reads 'Man' then guesses 'Manster' or gives up", "why": "guessed after the first beat instead of reading all three", "remedy": "'Man' is stone one of three. Cover it and read just the next beat — 'chest' — a word you know! Then 'er'. Now join them." },
+        { "answer": "one blur and a stall", "why": "overload — no dots placed first", "remedy": "Dot the beats first: Man (dot) chest (dot) er (dot). Now your eyes know where to stop." }
+      ],
+      "hints": ["Three dots: Man · chest · er.", "The middle beat is 'chest' — a word you already know!"],
+      "reteach": {
+        "say": "Watch Manchester fall apart into friendly pieces: Man — you know that word. Chest — you know that one too! Er — easy. Man… chest… er… Manchester! Big words are often small words in a queue.",
+        "block": { "type": "emojiViz", "emojis": "🏟️👏👏👏", "caption": "Man · chest · er = 3 beats" }
+      }
+    },
+    {
+      "id": "l02-p04",
+      "skill": "beat-read a 4-beat unfamiliar word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "The lesson's star dinosaur! Dot the beats, read each one, then roar the whole name.", "target": "stegosaurus" },
+      "expectedAnswer": "ste-go-sau-rus read beat by beat, then blended: 'stegosaurus'",
+      "wrongAnswers": [
+        { "answer": "reads it as one blur and stops", "why": "overload from too many sounds", "remedy": "Chop it into beats first — dot it together: ste (dot) go (dot) sau (dot) rus (dot). One stepping stone at a time." },
+        { "answer": "reads the beats but can't blend the whole word", "why": "lost the thread over four beats", "remedy": "Join the halves: ste-go… sau-rus… now push the two halves together." }
+      ],
+      "hints": ["Four dots — find them by clapping slowly.", "Read two beats, then the other two, then join the halves."],
+      "reteach": {
+        "say": "Four stepping stones across the stegosaurus puddle: ste (dot) go (dot) sau (dot) rus (dot). Read each: ste… go… sau… rus. Join two at a time: ste-go… sau-rus… stegosaurus! You just read a word as long as a dinosaur.",
+        "block": { "type": "emojiViz", "emojis": "🦕👏👏👏👏", "caption": "ste · go · sau · rus = 4 beats" }
+      },
+      "interestSlots": ["the child's favourite dinosaur fact as a celebration"]
+    },
+    {
+      "id": "l02-p05",
+      "skill": "count beats in an unfamiliar word",
+      "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Say it slowly — di · plod · o · cus. How many beats does diplodocus need?", "options": ["2", "3", "4", "5"], "correct": 2, "explain": "di (dot) plod (dot) o (dot) cus (dot) — four stepping stones." },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "3", "why": "merged the little 'o' beat into its neighbour", "remedy": "Hand under your chin and say it slowly: di… plod… o… cus. Tiny beats still count — how many jaw drops?" },
+        { "answer": "2", "why": "heard only the big chunks", "remedy": "Clap it with me, slowly: di (clap) plod (clap) o (clap) cus (clap). Count the claps." }
+      ],
+      "hints": ["Tiny beats like 'o' count too!", "Clap it slowly — every clap is a dot."],
+      "reteach": {
+        "say": "Some beats are tiny — just one little sound — but they still get a dot! Diplodocus: di… plod… o… cus. That little 'o' in the middle is a whole stepping stone. Four beats for a very long dinosaur.",
+        "block": { "type": "table", "headers": ["beat", "sound"], "rows": [["1", "di"], ["2", "plod"], ["3", "o"], ["4", "cus"]] }
+      }
+    },
+    {
+      "id": "l02-p06",
+      "skill": "match words to their beat-chopped form",
+      "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each long word to its stepping stones. Say each one out loud as you match!", "pairs": [
+        { "left": "T-rex", "right": "T · rex" },
+        { "left": "Manchester", "right": "Man · chest · er" },
+        { "left": "stegosaurus", "right": "ste · go · sau · rus" },
+        { "left": "elephant", "right": "el · e · phant" }
+      ] },
+      "expectedAnswer": "T-rex → T·rex; Manchester → Man·chest·er; stegosaurus → ste·go·sau·rus; elephant → el·e·phant",
+      "wrongAnswers": [
+        { "answer": "Manchester → ste·go·sau·rus (or other beat-count mix-up)", "why": "matched by length instead of reading the beats", "remedy": "Read the stepping stones out loud — do they build the word you picked? Push them together and check." },
+        { "answer": "elephant → Man·chest·er", "why": "both are 3 beats — matched by count, not by sounds", "remedy": "Count helps, but the SOUNDS decide. Read el·e·phant out loud — does it make Manchester?" }
+      ],
+      "hints": ["Read each set of stones out loud and push them together — which word do they build?", "Start with T·rex — the shortest — and work up."],
+      "reteach": {
+        "say": "The stepping stones aren't just counting — they're the word chopped up. Read ste·go·sau·rus out loud and push: stegosaurus! The stones always rebuild their own word, never a different one. Match by reading, not by guessing.",
+        "block": { "type": "table", "headers": ["word", "stepping stones", "beats"], "rows": [["T-rex", "T · rex", "2"], ["elephant", "el · e · phant", "3"], ["Manchester", "Man · chest · er", "3"], ["stegosaurus", "ste · go · sau · rus", "4"]] }
+      }
+    },
+    {
+      "id": "l02-p07",
+      "skill": "beat-read a 4-beat unfamiliar word aloud",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "A gentle giant with a tricky name! Dot the beats yourself, then read it stone by stone.", "target": "diplodocus" },
+      "expectedAnswer": "di-plod-o-cus read beat by beat, then blended: 'diplodocus'",
+      "wrongAnswers": [
+        { "answer": "reads 'dip' then guesses wildly", "why": "guessing from the first letters", "remedy": "Slow down, explorer — dot first, guess never. Read just the first stone… now the next. Every beat gets read." },
+        { "answer": "reads beats but blends into 'diplocus' (drops a beat)", "why": "lost a stepping stone while blending", "remedy": "Count your stones — four dots, four beats. Read them again and make sure all four make it into the word." }
+      ],
+      "hints": ["Four dots: di · plod · o · cus — don't lose the tiny 'o'!", "Join halves: di-plod… o-cus… then push."],
+      "reteach": {
+        "say": "Diplodocus drops a stone if we rush. Four dots: di (dot) plod (dot) o (dot) cus (dot). Read each one — even the tiny 'o' gets its turn. Di… plod… o… cus… diplodocus! Every stone crosses the puddle.",
+        "block": { "type": "emojiViz", "emojis": "🦕👏👏👏👏", "caption": "di · plod · o · cus — don't drop the tiny o!" }
+      }
+    },
+    {
+      "id": "l02-p08",
+      "skill": "beat-read a 4-beat unfamiliar word aloud",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "A whole country! No dots given — mark the beats yourself, then read it.", "target": "Australia" },
+      "expectedAnswer": "Aus-tra-li-a read beat by beat, then blended: 'Australia'",
+      "wrongAnswers": [
+        { "answer": "reads 'Aus' then guesses 'Austria' or stalls", "why": "guessed from the first beat", "remedy": "Careful — this word has more stones than you've read yet. Cover everything past 'Aus' and read the next beat on its own." },
+        { "answer": "one blur, no dots placed", "why": "skipped the dotting step on a hard word", "remedy": "Hardest words need the dots MOST. Say it slowly with your hand under your chin, place a dot per jaw drop, then read." }
+      ],
+      "hints": ["Say it slowly first and count the jaw drops.", "Aus… tra… then two little beats at the end: li… a."],
+      "reteach": {
+        "say": "Australia — a country-sized word! Dot it with me: Aus (dot) tra (dot) li (dot) a (dot). Read the stones: Aus… tra… li… a. Push together: Australia! You can read words the size of countries now.",
+        "block": { "type": "emojiViz", "emojis": "🦘👏👏👏👏", "caption": "Aus · tra · li · a = 4 beats" }
+      }
+    },
+    {
+      "id": "l02-p09",
+      "skill": "dot the beats independently before reading",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "Expert challenge: no help at all. Tell me where the dots go in this dinosaur, THEN read it beat by beat.", "target": "triceratops" },
+      "expectedAnswer": "Child says four beats — tri · cer · a · tops — then reads them and blends: 'triceratops'",
+      "wrongAnswers": [
+        { "answer": "places dots mid-beat (e.g. tric · era · tops)", "why": "split the word by looks instead of by sound", "remedy": "Dots follow your VOICE, not your eyes. Say it slowly — tri… cer… a… tops — and drop a dot each time your jaw drops." },
+        { "answer": "reads it correctly but can't say where the beats were", "why": "read from memory of the earlier example, not from the dots", "remedy": "Brilliant reading — now show me the map! Say it slowly and point to where each beat starts." }
+      ],
+      "hints": ["Say it slowly and feel your jaw drop — one dot per drop.", "There's a tiny one-letter beat hiding in the middle."],
+      "reteach": {
+        "say": "The expert's secret: the dots come from your voice. Say triceratops slowly with a hand under your chin — tri… cer… a… tops — four drops, four dots. Now read your own map: tri… cer… a… tops… triceratops! You made the stepping stones AND crossed them.",
+        "block": { "type": "emojiViz", "emojis": "🦖✏️👏👏👏👏", "caption": "Your voice places the dots — tri · cer · a · tops" }
+      }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level. At level 3 the child must dot the beats independently before reading. Prefer speak items — the tutor should hear every beat read aloud.",
+    "levelDown": "2 misses on the same skill → run the item's reteach (dot together, read one stone at a time), then drop to a 2-beat word (T-rex, London) for a guaranteed win.",
+    "masterySignal": "Child independently dots and reads at least one unfamiliar 3+ beat word (e.g. stegosaurus) beat by beat and blends it → mastery ≥ 0.8 for 'reading long unfamiliar words by syllable'.",
+    "struggleProtocol": [
+      "Don't read it for them.",
+      "Name why: 'This is a brand-new word, so we chop it.'",
+      "Step down to concrete: clap it together and place the dots.",
+      "ONE hint: cover all but the first beat.",
+      "Re-ask smaller: 'just read this one beat' — then uncover the next.",
+      "Keep it safe: 'Even grown-ups chop dinosaur names. One beat at a time.'"
+    ],
+    "personalization": "Let the child choose dinosaurs vs place names — choice fuels effort. If they love a place (a holiday spot, a football city), celebrate that place names fall to the same trick. Never change the target words.",
+    "endOnSuccess": "Finish on a word the child can conquer (drop to T-rex if needed) and praise the process: 'you marked your own stepping stones and read every single beat — you didn't guess.'"
+  },
+
+  "differentiation": {
+    "support": "Beats come pre-dotted on the card; child just reads beat by beat then blends. Start with 2-beat T-rex.",
+    "stretch": "A long word with NO dots — the child marks the beats themselves before reading (triceratops, Australia)."
+  },
+  "extension": "Find the world's longest dinosaur name the child can read, dot it together, and perform it proudly.",
+  "assessmentEvidence": "Child independently dots and reads at least one unfamiliar 3+ beat word (e.g. stegosaurus) beat by beat, then blends it.",
+  "revisitLater": "Keep one dinosaur card to re-read at the start of Lesson 3; include stegosaurus in Lesson 4's Robot vs Storyteller review."
+}

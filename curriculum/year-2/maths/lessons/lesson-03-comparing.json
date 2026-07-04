@@ -1,0 +1,324 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u1-l03",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 1, "title": "Place value to 100", "essentialQuestion": "How do the tens and the ones decide how big a number is?" },
+  "lessonNumber": 3,
+  "kind": "lesson",
+  "topic": "Place value to 100",
+  "title": "Comparing two-digit numbers",
+  "durationMin": 24,
+  "objectives": ["By the end, I can compare two two-digit numbers by looking at the tens first."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "compare", "definition": "decide which number is bigger or smaller", "example": "compare 38 and 41" },
+    { "term": "greater than (>)", "definition": "bigger than — the open mouth eats the bigger number", "example": "41 > 38" },
+    { "term": "less than (<)", "definition": "smaller than", "example": "38 < 41" },
+    { "term": "tens first", "definition": "the golden rule: compare the tens digits before the ones", "example": "4 tens beats 3 tens, so 41 > 38" }
+  ],
+  "emphasize": [
+    "COMPARE THE TENS FIRST. Only when the tens are equal do you look at the ones.",
+    "Pre-empt the big misconception '19 > 21 because 9 > 1' — the taller tens-tower wins.",
+    "The open mouth of > / < eats the bigger number."
+  ],
+  "analysis": {
+    "keyConcepts": ["tens-first comparison", "equal-tens fallback to ones", "> and < symbols"],
+    "misconceptions": [
+      "'19 > 21 because 9 > 1' — comparing ones and ignoring tens",
+      "pointing the > / < mouth the wrong way",
+      "guessing without a strategy when numbers look close"
+    ],
+    "hooks": ["Two houses on a street — 38 and 41. The postman walks from number 1 upwards: which house does he reach first?"],
+    "priorKnowledge": ["tens and ones (Lesson 1)", "partitioning — a digit's place gives its value (Lesson 2)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["side-by-side virtual rod towers on the whiteboard", "> / < animations", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=3qisu9NF1_0",
+    "title": "Greater Than Less Than Song for Kids | Comparing Numbers to 1000",
+    "channel": "Math Songs by NUMBEROCK",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time the mouth symbol appears, point which way it opens — toward the BIGGER number.",
+    "afterCheck": { "question": "Which number does the open mouth always point to?", "expectedAnswer": "The bigger number" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Pose the postman puzzle (38 vs 41); retrieve tens counting.",
+      "note": "Let the child predict before any teaching.",
+      "successCriteria": "Child states 3 tens for 38 and 4 tens for 41.",
+      "script": {
+        "say": "Two houses on a street: number 38 and number 41. The postman starts at house number 1 and walks up. Which house does he reach FIRST — which number is smaller? Take a guess! … Before we check: how many tens in 38? And in 41?",
+        "adaptHints": "Swap postman for a delivery the child likes (pizza, parcels). Listen for '3 tens' and '4 tens'."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "📬 🏠38 🏠41", "caption": "Which house does the postman reach first?" }
+      ],
+      "stuckProtocol": ["If tens are shaky: draw both numbers as rods and count the rods in tens."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model tens-first comparison with side-by-side rod towers; introduce > as the hungry mouth.",
+      "note": "The visual is the fix for '19 > 21': towers make the tens difference undeniable.",
+      "successCriteria": "Child hears and sees: more tens = bigger number, even when the ones look bigger.",
+      "script": {
+        "say": "I'll draw both numbers and stand their tens side by side, like towers. 41 has 4 tens — a taller tower. 38 has only 3 tens. More tens means a bigger number — so 41 is greater than 38, EVEN THOUGH 38 has more ones! I always look at the TENS FIRST. And look — I write it with the hungry mouth: 41 > 38. The mouth always opens to eat the bigger number!",
+        "adaptHints": "Chomp sound for the mouth if the child enjoys it. Repeat the anchor: 'Tens first. The taller tower wins.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Tens first: 41 vs 38",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 25, "y": 6, "value": "41", "size": 9, "bold": true },
+            { "k": "text", "x": 75, "y": 6, "value": "38", "size": 9, "bold": true },
+            { "k": "rect", "x": 14, "y": 12, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "rect", "x": 20, "y": 12, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "rect", "x": 26, "y": 12, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "rect", "x": 32, "y": 12, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "dot", "x": 40, "y": 36, "color": "orange" },
+            { "k": "rect", "x": 64, "y": 12, "w": 4, "h": 26, "color": "purple", "fill": true },
+            { "k": "rect", "x": 70, "y": 12, "w": 4, "h": 26, "color": "purple", "fill": true },
+            { "k": "rect", "x": 76, "y": 12, "w": 4, "h": 26, "color": "purple", "fill": true },
+            { "k": "dot", "x": 84, "y": 20, "color": "orange" }, { "k": "dot", "x": 88, "y": 20, "color": "orange" },
+            { "k": "dot", "x": 84, "y": 26, "color": "orange" }, { "k": "dot", "x": 88, "y": 26, "color": "orange" },
+            { "k": "dot", "x": 84, "y": 32, "color": "orange" }, { "k": "dot", "x": 88, "y": 32, "color": "orange" },
+            { "k": "dot", "x": 84, "y": 38, "color": "orange" }, { "k": "dot", "x": 92, "y": 26, "color": "orange" },
+            { "k": "text", "x": 25, "y": 44, "value": "4 tens", "size": 5, "color": "blue", "bold": true },
+            { "k": "text", "x": 75, "y": 44, "value": "3 tens", "size": 5, "color": "purple", "bold": true },
+            { "k": "text", "x": 50, "y": 54, "value": "41 > 38", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 60, "value": "the mouth eats the bigger number", "size": 4, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared example with EQUAL tens: 47 vs 43 — discover the fallback to ones.",
+      "note": "The child must articulate the next step themselves: 'tens are the same → check the ones.'",
+      "successCriteria": "Child says the tens are equal so we compare ones; concludes 47 > 43.",
+      "script": {
+        "say": "Now the tricky one — 47 and 43. I've drawn both towers… wait. Four tens and four tens. The towers are EXACTLY the same height! So what do we check now? … Yes — when the tens tie, the ONES break the tie. 7 beats 3, so 47 is greater. Write it with me: 47 > 43.",
+        "adaptHints": "Give the child time to propose 'check the ones' before revealing."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "The tens are EQUAL (4 and 4). What do we do next?", "options": ["Compare the ones", "Say they're the same number", "Pick the one that sounds bigger", "Start again"], "correct": 0, "explain": "When tens tie, the ones break the tie: 7 > 3, so 47 > 43." }
+      ],
+      "check": {
+        "question": "47 vs 43 — which is greater and why?",
+        "expectedAnswer": "47, because the tens are equal so we compare ones: 7 > 3",
+        "wrongAnswers": [
+          { "answer": "they're the same", "why": "stopped after the tens matched", "remedy": "The towers tie — but look at the loose cubes next to each tower. Who has more?" },
+          { "answer": "43", "why": "guess / symbol confusion", "remedy": "Count the ones on each side: 7 cubes vs 3 cubes." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "The classic trap: 19 vs 21.",
+      "note": "THE diagnostic of this lesson. '19, because 9 > 1' = ones-first misconception.",
+      "successCriteria": "Child picks 21 and justifies with tens ('2 tens beats 1 ten').",
+      "script": {
+        "say": "Trap question — ready? Which is bigger: 19 or 21? Think about the golden rule before you answer…",
+        "adaptHints": "After a correct answer, probe: 'How did you decide?' Expect 'tens first'."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "Which is bigger?", "options": ["21 — it has 2 tens", "19 — because 9 is bigger than 1", "They're equal", "Can't tell"], "correct": 0, "explain": "Tens first! 2 tens (20) beats 1 ten (10). The big 9 can't save 19 — it's only 9 ones." }
+      ],
+      "check": {
+        "question": "Which is bigger, 19 or 21?",
+        "expectedAnswer": "21 (2 tens beats 1 ten)",
+        "wrongAnswers": [
+          { "answer": "19, because 9 > 1", "why": "compared the ones and ignored the tens", "remedy": "Draw both towers. Whose tens-tower is taller — 1 ten or 2 tens?" },
+          { "answer": "guessing with no reason", "why": "no strategy", "remedy": "Where do we ALWAYS look first? Point at the tens digits." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 22],
+      "goal": "Independent comparing with > and <: far-apart tens, equal tens, and across-a-ten pairs.",
+      "note": "Director draws from practiceBank, start level 2. Core set mirrors the script: 27 vs 72, 64 vs 61, 50 vs 49.",
+      "successCriteria": "Child compares 3+ pairs correctly with tens-first reasoning, including one equal-tens pair, recording with > or <.",
+      "script": {
+        "say": "Your turn, number detective! I'll show you pairs — you tell me who's bigger and write it with the hungry mouth. Remember the golden rule…",
+        "adaptHints": "Frame pairs as scores/prices from the child's interests. Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'the ones distracted us.'",
+        "Go concrete: draw both tower pairs side by side.",
+        "One hint: 'Tens first — count the rods.'",
+        "Re-ask with very different tens (30 vs 80), then return.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 24],
+      "goal": "Child states the golden rule; end on a win.",
+      "note": "Child-led recall.",
+      "successCriteria": "Child says: 'look at the tens first; if equal, look at the ones.'",
+      "script": {
+        "say": "Say the golden rule for comparing two numbers — teach it to me! … Perfect. You stopped yourself from being tricked by the ones and checked the tens — brilliant control.",
+        "adaptHints": "Reference the specific trap they beat (19 vs 21 or their own near-miss)."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l03-p01", "skill": "compare with different tens", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which is bigger: 30 or 80?", "options": ["80", "30", "same"], "correct": 0, "explain": "8 tens beats 3 tens." },
+      "expectedAnswer": "80",
+      "wrongAnswers": [
+        { "answer": "30", "why": "slip or guessing", "remedy": "Count each tower in tens: 10-20-30 vs 10-20-…-80. Which climb is longer?" }
+      ],
+      "hints": ["Count both in tens.", "Which tower is taller — 3 rods or 8 rods?"],
+      "reteach": { "say": "Easy towers: 30 is three rods, 80 is eight rods. Eight rods tower over three. 80 > 30.", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦  vs  🟦🟦🟦🟦🟦🟦🟦🟦", "caption": "3 tens vs 8 tens — 80 wins" } }
+    },
+    {
+      "id": "l03-p02", "skill": "use > and < symbols", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The hungry mouth! Which is right?", "options": ["52 > 25", "52 < 25", "25 > 52"], "correct": 0, "explain": "52 is bigger (5 tens beats 2 tens), and the mouth opens toward it." },
+      "expectedAnswer": "52 > 25",
+      "wrongAnswers": [
+        { "answer": "52 < 25", "why": "mouth pointing the wrong way", "remedy": "The open side eats the BIGGER number. Which number is bigger here?" },
+        { "answer": "25 > 52", "why": "compared ones or reversed", "remedy": "Tens first: 5 tens or 2 tens — which is more?" }
+      ],
+      "hints": ["First decide the bigger number (tens first).", "Then open the mouth toward it."],
+      "reteach": { "say": "Two steps, always in order: 1) tens first — 52 has 5 tens, it's bigger. 2) open the mouth at it: 52 > 25. The mouth is greedy — it only eats the big one!", "block": { "type": "steps", "title": "Compare like a pro", "steps": ["Look at the tens: 5 tens vs 2 tens", "5 tens is more → 52 is bigger", "Open the mouth toward 52: 52 > 25"] } }
+    },
+    {
+      "id": "l03-p03", "skill": "compare with different tens", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "27 or 72 — which is greater?", "options": ["72", "27", "equal"], "correct": 0, "explain": "Same digits, different places: 72 has 7 tens, 27 has only 2 tens." },
+      "expectedAnswer": "72",
+      "wrongAnswers": [
+        { "answer": "27", "why": "read them as the same / guessed", "remedy": "Same digits but different homes! How many tens in each? Draw the towers." },
+        { "answer": "equal", "why": "same-digits-same-value misconception from Lesson 1", "remedy": "Partition both: 27 = 20 + 7, 72 = 70 + 2. Which starts bigger?" }
+      ],
+      "hints": ["Tens first: 2 tens vs 7 tens.", "Partition both if unsure."],
+      "reteach": { "say": "27 and 72 use the same digits, but the place gives the power. 72 puts the 7 in the tens seat — seventy! 27 only gives it the ones seat. 72 > 27.", "block": { "type": "table", "headers": ["number", "tens", "ones"], "rows": [["72", "7 tens = 70", "2"], ["27", "2 tens = 20", "7"]], "caption": "The place gives the power" } }
+    },
+    {
+      "id": "l03-p04", "skill": "compare with equal tens", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "64 or 61 — which is greater?", "options": ["64", "61", "equal"], "correct": 0, "explain": "Tens tie (6 and 6) — the ones break the tie: 4 > 1." },
+      "expectedAnswer": "64",
+      "wrongAnswers": [
+        { "answer": "equal", "why": "stopped after matching tens", "remedy": "The towers tie — now count the loose cubes: 4 vs 1." },
+        { "answer": "61", "why": "slip", "remedy": "Tens equal, so check ones: which is more, 4 or 1?" }
+      ],
+      "hints": ["Are the tens the same? Then move to the ones.", "6 tens = 6 tens… so who breaks the tie?"],
+      "reteach": { "say": "When towers tie, the tiebreaker is the cubes. 64 and 61 both have six rods — but 64 has 4 cubes and 61 has just 1. 64 > 61.", "block": { "type": "steps", "title": "The tie-breaker rule", "steps": ["Tens first: 6 = 6 — a tie!", "Ties go to the ones: 4 vs 1", "4 is more → 64 > 61"] } }
+    },
+    {
+      "id": "l03-p05", "skill": "compare across a ten", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "50 or 49 — which is greater?", "options": ["50", "49", "equal"], "correct": 0, "explain": "5 tens beats 4 tens — even though 49 has nine ones and 50 has none!" },
+      "expectedAnswer": "50",
+      "wrongAnswers": [
+        { "answer": "49, it has more ones", "why": "the ones-first trap in disguise", "remedy": "Nine ones is a lot — but a whole extra TEN is more. Draw the towers: 5 rods vs 4 rods and 9 cubes." },
+        { "answer": "equal", "why": "they feel 'next to each other'", "remedy": "Neighbours aren't equal — count on: 49, then one more is…?" }
+      ],
+      "hints": ["Tens first: 5 tens vs 4 tens.", "49 + 1 = ? That tells you who's ahead."],
+      "reteach": { "say": "49 is nine cubes past forty, but 50 is a WHOLE tower more — five full rods. One step after 49 comes 50, so 50 is ahead. 50 > 49.", "block": { "type": "numberLine", "min": 40, "max": 60, "step": 1, "highlight": 50, "marks": [{ "value": 49, "label": "49" }, { "value": 50, "label": "50" }] } }
+    },
+    {
+      "id": "l03-p06", "skill": "use > and < symbols", "level": 2,
+      "block": { "type": "fillBlank", "text": "38 ___ 41 (write > or <)", "answer": "<", "wordBank": ["<", ">", "="] },
+      "expectedAnswer": "<",
+      "wrongAnswers": [
+        { "answer": ">", "why": "mouth direction confusion", "remedy": "Which number is bigger? The mouth must open toward IT — 41 is on the right, so the mouth opens right: <." }
+      ],
+      "hints": ["First: who's bigger, 38 or 41?", "Open the mouth toward the bigger one."],
+      "reteach": { "say": "38 and 41 — tens first: 3 tens vs 4 tens, so 41 is bigger. The greedy mouth opens toward 41: 38 < 41. Read it: '38 is less than 41.'", "block": { "type": "keyTerm", "term": "<", "definition": "less than — the small closed point faces the smaller number, the open mouth faces the bigger", "example": "38 < 41" } }
+    },
+    {
+      "id": "l03-p07", "skill": "the 19-vs-21 trap family", "level": 3,
+      "block": { "type": "trueFalse", "statement": "68 is greater than 71 because 8 is greater than 1.", "correct": false, "explain": "Tens first! 7 tens beats 6 tens, so 71 > 68. The big ones digit can't outvote the tens." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "ones-first misconception restated", "remedy": "Draw the towers: 6 rods vs 7 rods. Can 8 little cubes beat a whole extra rod?" }
+      ],
+      "hints": ["Which digit is the boss — tens or ones?", "A rod is worth ten cubes. Can 8 cubes beat a rod?"],
+      "reteach": { "say": "Here's the secret: one rod = TEN cubes. So an extra rod always beats a handful of extra cubes. 71 has the extra rod — 71 > 68, no matter how shiny that 8 looks.", "block": { "type": "emojiViz", "emojis": "🟦 = 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸", "caption": "One rod beats any pile of loose cubes under ten" } }
+    },
+    {
+      "id": "l03-p08", "skill": "compare three numbers", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Which is the GREATEST: 59, 61, or 58?", "options": ["61", "59", "58"], "correct": 0, "explain": "Tens first: 61 has 6 tens; 59 and 58 have only 5." },
+      "expectedAnswer": "61",
+      "wrongAnswers": [
+        { "answer": "59", "why": "picked the biggest ones digit", "remedy": "Line up all three tens: 5, 6, 5. Who has the most tens?" }
+      ],
+      "hints": ["Compare all the tens digits first.", "Only one number has 6 tens."],
+      "reteach": { "say": "Three racers, same rule: tens first. 59 and 58 both have 5 tens; 61 has 6 tens — it leads before we even look at the ones. 61 is the greatest.", "block": { "type": "table", "headers": ["number", "tens", "verdict"], "rows": [["61", "6", "winner — most tens"], ["59", "5", "second (9 ones beats 8)"], ["58", "5", "third"]] } }
+    },
+    {
+      "id": "l03-p09", "skill": "reason about comparisons", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Is 60 > 59? By how much? Type the difference.", "answer": 1 },
+      "expectedAnswer": "1",
+      "wrongAnswers": [
+        { "answer": "10", "why": "compared tens digits only (6 vs 5) and answered in tens", "remedy": "Count on from 59: how many steps to reach 60?" },
+        { "answer": "0", "why": "thinks they're equal", "remedy": "Say the counting sequence: …58, 59, then comes…?" }
+      ],
+      "hints": ["Count on from 59.", "They're neighbours on the number line."],
+      "reteach": { "say": "60 IS greater than 59 — but only by a single step. 59, then 60. Greater doesn't always mean far apart — sometimes the winner leads by one!", "block": { "type": "numberLine", "min": 55, "max": 65, "step": 1, "highlight": 60, "marks": [{ "value": 59, "label": "59" }, { "value": 60, "label": "60" }] } }
+    },
+    {
+      "id": "l03-p10", "skill": "build a number to beat another", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Type ANY number bigger than 55 — then be ready to prove it with tens-first!", "answer": 56, "tolerance": 44 },
+      "expectedAnswer": "any number 56–100",
+      "wrongAnswers": [
+        { "answer": "54 or smaller", "why": "compared loosely or guessed", "remedy": "Check with the rule: your number's tens vs 5 tens. Does yours win — or tie and win on ones?" }
+      ],
+      "hints": ["Anything with 6+ tens wins instantly.", "With 5 tens you need MORE than 5 ones."],
+      "reteach": { "say": "Two ways to beat 55: bring more tens (60, 70, 91…), or tie the tens and beat the ones (56, 57, 58, 59). Your proof is the golden rule itself.", "block": { "type": "steps", "title": "Beating 55", "steps": ["More than 5 tens → instant win (60+)", "Exactly 5 tens → need ones above 5 (56–59)", "Fewer tens → can never win, even 49!"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct → next level; at level 3, interleave (symbols, traps, three-number compares).",
+    "levelDown": "2 misses on the same skill → reteach with side-by-side towers, then a level-1 far-apart-tens item.",
+    "masterySignal": "3+ correct across levels 2–3 including one equal-tens pair and one trap item (19-vs-21 family), recorded with > or < → mastery ≥ 0.8 for 'comparing two-digit numbers'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why ('the ones distracted us' / 'the mouth flipped').",
+      "Go concrete: draw both tower pairs side by side.",
+      "One hint: 'Tens first — count the rods.'",
+      "Re-ask with very different tens (30 vs 80), then build back.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame pairs as game scores, race times, or collection counts from LearnerModel.interests. Keep the golden-rule language identical.",
+    "endOnSuccess": "Finish on a winnable comparison; praise the strategy: 'you checked the tens before the ones tricked you.'"
+  },
+
+  "differentiation": {
+    "support": "Always draw the rod-towers side by side so the taller tens-stack is obvious; say the rule aloud before answering.",
+    "stretch": "Fluent > / < use; 'Is 60 > 59? By how much?'; compare three numbers; 'make a number bigger than 55 and prove it.'"
+  },
+  "extension": "Rod duel — the character builds a secret number, the child builds theirs, reveal together: the bigger tens-tower wins the round; best of five.",
+  "assessmentEvidence": "Child compares 2–3 pairs correctly using tens-first reasoning, including a pair with equal tens, and records with > or <.",
+  "revisitLater": "Compare-two starter before Lesson 4 (ordering builds on it); resurface the 19-vs-21 trap in the end-of-unit check."
+}

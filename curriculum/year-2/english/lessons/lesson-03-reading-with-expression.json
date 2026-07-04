@@ -1,0 +1,342 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u1-l03",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 1, "title": "Fluent reading: longer words & expression", "essentialQuestion": "How do I read big words and long sentences smoothly, like a storyteller?" },
+  "lessonNumber": 3,
+  "kind": "lesson",
+  "topic": "Sight reading and fluency",
+  "title": "Reading on sight & reading with expression",
+  "durationMin": 25,
+  "objectives": ["By the end, I can read a sentence smoothly, with expression, not robot-by-word."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "on sight / sight word", "definition": "a word your eyes just know instantly", "example": "the, was, said — no sounding out needed" },
+    { "term": "fluency", "definition": "reading smoothly, like talking", "example": "The dog ran fast! — all in one flow" },
+    { "term": "expression", "definition": "reading with feeling", "example": "voice goes UP at a question mark" }
+  ],
+  "emphasize": [
+    "Decoding is step one; reading smoothly with feeling is the goal. The repeated move: 'Read it once to crack it, then read it again like a storyteller.'",
+    "Sight words — your eyes just know them instantly, no sounding out. The more you read, the more words become sight words.",
+    "Pre-empt robotic word-by-word reading (still decoding everything) — the fix is always the second read."
+  ],
+  "analysis": {
+    "keyConcepts": ["sight words are read instantly without decoding", "re-reading builds fluency: decode pass then storyteller pass", "punctuation drives expression: full stop = tiny breath, ? = voice up, ! = excitement"],
+    "misconceptions": [
+      "robotic word-by-word reading — still decoding every word, no fluency pass",
+      "thinking 'on sight' just means looking at a word (missing the INSTANT part)",
+      "ignoring punctuation, so questions and exclamations sound flat"
+    ],
+    "hooks": ["Robot voice vs storyteller voice — which one is the real reader?"],
+    "priorKnowledge": ["decoding/blending and beat-reading long words (Lessons 1–2)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["short decodable passage on screen (The dog ran fast. It saw a cat! Where did the cat go? It hid in the box.)", "sight-word flashcards (the, was, said, you)", "speak blocks — the tutor listens for smoothness and expression"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Contrast robot reading with storyteller reading; the child names which is the real reader. Retrieve beat-reading with playground.",
+      "note": "Exaggerate the robot voice — the funnier the contrast, the harder the lesson lands.",
+      "successCriteria": "Child picks the smooth, lively read as the real reader and beat-reads playground.",
+      "script": {
+        "say": "I'm going to read this sentence two ways. Listen and tell me which one sounds like a real reader. Way one… The. Dog. Ran. Fast. Beep boop. Way two… The dog ran fast! Which one was the real reader? … Right — the smooth one! Before we learn the secret, warm up your decoding — beat-read this for me: playground.",
+        "adaptHints": "Ham up the robot voice — arms stiff, beep boop. If playground is shaky, clap and dot the two beats first."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "Which one sounded like a REAL reader?", "options": ["Way one — the robot: The. Dog. Ran. Fast.", "Way two — smooth and lively: The dog ran fast!"], "correct": 1, "explain": "Real readers sound like they're talking — smooth, with feeling." },
+        { "type": "speak", "prompt": "Warm up your decoding — beat-read this word.", "target": "playground" }
+      ],
+      "stuckProtocol": ["If playground is shaky: clap and dot the two beats, read each, blend — the Lesson 1 routine."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach sight words (eyes just know them) and the two-read secret: once to crack it, again like a storyteller — with punctuation driving the voice.",
+      "note": "Model on the full passage: a deliberate decode pass, then an expressive pass — dip at the full stop, lift at the question, pop the exclamation.",
+      "successCriteria": "Child can say what a sight word is and echo the two-read secret.",
+      "script": {
+        "say": "Some words your eyes just KNOW — you don't sound them out at all. We call those sight words: the, was, said, you. I don't go /th/ /e/ — I just know it, instantly. The more you read, the more words become sight words, and that's what makes reading smooth. That smoothness has a name — fluency. And good readers add expression — feeling — so it sounds like talking, not a robot. Here's my secret: I read a tricky sentence ONCE to crack the words, then I read it AGAIN to make it sound right. Watch me with our story… first read, cracking… now the second read — The dog ran fast. It saw a cat! Where did the cat go? It hid in the box. Hear the difference? Read it once to crack it, then read it again like a storyteller.",
+        "adaptHints": "Point at the punctuation as your voice changes: tiny breath at the full stop, voice UP at the question mark, excitement at the exclamation."
+      },
+      "blocks": [
+        { "type": "flashcards", "cards": [
+          { "front": "the", "back": "sight word — your eyes just know it!" },
+          { "front": "was", "back": "sight word — no sounding out" },
+          { "front": "said", "back": "sight word — instant!" },
+          { "front": "you", "back": "sight word — your eyes just know it!" }
+        ] },
+        { "type": "richText", "markdown": "**Our story:**\n\nThe dog ran fast. It saw a cat! Where did the cat go? It hid in the box." },
+        { "type": "steps", "title": "The storyteller's secret", "steps": ["Read it ONCE to crack the words", "Read it AGAIN smoothly, with feeling", "Let the punctuation boss your voice: . tiny breath · ? voice UP · ! excitement"] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Read the passage together twice — decode pass, then fluency pass with punctuation-driven expression.",
+      "note": "The child reads along both times; the tutor models the voice changes on the fluency pass and listens on the speak block.",
+      "successCriteria": "Child's second read is smoother than the first and the voice lifts at the question mark.",
+      "script": {
+        "say": "Let's do the whole story together. First read — we just crack the words, beat-reading any tricky one. Ready? … Great. Now the magic — second read, smooth and with feeling. Watch the punctuation: full stop, take a tiny breath; question mark, voice goes UP; exclamation mark, get excited! Off you go — read it to me like a storyteller.",
+        "adaptHints": "If the child rushes to read only once, celebrate the first read as 'cracking' and frame the second as where the magic happens."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Second read — the storyteller read! Smooth, with feeling. Let the punctuation boss your voice.", "target": "The dog ran fast. It saw a cat! Where did the cat go? It hid in the box." }
+      ],
+      "check": {
+        "question": "On the second read, what did your voice do at the question mark — Where did the cat go?",
+        "expectedAnswer": "It went UP — made it sound like asking",
+        "wrongAnswers": [
+          { "answer": "nothing / stayed flat", "why": "punctuation ignored — reading past the marks", "remedy": "Ask me the question for real: 'Where did the cat go?' Hear your voice climb? Now read it exactly like you asked me." },
+          { "answer": "it got louder", "why": "confused the question lift with exclamation excitement", "remedy": "Louder is for the exclamation mark! A question mark makes the voice go UP at the end, like wondering. Try asking it." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 16],
+      "goal": "The lesson's key check: what does it mean to read a word on sight?",
+      "note": "Probe after success: 'Tell me a word your eyes just know.' If the child demonstrates robotically, re-run the two-read move on one sentence.",
+      "successCriteria": "Child says: read it instantly, without sounding it out — and names a sight word.",
+      "script": {
+        "say": "Check time! What does it mean to read a word ON SIGHT? Pick the best answer — then tell me a word YOUR eyes just know.",
+        "adaptHints": "After a correct answer, probe for a personal sight word — their own name is a lovely example."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "Reading a word 'on sight' means…", "options": ["Sounding it out slowly, letter by letter", "Your eyes know it instantly — no sounding out", "Skipping it and reading on", "Spelling it out loud first"], "correct": 1, "explain": "On sight = instant. Your eyes just know it — like 'the'. No sounding out at all." }
+      ],
+      "check": {
+        "question": "What does it mean to read a word on sight?",
+        "expectedAnswer": "Read it instantly, straight away, without sounding it out",
+        "wrongAnswers": [
+          { "answer": "'you look at it' (vaguely)", "why": "hasn't grasped the INSTANT part", "remedy": "Yes, you look — but do you have to sound it out, or do you know it straight away? Watch me with 'the': I don't go /th/ /e/ — I just know it. That's on sight." },
+          { "answer": "demonstrates by reading everything robotically", "why": "still decoding every word — no fluency pass", "remedy": "You've cracked the words — now read the same sentence a second time, smooth, like you're telling me a story." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 22],
+      "goal": "Independent fluency practice: three sentences, each read twice (decode → storyteller), plus one performed in character.",
+      "note": "Director draws from practiceBank, start level 2, biased to speak items. Watch for reading once and moving on (prompt 'now the storyteller read') and for ignoring punctuation (model the voice lift, have the child echo).",
+      "successCriteria": "Child re-reads each sentence for smoothness and lifts the voice at question marks.",
+      "script": {
+        "say": "Practice time, storyteller! I'll give you sentences. For each one: first read to crack it, second read smooth and full of feeling. And for the grand finale, you'll perform one in character — a giant, a baby, a king — you choose!",
+        "adaptHints": "Let the child pick the character — silliness is fuel here. Keep the sentences unchanged."
+      },
+      "stuckProtocol": [
+        "Don't read the whole thing for them.",
+        "Name why: 'The words are still new, so they feel bumpy.'",
+        "Step down: choose the shortest sentence.",
+        "ONE hint: model just that sentence with expression, then have the child echo it.",
+        "Re-ask smaller: read it together, then the child alone.",
+        "Keep it safe: 'Smooth reading comes from re-reading. Let's read it one more time together.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Child states the two-step secret; end on process praise for re-reading and expression.",
+      "note": "Child-led teach-back. Start Lesson 4 by re-reading one of these sentences in character.",
+      "successCriteria": "Child says: read once to crack the words, read again smoothly with expression.",
+      "script": {
+        "say": "Tell me your two-step secret for making reading sound great… Yes! Read it once to crack the words, then read it again like a storyteller. You re-read every sentence to make it smooth, and you made your voice go up at the questions — that's a real storyteller's reading.",
+        "adaptHints": "Name the best expressive moment you heard ('your giant voice on that sentence was brilliant'). Process praise only."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l03-p01",
+      "skill": "re-read a short sentence for smoothness",
+      "level": 1,
+      "block": { "type": "speak", "prompt": "Read it once to crack it… then read it AGAIN, smooth like talking.", "target": "The cat sat in the sun." },
+      "expectedAnswer": "Second read is smooth and connected — 'The cat sat in the sun.' as one flow, tiny breath at the full stop",
+      "wrongAnswers": [
+        { "answer": "reads it once, word by word, and stops", "why": "no fluency pass — still in decode mode", "remedy": "You cracked it — brilliant! Now the magic read: same sentence, smooth, like you're telling me about a real cat." },
+        { "answer": "rushes so fast the words tumble", "why": "confused smooth with fast", "remedy": "Smooth isn't a race — it's like talking. Say it to me as if you just saw the cat out the window." }
+      ],
+      "hints": ["First read cracks it. Second read makes it sing.", "Say it like you're TELLING me, not reading it."],
+      "reteach": {
+        "say": "Listen to my two reads. First: The… cat… sat… in… the… sun. Bumpy! Second: The cat sat in the sun. Smooth, like talking. The second read is always smoother because the words are already cracked. Your turn — two reads.",
+        "block": { "type": "emojiViz", "emojis": "🤖➡️😊", "caption": "Read 1 cracks it · Read 2 makes it smooth" }
+      }
+    },
+    {
+      "id": "l03-p02",
+      "skill": "know what punctuation tells the voice to do",
+      "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "You reach a full stop. What does your voice do?", "options": ["Take a tiny breath and pause", "Shout the next word", "Go up like a question", "Speed up"], "correct": 0, "explain": "A full stop is a tiny rest — take a little breath before the next sentence." },
+      "expectedAnswer": "Take a tiny breath and pause",
+      "wrongAnswers": [
+        { "answer": "Go up like a question", "why": "mixed up the full stop with the question mark", "remedy": "The voice goes UP for the curly question mark. A full stop is a tiny rest — try reading two sentences with a little breath between." },
+        { "answer": "Speed up", "why": "treats punctuation as something to rush past", "remedy": "Punctuation is the boss of your voice! The dot says 'tiny rest here'. Read it again and give the dot its rest." }
+      ],
+      "hints": ["The dot means a tiny rest.", "What do you do between two sentences when you're talking?"],
+      "reteach": {
+        "say": "Punctuation marks are little bosses for your voice. The full stop says: tiny breath, rest a moment. The question mark says: voice UP. The exclamation says: excitement! Listen — 'The dog ran. (breath) It saw a cat!' Hear the rest and the excitement?",
+        "block": { "type": "table", "headers": ["mark", "your voice"], "rows": [[".", "tiny breath, little rest"], ["?", "goes UP, like asking"], ["!", "excited, lively"]] }
+      }
+    },
+    {
+      "id": "l03-p03",
+      "skill": "match punctuation to voice moves",
+      "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each mark to what your voice does. Say an example out loud for each!", "pairs": [
+        { "left": ". full stop", "right": "tiny breath, little rest" },
+        { "left": "? question mark", "right": "voice goes UP" },
+        { "left": "! exclamation mark", "right": "excited and lively" }
+      ] },
+      "expectedAnswer": ". → tiny breath; ? → voice up; ! → excited",
+      "wrongAnswers": [
+        { "answer": "? → excited and lively", "why": "question lift confused with exclamation excitement", "remedy": "Try both out loud: 'Where did it go?' — hear your voice climb? Now 'It saw a cat!' — that one's the excited one." },
+        { "answer": ". → voice goes UP", "why": "mark meanings guessed rather than heard", "remedy": "Say 'The dog ran fast.' like you're finishing a thought — your voice settles down and rests. That's the full stop." }
+      ],
+      "hints": ["Say a sentence out loud for each mark — your voice already knows.", "The curly one asks; the straight one shouts."],
+      "reteach": {
+        "say": "Your talking voice already does all three! When you ask — 'Can we go?' — it climbs. When you're excited — 'We won!' — it pops. When you finish a thought — 'I'm tired.' — it rests. Reading expression is just letting your talking voice into the book.",
+        "block": { "type": "table", "headers": ["mark", "say this out loud", "feel it"], "rows": [["?", "Where did the cat go?", "voice climbs"], ["!", "It saw a cat!", "voice pops"], [".", "It hid in the box.", "voice rests"]] }
+      }
+    },
+    {
+      "id": "l03-p04",
+      "skill": "read a question with a rising voice",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Read this so I can HEAR the question mark — make your voice climb at the end.", "target": "Where did the cat go?" },
+      "expectedAnswer": "Read smoothly with the voice rising at the end, like real asking",
+      "wrongAnswers": [
+        { "answer": "flat, robotic read with no lift", "why": "punctuation ignored", "remedy": "Ask me for real — pretend you actually lost the cat! 'Where did the cat go?' Hear the climb? Now read it just like that." },
+        { "answer": "shouts it excitedly", "why": "question mark treated like an exclamation", "remedy": "So close — that was your excited voice! A question wonders. Ask it gently and let the END of the sentence float up." }
+      ],
+      "hints": ["Pretend you really lost the cat — ask me!", "The climb happens on the last word: go?"],
+      "reteach": {
+        "say": "Questions climb. Listen: 'Where did the cat go?' — my voice starts low and floats UP on 'go'. That climb is what tells everyone it's a question, even babies who can't read yet! Ask me three times, climbing higher each time.",
+        "block": { "type": "emojiViz", "emojis": "🐱📈❓", "caption": "Questions climb at the end" }
+      },
+      "interestSlots": ["swap 'cat' for the child's pet in the pretend scenario (not the text)"]
+    },
+    {
+      "id": "l03-p05",
+      "skill": "read an exclamation with excitement",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Read this so the exclamation mark EXPLODES — lively and excited!", "target": "It saw a cat!" },
+      "expectedAnswer": "Read with lively excitement — energy popping on the exclamation",
+      "wrongAnswers": [
+        { "answer": "flat read: it saw a cat.", "why": "exclamation mark ignored — read like a full stop", "remedy": "That straight line with the dot means BIG feeling! Imagine you just spotted the cat — tell me like it's amazing news." },
+        { "answer": "reads every word loudly and slowly", "why": "excitement confused with volume", "remedy": "Excited isn't just loud — it's lively! Say it quickly and brightly, like you can't wait to tell me." }
+      ],
+      "hints": ["Pretend it's amazing news you're bursting to tell.", "Let the energy pop on 'cat!'"],
+      "reteach": {
+        "say": "The exclamation mark is a firework on the end of a sentence. 'It saw a cat!' — hear how my voice lights up? Not shouting — sparkling. Tell me the sentence like it's the most exciting thing that happened all day.",
+        "block": { "type": "emojiViz", "emojis": "🎆🐕🐈", "caption": "! = a firework of feeling" }
+      }
+    },
+    {
+      "id": "l03-p06",
+      "skill": "identify sight words",
+      "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which of these is a SIGHT word — one your eyes just know instantly?", "options": ["the", "stegosaurus", "triceratops", "Manchester"], "correct": 0, "explain": "'The' is a sight word — you never sound it out. The long ones still need beat-chopping!" },
+      "expectedAnswer": "the",
+      "wrongAnswers": [
+        { "answer": "stegosaurus", "why": "thinks a word they CAN read is automatically a sight word", "remedy": "You can read stegosaurus — brilliantly! — but do your eyes know it instantly, or do you chop it? Sight words need NO chopping at all, ever." },
+        { "answer": "Manchester", "why": "same confusion — readable is not the same as instant", "remedy": "Watch yourself read 'the'… instant! Now Manchester… you chopped it, didn't you? Instant ones are the sight words." }
+      ],
+      "hints": ["Which one do you read with NO sounding out, quick as a blink?", "The tiny word is the mighty one here."],
+      "reteach": {
+        "say": "A sight word is one your eyes know quick as a blink — the, was, said, you. No chopping, no sounding, just instant. Big words like stegosaurus still need the beat trick. And here's the lovely part: every word you re-read enough times BECOMES a sight word.",
+        "block": { "type": "flashcards", "cards": [{ "front": "the", "back": "instant — sight word" }, { "front": "was", "back": "instant — sight word" }, { "front": "stegosaurus", "back": "chop it — ste·go·sau·rus" }] }
+      }
+    },
+    {
+      "id": "l03-p07",
+      "skill": "read a full passage fluently with expression",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "The full storyteller read! All four sentences, smooth, with your voice obeying every mark.", "target": "The dog ran fast. It saw a cat! Where did the cat go? It hid in the box." },
+      "expectedAnswer": "Whole passage read smoothly with a breath at full stops, a lift at the question, excitement at the exclamation",
+      "wrongAnswers": [
+        { "answer": "smooth but flat — all marks read the same", "why": "fluency without expression", "remedy": "Lovely and smooth! Now add the feeling: which sentence is the excited one? Which one asks? Read it again and let those two shine." },
+        { "answer": "expressive on one sentence, robotic on the rest", "why": "ran out of steam — expression takes effort while decoding", "remedy": "Do one more crack-read of the bumpy sentences first, then the storyteller read of everything. Cracked words free your voice up." }
+      ],
+      "hints": ["Crack-read anything bumpy first — then perform.", "Three voices hide in there: excited (!), wondering (?), calm (.)."],
+      "reteach": {
+        "say": "A storyteller read is like a tiny show. Let's build it sentence by sentence: 'The dog ran fast.' — calm. 'It saw a cat!' — firework! 'Where did the cat go?' — wondering, voice climbs. 'It hid in the box.' — calm again, like the ending of a story. Now join the show together.",
+        "block": { "type": "steps", "title": "Build the show", "steps": ["Sentence 1 — calm", "Sentence 2 — excited!", "Sentence 3 — wondering?", "Sentence 4 — calm ending"] }
+      }
+    },
+    {
+      "id": "l03-p08",
+      "skill": "perform a sentence in character",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "Perform this in a GIANT's voice — huge, slow and booming!", "target": "Who is sleeping in my bed?" },
+      "expectedAnswer": "Sentence read in a big, booming giant voice with the question still rising at the end",
+      "wrongAnswers": [
+        { "answer": "reads it in a normal voice", "why": "shy about performing — expression not yet playful", "remedy": "I'll be the giant first — WHO IS SLEEPING IN MY BED? Your turn — can you out-giant me?" },
+        { "answer": "booming voice but flat ending — the question disappears", "why": "character voice crowded out the punctuation", "remedy": "Giants ask questions too! Keep the boom AND let the end climb: '…in my BED?' Up it goes." }
+      ],
+      "hints": ["Giants are slow and HUGE — stretch the words.", "Even a giant's question climbs at the end."],
+      "reteach": {
+        "say": "Characters are just expression wearing a costume! The words stay the same — your voice changes size. Watch: giant — WHO IS SLEEPING IN MY BED? Baby mouse — who is sleeping in my bed? Same words, different voice. Pick your favourite and perform it to me.",
+        "block": { "type": "emojiViz", "emojis": "🧌🛏️❓", "caption": "Same words — the voice wears the costume" }
+      },
+      "interestSlots": ["swap the giant for a character the child loves (dragon, robot, wizard)"]
+    },
+    {
+      "id": "l03-p09",
+      "skill": "read a new passage fluently with expression",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "A brand-new mini story — crack it once, then give me the full storyteller read.", "target": "Sam looked up at the sky. The kite was gone! Where could it be? Then he saw it in the tree." },
+      "expectedAnswer": "New passage read twice — decode pass, then smooth expressive pass with the lift at the question and pop at the exclamation",
+      "wrongAnswers": [
+        { "answer": "one read only, half-decoded", "why": "skipped the crack-read on new material", "remedy": "New stories always get two reads — even from grown-ups. Crack it first, no rush… now the storyteller read." },
+        { "answer": "smooth but ignores 'The kite was gone!'", "why": "missed the emotional peak of the passage", "remedy": "That sentence is the BIG moment — Sam's kite vanished! Read it like you'd say it if YOUR favourite toy disappeared." }
+      ],
+      "hints": ["Two reads: crack, then perform.", "Find the big feeling moment — it has the exclamation mark."],
+      "reteach": {
+        "say": "Every new story gets the same two-read treatment. Read one: crack the words — 'Sam… looked… up…' — no rush. Read two: tell it to me — calm, then OH NO the kite is GONE, then wondering where, then the happy ending in the tree. Cracked first, performed second. That's the whole secret.",
+        "block": { "type": "steps", "title": "The two-read treatment", "steps": ["Crack-read: slow, careful, no rush", "Storyteller read: smooth + feelings", "Big moment: 'The kite was gone!' gets the firework"] }
+      }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level. At level 3, interleave full-passage reads with in-character performances. Prefer speak items throughout — expression can only be judged by listening.",
+    "levelDown": "2 misses on the same skill → run the item's reteach (tutor models, child echoes), then drop one level to a shorter sentence for a guaranteed win.",
+    "masterySignal": "Child reads a 3+ sentence passage on a fluency pass — smoothly, attending to at least the full stop and the question mark — and can explain 'on sight' as reading instantly → mastery ≥ 0.8 for 'fluency and expression'.",
+    "struggleProtocol": [
+      "Don't read the whole thing for them.",
+      "Name why: 'The words are still new, so they feel bumpy.'",
+      "Step down: choose the shortest sentence.",
+      "ONE hint: model the sentence with expression, child echoes.",
+      "Re-ask smaller: read together, then the child alone.",
+      "Keep it safe: 'Smooth reading comes from re-reading. One more read together.'"
+    ],
+    "personalization": "Let the child pick the performance character (giant, baby, king, dragon…). Swap pretend scenarios towards their pets and favourite things — but never change the target sentences.",
+    "endOnSuccess": "Finish on a sentence the child can perform proudly (drop to the shortest if needed) and praise the process: 'you re-read to make it smooth and your voice obeyed every mark.'"
+  },
+
+  "differentiation": {
+    "support": "Very short, fully decodable sentences (3–4 words); the tutor models each sentence first, child echoes, then reads alone.",
+    "stretch": "Read a whole paragraph aloud in character (a king, a tiny mouse), changing voice for different punctuation and speakers."
+  },
+  "extension": "Choose a page of a favourite storybook and perform it aloud with full expression to an audience (a toy or a parent).",
+  "assessmentEvidence": "Child reads a 3-sentence passage on a fluency pass — smoothly, attending to at least the full stop and the question mark — and can explain 'on sight' as reading instantly.",
+  "revisitLater": "Start Lesson 4 by re-reading one of these sentences in character; revisit the meaning of 'on sight' in Lesson 4's check."
+}

@@ -1,0 +1,333 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u5-l17",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 5, "title": "Measurement: length, mass, capacity, temperature", "essentialQuestion": "How do we measure and compare how long, heavy, full or hot things are?" },
+  "lessonNumber": 17,
+  "kind": "lesson",
+  "topic": "Measurement — length",
+  "title": "Measuring length with a ruler",
+  "durationMin": 22,
+  "objectives": ["By the end, I can measure a length in cm by lining the object up with zero."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "length", "definition": "how long something is from end to end", "example": "the pencil's length is 14 cm" },
+    { "term": "centimetre (cm)", "definition": "a small unit for measuring length — about the width of your finger", "example": "the crayon is 9 cm long" },
+    { "term": "metre (m)", "definition": "a big unit for measuring length — 100 cm", "example": "a door is about 2 m tall" },
+    { "term": "zero", "definition": "the ruler's starting line — where the object's end must sit", "example": "slide the pencil's end to the 0 before you read" },
+    { "term": "measure", "definition": "find out exactly how long something is", "example": "measure the ribbon with a ruler" },
+    { "term": "longer / shorter", "definition": "words for comparing two lengths", "example": "the pencil is longer than the crayon" }
+  ],
+  "emphasize": [
+    "The golden rule: line the object's end up with the 0 on the ruler — not the 1, not the ruler's edge.",
+    "Read where the OTHER end lands — that number is the length in cm.",
+    "Pre-empt the classic error of starting at 1 — the reading comes out wrong by one, because the far end only tells the truth when the start is on 0."
+  ],
+  "analysis": {
+    "keyConcepts": ["length is measured in cm with a ruler", "align the end to 0, read the far end", "cm for small things, m for big things", "comparing and ordering lengths"],
+    "misconceptions": [
+      "starting the measurement at 1 (or the ruler's edge) instead of 0 — answer one short (or random)",
+      "reading the near end of the object instead of the far end",
+      "thinking any bigger-looking number on the ruler is the length even if the object isn't aligned"
+    ],
+    "hooks": ["How tall do you think you are in centimetres? Bigger than a metre stick?"],
+    "priorKnowledge": ["counting on a number line / number track from 0"]
+  },
+
+  "materials": {
+    "human": ["cm rulers", "a tape measure and (if you have one) a metre stick", "objects to measure: pencil, book, crayon, ribbon", "sticky notes and a pen", "a strip of paper on the wall for a height mark"],
+    "digital": ["drawn ruler on the whiteboard block", "number-line rulers in practice blocks"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes with a REAL ruler (hook + explain). Before the lesson: lay out a cm ruler, the tape measure, and four objects to measure (pencil, book, crayon, ribbon), plus sticky notes. In the explain beat, deliberately measure WRONG once (starting at 1) and show how the answer comes out one too small — that contrast is the heart of the lesson. When you say the handoff line, the AI takes over; keep the ruler and objects in reach — the child measures real things during practice and the AI will ask about them."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=yJW7nE76Aok",
+    "title": "How to Measure Different Objects in Centimetres using a Ruler!",
+    "channel": "Maths with Mum",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Be the zero inspector: every time an object is measured, check — is its end EXACTLY on the 0? Shout 'ZERO!' when it is.",
+    "afterCheck": { "question": "Where must the end of the object sit before you read the ruler?", "expectedAnswer": "On the 0" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Spark curiosity with the child's own height in cm; retrieve counting from 0.",
+      "note": "Don't measure the height yet — leave it as the prize for the extension. Just hold the metre stick up for scale.",
+      "successCriteria": "Child makes a height guess in cm and answers that counting starts at 0.",
+      "script": {
+        "say": "How tall do you think you are in centimetres? Go on, guess a number! Bigger than this metre stick or smaller? Today we become measuring experts and find out exactly. But first, a warm-up from number lines: where do we usually start counting?",
+        "adaptHints": "Write the child's guess on a sticky note to check at the end. Listen for 'at 0' — if they say 1, don't correct; the explain beat will do it."
+      },
+      "humanHandoff": {
+        "setup": "Tape measure stretched out; metre stick held against the child; sticky note with their height guess.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If counting-from-0 is shaky: draw a quick number track starting at 0 and hop along it together — 0, 1, 2, 3…"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Model the golden rule: end on 0, read the far end — then deliberately break it (start at 1) and show the one-short answer.",
+      "note": "The deliberately-wrong measure is the teaching move: the same 14 cm pencil placed at 1 makes the far end read 15 — the start stole the truth. Let the child catch it before you name it. Think aloud slowly.",
+      "successCriteria": "Child watches a correct measure (end on 0, read 14) and sees why starting at 1 gives a wrong answer.",
+      "script": {
+        "say": "Watch the most important rule in measuring. I put the end of the pencil EXACTLY on the 0 — not the 1, the ZERO. Now I read where the other end stops: 14. So the pencil is 14 centimetres. Now watch me be lazy… I start it at the 1 instead. The far end says 15 — but the pencil hasn't grown! Starting at 1 tricks us. So: end on zero, every time! — Now my friend on the screen will draw a giant ruler. Watch!",
+        "adaptHints": "Exaggerate the 'lazy' measure — let the child catch the mistake before you name it. Say the final sentence as written — it's the handoff."
+      },
+      "humanHandoff": {
+        "setup": "The pencil lying on the ruler, end on 0, reading 14 cm. Leave it visible.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Pictorial: the character draws a big ruler with a crayon on it; the child checks the zero and reads the far end (9 cm).",
+      "note": "Bridge from the real ruler to the drawn one. The child should also grab the real crayon and ruler and copy the measure.",
+      "successCriteria": "Child says 'yes, it's on zero' and reads the crayon as 9 cm on the drawn ruler.",
+      "script": {
+        "say": "I drew a giant ruler! And here's a crayon lying on it. You're the inspector: first question — is the crayon's end exactly on the 0? … It is! Second question — where does the other end land? … So how long is the crayon? Now grab your REAL crayon and ruler and measure it just like that — zero first!",
+        "adaptHints": "Pause for each answer. If the child reads the near end (0), point at the far end: 'we read where it FINISHES'."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "End on zero, read the far end",
+          "animate": true,
+          "elements": [
+            { "k": "rect", "x": 6, "y": 30, "w": 88, "h": 12, "color": "ink" },
+            { "k": "line", "x1": 10, "y1": 30, "x2": 10, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 10, "y": 48, "value": "0", "size": 4, "bold": true, "color": "accent" },
+            { "k": "line", "x1": 26, "y1": 30, "x2": 26, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 26, "y": 48, "value": "3", "size": 4 },
+            { "k": "line", "x1": 42, "y1": 30, "x2": 42, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 42, "y": 48, "value": "6", "size": 4 },
+            { "k": "line", "x1": 58, "y1": 30, "x2": 58, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 58, "y": 48, "value": "9", "size": 4, "bold": true, "color": "orange" },
+            { "k": "line", "x1": 74, "y1": 30, "x2": 74, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 74, "y": 48, "value": "12", "size": 4 },
+            { "k": "line", "x1": 90, "y1": 30, "x2": 90, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 90, "y": 48, "value": "15", "size": 4 },
+            { "k": "rect", "x": 10, "y": 18, "w": 48, "h": 8, "color": "orange", "fill": true, "label": "crayon" },
+            { "k": "line", "x1": 10, "y1": 14, "x2": 10, "y2": 28, "color": "green", "width": 2 },
+            { "k": "text", "x": 14, "y": 10, "value": "end on 0!", "size": 4, "color": "green" },
+            { "k": "line", "x1": 58, "y1": 14, "x2": 58, "y2": 28, "color": "orange", "width": 2, "dashed": true },
+            { "k": "text", "x": 66, "y": 10, "value": "read here: 9 cm", "size": 4, "color": "orange", "bold": true },
+            { "k": "text", "x": 50, "y": 58, "value": "The crayon is 9 cm long", "size": 5, "bold": true, "color": "accent" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "The crayon's end is on 0 and its other end lines up with 9 — how long is it?",
+        "expectedAnswer": "9 cm",
+        "wrongAnswers": [
+          { "answer": "0 cm", "why": "read the near end instead of the far end", "remedy": "The 0 is where it STARTS. Where does it FINISH? Slide your finger along the crayon to the far end." },
+          { "answer": "10 cm", "why": "counted the tick marks instead of reading the number", "remedy": "No need to count ticks — the ruler already did the counting. Read the number under the far end." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 16],
+      "goal": "The diagnostic: object from 0 to 15 → 15 cm; catch off-by-one and wrong-end readers.",
+      "note": "Probe after a correct answer: 'Where did the object start?' Then the stretch probe: 'What if it started at 1 and ended at 15?'",
+      "successCriteria": "Child answers 15 cm and can explain that the start must be on 0.",
+      "script": {
+        "say": "Inspector's exam! An object lies along the ruler from 0 all the way to 15. How long is it? … And the tricky follow-up: how do you KNOW — where did it start?",
+        "adaptHints": "If correct and confident, stretch: 'A sneaky ribbon starts at 1 and ends at 15 — is it 15 cm long?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "An object lies along the ruler from 0 to 15. How long is it?",
+          "options": ["15 cm", "14 cm", "16 cm", "0 cm"],
+          "correct": 0,
+          "explain": "It starts at 0 and finishes at 15 — so it's exactly 15 cm long. Start on zero, read the far end."
+        }
+      ],
+      "check": {
+        "question": "An object lies along the ruler from 0 to 15 — how long is it?",
+        "expectedAnswer": "15 cm",
+        "wrongAnswers": [
+          { "answer": "14 cm", "why": "off-by-one — assumed it started at 1, or counted gaps wrongly", "remedy": "Show me the START of the object — is it on 0 or 1? It's on 0, so the far-end number IS the length." },
+          { "answer": "0 cm", "why": "read the near end", "remedy": "We read where it FINISHES, the far end. Run your finger along to the other end — what number is there?" },
+          { "answer": "16 cm", "why": "counted the tick marks including both ends", "remedy": "Don't count ticks — read the number where the object ends. The ruler counts for you." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 20],
+      "goal": "Real measuring: four objects to the nearest cm, recorded on sticky notes, then ordered shortest → longest.",
+      "note": "Director draws from the practiceBank AND directs real-world measures ('measure your pencil now — what did you get?'). On any miss, back to a real short object with a finger on the 0 (CPA step down).",
+      "successCriteria": "Child measures 3+ objects with correct zero-alignment and orders them by length.",
+      "script": {
+        "say": "Measuring expert time! Measure your four objects — pencil, book, crayon, ribbon — one at a time. Zero first, then read the far end, then write each on a sticky note. When you've got all four, line the notes up from shortest to longest!",
+        "adaptHints": "Ask for each reading and react to the actual numbers. Use the child's own objects and interests — 'how long is your toy dinosaur?'"
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the start slipped off the zero' or 'we read the wrong end.'",
+        "Go concrete: put one finger on the 0 and one on the object's end — do they touch?",
+        "One hint: 'End on zero.'",
+        "Re-measure something short (the crayon), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the golden rule; end on an earned success.",
+      "note": "Child-led recall — the character listens. If the height guess from the hook is still unresolved, tee up the extension.",
+      "successCriteria": "Child says 'line the end up with 0' (or their own words) and 'read the far end'.",
+      "script": {
+        "say": "So, measuring expert — what's the golden rule for using a ruler? … Yes! End on ZERO, read the far end. You checked the zero every single time — that's exactly why your measurements were spot on. Want to know if your height guess was right? Go measure it with a grown-up after the lesson!",
+        "adaptHints": "Praise the observed process: checking zero, re-measuring to confirm, ordering carefully."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l17-p01", "skill": "align to zero", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Before you read the ruler, where must the END of the object sit?", "options": ["on the 0", "on the 1", "anywhere on the ruler", "on the 10"], "correct": 0, "explain": "The golden rule: line the object's end up with the 0, then read the far end." },
+      "expectedAnswer": "on the 0",
+      "wrongAnswers": [
+        { "answer": "on the 1", "why": "thinks counting starts at 1 like saying numbers aloud", "remedy": "Rulers start counting at 0, like a race starts at the start line — not one step in! What happens to your answer if you start one step late?" },
+        { "answer": "anywhere on the ruler", "why": "no anchor concept — reads whatever number is near the end", "remedy": "Try it both ways with a real crayon: from 0 you get one answer, from 3 you get another. Which start makes the far end tell the truth?" }
+      ],
+      "hints": ["Where does a race start — at the start line or one step in?", "The ruler's start line is the 0."],
+      "reteach": { "say": "A ruler is a race track for lengths. Every race starts at the start line — the 0. If the object starts anywhere else, the far end tells a fib. End on zero, then the far number is the honest length.", "block": { "type": "keyTerm", "term": "zero", "definition": "the ruler's start line — where the object's end must sit", "example": "end on 0 → read the far end → that's the length" } }
+    },
+    {
+      "id": "l17-p02", "skill": "read length from the ruler", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "A crayon lies along the ruler from 0 to 8. How many cm long is it?", "answer": 8 },
+      "expectedAnswer": "8",
+      "wrongAnswers": [
+        { "answer": "7", "why": "off-by-one — counted from 1 or counted gaps short", "remedy": "It starts at 0, so the far-end number IS the length. What number is under the far end?" },
+        { "answer": "9", "why": "counted the tick marks including both ends", "remedy": "No tick-counting needed — the ruler already counted. Read the number where the crayon finishes." }
+      ],
+      "hints": ["It starts on 0 — so just read the far end.", "The number under the finish IS the length."],
+      "reteach": { "say": "When the start is on 0, the ruler does all the work: the number under the far end IS the length. Start 0, finish 8 — eight centimetres. No counting needed!", "block": { "type": "numberLine", "min": 0, "max": 10, "step": 1, "highlight": 8, "marks": [{ "value": 0, "label": "start" }, { "value": 8, "label": "finish" }] } }
+    },
+    {
+      "id": "l17-p03", "skill": "read length from the ruler", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "A ribbon lies along the ruler from 0 to 15. How many cm long is it?", "answer": 15 },
+      "expectedAnswer": "15",
+      "wrongAnswers": [
+        { "answer": "14", "why": "off-by-one — the start-at-1 habit", "remedy": "Check the start: is the ribbon's end on 0 or 1? On 0 — so the far end tells the exact length." },
+        { "answer": "0", "why": "read the near end", "remedy": "We read where it FINISHES. Slide your finger to the ribbon's other end — what's the number?" }
+      ],
+      "hints": ["Start on 0 → the far number is the length.", "Where does the ribbon finish?"],
+      "reteach": { "say": "Two questions, always in order: One — is the start on zero? Yes. Two — what number is under the finish? 15. So the ribbon is 15 cm. Start question first, finish question second.", "block": { "type": "steps", "title": "The two ruler questions", "steps": ["Is the start on 0? ✓", "What's under the finish? 15", "Length: 15 cm"] } }
+    },
+    {
+      "id": "l17-p04", "skill": "spot the start-at-1 error", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Leo puts his pencil's end on the 1 (oops!) and the far end reads 13. How long is the pencil REALLY?", "options": ["12 cm", "13 cm", "14 cm", "1 cm"], "correct": 0, "explain": "Starting at 1 steals a centimetre from the count — from 1 to 13 is only 12 cm. If he slides it back to 0, the far end will read 12." },
+      "expectedAnswer": "12 cm",
+      "wrongAnswers": [
+        { "answer": "13 cm", "why": "trusted the far-end number without checking the start — the classic error", "remedy": "Check the start first! It's on 1, not 0. Slide the pencil back one space — where does the far end land now?" },
+        { "answer": "14 cm", "why": "added one instead of taking one away", "remedy": "Starting late makes the reading too BIG, not too small. Walk it: from 1 to 13, count the hops on your fingers." }
+      ],
+      "hints": ["The start is on 1, not 0 — the reading is one too big.", "Slide the pencil back to 0 in your head. Where does the far end land?"],
+      "reteach": { "say": "Starting at 1 is like joining a race one step past the start line — your run LOOKS longer than it was. Leo's pencil goes from 1 to 13: count the hops — that's 12, not 13. Slide it to zero and the ruler tells the truth: 12 cm.", "block": { "type": "numberLine", "min": 0, "max": 15, "step": 1, "highlight": 12, "marks": [{ "value": 1, "label": "oops start" }, { "value": 13, "label": "far end" }] } }
+    },
+    {
+      "id": "l17-p05", "skill": "choose cm or m", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which unit would you use to measure the length of a garden — centimetres or metres?", "options": ["metres (m)", "centimetres (cm)", "either, they're the same", "pence (p)"], "correct": 0, "explain": "A garden is big — metres fit big lengths. Centimetres are for small things like pencils. (1 m = 100 cm.)" },
+      "expectedAnswer": "metres (m)",
+      "wrongAnswers": [
+        { "answer": "centimetres (cm)", "why": "hasn't matched unit size to object size", "remedy": "You COULD use cm, but you'd count thousands of them! Which unit means fewer, friendlier numbers for something big?" },
+        { "answer": "either, they're the same", "why": "mixing units — cm and m treated as interchangeable", "remedy": "They're family but not twins: 1 metre is 100 centimetres — as different as £1 and 1p!" }
+      ],
+      "hints": ["cm for small things, m for big things.", "1 m = 100 cm — a garden is many metres."],
+      "reteach": { "say": "Units come in sizes, like spoons and buckets. Centimetres are the spoon — perfect for a pencil. Metres are the bucket — 100 cm each, perfect for gardens and doors. Pick the unit that fits the size of the thing.", "block": { "type": "table", "headers": ["thing", "best unit"], "rows": [["pencil", "cm"], ["book", "cm"], ["door height", "m"], ["garden", "m"]], "caption": "Small → cm, big → m (1 m = 100 cm)" } },
+      "interestSlots": ["football pitch", "toy car track"]
+    },
+    {
+      "id": "l17-p06", "skill": "compare and order lengths", "level": 2,
+      "block": { "type": "ordering", "prompt": "Put these measurements in order, SHORTEST first.", "items": ["4 cm ribbon", "9 cm crayon", "14 cm pencil", "21 cm book"] },
+      "expectedAnswer": "4 cm ribbon, 9 cm crayon, 14 cm pencil, 21 cm book",
+      "wrongAnswers": [
+        { "answer": "9 before 4 (or any swap)", "why": "compared the objects' names or guessed instead of comparing numbers", "remedy": "Ignore what the things ARE — line up just the numbers: 4, 9, 14, 21. Which is smallest?" },
+        { "answer": "21 first", "why": "ordered longest first — misread the instruction", "remedy": "Shortest FIRST — start with the smallest number of centimetres. Which number is smallest?" }
+      ],
+      "hints": ["Just compare the numbers: 4, 9, 14, 21.", "Smallest number = shortest thing."],
+      "reteach": { "say": "Once everything is measured in cm, ordering is a number job: 4, 9, 14, 21 — smallest to biggest. The ribbon's 4 is smallest, so it leads the line. Measuring turns 'which looks longer?' into numbers you can trust.", "block": { "type": "table", "headers": ["object", "length"], "rows": [["ribbon", "4 cm"], ["crayon", "9 cm"], ["pencil", "14 cm"], ["book", "21 cm"]], "caption": "Shortest → longest, by the numbers" } }
+    },
+    {
+      "id": "l17-p07", "skill": "measure not starting at zero", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! A piece of string lies along the ruler from the 2 to the 11. How many cm long is it?", "answer": 9 },
+      "expectedAnswer": "9",
+      "wrongAnswers": [
+        { "answer": "11", "why": "read the far end without checking the start", "remedy": "Start check! The string begins at 2, not 0. Count the hops from 2 up to 11 — or slide it back two spaces in your head." },
+        { "answer": "13", "why": "added the two ends instead of finding the gap", "remedy": "The length is the GAP between the ends, not the two numbers added. Count up from 2 to 11." }
+      ],
+      "hints": ["It doesn't start at 0 — count the gap between 2 and 11.", "Count up: 2 → 11 is how many hops?"],
+      "reteach": { "say": "When the start ISN'T zero, count the gap — just like counting up for change! From 2 to 11: hop 2→10 is 8, then one more is 9. Nine centimetres. Or slide the string back to 0 in your head: it would finish on 9.", "block": { "type": "numberLine", "min": 0, "max": 12, "step": 1, "highlight": 9, "marks": [{ "value": 2, "label": "start" }, { "value": 11, "label": "finish" }] } }
+    },
+    {
+      "id": "l17-p08", "skill": "choose cm or m", "level": 3,
+      "block": { "type": "trueFalse", "statement": "A 30 cm ruler is longer than 1 metre.", "correct": false, "explain": "1 metre is 100 cm — much longer than a 30 cm ruler. You'd need more than three rulers to make a metre!" },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "compared 30 and 1 as bare numbers, ignoring the units", "remedy": "Careful — the units are different! Turn the metre into centimetres first: 1 m = ? cm. Now compare." }
+      ],
+      "hints": ["1 m = 100 cm.", "Compare 30 cm with 100 cm."],
+      "reteach": { "say": "Numbers can't be compared until they wear the same unit. 1 metre puts on its centimetre coat: 100 cm. Now it's fair — 30 cm vs 100 cm. The metre wins easily. Always match units before comparing!", "block": { "type": "table", "headers": ["length", "in cm"], "rows": [["30 cm ruler", "30 cm"], ["1 metre", "100 cm"]], "caption": "Same units first — then compare" } }
+    },
+    {
+      "id": "l17-p09", "skill": "align to zero", "level": 3,
+      "block": { "type": "shortText", "prompt": "Mia measures her spoon three times and gets a different answer every time! She lines it up with the very edge of the ruler, before the 0. What's going wrong? What should she do?", "sample": "She's not starting at 0 — the ruler's edge isn't the start line. She should slide the spoon's end exactly onto the 0, then read the far end." },
+      "expectedAnswer": "She's starting at the ruler's edge, not the 0 — line the end up with 0 and read the far end",
+      "wrongAnswers": [
+        { "answer": "Her spoon keeps changing size", "why": "blames the object, not the method", "remedy": "Spoons don't grow! When the answers keep changing, check the METHOD. Where should the spoon's end sit before she reads?" },
+        { "answer": "She should read the biggest number on the ruler", "why": "no anchoring — grabbing any number", "remedy": "The far end only tells the truth when the start is on 0. What's her start sitting on right now?" }
+      ],
+      "hints": ["Is the ruler's edge the same as the 0?", "The golden rule: end on ___, read the far end."],
+      "reteach": { "say": "Here's Mia's mystery solved: on most rulers there's a little gap before the 0 — the edge is NOT the start line. Starting from the edge adds a secret sliver, different every time she moves. Slide the spoon's end exactly onto the 0 and the far end will say the same true number every time.", "block": { "type": "steps", "title": "Fix Mia's measuring", "steps": ["Find the 0 (not the ruler's edge!)", "Slide the spoon's end onto the 0", "Read the number under the far end", "Measure again — same answer? That's how you know it's true"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave reading, unit-choice and error-spotting items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then a REAL re-measure with a finger on the 0 (CPA step down), then a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one off-by-one trap (start at 1) and one real object measured with correct zero-alignment → mastery ≥ 0.8 for 'measuring length in cm'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why (start slipped off zero / read the wrong end / units mixed).",
+      "Go concrete: real ruler, finger on the 0 and the object's end together.",
+      "One hint: 'End on zero.'",
+      "Re-measure something short (a crayon), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Measure the learner's OWN treasures (toy dinosaur, football card, teddy's arm) — real objects from their interests make the zero habit stick. Never change the maths.",
+    "endOnSuccess": "Finish with a measure the child can win (a short object, guided zero-check), then specific process praise: what they DID (checked the zero, read the far end, re-measured to confirm) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Show how starting at 1 makes the answer one short (side-by-side demo); pre-place objects at 0 so the child only reads; keep numbers under 10.",
+    "stretch": "Measure to the nearest cm and compare three objects; estimate FIRST then measure ('guess, then check'); the string-from-2-to-11 gap problem."
+  },
+  "extension": "Measure their own height against the wall strip with the tape measure, mark it, and label it in cm — then check the sticky-note guess from the hook.",
+  "assessmentEvidence": "Child aligns objects to 0 without prompting, reads lengths in cm accurately (including the 0-to-15 case), and orders objects by length.",
+  "revisitLater": "Reading scales in Lesson 18 builds directly on 'what is each mark worth'; bring back a start-at-1 trap as a retrieval starter; comparing/ordering lengths returns in Unit 8 problems."
+}

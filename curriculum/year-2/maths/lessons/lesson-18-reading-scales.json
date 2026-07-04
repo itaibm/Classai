@@ -1,0 +1,321 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u5-l18",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 5, "title": "Measurement: length, mass, capacity, temperature", "essentialQuestion": "How do we measure and compare how long, heavy, full or hot things are?" },
+  "lessonNumber": 18,
+  "kind": "lesson",
+  "topic": "Measurement — mass and capacity",
+  "title": "Reading scales: mass and capacity",
+  "durationMin": 24,
+  "objectives": ["By the end, I can read a scale and choose the right unit for mass and capacity."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "mass", "definition": "how heavy something is", "example": "the apple's mass is 150 grams" },
+    { "term": "gram (g)", "definition": "a small unit for weighing light things", "example": "a strawberry weighs about 20 g" },
+    { "term": "kilogram (kg)", "definition": "a big unit for weighing heavy things — 1000 g", "example": "a bag of potatoes weighs about 2 kg" },
+    { "term": "capacity", "definition": "how much a container can hold", "example": "the jug's capacity is 1 litre" },
+    { "term": "millilitre (ml)", "definition": "a small unit for liquids", "example": "a spoonful is about 5 ml" },
+    { "term": "litre (l)", "definition": "a big unit for liquids — 1000 ml", "example": "a big juice carton holds 1 litre" },
+    { "term": "scale", "definition": "the marked lines on a jug or weighing machine that we read", "example": "the jug's scale goes 100, 200, 300…" },
+    { "term": "interval", "definition": "the jump between one mark and the next on a scale", "example": "each interval on this jug is worth 100 ml" }
+  ],
+  "emphasize": [
+    "Read the INTERVALS first: work out what each mark is worth before you count marks — they're not always worth 1.",
+    "The big surprise: a taller container does NOT always hold more — trust the scale, not the shape.",
+    "Pick the unit that fits: grams for an apple, kilograms for potatoes; millilitres for a spoonful, litres for a big bottle."
+  ],
+  "analysis": {
+    "keyConcepts": ["a scale's marks each stand for a set amount (intervals)", "mass in g and kg (1 kg = 1000 g)", "capacity in ml and l", "appearance vs measurement — height doesn't decide"],
+    "misconceptions": [
+      "the taller container holds more (judging capacity by height)",
+      "every mark on a scale is worth 1 — miscounting when intervals are worth 2, 5, 10 or 100",
+      "grams and kilograms (or ml and l) used interchangeably — 500 g called heavier than 1 kg because 500 > 1"
+    ],
+    "hooks": ["Two containers — a tall skinny glass and a short fat cup. Which holds more? Let's pour and find out — it might surprise you."],
+    "priorKnowledge": ["counting in 100s / in intervals", "reading numbers on a scale, like a ruler (Lesson 17)"]
+  },
+
+  "materials": {
+    "human": ["kitchen scales", "a marked measuring jug", "a jug of coloured water (for visibility)", "a tall thin glass and a short wide cup with the SAME capacity — test before the lesson!", "three fruits to weigh (e.g. apple, banana, orange)", "a towel for spills"],
+    "digital": ["jug-scale drawings on the whiteboard block", "number-line scales in practice blocks"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~14 minutes with REAL kit (hook + explain + the reveal pour). Before the lesson: check that your tall thin glass and short wide cup really hold about the same amount; colour the water; keep the towel handy. The pour reveal in the example beat is the emotional heart of the lesson — let the child commit to a guess FIRST, then pour the tall glass into the wide cup. Keep the jug and scales in reach afterwards: the AI asks the child to weigh fruit and read jug levels during practice. When you say the handoff line after the reveal, the AI takes over."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "BBC Bitesize",
+    "searchTerm": "measuring mass and capacity KS1",
+    "watchTask": "Every time a scale appears, work out what ONE mark is worth before the presenter says it — call it out first!",
+    "afterCheck": { "question": "Before counting the marks on a scale, what must you work out first?", "expectedAnswer": "What each mark (interval) is worth" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Get a committed guess on tall-vs-wide; retrieve reading marks from the ruler lesson.",
+      "note": "Don't pour yet! The guess must be locked in before the reveal in the example beat. Most children pick the tall glass — perfect.",
+      "successCriteria": "Child commits out loud to a guess and recalls that ruler marks stood for amounts we read.",
+      "script": {
+        "say": "Two containers — this tall skinny glass and this short fat cup. Which one holds more water? Tell me your guess and stick to it — we'll pour and find out later, and it might surprise you. Quick memory check from our ruler lesson: what did each little mark on the ruler stand for?",
+        "adaptHints": "Write or repeat the child's guess back so it's locked in. Listen for 'a number / an amount we read'."
+      },
+      "humanHandoff": {
+        "setup": "The tall glass and short wide cup side by side, empty; the jug of coloured water behind them.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If reading marks is shaky: hold the ruler next to the jug — 'same idea: marks with numbers, and we read where things reach.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Model reading a jug scale by intervals (each mark = 100 ml) and introduce g/kg with a real weigh.",
+      "note": "Touch each mark as you count — the touching IS the method. Then the unit-size idea: 1 kg = 1000 g, grams for light things, kilograms for heavy.",
+      "successCriteria": "Child sees a pour read as '100, 200 — 200 ml' and hears that 1 kg = 1000 g, so 1 kg beats 500 g.",
+      "script": {
+        "say": "A scale has marks called intervals, and each one is worth a set amount. On this jug, each big mark is 100 millilitres. Watch me pour to the second mark — touch and count: 100… 200 — that's 200 ml. For heavy things we use grams and kilograms: 1 kg is 1000 g, so 1 kg is heavier than 500 g. We pick the unit that fits — grams for an apple, kilograms for a bag of potatoes. Let me weigh this apple… see the needle? Read what each mark is worth FIRST, then count the marks.",
+        "adaptHints": "Let the child touch the jug marks as you count together. Keep the pour slow so the level visibly climbs mark by mark."
+      },
+      "humanHandoff": {
+        "setup": "Jug filled to 200 ml, apple on the kitchen scales — both readings visible.",
+        "cueToResume": "Not yet — the human continues into the example beat (the reveal pour)."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "human",
+      "timeboxMin": [8, 14],
+      "goal": "THE REVEAL: pour the tall glass into the short wide cup — same water. Then the child pours to the third mark and reads 300 ml.",
+      "note": "Maximum drama on the pour. Then hand the jug to the child: they pour to the third mark and read it themselves. End with the handoff line.",
+      "successCriteria": "Child sees the tall glass's water fit exactly in the short cup, pours to the third mark, and reads 300 ml.",
+      "script": {
+        "say": "Now the big test. We filled the tall glass. Watch — I tip ALL of it into the short wide cup… it fits! Same water! The tall one LOOKED like more, but it isn't — the shape tricked our eyes. Height doesn't decide; measuring does. Your turn: pour water into the jug up to the THIRD mark. Touch and count the marks… what's the amount? … 300 ml! And one more: which is heavier — 1 kg or 500 g? — Brilliant. Now my friend on the screen has some scales for you to read. Watch!",
+        "adaptHints": "If the child's guess was the tall glass, celebrate the surprise — 'your eyes tricked you, and now you know the trick!' Say the final sentence as written — it's the handoff."
+      },
+      "humanHandoff": {
+        "setup": "The short wide cup holding all the tall glass's water; jug at 300 ml. Leave both visible as evidence.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      },
+      "stuckProtocol": ["If the interval count slips: put the child's finger on each mark and count together slowly — 100… 200… 300."]
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Diagnostic: 1 kg vs 500 g, and reading a jug at the second 100 ml mark.",
+      "note": "Probe after a correct read: 'How much is each mark worth?' — that question reveals whether the interval idea landed.",
+      "successCriteria": "Child answers 1 kg (because 1 kg = 1000 g) and reads the jug as 200 ml by intervals.",
+      "script": {
+        "say": "Scale-reader's exam! First: which is heavier — 1 kilogram or 500 grams? … Second: look at my jug drawing. The marks go up in hundreds and the water reaches the second mark. How many millilitres? And tell me — how much is each mark worth?",
+        "adaptHints": "If '500 g is heavier because 500 is bigger' comes up, don't correct directly — ask 'how many grams is 1 kg wearing when it puts its gram coat on?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which is heavier — 1 kg or 500 g?",
+          "options": ["1 kg, because 1 kg = 1000 g", "500 g, because 500 is a bigger number", "they weigh the same", "you can't compare them"],
+          "correct": 0,
+          "explain": "Match the units first: 1 kg = 1000 g. Now compare — 1000 g beats 500 g."
+        },
+        {
+          "type": "whiteboard",
+          "title": "Read the jug",
+          "animate": true,
+          "elements": [
+            { "k": "rect", "x": 30, "y": 8, "w": 26, "h": 46, "color": "ink" },
+            { "k": "rect", "x": 30, "y": 36, "w": 26, "h": 18, "color": "blue", "fill": true },
+            { "k": "line", "x1": 30, "y1": 45, "x2": 40, "y2": 45, "color": "ink" },
+            { "k": "text", "x": 66, "y": 45, "value": "100 ml", "size": 4 },
+            { "k": "line", "x1": 30, "y1": 36, "x2": 40, "y2": 36, "color": "ink" },
+            { "k": "text", "x": 66, "y": 36, "value": "200 ml  ← water is here", "size": 4, "bold": true, "color": "blue" },
+            { "k": "line", "x1": 30, "y1": 27, "x2": 40, "y2": 27, "color": "ink" },
+            { "k": "text", "x": 66, "y": 27, "value": "300 ml", "size": 4 },
+            { "k": "line", "x1": 30, "y1": 18, "x2": 40, "y2": 18, "color": "ink" },
+            { "k": "text", "x": 66, "y": 18, "value": "400 ml", "size": 4 },
+            { "k": "text", "x": 43, "y": 60, "value": "Each mark is worth 100 ml", "size": 4, "color": "accent", "bold": true }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Which is heavier, 1 kg or 500 g? And read the jug filled to the second 100 ml mark.",
+        "expectedAnswer": "1 kg (= 1000 g); the jug reads 200 ml",
+        "wrongAnswers": [
+          { "answer": "500 g is heavier because 500 > 1", "why": "compared bare numbers across different units", "remedy": "Put both in the same unit first: 1 kg in grams is…? NOW compare the numbers." },
+          { "answer": "the jug reads 2 ml (or 2)", "why": "counted marks as worth 1 each — ignored the interval value", "remedy": "Each mark is worth 100! Touch and count with me: 100… 200." },
+          { "answer": "the tall glass holds more (if it resurfaces)", "why": "judging by height, not measurement", "remedy": "Remember our pour — the same water filled both! Height doesn't decide; the jug's marks do." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [18, 22],
+      "goal": "Weigh three fruits and order them; read two jug levels; pick sensible units — then a between-marks stretch.",
+      "note": "Director draws from the practiceBank AND directs real actions ('weigh the banana — what does the needle say?'). On a miss, back to touch-and-count on the real jug (CPA step down).",
+      "successCriteria": "Child reads 2+ scales correctly using the interval value, orders the fruits by mass, and picks the right unit twice.",
+      "script": {
+        "say": "You're the scale-reader now! Three jobs: weigh your three fruits and put them in order, lightest to heaviest… read the jug levels I show you… and pick the right unit — would you weigh a strawberry in grams or kilograms? Remember the golden question: what is ONE mark worth?",
+        "adaptHints": "React to the child's real fruit weights. Swap items for their interests — 'would you weigh your teddy in g or kg?'"
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the marks got counted as ones' or 'the shape tricked our eyes again.'",
+        "Go concrete: re-pour or re-weigh, touching each mark as you count together.",
+        "One hint: 'What is one mark worth?'",
+        "Re-ask an easier read (first mark = 100 ml), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 24],
+      "goal": "Child voices the surprise and the method; end on an earned success.",
+      "note": "Child-led recall — the character listens. The tall-glass story is the memory hook; let the child retell it.",
+      "successCriteria": "Child says taller doesn't mean more, and that you read what each mark is worth first.",
+      "script": {
+        "say": "So — what surprised you today about the tall glass? … Exactly: taller doesn't mean more — you have to measure! And what's the golden question before counting marks on any scale? … What is ONE mark worth. You trusted the measurement over how it looked — that's careful science-maths thinking.",
+        "adaptHints": "Praise the observed process: committing to a guess and testing it, touch-counting intervals, matching units before comparing."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l18-p01", "skill": "compare masses across units", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which is heavier — 1 kg or 500 g?", "options": ["1 kg", "500 g", "they're the same", "you can't tell"], "correct": 0, "explain": "1 kg = 1000 g, and 1000 g is more than 500 g." },
+      "expectedAnswer": "1 kg",
+      "wrongAnswers": [
+        { "answer": "500 g", "why": "compared bare numbers (500 > 1) across different units", "remedy": "The units are different sizes! Turn the kilogram into grams first: 1 kg = ? g. Now which number is bigger?" },
+        { "answer": "they're the same", "why": "treats g and kg as the same unit", "remedy": "A gram is tiny — a raisin. A kilogram is a whole bag of sugar — 1000 grams! Which is more, 1000 g or 500 g?" }
+      ],
+      "hints": ["1 kg = 1000 g.", "Put both in grams, then compare."],
+      "reteach": { "say": "Same trick as pounds and pence: match the units before comparing. 1 kg puts on its gram coat — 1000 g. Now it's fair: 1000 g against 500 g. The kilogram wins — it's TWO 500s!", "block": { "type": "table", "headers": ["mass", "in grams"], "rows": [["1 kg", "1000 g"], ["500 g", "500 g"]], "caption": "Match units first — then compare" } }
+    },
+    {
+      "id": "l18-p02", "skill": "choose the right unit", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "You want to weigh a strawberry. Which unit fits best?", "options": ["grams (g)", "kilograms (kg)", "litres (l)", "centimetres (cm)"], "correct": 0, "explain": "A strawberry is light — grams fit light things. Kilograms are for heavy things like potatoes. (Litres measure liquid, cm measure length!)" },
+      "expectedAnswer": "grams (g)",
+      "wrongAnswers": [
+        { "answer": "kilograms (kg)", "why": "unit size not matched to object — a strawberry is a tiny fraction of a kg", "remedy": "A kilogram is a whole bag of sugar. Is a strawberry anywhere near that heavy? Which unit is made for light things?" },
+        { "answer": "litres (l)", "why": "mixed up mass and capacity", "remedy": "Litres measure how much a container HOLDS. We're asking how HEAVY the strawberry is — which family of units is for heaviness?" }
+      ],
+      "hints": ["Grams for light, kilograms for heavy.", "Is a strawberry closer to a raisin or a bag of potatoes?"],
+      "reteach": { "say": "Units come in families and sizes. Heaviness family: grams for light things (a strawberry, a letter), kilograms for heavy things (potatoes, you!). Liquid family: millilitres for sips, litres for big bottles. Pick the one that fits the size of the thing.", "block": { "type": "table", "headers": ["thing", "best unit"], "rows": [["strawberry", "g"], ["bag of potatoes", "kg"], ["spoonful of medicine", "ml"], ["big juice bottle", "l"]], "caption": "Match the unit to the size" } },
+      "interestSlots": ["teddy", "toy car"]
+    },
+    {
+      "id": "l18-p03", "skill": "read a scale by intervals", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "A jug is marked every 100 ml. The water reaches the THIRD mark. How many ml?", "answer": 300 },
+      "expectedAnswer": "300",
+      "wrongAnswers": [
+        { "answer": "3", "why": "counted marks as worth 1 each — ignored the interval value", "remedy": "Each mark is worth 100, not 1! Touch and count: 100… 200… 300." },
+        { "answer": "103", "why": "muddled the mark count with the interval value", "remedy": "Don't mix them — every mark is a full 100. Count in hundreds: 100, 200, 300." }
+      ],
+      "hints": ["First question: what is one mark worth?", "Count in hundreds: 100, 200, …"],
+      "reteach": { "say": "Golden question first: what is ONE mark worth? Here — 100 ml. Now count the marks in hundreds, touching each: 100… 200… 300. Third mark, 300 ml. The mark's WORTH does the multiplying for you.", "block": { "type": "numberLine", "min": 0, "max": 500, "step": 100, "highlight": 300, "marks": [{ "value": 300, "label": "water level" }] } }
+    },
+    {
+      "id": "l18-p04", "skill": "appearance vs measurement", "level": 2,
+      "block": { "type": "trueFalse", "statement": "The taller glass always holds more water than the shorter one.", "correct": false, "explain": "Remember the pour — the tall glass's water fitted exactly in the short wide cup! Width matters too. Only measuring tells you the capacity." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "judging capacity by height — the lesson's key misconception", "remedy": "Think back to our pour: where did ALL the tall glass's water go? Did any spill out of the short cup? So does height decide?" }
+      ],
+      "hints": ["Remember the pour — did the water fit?", "Tall and skinny can hold the same as short and wide."],
+      "reteach": { "say": "Your eyes measure height, but water fills WIDTH too. The tall skinny glass and the short fat cup held exactly the same — we proved it with the pour. Shapes trick eyes; scales don't. When you want the truth, pour it into a measuring jug and read the marks.", "block": { "type": "emojiViz", "emojis": "🥛➡️🍵 = same!", "caption": "The pour test: same water, different shapes" } }
+    },
+    {
+      "id": "l18-p05", "skill": "read a scale by intervals", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Kitchen scales marked every 100 g. The needle points at the 4th mark. What's the mass?", "options": ["400 g", "4 g", "104 g", "4 kg"], "correct": 0, "explain": "Each mark is worth 100 g: 100, 200, 300, 400. Four marks = 400 g." },
+      "expectedAnswer": "400 g",
+      "wrongAnswers": [
+        { "answer": "4 g", "why": "counted marks as ones", "remedy": "What is one mark worth on these scales? 100! So count in hundreds: 100, 200…" },
+        { "answer": "4 kg", "why": "right count, wrong unit — g/kg mix-up", "remedy": "Check the unit on the scale: it says grams. 400 g. How many g would it need to reach even 1 kg?" }
+      ],
+      "hints": ["One mark = 100 g.", "Count the marks in hundreds."],
+      "reteach": { "say": "Every scale asks the same golden question: what is ONE mark worth? These scales say 100 g per mark. Needle at the fourth mark: 100, 200, 300, 400 — 400 grams. Not 4 — the marks aren't ones!", "block": { "type": "numberLine", "min": 0, "max": 600, "step": 100, "highlight": 400, "marks": [{ "value": 400, "label": "needle" }] } },
+      "interestSlots": ["flour for baking", "dog food"]
+    },
+    {
+      "id": "l18-p06", "skill": "choose the right unit", "level": 2,
+      "block": { "type": "categorize", "prompt": "Sort these into the unit you'd measure them with.", "buckets": ["grams (g)", "kilograms (kg)"], "items": [ { "text": "a strawberry", "bucket": "grams (g)" }, { "text": "a bag of potatoes", "bucket": "kilograms (kg)" }, { "text": "a letter to post", "bucket": "grams (g)" }, { "text": "a big dog", "bucket": "kilograms (kg)" }, { "text": "an apple", "bucket": "grams (g)" }, { "text": "a full suitcase", "bucket": "kilograms (kg)" } ] },
+      "expectedAnswer": "strawberry, letter, apple → g; potatoes, big dog, suitcase → kg",
+      "wrongAnswers": [
+        { "answer": "apple → kg", "why": "unit size not anchored — an apple is far less than a kilogram", "remedy": "A kilogram is 1000 g — a whole bag of sugar. Is one apple that heavy? Hold the thought of each in your hands." },
+        { "answer": "big dog → g", "why": "grams over-stretched to heavy things", "remedy": "You'd need THOUSANDS of grams for a dog — that's exactly when we swap to kilograms. Light → g, heavy → kg." }
+      ],
+      "hints": ["Lighter than a bag of sugar → grams.", "As heavy as shopping bags → kilograms."],
+      "reteach": { "say": "Use the bag-of-sugar test: a bag of sugar is 1 kg. Lighter than it? Weigh in grams — strawberry, letter, apple. As heavy or heavier? Kilograms — potatoes, a big dog, a stuffed suitcase. One quick imagine-it-in-your-hands and the unit picks itself.", "block": { "type": "table", "headers": ["lighter than a sugar bag", "heavier"], "rows": [["strawberry → g", "potatoes → kg"], ["letter → g", "big dog → kg"], ["apple → g", "suitcase → kg"]], "caption": "The bag-of-sugar test (1 kg)" } }
+    },
+    {
+      "id": "l18-p07", "skill": "read a scale by intervals", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! The jug is marked every 100 ml. The water sits exactly HALFWAY between the 100 mark and the 200 mark. About how many ml?", "answer": 150 },
+      "expectedAnswer": "150",
+      "wrongAnswers": [
+        { "answer": "100", "why": "rounded down to the last mark — ignored the halfway position", "remedy": "It's PAST the 100 mark — half a jump more. Half of a 100-jump is…? Add it on." },
+        { "answer": "1500", "why": "muddled halfway with a bigger number / place-value slip", "remedy": "The water is between 100 and 200 — the answer must live between them. What number is exactly in the middle?" }
+      ],
+      "hints": ["Halfway between 100 and 200.", "Half of the 100-jump is 50 — add it to 100."],
+      "reteach": { "say": "Between marks? Split the jump! The jump is 100, so halfway is 50 more. Water halfway past the 100 mark: 100 + 50 = about 150 ml. Scale-readers say 'about' when the level sits between marks — that's honest measuring.", "block": { "type": "numberLine", "min": 0, "max": 300, "step": 50, "highlight": 150, "marks": [{ "value": 100, "label": "mark" }, { "value": 150, "label": "water" }, { "value": 200, "label": "mark" }] } }
+    },
+    {
+      "id": "l18-p08", "skill": "compare masses across units", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "1 kg = how many grams?", "answer": 1000 },
+      "expectedAnswer": "1000",
+      "wrongAnswers": [
+        { "answer": "100", "why": "borrowed £1 = 100p — wrong conversion", "remedy": "Close cousin, different family! Money: £1 = 100p. Mass: 1 kg = one THOUSAND grams. Kilo means thousand." },
+        { "answer": "10", "why": "guessed a small conversion", "remedy": "'Kilo' is a power word — it always means a thousand. 1 kilogram = 1000 grams." }
+      ],
+      "hints": ["'Kilo' means a thousand.", "It's more than £1 = 100p — one step bigger."],
+      "reteach": { "say": "'Kilo' is a secret code word meaning ONE THOUSAND. Kilogram = 1000 grams. (One day you'll meet kilometre = 1000 metres — same code!) So 1 kg = 1000 g, which is why it beats 500 g easily.", "block": { "type": "keyTerm", "term": "kilo", "definition": "a prefix meaning one thousand", "example": "1 kilogram = 1000 grams" } }
+    },
+    {
+      "id": "l18-p09", "skill": "appearance vs measurement", "level": 3,
+      "block": { "type": "shortText", "prompt": "Ben says: 'The tall thin bottle must hold more than the short wide one — it's taller!' What would you tell him? How could you PROVE it?", "sample": "Taller doesn't mean more — the wide one might hold the same or more. Prove it by pouring each into a measuring jug and reading the marks." },
+      "expectedAnswer": "Height doesn't decide capacity; pour both into a measuring jug and compare the readings",
+      "wrongAnswers": [
+        { "answer": "Ben is right, taller holds more", "why": "the height-means-more misconception", "remedy": "Remember our tall glass — where did all its water fit? How could Ben test his idea instead of trusting his eyes?" },
+        { "answer": "Just look really carefully at both", "why": "still judging by appearance, no measurement", "remedy": "Eyes got tricked last time! What tool turns 'it looks like more' into a number you can trust?" }
+      ],
+      "hints": ["What did our pour test prove?", "Which tool gives you a NUMBER instead of a guess?"],
+      "reteach": { "say": "Tell Ben the scientist's answer: don't argue — measure! Pour the tall bottle into the jug, read the marks. Pour the wide one in, read again. Two numbers, and the bigger number wins no matter which bottle LOOKS bigger. We did it today: tall skinny glass and short fat cup — exactly the same water.", "block": { "type": "steps", "title": "Prove it like a scientist", "steps": ["Pour bottle 1 into the measuring jug — read the marks", "Empty it. Pour bottle 2 in — read again", "Compare the two numbers", "The number decides — not the shape!"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave mass, capacity and unit-choice items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then re-pour or re-weigh on the REAL kit touching each mark (CPA step down), then a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one interval read (marks worth 100) and one unit comparison (1 kg vs 500 g) → mastery ≥ 0.8 for 'reading scales: mass and capacity'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why (marks counted as ones / shape tricked the eyes / units mixed).",
+      "Go concrete: re-pour or re-weigh together, touching each mark as you count.",
+      "One hint: 'What is one mark worth?'",
+      "Re-ask an easier read (water at the first mark), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Weigh and measure the learner's own world — their teddy, their juice cup, ingredients for a food they love. Keep 'what is one mark worth?' as the constant question in every framing.",
+    "endOnSuccess": "Finish with a read the child can win (first-mark read or the pour story retold), then specific process praise: what they DID (asked what a mark is worth, tested the guess, matched units) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Count the marked intervals aloud together, finger on each mark; coloured water for a crisp level; stick to marks-worth-100 with the water exactly ON a mark.",
+    "stretch": "Read a level halfway between marks ('about 150 ml'); convert 1 kg = 1000 g and use it to compare 750 g vs 1 kg; predict-then-weigh three fruits."
+  },
+  "extension": "Junior chef: measure out exactly 300 ml of water and 200 g of an ingredient (flour, rice) for a pretend recipe — both scales read by the child alone.",
+  "assessmentEvidence": "Child reads mass and capacity scales using the interval value (including a between-marks estimate at stretch), compares 1 kg vs 500 g correctly, and rejects the height-means-more error with the pour as evidence.",
+  "revisitLater": "Measures combine in Unit 8 problems — revisit reading scales then; bring back 'what is one mark worth?' as a retrieval starter; the interval idea returns with clock faces in Lesson 19 (each number = 5 minutes)."
+}

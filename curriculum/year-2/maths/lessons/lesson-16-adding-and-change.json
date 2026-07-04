@@ -1,0 +1,330 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u4-l16",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 4, "title": "Money: pounds and pence", "essentialQuestion": "How do we use pounds and pence to pay and work out change?" },
+  "lessonNumber": 16,
+  "kind": "lesson",
+  "topic": "Money",
+  "title": "Adding amounts and finding change",
+  "durationMin": 22,
+  "objectives": ["By the end, I can total a small shopping list and work out change by counting up."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "total", "definition": "how much things cost all together", "example": "30p and 25p total 55p" },
+    { "term": "cost", "definition": "the price — what you must pay", "example": "the pen costs 70p" },
+    { "term": "change", "definition": "the money the shopkeeper gives BACK when you pay too much", "example": "pay £1 for a 70p pen — 30p change" },
+    { "term": "count up", "definition": "start at the price and count on to what you paid", "example": "65 → 70 is 5, 70 → 100 is 30: change is 35p" },
+    { "term": "money given − cost = change", "definition": "the change rule written as a number sentence", "example": "100p − 70p = 30p" }
+  ],
+  "emphasize": [
+    "To find change, COUNT UP from the price to the money you gave — don't wrestle with taking away.",
+    "First hop to the next friendly ten, then hop to the pound.",
+    "Pre-empt subtracting the wrong way round (or thinking the shopkeeper keeps the extra)."
+  ],
+  "analysis": {
+    "keyConcepts": ["totalling two prices by counting on", "change as the gap between price and payment", "counting up via the next ten", "£1 = 100p makes change-from-£1 a count to 100"],
+    "misconceptions": [
+      "the shopkeeper keeps the extra money — no change exists",
+      "counting the wrong direction or subtracting price-from-nothing (70 − 100, muddle)",
+      "totalling over the ten wrongly (30p + 25p = 50p or 65p)",
+      "counting coins by how many there are, not their value, when checking change"
+    ],
+    "hooks": ["A pen costs 70p. You hand over a whole pound. Does the shopkeeper keep the extra — or give some back?"],
+    "priorKnowledge": ["£1 = 100p (Lesson 15)", "counting up to the next ten (number bonds)"]
+  },
+
+  "materials": {
+    "human": ["plastic coins", "a pretend shop: pen 70p, rubber 30p, ruler 25p, toy 65p — price labels on each", "a £1 and a £2 coin", "mini-whiteboard"],
+    "digital": ["number-line hop animations on the whiteboard block", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes as the shopkeeper with REAL coins (hook + explain). Before the lesson: set up the pretend shop — pen 70p, rubber 30p, ruler 25p, toy 65p, labels visible — and have a £1 and £2 coin ready. Play it up: hold out your hand for payment. Keep the maths exact: total by counting on; change by counting UP from the price (65 → 70 is 5, 70 → 100 is 30). Lay real coins down for each hop. When you say the handoff line, the AI character takes over; keep the shop within reach — the child buys from it again during practice."
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Pose the change mystery — does the shopkeeper keep the extra?; retrieve £1 = 100p.",
+      "note": "Let the child argue it out — don't resolve yet. The injustice of 'keeping the extra' is the hook.",
+      "successCriteria": "Child says the shopkeeper must give money back and recalls £1 = 100p.",
+      "script": {
+        "say": "Welcome to my shop! This pen costs 70p. You hand over a whole pound coin. Hmm… do I keep the extra — or give you some back? How much back, do you think? And quick memory check from last time: how many pence in £1?",
+        "adaptHints": "Hold your hand out theatrically for the £1. Listen for '100p'; if shaky, count tens to 100 together before moving on."
+      },
+      "humanHandoff": {
+        "setup": "The shop laid out with priced items (pen 70p, rubber 30p, ruler 25p, toy 65p); a £1 coin in the child's hand.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If £1 = 100p is shaky: drop pennies in tens into the pound pot again — 10, 20… 100 — before going on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Model totalling (30p + 25p = 55p by counting on) and change by counting UP (65p toy, pay £1 → 35p).",
+      "note": "Lay a real coin down for each hop of the count-up: a 5p to reach 70, then 10p, 10p, 10p to reach 100. The coins on the table ARE the change.",
+      "successCriteria": "Child watches a full count-up 65 → 70 → 100 and hears 'the coins we laid down are the change: 35p'.",
+      "script": {
+        "say": "First, totalling. A rubber 30p and a ruler 25p — I count on: 30… 40, 50 — that's the 20 — then 5 more… 55. Total 55p. Now the mystery: CHANGE. This toy is 65p and you pay £1. I start at the price and count UP: 65 → 70 is 5p… 70 → 100 is 30p. 5 and 30 make 35p change. Counting up is much easier than taking away! — Now my friend on the screen will draw those hops. Watch!",
+        "adaptHints": "Lay a coin for every hop and point at them when you say '35p'. Say the final sentence as written — it's the handoff."
+      },
+      "humanHandoff": {
+        "setup": "The count-up coins (5p + 10p + 10p + 10p) still on the table next to the 65p toy.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared count-up: the pen (70p) paid with £1 — the child does the hops on a drawn number line.",
+      "note": "Bridge the coin hops to a pictorial number line: 70 → 100 in tens. The child counts aloud; confirm by re-counting 70, 80, 90, 100.",
+      "successCriteria": "Child counts 70 → 80 → 90 → 100 and states the change is 30p.",
+      "script": {
+        "say": "I drew the hops from the toy — see how we jumped to 70, then rode the tens to 100? Your turn with the pen. It costs 70p and you pay £1 — that's 100p. Start at 70 and count up with me: 80… 90… 100! How many pence did we hop altogether? That's your change!",
+        "adaptHints": "If the child hesitates, hop with fingers: three hops of ten. Celebrate saying 'thirty' as three tens."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Change by counting UP",
+          "animate": true,
+          "elements": [
+            { "k": "line", "x1": 6, "y1": 40, "x2": 94, "y2": 40, "color": "ink", "width": 2 },
+            { "k": "text", "x": 10, "y": 47, "value": "65", "size": 5, "bold": true },
+            { "k": "text", "x": 24, "y": 47, "value": "70", "size": 5 },
+            { "k": "text", "x": 46, "y": 47, "value": "80", "size": 5 },
+            { "k": "text", "x": 68, "y": 47, "value": "90", "size": 5 },
+            { "k": "text", "x": 89, "y": 47, "value": "100", "size": 5, "bold": true },
+            { "k": "path", "points": [{ "x": 10, "y": 38 }, { "x": 17, "y": 30 }, { "x": 24, "y": 38 }], "color": "orange", "width": 2 },
+            { "k": "text", "x": 17, "y": 26, "value": "+5", "size": 4, "color": "orange" },
+            { "k": "path", "points": [{ "x": 24, "y": 38 }, { "x": 35, "y": 26 }, { "x": 46, "y": 38 }], "color": "blue", "width": 2 },
+            { "k": "text", "x": 35, "y": 22, "value": "+10", "size": 4, "color": "blue" },
+            { "k": "path", "points": [{ "x": 46, "y": 38 }, { "x": 57, "y": 26 }, { "x": 68, "y": 38 }], "color": "blue", "width": 2 },
+            { "k": "text", "x": 57, "y": 22, "value": "+10", "size": 4, "color": "blue" },
+            { "k": "path", "points": [{ "x": 68, "y": 38 }, { "x": 79, "y": 26 }, { "x": 89, "y": 38 }], "color": "blue", "width": 2 },
+            { "k": "text", "x": 79, "y": 22, "value": "+10", "size": 4, "color": "blue" },
+            { "k": "text", "x": 50, "y": 8, "value": "65p toy, pay £1 (100p)", "size": 5, "bold": true },
+            { "k": "text", "x": 50, "y": 57, "value": "5 + 30 = 35p change", "size": 6, "bold": true, "color": "accent" }
+          ]
+        },
+        {
+          "type": "numberEntry",
+          "prompt": "The pen costs 70p. You pay £1 (100p). Count up from 70 to 100 — how many pence change?",
+          "answer": 30
+        }
+      ],
+      "check": {
+        "question": "Pen 70p, pay £1 — count up. Change?",
+        "expectedAnswer": "30p — 70 → 80 → 90 → 100, three tens",
+        "wrongAnswers": [
+          { "answer": "70p", "why": "gave back the price — counted the wrong thing", "remedy": "The 70p stays in the till — we count what's LEFT between 70 and 100. Start at 70 and hop the tens with me." },
+          { "answer": "170", "why": "added the price and the payment instead of finding the gap", "remedy": "We're not buying two things! Start AT the price, 70, and count up to what you paid, 100. How far is the hop?" },
+          { "answer": "40", "why": "over-hopped — counted 70 itself as a ten", "remedy": "The first ten lands on 80, not 70. Hop again out loud: 80, 90, 100 — how many hops?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "Reveal whether the child can total over the ten AND find change independently.",
+      "note": "Two-part diagnostic from the script: totalling 30p + 25p, then change for the 70p pen. Probe: 'show me the count up.'",
+      "successCriteria": "Child totals 30p + 25p = 55p (tens first) and finds 30p change by counting up.",
+      "script": {
+        "say": "Shop test! Two questions. First: a rubber is 30p and a ruler is 25p — what's the total? … Second: the pen costs 70p, you pay £1 — what's your change? Show me the count up!",
+        "adaptHints": "After a correct total, probe: 'How did you add the 25?' Listen for tens-then-ones (30 + 20 = 50, then 5)."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Rubber 30p + ruler 25p. What's the total?",
+          "options": ["55p", "50p", "65p", "35p"],
+          "correct": 0,
+          "explain": "Add the tens first: 30 + 20 = 50. Then the 5: 55p."
+        }
+      ],
+      "check": {
+        "question": "Total 30p + 25p; then change for a 70p pen paid with £1.",
+        "expectedAnswer": "55p total; 30p change (count up 70 → 100)",
+        "wrongAnswers": [
+          { "answer": "total 50p", "why": "dropped the 5 when adding over the ten", "remedy": "Add in two goes: 30 + 20 first — then don't forget the 5 hiding in the 25!" },
+          { "answer": "total 65p", "why": "miscounted the tens jump (30 + 25 muddled with 30 + 35)", "remedy": "Split the 25 into 20 and 5. 30 + 20 = ? Then add the 5." },
+          { "answer": "change 70p (or a muddle)", "why": "counted the wrong direction — tried to take 100 from 70 or gave back the price", "remedy": "Start AT the price, 70, and count UP to 100 — how far is it? The gap is the change." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "The child runs the shop: total two items, then give change from £1; once secure, change from £2.",
+      "note": "Director draws from the practiceBank, start level 2. Encourage using the real shop and coins — required on a miss (CPA step down: lay a coin per hop).",
+      "successCriteria": "Child totals two prices and finds change from £1 correctly at least twice, including one two-step (total then change) problem.",
+      "script": {
+        "say": "Now YOU run the shop! I'll be the customer. Total my shopping, take my money, and count up my change — coin by coin if you like. Ready? First customer coming!",
+        "adaptHints": "Frame purchases with the child's interests (comics, stickers, football cards). Never change the prices."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the count went the wrong direction' or 'the jump over the ten slipped.'",
+        "Go concrete: coins out, lay one for each hop from the price to the pound.",
+        "One hint: 'How far from the price to the pound?'",
+        "Re-ask with a 90p item paid with £1 (one hop), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the change rule in their own words; end on an earned success.",
+      "note": "Child-led recall — the character listens, doesn't lecture.",
+      "successCriteria": "Child says 'count up from the price' (or their own words) and can name the first hop (to the next ten).",
+      "script": {
+        "say": "So — how do we work out change: count up or count back? … Count UP, from the price to what you paid. First hop to the friendly ten, then ride the tens. You counted up coin by coin instead of guessing — that's exactly how real shopkeepers do it.",
+        "adaptHints": "Praise the specific process observed: laying a coin per hop, totalling tens first, checking by re-counting."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l16-p01", "skill": "total two amounts", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "A rubber costs 30p and a pencil costs 20p. What's the total in pence?", "answer": 50 },
+      "expectedAnswer": "50",
+      "wrongAnswers": [
+        { "answer": "5", "why": "added the digits 3 + 2, dropping the tens — mixing count and value", "remedy": "These are TENS: 30 is three tens, 20 is two tens. Count them all in tens: 10, 20, 30, 40, 50." },
+        { "answer": "10", "why": "counted the coins (or digits), not the value", "remedy": "Thirty means three tens. Add two more tens and count: 30… 40, 50." }
+      ],
+      "hints": ["Add the tens: 3 tens and 2 tens.", "Count on from 30: 40, 50."],
+      "reteach": { "say": "Prices add just like tens. Thirty is three tens, twenty is two tens — five tens all together: 50p. Count it: 30… 40, 50.", "block": { "type": "numberLine", "min": 0, "max": 60, "step": 10, "highlight": 50, "marks": [{ "value": 30, "label": "30p" }, { "value": 50, "label": "+20p" }] } },
+      "interestSlots": ["stickers", "marbles"]
+    },
+    {
+      "id": "l16-p02", "skill": "find change by counting up", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "A toy costs 90p. You pay £1 (100p). Count up: 90 → 100 is…", "options": ["10p change", "90p change", "100p change", "no change"], "correct": 0, "explain": "From 90, one hop of ten lands on 100. The gap is the change: 10p." },
+      "expectedAnswer": "10p change",
+      "wrongAnswers": [
+        { "answer": "no change", "why": "thinks the shopkeeper keeps the extra", "remedy": "You paid MORE than the price — the extra comes back to you. How far is it from 90 to 100?" },
+        { "answer": "90p change", "why": "gave back the price instead of the gap", "remedy": "The 90p pays for the toy. We count what's BETWEEN 90 and 100. Hop it: 90 → 100 is…?" }
+      ],
+      "hints": ["Start at the price: 90.", "One hop to 100 — how big is the hop?"],
+      "reteach": { "say": "Change is the gap between the price and what you paid. Stand on 90, hop to 100 — that's one hop of ten. 10p change. The price stays in the till; the gap comes back to you.", "block": { "type": "numberLine", "min": 80, "max": 100, "step": 5, "highlight": 100, "marks": [{ "value": 90, "label": "price" }, { "value": 100, "label": "you paid" }] } }
+    },
+    {
+      "id": "l16-p03", "skill": "total two amounts", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "A rubber costs 30p and a ruler costs 25p. What's the total in pence?", "answer": 55 },
+      "expectedAnswer": "55",
+      "wrongAnswers": [
+        { "answer": "50", "why": "added the tens but dropped the 5", "remedy": "Split the 25: twenty and five. 30 + 20 = 50 — now where does the 5 go?" },
+        { "answer": "65", "why": "miscounted the tens over the jump", "remedy": "Slowly: 30 + 20 is…? Count it in tens: 30, 40, 50. Then just 5 more." }
+      ],
+      "hints": ["Split 25 into 20 and 5.", "Tens first: 30 + 20. Then add the 5."],
+      "reteach": { "say": "Add money in two friendly goes: tens first, then ones. 30 + 20 = 50… then the little 5 hops on: 55p. Tens first keeps everything tidy.", "block": { "type": "steps", "title": "30p + 25p", "steps": ["Split 25 → 20 and 5", "Tens: 30 + 20 = 50", "Ones: 50 + 5 = 55p"] } },
+      "interestSlots": ["comics", "football cards"]
+    },
+    {
+      "id": "l16-p04", "skill": "find change by counting up", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "A toy costs 65p. You pay £1 (100p). Count up — how many pence change?", "answer": 35 },
+      "expectedAnswer": "35",
+      "wrongAnswers": [
+        { "answer": "45", "why": "hopped to the wrong ten (65 → 70 counted as 10)", "remedy": "The first hop is small: 65 to 70 is only 5. THEN ride the tens: 70, 80, 90, 100." },
+        { "answer": "35p as '3 coins + 5 coins'", "why": "counting coins not value when laying the change", "remedy": "Count the VALUE as you lay each coin: 5… 15… 25… 35." },
+        { "answer": "65", "why": "gave back the price", "remedy": "The price stays in the till! Count only the gap: from 65 up to 100." }
+      ],
+      "hints": ["First hop: 65 → 70. How big is it?", "Then tens to 100: 70, 80, 90, 100."],
+      "reteach": { "say": "Two-part hop: first to the friendly ten — 65 to 70 is 5. Then ride the tens — 70 to 100 is 30. Add the hops: 5 + 30 = 35p change.", "block": { "type": "steps", "title": "Change from £1 for 65p", "steps": ["65 → 70: +5", "70 → 100: +30", "Change: 5 + 30 = 35p"] } }
+    },
+    {
+      "id": "l16-p05", "skill": "find change by counting up", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which is the RIGHT way to find change for a 70p pen paid with £1?", "options": ["Start at 70 and count up to 100", "Start at 100 and count up to 170", "Add 70p and 100p together", "The shopkeeper keeps the extra"], "correct": 0, "explain": "Change is the gap between the price and what you paid — count up from the price to the payment." },
+      "expectedAnswer": "Start at 70 and count up to 100",
+      "wrongAnswers": [
+        { "answer": "Add 70p and 100p together", "why": "added instead of finding the gap", "remedy": "Adding tells you the cost of TWO things. Change is a gap — where does the counting start, at the price or at zero?" },
+        { "answer": "The shopkeeper keeps the extra", "why": "no concept of change returning", "remedy": "You gave 100p for a 70p pen — is that fair? The extra 30p belongs to… whom?" }
+      ],
+      "hints": ["Change = the gap between price and payment.", "Start at the price. Count up."],
+      "reteach": { "say": "Picture a bridge from the price to the money you handed over. Change is the length of that bridge. For 70p and £1: stand on 70, walk to 100 — three tens. 30p change.", "block": { "type": "numberLine", "min": 60, "max": 100, "step": 10, "highlight": 100, "marks": [{ "value": 70, "label": "price" }, { "value": 100, "label": "paid" }] } }
+    },
+    {
+      "id": "l16-p06", "skill": "find change by counting up", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "You pay £1 each time. Match each price to its change.", "pairs": [ { "left": "70p", "right": "30p" }, { "left": "80p", "right": "20p" }, { "left": "55p", "right": "45p" }, { "left": "95p", "right": "5p" } ] },
+      "expectedAnswer": "70p→30p, 80p→20p, 55p→45p, 95p→5p",
+      "wrongAnswers": [
+        { "answer": "55p → 55p", "why": "gave back the price, not the gap", "remedy": "Count up from 55: 55 → 60 is 5, 60 → 100 is 40. What's the gap altogether?" },
+        { "answer": "95p → 15p", "why": "hopped past 100", "remedy": "From 95, how far to 100 exactly? Count: 96, 97, 98, 99, 100." }
+      ],
+      "hints": ["Each pair should add up to 100.", "Price + change = £1. Check each match!"],
+      "reteach": { "say": "Here's the secret checker: price and change always add to 100 — they're bond partners to £1! 70 + 30 = 100 ✓. 55 + 45 = 100 ✓. If a pair doesn't make 100, it's a wrong match.", "block": { "type": "table", "headers": ["price", "change", "adds to 100?"], "rows": [["70p", "30p", "✓"], ["80p", "20p", "✓"], ["55p", "45p", "✓"], ["95p", "5p", "✓"]], "caption": "Price + change = £1, always" } }
+    },
+    {
+      "id": "l16-p07", "skill": "total then find change (two steps)", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "You buy the rubber (30p) AND the ruler (25p) and pay £1. How many pence change?", "answer": 45 },
+      "expectedAnswer": "45",
+      "wrongAnswers": [
+        { "answer": "70", "why": "found change for only one item — forgot to total first", "remedy": "Two things in the basket! First job: what do they cost TOGETHER? Then count up from that total." },
+        { "answer": "55", "why": "answered the total instead of the change", "remedy": "55p is the total — great first step! Now the second step: count up from 55 to 100." }
+      ],
+      "hints": ["Step 1: total the basket. Step 2: count up to 100.", "30 + 25 = 55. Now: 55 → 60 → 100."],
+      "reteach": { "say": "Shop problems have two jobs. Job one: total — 30 + 25 = 55p. Job two: change — count up from 55: to 60 is 5, to 100 is 40 more. 5 + 40 = 45p change. Always total BEFORE you count up.", "block": { "type": "steps", "title": "Two jobs", "steps": ["Total: 30 + 25 = 55p", "Hop to the ten: 55 → 60 = +5", "Ride the tens: 60 → 100 = +40", "Change: 45p"] } },
+      "interestSlots": ["toy shop", "sweet shop"]
+    },
+    {
+      "id": "l16-p08", "skill": "find change by counting up", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! A book costs £1.20 and you pay £2. Count up — how many pence change?", "answer": 80 },
+      "expectedAnswer": "80",
+      "wrongAnswers": [
+        { "answer": "20", "why": "counted up to the wrong pound (£1.20 → £1 backwards, or stopped early)", "remedy": "You paid £2 — that's 200p. Start at 120 and ride the tens: 130, 140… all the way to 200." },
+        { "answer": "180", "why": "mixed £ and p — treated £2 as 300p or muddled the units", "remedy": "£2 is exactly 200p. From 120 to 200 — count the tens on your fingers." }
+      ],
+      "hints": ["£1.20 = 120p and £2 = 200p.", "Count up in tens from 120 to 200 — how many hops?"],
+      "reteach": { "say": "Turn everything into pence first: £1.20 is 120p, £2 is 200p. Now it's a counting-up job like any other: 120… 130, 140, 150, 160, 170, 180, 190, 200. Eight hops of ten — 80p change.", "block": { "type": "numberLine", "min": 100, "max": 200, "step": 10, "highlight": 200, "marks": [{ "value": 120, "label": "price" }, { "value": 200, "label": "paid £2" }] } }
+    },
+    {
+      "id": "l16-p09", "skill": "total then find change (two steps)", "level": 3,
+      "block": { "type": "shortText", "prompt": "Ava buys a 75p comic, pays £1, and says her change is 35p. Check by counting up — is she right? Explain.", "sample": "No — from 75, the hop to 80 is 5 and 80 to 100 is 20, so the change is 25p. She hopped a ten too far." },
+      "expectedAnswer": "No; counting up gives 25p (75 → 80 is 5, 80 → 100 is 20)",
+      "wrongAnswers": [
+        { "answer": "Yes, 35p", "why": "repeated the over-hop instead of checking", "remedy": "Do the count yourself, out loud: 75 → 80 is…? Then 80 → 100 is…? Add your hops." },
+        { "answer": "No, it's 35p because 75 + 35 = 100", "why": "mis-added the check sum — 75 + 35 is 110", "remedy": "Try the checker: does 75 + 35 really make 100? Count on from 75: 85, 95, 105… oops. What DOES pair with 75?" }
+      ],
+      "hints": ["Count up: 75 → 80 → 100.", "Check: price + change must equal exactly 100."],
+      "reteach": { "say": "Be the change detective: price + change must make exactly 100. Ava's claim: 75 + 35 — count on: 85, 95, 105. Past 100 — too much! The true gap: 75 → 80 is 5, 80 → 100 is 20. 25p. Counting up catches every slip.", "block": { "type": "table", "headers": ["claim", "price + change", "makes 100?"], "rows": [["35p", "75 + 35 = 110", "✗ too much"], ["25p", "75 + 25 = 100", "✓ correct"]], "caption": "The £1 checker never lies" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave totalling and change items (the child must decide which job is needed).",
+    "levelDown": "2 misses on the same skill → run the item's reteach laying a REAL coin for each hop (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one total-over-the-ten and one change-from-£1 by counting up → mastery ≥ 0.8 for 'totalling and change'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why (wrong direction / over-the-ten slip / forgot to total first).",
+      "Go concrete: coins out — lay one per hop from the price to the pound.",
+      "One hint: 'How far from the price to the pound?'",
+      "Re-ask with a 90p item from £1 (one hop), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "The shop sells whatever the learner loves (comics, dinosaur toys, football cards) — swap the items, never the prices. Keep 'you're the shopkeeper' role-play in the framing.",
+    "endOnSuccess": "Finish with an item the child can win (drop to a one-hop change if needed), then specific process praise: what they DID (counted up, hopped to the ten first, checked price + change = 100) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Count up coin by coin from the price, laying a real coin per hop; pre-total the first item; stick to change from £1 with one-hop gaps (90p, 95p).",
+    "stretch": "Two items and change from £2; 'what if you paid with the fewest coins?'; be the shopkeeper for the tutor and CHECK the tutor's (sometimes wrong) change."
+  },
+  "extension": "Full shopkeeper swap: the child sets prices for three toys, the tutor buys two and pays £2 — the child totals, gives change, and proves it with the price + change checker.",
+  "assessmentEvidence": "Child totals two amounts (crossing a ten) and finds correct change from £1 by counting up, explaining the hops.",
+  "revisitLater": "Money word problems return in Lesson 27 and Unit 8; use 'change from £1' as a retrieval starter within two weeks; the count-up strategy feeds subtraction by counting on."
+}

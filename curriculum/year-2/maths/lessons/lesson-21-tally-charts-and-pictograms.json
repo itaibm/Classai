@@ -1,0 +1,317 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u7-l21",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 7, "title": "Statistics, shape and symmetry", "essentialQuestion": "How do we record data, and how do we describe shapes by their parts and their symmetry?" },
+  "lessonNumber": 21,
+  "kind": "lesson",
+  "topic": "Statistics: tally charts and pictograms",
+  "title": "Tally charts and pictograms",
+  "durationMin": 22,
+  "objectives": ["By the end, I can make a tally chart and read a pictogram, including one with a key."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "tally", "definition": "quick counting strokes — four straight, then the fifth goes across like a gate", "example": "7 votes = one gate of 5 and 2 more" },
+    { "term": "gate of five", "definition": "the fifth tally stroke crosses the four, bundling them into a 5", "example": "count gates in 5s: 5, 10, 15…" },
+    { "term": "pictogram", "definition": "a chart that uses pictures to show amounts", "example": "a row of ice creams shows the chocolate votes" },
+    { "term": "key", "definition": "the little note that says what ONE picture is worth", "example": "key: 🍦 = 2 votes" },
+    { "term": "total", "definition": "how many altogether", "example": "3 symbols worth 2 each — total 6" }
+  ],
+  "emphasize": [
+    "On a pictogram, read the KEY first — one picture can stand for MORE than one thing.",
+    "Pre-empt counting each symbol as 1 when the key says 2 or 5.",
+    "The fifth tally stroke crosses the four — the gate makes counting in 5s easy."
+  ],
+  "analysis": {
+    "keyConcepts": ["tallying with gates of five", "counting tallies in 5s", "a pictogram's key sets each symbol's value", "count symbols, then multiply by the key"],
+    "misconceptions": [
+      "counting each pictogram symbol as 1 when the key says 🍦 = 2 or 5",
+      "drawing five separate tally strokes with no gate, then miscounting",
+      "counting the gates as 4 (forgetting the crossing stroke is the fifth)"
+    ],
+    "hooks": ["Let's settle a big question — what's the family's favourite ice-cream flavour? Collect the votes and PROVE the winner with a chart."],
+    "priorKnowledge": ["counting in 2s and 5s", "'how many altogether' (addition)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated tally strokes on the whiteboard block", "pictogram rows built from emoji (table blocks with a key)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set up the ice-cream survey mission; retrieve counting in 5s (it powers both tallies and keys).",
+      "note": "Take the child's own vote first — their data, their chart. Quick end-of-unit-6 retrieval too if time allows (quarter to).",
+      "successCriteria": "Child casts a vote and counts 5, 10, 15, 20 without help.",
+      "script": {
+        "say": "Today we settle a BIG question: what's your family's favourite ice-cream flavour? We won't guess — we'll collect everyone's vote and PROVE the winner with a chart. You vote first: chocolate, strawberry or vanilla? … Locked in! Now, detectives need quick counting — count in 5s to 20 for me. Go!",
+        "adaptHints": "Swap ice cream for a survey the child would burn to answer (favourite dinosaur, football team, game). Listen for a clean 5, 10, 15, 20."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🍫 🍓 🍦", "caption": "The big vote: which flavour wins?" }
+      ],
+      "stuckProtocol": ["If counting in 5s is shaky: count fingers on whole hands together — one hand is 5, two hands 10 — before going on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model tallying with the gate of five, and reading a pictogram by checking the key FIRST.",
+      "note": "Two tools, one habit each: tally → fifth stroke crosses; pictogram → read the key before counting. Draw the gate stroke by stroke.",
+      "successCriteria": "Child hears the gate rule and sees 3 symbols with key 🍦 = 2 counted as 2, 4, 6 — six, not three.",
+      "script": {
+        "say": "Vote counters use a TALLY. Watch: one, two, three, four straight strokes… and the FIFTH goes across like a gate — snap! That bundle is 5, so I can count in 5s. Now the second tool: a PICTOGRAM uses pictures — but here's the trap. See this little note? It's the KEY, and it says one ice cream stands for 2 votes. So three ice creams isn't 3 — count with me: 2, 4, 6. SIX votes! Always read the key first.",
+        "adaptHints": "Draw the strokes slowly and let the child say 'gate!' on the fifth. Stress the key reveal like a plot twist."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "The gate of five",
+          "animate": true,
+          "elements": [
+            { "k": "line", "x1": 22, "y1": 12, "x2": 22, "y2": 28, "color": "ink", "width": 2 },
+            { "k": "line", "x1": 28, "y1": 12, "x2": 28, "y2": 28, "color": "ink", "width": 2 },
+            { "k": "line", "x1": 34, "y1": 12, "x2": 34, "y2": 28, "color": "ink", "width": 2 },
+            { "k": "line", "x1": 40, "y1": 12, "x2": 40, "y2": 28, "color": "ink", "width": 2 },
+            { "k": "line", "x1": 18, "y1": 26, "x2": 44, "y2": 14, "color": "red", "width": 2 },
+            { "k": "text", "x": 60, "y": 20, "value": "= 5 (the gate!)", "size": 5, "bold": true, "color": "red" },
+            { "k": "text", "x": 50, "y": 38, "value": "Key: 🍦 = 2 votes", "size": 5, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 48, "value": "🍦 🍦 🍦  →  2, 4, 6 votes", "size": 5 },
+            { "k": "text", "x": 50, "y": 58, "value": "Read the KEY first!", "size": 4, "color": "green", "bold": true }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared go: the child tallies 7 votes (one gate + 2) and reads a pictogram row with key 🍦 = 2.",
+      "note": "The character scribes; the child decides the strokes. Then a real pictogram of the flavour survey — child counts a 4-symbol row in 2s.",
+      "successCriteria": "Child says '7 = one gate and 2 more' and reads 4 symbols with key = 2 as 8.",
+      "script": {
+        "say": "Chocolate got 7 votes — you're the tally boss. How do I show 7? … Yes: four strokes, gate on the fifth — that's 5 — then two more. Now here's our survey as a pictogram. The key says one ice cream = 2 votes. Strawberry has 4 ice creams — count them in 2s with me… 2, 4, 6, 8. Eight votes!",
+        "adaptHints": "Let the child call each stroke. If they count symbols as 1 each, don't correct — point back at the key and ask 'what's ONE ice cream worth?'"
+      },
+      "blocks": [
+        { "type": "table", "headers": ["Flavour", "Votes (key: 🍦 = 2)"], "rows": [["Chocolate", "🍦🍦🍦"], ["Strawberry", "🍦🍦🍦🍦"], ["Vanilla", "🍦🍦"]], "caption": "Our ice-cream survey — read the key first!" },
+        { "type": "fillBlank", "text": "7 votes = one gate of 5 and ___ more strokes.", "answer": "2", "wordBank": ["2", "7", "5"] }
+      ],
+      "check": {
+        "question": "Key: 🍦 = 2. Strawberry's row has 4 ice creams — how many votes?",
+        "expectedAnswer": "8",
+        "wrongAnswers": [
+          { "answer": "4", "why": "counted each symbol as 1 — ignored the key", "remedy": "Look at the key first: what is ONE ice cream worth? Now count the row in 2s." },
+          { "answer": "6", "why": "counted in 2s but missed a symbol", "remedy": "Touch each ice cream as you count: 2, 4, 6… is that all of them?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "The big diagnostic: key 🍎 = 5, a row of 4 apples — 20, not 4.",
+      "note": "This is the lesson's key trap. '4' means the key habit hasn't landed — re-run 'what's ONE symbol worth' before anything else.",
+      "successCriteria": "Child answers 20 and says they looked at the key first.",
+      "script": {
+        "say": "Check time — new chart, new key, eyes sharp! This pictogram's key says one apple stands for 5 children. The 'likes red apples' row has 4 apples. How many children is that?",
+        "adaptHints": "After a correct answer, probe: 'Where did you look first?' — celebrate 'the key' as detective thinking."
+      },
+      "blocks": [
+        { "type": "table", "headers": ["Fruit", "Children (key: 🍎 = 5)"], "rows": [["Red apples", "🍎🍎🍎🍎"], ["Bananas", "🍎🍎"], ["Grapes", "🍎🍎🍎"]], "caption": "Fruit survey at a school — each 🍎 stands for 5 children" },
+        {
+          "type": "multipleChoice",
+          "prompt": "Key: 🍎 = 5. The row shows 4 apples. How many children?",
+          "options": ["20", "4", "9", "5"],
+          "correct": 0,
+          "explain": "Each apple is worth 5 — count in 5s: 5, 10, 15, 20. Twenty children."
+        }
+      ],
+      "check": {
+        "question": "Pictogram key 🍎 = 5; a row has 4 apples — how many children?",
+        "expectedAnswer": "20",
+        "wrongAnswers": [
+          { "answer": "4", "why": "counted each symbol as 1 — the classic pictogram trap", "remedy": "Read the key: each apple is 5 whole children. Count the row in 5s: 5, 10, 15…" },
+          { "answer": "9", "why": "added the symbols (4) and the key (5) instead of multiplying", "remedy": "The key isn't extra apples — it tells you what EACH apple is worth. Four apples, each worth 5: count 5, 10, 15, 20." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Independent tallying and pictogram reading with keys of 2 and 5; once secure, interleave a half-symbol read.",
+      "note": "Director draws from the practiceBank, start level 2. Watch for the key being ignored and gateless tallies. Half-symbol items are the level-3 stretch.",
+      "successCriteria": "Child completes 3+ items correctly, including one tally item and one pictogram with a key bigger than 1.",
+      "script": {
+        "say": "Practice time, data detective! Tallies to count, pictograms to crack — and every chart has a key waiting to trick anyone who doesn't read it first. Not you, though.",
+        "adaptHints": "Reframe survey topics around the child's interests (dinosaurs, football, minibeasts). Never change the numbers or the keys."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the key got skipped' or 'the strokes lost their gates.'",
+        "Point at the key together and count out ONE symbol's worth on fingers.",
+        "One hint: 'What's one picture worth?'",
+        "Re-ask with key = 2 and a short row, then build back to key = 5.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the two habits — gate of five, key first — and the survey winner is crowned; end on a win.",
+      "note": "Child-led recall; announce the ice-cream winner with ceremony.",
+      "successCriteria": "Child says 'read the key first' unprompted and explains the gate of five.",
+      "script": {
+        "say": "Drumroll… the winning flavour is the one with the most votes on OUR chart — you proved it with real data! Now tell me: what's the FIRST thing you do when you read a pictogram? … And what does the fifth tally stroke do? … Exactly. You checked the key before counting every single time — that's what stops the big pictogram trap.",
+        "adaptHints": "Name the actual winning flavour from the child's survey. Praise the observed process: key first, gates counted in 5s."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l21-p01", "skill": "count tallies with gates", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "A tally shows one gate of 5 and 1 more stroke. How many votes?", "options": ["6", "5", "4", "51"], "correct": 0, "explain": "The gate is 5, plus 1 more stroke — 6." },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "5", "why": "counted the gate but forgot the extra stroke", "remedy": "The gate is 5 — now keep counting the loose strokes: 5… and one more?" },
+        { "answer": "4", "why": "counted the gate's standing strokes only, missing the crossing fifth", "remedy": "The stroke lying across IS the fifth vote — the gate always holds 5." }
+      ],
+      "hints": ["A gate is always worth exactly 5.", "Say 5 for the gate, then count on: 6…"],
+      "reteach": { "say": "A gate is a bundle of five friends — four standing and one lying across. Count the gate as one shout of FIVE, then count the loose strokes on top: 5… 6. Six votes.", "block": { "type": "emojiViz", "emojis": "🖐 ☝", "caption": "One gate (5) + 1 more = 6" } }
+    },
+    {
+      "id": "l21-p02", "skill": "read the key first", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "You get a brand-new pictogram. What do you look at FIRST?", "options": ["the key", "the longest row", "the prettiest picture", "the title colours"], "correct": 0, "explain": "The key tells you what one picture is worth — without it every count could be wrong." },
+      "expectedAnswer": "the key",
+      "wrongAnswers": [
+        { "answer": "the longest row", "why": "jumped to comparing before knowing what a symbol is worth", "remedy": "The longest row IS interesting — but how much is each picture worth? Only one thing tells you." },
+        { "answer": "the prettiest picture", "why": "treating the pictogram as decoration, not data", "remedy": "Every picture is secretly a number. Which part of the chart tells you the secret?" }
+      ],
+      "hints": ["One little note unlocks the whole chart.", "It tells you what ONE picture is worth."],
+      "reteach": { "say": "The key is the decoder ring. If it says one apple = 2, every apple on the whole chart is worth 2. Skip the key and every answer goes wrong — read it first, always.", "block": { "type": "keyTerm", "term": "key", "definition": "the note that says what ONE symbol is worth", "example": "key: 🍎 = 2 children" } }
+    },
+    {
+      "id": "l21-p03", "skill": "count tallies with gates", "level": 1,
+      "block": { "type": "fillBlank", "text": "Two gates of 5 and no loose strokes = ___ votes.", "answer": "10", "wordBank": ["10", "2", "7"] },
+      "expectedAnswer": "10",
+      "wrongAnswers": [
+        { "answer": "2", "why": "counted the gates as objects instead of bundles of 5", "remedy": "Each gate holds 5 votes inside. Two gates: count in 5s — 5, 10." },
+        { "answer": "7", "why": "counted one gate as 5 and the other as its strokes minus the cross", "remedy": "Every gate is worth exactly 5 — no exceptions. 5 for the first, then 5 more." }
+      ],
+      "hints": ["Count the gates in 5s.", "5, 10…"],
+      "reteach": { "say": "Gates make counting fast: don't count strokes one by one, count gates in 5s. Two gates — 5, 10. That's the whole point of the gate!", "block": { "type": "emojiViz", "emojis": "🖐 🖐", "caption": "Two gates: 5, 10" } }
+    },
+    {
+      "id": "l21-p04", "skill": "read a pictogram with a key", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Key: 🍦 = 2 votes. The chocolate row has 5 ice creams. How many votes?", "answer": 10 },
+      "expectedAnswer": "10",
+      "wrongAnswers": [
+        { "answer": "5", "why": "counted each symbol as 1 — ignored the key", "remedy": "Key first! One ice cream is worth 2. Count the row in 2s: 2, 4, 6…" },
+        { "answer": "7", "why": "added the key to the symbol count (5 + 2)", "remedy": "The key isn't added on — it's what EACH picture is worth. Five pictures, each worth 2: count 2, 4, 6, 8, 10." }
+      ],
+      "hints": ["What is ONE ice cream worth? The key knows.", "Count the row in 2s."],
+      "reteach": { "say": "Each ice cream is secretly TWO votes wearing one coat. Five ice creams: 2, 4, 6, 8, 10. Ten votes. Touch each picture as you count in 2s and it never goes wrong.", "block": { "type": "table", "headers": ["symbols", "count in 2s"], "rows": [["🍦", "2"], ["🍦🍦", "4"], ["🍦🍦🍦", "6"], ["🍦🍦🍦🍦", "8"], ["🍦🍦🍦🍦🍦", "10"]], "caption": "Key: 🍦 = 2" } }
+    },
+    {
+      "id": "l21-p05", "skill": "read a pictogram with a key", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Key: 🍎 = 5 children. A row shows 3 apples. How many children?", "options": ["15", "3", "8", "20"], "correct": 0, "explain": "Each apple is 5 — count in 5s: 5, 10, 15." },
+      "expectedAnswer": "15",
+      "wrongAnswers": [
+        { "answer": "3", "why": "counted symbols as 1 each", "remedy": "The key says each apple is a whole handful — 5. Count the row in 5s." },
+        { "answer": "8", "why": "added 3 + 5 instead of counting three 5s", "remedy": "Three apples, EACH worth 5 — that's 5 three times: 5, 10, 15." }
+      ],
+      "hints": ["One apple = one hand of 5 fingers.", "Count: 5, 10…"],
+      "reteach": { "say": "Picture each apple as a high-five — five in every one. Three apples: 5, 10, 15. Fifteen children. The key turns pictures into 5s.", "block": { "type": "emojiViz", "emojis": "🍎=🖐  🍎🍎🍎 → 5,10,15", "caption": "Key: 🍎 = 5 → three apples = 15" } }
+    },
+    {
+      "id": "l21-p06", "skill": "make a tally", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "You need to tally 12 votes. How many GATES of 5 will you draw (with 2 loose strokes left over)?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "12", "why": "planned a stroke for every vote with no gates at all", "remedy": "Twelve loose strokes are easy to miscount — bundle them! How many full 5s fit inside 12?" },
+        { "answer": "3", "why": "rounded up — tried to force the last 2 into a gate", "remedy": "A gate needs exactly 5. After two gates you've used 10 — do the last 2 fill a gate?" }
+      ],
+      "hints": ["Count in 5s towards 12: 5, 10… can you fit another 5?", "12 = 5 + 5 + 2."],
+      "reteach": { "say": "Build 12 the tally way: first gate — 5. Second gate — 10. Another gate would need 5 more, but only 2 votes are left, so they stand alone: gate, gate, stroke, stroke. Two gates and 2 loose.", "block": { "type": "emojiViz", "emojis": "🖐 🖐 ☝☝", "caption": "12 = two gates (10) + 2 loose strokes" } }
+    },
+    {
+      "id": "l21-p07", "skill": "match tallies to totals", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each tally to its total.", "pairs": [ { "left": "1 gate", "right": "5" }, { "left": "1 gate + 3 strokes", "right": "8" }, { "left": "2 gates", "right": "10" }, { "left": "2 gates + 4 strokes", "right": "14" } ] },
+      "expectedAnswer": "1 gate→5, 1 gate + 3→8, 2 gates→10, 2 gates + 4→14",
+      "wrongAnswers": [
+        { "answer": "1 gate + 3 strokes → 4", "why": "counted the gate as 1 and added 3", "remedy": "A gate is never 1 — it's a bundle of 5. Say FIVE for the gate, then count on the strokes." }
+      ],
+      "hints": ["Gates first, in 5s — then count on the loose strokes.", "2 gates = 10 before you touch the strokes."],
+      "reteach": { "say": "Tally counting is a two-step dance: step one, count the gates in 5s — 5, 10. Step two, count on the loose strokes — 11, 12, 13, 14. Gates then strokes, every time.", "block": { "type": "steps", "steps": ["Count the gates in 5s.", "Count on the loose strokes one by one.", "Say the total."] } }
+    },
+    {
+      "id": "l21-p08", "skill": "read a half symbol", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Stretch! Key: 🍦 = 2. A row shows 3 whole ice creams and HALF an ice cream. How many votes?", "options": ["7", "6", "8", "3 and a half"], "correct": 0, "explain": "Three wholes are 2, 4, 6 — and half a symbol is half of 2, which is 1. Total 7." },
+      "expectedAnswer": "7",
+      "wrongAnswers": [
+        { "answer": "6", "why": "ignored the half symbol", "remedy": "That half ice cream still counts! If a whole one is 2, what's half of one worth?" },
+        { "answer": "3 and a half", "why": "counted symbols as 1 each, half included", "remedy": "Key first — each whole is 2. Count the wholes in 2s, then add half of the key." }
+      ],
+      "hints": ["Wholes first: 2, 4, 6.", "Half a symbol = half of the key. Half of 2 is…?"],
+      "reteach": { "say": "A half symbol is half the key's worth. Key says 2, so half a picture is 1. Wholes: 2, 4, 6. Add the half: 7. If the key said 10, that half would be worth 5!", "block": { "type": "table", "headers": ["picture", "worth"], "rows": [["whole 🍦", "2"], ["half 🍦", "1"], ["3 wholes + a half", "6 + 1 = 7"]], "caption": "Half symbol = half the key" } }
+    },
+    {
+      "id": "l21-p09", "skill": "read the key first", "level": 3,
+      "block": { "type": "trueFalse", "statement": "In a pictogram, every picture is always worth exactly 1.", "correct": false, "explain": "The key decides! One picture can stand for 2, 5, 10 — whatever the key says." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — symbols read as 1 each", "remedy": "Think of our apple chart — one apple stood for 5 whole children. What told us that?" }
+      ],
+      "hints": ["Remember the apple chart — was one apple one child?", "Which part of the chart decides a picture's worth?"],
+      "reteach": { "say": "Pictures are shapeshifters — the same apple can mean 1, 2 or 5 depending on the chart. Only the key pins it down. That's why detectives read the key before counting anything.", "block": { "type": "table", "headers": ["key says", "4 apples mean"], "rows": [["🍎 = 1", "4"], ["🍎 = 2", "8"], ["🍎 = 5", "20"]], "caption": "Same row, different keys — the key rules" } }
+    },
+    {
+      "id": "l21-p10", "skill": "spot the pictogram trap", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend reads a pictogram with key 🍎 = 2. The row has 4 apples and they say 'four people'. What went wrong, and what's the real answer?", "sample": "They ignored the key — each apple is worth 2, so it's 2, 4, 6, 8. Eight people, not four." },
+      "expectedAnswer": "They skipped the key; each symbol is 2, so 4 apples = 8 people",
+      "wrongAnswers": [
+        { "answer": "Nothing went wrong — 4 apples means 4 people", "why": "shares the symbols-worth-1 misconception", "remedy": "Check the key together: what does it say ONE apple stands for? Now count the row in 2s." },
+        { "answer": "The answer is 6", "why": "understood the key but miscounted the 2s", "remedy": "Touch each apple and count: 2, 4, 6… is there a fourth apple?" }
+      ],
+      "hints": ["What did the friend forget to read first?", "Count the row in 2s: 2, 4, 6…"],
+      "reteach": { "say": "The friend fell straight into the pictogram trap: counting pictures instead of what pictures are WORTH. The key says each apple carries 2 people. Four apples: 2, 4, 6, 8. Explaining the trap to a friend means you've truly beaten it!", "block": { "type": "emojiViz", "emojis": "🍎🍎🍎🍎 → 2,4,6,8 ✅ (not 1,2,3,4 ❌)", "caption": "Key: 🍎 = 2 — count in 2s" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave tally items and pictogram items (and mix keys of 2 and 5).",
+    "levelDown": "2 misses on the same skill → run that item's reteach, count ONE symbol's worth out on fingers together, then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one tally item and one pictogram item with key ≥ 2 → mastery ≥ 0.8 for 'tally charts and pictograms'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: key skipped, or tally gates lost.",
+      "Point at the key and count one symbol's worth together on fingers.",
+      "One hint: 'What's one picture worth?'",
+      "Re-ask with key = 2 and a short row, then build back to key = 5.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Rebuild the survey around the learner's world (LearnerModel.interests): favourite dinosaurs, football teams, ice-cream flavours. Keep the keys and counts identical.",
+    "endOnSuccess": "Finish on a winnable read (key = 2, short row), then specific process praise: 'you read the key before counting, every single time — that's real data-detective work.'"
+  },
+
+  "differentiation": {
+    "support": "Key = 2 only; finger on each symbol while counting in 2s; tallies capped at two gates; the key stays highlighted on screen.",
+    "stretch": "Half-symbol reads (half the key's value); design a pictogram from a tally and CHOOSE a sensible key for big numbers."
+  },
+  "extension": "Chart designer — turn the ice-cream tally into a pictogram with the child's own key (would 🍦 = 2 or 🍦 = 5 make a neater chart? Why?).",
+  "assessmentEvidence": "Child tallies accurately with gates of five and reads pictograms with keys of 2 and 5 by multiplying, not counting symbols as 1.",
+  "revisitLater": "Data reading continues immediately in Lesson 22 (block diagrams); bring back one key = 5 pictogram read in the Lesson 25 quiz."
+}

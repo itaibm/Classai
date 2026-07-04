@@ -1,0 +1,311 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u5-l21",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 5, "title": "Comprehension & composition", "essentialQuestion": "How do I read between the lines, and how do I write a clear set of instructions?" },
+  "lessonNumber": 21,
+  "kind": "lesson",
+  "topic": "Reading comprehension",
+  "title": "Retrieval vs inference (be a reading detective)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can tell a retrieval question from an inference question."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "retrieval", "definition": "the answer is written right there in the text — you find it", "example": "'What did Mia open?' — the text says 'the fridge'." },
+    { "term": "inference", "definition": "the answer is not written — you work it out from clues", "example": "'How does Mia feel?' — her tummy rumbled, so she's hungry." },
+    { "term": "clue", "definition": "words in the text that help you work something out", "example": "'Her tummy rumbled' is the clue that Mia is hungry." },
+    { "term": "evidence", "definition": "the exact words you point to that prove your answer", "example": "Point to 'her tummy rumbled loudly'." }
+  ],
+  "emphasize": [
+    "Retrieval = FIND IT (the answer sits in the words). Inference = WORK IT OUT (from clues).",
+    "The finger test: if you can put your finger on the exact words that answer it, it's retrieval.",
+    "Pre-empt the guess habit: answers come from the TEXT, not from memory or opinion."
+  ],
+  "analysis": {
+    "keyConcepts": ["retrieval questions have answers written in the text", "inference questions are answered by reasoning from clues", "naming the question type tells you HOW to find the answer"],
+    "misconceptions": [
+      "labelling every question 'inference' because all reading feels like thinking",
+      "answering a retrieval question with a guess from memory or opinion instead of finding the words",
+      "answering an inference question without pointing to any clue in the text"
+    ],
+    "hooks": ["Detective framing: some answers are lying on the page in plain sight; others are hidden and must be cracked from clues."],
+    "priorKnowledge": ["reading a short passage for meaning", "answering 'what happened?' questions", "fluent sentence reading (Unit 1)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["short passages shown as richText", "question-sorting blocks", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the detective frame — some answers are written on the page, others are hidden in clues — and read the Mia passage together.",
+      "note": "Read the passage aloud warmly, once. The retrieval question ('what did Mia open?') should feel easy — that's the point.",
+      "successCriteria": "Child answers 'the fridge' and notices the answer is written in the text.",
+      "script": {
+        "say": "Detective time! Some answers are written right there on the page — easy to grab. Others are hidden — you crack them from the clues, like a real detective. Here's our first case. Listen while I read... Now, quick one: in the story, what did Mia open?",
+        "adaptHints": "If the learner loves a detective or spy character, name-drop them ('a case worthy of...'). Don't change the passage."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Mia and the fridge**\n\nMia ran into the kitchen. She opened the fridge and looked inside. There was cheese, milk and one red apple. Her tummy rumbled loudly. She grabbed the apple and took a big bite." },
+        { "type": "emojiViz", "emojis": "🕵️🔎📖", "caption": "Some answers are on the page. Some are hidden in clues!" }
+      ],
+      "stuckProtocol": ["If 'the fridge' doesn't come: re-read sentence two slowly and ask the child to point to the thing Mia opened."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Name the two question kinds: retrieval (the answer is written there) vs inference (you work it out from a clue).",
+      "note": "Anchor both kinds in the SAME passage: 'What did Mia open?' vs 'How does Mia feel?'. Point at where the retrieval answer sits; underline the clue for the inference.",
+      "successCriteria": "Child can say 'retrieval = find it, inference = work it out from clues'.",
+      "script": {
+        "say": "Two kinds of question, detective. RETRIEVAL: the answer is written in the words. 'What did Mia open?' — look, the text SAYS 'she opened the fridge'. I can put my finger right on it. INFERENCE: you work it out. 'How does Mia feel?' The text never says 'hungry'... but her tummy rumbled loudly — that's a CLUE. So: retrieval means find it. Inference means work it out from clues. Say that back to me!",
+        "adaptHints": "Use the child's name in the detective address. Keep the two labels crisp — 'find it' vs 'work it out'."
+      },
+      "blocks": [
+        { "type": "keyTerm", "term": "retrieval", "definition": "The answer is written right there — you FIND it.", "example": "'What did Mia open?' → the text says 'the fridge'." },
+        { "type": "keyTerm", "term": "inference", "definition": "The answer is not written — you WORK IT OUT from clues.", "example": "'How does Mia feel?' → her tummy rumbled = hungry." },
+        { "type": "table", "headers": ["Question", "Kind", "How to answer"], "rows": [["What did Mia open?", "retrieval", "find the words: 'the fridge'"], ["How does Mia feel?", "inference", "use the clue: 'her tummy rumbled'"]] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared sort: the child labels 'What did Mia open?' and 'Why did she open the fridge?' as find-it or work-it-out, pointing to the clue for the inference.",
+      "note": "'Why did she open the fridge?' is the subtle one — the text never says why, but the rumbling tummy is the clue. Let the child do the deciding.",
+      "successCriteria": "Child sorts both questions correctly and points to 'her tummy rumbled' as the clue for the why-question.",
+      "script": {
+        "say": "Sort these two with me, detective. Question one: 'What did Mia open?' Question two: 'Why did she open the fridge?' Which is find-it, which is work-it-out? Try the finger test — can you put your finger on the exact words that answer each one?",
+        "adaptHints": "If the child hesitates on the why-question, ask: 'Hunt for the word that tells us WHY. Can you find it? No? Then what clue could help you work it out?'"
+      },
+      "blocks": [
+        {
+          "type": "categorize",
+          "prompt": "Sort each question about Mia's story.",
+          "buckets": ["Retrieval — find it", "Inference — work it out"],
+          "items": [
+            { "text": "What did Mia open?", "bucket": "Retrieval — find it" },
+            { "text": "Why did she open the fridge?", "bucket": "Inference — work it out" },
+            { "text": "What colour was the apple?", "bucket": "Retrieval — find it" },
+            { "text": "How does Mia feel?", "bucket": "Inference — work it out" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Is 'Why did she open the fridge?' retrieval or inference — and how do you know?",
+        "expectedAnswer": "Inference — the text never says why; the clue is her rumbling tummy (she was hungry).",
+        "wrongAnswers": [
+          { "answer": "Retrieval — it says she opened the fridge", "why": "found the EVENT in the text and mistook it for the REASON", "remedy": "The text says WHAT she did. Does it say WHY? Hunt for the reason word... not there! So which clue helps you work it out?" },
+          { "answer": "Inference — because I just know", "why": "right label but no clue — inference without evidence", "remedy": "A detective never 'just knows'! Which words in the story are your clue that Mia wanted food?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 16],
+      "goal": "Fresh passage (Ben at the bus stop): the child labels the classic coat question as retrieval and explains the finger test.",
+      "note": "This is the lesson's key diagnostic. 'What colour was the coat?' must come back as retrieval WITH the reason ('the words are written there').",
+      "successCriteria": "Child answers 'retrieval' and says they could point to the exact words 'his blue coat'.",
+      "script": {
+        "say": "New case! Read Ben's story with me... Now: 'What colour was Ben's coat?' Is that retrieval or inference — and how do you know?",
+        "adaptHints": "After a correct answer, probe: 'Where would you point to find it?' — the finger test is the habit we're building."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Ben and the bus**\n\nBen stood at the bus stop in his blue coat. The rain dripped off his hood. He looked at his watch three times. At last, the bus came round the corner. Ben let out a long breath and smiled." },
+        {
+          "type": "multipleChoice",
+          "prompt": "'What colour was Ben's coat?' — retrieval or inference?",
+          "options": ["Retrieval — the words 'his blue coat' are written there", "Inference — you work the colour out from clues", "Inference — coats are usually blue", "You cannot answer it from this text"],
+          "correct": 0,
+          "explain": "Finger test: you can point to the exact words 'his blue coat' — so it's retrieval. Find it!"
+        }
+      ],
+      "check": {
+        "question": "Is 'What colour was Ben's coat?' retrieval or inference — and how do you know?",
+        "expectedAnswer": "Retrieval — the answer is written in the text ('his blue coat'); I can point to the exact words.",
+        "wrongAnswers": [
+          { "answer": "Inference", "why": "thinks all reading questions are working-out", "remedy": "Try the finger test: can you put your finger on the exact words that say the colour? If yes, it's retrieval." },
+          { "answer": "Blue (answers the question instead of labelling it)", "why": "answered the question, not the QUESTION-ABOUT-the-question", "remedy": "Good finding! Now the detective bit: was that answer WRITTEN there, or did you WORK IT OUT? Which kind of question is it?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 19],
+      "goal": "Independent sorting on a fresh passage (Patch the dog): label questions retrieval or inference, always pointing to the words or the clue.",
+      "note": "Director draws from practiceBank, start level 2. Insist on the pointing habit every time: 'show me the words' (retrieval) or 'show me the clue' (inference).",
+      "successCriteria": "Child labels 3+ questions correctly, locating the words for retrieval and the clue for inference.",
+      "script": {
+        "say": "Solo case time, detective! Here's Patch the dog's story. I'll fire questions at you — you tell me: find-it or work-it-out? And every time, show me the words or the clue.",
+        "adaptHints": "Swap the reward framing to the child's interests (detective badge, star, points). Never change the passages or the answers."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Patch waits**\n\nGrandpa's dog, Patch, sat by the front door all afternoon. Every time footsteps came near, his ears shot up. When Grandpa's key turned in the lock, Patch spun in circles and barked." }
+      ],
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think you skipped the finger test.'",
+        "Highlight the answer words (or the clue words) together in the passage.",
+        "One hint: 'Point to the exact words. Found them word-for-word? Retrieval. Had to think? Inference.'",
+        "Re-ask an obvious retrieval question ('Where did Patch sit?'), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [19, 20],
+      "goal": "Child states the difference between the two question kinds in their own words; end on a win.",
+      "note": "Child-led; the character listens. Listen for both halves: written-there vs worked-out-from-clues.",
+      "successCriteria": "Child says something like 'retrieval is written there; inference you work out from clues'.",
+      "script": {
+        "say": "Case closed! Tell me, detective: what's the difference between a retrieval question and an inference question? Say the rule out loud like you're teaching ME.",
+        "adaptHints": "Praise the observed process: pointing to exact words, hunting clues. 'Proper detective reading.'"
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say the detective rule out loud: what is retrieval, and what is inference?", "target": "Retrieval means the answer is written there — you find it. Inference means you work it out from clues." }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l21-p01", "skill": "label retrieval vs inference", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The text says: 'She opened the fridge.' Question: 'What did Mia open?' — retrieval or inference?", "options": ["Retrieval — the answer is written there", "Inference — you work it out from clues", "Neither kind", "Both kinds at once"], "correct": 0, "explain": "You can put your finger right on 'the fridge' — the answer sits in the words. Find it = retrieval." },
+      "expectedAnswer": "Retrieval — the answer is written there",
+      "wrongAnswers": [
+        { "answer": "Inference — you work it out from clues", "why": "thinks all reading questions are working-out", "remedy": "Finger test! Can you point to the exact words that answer it? 'She opened the fridge' — right there. So which kind is it?" },
+        { "answer": "Both kinds at once", "why": "hedging instead of testing the text", "remedy": "One test decides it: is the answer written word-for-word? Yes or no?" }
+      ],
+      "hints": ["Try to find the answer word-for-word in the text.", "If you can put your finger on the exact words, it's retrieval."],
+      "reteach": { "say": "Retrieval means FIND IT. Watch me: 'What did Mia open?' I slide my finger along the words... 'She opened the FRIDGE.' The answer was sitting right there on the page. That's retrieval.", "block": { "type": "emojiViz", "emojis": "👉📖✅", "caption": "Finger on the exact words = retrieval" } }
+    },
+    {
+      "id": "l21-p02", "skill": "label retrieval vs inference", "level": 1,
+      "block": { "type": "trueFalse", "statement": "For an inference question, the answer is NOT written word-for-word — you work it out from clues.", "correct": true, "explain": "That's exactly what inference means: the text gives you clues, and you do the working out." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "treats inference like retrieval — expects the answer to be written down", "remedy": "Hunt for the word 'hungry' in Mia's story. Can you find it anywhere? No — but her rumbling tummy is a clue. That's how inference works." },
+        { "answer": "It depends", "why": "hasn't separated the two kinds yet", "remedy": "It never depends! If the answer is written there, it's retrieval. If you have to work it out, it's inference. Which one uses clues?" }
+      ],
+      "hints": ["Think of 'How does Mia feel?' — could you point to a feeling word in her story?", "Inference = work it out. What do you work it out FROM?"],
+      "reteach": { "say": "Two jobs, two tools. Retrieval: your finger — point to the words. Inference: your brain — take a clue like 'her tummy rumbled' and work out what it means. The word 'hungry' is never on the page; YOU crack it.", "block": { "type": "table", "headers": ["kind", "tool", "example"], "rows": [["retrieval", "finger — find the words", "'the fridge'"], ["inference", "brain — use the clue", "tummy rumbled → hungry"]] } }
+    },
+    {
+      "id": "l21-p03", "skill": "label retrieval vs inference", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "'How does Mia feel?' The text never uses a feeling word. Retrieval or inference?", "options": ["Inference — work it out from the clue", "Retrieval — it says she feels hungry", "Retrieval — feelings are always written", "It cannot be answered"], "correct": 0, "explain": "No feeling word is written — but 'her tummy rumbled loudly' is the clue. You work it out: she's hungry." },
+      "expectedAnswer": "Inference — work it out from the clue",
+      "wrongAnswers": [
+        { "answer": "Retrieval — it says she feels hungry", "why": "remembers the worked-out answer as if it were written in the text", "remedy": "Slide your finger through the story and hunt for the word 'hungry'. Is it there? So how did we know?" },
+        { "answer": "It cannot be answered", "why": "thinks no written answer means no answer at all", "remedy": "Detectives answer hidden questions all the time — from clues! What did Mia's tummy do?" }
+      ],
+      "hints": ["Search the passage for a feeling word — can you find one?", "What did Mia's tummy do? What does that usually mean?"],
+      "reteach": { "say": "Watch the detective move. Question: how does Mia feel? Step one: hunt the text — no feeling word anywhere. Step two: find a clue — 'her tummy rumbled loudly'. Step three: work it out — rumbling tummies mean hungry. That whole dance is called inference.", "block": { "type": "steps", "title": "The inference dance", "steps": ["Hunt the text — the answer isn't written.", "Find a clue: 'her tummy rumbled loudly.'", "Work it out: Mia is hungry!"] } }
+    },
+    {
+      "id": "l21-p04", "skill": "label retrieval vs inference", "level": 2,
+      "block": { "type": "categorize", "prompt": "Ben's story: 'Ben stood at the bus stop in his blue coat. The rain dripped off his hood. He looked at his watch three times. At last, the bus came round the corner. Ben let out a long breath and smiled.' Sort each question.", "buckets": ["Retrieval — find it", "Inference — work it out"], "items": [ { "text": "What colour was Ben's coat?", "bucket": "Retrieval — find it" }, { "text": "How did Ben feel while he waited?", "bucket": "Inference — work it out" }, { "text": "What dripped off Ben's hood?", "bucket": "Retrieval — find it" }, { "text": "Why did Ben smile at the end?", "bucket": "Inference — work it out" } ] },
+      "expectedAnswer": "Coat colour + rain = retrieval; Ben's feelings + why he smiled = inference",
+      "wrongAnswers": [
+        { "answer": "How did Ben feel? → retrieval", "why": "assumes feelings are stated because they feel obvious", "remedy": "Obvious isn't the same as written! Hunt for a feeling word in Ben's story. Not there? Then it's work-it-out." },
+        { "answer": "What colour was Ben's coat? → inference", "why": "over-labelling everything as inference", "remedy": "Finger test: 'his blue coat' — can you point to it? Word-for-word on the page means..." }
+      ],
+      "hints": ["Do the finger test on each question, one at a time.", "Written word-for-word → find it. Have to think → work it out."],
+      "reteach": { "say": "One question at a time, finger first. Coat colour? 'His BLUE coat' — written, retrieval. The rain? 'Dripped off his hood' — written, retrieval. His feelings? Nowhere written — but watch-checking three times is a clue. Why the smile? Not written — the bus finally came. Two find-its, two work-it-outs.", "block": { "type": "table", "headers": ["question", "written there?", "kind"], "rows": [["coat colour", "yes — 'blue coat'", "retrieval"], ["what dripped", "yes — 'the rain'", "retrieval"], ["how he felt", "no — clue: watch × 3", "inference"], ["why he smiled", "no — clue: bus arrived", "inference"]] } }
+    },
+    {
+      "id": "l21-p05", "skill": "locate the evidence for a retrieval answer", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Retrieval question: 'What colour was Ben's coat?' Which EXACT words in the text answer it?", "options": ["'in his blue coat'", "'the rain dripped off his hood'", "'Ben let out a long breath'", "'the bus came round the corner'"], "correct": 0, "explain": "Retrieval answers live in exact words — 'in his blue coat' is where the answer sits." },
+      "expectedAnswer": "'in his blue coat'",
+      "wrongAnswers": [
+        { "answer": "'the rain dripped off his hood'", "why": "grabbed nearby words instead of the answering words", "remedy": "Those words tell us about the weather. Which words mention the COAT?" },
+        { "answer": "'Ben let out a long breath'", "why": "answered from the story's ending, not the question asked", "remedy": "Re-read the question: it asks about the coat's COLOUR. Scan for a colour word." }
+      ],
+      "hints": ["Scan for a colour word.", "The answer words will mention the coat itself."],
+      "reteach": { "say": "A retrieval answer is a treasure with a map: the question tells you what to scan for. 'What COLOUR was the COAT?' — so I scan for a colour and a coat... 'in his BLUE COAT'. Fingers on the treasure!", "block": { "type": "emojiViz", "emojis": "🗺️👉🧥", "caption": "The question is the map; the words are the treasure." } }
+    },
+    {
+      "id": "l21-p06", "skill": "spot the clue behind an inference", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Inference: Ben was worried the bus was late. Which words are the CLUE?", "options": ["'He looked at his watch three times'", "'in his blue coat'", "'the bus came round the corner'", "'Ben stood at the bus stop'"], "correct": 0, "explain": "Checking your watch again and again is what worried waiting looks like — that's the clue." },
+      "expectedAnswer": "'He looked at his watch three times'",
+      "wrongAnswers": [
+        { "answer": "'Ben stood at the bus stop'", "why": "chose the setting, not the behaviour that shows the feeling", "remedy": "Standing at a bus stop is normal. Which words show Ben doing something a WORRIED person does?" },
+        { "answer": "'the bus came round the corner'", "why": "chose the ending event instead of the worry clue", "remedy": "That's when the worry ENDS. Which words, before that, show the worry happening?" }
+      ],
+      "hints": ["A clue is something the character DOES that shows the feeling.", "What do you do when you're worried something is late?"],
+      "interestSlots": ["bus", "school trip coach"],
+      "reteach": { "say": "Clues are actions that leak feelings. Worried people check the time again... and again... and again. 'He looked at his watch THREE TIMES' — that's worry leaking out. Then the long breath and smile? That's relief leaking out. Actions are the detective's best clues.", "block": { "type": "table", "headers": ["action in the text", "feeling it leaks"], "rows": [["watch checked three times", "worried"], ["long breath + smile", "relieved"]] } }
+    },
+    {
+      "id": "l21-p07", "skill": "write a retrieval question", "level": 3,
+      "block": { "type": "shortText", "prompt": "Patch's story: 'Grandpa's dog, Patch, sat by the front door all afternoon. Every time footsteps came near, his ears shot up. When Grandpa's key turned in the lock, Patch spun in circles and barked.' Be the question-setter: write one RETRIEVAL question about it.", "sample": "Where did Patch sit all afternoon?" },
+      "expectedAnswer": "Any question whose answer is written word-for-word in the passage, e.g. 'Where did Patch sit?' or 'What did Patch do when the key turned?'",
+      "wrongAnswers": [
+        { "answer": "How does Patch feel about Grandpa?", "why": "wrote an inference question — the feeling isn't written", "remedy": "Good question — but is its answer written word-for-word? For retrieval, ask about something the text SAYS: where he sat, what he did." },
+        { "answer": "What is Patch's favourite food?", "why": "asked something the text never mentions at all", "remedy": "A retrieval question must be answerable by pointing at the words. Is food anywhere in this story? Ask about something that IS there." }
+      ],
+      "hints": ["Ask about something you can point to: where, what, who.", "Check your question: can I answer it with my finger on the exact words?"],
+      "reteach": { "say": "Question-setters work backwards: pick words in the text FIRST, then ask about them. I pick 'sat by the front door' — my question becomes 'Where did Patch sit?' The answer is guaranteed to be written there, because I started from the words.", "block": { "type": "steps", "title": "Build a retrieval question backwards", "steps": ["Pick some exact words: 'sat by the front door'.", "Turn them into a question: 'Where did Patch sit?'", "Check: finger lands on the answer. Retrieval!"] } }
+    },
+    {
+      "id": "l21-p08", "skill": "write an inference question", "level": 3,
+      "block": { "type": "shortText", "prompt": "Same Patch story. Now write one INFERENCE question — a work-it-out question whose answer is hidden in the clues.", "sample": "How does Patch feel when Grandpa comes home? (Clues: ears shot up, spun in circles, barked.)" },
+      "expectedAnswer": "Any question needing the clues, e.g. 'How does Patch feel about Grandpa?' or 'Why did Patch sit by the door all afternoon?'",
+      "wrongAnswers": [
+        { "answer": "Where did Patch sit?", "why": "wrote a retrieval question — the answer is written there", "remedy": "Finger test your own question: the answer's sitting right in the words, so that's find-it. Ask about a feeling or a WHY instead." },
+        { "answer": "What colour is Patch?", "why": "asked about something with no answer AND no clue in the text", "remedy": "An inference question still needs clues to work from. What do Patch's actions — ears up, spinning, barking — let us work out?" }
+      ],
+      "hints": ["Feelings and whys make great inference questions.", "Check yours: is the answer hidden, with clues pointing to it?"],
+      "reteach": { "say": "Inference questions start where the words stop. The text SHOWS Patch waiting all day, ears up at every footstep, spinning when the key turns — it never SAYS he loves Grandpa. So the question 'How does Patch feel about Grandpa?' is perfect: hidden answer, big juicy clues.", "block": { "type": "table", "headers": ["clue", "what it lets us work out"], "rows": [["waited by the door all afternoon", "he's longing for someone"], ["ears up at every footstep", "he's listening for Grandpa"], ["spun and barked at the key", "he's overjoyed — he loves Grandpa"]] } }
+    },
+    {
+      "id": "l21-p09", "skill": "label retrieval vs inference", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "The tricky one: 'Why did Mia open the fridge?' The text tells us WHAT she did, but never says why. Which is right?", "options": ["Inference — the clue is her rumbling tummy", "Retrieval — it says 'she opened the fridge'", "Retrieval — it says she was hungry", "Inference — but there is no clue, so we guess"], "correct": 0, "explain": "The why is never written — but the rumbling tummy is the clue. Work it out: she wanted food." },
+      "expectedAnswer": "Inference — the clue is her rumbling tummy",
+      "wrongAnswers": [
+        { "answer": "Retrieval — it says 'she opened the fridge'", "why": "confuses the written EVENT with the unwritten REASON", "remedy": "Those words answer 'what did she do?'. Our question asks WHY. Is the reason written anywhere? So which kind is it?" },
+        { "answer": "Inference — but there is no clue, so we guess", "why": "inference without evidence — a guess, not a worked-out answer", "remedy": "Detectives never guess! Re-read the passage — which words hint that Mia wanted food?" }
+      ],
+      "hints": ["'What did she do?' and 'why did she do it?' are different questions.", "The why isn't written — so which words HINT at it?"],
+      "reteach": { "say": "Here's the detective's sharpest trick: a text can WRITE the action but HIDE the reason. 'She opened the fridge' — action, written, retrieval-able. WHY she opened it — hidden. But right next door: 'her tummy rumbled loudly'. Clue found, reason worked out: she was hungry. Same sentence can hold a find-it AND feed a work-it-out.", "block": { "type": "table", "headers": ["question", "kind", "answer comes from"], "rows": [["What did Mia open?", "retrieval", "the words: 'the fridge'"], ["Why did she open it?", "inference", "the clue: 'tummy rumbled' → hungry"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave labelling with question-writing items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the passage on screen and the answer/clue words highlighted, then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one located-evidence item and one correctly labelled why-question → mastery ≥ 0.8 for 'retrieval vs inference'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why ('you skipped the finger test' / 'that was a guess, not the text').",
+      "Highlight the answer words or clue words together in the passage.",
+      "One hint: 'Point to the exact words. Word-for-word? Retrieval. Had to think? Inference.'",
+      "Re-ask an obvious retrieval question, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Keep the detective frame and swap the reward flavour (badge, star, case file) to the learner's interests. Passages and answers never change.",
+    "endOnSuccess": "Finish on a winnable labelling item; praise the process — 'you pointed to the exact words every single time.'"
+  },
+
+  "differentiation": {
+    "support": "Highlight where the retrieval answer 'sits' in the passage before sorting; offer two questions at a time, never four.",
+    "stretch": "Be the question-setter: write one retrieval AND one inference question about the same passage for the tutor to answer."
+  },
+  "extension": "Question-setter swap: the child writes a retrieval and an inference question about Patch's story, and the tutor must answer both — with the child judging whether the tutor pointed to words or clues.",
+  "assessmentEvidence": "Child correctly labels retrieval vs inference questions on a fresh passage, locating the exact words for retrieval and the clue for inference.",
+  "revisitLater": "Lesson 22 builds straight onto this ('I think... because the text says...'); bring back one label-it question as a starter in Lessons 23 and 25."
+}

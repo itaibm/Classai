@@ -1,0 +1,334 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u2-l07",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 2, "title": "Spelling with suffixes", "essentialQuestion": "How do I add an ending to a word so it's still spelled correctly?" },
+  "lessonNumber": 7,
+  "kind": "lesson",
+  "topic": "Spelling with suffixes",
+  "title": "Double the consonant (run → running)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can double the final consonant of a short-vowel word before a vowel suffix."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "consonant", "definition": "a letter that isn't a, e, i, o or u", "example": "the n in run" },
+    { "term": "vowel", "definition": "the letters a, e, i, o, u", "example": "the u in run" },
+    { "term": "short vowel sound", "definition": "the quick, sharp vowel sound", "example": "/o/ in hop, /u/ in run" },
+    { "term": "double the consonant", "definition": "write the last letter twice before a vowel suffix", "example": "run → running" },
+    { "term": "CVC", "definition": "a consonant-vowel-consonant word", "example": "run, hop, sit" }
+  ],
+  "emphasize": [
+    "One short vowel + one consonant at the end → DOUBLE that last consonant before a vowel suffix — to PROTECT the short vowel sound.",
+    "The killer contrast: hoping vs hopping — one letter changes everything.",
+    "Pre-empt 'runing' (didn't double, so the vowel reads long). Repeated test: 'Short vowel, one consonant on the end? Double it.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["CVC roots double the final consonant before a vowel suffix", "doubling protects the short vowel sound", "the hoping/hopping contrast — drop-e vs doubling"],
+    "misconceptions": [
+      "not doubling: run + ing → 'runing' (the u would read long, 'roo-ning')",
+      "confusing with drop-the-e: writing 'hopeing' or dropping letters from hop",
+      "doubling words that shouldn't double (silent-e or long-vowel roots)"
+    ],
+    "hooks": ["Hoping vs hopping — two words, ONE letter apart, totally different meanings. The double letter is a superhero protecting the short sound."],
+    "priorKnowledge": ["root + suffix; drop-the-e (Lesson 6)", "short vs long vowel sounds (Year 1)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated whiteboard with twin-letter reveal", "rule prompt card on screen: 'short vowel + one consonant → double it'", "practice bank", "optional reinforcement video"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=EmO1KoPY5aU",
+    "title": "Doubling the Final Consonant | Spelling Rules | EasyTeaching",
+    "channel": "EasyTeaching",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time a word doubles its last letter, shout the twin letters out loud (like 'n-n!') BEFORE the video shows the answer.",
+    "afterCheck": { "question": "When do we double the last letter before adding -ing or -ed?", "expectedAnswer": "When the root ends in one short vowel + one consonant — to protect the short sound" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Feel the hoping/hopping contrast — one letter, two meanings — and retrieve the short /o/ sound.",
+      "note": "Read both words aloud with exaggerated long-o vs short-o; bounce like a bunny on 'hopping'.",
+      "successCriteria": "Child hears the difference between the long o in hoping and the short o in hopping and can say the short /o/.",
+      "script": {
+        "say": "Two words, ONE letter apart, but totally different meanings. Hoping — that's wishing for something. Hopping — that's jumping like a bunny! The only difference is a double p. That little double letter is a superhero — it protects the short sound. Let's learn its trick. Quick — what's the short sound for o? Say the word hop.",
+        "adaptHints": "Listen for /o/ as in hop (short). If shaky: say hot, dog, hop — 'feel that short, sharp /o/? That's the sound we're protecting today.' Bounce on 'hopping' to match the child's energy."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "One letter apart!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 28, "y": 14, "value": "hoping", "size": 9, "color": "blue" },
+            { "k": "text", "x": 28, "y": 24, "value": "= wishing 🌠", "size": 5, "color": "ink" },
+            { "k": "text", "x": 72, "y": 14, "value": "hopping", "size": 9, "color": "accent", "bold": true },
+            { "k": "text", "x": 72, "y": 24, "value": "= bunny jumps 🐰", "size": 5, "color": "ink" },
+            { "k": "text", "x": 50, "y": 42, "value": "the double p protects the short o!", "size": 5, "bold": true, "color": "red" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If the short /o/ is shaky: say hot, dog, hop together — 'feel that short, sharp /o/?' — before moving on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the test: ONE short vowel + ONE consonant at the end → double it. Model run → running, hop → hopping; contrast with hope → hoping.",
+      "note": "Mark the one-vowel-one-consonant pattern under each root before doubling. Put hopping next to hoping and read both.",
+      "successCriteria": "Child can say the test back: short vowel + one consonant → double it, to protect the short sound.",
+      "script": {
+        "say": "Here's the rule. Look at the end of the root. Is it ONE short vowel and then ONE consonant — like r-u-n? If yes, I double that last consonant before a vowel suffix. Watch run: one vowel u, one consonant n → double the n → running. Why? If I wrote runing, the u would go long, like roo-ning. Doubling protects the short /u/. Now hop: one vowel, one consonant → double the p → hopping. Compare hope — that one ends in silent e, so we DROP, not double. Hop → hopping, but hope → hoping.",
+        "adaptHints": "Say the repeated test each time: 'Short vowel + one consonant → double it, to protect the short sound.' Let the child make the 'twin letter' with two fingers."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Double the consonant",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 10, "y": 12, "value": "r", "size": 8 },
+            { "k": "text", "x": 16, "y": 12, "value": "u", "size": 8, "color": "orange" },
+            { "k": "text", "x": 22, "y": 12, "value": "n", "size": 8, "color": "blue" },
+            { "k": "text", "x": 16, "y": 20, "value": "1 vowel", "size": 4, "color": "orange" },
+            { "k": "text", "x": 30, "y": 20, "value": "1 consonant", "size": 4, "color": "blue" },
+            { "k": "line", "x1": 40, "y1": 12, "x2": 52, "y2": 12, "color": "ink", "arrow": true },
+            { "k": "text", "x": 70, "y": 12, "value": "running", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 70, "y": 20, "value": "twin n's!", "size": 4, "color": "blue" },
+            { "k": "text", "x": 10, "y": 36, "value": "hop", "size": 8 },
+            { "k": "line", "x1": 40, "y1": 36, "x2": 52, "y2": 36, "color": "ink", "arrow": true },
+            { "k": "text", "x": 70, "y": 36, "value": "hopping", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 10, "y": 48, "value": "hope", "size": 8, "color": "red" },
+            { "k": "line", "x1": 40, "y1": 48, "x2": 52, "y2": 48, "color": "ink", "arrow": true },
+            { "k": "text", "x": 70, "y": 48, "value": "hoping (drop the e!)", "size": 6, "color": "red" },
+            { "k": "text", "x": 50, "y": 58, "value": "Short vowel + one consonant → double it!", "size": 5, "bold": true }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared deciding: big + er, sit + ing, swim + ing — the child runs the test out loud, then doubles.",
+      "note": "Each time, point to the one vowel + one consonant BEFORE doubling. The child says 'double it' before spelling.",
+      "successCriteria": "Child runs the test unprompted and spells sitting/swimming/bigger correctly.",
+      "script": {
+        "say": "You decide with me. Big plus -er. Does it end in one short vowel and one consonant? Say it… so what do we do to the g? … Double it — bigger! Now sit plus -ing… and swim plus -ing. Then read me this pair so I can HEAR the difference: hoping… hopping.",
+        "adaptHints": "If the child forgets the test, tap the last two letters of the root: 'one vowel? one consonant? then…?'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "sit + ing = ___", "answer": "sitting", "wordBank": ["sitting", "siting", "siteing"] },
+        { "type": "fillBlank", "text": "swim + ing = ___", "answer": "swimming", "wordBank": ["swimming", "swiming", "swimmeing"] },
+        { "type": "speak", "prompt": "Read this pair aloud so I can hear the difference: hoping… hopping.", "target": "hoping (long o), hopping (short o)" }
+      ],
+      "check": {
+        "question": "Add -ing to hop.",
+        "expectedAnswer": "hopping (double the p)",
+        "wrongAnswers": [
+          { "answer": "hoping", "why": "didn't double, so the vowel reads long", "remedy": "Read it back — ho-ping? That means wishing! We want bunny-hopping. One vowel, one consonant → double the p." },
+          { "answer": "hopeing", "why": "confused with drop-e", "remedy": "Does hop have a silent e? No — so we don't drop, we double. hop → hopping." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The key diagnostic: hop + ing. 'hoping' means no doubling; 'hopeing' means rule mix-up with drop-e.",
+      "note": "After a correct answer, probe WHY we doubled (to keep the short /o/, so it isn't hoping).",
+      "successCriteria": "Child spells 'hopping' and explains the double p protects the short sound.",
+      "script": {
+        "say": "Add -ing to hop. Run the test first — what's on the end of hop?",
+        "adaptHints": "After success, probe: 'Why did we double the p?' Listen for: to keep the short /o/, so it isn't hoping."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "hop + ing = ?", "options": ["hopping", "hoping", "hopeing", "hopying"], "correct": 0, "explain": "One short vowel + one consonant → double the p: hopping. The twin p's protect the short /o/." }
+      ],
+      "check": {
+        "question": "Add -ing to hop.",
+        "expectedAnswer": "hopping (double the p)",
+        "wrongAnswers": [
+          { "answer": "hoping", "why": "didn't double, so the vowel reads long — now it means wishing", "remedy": "Read it back — ho-ping? That means wishing! One vowel, one consonant on the end → double the p. Use the rule card." },
+          { "answer": "hopeing", "why": "confused with the drop-e rule", "remedy": "Does hop have a silent e? No — so we don't drop, we double. hop → hopping." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent spelling: -ing/-ed/-er on CVC roots (run, hop, sit, swim, big), doubling the last letter and reading each back.",
+      "note": "Director draws from practiceBank, start level 2. Keep to CVC roots; the child reads each built word aloud as the self-check.",
+      "successCriteria": "Child doubles correctly in at least three CVC words and can contrast hoping/hopping.",
+      "script": {
+        "say": "Practice time, letter-doubler! I'll send you short, bouncy words. Run the test — one short vowel, one consonant? — make the twin letter, add the tail, and read your new word back to me.",
+        "adaptHints": "Frame the action words around the child's interests (running races, hopping bunnies, swimming lessons) — the spelling words never change."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'the short sound isn't protected — we need to double.'",
+        "Step down: show the rule card and tap the one vowel + one consonant together.",
+        "ONE hint: 'what's the last consonant? Make a twin of it.'",
+        "Re-ask a smaller version (just double the letter, then add the tail).",
+        "Keep it safe: 'The doubling trick takes practice — let's spot the short vowel together.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child states the doubling test and why it exists; end on an earned win.",
+      "note": "Child-led. Optional: play the verified reinforcement video with its watch task if there's appetite.",
+      "successCriteria": "Child says: short vowel + one consonant at the end → double it, to protect the short sound.",
+      "script": {
+        "say": "Tell me the test — when do we double the last letter before adding -ing? … That's it. You tested every word for the short vowel and doubled to protect the sound — and you kept hoping and hopping apart. Brilliant.",
+        "adaptHints": "Process praise the TEST habit (checking the end of the root), not speed. If playing the video, set the watch task first: shout the twin letters before the video does."
+      },
+      "blocks": [
+        { "type": "video", "url": "https://www.youtube.com/watch?v=EmO1KoPY5aU", "title": "Doubling the Final Consonant | Spelling Rules | EasyTeaching", "caption": "Optional victory lap: shout the twin letters before the video shows them!" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l07-p01", "skill": "double before -ing", "level": 1,
+      "block": { "type": "fillBlank", "text": "run + ing = ___", "answer": "running", "wordBank": ["running", "runing", "runeing"] },
+      "expectedAnswer": "running",
+      "wrongAnswers": [
+        { "answer": "runing", "why": "didn't double — the u would read long ('roo-ning')", "remedy": "Read it back — roo-ning? The u went long! What protects the short /u/?" },
+        { "answer": "runeing", "why": "added an e that was never there", "remedy": "Run has no silent e. Check the end: one vowel, one consonant — what's the move?" }
+      ],
+      "hints": ["Check the end of run: one short vowel, one consonant?", "Make a twin of the n, then add -ing."],
+      "reteach": { "say": "Run: r-u-n. One short u, one n on the end. The n makes a twin to guard the short sound: run-n-ing. Running!", "block": { "type": "table", "headers": ["root", "twin letter", "new word"], "rows": [["run", "nn", "running"]] } },
+      "interestSlots": ["running races", "football"]
+    },
+    {
+      "id": "l07-p02", "skill": "double before -ing", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "sit + ing = ?", "options": ["sitting", "siting", "sitteing"], "correct": 0, "explain": "One short vowel + one consonant → double the t: sitting." },
+      "expectedAnswer": "sitting",
+      "wrongAnswers": [
+        { "answer": "siting", "why": "didn't double — the i would read long", "remedy": "Read it — sigh-ting? The i went long! Run the test: what does the t need?" },
+        { "answer": "sitteing", "why": "doubled AND added an e", "remedy": "Great doubling! But no e sneaks in — twin t's, then straight to -ing: sitting." }
+      ],
+      "hints": ["Say sit — is that vowel short?", "Twin t's protect the short i."],
+      "reteach": { "say": "Sit: one short i, one t. Double the t — sitt — add -ing: sitting. The twin t's are bodyguards for the short sound.", "block": { "type": "emojiViz", "emojis": "🪑", "caption": "sit → sitting (twin t's!)" } }
+    },
+    {
+      "id": "l07-p03", "skill": "spot when to double", "level": 1,
+      "block": { "type": "trueFalse", "statement": "To spell hop + ing, we double the p: hopping.", "correct": true, "explain": "Hop ends in one short vowel + one consonant, so the p doubles: hopping." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "didn't spot the short-vowel + one-consonant pattern", "remedy": "Say hop — short /o/, one p on the end. One vowel, one consonant → what's the move?" }
+      ],
+      "hints": ["Check the end of hop: one vowel? one consonant?", "Without the double p it would read ho-ping — wishing!"],
+      "reteach": { "say": "Hop is a bouncy CVC word: h-o-p. Short o, one p. Double the p so it stays bouncy: hopping. One p would turn it into hoping — a wishing word!", "block": { "type": "table", "headers": ["word", "meaning"], "rows": [["hopping", "bunny jumps 🐰"], ["hoping", "wishing 🌠"]] } }
+    },
+    {
+      "id": "l07-p04", "skill": "double before -ing", "level": 2,
+      "block": { "type": "fillBlank", "text": "swim + ing = ___", "answer": "swimming", "wordBank": ["swimming", "swiming", "swimmeing"] },
+      "expectedAnswer": "swimming",
+      "wrongAnswers": [
+        { "answer": "swiming", "why": "didn't double — the i would read long", "remedy": "Read it back — swy-ming? Protect that short i. What twin do we need?" },
+        { "answer": "swimmeing", "why": "doubled but added a stray e", "remedy": "The twin m's are perfect — but no e! Straight from swimm to -ing: swimming." }
+      ],
+      "hints": ["Swim ends in one vowel + one consonant.", "Twin m's, then -ing."],
+      "reteach": { "say": "Swim: short i, one m on the end. The m makes a twin — swimm — then -ing dives in: swimming. Splash!", "block": { "type": "emojiViz", "emojis": "🏊", "caption": "swim → swimming" } },
+      "interestSlots": ["swimming lessons", "the pool"]
+    },
+    {
+      "id": "l07-p05", "skill": "double before -ed", "level": 2,
+      "block": { "type": "fillBlank", "text": "hop + ed = ___", "answer": "hopped", "wordBank": ["hopped", "hoped", "hopd"] },
+      "expectedAnswer": "hopped",
+      "wrongAnswers": [
+        { "answer": "hoped", "why": "didn't double — that's the past of HOPE (wishing), not hop", "remedy": "Read it — hoped means wished! For bunny-jumps we need the twin p's. Run the test on hop." },
+        { "answer": "hopd", "why": "lost the suffix's e", "remedy": "Good instinct to change something — but the suffix -ed keeps its e. Twin p's first: hopp + ed." }
+      ],
+      "hints": ["Same test as -ing: short vowel + one consonant?", "hopp… then -ed."],
+      "reteach": { "say": "The bunny hopped yesterday! Hop: short o, one p → double it → hopp → add -ed → hopped. One p would make hoped — a wish, not a jump.", "block": { "type": "table", "headers": ["root", "+ ed", "meaning"], "rows": [["hop", "hopped", "jumped 🐰"], ["hope", "hoped", "wished 🌠"]] } }
+    },
+    {
+      "id": "l07-p06", "skill": "double before -er", "level": 2,
+      "block": { "type": "fillBlank", "text": "big + er = ___", "answer": "bigger", "wordBank": ["bigger", "biger", "biggeer"] },
+      "expectedAnswer": "bigger",
+      "wrongAnswers": [
+        { "answer": "biger", "why": "didn't double — the i would read long ('by-ger')", "remedy": "Read it back — by-ger? Protect the short i. What does the g need?" },
+        { "answer": "biggeer", "why": "doubled the wrong letter (the suffix's e)", "remedy": "The TWIN is the root's last consonant — the g. Twin g's, then -er: bigger." }
+      ],
+      "hints": ["-er starts with a vowel, so the same doubling test applies.", "Twin g's: bigg + er."],
+      "reteach": { "say": "Big: one short i, one g. Before -er, the g makes a twin: bigg — bigger! The rule works for -er and -est too: big, bigger, biggest.", "block": { "type": "table", "headers": ["root", "+ er", "+ est"], "rows": [["big", "bigger", "biggest"]] } }
+    },
+    {
+      "id": "l07-p07", "skill": "choose hoping vs hopping in context", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Finish the sentence: 'I was ___ for sunny weather.'", "options": ["hoping", "hopping", "hopeing", "hoppeing"], "correct": 0, "explain": "Wishing = hoping, from hope (drop the e, one p). Hopping with twin p's is bunny jumps!" },
+      "expectedAnswer": "hoping",
+      "wrongAnswers": [
+        { "answer": "hopping", "why": "chose the bunny-jump word for a wishing sentence", "remedy": "Read the sentence — is it about jumping or wishing? Which root do we need: hop or hope?" },
+        { "answer": "hopeing", "why": "kept the silent e (Lesson 6 rule slipped)", "remedy": "Hope ends in a silent e — what does the e do before -ing moves in?" }
+      ],
+      "hints": ["Wishing comes from the root hope.", "Hope drops its e → one p. Hop doubles → two p's."],
+      "reteach": { "say": "Two roots, two rules! Hope (silent e) drops the e → hoping, wishing. Hop (short o) doubles the p → hopping, jumping. The sentence wants wishing — hoping, one p.", "block": { "type": "table", "headers": ["root", "rule", "word", "meaning"], "rows": [["hope", "drop the e", "hoping", "wishing"], ["hop", "double", "hopping", "jumping"]] } }
+    },
+    {
+      "id": "l07-p08", "skill": "double before -er (agent words)", "level": 3,
+      "block": { "type": "fillBlank", "text": "swim + er = ___ (someone who swims)", "answer": "swimmer", "wordBank": ["swimmer", "swimer", "swimmerr"] },
+      "expectedAnswer": "swimmer",
+      "wrongAnswers": [
+        { "answer": "swimer", "why": "didn't double — the i would read long", "remedy": "Say it — swy-mer? Run the test on swim: one vowel, one consonant → ?" },
+        { "answer": "swimmerr", "why": "doubled the wrong letter (the suffix's r)", "remedy": "The twin is the ROOT's last letter, the m. Swimm + er — done." }
+      ],
+      "hints": ["Same test, new tail: swim ends in one vowel + one m.", "Twin m's, then -er."],
+      "reteach": { "say": "A person who swims is a swimmer — twin m's guarding that short i. Swim → swimm → swimmer. A person who runs? Runner — twin n's. The test never changes.", "block": { "type": "table", "headers": ["root", "person word"], "rows": [["swim", "swimmer"], ["run", "runner"]] } },
+      "interestSlots": ["swimming", "athletics"]
+    },
+    {
+      "id": "l07-p09", "skill": "explain the doubling rule", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend writes: run + ing = runing. Read it back — what goes wrong, and how do we fix it?", "sample": "Without the double n it reads 'roo-ning' — the u goes long. Double the n to protect the short sound: running." },
+      "expectedAnswer": "The u reads long ('roo-ning'); double the n to protect the short sound — running",
+      "wrongAnswers": [
+        { "answer": "Nothing went wrong / it looks fine", "why": "shares the didn't-double misconception", "remedy": "Read their word out loud — roo-ning? Is that how run + ing should sound? What protects the short /u/?" },
+        { "answer": "They should drop the e", "why": "reached for the wrong rule", "remedy": "Is there a silent e on run? No — this is a short-vowel word. What's the doubling test?" }
+      ],
+      "hints": ["Read 'runing' out loud — what happens to the u?", "The fix is a twin letter."],
+      "reteach": { "say": "Spelling detective time: 'runing' reads roo-ning because nothing is guarding the short u. The fix: double the n — run-n-ing. Short sound safe, word correct: running.", "block": { "type": "table", "headers": ["their spelling", "sounds like", "the fix"], "rows": [["runing", "roo-ning ✗", "running ✓"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave hoping/hopping-style contrasts with -er/-est doublers.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the one-vowel-one-consonant pattern tapped out on the board, then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one -ed form and the hoping/hopping contrast → mastery ≥ 0.8 for 'double the consonant before a vowel suffix'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'the short sound isn't protected — we need to double.'",
+      "Step down: show the rule card and tap the one vowel + one consonant together.",
+      "ONE hint: 'what's the last consonant? Make a twin of it.'",
+      "Re-ask a smaller version (just double the letter, then add the tail), then build back up.",
+      "Keep it safe: 'The doubling trick takes practice — let's spot the short vowel together.'"
+    ],
+    "personalization": "Frame the action words in the child's world (running at football, hopping like their favourite animal, swimming lessons) — the spelling words never change.",
+    "endOnSuccess": "Finish on a winnable doubling item; process praise: 'you ran the test on every word and protected every short sound.'"
+  },
+
+  "differentiation": {
+    "support": "Keep the on-screen rule card ('short vowel + one consonant → double it') visible at all times; do -ing only at first.",
+    "stretch": "Explain WHY hoping and hopping differ (silent e makes the long sound; doubling protects the short sound), and spell biggest, swimmer."
+  },
+  "extension": "Find two more CVC words (clap, stop) and double correctly (clapping, stopping).",
+  "assessmentEvidence": "Child doubles the final consonant correctly in at least three CVC words (running, hopping, sitting) and can contrast hoping/hopping.",
+  "revisitLater": "Lesson 9's sort mixes doublers with drop-e and y→i. Re-pose hoping vs hopping as a quick retrieval next session."
+}

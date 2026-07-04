@@ -1,0 +1,316 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u1-l02",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 1, "title": "Place value to 100", "essentialQuestion": "How do the tens and the ones decide how big a number is?" },
+  "lessonNumber": 2,
+  "kind": "lesson",
+  "topic": "Place value to 100",
+  "title": "Partitioning numbers",
+  "durationMin": 22,
+  "objectives": ["By the end, I can partition a two-digit number into tens and ones and put it back together."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "partition", "definition": "split a number into parts", "example": "43 partitions into 40 and 3" },
+    { "term": "recombine", "definition": "put the parts back together", "example": "40 and 3 recombine to 43" },
+    { "term": "part-whole", "definition": "a whole number made of smaller parts", "example": "76 is the whole; 70 and 6 are the parts" }
+  ],
+  "emphasize": [
+    "Partition by VALUE, not by digit: 50 splits into 50 and 0, NOT '5 and 0'.",
+    "The whole equals its parts — nothing is lost when we split and rebuild.",
+    "Repeat: 'The 5 is 5 TENS, which is fifty.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["partitioning into tens and ones by value", "recombining", "part-whole relationship"],
+    "misconceptions": [
+      "partitioning digits instead of values (43 → '4 and 3')",
+      "zero-ones numbers: 50 → '5 and 0'",
+      "not checking by recombining, so parts drift from the whole"
+    ],
+    "hooks": ["Smash a number into pieces like a Lego model, then rebuild it perfectly — no piece missing."],
+    "priorKnowledge": ["tens and ones (Lesson 1)", "a digit's place gives its value"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["virtual rods on the whiteboard block", "part-whole animations", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=tKmZzB6jLfM",
+    "title": "KS1 - Maths Partitioning 2-Digit Numbers",
+    "channel": "Twinkl Parents",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time a number gets split, say the two parts OUT LOUD before the video does.",
+    "afterCheck": { "question": "What two parts did the video split a two-digit number into?", "expectedAnswer": "Tens and ones (the values, e.g. 40 and 3)" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame partitioning as 'smash and rebuild' — playful, nothing lost; retrieve Lesson 1.",
+      "note": "Keep it quick; the game frame carries the whole lesson.",
+      "successCriteria": "Child answers '4 tens and 3 ones' for 43.",
+      "script": {
+        "say": "Here's a game. I'm going to SMASH a number into pieces, then build it back perfectly — like a Lego model. If I do it right, no piece goes missing. Watch the number 43… but first, quick memory check: how many tens and ones in 43?",
+        "adaptHints": "Swap 'Lego' for a construction toy the child loves. Listen for '4 tens and 3 ones'; if shaky, count rods in tens aloud like Lesson 1."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🧱💥🧱", "caption": "Smash it… rebuild it… nothing goes missing!" }
+      ],
+      "stuckProtocol": ["If tens/ones is shaky: redraw 43 as 4 sticks and 3 dots and count the sticks in tens: 10, 20, 30, 40."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model partitioning 43 by VALUE: slide the tens away from the ones, name the parts 40 and 3, recombine.",
+      "note": "The whiteboard animation IS the concrete/pictorial stage: rods slide apart, then back together.",
+      "successCriteria": "Child sees 43 = 40 + 3 and hears 'forty AND three — the value, not four and three'.",
+      "script": {
+        "say": "Smash! I pull the tens away from the ones. Watch the four rods slide left… they're worth FORTY. The three little cubes stay right… they're worth THREE. So 43 partitions into 40 and 3. I say the VALUE — forty and three, not 'four and three'. Now recombine — push them back — 40 and 3 make 43 again. Nothing lost!",
+        "adaptHints": "Stress the words FORTY and THREE. The sound effect moment ('Smash!') can match the child's energy."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "43 = 40 + 3",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "43", "size": 10, "bold": true },
+            { "k": "rect", "x": 10, "y": 14, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "rect", "x": 17, "y": 14, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "rect", "x": 24, "y": 14, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "rect", "x": 31, "y": 14, "w": 4, "h": 26, "color": "blue", "fill": true },
+            { "k": "dot", "x": 70, "y": 22, "color": "orange" },
+            { "k": "dot", "x": 76, "y": 22, "color": "orange" },
+            { "k": "dot", "x": 82, "y": 22, "color": "orange" },
+            { "k": "text", "x": 22, "y": 46, "value": "40", "size": 8, "bold": true, "color": "blue" },
+            { "k": "text", "x": 76, "y": 46, "value": "3", "size": 8, "bold": true, "color": "orange" },
+            { "k": "line", "x1": 50, "y1": 10, "x2": 26, "y2": 42, "color": "ink", "arrow": true },
+            { "k": "line", "x1": 54, "y1": 10, "x2": 74, "y2": 42, "color": "ink", "arrow": true },
+            { "k": "text", "x": 50, "y": 57, "value": "43 = 40 + 3", "size": 6, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared smash of 76: the child names both parts and fills the number sentence.",
+      "note": "The character starts, the child supplies the values. 76 = 70 + 6.",
+      "successCriteria": "Child says '70 and 6' (values, not '7 and 6') and completes 76 = __ + __.",
+      "script": {
+        "say": "Your turn to smash 76! I've drawn it — seven rods, six cubes. You pull the tens away… what are those seven rods worth all together? … And the cubes? … So fill in my number sentence: 76 equals what plus what?",
+        "adaptHints": "If the child says '7 and 6', don't correct directly — ask 'seven WHAT? Count the rods in tens.'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "76 = ___ + 6", "answer": "70", "wordBank": ["7", "70", "60"] }
+      ],
+      "check": {
+        "question": "76 partitions into…?",
+        "expectedAnswer": "70 and 6",
+        "wrongAnswers": [
+          { "answer": "7 and 6", "why": "partitioned digits, not values", "remedy": "Count the rods in tens: 10, 20, 30, 40, 50, 60, 70 — so the 7 is worth…?" },
+          { "answer": "60 and 16", "why": "non-standard partition offered too early (or a slip)", "remedy": "Interesting! Does 60 + 16 make 76? It does — but today we split into TENS and ONES exactly: all the rods in one part, all the cubes in the other." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 16],
+      "goal": "The trap: partition 50 — only one part has value.",
+      "note": "This is the lesson's key diagnostic. '5 and 0' means digits-not-values.",
+      "successCriteria": "Child answers 50 + 0 (or '50 and nothing') and can say why it isn't 5.",
+      "script": {
+        "say": "Now the sneaky one. Partition 50. Think carefully… what are the two parts?",
+        "adaptHints": "After a correct answer, probe: 'Why isn't it 5?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "50 partitions into…",
+          "options": ["50 + 0", "5 + 0", "40 + 10", "5 + 5"],
+          "correct": 0,
+          "explain": "The 5 is five TENS — fifty. And there are zero ones. 50 = 50 + 0."
+        }
+      ],
+      "check": {
+        "question": "Partition 50.",
+        "expectedAnswer": "50 + 0",
+        "wrongAnswers": [
+          { "answer": "5 + 0", "why": "reading digits, not place value", "remedy": "Draw it. How many rods? Count them in tens — so the 5 is worth…?" },
+          { "answer": "25 + 25", "why": "guessing parts / halving instead of partitioning", "remedy": "That does make 50! But partitioning means pulling the TENS away from the ONES. Show me the tens." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 20],
+      "goal": "Independent partitioning: 38, 64, 90 (zero-ones), each written as __ + __ and rebuilt to check.",
+      "note": "Director draws from practiceBank, start level 2. Always ask the child to recombine — 'does it rebuild?' is the self-check habit.",
+      "successCriteria": "Child partitions 3+ numbers including a zero-ones case, rebuilding each to check.",
+      "script": {
+        "say": "Practice time, smasher! I'll give you numbers — you smash them into tens and ones, then rebuild to prove nothing went missing.",
+        "adaptHints": "Frame amounts with the child's interests (points, coins, stickers). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the tens value slipped.'",
+        "Go concrete: draw the rods and cubes, physically separate them on the board before writing.",
+        "One hint: 'Count only the rods, in tens.'",
+        "Re-ask with a teen number (16 = 10 + 6), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the partitioning rule and explains the 50 case; end on a win.",
+      "note": "Child-led; the character listens.",
+      "successCriteria": "Child says 'split into tens and ones by their value' and why 50 = 50 + 0.",
+      "script": {
+        "say": "Tell me the rule for partitioning… and the tricky bit: why is 50 'fifty and zero', not 'five and zero'? … Exactly. You rebuilt every number to check — that's a real mathematician's habit.",
+        "adaptHints": "Praise the observed process: rebuilding to check, saying values out loud."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l02-p01", "skill": "partition into tens and ones", "level": 1,
+      "block": { "type": "fillBlank", "text": "16 = 10 + ___", "answer": "6", "wordBank": ["6", "60", "1"] },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "60", "why": "gave a tens value for the ones part", "remedy": "The ones are the little cubes. How many loose cubes in 16?" },
+        { "answer": "1", "why": "grabbed the other digit", "remedy": "The 1 in 16 is one TEN — that's the 10 already written. What's left?" }
+      ],
+      "hints": ["16 is one ten and some ones.", "Count on from 10: 11, 12… up to 16 — how many steps?"],
+      "reteach": { "say": "Teen numbers are the friendliest smash: one ten and the rest. 16 — one rod (10), six cubes (6). 16 = 10 + 6.", "block": { "type": "emojiViz", "emojis": "🟦 🔸🔸🔸🔸🔸🔸", "caption": "16 = 10 + 6" } }
+    },
+    {
+      "id": "l02-p02", "skill": "partition into tens and ones", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Smash 25! Which two parts?", "options": ["20 and 5", "2 and 5", "25 and 0", "5 and 20 tens"], "correct": 0, "explain": "The 2 is two tens — twenty. The 5 is five ones. 25 = 20 + 5." },
+      "expectedAnswer": "20 and 5",
+      "wrongAnswers": [
+        { "answer": "2 and 5", "why": "digits, not values", "remedy": "Two WHAT? Count the rods in tens: 10, 20." },
+        { "answer": "25 and 0", "why": "didn't split at all", "remedy": "A smash makes two pieces — pull the tens away from the ones. What are the tens worth?" }
+      ],
+      "hints": ["Say the number: TWENTY-five.", "The name tells you the first part."],
+      "reteach": { "say": "Listen: TWENTY-five. The name gives away the smash — twenty… and five. 25 = 20 + 5.", "block": { "type": "emojiViz", "emojis": "🟦🟦 🔸🔸🔸🔸🔸", "caption": "25 = 20 + 5" } }
+    },
+    {
+      "id": "l02-p03", "skill": "partition into tens and ones", "level": 2,
+      "block": { "type": "fillBlank", "text": "38 = ___ + 8", "answer": "30", "wordBank": ["3", "30", "80"] },
+      "expectedAnswer": "30",
+      "wrongAnswers": [
+        { "answer": "3", "why": "digits, not values", "remedy": "Three rods — count them in tens. What are they worth together?" },
+        { "answer": "80", "why": "swapped the digits' values", "remedy": "Which digit is in the tens place of 38? That one gets multiplied by ten." }
+      ],
+      "hints": ["The 3 lives in the tens place.", "3 tens are worth…?"],
+      "reteach": { "say": "38: three rods slide left — 10, 20, 30. Eight cubes stay — 8. Thirty and eight. 38 = 30 + 8.", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦 🔸🔸🔸🔸🔸🔸🔸🔸", "caption": "38 = 30 + 8" } }
+    },
+    {
+      "id": "l02-p04", "skill": "recombine parts into the whole", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Rebuild it: 60 + 4 = ?", "answer": 64 },
+      "expectedAnswer": "64",
+      "wrongAnswers": [
+        { "answer": "604", "why": "wrote the parts side by side", "remedy": "The 4 slots INTO the zero's place — 60 has an empty ones seat waiting for the 4." },
+        { "answer": "10", "why": "added digits 6 + 4", "remedy": "It's SIXTY plus four — count on from 60: 61, 62, 63, 64." }
+      ],
+      "hints": ["Start at 60, count on 4.", "The ones digit of 60 is a 0 — the 4 takes that seat."],
+      "reteach": { "say": "Sixty is six rods and an empty ones spot. Drop in four cubes: 61, 62, 63, 64. The parts click back into 64 — nothing missing!", "block": { "type": "numberLine", "min": 60, "max": 70, "step": 1, "highlight": 64, "marks": [{ "value": 60, "label": "start" }, { "value": 64, "label": "64" }] } }
+    },
+    {
+      "id": "l02-p05", "skill": "zero-ones partitions", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The sneaky one! Partition 90.", "options": ["90 + 0", "9 + 0", "80 + 10", "9 + 9"], "correct": 0, "explain": "Nine tens are ninety, and there are zero ones. 90 = 90 + 0." },
+      "expectedAnswer": "90 + 0",
+      "wrongAnswers": [
+        { "answer": "9 + 0", "why": "digits, not values — the lesson's key trap", "remedy": "Draw it: how many rods? Count them in tens — the 9 is worth…?" },
+        { "answer": "80 + 10", "why": "true but not a tens/ones split", "remedy": "That rebuilds to 90, clever! But pull ALL the tens into one part — what are nine tens worth?" }
+      ],
+      "hints": ["How many loose cubes does 90 have?", "Nine rods, zero cubes."],
+      "reteach": { "say": "Ninety is a tidy tower — nine rods, not one loose cube. So the smash is a funny one: ninety… and zero. 90 = 90 + 0. Zero is a real part!", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦🟦🟦🟦🟦🟦🟦", "caption": "90 = 90 + 0" } }
+    },
+    {
+      "id": "l02-p06", "skill": "partition into tens and ones", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each number to its smash.", "pairs": [ { "left": "47", "right": "40 + 7" }, { "left": "74", "right": "70 + 4" }, { "left": "40", "right": "40 + 0" }, { "left": "44", "right": "40 + 4" } ] },
+      "expectedAnswer": "47→40+7, 74→70+4, 40→40+0, 44→40+4",
+      "wrongAnswers": [
+        { "answer": "47 → 70 + 4", "why": "reversed the digits", "remedy": "In 47, which digit is in the tens place? That one becomes the big part." }
+      ],
+      "hints": ["The tens digit becomes the big part.", "40 has zero ones — find the partition with + 0."],
+      "reteach": { "say": "Four numbers, all using 4s and 7s and 0s — the PLACE decides the smash. 47 is forty and seven; 74 is seventy and four. Same digits, different smashes.", "block": { "type": "table", "headers": ["number", "smash"], "rows": [["47", "40 + 7"], ["74", "70 + 4"], ["40", "40 + 0"], ["44", "40 + 4"]] } }
+    },
+    {
+      "id": "l02-p07", "skill": "recombine parts into the whole", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "A number got smashed into 80 + 3. Someone lost a piece and rebuilt it as 38. What SHOULD it be?", "answer": 83 },
+      "expectedAnswer": "83",
+      "wrongAnswers": [
+        { "answer": "38", "why": "accepted the reversed rebuild", "remedy": "Check: does 38 smash into 80 + 3? Pull its tens out — 30, not 80." },
+        { "answer": "11", "why": "added 8 + 3", "remedy": "EIGHTY plus three — count on from 80." }
+      ],
+      "hints": ["Rebuild carefully: eighty… then three more.", "Check your answer by smashing it again — do you get 80 + 3 back?"],
+      "reteach": { "say": "Rebuild-and-check catches every mix-up: 80 + 3 → 83. Now smash 83 back: 80 and 3 — perfect match. 38 smashes to 30 and 8 — wrong pieces!", "block": { "type": "table", "headers": ["rebuild", "smash it back", "match?"], "rows": [["83", "80 + 3", "✓"], ["38", "30 + 8", "✗"]] } }
+    },
+    {
+      "id": "l02-p08", "skill": "non-standard partitions", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Stretch! 43 = 40 + 3. Which is ANOTHER true way to smash 43?", "options": ["30 + 13", "40 + 13", "30 + 3", "4 + 3"], "correct": 0, "explain": "Trade one ten for ten ones: 3 tens and 13 ones — 30 + 13 = 43." },
+      "expectedAnswer": "30 + 13",
+      "wrongAnswers": [
+        { "answer": "30 + 3", "why": "dropped ten when trading", "remedy": "You broke a rod into cubes — those ten cubes don't vanish. 30 + 3 rebuilds to 33, not 43." },
+        { "answer": "40 + 13", "why": "added cubes without removing a rod", "remedy": "Rebuild it: 40 + 13 = 53. Too big! If the ones grow by ten, the tens must shrink by one rod." }
+      ],
+      "hints": ["Break ONE rod into ten cubes — what changes?", "Rebuild each option — which one makes exactly 43?"],
+      "reteach": { "say": "Here's the magic trade: take 43 (4 rods, 3 cubes) and smash ONE rod into ten cubes. Now you have 3 rods and 13 cubes — 30 + 13. Still 43! This trade is the secret power you'll use for big subtractions later.", "block": { "type": "whiteboard", "title": "43 two ways", "animate": true, "elements": [ { "k": "text", "x": 25, "y": 8, "value": "40 + 3", "size": 6, "bold": true }, { "k": "rect", "x": 8, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "rect", "x": 13, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "rect", "x": 18, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "rect", "x": 23, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "dot", "x": 32, "y": 20, "color": "orange" }, { "k": "dot", "x": 36, "y": 20, "color": "orange" }, { "k": "dot", "x": 40, "y": 20, "color": "orange" }, { "k": "text", "x": 75, "y": 8, "value": "30 + 13", "size": 6, "bold": true, "color": "accent" }, { "k": "rect", "x": 58, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "rect", "x": 63, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "rect", "x": 68, "y": 14, "w": 3, "h": 20, "color": "blue", "fill": true }, { "k": "dot", "x": 76, "y": 16, "color": "red" }, { "k": "dot", "x": 80, "y": 16, "color": "red" }, { "k": "dot", "x": 84, "y": 16, "color": "red" }, { "k": "dot", "x": 88, "y": 16, "color": "red" }, { "k": "dot", "x": 92, "y": 16, "color": "red" }, { "k": "dot", "x": 76, "y": 22, "color": "red" }, { "k": "dot", "x": 80, "y": 22, "color": "red" }, { "k": "dot", "x": 84, "y": 22, "color": "red" }, { "k": "dot", "x": 88, "y": 22, "color": "red" }, { "k": "dot", "x": 92, "y": 22, "color": "red" }, { "k": "dot", "x": 76, "y": 28, "color": "orange" }, { "k": "dot", "x": 80, "y": 28, "color": "orange" }, { "k": "dot", "x": 84, "y": 28, "color": "orange" }, { "k": "text", "x": 50, "y": 50, "value": "One rod traded for ten cubes — still 43!", "size": 5, "color": "ink" } ] } }
+    },
+    {
+      "id": "l02-p09", "skill": "partition into tens and ones", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend says '64 = 6 + 4.' Are they right? Explain what went wrong.", "sample": "No — the 6 is six TENS, worth 60. 64 = 60 + 4. They split the digits instead of the values." },
+      "expectedAnswer": "No; the 6 is worth 60, so 64 = 60 + 4",
+      "wrongAnswers": [
+        { "answer": "Yes", "why": "shares the digits-not-values misconception", "remedy": "Rebuild their answer: 6 + 4 = 10. Is 64 the same as 10? What went missing?" }
+      ],
+      "hints": ["Rebuild 6 + 4 — what do you get?", "Where does the 6 sit in 64? What's it worth there?"],
+      "reteach": { "say": "The rebuild test never lies: 6 + 4 makes only 10 — we lost fifty-four! The 6 in 64 is six tens, sixty. 60 + 4 rebuilds to exactly 64.", "block": { "type": "table", "headers": ["smash", "rebuild", "match 64?"], "rows": [["6 + 4", "10", "✗ — lost 54!"], ["60 + 4", "64", "✓"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave partition and recombine items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the rods drawn and physically separated on the board, then a level-1 item (teen numbers).",
+    "masterySignal": "3+ correct across levels 2–3 including a zero-ones case (90/40) and one recombine item → mastery ≥ 0.8 for 'partitioning to 100'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why ('the tens value slipped' / 'digits, not values').",
+      "Go concrete: draw and separate the rods before writing anything.",
+      "One hint: 'Count only the rods, in tens.'",
+      "Re-ask with a teen number (16 = 10 + 6), build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame smashed quantities as the learner's interests (coins, stickers, game points). The 'rebuild to check' habit stays in every framing.",
+    "endOnSuccess": "Finish on a winnable item; praise the process — 'you rebuilt every number to check.'"
+  },
+
+  "differentiation": {
+    "support": "Always draw-then-separate the rods before writing the number sentence; stay on teen numbers until secure.",
+    "stretch": "Non-standard partitions (43 = 30 + 13; 76 = 60 + 16) and 'why does that still equal 43?'"
+  },
+  "extension": "Smash-and-rebuild race — partition five numbers, rebuild each, beat your own time.",
+  "assessmentEvidence": "Child partitions 2–3 numbers into tens + ones (including a 'tens and 0' case) and recombines them to check.",
+  "revisitLater": "Partitioning starter before Lesson 6 (it powers column addition); bring back 90 to keep the zero idea alive."
+}

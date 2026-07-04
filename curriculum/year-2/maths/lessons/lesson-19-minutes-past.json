@@ -1,0 +1,337 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u6-l19",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 6, "title": "Time to 5 minutes", "essentialQuestion": "How do we read the clock to the nearest 5 minutes, and when do we say 'past' or 'to'?" },
+  "lessonNumber": 19,
+  "kind": "lesson",
+  "topic": "Time",
+  "title": "Minutes past the hour",
+  "durationMin": 22,
+  "objectives": ["By the end, I can read 'minutes past' times by counting the minute hand in 5s."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "minute hand", "definition": "the LONG hand — it counts the minutes", "example": "the long hand on the 4 means 20 minutes" },
+    { "term": "hour hand", "definition": "the SHORT hand — it points to the hour", "example": "the short hand near the 7 means it's around 7 o'clock" },
+    { "term": "past", "definition": "minutes after the hour — the right-hand side of the clock", "example": "10 past 7" },
+    { "term": "quarter past", "definition": "15 minutes past — the minute hand on the 3", "example": "quarter past 2" },
+    { "term": "five minutes", "definition": "the jump between one clock number and the next, for the minute hand", "example": "from the 1 to the 2 is five minutes" },
+    { "term": "clockwise", "definition": "the direction the hands travel — round to the right", "example": "the minute hand sweeps clockwise from the 12" }
+  ],
+  "emphasize": [
+    "The clock's secret code: for the LONG hand, every number is worth 5 minutes — the 4 means 20, not 4.",
+    "Count round in 5s from the 12: 5, 10, 15, 20…",
+    "Pre-empt the two classic errors: reading the number as minutes ('4 minutes past'), and mixing up the minute hand and the hour hand."
+  ],
+  "analysis": {
+    "keyConcepts": ["the minute hand counts in 5s (each number = 5 minutes)", "the right side of the clock (12 round to 6) is 'past'", "quarter past = minute hand on 3 = 15 minutes", "long hand = minutes, short hand = hours"],
+    "misconceptions": [
+      "the number the minute hand points at IS the minutes ('the 4 means 4 minutes past')",
+      "reading the hour hand for minutes (or the minute hand for the hour) — hand mix-ups",
+      "counting in 5s but starting at the wrong place (counting the 12 as 5)"
+    ],
+    "hooks": ["Every number on this clock has a secret — it's worth more than it looks. How many minutes is the 4 really worth?"],
+    "priorKnowledge": ["o'clock and half past (Year 1)", "counting in 5s"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated clock faces on the whiteboard block", "practice blocks (rendered by the app)", "optional: a real geared teaching clock if one is handy — not required"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "BBC Bitesize",
+    "searchTerm": "telling the time to 5 minutes KS1",
+    "watchTask": "Every time the minute hand lands on a number, crack the code before the video does — shout the REAL number of minutes (the 3 means 15!).",
+    "afterCheck": { "question": "When the long hand points at a number, how do you work out the minutes?", "expectedAnswer": "Count in 5s round from the 12 — each number is worth 5 minutes" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame the clock as a secret code to crack; retrieve counting in 5s.",
+      "note": "Keep the mystery open — don't reveal that the 4 means 20 yet. The 5s chant is the key that will unlock it.",
+      "successCriteria": "Child continues the 5s count (5, 10, 15, 20, 25, 30) and offers a guess for the 4.",
+      "script": {
+        "say": "Every number on this clock has a secret — it's worth MORE than it looks. See the 4? When the long hand points at it, it doesn't mean four at all. How many minutes do you think it's really worth? Hold that guess! First, the code key — count in 5s with me: 5, 10… keep going!",
+        "adaptHints": "Take the guess seriously whatever it is. If 5s counting is shaky, chant it twice with fingers before moving on."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🕓🔐", "caption": "The clock code: every number hides its true worth" }
+      ],
+      "stuckProtocol": ["If counting in 5s is shaky: count fingers in fives together — one hand is 5, two hands are 10 — up to 30 before going on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Crack the code: the LONG hand counts minutes, each number is 5; sweep from 12 counting 5s; the right side is 'past'; 3 = quarter past.",
+      "note": "The animated clock is the concrete manipulative. Sweep slowly, landing on each number with the 5s count. Anchor: long = minutes, short = hours.",
+      "successCriteria": "Child hears the full sweep (5 at the 1 … 30 at the 6), sees 'past' on the right side, and hears the 4 decoded as 20.",
+      "script": {
+        "say": "Code cracked — watch! The LONG hand is the minute hand. As it sweeps round, every number it passes is worth 5 minutes. From the 12: at the 1 it's 5 past… at the 2, 10 past… at the 3 — special name, QUARTER past — 15 minutes. And this whole right-hand side, from the 12 round to the 6, we say 'past'. So the long hand on the 4: count 5, 10, 15, 20 — TWENTY minutes past! Was your guess close? The short hand is different — it's the hour hand, slow and steady, pointing at the hour.",
+        "adaptHints": "Refer back to the child's hook guess by name. Emphasise LONG and SHORT physically — stretch tall for the minute hand, crouch small for the hour hand."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "The clock code: count in 5s",
+          "animate": true,
+          "elements": [
+            { "k": "circle", "x": 50, "y": 31, "r": 25, "color": "ink" },
+            { "k": "text", "x": 50, "y": 12, "value": "12", "size": 4, "bold": true },
+            { "k": "text", "x": 60, "y": 14, "value": "1", "size": 4 },
+            { "k": "text", "x": 68, "y": 21, "value": "2", "size": 4 },
+            { "k": "text", "x": 70, "y": 32, "value": "3", "size": 4, "bold": true },
+            { "k": "text", "x": 68, "y": 43, "value": "4", "size": 4, "bold": true },
+            { "k": "text", "x": 60, "y": 50, "value": "5", "size": 4 },
+            { "k": "text", "x": 50, "y": 52, "value": "6", "size": 4 },
+            { "k": "text", "x": 40, "y": 50, "value": "7", "size": 4 },
+            { "k": "text", "x": 32, "y": 43, "value": "8", "size": 4 },
+            { "k": "text", "x": 30, "y": 32, "value": "9", "size": 4 },
+            { "k": "text", "x": 32, "y": 21, "value": "10", "size": 4 },
+            { "k": "text", "x": 40, "y": 14, "value": "11", "size": 4 },
+            { "k": "text", "x": 78, "y": 14, "value": "5", "size": 3, "color": "orange" },
+            { "k": "text", "x": 86, "y": 22, "value": "10", "size": 3, "color": "orange" },
+            { "k": "text", "x": 88, "y": 32, "value": "15", "size": 3, "color": "orange", "bold": true },
+            { "k": "text", "x": 86, "y": 43, "value": "20", "size": 3, "color": "orange", "bold": true },
+            { "k": "text", "x": 78, "y": 51, "value": "25", "size": 3, "color": "orange" },
+            { "k": "text", "x": 50, "y": 59, "value": "30", "size": 3, "color": "orange" },
+            { "k": "line", "x1": 50, "y1": 31, "x2": 64, "y2": 40, "color": "blue", "width": 2, "arrow": true },
+            { "k": "text", "x": 20, "y": 8, "value": "LONG hand = minutes", "size": 4, "color": "blue", "bold": true },
+            { "k": "line", "x1": 50, "y1": 31, "x2": 44, "y2": 24, "color": "red", "width": 2 },
+            { "k": "text", "x": 20, "y": 14, "value": "short hand = hour", "size": 3, "color": "red" },
+            { "k": "text", "x": 50, "y": 4, "value": "Long hand on 4 → 5, 10, 15, 20 → 20 past!", "size": 4, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared decoding: the child directs the minute hand to the 3 and counts the 5s aloud; then to the 2.",
+      "note": "The child does the counting; the character only confirms. Land 'quarter past' as the special name for 15.",
+      "successCriteria": "Child counts '5, 10, 15' for the 3 and names it quarter past; then reads the 2 as 10 past.",
+      "script": {
+        "say": "Your turn to drive the clock! Point the long hand at the 3 and count the code with me from the 12: 5… 10… 15! Fifteen minutes past — and that one has a special name: QUARTER past, because the hand has gone a quarter of the way round. Now slide it back to the 2 — count again… so that's how many minutes past?",
+        "adaptHints": "Pause for the child's counting. If they whisper-count, celebrate it — touching each number while counting is exactly the method."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "The minute hand points at the 3. How many minutes past is that?",
+          "options": ["15 — quarter past", "3 minutes past", "30 minutes past", "45 minutes past"],
+          "correct": 0,
+          "explain": "Count in 5s round to the 3: 5, 10, 15. Fifteen minutes — quarter past."
+        }
+      ],
+      "check": {
+        "question": "Minute hand on the 3 — how many minutes past?",
+        "expectedAnswer": "15 minutes past — quarter past",
+        "wrongAnswers": [
+          { "answer": "3 minutes past", "why": "read the number as minutes — didn't use the 5s code", "remedy": "The code! Every number is worth 5. Count round: 5, 10… where do you land on the 3?" },
+          { "answer": "30 minutes past", "why": "doubled instead of counting 5s, or muddled with half past", "remedy": "Count it slowly on the clock, one number at a time: the 1 is 5, the 2 is 10, the 3 is…?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "The diagnostic: minute hand on the 4 — is it 20 past or '4 minutes past'? Plus a hand mix-up catch.",
+      "note": "Probe after a correct answer: 'How did you count it?' The counting method is the evidence, not the answer alone.",
+      "successCriteria": "Child answers 20 minutes past and explains the 5s count; identifies the LONG hand as the minute hand.",
+      "script": {
+        "say": "Code-cracker's exam! The long hand points to the 4. How many minutes past? … And tell me — how did you count it? One more: which hand were you reading — the long one or the short one?",
+        "adaptHints": "If the child answers instantly, stretch: 'What about the 5? And the 6 — do you know its special name?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "The MINUTE hand (the long one) points at the 4. How many minutes past?",
+          "options": ["20 minutes past", "4 minutes past", "40 minutes past", "quarter past"],
+          "correct": 0,
+          "explain": "Count in 5s round to the 4: 5, 10, 15, 20. The 4 is worth 20 minutes for the long hand."
+        }
+      ],
+      "check": {
+        "question": "The minute hand points to 4 — how many minutes past?",
+        "expectedAnswer": "20 minutes past (counted 5, 10, 15, 20)",
+        "wrongAnswers": [
+          { "answer": "4 minutes past", "why": "read the number as minutes, not the 5s code", "remedy": "Crack the code — count in 5s round to the 4: 5, 10, 15… one more number lands on?" },
+          { "answer": "read the short hand instead", "why": "hand mix-up — used the hour hand for minutes", "remedy": "The LONG hand counts minutes. Point to the long one — which number is IT touching?" },
+          { "answer": "25 past", "why": "counted the 12 as 5 — started the count too early", "remedy": "The 12 is the start line — it's zero! Start counting AT the 1: 5, 10…" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Read set faces (5, 10, quarter, 25 past) and SET the clock ('show me 20 past'); interleave 'show me when school starts'.",
+      "note": "Director draws from the practiceBank, start level 2. Both directions matter: reading a face AND setting one. On a miss, count the 5s round the drawn clock together (CPA step down).",
+      "successCriteria": "Child reads 3+ 'past' times correctly, including quarter past, and sets one time themselves.",
+      "script": {
+        "say": "Practice time, code-cracker! I'll show you clock faces — you crack them. Then we swap: I say a time and YOU tell me where the long hand goes. Ready? Remember: count the 5s, and check you're reading the LONG hand!",
+        "adaptHints": "Link times to the child's real day — 'that's when you have breakfast!' Use their interests for the framing, never change the times."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the number got read as minutes' or 'the hands swapped jobs.'",
+        "Go concrete: count round the drawn clock together in 5s, touching each number.",
+        "One hint: 'Each number is worth 5.'",
+        "Re-ask with the minute hand on the 2 (just 5, 10), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the code and the 'past' side in their own words; end on an earned success.",
+      "note": "Child-led recall — the character listens. Tee up next lesson's cliffhanger: what happens after the 6?",
+      "successCriteria": "Child says each number is worth 5 minutes and that the right side is 'past'.",
+      "script": {
+        "say": "Tell me the clock's secret code — what's each number worth for the long hand? … And which side of the clock is the 'past' side? … Exactly! You cracked the 5s code and stopped saying '4 minutes' — that's great careful counting. Next time, a new mystery: something funny happens when the long hand goes PAST the 6…",
+        "adaptHints": "Praise the specific process observed: counting in 5s aloud, checking which hand is which, self-correcting."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l19-p01", "skill": "know the hands", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which hand counts the MINUTES?", "options": ["the long hand", "the short hand", "both hands", "the red one"], "correct": 0, "explain": "Long hand = minutes, short hand = hours. Long words, long hand: MINUTE hand is the long one." },
+      "expectedAnswer": "the long hand",
+      "wrongAnswers": [
+        { "answer": "the short hand", "why": "hand mix-up — the classic swap", "remedy": "Try this trick: 'minute' is a longer word than 'hour' — and the MINUTE hand is the LONGER hand." },
+        { "answer": "both hands", "why": "hasn't separated the hands' jobs", "remedy": "Each hand has one job. The slow short one points at the hour; the busy long one counts the…?" }
+      ],
+      "hints": ["'Minute' is the longer word — and the longer hand.", "The short, slow hand does the hours."],
+      "reteach": { "say": "Two workers on every clock. The SHORT hand is slow and steady — it just points at the hour. The LONG hand is busy — it races round counting minutes. Longer word, longer hand: MINUTE hand.", "block": { "type": "table", "headers": ["hand", "job"], "rows": [["long", "counts MINUTES"], ["short", "points at the HOUR"]], "caption": "Long = minutes, short = hour" } }
+    },
+    {
+      "id": "l19-p02", "skill": "count minutes in 5s", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The minute hand points at the 1. How many minutes past?", "options": ["5 minutes past", "1 minute past", "10 minutes past", "15 minutes past"], "correct": 0, "explain": "The first number after the 12 is worth one jump of 5: five minutes past." },
+      "expectedAnswer": "5 minutes past",
+      "wrongAnswers": [
+        { "answer": "1 minute past", "why": "read the number as minutes", "remedy": "The code! Each number is worth 5. The hand has made one jump — how big is one jump?" },
+        { "answer": "10 minutes past", "why": "counted the 12 as the first 5", "remedy": "The 12 is the start line — zero. The first REAL jump lands on the 1 and is worth…?" }
+      ],
+      "hints": ["Each number is worth 5.", "One jump from the 12 — one five."],
+      "reteach": { "say": "The 12 is the start line, worth zero. Every jump to the next number adds 5 minutes. One jump lands on the 1: five minutes past. That's the whole code — jumps of five!", "block": { "type": "numberLine", "min": 0, "max": 30, "step": 5, "highlight": 5, "marks": [{ "value": 0, "label": "12 (start)" }, { "value": 5, "label": "the 1" }] } }
+    },
+    {
+      "id": "l19-p03", "skill": "count minutes in 5s", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "The minute hand points at the 4. Count in 5s — how many minutes past?", "answer": 20 },
+      "expectedAnswer": "20",
+      "wrongAnswers": [
+        { "answer": "4", "why": "read the number as minutes — the lesson's key trap", "remedy": "Count the code round to the 4: 5, 10, 15… one more?" },
+        { "answer": "25", "why": "counted the 12 as 5", "remedy": "Start counting AT the 1, not the 12: the 1 is 5, the 2 is 10… where does the 4 land?" }
+      ],
+      "hints": ["Count in 5s: 5, 10, 15…", "Four numbers, four fives."],
+      "reteach": { "say": "The 4 is four jumps from the start, and every jump is 5: count on your fingers — 5, 10, 15, 20. The 4 means TWENTY for the long hand. Four fives are twenty — the clock is secretly your 5 times table!", "block": { "type": "numberLine", "min": 0, "max": 30, "step": 5, "highlight": 20, "marks": [{ "value": 20, "label": "the 4" }] } }
+    },
+    {
+      "id": "l19-p04", "skill": "quarter past", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The minute hand is on the 3. What do we call this time?", "options": ["quarter past", "3 minutes past", "half past", "quarter to"], "correct": 0, "explain": "The 3 is 15 minutes (5, 10, 15) — a quarter of the way round the clock. We say 'quarter past'." },
+      "expectedAnswer": "quarter past",
+      "wrongAnswers": [
+        { "answer": "3 minutes past", "why": "read the number as minutes", "remedy": "Count the code: 5, 10, 15. Fifteen minutes — and 15 minutes past has a special name. The hand is a quarter of the way round…" },
+        { "answer": "half past", "why": "muddled quarter and half", "remedy": "Half past is when the hand is HALFWAY round — pointing straight down at the 6. Is it there yet, or only a quarter of the way?" }
+      ],
+      "hints": ["The hand has gone a quarter of the way round.", "5, 10, 15 — fifteen minutes has a special name."],
+      "reteach": { "say": "Picture the clock as a cake cut into four quarters. At the 3, the minute hand has eaten exactly one quarter of the circle — 15 minutes. So we say QUARTER PAST. At the 6 it's eaten half — HALF PAST. The names tell you how far round the hand has travelled.", "block": { "type": "emojiViz", "emojis": "🕒 = ¼ round = quarter past", "caption": "On the 3: a quarter of the way round" } }
+    },
+    {
+      "id": "l19-p05", "skill": "count minutes in 5s", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match where the minute hand points to the time.", "pairs": [ { "left": "on the 1", "right": "5 past" }, { "left": "on the 2", "right": "10 past" }, { "left": "on the 3", "right": "quarter past" }, { "left": "on the 5", "right": "25 past" } ] },
+      "expectedAnswer": "1→5 past, 2→10 past, 3→quarter past, 5→25 past",
+      "wrongAnswers": [
+        { "answer": "on the 5 → 5 past", "why": "matched the digit instead of counting 5s", "remedy": "Tempting — but crack the code! Count to the 5: 5, 10, 15, 20… one more jump?" },
+        { "answer": "on the 3 → 10 past", "why": "miscounted the jumps", "remedy": "Touch each number as you count: the 1 is 5, the 2 is 10, the 3 is…?" }
+      ],
+      "hints": ["Count 5s up to each number.", "The number × 5 gives the minutes."],
+      "reteach": { "say": "Each clock number is jumps-of-five from the start: the 1 is one five (5 past), the 2 is two fives (10 past), the 3 is three fives (quarter past), the 5 is five fives — 25 past. The digit tells you HOW MANY fives, never the minutes themselves.", "block": { "type": "table", "headers": ["hand on", "count", "time"], "rows": [["1", "5", "5 past"], ["2", "5, 10", "10 past"], ["3", "5, 10, 15", "quarter past"], ["5", "5, 10, 15, 20, 25", "25 past"]], "caption": "Number × 5 = minutes past" } }
+    },
+    {
+      "id": "l19-p06", "skill": "know the hands", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The SHORT hand points at the 4 and the LONG hand points at the 12. What time is it?", "options": ["4 o'clock", "20 minutes past", "12 o'clock", "quarter past 4"], "correct": 0, "explain": "The short hand gives the hour (4) and the long hand on the 12 means zero minutes: exactly 4 o'clock." },
+      "expectedAnswer": "4 o'clock",
+      "wrongAnswers": [
+        { "answer": "20 minutes past", "why": "applied the 5s code to the HOUR hand", "remedy": "The 5s code is only for the LONG hand — and the long hand is on the 12, the start line. Which hand tells the hour?" },
+        { "answer": "12 o'clock", "why": "read the hour from the long hand", "remedy": "Hands swapped! The SHORT hand does hours — which number is the short one touching?" }
+      ],
+      "hints": ["Long hand on 12 = zero minutes — an o'clock time.", "The short hand tells you WHICH o'clock."],
+      "reteach": { "say": "Each hand keeps its own job. Long hand on the 12: zero minutes — it's an o'clock time. Now ask the short hand which hour: it points at 4. Four o'clock. Only the long hand uses the 5s code; the short hand just says its number.", "block": { "type": "table", "headers": ["hand", "points at", "meaning"], "rows": [["long (minutes)", "12", "0 minutes — o'clock"], ["short (hour)", "4", "the hour is 4"]], "caption": "4 o'clock — each hand, its own job" } }
+    },
+    {
+      "id": "l19-p07", "skill": "read past times with the hour", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! The long hand is on the 5 and the short hand is just past the 7. How many minutes past 7 is it?", "answer": 25 },
+      "expectedAnswer": "25",
+      "wrongAnswers": [
+        { "answer": "5", "why": "read the number as minutes", "remedy": "The code: count in 5s to the 5 — 5, 10, 15, 20…?" },
+        { "answer": "35", "why": "counted past the hand — too many fives", "remedy": "Stop exactly where the hand points. Touch each number: 1 is 5, 2 is 10… land on the 5 and stop." }
+      ],
+      "hints": ["Count the 5s to the 5: how many fives?", "The short hand near 7 gives the hour — 25 past 7."],
+      "reteach": { "say": "Two questions, one for each hand. Long hand on the 5: count 5, 10, 15, 20, 25 — twenty-five minutes past. Short hand just past the 7: the hour is 7. Put them together: 25 past 7. (The short hand creeps forward as the minutes tick by — that's why it's PAST the 7, not on it.)", "block": { "type": "steps", "title": "Read the whole time", "steps": ["Long hand on 5 → 5, 10, 15, 20, 25 minutes", "Short hand just past 7 → the hour is 7", "Say it: 25 past 7"] } },
+      "interestSlots": ["breakfast time", "football practice"]
+    },
+    {
+      "id": "l19-p08", "skill": "count minutes in 5s", "level": 3,
+      "block": { "type": "trueFalse", "statement": "When the long hand points at the 4, it means 4 minutes past.", "correct": false, "explain": "The long hand speaks in 5s: the 4 is four jumps of five — 20 minutes past, not 4." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — number read as minutes", "remedy": "Between each number there are 5 little minute marks. Count the little marks from the 12 to the 1 — how many? So by the 4 you've counted…?" }
+      ],
+      "hints": ["Each number is worth 5 minutes, not 1.", "Count: 5, 10, 15, 20."],
+      "reteach": { "say": "Here's WHY the 4 can't mean 4: look between any two numbers — there are five tiny minute marks hiding there. The minute hand needs a whole hour, 60 minutes, to get all the way round 12 numbers — and 12 × 5 = 60. So each number must be worth 5. The 4 is 4 fives: twenty!", "block": { "type": "numberLine", "min": 0, "max": 60, "step": 5, "highlight": 20, "marks": [{ "value": 20, "label": "the 4 = 20 min" }, { "value": 60, "label": "full circle = 60 min" }] } }
+    },
+    {
+      "id": "l19-p09", "skill": "read past times with the hour", "level": 3,
+      "block": { "type": "shortText", "prompt": "Your friend looks at a clock where the long hand is on the 2 and says 'it's 2 minutes past.' Explain the clock's secret code to them.", "sample": "The numbers are for hours — for minutes, each number is worth 5. Count in 5s: the 1 is 5, the 2 is 10. So it's 10 minutes past, not 2." },
+      "expectedAnswer": "Each number is worth 5 minutes for the long hand; count 5, 10 — it's 10 past",
+      "wrongAnswers": [
+        { "answer": "They're right, it's 2 minutes past", "why": "shares the number-as-minutes misconception", "remedy": "Count the tiny minute marks from the 12 to the 2 — are there really only 2?" },
+        { "answer": "It's 2 o'clock", "why": "read the hour from the long hand", "remedy": "The long hand never tells the hour — that's the short hand's job. What does the long hand count, and in what size jumps?" }
+      ],
+      "hints": ["What is each number worth for the long hand?", "Count the 5s: the 1 is 5, so the 2 is…?"],
+      "reteach": { "say": "Teach it the way you cracked it: the clock numbers wear disguises. For the SHORT hand they mean hours — plain numbers. But for the LONG hand each one is worth FIVE minutes. On the 2, count the code: 5, 10. Ten minutes past. Whoever taught the clock to keep secrets made every number worth more than it looks!", "block": { "type": "table", "headers": ["long hand on", "looks like", "really means"], "rows": [["2", "2", "10 minutes"], ["4", "4", "20 minutes"], ["6", "6", "30 minutes — half past"]], "caption": "The clock code: × 5 for the long hand" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave reading faces, setting times, and hand-identification items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach counting the 5s round the drawn clock together, touching each number (CPA step down), then a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including the 4-means-20 case and quarter past, with the 5s count explained at least once → mastery ≥ 0.8 for 'minutes past the hour'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why (number read as minutes / hands swapped / counted the 12 as 5).",
+      "Go concrete: count round the drawn clock in 5s together, touching each number.",
+      "One hint: 'Each number is worth 5.'",
+      "Re-ask with the minute hand on the 2 (just 5, 10), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Anchor times to the learner's real day (breakfast, school, their club) and interests — 'the match kicks off at quarter past 3!' Never change the times being read.",
+    "endOnSuccess": "Finish with a face the child can win (minute hand on the 1 or 2), then specific process praise: what they DID (counted in 5s, checked the long hand, self-corrected) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Count in 5s round to the number every time — '4 means 20'; imagine minute-number cards pinned on each clock number (the whiteboard shows them in orange); stick to 5/10/15.",
+    "stretch": "Read 25 past and 20 past from set faces including the hour ('25 past 7'); say the matching digital-ish time aloud ('7:25'); explain WHY each number is worth 5 (60 minutes ÷ 12 numbers)."
+  },
+  "extension": "Make a 'my day' clock — set the (virtual or real) clock to breakfast time, school time and lunch time, reading each one as '___ past ___'.",
+  "assessmentEvidence": "Child reads 'minutes past' times to 5 minutes including quarter past, counting in 5s, and identifies the minute hand correctly when the hands could be confused.",
+  "revisitLater": "'Minutes to' next lesson (L20) builds straight on this — the 5s code carries over; bring back '4 means 20' as a retrieval starter; mixed past/to reading returns in Unit 8."
+}

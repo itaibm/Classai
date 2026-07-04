@@ -1,0 +1,354 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l10",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 10,
+  "kind": "lesson",
+  "topic": "Multiplication and division",
+  "title": "The 2, 5 and 10 times tables",
+  "durationMin": 28,
+  "objectives": ["By the end, I can recall facts from the 2, 5 and 10 times tables."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "times table", "definition": "a family of multiplication facts that all use the same number", "example": "the 5 times table: 5, 10, 15, 20…" },
+    { "term": "multiply (×)", "definition": "make groups of the same size and find the total", "example": "3 × 5 means 3 groups of 5" },
+    { "term": "fact", "definition": "one multiplication you know by heart", "example": "5 × 5 = 25" },
+    { "term": "array", "definition": "objects arranged in equal rows", "example": "4 rows of 5 dots shows 4 × 5" },
+    { "term": "recall", "definition": "say it fast, from memory, without counting", "example": "2 × 10? Twenty — instantly!" }
+  ],
+  "emphasize": [
+    "A times table is just repeated skip-counting written as facts — five 5s (5, 10, 15, 20, 25) IS 5 × 5.",
+    "Use the count or the array to FIND a fact, then aim to RECALL it from memory.",
+    "Keep commutativity alive: 2 × 10 = 10 × 2 — turning a fact around never changes the total."
+  ],
+  "analysis": {
+    "keyConcepts": ["times tables as frozen skip-counts", "recall vs working out", "commutativity (a × b = b × a)", "last-digit patterns: 2s are even, 5s end in 0 or 5, 10s end in 0"],
+    "misconceptions": [
+      "reading × as + (so 5 × 5 = 10)",
+      "recalculating a turned-around fact from scratch instead of using commutativity",
+      "thinking tables are pure rote with no meaning — losing the skip-count and array that live inside each fact"
+    ],
+    "hooks": ["Count five 5p coins — that's a times-table fact in disguise!"],
+    "priorKnowledge": ["equal groups and arrays (Lesson 9)", "skip-counting in 2s, 5s and 10s (Lesson 5)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated number-line jumps with fact labels", "array and coin visuals", "match-pairs fact game", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=EemjeA2Djjw",
+    "title": "The Counting by Fives Song | Counting Songs | Scratch Garden",
+    "channel": "Scratch Garden",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Sing along and count in 5s with the song. Every number you land on is a 5-times fact — when you hear 25, shout '5 × 5!'",
+    "afterCheck": { "question": "Counting in fives, what comes after 20 — and which times-table fact is that?", "expectedAnswer": "25 — that's 5 × 5" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Reveal that a coin count IS a times-table fact; retrieve equal groups from Lesson 9.",
+      "note": "The reveal — 'you just did a times-table fact in disguise' — is the hook. Don't teach yet.",
+      "successCriteria": "Child counts 5, 10, 15, 20, 25 along and says 3 × 5 means '3 groups of 5'.",
+      "script": {
+        "say": "Count these five 5p coins with me: 5, 10, 15, 20, 25. Guess what — you just did a times-table fact in disguise! Five 5s is 5 × 5 = 25. Today we collect these facts so they pop into your head super-fast. Quick memory check first: what does 3 × 5 mean?",
+        "adaptHints": "Swap coins for the child's favourite collectible in packs of 5 (sticker packs, gems). Listen for '3 groups of 5'; if shaky, redraw a quick 3-by-5 array."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🪙 🪙 🪙 🪙 🪙", "caption": "5, 10, 15, 20, 25 — five 5s = 5 × 5 = 25!" }
+      ],
+      "stuckProtocol": ["If '3 × 5' draws a blank: draw 3 rows of 5 dots — 'three groups of five — count them in fives: 5, 10, 15.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Build the 5 times table from skip-counting, one jump per fact; show the patterns in the 2s and 10s.",
+      "note": "Each jump on the line gets its fact label — 'a fact is just the skip-count, frozen'. Then the shortcut patterns: 10s end in 0, 2s are the doubles.",
+      "successCriteria": "Child sees jumps of 5 labelled 1×5, 2×5, 3×5… and can say the pattern for the 10s (they all end in 0).",
+      "script": {
+        "say": "I'll build the 5 times table from skip-counting. Watch my jumps. One 5 is 5. Two 5s — 10. Three 5s — 15. Each jump is a brand-new fact: 1 × 5 = 5, 2 × 5 = 10, 3 × 5 = 15, 4 × 5 = 20, 5 × 5 = 25. A fact is just the skip-count, frozen! The 10s are even easier — they ALL end in 0: 10, 20, 30, 40. And the 2s? They're the doubles you already know: 2, 4, 6, 8. Find a fact by counting… then remember it, so next time it just pops out.",
+        "adaptHints": "Say the skip-count rhythmically, like a chant. If the child joins in, let them lead the last two jumps."
+      },
+      "blocks": [
+        {
+          "type": "numberLine",
+          "min": 0,
+          "max": 30,
+          "step": 5,
+          "highlight": 25,
+          "marks": [
+            { "value": 5, "label": "1×5" },
+            { "value": 10, "label": "2×5" },
+            { "value": 15, "label": "3×5" },
+            { "value": 20, "label": "4×5" },
+            { "value": 25, "label": "5×5" }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["table", "the pattern", "say it"],
+          "rows": [
+            ["2s", "the doubles — all even", "2, 4, 6, 8, 10…"],
+            ["5s", "end in 0 or 5", "5, 10, 15, 20, 25…"],
+            ["10s", "all end in 0", "10, 20, 30, 40…"]
+          ],
+          "caption": "Every table hides a pattern"
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 15],
+      "goal": "Match facts to arrays and totals together; the child confirms each with a skip-count.",
+      "note": "The child does the matching; the character narrates the array ('4 rows of 5'). Confirm 4 × 5 on the count: 5, 10, 15, 20 — then jump tables: 'so what's 4 × 10?'",
+      "successCriteria": "Child matches the facts correctly and answers 4 × 5 = 20 and 4 × 10 = 40.",
+      "script": {
+        "say": "Let's match facts to their answers. Here's 4 × 5 — look at my array: 4 rows of 5 dots. Count the rows in fives with me: 5, 10, 15, 20. So 4 × 5 = 20. Now you match the rest — and here's the clever bit: once you know 4 × 5 = 20, what do you think 4 × 10 is? The jumps are twice as big!",
+        "adaptHints": "Pause for each match. If the child counts every dot one by one, nudge: 'count a whole ROW at a time — 5, 10, 15…'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵", "caption": "4 rows of 5 — count in fives: 5, 10, 15, 20" },
+        {
+          "type": "matchPairs",
+          "prompt": "Match each fact to its total.",
+          "pairs": [
+            { "left": "4 × 5", "right": "20" },
+            { "left": "4 × 10", "right": "40" },
+            { "left": "3 × 2", "right": "6" },
+            { "left": "6 × 10", "right": "60" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "What is 4 × 5, and what is 4 × 10?",
+        "expectedAnswer": "20, and 40",
+        "wrongAnswers": [
+          { "answer": "9 (for 4 × 5)", "why": "read × as + and added 4 + 5", "remedy": "It's 4 GROUPS of 5, not 4 plus 5. Count the rows in fives: 5, 10, 15…" },
+          { "answer": "20 for both", "why": "didn't notice the jump size doubled for the 10s", "remedy": "4 × 10 is four jumps of TEN. Count them: 10, 20, 30…" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [15, 18],
+      "goal": "Reveal whether the child uses commutativity and can recall (or quickly find) 5 × 5.",
+      "note": "The key diagnostic: does the child answer 10 × 2 instantly from 2 × 10, or start recalculating from scratch?",
+      "successCriteria": "Child answers 10 × 2 = 20 without recounting and gives 5 × 5 = 25 (recalled or found by skip-counting).",
+      "script": {
+        "say": "Quick-fire time! If 2 × 10 = 20… what is 10 × 2? … And one more: what is 5 × 5? After you answer, tell me — how could you CHECK 5 × 5 super-fast?",
+        "adaptHints": "If the child answers 10 × 2 instantly, celebrate the shortcut by name: 'you turned the fact around — nothing to work out!'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "If 2 × 10 = 20, what is 10 × 2?",
+          "options": ["20 — same total, just turned around", "40 — it doubles", "12 — add them", "You have to count it all again"],
+          "correct": 0,
+          "explain": "Turning a multiplication around never changes the total: 2 × 10 = 10 × 2 = 20. Picture the array rotating — same dots!"
+        }
+      ],
+      "check": {
+        "question": "If 2 × 10 = 20, what is 10 × 2? And what is 5 × 5?",
+        "expectedAnswer": "20; and 25 (check 5 × 5 by counting in 5s five times: 5, 10, 15, 20, 25)",
+        "wrongAnswers": [
+          { "answer": "recalculates 10 × 2 from scratch", "why": "not using commutativity — treats the turned fact as brand new", "remedy": "You already know 2 × 10! Turning it doesn't change the total — picture the array spinning round." },
+          { "answer": "5 × 5 = 10", "why": "read × as + and added 5 + 5", "remedy": "Five GROUPS of 5, not 5 plus 5 — skip-count them: 5, 10, 15…" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [18, 25],
+      "goal": "Quick-fire recall across the 2s, 5s and 10s; find unknown facts by skip-counting, then try to remember them.",
+      "note": "Director draws from the practiceBank, start level 2. For any fact the child can't recall, they FIND it on the number line, then the director re-asks the same fact a minute later to push it into memory. Finish with a beat-your-time round if secure.",
+      "successCriteria": "Child answers 4+ mixed facts correctly, including one commutative pair, with at least two recalled instantly.",
+      "script": {
+        "say": "Practice time — let's make these facts pop! I'll fire questions, you fire back answers. If one won't pop out, no problem: we skip-count to FIND it, then trap it in your memory for next time. Ready? Let's see how fast you are!",
+        "adaptHints": "Frame the speed round with the child's interests (football rapid-fire, rocket launch countdown). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'this fact isn't memorised yet — that's normal.'",
+        "Go concrete: skip-count along the number line all the way to it.",
+        "One hint: 'Start from a fact you DO know and jump on — 5 × 5 = 25, so 6 × 5 is one more jump.'",
+        "Re-ask a nearby easy fact, then return to this one.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [25, 28],
+      "goal": "Child names a fact they now own; end on an earned win.",
+      "note": "Child-led — the character listens. The named fact becomes tomorrow's warm-up starter.",
+      "successCriteria": "Child states at least one 2/5/10 fact from memory without counting.",
+      "script": {
+        "say": "Last job, champion: tell me ONE fact you can now say without any counting at all. … Yes! That fact is yours forever. You used the facts you already knew to jump to new ones — that's the smart way to learn tables, and it works for every table you'll ever meet.",
+        "adaptHints": "Praise the specific process observed: deriving from known facts, using the turn-around trick, skip-counting to check."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l10-p01", "skill": "recall 2/5/10 facts", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "2 × 5 = ? (Count the jumps: 5, 10)", "options": ["10", "7", "25"], "correct": 0, "explain": "Two groups of 5 — skip-count: 5, 10." },
+      "expectedAnswer": "10",
+      "wrongAnswers": [
+        { "answer": "7", "why": "read × as + and added 2 + 5", "remedy": "It's 2 GROUPS of 5. Jump twice on the line: 5… 10." },
+        { "answer": "25", "why": "grabbed a nearby fact (5 × 5)", "remedy": "How many jumps of 5 do we need? Just two — count them." }
+      ],
+      "hints": ["Two jumps of 5.", "Skip-count: 5, then one more jump."],
+      "reteach": { "say": "Let's see it: two coins, 5p each. Count: 5… 10. Two 5s make 10, so 2 × 5 = 10.", "block": { "type": "emojiViz", "emojis": "🪙 🪙", "caption": "2 × 5 = 5, 10 → 10" } }
+    },
+    {
+      "id": "l10-p02", "skill": "recall 2/5/10 facts", "level": 1,
+      "block": { "type": "fillBlank", "text": "Count in tens: 10, 20, ___. So 3 × 10 = ___ too!", "answer": "30", "wordBank": ["30", "21", "13"] },
+      "expectedAnswer": "30",
+      "wrongAnswers": [
+        { "answer": "21", "why": "counted on 1 instead of jumping 10", "remedy": "Each jump is a whole TEN. After 20, one more jump of ten lands on…?" },
+        { "answer": "13", "why": "added 3 + 10", "remedy": "It's 3 groups of 10, not 3 plus 10. Count the jumps: 10, 20…" }
+      ],
+      "hints": ["Every 10s answer ends in 0.", "Three jumps of ten: 10, 20, then…?"],
+      "reteach": { "say": "The 10s table is the friendliest — it's just counting in tens with a 0 on the end. Three tens: 10, 20, 30. So 3 × 10 = 30.", "block": { "type": "numberLine", "min": 0, "max": 40, "step": 10, "highlight": 30, "marks": [{ "value": 10, "label": "1×10" }, { "value": 20, "label": "2×10" }, { "value": 30, "label": "3×10" }] } }
+    },
+    {
+      "id": "l10-p03", "skill": "recall 2/5/10 facts", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "6 × 5 = ?", "answer": 30 },
+      "expectedAnswer": "30",
+      "wrongAnswers": [
+        { "answer": "11", "why": "added 6 + 5", "remedy": "Six GROUPS of 5 — skip-count them on your fingers: 5, 10, 15…" },
+        { "answer": "35", "why": "one jump too many (landed on 7 × 5)", "remedy": "Count the jumps on your fingers — you need exactly six fives." }
+      ],
+      "hints": ["You know 5 × 5 = 25 — jump ONE more five.", "Count in 5s six times, one finger per jump."],
+      "reteach": { "say": "Start from a fact you own: 5 × 5 = 25. Six 5s is just one more jump: 25… 30. So 6 × 5 = 30. Jumping on from a known fact beats counting from zero every time!", "block": { "type": "numberLine", "min": 0, "max": 40, "step": 5, "highlight": 30, "marks": [{ "value": 25, "label": "5×5" }, { "value": 30, "label": "6×5" }] } }
+    },
+    {
+      "id": "l10-p04", "skill": "recall 2/5/10 facts", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "4 × 10 = ?", "answer": 40 },
+      "expectedAnswer": "40",
+      "wrongAnswers": [
+        { "answer": "14", "why": "added 4 + 10", "remedy": "Four whole TENS — count them: 10, 20, 30…" },
+        { "answer": "44", "why": "pattern slip — stuck the 4 on twice", "remedy": "Skip-count four tens on your fingers: 10, 20, 30, 40. Where do you land?" }
+      ],
+      "hints": ["The 10s all end in 0.", "Count four tens: 10, 20, 30…"],
+      "reteach": { "say": "Four ten-pence coins: 10, 20, 30, 40. Four tens make forty — and see the shortcut? 4 × 10 just puts a 0 after the 4.", "block": { "type": "emojiViz", "emojis": "🪙 🪙 🪙 🪙", "caption": "4 × 10 = 10, 20, 30, 40 → 40" } }
+    },
+    {
+      "id": "l10-p05", "skill": "recall 2/5/10 facts", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "7 × 2 = ?", "options": ["14", "9", "72", "12"], "correct": 0, "explain": "Seven 2s are the doubles count: 2, 4, 6, 8, 10, 12, 14." },
+      "expectedAnswer": "14",
+      "wrongAnswers": [
+        { "answer": "9", "why": "added 7 + 2", "remedy": "Seven GROUPS of 2 — count in 2s: 2, 4, 6…" },
+        { "answer": "72", "why": "wrote the digits side by side", "remedy": "We're counting seven pairs, not gluing digits. Count: 2, 4, 6, 8…" }
+      ],
+      "hints": ["Count in 2s seven times — one finger per jump.", "7 × 2 is double 7."],
+      "reteach": { "say": "Seven pairs of socks! Count them in twos: 2, 4, 6, 8, 10, 12, 14. Seven 2s make 14 — and that's exactly double 7.", "block": { "type": "emojiViz", "emojis": "🧦🧦 🧦🧦 🧦🧦 🧦🧦 🧦🧦 🧦🧦 🧦🧦", "caption": "7 × 2 = 14 — the doubles count" } }
+    },
+    {
+      "id": "l10-p06", "skill": "recall 2/5/10 facts", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each fact to its total.", "pairs": [ { "left": "3 × 2", "right": "6" }, { "left": "6 × 10", "right": "60" }, { "left": "7 × 5", "right": "35" }, { "left": "9 × 2", "right": "18" } ] },
+      "expectedAnswer": "3×2→6, 6×10→60, 7×5→35, 9×2→18",
+      "wrongAnswers": [
+        { "answer": "7 × 5 → 60", "why": "5s and 10s muddled — jumped in tens", "remedy": "The 5s end in 0 OR 5, and the jumps are small. Count seven 5s: 5, 10, 15…" },
+        { "answer": "9 × 2 → 6", "why": "guessed without counting", "remedy": "Nine 2s is the doubles count, nine jumps: 2, 4, 6, 8… keep going!" }
+      ],
+      "hints": ["Check the pattern first: 10s end in 0, 2s are even.", "If a fact won't pop out, skip-count to it."],
+      "reteach": { "say": "Detective trick: look at the endings! 60 ends in 0 — that smells like a 10s fact. 35 ends in 5 — only the 5s do that. Match the patterns first, then check by skip-counting.", "block": { "type": "table", "headers": ["fact", "skip-count", "total"], "rows": [["3 × 2", "2, 4, 6", "6"], ["7 × 5", "5, 10, 15, 20, 25, 30, 35", "35"], ["6 × 10", "10, 20, 30, 40, 50, 60", "60"], ["9 × 2", "2, 4, 6, 8, 10, 12, 14, 16, 18", "18"]] } }
+    },
+    {
+      "id": "l10-p07", "skill": "commutativity", "level": 2,
+      "block": { "type": "trueFalse", "statement": "You have to work out 10 × 2 separately, because it's a different fact from 2 × 10.", "correct": false, "explain": "Turning a fact around never changes the total — 2 × 10 and 10 × 2 are both 20. Picture the array rotating: same dots!" },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "commutativity not yet trusted — recalculates every turned fact", "remedy": "Draw a 2-by-10 array and turn it on its side. Did any dots appear or vanish?" }
+      ],
+      "hints": ["Think of the array spinning round.", "Same groups, same dots — does the total change?"],
+      "reteach": { "say": "Here's the free-facts trick: every fact you learn comes with its twin! 2 rows of 10 has 20 dots. Tip it over — now it's 10 rows of 2… still 20 dots. Learn 2 × 10 and you get 10 × 2 for free.", "block": { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵", "caption": "2 × 10 = 10 × 2 = 20 — same dots, turned round" } }
+    },
+    {
+      "id": "l10-p08", "skill": "derive from known facts", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "You know 5 × 5 = 25. Use it to find 6 × 5 — no counting from zero!", "answer": 30 },
+      "expectedAnswer": "30 (25 + one more 5)",
+      "wrongAnswers": [
+        { "answer": "26", "why": "added 1 instead of one more group of 5", "remedy": "One more JUMP, not one more step — the jump is a whole 5." },
+        { "answer": "50", "why": "doubled instead of adding one group", "remedy": "6 × 5 is only ONE jump past 5 × 5. Start at 25 and jump once." }
+      ],
+      "hints": ["6 fives = 5 fives + one more five.", "Start at 25. One jump of 5 lands on…?"],
+      "reteach": { "say": "This is the mathematician's ladder: stand on a fact you own and take one step. 5 × 5 = 25. One more five: 25 + 5 = 30. So 6 × 5 = 30. You never need to count from zero again!", "block": { "type": "steps", "title": "Jump on from a known fact", "steps": ["Start at the fact you know: 5 × 5 = 25", "6 × 5 needs ONE more five", "25 + 5 = 30 — done!"] } }
+    },
+    {
+      "id": "l10-p09", "skill": "spot table patterns", "level": 3,
+      "block": { "type": "categorize", "prompt": "Could these numbers be answers in the 5 times table? Sort them!", "buckets": ["in the 5s (ends in 0 or 5)", "not in the 5s"], "items": [ { "text": "15", "bucket": "in the 5s (ends in 0 or 5)" }, { "text": "23", "bucket": "not in the 5s" }, { "text": "40", "bucket": "in the 5s (ends in 0 or 5)" }, { "text": "35", "bucket": "in the 5s (ends in 0 or 5)" }, { "text": "12", "bucket": "not in the 5s" }, { "text": "54", "bucket": "not in the 5s" } ] },
+      "expectedAnswer": "15, 40, 35 → in the 5s; 23, 12, 54 → not in the 5s",
+      "wrongAnswers": [
+        { "answer": "54 → in the 5s", "why": "saw a 5 in the number and ignored the last-digit rule", "remedy": "The rule looks at the LAST digit only. What does 54 end in?" },
+        { "answer": "23 → in the 5s", "why": "guessing — pattern not used", "remedy": "Count in 5s past 20: 20, 25 — did you ever say 23?" }
+      ],
+      "hints": ["Look at the LAST digit only.", "Counting in 5s you only ever land on numbers ending 0 or 5."],
+      "reteach": { "say": "Say the 5s out loud and listen to the endings: 5, 10, 15, 20, 25, 30… every single one ends in 0 or 5. That's the 5s' uniform! 23 ends in 3 — wrong uniform, so it can never be a 5s answer.", "block": { "type": "table", "headers": ["number", "last digit", "in the 5s?"], "rows": [["15", "5", "yes"], ["40", "0", "yes"], ["23", "3", "no"], ["54", "4", "no"]] } }
+    },
+    {
+      "id": "l10-p10", "skill": "derive from known facts", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Speed round! 9 × 10 = ?", "answer": 90 },
+      "expectedAnswer": "90",
+      "wrongAnswers": [
+        { "answer": "19", "why": "added 9 + 10", "remedy": "Nine whole TENS — that's a lot more than 19! Count: 10, 20, 30…" },
+        { "answer": "900", "why": "over-applied the add-a-zero shortcut", "remedy": "One zero, not two: 9 tens. Count in tens nine times and check where you land." }
+      ],
+      "hints": ["Nine tens — the answer ends in 0.", "Shortcut: 9 × 10 puts a 0 after the 9."],
+      "reteach": { "say": "Count nine tens on your fingers: 10, 20, 30, 40, 50, 60, 70, 80, 90. Nine fingers, ninety! The shortcut — a 0 after the 9 — works because ten 9s and nine 10s are the same thing.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 90, "marks": [{ "value": 90, "label": "9×10" }] } }
+    },
+    {
+      "id": "l10-p11", "skill": "commutativity", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend says: 'I know 2 × 8 = 16, but 8 × 2 is too hard for me.' What would you tell them?", "sample": "8 × 2 is the same fact turned around — it's 16 too. The array just rotates; no new work needed." },
+      "expectedAnswer": "8 × 2 = 16 as well — turning a multiplication around never changes the total",
+      "wrongAnswers": [
+        { "answer": "They need to count 8 twos from scratch", "why": "commutativity not applied — treats the twin fact as new work", "remedy": "Picture the 2-by-8 array tipping onto its side. Do any dots appear or disappear?" }
+      ],
+      "hints": ["What happens to an array when you turn it?", "Every fact comes with a free twin."],
+      "reteach": { "say": "Tell your friend the free-twin secret: 2 rows of 8 and 8 rows of 2 are the SAME 16 dots, just turned round. Knowing one means you already know the other — half the tables for free!", "block": { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵🔵🔵🔵", "caption": "2 × 8 = 8 × 2 = 16 — the twin facts" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave 2s, 5s and 10s randomly and add a beat-your-time round.",
+    "levelDown": "2 misses on the same skill → run that item's reteach, skip-count the fact on the number line together (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "5+ correct across levels 2–3 including one commutative pair and one derived fact (e.g. 6 × 5 from 5 × 5), with at least two answered instantly → mastery ≥ 0.8 for '2/5/10 times-table recall'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'this fact isn't memorised yet' or 'the × turned into a + there'.",
+      "Drop a CPA stage: skip-count along the number line, or draw the array.",
+      "Give ONE hint: 'start from a fact you DO know and jump on.'",
+      "Re-ask a nearby easy fact, then return to the missed one.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame quick-fire rounds with the learner's interests (football rapid-fire, rocket countdown, coin collecting). Re-ask any fact the learner had to work out a minute later to convert it into recall. Never change the numbers.",
+    "endOnSuccess": "Finish with a fact the child can now recall instantly (drop a level if needed), then process praise: 'you jumped on from facts you knew and used the turn-around trick — that's how tables are really learned.'"
+  },
+
+  "differentiation": {
+    "support": "Keep the number line visible and skip-count aloud to every fact; stay on one table at a time (10s first — the friendliest); coin and array pictures on hand.",
+    "stretch": "'Hit the Button' style speed round mixing all three tables; derive bigger facts (8 × 5, 9 × 10) from known ones and explain the jump."
+  },
+  "extension": "Beat-your-own-time tables challenge — record today's score on 10 mixed facts; next session, try to beat it.",
+  "assessmentEvidence": "Child recalls a spread of 2/5/10 facts (finding the rest by skip-counting), including a commutative pair and one fact derived from a known one.",
+  "revisitLater": "Daily 60-second tables round (2s, 5s, 10s). These facts power division (Lesson 11), the retrieval workout (Lesson 12), money (Unit 4) and fractions of quantities (Lesson 14)."
+}

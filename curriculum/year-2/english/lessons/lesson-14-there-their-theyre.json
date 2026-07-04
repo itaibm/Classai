@@ -1,0 +1,323 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u3-l14",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 3, "title": "Apostrophes & homophones", "essentialQuestion": "When does a word need an apostrophe, and how do I pick between sound-alike words?" },
+  "lessonNumber": 14,
+  "kind": "lesson",
+  "topic": "Apostrophes & homophones",
+  "title": "Homophones: there / their / they're",
+  "durationMin": 25,
+  "objectives": ["By the end, I can choose there, their or they're by meaning."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "homophone", "definition": "words that sound the same but are spelled differently and mean different things", "example": "there / their / they're" },
+    { "term": "there", "definition": "a place — and here is hiding inside it", "example": "Put the box over there." },
+    { "term": "their", "definition": "belonging to them — it has heir (an owner) inside", "example": "They lost their ball." },
+    { "term": "they're", "definition": "squashed they are — the apostrophe stands for the missing a", "example": "They're my best friends." }
+  ],
+  "emphasize": [
+    "All three sound identical — choose by MEANING, never by sound.",
+    "The memory hooks: there has here inside (place); their has heir inside (an owner — belonging); they're is squashed they are.",
+    "The best test: can I say 'they are'? Then it's they're. Pre-empt defaulting to there for all three."
+  ],
+  "analysis": {
+    "keyConcepts": ["homophones are chosen by meaning", "there = place, their = belonging, they're = they are", "the 'say they are' test", "hidden-word memory hooks (here, heir)"],
+    "misconceptions": [
+      "using there for all three",
+      "choosing their for a place",
+      "writing they're without the apostrophe, or using it where nothing is squashed"
+    ],
+    "hooks": ["These are the words grown-ups muddle most — even in text messages. Become the expert who never gets them wrong!"],
+    "priorKnowledge": ["apostrophe contractions — they're = they are (Lesson 11)", "the apostrophe trap (Lesson 13)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["three cue cards on screen (place / belonging / they are)", "hidden-word highlight animation (here, heir)", "gap-fill practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "searchTerm": "homophones there their they're song KS1",
+    "channel": "Grammarsaurus",
+    "watchTask": "Each time one of the three words appears, call out which one it is — place, belonging, or 'they are' — before the singer explains it.",
+    "afterCheck": { "question": "Which of the three has an apostrophe, and why?", "expectedAnswer": "they're — because it's squashed 'they are' and the apostrophe marks the missing a" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the challenge — three identical-sounding words that even grown-ups muddle; retrieve they're as a squash from Lesson 11.",
+      "note": "The beat-the-grown-ups frame carries the lesson. Read all three aloud to prove they sound identical.",
+      "successCriteria": "Child answers they're for the retrieval and accepts the expert challenge.",
+      "script": {
+        "say": "Three words sound EXACTLY the same — there, their, they're — but they mean completely different things. They're the words grown-ups muddle most, even in text messages! Today you're going to become the expert who never gets them wrong. Ready to beat the grown-ups? Warm-up first: one of them is a squashed-up pair. They are squashes into…?",
+        "adaptHints": "Listen for they're. If shaky, re-show they are → they're, apostrophe for the missing a. Read the three words aloud identically — 'hear that? Identical. But watch the spellings.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Three words, one sound",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 20, "y": 20, "value": "there", "size": 9, "bold": true, "color": "blue" },
+            { "k": "text", "x": 50, "y": 20, "value": "their", "size": 9, "bold": true, "color": "green" },
+            { "k": "text", "x": 80, "y": 20, "value": "they're", "size": 9, "bold": true, "color": "purple" },
+            { "k": "text", "x": 50, "y": 40, "value": "same sound — three different meanings!", "size": 5, "color": "ink" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If they're won't come: write they are, cross the a, place the apostrophe — 'we buried this letter in Lesson 11, remember the gravestone?'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Teach the three meanings with their hidden-word hooks and the 'say they are' test.",
+      "note": "Circle here inside there and heir inside their; show they + are for they're. Model on the end-of-unit sentence.",
+      "successCriteria": "Child can recite: there = place (here inside), their = belonging (heir inside), they're = they are.",
+      "script": {
+        "say": "Pick by MEANING. There — a PLACE, like 'over there'. See the secret? Here is hiding inside there — both are about place. Their — BELONGING to them, 'their dog'. It's got heir in it — an heir is someone who owns things — so their is about owning. They're — squashed they are — the apostrophe stands for the missing a. My best test: can I say 'they are'? If yes, use they're. If it's a place, there. If it belongs to them, their. Watch me on a whole sentence: They're going to their house over there.",
+        "adaptHints": "Trace the hidden words with your voice: 't-HERE', 'the-HEIR'. Say the test as a chant the child can echo."
+      },
+      "blocks": [
+        { "type": "keyTerm", "term": "homophone", "definition": "words that sound the same but are spelled differently and mean different things", "example": "there / their / they're" },
+        {
+          "type": "table",
+          "headers": ["word", "meaning", "secret clue"],
+          "rows": [
+            ["there", "a place", "HERE is hiding inside"],
+            ["their", "belonging to them", "HEIR — an owner — is inside"],
+            ["they're", "they are", "apostrophe = the missing a"]
+          ],
+          "caption": "Say 'they are' — if it fits, it's they're. Place = there. Belonging = their."
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared choices with the test said aloud: '___ my best friends' and 'I like ___ new car'.",
+      "note": "The child runs the test out loud before choosing, every time.",
+      "successCriteria": "Child fills both gaps correctly, saying the test aloud.",
+      "script": {
+        "say": "Choose with me. '___ my best friends.' Try the test — can I say 'they are my best friends'? Yes! So it's they're. Now this one's yours: 'I like ___ new car.' Does the car belong to them? Run the test out loud and pick.",
+        "adaptHints": "If the child picks silently, gently require the spoken test: 'say the test first, then choose.' Swap 'car' for something the child's friends or family own."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "___ my best friends.", "answer": "They're", "wordBank": ["They're", "There", "Their"] },
+        { "type": "fillBlank", "text": "I like ___ new car.", "answer": "their", "wordBank": ["their", "there", "they're"] }
+      ],
+      "check": {
+        "question": "Which of the three means 'belonging to them'?",
+        "expectedAnswer": "their",
+        "wrongAnswers": [
+          { "answer": "there", "why": "muddled place with belonging", "remedy": "Does 'over there' mean belonging? No — that's a place. Belonging is the one with heir inside." },
+          { "answer": "they're", "why": "confused with 'they are'", "remedy": "Say 'they are' — does 'belonging to them' mean 'they are'? No. Which one has the owner hiding inside it?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "Diagnostic: identify the belonging one and its hidden clue.",
+      "note": "The probe after a correct answer: 'what's the clue word hiding inside it?' (heir).",
+      "successCriteria": "Child picks their and names the heir clue.",
+      "script": {
+        "say": "Expert exam: which of the three means 'belonging to them'? And for a bonus point — what's the clue word hiding inside it?",
+        "adaptHints": "Listen for their + heir. If the clue won't come, cover the t of their with a finger on screen and read what's left."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which one means 'belonging to them'?",
+          "options": ["their", "there", "they're", "they'are"],
+          "correct": 0,
+          "explain": "their has heir inside — an heir is someone who owns things. Belonging = their."
+        }
+      ],
+      "check": {
+        "question": "Which of the three means 'belonging to them'?",
+        "expectedAnswer": "their (heir — an owner — is hiding inside)",
+        "wrongAnswers": [
+          { "answer": "there", "why": "muddled place with belonging", "remedy": "Does 'over there' mean belonging? No — that's a place. Belonging is their, with heir inside." },
+          { "answer": "they're", "why": "confused with 'they are'", "remedy": "Say 'they are' — does 'belonging to them' mean 'they are'? No. Their is the belonging one." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 22],
+      "goal": "Independent gap-filling: six gaps across all three words, the test said aloud each time.",
+      "note": "Director draws from practiceBank, start level 2. Watch for defaulting to there and for they're losing its apostrophe.",
+      "successCriteria": "Child chooses correctly in 4+ of 6 gaps, applying the spoken test.",
+      "script": {
+        "say": "Expert duty! Six sentences, each with a gap. For every one, say the test aloud — can I say 'they are'? is it a place? does it belong to them? — then choose. Beat the grown-up texters!",
+        "adaptHints": "Theme sentences around the child's friends, pets and favourite places. Never change the target homophones."
+      },
+      "stuckProtocol": [
+        "Don't choose for them.",
+        "Name why: 'let's run the test.'",
+        "Step down: give two choices instead of three; show the cue cards.",
+        "ONE hint: 'try saying they are in the gap — does it make sense?'",
+        "Re-ask a smaller version (one sentence).",
+        "Keep it safe: 'Even grown-ups muddle these — the test makes you the expert.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Child teaches back the three meanings and the test; end on a win.",
+      "note": "Child-led; the character listens.",
+      "successCriteria": "Child states: there = place (here inside), their = belonging (heir inside), they're = they are; test = 'can I say they are?'",
+      "script": {
+        "say": "Teach me the three meanings and the best test. … Perfect: there is a place with here inside, their is belonging with heir inside, they're is squashed they are — and the test is 'can I say they are?'. You ran the test on every gap and chose by meaning — you're now the expert who beats the grown-up texters.",
+        "adaptHints": "Tease Lesson 15: 'next time, three MORE sound-alikes — two, too and to — plus your favourite trick yet: the extra o for extra.'"
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l14-p01", "skill": "choose there for a place", "level": 1,
+      "block": { "type": "fillBlank", "text": "Put the box over ___.", "answer": "there", "wordBank": ["there", "their", "they're"] },
+      "expectedAnswer": "there",
+      "wrongAnswers": [
+        { "answer": "their", "why": "belonging chosen for a place", "remedy": "Does the spot belong to them? No — it's a PLACE. Which word has here hiding inside it?" },
+        { "answer": "they're", "why": "grabbed the squash without testing", "remedy": "Try the test: 'put the box over they are'? Nonsense! It's a place — which one is the place word?" }
+      ],
+      "hints": ["Is the gap a place, a belonging, or 'they are'?", "Place = the one with here inside."],
+      "reteach": { "say": "'Over there' is pointing at a PLACE — and place words stick together: here, there. See here hiding inside there? Whenever the gap is a spot you could point at, it's there.", "block": { "type": "emojiViz", "emojis": "👉📦", "caption": "over t-HERE — a place you can point at" } }
+    },
+    {
+      "id": "l14-p02", "skill": "choose they're using the test", "level": 1,
+      "block": { "type": "fillBlank", "text": "___ going to the park.", "answer": "They're", "wordBank": ["They're", "There", "Their"] },
+      "expectedAnswer": "They're",
+      "wrongAnswers": [
+        { "answer": "There", "why": "the default-to-there habit", "remedy": "Run the test: 'they are going to the park' — does it fit? Yes! So which spelling means they are?" },
+        { "answer": "Their", "why": "belonging chosen where nothing is owned", "remedy": "Does anything belong to them here? No — try saying 'they are' in the gap instead." }
+      ],
+      "hints": ["Say 'they are' in the gap — does it make sense?", "It fits — so you need the squashed one with the apostrophe."],
+      "reteach": { "say": "The test does all the work: '___ going to the park' → 'THEY ARE going to the park' — perfect sense! So it's they're, the squash, with its apostrophe for the missing a.", "block": { "type": "table", "headers": ["try it", "verdict"], "rows": [["they are going to the park", "fits ✓ → they're"]] } },
+      "interestSlots": ["park", "beach", "cinema"]
+    },
+    {
+      "id": "l14-p03", "skill": "choose their for belonging", "level": 2,
+      "block": { "type": "fillBlank", "text": "The children lost ___ ball.", "answer": "their", "wordBank": ["their", "there", "they're"] },
+      "expectedAnswer": "their",
+      "wrongAnswers": [
+        { "answer": "there", "why": "default-to-there", "remedy": "Whose ball is it? It belongs to the children — which word has the owner (heir) hiding inside?" },
+        { "answer": "they're", "why": "squash chosen without the test", "remedy": "Test it: 'the children lost they are ball'? Nonsense! The ball BELONGS to them — pick the belonging one." }
+      ],
+      "hints": ["Does the ball belong to them?", "Belonging = the one with heir inside."],
+      "reteach": { "say": "The ball belongs to the children — belonging! And the belonging word is their, with heir (an owner) hiding inside. Place? No. They are? No. Belonging? Yes — their.", "block": { "type": "emojiViz", "emojis": "⚽👧👦", "caption": "their ball — it belongs to them" } },
+      "interestSlots": ["ball", "kite", "scooter"]
+    },
+    {
+      "id": "l14-p04", "skill": "choose their for belonging", "level": 2,
+      "block": { "type": "fillBlank", "text": "Is ___ dog friendly?", "answer": "their", "wordBank": ["their", "there", "they're"] },
+      "expectedAnswer": "their",
+      "wrongAnswers": [
+        { "answer": "there", "why": "default-to-there", "remedy": "Is the gap a place you could point at? No — the dog belongs to somebody. Which is the belonging word?" },
+        { "answer": "they're", "why": "untested squash", "remedy": "Say it: 'is they are dog friendly'? That can't be right. Run the belonging question instead." }
+      ],
+      "hints": ["Whose dog is it?", "An owner is involved — find the word with heir inside."],
+      "reteach": { "say": "Ask the three questions in order: Can I say 'they are'? — 'is they are dog friendly' — no. Is it a place? No. Does the dog belong to them? YES — so it's their. Three questions, one winner.", "block": { "type": "table", "headers": ["question", "answer"], "rows": [["say 'they are'?", "no"], ["a place?", "no"], ["belongs to them?", "yes → their"]] } },
+      "interestSlots": ["dog", "cat", "parrot"]
+    },
+    {
+      "id": "l14-p05", "skill": "apply the 'say they are' test", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "'___ late for school.' Can I say 'they are' in this gap?", "options": ["Yes — so it's they're", "No — so it's there", "No — so it's their", "You can never say 'they are'"], "correct": 0, "explain": "'They are late for school' makes perfect sense — so the gap takes they're, the squashed they are." },
+      "expectedAnswer": "Yes — so it's they're",
+      "wrongAnswers": [
+        { "answer": "No — so it's there", "why": "didn't actually run the test out loud", "remedy": "Say the whole sentence with 'they are' in it: 'they are late for school.' Does that make sense? It does!" },
+        { "answer": "No — so it's their", "why": "hunting for belonging where nothing is owned", "remedy": "What would belong to them here? Nothing! Try the test sentence out loud first." }
+      ],
+      "hints": ["Say the full sentence with 'they are' in the gap.", "If it makes sense, the squash wins."],
+      "reteach": { "say": "The test is a real sentence you say out loud, not a guess: '___ late for school' → 'THEY ARE late for school.' It works! Whenever 'they are' fits, write they're — the apostrophe version.", "block": { "type": "emojiViz", "emojis": "🗣️✅", "caption": "say the test sentence OUT LOUD, then choose" } }
+    },
+    {
+      "id": "l14-p06", "skill": "choose there for a place", "level": 2,
+      "block": { "type": "fillBlank", "text": "Look over ___ — a rainbow!", "answer": "there", "wordBank": ["there", "their", "they're"] },
+      "expectedAnswer": "there",
+      "wrongAnswers": [
+        { "answer": "their", "why": "belonging chosen for a place", "remedy": "Does the rainbow belong to them? No — you're POINTING at a spot. Which word has here inside?" },
+        { "answer": "they're", "why": "untested squash", "remedy": "'Look over they are — a rainbow'? Nonsense! It's a place — the pointing word." }
+      ],
+      "hints": ["Could you point your finger at it?", "Pointing at a spot = there (with here inside)."],
+      "reteach": { "say": "'Look over there' — you're pointing! Place words are a little family: HERE, tHERE, wHERE — they all share here. Pointing at a spot? there, every time.", "block": { "type": "emojiViz", "emojis": "👉🌈", "caption": "over t-HERE — the pointing word" } }
+    },
+    {
+      "id": "l14-p07", "skill": "distinguish all three in one sentence", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "They're taking their dog over there. Which of the three words means the PLACE?", "options": ["there", "their", "they're", "none of them"], "correct": 0, "explain": "over there = the place. they're = they are (taking), their = the dog belongs to them." },
+      "expectedAnswer": "there",
+      "wrongAnswers": [
+        { "answer": "their", "why": "meanings not yet separated when all three appear together", "remedy": "Whose dog? THEIR dog — that one's belonging. Now which one could you point at?" },
+        { "answer": "they're", "why": "confusing the squash with the place", "remedy": "Stretch they're back out: 'THEY ARE taking' — that's the squash. The place is the one at the end you could point to." }
+      ],
+      "hints": ["Label each of the three as you read: squash? belonging? place?", "The place is the spot you could point your finger at."],
+      "reteach": { "say": "All three in one sentence — the expert's moment! Read it in slow motion: They're (they are — squash) taking their (belongs to them) dog over there (point at it — place). Every job filled, no muddle.", "block": { "type": "table", "headers": ["word", "job in the sentence"], "rows": [["They're", "they are — squash"], ["their", "the dog belongs to them"], ["there", "the place — point at it"]] } }
+    },
+    {
+      "id": "l14-p08", "skill": "write all three correctly", "level": 3,
+      "block": { "type": "shortText", "prompt": "Write one sentence using all three: there, their AND they're.", "sample": "They're taking their dog over there." },
+      "expectedAnswer": "A sentence using they're (=they are), their (belonging) and there (place) each correctly",
+      "wrongAnswers": [
+        { "answer": "a sentence with the three swapped (e.g. Their going… over they're)", "why": "spelling by sound instead of meaning under writing load", "remedy": "Read your sentence back and test each one: stretch the squash, find the owner, point at the place. Fix any word doing the wrong job." },
+        { "answer": "theyre without the apostrophe", "why": "the squash lost its gravestone", "remedy": "they're is squashed 'they are' — where did the a go? Mark its gap with the apostrophe." }
+      ],
+      "hints": ["Start with 'They're…' — you know it means they are.", "Then give them something that belongs to them, and a place to go."],
+      "reteach": { "say": "Build it in three little steps: who's doing something? They're (they are)… what do they take? their dog (belongs to them)… where? over there (point!). Say it out loud, then write it — one job per word.", "block": { "type": "emojiViz", "emojis": "🧩🧩🧩", "caption": "squash + belonging + place = one expert sentence" } },
+      "interestSlots": ["dog", "bikes", "grandma's house"]
+    },
+    {
+      "id": "l14-p09", "skill": "distinguish all three in one sentence", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Which sentence is completely correct?", "options": ["They're going to their house over there.", "There going to they're house over their.", "Their going to there house over they're.", "They're going to there house over their."], "correct": 0, "explain": "they are going → they're; the house belongs to them → their; the place → there." },
+      "expectedAnswer": "They're going to their house over there.",
+      "wrongAnswers": [
+        { "answer": "There going to they're house over their.", "why": "all three swapped — chosen by sound", "remedy": "Test the first word: can you say 'THEY ARE going'? Yes — so the sentence must START with the squash." },
+        { "answer": "They're going to there house over their.", "why": "the squash is right but place/belonging are swapped", "remedy": "Whose house is it? It belongs to them — that needs the heir word. And the spot at the end is the one you point at." }
+      ],
+      "hints": ["Check word by word: squash, belonging, place.", "'They are going' fits the start — which spelling is that?"],
+      "reteach": { "say": "This is the exact sentence from your unit challenge! Slow motion: 'THEY ARE going' → they're. 'to THEIR house' — belongs to them, heir inside. 'over THERE' — point at it, here inside. Squash, belonging, place — in that order.", "block": { "type": "table", "headers": ["gap", "meaning", "word"], "rows": [["1st", "they are", "They're"], ["2nd", "belongs to them", "their"], ["3rd", "a place", "there"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, mix single gaps with all-three-in-one-sentence items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the three-question routine spoken aloud (say 'they are'? a place? belongs to them?), then a level-1 item with two choices instead of three.",
+    "masterySignal": "4+ correct across levels 2–3 including at least one of each word and one all-three item → mastery ≥ 0.8 for 'there/their/they're'.",
+    "struggleProtocol": [
+      "Don't choose for them.",
+      "Name why: 'let's run the test.'",
+      "Step down: two choices instead of three; cue cards visible.",
+      "ONE hint: 'try saying they are in the gap — does it make sense?'",
+      "Re-ask a smaller version (one sentence).",
+      "Keep it safe: 'Even grown-ups muddle these — the test makes you the expert.'"
+    ],
+    "personalization": "Fill gaps with the learner's friends, pets and favourite places ('They're taking their scooter over there'). The spoken test stays in every framing.",
+    "endOnSuccess": "Finish on a winnable gap; praise the process — 'you ran the test on every gap and chose by meaning.'"
+  },
+
+  "differentiation": {
+    "support": "Two choices instead of three; meaning cue cards stay on screen; the tutor says the test, the child decides.",
+    "stretch": "Write one sentence using all three correctly ('They're taking their dog over there.') and explain each choice."
+  },
+  "extension": "Find one example of each word in a favourite book and explain why that spelling is right.",
+  "assessmentEvidence": "Child chooses correctly in at least four of six gaps, applying the 'say they are' test, and can state the meaning of each word.",
+  "revisitLater": "Lesson 15 brings to/too/two and reviews this set. End-of-Unit 3 check uses '___ going to ___ house over ___' (They're / their / there)."
+}

@@ -1,0 +1,328 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u2-l06",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 2, "title": "Spelling with suffixes", "essentialQuestion": "How do I add an ending to a word so it's still spelled correctly?" },
+  "lessonNumber": 6,
+  "kind": "lesson",
+  "topic": "Spelling with suffixes",
+  "title": "Drop the e (hope → hoping)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can drop a silent e before adding a vowel suffix."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "root word", "definition": "the main word before any ending", "example": "hope is the root of hoping" },
+    { "term": "suffix", "definition": "a little ending (tail) added to a word", "example": "-ing in hoping" },
+    { "term": "silent e", "definition": "the quiet e on the end that makes the vowel say its long name", "example": "the e in hope makes the o say 'oh'" },
+    { "term": "vowel suffix", "definition": "an ending that starts with a vowel", "example": "-ing, -ed, -er, -est" },
+    { "term": "drop the e", "definition": "cross off the silent e before adding a vowel suffix", "example": "hope → hoping" }
+  ],
+  "emphasize": [
+    "When a root ends in a silent e, the e must HOP OFF before a vowel suffix moves in.",
+    "The model move: cross the e, THEN add the tail.",
+    "Pre-empt the misconception 'hopeing'/'bakeing' (kept the silent e). Repeated phrase: 'Drop the e before a vowel suffix.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["silent-e roots drop the e before a vowel suffix (-ing, -ed, -er, -est)", "cross the e first, then add the suffix", "reading the wrong form back ('hopeing') shows why the rule exists"],
+    "misconceptions": [
+      "keeping the silent e: hope + ing → 'hopeing', bake + ing → 'bakeing'",
+      "applying the wrong rule: doubling instead of dropping (hope + ed → 'hopped')",
+      "dropping letters from roots that have no silent e"
+    ],
+    "hooks": ["Write 'hopeing', read it out loud all clunky, then let the silent e HOP off like a kangaroo to fix it."],
+    "priorKnowledge": ["root + suffix, 'just add it on' (Lesson 5)", "silent e makes the vowel say its long name (Year 1 split digraph)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated whiteboard with red cross-off of the e", "fill-blank and choice spelling blocks", "practice bank"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Show the spelling going WRONG ('hopeing'), feel the clunk, then fix it by letting the e hop off; retrieve Lesson 5's just-add rule.",
+      "note": "Read 'hopeing' deliberately clunkily — the child must hear that it doesn't work before learning the fix.",
+      "successCriteria": "Child answers 'jumping' for the retrieval and is ready to 'kick the e off'.",
+      "script": {
+        "say": "Watch this go wrong, then we'll fix it. Hope plus -ing… if I just stick it on I get h-o-p-e-i-n-g… hopeing. Try reading that — clunky, isn't it? There's no room for both the e and the -ing. So the silent e has to HOP off first. Let's kick it off! But quick memory check from last time — we added tails the easy way. Add -ing to jump.",
+        "adaptHints": "Listen for 'jumping' (no change). If shaky, re-show jump → jumping: 'that root had no silent e, so nothing hopped off. Today's roots DO end in e.' Match the kangaroo-hop energy to the child."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "hope + ing = ?",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 8, "value": "hope + ing = ?", "size": 7, "bold": true },
+            { "k": "text", "x": 30, "y": 26, "value": "hopeing", "size": 9, "color": "red" },
+            { "k": "line", "x1": 16, "y1": 30, "x2": 44, "y2": 21, "color": "red" },
+            { "k": "text", "x": 68, "y": 26, "value": "✗ clunky!", "size": 6, "color": "red" },
+            { "k": "text", "x": 30, "y": 46, "value": "hoping", "size": 9, "bold": true, "color": "accent" },
+            { "k": "text", "x": 70, "y": 46, "value": "✓ the e hopped off", "size": 5, "color": "ink" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If 'jumping' is shaky: re-show jump → jumping from Lesson 5 — 'nothing changed inside the root, we just grew the tail' — then return to hope."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the rule: silent-e root + vowel suffix → cross the e, then add the tail. Model hope → hoping, bake → baking, baked.",
+      "note": "The red cross-off IS the concrete move — always cross first, add second. Say the repeated phrase every time.",
+      "successCriteria": "Child can say the rule back: drop the e first, then add the suffix.",
+      "script": {
+        "say": "Here's the rule. If the root ends in a silent e, and my suffix starts with a vowel — like -ing, -ed, -er, -est — I drop the e first. Watch hope: cross off the e (it hops away), then add -ing → hoping. Now bake: cross the e, add -ing → baking. And with -ed: bake, cross the e, add -ed → baked. The silent e always hops off to make room.",
+        "adaptHints": "Emphasize the repeated phrase: 'Drop the e before a vowel suffix. Cross it off, then add the tail.' Let the child say 'HOP!' each time the e is crossed."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Drop the e",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 8, "y": 14, "value": "h", "size": 8 },
+            { "k": "text", "x": 14, "y": 14, "value": "o", "size": 8 },
+            { "k": "text", "x": 20, "y": 14, "value": "p", "size": 8 },
+            { "k": "text", "x": 26, "y": 14, "value": "e", "size": 8, "color": "red" },
+            { "k": "line", "x1": 23, "y1": 18, "x2": 29, "y2": 10, "color": "red" },
+            { "k": "text", "x": 38, "y": 14, "value": "+ ing", "size": 6, "color": "blue" },
+            { "k": "line", "x1": 48, "y1": 14, "x2": 60, "y2": 14, "color": "ink", "arrow": true },
+            { "k": "text", "x": 76, "y": 14, "value": "hoping", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 8, "y": 34, "value": "b", "size": 8 },
+            { "k": "text", "x": 14, "y": 34, "value": "a", "size": 8 },
+            { "k": "text", "x": 20, "y": 34, "value": "k", "size": 8 },
+            { "k": "text", "x": 26, "y": 34, "value": "e", "size": 8, "color": "red" },
+            { "k": "line", "x1": 23, "y1": 38, "x2": 29, "y2": 30, "color": "red" },
+            { "k": "text", "x": 38, "y": 34, "value": "+ ed", "size": 6, "color": "blue" },
+            { "k": "line", "x1": 48, "y1": 34, "x2": 60, "y2": 34, "color": "ink", "arrow": true },
+            { "k": "text", "x": 76, "y": 34, "value": "baked", "size": 8, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 54, "value": "Drop the e before a vowel suffix!", "size": 5, "bold": true, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared build: the child is the 'e-kicker' — smile + ing, nice + er, ride + ing, saying what happens to the e each time.",
+      "note": "The child names the move ('cross it off / drop it') BEFORE spelling. Keep the cross-first habit.",
+      "successCriteria": "Child says 'drop the e' unprompted and spells smiling correctly.",
+      "script": {
+        "say": "You be the e-kicker. Take smile and add -ing. First — what do we do to the e? … That's it, cross it off — now add the tail. Let's read it: smiling! Now try nice plus -er… and ride plus -ing.",
+        "adaptHints": "If the child says 'just add it', point at the silent e: 'this root has a quiet e on the end — what does it need to do first?' Never spell it for them."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "smile + ing = ___", "answer": "smiling", "wordBank": ["smiling", "smileing", "smilling"] },
+        { "type": "fillBlank", "text": "ride + ing = ___", "answer": "riding", "wordBank": ["riding", "rideing", "ridding"] }
+      ],
+      "check": {
+        "question": "Add -ed to hope. What happens to the e first?",
+        "expectedAnswer": "Drop the e, then add -ed → hoped",
+        "wrongAnswers": [
+          { "answer": "hopeed", "why": "kept the silent e", "remedy": "Read it back — hope-ed, clunky! What has to hop off before a vowel suffix moves in?" },
+          { "answer": "hopped", "why": "applied the doubling rule instead of drop-the-e", "remedy": "Does hope have a silent e on the end? Yes — so we DROP the e, we don't double. Cross it off first." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The key diagnostic: hope + ed. 'hopeed' means the e survived; 'hopped' means rule mix-up with doubling.",
+      "note": "After a correct answer, probe WHY the e had to go (to make room for the vowel suffix).",
+      "successCriteria": "Child spells 'hoped' and can say why the e was dropped.",
+      "script": {
+        "say": "Add -ed to hope. Take your time — remember the move.",
+        "adaptHints": "After success, probe: 'Why did the e have to go?' Listen for: to make room for the vowel suffix / the e hops off first."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "hope + ed = ?", "options": ["hoped", "hopeed", "hopped", "hopd"], "correct": 0, "explain": "The silent e hops off first, then -ed moves in: hoped." }
+      ],
+      "check": {
+        "question": "Add -ed to hope.",
+        "expectedAnswer": "hoped (drop the e)",
+        "wrongAnswers": [
+          { "answer": "hopeed", "why": "kept the silent e", "remedy": "Read it — hope-ed, clunky. Drop the e before a vowel suffix. Cross it off together." },
+          { "answer": "hopped", "why": "wrong rule — doubling (that's Lesson 7's trick)", "remedy": "Does hope have a silent e on the end? Yes — so we DROP the e, we don't double. hope → hoped." },
+          { "answer": "hopd", "why": "dropped the e AND lost the suffix's e", "remedy": "The e that hops off is the root's e. The suffix -ed keeps its own e: hop… -ed… hoped." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent spelling: -ing and -ed on e-ending roots (hope, bake, smile, race), crossing the e first each time and reading each word back.",
+      "note": "Director draws from practiceBank, start level 2. Always have the child read the new word ALOUD — hearing it is the self-check.",
+      "successCriteria": "Child drops the e correctly in at least three words and reads each back.",
+      "script": {
+        "say": "Your turn, e-kicker! I'll send you words that end in a silent e. Cross the e off first, add the tail, then read your new word back to me — every time.",
+        "adaptHints": "Frame the doing-words around the child's interests (baking cakes, riding bikes, racing cars) — never change the spelling words themselves."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'the silent e is still there — it has to hop off.'",
+        "Step down: the tutor crosses the e on the board; the child adds the tail.",
+        "ONE hint: 'find the silent e on the end and cross it first.'",
+        "Re-ask a smaller version (just -ing on bake).",
+        "Keep it safe: 'Spotting the silent e is the whole trick — let's find it together.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child teaches the rule back; end on an earned win with process praise.",
+      "note": "Child-led. Tomorrow's contrast (hop → hopping) is seeded but NOT taught today.",
+      "successCriteria": "Child states: drop the e first, then add the suffix.",
+      "script": {
+        "say": "Teach me the rule for words that end in a silent e when we add -ing or -ed. … Exactly! You spotted the silent e every time and kicked it off before adding the tail — that's exactly the rule. Next time, a sneaky one-letter twin trick: hop and hope are about to have a fight!",
+        "adaptHints": "Process praise only — praise the crossing-first habit and reading words back, not 'being clever'."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say the rule out loud like a spelling champion: 'Drop the e before a vowel suffix!'", "target": "Drop the e before a vowel suffix" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l06-p01", "skill": "drop the e before -ing", "level": 1,
+      "block": { "type": "fillBlank", "text": "bake + ing = ___", "answer": "baking", "wordBank": ["baking", "bakeing", "bakking"] },
+      "expectedAnswer": "baking",
+      "wrongAnswers": [
+        { "answer": "bakeing", "why": "kept the silent e", "remedy": "Read it back — bake-ing, clunky! Find the silent e on the end of bake. What does it need to do first?" },
+        { "answer": "bakking", "why": "doubled the consonant instead of dropping the e", "remedy": "Does bake end in a silent e? Yes — so the move is DROP, not double. Cross the e, then add -ing." }
+      ],
+      "hints": ["Find the silent e on the end of bake.", "Cross the e off FIRST, then add -ing."],
+      "reteach": { "say": "Watch the e hop: b-a-k-e… the e hops off — b-a-k — then -ing moves in: baking. Cross first, add second.", "block": { "type": "table", "headers": ["root", "kick the e", "new word"], "rows": [["bake", "bak—", "baking"]] } },
+      "interestSlots": ["cakes", "biscuits"]
+    },
+    {
+      "id": "l06-p02", "skill": "drop the e before -ing", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "smile + ing = ?", "options": ["smiling", "smileing", "smilling"], "correct": 0, "explain": "The silent e hops off, then -ing moves in: smiling." },
+      "expectedAnswer": "smiling",
+      "wrongAnswers": [
+        { "answer": "smileing", "why": "kept the silent e", "remedy": "There's no room for both the e and the -ing. Which one has to hop off?" },
+        { "answer": "smilling", "why": "doubled the l instead of dropping the e", "remedy": "Smile ends in a silent e — this is a DROP word, not a double word. Cross the e first." }
+      ],
+      "hints": ["Does smile end in a silent e?", "Drop the e, THEN add the tail."],
+      "reteach": { "say": "Smile has a quiet e at the end. Before -ing moves in, the e hops away: smil… + ing… smiling. Say it with a big smile!", "block": { "type": "emojiViz", "emojis": "😊 ➕ ing", "caption": "smile → smiling (the e hopped off)" } }
+    },
+    {
+      "id": "l06-p03", "skill": "read the built word aloud", "level": 1,
+      "block": { "type": "speak", "prompt": "Here's a word we built: hoping. Read it aloud, nice and smooth.", "target": "hoping" },
+      "expectedAnswer": "Reads 'hoping' aloud with a long o (HOH-ping)",
+      "wrongAnswers": [
+        { "answer": "hopping (short o)", "why": "read it as the double-consonant word", "remedy": "Look closely — just ONE p. The e hopped off hope, so the o still says its long name: HOH-ping." },
+        { "answer": "hop-e-ing", "why": "tried to sound out the dropped e", "remedy": "The e is gone — it hopped away! Only two beats now: ho… ping." }
+      ],
+      "hints": ["It comes from the root hope.", "Two beats: ho… ping."],
+      "reteach": { "say": "This word grew from hope — wishing for something. The e hopped off, but the o remembers its long sound: HOH-ping. Say it with me: hoping." }
+    },
+    {
+      "id": "l06-p04", "skill": "drop the e before -ed", "level": 2,
+      "block": { "type": "fillBlank", "text": "hope + ed = ___", "answer": "hoped", "wordBank": ["hoped", "hopeed", "hopped"] },
+      "expectedAnswer": "hoped",
+      "wrongAnswers": [
+        { "answer": "hopeed", "why": "kept the silent e", "remedy": "Read it — hope-ed? Two e's squashed together! Cross the root's e off first." },
+        { "answer": "hopped", "why": "doubled instead of dropping", "remedy": "Hope ends in a silent e — so we drop, we don't double. (Hopped comes from hop — no e!)" }
+      ],
+      "hints": ["Hope ends in a silent e — what's the first move?", "Cross the e, then add -ed."],
+      "reteach": { "say": "Smaller step: hope. Cross the e — hop— wait, the letters say h-o-p now, but the word still remembers its long o. Add -ed: hoped. 'I hoped for sunshine.'", "block": { "type": "table", "headers": ["root", "kick the e", "new word"], "rows": [["hope", "hop—", "hoped"]] } }
+    },
+    {
+      "id": "l06-p05", "skill": "drop the e before -ing", "level": 2,
+      "block": { "type": "fillBlank", "text": "race + ing = ___", "answer": "racing", "wordBank": ["racing", "raceing", "raccing"] },
+      "expectedAnswer": "racing",
+      "wrongAnswers": [
+        { "answer": "raceing", "why": "kept the silent e", "remedy": "Say the rule with me: drop the e before a vowel suffix. Which letter hops off race?" },
+        { "answer": "raccing", "why": "doubled the c instead of dropping the e", "remedy": "Race ends in silent e — a DROP word. Cross the e, then add -ing." }
+      ],
+      "hints": ["Race ends in a silent e.", "e off first, then -ing."],
+      "reteach": { "say": "Race — the e is on the end, quiet as a mouse. It hops off, -ing zooms in: racing! Ready, steady, racing.", "block": { "type": "emojiViz", "emojis": "🏎️💨", "caption": "race → racing" } },
+      "interestSlots": ["racing cars", "running races"]
+    },
+    {
+      "id": "l06-p06", "skill": "drop the e across roots", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each root to its new word.", "pairs": [ { "left": "hope", "right": "hoping" }, { "left": "bake", "right": "baked" }, { "left": "smile", "right": "smiling" }, { "left": "race", "right": "racing" } ] },
+      "expectedAnswer": "hope→hoping, bake→baked, smile→smiling, race→racing",
+      "wrongAnswers": [
+        { "answer": "hope → hopping", "why": "confused with the double-consonant word from hop", "remedy": "Count the p's! Hoping has one p because it comes from hope — the e hopped off. Hopping needs the root hop." },
+        { "answer": "bake → bakeing", "why": "kept the silent e", "remedy": "Every root here ends in a silent e. What happens to the e before the tail goes on?" }
+      ],
+      "hints": ["Every root here ends in silent e — every new word dropped it.", "Look for the root's first letters inside the new word."],
+      "reteach": { "say": "All four roots end in a silent e, so all four new words dropped it. Hope → hoping, bake → baked, smile → smiling, race → racing. Cross, then add — every time.", "block": { "type": "table", "headers": ["root", "new word"], "rows": [["hope", "hoping"], ["bake", "baked"], ["smile", "smiling"], ["race", "racing"]] } }
+    },
+    {
+      "id": "l06-p07", "skill": "drop the e before -er/-est", "level": 3,
+      "block": { "type": "fillBlank", "text": "nice + er = ___", "answer": "nicer", "wordBank": ["nicer", "niceer", "niccer"] },
+      "expectedAnswer": "nicer",
+      "wrongAnswers": [
+        { "answer": "niceer", "why": "kept the silent e — two e's collide", "remedy": "-er starts with a vowel too! Same rule as -ing: what hops off first?" },
+        { "answer": "niccer", "why": "doubled instead of dropping", "remedy": "Nice ends in silent e — drop it, don't double. Cross the e, add -er." }
+      ],
+      "hints": ["-er starts with a vowel — so the same rule applies.", "Cross the e off nice, then add -er."],
+      "reteach": { "say": "New tail, same trick! -er and -est start with vowels, just like -ing and -ed. Nice: e hops off — nic — add -er: nicer. 'Your writing gets nicer every day!'", "block": { "type": "table", "headers": ["root", "+ er", "+ est"], "rows": [["nice", "nicer", "nicest"]] } }
+    },
+    {
+      "id": "l06-p08", "skill": "drop the e before -er/-est", "level": 3,
+      "block": { "type": "fillBlank", "text": "large + est = ___", "answer": "largest", "wordBank": ["largest", "largeest", "largist"] },
+      "expectedAnswer": "largest",
+      "wrongAnswers": [
+        { "answer": "largeest", "why": "kept the silent e", "remedy": "Two e's bumping heads! Which one hops off — the root's e or the suffix's e?" },
+        { "answer": "largist", "why": "dropped the e but misspelled the suffix", "remedy": "Good — the e hopped off! Now check the tail: the suffix is -est, e-s-t." }
+      ],
+      "hints": ["-est starts with a vowel, so the silent e must go.", "large → larg— → add -est."],
+      "reteach": { "say": "Large, cross the quiet e — larg — then -est marches in: largest. The largest dinosaur, the largest pizza… the rule works every time.", "block": { "type": "emojiViz", "emojis": "🦕", "caption": "large → largest" } },
+      "interestSlots": ["dinosaurs", "pizzas"]
+    },
+    {
+      "id": "l06-p09", "skill": "explain the drop-e rule", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend writes: hope + ing = hopeing. What went wrong, and what's the correct spelling?", "sample": "They kept the silent e. Before a vowel suffix like -ing, the e must be dropped: hoping." },
+      "expectedAnswer": "They kept the silent e; drop it first — the correct spelling is hoping",
+      "wrongAnswers": [
+        { "answer": "Nothing went wrong / it looks fine", "why": "shares the kept-the-e misconception", "remedy": "Read their word out loud — hope-ing. Hear the clunk? What does the silent e need to do before -ing moves in?" },
+        { "answer": "They should write hopping", "why": "fixed it with the wrong rule (doubling)", "remedy": "Careful — hopping comes from hop. Our root is hope, with a silent e. What's the drop-e fix?" }
+      ],
+      "hints": ["Read 'hopeing' out loud — what do you notice?", "Say the rule: drop the e before a ___ suffix."],
+      "reteach": { "say": "Be the spelling detective: the clue is the extra e. Hope ends in a silent e, and -ing starts with a vowel — so the e must hop off before the tail goes on. The fix: hoping, one e gone, job done.", "block": { "type": "table", "headers": ["their spelling", "the fix", "why"], "rows": [["hopeing", "hoping", "drop the e before a vowel suffix"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, mix -er/-est words with -ing/-ed words.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the e crossed off in red on the board, then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one -ed form and one -er/-est form, each read back aloud → mastery ≥ 0.8 for 'drop the e before a vowel suffix'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'the silent e is still there — it has to hop off.'",
+      "Step down: the tutor crosses the e; the child only adds the tail.",
+      "ONE hint: 'find the silent e on the end and cross it first.'",
+      "Re-ask a smaller version (just -ing on bake), then build back up.",
+      "Keep it safe: 'Spotting the silent e is the whole trick — let's find it together.'"
+    ],
+    "personalization": "Wrap the doing-words in the child's world (baking their favourite cake, racing their favourite car, riding to their favourite park) — the spelling words themselves never change.",
+    "endOnSuccess": "Finish on a winnable drop-e item; process praise: 'you crossed the e off first every single time — that's the habit of a real speller.'"
+  },
+
+  "differentiation": {
+    "support": "The tutor crosses the e; the child adds the suffix. Do -ing on all four roots first, then -ed.",
+    "stretch": "Spell nicer and largest (drop the e before -er/-est) and explain WHY the e goes."
+  },
+  "extension": "Find two more silent-e words (like, shine) and add -ing correctly (liking, shining).",
+  "assessmentEvidence": "Child correctly drops the e before a vowel suffix in at least three of four words (e.g. hoping, baked, smiling) and reads each back.",
+  "revisitLater": "Warm-up for Lesson 7 contrasting hope → hoping (drop e) with hop → hopping (double); feature in the Lesson 9 suffix sort."
+}

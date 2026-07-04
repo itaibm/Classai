@@ -1,0 +1,327 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u1-l01",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 1, "title": "Place value to 100", "essentialQuestion": "How do the tens and the ones decide how big a number is?" },
+  "lessonNumber": 1,
+  "kind": "lesson",
+  "topic": "Place value to 100",
+  "title": "Tens and ones to 100",
+  "durationMin": 22,
+  "objectives": ["By the end, I can build any number to 100 and say how many tens and ones it has."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "tens", "definition": "rods of ten — one rod is worth ten ones", "example": "3 tens make 30" },
+    { "term": "ones", "definition": "single cubes, worth one each", "example": "5 ones make 5" },
+    { "term": "digit", "definition": "a number symbol from 0 to 9", "example": "47 has the digits 4 and 7" },
+    { "term": "place", "definition": "where a digit sits — the place tells its value", "example": "the 4 in 47 sits in the tens place, so it's worth 40" },
+    { "term": "two-digit number", "definition": "a number written with two digits", "example": "65" }
+  ],
+  "emphasize": [
+    "A digit's PLACE decides its VALUE — the 6 in 65 means six TENS (sixty), not six.",
+    "Repeat the anchor phrase: 'Look at the tens first.'",
+    "Pre-empt the misconception that 34 and 43 are 'the same' because they share digits — position changes everything."
+  ],
+  "analysis": {
+    "keyConcepts": ["place value", "tens and ones", "a digit's position gives its value"],
+    "misconceptions": [
+      "34 and 43 are the same because they use the same digits",
+      "reading '47' as '4 and 7' with no values attached",
+      "numbers ending in 0 (like 70) 'have no ones' so the child stalls on them"
+    ],
+    "hooks": ["Which would you rather have — 34 sweets or 43 sweets?"],
+    "priorKnowledge": ["Year 1 tens and ones", "counting to 100"]
+  },
+
+  "materials": {
+    "human": ["base-10 ten-rods and ones-cubes (enough to 100)", "place-value mat with a Tens column and a Ones column", "mini-whiteboard and pen", "'34' and '43' written large on the whiteboard before the lesson"],
+    "digital": ["virtual rods on the whiteboard block", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes with REAL rods and cubes (hook + concrete explain). Say the script lines warmly in your own words; the maths and the anchor phrases must stay exact. When you place the last cube of 65 and say the handoff line, the AI character takes over on screen for the pictorial/abstract part, checks and practice. Keep the rods within the child's reach — the AI will ask the child to build with them once more during practice."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=ZQ3X93tjMYM",
+    "title": "Place Value Blocks (2-Digit Numbers) | Elementary Math with Mr. J",
+    "channel": "Elementary Math with Mr. J",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time Mr. J shows a ten-block, shout 'TEN!' — count along with him in tens.",
+    "afterCheck": { "question": "In the video, how did Mr. J count the ten-blocks — one by one, or in tens?", "expectedAnswer": "In tens — 10, 20, 30…" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Create curiosity about why digit position matters; retrieve Year 1 tens/ones.",
+      "note": "Don't resolve the puzzle — leave it open for the explain beat.",
+      "successCriteria": "Child reacts to the 34 vs 43 puzzle and points at the tens digit when asked.",
+      "script": {
+        "say": "I've written two numbers: 34 and 43. They use exactly the same two digits — a 3 and a 4. So… are they the same number? Hmm. Which would you rather have, 34 sweets or 43 sweets? … In a number like 34, which digit tells the tens?",
+        "adaptHints": "Swap 'sweets' for something the child loves (stickers, marbles). Listen for 'the 3' / 'the first one'."
+      },
+      "humanHandoff": {
+        "setup": "'34' and '43' written large on the whiteboard; rods and cubes hidden until the explain beat.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If the prerequisite is shaky: hand the child one ten-rod and one cube — 'this rod is a ten, this cube is a one' — and count a rod in tens: 10, 20…"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Model building 65 concretely: six tens counted in tens, five ones counted on.",
+      "note": "Think aloud, smallest steps. This is the CPA 'concrete' stage — real rods, real mat.",
+      "successCriteria": "Child watches a full build of 65 and hears '6 tens and 5 ones' with values.",
+      "script": {
+        "say": "Watch me build 65. Six tens first — 10, 20, 30, 40, 50, 60. Now five ones — 61, 62, 63, 64, 65. So 65 is 6 tens and 5 ones. The 6 isn't just six — it's six TENS, sixty. The place tells the value. — Right, now my friend on the screen is going to draw what we just built. Watch!",
+        "adaptHints": "The final sentence is the handoff line — say it as written."
+      },
+      "humanHandoff": {
+        "setup": "65 built on the place-value mat, tens left, ones right. Leave it visible.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Move to pictorial: the character draws 65 as sticks and dots, then the child directs a drawing of 24.",
+      "note": "The character redraws what the human built (bridging concrete → pictorial), then hands the pencil to the child's voice: the child says what to draw.",
+      "successCriteria": "Child correctly tells the character how many sticks and dots to draw for 24 and states '2 tens and 4 ones'.",
+      "script": {
+        "say": "I saw what you two built! Sixty-five — let me draw it my way. A long stick for every ten… one, two, three, four, five, six sticks. And a little dot for every one… five dots. Six tens and five ones — 65! Now YOU be the boss: we're drawing 24. How many sticks do I draw? … And how many dots?",
+        "adaptHints": "Pause for the child's answer after each question. If the kid answers with values ('twenty and four'), celebrate the language."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "65 = 6 tens and 5 ones",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "65", "size": 10, "bold": true },
+            { "k": "rect", "x": 8, "y": 14, "w": 4, "h": 28, "color": "blue", "fill": true },
+            { "k": "rect", "x": 15, "y": 14, "w": 4, "h": 28, "color": "blue", "fill": true },
+            { "k": "rect", "x": 22, "y": 14, "w": 4, "h": 28, "color": "blue", "fill": true },
+            { "k": "rect", "x": 29, "y": 14, "w": 4, "h": 28, "color": "blue", "fill": true },
+            { "k": "rect", "x": 36, "y": 14, "w": 4, "h": 28, "color": "blue", "fill": true },
+            { "k": "rect", "x": 43, "y": 14, "w": 4, "h": 28, "color": "blue", "fill": true },
+            { "k": "dot", "x": 60, "y": 20, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 20, "color": "orange" },
+            { "k": "dot", "x": 72, "y": 20, "color": "orange" },
+            { "k": "dot", "x": 60, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 28, "color": "orange" },
+            { "k": "text", "x": 26, "y": 50, "value": "6 tens = 60", "size": 5, "color": "blue" },
+            { "k": "text", "x": 66, "y": 50, "value": "5 ones = 5", "size": 5, "color": "orange" },
+            { "k": "text", "x": 50, "y": 58, "value": "60 + 5 = 65", "size": 6, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 15],
+      "goal": "Reveal whether the child reads place value or just digits.",
+      "note": "Ask the child to build 47 with the REAL rods in front of them, then answer on screen.",
+      "successCriteria": "Child answers '4 tens and 7 ones' and can justify why the 4 means forty.",
+      "script": {
+        "say": "Your turn with the real blocks! Build 47 on your mat. … Done? Now tell me: how many tens and how many ones?",
+        "adaptHints": "After a correct answer, always probe: 'How do you know it's 4 TENS, not just 4?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "47 is…",
+          "options": ["4 tens and 7 ones", "7 tens and 4 ones", "4 ones and 7 tens", "just a 4 and a 7"],
+          "correct": 0,
+          "explain": "The 4 sits in the tens place — it's worth 40. The 7 sits in the ones place — it's worth 7."
+        }
+      ],
+      "check": {
+        "question": "Build 47. How many tens and ones?",
+        "expectedAnswer": "4 tens and 7 ones",
+        "wrongAnswers": [
+          { "answer": "7 tens and 4 ones", "why": "read the digits into the wrong columns", "remedy": "Point to the tens column. Which digit lives there? Count those rods in tens." },
+          { "answer": "4 and 7 (no values)", "why": "reading digits, not place value", "remedy": "Count just the rods: 10, 20, 30, 40 — so the 4 is worth…?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [15, 20],
+      "goal": "Independent building and naming, scaffolds faded; include the zero-ones case (70).",
+      "note": "Director draws from the practiceBank. Start at level 2. The child may use the real rods for any item — encourage it on a miss (CPA step down).",
+      "successCriteria": "Child completes 3+ items correctly including one number ending in 0, and one reversed item ('5 tens and 3 ones — what number?').",
+      "script": {
+        "say": "Practice time! You're the builder now. I'll give you numbers — you tell me their tens and ones. And watch out… one of them is sneaky.",
+        "adaptHints": "Use the kid's interests for word framings (e.g. '58 football stickers'). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the columns got mixed up.'",
+        "Drop to fully concrete — clear everything, real ten-rods only first.",
+        "One hint: 'Tens go on the left, like reading.'",
+        "Re-ask a smaller number (e.g. 23), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise. Let's take a smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the rule in their own words; end on an earned success.",
+      "note": "Child-led recall — the character listens, doesn't lecture.",
+      "successCriteria": "Child explains why 34 and 43 are different using 'place' or 'tens'.",
+      "script": {
+        "say": "Remember our puzzle — 34 and 43? Tell me YOUR rule: why are they different? … Yes! The place changes the value. You built every number before you named it — that's exactly how mathematicians check themselves.",
+        "adaptHints": "Praise the specific process you observed this session (building first, counting in tens, self-correcting)."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l01-p01", "skill": "name tens and ones", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Look at 15. How many TENS does it have?", "options": ["1 ten", "5 tens", "15 tens"], "correct": 0, "explain": "15 is 1 ten and 5 ones." },
+      "expectedAnswer": "1 ten",
+      "wrongAnswers": [
+        { "answer": "5 tens", "why": "read the ones digit as tens", "remedy": "Which digit is on the left? That's the tens." },
+        { "answer": "15 tens", "why": "treats the whole number as tens", "remedy": "Build 15: one rod, five cubes. Count the rods only." }
+      ],
+      "hints": ["Teen numbers hide ONE ten inside.", "Build it: how many rods do you need?"],
+      "reteach": { "say": "Let's shrink it. Take just one ten-rod — that's 10. Add five cubes — 11, 12, 13, 14, 15. One rod, five cubes: 1 ten and 5 ones.", "block": { "type": "emojiViz", "emojis": "🟦 🔸🔸🔸🔸🔸", "caption": "15 = 1 ten and 5 ones" } }
+    },
+    {
+      "id": "l01-p02", "skill": "name tens and ones", "level": 1,
+      "block": { "type": "fillBlank", "text": "32 = ___ tens and 2 ones", "answer": "3", "wordBank": ["2", "3", "30"] },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "2", "why": "mixed up the columns", "remedy": "Point at the left digit of 32 — that one lives in the tens place." },
+        { "answer": "30", "why": "gave the value instead of the count of tens", "remedy": "Good — the tens ARE worth 30. But how many rods is that?" }
+      ],
+      "hints": ["The left digit counts the rods.", "Build 32 with rods and cubes, then count the rods."],
+      "reteach": { "say": "Watch: 32. Three rods — 10, 20, 30. Two cubes — 31, 32. So 32 is 3 tens and 2 ones.", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦 🔸🔸", "caption": "32 = 3 tens and 2 ones" } }
+    },
+    {
+      "id": "l01-p03", "skill": "name tens and ones", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "How many tens and ones in 58?", "options": ["5 tens and 8 ones", "8 tens and 5 ones", "58 ones", "5 ones and 8 tens"], "correct": 0, "explain": "The 5 is in the tens place (fifty), the 8 is in the ones place." },
+      "expectedAnswer": "5 tens and 8 ones",
+      "wrongAnswers": [
+        { "answer": "8 tens and 5 ones", "why": "columns swapped", "remedy": "Which digit comes first when you read 58? That's the tens." },
+        { "answer": "58 ones", "why": "no grouping into tens", "remedy": "Counting 58 cubes one by one takes ages — swap every ten cubes for a rod. How many rods?" }
+      ],
+      "hints": ["Say the number out loud: 'fifty-eight' — can you hear the fifty?", "5 tens are worth how much?"],
+      "reteach": { "say": "Listen to the number's name: FIFTY-eight. Fifty means five tens. Then eight ones. The name almost tells you the answer!", "block": { "type": "keyTerm", "term": "fifty-eight", "definition": "5 tens (fifty) and 8 ones (eight)", "example": "58 = 50 + 8" } }
+    },
+    {
+      "id": "l01-p04", "skill": "name tens and ones", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "A number has 4 tens and 7 ones. Type the number.", "answer": 47 },
+      "expectedAnswer": "47",
+      "wrongAnswers": [
+        { "answer": "74", "why": "wrote ones first", "remedy": "Tens are written first, on the left. 4 tens, then 7 ones." },
+        { "answer": "11", "why": "added 4 + 7", "remedy": "We're not adding the digits — 4 TENS are worth 40. 40 and 7 make…?" }
+      ],
+      "hints": ["Tens digit first, ones digit second.", "4 tens = 40. Now add the 7 ones."],
+      "reteach": { "say": "Build it: four rods — 10, 20, 30, 40. Seven cubes — 41…47. Four tens and seven ones is forty-seven, written 47.", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦🟦 🔸🔸🔸🔸🔸🔸🔸", "caption": "4 tens + 7 ones = 47" } }
+    },
+    {
+      "id": "l01-p05", "skill": "zero-ones numbers", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The sneaky one! How many tens and ones in 70?", "options": ["7 tens and 0 ones", "7 tens and 10 ones", "0 tens and 7 ones", "70 tens"], "correct": 0, "explain": "70 is seven full rods and NO loose cubes — 7 tens, 0 ones." },
+      "expectedAnswer": "7 tens and 0 ones",
+      "wrongAnswers": [
+        { "answer": "0 tens and 7 ones", "why": "columns swapped, zero misread", "remedy": "Build 70 with only rods. How many rods? Any loose cubes?" },
+        { "answer": "7 tens and 10 ones", "why": "thinks the 0 means ten", "remedy": "The 0 means NONE — zero loose cubes. Count what's on the mat." }
+      ],
+      "hints": ["Can you build 70 using ONLY rods?", "The 0 counts the loose cubes. How many are there?"],
+      "reteach": { "say": "Seventy is a tidy number — seven rods, and not a single loose cube. 7 tens, 0 ones. Zero is a real answer!", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦🟦🟦🟦🟦", "caption": "70 = 7 tens and 0 ones" } }
+    },
+    {
+      "id": "l01-p06", "skill": "build from tens and ones", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "5 tens and 3 ones — what number is that?", "answer": 53 },
+      "expectedAnswer": "53",
+      "wrongAnswers": [
+        { "answer": "35", "why": "reversed the digits", "remedy": "Which part is bigger, 5 tens or 3 ones? The tens lead." },
+        { "answer": "8", "why": "added 5 + 3", "remedy": "5 TENS are worth 50, not 5. 50 and 3 make…?" }
+      ],
+      "hints": ["5 tens are worth fifty.", "Say it: 'fifty… three' — now write it."],
+      "reteach": { "say": "Five rods: 10, 20, 30, 40, 50. Three cubes: 51, 52, 53. Fifty-three — 53.", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦🟦🟦 🔸🔸🔸", "caption": "5 tens + 3 ones = 53" } }
+    },
+    {
+      "id": "l01-p07", "skill": "name tens and ones", "level": 3,
+      "block": { "type": "trueFalse", "statement": "34 and 43 have the same value because they use the same digits.", "correct": false, "explain": "Place changes value: 34 has 3 tens (thirty), 43 has 4 tens (forty)." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — digits without places", "remedy": "Build both. Whose tens-tower is taller? Are they the same amount?" }
+      ],
+      "hints": ["Build both numbers and compare the rods.", "Which has more tens — 34 or 43?"],
+      "reteach": { "say": "Same digits, different jobs! In 34 the 3 is the boss of the tens — thirty. In 43 the 4 is the boss — forty. The place gives the digit its power.", "block": { "type": "table", "headers": ["number", "tens", "ones"], "rows": [["34", "3 tens = 30", "4 ones = 4"], ["43", "4 tens = 40", "3 ones = 3"]], "caption": "Same digits — different values" } }
+    },
+    {
+      "id": "l01-p08", "skill": "build from tens and ones", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Make the BIGGEST two-digit number you can with the digits 9 and 2. Type it.", "answer": 92 },
+      "expectedAnswer": "92",
+      "wrongAnswers": [
+        { "answer": "29", "why": "didn't put the bigger digit in the tens place", "remedy": "Where does a digit do the most work — tens or ones? Put the 9 there." }
+      ],
+      "hints": ["The tens place is the powerful place.", "9 tens or 2 tens — which is more?"],
+      "reteach": { "say": "The tens seat is the throne — whoever sits there gets multiplied by ten. Put the 9 on the throne: 92, ninety-two. 29 only gives the 9 a little job.", "block": { "type": "table", "headers": ["choice", "value"], "rows": [["92", "9 tens + 2 ones = 92"], ["29", "2 tens + 9 ones = 29"]], "caption": "The 9 works harder in the tens place" } }
+    },
+    {
+      "id": "l01-p09", "skill": "zero-ones numbers", "level": 3,
+      "block": { "type": "shortText", "prompt": "What is 7 tens and 0 ones? Say or type the number — and explain how you know without any blocks.", "sample": "70 — seven tens are worth seventy and there are no extra ones." },
+      "expectedAnswer": "70, because 7 tens = 70 and 0 ones adds nothing",
+      "wrongAnswers": [
+        { "answer": "7", "why": "ignored that these are TENS", "remedy": "Each ten is worth ten. Count them: 10, 20, … keep going seven times." },
+        { "answer": "700", "why": "over-multiplied", "remedy": "Seven tens — count in tens on your fingers: 10, 20, 30, 40, 50, 60, 70." }
+      ],
+      "hints": ["Count in tens seven times.", "The 0 just means no loose ones."],
+      "reteach": { "say": "No blocks needed — count in tens with me on fingers: 10, 20, 30, 40, 50, 60, 70. Seven fingers, seventy. And zero ones means we stop right there.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "highlight": 70 } }
+    },
+    {
+      "id": "l01-p10", "skill": "name tens and ones", "level": 3,
+      "block": { "type": "categorize", "prompt": "Sort these into the right bucket.", "buckets": ["has 3 tens", "has 3 ones"], "items": [ { "text": "34", "bucket": "has 3 tens" }, { "text": "83", "bucket": "has 3 ones" }, { "text": "31", "bucket": "has 3 tens" }, { "text": "43", "bucket": "has 3 ones" }, { "text": "73", "bucket": "has 3 ones" }, { "text": "39", "bucket": "has 3 tens" } ] },
+      "expectedAnswer": "34, 31, 39 → has 3 tens; 83, 43, 73 → has 3 ones",
+      "wrongAnswers": [
+        { "answer": "any number containing a 3 goes to 'has 3 tens'", "why": "matching the digit, not its place", "remedy": "For each number ask: is the 3 on the LEFT (tens) or the RIGHT (ones)?" }
+      ],
+      "hints": ["Left digit = tens, right digit = ones.", "Take 83: where is the 3 sitting?"],
+      "reteach": { "say": "Same digit, two different homes. In 34 the 3 lives on the left — the tens house, worth thirty. In 83 the 3 lives on the right — the ones house, worth three.", "block": { "type": "table", "headers": ["number", "where the 3 lives", "worth"], "rows": [["34", "tens", "30"], ["83", "ones", "3"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave skills (mix 'name' and 'build' items).",
+    "levelDown": "2 misses on the same skill → run that item's reteach, invite the child to build with the REAL rods (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including the zero-ones case (70/90) and one reversed item → mastery ≥ 0.8 for 'tens and ones to 100'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why (slip / columns swapped / digits-without-values).",
+      "Drop a CPA stage: back to real rods, or shrink to a teen number.",
+      "Give ONE hint or a sentence starter.",
+      "Re-ask a smaller version, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise. Let's take a smaller step.'"
+    ],
+    "personalization": "Swap counted objects for the learner's interests (LearnerModel.interests) in prompts and the hook — never change the numbers or the maths language.",
+    "endOnSuccess": "Finish with an item the child can win (drop a level if needed), then specific process praise: what they DID (built first, counted in tens, self-corrected) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Keep the labelled place-value mat; sort rods and cubes into columns before counting; start with teen numbers (15, 18) so there's only one ten.",
+    "stretch": "'What is 7 tens and 0 ones?' with no equipment; 'Make the biggest two-digit number with 9 and 2 — why?'"
+  },
+  "extension": "Place Value Basketball — the character calls a number; the child 'shoots' each digit into the right column on the mat as fast as they can, saying its value.",
+  "assessmentEvidence": "Child independently builds 2–3 given numbers and states tens/ones correctly, including a number ending in 0.",
+  "revisitLater": "Quick 'how many tens and ones?' starter in the next 2–3 lessons; bring 70 back to keep the zero-ones idea alive."
+}

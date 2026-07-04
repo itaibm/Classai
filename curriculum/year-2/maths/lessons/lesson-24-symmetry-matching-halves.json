@@ -1,0 +1,339 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u7-l24",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 7, "title": "Statistics, shape and symmetry", "essentialQuestion": "How do we record data, and how do we describe shapes by their parts and their symmetry?" },
+  "lessonNumber": 24,
+  "kind": "lesson",
+  "topic": "Geometry: symmetry",
+  "title": "Symmetry: matching halves",
+  "durationMin": 22,
+  "objectives": ["By the end, I can find a line of symmetry by folding so both halves match."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "line of symmetry", "definition": "a fold line where both halves land exactly on top of each other", "example": "the fold down the middle of a butterfly" },
+    { "term": "fold", "definition": "bend the paper over so one half lies on the other — that's the test", "example": "fold the square edge to edge" },
+    { "term": "match exactly", "definition": "every edge and every corner lands on top — not just nearly", "example": "the butterfly's wings match exactly" },
+    { "term": "mirror line", "definition": "another name for a line of symmetry — one side mirrors the other", "example": "stand a mirror on the line and the shape looks whole" },
+    { "term": "halves", "definition": "the two parts a fold makes — for symmetry they must be identical twins", "example": "the fold makes two matching halves" },
+    { "term": "symmetrical", "definition": "a shape with at least one line of symmetry", "example": "a heart is symmetrical" }
+  ],
+  "emphasize": [
+    "The fold TEST is the whole lesson: it's only a line of symmetry if both halves land EXACTLY on top — edges meeting, corners meeting.",
+    "Pre-empt 'any line down the middle works' and 'it looks same-ish, so it's symmetric' — same-ish is not a match; TEST, don't guess.",
+    "The rectangle's corner-to-corner fold is the great trap: it makes two equal triangles, but they do NOT land on top — a diagonal is not a mirror line on a rectangle. And some shapes (a wonky triangle) have NO line of symmetry at all."
+  ],
+  "analysis": {
+    "keyConcepts": ["a line of symmetry is a fold where both halves match exactly", "testing by folding beats judging by eye", "counting lines of symmetry: square 4, rectangle 2, wonky (scalene) triangle 0", "equal-sized halves are not automatically mirror halves"],
+    "misconceptions": [
+      "any line through the middle of a shape is a line of symmetry",
+      "a rectangle's diagonal is a line of symmetry (it makes two equal triangles, but they don't fold onto each other)",
+      "symmetry means the two sides look 'same-ish' rather than matching exactly",
+      "every shape must have at least one line of symmetry"
+    ],
+    "hooks": ["A butterfly's two wings are a perfect match — how could we TEST for that perfect match?"],
+    "priorKnowledge": ["folding shapes into equal halves and quarters (Lesson 13)", "names of 2-D shapes — square, rectangle, triangle, circle (Lesson 23)"]
+  },
+
+  "materials": {
+    "human": ["paper cut-outs: a square, a rectangle (not square), a circle, and a wonky (scalene) triangle", "a butterfly outline on paper", "paint and a brush (for the paint-fold butterfly) plus scrap paper underneath", "scissors", "a small mirror (optional, for checking lines)"],
+    "digital": ["whiteboard drawings of the square's and rectangle's fold lines", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes with REAL paper — that's the whole point: a line of symmetry is something you FOLD and feel, not just look at. Cut out the square, rectangle, circle and a deliberately wonky (scalene) triangle before the lesson, plus a butterfly outline; keep the paint for practice time. Say the script lines warmly in your own words, but keep the maths exact: it only counts if both halves land EXACTLY on top; the square has 4 lines of symmetry; the wonky triangle has none. When you say the handoff line ('Now my friend on the screen is going to draw what we found. Watch!'), the AI takes over for the pictorial part, checks and practice. Keep the paper shapes within the child's reach — the AI will send the child back to fold them, and the paint-fold butterfly happens during practice."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "BBC Bitesize",
+    "searchTerm": "lines of symmetry KS1",
+    "watchTask": "Every time a shape appears, vote BEFORE the video tests it: symmetry or no symmetry? Do an imaginary fold in the air, then see if you were right.",
+    "afterCheck": { "question": "How does the video check whether a line is a real line of symmetry?", "expectedAnswer": "Fold on it (or use a mirror) — both halves must match exactly." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Spark the perfect-match mystery with a butterfly; retrieve 'equal halves' from the fractions unit.",
+      "note": "Fold the butterfly slowly and dramatically — the wings landing exactly on top IS the idea. Don't name 'line of symmetry' yet.",
+      "successCriteria": "Child says the wings 'match' or 'land on top' and suggests folding as the test.",
+      "script": {
+        "say": "Look at this butterfly. Its two wings are a perfect match — one side mirrors the other, like twins. But how could we TEST that? How do we PROVE the two sides match perfectly? … Fold it! Watch — I fold it down the middle… and the wings land exactly on top of each other. Quick memory check: when we folded shapes in our fractions lessons, what did the two halves have to be?",
+        "adaptHints": "Let the child do the fold if they're keen. Listen for 'equal / the same / they land on top' — that memory is the seed of the fold test."
+      },
+      "humanHandoff": {
+        "setup": "Butterfly outline on the table; the square, rectangle, circle and wonky triangle hidden nearby, ready for the explain beat. Paint stays out of sight until practice.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If 'equal halves' is shaky: fold a plain strip of paper in half — 'two parts, exactly the same size, landing on top — that's equal halves.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Name and model the fold test: the square folds to matching halves 4 ways; the wonky triangle never matches — some shapes have no line of symmetry.",
+      "note": "This is the CPA concrete stage. Fold slowly, thinking aloud, and let the child feel the edges meeting. The wonky triangle failing is as important as the square succeeding.",
+      "successCriteria": "Child watches folds that match (square) and folds that don't (wonky triangle) and hears the rule: only an exact landing counts.",
+      "script": {
+        "say": "That fold has a special name: a LINE OF SYMMETRY — a fold where both halves land EXACTLY on top of each other. Watch me test the square. Edge to edge… every corner meets — that's a line of symmetry! Side to side the other way — match again. Now corner to corner… and corner to corner the other way — they ALL match. A square has FOUR lines of symmetry! Now this wonky triangle. Fold… no. Another way… no. However I fold it, the halves never land on top — this shape has NO line of symmetry at all. So remember: it only counts if the halves match EXACTLY — not just nearly. — Right, now my friend on the screen is going to draw what we found. Watch!",
+        "adaptHints": "Hand the child the square for one of the four folds so they feel the corners meet. The last sentence is the handoff line — say it as written."
+      },
+      "humanHandoff": {
+        "setup": "The square (with its fold creases) and the wonky triangle left on the table; the rectangle within the child's reach for the next beat.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Move to pictorial: the character draws the square's 4 lines, then the child folds the REAL rectangle — 2 folds work, and the diagonal FAILS.",
+      "note": "Bridge concrete → pictorial. The rectangle's diagonal is the key moment: it looks fair (two equal triangles) but the fold proves it wrong. The child does the folding; the character narrates.",
+      "successCriteria": "Child folds the rectangle, finds the 2 true lines, tries the diagonal and says the halves don't land on top.",
+      "script": {
+        "say": "I saw everything! Let me draw your square — one, two, three, FOUR lines of symmetry, the champion of folding. Now grab the rectangle — YOU'RE the tester. Fold it straight across the middle, the short way. Do the halves land exactly on top? … Now the long way — does that work too? … Two lines! Now the sneaky one: fold it corner to corner, like the square. Look carefully — do the corners land on each other? … NO! The halves swing past each other. Corner to corner worked on the square, but on the rectangle it's a trick — two equal triangles, but NOT a line of symmetry. The fold never lies!",
+        "adaptHints": "Pause while the child folds each way. If they say the diagonal 'looks right', celebrate the test: 'that's exactly why we fold — eyes can be tricked, folds can't.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Fold test: square vs rectangle",
+          "animate": true,
+          "elements": [
+            { "k": "rect", "x": 10, "y": 16, "w": 24, "h": 24, "color": "blue" },
+            { "k": "line", "x1": 22, "y1": 12, "x2": 22, "y2": 44, "color": "green" },
+            { "k": "line", "x1": 6, "y1": 28, "x2": 38, "y2": 28, "color": "green" },
+            { "k": "line", "x1": 10, "y1": 16, "x2": 34, "y2": 40, "color": "green" },
+            { "k": "line", "x1": 34, "y1": 16, "x2": 10, "y2": 40, "color": "green" },
+            { "k": "text", "x": 22, "y": 49, "value": "square: 4 lines of symmetry", "size": 4, "color": "blue" },
+            { "k": "rect", "x": 54, "y": 19, "w": 38, "h": 18, "color": "orange" },
+            { "k": "line", "x1": 73, "y1": 15, "x2": 73, "y2": 41, "color": "green" },
+            { "k": "line", "x1": 50, "y1": 28, "x2": 96, "y2": 28, "color": "green" },
+            { "k": "line", "x1": 54, "y1": 19, "x2": 92, "y2": 37, "color": "red" },
+            { "k": "text", "x": 73, "y": 44, "value": "✗ diagonal — the corners miss!", "size": 3.5, "color": "red" },
+            { "k": "text", "x": 73, "y": 50, "value": "rectangle: only 2 lines", "size": 4, "color": "orange" },
+            { "k": "text", "x": 50, "y": 58, "value": "Only a fold where the halves land EXACTLY on top", "size": 4.5, "bold": true, "color": "accent" }
+          ]
+        },
+        { "type": "fillBlank", "text": "A square has ___ lines of symmetry.", "answer": "4", "wordBank": ["4", "2", "1"] }
+      ],
+      "check": {
+        "question": "Is the rectangle's corner-to-corner (diagonal) fold a line of symmetry?",
+        "expectedAnswer": "No — the halves don't land on top of each other; only the two straight-across-the-middle folds work.",
+        "wrongAnswers": [
+          { "answer": "Yes — it makes two triangles that are the same", "why": "equal-sized halves mistaken for mirror halves — the diagonal trap", "remedy": "Equal size isn't the test! Fold it for real — do the corners land ON each other, or swing past?" },
+          { "answer": "Yes — any line through the middle works", "why": "the 'any middle line' misconception — assuming instead of testing", "remedy": "Fold on YOUR line — do the halves land exactly on top? If not, it isn't a line of symmetry." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "The unit's key diagnostic: does a square have a line of symmetry? The child must PROVE it by folding, not just say yes.",
+      "note": "The answer alone isn't enough — probe for the method ('how did the fold prove it?'). Watch for 'any line is fine' and the rectangle-diagonal confusion.",
+      "successCriteria": "Child answers yes (ideally 'four!') and explains that the fold made both halves land exactly on top.",
+      "script": {
+        "say": "Big check, fold-detective! Pick up your paper square. Does a square have a line of symmetry? Prove it to me with a fold… and then tell me: HOW did the fold prove it?",
+        "adaptHints": "After a correct answer, stretch: 'How many can you find altogether?' and 'Why did corner-to-corner work here but NOT on the rectangle?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Does a square have a line of symmetry?",
+          "options": ["Yes — 4 of them!", "No — none", "Yes — but only 1", "Every line through a square is one"],
+          "correct": 0,
+          "explain": "Fold edge to edge both ways, and corner to corner both ways — all four folds land the halves exactly on top. Four lines of symmetry!"
+        }
+      ],
+      "check": {
+        "question": "Does a square have a line of symmetry? Prove it by folding.",
+        "expectedAnswer": "Yes — in fact 4: edge to edge both ways and corner to corner both ways; each fold lands the halves exactly on top",
+        "wrongAnswers": [
+          { "answer": "any line through it is fine", "why": "assuming instead of testing — the 'any line' misconception", "remedy": "Try a wonky fold on your square — do the halves land exactly on top? Only SOME folds pass the test. Which ones?" },
+          { "answer": "no", "why": "a sloppy fold didn't line up, so the match was missed", "remedy": "Fold slowly and line the edges up first, like closing a book. Now do the corners meet?" },
+          { "answer": "yes, and the rectangle's diagonal works too", "why": "carried the square's diagonal over to the rectangle", "remedy": "Test them side by side: corner-to-corner on the square… and on the rectangle. Which one actually lands the halves on top?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Independent fold-testing across shapes, counting lines on the rectangle vs the square, and the paint-fold butterfly as the grand finale.",
+      "note": "Director draws from the practiceBank, start level 2. Send the child to the REAL paper shapes on any miss (CPA step down). End the beat with the paint-fold butterfly: paint one half, fold, press, open — a symmetrical picture made BY a fold.",
+      "successCriteria": "Child completes 3+ items correctly including one 'the diagonal fails' item, then makes the paint-fold butterfly.",
+      "script": {
+        "say": "Practice time, fold-detective! Shapes will try to trick you — some lines are real mirror lines, some are impostors. Your paper shapes are right there: when in doubt, FOLD. Crack enough cases and you've earned the messy bit… the magic paint-fold butterfly!",
+        "adaptHints": "Use the child's interests for shape framings (a football shirt, a rocket, their initial letter). Never change which shapes are and aren't symmetrical."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think that line got judged by eye — same-ish isn't a match.'",
+        "Go concrete: fold the real paper shape together on that exact line.",
+        "One hint: 'Do the halves land EXACTLY on top — corners meeting corners?'",
+        "Re-test the square (the friendliest folder), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the fold test in their own words; end on an earned success.",
+      "note": "Child-led recall — the character listens, doesn't lecture. The butterfly they just made is the proof in their hands.",
+      "successCriteria": "Child says a line of symmetry means folding so both halves match exactly (own words fine).",
+      "script": {
+        "say": "Look at the butterfly YOU made — is it symmetrical? How do you know? … And tell me your detective rule: how do we KNOW a line is a real line of symmetry? … Exactly — fold on it, and both halves must land exactly on top. You tested by folding instead of guessing, even when the diagonal tried to trick you — that's how mathematicians check symmetry.",
+        "adaptHints": "Praise the specific process observed: folding to test, rejecting the rectangle's diagonal, lining up edges carefully."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l24-p01", "skill": "the fold test", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "How do we TEST whether a line is a line of symmetry?", "options": ["Fold on the line — both halves must land exactly on top", "Check both sides look about the same", "Check the line goes through the middle"], "correct": 0, "explain": "Eyes can be tricked — folds can't. It's only a line of symmetry if the fold lands both halves exactly on top." },
+      "expectedAnswer": "Fold on the line — both halves must land exactly on top",
+      "wrongAnswers": [
+        { "answer": "Check both sides look about the same", "why": "the 'same-ish' misconception — judging by eye instead of testing", "remedy": "Looks can trick you! What could you DO with the paper to be absolutely sure?" },
+        { "answer": "Check the line goes through the middle", "why": "the 'any middle line' misconception", "remedy": "The rectangle's diagonal goes right through the middle — fold on it. Do the halves match? So 'through the middle' isn't enough." }
+      ],
+      "hints": ["What did we do to the butterfly to prove its wings match?", "Paper can prove it — no guessing needed."],
+      "reteach": { "say": "Back to the butterfly: we didn't just LOOK at the wings — we FOLDED, and they landed exactly on top. That's the whole test: fold on the line, and if every edge and corner meets, it's a line of symmetry. If anything sticks out — it isn't.", "block": { "type": "emojiViz", "emojis": "🦋 ➡️ 📄 fold ➡️ ✅ wings land exactly on top", "caption": "The fold test: exact landing = line of symmetry" } }
+    },
+    {
+      "id": "l24-p02", "skill": "spot symmetry", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Does a square have a line of symmetry?", "options": ["Yes — fold it edge to edge and the halves match", "No — squares can't fold", "Only if you cut it first"], "correct": 0, "explain": "Fold a square edge to edge and the two halves land exactly on top — that fold is a line of symmetry (and there are 3 more!)." },
+      "expectedAnswer": "Yes — fold it edge to edge and the halves match",
+      "wrongAnswers": [
+        { "answer": "No — squares can't fold", "why": "hasn't tested — guessing instead of folding", "remedy": "Grab your paper square and fold it edge to edge, like closing a book. What happens to the two halves?" },
+        { "answer": "Only if you cut it first", "why": "confuses folding with cutting", "remedy": "No scissors needed! The fold alone shows the match — try it on the square." }
+      ],
+      "hints": ["Fold it like closing a book.", "Do the corners land on the corners?"],
+      "reteach": { "say": "Take the square and fold it edge to edge, slowly. Look: every edge meets, every corner meets — the halves are twins. Yes, a square has a line of symmetry. Keep folding new ways and you'll find even more!", "block": { "type": "emojiViz", "emojis": "⬜ ➡️ 📖 fold ➡️ ✅ corners meet corners", "caption": "The square passes the fold test" } }
+    },
+    {
+      "id": "l24-p03", "skill": "count lines of symmetry", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Fold your paper square every way you can. How many lines of symmetry does a square have?", "answer": 4 },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "2", "why": "found the two edge-to-edge folds but missed the diagonals", "remedy": "Two found — now try corner to corner. Do the halves land on top? And the other corners?" },
+        { "answer": "1", "why": "stopped after the first successful fold", "remedy": "One line is real — but a square is generous. Turn the square and fold a NEW way. Does that one match too?" }
+      ],
+      "hints": ["Edge to edge two ways… then corner to corner.", "A square beats the rectangle — more than 2."],
+      "reteach": { "say": "Hunt them one at a time: fold top-to-bottom — match, that's 1. Side-to-side — 2. Corner to corner — 3. The other corners — 4. Four folds, four perfect landings. The square is the folding champion: 4 lines of symmetry.", "block": { "type": "table", "headers": ["fold", "halves match?"], "rows": [["top to bottom", "✓"], ["side to side", "✓"], ["corner to corner", "✓"], ["other corners", "✓"]], "caption": "A square: 4 lines of symmetry" } }
+    },
+    {
+      "id": "l24-p04", "skill": "count lines of symmetry", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Now the rectangle (the long one, not the square). Fold it every way. How many lines of symmetry does it have?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "4", "why": "copied the square's answer — but a rectangle's diagonals FAIL the fold test", "remedy": "Fold the rectangle corner to corner and watch closely — do the corners land on each other, or miss?" },
+        { "answer": "0", "why": "folds weren't lined up, so real matches were missed", "remedy": "Fold straight across the middle, short way — line the edges up like closing a book. Do the halves land on top now?" }
+      ],
+      "hints": ["Straight across the middle — short way and long way.", "Corner to corner is a TRICK on rectangles."],
+      "reteach": { "say": "The rectangle only has the two straight-across folds: across the middle the short way — match. Across the middle the long way — match. But corner to corner? The halves swing past each other — no match. Two lines of symmetry, and not one more.", "block": { "type": "table", "headers": ["fold", "halves match?"], "rows": [["across the middle (short way)", "✓"], ["across the middle (long way)", "✓"], ["corner to corner", "✗ the corners miss"]], "caption": "A rectangle: 2 lines of symmetry" } }
+    },
+    {
+      "id": "l24-p05", "skill": "the diagonal trap", "level": 2,
+      "block": { "type": "trueFalse", "statement": "A corner-to-corner (diagonal) fold on a rectangle is a line of symmetry.", "correct": false, "explain": "The diagonal cuts the rectangle into two equal triangles — but fold it and they do NOT land on top of each other. Equal halves are not always MATCHING halves." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True — it makes two triangles exactly the same size", "why": "the lesson's diagonal misconception — equal-sized halves mistaken for mirror halves", "remedy": "Equal size isn't the test! Fold your rectangle on the diagonal — do the corners land ON each other, or swing past?" },
+        { "answer": "True — it worked on the square", "why": "carried the square's diagonal success over to the rectangle", "remedy": "The square's sides are all equal, so its diagonal fold matches. Test the rectangle the same way — what happens to its corners?" }
+      ],
+      "hints": ["Fold it — where do the corners land?", "Two equal pieces isn't enough. Do they land EXACTLY on top?"],
+      "reteach": { "say": "This is the sneakiest trick in symmetry! The diagonal DOES cut the rectangle into two equal triangles — but slide is not the same as mirror. Fold it: the triangles swing past each other and the corners miss. On a square the diagonal works because all four sides match; on a rectangle it never does. When in doubt — fold it out!", "block": { "type": "table", "headers": ["shape", "corner-to-corner fold", "why"], "rows": [["square", "✓ matches", "all sides equal"], ["rectangle", "✗ corners miss", "long and short sides differ"]], "caption": "The diagonal: friend to squares, impostor on rectangles" } }
+    },
+    {
+      "id": "l24-p06", "skill": "spot symmetry", "level": 2,
+      "block": { "type": "categorize", "prompt": "Fold-test each of these in your head (or with paper!). Sort them.", "buckets": ["has a line of symmetry", "no line of symmetry"], "items": [ { "text": "butterfly", "bucket": "has a line of symmetry" }, { "text": "square", "bucket": "has a line of symmetry" }, { "text": "heart", "bucket": "has a line of symmetry" }, { "text": "wonky (scalene) triangle", "bucket": "no line of symmetry" }, { "text": "the letter F", "bucket": "no line of symmetry" } ] },
+      "expectedAnswer": "butterfly, square, heart → has a line of symmetry; wonky triangle, letter F → no line of symmetry",
+      "wrongAnswers": [
+        { "answer": "wonky triangle → has a line of symmetry", "why": "assumes every shape has one", "remedy": "Fold the wonky triangle every way you can. Do the halves EVER land exactly on top?" },
+        { "answer": "the letter F → has a line of symmetry", "why": "same-ish guessing — didn't imagine the fold", "remedy": "Imagine folding the F down the middle — where does the top bar land? On another bar, or on empty space?" }
+      ],
+      "hints": ["Imagine the fold — do the two halves land exactly on top?", "Wonky shapes with no matching sides usually fail."],
+      "reteach": { "say": "Give each one the imaginary fold. Butterfly: wings land on wings — yes. Heart: the two bumps meet — yes. Square: easy yes. Wonky triangle: every fold leaves bits sticking out — no. The letter F: fold it and the arms land on empty air — no. Not every shape gets a mirror line — that's what makes the test worth doing!", "block": { "type": "table", "headers": ["shape", "fold result", "symmetry?"], "rows": [["butterfly", "wings land on wings", "✓"], ["heart", "bumps meet", "✓"], ["square", "4 perfect folds", "✓"], ["wonky triangle", "bits stick out", "✗"], ["letter F", "arms land on air", "✗"]] } },
+      "interestSlots": ["butterfly", "heart"]
+    },
+    {
+      "id": "l24-p07", "skill": "find the true line", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which fold on a rectangle IS a line of symmetry?", "options": ["Straight across the middle", "Corner to corner", "Any fold that goes through the middle", "No fold works on a rectangle"], "correct": 0, "explain": "Only the two straight-across-the-middle folds land the halves exactly on top. The diagonal goes through the middle too — but its halves miss." },
+      "expectedAnswer": "Straight across the middle",
+      "wrongAnswers": [
+        { "answer": "Corner to corner", "why": "the diagonal trap again — equal triangles are not mirror halves", "remedy": "Fold it and watch the corners — do they land on each other?" },
+        { "answer": "Any fold that goes through the middle", "why": "the 'any middle line' misconception", "remedy": "The diagonal goes through the middle too — and it fails. Which folds actually make the halves land on top?" }
+      ],
+      "hints": ["Think of folding it like closing a book — straight, not slanted.", "There are exactly two folds that work."],
+      "reteach": { "say": "A rectangle folds like a book or a birthday card: straight across the middle, short way or long way — edges meet, corners meet, perfect match. Slanted folds, even ones through the exact middle, leave the halves swinging past each other. Straight across = mirror line; slanted = impostor.", "block": { "type": "emojiViz", "emojis": "📕 straight fold ✓ | 📐 slanted fold ✗", "caption": "Rectangles fold like books — straight across" } }
+    },
+    {
+      "id": "l24-p08", "skill": "compare square and rectangle", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! A square has 4 lines of symmetry and a rectangle has 2. How many MORE does the square have?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "6", "why": "added the two counts instead of finding the difference", "remedy": "'How many more' compares the two — take the rectangle's 2 away from the square's 4." },
+        { "answer": "4", "why": "gave the square's count instead of the difference", "remedy": "The square HAS 4 — but the question asks how many more than the rectangle's 2. What's the gap?" }
+      ],
+      "hints": ["Compare: 4 for the square, 2 for the rectangle.", "Which two folds work on the square but FAIL on the rectangle?"],
+      "reteach": { "say": "Line the counts up: square 4, rectangle 2 — the square wins by 2. And here's the beautiful bit: the two EXTRA lines are exactly the diagonals! They match on the square because all its sides are equal — and they fail on the rectangle because the long and short sides can't swap. 4 − 2 = 2 more.", "block": { "type": "table", "headers": ["fold", "square", "rectangle"], "rows": [["across the middle (2 ways)", "✓ ✓", "✓ ✓"], ["corner to corner (2 ways)", "✓ ✓", "✗ ✗"], ["total", "4", "2"]], "caption": "The diagonals are the square's 2 extra lines" } }
+    },
+    {
+      "id": "l24-p09", "skill": "the fold test (explain it)", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend draws a line down the middle of a shape and says: 'Both sides look the same-ish, so it's a line of symmetry.' What's the REAL test — and why isn't 'same-ish' good enough?", "sample": "Fold on the line — both halves must land EXACTLY on top, corners meeting corners. Same-ish isn't enough because eyes can be tricked — the rectangle's diagonal looks fair but the fold shows the corners miss." },
+      "expectedAnswer": "Fold on the line — both halves must land exactly on top; looking 'same-ish' can be wrong, only the fold proves it",
+      "wrongAnswers": [
+        { "answer": "agrees — same-ish is fine", "why": "shares the same-ish misconception", "remedy": "Try it on the rectangle's diagonal — both sides look the same-ish, don't they? Now fold it. What really happens?" },
+        { "answer": "says 'fold it' but accepts halves that nearly match", "why": "the test is there but the EXACTNESS hasn't landed", "remedy": "Nearly is a no! If even one corner sticks out past the edge, the line fails. What must EVERY corner do?" }
+      ],
+      "hints": ["What can the paper DO that eyes can't?", "How exact does the landing have to be?"],
+      "reteach": { "say": "Teach your friend the detective's rule: eyes guess, folds PROVE. Fold right on the line — if every edge meets and every corner lands on its twin, it's a line of symmetry. If anything pokes out, even a little, the line is an impostor. Same-ish is a guess; exactly-on-top is proof.", "block": { "type": "steps", "title": "The fold test", "steps": ["Fold the shape exactly on the line", "Press it flat and look at the edges", "Every edge and corner lands on its twin → line of symmetry", "Anything sticks out → NOT a line of symmetry"] } }
+    },
+    {
+      "id": "l24-p10", "skill": "not every shape has one", "level": 3,
+      "block": { "type": "trueFalse", "statement": "Every shape has at least one line of symmetry.", "correct": false, "explain": "The wonky (scalene) triangle proves it: fold it any way you like and the halves never land on top. Some shapes have many lines, some have none." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "symmetry feels universal — hasn't met a shape that fails everywhere", "remedy": "Pick up the wonky triangle and try to find even ONE fold where the halves land on top. How did it go?" },
+        { "answer": "True — you can always fold something in half", "why": "confuses making two pieces with making matching halves", "remedy": "Any fold makes two pieces — but do they land EXACTLY on top? Fold the wonky triangle and check its corners." }
+      ],
+      "hints": ["Remember the wonky triangle from the start of the lesson.", "Folding in half is easy — folding into MATCHING halves is the test."],
+      "reteach": { "say": "Shapes are all different characters: the circle has endless mirror lines, the square has 4, the rectangle 2… and the poor wonky triangle has none at all — every fold leaves a corner poking out. You can always FOLD a shape, but only special folds make the halves match. No match, no line of symmetry — and some shapes never match.", "block": { "type": "table", "headers": ["shape", "lines of symmetry"], "rows": [["circle", "endless!"], ["square", "4"], ["rectangle", "2"], ["wonky (scalene) triangle", "0"]], "caption": "Some shapes have many — some have none" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave counting lines, the diagonal trap and explain-the-test items.",
+    "levelDown": "2 misses on the same skill → run that item's reteach and send the child to fold the REAL paper shape on that exact line (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one rectangle-diagonal item, with the fold test stated in the child's own words ('fold — both halves land exactly on top') → mastery ≥ 0.8 for 'lines of symmetry by folding'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'that line got judged by eye — same-ish isn't a match' or 'equal pieces got mistaken for matching halves.'",
+      "Go concrete: fold the real paper shape together, right on the line in question.",
+      "One hint: 'Do the halves land EXACTLY on top — corners meeting corners?'",
+      "Re-test the square (the friendliest folder), then build back up to the rectangle.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Fold-test things from the learner's world (LearnerModel.interests): their initial letter, a football shirt, a rocket, a favourite animal's face. Which shapes pass and fail never changes.",
+    "endOnSuccess": "Finish on a winnable fold (the square, or the child's own paint-fold butterfly), then specific process praise: 'you tested by folding instead of guessing — that's how mathematicians check symmetry.'"
+  },
+
+  "differentiation": {
+    "support": "Fold to test every single line — only a true line makes the halves match (the KB fix for 'any line works'); start with the square and the butterfly; hold the fold up to the light to see the halves meet.",
+    "stretch": "Draw ALL the lines of symmetry on a rectangle and a square, count them (2 vs 4) and explain why the square's diagonals work but the rectangle's don't."
+  },
+  "extension": "Design a symmetrical butterfly or mask: draw one half boldly, fold and trace (or paint-fold) to make the matching half — then fold-test the finished design.",
+  "assessmentEvidence": "Child identifies lines of symmetry by folding, rejects non-matching lines (including a rectangle's diagonal), and states that both halves must land exactly on top.",
+  "revisitLater": "Symmetry returns in the Lesson 25 quiz ('is this line a line of symmetry?'); keep a 'fold or impostor?' question in warm-ups; the fold test seeds Year 3 symmetry in more complex shapes."
+}

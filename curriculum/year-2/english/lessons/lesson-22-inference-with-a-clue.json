@@ -1,0 +1,303 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u5-l22",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 5, "title": "Comprehension & composition", "essentialQuestion": "How do I read between the lines, and how do I write a clear set of instructions?" },
+  "lessonNumber": 22,
+  "kind": "lesson",
+  "topic": "Reading comprehension",
+  "title": "Inference with a clue (and proving it)",
+  "durationMin": 25,
+  "objectives": ["By the end, I can make an inference and back it up with a clue from the text."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "infer", "definition": "work out something the text doesn't say, using clues", "example": "The text says Tom's hands shook — I infer he is scared." },
+    { "term": "clue", "definition": "the words that leak the hidden answer", "example": "'skipped' and 'huge grin' are clues that Mai is happy." },
+    { "term": "evidence", "definition": "the clue you point to that proves your idea", "example": "My evidence is 'his hands were shaking'." },
+    { "term": "prove", "definition": "show your idea is right by giving the clue", "example": "I prove it with 'because the text says…'." }
+  ],
+  "emphasize": [
+    "An inference has TWO parts: what you think AND the clue — always 'I think… because the text says…'.",
+    "A feeling with no clue is just a guess. Detectives prove it.",
+    "Pre-empt clue-dodging: the clue must come from the TEXT, not from memory or opinion."
+  ],
+  "analysis": {
+    "keyConcepts": ["inferring an unstated feeling from clue words", "backing every inference with quoted evidence", "the answer stem 'I think… because the text says…'"],
+    "misconceptions": [
+      "giving a feeling with no clue — a guess dressed as an inference",
+      "answering from opinion or personal memory instead of the text ('I'd be excited, so he is')",
+      "retelling the whole passage instead of pointing to the ONE clue that shows the feeling",
+      "picking a clue that doesn't match the feeling claimed"
+    ],
+    "hooks": ["The text never says 'scared' — but we KNOW Tom is. How? The clues leak it."],
+    "priorKnowledge": ["retrieval vs inference (Lesson 21)", "clue and evidence as detective words", "because gives a reason (Lesson 20)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["short clue-rich passages as richText", "the 'I think… because the text says…' stem card", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "searchTerm": "inference reading KS1",
+    "channel": "Oak National Academy",
+    "watchTask": "Every time the teacher makes an inference, shout out the CLUE before they say it.",
+    "afterCheck": { "question": "What two parts does a good inference answer have?", "expectedAnswer": "What I think AND the clue from the text ('because the text says…')." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Present the Tom sentence — the word 'scared' is never written, yet we all KNOW — and retrieve Lesson 21's find-it vs work-it-out.",
+      "note": "Read the Tom line with feeling, then pause. Let the mystery land before explaining anything.",
+      "successCriteria": "Child says 'How does Tom feel?' is a work-it-out (inference) question.",
+      "script": {
+        "say": "Read this with me: 'Tom's hands were shaking and he couldn't speak.' It never uses the word scared — but we just KNOW he is. Spooky, right? How do we know? The clues tell us. Today, detective, we don't just crack the hidden feeling — we PROVE it with evidence. Quick warm-up: is 'How does Tom feel?' a find-it question or a work-it-out question?",
+        "adaptHints": "Read the Tom line in a hushed, dramatic voice. If the child loves a particular story hero, say 'even [hero] would need clues for this one.'"
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**The mystery sentence**\n\nTom stood at the classroom door. His hands were shaking and he couldn't speak." },
+        { "type": "emojiViz", "emojis": "🕵️❓🔎", "caption": "The word 'scared' is never written… so how do we KNOW?" }
+      ],
+      "stuckProtocol": ["If 'inference' doesn't come back: 'Can you put your finger on the word scared? No? Then it's a work-it-out — an inference.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model the two-part proof: I think Tom is SCARED (what I think) BECAUSE THE TEXT SAYS his hands were shaking (the clue). Introduce the stem.",
+      "note": "Say the full stem sentence slowly, twice. The stem is the lesson's tool — the child should be able to chant it by the end of this beat.",
+      "successCriteria": "Child can repeat the stem 'I think… because the text says…' and name its two parts.",
+      "script": {
+        "say": "Here's how a detective PROVES an inference. Watch my two parts. Part one — what I think: I think Tom is SCARED. Part two — the clue: BECAUSE THE TEXT SAYS his hands were shaking and he couldn't speak. See? What I think, AND the clue. I always use the magic stem: 'I think… because the text says…'. Say the stem with me — twice!",
+        "adaptHints": "Chant the stem rhythmically. If the learner responds to superheroes, call the stem their 'power move'."
+      },
+      "blocks": [
+        { "type": "keyTerm", "term": "the proof stem", "definition": "I think… because the text says…", "example": "I think Tom is scared because the text says his hands were shaking." },
+        { "type": "steps", "title": "Prove an inference in two parts", "steps": ["Part 1 — what I think: 'I think Tom is scared…'", "Part 2 — the clue: '…because the text says his hands were shaking and he couldn't speak.'"] },
+        { "type": "table", "headers": ["part", "words", "job"], "rows": [["what I think", "Tom is scared", "my idea"], ["the clue", "hands shaking, couldn't speak", "my proof from the text"]] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 15],
+      "goal": "Shared inference on the Mai passage: child names the feeling AND finds the clue words; build the stem sentence together.",
+      "note": "The child supplies both parts; the character scribes. Accept 'happy/excited/joyful' — the clue is what matters.",
+      "successCriteria": "Child says Mai is happy and points to 'skipped' and 'huge grin' as the clues, then completes the stem.",
+      "script": {
+        "say": "New case! 'Mai skipped to school with a huge grin.' How does Mai feel, detective — and what's our clue? Don't just tell me the feeling… point me to the words that leak it. Then let's build the full proof sentence together: I think Mai is… because the text says…",
+        "adaptHints": "If the child gives the feeling without the clue, don't accept it yet: 'Nearly a proof! Which words leaked it?'"
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Case two: Mai**\n\nMai skipped to school with a huge grin. She waved at everyone she passed." },
+        { "type": "fillBlank", "text": "I think Mai is happy ___ the text says she skipped and had a huge grin.", "answer": "because", "wordBank": ["because", "and", "but"] }
+      ],
+      "check": {
+        "question": "How do we know Tom is scared?",
+        "expectedAnswer": "Because the text says his hands were shaking and he couldn't speak — those are the clues.",
+        "wrongAnswers": [
+          { "answer": "Because he just is / I can tell", "why": "inference without evidence — a guess", "remedy": "What in the TEXT made you think it? Point to the words and add 'because the text says…'." },
+          { "answer": "Because the text says he is scared", "why": "believes the answer is written — retrieval habit", "remedy": "Hunt for the word 'scared' in the sentence. Not there! So which words LEAK the fear instead?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [15, 19],
+      "goal": "Solo proof: the child answers 'How does Leo feel?' with the full stem — feeling + matching clue.",
+      "note": "This is the lesson's key diagnostic. Both parts must appear. A feeling alone, or a retell of the whole passage, doesn't pass.",
+      "successCriteria": "Child produces a full stem sentence: a sensible feeling + a clue quoted or located from the text.",
+      "script": {
+        "say": "Your solo case. 'Leo dragged his feet all the way home. His kite was in bits in his bag.' How does Leo feel? Answer like a detective — the FULL proof: 'I think… because the text says…'.",
+        "adaptHints": "Probe after success: 'Which words exactly are your clue?' Accept sad/upset/disappointed — any feeling the clues support."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Case three: Leo**\n\nLeo dragged his feet all the way home. His kite was in bits in his bag." },
+        { "type": "shortText", "prompt": "How does Leo feel? Prove it: 'I think… because the text says…'", "sample": "I think Leo feels sad because the text says he dragged his feet and his kite was in bits." }
+      ],
+      "check": {
+        "question": "How does Leo feel — with your proof?",
+        "expectedAnswer": "I think Leo feels sad/disappointed because the text says he dragged his feet and his kite was in bits.",
+        "wrongAnswers": [
+          { "answer": "Sad. (no clue)", "why": "feeling with no evidence — guessing", "remedy": "I believe you — now PROVE it. What in the text made you think that? Add 'because the text says…'." },
+          { "answer": "He walked home and his kite broke and he was walking slowly and…", "why": "retells the whole passage instead of picking the one clue", "remedy": "Just the one clue that shows the feeling — which words leak the sadness most?" },
+          { "answer": "I think Leo is happy because the text says he had a kite", "why": "clue doesn't match the feeling — evidence and idea disagree", "remedy": "Check your clue against your idea: dragging feet, kite in BITS — do those words leak happy? What do they leak?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [19, 23],
+      "goal": "Independent inference proofs across fresh mini-passages: feeling + clue every time, using the stem.",
+      "note": "Director draws from practiceBank, start level 2. Never accept part one without part two. Interleave a clue-spotting MC between written proofs to keep pace.",
+      "successCriteria": "Child completes 3+ items with both parts present and clues that match the feelings.",
+      "script": {
+        "say": "Detective casebook open! Quick cases, one after another. For every one: what you think, AND the clue. No proof, no badge!",
+        "adaptHints": "Swap the reward flavour (badge, star, case file) to the child's interests. Passages and answers never change."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'your idea is missing its clue' or 'your clue doesn't match your idea'.",
+        "Highlight the clue words together in the passage.",
+        "One hint: 'Finish the sentence: because the text says…'.",
+        "Re-ask with an easy, loud clue (Mai's huge grin), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [23, 25],
+      "goal": "Child states the two parts of a good inference answer and says the stem aloud; end on a win.",
+      "note": "Child-led. Listen for both halves: what I think + the clue.",
+      "successCriteria": "Child says 'what I think AND the clue — because the text says…'.",
+      "script": {
+        "say": "Casebook closed! Tell me, detective: what two parts does a good inference answer have? … Exactly. You proved your ideas with clues from the text every time — that's exactly how strong readers think.",
+        "adaptHints": "Praise the observed process: quoting clues, matching clue to feeling. Never 'clever' — always the strategy."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say the proof stem out loud one more time, like you're teaching it to a friend.", "target": "I think… because the text says…" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l22-p01", "skill": "infer a feeling from clue words", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "'Mai skipped to school with a huge grin.' How does Mai feel?", "options": ["Happy", "Sad", "Scared", "Angry"], "correct": 0, "explain": "Skipping and a huge grin are what happy looks like — those words leak the feeling." },
+      "expectedAnswer": "Happy",
+      "wrongAnswers": [
+        { "answer": "Sad", "why": "didn't read the clue words — answered at random", "remedy": "Look at what Mai DOES: skipping, grinning. Act it out — does your face feel sad doing that?" },
+        { "answer": "Scared", "why": "guessing without checking the clues", "remedy": "Which words show what Mai is doing? Do scared people skip and grin?" }
+      ],
+      "hints": ["Look at what Mai DOES: skipped… huge grin…", "Act the clue out — what feeling fits it?"],
+      "reteach": { "say": "Feelings leak through actions. Read the actions, feel the feeling: SKIPPED — bouncy! HUGE GRIN — beaming! Put them together and the hidden word appears: happy. The text never says it; the clues shout it.", "block": { "type": "emojiViz", "emojis": "⛸️😁➡️😊", "caption": "skipped + huge grin → happy" } }
+    },
+    {
+      "id": "l22-p02", "skill": "spot the clue that proves a feeling", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "We think Tom is scared. Which words are the CLUE?", "options": ["'His hands were shaking and he couldn't speak'", "'Tom stood at the classroom door'", "'The text never says scared'", "'Tom is a boy'"], "correct": 0, "explain": "Shaking hands and a stuck voice are what fear looks like — that's the evidence." },
+      "expectedAnswer": "'His hands were shaking and he couldn't speak'",
+      "wrongAnswers": [
+        { "answer": "'Tom stood at the classroom door'", "why": "chose the setting, not the behaviour that shows the feeling", "remedy": "Standing at a door is normal. Which words show Tom's body doing something FEAR does?" },
+        { "answer": "'The text never says scared'", "why": "confused the missing word with the clue", "remedy": "True — 'scared' isn't written! So which words leak the fear instead?" }
+      ],
+      "hints": ["A clue is what the character's body DOES.", "What does fear do to hands and voices?"],
+      "reteach": { "say": "Clues live in bodies. Fear makes hands shake and voices vanish — so when the text says 'his hands were shaking and he couldn't speak', it's showing us fear without naming it. Point at those words: that's your evidence.", "block": { "type": "table", "headers": ["body clue", "hidden feeling"], "rows": [["hands shaking", "scared"], ["couldn't speak", "scared"], ["huge grin", "happy"]] } }
+    },
+    {
+      "id": "l22-p03", "skill": "use the proof stem", "level": 2,
+      "block": { "type": "fillBlank", "text": "I think Tom is scared ___ the text says his hands were shaking.", "answer": "because", "wordBank": ["because", "and", "but"] },
+      "expectedAnswer": "because",
+      "wrongAnswers": [
+        { "answer": "and", "why": "joined the parts without showing the clue is the REASON", "remedy": "The clue is WHY you think it. Which joining word gives a reason — remember Lesson 20?" },
+        { "answer": "but", "why": "picked a contrast word for a reason", "remedy": "'But' shows a difference. The shaking hands don't disagree with the fear — they PROVE it. Which word means 'here's my reason'?" }
+      ],
+      "hints": ["The clue is your REASON for thinking it.", "Which joining word introduces a reason?"],
+      "reteach": { "say": "The proof stem runs on 'because' — the reason word from our conjunctions lesson. What I think… BECAUSE… the clue. 'I think Tom is scared BECAUSE the text says his hands were shaking.' The 'because' glues the idea to its evidence.", "block": { "type": "keyTerm", "term": "because", "definition": "the reason word — it glues your idea to your clue", "example": "I think… because the text says…" } }
+    },
+    {
+      "id": "l22-p04", "skill": "make an inference with the full stem", "level": 2,
+      "block": { "type": "shortText", "prompt": "'Nina peeped round the door. She tiptoed past the sleeping baby and held her breath.' What is Nina trying to do? Prove it with the stem.", "sample": "I think Nina is trying to stay quiet so the baby keeps sleeping, because the text says she tiptoed and held her breath." },
+      "expectedAnswer": "She's trying to keep quiet / not wake the baby — because the text says she tiptoed and held her breath.",
+      "wrongAnswers": [
+        { "answer": "She is playing hide and seek", "why": "answered from imagination, not the text's clues", "remedy": "Fun idea — but which words support it? Check the clues: tiptoed, held her breath, SLEEPING baby. What do quiet feet near a sleeping baby tell us?" },
+        { "answer": "She is quiet. (no clue)", "why": "idea without evidence — the proof is missing", "remedy": "Now prove it! Which words show the quietness? Add 'because the text says…'." }
+      ],
+      "hints": ["Why would someone tiptoe and hold their breath near a SLEEPING baby?", "Use both parts: I think… because the text says…"],
+      "interestSlots": ["baby brother or sister", "sleeping pet"],
+      "reteach": { "say": "Stack the clues like a detective: tiptoed — quiet feet. Held her breath — quiet everything! Sleeping baby — someone she mustn't wake. Stack them up and the answer appears: Nina is keeping quiet so the baby sleeps on. Now say it with the stem: I think… because the text says…", "block": { "type": "steps", "title": "Stack the clues", "steps": ["Clue 1: tiptoed → quiet feet", "Clue 2: held her breath → extra quiet", "Clue 3: the baby is SLEEPING", "Worked out: she mustn't wake the baby!"] } }
+    },
+    {
+      "id": "l22-p05", "skill": "infer beyond feelings (setting/weather)", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "'Sam pulled on his wellies and grabbed his umbrella before he stepped outside.' What's the weather like — and what's your proof?", "options": ["Rainy — wellies and an umbrella are rain things", "Sunny — he stepped outside", "Snowy — he wore boots", "Rainy — the text says it is raining"], "correct": 0, "explain": "The text never names the weather — but wellies + umbrella are rain gear. Worked out from clues!" },
+      "expectedAnswer": "Rainy — wellies and an umbrella are rain things",
+      "wrongAnswers": [
+        { "answer": "Rainy — the text says it is raining", "why": "right idea, wrong proof — claims the answer is written when it isn't (retrieval habit)", "remedy": "Hunt for the word 'raining' in the sentence. Not there! Your idea is right — so what are the real clues?" },
+        { "answer": "Sunny — he stepped outside", "why": "clue doesn't match the idea — people go outside in all weathers", "remedy": "Check the clue against the idea: do you grab an UMBRELLA for sunshine? What is an umbrella for?" }
+      ],
+      "hints": ["What are wellies and umbrellas FOR?", "The weather word isn't written — the objects are your clues."],
+      "reteach": { "say": "Inference isn't only feelings — you can infer the weather, the place, the time! Sam's things do the talking: wellies are for puddles, umbrellas are for rain. The sentence never says 'raining', but the rain gear leaks it. Objects are clues too.", "block": { "type": "table", "headers": ["object clue", "what it leaks"], "rows": [["wellies", "puddles — rain"], ["umbrella", "rain falling"], ["sun hat + sun cream", "(that would leak sunshine!)"]] } }
+    },
+    {
+      "id": "l22-p06", "skill": "match the clue to the feeling", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each clue from a story to the feeling it leaks.", "pairs": [ { "left": "punched the air and did a little dance", "right": "delighted" }, { "left": "dragged his feet, head down", "right": "miserable" }, { "left": "hands shaking, couldn't speak", "right": "terrified" }, { "left": "checked her watch again and again", "right": "worried" } ] },
+      "expectedAnswer": "air-punch→delighted, dragged feet→miserable, shaking hands→terrified, watch-checking→worried",
+      "wrongAnswers": [
+        { "answer": "dragged his feet → delighted", "why": "not picturing the action — matching at random", "remedy": "Act it out! Drag your feet with your head down… does your body feel delighted doing that? What does it feel?" }
+      ],
+      "hints": ["Act each clue out with your body — the feeling follows.", "Start with the one you're surest of and cross it off."],
+      "reteach": { "say": "Your body is a clue-decoder. Act the words out: punch the air — joy bursts out! Drag your feet — glum. Shaking hands — fear. Watch-checking — worry, worry, worry. When you're stuck on a clue, perform it, and the feeling names itself.", "block": { "type": "emojiViz", "emojis": "🙌😄 🐌😞 🫨😨 ⌚😟", "caption": "Act the clue — feel the feeling" } }
+    },
+    {
+      "id": "l22-p07", "skill": "make an inference with the full stem", "level": 3,
+      "block": { "type": "shortText", "prompt": "'Aisha punched the air and did a little dance when she saw her spelling score.' How does Aisha feel about her score? Full proof, please.", "sample": "I think Aisha feels delighted because the text says she punched the air and did a little dance." },
+      "expectedAnswer": "Delighted/proud/thrilled — because the text says she punched the air and did a little dance.",
+      "wrongAnswers": [
+        { "answer": "She got 10 out of 10", "why": "invented a detail the text never gives — answering beyond the evidence", "remedy": "Careful, detective — does the text tell us the score? We only know how she FEELS about it. What do her actions leak?" },
+        { "answer": "Happy because she likes spelling", "why": "reason from opinion, not from the text", "remedy": "Maybe! But your proof must come from the words on the page. Which ACTIONS show the happiness?" }
+      ],
+      "hints": ["What do her actions — air punch, little dance — leak?", "Both parts: I think… because the text says…"],
+      "interestSlots": ["spelling test", "football match score", "swimming badge"],
+      "reteach": { "say": "Stick to what the words give you. The text shows two actions — punched the air, did a little dance — and actions like that leak one thing: she's over the moon about that score. We can't know the number; we CAN prove the feeling. I think Aisha is delighted because the text says she punched the air and danced.", "block": { "type": "table", "headers": ["can we prove it?", "why"], "rows": [["she's delighted — YES", "air punch + dance are in the text"], ["she scored 10/10 — NO", "the text never says the score"]] } }
+    },
+    {
+      "id": "l22-p08", "skill": "infer what happens next", "level": 3,
+      "block": { "type": "shortText", "prompt": "'The bell rang for playtime. Jack grabbed his football and looked at the door.' What will Jack do next? Prove it with a clue.", "sample": "I think Jack will run outside to play football, because the text says he grabbed his football and looked at the door." },
+      "expectedAnswer": "He'll go out to play football — because the text says he grabbed his football and looked at the door.",
+      "wrongAnswers": [
+        { "answer": "He will do his maths", "why": "prediction ignores every clue in the text", "remedy": "Check the clues: playtime bell, football in hand, eyes on the door. Where is everything pointing?" },
+        { "answer": "He will play football. (no clue)", "why": "good prediction but the proof is missing", "remedy": "I think you're right — now show me WHY. Which words point that way? 'Because the text says…'" }
+      ],
+      "hints": ["Where is everything pointing — the bell, the ball, the door?", "A prediction is an inference about what's NEXT. It still needs its clue."],
+      "reteach": { "say": "Predicting is inferring forwards. Line up the clues like arrows: the bell says playtime NOW, the football says what he wants to play, the door says where he's heading. All three arrows point one way — out to the playground. And your proof is those very words.", "block": { "type": "steps", "title": "Arrows to the answer", "steps": ["Clue: the bell rang for PLAYTIME → it's time to play", "Clue: grabbed his FOOTBALL → what he'll play", "Clue: looked at the DOOR → where he's going", "Inference: he'll run out to play football!"] } }
+    },
+    {
+      "id": "l22-p09", "skill": "infer two feelings, each with its own clue", "level": 3,
+      "block": { "type": "shortText", "prompt": "Stretch! 'Poppy's lip wobbled as the lights went out. Then her big sister took her hand, and Poppy let out a giggle.' Find TWO feelings — each with its own clue.", "sample": "First I think Poppy feels frightened because the text says her lip wobbled when the lights went out. Then I think she feels safe and happy because the text says she giggled when her sister took her hand." },
+      "expectedAnswer": "Frightened at first (lip wobbled in the dark), then safe/happy (giggled when her sister took her hand).",
+      "wrongAnswers": [
+        { "answer": "She is happy (only one feeling)", "why": "missed that the feeling CHANGES across the passage", "remedy": "Read the first sentence by itself — what does a wobbling lip in the dark leak? Now the second — what changed?" },
+        { "answer": "Scared then happy, because her sister came", "why": "second feeling right but the clue is a retell, not the text's words", "remedy": "Nearly! Point to the exact words that show the happy — what did Poppy DO when her sister took her hand?" }
+      ],
+      "hints": ["Take one sentence at a time — one feeling each.", "Two stems: 'First I think… because…' then 'Then I think… because…'"],
+      "reteach": { "say": "Characters' feelings can flip mid-story — so we track them clue by clue. Sentence one: lip wobbles, lights out — fear creeping in. Sentence two: sister's hand, a giggle — fear melts, safe and giggly. Two feelings, two clues, two little proofs. That's expert-level detecting.", "block": { "type": "table", "headers": ["moment", "clue", "feeling"], "rows": [["lights go out", "lip wobbled", "frightened"], ["sister takes her hand", "let out a giggle", "safe and happy"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave feeling-proofs with prediction and two-feeling items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the clue words highlighted in the passage, then a level-1 clue-spotting item.",
+    "masterySignal": "3+ full-stem answers across levels 2–3 where the clue matches the idea, including one non-feeling inference (weather or prediction) → mastery ≥ 0.8 for 'inference with evidence'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why ('the clue is missing' / 'the clue doesn't match the idea').",
+      "Highlight the clue words together in the passage.",
+      "One hint: 'Finish the sentence: because the text says…'.",
+      "Re-ask with a loud, easy clue (Mai's huge grin), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Keep the casebook frame; let rewards match the learner's interests (badges, stars, stickers). Swap interestSlots nouns (pet, sibling, sport) where marked — never the clues or answers.",
+    "endOnSuccess": "Finish on a winnable proof with a loud clue; praise the process — 'you matched every idea to its clue from the text.'"
+  },
+
+  "differentiation": {
+    "support": "Clue pre-highlighted in the passage; the stem card stays on screen; one feeling at a time.",
+    "stretch": "Infer two feelings with two separate clues (l22-p09); infer a character's NEXT action and defend it."
+  },
+  "extension": "Home case: find a clue in a favourite storybook tonight and prove one character's feeling to a grown-up using the stem.",
+  "assessmentEvidence": "Child answers an inference question with the full stem — a sensible idea plus a located, matching clue from the text.",
+  "revisitLater": "The stem returns verbatim in the Lesson 25 review; use one inference proof as a starter in Lessons 23–24 (instructions lessons)."
+}

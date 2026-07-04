@@ -1,0 +1,338 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u3-l14",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 3, "title": "Fractions of shapes and quantities", "essentialQuestion": "What does each part of a fraction tell us, and how do we find a fraction of a number?" },
+  "lessonNumber": 14,
+  "kind": "lesson",
+  "topic": "Fractions of quantities",
+  "title": "Fractions of a quantity",
+  "durationMin": 24,
+  "objectives": ["By the end, I can find a unit and non-unit fraction of an amount by sharing."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "fraction of an amount", "definition": "a fair share of a group of things, not just of one shape", "example": "¼ of 12 sweets is 3 sweets" },
+    { "term": "share equally", "definition": "deal one-to-each into equal piles until everything is gone", "example": "12 dealt into 4 plates — 3 on each" },
+    { "term": "unit fraction", "definition": "a fraction with 1 on top — just one of the equal parts", "example": "¼ — count ONE plate" },
+    { "term": "non-unit fraction", "definition": "a fraction with more than 1 on top — several of the equal parts", "example": "¾ — count THREE plates" },
+    { "term": "denominator", "definition": "the bottom number — it tells you how many equal piles to share into", "example": "the 4 in ¼ means share into 4 plates" }
+  ],
+  "emphasize": [
+    "The bottom number tells you HOW MANY PLATES: ¼ of an amount means share into 4 equal piles, then count ONE pile.",
+    "¾ means count THREE of the four piles — top number = how many piles you take.",
+    "Pre-empt the trap: ¼ of 12 is NOT 12 − 4. We SHARE, we don't take away."
+  ],
+  "analysis": {
+    "keyConcepts": ["fraction of an amount by equal sharing", "denominator = number of piles, numerator = piles you count", "¼ of 12 = 12 ÷ 4 — fractions ride on division"],
+    "misconceptions": [
+      "subtracting the denominator: '¼ of 12 = 8' (did 12 − 4)",
+      "stopping at one pile for a non-unit fraction: '¾ of 12 = 3'",
+      "sharing into the wrong number of piles (using the top number, or a guess)",
+      "dealing unequally so the piles don't match"
+    ],
+    "hooks": ["I've got 12 sweets and I want to give you a QUARTER of them — how many is that?"],
+    "priorKnowledge": ["sharing equally / dealing one-to-each (Lesson 11)", "a quarter = one of 4 equal parts (Lesson 13)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated dealing (counters onto plates)", "steps card for the share-then-count routine", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "BBC Bitesize",
+    "searchTerm": "find a quarter of an amount KS1",
+    "watchTask": "Every time an amount gets shared, say how many plates BEFORE the video shows them — the bottom number gives it away.",
+    "afterCheck": { "question": "To find a quarter of an amount, how many equal groups do you share into?", "expectedAnswer": "4 — then count one group" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Pose the ¼-of-12 puzzle; retrieve one-to-each dealing from Lesson 11.",
+      "note": "Leave the puzzle open — the child suggests a method. The sweets sliding forward invitingly is the moment.",
+      "successCriteria": "Child recalls 'deal one to each pile until gone' from the division lessons.",
+      "script": {
+        "say": "I've got 12 sweets here… and I want to give you a QUARTER of them. Ooh — how many sweets is that? Hmm. How could we work it out fairly? … Think back: when we shared 12 between 3 last week, what did we do?",
+        "adaptHints": "Swap sweets for the child's favourite treat. Listen for 'dealt one to each pile until gone' — that memory is the whole method."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬", "caption": "12 sweets… and you get a QUARTER of them. How many?" }
+      ],
+      "stuckProtocol": ["If dealing is forgotten: quick replay — 'like dealing cards: one, one, one… round and round until they're gone.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model the method: ¼ means 4 plates; deal all 12 one-to-each; count ONE plate → 3; link to 12 ÷ 4.",
+      "note": "Anchor phrase: 'the bottom number tells me how many plates.' Show the division link explicitly — fractions ride on the division they already own.",
+      "successCriteria": "Child sees the full deal into 4 plates, one plate highlighted, and hears '¼ of 12 = 3 — the same as 12 ÷ 4'.",
+      "script": {
+        "say": "A quarter means FOUR equal parts — so the bottom number, 4, tells me how many plates I need. Watch me deal all 12, one to each plate, round and round: one, two, three, four… one, two, three, four… one, two, three, four — all gone! Every plate has 3. Now, a quarter is just ONE of those plates — so ¼ of 12 is 3. And do you see the old friend hiding here? Sharing 12 into 4 plates is exactly 12 ÷ 4. Fractions of amounts are division wearing a party hat!",
+        "adaptHints": "Deal with the same card-dealing rhythm as Lesson 11 so the method feels familiar. Land hard on 'the bottom number tells me how many plates.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "¼ of 12 — share into 4 plates",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "¼ of 12", "size": 8, "bold": true },
+            { "k": "rect", "x": 6, "y": 13, "w": 20, "h": 22, "color": "accent" },
+            { "k": "rect", "x": 30, "y": 13, "w": 20, "h": 22, "color": "blue" },
+            { "k": "rect", "x": 54, "y": 13, "w": 20, "h": 22, "color": "blue" },
+            { "k": "rect", "x": 78, "y": 13, "w": 20, "h": 22, "color": "blue" },
+            { "k": "dot", "x": 11, "y": 19, "color": "orange" }, { "k": "dot", "x": 18, "y": 19, "color": "orange" }, { "k": "dot", "x": 14, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 35, "y": 19, "color": "orange" }, { "k": "dot", "x": 42, "y": 19, "color": "orange" }, { "k": "dot", "x": 38, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 59, "y": 19, "color": "orange" }, { "k": "dot", "x": 66, "y": 19, "color": "orange" }, { "k": "dot", "x": 62, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 83, "y": 19, "color": "orange" }, { "k": "dot", "x": 90, "y": 19, "color": "orange" }, { "k": "dot", "x": 86, "y": 28, "color": "orange" },
+            { "k": "text", "x": 16, "y": 41, "value": "ONE plate = ¼", "size": 4, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 50, "value": "4 plates, 3 on each", "size": 5, "color": "blue" },
+            { "k": "text", "x": 50, "y": 58, "value": "¼ of 12 = 12 ÷ 4 = 3", "size": 6, "bold": true, "color": "accent" }
+          ]
+        },
+        {
+          "type": "steps",
+          "title": "Fraction of an amount — the routine",
+          "steps": [
+            "Read the BOTTOM number — that's how many plates",
+            "Deal one-to-each until everything is gone",
+            "Count the plates the TOP number asks for"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "The child finds ¾ of 12: same 4 plates, but now count THREE of them → 9.",
+      "note": "The plates are already dealt from the explain — the only new move is counting three plates instead of one. Scribe '¾ of 12 = 9' when the child lands it.",
+      "successCriteria": "Child says 4 plates, counts three plates (3 + 3 + 3) and completes ¾ of 12 = 9.",
+      "script": {
+        "say": "Your turn to be the dealer — let's find ¾ of 12. First question: the bottom number is still 4, so… how many plates? … Four! Deal them out — 3 on each, just like before. Now the top number is 3 — so how many plates do we count this time? … Three plates: 3, 6, 9! One plate was ¼ = 3, so three plates, ¾, is…?",
+        "adaptHints": "If the child says '3' (one plate), point at the top number: 'the 3 on top says count THREE plates.' Celebrate 3 + 3 + 3 or 3 × 3 language."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "¾ of 12 = ___ (share into 4 plates of 3, count 3 plates)", "answer": "9", "wordBank": ["9", "3", "8"] }
+      ],
+      "check": {
+        "question": "One plate is ¼ = 3. So three plates, ¾ of 12, is…?",
+        "expectedAnswer": "9 (3 + 3 + 3, or 3 × 3)",
+        "wrongAnswers": [
+          { "answer": "3", "why": "stopped at one plate — gave the quarter", "remedy": "That's ¼ — one plate. The top number says count THREE plates: 3, 6…" },
+          { "answer": "8", "why": "did 12 − 4 — subtracted the denominator", "remedy": "We SHARE, we don't take away. The plates are right there — count three of them." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "The key diagnostic: ¾ of 12 — catches both the 12 − 4 subtracters and the one-plate stoppers.",
+      "note": "Fresh ask, no plates pre-dealt this time. Always probe 'how did the plates help?' after a correct answer.",
+      "successCriteria": "Child answers 9 and explains via the plates (4 plates of 3, count 3 plates).",
+      "script": {
+        "say": "Checkpoint, dealer! No plates on screen this time — picture them in your head. What is ¾ of 12? … And tell me: how did the plates help you get it?",
+        "adaptHints": "If the child hesitates, offer the routine, not the answer: 'bottom number first — how many plates?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "What is ¾ of 12?",
+          "options": ["9 — share into 4 plates of 3, count 3 plates", "8 — take 4 away from 12", "3 — that's one plate", "4"],
+          "correct": 0,
+          "explain": "Share 12 into 4 equal plates (3 each), then count three plates: 3 + 3 + 3 = 9."
+        }
+      ],
+      "check": {
+        "question": "What is ¾ of 12?",
+        "expectedAnswer": "9",
+        "wrongAnswers": [
+          { "answer": "8", "why": "subtracted the denominator (12 − 4) instead of sharing", "remedy": "We SHARE, not take away. Deal 12 into 4 plates — now count what's in three of them." },
+          { "answer": "3", "why": "stopped at one plate — gave ¼ instead of ¾", "remedy": "¾ means THREE of the four plates — count three: 3, 6…" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 21],
+      "goal": "Independent fractions of amounts: ¼ of 8, ½ of 10, ¾ of 8, recorded as 'share into __ plates, count __'.",
+      "note": "Director draws from the practiceBank, start level 2. Have the child SAY the routine ('share into 4, count 1') before each answer — the sentence is the scaffold. New denominator (⅓ → 3 plates) only once secure.",
+      "successCriteria": "Child solves 3+ items including one unit and one non-unit fraction, stating the plate count each time.",
+      "script": {
+        "say": "Practice time at the fair-share café! Orders are coming in — a quarter of this, three-quarters of that. For every order, tell me the recipe first: share into how many plates, count how many? Then serve the answer. First customer's here!",
+        "adaptHints": "Frame amounts with the child's interests (grapes, football cards, gems). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'the 4 got taken away instead of shared' or 'we counted one plate too few.'",
+        "Go fully concrete: deal the counters onto plates together on screen, one at a time.",
+        "One hint: 'Bottom number = number of plates.'",
+        "Re-ask with ½ of 6, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [21, 24],
+      "goal": "Child states the steps for ¾ of a number; end on an earned win.",
+      "note": "Child-led; the character listens. The two-step recipe in their own words is the evidence.",
+      "successCriteria": "Child says 'share into 4 equal piles, then count 3 of them' (own words fine).",
+      "script": {
+        "say": "Last order of the day: tell me YOUR recipe for finding ¾ of a number. … Perfect — share into four equal piles, count three! You dealt one-to-each instead of guessing, every single time — fair sharing is the secret to fractions, and you've cracked it.",
+        "adaptHints": "Praise the observed process: saying the recipe before solving, dealing fairly, catching the 12 − 4 trap."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l14-p01", "skill": "unit fraction of an amount", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "What is ½ of 6 grapes?", "options": ["3", "4", "6"], "correct": 0, "explain": "Share 6 into 2 equal plates — 3 on each. One plate is ½: 3 grapes." },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "4", "why": "did 6 − 2 — subtracted the denominator", "remedy": "We share, we don't take away. Deal 6 onto 2 plates — how many on one plate?" },
+        { "answer": "6", "why": "kept the whole amount — didn't share", "remedy": "Half means the grapes get SPLIT between 2 plates. Deal them and count one plate." }
+      ],
+      "hints": ["The 2 on the bottom means 2 plates.", "Deal one-to-each: how many on each plate?"],
+      "reteach": { "say": "Half of 6: two plates, deal them out — one, one… two, two… three, three. Three on each plate. ½ of 6 = 3, the same as 6 ÷ 2.", "block": { "type": "emojiViz", "emojis": "🍇🍇🍇 | 🍇🍇🍇", "caption": "½ of 6 = 3" } }
+    },
+    {
+      "id": "l14-p02", "skill": "unit fraction of an amount", "level": 1,
+      "block": { "type": "fillBlank", "text": "¼ of 4 cookies: share into 4 plates — each plate gets ___ cookie(s).", "answer": "1", "wordBank": ["1", "4", "0"] },
+      "expectedAnswer": "1",
+      "wrongAnswers": [
+        { "answer": "4", "why": "kept the whole amount instead of sharing", "remedy": "Four cookies, four plates — deal one-to-each. How many lands on each plate?" },
+        { "answer": "0", "why": "thinks 4 shared into 4 leaves nothing", "remedy": "The cookies don't vanish — they spread out! Deal them: one plate, one cookie." }
+      ],
+      "hints": ["4 cookies, 4 plates — deal one-to-each.", "One round of dealing and they're gone."],
+      "reteach": { "say": "Four cookies, four plates: one, one, one, one — done in a single round! Each plate holds exactly 1. ¼ of 4 = 1.", "block": { "type": "emojiViz", "emojis": "🍪 | 🍪 | 🍪 | 🍪", "caption": "¼ of 4 = 1" } }
+    },
+    {
+      "id": "l14-p03", "skill": "unit fraction of an amount", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "What is ¼ of 8?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "4", "why": "did 8 − 4 — subtracted the denominator", "remedy": "The 4 tells you how many PLATES, not what to take away. Deal 8 into 4 plates." },
+        { "answer": "8", "why": "didn't share at all", "remedy": "A quarter is a SHARE of the 8, so it must be smaller. Deal into 4 plates and count one." }
+      ],
+      "hints": ["Bottom number 4 = four plates.", "8 ÷ 4 — how many on each plate?"],
+      "reteach": { "say": "¼ of 8: four plates, deal all 8 — one round puts 1 on each, second round makes it 2 on each, all gone. One plate is 2. ¼ of 8 = 8 ÷ 4 = 2.", "block": { "type": "emojiViz", "emojis": "🔵🔵 | 🔵🔵 | 🔵🔵 | 🔵🔵", "caption": "¼ of 8 = 2" } }
+    },
+    {
+      "id": "l14-p04", "skill": "unit fraction of an amount", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "What is ¼ of 12?", "answer": 3 },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "8", "why": "did 12 − 4 — the classic subtract-the-denominator trap", "remedy": "We SHARE, we don't take away! Deal 12 into 4 plates — count one plate." },
+        { "answer": "9", "why": "counted three plates — gave ¾ instead of ¼", "remedy": "The top number is 1 — count just ONE plate." }
+      ],
+      "hints": ["Four plates — deal all 12.", "12 ÷ 4 = ?"],
+      "reteach": { "say": "Watch the trap: 12 − 4 = 8 is TAKE-AWAY maths, and fractions are SHARING maths. Deal 12 into 4 plates: 3 each. ¼ of 12 = 3 — division in a party hat!", "block": { "type": "steps", "title": "¼ of 12", "steps": ["Bottom number 4 → four plates", "Deal 12 one-to-each → 3 per plate", "Top number 1 → count ONE plate: 3"] } }
+    },
+    {
+      "id": "l14-p05", "skill": "non-unit fraction of an amount", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "What is ¾ of 8?", "answer": 6 },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "2", "why": "stopped at one plate — gave ¼", "remedy": "The 3 on top says count THREE plates: 2, 4…" },
+        { "answer": "5", "why": "did 8 − 3 — subtracted the numerator", "remedy": "No taking away! Share 8 into 4 plates of 2, then count three plates." }
+      ],
+      "hints": ["Share into 4 plates first — 2 on each.", "Then count THREE plates: 2, 4, …"],
+      "reteach": { "say": "¾ of 8, the two-step dance: share 8 into 4 plates — 2 each. Then count three plates: 2, 4, 6. ¾ of 8 = 6. Quarter first, then three of them!", "block": { "type": "emojiViz", "emojis": "🟢🟢 | 🟢🟢 | 🟢🟢 | ⚪⚪", "caption": "¾ of 8 — count 3 of the 4 plates = 6" } }
+    },
+    {
+      "id": "l14-p06", "skill": "denominator = number of piles", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "To find ⅓ of 9, how many plates do you share into?", "options": ["3 plates", "9 plates", "1 plate", "4 plates"], "correct": 0, "explain": "The bottom number of ⅓ is 3 — share into 3 equal plates, then count one." },
+      "expectedAnswer": "3 plates",
+      "wrongAnswers": [
+        { "answer": "9 plates", "why": "used the amount instead of the denominator", "remedy": "The 9 is what you're sharing OUT. The bottom number of the fraction tells you the plates." },
+        { "answer": "1 plate", "why": "used the numerator for the plates", "remedy": "The top number is how many plates you COUNT at the end. The bottom number sets the plates." }
+      ],
+      "hints": ["Look at the BOTTOM number of ⅓.", "Bottom = plates; top = plates you count."],
+      "reteach": { "say": "The fraction is a recipe card: bottom number = how many plates on the table; top number = how many plates you count at the end. ⅓ → three plates, count one. Read the recipe before you cook!", "block": { "type": "table", "headers": ["fraction", "plates", "count"], "rows": [["½", "2", "1"], ["⅓", "3", "1"], ["¼", "4", "1"], ["¾", "4", "3"]], "caption": "Bottom sets the plates, top says how many to count" } }
+    },
+    {
+      "id": "l14-p07", "skill": "non-unit fraction of an amount", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each order to its answer (share 8 into 4 plates of 2 first!).", "pairs": [ { "left": "½ of 8", "right": "4" }, { "left": "¼ of 8", "right": "2" }, { "left": "¾ of 8", "right": "6" }, { "left": "¼ of 20", "right": "5" } ] },
+      "expectedAnswer": "½ of 8→4, ¼ of 8→2, ¾ of 8→6, ¼ of 20→5",
+      "wrongAnswers": [
+        { "answer": "¾ of 8 → 2", "why": "counted one plate for a non-unit fraction", "remedy": "¾ counts THREE plates of 2 — skip them: 2, 4, 6." },
+        { "answer": "¼ of 20 → 16", "why": "did 20 − 4", "remedy": "Share, don't subtract: 20 into 4 plates — how many on one plate?" }
+      ],
+      "hints": ["Do ¼ of 8 first — the others build on it.", "¾ is three times the ¼ answer."],
+      "reteach": { "say": "Fractions of 8 are a family: ¼ of 8 is 2 — one plate. ½ is two plates: 4. ¾ is three plates: 6. Find the quarter first and the rest is counting plates!", "block": { "type": "table", "headers": ["fraction of 8", "plates counted", "answer"], "rows": [["¼", "1 plate of 2", "2"], ["½", "2 plates of 2", "4"], ["¾", "3 plates of 2", "6"]], "caption": "One share, three answers" } }
+    },
+    {
+      "id": "l14-p08", "skill": "unit fraction of an amount", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "New denominator! What is ⅓ of 9?", "answer": 3 },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "6", "why": "did 9 − 3 — subtracted the denominator", "remedy": "The 3 sets the plates, it doesn't get taken away. Deal 9 into 3 plates." },
+        { "answer": "1", "why": "confused ⅓ with 'count 1' and answered the plate count", "remedy": "You DO count one plate — but count what's ON it. Three plates, 9 dealt out — how many on each?" }
+      ],
+      "hints": ["Bottom number 3 → three plates.", "9 ÷ 3 = ?"],
+      "reteach": { "say": "Same recipe, new number: ⅓ of 9 means THREE plates. Deal 9: one round — 1 each; two rounds — 2 each; three rounds — 3 each, all gone. One plate holds 3. ⅓ of 9 = 3.", "block": { "type": "emojiViz", "emojis": "🔺🔺🔺 | 🔺🔺🔺 | 🔺🔺🔺", "caption": "⅓ of 9 = 3" } }
+    },
+    {
+      "id": "l14-p09", "skill": "reason backwards from a fraction", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Mystery number! ¼ of my number is 5. What is my whole number?", "answer": 20 },
+      "expectedAnswer": "20",
+      "wrongAnswers": [
+        { "answer": "9", "why": "added 5 + 4 instead of rebuilding four plates", "remedy": "One plate holds 5 — and there are FOUR plates. Put them all back together." },
+        { "answer": "1", "why": "divided 5 by 4 or guessed small", "remedy": "The whole is BIGGER than one plate. Four plates of 5 — count them: 5, 10…" }
+      ],
+      "hints": ["One plate = 5. How many plates make the whole?", "Count four plates of 5: 5, 10, 15…"],
+      "reteach": { "say": "Run the machine backwards! Normally we share the whole into 4 plates. This time we KNOW one plate — 5 — and rebuild: four plates of 5 is 5, 10, 15, 20. The whole number is 20, because ¼ of 20 = 5. Check it forwards — it works!", "block": { "type": "steps", "title": "Rebuilding the whole", "steps": ["¼ means 4 equal plates", "One plate = 5", "Whole = 4 plates of 5 = 20", "Check forwards: ¼ of 20 = 5 ✓"] } }
+    },
+    {
+      "id": "l14-p10", "skill": "spot the subtract-trap", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend says: '¼ of 12 is 8, because 12 − 4 = 8.' What went wrong, and what's the real answer?", "sample": "They took 4 away instead of sharing into 4. ¼ means share 12 into 4 equal piles — 3 in each — so ¼ of 12 = 3." },
+      "expectedAnswer": "They subtracted instead of sharing; ¼ of 12 = 12 ÷ 4 = 3",
+      "wrongAnswers": [
+        { "answer": "agrees — 8", "why": "shares the subtract-the-denominator misconception", "remedy": "Test it with sweets: deal 12 onto 4 plates. Does any plate hold 8? What does one plate hold?" },
+        { "answer": "says it's wrong but can't fix it", "why": "spots the error but the sharing routine isn't secure", "remedy": "Say the recipe together: bottom number 4 → four plates → deal → count one plate." }
+      ],
+      "hints": ["What does the bottom number really tell you to do?", "Deal 12 onto 4 plates and look at one plate."],
+      "reteach": { "say": "The 4 in ¼ is not a take-away order — it's a table setting! It says 'set 4 plates'. Deal all 12 fairly: 3 on each plate. One plate — one quarter — is 3. Share, don't subtract: that's the fraction golden rule.", "block": { "type": "table", "headers": ["move", "sum", "answer", "right?"], "rows": [["take 4 away", "12 − 4", "8", "✗"], ["share into 4 plates", "12 ÷ 4", "3", "✓"]], "caption": "¼ of 12: sharing beats subtracting" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave unit fractions, non-unit fractions and the backwards ('¼ of ? = 5') items.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the dealing animated one counter at a time (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "4+ correct across levels 2–3 including one unit fraction, one non-unit fraction (¾), and the routine spoken aloud ('share into 4, count 3') → mastery ≥ 0.8 for 'fractions of a quantity'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the 4 got taken away instead of shared' / 'one plate too few got counted'.",
+      "Go fully concrete: deal the counters onto plates together, one at a time.",
+      "One hint: 'Bottom number = number of plates.'",
+      "Re-ask with ½ of 6, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Run the fair-share café with the learner's interests — grapes, football cards, gems, dinosaur stickers. The 'say the recipe first' habit (share into __, count __) stays in every framing; never change the numbers.",
+    "endOnSuccess": "Finish on a winnable share (½ of 6 if needed), then process praise: 'you dealt one-to-each instead of guessing — fair sharing is the secret to fractions.'"
+  },
+
+  "differentiation": {
+    "support": "Physically deal into the denominator's number of piles (the KB fix for '12 − 4'); label the plates 1–4; say the recipe aloud before every answer.",
+    "stretch": "Find ⅓ of 9 and ¾ of 8; the backwards puzzle — 'if ¼ of a number is 5, what's the whole number?'"
+  },
+  "extension": "'Fair feast' — share a bag of (pretend) grapes between the family and write the fraction each person gets; then find ¾ of the bag.",
+  "assessmentEvidence": "Child finds unit and non-unit fractions of amounts by sharing, links ¼ to ÷ 4, and avoids the subtract-the-denominator error.",
+  "revisitLater": "Links division (L11) to fractions permanently; quick '¾ of 8?' retrieval in Lesson 25 and the Unit 8 mixed problems."
+}

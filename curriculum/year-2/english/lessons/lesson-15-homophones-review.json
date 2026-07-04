@@ -1,0 +1,356 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u3-l15",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 3, "title": "Apostrophes & homophones", "essentialQuestion": "When does a word need an apostrophe, and how do I pick between sound-alike words?" },
+  "lessonNumber": 15,
+  "kind": "review",
+  "topic": "Apostrophes & homophones",
+  "title": "Homophones: to / too / two & friends (retrieval)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can choose the right homophone from sound-alike sets by meaning."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "two", "definition": "the number 2 — it has the w, like its cousins twin and twice", "example": "I have two cats." },
+    { "term": "too", "definition": "also or very — the EXTRA o for 'extra'", "example": "Can I come too? It's too hot!" },
+    { "term": "to", "definition": "the everyday one for everything else", "example": "I'm going to school." },
+    { "term": "here / hear", "definition": "here = this place; hear = with your ears (ear is inside it!)", "example": "Come here. Did you hear that?" },
+    { "term": "see / sea", "definition": "see = with your eyes; sea = the water", "example": "I can see the sea!" }
+  ],
+  "emphasize": [
+    "Choose sound-alikes by MEANING — always name the meaning before choosing.",
+    "The tricks: two has the w (twin, twice); too has an EXTRA o for 'extra'; to is the everyday one for everything else; hear has ear inside.",
+    "This is a retrieval lesson: interleave the whole unit — there/their/they're AND both apostrophe jobs AND the plural trap."
+  ],
+  "analysis": {
+    "keyConcepts": ["two = number, too = also/very, to = everything else", "here/hear and see/sea by meaning", "spaced retrieval of there/their/they're and apostrophe rules"],
+    "misconceptions": [
+      "defaulting to plain to for every gap",
+      "missing the extra o when the meaning is 'also' or 'very'",
+      "mixing here/hear and see/sea",
+      "unit slips creeping back: there/their swaps, plural apostrophes (egg's), it's/its"
+    ],
+    "hooks": ["'Two biscuits is too many to eat!' — three sound-alikes in ONE sentence. Untangle them and you've mastered the whole unit."],
+    "priorKnowledge": ["there/their/they're chosen by meaning (Lesson 14)", "apostrophes for contraction and possession (Lessons 11–12)", "the plural trap (Lesson 13)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["cue cards on screen (two = number / too = also or very / to = the rest; here/hear, see/sea)", "mixed gap-fill blocks", "unit-review sort"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "The tongue-twister sentence sets the challenge; quick spaced retrieval of yesterday's set.",
+      "note": "Read the sentence aloud so all three sound identical. Retrieval question before any new teaching.",
+      "successCriteria": "Child answers they're for the warm-up and hears that the three new words sound the same.",
+      "script": {
+        "say": "Here's a tongue-twister of a sentence: 'Two biscuits is too many to eat!' Three sound-alikes in ONE sentence — and they all sound like 'too'! By the end you'll untangle them every time. First, a quick warm-up on yesterday's three. Which one means 'they are'?",
+        "adaptHints": "Listen for they're. If shaky, quick recall: there (place), their (belonging), they're (they are) — then move on; the bank will bring them back."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Untangle this!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 14, "y": 16, "value": "Two", "size": 7, "bold": true, "color": "blue" },
+            { "k": "text", "x": 36, "y": 16, "value": "biscuits is", "size": 7 },
+            { "k": "text", "x": 58, "y": 16, "value": "too", "size": 7, "bold": true, "color": "green" },
+            { "k": "text", "x": 74, "y": 16, "value": "many", "size": 7 },
+            { "k": "text", "x": 24, "y": 30, "value": "to", "size": 7, "bold": true, "color": "purple" },
+            { "k": "text", "x": 42, "y": 30, "value": "eat!", "size": 7 },
+            { "k": "text", "x": 50, "y": 48, "value": "three spellings — one sound!", "size": 5, "color": "ink" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If they're won't come: stretch it out loud — 'THEY ARE' — and show the apostrophe standing in for the missing a."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the two/too/to meanings with their tricks, plus the here/hear and see/sea pairs.",
+      "note": "Circle the w of two, the extra o of too, the ear inside hear. Keep it brisk — this is a review lesson.",
+      "successCriteria": "Child can say: two = number, too = also/very (extra o for extra), to = everything else; hear has ear inside.",
+      "script": {
+        "say": "Three more sound-alikes, all chosen by meaning. Two — that's the NUMBER, 2. It's got that w, like its cousins twin and twice. Too — means ALSO or VERY: 'me too', 'too hot'. Here's the trick: it has an EXTRA o — an extra o for 'extra'! To — is the everyday one for everything else: 'I'm going to school'. And two more pairs: here, this place — hear, with your ears, and look — ear is hiding inside it! See, with your eyes — sea, the water.",
+        "adaptHints": "Make the 'extra o for extra' trick a chant. Point at each circled clue as you say it."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["word", "meaning", "trick"],
+          "rows": [
+            ["two", "the number 2", "the w — like twin and twice"],
+            ["too", "also / very", "the EXTRA o for 'extra'!"],
+            ["to", "everything else", "the everyday one"],
+            ["here / hear", "this place / with your ears", "hEARs have an EAR inside"],
+            ["see / sea", "with your eyes / the water", "you SEE with double e"]
+          ],
+          "caption": "Name the meaning first — then choose the spelling."
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared choices naming the meaning first: 'I have ___ cats' (two) and 'Can I come ___?' (too), plus one hear example.",
+      "note": "Meaning named aloud before every choice — that's the routine the whole practice runs on.",
+      "successCriteria": "Child fills both gaps correctly, naming the meaning first.",
+      "script": {
+        "say": "Choose with me. 'I have ___ cats.' How many — is it a number? Yes! So it's two, the one with the w. Now yours: 'Can I come ___?' — it means 'also', so which one? Remember the trick… the extra o for extra! And one more: 'Did you ___ that noise?' — with your ears — which spelling has an ear hiding inside?",
+        "adaptHints": "If the child answers without naming the meaning, replay: 'meaning first, then choose.' Swap cats for the child's favourite animal."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "I have ___ cats.", "answer": "two", "wordBank": ["two", "too", "to"] },
+        { "type": "fillBlank", "text": "Can I come ___?", "answer": "too", "wordBank": ["too", "to", "two"] }
+      ],
+      "check": {
+        "question": "Choose for: 'I want to come ___.' (meaning 'also')",
+        "expectedAnswer": "too",
+        "wrongAnswers": [
+          { "answer": "to", "why": "picked the everyday one without naming the meaning", "remedy": "Does it mean 'also' here? Yes — so it needs the extra o: too." },
+          { "answer": "two", "why": "picked the number", "remedy": "Is it a number, 2? No — it means 'also'. That's too, the extra-o one." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "Diagnostic: the 'also' gap — too with its trick named.",
+      "note": "Probe after a correct answer: 'what's the memory trick?' (extra o for extra).",
+      "successCriteria": "Child picks too and states the extra-o trick.",
+      "script": {
+        "say": "Quick exam: 'I want to come ___.' — the missing word means 'also'. Which spelling — and what's the memory trick?",
+        "adaptHints": "Listen for too + 'extra o for extra'. Celebrate the trick as their tool for life."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "'I want to come ___.' (meaning 'also') Which spelling?",
+          "options": ["too", "to", "two", "tow"],
+          "correct": 0,
+          "explain": "It means 'also', so it takes the extra o — too. Extra o for extra!"
+        }
+      ],
+      "check": {
+        "question": "'I want to come ___.' — the word that means 'also'.",
+        "expectedAnswer": "too (extra o for 'extra')",
+        "wrongAnswers": [
+          { "answer": "to", "why": "the everyday one grabbed by default", "remedy": "Does it mean 'also' here? Yes — so it needs the extra o: too." },
+          { "answer": "two", "why": "picked the number", "remedy": "Is it a number, 2? No — it means 'also'. That's too, the extra-o one." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Interleaved retrieval: mixed gaps across to/too/two, here/hear, see/sea, there/their/they're AND apostrophe items from the whole unit.",
+      "note": "Director draws from practiceBank, start level 2 — deliberately interleave: never two items on the same skill in a row. This is the unit's spaced-review engine.",
+      "successCriteria": "Child answers 4+ of 6 mixed items correctly, naming the meaning (or the apostrophe question) aloud first.",
+      "script": {
+        "say": "Grand unit challenge! Everything from this whole unit is in the mix — sound-alikes, squashed words, belonging, and fake apostrophes. For every one: say the meaning or ask the apostrophe question FIRST, then answer. Show me the expert you've become!",
+        "adaptHints": "Rotate skills so no two consecutive items match. Theme sentences with the learner's interests; never change the target words."
+      },
+      "stuckProtocol": [
+        "Don't choose for them.",
+        "Name why: 'let's say the meaning first.'",
+        "Step down: show the meaning cue cards; offer two choices.",
+        "ONE hint: 'is it a number? does it mean also? if not, it's plain to.'",
+        "Re-ask a smaller version (one gap).",
+        "Keep it safe: 'These trip up everyone — naming the meaning is your superpower.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child teaches back the three 'too'-sounding words and how to pick; end the unit on a win.",
+      "note": "Child-led. Close the unit warmly — this trick is theirs for life.",
+      "successCriteria": "Child states: two = number, too = also/very (extra o), to = everything else; choose by meaning.",
+      "script": {
+        "say": "Tell me the three 'too'-sounding words and how you pick. … Exactly: two is the number, too means also or very — extra o for extra — and to is the everyday one. You named the meaning before every choice — that's exactly how to untangle sound-alikes. The 'extra o for extra' trick is yours forever now. And that's the whole unit: squashing, belonging, no fake apostrophes, and sound-alikes sorted by meaning. What a set of tools!",
+        "adaptHints": "Recap the unit's four tools by name. End with specific process praise for today's meaning-first habit."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l15-p01", "skill": "choose two for a number", "level": 1,
+      "block": { "type": "fillBlank", "text": "I have ___ shoes.", "answer": "two", "wordBank": ["two", "too", "to"] },
+      "expectedAnswer": "two",
+      "wrongAnswers": [
+        { "answer": "to", "why": "defaulted to the everyday one", "remedy": "Meaning first: is it a number here? Yes, 2! Which spelling is the number — the one with the w, like twin?" },
+        { "answer": "too", "why": "grabbed the extra-o one without checking the meaning", "remedy": "Does it mean 'also' or 'very'? No — it's counting shoes. The number one has the w." }
+      ],
+      "hints": ["How many shoes — is the gap a number?", "The number 2 is the one with the w: two, like twin and twice."],
+      "reteach": { "say": "Counting? Then it's two, the number — with the w it shares with twin and twice. One, two shoes. Number = two, every time.", "block": { "type": "emojiViz", "emojis": "👟👟", "caption": "two shoes — the number with the w" } },
+      "interestSlots": ["shoes", "dinosaurs", "biscuits"]
+    },
+    {
+      "id": "l15-p02", "skill": "choose too for also/very", "level": 1,
+      "block": { "type": "fillBlank", "text": "Me ___!", "answer": "too", "wordBank": ["too", "to", "two"] },
+      "expectedAnswer": "too",
+      "wrongAnswers": [
+        { "answer": "to", "why": "missed the 'also' meaning", "remedy": "'Me too!' means 'me ALSO!' — also gets the extra o for extra." },
+        { "answer": "two", "why": "picked the number", "remedy": "Is anyone counting to 2 here? No — it means 'also'. Extra o for extra!" }
+      ],
+      "hints": ["What does 'Me ___!' mean — me ALSO!", "Also = the extra o."],
+      "reteach": { "say": "'Me too!' is the friendliest 'also' there is. Also or very always take the extra o — an extra o for something extra. Me tooooo!", "block": { "type": "emojiViz", "emojis": "🙋➕", "caption": "me too = me ALSO — extra o for extra" } }
+    },
+    {
+      "id": "l15-p03", "skill": "choose plain to", "level": 1,
+      "block": { "type": "fillBlank", "text": "We walked ___ school.", "answer": "to", "wordBank": ["to", "too", "two"] },
+      "expectedAnswer": "to",
+      "wrongAnswers": [
+        { "answer": "too", "why": "the extra o added where nothing is 'extra'", "remedy": "Does it mean 'also' or 'very'? No — it's just going somewhere. Not a number, not also — so it's plain to." },
+        { "answer": "two", "why": "picked the number", "remedy": "Is 2 of anything being counted? No — it's the everyday going-somewhere word: to." }
+      ],
+      "hints": ["Run the checks: a number? means also/very?", "Neither — so it's the everyday one: to."],
+      "reteach": { "say": "The plain to is the everyday worker: going TO school, giving TO a friend. Check the two specials first — not a number, not 'also/very'? Then plain to wins.", "block": { "type": "table", "headers": ["check", "answer"], "rows": [["a number?", "no"], ["also / very?", "no"], ["→ plain to", "we walked to school"]] } },
+      "interestSlots": ["school", "the park", "the shops"]
+    },
+    {
+      "id": "l15-p04", "skill": "choose hear/here by meaning", "level": 2,
+      "block": { "type": "fillBlank", "text": "Did you ___ that noise?", "answer": "hear", "wordBank": ["hear", "here"] },
+      "expectedAnswer": "hear",
+      "wrongAnswers": [
+        { "answer": "here", "why": "place word chosen for listening", "remedy": "Is it about a place, or about your EARS? Listening needs the spelling with an ear hiding inside: hear." },
+        { "answer": "haer", "why": "trick half-remembered, letters jumbled", "remedy": "Find the whole word ear and keep it together: h-EAR." }
+      ],
+      "hints": ["Is it a place, or something you do with your ears?", "The ears one has ear inside: h-ear."],
+      "reteach": { "say": "You HEAR with your EAR — and the word hear keeps a whole ear inside it! Here without the a is the place, like its cousin there. Noise? Ears? hear.", "block": { "type": "emojiViz", "emojis": "👂🔔", "caption": "you hEAR with your EAR" } }
+    },
+    {
+      "id": "l15-p05", "skill": "choose sea/see by meaning", "level": 2,
+      "block": { "type": "fillBlank", "text": "We swam in the ___.", "answer": "sea", "wordBank": ["sea", "see"] },
+      "expectedAnswer": "sea",
+      "wrongAnswers": [
+        { "answer": "see", "why": "eyes word chosen for the water", "remedy": "Are we looking at something, or swimming in the WATER? The water is the sea." },
+        { "answer": "she", "why": "sound slip", "remedy": "Say the sentence again slowly — we swam in the… water word: sea." }
+      ],
+      "hints": ["Is it about eyes, or about water?", "Swimming happens in the water one: sea."],
+      "reteach": { "say": "Two spellings: see with double e is your EYES — I see you! Sea with e-a is the big blue WATER. We swam in the water, so it's sea. You can even SEE the SEA — both in one sentence!", "block": { "type": "emojiViz", "emojis": "👀🌊", "caption": "see with your eyes — swim in the sea" } },
+      "interestSlots": ["the sea", "the pool"]
+    },
+    {
+      "id": "l15-p06", "skill": "retrieve there/their/they're", "level": 2,
+      "block": { "type": "fillBlank", "text": "The twins lost ___ kite.", "answer": "their", "wordBank": ["their", "there", "they're"] },
+      "expectedAnswer": "their",
+      "wrongAnswers": [
+        { "answer": "there", "why": "the default-to-there habit returning", "remedy": "Whose kite is it? It belongs to the twins — which word has the owner, heir, hiding inside?" },
+        { "answer": "they're", "why": "squash chosen without the test", "remedy": "Run yesterday's test: 'the twins lost they are kite'? Nonsense — it's belonging." }
+      ],
+      "hints": ["Yesterday's set! Whose kite is it?", "Belonging = the one with heir inside."],
+      "reteach": { "say": "Yesterday's experts don't rust! Three questions: say 'they are'? — no. A place? — no. Belongs to them? — YES. The kite is theirs: their, with heir the owner hiding inside.", "block": { "type": "table", "headers": ["question", "answer"], "rows": [["say 'they are'?", "no"], ["a place?", "no"], ["belongs to them?", "yes → their"]] } },
+      "interestSlots": ["kite", "football", "skipping rope"]
+    },
+    {
+      "id": "l15-p07", "skill": "retrieve contractions", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Unit flashback! Contract do not.", "options": ["don't", "dont", "do'nt", "do not'"], "correct": 0, "explain": "The o of not drops out and the apostrophe stands in its place: don't." },
+      "expectedAnswer": "don't",
+      "wrongAnswers": [
+        { "answer": "dont", "why": "the gravestone forgotten after a few days", "remedy": "A letter went missing when we squashed — which one? Mark its gap." },
+        { "answer": "do'nt", "why": "wrong-spot apostrophe returning", "remedy": "The apostrophe sits exactly where the o of not dropped — between the n and the t." }
+      ],
+      "hints": ["Squash do and not — which letter falls out?", "The apostrophe is the o's gravestone: don't."],
+      "reteach": { "say": "Back to Job 1: do not → squash → the o of not falls out → don't. Find the missing letters, bury them with the apostrophe — same move as ever.", "block": { "type": "emojiViz", "emojis": "🪦", "caption": "don't — the ' buried where the o was" } }
+    },
+    {
+      "id": "l15-p08", "skill": "retrieve the plural trap", "level": 2,
+      "block": { "type": "trueFalse", "statement": "The shop sign 'fresh egg's for sale' is written correctly.", "correct": false, "explain": "False! Nothing belongs and no letters are missing — plain plural: fresh eggs. Plurals never take an apostrophe." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the greengrocer's apostrophe creeping back", "remedy": "Inspector question: do the eggs OWN anything? Are letters missing? No and no — cross that apostrophe out." },
+        { "answer": "False, it should be eggs'", "why": "swapped one wrong apostrophe for another", "remedy": "No apostrophe anywhere — it's just more than one egg: eggs." }
+      ],
+      "hints": ["Put your inspector badge back on: belonging? missing letters?", "Neither — so what does a plain plural get?"],
+      "reteach": { "say": "Once an inspector, always an inspector! Fresh egg's — do the eggs own anything? No. Letters missing? No. Just more than one egg — fresh eggs, no apostrophe. Fakes never sneak past you.", "block": { "type": "table", "headers": ["sign", "verdict"], "rows": [["fresh egg's", "✗ fake apostrophe"], ["fresh eggs", "✓ plain plural"]] } }
+    },
+    {
+      "id": "l15-p09", "skill": "interleave the whole unit: sort apostrophe jobs vs plurals", "level": 3,
+      "block": {
+        "type": "categorize",
+        "prompt": "Grand unit sort! Put each one in the right pile.",
+        "buckets": ["apostrophe for squashing", "apostrophe for belonging", "no apostrophe — plural"],
+        "items": [
+          { "text": "can't", "bucket": "apostrophe for squashing" },
+          { "text": "they're", "bucket": "apostrophe for squashing" },
+          { "text": "Sam's bag", "bucket": "apostrophe for belonging" },
+          { "text": "Gran's hat", "bucket": "apostrophe for belonging" },
+          { "text": "two dogs", "bucket": "no apostrophe — plural" },
+          { "text": "three buses", "bucket": "no apostrophe — plural" }
+        ]
+      },
+      "expectedAnswer": "can't + they're → squashing; Sam's bag + Gran's hat → belonging; two dogs + three buses → plural",
+      "wrongAnswers": [
+        { "answer": "two dogs → belonging", "why": "the s pulling towards the apostrophe piles again", "remedy": "Do the dogs own anything? Are letters missing? No — 'more than one' has its own no-apostrophe pile." },
+        { "answer": "they're → belonging", "why": "muddling the squash with their", "remedy": "Stretch it: they're = THEY ARE — letters went missing, so it's a squash. The belonging one is t-h-e-i-r." }
+      ],
+      "hints": ["One question per card: belonging? missing letters? neither?", "they're stretches to 'they are' — what does that make it?"],
+      "reteach": { "say": "The whole unit in one sort! Squashes stretch back out (can't = can not, they're = they are). Belongings have an owner (Sam, Gran). Plurals just mean more — and get nothing at all. Ask the question, place the card.", "block": { "type": "table", "headers": ["card", "why", "pile"], "rows": [["can't", "can not — letters missing", "squashing"], ["Sam's bag", "Sam owns it", "belonging"], ["two dogs", "just more than one", "plural"]] } }
+    },
+    {
+      "id": "l15-p10", "skill": "choose too and to in one sentence", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "It is ___ hot ___ play outside. Which pair fills the gaps?", "options": ["too, to", "to, too", "two, to", "too, two"], "correct": 0, "explain": "'VERY hot' → too (extra o); 'to play' is the everyday to." },
+      "expectedAnswer": "too, to",
+      "wrongAnswers": [
+        { "answer": "to, too", "why": "the pair reversed — meanings not checked per gap", "remedy": "Gap one means VERY hot — very takes the extra o. Gap two is the everyday 'to play'." },
+        { "answer": "two, to", "why": "number chosen for 'very'", "remedy": "Is anything being counted? No — 'very hot' wants the extra o: too." }
+      ],
+      "hints": ["Do each gap separately: does it mean very? is it a number?", "Very = extra o; the everyday one goes with 'play'."],
+      "reteach": { "say": "Two gaps, two checks. 'It is ___ hot' — that's VERY hot — extra o: too. '___ play outside' — not a number, not 'also' — plain everyday to. Meaning first, gap by gap.", "block": { "type": "table", "headers": ["gap", "meaning", "word"], "rows": [["___ hot", "very", "too"], ["___ play", "everyday", "to"]] } }
+    },
+    {
+      "id": "l15-p11", "skill": "write two, too and to in one sentence", "level": 3,
+      "block": { "type": "shortText", "prompt": "Write one sentence that uses two, too AND to — like the biscuit one!", "sample": "Two biscuits is too many to eat!" },
+      "expectedAnswer": "A sentence using two (number), too (also/very) and to (everyday) each correctly",
+      "wrongAnswers": [
+        { "answer": "a sentence with the spellings swapped", "why": "sound-spelling under full writing load", "remedy": "Read it back gap by gap: point at your number, your 'also/very', and your everyday one. Fix any word doing the wrong job." },
+        { "answer": "a sentence using only one or two of them", "why": "avoided the hard part", "remedy": "Start from a number of things — 'Two…' — then make them 'too' something, then add a 'to'. Copy the biscuit shape!" }
+      ],
+      "hints": ["Borrow the shape: [Two things] is too [something] to [do].", "Say it aloud first, then write it."],
+      "reteach": { "say": "Use the biscuit sentence as a recipe: pick TWO of something you love… say they're TOO much of something… TO do something. 'Two puppies is too wriggly to hold!' Your turn — say it, then write it.", "block": { "type": "emojiViz", "emojis": "🍪🍪", "caption": "Two … too … to — the recipe sentence" } },
+      "interestSlots": ["biscuits", "puppies", "sweets"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, force full interleaving — rotate to/too/two, other pairs, there/their/they're and apostrophe items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the meaning cue cards shown, then a level-1 item on that same skill before mixing again.",
+    "masterySignal": "5+ correct across the mix including at least one to/too/two, one there/their/they're retrieval and one apostrophe retrieval → mastery ≥ 0.8 for 'homophones by meaning' and unit-3 retention confirmed.",
+    "struggleProtocol": [
+      "Don't choose for them.",
+      "Name why: 'let's say the meaning first.'",
+      "Step down: meaning prompt cards; two choices per gap.",
+      "ONE hint: 'is it a number? does it mean also? if not, it's plain to.'",
+      "Re-ask a smaller version (one gap).",
+      "Keep it safe: 'These trip up everyone — naming the meaning is your superpower.'"
+    ],
+    "personalization": "Theme gaps around the learner's favourites ('Two dinosaurs is too many to fit in the bath!'). The meaning-first habit stays in every framing.",
+    "endOnSuccess": "Finish on a winnable gap; praise the process — 'you named the meaning before every choice, all unit long.'"
+  },
+
+  "differentiation": {
+    "support": "Meaning prompts stay on each word; two choices per gap; the tutor reads the sentence and names the meaning together with the child.",
+    "stretch": "Explain the 'too = extra o' trick in their own words and write a sentence using two, too and to correctly."
+  },
+  "extension": "Spot here/hear or see/sea in a favourite book and explain which is which.",
+  "assessmentEvidence": "Child chooses correctly in at least four of six mixed gaps, states the too = extra o trick, and answers the apostrophe retrievals (contraction + plural trap).",
+  "revisitLater": "End-of-Unit 3 check — can't, Sam's bag, dogs (no apostrophe), and They're/their/there. Re-pose one to/too/two gap as a quick retrieval in Unit 4."
+}

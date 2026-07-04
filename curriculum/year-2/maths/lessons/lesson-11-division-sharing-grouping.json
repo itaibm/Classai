@@ -1,0 +1,322 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l11",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 11,
+  "kind": "lesson",
+  "topic": "Multiplication and division",
+  "title": "Division as sharing and grouping",
+  "durationMin": 24,
+  "objectives": ["By the end, I can divide by sharing equally and by making equal groups."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "divide (÷)", "definition": "split a number into equal parts", "example": "20 ÷ 5 = 4" },
+    { "term": "share equally", "definition": "deal one-to-each, round and round, until everything is gone", "example": "20 sweets shared between 5 friends — 4 each" },
+    { "term": "group", "definition": "divide by making equal-sized bundles and counting the bundles", "example": "how many 5s in 20? Four groups" },
+    { "term": "equal", "definition": "exactly the same amount in every part", "example": "every plate gets 4 — no plate gets more" },
+    { "term": "inverse", "definition": "the operation that undoes another", "example": "4 × 5 = 20, so 20 ÷ 5 = 4" }
+  ],
+  "emphasize": [
+    "Division means FAIR, EQUAL shares — deal one-to-each like cards until they're gone. Share, don't guess.",
+    "Division has two faces: sharing ('20 between 5 — how many each?') and grouping ('how many 5s in 20?') — same fact, two stories.",
+    "Division UNDOES multiplication: 4 × 5 = 20, so 20 ÷ 5 = 4."
+  ],
+  "analysis": {
+    "keyConcepts": ["division as equal sharing (one-to-each dealing)", "division as grouping", "division as the inverse of multiplication"],
+    "misconceptions": [
+      "counting the total then guessing the share instead of dealing one-to-each",
+      "making unequal piles and calling it sharing",
+      "muddling sharing and grouping — not seeing they give the same division fact",
+      "not connecting ÷ to the times-table fact that solves it"
+    ],
+    "hooks": ["20 sweets, 5 friends — how do we share them so it's totally fair, with no tears?"],
+    "priorKnowledge": ["equal groups and arrays (Lesson 9)", "2/5/10 times-table facts (Lesson 10)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated dealing (counters onto plates, one-to-each)", "grouping visuals", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set up the fairness problem — 20 sweets, 5 friends; retrieve 4 × 5 from Lesson 10.",
+      "note": "Let the child propose a method before any teaching. The emotional stake — 'or there'll be tears!' — carries the lesson.",
+      "successCriteria": "Child suggests a way to share fairly and answers 4 × 5 = 20.",
+      "script": {
+        "say": "Big problem! I've got 20 sweets, and 5 friends are coming over. We have to share them so it's totally FAIR — no one gets more than anyone else, or there'll be tears! How would YOU make sure it's fair? … Interesting! Hold that thought. Quick memory check first: what is 4 × 5?",
+        "adaptHints": "Swap sweets for a treat the child loves; swap friends for their real friends' names or favourite characters. Listen for 20; if shaky, skip-count 5, 10, 15, 20 together."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬\n🙂 🙂 🙂 🙂 🙂", "caption": "20 sweets, 5 friends — how do we make it FAIR?" }
+      ],
+      "stuckProtocol": ["If 4 × 5 is shaky: skip-count together in 5s — 5, 10, 15, 20 — four jumps."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model fair sharing: deal one-to-each across 5 plates until gone; read the answer from one plate; link to 4 × 5 = 20.",
+      "note": "The dealing rhythm is the method — 'one, one, one, one, one… round again'. Then write 20 ÷ 5 = 4 and connect it to multiplication.",
+      "successCriteria": "Child watches the full deal, sees every plate holds 4, and hears '20 ÷ 5 = 4 — the opposite of 4 × 5 = 20'.",
+      "script": {
+        "say": "To share fairly, I deal one to each plate — like dealing cards. Watch: one, one, one, one, one… that's every plate with one. Round again… and again… and again… until they're ALL gone. Now every plate has exactly the same — count one plate with me: 1, 2, 3, 4. Four each! So 20 shared between 5 is 4 each: 20 ÷ 5 = 4. And look at this — that's the OPPOSITE of 4 × 5 = 20! Division undoes multiplication.",
+        "adaptHints": "Deal with a steady rhythm the child can chant along to. Land hard on 'until they're all gone' — that's the stopping rule."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "20 ÷ 5 = 4 — deal one to each plate",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 6, "value": "20 sweets, 5 plates", "size": 6, "bold": true },
+            { "k": "rect", "x": 4, "y": 14, "w": 16, "h": 24, "color": "blue" },
+            { "k": "rect", "x": 23, "y": 14, "w": 16, "h": 24, "color": "blue" },
+            { "k": "rect", "x": 42, "y": 14, "w": 16, "h": 24, "color": "blue" },
+            { "k": "rect", "x": 61, "y": 14, "w": 16, "h": 24, "color": "blue" },
+            { "k": "rect", "x": 80, "y": 14, "w": 16, "h": 24, "color": "blue" },
+            { "k": "dot", "x": 8, "y": 19, "color": "orange" }, { "k": "dot", "x": 15, "y": 19, "color": "orange" }, { "k": "dot", "x": 8, "y": 30, "color": "orange" }, { "k": "dot", "x": 15, "y": 30, "color": "orange" },
+            { "k": "dot", "x": 27, "y": 19, "color": "orange" }, { "k": "dot", "x": 34, "y": 19, "color": "orange" }, { "k": "dot", "x": 27, "y": 30, "color": "orange" }, { "k": "dot", "x": 34, "y": 30, "color": "orange" },
+            { "k": "dot", "x": 46, "y": 19, "color": "orange" }, { "k": "dot", "x": 53, "y": 19, "color": "orange" }, { "k": "dot", "x": 46, "y": 30, "color": "orange" }, { "k": "dot", "x": 53, "y": 30, "color": "orange" },
+            { "k": "dot", "x": 65, "y": 19, "color": "orange" }, { "k": "dot", "x": 72, "y": 19, "color": "orange" }, { "k": "dot", "x": 65, "y": 30, "color": "orange" }, { "k": "dot", "x": 72, "y": 30, "color": "orange" },
+            { "k": "dot", "x": 84, "y": 19, "color": "orange" }, { "k": "dot", "x": 91, "y": 19, "color": "orange" }, { "k": "dot", "x": 84, "y": 30, "color": "orange" }, { "k": "dot", "x": 91, "y": 30, "color": "orange" },
+            { "k": "text", "x": 50, "y": 45, "value": "4 on every plate — fair!", "size": 5, "color": "blue" },
+            { "k": "text", "x": 50, "y": 55, "value": "20 ÷ 5 = 4   (because 4 × 5 = 20)", "size": 6, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Division's other face — grouping: how many 5s in 20? The child makes the groups and counts THE GROUPS.",
+      "note": "Same 20, same answer, different story: now we bundle into 5s and count bundles. Land the punchline: sharing and grouping both write 20 ÷ 5 = 4.",
+      "successCriteria": "Child makes 4 groups of 5 and says 'four 5s in 20 — so 20 ÷ 5 = 4 again'.",
+      "script": {
+        "say": "Now the OTHER way to divide — grouping. Same 20 sweets, but this time no plates: we make bags of 5 instead. You be the bag-packer: grab 5… that's one bag. Another 5… two bags. Keep going — how many bags of 5 can you make from 20? … Four bags! So there are four 5s in 20. Write it: 20 ÷ 5 = 4. Whoa — the SAME fact! Sharing between 5 or making bags of 5 — division tells both stories.",
+        "adaptHints": "Pause while the child 'packs' each group. If they count sweets instead of bags at the end, point: 'count the BAGS, not the sweets.'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🍬🍬🍬🍬🍬 | 🍬🍬🍬🍬🍬 | 🍬🍬🍬🍬🍬 | 🍬🍬🍬🍬🍬", "caption": "Bags of 5 — count the bags: 4. So 20 ÷ 5 = 4" },
+        { "type": "numberEntry", "prompt": "How many groups of 5 can you make from 20?", "answer": 4 }
+      ],
+      "check": {
+        "question": "How many 5s in 20?",
+        "expectedAnswer": "4 — so 20 ÷ 5 = 4 again",
+        "wrongAnswers": [
+          { "answer": "5", "why": "counted the sweets in one group instead of counting the groups", "remedy": "You counted what's INSIDE a bag. How many BAGS did you pack?" },
+          { "answer": "15", "why": "subtracted 5 from 20 — read ÷ as −", "remedy": "We're not taking 5 away once — we're asking how many 5s FIT. Pack them: 5, 10, 15, 20 — how many bags was that?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "Reveal whether the child deals fairly or guesses; probe the link to multiplication.",
+      "note": "The key diagnostic: a guessed answer (usually '5' because 5 friends) means the child never dealt. Always probe the 4 × 5 link after a correct answer.",
+      "successCriteria": "Child answers 4 each and connects it to 4 × 5 = 20.",
+      "script": {
+        "say": "Your turn, fair dealer! Share 20 equally between 5 — how many does each one get? Deal them out in your head, or watch my plates if you like. … And here's my detective question: how does your answer link to 4 × 5?",
+        "adaptHints": "If the child answers instantly and correctly, probe the inverse link. If they hesitate, replay the dealing animation slowly."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Share 20 equally between 5 — how many each?",
+          "options": ["4 each — deal one-to-each until they're gone", "5 each — because there are 5 friends", "15 each — take 5 away", "20 each"],
+          "correct": 0,
+          "explain": "Deal one to each plate, round and round, until all 20 are gone — every plate holds 4. 20 ÷ 5 = 4, because 4 × 5 = 20."
+        }
+      ],
+      "check": {
+        "question": "Share 20 equally between 5 — how many each?",
+        "expectedAnswer": "4 (and it links to 4 × 5 = 20 — division undoes multiplication)",
+        "wrongAnswers": [
+          { "answer": "5", "why": "counted the total then guessed — echoed the number of friends without dealing", "remedy": "Deal one to each plate like cards — keep going until they're gone. NOW count one plate." },
+          { "answer": "unequal piles (e.g. 'some get 5, some get 3')", "why": "didn't share one-to-each — piles drifted unequal", "remedy": "Each round, every plate gets exactly one before any plate gets two. Try again, slowly." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 21],
+      "goal": "Independent sharing AND grouping with the multiplication link named each time.",
+      "note": "Director draws from the practiceBank, start level 2. Alternate sharing items and grouping items so both faces stay alive. After each correct answer, ask for the matching × fact.",
+      "successCriteria": "Child solves 3+ divisions including one sharing, one grouping, and one linked to a times-table fact.",
+      "script": {
+        "say": "Practice time, fair dealer! Some questions are sharing — deal one-to-each. Some are grouping — pack the bags and count them. And after every answer, tell me the times-table fact hiding underneath. Ready to deal?",
+        "adaptHints": "Frame shares with the child's interests (team kits, party bags, game cards). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'the sharing wasn't one-to-each' or 'we counted the wrong thing — bags, not sweets.'",
+        "Go concrete: deal the counters onto plates together on the whiteboard, one at a time.",
+        "One hint: 'Every plate gets one before any plate gets two.'",
+        "Re-ask smaller: share 6 between 3, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [21, 24],
+      "goal": "Child names the two faces of division and the inverse link; end on an earned win.",
+      "note": "Child-led recall; the character listens and only fills gaps.",
+      "successCriteria": "Child says division is 'sharing and grouping' and that it 'undoes multiplication'.",
+      "script": {
+        "say": "Tell me the two ways we can divide… and how division links to your times tables. … Yes! Sharing one-to-each, or grouping into bags — and every division is a times-table fact walking backwards. You dealt fairly one-to-each instead of guessing — that's exactly how division works.",
+        "adaptHints": "Praise the observed process: dealing without guessing, counting the groups not the contents, naming the inverse fact."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l11-p01", "skill": "share equally", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Share 6 strawberries between 3 friends. How many each?", "options": ["2", "3", "6"], "correct": 0, "explain": "Deal one-to-each: one round gives everyone 1, a second round gives everyone 2 — all gone. 6 ÷ 3 = 2." },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "3", "why": "echoed the number of friends instead of dealing", "remedy": "Don't guess — deal! One each… round again… are they gone? Count one pile." },
+        { "answer": "6", "why": "gave the whole amount to each", "remedy": "There are only 6 altogether — they must be SPLIT. Deal one to each friend and see." }
+      ],
+      "hints": ["Deal one to each friend, then round again.", "Stop when they're all gone — then count ONE pile."],
+      "reteach": { "say": "Watch the deal: one, one, one — every friend has 1. Round again: one, one, one — every friend has 2, and the strawberries are gone. 6 ÷ 3 = 2.", "block": { "type": "emojiViz", "emojis": "🙂🍓🍓 🙂🍓🍓 🙂🍓🍓", "caption": "6 shared between 3 = 2 each" } }
+    },
+    {
+      "id": "l11-p02", "skill": "share equally", "level": 1,
+      "block": { "type": "fillBlank", "text": "Share 8 between 2 plates: 8 ÷ 2 = ___", "answer": "4", "wordBank": ["4", "6", "2"] },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "6", "why": "took 2 away instead of sharing — read ÷ as −", "remedy": "We're not taking 2 away — we're splitting 8 into 2 equal plates. Deal one-to-each and count a plate." },
+        { "answer": "2", "why": "echoed the divisor", "remedy": "The 2 is how many PLATES. Deal all 8 out — how many land on each plate?" }
+      ],
+      "hints": ["Deal one to each plate, round and round.", "8 ÷ 2 is also half of 8."],
+      "reteach": { "say": "Two plates. Deal: one, one… two, two… three, three… four, four — gone! Each plate has 4. Splitting between 2 is the same as halving: half of 8 is 4.", "block": { "type": "emojiViz", "emojis": "🍪🍪🍪🍪 | 🍪🍪🍪🍪", "caption": "8 ÷ 2 = 4 each" } }
+    },
+    {
+      "id": "l11-p03", "skill": "share equally", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Share 12 stickers between 3 friends. How many each?", "answer": 4 },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "3", "why": "echoed the number of friends — guessed without dealing", "remedy": "Deal one to each friend, round and round, until all 12 are gone. Now count one friend's pile." },
+        { "answer": "9", "why": "subtracted 3 from 12 — read ÷ as −", "remedy": "Sharing isn't taking away. Split ALL 12 fairly between the 3 — deal them out." }
+      ],
+      "hints": ["Deal one-to-each until all 12 are gone.", "Which times-table fact makes 12 with a 3? 3 × ? = 12."],
+      "reteach": { "say": "Deal 12 between 3: one each — that's 3 gone. Again — 6 gone. Again — 9 gone. Once more — all 12 gone, and everyone has 4. 12 ÷ 3 = 4, because 4 × 3 = 12.", "block": { "type": "emojiViz", "emojis": "🙂⭐⭐⭐⭐ 🙂⭐⭐⭐⭐ 🙂⭐⭐⭐⭐", "caption": "12 ÷ 3 = 4 each" } }
+    },
+    {
+      "id": "l11-p04", "skill": "divide by grouping", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Party bags! How many bags of 2 can you fill from 10 balloons?", "answer": 5 },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "2", "why": "counted what's inside one bag instead of counting the bags", "remedy": "Each bag holds 2 — but how many BAGS did you fill? Count the bags." },
+        { "answer": "8", "why": "subtracted 2 from 10 — read ÷ as −", "remedy": "We're not taking 2 away once — we keep packing 2s until the balloons run out. Count in 2s: 2, 4, 6… how many bags?" }
+      ],
+      "hints": ["Pack 2 at a time and count the BAGS.", "Count in 2s up to 10 — how many jumps?"],
+      "reteach": { "say": "Pack them: 2 balloons — one bag. 4 — two bags. 6 — three. 8 — four. 10 — five bags, balloons all gone! There are five 2s in 10, so 10 ÷ 2 = 5.", "block": { "type": "emojiViz", "emojis": "🎈🎈 | 🎈🎈 | 🎈🎈 | 🎈🎈 | 🎈🎈", "caption": "10 ÷ 2 = 5 bags" } }
+    },
+    {
+      "id": "l11-p05", "skill": "divide by grouping", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "20 ÷ 10 = ? (How many 10s in 20?)", "options": ["2", "10", "30", "200"], "correct": 0, "explain": "Count in tens to 20: 10, 20 — two jumps. There are two 10s in 20." },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "10", "why": "echoed the divisor", "remedy": "The 10 is the size of each group. How many groups of 10 fit inside 20? Count: 10… 20." },
+        { "answer": "30", "why": "added instead of divided", "remedy": "Dividing makes the number smaller or keeps it equal — never bigger. How many 10s fit in 20?" }
+      ],
+      "hints": ["Count in 10s until you reach 20.", "10 and another 10 — how many is that?"],
+      "reteach": { "say": "How many 10s hide inside 20? Skip-count and keep a finger up for each: 10 — one finger. 20 — two fingers. Two 10s! 20 ÷ 10 = 2, because 2 × 10 = 20.", "block": { "type": "numberLine", "min": 0, "max": 30, "step": 10, "highlight": 20, "marks": [{ "value": 10, "label": "one 10" }, { "value": 20, "label": "two 10s" }] } }
+    },
+    {
+      "id": "l11-p06", "skill": "link division to multiplication", "level": 2,
+      "block": { "type": "fillBlank", "text": "4 × 5 = 20, so 20 ÷ 5 = ___", "answer": "4", "wordBank": ["4", "5", "15"] },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "5", "why": "grabbed the divisor from the fact instead of the missing partner", "remedy": "The ÷ 5 already used the 5. Which OTHER number in 4 × 5 = 20 is the answer?" },
+        { "answer": "15", "why": "subtracted 5 from 20 — read ÷ as −", "remedy": "No need to work anything out — the times-table fact already tells you. 4 × 5 = 20 walking backwards is 20 ÷ 5 = …?" }
+      ],
+      "hints": ["Division is the times-table fact walking backwards.", "? × 5 = 20 — what's the ?"],
+      "reteach": { "say": "Multiplication and division are a two-way street. 4 × 5 = 20 drives forwards; 20 ÷ 5 = 4 drives back along the SAME road. If you know one, you know the other — no new work!", "block": { "type": "table", "headers": ["forwards", "backwards"], "rows": [["4 × 5 = 20", "20 ÷ 5 = 4"], ["3 × 10 = 30", "30 ÷ 10 = 3"], ["6 × 2 = 12", "12 ÷ 2 = 6"]], "caption": "Every × fact hides a ÷ fact" } }
+    },
+    {
+      "id": "l11-p07", "skill": "link division to multiplication", "level": 3,
+      "block": { "type": "matchPairs", "prompt": "From 3 × 10 = 30, match each question to its answer.", "pairs": [ { "left": "30 ÷ 10", "right": "3" }, { "left": "30 ÷ 3", "right": "10" }, { "left": "10 × 3", "right": "30" }, { "left": "how many 10s in 30?", "right": "3 tens" } ] },
+      "expectedAnswer": "30÷10→3, 30÷3→10, 10×3→30, how many 10s in 30→3 tens",
+      "wrongAnswers": [
+        { "answer": "30 ÷ 3 → 3", "why": "expects both divisions to give the same answer", "remedy": "One fact, two divisions: split 30 into 3s and you get lots of groups; split it into 10s and you get few. Which is which?" }
+      ],
+      "hints": ["One × fact gives you TWO ÷ facts.", "30 ÷ 3 asks: how many 3s in 30? Skip-count in 3s… or use the fact!"],
+      "reteach": { "say": "Meet the fact family! 3, 10 and 30 live in one house. 3 × 10 = 30, 10 × 3 = 30, 30 ÷ 10 = 3, 30 ÷ 3 = 10 — four facts, one family. Learn the ×, get both ÷s free.", "block": { "type": "table", "headers": ["the family of 3, 10 and 30"], "rows": [["3 × 10 = 30"], ["10 × 3 = 30"], ["30 ÷ 10 = 3"], ["30 ÷ 3 = 10"]], "caption": "One array, four facts" } }
+    },
+    {
+      "id": "l11-p08", "skill": "sharing vs grouping", "level": 3,
+      "block": { "type": "shortText", "prompt": "Sam works out 15 ÷ 5 by sharing 15 between 5 plates. Mia works it out by making groups of 5 and counting them. Who gets the right answer?", "sample": "Both! Sharing gives 3 on each plate; grouping gives 3 groups. 15 ÷ 5 = 3 either way — two stories, one fact." },
+      "expectedAnswer": "Both — sharing and grouping both give 15 ÷ 5 = 3",
+      "wrongAnswers": [
+        { "answer": "Only Sam (or only Mia)", "why": "thinks sharing and grouping are different maths with different answers", "remedy": "Try both with 15 counters: 5 plates gives 3 each; bags of 5 gives 3 bags. Same 3! Why do you think that happens?" },
+        { "answer": "Neither — you have to use take-away", "why": "division not trusted; falls back to subtraction", "remedy": "Both methods split 15 into EQUAL parts — that's exactly what ÷ means. Deal it or bag it and count." }
+      ],
+      "hints": ["Try both ways with 15 counters — compare the answers.", "Sharing counts what's ON a plate; grouping counts the BAGS."],
+      "reteach": { "say": "Division is one machine with two doors. Door one: share 15 between 5 plates — 3 each. Door two: pack 15 into bags of 5 — 3 bags. Different doors, same room: 15 ÷ 5 = 3. That's why one fact answers both kinds of question.", "block": { "type": "table", "headers": ["story", "what you count", "answer"], "rows": [["share 15 between 5 plates", "one plate", "3 each"], ["pack 15 into bags of 5", "the bags", "3 bags"]], "caption": "Two stories, one fact: 15 ÷ 5 = 3" } }
+    },
+    {
+      "id": "l11-p09", "skill": "share equally", "level": 3,
+      "block": { "type": "shortText", "prompt": "Tricky one! Share 13 biscuits fairly between 4 friends. What happens?", "sample": "Everyone gets 3, and there's 1 biscuit left over — 13 isn't a multiple of 4, so the share isn't exact." },
+      "expectedAnswer": "3 each with 1 left over",
+      "wrongAnswers": [
+        { "answer": "4 each", "why": "rounded up — dealt a biscuit that isn't there", "remedy": "Deal it out for real: 4, 8, 12… can you do a whole round with only 1 biscuit left?" },
+        { "answer": "give the last one to one friend", "why": "broke the fairness rule to make it come out neat", "remedy": "Then one friend has more — is that fair? What could we do with the spare so nobody grumbles?" }
+      ],
+      "hints": ["Deal in rounds of 4: 4 gone, 8 gone, 12 gone… what's left?", "A full round needs 4 biscuits. Is 1 enough for a round?"],
+      "reteach": { "say": "Deal 13 between 4: one round uses 4 — that's 4 gone. Another — 8. Another — 12, and everyone has 3. One biscuit left, but a fair round needs 4! So it's 3 each with 1 left over. Mathematicians call that spare the remainder — you'll meet it properly later.", "block": { "type": "emojiViz", "emojis": "🙂🍪🍪🍪 🙂🍪🍪🍪 🙂🍪🍪🍪 🙂🍪🍪🍪 …🍪", "caption": "13 ÷ 4 → 3 each, 1 left over" } }
+    },
+    {
+      "id": "l11-p10", "skill": "divide by grouping", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "You have 4 shoes. How many PAIRS (groups of 2) is that?", "options": ["2 pairs", "4 pairs", "1 pair"], "correct": 0, "explain": "Group them in 2s: 2 shoes — one pair; 4 shoes — two pairs. 4 ÷ 2 = 2." },
+      "expectedAnswer": "2 pairs",
+      "wrongAnswers": [
+        { "answer": "4 pairs", "why": "counted the shoes, not the pairs", "remedy": "A pair is TWO shoes together. Put them in twos — now count the pairs, not the shoes." },
+        { "answer": "1 pair", "why": "stopped after the first group", "remedy": "Keep pairing until no shoes are left. How many pairs did you make altogether?" }
+      ],
+      "hints": ["Put the shoes together in 2s.", "Count the pairs, not the shoes."],
+      "reteach": { "say": "Line up the 4 shoes. Slide them together in twos: that's one pair… and another pair. Two pairs, no shoes left over. 4 ÷ 2 = 2.", "block": { "type": "emojiViz", "emojis": "👟👟 | 👟👟", "caption": "4 shoes = 2 pairs — 4 ÷ 2 = 2" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave sharing, grouping and fact-family items.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the dealing animated one counter at a time (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "4+ correct across levels 2–3 including one sharing, one grouping and one fact linked to multiplication → mastery ≥ 0.8 for 'division as sharing and grouping'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the sharing wasn't one-to-each' / 'we counted the sweets, not the bags' / 'the ÷ turned into a − there'.",
+      "Go concrete: deal counters onto plates together, one at a time, chanting the rhythm.",
+      "One hint: 'Every plate gets one before any plate gets two.'",
+      "Re-ask smaller (6 ÷ 3), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Recast shares with the learner's interests — party bags, football team kits, trading cards between friends (use real friends' names). The one-to-each dealing rule stays in every framing; never change the numbers.",
+    "endOnSuccess": "Finish on a winnable share (drop to 6 ÷ 3 if needed), then process praise: 'you dealt fairly one-to-each instead of guessing — that's exactly how division works.'"
+  },
+
+  "differentiation": {
+    "support": "Deal one-to-each like cards until gone (the KB fix for guessing); keep plates labelled with the friends' names; if real counters are handy at home, dealing along physically is encouraged.",
+    "stretch": "Find BOTH division facts from 4 × 5 = 20; discuss a share that leaves one left over (13 between 4)."
+  },
+  "extension": "Play 'fair dealer' — deal a small deck of cards so every player gets the same; write the division fact you just performed.",
+  "assessmentEvidence": "Child shares a quantity equally and groups it, gives the correct quotient, and links it to a multiplication fact.",
+  "revisitLater": "Division feeds fractions of quantities (Lesson 14) directly — ¼ of 12 IS 12 ÷ 4. Quick mixed ÷ items return in Lesson 12's workout."
+}

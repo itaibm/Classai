@@ -1,0 +1,340 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u1-l04",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 1, "title": "Fluent reading: longer words & expression", "essentialQuestion": "How do I read big words and long sentences smoothly, like a storyteller?" },
+  "lessonNumber": 4,
+  "kind": "review",
+  "topic": "Fluency review: syllable-chopping and expressive reading",
+  "title": "Fluency review: beat the robot",
+  "durationMin": 20,
+  "objectives": ["By the end, I can syllable-chop new words and read a passage fluently."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "syllable", "definition": "a beat in a word", "example": "play-ground has two syllables" },
+    { "term": "fluency", "definition": "reading smoothly, like talking", "example": "the storyteller read" },
+    { "term": "expression", "definition": "reading with feeling", "example": "voice up at ?, excitement at !" },
+    { "term": "on sight", "definition": "reading a word instantly, no sounding out", "example": "the, was, said" }
+  ],
+  "emphasize": [
+    "This is a retrieval lesson — the child does the doing. Two skills together: beat-read any long word, then read a passage like a storyteller.",
+    "Keep the 'Robot vs Storyteller' framing — robot read first, then beat it with the smooth read. You always win the second time.",
+    "Catch any return to one-gulp reading (chop it) or robotic reading (re-read for fluency) — and guessing long words from the first letter."
+  ],
+  "analysis": {
+    "keyConcepts": ["retrieval of clap/dot → beat-read (L1–2)", "retrieval of the two-read fluency secret (L3)", "combining both skills on one passage"],
+    "misconceptions": [
+      "sliding back to one-gulp reading of long words",
+      "skipping the second (fluency) read and moving on",
+      "guessing long words from the first letter",
+      "ignoring question and exclamation marks"
+    ],
+    "hooks": ["Robot versus Storyteller — a face-off you always win the second time."],
+    "priorKnowledge": ["clap/dot → beat-read long words (Lessons 1–2)", "read once to decode, again for fluency (Lesson 3)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["four long-word cards on screen (picnic, elephant, stegosaurus, playground)", "review passage with . ? and ! (Sam ran to the park. He saw a huge dog! Where did the dog come from? It wagged its tail. Sam laughed and clapped.)", "speak blocks — the tutor listens to every read"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set up the Robot vs Storyteller face-off; retrieve beat-reading with playground.",
+      "note": "Quick demo of robot-then-storyteller on one sentence so the frame is vivid. The child always wins the second read — say so.",
+      "successCriteria": "Child beat-reads playground (2 beats) and is ready for the face-off.",
+      "script": {
+        "say": "It's a face-off: Robot versus Storyteller! Here's how it works — you read it once the robot way, all flat and bumpy… then you BEAT the robot with a smooth, lively read. You always win the second time. Ready, champion? Warm up first — read playground by its beats.",
+        "adaptHints": "If the child liked a particular character voice from Lesson 3, promise it can appear in today's storyteller reads. If playground is shaky, clap and dot it first."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🤖⚔️🧑‍🎤", "caption": "Robot vs Storyteller — you win the second read!" },
+        { "type": "speak", "prompt": "Warm-up — read this by its beats.", "target": "playground" }
+      ],
+      "stuckProtocol": ["If playground is shaky: clap it, dot the two beats, read each, blend — the Lesson 1 routine."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 6],
+      "goal": "Quick refresh of both tricks: chop the big words; re-read for the smooth win.",
+      "note": "Short and brisk — this is retrieval, not new teaching. Model dotting stegosaurus and a robot-then-storyteller read of one sentence.",
+      "successCriteria": "Child can name both tricks before practising them.",
+      "script": {
+        "say": "Two tricks we're using today. Trick one — long words: clap or dot the beats, read each, push together. Watch — ste (dot) go (dot) sau (dot) rus (dot)… stegosaurus! Trick two — smooth reading: read once to crack the words, then read AGAIN like a storyteller, watching the punctuation. That second read is how you beat the robot. Chop the big words; re-read for the smooth win!",
+        "adaptHints": "Keep the modelling snappy — under a minute each — so most of the lesson is the child reading."
+      },
+      "blocks": [
+        { "type": "steps", "title": "The two winning moves", "steps": ["Long words: clap or dot the beats → read each → push together", "Smooth reading: read once to crack it → read again like a storyteller", "Let the punctuation boss your voice: . breath · ? up · ! excitement"] },
+        { "type": "richText", "markdown": "**Today's passage:**\n\nSam ran to the park. He saw a huge dog! Where did the dog come from? It wagged its tail. Sam laughed and clapped." }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [6, 9],
+      "goal": "Warm up together: beat-read elephant, then robot-and-storyteller read of the passage's first sentence.",
+      "note": "The child does the reading with light tutor support — this is the last scaffolded moment before independent work.",
+      "successCriteria": "Child beat-reads elephant and reads the first sentence twice, smoother the second time.",
+      "script": {
+        "say": "Let's warm up together. Beat-read this card with me — elephant… el (clap) e (clap) phant (clap)… elephant! Now one sentence of our passage. Robot read first — Sam. Ran. To. The. Park. Beep boop. Now beat the robot — your storyteller read. Go!",
+        "adaptHints": "Laugh WITH the robot voice, then cheer the storyteller version. Quick question after: 'what should your voice do at the exclamation mark later?' — listen for: get excited."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Beat the robot! Read the first sentence smooth and lively.", "target": "Sam ran to the park." }
+      ],
+      "check": {
+        "question": "On our storyteller read, what should your voice do at the exclamation mark — He saw a huge dog!",
+        "expectedAnswer": "Get excited / lively",
+        "wrongAnswers": [
+          { "answer": "go up like a question", "why": "mixed up ? and !", "remedy": "The climb is for the question mark. The exclamation is the firework — say 'He saw a huge dog!' like it's amazing news." },
+          { "answer": "nothing / read it flat", "why": "punctuation ignored", "remedy": "The mark is there to boss your voice! Imagine a HUGE dog appearing right now — tell me about it." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [9, 11],
+      "goal": "Retrieval check: read playground and name its beats.",
+      "note": "Same check as the outline's end-of-unit standard. Probe: 'How did you split it into two beats?'",
+      "successCriteria": "Child reads playground and says play-ground, 2 beats.",
+      "script": {
+        "say": "Quick check before the big round. Read playground — and tell me its beats.",
+        "adaptHints": "After success, probe: 'How did you split it into two beats?'"
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "How many beats in playground?", "options": ["1", "2", "3", "4"], "correct": 1, "explain": "play (clap) ground (clap) — two beats." },
+        { "type": "speak", "prompt": "Now read it — beats first, then the whole word.", "target": "playground" }
+      ],
+      "check": {
+        "question": "Read playground and tell me its beats.",
+        "expectedAnswer": "play-ground (2 beats) → 'playground'",
+        "wrongAnswers": [
+          { "answer": "tries to read it whole and stalls", "why": "one-gulp overload returning", "remedy": "Clap it into beats first — clap play-ground, then read each beat." },
+          { "answer": "says one beat (runs it together)", "why": "beats merged", "remedy": "Hand under chin — feel the jaw drop twice — play… ground." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [11, 17],
+      "goal": "Independent round: beat-read the four word cards, then read the passage twice — decode read, then fluency read with expression.",
+      "note": "Director draws from practiceBank, start level 2, biased to speak items. This is the End-of-Unit 1 evidence round. Watch for: skipping the second read, guessing long words from the first letter, ignoring ? and !.",
+      "successCriteria": "Child beat-reads picnic, elephant, stegosaurus, playground and reads the passage smoothly on the second pass.",
+      "script": {
+        "say": "The big round! First, knock down the four word cards — clap or dot, read the beats, push together. Then the passage: one robot read to crack it… then DESTROY that robot with your smoothest, liveliest storyteller read. Optional turbo: we can time your storyteller read and you can try to beat your own smoothness next time!",
+        "adaptHints": "Offer the timer only if the child enjoys a race — smoothness beats speed, say so. Let them do a character voice on the final read if they loved that in Lesson 3."
+      },
+      "stuckProtocol": [
+        "Don't supply the word.",
+        "Name why: 'long word — let's chop it' or 'still bumpy — let's re-read'.",
+        "Step down: dot the beats / choose the shortest sentence.",
+        "ONE hint: read the first beat, or model the sentence to echo.",
+        "Re-ask the smaller version, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise. One beat / one more read.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Child teaches back both winning moves; end-of-unit praise on an earned win.",
+      "note": "This recap doubles as the End-of-Unit 1 check wrap-up. Mastery = long words read by beats; passage smooth, not word-by-word.",
+      "successCriteria": "Child states: chop into beats; read once to crack it, then again for fluency.",
+      "script": {
+        "say": "You beat the robot! Teach me both winning moves — one for long words, one for smooth reading… Yes! Chop the big words into beats, and read once to crack it, then again like a storyteller. You chopped every long word and you re-read for the smooth win — your storyteller read beat the robot every single time.",
+        "adaptHints": "Name the exact words conquered today. Process praise only — effort and strategy, never 'clever'."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l04-p01",
+      "skill": "beat-read a 2-syllable word aloud",
+      "level": 1,
+      "block": { "type": "speak", "prompt": "Card one — clap the beats, read each, push together.", "target": "picnic" },
+      "expectedAnswer": "pic-nic read beat by beat, then blended: 'picnic'",
+      "wrongAnswers": [
+        { "answer": "guesses 'pick' from the first letters", "why": "guessing from the first letter instead of reading each beat", "remedy": "Cover the second beat. Read just 'pic'… now 'nic'. Push them together — no guessing needed." },
+        { "answer": "one-gulp attempt that stalls", "why": "working-memory overload", "remedy": "Clap it into beats first: pic (clap) nic (clap). One beat at a time." }
+      ],
+      "hints": ["Two claps hide in this word.", "pic… then nic… then push."],
+      "reteach": {
+        "say": "Remember our Lesson 1 friend? Pic (clap), nic (clap) — two beats. Read each: pic… nic. Push: picnic! Words you've chopped before fall even faster the second time.",
+        "block": { "type": "emojiViz", "emojis": "🧺👏👏", "caption": "pic · nic = picnic" }
+      }
+    },
+    {
+      "id": "l04-p02",
+      "skill": "re-read a short sentence for smoothness",
+      "level": 1,
+      "block": { "type": "speak", "prompt": "Robot read once… then beat the robot with a smooth read.", "target": "The dog is big." },
+      "expectedAnswer": "Second read smooth and connected — 'The dog is big.' like talking",
+      "wrongAnswers": [
+        { "answer": "reads it once and stops", "why": "skipped the fluency pass", "remedy": "That was the robot's turn — now yours! Same sentence, smooth, like you're telling me about a real dog." },
+        { "answer": "still choppy on the second read", "why": "words not yet cracked", "remedy": "Crack any bumpy word first — then the storyteller read. One more time, nice and easy." }
+      ],
+      "hints": ["First read cracks it, second read wins.", "Tell it to me like news, not like a list."],
+      "reteach": {
+        "say": "Listen to the face-off. Robot: The. Dog. Is. Big. Storyteller: The dog is big! Same words — the second one sounds like a person. The trick is always the re-read. Your turn: robot first, then beat it.",
+        "block": { "type": "emojiViz", "emojis": "🤖➡️🧑‍🎤", "caption": "Robot read → Storyteller read" }
+      }
+    },
+    {
+      "id": "l04-p03",
+      "skill": "beat-read a 3-syllable word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Card two — clap the beats, read each, push together.", "target": "elephant" },
+      "expectedAnswer": "el-e-phant read beat by beat, then blended: 'elephant'",
+      "wrongAnswers": [
+        { "answer": "2 beats — merges el-e", "why": "beats run together", "remedy": "Hand under the chin: el… e… phant — three jaw drops. The little 'e' is a whole beat." },
+        { "answer": "one-gulp stall", "why": "overload — skipped the chop", "remedy": "Clap it into beats first: el (clap) e (clap) phant (clap)." }
+      ],
+      "hints": ["Three beats — one of them is tiny.", "el… e… phant — read each stepping stone."],
+      "reteach": {
+        "say": "Elephant has a tiny middle beat that loves to hide. Clap it slowly: el (clap) e (clap) phant (clap). Read all three: el… e… phant… elephant! Tiny beats count too.",
+        "block": { "type": "emojiViz", "emojis": "🐘👏👏👏", "caption": "el · e · phant = 3 beats" }
+      }
+    },
+    {
+      "id": "l04-p04",
+      "skill": "beat-read a 4-syllable word aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Card three — the dinosaur! Dot the beats, read each, push together.", "target": "stegosaurus" },
+      "expectedAnswer": "ste-go-sau-rus read beat by beat, then blended: 'stegosaurus'",
+      "wrongAnswers": [
+        { "answer": "one long blur that stops halfway", "why": "one-gulp overload on four beats", "remedy": "Dot it first: ste (dot) go (dot) sau (dot) rus (dot). Read one stepping stone at a time." },
+        { "answer": "reads beats but can't blend", "why": "lost the thread over four beats", "remedy": "Join the halves: ste-go… sau-rus… now push the halves together." }
+      ],
+      "hints": ["Four dots — place them before you read.", "Halves trick: ste-go, then sau-rus, then join."],
+      "reteach": {
+        "say": "The dinosaur from Lesson 2 is back — and you already beat it once! Four stepping stones: ste… go… sau… rus. Join two at a time: ste-go… sau-rus… stegosaurus! Once chopped, never scary again.",
+        "block": { "type": "emojiViz", "emojis": "🦕👏👏👏👏", "caption": "ste · go · sau · rus = 4 beats" }
+      }
+    },
+    {
+      "id": "l04-p05",
+      "skill": "read a question with a rising voice",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "The wondering sentence — let your voice climb at the end.", "target": "Where did the dog come from?" },
+      "expectedAnswer": "Read smoothly with the voice rising at the end, like real asking",
+      "wrongAnswers": [
+        { "answer": "flat read, no lift", "why": "question mark ignored", "remedy": "Ask me for real — a mystery dog just appeared! 'Where did the dog come from?' Hear the climb on 'from'?" },
+        { "answer": "shouts it", "why": "confused the question lift with exclamation excitement", "remedy": "That's your firework voice — save it for the huge dog sentence! Questions wonder — let the end float up gently." }
+      ],
+      "hints": ["Pretend a mystery dog just trotted up to you.", "The climb lands on the last word: from?"],
+      "reteach": {
+        "say": "Question marks make voices climb — it's automatic when you really wonder. Try wondering for real: a strange dog appears at your door… 'Where did the dog come from?' Feel your voice float up? Now read it exactly like that.",
+        "block": { "type": "emojiViz", "emojis": "🐕📈❓", "caption": "Wondering makes the voice climb" }
+      }
+    },
+    {
+      "id": "l04-p06",
+      "skill": "count syllables across word lengths",
+      "level": 2,
+      "block": { "type": "categorize", "prompt": "Clap each word out loud, then sort it by its beats.", "buckets": ["2 beats", "3 beats", "4 beats"], "items": [
+        { "text": "picnic", "bucket": "2 beats" },
+        { "text": "playground", "bucket": "2 beats" },
+        { "text": "elephant", "bucket": "3 beats" },
+        { "text": "dinosaur", "bucket": "3 beats" },
+        { "text": "caterpillar", "bucket": "4 beats" }
+      ] },
+      "expectedAnswer": "picnic, playground → 2; elephant, dinosaur → 3; caterpillar → 4",
+      "wrongAnswers": [
+        { "answer": "elephant → 2 beats", "why": "merged the tiny middle beat", "remedy": "Hand under the chin: el… e… phant. Count the drops — the little 'e' is a whole beat." },
+        { "answer": "caterpillar → 3 beats", "why": "rushed the claps on a long word", "remedy": "Slow right down: cat… er… pil… lar. Clap each one — how many claps?" }
+      ],
+      "hints": ["Say each word OUT LOUD — beats hide in silent reading.", "Longest word, most beats — but check by clapping, not by looks."],
+      "reteach": {
+        "say": "Sorting beats is just clapping with tidy hands! Picnic: pic-nic, two. Playground: play-ground, two. Elephant: el-e-phant, three. Dinosaur: di-no-saur, three. Caterpillar: cat-er-pil-lar — four! Clap first, sort second, every time.",
+        "block": { "type": "table", "headers": ["word", "beats", "count"], "rows": [["picnic", "pic · nic", "2"], ["playground", "play · ground", "2"], ["elephant", "el · e · phant", "3"], ["dinosaur", "di · no · saur", "3"], ["caterpillar", "cat · er · pil · lar", "4"]] }
+      }
+    },
+    {
+      "id": "l04-p07",
+      "skill": "beat-read a 4-syllable word aloud",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "Stretch card! Four beats, no dots given — mark them yourself, then read it.", "target": "caterpillar" },
+      "expectedAnswer": "cat-er-pil-lar read beat by beat, then blended: 'caterpillar'",
+      "wrongAnswers": [
+        { "answer": "reads 'cat' then guesses the rest", "why": "guessing from the first beat", "remedy": "'Cat' is stone one of four. Read the next beat on its own — no guessing, every beat gets read." },
+        { "answer": "reads beats but blends into 'catpillar'", "why": "dropped a beat while blending", "remedy": "Count your stones — four dots, four beats. Read them again slowly and let all four into the word." }
+      ],
+      "hints": ["Say it slowly and feel the jaw drops — four of them.", "Join halves: cat-er… pil-lar… then push."],
+      "reteach": {
+        "say": "Our longest word — but you've beaten four-beat words before! Dot it: cat (dot) er (dot) pil (dot) lar (dot). Read: cat… er… pil… lar. Halves: cat-er… pil-lar… caterpillar! Four beats, all crossed.",
+        "block": { "type": "emojiViz", "emojis": "🐛👏👏👏👏", "caption": "cat · er · pil · lar = 4 beats" }
+      }
+    },
+    {
+      "id": "l04-p08",
+      "skill": "read a full passage fluently with expression",
+      "level": 3,
+      "block": { "type": "speak", "prompt": "The grand final! Crack-read done? Now the full storyteller read — smooth, with every mark obeyed.", "target": "Sam ran to the park. He saw a huge dog! Where did the dog come from? It wagged its tail. Sam laughed and clapped." },
+      "expectedAnswer": "Whole passage read smoothly — breath at full stops, excitement at 'a huge dog!', voice climbing at the question",
+      "wrongAnswers": [
+        { "answer": "smooth but flat — the ! and ? sound like full stops", "why": "fluency without expression", "remedy": "Beautifully smooth! Now the feelings: find the firework sentence and the wondering sentence, and let them shine on one more read." },
+        { "answer": "word-by-word robot read", "why": "skipped the crack-read, still decoding", "remedy": "The robot got you this time! Crack-read it once more, no rush… then take your storyteller revenge." }
+      ],
+      "hints": ["Crack it first — the storyteller read only works on cracked words.", "The firework: 'He saw a huge dog!' The wonder: 'Where did the dog come from?'"],
+      "reteach": {
+        "say": "Let's build the show sentence by sentence. 'Sam ran to the park.' — calm. 'He saw a huge dog!' — firework! 'Where did the dog come from?' — wondering, voice climbs. 'It wagged its tail.' — warm and calm. 'Sam laughed and clapped.' — happy ending. Now join the whole show together and beat that robot.",
+        "block": { "type": "steps", "title": "Build the show", "steps": ["Calm start", "Firework: huge dog!", "Wondering: where from?", "Warm middle", "Happy ending"] }
+      },
+      "interestSlots": ["let the child perform it in their favourite character voice"]
+    },
+    {
+      "id": "l04-p09",
+      "skill": "articulate both fluency strategies",
+      "level": 3,
+      "block": { "type": "shortText", "prompt": "The robot wants to learn! Teach it: what are the TWO winning moves that beat it today?", "sample": "One — chop long words into beats and read each beat. Two — read once to crack the words, then read again smoothly with expression." },
+      "expectedAnswer": "Chop long words into beats; read once to crack it, then re-read smoothly with expression",
+      "wrongAnswers": [
+        { "answer": "'read better' / 'read fast'", "why": "outcome named, not the strategy — and speed confused with smoothness", "remedy": "The robot needs the actual moves! What do you do to a LONG word before reading it? And how many times do you read a tricky sentence?" },
+        { "answer": "names only one move", "why": "retrieved half the toolkit", "remedy": "That's move one — brilliant. There were TWO today: one for big words, one for whole sentences. What was the other?" }
+      ],
+      "hints": ["One move is for long words, one is for sentences.", "Think: claps and dots… then think: how many reads?"],
+      "reteach": {
+        "say": "Here's the whole toolkit in one breath. Big word? Chop it — clap or dot the beats, read each, push together. Bumpy sentence? Re-read it — once to crack, once like a storyteller, letting the marks boss your voice. Two moves — and they beat the robot every time.",
+        "block": { "type": "steps", "title": "The robot-beating toolkit", "steps": ["Long word → chop into beats → read each → push together", "Sentence → crack-read → storyteller read", "Marks boss the voice: . breath · ? up · ! firework"] }
+      }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level. At level 3, interleave the long-word speak items with the full-passage read. Prefer speak items — this review IS the child reading aloud.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then drop one level (shorter word / shorter sentence) for a guaranteed win.",
+    "masterySignal": "End-of-Unit 1 standard: child beat-reads three unfamiliar long words (e.g. picnic, elephant, stegosaurus) AND reads the passage smoothly with some expression, not word-by-word → mastery ≥ 0.8 for Unit 1 fluency.",
+    "struggleProtocol": [
+      "Don't supply the word.",
+      "Name why: 'long word — let's chop it' or 'still bumpy — let's re-read'.",
+      "Step down: dot the beats / choose the shortest sentence.",
+      "ONE hint: read the first beat, or model the sentence to echo.",
+      "Re-ask the smaller version, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise. One beat / one more read.'"
+    ],
+    "personalization": "Offer the optional timer only if the child likes a race (smoothness beats speed). Let them perform the final passage in a favourite character voice. Never change the target words or passage.",
+    "endOnSuccess": "Finish on the child's best storyteller read and praise the process: 'you chopped every long word and re-read for the smooth win — the robot never stood a chance.'"
+  },
+
+  "differentiation": {
+    "support": "Fewer words (two cards), a shorter 2–3 sentence passage; the tutor does the decode read with the child first.",
+    "stretch": "Time the second (fluency) read and aim to beat it for smoothness; add the 4-beat caterpillar."
+  },
+  "extension": "Record a storyteller read of the passage and listen back, naming one thing done well.",
+  "assessmentEvidence": "End-of-Unit 1 evidence: child beat-reads three unfamiliar long words and reads a short passage on a fluency pass with some expression — smooth, not word-by-word.",
+  "revisitLater": "Bring beat-reading back as a warm-up in Unit 2 (Lesson 5 onwards); re-run the Robot vs Storyteller face-off on a fresh passage in a few weeks."
+}

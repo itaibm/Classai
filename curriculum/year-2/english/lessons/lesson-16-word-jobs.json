@@ -1,0 +1,410 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u4-l16",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 4, "title": "Word classes & sentence types", "essentialQuestion": "What jobs do words do, and how do sentences come in different types?" },
+  "lessonNumber": 16,
+  "kind": "lesson",
+  "topic": "Word classes & sentence types",
+  "title": "Nouns, adjectives and verbs (word jobs)",
+  "durationMin": 25,
+  "objectives": ["By the end, I can spot whether a word is a noun, an adjective or a verb."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "noun", "definition": "a naming word — a person, place or thing", "example": "dog, school, ball" },
+    { "term": "adjective", "definition": "a describing word — it tells you more about a noun", "example": "fluffy, red, happy" },
+    { "term": "verb", "definition": "a doing OR being word", "example": "run, jump — and quiet ones like is and are" }
+  ],
+  "emphasize": [
+    "Every word has a JOB, and three quick TESTS find it: 'the' in front → noun; 'I am ___ing' / can I do it → verb; describes a noun → adjective.",
+    "Verbs are doing OR BEING words — is, are, was are verbs too. 'The cat IS fluffy' — is is the verb.",
+    "Pre-empt calling everything a noun: run the test, don't guess."
+  ],
+  "analysis": {
+    "keyConcepts": ["noun = naming word ('the' test)", "verb = doing or being word ('I am ___ing' test; is/are count)", "adjective = describing word (describes-a-noun test)"],
+    "misconceptions": [
+      "calling everything a noun (guessing without a test)",
+      "verb = doing word only — missing being verbs (is/are/was)",
+      "muddling adjective and verb ('happy' called the doing word)"
+    ],
+    "hooks": ["You're a word detective with three tools — every word in the room gets a job."],
+    "priorKnowledge": ["can read a simple sentence fluently (Year 1)", "capital letters and full stops"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["three-column sorting mat (categorize blocks)", "word-job table on the board", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=8kcJzh6gqGM",
+    "title": "Noun Song from Grammaropolis - \"Noun Town\"",
+    "channel": "Grammaropolis",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time the song names a person, a place or a thing, whisper 'NOUN!' — count how many you catch.",
+    "afterCheck": { "question": "What three kinds of things do nouns name?", "expectedAnswer": "People, places and things (naming words)" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame the lesson as 'word detective' with three tools; retrieve fluent sentence reading.",
+      "note": "Fast and playful — the detective frame carries the whole lesson. Show the three columns straight away.",
+      "successCriteria": "Child reads 'The happy dog ran.' fluently and is keen to 'hand out the jobs'.",
+      "script": {
+        "say": "Every single word has a JOB. Some words NAME things — dog, school — those are nouns. Some words DESCRIBE — fluffy, red — adjectives. Some words DO things — run, jump — verbs. Today you're a word detective, and I'm giving you three tools to find out each word's job. Detective badge on! First, read me this sentence: The happy dog ran.",
+        "adaptHints": "Swap the example nouns for the child's interests (their pet, their favourite place). If the read is shaky, beat-read the tricky word first, then re-read smoothly."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🕵️ 🐕 🏫 🏃", "caption": "Word detective: every word has a job!" }
+      ],
+      "stuckProtocol": ["If the sentence read is shaky: beat-read any tricky word first (h-a-ppy), then re-read the whole sentence smoothly before moving on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model the three detective tools on dog / run / fluffy, then ball / jump / red — and reveal the quiet being verbs (is, are).",
+      "note": "Say which TOOL proved each word every time — the tests make abstract labels concrete. The being-verb reveal pre-empts the 'verbs only DO' trap.",
+      "successCriteria": "Child hears each test used aloud and sees six words land in the right columns, including 'is' named as a verb.",
+      "script": {
+        "say": "Three detective tools. Tool one, for NOUNS: can I put 'the' in front? The dog — yes! Dog is a noun. Tool two, for VERBS: can I DO it, or say 'I am ___ing'? I am running — yes! Run is a verb. Tool three, for ADJECTIVES: does it describe a noun? Fluffy — a fluffy dog — yes, it describes! Watch me test ball: 'the ball' works, so it's a noun. Jump: 'I am jumping' — verb. Red: 'a red ball' — it describes, adjective. And here's a detective secret: some verbs are quiet BEING words — is, are, was. 'The cat IS fluffy' — nobody is running or jumping, but 'is' is still the verb!",
+        "adaptHints": "Keep the tool names identical every time ('the' test, 'I am ___ing' test, describes test). Act out the doing verbs; whisper the being verbs like a secret."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["job", "detective test", "examples"],
+          "rows": [
+            ["noun — names", "Can I put 'the' in front?", "dog, school, ball"],
+            ["verb — does or IS", "Can I do it? 'I am ___ing' — or a being word: is, are", "run, jump, is"],
+            ["adjective — describes", "Does it describe a noun?", "fluffy, red, happy"]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared detecting: child tests and sorts school, sleep, happy using the prompt for each tool.",
+      "note": "The character starts each test, the child finishes it. Insist on hearing WHICH tool proved it.",
+      "successCriteria": "Child sorts school → noun, sleep → verb, happy → adjective, saying the test aloud for each.",
+      "script": {
+        "say": "Detect with me. Take 'school'. Can I put 'the' in front? The school — yes! So it's a…? Now 'sleep' — can I do it? I am sleeping? Yes, so…? And 'happy' — does it describe? A happy cat — so…? Drag each word into its column, and tell me which tool proved it.",
+        "adaptHints": "If the child answers without a test, ask 'which tool proved it?' before accepting. Swap 'a happy cat' for the child's pet."
+      },
+      "blocks": [
+        {
+          "type": "categorize",
+          "prompt": "Sort each word into its job — say the test out loud first!",
+          "buckets": ["Nouns", "Adjectives", "Verbs"],
+          "items": [
+            { "text": "school", "bucket": "Nouns" },
+            { "text": "sleep", "bucket": "Verbs" },
+            { "text": "happy", "bucket": "Adjectives" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Which tool proves 'school' is a noun?",
+        "expectedAnswer": "The 'the' test — 'the school' works, so it's a noun.",
+        "wrongAnswers": [
+          { "answer": "the doing test / 'I am schooling'", "why": "reached for the verb tool first", "remedy": "Try it: 'I am schooling…' — sounds odd! Now try the other tool: can you put 'the' in front? 'The school' — which job does that prove?" },
+          { "answer": "it describes something", "why": "muddling adjective with noun", "remedy": "Does 'school' describe another word, or does it NAME a place? Try 'a school dog'… no. Try 'the school' — yes! So it's a…?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "Key diagnostic: find the verb in 'The happy dog ran.' — then probe which test proved it.",
+      "note": "'dog' means noun/verb confusion; 'happy' means adjective/verb confusion. Always probe the test after a correct answer.",
+      "successCriteria": "Child picks 'ran' AND says the test that proved it (a doing word — 'I am running').",
+      "script": {
+        "say": "Detective challenge! Here's a whole sentence: The happy dog ran. Which word is the VERB? Use your tools… and be ready to tell me which tool proved it.",
+        "adaptHints": "After a correct answer, probe: 'Which test proved it?' If the child is quick, ask for the noun and the adjective in the same sentence as a bonus."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which word is the verb: The happy dog ran?",
+          "options": ["The", "happy", "dog", "ran"],
+          "correct": 3,
+          "explain": "You can DO it — 'I am running' works. Ran is the doing word, the verb."
+        }
+      ],
+      "check": {
+        "question": "Which word is the verb: 'The happy dog ran'?",
+        "expectedAnswer": "ran (it's a doing word — 'I am running' works)",
+        "wrongAnswers": [
+          { "answer": "dog", "why": "confused noun with verb", "remedy": "Can you DO a dog? No — but you can put 'the' before it, so dog is a noun. Which word is the DOING word?" },
+          { "answer": "happy", "why": "confused adjective with verb", "remedy": "Does 'happy' describe the dog? Yes — that's an adjective's job. Which word tells you what the dog DID?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 22],
+      "goal": "Independent detecting: sort words into nouns/adjectives/verbs, including a being verb; say the test aloud each time.",
+      "note": "Director draws from practiceBank, start level 2. Watch for: calling everything a noun; guessing without a test; muddling adjective and verb; missing is/are as verbs.",
+      "successCriteria": "Child sorts at least six words correctly using the tests, including one being verb.",
+      "script": {
+        "say": "Your case, detective! I'll hand you words — you run the tests and give each one its job. Say the test out loud every time, so I can hear your detective brain working.",
+        "adaptHints": "Frame the word cards around the child's interests (their pet, football, dinosaurs) — the tests never change."
+      },
+      "stuckProtocol": [
+        "Don't sort it for them.",
+        "Name why: 'Let's run the tests in order.'",
+        "Step down: two columns first (nouns vs verbs) — add adjectives back when secure.",
+        "ONE hint: 'Try putting the in front — does it work?'",
+        "Re-ask a smaller version: one single card.",
+        "Keep it safe: 'Detectives use their tools — let's test it together.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Child states the three tests from memory; end on a win with process praise.",
+      "note": "Child-led; the character listens. Sneak in the being-verb secret one more time.",
+      "successCriteria": "Child recites: 'the' in front → noun; can do it / 'I am ___ing' → verb; describes a noun → adjective — and remembers is/are are verbs.",
+      "script": {
+        "say": "Case closed! Tell me your three detective tools for finding a word's job… And the secret one: is 'is' a verb? … Yes — a quiet being verb! You used a test on every word instead of guessing — that's how a real word detective works.",
+        "adaptHints": "Praise the observed process: running a test before answering, saying tests aloud. Never 'clever' — always the strategy."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l16-p01",
+      "skill": "sort nouns vs verbs (two columns)",
+      "level": 1,
+      "block": {
+        "type": "categorize",
+        "prompt": "Two columns to start: is each word a NAMING word or a DOING word?",
+        "buckets": ["Nouns", "Verbs"],
+        "items": [
+          { "text": "dog", "bucket": "Nouns" },
+          { "text": "run", "bucket": "Verbs" },
+          { "text": "ball", "bucket": "Nouns" },
+          { "text": "jump", "bucket": "Verbs" }
+        ]
+      },
+      "expectedAnswer": "Nouns: dog, ball · Verbs: run, jump",
+      "wrongAnswers": [
+        { "answer": "run → Nouns", "why": "guessed without a test", "remedy": "Run the verb tool: 'I am running' — does it work? Then which column?" },
+        { "answer": "ball → Verbs", "why": "thinks of throwing a ball, so calls it a doing word", "remedy": "You DO things with a ball, but can you say 'I am balling'? Try the other tool: 'the ball' — which job does that prove?" }
+      ],
+      "hints": ["Try 'the ___' for each word first.", "If 'I am ___ing' works, it's a verb."],
+      "reteach": { "say": "Two tools, two columns. 'The dog' works → noun column. 'I am running' works → verb column. Test, then sort — never guess.", "block": { "type": "table", "headers": ["word", "test that works", "job"], "rows": [["dog", "the dog", "noun"], ["run", "I am running", "verb"]] } },
+      "interestSlots": ["dog", "ball"]
+    },
+    {
+      "id": "l16-p02",
+      "skill": "use the 'the' test to spot a noun",
+      "level": 1,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Which word passes the noun test — 'the ___' sounds right?",
+        "options": ["jump", "fluffy", "ball", "ran"],
+        "correct": 2,
+        "explain": "'The ball' sounds right — ball names a thing, so it's a noun. 'The jump'… tricky, but 'the fluffy' and 'the ran' definitely fail!"
+      },
+      "expectedAnswer": "ball ('the ball' works)",
+      "wrongAnswers": [
+        { "answer": "fluffy", "why": "picked a describing word", "remedy": "Say it aloud: 'the fluffy…' — the fluffy WHAT? It's waiting for a noun to describe. Which word names a thing all by itself?" },
+        { "answer": "ran", "why": "picked the doing word", "remedy": "'The ran' — does that sound right? Ran is what someone DID. Which word can you put 'the' before?" }
+      ],
+      "hints": ["Say 'the' before each word out loud.", "A noun NAMES a thing — which word is a thing you could hold?"],
+      "reteach": { "say": "The 'the' test never lies. The ball — lovely, that's a thing, a noun. The fluffy — nope, fluffy is waiting to describe something. The ran — nope, ran is a doing word. Only naming words like 'the' in front.", "block": { "type": "emojiViz", "emojis": "✅ the ball · ❌ the fluffy · ❌ the ran", "caption": "Only nouns pass the 'the' test" } },
+      "interestSlots": ["ball"]
+    },
+    {
+      "id": "l16-p03",
+      "skill": "sort words into all three classes",
+      "level": 2,
+      "block": {
+        "type": "categorize",
+        "prompt": "All three tools out! Sort each word — say the test before you drag.",
+        "buckets": ["Nouns", "Adjectives", "Verbs"],
+        "items": [
+          { "text": "cat", "bucket": "Nouns" },
+          { "text": "red", "bucket": "Adjectives" },
+          { "text": "sleep", "bucket": "Verbs" },
+          { "text": "school", "bucket": "Nouns" },
+          { "text": "fluffy", "bucket": "Adjectives" },
+          { "text": "jump", "bucket": "Verbs" }
+        ]
+      },
+      "expectedAnswer": "Nouns: cat, school · Adjectives: red, fluffy · Verbs: sleep, jump",
+      "wrongAnswers": [
+        { "answer": "fluffy → Nouns", "why": "calling everything a noun without testing", "remedy": "Run the test: 'the fluffy' — the fluffy WHAT? It describes. Which column takes describing words?" },
+        { "answer": "sleep → Adjectives", "why": "muddled verb and adjective", "remedy": "Does 'sleep' describe a cat, or is it something you can DO? Try 'I am sleeping' — which tool works?" }
+      ],
+      "hints": ["Test in order: 'the ___'? Then 'I am ___ing'? Then 'does it describe?'", "Two words name, two describe, two do."],
+      "reteach": { "say": "One word, three tests, in order. Take 'red': 'the red'… the red WHAT? Fails. 'I am redding'? Fails! Does it describe — a red ball? YES. Red is an adjective. Every word gets the same three tests.", "block": { "type": "table", "headers": ["test", "red"], "rows": [["the red?", "✗ — the red what?"], ["I am redding?", "✗"], ["describes? a red ball", "✓ adjective!"]] } },
+      "interestSlots": ["cat", "school"]
+    },
+    {
+      "id": "l16-p04",
+      "skill": "find the verb in a sentence",
+      "level": 2,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Which word is the verb: The small cat jumped?",
+        "options": ["The", "small", "cat", "jumped"],
+        "correct": 3,
+        "explain": "Jumped is the doing word — 'I am jumping' works. Small describes, cat names."
+      },
+      "expectedAnswer": "jumped",
+      "wrongAnswers": [
+        { "answer": "cat", "why": "confused noun with verb", "remedy": "Can you DO a cat? No — 'the cat' works, so cat is the noun. Which word tells what the cat DID?" },
+        { "answer": "small", "why": "confused adjective with verb", "remedy": "'Small' describes the cat — that's the adjective's job. Which word is the action?" }
+      ],
+      "hints": ["The verb is what the cat DID.", "Try 'I am ___ing' on each word."],
+      "reteach": { "say": "In a sentence, hunt for the action. The small cat jumped — what happened? Jumping happened! 'I am jumping' works, so jumped is the verb. The describer (small) and the namer (cat) are doing their own jobs.", "block": { "type": "emojiViz", "emojis": "🐱⬆️", "caption": "The small cat JUMPED — the action is the verb" } },
+      "interestSlots": ["cat"]
+    },
+    {
+      "id": "l16-p05",
+      "skill": "spot being verbs (is/are)",
+      "level": 2,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Sneaky one! Which word is the verb: The cat is fluffy?",
+        "options": ["cat", "is", "fluffy"],
+        "correct": 1,
+        "explain": "Nobody is running or jumping — but 'is' is a quiet BEING verb. Verbs are doing OR being words."
+      },
+      "expectedAnswer": "is (a being verb)",
+      "wrongAnswers": [
+        { "answer": "fluffy", "why": "verb = doing word only; picked the most 'active-feeling' word", "remedy": "'Fluffy' describes the cat — adjective. Every sentence still needs a verb. Which little word is doing the quiet job of BEING?" },
+        { "answer": "cat", "why": "confused noun with verb", "remedy": "'The cat' works — cat is the noun. Look at the tiny word in the middle. Verbs can be quiet being words: is, are, was." }
+      ],
+      "hints": ["Verbs are doing OR being words.", "Look for the tiny word: is, are, was."],
+      "reteach": { "say": "Detective secret, one more time: not all verbs jump about. Is, are, was are BEING verbs — quiet, but they're the verb of the sentence. The cat IS fluffy: 'is' is the verb, 'fluffy' describes. No 'is' — no sentence!", "block": { "type": "keyTerm", "term": "being verbs", "definition": "is, are, was — quiet verbs that say what something IS, not what it does" } },
+      "interestSlots": ["cat"]
+    },
+    {
+      "id": "l16-p06",
+      "skill": "match words to their word-class job",
+      "level": 2,
+      "block": {
+        "type": "matchPairs",
+        "prompt": "Match each word to its job.",
+        "pairs": [
+          { "left": "dog", "right": "noun — names a thing" },
+          { "left": "jump", "right": "verb — a doing word" },
+          { "left": "red", "right": "adjective — describes a noun" },
+          { "left": "is", "right": "verb — a quiet being word" }
+        ]
+      },
+      "expectedAnswer": "dog→noun, jump→verb (doing), red→adjective, is→verb (being)",
+      "wrongAnswers": [
+        { "answer": "is → adjective", "why": "doesn't count being words as verbs", "remedy": "Does 'is' describe anything? Try 'an is dog' — no! 'Is' tells us what something IS — that's the quiet being verb." },
+        { "answer": "red → noun", "why": "calling everything a noun", "remedy": "Run the test: 'the red'… the red WHAT? It's waiting to describe. Which job is describing?" }
+      ],
+      "hints": ["Two of these are verbs — one loud, one quiet.", "Test each word before you match."],
+      "reteach": { "say": "Four words, four matches — but TWO verbs hide here. Jump is the loud doing verb; is is the quiet being verb. Dog names, red describes. Verbs come in two flavours: doing AND being.", "block": { "type": "table", "headers": ["word", "job"], "rows": [["dog", "noun"], ["red", "adjective"], ["jump", "verb (doing)"], ["is", "verb (being)"]] } }
+    },
+    {
+      "id": "l16-p07",
+      "skill": "find all three word classes in one sentence",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Stretch! In the sentence 'The fluffy cat sleeps', find the noun, the adjective AND the verb — and say which test proves each.",
+        "sample": "Noun: cat ('the cat' works). Adjective: fluffy (it describes the cat). Verb: sleeps ('I am sleeping' works)."
+      },
+      "expectedAnswer": "noun = cat, adjective = fluffy, verb = sleeps (each proved by its test)",
+      "wrongAnswers": [
+        { "answer": "noun = fluffy", "why": "calling the describing word a noun", "remedy": "'The fluffy'… the fluffy WHAT? It describes something. Which word is it describing? THAT one is your noun." },
+        { "answer": "verb = fluffy", "why": "muddled adjective and verb", "remedy": "Can you say 'I am fluffying'? No! Which word tells you what the cat is DOING right now?" }
+      ],
+      "hints": ["Find the naming word first — 'the ___' test.", "Then ask: what is the cat DOING? And which word DESCRIBES it?"],
+      "reteach": { "say": "One sentence, three jobs, like a tiny team. Cat is the namer — 'the cat' works. Fluffy is the describer — it paints the cat. Sleeps is the doer — 'I am sleeping'. Every good sentence has this little team inside it.", "block": { "type": "table", "headers": ["word", "job", "test"], "rows": [["cat", "noun", "the cat ✓"], ["fluffy", "adjective", "describes cat ✓"], ["sleeps", "verb", "I am sleeping ✓"]] } },
+      "interestSlots": ["cat"]
+    },
+    {
+      "id": "l16-p08",
+      "skill": "sort trickier words including being verbs",
+      "level": 3,
+      "block": {
+        "type": "categorize",
+        "prompt": "Master detective case: sort these — two quiet being verbs are hiding!",
+        "buckets": ["Nouns", "Adjectives", "Verbs"],
+        "items": [
+          { "text": "teacher", "bucket": "Nouns" },
+          { "text": "is", "bucket": "Verbs" },
+          { "text": "gigantic", "bucket": "Adjectives" },
+          { "text": "whisper", "bucket": "Verbs" },
+          { "text": "pond", "bucket": "Nouns" },
+          { "text": "are", "bucket": "Adjectives" }
+        ]
+      },
+      "expectedAnswer": "Nouns: teacher, pond · Adjectives: gigantic · Verbs: is, whisper, are — wait, 'are' belongs with the verbs!",
+      "wrongAnswers": [
+        { "answer": "is / are → Nouns", "why": "tiny words dumped in the noun column without testing", "remedy": "Test them: 'the is'? 'The are'? Neither works! These are the quiet BEING verbs — what something IS. Which column takes verbs?" },
+        { "answer": "whisper → Adjectives", "why": "soft-sounding word mistaken for a describer", "remedy": "Can you DO a whisper? 'I am whispering' — yes! It's an action, just a quiet one. Which column?" }
+      ],
+      "hints": ["Is and are don't DO anything loud — but they're still verbs.", "'I am whispering' — does that work?"],
+      "reteach": { "say": "Careful — this sort has a trap in it. The card 'are' looks tiny and boring, but run the tests: not a namer, not a describer… it's a BEING verb, team verb! Doing verbs shout (whisper, jump); being verbs hum quietly (is, are). Both live in the verb column.", "block": { "type": "table", "headers": ["word", "job"], "rows": [["teacher", "noun"], ["pond", "noun"], ["gigantic", "adjective"], ["whisper", "verb (doing)"], ["is", "verb (being)"], ["are", "verb (being)"]] } }
+    },
+    {
+      "id": "l16-p09",
+      "skill": "generate own examples and prove them with tests",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Your turn to set the case! Write one noun, one adjective and one verb of your own — and prove each one with its test.",
+        "sample": "Noun: dragon ('the dragon' works). Adjective: shiny (a shiny dragon — it describes). Verb: roar ('I am roaring' works)."
+      },
+      "expectedAnswer": "Any three correct words, each proved: 'the ___' for the noun, 'describes a noun' for the adjective, 'I am ___ing' (or is/are) for the verb",
+      "wrongAnswers": [
+        { "answer": "gives three words but no tests", "why": "answering from memory instead of proving", "remedy": "A detective shows the evidence! Take your first word — which of the three tools proves its job?" },
+        { "answer": "adjective example is really a noun (e.g. 'rainbow')", "why": "chose a lovely word, not a describing word", "remedy": "Beautiful word! But does it describe another word, or name a thing? Try 'the rainbow'… so its job is…? Now pick a word that could describe your rainbow." }
+      ],
+      "hints": ["Start with a thing you love — that's your noun.", "Now describe it (adjective), then make it DO something (verb)."],
+      "reteach": { "say": "Let's build the set together, small steps. Pick your favourite thing — say, dragon. 'The dragon' — noun, proved. What's your dragon like? Shiny — 'a shiny dragon' describes — adjective, proved. What does it do? Roar — 'I am roaring' — verb, proved. Noun, adjective, verb: your own word team.", "block": { "type": "emojiViz", "emojis": "🐉 ✨ 🗣️", "caption": "the dragon (noun) · shiny (adjective) · roar (verb)" } },
+      "interestSlots": ["dragon"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave sorting, find-the-verb and being-verb items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then a level-1 item (two columns only: nouns vs verbs).",
+    "masterySignal": "3+ correct across levels 2–3 including one being-verb item (is/are) and one find-the-verb-in-a-sentence item → mastery ≥ 0.8 for 'word classes: noun/adjective/verb'.",
+    "struggleProtocol": [
+      "Don't sort it for them.",
+      "Name why: 'Let's run the tests in order.'",
+      "Step down: two columns first (nouns vs verbs), add adjectives after.",
+      "ONE hint: 'Try putting the in front — does it work?'",
+      "Re-ask a smaller version (one card), then build back.",
+      "Keep it safe: 'Detectives use their tools — let's test it together.'"
+    ],
+    "personalization": "Swap the word cards for nouns/verbs/adjectives from the learner's interests (pets, football, dinosaurs, space). The three tests never change.",
+    "endOnSuccess": "Finish on a winnable sort; praise the process — 'you ran a test on every single word instead of guessing.'"
+  },
+
+  "differentiation": {
+    "support": "Two columns first (nouns vs verbs) before adding adjectives; clear, concrete words only; the test prompt stays on screen.",
+    "stretch": "Find all three word classes in one sentence (The fluffy cat sleeps) and label each; hunt for being verbs in sentences."
+  },
+  "extension": "Write one noun, one adjective and one verb of your own and prove each with a test — then join all three into one sentence.",
+  "assessmentEvidence": "Child correctly sorts at least six words using the tests, identifies the verb in a given sentence, and names 'is' as a (being) verb.",
+  "revisitLater": "Lesson 17 uses nouns + adjectives to build expanded noun phrases. Re-pose 'which word is the verb?' as retrieval next session; bring back is/are being verbs before the end-of-unit check."
+}

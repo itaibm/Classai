@@ -1,0 +1,355 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l09",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 9,
+  "kind": "lesson",
+  "topic": "Multiplication and division",
+  "title": "Multiplication: equal groups and arrays",
+  "durationMin": 24,
+  "objectives": ["By the end, I can show a multiplication as equal groups and as an array."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "equal groups", "definition": "groups with exactly the same number in each", "example": "4 plates with 5 grapes each" },
+    { "term": "lots of / times (×)", "definition": "the × sign means 'groups of'", "example": "3 × 5 means 3 groups of 5" },
+    { "term": "array", "definition": "dots arranged in neat rows and columns", "example": "3 rows of 5 dots" },
+    { "term": "commutative", "definition": "same answer either way round", "example": "3 × 5 = 5 × 3" },
+    { "term": "multiply", "definition": "count equal groups the fast way", "example": "3 × 5 = 15" }
+  ],
+  "emphasize": [
+    "Multiplication is EQUAL GROUPS — '3 × 5' means 3 groups of 5, counted the fast way (skip-counting!).",
+    "Turn an array a quarter-turn and the dots don't change: 3 × 5 = 5 × 3. Pre-empt '3 × 5 and 5 × 3 are different sums.'",
+    "Pre-empt the + / × mix-up: 3 × 5 is NOT 3 + 5. Repeat: 'Same dots, same total — turn it and check.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["multiplication as equal groups", "arrays: rows and columns", "commutativity by rotating the array", "skip-counting to find the total"],
+    "misconceptions": [
+      "3 × 5 = 8 — reading × as +",
+      "thinking 3 × 5 and 5 × 3 are different sums needing separate work",
+      "making unequal groups and still 'multiplying'"
+    ],
+    "hooks": ["4 plates, 5 grapes on each — how many grapes without counting them all?"],
+    "priorKnowledge": ["skip-counting in 2s, 5s and 10s (Lesson 5)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["virtual counters and dot arrays on the whiteboard block (animated rotation)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "Numberblocks",
+    "searchTerm": "Numberblocks arrays making arrays episode",
+    "watchTask": "Every time the blocks line up in rows and columns, freeze! Say the two facts the array shows (like 3 × 5 and 5 × 3).",
+    "afterCheck": { "question": "When the blocks turned their rectangle sideways, did the number of blocks change?", "expectedAnswer": "No — same blocks, same total, just turned." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Pose the lazy-genius problem: 4 plates of 5 grapes — count them WITHOUT counting them all; retrieve skip-counting.",
+      "note": "Let the child discover that skip-counting in 5s solves it — that's the bridge from Lesson 5.",
+      "successCriteria": "Child skip-counts 5, 10, 15, 20 and announces 'twenty grapes'.",
+      "script": {
+        "say": "Look at this feast! Four plates, and on every plate — five grapes. I want to know how many grapes altogether… but I am FAR too lazy to count them one by one. You know a super-speed trick from last time, don't you? Count the plates with me: 5… 10… keep going!",
+        "adaptHints": "Swap grapes for a snack the child loves. Listen for 15, 20; if shaky, skip-count one plate at a time together."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🍽️🍇🍇🍇🍇🍇  🍽️🍇🍇🍇🍇🍇  🍽️🍇🍇🍇🍇🍇  🍽️🍇🍇🍇🍇🍇", "caption": "4 plates, 5 grapes each — count in 5s!" }
+      ],
+      "stuckProtocol": ["If skip-counting is shaky: point at one plate at a time and chant together — 5… 10… 15… 20."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Name the × sign as 'groups of', line the groups into an array, rotate it a quarter-turn and prove 3 × 5 = 5 × 3.",
+      "note": "The rotation is the heart of the lesson — same dots, same total. Show both counts: 5, 10, 15 and 3, 6, 9, 12, 15.",
+      "successCriteria": "Child sees the 3×5 array turn into 5×3 with the same 15 dots and hears 'same dots, same total'.",
+      "script": {
+        "say": "Here's the magic sign: ×. It means 'groups of'. Three groups of 5 counters is 'three times five' — written 3 × 5. Now watch me tidy the groups into neat rows: 3 rows, 5 in each row. That's called an ARRAY. Count the rows in fives: 5, 10, 15 — fifteen! Now the magic trick… I turn the whole array a quarter-turn. Look! Now it's 5 rows of 3. But did any dot appear or disappear? Not one! Same dots, same total — so 3 × 5 equals 5 × 3. Every array gives you TWO facts for the price of one.",
+        "adaptHints": "Make the rotation playful — 'ta-da!'. Repeat the anchor: 'Same dots, same total — turn it and check.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "3 × 5 = 5 × 3 — same dots!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 22, "y": 8, "value": "3 × 5", "size": 7, "bold": true, "color": "blue" },
+            { "k": "dot", "x": 8, "y": 16, "color": "blue" },
+            { "k": "dot", "x": 15, "y": 16, "color": "blue" },
+            { "k": "dot", "x": 22, "y": 16, "color": "blue" },
+            { "k": "dot", "x": 29, "y": 16, "color": "blue" },
+            { "k": "dot", "x": 36, "y": 16, "color": "blue" },
+            { "k": "dot", "x": 8, "y": 24, "color": "blue" },
+            { "k": "dot", "x": 15, "y": 24, "color": "blue" },
+            { "k": "dot", "x": 22, "y": 24, "color": "blue" },
+            { "k": "dot", "x": 29, "y": 24, "color": "blue" },
+            { "k": "dot", "x": 36, "y": 24, "color": "blue" },
+            { "k": "dot", "x": 8, "y": 32, "color": "blue" },
+            { "k": "dot", "x": 15, "y": 32, "color": "blue" },
+            { "k": "dot", "x": 22, "y": 32, "color": "blue" },
+            { "k": "dot", "x": 29, "y": 32, "color": "blue" },
+            { "k": "dot", "x": 36, "y": 32, "color": "blue" },
+            { "k": "text", "x": 22, "y": 42, "value": "3 rows of 5: 5, 10, 15", "size": 4.5, "color": "blue" },
+            { "k": "line", "x1": 45, "y1": 24, "x2": 57, "y2": 24, "color": "accent", "arrow": true },
+            { "k": "text", "x": 51, "y": 18, "value": "turn!", "size": 4.5, "color": "accent" },
+            { "k": "text", "x": 76, "y": 8, "value": "5 × 3", "size": 7, "bold": true, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 14, "color": "orange" },
+            { "k": "dot", "x": 74, "y": 14, "color": "orange" },
+            { "k": "dot", "x": 82, "y": 14, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 21, "color": "orange" },
+            { "k": "dot", "x": 74, "y": 21, "color": "orange" },
+            { "k": "dot", "x": 82, "y": 21, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 74, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 82, "y": 28, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 35, "color": "orange" },
+            { "k": "dot", "x": 74, "y": 35, "color": "orange" },
+            { "k": "dot", "x": 82, "y": 35, "color": "orange" },
+            { "k": "dot", "x": 66, "y": 42, "color": "orange" },
+            { "k": "dot", "x": 74, "y": 42, "color": "orange" },
+            { "k": "dot", "x": 82, "y": 42, "color": "orange" },
+            { "k": "text", "x": 76, "y": 50, "value": "5 rows of 3 — still 15", "size": 4.5, "color": "orange" },
+            { "k": "text", "x": 50, "y": 58, "value": "Same 15 dots — 3 × 5 = 5 × 3", "size": 5.5, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared build of 2 × 5: child names groups and group-size, totals it, and predicts the turned fact.",
+      "note": "The child directs: how many groups, how many in each, what happens on the turn. 2 × 5 = 10 = 5 × 2.",
+      "successCriteria": "Child builds/reads 2 groups of 5, answers 10, and says 5 × 2 is also 10 without recounting.",
+      "script": {
+        "say": "Your turn to be the array chef! Show me 2 × 5. How many groups? … How many in each group? … Now line them into an array — 2 rows of 5. Count it the fast way… ten! Now the big prediction, no counting allowed: if we turn it into 5 rows of 2, how many dots will there be?",
+        "adaptHints": "If the child wants to recount after the turn, let them once — then ask 'did any dot escape?'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵", "caption": "2 rows of 5 — an array for 2 × 5" },
+        { "type": "numberEntry", "prompt": "2 × 5 = ?", "answer": 10 }
+      ],
+      "check": {
+        "question": "2 × 5 = ? And what is 5 × 2?",
+        "expectedAnswer": "10 — and 5 × 2 is also 10, same dots turned",
+        "wrongAnswers": [
+          { "answer": "7", "why": "read × as + (2 + 5)", "remedy": "× means GROUPS OF. Make 2 groups of 5 and count them in fives: 5, 10." },
+          { "answer": "25", "why": "multiplied 5 × 5 — lost track of the number of groups", "remedy": "How many GROUPS are there? Count the rows first, then the dots in one row." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "Diagnostic: 3 × 5, plus the commutativity probe — if 2 × 10 = 20, what is 10 × 2 without recounting?",
+      "note": "The two KB traps: '8' means × read as +; recalculating 10 × 2 means commutativity hasn't landed.",
+      "successCriteria": "Child answers 15, then answers 20 for 10 × 2 instantly, citing the turn.",
+      "script": {
+        "say": "Quiz time! First: 3 × 5 — think groups, count fast. … Now the detective part: I'll tell you that 2 × 10 = 20. Without building anything, without counting — what is 10 × 2? And HOW do you know?",
+        "adaptHints": "After correct answers, probe: 'How do you know 10 × 2 without recounting?' Listen for 'turn the array / same dots'."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "3 × 5 = ?",
+          "options": ["15", "8", "35", "10"],
+          "correct": 0,
+          "explain": "3 groups of 5: count in fives — 5, 10, 15. (Not 3 + 5 = 8 — the × sign means groups of!)"
+        }
+      ],
+      "check": {
+        "question": "3 × 5 = ? And if 2 × 10 = 20, what is 10 × 2?",
+        "expectedAnswer": "15; and 20 — turning the array keeps the same dots",
+        "wrongAnswers": [
+          { "answer": "8", "why": "read × as + and added 3 + 5", "remedy": "× means groups of. Build 3 groups of 5 — now count them in fives." },
+          { "answer": "10 × 2 needs a new sum", "why": "doesn't see commutativity", "remedy": "Picture the 2 × 10 array and turn it a quarter-turn. Did any dot appear or vanish? So the total is…?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 21],
+      "goal": "Independent building and reading of equal groups and arrays, writing BOTH facts each time; stretch to 5 × 5 and spotting non-equal groups.",
+      "note": "Director draws from practiceBank, start level 2. Insist on both commutative facts where the item asks.",
+      "successCriteria": "Child completes 3+ items including one array-reading item and one both-facts item.",
+      "script": {
+        "say": "Array-chef practice! I'll serve you plates, rows and dots. Your jobs: check the groups are EQUAL, count the fast way, and — chef's bonus — serve every array with its two matching facts.",
+        "adaptHints": "Swap grapes/dots for the child's favourite small things (never change the numbers). Celebrate skip-counted totals."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'the groups weren't equal' or '× got read as +.'",
+        "Go concrete — build the equal groups as separate plates on the board before any array.",
+        "One hint: 'How many groups? How many in each?'",
+        "Re-ask with 2 groups of 2, then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [21, 24],
+      "goal": "Child states what × means and why 3 × 5 = 5 × 3; end on an earned success.",
+      "note": "Child-led recall; the character listens.",
+      "successCriteria": "Child says × means 'groups of' and explains the turn keeps the same dots.",
+      "script": {
+        "say": "Two last chef questions! What does the × sign tell us to do? … And why is 3 × 5 exactly the same as 5 × 3? … Yes — groups of, and turning the array keeps every single dot. You turned the array to PROVE the two facts match — you earned two facts for the price of one, every time. That trick will make the times tables twice as easy next lesson!",
+        "adaptHints": "Praise the specific process observed: checking groups were equal, skip-counting instead of counting by ones, predicting before turning."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l09-p01", "skill": "count equal groups", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "2 plates with 5 grapes on each — how many grapes altogether?", "options": ["10", "7", "25", "52"], "correct": 0, "explain": "2 groups of 5: count in fives — 5, 10." },
+      "expectedAnswer": "10",
+      "wrongAnswers": [
+        { "answer": "7", "why": "added 2 + 5 instead of counting groups", "remedy": "That's the + move! Here we have GROUPS: point at each plate and count in fives — 5, then…?" },
+        { "answer": "25", "why": "counted 5 groups of 5 — lost the group count", "remedy": "How many plates are there? Touch each plate as you skip-count." }
+      ],
+      "hints": ["Count in 5s, one plate per number: 5, …?", "2 groups of 5 — the answer comes on the second five."],
+      "reteach": { "say": "One plate — 5 grapes. Two plates — count on: 5… 10. Two groups of five make ten. Groups first, then skip-count — that's the whole trick.", "block": { "type": "emojiViz", "emojis": "🍽️🍇🍇🍇🍇🍇  🍽️🍇🍇🍇🍇🍇", "caption": "2 groups of 5 → 5, 10" } },
+      "interestSlots": ["grapes", "strawberries", "cookies"]
+    },
+    {
+      "id": "l09-p02", "skill": "count equal groups", "level": 1,
+      "block": { "type": "fillBlank", "text": "4 groups of 2 — skip-count them: 2, 4, 6, ___", "answer": "8", "wordBank": ["8", "7", "10"] },
+      "expectedAnswer": "8",
+      "wrongAnswers": [
+        { "answer": "7", "why": "slipped into counting by ones", "remedy": "Every group adds a full 2. What's 6 and 2 more?" },
+        { "answer": "10", "why": "counted one group too many", "remedy": "There are only 4 groups — one number per group. 2, 4, 6… that's three groups… one more?" }
+      ],
+      "hints": ["One number for each group: 4 groups, 4 numbers.", "6 plus one more group of 2 = ?"],
+      "reteach": { "say": "March through the groups: group one — 2, group two — 4, group three — 6, group four — 8. Four groups of 2 make 8, and that's the fact 4 × 2 = 8!", "block": { "type": "emojiViz", "emojis": "🧦🧦  🧦🧦  🧦🧦  🧦🧦", "caption": "4 groups of 2 → 2, 4, 6, 8" } }
+    },
+    {
+      "id": "l09-p03", "skill": "multiply with equal groups", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "3 × 5 = ?", "answer": 15 },
+      "expectedAnswer": "15",
+      "wrongAnswers": [
+        { "answer": "8", "why": "read × as + and added 3 + 5", "remedy": "× means groups of! Make 3 groups of 5 in your head and count them in fives." },
+        { "answer": "35", "why": "wrote the two digits side by side", "remedy": "We're counting dots, not gluing digits. 3 groups of 5: 5, 10, …?" }
+      ],
+      "hints": ["3 groups of 5 — count in fives, three numbers.", "5, 10, …?"],
+      "reteach": { "say": "3 × 5 says: three groups, five in each. Count the fast way — 5, 10, 15. Three fives are fifteen. If you ever catch yourself doing 3 + 5, remember: × means GROUPS OF.", "block": { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵  🔵🔵🔵🔵🔵  🔵🔵🔵🔵🔵", "caption": "3 groups of 5 → 5, 10, 15" } }
+    },
+    {
+      "id": "l09-p04", "skill": "multiply with equal groups", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "4 × 2 = ?", "answer": 8 },
+      "expectedAnswer": "8",
+      "wrongAnswers": [
+        { "answer": "6", "why": "added 4 + 2", "remedy": "× means groups of — 4 groups with 2 in each. Skip-count: 2, 4, 6, …?" },
+        { "answer": "42", "why": "wrote the digits side by side", "remedy": "Build it: 4 pairs of socks. Count in twos." }
+      ],
+      "hints": ["4 groups of 2 — one number per group.", "2, 4, 6, …?"],
+      "reteach": { "say": "Four pairs of socks: 2, 4, 6, 8. Four twos make eight — 4 × 2 = 8. The × just tells you how many equal jumps to make.", "block": { "type": "numberLine", "min": 0, "max": 10, "step": 2, "highlight": 8 } }
+    },
+    {
+      "id": "l09-p05", "skill": "read an array", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "An array has 5 rows with 2 dots in each row. Which fact matches it?", "options": ["5 × 2 = 10", "5 + 2 = 7", "5 × 2 = 7", "2 × 2 = 4"], "correct": 0, "explain": "5 rows of 2: count in twos — 2, 4, 6, 8, 10. The array shows 5 × 2 = 10." },
+      "expectedAnswer": "5 × 2 = 10",
+      "wrongAnswers": [
+        { "answer": "5 + 2 = 7", "why": "read the array as an addition of the side lengths", "remedy": "The array is FULL of dots, not just two numbers. Count the dots in twos, row by row." },
+        { "answer": "5 × 2 = 7", "why": "right fact shape, but total came from adding", "remedy": "Good — 5 rows of 2! Now count the actual dots: 2, 4, 6, 8, …?" }
+      ],
+      "hints": ["Rows × dots-in-each-row.", "Count row by row in twos: 2, 4, 6…"],
+      "reteach": { "say": "Reading an array is a two-step dance: count the ROWS (5), count the dots IN one row (2), then skip-count the whole thing: 2, 4, 6, 8, 10. Five twos are ten.", "block": { "type": "emojiViz", "emojis": "🔵🔵\n🔵🔵\n🔵🔵\n🔵🔵\n🔵🔵", "caption": "5 rows of 2 → 5 × 2 = 10" } }
+    },
+    {
+      "id": "l09-p06", "skill": "commutativity — turn the array", "level": 2,
+      "block": { "type": "trueFalse", "statement": "3 × 5 and 5 × 3 give different answers.", "correct": false, "explain": "Turn the 3 × 5 array a quarter-turn: it becomes 5 × 3 — but not one dot appears or vanishes. Both are 15." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — sees two different sums", "remedy": "Picture the 3 rows of 5 dots. Turn it. Count the dots again — did any escape?" },
+        { "answer": "True — 5 × 3 is bigger", "why": "thinks the first number decides the size", "remedy": "Same dots either way! Skip-count both: 5, 10, 15 and 3, 6, 9, 12, 15. What do you notice?" }
+      ],
+      "hints": ["Turn the array — do the dots change?", "Count both ways: in fives (3 numbers) and in threes (5 numbers)."],
+      "reteach": { "say": "The turning trick never fails: 3 rows of 5, turn it, 5 rows of 3 — the same 15 dots just standing sideways. That's why every array hands you TWO facts: 3 × 5 = 15 and 5 × 3 = 15.", "block": { "type": "table", "headers": ["fact", "count", "total"], "rows": [["3 × 5", "5, 10, 15", "15"], ["5 × 3", "3, 6, 9, 12, 15", "15"]], "caption": "Same dots, same total" } }
+    },
+    {
+      "id": "l09-p07", "skill": "multiply with equal groups", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each fact to its total.", "pairs": [ { "left": "3 × 5", "right": "15" }, { "left": "2 × 10", "right": "20" }, { "left": "4 × 2", "right": "8" }, { "left": "3 × 10", "right": "30" } ] },
+      "expectedAnswer": "3×5→15, 2×10→20, 4×2→8, 3×10→30",
+      "wrongAnswers": [
+        { "answer": "3 × 5 → 8", "why": "added instead of grouping", "remedy": "× means groups of. Skip-count 3 fives: 5, 10, 15. Which total is that?" },
+        { "answer": "2 × 10 → 30", "why": "skip-counted one jump too many", "remedy": "TWO tens only — one number per group: 10, 20. Stop there!" }
+      ],
+      "hints": ["Skip-count each one — one number per group.", "The 10s facts end in 0; count the tens jumps."],
+      "reteach": { "say": "Every fact is a skip-count with a stop sign: 3 × 5 → 5, 10, 15, stop. 2 × 10 → 10, 20, stop. 4 × 2 → 2, 4, 6, 8, stop. 3 × 10 → 10, 20, 30, stop. Count the groups on your fingers so you stop in time!", "block": { "type": "table", "headers": ["fact", "skip-count", "total"], "rows": [["3 × 5", "5, 10, 15", "15"], ["2 × 10", "10, 20", "20"], ["4 × 2", "2, 4, 6, 8", "8"], ["3 × 10", "10, 20, 30", "30"]] } }
+    },
+    {
+      "id": "l09-p08", "skill": "build a square array (stretch)", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! Picture a 5-by-5 array — 5 rows, 5 in each row. 5 × 5 = ?", "answer": 25 },
+      "expectedAnswer": "25",
+      "wrongAnswers": [
+        { "answer": "10", "why": "added 5 + 5", "remedy": "That's the + move. Five ROWS of five — skip-count a whole hand per row: 5, 10, …" },
+        { "answer": "20", "why": "skip-counted one row short", "remedy": "Five rows need five numbers. 5, 10, 15, 20 — that's only four rows. One more!" }
+      ],
+      "hints": ["Five rows = five numbers in your skip-count.", "5, 10, 15, 20, …?"],
+      "reteach": { "say": "A 5 × 5 array is a perfect square of dots. Row by row: 5, 10, 15, 20, 25. Five fives are twenty-five — and here's a secret: turn it and it looks EXACTLY the same. Square arrays are their own twins!", "block": { "type": "emojiViz", "emojis": "🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵\n🔵🔵🔵🔵🔵", "caption": "5 × 5 = 25 — the square array" } }
+    },
+    {
+      "id": "l09-p09", "skill": "spot equal vs unequal groups (stretch)", "level": 3,
+      "block": { "type": "categorize", "prompt": "Can you multiply it? Sort these!", "buckets": ["equal groups — can multiply", "NOT equal groups"], "items": [ { "text": "3 plates of 5 grapes", "bucket": "equal groups — can multiply" }, { "text": "plates with 2, 3 and 4 grapes", "bucket": "NOT equal groups" }, { "text": "4 bags of 2 marbles", "bucket": "equal groups — can multiply" }, { "text": "5 rows of 3 dots", "bucket": "equal groups — can multiply" }, { "text": "a pile of 2 and a pile of 6", "bucket": "NOT equal groups" } ] },
+      "expectedAnswer": "3 plates of 5, 4 bags of 2, 5 rows of 3 → equal; plates with 2, 3 and 4, piles of 2 and 6 → not equal",
+      "wrongAnswers": [
+        { "answer": "plates with 2, 3 and 4 grapes → can multiply", "why": "sees groups but doesn't check they're EQUAL", "remedy": "Multiplication needs every group the SAME. Are 2, 3 and 4 the same? Could you skip-count those plates?" },
+        { "answer": "a pile of 2 and a pile of 6 → can multiply", "why": "two groups looks like ×, but the groups differ", "remedy": "Try skip-counting it — what step would you use? 2? 6? Neither fits both piles." }
+      ],
+      "hints": ["One question decides: is every group EXACTLY the same size?", "If you can't skip-count it with one step, you can't multiply it."],
+      "reteach": { "say": "Multiplication is fussy: every group must match exactly, or the skip-count breaks. 3 plates of 5 — count 5, 10, 15, lovely. Plates of 2, 3 and 4 — what step would you even use? None fits! Unequal groups need adding, not multiplying.", "block": { "type": "table", "headers": ["groups", "equal?", "multiply?"], "rows": [["3 plates of 5", "yes", "3 × 5 ✓"], ["2, 3 and 4 grapes", "no", "add instead: 2 + 3 + 4"], ["4 bags of 2", "yes", "4 × 2 ✓"], ["piles of 2 and 6", "no", "add instead: 2 + 6"]] } }
+    },
+    {
+      "id": "l09-p10", "skill": "explain the + / × mix-up (stretch)", "level": 3,
+      "block": { "type": "shortText", "prompt": "Leo says 3 × 5 = 8. What did he do wrong, and what's the real answer?", "sample": "He added 3 + 5. But × means groups of — 3 groups of 5. Skip-count: 5, 10, 15. The real answer is 15." },
+      "expectedAnswer": "He added instead of making groups; 3 × 5 means 3 groups of 5, which is 15",
+      "wrongAnswers": [
+        { "answer": "Leo is right", "why": "shares the × read as + misconception", "remedy": "Build 3 plates of 5 and count every grape. Do you get 8 — or a lot more?" },
+        { "answer": "He should have said 35", "why": "swapped one error for the digit-gluing error", "remedy": "No gluing digits! Count the actual dots in 3 groups of 5: 5, 10, …?" }
+      ],
+      "hints": ["What does the × sign mean — join two numbers, or make groups?", "Draw Leo's sum as 3 plates of 5 and count."],
+      "reteach": { "say": "The two signs are different machines: + POOLS two piles (3 + 5 = 8), but × COPIES a group (3 copies of 5). Three plates of five grapes is way more than 8 — it's 5, 10, 15. Same digits, totally different jobs!", "block": { "type": "table", "headers": ["sign", "what it does", "3 ? 5"], "rows": [["+", "pools two piles together", "3 + 5 = 8"], ["×", "makes copies of a group", "3 × 5 = 15"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave array-reading, both-facts and equal/unequal sorting.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the equal groups built as separate plates first, then serve a level-1 item (2 groups of 2).",
+    "masterySignal": "3+ correct across levels 2–3 including one array item and one commutativity item (stating the turned fact without recounting) → mastery ≥ 0.8 for 'multiplication as equal groups and arrays'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the groups weren't equal' or '× got read as +.'",
+      "Go concrete — physically make the equal groups as plates before any array.",
+      "One hint: 'How many groups? How many in each?'",
+      "Re-ask with 2 groups of 2, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Make the groups out of LearnerModel.interests (grapes, football stickers, toy cars in rows) — never change the numbers or the groups-of language.",
+    "endOnSuccess": "Finish with an item the child can win (2 groups of 2 if needed), then specific process praise: what they DID (checked the groups were equal, skip-counted, turned the array to prove two facts) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Count every array in skip-counts with one finger per row; keep the groups physically separated on plates until arrays feel safe.",
+    "stretch": "Write both facts for every array unaided; 'would turning ANY array always keep the same total? Why?'; build the 5 × 5 square and find its twin."
+  },
+  "extension": "'Spin the array' — make an array, predict the turned fact, spin it and check; collect five matching pairs of facts.",
+  "assessmentEvidence": "Child represents a multiplication as equal groups AND as an array, states the total by skip-counting, and writes both commutative facts.",
+  "revisitLater": "Arrays return in Lesson 10 (the 2, 5 and 10 times tables) and Lesson 11 (division as sharing); the daily skip-count starter keeps the totals warm."
+}

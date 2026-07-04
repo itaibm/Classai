@@ -1,0 +1,357 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u2-l05",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 2, "title": "Spelling with suffixes", "essentialQuestion": "How do I add an ending to a word so it's still spelled correctly?" },
+  "lessonNumber": 5,
+  "kind": "lesson",
+  "topic": "Adding suffixes with no spelling change",
+  "title": "Just add it on: -ing, -ed, -er, -est",
+  "durationMin": 20,
+  "objectives": ["By the end, I can add a suffix to a word that needs no spelling change."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "root word", "definition": "the main word before any ending", "example": "jump is the root of jumping" },
+    { "term": "suffix", "definition": "a little ending (tail) added to a word", "example": "-ing, -ed, -er, -est" }
+  ],
+  "emphasize": [
+    "A suffix is a tail you add to a root word to change it. Today's rule is the easy one: just add it on — NO spelling change.",
+    "Keep the root word visible and unchanged so the child sees nothing inside it changes — this builds the habit before the trickier rules (drop-e, double, y→i) in Lessons 6–8.",
+    "Repeated image: 'Grow a tail onto the root.' Pre-empt over-thinking (changing the root, e.g. plaing) and tail mix-ups (-ing vs -ed)."
+  ],
+  "analysis": {
+    "keyConcepts": ["root word + suffix = new word", "for these roots, the suffix attaches with no spelling change", "-ing, -ed, -er, -est are the first suffix family"],
+    "misconceptions": [
+      "changing the root unnecessarily (plaing, playling)",
+      "mixing up which tail was asked for (-ing vs -ed)",
+      "not reading the new word back after building it"
+    ],
+    "hooks": ["Jump grows a tail and becomes jumping — grow tails on words!"],
+    "priorKnowledge": ["what a root word is; adding -s to make a plural (Year 1)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["root-word cards on screen (jump, play, help, paint, kick, fast)", "suffix tail cards (-ing, -ed, -er, -est) that slide onto the roots", "whiteboard showing root + tail in two colours"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "Oak National Academy – English",
+    "searchTerm": "adding the suffixes -ing and -ed to root words year 2",
+    "watchTask": "Every time a suffix is added, say the root word and the tail OUT LOUD before the video joins them.",
+    "afterCheck": { "question": "What do we call the little ending we add to a root word?", "expectedAnswer": "A suffix" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Introduce root + suffix with the 'grow a tail' image on jump → jumping; retrieve Year 1 plural -s.",
+      "note": "The tail card visibly slides onto the root on screen. Keep the two words root/suffix light — the image does the work.",
+      "successCriteria": "Child answers that cat becomes cats by adding -s, and is keen to grow tails.",
+      "script": {
+        "say": "I've got a word: jump. Watch — I'm going to grow a little tail on the end of it. Jump… plus -ing… becomes JUMPING! That little tail is called a suffix, and the main word, jump, is the root. You already know a tiny tail — how do I make cat into more than one cat?",
+        "adaptHints": "If the child likes animals, play with the tail image — a word growing a tail like a puppy. If plural -s is shaky: 'One cat… two… cats — we added an s. Endings change words. Today's ending is a bigger one called a suffix.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Grow a tail!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 32, "y": 18, "value": "jump", "size": 11, "bold": true },
+            { "k": "text", "x": 62, "y": 18, "value": "+ ing", "size": 11, "bold": true, "color": "accent" },
+            { "k": "line", "x1": 50, "y1": 26, "x2": 50, "y2": 38, "color": "ink", "arrow": true },
+            { "k": "text", "x": 50, "y": 46, "value": "jumping", "size": 12, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 57, "value": "root + suffix = new word", "size": 4, "color": "ink" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If plural -s is shaky: 'One cat… two… cats — we added an s. Endings change words. Today's ending is a bigger one called a suffix.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the easy rule: just stick the suffix straight on — nothing inside the root changes. Model jump/play with -ing and -ed.",
+      "note": "Write the root, then the suffix in a different colour, so the unchanged root stays clearly visible every time.",
+      "successCriteria": "Child can say 'the root doesn't change — just add the tail'.",
+      "script": {
+        "say": "The main word is the ROOT. The ending we add is the SUFFIX. For today's easy words, I just stick the suffix straight on — nothing inside the root changes. Watch: jump + -ing = jumping. Jump + -ed = jumped. See? The jump stays exactly the same, I just grow the tail. Let's try play: play + -ing = playing; play + -ed = played. Easy — just add it on. The root word doesn't change at all.",
+        "adaptHints": "Point at the root each time: 'still spelled j-u-m-p — nothing changed.' Say the rule phrase twice: 'just add it on.'"
+      },
+      "blocks": [
+        { "type": "table", "headers": ["root", "suffix", "new word"], "rows": [["jump", "-ing", "jumping"], ["jump", "-ed", "jumped"], ["play", "-ing", "playing"], ["play", "-ed", "played"]], "caption": "The root never changes — just add the tail!" },
+        { "type": "keyTerm", "term": "suffix", "definition": "a little ending (tail) added to a root word", "example": "jump + -ing = jumping" }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared building: help → helping/helped, paint → painting, kick → kicked — the child supplies each new word.",
+      "note": "The child builds, the tutor writes. Fill-blank keeps the root visible so nothing gets changed inside it.",
+      "successCriteria": "Child builds helping, helped, painting, kicked with the roots unchanged.",
+      "script": {
+        "say": "Your turn to help. Take the word help. Grow it an -ing tail… what do we get? Helping! Now an -ed tail… helped! Let's build two more: paint plus -ing… and kick plus -ed. Fill them in — and remember, the root stays exactly as it is.",
+        "adaptHints": "If the child starts changing the root, point at it: 'is help still spelled h-e-l-p in your word?'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "help + -ing = ___", "answer": "helping", "wordBank": ["helping", "helpping", "heling"] },
+        { "type": "fillBlank", "text": "paint + -ing = ___", "answer": "painting", "wordBank": ["painting", "paintting", "paining"] },
+        { "type": "fillBlank", "text": "kick + -ed = ___", "answer": "kicked", "wordBank": ["kicked", "kickt", "kicking"] }
+      ],
+      "check": {
+        "question": "Add -ing to help.",
+        "expectedAnswer": "helping (root unchanged)",
+        "wrongAnswers": [
+          { "answer": "helpping", "why": "doubled a letter that doesn't need doubling — over-thinking the easy rule", "remedy": "Look at the root: h-e-l-p. For today's easy rule we change NOTHING — write help, then just add the tail." },
+          { "answer": "helped", "why": "mixed up the tails", "remedy": "Which tail did I ask for — -ing or -ed? Look at the tail card and try again." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The lesson's key check: add -ing to play and read it back.",
+      "note": "Probe after success: 'Did the word play change inside? No — we just added the tail.'",
+      "successCriteria": "Child spells playing with the root unchanged and reads it back.",
+      "script": {
+        "say": "Check time! Add -ing to play — build it, then read your new word back to me out loud.",
+        "adaptHints": "After a correct answer, probe: 'Did the word play change inside? No — we just added the tail.'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "play + -ing = ___", "answer": "playing", "wordBank": ["playing", "plaing", "playling"] },
+        { "type": "speak", "prompt": "Read your new word back to me.", "target": "playing" }
+      ],
+      "check": {
+        "question": "Add -ing to play and read it back.",
+        "expectedAnswer": "playing",
+        "wrongAnswers": [
+          { "answer": "plaing (or playling)", "why": "changed the root — dropping or adding letters while over-thinking", "remedy": "For this easy rule we change nothing inside the root. Write play — p-l-a-y — then just add -ing. Is play still there in your word?" },
+          { "answer": "played", "why": "mixed up the tails", "remedy": "Which tail did I ask for — -ing or -ed? Point to the -ing tail card and grow that one." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent building: add -ing AND -ed to jump, play, help, kick, reading each new word back. Fast finishers: -er/-est on fast.",
+      "note": "Director draws from practiceBank, start level 2. Watch for altering the root, forgetting to read the new word back, and mixing the tails.",
+      "successCriteria": "Child adds -ing and -ed to at least three roots with the root unchanged, reading each back.",
+      "script": {
+        "say": "Practice time, tail-grower! I'll give you roots and tails — you build the new words and read each one back to me out loud. The golden rule: the root stays exactly as it is. Grow those tails!",
+        "adaptHints": "Frame the actions with the child's life ('you were playing… you jumped…'). Never change the root words themselves."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'The root is changing — but this rule changes nothing.'",
+        "Step down: show the root already written; the child only adds the tail.",
+        "ONE hint: 'Write the root first, exactly as it is, then the tail.'",
+        "Re-ask a smaller version: one suffix only.",
+        "Keep it safe: 'Tails are easy — the trick is leaving the root alone.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child defines root and suffix and states today's rule; end on process praise.",
+      "note": "These roots return as 'just-add words' in Lesson 6's warm-up, contrasted with drop-the-e, and again in Lesson 9's sorting office.",
+      "successCriteria": "Child says: root = main word; suffix = ending/tail; today we just add it on — the root doesn't change.",
+      "script": {
+        "say": "Tell me — what's a root, and what's a suffix? And for today's easy words, what do we do to the root? … Exactly: the root is the main word, the suffix is the tail, and we just add it on — the root doesn't change. You grew tails on every word and kept the root word perfectly safe — that's careful spelling.",
+        "adaptHints": "Tease the next lesson: 'Next time, some sneaky words where a letter has to HOP OFF before the tail goes on…' Process praise only."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l05-p01",
+      "skill": "add a suffix with no spelling change",
+      "level": 1,
+      "block": { "type": "fillBlank", "text": "jump + -ed = ___", "answer": "jumped", "wordBank": ["jumped", "jumpt", "jumping"] },
+      "expectedAnswer": "jumped",
+      "wrongAnswers": [
+        { "answer": "jumpt", "why": "spelled the sound instead of the suffix — -ed can sound like /t/", "remedy": "Listen: jumped DOES end with a /t/ sound — but the tail is always spelled -e-d. Write jump, then the -ed tail." },
+        { "answer": "jumping", "why": "grabbed the wrong tail", "remedy": "Which tail did I ask for? Check the card: -ed, the 'already happened' tail." }
+      ],
+      "hints": ["Write the root first, exactly as it is: j-u-m-p.", "The 'already happened' tail is always spelled -e-d."],
+      "reteach": {
+        "say": "The -ed tail is sneaky — it can SOUND like /t/, but it's always spelled -e-d. Watch: jump + -ed = jumped. Root safe, tail on, spelled e-d no matter how it sounds. Read it back: jumped!",
+        "block": { "type": "table", "headers": ["root", "tail", "new word"], "rows": [["jump", "-ed", "jumped"], ["kick", "-ed", "kicked"]] }
+      }
+    },
+    {
+      "id": "l05-p02",
+      "skill": "identify the root word",
+      "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which is the ROOT word hiding inside 'painting'?", "options": ["paint", "ing", "pain", "ting"], "correct": 0, "explain": "Take off the -ing tail and the whole root is left: paint." },
+      "expectedAnswer": "paint",
+      "wrongAnswers": [
+        { "answer": "pain", "why": "chopped the root too short — took letters off the root as well as the tail", "remedy": "Take off ONLY the tail, -ing. What's left? p-a-i-n-t — paint, the whole root." },
+        { "answer": "ing", "why": "mixed up root and suffix", "remedy": "The root is the MAIN word — the one that makes sense on its own. Can you 'ing'? No! Can you paint? Yes — that's the root." }
+      ],
+      "hints": ["Take the tail off — what word is left?", "The root makes sense all by itself."],
+      "reteach": {
+        "say": "Every suffixed word is a root wearing a tail. Painting = paint + -ing. Cover the -ing with your finger… paint! The root is the bit that makes sense on its own. Roots first, tails second — always.",
+        "block": { "type": "emojiViz", "emojis": "🎨🦎", "caption": "painting = paint (root) + -ing (tail)" }
+      }
+    },
+    {
+      "id": "l05-p03",
+      "skill": "add a suffix with no spelling change",
+      "level": 2,
+      "block": { "type": "fillBlank", "text": "kick + -ing = ___", "answer": "kicking", "wordBank": ["kicking", "kiking", "kicked"] },
+      "expectedAnswer": "kicking",
+      "wrongAnswers": [
+        { "answer": "kiking", "why": "changed the root — dropped a letter while adding the tail", "remedy": "Check the root: is kick — k-i-c-k — still whole inside your word? Write kick first, THEN grow the tail." },
+        { "answer": "kicked", "why": "grabbed the wrong tail", "remedy": "Which tail did I ask for — -ing or -ed? Look at the tail card." }
+      ],
+      "hints": ["Root first, exactly as it is: k-i-c-k.", "Now just add the -ing tail — nothing else changes."],
+      "reteach": {
+        "say": "Watch the whole build: kick — k-i-c-k — root safe. Now the tail slides on: -ing. Kicking! Read it back… kicking. The root never lost a single letter. That's the whole rule today.",
+        "block": { "type": "emojiViz", "emojis": "⚽🦎", "caption": "kick + -ing = kicking — root untouched" }
+      },
+      "interestSlots": ["football or the child's favourite sport for the kick frame"]
+    },
+    {
+      "id": "l05-p04",
+      "skill": "add a suffix with no spelling change",
+      "level": 2,
+      "block": { "type": "fillBlank", "text": "paint + -ed = ___", "answer": "painted", "wordBank": ["painted", "paintd", "painting"] },
+      "expectedAnswer": "painted",
+      "wrongAnswers": [
+        { "answer": "paintd", "why": "squashed the tail — lost the e of -ed", "remedy": "The tail is spelled -e-d, both letters. Write paint, then the whole tail: painted." },
+        { "answer": "painting", "why": "grabbed the wrong tail", "remedy": "-ed is the 'already happened' tail. You painted yesterday. Which tail do you need?" }
+      ],
+      "hints": ["The -ed tail keeps both its letters.", "paint + e + d — read it back."],
+      "reteach": {
+        "say": "Tails come whole — -ed is always BOTH letters, e then d. Paint + -ed = painted. Read it back: painted. If you read your word back every time, missing letters can't hide.",
+        "block": { "type": "table", "headers": ["root", "tail", "new word"], "rows": [["paint", "-ed", "painted"], ["help", "-ed", "helped"]] }
+      }
+    },
+    {
+      "id": "l05-p05",
+      "skill": "match roots + suffixes to new words",
+      "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each root + tail to the word it builds. Read each one out loud!", "pairs": [
+        { "left": "help + -ed", "right": "helped" },
+        { "left": "play + -ing", "right": "playing" },
+        { "left": "kick + -ed", "right": "kicked" },
+        { "left": "jump + -ing", "right": "jumping" }
+      ] },
+      "expectedAnswer": "help+-ed → helped; play+-ing → playing; kick+-ed → kicked; jump+-ing → jumping",
+      "wrongAnswers": [
+        { "answer": "play + -ing → played", "why": "matched the root but ignored which tail", "remedy": "Right root — wrong tail! Look at the ending: -ing or -ed? Match the tail exactly." },
+        { "answer": "help + -ed → kicked", "why": "matched by tail only, ignoring the root", "remedy": "Both halves matter: find the word that starts with help AND ends with -ed." }
+      ],
+      "hints": ["Check the root first, then check the tail.", "Read each built word out loud — does it contain the whole root?"],
+      "reteach": {
+        "say": "Matching is a two-step check: root, then tail. Help + -ed… find the word starting help… ending -ed… helped! Every match keeps the whole root and the whole tail — nothing lost, nothing changed.",
+        "block": { "type": "table", "headers": ["root", "tail", "built word"], "rows": [["help", "-ed", "helped"], ["play", "-ing", "playing"], ["kick", "-ed", "kicked"], ["jump", "-ing", "jumping"]] }
+      }
+    },
+    {
+      "id": "l05-p06",
+      "skill": "read suffixed words aloud",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Read your four new words back to me — nice and clear!", "target": "jumping, jumped, playing, played" },
+      "expectedAnswer": "All four words read aloud correctly: jumping, jumped, playing, played",
+      "wrongAnswers": [
+        { "answer": "reads 'jumped' as 'jump-ed' (two beats)", "why": "read the tail as its own syllable", "remedy": "-ed often hides inside the last sound: jumped is ONE beat — jumpt. Say it after me: jumped." },
+        { "answer": "reads the roots only, skipping the tails", "why": "eyes stopped at the familiar root", "remedy": "Your eyes know the root — brilliant! Now read right to the end of the tail: jump-ING." }
+      ],
+      "hints": ["Read all the way to the end of each tail.", "-ed sometimes sounds like /t/ — jumped, not jump-ed."],
+      "reteach": {
+        "say": "New words deserve a read-back — that's how spellers check their work. Listen: jumping… jumped… playing… played. Hear how -ed sounds different in jumped (/t/) and played (/d/)? Same tail, same spelling, slightly different sound. Now you.",
+        "block": { "type": "flashcards", "cards": [{ "front": "jumping", "back": "jump + -ing" }, { "front": "jumped", "back": "jump + -ed (sounds like /t/)" }, { "front": "playing", "back": "play + -ing" }, { "front": "played", "back": "play + -ed (sounds like /d/)" }] }
+      }
+    },
+    {
+      "id": "l05-p07",
+      "skill": "add -er and -est with no spelling change",
+      "level": 3,
+      "block": { "type": "fillBlank", "text": "fast + -er = ___", "answer": "faster", "wordBank": ["faster", "fastter", "fastest"] },
+      "expectedAnswer": "faster",
+      "wrongAnswers": [
+        { "answer": "fastter", "why": "doubled a letter that doesn't need doubling", "remedy": "Check the root: f-a-s-t, safe and whole. Just add -er — nothing doubles today." },
+        { "answer": "fastest", "why": "grabbed the wrong tail", "remedy": "-er compares two things (faster than you); -est is the champion (the fastest of all). Which did I ask for?" }
+      ],
+      "hints": ["Same easy rule — root stays, tail on.", "-er means 'more than' — faster than a snail!"],
+      "reteach": {
+        "say": "Two new tails, same easy rule! -er compares: I am fast, you are fastER. -est crowns the champion: the fastEST in the world. Fast + -er = faster. Root safe, tail on. Use it out loud: 'I am faster than…' — you finish it!",
+        "block": { "type": "table", "headers": ["root", "tail", "new word", "meaning"], "rows": [["fast", "-er", "faster", "more fast"], ["fast", "-est", "fastest", "the most fast"]] }
+      },
+      "interestSlots": ["compare the child's favourite fast animal or vehicle"]
+    },
+    {
+      "id": "l05-p08",
+      "skill": "add -er and -est with no spelling change",
+      "level": 3,
+      "block": { "type": "fillBlank", "text": "fast + -est = ___", "answer": "fastest", "wordBank": ["fastest", "fastist", "faster"] },
+      "expectedAnswer": "fastest",
+      "wrongAnswers": [
+        { "answer": "fastist", "why": "spelled the tail by sound — -est can sound like -ist", "remedy": "The champion tail is always spelled -e-s-t. Write fast, then the whole tail: fastest." },
+        { "answer": "faster", "why": "grabbed the comparing tail instead of the champion tail", "remedy": "-est is the champion of ALL: the fastest. Which tail makes the champion?" }
+      ],
+      "hints": ["The champion tail: -e-s-t.", "Root stays exactly as it is: f-a-s-t."],
+      "reteach": {
+        "say": "The -est tail crowns a champion: the fastest, the strongest, the coolest. It's always spelled -e-s-t, even when it mumbles. Fast + -est = fastest. Say a champion sentence: 'The cheetah is the fastest animal!'",
+        "block": { "type": "emojiViz", "emojis": "🐆🥇", "caption": "fast + -est = fastest — the champion tail" }
+      }
+    },
+    {
+      "id": "l05-p09",
+      "skill": "explain the just-add rule",
+      "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend writes 'plaing' for play + -ing. What went wrong? Help them fix it.", "sample": "They changed the root — the y fell off. For these easy words nothing inside the root changes: write play, p-l-a-y, then add -ing: playing." },
+      "expectedAnswer": "They changed the root; play must stay whole — play + -ing = playing",
+      "wrongAnswers": [
+        { "answer": "'they spelled it wrong' (no reason given)", "why": "spotted the error but can't name the rule — fragile knowledge", "remedy": "True — but WHAT went wrong? Look for the root inside plaing… can you find p-l-a-y? What's missing?" },
+        { "answer": "thinks plaing is fine", "why": "shares the change-the-root misconception", "remedy": "Read plaing back… tricky, isn't it? Now find the root: is play still whole in there? Write play first, then the tail." }
+      ],
+      "hints": ["Hunt for the whole root inside their word — is play all there?", "Today's rule: the root never changes."],
+      "reteach": {
+        "say": "The best spelling detectives check the root. Plaing — let's hunt for play inside it… p-l-a… the y is GONE! That's what went wrong: the root got changed. Rule: write the root whole — play — then grow the tail: playing. Root safe, tail on, every time.",
+        "block": { "type": "table", "headers": ["spelling", "root whole?", "verdict"], "rows": [["plaing", "p-l-a… y missing!", "✗"], ["playing", "p-l-a-y all there", "✓"]] }
+      }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level. At level 3, interleave -er/-est items with explain-the-rule items. Include the speak read-back item regularly — new words should be heard, not just built.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the root written and visible, then drop one level (root pre-written, child only adds the tail).",
+    "masterySignal": "Child correctly adds -ing and -ed to at least three roots with the root unchanged, reads each back, and can name root and suffix → mastery ≥ 0.8 for 'suffixes with no spelling change'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'The root is changing — but this rule changes nothing.'",
+      "Step down: show the root already written; the child only adds the tail.",
+      "ONE hint: 'Write the root first, exactly as it is, then the tail.'",
+      "Re-ask a smaller version: one suffix only.",
+      "Keep it safe: 'Tails are easy — the trick is leaving the root alone.'"
+    ],
+    "personalization": "Frame the action words with the child's life — playing their favourite game, kicking a football, painting. The roots and spellings never change.",
+    "endOnSuccess": "Finish on a build the child nails (drop to -ing on jump if needed) and praise the process: 'you grew tails on every word and kept the root word perfectly safe.'"
+  },
+
+  "differentiation": {
+    "support": "Root word pre-written; child only adds the tail and reads it back. Use -ing only first, then -ed.",
+    "stretch": "Add -er and -est to fast (faster, fastest) and use one in a spoken sentence ('I am faster than…')."
+  },
+  "extension": "Find three more just-add roots in a favourite book and grow tails on them.",
+  "assessmentEvidence": "Child correctly adds -ing and -ed to at least three roots with the root unchanged, and can name root and suffix.",
+  "revisitLater": "These 'just-add words' open Lesson 6's warm-up, contrasted with drop-the-e (hope → hoping); all four rules meet in Lesson 9's Spelling Sorting Office."
+}

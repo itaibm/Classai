@@ -1,0 +1,310 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u1-l04",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 1, "title": "Place value to 100", "essentialQuestion": "How do the tens and the ones decide how big a number is?" },
+  "lessonNumber": 4,
+  "kind": "lesson",
+  "topic": "Place value to 100",
+  "title": "Ordering numbers to 100",
+  "durationMin": 22,
+  "objectives": ["By the end, I can put a set of two-digit numbers in order, smallest first."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "order", "definition": "arrange numbers from smallest to largest (or largest to smallest)", "example": "25, 50, 52" },
+    { "term": "smallest / largest", "definition": "the least and the greatest in a set", "example": "in 25, 50, 52 the smallest is 25" },
+    { "term": "number track", "definition": "a line of numbers in order that shows where each one lives", "example": "25 sits far left of 52 on a 0–100 track" }
+  ],
+  "emphasize": [
+    "Ordering is COMPARING, REPEATED: find the smallest (tens first), set it down, repeat.",
+    "A number track lets you SEE which comes first.",
+    "Watch equal-tens sets (50 vs 52 → compare ones)."
+  ],
+  "analysis": {
+    "keyConcepts": ["ordering as repeated comparison", "tens-first then ones", "position on a number track"],
+    "misconceptions": [
+      "stopping after one comparison instead of repeating",
+      "mis-ordering equal-tens pairs (50 vs 52)",
+      "ordering by ones digits or by 'first digit' without justification"
+    ],
+    "hooks": ["A dropped book with muddled page numbers — the story won't make sense until the pages go back in order."],
+    "priorKnowledge": ["comparing two numbers tens-first (Lesson 3)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["draggable ordering block", "0–100 number line visuals", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=gBqbUf2_8aI",
+    "title": "Arrange the Numbers | Comparing And Ordering | Comparing and Ordering Digit Numbers for Kids | Math",
+    "channel": "TutWay",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Before the video places each number, point to where YOU think it goes.",
+    "afterCheck": { "question": "What did the video check first when arranging the numbers?", "expectedAnswer": "The tens (the biggest place value)" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Book-fixer mission: muddled pages 52, 25, 50; retrieve the golden rule.",
+      "note": "The mission frame ('the story won't make sense') gives ordering a purpose.",
+      "successCriteria": "Child recalls 'look at the tens first'.",
+      "script": {
+        "say": "Oh no — someone dropped the book and the page numbers got muddled: 52, 25, 50! The pages must go smallest first or the story won't make sense. Can you be the book-fixer? … First, quick memory check: to compare two numbers, where do we look first?",
+        "adaptHints": "Swap 'book' for comics/manga/a favourite story. Listen for 'the tens'."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "📖💥 52 25 50", "caption": "Muddled pages — fix the order!" }
+      ],
+      "stuckProtocol": ["If the rule is shaky: quick warm-up — 'which is bigger, 30 or 50?' with drawn rods."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model 'find the smallest, set it down, repeat' on 52, 25, 50 — including the equal-tens moment.",
+      "note": "Narrate the repeated comparison explicitly; place each number on a number line as it's chosen.",
+      "successCriteria": "Child sees the two-step routine and the equal-tens tiebreak (50 before 52).",
+      "script": {
+        "say": "Watch my book-fixer routine. Step one: find the SMALLEST. Compare the tens: 52 has 5 tens, 25 has 2 tens, 50 has 5 tens. The smallest tens is 2 — so 25 goes first! Step two: repeat with what's left. 52 and 50… same tens! So the ones break the tie: 0 beats 2, so 50 comes next, then 52. Look at the track: 25… 50… 52. The story makes sense again!",
+        "adaptHints": "Say 'find it, place it, repeat' rhythmically — it's the memorable routine."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Find the smallest, place it, repeat",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 20, "y": 8, "value": "52", "size": 7, "bold": true },
+            { "k": "text", "x": 50, "y": 8, "value": "25", "size": 7, "bold": true },
+            { "k": "text", "x": 80, "y": 8, "value": "50", "size": 7, "bold": true },
+            { "k": "text", "x": 20, "y": 16, "value": "5 tens", "size": 4, "color": "blue" },
+            { "k": "text", "x": 50, "y": 16, "value": "2 tens ✓", "size": 4, "color": "green" },
+            { "k": "text", "x": 80, "y": 16, "value": "5 tens", "size": 4, "color": "blue" },
+            { "k": "line", "x1": 8, "y1": 40, "x2": 92, "y2": 40, "color": "ink", "width": 2 },
+            { "k": "dot", "x": 8, "y": 40, "label": "0" },
+            { "k": "dot", "x": 92, "y": 40, "label": "100" },
+            { "k": "dot", "x": 29, "y": 40, "color": "green", "label": "25" },
+            { "k": "dot", "x": 50, "y": 40, "color": "orange", "label": "50" },
+            { "k": "dot", "x": 52, "y": 46, "color": "purple", "label": "52" },
+            { "k": "text", "x": 50, "y": 56, "value": "25 , 50 , 52", "size": 7, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared ordering of 41, 14, 40 — the child runs the routine with prompts.",
+      "note": "Child picks the smallest first (14), then handles the equal-tens pair 40/41.",
+      "successCriteria": "Child produces 14, 40, 41 and explains both steps.",
+      "script": {
+        "say": "Together now: 41, 14, 40. You're the fixer — which has the fewest tens? … Yes, 14! Placed. Now 41 and 40 are left — what do you notice about their tens? … A tie! So who breaks it? … The ones: 0 beats 1. Give me the full order, smallest first!",
+        "adaptHints": "Wait for the child at each '…'. If they rush, ask them to justify each pick."
+      },
+      "blocks": [
+        { "type": "ordering", "prompt": "Drag them smallest first!", "items": ["14", "40", "41"] }
+      ],
+      "check": {
+        "question": "Order 41, 14, 40 smallest first.",
+        "expectedAnswer": "14, 40, 41",
+        "wrongAnswers": [
+          { "answer": "14, 41, 40", "why": "stopped comparing after placing 14", "remedy": "40 and 41 have the same tens — which has fewer ones?" },
+          { "answer": "40, 41, 14", "why": "ordered largest-ish first or by ones", "remedy": "Smallest FIRST — which of the three has the fewest tens?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 16],
+      "goal": "Solo diagnostic: the hook set 52, 25, 50.",
+      "note": "The equal-tens pair 50/52 is the revealing part.",
+      "successCriteria": "Child orders 25, 50, 52 and justifies why 50 comes before 52.",
+      "script": {
+        "say": "Now fix the book pages all by yourself: 52, 25, 50 — smallest first. And be ready to tell me how you decided between 50 and 52!",
+        "adaptHints": "After success, probe: 'How did you decide 50 comes before 52?'"
+      },
+      "blocks": [
+        { "type": "ordering", "prompt": "Fix the pages — smallest first.", "items": ["25", "50", "52"] }
+      ],
+      "check": {
+        "question": "Order smallest first: 52, 25, 50.",
+        "expectedAnswer": "25, 50, 52",
+        "wrongAnswers": [
+          { "answer": "25, 52, 50", "why": "mis-ordered the equal-tens pair", "remedy": "50 and 52 have the same tens — compare the ones. Which is smaller, 0 or 2?" },
+          { "answer": "orders correctly but can't justify", "why": "pattern-matched the first digits without understanding", "remedy": "Put them on the track — which sits furthest left? Why?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 20],
+      "goal": "Independent ordering: 3-number sets, then a 4-number set with equal tens; once secure, largest-first.",
+      "note": "Director draws from practiceBank, start level 2. Core mirrors the script: 33/13/31 then 62/26/60/66.",
+      "successCriteria": "Child orders a 4-number set with an equal-tens pair correctly and flips one set largest-first.",
+      "script": {
+        "say": "Book-fixer, you're hired! More muddled pages coming — some sets have FOUR pages, and one set wants biggest first. Find it, place it, repeat!",
+        "adaptHints": "Frame sets as the child's interests (race positions, card collections). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'we forgot to compare AGAIN after placing one.'",
+        "Drop to the track: place each number where it belongs on a 0–100 line.",
+        "One hint: 'Find just the smallest first.'",
+        "Re-ask with only two numbers, then add the third back.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child teaches the ordering routine back; end on a win.",
+      "note": "Child-led recall; also close the unit — all four lessons connect.",
+      "successCriteria": "Child states: compare tens, pick smallest, repeat; ones if tens are equal.",
+      "script": {
+        "say": "Teach me how to order numbers smallest first — you're the teacher now! … That's it: compare the tens, pick the smallest, place it, repeat — and let the ones break ties. You used the number track to CHECK yourself instead of guessing — that's careful maths. And guess what: tens and ones, smashing, comparing, ordering — you've mastered the whole place-value toolbox!",
+        "adaptHints": "Name the specific self-check you observed. This closes Unit 1 — celebrate the arc."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l04-p01", "skill": "order three numbers", "level": 1,
+      "block": { "type": "ordering", "prompt": "Smallest first!", "items": ["20", "50", "80"] },
+      "expectedAnswer": "20, 50, 80",
+      "wrongAnswers": [
+        { "answer": "80, 50, 20", "why": "ordered largest first", "remedy": "Smallest FIRST — which has the fewest tens?" }
+      ],
+      "hints": ["All tens, no ones — just count the rods.", "2 tens, 5 tens, 8 tens — climb up."],
+      "reteach": { "say": "Round numbers are the friendliest: 20, 50, 80 — two rods, five rods, eight rods. Small tower to tall tower.", "block": { "type": "numberLine", "min": 0, "max": 100, "step": 10, "marks": [{ "value": 20, "label": "20" }, { "value": 50, "label": "50" }, { "value": 80, "label": "80" }] } }
+    },
+    {
+      "id": "l04-p02", "skill": "order three numbers", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which is the SMALLEST: 47, 19, 32?", "options": ["19", "32", "47"], "correct": 0, "explain": "Tens first: 1 ten is the fewest — 19 is smallest even with its big 9." },
+      "expectedAnswer": "19",
+      "wrongAnswers": [
+        { "answer": "32", "why": "guessed middle / avoided the 9", "remedy": "Compare tens only: 4, 1, 3. Which is the fewest?" },
+        { "answer": "47", "why": "confused smallest and largest", "remedy": "We want the SMALLEST — the fewest tens." }
+      ],
+      "hints": ["Ignore the ones for now — just read the tens: 4, 1, 3.", "The big 9 in 19 can't outvote its single ten."],
+      "reteach": { "say": "The Lesson 3 trap is back! 19 looks big because of the 9, but it has just ONE ten. 1 ten < 3 tens < 4 tens, so 19 is the smallest.", "block": { "type": "table", "headers": ["number", "tens"], "rows": [["19", "1 ✓ smallest"], ["32", "3"], ["47", "4"]] } }
+    },
+    {
+      "id": "l04-p03", "skill": "order three numbers", "level": 2,
+      "block": { "type": "ordering", "prompt": "Smallest first!", "items": ["13", "31", "33"] },
+      "expectedAnswer": "13, 31, 33",
+      "wrongAnswers": [
+        { "answer": "13, 33, 31", "why": "equal-tens pair (31/33) mis-ordered", "remedy": "31 and 33 tie on tens — which has fewer ones, 1 or 3?" },
+        { "answer": "31, 13, 33", "why": "compared ones first", "remedy": "Tens first: 1, 3, 3 — who has the fewest?" }
+      ],
+      "hints": ["Find the smallest tens first: 1, 3, 3.", "Then break the 31/33 tie with the ones."],
+      "reteach": { "say": "Same digits everywhere — the routine saves us. Fewest tens: 13 goes first. Then 31 and 33 tie on tens; ones break it: 1 before 3. So 13, 31, 33.", "block": { "type": "steps", "title": "Find it, place it, repeat", "steps": ["Tens: 1, 3, 3 → 13 first", "31 vs 33: tens tie", "Ones: 1 < 3 → 31 then 33"] } }
+    },
+    {
+      "id": "l04-p04", "skill": "order four numbers with equal tens", "level": 2,
+      "block": { "type": "ordering", "prompt": "Four pages this time — smallest first!", "items": ["26", "60", "62", "66"] },
+      "expectedAnswer": "26, 60, 62, 66",
+      "wrongAnswers": [
+        { "answer": "26, 62, 60, 66", "why": "equal-tens trio mis-ordered", "remedy": "60, 62, 66 all have 6 tens — order just their ones: 0, 2, 6." },
+        { "answer": "60, 62, 66, 26", "why": "left the small odd-one-out for last", "remedy": "Start over with step one: which of ALL FOUR has the fewest tens?" }
+      ],
+      "hints": ["One number has only 2 tens — it leads.", "The three 6-tens numbers: order by ones (0, 2, 6)."],
+      "reteach": { "say": "26 wins the first round easily — 2 tens. Then a triple tie: 60, 62, 66. Ones decide: 0, 2, 6. Order: 26, 60, 62, 66. Repeat the routine until every page is placed!", "block": { "type": "numberLine", "min": 20, "max": 70, "step": 5, "marks": [{ "value": 26, "label": "26" }, { "value": 60, "label": "60" }, { "value": 62, "label": "62" }, { "value": 66, "label": "66" }] } }
+    },
+    {
+      "id": "l04-p05", "skill": "largest first", "level": 2,
+      "block": { "type": "ordering", "prompt": "Flip it! LARGEST first this time.", "items": ["71", "68", "17"] },
+      "expectedAnswer": "71, 68, 17",
+      "wrongAnswers": [
+        { "answer": "17, 68, 71", "why": "ordered smallest first from habit", "remedy": "Read the mission again — biggest leads this time. Which has the MOST tens?" },
+        { "answer": "68, 71, 17", "why": "the 68-vs-71 trap (8 > 1 on ones)", "remedy": "Tens first even going down: 7 tens beats 6 tens." }
+      ],
+      "hints": ["Same routine, opposite direction: find the LARGEST first.", "7 tens, 6 tens, 1 ten."],
+      "reteach": { "say": "Largest first is the same game backwards: most tens leads. 71 (7 tens), then 68 (6 tens — its big 8 can't help), then 17. The routine works both ways!", "block": { "type": "table", "headers": ["place", "number", "why"], "rows": [["1st", "71", "7 tens"], ["2nd", "68", "6 tens"], ["3rd", "17", "1 ten"]] } }
+    },
+    {
+      "id": "l04-p06", "skill": "position on a number track", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "On a 0–100 number track, which number sits FURTHEST LEFT: 45, 54, 40?", "options": ["40", "45", "54"], "correct": 0, "explain": "Furthest left = smallest. 40 and 45 share 4 tens; 0 ones beats 5, so 40 is leftmost." },
+      "expectedAnswer": "40",
+      "wrongAnswers": [
+        { "answer": "45", "why": "mis-broke the equal-tens tie", "remedy": "40 and 45 tie on tens — which has fewer ones, 0 or 5?" },
+        { "answer": "54", "why": "left/right confusion or biggest-first", "remedy": "Left means SMALL on the track. Which is smallest?" }
+      ],
+      "hints": ["Furthest left = smallest number.", "40 vs 45: same tens — check the ones."],
+      "reteach": { "say": "The track is a picture of order: small numbers live left, big numbers live right. 40, 45, 54 — so 40 sits furthest left.", "block": { "type": "numberLine", "min": 30, "max": 60, "step": 5, "highlight": 40, "marks": [{ "value": 40, "label": "40" }, { "value": 45, "label": "45" }, { "value": 54, "label": "54" }] } }
+    },
+    {
+      "id": "l04-p07", "skill": "order four numbers with equal tens", "level": 3,
+      "block": { "type": "ordering", "prompt": "The hardest muddle yet — smallest first!", "items": ["78", "80", "87", "88"] },
+      "expectedAnswer": "78, 80, 87, 88",
+      "wrongAnswers": [
+        { "answer": "80, 78, 87, 88", "why": "78-vs-80 across-a-ten slip (8 ones dazzle)", "remedy": "78 has 7 tens, 80 has 8 tens — tens first, always." },
+        { "answer": "78, 87, 80, 88", "why": "equal-tens trio 80/87/88 mis-ordered", "remedy": "80, 87, 88 share 8 tens — order their ones: 0, 7, 8." }
+      ],
+      "hints": ["Only one number has 7 tens.", "Then three numbers tie on 8 tens — let the ones queue up: 0, 7, 8."],
+      "reteach": { "say": "Two traps in one set! First: 78 vs 80 — seven tens loses to eight tens, whatever the ones say. Then the triple tie: 80, 87, 88 by ones. Full order: 78, 80, 87, 88.", "block": { "type": "steps", "title": "Untangling 78, 80, 87, 88", "steps": ["Tens: 7, 8, 8, 8 → 78 first", "Tie of 80/87/88 → ones: 0, 7, 8", "78, 80, 87, 88 ✓"] } }
+    },
+    {
+      "id": "l04-p08", "skill": "reason about order", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "I'm thinking of a number that fits BETWEEN 47 and 52 on the track — and it has 5 tens. Type one!", "answer": 50, "tolerance": 1 },
+      "expectedAnswer": "50 or 51",
+      "wrongAnswers": [
+        { "answer": "48 or 49", "why": "in range but ignored the 5-tens clue", "remedy": "Good spot on the track — but check the second clue: how many tens must it have?" },
+        { "answer": "55", "why": "has 5 tens but outside the range", "remedy": "Is 55 between 47 and 52 on the track? Walk it: 47… 52. Where's 55?" }
+      ],
+      "hints": ["List the numbers between 47 and 52: 48, 49, 50, 51.", "Which of those have 5 tens?"],
+      "reteach": { "say": "Two clues, one detective: between 47 and 52 live 48, 49, 50, 51. With 5 tens? Only 50 and 51. Either cracks the case!", "block": { "type": "numberLine", "min": 45, "max": 55, "step": 1, "highlight": 50, "marks": [{ "value": 47, "label": "47" }, { "value": 52, "label": "52" }] } }
+    },
+    {
+      "id": "l04-p09", "skill": "spot and fix a wrong order", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "A friend ordered these smallest first: 25, 52, 50. What went wrong?", "options": ["50 and 52 are swapped — same tens, so ones decide", "Nothing — it's correct", "25 shouldn't be first", "They should all be reversed"], "correct": 0, "explain": "50 and 52 share 5 tens; ones break the tie (0 < 2), so 50 must come before 52." },
+      "expectedAnswer": "50 and 52 are swapped",
+      "wrongAnswers": [
+        { "answer": "Nothing — it's correct", "why": "didn't check the equal-tens pair", "remedy": "Zoom in on 52 and 50 — same tens. Which has fewer ones?" }
+      ],
+      "hints": ["Check every neighbouring pair.", "Is 52 really smaller than 50?"],
+      "reteach": { "say": "Checking someone else's order makes you the referee: walk pair by pair. 25 before 52 ✓. But 52 before 50? Same tens, and 2 ones is MORE than 0 — swap them! Correct order: 25, 50, 52.", "block": { "type": "steps", "title": "Referee check", "steps": ["25 vs 52 ✓ (2 tens < 5 tens)", "52 vs 50 ✗ — tie on tens, 2 > 0", "Fixed: 25, 50, 52"] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct → next level; at level 3, interleave (largest-first, between-clues, referee items).",
+    "levelDown": "2 misses on the same skill → reteach on the number track, then a level-1 round-numbers set.",
+    "masterySignal": "3+ correct across levels 2–3 including a 4-number set with an equal-tens pair, plus one largest-first flip → mastery ≥ 0.8 for 'ordering to 100'. This completes Unit 1 — trigger the end-of-unit check.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why ('we forgot to compare again' / 'the tie slipped').",
+      "Drop to the track: place each number on a 0–100 line one at a time.",
+      "One hint: 'Find just the smallest first.'",
+      "Re-ask with only two numbers, then add back.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame sets as race finishes, collection counts, or page numbers of a favourite book (LearnerModel.interests). Keep 'find it, place it, repeat' identical.",
+    "endOnSuccess": "Finish on a winnable set; process praise for checking with the track; celebrate completing the whole place-value unit."
+  },
+
+  "differentiation": {
+    "support": "Place every number on a 0–100 track to SEE the order; drop to two numbers when stuck; keep sets to round tens.",
+    "stretch": "Four+ numbers with several equal-tens; order the same set both directions; between-two-numbers riddles; referee someone else's wrong order."
+  },
+  "extension": "Number line on the floor — the character deals imaginary cards one at a time; the child says exactly where each slots among the ones already placed.",
+  "assessmentEvidence": "Child orders a set of 3–4 two-digit numbers correctly, justifying with tens-first reasoning and handling at least one equal-tens pair.",
+  "revisitLater": "Mixed ordering starter in the end-of-unit check and before Unit 2. End-of-Unit 1 check: (1) 38 = __ tens __ ones → 3, 8. (2) Partition 76 → 70 + 6. (3) Bigger: 27 or 72? → 72. (4) Order 52, 25, 50 → 25, 50, 52."
+}

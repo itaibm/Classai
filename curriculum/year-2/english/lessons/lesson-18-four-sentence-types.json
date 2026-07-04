@@ -1,0 +1,379 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u4-l18",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 4, "title": "Word classes & sentence types", "essentialQuestion": "What jobs do words do, and how do sentences come in different types?" },
+  "lessonNumber": 18,
+  "kind": "lesson",
+  "topic": "Word classes & sentence types",
+  "title": "The four sentence types",
+  "durationMin": 20,
+  "objectives": ["By the end, I can name the four sentence types and add the correct end mark."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "statement", "definition": "a telling sentence — it ends with a full stop", "example": "Dogs bark." },
+    { "term": "question", "definition": "an asking sentence — it ends with a question mark", "example": "Why do dogs bark?" },
+    { "term": "command", "definition": "a bossing sentence — it starts with a bossy verb", "example": "Tidy up." },
+    { "term": "exclamation", "definition": "a bursting-with-feeling sentence — it starts with What or How and ends with !", "example": "What a mess!" }
+  ],
+  "emphasize": [
+    "Four types, four voices: statement tells (.), question asks (?), command bosses (bossy verb), exclamation bursts with feeling (What…/How…!).",
+    "A true exclamation SENTENCE starts with What or How — a command can use ! too, and that doesn't make it an exclamation.",
+    "Never leave a question wearing a full stop — asking needs the ? hook."
+  ],
+  "analysis": {
+    "keyConcepts": ["statement tells → full stop", "question asks → question mark", "command bosses → bossy verb at the front", "exclamation bursts → starts What/How, ends !"],
+    "misconceptions": [
+      "ending a question with a full stop",
+      "calling anything with ! an 'exclamation sentence' (a command like Stop! uses ! too)",
+      "confusing a command with a statement (telling a fact vs telling YOU to do something)"
+    ],
+    "hooks": ["Sentences come in four flavours, like ice cream — and each one is read in a different voice."],
+    "priorKnowledge": ["capital letters and full stops", "verbs (Lesson 16) — commands start with a bossy verb"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["four type-label anchors on screen", "sentence cards (categorize blocks)", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Meet the four flavours through three sentences read in wildly different voices; retrieve capital + end mark.",
+      "note": "The voices ARE the hook — bossy, questioning-up, tired-flat. Get the child using their asking voice immediately.",
+      "successCriteria": "Child answers 'a capital letter and an end mark' and copies the rising asking voice.",
+      "script": {
+        "say": "Sentences come in four flavours, like ice cream! There's TELLING sentences, ASKING sentences, BOSSING sentences, and BURSTING-with-feeling sentences. Each one has its own special ending. Listen: STOP! — bossy. Where are you? — hear my voice go up? I am tired. — flat as a pancake. Now you try the asking one — and first, quick check: what two things does every sentence start and end with?",
+        "adaptHints": "Ham up the three voices. If the retrieval is shaky: 'a sentence opens with a capital and closes with a mark — today we learn WHICH mark.'"
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say 'Where are you?' in your best ASKING voice — make it go UP at the end!", "target": "Where are you?" }
+      ],
+      "stuckProtocol": ["If the rising voice doesn't come: say it together twice, exaggerating the lift on 'you?', then let the child solo it."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Name all four types with their end marks; model sorting Stop! / Where are you? / I am tired.",
+      "note": "The table is the anchor for the whole unit. Land the two traps early: questions never wear a full stop; What/How starts a true exclamation.",
+      "successCriteria": "Child can point to the right row for 'tells', 'asks', 'bosses' and 'bursts'.",
+      "script": {
+        "say": "Four types. A STATEMENT just tells you something and ends in a full stop: Dogs bark. A QUESTION asks something and needs a question mark: Why do dogs bark? A COMMAND bosses you about with a bossy verb at the front: Tidy up. Sit down. An EXCLAMATION bursts with feeling and properly starts with What or How, ending in an exclamation mark: What a mess! How fast it runs! Watch me sort: Stop! — bossy verb, that's a command. Where are you? — asks, question. I am tired. — tells, statement.",
+        "adaptHints": "Read each example in its voice every single time. Point at the table row as each type is named."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["type", "what it does", "end mark", "example"],
+          "rows": [
+            ["statement", "tells", ". full stop", "Dogs bark."],
+            ["question", "asks", "? question mark", "Why do dogs bark?"],
+            ["command", "bosses (bossy verb first)", ". or !", "Tidy up."],
+            ["exclamation", "bursts with feeling (What/How…)", "! exclamation mark", "What a mess!"]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared sort: does each sentence tell, ask, boss or burst? Child drags four cards under the type labels.",
+      "note": "Ask 'tell, ask, boss or burst?' before every card — that four-word question is the tool.",
+      "successCriteria": "Child sorts all four cards correctly, reading each in its matching voice.",
+      "script": {
+        "say": "Sort with me — for each one, ask yourself: does it tell, ask, boss or burst? Dogs bark. — telling? asking? … it tells, so statement, full stop! Now Why do dogs bark? — hear the voice go up? Your turn with the rest — read each one aloud in its voice, then drag it home.",
+        "adaptHints": "If the child hesitates, read the sentence in an exaggerated voice and let the voice give the answer away."
+      },
+      "blocks": [
+        {
+          "type": "categorize",
+          "prompt": "Tell, ask, boss or burst? Sort each sentence into its type.",
+          "buckets": ["Statement", "Question", "Command", "Exclamation"],
+          "items": [
+            { "text": "Dogs bark.", "bucket": "Statement" },
+            { "text": "Why do dogs bark?", "bucket": "Question" },
+            { "text": "Tidy up.", "bucket": "Command" },
+            { "text": "What a mess!", "bucket": "Exclamation" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Which type is 'What a mess!' — and how do you know?",
+        "expectedAnswer": "An exclamation — it bursts with feeling, starts with 'What' and ends with !",
+        "wrongAnswers": [
+          { "answer": "command", "why": "saw the ! and assumed bossing", "remedy": "Is it telling you to DO something? No bossy verb at the front — it starts with 'What' and bursts with feeling. Which type starts with What or How?" },
+          { "answer": "statement", "why": "treated it as plain telling", "remedy": "Read it in a flat voice… it doesn't fit! It BURSTS. Which type bursts with feeling?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "Key diagnostic: 'Close the window.' — a command, spotted by its bossy verb, NOT by any mark.",
+      "note": "'Statement' means telling/bossing confusion; 'exclamation' means mark/type confusion. Probe the first word's job after a correct answer.",
+      "successCriteria": "Child answers 'command' and explains the first word is bossing you to do something.",
+      "script": {
+        "say": "Type detective! What type is this: Close the window. Think — does it tell, ask, boss or burst? And be ready to tell me how you know.",
+        "adaptHints": "After a correct answer, probe: 'How do you know — what's the first word doing?' (bossing you to do something)."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "What type is: Close the window.",
+          "options": ["statement", "question", "command", "exclamation"],
+          "correct": 2,
+          "explain": "It starts with the bossy verb 'close' — it's telling YOU to do something. That's a command."
+        }
+      ],
+      "check": {
+        "question": "What type is 'Close the window.'?",
+        "expectedAnswer": "A command — it starts with a bossy verb (close)",
+        "wrongAnswers": [
+          { "answer": "statement", "why": "confused telling with bossing", "remedy": "Is it telling you a fact, or telling YOU to do something? It's bossing you — close! — so which type is it?" },
+          { "answer": "exclamation", "why": "confused mark with type — it 'feels strong'", "remedy": "Does it start with What or How? No. A true exclamation does. This one bosses — so it's a…?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent sorting and marking: eight sentences into four types, correct end mark on each.",
+      "note": "Director draws from practiceBank, start level 2. Watch for: full stop on a question; any-!-is-an-exclamation; missing the bossy-verb cue.",
+      "successCriteria": "Child sorts at least six of eight sentences correctly with the right end marks, including a command with !.",
+      "script": {
+        "say": "Your ice-cream counter now! Sentences are coming — sort each one into its flavour and give it the right ending. Say each one aloud in its voice — the voice tells you the type.",
+        "adaptHints": "Build sentences around the child's interests (their pet, football, space). The four-flavour question never changes: tell, ask, boss or burst?"
+      },
+      "stuckProtocol": [
+        "Don't sort it for them.",
+        "Name why: 'Let's ask: does it tell, ask, boss or burst?'",
+        "Step down: put the four type-cards back on screen as anchors and read the sentence aloud in each voice — which fits?",
+        "ONE hint: 'Read it — does your voice go UP? Then it's a question.'",
+        "Re-ask a smaller version: one card only.",
+        "Keep it safe: 'Four flavours take practice — let's taste this one again.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child names all four types and their marks; end on a win.",
+      "note": "Child-led. Sneak the command-with-! subtlety into the praise.",
+      "successCriteria": "Child recites: statement (.), question (?), command (bossy verb, . or !), exclamation (What/How…!).",
+      "script": {
+        "say": "Name the four sentence types and the mark each one ends with. … Brilliant. You read each one in the right voice and matched its mark — even spotting that a strong-feeling sentence isn't always an exclamation type. Sharp work.",
+        "adaptHints": "If the child forgets one, hum its voice (bossy / rising / flat / bursting) as the clue rather than naming it."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l18-p01",
+      "skill": "identify a sentence type",
+      "level": 1,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Dogs bark. — does it tell, ask, boss or burst?",
+        "options": ["tells — statement", "asks — question", "bosses — command", "bursts — exclamation"],
+        "correct": 0,
+        "explain": "It just tells you a fact, in a flat voice, ending with a full stop. Statement."
+      },
+      "expectedAnswer": "tells — statement",
+      "wrongAnswers": [
+        { "answer": "bosses — command", "why": "muddled telling a fact with telling YOU to act", "remedy": "Is it ordering you to do something? No bossy verb at the front — it just tells. Which type tells?" },
+        { "answer": "bursts — exclamation", "why": "any dog excitement feels like bursting", "remedy": "Read it flat: Dogs bark. Does it start with What or How? It's calm telling — which type?" }
+      ],
+      "hints": ["Read it aloud — is your voice flat, up, bossy or bursting?", "Flat telling voice → statement."],
+      "reteach": { "say": "The four-word tool works every time: tell, ask, boss or burst? Dogs bark — it just TELLS me a fact, flat voice, full stop. Telling sentences are statements.", "block": { "type": "keyTerm", "term": "statement", "definition": "a telling sentence — flat voice, full stop: Dogs bark." } },
+      "interestSlots": ["dogs"]
+    },
+    {
+      "id": "l18-p02",
+      "skill": "add the correct end mark",
+      "level": 1,
+      "block": { "type": "fillBlank", "text": "Where are you___", "answer": "?", "wordBank": ["?", ".", "!"] },
+      "expectedAnswer": "? (Where are you?)",
+      "wrongAnswers": [
+        { "answer": ".", "why": "full stop on a question — the classic trap", "remedy": "Read it aloud — does your voice go UP at the end? Asking sentences need the special hook. Which mark is the hook?" },
+        { "answer": "!", "why": "reached for the most exciting mark", "remedy": "Is it bursting with feeling, or ASKING something? Your voice goes up — which mark catches an asking voice?" }
+      ],
+      "hints": ["Say it aloud — voice up at the end?", "Asking sentences end with the little hook: ?"],
+      "reteach": { "say": "Here's the rule that never bends: if the sentence ASKS, it wears the question-mark hook. Where are you? — voice up, hook on. A full stop on a question is like a hat on backwards!", "block": { "type": "emojiViz", "emojis": "🗣️⬆️ = ❓", "caption": "Voice goes UP → question mark" } }
+    },
+    {
+      "id": "l18-p03",
+      "skill": "sort sentences into the four types",
+      "level": 2,
+      "block": {
+        "type": "categorize",
+        "prompt": "Sort the sentences: tell, ask, boss or burst?",
+        "buckets": ["Statement", "Question", "Command", "Exclamation"],
+        "items": [
+          { "text": "I am tired.", "bucket": "Statement" },
+          { "text": "Where are you?", "bucket": "Question" },
+          { "text": "Sit down.", "bucket": "Command" },
+          { "text": "How fast it runs!", "bucket": "Exclamation" }
+        ]
+      },
+      "expectedAnswer": "I am tired. → Statement · Where are you? → Question · Sit down. → Command · How fast it runs! → Exclamation",
+      "wrongAnswers": [
+        { "answer": "Sit down. → Statement", "why": "telling/bossing confusion", "remedy": "Is it telling a fact, or telling YOU to do something? Sit! — that's bossing. Which bucket bosses?" },
+        { "answer": "How fast it runs! → Question", "why": "'how' looks like a question word", "remedy": "Sneaky! Read it aloud — is it ASKING how fast, or BURSTING about how fast? It starts How and ends ! — a true exclamation." }
+      ],
+      "hints": ["Read each one in a voice — the voice gives it away.", "Bossy verb at the front → command."],
+      "reteach": { "say": "One at a time, with the tool. I am tired — tells, statement. Where are you — voice up, asks, question. Sit down — bossy verb first, command. How fast it runs — starts with How, bursts with feeling — exclamation. Tell, ask, boss or burst: every sentence answers one.", "block": { "type": "table", "headers": ["sentence", "does", "type"], "rows": [["I am tired.", "tells", "statement"], ["Where are you?", "asks", "question"], ["Sit down.", "bosses", "command"], ["How fast it runs!", "bursts", "exclamation"]] } }
+    },
+    {
+      "id": "l18-p04",
+      "skill": "identify a command by its bossy verb",
+      "level": 2,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "What type is: Shut the door.",
+        "options": ["statement", "question", "command", "exclamation"],
+        "correct": 2,
+        "explain": "The bossy verb 'shut' is at the front, telling YOU to do something — a command."
+      },
+      "expectedAnswer": "command",
+      "wrongAnswers": [
+        { "answer": "statement", "why": "confused telling with bossing", "remedy": "Who has to DO something here? YOU do — shut! A telling sentence doesn't order anyone about. Which type does?" },
+        { "answer": "exclamation", "why": "strong feeling ≠ exclamation type", "remedy": "Does it start with What or How? No — it starts with a bossy verb. Which type starts bossy?" }
+      ],
+      "hints": ["Look at the very first word — what's it doing?", "A verb at the front, bossing you → command."],
+      "reteach": { "say": "Commands give themselves away at the very first word: a bossy verb. Shut the door. Sit down. Stop. The verb marches out front and tells YOU what to do — that's a command, whatever mark it ends with.", "block": { "type": "keyTerm", "term": "command", "definition": "starts with a bossy verb — Shut… Sit… Stop… — telling you to do something" } },
+      "interestSlots": ["door"]
+    },
+    {
+      "id": "l18-p05",
+      "skill": "read each type in the right voice",
+      "level": 2,
+      "block": { "type": "speak", "prompt": "Read this in your best BOSSY voice, then tell me its type: Tidy your room.", "target": "Tidy your room." },
+      "expectedAnswer": "Reads it in a firm bossy voice and names it a command",
+      "wrongAnswers": [
+        { "answer": "reads it as a question (voice up)", "why": "asking voice attached to a bossing sentence", "remedy": "Tidy your room? — sounds like a choice! It's not asking, it's TELLING you. Try it firm and flat: Tidy your room." },
+        { "answer": "calls it a statement", "why": "telling/bossing confusion", "remedy": "Is it sharing a fact, or ordering YOU about? The bossy verb 'tidy' is at the front — which type is that?" }
+      ],
+      "hints": ["Commands sound firm, like a captain.", "First word 'tidy' — what's it doing to you?"],
+      "reteach": { "say": "Each type has a voice costume. Statements: flat. Questions: up at the end. Commands: firm, like a captain — Tidy your room! Exclamations: bursting. Say the sentence in each voice and only ONE will fit.", "block": { "type": "emojiViz", "emojis": "😐 . · ⬆️ ? · 🫡 ! · 🤩 !", "caption": "flat · rising · firm · bursting — four voices, four types" } },
+      "interestSlots": ["room"]
+    },
+    {
+      "id": "l18-p06",
+      "skill": "add the correct end mark",
+      "level": 2,
+      "block": { "type": "fillBlank", "text": "What a mess___", "answer": "!", "wordBank": ["!", "?", "."] },
+      "expectedAnswer": "! (What a mess!)",
+      "wrongAnswers": [
+        { "answer": "?", "why": "'what' at the front looked like a question", "remedy": "Read it — is it ASKING what the mess is? No, it's BURSTING about the mess! What/How + feeling ends with which mark?" },
+        { "answer": ".", "why": "flat mark on a bursting sentence", "remedy": "Say it flat: what a mess. All the feeling drained away! An exclamation bursts — which mark bursts with it?" }
+      ],
+      "hints": ["It starts with 'What' and bursts with feeling.", "Exclamations end with the excited mark."],
+      "reteach": { "say": "What a mess! starts with What and BURSTS with feeling — that's a true exclamation sentence, and it always ends with the exclamation mark. What or How in front, ! at the back.", "block": { "type": "keyTerm", "term": "exclamation", "definition": "starts with What or How, bursts with feeling, ends with ! — What a mess!" } }
+    },
+    {
+      "id": "l18-p07",
+      "skill": "distinguish exclamation TYPE from ! the mark",
+      "level": 3,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Stretch! 'Stop!' ends with an exclamation mark. Is it an exclamation SENTENCE?",
+        "options": [
+          "Yes — anything with ! is an exclamation",
+          "No — it's a command; a true exclamation starts with What or How",
+          "No — it's a question",
+          "Yes — because it's loud"
+        ],
+        "correct": 1,
+        "explain": "The ! shows strong feeling, but the TYPE comes from the sentence's job: 'Stop!' bosses with a bossy verb — a command. True exclamation sentences start with What or How."
+      },
+      "expectedAnswer": "No — it's a command; a true exclamation starts with What or How",
+      "wrongAnswers": [
+        { "answer": "Yes — anything with ! is an exclamation", "why": "mark/type confusion — the unit's subtlest trap", "remedy": "The mark shows feeling, but the TYPE comes from the job. What is 'Stop!' doing — bursting, or bossing you? And what do true exclamations start with?" },
+        { "answer": "Yes — because it's loud", "why": "loudness mistaken for type", "remedy": "Loud isn't a type! Check the first word: 'stop' is a bossy verb. Which type starts with a bossy verb?" }
+      ],
+      "hints": ["The mark and the type are different things.", "True exclamation sentences start with What or How."],
+      "reteach": { "say": "Here's the expert-level secret: the exclamation MARK is just a feeling-flag — commands may borrow it. Stop! is still a command, because a bossy verb leads it. A true exclamation SENTENCE begins What or How: What a mess! How fast it runs! First word first, mark second.", "block": { "type": "table", "headers": ["sentence", "ends with !", "type"], "rows": [["Stop!", "yes", "command (bossy verb)"], ["What a mess!", "yes", "exclamation (starts What)"]] } }
+    },
+    {
+      "id": "l18-p08",
+      "skill": "sort trickier sentences including a command with !",
+      "level": 3,
+      "block": {
+        "type": "categorize",
+        "prompt": "Master sort — careful, one command is wearing an exclamation mark!",
+        "buckets": ["Statement", "Question", "Command", "Exclamation"],
+        "items": [
+          { "text": "How fast it runs!", "bucket": "Exclamation" },
+          { "text": "Run to the gate!", "bucket": "Command" },
+          { "text": "The gate is open.", "bucket": "Statement" },
+          { "text": "Is the gate open?", "bucket": "Question" }
+        ]
+      },
+      "expectedAnswer": "How fast it runs! → Exclamation · Run to the gate! → Command · The gate is open. → Statement · Is the gate open? → Question",
+      "wrongAnswers": [
+        { "answer": "Run to the gate! → Exclamation", "why": "sorted by the mark instead of the job", "remedy": "It ends with !, but check the first word: 'run' — a bossy verb ordering you about. Marks can lie; first words don't." },
+        { "answer": "How fast it runs! → Question", "why": "'how' read as a question word", "remedy": "Is it asking you HOW fast, or bursting ABOUT how fast? No answer is wanted — it's a burst. Which bucket?" }
+      ],
+      "hints": ["Sort by the JOB, not the mark.", "Check the first word of each sentence."],
+      "reteach": { "say": "Two sentences end with ! — but only one is an exclamation. Run to the gate! starts with a bossy verb: command in party clothes. How fast it runs! starts with How: true exclamation. Job first, mark second — that's how experts sort.", "block": { "type": "table", "headers": ["sentence", "first word's job", "type"], "rows": [["Run to the gate!", "bossy verb", "command"], ["How fast it runs!", "How + feeling", "exclamation"], ["The gate is open.", "tells", "statement"], ["Is the gate open?", "asks", "question"]] } },
+      "interestSlots": ["gate"]
+    },
+    {
+      "id": "l18-p09",
+      "skill": "write one sentence of each type",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Grand finale! Write one statement, one question, one command and one exclamation about a cat — with the right end mark on each.",
+        "sample": "The cat is asleep. Why is the cat asleep? Wake the cat. What a lazy cat!"
+      },
+      "expectedAnswer": "Four sentences, one of each type, with correct end marks (exclamation starting What/How)",
+      "wrongAnswers": [
+        { "answer": "question written with a full stop", "why": "the classic question-mark slip", "remedy": "Read your asking sentence aloud — voice up? Then it needs the hook. Swap the mark." },
+        { "answer": "exclamation like 'The cat is lazy!'", "why": "statement with a ! — not the Year 2 exclamation form", "remedy": "Strong feeling, yes — but a true exclamation starts with What or How. Try starting yours with 'What a…'." }
+      ],
+      "hints": ["One at a time: tell it, ask it, boss it, burst it.", "For the exclamation, start with 'What a…' or 'How…'."],
+      "reteach": { "say": "Take ONE idea and wear all four hats. Tell it: The cat is asleep. Ask it: Why is the cat asleep? Boss it: Wake the cat. Burst it: What a lazy cat! Same cat, four flavours, four marks.", "block": { "type": "steps", "title": "One cat, four types", "steps": ["Tell: The cat is asleep.", "Ask: Why is the cat asleep?", "Boss: Wake the cat.", "Burst: What a lazy cat!"] } },
+      "interestSlots": ["cat"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave sorting, end-mark and mark-vs-type items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the four type-anchors on screen, then a level-1 item (single sentence, tell/ask only).",
+    "masterySignal": "3+ correct across levels 2–3 including one command identified by its bossy verb and one command-with-! NOT called an exclamation → mastery ≥ 0.8 for 'four sentence types'.",
+    "struggleProtocol": [
+      "Don't sort it for them.",
+      "Name why: 'Let's ask: does it tell, ask, boss or burst?'",
+      "Step down: four type-cards as anchors; read the sentence aloud in each voice.",
+      "ONE hint: 'Read it — does your voice go UP? Then it's a question.'",
+      "Re-ask a smaller version (one card), build back.",
+      "Keep it safe: 'Four flavours take practice — let's taste this one again.'"
+    ],
+    "personalization": "Build the practice sentences around the learner's interests (their pet, football, dinosaurs). The tell/ask/boss/burst tool and the voices never change.",
+    "endOnSuccess": "Finish on a winnable sort or end-mark item; praise the process — 'you checked the first word's job instead of trusting the mark.'"
+  },
+
+  "differentiation": {
+    "support": "Four type-cards stay on screen as anchors; the character reads each sentence aloud in its voice before the child sorts.",
+    "stretch": "Write one sentence of each of the four types with correct end marks; explain why Stop! is a command, not an exclamation."
+  },
+  "extension": "Take one idea (the cat) and turn it into all four types, reading each in its voice — flat, rising, firm, bursting.",
+  "assessmentEvidence": "Child sorts at least six of eight sentences into the correct type with the right end mark, including identifying a command by its bossy verb.",
+  "revisitLater": "Lesson 19 zooms in on questions and exclamations (the special marks). Re-pose 'what type is…?' as retrieval next session."
+}

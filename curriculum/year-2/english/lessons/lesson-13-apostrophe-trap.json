@@ -1,0 +1,336 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u3-l13",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 3, "title": "Apostrophes & homophones", "essentialQuestion": "When does a word need an apostrophe, and how do I pick between sound-alike words?" },
+  "lessonNumber": 13,
+  "kind": "lesson",
+  "topic": "Apostrophes & homophones",
+  "title": "The apostrophe trap: NOT for plurals",
+  "durationMin": 20,
+  "objectives": ["By the end, I can tell a plural (no apostrophe) from possession/contraction (apostrophe)."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "plural", "definition": "more than one of something", "example": "two cats — no apostrophe!" },
+    { "term": "possession", "definition": "belonging — the owner gets 's", "example": "the cat's tail" },
+    { "term": "contraction", "definition": "two words squashed into one — apostrophe marks the missing letters", "example": "we're = we are" },
+    { "term": "its / it's", "definition": "it's = it is (squash); its = belonging to it (no apostrophe)", "example": "It's raining. The dog wagged its tail." }
+  ],
+  "emphasize": [
+    "Apostrophes are NEVER for plain plurals — two cats, never cat's.",
+    "The one diagnostic question: is something BELONGING, or are letters MISSING? If neither, it's just a plural — no apostrophe.",
+    "The its/it's test: say 'it is' — if it fits, it's; if not, its."
+  ],
+  "analysis": {
+    "keyConcepts": ["apostrophes only for contraction or possession", "plural s takes no apostrophe", "the belonging-or-missing diagnostic question", "the its/it's 'say it is' test"],
+    "misconceptions": [
+      "the greengrocer's apostrophe — adding one to any word ending in s (banana's for sale, two car's)",
+      "it's/its backwards — assuming belonging always needs an apostrophe",
+      "over-correcting and stripping apostrophes from real possessives/contractions"
+    ],
+    "hooks": ["Be the sign inspector — shops get this wrong all the time; badge on, catch the fake apostrophes!"],
+    "priorKnowledge": ["apostrophe Job 1 — contractions (Lesson 11)", "apostrophe Job 2 — possession (Lesson 12)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["wrong-sign cards on screen (apple's 50p, two car's, fresh egg's)", "two-column sort animation", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "The apple's 50p sign — spot that nothing belongs and nothing is missing, so the apostrophe is a mistake; retrieve both jobs.",
+      "note": "The sign-inspector frame carries the lesson. Cross out the wrong apostrophe with a flourish.",
+      "successCriteria": "Child recalls the two jobs (squashing, belonging) and agrees the sign apostrophe is fake.",
+      "script": {
+        "say": "I saw a sign at a shop. It said apple's 50p. Hmm… is that right? Do the apples OWN anything? No! Nothing's belonging, no letters missing — so that apostrophe is a MISTAKE. Today you're the sign inspector, catching apostrophes that shouldn't be there. Badge on — let's inspect! Quick kit-check first: when DO we use an apostrophe? You've learned two jobs.",
+        "adaptHints": "Listen for: squashing words (contraction) and belonging (possession). If shaky, quick re-show: don't (squash) and Sam's bag (belonging) — 'only those two times.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Inspect this sign!",
+          "animate": true,
+          "elements": [
+            { "k": "rect", "x": 20, "y": 8, "w": 60, "h": 24, "color": "orange" },
+            { "k": "text", "x": 50, "y": 18, "value": "apple's 50p", "size": 9, "bold": true },
+            { "k": "line", "x1": 24, "y1": 30, "x2": 76, "y2": 8, "color": "red" },
+            { "k": "text", "x": 50, "y": 42, "value": "apples 50p", "size": 8, "bold": true, "color": "green" },
+            { "k": "text", "x": 50, "y": 54, "value": "nothing belongs, nothing missing — no apostrophe!", "size": 4, "color": "ink" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If the two jobs won't come: show don't and Sam's bag side by side — 'squash… belonging… those are the ONLY two apostrophe jobs.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Teach the big rule (never for plurals) and the one diagnostic question; introduce the its/it's test.",
+      "note": "Two-column contrast is the core visual: two cats vs the cat's tail. Then it's raining vs its tail.",
+      "successCriteria": "Child can say the question: is something belonging, or are letters missing? If neither — no apostrophe.",
+      "script": {
+        "say": "Big rule: an apostrophe is NEVER for a plain plural. Two cats — more than one cat — no apostrophe! But the cat's tail — belonging — DOES get one. So I ask one question: is something BELONGING, or are letters MISSING? If neither, it's just a plural — leave the apostrophe out. And a special pair: it's with an apostrophe means it is — test by saying 'it is'. Its with NO apostrophe means belonging to it. The dog wagged its tail — say 'it is tail'? No! So no apostrophe.",
+        "adaptHints": "Chant the question rhythmically: 'belonging? missing letters? neither — no apostrophe!' Keep the its/it's test to one clean demo."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["phrase", "belonging? missing letters?", "apostrophe?"],
+          "rows": [
+            ["two cats", "no — just more than one", "NO"],
+            ["the cat's tail", "yes — the tail belongs to the cat", "YES"],
+            ["it's raining", "yes — letters missing (it is)", "YES"],
+            ["its tail", "belonging word its — special, like his/her", "NO"]
+          ],
+          "caption": "Plurals NEVER take an apostrophe. Only belonging or missing letters do."
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared inspections: fix two car's and fresh egg's, then sort a mixed set into contraction / possession / plural.",
+      "note": "Ask the diagnostic question aloud for every item before the child sorts it.",
+      "successCriteria": "Child sorts the six items correctly, asking the question aloud.",
+      "script": {
+        "say": "Inspect this sign with me: two car's. Is anything belonging? Are letters missing? No — it just means more than one car. So we cross that apostrophe out: cars. Now fresh egg's — same check — eggs! Right, inspector: here's a whole crate of phrases. Sort each one into its pile: squashed words, belonging, or plain plural. Ask the question out loud every time.",
+        "adaptHints": "If the child rushes, slow them with the two-part question before each drag. Celebrate each caught fake with inspector flair."
+      },
+      "blocks": [
+        {
+          "type": "categorize",
+          "prompt": "Sign inspector: sort each phrase into the right pile.",
+          "buckets": ["contraction (letters missing)", "possession (belonging)", "plural — no apostrophe!"],
+          "items": [
+            { "text": "we're here", "bucket": "contraction (letters missing)" },
+            { "text": "don't stop", "bucket": "contraction (letters missing)" },
+            { "text": "the boy's coat", "bucket": "possession (belonging)" },
+            { "text": "Sam's bag", "bucket": "possession (belonging)" },
+            { "text": "two cars", "bucket": "plural — no apostrophe!" },
+            { "text": "fresh eggs", "bucket": "plural — no apostrophe!" }
+          ]
+        }
+      ],
+      "check": {
+        "question": "Is two dogs written dog's or dogs?",
+        "expectedAnswer": "dogs — no apostrophe, it's just a plural",
+        "wrongAnswers": [
+          { "answer": "dog's", "why": "greengrocer's apostrophe — adding one near any s", "remedy": "Ask the question: do the dogs own anything? Are letters missing? No and no — so…?" },
+          { "answer": "dogs' ", "why": "half-remembered rule about apostrophes after s", "remedy": "That's a mark for another year! Today: plain plural, more than one — what does a plain plural get? Nothing at all." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "The lesson's diagnostic: true or false — two dogs is written dog's.",
+      "note": "This exact item is in the End-of-Unit 3 check. 'True' = the greengrocer misconception.",
+      "successCriteria": "Child answers False and explains: nothing belongs, no letters missing — just a plural.",
+      "script": {
+        "say": "Inspector's exam question. True or false: two dogs is written d-o-g-apostrophe-s, dog's.",
+        "adaptHints": "After a correct answer, probe: 'How do you know it's not belonging?' — listen for 'the dogs don't own anything; it just means more than one.'"
+      },
+      "blocks": [
+        {
+          "type": "trueFalse",
+          "statement": "Two dogs is written dog's.",
+          "correct": false,
+          "explain": "False! Nothing belongs and no letters are missing — it's a plain plural: dogs. Plurals never take an apostrophe."
+        }
+      ],
+      "check": {
+        "question": "True or false: two dogs is written dog's.",
+        "expectedAnswer": "False — it's dogs (plural, no apostrophe)",
+        "wrongAnswers": [
+          { "answer": "True", "why": "over-applied the apostrophe near s — the greengrocer's apostrophe", "remedy": "Do the dogs OWN anything? Are letters missing? No — just more than one. Plurals get no apostrophe." },
+          { "answer": "False, because it should be dogs'", "why": "swapped one wrong apostrophe for another", "remedy": "No apostrophe anywhere! Run the question: belonging? missing letters? Neither — so the s stands alone: dogs." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent inspecting: apostrophe-or-not decisions on mixed plurals, possessives and contractions; its/it's for fast finishers.",
+      "note": "Director draws from practiceBank, start level 2. The question must be asked aloud before every decision — it is the habit.",
+      "successCriteria": "Child decides correctly on 4+ of 6 mixed phrases, leaving plurals bare and keeping real apostrophes.",
+      "script": {
+        "say": "Full inspector duty! I'll show you signs and sentences — some apostrophes are real, some are fakes, and some words are missing the apostrophe they need. Ask our question out loud each time: belonging? missing letters? Then decide.",
+        "adaptHints": "Theme the fake signs around shops the child knows (bakery, sweet shop, pet shop). Never change the target words."
+      },
+      "stuckProtocol": [
+        "Don't decide for them.",
+        "Name why: 'let's ask our one question.'",
+        "Step down: use the yes/no gate — 'Is something belonging?' then 'Are letters missing?'",
+        "ONE hint: 'if you answered no to both, it's just a plural.'",
+        "Re-ask a smaller version (one phrase).",
+        "Keep it safe: 'Even shops get this wrong — that's why we inspect carefully.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child states the inspector's rule; end on a win.",
+      "note": "Child-led; the character listens.",
+      "successCriteria": "Child says: a word with s gets NO apostrophe when it's just a plural; apostrophes only for belonging or missing letters.",
+      "script": {
+        "say": "Tell me the rule a sign inspector lives by — when does a word with s NOT get an apostrophe? … Exactly: when it's just a plural, more than one. Apostrophes only for belonging or missing letters. You caught the fake apostrophes and kept the real ones — a sharp-eyed sign inspector. You even cracked its and it's.",
+        "adaptHints": "Praise the observed process: asking the question before deciding. Tease Lesson 14: 'next, three words that SOUND identical — the ones grown-ups muddle most.'"
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l13-p01", "skill": "plurals take no apostrophe", "level": 1,
+      "block": { "type": "trueFalse", "statement": "A plain plural like three cats never needs an apostrophe.", "correct": true, "explain": "True — plurals just mean more than one. Apostrophes are only for belonging or missing letters." },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "still attaching apostrophes to any s", "remedy": "Run the question on three cats: belonging? missing letters? No and no — so what does the s get? Nothing!" },
+        { "answer": "True, except for animals", "why": "invented a sub-rule", "remedy": "No exceptions for animals, fruit or anything else — a plain plural NEVER takes an apostrophe." }
+      ],
+      "hints": ["What are the only two apostrophe jobs?", "Does 'more than one' match either job?"],
+      "reteach": { "say": "The apostrophe has exactly two jobs — squashing and belonging. 'More than one' isn't a job! Three cats, two dogs, ten sweets — the s stands alone every time.", "block": { "type": "emojiViz", "emojis": "🐱🐱🐱", "caption": "three cats — no apostrophe, just more cats" } }
+    },
+    {
+      "id": "l13-p02", "skill": "fix greengrocer's apostrophes", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Fix the shop sign: banana's for sale", "options": ["bananas for sale", "banana's for sale is already right", "bananas' for sale", "banana for sale's"], "correct": 0, "explain": "The bananas don't own anything and no letters are missing — plain plural, no apostrophe: bananas for sale." },
+      "expectedAnswer": "bananas for sale",
+      "wrongAnswers": [
+        { "answer": "banana's for sale is already right", "why": "the greengrocer's apostrophe looks normal from seeing it on real signs", "remedy": "Ask the inspector question: do the bananas OWN anything? Are letters missing? Neither — so the apostrophe is a fake." },
+        { "answer": "bananas' for sale", "why": "moved the apostrophe instead of removing it", "remedy": "It doesn't need an apostrophe ANYWHERE — it's just more than one banana. Cross it right out." }
+      ],
+      "hints": ["Belonging? Missing letters?", "Neither — so the apostrophe must go."],
+      "reteach": { "say": "Shops write banana's, apple's, egg's — and they're all wrong! It's just MORE THAN ONE. Inspector's fix: cross the apostrophe out and let the s stand alone: bananas for sale.", "block": { "type": "table", "headers": ["wrong sign", "inspector's fix"], "rows": [["banana's for sale", "bananas for sale"], ["fresh egg's", "fresh eggs"]] } },
+      "interestSlots": ["bananas", "sweets", "comics"]
+    },
+    {
+      "id": "l13-p03", "skill": "sort contraction vs possession vs plural", "level": 2,
+      "block": {
+        "type": "categorize",
+        "prompt": "Sort each phrase into the right pile.",
+        "buckets": ["contraction (letters missing)", "possession (belonging)", "plural — no apostrophe!"],
+        "items": [
+          { "text": "I'm hungry", "bucket": "contraction (letters missing)" },
+          { "text": "she'll win", "bucket": "contraction (letters missing)" },
+          { "text": "the dog's bone", "bucket": "possession (belonging)" },
+          { "text": "Gran's hat", "bucket": "possession (belonging)" },
+          { "text": "two buses", "bucket": "plural — no apostrophe!" },
+          { "text": "five sweets", "bucket": "plural — no apostrophe!" }
+        ]
+      },
+      "expectedAnswer": "I'm hungry + she'll win → contraction; the dog's bone + Gran's hat → possession; two buses + five sweets → plural",
+      "wrongAnswers": [
+        { "answer": "two buses → possession", "why": "any s-ending word pulled towards the apostrophe piles", "remedy": "Do the buses own anything? Are letters missing? No — 'more than one' has its own pile." },
+        { "answer": "the dog's bone → contraction", "why": "saw the apostrophe and defaulted to squashing", "remedy": "Try the stretch test: 'the dog is bone'? Nonsense! So it's not a squash — who owns the bone?" }
+      ],
+      "hints": ["Ask the question for each: belonging? missing letters? neither?", "Stretch test for squashes: can you say 'is' or the two long words?"],
+      "reteach": { "say": "Three piles, one question. I'm hungry — I am — letters missing: squash pile. Gran's hat — Gran owns it: belonging pile. Two buses — just more than one: plural pile, no apostrophe. Question first, pile second.", "block": { "type": "table", "headers": ["phrase", "question says", "pile"], "rows": [["I'm hungry", "letters missing (I am)", "contraction"], ["Gran's hat", "Gran owns it", "possession"], ["two buses", "neither — just more", "plural"]] } }
+    },
+    {
+      "id": "l13-p04", "skill": "its vs it's", "level": 2,
+      "block": { "type": "fillBlank", "text": "The dog wagged ___ tail.", "answer": "its", "wordBank": ["its", "it's"] },
+      "expectedAnswer": "its",
+      "wrongAnswers": [
+        { "answer": "it's", "why": "assumed belonging always needs an apostrophe", "remedy": "Use the test — say 'it is': 'the dog wagged it is tail'? No! So no apostrophe: its." },
+        { "answer": "its'", "why": "invented an apostrophe-after-s form", "remedy": "its is a special belonging word like his and her — it never takes an apostrophe at all." }
+      ],
+      "hints": ["Say 'it is' in the gap — does it make sense?", "No 'it is'? Then it's the belonging word: its."],
+      "reteach": { "say": "The its/it's test never fails: say 'it is'. 'The dog wagged it is tail' — nonsense! So we want the belonging word its, no apostrophe. its belongs to the family of his and her — none of them take apostrophes.", "block": { "type": "table", "headers": ["try 'it is'", "verdict"], "rows": [["it is raining ✓", "it's raining"], ["it is tail ✗", "its tail"]] } }
+    },
+    {
+      "id": "l13-p05", "skill": "its vs it's", "level": 2,
+      "block": { "type": "fillBlank", "text": "___ raining outside today.", "answer": "It's", "wordBank": ["It's", "Its"] },
+      "expectedAnswer": "It's",
+      "wrongAnswers": [
+        { "answer": "Its", "why": "over-corrected after learning its — dropped a needed apostrophe", "remedy": "Say the test: 'it is raining outside' — it fits! Letters are missing, so we need the squash: it's." },
+        { "answer": "Its'", "why": "apostrophe drifted to the end", "remedy": "The squash of it is puts the apostrophe where the i of is dropped: it's." }
+      ],
+      "hints": ["Say 'it is' in the gap.", "'It is raining' works — so which spelling shows the squash?"],
+      "reteach": { "say": "Same test, other way round: 'it is raining' makes perfect sense — so this one IS the squash, and squashes need their gravestone: it's raining. Test first, spelling second.", "block": { "type": "emojiViz", "emojis": "🌧️", "caption": "it's raining = it IS raining" } }
+    },
+    {
+      "id": "l13-p06", "skill": "keep real apostrophes", "level": 2,
+      "block": { "type": "trueFalse", "statement": "In 'the cat's tail', the apostrophe is correct, because the tail belongs to the cat.", "correct": true, "explain": "True — belonging is one of the apostrophe's two real jobs. Inspectors remove fakes but protect the real ones!" },
+      "expectedAnswer": "True",
+      "wrongAnswers": [
+        { "answer": "False", "why": "over-correcting — now stripping ALL apostrophes near s", "remedy": "Careful, inspector — don't arrest the innocent! Ask the question: does the tail belong to the cat? Yes — so this apostrophe is real." },
+        { "answer": "True, because cat's means many cats", "why": "right answer, plural reasoning", "remedy": "cat's with an apostrophe is ONE cat who owns something. Many cats would be plain cats — no apostrophe." }
+      ],
+      "hints": ["Ask: is something belonging here?", "The tail belongs to the cat — which job is that?"],
+      "reteach": { "say": "A good inspector does two things: removes fake apostrophes AND protects real ones. The cat's tail — belonging — real, keep it! Two car's — nothing belongs — fake, cross it out. The question tells you which is which.", "block": { "type": "table", "headers": ["phrase", "verdict"], "rows": [["the cat's tail", "✓ real — belonging"], ["two car's", "✗ fake — just a plural"]] } }
+    },
+    {
+      "id": "l13-p07", "skill": "spot the correctly written sentence", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Which sentence is written correctly?", "options": ["The melon's skin was green.", "I bought two melon's.", "Look at all the apple's!", "Three banana's sat in the bowl."], "correct": 0, "explain": "Only the first shows belonging — the skin belongs to the melon. The others are plain plurals wearing fake apostrophes." },
+      "expectedAnswer": "The melon's skin was green.",
+      "wrongAnswers": [
+        { "answer": "I bought two melon's.", "why": "counted apostrophes as decoration for plurals", "remedy": "Two melons — do they own anything in that sentence? No — plain plural, no apostrophe." },
+        { "answer": "Look at all the apple's!", "why": "the greengrocer's apostrophe again", "remedy": "Run the question on the apples: belonging? missing letters? Neither — cross it out." }
+      ],
+      "hints": ["Only one sentence has real belonging in it.", "Whose skin is it? That's your clue."],
+      "reteach": { "say": "Tricky — all four LOOK similar! The secret: hunt for real belonging. The melon's skin — the skin belongs to the melon — real apostrophe. Everywhere else it's just counting fruit, and counting never needs an apostrophe.", "block": { "type": "table", "headers": ["sentence", "belonging?", "verdict"], "rows": [["the melon's skin", "yes — the melon owns its skin", "✓"], ["two melon's", "no — just counting", "✗ melons"]] } }
+    },
+    {
+      "id": "l13-p08", "skill": "write correct plurals and possessives", "level": 3,
+      "block": { "type": "shortText", "prompt": "Be the sign writer! Write one CORRECT shop sign with a plural in it — like Fresh buns 20p.", "sample": "Juicy plums 50p" },
+      "expectedAnswer": "A sign with a plural spelled with no apostrophe (e.g. Fresh buns 20p)",
+      "wrongAnswers": [
+        { "answer": "a sign with bun's / plum's", "why": "the fake apostrophe sneaks back in the child's own writing", "remedy": "Inspect your own sign! Do the buns own anything? Are letters missing? Then the s stands alone." },
+        { "answer": "a sign avoiding plurals entirely", "why": "dodging the risk instead of applying the rule", "remedy": "Be brave — you know the rule! Pick something the shop sells lots of, and let the plain s do its job." }
+      ],
+      "hints": ["Pick something a shop sells lots of.", "More than one = plain s, no apostrophe."],
+      "reteach": { "say": "Sign writers keep it simple: name the things (plural, plain s), add the price. Fresh buns 20p. Juicy plums 50p. No apostrophes anywhere — nothing belongs, nothing's missing. Write yours and then inspect it like a pro.", "block": { "type": "emojiViz", "emojis": "🪧✅", "caption": "plural + price — no apostrophe needed" } },
+      "interestSlots": ["buns", "plums", "toy cars", "comics"]
+    },
+    {
+      "id": "l13-p09", "skill": "its vs it's", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "The bird flapped ___ wings. AND ___ going to rain. Which pair fills both gaps?", "options": ["its, It's", "it's, Its", "its, Its", "it's, It's"], "correct": 0, "explain": "'it is wings' fails → its (belonging). 'It is going to rain' works → It's (squash)." },
+      "expectedAnswer": "its, It's",
+      "wrongAnswers": [
+        { "answer": "it's, Its", "why": "the test applied backwards", "remedy": "Say 'it is' in each gap. 'Flapped it is wings'? No → its. 'It is going to rain'? Yes → it's." },
+        { "answer": "it's, It's", "why": "belonging always given an apostrophe", "remedy": "its is the special belonging word — no apostrophe ever. Which gap is about the bird OWNING its wings?" }
+      ],
+      "hints": ["Run the 'say it is' test on each gap separately.", "Belonging → its. A real 'it is' → it's."],
+      "reteach": { "say": "Double test time. Gap one: 'the bird flapped it is wings' — nonsense, so belonging: its. Gap two: 'it is going to rain' — perfect sense, so the squash: it's. One test, asked twice, gets both.", "block": { "type": "table", "headers": ["gap", "'it is' fits?", "answer"], "rows": [["flapped ___ wings", "no", "its"], ["___ going to rain", "yes", "It's"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave sign-fixing with its/it's items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the yes/no gate spoken aloud (belonging? missing letters?), then a level-1 item.",
+    "masterySignal": "4+ correct across levels 2–3 including one categorize sort, one fixed plural sign and one its/it's item → mastery ≥ 0.8 for 'apostrophe vs plural'.",
+    "struggleProtocol": [
+      "Don't decide for them.",
+      "Name why: 'let's ask our one question.'",
+      "Step down: yes/no gate — 'Is something belonging?' then 'Are letters missing?'",
+      "ONE hint: 'no to both? Then it's just a plural.'",
+      "Re-ask a smaller version (one phrase).",
+      "Keep it safe: 'Even shops get this wrong — that's why we inspect carefully.'"
+    ],
+    "personalization": "Set the wrong signs in shops the learner loves (sweet shop, pet shop, toy shop) and use their pets/family for the real possessives. The spoken question stays in every framing.",
+    "endOnSuccess": "Finish on a catchable fake sign; praise the process — 'you asked the question before every decision, like a real inspector.'"
+  },
+
+  "differentiation": {
+    "support": "Use the single yes/no gate 'Is something belonging?' as the only decision; sort just plurals vs possessives (drop contractions and its/it's).",
+    "stretch": "Fix its/it's in two sentences and explain the test; spot a real greengrocer's apostrophe on an actual shop sign or leaflet and correct it."
+  },
+  "extension": "Design one correct shop sign and one deliberately wrong one, then explain the difference like an inspector's report.",
+  "assessmentEvidence": "Child correctly leaves plurals apostrophe-free and keeps apostrophes for possession/contraction in at least four of six phrases, and states 'plurals never take an apostrophe'.",
+  "revisitLater": "End-of-Unit 3 check asks the child to mark two dogs as dogs. Bring back the its/it's test as retrieval before Lesson 14; the categorize sort returns in Lesson 15's review bank."
+}

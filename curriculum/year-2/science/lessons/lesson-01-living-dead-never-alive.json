@@ -1,0 +1,323 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-science-u1-l01",
+  "year": 2,
+  "subject": "science",
+  "subjectLabel": "Science",
+  "unit": { "number": 1, "title": "Living things and their habitats", "essentialQuestion": "How do we know if something is living, and how is each living thing suited to where it lives?" },
+  "lessonNumber": 1,
+  "kind": "lesson",
+  "topic": "Living, dead and never alive",
+  "title": "Living, dead, or never alive",
+  "durationMin": 30,
+  "objectives": ["By the end, I can sort things into living, dead and never alive and give a reason."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "living", "definition": "it does, or could, grow, feed and have babies", "example": "a butterfly and a sunflower are living" },
+    { "term": "dead", "definition": "it was once alive but isn't any more", "example": "a brown leaf that fell from a tree is dead" },
+    { "term": "never alive", "definition": "it was never living at all", "example": "a pebble was never alive" },
+    { "term": "life process", "definition": "a job all living things do", "example": "move, grow, feed, make babies" }
+  ],
+  "emphasize": [
+    "The single test that decides every object: 'Does it, or did it ever, grow, feed and make babies?'",
+    "Pre-empt the trap 'it moves, so it's alive' — repeat: 'Moving isn't enough — living things also grow, feed and have babies. A car moves but is never alive.'",
+    "Three groups, not two: 'dead' (once alive) is its own group, separate from 'never alive'."
+  ],
+  "analysis": {
+    "keyConcepts": ["living / dead / never alive as three distinct groups", "the grow-feed-have-babies test for life", "dead means once-alive, not never-alive"],
+    "misconceptions": [
+      "if it moves it must be alive (a car moves)",
+      "a still, lifeless object was never alive (a fallen leaf, a shell)",
+      "anything that came from a plant or animal is still alive now"
+    ],
+    "hooks": ["A wooden block and a great big tree are both wood — but are they both alive?"],
+    "priorKnowledge": ["Year 1: tells plants and animals apart from non-living objects in an everyday way", "knows animals and plants are alive"]
+  },
+
+  "materials": {
+    "human": ["a real or pictured butterfly", "a dead leaf (a real fallen one is best)", "a pebble or small rock", "a small potted plant (or cress/grass)", "a teddy or plastic toy", "three sorting hoops or three labelled plates: 'living', 'dead', 'never alive'", "a small seashell (for the stretch)", "optional: a wooden block plus a picture of a tree", "a small mixed pile for practice: sock, feather, worm picture, sunflower"],
+    "digital": ["the character's sorting board and three-group anchor table (rendered by the app)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~15 minutes hands-on with REAL objects (hook, explore, and naming the three groups into the hoops). Lay out before you start: the butterfly, dead leaf, pebble, plant and teddy in a row; the three labelled hoops; the seashell and mixed practice pile to one side. Say the script lines warmly in your own words, but keep the test phrase exact: 'Does it, or did it ever, grow, feed and make babies?' When you have placed each object in its hoop and said the handoff line, the AI character takes over on screen for the tricky check, the adaptive practice and the recap. Keep the objects within the child's reach — the AI may ask them to pick one up again."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "SciShow Kids",
+    "searchTerm": "living and nonliving things for kids",
+    "watchTask": "Every time the video shows something that GROWS, FEEDS or has BABIES, whisper 'living!' — count how many living things you spot.",
+    "afterCheck": { "question": "The video showed a rock and a plant. Which one was living, and what did it DO that told you?", "expectedAnswer": "The plant was living — it grows and feeds (drinks sunlight); the rock never grows, feeds or has babies." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 4],
+      "goal": "Create curiosity about what 'alive' really means; retrieve Year 1 alive vs not-alive.",
+      "note": "Don't resolve the puzzle — leave the block-vs-tree question open. This is the emotional hook.",
+      "successCriteria": "Child wonders aloud about the block vs the tree and names one alive and one not-alive thing.",
+      "script": {
+        "say": "I've got a little puzzle for you. Look — here is a wooden block, and here is a picture of a great big tree. The block came from a tree, so they're both wood. But here's my question… is the tree alive? Is the block of wood alive? Are they the same? In Year 1 you learned about plants and animals — tell me one thing that is alive, and one thing that is not alive.",
+        "adaptHints": "Swap the block/tree for anything to hand. Listen for a plant or animal as alive, a rock or toy as not alive. Accept everyday reasons."
+      },
+      "humanHandoff": {
+        "setup": "Wooden block beside the tree picture; the row of objects (butterfly, leaf, pebble, plant, teddy) and three hoops ready but not yet sorted.",
+        "cueToResume": "Not yet — the human continues into the explore beat."
+      },
+      "stuckProtocol": ["If prior knowledge is shaky: point around the room — 'Is that chair alive? Is that spider alive? How do you know?' and accept their everyday reasons before moving on."]
+    },
+    {
+      "kind": "example",
+      "delivery": "human",
+      "timeboxMin": [4, 9],
+      "goal": "Explore first (we-do): the child looks closely at each object and says what it does or did — before any group name.",
+      "note": "5E explore. Do NOT let the child name a group yet — only describe what each thing does or did.",
+      "successCriteria": "Child says the butterfly moves/eats/had a mummy, the pebble never grew/ate, and that the leaf came from a tree.",
+      "script": {
+        "say": "Before I tell you the secret, let's be detectives. I'll put things in front of you and you really look. Don't say a group yet — just tell me what each thing does or did. This butterfly — does it move? Does it eat? Did it have a mummy butterfly? … This pebble — has it ever grown? Has it ever eaten? Could it have a baby pebble? … This leaf — it's not moving now, but where did it come from?",
+        "adaptHints": "Hand the child each object to hold. Listen for yes/yes/yes for the butterfly; no/no/no for the pebble; 'a tree / a plant' for the leaf."
+      },
+      "humanHandoff": {
+        "setup": "Objects handled one at a time; leaf's origin (a living tree) drawn out but not yet named 'dead'.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      }
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [9, 15],
+      "goal": "Name the three groups while placing each real object into its hoop; say the test slowly.",
+      "note": "This is the concrete naming stage — real objects into real hoops. End with the exact handoff line so the AI can take over for the tricky check.",
+      "successCriteria": "Child watches each object placed in the correct hoop and hears the test 'Does it, or did it ever, grow, feed and make babies?'",
+      "script": {
+        "say": "You found it! Everything in the whole world goes into three groups. Living things grow, feed, move and can have babies — like the butterfly and the plant. Dead things were once alive but aren't any more — like this leaf; it grew on a living tree, but now it's brown and dry. And never alive things were never living — like this pebble; it never grew or ate or had babies. Here is our test: 'Does it, or did it ever, grow, feed and make babies?' If yes, it's living or dead. If it never could, it's never alive. And remember our trick — moving isn't enough. A car moves, but it never grows, eats or has babies, so a car is never alive. Now my friend on the screen has a really tricky one to test you with. Watch!",
+        "adaptHints": "Place each object in its hoop as you name its group. Point to the test words as you say them. The final sentence is the handoff line — say it as written."
+      },
+      "humanHandoff": {
+        "setup": "Butterfly and plant in 'living', leaf and shell in 'dead', pebble and teddy in 'never alive'. Leave the hoops visible for the child.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the check beat."
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [15, 20],
+      "goal": "Reveal whether the child can place a fallen leaf as DEAD (once-alive), not never-alive or living.",
+      "note": "This is the make-or-break check for the lesson. After a correct answer, always probe 'How do you know it isn't NEVER alive?'",
+      "successCriteria": "Child answers 'dead' and explains it was once part of a living tree but isn't growing now.",
+      "script": {
+        "say": "I saw you sorting — brilliant detective work! Here's a really tricky one just for you. A leaf on the ground that fell from a tree — is it living, dead, or never alive? Think about our test. Where was that leaf before it fell?",
+        "adaptHints": "Pause for the child's answer. If correct, probe: 'How do you know it isn't NEVER alive?' Celebrate reasoning, not just the word."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "A leaf on the ground that fell from a tree is…",
+          "options": ["Dead — it was once alive", "Never alive — it isn't moving", "Living — it came from a plant"],
+          "correct": 0,
+          "explain": "The leaf grew on a LIVING tree, so it was once alive — but it isn't growing or feeding now. That makes it dead, not never-alive."
+        },
+        {
+          "type": "table",
+          "title": "The three groups",
+          "headers": ["group", "what it means", "example"],
+          "rows": [
+            ["living", "grows, feeds, could have babies NOW", "butterfly, plant"],
+            ["dead", "was once alive, but not now", "fallen leaf, seashell"],
+            ["never alive", "never grew, fed or had babies", "pebble, teddy"]
+          ],
+          "caption": "Test every object: did it EVER grow, feed and have babies?"
+        }
+      ],
+      "check": {
+        "question": "A leaf on the ground that fell from a tree — living, dead or never alive?",
+        "expectedAnswer": "Dead — it was once alive (part of a living tree) but isn't growing now.",
+        "wrongAnswers": [
+          { "answer": "Never alive", "why": "judging by 'it's not moving now' and assuming it was never living", "remedy": "Where was this leaf before it fell? Was that tree alive? So the leaf grew on something living — which group is for things that WERE alive?" },
+          { "answer": "Living", "why": "confusing where it came from with being alive right now", "remedy": "Is this leaf growing right now? Green and drinking water, or brown and dry? If it has stopped growing and feeding, it isn't living any more — but it was. What do we call that?" }
+        ]
+      },
+      "stuckProtocol": [
+        "Don't reveal the group.",
+        "Name the tricky bit: 'The hard part is telling DEAD from NEVER alive.'",
+        "Go concrete: ask the child to hold the real leaf from the hoops.",
+        "One hint: 'Did it EVER grow on a living plant — yes or no?'",
+        "Re-ask the smaller question first ('Was it ever part of a living thing?'), then rebuild to the three-way choice.",
+        "Keep it safe: 'Mistakes show us what to practise. Let's take a smaller step together.'"
+      ]
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [20, 26],
+      "goal": "Independent sorting with a reason each time; catch the dead-vs-never-alive slip (feather, shell).",
+      "note": "Director draws from practiceBank, start at level 2. On a miss, invite the child to pick up the real object (CPA step down). Watch for treating a feather or shell as never-alive.",
+      "successCriteria": "Child sorts 3+ mixed things correctly AND gives one reason each, including a once-living item (feather/shell) as dead.",
+      "script": {
+        "say": "Practice time — you're the scientist now. I'll show you things, and you sort each one into living, dead or never alive. But here's the rule: you must say one reason out loud, like 'It's never alive because it never grew or ate.' Watch out — some are sneaky!",
+        "adaptHints": "Swap the objects for things the child likes (a football, a pet's toy) — but keep the living/dead/never-alive logic exactly the same. Never let a sort pass without a reason."
+      },
+      "stuckProtocol": [
+        "Don't reveal the group.",
+        "Name why: 'The tricky bit is telling dead from never alive.'",
+        "Drop to concrete: put the real object in the child's hands.",
+        "One hint: 'Run our test — did it EVER grow, feed or have babies?'",
+        "Re-ask the smaller yes/no ('Was it ever part of a living thing?'), then build back to the three-way sort.",
+        "Keep it safe: 'Mistakes show us what to practise. Let's take a smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [26, 30],
+      "goal": "Child states the three groups with an example each; end on an earned success with process praise.",
+      "note": "Child-led recall — the character listens, doesn't lecture. Plant the 'is a car alive?' retrieval for next lesson.",
+      "successCriteria": "Child names living, dead and never alive with one example each.",
+      "script": {
+        "say": "Be the teacher now — tell me the three groups, and give me one example of each. … Yes! Living, dead, and never alive. You used our test every single time — did it grow, feed and have babies? — instead of just guessing. That's exactly how a scientist sorts things. Quick puzzle to keep in your pocket for next time: is a car alive?",
+        "adaptHints": "Praise the specific process you saw (using the test, catching the dead-vs-never-alive trap). Leave the 'is a car alive?' question open as a hook for Lesson 2."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l01-p01", "skill": "sort living / dead / never alive", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "A busy little ant. Living, dead or never alive?", "options": ["Living", "Dead", "Never alive"], "correct": 0, "explain": "An ant moves, feeds and can have baby ants — it does the life jobs, so it's living." },
+      "expectedAnswer": "Living",
+      "wrongAnswers": [
+        { "answer": "Never alive", "why": "the ant is small so the child overlooks that it eats and grows", "remedy": "Does an ant eat crumbs? Did it hatch from an egg? If it grows and feeds, which group?" },
+        { "answer": "Dead", "why": "mixing 'small and still' with 'not alive'", "remedy": "Is this ant running about right now? If it's still moving and feeding, it's not dead — it's…?" }
+      ],
+      "hints": ["Run the test: does it move, grow and feed?", "Ants come from eggs and eat food — what does that tell you?"],
+      "reteach": { "say": "Let's shrink it down. An ant is tiny, but watch what it DOES — it scurries (moves), it carries food (feeds), and it hatched from a baby egg. Growing, feeding, babies — that's living.", "block": { "type": "emojiViz", "emojis": "🐜 → 🏃 🍽️ 🥚", "caption": "An ant moves, feeds and has babies — living" } }
+    },
+    {
+      "id": "l01-p02", "skill": "sort living / dead / never alive", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "A smooth grey pebble. Living, dead or never alive?", "options": ["Living", "Dead", "Never alive"], "correct": 2, "explain": "A pebble never grew, never ate and could never have a baby pebble — it was never alive." },
+      "expectedAnswer": "Never alive",
+      "wrongAnswers": [
+        { "answer": "Dead", "why": "thinks 'not moving' means it must have died", "remedy": "Dead means it was ONCE alive. Was this pebble ever growing or eating? If never, which group?" },
+        { "answer": "Living", "why": "over-applying 'everything outdoors is alive'", "remedy": "Does a pebble grow bigger? Does it eat? Could it have a baby pebble? If no to all, it's…?" }
+      ],
+      "hints": ["Did it EVER grow, feed or have babies?", "A pebble has never done any of the life jobs."],
+      "reteach": { "say": "A pebble is a great example of never alive. It has never grown, never eaten, and could never have a baby pebble. It didn't die — it was simply never living at all.", "block": { "type": "keyTerm", "term": "never alive", "definition": "something that was never living — it never grew, fed or had babies", "example": "a pebble, a spoon, a plastic brick" } }
+    },
+    {
+      "id": "l01-p03", "skill": "dead vs never alive", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "A seashell on the beach. Living, dead or never alive?", "options": ["Living", "Dead", "Never alive"], "correct": 1, "explain": "A shell was the home of a living sea creature, so it was once alive — that makes it dead, not never-alive." },
+      "expectedAnswer": "Dead",
+      "wrongAnswers": [
+        { "answer": "Never alive", "why": "the classic slip — a hard, still shell looks like it was never living", "remedy": "A shell was made and lived in by a little sea animal. If it was once part of a living creature, which group is for once-alive things?" },
+        { "answer": "Living", "why": "confusing 'came from an animal' with 'still alive now'", "remedy": "Is anything living inside this shell right now? It was alive once, but not now — so we call it…?" }
+      ],
+      "hints": ["A shell was made by a living sea creature.", "Was it EVER part of something alive? Then it isn't never-alive."],
+      "reteach": { "say": "This one is sneaky. A shell feels like a stone, but a living sea snail made it and lived inside. So it WAS once alive — that puts it in the dead group, not never-alive.", "block": { "type": "table", "headers": ["object", "was it ever alive?", "group"], "rows": [["seashell", "yes — a sea creature made it", "dead"], ["pebble", "no — never grew or fed", "never alive"]], "caption": "Dead means ONCE alive; never alive means never." } }
+    },
+    {
+      "id": "l01-p04", "skill": "sort living / dead / never alive", "level": 2,
+      "block": { "type": "categorize", "prompt": "Sort each thing into the right group.", "buckets": ["living", "dead", "never alive"], "items": [ { "text": "sunflower", "bucket": "living" }, { "text": "brown fallen leaf", "bucket": "dead" }, { "text": "plastic toy", "bucket": "never alive" }, { "text": "worm", "bucket": "living" }, { "text": "seashell", "bucket": "dead" }, { "text": "spoon", "bucket": "never alive" } ] },
+      "expectedAnswer": "living: sunflower, worm · dead: brown leaf, seashell · never alive: plastic toy, spoon",
+      "wrongAnswers": [
+        { "answer": "puts the leaf or shell in 'never alive'", "why": "the dead-vs-never-alive slip — once-living things look lifeless", "remedy": "For the leaf and the shell, ask: was it EVER part of a living thing? If yes, it goes in dead." },
+        { "answer": "puts the sunflower in 'never alive'", "why": "thinks only animals are living", "remedy": "Does a sunflower grow, drink sunlight and make seeds (its babies)? Then which group?" }
+      ],
+      "hints": ["Two tests: (1) is it alive now? (2) was it ever alive?", "Leaves and shells were once part of living things."],
+      "reteach": { "say": "Let's line them up. Living things do the jobs NOW — the sunflower and worm grow and feed. Dead things did the jobs once — the leaf grew on a tree, the shell held a sea creature. Never-alive things never did — the plastic toy and spoon.", "block": { "type": "table", "headers": ["group", "these ones"], "rows": [["living", "sunflower, worm"], ["dead", "brown leaf, seashell"], ["never alive", "plastic toy, spoon"]] } }
+    },
+    {
+      "id": "l01-p05", "skill": "apply the life test", "level": 2,
+      "block": { "type": "trueFalse", "statement": "A car is alive because it can move.", "correct": false, "explain": "Moving isn't enough. A car never grows, never eats and could never have a baby car — so it's never alive." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the movement-means-alive misconception — the most common trap", "remedy": "Does a car grow bigger over time? Does it eat food? Could it have a baby car? Moving isn't enough on its own." }
+      ],
+      "hints": ["Moving isn't enough — what else must living things do?", "Does a car grow, feed and have babies?"],
+      "reteach": { "say": "A car zooms about, so it feels alive — but our test needs more than moving. A car never grows, never eats, and never has baby cars. Moving isn't enough. So a car is never alive.", "block": { "type": "emojiViz", "emojis": "🚗 → moves ✅ · grows ❌ · feeds ❌ · babies ❌", "caption": "Moving isn't enough — a car is never alive" } }
+    },
+    {
+      "id": "l01-p06", "skill": "give a reason for the group", "level": 2,
+      "block": { "type": "fillBlank", "text": "A pebble is never alive because it never ___ , fed or had babies.", "answer": "grew", "wordBank": ["grew", "moved", "sparkled"] },
+      "expectedAnswer": "grew",
+      "wrongAnswers": [
+        { "answer": "moved", "why": "reaching for movement as the test instead of the life jobs", "remedy": "Moving isn't part of our test — the jobs are grow, feed and have babies. Which word fits?" },
+        { "answer": "sparkled", "why": "picking a describing word, not a life job", "remedy": "Sparkling isn't a life job. Our three jobs are grow, feed and have babies. Which one goes here?" }
+      ],
+      "hints": ["The three life jobs are grow, feed and have babies.", "Which of the word-bank words is a life job?"],
+      "reteach": { "say": "A reason needs a life job. Our jobs are GROW, FEED and have BABIES. A pebble never did any of them — so it never grew, fed or had babies. That's a good scientist reason.", "block": { "type": "keyTerm", "term": "the life test", "definition": "did it, or did it ever, grow, feed and have babies?", "example": "a pebble: no, no, no → never alive" } }
+    },
+    {
+      "id": "l01-p07", "skill": "dead vs never alive", "level": 3,
+      "block": { "type": "trueFalse", "statement": "A wooden chair is never alive because it has never been part of a living thing.", "correct": false, "explain": "Wood comes from a tree, which was living. The chair was once part of a living tree, so the wood is dead — not never-alive." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "doesn't trace the wood back to a living tree", "remedy": "Where does wood come from? Was that tree alive? If the wood was once part of a living tree, it's dead, not never-alive." }
+      ],
+      "hints": ["Where does wood come from?", "Was the tree it came from alive?"],
+      "reteach": { "say": "Trace it back. A chair is made of wood, and wood comes from a tree — and a tree is living! So the wood was once part of a living thing. That makes it dead, not never-alive. Metal or plastic chairs would be never-alive, but wood was once alive.", "block": { "type": "table", "headers": ["chair material", "came from something living?", "group"], "rows": [["wood", "yes — a tree", "dead"], ["plastic", "no", "never alive"]] } }
+    },
+    {
+      "id": "l01-p08", "skill": "sort living / dead / never alive", "level": 3,
+      "block": { "type": "categorize", "prompt": "Tricky sort! Put each in the right group.", "buckets": ["living", "dead", "never alive"], "items": [ { "text": "a growing cress seedling", "bucket": "living" }, { "text": "a feather from a bird", "bucket": "dead" }, { "text": "a metal spoon", "bucket": "never alive" }, { "text": "a log with no leaves", "bucket": "dead" }, { "text": "a wriggling caterpillar", "bucket": "living" }, { "text": "a glass marble", "bucket": "never alive" } ] },
+      "expectedAnswer": "living: cress seedling, caterpillar · dead: feather, log · never alive: metal spoon, glass marble",
+      "wrongAnswers": [
+        { "answer": "puts the feather or log in 'never alive'", "why": "the once-living items look lifeless and hard/dry", "remedy": "A feather grew on a living bird; a log was a living tree. Were they EVER part of something alive? Then they're dead, not never-alive." },
+        { "answer": "puts the cress seedling in 'dead' or 'never alive'", "why": "plants aren't seen as 'doing' the life jobs", "remedy": "A cress seedling is growing right now and drinking sunlight to feed. Growing and feeding NOW means living." }
+      ],
+      "hints": ["Two questions: alive now? ever alive?", "Feathers and logs came from living birds and trees."],
+      "reteach": { "say": "Careful detective work here. Living things do the jobs now — the cress and caterpillar are growing. Dead things did them once — the feather grew on a bird, the log was a tree. Never-alive things never did — the spoon and marble.", "block": { "type": "table", "headers": ["group", "these ones"], "rows": [["living", "cress seedling, caterpillar"], ["dead", "feather, log"], ["never alive", "metal spoon, glass marble"]] } }
+    },
+    {
+      "id": "l01-p09", "skill": "give a reason for the group", "level": 3,
+      "block": { "type": "shortText", "prompt": "Is a fallen conker (from a tree) living, dead or never alive? Say the group AND explain how you know.", "sample": "Dead — it was once part of a living tree, so it was alive once, but it isn't growing now." },
+      "expectedAnswer": "Dead — it grew on a living tree (once alive) but isn't growing now",
+      "wrongAnswers": [
+        { "answer": "Never alive", "why": "the hard, still conker looks like it was never living", "remedy": "Where did a conker grow? On a living tree. If it was once part of a living thing, which group?" },
+        { "answer": "Living, with no reason", "why": "gives a group but no life-job reason", "remedy": "Tell me WHY using our test — is the conker growing and feeding right now, or did it stop?" }
+      ],
+      "hints": ["A conker grows on a horse-chestnut tree — is a tree alive?", "Did it EVER grow, feed or have babies? Give the reason, not just the word."],
+      "reteach": { "say": "A conker is a seed that grew on a living tree — so it was once alive. Now it has fallen and isn't growing, so it's dead. A good scientist reason says the group AND the why: 'dead, because it grew on a living tree but isn't growing now.'", "block": { "type": "keyTerm", "term": "dead", "definition": "was once alive (grew, fed or was part of a living thing) but isn't now", "example": "a conker, a fallen leaf, a feather, a log" } }
+    },
+    {
+      "id": "l01-p10", "skill": "apply the life test", "level": 3,
+      "block": { "type": "trueFalse", "statement": "A sunflower is not living because it can't run around like an animal.", "correct": false, "explain": "A sunflower grows, feeds (drinks sunlight in its leaves), turns slowly to the light and makes seeds. It does the life jobs, so it's living — even though it can't run." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "thinks only animals that move quickly are alive", "remedy": "Does a sunflower grow taller? Does it turn to face the sun? Does it make seeds (its babies)? Slow moving still counts." }
+      ],
+      "hints": ["Do plants grow, feed and make babies (seeds)?", "Living things don't have to run — a sunflower moves slowly toward the light."],
+      "reteach": { "say": "A sunflower can't run, but watch what it DOES — it grows tall, drinks sunlight to feed, turns slowly to face the sun, and makes seeds that become new sunflowers. All the life jobs! So it's living, just quietly.", "block": { "type": "emojiViz", "emojis": "🌻 → grows ✅ · feeds ☀️ · turns to light ✅ · seeds 🌰", "caption": "A sunflower does the life jobs — it's living" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave skills (mix 'sort' items with 'dead vs never alive' and 'give a reason' items).",
+    "levelDown": "2 misses on the same skill → run that item's reteach, invite the child to pick up the real object (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one once-living item placed as DEAD (leaf/shell/feather) and the car/'moving isn't enough' item → mastery ≥ 0.8 for 'sort living / dead / never alive with a reason'.",
+    "struggleProtocol": [
+      "Don't reveal the group.",
+      "Name why (dead-vs-never-alive slip, or judging by movement).",
+      "Drop a stage: put the real object in the child's hands, or ask the single yes/no 'was it ever part of a living thing?'",
+      "Give ONE hint or a sentence starter ('It's dead because it was once…').",
+      "Re-ask the smaller version, then build back to the three-way sort.",
+      "Keep it safe: 'Mistakes show us what to practise. Let's take a smaller step.'"
+    ],
+    "personalization": "Swap the sorted objects for things the learner loves (a favourite toy, a pet, a football) — but keep the living/dead/never-alive logic and the test phrase exactly the same. Use the learner's noticed interests from LearnerModel for hooks.",
+    "endOnSuccess": "Finish with an item the child can win (drop a level if needed), then specific process praise for what they DID — used the test, caught the dead-vs-never-alive trap, gave a reason — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Sort only LIVING vs NEVER ALIVE first (the clearest contrast), with the real objects in hand; add the 'dead' group once those two are secure.",
+    "stretch": "Give the seashell (or conker): 'Living, dead or never alive? Tell me why.' Then ask 'would it always be in that group?'"
+  },
+  "extension": "Go on a 'three-group hunt' around the room or garden — find one real living thing, one dead thing and one never-alive thing, and draw them in three boxes with a reason written under each.",
+  "assessmentEvidence": "Child sorts at least 3 mixed objects correctly into living/dead/never-alive AND gives a reason for each; correctly places the fallen leaf (or shell/feather) as dead; states the test 'did it ever grow, feed and have babies?'.",
+  "revisitLater": "Bring back the 'is a car alive?' question as a 1-minute retrieval starter at the top of Lesson 2, and again before Unit 2."
+}

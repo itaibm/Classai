@@ -1,0 +1,389 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u6-l20",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 6, "title": "Time to 5 minutes", "essentialQuestion": "How do we read the clock to the nearest 5 minutes, and when do we say 'past' or 'to'?" },
+  "lessonNumber": 20,
+  "kind": "lesson",
+  "topic": "Time to 5 minutes",
+  "title": "Minutes to the hour",
+  "durationMin": 24,
+  "objectives": ["By the end, I can read 'minutes to' times once the minute hand passes the 6."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "to", "definition": "how many minutes are LEFT before the next hour", "example": "minute hand on the 8 → 20 to" },
+    { "term": "quarter to", "definition": "15 minutes left before the next hour — minute hand on the 9", "example": "quarter to 6" },
+    { "term": "half past", "definition": "minute hand straight down on the 6 — halfway round", "example": "half past 3" },
+    { "term": "count down", "definition": "count the minutes remaining, from the minute hand up to the 12", "example": "from the 8: 5, 10, 15, 20 left" },
+    { "term": "next hour", "definition": "the hour that's coming — the one we count TO", "example": "at twenty to 6, the next hour is 6" }
+  ],
+  "emphasize": [
+    "Once the minute hand passes the 6 (half past), we switch to counting how many minutes are LEFT until the next hour — 'minutes to'.",
+    "Pre-empt the classic mistake: minute hand on the 8 is '20 to', NOT '40 past'.",
+    "At 'to' times the hour hand is nearly at the NEXT number — we name the hour we're counting TO."
+  ],
+  "analysis": {
+    "keyConcepts": ["the clock's left side (6 round to 12) is the 'to' side", "count the minutes remaining up to the 12 in 5s", "quarter to = minute hand on the 9"],
+    "misconceptions": [
+      "carrying on counting up past the 6 — saying '40 past' instead of '20 to'",
+      "counting in the wrong direction (from the 12 down to the hand instead of the hand up to the 12)",
+      "naming the wrong hour: at twenty to 6 the hour hand sits between 5 and 6, so the child says 'twenty to 5'"
+    ],
+    "hooks": ["Something funny happens after half past: we stop counting UP and start counting DOWN to the next hour — why?"],
+    "priorKnowledge": ["'minutes past' and counting in 5s (Lesson 19)", "half past", "o'clock"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated clock faces on the whiteboard block (with the past/to halves marked)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=iJq0-FS6Ab4",
+    "title": "How to Tell Time to the Nearest 5 Minutes | Reading a Clock",
+    "channel": "Math with Mr. J",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time the minute hand lands on the LEFT side of the clock, shout 'TO!' before Mr. J says the time.",
+    "afterCheck": { "question": "When the minute hand was past the 6, what did we count — minutes gone by, or minutes left?", "expectedAnswer": "Minutes left until the next hour — that's why we say 'to'." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Spark curiosity about the switch at half past; retrieve 'past' and counting in 5s from Lesson 19.",
+      "note": "Don't explain yet — just make the switch feel like a mystery worth solving.",
+      "successCriteria": "Child says 'past' for the right side of the clock and counts 5, 10, 15, 20 without help.",
+      "script": {
+        "say": "Something funny happens after half past. We stop counting UP… and start counting DOWN to the next hour. Why would we do that? Let's find out! But first, a memory check: when the long minute hand was on the RIGHT side of the clock, what word did we use? … And count in 5s for me: 5, 10…",
+        "adaptHints": "Listen for 'past' and a confident 5s count. If the 5s count is shaky, count round the right side of the clock together first — that skill carries the whole lesson."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "The clock has two sides",
+          "animate": true,
+          "elements": [
+            { "k": "circle", "x": 50, "y": 32, "r": 24, "color": "ink" },
+            { "k": "text", "x": 50, "y": 13, "value": "12", "size": 4, "bold": true },
+            { "k": "text", "x": 69, "y": 32, "value": "3", "size": 4 },
+            { "k": "text", "x": 50, "y": 51, "value": "6", "size": 4, "bold": true },
+            { "k": "text", "x": 31, "y": 32, "value": "9", "size": 4 },
+            { "k": "line", "x1": 50, "y1": 8, "x2": 50, "y2": 56, "color": "purple", "dashed": true },
+            { "k": "text", "x": 82, "y": 5, "value": "PAST →", "size": 4, "color": "blue" },
+            { "k": "text", "x": 17, "y": 5, "value": "← TO?", "size": 4, "color": "green" },
+            { "k": "line", "x1": 50, "y1": 32, "x2": 44, "y2": 46, "color": "red", "width": 2, "arrow": true },
+            { "k": "text", "x": 30, "y": 58, "value": "The hand just crossed the 6…", "size": 4, "color": "ink" }
+          ]
+        }
+      ],
+      "stuckProtocol": ["If 'past' doesn't come back: point at the right side — 'minute hand here, we said 5 past, 10 past… what's the word?'", "If counting in 5s is shaky: count round the clock numbers together — each number is worth 5."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model the 'to' side: from 6 round to 12 we count the minutes LEFT until the next hour, in 5s from the hand up to the 12.",
+      "note": "Anchor phrase: 'Past the 6 → count the minutes LEFT → say ___ to.' Model minute hand on the 8 (20 to) and on the 9 (quarter to). Name the '40 past' trap out loud so it never traps them.",
+      "successCriteria": "Child hears the rule and echoes 'count what's left' for a hand on the left side.",
+      "script": {
+        "say": "Here's the secret. The LEFT side of the clock, from the 6 round to the 12, is the 'TO' side. There, we count how many minutes are LEFT until the next hour. Watch: the minute hand is on the 8. I count from the 8 up to the 12 — 5, 10, 15, 20. Twenty minutes left! So it's TWENTY TO the next hour — not 40 past. Nobody says 40 past! And when the hand is on the 9, there are 15 minutes left — we call that QUARTER TO. Say the rule with me: past the 6, count what's LEFT, say '___ to'.",
+        "adaptHints": "Sweep slowly and count the 5s with the child. If they love countdowns (rockets, races), frame it as 'the countdown side of the clock'."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "20 to — count the minutes LEFT",
+          "animate": true,
+          "elements": [
+            { "k": "circle", "x": 50, "y": 32, "r": 24, "color": "ink" },
+            { "k": "text", "x": 50, "y": 13, "value": "12", "size": 4, "bold": true },
+            { "k": "text", "x": 60, "y": 16, "value": "1", "size": 3 },
+            { "k": "text", "x": 66, "y": 23, "value": "2", "size": 3 },
+            { "k": "text", "x": 69, "y": 32, "value": "3", "size": 3 },
+            { "k": "text", "x": 66, "y": 42, "value": "4", "size": 3 },
+            { "k": "text", "x": 60, "y": 48, "value": "5", "size": 3 },
+            { "k": "text", "x": 50, "y": 51, "value": "6", "size": 4, "bold": true },
+            { "k": "text", "x": 40, "y": 48, "value": "7", "size": 3 },
+            { "k": "text", "x": 34, "y": 42, "value": "8", "size": 4, "bold": true },
+            { "k": "text", "x": 31, "y": 32, "value": "9", "size": 3 },
+            { "k": "text", "x": 34, "y": 23, "value": "10", "size": 3 },
+            { "k": "text", "x": 40, "y": 16, "value": "11", "size": 3 },
+            { "k": "line", "x1": 50, "y1": 8, "x2": 50, "y2": 56, "color": "purple", "dashed": true },
+            { "k": "text", "x": 18, "y": 5, "value": "TO side", "size": 4, "color": "green", "bold": true },
+            { "k": "text", "x": 82, "y": 5, "value": "PAST side", "size": 4, "color": "blue" },
+            { "k": "line", "x1": 50, "y1": 32, "x2": 37, "y2": 40, "color": "red", "width": 2, "arrow": true },
+            { "k": "dot", "x": 28, "y": 38, "color": "green", "label": "5" },
+            { "k": "dot", "x": 26, "y": 27, "color": "green", "label": "10" },
+            { "k": "dot", "x": 32, "y": 15, "color": "green", "label": "15" },
+            { "k": "dot", "x": 43, "y": 9, "color": "green", "label": "20" },
+            { "k": "text", "x": 50, "y": 60, "value": "8 up to 12: 5, 10, 15, 20 → 20 TO", "size": 4, "bold": true, "color": "accent" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared read: the child counts the minutes left for the hand on the 9 (quarter to) and then the 10 (10 to).",
+      "note": "The character draws, the child counts. Push for the words 'quarter to', not just '15'.",
+      "successCriteria": "Child counts 9→12 as 5, 10, 15 and says 'quarter to'; then reads the hand on the 10 as '10 to'.",
+      "script": {
+        "say": "Your turn to count! The minute hand is on the 9. Start at the 9 and count up to the 12 with me — 5, 10, 15. Fifteen minutes left! And what's the special name for 15 minutes to? … Quarter to! Now I'll sneak the hand up to the 10. Count what's left… so what time is it now?",
+        "adaptHints": "Pause after each question. If the child says '15 to', celebrate it AND give the special name: 'quarter to'."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Quarter to — 15 minutes left",
+          "animate": true,
+          "elements": [
+            { "k": "circle", "x": 50, "y": 32, "r": 24, "color": "ink" },
+            { "k": "text", "x": 50, "y": 13, "value": "12", "size": 4, "bold": true },
+            { "k": "text", "x": 50, "y": 51, "value": "6", "size": 4 },
+            { "k": "text", "x": 31, "y": 32, "value": "9", "size": 4, "bold": true },
+            { "k": "text", "x": 34, "y": 23, "value": "10", "size": 3 },
+            { "k": "text", "x": 40, "y": 16, "value": "11", "size": 3 },
+            { "k": "line", "x1": 50, "y1": 32, "x2": 35, "y2": 32, "color": "red", "width": 2, "arrow": true },
+            { "k": "dot", "x": 26, "y": 24, "color": "green", "label": "5" },
+            { "k": "dot", "x": 33, "y": 13, "color": "green", "label": "10" },
+            { "k": "dot", "x": 45, "y": 8, "color": "green", "label": "15" },
+            { "k": "text", "x": 50, "y": 60, "value": "9 up to 12: 5, 10, 15 → QUARTER TO", "size": 4, "bold": true, "color": "accent" }
+          ]
+        },
+        { "type": "fillBlank", "text": "Minute hand on the 9: from the 9 up to the 12 is ___ minutes — quarter to!", "answer": "15", "wordBank": ["15", "45", "9"] }
+      ],
+      "check": {
+        "question": "Minute hand on the 9 — say the time as '___ to'.",
+        "expectedAnswer": "Quarter to (15 minutes to)",
+        "wrongAnswers": [
+          { "answer": "quarter past", "why": "right words, wrong side — hasn't switched at half past", "remedy": "Which side of the dashed line is the hand on? The left side counts what's LEFT — so is it past or to?" },
+          { "answer": "45 past", "why": "kept counting up past the 6", "remedy": "After half past we count DOWN. Start at the 9 and count up to the 12: 5, 10, 15 — fifteen left, so fifteen…?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Diagnose the core skill: hand on the 8 read as '20 to', not '40 past' — and name the correct next hour.",
+      "note": "This is the lesson's key diagnostic. '40 past' means the half-past switch hasn't landed; re-run the count-what's-left move on the marked clock.",
+      "successCriteria": "Child answers '20 to' and can say how many minutes are left to the top.",
+      "script": {
+        "say": "Check time! The minute hand is on the 8, and the hour hand is creeping up towards the 6. Read the time as 'something to'. Think: how many minutes are LEFT to the top?",
+        "adaptHints": "After a correct answer, probe: 'How did you know it wasn't 40 past?' Then stretch: 'Which hour are we counting to — 5 or 6?'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Read this clock",
+          "animate": true,
+          "elements": [
+            { "k": "circle", "x": 50, "y": 32, "r": 24, "color": "ink" },
+            { "k": "text", "x": 50, "y": 13, "value": "12", "size": 4, "bold": true },
+            { "k": "text", "x": 60, "y": 48, "value": "5", "size": 3 },
+            { "k": "text", "x": 50, "y": 51, "value": "6", "size": 4 },
+            { "k": "text", "x": 34, "y": 42, "value": "8", "size": 4, "bold": true },
+            { "k": "text", "x": 31, "y": 32, "value": "9", "size": 3 },
+            { "k": "line", "x1": 50, "y1": 32, "x2": 37, "y2": 40, "color": "red", "width": 2, "arrow": true },
+            { "k": "line", "x1": 50, "y1": 32, "x2": 52, "y2": 42, "color": "blue", "width": 2, "arrow": true },
+            { "k": "text", "x": 24, "y": 57, "value": "long hand: minutes", "size": 3, "color": "red" },
+            { "k": "text", "x": 74, "y": 57, "value": "short hand: nearly at 6", "size": 3, "color": "blue" }
+          ]
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The minute hand is on the 8. The time is…",
+          "options": ["20 to 6", "40 past 5", "20 past 6", "8 to 6"],
+          "correct": 0,
+          "explain": "After half past we count what's LEFT: from the 8 up to the 12 is 5, 10, 15, 20 — twenty to. The hour hand is nearly at 6, so it's 20 to 6."
+        }
+      ],
+      "check": {
+        "question": "The minute hand is on the 8 — read the time as '___ to'.",
+        "expectedAnswer": "20 to (the next hour) — e.g. 20 to 6",
+        "wrongAnswers": [
+          { "answer": "40 past", "why": "still counting up past the 6 — the half-past switch hasn't happened", "remedy": "After half past we count what's LEFT. Start at the 8 and count up to the 12: 5, 10, 15, 20 — so twenty…?" },
+          { "answer": "8 to", "why": "read the number the hand points at instead of counting minutes", "remedy": "Each clock number is worth 5 minutes, remember? Count the gaps from the 8 up to the 12 in 5s." },
+          { "answer": "20 to 5", "why": "named the hour the short hand just passed, not the one it's heading TO", "remedy": "Look at the short hand — it's nearly at the 6. Which hour are we counting down to?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [18, 22],
+      "goal": "Independent reading and setting of 'to' times; once secure, interleave past AND to faces so the child decides which word to use.",
+      "note": "Director draws from the practiceBank, start level 2. Watch for 'past' said on the left side and for miscounting the minutes left. The mixed past/to items are the level-3 goal.",
+      "successCriteria": "Child reads 3+ 'to' times correctly (including quarter to) and gets at least one mixed past/to decision right.",
+      "script": {
+        "say": "Practice time — you're the clock reader now! Some clocks, some tricks. And watch out: later I'll mix in a few from the PAST side, so you'll have to choose your word carefully.",
+        "adaptHints": "Frame times around the child's day (swimming at quarter to 5, tea at 20 to 6) using their real routine or interests. Never change the clock maths."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think we counted on the wrong side' or 'we counted the wrong way'.",
+        "Redraw the clock with the dashed middle line and shade the TO side green — count the left side together.",
+        "One hint: 'How far is it from the hand up to the 12?'",
+        "Re-ask with the hand on the 10 (the easiest 'to' — just 10 left), then build back to the 8.",
+        "Keep it safe: 'Mistakes show us what to practise. Smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 24],
+      "goal": "Child states the rule — when we say 'to' and what we count; end on an earned win.",
+      "note": "Child-led recall; the character listens, doesn't lecture.",
+      "successCriteria": "Child says something like 'after half past we count the minutes left to the next hour'.",
+      "script": {
+        "say": "Tell me the rule: when do we say 'to' instead of 'past'… and what exactly do we count? … Yes! After half past, we count the minutes LEFT until the next hour. You switched to counting down exactly at half past — that's the trickiest bit of clock reading, and you did it yourself.",
+        "adaptHints": "Praise the specific process observed: counting up to the 12 in 5s, checking the hour hand, self-correcting a '40 past'."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l20-p01", "skill": "read quarter to", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The minute hand points at the 9. What do we say?", "options": ["quarter to", "quarter past", "9 past", "45 to"], "correct": 0, "explain": "From the 9 up to the 12 is 15 minutes — a quarter of the clock left. Quarter to!" },
+      "expectedAnswer": "quarter to",
+      "wrongAnswers": [
+        { "answer": "quarter past", "why": "right amount, wrong side of the clock", "remedy": "Is the hand on the left side or the right side? The left side counts what's LEFT — past or to?" },
+        { "answer": "9 past", "why": "read the clock number as the minutes", "remedy": "The 9 isn't 9 minutes — each number is worth 5. Count from the 9 up to the 12 in 5s." }
+      ],
+      "hints": ["The hand is on the LEFT side — the 'to' side.", "Count from the 9 up to the 12: 5, 10, 15."],
+      "reteach": { "say": "Let's walk it: the hand is on the 9. From 9 to 10 is 5, to 11 is 10, to 12 is 15. Fifteen minutes left — and 15 to has a special name: QUARTER to.", "block": { "type": "keyTerm", "term": "quarter to", "definition": "15 minutes left before the next hour — minute hand on the 9", "example": "quarter to 6" } }
+    },
+    {
+      "id": "l20-p02", "skill": "count minutes left in 5s", "level": 1,
+      "block": { "type": "fillBlank", "text": "The minute hand is on the 10. From the 10 up to the 12 is ___ minutes.", "answer": "10", "wordBank": ["10", "50", "2"] },
+      "expectedAnswer": "10",
+      "wrongAnswers": [
+        { "answer": "50", "why": "counted the minutes gone by, not the minutes left", "remedy": "We only want what's LEFT. Count the jumps from the 10 up to the 12: 5… and one more jump?" },
+        { "answer": "2", "why": "counted the numbers, not the minutes", "remedy": "Each jump between numbers is worth 5 minutes. Two jumps of 5 make…?" }
+      ],
+      "hints": ["Each clock number is a jump of 5.", "10 → 11 → 12: two jumps of 5."],
+      "reteach": { "say": "Tiny count: from the 10, jump to the 11 — that's 5. Jump to the 12 — that's 10. Ten minutes left, so it's 10 to. The closer the hand gets to the top, the fewer minutes are left!", "block": { "type": "emojiViz", "emojis": "🕐 ⏳⏳", "caption": "10 → 11 → 12: two jumps of 5 = 10 minutes left" } }
+    },
+    {
+      "id": "l20-p03", "skill": "say half past at the switch", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The minute hand points straight down at the 6. What do we say?", "options": ["half past", "30 to", "6 past", "quarter to"], "correct": 0, "explain": "The 6 is halfway round — half past. One tick further and we switch to 'to'!" },
+      "expectedAnswer": "half past",
+      "wrongAnswers": [
+        { "answer": "30 to", "why": "switched to 'to' too early — the 6 itself is still 'half past'", "remedy": "The 6 is exactly halfway — we say half past. The 'to' side starts once the hand moves PAST the 6." },
+        { "answer": "6 past", "why": "read the clock number as the minutes", "remedy": "The 6 is worth 6 jumps of 5. Count in 5s round to the 6: 5, 10, 15, 20, 25, 30." }
+      ],
+      "hints": ["The 6 is exactly halfway round the clock.", "Half of 60 minutes is 30 — half past."],
+      "reteach": { "say": "The 6 is the halfway door. On the 6 we say HALF PAST. The moment the hand steps through that door, we start the countdown — 25 to, 20 to, quarter to… all the way to the next o'clock.", "block": { "type": "numberLine", "min": 0, "max": 60, "step": 5, "highlight": 30, "marks": [{ "value": 30, "label": "half past — the switch!" }, { "value": 60, "label": "next o'clock" }] } }
+    },
+    {
+      "id": "l20-p04", "skill": "read minutes to", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The minute hand points at the 8. The time is…", "options": ["20 to", "40 past", "20 past", "quarter to"], "correct": 0, "explain": "From the 8 up to the 12: 5, 10, 15, 20 — twenty minutes left. 20 to!" },
+      "expectedAnswer": "20 to",
+      "wrongAnswers": [
+        { "answer": "40 past", "why": "kept counting up past the 6 — the classic trap", "remedy": "After half past we count what's LEFT, not what's gone. Count from the 8 up to the 12 in 5s." },
+        { "answer": "20 past", "why": "counted the right amount but said the wrong side", "remedy": "Good counting — 20 is right! But the hand is on the LEFT side. Left side means minutes left, so twenty…?" }
+      ],
+      "hints": ["Which side of the clock is the 8 on?", "Count from the 8 up to the 12: 5, 10, 15…"],
+      "reteach": { "say": "The 8 lives on the countdown side. Count what's left: 8 to 9 is 5, to 10 is 10, to 11 is 15, to 12 is 20. Twenty minutes to the next hour — 20 to. Nobody says 40 past!", "block": { "type": "emojiViz", "emojis": "🕗 ➡ 5️⃣ 🔟 1️⃣5️⃣ 2️⃣0️⃣", "caption": "8 up to 12 = 20 minutes left → 20 to" } }
+    },
+    {
+      "id": "l20-p05", "skill": "set a 'to' time", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "You're setting the clock to 'twenty to 6'. Which number should the MINUTE hand point at?", "answer": 8 },
+      "expectedAnswer": "8",
+      "wrongAnswers": [
+        { "answer": "4", "why": "counted 20 minutes on the PAST side instead of the TO side", "remedy": "The 4 gives 20 PAST. For 20 TO we need 20 minutes left — start at the 12 and count backwards in 5s: 11 is 5 to, 10 is 10 to…" },
+        { "answer": "20", "why": "looked for a '20' on the clock face", "remedy": "The clock only shows 1 to 12 — each number is worth 5 minutes. Which number leaves exactly 20 minutes to the top?" }
+      ],
+      "hints": ["Count backwards from the 12: 11 is 5 to, 10 is 10 to…", "You need 4 jumps of 5 left to the top."],
+      "reteach": { "say": "Walk backwards from the top: 11 means 5 to, 10 means 10 to, 9 means quarter to, 8 means 20 to. So 'twenty to' lives on the 8 — and the hour hand creeps close to the 6.", "block": { "type": "table", "headers": ["minute hand on", "we say"], "rows": [["11", "5 to"], ["10", "10 to"], ["9", "quarter to"], ["8", "20 to"]], "caption": "The countdown side" } }
+    },
+    {
+      "id": "l20-p06", "skill": "name the next hour", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "It's twenty to something. The HOUR hand is between the 5 and the 6, nearly touching the 6. What time is it?", "options": ["20 to 6", "20 to 5", "20 past 5", "6 o'clock"], "correct": 0, "explain": "At 'to' times the hour hand is nearly at the NEXT hour. We're counting down TO 6 — so 20 to 6." },
+      "expectedAnswer": "20 to 6",
+      "wrongAnswers": [
+        { "answer": "20 to 5", "why": "named the hour the hand already passed — the between-numbers trap", "remedy": "5 o'clock is already finished — the hour hand left the 5 ages ago. Which number is it about to reach?" },
+        { "answer": "6 o'clock", "why": "read the hour hand as if it had arrived", "remedy": "Nearly there, but not yet! The minute hand still has 20 minutes to go. So it's 20 minutes TO…?" }
+      ],
+      "hints": ["We count down TO the hour that's coming.", "The hour hand is almost at the 6 — is 5 o'clock still coming, or already gone?"],
+      "reteach": { "say": "The hour hand tells a story: it left the 5 and it's nearly at the 6. So 5 o'clock is old news — the next hour is 6, and we're counting down to it. Twenty to SIX.", "block": { "type": "emojiViz", "emojis": "5️⃣ 🚶➡ 6️⃣", "caption": "The hour hand walks from 5 towards 6 — we name where it's GOING" } }
+    },
+    {
+      "id": "l20-p07", "skill": "match hands to 'to' times", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match the minute hand to the time we say.", "pairs": [ { "left": "minute hand on the 8", "right": "20 to" }, { "left": "minute hand on the 9", "right": "quarter to" }, { "left": "minute hand on the 10", "right": "10 to" }, { "left": "minute hand on the 11", "right": "5 to" } ] },
+      "expectedAnswer": "8→20 to, 9→quarter to, 10→10 to, 11→5 to",
+      "wrongAnswers": [
+        { "answer": "minute hand on the 10 → 20 to", "why": "counted the minutes gone by or muddled the countdown", "remedy": "For each one, count from the hand UP to the 12 in 5s — the 10 only has two jumps left." }
+      ],
+      "hints": ["Count from each number up to the 12 in 5s.", "The closer to the 12, the FEWER minutes left."],
+      "reteach": { "say": "The countdown ladder: 8 is 20 to, 9 is quarter to, 10 is 10 to, 11 is 5 to. Every step towards the top means five fewer minutes left. Climb it with me: 20, 15, 10, 5!", "block": { "type": "table", "headers": ["hand on", "minutes left", "we say"], "rows": [["8", "20", "20 to"], ["9", "15", "quarter to"], ["10", "10", "10 to"], ["11", "5", "5 to"]], "caption": "The countdown ladder" } }
+    },
+    {
+      "id": "l20-p08", "skill": "choose past or to", "level": 3,
+      "block": { "type": "categorize", "prompt": "Which side is the minute hand on? Sort each clock.", "buckets": ["say 'past'", "say 'to'"], "items": [ { "text": "minute hand on the 2", "bucket": "say 'past'" }, { "text": "minute hand on the 8", "bucket": "say 'to'" }, { "text": "minute hand on the 4", "bucket": "say 'past'" }, { "text": "minute hand on the 9", "bucket": "say 'to'" }, { "text": "minute hand on the 1", "bucket": "say 'past'" }, { "text": "minute hand on the 10", "bucket": "say 'to'" } ] },
+      "expectedAnswer": "2, 4, 1 → past; 8, 9, 10 → to",
+      "wrongAnswers": [
+        { "answer": "minute hand on the 8 → say 'past'", "why": "hasn't switched sides after half past", "remedy": "Picture the dashed line down the middle. Numbers 1 to 5 are the past side; 7 to 11 are the to side. Where does the 8 live?" }
+      ],
+      "hints": ["Draw the line from the 12 down to the 6 in your head.", "Right side (1–5): past. Left side (7–11): to."],
+      "reteach": { "say": "The clock is two countries: the right side is Past-land (1, 2, 3, 4, 5) and the left side is To-land (7, 8, 9, 10, 11). The minute hand's side picks the word — before you count anything, just ask: which country?", "block": { "type": "table", "headers": ["side", "numbers", "word"], "rows": [["right", "1, 2, 3, 4, 5", "past"], ["left", "7, 8, 9, 10, 11", "to"]], "caption": "Which country is the hand in?" } }
+    },
+    {
+      "id": "l20-p09", "skill": "read minutes to", "level": 3,
+      "block": { "type": "trueFalse", "statement": "When the minute hand is on the 8, the time is '40 past'.", "correct": false, "explain": "After half past we count the minutes LEFT: from the 8 up to the 12 is 20 — so it's 20 to, not 40 past." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — counting up past the 6", "remedy": "40 minutes HAVE gone by — that's true — but clocks don't say it that way. What do we count once the hand passes the 6?" }
+      ],
+      "hints": ["What do we count after half past — minutes gone, or minutes left?", "Count from the 8 up to the 12 in 5s."],
+      "reteach": { "say": "Sneaky one! Forty minutes really have gone past — but after half past, clock language flips to the countdown. Twenty minutes are left, so we say 20 to. Same moment, better words.", "block": { "type": "emojiViz", "emojis": "⬆40 gone ❌ | ⬇20 left ✅", "caption": "Minute hand on the 8: we say 20 to" } }
+    },
+    {
+      "id": "l20-p10", "skill": "explain the switch", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend reads a clock with the minute hand on the 8 as '40 past 5'. What should they say instead — and what did they forget?", "sample": "They should say '20 to 6'. After half past you count the minutes LEFT to the next hour, and the next hour is 6." },
+      "expectedAnswer": "20 to 6 — after half past we count the minutes left to the NEXT hour",
+      "wrongAnswers": [
+        { "answer": "40 to 5", "why": "swapped the word but kept counting up, and kept the old hour", "remedy": "Two fixes needed: count from the 8 UP to the 12 for the minutes left, and check which hour the short hand is heading to." },
+        { "answer": "20 to 5", "why": "fixed the counting but named the hour that's already gone", "remedy": "Great counting — 20 is right! Now the hour: the short hand has left the 5 and is nearly at the 6. Which hour is coming?" }
+      ],
+      "hints": ["Fix the minutes first: count from the 8 up to the 12.", "Then fix the hour: which number is the short hand heading TO?"],
+      "reteach": { "say": "Two-step fix: step one, after half past count what's LEFT — 8 up to 12 is 20. Step two, name the hour you're counting TO — the short hand is nearly at 6. Put them together: 20 to 6. That's the whole secret of the 'to' side.", "block": { "type": "steps", "steps": ["Hand past the 6? Switch to countdown.", "Count from the hand up to the 12 in 5s.", "Name the hour the short hand is heading TO."] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave past AND to faces so the child chooses the word each time.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the two-sided clock redrawn (dashed middle line, TO side shaded), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one 'set the clock' item, one next-hour item and one mixed past/to decision → mastery ≥ 0.8 for 'minutes to the hour'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: wrong half of the clock, or counting the wrong direction.",
+      "Redraw the clock with the middle line marked and count the left side together in 5s.",
+      "One hint: 'How far from the hand up to the 12?'",
+      "Re-ask with the hand on the 10 (only 10 left), then build back to the 8.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Anchor 'to' times in the child's real day (LearnerModel.interests and routine): 'swimming at quarter to 5', 'tea at 20 to 6'. Never change the clock maths.",
+    "endOnSuccess": "Finish on a winnable clock (hand on the 10 or 9 if needed), then specific process praise: 'you counted what was LEFT — that's the exact switch that trips most people up.'"
+  },
+
+  "differentiation": {
+    "support": "Keep the past/to halves marked with the dashed line; always count the minutes remaining out loud together; stay on the 9 and 10 until secure.",
+    "stretch": "Read a random mix of past and to faces with no middle line drawn; link times to a daily timetable ('what are you doing at quarter to 5?')."
+  },
+  "extension": "'What's the time?' race — the character sets a time, the child reads it; then the child calls a 'to' time and the character has to say which number the minute hand points at (and sometimes gets it cheekily wrong for the child to catch).",
+  "assessmentEvidence": "Child reads 'minutes to' times to 5 minutes including quarter to, sets 'twenty to 6', and chooses past vs to correctly on a mixed face.",
+  "revisitLater": "Mixed past/to clock reading returns as a starter in Unit 8; the end-of-unit-6 check (quarter past, quarter to, 10 past 4, set twenty to 6) runs at the start of Lesson 21."
+}

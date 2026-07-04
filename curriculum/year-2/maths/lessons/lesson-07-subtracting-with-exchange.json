@@ -1,0 +1,336 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u2-l07",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 2, "title": "Calculation: add, subtract, multiply, divide", "essentialQuestion": "How do we add and take away bigger numbers, and what does 'lots of' mean?" },
+  "lessonNumber": 7,
+  "kind": "lesson",
+  "topic": "Addition and subtraction",
+  "title": "Subtracting two-digit numbers (with exchange)",
+  "durationMin": 28,
+  "objectives": ["By the end, I can subtract two-digit numbers, exchanging a ten for ten ones when the ones are too small."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "subtract / take away", "definition": "remove an amount and see what is left", "example": "63 − 28 — what's left of 63?" },
+    { "term": "exchange / borrow", "definition": "break one ten into ten ones", "example": "63 becomes 50 and 13" },
+    { "term": "not enough ones", "definition": "when the ones you must take away outnumber the ones you have", "example": "taking 8 ones when you only have 3" },
+    { "term": "tens", "definition": "rods worth ten each", "example": "63 has 6 tens" },
+    { "term": "ones", "definition": "single cubes worth one each", "example": "63 has 3 ones" }
+  ],
+  "emphasize": [
+    "When there aren't enough ones to take away, BREAK ONE TEN into ten ones — never flip to smaller-from-larger.",
+    "Pre-empt the flip error: '7 − 2 because you can't do 2 − 7' (giving 63 − 28 = 45).",
+    "Repeat the anchor phrase: 'Not enough ones? Break a ten.'"
+  ],
+  "analysis": {
+    "keyConcepts": ["subtracting two-digit numbers", "exchanging a ten for ten ones", "renaming: 63 = 50 + 13", "deciding whether an exchange is needed"],
+    "misconceptions": [
+      "the smaller-from-larger flip: doing 8 − 3 instead of breaking a ten (63 − 28 = 45)",
+      "breaking a ten but forgetting the tens went down by one",
+      "adding instead of subtracting when the story says 'spent'"
+    ],
+    "hooks": ["You had 63p and spent 28p — how much is left?"],
+    "priorKnowledge": ["partitioning (Lesson 2)", "the exchange idea from addition (Lesson 6, reversed)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["virtual rods and cubes on the whiteboard block (animated ten-breaking)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "Math with Mr. J",
+    "searchTerm": "2-digit subtraction with regrouping",
+    "watchTask": "Every time Mr. J breaks a ten into ten ones, shout 'BREAK THE TEN!' — and check that his tens go down by one.",
+    "afterCheck": { "question": "When did Mr. J have to break a ten?", "expectedAnswer": "When there weren't enough ones to take away." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the pocket-money problem (63p − 28p) and connect to yesterday's exchange, reversed.",
+      "note": "Tease the problem in the ones — don't solve it yet.",
+      "successCriteria": "Child predicts something like 'break a ten into ten ones' when asked what today's swap might be.",
+      "script": {
+        "say": "You had 63p jingling in your pocket, and you spent 28p on a snack. How much is left? We'll build 63 and take 28 away — but watch out, we're going to hit a problem in the ones! Remember last lesson we traded ten ones for a ten? Guess what we might do today… the other way round!",
+        "adaptHints": "Swap the snack for something the child would buy. Listen for 'break a ten into ten ones'; if shaky, show a rod and count it as ten cubes."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "👛 63p − 🍪 28p = ?", "caption": "How much is left?" }
+      ],
+      "stuckProtocol": ["If the reverse-trade idea doesn't come: show one ten-rod and count it out as ten cubes — 'one ten IS ten ones, so we can break it open.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 10],
+      "goal": "Model 63 − 28: not enough ones → break one ten → 63 becomes 50 and 13 → subtract ones then tens → 35.",
+      "note": "The animated whiteboard acts out breaking the ten. Name the flip error explicitly and forbid it kindly.",
+      "successCriteria": "Child sees the rod burst into ten cubes, hears '63 is now 50 and 13', and hears 'never flip 3 − 8 into 8 − 3'.",
+      "script": {
+        "say": "Here's 63 — six tens, three ones. I need to take away 8 ones… but I only have 3! NOT ENOUGH. Now, some people sneakily flip it and do 8 minus 3 — but that changes the question, so we never do that. Instead: BREAK A TEN! Watch — one ten-rod bursts into ten little ones. Now I have 5 tens and 13 ones — still 63, just dressed differently. Take 8 ones from 13… that leaves 5. Take 2 tens from 5 tens… that leaves 3 tens. Thirty and five — 35! You have 35p left.",
+        "adaptHints": "Make the rod-burst dramatic. Repeat the anchor: 'Not enough ones? Break a ten.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "63 − 28 — break the ten!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 30, "y": 6, "value": "63 − 28", "size": 8, "bold": true },
+            { "k": "rect", "x": 6, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 11, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 16, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 21, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 26, "y": 12, "w": 3, "h": 16, "color": "blue", "fill": true },
+            { "k": "rect", "x": 31, "y": 12, "w": 3, "h": 16, "color": "red", "fill": true },
+            { "k": "dot", "x": 40, "y": 16, "color": "orange" },
+            { "k": "dot", "x": 44, "y": 16, "color": "orange" },
+            { "k": "dot", "x": 48, "y": 16, "color": "orange" },
+            { "k": "text", "x": 36, "y": 36, "value": "the red ten breaks into ten ones →", "size": 4, "color": "red" },
+            { "k": "dot", "x": 62, "y": 34, "color": "red" },
+            { "k": "dot", "x": 66, "y": 34, "color": "red" },
+            { "k": "dot", "x": 70, "y": 34, "color": "red" },
+            { "k": "dot", "x": 74, "y": 34, "color": "red" },
+            { "k": "dot", "x": 78, "y": 34, "color": "red" },
+            { "k": "dot", "x": 62, "y": 40, "color": "red" },
+            { "k": "dot", "x": 66, "y": 40, "color": "red" },
+            { "k": "dot", "x": 70, "y": 40, "color": "red" },
+            { "k": "dot", "x": 74, "y": 40, "color": "red" },
+            { "k": "dot", "x": 78, "y": 40, "color": "red" },
+            { "k": "text", "x": 70, "y": 14, "value": "63 → 50 + 13", "size": 6, "bold": true, "color": "accent" },
+            { "k": "text", "x": 70, "y": 22, "value": "13 − 8 = 5   50 − 20 = 30", "size": 5 },
+            { "k": "text", "x": 50, "y": 50, "value": "63 − 28 = 35", "size": 7, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 58, "value": "Not enough ones? Break a ten — never flip 3 − 8!", "size": 4.5, "color": "ink" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [10, 16],
+      "goal": "Shared build of 52 − 27: the child spots 'not enough ones', calls the break, and finishes both columns.",
+      "note": "52 → 40 and 12; 12 − 7 = 5; 40 − 20 = 20 → 25. The child drives every decision.",
+      "successCriteria": "Child says 2 ones isn't enough, renames 52 as 40 and 12, and answers '25'.",
+      "script": {
+        "say": "Together now: 52 take away 27. Here's 52 — five tens, two ones. I need to take 7 ones… look at my ones. Are there enough? … No! What do we shout? … BREAK A TEN! One rod bursts open. Now 52 is dressed as 40 and how many ones? … Twelve! Take 7 from 12… and 2 tens from 4 tens… What's left altogether?",
+        "adaptHints": "Pause for each child decision. If they answer '35', ask: 'Did you take 7 from 12 — or sneak a flip?'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "Break a ten: 52 becomes 40 and ___ ones.", "answer": "12", "wordBank": ["12", "2", "10"] }
+      ],
+      "check": {
+        "question": "52 − 27 = ?",
+        "expectedAnswer": "25",
+        "wrongAnswers": [
+          { "answer": "35", "why": "flipped 2 − 7 into 7 − 2, or broke the ten but forgot the tens went down", "remedy": "Can you really take 7 from only 2? Break a ten — and check: how many whole tens are LEFT after the break?" },
+          { "answer": "79", "why": "added instead of subtracting", "remedy": "The story says take away — should the number get bigger or smaller than 52?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [16, 20],
+      "goal": "Independent diagnostic: 63 − 28 (the hook, now solo) — catches the flip and the forgotten ten.",
+      "note": "This revisits the hook to close the loop. '45' = flip or unreduced tens; '91' = added.",
+      "successCriteria": "Child answers 35 and can point to where the ten was broken.",
+      "script": {
+        "say": "Back to your pocket money — solo this time! You had 63p and spent 28p. Build it, break what needs breaking, and type how much is left.",
+        "adaptHints": "After a correct answer, probe: 'Show me where you broke the ten. How many tens were left after?'"
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "63 − 28 = ?", "answer": 35 }
+      ],
+      "check": {
+        "question": "63 − 28 = ?",
+        "expectedAnswer": "35",
+        "wrongAnswers": [
+          { "answer": "45", "why": "the flip — did 8 − 3 in the ones (or kept 6 tens after breaking one)", "remedy": "Can you take 8 from only 3? Break a ten first — now count: how many whole tens are left, and how many ones?" },
+          { "answer": "91", "why": "added instead of subtracting", "remedy": "You SPENT money — does your pocket grow when you spend? Take 28 away from 63." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [20, 25],
+      "goal": "Independent subtracting with and WITHOUT the exchange, so breaking a ten is a decision; stretch across a multiple of ten.",
+      "note": "Director draws from practiceBank, start level 2. Interleave a no-exchange item (57 − 23) so the child checks the ones first every time.",
+      "successCriteria": "Child solves 3+ subtractions correctly, including one needing no exchange, saying each time whether a ten had to break.",
+      "script": {
+        "say": "Practice time, ten-breaker! Some of these need you to break a ten, and some don't. Your first move every time: look at the ones and ask, 'are there enough?'",
+        "adaptHints": "Frame problems as spending the child's favourite things (pocket money, game coins). Never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think the ones got flipped.'",
+        "Go fully concrete — break the ten slowly together on the whiteboard, counting all ten new ones.",
+        "One hint: 'Are there enough ones to take away?'",
+        "Re-ask a no-exchange version (48 − 25), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [25, 28],
+      "goal": "Child states when to break a ten; end on an earned success.",
+      "note": "Child-led recall; the character listens.",
+      "successCriteria": "Child says we break a ten 'when there aren't enough ones to take away'.",
+      "script": {
+        "say": "Final question, ten-breaker: WHEN do we have to break a ten? … Exactly — when there aren't enough ones to take away. And you stopped yourself doing the sneaky flip and broke a ten instead. That's exactly what strong mathematicians do — they change the ten, never the question.",
+        "adaptHints": "Praise the specific process observed: checking the ones first, renaming 63 as 50 + 13, reducing the tens after the break."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l07-p01", "skill": "spot 'not enough ones'", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "42 − 17: you must take 7 ones but you only have 2. What do you do?", "options": ["Break one ten into ten ones", "Flip it and do 7 − 2 instead", "Take 7 tens away instead", "Say it can't be done"], "correct": 0, "explain": "Not enough ones? Break a ten! 42 becomes 30 and 12 — now you can take 7 ones." },
+      "expectedAnswer": "Break one ten into ten ones",
+      "wrongAnswers": [
+        { "answer": "Flip it and do 7 − 2 instead", "why": "the smaller-from-larger flip — changes the question", "remedy": "If you flip, you're answering a DIFFERENT sum. Keep the question the same: where can you get more ones from?" },
+        { "answer": "Say it can't be done", "why": "doesn't know tens can be opened up", "remedy": "One ten IS ten ones in a coat! Break it open — now how many ones do you have?" }
+      ],
+      "hints": ["A ten-rod is just ten ones stuck together.", "Get more ones without changing the number — where from?"],
+      "reteach": { "say": "A ten-rod is like a chocolate bar with ten squares — snap it and you've got ten ones! 42 = 4 tens, 2 ones. Snap one ten: now 3 tens and 12 ones. Still 42, but now taking 7 ones is easy.", "block": { "type": "emojiViz", "emojis": "🟦 → 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸", "caption": "Break a ten: one rod becomes ten ones" } }
+    },
+    {
+      "id": "l07-p02", "skill": "rename after breaking a ten", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "Break a ten! 52 becomes 40 and how many ones?", "answer": 12 },
+      "expectedAnswer": "12",
+      "wrongAnswers": [
+        { "answer": "2", "why": "broke the ten but didn't add its ten ones to the pile", "remedy": "The broken ten turned into ten new ones — they join your 2. How many now?" },
+        { "answer": "10", "why": "counted only the new ones and forgot the original 2", "remedy": "You already had 2 ones before the break. Ten new ones plus the old 2 makes…?" }
+      ],
+      "hints": ["The broken ten gives you ten NEW ones.", "10 new ones + the 2 you had = ?"],
+      "reteach": { "say": "52 is 5 tens and 2 ones. Snap one ten open — ten ones pour out and join the 2 already there: 12 ones. And only 4 whole tens are left. 52 = 40 + 12, just wearing a different coat.", "block": { "type": "table", "headers": ["", "tens", "ones"], "rows": [["before the break", "5 (worth 50)", "2"], ["after the break", "4 (worth 40)", "12"]], "caption": "Still 52 — nothing lost!" } }
+    },
+    {
+      "id": "l07-p03", "skill": "subtract with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "52 − 27 = ?", "answer": 25 },
+      "expectedAnswer": "25",
+      "wrongAnswers": [
+        { "answer": "35", "why": "flipped 2 − 7 into 7 − 2, or forgot the tens went down after the break", "remedy": "Are there enough ones to take 7 from 2? Break a ten — then check how many whole tens are left." },
+        { "answer": "79", "why": "added instead of subtracting", "remedy": "Take away means the answer must be SMALLER than 52. Remove 27 from the blocks." }
+      ],
+      "hints": ["Check the ones first: can you take 7 from 2?", "After the break: 40 and 12. Now subtract each column."],
+      "reteach": { "say": "Slow motion: 52 − 27. Ones check: 2 take away 7 — not enough! Break a ten: 52 → 40 + 12. Ones: 12 − 7 = 5. Tens: 40 − 20 = 20. Answer: 25.", "block": { "type": "steps", "title": "52 − 27", "steps": ["ones check: 2 < 7 → break a ten", "52 → 40 + 12", "ones: 12 − 7 = 5", "tens: 40 − 20 = 20", "20 + 5 = 25"] } },
+      "interestSlots": ["pocket money", "game coins", "tokens"]
+    },
+    {
+      "id": "l07-p04", "skill": "subtract with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "71 − 26 = ?", "answer": 45 },
+      "expectedAnswer": "45",
+      "wrongAnswers": [
+        { "answer": "55", "why": "flipped 1 − 6 into 6 − 1", "remedy": "Can you take 6 ones from just 1? That flip changes the question. Break a ten: 71 becomes 60 and 11." },
+        { "answer": "97", "why": "added instead of subtracting", "remedy": "We're taking away — the answer must be smaller than 71." }
+      ],
+      "hints": ["Ones check: 1 take away 6 — enough?", "71 → 60 + 11. Now: 11 − 6, and 60 − 20."],
+      "reteach": { "say": "71 − 26. Only 1 one, but I need to take 6 — break a ten! 71 → 60 + 11. Ones: 11 − 6 = 5. Tens: 60 − 20 = 40. Answer: 45.", "block": { "type": "steps", "title": "71 − 26", "steps": ["ones check: 1 < 6 → break a ten", "71 → 60 + 11", "ones: 11 − 6 = 5", "tens: 60 − 20 = 40", "40 + 5 = 45"] } }
+    },
+    {
+      "id": "l07-p05", "skill": "subtract with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "84 − 38 = ?", "answer": 46 },
+      "expectedAnswer": "46",
+      "wrongAnswers": [
+        { "answer": "54", "why": "flipped 4 − 8 into 8 − 4", "remedy": "Check: can you take 8 ones from 4? Break a ten instead — 84 becomes 70 and 14." },
+        { "answer": "56", "why": "broke the ten but kept 8 whole tens", "remedy": "You opened one of your tens to make ones — so how many whole tens are left? 8 or 7?" }
+      ],
+      "hints": ["Ones check: 4 take away 8 — enough?", "84 → 70 + 14. Now subtract each column."],
+      "reteach": { "say": "84 − 38. Ones: 4 take away 8 — not enough, break a ten! 84 → 70 + 14. Ones: 14 − 8 = 6. Tens: 70 − 30 = 40. Answer: 46. And the tens went from 8 to 7 the moment we broke one — that's the step people forget.", "block": { "type": "steps", "title": "84 − 38", "steps": ["ones check: 4 < 8 → break a ten", "84 → 70 + 14", "ones: 14 − 8 = 6", "tens: 70 − 30 = 40", "40 + 6 = 46"] } }
+    },
+    {
+      "id": "l07-p06", "skill": "decide whether to break a ten", "level": 2,
+      "block": { "type": "trueFalse", "statement": "57 − 23 needs you to break a ten.", "correct": false, "explain": "Ones check: 7 take away 3 — plenty! No break needed. 57 − 23 = 34." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "thinks every two-digit subtraction needs a break", "remedy": "Only break when the ones run short. Check: 7 take away 3 — are there enough?" },
+        { "answer": "True, because 23 is big", "why": "judging by the whole number instead of the ones", "remedy": "The tens take care of themselves — only the ONES decide. Look just at 7 and 3." }
+      ],
+      "hints": ["Check only the ones: 7 take away 3.", "Break a ten only when the ones run short."],
+      "reteach": { "say": "Breaking a ten is a rescue move — you only call for it when the ones are in trouble. 57 − 23: taking 3 ones from 7 is easy, no rescue needed. Compare 52 − 27: taking 7 from 2 — rescue! Always check the ones first.", "block": { "type": "table", "headers": ["sum", "ones check", "break a ten?"], "rows": [["57 − 23", "7 − 3 ✓ enough", "no"], ["52 − 27", "2 − 7 ✗ not enough", "yes"]] } }
+    },
+    {
+      "id": "l07-p07", "skill": "decide whether to break a ten", "level": 2,
+      "block": { "type": "categorize", "prompt": "Sort these subtractions: which need you to break a ten?", "buckets": ["break a ten", "no break needed"], "items": [ { "text": "52 − 27", "bucket": "break a ten" }, { "text": "57 − 23", "bucket": "no break needed" }, { "text": "63 − 28", "bucket": "break a ten" }, { "text": "48 − 25", "bucket": "no break needed" }, { "text": "71 − 26", "bucket": "break a ten" } ] },
+      "expectedAnswer": "52−27, 63−28, 71−26 → break; 57−23, 48−25 → no break",
+      "wrongAnswers": [
+        { "answer": "sorted by how big the numbers are", "why": "checked the tens or the whole number instead of the ones", "remedy": "For each one, cover the tens and look ONLY at the ones: can the first ones-digit give away the second?" },
+        { "answer": "48 − 25 → break a ten", "why": "flip-checking (compared 2 and 5 in the wrong order)", "remedy": "You HAVE 8 ones and need to give 5. Is 8 enough? Then no break." }
+      ],
+      "hints": ["Cover the tens — only the ones decide.", "Ask each time: can the ones I HAVE give away the ones I must take?"],
+      "reteach": { "say": "One question sorts them all: are there enough ones? 52 − 27: 2 can't give 7 — break. 57 − 23: 7 can give 3 — no break. 63 − 28: 3 can't give 8 — break. 48 − 25: 8 can give 5 — no break. 71 − 26: 1 can't give 6 — break.", "block": { "type": "table", "headers": ["sum", "ones I have", "ones to take", "break?"], "rows": [["52 − 27", "2", "7", "yes"], ["57 − 23", "7", "3", "no"], ["63 − 28", "3", "8", "yes"], ["48 − 25", "8", "5", "no"], ["71 − 26", "1", "6", "yes"]] } }
+    },
+    {
+      "id": "l07-p08", "skill": "subtract across a multiple of ten (stretch)", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Stretch! 70 − 23 = ?", "answer": 47 },
+      "expectedAnswer": "47",
+      "wrongAnswers": [
+        { "answer": "53", "why": "flipped in the ones (did 3 − 0)", "remedy": "You have ZERO ones — can zero give away 3? Break a ten: 70 becomes 60 and 10." },
+        { "answer": "57", "why": "broke a ten but kept 7 whole tens", "remedy": "One of your 7 tens opened up into ones. How many whole tens are left before you subtract?" }
+      ],
+      "hints": ["70 has 0 ones — you'll definitely need to break a ten.", "70 → 60 + 10. Now: 10 − 3, and 60 − 20."],
+      "reteach": { "say": "70 is 7 tens and NO ones at all — so to take 3 ones we must break a ten straight away. 70 → 60 + 10. Ones: 10 − 3 = 7. Tens: 60 − 20 = 40. Answer: 47. Zero ones just means the break happens first!", "block": { "type": "steps", "title": "70 − 23", "steps": ["ones check: 0 < 3 → break a ten", "70 → 60 + 10", "ones: 10 − 3 = 7", "tens: 60 − 20 = 40", "40 + 7 = 47"] } }
+    },
+    {
+      "id": "l07-p09", "skill": "explain the flip error (stretch)", "level": 3,
+      "block": { "type": "shortText", "prompt": "Mia says 52 − 27 = 35, because 'you can't do 2 − 7, so I did 7 − 2.' What went wrong? What's the real answer?", "sample": "She flipped the ones, which changes the question. Break a ten instead: 52 → 40 and 12; 12 − 7 = 5; 40 − 20 = 20. The real answer is 25." },
+      "expectedAnswer": "She flipped 2 − 7 into 7 − 2; she should break a ten (52 → 40 + 12); the real answer is 25",
+      "wrongAnswers": [
+        { "answer": "Mia is right", "why": "shares the smaller-from-larger misconception", "remedy": "Test it with blocks: build 52, take 27 away by breaking a ten. Do you end on 35 or 25?" },
+        { "answer": "She should have said it can't be done", "why": "doesn't know the rescue move", "remedy": "It CAN be done — the ones just need backup. Where can 2 get ten more ones from?" }
+      ],
+      "hints": ["Flipping answers a different question — which move keeps the question the same?", "Check both answers by adding back: 35 + 27 = ? and 25 + 27 = ?"],
+      "reteach": { "say": "Here's the detective proof: if 52 − 27 = 35, then 35 + 27 should rebuild 52 — but 35 + 27 = 62. Wrong! With the break: 25 + 27 = 52. Perfect. Flipping the ones quietly swaps the question; breaking a ten keeps it honest.", "block": { "type": "table", "headers": ["claim", "check by adding back", "rebuilds 52?"], "rows": [["52 − 27 = 35", "35 + 27 = 62", "✗"], ["52 − 27 = 25", "25 + 27 = 52", "✓"]] } }
+    },
+    {
+      "id": "l07-p10", "skill": "rename after breaking a ten", "level": 3,
+      "block": { "type": "fillBlank", "text": "63 − 28: break a ten, so 63 becomes 50 + ___", "answer": "13", "wordBank": ["13", "3", "10"] },
+      "expectedAnswer": "13",
+      "wrongAnswers": [
+        { "answer": "3", "why": "reduced the tens but didn't pour the ten new ones in", "remedy": "The broken ten didn't vanish — its ten ones join your 3. How many ones now?" },
+        { "answer": "10", "why": "counted the new ones but dropped the original 3", "remedy": "You had 3 ones before the break. 10 new + 3 old = ?" }
+      ],
+      "hints": ["50 + something must still equal 63.", "Ten new ones join the 3 you already had."],
+      "reteach": { "say": "Renaming never changes the number — 50 + 13 is still 63, check it! One ten steps down (60 → 50) and its ten ones join the 3 (3 → 13). Now 13 − 8 works beautifully.", "block": { "type": "table", "headers": ["", "tens", "ones", "total"], "rows": [["before", "60", "3", "63"], ["after the break", "50", "13", "63"]], "caption": "Different coat, same number" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → move up one level; at level 3, interleave break/no-break decisions with across-a-ten items (70 − 23).",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the ten broken slowly on the whiteboard (count all ten new ones), then serve a level-1 item (spot 'not enough ones' or rename after a break).",
+    "masterySignal": "3+ correct across levels 2–3 including one subtraction WITH exchange, one WITHOUT (57 − 23 style), and the child stating when a ten must break → mastery ≥ 0.8 for 'two-digit subtraction with exchange'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'the ones got flipped.'",
+      "Go fully concrete — break the ten slowly together, counting the ten new ones as they pour out.",
+      "One hint: 'Are there enough ones to take away?'",
+      "Re-ask a no-exchange version (48 − 25), then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Frame every subtraction as spending or giving away things from LearnerModel.interests (pocket money, game coins, stickers) — never change the numbers or the 'break a ten' language.",
+    "endOnSuccess": "Finish with a subtraction the child can win (no-exchange if needed), then specific process praise: what they DID (checked the ones first, broke a ten instead of flipping, remembered the tens went down) — never 'you're so clever'."
+  },
+
+  "differentiation": {
+    "support": "Model the exchange with blocks before any writing so the flip ('7 − 2 because you can't do 2 − 7') never starts; keep one ten clearly breakable; say 'not enough ones? break a ten' together.",
+    "stretch": "Subtract across a multiple of ten (70 − 23, 80 − 45); estimate first; prove an answer with the add-back check."
+  },
+  "extension": "'Break the ten' puzzle — invent one subtraction where you MUST break a ten and one where you don't, then explain to the character what makes them different.",
+  "assessmentEvidence": "Child solves 2 two-digit subtractions with exchange and one without, breaking a ten correctly (tens reduced by one) and recording the right answers.",
+  "revisitLater": "A subtraction-with-exchange starter in Lesson 8 (where the inverse will PROVE these answers) and Lesson 12; reappears in money change (Lesson 16)."
+}

@@ -1,0 +1,309 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u5-l23",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 5, "title": "Comprehension & composition", "essentialQuestion": "How do I read between the lines, and how do I write a clear set of instructions?" },
+  "lessonNumber": 23,
+  "kind": "lesson",
+  "topic": "Composition: instructions",
+  "title": "How instructions work (commands & order words)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can identify the features of instructions and order steps correctly."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "instructions", "definition": "writing that tells someone exactly how to do something", "example": "How to make a jam sandwich." },
+    { "term": "command", "definition": "a bossy sentence that tells you to do something", "example": "Spread the jam." },
+    { "term": "bossy verb", "definition": "the doing word a command starts with", "example": "Get, Spread, Put, Cut." },
+    { "term": "order words", "definition": "words that show which step comes when", "example": "First, next, then, finally." },
+    { "term": "you will need", "definition": "the list of things to collect before you start", "example": "You will need: bread, butter, jam, a knife." }
+  ],
+  "emphasize": [
+    "Instructions have FEATURES: a title, a 'you will need' list, numbered steps that each start with a bossy verb.",
+    "The ORDER matters — you can't spread jam before you get the bread.",
+    "Pre-empt story-mode: steps are commands ('Spread the jam.'), not tellings ('I spread the jam.')."
+  ],
+  "analysis": {
+    "keyConcepts": ["the features of instruction texts", "steps as commands starting with bossy verbs", "sequencing with order words (first, next, then, finally)"],
+    "misconceptions": [
+      "writing steps as statements or a story ('Then I put the jam on') instead of commands",
+      "ordering steps illogically because each was read alone, not as a sequence",
+      "thinking order words are decoration rather than the signal of sequence",
+      "missing the 'you will need' list so the reader starts unprepared"
+    ],
+    "hooks": ["Could someone in your family make a jam sandwich using ONLY your writing, with you out of the room?"],
+    "priorKnowledge": ["commands and bossy verbs (Lesson 18, sentence types)", "reading short texts for meaning"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["a model instruction sheet as richText", "jumbled step ordering blocks", "bossy-verb and order-word practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=2fsyoMLOgd0",
+    "title": "English Bossy Verbs Lesson Introduction",
+    "channel": "MrH teaches",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time you hear a bossy verb, shout it back at the screen in your bossiest voice.",
+    "afterCheck": { "question": "What job does a bossy verb do in an instruction step?", "expectedAnswer": "It starts the command and tells the reader exactly what to DO (e.g. Get, Spread, Put)." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Set the challenge — could your writing alone teach someone to make a jam sandwich? — and retrieve 'command' from sentence types.",
+      "note": "Play the muddle for laughs: pretend to follow the jumbled steps wrongly (jam before bread!). The comedy sells why order matters.",
+      "successCriteria": "Child says a bossy telling-you-to-do-it sentence is called a command.",
+      "script": {
+        "say": "Imagine this: someone in your family has to make a jam sandwich using ONLY your writing — you're not even in the room! Brilliant instructions can do that. But look at MY muddled steps… if I follow them in this order I'd spread jam on my HAND before I even get the bread! Quick memory check: a bossy sentence that tells you to do something — what's it called?",
+        "adaptHints": "Swap 'jam sandwich' commentary for a food the child loves — but keep the actual steps as written. Ham up the wrong-order mime."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "**Muddled steps — help!**\n\n- Cut the sandwich in half.\n- Get two slices of bread.\n- Eat it!\n- Spread jam on the bread." },
+        { "type": "emojiViz", "emojis": "🍞🍓🔪❓", "caption": "Jam before bread?! The ORDER matters!" }
+      ],
+      "stuckProtocol": ["If 'command' doesn't come back: 'It BOSSES you about — Sit down! Stop! It's called a c…?'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Tour the features on a model sheet: title, 'you will need', numbered steps starting with bossy verbs, order words, correct sequence.",
+      "note": "Point at each feature ON the model. Read the steps aloud with the order words stressed. Contrast a command step with a story-step once.",
+      "successCriteria": "Child can point to the title, the 'you will need' list, and a bossy verb on the model.",
+      "script": {
+        "say": "Here's a proper instruction sheet — let's tour its features. Top: a TITLE, so you know what you're making. Next: YOU WILL NEED — collect everything first! Then NUMBERED STEPS. Listen to how each one starts: GET… SPREAD… PUT… CUT… Those are bossy verbs — commands that tell you exactly what to do. And hear the order words — first, next, then, finally — they keep the steps marching in the right order. One more thing: it says 'Spread the jam', not 'I spread the jam' — instructions BOSS you, they don't tell you a story!",
+        "adaptHints": "Read the bossy verbs in a big bossy voice and invite the child to echo them."
+      },
+      "blocks": [
+        { "type": "richText", "markdown": "## How to make a jam sandwich\n\n**You will need:** bread, butter, jam, a knife.\n\n1. **First**, **get** two slices of bread.\n2. **Next**, **spread** butter on the bread.\n3. **Then**, **spread** jam on top of the butter.\n4. **Finally**, **put** the slices together and **cut** the sandwich in half." },
+        { "type": "table", "headers": ["feature", "job"], "rows": [["title", "says what you're making"], ["you will need", "what to collect first"], ["numbered steps", "one action at a time, in order"], ["bossy verb", "starts each step: Get, Spread, Put"], ["order words", "first, next, then, finally"]] }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared unscramble: the child orders the four sandwich steps and reads them back with the order words.",
+      "note": "Let the child decide the order; ask 'could you really do that step yet?' when they hesitate. Then they read the fixed list aloud with first/next/then/finally.",
+      "successCriteria": "Child orders all four steps logically and identifies each starting word as a bossy verb.",
+      "script": {
+        "say": "Those muddled steps from the start — unscramble them with me! Which comes FIRST? Ask yourself the fixing question: could I really do this step yet, or do I need something else first? … Now read your fixed steps back to me with the order words: first, next, then, finally. What kind of sentence is each step?",
+        "adaptHints": "If the child hesitates, mime doing the steps in their proposed order and let the mistake show itself."
+      },
+      "blocks": [
+        { "type": "ordering", "prompt": "Put the jam sandwich steps in the right order.", "items": ["Get two slices of bread.", "Spread jam on the bread.", "Cut the sandwich in half.", "Eat it!"] }
+      ],
+      "check": {
+        "question": "What kind of sentence starts each instruction step?",
+        "expectedAnswer": "A command — it starts with a bossy verb (Get, Spread, Cut).",
+        "wrongAnswers": [
+          { "answer": "A telling sentence / statement", "why": "confusing commands with statements", "remedy": "Instructions BOSS you: 'Spread the jam' — not 'The jam is spread'. Which word bosses you at the start of step two?" },
+          { "answer": "A question", "why": "guessing among the sentence types", "remedy": "Does 'Get two slices of bread.' ASK you anything? No — it TELLS you what to do. Which type tells you to do something?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 16],
+      "goal": "Diagnostic: the child names the sentence type behind every step AND picks out a bossy verb; spot the story-step imposter.",
+      "note": "The imposter item ('I put the jam on the bread.') is the lesson's key trap — story-mode instead of command.",
+      "successCriteria": "Child identifies commands, names a bossy verb, and rejects the story-step as not-an-instruction.",
+      "script": {
+        "say": "Inspector time! One of these three steps doesn't belong in an instruction sheet. Find the imposter — and tell me why it's wrong.",
+        "adaptHints": "After a correct catch, probe: 'How would you FIX the imposter so it bosses the reader?'"
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which step does NOT belong in instructions?",
+          "options": ["I put the jam on the bread.", "Spread the butter thinly.", "Cut the sandwich in half.", "Get a clean knife."],
+          "correct": 0,
+          "explain": "'I put the jam on…' tells a story about ME. Instructions command the READER: 'Put the jam on the bread.'"
+        }
+      ],
+      "check": {
+        "question": "Which step is the imposter, and give me one bossy verb from the real steps.",
+        "expectedAnswer": "'I put the jam on the bread.' is story-writing, not a command; bossy verbs: Spread / Cut / Get.",
+        "wrongAnswers": [
+          { "answer": "'Get a clean knife.' because it's bossy", "why": "thinks bossiness is the problem rather than the point", "remedy": "Bossy is GOOD in instructions — that's their job! Which step talks about 'I' instead of telling YOU what to do?" },
+          { "answer": "Can't find a bossy verb", "why": "not locating the verb at the front of the command", "remedy": "Bossy verbs stand at the FRONT of the step. Read just the first word of 'Spread the butter thinly.' — what is it telling you to do?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 19],
+      "goal": "Independent feature-work: order fresh step sets, pick out bossy verbs and order words, fix story-steps.",
+      "note": "Director draws from practiceBank, start level 2. Alternate ordering items with bossy-verb/feature items so it doesn't become one long sort.",
+      "successCriteria": "Child orders a fresh set correctly and identifies bossy verbs/features in 3+ items.",
+      "script": {
+        "say": "You're the Chief Instruction Inspector now! Fresh muddles coming — order the steps, catch the missing bits, and underline those bossy verbs with your eyes.",
+        "adaptHints": "Swap the inspector reward flavour to the child's interests. Step content and answers never change."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'the order slipped' or 'that step tells a story instead of bossing'.",
+        "Act the steps out physically in the proposed order — let the muddle show itself.",
+        "One hint: 'Start the step with a doing word' or 'Could you really do that step yet?'",
+        "Re-order just TWO steps first, then build back to four.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [19, 20],
+      "goal": "Child names two features of good instructions; end on a win before next lesson's writing task.",
+      "note": "Child-led; the character listens. Any two features count: title / you will need / numbered command steps / bossy verbs / order words.",
+      "successCriteria": "Child names at least two features unprompted.",
+      "script": {
+        "say": "Inspection complete! Name me two features every good set of instructions must have… Brilliant. You ordered the steps so a reader could actually follow them — clear, helpful writing. Next time YOU write your own set, as the author!",
+        "adaptHints": "Praise the observed process: acting steps out to test the order, catching the story-step."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say two features of good instructions out loud, like you're briefing a new inspector.", "target": "A title and a 'you will need' list — and numbered steps that start with bossy verbs, in the right order." }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l23-p01", "skill": "identify commands (bossy sentences)", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which sentence is a command — the kind instructions use?", "options": ["Spread the jam on the bread.", "The jam is red.", "I like jam best.", "Jam is made from fruit."], "correct": 0, "explain": "'Spread the jam…' starts with a bossy verb and tells you what to DO — that's a command." },
+      "expectedAnswer": "Spread the jam on the bread.",
+      "wrongAnswers": [
+        { "answer": "The jam is red.", "why": "chose a statement — it tells ABOUT the jam, not what to do", "remedy": "Does that sentence ask you to DO anything? Which one bosses you into action?" },
+        { "answer": "I like jam best.", "why": "chose an opinion/story sentence", "remedy": "That's someone chatting about jam! An instruction step gives you a JOB. Which one gives you a job?" }
+      ],
+      "hints": ["A command starts with a doing word and gives you a job.", "Try obeying each sentence — which one CAN you obey?"],
+      "reteach": { "say": "Here's the obey-test: try to DO each sentence. 'The jam is red' — nothing to do. 'I like jam' — nothing to do. 'SPREAD the jam' — aha, my hand moves! If you can obey it, it's a command, and commands are what instructions are made of.", "block": { "type": "table", "headers": ["sentence", "can you obey it?"], "rows": [["The jam is red.", "no — it just tells"], ["I like jam best.", "no — it just chats"], ["Spread the jam.", "YES — it's a command!"]] } }
+    },
+    {
+      "id": "l23-p02", "skill": "use order words", "level": 1,
+      "block": { "type": "fillBlank", "text": "___, get two slices of bread.", "answer": "First", "wordBank": ["First", "Finally", "Bread"] },
+      "expectedAnswer": "First",
+      "wrongAnswers": [
+        { "answer": "Finally", "why": "order word chosen without thinking about position — this is step ONE", "remedy": "'Finally' means the LAST step. Getting the bread happens before everything else — which order word starts things off?" },
+        { "answer": "Bread", "why": "grabbed a noun instead of an order word", "remedy": "We need an ORDER word — one of the marching words: first, next, then, finally. Which one begins the march?" }
+      ],
+      "hints": ["This is the very first step.", "The marching words go: first, next, then, finally."],
+      "reteach": { "say": "Order words are the steps' marching orders: FIRST sets off, NEXT follows, THEN keeps going, FINALLY finishes. Getting the bread starts the whole sandwich — so it gets 'First'. First, get two slices of bread!", "block": { "type": "emojiViz", "emojis": "1️⃣➡️2️⃣➡️3️⃣➡️🏁", "caption": "First → next → then → finally" } }
+    },
+    {
+      "id": "l23-p03", "skill": "order instruction steps", "level": 2,
+      "block": { "type": "ordering", "prompt": "Order the steps: How to brush your teeth.", "items": ["Put toothpaste on the brush.", "Brush your teeth for two minutes.", "Spit out the toothpaste.", "Rinse your brush."] },
+      "expectedAnswer": "Toothpaste on → brush → spit → rinse",
+      "wrongAnswers": [
+        { "answer": "Brush your teeth first, then put toothpaste on", "why": "steps read alone, not as a sequence — brushing before paste", "remedy": "Act it out! Brush with an EMPTY brush… something's missing. What must be on the brush before it goes in your mouth?" },
+        { "answer": "Rinse the brush first", "why": "put the clean-up step at the start", "remedy": "Rinsing cleans up AFTER the job. Could you really need a clean brush before you've used it?" }
+      ],
+      "hints": ["Ask at every step: could I really do this yet?", "The clean-up step usually comes last."],
+      "interestSlots": ["sparkly toothpaste", "electric toothbrush"],
+      "reteach": { "say": "The fixing question unscrambles anything: 'Could I really do this step yet?' Brush my teeth — wait, there's no paste on the brush! So paste comes first. Spit — only after brushing. Rinse the brush — the goodbye step. Ask the question at every step and the order sorts itself.", "block": { "type": "steps", "title": "How to brush your teeth", "steps": ["First, put toothpaste on the brush.", "Next, brush your teeth for two minutes.", "Then, spit out the toothpaste.", "Finally, rinse your brush."] } }
+    },
+    {
+      "id": "l23-p04", "skill": "identify bossy verbs", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which word is the bossy verb in: 'Pour the milk into the cup.'?", "options": ["Pour", "milk", "cup", "the"], "correct": 0, "explain": "'Pour' is the doing word at the front — it's what the step tells you to DO." },
+      "expectedAnswer": "Pour",
+      "wrongAnswers": [
+        { "answer": "milk", "why": "picked the noun — the thing, not the action", "remedy": "The milk is what you use. Which word is the ACTION your hands do?" },
+        { "answer": "cup", "why": "picked a noun from the end of the sentence", "remedy": "Bossy verbs stand at the FRONT of a command. Read just the first word — what does it tell your hands to do?" }
+      ],
+      "hints": ["Bossy verbs are doing words.", "In a command, the bossy verb usually stands at the very front."],
+      "reteach": { "say": "Every command has one boss — the verb at the front. 'POUR the milk into the cup': pour is the action, milk and cup are just the things it happens with. Front word, doing word, boss word. Find the front of the command and you've found your bossy verb.", "block": { "type": "table", "headers": ["step", "bossy verb"], "rows": [["Pour the milk into the cup.", "Pour"], ["Cut the apple in half.", "Cut"], ["Wash your hands.", "Wash"]] } }
+    },
+    {
+      "id": "l23-p05", "skill": "commands vs statements", "level": 2,
+      "block": { "type": "categorize", "prompt": "Sort each sentence: is it a command (fit for instructions) or a statement (just telling)?", "buckets": ["Command — bossy verb", "Statement — just telling"], "items": [ { "text": "Cut the apple in half.", "bucket": "Command — bossy verb" }, { "text": "The apple is green.", "bucket": "Statement — just telling" }, { "text": "Wash your hands.", "bucket": "Command — bossy verb" }, { "text": "I washed my hands.", "bucket": "Statement — just telling" } ] },
+      "expectedAnswer": "Cut / Wash → commands; The apple is green / I washed my hands → statements",
+      "wrongAnswers": [
+        { "answer": "I washed my hands. → command", "why": "the story-mode trap — 'I did it' feels instruction-ish but tells a tale about me", "remedy": "Who's doing the washing there — you, the reader? No, 'I' already did it! A command bosses YOU: 'Wash your hands.' Hear the difference?" },
+        { "answer": "The apple is green. → command", "why": "not applying the obey-test", "remedy": "Try to obey 'The apple is green.' — there's no job in it! Which sentences give your hands a job?" }
+      ],
+      "hints": ["Obey-test each one: is there a job for YOUR hands?", "'I did it' is a story about me — not a command to you."],
+      "reteach": { "say": "The sneakiest imposter is the 'I' sentence. 'I washed my hands' SOUNDS helpful, but it's just me telling my story — you're left standing there! Instructions talk straight to the reader's hands: 'WASH your hands.' If it starts with 'I', it's a story; if it starts with a bossy verb, it's a command.", "block": { "type": "table", "headers": ["sentence", "who acts?", "kind"], "rows": [["I washed my hands.", "me (already done)", "story/statement"], ["Wash your hands.", "YOU — right now", "command"]] } }
+    },
+    {
+      "id": "l23-p06", "skill": "identify the features of instructions", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Which feature tells the reader what to collect BEFORE starting?", "options": ["The 'you will need' list", "The title", "The last step", "The order words"], "correct": 0, "explain": "'You will need' gathers everything first, so the reader never gets stuck mid-step." },
+      "expectedAnswer": "The 'you will need' list",
+      "wrongAnswers": [
+        { "answer": "The title", "why": "mixed up the features' jobs", "remedy": "The title says WHAT you're making. Which feature lists the THINGS you must fetch first?" },
+        { "answer": "The last step", "why": "confused position with purpose", "remedy": "By the last step you should be finishing, not fetching! Which part comes near the top so you can gather everything early?" }
+      ],
+      "hints": ["It's a list, and it sits near the top.", "Imagine reaching step 3 and having no jam — which feature would have saved you?"],
+      "reteach": { "say": "Picture the disaster: step three says 'Spread the jam' — and there's no jam in the house! The 'you will need' list is the disaster-stopper: it sits right under the title and says 'fetch these FIRST: bread, butter, jam, a knife.' Gather, then go.", "block": { "type": "richText", "markdown": "**You will need:** bread, butter, jam, a knife.\n\n*Gather first — then no step can surprise you.*" } }
+    },
+    {
+      "id": "l23-p07", "skill": "fix a story-step into a command", "level": 3,
+      "block": { "type": "shortText", "prompt": "This step is written like a story: 'Then I poured the water into the pot.' Rewrite it as a proper instruction step.", "sample": "Then, pour the water into the pot." },
+      "expectedAnswer": "Then, pour the water into the pot. (bossy verb 'pour', no 'I')",
+      "wrongAnswers": [
+        { "answer": "Then you poured the water into the pot.", "why": "swapped 'I' for 'you' but kept story-mode past tense", "remedy": "Closer! But it still tells what HAPPENED. Boss the reader NOW: start the action word first — 'Pour…'." },
+        { "answer": "The water goes in the pot.", "why": "made a statement — the boss vanished", "remedy": "That describes the water instead of commanding the reader. Which doing word should stand at the front?" }
+      ],
+      "hints": ["Cross out the 'I' — instructions boss the READER.", "Put the doing word at the front: 'Pour…'"],
+      "reteach": { "say": "Fixing a story-step takes two snips. Snip one: cut the 'I' — instructions never tell my story. Snip two: move the doing word to the front and make it NOW: 'poured' becomes 'pour'. 'Then I poured the water' → 'Then, POUR the water into the pot.' Snip, snip — now it bosses!", "block": { "type": "steps", "title": "Story-step → command", "steps": ["Start: 'Then I poured the water into the pot.'", "Snip the 'I' out.", "Make the verb bossy and NOW: pour.", "Fixed: 'Then, pour the water into the pot.'"] } }
+    },
+    {
+      "id": "l23-p08", "skill": "spot a missing step", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "How to make a drink of squash: 1. Get a cup. 2. Add water and stir. Something's missing! Which step must go between them?", "options": ["Pour a little squash into the cup.", "Drink the water.", "Wash the cup afterwards.", "Buy a bigger cup."], "correct": 0, "explain": "Without squash in the cup, step 2 just makes… a cup of water! The squash step is the missing link." },
+      "expectedAnswer": "Pour a little squash into the cup.",
+      "wrongAnswers": [
+        { "answer": "Drink the water.", "why": "jumped to the end without testing the sequence", "remedy": "Follow the steps exactly as written — what's in your cup at the end? Just water! What never got added?" },
+        { "answer": "Wash the cup afterwards.", "why": "added a clean-up step instead of the missing middle", "remedy": "Washing helps AFTER — but the drink is still wrong! What ingredient does 'squash' need that these steps forgot?" }
+      ],
+      "hints": ["Follow the steps exactly — what drink do you actually end up with?", "The title promises SQUASH. Where does squash enter?"],
+      "interestSlots": ["orange squash", "blackcurrant squash"],
+      "reteach": { "say": "Great inspectors follow instructions EXACTLY, like a robot. Get a cup — done. Add water and stir — done. Taste it… that's plain water! The instructions promised squash but never said to pour any in. That's the gap: 'Pour a little squash into the cup' slots in as the new step 2.", "block": { "type": "steps", "title": "How to make squash (fixed)", "steps": ["First, get a cup.", "Next, pour a little squash into the cup.", "Then, add water.", "Finally, stir and enjoy."] } }
+    },
+    {
+      "id": "l23-p09", "skill": "order instruction steps", "level": 3,
+      "block": { "type": "ordering", "prompt": "Trickier — five steps this time: How to plant a seed.", "items": ["Fill a pot with soil.", "Push the seed into the soil.", "Cover the seed gently.", "Water the soil a little.", "Put the pot on a sunny windowsill."] },
+      "expectedAnswer": "Fill pot → push seed in → cover → water → sunny windowsill",
+      "wrongAnswers": [
+        { "answer": "Water the soil before the seed is in", "why": "plausible-sounding but the sequence breaks — watering before planting", "remedy": "Could you really do that yet? What's the water FOR — and is the seed even in there?" },
+        { "answer": "Push the seed in before filling the pot", "why": "step imagined alone, not in sequence — seed into an empty pot", "remedy": "Picture it: an empty pot, and you push the seed into… what? What must be in the pot first?" }
+      ],
+      "hints": ["Picture each step actually happening before you place it.", "Soil → seed → cover → water → sunshine."],
+      "reteach": { "say": "Five steps, same fixing question: could I do this YET? Seed into an empty pot? No — soil first. Cover the seed before it's planted? Impossible. Water before there's anything to grow? Wasted. Soil, seed, cover, water, sunshine — each step opens the door for the next. That's what 'the right order' really means.", "block": { "type": "steps", "title": "How to plant a seed", "steps": ["First, fill a pot with soil.", "Next, push the seed into the soil.", "Then, cover the seed gently.", "Then, water the soil a little.", "Finally, put the pot on a sunny windowsill."] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave ordering with fix-the-step and missing-step items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, acting the steps out in the wrong order first, then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one full ordering and one story-step catch/fix → mastery ≥ 0.8 for 'instruction features'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why ('the order slipped' / 'that step tells a story, it doesn't boss').",
+      "Act the steps out physically in the proposed order — let the muddle show itself.",
+      "One hint: 'Start with the doing word' or 'Could you really do that step yet?'",
+      "Re-order just two steps, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Keep the inspector frame; swap incidental foods/objects marked as interestSlots to the child's favourites. Steps and answers never change.",
+    "endOnSuccess": "Finish on a winnable ordering item; praise the process — 'you tested every step with the fixing question.'"
+  },
+
+  "differentiation": {
+    "support": "Order sets of three steps before four or five; read each step aloud together before placing it.",
+    "stretch": "Spot the missing step (l23-p08) and improve a vague step ('do the bread bit' → what exactly?)."
+  },
+  "extension": "Feature hunt at home: find real instructions (a recipe, a game box, LEGO) and tick off the features — title, you will need, numbered command steps, order words.",
+  "assessmentEvidence": "Child orders a jumbled step set correctly and identifies command sentences and their bossy verbs, rejecting a story-mode step.",
+  "revisitLater": "Lesson 24 uses exactly these features for the child's own writing; one ordering item returns in the Lesson 25 review."
+}

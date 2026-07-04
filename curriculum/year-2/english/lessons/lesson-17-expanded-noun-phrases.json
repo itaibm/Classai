@@ -1,0 +1,370 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u4-l17",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 4, "title": "Word classes & sentence types", "essentialQuestion": "What jobs do words do, and how do sentences come in different types?" },
+  "lessonNumber": 17,
+  "kind": "lesson",
+  "topic": "Word classes & sentence types",
+  "title": "Expanded noun phrases (paint a picture)",
+  "durationMin": 25,
+  "objectives": ["By the end, I can expand a noun with adjectives, using a comma between two."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "noun", "definition": "a naming word", "example": "castle, forest, monster" },
+    { "term": "adjective", "definition": "a describing word — it tells you more about a noun", "example": "dark, spooky, slimy" },
+    { "term": "expanded noun phrase", "definition": "a noun with describing words added", "example": "a dark, spooky castle" },
+    { "term": "comma", "definition": "a tiny pause mark that sits between two adjectives", "example": "a small, noisy dog" }
+  ],
+  "emphasize": [
+    "Adjectives paint a clearer picture in the reader's head: not 'a dog' — 'a small, noisy dog'.",
+    "The rule: a COMMA between two adjectives. Two describing words? Pop a comma between them.",
+    "Build step by step: noun → one adjective → two adjectives with a comma."
+  ],
+  "analysis": {
+    "keyConcepts": ["expanded noun phrase = noun + describing words", "comma between two adjectives", "build up in stages: noun → one adjective → two"],
+    "misconceptions": [
+      "stringing two adjectives with no comma (a dark silent forest)",
+      "comma in the wrong place (after the noun, or after 'a')",
+      "using a non-adjective to expand (a run forest) — word-class slip from Lesson 16"
+    ],
+    "hooks": ["Close your eyes: 'a dog' could be ANY dog — 'a small, noisy dog' you can really SEE."],
+    "priorKnowledge": ["noun = naming word, adjective = describing word (Lesson 16)", "the describes-a-noun test"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["whiteboard phrase-builder (three stages)", "adjective word-bank on screen", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "video": {
+    "role": "reinforce",
+    "channel": "Grammarsaurus",
+    "searchTerm": "expanded noun phrases",
+    "watchTask": "Every time a noun gets described, hold up a finger per adjective — and shout 'COMMA!' when two describing words need one.",
+    "afterCheck": { "question": "What goes between two adjectives in an expanded noun phrase?", "expectedAnswer": "A comma (a dark, spooky castle)" }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Feel the difference between 'a dog' and 'a small, noisy dog' — adjectives paint the picture; retrieve the adjective test.",
+      "note": "The mind's-eye moment is the hook — let the child actually close their eyes and picture both.",
+      "successCriteria": "Child says what changed in their head between the two phrases, and names 'fluffy' as an adjective.",
+      "script": {
+        "say": "Close your eyes. I say: a dog. What do you picture? Could be any dog! Now I say: a small, noisy dog. Ah — now you can really SEE it! Adjectives paint a clearer picture in the reader's head. Today we'll paint pictures with words. Quick detective check first — is 'fluffy' a noun, a verb or an adjective?",
+        "adaptHints": "Swap 'dog' for the child's pet or favourite animal. If the retrieval is shaky: 'Does it describe? A fluffy dog — yes → adjective.'"
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🐕 → 🐕🔍✨", "caption": "a dog → a small, noisy dog — now you can SEE it!" }
+      ],
+      "stuckProtocol": ["If 'fluffy' is misnamed: recall the Lesson 16 test aloud — 'does it describe a noun? A fluffy dog — yes, adjective' — then move on."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Model growing a noun in three stages: castle → a dark castle → a dark, spooky castle — landing the comma rule.",
+      "note": "Build on the board stage by stage; the comma appears in a bold colour at stage three. Name the rule crisply each time.",
+      "successCriteria": "Child sees the three stages and can point to where the comma lives (between the two adjectives).",
+      "script": {
+        "say": "I'm going to grow a noun into a picture. Start with the noun: castle. Add ONE adjective in front: a dark castle — better! Now add a SECOND adjective — but here's the rule: put a COMMA between the two adjectives: a dark, spooky castle. The comma is a tiny pause that keeps the two describing words tidy. Noun → one adjective → two adjectives with a comma between. That whole thing — a dark, spooky castle — is called an expanded noun phrase.",
+        "adaptHints": "Read stage three aloud with a tiny theatrical pause at the comma — 'a dark [beat] spooky castle' — so the child HEARS what the comma does."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Grow the noun!",
+          "animate": true,
+          "elements": [
+            { "k": "text", "x": 50, "y": 8, "value": "castle", "size": 7, "bold": true },
+            { "k": "line", "x1": 50, "y1": 12, "x2": 50, "y2": 20, "color": "ink", "arrow": true },
+            { "k": "text", "x": 50, "y": 26, "value": "a dark castle", "size": 7, "bold": true, "color": "blue" },
+            { "k": "line", "x1": 50, "y1": 30, "x2": 50, "y2": 38, "color": "ink", "arrow": true },
+            { "k": "text", "x": 50, "y": 44, "value": "a dark, spooky castle", "size": 7, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 55, "value": "two adjectives? comma between!", "size": 5, "color": "red" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared build: expand 'forest' from the word-bank, child places the comma; then build 'a slimy, green monster'.",
+      "note": "Child chooses the adjectives; the character insists on hearing where the comma goes and why.",
+      "successCriteria": "Child completes 'a dark, ___ forest' with an adjective and states the comma sits between the two adjectives.",
+      "script": {
+        "say": "Paint with me. Take 'forest'. I've started: a dark… now choose a second describing word from the bank — and where does the comma go? Fill the gap, then let's build a monster one together: a slimy, green monster!",
+        "adaptHints": "Accept any sensible adjective aloud even if the block wants 'silent' — praise the choice, then guide to the bank word. Let the child invent the monster's adjectives verbally after."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "a dark, ___ forest", "answer": "silent", "wordBank": ["silent", "run", "tree"] }
+      ],
+      "check": {
+        "question": "In 'a dark, silent forest' — where does the comma go, and why?",
+        "expectedAnswer": "Between the two adjectives (after 'dark') — it keeps the two describing words tidy.",
+        "wrongAnswers": [
+          { "answer": "chose 'run' for the gap", "why": "word-class slip — used a verb to describe", "remedy": "Does 'run' DESCRIBE the forest? Run the test: 'a run forest'… Let's pick a describing word from the bank." },
+          { "answer": "after 'forest'", "why": "comma placed after the noun, not between the adjectives", "remedy": "The comma's home is BETWEEN the two describing words. Read it aloud — where's the tiny pause? Dark… silent." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 17],
+      "goal": "Key diagnostic: pick the correctly punctuated expanded noun phrase — the no-comma version is the trap.",
+      "note": "The missing-comma option is the lesson's central misconception. Probe 'why?' after a correct answer.",
+      "successCriteria": "Child picks 'a dark, spooky castle' and explains the comma sits between two adjectives.",
+      "script": {
+        "say": "Punctuation inspector time! Three castles — only ONE is written correctly. Which one, and how do you know?",
+        "adaptHints": "After a correct pick, probe: 'Why does that one need the comma?' Read the wrong ones aloud flat and fast to show the missing pause."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which expanded noun phrase is punctuated correctly?",
+          "options": ["a dark spooky castle", "a dark, spooky castle", "a, dark spooky castle"],
+          "correct": 1,
+          "explain": "Two adjectives — dark and spooky — need a comma between them: a dark, spooky castle."
+        }
+      ],
+      "check": {
+        "question": "Which is correct: 'a dark spooky castle', 'a dark, spooky castle', or 'a, dark spooky castle'?",
+        "expectedAnswer": "a dark, spooky castle — the comma goes between the two adjectives",
+        "wrongAnswers": [
+          { "answer": "a dark spooky castle", "why": "missing the comma between two adjectives", "remedy": "Read it aloud — two describing words need a tiny pause between them. Where would you pop the comma?" },
+          { "answer": "a, dark spooky castle", "why": "comma parked after 'a' instead of between the adjectives", "remedy": "The comma's job is to sit BETWEEN the two describing words. Which two words is it keeping tidy?" }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 22],
+      "goal": "Independent painting: expand castle, monster, dog into noun phrases — two adjectives + comma each time.",
+      "note": "Director draws from practiceBank, start level 2. Watch for: missing comma; only one adjective; non-adjectives; comma after the noun.",
+      "successCriteria": "Child writes at least two expanded noun phrases, each with two adjectives correctly separated by a comma.",
+      "script": {
+        "say": "Your paintbrush now! I'll give you plain nouns — you grow each one into a picture: two describing words, comma between. Make me really SEE your monster!",
+        "adaptHints": "Swap the nouns for the child's interests (dragon, rocket, puppy). Encourage vivid adjective choices from the bank — the comma rule never changes."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'Let's check we have two describing words and a comma.'",
+        "Step down: give the noun + one adjective; the child adds only the second adjective + comma.",
+        "ONE hint: 'Choose two describing words, then a comma between them.'",
+        "Re-ask a smaller version: one phrase straight from the bank.",
+        "Keep it safe: 'Painting with words takes practice — let's pick two and pop a comma in.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Child states how to grow a noun and the comma rule; end on a win.",
+      "note": "Child-led; the character listens, then gives process praise tied to what actually happened.",
+      "successCriteria": "Child says: add adjectives to describe the noun; put a comma between two adjectives.",
+      "script": {
+        "say": "Tell me how to grow a plain noun into a picture — and the comma rule. … Exactly! You painted real pictures with your adjectives — and you placed the comma between them every time. The reader can really SEE your monster!",
+        "adaptHints": "Quote back the child's own best phrase in the praise ('a slimy, green monster — I can SEE it!')."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l17-p01",
+      "skill": "add one adjective to a noun",
+      "level": 1,
+      "block": { "type": "fillBlank", "text": "a ___ dog", "answer": "noisy", "wordBank": ["noisy", "bark", "cat"] },
+      "expectedAnswer": "noisy (a noisy dog)",
+      "wrongAnswers": [
+        { "answer": "bark", "why": "used a verb to describe — word-class slip", "remedy": "Does 'bark' describe the dog or is it something the dog DOES? Pick the describing word." },
+        { "answer": "cat", "why": "picked another noun", "remedy": "'A cat dog'? Two naming words! We want a word that tells us WHAT THE DOG IS LIKE." }
+      ],
+      "hints": ["Which word tells you what the dog is LIKE?", "Run the test: 'a ___ dog' — does it describe?"],
+      "reteach": { "say": "One adjective first, that's the whole job here. The dog is loud, so: a NOISY dog. Describing word in front, noun after. That's stage one of growing a noun.", "block": { "type": "emojiViz", "emojis": "🐕🔊", "caption": "a noisy dog — the adjective paints the noun" } },
+      "interestSlots": ["dog"]
+    },
+    {
+      "id": "l17-p02",
+      "skill": "place the comma between two adjectives",
+      "level": 1,
+      "block": { "type": "fillBlank", "text": "a small___ noisy dog", "answer": ",", "wordBank": [",", ".", "and then"] },
+      "expectedAnswer": ", (a small, noisy dog)",
+      "wrongAnswers": [
+        { "answer": ".", "why": "used a full stop mid-phrase", "remedy": "A full stop ENDS a sentence — we're in the middle of painting! Two adjectives need the tiny pause mark. Which one is it?" },
+        { "answer": "and then", "why": "padding with extra words instead of the comma", "remedy": "We don't need extra words — just the tiny pause mark between the two describing words. Pop it in." }
+      ],
+      "hints": ["Two adjectives need a tiny pause between them.", "It's the little curly mark: ,"],
+      "reteach": { "say": "Here's the rule, small and mighty: two describing words, comma between. Small COMMA noisy. Read it with the pause: a small… noisy dog. The comma keeps the two adjectives tidy.", "block": { "type": "keyTerm", "term": "comma between two adjectives", "definition": "a small, noisy dog — the comma sits between the two describing words" } },
+      "interestSlots": ["dog"]
+    },
+    {
+      "id": "l17-p03",
+      "skill": "complete an expanded noun phrase from a bank",
+      "level": 2,
+      "block": { "type": "fillBlank", "text": "a dark, ___ forest", "answer": "silent", "wordBank": ["silent", "tree", "quietly"] },
+      "expectedAnswer": "silent (a dark, silent forest)",
+      "wrongAnswers": [
+        { "answer": "tree", "why": "picked a noun — 'a dark, tree forest'", "remedy": "'Tree' names a thing. We need a word that DESCRIBES the forest. Which word from the bank paints it?" },
+        { "answer": "quietly", "why": "picked an adverb form", "remedy": "'Quietly' tells how something is DONE. We want what the forest IS LIKE — the plain describing word. Which one?" }
+      ],
+      "hints": ["The comma is already there — it's waiting for a second describing word.", "Which word tells you what the forest is LIKE?"],
+      "reteach": { "say": "The phrase is half-painted: a dark, ___ forest. The comma promises a second describing word is coming. Silent describes — a dark, silent forest. Now the reader can stand inside it!", "block": { "type": "emojiViz", "emojis": "🌲🌑🤫", "caption": "a dark, silent forest" } },
+      "interestSlots": ["forest"]
+    },
+    {
+      "id": "l17-p04",
+      "skill": "spot the correctly punctuated phrase",
+      "level": 2,
+      "block": {
+        "type": "multipleChoice",
+        "prompt": "Which is written correctly?",
+        "options": ["a slimy green monster", "a slimy, green monster", "a slimy green, monster"],
+        "correct": 1,
+        "explain": "Two adjectives — slimy and green — take a comma between them: a slimy, green monster."
+      },
+      "expectedAnswer": "a slimy, green monster",
+      "wrongAnswers": [
+        { "answer": "a slimy green monster", "why": "comma missing between two adjectives", "remedy": "Count the describing words: slimy… green… two! What does the rule say goes between two adjectives?" },
+        { "answer": "a slimy green, monster", "why": "comma pushed next to the noun", "remedy": "The comma sits BETWEEN the two describing words, not beside the noun. Which two words should it separate?" }
+      ],
+      "hints": ["Count the adjectives first.", "The comma lives between the two describing words."],
+      "reteach": { "say": "Comma inspector's trick: find the two describing words first — slimy, green. The comma goes exactly between THEM, nowhere else. A slimy, green monster. The noun never gets a comma stuck to it.", "block": { "type": "table", "headers": ["phrase", "correct?"], "rows": [["a slimy green monster", "✗ — comma missing"], ["a slimy, green monster", "✓"], ["a slimy green, monster", "✗ — comma by the noun"]] } },
+      "interestSlots": ["monster"]
+    },
+    {
+      "id": "l17-p05",
+      "skill": "write an expanded noun phrase",
+      "level": 2,
+      "block": {
+        "type": "shortText",
+        "prompt": "Paint a picture: write an expanded noun phrase for MONSTER — two adjectives and a comma.",
+        "sample": "a slimy, green monster"
+      },
+      "expectedAnswer": "Any two adjectives + comma + monster, e.g. 'a huge, hairy monster'",
+      "wrongAnswers": [
+        { "answer": "a slimy green monster (no comma)", "why": "comma missing between two adjectives", "remedy": "Two describing words need a tiny pause between them — pop a comma there: a slimy, green monster." },
+        { "answer": "a slimy monster", "why": "only one adjective", "remedy": "Great start — one describing word! An EXPANDED phrase today wants two. Add a second, and remember what goes between them." }
+      ],
+      "hints": ["Pick TWO describing words before you write.", "Two adjectives? Comma between them."],
+      "reteach": { "say": "Build it in stages, like the castle: monster… a slimy monster… now the second adjective AND the comma: a slimy, green monster. Noun, one adjective, two adjectives with a comma — every time.", "block": { "type": "steps", "title": "Grow the noun", "steps": ["monster", "a slimy monster", "a slimy, green monster ✓"] } },
+      "interestSlots": ["monster"]
+    },
+    {
+      "id": "l17-p06",
+      "skill": "sort adjectives from non-adjectives",
+      "level": 2,
+      "block": {
+        "type": "categorize",
+        "prompt": "Only describing words may paint! Sort the words: which could describe a castle?",
+        "buckets": ["Adjectives (can paint)", "Not adjectives"],
+        "items": [
+          { "text": "spooky", "bucket": "Adjectives (can paint)" },
+          { "text": "run", "bucket": "Not adjectives" },
+          { "text": "huge", "bucket": "Adjectives (can paint)" },
+          { "text": "door", "bucket": "Not adjectives" },
+          { "text": "ancient", "bucket": "Adjectives (can paint)" }
+        ]
+      },
+      "expectedAnswer": "Adjectives: spooky, huge, ancient · Not: run (verb), door (noun)",
+      "wrongAnswers": [
+        { "answer": "door → Adjectives", "why": "any castle-ish word feels like it fits", "remedy": "Try it: 'a door castle'? Door NAMES a thing — it's a noun. Does it tell you what the castle is LIKE?" },
+        { "answer": "run → Adjectives", "why": "word-class slip from Lesson 16", "remedy": "Run the test: 'a run castle'… no! Run is a doing word. Which words describe?" }
+      ],
+      "hints": ["Test each word: 'a ___ castle' — does it describe?", "Naming words and doing words can't paint."],
+      "reteach": { "say": "Your Lesson 16 detective tools work here too! Only ADJECTIVES can paint a noun. Spooky castle — yes. Huge castle — yes. Run castle — no, run is a verb. Door castle — no, door is a noun. Test before you paint.", "block": { "type": "table", "headers": ["word", "a ___ castle?", "job"], "rows": [["spooky", "✓", "adjective"], ["huge", "✓", "adjective"], ["run", "✗", "verb"], ["door", "✗", "noun"]] } },
+      "interestSlots": ["castle"]
+    },
+    {
+      "id": "l17-p07",
+      "skill": "rebuild a jumbled expanded noun phrase in a sentence",
+      "level": 3,
+      "block": {
+        "type": "ordering",
+        "prompt": "Word builder! Put the words back in order to make a sentence with an expanded noun phrase.",
+        "items": ["The", "dark,", "spooky", "castle", "stood", "on", "the", "hill."]
+      },
+      "expectedAnswer": "The dark, spooky castle stood on the hill.",
+      "wrongAnswers": [
+        { "answer": "The spooky dark, castle…", "why": "comma-word separated from its partner — comma must follow the FIRST adjective", "remedy": "Look at 'dark,' — it carries the comma, so it comes FIRST of the two describing words. Which order reads right?" },
+        { "answer": "The castle dark, spooky stood…", "why": "adjectives placed after the noun", "remedy": "In an expanded noun phrase, the describing words come BEFORE the noun they paint. Where does 'castle' belong?" }
+      ],
+      "hints": ["Find the noun phrase first: which words paint the castle?", "The word carrying the comma comes first of the two adjectives."],
+      "reteach": { "say": "Find the painting team first: dark, spooky castle — two describers, then the noun. The comma rides on the first adjective. Then the sentence around it: The dark, spooky castle stood on the hill. Phrase first, sentence after.", "block": { "type": "steps", "title": "Rebuild it", "steps": ["Find the noun: castle", "Adjectives in front: dark, spooky", "Finish the sentence: …stood on the hill."] } },
+      "interestSlots": ["castle", "hill"]
+    },
+    {
+      "id": "l17-p08",
+      "skill": "use an expanded noun phrase in a full sentence",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Stretch! Write a FULL sentence that uses an expanded noun phrase (two adjectives + comma). Start with your phrase, then say what it did.",
+        "sample": "A slimy, green monster lived in the cave."
+      },
+      "expectedAnswer": "A full sentence containing noun phrase with two comma-separated adjectives, e.g. 'A huge, hairy spider crept up the wall.'",
+      "wrongAnswers": [
+        { "answer": "A slimy green monster lived in the cave. (no comma)", "why": "comma missing between the two adjectives", "remedy": "The sentence is lovely — now check the painting team. Two adjectives… what belongs between them?" },
+        { "answer": "just the phrase, no sentence (a slimy, green monster)", "why": "stopped at the phrase", "remedy": "Beautiful phrase! Now give it something to DO — a verb and an ending. What did your monster do?" }
+      ],
+      "hints": ["Build the phrase first, then add what it DID.", "Check: capital letter, comma between adjectives, full stop."],
+      "reteach": { "say": "Two steps. Step one, paint the phrase: a slimy, green monster. Step two, give it a story: …lived in the cave. Phrase plus verb plus full stop — a whole picture in one sentence.", "block": { "type": "steps", "title": "Phrase → sentence", "steps": ["a slimy, green monster", "+ lived in the cave", "A slimy, green monster lived in the cave. ✓"] } },
+      "interestSlots": ["monster", "cave"]
+    },
+    {
+      "id": "l17-p09",
+      "skill": "fix a phrase with a missing comma",
+      "level": 3,
+      "block": {
+        "type": "shortText",
+        "prompt": "Editor's desk! A friend wrote: 'a big red fast car'. What's gone wrong, and how would you fix it? (Hint: two adjectives is plenty.)",
+        "sample": "Too many adjectives squashed together with no commas. Pick two and add the comma: a big, red car."
+      },
+      "expectedAnswer": "Spots the missing comma(s) / adjective pile-up; fixes to two adjectives with a comma, e.g. 'a big, red car'",
+      "wrongAnswers": [
+        { "answer": "nothing is wrong", "why": "shares the no-comma misconception", "remedy": "Read it aloud fast: bigredfastcar! No pauses. What does the rule say goes between two describing words?" },
+        { "answer": "a big, red, fast, car", "why": "over-corrected — comma stuck to the noun", "remedy": "Better pausing! But the noun never gets a comma stuck to it. Try keeping just TWO adjectives with one comma between." }
+      ],
+      "hints": ["Count the describing words — how many is tidy?", "Two adjectives, one comma, then the noun."],
+      "reteach": { "say": "When adjectives pile up with no commas, the reader runs out of breath: a big red fast car! Editors keep it tidy: choose the two BEST describers and pop one comma between: a big, red car. Two is plenty — pick the two that paint best.", "block": { "type": "table", "headers": ["version", "verdict"], "rows": [["a big red fast car", "✗ — pile-up, no comma"], ["a big, red car", "✓ tidy and vivid"]] } },
+      "interestSlots": ["car"]
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave writing, ordering and editing items.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the three-stage build shown, then a level-1 item (one adjective, or comma-only).",
+    "masterySignal": "3+ correct across levels 2–3 including one written phrase with a correct comma and one spot-the-error item → mastery ≥ 0.8 for 'expanded noun phrases'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'Let's check we have two describing words and a comma.'",
+      "Step down: give the noun + one adjective; the child adds only the second + comma.",
+      "ONE hint: 'Choose two describing words, then a comma between them.'",
+      "Re-ask a smaller version (one phrase straight from the bank), build back.",
+      "Keep it safe: 'Painting with words takes practice — let's pick two and pop a comma in.'"
+    ],
+    "personalization": "Swap the nouns for the learner's interests (dragon, rocket, puppy, princess) — the two-adjectives-and-a-comma rule never changes. Quote their best phrase back in the praise.",
+    "endOnSuccess": "Finish on a winnable phrase build; praise the process — 'you placed the comma between your adjectives every single time.'"
+  },
+
+  "differentiation": {
+    "support": "Adjective word-bank on screen to choose from; the tutor supplies the noun + first adjective, child adds the second + comma.",
+    "stretch": "Drop the bank (generate own adjectives) and put the noun phrase into a full sentence: 'A slimy, green monster lived in the cave.'"
+  },
+  "extension": "Describe a made-up monster with an expanded noun phrase of two vivid adjectives — then draw it to match the words exactly.",
+  "assessmentEvidence": "Child writes at least two expanded noun phrases, each with two adjectives correctly separated by a comma, and fixes one phrase with a missing comma.",
+  "revisitLater": "These noun phrases feed the end-of-year writing stretch (add an expanded noun phrase to a sentence). Re-pose one phrase build as retrieval before Lesson 18."
+}

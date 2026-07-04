@@ -1,0 +1,339 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u7-l22",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 7, "title": "Statistics, shape and symmetry", "essentialQuestion": "How do we record data, and how do we describe shapes by their parts and their symmetry?" },
+  "lessonNumber": 22,
+  "kind": "lesson",
+  "topic": "Statistics: block diagrams",
+  "title": "Block diagrams: most, least, how many more",
+  "durationMin": 22,
+  "objectives": ["By the end, I can read a block diagram to answer 'most', 'least' and 'how many more'."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "block diagram", "definition": "a chart where every count is one block, stacked into bars", "example": "6 dogs = a bar of 6 blocks" },
+    { "term": "bar", "definition": "one category's stack of blocks", "example": "the red-cars bar" },
+    { "term": "most", "definition": "the biggest amount — the tallest bar", "example": "red is the most" },
+    { "term": "least", "definition": "the smallest amount — the shortest bar", "example": "white is the least" },
+    { "term": "how many more", "definition": "the gap between two bars — find it by subtracting", "example": "6 − 4 = 2 more dogs" },
+    { "term": "total", "definition": "two or more bars added together", "example": "6 dogs + 4 cats = 10 pets" }
+  ],
+  "emphasize": [
+    "The TALLEST bar is the most; the shortest is the least.",
+    "'How many more' means find the DIFFERENCE — subtract the two bars, never add them.",
+    "Read a bar by its TOP: finger on the top block, read across to the number."
+  ],
+  "analysis": {
+    "keyConcepts": ["one block = one count", "tallest bar = most, shortest = least", "'how many more' = subtract two bars", "total two categories by adding"],
+    "misconceptions": [
+      "reading 'how many more' as 'how many altogether' and adding (6 and 4 → 10 instead of 2)",
+      "misreading a bar's height by not tracking from its top across to the scale",
+      "answering 'most' with the category they like best instead of the tallest bar"
+    ],
+    "hooks": ["Which colour car passes the window the most? We could argue — or we could chart it and KNOW."],
+    "priorKnowledge": ["subtraction as difference (how many more)", "tally charts and reading data (Lesson 21)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["animated block diagram on the whiteboard (one rect per block)", "emoji bar rows", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Frame the chart as the argument-settler; retrieve difference by subtraction.",
+      "note": "The retrieval question (6 and 4 → 2 more) is the exact calculation the whole lesson runs on.",
+      "successCriteria": "Child answers '2' for 'I have 6, you have 4 — how many more do I have?'",
+      "script": {
+        "say": "Here's an argument: which colour car passes the window the most? We could shout about it… or we could chart it and KNOW. I watched the street and counted every car — the chart's coming up. But first, quick memory check: if I have 6 stickers and you have 4, how many MORE do I have?",
+        "adaptHints": "Swap cars for whatever passes the child's window (buses, dogs, bikes) and stickers for their favourite collectable. Listen for '2' — and for HOW they got it."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🚗🚙🚕❓", "caption": "Which colour passes most? Chart it and KNOW." }
+      ],
+      "stuckProtocol": ["If 'how many more' stalls: line up 6 fingers against 4 fingers and count the ones sticking out — the gap is the answer."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model reading the car chart: one block = one car, tallest bar = most, and 'how many more' = subtract two bars.",
+      "note": "Build the chart block by block so 'one block = one count' lands. Then do one full 'how many more' with the subtraction written out, and one total.",
+      "successCriteria": "Child sees red (6) named as most because it's tallest, and hears 6 − 4 = 2 for 'how many more red than blue'.",
+      "script": {
+        "say": "Here's my car chart. Every block is ONE car — watch them stack. Red: 1, 2, 3, 4, 5, 6. Blue: 4. Green: 5. White: 2. Now the chart does the talking! The TALLEST bar is the most — red wins with 6. The shortest is the least — poor white, only 2. And here's the power move: how many MORE red than blue? I compare the two bars and SUBTRACT: 6 take away 4 is 2. Two more red cars. And if I want red and white TOGETHER, I add: 6 plus 2 is 8.",
+        "adaptHints": "Count each block aloud as it appears. Point at the bar TOPS when comparing — model the finger-on-top habit."
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Cars that passed the window",
+          "animate": true,
+          "elements": [
+            { "k": "line", "x1": 14, "y1": 10, "x2": 14, "y2": 52, "color": "ink" },
+            { "k": "line", "x1": 14, "y1": 52, "x2": 90, "y2": 52, "color": "ink" },
+            { "k": "text", "x": 10, "y": 50, "value": "1", "size": 3 },
+            { "k": "text", "x": 10, "y": 46, "value": "2", "size": 3 },
+            { "k": "text", "x": 10, "y": 42, "value": "3", "size": 3 },
+            { "k": "text", "x": 10, "y": 38, "value": "4", "size": 3 },
+            { "k": "text", "x": 10, "y": 34, "value": "5", "size": 3 },
+            { "k": "text", "x": 10, "y": 30, "value": "6", "size": 3 },
+            { "k": "rect", "x": 20, "y": 48, "w": 10, "h": 4, "color": "red", "fill": true },
+            { "k": "rect", "x": 20, "y": 44, "w": 10, "h": 4, "color": "red", "fill": true },
+            { "k": "rect", "x": 20, "y": 40, "w": 10, "h": 4, "color": "red", "fill": true },
+            { "k": "rect", "x": 20, "y": 36, "w": 10, "h": 4, "color": "red", "fill": true },
+            { "k": "rect", "x": 20, "y": 32, "w": 10, "h": 4, "color": "red", "fill": true },
+            { "k": "rect", "x": 20, "y": 28, "w": 10, "h": 4, "color": "red", "fill": true },
+            { "k": "rect", "x": 38, "y": 48, "w": 10, "h": 4, "color": "blue", "fill": true },
+            { "k": "rect", "x": 38, "y": 44, "w": 10, "h": 4, "color": "blue", "fill": true },
+            { "k": "rect", "x": 38, "y": 40, "w": 10, "h": 4, "color": "blue", "fill": true },
+            { "k": "rect", "x": 38, "y": 36, "w": 10, "h": 4, "color": "blue", "fill": true },
+            { "k": "rect", "x": 56, "y": 48, "w": 10, "h": 4, "color": "green", "fill": true },
+            { "k": "rect", "x": 56, "y": 44, "w": 10, "h": 4, "color": "green", "fill": true },
+            { "k": "rect", "x": 56, "y": 40, "w": 10, "h": 4, "color": "green", "fill": true },
+            { "k": "rect", "x": 56, "y": 36, "w": 10, "h": 4, "color": "green", "fill": true },
+            { "k": "rect", "x": 56, "y": 32, "w": 10, "h": 4, "color": "green", "fill": true },
+            { "k": "rect", "x": 74, "y": 48, "w": 10, "h": 4, "color": "orange", "fill": true },
+            { "k": "rect", "x": 74, "y": 44, "w": 10, "h": 4, "color": "orange", "fill": true },
+            { "k": "text", "x": 25, "y": 56, "value": "red", "size": 4 },
+            { "k": "text", "x": 43, "y": 56, "value": "blue", "size": 4 },
+            { "k": "text", "x": 61, "y": 56, "value": "green", "size": 4 },
+            { "k": "text", "x": 79, "y": 56, "value": "white", "size": 4 },
+            { "k": "text", "x": 50, "y": 6, "value": "Every block = 1 car", "size": 5, "bold": true, "color": "accent" },
+            { "k": "text", "x": 50, "y": 60, "value": "more red than blue: 6 - 4 = 2", "size": 4, "bold": true, "color": "purple" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Shared read of the same chart: child names most and least, then computes 'how many more green than white' with scribed subtraction.",
+      "note": "The character scribes the calculation the child dictates: 5 − 2 = 3. Keep fingers on the bar tops.",
+      "successCriteria": "Child names red as most, white as least, and says 5 − 2 = 3 for green vs white.",
+      "script": {
+        "say": "Your turn on the same chart. Put your finger on the tallest bar… which colour is the MOST? … And the shortest — the least? … Now the power move: how many more GREEN than WHITE? Read the tops: green is 5, white is 2. Tell me the subtraction and I'll write it down.",
+        "adaptHints": "If the child says '7' (adding), don't correct — ask 'is the gap between the bars really bigger than the green bar itself?'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "More green than white: 5 − 2 = ___", "answer": "3", "wordBank": ["3", "7", "2"] }
+      ],
+      "check": {
+        "question": "Green = 5, white = 2 — how many more green cars than white?",
+        "expectedAnswer": "3 (5 − 2 = 3)",
+        "wrongAnswers": [
+          { "answer": "7", "why": "read 'how many more' as 'how many altogether' and added", "remedy": "'More' asks about the GAP between the bars. Look at the blocks green has that white doesn't — count just those." },
+          { "answer": "5", "why": "read the taller bar's height as the answer", "remedy": "5 is how many green cars there are. But the question wants how many EXTRA green has compared to white — compare the two bars." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "Diagnose 'how many more' on a fresh chart: dogs 6, cats 4 → 2 more dogs.",
+      "note": "The lesson's key diagnostic. '10' = added instead of subtracted; re-run the line-them-up-count-the-gap move.",
+      "successCriteria": "Child answers 2 and can name which two bars they compared.",
+      "script": {
+        "say": "New chart — pets this time! Dogs have 6 blocks, cats have 4. Question: how many MORE dogs than cats? Think about what 'more' asks you to do…",
+        "adaptHints": "After a correct answer, probe: 'Which two bars did you compare? How did you find the gap?'"
+      },
+      "blocks": [
+        { "type": "table", "headers": ["Pet", "Blocks"], "rows": [["Dogs", "⬛⬛⬛⬛⬛⬛"], ["Cats", "⬛⬛⬛⬛"], ["Fish", "⬛⬛"]], "caption": "Pets in our street — every block is 1 pet" },
+        {
+          "type": "multipleChoice",
+          "prompt": "Dogs = 6, cats = 4. How many MORE dogs than cats?",
+          "options": ["2", "10", "6", "4"],
+          "correct": 0,
+          "explain": "'How many more' is the gap: 6 − 4 = 2. Two more dogs."
+        }
+      ],
+      "check": {
+        "question": "Dogs = 6, cats = 4 — how many more dogs than cats?",
+        "expectedAnswer": "2 (6 − 4 = 2)",
+        "wrongAnswers": [
+          { "answer": "10", "why": "added the bars — read 'more' as 'altogether'", "remedy": "'Altogether' would be adding. 'How many MORE' wants the gap. Line the bars up — how many blocks stick out past the cats?" },
+          { "answer": "6", "why": "gave the taller bar's height instead of the difference", "remedy": "6 is the dogs' whole bar. The question asks how many EXTRA blocks the dogs have — compare the two tops." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Independent most/least/how-many-more reads across fresh charts; once secure, interleave totals and a build-from-tally item.",
+      "note": "Director draws from the practiceBank, start level 2. Watch for adding on 'more' questions and misread bar heights. Two-step items are the level-3 goal.",
+      "successCriteria": "Child answers 3+ items correctly including one 'how many more' by subtraction and one total by addition.",
+      "script": {
+        "say": "Practice time, chart champion! Fresh charts, tricky questions — most, least, how many more, and the odd 'altogether' hiding in there to keep you sharp. Read the tops, choose your sum!",
+        "adaptHints": "Re-theme the charts to the child's interests (dinosaur species spotted, goals per team, minibeasts found). Keep every number identical."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: ''more' got read as 'altogether'' or 'a bar top got misread.'",
+        "Redraw the two bars side by side and count ONLY the blocks that stick out past the shorter bar.",
+        "One hint: ''How many more' means the difference — the gap.'",
+        "Re-ask with tiny bars (5 and 3), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states the two rules — tallest = most, 'how many more' = subtract; end on a win.",
+      "note": "Child-led recall; the character listens.",
+      "successCriteria": "Child says ''how many more' means subtract / find the difference' in their own words.",
+      "script": {
+        "say": "Chart wisdom time! How do you spot the MOST on a block diagram? … And what does 'how many more' tell you to do? … Exactly — compare the bars and subtract. You read the tops of the bars carefully and picked the right sum every time — that's clear data thinking, the same thinking scientists use.",
+        "adaptHints": "Praise the specific process observed: finger on the bar tops, choosing subtract vs add, self-correcting an 'altogether' slip."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l22-p01", "skill": "read most and least", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Pets chart: dogs 6 blocks, cats 4 blocks, fish 2 blocks. Which pet is the MOST?", "options": ["dogs", "cats", "fish", "they're equal"], "correct": 0, "explain": "Dogs have the tallest bar — 6 blocks. Tallest bar = most." },
+      "expectedAnswer": "dogs",
+      "wrongAnswers": [
+        { "answer": "cats", "why": "picked a middle bar — didn't compare all the tops", "remedy": "Look at all three bar tops. Which one reaches highest?" },
+        { "answer": "fish", "why": "possibly picked their favourite instead of reading the chart", "remedy": "The chart doesn't care what we like best! Which bar has the most blocks stacked up?" }
+      ],
+      "hints": ["Tallest bar wins.", "Count the blocks in each bar if you're not sure."],
+      "reteach": { "say": "'Most' is a height contest between the bars. Stand them side by side: dogs 6, cats 4, fish 2. The dogs' tower reaches highest — dogs are the most. Shortest tower — fish — is the least.", "block": { "type": "emojiViz", "emojis": "🐶⬛⬛⬛⬛⬛⬛ 🐱⬛⬛⬛⬛ 🐟⬛⬛", "caption": "Tallest bar = most, shortest = least" } }
+    },
+    {
+      "id": "l22-p02", "skill": "read a bar's height", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "Fruit chart: the bananas bar has blocks stacked to the 5. How many bananas were counted?", "answer": 5 },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "4", "why": "counted the gaps or stopped one block short", "remedy": "Touch every block from the bottom to the top: 1, 2, 3… don't stop until your finger is on the very top block." },
+        { "answer": "6", "why": "counted past the top or included the label", "remedy": "Finger on the TOP block, then read straight across to the number line. Where does it point?" }
+      ],
+      "hints": ["One block = one banana.", "Finger on the top block, read across to the number."],
+      "reteach": { "say": "Reading a bar is a lift ride: start at the bottom, count each block as you rise — 1, 2, 3, 4, 5 — and STOP at the top. The top block tells the truth: 5 bananas.", "block": { "type": "emojiViz", "emojis": "🍌 ⬛⬛⬛⬛⬛ = 5", "caption": "Count blocks bottom to top, stop at the top" } }
+    },
+    {
+      "id": "l22-p03", "skill": "how many more (subtract)", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Dogs = 6, cats = 4. How many MORE dogs than cats?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "10", "why": "added instead of finding the difference", "remedy": "'More' asks for the gap, not the pile. Line the bars up — how many dog blocks stick out past the cats?" },
+        { "answer": "6", "why": "gave the bigger bar's height", "remedy": "That's ALL the dogs. We want just the extra ones — the blocks above the cats' line." }
+      ],
+      "hints": ["'How many more' = the difference.", "6 take away 4."],
+      "reteach": { "say": "Stand the bars next to each other. Cats reach 4, dogs reach 6 — the two dog blocks poking out above the cats' line ARE the answer. That poking-out bit is the difference: 6 − 4 = 2.", "block": { "type": "table", "headers": ["height", "dogs", "cats"], "rows": [["6", "⬛ ← extra", ""], ["5", "⬛ ← extra", ""], ["4", "⬛", "⬛"], ["3", "⬛", "⬛"], ["2", "⬛", "⬛"], ["1", "⬛", "⬛"]], "caption": "The blocks that stick out = how many more (2)" } }
+    },
+    {
+      "id": "l22-p04", "skill": "total two categories (add)", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Dogs = 6, fish = 2. How many dogs and fish ALTOGETHER?", "answer": 8 },
+      "expectedAnswer": "8",
+      "wrongAnswers": [
+        { "answer": "4", "why": "subtracted — mixed up 'altogether' with 'how many more'", "remedy": "'Altogether' means join both bars into one big pile. 6 and 2 joined make…?" },
+        { "answer": "6", "why": "gave one bar and forgot to add the other", "remedy": "Both pets count! Start at 6 dogs and count on the 2 fish: 7, 8." }
+      ],
+      "hints": ["'Altogether' means add the bars.", "6 + 2."],
+      "reteach": { "say": "Two magic words, two different sums: 'how many MORE' means subtract the bars; 'ALTOGETHER' means add them. This one says altogether — stack both bars into one mega-bar: 6 + 2 = 8.", "block": { "type": "table", "headers": ["question word", "what you do"], "rows": [["how many MORE", "subtract the bars"], ["ALTOGETHER / total", "add the bars"]], "caption": "Let the question word pick the sum" } }
+    },
+    {
+      "id": "l22-p05", "skill": "how many more (subtract)", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Car chart: red = 7, blue = 4. How many more red cars than blue?", "options": ["3", "11", "7", "4"], "correct": 0, "explain": "The gap between the bars: 7 − 4 = 3." },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "11", "why": "added the two bars", "remedy": "11 would answer 'how many altogether'. 'How many more' wants the gap — take the blue bar away from the red bar." },
+        { "answer": "7", "why": "read the taller bar as the answer", "remedy": "7 is the whole red bar. How many of those red blocks are ABOVE where the blue bar stops?" }
+      ],
+      "hints": ["Compare the two bar tops.", "7 take away 4."],
+      "reteach": { "say": "Picture red and blue racing up the chart. Blue stops at 4; red keeps climbing — 5, 6, 7. Count the climbs red made after blue stopped: three. That's 7 − 4 = 3 more red cars.", "block": { "type": "numberLine", "min": 0, "max": 10, "step": 1, "highlight": 7, "marks": [{ "value": 4, "label": "blue stops" }, { "value": 7, "label": "red stops" }] } }
+    },
+    {
+      "id": "l22-p06", "skill": "read a chart from emoji bars", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Minibeast hunt! Ants ⬛⬛⬛⬛⬛⬛⬛, spiders ⬛⬛⬛, worms ⬛⬛⬛⬛⬛. Which is the LEAST?", "options": ["spiders", "ants", "worms", "can't tell"], "correct": 0, "explain": "Spiders have the shortest bar — only 3 blocks. Shortest = least." },
+      "expectedAnswer": "spiders",
+      "wrongAnswers": [
+        { "answer": "ants", "why": "muddled most and least", "remedy": "Least means the SMALLEST amount. Which bar is shortest?" },
+        { "answer": "worms", "why": "compared only two of the bars", "remedy": "Check all three: ants 7, worms 5, spiders 3. Which number is smallest?" }
+      ],
+      "hints": ["Least = shortest bar.", "Count each bar: 7, 3, 5."],
+      "reteach": { "say": "Line the bars up like towers: ants built 7, worms built 5, spiders only managed 3. The shortest tower is the least — spiders. Most and least are just tallest and shortest in disguise.", "block": { "type": "table", "headers": ["minibeast", "count"], "rows": [["ants", "7 — most"], ["worms", "5"], ["spiders", "3 — least"]], "caption": "Tallest = most, shortest = least" } }
+    },
+    {
+      "id": "l22-p07", "skill": "choose the operation", "level": 3,
+      "block": { "type": "matchPairs", "prompt": "Match each chart question to what you do.", "pairs": [ { "left": "How many more dogs than cats?", "right": "subtract the two bars" }, { "left": "How many pets altogether?", "right": "add the bars" }, { "left": "Which pet is the most?", "right": "find the tallest bar" }, { "left": "Which pet is the least?", "right": "find the shortest bar" } ] },
+      "expectedAnswer": "more→subtract, altogether→add, most→tallest, least→shortest",
+      "wrongAnswers": [
+        { "answer": "How many more dogs than cats? → add the bars", "why": "the add-on-'more' trap", "remedy": "'More' compares — it wants the gap between the bars, and gaps come from subtracting." }
+      ],
+      "hints": ["'More' compares two bars — that's a difference.", "'Altogether' joins bars into one pile."],
+      "reteach": { "say": "Chart questions are a code: MOST — scan for the tallest. LEAST — the shortest. ALTOGETHER — add bars into one pile. HOW MANY MORE — subtract to find the gap. Crack the word, and the chart does the rest.", "block": { "type": "steps", "steps": ["Read the question word: most / least / altogether / how many more.", "Most or least → compare bar heights.", "Altogether → add the bars.", "How many more → subtract the bars."] } }
+    },
+    {
+      "id": "l22-p08", "skill": "two-step chart questions", "level": 3,
+      "block": { "type": "shortText", "prompt": "Chart: red cars = 7, white cars = 2. Answer BOTH: how many more red than white, AND how many red and white altogether?", "sample": "5 more red (7 − 2 = 5); 9 altogether (7 + 2 = 9)." },
+      "expectedAnswer": "5 more; 9 altogether",
+      "wrongAnswers": [
+        { "answer": "9 more; 5 altogether", "why": "swapped the operations — added for 'more' and subtracted for 'altogether'", "remedy": "Match the words to the sums: 'more' is the gap (subtract), 'altogether' is the pile (add). Try each again." },
+        { "answer": "5 more; 5 altogether", "why": "answered the first part and reused it", "remedy": "Two different questions need two different sums. 'Altogether' joins BOTH bars — 7 and 2 make…?" }
+      ],
+      "hints": ["Do them one at a time: gap first, then pile.", "'More' → 7 − 2. 'Altogether' → 7 + 2."],
+      "reteach": { "say": "Same two bars, two different questions! The gap: red reaches 5 blocks past white — 7 − 2 = 5 more. The pile: push both bars together — 7 + 2 = 9 altogether. One chart can answer lots of questions if you pick the right sum each time.", "block": { "type": "table", "headers": ["question", "sum", "answer"], "rows": [["how many more red?", "7 − 2", "5"], ["how many altogether?", "7 + 2", "9"]], "caption": "Two questions, two sums" } }
+    },
+    {
+      "id": "l22-p09", "skill": "build a block diagram from a tally", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "You tallied bikes: one gate of 5 and 1 more. How tall should the bikes bar be on your block diagram?", "options": ["6 blocks", "5 blocks", "2 blocks", "51 blocks"], "correct": 0, "explain": "The tally says 6 (gate of 5 + 1), so the bar gets 6 blocks — one block per bike." },
+      "expectedAnswer": "6 blocks",
+      "wrongAnswers": [
+        { "answer": "5 blocks", "why": "counted the gate but dropped the extra stroke", "remedy": "Count the tally again: the gate is 5, then count on the loose strokes. Every bike gets a block." },
+        { "answer": "2 blocks", "why": "drew one block per tally GROUP instead of per count", "remedy": "Blocks aren't for groups — one block = one bike. How many bikes did the tally count in total?" }
+      ],
+      "hints": ["First read the tally: gate + strokes = ?", "One block for every single bike."],
+      "reteach": { "say": "Tally to chart is a relay race: first the tally hands over its total — gate of 5 plus 1 is 6. Then the chart stacks exactly that many blocks — 6 blocks, one per bike. The total travels; nothing gets lost on the way.", "block": { "type": "steps", "steps": ["Read the tally total (gates in 5s, then strokes).", "Stack exactly that many blocks — one block per count.", "Label the bar."] } }
+    },
+    {
+      "id": "l22-p10", "skill": "how many more (subtract)", "level": 3,
+      "block": { "type": "trueFalse", "statement": "To answer 'how many more dogs than cats?', you ADD the dogs bar and the cats bar.", "correct": false, "explain": "'How many more' is the gap between the bars — subtract: dogs − cats." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — 'more' read as 'altogether'", "remedy": "Adding answers a different question ('altogether'). Line the bars up — is the gap between them found by piling them together, or by taking one from the other?" }
+      ],
+      "hints": ["Does 'more' ask about the pile, or the gap?", "Gaps come from subtracting."],
+      "reteach": { "say": "Watch the trap word: MORE. If dogs have 6 and cats have 4, piling them up gives 10 — but that answers 'altogether'. The gap between the bars is 6 − 4 = 2. 'How many more' always wants the gap.", "block": { "type": "emojiViz", "emojis": "6 − 4 = 2 ✅ | 6 + 4 = 10 ❌(altogether)", "caption": "'How many more' = subtract" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave 'how many more', totals and build-from-tally items so the child picks the operation each time.",
+    "levelDown": "2 misses on the same skill → run that item's reteach with the two bars redrawn side by side and the sticking-out blocks counted together, then serve a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one 'how many more' answered by subtraction and one 'altogether' answered by addition → mastery ≥ 0.8 for 'reading block diagrams'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: 'more' read as 'altogether', or a bar top misread.",
+      "Redraw the two bars side by side; count only the blocks that stick out.",
+      "One hint: ''more' means the difference — the gap.'",
+      "Re-ask with bars of 5 and 3, then build back up.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Re-theme every chart to the learner's world (LearnerModel.interests): goals per team, dinosaurs spotted, cars past THEIR window. Numbers and questions stay identical.",
+    "endOnSuccess": "Finish on a winnable most/least read, then specific process praise: 'you read the bar tops and chose subtract for the gap — that's proper data thinking.'"
+  },
+
+  "differentiation": {
+    "support": "Finger on each bar's top and read across; bars capped at 6; the question word (more/altogether) highlighted before answering.",
+    "stretch": "Build a block diagram from a tally chart; two-step questions ('how many more, AND the total'); ask the child to write their own chart question."
+  },
+  "extension": "Real-data chart — tally cars (or birds, or passers-by) out the window for two minutes, then build the block diagram and ask a 'how many more' question about it.",
+  "assessmentEvidence": "Child reads most/least from bar heights and finds 'how many more' by subtracting two bars (not adding), plus one total by addition.",
+  "revisitLater": "Chart reading returns in the Lesson 25 quiz and in Unit 8 mixed problems; keep one 'more vs altogether' contrast item in the next two starters."
+}

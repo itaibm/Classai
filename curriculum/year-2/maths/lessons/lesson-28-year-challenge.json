@@ -1,0 +1,362 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u8-l28",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 8, "title": "Year-end consolidation", "essentialQuestion": "Can I bring all my Year 2 maths together to solve mixed problems?" },
+  "lessonNumber": 28,
+  "kind": "review",
+  "topic": "Year-end consolidation",
+  "title": "Year 2 maths challenge & review",
+  "durationMin": 24,
+  "objectives": ["By the end, I can show what I have mastered across the whole year."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "place value", "definition": "what a digit is worth because of where it sits", "example": "76 is 7 tens and 6 ones" },
+    { "term": "regroup", "definition": "bundle ten ones into a ten (or break a ten into ones) while calculating", "example": "in 48 + 37, the 15 ones become 1 ten and 5 ones" },
+    { "term": "times table", "definition": "the multiplication facts we know by heart", "example": "5 × 5 = 25" },
+    { "term": "fraction", "definition": "an equal part of a whole or an amount", "example": "¾ of 12 is 9" },
+    { "term": "change", "definition": "the money that comes back when you pay too much", "example": "70p pen, pay £1 — 30p change" },
+    { "term": "data", "definition": "information we collect and show in charts", "example": "the tallest bar shows the most" },
+    { "term": "self-check", "definition": "checking your own answer before anyone else does", "example": "flip the answer card — does yours match?" }
+  ],
+  "emphasize": [
+    "This is a CELEBRATION of mastery — low-stakes, success-rich, a confidence builder, not a test.",
+    "The champion habit is the SELF-CHECK: solve, then check your own answer at every station.",
+    "Note which strands are secure and which are shaky — that's the handover into Year 3."
+  ],
+  "analysis": {
+    "keyConcepts": ["retrieval across all eight units", "self-checking against an answer", "reflecting on strengths and next steps"],
+    "misconceptions": [
+      "48 + 37 without the carried ten (→ 75)",
+      "71 − 26 by swapping the ones digits (→ 55)",
+      "¾ of 12 by subtracting (→ 8) or finding only one quarter (→ 3)",
+      "quarter past read as quarter to (or the minute-hand number read as minutes)",
+      "chart 'most' read from the first bar rather than the tallest",
+      "skipping the self-check when confident"
+    ],
+    "hooks": ["The Year 2 Maths Champion Challenge — six stations, one lap, a badge at the finish!"],
+    "priorKnowledge": ["the whole year — every unit: place value, calculation, fractions, money, measure, time, data and shape"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["six station blocks (place value, sum, times table, fraction, clock, chart)", "answer reveals for self-checking", "the Year 2 Maths Champion badge graphic"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Launch the champion challenge: six stations, one lap, a badge at the finish; the child picks a favourite to look forward to.",
+      "note": "Big celebration energy. Walk the lap quickly, naming each station. Nothing is solved yet.",
+      "successCriteria": "Child is excited, names the station that looks like their favourite kind of maths.",
+      "script": {
+        "say": "Welcome… to the Year 2 Maths Champion Challenge! Six stations, one lap, and a shiny champion badge at the finish line. Look at the course: station one, place value. Two, a big addition. Three, times tables. Four, fractions. Five, the clock. Six, a chart. You've learned ALL of this — today you show it off. Which station looks like YOUR favourite kind of maths?",
+        "adaptHints": "Let the child's favourite station come first in practice if they want. Keep the sports-day/game-show energy high."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🔢 ➕ ✖️ 🍕 🕒 📊 → 🏅", "caption": "Six stations… one champion badge!" }
+      ],
+      "stuckProtocol": ["If nerves appear: remind them there's no losing today — every station has a retry, and the badge is for finishing the lap, not for being perfect."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 6],
+      "goal": "Model the station routine: read the card, solve, flip the answer to SELF-CHECK, tick and move on (or retry with a smaller step).",
+      "note": "Model on the place-value station: 76 = 7 tens and 6 ones. The self-check habit is the one thing to land.",
+      "successCriteria": "Child can say the routine back: solve → check yourself → tick or retry.",
+      "script": {
+        "say": "Every station works the same way. One: read the card. Two: solve it. Three — the champion move — flip the answer and CHECK YOURSELF. If it matches, tick and run to the next station. If not, no problem: try again with a smaller step. Watch me do the place-value station. The card says: partition 76. I think… 7 tens and 6 ones, so 70 and 6. Flip the answer… 70 + 6. It matches — tick! Being your own marker is a champion skill. Say the routine back to me?",
+        "adaptHints": "If the child rushes past the self-check idea, replay it once: 'what's step three?'"
+      },
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "The champion routine",
+          "items": ["Read the station card", "Solve it", "Flip the answer — check YOURSELF", "Match? Tick and move on. No match? Smaller step, try again"]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [6, 9],
+      "goal": "Shared station: the times-table stop — child solves a ×5 fact and performs the self-check aloud.",
+      "note": "'We do' — then the child is solo for the circuit. The self-check must be voiced: 'checked, correct.'",
+      "successCriteria": "Child answers 25 and says the self-check out loud.",
+      "script": {
+        "say": "Let's do the times-table station together, then you're solo for the lap. Card says: 5 bags of 5 sweets — how many? Solve it… now flip the answer card in your head and check yourself. What do you say? … 'Twenty-five — checked, correct!' That's the champion voice. The rest of the lap is all yours.",
+        "adaptHints": "Swap sweets for the child's favourite treat. Celebrate the phrase 'checked, correct' — it's the habit, not just the answer."
+      },
+      "blocks": [
+        { "type": "numberEntry", "prompt": "Times-table station: 5 × 5 = ?", "answer": 25 }
+      ],
+      "check": {
+        "question": "5 bags of 5 — and self-check: how many?",
+        "expectedAnswer": "25 — checked, correct",
+        "wrongAnswers": [
+          { "answer": "10", "why": "added 5 + 5 instead of five groups of 5", "remedy": "Five whole bags, five in EACH. Count in fives on your fingers: 5, 10, 15…" },
+          { "answer": "25 with no self-check", "why": "skipped the champion habit while confident", "remedy": "Right answer — but flip the card anyway! Champions check even the easy ones. What do you say?" }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [9, 13],
+      "goal": "Diagnostic at the fraction station: ¾ of 12 — the year's trickiest retrieval, self-checked.",
+      "note": "After a correct answer, probe: 'How did you self-check?' Listen for sharing into 4 and counting 3 parts.",
+      "successCriteria": "Child answers 9 and explains the share-into-4-count-3 method or their self-check.",
+      "script": {
+        "say": "First solo station: fractions! The card says: what is three quarters of 12? Take your time — share it out in your head, solve, then check yourself before you tell me.",
+        "adaptHints": "If the child needs a picture, draw 12 dots and ring them into 4 groups together — then let them finish alone."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Fraction station: ¾ of 12 = ?",
+          "options": ["9", "8", "3", "4"],
+          "correct": 0,
+          "explain": "Share 12 into 4 equal groups — 3 in each. Three quarters is three of those groups: 3 + 3 + 3 = 9."
+        }
+      ],
+      "check": {
+        "question": "What is ¾ of 12?",
+        "expectedAnswer": "9 (share 12 into 4 plates of 3, count three plates)",
+        "wrongAnswers": [
+          { "answer": "8", "why": "subtracted the 4 (12 − 4) instead of sharing", "remedy": "Quarters come from SHARING, not taking away. Share 12 onto 4 plates — how many on each? Now count three plates." },
+          { "answer": "3", "why": "found ONE quarter and stopped", "remedy": "3 is one quarter — brilliant start! But the card asks for THREE quarters. Count three of your groups." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [13, 20],
+      "goal": "The full circuit, solo: place value, a regrouping sum, an exchange subtraction, times tables, fractions, money, the clock, the chart — self-checking each station.",
+      "note": "Director draws from the practiceBank, one station per strand before any repeats, start level 2. Track which strands are secure vs shaky — this feeds the Year 3 handover. After the lap, redo any missed station with a smaller step so the lap ends complete.",
+      "successCriteria": "Child completes stations across at least six strands, self-checking each; any missed station is retried and won with a smaller step.",
+      "script": {
+        "say": "Champion lap — GO! Station by station, all around the course. Remember the routine at every stop: read, solve, check yourself, tick. If one trips you up, we'll circle back with a smaller step — the lap isn't finished until every station has its tick!",
+        "adaptHints": "Announce each station like a commentator ('and she arrives at the money station!'). Let the child choose the order if they like — every strand still gets visited. Use their interests for the story dressing; never change the numbers."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why — which strand slipped, and which bit of it (the carry, the exchange, the quarter, the hand).",
+        "Bring that station's picture/manipulative on screen (base-10 drawing, plates of dots, clock face, coins).",
+        "One hint, matched to the station.",
+        "Re-ask an easier version of the SAME station, then the real one again.",
+        "Keep it safe: 'Mistakes show us what to keep practising — you're still a champion.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 24],
+      "goal": "Reflection and celebration: easiest station, one to practise more, one thing they're proud of this year — then award the badge.",
+      "note": "Child-led. Record the named shaky strand for the Year 3 handover; celebrate the secure ones. The badge is ALWAYS earned — the lap was completed.",
+      "successCriteria": "Child reflects honestly (easiest, needs-practice, proud-of) and receives the champion badge on a genuine win.",
+      "script": {
+        "say": "The lap is complete — every station ticked! Now the champion's interview: which station was easiest for you? Which would you like more practice on? And tell me ONE thing you're proud of from this whole year of maths… You checked your own work at every station and kept going when one was tricky — that's a true mathematician. Year 2 Maths Champion: the badge is yours!",
+        "adaptHints": "Make the badge moment big — use their name in the title ('Champion [name]!'). Note the shaky strand as an early Year 3 warm-up; name two specific processes you saw (self-checking, retrying with a smaller step)."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "🏅🎉", "caption": "Year 2 Maths Champion — lap complete!" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l28-p01", "skill": "place value: partition", "level": 1,
+      "block": { "type": "fillBlank", "text": "Place-value station: 76 = ___ + 6", "answer": "70", "wordBank": ["70", "7", "60"] },
+      "expectedAnswer": "70",
+      "wrongAnswers": [
+        { "answer": "7", "why": "partitioned the digit, not its value", "remedy": "The 7 in 76 sits in the tens place — seven TENS. Count them: 10, 20, … what are they worth?" },
+        { "answer": "60", "why": "value slip on the tens", "remedy": "How many tens in 76 — six or seven? Count seven tens up: 10, 20, 30…" }
+      ],
+      "hints": ["The 7 is seven TENS.", "Say the number: SEVENTY-six — hear the first part?"],
+      "reteach": { "say": "The number says its own smash: SEVENTY-six. Seventy and six. The 7 is seven tens — worth 70 — and the 6 is six ones. 76 = 70 + 6, checked and ticked!", "block": { "type": "emojiViz", "emojis": "🟦🟦🟦🟦🟦🟦🟦 🔸🔸🔸🔸🔸🔸", "caption": "76 = 7 tens + 6 ones = 70 + 6" } }
+    },
+    {
+      "id": "l28-p02", "skill": "fractions of an amount", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "Fraction station: what is ½ of 10?", "answer": 5 },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "8", "why": "subtracted 2 instead of halving", "remedy": "A half means TWO equal shares. Deal 10 onto two plates — how many on each?" },
+        { "answer": "20", "why": "doubled instead of halving", "remedy": "Half makes it SMALLER — share 10 between 2. Count one share." }
+      ],
+      "hints": ["Half = share between 2.", "Deal them out: one for each plate…"],
+      "reteach": { "say": "Half is the friendliest fraction: two plates, deal the 10 out fairly — 5 and 5. Half of 10 is 5. Check: 5 + 5 rebuilds 10. Ticked!", "block": { "type": "emojiViz", "emojis": "🍪🍪🍪🍪🍪 | 🍪🍪🍪🍪🍪", "caption": "½ of 10 = 5" } },
+      "interestSlots": ["cookies", "grapes"]
+    },
+    {
+      "id": "l28-p03", "skill": "times tables", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "Times-table station: 3 × 10 = ?", "answer": 30 },
+      "expectedAnswer": "30",
+      "wrongAnswers": [
+        { "answer": "13", "why": "added 3 + 10", "remedy": "Three GROUPS of ten — count in tens: 10, 20, …" },
+        { "answer": "310", "why": "wrote the digits side by side", "remedy": "3 × 10 means three tens counted together. Count: 10, 20, 30." }
+      ],
+      "hints": ["Count in tens, three times.", "Three ten-rods — worth how much together?"],
+      "reteach": { "say": "Times ten is the counting-in-tens table: one ten, two tens, three tens — 10, 20, 30. Three tens make thirty. 3 × 10 = 30.", "block": { "type": "numberLine", "min": 0, "max": 50, "step": 10, "highlight": 30, "marks": [{ "value": 30, "label": "3 × 10" }] } }
+    },
+    {
+      "id": "l28-p04", "skill": "addition with regrouping", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Addition station: 48 + 37 = ?", "answer": 85 },
+      "expectedAnswer": "85",
+      "wrongAnswers": [
+        { "answer": "75", "why": "the no-exchange trap — dropped the carried ten from 8 + 7", "remedy": "8 + 7 makes 15 — a five AND a brand-new ten. Where does that new ten go?" },
+        { "answer": "715", "why": "wrote all of 15 in the ones column", "remedy": "Only ONE digit fits in the ones place. 15 ones = 1 ten and 5 ones — send the ten to the tens." }
+      ],
+      "hints": ["Estimate first: about 50 + 40 = 90.", "8 + 7 = 15 → write 5, carry the ten."],
+      "reteach": { "say": "Ones first: 8 + 7 = 15 — five stays, the new ten marches over to the tens column. Tens: 4 + 3 + 1 = 8. Eighty-five, right beside our estimate of 90. Self-check passed!", "block": { "type": "table", "headers": ["column", "working"], "rows": [["ones", "8 + 7 = 15 → 5, carry 1"], ["tens", "4 + 3 + 1 = 8"], ["answer", "85 ✓"]], "caption": "48 + 37 = 85" } }
+    },
+    {
+      "id": "l28-p05", "skill": "subtraction with exchange", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Subtraction station: 71 − 26 = ?", "answer": 45 },
+      "expectedAnswer": "45",
+      "wrongAnswers": [
+        { "answer": "55", "why": "the digit-swap trap — did 6 − 1 instead of exchanging", "remedy": "In the ones it's 1 take away 6 — not enough, and we never flip it round! What can one of the tens turn into?" },
+        { "answer": "97", "why": "added instead of subtracting", "remedy": "Minus means the amount shrinks. Estimate: about 70 − 30 = 40 — can 97 be right?" }
+      ],
+      "hints": ["Estimate: about 70 − 30 = 40.", "1 take away 6 won't go — exchange a ten for ten ones."],
+      "reteach": { "say": "The ones run short: 1 take away 6 — can't do it, no swapping allowed! Exchange one ten: now 71 is 6 tens and 11 ones. 11 − 6 = 5, and 6 tens − 2 tens = 4 tens. Forty-five — and the inverse check agrees: 45 + 26 = 71. Ticked!", "block": { "type": "table", "headers": ["step", "tens", "ones"], "rows": [["71", "7", "1"], ["exchange a ten", "6", "11"], ["take 26", "6 − 2 = 4", "11 − 6 = 5"], ["answer", "4", "5 → 45"]], "caption": "Exchange, don't swap!" } }
+    },
+    {
+      "id": "l28-p06", "skill": "fractions of an amount", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "Fraction station: ¼ of 8 = ?", "answer": 2 },
+      "expectedAnswer": "2",
+      "wrongAnswers": [
+        { "answer": "4", "why": "halved instead of quartering (or confused ¼ with the 4)", "remedy": "A quarter means FOUR equal shares. Deal 8 onto four plates — how many on each?" },
+        { "answer": "7", "why": "subtracted 1", "remedy": "¼ isn't 'take one away' — it's share into 4 equal groups. Deal them out." }
+      ],
+      "hints": ["Quarter = share between 4.", "8 shared onto 4 plates — count one plate."],
+      "reteach": { "say": "Quarters need four plates. Deal the 8 out: one each, one each — every plate gets 2. A quarter of 8 is 2. Check by rebuilding: 2 + 2 + 2 + 2 = 8. Ticked!", "block": { "type": "emojiViz", "emojis": "🍓🍓 | 🍓🍓 | 🍓🍓 | 🍓🍓", "caption": "¼ of 8 = 2" } },
+      "interestSlots": ["strawberries", "marbles"]
+    },
+    {
+      "id": "l28-p07", "skill": "tell the time", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Clock station: the clock shows quarter past 3. What time is that?", "options": ["3:15", "3:45", "4:15", "3:03"], "correct": 0, "explain": "Quarter past = 15 minutes after the hour. Quarter past 3 is 3:15 — minute hand on the 3." },
+      "expectedAnswer": "3:15",
+      "wrongAnswers": [
+        { "answer": "3:45", "why": "mixed quarter past with quarter to", "remedy": "PAST means just after the hour begins — a quarter of the way round. Is that 15 minutes in, or 15 minutes before the next hour?" },
+        { "answer": "3:03", "why": "read the minute hand's number (3) as 3 minutes", "remedy": "Each clock number is worth FIVE minutes. Count round to the 3 in fives: 5, 10, 15." }
+      ],
+      "hints": ["Quarter of an hour = 15 minutes.", "Minute hand on the 3 — count in 5s from the 12."],
+      "reteach": { "say": "The clock counts minutes in fives. From the 12, hop to the 3: 5, 10, 15 — fifteen minutes past three. Quarter past 3 = 3:15. And remember its twin: quarter TO comes before the hour, at the 9.", "block": { "type": "table", "headers": ["words", "minute hand", "digital"], "rows": [["quarter past 3", "on the 3", "3:15"], ["half past 3", "on the 6", "3:30"], ["quarter to 4", "on the 9", "3:45"]], "caption": "The quarter family" } }
+    },
+    {
+      "id": "l28-p08", "skill": "read a chart", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Chart station: the bar chart shows apples 5, bananas 8, cherries 3. Which fruit is the MOST popular?", "options": ["bananas", "apples", "cherries"], "correct": 0, "explain": "Most = the tallest bar. Bananas reach 8 — taller than 5 and 3." },
+      "expectedAnswer": "bananas (8 — the tallest bar)",
+      "wrongAnswers": [
+        { "answer": "apples", "why": "read the first bar instead of comparing heights", "remedy": "Don't stop at the first bar — run your eyes along ALL the tops. Which reaches highest?" },
+        { "answer": "cherries", "why": "picked least instead of most", "remedy": "Most means the TALLEST. Which bar would win a height contest?" }
+      ],
+      "hints": ["Most = tallest bar.", "Compare all the bar tops before choosing."],
+      "reteach": { "say": "'Most' is a height contest between the bars. Line them up: apples 5, bananas 8, cherries 3. Bananas tower over the rest — 8 is the most. And 'least' would be the shortest: cherries with 3.", "block": { "type": "table", "headers": ["fruit", "count"], "rows": [["apples", "5"], ["bananas", "8 ← most"], ["cherries", "3 ← least"]], "caption": "Most = tallest, least = shortest" } },
+      "interestSlots": ["fruits", "favourite games"]
+    },
+    {
+      "id": "l28-p09", "skill": "place value: compare", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "Bonus place-value question: which is bigger, 72 or 27?", "options": ["72", "27", "They are equal"], "correct": 0, "explain": "Compare tens first: 72 has 7 tens (seventy), 27 has only 2 tens (twenty). Same digits — very different numbers!" },
+      "expectedAnswer": "72",
+      "wrongAnswers": [
+        { "answer": "27", "why": "compared ones (7 > 2) instead of tens", "remedy": "Tens first, always. How many tens in each? Which tens tower is taller?" },
+        { "answer": "They are equal", "why": "same digits, so 'the same' — the position trap", "remedy": "Same digits, different PLACES. In 72 the 7 is seven TENS. In 27 it's only seven ones. Build both." }
+      ],
+      "hints": ["Look at the tens first.", "7 tens or 2 tens — which is more?"],
+      "reteach": { "say": "Same two digits, totally different numbers — the place gives the power. 72 is seven tens: seventy-two. 27 is just two tens: twenty-seven. Tens first and the winner is obvious: 72.", "block": { "type": "table", "headers": ["number", "tens", "ones"], "rows": [["72", "7 tens = 70", "2"], ["27", "2 tens = 20", "7"]], "caption": "Place decides the value" } }
+    },
+    {
+      "id": "l28-p10", "skill": "money: change", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Money station: a pen costs 70p and you pay £1. How much change (in p)?", "answer": 30 },
+      "expectedAnswer": "30p",
+      "wrongAnswers": [
+        { "answer": "70", "why": "gave the price back instead of the change", "remedy": "70p went to the shopkeeper. The change is the journey from 70 UP to 100 — count the hops." },
+        { "answer": "40", "why": "count-up slip", "remedy": "Careful tens: 70… 80, 90, 100. How many tens did you hop?" }
+      ],
+      "hints": ["£1 = 100p — count up from 70.", "80, 90, 100 — how many tens?"],
+      "reteach": { "say": "Count up from the price: 70… 80 (that's 10), 90 (20), 100 (30). Three tens — 30p change from £1. And self-check: 70p + 30p rebuilds the whole pound. Ticked!", "block": { "type": "numberLine", "min": 50, "max": 100, "step": 10, "highlight": 100, "marks": [{ "value": 70, "label": "price" }, { "value": 100, "label": "£1" }] } },
+      "interestSlots": ["pen", "toy"]
+    },
+    {
+      "id": "l28-p11", "skill": "fractions of an amount", "level": 3,
+      "block": { "type": "numberEntry", "prompt": "Champion fraction: ¾ of 12 = ?", "answer": 9 },
+      "expectedAnswer": "9",
+      "wrongAnswers": [
+        { "answer": "8", "why": "subtracted 4 from 12 instead of sharing", "remedy": "Quarters come from sharing into 4. Deal 12 onto 4 plates first — then count THREE plates." },
+        { "answer": "3", "why": "found one quarter and stopped", "remedy": "3 is ¼ — great first step! The card wants THREE quarters: 3 + 3 + 3." }
+      ],
+      "hints": ["Share 12 into 4 equal groups first.", "One quarter is 3 — now count three quarters."],
+      "reteach": { "say": "Two little steps. Step one: share 12 into 4 plates — 3 on each, so one quarter is 3. Step two: three quarters means three plates — 3, 6, 9. ¾ of 12 = 9. Check: the last plate holds the missing 3, and 9 + 3 = 12. Ticked!", "block": { "type": "emojiViz", "emojis": "🍇🍇🍇 ✓ | 🍇🍇🍇 ✓ | 🍇🍇🍇 ✓ | 🍇🍇🍇", "caption": "¾ of 12 = three plates of 3 = 9" } },
+      "interestSlots": ["grapes", "football cards"]
+    },
+    {
+      "id": "l28-p12", "skill": "tell the time", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Champion clock: what time is QUARTER TO 7?", "options": ["6:45", "7:45", "7:15", "6:15"], "correct": 0, "explain": "'To 7' means before 7 — it's still 6-something. A quarter (15 minutes) before 7:00 is 6:45, minute hand on the 9." },
+      "expectedAnswer": "6:45",
+      "wrongAnswers": [
+        { "answer": "7:45", "why": "the past/to trap — kept the 7 as the hour", "remedy": "TO means we haven't reached 7 yet. Is it still 6-something or already 7-something?" },
+        { "answer": "7:15", "why": "flipped 'to' into 'past'", "remedy": "Quarter PAST 7 would be 7:15. Quarter TO 7 is on the other side — 15 minutes BEFORE 7." }
+      ],
+      "hints": ["'To' means before the hour.", "Count back 15 minutes from 7:00."],
+      "reteach": { "say": "'To' looks forward to the next hour: quarter to 7 means 15 minutes still to go before 7 o'clock. So the hour digit is 6, and the minutes are 45. Quarter to 7 = 6:45, minute hand pointing at the 9.", "block": { "type": "table", "headers": ["words", "digital"], "rows": [["quarter past 6", "6:15"], ["half past 6", "6:30"], ["quarter to 7", "6:45 ✓"]], "caption": "One hour's journey" } }
+    },
+    {
+      "id": "l28-p13", "skill": "fractions: equal parts", "level": 3,
+      "block": { "type": "trueFalse", "statement": "A biscuit is snapped into 2 pieces — one big, one small. Each piece is a half.", "correct": false, "explain": "Halves must be EQUAL. Two different-sized pieces are just two pieces — not halves." },
+      "expectedAnswer": "False — halves must be two EQUAL parts",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the unequal-parts misconception — 'two pieces = halves'", "remedy": "Would you be happy with the small piece if your friend took the big one and called it fair? What must be true about the two pieces for each to be a half?" }
+      ],
+      "hints": ["What must be true about the two pieces?", "Fair shares — would both friends be happy?"],
+      "reteach": { "say": "Fractions are the fairness police! A half means two pieces EXACTLY the same size — fold-on-top-of-each-other equal. A big bit and a little bit are just… two bits. Snap fairly, or it's not a half.", "block": { "type": "emojiViz", "emojis": "🍪➗ = 🟰", "caption": "Halves must be EQUAL parts" } }
+    },
+    {
+      "id": "l28-p14", "skill": "design a challenge (reflection)", "level": 3,
+      "block": { "type": "shortText", "prompt": "Champion's bonus station: design ONE maths question for ME to solve — from any station you like. Tell me the question AND the answer so you can mark me!", "sample": "What is 5 × 10? Answer: 50 — and I'll check if the tutor shares it fairly!" },
+      "expectedAnswer": "A well-formed question from any Year 2 strand, with the correct answer supplied",
+      "wrongAnswers": [
+        { "answer": "a question with a wrong answer key", "why": "answer not checked before setting it", "remedy": "Quiz masters self-check too! Solve your own question first — does your answer pass the check?" },
+        { "answer": "a question too hard to answer (no answer given)", "why": "set without solving", "remedy": "A champion only sets questions they can mark. Pick a station you OWN and write one from there." }
+      ],
+      "hints": ["Pick your strongest station.", "Solve it yourself first so you can mark me."],
+      "reteach": { "say": "Being the quiz master is the top of the mountain — you have to know the answer to mark it! Pick your favourite station, write one question like the cards we used, and solve it yourself first. Then fire it at me and mark me strictly!", "block": { "type": "emojiViz", "emojis": "🎓✍️➡️🤖", "caption": "You set it, you mark it — quiz master mode" } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; the circuit always rotates strands — never two stations from the same strand in a row.",
+    "levelDown": "2 misses at the same station → run that item's reteach with the strand's picture/manipulative on screen, then a level-1 item from the same strand so the station still ends in a tick.",
+    "masterySignal": "Correct, self-checked answers across at least six strands (place value, add with regrouping, subtract with exchange, times tables, fraction of an amount, money change, time past/to, chart reading) at level 2+ → year-end mastery ≥ 0.8 for Year 2 maths; log secure vs shaky strands per the end-of-year mastery checks as the Year 3 handover.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why — which strand slipped, and which step inside it (the carry, the exchange, the quarter, the hand, the key).",
+      "Bring that station's manipulative on screen (base-10, plates of dots, coins, clock, chart).",
+      "One hint matched to the station.",
+      "Re-ask an easier version of the SAME station, then return to the real one.",
+      "Keep it safe: 'Mistakes show us what to keep practising — you're still a champion.'"
+    ],
+    "personalization": "Dress every station in the learner's world — their snacks at the money station, their bedtime at the clock, their collections in the chart — numbers, times and maths never change. Start with their self-named favourite station to open on confidence.",
+    "endOnSuccess": "The lap must end complete: any missed station is retried at a smaller step until it earns its tick, THEN the badge ceremony — with process praise naming the self-checks and retries the child actually did."
+  },
+
+  "differentiation": {
+    "support": "Child chooses which stations to visit first; every station keeps its manipulative picture on screen; smaller-step retries until each station is ticked.",
+    "stretch": "Beat-the-clock the circuit; the design-your-own bonus station (l28-p14) — write a question and mark the tutor's answer."
+  },
+  "extension": "Create a seventh 'design-your-own' station: the child writes a question for the tutor, marks the tutor's (deliberately imperfect) answer, and explains the correction.",
+  "assessmentEvidence": "Child completes a mixed end-of-year circuit spanning all eight units, self-checks at every station, and reflects on strengths and next steps — the evidence base for the end-of-year mastery checks and the Year 3 handover.",
+  "revisitLater": "Carry the named shaky strand into Year 3 as an early warm-up; celebrate and occasionally re-fire the secure strands (spaced retrieval) so the champion stays sharp over the break."
+}

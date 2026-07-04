@@ -1,0 +1,316 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u2-l10",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 2, "title": "Spelling with suffixes", "essentialQuestion": "How do I add an ending to a word so it's still spelled correctly?" },
+  "lessonNumber": 10,
+  "kind": "lesson",
+  "topic": "Spelling with suffixes",
+  "title": "Word-builders: -ful, -less, -ness, -ly, -ment",
+  "durationMin": 25,
+  "objectives": ["By the end, I can add a meaning-changing suffix to build a new word."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "-ful", "definition": "full of", "example": "helpful = full of help" },
+    { "term": "-less", "definition": "without", "example": "helpless = without help" },
+    { "term": "-ness", "definition": "a 'thing' word — the state of being", "example": "kindness = being kind" },
+    { "term": "-ly", "definition": "how / in this way", "example": "quickly = in a quick way" },
+    { "term": "-ment", "definition": "the result of doing something", "example": "enjoyment = the result of enjoying" }
+  ],
+  "emphasize": [
+    "These suffixes are word-builders that change MEANING, not just spelling. Headline pair: -ful (full of) vs -less (without) — opposite meanings from one root.",
+    "The must-not-miss spelling rule: -ful is spelled with ONE l (even though the word full has two). Pre-empt 'carefull'.",
+    "For most roots, just add the whole suffix to the whole root; if the root ends in y, change y → i first (happy → happiness)."
+  ],
+  "analysis": {
+    "keyConcepts": ["meaning-changing suffixes build new words: -ful, -less, -ness, -ly, -ment", "-ful/-less give opposites from one root", "-ful has one l; y-ending roots do y → i first (happiness, happily)"],
+    "misconceptions": [
+      "spelling -ful with two l's: 'carefull', 'helpfull'",
+      "changing the root unnecessarily: 'carful' (these suffixes start with consonants, so even silent-e roots keep their e — hopeful)",
+      "forgetting y → i with a y-ending root: 'happyness'"
+    ],
+    "hooks": ["One little word makes two OPPOSITE words: helpful (full of help) vs helpless (without help). Build superhero words: powerful, fearless!"],
+    "priorKnowledge": ["root + suffix; suffixes are endings added to roots (Lessons 5–9)", "y → i (Lesson 8)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["word-building slideshow", "on-screen '-ful = ONE l' reminder card", "practice bank"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Feel the meaning power: help → helpful vs helpless — same root, opposite meanings; retrieve 'suffix'.",
+      "note": "Act the meanings (thumbs up for helpful, shrug for helpless) — meaning is the star today, not just spelling.",
+      "successCriteria": "Child says a suffix is an ending added to a root, and hears the -ful/-less opposition.",
+      "script": {
+        "say": "Watch one little word make two opposite words! Help plus -ful means FULL of help — helpful. Help plus -less means WITHOUT any help — helpless. Same root, opposite meanings! These suffixes are word-builders — they change what a word means. Let's build some. First, remind me — what's a suffix?",
+        "adaptHints": "Listen for: an ending we add to a root word. If shaky: 'It's a tail on a word — like the -ing in jumping. Today's tails change the meaning.' Act out helpful (thumbs up) and helpless (big shrug)."
+      },
+      "blocks": [
+        { "type": "table", "headers": ["build", "word", "meaning"], "rows": [["help + ful", "helpful", "FULL of help 👍"], ["help + less", "helpless", "WITHOUT help 🤷"]] }
+      ],
+      "stuckProtocol": ["If 'suffix' is shaky: point back to jumping from Lesson 5 — 'the -ing was a tail; today's tails change what the word MEANS.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 9],
+      "goal": "Teach the five word-builders from the root care (+ kind, quick, enjoy), flagging the ONE-l spelling of -ful and the y → i special.",
+      "note": "Point firmly at the single l in careful. One new idea per suffix — meaning first, spelling second.",
+      "successCriteria": "Child can give the meaning of -ful and -less and says '-ful has one l'.",
+      "script": {
+        "say": "Five word-builder suffixes. Watch me build from care. Care plus -ful = careful — full of care. BUT careful! -ful has only ONE l, even though the word full has two. Care plus -less = careless — without care. Now kind plus -ness = kindness — -ness makes a 'thing' word, the state of being kind. Quick plus -ly = quickly — -ly tells us HOW. Enjoy plus -ment = enjoyment — -ment names the result. For all of these, I just add the whole suffix on. One special: if the root ends in y, change y to i first — happy → happiness.",
+        "adaptHints": "Repeat the headline: '-ful means full of — and it's spelled with just ONE l.' Keep each suffix to one breath; the slideshow carries the detail."
+      },
+      "blocks": [
+        {
+          "type": "slideshow",
+          "title": "The five word-builders",
+          "slides": [
+            { "title": "care + ful = careful", "body": "Full of care. ⚠️ The suffix -ful has only ONE l — even though full has two!", "emoji": "🧡" },
+            { "title": "care + less = careless", "body": "WITHOUT care — the opposite of careful. One root, two opposite words!", "emoji": "💥" },
+            { "title": "kind + ness = kindness", "body": "-ness builds a 'thing' word: the state of being kind.", "emoji": "💗" },
+            { "title": "quick + ly = quickly", "body": "-ly tells us HOW something happens: in a quick way.", "emoji": "🏃" },
+            { "title": "enjoy + ment = enjoyment", "body": "-ment names the result of doing something.", "emoji": "🎉" },
+            { "title": "The y special", "body": "If the root ends in y, change y → i first: happy → happiness, happy → happily.", "emoji": "🔁" }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [9, 14],
+      "goal": "Shared building from hope, pain and sad — noticing that -ful/-less start with consonants, so the silent e in hope STAYS.",
+      "note": "hopeful is a quiet contrast with Lesson 6: no vowel suffix, so no e-dropping. Name it lightly, don't dwell.",
+      "successCriteria": "Child builds hopeful/hopeless and painful/painless and answers 'one l' for careful.",
+      "script": {
+        "say": "Build with me. Take hope. Add -ful — full of hope? … Hopeful! And look — -ful starts with a consonant, so the silent e just stays put this time. Now add -less — without hope? … Hopeless. Try pain: painful… painless. And sad plus -ness? … Sadness. Now the big question: add -ful to care. How many l's?",
+        "adaptHints": "If the child drops hope's e, gently contrast with Lesson 6: 'the e only hops off for VOWEL suffixes like -ing. -ful starts with f — the e can stay comfy.'"
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "hope + ful = ___", "answer": "hopeful", "wordBank": ["hopeful", "hopful", "hopefull"] },
+        { "type": "fillBlank", "text": "pain + less = ___", "answer": "painless", "wordBank": ["painless", "painles", "painnless"] }
+      ],
+      "check": {
+        "question": "Add -ful to care. How many l's?",
+        "expectedAnswer": "careful — one l",
+        "wrongAnswers": [
+          { "answer": "carefull", "why": "copied the word full (two l's)", "remedy": "The word full has two l's, but the suffix -ful drops one. Look at the reminder card — just one l." },
+          { "answer": "carful", "why": "dropped a needed letter from the root", "remedy": "Keep the whole root care, then add -ful. The root doesn't change here." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [14, 16],
+      "goal": "The key diagnostic: care + ful → careful with ONE l.",
+      "note": "Probe the why: the suffix -ful loses an l. This is the unit's flagged spelling trap.",
+      "successCriteria": "Child spells careful with one l and explains why.",
+      "script": {
+        "say": "Add -ful to care.",
+        "adaptHints": "After success, probe: 'How many l's — and why not two?' Listen for: the suffix -ful loses an l / -ful has one l even though full has two."
+      },
+      "blocks": [
+        { "type": "multipleChoice", "prompt": "care + ful = ?", "options": ["careful", "carefull", "carful", "carefil"], "correct": 0, "explain": "Whole root + the suffix -ful with ONE l: careful. (The word full has two l's — the suffix dropped one.)" }
+      ],
+      "check": {
+        "question": "Add -ful to care.",
+        "expectedAnswer": "careful — one l",
+        "wrongAnswers": [
+          { "answer": "carefull", "why": "copied the word full (two l's)", "remedy": "Show the reminder card: '-ful = ONE l'. The word full has two, but the suffix -ful drops one. Just one l." },
+          { "answer": "carful", "why": "changed the root unnecessarily", "remedy": "Keep the whole root care, then add -ful. The root doesn't change here." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [16, 22],
+      "goal": "Independent word-building: the child builds new words with all five suffixes and uses one in a spoken sentence.",
+      "note": "Director draws from practiceBank, start level 2. Encourage a -ful/-less pair from one root; every built word gets read aloud, and at least one goes into a sentence.",
+      "successCriteria": "Child builds at least two correct meaning-suffix words including one -ful with a single l, and uses one in a sentence.",
+      "script": {
+        "say": "Your turn, word-builder! Build me new words with your five suffixes. For your best one, put it in a sentence out loud — like 'My dog is playful.' Bonus points for building a -ful AND a -less from the same root!",
+        "adaptHints": "Steer sentence topics to the child's world (their pet is playful, their hero is fearless). Check every built word is REAL — gently park invented non-words."
+      },
+      "stuckProtocol": [
+        "Don't build it for them.",
+        "Name why: 'let's check the suffix spelling / the meaning.'",
+        "Step down: give a root and two suffix cards to match into real words.",
+        "ONE hint: '-ful means full of — say the meaning, then build.'",
+        "Re-ask a smaller version (just build, no sentence).",
+        "Keep it safe: 'Word-building is inventing — let's make one real word together.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [22, 25],
+      "goal": "Child states the meanings of -ful/-less and the one-l trap; end the unit on a win.",
+      "note": "This closes Unit 2 — the End-of-Unit check (hopping, hoped, happier + careful, kindness, happily) runs next session as a warm-up.",
+      "successCriteria": "Child says: -ful = full of, -less = without; -ful has one l.",
+      "script": {
+        "say": "Tell me what -ful and -less mean — and the spelling trap for -ful. … Perfect. You built real words AND used one in a sentence — and you remembered -ful has just one l. That's a word-builder at work. You've now got every suffix trick in the book!",
+        "adaptHints": "Process praise the building-and-checking habit. Tease the superhero extension (powerful, fearless) if energy is high."
+      },
+      "blocks": [
+        { "type": "speak", "prompt": "Say your favourite word you built today, and tell me what it means.", "target": "A real built word + its meaning, e.g. 'fearless — without fear!'" }
+      ]
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l10-p01", "skill": "know the suffix meanings", "level": 1,
+      "block": { "type": "matchPairs", "prompt": "Match each suffix to its meaning.", "pairs": [ { "left": "-ful", "right": "full of" }, { "left": "-less", "right": "without" }, { "left": "-ness", "right": "a 'thing' — the state of being" }, { "left": "-ly", "right": "how / in this way" } ] },
+      "expectedAnswer": "-ful→full of, -less→without, -ness→state of being, -ly→how",
+      "wrongAnswers": [
+        { "answer": "-less → full of", "why": "swapped the opposite pair", "remedy": "Think of helpless — is a helpless kitten FULL of help, or WITHOUT it?" },
+        { "answer": "-ly → a 'thing'", "why": "mixed -ly and -ness jobs", "remedy": "Quickly tells you HOW you run. Kindness is a THING you can show. Which is which?" }
+      ],
+      "hints": ["helpful vs helpless — one is full, one is without.", "-ly answers the question 'how?'"],
+      "reteach": { "say": "Four tails, four jobs: -ful fills a word up (helpful), -less empties it (helpless), -ness turns it into a thing (kindness), and -ly tells you how (quickly). Say each example and its meaning together.", "block": { "type": "table", "headers": ["suffix", "job", "example"], "rows": [["-ful", "full of", "helpful"], ["-less", "without", "helpless"], ["-ness", "a thing/state", "kindness"], ["-ly", "how", "quickly"]] } }
+    },
+    {
+      "id": "l10-p02", "skill": "build -ful words with one l", "level": 1,
+      "block": { "type": "fillBlank", "text": "help + ful = ___", "answer": "helpful", "wordBank": ["helpful", "helpfull", "helful"] },
+      "expectedAnswer": "helpful",
+      "wrongAnswers": [
+        { "answer": "helpfull", "why": "copied the word full (two l's)", "remedy": "The suffix -ful drops an l! Check the reminder card — how many l's?" },
+        { "answer": "helful", "why": "lost a letter from the root", "remedy": "Keep the WHOLE root help — h-e-l-p — then add -ful." }
+      ],
+      "hints": ["Whole root + whole suffix.", "-ful = ONE l."],
+      "reteach": { "say": "Build it in two clean pieces: help… ful. The root stays whole, and the suffix -ful brings just one l: helpful. Full of help!", "block": { "type": "emojiViz", "emojis": "🤝", "caption": "help + ful = helpful (one l!)" } },
+      "interestSlots": ["pets", "friends"]
+    },
+    {
+      "id": "l10-p03", "skill": "choose the right suffix for a meaning", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "Which word means WITHOUT fear?", "options": ["fearless", "fearful", "fearness"], "correct": 0, "explain": "-less means without: fearless = without fear. (Fearful means FULL of fear — the opposite!)" },
+      "expectedAnswer": "fearless",
+      "wrongAnswers": [
+        { "answer": "fearful", "why": "picked 'full of' instead of 'without'", "remedy": "-ful fills, -less empties. A superhero without fear is fear…?" },
+        { "answer": "fearness", "why": "grabbed a suffix that doesn't fit the meaning", "remedy": "-ness makes a thing-word. We want 'WITHOUT fear' — which suffix means without?" }
+      ],
+      "hints": ["-less means without.", "Think of a brave superhero — no fear at all."],
+      "reteach": { "say": "Superhero words! Fearless = without fear — the -less empties the fear right out. Fearful is its opposite — full of fear. One root, two opposite heroes.", "block": { "type": "table", "headers": ["word", "meaning"], "rows": [["fearless", "without fear 🦸"], ["fearful", "full of fear 😨"]] } },
+      "interestSlots": ["superheroes", "brave animals"]
+    },
+    {
+      "id": "l10-p04", "skill": "build -ness words", "level": 2,
+      "block": { "type": "fillBlank", "text": "kind + ness = ___", "answer": "kindness", "wordBank": ["kindness", "kindess", "kindnes"] },
+      "expectedAnswer": "kindness",
+      "wrongAnswers": [
+        { "answer": "kindess", "why": "lost the n where root meets suffix", "remedy": "Build in two pieces: kind ends in d… -ness starts with n. Both letters stay: kind-ness." },
+        { "answer": "kindnes", "why": "dropped the final s", "remedy": "The suffix is -ness, n-e-s-s — double s at the end. kind + ness." }
+      ],
+      "hints": ["Whole root + whole suffix: kind + ness.", "-ness ends in double s."],
+      "reteach": { "say": "-ness turns kind into a THING you can give: kindness. Two clean pieces, nothing lost: k-i-n-d + n-e-s-s. Showing kindness makes someone's day!", "block": { "type": "emojiViz", "emojis": "💗", "caption": "kind + ness = kindness" } }
+    },
+    {
+      "id": "l10-p05", "skill": "build -ly words", "level": 2,
+      "block": { "type": "fillBlank", "text": "quick + ly = ___ (it tells us HOW)", "answer": "quickly", "wordBank": ["quickly", "quickley", "quicly"] },
+      "expectedAnswer": "quickly",
+      "wrongAnswers": [
+        { "answer": "quickley", "why": "added a stray e to the suffix", "remedy": "The suffix is just -ly, two letters: l-y. quick + ly." },
+        { "answer": "quicly", "why": "lost the k from the root", "remedy": "Keep the whole root quick — q-u-i-c-k — then add -ly." }
+      ],
+      "hints": ["-ly is only two letters.", "Whole root, then l-y."],
+      "reteach": { "say": "-ly is the tiniest tail — just l-y — and it answers 'how?' Run how? Quickly! Whole root quick, tiny tail -ly: quickly.", "block": { "type": "emojiViz", "emojis": "🏃💨", "caption": "quick + ly = quickly" } },
+      "interestSlots": ["racing", "favourite fast animals"]
+    },
+    {
+      "id": "l10-p06", "skill": "build -ment words", "level": 2,
+      "block": { "type": "fillBlank", "text": "enjoy + ment = ___", "answer": "enjoyment", "wordBank": ["enjoyment", "enjoiment", "enjoymment"] },
+      "expectedAnswer": "enjoyment",
+      "wrongAnswers": [
+        { "answer": "enjoiment", "why": "changed the y — but enjoy's y has a vowel before it", "remedy": "Peek before the y in enjoy — there's an o! A y with a vowel friend stays put. Just add -ment." },
+        { "answer": "enjoymment", "why": "doubled where no rule applies", "remedy": "No doubling needed — whole root + whole suffix: enjoy + ment." }
+      ],
+      "hints": ["Enjoy's y has a vowel before it — it stays.", "Whole root + m-e-n-t."],
+      "reteach": { "say": "-ment names the result: enjoy something and you get enjoyment! Enjoy keeps its y (there's a vowel before it, like play), and -ment clicks straight on: enjoyment.", "block": { "type": "table", "headers": ["root", "+ ment", "meaning"], "rows": [["enjoy", "enjoyment", "the result of enjoying"]] } }
+    },
+    {
+      "id": "l10-p07", "skill": "build a word and use it in a sentence", "level": 2,
+      "block": { "type": "speak", "prompt": "Build a word with -ful or -less, then say it in a whole sentence out loud. (Like: 'My dog is playful.')", "target": "A real -ful/-less word inside a spoken sentence" },
+      "expectedAnswer": "A real built word (playful, careless, hopeful…) used correctly in a spoken sentence",
+      "wrongAnswers": [
+        { "answer": "says the word but no sentence", "why": "built the word but didn't use it", "remedy": "Great build! Now wrap a sentence around it — who or what is playful?" },
+        { "answer": "a non-word like 'chairless-ful'", "why": "stacked suffixes into a non-word", "remedy": "One suffix at a time — and the word must be REAL. Try your root with just -ful. Is that a word people say?" }
+      ],
+      "hints": ["Pick a root you love: play, care, hope, fear…", "Say the meaning first ('full of play'), then the sentence."],
+      "reteach": { "say": "Words come alive in sentences! Build small: play + ful = playful, full of play. Now aim it at someone: 'My puppy is playful.' Your turn — build, then aim.", "block": { "type": "steps", "title": "Build then use", "steps": ["1. Pick a root (play, care, hope…)", "2. Add -ful or -less", "3. Say the meaning", "4. Say it in a sentence"] } },
+      "interestSlots": ["pets", "family members", "favourite characters"]
+    },
+    {
+      "id": "l10-p08", "skill": "y → i before -ness/-ly", "level": 3,
+      "block": { "type": "fillBlank", "text": "happy + ness = ___ (careful — the root ends in y!)", "answer": "happiness", "wordBank": ["happiness", "happyness", "happines"] },
+      "expectedAnswer": "happiness",
+      "wrongAnswers": [
+        { "answer": "happyness", "why": "forgot y → i with a y-ending root", "remedy": "Happy ends in y with a consonant before it — Lesson 8's rule strikes again! What does the y do first?" },
+        { "answer": "happines", "why": "did y → i but dropped an s", "remedy": "Brilliant transformation! Now check the suffix: -ness has double s. happi + ness." }
+      ],
+      "hints": ["The root ends in y — remember Lesson 8.", "y → i first, THEN add -ness."],
+      "reteach": { "say": "The old rule joins the new tails: happy ends in y, so the y transforms before -ness — happi + ness = happiness. Same for -ly: happily. The y rule follows you everywhere!", "block": { "type": "table", "headers": ["build", "y → i first", "word"], "rows": [["happy + ness", "happi—", "happiness"], ["happy + ly", "happi—", "happily"]] } }
+    },
+    {
+      "id": "l10-p09", "skill": "y → i before -ly", "level": 3,
+      "block": { "type": "fillBlank", "text": "happy + ly = ___ (a HOW word)", "answer": "happily", "wordBank": ["happily", "happyly", "happilly"] },
+      "expectedAnswer": "happily",
+      "wrongAnswers": [
+        { "answer": "happyly", "why": "kept the y", "remedy": "y with a consonant before it transforms before a suffix — cross the y, write i, add -ly." },
+        { "answer": "happilly", "why": "doubled the l — mixed up with the -ful trap in reverse", "remedy": "-ly brings exactly one l. happi + ly = happily — h-a-p-p-i-l-y." }
+      ],
+      "hints": ["Same move as happiness: y → i first.", "Then just l-y."],
+      "reteach": { "say": "They lived happily ever after! Happy: y transforms — happi — tiny tail -ly: happily. A thing word AND a how word from one root: happiness, happily.", "block": { "type": "table", "headers": ["word", "job"], "rows": [["happiness", "a thing (the state)"], ["happily", "how (in a happy way)"]] } },
+      "interestSlots": ["storybook endings"]
+    },
+    {
+      "id": "l10-p10", "skill": "explain the one-l trap", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend writes 'carefull'. What's the trap they fell into, and what's the fix?", "sample": "They copied the word full, which has two l's. The suffix -ful drops one l: careful." },
+      "expectedAnswer": "They copied full's two l's; the suffix -ful has only one l — careful",
+      "wrongAnswers": [
+        { "answer": "It looks right to me", "why": "shares the two-l misconception", "remedy": "Full the word has two l's — but when it becomes a suffix it slims down. Check the reminder card: -ful = ?" },
+        { "answer": "They should write carful", "why": "fixed the wrong end — broke the root", "remedy": "The root care is perfect — don't touch it! The problem is at the tail. How many l's does the suffix -ful have?" }
+      ],
+      "hints": ["Compare: the word full vs the suffix -ful.", "The root care is fine — look at the tail."],
+      "reteach": { "say": "Here's the story: the word full has two l's, but when it shrinks into the suffix -ful, it packs light and leaves one l behind. So it's careful, helpful, hopeful — one l, every time.", "block": { "type": "table", "headers": ["the word", "the suffix"], "rows": [["full (2 l's)", "-ful (1 l!)"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave the y → i builds with meaning questions and the one-l explain item.",
+    "levelDown": "2 misses on the same skill → run the item's reteach, then a level-1 item (match roots to suffixes rather than spelling from scratch).",
+    "masterySignal": "2+ correct built words including one -ful with a single l, plus one word used correctly in a sentence → mastery ≥ 0.8 for 'meaning-changing suffixes'.",
+    "struggleProtocol": [
+      "Don't build it for them.",
+      "Name why: 'let's check the suffix spelling / the meaning.'",
+      "Step down: give a root and two suffix cards to match into real words.",
+      "ONE hint: '-ful means full of — say the meaning, then build.'",
+      "Re-ask a smaller version (just build, no sentence).",
+      "Keep it safe: 'Word-building is inventing — let's make one real word together.'"
+    ],
+    "personalization": "Build words about the child's world — their playful pet, a fearless hero, the enjoyment of their favourite game. The suffixes and spellings never change.",
+    "endOnSuccess": "Finish on a winnable build (their own -ful/-less pair); process praise: 'you built real words, checked every l, and used one in a sentence — that's a word-builder at work.'"
+  },
+
+  "differentiation": {
+    "support": "Match roots to suffix cards to make real words (no spelling from scratch); start with the clear -ful/-less pair.",
+    "stretch": "Build a 'thing' word AND a 'how' word from happy (happiness, happily) — applying y → i — and explain each meaning."
+  },
+  "extension": "Invent superhero words (powerful, fearless) and define each: 'full of power', 'without fear'.",
+  "assessmentEvidence": "Child builds at least two correct meaning-suffix words including one -ful with a single l, and uses one in a sentence.",
+  "revisitLater": "End-of-Unit 2 check next session: spell hopping, hoped, happier AND build careful, kindness, happily (mastery = 4 of 5, -ful with one l). Revisit these new words as vocabulary in Unit 4 sentences."
+}

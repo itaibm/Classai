@@ -1,0 +1,302 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-english-u3-l12",
+  "year": 2,
+  "subject": "language_arts",
+  "subjectLabel": "English",
+  "unit": { "number": 3, "title": "Apostrophes & homophones", "essentialQuestion": "When does a word need an apostrophe, and how do I pick between sound-alike words?" },
+  "lessonNumber": 12,
+  "kind": "lesson",
+  "topic": "Apostrophes & homophones",
+  "title": "Apostrophes job 2: belonging (possession)",
+  "durationMin": 20,
+  "objectives": ["By the end, I can use 's to show that something belongs to someone."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "possession", "definition": "belonging — when something is owned by someone", "example": "Sam's bag = the bag belongs to Sam" },
+    { "term": "owner", "definition": "the person or animal something belongs to", "example": "in 'the dog's bone', the dog is the owner" },
+    { "term": "apostrophe-s ('s)", "definition": "the mark we add to the owner's name to show belonging", "example": "Mia + 's = Mia's pencil" }
+  ],
+  "emphasize": [
+    "The apostrophe's Job 2: add 's to the OWNER to show something belongs to them — the cat's tail = the tail of the cat.",
+    "The move: find who owns it → add 's to the owner (never to the thing owned).",
+    "Keep it concrete with belonging labels; hold the plural trap for Lesson 13 but note any cats'/plural confusion."
+  ],
+  "analysis": {
+    "keyConcepts": ["'s on a noun shows belonging", "the 's goes on the OWNER", "the X of the Y ↔ the Y's X"],
+    "misconceptions": [
+      "leaving the apostrophe out (Sams bag)",
+      "putting 's on the thing instead of the owner (bag's Sam)",
+      "confusing possession with a plural s (noted here, tackled fully in Lesson 13)"
+    ],
+    "hooks": ["A tiny 's turns a name into a label that TELLS you who owns something — let's label the room."],
+    "priorKnowledge": ["what a noun is", "the apostrophe's Job 1 — contractions (Lesson 11)"]
+  },
+
+  "materials": {
+    "human": [],
+    "digital": ["on-screen belonging labels", "phrase-flip animations (the X of the Y → the Y's X)", "practice blocks"]
+  },
+
+  "delivery": { "mode": "fully_ai", "humanNotes": "" },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "ai",
+      "timeboxMin": [0, 3],
+      "goal": "Show that a tiny 's makes a word TELL you who owns something; retrieve Job 1 as the contrast.",
+      "note": "The belonging-label frame carries the lesson. Quick retrieval: contract do not.",
+      "successCriteria": "Child answers don't for the retrieval and is curious about the second job.",
+      "script": {
+        "say": "Whose pencil is this? Watch — I can make a word TELL you who it belongs to. I just add a tiny apostrophe-s. Mia plus 's — Mia's pencil — the pencil belonging to Mia! Let's make belonging labels today. But first, quick memory check: yesterday the apostrophe had a squashing job. Contract do not for me.",
+        "adaptHints": "Listen for don't. If shaky, re-show do not → don't quickly, then: 'today the apostrophe has a SECOND, totally different job.' Swap 'pencil' for an object the child actually owns."
+      },
+      "blocks": [
+        { "type": "emojiViz", "emojis": "✏️🏷️", "caption": "Mia's pencil — the label tells you who owns it!" }
+      ],
+      "stuckProtocol": ["If the retrieval stalls: write do not, cross the o, place the apostrophe together — one squash, then move on to the new job."]
+    },
+    {
+      "kind": "explain",
+      "delivery": "ai",
+      "timeboxMin": [3, 8],
+      "goal": "Model Job 2 on three phrases: find the owner, add 's — the cat's tail = the tail of the cat.",
+      "note": "Underline the owner each time BEFORE adding 's. The table makes the flip visible.",
+      "successCriteria": "Child can say the trick: find the owner, add 's right after their name.",
+      "script": {
+        "say": "Job two of the apostrophe: belonging. If something belongs to someone, I add apostrophe-s to the owner. Watch: the cat's tail — that means the tail of the cat. The 's on cat says 'this belongs to the cat'. Sam's bag — the bag belonging to Sam. The trick: find the OWNER, add 's right after their name. The dog owns the bone — so it's the dog's bone.",
+        "adaptHints": "Underline the owner out loud each time: 'who owns it? … THAT word gets the 's.' Keep the rhythm: owner first, then 's."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["long way round", "who owns it?", "belonging label"],
+          "rows": [
+            ["the tail of the cat", "the cat", "the cat's tail"],
+            ["the bag of Sam", "Sam", "Sam's bag"],
+            ["the bone of the dog", "the dog", "the dog's bone"]
+          ],
+          "caption": "Find the owner → add 's to the owner."
+        }
+      ]
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 12],
+      "goal": "Shared flips: the bone of the dog → the dog's bone; the desk of the tutor → the tutor's desk. Child finds the owner first every time.",
+      "note": "Child names the owner, then completes the flip in the fillBlank.",
+      "successCriteria": "Child names the owner correctly and completes the dog's bone flip.",
+      "script": {
+        "say": "Turn this around with me: the bone of the dog. Who's the owner? The dog! So it becomes… the dog's bone. Now you finish this one on screen. And then try me one more: the desk of the tutor — who's the owner, and how does it flip?",
+        "adaptHints": "If the child grabs the wrong word, ask 'who OWNS it?' before anything else. Praise the owner-hunt, not just the answer."
+      },
+      "blocks": [
+        { "type": "fillBlank", "text": "the bone of the dog → the ___ bone", "answer": "dog's", "wordBank": ["dog's", "dogs", "bone's"] }
+      ],
+      "check": {
+        "question": "Flip it: the desk of the tutor.",
+        "expectedAnswer": "the tutor's desk",
+        "wrongAnswers": [
+          { "answer": "the tutors desk", "why": "belonging shown but the apostrophe forgotten", "remedy": "Does the desk belong to the tutor? Then the tutor needs the apostrophe-s to show it. Where does it go?" },
+          { "answer": "the desk's tutor", "why": "put 's on the thing, not the owner", "remedy": "Who OWNS the desk? The tutor. The 's goes on the owner — say 'the tutor's…' and finish it." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [12, 14],
+      "goal": "Diagnostic: show the bag belongs to Sam — apostrophe present AND on the owner.",
+      "note": "Options carry the two key errors: Sams (no apostrophe) and Sam bag's (on the wrong word).",
+      "successCriteria": "Child picks Sam's bag and can say why the 's sits on Sam.",
+      "script": {
+        "say": "Your turn alone. Write it to show the bag belongs to Sam. Think: who's the owner, and what does the owner get?",
+        "adaptHints": "After a correct answer, probe: 'Where did the 's go, and why there?' — listen for 'on Sam, the owner'."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Which shows that the bag belongs to Sam?",
+          "options": ["Sam's bag", "Sams bag", "Sam bag's", "Sam bags"],
+          "correct": 0,
+          "explain": "Sam is the owner, so Sam gets the apostrophe-s: Sam's bag."
+        }
+      ],
+      "check": {
+        "question": "Write it to show the bag belongs to Sam.",
+        "expectedAnswer": "Sam's bag",
+        "wrongAnswers": [
+          { "answer": "Sams bag", "why": "forgot the possessive mark", "remedy": "Does the bag belong to Sam? Then Sam needs 's to show it. Sam's bag." },
+          { "answer": "Sam bag's", "why": "put 's on the thing, not the owner", "remedy": "Who OWNS the bag? Sam. The 's goes on the owner — Sam's bag." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [14, 18],
+      "goal": "Independent belonging labels: flip 'the X of the Y' phrases and write labels for real things at home.",
+      "note": "Director draws from practiceBank, start level 2. Always ask 'who's the owner?' before the child writes. Note (don't teach) any plural confusion for Lesson 13.",
+      "successCriteria": "Child writes 3+ possessive phrases with 's correctly on the owner.",
+      "script": {
+        "say": "Label-maker time! I'll give you long phrases — you flip each one into a belonging label. And every time, tell me first: who's the owner?",
+        "adaptHints": "Use real people and pets from the learner's life for the labels (Mum's mug, Rex's bowl). Never move the 's off the owner."
+      },
+      "stuckProtocol": [
+        "Don't write it for them.",
+        "Name why: 'let's find the owner first.'",
+        "Step down: give the phrase with the owner underlined; child only adds 's.",
+        "ONE hint: 'ask: who does it belong to?'",
+        "Re-ask a smaller version (one phrase).",
+        "Keep it safe: 'Belonging is all about the owner — let's find who owns it.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [18, 20],
+      "goal": "Child states Job 2 and where the 's goes; end on a win.",
+      "note": "Child-led. Tease Lesson 13's trap without teaching it.",
+      "successCriteria": "Child says: 's shows belonging and goes on the owner.",
+      "script": {
+        "say": "Tell me the apostrophe's second job, and where the 's goes. … Yes — belonging, and the 's goes on the OWNER. You found the owner every time and gave them their 's — your belonging labels are spot on. Next time, a warning: some apostrophes out in the world are FAKES, and you're going to catch them.",
+        "adaptHints": "Praise the observed process: hunting the owner before writing. The 'fake apostrophes' teaser sets up Lesson 13."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l12-p01", "skill": "add 's to show belonging", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "The pencil belongs to Mia. Which is right?", "options": ["Mia's pencil", "Mias pencil", "Mia pencil's", "Mias' pencil"], "correct": 0, "explain": "Mia is the owner, so Mia gets the apostrophe-s: Mia's pencil." },
+      "expectedAnswer": "Mia's pencil",
+      "wrongAnswers": [
+        { "answer": "Mias pencil", "why": "no apostrophe — the belonging is unmarked", "remedy": "The pencil belongs to Mia, so Mia needs her little belonging mark. What goes between Mia and the s?" },
+        { "answer": "Mia pencil's", "why": "'s on the thing owned instead of the owner", "remedy": "Who owns the pencil? Mia! The 's always sits on the owner's name." }
+      ],
+      "hints": ["Who's the owner here?", "The owner's name gets 's: Mia + 's."],
+      "reteach": { "say": "Belonging labels always start with the owner. Mia owns the pencil → Mia's pencil. Owner first, 's on the owner, then the thing.", "block": { "type": "emojiViz", "emojis": "🧒🏷️✏️", "caption": "Mia's pencil — owner, 's, thing" } },
+      "interestSlots": ["pencil", "sticker", "toy"]
+    },
+    {
+      "id": "l12-p02", "skill": "flip 'the X of the Y' into 'the Y's X'", "level": 1,
+      "block": { "type": "fillBlank", "text": "the tail of the cat → the ___ tail", "answer": "cat's", "wordBank": ["cat's", "cats", "tail's"] },
+      "expectedAnswer": "cat's",
+      "wrongAnswers": [
+        { "answer": "cats", "why": "no apostrophe — looks like more than one cat", "remedy": "Without the apostrophe, cats means lots of cats! We want ONE cat who OWNS the tail. What does the owner get?" },
+        { "answer": "tail's", "why": "'s on the thing owned", "remedy": "Does the tail own the cat, or does the cat own the tail? The 's goes on the owner." }
+      ],
+      "hints": ["Who owns the tail?", "The cat is the owner → cat + 's."],
+      "reteach": { "say": "The long way says 'the tail of the cat'. Flip it: owner first — the cat — give the owner 's — the cat's — then the thing: the cat's tail. Same meaning, tidier label.", "block": { "type": "table", "headers": ["long way", "flip"], "rows": [["the tail of the cat", "the cat's tail"]] } }
+    },
+    {
+      "id": "l12-p03", "skill": "flip 'the X of the Y' into 'the Y's X'", "level": 2,
+      "block": { "type": "fillBlank", "text": "the lead of the dog → the ___ lead", "answer": "dog's", "wordBank": ["dog's", "dogs", "lead's"] },
+      "expectedAnswer": "dog's",
+      "wrongAnswers": [
+        { "answer": "dogs", "why": "missing apostrophe turns the owner into a plural", "remedy": "dogs with no apostrophe means many dogs. One dog OWNS this lead — mark the belonging." },
+        { "answer": "lead's", "why": "'s drifted onto the thing", "remedy": "Ask the owner question out loud: who does the lead belong to? THAT word gets the 's." }
+      ],
+      "hints": ["Say it the long way: the lead belongs to…?", "Owner + 's + thing: the dog's lead."],
+      "reteach": { "say": "Every flip is the same three steps: find the owner (the dog), give the owner 's (the dog's), then say what they own (the dog's lead). Let's do it slowly together.", "block": { "type": "table", "headers": ["step", "we write"], "rows": [["1. owner", "the dog"], ["2. owner + 's", "the dog's"], ["3. add the thing", "the dog's lead"]] } },
+      "interestSlots": ["dog", "rabbit", "hamster"]
+    },
+    {
+      "id": "l12-p04", "skill": "match long forms to belonging labels", "level": 2,
+      "block": { "type": "matchPairs", "prompt": "Match each long phrase to its belonging label.", "pairs": [ { "left": "the tail of the cat", "right": "the cat's tail" }, { "left": "the bag of Sam", "right": "Sam's bag" }, { "left": "the lead of the dog", "right": "the dog's lead" }, { "left": "the desk of the tutor", "right": "the tutor's desk" } ] },
+      "expectedAnswer": "the tail of the cat→the cat's tail, the bag of Sam→Sam's bag, the lead of the dog→the dog's lead, the desk of the tutor→the tutor's desk",
+      "wrongAnswers": [
+        { "answer": "the bag of Sam → the dog's lead (mismatched pair)", "why": "matched by guessing instead of finding the owner", "remedy": "For each long phrase, ask 'who owns it?' first — then hunt for the label starting with that owner." },
+        { "answer": "reading cat's as 'more than one cat'", "why": "plural/possessive mix-up surfacing early", "remedy": "The apostrophe-s here means BELONGING, not lots. One cat, one tail, one owner." }
+      ],
+      "hints": ["Find the owner in the long phrase — the label starts with them.", "the desk of the tutor: the owner is the tutor."],
+      "reteach": { "say": "Both sides say the same thing — one the long way, one as a label. The owner is your matching key: spot the owner in the long phrase, find the label that starts with that owner's name plus 's.", "block": { "type": "table", "headers": ["owner", "label"], "rows": [["the cat", "the cat's tail"], ["Sam", "Sam's bag"], ["the dog", "the dog's lead"], ["the tutor", "the tutor's desk"]] } }
+    },
+    {
+      "id": "l12-p05", "skill": "add 's to show belonging", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The coat belongs to the boy. Which is right?", "options": ["the boy's coat", "the boys coat", "the boy coat's", "the boys' coat"], "correct": 0, "explain": "The boy is the owner, so boy gets 's: the boy's coat." },
+      "expectedAnswer": "the boy's coat",
+      "wrongAnswers": [
+        { "answer": "the boys coat", "why": "no apostrophe — belonging unmarked", "remedy": "One boy owns this coat. How do we mark an owner? Add the apostrophe-s to his name." },
+        { "answer": "the boy coat's", "why": "'s on the coat, not the boy", "remedy": "Does the coat own the boy? No! Who's the owner — and where must the 's sit?" }
+      ],
+      "hints": ["Owner question first: who owns the coat?", "boy + 's, then the coat."],
+      "reteach": { "say": "One more time, the owner rule: the OWNER gets the 's. The boy owns the coat, so we write the boy's coat. Try whispering 'who owns it?' before every answer — it never fails.", "block": { "type": "emojiViz", "emojis": "🧥👦🏷️", "caption": "the boy's coat — 's on the owner" } }
+    },
+    {
+      "id": "l12-p06", "skill": "make belonging labels for real things", "level": 2,
+      "block": { "type": "shortText", "prompt": "Make a belonging label for something real in your home — like Mum's mug or Rex's bowl.", "sample": "Dad's chair" },
+      "expectedAnswer": "A real owner + 's + thing (e.g. Mum's mug), apostrophe before the s",
+      "wrongAnswers": [
+        { "answer": "Mums mug", "why": "apostrophe dropped in own writing", "remedy": "Read your label back: does the mug belong to Mum? Then Mum needs her belonging mark — where does it go?" },
+        { "answer": "mug's Mum", "why": "owner and thing swapped", "remedy": "Labels start with the OWNER. Who owns it? Start with their name, add 's, then the thing." }
+      ],
+      "hints": ["Pick the owner first, then what they own.", "Owner + 's + thing — like Mia's pencil."],
+      "reteach": { "say": "Let's build one together: think of someone in your family and one thing that's theirs. Owner's name… add 's… add the thing. That's a real belonging label you could stick on it!", "block": { "type": "emojiViz", "emojis": "🏠🏷️", "caption": "owner + 's + thing" } },
+      "interestSlots": ["mug", "bowl", "bike", "teddy"]
+    },
+    {
+      "id": "l12-p07", "skill": "tell Job 1 (squashing) from Job 2 (belonging)", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Which sentence uses 's for BELONGING (not squashing)?", "options": ["Ben's kite flew high.", "It's raining today.", "She's my best friend.", "He's very tall."], "correct": 0, "explain": "Ben's kite = the kite belonging to Ben. The others are squashes: it's = it is, she's = she is, he's = he is." },
+      "expectedAnswer": "Ben's kite flew high.",
+      "wrongAnswers": [
+        { "answer": "It's raining today.", "why": "took any apostrophe-s as belonging", "remedy": "Try the stretch test: it's raining → 'it is raining' — it fits! So that's a squash, Job 1. Which one can't be stretched to '… is'?" },
+        { "answer": "She's my best friend.", "why": "same slip — she's is squashed 'she is'", "remedy": "Stretch it: 'she is my best friend' — fits, so it's a squash. Find the one where 's means someone OWNS something." }
+      ],
+      "hints": ["Try saying '… is' in place of each 's — if it fits, it's a squash.", "Who actually OWNS something in one of these?"],
+      "reteach": { "say": "Same little mark, two jobs! Test any 's by stretching: if you can say 'is' — it's raining = it is raining — that's Job 1, squashing. If someone owns something — Ben's kite — that's Job 2, belonging. Detective test first, answer second.", "block": { "type": "table", "headers": ["phrase", "stretch to 'is'?", "job"], "rows": [["it's raining", "it is raining ✓", "squash"], ["Ben's kite", "Ben is kite ✗", "belonging"]] } }
+    },
+    {
+      "id": "l12-p08", "skill": "use possessive 's in own writing", "level": 3,
+      "block": { "type": "shortText", "prompt": "Write a whole sentence with a belonging 's — and say who the owner is.", "sample": "I borrowed Mia's rubber. Mia is the owner." },
+      "expectedAnswer": "A sentence with owner + 's used correctly, owner named",
+      "wrongAnswers": [
+        { "answer": "a sentence with the 's missing (Mias rubber)", "why": "the mark drops out under the load of writing a full sentence", "remedy": "Finish your sentence, then go back on owner patrol: does anything belong to anyone? Give the owner their 's." },
+        { "answer": "a plural mistaken for belonging (I have two cat's)", "why": "creeping greengrocer's apostrophe", "remedy": "Do the cats own anything in your sentence? If it just means MORE THAN ONE, no apostrophe — we'll hunt these properly next lesson!" }
+      ],
+      "hints": ["Say the sentence aloud before writing it.", "Owner check at the end: who owns what, and did they get their 's?"],
+      "reteach": { "say": "Writers do an owner patrol after writing: read the sentence back and ask, does anything belong to anyone? If yes, the owner needs 's. Let's write one short sentence about something a friend or pet owns.", "block": { "type": "emojiViz", "emojis": "📝🕵️", "caption": "write it → owner patrol → 's on the owner" } },
+      "interestSlots": ["rubber", "football", "bone"]
+    },
+    {
+      "id": "l12-p09", "skill": "explain what a possessive phrase means", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "What does Kim's coat mean?", "options": ["the coat belonging to Kim", "more than one Kim", "Kim is a coat", "the coat is called Kim"], "correct": 0, "explain": "The 's on Kim shows belonging: Kim's coat = the coat that belongs to Kim." },
+      "expectedAnswer": "the coat belonging to Kim",
+      "wrongAnswers": [
+        { "answer": "more than one Kim", "why": "read the s as a plural s", "remedy": "There's an apostrophe before that s — that's the belonging mark, not a counting s. Who owns the coat?" },
+        { "answer": "Kim is a coat", "why": "read 's as squashed 'is' in the wrong spot", "remedy": "Try stretching: 'Kim is coat' — nonsense! So it's not a squash. What's the apostrophe's OTHER job?" }
+      ],
+      "hints": ["The 's sits on Kim — what does that tell you about Kim?", "Say it the long way: the coat of…?"],
+      "reteach": { "say": "Reading a belonging label backwards: Kim's coat. The 's on Kim says Kim is the OWNER — so it means the coat belonging to Kim. Whenever you see name-apostrophe-s, think 'owner!'", "block": { "type": "table", "headers": ["label", "long way"], "rows": [["Kim's coat", "the coat belonging to Kim"], ["Gran's hat", "the hat belonging to Gran"]] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave belonging with the Job 1 vs Job 2 stretch test.",
+    "levelDown": "2 misses on the same skill → run the item's reteach with the three-step flip (owner → owner+'s → thing), then a level-1 item.",
+    "masterySignal": "3+ correct across levels 2–3 including one flip of 'the X of the Y' and one own-written label → mastery ≥ 0.8 for 'apostrophes for possession'.",
+    "struggleProtocol": [
+      "Don't write it for them.",
+      "Name why: 'let's find the owner first.'",
+      "Step down: underline the owner in the phrase; child only adds 's.",
+      "ONE hint: 'ask: who does it belong to?'",
+      "Re-ask a smaller version (one phrase).",
+      "Keep it safe: 'Belonging is all about the owner — let's find who owns it.'"
+    ],
+    "personalization": "Build labels from the learner's real world — family names, pets, favourite toys (Mum's mug, Rex's bowl). The owner-question habit stays in every framing.",
+    "endOnSuccess": "Finish on a winnable label; praise the process — 'you found the owner every time and gave them their 's.'"
+  },
+
+  "differentiation": {
+    "support": "Phrase given with the owner underlined; child only adds 's. Stay on single clear owners (Sam, the cat).",
+    "stretch": "Rewrite 'the lead of the dog' and 'the desk of the tutor', then write a full sentence using a possessive 's ('I borrowed Mia's rubber.')."
+  },
+  "extension": "Make belonging labels for three more real objects at home and read each aloud.",
+  "assessmentEvidence": "Child writes at least three possessive phrases with 's correctly on the owner (e.g. Sam's bag, the dog's bone).",
+  "revisitLater": "Lesson 13 — the apostrophe TRAP: NOT for plurals. Recall both jobs (squashing & belonging) as the only two times we DO use an apostrophe."
+}

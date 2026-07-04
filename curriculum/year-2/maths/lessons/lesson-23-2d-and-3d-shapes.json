@@ -1,0 +1,339 @@
+{
+  "format": "classai-lesson/1",
+  "id": "y2-maths-u7-l23",
+  "year": 2,
+  "subject": "math",
+  "subjectLabel": "Mathematics",
+  "unit": { "number": 7, "title": "Statistics, shape and symmetry", "essentialQuestion": "How do we record data, and how do we describe shapes by their parts and their symmetry?" },
+  "lessonNumber": 23,
+  "kind": "lesson",
+  "topic": "Geometry: properties of shapes",
+  "title": "Properties of 2-D and 3-D shapes",
+  "durationMin": 22,
+  "objectives": ["By the end, I can describe 2-D shapes by sides/vertices and 3-D shapes by faces/edges/vertices."],
+  "difficulty": "standard",
+  "status": "approved",
+
+  "vocabulary": [
+    { "term": "side", "definition": "one straight line around a flat (2-D) shape", "example": "a pentagon has 5 sides" },
+    { "term": "vertex (vertices)", "definition": "a corner — where sides or edges meet", "example": "a square has 4 vertices" },
+    { "term": "face", "definition": "one whole flat surface of a solid (3-D) shape", "example": "a cube has 6 faces" },
+    { "term": "edge", "definition": "the line where two faces of a solid meet", "example": "a cube has 12 edges" },
+    { "term": "2-D", "definition": "flat shapes — they have sides and vertices", "example": "square, pentagon, hexagon" },
+    { "term": "3-D", "definition": "solid shapes you can hold — they have faces, edges and vertices", "example": "cube, cuboid, sphere, cylinder" }
+  ],
+  "emphasize": [
+    "Count EVERY part, including the hidden ones — a cube has 6 faces even though you can never see them all at once. TURN the solid.",
+    "Pre-empt 'a cube has 4 faces' (counting only what's visible).",
+    "Keep the words straight: flat shapes have SIDES; solid shapes have FACES. (UK names: cuboid, not 'rectangular prism'.)"
+  ],
+  "analysis": {
+    "keyConcepts": ["2-D shapes described by sides and vertices", "3-D shapes described by faces, edges and vertices", "systematic counting: turn the solid and mark each part so nothing hidden is missed"],
+    "misconceptions": [
+      "counting only the visible faces of a solid — 'a cube has 3 (or 4) faces'",
+      "mixing the words: calling a cube's faces 'sides', or counting edges when asked for faces",
+      "confusing the counts: a cube's 12 edges given as its faces, or 8 vertices as edges"
+    ],
+    "hooks": ["Here's a dice. Without turning it, how many faces does it have? You can only see three… but are more hiding?"],
+    "priorKnowledge": ["naming 2-D and 3-D shapes (Year 1)", "counting accurately and keeping track"]
+  },
+
+  "materials": {
+    "human": ["a dice or any cube", "a cereal box (cuboid)", "a ball (sphere) and a tin (cylinder)", "a paper pentagon cut-out (any five-sided shape works)", "sticky dots or small paper bits and tape — one per face for marking"],
+    "digital": ["whiteboard shape drawings (pentagon, cube sketch)", "practice blocks (rendered by the app)"]
+  },
+
+  "delivery": {
+    "mode": "human_intro_then_ai",
+    "humanNotes": "You run the first ~8 minutes with REAL objects — that's the whole point: hidden faces only make sense when the child physically turns a solid. Lay out the dice, cereal box, ball, tin, pentagon cut-out and sticky dots before starting. Say the script lines warmly in your own words, but keep the maths exact: pentagon = 5 sides, 5 vertices; cube = 6 faces, 12 edges, 8 vertices. The dot-on-each-face move is the key teaching trick — don't skip it. When you say the handoff line ('Now my friend on the screen is going to draw what we found — watch!'), the AI takes over for the pictorial part, checks and practice. Keep the solids within reach — the AI will send the child back to them during practice."
+  },
+
+  "video": {
+    "role": "reinforce",
+    "url": "https://www.youtube.com/watch?v=ZnZYK83utu0",
+    "title": "3D Shapes Song For Kids | Spheres, Cylinders, Pyramids, Cubes, & Cones",
+    "channel": "Math Songs by NUMBEROCK",
+    "verifiedAt": "2026-07-03",
+    "watchTask": "Every time a shape appears, shout its name before the song says it. Listen out: the song is American and says 'rectangular prism' — in the UK we call that shape a CUBOID, like your cereal box.",
+    "afterCheck": { "question": "The song showed a shape like your cereal box. What do WE call it, and how many faces does it have?", "expectedAnswer": "A cuboid — 6 faces." }
+  },
+
+  "plan": [
+    {
+      "kind": "hook",
+      "delivery": "human",
+      "timeboxMin": [0, 3],
+      "goal": "Create the hidden-faces mystery with a real dice; retrieve 2-D vs 3-D from Year 1.",
+      "note": "Hold the dice STILL — the whole hook is that you can't see everything at once. Don't resolve it yet.",
+      "successCriteria": "Child guesses a number of faces from what's visible and says the dice is 3-D/solid.",
+      "script": {
+        "say": "Here's a dice. Don't touch it yet! Without turning it, how many faces do you think it has? You can only see three from here… but are there more hiding round the back? Hmm. Quick check first: is a dice flat or solid — 2-D or 3-D?",
+        "adaptHints": "Any cube works — a building block, a box. Accept any face-count guess with curiosity; the reveal comes in the explain beat. Listen for '3-D / solid'."
+      },
+      "humanHandoff": {
+        "setup": "Dice held still on the table; pentagon cut-out, cereal box, ball, tin and sticky dots hidden nearby, ready for the explain beat.",
+        "cueToResume": "Not yet — the human continues into the explain beat."
+      },
+      "stuckProtocol": ["If 2-D/3-D is shaky: hold the pentagon cut-out flat against the dice — 'this one is flat, you could post it under a door: 2-D. This one you can hold and turn: 3-D, solid.'"]
+    },
+    {
+      "kind": "explain",
+      "delivery": "human",
+      "timeboxMin": [3, 8],
+      "goal": "Model the vocabulary and the counting method: pentagon sides/vertices by touch; cube faces by turn-and-dot to 6, then edges 12, vertices 8.",
+      "note": "This is the CPA concrete stage. Think aloud, smallest steps. Stick a real dot on each face as you count — the method IS the lesson.",
+      "successCriteria": "Child watches a full turn-and-dot count of the cube reaching exactly 6, and hears 'sides' for the flat shape but 'faces' for the solid.",
+      "script": {
+        "say": "Flat shapes first. This pentagon has SIDES — run your finger along one — and VERTICES, the corners. Count with me: 5 sides, 5 vertices. Now the dice. Solid shapes have FACES — whole flat surfaces. Watch my trick so no face escapes: I stick a dot on each face as I count and TURN it. One, two, three… four, five… six! Six faces — three were hiding! And look: where two faces meet is an EDGE — a cube has 12. The corners are vertices — 8. — Right, now my friend on the screen is going to draw what we found. Watch!",
+        "adaptHints": "Let the child do the final turns of the cube. The last sentence is the handoff line — say it as written."
+      },
+      "humanHandoff": {
+        "setup": "Cube with 6 dots stuck on, pentagon cut-out and cereal box left visible on the table.",
+        "cueToResume": "When the human says 'Watch!', the AI character starts the next beat."
+      }
+    },
+    {
+      "kind": "example",
+      "delivery": "ai",
+      "timeboxMin": [8, 13],
+      "goal": "Move to pictorial: the character draws the pentagon and the cube with its counts, and the child fills in the pentagon's vertices.",
+      "note": "Bridge concrete → pictorial: redraw what the human just handled. The child supplies the numbers, not the character.",
+      "successCriteria": "Child completes 'a pentagon has 5 sides and 5 vertices' and reads the cube's 6-12-8 off the drawing.",
+      "script": {
+        "say": "I saw what you two found — three faces were HIDING! Let me draw it. Here's your pentagon: I'll trace the sides — one, two, three, four, five. Now you tell me: how many corners — vertices — does it have? … And here's the cube with your six dots. Six faces, twelve edges, eight vertices — the famous cube numbers. Which of those three could you NEVER count without turning the dice?",
+        "adaptHints": "Pause for the child's answers. If they answer 'corners', celebrate and layer the word: 'yes — corners, which mathematicians call vertices.'"
+      },
+      "blocks": [
+        {
+          "type": "whiteboard",
+          "title": "Pentagon and cube",
+          "animate": true,
+          "elements": [
+            { "k": "path", "points": [ { "x": 22, "y": 12 }, { "x": 36, "y": 22 }, { "x": 31, "y": 40 }, { "x": 13, "y": 40 }, { "x": 8, "y": 22 } ], "color": "blue", "width": 2, "closed": true },
+            { "k": "dot", "x": 22, "y": 12, "color": "red" },
+            { "k": "dot", "x": 36, "y": 22, "color": "red" },
+            { "k": "dot", "x": 31, "y": 40, "color": "red" },
+            { "k": "dot", "x": 13, "y": 40, "color": "red" },
+            { "k": "dot", "x": 8, "y": 22, "color": "red" },
+            { "k": "text", "x": 22, "y": 48, "value": "pentagon: 5 sides, 5 vertices", "size": 4, "color": "blue" },
+            { "k": "rect", "x": 58, "y": 22, "w": 18, "h": 18, "color": "green" },
+            { "k": "rect", "x": 66, "y": 14, "w": 18, "h": 18, "color": "green" },
+            { "k": "line", "x1": 58, "y1": 22, "x2": 66, "y2": 14, "color": "green" },
+            { "k": "line", "x1": 76, "y1": 22, "x2": 84, "y2": 14, "color": "green" },
+            { "k": "line", "x1": 58, "y1": 40, "x2": 66, "y2": 32, "color": "green" },
+            { "k": "line", "x1": 76, "y1": 40, "x2": 84, "y2": 32, "color": "green" },
+            { "k": "text", "x": 71, "y": 48, "value": "cube: 6 faces, 12 edges, 8 vertices", "size": 4, "color": "green" },
+            { "k": "text", "x": 50, "y": 57, "value": "Flat shapes have SIDES - solids have FACES", "size": 4, "bold": true, "color": "accent" }
+          ]
+        },
+        { "type": "fillBlank", "text": "A pentagon has 5 sides and ___ vertices.", "answer": "5", "wordBank": ["5", "6", "4"] }
+      ],
+      "check": {
+        "question": "How many vertices does a pentagon have?",
+        "expectedAnswer": "5",
+        "wrongAnswers": [
+          { "answer": "6", "why": "miscounted or confused with a hexagon", "remedy": "Touch each red corner dot on the drawing as you count — where you stop is the answer." },
+          { "answer": "10", "why": "counted sides AND vertices together", "remedy": "Just the corners this time — the pointy places where two sides meet. Count only the dots." }
+        ]
+      }
+    },
+    {
+      "kind": "check",
+      "delivery": "ai",
+      "timeboxMin": [13, 17],
+      "goal": "Reveal whether hidden-face counting has landed: a cube has 6 faces, not just the visible 3 or 4.",
+      "note": "This is the lesson's key diagnostic. A low answer means visible-only counting — send them back to the real dotted dice.",
+      "successCriteria": "Child answers 6 and explains the turn-and-dot method when probed.",
+      "script": {
+        "say": "Big check! Pick up your dice again if you like. How many faces does a cube have — including every single hiding one?",
+        "adaptHints": "After a correct answer, always probe: 'How did you make sure you counted them ALL?' — the method matters more than the number."
+      },
+      "blocks": [
+        {
+          "type": "multipleChoice",
+          "prompt": "How many faces does a cube have?",
+          "options": ["6", "4", "3", "8"],
+          "correct": 0,
+          "explain": "Six — turn it and count the dots: top, bottom, front, back, left, right. Three are always hiding!"
+        }
+      ],
+      "check": {
+        "question": "How many faces does a cube have?",
+        "expectedAnswer": "6",
+        "wrongAnswers": [
+          { "answer": "4", "why": "counted only the faces they could see (or the sides of one square face)", "remedy": "Pick the dice up and turn it right over — dot each face as you count so the hidden ones can't escape." },
+          { "answer": "3", "why": "counted exactly what's visible from one view", "remedy": "That's what you can SEE — but what's round the back and underneath? Turn it and keep counting." },
+          { "answer": "8", "why": "gave the vertices count instead of faces", "remedy": "8 is the corners — the vertices! Faces are the whole flat surfaces you could stick a sticker on. Count those." }
+        ]
+      }
+    },
+    {
+      "kind": "practice",
+      "delivery": "ai",
+      "timeboxMin": [17, 20],
+      "goal": "Independent describing of 2-D and 3-D shapes; the cuboid cereal box (6 faces, 12 edges, 8 vertices) and rolls-vs-flat sorting are the stretch.",
+      "note": "Director draws from the practiceBank, start level 2. The child may grab the REAL solids for any item — encourage it on a miss (CPA step down). Watch for visible-only counts and side/face word mix-ups.",
+      "successCriteria": "Child completes 3+ items correctly including one 3-D item counted fully (hidden parts included).",
+      "script": {
+        "say": "Practice time, shape detective! Flat shapes, solid shapes, and plenty of hiding places. The real dice and the cereal box are right there — grab them whenever a shape plays hide-and-seek.",
+        "adaptHints": "Use shapes from the child's world (their football = sphere, their favourite cereal box = cuboid). Never change the counts."
+      },
+      "stuckProtocol": [
+        "Don't reveal.",
+        "Name why: 'I think some faces stayed hidden' or 'sides and faces got swapped.'",
+        "Go concrete: pick up the real solid, dot-and-turn together.",
+        "One hint: 'Did you turn it right over — even the bottom?'",
+        "Re-ask with the dice (the friendliest cube), then build back up.",
+        "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+      ]
+    },
+    {
+      "kind": "recap",
+      "delivery": "ai",
+      "timeboxMin": [20, 22],
+      "goal": "Child states what solids have that flat shapes don't, and how to catch hidden parts; end on an earned win.",
+      "note": "Child-led recall; the character listens, doesn't lecture.",
+      "successCriteria": "Child mentions faces/edges for solids and 'turn it' for hidden parts.",
+      "script": {
+        "say": "Shape wisdom time! What do solid shapes have that flat shapes don't? … And how do we make sure the hidden bits get counted? … Exactly — turn it and mark each one. You caught three hiding faces today with your own hands — that's careful, complete counting, just like a real mathematician.",
+        "adaptHints": "Praise the specific process observed: dotting each face, turning right over, using the proper words (vertices, faces, edges)."
+      }
+    }
+  ],
+
+  "practiceBank": [
+    {
+      "id": "l23-p01", "skill": "sides and vertices of 2-D shapes", "level": 1,
+      "block": { "type": "multipleChoice", "prompt": "How many sides does a square have?", "options": ["4", "3", "6", "8"], "correct": 0, "explain": "A square has 4 straight sides — and 4 vertices too." },
+      "expectedAnswer": "4",
+      "wrongAnswers": [
+        { "answer": "3", "why": "miscounted or thought of a triangle", "remedy": "Trace a square in the air, counting each straight line as you turn a corner: 1, 2, 3…" },
+        { "answer": "8", "why": "counted sides AND vertices together", "remedy": "Just the straight lines this time — not the corners. Trace and count only the lines." }
+      ],
+      "hints": ["Trace it in the air and count each straight line.", "A square's sides and corners come in the same number."],
+      "reteach": { "say": "Draw a square in the air with me: across — 1, down — 2, back — 3, up — 4. Four sides. And every time your finger turned, that was a vertex: 4 of those too.", "block": { "type": "emojiViz", "emojis": "⬜ 4 sides, 4 corners", "caption": "A square: 4 sides, 4 vertices" } }
+    },
+    {
+      "id": "l23-p02", "skill": "sides and vertices of 2-D shapes", "level": 1,
+      "block": { "type": "numberEntry", "prompt": "How many sides does a triangle have?", "answer": 3 },
+      "expectedAnswer": "3",
+      "wrongAnswers": [
+        { "answer": "4", "why": "miscounted or pictured a square", "remedy": "TRI-angle — 'tri' means three, like a tricycle's three wheels. Trace it: 1, 2, 3." },
+        { "answer": "6", "why": "counted sides and vertices together", "remedy": "Only the straight lines. A triangle has 3 sides — and separately, 3 corners." }
+      ],
+      "hints": ["'Tri' means three — like a tricycle.", "Trace it: slope, slope, bottom."],
+      "reteach": { "say": "Triangle secrets are hidden in the name: TRI means three, like a TRIcycle with three wheels. Three sides, three vertices — the smallest number of sides a shape can have.", "block": { "type": "keyTerm", "term": "triangle", "definition": "a 2-D shape with 3 sides and 3 vertices", "example": "tri = three, like tricycle" } }
+    },
+    {
+      "id": "l23-p03", "skill": "sides and vertices of 2-D shapes", "level": 2,
+      "block": { "type": "fillBlank", "text": "A pentagon has ___ sides.", "answer": "5", "wordBank": ["5", "6", "4"] },
+      "expectedAnswer": "5",
+      "wrongAnswers": [
+        { "answer": "6", "why": "confused pentagon with hexagon", "remedy": "Hexagon is the six one. Think of the pentagon you held — count its sides again on your fingers." },
+        { "answer": "4", "why": "miscounted — stopped early", "remedy": "Trace all the way round until you're back where you started: 1, 2, 3, 4… one more?" }
+      ],
+      "hints": ["PENTagon — 5. HEXagon — 6.", "Count the cut-out you held with the tutor."],
+      "reteach": { "say": "Pentagon and hexagon are cousins: PENTagon has 5 sides, HEXagon has 6. Trace the pentagon you held: 1, 2, 3, 4, 5 sides — and 5 vertices to match. Sides and vertices always match on these shapes!", "block": { "type": "table", "headers": ["shape", "sides", "vertices"], "rows": [["triangle", "3", "3"], ["square", "4", "4"], ["pentagon", "5", "5"], ["hexagon", "6", "6"]], "caption": "Sides and vertices match" } }
+    },
+    {
+      "id": "l23-p04", "skill": "faces of a cube (hidden parts)", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "How many faces does a cube have — counting ALL the hidden ones?", "options": ["6", "4", "3", "12"], "correct": 0, "explain": "Six: top, bottom, front, back, left, right. Turn it and dot each one!" },
+      "expectedAnswer": "6",
+      "wrongAnswers": [
+        { "answer": "3", "why": "counted only the visible faces", "remedy": "That's the view from one side! Pick up the dice, turn it right over, and dot each face as you count." },
+        { "answer": "12", "why": "gave the edges count", "remedy": "12 is the edges — the lines where faces meet. Faces are the flat surfaces you could stick a sticker on." }
+      ],
+      "hints": ["Turn it — even the bottom counts.", "Think: top and bottom, front and back, left and right."],
+      "reteach": { "say": "The cube's faces come in pairs of opposites: top and bottom, front and back, left and right. Two, four, six. Say the pairs and no face can ever hide from you again.", "block": { "type": "table", "headers": ["pair", "faces"], "rows": [["top + bottom", "2"], ["front + back", "2"], ["left + right", "2"], ["total", "6"]], "caption": "Faces come in pairs — 6 in all" } }
+    },
+    {
+      "id": "l23-p05", "skill": "faces, edges, vertices vocabulary", "level": 2,
+      "block": { "type": "multipleChoice", "prompt": "The flat surfaces of a 3-D shape are called…", "options": ["faces", "sides", "edges", "vertices"], "correct": 0, "explain": "Solids have FACES. Flat 2-D shapes have sides. Edges are where two faces meet; vertices are the corners." },
+      "expectedAnswer": "faces",
+      "wrongAnswers": [
+        { "answer": "sides", "why": "used the 2-D word for a 3-D shape", "remedy": "'Sides' belongs to flat shapes. When the shape is solid, each whole flat surface gets a grander name — what is it?" },
+        { "answer": "edges", "why": "mixed up surfaces and the lines between them", "remedy": "An edge is skinny — a line where two flat surfaces meet. The flat surface itself is called a…?" }
+      ],
+      "hints": ["You could stick a sticker on one — a whole flat surface.", "Flat shapes: sides. Solid shapes: …?"],
+      "reteach": { "say": "Three words, three jobs: a FACE is a whole flat surface — sticker-sized. An EDGE is the line where two faces meet — run your finger along it. A VERTEX is the pointy corner — ouch! Face, edge, vertex: surface, line, point.", "block": { "type": "table", "headers": ["word", "what it is", "cube has"], "rows": [["face", "flat surface", "6"], ["edge", "line where faces meet", "12"], ["vertex", "pointy corner", "8"]], "caption": "The 3-D words" } }
+    },
+    {
+      "id": "l23-p06", "skill": "count edges and vertices of a cube", "level": 2,
+      "block": { "type": "numberEntry", "prompt": "How many vertices (pointy corners) does a cube have?", "answer": 8 },
+      "expectedAnswer": "8",
+      "wrongAnswers": [
+        { "answer": "4", "why": "counted the corners of one face only", "remedy": "That's one face's corners! The cube has a square on top AND a square underneath — count the corners of both." },
+        { "answer": "6", "why": "gave the faces count", "remedy": "6 is the faces. Vertices are the pointy corners — touch each one on the dice: 4 on top, and how many underneath?" }
+      ],
+      "hints": ["4 corners on top, and…?", "Touch each pointy corner of the dice as you count."],
+      "reteach": { "say": "A cube is a square on top of a square: the top square has 4 corners, the bottom square has 4 more. 4 + 4 = 8 vertices. Touch them on the dice — four up high, four down low.", "block": { "type": "emojiViz", "emojis": "⬛ 4 corners up + 4 corners down = 8", "caption": "A cube has 8 vertices" } }
+    },
+    {
+      "id": "l23-p07", "skill": "describe a cuboid", "level": 3,
+      "block": { "type": "multipleChoice", "prompt": "Stretch! Your cereal box is a CUBOID. How many faces, edges and vertices does it have?", "options": ["6 faces, 12 edges, 8 vertices", "4 faces, 8 edges, 4 vertices", "6 faces, 8 edges, 12 vertices", "3 faces, 12 edges, 8 vertices"], "correct": 0, "explain": "Same counts as the cube — 6, 12, 8 — but the faces are rectangles instead of squares." },
+      "expectedAnswer": "6 faces, 12 edges, 8 vertices",
+      "wrongAnswers": [
+        { "answer": "6 faces, 8 edges, 12 vertices", "why": "swapped edges and vertices", "remedy": "Vertices are the pointy corners — count them on the box: 4 on top, 4 underneath. Then the edges are the lines — there are more of those." },
+        { "answer": "4 faces, 8 edges, 4 vertices", "why": "counted only visible parts", "remedy": "Turn the box right over, dot every face like we did with the dice — front, back, top, bottom, and the two skinny ends." }
+      ],
+      "hints": ["Turn the box — don't forget the two skinny end faces.", "It matches the cube's numbers exactly."],
+      "reteach": { "say": "Here's the twist: a cuboid is just a stretched cube! Stretching changes the SHAPE of the faces — squares become rectangles — but never the COUNT: still 6 faces, 12 edges, 8 vertices. Check it on the cereal box, dot by dot.", "block": { "type": "table", "headers": ["", "cube", "cuboid"], "rows": [["faces", "6 (squares)", "6 (rectangles)"], ["edges", "12", "12"], ["vertices", "8", "8"]], "caption": "Stretching a cube changes the faces' shape, not the counts" } }
+    },
+    {
+      "id": "l23-p08", "skill": "sort solids by properties", "level": 3,
+      "block": { "type": "categorize", "prompt": "Sort these real solids: does it have a curved surface (so it can roll), or only flat faces?", "buckets": ["curved — can roll", "only flat faces"], "items": [ { "text": "ball (sphere)", "bucket": "curved — can roll" }, { "text": "tin (cylinder)", "bucket": "curved — can roll" }, { "text": "dice (cube)", "bucket": "only flat faces" }, { "text": "cereal box (cuboid)", "bucket": "only flat faces" } ] },
+      "expectedAnswer": "sphere, cylinder → curved/roll; cube, cuboid → only flat faces",
+      "wrongAnswers": [
+        { "answer": "tin (cylinder) → only flat faces", "why": "noticed the two flat circle ends and missed the curved wrap-around", "remedy": "The tin DOES have two flat ends — but what about the part the label wraps around? Roll it on the table and see." }
+      ],
+      "hints": ["Try rolling each one in your head (or for real!).", "Flat faces slide and stack; curved surfaces roll."],
+      "reteach": { "say": "The rolling test never lies: put each solid on a slope. The ball rolls anywhere — all curve. The tin rolls on its curved wrap but stands on its flat ends — it's both! The dice and the box just sit there — all flat faces. Curve makes things roll.", "block": { "type": "table", "headers": ["solid", "flat parts", "curved part", "rolls?"], "rows": [["sphere", "none", "all of it", "yes"], ["cylinder", "2 circle ends", "the wrap-around", "yes, on its side"], ["cube", "6 faces", "none", "no"], ["cuboid", "6 faces", "none", "no"]], "caption": "The rolling test" } }
+    },
+    {
+      "id": "l23-p09", "skill": "faces of a cube (hidden parts)", "level": 3,
+      "block": { "type": "trueFalse", "statement": "A cube has 4 faces, because that's what you can see when you look at it.", "correct": false, "explain": "What you can SEE isn't all there IS — turn it! A cube has 6 faces; some are always hiding." },
+      "expectedAnswer": "False",
+      "wrongAnswers": [
+        { "answer": "True", "why": "the lesson's core misconception — visible-only counting", "remedy": "Grab the dice and turn it slowly. Keep counting past what you saw at first — how many faces do you find in total?" }
+      ],
+      "hints": ["Can the bottom face see you? It still counts!", "Turn it right over and count with dots."],
+      "reteach": { "say": "Shapes are sneaky — they never show you everything at once. That's why counting eyes-only fails and counting turn-and-dot wins. Six faces: top, bottom, front, back, left, right. The hidden ones count just as much as the ones showing off.", "block": { "type": "emojiViz", "emojis": "👀 3 seen + 🙈 3 hiding = 6", "caption": "Turn the solid — hidden faces count too" } }
+    },
+    {
+      "id": "l23-p10", "skill": "explain the counting method", "level": 3,
+      "block": { "type": "shortText", "prompt": "A friend counted 3 faces on the dice and stopped. What should they DO to count them all, and what will they get?", "sample": "Turn the dice right over, putting a dot on each face so none gets counted twice or missed — they'll find 6 faces." },
+      "expectedAnswer": "Turn it and mark each face (dot-and-turn) — 6 faces",
+      "wrongAnswers": [
+        { "answer": "They're right — 3 faces", "why": "shares the visible-only misconception", "remedy": "Look at the dice from one spot — now, is the bottom face gone, or just hiding? What could your friend do to check?" },
+        { "answer": "Count again more carefully", "why": "right instinct, but no method — recounting the same view gives the same miss", "remedy": "Careful counting of the SAME view still misses the back and bottom. What movement would show the hiding faces?" }
+      ],
+      "hints": ["The hiding faces need the dice to MOVE.", "How do you make sure you don't count a face twice?"],
+      "reteach": { "say": "The fix is a method, not just care: TURN and MARK. Turn the dice so every face takes a turn facing you, and stick a dot on each one you count — dots stop double-counting AND show you when you're done. Six dots, six faces, no escapees.", "block": { "type": "steps", "steps": ["Put a dot on the face you can see. Count: 1.", "Turn the dice to a new face. Dot it, count it.", "Keep turning — bottom too! — until every face has a dot.", "No blank faces left? Your count is complete: 6."] } }
+    }
+  ],
+
+  "adaptivity": {
+    "startLevel": 2,
+    "levelUp": "2 consecutive correct at the current level → next level; at level 3, interleave 2-D items, 3-D items and the rolls/flat sort.",
+    "levelDown": "2 misses on the same skill → run that item's reteach and send the child to the REAL solid to dot-and-turn (CPA step down), then serve a level-1 item of the same skill.",
+    "masterySignal": "3+ correct across levels 2–3 including one full 3-D count (cube or cuboid) with hidden parts included → mastery ≥ 0.8 for 'properties of 2-D and 3-D shapes'.",
+    "struggleProtocol": [
+      "Don't reveal.",
+      "Name why: hidden parts missed, or side/face words swapped.",
+      "Go concrete: pick up the real solid and dot-and-turn together.",
+      "One hint: 'Did you turn it right over — even the bottom?'",
+      "Re-ask with the dice, then build back to the cuboid.",
+      "Keep it safe: 'Mistakes show us what to practise — smaller step.'"
+    ],
+    "personalization": "Point every shape at the child's world (LearnerModel.interests): their football is a sphere, their favourite cereal box a cuboid, a tin of beans a cylinder. Counts never change.",
+    "endOnSuccess": "Finish on a winnable item (square, or cube faces with the dotted dice in hand), then specific process praise: 'you turned it and dotted every face — nothing hid from you.'"
+  },
+
+  "differentiation": {
+    "support": "Keep the real dotted dice in hand for every 3-D item; count faces in opposite pairs (top+bottom, front+back, left+right); stay on the cube before the cuboid.",
+    "stretch": "Cuboid vs cube comparison (what changes, what doesn't); sort solids by 'rolls / stacks / both'; hunt for a shape at home with MORE than 6 faces."
+  },
+  "extension": "Shape hunt — find a cube, a cuboid, a sphere and a cylinder around the home; for each, say its faces (and test which ones roll).",
+  "assessmentEvidence": "Child states sides/vertices of 2-D shapes (pentagon 5/5) and faces/edges/vertices of a cube and cuboid (6/12/8), explicitly counting hidden faces by turning.",
+  "revisitLater": "Shape properties return in the Lesson 25 quiz ('faces of a cube?', 'sides of a pentagon?') and feed the symmetry work in Lesson 24 (2-D shapes reused for folding)."
+}
