@@ -168,4 +168,20 @@ export const GALLERY_SAMPLES: LessonElement[] = [
   { type: 'measure', mode: 'scale', value: 4, target: 7, unit: 'kg' },
   { type: 'measure', mode: 'jug', value: 250, target: 600, unit: 'ml' },
   { type: 'measure', mode: 'thermo', value: 18, target: 25, unit: '°C' },
+  {
+    type: 'wordBuild',
+    word: 'ship',
+    split: 'phoneme',
+  },
+  {
+    type: 'textMark',
+    passage: 'The quick fox jumped over the lazy dog.',
+    mode: 'highlight',
+    marks: ['fox', 'dog'],
+  },
+  {
+    type: 'sentence',
+    words: ['The', 'cat', 'sat', 'on', 'the', 'mat'],
+    label: 'order',
+  },
 ];

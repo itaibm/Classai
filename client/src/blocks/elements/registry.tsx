@@ -15,6 +15,9 @@ import { ShapeElement } from './shape.tsx';
 import { GridElement } from './grid.tsx';
 import { DataChartElement } from './dataChart.tsx';
 import { MeasureElement } from './measure.tsx';
+import { WordBuildElement } from './wordBuild.tsx';
+import { TextMarkElement } from './textMark.tsx';
+import { SentenceElement } from './sentence.tsx';
 
 /**
  * Maps an element `type` to its React renderer. Empty at first — each
@@ -37,6 +40,9 @@ export const ELEMENT_REGISTRY: Partial<Record<ElementType, React.FC<ElementProps
   grid: GridElement as React.FC<ElementProps>,
   dataChart: DataChartElement as React.FC<ElementProps>,
   measure: MeasureElement as React.FC<ElementProps>,
+  wordBuild: WordBuildElement as React.FC<ElementProps>,
+  textMark: TextMarkElement as React.FC<ElementProps>,
+  sentence: SentenceElement as React.FC<ElementProps>,
 };
 
 export function hasRenderer(t: ElementType): boolean {
