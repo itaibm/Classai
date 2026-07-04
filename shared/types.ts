@@ -449,6 +449,22 @@ export interface CatalogYear {
   subjects: CatalogSubject[];
 }
 
+/** Detail for one catalog lesson (outline + unit context) — the /catalog/lessons/:id shape. */
+export interface CatalogLessonDetail {
+  id: string;
+  year: number;
+  subject: string;
+  subjectKey: SubjectKey;
+  subjectLabel: string;
+  unitNumber: number;
+  lessonNumber: number;
+  title: string;
+  status: CatalogLessonStatus;
+  outline?: LessonOutline;
+  unit?: { title: string; essentialQuestion: string; keyVocabulary: string[] };
+  yearOverview?: string;
+}
+
 /** A learner's assigned subject-year with per-lesson completion (learner home). */
 export interface AssignedSubject {
   classId: string;

@@ -27,6 +27,7 @@ export function App() {
   if ((m = match('/parent/lesson/:id', path))) return <ParentGate><LessonEditor lessonId={m.id!} /></ParentGate>;
   if ((m = match('/learn/:kidId', path))) return <LearnHome kidId={m.kidId!} />;
   if ((m = match('/learn/:kidId/lesson/:lessonId', path))) return <Classroom lessonId={m.lessonId!} kidId={m.kidId!} />;
+  if ((m = match('/learn/:kidId/c/:catalogId', path))) return <Classroom catalogId={m.catalogId!} kidId={m.kidId!} />;
 
   return <Home />;
 }

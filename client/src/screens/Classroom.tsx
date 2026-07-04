@@ -14,9 +14,11 @@ const HD_KEY = 'classai_hd';
 const MUTE_KEY = 'classai_mute';
 const MIC_KEY = 'classai_mic';
 
-export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string }) {
+export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; kidId: string; catalogId?: string }) {
   const [kid, setKid] = useState<Kid | null>(null);
   const [lesson, setLesson] = useState<Lesson | null>(null);
+  const [startMsg, setStartMsg] = useState('Getting ready…');
+  const catalogStatusRef = useRef<string>('');
   const [phase, setPhase] = useState<Phase>('gate');
   const [emotion, setEmotion] = useState<Emotion>('happy');
   const [mouthOpen, setMouthOpen] = useState(0);
@@ -75,18 +77,25 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
     let cancelled = false;
     (async () => {
       try {
-        const { lesson } = await api.lesson(lessonId);
         const { kid } = await api.kid(kidId);
         if (cancelled) return;
-        setLesson(lesson);
         setKid(kid);
         kidRef.current = kid;
-        // resolve the shared class subject for color theming (non-fatal)
-        api.classDetail(lesson.classId)
-          .then(({ classDefinition }) => {
-            if (!cancelled) setSubjectKey(classDefinition.subjectKey);
-          })
-          .catch(() => {});
+        if (catalogId) {
+          // Curriculum lesson — may be authored (ready) or outline (AI builds it on start).
+          const { lesson: ref } = await api.catalogLesson(catalogId);
+          if (cancelled) return;
+          catalogStatusRef.current = ref.status;
+          setSubjectKey(ref.subjectKey);
+          setLesson({ id: ref.id, title: ref.title, topic: ref.unit?.title || ref.title, classId: '' } as Lesson);
+        } else if (lessonId) {
+          const { lesson } = await api.lesson(lessonId);
+          if (cancelled) return;
+          setLesson(lesson);
+          api.classDetail(lesson.classId)
+            .then(({ classDefinition }) => { if (!cancelled) setSubjectKey(classDefinition.subjectKey); })
+            .catch(() => {});
+        }
       } catch (e: any) {
         setErrMsg(e.message || 'Could not load the lesson.');
         setPhase('error');
@@ -103,9 +112,14 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
 
   async function begin() {
     unlockAudio(); // must run inside the tap so audio can play
+    setStartMsg(catalogId && catalogStatusRef.current === 'outline'
+      ? 'Building your lesson with AI… this happens once, then it\'s saved.'
+      : 'Getting ready…');
     setPhase('starting');
     try {
-      const { sessionId } = await api.startLesson(lessonId, kidId);
+      const { sessionId } = catalogId
+        ? await api.startCatalogLesson(catalogId, kidId)
+        : await api.startLesson(lessonId!, kidId);
       sessionRef.current = sessionId;
       fetchTurn();
     } catch (e: any) {
@@ -291,7 +305,7 @@ export function Classroom({ lessonId, kidId }: { lessonId: string; kidId: string
           )}
 
           {(phase === 'starting' || phase === 'thinking') && (
-            <div className="captions thinking">{phase === 'starting' ? 'Getting ready…' : 'thinking…'}</div>
+            <div className="captions thinking">{phase === 'starting' ? startMsg : 'thinking…'}</div>
           )}
           {phase === 'error' && <div className="captions"><span className="muted">{errMsg}</span></div>}
           {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions && (

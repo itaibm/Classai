@@ -139,7 +139,7 @@ export function ClassDetail({ classId }: { classId: string }) {
 
                 <h3 style={{ marginTop: 20 }}>Curriculum lessons in this class</h3>
                 {data.curriculumAttachments.length === 0 && (
-                  <p className="muted small">None yet. Add hand-built lessons from the <button className="btn ghost small" onClick={() => navigate('/parent/library')}>Class library → Curriculum</button> tab.</p>
+                  <p className="muted small">None yet. Browse and assign lessons from the <button className="btn ghost small" onClick={() => navigate('/parent/classes')}>Curriculum</button>.</p>
                 )}
                 <ul className="list-reset">
                   {data.curriculumAttachments.map((attachment) => (

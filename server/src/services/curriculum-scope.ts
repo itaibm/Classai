@@ -167,7 +167,7 @@ export function parseScopeFile(markdown: string): ParsedScope {
       }
     }
 
-    if (inOverview && line.trim()) {
+    if (inOverview && line.trim() && !/^[-*_]{3,}$/.test(line.trim())) {
       yearOverview += (yearOverview ? ' ' : '') + line.trim();
     }
   }

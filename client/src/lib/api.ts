@@ -24,7 +24,10 @@ import type {
   WeeklySchedule,
   CurriculumYear,
   CurriculumAttachment,
-  LessonFull
+  LessonFull,
+  CatalogYear,
+  CatalogLessonDetail,
+  AssignedSubject
 } from '@shared/types';
 
 async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
@@ -164,6 +167,15 @@ export const api = {
     }),
   detachCurriculum: (attachmentId: string) =>
     req<{ ok: true }>(`/curriculum/attachments/${attachmentId}`, { method: 'DELETE' }),
+
+  // curriculum catalog (the whole planned curriculum; unprepared lessons AI-built)
+  catalog: () => req<{ years: CatalogYear[] }>('/catalog'),
+  catalogLesson: (id: string) => req<{ lesson: CatalogLessonDetail }>(`/catalog/lessons/${encodeURIComponent(id)}`),
+  assignCurriculum: (kidId: string, year: number, subject: string) =>
+    req<{ classId: string }>('/catalog/assign', { method: 'POST', body: JSON.stringify({ kidId, year, subject }) }),
+  startCatalogLesson: (id: string, kidId: string) =>
+    req<{ sessionId: string }>(`/catalog/lessons/${encodeURIComponent(id)}/start`, { method: 'POST', body: JSON.stringify({ kidId }) }),
+  kidCurriculum: (kidId: string) => req<{ subjects: AssignedSubject[] }>(`/kids/${kidId}/curriculum`),
 
   // teaching
   startLesson: (lessonId: string, kidId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
