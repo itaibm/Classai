@@ -11,6 +11,10 @@ import { BaseTenElement } from './baseTen.tsx';
 import { FractionElement } from './fraction.tsx';
 import { BarModelElement } from './barModel.tsx';
 import { NumberBondElement } from './numberBond.tsx';
+import { ShapeElement } from './shape.tsx';
+import { GridElement } from './grid.tsx';
+import { DataChartElement } from './dataChart.tsx';
+import { MeasureElement } from './measure.tsx';
 
 /**
  * Maps an element `type` to its React renderer. Empty at first — each
@@ -29,6 +33,10 @@ export const ELEMENT_REGISTRY: Partial<Record<ElementType, React.FC<ElementProps
   fraction: FractionElement as React.FC<ElementProps>,
   barModel: BarModelElement as React.FC<ElementProps>,
   numberBond: NumberBondElement as React.FC<ElementProps>,
+  shape: ShapeElement as React.FC<ElementProps>,
+  grid: GridElement as React.FC<ElementProps>,
+  dataChart: DataChartElement as React.FC<ElementProps>,
+  measure: MeasureElement as React.FC<ElementProps>,
 };
 
 export function hasRenderer(t: ElementType): boolean {
