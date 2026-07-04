@@ -376,6 +376,92 @@ export interface CurriculumAttachment {
   createdAt: string;
 }
 
+// ---------------------------------------------------------------------------
+// Curriculum scope + catalog (the whole planned curriculum, prepared or not)
+//
+// Every subject-year ships a scope file (`<subject>-year-N.md`) that outlines
+// every planned lesson. The catalog merges those outlines with the authored
+// `classai-lesson/1` JSONs so the library shows all ~1085 lessons; unprepared
+// ones are AI-generated on first start from their outline + the knowledge base.
+// ---------------------------------------------------------------------------
+
+/** One planned lesson as parsed from a scope file (the AI's brief to build it). */
+export interface LessonOutline {
+  lessonNumber: number;
+  unitNumber: number;
+  title: string;
+  durationMin: number;
+  objective: string;
+  hook: string;
+  keyActivity: string;
+  check: string;
+  differentiation: { support: string; stretch: string };
+  materials: string;
+  joy: string;
+}
+
+export interface ScopeUnit {
+  number: number;
+  title: string;
+  essentialQuestion: string;
+  keyVocabulary: string[];
+  endOfUnitCheck: string;
+  lessons: LessonOutline[];
+}
+
+export interface ParsedScope {
+  yearOverview: string;
+  units: ScopeUnit[];
+}
+
+export type CatalogLessonStatus = 'authored' | 'outline';
+
+export interface CatalogLesson {
+  id: string; // e.g. "y2-maths-u1-l01"
+  lessonNumber: number;
+  unitNumber: number;
+  title: string;
+  objective: string;
+  durationMin: number;
+  status: CatalogLessonStatus; // authored = a JSON exists; outline = AI will build it
+  deliveryMode?: LessonFull['delivery']['mode'];
+}
+
+export interface CatalogUnit {
+  number: number;
+  title: string;
+  essentialQuestion: string;
+  lessons: CatalogLesson[];
+}
+
+export interface CatalogSubject {
+  subject: string; // folder name, e.g. "maths"
+  subjectKey: SubjectKey;
+  subjectLabel: string;
+  yearOverview: string;
+  units: CatalogUnit[];
+  lessonCount: number;
+  authoredCount: number;
+}
+
+export interface CatalogYear {
+  year: number;
+  subjects: CatalogSubject[];
+}
+
+/** A learner's assigned subject-year with per-lesson completion (learner home). */
+export interface AssignedSubject {
+  classId: string;
+  year: number;
+  subject: string;
+  subjectKey: SubjectKey;
+  subjectLabel: string;
+  yearOverview: string;
+  units: (CatalogUnit & { lessons: (CatalogLesson & { done: boolean })[] })[];
+  completed: number;
+  total: number;
+}
+
 export interface AISuggestion {
   id: string;
   classId: string;

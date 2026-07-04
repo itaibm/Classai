@@ -13,7 +13,11 @@ import type {
   Weekday
 } from '../../shared/types.ts';
 import { WEEKDAYS, isLessonFull } from '../../shared/types.ts';
+import type { AssignedSubject, CatalogLesson } from '../../shared/types.ts';
 import { curriculumTree, getCurriculumLesson } from './services/curriculum.ts';
+import { buildCatalog, getCatalogLessonRef } from './services/curriculum-catalog.ts';
+import { generateAndSaveLesson } from './services/lesson-generator.ts';
+import { assignCurriculum, parseCurriculumClassId } from './services/curriculum-enroll.ts';
 import * as db from './db/index.ts';
 import { authStore, profileId } from './ai/auth-store.ts';
 import { getBrain, MODEL_OPTIONS, NoBrainError } from './ai/provider.ts';
@@ -294,6 +298,96 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.delete('/api/curriculum/attachments/:id', async (req) => {
     db.curriculumAttachments.remove((req.params as { id: string }).id);
     return { ok: true };
+  });
+
+  // ---- curriculum catalog (the whole planned curriculum, prepared or not) ---
+
+  app.get('/api/catalog', async () => ({ years: buildCatalog() }));
+
+  app.get('/api/catalog/lessons/:id', async (req, reply) => {
+    const ref = getCatalogLessonRef((req.params as { id: string }).id);
+    if (!ref) return reply.status(404).send({ error: 'lesson not found in the curriculum' });
+    return { lesson: ref };
+  });
+
+  // Assign a learner to a subject-year (creates the hidden shared class + enrollment).
+  app.post('/api/catalog/assign', async (req, reply) => {
+    const b = req.body as { kidId?: string; year?: number; subject?: string };
+    if (!b?.kidId || !b?.year || !b?.subject) return reply.status(400).send({ error: 'kidId, year and subject required' });
+    try {
+      const cls = assignCurriculum(b.kidId, b.year, b.subject);
+      return { classId: cls.id };
+    } catch (error: any) {
+      return reply.status(404).send({ error: error.message });
+    }
+  });
+
+  // Start a curriculum lesson: authored → play; outline → generate+save → play.
+  app.post('/api/catalog/lessons/:id/start', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    const kidId = (req.body as { kidId?: string })?.kidId;
+    if (!kidId) return reply.status(400).send({ error: 'kidId required' });
+    const kid = db.kids.get(kidId);
+    if (!kid) return reply.status(404).send({ error: 'learner not found' });
+    const ref = getCatalogLessonRef(id);
+    if (!ref) return reply.status(404).send({ error: 'lesson not found in the curriculum' });
+
+    const cls = assignCurriculum(kidId, ref.year, ref.subject); // ensure enrolled for progress
+    let lesson = ref.authored;
+    if (!lesson) {
+      // Outline-only → build it now (needs a connected brain; NoBrainError → 400).
+      lesson = (await generateAndSaveLesson(ref)).lesson;
+    }
+    lesson.classId = cls.id;
+    lesson.id = ref.id;
+    const session = startSession(kid, cls, lesson);
+    return { sessionId: session.id };
+  });
+
+  // A learner's assigned subject-years with the catalog + per-lesson completion.
+  app.get('/api/kids/:id/curriculum', async (req, reply) => {
+    const kidId = (req.params as { id: string }).id;
+    if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
+    const done = new Set(
+      db.sessions.listByKid(kidId).filter((s) => s.status === 'ended' && s.curriculumId).map((s) => s.curriculumId)
+    );
+    const assigned = db.enrollments.listByKid(kidId)
+      .map((e) => db.classes.get(e.classId))
+      .filter((c): c is NonNullable<typeof c> => Boolean(c))
+      .map((c) => ({ cls: c, key: parseCurriculumClassId(c.id) }))
+      .filter((x): x is { cls: NonNullable<typeof x.cls>; key: NonNullable<typeof x.key> } => Boolean(x.key));
+    if (!assigned.length) return { subjects: [] as AssignedSubject[] };
+
+    const catalog = buildCatalog();
+    const subjects: AssignedSubject[] = [];
+    for (const { cls, key } of assigned) {
+      const year = catalog.find((y) => y.year === key.year);
+      const subject = year?.subjects.find((s) => s.subject === key.subject);
+      if (!subject) continue;
+      let completed = 0;
+      let total = 0;
+      const units = subject.units.map((u) => ({
+        ...u,
+        lessons: u.lessons.map((l: CatalogLesson) => {
+          total++;
+          const isDone = done.has(l.id);
+          if (isDone) completed++;
+          return { ...l, done: isDone };
+        })
+      }));
+      subjects.push({
+        classId: cls.id,
+        year: key.year,
+        subject: subject.subject,
+        subjectKey: subject.subjectKey,
+        subjectLabel: subject.subjectLabel,
+        yearOverview: subject.yearOverview,
+        units,
+        completed,
+        total
+      });
+    }
+    return { subjects };
   });
 
   // ---- kids ----------------------------------------------------------------

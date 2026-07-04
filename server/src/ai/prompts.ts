@@ -368,6 +368,88 @@ export function turnDirective(args: {
 }
 
 // ===========================================================================
+// Curriculum lesson GENERATION — build a full classai-lesson/1 from a scope
+// outline + the knowledge base, when a planned lesson isn't authored yet.
+// Split into two calls (core, then practice bank) so neither hits token limits.
+// ===========================================================================
+
+export interface GenLessonMeta {
+  id: string;
+  year: number;
+  subject: string; // folder, e.g. "maths"
+  subjectLabel: string;
+  unitNumber: number;
+  lessonNumber: number;
+  title: string;
+  unitTitle: string;
+  essentialQuestion: string;
+  keyVocabulary: string[];
+  outline: {
+    durationMin: number;
+    objective: string;
+    hook: string;
+    keyActivity: string;
+    check: string;
+    differentiation: { support: string; stretch: string };
+    materials: string;
+    joy: string;
+  };
+}
+
+export function lessonGenSystem(subjectLabel: string): string {
+  return [
+    `You are a master ${subjectLabel} teacher building ONE hand-crafted lesson for a one-on-one AI tutor, in the strict "classai-lesson/1" JSON format. It will be played verbatim by the app, so it must be concrete, correct, and pitched to the age. Follow the school's method: ONE new idea per lesson; CPA (concrete → pictorial → abstract); most minutes are the learner DOING, not listening; every check/practice item has an answer key + anticipated wrong answers with why + remedy; process praise; end on an earned win.`,
+    '',
+    'Return ONLY a single JSON object (no prose, no code fences). Use the block types below for every "block"/"blocks" field.',
+    BLOCK_CATALOG,
+    '',
+    'BEATS follow the arc hook → explain → example → check → practice → recap. Each beat: {"kind","delivery":"ai"|"human"|"video","timeboxMin":[a,b],"goal","note","successCriteria","script":{"say":"verbatim warm speech","adaptHints":"how to personalize names/interests WITHOUT changing facts"},"blocks":[<authored block>],"check"?:{"question","expectedAnswer","wrongAnswers":[{"answer","why","remedy"}]},"stuckProtocol"?:[string]}. Default delivery "ai". Use "human" only if the outline needs real hands-on materials, with "humanHandoff":{"setup","cueToResume"}.'
+  ].join('\n');
+}
+
+function outlineBlock(meta: GenLessonMeta): string {
+  const o = meta.outline;
+  return [
+    `LESSON TO BUILD — Year ${meta.year} ${meta.subjectLabel}, Unit ${meta.unitNumber} "${meta.unitTitle}"`,
+    `Essential question: ${meta.essentialQuestion || '—'}`,
+    meta.keyVocabulary.length ? `Unit vocabulary: ${meta.keyVocabulary.join(', ')}` : '',
+    `Lesson ${meta.lessonNumber}: "${meta.title}" (~${o.durationMin || 20} min)`,
+    `Objective: ${o.objective}`,
+    o.hook ? `Hook: ${o.hook}` : '',
+    o.keyActivity ? `Key activity (the heart of the lesson): ${o.keyActivity}` : '',
+    o.check ? `Check for understanding: ${o.check}` : '',
+    o.differentiation.support ? `Support: ${o.differentiation.support}` : '',
+    o.differentiation.stretch ? `Stretch: ${o.differentiation.stretch}` : '',
+    o.materials ? `Materials: ${o.materials}` : '',
+    o.joy ? `Joy / the fun of it: ${o.joy}` : ''
+  ]
+    .filter(Boolean)
+    .join('\n');
+}
+
+export function lessonGenCoreUser(meta: GenLessonMeta, knowledge: string): string {
+  return [
+    outlineBlock(meta),
+    knowledge ? `\nTEACHING KNOWLEDGE BASE (ground the lesson in this; correct any misconceptions it names):\n"""\n${knowledge.slice(0, 8000)}\n"""` : '',
+    '',
+    'Build the CORE of the lesson now (NOT the practice bank yet). Return ONLY this JSON object:',
+    `{"vocabulary":[{"term","definition","example"}],"emphasize":["the 1-3 things that MUST land + the misconception to pre-empt"],"analysis":{"keyConcepts":[],"misconceptions":[],"hooks":[],"priorKnowledge":[]},"materials":{"human":[],"digital":[]},"delivery":{"mode":"fully_ai"|"human_intro_then_ai"|"video_then_ai","humanNotes":""},"plan":[<4-6 beats: hook, explain(+visual block), example(+block), check(+interactive block & check object), practice(no items here), recap>],"differentiation":{"support":"${''}","stretch":""},"extension":"","assessmentEvidence":"","revisitLater":""}`,
+    'Realize the key activity as concrete beats with real on-screen blocks (whiteboard/slideshow/steps/etc. to teach, interactive blocks to check). Keep scripts warm and short. Do NOT include practiceBank or adaptivity — those come next.'
+  ].join('\n');
+}
+
+export function lessonGenPracticeUser(meta: GenLessonMeta): string {
+  return [
+    outlineBlock(meta),
+    '',
+    'Now build the PRACTICE BANK and adaptivity for this exact lesson. Return ONLY this JSON object:',
+    '{"practiceBank":[<AT LEAST 9 items, 3 at each level 1/2/3, covering every skill in the objective>],"adaptivity":{"startLevel":2,"levelUp":"...","levelDown":"...","masterySignal":"...","struggleProtocol":["..."],"personalization":"...","endOnSuccess":"..."}}',
+    'Each practice item: {"id":"' + `${meta.id}-pNN` + '","skill":"short skill name","level":1|2|3,"block":<interactive block with its answer key>,"expectedAnswer":"","wrongAnswers":[{"answer","why","remedy"}],"hints":["small nudge","bigger scaffold"],"reteach":{"say":"a fresh SMALLER re-explanation","block":<optional visual>},"interestSlots":["nouns the tutor may swap for the kid\'s interests"]}.',
+    'Vary block types across items (multipleChoice, numberEntry, trueFalse, fillBlank, categorize, ordering, shortText…). Level 1 = supportive, 2 = core, 3 = stretch. Every item needs ≥1 anticipated wrong answer with why + remedy, and a reteach.'
+  ].join('\n');
+}
+
+// ===========================================================================
 // Authored-lesson STATE + DIRECTIVE (curriculum `classai-lesson/1`)
 //
 // For hand-built lessons the director owns the control flow and supplies the

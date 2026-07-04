@@ -54,6 +54,7 @@ export function mockBrainEnabled(): boolean {
 
 function mockGenerate(opts: GenerateOptions): string {
   const s = opts.system || '';
+  const u = (opts.messages || []).map((m) => m.content).join('\n');
   if (/\{"correct": boolean\}/.test(s) || /grade a young learner/i.test(s)) return '{"correct": true}';
   if (/progress report/i.test(s)) {
     return JSON.stringify({ summary: 'Mock session report.', mastered: [], needsWork: [], highlights: [], nextSteps: '', concerns: [], score: 70 });
@@ -61,6 +62,42 @@ function mockGenerate(opts: GenerateOptions): string {
   if (/evolving profile/i.test(s)) return JSON.stringify({ summary: 'Mock learner summary.', preferences: '' });
   if (/curriculum designer/i.test(s)) {
     return JSON.stringify({ title: 'Mock', description: '', topics: [{ title: 'Topic', summary: '', estMinutes: 20, prerequisites: [] }] });
+  }
+  // Lesson generation (classai-lesson/1): return a valid core or practice part.
+  if (/classai-lesson\/1/.test(s)) {
+    if (/PRACTICE BANK/.test(u)) {
+      const items = [1, 2, 3].flatMap((lvl) =>
+        [0, 1, 2].map((k) => ({
+          id: `mock-l${lvl}-${k}`,
+          skill: 'mock skill',
+          level: lvl,
+          block: { type: 'numberEntry', prompt: `Type ${lvl}${k}`, answer: lvl * 10 + k },
+          expectedAnswer: String(lvl * 10 + k),
+          wrongAnswers: [{ answer: '0', why: 'slip', remedy: 'count again' }],
+          hints: ['a small nudge', 'a bigger scaffold'],
+          reteach: { say: 'Here is a smaller way to see it.' }
+        }))
+      );
+      return JSON.stringify({ practiceBank: items, adaptivity: { startLevel: 2, levelUp: '', levelDown: '', masterySignal: '', struggleProtocol: [], personalization: '', endOnSuccess: 'End on a win.' } });
+    }
+    return JSON.stringify({
+      vocabulary: [{ term: 'mock', definition: 'a stand-in' }],
+      emphasize: ['the one big idea'],
+      analysis: { keyConcepts: [], misconceptions: [], hooks: [], priorKnowledge: [] },
+      materials: { human: [], digital: [] },
+      delivery: { mode: 'fully_ai', humanNotes: '' },
+      plan: [
+        { kind: 'hook', delivery: 'ai', goal: 'hook', note: '', successCriteria: 'curious', script: { say: 'Ready?' } },
+        { kind: 'explain', delivery: 'ai', goal: 'explain', note: '', successCriteria: 'shown', script: { say: 'Watch.' }, blocks: [{ type: 'richText', markdown: 'Idea.' }] },
+        { kind: 'check', delivery: 'ai', goal: 'check', note: '', successCriteria: 'answered', script: { say: 'Your turn.' }, blocks: [{ type: 'multipleChoice', prompt: '2+2?', options: ['3', '4'], correct: 1 }], check: { question: '2+2?', expectedAnswer: '4', wrongAnswers: [{ answer: '3', why: 'slip', remedy: 'recount' }] } },
+        { kind: 'practice', delivery: 'ai', goal: 'practice', note: '', successCriteria: '3 correct', script: { say: 'Practice!' } },
+        { kind: 'recap', delivery: 'ai', goal: 'recap', note: '', successCriteria: 'stated', script: { say: 'Great job!' } }
+      ],
+      differentiation: { support: '', stretch: '' },
+      extension: '',
+      assessmentEvidence: '',
+      revisitLater: ''
+    });
   }
   // Default: a valid teaching turn (the director overrides blocks in authored mode).
   return JSON.stringify({

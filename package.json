@@ -16,7 +16,8 @@
     "typecheck": "tsc -p server/tsconfig.json --noEmit && tsc -p client/tsconfig.json --noEmit",
     "test:practice": "node --import tsx --test server/src/teach/practice.test.ts",
     "test:teach": "node --import tsx --test server/src/teach/authored.test.ts",
-    "test": "npm run test:practice && npm run test:teach"
+    "test:curriculum": "node --import tsx --test server/src/services/curriculum.test.ts",
+    "test": "npm run test:practice && npm run test:teach && npm run test:curriculum"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

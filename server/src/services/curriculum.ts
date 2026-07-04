@@ -204,6 +204,13 @@ function contentHash(raw: string): string {
   return crypto.createHash('sha256').update(raw).digest('hex').slice(0, 16);
 }
 
+/** Public: turn a validated disk-lesson object into a runtime LessonFull
+ *  (hash derived from its JSON). Used by the generator when it can't re-read
+ *  from disk. */
+export function diskToLessonFull(disk: DiskLesson): LessonFull {
+  return toLessonFull(disk, contentHash(JSON.stringify(disk)));
+}
+
 /** Add the Lesson-required plumbing fields around a validated disk lesson. */
 function toLessonFull(disk: DiskLesson, hash: string): LessonFull {
   return {
@@ -361,3 +368,15 @@ export function curriculumCount(): number {
   for (const file of listLessonFiles()) if (readLessonFile(file.filePath)) n++;
   return n;
 }
+
+/** Every authored lesson with its folder year+subject, for the catalog merge. */
+export function scanAuthoredLessons(): { lesson: LessonFull; year: number; subject: string }[] {
+  const out: { lesson: LessonFull; year: number; subject: string }[] = [];
+  for (const file of listLessonFiles()) {
+    const read = readLessonFile(file.filePath);
+    if (read) out.push({ lesson: read.lesson, year: file.year, subject: file.subject });
+  }
+  return out;
+}
+
+export { CURRICULUM_DIR } from '../config.ts';
