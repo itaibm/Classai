@@ -25,6 +25,9 @@ import { SortElement } from './sort.tsx';
 import { MusicElement } from './music.tsx';
 import { DrawElement } from './draw.tsx';
 import { StepsElement } from './steps.tsx';
+import { ChoiceElement } from './choice.tsx';
+import { EnterElement } from './enter.tsx';
+import { SpeakElement } from './speak.tsx';
 
 /**
  * Maps an element `type` to its React renderer. Empty at first — each
@@ -57,6 +60,9 @@ export const ELEMENT_REGISTRY: Partial<Record<ElementType, React.FC<ElementProps
   music: MusicElement as React.FC<ElementProps>,
   draw: DrawElement as React.FC<ElementProps>,
   steps: StepsElement as React.FC<ElementProps>,
+  choice: ChoiceElement as React.FC<ElementProps>,
+  enter: EnterElement as React.FC<ElementProps>,
+  speak: SpeakElement as React.FC<ElementProps>,
 };
 
 export function hasRenderer(t: ElementType): boolean {

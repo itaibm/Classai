@@ -336,4 +336,35 @@ export const GALLERY_SAMPLES: LessonElement[] = [
       { title: 'Step 3', body: 'That took 6 jumps of 4, so 24 ÷ 4 = 6.' },
     ],
   },
+  {
+    type: 'choice',
+    prompt: 'Which planet is closest to the Sun?',
+    options: ['Venus', 'Mercury', 'Earth', 'Mars'],
+    correct: [1],
+    explain: 'Mercury orbits closest to the Sun, so it has the shortest year.',
+  },
+  {
+    type: 'choice',
+    prompt: 'Which of these are mammals? Pick all that apply.',
+    options: ['Dolphin', 'Shark', 'Bat', 'Eagle'],
+    correct: [0, 2],
+    explain: 'Dolphins and bats feed their young milk — sharks and eagles do not.',
+  },
+  {
+    type: 'enter',
+    prompt: 'What is 7 × 8?',
+    answer: '56',
+    kind: 'number',
+  },
+  {
+    type: 'enter',
+    prompt: 'What do we call a word that names a person, place, thing, or idea?',
+    answer: 'noun',
+    kind: 'text',
+  },
+  {
+    type: 'speak',
+    prompt: 'Say the past tense of "run".',
+    target: 'ran',
+  },
 ];
