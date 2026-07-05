@@ -228,7 +228,7 @@ function GridManipulate({ el, onResult }: { el: GridEl; onResult?: (r: ElementRe
                 fill={isPicked ? 'var(--el-accent-soft)' : 'transparent'}
                 stroke={isPicked ? 'var(--el-accent)' : 'none'}
                 strokeWidth="2"
-                style={{ cursor: done ? 'default' : 'pointer' }}
+                style={{ cursor: done ? 'default' : 'pointer', pointerEvents: 'all' }}
                 onClick={() => tap(x, y)}
               />
             );
