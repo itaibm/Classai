@@ -1,0 +1,231 @@
+/**
+ * Design tokens + shared shell for the 28 semantic lesson elements.
+ * Token values copied verbatim from the approved gallery prototype
+ * (classai-element-gallery.html), renamed to an --el- prefix so they
+ * never collide with the app's existing styles.css custom properties.
+ *
+ * Later element renderers (Tasks 5-11) should style with these vars
+ * (var(--el-blue), var(--el-accent), ...) and may extend the small
+ * shared utility classes below (.el-card, .el-btn, .el-txt, ...).
+ */
+
+:root {
+  --el-ground: #f6f8fc;
+  --el-surface: #ffffff;
+  --el-surface-2: #f0f3fa;
+  --el-ink: #161d33;
+  --el-muted: #5c6683;
+  --el-faint: #8b95b0;
+  --el-line: #e4e9f3;
+  --el-accent: #4f46e5;
+  --el-on-accent: #ffffff;
+  --el-accent-soft: #eef0fe;
+  --el-blue: #3b82f6;
+  --el-orange: #f97316;
+  --el-green: #1fb672;
+  --el-purple: #8b5cf6;
+  --el-red: #ef4444;
+  --el-pink: #ec4899;
+  --el-amber: #f5b301;
+  --el-stage: #fbfcff;
+  --el-stage-line: #eaeef8;
+  --el-shadow: 0 1px 2px rgba(20, 29, 51, 0.04), 0 8px 24px -12px rgba(20, 29, 51, 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --el-ground: #0d1120;
+    --el-surface: #151b2c;
+    --el-surface-2: #1b2237;
+    --el-ink: #eef1f8;
+    --el-muted: #9aa4bd;
+    --el-faint: #69739033;
+    --el-line: #27304a;
+    --el-accent: #818cf8;
+    --el-on-accent: #ffffff;
+    --el-accent-soft: #20264a;
+    --el-blue: #60a5fa;
+    --el-orange: #fb923c;
+    --el-green: #34d399;
+    --el-purple: #a78bfa;
+    --el-red: #f87171;
+    --el-pink: #f472b6;
+    --el-amber: #fbbf24;
+    --el-stage: #101728;
+    --el-stage-line: #222b44;
+    --el-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 30px -14px rgba(0, 0, 0, 0.6);
+  }
+}
+
+:root[data-theme='light'] {
+  --el-ground: #f6f8fc;
+  --el-surface: #ffffff;
+  --el-surface-2: #f0f3fa;
+  --el-ink: #161d33;
+  --el-muted: #5c6683;
+  --el-faint: #8b95b0;
+  --el-line: #e4e9f3;
+  --el-accent: #4f46e5;
+  --el-on-accent: #ffffff;
+  --el-accent-soft: #eef0fe;
+  --el-blue: #3b82f6;
+  --el-orange: #f97316;
+  --el-green: #1fb672;
+  --el-purple: #8b5cf6;
+  --el-red: #ef4444;
+  --el-pink: #ec4899;
+  --el-amber: #f5b301;
+  --el-stage: #fbfcff;
+  --el-stage-line: #eaeef8;
+  --el-shadow: 0 1px 2px rgba(20, 29, 51, 0.04), 0 8px 24px -12px rgba(20, 29, 51, 0.14);
+}
+
+:root[data-theme='dark'] {
+  --el-ground: #0d1120;
+  --el-surface: #151b2c;
+  --el-surface-2: #1b2237;
+  --el-ink: #eef1f8;
+  --el-muted: #9aa4bd;
+  --el-faint: #697390;
+  --el-line: #27304a;
+  --el-accent: #818cf8;
+  --el-on-accent: #ffffff;
+  --el-accent-soft: #20264a;
+  --el-blue: #60a5fa;
+  --el-orange: #fb923c;
+  --el-green: #34d399;
+  --el-purple: #a78bfa;
+  --el-red: #f87171;
+  --el-pink: #f472b6;
+  --el-amber: #fbbf24;
+  --el-stage: #101728;
+  --el-stage-line: #222b44;
+  --el-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 30px -14px rgba(0, 0, 0, 0.6);
+}
+
+/* ---- shared display font ---- */
+.el-display {
+  font-family: 'SF Pro Rounded', ui-rounded, 'Nunito', 'Segoe UI', system-ui, sans-serif;
+}
+.el-mono {
+  font-family: 'SF Mono', ui-monospace, Menlo, Consolas, monospace;
+}
+
+/* ---- shared renderer shell ---- */
+.el-card {
+  box-sizing: border-box;
+  background: var(--el-surface);
+  color: var(--el-ink);
+  border: 1px solid var(--el-line);
+  border-radius: 18px;
+  box-shadow: var(--el-shadow);
+  padding: 22px 18px;
+  min-height: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:
+    -apple-system,
+    'SF Pro Text',
+    system-ui,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+}
+.el-card * {
+  box-sizing: border-box;
+}
+.el-card svg {
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.el-todo {
+  font-size: 13px;
+  font-family: 'SF Mono', ui-monospace, Menlo, monospace;
+  color: var(--el-faint);
+}
+
+/* ---- generic building blocks reused across renderers ---- */
+.el-array,
+.el-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.el-prompt {
+  margin: 0;
+  font-size: 14px;
+  color: var(--el-muted);
+  text-align: center;
+}
+
+.el-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  min-height: 24px;
+}
+.el-group {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: var(--el-blue);
+  background: var(--el-accent-soft);
+  border-radius: 8px;
+  padding: 3px 8px;
+}
+
+.el-btn {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--el-line);
+  background: var(--el-surface);
+  color: var(--el-ink);
+  border-radius: 9px;
+  padding: 6px 14px;
+  box-shadow: var(--el-shadow);
+}
+.el-btn:hover:not(:disabled) {
+  border-color: var(--el-accent);
+  color: var(--el-accent);
+}
+.el-btn:focus-visible {
+  outline: 2px solid var(--el-accent);
+  outline-offset: 2px;
+}
+.el-btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+/* SVG text helpers (className works on SVG <text> too) */
+.el-txt {
+  fill: var(--el-ink);
+  font-family: 'SF Pro Rounded', ui-rounded, system-ui, sans-serif;
+  font-weight: 700;
+}
+.el-txt-m {
+  fill: var(--el-muted);
+  font-family:
+    -apple-system,
+    system-ui,
+    sans-serif;
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .el-card *,
+  .el-card *::before,
+  .el-card *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
