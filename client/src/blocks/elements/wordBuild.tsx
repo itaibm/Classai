@@ -144,7 +144,8 @@ function WordBuildManipulate({
   const [done, setDone] = useState(false);
 
   const remaining = tray.filter((i) => !placed.includes(i));
-  const correct = placed.length === parts.length && placed.every((idx, pos) => idx === pos);
+  const built = placed.map((i) => parts[i] ?? '').join('');
+  const correct = placed.length === parts.length && built === parts.join('');
 
   function tap(idx: number) {
     if (done || placed.includes(idx)) return;

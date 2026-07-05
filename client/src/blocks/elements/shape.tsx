@@ -470,7 +470,7 @@ function SymmetryManipulate({ spec, onResult }: { spec: string; onResult?: (r: E
               width="16"
               height="116"
               fill="transparent"
-              style={{ cursor: done ? 'default' : 'pointer' }}
+              style={{ cursor: done ? 'default' : 'pointer', pointerEvents: 'all' }}
               onClick={() => {
                 if (done) return;
                 setPicked(x);
