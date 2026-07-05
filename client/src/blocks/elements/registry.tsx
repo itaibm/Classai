@@ -22,6 +22,9 @@ import { DiagramElement } from './diagram.tsx';
 import { MapElement } from './map.tsx';
 import { TimelineElement } from './timeline.tsx';
 import { SortElement } from './sort.tsx';
+import { MusicElement } from './music.tsx';
+import { DrawElement } from './draw.tsx';
+import { StepsElement } from './steps.tsx';
 
 /**
  * Maps an element `type` to its React renderer. Empty at first — each
@@ -51,6 +54,9 @@ export const ELEMENT_REGISTRY: Partial<Record<ElementType, React.FC<ElementProps
   map: MapElement as React.FC<ElementProps>,
   timeline: TimelineElement as React.FC<ElementProps>,
   sort: SortElement as React.FC<ElementProps>,
+  music: MusicElement as React.FC<ElementProps>,
+  draw: DrawElement as React.FC<ElementProps>,
+  steps: StepsElement as React.FC<ElementProps>,
 };
 
 export function hasRenderer(t: ElementType): boolean {

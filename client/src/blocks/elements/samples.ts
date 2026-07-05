@@ -307,4 +307,33 @@ export const GALLERY_SAMPLES: LessonElement[] = [
       { text: 'Tortoise', group: 'Slowest' },
     ],
   },
+  {
+    type: 'music',
+    mode: 'staff',
+    spec: 'do re mi fa sol',
+  },
+  {
+    type: 'music',
+    mode: 'rhythm',
+    spec: 'ta ta ti-ti ta',
+  },
+  {
+    type: 'music',
+    mode: 'keyboard',
+    spec: 'C E G',
+  },
+  {
+    type: 'draw',
+    prompt: 'Draw your favourite animal!',
+    guides: 'circle',
+  },
+  {
+    type: 'steps',
+    reveal: 'one-by-one',
+    slides: [
+      { title: 'Step 1', body: 'Start with 24 ÷ 4.' },
+      { title: 'Step 2', body: 'How many groups of 4 fit into 24? Count up by 4s: 4, 8, 12, 16, 20, 24.' },
+      { title: 'Step 3', body: 'That took 6 jumps of 4, so 24 ÷ 4 = 6.' },
+    ],
+  },
 ];
