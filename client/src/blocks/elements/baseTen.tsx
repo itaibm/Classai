@@ -43,8 +43,8 @@ export const BaseTenElement: React.FC<ElementProps<BaseTenEl>> = ({ el, mode, on
   if (mode === 'manipulate') return <BaseTenManipulate el={el} viewMode={viewMode} onResult={onResult} />;
 
   if (viewMode === 'blocks') {
-    const tens = Math.floor(el.value / 10);
-    const ones = el.value % 10;
+    const tens = Math.max(0, Math.floor(Math.max(0, el.value) / 10));
+    const ones = Math.max(0, Math.floor(Math.max(0, el.value) % 10));
     return (
       <div className="el-stack">
         <div style={{ display: 'flex', gap: 16, alignItems: 'flex-end', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -147,17 +147,19 @@ function BlocksManipulate({ el, onResult }: ManipulateProps) {
   const [tens, setTens] = useState(0);
   const [ones, setOnes] = useState(0);
   const total = tens * 10 + ones;
+  const safeTens = Math.max(0, Math.floor(tens));
+  const safeOnes = Math.max(0, Math.floor(ones));
   return (
       <div className="el-stack">
         <p className="el-prompt">Build {el.target ?? el.value} using tens and ones.</p>
         <div style={{ display: 'flex', gap: 16, alignItems: 'flex-end', flexWrap: 'wrap', justifyContent: 'center', minHeight: 76 }}>
           <div style={{ display: 'flex', gap: 4 }}>
-            {Array.from({ length: tens }).map((_, i) => (
+            {Array.from({ length: safeTens }).map((_, i) => (
               <Rod key={i} />
             ))}
           </div>
           <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', maxWidth: 90 }}>
-            {Array.from({ length: ones }).map((_, i) => (
+            {Array.from({ length: safeOnes }).map((_, i) => (
               <Unit key={i} />
             ))}
           </div>

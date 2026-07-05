@@ -184,7 +184,7 @@ export function ElementGallery() {
           role="alert"
           style={{
             background: 'var(--el-red)',
-            color: '#fff',
+            color: 'var(--el-on-accent)',
             borderRadius: 14,
             padding: '16px 20px',
             marginBottom: 28,

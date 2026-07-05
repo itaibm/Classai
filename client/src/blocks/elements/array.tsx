@@ -14,17 +14,19 @@ import { arrayDots } from './geometry.ts';
 export const ArrayElement: React.FC<ElementProps<ArrayEl>> = ({ el, mode, onResult }) => {
   const [rot, setRot] = useState(false);
   const [built, setBuilt] = useState(0);
-  const rows = rot ? el.cols : el.rows, cols = rot ? el.rows : el.cols;
+  const safeRows = Math.max(0, Math.floor(el.rows));
+  const safeCols = Math.max(0, Math.floor(el.cols));
+  const rows = rot ? safeCols : safeRows, cols = rot ? safeRows : safeCols;
   const dots = arrayDots(rows, cols);
   const label = `${rows} × ${cols} = ${rows * cols}`;
   if (mode === 'manipulate') {
-    const done = built === el.rows;
+    const done = built === safeRows;
     return (
       <div className="el-array">
-        <p className="el-prompt">Build {el.rows} groups of {el.cols}.</p>
+        <p className="el-prompt">Build {safeRows} groups of {safeCols}.</p>
         <div className="el-groups">
           {Array.from({ length: built }).map((_, g) => (
-            <span key={g} className="el-group">{'●'.repeat(el.cols)}</span>
+            <span key={g} className="el-group">{'●'.repeat(safeCols)}</span>
           ))}
         </div>
         <button
@@ -33,10 +35,10 @@ export const ArrayElement: React.FC<ElementProps<ArrayEl>> = ({ el, mode, onResu
           onClick={() => {
             const n = built + 1;
             setBuilt(n);
-            if (n === el.rows) onResult?.({ text: `built ${el.rows}×${el.cols}`, correct: true });
+            if (n === safeRows) onResult?.({ text: `built ${safeRows}×${safeCols}`, correct: true });
           }}
         >
-          + add a group of {el.cols}
+          + add a group of {safeCols}
         </button>
       </div>
     );

@@ -61,8 +61,8 @@ const AudioSchema = z.object({
 
 const ArraySchema = z.object({
   type: z.literal('array'),
-  rows: z.coerce.number(),
-  cols: z.coerce.number(),
+  rows: z.coerce.number().int().min(1),
+  cols: z.coerce.number().int().min(1),
   show: z.string().optional().catch(undefined),
   animate: z.enum(['none', 'rotate']).default('none').catch('none')
 });
@@ -79,16 +79,16 @@ const NumberLineSchema = z.object({
 
 const BaseTenSchema = z.object({
   type: z.literal('baseTen'),
-  value: z.coerce.number(),
+  value: z.coerce.number().min(0),
   mode: z.enum(['tenFrame', 'blocks', 'placeValue']).optional().catch(undefined),
-  target: z.coerce.number().optional().catch(undefined)
+  target: z.coerce.number().min(0).optional().catch(undefined)
 });
 
 const FractionSchema = z.object({
   type: z.literal('fraction'),
   whole: z.array(z.enum(['bar', 'circle'])),
-  num: z.coerce.number(),
-  den: z.coerce.number()
+  num: z.coerce.number().min(0),
+  den: z.coerce.number().min(1)
 });
 
 const NumberOrQuestion = z.union([z.coerce.number(), z.literal('?')]);
