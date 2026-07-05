@@ -50,7 +50,7 @@ function ClockManipulate({ el, onResult }: { el: MeasureEl; onResult?: (r: Eleme
   const target = el.target ?? el.value;
   const [guess, setGuess] = useState(0);
   const [done, setDone] = useState(false);
-  const correct = done ? guess === target : undefined;
+  const correct = done ? Math.abs(guess - target) <= 1 : undefined;
   function bump(delta: number) {
     if (done) return;
     setGuess((g) => ((g + delta) % 720 + 720) % 720);
@@ -66,9 +66,15 @@ function ClockManipulate({ el, onResult }: { el: MeasureEl; onResult?: (r: Eleme
         <button type="button" className="el-btn" disabled={done} onClick={() => bump(-5)}>
           −5m
         </button>
+        <button type="button" className="el-btn" disabled={done} onClick={() => bump(-1)}>
+          −1m
+        </button>
         <span className="el-display" style={{ minWidth: 54, textAlign: 'center', fontWeight: 800 }}>
           {clockLabel(guess)}
         </span>
+        <button type="button" className="el-btn" disabled={done} onClick={() => bump(1)}>
+          +1m
+        </button>
         <button type="button" className="el-btn" disabled={done} onClick={() => bump(5)}>
           +5m
         </button>
@@ -82,7 +88,7 @@ function ClockManipulate({ el, onResult }: { el: MeasureEl; onResult?: (r: Eleme
         disabled={done}
         onClick={() => {
           setDone(true);
-          onResult?.({ text: clockLabel(guess), correct: guess === target });
+          onResult?.({ text: clockLabel(guess), correct: Math.abs(guess - target) <= 1 });
         }}
       >
         Check

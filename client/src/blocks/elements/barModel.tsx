@@ -18,19 +18,17 @@ function widths(parts: (number | '?')[]): number[] {
   return raw.map((r) => (r / total) * 100);
 }
 
-/** The readonly bar visualisation, shared by both modes; `unknownSlot` (if given)
- * renders that segment's children instead of its own "?" label — used by
- * manipulate mode to swap in a live input. */
+/** The readonly bar visualisation, shared by both modes; `unknownContent` (if given)
+ * renders each `'?'` segment's live input in place of its own "?" label — used
+ * by manipulate mode. Supports any number of unknown segments at once. */
 function Bars({
   parts,
   pct,
-  unknownIndex,
   unknownContent,
 }: {
   parts: (number | '?')[];
   pct: number[];
-  unknownIndex?: number;
-  unknownContent?: React.ReactNode;
+  unknownContent?: (i: number) => React.ReactNode;
 }) {
   return (
     <div style={{ display: 'flex', width: '100%', maxWidth: 260, borderRadius: 8, overflow: 'hidden', border: '2px solid var(--el-line)' }}>
@@ -53,7 +51,7 @@ function Bars({
                 : undefined,
           }}
         >
-          {i === unknownIndex ? unknownContent : p}
+          {p === '?' && unknownContent ? unknownContent(i) : p}
         </div>
       ))}
     </div>
@@ -87,6 +85,9 @@ function BarModelDemonstrate({ el }: { el: BarModelEl }) {
   );
 }
 
+/** Key used for the whole's slot in the per-slot guess map (parts use their own index, 0..n-1). */
+const WHOLE_KEY = -1;
+
 function BarModelManipulate({
   el,
   onResult,
@@ -95,55 +96,102 @@ function BarModelManipulate({
   onResult?: (r: import('@shared/elements.ts').ElementResult) => void;
 }) {
   const pct = widths(el.parts);
-  const numericParts = el.parts.filter(isNum);
-  const sumParts = numericParts.reduce((a, b) => a + b, 0);
   const wholeUnknown = el.whole === '?';
-  const missingPartIndex = el.parts.findIndex((p) => p === '?');
-  const knownWhole = isNum(el.whole) ? el.whole : undefined;
-  const answer = wholeUnknown ? sumParts : missingPartIndex >= 0 && knownWhole !== undefined ? knownWhole - sumParts : undefined;
+  const unknownPartIndices = el.parts.reduce<number[]>((acc, p, i) => {
+    if (p === '?') acc.push(i);
+    return acc;
+  }, []);
+  const hasUnknown = wholeUnknown || unknownPartIndices.length > 0;
 
-  const [guess, setGuess] = useState('');
+  const [guesses, setGuesses] = useState<Record<number, string>>({});
   const [done, setDone] = useState(false);
-  const correct = done && guess !== '' && answer !== undefined ? Number(guess) === answer : undefined;
 
-  function check() {
-    if (done || guess === '') return;
-    setDone(true);
-    onResult?.({ text: guess, correct: answer === undefined ? undefined : Number(guess) === answer });
+  function setGuess(key: number, value: string) {
+    setGuesses((prev) => ({ ...prev, [key]: value }));
   }
 
-  const input = (
-    <input
-      type="number"
-      value={guess}
-      disabled={done}
-      onChange={(e) => setGuess(e.target.value)}
-      style={{
-        width: 44,
-        textAlign: 'center',
-        fontSize: 15,
-        fontWeight: 700,
-        border: '1px solid var(--el-line)',
-        borderRadius: 6,
-        color: 'var(--el-ink)',
-        background: 'var(--el-surface)',
-      }}
-    />
-  );
+  /** Parses a slot's guess as a non-negative number, or undefined if missing/invalid. */
+  function parsedGuess(key: number): number | undefined {
+    const raw = guesses[key] ?? '';
+    if (raw === '') return undefined;
+    const n = Number(raw);
+    return Number.isFinite(n) && n >= 0 ? n : undefined;
+  }
+
+  const allFilled =
+    (!wholeUnknown || parsedGuess(WHOLE_KEY) !== undefined) &&
+    unknownPartIndices.every((i) => parsedGuess(i) !== undefined);
+
+  function evaluate(): boolean | undefined {
+    if (!allFilled) return undefined;
+    const whole = wholeUnknown ? parsedGuess(WHOLE_KEY) : isNum(el.whole) ? el.whole : undefined;
+    if (whole === undefined) return undefined;
+    const sum = el.parts.reduce<number>((acc, p, i) => {
+      const v = p === '?' ? parsedGuess(i) : p;
+      return acc + (v ?? 0);
+    }, 0);
+    return sum === whole;
+  }
+
+  const correct = done ? evaluate() : undefined;
+
+  function check() {
+    if (done || !allFilled) return;
+    setDone(true);
+    onResult?.({
+      text: Object.entries(guesses)
+        .map(([k, v]) => `${k}:${v}`)
+        .join(', '),
+      correct: evaluate(),
+    });
+  }
+
+  function confirm() {
+    if (done) return;
+    setDone(true);
+    onResult?.({ text: 'confirmed', correct: true });
+  }
+
+  function inputFor(key: number) {
+    return (
+      <input
+        type="number"
+        value={guesses[key] ?? ''}
+        disabled={done}
+        onChange={(e) => setGuess(key, e.target.value)}
+        style={{
+          width: 44,
+          textAlign: 'center',
+          fontSize: 15,
+          fontWeight: 700,
+          border: '1px solid var(--el-line)',
+          borderRadius: 6,
+          color: 'var(--el-ink)',
+          background: 'var(--el-surface)',
+        }}
+      />
+    );
+  }
 
   return (
     <div className="el-stack">
-      <p className="el-prompt">{el.label ?? 'Work out the missing number.'}</p>
+      <p className="el-prompt">{el.label ?? (hasUnknown ? 'Work out the missing number.' : 'Check the bar model.')}</p>
       <p className="el-display" style={{ margin: 0, fontSize: 20, fontWeight: 800, color: 'var(--el-ink)' }}>
-        {wholeUnknown ? input : el.whole}
+        {wholeUnknown ? inputFor(WHOLE_KEY) : el.whole}
       </p>
-      <Bars parts={el.parts} pct={pct} unknownIndex={wholeUnknown ? undefined : missingPartIndex} unknownContent={input} />
-      <button className="el-btn" disabled={done || guess === ''} onClick={check}>
-        Check
-      </button>
-      {done && answer !== undefined && (
+      <Bars parts={el.parts} pct={pct} unknownContent={inputFor} />
+      {hasUnknown ? (
+        <button className="el-btn" disabled={done || !allFilled} onClick={check}>
+          Check
+        </button>
+      ) : (
+        <button className="el-btn" disabled={done} onClick={confirm}>
+          Got it 👍
+        </button>
+      )}
+      {done && correct !== undefined && (
         <p className="el-prompt" style={{ color: correct ? 'var(--el-green)' : 'var(--el-red)' }}>
-          {correct ? '✓ Correct!' : `Not quite — it should be ${answer}.`}
+          {correct ? '✓ Correct!' : 'Not quite — check the numbers add up.'}
         </p>
       )}
     </div>

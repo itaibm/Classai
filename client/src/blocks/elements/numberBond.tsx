@@ -113,6 +113,9 @@ function isNum(v: number | '?'): v is number {
   return v !== '?';
 }
 
+/** Key used for the whole's slot in the per-slot guess map (parts use their own index, 0..n-1). */
+const WHOLE_KEY = -1;
+
 function NumberBondManipulate({
   el,
   onResult,
@@ -120,53 +123,101 @@ function NumberBondManipulate({
   el: NumberBondEl;
   onResult?: (r: import('@shared/elements.ts').ElementResult) => void;
 }) {
-  const numericParts = el.parts.filter(isNum);
-  const sumParts = numericParts.reduce((a, b) => a + b, 0);
   const wholeUnknown = el.whole === '?';
-  const knownWhole = isNum(el.whole) ? el.whole : undefined;
-  const answer = wholeUnknown ? sumParts : knownWhole !== undefined ? knownWhole - sumParts : undefined;
+  const unknownPartIndices = el.parts.reduce<number[]>((acc, p, i) => {
+    if (p === '?') acc.push(i);
+    return acc;
+  }, []);
+  const hasUnknown = wholeUnknown || unknownPartIndices.length > 0;
 
-  const [guess, setGuess] = useState('');
+  const [guesses, setGuesses] = useState<Record<number, string>>({});
   const [done, setDone] = useState(false);
-  const correct = done && answer !== undefined ? Number(guess) === answer : undefined;
+
+  function setGuess(key: number, value: string) {
+    setGuesses((prev) => ({ ...prev, [key]: value }));
+  }
+
+  /** Parses a slot's guess as a non-negative number, or undefined if missing/invalid. */
+  function parsedGuess(key: number): number | undefined {
+    const raw = guesses[key] ?? '';
+    if (raw === '') return undefined;
+    const n = Number(raw);
+    return Number.isFinite(n) && n >= 0 ? n : undefined;
+  }
+
+  const allFilled =
+    (!wholeUnknown || parsedGuess(WHOLE_KEY) !== undefined) &&
+    unknownPartIndices.every((i) => parsedGuess(i) !== undefined);
+
+  function evaluate(): boolean | undefined {
+    if (!allFilled) return undefined;
+    const whole = wholeUnknown ? parsedGuess(WHOLE_KEY) : el.whole;
+    if (whole === undefined || whole === '?') return undefined;
+    const sum = el.parts.reduce<number>((acc, p, i) => {
+      const v = p === '?' ? parsedGuess(i) : p;
+      return acc + (v ?? 0);
+    }, 0);
+    return sum === whole;
+  }
+
+  const correct = done ? evaluate() : undefined;
 
   function check() {
-    if (done || guess === '') return;
+    if (done || !allFilled) return;
     setDone(true);
-    onResult?.({ text: guess, correct: answer === undefined ? undefined : Number(guess) === answer });
+    onResult?.({
+      text: Object.entries(guesses)
+        .map(([k, v]) => `${k}:${v}`)
+        .join(', '),
+      correct: evaluate(),
+    });
   }
+
+  function confirm() {
+    if (done) return;
+    setDone(true);
+    onResult?.({ text: 'confirmed', correct: true });
+  }
+
+  const inputStyle: React.CSSProperties = {
+    width: 38,
+    textAlign: 'center',
+    fontSize: 13,
+    fontWeight: 700,
+    border: '1px solid var(--el-accent)',
+    borderRadius: 6,
+    color: 'var(--el-ink)',
+    background: 'var(--el-surface)',
+  };
 
   return (
     <div className="el-stack">
-      <p className="el-prompt">Fill in the missing number.</p>
+      <p className="el-prompt">{hasUnknown ? 'Fill in the missing number.' : 'Check the number bond.'}</p>
       <Bond
         whole={el.whole}
         parts={el.parts}
-        renderPart={() => (
+        renderPart={(_p, i) => (
           <input
             type="number"
-            value={guess}
+            value={guesses[i] ?? ''}
             disabled={done}
-            onChange={(e) => setGuess(e.target.value)}
-            style={{
-              width: 38,
-              textAlign: 'center',
-              fontSize: 13,
-              fontWeight: 700,
-              border: '1px solid var(--el-accent)',
-              borderRadius: 6,
-              color: 'var(--el-ink)',
-              background: 'var(--el-surface)',
-            }}
+            onChange={(e) => setGuess(i, e.target.value)}
+            style={inputStyle}
           />
         )}
       />
-      <button className="el-btn" disabled={done || guess === ''} onClick={check}>
-        Check
-      </button>
-      {done && answer !== undefined && (
+      {hasUnknown ? (
+        <button className="el-btn" disabled={done || !allFilled} onClick={check}>
+          Check
+        </button>
+      ) : (
+        <button className="el-btn" disabled={done} onClick={confirm}>
+          Got it 👍
+        </button>
+      )}
+      {done && correct !== undefined && (
         <p className="el-prompt" style={{ color: correct ? 'var(--el-green)' : 'var(--el-red)' }}>
-          {correct ? '✓ Correct!' : `Not quite — it should be ${answer}.`}
+          {correct ? '✓ Correct!' : 'Not quite — check the numbers add up.'}
         </p>
       )}
     </div>

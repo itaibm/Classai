@@ -70,12 +70,13 @@ function FractionManipulate({
 }) {
   const wholes = el.whole.length > 0 ? el.whole : ['bar' as const];
   const totalParts = wholes.length * el.den;
+  const target = Math.min(el.num, totalParts);
   const [shadedSet, setShadedSet] = useState<Set<number>>(new Set());
   const [done, setDone] = useState(false);
-  const correct = done ? shadedSet.size === el.num : undefined;
+  const correct = done ? shadedSet.size === target : undefined;
   return (
       <div className="el-stack">
-        <p className="el-prompt">Tap parts to shade {el.num} of {totalParts}.</p>
+        <p className="el-prompt">Tap parts to shade {target} of {totalParts}.</p>
         <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', justifyContent: 'center' }}>
           {wholes.map((shape, wi) => {
             const isShaded = (i: number) => shadedSet.has(wi * el.den + i);
@@ -101,14 +102,14 @@ function FractionManipulate({
           disabled={done}
           onClick={() => {
             setDone(true);
-            onResult?.({ text: `${shadedSet.size}/${totalParts}`, correct: shadedSet.size === el.num });
+            onResult?.({ text: `${shadedSet.size}/${totalParts}`, correct: shadedSet.size === target });
           }}
         >
           Check
         </button>
         {done && (
           <p className="el-prompt" style={{ color: correct ? 'var(--el-green)' : 'var(--el-red)' }}>
-            {correct ? '✓ Correct!' : `Not quite — it should be ${el.num} of ${totalParts}.`}
+            {correct ? '✓ Correct!' : `Not quite — it should be ${target} of ${totalParts}.`}
           </p>
         )}
       </div>
