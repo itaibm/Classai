@@ -34,6 +34,13 @@ function cellRect(x: number, y: number, geo: Geo) {
   };
 }
 
+/** `coord` mode plots points at the labelled grid-LINE intersection for
+ * (x, y) — not the cell centre — so a point matches exactly where its axis
+ * labels say it is. */
+function coordPoint(x: number, y: number, geo: Geo) {
+  return { x: geo.originX + x * geo.cell, y: geo.originY + geo.gh - y * geo.cell };
+}
+
 function GridLines({ geo, rows, cols }: { geo: Geo; rows: number; cols: number }) {
   return (
     <>
@@ -81,9 +88,7 @@ function AxisLabels({ geo, rows, cols }: { geo: Geo; rows: number; cols: number 
 }
 
 function CoordDot({ cell, geo }: { cell: Cell; geo: Geo }) {
-  const r = cellRect(cell.x, cell.y, geo);
-  const cx = r.x + r.w / 2;
-  const cy = r.y + r.h / 2;
+  const { x: cx, y: cy } = coordPoint(cell.x, cell.y, geo);
   return (
     <g>
       <circle cx={cx} cy={cy} r={Math.min(7, geo.cell * 0.28)} fill={cell.fill ?? 'var(--el-blue)'} stroke="var(--el-surface)" strokeWidth="1.5" />
@@ -170,10 +175,15 @@ function GridDemonstrate({ el }: { el: GridEl }) {
           cells.map((c, i) => <CoordDot key={i} cell={c} geo={geo} />)
         )}
         {target &&
-          (() => {
-            const r = cellRect(target.x, target.y, geo);
-            return <rect x={r.x + 1} y={r.y + 1} width={r.w - 2} height={r.h - 2} rx="3" fill="none" stroke="var(--el-green)" strokeWidth="2.5" />;
-          })()}
+          (gm === 'coord'
+            ? (() => {
+                const { x: cx, y: cy } = coordPoint(target.x, target.y, geo);
+                return <circle cx={cx} cy={cy} r={Math.min(9, geo.cell * 0.36)} fill="none" stroke="var(--el-green)" strokeWidth="2.5" />;
+              })()
+            : (() => {
+                const r = cellRect(target.x, target.y, geo);
+                return <rect x={r.x + 1} y={r.y + 1} width={r.w - 2} height={r.h - 2} rx="3" fill="none" stroke="var(--el-green)" strokeWidth="2.5" />;
+              })())}
       </svg>
       <p className="el-prompt">
         {gm === 'beebot' ? 'Follow the route the robot takes.' : gm === 'pixel' ? 'A pixel picture on the grid.' : `${el.rows}×${el.cols} grid`}
@@ -214,26 +224,47 @@ function GridManipulate({ el, onResult }: { el: GridEl; onResult?: (r: ElementRe
         {gm === 'coord' && <AxisLabels geo={geo} rows={el.rows} cols={el.cols} />}
         {gm === 'beebot' && <BeebotRoute cells={routeCells} geo={geo} />}
         {gm === 'pixel' && cells.map((c, i) => <CellFill key={i} cell={c} geo={geo} />)}
-        {Array.from({ length: el.rows }).map((_, y) =>
-          Array.from({ length: el.cols }).map((_, x) => {
-            const r = cellRect(x, y, geo);
-            const isPicked = picked?.x === x && picked?.y === y;
-            return (
-              <rect
-                key={`${x}-${y}`}
-                x={r.x}
-                y={r.y}
-                width={r.w}
-                height={r.h}
-                fill={isPicked ? 'var(--el-accent-soft)' : 'transparent'}
-                stroke={isPicked ? 'var(--el-accent)' : 'none'}
-                strokeWidth="2"
-                style={{ cursor: done ? 'default' : 'pointer', pointerEvents: 'all' }}
-                onClick={() => tap(x, y)}
-              />
-            );
-          })
-        )}
+        {gm === 'coord'
+          ? Array.from({ length: el.rows + 1 }).map((_, y) =>
+              Array.from({ length: el.cols + 1 }).map((_, x) => {
+                const { x: cx, y: cy } = coordPoint(x, y, geo);
+                const isPicked = picked?.x === x && picked?.y === y;
+                const hitR = Math.max(10, geo.cell * 0.4);
+                return (
+                  <g key={`${x}-${y}`}>
+                    {isPicked && <circle cx={cx} cy={cy} r={Math.min(7, geo.cell * 0.28)} fill="var(--el-accent-soft)" stroke="var(--el-accent)" strokeWidth="2" />}
+                    <circle
+                      cx={cx}
+                      cy={cy}
+                      r={hitR}
+                      fill="transparent"
+                      style={{ cursor: done ? 'default' : 'pointer', pointerEvents: 'all' }}
+                      onClick={() => tap(x, y)}
+                    />
+                  </g>
+                );
+              })
+            )
+          : Array.from({ length: el.rows }).map((_, y) =>
+              Array.from({ length: el.cols }).map((_, x) => {
+                const r = cellRect(x, y, geo);
+                const isPicked = picked?.x === x && picked?.y === y;
+                return (
+                  <rect
+                    key={`${x}-${y}`}
+                    x={r.x}
+                    y={r.y}
+                    width={r.w}
+                    height={r.h}
+                    fill={isPicked ? 'var(--el-accent-soft)' : 'transparent'}
+                    stroke={isPicked ? 'var(--el-accent)' : 'none'}
+                    strokeWidth="2"
+                    style={{ cursor: done ? 'default' : 'pointer', pointerEvents: 'all' }}
+                    onClick={() => tap(x, y)}
+                  />
+                );
+              })
+            )}
       </svg>
       {done && target && (
         <p className="el-prompt" style={{ color: correct ? 'var(--el-green)' : 'var(--el-red)' }}>

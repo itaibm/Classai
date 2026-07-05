@@ -65,7 +65,9 @@ export const VideoElement: React.FC<ElementProps<VideoEl>> = ({ el, mode, onResu
 
   function submit() {
     if (checked !== null || !afterCheck) return;
-    const ok = answer.trim().toLowerCase().includes(afterCheck.expectedAnswer.trim().toLowerCase());
+    const expected = afterCheck.expectedAnswer.trim().toLowerCase();
+    const a = answer.trim().toLowerCase();
+    const ok = expected ? a.includes(expected) : a.length > 0;
     setChecked(ok);
     onResult?.({ text: answer, correct: ok });
   }

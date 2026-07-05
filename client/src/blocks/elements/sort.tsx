@@ -10,14 +10,32 @@ function chipColor(i: number): string {
   return CHIP_COLORS[i % CHIP_COLORS.length] ?? 'var(--el-blue)';
 }
 
+/** Every item must have a reachable "home" bucket, even if the author's
+ * `el.groups` omitted (or misspelled) the group an item actually carries.
+ * The effective bucket set is the UNION of `el.groups` and every
+ * `items[].group`, deduped, `el.groups` first then any extra item-only
+ * groups — so the sort check is always solvable. */
+function effectiveGroups(el: SortEl): string[] {
+  const groups = [...el.groups];
+  const seen = new Set(groups);
+  for (const it of el.items) {
+    if (!seen.has(it.group)) {
+      seen.add(it.group);
+      groups.push(it.group);
+    }
+  }
+  return groups;
+}
+
 /* ------------------------------------------------------------------ */
 /* demonstrate — one layout per SortEl['mode']                         */
 /* ------------------------------------------------------------------ */
 
 function BucketDemonstrate({ el }: { el: SortEl }) {
+  const groups = effectiveGroups(el);
   return (
     <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap', width: '100%' }}>
-      {el.groups.map((g, gi) => (
+      {groups.map((g, gi) => (
         <div key={gi} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, minWidth: 76 }}>
           <span style={{ fontSize: 11, fontWeight: 800, color: 'var(--el-ink)', textTransform: 'uppercase', letterSpacing: 0.4 }}>{g}</span>
           <div
@@ -53,9 +71,10 @@ function BucketDemonstrate({ el }: { el: SortEl }) {
 }
 
 function RankDemonstrate({ el }: { el: SortEl }) {
+  const groups = effectiveGroups(el);
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 6, width: '100%', maxWidth: 220 }}>
-      {el.groups.map((g, gi) => (
+      {groups.map((g, gi) => (
         <div key={gi} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <span style={{ fontSize: 10, fontWeight: 800, color: 'var(--el-muted)', minWidth: 20, textAlign: 'right' }}>{gi + 1}.</span>
           <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--el-ink)', minWidth: 54 }}>{g}</span>
@@ -170,6 +189,7 @@ function SortDemonstrate({ el }: { el: SortEl }) {
  */
 function SortManipulate({ el, onResult }: { el: SortEl; onResult?: (r: ElementResult) => void }) {
   const items = el.items;
+  const groups = effectiveGroups(el);
   const [assigned, setAssigned] = useState<Record<number, string>>({});
   const [selected, setSelected] = useState<number | null>(null);
   const [done, setDone] = useState(false);
@@ -229,7 +249,7 @@ function SortManipulate({ el, onResult }: { el: SortEl; onResult?: (r: ElementRe
         })}
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'center' }}>
-        {el.groups.map((g, gi) => (
+        {groups.map((g, gi) => (
           <button key={gi} type="button" className="el-btn" onClick={() => pickGroup(g)} disabled={done || selected === null}>
             {g}
           </button>

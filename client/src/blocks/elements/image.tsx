@@ -96,26 +96,41 @@ export const ImageElement: React.FC<ElementProps<ImageEl>> = ({ el, mode, onResu
             const isPicked = picked === i;
             const isCorrect = isPicked && label === target;
             return (
-              <button
-                key={i}
-                type="button"
-                className="el-btn"
-                onClick={() => handlePick(i, label)}
-                disabled={picked !== null}
-                aria-label={label}
-                style={{
-                  ...pinBase,
-                  left: `${pos.x}%`,
-                  top: `${pos.y}%`,
-                  width: 34,
-                  height: 34,
-                  borderRadius: 999,
-                  borderColor: isPicked ? (isCorrect ? 'var(--el-green)' : 'var(--el-red)') : undefined,
-                  color: isPicked ? (isCorrect ? 'var(--el-green)' : 'var(--el-red)') : undefined,
-                }}
-              >
-                {isPicked ? (isCorrect ? '✓' : '✗') : i + 1}
-              </button>
+              <div key={i} style={{ position: 'absolute', left: `${pos.x}%`, top: `${pos.y}%`, transform: 'translate(-50%, -50%)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3 }}>
+                <button
+                  type="button"
+                  className="el-btn"
+                  onClick={() => handlePick(i, label)}
+                  disabled={picked !== null}
+                  aria-label={label}
+                  style={{
+                    ...pinBase,
+                    position: 'static',
+                    transform: 'none',
+                    width: 34,
+                    height: 34,
+                    borderRadius: 999,
+                    borderColor: isPicked ? (isCorrect ? 'var(--el-green)' : 'var(--el-red)') : undefined,
+                    color: isPicked ? (isCorrect ? 'var(--el-green)' : 'var(--el-red)') : undefined,
+                  }}
+                >
+                  {isPicked ? (isCorrect ? '✓' : '✗') : i + 1}
+                </button>
+                <span
+                  style={{
+                    fontSize: 10,
+                    fontWeight: 700,
+                    whiteSpace: 'nowrap',
+                    padding: '2px 6px',
+                    borderRadius: 8,
+                    background: 'var(--el-surface)',
+                    color: 'var(--el-ink)',
+                    border: '1px solid var(--el-line)',
+                  }}
+                >
+                  {label}
+                </span>
+              </div>
             );
           })}
         </Frame>

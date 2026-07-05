@@ -374,16 +374,28 @@ function zigzagOrder(n: number): number[] {
   return order;
 }
 
+/** A cyclic order is correct if the placed sequence is a ROTATION of
+ * `0..n-1` in the same direction (reflections/reversed order still fail):
+ * rotate `placed` so it starts at index 0, then compare to identity. */
+function isCycleRotationCorrect(placed: number[], n: number): boolean {
+  if (placed.length !== n || n === 0) return false;
+  const zeroAt = placed.indexOf(0);
+  if (zeroAt === -1) return false;
+  const rotated = [...placed.slice(zeroAt), ...placed.slice(0, zeroAt)];
+  return rotated.every((idx, pos) => idx === pos);
+}
+
 /** `cycle`: child taps the steps into order; graded by comparing the
- * resulting sequence of original node INDICES to 0..n-1 (identity-safe even
- * if two nodes share the same label text). */
+ * resulting sequence of original node INDICES to a rotation of 0..n-1
+ * (identity-safe even if two nodes share the same label text; a valid
+ * rotation of the cycle is accepted, a reflection/reverse is not). */
 function CycleManipulate({ el, onResult }: { el: DiagramEl; onResult?: (r: ElementResult) => void }) {
   const nodes = el.nodes;
   const [tray] = useState(() => zigzagOrder(nodes.length));
   const [placed, setPlaced] = useState<number[]>([]);
   const [done, setDone] = useState(false);
   const remaining = tray.filter((i) => !placed.includes(i));
-  const correct = placed.length === nodes.length && placed.every((idx, pos) => idx === pos);
+  const correct = isCycleRotationCorrect(placed, nodes.length);
 
   function tap(idx: number) {
     if (done || placed.includes(idx)) return;
@@ -392,7 +404,7 @@ function CycleManipulate({ el, onResult }: { el: DiagramEl; onResult?: (r: Eleme
     if (next.length === nodes.length) {
       setDone(true);
       const text = next.map((i) => nodes[i]?.label ?? '').join(' → ');
-      onResult?.({ text, correct: next.every((idx, pos) => idx === pos) });
+      onResult?.({ text, correct: isCycleRotationCorrect(next, nodes.length) });
     }
   }
 

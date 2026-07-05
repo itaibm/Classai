@@ -100,18 +100,28 @@ function StaffDemonstrate({ spec }: { spec: string }) {
 
 const STAFF_LETTERS = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
 
+/** Tappable staff rows: the 7 naturals plus a row for every SHARP that
+ * actually appears in the parsed `spec` (drawn at its natural's y, offset
+ * slightly and marked with ♯), so a sharp target (e.g. "F#") is reachable —
+ * not just the 7 natural rows. */
+function tappableStaffNotes(notes: string[]): string[] {
+  const sharps = Array.from(new Set(notes.filter((n) => n.includes('#'))));
+  return [...STAFF_LETTERS, ...sharps];
+}
+
 function StaffManipulate({ el, onResult }: { el: MusicEl; onResult?: (r: ElementResult) => void }) {
   const notes = parseNotes(el.spec);
   const target = notes[0] ?? 'C';
+  const tappable = tappableStaffNotes(notes);
   const [picked, setPicked] = useState<string | null>(null);
   const done = picked !== null;
   const correct = done ? picked === target : undefined;
   const bottomLine = STAFF_LINES[STAFF_LINES.length - 1] ?? 88;
 
-  function tap(letter: string) {
+  function tap(note: string) {
     if (done) return;
-    setPicked(letter);
-    onResult?.({ text: letter, correct: letter === target });
+    setPicked(note);
+    onResult?.({ text: note, correct: note === target });
   }
 
   return (
@@ -121,10 +131,11 @@ function StaffManipulate({ el, onResult }: { el: MusicEl; onResult?: (r: Element
       </p>
       <svg viewBox="0 0 260 150" width="240" role="img" aria-label="staff, tap a note position">
         <StaffLines />
-        {STAFF_LETTERS.map((l) => {
-          const y = noteY(l);
+        {tappable.map((n) => {
+          const isSharp = n.includes('#');
+          const y = noteY(n) - (isSharp ? 4 : 0);
           return (
-            <g key={l} onClick={() => tap(l)} style={{ cursor: done ? 'default' : 'pointer' }}>
+            <g key={n} onClick={() => tap(n)} style={{ cursor: done ? 'default' : 'pointer' }}>
               {/* `pointerEvents: 'all'` is required here: a `fill="transparent"` shape
                   is NOT hit-tested under the default `pointer-events: visiblePainted`,
                   so untapped rows would silently swallow no clicks at all. */}
@@ -133,10 +144,15 @@ function StaffManipulate({ el, onResult }: { el: MusicEl; onResult?: (r: Element
                 y={y - 6}
                 width={208}
                 height={12}
-                fill={picked === l ? 'var(--el-accent-soft)' : 'transparent'}
+                fill={picked === n ? 'var(--el-accent-soft)' : 'transparent'}
                 style={{ pointerEvents: 'all' }}
               />
-              {y > bottomLine && <line x1={122} y1={y} x2={138} y2={y} stroke="var(--el-muted)" strokeWidth="1.5" />}
+              {isSharp && (
+                <text x={214} y={y + 4} textAnchor="end" fontSize="10" fontWeight="700" fill="var(--el-muted)">
+                  ♯
+                </text>
+              )}
+              {!isSharp && y > bottomLine && <line x1={122} y1={y} x2={138} y2={y} stroke="var(--el-muted)" strokeWidth="1.5" />}
             </g>
           );
         })}
