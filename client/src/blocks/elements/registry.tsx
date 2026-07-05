@@ -18,6 +18,10 @@ import { MeasureElement } from './measure.tsx';
 import { WordBuildElement } from './wordBuild.tsx';
 import { TextMarkElement } from './textMark.tsx';
 import { SentenceElement } from './sentence.tsx';
+import { DiagramElement } from './diagram.tsx';
+import { MapElement } from './map.tsx';
+import { TimelineElement } from './timeline.tsx';
+import { SortElement } from './sort.tsx';
 
 /**
  * Maps an element `type` to its React renderer. Empty at first — each
@@ -43,6 +47,10 @@ export const ELEMENT_REGISTRY: Partial<Record<ElementType, React.FC<ElementProps
   wordBuild: WordBuildElement as React.FC<ElementProps>,
   textMark: TextMarkElement as React.FC<ElementProps>,
   sentence: SentenceElement as React.FC<ElementProps>,
+  diagram: DiagramElement as React.FC<ElementProps>,
+  map: MapElement as React.FC<ElementProps>,
+  timeline: TimelineElement as React.FC<ElementProps>,
+  sort: SortElement as React.FC<ElementProps>,
 };
 
 export function hasRenderer(t: ElementType): boolean {

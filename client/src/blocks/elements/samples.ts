@@ -184,4 +184,127 @@ export const GALLERY_SAMPLES: LessonElement[] = [
     words: ['The', 'cat', 'sat', 'on', 'the', 'mat'],
     label: 'order',
   },
+  {
+    type: 'diagram',
+    mode: 'label',
+    nodes: [
+      { id: 'root', label: 'Root', x: 20, y: 85 },
+      { id: 'stem', label: 'Stem', x: 50, y: 50 },
+      { id: 'leaf', label: 'Leaf', x: 78, y: 30 },
+      { id: 'flower', label: 'Flower', x: 50, y: 10 },
+    ],
+  },
+  {
+    type: 'diagram',
+    mode: 'cycle',
+    nodes: [
+      { id: 'egg', label: 'Egg' },
+      { id: 'larva', label: 'Larva' },
+      { id: 'pupa', label: 'Pupa' },
+      { id: 'adult', label: 'Adult' },
+    ],
+  },
+  {
+    type: 'diagram',
+    mode: 'flow',
+    nodes: [
+      { id: 'input', label: 'Get input' },
+      { id: 'check', label: 'Is it even?' },
+      { id: 'yes', label: 'Print "even"' },
+      { id: 'no', label: 'Print "odd"' },
+    ],
+    edges: [
+      { from: 'input', to: 'check' },
+      { from: 'check', to: 'yes', label: 'yes' },
+      { from: 'check', to: 'no', label: 'no' },
+    ],
+  },
+  {
+    type: 'diagram',
+    mode: 'web',
+    nodes: [
+      { id: 'grass', label: 'Grass' },
+      { id: 'rabbit', label: 'Rabbit' },
+      { id: 'fox', label: 'Fox' },
+      { id: 'hawk', label: 'Hawk' },
+    ],
+    edges: [
+      { from: 'grass', to: 'rabbit' },
+      { from: 'rabbit', to: 'fox' },
+      { from: 'rabbit', to: 'hawk' },
+      { from: 'grass', to: 'hawk' },
+    ],
+  },
+  {
+    type: 'diagram',
+    mode: 'mindmap',
+    nodes: [
+      { id: 'space', label: 'Space' },
+      { id: 'planets', label: 'Planets' },
+      { id: 'stars', label: 'Stars' },
+      { id: 'earth', label: 'Earth' },
+      { id: 'mars', label: 'Mars' },
+      { id: 'sun', label: 'Sun' },
+    ],
+    edges: [
+      { from: 'space', to: 'planets' },
+      { from: 'space', to: 'stars' },
+      { from: 'planets', to: 'earth' },
+      { from: 'planets', to: 'mars' },
+      { from: 'stars', to: 'sun' },
+    ],
+  },
+  {
+    type: 'map',
+    scope: 'world',
+    regions: ['Africa', 'Asia', 'Europe'],
+    pins: [
+      { x: 48, y: 55, label: 'Cairo' },
+      { x: 78, y: 42, label: 'Tokyo' },
+      { x: 52, y: 28, label: 'London' },
+    ],
+    routes: [{ from: 'London', to: 'Cairo' }],
+  },
+  {
+    type: 'timeline',
+    events: [
+      { when: '1800s', label: 'Steam trains invented' },
+      { when: '1903', label: 'First aeroplane flight' },
+      { when: '1969', label: 'Moon landing' },
+      { when: '2020s', label: 'Reusable rockets' },
+    ],
+    scale: 'Not to scale — key milestones only',
+  },
+  {
+    type: 'sort',
+    mode: 'bucket',
+    groups: ['Mammals', 'Birds'],
+    items: [
+      { text: 'Dog', group: 'Mammals' },
+      { text: 'Eagle', group: 'Birds' },
+      { text: 'Whale', group: 'Mammals' },
+      { text: 'Penguin', group: 'Birds' },
+    ],
+  },
+  {
+    type: 'sort',
+    mode: 'venn',
+    groups: ['Herbivores', 'Carnivores'],
+    items: [
+      { text: 'Rabbit', group: 'Herbivores' },
+      { text: 'Lion', group: 'Carnivores' },
+      { text: 'Deer', group: 'Herbivores' },
+      { text: 'Wolf', group: 'Carnivores' },
+    ],
+  },
+  {
+    type: 'sort',
+    mode: 'rank',
+    groups: ['Fastest', 'Middle', 'Slowest'],
+    items: [
+      { text: 'Cheetah', group: 'Fastest' },
+      { text: 'Horse', group: 'Middle' },
+      { text: 'Tortoise', group: 'Slowest' },
+    ],
+  },
 ];
