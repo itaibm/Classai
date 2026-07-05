@@ -202,7 +202,8 @@ function OrderManipulate({ words, onResult }: { words: string[]; onResult?: (r: 
     if (next.length === words.length) {
       setDone(true);
       const built = next.map((i) => words[i] ?? '').join(' ');
-      onResult?.({ text: built, correct: next.every((v, pos) => v === pos) });
+      const isCorrect = built === words.join(' ');
+      onResult?.({ text: built, correct: isCorrect });
     }
   }
 

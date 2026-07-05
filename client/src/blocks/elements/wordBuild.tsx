@@ -153,7 +153,7 @@ function WordBuildManipulate({
     if (next.length === parts.length) {
       setDone(true);
       const built = next.map((i) => parts[i] ?? '').join('');
-      const isCorrect = next.every((v, pos) => v === pos);
+      const isCorrect = built === parts.join('');
       onResult?.({ text: built, correct: isCorrect });
     }
   }
