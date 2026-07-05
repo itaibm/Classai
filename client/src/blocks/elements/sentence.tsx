@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { ElementResult, SentenceEl } from '@shared/elements.ts';
 import type { ElementProps } from './types.ts';
+import { zigzagOrder } from './shuffle.ts';
 
 interface PosGuess {
   label: string;
@@ -56,29 +57,6 @@ function setsEqual(a: Set<number>, b: Set<number>): boolean {
   if (a.size !== b.size) return false;
   for (const v of a) if (!b.has(v)) return false;
   return true;
-}
-
-/**
- * Deterministic "zigzag from both ends" reorder (not random) — the same
- * sentence always presents the same shuffled tray, but visibly differs from
- * the correct order whenever there's more than one word.
- */
-function zigzagOrder(n: number): number[] {
-  const order: number[] = [];
-  let lo = 0;
-  let hi = n - 1;
-  let takeHigh = true;
-  while (lo <= hi) {
-    if (takeHigh) {
-      order.push(hi);
-      hi -= 1;
-    } else {
-      order.push(lo);
-      lo += 1;
-    }
-    takeHigh = !takeHigh;
-  }
-  return order;
 }
 
 /**

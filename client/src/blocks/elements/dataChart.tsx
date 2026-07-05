@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import type { ElementProps } from './types.ts';
 import type { DataChartEl, ElementResult } from '@shared/elements.ts';
+import { CHIP_COLORS } from './palette.ts';
 type Datum = { label: string; value: number };
 
-const SLICE_COLORS = ['var(--el-blue)', 'var(--el-orange)', 'var(--el-green)', 'var(--el-purple)', 'var(--el-pink)', 'var(--el-amber)'];
 function sliceColor(i: number): string {
-  return SLICE_COLORS[i % SLICE_COLORS.length] ?? 'var(--el-blue)';
+  return CHIP_COLORS[i % CHIP_COLORS.length] ?? 'var(--el-blue)';
 }
 
 /* ------------------------------------------------------------------ */

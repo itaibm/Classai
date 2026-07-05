@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { ElementProps } from './types.ts';
 import type { DiagramEl, ElementResult } from '@shared/elements.ts';
+import { zigzagOrder } from './shuffle.ts';
 
 type Node = DiagramEl['nodes'][number];
 type Edge = NonNullable<DiagramEl['edges']>[number];
@@ -353,26 +354,6 @@ function DiagramDemonstrate({ el }: { el: DiagramEl }) {
 /* ------------------------------------------------------------------ */
 /* manipulate                                                           */
 /* ------------------------------------------------------------------ */
-
-/** Deterministic "zigzag from both ends" shuffle — never equals the source
- * order when there's more than one item, but is stable across re-renders. */
-function zigzagOrder(n: number): number[] {
-  const order: number[] = [];
-  let lo = 0;
-  let hi = n - 1;
-  let takeHigh = true;
-  while (lo <= hi) {
-    if (takeHigh) {
-      order.push(hi);
-      hi -= 1;
-    } else {
-      order.push(lo);
-      lo += 1;
-    }
-    takeHigh = !takeHigh;
-  }
-  return order;
-}
 
 /** A cyclic order is correct if the placed sequence is a ROTATION of
  * `0..n-1` in the same direction (reflections/reversed order still fail):

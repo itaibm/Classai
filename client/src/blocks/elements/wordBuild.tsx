@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import type { ElementResult, WordBuildEl } from '@shared/elements.ts';
 import type { ElementProps } from './types.ts';
-
-const CHIP_COLORS = ['var(--el-blue)', 'var(--el-orange)', 'var(--el-green)', 'var(--el-purple)', 'var(--el-pink)'];
+import { zigzagOrder } from './shuffle.ts';
+import { CHIP_COLORS } from './palette.ts';
 
 function chipColor(i: number): string {
   return CHIP_COLORS[i % CHIP_COLORS.length] ?? 'var(--el-blue)';
@@ -66,29 +66,6 @@ function computeParts(el: WordBuildEl): string[] {
   if (el.split === 'phoneme') return splitPhonemes(el.word);
   if (el.split === 'syllable') return splitSyllables(el.word);
   return [el.word]; // morpheme with no parts given: treat the whole word as one morpheme
-}
-
-/**
- * Deterministic "zigzag from both ends" reorder (not random) — the same word
- * always presents the same shuffled tray, but it visibly differs from the
- * correct order whenever there's more than one chip.
- */
-function zigzagOrder(n: number): number[] {
-  const order: number[] = [];
-  let lo = 0;
-  let hi = n - 1;
-  let takeHigh = true;
-  while (lo <= hi) {
-    if (takeHigh) {
-      order.push(hi);
-      hi -= 1;
-    } else {
-      order.push(lo);
-      lo += 1;
-    }
-    takeHigh = !takeHigh;
-  }
-  return order;
 }
 
 /**

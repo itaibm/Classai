@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import type { ElementProps } from './types.ts';
 import type { ElementResult, SortEl } from '@shared/elements.ts';
+import { CHIP_COLORS } from './palette.ts';
 
 const VBW = 260;
 const VBH = 150;
 
-const CHIP_COLORS = ['var(--el-blue)', 'var(--el-orange)', 'var(--el-green)', 'var(--el-purple)', 'var(--el-pink)', 'var(--el-amber)'];
 function chipColor(i: number): string {
   return CHIP_COLORS[i % CHIP_COLORS.length] ?? 'var(--el-blue)';
 }

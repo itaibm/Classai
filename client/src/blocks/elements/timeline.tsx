@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { ElementProps } from './types.ts';
 import type { ElementResult, TimelineEl } from '@shared/elements.ts';
+import { zigzagOrder } from './shuffle.ts';
 
 const VBW = 260;
 const VBH = 150;
@@ -47,26 +48,6 @@ function TimelineDemonstrate({ el }: { el: TimelineEl }) {
       {el.scale && <p className="el-prompt">{el.scale}</p>}
     </div>
   );
-}
-
-/** Deterministic "zigzag from both ends" shuffle — never equals the source
- * order when there's more than one item, but stable across re-renders. */
-function zigzagOrder(n: number): number[] {
-  const order: number[] = [];
-  let lo = 0;
-  let hi = n - 1;
-  let takeHigh = true;
-  while (lo <= hi) {
-    if (takeHigh) {
-      order.push(hi);
-      hi -= 1;
-    } else {
-      order.push(lo);
-      lo += 1;
-    }
-    takeHigh = !takeHigh;
-  }
-  return order;
 }
 
 /**

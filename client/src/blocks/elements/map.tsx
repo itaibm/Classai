@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { ElementProps } from './types.ts';
 import type { ElementResult, MapEl } from '@shared/elements.ts';
+import { CHIP_COLORS } from './palette.ts';
 
 const VBW = 260;
 const VBH = 150;
@@ -43,9 +44,8 @@ function blobPath(cx: number, cy: number, rx: number, ry: number, seed: number, 
   return `${d}Z`;
 }
 
-const REGION_COLORS = ['var(--el-green)', 'var(--el-blue)', 'var(--el-amber)', 'var(--el-purple)', 'var(--el-pink)'];
 function regionColor(i: number): string {
-  return REGION_COLORS[i % REGION_COLORS.length] ?? 'var(--el-green)';
+  return CHIP_COLORS[i % CHIP_COLORS.length] ?? 'var(--el-blue)';
 }
 
 interface Blob {
