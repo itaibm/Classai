@@ -508,6 +508,7 @@ export function authoredDirective(args: {
   learnerSaid?: string;
   warmupFrom?: string;
   omitScript?: boolean; // e.g. later practice items: the beat's intro script was already said
+  chosenTheme?: string; // the learner picked today's theme
   endOnSuccessNote?: string;
   working: WorkingMemory;
   minutesElapsed: number;
@@ -517,6 +518,7 @@ export function authoredDirective(args: {
   const script = beat.script?.say?.trim();
   const adaptHints = beat.script?.adaptHints?.trim();
   const swapNote =
+    (args.chosenTheme ? `The learner CHOSE today's theme: ${args.chosenTheme} — frame stories, examples and practice setups around it. ` : '') +
     `Personalize ONLY names and interest nouns (learner likes: ${args.interests.join(', ') || '—'}); ` +
     `NEVER change any number, quantity, maths, spelling target, or fact. ${args.personalization || ''}`.trim();
 

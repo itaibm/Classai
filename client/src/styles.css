@@ -456,3 +456,13 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .stars .star.on:nth-child(3) { animation-delay: .4s; }
 @keyframes star-pop { 0% { transform: scale(0) rotate(-30deg); } 70% { transform: scale(1.25) rotate(8deg); } 100% { transform: scale(1) rotate(0); } }
 @media (prefers-reduced-motion: reduce) { .streak-pill, .stars .star.on { animation: none; } }
+
+/* ---- hands-free answer preview + read-aloud ---- */
+.sending .heard { font-size: 20px; font-weight: 600; margin: 0; }
+.read-aloud { border: none; background: var(--accent-soft, #eef0ff); border-radius: 999px; min-width: 44px; min-height: 44px; font-size: 20px; cursor: pointer; margin-left: 6px; vertical-align: middle; }
+.read-aloud:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.choice.reading, .chip-btn.reading { outline: 3px solid var(--accent); outline-offset: 2px; }
+.theme-chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.theme-chip { min-height: 48px; padding: 8px 18px; border-radius: 999px; border: 2px solid var(--line); background: #fff; font-size: 17px; font-weight: 600; cursor: pointer; text-transform: capitalize; }
+.theme-chip.on { border-color: var(--accent); background: var(--accent-soft, #eef0ff); }
+.theme-chip:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }

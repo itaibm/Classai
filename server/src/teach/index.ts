@@ -69,7 +69,12 @@ function freshWorking(lesson: Lesson): WorkingMemory {
   };
 }
 
-export function startSession(kid: Kid, course: Course, lesson: Lesson | LessonFull): Session {
+/** Only a theme from the learner's own interests is accepted (it reaches the prompt). */
+function pickTheme(kid: Kid, theme: unknown): string | undefined {
+  return typeof theme === 'string' ? kid.interests.find((i) => i.toLowerCase() === theme.trim().toLowerCase()) : undefined;
+}
+
+export function startSession(kid: Kid, course: Course, lesson: Lesson | LessonFull, theme?: unknown): Session {
   const session: Session = {
     id: 's_' + Math.random().toString(36).slice(2) + Date.now().toString(36),
     kidId: kid.id,
@@ -82,7 +87,7 @@ export function startSession(kid: Kid, course: Course, lesson: Lesson | LessonFu
     status: 'active',
     startedAt: new Date().toISOString(),
     transcript: [],
-    working: freshWorking(lesson)
+    working: { ...freshWorking(lesson), theme: pickTheme(kid, theme) }
   };
   db.sessions.insert(session);
   return session;
@@ -182,6 +187,8 @@ async function runTurn(sessionId: string, response?: KidResponse): Promise<TurnR
       'OVERRIDE — the learner just pressed "I DON\'T GET IT" on your last explanation. Do NOT advance the beat and do NOT just repeat yourself. Re-teach the SAME idea a different, simpler way: a fresh analogy or a different VISUAL (e.g. switch a table for an animated whiteboard, or break it into smaller steps), check the one piece they likely missed, and keep it warm and encouraging.\n\n' +
       directive;
   }
+
+  if (w.theme) directive += `\nTODAY'S THEME (the learner chose it): ${w.theme} — use it in examples and stories; never change facts or numbers.`;
 
   const brain = await getBrain();
   const materials = db.knowledgeMaterials.listByClass(course.id)
@@ -480,7 +487,8 @@ export async function authoredTurn(args: AuthoredArgs): Promise<TurnResult> {
     beatTotal: plan.length,
     beat,
     emphasize: lesson.emphasize || [],
-    interests: [...new Set([...(kid.interests || []), ...(model.interests || [])])],
+    interests: [...new Set([...(w.theme ? [w.theme] : []), ...(kid.interests || []), ...(model.interests || [])])],
+    chosenTheme: w.theme,
     personalization: lesson.adaptivity.personalization || '',
     mode,
     authoredBlock: !!(beat.blocks && beat.blocks.length),

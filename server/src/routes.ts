@@ -338,7 +338,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   // Start a curriculum lesson: authored → play; outline → generate+save → play.
   app.post('/api/catalog/lessons/:id/start', async (req, reply) => {
     const id = (req.params as { id: string }).id;
-    const kidId = (req.body as { kidId?: string })?.kidId;
+    const { kidId, theme } = (req.body || {}) as { kidId?: string; theme?: string };
     if (!kidId) return reply.status(400).send({ error: 'kidId required' });
     const kid = db.kids.get(kidId);
     if (!kid) return reply.status(404).send({ error: 'learner not found' });
@@ -353,7 +353,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     }
     lesson.classId = cls.id;
     lesson.id = ref.id;
-    const session = startSession(kid, cls, lesson);
+    const session = startSession(kid, cls, lesson, theme);
     return { sessionId: session.id };
   });
 
@@ -644,7 +644,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
 
   app.post('/api/lessons/:id/start', async (req, reply) => {
     const id = (req.params as { id: string }).id;
-    const kidId = (req.body as { kidId?: string })?.kidId;
+    const { kidId, theme } = (req.body || {}) as { kidId?: string; theme?: string };
     if (!kidId) return reply.status(400).send({ error: 'kidId required' });
     const kid = db.kids.get(kidId);
     if (!kid) return reply.status(404).send({ error: 'learner not found' });
@@ -668,7 +668,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     // Generated blueprints must be approved; curriculum files ship approved.
     if (!isLessonFull(lesson) && lesson.status !== 'approved') return reply.status(409).send({ error: 'lesson is not approved' });
     if (!db.enrollments.get(lesson.classId, kidId)) return reply.status(409).send({ error: 'learner is not enrolled in this class' });
-    const session = startSession(kid, classDefinition, lesson);
+    const session = startSession(kid, classDefinition, lesson, theme);
     return { sessionId: session.id };
   });
 

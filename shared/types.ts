@@ -762,6 +762,7 @@ export interface WorkingMemory {
   practice?: PracticeState; // the practice-bank adaptivity state machine
   authored?: AuthoredState; // where we are within the authored beat sequence
   lessonMastery?: number; // 0..1, the director's estimate, set when the lesson ends
+  theme?: string; // today's theme the learner picked (one of their interests) — frames examples, never facts
 }
 
 /** Deterministic practice-bank adaptivity state (see teach/practice.ts). */

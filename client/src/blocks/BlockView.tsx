@@ -15,12 +15,13 @@ import { useTurnComplete } from './useComplete.ts';
 import { MatchPairs, Ordering, Categorize } from './Arrange.tsx';
 import { CustomBlock } from './CustomBlock.tsx';
 import { Whiteboard } from './Whiteboard.tsx';
+import { useReadAloud, ReadAloudButton } from './readAloud.tsx';
 
 type Done = (r: BlockResult) => void;
 
 /** `reveal` false = the tutor will re-ask after a miss, so a wrong answer is
  *  marked wrong but the right one is NOT shown (or the retry means nothing). */
-export function BlockView({ block, active, onComplete, micEnabled, onMicState, reveal = true }: { block: LessonBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void; reveal?: boolean }) {
+export function BlockView({ block, active, onComplete, micEnabled, onMicState, reveal = true, handsFree = false }: { block: LessonBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void; reveal?: boolean; handsFree?: boolean }) {
   switch (block.type) {
     case 'richText': return <RichText block={block} />;
     case 'steps': return <Steps block={block} />;
@@ -40,7 +41,7 @@ export function BlockView({ block, active, onComplete, micEnabled, onMicState, r
     case 'fillBlank': return <FillBlank block={block} active={active} onComplete={onComplete} reveal={reveal} />;
     case 'numberEntry': return <NumberEntry block={block} active={active} onComplete={onComplete} reveal={reveal} />;
     case 'shortText': return <ShortText block={block} active={active} onComplete={onComplete} />;
-    case 'speak': return <Speak block={block} active={active} onComplete={onComplete} micEnabled={micEnabled} onMicState={onMicState} />;
+    case 'speak': return <Speak block={block} active={active} onComplete={onComplete} micEnabled={micEnabled} onMicState={onMicState} handsFree={handsFree} />;
     case 'matchPairs': return <MatchPairs block={block} active={active} onComplete={onComplete} />;
     case 'ordering': return <Ordering block={block} active={active} onComplete={onComplete} />;
     case 'categorize': return <Categorize block={block} active={active} onComplete={onComplete} />;
@@ -252,6 +253,7 @@ function Choice({ prompt, options, correct, explain, active, onComplete, reveal 
   const [picked, setPicked] = useState<number | null>(null);
   const { complete } = useTurnComplete(onComplete);
   const correctIdx = correct[0]!;
+  const aloud = useReadAloud([prompt, ...options]);
   function pick(i: number) {
     if (!active || picked !== null) return;
     setPicked(i);
@@ -261,10 +263,11 @@ function Choice({ prompt, options, correct, explain, active, onComplete, reveal 
   const showAnswer = picked !== null && (reveal || picked === correctIdx);
   return (
     <div className="interaction">
-      <p className="block-prompt">{prompt}</p>
+      <p className="block-prompt">{prompt}{aloud.available && <ReadAloudButton onClick={aloud.start} />}</p>
       <div className="choices">
         {options.map((o, i) => {
           let cls = 'choice';
+          if (aloud.reading === i + 1) cls += ' reading';
           if (picked !== null) {
             if (i === correctIdx && showAnswer) cls += ' reveal-correct';
             else if (i === picked) cls += ' reveal-wrong';
@@ -285,6 +288,7 @@ function MultiSelect({ block, active, onComplete, reveal = true }: { block: Mult
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
   const correct = new Set(block.correct);
+  const aloud = useReadAloud([`${block.prompt} Pick all that are right.`, ...block.options]);
   function toggle(i: number) { if (!active || checked) return; const n = new Set(sel); n.has(i) ? n.delete(i) : n.add(i); setSel(n); }
   function check() {
     setChecked(true);
@@ -294,10 +298,11 @@ function MultiSelect({ block, active, onComplete, reveal = true }: { block: Mult
   }
   return (
     <div className="interaction">
-      <p className="block-prompt">{block.prompt} <span className="muted small">(pick all that apply)</span></p>
+      <p className="block-prompt">{block.prompt} <span className="muted small">(pick all that apply)</span>{aloud.available && <ReadAloudButton onClick={aloud.start} />}</p>
       <div className="choices">
         {block.options.map((o, i) => {
           let cls = 'choice ms';
+          if (aloud.reading === i + 1) cls += ' reading';
           if (sel.has(i)) cls += ' sel';
           if (checked && (reveal || right)) { if (correct.has(i)) cls += ' reveal-correct'; else if (sel.has(i)) cls += ' reveal-wrong'; }
           return <button key={i} className={cls} disabled={!active || checked} onClick={() => toggle(i)}>{sel.has(i) ? '☑ ' : '☐ '}{o}</button>;
@@ -315,6 +320,7 @@ function FillBlank({ block, active, onComplete, reveal = true }: { block: FillBl
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
   const [parts] = useState(() => block.text.split(/_{2,}|\[blank\]/i));
+  const aloud = useReadAloud([parts.join(' … blank … '), ...(block.wordBank ?? [])]);
   function submit(v: string) {
     if (!active || checked || !v.trim()) return;
     setVal(v);
@@ -329,10 +335,11 @@ function FillBlank({ block, active, onComplete, reveal = true }: { block: FillBl
         {parts[0]}
         <span className={`blank ${checked ? (ok ? 'reveal-correct' : 'reveal-wrong') : ''}`}>{checked ? (ok || !reveal ? val : block.answer) : (val || '_____')}</span>
         {parts.slice(1).join(' ')}
+        {aloud.available && <ReadAloudButton onClick={aloud.start} />}
       </p>
       {!checked && block.wordBank && (
         <div className="chips center" style={{ justifyContent: 'center' }}>
-          {block.wordBank.map((w) => <button key={w} className="chip-btn" disabled={!active} onClick={() => submit(w)}>{w}</button>)}
+          {block.wordBank.map((w, i) => <button key={w} className={`chip-btn${aloud.reading === i + 1 ? ' reading' : ''}`} disabled={!active} onClick={() => submit(w)}>{w}</button>)}
         </div>
       )}
       {!checked && !block.wordBank && (
@@ -350,6 +357,7 @@ function NumberEntry({ block, active, onComplete, reveal = true }: { block: Numb
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
   const tol = block.tolerance ?? 0;
+  const aloud = useReadAloud([block.prompt]);
   const ok = checked && Math.abs(parseFloat(val) - block.answer) <= tol + 1e-9;
   function submit() {
     if (!active || checked || val.trim() === '') return;
@@ -359,7 +367,7 @@ function NumberEntry({ block, active, onComplete, reveal = true }: { block: Numb
   }
   return (
     <div className="interaction">
-      <p className="block-prompt">{block.prompt}</p>
+      <p className="block-prompt">{block.prompt}{aloud.available && <ReadAloudButton onClick={aloud.start} />}</p>
       <form className="answer-row" style={{ maxWidth: 320, margin: '0 auto' }} onSubmit={(e) => { e.preventDefault(); submit(); }}>
         <input autoFocus type="number" step="any" value={val} disabled={!active || checked}
           className={checked ? (ok ? 'ok-input' : 'bad-input') : ''}
@@ -387,10 +395,13 @@ function ShortText({ block, active, onComplete }: { block: ShortTextBlock; activ
 /** Reusable mic + typing answer input. Used by the Speak block AND by the
  *  Classroom's always-available answer bar, so the kid can always respond when
  *  the tutor is waiting — even on turns that carry no interactive block. */
-export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placeholder = 'Type your answer…', autoMic = false }: {
+export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placeholder = 'Type your answer…', autoMic = false, handsFree = false }: {
   active: boolean; micEnabled?: boolean; onMicState?: (listening: boolean) => void;
   onSubmit: (text: string) => void; placeholder?: string;
   autoMic?: boolean; // open the mic automatically (only for a deliberate "say it aloud" task)
+  /** Hands-free (young learners): open the mic, stop when they go quiet, and
+   *  send after a short "Sending…" pause they can cancel. No taps needed. */
+  handsFree?: boolean;
 }) {
   const [text, setText] = useState('');
   const [status, setStatus] = useState<'idle' | 'recording' | 'transcribing'>('idle');
@@ -399,6 +410,10 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   const [, setFails] = useState(0);
   const [typeMode, setTypeMode] = useState(false); // user chose to type (or after 2 misses)
   const recRef = useRef<RecorderHandle | null>(null);
+  const [sending, setSending] = useState(false); // hands-free: auto-send countdown showing
+  const sendTimerRef = useRef<number | null>(null);
+  const cancelSend = () => { if (sendTimerRef.current) clearTimeout(sendTimerRef.current); sendTimerRef.current = null; setSending(false); };
+  useEffect(() => () => { if (sendTimerRef.current) clearTimeout(sendTimerRef.current); }, []);
   const autoStartedRef = useRef(false); // open the mic once per turn, don't re-grab after the user stops
 
   // The mic is usable only on a secure origin AND when not switched off globally.
@@ -423,13 +438,13 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   // Otherwise the mic stays off until the kid taps it — never "default on" after
   // an explanation turn. Once per turn: if they stop it, we don't re-grab.
   useEffect(() => {
-    if (!autoMic || autoStartedRef.current) return;
+    if (!(autoMic || handsFree) || autoStartedRef.current) return;
     if (active && micAvailable && status === 'idle' && !typeMode && !text && !error) {
       autoStartedRef.current = true;
       start();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [autoMic, active, micAvailable, status, typeMode]);
+  }, [autoMic, handsFree, active, micAvailable, status, typeMode]);
   // If the mic is switched off mid-recording, stop cleanly.
   useEffect(() => {
     if (!micAvailable && (status === 'recording' || recRef.current)) {
@@ -453,7 +468,23 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
     if (!active) return;
     setError(''); setText('');
     try {
-      const rec = await startRecording({ onLevel: setLevel });
+      const rec = await startRecording({
+        onLevel: setLevel,
+        autoStop: handsFree
+          ? {
+              onStop: (reason) => {
+                if (reason === 'no_speech') {
+                  // Nothing said: close the mic quietly; they can tap it when ready.
+                  recRef.current?.cancel();
+                  recRef.current = null;
+                  setLevel(0);
+                  setStatus('idle');
+                  setError('');
+                } else void stop(true);
+              }
+            }
+          : undefined
+      });
       if (!mountedRef.current) return rec.cancel(); // unmounted while the mic was opening
       recRef.current = rec;
       setStatus('recording');
@@ -468,17 +499,26 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
     }
   }
 
-  async function stop() {
+  async function stop(auto = false) {
     const handle = recRef.current;
     recRef.current = null;
     setLevel(0);
     if (!handle) { setStatus('idle'); return; }
     setStatus('transcribing');
     try {
-      const said = await handle.stop();
+      const said = (await handle.stop()).trim();
       setStatus('idle');
-      if (said.trim()) setText(said.trim());
-      else registerFail("I didn't catch that — try again, or type your answer.");
+      if (!said) return registerFail("I didn't catch that — tap the mic and try again.");
+      setText(said);
+      if (auto && mountedRef.current) {
+        // Show what we heard, then send — unless they tap "fix it".
+        setSending(true);
+        sendTimerRef.current = window.setTimeout(() => {
+          sendTimerRef.current = null;
+          setSending(false);
+          onSubmit(said);
+        }, 2200);
+      }
     } catch {
       setStatus('idle');
       registerFail("I couldn't process the audio — type your answer instead.");
@@ -486,11 +526,13 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   }
 
   function toggle() {
+    cancelSend();
     if (status === 'recording') stop();
     else if (status === 'idle') start();
   }
 
   function switchToTyping() {
+    cancelSend();
     recRef.current?.cancel();
     recRef.current = null;
     setLevel(0);
@@ -498,7 +540,7 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
     setTypeMode(true);
     setError('');
   }
-  const submit = () => { if (text.trim()) onSubmit(text.trim()); };
+  const submit = () => { cancelSend(); if (text.trim()) onSubmit(text.trim()); };
 
   return (
     <div className="interaction col center" style={{ gap: 12 }}>
@@ -522,16 +564,24 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
                   <span key={i} style={{ transform: `scaleY(${Math.max(0.12, Math.min(1, level * m * 1.6))})` }} />
                 ))}
               </div>
-              <span className="listening-label"><span className="rec-dot" /> Listening… tap to stop</span>
+              <span className="listening-label"><span className="rec-dot" /> {handsFree ? 'I’m listening — just talk!' : 'Listening… tap to stop'}</span>
             </>
           )}
-          {status === 'transcribing' && <span className="muted small">Transcribing… (first time downloads a small voice model)</span>}
-          {status === 'idle' && !text && !error && <span className="muted small">Tap the mic to speak your answer, then tap it again when you're done.</span>}
+          {status === 'transcribing' && <span className="muted small">Listening back… 👂</span>}
+          {status === 'idle' && !text && !error && (
+            <span className="muted small">{handsFree ? 'Tap the mic and tell me your answer 🎤' : 'Tap the mic to speak your answer, then tap it again when you\'re done.'}</span>
+          )}
         </>
       )}
 
       {error && <p className="muted small" style={{ color: '#c0392b' }}>{error}</p>}
-      {text && <p className="muted">“{text}”</p>}
+      {text && sending ? (
+        <div className="col center sending" style={{ gap: 8 }}>
+          <p className="heard">“{text}”</p>
+          <span className="muted small">Sending…</span>
+          <button className="btn ghost small" type="button" onClick={() => { cancelSend(); setTypeMode(true); }}>✏️ Wait, fix it</button>
+        </div>
+      ) : text ? <p className="muted">“{text}”</p> : null}
 
       {showTyping && (
         <form className="answer-row" style={{ width: '100%' }} onSubmit={(e) => { e.preventDefault(); submit(); }}>
@@ -540,7 +590,7 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
       )}
 
       <div className="row center" style={{ gap: 10 }}>
-        <button className="btn" disabled={!active || !text.trim()} onClick={submit}>Send</button>
+        {!sending && <button className="btn" disabled={!active || !text.trim()} onClick={submit}>Send</button>}
         {micAvailable && !typeMode && (
           <button className="btn ghost small" type="button" disabled={!active} onClick={switchToTyping}>Type instead</button>
         )}
@@ -558,7 +608,7 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   );
 }
 
-function Speak({ block, active, onComplete, micEnabled, onMicState }: { block: SpeakBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void }) {
+function Speak({ block, active, onComplete, micEnabled, onMicState, handsFree }: { block: SpeakBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void; handsFree?: boolean }) {
   return (
     <div className="col center" style={{ gap: 12 }}>
       <p className="block-prompt" style={{ textAlign: 'center' }}>{block.prompt}</p>
@@ -568,6 +618,7 @@ function Speak({ block, active, onComplete, micEnabled, onMicState }: { block: S
         micEnabled={micEnabled}
         onMicState={onMicState}
         autoMic
+        handsFree={handsFree}
         onSubmit={(t) => onComplete({ text: `Said: “${t}”` })}
       />
     </div>

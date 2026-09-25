@@ -195,13 +195,13 @@ export const api = {
   catalogLesson: (id: string) => req<{ lesson: CatalogLessonDetail }>(`/catalog/lessons/${encodeURIComponent(id)}`),
   assignCurriculum: (kidId: string, year: number, subject: string) =>
     req<{ classId: string }>('/catalog/assign', { method: 'POST', body: JSON.stringify({ kidId, year, subject }) }),
-  startCatalogLesson: (id: string, kidId: string) =>
-    req<{ sessionId: string }>(`/catalog/lessons/${encodeURIComponent(id)}/start`, { method: 'POST', body: JSON.stringify({ kidId }) }),
+  startCatalogLesson: (id: string, kidId: string, theme?: string) =>
+    req<{ sessionId: string }>(`/catalog/lessons/${encodeURIComponent(id)}/start`, { method: 'POST', body: JSON.stringify({ kidId, theme }) }),
   kidCurriculum: (kidId: string) => req<{ subjects: AssignedSubject[] }>(`/kids/${kidId}/curriculum`),
 
   // teaching
-  startLesson: (lessonId: string, kidId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
-    method: 'POST', body: JSON.stringify({ kidId })
+  startLesson: (lessonId: string, kidId: string, theme?: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
+    method: 'POST', body: JSON.stringify({ kidId, theme })
   }),
   turn: (sessionId: string, response?: KidResponse) =>
     req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number }; stats?: LessonStats }>(
