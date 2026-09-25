@@ -26,7 +26,9 @@ Classai is a private, character-driven AI homeschool tutor. Parents supply a cur
 
 - `npm run dev` — concurrent dev: server on :8787 (`tsx watch`), client on :5173 (Vite HMR, proxies `/api` to :8787). Use this for local work.
 - `npm run dev:server` / `npm run dev:client` — run one side only.
-- `npm run typecheck` — full monorepo typecheck (server + client). **This is the only automated check** — there is no test runner, linter, or formatter configured. Run it after edits to verify your work.
+- `npm run typecheck` — full monorepo typecheck (server + client).
+- `npm test` — node:test suites (practice engine, authored-lesson director, curriculum loader), run against a temp data dir with a mock brain. Run both after edits; there is no linter or formatter.
+- `node curriculum/validate-lessons.mjs $(find curriculum -type d -name lessons)` — structural check of authored lesson files.
 - `npm run build` — Vite build of the client into `client/dist/`.
 - `npm start` — production: serve the built client + API from :8787.
 - `bash start.sh` (or `start.command` on macOS) — idempotent launcher: checks Node 22+, installs deps + builds once, opens the browser.
@@ -50,6 +52,7 @@ Both subscription paths are a ToS gray area and depend on unofficial endpoints �
 
 ## Architecture constraints (don't break these)
 
+- **Parent routes are guarded server-side** (`server/src/parent-auth.ts`): `/api/parent/verify` issues a token the client sends as `x-parent-token`; every `/api` route not in `PUBLIC_ROUTES` requires it. A new kid-facing endpoint must be added to `PUBLIC_ROUTES` deliberately.
 - **Bring-your-own-key.** No developer AI key is baked in. Users connect their own brain (Anthropic API key, OpenAI OAuth, or local Ollama). Credentials live in `data/auth-profiles.json` (git-ignored) and are **never sent to the client**. Don't introduce a hardcoded or env-baked provider key.
 - **Privacy: data stays local.** Voice STT (Whisper) and TTS (Kokoro) run in-browser via transformers.js/WebGPU; only transcribed text is sent to the user's brain. Learner profiles + transcripts live in local SQLite. Don't add code that ships voice audio or personal data off-device.
 - **`shared/types.ts` is the contract** between server and client (`TeacherTurn`, `LearnerModel`, etc.). Changes here ripple across both sides — update both.
@@ -72,7 +75,7 @@ Both subscription paths are a ToS gray area and depend on unofficial endpoints �
 
 ## Env vars (see `.env.example`)
 
-`PORT` (8787), `CLASSAI_DATA_DIR` (`./data`, git-ignored), `CLASSAI_PARENT_PIN` (first user sets it if unset), `LOG_LEVEL` (`info`). Codex path also reads `OPENAI_OAUTH_BASE_URL` and `OPENAI_CODEX_MODEL` (default `gpt-5.5`).
+`PORT` (8787), `CLASSAI_HOST` (`127.0.0.1` — loopback by default so learner data isn't on the LAN), `CLASSAI_DATA_DIR` (`./data`, git-ignored), `CLASSAI_PARENT_PIN` (first user sets it if unset), `LOG_LEVEL` (`info`). Codex path also reads `OPENAI_OAUTH_BASE_URL` and `OPENAI_CODEX_MODEL` (default `gpt-5.5`).
 
 ## Session handoff (as of 2026-06-21)
 
@@ -98,6 +101,5 @@ Active branch: **`claude/brain-connect-codex-classroom`** (off `main`). Committe
 - Brain default persists in `data/auth-profiles.json` (two profiles: `anthropic:default` opus local-login, `openai:default` gpt-5.5 oauth — currently default). If one rate-limits, switch the other.
 
 **Known follow-ups / not done:**
-- No **delete-course** endpoint — QA left junk courses on learner "Leo".
 - OpenAI "Sign in with ChatGPT" only works for plans including Codex (current gpt-5.x); older model names rejected.
-- No linter/test runner; `npm run typecheck` is the only check.
+- See `docs/REVIEW-2026-09.md` for the full review backlog (what was fixed, what remains).
