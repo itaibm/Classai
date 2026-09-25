@@ -51,7 +51,7 @@
     "channel": "SciShow Kids",
     "searchTerm": "living and nonliving things for kids",
     "watchTask": "Every time the video shows something that GROWS, FEEDS or has BABIES, whisper 'living!' — count how many living things you spot.",
-    "afterCheck": { "question": "The video showed a rock and a plant. Which one was living, and what did it DO that told you?", "expectedAnswer": "The plant was living — it grows and feeds (drinks sunlight); the rock never grows, feeds or has babies." }
+    "afterCheck": { "question": "The video showed a rock and a plant. Which one was living, and what did it DO that told you?", "expectedAnswer": "The plant was living — it grows and feeds (it makes its own food in its leaves, using sunlight); the rock never grows, feeds or has babies." }
   },
 
   "plan": [
@@ -275,24 +275,24 @@
     },
     {
       "id": "l01-p09", "skill": "give a reason for the group", "level": 3,
-      "block": { "type": "shortText", "prompt": "Is a fallen conker (from a tree) living, dead or never alive? Say the group AND explain how you know.", "sample": "Dead — it was once part of a living tree, so it was alive once, but it isn't growing now." },
+      "block": { "type": "shortText", "prompt": "Is a dry brown leaf that fell off a tree living, dead or never alive? Say the group AND explain how you know.", "sample": "Dead — it was once part of a living tree, so it was alive once, but it isn't growing now." },
       "expectedAnswer": "Dead — it grew on a living tree (once alive) but isn't growing now",
       "wrongAnswers": [
-        { "answer": "Never alive", "why": "the hard, still conker looks like it was never living", "remedy": "Where did a conker grow? On a living tree. If it was once part of a living thing, which group?" },
-        { "answer": "Living, with no reason", "why": "gives a group but no life-job reason", "remedy": "Tell me WHY using our test — is the conker growing and feeding right now, or did it stop?" }
+        { "answer": "Never alive", "why": "the dry, still leaf looks like it was never living", "remedy": "Where did the leaf grow? On a living tree. If it was once part of a living thing, which group?" },
+        { "answer": "Living, with no reason", "why": "gives a group but no life-job reason", "remedy": "Tell me WHY using our test — is the leaf growing and feeding right now, or did it stop?" }
       ],
-      "hints": ["A conker grows on a horse-chestnut tree — is a tree alive?", "Did it EVER grow, feed or have babies? Give the reason, not just the word."],
-      "reteach": { "say": "A conker is a seed that grew on a living tree — so it was once alive. Now it has fallen and isn't growing, so it's dead. A good scientist reason says the group AND the why: 'dead, because it grew on a living tree but isn't growing now.'", "block": { "type": "keyTerm", "term": "dead", "definition": "was once alive (grew, fed or was part of a living thing) but isn't now", "example": "a conker, a fallen leaf, a feather, a log" } }
+      "hints": ["The leaf grew on a tree — is a tree alive?", "Did it EVER grow, feed or have babies? Give the reason, not just the word."],
+      "reteach": { "say": "The leaf grew on a living tree — so it was once alive. Now it has fallen, dried up and can't grow, so it's dead. A good scientist reason says the group AND the why: 'dead, because it grew on a living tree but isn't growing now.'", "block": { "type": "keyTerm", "term": "dead", "definition": "was once alive (grew, fed or was part of a living thing) but isn't now", "example": "a fallen dry leaf, a feather, a log" } }
     },
     {
       "id": "l01-p10", "skill": "apply the life test", "level": 3,
-      "block": { "type": "trueFalse", "statement": "A sunflower is not living because it can't run around like an animal.", "correct": false, "explain": "A sunflower grows, feeds (drinks sunlight in its leaves), turns slowly to the light and makes seeds. It does the life jobs, so it's living — even though it can't run." },
+      "block": { "type": "trueFalse", "statement": "A sunflower is not living because it can't run around like an animal.", "correct": false, "explain": "A sunflower grows, feeds (it makes its own food in its leaves, using sunlight), turns slowly to the light and makes seeds. It does the life jobs, so it's living — even though it can't run." },
       "expectedAnswer": "False",
       "wrongAnswers": [
         { "answer": "True", "why": "thinks only animals that move quickly are alive", "remedy": "Does a sunflower grow taller? Does it turn to face the sun? Does it make seeds (its babies)? Slow moving still counts." }
       ],
       "hints": ["Do plants grow, feed and make babies (seeds)?", "Living things don't have to run — a sunflower moves slowly toward the light."],
-      "reteach": { "say": "A sunflower can't run, but watch what it DOES — it grows tall, drinks sunlight to feed, turns slowly to face the sun, and makes seeds that become new sunflowers. All the life jobs! So it's living, just quietly.", "block": { "type": "emojiViz", "emojis": "🌻 → grows ✅ · feeds ☀️ · turns to light ✅ · seeds 🌰", "caption": "A sunflower does the life jobs — it's living" } }
+      "reteach": { "say": "A sunflower can't run, but watch what it DOES — it grows tall, makes its own food in its leaves using sunlight, turns slowly to face the sun, and makes seeds that become new sunflowers. All the life jobs! So it's living, just quietly.", "block": { "type": "emojiViz", "emojis": "🌻 → grows ✅ · feeds ☀️ · turns to light ✅ · seeds 🌰", "caption": "A sunflower does the life jobs — it's living" } }
     }
   ],
 
@@ -315,7 +315,7 @@
 
   "differentiation": {
     "support": "Sort only LIVING vs NEVER ALIVE first (the clearest contrast), with the real objects in hand; add the 'dead' group once those two are secure.",
-    "stretch": "Give the seashell (or conker): 'Living, dead or never alive? Tell me why.' Then ask 'would it always be in that group?'"
+    "stretch": "Give the seashell (or a conker — a tricky one: it's a seed, alive but resting, and it can grow into a tree!): 'Living, dead or never alive? Tell me why.' Then ask 'would it always be in that group?'"
   },
   "extension": "Go on a 'three-group hunt' around the room or garden — find one real living thing, one dead thing and one never-alive thing, and draw them in three boxes with a reason written under each.",
   "assessmentEvidence": "Child sorts at least 3 mixed objects correctly into living/dead/never-alive AND gives a reason for each; correctly places the fallen leaf (or shell/feather) as dead; states the test 'did it ever grow, feed and have babies?'.",

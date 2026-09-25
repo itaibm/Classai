@@ -30,7 +30,7 @@
 ## Video (reinforce — unverified spec, no invented URL)
 - **Channel:** SciShow Kids · **Search:** "living and nonliving things for kids"
 - **Watch task:** Every time the video shows something that grows, feeds or has babies, whisper "living!" — count how many living things you spot.
-- **After-check:** "The video showed a rock and a plant. Which was living, and what did it DO that told you?" → The plant — it grows and feeds (drinks sunlight); the rock never grows, feeds or has babies.
+- **After-check:** "The video showed a rock and a plant. Which was living, and what did it DO that told you?" → The plant — it grows and feeds (makes its own food using sunlight); the rock never grows, feeds or has babies.
 
 ## Lesson arc (beats)
 
@@ -69,7 +69,7 @@ Child is the teacher: name the three groups with one example of each. Process pr
 | l01-p06 | 2 | give a reason | Fill blank: "…because it never ___, fed or had babies" → grew |
 | l01-p07 | 3 | dead vs never alive | True/False: wooden chair never alive → False (wood was a tree) |
 | l01-p08 | 3 | sort living/dead/never alive | Categorize: cress, feather, spoon, log, caterpillar, marble |
-| l01-p09 | 3 | give a reason | Short text: fallen conker → dead, with reason |
+| l01-p09 | 3 | give a reason | Short text: fallen dry leaf → dead, with reason |
 | l01-p10 | 3 | apply the life test | True/False: "a sunflower isn't living because it can't run" → False |
 
 Every item carries an expected answer, ≥2 anticipated wrong answers (with the misconception + a guiding remedy that never reveals the answer), two hints, and a fresh re-teach.
@@ -82,7 +82,7 @@ Every item carries an expected answer, ≥2 anticipated wrong answers (with the 
 
 ## Differentiation, extension, assessment
 - **Support:** sort only living vs never-alive first (clearest contrast) with real objects; add "dead" once secure.
-- **Stretch:** the seashell/conker — "living, dead or never alive? Tell me why. Would it always be in that group?"
+- **Stretch:** the seashell, or a conker (a trick one: a seed is alive, just resting) — "living, dead or never alive? Tell me why. Would it always be in that group?"
 - **Extension:** "three-group hunt" — find one living, one dead, one never-alive thing and draw each with a reason.
 - **Assessment evidence:** child sorts 3+ mixed objects correctly with a reason each, places the fallen leaf/shell/feather as *dead*, and states the test.
 - **Revisit later:** bring back "is a car alive?" as a 1-minute retrieval at the top of Lesson 2 and again before Unit 2.

@@ -24,7 +24,7 @@
   "emphasize": [
     "These suffixes are word-builders that change MEANING, not just spelling. Headline pair: -ful (full of) vs -less (without) — opposite meanings from one root.",
     "The must-not-miss spelling rule: -ful is spelled with ONE l (even though the word full has two). Pre-empt 'carefull'.",
-    "For most roots, just add the whole suffix to the whole root; if the root ends in y, change y → i first (happy → happiness)."
+    "For most roots, just add the whole suffix to the whole root; if the root ends in a consonant + y, change y → i first (happy → happiness; but enjoy keeps its y)."
   ],
   "analysis": {
     "keyConcepts": ["meaning-changing suffixes build new words: -ful, -less, -ness, -ly, -ment", "-ful/-less give opposites from one root", "-ful has one l; y-ending roots do y → i first (happiness, happily)"],
@@ -69,7 +69,7 @@
       "note": "Point firmly at the single l in careful. One new idea per suffix — meaning first, spelling second.",
       "successCriteria": "Child can give the meaning of -ful and -less and says '-ful has one l'.",
       "script": {
-        "say": "Five word-builder suffixes. Watch me build from care. Care plus -ful = careful — full of care. BUT careful! -ful has only ONE l, even though the word full has two. Care plus -less = careless — without care. Now kind plus -ness = kindness — -ness makes a 'thing' word, the state of being kind. Quick plus -ly = quickly — -ly tells us HOW. Enjoy plus -ment = enjoyment — -ment names the result. For all of these, I just add the whole suffix on. One special: if the root ends in y, change y to i first — happy → happiness.",
+        "say": "Five word-builder suffixes. Watch me build from care. Care plus -ful = careful — full of care. BUT careful! -ful has only ONE l, even though the word full has two. Care plus -less = careless — without care. Now kind plus -ness = kindness — -ness makes a 'thing' word, the state of being kind. Quick plus -ly = quickly — -ly tells us HOW. Enjoy plus -ment = enjoyment — -ment names the result. For all of these, I just add the whole suffix on. One special: if the root ends in a consonant then y, change y to i first — happy → happiness. Enjoy has a vowel before its y, so it keeps it — enjoyment.",
         "adaptHints": "Repeat the headline: '-ful means full of — and it's spelled with just ONE l.' Keep each suffix to one breath; the slideshow carries the detail."
       },
       "blocks": [
@@ -82,7 +82,7 @@
             { "title": "kind + ness = kindness", "body": "-ness builds a 'thing' word: the state of being kind.", "emoji": "💗" },
             { "title": "quick + ly = quickly", "body": "-ly tells us HOW something happens: in a quick way.", "emoji": "🏃" },
             { "title": "enjoy + ment = enjoyment", "body": "-ment names the result of doing something.", "emoji": "🎉" },
-            { "title": "The y special", "body": "If the root ends in y, change y → i first: happy → happiness, happy → happily.", "emoji": "🔁" }
+            { "title": "The y special", "body": "Consonant + y at the end? Change y → i first: happy → happiness, happy → happily. (Vowel + y keeps it: enjoyment.)", "emoji": "🔁" }
           ]
         }
       ]
