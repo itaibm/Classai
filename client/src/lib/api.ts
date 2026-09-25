@@ -30,12 +30,33 @@ import type {
   AssignedSubject
 } from '@shared/types';
 
+/** Parent session token from the PIN gate (sent on every request; the server
+ *  decides which routes need it). */
+export const PARENT_TOKEN_KEY = 'classai_parent_token';
+const parentToken = (): string | null => {
+  try {
+    return sessionStorage.getItem(PARENT_TOKEN_KEY);
+  } catch {
+    return null;
+  }
+};
+
 async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
+  const token = parentToken();
   const res = await fetch(`/api${path}`, {
-    headers: { 'content-type': 'application/json' },
-    ...opts
+    ...opts,
+    headers: { 'content-type': 'application/json', ...(token ? { 'x-parent-token': token } : {}) }
   });
   const data = await res.json().catch(() => ({}));
+  if (res.status === 401 && (data as any).error === 'parent_auth_required' && token) {
+    // Token expired (or the server restarted): drop it and show the PIN gate again.
+    try {
+      sessionStorage.removeItem(PARENT_TOKEN_KEY);
+    } catch {
+      /* storage unavailable */
+    }
+    window.location.reload();
+  }
   if (!res.ok) throw new Error((data as any).error || `Request failed (${res.status})`);
   return data as T;
 }
@@ -86,8 +107,8 @@ export const api = {
 
   // parent gate
   parentStatus: () => req<{ pinSet: boolean }>('/parent/status'),
-  parentSetPin: (pin: string) => req('/parent/set-pin', { method: 'POST', body: JSON.stringify({ pin }) }),
-  parentVerify: (pin: string) => req<{ ok: boolean }>('/parent/verify', { method: 'POST', body: JSON.stringify({ pin }) }),
+  parentSetPin: (pin: string) => req<{ ok: boolean; token: string }>('/parent/set-pin', { method: 'POST', body: JSON.stringify({ pin }) }),
+  parentVerify: (pin: string) => req<{ ok: boolean; token: string }>('/parent/verify', { method: 'POST', body: JSON.stringify({ pin }) }),
 
   // prompt inspector
   promptInspector: () => req<{ templates: PromptTemplate[]; log: PromptLogEntry[] }>('/parent/prompts'),

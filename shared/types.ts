@@ -787,6 +787,7 @@ export interface AuthoredState {
   pending?: AuthoredPending; // what the last turn asked, resolved on the next response
   humanRunEnd?: number; // beatIndex to resume at after a merged run of human beats
   videoDone?: boolean; // the lesson-level curated video has been shown (or skipped)
+  misses?: number; // consecutive misses on the currently-open check / recovery item
 }
 
 export interface MemoryEpisode {

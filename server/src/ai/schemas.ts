@@ -12,11 +12,22 @@ import { BlockSchema } from './blocks.ts';
 // ---- tolerant JSON extraction ---------------------------------------------
 
 export function extractJson(text: string): unknown {
-  let t = text.trim();
-  // strip ```json ... ``` fences
-  const fence = t.match(/```(?:json)?\s*([\s\S]*?)```/i);
-  if (fence?.[1]) t = fence[1].trim();
+  const full = text.trim();
+  // Prefer the content of a ```json fence, but fall back to the whole text — the
+  // JSON may sit in a later fence, or contain a ``` inside one of its strings.
+  const fence = full.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  if (fence?.[1]) {
+    const found = firstObject(fence[1].trim());
+    if (found !== NOT_FOUND) return found;
+  }
+  const found = firstObject(full);
+  if (found !== NOT_FOUND) return found;
+  throw new Error('no_json_found');
+}
 
+const NOT_FOUND = Symbol('not_found');
+
+function firstObject(t: string): unknown {
   // Try each '{' as a candidate start; return the first that yields a
   // balanced, parseable object. This is robust to prose that contains braces
   // before the real JSON (e.g. "the JSON for {your topic}: {\"speech\":...}").
@@ -29,7 +40,7 @@ export function extractJson(text: string): unknown {
       /* not valid from here — try the next '{' */
     }
   }
-  throw new Error('no_json_found');
+  return NOT_FOUND;
 }
 
 /** Index of the '}' that closes the '{' at `start`, string/escape aware, or -1. */
@@ -65,7 +76,7 @@ export function summarizeZodError(error: z.ZodError): string {
 
 export const TurnSchema = z
   .object({
-    speech: z.string(),
+    speech: z.string().catch(''),
     // `.catch` (not just `.default`) so an out-of-enum value the model invents
     // — e.g. emotion "warm" — falls back instead of crashing the whole turn.
     emotion: z
@@ -76,30 +87,33 @@ export const TurnSchema = z
     // must not fail the whole turn, but it must also not vanish silently.
     block: z.unknown().optional(),
     blocks: z.unknown().optional(), // multi-block turn (explain display + check)
-    assessment: z.string().default(''),
+    assessment: z.string().default('').catch(''),
     answerEval: z.enum(['correct', 'partial', 'incorrect', 'na']).default('na').catch('na'),
     awaitResponse: z.boolean().default(false).catch(false),
     autoAdvance: z.boolean().optional().catch(undefined),
     continueLabel: z.string().optional().catch(undefined),
-    beatComplete: z.boolean().default(false),
+    beatComplete: z.boolean().default(false).catch(false),
     // Models often emit `null` for "no value" on optional fields — treat any
     // invalid optional as absent rather than failing the turn.
     memoryUpdates: z
       .array(
         z.object({
           topic: z.string(),
-          mastery: z.number().min(0).max(1).default(0.5),
+          mastery: z.coerce.number().catch(0.5).transform((m) => (Number.isFinite(m) ? Math.min(1, Math.max(0, m)) : 0.5)),
           note: z.string().optional().catch(undefined),
           strength: z.string().optional().catch(undefined),
           struggle: z.string().optional().catch(undefined),
           misconception: z.string().optional().catch(undefined),
           interest: z.string().optional().catch(undefined)
         })
+        .nullable()
+        .catch(null)
       )
       .default([])
-      .catch([]),
+      .catch([])
+      .transform((items) => items.filter((u): u is NonNullable<typeof u> => u !== null)),
     concern: z.string().optional().catch(undefined),
-    lessonComplete: z.boolean().default(false)
+    lessonComplete: z.boolean().default(false).catch(false)
   })
   .transform((t) => {
     // A turn may carry one block (`block`) or up to two (`blocks` — e.g. a display
@@ -233,12 +247,19 @@ export async function generateStructured<S extends z.ZodTypeAny>(
         messages.push({ role: 'user', content: extra });
       }
     }
+    // Transport errors (auth, rate limit, network, timeout) propagate at once —
+    // re-asking cannot fix them and would only burn the user's quota.
     lastRaw = await brain.generate({ ...opts, json: true, messages });
-    return schema.parse(extractJson(lastRaw));
+    try {
+      return schema.parse(extractJson(lastRaw));
+    } catch (e) {
+      throw Object.assign(e as Error, { unparseable: true });
+    }
   };
   try {
     return await attempt();
-  } catch {
+  } catch (first) {
+    if (!(first as { unparseable?: boolean }).unparseable) throw first;
     try {
       return await attempt(
         'Your previous reply could not be parsed. Reply again with ONLY a single valid JSON object that matches the required shape — no prose, no code fences.'

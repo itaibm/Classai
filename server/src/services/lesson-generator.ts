@@ -233,17 +233,25 @@ export async function generateAndSaveLesson(ref: CatalogLessonRef): Promise<Gene
     console.warn('[generator] assembled lesson failed validation:', parsed.error.issues.slice(0, 3).map((i) => `${i.path.join('.')}: ${i.message}`).join('; '));
   }
 
-  // Fallback — a minimal, valid, playable lesson from the outline.
+  // Fallback — a minimal, valid, playable lesson from the outline. Played from
+  // memory only: saving it would mark the slot "authored" forever, so a single
+  // rate-limited call would permanently replace the real lesson with a stub.
   const disk = fallbackDisk(meta);
   const parsed = DiskLessonSchema.safeParse(disk);
   if (!parsed.success) throw new Error('lesson generation failed and fallback is invalid');
-  try {
-    writeLessonFile(meta, disk);
-  } catch {
-    /* in-memory is fine */
+  return { lesson: diskToLessonFull(parsed.data), fallback: true };
+}
+
+/** One generation per catalog id at a time — a double tap must not run four
+ *  expensive LLM calls and race two writes to the same file. */
+const inFlight = new Map<string, Promise<GeneratedLesson>>();
+export function generateAndSaveLessonOnce(ref: CatalogLessonRef): Promise<GeneratedLesson> {
+  let pending = inFlight.get(ref.id);
+  if (!pending) {
+    pending = generateAndSaveLesson(ref).finally(() => inFlight.delete(ref.id));
+    inFlight.set(ref.id, pending);
   }
-  const fromDisk = getCurriculumLesson(meta.id);
-  return { lesson: fromDisk ?? diskToLessonFull(parsed.data), fallback: true };
+  return pending;
 }
 
 /** Schema handle re-export so tests can assert shapes without deep imports. */

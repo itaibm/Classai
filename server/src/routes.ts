@@ -16,7 +16,7 @@ import { WEEKDAYS, isLessonFull } from '../../shared/types.ts';
 import type { AssignedSubject, CatalogLesson } from '../../shared/types.ts';
 import { curriculumTree, getCurriculumLesson } from './services/curriculum.ts';
 import { buildCatalog, getCatalogLessonRef } from './services/curriculum-catalog.ts';
-import { generateAndSaveLesson } from './services/lesson-generator.ts';
+import { generateAndSaveLessonOnce } from './services/lesson-generator.ts';
 import { assignCurriculum, parseCurriculumClassId } from './services/curriculum-enroll.ts';
 import * as db from './db/index.ts';
 import { authStore, profileId } from './ai/auth-store.ts';
@@ -51,7 +51,7 @@ import {
   courseProgress,
   recommendNext
 } from './memory/index.ts';
-import { PARENT_PIN_ENV } from './config.ts';
+import { checkPin, hasParentToken, issueToken, pinIsSet, registerParentGuard, storePin, validPin } from './parent-auth.ts';
 
 const now = () => new Date().toISOString();
 
@@ -103,6 +103,8 @@ function writeSchedule(kidId: string, incoming: WeeklySchedule): WeeklySchedule 
 const pendingOAuth = new Map<string, { verifier: string }>();
 
 export async function registerRoutes(app: FastifyInstance): Promise<void> {
+  registerParentGuard(app);
+
   // Translate known errors into clean responses.
   app.setErrorHandler((err: any, _req, reply) => {
     const status = err instanceof NoBrainError ? 400 : err.statusCode || 500;
@@ -135,6 +137,8 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       b.label ||
       (b.vendor === 'anthropic' ? 'Claude' : b.vendor === 'openai' ? 'OpenAI' : 'Local model') +
         (b.method === 'local_login' ? ' (local login)' : b.method === 'api_key' ? ' (API key)' : '');
+    const previous = authStore.getStored(id);
+    const previousDefaultId = authStore.getDefaultId();
     const profile = authStore.upsert(
       {
         id,
@@ -146,10 +150,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
         createdAt: now(),
         apiKey: b.apiKey
       },
-      true
+      false
     );
-    // Verify the connection actually works before claiming success, so we never
-    // report "connected" for a method whose credentials can't be resolved.
+    // Verify the connection actually works before it becomes the default brain.
+    // A failed attempt is rolled back, so a typo never breaks a working setup.
     try {
       const brain = await getBrain(id);
       await brain.generate({
@@ -158,8 +162,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
         maxTokens: 16,
         label: 'Connection check'
       });
+      authStore.setDefault(id);
       return { profile, verified: true };
     } catch (e: any) {
+      authStore.restore(id, previous, previousDefaultId);
       return { profile, verified: false, error: e?.message || 'Could not reach this brain.' };
     }
   });
@@ -242,21 +248,28 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
 
   // ---- parent gate ---------------------------------------------------------
 
-  app.get('/api/parent/status', async () => ({
-    pinSet: Boolean(PARENT_PIN_ENV || db.settings.get('parent_pin'))
-  }));
+  app.get('/api/parent/status', async () => ({ pinSet: pinIsSet() }));
 
-  app.post('/api/parent/set-pin', async (req) => {
-    const { pin } = req.body as { pin: string };
-    db.settings.set('parent_pin', String(pin));
-    return { ok: true };
+  // First run: anyone may set the PIN. Once set, changing it needs the current
+  // PIN or an active parent session.
+  app.post('/api/parent/set-pin', async (req, reply) => {
+    const { pin, currentPin } = (req.body || {}) as { pin?: unknown; currentPin?: unknown };
+    if (!validPin(pin)) return reply.status(400).send({ error: 'PIN must be 4–8 digits' });
+    if (pinIsSet() && !hasParentToken(req)) {
+      const check = checkPin(currentPin);
+      if (check !== 'ok') return reply.status(check === 'locked' ? 429 : 403).send({ error: check === 'locked' ? 'too many attempts — wait a bit' : 'incorrect PIN' });
+    }
+    storePin(pin);
+    return { ok: true, token: issueToken() };
   });
 
   app.post('/api/parent/verify', async (req, reply) => {
-    const { pin } = req.body as { pin: string };
-    const real = PARENT_PIN_ENV || db.settings.get('parent_pin');
-    if (!real || String(pin) === String(real)) return { ok: true };
-    return reply.status(403).send({ ok: false, error: 'incorrect PIN' });
+    const { pin } = (req.body || {}) as { pin?: unknown };
+    if (!pinIsSet()) return reply.status(409).send({ error: 'no PIN set yet' });
+    const check = checkPin(pin);
+    if (check === 'locked') return reply.status(429).send({ ok: false, error: 'too many attempts — wait a bit' });
+    if (check === 'bad') return reply.status(403).send({ ok: false, error: 'incorrect PIN' });
+    return { ok: true, token: issueToken() };
   });
 
   // ---- prompt inspector (parent transparency) ------------------------------
@@ -336,7 +349,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     let lesson = ref.authored;
     if (!lesson) {
       // Outline-only → build it now (needs a connected brain; NoBrainError → 400).
-      lesson = (await generateAndSaveLesson(ref)).lesson;
+      lesson = (await generateAndSaveLessonOnce(ref)).lesson;
     }
     lesson.classId = cls.id;
     lesson.id = ref.id;

@@ -103,8 +103,9 @@ CREATE TABLE IF NOT EXISTS sessions (
   lessonSnapshot TEXT NOT NULL, subject TEXT NOT NULL, topic TEXT NOT NULL,
   status TEXT NOT NULL, startedAt TEXT NOT NULL, endedAt TEXT,
   transcript TEXT NOT NULL, working TEXT NOT NULL, report TEXT,
-  FOREIGN KEY(kidId) REFERENCES kids(id) ON DELETE CASCADE,
-  FOREIGN KEY(classId) REFERENCES classes(id) ON DELETE CASCADE
+  -- No FK to classes: deleting or re-creating a class must never erase a child's
+  -- lesson history (transcripts + parent reports).
+  FOREIGN KEY(kidId) REFERENCES kids(id) ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS ai_suggestions (
   id TEXT PRIMARY KEY, classId TEXT NOT NULL, lessonId TEXT,
@@ -122,8 +123,55 @@ CREATE TABLE IF NOT EXISTS curriculum_attachments (
   FOREIGN KEY(classId) REFERENCES classes(id) ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL);
-PRAGMA user_version = 2;
 `);
+
+// ---- additive migrations (never drop user data) ------------------------------
+// Each step runs once, in order, inside a transaction.
+const MIGRATIONS: Array<() => void> = [
+  // v2 → v3: sessions lose their ON DELETE CASCADE link to classes; add indexes.
+  () => {
+    const fks = db.prepare('PRAGMA foreign_key_list(sessions)').all() as Array<{ table: string }>;
+    if (fks.some((fk) => fk.table === 'classes')) {
+      db.exec(`
+        CREATE TABLE sessions_v3 (
+          id TEXT PRIMARY KEY, kidId TEXT NOT NULL, classId TEXT NOT NULL, lessonId TEXT NOT NULL,
+          lessonSnapshot TEXT NOT NULL, subject TEXT NOT NULL, topic TEXT NOT NULL,
+          status TEXT NOT NULL, startedAt TEXT NOT NULL, endedAt TEXT,
+          transcript TEXT NOT NULL, working TEXT NOT NULL, report TEXT,
+          FOREIGN KEY(kidId) REFERENCES kids(id) ON DELETE CASCADE
+        );
+        INSERT INTO sessions_v3 SELECT id, kidId, classId, lessonId, lessonSnapshot, subject, topic,
+          status, startedAt, endedAt, transcript, working, report FROM sessions;
+        DROP TABLE sessions;
+        ALTER TABLE sessions_v3 RENAME TO sessions;
+      `);
+    }
+    db.exec(`
+      CREATE INDEX IF NOT EXISTS idx_sessions_kid ON sessions(kidId, startedAt);
+      CREATE INDEX IF NOT EXISTS idx_episodes_kid ON episodes(kidId, createdAt);
+      CREATE INDEX IF NOT EXISTS idx_blueprints_class ON lesson_blueprints(classId);
+    `);
+  }
+];
+{
+  const FIRST = 3; // MIGRATIONS[0] produces schema version 3
+  const current = Math.max(2, (db.prepare('PRAGMA user_version').get() as { user_version: number }).user_version);
+  for (let v = current + 1; v < FIRST + MIGRATIONS.length; v++) {
+    // Table rebuilds need FK enforcement off (it can't change inside a transaction).
+    db.exec('PRAGMA foreign_keys = OFF;');
+    db.exec('BEGIN');
+    try {
+      MIGRATIONS[v - FIRST]!();
+      db.exec(`PRAGMA user_version = ${v}`);
+      db.exec('COMMIT');
+    } catch (e) {
+      db.exec('ROLLBACK');
+      throw e;
+    } finally {
+      db.exec('PRAGMA foreign_keys = ON;');
+    }
+  }
+}
 
 const J = (v: unknown) => JSON.stringify(v ?? null);
 const P = <T,>(v: unknown, fallback: T): T => {

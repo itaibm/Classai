@@ -173,11 +173,11 @@ function ImageView({ block }: { block: ImageBlock }) {
 /** Turn a YouTube/Vimeo/url into an embeddable src; null if unrecognized. */
 function embedSrc(url: string): string | null {
   const yt = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]{11})/);
-  if (yt) return `https://www.youtube.com/embed/${yt[1]}`;
+  if (yt) return `https://www.youtube-nocookie.com/embed/${yt[1]}?rel=0`;
   const vm = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
   if (vm) return `https://player.vimeo.com/video/${vm[1]}`;
   if (/^https:\/\/(www\.youtube\.com\/embed\/|player\.vimeo\.com\/)/.test(url)) return url;
-  if (/^[\w-]{11}$/.test(url)) return `https://www.youtube.com/embed/${url}`; // bare YouTube id
+  if (/^[\w-]{11}$/.test(url)) return `https://www.youtube-nocookie.com/embed/${url}?rel=0`; // bare YouTube id
   return null;
 }
 
@@ -401,6 +401,17 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
   // Tell the Classroom top bar whether we're actively listening.
   useEffect(() => { onMicState?.(status === 'recording'); }, [status, onMicState]);
   useEffect(() => () => onMicState?.(false), [onMicState]); // clear on unmount (turn change)
+  // Release the microphone when this input goes away (turn change, Skip, Leave
+  // class). Without this the stream + recorder stayed live — recording light on.
+  const mountedRef = useRef(true);
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => {
+      mountedRef.current = false;
+      recRef.current?.cancel();
+      recRef.current = null;
+    };
+  }, []);
   // Open the mic automatically ONLY for a deliberate speaking task (autoMic).
   // Otherwise the mic stays off until the kid taps it — never "default on" after
   // an explanation turn. Once per turn: if they stop it, we don't re-grab.
@@ -435,7 +446,9 @@ export function AnswerInput({ active, micEnabled, onMicState, onSubmit, placehol
     if (!active) return;
     setError(''); setText('');
     try {
-      recRef.current = await startRecording({ onLevel: setLevel });
+      const rec = await startRecording({ onLevel: setLevel });
+      if (!mountedRef.current) return rec.cancel(); // unmounted while the mic was opening
+      recRef.current = rec;
       setStatus('recording');
     } catch (e: any) {
       const denied = /denied|not ?allowed|permission/i.test(e?.message || '');

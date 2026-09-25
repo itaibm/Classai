@@ -69,6 +69,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   }
   const kidRef = useRef<Kid | null>(null);
   const mutedRef = useRef(muted);
+  const turnInFlightRef = useRef(false);
+  const lastResponseRef = useRef<Parameters<typeof fetchTurn>[0]>(undefined);
   const hdRef = useRef(hd);
   mutedRef.current = muted;
   hdRef.current = hd;
@@ -129,6 +131,10 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   }
 
   async function fetchTurn(response?: { text: string; via: 'block' | 'continue'; correct?: boolean; confused?: boolean }) {
+    // One request at a time: an auto-advance timer racing a tap must not send two.
+    if (turnInFlightRef.current) return;
+    turnInFlightRef.current = true;
+    lastResponseRef.current = response; // so "Try again" resends the kid's answer
     setPhase('thinking');
     setEmotion('thinking');
     setCaptions('');
@@ -144,7 +150,10 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
       present(turn, ended);
     } catch (e: any) {
       setErrMsg(e.message || 'The tutor had trouble responding.');
+      setEmotion('gentle');
       setPhase('error');
+    } finally {
+      turnInFlightRef.current = false;
     }
   }
 
@@ -198,9 +207,11 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     // onend (long text, tab blur, no loaded voice). Without this, the lesson is
     // stranded in 'speaking' forever and the learner never gets a way to answer.
     // Cap generously above expected speech length so it only fires on real hangs.
+    // Scale by the kid's speech rate: at a slower voice the real speech runs longer.
+    const rate = Math.max(0.5, kidRef.current?.avatar.rate ?? 1);
     const cap = mutedRef.current
-      ? Math.min(6000, 900 + turn.speech.length * 35)
-      : Math.min(60000, 5000 + turn.speech.length * 90);
+      ? Math.min(6000, 900 + turn.speech.length * 35) // muted: just finish the text reveal
+      : Math.min(90000, (5000 + turn.speech.length * 90) / rate);
     watchdogRef.current = window.setTimeout(afterSpeech, cap);
 
     if (mutedRef.current) return; // muted: the watchdog alone advances the turn
@@ -220,11 +231,15 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setPhase('ended');
     setEmotion('celebrating');
     setBlocks([]);
-    try {
-      const { session } = await api.session(sessionRef.current);
-      setReport(session.report || null);
-    } catch {
-      /* report optional */
+    // The server writes the report in the background after the lesson ends; poll briefly.
+    for (let i = 0; i < 20; i++) {
+      try {
+        const { session } = await api.session(sessionRef.current);
+        if (session.report) return setReport(session.report);
+      } catch {
+        /* report optional */
+      }
+      await new Promise((r) => setTimeout(r, 3000));
     }
   }
 
@@ -259,12 +274,13 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   // when the tutor opted in (autoAdvance). After a key idea the tutor sets
   // autoAdvance=false so the kid actively confirms ("I got it!") before moving on.
   useEffect(() => {
-    if (!awaitingNoBlock || expectsAnswer || !autoAdvance) return;
+    // Muted means the child is reading, and early readers need their own pace — never auto-advance then.
+    if (!awaitingNoBlock || expectsAnswer || !autoAdvance || muted) return;
     const ms = Math.min(9000, Math.max(4000, 2500 + captions.length * 25));
     const t = window.setTimeout(() => onContinue(), ms);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [awaitingNoBlock, expectsAnswer, autoAdvance, turnSeq]);
+  }, [awaitingNoBlock, expectsAnswer, autoAdvance, muted, turnSeq]);
 
   return (
     <div className="app classroom" style={{ ['--accent-h' as any]: hue, ...subjectStyle(subjectKey) }}>
@@ -307,7 +323,13 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
           {(phase === 'starting' || phase === 'thinking') && (
             <div className="captions thinking">{phase === 'starting' ? startMsg : 'thinking…'}</div>
           )}
-          {phase === 'error' && <div className="captions"><span className="muted">{errMsg}</span></div>}
+          {phase === 'error' && (
+            <div className="captions">
+              <span>Hmm, I got a little muddled there. Let’s try that again!</span>
+              {/* technical detail for the grown-up, kept out of the child's way */}
+              <details className="muted small"><summary>For grown-ups</summary>{errMsg}</details>
+            </div>
+          )}
           {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions && (
             <div className="speech-bubble">
               {kid && <span className="speech-name">{kid.avatar.character.charAt(0).toUpperCase() + kid.avatar.character.slice(1)}</span>}
@@ -433,7 +455,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
                   </button>
                   <button className="btn ghost" onClick={onConfused}>🤔 I don’t get it</button>
                 </div>
-                {autoAdvance && <span className="muted small">continuing automatically…</span>}
+                {autoAdvance && !muted && <span className="muted small">continuing automatically…</span>}
               </div>
             )}
           </div>
@@ -441,7 +463,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
 
         {phase === 'error' && (
           <div className="row center" style={{ gap: 10 }}>
-            <button className="btn" onClick={() => (sessionRef.current ? fetchTurn() : begin())}>Try again</button>
+            <button className="btn lg" onClick={() => (sessionRef.current ? fetchTurn(lastResponseRef.current) : begin())}>🔁 Try again</button>
             <button className="btn ghost" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Leave</button>
           </div>
         )}

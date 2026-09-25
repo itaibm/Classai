@@ -57,7 +57,7 @@ export function ConnectBrain() {
         apiKey: apiKey || undefined,
         baseUrl: vendor === 'local' ? baseUrl : undefined
       });
-      show(res.verified === false ? `Saved, but couldn't verify: ${res.error}` : 'Brain connected ✓');
+      show(res.verified === false ? `Couldn't connect — nothing was changed: ${res.error}` : 'Brain connected ✓');
       reload();
     } catch (e: any) {
       show(e.message || 'Could not connect');

@@ -9,6 +9,8 @@ import { z } from 'zod';
 // treat any invalid optional as absent rather than failing the whole block.
 // Mirrors the same hardening on TurnSchema's optional fields (see schemas.ts).
 const opt = <T extends z.ZodTypeAny>(schema: T) => schema.optional().catch(undefined);
+// Images a child sees must be https (no http/javascript:/file: tricks).
+const httpsUrl = z.string().regex(/^https:\/\//i, 'must be an https URL');
 
 const richText = z.object({ type: z.literal('richText'), markdown: z.string() });
 const steps = z.object({ type: z.literal('steps'), title: opt(z.string()), steps: z.array(z.string()).min(1) });
@@ -28,13 +30,13 @@ const table = z.object({
   caption: opt(z.string())
 });
 const emojiViz = z.object({ type: z.literal('emojiViz'), emojis: z.string(), caption: opt(z.string()) });
-const image = z.object({ type: z.literal('image'), src: z.string(), alt: opt(z.string()), caption: opt(z.string()) });
+const image = z.object({ type: z.literal('image'), src: httpsUrl, alt: opt(z.string()), caption: opt(z.string()) });
 const video = z.object({ type: z.literal('video'), url: opt(z.string()), query: opt(z.string()), title: opt(z.string()), caption: opt(z.string()) });
 const slideshow = z.object({
   type: z.literal('slideshow'),
   title: opt(z.string()),
   slides: z.array(z.object({
-    title: opt(z.string()), body: opt(z.string()), emoji: opt(z.string()), imageUrl: opt(z.string())
+    title: opt(z.string()), body: opt(z.string()), emoji: opt(z.string()), imageUrl: opt(httpsUrl)
   })).min(1)
 });
 const flashcards = z.object({
@@ -66,7 +68,7 @@ const customNode: z.ZodType<any> = z.lazy(() =>
     z.object({ t: z.enum(['col', 'row', 'card', 'grid']), children: z.array(customNode), cols: opt(z.number().int().min(1).max(6)), anim: opt(anim) }),
     z.object({ t: z.literal('text'), value: z.string(), size: opt(z.enum(['sm', 'md', 'lg', 'xl'])), bold: opt(z.boolean()), color: opt(color), align: opt(z.enum(['left', 'center'])), anim: opt(anim) }),
     z.object({ t: z.literal('emoji'), value: z.string(), size: opt(z.enum(['md', 'lg', 'xl'])), anim: opt(anim) }),
-    z.object({ t: z.literal('image'), src: z.string(), alt: opt(z.string()), anim: opt(anim) }),
+    z.object({ t: z.literal('image'), src: httpsUrl, alt: opt(z.string()), anim: opt(anim) }),
     z.object({ t: z.literal('badge'), value: z.string(), color: opt(color) }),
     z.object({ t: z.literal('divider') }),
     z.object({ t: z.literal('spacer') }),
@@ -78,6 +80,9 @@ const customNode: z.ZodType<any> = z.lazy(() =>
 );
 const custom = z.object({ type: z.literal('custom'), title: opt(z.string()), root: customNode, interactive: opt(z.boolean()) });
 
+// Answer keys must point at real options — otherwise the learner can never be
+// right and their struggle streak climbs for nothing. A bad block is dropped
+// (and the model told why) rather than shown.
 const multipleChoice = z.object({
   type: z.literal('multipleChoice'),
   prompt: z.string(),
@@ -89,7 +94,7 @@ const multiSelect = z.object({
   type: z.literal('multiSelect'),
   prompt: z.string(),
   options: z.array(z.string()).min(2),
-  correct: z.array(z.number().int().min(0)),
+  correct: z.array(z.number().int().min(0)).min(1),
   explain: opt(z.string())
 });
 const trueFalse = z.object({ type: z.literal('trueFalse'), statement: z.string(), correct: z.boolean(), explain: opt(z.string()) });
@@ -121,6 +126,11 @@ export const BlockSchema = z.discriminatedUnion('type', [
   image, video, slideshow, flashcards, whiteboard, custom,
   multipleChoice, multiSelect, trueFalse, fillBlank, matchPairs,
   ordering, categorize, numberEntry, shortText, speak
-]);
+]).superRefine((b, ctx) => {
+  const bad = (message: string) => ctx.addIssue({ code: z.ZodIssueCode.custom, message, path: ['correct'] });
+  if (b.type === 'multipleChoice' && b.correct >= b.options.length) bad('correct must index one of options');
+  if (b.type === 'multiSelect' && (!b.correct.length || b.correct.some((i) => i >= b.options.length))) bad('correct must index options');
+  if (b.type === 'categorize' && b.items.some((i) => !b.buckets.includes(i.bucket))) bad('every item bucket must be one of buckets');
+});
 
 export type BlockSchemaType = z.infer<typeof BlockSchema>;

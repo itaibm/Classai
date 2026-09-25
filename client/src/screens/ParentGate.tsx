@@ -1,12 +1,18 @@
 import { useState, type ReactNode } from 'react';
-import { api } from '../lib/api.ts';
+import { api, PARENT_TOKEN_KEY } from '../lib/api.ts';
 import { TopBar, Loading, useAsync } from '../lib/ui.tsx';
 
-const OK_KEY = 'classai_parent_ok';
+const hasToken = (): boolean => {
+  try {
+    return !!sessionStorage.getItem(PARENT_TOKEN_KEY);
+  } catch {
+    return false;
+  }
+};
 
 /** Wraps the parent area behind a simple PIN (set on first use). */
 export function ParentGate({ children }: { children: ReactNode }) {
-  const [ok, setOk] = useState(sessionStorage.getItem(OK_KEY) === '1');
+  const [ok, setOk] = useState(hasToken);
   const { data, loading } = useAsync(() => api.parentStatus());
   const [pin, setPin] = useState('');
   const [pin2, setPin2] = useState('');
@@ -26,14 +32,19 @@ export function ParentGate({ children }: { children: ReactNode }) {
     e.preventDefault();
     setErr('');
     try {
+      let token: string;
       if (!data!.pinSet) {
-        if (pin.length < 4) return setErr('Use at least 4 digits.');
+        if (!/^\d{4,8}$/.test(pin)) return setErr('Use 4–8 digits.');
         if (pin !== pin2) return setErr('PINs do not match.');
-        await api.parentSetPin(pin);
+        ({ token } = await api.parentSetPin(pin));
       } else {
-        await api.parentVerify(pin);
+        ({ token } = await api.parentVerify(pin));
       }
-      sessionStorage.setItem(OK_KEY, '1');
+      try {
+        sessionStorage.setItem(PARENT_TOKEN_KEY, token);
+      } catch {
+        /* storage unavailable: gate re-prompts next navigation */
+      }
       setOk(true);
     } catch (e: any) {
       setErr(e.message || 'Incorrect PIN');

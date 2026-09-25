@@ -32,20 +32,27 @@ interface Store {
 }
 
 function read(): Store {
+  let text: string;
   try {
-    return JSON.parse(fs.readFileSync(AUTH_PROFILES_PATH, 'utf8')) as Store;
+    text = fs.readFileSync(AUTH_PROFILES_PATH, 'utf8');
   } catch {
-    return { profiles: {} };
+    return { profiles: {} }; // no file yet
   }
+  // A corrupt file must NOT read as empty: the next write would then silently
+  // wipe every saved credential. Fail loudly instead.
+  return JSON.parse(text) as Store;
 }
 
 function write(store: Store): void {
-  fs.writeFileSync(AUTH_PROFILES_PATH, JSON.stringify(store, null, 2), { mode: 0o600 });
+  // Write-then-rename so a crash mid-write can't leave a truncated file.
+  const tmp = `${AUTH_PROFILES_PATH}.${process.pid}.tmp`;
+  fs.writeFileSync(tmp, JSON.stringify(store, null, 2), { mode: 0o600 });
   try {
-    fs.chmodSync(AUTH_PROFILES_PATH, 0o600);
+    fs.chmodSync(tmp, 0o600);
   } catch {
     /* best effort on platforms without chmod */
   }
+  fs.renameSync(tmp, AUTH_PROFILES_PATH);
 }
 
 export const authStore = {
@@ -84,6 +91,16 @@ export const authStore = {
     const p = store.profiles[id];
     if (!p) return;
     p.oauth = oauth;
+    write(store);
+  },
+
+  /** Put a profile (and the default) back exactly as they were — used to undo a
+   *  connect attempt that failed verification. `previous` undefined = remove. */
+  restore(id: string, previous: StoredProfile | undefined, previousDefaultId: string | undefined): void {
+    const store = read();
+    if (previous) store.profiles[id] = previous;
+    else delete store.profiles[id];
+    store.defaultId = previousDefaultId && store.profiles[previousDefaultId] ? previousDefaultId : Object.keys(store.profiles)[0];
     write(store);
   },
 
