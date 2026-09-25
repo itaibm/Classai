@@ -18,7 +18,9 @@ import { Whiteboard } from './Whiteboard.tsx';
 
 type Done = (r: BlockResult) => void;
 
-export function BlockView({ block, active, onComplete, micEnabled, onMicState }: { block: LessonBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void }) {
+/** `reveal` false = the tutor will re-ask after a miss, so a wrong answer is
+ *  marked wrong but the right one is NOT shown (or the retry means nothing). */
+export function BlockView({ block, active, onComplete, micEnabled, onMicState, reveal = true }: { block: LessonBlock; active: boolean; onComplete: Done; micEnabled?: boolean; onMicState?: (listening: boolean) => void; reveal?: boolean }) {
   switch (block.type) {
     case 'richText': return <RichText block={block} />;
     case 'steps': return <Steps block={block} />;
@@ -32,11 +34,11 @@ export function BlockView({ block, active, onComplete, micEnabled, onMicState }:
     case 'flashcards': return <Flashcards block={block} />;
     case 'whiteboard': return <Whiteboard block={block} />;
     case 'custom': return <CustomBlock block={block} active={active} onComplete={onComplete} />;
-    case 'multipleChoice': return <Choice prompt={block.prompt} options={block.options} correct={[block.correct]} explain={block.explain} active={active} onComplete={onComplete} />;
-    case 'trueFalse': return <Choice prompt={block.statement} options={['True', 'False']} correct={[block.correct ? 0 : 1]} explain={block.explain} active={active} onComplete={onComplete} />;
-    case 'multiSelect': return <MultiSelect block={block} active={active} onComplete={onComplete} />;
-    case 'fillBlank': return <FillBlank block={block} active={active} onComplete={onComplete} />;
-    case 'numberEntry': return <NumberEntry block={block} active={active} onComplete={onComplete} />;
+    case 'multipleChoice': return <Choice prompt={block.prompt} options={block.options} correct={[block.correct]} explain={block.explain} active={active} onComplete={onComplete} reveal={reveal} />;
+    case 'trueFalse': return <Choice prompt={block.statement} options={['True', 'False']} correct={[block.correct ? 0 : 1]} explain={block.explain} active={active} onComplete={onComplete} reveal={reveal} />;
+    case 'multiSelect': return <MultiSelect block={block} active={active} onComplete={onComplete} reveal={reveal} />;
+    case 'fillBlank': return <FillBlank block={block} active={active} onComplete={onComplete} reveal={reveal} />;
+    case 'numberEntry': return <NumberEntry block={block} active={active} onComplete={onComplete} reveal={reveal} />;
     case 'shortText': return <ShortText block={block} active={active} onComplete={onComplete} />;
     case 'speak': return <Speak block={block} active={active} onComplete={onComplete} micEnabled={micEnabled} onMicState={onMicState} />;
     case 'matchPairs': return <MatchPairs block={block} active={active} onComplete={onComplete} />;
@@ -245,8 +247,8 @@ function Flashcards({ block }: { block: FlashcardsBlock }) {
 
 // ============================ INTERACTIVE BLOCKS ===========================
 
-function Choice({ prompt, options, correct, explain, active, onComplete }:
-  { prompt: string; options: string[]; correct: number[]; explain?: string; active: boolean; onComplete: Done }) {
+function Choice({ prompt, options, correct, explain, active, onComplete, reveal = true }:
+  { prompt: string; options: string[]; correct: number[]; explain?: string; active: boolean; onComplete: Done; reveal?: boolean }) {
   const [picked, setPicked] = useState<number | null>(null);
   const { complete } = useTurnComplete(onComplete);
   const correctIdx = correct[0]!;
@@ -254,8 +256,9 @@ function Choice({ prompt, options, correct, explain, active, onComplete }:
     if (!active || picked !== null) return;
     setPicked(i);
     const ok = i === correctIdx;
-    complete({ text: `Chose “${options[i]}”${ok ? ' (correct)' : ` (incorrect — correct: “${options[correctIdx]}”)`}`, correct: ok }, ok ? 950 : 1600);
+    complete({ text: `Chose “${options[i]}”${ok ? ' (correct)' : reveal ? ` (incorrect — correct: “${options[correctIdx]}”)` : ' (incorrect)'}`, correct: ok }, ok ? 950 : 1600);
   }
+  const showAnswer = picked !== null && (reveal || picked === correctIdx);
   return (
     <div className="interaction">
       <p className="block-prompt">{prompt}</p>
@@ -263,19 +266,21 @@ function Choice({ prompt, options, correct, explain, active, onComplete }:
         {options.map((o, i) => {
           let cls = 'choice';
           if (picked !== null) {
-            if (i === correctIdx) cls += ' reveal-correct';
+            if (i === correctIdx && showAnswer) cls += ' reveal-correct';
             else if (i === picked) cls += ' reveal-wrong';
             else cls += ' dim';
           }
           return <button key={i} className={cls} disabled={!active || picked !== null} onClick={() => pick(i)}>{o}</button>;
         })}
       </div>
-      {picked !== null && explain && <p className="explain">{explain}</p>}
+      {showAnswer && explain && <p className="explain">{explain}</p>}
+      {picked !== null && !showAnswer && <p className="explain">Not quite — let’s look at it together.</p>}
     </div>
   );
 }
 
-function MultiSelect({ block, active, onComplete }: { block: MultiSelectBlock; active: boolean; onComplete: Done }) {
+function MultiSelect({ block, active, onComplete, reveal = true }: { block: MultiSelectBlock; active: boolean; onComplete: Done; reveal?: boolean }) {
+  const [right, setRight] = useState(false);
   const [sel, setSel] = useState<Set<number>>(new Set());
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
@@ -284,6 +289,7 @@ function MultiSelect({ block, active, onComplete }: { block: MultiSelectBlock; a
   function check() {
     setChecked(true);
     const ok = sel.size === correct.size && [...sel].every((i) => correct.has(i));
+    setRight(ok);
     complete({ text: `Selected ${[...sel].map((i) => `“${block.options[i]}”`).join(', ') || 'nothing'} ${ok ? '(correct)' : '(not quite)'}`, correct: ok }, 1500);
   }
   return (
@@ -293,17 +299,18 @@ function MultiSelect({ block, active, onComplete }: { block: MultiSelectBlock; a
         {block.options.map((o, i) => {
           let cls = 'choice ms';
           if (sel.has(i)) cls += ' sel';
-          if (checked) { if (correct.has(i)) cls += ' reveal-correct'; else if (sel.has(i)) cls += ' reveal-wrong'; }
+          if (checked && (reveal || right)) { if (correct.has(i)) cls += ' reveal-correct'; else if (sel.has(i)) cls += ' reveal-wrong'; }
           return <button key={i} className={cls} disabled={!active || checked} onClick={() => toggle(i)}>{sel.has(i) ? '☑ ' : '☐ '}{o}</button>;
         })}
       </div>
       {!checked && <div className="row center" style={{ marginTop: 12 }}><button className="btn" disabled={!active} onClick={check}>Check</button></div>}
-      {checked && block.explain && <p className="explain">{block.explain}</p>}
+      {checked && (reveal || right) && block.explain && <p className="explain">{block.explain}</p>}
+      {checked && !reveal && !right && <p className="explain">Not quite — let’s look at it together.</p>}
     </div>
   );
 }
 
-function FillBlank({ block, active, onComplete }: { block: FillBlankBlock; active: boolean; onComplete: Done }) {
+function FillBlank({ block, active, onComplete, reveal = true }: { block: FillBlankBlock; active: boolean; onComplete: Done; reveal?: boolean }) {
   const [val, setVal] = useState('');
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
@@ -313,14 +320,14 @@ function FillBlank({ block, active, onComplete }: { block: FillBlankBlock; activ
     setVal(v);
     setChecked(true);
     const ok = v.trim().toLowerCase() === block.answer.trim().toLowerCase();
-    complete({ text: `Filled “${v}”${ok ? ' (correct)' : ` (incorrect — answer: “${block.answer}”)`}`, correct: ok }, ok ? 950 : 1500);
+    complete({ text: `Filled “${v}”${ok ? ' (correct)' : reveal ? ` (incorrect — answer: “${block.answer}”)` : ' (incorrect)'}`, correct: ok }, ok ? 950 : 1500);
   }
   const ok = checked && val.trim().toLowerCase() === block.answer.trim().toLowerCase();
   return (
     <div className="interaction">
       <p className="block-prompt fill-text">
         {parts[0]}
-        <span className={`blank ${checked ? (ok ? 'reveal-correct' : 'reveal-wrong') : ''}`}>{checked ? (ok ? val : block.answer) : (val || '_____')}</span>
+        <span className={`blank ${checked ? (ok ? 'reveal-correct' : 'reveal-wrong') : ''}`}>{checked ? (ok || !reveal ? val : block.answer) : (val || '_____')}</span>
         {parts.slice(1).join(' ')}
       </p>
       {!checked && block.wordBank && (
@@ -338,7 +345,7 @@ function FillBlank({ block, active, onComplete }: { block: FillBlankBlock; activ
   );
 }
 
-function NumberEntry({ block, active, onComplete }: { block: NumberEntryBlock; active: boolean; onComplete: Done }) {
+function NumberEntry({ block, active, onComplete, reveal = true }: { block: NumberEntryBlock; active: boolean; onComplete: Done; reveal?: boolean }) {
   const [val, setVal] = useState('');
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
@@ -348,7 +355,7 @@ function NumberEntry({ block, active, onComplete }: { block: NumberEntryBlock; a
     if (!active || checked || val.trim() === '') return;
     setChecked(true);
     const good = Math.abs(parseFloat(val) - block.answer) <= tol + 1e-9;
-    complete({ text: `Answered ${val}${block.unit ? ' ' + block.unit : ''}${good ? ' (correct)' : ` (incorrect — answer: ${block.answer}${block.unit ? ' ' + block.unit : ''})`}`, correct: good }, good ? 950 : 1500);
+    complete({ text: `Answered ${val}${block.unit ? ' ' + block.unit : ''}${good ? ' (correct)' : reveal ? ` (incorrect — answer: ${block.answer}${block.unit ? ' ' + block.unit : ''})` : ' (incorrect)'}`, correct: good }, good ? 950 : 1500);
   }
   return (
     <div className="interaction">

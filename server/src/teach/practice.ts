@@ -104,6 +104,7 @@ export function recordAnswer(state: PracticeState, item: PracticeItem, correct: 
   state.currentItemId = undefined;
 
   if (correct) {
+    if (!state.attemptsByItem[item.id]) state.firstTryCorrect = (state.firstTryCorrect ?? 0) + 1;
     state.correctCount += 1;
     state.consecutiveCorrect += 1;
     state.earnedSuccess = true;
@@ -164,7 +165,8 @@ export function easyRecoveryItem(bank: PracticeItem[], state: PracticeState): Pr
 /** A 0..1 mastery estimate from the level reached and answer accuracy. Fed
  *  through the existing memory path so spaced review + recommendations benefit. */
 export function masteryEstimate(state: PracticeState): number {
-  const accuracy = state.askedCount ? state.correctCount / state.askedCount : 0;
+  // First-try accuracy: a correct answer after a hint shows progress, not mastery.
+  const accuracy = state.askedCount ? (state.firstTryCorrect ?? state.correctCount) / state.askedCount : 0;
   const levelBase = state.currentLevel === 3 ? 0.85 : state.currentLevel === 2 ? 0.65 : 0.45;
   let m = levelBase * 0.6 + accuracy * 0.4;
   if (state.earnedSuccess && state.correctCount >= 3) m = Math.max(m, 0.8); // masterySignal shape

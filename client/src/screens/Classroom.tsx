@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Kid, Lesson, TeacherTurn, Emotion, LessonReport, LessonBlock, BlockResult, HandoffCard } from '@shared/types';
+import type { Kid, Lesson, TeacherTurn, Emotion, LessonStats, LessonBlock, BlockResult, HandoffCard } from '@shared/types';
 import { blockIsInteractive } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
@@ -29,7 +29,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   const [autoAdvance, setAutoAdvance] = useState(true); // explanation turn flows on automatically
   const [continueLabel, setContinueLabel] = useState(''); // AI-chosen advance button text
   const [errMsg, setErrMsg] = useState('');
-  const [report, setReport] = useState<LessonReport | null>(null);
+  const [stats, setStats] = useState<LessonStats | null>(null); // streak now; stars at the end
+  const [reveal, setReveal] = useState(true); // false: a miss is marked wrong without showing the answer
   const [subjectKey, setSubjectKey] = useState<string>('');
   const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
   const [handoff, setHandoff] = useState<HandoffCard | null>(null); // parent-run beat card
@@ -145,8 +146,9 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setHandoff(null);
     setListening(false);
     try {
-      const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
+      const { turn, ended, beat, stats } = await api.turn(sessionRef.current, response as any);
       setBeat(beat);
+      if (stats) setStats(stats);
       present(turn, ended);
     } catch (e: any) {
       setErrMsg(e.message || 'The tutor had trouble responding.');
@@ -176,6 +178,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setHandoff(null);
     setCaptions(turn.speech);
     setBlocks(turn.blocks ?? (turn.block ? [turn.block] : []));
+    setReveal(turn.revealAnswer ?? true);
     // The turn expects a spoken/typed answer only if it says so, or its speech is
     // clearly a question. Otherwise it's an explanation — lead with Continue.
     setExpectsAnswer(!!turn.awaitResponse || /\?\s*["'”’)\]]*\s*$/.test((turn.speech || '').trim()));
@@ -231,16 +234,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setPhase('ended');
     setEmotion('celebrating');
     setBlocks([]);
-    // The server writes the report in the background after the lesson ends; poll briefly.
-    for (let i = 0; i < 20; i++) {
-      try {
-        const { session } = await api.session(sessionRef.current);
-        if (session.report) return setReport(session.report);
-      } catch {
-        /* report optional */
-      }
-      await new Promise((r) => setTimeout(r, 3000));
-    }
+    // (The parent's progress report is written server-side and shown in the parent area.)
   }
 
   const onBlockComplete = (r: BlockResult) => {
@@ -341,10 +335,15 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
           )}
 
           {beat && phase !== 'ended' && phase !== 'gate' && (
-            <div className="beats" title={`Step ${beat.index + 1} of ${beat.total}`}>
-              {Array.from({ length: beat.total }).map((_, i) => (
-                <span key={i} className={`dot ${i < beat.index ? 'done' : i === beat.index ? 'now' : ''}`} />
-              ))}
+            <div className="row center" style={{ gap: 10 }}>
+              <div className="beats" title={`Step ${beat.index + 1} of ${beat.total}`}>
+                {Array.from({ length: beat.total }).map((_, i) => (
+                  <span key={i} className={`dot ${i < beat.index ? 'done' : i === beat.index ? 'now' : ''}`} />
+                ))}
+              </div>
+              {(stats?.streak ?? 0) >= 2 && (
+                <span key={stats!.streak} className="streak-pill" aria-live="polite">🔥 {stats!.streak} in a row!</span>
+              )}
             </div>
           )}
         </div>
@@ -421,6 +420,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
                   onComplete={isInteractive ? onBlockComplete : () => {}}
                   micEnabled={isInteractive ? micOn : false}
                   onMicState={isInteractive ? setListening : () => {}}
+                  reveal={reveal}
                 />
               );
             })}
@@ -474,7 +474,18 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
             <div className="card pad-lg celebrate-card" style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto' }}>
               <div className="celebrate-emoji">🎉</div>
               <h2>Great work today!</h2>
-              {report && <p className="muted">{report.summary}</p>}
+              {stats?.stars && (
+                <div className="stars" aria-label={`${stats.stars} of 3 stars`}>
+                  {[1, 2, 3].map((n) => <span key={n} className={n <= stats.stars! ? 'star on' : 'star'}>★</span>)}
+                </div>
+              )}
+              {lesson?.title && <p className="muted">You worked on <strong>{lesson.title}</strong>.</p>}
+              {stats && stats.answered > 0 && (
+                <p className="muted">
+                  {stats.correct} right answer{stats.correct === 1 ? '' : 's'}
+                  {stats.stars === 1 ? ' — this one’s tricky, so we’ll practise it again next time. That’s how brains grow! 🌱' : ' — you really worked for these!'}
+                </p>
+              )}
               <div className="row center" style={{ gap: 10, marginTop: 14 }}>
                 <button className="btn lg" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Done</button>
               </div>

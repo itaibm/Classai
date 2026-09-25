@@ -13,7 +13,7 @@ import type {
   Weekday
 } from '../../shared/types.ts';
 import { WEEKDAYS, isLessonFull } from '../../shared/types.ts';
-import type { AssignedSubject, CatalogLesson } from '../../shared/types.ts';
+import type { AssignedLesson, AssignedSubject, CatalogLesson } from '../../shared/types.ts';
 import { curriculumTree, getCurriculumLesson } from './services/curriculum.ts';
 import { buildCatalog, getCatalogLessonRef } from './services/curriculum-catalog.ts';
 import { generateAndSaveLessonOnce } from './services/lesson-generator.ts';
@@ -45,7 +45,7 @@ import {
   reviseLessonDraft,
   saveLessonDraft
 } from './services/lesson-authoring.ts';
-import { startSession, nextTurn } from './teach/index.ts';
+import { startSession, nextTurn, MASTERED, starsFor } from './teach/index.ts';
 import {
   getOrInitLearner,
   courseProgress,
@@ -361,9 +361,19 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.get('/api/kids/:id/curriculum', async (req, reply) => {
     const kidId = (req.params as { id: string }).id;
     if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
-    const done = new Set(
-      db.sessions.listByKid(kidId).filter((s) => s.status === 'ended' && s.curriculumId).map((s) => s.curriculumId)
-    );
+    // Per lesson: attempts + best mastery. "Done" means learned — mastered, or
+    // moved on after MAX_TRIES (warm-ups keep revisiting it) — not merely finished.
+    const results = new Map<string, { attempts: number; best?: number }>();
+    for (const s of db.sessions.listByKid(kidId)) {
+      if (s.status !== 'ended' || !s.curriculumId) continue;
+      const r = results.get(s.curriculumId) ?? { attempts: 0 };
+      r.attempts++;
+      // Sessions from before mastery tracking count as learned.
+      const m = s.working.lessonMastery ?? MASTERED;
+      r.best = Math.max(r.best ?? 0, m);
+      results.set(s.curriculumId, r);
+    }
+    const MAX_TRIES = 2;
     const assigned = db.enrollments.listByKid(kidId)
       .map((e) => db.classes.get(e.classId))
       .filter((c): c is NonNullable<typeof c> => Boolean(c))
@@ -381,11 +391,14 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
       let total = 0;
       const units = subject.units.map((u) => ({
         ...u,
-        lessons: u.lessons.map((l: CatalogLesson) => {
+        lessons: u.lessons.map((l: CatalogLesson): AssignedLesson => {
           total++;
-          const isDone = done.has(l.id);
+          const r = results.get(l.id);
+          if (!r) return { ...l, done: false };
+          const mastered = (r.best ?? 0) >= MASTERED;
+          const isDone = mastered || r.attempts >= MAX_TRIES;
           if (isDone) completed++;
-          return { ...l, done: isDone };
+          return { ...l, done: isDone, stars: starsFor(r.best ?? 0), tryAgain: !isDone };
         })
       }));
       subjects.push({

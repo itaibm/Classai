@@ -27,7 +27,8 @@ import type {
   LessonFull,
   CatalogYear,
   CatalogLessonDetail,
-  AssignedSubject
+  AssignedSubject,
+  LessonStats
 } from '@shared/types';
 
 /** Parent session token from the PIN gate (sent on every request; the server
@@ -203,7 +204,7 @@ export const api = {
     method: 'POST', body: JSON.stringify({ kidId })
   }),
   turn: (sessionId: string, response?: KidResponse) =>
-    req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number } }>(
+    req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number }; stats?: LessonStats }>(
       `/sessions/${sessionId}/turn`,
       { method: 'POST', body: JSON.stringify({ response }) }
     ),
