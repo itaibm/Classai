@@ -16,8 +16,8 @@ minute on age-appropriate text by the summer, and moves the centre of gravity to
 taught through a **named class-text spine** of whole books. **Joined handwriting** starts in
 Term 1 and is practised in short daily sessions. Writing genres are taught *through* the class
 texts (a diary after the owl, a letter after Anna Hibiscus, a retold tale after the world's
-Cinderellas, a news report after the Iron Man, an explanation after the journey to the Earth's
-core, a biography after *Look Up!*), and grammar is taught *in service of that writing*, never as
+Cinderellas, a news report after *The Firework-Maker's Daughter*, an explanation after the journey to the Earth's
+core, a new chapter after *Charlotte's Web*, a biography after *Look Up!*), and grammar is taught *in service of that writing*, never as
 isolated drills. Poetry is read, learned by heart and performed every term.
 
 **Class-text spine (whole books, read aloud and studied):**
@@ -25,8 +25,8 @@ isolated drills. Poetry is read, learned by heart and performed every term.
 | Term | Class texts | Why |
 |---|---|---|
 | 1 | *The Owl Who Was Afraid of the Dark* — Jill Tomlinson; *Anna Hibiscus* — Atinuke; *Please Mrs Butler* — Allan Ahlberg (poems); *Flotsam* — David Wiesner (wordless) | A gentle chaptered classic on facing fears; joyful family stories set in West Africa by a Nigerian author; the best-loved school poems for performance; a wordless masterpiece for pure inference. |
-| 2 | Cinderella stories from around the world — *Yeh-Shen* (Ai-Ling Louie, ill. Ed Young), *Mufaro's Beautiful Daughters* (John Steptoe), *The Rough-Face Girl* (Rafe Martin), *The Egyptian Cinderella* (Shirley Climo); *The Iron Man* — Ted Hughes; *Talking Turkeys* — Benjamin Zephaniah (poems); *The Street Beneath My Feet* — Charlotte Guillain & Yuval Zommer | Comparing versions across cultures; a poet's short novel with language worth stealing; voice and rhythm in performance poetry; beautiful non-fiction for explanation writing. |
-| 3 | *The Wild Robot* — Peter Brown; *Look Up!* — Nathan Byron & Dapo Adeola; *Werewolf Club Rules* — Joseph Coelho (poems) | A modern classic about kindness, nature and belonging; an inspiring young astronaut for biography and non-fiction; contemporary poems that invite children to write their own. |
+| 2 | Cinderella stories from around the world — *Yeh-Shen* (Ai-Ling Louie, ill. Ed Young), *Mufaro's Beautiful Daughters* (John Steptoe), *The Rough-Face Girl* (Rafe Martin), *The Egyptian Cinderella* (Shirley Climo); *The Firework-Maker's Daughter* — Philip Pullman; *Talking Turkeys* — Benjamin Zephaniah (poems); *The Street Beneath My Feet* — Charlotte Guillain & Yuval Zommer | Comparing versions across cultures; a short, vivid adventure novel with language worth stealing; voice and rhythm in performance poetry; beautiful non-fiction for explanation writing. |
+| 3 | *Charlotte's Web* — E. B. White; *Look Up!* — Nathan Byron & Dapo Adeola; *Werewolf Club Rules* — Joseph Coelho (poems) | The best-loved classic of friendship, with short, perfectly shaped chapters; an inspiring young astronaut for biography and non-fiction; contemporary poems that invite children to write their own. |
 
 **What Year 2 assumes from Year 1 (ages 6–7):** secure Phase 5 phonics (alternative spellings
 and pronunciations) and early Phase 6 suffixes (-s/-es, -ing, -ed, -er, -est with the simple rules);
@@ -59,10 +59,10 @@ re-teaching).
 | 3 | Poetry: *Please Mrs Butler* — learn, perform, write | 1 | 1.5 | 8 (L37–44) |
 | 4 | *Anna Hibiscus* — setting, family, letter writing | 1 | 2.5 | 13 (L45–57) |
 | 5 | Cinderella stories from around the world — compare and retell | 2 | 4 | 20 (L58–77) |
-| 6 | *The Iron Man* — vivid language and news reports | 2 | 4 | 19 (L78–96) |
+| 6 | *The Firework-Maker's Daughter* — vivid language and news reports | 2 | 4 | 19 (L78–96) |
 | 7 | Poetry: *Talking Turkeys* — voice, rhythm and performance | 2 | 1.5 | 8 (L97–104) |
 | 8 | Non-fiction: *The Street Beneath My Feet* — explanation texts | 2 | 2 | 10 (L105–114) |
-| 9 | *The Wild Robot* — character, viewpoint and narrative | 3 | 4.5 | 22 (L115–136) |
+| 9 | *Charlotte's Web* — character, viewpoint and narrative | 3 | 4.5 | 22 (L115–136) |
 | 10 | *Look Up!* and real lives — biography and research | 3 | 3 | 14 (L137–150) |
 | 11 | Poetry: *Werewolf Club Rules* — write your own | 3 | 1.5 | 8 (L151–158) |
 | 12 | Year review: reading, spelling and writing showcase | 3 | 2.5 | 12 (L159–170) |
@@ -888,69 +888,69 @@ re-teaching).
 
 **End-of-unit check:** Compare two Cinderella versions in a grid and two written sentences, and correctly punctuate a six-line dialogue with inverted commas, reporting clauses and new lines for each speaker.
 
-## Unit 6 — The Iron Man: vivid language and news reports
+## Unit 6 — The Firework-Maker's Daughter: vivid language and news reports
 
-**Essential question:** How does a poet-storyteller make us see, hear and feel a giant — and how would a reporter tell the same events as news?
+**Essential question:** How does a storyteller make us see, hear and feel a world of fire and danger — and how would a reporter tell the same events as news?
 
-**Key vocabulary:** giant, mysterious, simile, metaphor, onomatopoeia, prediction, dilemma, point of view, headline, lead paragraph, quotation, caption, third person, past tense, present perfect, fact, opinion
+**Key vocabulary:** firework, volcano, quest, courage, simile, metaphor, onomatopoeia, prediction, dilemma, point of view, headline, lead paragraph, quotation, caption, third person, past tense, present perfect, fact, opinion
 
-> Class text: *The Iron Man* by Ted Hughes — five chapters about a metal giant who appears on a cliff, is befriended by a boy called Hogarth, and finally faces a monster from space.
+> Class text: *The Firework-Maker's Daughter* by Philip Pullman — Lila, daughter of Lalchand the firework-maker, sets out alone for the volcano Mount Merapi to face Razvani the Fire-Fiend and win the Royal Sulphur every true firework-maker needs, while her friend Chulak and Hamlet, the King's talking white elephant, race after her.
 
-### Lesson 78 — The mysterious opening
+### Lesson 78 — The opening: what does Lila want?
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how an opening makes the reader ask questions." (UK NC Y3/4 Reading – language; CCSS RL.2.5)
-- **Hook:** The first lines read in the dark with a metallic clang — "The Iron Man came to the top of the cliff" — followed by the author's run of questions, each answered "Nobody knows."
-- **Key activity:** Read chapter 1's opening; list the questions it raises; discuss why the author withholds answers; predict where the Iron Man came from.
-- **Check for understanding:** "Why does Ted Hughes ask questions and keep answering 'Nobody knows'?" → To create mystery so we want to read on to find out.
-- **Differentiation:** support: question-word cards / stretch: write a two-line mysterious opening about another giant.
-- **Materials:** *The Iron Man* (Ted Hughes), a metal tray for sound effects, sticky notes
-- **Joy:** A "clang" sound track — children add sound effects as it's read.
+- **Objective:** "By the end, I can explain how an opening makes the reader ask questions about what a character wants." (UK NC Y3/4 Reading – language; CCSS RL.2.5)
+- **Hook:** An LED "sparkler" fizzes in the dark: "Imagine growing up in a workshop full of gunpowder, sparks and secret recipes…"
+- **Key activity:** Read the opening chapter aloud. Children list what Lila loves about her father's workshop and the questions the chapter raises (What is the last secret? Why won't Lalchand teach it to her?). Predict what Lila will do, each prediction with a "because".
+- **Check for understanding:** "What does Lila want most, and why does the author not tell us everything straight away?" → She wants to be a real firework-maker like her father; holding back the final secret creates mystery, so we read on to find out what it is and whether she will get it.
+- **Differentiation:** support: question-word cards (What? Why? Who?) and a picture of the workshop / stretch: write two sentences predicting Lila's biggest problem and the clue that suggests it.
+- **Materials:** *The Firework-Maker's Daughter* (Philip Pullman), LED sparkler or torch, sticky notes
+- **Joy:** Predictions are sealed in a "powder keg" (a decorated tin) to be opened at the end of the book.
 
-### Lesson 79 — Vivid language: similes and sound
+### Lesson 79 — Vivid language: fire, fizz and flame
 - **Duration:** 25 min
 - **Objective:** "By the end, I can find similes and sound words and explain the picture they create." (UK NC Y3/4 Reading – language; CCSS RL.2.4)
-- **Hook:** "How big is the Iron Man's head? As big as…?"
-- **Key activity:** Re-read the description of the Iron Man falling and his parts searching for each other; highlight similes and onomatopoeia; sketch what a phrase makes you see.
-- **Check for understanding:** "Choose a simile and explain what it helps you picture." → Explains the comparison and what it shows (size, sound, movement).
-- **Differentiation:** support: pre-highlighted phrases with picture choices / stretch: explain why a simile is more powerful than a plain description.
-- **Materials:** class text, highlighters, sketch paper
-- **Joy:** "Iron Man parts hunt" — children act as the searching hand and eye.
+- **Hook:** "How would you describe a firework to someone who has never seen one — using only words?"
+- **Key activity:** Re-read the descriptions of Lalchand's fireworks and the workshop; highlight similes and onomatopoeia (fizz, crackle, bang); sketch what one phrase makes you see. Then invent and name a firework of your own and describe it in two vivid sentences.
+- **Check for understanding:** "Choose a simile or sound word and explain what it helps you picture or hear." → Names the phrase and explains the comparison or sound and what it shows (colour, speed, noise, excitement).
+- **Differentiation:** support: pre-highlighted phrases with picture choices / stretch: explain why a sound word can be more powerful than a plain description ("it went off loudly").
+- **Materials:** class text, highlighters, black paper and metallic pencils
+- **Joy:** A "firework display" of invented fireworks drawn in metallic pencil on black paper.
 
-### Lesson 80 — Reading: Hogarth's point of view
+### Lesson 80 — Point of view: Lalchand and Chulak
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how a character sees events and why." (UK NC Y3/4 Reading – inference; CCSS RL.2.6)
-- **Hook:** "You are Hogarth. You've just seen a giant eating a tractor."
-- **Key activity:** Read chapter 2; complete a thought-tracking sheet (what Hogarth sees, thinks, feels); compare with the farmers' view.
-- **Check for understanding:** "Why do Hogarth and the farmers feel differently about the Iron Man at first?" → The farmers lose machines and are angry; Hogarth is curious and later feels sorry for him.
-- **Differentiation:** support: thought bubbles with word bank / stretch: write in role as a farmer justifying the trap.
+- **Objective:** "By the end, I can explain how two characters see the same event differently and why." (UK NC Y3/4 Reading – inference; CCSS RL.2.6)
+- **Hook:** "Lila has run away to a volcano. You are her father. Now you are her best friend. How do you feel?"
+- **Key activity:** Read the chapters after Lila leaves. Complete a thought-tracking sheet for Lalchand and for Chulak (what each knows, thinks and feels); compare what each decides to do.
+- **Check for understanding:** "Why do Lalchand and Chulak react differently when Lila leaves?" → Lalchand is frightened because he knows the terrible danger she faces without the protection she needs; Chulak is loyal and bold, so he sets off to help her.
+- **Differentiation:** support: thought bubbles with a word bank / stretch: write in role as Lalchand explaining why he kept the secret.
 - **Materials:** class text, thought-bubble sheets
 - **Joy:** "Thought tracking" — tap a frozen actor's shoulder to hear their thoughts.
 
 ### Lesson 81 — Spelling: -tion
 - **Duration:** 25 min
 - **Objective:** "By the end, I can spell words ending in -tion and know when to use it." (UK NC Y3/4 Spelling – /ʃən/)
-- **Hook:** "Invention, destruction, station — why do so many words end in -tion?"
-- **Key activity:** Teach that -tion is the most common ending and is used when the root ends in t or te (invent → invention, complete → completion; also action, direction, education). Build words and use in Iron Man sentences.
+- **Hook:** "Invention, explosion, celebration — why do so many words end in /shun/?"
+- **Key activity:** Teach that -tion is the most common ending and is used when the root ends in t or te (invent → invention, complete → completion, celebrate → celebration; also action, direction, education). Build words and use them in sentences about the story.
 - **Check for understanding:** "Why is it 'invention' and not 'invension'?" → The root 'invent' ends in t, so we use -tion.
-- **Differentiation:** support: just-add words (act → action) / stretch: roots ending in -ate (educate → education).
+- **Differentiation:** support: just-add words (act → action) / stretch: roots ending in -ate (celebrate → celebration, decorate → decoration).
 - **Materials:** root-word cards, suffix cards, dictionaries
-- **Joy:** "Invention box" — invent a machine for the Iron Man and name it with -tion words.
+- **Joy:** "Invention box" — design a firework-making machine and label it with -tion words.
 
-### Lesson 82 — The dilemma: what's to be done with the Iron Man?
+### Lesson 82 — The dilemma: should Lalchand have told her?
 - **Duration:** 25 min
 - **Objective:** "By the end, I can discuss a dilemma, giving reasons for more than one side." (UK NC Spoken language – debate; CCSS SL.2.1)
-- **Hook:** A "town meeting" sign on the door.
-- **Key activity:** Read chapter 3; in role as townspeople, argue: trap the Iron Man, send him away, or give him a scrapyard? Use "I think… because…" and "I disagree, because…".
+- **Hook:** A "family council" sign on the door: "Lalchand kept the last secret from Lila. Was he right?"
+- **Key activity:** In role as Lalchand's friends and neighbours, argue: he was protecting her / he should have trusted her / he should have gone with her. Use "I think… because…" and "I disagree, because…".
 - **Check for understanding:** "What is the strongest reason on the side you disagree with?" → States an opposing reason fairly.
 - **Differentiation:** support: reason cards to choose from / stretch: summarise both sides before voting.
 - **Materials:** class text, role cards, reason cards
-- **Joy:** Town meeting role play with a gavel and a vote.
+- **Joy:** Family-council role play with a talking stick and a vote.
 
 ### Lesson 83 — Grammar for writing: cause and effect conjunctions
 - **Duration:** 25 min
 - **Objective:** "By the end, I can use because, so, since and therefore to explain causes and effects." (UK NC Y3 VGP; CCSS L.3.1h)
-- **Hook:** Dominoes falling — "Every event causes the next."
-- **Key activity:** Chain Iron Man events with cause–effect conjunctions ("The Iron Man ate the tractors, so the farmers were furious."); note "therefore" works across sentences.
+- **Hook:** A line of dominoes falling — "Every event causes the next."
+- **Key activity:** Chain story events with cause–effect conjunctions ("Lila was desperate to learn the last secret, so she set off for Mount Merapi."); note that "therefore" works across two sentences.
 - **Check for understanding:** "What's the difference between 'because' and 'so'?" → Because introduces the cause; so introduces the result.
 - **Differentiation:** support: because/so only with picture pairs / stretch: use 'therefore' correctly in a new sentence.
 - **Materials:** dominoes, event cards, sentence frames
@@ -959,47 +959,47 @@ re-teaching).
 ### Lesson 84 — Spelling: -sion, -ssion and -cian
 - **Duration:** 25 min
 - **Objective:** "By the end, I can choose between -sion, -ssion and -cian using the root word." (UK NC Y3/4 Spelling – /ʃən/, /ʒən/)
-- **Hook:** "A musician, a television, a discussion — three spellings of the same sound?"
-- **Key activity:** Teach: -ssion when the root ends in ss or -mit (discuss → discussion, permit → permission); -sion when the root ends in d/de or se (extend → extension, divide → division, tense → tension); -cian for people from roots ending in -ic (music → musician, magic → magician).
+- **Hook:** "A musician, an explosion, a discussion — three spellings of the same sound?"
+- **Key activity:** Teach: -ssion when the root ends in ss or -mit (discuss → discussion, permit → permission); -sion when the root ends in d/de or se (extend → extension, explode → explosion, tense → tension); -cian for people from roots ending in -ic (music → musician, magic → magician).
 - **Check for understanding:** "Why is it 'magician' and not 'magition'?" → The root 'magic' ends in -ic, and the word is a person, so -cian.
-- **Differentiation:** support: -cian only (people jobs) / stretch: explain two -sion words where the sound is /ʒən/ (television, division).
+- **Differentiation:** support: -cian only (people jobs) / stretch: explain two -sion words where the sound is /ʒən/ (explosion, television).
 - **Materials:** word cards, sorting mats, root-word cards
-- **Joy:** "Job fair" — children act as musicians, magicians, electricians.
+- **Joy:** "Festival job fair" — children act as musicians, magicians, electricians.
 
-### Lesson 85 — The space-being arrives
+### Lesson 85 — Into the mountain: building tension
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain how the author builds tension." (UK NC Y3/4 Reading – language; CCSS RL.2.4)
-- **Hook:** A news-flash sound: "Something is heading for Earth!"
-- **Key activity:** Read chapter 4; find techniques that build tension (short sentences, repeated warnings, the growing star); plot a tension graph.
-- **Check for understanding:** "How does the author make the space-being seem huge and frightening?" → Size comparisons (it lands on Australia), what it wants to eat, the world's panic.
-- **Differentiation:** support: tension graph with key events provided / stretch: explain how sentence length affects pace.
-- **Materials:** class text, tension-graph templates
-- **Joy:** Shadow puppet of the space-bat-angel-dragon on a sheet.
+- **Hook:** Lights down, a red glow on the wall: "Lila is climbing into the fire-mountain — alone."
+- **Key activity:** Read the chapters of Lila's journey to Merapi and into Razvani's grotto; find techniques that build tension (short sentences, the growing heat and noise, Lila not knowing what she lacks, cutting away to Chulak and Hamlet racing to reach her); plot a tension graph.
+- **Check for understanding:** "How does the author make the Fire-Fiend's grotto seem so dangerous?" → Burning heat, flames and the fiend's terrible voice; Lila is alone and doesn't have the protection she needs; we switch to her friends hurrying, so we wonder if they will be in time.
+- **Differentiation:** support: tension graph with key events provided / stretch: explain how switching between Lila and her friends adds suspense.
+- **Materials:** class text, tension-graph templates, red cellophane over a torch
+- **Joy:** A "volcano soundscape" made with drums, crackling paper and voices.
 
-### Lesson 86 — The contest: prediction and resolution
+### Lesson 86 — The three gifts: prediction and resolution
 - **Duration:** 25 min
 - **Objective:** "By the end, I can predict and then explain how a problem is solved." (UK NC Y3/4 Reading; CCSS RL.2.5)
-- **Hook:** "How can a small iron giant beat a monster as big as Australia?"
-- **Key activity:** Predict the solution in pairs; read chapter 5 (the contest of heat); compare predictions; discuss the peaceful ending (the monster's music).
-- **Check for understanding:** "Why is the ending surprising, and what does it tell us about the Iron Man?" → He wins by courage and cleverness, not fighting; he brings peace — he isn't a monster at all.
-- **Differentiation:** support: choose from three predictions / stretch: explain the message about fear and strangers.
-- **Materials:** class text, prediction cards
-- **Joy:** "Music of the spheres" — listen to a calm piece (e.g. Holst's *Venus*) while imagining the ending.
+- **Hook:** "Every firework-maker must bring Razvani three gifts. Lila brought nothing. What will happen?"
+- **Key activity:** Predict in pairs what the three gifts might be; read the resolution in the grotto and the explanation that the gifts are talent, courage and luck; compare with predictions.
+- **Check for understanding:** "Why is it surprising that Lila already had the three gifts, and what does it tell us about her?" → She thought she had brought nothing, but her journey itself showed talent, courage and luck — she had earned them without knowing.
+- **Differentiation:** support: choose from three predictions / stretch: find one moment in the journey that shows each gift.
+- **Materials:** class text, prediction cards, three small gift boxes
+- **Joy:** Open three gift boxes labelled "talent", "courage" and "luck" — each holds a class example.
 
-### Lesson 87 — Theme discussion: judging by appearances
+### Lesson 87 — Theme discussion: what makes a hero?
 - **Duration:** 25 min
 - **Objective:** "By the end, I can discuss a theme and link it to other stories." (UK NC Y3/4 Reading – themes; CCSS RL.2.2)
-- **Hook:** "At the start, who was the monster?"
-- **Key activity:** Discuss how people judged the Iron Man and the space-being; link to the Cinderella tales (seeing truly); write a one-sentence theme with evidence.
-- **Check for understanding:** "How does the book change our view of the Iron Man?" → From a scary machine to a hero and friend — we learn not to judge by appearance.
-- **Differentiation:** support: sentence frame for theme / stretch: compare with *The Rough-Face Girl*.
+- **Hook:** "Who is the real hero of this story — Lila, Chulak, Hamlet or Lalchand?"
+- **Key activity:** Discuss what each character risks and does; link to the Cinderella tales (heroines who prove who they are); write a one-sentence theme with evidence.
+- **Check for understanding:** "Is Lila the only hero of the story? Give evidence." → No — Chulak and Hamlet risk the journey to bring her help, and her father's love matters too; the book shows that courage and friendship together make heroes.
+- **Differentiation:** support: sentence frame for theme / stretch: compare Lila's courage with the Rough-Face Girl's.
 - **Materials:** class text, theme frames
 - **Joy:** "Philosophy circle" with a talking object.
 
 ### Lesson 88 — News reports: features
 - **Duration:** 25 min
 - **Objective:** "By the end, I can identify the features of a newspaper report." (UK NC Y3/4 Writing – genre; CCSS RI.2.5)
-- **Hook:** A front page: "IRON GIANT EATS TRACTOR!"
+- **Hook:** A front page: "ROYAL WHITE ELEPHANT VANISHES FROM PALACE!"
 - **Key activity:** Analyse a model report: headline, lead paragraph (who, what, where, when, why), past tense, third person, eyewitness quotations, photo with caption, closing line. Label a model.
 - **Check for understanding:** "Why does the first paragraph answer who, what, where, when and why?" → So a busy reader gets the key facts immediately.
 - **Differentiation:** support: labelled template / stretch: find a fact and an opinion in the model.
@@ -1008,11 +1008,11 @@ re-teaching).
 
 ### Lesson 89 — Grammar for writing: present perfect and simple past
 - **Duration:** 25 min
-- **Objective:** "By the end, I can use the present perfect ('has eaten') and simple past ('ate') correctly in reports." (UK NC Y3 VGP – present perfect)
-- **Hook:** "The Iron Man has eaten 20 tractors!" vs "Yesterday the Iron Man ate 20 tractors."
+- **Objective:** "By the end, I can use the present perfect ('has disappeared') and simple past ('disappeared') correctly in reports." (UK NC Y3 VGP – present perfect)
+- **Hook:** "The King's elephant has disappeared!" vs "Last night the King's elephant disappeared."
 - **Key activity:** Teach that the present perfect links the past to now (news that is still true), while the simple past is for finished events at a stated time; sort and write sentences.
-- **Check for understanding:** "Why can't we say 'Yesterday he has eaten a tractor'?" → 'Yesterday' names a finished time, so we need the simple past: 'ate.'
-- **Differentiation:** support: sorting with pictures / stretch: irregular past participles (eaten, seen, broken).
+- **Check for understanding:** "Why can't we say 'Last night the elephant has disappeared'?" → 'Last night' names a finished time, so we need the simple past: 'disappeared'.
+- **Differentiation:** support: sorting with pictures / stretch: irregular past participles (gone, seen, flown, stolen).
 - **Materials:** sentence cards, verb tables
 - **Joy:** "Breaking news" — read present-perfect headlines in a newsreader voice.
 
@@ -1020,7 +1020,7 @@ re-teaching).
 - **Duration:** 25 min
 - **Objective:** "By the end, I can ask interview questions and record quotations." (UK NC Spoken language; CCSS SL.2.3)
 - **Hook:** Microphones out — "Reporters, find the eyewitnesses!"
-- **Key activity:** Pairs role-play reporter and eyewitness (farmer, Hogarth); reporters write down two quotations exactly, using inverted commas.
+- **Key activity:** Pairs role-play reporter and eyewitness (a palace guard, a villager on the road to Merapi, a festival visitor); reporters write down two quotations exactly, using inverted commas.
 - **Check for understanding:** "Why must a reporter write a quotation exactly as said?" → Quotations are the person's real words; changing them would be untrue.
 - **Differentiation:** support: question cards / stretch: follow-up questions.
 - **Materials:** toy microphones, notepads
@@ -1029,7 +1029,7 @@ re-teaching).
 ### Lesson 91 — News report: plan
 - **Duration:** 25 min
 - **Objective:** "By the end, I can plan a news report with a headline and five Ws." (UK NC Y3/4 Writing – plan; CCSS W.2.2)
-- **Hook:** "Choose your event: the Iron Man's fall, the trap, or the contest."
+- **Hook:** "Choose your event: the vanished elephant, Lila's return from the fire-mountain, or the great firework contest."
 - **Key activity:** Plan: headline, lead (5 Ws), events in order, quotations, closing line; rehearse orally as a TV report.
 - **Check for understanding:** "What are the 5 Ws of your story?" → Lists who, what, where, when, why.
 - **Differentiation:** support: planning frame with prompts / stretch: plan a subheading for each section.
@@ -1052,9 +1052,9 @@ re-teaching).
 - **Hook:** "The editor wants it on the front page."
 - **Key activity:** Revise with partner (headline punch, lead clarity); edit (inverted commas, -tion/-sion spellings); publish in columns with a picture and caption.
 - **Check for understanding:** "What did the editor (your partner) ask you to change and why?" → A specific change with a reason.
-- **Differentiation:** support: publish lead + picture / stretch: add a subheading and a sidebar fact box.
+- **Differentiation:** support: publish lead + picture / stretch: add a subheading and a sidebar fact box (e.g. real facts about Mount Merapi, a volcano in Indonesia).
 - **Materials:** newspaper templates, glue, pictures
-- **Joy:** A class newspaper, "The Iron Times", printed and shared.
+- **Joy:** A class newspaper, "The Merapi Times", printed and shared.
 
 ### Lesson 94 — Handwriting: consistency and presentation
 - **Duration:** 20 min
@@ -1069,24 +1069,24 @@ re-teaching).
 ### Lesson 95 — Reading response: a book review
 - **Duration:** 25 min
 - **Objective:** "By the end, I can write a short review giving an opinion with reasons." (UK NC Y3/4 Writing; CCSS W.2.1)
-- **Hook:** "Would you give The Iron Man 5 stars?"
+- **Hook:** "Would you give *The Firework-Maker's Daughter* 5 stars?"
 - **Key activity:** Write a 4-sentence review: opinion, two reasons with examples, recommendation.
 - **Check for understanding:** "What makes a reason convincing?" → It gives a specific example from the book.
 - **Differentiation:** support: review frame / stretch: compare with another book.
 - **Materials:** review templates
 - **Joy:** Reviews posted on the book-corner "star wall."
 
-### Lesson 96 — End-of-unit check: The Iron Man
+### Lesson 96 — End-of-unit check: The Firework-Maker's Daughter
 - **Duration:** 25 min
 - **Objective:** "By the end, I can show my understanding of the text and of report writing." (Assessment)
 - **Hook:** "Unseen news" — a short report about a new event.
-- **Key activity:** Answer questions on an Iron Man extract (language, inference); label features of an unseen report; spell -tion/-sion/-cian words.
-- **Check for understanding:** "Find a phrase that makes the Iron Man seem enormous and explain it." → Quotes and explains.
+- **Key activity:** Answer questions on an extract from the book (language, inference); label features of an unseen report; spell -tion/-sion/-cian words.
+- **Check for understanding:** "Find a phrase that makes the fire-mountain seem dangerous and explain it." → Quotes and explains.
 - **Differentiation:** support: read aloud; word bank / stretch: extra question on the author's choices.
 - **Materials:** extract, unseen report, spelling list
-- **Joy:** Iron Man model-making with foil after the check.
+- **Joy:** Opening the "powder keg" of predictions from Lesson 78.
 
-**End-of-unit check:** Explain two vivid phrases from an unseen Iron Man extract, label the features of a news report, and spell ten words from the -tion/-sion/-ssion/-cian families.
+**End-of-unit check:** Explain two vivid phrases from an unseen extract of the class text, label the features of a news report, and spell ten words from the -tion/-sion/-ssion/-cian families.
 
 ## Unit 7 — Poetry: Talking Turkeys — voice, rhythm and performance
 
@@ -1288,149 +1288,149 @@ re-teaching).
 
 **End-of-unit check:** Read an unseen explanation and summarise it in five steps; write one explanation paragraph with a subheading, present tense, technical vocabulary and two cause–effect conjunctions.
 
-## Unit 9 — The Wild Robot: character, viewpoint and narrative
+## Unit 9 — Charlotte's Web: character, viewpoint and narrative
 
-**Essential question:** What does it mean to belong — and how can a story told from different points of view change what we think?
+**Essential question:** What makes a true friend — and how can a story told about many different characters change what we think?
 
-**Key vocabulary:** protagonist, viewpoint, narrator, first person, third person, adapt, survive, instinct, kindness, community, conflict, paragraph, pronoun, fronted adverbial, homophone, word family
+**Key vocabulary:** protagonist, viewpoint, narrator, first person, third person, friendship, loyalty, sacrifice, runt, barn, community, conflict, paragraph, pronoun, fronted adverbial, homophone, word family
 
-> Class text: *The Wild Robot* by Peter Brown — a robot called Roz washes up on a wild island, learns to survive from the animals, and adopts an orphaned gosling. Its very short chapters make it ideal for daily read-aloud and close study.
+> Class text: *Charlotte's Web* by E. B. White (illustrated by Garth Williams) — Fern saves a runt piglet, Wilbur, who goes to live in her uncle's barn, where a wise grey spider called Charlotte weaves words into her web to save his life. A modern classic of friendship, told in short, perfectly shaped chapters.
 
-### Lesson 115 — The arrival: making predictions from a cover and opening
+### Lesson 115 — "Where's Papa going with that ax?"
 - **Duration:** 25 min
-- **Objective:** "By the end, I can make and justify predictions from a cover, title and opening chapters." (UK NC Y3/4 Reading – prediction; CCSS RL.2.7)
-- **Hook:** A crate (cardboard box) washed up with seaweed — "What's inside?"
-- **Key activity:** Study the cover; read the first chapters (the storm, the crates, the otters); predict what Roz will face on the island; record predictions in "sealed" envelopes.
-- **Check for understanding:** "What clue in the opening makes you think the island will be difficult for Roz?" → e.g. no humans, wild animals, a robot built for a different world.
+- **Objective:** "By the end, I can make and justify predictions from a cover, title and opening chapter." (UK NC Y3/4 Reading – prediction; CCSS RL.2.7)
+- **Hook:** A toy piglet in a cardboard box lined with straw — "Why would this little pig need saving?"
+- **Key activity:** Study the cover; read the first chapter (Fern stops her father killing the runt of the litter). Discuss the famous first line; predict what will happen to Wilbur and who the spider on the cover might be; record predictions in "sealed" envelopes.
+- **Check for understanding:** "Why does Fern think it is unfair to kill the runt, and what does that tell us about her?" → The piglet didn't choose to be small; Fern has a strong sense of fairness and kindness and is brave enough to argue with her father.
 - **Differentiation:** support: picture predictions with sentence starters / stretch: predict a theme, not only an event.
-- **Materials:** *The Wild Robot* (Peter Brown), a cardboard crate, seaweed or green paper, envelopes
-- **Joy:** Opening the crate to find the book inside.
+- **Materials:** *Charlotte's Web* (E. B. White), a toy piglet, a straw-lined box, envelopes
+- **Joy:** Naming the class's own toy piglet.
 
-### Lesson 116 — Roz learns: character and change
+### Lesson 116 — Wilbur: character and change
 - **Duration:** 25 min
-- **Objective:** "By the end, I can track how a character learns and changes." (UK NC Y3/4 Reading – inference; CCSS RL.2.3)
-- **Hook:** "Can a robot learn to be wild?"
-- **Key activity:** Read chapters where Roz watches and copies animals; start a "Roz learning log" (what she observes → what she learns → how she changes).
-- **Check for understanding:** "How does Roz learn to survive, and what does that tell us about her?" → By observing and copying animals; she is patient, curious and adaptable.
-- **Differentiation:** support: log with pictures / stretch: compare Roz's way of learning with how children learn.
-- **Materials:** class text, learning-log booklets
-- **Joy:** "Robot copycat" — one child moves like an animal; the "robot" copies.
+- **Objective:** "By the end, I can track how a character feels and changes." (UK NC Y3/4 Reading – inference; CCSS RL.2.3)
+- **Hook:** "Wilbur has a warm barn and plenty of food. So why is he so unhappy?"
+- **Key activity:** Read the chapters where Wilbur moves to the Zuckermans' barn, escapes, and feels lonely until a voice says "Salutations!". Start a "Wilbur feelings log" (what happens → how he feels → the words that show it).
+- **Check for understanding:** "How does Wilbur change between arriving at the barn and meeting Charlotte? Give evidence." → He goes from bored, lonely and tearful — he throws himself down and sobs — to hopeful and happy because he has found a friend.
+- **Differentiation:** support: log with pictures and a feelings word bank / stretch: explain how loneliness is different from being alone, using Wilbur as the example.
+- **Materials:** class text, feelings-log booklets
+- **Joy:** "Salutations!" — the class learns to greet each other in Charlotte's grand style.
 
-### Lesson 117 — Viewpoint: how the animals see Roz
+### Lesson 117 — Viewpoint: is Charlotte cruel?
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how different characters see the same character." (UK NC Y3/4 Reading; CCSS RL.2.6)
-- **Hook:** "To the animals, what does Roz look like?"
-- **Key activity:** Read chapters where animals call Roz a monster; role-play animals discussing her; write thought bubbles from two animal viewpoints.
-- **Check for understanding:** "Why do the animals fear Roz at first, and is their fear fair?" → She is strange, big and unknown; understandable, but they don't yet know her.
-- **Differentiation:** support: thought bubbles with word bank / stretch: write a paragraph from an animal's first-person viewpoint.
+- **Objective:** "By the end, I can explain how one character sees another and whether that view is fair." (UK NC Y3/4 Reading; CCSS RL.2.6)
+- **Hook:** "Charlotte traps flies and drinks their blood. Would you want her as a friend?"
+- **Key activity:** Read the chapter where Wilbur first meets Charlotte properly and is shocked by how she lives; role-play Wilbur's doubts and Charlotte's explanation; write thought bubbles from both viewpoints.
+- **Check for understanding:** "Why does Wilbur first think Charlotte is fierce, and is his judgement fair?" → She catches and eats insects, which seems cruel to him; but that is how spiders must live, and she turns out to be loyal and kind — judging her so quickly was unfair.
+- **Differentiation:** support: thought bubbles with word bank / stretch: write a paragraph from Charlotte's first-person viewpoint explaining herself.
 - **Materials:** class text, thought-bubble sheets, animal masks
 - **Joy:** Animal-mask role play.
 
-### Lesson 118 — Science link: how animals adapt
+### Lesson 118 — Science link: real spiders
 - **Duration:** 25 min
-- **Objective:** "By the end, I can find facts about how real animals survive and compare them with the story." (UK NC Y3/4 Reading – non-fiction; CCSS RI.2.1)
-- **Hook:** "Could Roz really learn from beavers, geese and bears?"
-- **Key activity:** Read short non-fiction on camouflage, migration and hibernation; match facts to events in the book.
-- **Check for understanding:** "Which real animal behaviour does the story use, and how?" → e.g. geese migrate — Brightbill flies south for winter.
-- **Differentiation:** support: picture fact cards / stretch: find where the author bends real facts for the story.
-- **Materials:** non-fiction extracts, matching sheet
-- **Joy:** "Migration map" — track goose flights on a world map.
+- **Objective:** "By the end, I can find facts about real spiders and compare them with the story." (UK NC Y3/4 Reading – non-fiction; CCSS RI.2.1)
+- **Hook:** "Charlotte's full name is Charlotte A. Cavatica. There is a real barn spider called *Araneus cavaticus*. How much of her is real?"
+- **Key activity:** Read short non-fiction on orb-weaving spiders (webs, silk, trapping insects, egg sacs, spiderlings that float away on threads of silk); match facts to events in the book.
+- **Check for understanding:** "Which real spider facts does the author use, and where does he bend the truth for the story?" → Webs, catching insects, the egg sac and the babies sailing away on silk are real; talking and spelling words in a web are invented.
+- **Differentiation:** support: picture fact cards / stretch: find one fact the story gets exactly right and explain why an author might research carefully.
+- **Materials:** non-fiction extracts on spiders, matching sheet, magnifying glasses
+- **Joy:** "Web watch" — find (and leave in place) a real web outdoors; draw its pattern.
 
 ### Lesson 119 — Spelling: ch as /k/ and /sh/
 - **Duration:** 25 min
 - **Objective:** "By the end, I can read and spell words where ch says /k/ (Greek) or /sh/ (French)." (UK NC Y3/4 Spelling – Appendix 1)
-- **Hook:** "A chef, a chorus and a machine walk into a classroom…"
+- **Hook:** "A chef, a chorus and a machine walk into a barn…"
 - **Key activity:** Teach ch as /k/ in words from Greek (scheme, chorus, chemist, echo, character, stomach) and ch as /sh/ in words from French (chef, chalet, machine, brochure, parachute); sort; spell from dictation.
 - **Check for understanding:** "Why does 'machine' use ch for /sh/?" → It comes from French, where ch often says /sh/.
 - **Differentiation:** support: one group (ch = /k/) with pictures / stretch: find more examples in a dictionary and sort them.
 - **Materials:** word cards, sorting mats, dictionaries
 - **Joy:** "Word origins passport" — stamp each word's country of origin.
 
-### Lesson 120 — Brightbill: relationships
+### Lesson 120 — Charlotte's plan: a friendship
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how a relationship between two characters develops." (UK NC Y3/4 Reading; CCSS RL.2.3)
-- **Hook:** An egg in a nest of straw — "Who will look after it?"
-- **Key activity:** Read the chapters where Roz finds the egg and cares for the gosling; plot a relationship line; collect evidence of care and learning.
-- **Check for understanding:** "What does Roz's care for Brightbill show about how she has changed?" → She has become caring and more like a mother than a machine.
+- **Objective:** "By the end, I can explain how a friendship between two characters develops." (UK NC Y3/4 Reading; CCSS RL.2.3)
+- **Hook:** "The old sheep tells Wilbur what happens to pigs at Christmas. Charlotte says, 'I'm going to save you.' How?"
+- **Key activity:** Read the chapters where Charlotte makes her promise and writes SOME PIG in her web; plot a friendship line; collect evidence of care, promises and sacrifice.
+- **Check for understanding:** "What does Charlotte's plan show about their friendship?" → She uses her own talent and works through the night to save him; a true friend helps even when it costs them something.
 - **Differentiation:** support: picture sequence / stretch: write a short paragraph with two quotations.
-- **Materials:** class text, relationship-line template, a straw nest with a toy egg
-- **Joy:** Name the class's own toy gosling.
+- **Materials:** class text, friendship-line template, string web on a frame
+- **Joy:** Weave a giant string web in the classroom with a class word in it.
 
 ### Lesson 121 — Grammar for writing: pronouns and nouns for clarity
 - **Duration:** 25 min
 - **Objective:** "By the end, I can choose nouns or pronouns so my writing is clear and not repetitive." (UK NC Y3–4 VGP; CCSS L.3.1a)
-- **Hook:** "Roz walked. Roz looked. Roz saw. Roz… stop!"
-- **Key activity:** Rewrite repetitive paragraphs with pronouns; fix unclear ones ("She gave her the berries" — who?).
-- **Check for understanding:** "When should you use the name instead of 'she'?" → When a pronoun could mean more than one person.
-- **Differentiation:** support: one character only / stretch: two characters of the same gender.
+- **Hook:** "Wilbur walked. Wilbur looked. Wilbur saw. Wilbur… stop!"
+- **Key activity:** Rewrite repetitive paragraphs with pronouns; fix unclear ones ("He gave him the egg sac" — who?).
+- **Check for understanding:** "When should you use the name instead of 'he'?" → When a pronoun could mean more than one person or animal.
+- **Differentiation:** support: one character only / stretch: two characters of the same gender (Wilbur and Templeton).
 - **Materials:** paragraph cards, highlighters
 - **Joy:** "Pronoun tag" game.
 
-### Lesson 122 — Winter: community and cooperation
+### Lesson 122 — The barn community
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how the story shows cooperation and community." (UK NC Y3/4 Reading – themes; CCSS RL.2.2)
-- **Hook:** "How can very different animals survive a winter together?"
-- **Key activity:** Read the winter chapters; list how Roz and the animals help one another; discuss links to our own community.
-- **Check for understanding:** "Why does the island's community change after the winter?" → Roz helped them survive, so they trust and accept her.
+- **Objective:** "By the end, I can explain how the story shows a community working together." (UK NC Y3/4 Reading – themes; CCSS RL.2.2)
+- **Hook:** "A goose, some sheep, a greedy rat and a spider — how can they save a pig?"
+- **Key activity:** Read the chapters where the barn animals meet to help and Templeton fetches new words from the dump; list what each animal contributes and why.
+- **Check for understanding:** "Why does Templeton help, and does that make him a good friend?" → He helps mostly for rewards (food), so he is selfish — but his help still matters; the barn succeeds because everyone contributes something.
 - **Differentiation:** support: cause–effect cards / stretch: compare with a time a group helped each other in real life.
-- **Materials:** class text, cause–effect cards
-- **Joy:** Build a "lodge" from cushions for the next read-aloud.
+- **Materials:** class text, cause–effect cards, old magazines (for Templeton's "word hunt")
+- **Joy:** "Templeton's word hunt" — find and cut out powerful words from old magazines for the class web.
 
 ### Lesson 123 — Spelling: -ture and -sure
 - **Duration:** 25 min
 - **Objective:** "By the end, I can spell words ending in -ture (/tʃə/) and -sure (/ʒə/)." (UK NC Y3/4 Spelling – Appendix 1)
 - **Hook:** "An adventure, a creature and a treasure!"
-- **Key activity:** Teach -ture (picture, nature, adventure, creature, furniture) and -sure (measure, treasure, pleasure, enclosure); sort by sound; write in island sentences.
+- **Key activity:** Teach -ture (picture, nature, adventure, creature, furniture) and -sure (measure, treasure, pleasure, enclosure); sort by sound; write in farmyard sentences.
 - **Check for understanding:** "How can you hear whether a word ends in -ture or -sure?" → -ture says /tʃə/ (like 'ch'), -sure says /ʒə/ (like the middle of 'treasure').
 - **Differentiation:** support: -ture only / stretch: words where the root changes (nature/natural).
 - **Materials:** word cards, sorting mats
-- **Joy:** "Treasure map" with -ture/-sure clues.
+- **Joy:** "Treasure map" of the barn with -ture/-sure clues.
 
 ### Lesson 124 — Handwriting: joined writing at speed for notes
 - **Duration:** 20 min
 - **Objective:** "By the end, I can write joined notes quickly while keeping them readable." (UK NC Y3/4 Handwriting)
-- **Hook:** "You're a scientist watching Roz — note everything!"
-- **Key activity:** Watch a short nature clip; take joined notes in 2 minutes; check readability with a partner.
+- **Hook:** "You're a scientist watching a spider spin — note everything!"
+- **Key activity:** Watch a short clip of a spider building an orb web; take joined notes in 2 minutes; check readability with a partner.
 - **Check for understanding:** "Could your partner read all your notes? What would you change?" → Identifies a messy join or spacing issue.
 - **Differentiation:** support: fewer notes, key-word prompts / stretch: abbreviations with a key.
 - **Materials:** notebooks, a short nature video
 - **Joy:** "Field notes" in a scientist's notebook.
 
-### Lesson 125 — The robots arrive: tension and conflict
+### Lesson 125 — The County Fair: tension
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain how the author builds tension and conflict." (UK NC Y3/4 Reading – language; CCSS RL.2.5)
-- **Hook:** A "RECO" silhouette projected on the wall.
-- **Key activity:** Read the chapters where the robots come; mark techniques (short chapters, cliffhangers, danger) on a tension graph.
-- **Check for understanding:** "Why does the author use such short chapters here?" → Short chapters speed up the pace and end on cliffhangers, which builds tension.
-- **Differentiation:** support: tension graph with events / stretch: compare with the tension in *The Iron Man*.
-- **Materials:** class text, tension graphs
+- **Hook:** A rosette and a loudspeaker announcement: "Will the owner of the pig called Wilbur please come to the judges' stand…"
+- **Key activity:** Read the Fair chapters (the bigger pig next door, the judges passing Wilbur by, the announcement, Wilbur fainting, Charlotte growing weak); mark techniques on a tension graph.
+- **Check for understanding:** "How does White make us worry at the Fair, even though Charlotte's plan has worked so far?" → Another pig is bigger, the prize seems to go elsewhere, Wilbur faints and Charlotte is tired and weak — we don't know if the plan, or Charlotte, will last.
+- **Differentiation:** support: tension graph with events / stretch: compare with the tension in the fire-mountain chapters of *The Firework-Maker's Daughter*.
+- **Materials:** class text, tension graphs, a paper rosette
 - **Joy:** "Cliffhanger count" — the class rates each chapter ending.
 
-### Lesson 126 — The ending: what does belonging mean?
+### Lesson 126 — The ending: sad, happy or both?
 - **Duration:** 25 min
 - **Objective:** "By the end, I can discuss the ending and the book's big ideas using evidence." (UK NC Y3/4 Reading – themes; CCSS RL.2.2)
 - **Hook:** "Was it a happy ending? Vote before we discuss."
-- **Key activity:** Read the ending; philosophy-style discussion: Can a robot belong in the wild? What makes a home?; each child writes one sentence with evidence.
-- **Check for understanding:** "What evidence shows the island has become Roz's home?" → The animals' feelings, her promise to return, her family with Brightbill.
-- **Differentiation:** support: sentence frames / stretch: argue for a different ending.
+- **Key activity:** Read the final chapters (Charlotte's egg sac, her death at the Fair, Wilbur carrying the egg sac home, her children in spring); philosophy-style discussion: What makes a true friend? Can a sad ending also be a good one? Each child writes one sentence with evidence.
+- **Check for understanding:** "Is the ending happy, sad or both? Give evidence." → Both: Charlotte dies alone at the Fair, but Wilbur is saved and three of her daughters — Joy, Aranea and Nellie — stay in the barn as his friends, so her friendship lives on.
+- **Differentiation:** support: sentence frames / stretch: explain the meaning of the last line about a true friend and a good writer.
 - **Materials:** class text, voting cards
-- **Joy:** "Sequel predictions" — what might happen next?
+- **Joy:** "Friendship web" — each child adds a thread and a kind word for a classmate.
 
 ### Lesson 127 — Grammar for writing: fronted adverbials
 - **Duration:** 25 min
 - **Objective:** "By the end, I can start sentences with an adverbial phrase and use a comma after it." (UK NC Y4 VGP – early introduction; CCSS L.2.1f)
-- **Hook:** "At dawn, Roz… Beneath the pines, Brightbill…"
+- **Hook:** "At dawn, Wilbur… High in the doorway, Charlotte…"
 - **Key activity:** Collect adverbials for when, where and how; move them to the front of sentences with a comma; use them to vary story openings.
-- **Check for understanding:** "Why does 'As the storm raged, Roz held on' need a comma?" → The comma marks the end of the fronted adverbial before the main clause.
+- **Check for understanding:** "Why does 'As the fog lifted, Lurvy saw the web' need a comma?" → The comma marks the end of the fronted adverbial before the main clause.
 - **Differentiation:** support: adverbials for time only / stretch: vary adverbials for time, place and manner in one paragraph.
 - **Materials:** adverbial cards, sentence strips
 - **Joy:** "Adverbial dice" — roll for a where/when/how.
 
-### Lesson 128 — Narrative writing: a new chapter from an animal's viewpoint (plan)
+### Lesson 128 — Narrative writing: a new chapter from a barn animal's viewpoint (plan)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can plan a new chapter told by one of the animals." (UK NC Y3/4 Writing – plan; CCSS W.2.3)
-- **Hook:** "What did the island animals think when Roz first arrived?"
-- **Key activity:** Choose an animal; plan a chapter in 3–4 paragraphs (setting, meeting Roz, problem, change of feelings); rehearse orally.
+- **Objective:** "By the end, I can plan a new chapter told by one of the barn animals." (UK NC Y3/4 Writing – plan; CCSS W.2.3)
+- **Hook:** "What did the goose, the old sheep or Templeton really think when the words appeared in the web?"
+- **Key activity:** Choose an animal; plan a chapter in 3–4 paragraphs (setting, the event, a problem, a change of feelings); rehearse orally in the animal's voice.
 - **Check for understanding:** "How will your animal's feelings change in your chapter?" → Names start and end feelings and the cause.
 - **Differentiation:** support: picture plan with sentence starters / stretch: include a flashback or dialogue.
 - **Materials:** planning frames, animal pictures
@@ -1439,17 +1439,17 @@ re-teaching).
 ### Lesson 129 — Narrative writing: draft the opening
 - **Duration:** 30 min
 - **Objective:** "By the end, I can write a story opening in the first person that sets the scene." (UK NC Y3/4 Writing – draft; CCSS W.2.3)
-- **Hook:** Nature sounds (wind, waves, birds) while writing.
+- **Hook:** Barn sounds (hens, rain on a roof, a creaking door) while writing.
 - **Key activity:** Shared writing of a model opening; independent drafting of paragraph 1 with a fronted adverbial and an expanded noun phrase.
 - **Check for understanding:** "Read me the sentence that best shows your setting." → A sentence with sensory detail.
 - **Differentiation:** support: sentence starters / stretch: open with dialogue or a question.
 - **Materials:** plans, lined paper, word banks
-- **Joy:** Nature soundscape.
+- **Joy:** Barn soundscape.
 
 ### Lesson 130 — Narrative writing: draft the middle and end
 - **Duration:** 30 min
 - **Objective:** "By the end, I can write the rest of my chapter in paragraphs with dialogue." (UK NC Y3/4 Writing – draft; CCSS W.2.3)
-- **Hook:** "Now your animal meets Roz."
+- **Hook:** "Now your animal comes face to face with Wilbur or Charlotte."
 - **Key activity:** Draft paragraphs 2–4 with a new paragraph for each change of time, place or event; include punctuated dialogue.
 - **Check for understanding:** "Where did you start a new paragraph and why?" → At a change of time, place, speaker or event.
 - **Differentiation:** support: paragraph frame with prompts / stretch: end on a cliffhanger.
@@ -1459,7 +1459,7 @@ re-teaching).
 ### Lesson 131 — Narrative writing: revise and edit
 - **Duration:** 30 min
 - **Objective:** "By the end, I can revise my chapter for effect and edit spelling and punctuation." (UK NC Y3/4 Writing – revise/edit; CCSS W.2.5)
-- **Hook:** "Authors like Peter Brown revise many times."
+- **Hook:** "E. B. White rewrote and polished every sentence — so do we."
 - **Key activity:** Partner feedback against success criteria (viewpoint, paragraphs, dialogue, vivid words); revise three places; edit with dictionaries.
 - **Check for understanding:** "What change most improved your chapter?" → Names and justifies a change.
 - **Differentiation:** support: focused checklist / stretch: tighten the pace by cutting unnecessary words.
@@ -1469,54 +1469,54 @@ re-teaching).
 ### Lesson 132 — Narrative writing: publish and share
 - **Duration:** 25 min
 - **Objective:** "By the end, I can publish my chapter in neat joined handwriting and read it aloud." (UK NC Y3/4 Writing – publish; Handwriting)
-- **Hook:** "Our class sequel — The Island Remembers."
-- **Key activity:** Copy final version; add an illustration; read aloud to another class.
+- **Hook:** "Our class book — More Tales from Zuckerman's Barn."
+- **Key activity:** Copy final version; add an illustration in pencil like Garth Williams's; read aloud to another class.
 - **Check for understanding:** "How did you use your voice to show your animal's feelings?" → Describes expression choices.
 - **Differentiation:** support: publish a key paragraph / stretch: design the book cover.
-- **Materials:** paper, colouring pencils, binding
+- **Materials:** paper, drawing pencils, binding
 - **Joy:** Class-anthology launch.
 
 ### Lesson 133 — Spelling: homophones and near-homophones
 - **Duration:** 25 min
 - **Objective:** "By the end, I can choose the right homophone in context." (UK NC Y3/4 Spelling – homophones; CCSS L.2.2d)
-- **Hook:** "The bear had bare paws" — draw both meanings.
+- **Hook:** "Wilbur had a piece of apple in peace and quiet" — draw both meanings.
 - **Key activity:** Teach pairs: break/brake, meet/meat, peace/piece, plain/plane, whose/who's, weather/whether, scene/seen; draw and write sentences.
 - **Check for understanding:** "Which is correct: 'a piece of cake' or 'a peace of cake'? How will you remember?" → piece; e.g. "a piece of pie."
 - **Differentiation:** support: three pairs with pictures / stretch: write a paragraph using six homophones correctly.
 - **Materials:** homophone cards, drawing paper
 - **Joy:** Silly homophone cartoons.
 
-### Lesson 134 — Speaking: debate — should Roz stay on the island?
+### Lesson 134 — Speaking: debate — is Templeton a true friend?
 - **Duration:** 25 min
 - **Objective:** "By the end, I can give reasons and respond to others' points in a debate." (UK NC Spoken language; CCSS SL.2.1)
-- **Hook:** Two corners labelled "Stay" and "Leave."
-- **Key activity:** Prepare reasons in teams with evidence; take turns to speak and respond using "I agree/disagree because…"; vote again at the end.
+- **Hook:** Two corners labelled "True friend" and "Only in it for himself."
+- **Key activity:** Prepare reasons in teams with evidence (the words from the dump, the egg sac, his complaints and his rewards); take turns to speak and respond using "I agree/disagree because…"; vote again at the end.
 - **Check for understanding:** "Did anyone change your mind? What reason did it?" → Names a persuasive point.
 - **Differentiation:** support: reason cards / stretch: summarise the other side fairly.
 - **Materials:** reason cards, corner signs
 - **Joy:** "Human vote" — move corners.
 
-### Lesson 135 — Reading: comparing two robot stories
+### Lesson 135 — Reading: comparing two stories of loyal friends
 - **Duration:** 25 min
-- **Objective:** "By the end, I can compare two stories about machines and explain their messages." (UK NC Y3/4 Reading – compare; CCSS RL.2.9)
-- **Hook:** Pictures of the Iron Man and Roz side by side.
-- **Key activity:** Compare characters, settings, problems and messages using a grid; discuss what both stories suggest about fear of the unknown.
-- **Check for understanding:** "What message do both books share?" → Don't judge by appearance; kindness brings belonging and peace.
+- **Objective:** "By the end, I can compare two stories and explain their messages about friendship." (UK NC Y3/4 Reading – compare; CCSS RL.2.9)
+- **Hook:** Pictures of Charlotte in her web and of Chulak riding Hamlet the elephant side by side.
+- **Key activity:** Compare characters, settings, problems and messages of *Charlotte's Web* and *The Firework-Maker's Daughter* using a grid; discuss what both stories say about loyal friends who take risks for someone else.
+- **Check for understanding:** "What message about friendship do both books share?" → True friends help even when it is hard or costly — Charlotte works until she is exhausted; Chulak and Hamlet risk the journey to the fire-mountain.
 - **Differentiation:** support: grid with prompts / stretch: write a paragraph comparing them with "Both… However…".
 - **Materials:** both books, comparison grids
-- **Joy:** "Robot summit" role play between Roz and the Iron Man.
+- **Joy:** "Friendship summit" role play between Charlotte and Chulak.
 
-### Lesson 136 — End-of-unit check: The Wild Robot
+### Lesson 136 — End-of-unit check: Charlotte's Web
 - **Duration:** 25 min
 - **Objective:** "By the end, I can show my understanding of character, viewpoint and narrative writing." (Assessment)
 - **Hook:** "Unseen chapter" — an extract from the book not yet studied closely.
 - **Key activity:** Answer questions (inference, viewpoint, vocabulary); write a paragraph from a new viewpoint using a fronted adverbial and dialogue; spell a Unit 9 word list.
-- **Check for understanding:** "How does this extract show Roz's character? Give evidence." → Quotes and explains.
+- **Check for understanding:** "How does this extract show what Charlotte is like? Give evidence." → Quotes and explains.
 - **Differentiation:** support: read aloud; frame / stretch: extra question on the author's structure.
 - **Materials:** extract, question sheet, lined paper
-- **Joy:** A "wild" picnic outdoors to celebrate finishing the book.
+- **Joy:** A barn picnic outdoors to celebrate finishing the book.
 
-**End-of-unit check:** Answer inference and viewpoint questions on an unseen extract with evidence, and write a first-person paragraph from an animal's viewpoint with a fronted adverbial, a pronoun used clearly and punctuated dialogue.
+**End-of-unit check:** Answer inference and viewpoint questions on an unseen extract with evidence, and write a first-person paragraph from a barn animal's viewpoint with a fronted adverbial, a pronoun used clearly and punctuated dialogue.
 
 ## Unit 10 — Look Up! and real lives: biography and research
 
@@ -1832,7 +1832,7 @@ re-teaching).
 - **Check for understanding:** "Who is your audience, and how will that change your writing?" → e.g. shorter sentences and pictures for younger readers; formal tone for the newsletter.
 - **Differentiation:** support: choose from three genres with frames / stretch: combine genres (a story with a news report inside it).
 - **Materials:** planning frames from each unit, audience cards
-- **Joy:** Free choice — many children pick a Wild Robot or Iron Man sequel.
+- **Joy:** Free choice — many children pick a *Charlotte's Web* or *Firework-Maker's Daughter* sequel.
 
 ### Lesson 166 — Independent writing: draft
 - **Duration:** 30 min
@@ -1894,10 +1894,10 @@ re-teaching).
 - *Please Mrs Butler* — Allan Ahlberg (Term 1): the best-loved school poems for performance; real voices and perfect comic timing.
 - *Flotsam* — David Wiesner (Term 1): a Caldecott-winning wordless book that makes inference visible.
 - *Yeh-Shen* — Ai-Ling Louie, ill. Ed Young; *Mufaro's Beautiful Daughters* — John Steptoe; *The Egyptian Cinderella* — Shirley Climo; *The Rough-Face Girl* — Rafe Martin, ill. David Shannon (Term 2): the same tale across China, Zimbabwe, Egypt and the Algonquin peoples — the ideal way to teach comparison and culture.
-- *The Iron Man* — Ted Hughes (Term 2): a poet's short novel; language worth stealing and a powerful message about fear and peace.
+- *The Firework-Maker's Daughter* — Philip Pullman (Term 2): a short, gripping quest in a fairy-tale kingdom inspired by South-East Asia (with the real volcano Mount Merapi); vivid, sensory language worth stealing, a determined heroine and loyal friends. (*The Iron Man* is studied in full in Year 3.)
 - *Talking Turkeys* — Benjamin Zephaniah (Term 2): rhythmic, funny, big-hearted performance poems that celebrate voice.
 - *The Street Beneath My Feet* — Charlotte Guillain & Yuval Zommer (Term 2): a fold-out non-fiction journey to the Earth's core; the model for explanation writing and a Science link.
-- *The Wild Robot* — Peter Brown (Term 3): a modern classic with very short chapters, ideal for daily read-aloud, about kindness, nature and belonging.
+- *Charlotte's Web* — E. B. White (Term 3): the classic of friendship and loss, in short, perfectly written chapters; unmatched for character, viewpoint and a model of how a sad ending can also be a hopeful one. (*The Wild Robot* is studied in Year 4.)
 - *Look Up!* — Nathan Byron & Dapo Adeola (Term 3): a joyful picture book about a Black girl who dreams of space; launches biography and research.
 - *Mae Among the Stars* — Roda Ahmed; *Wangari's Trees of Peace* — Jeanette Winter; *Counting on Katherine* — Helaine Becker (Term 3): accurate, beautiful picture-book biographies of women who changed science and the world.
 - *Werewolf Club Rules* — Joseph Coelho (Term 3): contemporary poems that show children how to find poems in their own lives.
@@ -1905,13 +1905,13 @@ re-teaching).
 **Independent reading shelf (book corner, ages 7–8)**
 - *The Stories Julian Tells* — Ann Cameron: warm, funny family stories; ideal first chapter book.
 - *Mercy Watson to the Rescue* — Kate DiCamillo: short, hilarious chapters that build fluency.
-- *Flat Stanley* — Jeff Brown: a classic, instantly re-readable adventure.
-- *The Hodgeheg* — Dick King-Smith: a short animal story with excellent vocabulary.
+- *Clementine* — Sara Pennypacker: a funny, big-hearted girl who is always in trouble; short chapters.
+- *Juana & Lucas* — Juana Medina: a girl in Bogotá, Colombia, who would rather not learn English — yet.
 - *Ling & Ting: Not Exactly the Same!* — Grace Lin: twin stories for early independent readers.
 - *Ottoline and the Yellow Cat* — Chris Riddell: a richly illustrated mystery that rewards close looking.
 - *Pippi Longstocking* — Astrid Lindgren: a Swedish classic heroine, strong and funny.
 - *The Worst Witch* — Jill Murphy: a school story with short chapters and pictures.
-- *Frog and Toad Are Friends* — Arnold Lobel: gentle, perfectly written stories for fluency practice.
+- *Lulu and the Duck in the Park* — Hilary McKay: a short, warm chapter book about an animal-loving girl.
 - *Amazing Grace* — Mary Hoffman: a picture book about a girl who proves she can be anything.
 - *Ada Twist, Scientist* — Andrea Beaty: rhyming picture book celebrating curiosity (links to science).
 
@@ -1929,9 +1929,9 @@ re-teaching).
 4. **Spelling rules** — applies the suffix rules (just add, drop e, double, y → i, -le → -ly, -ic → -ically), the prefixes taught, the -tion/-sion/-ssion/-cian, -ous, -ture/-sure families, and spells most Year 3–4 list words taught. *Seen:* dictation of 20 words and use in independent writing.
 5. **Joined handwriting** — writes legibly in a joined style with consistent size, spacing and slant. *Seen:* the published independent piece.
 6. **Paragraphs** — organises writing in paragraphs with topic sentences, and uses headings/subheadings in non-fiction. *Seen:* the biography and explanation pieces.
-7. **Punctuation and grammar for writing** — uses inverted commas for direct speech with reporting clauses; commas after fronted clauses; a/an correctly; past and present perfect appropriately. *Seen:* dialogue in the Cinderella and Wild Robot chapters.
+7. **Punctuation and grammar for writing** — uses inverted commas for direct speech with reporting clauses; commas after fronted clauses; a/an correctly; past and present perfect appropriately. *Seen:* dialogue in the Cinderella and *Charlotte's Web* chapters.
 8. **Genre writing** — plans, drafts, revises and publishes a narrative, a letter, a news report, an explanation and a biography with the right features for audience and purpose. *Seen:* the writing portfolio.
-9. **Speaking and listening** — recites a poem of 12+ lines from memory with expression, presents information clearly and takes part in debates, building on others' points. *Seen:* poetry slam, living museum, Wild Robot debate.
+9. **Speaking and listening** — recites a poem of 12+ lines from memory with expression, presents information clearly and takes part in debates, building on others' points. *Seen:* poetry slam, living museum, *Charlotte's Web* debate.
 10. **Reading for pleasure** — can name favourite authors and books, recommend a book with reasons and chooses to read independently. *Seen:* book-talk recommendations and reading log.
 
 ## Teacher guidance
@@ -1939,7 +1939,7 @@ re-teaching).
 **Phonics must be finished, not assumed.** The Lesson 1 screen identifies any child who has not secured Phase 5; they need daily 10-minute keep-up sessions from a validated programme, with *decodable* books at their level, until they are secure — alongside (never instead of) the class text, which they access through read-aloud. Do not give a child still learning to decode a book full of graphemes they haven't been taught for independent reading.
 
 **Common misconceptions (and the fix)**
-- *Doubling or dropping letters wrongly* ('hopeing', 'runing', 'happyness'): teach the rules exactly — double only after a single short vowel + single consonant (and never double x, w or y); y → i only after a consonant, and y stays before -ing.
+- *Doubling or dropping letters wrongly* ('hopeing', 'runing', 'happyness'): teach the rules exactly — double only after a single short vowel + single consonant (and never double x, w or y); in longer words, double only when the last syllable is stressed (begin → beginning, but visit → visited, garden → gardening); y → i only after a consonant, and y stays before -ing.
 - *Prefixes changing the root* ('mispell', 'dissappear'): a prefix never changes the root — just add it (mis + spell = misspell; dis + appear = disappear).
 - *Apostrophes for plurals* ('apple's for sale'): revisit that apostrophes show omission or possession only.
 - *Inverted commas around the whole sentence* or punctuation outside them: only the exact spoken words go inside, with their punctuation.
@@ -1949,7 +1949,7 @@ re-teaching).
 
 **Reading volume matters as much as the lessons.** Protect daily independent reading and daily read-aloud (15 minutes each). A child who reads 20 minutes a day meets well over a million words a year.
 
-**International and inclusive.** The spine deliberately includes authors and settings from Nigeria/West Africa, China, Zimbabwe, Egypt, North America, the Caribbean diaspora and the UK. Swap local-context examples (letters to a pen-pal class, a local hero for the biography) to fit your own country. Where a book references a festival or custom unfamiliar to the class (e.g. Christmas in *Talking Turkeys*), treat it as a window into another family's life.
+**International and inclusive.** The spine deliberately includes authors and settings from Nigeria/West Africa, China, Zimbabwe, Egypt, North America, a South-East-Asian-inspired kingdom, the Caribbean diaspora and the UK. Swap local-context examples (letters to a pen-pal class, a local hero for the biography) to fit your own country. Where a book references a festival or custom unfamiliar to the class (e.g. Christmas in *Talking Turkeys*), treat it as a window into another family's life.
 
 **Vertical alignment.** Year 1 completed Phase 5 and the core Phase 6 suffixes, sentence punctuation and early conjunctions; Year 2 finishes phonics, joins handwriting, and introduces paragraphs, direct speech and genre writing through whole books. Year 3 (ages 8–9) extends to longer novels, fronted adverbials in all writing, the possessive apostrophe with plurals, more complex suffixes, and writing for effect — so the non-negotiables to leave Year 2 with are fluent decoding, joined handwriting, paragraphs, and evidence-based answers.
 

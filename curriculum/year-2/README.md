@@ -44,7 +44,7 @@ civic — of a healthy, kind, capable person.
 | Subject | Term 1 | Term 2 | Term 3 |
 |---|---|---|---|
 | Maths | Place value to 1000; mental +/−; column methods and bar models | 3, 4, 8 tables; ×/÷ bigger numbers; money; statistics | Length and perimeter; fractions; time; angles and shape; mass and capacity; consolidation |
-| English | Phonics bridge and joined handwriting; *The Owl Who Was Afraid of the Dark* (diary); *Please Mrs Butler* (poetry); *Anna Hibiscus* (letters) | Cinderella stories from around the world (retelling, direct speech); *The Iron Man* (news reports); *Talking Turkeys* (performance poetry); *The Street Beneath My Feet* (explanations) | *The Wild Robot* (viewpoint narrative); *Look Up!* and biographies; *Werewolf Club Rules* (own poems); year showcase |
+| English | Phonics bridge and joined handwriting; *The Owl Who Was Afraid of the Dark* (diary); *Please Mrs Butler* (poetry); *Anna Hibiscus* (letters) | Cinderella stories from around the world (retelling, direct speech); *The Firework-Maker's Daughter* (news reports); *Talking Turkeys* (performance poetry); *The Street Beneath My Feet* (explanations) | *Charlotte's Web* (viewpoint narrative); *Look Up!* and biographies; *Werewolf Club Rules* (own poems); year showcase |
 | Science | Working scientifically; plants; animals and humans (start) | Animals and humans; rocks, fossils and soils; light (start) | Light, shadows and the Sun; forces and magnets; science fair |
 | History | Historian's toolkit; hunters to farmers (Stone–Iron Age) | Ancient Egypt; the first cities (start) | Sumer, Indus, Shang (finish); big timeline and ancient history near me |
 | Geography | The globe, hemispheres, time zones; map skills | Fieldwork; rivers of the world | Mountains, volcanoes, earthquakes; my country |
@@ -98,8 +98,8 @@ read-aloud of the class text, 5 minutes of maths fluency (counting in 3s/4s/8s/5
 | Term | Whole books |
 |---|---|
 | 1 | *The Owl Who Was Afraid of the Dark* (Jill Tomlinson); *Anna Hibiscus* (Atinuke); *Please Mrs Butler* (Allan Ahlberg); *Flotsam* (David Wiesner) |
-| 2 | *Yeh-Shen* (Ai-Ling Louie, ill. Ed Young), *Mufaro's Beautiful Daughters* (John Steptoe), *The Egyptian Cinderella* (Shirley Climo), *The Rough-Face Girl* (Rafe Martin); *The Iron Man* (Ted Hughes); *Talking Turkeys* (Benjamin Zephaniah); *The Street Beneath My Feet* (Charlotte Guillain & Yuval Zommer) |
-| 3 | *The Wild Robot* (Peter Brown); *Look Up!* (Nathan Byron & Dapo Adeola) with *Mae Among the Stars*, *Wangari's Trees of Peace*, *Counting on Katherine*; *Werewolf Club Rules* (Joseph Coelho) |
+| 2 | *Yeh-Shen* (Ai-Ling Louie, ill. Ed Young), *Mufaro's Beautiful Daughters* (John Steptoe), *The Egyptian Cinderella* (Shirley Climo), *The Rough-Face Girl* (Rafe Martin); *The Firework-Maker's Daughter* (Philip Pullman); *Talking Turkeys* (Benjamin Zephaniah); *The Street Beneath My Feet* (Charlotte Guillain & Yuval Zommer) |
+| 3 | *Charlotte's Web* (E. B. White); *Look Up!* (Nathan Byron & Dapo Adeola) with *Mae Among the Stars*, *Wangari's Trees of Peace*, *Counting on Katherine*; *Werewolf Club Rules* (Joseph Coelho) |
 
 ## Vertical alignment
 
