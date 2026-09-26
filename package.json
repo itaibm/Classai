@@ -18,7 +18,8 @@
     "test:teach": "node --import tsx --test server/src/teach/authored.test.ts",
     "test:curriculum": "node --import tsx --test server/src/services/curriculum.test.ts",
     "test:ai": "node --import tsx --test server/src/ai/ai-layer.test.ts",
-    "test": "npm run test:practice && npm run test:teach && npm run test:curriculum && npm run test:ai"
+    "test:memory": "node --import tsx --test server/src/memory/memory.test.ts",
+    "test": "npm run test:practice && npm run test:teach && npm run test:curriculum && npm run test:ai && npm run test:memory"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

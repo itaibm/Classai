@@ -1,9 +1,13 @@
 /** All Classai HTTP endpoints, registered under /api. */
-import type { FastifyInstance } from 'fastify';
+import type { FastifyInstance, FastifyReply } from 'fastify';
 import { nanoid } from 'nanoid';
+import { z } from 'zod';
 import type {
   AISuggestion,
   AvatarConfig,
+  CatalogYear,
+  ClassDefinition,
+  LessonBlock,
   Kid,
   KidResponse,
   Lesson,
@@ -43,14 +47,18 @@ import {
   deleteLesson,
   generateLessonDraft,
   reviseLessonDraft,
-  saveLessonDraft
+  saveLessonDraft,
+  type LessonDraftInput
 } from './services/lesson-authoring.ts';
 import { startSession, nextTurn, MASTERED, starsFor } from './teach/index.ts';
 import {
   getOrInitLearner,
   courseProgress,
-  recommendNext
+  recommendNext,
+  curriculumProgress,
+  type LessonOutcome
 } from './memory/index.ts';
+import { BlockSchema } from './ai/blocks.ts';
 import { checkPin, hasParentToken, issueToken, pinIsSet, registerParentGuard, storePin, validPin } from './parent-auth.ts';
 
 const now = () => new Date().toISOString();
@@ -97,6 +105,124 @@ function writeSchedule(kidId: string, incoming: WeeklySchedule): WeeklySchedule 
   out.updatedAt = now();
   db.settings.set(`schedule:${kidId}`, JSON.stringify(out));
   return out;
+}
+
+// ---- write-route validation ------------------------------------------------
+
+const AvatarInput = z.object({
+  character: z.enum(['sage', 'nova', 'pip']).optional(),
+  hue: z.number().min(0).max(360).optional(),
+  voice: z.string().max(120).optional(),
+  rate: z.number().min(0.25).max(3).optional()
+});
+const KidCreateInput = z.object({
+  name: z.string().trim().min(1, 'name is required').max(60, 'name must be at most 60 characters'),
+  age: z.number().int('age must be a whole number').min(4, 'age must be 4–14').max(14, 'age must be 4–14').optional(),
+  gradeLevel: z.string().max(60).optional(),
+  interests: z.array(z.string().trim().min(1).max(40, 'each interest must be at most 40 characters')).max(10, 'at most 10 interests').optional(),
+  avatar: AvatarInput.optional()
+});
+// Age range is checked in the handler on update so a legacy out-of-range age can be kept as-is.
+const KidUpdateInput = KidCreateInput.partial().extend({ age: z.number().int('age must be a whole number').optional() });
+
+const LessonDraftInputSchema = z.object({
+  title: z.string().max(200).optional(),
+  objectives: z.array(z.string().max(500)).max(20).optional(),
+  analysis: z.object({}).passthrough().optional(),
+  plan: z
+    .array(
+      z.object({
+        kind: z.enum(['hook', 'explain', 'example', 'check', 'practice', 'recap']),
+        goal: z.string(),
+        note: z.string().optional().default(''),
+        successCriteria: z.string().optional().default('')
+      }).passthrough()
+    )
+    .min(1, 'plan needs at least one beat')
+    .max(40)
+    .optional(),
+  difficulty: z.enum(['gentle', 'standard', 'challenge']).optional(),
+  kind: z.enum(['lesson', 'diagnostic', 'review']).optional()
+});
+
+const SuggestionUpdateInput = z.object({
+  title: z.string().max(200).optional(),
+  objective: z.string().max(1000).optional(),
+  lessonId: z.string().max(100).optional(),
+  block: BlockSchema.optional()
+});
+
+const ScheduleEntryInput = z.object({
+  id: z.string().max(100).optional(),
+  classId: z.string().min(1).max(200),
+  time: z.string().regex(/^\d{1,2}:\d{2}$/, 'time must be HH:MM').optional(),
+  order: z.number().int().optional()
+});
+const ScheduleDayInput = z.array(ScheduleEntryInput).max(20).optional();
+const ScheduleInput = z.object({
+  schedule: z.object({
+    days: z.object({
+      mon: ScheduleDayInput, tue: ScheduleDayInput, wed: ScheduleDayInput, thu: ScheduleDayInput,
+      fri: ScheduleDayInput, sat: ScheduleDayInput, sun: ScheduleDayInput
+    })
+  }).passthrough()
+});
+
+const CatalogAssignInput = z.object({
+  kidId: z.string().min(1, 'kidId is required'),
+  year: z.number().int('year must be a whole number').min(0, 'year must be 0 (Foundation) to 6').max(6, 'year must be 0 (Foundation) to 6'),
+  subject: z.string().trim().min(1, 'subject is required').max(60)
+});
+
+/** Parse a body with a zod schema; on failure send a 400 with a readable message. */
+function parseBody<T extends z.ZodTypeAny>(schema: T, body: unknown, reply: FastifyReply): z.infer<T> | undefined {
+  const r = schema.safeParse(body ?? {});
+  if (r.success) return r.data;
+  const msg = r.error.issues
+    .slice(0, 3)
+    .map((i) => (i.path.length ? `${i.path.join('.')}: ${i.message}` : i.message))
+    .join('; ');
+  reply.status(400).send({ error: `Invalid request — ${msg}` });
+  return undefined;
+}
+
+/** Map a service-layer error: no brain → 400, not found → 404, state conflict → 409, else 500. */
+function sendServiceError(reply: FastifyReply, error: unknown, log: FastifyInstance['log']) {
+  const message = (error as Error)?.message || 'server_error';
+  if (error instanceof NoBrainError) return reply.status(400).send({ error: message });
+  if (/not found/i.test(message)) return reply.status(404).send({ error: message });
+  if (/only draft|existing lesson|not approved/i.test(message)) return reply.status(409).send({ error: message });
+  log.error(error);
+  return reply.status(500).send({ error: message });
+}
+
+/**
+ * Progress + recommendation for each of a learner's classes. Curriculum classes
+ * (`cur:y<N>-<subject>`) use the catalog + ended sessions; library classes use
+ * their syllabus topics + the mastery map. Catalog/outcomes load lazily, once.
+ */
+function progressResolver(kidId: string) {
+  const model = getOrInitLearner(kidId);
+  let catalog: CatalogYear[] | undefined;
+  let outcomes: LessonOutcome[] | undefined;
+  return (course: ClassDefinition) => {
+    const key = parseCurriculumClassId(course.id);
+    if (key) {
+      catalog ??= buildCatalog();
+      const subject = catalog.find((y) => y.year === key.year)?.subjects.find((s) => s.subject === key.subject);
+      if (subject) {
+        outcomes ??= db.sessions.listOutcomesByKid(kidId);
+        const r = curriculumProgress(course, key.year, subject, outcomes);
+        return { ...r, topicCount: r.progress.topics.length };
+      }
+    }
+    const topics = db.topics.listByClass(course.id);
+    return {
+      progress: courseProgress(course, topics, model),
+      recommendation: recommendNext(course, topics, model),
+      topicCount: topics.length
+    };
+  };
 }
 
 /** In-flight OpenAI OAuth attempts (state -> PKCE verifier). */
@@ -308,8 +434,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     }
   });
 
-  app.delete('/api/curriculum/attachments/:id', async (req) => {
-    db.curriculumAttachments.remove((req.params as { id: string }).id);
+  app.delete('/api/curriculum/attachments/:id', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    if (!db.curriculumAttachments.get(id)) return reply.status(404).send({ error: 'attachment not found' });
+    db.curriculumAttachments.remove(id);
     return { ok: true };
   });
 
@@ -325,8 +453,8 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
 
   // Assign a learner to a subject-year (creates the hidden shared class + enrollment).
   app.post('/api/catalog/assign', async (req, reply) => {
-    const b = req.body as { kidId?: string; year?: number; subject?: string };
-    if (!b?.kidId || !b?.year || !b?.subject) return reply.status(400).send({ error: 'kidId, year and subject required' });
+    const b = parseBody(CatalogAssignInput, req.body, reply);
+    if (!b) return reply;
     try {
       const cls = assignCurriculum(b.kidId, b.year, b.subject);
       return { classId: cls.id };
@@ -421,8 +549,8 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.get('/api/kids', async () => ({ kids: db.kids.list() }));
 
   app.post('/api/kids', async (req, reply) => {
-    const b = req.body as Partial<Kid>;
-    if (!b?.name) return reply.status(400).send({ error: 'name required' });
+    const b = parseBody(KidCreateInput, req.body, reply);
+    if (!b) return reply;
     const avatar: AvatarConfig = {
       character: b.avatar?.character || 'sage',
       hue: b.avatar?.hue ?? 210,
@@ -453,7 +581,11 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.put('/api/kids/:id', async (req, reply) => {
     const kid = db.kids.get((req.params as { id: string }).id);
     if (!kid) return reply.status(404).send({ error: 'not found' });
-    const b = req.body as Partial<Kid>;
+    const b = parseBody(KidUpdateInput, req.body, reply);
+    if (!b) return reply;
+    if (b.age !== undefined && b.age !== kid.age && (b.age < 4 || b.age > 14)) {
+      return reply.status(400).send({ error: 'Invalid request — age: age must be 4–14' });
+    }
     const updated: Kid = {
       ...kid,
       name: b.name ?? kid.name,
@@ -465,8 +597,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     return { kid: db.kids.update(updated) };
   });
 
-  app.delete('/api/kids/:id', async (req) => {
-    db.kids.remove((req.params as { id: string }).id);
+  app.delete('/api/kids/:id', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    if (!db.kids.get(id)) return reply.status(404).send({ error: 'learner not found' });
+    db.kids.remove(id);
     return { ok: true };
   });
 
@@ -481,11 +615,9 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.put('/api/kids/:id/schedule', async (req, reply) => {
     const id = (req.params as { id: string }).id;
     if (!db.kids.get(id)) return reply.status(404).send({ error: 'not found' });
-    const body = req.body as { schedule?: WeeklySchedule };
-    if (!body?.schedule || typeof body.schedule !== 'object' || !body.schedule.days) {
-      return reply.status(400).send({ error: 'invalid schedule' });
-    }
-    return { schedule: writeSchedule(id, { ...body.schedule, kidId: id }) };
+    const body = parseBody(ScheduleInput, req.body, reply);
+    if (!body) return reply;
+    return { schedule: writeSchedule(id, { ...(body.schedule as unknown as WeeklySchedule), kidId: id }) };
   });
 
   // ---- shared class library ------------------------------------------------
@@ -533,8 +665,10 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     return { classDefinition: updateClass(classDefinition, req.body as any) };
   });
 
-  app.delete('/api/classes/:id', async (req) => {
-    db.classes.remove((req.params as { id: string }).id);
+  app.delete('/api/classes/:id', async (req, reply) => {
+    const id = (req.params as { id: string }).id;
+    if (!db.classes.get(id)) return reply.status(404).send({ error: 'class not found' });
+    db.classes.remove(id);
     return { ok: true };
   });
 
@@ -555,28 +689,25 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
 
   app.post('/api/classes/:id/syllabus/regenerate', async (req, reply) => {
     try { return { topics: await buildSyllabus((req.params as { id: string }).id) }; }
-    catch (error: any) {
-      const status = String(error.message).includes('existing lesson') ? 409 : 404;
-      return reply.status(status).send({ error: error.message });
-    }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   app.get('/api/kids/:id/classes', async (req, reply) => {
     const kidId = (req.params as { id: string }).id;
     if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
-    const model = getOrInitLearner(kidId);
+    const resolve = progressResolver(kidId);
     const classes = db.enrollments.listByKid(kidId).flatMap((enrollment) => {
       const classDefinition = db.classes.get(enrollment.classId);
       if (!classDefinition) return [];
-      const topics = db.topics.listByClass(classDefinition.id);
+      const { progress, recommendation, topicCount } = resolve(classDefinition);
       const approvedLessons = db.lessons.listByClass(classDefinition.id).filter((lesson) => lesson.status === 'approved');
       const curriculumLessons = db.curriculumAttachments.listByClass(classDefinition.id);
       return [{
         classDefinition,
         year: db.schoolYears.get(classDefinition.yearId),
-        progress: courseProgress(classDefinition, topics, model),
-        recommendation: recommendNext(classDefinition, topics, model),
-        topicCount: topics.length,
+        progress,
+        recommendation,
+        topicCount,
         approvedLessons,
         curriculumLessons
       }];
@@ -592,8 +723,9 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     catch (error: any) { return reply.status(404).send({ error: error.message }); }
   });
 
-  app.delete('/api/classes/:id/enrollments/:kidId', async (req) => {
+  app.delete('/api/classes/:id/enrollments/:kidId', async (req, reply) => {
     const { id, kidId } = req.params as { id: string; kidId: string };
+    if (!db.enrollments.get(id, kidId)) return reply.status(404).send({ error: 'enrollment not found' });
     db.enrollments.remove(id, kidId);
     return { ok: true };
   });
@@ -604,7 +736,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     const body = req.body as { topicId?: string; kind?: 'lesson' | 'diagnostic' | 'review' };
     if (!body?.topicId) return reply.status(400).send({ error: 'topicId required' });
     try { return { lesson: await generateLessonDraft((req.params as { id: string }).id, body.topicId, body.kind || 'lesson') }; }
-    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   app.get('/api/lessons/:id', async (req, reply) => {
@@ -614,30 +746,32 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   });
 
   app.put('/api/lessons/:id', async (req, reply) => {
-    try { return { lesson: saveLessonDraft((req.params as { id: string }).id, req.body as any) }; }
-    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+    const body = parseBody(LessonDraftInputSchema, req.body, reply);
+    if (!body) return reply;
+    try { return { lesson: saveLessonDraft((req.params as { id: string }).id, body as LessonDraftInput) }; }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   app.post('/api/lessons/:id/revise', async (req, reply) => {
     const instruction = (req.body as { instruction?: string })?.instruction;
     if (!instruction?.trim()) return reply.status(400).send({ error: 'revision instruction required' });
     try { return { lesson: await reviseLessonDraft((req.params as { id: string }).id, instruction) }; }
-    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   app.post('/api/lessons/:id/approve', async (req, reply) => {
     try { return { lesson: approveLesson((req.params as { id: string }).id) }; }
-    catch (error: any) { return reply.status(409).send({ error: error.message }); }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   app.post('/api/lessons/:id/archive', async (req, reply) => {
     try { return { lesson: archiveLesson((req.params as { id: string }).id) }; }
-    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   app.delete('/api/lessons/:id', async (req, reply) => {
     try { deleteLesson((req.params as { id: string }).id); return { ok: true }; }
-    catch (error: any) { return reply.status(404).send({ error: error.message }); }
+    catch (error) { return sendServiceError(reply, error, app.log); }
   });
 
   // ---- live teaching -------------------------------------------------------
@@ -690,13 +824,14 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
   app.put('/api/suggestions/:id', async (req, reply) => {
     const suggestion = db.aiSuggestions.get((req.params as { id: string }).id);
     if (!suggestion) return reply.status(404).send({ error: 'suggestion not found' });
-    const body = req.body as Partial<Pick<AISuggestion, 'title' | 'objective' | 'lessonId' | 'block'>>;
+    const body = parseBody(SuggestionUpdateInput, req.body, reply);
+    if (!body) return reply;
     const updated: AISuggestion = {
       ...suggestion,
       title: body.title?.trim() || suggestion.title,
       objective: body.objective?.trim() || suggestion.objective,
       lessonId: body.lessonId ?? suggestion.lessonId,
-      block: body.block ?? suggestion.block,
+      block: (body.block as LessonBlock | undefined) ?? suggestion.block,
       updatedAt: now()
     };
     return { suggestion: db.aiSuggestions.update(updated) };
@@ -717,27 +852,36 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
 
   // ---- progress, history, memory (parent views) ----------------------------
 
-  app.get('/api/kids/:id/progress', async (req) => {
+  app.get('/api/kids/:id/progress', async (req, reply) => {
     const kidId = (req.params as { id: string }).id;
-    const model = getOrInitLearner(kidId);
+    if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
+    const resolve = progressResolver(kidId);
     const courses = db.enrollments.listByKid(kidId).flatMap((enrollment) => {
       const course = db.classes.get(enrollment.classId);
       if (!course) return [];
-      const topics = db.topics.listByClass(course.id);
-      return {
-        progress: courseProgress(course, topics, model),
-        recommendation: recommendNext(course, topics, model)
-      };
+      const { progress, recommendation } = resolve(course);
+      return [{ progress, recommendation }];
     });
-    return { courses, episodes: db.episodes.listByKid(kidId, 40), model };
+    return { courses, episodes: db.episodes.listByKid(kidId, 40), model: getOrInitLearner(kidId) };
   });
 
-  app.get('/api/kids/:id/sessions', async (req) => ({
-    sessions: db.sessions.listByKid((req.params as { id: string }).id)
-  }));
+  // Newest-first lesson history WITHOUT transcripts (GET /api/sessions/:id has the full one).
+  app.get('/api/kids/:id/sessions', async (req, reply) => {
+    const kidId = (req.params as { id: string }).id;
+    if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
+    const raw = (req.query as { limit?: string } | undefined)?.limit;
+    let limit = 20;
+    if (raw !== undefined && raw !== '') {
+      const n = Number(raw);
+      if (!Number.isInteger(n) || n < 1) return reply.status(400).send({ error: 'limit must be a positive whole number' });
+      limit = Math.min(100, n);
+    }
+    return { sessions: db.sessions.listSummariesByKid(kidId, limit), limit };
+  });
 
-  app.get('/api/kids/:id/memory', async (req) => ({
-    model: getOrInitLearner((req.params as { id: string }).id),
-    episodes: db.episodes.listByKid((req.params as { id: string }).id, 80)
-  }));
+  app.get('/api/kids/:id/memory', async (req, reply) => {
+    const kidId = (req.params as { id: string }).id;
+    if (!db.kids.get(kidId)) return reply.status(404).send({ error: 'learner not found' });
+    return { model: getOrInitLearner(kidId), episodes: db.episodes.listByKid(kidId, 80) };
+  });
 }

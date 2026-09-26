@@ -719,6 +719,8 @@ export interface MasteryEntry {
   note: string;
   topicId?: string;
   updatedAt: string;
+  evidence?: number; // observations folded in so far (absent on legacy entries)
+  reviews?: number; // separate study occasions — indexes the spaced-review ladder
 }
 
 /** LONG-TERM memory: the durable, cross-lesson model of one learner. */
@@ -890,6 +892,56 @@ export interface CourseProgress {
   classDefinition: ClassDefinition;
   topics: TopicProgress[];
   completion: number; // 0..1 share of topics at/above mastery threshold
+  /** Set for curriculum classes (`cur:y<N>-<subject>`): catalog-based progress. */
+  curriculum?: CurriculumProgress;
+}
+
+/** One catalog lesson as a parent sees it: attempts + best result. */
+export interface CurriculumLessonProgress {
+  lessonId: string;
+  unitNumber: number;
+  lessonNumber: number;
+  title: string;
+  attempts: number; // ended sessions of this lesson
+  bestMastery?: number; // 0..1, best lessonMastery across attempts (unset if never finished)
+  stars?: 1 | 2 | 3;
+  done: boolean; // learned: mastered (>= 0.6) or moved on after 2 attempts
+  lastFinished?: string; // ISO time the most recent attempt ended
+}
+
+export interface CurriculumUnitProgress {
+  number: number;
+  title: string;
+  lessons: CurriculumLessonProgress[];
+  completed: number;
+  total: number;
+  averageMastery?: number; // over attempted lessons only
+}
+
+export interface CurriculumProgress {
+  year: number;
+  subject: string;
+  subjectLabel: string;
+  units: CurriculumUnitProgress[];
+  completed: number;
+  total: number;
+  next?: Recommendation; // first lesson not yet learned
+  review?: Recommendation; // weakest mastered-but-shaky lesson that's gone cold
+}
+
+/** A session without its transcript — the /kids/:id/sessions list shape. */
+export interface SessionSummary {
+  id: string;
+  classId: string;
+  lessonId: string;
+  curriculumId?: string;
+  subject: string;
+  topic: string;
+  status: Session['status'];
+  startedAt: string;
+  endedAt?: string;
+  report?: LessonReport;
+  lessonMastery?: number;
 }
 
 export interface Recommendation {
