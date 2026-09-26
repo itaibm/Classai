@@ -1,307 +1,481 @@
-# Year 4 Life Skills (ages 10–11, KS2) — Lesson Outlines
+# Year 4 Life Skills (ages 9–10) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 4 scope drawn from [`knowledge-base/subjects/computing-life-skills/life-skills.md`](../../../knowledge-base/subjects/computing-life-skills/life-skills.md).
+> Written to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Standards reference:
+> `knowledge-base/subjects/computing-life-skills/life-skills.md`.
+> Codes: **CASEL** (Collaborative for Academic, Social, and Emotional Learning — five competencies: self-awareness, self-management, social awareness, relationship skills, responsible decision-making), **UK PSHE** (PSHE Association Programme of Study, KS2: Health and Wellbeing, Relationships, Living in the Wider World) and the **UN Sustainable Development Goals (SDGs)**.
 
 ## Year overview
 
-Year 4 is the year bodies and social worlds start to change, and Life Skills meets that head-on with warmth and honesty. Ten- and eleven-year-olds can think about their own thinking, hold nuanced views, weigh evidence, and handle real-world money and choices — and many are beginning **puberty**. So this year adds, age-appropriately and without shame, **changing bodies, emotions and self-image**; deepens emotional literacy into **identity and self-esteem**; takes friendship into **healthy vs unhealthy relationships and trust**; turns growth mindset into **metacognition (learning how to learn)**; brings health into **understanding puberty, hygiene and emotional ups-and-downs**; sharpens personal safety with **online reputation, media pressure and critical media literacy**; moves money into **value, the cost of borrowing and the first taste of enterprise**; and grows citizenship into **diversity, inclusion and global awareness**. The tone is consistently warm, factual and **never shaming** — every body changes, every person is different, and the message is *you are growing into yourself, and you can think, choose and ask for help.* Most lessons run 30–40 minutes. Seven units, twenty-one lessons, every one anchored to the knowledge base.
+Year 4 life skills helps children understand **who they are, how to get on with others, how to manage money, and how to act for a fairer, greener world**. The year moves from the inside out: **identity and growth mindset** (self-awareness), **healthy relationships and resolving conflict** (relationship skills), **learning how to learn** (self-management), **money sense** — earning, saving, interest, borrowing and running a tiny enterprise — then **sustainability** with a real class project, and finally **global citizenship and service**, where children plan and carry out an act of service for their community.
 
-**How it builds on Year 3:** Y4 handled worry and resilience; Y5 explores identity, self-esteem and the emotional swings of growing up. Y4 resisted peer pressure; Y5 tells healthy from unhealthy relationships and what trust means. Y4 set goals and reflected; Y5 learns *how* to learn (metacognition). Y4 balanced screens and mood; Y5 understands puberty, the bodily changes ahead, and looking after a changing body. Y4 judged value; Y5 understands borrowing, the cost of "buy now" and tries simple enterprise. Y4 explored community; Y5 widens to diversity, inclusion and the global picture. New this year: puberty and changing bodies (age-appropriate).
+Lessons are discussion-rich and practical: role-plays, scenarios, real-life decisions, projects and reflection journals. They link closely to the year's class texts (*The Wild Robot*, *Journey to Jo'burg*, *The Boy Who Harnessed the Wind*, *Esperanza Rising*), to maths (percentages and budgets) and to geography (resources and sustainability). Topics on puberty and body safety are taught in **PE & Health** (Unit 6) and online safety in **Computing** (Unit 6); this subject reinforces them without repeating them.
+
+**What Year 4 assumes (from Year 3):** naming and managing worry; friendship and peer pressure; upstanding; failure as feedback; healthy balance; staying safe online; best-value shopping; trustworthy sources; rights and responsibilities; small community action.
+**What Year 5 relies on:** a secure sense of identity and self-worth; strategies for conflict and healthy relationships; habits of planning and reflecting on learning; understanding of saving, interest and borrowing; experience of a sustainability project and a service project — ready for managing change, independence, leadership and informed citizenship.
+
+## Time budget
+
+| Term | Unit | Weeks | Lessons |
+|---|---|---|---|
+| 1 | 1 — Who am I? Identity, self-esteem and growth mindset | 6 | 6 |
+| 1 | 2 — Healthy relationships: friendship, conflict and trust | 6 | 6 |
+| 2 | 3 — Learning how to learn | 4 | 4 |
+| 2 | 4 — Money sense: earn, save, borrow, give | 7 | 7 |
+| 3 | 5 — Sustainability: our planet, our choices | 6 | 6 |
+| 3 | 6 — Global citizenship and service | 6 | 6 |
+| | **Total** | **35** (+1 week flex) | **35** |
 
 ---
 
-## Unit 1 — Identity & self-esteem (emotional literacy)
+## Unit 1 — Who am I? Identity, self-esteem and growth mindset
 
-**Essential question:** Who am I, and how do I feel good about being me?
-**Key vocabulary:** identity, self-esteem, strengths, values, unique, comparison, self-worth, confidence, authentic.
-**KB source:** Topic 8 — Feelings & wellbeing; Topic 9 — Resilience.
+**Essential question:** What makes me who I am — and how can I grow?
 
-### Lesson 1 — What makes me, me
-- **Duration:** 30 min
-- **Objective:** "By the end, I can describe parts of my identity and what makes me unique."
-- **Hook:** "If you had to describe yourself without using your looks — your interests, values, talents — what would you say?"
-- **Key activity:** Explore identity as many layers (interests, strengths, values, background, personality). Children make an "identity flower," a petal each. Celebrate that everyone's flower is different.
-- **Check for understanding:** Name two things that are part of who you are beyond how you look. → e.g. interests, values, talents, how you treat others, what you care about.
-- **Differentiation:** support: fill petals from prompt words / stretch: explain a value that matters most to them and why.
-- **Materials:** identity-flower templates, prompt-word cards.
-- **Joy:** designing a colourful identity flower that's uniquely theirs.
+**Key vocabulary:** identity, culture, heritage, values, strengths, self-esteem, comparison, growth mindset, fixed mindset, the power of yet, resilience, gratitude
 
-### Lesson 2 — The comparison trap
+### Lesson 1 — My identity map
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain why comparing myself to others can hurt my self-esteem."
-- **Hook:** "Online, everyone seems happier, smarter, cooler. Is that the whole truth, or the highlight reel?"
-- **Key activity:** Teach that people show their "highlight reel," not their whole story — comparing your behind-the-scenes to others' highlights is unfair to you. Discuss real vs edited images. Children write one thing they appreciate about themselves.
-- **Check for understanding:** Why is comparing yourself to others online often unfair to you? → Because people post their best, edited moments (the highlight reel), not the ordinary or hard parts.
-- **Differentiation:** support: spot "real vs highlight" in examples / stretch: explain how comparison can dent self-esteem and how to push back.
-- **Materials:** "highlight reel vs real life" example images.
-- **Joy:** the eye-opening "behind the highlight reel" reveal.
+- **Objective:** "By the end, I can describe the different parts of my identity and appreciate others'." (CASEL self-awareness; PSHE H/R — identity)
+- **Hook:** "If you were a book, what would your cover show — and what would be inside?"
+- **Key activity:** Identity map (family, languages, culture, interests, values, places); share in pairs; discuss visible and invisible parts of identity.
+- **Check for understanding:** "Why might two people who look similar have very different identities?" → Identity includes invisible things like values, beliefs, languages and experiences.
+- **Differentiation:** support: picture prompts. / stretch: explain how identity can change over time.
+- **Materials:** identity-map templates, coloured pens.
+- **Joy:** "Identity gallery" of maps.
 
-### Lesson 3 — Building healthy self-esteem
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name ways to grow healthy self-esteem."
-- **Hook:** "Self-esteem is like a battery. What charges it up, and what drains it?"
-- **Key activity:** Teach self-esteem boosters (focus on strengths, kind self-talk, helping others, trying new things, good friends) and drainers (harsh self-talk, comparison, unkind friends). Children build a "self-esteem charger" plan.
-- **Check for understanding:** Name one thing that builds healthy self-esteem. → e.g. kind self-talk, using your strengths, helping others, trying new things, good friendships.
-- **Differentiation:** support: choose chargers from cards / stretch: make a personal plan to recharge after a knock.
-- **Materials:** charger/drainer cards, plan template.
-- **Joy:** designing their personal self-esteem "charger."
-
-**End-of-unit check:** The child describes their identity, explains the comparison trap, and names ways to build healthy self-esteem.
-
----
-
-## Unit 2 — Healthy relationships & trust
-
-**Essential question:** What makes a relationship healthy, and who can I trust?
-**Key vocabulary:** healthy, unhealthy, respect, trust, boundary, consent, controlling, support, equal, red flag.
-**KB source:** Topic 10 — Social skills; Topic 12 — Staying safe (relationships).
-
-### Lesson 4 — Healthy vs unhealthy friendships
+### Lesson 2 — Strengths and values
 - **Duration:** 35 min
-- **Objective:** "By the end, I can tell signs of a healthy friendship from an unhealthy one."
-- **Hook:** "A friend who only wants you to play with THEM and gets cross if you don't — healthy or not?"
-- **Key activity:** Teach signs of healthy (respect, trust, kindness, room to be yourself, support) vs unhealthy (controlling, mean, jealous, pressuring, one-sided). Children sort scenario cards and discuss what to do about a red flag.
-- **Check for understanding:** Name one sign of a healthy friendship and one red flag. → Healthy: e.g. respect, trust, support. Red flag: e.g. controlling, mean, pressuring, one-sided.
-- **Differentiation:** support: sort clear healthy/unhealthy cards / stretch: suggest how to handle an unhealthy friendship kindly.
-- **Materials:** friendship scenario cards.
-- **Joy:** the "spot the red flag" sorting challenge.
+- **Objective:** "By the end, I can name my character strengths and values and give examples." (CASEL self-awareness)
+- **Hook:** "Which superpower do you already have — kindness, curiosity, perseverance?"
+- **Key activity:** Character-strength cards (e.g. kindness, curiosity, courage, fairness, humour, perseverance); choose three and give evidence; spot strengths in classmates.
+- **Check for understanding:** "Give an example of a time you showed one of your strengths." → A specific example.
+- **Differentiation:** support: fewer strength cards with pictures. / stretch: identify a strength you want to develop and plan how.
+- **Materials:** character-strength cards.
+- **Joy:** "Strength spotting" compliments.
 
-### Lesson 5 — Boundaries and consent
-- **Duration:** 30 min
-- **Objective:** "By the end, I can set a boundary and respect someone else's."
-- **Hook:** "Everyone has an invisible line — 'I'm okay with this, not okay with that.' How do we respect each other's?"
-- **Key activity:** Teach boundaries (what's okay for you) and consent (asking and respecting a yes/no — for touch, sharing photos, borrowing things). Practise stating a boundary kindly and accepting "no" without sulking.
-- **Check for understanding:** What does it mean to respect someone's boundary? → To accept their "no" or limit without pushing, guilt-tripping or getting cross.
-- **Differentiation:** support: practise saying "I'm not okay with that" / stretch: handle someone who ignores your boundary.
-- **Materials:** boundary scenario cards.
-- **Joy:** role-playing confident, respectful "no thanks, that's my line."
-
-### Lesson 6 — Trust: earned and broken
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain how trust is built and what to do when it's broken."
-- **Hook:** "Trust is like a tower of blocks — slow to build, quick to knock over. How do you rebuild it?"
-- **Key activity:** Teach trust is earned by keeping promises, honesty and reliability — and can be repaired with honesty, apology and changed behaviour. Discuss who's safe to trust with worries (trusted adults). Children identify trustworthy traits.
-- **Check for understanding:** Name one thing that builds trust and one that breaks it. → Builds: e.g. honesty, keeping promises, reliability. Breaks: e.g. lying, breaking promises, sharing secrets.
-- **Differentiation:** support: sort trust-building vs trust-breaking actions / stretch: explain how to rebuild broken trust.
-- **Materials:** building-block prop, trust-action cards.
-- **Joy:** the block-tower demo of building and rebuilding trust.
-
-**End-of-unit check:** The child distinguishes healthy from unhealthy relationships, sets and respects a boundary, and explains how trust is built, broken and repaired.
-
----
-
-## Unit 3 — Learning how to learn (metacognition & growth mindset)
-
-**Essential question:** How do I understand and improve the way I learn?
-**Key vocabulary:** metacognition, strategy, plan, monitor, review, memory, focus, distraction, study, reflect.
-**KB source:** Topic 9 — Growth mindset; Topic 4 — Critical thinking.
-
-### Lesson 7 — Thinking about my thinking
-- **Duration:** 30 min
-- **Objective:** "By the end, I can describe how I learn best and notice when I'm stuck."
-- **Hook:** "Top learners aren't the ones who never get stuck — they're the ones who *notice* they're stuck and do something about it."
-- **Key activity:** Introduce metacognition (thinking about your thinking). Children reflect on how they learn best (seeing, doing, hearing, explaining), and practise noticing "I don't get this yet" and naming the next move.
-- **Check for understanding:** What does it mean to notice you're stuck and do something? → Spotting you don't understand yet and choosing a strategy (reread, ask, try another way) instead of giving up.
-- **Differentiation:** support: pick how they learn best from options / stretch: describe a time noticing they were stuck helped them.
-- **Materials:** learning-style reflection sheet.
-- **Joy:** discovering their personal "learning superpower."
-
-### Lesson 8 — Plan, do, review
-- **Duration:** 30 min
-- **Objective:** "By the end, I can plan a task, work on it, and review how it went."
-- **Hook:** "Builders plan before they build and check after. Could learning work the same way?"
-- **Key activity:** Teach the plan–do–review cycle. Children apply it to a real task: plan (what, how, how long), do it, review (what worked, what to change). Compare with diving in unplanned.
-- **Check for understanding:** What are the three stages of the plan-do-review cycle? → Plan, do, review.
-- **Differentiation:** support: use a part-filled plan / stretch: adjust the plan after reviewing to improve next time.
-- **Materials:** plan-do-review template.
-- **Joy:** running their own learning like a project manager.
-
-### Lesson 9 — Focus and beating distractions
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name strategies to focus and reduce distractions."
-- **Hook:** "Your phone buzzes while you study. What does it do to your focus — and how do you get it back?"
-- **Key activity:** Teach how distractions (notifications, multitasking) hurt focus and memory. Strategies: one task at a time, remove distractions, short focused bursts with breaks (e.g. work-then-rest), a tidy space. Children plan a focus-friendly study setup.
-- **Check for understanding:** Name one strategy to help you focus. → e.g. one task at a time, remove distractions/notifications, work in short bursts with breaks, tidy space.
-- **Differentiation:** support: pick focus tips from a list / stretch: design a full focus plan for homework.
-- **Materials:** focus-strategy cards.
-- **Joy:** designing their ideal "focus zone."
-
-**End-of-unit check:** The child describes how they learn best and notices being stuck, uses plan-do-review, and names focus strategies.
-
----
-
-## Unit 4 — Growing up: my changing body (health & wellbeing)
-
-**Essential question:** How is my body changing as I grow up, and how do I look after it?
-**Key vocabulary:** puberty, growing up, changes, hormones, hygiene, emotions, normal, everyone's different, trusted adult.
-**KB source:** Topic 7 — Sleep & exercise; Topic 6 — Healthy eating; Topic 8 — Wellbeing (puberty added, RSHE-aligned, age-appropriate).
-
-> **Teacher note:** Deliver this unit factually, calmly and inclusively, with no shame and no giggling-cues. Emphasise that every body is different and changes happen at different times. Keep content age-appropriate (the *fact* that bodies change, basic hygiene, and emotional ups-and-downs) and direct any deeper questions to a trusted adult. Follow your setting's RSHE policy.
-
-### Lesson 10 — Bodies change as we grow up
+### Lesson 3 — The comparison trap and healthy self-esteem
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that puberty is a normal stage when bodies change as we grow up."
-- **Hook:** "A caterpillar becomes a butterfly. Humans change too as they grow up — it's called puberty. What might you already have noticed?"
-- **Key activity:** Teach calmly that puberty is the natural stage (roughly ages 8–14) when children's bodies grow and change into adult bodies — at different times for everyone. Cover general changes (growing taller, more sweat, changing emotions) factually and matter-of-factly. Reassure: it's normal, everyone goes through it, and questions are welcome.
-- **Check for understanding:** Is it normal for everyone's body to change at a slightly different time? → Yes — puberty happens at different times for different people; there's no "right" time.
-- **Differentiation:** support: confirm "everyone changes, it's normal" / stretch: explain why comparing your timing to others isn't helpful.
-- **Materials:** caterpillar/butterfly image, an age-appropriate "growing up" diagram, a question box.
-- **Joy:** an anonymous "ask anything" question box that's answered with respect.
+- **Objective:** "By the end, I can recognise unhelpful comparison and use strategies to build healthy self-esteem." (CASEL self-awareness; PSHE H — mental wellbeing)
+- **Hook:** Two photos of the same scene — one heavily filtered: "Which is real?"
+- **Key activity:** Discuss comparing with others (in person and online); "compare with your past self"; positive self-talk; three good things journal.
+- **Check for understanding:** "Why can comparing ourselves to others online make us feel worse?" → People share edited highlights, not real everyday life.
+- **Differentiation:** support: sorting helpful/unhelpful thoughts. / stretch: rewrite unhelpful thoughts as helpful ones.
+- **Materials:** photo examples, journals.
+- **Joy:** "Three good things" jar.
 
-### Lesson 11 — Looking after a changing body
+### Lesson 4 — Growth mindset: the brain can grow
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain that abilities grow with effort, strategies and help." (CASEL self-management)
+- **Hook:** "Could you juggle three balls today? What about after two weeks of practice?"
+- **Key activity:** Brains strengthen connections with practice (simple neuroplasticity); fixed vs growth statements; "the power of yet"; try a new skill (juggling scarves) and reflect.
+- **Check for understanding:** "Change 'I can't do fractions' into a growth-mindset sentence." → "I can't do fractions *yet*, but I can practise and ask for help."
+- **Differentiation:** support: statement sorting. / stretch: explain why effort alone isn't enough (strategies and help matter too).
+- **Materials:** juggling scarves, statement cards.
+- **Joy:** Juggling challenge.
+
+### Lesson 5 — Resilience: bouncing back
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe how people bounce back from setbacks and plan my own strategies." (CASEL self-management)
+- **Hook:** The story of William Kamkwamba (English class text), laughed at while building his windmill.
+- **Key activity:** Resilience stories (William, a sports star, a family member); build a personal "bounce-back plan" (calm down, think, try another way, ask for help).
+- **Check for understanding:** "What helped William keep going when people doubted him?" → Belief in his idea, learning from books, and support from friends and family.
+- **Differentiation:** support: plan template. / stretch: interview a family member about a setback.
+- **Materials:** stories, plan templates.
+- **Joy:** "Bounce-back ball" — share a strategy as you catch it.
+
+### Lesson 6 — Gratitude and reflection
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name hygiene habits that help during the changes of growing up."
-- **Hook:** "As bodies change, they need a bit more daily care. What new habits might help?"
-- **Key activity:** Teach hygiene for growing-up bodies: regular washing/showering, clean clothes, looking after teeth, using deodorant when needed, hand-washing. Frame as self-care, not embarrassment. Children build a daily "fresh and ready" routine.
-- **Check for understanding:** Name two hygiene habits that help as your body changes. → Any two of: wash/shower regularly, clean clothes, deodorant when needed, brush teeth, wash hands.
-- **Differentiation:** support: order a simple hygiene routine / stretch: explain why these habits matter more during puberty.
-- **Materials:** hygiene-routine cards.
-- **Joy:** designing a personal "fresh and ready" routine card.
+- **Objective:** "By the end, I can practise gratitude and reflect on what I've learned about myself." (CASEL self-awareness)
+- **Hook:** "Who has helped you this week without being asked?"
+- **Key activity:** Gratitude letters; reflection journal on the unit.
+- **Check for understanding:** "How can practising gratitude help our wellbeing?" → It helps us notice good things, strengthens relationships and lifts mood.
+- **Differentiation:** support: letter frame. / stretch: deliver the letter in person.
+- **Materials:** cards, journals.
+- **Joy:** Delivering gratitude cards.
 
-### Lesson 12 — Feelings during growing up
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain that bigger ups-and-downs in feelings are a normal part of growing up."
-- **Hook:** "Ever feel happy then grumpy for no clear reason? During growing up, feelings can ride a rollercoaster — and that's normal."
-- **Key activity:** Teach that changing bodies bring stronger, more changeable emotions, and that's normal. Revisit calming tools and talking to trusted adults. Children make a "feelings rollercoaster" plan: what helps when emotions surge.
-- **Check for understanding:** Are bigger mood swings normal while growing up? → Yes — stronger, more changeable feelings are a normal part of puberty; calming tools and talking help.
-- **Differentiation:** support: choose a calming tool for a mood surge / stretch: explain why talking to a trusted adult helps.
-- **Materials:** "feelings rollercoaster" template, calming-tool reminder cards.
-- **Joy:** designing their own emotions "rollercoaster" with calm-down stops.
-
-**End-of-unit check:** The child explains puberty is a normal stage at different times for everyone, names hygiene habits for a changing body, and knows mood swings are normal and what helps.
+**End-of-unit check:** In a reflection conversation, the child names three strengths with examples, gives a growth-mindset reframe, and describes their bounce-back plan.
 
 ---
 
-## Unit 5 — Smart online: media & reputation (personal safety)
+## Unit 2 — Healthy relationships: friendship, conflict and trust
 
-**Essential question:** How do I protect my reputation and think critically about what I see online?
-**Key vocabulary:** digital footprint, reputation, screenshot, edited image, media, advert, influencer, critical, private.
-**KB source:** Topic 12 — Staying safe; Topic 5 — Facts vs opinions.
+**Essential question:** What makes a relationship healthy — and how can we sort out disagreements fairly?
 
-### Lesson 13 — Your digital footprint
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain that what I post online can last and affect my reputation."
-- **Hook:** "Footprints in wet cement set hard. What happens to footprints you leave online?"
-- **Key activity:** Teach the digital footprint: posts, comments and photos can be saved, screenshotted and seen later — even after deleting. Discuss the "would I be happy for a teacher/grandparent to see this?" test. Children sort posts into "safe to share" vs "think again."
-- **Check for understanding:** Why think carefully before posting online? → Because it can last, be shared/screenshotted, and affect how others see you later.
-- **Differentiation:** support: apply the "would Grandma mind?" test to examples / stretch: explain how an old post could matter years later.
-- **Materials:** sample-post cards, the "footprint" test poster.
-- **Joy:** the wet-cement footprint demo.
+**Key vocabulary:** friendship, respect, trust, empathy, boundaries, consent (permission), conflict, compromise, I-statement, active listening, apology, forgiveness, peer pressure, assertive
 
-### Lesson 14 — Don't believe everything you see
+### Lesson 7 — What makes a good friend?
 - **Duration:** 35 min
-- **Objective:** "By the end, I can spot edited images and misleading media."
-- **Hook:** "This 'perfect' photo took 50 tries and a filter. How much of what we see online is real?"
-- **Key activity:** Build on Y5 self-esteem and Y4 sources. Teach about filters, editing, staged photos and clickbait. Children compare edited vs unedited images and spot misleading headlines, asking "is this real / who benefits?"
-- **Check for understanding:** Name one sign an image or headline online might be misleading. → e.g. it looks too perfect, it's edited/filtered, a shocking clickbait headline, no reliable source.
-- **Differentiation:** support: spot the edited image in a pair / stretch: explain why some media is made to mislead or sell.
-- **Materials:** edited/unedited image pairs, sample headlines.
-- **Joy:** "spot the fake" detective challenge.
+- **Objective:** "By the end, I can describe the qualities of healthy friendships and warning signs of unhealthy ones." (CASEL relationship skills; PSHE R — healthy friendships)
+- **Hook:** Roz and Brightbill from *The Wild Robot*: "What made their relationship strong?"
+- **Key activity:** Sort friendship behaviours (healthy/unhealthy); discuss that friendships change; what to do if a friendship feels wrong.
+- **Check for understanding:** "Name one sign of a healthy friendship and one warning sign." → e.g. you feel safe and respected; a friend makes you do things you don't want to.
+- **Differentiation:** support: picture scenarios. / stretch: explain why friendships can change without anyone being 'bad'.
+- **Materials:** scenario cards, *The Wild Robot*.
+- **Joy:** "Recipe for friendship" poster.
 
-### Lesson 15 — Pressure from screens and influencers
-- **Duration:** 30 min
-- **Objective:** "By the end, I can recognise when media or influencers are trying to influence me."
-- **Hook:** "An influencer says 'you NEED this.' Are they your friend, or are they selling something?"
-- **Key activity:** Teach how influencers and adverts shape what we want and how we feel about ourselves (paid promotions, "perfect lives"). Children spot persuasion in sample content and practise the pause: "Do I actually want this, or am I being sold to?"
-- **Check for understanding:** Why might an influencer recommend a product? → They may be paid to; it doesn't mean you need it — think for yourself.
-- **Differentiation:** support: spot one persuasion trick / stretch: explain how this links to the comparison trap and self-esteem.
-- **Materials:** sample influencer/advert content.
-- **Joy:** "decoding" influencer posts like a media detective.
-
-**End-of-unit check:** The child explains the lasting digital footprint, spots edited/misleading media, and recognises and questions influencer/advert pressure.
-
----
-
-## Unit 6 — Money: value, borrowing & enterprise
-
-**Essential question:** What's the real cost of "buy now," and how can I earn and grow money fairly?
-**Key vocabulary:** borrowing, lending, interest, cost, value, save first, enterprise, profit, cost, customer.
-**KB source:** Topic 3 — Saving, spending & budgeting; Topic 1 — Money.
-
-### Lesson 16 — The cost of borrowing
+### Lesson 8 — Empathy and active listening
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that borrowing money usually costs more to pay back."
-- **Hook:** "A friend lends you a sweet but wants TWO back next week. Is borrowing free?"
-- **Key activity:** Teach borrowing/lending and that borrowed money usually costs extra to pay back (interest) — so "buy now" can cost more than saving up. Children compare saving up for an item vs borrowing and paying back more.
-- **Check for understanding:** Why does borrowing money to buy something often cost more than saving up first? → Because you usually pay back more than you borrowed (interest).
-- **Differentiation:** support: compare two simple totals / stretch: work out how much extra a borrowed amount costs.
-- **Materials:** borrow-vs-save comparison cards, play money.
-- **Joy:** the "pay back more!" reveal that makes the maths click.
+- **Objective:** "By the end, I can listen actively and show empathy." (CASEL social awareness)
+- **Hook:** "Talk to your partner while they look at the ceiling. How does it feel?"
+- **Key activity:** Active listening (eyes, body, questions, summarise); perspective-taking with scenarios (including Naledi from *Journey to Jo'burg*).
+- **Check for understanding:** "What is the difference between hearing and actively listening?" → Active listening means paying full attention, showing it, and checking you understood.
+- **Differentiation:** support: listening checklist. / stretch: summarise a partner's feelings, not just their words.
+- **Materials:** scenario cards, listening checklist.
+- **Joy:** "Listening pairs" game.
 
-### Lesson 17 — Save first, spend later
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain why saving up usually beats buy-now-pay-later."
-- **Hook:** "'Buy now, pay later' sounds great — what's the catch?"
-- **Key activity:** Connect Y3 budgeting and Y4 value with borrowing. Teach the wisdom of saving first (no extra cost, no debt worry) vs the convenience-with-a-cost of buying on credit. Children advise a character tempted by buy-now-pay-later.
-- **Check for understanding:** Give one reason saving up first can be wiser than buy-now-pay-later. → No extra cost/interest, no debt to worry about, and you truly own it.
-- **Differentiation:** support: pick the wiser choice in a scenario / stretch: explain the catch of buy-now-pay-later.
+### Lesson 9 — Boundaries and permission
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain personal boundaries and why we ask permission (consent) in everyday situations." (PSHE R — boundaries and privacy; CASEL relationship skills)
+- **Hook:** "Is it OK to borrow a friend's pencil without asking? To tickle someone who says stop?"
+- **Key activity:** Everyday consent (hugs, borrowing, photos, games); how to say no clearly and respect others' no; links to body safety (PE & Health Lesson 46).
+- **Check for understanding:** "If a friend says 'stop' during a game, what should you do and why?" → Stop straight away, because they have the right to set their boundaries.
+- **Differentiation:** support: role-play with scripts. / stretch: explain why sharing a photo of someone needs their permission.
 - **Materials:** scenario cards.
-- **Joy:** playing the wise "money advisor" to a tempted character.
+- **Joy:** "Traffic light" game (green = OK, amber = ask, red = stop).
 
-### Lesson 18 — Be an entrepreneur
+### Lesson 10 — Resolving conflict
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a simple enterprise and work out if it could make a profit."
-- **Hook:** "Lemonade stand! If a cup costs you 20p to make and you sell it for 50p — are you making money?"
-- **Key activity:** Teach enterprise basics: an idea, costs, a price, profit (price − cost), and a customer. In teams, children plan a tiny enterprise (a craft sale, a car wash), list costs, set a fair price, and calculate possible profit.
-- **Check for understanding:** If something costs you 20p to make and you sell it for 50p, what's your profit? → 30p (price minus cost).
-- **Differentiation:** support: calculate profit with friendly numbers / stretch: plan how to cover costs and make a real profit.
-- **Materials:** enterprise-planning sheet, play money.
-- **Joy:** pitching their own business idea, Dragons' Den style.
+- **Objective:** "By the end, I can use a step-by-step method to resolve a disagreement." (CASEL relationship skills; responsible decision-making)
+- **Hook:** A role-played argument over a football.
+- **Key activity:** Conflict steps: calm down, I-statements ("I feel… when… because…"), listen, brainstorm solutions, agree a compromise; practise with scenarios.
+- **Check for understanding:** "Change 'You always ruin the game!' into an I-statement." → e.g. "I feel frustrated when the rules change because I don't know how to play."
+- **Differentiation:** support: I-statement frame. / stretch: act as a peer mediator.
+- **Materials:** conflict-step cards, scenarios.
+- **Joy:** Peer-mediator role-plays.
 
-**End-of-unit check:** The child explains the cost of borrowing, argues for saving first over buy-now-pay-later, and plans an enterprise calculating profit.
-
----
-
-## Unit 7 — One world: diversity & inclusion (citizenship)
-
-**Essential question:** How do we respect difference and include everyone in our world?
-**Key vocabulary:** diversity, inclusion, respect, stereotype, prejudice, fairness, equality, global, community.
-**KB source:** Topic 10 — Social skills; citizenship/global-awareness extension; Topic 5 — critical thinking on stereotypes.
-
-### Lesson 19 — Celebrating diversity
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain why a diverse community is a strength."
-- **Hook:** "A garden of one flower vs a garden of many — which is more interesting and stronger?"
-- **Key activity:** Teach diversity (differences in culture, background, beliefs, abilities, looks) as something that makes communities richer. Children share something about their own background and find what they share *and* what's wonderfully different.
-- **Check for understanding:** Why is a diverse community a good thing? → Different people bring different ideas, skills and experiences, making the community richer and stronger.
-- **Differentiation:** support: name one way people can be different / stretch: explain how diversity helps a team or community.
-- **Materials:** diverse-garden image, sharing prompts.
-- **Joy:** the "what's the same, what's different" mingle game.
-
-### Lesson 20 — Stereotypes and fairness
+### Lesson 11 — Peer pressure and being assertive
 - **Duration:** 35 min
-- **Objective:** "By the end, I can recognise a stereotype and explain why it's unfair."
-- **Hook:** "'Boys don't cry.' 'Girls can't do science.' Are these true — or unfair assumptions?"
-- **Key activity:** Teach stereotypes (assuming things about a whole group) and how they're unfair and often wrong. Children bust common stereotypes with counter-examples and discuss treating everyone as an individual.
-- **Check for understanding:** What's wrong with a stereotype? → It assumes things about a whole group, which is unfair and often untrue — people are individuals.
-- **Differentiation:** support: spot the stereotype in examples / stretch: explain how to challenge a stereotype kindly.
-- **Materials:** stereotype/counter-example cards.
-- **Joy:** "busting" stereotypes with real counter-examples.
+- **Objective:** "By the end, I can respond assertively to pressure and support others to do the same." (CASEL responsible decision-making; PSHE R)
+- **Hook:** "Everyone's doing it — come on!"
+- **Key activity:** Passive vs aggressive vs assertive responses; practise saying no with confidence; buddy support.
+- **Check for understanding:** "What does an assertive response sound like?" → Calm, clear and respectful: "No thanks, I don't want to."
+- **Differentiation:** support: response scripts. / stretch: create a scenario for others to practise.
+- **Materials:** role-play cards.
+- **Joy:** "Assertive actors" role-play.
 
-### Lesson 21 — Including everyone
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name ways to make sure everyone feels included."
-- **Hook:** "Imagine a game everyone can join vs one that leaves some out. How do we design for *everyone*?"
-- **Key activity:** Teach inclusion (making sure no one's left out — by ability, language, background). Children redesign a game, event or space so everyone can take part, and pledge one inclusive action.
-- **Check for understanding:** Name one way to make sure everyone is included. → e.g. invite people in, adapt so all can join, listen to those left out, use kind welcoming words.
-- **Differentiation:** support: choose an inclusive action from cards / stretch: redesign an activity to include someone with a different need.
-- **Materials:** activity-redesign prompts, pledge cards.
-- **Joy:** designing a game where truly everyone can play.
+### Lesson 12 — Trust, apology and forgiveness
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain how trust is built and rebuilt, and give a genuine apology." (CASEL relationship skills)
+- **Hook:** A crumpled piece of paper: "You can smooth it out, but the creases remain."
+- **Key activity:** How trust is earned; parts of a real apology (say what you did, why it was wrong, how you'll fix it, what you'll do next time); forgiveness vs forgetting.
+- **Check for understanding:** "What makes an apology genuine?" → It names the mistake, takes responsibility and includes a plan to make it right.
+- **Differentiation:** support: apology frame. / stretch: discuss when it's okay not to be friends again after hurt.
+- **Materials:** paper, apology frames.
+- **Joy:** "Repair" craft — mend a torn paper heart with gold tape (inspired by Japanese kintsugi).
 
-**End-of-unit check:** The child explains why diversity is a strength, recognises and challenges a stereotype, and names ways to include everyone.
+**End-of-unit check:** Resolve a scenario conflict using I-statements and the conflict steps; explain the signs of a healthy friendship and how to respond to peer pressure.
 
 ---
 
-## End-of-year outcomes
+## Unit 3 — Learning how to learn
 
-By the end of Year 4, a child should reliably show:
+**Essential question:** How can I become a better learner?
 
-1. **Strong self-identity** — describes who they are, recognises the comparison trap, and builds healthy self-esteem.
-2. **Healthy relationships** — tells healthy from unhealthy relationships, sets and respects boundaries and consent, and understands trust.
-3. **Metacognition** — knows how they learn best, uses plan-do-review, and applies focus strategies.
-4. **Understanding of growing up** — explains puberty as a normal, varied stage, cares for a changing body, and knows mood swings are normal.
-5. **Critical media safety** — manages their digital footprint, spots edited/misleading media, and questions influencer and advert pressure.
-6. **Mature money sense** — explains the cost of borrowing, prefers saving first, and plans a simple profitable enterprise.
-7. **Inclusive citizenship** — values diversity, challenges stereotypes, and acts to include everyone.
-8. **Confident, kind character** — feels secure being themselves, treats growing-up changes as normal, and respects and includes others.
+**Key vocabulary:** metacognition, strategy, plan, monitor, review, retrieval practice, spacing, focus, distraction, goal, feedback
+
+### Lesson 13 — Thinking about my thinking
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe how I learn best and name learning strategies." (CASEL self-management)
+- **Hook:** "How did you learn to ride a bike — and how do you learn spellings?"
+- **Key activity:** Plan–monitor–review cycle; strategies (retrieval practice, spacing, explaining to someone else, drawing a model); try one with spellings.
+- **Check for understanding:** "Why is testing yourself better than just rereading?" → Pulling information from memory makes it stronger and shows what you don't know yet.
+- **Differentiation:** support: strategy menu with pictures. / stretch: design a revision plan for a maths topic.
+- **Materials:** strategy cards, learning journals.
+- **Joy:** "Teach it back" to a partner.
+
+### Lesson 14 — Focus and beating distractions
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use strategies to focus and manage distractions." (CASEL self-management)
+- **Hook:** A focus experiment: complete a puzzle with and without distractions.
+- **Key activity:** Compare results; strategies (clear space, time blocks, breaks, phone away); plan a home learning space.
+- **Check for understanding:** "What did the experiment show, and what will you change?" → Distractions slow us down; a specific change.
+- **Differentiation:** support: focus checklist. / stretch: try a focus timer technique and review it.
+- **Materials:** puzzles, timers.
+- **Joy:** Focus experiment.
+
+### Lesson 15 — Setting goals
+- **Duration:** 35 min
+- **Objective:** "By the end, I can set a SMART goal and plan the steps." (CASEL self-management)
+- **Hook:** "A goal without a plan is just a wish."
+- **Key activity:** SMART goals (specific, measurable, achievable, relevant, time-bound); steps and obstacles; buddy check-ins.
+- **Check for understanding:** "Turn 'get better at reading' into a SMART goal." → e.g. "Read for 20 minutes five times a week for the next month."
+- **Differentiation:** support: goal frame. / stretch: plan for obstacles ("if… then I will…").
+- **Materials:** goal templates.
+- **Joy:** Goal mountains (draw steps to the summit).
+
+### Lesson 16 — Using feedback
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use feedback to improve my work and give kind, useful feedback." (CASEL relationship skills; self-management)
+- **Hook:** "Austin's Butterfly" (Ron Berger's famous story of a child's drawing improved through six drafts of kind, specific feedback).
+- **Key activity:** Kind, specific, helpful feedback; improve a piece of work using feedback.
+- **Check for understanding:** "What makes feedback helpful?" → It is kind, specific and suggests a next step.
+- **Differentiation:** support: feedback stems. / stretch: give feedback on a partner's work and see it used.
+- **Materials:** drafts from another subject, feedback stems.
+- **Joy:** Before/after drafts.
+
+**End-of-unit check:** A SMART goal with steps, and an example of work improved through feedback, explained in a short reflection.
+
+---
+
+## Unit 4 — Money sense: earn, save, borrow, give
+
+**Essential question:** How can I make wise choices with money — now and in the future?
+
+**Key vocabulary:** income, earn, expense, budget, needs, wants, save, savings goal, bank, interest, borrow, loan, debt, profit, cost, enterprise, donate, value
+
+### Lesson 17 — Where money comes from: earning and work
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain how people earn money and why different jobs are paid differently." (PSHE L — economic wellbeing; CASEL responsible decision-making)
+- **Hook:** "Name as many jobs as you can in one minute. Which do you think are paid most — and is that fair?"
+- **Key activity:** Earning through work; skills and training; volunteering (unpaid but valuable); discuss fairness.
+- **Check for understanding:** "Why might some jobs be paid more than others?" → e.g. more training, responsibility or demand — and discuss that pay doesn't always match how important a job is.
+- **Differentiation:** support: job picture cards. / stretch: debate whether key workers should be paid more.
+- **Materials:** job cards.
+- **Joy:** "Job charades".
+
+### Lesson 18 — Needs, wants and budgets
+- **Duration:** 35 min
+- **Objective:** "By the end, I can make a simple budget that covers needs before wants." (PSHE L — economic wellbeing; maths link)
+- **Hook:** "You have 100 for the week. What comes first?"
+- **Key activity:** Sort needs and wants; plan a weekly budget (income, expenses, savings); adjust when something unexpected happens.
+- **Check for understanding:** "Why should needs be planned before wants?" → Needs (food, housing, travel) must be paid for to live safely; wants can wait.
+- **Differentiation:** support: picture sorting and whole numbers. / stretch: include decimals and a savings target.
+- **Materials:** budget templates, price cards.
+- **Joy:** "Surprise card" (e.g. a broken bike) budget challenge.
+
+### Lesson 19 — Saving and interest
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how saving works and calculate simple interest (e.g. 10% of a savings amount)." (PSHE L — economic wellbeing; maths link — percentages)
+- **Hook:** "A bank pays you to keep your money? How?"
+- **Key activity:** Banks keep savings safe and pay interest (a percentage) because they lend money to others; calculate simple yearly interest (10% of 200 = 20; 5% of 200 = 10); saving goals and patience.
+- **Check for understanding:** "If you save 300 and the bank pays 5% interest a year, how much interest do you get after one year?" → 15.
+- **Differentiation:** support: 10% only with a bar model. / stretch: compare saving 10 a week vs 40 a month over a year (520 vs 480).
+- **Materials:** bar-model templates, savings-goal jars.
+- **Joy:** Class savings-goal thermometer.
+
+### Lesson 20 — Borrowing and the cost of debt
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain that borrowing usually costs extra and when it might be sensible or risky." (PSHE L — economic wellbeing)
+- **Hook:** "Borrow 100 now and pay back 120 later — is that a good deal?"
+- **Key activity:** Interest on loans makes things cost more; good vs risky borrowing (a house, education vs impulse buys); "buy now, pay later" traps.
+- **Check for understanding:** "Why does something bought with a loan end up costing more than its price?" → You pay back the price plus interest.
+- **Differentiation:** support: picture scenarios. / stretch: calculate the total cost of a loan with simple interest.
+- **Materials:** scenario cards.
+- **Joy:** "Deal or no deal?" decisions.
+
+### Lesson 21 — Enterprise: planning a class market stall
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a small enterprise, calculating costs, price and profit." (PSHE L — enterprise; maths link)
+- **Hook:** *One Hen* by Katie Smith Milway — a boy in Ghana uses a small loan to buy a hen and grows a business.
+- **Key activity:** Groups plan a product (e.g. bookmarks, plants, biscuits); list costs; set a price; calculate profit (income − costs); plan to give part of the profit to a chosen cause.
+- **Check for understanding:** "If materials cost 12 and you sell 10 bookmarks at 2 each, what is your profit?" → 20 − 12 = 8.
+- **Differentiation:** support: planning template with prices. / stretch: plan for different sales numbers (break-even point).
+- **Materials:** *One Hen*, planning templates.
+- **Joy:** Business planning.
+
+### Lesson 22 — Enterprise market day
+- **Duration:** 40 min
+- **Objective:** "By the end, I can run a stall, handle money accurately and evaluate our enterprise." (PSHE L — enterprise; CASEL relationship skills)
+- **Hook:** "The market is open!"
+- **Key activity:** Sell to families or other classes; track sales; count takings; calculate profit; decide donation.
+- **Check for understanding:** "Did your stall make a profit? How do you know, and what would you change next time?" → Income vs costs calculated; one improvement.
+- **Differentiation:** support: roles (sales, cashier, advertising). / stretch: manager role.
+- **Materials:** products, float of coins, cash tins, price labels.
+- **Joy:** Market day.
+
+### Lesson 23 — Giving and spending with values
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain ways to give (money, time, skills) and choose a cause that matches my values." (PSHE L — economic wellbeing; CASEL social awareness)
+- **Hook:** "Is giving only about money?"
+- **Key activity:** Ways to give; research charities (who they help, how money is used); vote on where to donate market profits.
+- **Check for understanding:** "How can you check that a charity uses donations well?" → Look at who runs it, what it reports it does with money, and whether it is registered or recommended by trusted sources.
+- **Differentiation:** support: pre-selected charity profiles. / stretch: create a pitch for a chosen charity.
+- **Materials:** charity profiles.
+- **Joy:** Donation ceremony.
+
+**End-of-unit check:** Plan a weekly budget that prioritises needs and includes saving; calculate 10% interest on a savings amount; explain profit using the market-day accounts.
+
+---
+
+## Unit 5 — Sustainability: our planet, our choices
+
+**Essential question:** How do our everyday choices affect the planet — and what can we do about it?
+
+**Key vocabulary:** sustainability, resource, renewable, non-renewable, energy, water, waste, reduce, reuse, recycle, compost, carbon, climate, biodiversity, audit, action plan
+
+### Lesson 24 — What is sustainability?
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain sustainability as meeting our needs without harming the future." (SDGs 12, 13; PSHE L — environment)
+- **Hook:** "If everyone used resources like our class, would there be enough for the next generation?"
+- **Key activity:** Define sustainability; the UN's 17 Sustainable Development Goals (agreed in 2015); link to geography (renewable and non-renewable resources, deforestation).
+- **Check for understanding:** "Give one example of a sustainable choice and explain why." → e.g. walking to school uses no fuel and causes no pollution.
+- **Differentiation:** support: picture sorting of choices. / stretch: connect one SDG to a class choice.
+- **Materials:** SDG poster, choice cards.
+- **Joy:** "SDG bingo".
+
+### Lesson 25 — Waste audit
+- **Duration:** 40 min
+- **Objective:** "By the end, I can carry out a waste audit and interpret the data." (SDG 12; maths and computing link)
+- **Hook:** "What's really in our classroom bin?" (with gloves)
+- **Key activity:** Sort a day's classroom waste (paper, plastic, food, other) — with gloves and hygiene; weigh or count; chart in a spreadsheet.
+- **Check for understanding:** "Which type of waste was largest and what could we do about it?" → Data-based answer with a reduce/reuse idea.
+- **Differentiation:** support: counting only. / stretch: calculate percentages of each type.
+- **Materials:** gloves, sorting trays, scales, spreadsheet. Safety: no sharp or hazardous items; wash hands.
+- **Joy:** Waste detectives.
+
+### Lesson 26 — Energy and water at school
+- **Duration:** 35 min
+- **Objective:** "By the end, I can find where energy and water are used and wasted at school." (SDGs 6, 7)
+- **Hook:** "Energy detectives: find the lights left on and taps dripping."
+- **Key activity:** School walk with an audit sheet (lights, devices on standby, taps, heating); discuss renewable energy (links to *The Boy Who Harnessed the Wind*).
+- **Check for understanding:** "Name two ways our school could save energy or water." → e.g. switch off lights and screens; fix dripping taps.
+- **Differentiation:** support: picture audit sheet. / stretch: estimate savings.
+- **Materials:** audit sheets, clipboards.
+- **Joy:** Energy-detective badges.
+
+### Lesson 27 — Food, farming and biodiversity
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain how food choices and green spaces affect biodiversity." (SDGs 2, 15)
+- **Hook:** "Where did your lunch come from?"
+- **Key activity:** Food miles and seasonality (simply); pollinators and biodiversity; Wangari Maathai (Kenya) and the Green Belt Movement's tree planting (Nobel Peace Prize, 2004).
+- **Check for understanding:** "Why are pollinators like bees important for our food?" → Many crops need them to make fruits and seeds.
+- **Differentiation:** support: picture cards. / stretch: plan a pollinator-friendly patch for school.
+- **Materials:** *Wangari's Trees of Peace* (Jeanette Winter), seeds, pots.
+- **Joy:** Plant pollinator-friendly seeds.
+
+### Lesson 28 — Planning a class sustainability project
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a realistic sustainability project using our audit data." (CASEL responsible decision-making; SDG 12)
+- **Hook:** "We have the data — now let's act."
+- **Key activity:** Choose a project (e.g. reduce paper waste, compost scheme, switch-off campaign, wildlife corner); set a measurable target; assign roles; plan how to measure impact.
+- **Check for understanding:** "How will we know if our project worked?" → We will re-measure (e.g. a second waste audit) and compare with the first.
+- **Differentiation:** support: role cards. / stretch: project manager role.
+- **Materials:** audit data, planning templates.
+- **Joy:** Launching the campaign.
+
+### Lesson 29 — Sustainability project review
+- **Duration:** 35 min
+- **Objective:** "By the end, I can measure and evaluate our project's impact." (CASEL responsible decision-making)
+- **Hook:** "Did we make a difference?"
+- **Key activity:** Repeat the audit; compare data; present results to the school; plan next steps.
+- **Check for understanding:** "What did our data show, and what would we do differently?" → Comparison of before/after and a lesson learned.
+- **Differentiation:** support: guided comparison. / stretch: present to the headteacher or school council.
+- **Materials:** new audit data, charts.
+- **Joy:** Presentation to the school.
+
+**End-of-unit check:** Explain sustainability with examples; present before-and-after audit data from the class project and evaluate its impact.
+
+---
+
+## Unit 6 — Global citizenship and service
+
+**Essential question:** What does it mean to be a citizen of the world — and how can I make a difference?
+
+**Key vocabulary:** citizen, community, rights, responsibilities, diversity, inclusion, stereotype, prejudice, fairness, equality, equity, service, volunteer, advocacy
+
+### Lesson 30 — Rights and responsibilities
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain children's rights under the UN Convention on the Rights of the Child and the responsibilities that go with them." (PSHE L — rights; CASEL social awareness)
+- **Hook:** Revisit *Journey to Jo'burg* and the class letters from English Unit 3.
+- **Key activity:** Key articles (education, health, play, to be heard, protection); pair each right with a responsibility; where rights are not yet met.
+- **Check for understanding:** "If every child has the right to education, what responsibility does that give you?" → To respect others' learning (and to try your best).
+- **Differentiation:** support: picture article cards. / stretch: explain the difference between a right and a want.
+- **Materials:** child-friendly UNCRC summary.
+- **Joy:** "Rights charter" for the classroom.
+
+### Lesson 31 — Diversity and inclusion
+- **Duration:** 35 min
+- **Objective:** "By the end, I can celebrate differences and explain how to include everyone." (CASEL social awareness; PSHE R — respecting others)
+- **Hook:** *The Invisible Boy* by Trudy Ludwig: "How does it feel to be left out?"
+- **Key activity:** Differences in culture, language, ability, family; inclusion actions (invite, include, check in); neurodiversity (e.g. Temple Grandin's story).
+- **Check for understanding:** "Name two actions that help someone feel included." → e.g. invite them to join; ask their opinion.
+- **Differentiation:** support: action cards. / stretch: plan an inclusion idea for the playground.
+- **Materials:** *The Invisible Boy* (Trudy Ludwig), *The Girl Who Thought in Pictures* (Julia Finley Mosca).
+- **Joy:** "Include-a-thon" playground games.
+
+### Lesson 32 — Stereotypes and fairness
+- **Duration:** 35 min
+- **Objective:** "By the end, I can identify stereotypes and explain why they are unfair." (CASEL social awareness; PSHE L — challenging stereotypes)
+- **Hook:** "Draw a scientist." Compare drawings.
+- **Key activity:** What stereotypes are; where they come from (media, jokes, assumptions); challenge them with evidence (real scientists of all genders and backgrounds); equality vs equity (simple picture example).
+- **Check for understanding:** "Why is 'girls aren't good at maths' a stereotype, and what evidence challenges it?" → It judges a whole group unfairly; many brilliant women mathematicians (e.g. Katherine Johnson, Maryam Mirzakhani) disprove it.
+- **Differentiation:** support: picture examples. / stretch: explain the difference between equality and equity.
+- **Materials:** drawings, scientist photo cards.
+- **Joy:** "Draw a scientist" reveal.
+
+### Lesson 33 — Global goals and changemakers
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe how young people and adults around the world have made change." (SDGs; CASEL responsible decision-making)
+- **Hook:** Changemaker cards: Malala Yousafzai (education, Pakistan), William Kamkwamba (energy, Malawi), Wangari Maathai (trees, Kenya), Muhammad Yunus (small loans, Bangladesh).
+- **Key activity:** Research one changemaker: problem, action, impact, qualities; link to an SDG.
+- **Check for understanding:** "What problem did your changemaker tackle, and what qualities helped them?" → Accurate problem, action and qualities.
+- **Differentiation:** support: guided fact cards. / stretch: compare two changemakers.
+- **Materials:** changemaker fact cards, SDG poster.
+- **Joy:** Changemaker "hall of fame".
+
+### Lesson 34 — Planning a service project
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a service project that meets a real need in our community." (CASEL responsible decision-making; PSHE L — community)
+- **Hook:** "What does our community need that we could help with?"
+- **Key activity:** Identify needs (e.g. reading to younger children, a food-bank collection, litter-pick, cards for a care home); plan roles, resources and timeline; get permissions.
+- **Check for understanding:** "How do you know your project meets a real need?" → Evidence — we asked the people we want to help or used reliable information.
+- **Differentiation:** support: project menu. / stretch: lead a project team.
+- **Materials:** planning templates.
+- **Joy:** Choosing the project.
+
+### Lesson 35 — Service in action and year reflection
+- **Duration:** 40 min
+- **Objective:** "By the end, I can carry out a service project and reflect on what I learned about myself and my community." (CASEL all competencies)
+- **Hook:** "Today we serve."
+- **Key activity:** Carry out the service activity (in school or with supervised community partners); reflection journals on the year (identity, relationships, money, sustainability, service).
+- **Check for understanding:** "What difference did our service make, and what did you learn about yourself?" → A specific impact and a personal reflection.
+- **Differentiation:** support: reflection frame. / stretch: plan how the project could continue.
+- **Materials:** project resources, reflection journals. Safety: follow school trip and safeguarding procedures for any community visit.
+- **Joy:** The service day.
+
+**End-of-unit check:** Explain two children's rights with responsibilities; identify and challenge a stereotype with evidence; complete and reflect on a service project.
+
+## Books & resources
+
+- ***The Most Magnificent Thing* — Ashley Spires** — a girl's frustration and persistence while making an invention; perfect for growth mindset.
+- ***Your Fantastic Elastic Brain* — JoAnn Deak** — explains how brains grow with practice, in child-friendly science.
+- ***What Do You Do With a Problem?* — Kobi Yamada** — gently reframes problems as opportunities.
+- ***The Invisible Boy* — Trudy Ludwig, illustrated by Patrice Barton** — about a quiet boy who is overlooked, and one act of inclusion.
+- ***The Girl Who Thought in Pictures: The Story of Dr. Temple Grandin* — Julia Finley Mosca** — neurodiversity and the power of thinking differently.
+- ***One Hen: How One Small Loan Made a Big Difference* — Katie Smith Milway** — a story from Ghana about microfinance, enterprise and giving back.
+- ***Wangari's Trees of Peace* — Jeanette Winter** — the story of Wangari Maathai and the Green Belt Movement in Kenya.
+- ***If the World Were a Village* — David J. Smith** — the world's population shown as 100 people; powerful for global citizenship.
+- ***The Boy Who Harnessed the Wind* — William Kamkwamba and Bryan Mealer** — (English text) resilience, energy and community.
+- ***Wonder* — R. J. Palacio** — (book-club choice) kindness and inclusion.
+- **Organisations and resources:** CASEL (SEL framework), the PSHE Association, UNICEF's child-friendly UNCRC summary, the UN's "World's Largest Lesson" resources on the SDGs, and national financial-education bodies' free primary resources (e.g. Young Money in the UK).
+
+## End-of-year mastery checks
+
+1. **Self-awareness** — describes their identity, strengths and values with examples. *See it:* identity map and reflection conversation.
+2. **Growth mindset and resilience** — reframes setbacks and uses a bounce-back plan. *See it:* goal journal and reflection.
+3. **Relationships** — resolves a conflict with I-statements and a fair compromise; explains healthy friendship and boundaries. *See it:* mediated role-play.
+4. **Learning to learn** — uses retrieval practice and sets a SMART goal. *See it:* learning journal.
+5. **Money sense** — budgets with needs first, explains saving and interest, calculates profit. *See it:* budget, interest calculation and market-day accounts.
+6. **Sustainability** — uses data to plan and evaluate a sustainability action. *See it:* before-and-after audit presentation.
+7. **Global citizenship** — explains rights and responsibilities, challenges stereotypes, and contributes to a service project. *See it:* rights charter and service reflection.
+
+## Teacher guidance
+
+**Common misconceptions (and fixes).**
+- *"Growth mindset means just trying harder."* — effort plus good strategies plus help.
+- *"Conflict means the friendship is over."* — disagreements are normal; teach repair.
+- *"Saying no to a friend is mean."* — assertiveness is respectful to both people.
+- *"Banks keep your money in a vault until you want it."* — banks lend money out and pay interest for using it.
+- *"Recycling solves waste."* — reduce and reuse come first.
+- *"Stereotypes are harmless jokes."* — show how they limit people and are often untrue.
+
+**Classroom climate.** Agree ground rules (listen, respect, right to pass, no names in stories); use distancing techniques (characters and scenarios rather than personal disclosure); follow safeguarding procedures if a child discloses harm.
+
+**Inclusion and culture.** Families have different values and practices around money, relationships and identity; present information respectfully and invite family conversations. Use local currency and local community needs.
+
+**Links across the school.** Body safety and puberty are taught in PE & Health; online safety in Computing; the class texts in English carry many of this subject's themes — refer back to them.
+
+**Vertical links.** Year 3: worry, friendship and peer pressure, growth mindset, balance, online safety, best value, rights and community action. Year 4: identity, relationships and conflict, learning how to learn, saving/interest/borrowing/enterprise, sustainability project, rights, inclusion and service. Year 5: managing change, leadership, independence and safety, money for the real world, bias and informed citizenship.
+
+**Cross-curricular links.** English (class texts; persuasive letters), maths (budgets, percentages, profit), geography (resources and sustainability), science (energy; habitats and pollinators), computing (spreadsheets for audits; online kindness), PE & Health (wellbeing and body safety).
