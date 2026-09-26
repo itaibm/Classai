@@ -11,8 +11,8 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 
 **Class-text spine (whole books, with author and why):**
 - **Term 1 — Survival, belonging and justice.** *The Wild Robot* by **Peter Brown** (USA) — short chapters, a gentle non-human narrator and a rich island setting make it ideal for teaching setting, character and point of view; links to science (life cycles, habitats). **"The Highwayman"** by **Alfred Noyes** — the great narrative poem for performance, rhythm and imagery. *Journey to Jo'burg* by **Beverley Naidoo** (South Africa) — a short, powerful novel about two children under apartheid that opens discussion of fairness and courage and teaches diary and letter writing.
-- **Term 2 — Stories that explain the world.** *The Orchard Book of Greek Myths* by **Geraldine McCaughrean** plus traditional tales from West Africa (Anansi), Polynesia (Māui) and the Norse world — myth structure and oral storytelling. *Where the Mountain Meets the Moon* by **Grace Lin** (Chinese folklore; Newbery Honor) — a quest woven with stories-within-the-story, perfect for structure and figurative language. *Cosmic* by **Frank Cottrell-Boyce** (UK) — a hilarious first-person voice (a 12-year-old who looks like an adult ends up in space) for voice, dialogue and humour; links to science (Earth and space). A world-poetry unit (Langston Hughes, Grace Nichols, Benjamin Zephaniah, Matsuo Bashō).
-- **Term 3 — Voices that change things.** *The Boy Who Harnessed the Wind* (Young Readers' Edition) by **William Kamkwamba and Bryan Mealer** (Malawi) — true story for biography, explanation, persuasion and formal writing. *Esperanza Rising* by **Pam Muñoz Ryan** (Mexico/USA) — a rich character-change novel for inference, theme and response writing; links to Spanish. Poetry of imagery and form ("The Listeners", "Jabberwocky", "Stopping by Woods on a Snowy Evening"), then a **book-club** unit where children choose a whole novel from a curated list and write and present reviews.
+- **Term 2 — Stories that explain the world.** *Norse Myths: Tales of Odin, Thor and Loki* by **Kevin Crossley-Holland** plus traditional tales from West Africa (Anansi) and Polynesia (Māui) — myth structure and oral storytelling, building on (not repeating) the Greek myths studied in Year 3. *One Thousand and One Arabian Nights* retold by **Geraldine McCaughrean** — Shahrazad's frame story with the tales of Sinbad, Ali Baba and the jinni inside it, perfect for structure, cliffhangers and figurative language. *Cosmic* by **Frank Cottrell-Boyce** (UK) — a hilarious first-person voice (a 12-year-old who looks like an adult ends up in space) for voice, dialogue and humour; links to science (Earth and space). A world-poetry unit (Langston Hughes, Grace Nichols, James Berry, Li Bai, Pablo Neruda and the Malaysian pantoum).
+- **Term 3 — Voices that change things.** *The Boy Who Harnessed the Wind* (Young Readers' Edition) by **William Kamkwamba and Bryan Mealer** (Malawi) — true story for biography, explanation, persuasion and formal writing. *Esperanza Rising* by **Pam Muñoz Ryan** (Mexico/USA) — a rich character-change novel for inference, theme and response writing; links to Spanish. Poetry of imagery and form ("The Listeners", "Tarantella", "Stopping by Woods on a Snowy Evening"), then a **book-club** unit where children choose a whole novel from a curated list and write and present reviews.
 
 **Strands in every unit.** Reading (vocabulary, inference, prediction, summarising, author's craft, comparing texts), writing (plan → draft → revise → edit → publish), grammar for writing, spelling (one explicit spelling/morphology lesson most weeks, with 10-minute daily practice outside the lesson), **handwriting** (a fluent, legible joined hand at speed; choosing print for labels and captions; publishing lessons focus on presentation), and **speaking & listening** (discussion roles, debate, performance poetry, book talks). Children also read independently every day (20+ minutes) from a class library, and hear the class novel read aloud.
 
@@ -29,7 +29,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 | 1 | 3 — *Journey to Jo'burg*: fairness, diaries and letters | 4 | 20 |
 | 1 | 4 — Term 1 retrieval and assessment | 0.8 | 4 |
 | 2 | 5 — Myths and legends from around the world | 2.4 | 12 |
-| 2 | 6 — *Where the Mountain Meets the Moon*: stories within stories | 3.6 | 18 |
+| 2 | 6 — *One Thousand and One Arabian Nights*: stories within stories | 3.6 | 18 |
 | 2 | 7 — *Cosmic*: voice, dialogue and reports | 3.6 | 18 |
 | 2 | 8 — World poetry: voices and rhythms | 1.2 | 6 |
 | 2 | 9 — Term 2 retrieval and assessment | 0.8 | 4 |
@@ -651,21 +651,21 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Duration:** 35 min
 - **Objective:** "By the end, I can explain the features of myths and legends and name examples from different cultures." (UK NC Y5–6 reading — myths and legends; CCSS RL.4.9)
 - **Hook:** "Why does the sun cross the sky? Why is there winter? Before science, people told stories."
-- **Key activity:** Read a short Greek myth (Persephone) from Geraldine McCaughrean; compare features with an Anansi story (West Africa) and Māui slowing the sun (Polynesia); build a class features chart.
-- **Check for understanding:** "What makes the Persephone story a myth rather than just a story?" → It explains something in nature (the seasons) and involves gods.
+- **Key activity:** Retrieve the features of Greek myths from Year 3 (Persephone, Pandora) in a two-minute quiz. Then read the Norse creation myth (Odin and his brothers make the world from the body of the giant Ymir) from Kevin Crossley-Holland; compare features with an Anansi story (West Africa) and Māui slowing the sun (Polynesia); build a class features chart.
+- **Check for understanding:** "What makes the Norse story of the giant Ymir a myth rather than just a story? Compare it with a Greek myth you know." → Like Persephone's story, it involves gods and explains something about the world — here, how the earth, sea and sky were made.
 - **Differentiation:** support: picture-supported features chart. / stretch: find the difference between a myth and a legend.
-- **Materials:** *The Orchard Book of Greek Myths* (Geraldine McCaughrean), printed traditional tales, world map.
+- **Materials:** *Norse Myths: Tales of Odin, Thor and Loki* (Kevin Crossley-Holland), printed traditional tales, world map.
 - **Joy:** Pin each myth's origin on a world map.
 
-### Lesson 58 — Heroes and quests: Theseus and the Minotaur
+### Lesson 58 — Heroes and quests: Thor in the land of the giants
 - **Duration:** 35 min
 - **Objective:** "By the end, I can explain the stages of a hero's quest and how a hero is tested." (UK NC Y5–6 reading — structure; CCSS RL.4.3)
-- **Hook:** A paper labyrinth: "How would you find your way out?"
-- **Key activity:** Read the myth; map the quest stages (call, journey, test, helper, victory, return); discuss Ariadne's role and Theseus's mistake with the sails.
-- **Check for understanding:** "Is Theseus a perfect hero? Use evidence." → No — he's brave but he abandons Ariadne and forgets to change the sails, causing his father's death.
-- **Differentiation:** support: a quest-stage picture template. / stretch: compare with a hero from another culture's myths.
-- **Materials:** the myth collection, labyrinth maze sheets, a ball of wool.
-- **Joy:** Unravel a ball of wool through a classroom "labyrinth".
+- **Hook:** "Drink this horn dry. Lift this cat. Wrestle this old woman. Easy — for the god of thunder?"
+- **Key activity:** Read the myth of Thor's visit to the giant Utgard-Loki; map the quest stages (call, journey, tests, revelation, return) and compare with Theseus's quest from Year 3; discuss the twist that every test was a magic trick (the horn was joined to the sea, the cat was the World Serpent, the old woman was Old Age).
+- **Check for understanding:** "Is Thor a perfect hero? Use evidence." → No — he is mighty but boastful and quick-tempered and is fooled by the giant's illusions; yet his 'failures' were astonishing feats (he drank enough to make the sea go down), so the myth mixes mockery and admiration.
+- **Differentiation:** support: a quest-stage picture template. / stretch: compare Thor with a hero from another culture's myths, including Theseus.
+- **Materials:** the myth collection, quest-stage templates, a drinking horn or large jug prop.
+- **Joy:** Act out the three impossible tests — then reveal the tricks.
 
 ### Lesson 59 — Trickster tales: Anansi
 - **Duration:** 35 min
@@ -687,12 +687,12 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Materials:** story-map sheets, myth texts.
 - **Joy:** A "story circle" with a talking stick.
 
-### Lesson 61 — Spelling and vocabulary: words from Greek myths
+### Lesson 61 — Spelling and vocabulary: words from myths
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain words that come from Greek myths and Greek roots." (UK NC Y5–6 vocabulary — etymology; CCSS L.4.4b, RL.4.4)
-- **Hook:** "Why do we call a huge task 'herculean', and why do we 'panic'? The answers are hiding in Greek myths."
-- **Key activity:** Myth words: herculean, panic (Pan), echo (Echo), atlas (Atlas), cereal (Ceres, Roman). Greek roots: tele (far), phon (sound), graph (write), bio (life), geo (earth). Build and define words.
-- **Check for understanding:** "Use roots to explain what 'telephone' and 'geography' mean." → 'Far sound' and 'earth writing/describing the earth'.
+- **Objective:** "By the end, I can explain words that come from Norse, Roman and Greek myths." (UK NC Y5–6 vocabulary — etymology; CCSS L.4.4b, RL.4.4)
+- **Hook:** "Thor is hiding in your week. So are Odin, Tyr and Frigg. Can you find them?"
+- **Key activity:** Quick retrieval of the Greek-root words from Year 3 (telephone, echo). Then words from other myths: days of the week from Norse and Roman gods (Tuesday — Tyr, Wednesday — Woden/Odin, Thursday — Thor, Friday — Frigg, Saturday — Saturn), plus cereal (Ceres), volcano (Vulcan), January (Janus), herculean (Hercules) and berserk (Norse berserker warriors). Build and define words.
+- **Check for understanding:** "Which god is hiding in 'Wednesday', and how does knowing that help you spell it?" → Woden (Odin) — 'Woden's day' explains the d you can't hear.
 - **Differentiation:** support: root cards with pictures. / stretch: invent a new Greek-root word and define it.
 - **Materials:** root cards, dictionaries.
 - **Joy:** "Word inventors" — create a new word for a future gadget.
@@ -712,8 +712,8 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Objective:** "By the end, I can link paragraphs using adverbials, pronouns and repeated key words." (UK NC Y5–6 grammar — cohesion across paragraphs; CCSS W.4.3c)
 - **Hook:** "Here are five jumbled paragraphs — can you put them in order? What clues helped?"
 - **Key activity:** Identify cohesive devices (time adverbials, pronouns referring back, repeated nouns, synonyms); fix a text where pronouns are unclear.
-- **Check for understanding:** "In 'Zeus and Hermes argued. He left angrily', why is 'he' a problem, and how could you fix it?" → It's unclear who left; name the character or restructure.
-- **Differentiation:** support: cohesive device word mat. / stretch: use a synonym chain for a character (the god, the thunderer, the king of Olympus).
+- **Check for understanding:** "In 'Thor and Loki argued. He left angrily', why is 'he' a problem, and how could you fix it?" → It's unclear who left; name the character or restructure.
+- **Differentiation:** support: cohesive device word mat. / stretch: use a synonym chain for a character (the god, the thunderer, the son of Odin).
 - **Materials:** jumbled paragraph sets, word mats.
 - **Joy:** Paragraph-jigsaw race.
 
@@ -732,7 +732,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Objective:** "By the end, I can punctuate direct speech accurately, including split speech, and choose speech verbs." (UK NC Y5–6 punctuation; CCSS L.4.2b)
 - **Hook:** "'Stop,' roared the giant, 'or I'll turn you into stone!' How many punctuation marks can you find?"
 - **Key activity:** Rules: inverted commas around spoken words, punctuation inside them, capital letter at the start of speech, comma before a reporting clause, new line for a new speaker, split speech continues in lowercase.
-- **Check for understanding:** "Punctuate: help me cried Persephone I cannot find my way" → "Help me!" cried Persephone. "I cannot find my way." (or with a comma after 'me').
+- **Check for understanding:** "Punctuate: help me cried Thjalfi I cannot find my way" → "Help me!" cried Thjalfi. "I cannot find my way." (or with a comma after 'me').
 - **Differentiation:** support: speech-bubble to speech-marks conversion. / stretch: vary where the reporting clause goes (before, middle, after).
 - **Materials:** speech punctuation cards, comic strips.
 - **Joy:** Turn a comic strip into prose with perfect punctuation.
@@ -771,78 +771,80 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 
 ---
 
-## Unit 6 — Where the Mountain Meets the Moon: stories within stories
+## Unit 6 — One Thousand and One Arabian Nights: stories within stories
 
-**Essential question:** How can stories told inside a story change the way we understand the main plot?
+**Essential question:** How can stories told inside a story change the way we understand the main plot — and can a story really save a life?
 
-**Key vocabulary:** quest, framed narrative, story within a story, folklore, symbol, theme, figurative language, simile, metaphor, personification, foreshadowing
+**Key vocabulary:** frame narrative, story within a story, storyteller, cliffhanger, folklore, jinni, quest, symbol, theme, figurative language, simile, metaphor, personification, foreshadowing
 
-### Lesson 69 — Opening: Minli and the Fruitless Mountain
+> Class text: *One Thousand and One Arabian Nights* retold by Geraldine McCaughrean — Shahrazad (often spelled Scheherazade) saves her life by telling King Shahryar a story every night and stopping at dawn at the most exciting moment. Inside her frame story are the tales of Sinbad the Sailor, Ali Baba, the fisherman and the jinni and many more; choose the tales you study from those in your edition.
+
+### Lesson 69 — Opening: a king, a vow and a storyteller
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe the setting and Minli's situation and make predictions." (UK NC Y5–6 reading — predict; CCSS RL.4.3)
-- **Hook:** Show a Chinese landscape painting of misty mountains: "What story might live here?"
-- **Key activity:** Read the opening; build a setting-and-character map (the grey valley, Ma's worries, Ba's stories); predict what Minli will do.
-- **Check for understanding:** "Why is the mountain called Fruitless, and how does the setting reflect the family's life?" → Nothing grows; the family is poor and unhappy; the setting mirrors their hardship.
-- **Differentiation:** support: guided read with picture support. / stretch: predict how Ba's stories might matter later.
-- **Materials:** *Where the Mountain Meets the Moon* (Grace Lin), landscape images.
-- **Joy:** A class "moon journal" to track Minli's journey.
+- **Objective:** "By the end, I can describe the situation at the start of the frame story and explain Shahrazad's plan." (UK NC Y5–6 reading — predict; CCSS RL.4.3)
+- **Hook:** A single oil lamp (LED) in a darkened room: "One night. One story. If the king is bored, you will not see the morning."
+- **Key activity:** Read the opening of the frame story (the king who trusts no one, and Shahrazad, the vizier's daughter, who offers to face him armed only with stories). Build a setting-and-character map; predict how her plan could work. Handle the king's cruelty briefly and calmly, as the retelling does, and focus on Shahrazad's courage.
+- **Check for understanding:** "Why does Shahrazad stop each story at dawn, and what does that tell us about her?" → She stops at the most exciting moment so the king is desperate to hear the rest and spares her for another night; she is brave and clever, using stories as her only weapon.
+- **Differentiation:** support: guided read with picture support / stretch: predict how the stories she chooses might change the king.
+- **Materials:** *One Thousand and One Arabian Nights* (Geraldine McCaughrean), an LED oil lamp, a map of the Middle East, Persia and India
+- **Joy:** A class "night counter" that ticks towards 1,001 as the unit goes on.
 
-### Lesson 70 — Ba's stories: the frame narrative
+### Lesson 70 — The frame narrative: stories inside stories
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how Ba's stories are told inside the main story and why the author includes them." (UK NC Y5–6 reading — structure; CCSS RL.4.5)
-- **Hook:** "Have you ever been told a story that later helped you?"
-- **Key activity:** Identify story-within-a-story sections (often set apart in a different typeface, with their own illustrations); chart main plot vs embedded tales; predict links.
-- **Check for understanding:** "How can you tell when a story-within-a-story starts?" → A change in teller, style or typeface, and a character begins to tell a tale.
-- **Differentiation:** support: colour-coded extracts. / stretch: suggest why the stories might be in a different order from the journey.
-- **Materials:** the novel, two-colour chart.
+- **Objective:** "By the end, I can explain how Shahrazad's tales are told inside the main story and why the author includes them." (UK NC Y5–6 reading — structure; CCSS RL.4.5)
+- **Hook:** "Russian dolls: a story, inside a story, inside a story. How many can you fit?"
+- **Key activity:** Identify where each tale begins and ends (a new teller, a change of style, a return to the palace at dawn); chart the frame story and the embedded tales on a nesting-doll diagram, including a tale told by a character inside one of Shahrazad's tales if your edition has one.
+- **Check for understanding:** "How can you tell when a story-within-a-story starts and when we return to the frame?" → A character begins to tell a tale (a change of teller and style); we return when dawn comes and the book is back in the king's chamber.
+- **Differentiation:** support: colour-coded extracts. / stretch: find out why the famous tale of Aladdin is not in the oldest Arabic manuscripts (a Syrian storyteller, Hanna Diyab, told it to the French translator Antoine Galland in the early 1700s — and it is set in China).
+- **Materials:** the book, a set of nesting dolls or nested boxes, two-colour chart
 - **Joy:** Storytelling corner — one child tells, one acts.
 
-### Lesson 71 — Similes and metaphors: the author's craft
+### Lesson 71 — Similes and metaphors: the storyteller's craft
 - **Duration:** 35 min
 - **Objective:** "By the end, I can find and explain similes and metaphors and write my own for a fantasy setting." (UK NC Y5–6 reading/writing — figurative language; CCSS L.4.5a)
-- **Hook:** "The moon was a …" Finish the sentence three ways.
-- **Key activity:** Hunt figurative language in chosen passages; explain effect; write original similes and metaphors about a magical place.
+- **Hook:** "The jinni rose out of the jar like… Finish the sentence three ways."
+- **Key activity:** Hunt figurative language in chosen passages (the jinni's smoke, the great white egg of the roc that Sinbad mistakes for a dome); explain the effect; write original similes and metaphors about a magical place.
 - **Check for understanding:** "Turn one simile from the book into a metaphor and say how the effect changes." → e.g. more direct or powerful without 'like' or 'as'.
 - **Differentiation:** support: figurative-language frames. / stretch: create an extended metaphor across three sentences.
-- **Materials:** the novel, figurative-language cards.
+- **Materials:** the book, figurative-language cards
 - **Joy:** "Metaphor mobile" hung from the ceiling.
 
-### Lesson 72 — Character: Minli and Dragon
+### Lesson 72 — Character: Shahrazad and the king
 - **Duration:** 35 min
-- **Objective:** "By the end, I can compare two characters and explain how their friendship develops." (UK NC Y5–6 reading — compare characters; CCSS RL.4.3)
-- **Hook:** "A dragon who can't fly — why would a writer make him like that?"
-- **Key activity:** Double-bubble map comparing Minli and Dragon (wishes, fears, strengths); evidence quotes.
-- **Check for understanding:** "How do Minli and Dragon help each other? Give an example." → Specific events showing mutual help.
-- **Differentiation:** support: pre-selected quotations. / stretch: explain how Dragon's wish mirrors Minli's quest.
-- **Materials:** double-bubble templates, the novel.
-- **Joy:** Paper dragon craft with character traits on the scales.
+- **Objective:** "By the end, I can compare two characters and explain how one changes the other." (UK NC Y5–6 reading — compare characters; CCSS RL.4.3)
+- **Hook:** "One has all the power. One has only words. Who is really stronger?"
+- **Key activity:** Double-bubble map comparing Shahrazad and King Shahryar (wishes, fears, strengths, how they use power); collect evidence of the king changing across the nights.
+- **Check for understanding:** "How does the king change over the thousand and one nights, and what causes the change?" → He moves from cruel and distrustful to merciful and loving; night after night her stories — full of cleverness, loyalty and mercy — and her company change how he sees people.
+- **Differentiation:** support: pre-selected quotations. / stretch: explain why Shahrazad chooses stories about mercy and loyalty for this particular listener.
+- **Materials:** double-bubble templates, the book
+- **Joy:** Shadow-puppet silhouettes of the two characters behind a sheet.
 
 ### Lesson 73 — Spelling: -cious and -tious
 - **Duration:** 30 min
 - **Objective:** "By the end, I can choose -cious or -tious using root words and spell common exceptions." (UK NC Y5–6 spelling)
-- **Hook:** "Is the dragon 'ferocious' or 'ferotious'?"
+- **Hook:** "Is the jinni 'ferocious' or 'ferotious'?"
 - **Key activity:** If the root ends in -ce, use -cious (grace → gracious, space → spacious, malice → malicious, vice → vicious); if the root has -tion, often -tious (ambition → ambitious, caution → cautious, nutrition → nutritious); exception: anxious. Others are learned (ferocious, precious, delicious, conscious).
 - **Check for understanding:** "Explain how 'space' helps you spell 'spacious'." → The root ends in -ce, so the c carries into -cious.
 - **Differentiation:** support: 6 word pairs. / stretch: find words where the rule doesn't help and make a mnemonic.
 - **Materials:** word cards, journals.
-- **Joy:** "Ferocious feast" — describe a dragon's banquet using the words.
+- **Joy:** "Ferocious feast" — describe a sultan's banquet using the words.
 
-### Lesson 74 — Themes: gratitude and happiness
+### Lesson 74 — Themes: can a story save a life?
 - **Duration:** 35 min
-- **Objective:** "By the end, I can identify a theme and support it with events from the story." (UK NC Y5–6 reading — themes; CCSS RL.4.2)
-- **Hook:** "What would you ask if you could only ask one question in your whole life?"
-- **Key activity:** Track events linked to gratitude, greed and contentment; discuss the King and Minli's choice; theme statements.
-- **Check for understanding:** "Write a theme statement (not just a topic) and give one piece of evidence." → e.g. "True happiness comes from being thankful for what you have" + event.
-- **Differentiation:** support: topic-to-theme examples. / stretch: find a story-within-the-story that supports the same theme.
-- **Materials:** the novel, theme cards.
-- **Joy:** "One question" reflection jar.
+- **Objective:** "By the end, I can identify a theme and support it with events from the frame story and the tales." (UK NC Y5–6 reading — themes; CCSS RL.4.2)
+- **Hook:** "A servant girl outwits forty thieves. A poor fisherman tricks a mighty jinni. What do these stories keep telling us?"
+- **Key activity:** Track events linked to cleverness, courage, greed and mercy across the tales (e.g. Morgiana saving Ali Baba's household; the fisherman persuading the jinni back into the jar); write theme statements that fit both the tales and the frame story.
+- **Check for understanding:** "Write a theme statement (not just a topic) and give one piece of evidence." → e.g. "Cleverness and courage can defeat power" + the fisherman tricking the jinni back into the jar, or Shahrazad taming the king with stories.
+- **Differentiation:** support: topic-to-theme examples. / stretch: explain how the same theme appears in a tale and in the frame story.
+- **Materials:** the book, theme cards.
+- **Joy:** "Open, Sesame!" — theme statements hidden in a class 'cave' that opens with the password.
 
 ### Lesson 75 — Converting nouns and adjectives into verbs
 - **Duration:** 30 min
 - **Objective:** "By the end, I can use suffixes -ate, -ise/-ize, -ify and -en to form verbs." (UK NC Y5–6 grammar — verb suffixes)
-- **Hook:** "The dragon's scales grew dark — they 'darkened'. The moon 'glorified' the night."
+- **Hook:** "The jinni's smoke darkened the sky — and the fisherman's cleverness simplified everything."
 - **Key activity:** Build verbs: active → activate, apology → apologise (US apologize), simple → simplify, class → classify, soft → soften, bright → brighten. Note both -ise and -ize are correct in British English; US English uses -ize.
-- **Check for understanding:** "Turn 'solid' and 'wide' into verbs and use one in a sentence." → solidify, widen; e.g. "The river widened as it reached the valley."
+- **Check for understanding:** "Turn 'solid' and 'wide' into verbs and use one in a sentence." → solidify, widen; e.g. "The river widened as it reached the sea."
 - **Differentiation:** support: root + suffix cards. / stretch: find verbs where the root changes spelling (pure → purify, drop the e).
 - **Materials:** suffix cards, dictionaries.
 - **Joy:** "Verb factory" production line.
@@ -850,39 +852,39 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 ### Lesson 76 — Writing a fantasy setting
 - **Duration:** 40 min
 - **Objective:** "By the end, I can write a fantasy setting using figurative language, noun phrases and cohesive paragraphs." (UK NC Y5–6 writing — narrative settings; CCSS W.4.3d)
-- **Hook:** "Minli arrives in a new city no one has ever described. You describe it."
+- **Hook:** "Sinbad's ship lands on an island no storyteller has ever described. You describe it."
 - **Key activity:** Plan three paragraphs (first sight, closer look, a hidden detail); draft with similes, metaphors, personification.
 - **Check for understanding:** "Point to your strongest image and explain why it works." → A specific image and its effect.
 - **Differentiation:** support: image prompts and phrase bank. / stretch: foreshadow danger subtly.
 - **Materials:** fantasy art prompts, plans.
-- **Joy:** Illustrate the city in watercolour.
+- **Joy:** Illustrate the island in watercolour.
 
-### Lesson 77 — Reading: the journey's trials
+### Lesson 77 — Reading: Sinbad's voyages and trials
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how the trials test Minli and how she solves problems." (UK NC Y5–6 reading — plot and character; CCSS RL.4.3)
-- **Hook:** "Brains, kindness or courage — which helps Minli most?"
-- **Key activity:** Read the middle chapters; problem-solution chart; discuss which trait she uses each time.
-- **Check for understanding:** "Which trial best shows Minli's character and why?" → A justified choice with evidence.
-- **Differentiation:** support: guided reading group. / stretch: explain how a trial connects to one of Ba's stories.
-- **Materials:** the novel, charts.
-- **Joy:** "Trial cards" game — choose the trait that solves each problem.
+- **Objective:** "By the end, I can explain how the trials test a character and how he solves problems." (UK NC Y5–6 reading — plot and character; CCSS RL.4.3)
+- **Hook:** "An island that turns out to be a whale. A bird so big its egg looks like a dome. Would you ever go to sea again?"
+- **Key activity:** Read two of Sinbad's voyages; problem-solution chart; discuss which trait (courage, cunning, greed, luck) he uses each time — and why he keeps going back to sea.
+- **Check for understanding:** "Which trial best shows Sinbad's character and why?" → A justified choice with evidence (e.g. tying himself to the giant roc's leg to escape the island shows daring and quick thinking).
+- **Differentiation:** support: guided reading group. / stretch: explain how a Sinbad voyage echoes Shahrazad's own situation (danger survived by wit, night after night).
+- **Materials:** the book, charts.
+- **Joy:** "Voyage cards" game — choose the trait that solves each problem.
 
-### Lesson 78 — Foreshadowing and connections
+### Lesson 78 — Cliffhangers, foreshadowing and connections
 - **Duration:** 35 min
-- **Objective:** "By the end, I can find foreshadowing and explain how embedded stories connect to the main plot." (UK NC Y5–6 reading — structure; CCSS RL.4.5)
-- **Hook:** "Did you notice the clue before the reveal?"
-- **Key activity:** Revisit earlier stories; draw connecting threads (literal red wool) between embedded tales and later events.
-- **Check for understanding:** "Name one story-within-a-story and explain how it connects to the main plot." → A specific accurate link.
-- **Differentiation:** support: connection cards to match. / stretch: explain why the author delays the reveal.
-- **Materials:** red wool, story cards, display board.
-- **Joy:** The "red thread" display (inspired by the story's red thread of destiny).
+- **Objective:** "By the end, I can find cliffhangers and foreshadowing and explain how the tales connect to the frame story." (UK NC Y5–6 reading — structure; CCSS RL.4.5)
+- **Hook:** "Dawn is breaking — and the story stops. How does that make you feel?"
+- **Key activity:** Find the dawn cliffhangers; revisit earlier tales and draw connecting threads (gold wool) between each tale and what it might be teaching the king.
+- **Check for understanding:** "Name one tale and explain how it connects to the frame story." → A specific, accurate link (e.g. a tale of mercy told to a merciless king).
+- **Differentiation:** support: connection cards to match. / stretch: explain why the author keeps the king's change slow and gradual.
+- **Materials:** gold wool, story cards, display board.
+- **Joy:** The "golden thread" display linking every tale to the palace.
 
 ### Lesson 79 — Writing our own story-within-a-story (plan)
 - **Duration:** 35 min
 - **Objective:** "By the end, I can plan a short tale that a character tells, which gives advice or a clue to the main plot." (UK NC Y5–6 writing — plan; CCSS W.4.3)
 - **Hook:** "Every family has a story it tells — what would yours be?"
-- **Key activity:** Plan a short embedded tale (4 parts) and the moment in a main story when it is told; decide what clue it hides.
-- **Check for understanding:** "What clue or lesson does your embedded story give?" → Clear link to the main plot.
+- **Key activity:** Plan a short embedded tale (4 parts) and the moment in a main story when it is told; decide what clue or lesson it hides for the listener.
+- **Check for understanding:** "What clue or lesson does your embedded story give, and why does the listener need it?" → Clear link to the main plot.
 - **Differentiation:** support: a two-box frame (main plot / embedded tale). / stretch: make the clue only clear on a second reading.
 - **Materials:** planning frames.
 - **Joy:** Share family stories (optional).
@@ -890,7 +892,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 ### Lesson 80 — Drafting the story-within-a-story
 - **Duration:** 40 min
 - **Objective:** "By the end, I can draft a framed story, switching clearly between the main narrative and the embedded tale." (UK NC Y5–6 writing — draft; CCSS W.4.3c)
-- **Hook:** "'Let me tell you a story,' said the old woman, and the fire crackled."
+- **Hook:** "'Let me tell you a story,' said Shahrazad, and the lamp flickered."
 - **Key activity:** Draft the framing scene, the embedded tale (perhaps in a different style), and the return to the frame.
 - **Check for understanding:** "How does a reader know when your embedded tale begins and ends?" → A clear signal (speech, change of style, paragraph break, a return line).
 - **Differentiation:** support: frame sentences provided. / stretch: embedded tale in a distinctive voice.
@@ -907,24 +909,24 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Materials:** drafts, checklists.
 - **Joy:** "Makeover reveal" before/after.
 
-### Lesson 82 — Reading: the ending and the red thread
+### Lesson 82 — Reading: the thousand-and-first night
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how the ending ties the stories together and resolves Minli's quest." (UK NC Y5–6 reading — endings; CCSS RL.4.2)
-- **Hook:** "Can one question change everything?"
-- **Key activity:** Read the ending; discuss Minli's choice; revisit the theme statements.
-- **Check for understanding:** "Why does Minli choose the question she does, and what does it show?" → Selflessness/loyalty to Dragon; the family's happiness came from gratitude.
-- **Differentiation:** support: discussion stems. / stretch: evaluate whether the ending is satisfying.
-- **Materials:** the novel.
-- **Joy:** A mooncake-style shared snack (check allergies) to celebrate the ending.
+- **Objective:** "By the end, I can explain how the ending ties the stories together and resolves the frame story." (UK NC Y5–6 reading — endings; CCSS RL.4.2)
+- **Hook:** "After a thousand and one nights, what has changed in the palace?"
+- **Key activity:** Read the ending of the frame story; discuss what Shahrazad has achieved; revisit the theme statements.
+- **Check for understanding:** "Why is the ending satisfying, and what has Shahrazad achieved with her stories?" → The king has changed and spares her; she has saved her own life (and others') and turned cruelty into mercy using only her wits and her stories.
+- **Differentiation:** support: discussion stems. / stretch: evaluate whether a story can really change a person, with an example from your own life or reading.
+- **Materials:** the book.
+- **Joy:** A shared snack of dates and flatbread (check allergies) to celebrate the thousand-and-first night.
 
 ### Lesson 83 — Book response: point, evidence, explain
 - **Duration:** 35 min
 - **Objective:** "By the end, I can write a PEE paragraph about the author's language or structure." (UK NC Y5–6 reading/writing — explain and justify; CCSS W.4.9)
 - **Hook:** "Critics don't just say 'I liked it' — they prove why."
-- **Key activity:** Model PEE (point, evidence, explanation); children write about one technique (metaphor, embedded story, foreshadowing).
+- **Key activity:** Model PEE (point, evidence, explanation); children write about one technique (metaphor, embedded story, cliffhanger).
 - **Check for understanding:** "Which part of your paragraph explains the effect on the reader?" → The explanation sentence linking the evidence to the effect.
 - **Differentiation:** support: PEE frame with sentence starters. / stretch: two pieces of evidence and a comparison.
-- **Materials:** PEE frames, the novel.
+- **Materials:** PEE frames, the book.
 - **Joy:** "Critic's chair" — read paragraphs from a special chair.
 
 ### Lesson 84 — Spelling: -cial and -tial; Years 5–6 words
@@ -940,24 +942,24 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 ### Lesson 85 — Publishing and reading aloud
 - **Duration:** 35 min
 - **Objective:** "By the end, I can publish my framed story and read it aloud expressively." (UK NC Y5–6 writing/spoken language)
-- **Hook:** "Storytelling night at the tea house."
-- **Key activity:** Final copies; readings in a "tea-house" setting; audience feedback.
+- **Hook:** "Storytelling night in the palace courtyard."
+- **Key activity:** Final copies; readings in a "courtyard" setting with cushions and lanterns; audience feedback.
 - **Check for understanding:** "How did you use your voice to show the switch between stories?" → Change of voice/pace for the embedded tale.
 - **Differentiation:** support: read a section only. / stretch: perform from memory.
-- **Materials:** publishing paper, tea-house props (cushions, lanterns).
-- **Joy:** Tea-house storytelling event.
+- **Materials:** publishing paper, courtyard props (cushions, lanterns).
+- **Joy:** Courtyard storytelling event.
 
 ### Lesson 86 — Unit 6 assessment
 - **Duration:** 30 min
 - **Objective:** "By the end, I can answer questions on structure, theme and language and show my spelling." (UK NC Y5–6 — assessment)
-- **Hook:** "Moon journal final page."
+- **Hook:** "Night 1,001 — the final page of the night counter."
 - **Key activity:** Short reading response on an extract; spelling check.
-- **Check for understanding:** "Explain one way the embedded stories help us understand the main plot." → Accurate link with evidence.
+- **Check for understanding:** "Explain one way the embedded stories help us understand the frame story." → Accurate link with evidence.
 - **Differentiation:** support: questions read aloud. / stretch: evaluation question.
 - **Materials:** assessment sheet.
-- **Joy:** Complete the moon journal.
+- **Joy:** Complete the night counter.
 
-**End-of-unit check:** A PEE paragraph explaining how one embedded story connects to the main plot; spell 10 words from the -cious/-tious and -cial/-tial families.
+**End-of-unit check:** A PEE paragraph explaining how one embedded tale connects to the frame story; spell 10 words from the -cious/-tious and -cial/-tial families.
 
 ---
 ## Unit 7 — Cosmic: voice, dialogue and reports
@@ -1156,42 +1158,42 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 
 **Key vocabulary:** voice, free verse, haiku, ode, rhythm, repetition, dialect, performance, imagery, theme
 
-### Lesson 105 — Langston Hughes: dreams and hope
+### Lesson 105 — Langston Hughes: personification and rain
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain the metaphors in 'Dreams' and what the poem says about hope." (UK NC Y5–6 reading — poetry; CCSS RL.4.4)
-- **Hook:** "What would life be like without dreams?"
-- **Key activity:** Read "Dreams" and "April Rain Song" by Langston Hughes (Harlem Renaissance, USA); explain the metaphors of the broken-winged bird and the barren field; learn "Dreams" by heart.
-- **Check for understanding:** "Why does Hughes compare a life without dreams to a broken-winged bird?" → A bird that can't fly can't reach its potential or be free — like a life without hope.
+- **Objective:** "By the end, I can explain how personification in 'April Rain Song' changes how we feel about something ordinary." (UK NC Y5–6 reading — poetry; CCSS RL.4.4)
+- **Hook:** "Is rain miserable — or could it be kind?"
+- **Key activity:** Recall "Dreams" from Year 3 (the same poet). Read "April Rain Song" by Langston Hughes (Harlem Renaissance, USA); find everything the rain does (kisses, beats upon your head, sings a lullaby, plays on the roof); explain why giving rain human actions changes our feelings about it; learn the poem by heart.
+- **Check for understanding:** "What does the rain do in the poem that real rain can't, and why does Hughes give it human actions?" → It kisses you and sings you a lullaby; the personification makes the rain gentle, loving and comforting, so we see an ordinary rainy day as something to enjoy.
 - **Differentiation:** support: picture prompts for each metaphor. / stretch: write a third stanza with a new metaphor.
 - **Materials:** poem copies, images.
 - **Joy:** Write dreams on paper birds for a class flock.
 
-### Lesson 106 — Grace Nichols and Benjamin Zephaniah: voice and performance
+### Lesson 106 — Grace Nichols and James Berry: voice and performance
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how poets use voice, rhythm and dialect for performance." (UK NC Y5–6 reading/spoken — performance poetry)
-- **Hook:** Listen to a recording of Benjamin Zephaniah performing "Talking Turkeys!!"
-- **Key activity:** Read "Talking Turkeys!!" (Zephaniah) and "Give Yourself a Hug" (Grace Nichols, born in Guyana); discuss voice, humour, rhythm and why poets use dialect or everyday speech; perform in groups.
-- **Check for understanding:** "What message is hidden in the humour of 'Talking Turkeys!!'?" → Be kind to animals / think about what we eat; a serious point made in a funny voice.
+- **Objective:** "By the end, I can explain how poets use voice, rhythm and everyday speech for performance." (UK NC Y5–6 reading/spoken — performance poetry)
+- **Hook:** "What would you say to cheer yourself up — and what does your name mean to you?"
+- **Key activity:** Read "Give Yourself a Hug" (Grace Nichols, born in Guyana) and "Isn't My Name Magical?" (James Berry, born in Jamaica); discuss voice, humour, rhythm and why poets use everyday speech and repetition; perform in groups.
+- **Check for understanding:** "How does James Berry show that a name is more than a label?" → The speaker describes the name as part of who they are, living inside them and making them feel special whenever someone calls it — so a name is tied to identity and belonging.
 - **Differentiation:** support: perform a chorus section. / stretch: explain the effect of non-standard spelling in the poem.
 - **Materials:** poem copies, recordings, percussion.
 - **Joy:** Group performances with body percussion.
 
-### Lesson 107 — Haiku from Japan
+### Lesson 107 — The pantoum: a poem form from Malaysia
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain what a haiku is and write haiku that capture a single moment in nature." (UK NC Y5–6 writing — poetry forms)
-- **Hook:** Read Matsuo Bashō's "old pond" haiku in translation: "Why might a frog's splash be worth a poem?"
-- **Key activity:** Haiku traditionally capture a moment and a season word; in Japanese they count sound units (5–7–5), so English translations don't always have 5–7–5 syllables; write English haiku using the 5–7–5 syllable pattern as a guide, after a short silent nature walk.
-- **Check for understanding:** "Why do translations of Bashō often not have exactly 17 syllables?" → Japanese counts sound units, not English syllables, and translators choose meaning over exact counts.
+- **Objective:** "By the end, I can explain how a pantoum's repeating lines work and write one of my own." (UK NC Y5–6 writing — poetry forms)
+- **Hook:** "A poem where every line comes back — like an echo or a memory you can't stop thinking about."
+- **Key activity:** The pantoum grew from the Malay pantun: four-line stanzas in which lines 2 and 4 of one stanza become lines 1 and 3 of the next. Read a model pantoum (teacher-written, e.g. about a rainy day or a memory of home); colour-code the repeated lines; write a pantoum of three or four stanzas together, then independently. (Haiku were studied in Year 3.)
+- **Check for understanding:** "In a pantoum, which lines of stanza one come back in stanza two, and what effect does the repetition create?" → Lines 2 and 4 return as lines 1 and 3; the repetition makes the poem circle back like an echo or a memory, and each line gains new meaning in its new place.
 - **Differentiation:** support: syllable-clapping cards and a word bank from the walk. / stretch: include a seasonal word and a surprising final line.
 - **Materials:** haiku examples, clipboards, outdoor space.
 - **Joy:** A mindful nature walk and a "haiku line" on the classroom window.
 
-### Lesson 108 — Tagore and Neruda: poems of everyday wonder
+### Lesson 108 — Li Bai and Neruda: poems of everyday wonder
 - **Duration:** 35 min
 - **Objective:** "By the end, I can compare two poems that find wonder in ordinary things." (UK NC Y5–6 reading — compare poems; CCSS RL.4.9)
-- **Hook:** A paper boat and a pair of woolly socks: "Could these be the subject of great poems?"
-- **Key activity:** Read "Paper Boats" by Rabindranath Tagore (India, Nobel Prize 1913) and an extract of "Ode to My Socks" by Pablo Neruda (Chile) in translation; compare subject, imagery and feeling.
-- **Check for understanding:** "What is one similarity in how both poets see ordinary objects?" → Both treat simple things with wonder/love, making them special through imagery.
+- **Hook:** Moonlight on the floor and a pair of woolly socks: "Could these be the subject of great poems?"
+- **Key activity:** Read "Quiet Night Thoughts" by Li Bai (China, 8th century; moonlight by the bed looks like frost, and the poet thinks of home) and an extract of "Ode to My Socks" by Pablo Neruda (Chile), both in translation; compare subject, imagery and feeling.
+- **Check for understanding:** "What is one similarity in how both poets see ordinary things?" → Both look closely at something everyday (moonlight on a floor, a pair of socks) and use imagery to connect it to a strong feeling — homesickness for Li Bai, delight and gratitude for Neruda.
 - **Differentiation:** support: comparison grid. / stretch: read a few lines of Neruda's Spanish original and notice sounds (links to Spanish lessons).
 - **Materials:** poem copies, a paper boat, socks.
 - **Joy:** Make and float paper boats with a wish inside.
@@ -1240,7 +1242,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Duration:** 30 min
 - **Objective:** "By the end, I can spell and explain the term's spelling families and root words." (UK NC Y5–6 spelling — retrieval)
 - **Hook:** "Root-word detectives."
-- **Key activity:** Dictation of -cious/-tious, -cial/-tial, -fer words, Greek roots; explain choices.
+- **Key activity:** Dictation of -cious/-tious, -cial/-tial, -fer words and words from myths; explain choices.
 - **Check for understanding:** "Spell 'referring' and 'reference' and explain the difference." → Double r when stress stays on 'fer'.
 - **Differentiation:** support: 10 words. / stretch: exceptions round.
 - **Materials:** word lists.
@@ -1392,7 +1394,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Hook:** "Have you ever been laughed at for trying something new?"
 - **Key activity:** Read the chapters where villagers call William 'misala' (crazy); trace his persistence; discuss growth mindset.
 - **Check for understanding:** "How does William respond to being called 'misala', and what does it show?" → He keeps working; determination and belief in knowledge.
-- **Differentiation:** support: guided reading. / stretch: compare William's determination with Naledi's or Minli's.
+- **Differentiation:** support: guided reading. / stretch: compare William's determination with Naledi's or Shahrazad's.
 - **Materials:** the book.
 - **Joy:** "Persistence pledge" — a personal goal on a paper windmill blade.
 
@@ -1589,7 +1591,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 ### Lesson 145 — Comparing protagonists across the year
 - **Duration:** 35 min
 - **Objective:** "By the end, I can compare two protagonists from our class novels and their journeys." (UK NC Y5–6 reading — compare; CCSS RL.4.9)
-- **Hook:** "Naledi, Minli, Roz, Liam, Esperanza — who changed the most?"
+- **Hook:** "Naledi, Shahrazad, Roz, Liam, Esperanza — who changed the most?"
 - **Key activity:** Character comparison grid; discussion; a comparison paragraph with "whereas" and "similarly".
 - **Check for understanding:** "Compare two protagonists: one similarity and one difference in how they change." → Accurate, evidenced comparison.
 - **Differentiation:** support: grid with prompts. / stretch: compare how two authors use setting to shape character.
@@ -1634,7 +1636,7 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 
 **Essential question:** How do poets use sound, form and imagery to make us feel something?
 
-**Key vocabulary:** alliteration, assonance, onomatopoeia, imagery, rhythm, rhyme scheme, stanza, nonsense poem, portmanteau word, kenning, free verse, mood
+**Key vocabulary:** alliteration, assonance, onomatopoeia, internal rhyme, imagery, rhythm, rhyme scheme, stanza, kenning, free verse, mood
 
 ### Lesson 149 — "The Listeners": mystery and mood
 - **Duration:** 35 min
@@ -1646,15 +1648,15 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - **Materials:** poem copies, highlighters.
 - **Joy:** Dramatic reading in a darkened room.
 
-### Lesson 150 — "Jabberwocky": nonsense words and meaning
+### Lesson 150 — "Tarantella": sound, rhythm and memory
 - **Duration:** 35 min
-- **Objective:** "By the end, I can use grammar and sound clues to work out what nonsense words might mean." (UK NC Y5–6 reading — vocabulary; CCSS L.4.4)
-- **Hook:** "'Twas brillig, and the slithy toves…" — "You understand more than you think!"
-- **Key activity:** Identify word classes of nonsense words from their position; portmanteau words (slithy = lithe + slimy, as Humpty Dumpty explains in *Through the Looking-Glass*); invent definitions.
-- **Check for understanding:** "How do you know 'vorpal' is an adjective?" → It comes before and describes the noun 'sword' ('vorpal sword').
-- **Differentiation:** support: word-class cards. / stretch: invent portmanteau words and use them in a stanza.
-- **Materials:** poem copies, word-class cards.
-- **Joy:** Illustrate the Jabberwock.
+- **Objective:** "By the end, I can explain how sound devices and a change of rhythm create and then change a poem's mood." (UK NC Y5–6 reading — poetry; CCSS RL.4.5)
+- **Hook:** "'And the Hip! Hop! Hap! / Of the clap / Of the hands…' — what is happening, and can you hear it?"
+- **Key activity:** Read Hilaire Belloc's "Tarantella" aloud twice. Mark the internal rhymes, onomatopoeia and short, skipping lines of the remembered dance at the inn; then the sudden change in the last section ("Never more; / Miranda, / Never more"), where the lines slow down and the sounds grow heavy. Groups perform one section each. ("Jabberwocky" is studied in Year 5.)
+- **Check for understanding:** "Why does the rhythm slow down and the sounds change in the last section?" → The poem moves from a joyful memory of dancing to the present, where the inn is silent and the dancers are gone; long, heavy sounds and repeated 'Never more' make the mood sad and haunting.
+- **Differentiation:** support: the dance section only, with sound words highlighted. / stretch: explain how the last line (the far waterfall booming 'like Doom') completes the change of mood.
+- **Materials:** copies of "Tarantella" (Hilaire Belloc), percussion (castanets or clappers).
+- **Joy:** A class performance with castanets that fall silent for the final stanza.
 
 ### Lesson 151 — Robert Frost: rhyme scheme and rhythm
 - **Duration:** 35 min
@@ -1884,19 +1886,19 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 - ***The Wild Robot* — Peter Brown** — short chapters and a beloved non-human hero; superb for setting, point of view and discussion about nature and belonging.
 - **"The Highwayman" — Alfred Noyes** — the classic narrative poem for rhythm, imagery and performance (the Charles Keeping illustrated edition is outstanding).
 - ***Journey to Jo'burg* — Beverley Naidoo** — short, gripping and morally serious; a South African story that builds empathy and understanding of injustice.
-- ***The Orchard Book of Greek Myths* — Geraldine McCaughrean** — vivid, well-written retellings; the best single-volume Greek myths for this age.
-- ***Where the Mountain Meets the Moon* — Grace Lin** — Chinese folklore woven into a quest; a Newbery Honor book and a model of story structure.
+- ***Norse Myths: Tales of Odin, Thor and Loki* — Kevin Crossley-Holland** — vivid, beautifully illustrated retellings by a master of the Norse myths; extends Year 3's Greek myths to a new mythology (with Anansi and Māui tales from printed sources).
+- ***One Thousand and One Arabian Nights* — retold by Geraldine McCaughrean** — the great frame story of the Middle East, retold for young readers by a Carnegie Medal winner; the perfect model of stories within a story and of the cliffhanger. (*Where the Mountain Meets the Moon* is studied in Year 3.)
 - ***Cosmic* — Frank Cottrell-Boyce** — very funny and moving; a masterclass in first-person voice.
 - ***The Boy Who Harnessed the Wind* (Young Readers' Edition) — William Kamkwamba and Bryan Mealer** — a true story from Malawi about curiosity, science and determination; also a picture-book version illustrated by Elizabeth Zunon.
 - ***Esperanza Rising* — Pam Muñoz Ryan** — a rich, humane novel set in Mexico and California; perfect for character, symbol and theme, and links to Spanish.
 
 **Poetry**
-- **Langston Hughes — "Dreams", "April Rain Song"**; **Grace Nichols — "Give Yourself a Hug"**; **Benjamin Zephaniah — "Talking Turkeys!!"**; **Matsuo Bashō — haiku (in translation)**; **Rabindranath Tagore — "Paper Boats"**; **Pablo Neruda — "Ode to My Socks"**; **Walter de la Mare — "The Listeners"**; **Lewis Carroll — "Jabberwocky"**; **Robert Frost — "Stopping by Woods on a Snowy Evening"**; **Robert Browning — "The Pied Piper of Hamelin"** — a year of poems from four continents and several centuries.
+- **Langston Hughes — "April Rain Song"**; **Grace Nichols — "Give Yourself a Hug"**; **James Berry — "Isn't My Name Magical?"**; **the pantoum (Malaysia)**; **Li Bai — "Quiet Night Thoughts" (in translation)**; **Pablo Neruda — "Ode to My Socks"**; **Walter de la Mare — "The Listeners"**; **Hilaire Belloc — "Tarantella"**; **Robert Frost — "Stopping by Woods on a Snowy Evening"**; **Robert Browning — "The Pied Piper of Hamelin"** — a year of poems from four continents and several centuries.
 - ***A Poem for Every Day of the Year* — edited by Allie Esiri** — an excellent anthology for daily read-aloud poems.
 
 **Book-club choices (Unit 13) and class library**
-- ***Holes* — Louis Sachar** — an ingeniously plotted story of friendship and justice.
-- ***Wonder* — R. J. Palacio** — kindness and multiple narrators.
+- ***Amari and the Night Brothers* — B. B. Alston** — a fast, funny fantasy adventure with a brave Black girl hero.
+- ***The Last Bear* — Hannah Gold** — a girl befriends a polar bear stranded on an Arctic island; climate and courage.
 - ***The Explorer* — Katherine Rundell** — survival adventure in the Amazon rainforest.
 - ***Kensuke's Kingdom* — Michael Morpurgo** — a shipwrecked boy and an old Japanese man on an island (pairs with *The Wild Robot*).
 - ***Front Desk* — Kelly Yang** — a Chinese-American girl running a motel front desk; courage and fairness.
@@ -1941,10 +1943,10 @@ Year 4 is the year children become **readers of whole novels who talk like criti
 
 **Differentiation.** Support means more scaffolding with the *same* rich text (audio-book, pre-teaching vocabulary, guided reading groups, sentence frames); stretch means greater depth (subtext, comparing authors, evaluating choices), not simply more writing.
 
-**Sensitive content.** *Journey to Jo'burg* (apartheid), *Esperanza Rising* (a parent's death, deportations, poverty) and *The Boy Who Harnessed the Wind* (famine) include hardship. Pre-read, prepare children, invite family perspectives and emphasise courage, dignity and agency.
+**Sensitive content.** *Journey to Jo'burg* (apartheid), *Esperanza Rising* (a parent's death, deportations, poverty) and *The Boy Who Harnessed the Wind* (famine) include hardship; the frame story of *One Thousand and One Arabian Nights* rests on a king's threat to his brides, which the retelling handles lightly — keep the focus on Shahrazad's courage and wit. Pre-read, prepare children, invite family perspectives and emphasise courage, dignity and agency.
 
 **International notes.** British and US spellings both appear in the world (colour/color, apologise/apologize, practise/practice); teach one consistently and recognise the other. Swap local texts and poets in beside the spine where possible, keeping the whole-book principle.
 
 **Vertical links.** Year 3 built fronted adverbials, possessive apostrophes, /shun/ spellings, summarising and similes; retrieve them rather than re-teach. Year 5 builds on this year's relative clauses, parenthesis and persuasive/formal writing with semicolons, colons, the passive voice, formal register and extended analytical writing.
 
-**Cross-curricular links.** Science (life cycles in *The Wild Robot*; forces and rockets in *Cosmic*; energy in *The Boy Who Harnessed the Wind*), history and geography (South Africa, Mexico/California, Malawi, ancient Greece, China), Spanish (*Esperanza Rising*, Neruda), life skills (fairness, rights, resilience), art (illustrating anthologies).
+**Cross-curricular links.** Science (life cycles in *The Wild Robot*; forces and rockets in *Cosmic*; energy in *The Boy Who Harnessed the Wind*), history and geography (South Africa, Mexico/California, Malawi, the Norse world, the Middle East and the Silk Road), Spanish (*Esperanza Rising*, Neruda), life skills (fairness, rights, resilience), art (illustrating anthologies).
