@@ -14,19 +14,23 @@ they build a toolkit of techniques that each later year extends — **drawing** 
 tone), **colour** (mixing, tints, shades, warm and cool), **printmaking** (relief and stamp
 printing), **clay** (pinch, coil and slab), **textiles** (weaving and resist dyeing) and a first
 taste of **digital art**. Every unit is anchored in **named artists and makers from many
-cultures** — Leonardo da Vinci and Albrecht Dürer, Frida Kahlo, Wassily Kandinsky, Paul Klee,
-Georgia O'Keeffe, Yayoi Kusama, Katsushika Hokusai, Adinkra stamp makers of Ghana, Jōmon potters of
-ancient Japan, Barbara Hepworth, Kente weavers, Anni Albers, Indonesian batik artists and David
-Hockney — and some units link to History (cave art, ancient pottery) and Science (light and
+cultures** — Leonardo da Vinci and Albrecht Dürer, Rembrandt van Rijn, Wassily Kandinsky, Paul Klee,
+Georgia O'Keeffe, Yayoi Kusama, Katsushika Hokusai, hand-block printers of Rajasthan (India), Jōmon
+potters of ancient Japan, the Nok sculptors of Nigeria, Andean weavers of Peru, Sheila Hicks,
+Indonesian batik artists and David Hockney — and some units link to History (cave art, ancient pottery) and Science (light and
 shadow, observation of plants).
 
 **Assessment is by looking and talking, not quizzes.** Each "check for understanding" is a short
 conversation about a child's work or an artwork, and each unit ends with a *gallery talk* where
 children explain their choices and give kind, specific feedback.
 
-**What Year 2 assumes from Year 1 (ages 6–7):** using pencils, crayons, paint and collage with some
-control; naming primary and secondary colours; simple printing with found objects; simple clay
-shapes; talking about artworks they like.
+**What Year 2 assumes from Year 1 (ages 6–7):** a dated sketchbook habit and light-first drawing;
+mixing tints and shades and choosing warm or cool colours for a mood; layered collage; a one-colour
+relief print and Adinkra stamping; paper and card-loom weaving (Kente, Anni Albers) and running
+stitch; pinch pots, coils and score-and-slip joins (Odundo, Maria Martinez, Hepworth); talking about
+art with vocabulary. This year does not repeat those at the same depth: it retrieves them briefly
+and adds tone, still life, tertiary colours, multi-colour block printing, slabs and hollow forms,
+new weaving and resist traditions, and digital layers.
 
 **What Year 3 (ages 8–9) relies on from this year:** sketchbook habits; the 5-step tone scale; colour
 mixing with tints and shades; relief printing; joining clay with score-and-slip; basic weaving; and
@@ -104,24 +108,24 @@ the language to discuss and evaluate art.
 - **Materials:** 2B, 4B, 6B pencils, blending stumps (or tissue), sketchbooks, torch, white ball
 - **Joy:** "Tone thermometer" challenge.
 
-### Lesson 6 — Making it round: shading a sphere
-- **Duration:** 25 min
-- **Objective:** "By the end, I can use tone to make a flat circle look like a 3-D ball." (UK NC KS2 Art – drawing)
+### Lesson 6 — Making it round: shading a sphere and a first still life
+- **Duration:** 30 min
+- **Objective:** "By the end, I can use tone to make a flat circle look like a 3-D ball, and draw a simple still life lit from one side." (UK NC KS2 Art – drawing)
 - **Hook:** "Can we make a circle pop off the page?"
-- **Key activity:** Observe a ball lit from one side; identify highlight, mid-tone, shadow and cast shadow; shade a sphere; compare with a flat circle.
+- **Key activity:** Observe a ball lit from one side; identify highlight, mid-tone, shadow and cast shadow; shade a sphere; compare with a flat circle; then arrange a small still life (an apple, a cup, a ball) under one lamp and draw it with light build-up lines and three tones.
 - **Check for understanding:** "Where did you put the lightest part, and why?" → On the side nearest the light, because that's where light hits it.
 - **Differentiation:** support: pre-drawn circle with arrows showing light / stretch: shade a cube and a cylinder too.
 - **Materials:** balls, desk lamp, pencils, tissue for blending
 - **Joy:** The "pop" moment when the ball looks real.
 
-### Lesson 7 — Self-portraits and gallery talk (Frida Kahlo)
+### Lesson 7 — Self-portraits in light and shadow (Rembrandt) and gallery talk
 - **Duration:** 30 min
 - **Objective:** "By the end, I can draw a self-portrait from a mirror using line, texture and tone, and talk about my choices." (UK NC KS2 Art – drawing; evaluate)
-- **Hook:** Frida Kahlo's self-portraits — "What does she want us to know about her?"
-- **Key activity:** Discuss how Kahlo includes things she loves (animals, plants, Mexican clothing); draw a self-portrait from a mirror with facial proportions guide (eyes halfway down the head); add a meaningful object; gallery talk.
-- **Check for understanding:** Gallery talk: "Tell us one choice you made and why." → e.g. "I added my cat because she's important to me, like Frida's monkeys."
-- **Differentiation:** support: a head-proportion template / stretch: add tone for shadows on the face.
-- **Materials:** mirrors, pencils, proportion guide, Frida Kahlo prints
+- **Hook:** Two of Rembrandt's many self-portraits (Netherlands, 1600s) — "Where is the light coming from? How can you tell?" (Year 1 painted colourful self-portraits inspired by Frida Kahlo; this year the focus is tone.)
+- **Key activity:** Notice how Rembrandt leaves one side of the face lit and lets the other fall into shadow; draw a self-portrait from a mirror with a facial proportions guide (eyes halfway down the head), a desk lamp lighting one side; add three tones from the Lesson 5 scale; gallery talk.
+- **Check for understanding:** Gallery talk: "Show us where the light hits your face in your drawing, and how you made the shadow side." → Points to the lit side (lightest tone, near the lamp) and the shadow side (built-up darker tones, softer pencil).
+- **Differentiation:** support: a head-proportion template and two tones only / stretch: add a cast shadow (e.g. under the nose) and a meaningful object in the background.
+- **Materials:** mirrors, desk lamp, 2B–6B pencils, proportion guide, Rembrandt self-portrait prints
 - **Joy:** A class self-portrait gallery.
 
 **End-of-unit check:** A gallery talk on a self-portrait and a natural-object study: the child shows where they used line, texture and tone and explains one thing they noticed by looking closely.
@@ -142,22 +146,22 @@ the language to discuss and evaluate art.
 - **Materials:** ready-mix red, yellow, blue, palettes, brushes (sizes 4 and 8), water pots, colour-wheel templates
 - **Joy:** "Colour chemists" — name a newly mixed colour.
 
-### Lesson 9 — Tints and shades
+### Lesson 9 — Tints, shades and tones: beyond black and white
 - **Duration:** 25 min
-- **Objective:** "By the end, I can make tints with white and shades with black." (UK NC KS2 Art – painting)
-- **Hook:** Paint strips from a hardware shop.
-- **Key activity:** Make a tint-and-shade ladder for one colour; use it to paint a simple landscape (light sky to dark hills).
-- **Check for understanding:** "Why add black a tiny bit at a time?" → Black is very strong and quickly overpowers the colour.
-- **Differentiation:** support: 3-step ladder / stretch: shades using the complementary colour instead of black.
+- **Objective:** "By the end, I can make tints, shades and tones (adding grey), and darken a colour with its complementary instead of black." (UK NC KS2 Art – painting)
+- **Hook:** Paint strips from a hardware shop — "Year 1 made tints and shades. How did the paint company make these soft, greyish colours?"
+- **Key activity:** Retrieve tints (white) and shades (black) with a quick 3-step ladder; add two new ideas — a *tone* (colour + grey, softer and duller) and a *natural shade* made with the complementary colour (a little red into green, a little purple into yellow); use them to paint a misty landscape (soft tones far away, rich shades close up).
+- **Check for understanding:** "Mix a darker green without using black. What did you add, and why does it look more natural than green plus black?" → A little red (its complementary colour); it darkens and dulls the green like real shadow, while black can make it look muddy and flat.
+- **Differentiation:** support: 3-step ladder then one complementary mix with help / stretch: a 5-step ladder from pure green to a deep complementary shade.
 - **Materials:** paint, white, black, palettes, paint strips
 - **Joy:** "Paint shop" naming of their colours.
 
-### Lesson 10 — Warm, cool and mood (Paul Klee)
+### Lesson 10 — Warm and cool, near and far (Paul Klee)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can use warm and cool colours to create a mood." (UK NC KS2 Art – great artists)
-- **Hook:** Paul Klee's *Castle and Sun* (1928) — "Is it a happy or a sad picture?"
-- **Key activity:** Sort colours into warm and cool; create a Klee-style castle from geometric shapes in either warm or cool colours; compare moods.
-- **Check for understanding:** Gallery talk: "What mood do your colours create, and how?" → e.g. warm reds and yellows make it feel sunny and exciting.
+- **Objective:** "By the end, I can use warm colours to bring shapes forward and cool colours to push them back." (UK NC KS2 Art – great artists)
+- **Hook:** Paul Klee's *Castle and Sun* (1928) — "Which shapes seem closest to you? Why?"
+- **Key activity:** Retrieve Year 1's warm and cool moods in one minute; new idea: warm colours seem to come forward and cool colours seem to sit back; build a Klee-style castle from geometric shapes — warm castle in front of a cool sky, then swap on a second version and compare.
+- **Check for understanding:** Gallery talk: "Compare your two castles. In which one does the castle stand out more, and why?" → The warm castle on a cool sky — warm colours seem to jump forward and cool colours seem to sit back, so the castle looks nearer.
 - **Differentiation:** support: pre-drawn shapes / stretch: use warm and cool colours to show a sunset moving into night.
 - **Materials:** Klee print, rulers, paint or oil pastels, squared paper
 - **Joy:** A "warm vs cool" class castle wall.
@@ -208,7 +212,7 @@ the language to discuss and evaluate art.
 
 **Essential question:** How can one design be repeated to make something new?
 
-**Key vocabulary:** print, printing block, relief, stamp, press, roller (brayer), ink, repeat, pattern, symbol, reverse, mirror image, woodblock, edition
+**Key vocabulary:** print, printing block, relief, stamp, press, roller (brayer), ink, repeat, pattern, symbol, reverse, mirror image, woodblock, registration, edition
 
 ### Lesson 15 — Cave marks: the first prints
 - **Duration:** 25 min
@@ -220,15 +224,15 @@ the language to discuss and evaluate art.
 - **Materials:** sponges, ochre/brown/black paint, card stencils, brown paper
 - **Joy:** A class "cave wall."
 
-### Lesson 16 — Adinkra stamps from Ghana
+### Lesson 16 — Hand-block printing from India: two colours that fit
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain the meaning of an Adinkra symbol and print a repeat pattern." (UK NC KS2 Art – craft; culture)
-- **Hook:** Adinkra cloth with stamped symbols — each has a meaning (e.g. Sankofa: "go back and get it" — learn from the past).
-- **Key activity:** Learn several symbols and meanings; carve a simple stamp from a potato (adult cuts) or foam; print in a grid.
-- **Check for understanding:** "Why did you choose your symbol?" → Links the symbol's meaning to something they value.
-- **Differentiation:** support: foam shapes pre-cut / stretch: design their own symbol with a meaning.
-- **Materials:** Adinkra symbol sheet, potatoes or craft foam, ink pads, fabric or paper
-- **Joy:** A class "Adinkra cloth."
+- **Objective:** "By the end, I can print a two-colour repeat pattern by lining up a second block with the first." (UK NC KS2 Art – craft; culture)
+- **Hook:** Hand-block-printed cotton from Rajasthan (e.g. Bagru or Sanganer) and a short film of printers stamping carved wooden blocks: "Year 1 printed Adinkra with one stamp. How do these printers make two colours land in exactly the right place?"
+- **Key activity:** Learn that printers carve a separate wooden block for each colour and line each one up by eye with the last print (registration); make an outline block and a "fill" block from craft foam on card (a flower: outline + centre); print the outline in a grid, then carefully add the second colour; retrieve Adinkra as a comparison.
+- **Check for understanding:** "Why do the printers line up the second block so carefully with the first?" → So the second colour lands inside the right shapes; if it slips, the colours don't fit and the pattern looks blurred.
+- **Differentiation:** support: a large, simple two-part shape with a corner guide mark / stretch: a three-block design and a border.
+- **Materials:** images/film of Indian hand-block printing, craft foam, card, scissors, glue, water-based ink, rollers, fabric or paper (adult cuts any wooden or card bases)
+- **Joy:** A class "block-printed" tablecloth.
 
 ### Lesson 17 — Hokusai's Great Wave
 - **Duration:** 25 min
@@ -245,7 +249,7 @@ the language to discuss and evaluate art.
 - **Objective:** "By the end, I can design a print knowing it will come out reversed." (UK NC KS2 Art – printmaking)
 - **Hook:** "Write your name and print it — what happens?"
 - **Key activity:** Discover mirror images; design a wave or animal image on polystyrene tile size; avoid letters or reverse them.
-- **Check for understanding:** "Why do letters come out backwards in a print?" → The print is a mirror image of the block.
+- **Check for understanding:** "Your name came out backwards on your test print. How will you draw it on your next block so it prints the right way round — and how could a mirror help you check?" → Draw the letters reversed (mirror writing) on the block; hold the block up to a mirror — if it reads correctly in the mirror, it will print correctly.
 - **Differentiation:** support: simple bold shapes / stretch: include reversed lettering.
 - **Materials:** polystyrene tiles (press-print foam), pencils, mirrors
 - **Joy:** Mirror magic.
@@ -285,16 +289,16 @@ the language to discuss and evaluate art.
 - **Key activity:** Compare pots from different ancient cultures (Jōmon, Egyptian, Indus); explore how patterns were pressed in; practise pressing texture into clay.
 - **Check for understanding:** "What does a pot tell us about the people who made it?" → What they cooked and stored, and their skills and designs.
 - **Differentiation:** support: picture sort / stretch: compare two cultures' pots.
-- **Materials:** images, clay samples, string, texture tools
+- **Materials:** images, clay samples, string, texture tools (wash hands after clay)
 - **Joy:** Pressing string patterns into clay.
 
-### Lesson 22 — Pinch pots
+### Lesson 22 — Two pinch pots make a hollow form
 - **Duration:** 30 min
-- **Objective:** "By the end, I can make a pinch pot with even walls." (UK NC KS2 Art – sculpture)
-- **Hook:** "One ball of clay, only your thumbs."
-- **Key activity:** Make a pinch pot, turning and pinching evenly; add impressed texture.
-- **Check for understanding:** "Why should the walls be even?" → Thin spots crack; thick spots may not dry evenly.
-- **Differentiation:** support: smaller ball / stretch: join two pinch pots to make a hollow creature.
+- **Objective:** "By the end, I can join two pinch pots into a hollow form and make it safe to dry." (UK NC KS2 Art – sculpture)
+- **Hook:** "Year 1 made pinch pots. What happens if we put two together, rim to rim?"
+- **Key activity:** Quickly retrieve the pinch pot (thumb in, pinch and turn, even walls); make two the same size; score and slip the rims and join into a hollow ball; shape it into a creature, fruit or seed pod; pierce a small hidden hole with a pencil tip; add impressed texture.
+- **Check for understanding:** "Why do we poke a tiny hole into a closed hollow form?" → So the air trapped inside can escape; without it the form can crack as it dries or burst if it is fired in a kiln.
+- **Differentiation:** support: one pinch pot with a slab lid / stretch: add score-and-slipped features (legs, ears) that stay on.
 - **Materials:** air-dry or kiln clay, boards, texture tools
 - **Joy:** Pinch-pot creatures.
 
@@ -318,15 +322,15 @@ the language to discuss and evaluate art.
 - **Materials:** clay, rolling pins, wooden guides, slip, tools
 - **Joy:** A class tile "wall."
 
-### Lesson 25 — Barbara Hepworth: forms with holes
-- **Duration:** 25 min
-- **Objective:** "By the end, I can make a small sculpture with a pierced form inspired by Barbara Hepworth." (UK NC KS2 Art – great artists)
-- **Hook:** Hepworth's sculptures with holes — "Look through it!"
-- **Key activity:** Discuss positive and negative space; make a small clay or soap form with a hole.
-- **Check for understanding:** "How does the hole change the sculpture?" → It lets light and space through, and the form changes as you walk around it.
-- **Differentiation:** support: clay form / stretch: two connected holes.
-- **Materials:** Hepworth photos, clay, loop tools
-- **Joy:** Looking through each other's sculptures.
+### Lesson 25 — Nok terracotta heads: sculpting a face
+- **Duration:** 30 min
+- **Objective:** "By the end, I can model a clay head with features that stay on, inspired by the Nok sculptors of ancient Nigeria." (UK NC KS2 Art – great artists and craft; History link)
+- **Hook:** Photos of Nok terracotta heads (Nigeria, about 2,000–2,500 years old): "Look at the eyes. What shapes did the sculptors use?"
+- **Key activity:** Notice the bold, simple shapes (triangular or half-moon eyes with pierced pupils, carefully styled hair); link to the Nok iron-workers met in History; model a head from a thick slab or a pinch-pot form; add nose, lips, eyebrows and hair with score-and-slip; pierce the pupils with a pencil. (Year 1 made pierced forms after Hepworth; here holes become features.)
+- **Check for understanding:** "Which of your features stayed on best, and what did you do to join it? What did you borrow from the Nok sculptors?" → Names the scored-and-slipped feature and explains the join; names a Nok idea (e.g. simple triangle eyes with holes).
+- **Differentiation:** support: pressing features in (impressing) rather than adding / stretch: an elaborate hairstyle built from coils.
+- **Materials:** photos of Nok heads, clay, slip, plastic forks for scoring, loop tools, pencils
+- **Joy:** A "museum shelf" of class terracotta heads.
 
 ### Lesson 26 — Clay gallery talk
 - **Duration:** 25 min
@@ -334,7 +338,7 @@ the language to discuss and evaluate art.
 - **Hook:** Dried pieces on upturned-box "plinths" with spotlights (desk lamps).
 - **Key activity:** Finish pieces with paint (air-dry clay) or glaze (if a kiln is available); gallery walk with "I notice… I wonder…" sticky notes; each child talks for one minute about their piece.
 - **Check for understanding:** "Which technique did you use, what was the hardest part, and how did you solve it?" → Names the technique (pinch/coil/slab), a specific challenge (e.g. cracks) and the fix (e.g. more slip, smoothing).
-- **Differentiation:** support: sentence stems ("I made… The tricky part was… I fixed it by…") / stretch: compare their form with a Jōmon pot or Hepworth sculpture.
+- **Differentiation:** support: sentence stems ("I made… The tricky part was… I fixed it by…") / stretch: compare their form with a Jōmon pot or a Nok head.
 - **Materials:** dried clay pieces, acrylic paint or glaze, brushes, boxes for plinths, desk lamps, sticky notes
 - **Joy:** Seeing their pieces "in the museum" under the spotlights.
 
@@ -344,33 +348,33 @@ the language to discuss and evaluate art.
 
 **Essential question:** How are patterns built into cloth — and what do they mean to the people who make them?
 
-**Key vocabulary:** textile, weave, warp, weft, loom, over-under, pattern, strip, Kente, resist, wax, batik, dye
+**Key vocabulary:** textile, weave, warp, weft, loom, over-under, twill, pattern, backstrap loom, alpaca, natural dye, cochineal, resist, wax, batik, dye
 
-### Lesson 27 — Paper weaving
+### Lesson 27 — Weaving patterns: beyond over-and-under
 - **Duration:** 25 min
-- **Objective:** "By the end, I can weave paper strips over and under to make a pattern." (UK NC KS2 Art – textiles)
-- **Hook:** A close-up of woven fabric under a magnifier.
-- **Key activity:** Learn warp and weft; weave coloured paper strips; create a checkerboard then a new pattern.
+- **Objective:** "By the end, I can plan a weaving pattern on squared paper and weave it, including a diagonal (twill) pattern." (UK NC KS2 Art – textiles)
+- **Hook:** A close-up of denim jeans under a magnifier — "Why do the lines go diagonally?"
+- **Key activity:** Retrieve Year 1's plain over-under weave and warp/weft in two minutes; plan a new rule on squared paper (over two, under two, shifting one each row); weave it in paper strips and watch a diagonal appear; invent one more rule.
 - **Check for understanding:** "What happens if you go over-over-under instead of over-under?" → The pattern changes (a twill-like diagonal).
 - **Differentiation:** support: wide strips / stretch: invent a pattern rule.
 - **Materials:** coloured paper strips, scissors, glue
 - **Joy:** Pattern discovery.
 
-### Lesson 28 — Kente cloth of Ghana
+### Lesson 28 — Andean weaving of Peru
 - **Duration:** 25 min
-- **Objective:** "By the end, I can describe how Kente is woven and what its colours mean." (UK NC KS2 Art – craft; culture)
-- **Hook:** A length of Kente cloth or photos.
-- **Key activity:** Learn that Kente is woven in narrow strips then sewn together, and colours carry meaning (e.g. gold for wealth, green for growth); design a Kente-style strip on paper.
-- **Check for understanding:** "Why is Kente made in narrow strips?" → It's woven on narrow looms; the strips are sewn together to make cloth.
-- **Differentiation:** support: pattern template / stretch: explain the meanings of their colour choices.
-- **Materials:** Kente images, squared paper, coloured pencils
-- **Joy:** Kente strips joined into a class "cloth."
+- **Objective:** "By the end, I can describe how Andean weavers make and colour their cloth and design a pattern inspired by it." (UK NC KS2 Art – craft; culture; Spanish link)
+- **Hook:** Photos or a film of Quechua weavers in the Andes (e.g. around Chinchero, near Cusco) spinning alpaca wool and weaving on a backstrap loom tied round the weaver's waist. (Year 1 studied Kente from Ghana — compare.)
+- **Key activity:** Learn that the weaver's body keeps the warp tight; that wool is dyed with plants and insects (red from tiny cochineal insects, blue from indigo, yellows from local plants); that patterns are passed down in families and can stand for things like lakes, mountains or flowers; design a symmetrical pattern band on squared paper with a "natural dye" palette.
+- **Check for understanding:** "The weavers' reds come from tiny cochineal insects. Why would weavers long ago make dyes from plants and insects — and why does it make each place's cloth look different?" → There were no factory dyes; they used what grew or lived nearby, so different places had different colours and styles.
+- **Differentiation:** support: pattern template with a mirror line / stretch: explain what their pattern's shapes stand for, like an Andean weaver.
+- **Materials:** photos/film of Andean weaving, alpaca or wool samples, squared paper, coloured pencils in a natural-dye palette
+- **Joy:** A class "pattern road" of everyone's bands side by side.
 
-### Lesson 29 — Card-loom weaving
+### Lesson 29 — Texture weaving: a woven wall hanging
 - **Duration:** 30 min
-- **Objective:** "By the end, I can weave yarn on a card loom." (UK NC KS2 Art – textiles)
-- **Hook:** Anni Albers' woven artworks.
-- **Key activity:** Warp a card loom; weave with yarns and ribbons; change colour to make stripes.
+- **Objective:** "By the end, I can warp my own loom and weave a wall hanging that mixes colours, textures and a shape." (UK NC KS2 Art – textiles)
+- **Hook:** Sheila Hicks's thick, textured woven works — "Weaving can be bumpy, fluffy and 3-D!" (Year 1 wove stripes on ready-warped card looms, inspired by Anni Albers.)
+- **Key activity:** Warp a card loom themselves this time; weave with yarns, ribbons and fabric strips; build a block of colour (a sun, a hill) by weaving back and forth across only part of the warp; finish by tying off and hanging from a stick.
 - **Check for understanding:** "Why shouldn't you pull the weft too tight?" → The weaving narrows and puckers.
 - **Differentiation:** support: pre-warped loom / stretch: add textures (feathers, fabric strips).
 - **Materials:** card looms, yarn, ribbons, large plastic needles
@@ -392,7 +396,7 @@ the language to discuss and evaluate art.
 - **Hook:** A textile "market" — tables draped with cloth and the children's work laid out like a market stall.
 - **Key activity:** Children "sell" their textile to a visiting partner by explaining how it was made and what the pattern means; the partner "buys" with a compliment and a question.
 - **Check for understanding:** "Explain warp and weft using your weaving, and how your resist square got its pattern." → Points to the fixed vertical warp and the woven weft; explains that the resist blocked the dye.
-- **Differentiation:** support: picture labels for warp, weft and resist / stretch: compare their pattern choices with Kente or batik and the meanings in those traditions.
+- **Differentiation:** support: picture labels for warp, weft and resist / stretch: compare their pattern choices with Andean weaving or batik and the meanings in those traditions.
 - **Materials:** woven pieces, dyed squares, table cloths, label cards
 - **Joy:** The "textile market" role play.
 
@@ -448,9 +452,9 @@ the language to discuss and evaluate art.
 
 ## Books & resources
 
-- *The Dot* — Peter H. Reynolds: a picture book about a child who believes she can't draw; the best start to a year of sketchbooks and risk-taking.
+- *The Dot* — Peter H. Reynolds: a picture book about a child who believes she can't draw (met in Year 1 — reread briefly as the sketchbook year begins; *Ish* below is the new text).
 - *Ish* — Peter H. Reynolds: why "drawing-ish" is worth celebrating; builds confidence.
-- *Frida Kahlo and Her Animalitos* — Monica Brown & John Parra: Kahlo's life and her beloved animals.
+- *Frida Kahlo and Her Animalitos* — Monica Brown & John Parra: Kahlo's life and her beloved animals (links back to Year 1's self-portraits).
 - *The Noisy Paint Box: The Colors and Sounds of Kandinsky's Abstract Art* — Barb Rosenstock & Mary GrandPré: Kandinsky's synaesthesia made vivid.
 - *Georgia's Bones* — Jen Bryant: O'Keeffe's way of looking at shapes in nature.
 - *Yayoi Kusama: From Here to Infinity!* — Sarah Suzuki (Museum of Modern Art): a picture-book life of Kusama.
@@ -464,7 +468,7 @@ the language to discuss and evaluate art.
 2. **Drawing from observation** — draws with careful looking, using line, texture and a 5-step tone. *Seen:* self-portrait and still-life studies.
 3. **Colour** — mixes secondaries, tertiaries, tints and shades and chooses colour for mood. *Seen:* colour work and talk.
 4. **Printmaking** — makes a relief print edition and explains mirror images. *Seen:* the print edition.
-5. **Clay** — makes pinch, coil and slab forms and joins with score-and-slip. *Seen:* clay pieces.
+5. **Clay** — makes coil and slab forms and a hollow form from joined pinch pots, and joins features with score-and-slip. *Seen:* clay pieces.
 6. **Textiles** — weaves over-under and uses a resist technique. *Seen:* weaving and batik-style square.
 7. **Artists and cultures** — names at least five artists or traditions from different cultures and explains how they influenced their work. *Seen:* gallery talks.
 8. **Evaluation** — gives kind, specific feedback and explains their own choices using art vocabulary. *Seen:* exhibition talk.
@@ -480,8 +484,8 @@ the language to discuss and evaluate art.
 - *Prints that are blotchy*: roll ink until it "hisses" (sticky, even) and use enough pressure.
 - *Clay cracking or falling apart*: keep clay damp, score-and-slip every join, even walls.
 
-**Cultural respect.** When learning from cultural traditions (Adinkra, Kente, batik), teach the meaning and makers, credit the culture, and create "inspired by" designs rather than copying sacred symbols.
+**Cultural respect.** When learning from cultural traditions (Indian block printing, Andean weaving, Nok sculpture, batik), teach the meaning and makers, credit the culture, and create "inspired by" designs rather than copying sacred symbols.
 
 **Safety.** Adults handle knives, hot wax and kilns; wash hands after clay; ventilate when using inks and paints.
 
-**Vertical alignment.** Year 1 explored materials and simple techniques. Year 3 (ages 8–9) extends this year's drawing (perspective, proportion), colour (watercolour washes), printmaking (multi-layer), sculpture (armatures) and textiles (sewing, appliqué), and adds architecture and design.
+**Vertical alignment.** Year 1 set up the sketchbook, tints and shades, warm and cool, collage, one-colour relief and Adinkra printing, plain weaving (Kente, Albers) and running stitch, and pinch/coil/score-and-slip clay; this year retrieves each briefly and goes a step further. Year 3 (ages 8–9) extends this year's drawing (perspective, proportion), colour (watercolour washes), printmaking (multi-layer), sculpture (armatures) and textiles (sewing, appliqué), and adds architecture and design.
