@@ -26,7 +26,7 @@ does **not** repeat these; it applies them to harder situations. Six units cover
 Lessons are discussion-rich and practical: role-plays, scenarios, circle time, real prices, real data and
 a real campaign. Pupils keep a reflective journal. (Puberty, body image, sleep and mental-health basics are
 taught in **PE & Health Unit 4**; basic first aid in PE & Health; advertising and sponsored content in
-**Computing Lesson 32**; fair trade in **Geography Unit 4** — this subject does not repeat them.)
+**Computing Lesson 32**; global trade in **Geography Unit 4** (fair trade itself is Year 3 and Year 6 geography) — this subject does not repeat them.)
 
 **What this year assumes (from Year 4):** an identity map and named character strengths; growth-mindset
 language and the brain growing with practice; conflict-resolution steps, "I" statements and assertive

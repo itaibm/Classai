@@ -454,7 +454,7 @@ and larger projects.
 - **Check for understanding:** "A child posts a photo of their new bike taken in their front garden. Why could that be risky even if the photo shows nothing personal, and what could they do instead?" → the photo file may contain the location where it was taken (and the house may be recognisable), which could show where they live; turn off location for the camera, check the background, and share only with people they know, with a trusted adult's help
 - **Differentiation:** support: picture cards showing where data is collected (search, map, game, camera) / stretch: explain why free apps collect data, and argue whether 'reject all' should be the default for children
 - **Materials:** fictional online-trail case study, a printed mock cookie banner, a teacher-led demonstration of photo location settings. Safety: no real accounts or personal devices; parents are told about the lesson in advance
-- **Joy:** "Data detectives" — reconstruct a fictional child's day from their data trail, then 'clean it up'
+- **Joy:** "Trail trackers" — reconstruct a fictional child's day from their data trail, then 'clean it up'
 
 ### Lesson 35 — Healthy tech and year review
 - **Duration:** 40 min
