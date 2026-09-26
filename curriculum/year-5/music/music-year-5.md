@@ -5,15 +5,20 @@
 > `knowledge-base/subjects/art-music/music-ks1-ks2.md`, `resources.md` and `videos.md`.
 > Revised in the 2026-09 Years 5–6 review (`docs/reviews/years-5-6.md`): the earlier draft repeated
 > Year 4's singing, ukulele and world-music units almost song for song, and Year 6's film-music unit.
+> Boundary fixes (branch `review/boundary`): the ukulele unit is renamed **Ukulele III** (Year 4 has
+> Ukulele I and II); the world-music unit becomes **Music of the world III** and replaces taiko and Andean
+> panpipes (Year 3) and oud/maqam (Year 4) with Korean samul nori, Irish jigs and klezmer; Lesson 15
+> (stave, middle C, sharps — Year 3) now teaches flats, naturals and accidentals.
 
 ## Year overview
 
 Year 5 music is about **playing together, reading music and telling stories in sound**. Pupils move
 from Year 4's rounds and partner songs to **choral singing in harmony** (thirds, a descant, three-part
 singing and South African and Ghanaian choral traditions); take the **ukulele** beyond Year 4's first
-chords to new keys, fingerpicking and TAB; learn **compound time, ties and syncopation** and read
-melodies on the treble stave; meet **five new musical traditions** — Japanese taiko, the kora of West
-Africa, Andean panpipes, Cuban son and Arabic maqam; start **keyboard basics** (hand position, a
+chords to new keys, fingerpicking and TAB; learn **compound time, ties, syncopation, flats and
+accidentals** and read melodies on the treble stave; meet **five new musical traditions** — Korean
+samul nori, the kora of West Africa, Irish jigs and the session, Cuban son and klezmer (whose freygish
+mode links back to Year 4's maqam Hijaz); start **keyboard basics** (hand position, a
 five-finger melody and simple chords); and finish by **telling stories in song** through opera, Peking
 opera and musical theatre, composing songs for Shakespeare's *The Tempest* (the English class play).
 
@@ -25,10 +30,13 @@ chords) → **Year 5 ukulele (new keys, fingerpicking, TAB) and keyboard basics*
 and ensemble playing (with any orchestral or band instruments pupils learn individually welcomed into
 class ensembles).
 
-**What this year assumes (from Year 4):** singing in unison, rounds ("Kookaburra", "Dona nobis pacem"),
+**What this year assumes (from Years 3–4):** singing in unison, rounds ("Kookaburra", "Dona nobis pacem"),
 partner songs and call and response ("Siyahamba"); ukulele chords C, Am, F and G7 and the I–IV–V
-pattern ("La Bamba"); note values from semibreve to semiquaver, rests, dotted notes and time signatures
-including 5/4; samba, djembe drumming, Balinese gamelan and Indian raga and tala. These are **retrieved,
+pattern ("La Bamba") (Year 4 Ukulele I and II); the recorder, the stave with ledger lines and middle C,
+and F sharp in a key signature (Year 3); note values from semibreve to semiquaver, rests, dotted notes
+and time signatures including 5/4 (Year 4); world traditions — West African drumming, samba, Indian
+raga and tala, Japanese taiko and Andean panpipes (Year 3), and steel pan, flamenco, Chinese
+instruments, Arabic maqam and the oud, and Mongolian throat singing (Year 4). These are **retrieved,
 not re-taught**.
 
 **What Year 6 relies on:** holding a harmony part; strumming and fingerpicking in at least two keys;
@@ -45,9 +53,9 @@ technology.
 | Unit | Title | Main strand | Term | Lessons |
 |---|---|---|---|---|
 | 1 | Choral singing: harmony and world choirs | Singing | 1 | 6 (1–6) |
-| 2 | Ukulele II: new keys, fingerpicking and TAB | Playing | 1 | 6 (7–12) |
+| 2 | Ukulele III: new keys, fingerpicking and TAB | Playing | 1 | 6 (7–12) |
 | 3 | Reading music: compound time, syncopation and pitch | Notation | 2 | 5 (13–17) |
-| 4 | Music of the world II: taiko, kora, panpipes, son and maqam | Listening and playing | 2 | 6 (18–23) |
+| 4 | Music of the world III: samul nori, kora, Irish jigs, son and klezmer | Listening and playing | 2 | 6 (18–23) |
 | 5 | Keyboard basics | Playing | 3 | 6 (24–29) |
 | 6 | Stories in song: opera, musical theatre and *The Tempest* | Composing and performing | 3 | 6 (30–35) |
 | | **Total** | | | **35** |
@@ -124,7 +132,7 @@ technology.
 
 ---
 
-## Unit 2 — Ukulele II: new keys, fingerpicking and TAB
+## Unit 2 — Ukulele III: new keys, fingerpicking and TAB
 
 **Essential question:** How can the same four strings sound like a folk song, a reggae band or a harp?
 
@@ -220,15 +228,15 @@ technology.
 - **Materials:** rhythm cards, recordings, body percussion.
 - **Joy:** syncopated body-percussion routine.
 
-### Lesson 15 — Pitch on the treble stave
+### Lesson 15 — Flats, naturals and accidentals: the key of F
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name notes on the treble stave from middle C to high G, including sharps and flats." (UK NC KS2 music — notation)
-- **Hook:** "Every Good Boy Deserves Football — and FACE in the spaces."
-- **Key activity:** Revise the lines (E G B D F) and spaces (F A C E); add middle C and D below; introduce sharps and flats (black keys); note-naming games on stave cards and a keyboard.
-- **Check for understanding:** "What does a sharp sign do to a note, and where would you find F sharp on the keyboard?" → It raises the note by a semitone; F sharp is the black key just to the right of F.
-- **Differentiation:** support: note-name reference card / stretch: name notes with ledger lines above the stave.
-- **Materials:** stave flashcards, keyboard, note-naming apps or games.
-- **Joy:** "Note-name speed round".
+- **Objective:** "By the end, I can read flats, sharps and naturals as key signatures and as accidentals, and explain how long an accidental lasts." (UK NC KS2 music — staff notation)
+- **Hook:** "Year 3 gave you F sharp. Today a note is going to *drop* — and then be cancelled halfway through the bar. Can you keep up?"
+- **Key activity:** Two-minute retrieval of Year 3's stave (lines E G B D F, spaces F A C E, middle C on a ledger line) and F sharp in the key signature of G. New: the **flat** (lowers a note by a semitone — B flat is the black key just left of B); the key signature of F major (one flat); **accidentals** — sharps, flats and naturals written in front of a single note, lasting until the end of that bar; the **natural** sign cancels a sharp or flat. Pupils find each note on a keyboard layout, then play a short melody in F on glockenspiels or keyboards that includes an accidental and a natural, and link it to the F chord on ukulele from Year 4.
+- **Check for understanding:** "In one bar, the first F has a sharp sign and the second F has no sign at all. What do you play for the second F, and what would a natural sign in front of it change?" → F sharp both times, because an accidental lasts until the end of the bar; a natural sign would cancel the sharp so the second note is plain F
+- **Differentiation:** support: a keyboard strip under the stave with the black keys labelled / stretch: explain why F major needs a B flat but G major needs an F sharp, using the pattern of tones and semitones
+- **Materials:** stave cards, keyboard layouts or keyboards, glockenspiels with B♭ and F♯ bars, a short melody in F with one accidental
+- **Joy:** "Accidental ambush" — the class plays a tune while the teacher secretly slips in accidentals to catch out the players
 
 ### Lesson 16 — Reading a melody: steps and leaps
 - **Duration:** 35 min
@@ -254,21 +262,21 @@ technology.
 
 ---
 
-## Unit 4 — Music of the world II: taiko, kora, panpipes, son and maqam
+## Unit 4 — Music of the world III: samul nori, kora, Irish jigs, son and klezmer
 
-**Essential question:** What can five very different traditions teach us about rhythm, melody and playing together?
+**Essential question:** What can five new traditions teach us about rhythm, melody and playing together — and how do musical ideas travel between peoples?
 
-**Key vocabulary:** taiko, kata, kiai, ensemble, kora, griot, ostinato, siku, hocket, interlocking, son, clave, tres, maqam, oud, microtone, improvisation, texture
+**Key vocabulary:** samul nori, kkwaenggwari, jing, janggu, buk, ensemble, kora, griot, ostinato, jig, session, tin whistle, bodhrán, ornament, cut, roll, by ear, son, clave, tres, klezmer, freygish, krekhts, mode, migration, improvisation, texture
 
-### Lesson 18 — Japanese taiko: drumming as ensemble and movement
+### Lesson 18 — Korean samul nori: four instruments, four weathers
 - **Duration:** 40 min
-- **Objective:** "By the end, I can play a part in a taiko-style piece with precise unison, shouts (kiai) and movement." (UK NC KS2 music — world music / performing)
-- **Hook:** A taiko ensemble such as Kodo: "Why do taiko drummers move and shout as well as drum?"
-- **Key activity:** Watch and discuss taiko (large drums, powerful full-body strokes, *kata* — set movements, *kiai* — shouts that keep the group together); on buckets or tyres with sticks, learn a base rhythm and a lead pattern; practise starting and stopping together exactly.
-- **Check for understanding:** "Why are the kiai and the movements part of the music, not just decoration?" → They help the ensemble stay together and show the energy and timing to each other and the audience; the performance is seen as well as heard.
-- **Differentiation:** support: play the steady base rhythm / stretch: play the lead pattern and call the changes.
-- **Materials:** large drums, buckets or tyres with beaters, recording or video of a taiko ensemble, ear defenders if needed.
-- **Joy:** the big unison finish.
+- **Objective:** "By the end, I can play a part in a samul nori-style piece and explain how the four instruments work together, with a leader guiding changes of speed." (UK NC KS2 music — world music / performing)
+- **Hook:** Watch a samul nori ensemble: "Four players, four instruments — and they are said to stand for thunder, wind, rain and clouds. Which is which?"
+- **Key activity:** Samul nori was created in 1978 by Kim Duk-soo and fellow musicians, who brought Korean farmers' band music (*pungmul*) onto the stage. Meet the four instruments: *kkwaenggwari* (small gong — thunder; the leader), *jing* (large gong — wind), *janggu* (hourglass drum — rain) and *buk* (barrel drum — clouds). Many samul nori rhythms have a lilting feel in groups of three — retrieve Unit 3's 6/8. On substitutes (a cowbell or small pan lid, a cymbal, a two-headed drum and a large drum), groups learn a short rhythmic cycle, then follow the leader's signals as it speeds up gradually (*accelerando*) from slow to fast and stops together.
+- **Check for understanding:** "Why does samul nori need a leader on the kkwaenggwari, and what would go wrong without one when the music speeds up?" → the leader's loud, bright gong signals when to change pattern, speed up or stop; without it, players would speed up at different rates and fall apart
+- **Differentiation:** support: the jing part (one stroke at the start of each cycle) / stretch: lead on the kkwaenggwari, signalling the accelerando and the ending
+- **Materials:** video of a samul nori performance, cowbells or pan lids with beaters, a cymbal or gong, two-headed drums, a large drum or bucket; ear defenders available
+- **Joy:** "Storm in a classroom" — a performance that starts as gentle clouds and builds to a thunderstorm
 
 ### Lesson 19 — Listening: kora and the griots
 - **Duration:** 35 min
@@ -280,15 +288,15 @@ technology.
 - **Materials:** recordings, images of the kora, listening grids.
 - **Joy:** eyes-closed listening with a 'mind picture' drawing.
 
-### Lesson 20 — Andean panpipes: sharing a melody (hocket)
+### Lesson 20 — Irish traditional music: jigs, ornaments and the session
 - **Duration:** 40 min
-- **Objective:** "By the end, I can play my half of a melody in a hocket, so that two players together make one tune." (UK NC KS2 music — world music / performing)
-- **Hook:** "The siku panpipes of Peru and Bolivia are split into two halves. Neither player can play the whole tune alone. Why would anyone design an instrument like that?"
-- **Key activity:** Listen to siku ensembles; learn how the notes of the scale alternate between the two rows (*ira* and *arca*), so players must interlock (hocket); on glockenspiels, split a simple melody between two players, each playing alternate notes; link to the Spanish region study of Peru.
-- **Check for understanding:** "What happens to the melody if one player in a hocket stops?" → Half the notes disappear and the tune falls apart — the music only exists when both players work together.
-- **Differentiation:** support: a four-note melody with the notes colour-coded for each player / stretch: hocket a longer melody at speed.
-- **Materials:** glockenspiels, colour-coded note cards, recordings of siku ensembles, a map of the Andes.
-- **Joy:** "Two halves, one tune" — perform your hocket blindfolded to prove you're listening.
+- **Objective:** "By the end, I can play or sing the opening of a jig in 6/8 by ear and add a simple ornament, explaining how the tradition is passed on." (UK NC KS2 music — world music / performing)
+- **Hook:** Play a recording of a pub session: "No one has any sheet music, nobody is conducting, and there are twelve players. How do they all know the tune?"
+- **Key activity:** Retrieve Unit 3's 6/8 by stepping the two big beats of "The Irish Washerwoman". New: the *session*, where musicians gather to play tunes learned by ear; the instruments (fiddle, tin whistle, flute, uilleann pipes, bodhrán frame drum); *ornaments* — a *cut* (a very quick higher note flicked in before the main note) and a *roll* — that make each player's version slightly different. Learn the first phrase of the jig by ear, phrase by phrase, on recorders or glockenspiels (the recorder from Year 3); add a cut on the long notes; keep the 6/8 lilt on a bodhrán or drum.
+- **Check for understanding:** "If every player learns the tune by ear and adds their own ornaments, why doesn't the session fall apart?" → they all keep the same underlying tune, the same 6/8 lilt and the same structure (each part played twice); the ornaments decorate the tune without changing it, so everyone still fits together
+- **Differentiation:** support: play only the first note of each bar on the beat, or keep the bodhrán lilt / stretch: learn the second phrase by ear without help and add a roll
+- **Materials:** recordings of a jig played in a session and by a solo player, recorders or glockenspiels, a bodhrán or hand drum, a map of Ireland
+- **Joy:** "Class session" — the tune goes round the circle, each player adding their own ornament
 
 ### Lesson 21 — Cuban son and the clave
 - **Duration:** 40 min
@@ -300,27 +308,27 @@ technology.
 - **Materials:** claves (or two pencils), maracas, bongos or hand drums, recordings, a map of Cuba.
 - **Joy:** the full son groove with a sung chorus.
 
-### Lesson 22 — Arabic music: maqam and the oud
+### Lesson 22 — Klezmer: a scale that travelled
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe what a maqam is and improvise a phrase in a maqam-inspired scale over a drone." (UK NC KS2 music — world music / improvising)
-- **Hook:** Listen to the oud (e.g. Munir Bashir or Naseer Shamma): "This instrument has no frets. Why might a musician want notes between the piano's keys?"
-- **Key activity:** The oud (fretless lute, ancestor of the European lute); a maqam as a scale with characteristic phrases and a mood, sometimes using intervals smaller than a Western semitone (microtones); listen for improvisation (*taqsim*); improvise a short phrase on keyboards or glockenspiels using a maqam-like scale (e.g. D–E♭–F♯–G–A–B♭–C–D, similar to maqam Hijaz) over a D drone.
-- **Check for understanding:** "Why can't a piano play every note of a maqam exactly?" → Some maqamat use notes between the piano's fixed semitones (microtones); a fretless instrument like the oud or the voice can slide to them.
-- **Differentiation:** support: improvise using only four notes of the scale / stretch: shape a phrase that rises, pauses and returns to the drone note.
-- **Materials:** recordings, images of the oud, keyboards or glockenspiels, a drone track.
-- **Joy:** "Taqsim circle" — each pupil adds a short improvised phrase.
+- **Objective:** "By the end, I can describe the sound of klezmer, improvise a phrase in the freygish mode over a drone, and explain how the same scale came to be used in more than one tradition." (UK NC KS2 music — world music / improvising; history link: migration)
+- **Hook:** Play a klezmer clarinet solo, then Year 4's maqam Hijaz on the oud: "These come from different peoples, different religions and different languages. Why do they sound like cousins?"
+- **Key activity:** Klezmer is the dance and celebration music of Ashkenazi Jewish communities of Eastern Europe, played at weddings by the clarinet, violin, accordion and bass, and carried to the Americas and beyond by migrants from the late 1800s. Its sobbing ornaments (*krekhts*) imitate a crying voice. The *freygish* mode (e.g. D–E♭–F♯–G–A–B♭–C–D) has the same notes as the maqam Hijaz family met in Year 4, because musicians across the Ottoman lands and Eastern Europe heard, traded and borrowed tunes for centuries (link to the Ottoman Empire in Year 5 history). Pupils learn the mode on keyboards or glockenspiels, then improvise four-bar phrases over a D drone, first slowly (a lament), then as a fast *freylekhs* dance with a steady 'oom-pah' bass.
+- **Check for understanding:** "Klezmer's freygish mode uses the same notes as a scale you met in Arabic music in Year 4. Give one reason a scale could end up in two traditions, and one thing that still makes klezmer sound like klezmer." → people moved, traded and lived near each other (across the Ottoman Empire and Eastern Europe), so musicians heard and borrowed from one another; klezmer still has its own instruments (clarinet, violin, accordion), its crying *krekhts* ornaments and its wedding-dance rhythms
+- **Differentiation:** support: improvise using only the first four notes of the mode over the drone / stretch: add a *krekhts*-style 'sob' (a quick bend or grace note) and shape a phrase that starts slow and speeds into a dance
+- **Materials:** recordings of klezmer (e.g. a clarinet-led band) and of a Hijaz *taqsim* on the oud, keyboards or glockenspiels with E♭, F♯ and B♭ available, a drone track, a map of Eastern Europe and the eastern Mediterranean
+- **Joy:** "Wedding band" — a lament that turns into a whirling dance, with the class clapping the speed up
 
 ### Lesson 23 — Comparing traditions and world music performance
 - **Duration:** 40 min
-- **Objective:** "By the end, I can compare traditions from Years 4 and 5 and perform a piece that shows one tradition's key feature." (UK NC KS2 music — appraising / performing)
-- **Hook:** "Taiko, kora, siku, son and maqam — plus Year 4's samba, djembe, gamelan and raga. What connects them?"
-- **Key activity:** Mystery-excerpt listening; comparison grid (instruments, rhythm, texture, how players work together, improvisation); groups rehearse and perform a short piece from one Year 5 tradition, introducing what listeners should notice.
-- **Check for understanding:** "Name one way the siku hocket and Year 4's gamelan are similar, and one difference." → Both split a melody between players who interlock; the siku uses breath and panpipes in the Andes, the gamelan uses tuned metal instruments and a gong cycle in Indonesia.
+- **Objective:** "By the end, I can compare traditions from Years 3, 4 and 5 and perform a piece that shows one tradition's key feature." (UK NC KS2 music — appraising / performing)
+- **Hook:** "Samul nori, kora, Irish jigs, son and klezmer — plus Year 3's taiko, samba and Andean panpipes and Year 4's steel pan, flamenco and maqam. What connects them?"
+- **Key activity:** Mystery-excerpt listening across all three years; comparison grid (instruments, rhythm, texture, how players work together, how the music is passed on, improvisation); groups rehearse and perform a short piece from one Year 5 tradition, introducing what listeners should notice.
+- **Check for understanding:** "Name one way Korean samul nori and Year 3's Japanese taiko are similar, and one important difference." → both are powerful drum-and-percussion ensembles that stay together through strong leadership, movement and shared energy; samul nori is led by the small gong's signals and often speeds up gradually in a lilting feel of threes, while taiko is built on unison strikes, set movements and shouts (kiai) on large drums
 - **Differentiation:** support: grid with key words; a steady-beat role / stretch: a written comparison paragraph; a leading or improvising role.
 - **Materials:** recordings, comparison grids, instruments from the unit.
 - **Joy:** "World music day" performance.
 
-**End-of-unit check:** Pupil plays a part in a taiko, hocket or son groove, improvises a phrase over a drone, and compares two traditions using musical vocabulary.
+**End-of-unit check:** Pupil plays a part in a samul nori, jig or son groove, improvises a phrase in the freygish mode over a drone, and compares two traditions using musical vocabulary, including how music is passed on and how it travels between peoples.
 
 ---
 
@@ -468,8 +476,8 @@ technology.
 - **Opera on film** — a subtitled recording of Mozart's *The Magic Flute* from a major opera house (e.g. the Royal Opera House or the Metropolitan Opera), with the teacher telling the plot first (Unit 6).
 - ***Chrome Music Lab*** (musiclab.chromeexperiments.com) — free browser tools (Song Maker, Rhythm) that make composing immediate.
 - ***BandLab*** or ***GarageBand*** — free sequencers for layering and recording.
-- **Recordings** — "The Water Is Wide" (traditional); Ladysmith Black Mambazo; "Shosholoza" and "Tue Tue" (traditional); "Jambo Bwana" (Them Mushrooms); Bob Marley, "Three Little Birds"; Scott Joplin, *The Entertainer*; an Irish jig; Kodo (taiko); Toumani Diabaté (kora); siku ensembles from Peru and Bolivia; Buena Vista Social Club (Cuban son); Munir Bashir or Naseer Shamma (oud); Beethoven, Symphony No. 9 (finale); Satie, *Gymnopédie No. 1*; Mozart, *The Magic Flute*; a Peking opera excerpt; *The Lion King* ("Circle of Life"); Robert Johnson, "Full fathom five".
-- **Instruments** — ukuleles with tuners, keyboards with headphones, large drums or buckets and beaters, claves, maracas, bongos, glockenspiels and metallophones, woodblocks and small gongs.
+- **Recordings** — "The Water Is Wide" (traditional); Ladysmith Black Mambazo; "Shosholoza" and "Tue Tue" (traditional); "Jambo Bwana" (Them Mushrooms); Bob Marley, "Three Little Birds"; Scott Joplin, *The Entertainer*; an Irish jig ("The Irish Washerwoman"; The Chieftains); SamulNori (Kim Duk-soo's ensemble); Toumani Diabaté (kora); Buena Vista Social Club (Cuban son); The Klezmatics or Giora Feidman (klezmer); Munir Bashir or Naseer Shamma (oud, for the Year 4 maqam comparison); Beethoven, Symphony No. 9 (finale); Satie, *Gymnopédie No. 1*; Mozart, *The Magic Flute*; a Peking opera excerpt; *The Lion King* ("Circle of Life"); Robert Johnson, "Full fathom five".
+- **Instruments** — ukuleles with tuners, keyboards with headphones, large drums or buckets and beaters, claves, maracas, bongos, glockenspiels and metallophones, woodblocks and small gongs, a bodhrán or frame drum, cowbells or pan lids, recorders.
 
 ## End-of-year mastery checks
 
@@ -477,7 +485,7 @@ technology.
 2. **Ukulele** — plays in two keys, fingerpicks a pattern, reads a riff from TAB and plays an off-beat strum in time.
 3. **Keyboard** — plays a five-finger melody from notation and simple triads, hands together.
 4. **Notation** — reads and writes rhythms in simple and compound time with ties and syncopation, and names notes on the treble stave.
-5. **World music** — describes and performs features of taiko, siku hocket, Cuban son and maqam, and compares them with Year 4's traditions.
+5. **World music** — describes and performs features of samul nori, an Irish jig, Cuban son and klezmer, and compares them with Year 3 and Year 4 traditions, including how music travels between peoples.
 6. **Listening and appraising** — explains how composers tell stories and show character (opera, musical theatre, Peking opera), using correct vocabulary.
 7. **Composing** — sets words to a melody with stresses on strong beats and composes descriptive music with deliberate changes.
 8. **Performing** — performs in an ensemble, keeping in time and recovering from mistakes without stopping.
@@ -502,6 +510,6 @@ technology.
 - Record performances regularly so pupils can hear themselves and track progress. Provide ear defenders for drumming.
 
 **Vertical connections**
-- *From Year 4:* rounds, partner songs and call and response; ukulele C, Am, F, G7; note values and time signatures; samba, djembe, gamelan and raga — retrieved, not repeated.
-- *Into Year 6:* irregular metres, swing and triplets, the bass clef and grand staff, major scales and triads, primary chords and the four-chord progression, the blues, deeper study of raga, tala, polyrhythm, gamelan and Afro-Brazilian music, programme and film music, songwriting with technology and the graduation concert.
+- *From Years 3–4:* rounds, partner songs and call and response; ukulele C, Am, F, G7 (Ukulele I–II); the stave, middle C and F sharp; note values and time signatures; Year 3's world traditions (West African drumming, samba, raga and tala, taiko, Andean panpipes) and Year 4's (steel pan, flamenco, Chinese instruments, maqam, Mongolian throat singing) — retrieved, not repeated.
+- *Into Year 6:* irregular metres, swing and triplets, the bass clef and grand staff, major scales and triads, primary chords and the four-chord progression, the blues, deeper study (at secondary depth) of raga and teentaal, West African cross-rhythm, gamelan kotekan and Afro-Brazilian samba-reggae, programme and film music, songwriting with technology and the graduation concert.
 - *Across subjects:* English (*The Tempest*, word stress and rhythm), maths (time signatures as fractions, patterns, cycles), geography (Kenya, the Andes, Cuba), languages (Spanish — Peru and Cuba; Swahili and Zulu song words), computing (sequencers), history (griots — Year 6).
