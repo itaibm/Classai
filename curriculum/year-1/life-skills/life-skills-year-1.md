@@ -259,7 +259,7 @@ Lessons 20–25 min, often followed by a short circle time.
 - **Objective:** "By the end, I can explain that people earn money by working and use it to pay for things." (FE — earning)
 - **Hook:** "Does money grow on trees? Where does it really come from?"
 - **Key activity:** Discuss jobs people do and that they are paid; money travels (card, cash, phone); role-play a job and "payday".
-- **Check for understanding:** "How do most grown-ups get money?" → By working at a job and being paid.
+- **Check for understanding:** "Your friend says, 'Grown-ups just get money out of the cash machine — it's free!' What would you tell them?" → The cash machine only gives out money people have already earned by working and kept in the bank — it isn't free.
 - **Differentiation:** support: match jobs to pictures / stretch: explain why people pay for goods and services
 - **Materials:** job picture cards, play money
 - **Joy:** Jobs role-play.
@@ -429,7 +429,7 @@ Lessons 20–25 min, often followed by a short circle time.
 - **Objective:** "By the end, I can identify people who help our community and plan a way our class can help." (CASEL DM; UK Relationships Ed RR)
 - **Hook:** "Who helps us every day that we might not notice?"
 - **Key activity:** List community helpers (cleaners, cooks, nurses, bus drivers, volunteers); write thank-you cards; choose a service project (litter pick, food-bank collection, reading to younger children).
-- **Check for understanding:** "What's a volunteer, and why do people volunteer?" → Someone who helps without being paid, because they care about others.
+- **Check for understanding:** "Is the nurse at the hospital a volunteer? Is the grandparent who helps at our school fair for free? Explain." → The nurse is not — it's their paid job; the grandparent is a volunteer — they help without being paid, because they care.
 - **Differentiation:** support: picture thank-you cards / stretch: plan the project steps
 - **Materials:** card, pens, project planning sheet
 - **Joy:** Delivering thank-you cards.
@@ -496,4 +496,4 @@ Lessons 20–25 min, often followed by a short circle time.
 
 **Inclusion and culture.** Invite families to share languages, celebrations and traditions; ensure every child sees their culture reflected across the year.
 
-**Vertical alignment.** Foundation introduced feelings, kindness, "yet", needs and wants and caring for the world. Year 2 (ages 7–8) moves to causes of feelings and helpful thoughts, independent conflict resolution, goals in steps, budgeting, facts vs opinions and adverts, and citizenship.
+**Vertical alignment.** Foundation introduced feelings, kindness, "yet", needs and wants and caring for the world. Year 2 (ages 7–8) moves to causes of feelings, feeling size and helpful thoughts, friendship dilemmas and bullying vs conflict, how the brain learns and feedback, how we pay and spend–save–give budgeting, where rubbish and electricity go, rights with responsibilities, fairness vs sameness and facts vs opinions — with new picture books, since this year's (e.g. *Silly Billy*, *The Invisible Boy*, *Your Fantastic Elastic Brain*, *A Chair for My Mother*) have been used.
