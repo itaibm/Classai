@@ -16,14 +16,16 @@ scale, satellite images, GIS layers, graphs, statistics and fieldwork. Each unit
 processes** to **human impacts and responses**, and each asks children to weigh evidence and reach a
 judgement about a real issue.
 
-**What we assume from Year 5 (ages 10–11):** map mastery (keys, four- and six-figure grid references,
-scale, contours), trade and supply chains (imports and exports; the journey of a chocolate bar), an
-introduction to climate change science and to biomes, and comparing two regions fairly. From earlier
-years: continents, oceans, major countries and cities, the water cycle, rivers, mountains, volcanoes
-and earthquakes at an introductory level, and local-area study.
+**What we assume from Year 5 (ages 10–11):** map mastery (projections, compass bearings, thematic
+maps, contours, scale, a first use of GIS); a fair regional comparison (Kenya and the home region);
+water as a resource (the Nile, water scarcity, local supply); trade and supply chains (chocolate,
+T-shirts, fair trade); the polar regions and ice; and an environmental-quality fieldwork enquiry. Year 5
+science introduced the atmosphere, the carbon cycle and climate change. From Year 4: latitude and
+longitude, time zones, grid references, tectonics and hazards, rivers, the Amazon and Andes, and
+settlements.
 
-**What Year 6 adds:** latitude and longitude, projections, time zones and GIS; plate tectonics with
-contrasting case studies; climate graphs, global circulation and responses to climate change;
+**What Year 6 adds:** precise location (degrees, minutes, GPS), projections and point of view, the
+International Date Line, cross-sections and GIS analysis; plate tectonics with contrasting case studies; climate graphs, global circulation and responses to climate change;
 population structure, migration and urbanisation; measuring development (GNI, HDI) and globalisation;
 a regional study of China and India; and an independent fieldwork enquiry. **What secondary relies
 on:** confident map and data skills, the ability to explain physical processes with diagrams, and
@@ -52,29 +54,29 @@ case-study-based extended answers.
 
 **Key vocabulary:** latitude, longitude, equator, prime meridian, hemisphere, degree, coordinates, projection, Mercator, equal-area, distortion, time zone, International Date Line, GIS, layer, satellite image, contour, cross-section, relief
 
-### Lesson 1 — Latitude and longitude
+### Lesson 1 — Precise location: degrees, minutes and GPS
 - **Duration:** 40 min
-- **Objective:** "By the end, I can locate any place on Earth using latitude and longitude in degrees, including the correct hemisphere." (UK KS3 Geography — geographical skills; US Nat. Geog. Std. 1)
+- **Objective:** "By the end, I can give locations in degrees and minutes, estimate distances from degrees of latitude and explain how GPS finds a position." (UK KS3 Geography — geographical skills; US Nat. Geog. Std. 1)
 - **Hook:** "A ship in distress radios its position: 13° S, 72° W. Where is it — and who can reach it first?" (In the Andes near Cusco, Peru — so it can't be a ship. Spot the problem!)
-- **Key activity:** Build latitude and longitude on an orange or ball with rubber bands; locate cities on a world map and globe by coordinates (Nairobi, Reykjavík, Tokyo, Lima, Sydney); write coordinates for mystery places; link to four-quadrant coordinates in Maths.
-- **Check for understanding:** "Why do we need N/S and E/W as well as the numbers?" → The same numbers occur in four places, one in each hemisphere combination; the letters say which.
-- **Differentiation:** support: whole-degree coordinates and a gridded world map / stretch: use degrees and minutes and estimate the distance of 1° of latitude (about 111 km)
-- **Materials:** globe, world map with graticule, oranges or balls, rubber bands, atlas
-- **Joy:** "Coordinates treasure hunt" across the world map
+- **Key activity:** Quick retrieval of Year 4's latitude and longitude in whole degrees. New: each degree divides into 60 minutes, so positions can be pinned to within about 2 km; 1° of latitude is about 111 km (40,000 km ÷ 360), but a degree of longitude shrinks towards the poles; read degree-and-minute positions for cities (Nairobi 1° 17′ S, 36° 49′ E) from an atlas gazetteer; compare with the decimal degrees a phone's map app shows; how GPS satellites let a receiver work out its position.
+- **Check for understanding:** "Two towns are both at 30° E, one at 10° N and one at 12° N. About how far apart are they, and why can't you use the same rule for two towns 2° of longitude apart near the Arctic?" → About 222 km (2 × 111 km); lines of longitude get closer together towards the poles, so a degree of longitude there is much shorter.
+- **Differentiation:** support: whole-degree and half-degree positions on a gridded map with a 111 km ruler / stretch: convert between degrees-and-minutes and decimal degrees (e.g. 1° 30′ = 1.5°) and locate the school to the nearest minute
+- **Materials:** globe, atlas with gazetteer, world map with graticule, phones or tablets with a map app (optional), calculators
+- **Joy:** "Pin the school" — who can give our classroom's position most precisely?
 
-### Lesson 2 — Map projections: is Africa really that small?
+### Lesson 2 — Maps and power: choosing a projection and a point of view
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why every flat map distorts the Earth and compare the Mercator and equal-area projections." (UK KS3 Geography — skills; US Nat. Geog. Std. 1)
-- **Hook:** "On many classroom maps, Greenland looks about the same size as Africa. Africa is actually about 14 times bigger."
-- **Key activity:** Try to flatten an orange peel without tearing it; compare Mercator (used for navigation — it keeps directions true) with an equal-area projection such as Gall-Peters or Equal Earth; use "The True Size Of" website to drag countries to the equator.
-- **Check for understanding:** "Why was the Mercator projection useful for sailors, even though it distorts size?" → It keeps directions (angles) correct, so a straight line on the map is a constant compass bearing.
-- **Differentiation:** support: a side-by-side projection comparison sheet / stretch: discuss how map choices can shape how people see the importance of places
-- **Materials:** oranges, Mercator and equal-area world maps, devices with internet access
-- **Joy:** "True size" challenge — how many European countries fit inside Brazil?
+- **Objective:** "By the end, I can evaluate map projections and orientations for different purposes and explain how map choices can shape how people see the world." (UK KS3 Geography — skills; US Nat. Geog. Std. 1)
+- **Hook:** "Who decided that north goes at the top of the map — and that Europe goes in the middle?"
+- **Key activity:** Retrieve Year 5's Mercator vs equal-area comparison in two minutes. New: compare a Pacific-centred map, a south-up map (such as McArthur's 1979 'Universal Corrective Map') and the Equal Earth projection (2018); the 1970s–80s debate about the Peters projection and why organisations switched maps; choose the best projection for four jobs (sailing a route, comparing country sizes, showing the Pacific, a polar flight path) and justify.
+- **Check for understanding:** "A charity wants a world map to show which countries are largest in area. Which projection should it choose, why, and what would that map get wrong?" → An equal-area projection (e.g. Equal Earth), because it shows sizes correctly; it will distort shapes, especially near the edges and poles.
+- **Differentiation:** support: a four-job matching sheet with projection pictures / stretch: argue whether any world map can be 'neutral'
+- **Materials:** Mercator, equal-area, Pacific-centred and south-up world maps; globe; devices with "The True Size Of" (thetruesize.com)
+- **Joy:** Redraw your home region on a south-up map — does it look different to you?
 
 ### Lesson 3 — Time zones and the International Date Line
 - **Duration:** 40 min
-- **Objective:** "By the end, I can calculate time differences using time zones and explain the International Date Line." (UK KS3 Geography — skills; Maths link — negative numbers)
+- **Objective:** "By the end, I can calculate time differences across the International Date Line and with half-hour offsets, and explain why time-zone borders are political choices." (UK KS3 Geography — skills; Maths link — negative numbers; builds on Year 4 time zones)
 - **Hook:** "In 2011, Samoa skipped 30 December entirely. Why?"
 - **Key activity:** Earth turns 360° in 24 hours = 15° per hour; use a time-zone map to calculate times in world cities (link to Maths Lesson 22); explain the Date Line and the Samoa example (moving closer in time to trading partners Australia and New Zealand).
 - **Check for understanding:** "Why is each standard time zone roughly 15° of longitude wide?" → Earth rotates 360° in 24 hours, and 360 ÷ 24 = 15° per hour.
@@ -96,11 +98,11 @@ case-study-based extended answers.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can read relief from contour lines and draw a cross-section between two points on a topographic map." (UK KS3 Geography — skills; builds on Year 5 contours)
 - **Hook:** "From a flat map, draw the shape of the land as if you had sliced it with a knife."
-- **Key activity:** Build a potato or clay "mountain", slice it into layers to make contour lines; on a topographic map, place paper along a line, mark contour heights, transfer to a graph and join to draw a cross-section; identify steep and gentle slopes, valleys and ridges; unit check.
+- **Key activity:** Two-minute retrieval of Year 5's contour model (no re-build). New: on a topographic map, place a paper strip along a line, mark contour heights, transfer to a graph with a sensible vertical scale and join to draw a cross-section; identify steep and gentle slopes, V-shaped valleys, ridges and spurs from the contour patterns; unit check.
 - **Check for understanding:** "What do closely spaced contour lines tell you, and why?" → The slope is steep, because the height changes a lot over a short horizontal distance.
 - **Differentiation:** support: a simple map with few contours and a pre-drawn axis / stretch: draw a cross-section across a valley and label the river and the valley shape
-- **Materials:** clay or a potato, knife (adult), topographic map extract, graph paper, strip of paper
-- **Joy:** "Mountain slicer" contour model
+- **Materials:** topographic map extracts, graph paper, strips of paper, rulers
+- **Joy:** "Mystery landscape" — draw a cross-section, then match it to a photograph of the real place
 
 **End-of-unit check:** Give the coordinates of three cities; explain one distortion of the Mercator projection; calculate the time in Tokyo (UTC+9) when it is 10:00 in Nairobi (UTC+3) (16:00); draw a cross-section from a contour map.
 
@@ -156,11 +158,11 @@ case-study-based extended answers.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can evaluate ways of reducing the risk from tectonic hazards (monitoring, earthquake-resistant buildings, education and drills)." (UK KS3 Geography; US Nat. Geog. Std. 15; NGSS MS-ESS3-2)
 - **Hook:** "Earthquakes can't yet be predicted. So how do Japan and Chile save so many lives?"
-- **Key activity:** Engineering challenge: build a tower from spaghetti and marshmallows (or card) and test it on a shaking tray; add cross-bracing and a wide base; research earthquake drills and early-warning systems (Japan's alerts reach phones seconds before strong shaking).
+- **Key activity:** Retrieve Year 4's earthquake-resistant building design in two minutes (no re-build). New: evaluate a range of strategies with data on cost and lives saved — Japan's earthquake early-warning alerts (seconds before strong shaking), Chile's strict building codes, retrofitting schools in Nepal, tsunami evacuation routes, hazard maps and land-use planning, community drills; rank them for a wealthy country and a lower-income country and explain why the rankings differ.
 - **Check for understanding:** "Why is preparation (drills and building codes) often more effective than trying to predict earthquakes?" → Scientists can't predict exactly when earthquakes will happen, but buildings and people can be made ready for whenever one does.
 - **Differentiation:** support: a guided build with a design template / stretch: evaluate which strategies are affordable for poorer countries (e.g. low-cost bracing, education)
-- **Materials:** spaghetti, marshmallows or modelling clay, card, a tray on tennis balls as a shake table
-- **Joy:** Shake-table tower testing
+- **Materials:** strategy cards with cost and impact data, world hazard map, ranking grids
+- **Joy:** "Ten seconds' warning" — plan what your family would do in the seconds after an early-warning alert
 
 ### Lesson 11 — Unit 2 enquiry: why do people live in hazardous places?
 - **Duration:** 45 min
@@ -205,11 +207,11 @@ case-study-based extended answers.
 ### Lesson 14 — Evidence for climate change
 - **Duration:** 45 min
 - **Objective:** "By the end, I can use evidence (temperature records, ice cores, CO₂ measurements, glaciers) to explain how and why the climate is changing." (UK KS3 Geography; NGSS MS-ESS3-5; Science link)
-- **Hook:** "Scientists can read Earth's past air, trapped in bubbles in Antarctic ice hundreds of thousands of years old."
-- **Key activity:** Analyse the Keeling curve (CO₂ at Mauna Loa since 1958), global temperature graphs and before-and-after glacier photographs; link to the greenhouse effect (Science Lesson 65); distinguish natural and human causes.
-- **Check for understanding:** "What does the Keeling curve show, and why does it matter?" → A steady rise in carbon dioxide in the atmosphere since 1958, mostly from burning fossil fuels, which strengthens the greenhouse effect and warms the planet.
-- **Differentiation:** support: graph questions with guided steps / stretch: explain why the curve zigzags each year (seasonal plant growth in the northern hemisphere)
-- **Materials:** Keeling curve, temperature graphs, glacier photographs (e.g. from NASA or the World Glacier Monitoring Service)
+- **Hook:** "Kyoto in Japan has records of when its cherry trees blossomed going back more than 1,000 years. What could those records tell a geographer?"
+- **Key activity:** The Keeling curve is analysed in Science Lesson 65 and Year 5 science covered the global temperature graph, so here pupils use geographical evidence: ice cores (Earth's past air in Antarctic ice); satellite images of a retreating glacier compared year by year (GIS link); tide-gauge sea-level records; and long historical records such as Kyoto's cherry-blossom dates. Distinguish natural and human causes and judge how strong each line of evidence is.
+- **Check for understanding:** "Why is it convincing when very different kinds of evidence — ice cores, glaciers, sea level and blossom dates — all point the same way?" → Each is measured independently in a different way and place, so it is very unlikely they would all show warming by chance or by the same mistake.
+- **Differentiation:** support: evidence cards with guided questions / stretch: evaluate one weakness of historical records such as blossom diaries and how scientists deal with it
+- **Materials:** ice-core graph, satellite images of a glacier over time (e.g. NASA Earth Observatory), sea-level graph, Kyoto cherry-blossom data (simplified), evidence-strength grid
 - **Joy:** "Ice core" model — layers of coloured ice in a cup to "read"
 
 ### Lesson 15 — Impacts of climate change around the world
@@ -355,8 +357,8 @@ case-study-based extended answers.
 ### Lesson 27 — Fair trade, aid and making a difference
 - **Duration:** 40 min
 - **Objective:** "By the end, I can evaluate fair trade and different types of aid as ways to reduce inequality." (UK KS3 Geography; US Nat. Geog. Std. 11)
-- **Hook:** "Who gets the money when you buy a bar of chocolate — the cocoa farmer, the factory or the shop?" (Build on Year 5's chocolate study.)
-- **Key activity:** Fair trade principles (minimum price, premium for community projects); types of aid (emergency, long-term, bottom-up, top-down); case study of a small-scale project (e.g. a community water pump or solar lamps); evaluate which helps most in the long term.
+- **Hook:** "Who gets the money when you buy a bar of chocolate — the cocoa farmer, the factory or the shop?" (Build on Year 5's chocolate and fair-trade study.)
+- **Key activity:** Two-minute retrieval of Year 5's fair-trade minimum price and premium. New: types of aid (emergency, long-term development, bottom-up, top-down, loans vs grants) and remittances (money sent home by migrants, which in many countries is larger than aid); case studies of a small-scale project (e.g. community solar lamps) and a large project; evaluate which helps most in the long term and who decides.
 - **Check for understanding:** "Why might a small, local project sometimes help more than a large one?" → It is designed with local people, uses affordable technology they can maintain, and meets their actual needs.
 - **Differentiation:** support: case-study cards with guiding questions / stretch: argue for and against "trade, not aid"
 - **Materials:** fair trade products and labels, aid case-study cards
@@ -365,12 +367,12 @@ case-study-based extended answers.
 ### Lesson 28 — Water security
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain why water is scarce in some places and evaluate solutions from different countries." (UK KS3 Geography — resources; SDG 6; links to English Unit 5)
-- **Hook:** "Around 2 billion people lack safely managed drinking water. Yet water covers most of Earth's surface."
-- **Key activity:** Water distribution (97% salty; most fresh water frozen or underground); physical and economic water scarcity; solutions (wells in South Sudan, desalination in Israel and the Gulf, drip irrigation, rainwater harvesting in India, Singapore's water recycling "NEWater"); link to Maths Lesson 133 (rainwater calculations).
-- **Check for understanding:** "What is the difference between physical and economic water scarcity?" → Physical: not enough water exists in the area; economic: water exists but people can't afford the infrastructure to access it.
-- **Differentiation:** support: the "bucket model" of Earth's water / stretch: evaluate one large-scale solution (e.g. a dam or desalination) for costs and benefits
-- **Materials:** 10 litres of water with cups to model Earth's water distribution, world water-scarcity map, case-study cards
-- **Joy:** The "Earth's water in a bucket" demonstration
+- **Hook:** "In 2018 Cape Town, a city of about four million people, counted down to 'Day Zero' — the day the taps would be turned off. Day Zero never came. Why not?"
+- **Key activity:** Brief retrieval of Year 5's water unit (fresh water is scarce; physical vs economic scarcity; village-scale solutions). New: water security at city and national scale — the Cape Town drought (strict limits of 50 litres per person per day, pressure reduction, public data dashboards); large solutions with their trade-offs: desalination in Israel and the Gulf (energy and brine), Singapore's recycled 'NEWater', drip irrigation, and big dams; link to Maths Lesson 133 (rainwater calculations).
+- **Check for understanding:** "Cape Town avoided Day Zero mainly by cutting demand rather than finding new water. Why might cutting demand be quicker and cheaper than building new supply?" → Changing how much people and businesses use can happen in weeks and costs little, while desalination plants or dams take years and cost a great deal of money and energy.
+- **Differentiation:** support: a Cape Town timeline with guided questions / stretch: evaluate one large-scale solution (desalination or a dam) for costs, benefits and who pays
+- **Materials:** Cape Town dam-level graph and news extracts (simplified), case-study cards, world water-stress map
+- **Joy:** "50-litre day" — plan a day's water use within Cape Town's limit
 
 ### Lesson 29 — The Sustainable Development Goals and Unit 5 check
 - **Duration:** 45 min
@@ -436,7 +438,7 @@ case-study-based extended answers.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can plan a fieldwork enquiry with a question, hypothesis, sampling method and data-collection sheets." (UK KS3 Geography — fieldwork; C3 D2.Geo.1.6-8)
 - **Hook:** "Is our local area a good place to live — for everyone? Let's find out with data."
-- **Key activity:** Choose a question adaptable to any town (e.g. "How does environmental quality vary between the centre and the edge of our town?", "Is our main street thriving?", "How could our local park be improved?"); write a hypothesis; design an environmental quality survey (scores for litter, noise, greenery, traffic), a land-use map key and a short questionnaire; plan a route and a risk assessment.
+- **Key activity:** Choose a question adaptable to any town and different from Year 5's environmental-quality enquiry (e.g. "Is our main street thriving?", "How far do people travel to use our local park, and how could it be improved?", "Does land use change along a transect from the centre to the edge of town?"); write a hypothesis; design a land-use map key, pedestrian counts and a short questionnaire (reusing Year 5's environmental quality survey only as one supporting method); plan a route, a sampling strategy and a risk assessment.
 - **Check for understanding:** "Why should you collect data at several sites, not just one?" → To compare places and make the results more reliable and representative.
 - **Differentiation:** support: a ready-made survey sheet / stretch: design a systematic sampling plan (e.g. every 100 m along a transect)
 - **Materials:** local maps, survey templates, clipboards, risk-assessment form
@@ -497,5 +499,5 @@ case-study-based extended answers.
 - **Local adaptation.** Units 1 and 7 must be taught with your own area's maps and a real local question; add local examples in every unit (your country's hazards, climate data, population pyramid and development indicators).
 - **Sensitive topics.** Migration and refugees may be personal for some children: sharing family stories is always optional. Hazards and climate change can cause anxiety — always pair problems with action and hope (solutions, success stories, what children can do).
 - **Differentiation.** Support uses labelled diagrams, guided graph questions and writing frames; stretch adds data analysis, interacting causes and extended judgements with counter-arguments.
-- **Vertical alignment.** Year 5 secured map skills, trade and an introduction to climate change; Year 6 builds global processes, data, case studies and fieldwork enquiry, preparing for secondary geography (UK Year 8 / US Grade 7 / MYP 2), which assumes confident map, graph and case-study skills.
+- **Vertical alignment.** Year 4 taught latitude and longitude, time zones, tectonics and rivers; Year 5 secured map skills, a Kenya regional study, water, trade and the polar regions (and climate change in science). Year 6 retrieves these briefly and builds global processes, data, case studies and fieldwork enquiry, preparing for secondary geography (UK Year 8 / US Grade 7 / MYP 2), which assumes confident map, graph and case-study skills.
 - **Cross-curricular links:** Maths (coordinates, negative numbers and time zones, statistics, rainfall volumes), Science (plate tectonics, greenhouse effect, carbon cycle), History (empire, independence and development), English (*A Long Walk to Water*, research and balanced argument), Computing (GIS, spreadsheets), Life Skills (sustainability, SDGs, the graduation capstone).

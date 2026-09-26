@@ -132,3 +132,44 @@ Browder v. Gayle; Sharpeville 1960, Soweto 1976; space-race dates. Y6 books all 
 Frankopan/Packer illustrated edition, Anne Frank, Ruby Bridges, van Wyk's abridged Mandela, *I Am
 Malala* YRE, *Horrible Histories*). The Y6 handling of the Holocaust (through Anne Frank and rescuers,
 no role-play, depth deferred to secondary) is age-appropriate and was kept.
+
+---
+
+## Geography
+
+### Repeats found
+| Topic | Y4 | Y5 (before) | Y6 (before) |
+|---|---|---|---|
+| Tectonics, volcanoes, earthquakes (egg model, Wegener, boundaries, Ring of Fire, spaghetti towers) | Unit 2 (8 lessons) | Unit 2 (7 lessons) | Unit 2 (6 lessons) |
+| River journey; erosion/deposition | L15–16 | L14–15 | — |
+| Latitude/longitude; six-figure grid refs | L2–4, L29 | L2, L3 | L1 |
+| Projections (same Greenland-×14 hook and orange peel) | — | L1 | L2 |
+| Contour clay-mountain slicing | — | L4 | L5 |
+| Population distribution, push/pull, megacities incl. Mumbai/Dharavi, sustainable city | — | Unit 5 (5 lessons) | Unit 4 |
+| Fair trade; physical vs economic water scarcity (same check question) | — | L22; L17 | L27; L28 |
+| Water-filter build | — | L18 | Y6 science L23 |
+| Keeling curve + "why does it zigzag" stretch | — | — | geography L14 and science L65 |
+
+### Resolution
+**Year 5 geography restructured** (35 lessons, 6 units, numbering unchanged for the kept units 4 and 6):
+- Unit 1: L2 lat/long → **compass bearings** (with a reverse-bearing check); L3 six-figure grid refs → **thematic maps** (choropleth/dot/flow); L4 stretch no longer pre-empts Y6 cross-sections.
+- Unit 2 tectonics → **Regional study: Kenya and East Africa** (7 lessons: 54 countries not one story; Rift Valley and Mount Kenya; wet/dry seasons and the wildebeest migration; tea, flowers and pastoralism; Nairobi and M-Pesa; tourism, conservancies and Lucy King's beehive fences; fair comparison with the home region). This delivers the "regional comparison" Year 4 promised and puts Africa into the spine as a region study (Y4 South America, Y6 China–India).
+- Unit 3 → **Water: a precious resource**: the Y4 river-journey/erosion lessons replaced by "Where is the world's water?" and a dedicated Nile-basin dam summit (GERD); the filter build replaced by a solutions fair (boreholes, sand dams, rainwater harvesting) and a household water audit.
+- Unit 5 cities/population → **The polar regions** (Arctic vs Antarctica; land ice vs sea ice investigation; Inuit and Sámi lives without a single story; Antarctic Treaty 1959, Madrid Protocol 1991, ozone hole 1985/Montreal Protocol 1987; sea-ice data and the Arctic Council). Antarctica was previously only "in map work".
+- Overview, time budget, mastery checks, misconceptions and vertical notes rewritten to match.
+
+**Year 6 geography:** L1 → precise location (degrees and minutes, 1° ≈ 111 km, GPS); L2 → maps and power (south-up, Pacific-centred, Equal Earth, the Peters debate, projection for purpose); L3 objective now builds on Y4; L5 drops the clay model and focuses on cross-sections and landforms; L10 replaces the Y4 spaghetti-tower build with a cost/impact evaluation of risk-reduction strategies for rich and poorer countries; L14 moves off the Keeling curve (now science L65) to geographical evidence — ice cores, glacier satellite images, tide gauges, Kyoto's 1,000-year cherry-blossom record; L27 focuses on aid and remittances with fair trade only retrieved; L28 → city/national water security through Cape Town's 2018 "Day Zero"; L33 fieldwork steered to a different question from Y5's environmental-quality survey. "What we assume from Year 5" corrected.
+
+### Books
+Y5: removed Branley's *Volcanoes* (tectonics unit gone; also pitched at ages 4–8). Added Napoli & Nelson
+*Mama Miti* (Kenya), Grill *Shackleton's Journey* (polar), NSIDC data. Kept *Atlas of Adventures*,
+Mizielińscy *Maps*, *A Long Walk to Water*, *One Well*, Kamkwamba, *If the World Were a Village*. Y6 list
+verified (atlases, *Factfulness*, Gapminder/Dollar Street, Our World in Data, *Maps*, Smith, Kamkwamba,
+NASA, The True Size Of, UN/UNHCR) — no change.
+
+### Checked and correct
+Africa ≈ 14 × Greenland; Tōhoku M9.0–9.1 and ~18,000 deaths; Gorkha M7.8 and ~9,000; Quito ~2,850 m;
+Tuvalu's high point ~4.6 m; 8 billion (Nov 2022), 1 billion ~1804; urban share <⅓ in 1950; Dharavi ~1
+million in ~2 km² (estimates vary — "perhaps" kept); India overtook China 2023 (UN); Shenzhen SEZ 1980;
+Three Gorges largest power station by capacity, >1 million relocated; Samoa skipped 30 Dec 2011;
+Curitiba BRT 1970s; Nairobi 1° 17′ S 36° 49′ E; Cape Town 50 L/person/day in 2018.
