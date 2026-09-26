@@ -11,8 +11,8 @@ Year 4 history asks one big question: **what was the world like around AD 900, a
 
 Every unit is an enquiry built on the historian's toolkit: **chronology** (where does this fit?), **sources and evidence** (objects, texts, archaeology — "how do we know?"), **interpretation** (why do people tell the story differently?), **cause and consequence**, **similarity and difference**, and **significance**. Each unit ends with a short written or spoken answer to its enquiry question. The final unit compares the four societies and invites children to research what was happening in **their own country** around the same time.
 
-**What Year 4 assumes (from Year 3):** a timeline from ancient to modern times; BC/AD (BCE/CE); primary vs secondary sources introduced; Ancient Greece and Rome.
-**What Year 5 relies on:** a secure medieval timeline and the idea of a connected world of trade and ideas, ready for Tudors and global exploration, the Atlantic trade and modern history; confident source evaluation (who made it, when, why — can we trust it?).
+**What Year 4 assumes (from Years 2–3):** a timeline from ancient to modern times; BC/AD (BCE/CE); primary vs secondary sources (Year 2); who made a source and why, and checking ancient writers against archaeology (Year 3); Ancient Greece, Rome, Kush and China.
+**What Year 5 relies on:** a secure medieval timeline and the idea of a connected world of trade and ideas, ready to add the West African empire of Mali, later periods and modern history; confident source evaluation (who made it, when, why — can we trust it, and does another source agree?). Year 5 should *retrieve* the four societies studied here, not re-teach them.
 
 ## Time budget
 
@@ -32,7 +32,7 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 
 **Essential question:** How do historians find out about people who lived over a thousand years ago?
 
-**Key vocabulary:** chronology, century, millennium, BCE/CE, BC/AD, medieval, primary source, secondary source, artefact, archaeology, evidence, interpretation
+**Key vocabulary:** chronology, century, millennium, BCE/CE, BC/AD, medieval, primary source, secondary source, corroborate, tree-ring dating, radiocarbon dating, artefact, archaeology, evidence, interpretation
 
 ### Lesson 1 — Our place on the timeline
 - **Duration:** 35 min
@@ -44,25 +44,25 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 - **Materials:** string, pegs, date cards, picture cards.
 - **Joy:** "Living timeline" — children holding cards find their place in order.
 
-### Lesson 2 — Sources: what counts as evidence?
+### Lesson 2 — Checking a claim: when sources agree and disagree
 - **Duration:** 35 min
-- **Objective:** "By the end, I can sort sources into primary and secondary and explain what each can tell us." (UK NC KS2 how knowledge is constructed from sources; C3 D2.His.9.3-5)
-- **Hook:** A mystery box of "artefacts" (replicas or pictures): a coin, a comb, a carved stone, a page of writing, a modern book.
-- **Key activity:** Define primary (made at the time) and secondary (made later about the past); sort sources; ask "What can this tell us? What can't it?"
-- **Check for understanding:** "Is a history book written today about the Vikings a primary or secondary source? Can it still be useful?" → Secondary; yes, because historians have studied many primary sources to write it.
-- **Differentiation:** support: picture cards with the date made on each. / stretch: find a source that could be both (e.g. an old chronicle about events 100 years earlier).
-- **Materials:** replica artefacts or photos, sorting hoops.
-- **Joy:** "Mystery box" archaeology.
+- **Objective:** "By the end, I can check a historical claim by comparing it with other, independent sources." (UK NC KS2 how knowledge is constructed from sources; C3 D2.His.9.3-5)
+- **Hook:** An Irish chronicle for the year 837 says "sixty ships of Norsemen" sailed up the River Boyne. "How could we ever check a number like that?"
+- **Key activity:** Quick retrieval: primary vs secondary, and 'who made it and why?' (Years 2–3). New: corroboration. Children get a 'claim card' and a set of evidence cards (another chronicle, a hoard of coins, the remains of a camp, a later saga) and decide which cards support, challenge or say nothing about the claim; they give the claim a confidence rating and justify it.
+- **Check for understanding:** "An Irish monk wrote that sixty Viking ships came up the river. How could a historian check this, and when would they trust it more?" → look for other independent sources (another chronicle, archaeology such as camps, boats or hoards) and compare; the claim is stronger when sources made by different people agree
+- **Differentiation:** support: three evidence cards, each clearly 'agrees' or 'disagrees'. / stretch: explain why two sources that copied each other do not count as two separate pieces of evidence.
+- **Materials:** claim cards, evidence cards, confidence scale (1–5).
+- **Joy:** "Evidence court": the claim is put on trial and the class jury gives its verdict.
 
-### Lesson 3 — Archaeology: digging for the past
+### Lesson 3 — Dating the past: how do we know how old it is?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how archaeologists find and interpret evidence, and why context matters." (UK NC KS2 how we know; C3 D2.His.10.3-5)
-- **Hook:** A tray "dig site" layered with sand and hidden objects: "What's older — the object at the top or the bottom?"
-- **Key activity:** Mini excavation in layers; record find locations on a grid; discuss stratigraphy (deeper usually means older) and why objects removed without recording lose meaning.
-- **Check for understanding:** "Why do archaeologists record exactly where each object was found?" → The location and layer help show its age and how it was used; without it, much of the evidence is lost.
-- **Differentiation:** support: guided dig with an adult. / stretch: interpret the "site" — who lived here and what did they do?
-- **Materials:** trays with sand/soil layers, small replica objects, brushes, grid string, recording sheets.
-- **Joy:** Being archaeologists.
+- **Objective:** "By the end, I can explain three ways archaeologists date finds and what each can and can't tell us." (UK NC KS2 how we know; C3 D2.His.10.3-5)
+- **Hook:** "Scientists worked out that wood at a Viking site in Canada was cut in AD 1021 — the exact year. How is that possible?"
+- **Key activity:** Quick retrieval of layers (deeper is usually older) from Years 2–3. New: three dating clues at stations — tree rings (count the rings on a real log slice; match patterns between two slices), coins (a coin can't be dropped before it was made), and radiocarbon dating (explained simply: living things take in a tiny amount of a special carbon that slowly disappears after they die, like a clock). Children date a 'mystery grave' using all three clues.
+- **Check for understanding:** "A grave contains a coin of a king who began ruling in AD 890. Does that prove the person was buried in 890? What does it tell us?" → No — only that the burial was in 890 or later, because the coin must have been made before it was buried; it could have been used for years first
+- **Differentiation:** support: a log slice and a coin card with guiding questions. / stretch: explain why combining several dating methods gives a more confident date.
+- **Materials:** tree-trunk slices (or photos), coin cards, a simple radiocarbon 'clock' diagram, mystery-grave cards.
+- **Joy:** "Ring detectives": count a log's rings and find the year the tree was a seedling.
 
 ### Lesson 4 — Interpretations: why stories differ
 - **Duration:** 35 min
@@ -74,7 +74,7 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 - **Materials:** paired accounts, comparison grid.
 - **Joy:** "Two sides" role-play.
 
-**End-of-unit check:** Place four civilisations on a timeline around AD 900; sort six sources into primary and secondary with a reason; explain why two accounts of a Viking raid differ.
+**End-of-unit check:** Place four civilisations on a timeline around AD 900; explain how a historian would check a claim with a second source; explain one dating method; explain why two accounts of a Viking raid differ.
 
 ---
 
@@ -107,7 +107,7 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 ### Lesson 7 — Lindisfarne, AD 793: a raid and its sources
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use sources to describe the raid on Lindisfarne and judge how reliable they are." (UK NC KS2 the Viking struggle; sources; C3 D2.His.10.3-5)
-- **Hook:** Read an extract from the letter of Alcuin (a scholar at Charlemagne's court) about the raid.
+- **Hook:** Read an extract from a letter by Alcuin (a Northumbrian scholar who worked at Charlemagne's court) about the raid.
 - **Key activity:** Examine the source: who wrote it, when, why; what it tells us; what it might exaggerate; compare with archaeological evidence.
 - **Check for understanding:** "Alcuin wasn't at Lindisfarne during the raid. Does that make his letter useless? Explain." → Not useless — it shows how shocked Christians were at the time — but he may exaggerate or lack details.
 - **Differentiation:** support: simplified extract with guided questions. / stretch: write a short evaluation using "This source is useful because… but…".
@@ -218,7 +218,7 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 - **Duration:** 35 min
 - **Objective:** "By the end, I can explain the causes and consequences of the Mongol attack on Baghdad in 1258." (UK NC KS2 cause and consequence; C3 D2.His.14.3-5)
 - **Hook:** Legends say the Tigris ran dark with ink from books thrown into the river: "Why would a story like that be told?"
-- **Key activity:** The Mongol Empire's expansion; the siege and destruction of 1258; consequences for learning; how knowledge survived elsewhere (Cairo, Córdoba, Samarkand).
+- **Key activity:** The Mongol Empire's expansion; the siege and destruction of 1258; consequences for learning; how knowledge survived elsewhere (in Cairo and Damascus, and even at Maragha in Persia, where the Mongol ruler Hülegü founded a great observatory in 1259).
 - **Check for understanding:** "Is the story of the 'river of ink' definitely true? How should a historian treat it?" → Not certain; it may be exaggerated but shows how great the loss of books felt; historians look for other evidence.
 - **Differentiation:** support: cause–consequence chain with pictures. / stretch: explain why learning didn't disappear completely.
 - **Materials:** maps of the Mongol Empire, cause–consequence template.
@@ -389,7 +389,7 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 - **Objective:** "By the end, I can compare two or more civilisations using themes like power, beliefs, trade and learning." (UK NC KS2 similarity and difference; C3 D2.His.2.3-5)
 - **Hook:** "If a Viking trader, a Baghdad scholar, a Benin metalworker and a Maya scribe met, what would they talk about?"
 - **Key activity:** Comparison grid (leaders, beliefs, trade, technology, writing/records); discuss surprising similarities (all traded, all recorded their history in different ways).
-- **Check for understanding:** "Give one similarity and one difference between two of the civilisations, with evidence." → Accurate comparison.
+- **Check for understanding:** "Give one similarity and one difference between two of the civilisations, with evidence." → e.g. similarity: Benin and the Maya both recorded their rulers' deeds in art (brass plaques; carved stelae); difference: Baghdad stored knowledge in paper books, while Benin relied on plaques and oral history
 - **Differentiation:** support: partly filled grid. / stretch: explain which civilisation you think had the most lasting legacy, and why.
 - **Materials:** comparison grids, unit notes.
 - **Joy:** "Time-travel dinner party" role-play.
@@ -438,13 +438,13 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 
 ## Books & resources
 
-- ***Journey to Jo'burg* — Beverley Naidoo** — (English text) opens discussion of how history shapes lives; pair with Unit 1 on interpretations.
 - ***The Orchard Book of Greek Myths* — Geraldine McCaughrean** — (English text) recalls Year 3's Greece and shows how myths are also sources.
 - ***Odd and the Frost Giants* — Neil Gaiman** — a short, funny Norse-myth novel that brings the Viking world of stories to life.
 - ***D'Aulaires' Book of Norse Myths* — Ingri and Edgar Parin d'Aulaire** — the classic illustrated Norse myths.
 - ***The House of Wisdom* — Florence Parry Heide and Judith Heide Gilliland, illustrated by Mary GrandPré** — picture book set in Baghdad's House of Wisdom.
 - ***One Thousand and One Nights*** (a children's retelling such as Geraldine McCaughrean's *One Thousand and One Arabian Nights*) — stories from the world of Harun al-Rashid's Baghdad.
-- ***Tristan Strong Punches a Hole in the Sky* — Kwame Mbalia** — (class-library choice) West African and African American folklore; sparks interest in African history.
+- ***Rain Player* — David Wisniewski** — a picture book set in a Maya city, built around the ballgame and Maya art; a way into Unit 5.
+- **Digital Benin (digitalbenin.org)** — an online catalogue bringing together thousands of Benin objects from museums worldwide, with Edo names and oral histories; the best single source for Unit 4.
 - **British Museum, Horniman Museum and Nigerian national collections online** — high-quality images and information about Benin art and its return.
 - **Museo Popol Vuh (Guatemala) and the British Museum's Maya collection online** — Maya sources.
 - **Jorvik Viking Centre (York) and the Museum of the Viking Age (Oslo, formerly the Viking Ship Museum) websites** — archaeology and ships.
@@ -476,6 +476,6 @@ Every unit is an enquiry built on the historian's toolkit: **chronology** (where
 
 **International notes.** Lesson 32 adapts to any country: model one worked example from your own region's history around AD 900 before children research. Use BCE/CE or BC/AD consistently and explain both.
 
-**Vertical links.** Year 3: Greece, Rome, chronology. Year 4: the connected medieval world. Year 5: Tudors and exploration, the Atlantic trade, the history of flight, the Second World War home front and local history — built on this year's timeline and source skills.
+**Vertical links.** Year 2: primary/secondary sources, layers and the tray dig. Year 3: Greece, Rome, Kush, China, chronology, who made a source and why. Year 4: the connected medieval world, corroboration and dating methods. Year 5: should add the empire of Mali, later periods (the 20th-century freedom movements) and local history, treating the Vikings, Baghdad, Benin and the Maya as retrieval — built on this year's timeline and source skills.
 
 **Cross-curricular links.** Maths (Maya base-20 and zero; al-Khwarizmi and algebra), English (sagas and myths, *One Thousand and One Nights*), geography (maps of trade routes, rivers and rainforests), art (Benin casting, Maya glyphs, Islamic geometric patterns), science (archaeology and dating methods).

@@ -8,7 +8,7 @@ Year 3 history is the year of **great ancient civilisations on three continents*
 
 **Chronology.** Children use BC/BCE and AD/CE dates, place every civilisation on a class timeline that runs the whole year, and recognise that these civilisations overlapped in time (the Kushite pharaohs, the Olympic Games and the founding of Rome all fall in the 700s BC).
 
-**What this year assumes (from Year 2, ages 7–8):** the Stone Age to Iron Age, Ancient Egypt, Sumer and the Indus Valley; the idea of a civilisation; sequencing on a timeline; simple use of sources. **What Year 4 (ages 9–10) relies on:** confident BC/AD chronology, the concept of empire, trade and legacy, and evaluating sources — as it moves to the Anglo-Saxons, Vikings and the Maya.
+**What this year assumes (from Year 2, ages 7–8):** the Stone Age to Iron Age, Ancient Egypt, Sumer and the Indus Valley; the idea of a civilisation; sequencing on a timeline; simple use of sources. **What Year 4 (ages 9–10) relies on:** confident BC/AD chronology, the concept of empire, trade and legacy, and evaluating sources — as it moves to the medieval world around AD 900: the Vikings, Abbasid Baghdad, the Kingdom of Benin and the Maya.
 
 Lessons are **40 minutes**, one a week. The school's own country and town are used as worked examples in the final unit; teachers outside the UK use Roman Britain as a case study of how an empire changed a conquered land, and add their own region's ancient history where relevant.
 
@@ -39,32 +39,32 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 - **Objective:** "By the end, I can order the civilisations we have studied and will study on a timeline using BC and AD." (UK NC KS2 Hi (chronology))
 - **Hook:** "Which is older: the pyramids of Giza or the Great Wall of China? The answer surprises most adults."
 - **Key activity:** Build a long class timeline (washing line) from 3000 BC to AD 500; peg on Year 2 civilisations (Sumer, Indus, Egypt) and this year's (Greece, Rome, Kush, China). Explain counting backwards in BC and forwards in AD from the year 1.
-- **Check for understanding:** "Why is 500 BC earlier than 200 BC, even though 500 is the bigger number?" → BC years count backwards towards year 1, so the bigger the BC number, the longer ago
+- **Check for understanding:** "Legend says Rome was founded in 753 BC; Kushite kings began ruling Egypt around 744 BC. Which came first, how many years apart, and how do you know?" → Rome's founding, about 9 years earlier — BC years count down towards year 1, so the bigger BC number is further back in time
 - **Differentiation:** support: number-line cards with only centuries marked / stretch: calculate how many years apart 776 BC and AD 43 are (818 — no year zero)
 - **Materials:** washing line, pegs, date cards, picture cards
 - **Joy:** "Human timeline": children holding date cards stand in order
 
-### Lesson 2 — Sources: how do we know?
+### Lesson 2 — Sources: who made it, and why?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the difference between primary and secondary sources and what each can tell us." (UK NC KS2 Hi (sources))
-- **Hook:** "If people in 2,000 years found only your school bag, what would they think about you?"
-- **Key activity:** Children examine a 'mystery bag' of modern objects and make inferences; then sort ancient sources (a Greek vase, a Roman coin, an oracle bone photo, a modern textbook, a museum reconstruction) into primary and secondary.
-- **Check for understanding:** "Is a museum model of a Roman villa a primary or secondary source? Explain." → secondary — it was made recently by people interpreting evidence, not by the Romans
-- **Differentiation:** support: picture cards with a 'Made then or made later?' question / stretch: explain what a primary source *can't* tell us (e.g. a coin doesn't tell us what poor people thought)
-- **Materials:** mystery bag, source picture cards
+- **Objective:** "By the end, I can explain how the maker and purpose of a source affect what it tells us." (UK NC KS2 Hi (sources; how evidence is used))
+- **Hook:** "If people in 2,000 years found only your school's prospectus, would they know what a wet Monday here is really like?"
+- **Key activity:** Quick retrieval of Year 2's primary and secondary sources. New question: *who made it and why?* Children examine ancient sources (a Roman coin showing an emperor as a victor, a Greek vase made to sell, a king's victory inscription, a shopping list scratched on a pot) and sort them into 'made to impress' and 'made for everyday use', then say what each can and can't tell us.
+- **Check for understanding:** "A Roman coin shows the emperor as a mighty winner. Why might that not be the whole truth — and why is the coin still useful evidence?" → it was made on the emperor's orders to make him look good, so it shows his side; it is still useful because it tells us his name, how he wanted to be seen and that coins like it were used in trade
+- **Differentiation:** support: picture cards with the questions 'Who made it? Why?' on each / stretch: explain why an everyday object (a shopping list) can sometimes be more trustworthy than a grand inscription
+- **Materials:** source picture cards (coins, vase, inscription, graffiti), sorting mats
 - **Joy:** "Future archaeologist": bury and later 'excavate' a class time capsule
 
-### Lesson 3 — Archaeology in action
+### Lesson 3 — The first historians: can we trust them?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe how archaeologists excavate and record finds." (UK NC KS2 Hi (how evidence is gathered))
-- **Hook:** "Archaeologists dig slowly with brushes — why not use a digger?"
-- **Key activity:** Sandpit or tray 'dig' with layers and hidden objects; children grid the site, record position and depth, and interpret. Discuss stratigraphy (lower = older, usually).
-- **Check for understanding:** "Why do archaeologists record exactly where each find was before they lift it?" → the position and layer tell us its age and how it relates to other finds; once moved, that evidence is lost
-- **Differentiation:** support: a grid sheet with the objects' positions partly filled in / stretch: explain why a coin found deeper is usually older — and when it might not be
-- **Materials:** trays of sand in layers, brushes, spoons, grid string, finds
-- **Joy:** "Class dig" with archaeologist notebooks
+- **Objective:** "By the end, I can explain how historians use ancient written accounts, checking them against other evidence." (UK NC KS2 Hi (how knowledge of the past is constructed from sources))
+- **Hook:** "About 2,500 years ago a Greek writer, Herodotus, reported giant gold-digging ants in India. Should we believe the rest of his book?"
+- **Key activity:** Meet Herodotus (c. 484–425 BC), often called 'the father of history', who travelled, asked questions and wrote down what he saw and was told. Children sort short adapted extracts into 'he saw it', 'someone told him' and 'a story he repeated', then check two claims against archaeological evidence (e.g. his description of Egyptian mummification, which matches real mummies). Link: every later unit uses written accounts (Tacitus, Pliny, Piye's stela) that must be checked the same way.
+- **Check for understanding:** "Herodotus's story about giant ants is almost certainly not true. Does that make all of his *Histories* useless? Explain how a historian should use him." → no — he recorded what he was told, so some parts are unreliable; historians check each claim against other sources and archaeology and trust the parts that are confirmed
+- **Differentiation:** support: three extracts with picture clues and the three sorting labels / stretch: explain why an eyewitness account can still be wrong
+- **Materials:** adapted Herodotus extracts, photos of Egyptian mummies and tools, sorting labels
+- **Joy:** "Fact or fable?" game: teams bet counters on which Herodotus stories archaeology has confirmed
 
-**End-of-unit check:** Place six civilisations in order on a BC/AD timeline and explain how BC dates work; classify five sources as primary or secondary with reasons.
+**End-of-unit check:** Place six civilisations in order on a BC/AD timeline and explain how BC dates work; explain who made a source, why, and how that affects what it tells us.
 
 ---
 
@@ -128,7 +128,7 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 - **Duration:** 40 min
 - **Objective:** "By the end, I can describe Greek theatre and architecture and their influence today." (UK NC KS2 Hi)
 - **Hook:** "Why did Greek actors wear masks?"
-- **Key activity:** Theatre design (amphitheatre acoustics), masks, comedy and tragedy; Parthenon columns; spot Greek-style columns in photos of buildings worldwide.
+- **Key activity:** Theatre design (the stepped, curved seating of theatres such as Epidaurus, which carries sound remarkably well), masks, comedy and tragedy; Parthenon columns; spot Greek-style columns in photos of buildings worldwide.
 - **Check for understanding:** "Why could everyone in a huge Greek theatre hear the actors?" → the curved, stepped seating carried sound well
 - **Differentiation:** support: picture cards / stretch: explain how masks helped actors play multiple roles
 - **Materials:** masks, column photos
@@ -198,7 +198,7 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 - **Duration:** 40 min
 - **Objective:** "By the end, I can compare different interpretations of Boudica's revolt and explain why they differ." (UK NC KS2 Hi (interpretation))
 - **Hook:** "Hero or villain? It depends who's telling the story."
-- **Key activity:** Read short extracts adapted from Tacitus and Cassius Dio (Roman writers); consider what the Iceni might have said (no written records of their own). Compare a Victorian statue of Boudica with the Roman accounts.
+- **Key activity:** Read short extracts adapted from Tacitus and Cassius Dio (Roman writers); consider what the Iceni might have said (no written records of their own). Compare the heroic statue of Boudica beside the Houses of Parliament in London (made by Thomas Thornycroft in Victorian times and put up in 1902) with the Roman accounts.
 - **Check for understanding:** "Why do we only have Roman accounts of Boudica's revolt, and how might that affect the story?" → the Iceni didn't leave written records; Roman writers wrote from the winners' view and may exaggerate her cruelty
 - **Differentiation:** support: extracts rewritten simply with key words highlighted / stretch: explain why the Victorians made Boudica a national heroine
 - **Materials:** extract cards, photo of the Westminster Boudica statue
@@ -312,27 +312,27 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 
 **Essential question:** How did early Chinese dynasties create a civilisation whose inventions and ideas still shape the world?
 
-**Key vocabulary:** dynasty, Shang, Zhou, Qin, Han, emperor, oracle bone, bronze, Confucius, Terracotta Army, Great Wall, silk, paper, Silk Road, trade, merchant, invention
+**Key vocabulary:** dynasty, Shang, Zhou, Mandate of Heaven, Qin, Han, emperor, oracle bone, bronze, Confucius, Terracotta Army, Great Wall, silk, paper, Silk Road, trade, merchant, invention
 
-### Lesson 25 — The Shang and the oracle bones
+### Lesson 25 — The Shang revisited: how the oracle bones were found
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how oracle bones give us the earliest evidence of Chinese writing." (UK NC KS2 Hi (the Shang Dynasty; earliest civilisations))
-- **Hook:** "A farmer in 19th-century China sold 'dragon bones' as medicine. Scholars noticed writing on them — 3,000 years old."
-- **Key activity:** Story of the discovery of oracle bones; how Shang kings (c. 1600–1046 BC) asked questions of their ancestors by heating bones and shells and reading the cracks; the questions were carved in an early form of Chinese characters. Children compare oracle-bone characters with modern ones (sun, moon, mountain, person).
-- **Check for understanding:** "What can oracle bones tell us about the Shang, and what can't they?" → they show the Shang had writing and the questions kings cared about (harvests, war, weather); they don't tell us about ordinary people's lives
-- **Differentiation:** support: character-matching cards with pictures / stretch: explain why oracle bones are especially reliable evidence (they were made at the time for private use, not for show)
-- **Materials:** oracle-bone character cards, clay tiles for carving
+- **Objective:** "By the end, I can explain how the oracle bones were discovered and why they are such strong evidence about the Shang." (UK NC KS2 Hi (the Shang Dynasty; how we know))
+- **Hook:** "In 1899 a scholar noticed ancient writing on 'dragon bones' sold as medicine. Where had they come from?"
+- **Key activity:** Quick retrieval of Year 2's Shang (bronze, oracle bones, earliest Chinese writing). New: the detective story of the discovery — scholars tracked the bones to farmland near Anyang, and excavations there from 1928 uncovered the last Shang capital (Yin), confirming kings named in much later histories. Children compare what the bones say with what later written histories said.
+- **Check for understanding:** "Later Chinese histories listed the Shang kings, but some people doubted they were real. How did the oracle bones settle the argument?" → the bones, made at the time, name many of the same kings, so an independent primary source confirmed the later written list
+- **Differentiation:** support: a picture sequence of the discovery / stretch: explain why oracle bones are especially reliable (made at the time for the king's private questions, not for show) — and what they still can't tell us (ordinary people's lives)
+- **Materials:** photos of oracle bones and the Anyang excavations, character cards, clay tiles
 - **Joy:** carve an oracle-bone question into a clay tile
 
-### Lesson 26 — Shang bronze
+### Lesson 26 — The Zhou and the Mandate of Heaven
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Shang bronze-work shows skill, wealth and belief." (UK NC KS2 Hi)
-- **Hook:** "How do you make a bronze pot covered in patterns — without electricity?"
-- **Key activity:** Photos of Shang ritual bronzes and the tomb of Fu Hao, a queen and military leader whose tomb was found unlooted in 1976. Children infer from objects about power, beliefs and technology.
-- **Check for understanding:** "What does the richness of Fu Hao's tomb suggest about her?" → she was powerful and important — she was buried with hundreds of bronzes, jade and weapons
-- **Differentiation:** support: picture cards with prompts / stretch: explain why an unlooted tomb is so valuable to historians
-- **Materials:** photos of bronzes and the tomb
-- **Joy:** design a patterned vessel with taotie-style motifs
+- **Objective:** "By the end, I can explain the idea of the Mandate of Heaven and how it was used to explain why dynasties rose and fell." (UK NC KS2 Hi (beliefs; change over time))
+- **Hook:** "In about 1046 BC the Zhou overthrew the Shang. How do you persuade people that your takeover is right?"
+- **Key activity:** The Zhou claimed Heaven gave the right to rule to a good ruler and took it away from a cruel or careless one — signs of losing it were floods, famines and rebellions. Children sort event cards from Shang to Han into a 'dynasty cycle' (a strong new dynasty → good rule → decline and disasters → rebellion → new dynasty); then look at the long Zhou period, ending in the Warring States that the Qin would end.
+- **Check for understanding:** "Why was the Mandate of Heaven a useful idea for the Zhou — and why might it also have worried later emperors?" → it made their rebellion look right, because the Shang had 'lost' Heaven's approval; but it meant any ruler who ruled badly, or whose land suffered disasters, could be overthrown too
+- **Differentiation:** support: a picture cycle with four stages to label / stretch: compare the Mandate of Heaven with how Athenians chose leaders — which gave ordinary people more say?
+- **Materials:** dynasty-cycle cards, timeline, map of the Warring States
+- **Joy:** "Heaven's verdict": groups act out a ruler, a disaster and a rebellion while the class judges whether the Mandate has been lost
 
 ### Lesson 27 — Confucius and ideas that lasted
 - **Duration:** 40 min
@@ -340,7 +340,7 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 - **Hook:** "What makes a good ruler, a good family member, a good friend? A teacher in China asked this about 2,500 years ago — and people still quote his answers."
 - **Key activity:** Brief life of Confucius (551–479 BC) as a teacher; his sayings were collected by his followers in the *Analects*. Children discuss simple sayings (e.g. 'Do not do to others what you would not want done to yourself'), sort them into themes (learning, respect, good rulers), and connect to how Han emperors later chose officials by education.
 - **Check for understanding:** "Choose one saying. What does it mean, and why might an emperor have liked Confucius's ideas?" → explains the meaning in their own words; an emperor would value ideas about respect, order and loyalty
-- **Differentiation:** support: picture-supported sayings with a meaning to match / stretch: compare Confucius's idea of a good ruler with Athenian democracy — which gives ordinary people more power?
+- **Differentiation:** support: picture-supported sayings with a meaning to match / stretch: explain how Confucius's ideas about a good ruler fit with the Mandate of Heaven
 - **Materials:** saying cards, theme sort sheets
 - **Joy:** class 'wisdom wall' of sayings in brush-pen calligraphy
 
@@ -370,7 +370,7 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 - **Hook:** "Paper, a seismograph that detected distant earthquakes, the wheelbarrow — which Han-era invention changed the world most?"
 - **Key activity:** Stations on Han-era inventions and developments (improved paper-making, traditionally credited to Cai Lun in AD 105; Zhang Heng's seismoscope; the wheelbarrow; the ship's rudder). Children make paper from recycled pulp; then rank inventions by impact with reasons.
 - **Check for understanding:** "Which invention do you think had the greatest impact, and why?" → a reasoned choice, e.g. paper — it made books cheaper, spreading learning and record-keeping
-- **Differentiation:** support: picture cards with one sentence about each invention / stretch: explain why historians say Cai Lun 'improved' rather than 'invented' paper (earlier forms of paper have been found)
+- **Differentiation:** support: picture cards with one sentence about each invention / stretch: explain why historians say Cai Lun 'improved' rather than 'invented' paper (earlier forms of paper have been found), and find out about Ban Zhao, a Han woman historian who helped finish the official history of the Han
 - **Materials:** paper-making kit (pulp, screens, sponges), picture cards
 - **Joy:** make paper and write your name in Chinese characters on it
 
@@ -384,7 +384,7 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 - **Materials:** maps, goods picture cards, play coins
 - **Joy:** "Silk Road relay" trading game
 
-**End-of-unit check:** Explain what oracle bones tell us and why they are reliable; describe what the Terracotta Army reveals about Qin Shi Huang; explain why the Great Wall was built over centuries; describe how the Silk Road connected China and Rome.
+**End-of-unit check:** Explain what oracle bones tell us and why they are reliable; explain the Mandate of Heaven; describe what the Terracotta Army reveals about Qin Shi Huang; explain why the Great Wall was built over centuries; describe how the Silk Road connected China and Rome.
 
 ---
 
@@ -481,4 +481,4 @@ Lessons are **40 minutes**, one a week. The school's own country and town are us
 
 **Differentiation.** Support = more concrete: artefact handling, picture timelines, adapted extracts with key words highlighted. Stretch = deeper historical thinking: compare interpretations, judge reliability, explain change and continuity across civilisations.
 
-**Vertical connections.** Builds on Year 2 (Stone Age to Iron Age, Egypt, Sumer, Indus). Year 4 continues the timeline after Rome's fall in the west (Anglo-Saxons, Vikings) and adds the Maya — a civilisation of the Americas — using the same source and interpretation skills.
+**Vertical connections.** Builds on Year 2 (Stone Age to Iron Age, Egypt, Sumer, Indus). Year 4 continues the timeline into the medieval world around AD 900 — the Vikings, Abbasid Baghdad, the Kingdom of Benin and the Maya — using the same source and interpretation skills. Year 2 already taught primary/secondary sources, the tray dig and the Shang basics, so Year 3 retrieves those briefly and goes deeper.
