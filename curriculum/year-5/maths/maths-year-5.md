@@ -112,13 +112,13 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Hook:** A news headline says "Nearly 3 million visitors" — the real figure was 2,648,310. Is the headline honest?
 - **Key activity:** Concrete/pictorial: place the number on a number line between the two nearest multiples and see which it is closer to; midpoint rule (5 or more rounds up). Abstract: round the same number to every degree in a table and notice what stays the same. Discuss when rounding helps (headlines, estimating) and when it misleads.
 - **Check for understanding:** "Round 4,965,000 to the nearest 100,000. Why does the millions digit change?" → 5,000,000; it lies between 4,900,000 and 5,000,000 and 65,000 is past the midpoint 50,000, so it rounds up, which carries into the millions.
-- **Differentiation:** support: blank number lines with the two multiples already marked / stretch: "A number rounds to 350,000 to the nearest 10,000. What are the smallest and largest whole numbers it could be?" → 345,000 and 354,999.
+- **Differentiation:** support: blank number lines with the two multiples already marked / stretch: "A number rounds to 2,400,000 to the nearest 100,000. What are the smallest and largest whole numbers it could be?" → 2,350,000 and 2,449,999.
 - **Materials:** blank number lines, place-value counters, highlighters, newspaper or website headlines with rounded figures.
 - **Joy:** "Headline writers" — pupils write two headlines for the same real figure, one that rounds fairly and one that exaggerates.
 
 ### Lesson 5 — Negative numbers in context
 - **Duration:** 35 min
-- **Objective:** "By the end, I can place, order and compare negative numbers using real contexts." (UK NC Y6 place value / CCSS 6.NS.5–6 preview)
+- **Objective:** "By the end, I can place, order and compare negative numbers, including negative decimals such as −2.5 °C, using real contexts." (UK NC Y6 place value / CCSS 6.NS.5–6 preview)
 - **Hook:** The Dead Sea shore is about 430 m below sea level and Mount Everest is 8,849 m above it. How can one number line hold both?
 - **Key activity:** Concrete: a vertical number line on the floor (masking tape) from −10 to 10; children stand on temperatures called out. Pictorial: a thermometer and a cross-section of land and sea. Abstract: order sets like −8, 3, −1, 0, −12 and use < and >, explaining that −8 < −1 because it is further below zero.
 - **Check for understanding:** "Which is colder, −15 °C or −5 °C? Explain using a number line." → −15 °C, because it is 15 degrees below zero, further from zero on the negative side.
@@ -126,7 +126,7 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Materials:** masking-tape floor number line, large demonstration thermometer, temperature cards, world elevation fact cards.
 - **Joy:** "Human thermometer" — children physically move up and down the floor line as the teacher reads a world weather report.
 
-### Lesson 6 — Calculating intervals across zero
+### Lesson 6 — Calculating rises, falls and intervals across zero
 - **Duration:** 40 min
 - **Objective:** "By the end, I can find the difference between two numbers when one is negative, and count on or back across zero." (UK NC Y6 place value / CCSS 6.NS.7 preview)
 - **Hook:** "In Yakutsk, Russia, it can be −40 °C in January and +20 °C in July. How big is that swing?"
@@ -226,24 +226,24 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Materials:** counters, squared paper for arrays, place-value slider (digits moving across a fixed decimal point).
 - **Joy:** "Mental maths magician" — pupils perform a quick mental trick (e.g. ×25 via ÷4 × 100) for the class.
 
-### Lesson 15 — From the area model to long multiplication
+### Lesson 15 — Long multiplication retrieval: why each row works
 - **Duration:** 40 min
-- **Objective:** "By the end, I can multiply a 3-digit number by a 2-digit number and explain each row of long multiplication using the area model." (UK NC Y6 multiplication / CCSS 5.NBT.5)
+- **Objective:** "By the end, I can multiply 3- and 4-digit numbers by 2-digit numbers and explain each row of long multiplication with the area model." (UK NC Y6 multiplication / CCSS 5.NBT.5)
 - **Hook:** "A school orders 124 boxes of 36 pencils. How many pencils?"
-- **Key activity:** Concrete: base-10 blocks in an array for 24 × 13. Pictorial: area (grid) model for 124 × 36 split into 124 × 30 and 124 × 6. Abstract: record the same two partial products as rows in long multiplication (744 + 3,720 = 4,464), making the link explicit.
-- **Check for understanding:** "In 124 × 36, why does the second row start with a 0?" → Because we are multiplying by 30, not 3; every product is ten times bigger, so the zero holds the ones place.
-- **Differentiation:** support: 2-digit × 2-digit using base-10 blocks and a pre-drawn grid / stretch: 3-digit × 2-digit missing-digit problems.
-- **Materials:** base-10 blocks, grid (area-model) templates, squared paper.
+- **Key activity:** Retrieval (Year 4 taught long multiplication up to 4-digit × 2-digit): base-10 blocks for a small case (24 × 13), then an area model for 124 × 36 split into 124 × 30 and 124 × 6 beside the column layout (744 + 3,720 = 4,464); then 1,245 × 52 (2,490 + 62,250 = 64,740) with an estimate first. Pupils mark a set of worked examples, colour-coding each row to its rectangle in the area model.
+- **Check for understanding:** "In 124 × 36, why does the second row start with a 0, and what happens if you forget it?" → The 3 is 3 tens, so the row is 124 × 30 = 3,720; forgetting the zero gives 744 + 372 = 1,116, which an estimate (about 100 × 40 = 4,000) shows is far too small.
+- **Differentiation:** support: 2-digit × 2-digit with base-10 blocks and a pre-drawn grid / stretch: 3-digit × 2-digit missing-digit problems solved by reasoning about each row
+- **Materials:** base-10 blocks, grid (area-model) templates, squared paper, coloured pencils.
 - **Joy:** "Pencil crate" — count real boxes of pencils to check the answer for a small case.
 
-### Lesson 16 — Long multiplication: 4-digit × 2-digit
+### Lesson 16 — Multiplying by a 3-digit number
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use long multiplication to multiply a 4-digit number by a 2-digit number accurately." (UK NC Y6 multiplication / CCSS 5.NBT.5)
-- **Hook:** "A plane seats 1,245 passengers a week on one route. How many in a year (52 weeks)?"
-- **Key activity:** I do: 1,245 × 52 with place-value language (1,245 × 2 = 2,490; 1,245 × 50 = 62,250; total 64,740). We do: two more with estimates first. You do: practice set with an estimate column and a "does it make sense?" column.
-- **Check for understanding:** "Estimate 3,021 × 48 first. Priya's answer is 14,508. Is she right?" → Estimate ≈ 3,000 × 50 = 150,000, so 14,508 is too small by a factor of 10; she probably forgot the placeholder zero (correct: 145,008).
-- **Differentiation:** support: 3-digit × 2-digit on squared paper with column headings / stretch: which digits 1–6 used once each make the greatest product in ☐☐☐☐ × ☐☐? Justify.
-- **Materials:** squared paper, place-value counters (for the first example), calculators (checking only).
+- **Objective:** "By the end, I can multiply a 3- or 4-digit number by a 3-digit number using long multiplication and check with an estimate." (UK NC Y6 multiplication — multi-digit numbers / CCSS 5.NBT.5, 6.NS.2)
+- **Hook:** "A factory packs 245 boxes a day, and each box holds 128 pens. How many pens a day?"
+- **Key activity:** Area model with three strips (245 × 100, 245 × 20, 245 × 8) → three rows in the column layout: 1,960 + 4,900 + 24,500 = 31,360; estimate first (250 × 130 = 32,500). We do: 1,206 × 314 (estimate 1,200 × 300 = 360,000; exact 378,684). You do: a practice set with an estimate column and a "does it make sense?" column.
+- **Check for understanding:** "Estimate 3,021 × 148 first. Priya's answer is 44,708. Is she right?" → Estimate ≈ 3,000 × 150 = 450,000, so 44,708 is about ten times too small; the exact answer is 447,108 — she has lost a place value in one of her rows.
+- **Differentiation:** support: 3-digit × 2-digit on squared paper with column headings, then one 3-digit × 3-digit with the area model already drawn / stretch: which digits 1–6, used once each, make the greatest product ☐☐☐ × ☐☐☐? Justify the placing of each digit.
+- **Materials:** squared paper with place-value headings, area-model templates, calculators (checking only).
 - **Joy:** digit-card challenge — make the largest possible product with your cards and see whose is biggest.
 
 ### Lesson 17 — Estimating products and spotting errors
@@ -486,29 +486,29 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 **Key vocabulary:** numerator, denominator, equivalent, simplify, simplest form, common denominator, lowest common denominator, improper fraction, mixed number, compare, order, unit fraction, Egyptian fraction
 
-### Lesson 39 — Equivalent fractions revisited
+### Lesson 39 — Equivalent fractions and simplest form (retrieval)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can generate equivalent fractions and explain why multiplying numerator and denominator by the same number keeps the value." (UK NC Y6 fractions / CCSS 5.NF.1)
-- **Hook:** "Would you rather have 3⁄4 of a pizza or 9⁄12 of the same pizza?"
-- **Key activity:** Concrete: fraction strips and paper folding — fold a quarter strip into thirds to see 3⁄4 = 9⁄12. Pictorial: fraction wall and area models. Abstract: × the numerator and denominator by the same number (a form of ×1).
-- **Check for understanding:** "Why is 2⁄3 = 4⁄6 but 2⁄3 ≠ 3⁄4 (adding 1 to top and bottom)?" → Equivalent fractions come from multiplying both parts by the same number (splitting every part equally); adding changes the size.
-- **Differentiation:** support: fraction wall and strips for halves, quarters and eighths / stretch: find a fraction equivalent to 3⁄5 whose numerator and denominator add up to 40 (15⁄25).
-- **Materials:** fraction strips, fraction wall, paper for folding, coloured pencils.
-- **Joy:** pizza-choice debate with paper pizzas cut into different slices.
+- **Objective:** "By the end, I can generate equivalent fractions and write any fraction in its simplest form in one step using the highest common factor." (UK NC Y6 fractions / CCSS 5.NF.1)
+- **Hook:** "Would you rather have 3⁄4 of a pizza or 18⁄24 of the same pizza?"
+- **Key activity:** Retrieval (Years 3–4 taught equivalence and simplifying): fraction strips and a fraction wall show 3⁄4 = 9⁄12 = 18⁄24 — multiplying numerator and denominator by the same number is multiplying by 1. New emphasis: simplify in one step with the HCF from Unit 3 (18⁄24 ÷ 6 = 3⁄4; 84⁄126 ÷ 42 = 2⁄3), checking with the strips.
+- **Check for understanding:** "Jin simplified 12⁄18 to 6⁄9 and stopped. Is it in simplest form? What should he have divided by?" → No — 6 and 9 still share the factor 3; dividing by the HCF, 6, gives 2⁄3 in one step.
+- **Differentiation:** support: fraction wall and strips for halves, quarters, eighths and twelfths / stretch: find a fraction equivalent to 3⁄5 whose numerator and denominator add up to 40 (15⁄25), then explain a method that works for any total that is a multiple of 8.
+- **Materials:** fraction strips, fraction wall, factor lists, paper for folding.
+- **Joy:** "Sports statistician" — simplify real win records of famous teams (18 wins from 24 games = ¾).
 
-### Lesson 40 — Simplifying fractions
+### Lesson 40 — Improper fractions, mixed numbers and simplest form (retrieval)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can simplify fractions to their simplest form using the highest common factor." (UK NC Y6 fractions / CCSS 6.NS.4 link)
-- **Hook:** "A football team won 18 of their 24 games. How could we say that more simply?"
-- **Key activity:** Pictorial: area models regrouped into bigger parts. Abstract: divide numerator and denominator by common factors; do it in one step using the HCF (18⁄24 ÷ 6 = 3⁄4).
-- **Check for understanding:** "Jin simplified 12⁄18 to 6⁄9. Is it in its simplest form? How do you know?" → No — 3 is still a common factor; 2⁄3 is simplest because the HCF of 2 and 3 is 1.
-- **Differentiation:** support: fractions with small denominators using fraction strips to see the regrouping / stretch: simplify 84⁄126 (2⁄3) in as few steps as possible.
-- **Materials:** fraction strips, square tiles for area models, factor lists.
-- **Joy:** "Sports statistician" — simplify real win records of famous teams.
+- **Objective:** "By the end, I can convert fluently between improper fractions and mixed numbers, write answers in simplest form and place them on a number line." (UK NC Y6 fractions / CCSS 4.NF.3, 5.NF.1)
+- **Hook:** "A recipe needs 11⁄4 cups of flour. How many full cups is that — and would a chef ever say '2 6⁄8 cups'?"
+- **Key activity:** Retrieval (Year 4 converted using division): fraction circles grouped into wholes; 11⁄4 = 2¾ because 11 ÷ 4 = 2 r 3; 3⅖ = 17⁄5. New emphasis for this year's calculations: tidying answers — 2 6⁄8 → 2¾, 14⁄12 → 1⅙, 3 7⁄6 → 4⅙ — and placing mixed numbers on a 0–4 number line marked in twelfths.
+- **Check for understanding:** "Which is greater, 23⁄7 or 3⅓? Explain." → 3⅓: 23⁄7 = 3 2⁄7 = 3 6⁄21, while 3⅓ = 3 7⁄21.
+- **Differentiation:** support: fraction circles for halves, thirds and quarters / stretch: write 3 7⁄6, 2 15⁄12 and 50⁄8 as mixed numbers in simplest form (4⅙; 3¼; 6¼).
+- **Materials:** fraction circles, number lines 0–4 in twelfths, measuring cups.
+- **Joy:** bake-off planning — convert a recipe's improper fractions to real measuring cups.
 
-### Lesson 41 — Comparing and ordering fractions
+### Lesson 41 — Comparing and ordering fractions with unrelated denominators
 - **Duration:** 40 min
-- **Objective:** "By the end, I can compare and order fractions using common denominators, common numerators or benchmarks." (UK NC Y6 fractions / CCSS 4.NF.2 extended)
+- **Objective:** "By the end, I can compare and order fractions with unrelated denominators, choosing between a common denominator (the LCM), common numerators and benchmarks." (UK NC Y6 fractions / CCSS 5.NF.2)
 - **Hook:** "Is 5⁄8 or 7⁄12 of a chocolate bar more?"
 - **Key activity:** Concrete: fraction strips side by side. Pictorial: number lines 0–1. Abstract: three strategies — common denominator (15⁄24 vs 14⁄24), common numerator (for 3⁄7 vs 3⁄8 — bigger pieces win), benchmark ½ (4⁄9 < ½ < 5⁄9).
 - **Check for understanding:** "Which is bigger, 3⁄7 or 3⁄8? Explain without calculating a common denominator." → 3⁄7: same number of parts, but sevenths are bigger than eighths.
@@ -516,24 +516,24 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Materials:** fraction strips, number lines 0–1, chocolate-bar grids (squared paper).
 - **Joy:** "Fraction battle" card game — each player flips a fraction card; the larger fraction wins, with justification.
 
-### Lesson 42 — Improper fractions and mixed numbers
+### Lesson 42 — Estimating with fractions
 - **Duration:** 35 min
-- **Objective:** "By the end, I can convert between improper fractions and mixed numbers and place them on a number line." (UK NC Y6 fractions / CCSS 4.NF.3)
-- **Hook:** "A recipe needs 11⁄4 cups of flour. How many full cups is that?"
-- **Key activity:** Concrete: quarter pieces of fraction circles grouped into wholes (11 quarters = 2 wholes and 3 quarters). Pictorial: number line in quarters to 4. Abstract: 11⁄4 = 2¾ by division (11 ÷ 4 = 2 r 3); 3⅖ = 17⁄5.
-- **Check for understanding:** "Why does 11 ÷ 4 = 2 r 3 tell us that 11⁄4 = 2¾?" → 2 groups of 4 quarters make 2 wholes; 3 quarters remain.
-- **Differentiation:** support: fraction circles for halves, thirds, quarters / stretch: which is greater, 23⁄7 or 3⅓? (23⁄7 = 3 2⁄7 = 3 6⁄21 and 3⅓ = 3 7⁄21, so 3⅓ is greater.)
-- **Materials:** fraction circles, number lines, measuring cups.
-- **Joy:** bake-off planning — convert a recipe's improper fractions to real measuring cups.
+- **Objective:** "By the end, I can estimate fraction sums and differences using the benchmarks 0, ½ and 1 and decide whether an answer is reasonable." (UK NC Y6 fractions — estimate and check / CCSS 5.NF.2)
+- **Hook:** "Leo says 2⁄5 + 1⁄2 = 3⁄7. Without calculating exactly, how do you know he must be wrong?"
+- **Key activity:** Concrete: fraction strips laid against a 0–1 strip marked at ½. Pictorial: round each fraction to 0, ½ or 1 on a number line (7⁄8 ≈ 1, 3⁄7 ≈ ½, 1⁄9 ≈ 0). Abstract: estimate before calculating (5⁄6 + 4⁄9 ≈ 1 + ½ = 1½; exact 1 5⁄18) and for mixed numbers (3⅞ − 1⅙ ≈ 4 − 1 = 3; exact 2 17⁄24); sort claimed answers into 'reasonable' and 'impossible'.
+- **Check for understanding:** "Explain why 2⁄5 + 1⁄2 = 3⁄7 cannot be right." → 2⁄5 is nearly ½, so the total is nearly 1 (exactly 9⁄10); 3⁄7 is less than ½ — smaller than one of the fractions being added.
+- **Differentiation:** support: estimate with strips beside a ½ strip, using halves, quarters and eighths only / stretch: find two fractions, neither close to a benchmark, whose sum is just over 1, and justify with an estimate before calculating.
+- **Materials:** fraction strips, 0–1 and 0–4 number lines marked in halves, claim cards.
+- **Joy:** "Reasonable or ridiculous?" — teams vote on claimed answers in 10 seconds, then check.
 
-### Lesson 43 — Adding and subtracting fractions with related denominators
+### Lesson 43 — Common denominators using the LCM
 - **Duration:** 35 min
-- **Objective:** "By the end, I can add and subtract fractions where one denominator is a multiple of the other." (UK NC Y5–6 fractions / CCSS 5.NF.1)
-- **Hook:** "Ana drinks 1⁄2 of a bottle and Ben drinks 3⁄8. How much is gone?"
-- **Key activity:** Concrete: fraction strips — swap the ½ strip for 4⁄8. Pictorial: bar models split into eighths. Abstract: convert to the common denominator, then add numerators only: 4⁄8 + 3⁄8 = 7⁄8; 5⁄6 − 1⁄3 = 5⁄6 − 2⁄6 = 3⁄6 = ½.
-- **Check for understanding:** "Kai says 1⁄2 + 3⁄8 = 4⁄10. Use fraction strips to show why he is wrong." → Adding denominators changes the size of the parts; halves and eighths must be the same size first: 7⁄8.
-- **Differentiation:** support: halves/quarters/eighths with strips / stretch: 7⁄12 + 5⁄6 − 1⁄4 (7⁄12 + 10⁄12 − 3⁄12 = 14⁄12 = 1⅙).
-- **Materials:** fraction strips, bar-model templates, water bottles marked in eighths.
+- **Objective:** "By the end, I can add and subtract fractions using the lowest common denominator (the LCM), including when neither denominator is a multiple of the other." (UK NC Y6 fractions / CCSS 5.NF.1)
+- **Hook:** "Ana drinks ¾ of a bottle and Ben drinks ⅙. Is 24 the best common denominator — or is there a smaller one?"
+- **Key activity:** Retrieval of related denominators from Year 4 (½ + ⅜ = ⅞) with fraction strips; new step: when the denominators share a factor, the LCM (Unit 3) is smaller than their product — ¾ + ⅙ = 9⁄12 + 2⁄12 = 11⁄12 (LCM 12, not 24); 5⁄6 − 3⁄8 = 20⁄24 − 9⁄24 = 11⁄24. Bar models split into the common unit.
+- **Check for understanding:** "Kai used 24 as the denominator for ¾ + ⅙ and got 22⁄24. Is he wrong? Which denominator is more efficient, and why?" → Not wrong — 22⁄24 = 11⁄12; but 12 is the LCM, so using it avoids simplifying at the end.
+- **Differentiation:** support: pairs where one denominator is a multiple of the other, with strips / stretch: 7⁄12 + 5⁄8 − 1⁄6 (14⁄24 + 15⁄24 − 4⁄24 = 25⁄24 = 1 1⁄24).
+- **Materials:** fraction strips, bar-model templates, multiples lists, water bottles marked in twelfths.
 - **Joy:** "Water bottle challenge" — pour coloured water to check predictions.
 
 ### Lesson 44 — Adding and subtracting any fractions
@@ -746,45 +746,45 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 **Key vocabulary:** decimal point, tenth, hundredth, thousandth, decimal place, round, compare, order, exchange, product, quotient, recurring (stretch), convert, equivalent
 
-### Lesson 63 — Decimal place value to three places
+### Lesson 63 — Decimal place value, ordering and rounding (retrieval)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can read, write and partition decimals with up to three decimal places." (UK NC Y6 decimals / CCSS 5.NBT.3)
-- **Hook:** "In a sprint final, the winner won by 0.008 seconds. How small is that?"
-- **Key activity:** Concrete: base-10 blocks re-labelled (the 1,000 cube as 1, flat as 0.1, rod as 0.01, unit as 0.001) and decimal place-value counters. Pictorial: place-value chart with tenths, hundredths, thousandths. Abstract: 3.452 = 3 + 0.4 + 0.05 + 0.002.
-- **Check for understanding:** "Which is larger, 0.7 or 0.65? Explain using place value." → 0.7 (7 tenths = 0.70), which is more than 6 tenths and 5 hundredths.
-- **Differentiation:** support: two decimal places with money (dollars and cents) / stretch: write the number 4 thousandths more than 2.999 (3.003) and explain the exchanges.
-- **Materials:** base-10 blocks, decimal place-value counters, place-value chart, stopwatch.
-- **Joy:** "Photo finish" — time pupils' reactions with a stopwatch to hundredths and compare.
-
-### Lesson 64 — Multiplying and dividing by 10, 100 and 1,000
-- **Duration:** 35 min
-- **Objective:** "By the end, I can multiply and divide decimals by 10, 100 and 1,000 by moving digits across the place-value chart." (UK NC Y6 decimals / CCSS 5.NBT.2)
-- **Hook:** "Jun says to multiply by 10 you just add a zero. So 2.5 × 10 = 2.50. Is he right?"
-- **Key activity:** Concrete: a place-value slider — digits on a strip that moves while the decimal point stays fixed. Abstract: 3.45 × 100 = 345; 72 ÷ 1,000 = 0.072; link to metric conversions.
-- **Check for understanding:** "Explain why 'add a zero' fails for 2.5 × 10." → 2.50 equals 2.5; each digit must move one place left: 25.
-- **Differentiation:** support: × and ÷ by 10 only with the slider / stretch: missing-number statements like 0.36 × ☐ = 360 and 4.2 ÷ ☐ = 0.042.
-- **Materials:** place-value sliders (card strip in a chart), digit cards, metre stick.
-- **Joy:** "The Shrinking Machine" — digits slide through a cardboard machine.
-
-### Lesson 65 — Comparing, ordering and rounding decimals
-- **Duration:** 35 min
-- **Objective:** "By the end, I can order decimals with different numbers of places and round to the nearest whole, tenth or hundredth." (UK NC Y6 decimals / CCSS 5.NBT.3–4)
-- **Hook:** Four long-jump distances: 4.5 m, 4.45 m, 4.405 m, 4.54 m. Who won gold?
-- **Key activity:** Pictorial: number lines zooming from 4 to 5, then 4.4 to 4.5. Abstract: fill blank places with zeros to compare (4.500, 4.450, 4.405, 4.540); round 3.456 to 1 dp (3.5) and to the nearest whole (3).
-- **Check for understanding:** "Mia says 0.45 > 0.5 because 45 > 5. Explain her mistake." → She compared digits as whole numbers; 0.5 = 0.50, which is 50 hundredths, larger than 45 hundredths.
-- **Differentiation:** support: decimals to 2 places with a zoomed number line / stretch: a number rounds to 7.3 to 1 dp — what are the smallest and largest 2-dp numbers it could be? (7.25 and 7.34).
-- **Materials:** number lines at three zoom levels, metre sticks, tape measures.
+- **Objective:** "By the end, I can read, partition, order and round decimals with up to three decimal places." (UK NC Y6 decimals / CCSS 5.NBT.3–4)
+- **Hook:** "A sprint final was won by 0.008 seconds. And four long jumps — 4.5 m, 4.45 m, 4.405 m, 4.54 m — who won gold?"
+- **Key activity:** Retrieval (Year 4 taught thousandths, ordering and rounding): base-10 blocks re-labelled (the 1,000 cube as 1) and decimal counters to build 3.452 = 3 + 0.4 + 0.05 + 0.002; zoomed number lines (4 to 5, then 4.4 to 4.5) to order the jumps using placeholder zeros (4.500, 4.450, 4.405, 4.540); round 3.456 to 2 dp (3.46), 1 dp (3.5) and the nearest whole (3).
+- **Check for understanding:** "Mia says 0.45 > 0.5 because 45 > 5. Explain her mistake." → She compared digits as whole numbers; 0.5 = 0.50 = 50 hundredths, which is more than 45 hundredths.
+- **Differentiation:** support: decimals to 2 places with money and a zoomed number line / stretch: a number rounds to 7.3 to 1 dp — what are the smallest and largest numbers with 3 decimal places it could be? (7.250 and 7.349)
+- **Materials:** base-10 blocks, decimal place-value counters, number lines at three zoom levels, tape measures.
 - **Joy:** class long-jump in the playground, measured to the centimetre and ordered.
 
-### Lesson 66 — Adding and subtracting decimals
+### Lesson 64 — ×/÷ by 10, 100, 1,000 and adding and subtracting decimals (retrieval)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can multiply and divide decimals by 10, 100 and 1,000 and add and subtract decimals with different numbers of places." (UK NC Y6 decimals / CCSS 5.NBT.2, 5.NBT.7)
+- **Hook:** "Jun says to multiply by 10 you just add a zero, so 2.5 × 10 = 2.50. He also lines up 4.5 − 1.26 by the right-hand digits. Can we fix both habits?"
+- **Key activity:** Retrieval (Year 4): a place-value slider — the digits move while the decimal point stays fixed (3.45 × 100 = 345; 72 ÷ 1,000 = 0.072); then column addition and subtraction with decimal counters, lining up the points and using placeholder zeros (4.50 − 1.26 = 3.24; 12 − 3.75 = 8.25); link to metric conversions.
+- **Check for understanding:** "Explain why 'add a zero' fails for 2.5 × 10, and why 4.5 − 1.26 must be set out as 4.50 − 1.26." → Each digit moves one place left, giving 25 (2.50 is still 2.5); the decimal points line up so tenths are subtracted from tenths — the answer is 3.24.
+- **Differentiation:** support: × and ÷ by 10 only, and money amounts with coins / stretch: missing-number statements (0.36 × ☐ = 360; 4.2 ÷ ☐ = 0.042) and "make exactly 10 with three decimals of different lengths".
+- **Materials:** place-value sliders, decimal place-value counters, play money, metre stick.
+- **Joy:** "The Shrinking Machine" — digits slide through a cardboard machine.
+
+### Lesson 65 — Estimating decimal calculations
+- **Duration:** 35 min
+- **Objective:** "By the end, I can round decimals to estimate the answer to a calculation and use the estimate to catch place-value errors." (UK NC Y6 — use estimation to check answers / CCSS 5.NBT.7)
+- **Hook:** "A calculator says 4.87 × 6.2 = 301.94. How do you know in two seconds that a key was mis-pressed?"
+- **Key activity:** Pictorial: number lines to round each value to a whole number or a friendly decimal. Abstract: estimate before calculating — 4.87 × 6.2 ≈ 5 × 6 = 30 (exact 30.194); 19.6 ÷ 3.9 ≈ 20 ÷ 4 = 5 (exact about 5.03); 0.48 × 21 ≈ 0.5 × 20 = 10 (exact 10.08). Sort claimed answers into 'plausible' and 'place-value slip', and correct the slips.
+- **Check for understanding:** "Estimate 0.52 × 38. Sam's answer is 197.6. Is it right? Explain." → No: 0.52 × 38 ≈ ½ × 40 = 20, so Sam's answer is ten times too big; the exact answer is 19.76.
+- **Differentiation:** support: one decimal × a whole number, rounding to the nearest whole on a number line / stretch: predict whether each estimate is too big or too small from the way you rounded, then check.
+- **Materials:** number lines, claim cards, decimal place-value counters, calculators (checking only).
+- **Joy:** "Calculator saboteur" — one pupil secretly mis-keys a calculation; the class catches it by estimating.
+
+### Lesson 66 — Mental strategies with decimals
 - **Duration:** 40 min
-- **Objective:** "By the end, I can add and subtract decimals with different numbers of decimal places." (UK NC Y6 decimals / CCSS 5.NBT.7)
-- **Hook:** "A parcel weighs 4.5 kg. You remove a book weighing 1.26 kg. What's the new weight?"
-- **Key activity:** Concrete: decimal counters, exchanging a tenth for ten hundredths. Pictorial: place-value grids. Abstract: line up decimal points; use placeholder zeros: 4.50 − 1.26 = 3.24; 12 − 3.75 = 8.25.
-- **Check for understanding:** "Tom lined up 4.5 and 1.26 by their right-hand digits. Explain why that is wrong." → He lined up digits, not place values; the decimal points must line up (4.50 − 1.26 = 3.24).
-- **Differentiation:** support: money amounts with play money / stretch: missing-digit decimal subtractions and "make exactly 10 with three decimals of different lengths".
-- **Materials:** decimal place-value counters, play money, kitchen scales.
-- **Joy:** weigh real parcels and check calculated weights on the scales.
+- **Objective:** "By the end, I can add and subtract decimals mentally using bonds to 1 and 10, bridging through whole numbers and compensation." (UK NC Y6 decimals — mental calculation / CCSS 5.NBT.7)
+- **Hook:** "A parcel weighs 4.5 kg. You take out a book weighing 1.26 kg and put in a box weighing 0.99 kg. Can you find the new weight in your head?" (4.23 kg)
+- **Key activity:** Concrete: decimal counters and a 100-bead string (one bead = 0.01) for bonds to 1 (0.37 + 0.63). Pictorial: empty number lines bridging through whole numbers (2.8 + 0.45 = 2.8 + 0.2 + 0.25 = 3.25). Abstract: compensation — 6.99 + 2.45 = 7 + 2.45 − 0.01 = 9.44; 8.3 − 1.98 = 8.3 − 2 + 0.02 = 6.32; then choose mental or written for a mixed set and justify.
+- **Check for understanding:** "Why is 8.3 − 1.98 easier as 8.3 − 2 + 0.02? Why do we add the 0.02 rather than subtract it?" → Subtracting 2 takes away 0.02 too much, so we give 0.02 back: 6.32.
+- **Differentiation:** support: bonds to 1 in tenths with counters / stretch: invent three decimal calculations where compensation is fastest and one where the column method is quicker, and explain why.
+- **Materials:** decimal place-value counters, 100-bead strings, blank number lines, kitchen scales, parcels.
+- **Joy:** weigh real parcels and check mental answers on the scales.
 
 ### Lesson 67 — Decimals and money around the world
 - **Duration:** 35 min
@@ -896,25 +896,25 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 **Key vocabulary:** per cent, percentage, hundredth, equivalent, convert, discount, increase, decrease, sale price, original price, proportion, out of, of
 
-### Lesson 77 — Per cent means "out of one hundred"
+### Lesson 77 — Per cent and the key FDP equivalences (retrieval)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain what a percentage means and show it on a hundred grid, a bar and a number line." (UK NC Y6 percentages / CCSS 6.RP.3c)
-- **Hook:** "Your tablet battery says 37%. What does that actually mean?"
-- **Key activity:** Concrete: 100-bead strings; move 37 beads. Pictorial: hundred grids and 0–100% bars. Abstract: percentages as hundredths: 37% = 37⁄100 = 0.37; the whole is always 100%.
-- **Check for understanding:** "Why is 50% the same as ½ whatever the whole is?" → 50 out of every 100 is half of every 100, so half of the whole.
-- **Differentiation:** support: shade hundred grids with multiples of 10% / stretch: can a percentage be more than 100%? Give a real example (a price rising to 150% of the original).
-- **Materials:** bead strings of 100, hundred grids, percentage bars.
-- **Joy:** "Battery race" — pupils estimate percentages of full containers (water bottles, jars), then measure.
-
-### Lesson 78 — Key equivalences: fractions, decimals and percentages
-- **Duration:** 40 min
-- **Objective:** "By the end, I can recall and explain the key fraction, decimal and percentage equivalents." (UK NC Y6 FDP / CCSS 6.RP.3c)
+- **Objective:** "By the end, I can explain what a percentage means and recall the key fraction, decimal and percentage equivalents, including ⅛ and ⅓." (UK NC Y6 FDP / CCSS 6.RP.3c)
 - **Hook:** "Which is the best deal: ¼ off, 0.2 off, or 30% off?"
-- **Key activity:** Pictorial: a triple number line (fractions above, decimals and percentages below). Learn and derive: ½ = 0.5 = 50%, ¼ = 0.25 = 25%, ¾ = 0.75 = 75%, ⅕ = 0.2 = 20%, ⅒ = 0.1 = 10%, ⅛ = 0.125 = 12.5%, ⅓ = 0.333… ≈ 33.3%.
-- **Check for understanding:** "Nico says ⅓ = 0.3 = 30%. What's wrong?" → ⅓ = 0.333… (recurring) ≈ 33.3%; 0.3 is only 3 tenths, less than a third.
+- **Key activity:** Retrieval (Year 4 met per cent and the simple equivalents): 100-bead strings and hundred grids (37% = 37⁄100 = 0.37); a triple number line (fractions above, decimals and percentages below) with ½, ¼, ¾, ⅕ and ⅒, then the new ones for this year: ⅛ = 0.125 = 12.5%, ⅓ = 0.333… ≈ 33.3%, ⅔ = 0.666… ≈ 66.7%.
+- **Check for understanding:** "Nico says ⅓ = 0.3 = 30%. What's wrong?" → ⅓ = 0.333… (recurring) ≈ 33.3%; 0.3 is only 3 tenths, which is less than a third.
 - **Differentiation:** support: halves, quarters and tenths with a hundred grid / stretch: derive ⅝, 3⁄20 and 7⁄25 as decimals and percentages (0.625 = 62.5%; 0.15 = 15%; 0.28 = 28%).
-- **Materials:** triple number lines, hundred grids, FDP matching cards.
+- **Materials:** bead strings of 100, hundred grids, triple number lines, FDP matching cards.
 - **Joy:** "FDP dominoes" — a class domino chain linking equivalent forms.
+
+### Lesson 78 — Percentages above 100% and below 1%
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain and use percentages greater than 100% and less than 1%, and convert them to decimals and fractions." (UK NC Y6 FDP / CCSS 6.RP.3c)
+- **Hook:** "A sunflower is now 150% of its height last week. A bank pays 0.5% interest. What do these mean?"
+- **Key activity:** Concrete: two hundred grids side by side for 150% (one full grid and half of another); one small square of a hundred grid split in half for 0.5%. Pictorial: percentage bars extended past 100%. Abstract: 150% = 1.5 = 1½; 250% = 2.5; 0.5% = 0.005 = 1⁄200; 150% of 40 = 60; 0.5% of 800 = 4.
+- **Check for understanding:** "Can you score 120% on a test marked out of 50? Can a plant grow to 120% of its height? Explain the difference." → Not on the test — 50 marks is the whole and the maximum; a height can grow past its starting value, so 120% means 1.2 times as tall.
+- **Differentiation:** support: 100%, 150% and 200% with two hundred grids / stretch: order 0.9%, 1⁄100, 0.09 and 9% (0.9% < 1⁄100 < 0.09 = 9%).
+- **Materials:** hundred grids, percentage bars, plant-height cards, calculators (checking).
+- **Joy:** "Growth chart" — record classroom seedlings' heights as percentages of their first measurement.
 
 ### Lesson 79 — Converting any fraction to a percentage
 - **Duration:** 35 min
@@ -928,7 +928,7 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 ### Lesson 80 — Ordering fractions, decimals and percentages
 - **Duration:** 35 min
-- **Objective:** "By the end, I can order a mixed set of fractions, decimals and percentages by converting to one form." (UK NC Y6 FDP / CCSS 6.RP.3c)
+- **Objective:** "By the end, I can order a mixed set of fractions, decimals and percentages — including recurring decimals and values greater than 1 — by converting to one form." (UK NC Y6 FDP / CCSS 6.RP.3c)
 - **Hook:** "Four juices: 45% fruit, 0.4 fruit, ⅜ fruit, and 2⁄5 fruit. Which is fruitiest?"
 - **Key activity:** Convert all to percentages (45%, 40%, 37.5%, 40%) and order; place on a 0–100% line; discuss when decimals are easier.
 - **Check for understanding:** "Why are 0.4 and 2⁄5 at exactly the same point?" → Both equal 40%, i.e. 40 hundredths.
@@ -936,25 +936,25 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Materials:** percentage number lines, juice cartons with labels, conversion cards.
 - **Joy:** blind taste-test of juices after ranking their fruit content.
 
-### Lesson 81 — Percentages of amounts: 50%, 25%, 10% and 1%
+### Lesson 81 — Percentages of amounts (retrieval, extended to decimals and measures)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can find 50%, 25%, 10% and 1% of an amount and explain why each method works." (UK NC Y6 percentages / CCSS 6.RP.3c)
-- **Hook:** "A 250-dollar bike is 10% off. How much is saved?"
-- **Key activity:** Pictorial: bar models divided into 10 or 100 equal parts. Abstract: 50% = ÷2; 25% = ÷4; 10% = ÷10; 1% = ÷100. 10% of 250 = 25; 1% of 250 = 2.5.
-- **Check for understanding:** "Why does dividing by 10 find 10%?" → 10% is 10⁄100 = ⅒, one of ten equal parts.
-- **Differentiation:** support: whole-hundred amounts with bar models / stretch: find 1% of 3.6 kg (36 g) and 10% of 0.8 (0.08).
-- **Materials:** bar-model templates, place-value sliders, price tags.
+- **Objective:** "By the end, I can find any whole-number percentage of an amount — including decimal amounts and measures — by building from 10%, 5% and 1%." (UK NC Y6 percentages / CCSS 6.RP.3c)
+- **Hook:** "A 250-dollar bike is 35% off. Can you find the saving in your head?"
+- **Key activity:** Retrieval (Year 4 built percentages from 50%, 25%, 10% and 1%): bar models split into 10 or 100 parts; 10% of 250 = 25, 30% = 75, 5% = 12.5, so 35% = 87.5. Extend to decimal amounts and measures: 15% of 3.6 kg = 0.54 kg (540 g); 1% of 0.8 l = 8 ml; 99% of 450 = 450 − 4.5 = 445.5.
+- **Check for understanding:** "Find 15% of 80 two different ways." → 10% (8) + 5% (4) = 12; or 0.15 × 80 = 12.
+- **Differentiation:** support: multiples of 10% of whole-hundred amounts with bar models / stretch: 12.5% of 64 (8) and 17.5% of 3.2 m (0.56 m) with clever methods.
+- **Materials:** bar-model templates, place-value sliders, price tags, kitchen scales.
 - **Joy:** "Discount dash" — price tags on classroom items; race to calculate sale prices.
 
-### Lesson 82 — Any percentage of an amount
+### Lesson 82 — Comparing percentages of different wholes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can calculate any whole-number percentage of an amount by building from 10% and 1%." (UK NC Y6 percentages / CCSS 6.RP.3c)
-- **Hook:** "How could you find 35% of 60 in your head?"
-- **Key activity:** Bar model: 10% = 6, so 30% = 18, 5% = 3, 35% = 21. Build 17% of 300 from 10% + 5% + 2% (30 + 15 + 6 = 51). Compare with multiplying by the decimal (0.35 × 60).
-- **Check for understanding:** "Find 15% of 80 two different ways." → 10% (8) + 5% (4) = 12; or 0.15 × 80 = 12.
-- **Differentiation:** support: multiples of 5% only, with a bar model / stretch: 12.5% of 64 (8) and 99% of 450 (445.5) with clever methods.
-- **Materials:** bar-model templates, hundred grids, mini-whiteboards.
-- **Joy:** "Percentage mind-reader" — pupils challenge the teacher (and each other) to mental percentages.
+- **Objective:** "By the end, I can compare percentages of different amounts and explain why a larger percentage does not always mean a larger amount." (UK NC Y6 percentages — solve problems / CCSS 6.RP.3c)
+- **Hook:** "School A: 30% of its 80 pupils walk to school. School B: 40% of its 50 pupils walk. Which school has more walkers?"
+- **Key activity:** Concrete: two cube trains of different lengths (80 and 50 cubes) each marked in tenths. Pictorial: two bar models drawn to scale. Abstract: calculate and compare (24 walkers vs 20); then compare performances fairly as percentages — which class did better, 18 out of 24 (75%) or 21 out of 30 (70%)?
+- **Check for understanding:** "Is 40% always more than 30%? Use the two schools to explain." → Only of the same whole: 40% of 50 (20) is less than 30% of 80 (24).
+- **Differentiation:** support: wholes of 100 and 200 with hundred grids / stretch: for which whole numbers is 25% of the number more than 60% of 40? (Any number greater than 96.)
+- **Materials:** multilink cubes, bar-model templates, school data cards.
+- **Joy:** "Headline judge" — decide whether news headlines comparing percentages are fair.
 
 ### Lesson 83 — Discounts and sale prices
 - **Duration:** 40 min
@@ -1081,7 +1081,7 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Objective:** "By the end, I can share an amount in a given ratio." (UK NC Y6 ratio / CCSS 6.RP.3)
 - **Hook:** "Two sisters share 40 dollars in the ratio 3 : 5 because one worked longer. How much does each get?"
 - **Key activity:** Concrete: share 40 counters in rounds of 3 and 5. Pictorial: bar with 8 parts; 1 part = 5; shares 15 and 25. Abstract: total parts → value of one part → each share. Also 56 in 2 : 5 → 16 and 40.
-- **Check for understanding:** "Kofi shares 40 in 3 : 5 and gets 13⅓ and 26⅔. What did he do?" → He divided by 3 instead of by the total number of parts (8).
+- **Check for understanding:** "Kofi shares 40 in 3 : 5 by working out 40 ÷ 3 and 40 ÷ 5 (13⅓ and 8). What went wrong?" → He divided by each part of the ratio, and his shares don't even add up to 40; divide by the total number of parts (8): one part is 5, so the shares are 15 and 25.
 - **Differentiation:** support: share with counters in rounds / stretch: share 150 in 2 : 3 : 5 (30, 45, 75) and explain.
 - **Materials:** counters, play money, bar-model templates.
 - **Joy:** "Treasure split" — divide a pirate treasure (chocolate coins) by contribution ratios.
@@ -1416,19 +1416,19 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 **Key vocabulary:** perimeter, area, square centimetre (cm²), square metre (m²), formula, base, perpendicular height, right-angled triangle, parallelogram, compound shape, volume, cubic centimetre (cm³), cubic metre (m³), cuboid, capacity, surface area
 
-### Lesson 125 — Same area, different perimeter
+### Lesson 125 — Perimeter and area: working backwards
 - **Duration:** 35 min
-- **Objective:** "By the end, I can show that shapes with the same area can have different perimeters, and the reverse." (UK NC Y6 measurement / CCSS 3.MD.8 extended)
-- **Hook:** "A farmer has 12 square fields to join into one rectangle. Which layout needs the least fencing?"
-- **Key activity:** Concrete: arrange 12 square tiles into every rectangle (1 × 12, 2 × 6, 3 × 4) and measure perimeters (26, 16, 14). Pictorial: record on squared paper. Abstract: generalise — the closer to a square, the smaller the perimeter.
-- **Check for understanding:** "Two rectangles both have perimeter 20 cm. Must they have the same area? Explain." → No: 1 × 9 has area 9 cm² but 5 × 5 has area 25 cm².
-- **Differentiation:** support: 6 and 8 tiles first / stretch: which rectangle with perimeter 24 cm has the largest area, and why? (6 × 6 = 36 cm².)
-- **Materials:** square tiles, squared paper, string (for perimeter), rulers.
+- **Objective:** "By the end, I can find a missing length from a given area or perimeter and explain why shapes with the same area can have different perimeters." (UK NC Y6 measurement / CCSS 4.MD.3, 6.G.1)
+- **Hook:** "A rectangular garden has an area of 48 m² and one side of 6 m. How much fencing is needed?"
+- **Key activity:** Retrieval (Years 3–4 compared area and perimeter with tiles): build 12 tiles into 1 × 12, 2 × 6 and 3 × 4 and recall the perimeters (26, 16, 14). New step — reverse problems: area → missing side → perimeter (48 m² with a 6 m side → 8 m → 28 m of fencing); perimeter → missing side → area (perimeter 30 cm, length 9 cm → width 6 cm → 54 cm²); a square of area 64 cm² → side 8 cm → perimeter 32 cm.
+- **Check for understanding:** "Two rectangles both have perimeter 20 cm. Must they have the same area? Explain with examples." → No: 1 × 9 has area 9 cm² but 5 × 5 has area 25 cm².
+- **Differentiation:** support: tiles and squared paper for every problem / stretch: a rectangle has area 36 cm² and perimeter 30 cm — find its sides (3 cm × 12 cm) and explain how you searched.
+- **Materials:** square tiles, squared paper, string, rulers.
 - **Joy:** "Fence the farm" — use a fixed length of string to enclose the most tiles.
 
-### Lesson 126 — Area of rectangles and compound rectilinear shapes
+### Lesson 126 — Area of compound rectilinear shapes with missing lengths
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use the formula A = l × w and find the area of compound shapes made of rectangles." (UK NC Y6 measurement / CCSS 5.NF.4b, 3.MD.7d)
+- **Objective:** "By the end, I can use A = l × w to find the area of compound shapes made of rectangles, deducing any missing lengths first." (UK NC Y6 measurement / CCSS 5.NF.4b, 3.MD.7d)
 - **Hook:** "Our classroom floor needs a new carpet. How much carpet should we order?"
 - **Key activity:** Concrete: cover a rectangle with cm² tiles, then see why length × width counts them. Pictorial: split L-shapes two ways (or subtract a missing corner). Abstract: find missing side lengths from given ones before calculating.
 - **Check for understanding:** "Show two different ways to split an L-shape and explain why both give the same area." → Split horizontally or vertically (or subtract the missing rectangle); area doesn't depend on how you cut it.
@@ -1486,14 +1486,14 @@ for re-teaching, assessment conversations, maths trails and school events.
 - **Materials:** metre sticks, masking tape, squared paper, fraction strips.
 - **Joy:** tape out a real 0.5 m × 0.5 m tile and a 1 m² square on the floor to compare.
 
-### Lesson 132 — Volume: counting cubes
+### Lesson 132 — Volume in cm³ and m³
 - **Duration:** 35 min
-- **Objective:** "By the end, I can find the volume of shapes made from cubes and use units cm³ and m³." (UK NC Y6 measurement / CCSS 5.MD.3–4)
-- **Hook:** "Which box holds more: a tall thin one or a short wide one?"
-- **Key activity:** Concrete: build cuboids and other solids from 1 cm cubes; count layers. Pictorial: isometric drawings. Abstract: volume = the number of unit cubes; introduce cm³ and m³ (build a 1 m³ frame from metre sticks).
-- **Check for understanding:** "Why does counting one layer and multiplying by the number of layers work?" → Each layer has the same number of cubes, so it's repeated addition of layers.
-- **Differentiation:** support: count cubes in built models only / stretch: find the volume of solids from isometric drawings with hidden cubes, explaining the assumptions.
-- **Materials:** 1 cm cubes, multilink cubes, isometric paper, metre sticks and masking tape (1 m³ frame).
+- **Objective:** "By the end, I can find volumes by counting cubes, choose between cm³ and m³, and explain why 1 m³ = 1,000,000 cm³." (UK NC Y6 measurement — standard units of volume / CCSS 5.MD.3–4)
+- **Hook:** "How many 1 cm cubes would fill a cubic metre? Guess first — a thousand? A million?"
+- **Key activity:** Retrieval (Year 4 counted cubes and used l × w × h): count layers in cube-built solids and isometric drawings. New step: build a 1 m³ frame from metre sticks and masking tape; one layer on the floor would take 100 × 100 = 10,000 cubes, and 100 layers make 1,000,000 cm³. Choose units: a matchbox (cm³), a shipping container (m³).
+- **Check for understanding:** "Ali says 1 m³ = 100 cm³ because 1 m = 100 cm. Explain his mistake." → The cube is 100 cm long, 100 cm wide and 100 cm high, so it holds 100 × 100 × 100 = 1,000,000 centimetre cubes.
+- **Differentiation:** support: count cubes in built models, then a 10 cm cube (1,000 cm³) before the metre cube / stretch: find volumes from isometric drawings with hidden cubes, stating assumptions; how many m³ is a 5 m × 4 m × 3 m classroom? (60 m³)
+- **Materials:** 1 cm cubes, multilink cubes, isometric paper, metre sticks and masking tape (1 m³ frame), a 10 cm cube.
 - **Joy:** "How many children fit in a cubic metre?" — build the frame and test (safely).
 
 ### Lesson 133 — Volume of cuboids: V = l × w × h
@@ -1508,13 +1508,13 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 ### Lesson 134 — Volume and capacity
 - **Duration:** 40 min
-- **Objective:** "By the end, I can connect volume and capacity (1 cm³ = 1 ml; 1,000 cm³ = 1 litre) to solve problems." (UK NC Y6 measurement / CCSS 5.MD.5)
-- **Hook:** "A fish tank is 50 cm × 30 cm × 40 cm. How many litres of water does it hold?"
-- **Key activity:** Concrete: fill a 10 cm × 10 cm × 10 cm hollow cube with water from a litre jug. Abstract: 50 × 30 × 40 = 60,000 cm³ = 60 litres.
-- **Check for understanding:** "Why does a 10 cm cube hold exactly 1 litre?" → 10 × 10 × 10 = 1,000 cm³, and 1,000 cm³ = 1,000 ml = 1 litre.
-- **Differentiation:** support: whole-litre problems with the 10 cm cube to hand / stretch: how deep is the water if 45 litres are poured into the tank? (30 cm.)
-- **Materials:** hollow 10 cm cube (or a card one lined with plastic), litre jug, water, rulers.
-- **Joy:** the litre-cube water reveal.
+- **Objective:** "By the end, I can connect volume and capacity (1 cm³ = 1 ml; 1,000 cm³ = 1 litre) and find a missing depth or dimension." (UK NC Y6 measurement / CCSS 5.MD.5)
+- **Hook:** "A tank 60 cm × 40 cm × 30 cm is being filled. After 48 litres have gone in, how deep is the water?"
+- **Key activity:** Retrieval (Year 4): fill a 10 cm hollow cube from a litre jug. New step — reverse problems: full capacity 60 × 40 × 30 = 72,000 cm³ = 72 l; depth after 48 l = 48,000 ÷ (60 × 40) = 20 cm; the missing height of a 2-litre carton with a 10 cm × 8 cm base (2,000 ÷ 80 = 25 cm).
+- **Check for understanding:** "Why do we divide the volume of water by the base area to find its depth?" → The water forms a cuboid on the same base; volume = base area × depth, so depth = volume ÷ base area.
+- **Differentiation:** support: whole-litre problems with the 10 cm cube and a jug to hand / stretch: a stone dropped into the tank raises the water by 0.5 cm — what is the stone's volume? (2,400 × 0.5 = 1,200 cm³)
+- **Materials:** hollow 10 cm cube, litre jug, water, rectangular plastic tub, rulers, stones.
+- **Joy:** displacement experiment — drop a stone into a tub and calculate its volume from the rise.
 
 ### Lesson 135 — Volume of compound solids
 - **Duration:** 35 min
@@ -1566,25 +1566,25 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 **Key vocabulary:** angle, degree, acute, obtuse, reflex, straight line, around a point, vertically opposite, interior angle, polygon, regular, isosceles, equilateral, scalene, quadrilateral, parallel, perpendicular, construct, compasses, circle, radius, diameter, circumference, pi (π), face, edge, vertex, net, polyhedron, tessellation
 
-### Lesson 139 — Angles on a straight line and around a point
+### Lesson 139 — Angle facts: straight lines, points and vertically opposite angles (retrieval)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can use the facts that angles on a straight line total 180° and angles around a point total 360° to find missing angles." (UK NC Y6 geometry / CCSS 7.G.5 preview)
+- **Objective:** "By the end, I can find missing angles on straight lines, around a point and where lines cross, giving a reason for every step." (UK NC Y6 geometry / CCSS 7.G.5 preview)
 - **Hook:** "A pizza is cut into 5 slices from the centre. Four angles are 70°, 80°, 60° and 90°. What is the fifth — without a protractor?"
-- **Key activity:** Concrete: measure angles on a straight line with a protractor and see they total 180°; paper-plate "angle wheels". Abstract: missing-angle problems with reasons written in words ("angles around a point add to 360°").
+- **Key activity:** Retrieval (Year 4 measured and calculated these facts): card strips with a split pin and paper-plate angle wheels. New emphasis: chains of two or three facts, each written with its reason ("vertically opposite angles are equal"; "angles on a straight line add to 180°"), and a proof that vertically opposite angles are equal (a + b = 180 and b + c = 180, so a = c).
 - **Check for understanding:** "Why must the missing pizza angle be 60°?" → Angles around a point total 360°; 70 + 80 + 60 + 90 = 300, so 360 − 300 = 60°.
-- **Differentiation:** support: two-angle problems with protractors to check / stretch: multi-step diagrams needing both facts.
-- **Materials:** protractors, paper plates, split pins, rulers.
-- **Joy:** "Pizza angle challenge" — cut paper pizzas and verify the missing angles.
+- **Differentiation:** support: two-step problems with protractors to check / stretch: three straight lines cross at one point; one angle is 50° and a neighbouring angle is 70° — find all six angles and give reasons (50°, 70°, 60°, 50°, 70°, 60°).
+- **Materials:** card strips and split pins, paper plates, protractors, rulers.
+- **Joy:** "Scissor spy" — use the rules to find angles in photos of scissors, bridges and road junctions.
 
-### Lesson 140 — Vertically opposite angles
+### Lesson 140 — Angle problems with algebra
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain why vertically opposite angles are equal and use it to find angles." (UK NC Y6 geometry / CCSS 7.G.5 preview)
-- **Hook:** "Cross two rulers like scissors. As you open them, which angles stay equal?"
-- **Key activity:** Concrete: two strips joined with a split pin; measure all four angles. Pictorial: diagrams of crossing lines. Abstract: prove using straight-line angles (a + b = 180 and b + c = 180, so a = c).
-- **Check for understanding:** "Explain, without measuring, why vertically opposite angles must be equal." → Each one makes 180° with the same neighbouring angle, so they must be the same size.
-- **Differentiation:** support: measure crossing lines with protractors first / stretch: find every angle in a diagram of three lines crossing at one point, given one angle of 50° and another of 70°.
-- **Materials:** card strips and split pins, protractors, rulers.
-- **Joy:** "Scissor spy" — use the rule to find angles in photos of scissors, bridges and road junctions.
+- **Objective:** "By the end, I can form and solve an equation to find missing angles (e.g. x + 2x + 30 = 180)." (UK NC Y6 geometry and algebra / CCSS 6.EE.7, 7.G.5 preview)
+- **Hook:** "Three angles on a straight line are x, 2x and 30°. How big is x — and can you prove it?"
+- **Key activity:** Concrete: paper angle pieces, with the two 'x' pieces cut the same size. Pictorial: a bar model of 180° split into x, x, x and 30. Abstract: 3x + 30 = 180 → 3x = 150 → x = 50 (the Unit 9 balance method); around a point: 4y + 80 = 360 → y = 70; check each answer by substituting and by measuring.
+- **Check for understanding:** "Angles around a point are 2a, 3a and 110°. Kim says a = 50. Is she right? Prove it." → Yes: 2a + 3a + 110 = 360, so 5a = 250 and a = 50; check: 100 + 150 + 110 = 360.
+- **Differentiation:** support: one unknown appearing once (x + 115 = 180) with a bar model / stretch: vertically opposite angles are 3x + 10 and 70 − x — find x and both angles (x = 15; both 55°).
+- **Materials:** paper angle pieces, protractors, bar-model templates, mini-whiteboards.
+- **Joy:** "Angle algebra escape" — each solved angle unlocks the next door.
 
 ### Lesson 141 — Angles in a triangle
 - **Duration:** 40 min
@@ -1696,15 +1696,15 @@ for re-teaching, assessment conversations, maths trails and school events.
 
 **Key vocabulary:** coordinate, x-axis, y-axis, origin, quadrant, ordered pair, plot, vertex, translate, reflect, mirror line, image, object, congruent
 
-### Lesson 151 — Coordinates in the first quadrant: plotting shapes
+### Lesson 151 — Coordinates that follow a rule
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plot and read coordinates and describe the positions of polygon vertices." (UK NC Y6 position / CCSS 5.G.1–2)
-- **Hook:** "Along the corridor, then up the stairs: why is the order of coordinates so important?"
-- **Key activity:** Concrete: a floor grid made with masking tape; pupils stand on (x, y) points. Pictorial: plot polygons on squared paper. Abstract: (3, 5) ≠ (5, 3); read x first.
-- **Check for understanding:** "Priya plotted (2, 6) at 2 up and 6 across. What went wrong?" → She reversed the order; the first number is the x (across) coordinate.
-- **Differentiation:** support: plotting single points on a large grid / stretch: plot three vertices of a rectangle and find the fourth.
-- **Materials:** masking-tape floor grid, squared paper, rulers.
-- **Joy:** "Human coordinates" — pupils form a shape on the floor grid when called.
+- **Objective:** "By the end, I can plot points quickly and describe a straight-line pattern of points with a rule, such as 'y is always 2 more than x'." (UK NC Y6 position and algebra / CCSS 5.G.1–2, 5.OA.3)
+- **Hook:** "A robot stands on (1, 3), then (2, 4), then (3, 5)… Where will it stand when x = 10? Will it ever visit (7, 8)?"
+- **Key activity:** Retrieval (Years 3–4 plotted in the first quadrant): pupils stand on points of a floor grid, checking the order (across, then up). New step: generate points from a rule in a table (x = 0, 1, 2, 3 → y = x + 2, or y = 2x), plot and join them, notice that they lie on a straight line, and test whether given points fit the rule.
+- **Check for understanding:** "Is (7, 8) on the line y = x + 2? Explain without plotting." → No: when x = 7, y = 7 + 2 = 9, so the point on the line is (7, 9).
+- **Differentiation:** support: plot given points on a large grid and describe the pattern in words / stretch: find the rule for (0, 1), (1, 4), (2, 7), (3, 10) (y = 3x + 1) and find the point on the line where y = 25 ((8, 25)).
+- **Materials:** masking-tape floor grid, squared paper, rulers, table templates.
+- **Joy:** "Robot routes" — program a floor robot along a rule and predict where it lands.
 
 ### Lesson 152 — Coordinates in all four quadrants
 - **Duration:** 40 min
