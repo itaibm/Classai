@@ -12,23 +12,34 @@ working-scientifically cycle — **question → predict → plan a fair test →
 record → conclude → evaluate** — and by the end of the year pupils design and run their own
 investigation for a science fair.
 
-The year covers all four strands. **Biology:** how living things are classified (Linnaeus to
-microorganisms); the circulatory system and a healthy body; evolution and inheritance, from fossils to
+The year covers all four strands. **Biology:** how living things are classified — building on Year 3's
+vertebrate/invertebrate groups, keys and Linnaeus with the ranks from kingdom to species, evolutionary
+trees, fungi as a separate kingdom and keys for microscopic pond life; the circulatory system and a healthy body; evolution and inheritance, from fossils to
 natural selection. **Physics:** light travelling in straight lines, reflection, refraction and how we
-see; electricity, circuit symbols and how voltage changes brightness. **Chemistry:** the particle
-model, identifying substances by their properties, irreversible chemical reactions and what speeds them
-up, and a first look at conservation of mass (acids, alkalis and the pH scale are kept for Year 6, and
-rusting was investigated in Year 4, so neither is repeated here). **Earth and space:** Earth's atmosphere, the carbon cycle and the scientific evidence for climate
+see; electricity, reading circuit diagrams and short circuits, and how voltage and resistance change
+brightness. **Chemistry:** chemical reactions and new materials — deciding physical or chemical with
+several pieces of evidence, the gas carbon dioxide, identifying substances by their properties, hot and
+cold (exothermic and endothermic) reactions, making casein plastic, what speeds reactions up, and
+conservation of mass. The chemistry strand runs Year 3 (states of matter and the particle model) →
+Year 4 (properties, dissolving, separating, reversible and irreversible changes, rusting) → **Year 5
+(reactions: evidence, gases, energy, rate, mass)** → Year 6 (particle model with forces and density,
+solubility, chromatography and distillation, atoms, elements, word equations, acids and alkalis,
+combustion and oxidation). So Year 5 does **not** re-teach the particle model, dissolving or separating,
+and leaves atoms, word equations, acids and pH to Year 6. **Earth and space:** Earth's atmosphere, the carbon cycle and the scientific evidence for climate
 change.
 
-**What this year assumes (from Year 4):** life cycles and reproduction in plants and animals; the
-solar system, day and night and the Moon; forces including gravity, friction, air resistance and
-simple machines; properties of materials, dissolving, separating mixtures and reversible versus
-irreversible changes; and the habit of fair testing with one variable changed.
+**What this year assumes (from Years 3–4):** grouping living things (vertebrates, invertebrates,
+plants), Linnaeus's two-part names and making keys; simple circuits, circuit symbols, conductors and
+insulators; states of matter and the particle model (Year 3); life cycles and reproduction in plants and
+animals; the solar system, day and night and the Moon; forces including gravity, friction, air
+resistance and simple machines; properties of materials, dissolving, separating mixtures, reversible
+versus irreversible changes, signs of a new material and rusting (Year 4); and the habit of fair testing
+with one variable changed. These are retrieved briefly, never re-taught.
 
-**What Year 6 relies on:** the particle model of solids, liquids and gases; confident use of repeat
-readings, means and line graphs; the idea of chemical reactions making new substances; circuits
-drawn with symbols; and the concept of adaptation and natural selection — foundations for cells,
+**What Year 6 relies on:** the particle model of solids, liquids and gases (Year 3, applied here to
+reaction rates); confident use of repeat readings, means and line graphs; the idea of chemical reactions
+making new substances, with evidence, energy changes and conservation of mass; circuits drawn and
+analysed with symbols; and the concept of adaptation and natural selection — foundations for cells,
 energy, chemical reactions and ecosystems in Year 6.
 
 Scientists from many times and places appear in every unit: Carl Linnaeus, Antonie van Leeuwenhoek,
@@ -47,7 +58,7 @@ and Wangari Maathai.
 | 3 | Evolution and inheritance | Biology | 1–2 | 5 | 10 (19–28) |
 | 4 | Light and how we see | Physics | 2 | 4.5 | 9 (29–37) |
 | 5 | Electricity and circuits | Physics | 2 | 4.5 | 9 (38–46) |
-| 6 | Chemistry: particles, properties and reactions | Chemistry | 3 | 4.5 | 9 (47–55) |
+| 6 | Chemistry: chemical reactions and new materials | Chemistry | 3 | 4.5 | 9 (47–55) |
 | 7 | Earth's atmosphere and climate | Earth & space | 3 | 4 | 8 (56–63) |
 | 8 | Science fair: independent investigation | All | 3 | 3.5 | 7 (64–70) |
 | | **Total** | | | **35 (+1 flex)** | **70** |
@@ -56,49 +67,49 @@ and Wangari Maathai.
 
 ## Unit 1 — Classifying living things
 
-**Essential question:** How do scientists sort millions of living things so that we can understand and talk about them?
+**Essential question:** How do scientists sort millions of living things so that the groups show how closely they are related?
 
-**Key vocabulary:** classify, classification, kingdom, species, vertebrate, invertebrate, mammal, bird, reptile, amphibian, fish, arthropod, mollusc, microorganism, bacteria, fungi, characteristic, dichotomous key, Linnaeus, binomial name
+**Key vocabulary:** classify, classification, kingdom, phylum, class, order, family, genus, species, hierarchy, common ancestor, related, evolutionary tree, convergent (look-alike) features, fungi, spore, protist, microorganism, bacteria, characteristic, dichotomous key
 
 ### Lesson 1 — Why classify?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why scientists classify living things and sort organisms using observable characteristics." (UK NC Y6 living things / NGSS MS-LS1 preview)
-- **Hook:** Tip out a box of 30 mixed picture cards (a mushroom, a whale, a spider, an oak, a jellyfish…). "Sort them — any way you like."
-- **Key activity:** Groups sort, then share their criteria; discuss which criteria are scientific (observable, consistent) and which aren't ("cute"). Introduce the idea of kingdoms (animals, plants, fungi and microorganisms).
-- **Check for understanding:** "Why is 'lives in water' a poor way to classify animals scientifically?" → Very different animals (whales, fish, jellyfish) live in water; it groups them by habitat, not by shared body features.
+- **Objective:** "By the end, I can explain why scientists classify living things and why the best groups are based on shared body features, not habitat or looks." (UK NC Y6 living things / NGSS MS-LS1 preview)
+- **Hook:** Tip out a box of 30 mixed picture cards (a mushroom, a whale, a spider, an oak, a jellyfish, a bat, a shark…). "Sort them — any way you like."
+- **Key activity:** Five-minute retrieval of Year 3: vertebrates and invertebrates, the five vertebrate groups, insects vs arachnids, flowering and non-flowering plants and two-part scientific names — as a quick-fire card sort, not re-taught. New: groups sort the cards their own way, then share their criteria; discuss which are scientific (observable, consistent) and which aren't ("cute", "lives in water"); introduce the big idea of this unit — scientists now try to group living things by how closely they are related, not just by what they look like; meet the idea of kingdoms (animals, plants, fungi and microorganisms).
+- **Check for understanding:** "Why is 'lives in water' a poor way to classify animals scientifically?" → Very different animals (whales, fish, jellyfish) live in water; it groups them by habitat, not by shared body features or how closely they are related.
 - **Differentiation:** support: sort into two groups first using one yes/no question / stretch: find an organism that breaks your sorting rule and revise the rule.
 - **Materials:** living-thing picture cards, sorting hoops, hand lenses, real specimens (leaves, shells, a mushroom).
 - **Joy:** "Mystery organism" — one card is hidden; groups ask yes/no questions to identify it.
 
-### Lesson 2 — Carl Linnaeus and scientific names
+### Lesson 2 — From kingdom to species: the classification ladder
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Linnaeus's system works and why every species has a two-part Latin name." (UK NC Y6 living things)
-- **Hook:** "A 'robin' in Britain and a 'robin' in North America are different birds. How do scientists avoid confusion?"
-- **Key activity:** Linnaeus (Sweden, 1700s) and binomial names (*Homo sapiens*, *Panthera leo*, *Turdus migratorius* for the American robin, *Erithacus rubecula* for the European robin). Pupils decode names and build a nested classification from kingdom to species for a lion.
-- **Check for understanding:** "Why do lions and tigers share the first part of their scientific names (*Panthera*)?" → They belong to the same genus — they are closely related.
-- **Differentiation:** support: match five common names to scientific names with picture support / stretch: invent a scientific name for a new creature and justify both parts.
-- **Materials:** classification nesting boxes (or cups), species cards with scientific names, world map.
-- **Joy:** "Name that species" — pupils invent Latin names for classroom pets or toys.
+- **Objective:** "By the end, I can place an organism in the ranks from kingdom to species and use shared ranks to decide which organisms are most closely related." (UK NC Y6 living things; NGSS MS-LS4-2 preview)
+- **Hook:** "A lion, a house cat and a wolf. Which two are the closest relatives — and how could a scientist prove it without looking at them?"
+- **Key activity:** One-minute retrieval of Year 3's Linnaeus and two-part names. New: the seven main ranks (kingdom, phylum, class, order, family, genus, species) as nested sets — big hoops inside bigger hoops on the floor. Pupils place cards for a lion, a house cat, a wolf, a human and a trout into the hoops using a fact sheet for each rank, and find the last rank each pair shares: lion and cat share everything down to family (Felidae); lion and wolf share down to order (Carnivora); lion and trout share only phylum (Chordata). Invent a class mnemonic for the ranks.
+- **Check for understanding:** "A lion and a house cat share every rank down to family. A lion and a wolf share ranks only down to order. Which pair is more closely related, and how do you know?" → the lion and the house cat; the more ranks two organisms share, the more closely related they are, because they share a more recent common ancestor
+- **Differentiation:** support: a pre-filled table for two animals and hoops already labelled / stretch: add a tiger (*Panthera tigris*) and explain which ranks it shares with the lion, and why they share a genus name
+- **Materials:** seven nested floor hoops (or chalk circles), rank labels, organism cards with classification fact sheets
+- **Joy:** "Classification ladder race" — teams climb from kingdom to species for a mystery animal
 
-### Lesson 3 — Vertebrates
+### Lesson 3 — Looks can deceive: family trees of living things
 - **Duration:** 40 min
-- **Objective:** "By the end, I can classify vertebrates into five groups using their characteristics." (UK NC Y6 living things)
-- **Hook:** "A bat flies but isn't a bird. A whale swims but isn't a fish. How do we know?"
-- **Key activity:** Characteristics tables for mammals, birds, reptiles, amphibians and fish (body covering, breathing, reproduction, temperature regulation). Sort 'tricky' animals (platypus, penguin, dolphin, axolotl, sea snake) with evidence.
-- **Check for understanding:** "Why is a dolphin a mammal and not a fish?" → It breathes air with lungs, is warm-blooded, gives birth to live young and feeds them milk.
-- **Differentiation:** support: characteristics table with picture icons / stretch: explain why the platypus (egg-laying mammal) challenged scientists' categories.
-- **Materials:** animal fact cards, characteristics tables, skeleton pictures or model skeleton.
-- **Joy:** "Classification court" — tricky animals are 'tried' and the jury decides their group.
+- **Objective:** "By the end, I can use evidence from skeletons to show that animals that look alike are not always closely related, and read a simple evolutionary tree." (UK NC Y6 living things; NGSS MS-LS4-2 preview; links to Unit 3)
+- **Hook:** Show a shark and a dolphin side by side: "Same shape, same fins, same sea. So why do scientists say the dolphin is a closer relative of a cow than of a shark?"
+- **Key activity:** Compare X-ray or skeleton images of a dolphin flipper, a human arm, a bat wing and a cow's front leg: colour-code the matching bones (one upper-arm bone, two forearm bones, wrist and finger bones) and find the same pattern in all four; compare with a shark's fin, which has no such bones. Then look-alikes that are **not** close relatives (shark and dolphin; bird and bat wings) — similar shapes that evolved separately for the same way of life. Read a simple evolutionary tree (branching diagram) and find where two branches meet (the common ancestor).
+- **Check for understanding:** "Give one piece of evidence that a dolphin is more closely related to a cow than to a shark, and explain why they look so much like sharks." → the dolphin's flipper has the same bone pattern as a cow's leg and a human arm (and it breathes air and feeds its young milk), showing a shared ancestor; it looks like a shark because a streamlined shape and fins suit fast swimming, so the same shape evolved separately
+- **Differentiation:** support: pre-coloured bone diagrams to match / stretch: explain why bird wings and bat wings are both similar and different, using the bones
+- **Materials:** skeleton or X-ray images of limbs (dolphin, human, bat, cow, bird), shark fin image, coloured pencils, a simple printed evolutionary tree
+- **Joy:** "Odd one out" — spot the impostor in each look-alike line-up and prove it with bones
 
-### Lesson 4 — Invertebrates
-- **Duration:** 45 min
-- **Objective:** "By the end, I can classify invertebrates into main groups such as arthropods, molluscs and worms using observation." (UK NC Y6 living things)
-- **Hook:** "About 97% of animal species have no backbone. Let's go and find some."
-- **Key activity:** Minibeast hunt in the school grounds; observe with hand lenses; classify finds into insects (6 legs, 3 body parts), arachnids (8 legs, 2 body parts), crustaceans (e.g. woodlice), myriapods, molluscs, worms. Return animals carefully.
-- **Check for understanding:** "Is a spider an insect? How do you know?" → No: it has 8 legs and 2 body parts; insects have 6 legs and 3 body parts.
-- **Differentiation:** support: identification chart with pictures / stretch: count legs and body segments to classify an unfamiliar invertebrate and justify.
-- **Materials:** hand lenses, bug pots, soft paintbrushes, trays, invertebrate ID charts, gloves.
-- **Joy:** the minibeast hunt (with a class tally of finds).
+### Lesson 4 — Not plants, not animals: fungi and the kingdoms of life
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain why fungi have their own kingdom and describe how they feed and reproduce." (UK NC Y6 living things)
+- **Hook:** "A mushroom grows in soil and never moves, like a plant. So why do scientists say it is closer to *you* than to a daisy?"
+- **Key activity:** Observe shop-bought mushrooms with hand lenses (gills, stalk, cap); set up a **spore print** (cap gills-down on white and dark paper under a bowl, left overnight); compare fungi with plants: no green chlorophyll, so they cannot make food from sunlight; they feed by releasing chemicals that break down dead material and absorbing it (decomposers); they reproduce by spores, not seeds. Learn that the body of most fungi is a hidden network of threads (hyphae) in soil or wood; the mushroom is only the part that spreads spores. Link to decomposers and the carbon cycle (Unit 7).
+- **Check for understanding:** "Give two reasons why a mushroom is not a plant." → it has no chlorophyll, so it can't make its own food by photosynthesis; it feeds by breaking down and absorbing other material, and it reproduces with spores rather than seeds (it also has different cell walls)
+- **Differentiation:** support: a plant-vs-fungus comparison grid with picture clues / stretch: explain why a forest without fungi would soon be buried in dead leaves, and what would happen to its soil
+- **Materials:** shop-bought mushrooms (never wild ones), hand lenses, white and black paper, bowls, a photo of fungal threads under a log. Safety: wash hands after handling; never pick or eat wild fungi
+- **Joy:** "Spore art" — reveal the overnight spore prints, each one unique
 
 ### Lesson 5 — Microorganisms
 - **Duration:** 40 min
@@ -120,27 +131,27 @@ and Wangari Maathai.
 - **Materials:** bread slices, sealable bags, water sprayer, grid overlays, labels, access to a warm and cool place. Safety: never open mouldy bags.
 - **Joy:** "Mould diaries" — daily photos compiled into a time-lapse.
 
-### Lesson 7 — Classification keys
-- **Duration:** 40 min
-- **Objective:** "By the end, I can use and create a dichotomous key to identify living things." (UK NC Y6 living things / working scientifically)
-- **Hook:** "Can we identify any of these ten leaves with only yes/no questions?"
-- **Key activity:** Use a branching key for local trees or invertebrates; then groups build their own key for 8 organisms, testing it on another group.
-- **Check for understanding:** "Why is 'Is it big?' a poor question for a key?" → 'Big' is subjective; key questions must be observable and answered the same way by everyone.
-- **Differentiation:** support: build a key for 4 organisms with a template / stretch: build a key for 10 organisms including microorganisms and fungi.
-- **Materials:** leaf samples or picture cards, key templates, hand lenses.
-- **Joy:** "Key-test challenge" — can another group identify your organisms using only your key?
+### Lesson 7 — Keys for the invisible world: pond life
+- **Duration:** 45 min
+- **Objective:** "By the end, I can use a dichotomous key to identify tiny pond organisms and explain why some living things don't fit neatly into 'plant' or 'animal'." (UK NC Y6 living things / working scientifically)
+- **Hook:** "One drop of pond water can hold dozens of living things. One of them is green like a plant but swims like an animal. What is it?"
+- **Key activity:** One-minute retrieval of Year 3's rules for keys (observable yes/no questions). New: examine a drop of pond water under a microscope or digital microscope (or high-quality video clips if not available) and use a printed dichotomous key to identify organisms such as water fleas (*Daphnia*), *Cyclops*, rotifers, *Paramecium* and *Euglena*; record sizes against a scale bar. Discuss *Euglena* — it has green chloroplasts and makes food like a plant, but swims with a whip-like tail (flagellum) — which is one reason scientists added extra groups (such as protists) beyond 'plant' and 'animal'.
+- **Check for understanding:** "*Euglena* is green like a plant but swims like an animal. What does this tell you about sorting life into only two kingdoms, and how does a good key cope with it?" → living things don't always fit neat groups, so scientists added more groups; a good key doesn't assume 'plant or animal' but asks several observable questions (e.g. does it have green parts? does it move with a flagellum?) so every organism still reaches one answer
+- **Differentiation:** support: a picture key with only four organisms and photos alongside each question / stretch: write a new branch for the key to include an organism the class found that wasn't on it
+- **Materials:** pond water sample collected by an adult, pipettes, slides and cover slips or a digital microscope, printed pond-life keys, video clips as back-up. Safety: gloves or careful handwashing, cover any cuts, never drink or touch the face; adults collect the water, never pupils near deep water
+- **Joy:** "Microscope safari" — the first pupil to spot and identify each creature names it on the class 'wanted' board
 
 ### Lesson 8 — Unit 1 review and mould results
 - **Duration:** 40 min
 - **Objective:** "By the end, I can draw conclusions from my mould investigation and show what I know about classification." (UK NC Y6 — assessment)
 - **Hook:** "Time to open the mould diaries (without opening the bags!)."
-- **Key activity:** Groups present results in a table and line graph, draw conclusions and evaluate the fair test; short mastery task on classification.
+- **Key activity:** Groups present results in a table and line graph, draw conclusions and evaluate the fair test; short mastery task on classification (ranks from kingdom to species, reading an evolutionary tree, fungi vs plants, using a key).
 - **Check for understanding:** "What does your evidence show, and how confident are you? What would make it more reliable?" → A conclusion linked to data, with a sensible improvement (e.g. more repeats, measuring more precisely).
 - **Differentiation:** support: conclusion frame ("We found that… because…") / stretch: explain an unexpected result and propose a new test.
 - **Materials:** mould bags (sealed), graph paper, mastery task sheet.
 - **Joy:** "Mould awards" — the hairiest, the most colourful, the slowest.
 
-**End-of-unit check:** Pupil classifies ten organisms into vertebrate and invertebrate groups with reasons, builds a working key for six organisms, and explains one fair-test result using evidence.
+**End-of-unit check:** Pupil places organisms in ranks from kingdom to species and uses shared ranks to judge relatedness, uses bone evidence to explain why a look-alike is not a close relative, explains why fungi are a separate kingdom, uses a key to identify pond organisms, and explains one fair-test result using evidence.
 
 ---
 
@@ -480,15 +491,15 @@ and Wangari Maathai.
 - **Materials:** cells (1.5 V) in holders, bulbs in holders, wires with crocodile clips, switches, buzzers, motors.
 - **Joy:** "Circuit doctor" — diagnose and fix broken circuits.
 
-### Lesson 39 — Circuit symbols and diagrams
+### Lesson 39 — Reading diagrams to find faults: short circuits
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use recognised symbols to draw circuit diagrams and build circuits from diagrams." (UK NC Y6 electricity)
-- **Hook:** "An electrician in Japan and one in Brazil can read the same diagram. How?"
-- **Key activity:** Learn symbols (cell, battery, bulb, switch open/closed, buzzer, motor, wire). Draw diagrams of circuits built; then build circuits from given diagrams. Note: symbols are internationally agreed.
-- **Check for understanding:** "This diagram shows a battery of two cells, a bulb and an open switch. Will the bulb light? Redraw it so that it will, and explain why the battery symbol has two parts." → No — the open switch breaks the loop; redraw with the switch closed. A battery is two or more cells joined together, so it is drawn as several cell symbols.
-- **Differentiation:** support: symbol cards to match to components / stretch: draw a diagram for a circuit with two bulbs and a switch that controls only one bulb (requires a parallel branch — explain).
-- **Materials:** circuit kits, symbol cards, rulers, squared paper.
-- **Joy:** "Diagram relay" — one partner draws, the other builds, then swap.
+- **Objective:** "By the end, I can use circuit diagrams to predict whether each component will work, and explain what a short circuit is and why it is dangerous." (UK NC Y6 electricity)
+- **Hook:** "This diagram looks almost right — but one extra wire makes the bulb go out and the battery get hot. Can you find it?"
+- **Key activity:** Three-minute retrieval of Year 3's circuit symbols (cell, battery, bulb, switch, buzzer, motor) with a symbol-snap game — not re-taught. New: 'predict then test' with diagrams — for each of eight diagrams pupils predict which bulbs, buzzers and motors will work, then check using a free circuit simulator (e.g. PhET Circuit Construction Kit) or real kits. Include diagrams with a switch in the wrong place, a cell reversed next to another cell, and a **short circuit** (a wire joined straight across a bulb, giving the current an easy path that bypasses it). Short circuits are explored only in the simulator, because in real circuits they make cells and wires hot. Preview: homes use fuses and circuit breakers to cut the power if a fault like this happens (discussed again in Lesson 45's electrical safety).
+- **Check for understanding:** "In this diagram, a wire connects one side of the bulb straight to the other. Predict what happens to the bulb and the cell, and explain why." → the bulb goes out, because the current takes the easy, low-resistance path through the wire instead of through the bulb; with almost no resistance in the loop, a large current flows, so the cell and wire can get hot — a short circuit
+- **Differentiation:** support: four diagrams with the loop to trace in colour / stretch: design a diagram with two bulbs and two switches in which each switch controls only one bulb, and test it in the simulator (a parallel circuit — preview of Year 6)
+- **Materials:** printed diagrams, laptops or tablets with a circuit simulator, circuit kits for the safe diagrams, rulers. Safety: never build a short circuit with real cells; batteries only, never mains
+- **Joy:** "Fault finders" — teams race to find and fix the planted fault in each diagram
 
 ### Lesson 40 — Investigation: voltage and brightness
 - **Duration:** 45 min
@@ -514,7 +525,7 @@ and Wangari Maathai.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can investigate how the length of a conductor affects the brightness of a bulb and explain it using the idea of resistance." (UK NC Y6 electricity / working scientifically — builds on Year 4's conductor/insulator sorting)
 - **Hook:** "Is a pencil 'lead' a conductor? (It's actually graphite.) And does it matter how long the path is?"
-- **Key activity:** Quick retrieval: use a tester circuit to re-sort five materials (Year 4). Then the new idea: slide a crocodile clip along a pencil 'lead' (graphite) or a 30 cm length of thin nichrome resistance wire (short tests only — it can get warm), measuring brightness at 2 cm steps with a light sensor or brightness scale; graph and explain — a longer path means more resistance, so less current.
+- **Key activity:** Quick retrieval: use a tester circuit to re-sort five materials (Year 3). Then the new idea: slide a crocodile clip along a pencil 'lead' (graphite) or a 30 cm length of thin nichrome resistance wire (short tests only — it can get warm), measuring brightness at 2 cm steps with a light sensor or brightness scale; graph and explain — a longer path means more resistance, so less current.
 - **Check for understanding:** "Why does the bulb get dimmer as the graphite path gets longer — and why are household wires made of copper rather than graphite?" → A longer path has more resistance, so less current flows; copper has very low resistance, so it wastes little energy, and its plastic coating insulates to keep people safe.
 - **Differentiation:** support: prediction and results table with pictures, and three lengths only / stretch: predict and test what a thicker graphite line (drawn heavily on paper) does to brightness, and explain.
 - **Materials:** circuit kits, test materials, a propelling-pencil graphite rod (2B or softer) or thick 6B pencil lines on paper, rulers, light sensor or brightness scale.
@@ -564,31 +575,31 @@ and Wangari Maathai.
 
 ---
 
-## Unit 6 — Chemistry: particles, properties and reactions
+## Unit 6 — Chemistry: chemical reactions and new materials
 
-**Essential question:** How can we tell when a new substance has been made, and what happens to the particles?
+**Essential question:** How can we prove that a new substance has been made — and what controls how fast and how hot or cold a reaction is?
 
-**Key vocabulary:** particle, solid, liquid, gas, state, dissolve, solution, property, identify, chemical reaction, new substance, reactant, product, reversible, irreversible, rate (speed of reaction), casein, conservation of mass
+**Key vocabulary:** physical change, chemical change (reaction), new substance, evidence, reactant, product, carbon dioxide, dense, fire extinguisher, property, identify, exothermic, endothermic, casein, rate (speed of reaction), variable, mean, conservation of mass, closed and open system
 
-### Lesson 47 — The particle model
+### Lesson 47 — Physical or chemical? Weighing the evidence
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use the particle model to describe solids, liquids and gases." (Cambridge Primary Stage 6 chemistry / NGSS 5-PS1-1)
-- **Hook:** "Why can you walk through air but not through a wall?"
-- **Key activity:** Pupils act as particles: solid (packed, vibrating in place), liquid (close, sliding past), gas (spread out, moving fast). Draw particle diagrams; explain properties (shape, flow, compression — squash a syringe of air vs water).
-- **Check for understanding:** "Why can gases be squashed but liquids hardly at all?" → Gas particles are far apart with space between them; liquid particles are already touching.
-- **Differentiation:** support: particle diagram templates / stretch: use the model to explain why a balloon shrinks in the freezer.
-- **Materials:** plastic syringes (no needles), water, playground space, particle diagram sheets.
-- **Joy:** "Human particles" drama in the hall.
+- **Objective:** "By the end, I can decide whether a change is physical or chemical by weighing several pieces of evidence, and explain why one sign on its own is not proof." (Cambridge Primary Stage 6 chemistry / NGSS 5-PS1-4)
+- **Hook:** "Boiling water bubbles. A fizzy tablet bubbles. Only one of them has made a new substance. How can you tell?"
+- **Key activity:** Five-minute retrieval of Year 3's particle model and states of matter, and Year 4's reversible and irreversible changes and signs of a new material — as a quick card quiz, not re-taught. New: a 'courtroom' carousel of tricky changes, each with more than one clue — water boiling (bubbles), a fizzy tablet in water (bubbles), squash mixed into water (colour change), a glow stick snapped (light), a candle melting vs the wick burning (teacher demo), sugar dissolving vs sugar heated until it caramelises (teacher demo). For each, groups list the evidence *for* and *against* a new substance, and ask the decisive question: "Can we get the starting substances back by a physical method, and is there a substance here that wasn't there before?" They explain their verdict with particles: in a physical change the same particles are rearranged; in a chemical change new substances form.
+- **Check for understanding:** "Boiling water and a fizzy tablet in water both make bubbles. Which is a chemical reaction, and what extra evidence would you use to prove it?" → the tablet; its bubbles are a new gas (carbon dioxide) and the tablet cannot be got back; the bubbles in boiling water are water vapour, which condenses back to water on a cold surface, so no new substance was made
+- **Differentiation:** support: an evidence grid with picture prompts for each sign / stretch: explain why caramelising sugar is chemical but melting sugar is (at first) physical
+- **Materials:** kettle (adult), fizzy vitamin or antacid tablets, squash, glow sticks (intact, adult-snapped), candle and sugar demos (teacher only, heat-proof mat), goggles, evidence grids
+- **Joy:** "Chemistry court" — each group delivers a verdict: physical or chemical, beyond reasonable doubt?
 
-### Lesson 48 — Dissolving: where does the sugar go?
+### Lesson 48 — Gases from reactions: capturing carbon dioxide
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain dissolving using the particle model and show that mass is conserved." (NGSS 5-PS1-2 / UK NC Y5 materials review)
-- **Hook:** "Weigh water, weigh sugar, dissolve. Will the total mass change?"
-- **Key activity:** Measure the mass of water and sugar separately, dissolve, and weigh again (the total is the same). Explain with particles: sugar particles spread between water particles.
-- **Check for understanding:** "The sugar has 'disappeared'. Why is the mass the same?" → The sugar particles are still there, spread out among the water particles; nothing has been lost.
-- **Differentiation:** support: guided table for masses / stretch: design a fair test for how temperature affects dissolving speed.
-- **Materials:** digital scales, beakers, sugar, water, spoons.
-- **Joy:** "Magic-mass" reveal.
+- **Objective:** "By the end, I can collect the gas made in a reaction and test two of its properties, explaining how carbon dioxide is used to put out fires." (Cambridge Primary Stage 6 chemistry / NGSS 5-PS1-3)
+- **Hook:** A row of lit tea lights (teacher-lit). The teacher 'pours' an apparently empty jug over them, and they go out one by one. "What was in the jug?"
+- **Key activity:** Make carbon dioxide from bicarbonate of soda and vinegar in a jug and collect it in a balloon over a bottle neck; compare the balloon of carbon dioxide with a balloon of breath of the same size — which falls faster when dropped together? (carbon dioxide is denser than air). Teacher demonstration: pour the invisible gas down a card chute onto the tea lights; they go out because carbon dioxide pushes away the air and stops oxygen reaching the flame. Link to carbon-dioxide fire extinguishers and why they are used on electrical fires (no water).
+- **Check for understanding:** "The invisible gas poured out of the jug and put out the candles. What two properties of carbon dioxide does this show?" → it is denser than air, so it sinks and can be poured downwards; it does not let things burn, so it smothers the flame by keeping oxygen away
+- **Differentiation:** support: a picture sequence to order and caption / stretch: explain why carbon dioxide is useful for fires in a room full of computers, but dangerous in a small closed space with people in it
+- **Materials:** bicarbonate of soda, vinegar, jugs, bottles, balloons, card chute, tea lights and lighter (teacher only), heat-proof tray, goggles. Safety: hair tied back, candles lit and handled only by the teacher, well-ventilated room
+- **Joy:** "The invisible pour" — pupils predict which candle goes out last
 
 ### Lesson 49 — Mystery powders: identifying substances by their properties
 - **Duration:** 40 min
@@ -600,15 +611,15 @@ and Wangari Maathai.
 - **Materials:** flour, cornflour, sugar, salt, bicarbonate of soda in labelled pots plus two unlabelled mystery pots, water, vinegar, dilute iodine solution (adult-held dropper), spotting tiles, hand lenses, goggles.
 - **Joy:** "Crime-lab chemists" — identify the powder 'spilled at the scene'.
 
-### Lesson 50 — Signs of a chemical reaction
+### Lesson 50 — Hot and cold reactions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can identify evidence that a chemical reaction has made a new substance." (NGSS 5-PS1-4 / UK NC Y5 changes review)
-- **Hook:** "Vinegar + bicarbonate of soda in a bottle, balloon on top. What will happen?"
-- **Key activity:** Carousel of changes: vinegar and bicarbonate (gas), burning a candle (teacher demonstration), baking a cake (compare raw and baked), milk and vinegar (a solid forms), ice melting and salt dissolving (as 'no new substance' comparisons). Record signs of a new substance: gas, colour change, temperature change, new solid, light. Retrieve Year 4's reversible/irreversible idea and connect it to 'new substance made'.
-- **Check for understanding:** "Ice melting and bicarbonate fizzing both 'change'. Which one made a new substance, and what is your evidence?" → The fizzing: a gas (carbon dioxide) was made that wasn't there before and the change can't easily be reversed; melting ice is still water, just in a different state.
-- **Differentiation:** support: a signs-of-reaction checklist with pictures / stretch: find a change that shows a sign (e.g. bubbles when water boils) but is NOT a chemical reaction, and explain why one sign alone isn't proof.
-- **Materials:** vinegar, bicarbonate, balloons, bottles, milk, ice, salt, candle (teacher only), goggles.
-- **Joy:** balloon inflation race.
+- **Objective:** "By the end, I can measure the temperature change in reactions and explain the difference between reactions that give out heat (exothermic) and reactions that take it in (endothermic)." (Cambridge Primary Stage 6 chemistry / NGSS 5-PS1-4 extension)
+- **Hook:** Hand round a sealed, air-activated hand warmer and a sealed instant cold pack: "Neither has a battery or a plug. Where does the heat come from — and where does it go?"
+- **Key activity:** Retrieve Year 4's rusting (iron + water + oxygen): a disposable hand warmer is iron powder rusting very quickly, giving out heat (**exothermic**). Pupils measure temperature changes for themselves: (1) citric acid and bicarbonate of soda dissolved in water — the temperature falls (**endothermic**); (2) the same mixture with half the amounts; (3) a hand warmer opened by the adult and left in its inner pouch with a thermometer taped to it. Record start and lowest/highest temperatures, calculate the change, and link to uses: hand warmers for mountaineers, cold packs for sports injuries.
+- **Check for understanding:** "Your mixture got 6 °C colder. A friend says, 'Nothing happened — it didn't get hot.' Explain why they are wrong." → a temperature change in either direction is evidence of a reaction; this one took in heat energy from its surroundings (endothermic), so the mixture and the cup felt colder — together with the bubbles of gas, it shows a new substance was made
+- **Differentiation:** support: a results table with the subtraction set out / stretch: predict and test whether doubling the amounts doubles the temperature change, and explain the result
+- **Materials:** food-grade citric acid, bicarbonate of soda, water, plastic cups, thermometers or temperature probes, a disposable air-activated hand warmer (inner pouch never opened or handled by pupils), an instant cold pack for the hook, goggles. Safety: citric acid can sting eyes — goggles on, wash hands
+- **Joy:** "Hot or not?" — predict each reaction's temperature before revealing it on the class thermometer chart
 
 ### Lesson 51 — Making new materials: milk plastic
 - **Duration:** 45 min
@@ -652,15 +663,15 @@ and Wangari Maathai.
 
 ### Lesson 55 — Unit 6 mastery check
 - **Duration:** 40 min
-- **Objective:** "By the end, I can show my understanding of particles, properties, chemical reactions and conservation of mass." (Cambridge Stage 6 / NGSS 5-PS1 — assessment)
+- **Objective:** "By the end, I can show my understanding of chemical reactions: the evidence for them, the gases and temperature changes they make, what speeds them up and why mass is conserved." (Cambridge Stage 6 / NGSS 5-PS1 — assessment)
 - **Hook:** "The milk-plastic buttons are dry. What do they prove?"
-- **Key activity:** Examine the dried milk plastic; mastery task: particle diagrams, identify a mystery powder from given test results, sort changes into 'new substance' or 'no new substance' with evidence, explain an open-vs-closed mass result, and interpret a reaction-speed graph.
+- **Key activity:** Examine the dried milk plastic; mastery task: decide physical or chemical for four changes using more than one piece of evidence, identify a mystery powder from given test results, explain a carbon-dioxide candle result, calculate and explain a temperature change, explain an open-vs-closed mass result, and interpret a reaction-speed graph.
 - **Check for understanding:** "A pupil says: 'When wood burns, the mass goes down, so mass is destroyed.' Is she right?" → No: the wood reacts with oxygen and makes gases (carbon dioxide and water vapour) and smoke that escape into the air; if everything were trapped and weighed, the total mass would be the same.
-- **Differentiation:** support: conclusion frames and a word bank / stretch: explain why cooking an egg is a chemical change but melting butter is not, using the particle model.
+- **Differentiation:** support: conclusion frames and a word bank / stretch: explain why cooking an egg is a chemical change but melting butter is not, using evidence and the particle model.
 - **Materials:** dried milk plastic, mastery task, reaction-speed graphs.
 - **Joy:** "Chemistry show-and-tell" — each pupil demonstrates one change to a partner and explains it.
 
-**End-of-unit check:** Pupil uses the particle model to explain dissolving, identifies an unknown substance from its properties, gives evidence that a chemical reaction has made a new substance, explains a reaction-speed result from a graph, and explains why mass is conserved in a closed container.
+**End-of-unit check:** Pupil decides whether a change is physical or chemical using several pieces of evidence, identifies an unknown substance from its properties, describes two properties of carbon dioxide from a demonstration, explains exothermic and endothermic temperature changes, explains a reaction-speed result from a graph, and explains why mass is conserved in a closed container.
 
 ---
 
@@ -846,13 +857,13 @@ and Wangari Maathai.
 
 ## End-of-year mastery checks
 
-1. **Classify** — builds and uses a dichotomous key and explains why organisms are grouped as they are (seen with a set of unfamiliar organisms).
+1. **Classify** — places organisms in ranks from kingdom to species, uses shared ranks and bone evidence to judge how closely organisms are related, explains why fungi are a separate kingdom, and uses a key for unfamiliar (including microscopic) organisms.
 2. **Explain circulation** — traces the path of blood and explains how exercise affects pulse, using their own graph.
 3. **Explain evolution** — describes natural selection in steps with an example and explains fossil evidence.
 4. **Explain light** — draws ray diagrams for seeing, shadows and reflection and explains a periscope.
-5. **Control circuits** — draws circuit diagrams with symbols and predicts the effect of changing cells or components.
-6. **Use the particle model** — explains states of matter, dissolving and conservation of mass using particles.
-7. **Identify substances and reactions** — identifies an unknown substance from its properties, names evidence of chemical change and explains what affects reaction speed.
+5. **Control circuits** — reads circuit diagrams to predict what will work, spots faults including short circuits, and predicts the effect of changing cells, components or wire length.
+6. **Physical or chemical?** — decides whether a change is physical or chemical using several pieces of evidence and explains why one sign alone is not proof.
+7. **Identify substances and reactions** — identifies an unknown substance from its properties, explains exothermic and endothermic temperature changes and what affects reaction speed, and explains conservation of mass in open and closed containers.
 8. **Explain the greenhouse effect** — explains it with a diagram and interprets long-term climate data.
 9. **Investigate independently** — plans, carries out and evaluates a fair test with repeats, means and a suitable graph (science fair).
 
@@ -863,7 +874,11 @@ and Wangari Maathai.
 - *"Blood in veins is blue."* Deoxygenated blood is dark red; veins look bluish through the skin.
 - *"Animals evolve because they need to / try to."* Individuals don't change on purpose; populations change over generations through variation and selection.
 - *"Humans evolved from chimpanzees."* Humans and chimpanzees share a common ancestor.
-- *"Dissolved substances disappear."* Weighing shows the mass remains.
+- *"Bubbles always mean a chemical reaction."* Boiling water bubbles too; look for a new substance and whether the change can be reversed.
+- *"If it doesn't get hot, nothing happened."* Endothermic reactions get colder.
+- *"A mushroom is a plant."* Fungi have no chlorophyll, feed by absorbing, and reproduce by spores.
+- *"Animals that look alike are closely related."* Similar shapes can evolve separately; bones and shared ranks show relationships.
+- *"A short circuit is just a broken circuit."* It is an easy path that bypasses components and lets a large current flow.
 - *"Burning destroys mass."* The products are gases that escape; in a closed system mass is conserved.
 - *"Batteries store current."* Cells provide a voltage (a push); current flows only in a complete circuit.
 - *"The greenhouse effect is bad."* It keeps Earth habitable; the problem is its enhancement by extra greenhouse gases.
@@ -877,6 +892,6 @@ and Wangari Maathai.
 - Handle sensitive topics (health, drugs, family inheritance, climate anxiety) with care, focusing on agency and hope.
 
 **Vertical connections**
-- *From Year 4:* life cycles, the solar system and forces, properties and changes of materials (including conductors, sorting by transparency and the rusting investigation — built on here, not repeated), fair testing.
-- *Into Year 6:* cells and microscopes build on classification and microorganisms; body systems build on circulation; ecosystems and food webs build on adaptation and the carbon cycle; chemical reactions, elements, compounds, acids, alkalis and word equations build on signs of reaction, identifying substances and conservation of mass; energy transfers build on circuits and the greenhouse effect; waves build on light.
+- *From Years 3–4:* grouping living things, keys and Linnaeus (Year 3 — extended here to ranks, evolutionary trees, fungi and microscopic life); simple circuits, symbols and conductors (Year 3); the particle model and states of matter (Year 3); life cycles, the solar system and forces, properties and changes of materials, signs of a new material and rusting (Year 4) — retrieved and built on, not repeated; fair testing.
+- *Into Year 6:* cells and microscopes build on classification and microorganisms; body systems build on circulation; ecosystems and food webs build on adaptation and the carbon cycle; the particle model with forces, density, solubility and separation techniques (chromatography, distillation) build on Year 3–4 foundations; atoms, elements, compounds, word equations (explaining with atoms the conservation of mass seen here), acids, alkalis, combustion and oxidation build on Year 5's evidence for reactions, carbon dioxide, energy changes and rates; energy transfers build on circuits and the greenhouse effect; waves build on light.
 - *Across subjects:* maths (means, line graphs, pie charts, protractors for angles of reflection), geography (climate, biomes), English (explanation texts, research), computing (data loggers, spreadsheets), life skills (health, sustainability).

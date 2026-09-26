@@ -18,14 +18,17 @@ concluding and evaluating. Every unit has at least one full investigation.
 
 **What we assume from Year 5 (ages 10–11, UK Y6 / US Grade 5):** classification of living things,
 the human circulatory system, inheritance, adaptation and evolution with fossil evidence, light
-travelling in straight lines and how we see, electrical circuits (voltage, brightness, symbols,
-resistance), the particle model of solids, liquids and gases, signs of chemical reaction and
-conservation of mass, Earth's atmosphere, the carbon cycle and the greenhouse effect, and a first
+travelling in straight lines and how we see, electrical circuits (voltage, brightness, reading diagrams,
+short circuits, resistance), chemical reactions (evidence for a new substance, carbon dioxide, exothermic
+and endothermic changes, reaction rates and conservation of mass in open and closed containers), Earth's atmosphere, the carbon cycle and the greenhouse effect, and a first
 complete independent investigation. Where Year 6 returns to these (particles, reactions, the
 atmosphere) it opens with a short retrieval and then goes deeper — word equations, pH,
 oxidation, the Keeling curve — rather than re-teaching. From earlier years: states of matter, reversible and
-irreversible changes, dissolving and separating by sieving/filtering/evaporating, forces (gravity,
-friction, air resistance), the Solar System, food chains and habitats, rocks and soils.
+irreversible changes, dissolving (with solute and solvent) and separating by sieving/filtering/evaporating,
+rusting, the particle model of solids, liquids and gases, evaporation and condensation investigations
+(Years 3–4), forces (gravity and weight, friction with added mass, parachutes, levers), flower parts,
+pollination and fertilisation, the Solar System, seasons and Moon phases (Year 4), food chains and
+habitats, rocks and soils.
 
 **Sequence.** Autumn: working scientifically (Unit 1), cells (Unit 2) and particles (Unit 3). Spring:
 chemical reactions (Unit 4), energy (Unit 5) and forces (Unit 6). Summer: ecosystems (Unit 7), Earth
@@ -216,13 +219,13 @@ slides, and a digital kitchen scale reading to 0.1 g.
 
 **Essential question:** How can the idea of tiny moving particles explain everything from melting ice to perfume in the air?
 
-**Key vocabulary:** particle model, solid, liquid, gas, melting point, boiling point, evaporation, condensation, sublimation, diffusion, gas pressure, density, pure substance, mixture, solute, solvent, solution, soluble, insoluble, saturated, filtration, evaporation, crystallisation, distillation, chromatography
+**Key vocabulary:** particle model, solid, liquid, gas, melting point, boiling point, evaporation, condensation, sublimation, diffusion, gas pressure, density, pure substance, mixture, solute, solvent, solution, soluble, insoluble, saturated, solubility curve, filtration, crystallisation, percentage yield, evaporative cooling, distillation, chromatography
 
 ### Lesson 14 — The particle model revisited: forces, expansion and limits
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use the particle model — including the forces between particles — to explain expansion, and say what the model gets wrong." (UK KS3 Chemistry — particulate nature of matter; NGSS MS-PS1-4)
 - **Hook:** "Railway tracks and bridges have gaps built in. Why would engineers leave gaps on purpose?"
-- **Key activity:** Five-minute retrieval of Year 5's solid/liquid/gas particle diagrams (no re-teaching). New: the attractive forces between particles; expansion when heated (ball-and-ring demo, or a balloon-topped bottle in warm water; a liquid thermometer as expansion in action); explain with particles vibrating more and moving slightly further apart — the particles themselves do not get bigger. Evaluate the model's limits with marbles in a tray.
+- **Key activity:** Five-minute retrieval of Year 3's solid/liquid/gas particle diagrams, as used again in Year 5 to explain reaction rates (no re-teaching). New: the attractive forces between particles; expansion when heated (ball-and-ring demo, or a balloon-topped bottle in warm water; a liquid thermometer as expansion in action); explain with particles vibrating more and moving slightly further apart — the particles themselves do not get bigger. Evaluate the model's limits with marbles in a tray.
 - **Check for understanding:** "A pupil says metal expands when heated because its particles get bigger. What is wrong, and what is the correct explanation?" → The particles stay the same size; they vibrate more and move slightly further apart, so the whole object takes up more space.
 - **Differentiation:** support: particle-diagram templates with 'before heating' and 'after heating' boxes / stretch: explain why the particle model is a model, not a picture (particles aren't coloured balls, and there is nothing — not even air — between them)
 - **Materials:** marbles, trays, ball-and-ring kit or a bottle with a balloon, bowl of warm water (adult), liquid thermometer, photographs of bridge expansion joints
@@ -238,15 +241,15 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Materials:** crushed ice, beaker, thermometer or digital probe, stopwatch, graph paper, (lab: stearic acid, water bath, goggles)
 - **Joy:** Watching the graph go flat as predicted
 
-### Lesson 16 — Evaporation, boiling and condensation
+### Lesson 16 — Evaporative cooling and boiling points
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the difference between evaporation and boiling and investigate factors affecting evaporation rate." (UK KS3 Chemistry; NGSS MS-PS1-4)
-- **Hook:** "Puddles disappear without boiling. How?"
-- **Key activity:** Investigate evaporation of equal water volumes in dishes of different surface area (or in sun vs shade); measure mass loss with a scale over two days; explain with particles (fastest particles escape from the surface).
-- **Check for understanding:** "What is the difference between evaporation and boiling?" → Evaporation happens at any temperature, only from the surface; boiling happens at the boiling point, throughout the liquid (bubbles form inside).
-- **Differentiation:** support: a guided method sheet / stretch: explain why sweating cools you down
-- **Materials:** dishes of different sizes, measuring cylinder, digital scale (0.1 g), water
-- **Joy:** "Evaporation race" — design the fastest-drying set-up for a wet cloth
+- **Objective:** "By the end, I can explain with particles why evaporation cools a liquid and why the boiling point of water changes with air pressure." (UK KS3 Chemistry/Physics; NGSS MS-PS1-4)
+- **Hook:** "Why do you shiver when you climb out of a swimming pool on a warm day — and why is it hard to cook pasta on top of Mount Everest?"
+- **Key activity:** Two-minute retrieval of Year 3's evaporation investigations (surface area, moving air) and condensation — not repeated. New: **evaporative cooling** — three thermometers side by side: one dry bulb, one wrapped in a wet cloth, one wet with a fan blowing on it; read every minute for ten minutes and plot all three on one graph; explain with particles (the fastest-moving particles escape from the surface, so the particles left behind have less energy on average — the liquid cools). Then **boiling points and pressure**: evaporation happens at any temperature from the surface, but boiling happens throughout the liquid when bubbles of vapour can push back against the air pressure; at the top of Everest, where air pressure is about a third of that at sea level, water boils at only about 70 °C; a pressure cooker does the opposite. Teacher demo (optional, with a syringe): warm (not hot) water sealed in a large plastic syringe begins to boil when the plunger is pulled to lower the pressure.
+- **Check for understanding:** "Why does the thermometer in the wet cloth read lower than the dry one, and why does the fan make the difference bigger?" → the fastest water particles escape as vapour and take energy with them, so the water left on the bulb cools; the fan carries the vapour away so more particles can escape, and evaporation (and cooling) speeds up
+- **Differentiation:** support: a partly drawn graph with the dry-bulb line already plotted / stretch: explain why sweating cools you less well on a humid day
+- **Materials:** three thermometers or temperature probes, cloth, water at room temperature, a small fan, stopwatch, graph paper; (teacher demo: a large plastic syringe with a cap, warm tap water, goggles)
+- **Joy:** "Human air-conditioning" — wet one wrist and blow on it; feel the physics
 
 ### Lesson 17 — Diffusion and gas pressure
 - **Duration:** 40 min
@@ -282,21 +285,21 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain dissolving with particles, use the words solute, solvent and solution, and investigate how temperature affects solubility." (UK KS3 Chemistry; NGSS MS-PS1-2)
 - **Hook:** "Can you keep dissolving sugar in a cup of tea forever?"
-- **Key activity:** Quick retrieval of Year 5's mass-conservation result (20 g sugar + 100 g water → 120 g solution), now with the words solute, solvent and solution. New: add weighed spatulas of salt (or sugar) to 100 ml of water at different temperatures until no more dissolves (saturated); record the mass dissolved; plot a solubility graph and compare salt (changes little with temperature) with sugar (changes a lot).
+- **Key activity:** Quick retrieval of Year 4's dissolving work (solute, solvent, solution; the mass of 20 g sugar + 100 g water is 120 g of solution). New: add weighed spatulas of salt (or sugar) to 100 ml of water at different temperatures until no more dissolves (saturated); record the mass dissolved; plot a solubility graph and compare salt (changes little with temperature) with sugar (changes a lot).
 - **Check for understanding:** "At 20 °C, 100 g of water can hold about 200 g of sugar; at 60 °C it can hold about 290 g. What would you see if you cooled a saturated 60 °C solution to 20 °C, and why?" → Crystals would form: the cooler water can hold less sugar, so about 90 g comes out of solution.
 - **Differentiation:** support: a results table and guided steps / stretch: use a solubility graph to predict how much would crystallise out on cooling
 - **Materials:** digital scale, sugar, salt, measuring jug, thermometer, warm water (adult), stirring rods
 - **Joy:** "Sugar vanishing trick" with the mass reveal
 
-### Lesson 21 — Separating mixtures: filtration, evaporation and crystallisation
+### Lesson 21 — Purifying rock salt: crystallisation and percentage yield
 - **Duration:** 45 min
-- **Objective:** "By the end, I can separate a mixture of sand and salt and produce salt crystals, explaining each step." (UK KS3 Chemistry — separation techniques; NGSS MS-PS1-2)
-- **Hook:** "Your salt has been mixed with sand by a clumsy chef. Get it back!"
-- **Key activity:** Dissolve the mixture in warm water; filter out sand; evaporate some water (gentle heat, adult supervision) and leave to crystallise on a windowsill; examine crystals with a hand lens.
-- **Check for understanding:** "Why does filtration separate sand from salt water but not salt from water?" → Sand grains are too big to pass through the filter paper; dissolved salt particles are tiny and pass through with the water.
-- **Differentiation:** support: a picture method card / stretch: explain why slow evaporation gives bigger crystals
-- **Materials:** sand, salt, warm water, filter paper, funnels, beakers, evaporating dish, heat source (adult), goggles, hand lens
-- **Joy:** Growing and examining your own salt crystals
+- **Objective:** "By the end, I can purify rock salt by dissolving, filtering and crystallising, calculate my percentage yield, and explain where product was lost." (UK KS3 Chemistry — separation techniques and purity; NGSS MS-PS1-2)
+- **Hook:** "Rock salt dug from the ground is brown and gritty. Table salt is white. How do we turn one into the other — and how much salt do we lose on the way?"
+- **Key activity:** Two-minute retrieval of Year 4's separation sequence (sieve, filter, evaporate) — not re-taught. New: a full purification with measurement — weigh 20 g of rock salt; dissolve in warm water and stir; filter out the insoluble grit; evaporate part of the water (gentle heat, adult) and leave the rest to **crystallise** slowly on a windowsill; next lesson, dry and weigh the crystals and calculate **percentage yield** (mass of pure salt ÷ mass of rock salt × 100). Examine crystals with a hand lens and compare slow- and fast-grown crystals; link to salt pans in Senegal's Lake Retba and the Bolivian salt flats.
+- **Check for understanding:** "You started with 20 g of rock salt and got 14 g of dry salt crystals. What is your percentage yield, and give two reasons it isn't 100%." → 70%; some of the rock salt was insoluble grit, not salt at all, and some salt was lost — left on the filter paper, stuck to the beaker or dish, or spilled
+- **Differentiation:** support: a picture method card and a calculation frame / stretch: explain why slow evaporation gives bigger crystals, and why chemists measure the melting point of a product to check its purity (link to Lesson 19)
+- **Materials:** rock salt, warm water, beakers, stirring rods, filter paper, funnels, evaporating dishes, heat source (adult), digital scale (0.1 g), hand lenses, goggles
+- **Joy:** "Salt refinery league" — which group gets the highest yield of the whitest crystals?
 
 ### Lesson 22 — Chromatography and distillation
 - **Duration:** 45 min
@@ -318,7 +321,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Materials:** cut plastic bottles, gravel, sand, cotton wool, activated charcoal, muddy water, measuring jugs (**do not drink the water**)
 - **Joy:** The clean-water challenge (link to *A Long Walk to Water* in English)
 
-**End-of-unit check:** Draw particle diagrams for the three states; explain melting and evaporation with particles; calculate density from mass and volume; choose and justify separation methods for sand + salt, ink dyes and pure water from sea water.
+**End-of-unit check:** Draw particle diagrams for the three states; explain the flat part of a heating curve and evaporative cooling with particles; calculate a percentage yield; calculate density from mass and volume; choose and justify separation methods for sand + salt, ink dyes and pure water from sea water.
 
 ---
 
@@ -352,21 +355,21 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can identify the signs of a chemical reaction (new substance, gas, colour change, temperature change, light) and distinguish it from a physical change." (UK KS3 Chemistry — chemical reactions; NGSS MS-PS1-2)
 - **Hook:** "Is baking a cake a physical or chemical change? What about melting chocolate?"
-- **Key activity:** Retrieval circus (Year 5 met the signs of reaction): ice melting, bicarbonate of soda + vinegar, burning a candle, dissolving salt; record and decide, now using the words physical and chemical change and explaining each with particles and atoms (the same particles rearranged in space vs atoms rearranged into new substances). Set up the steel-wool oxygen investigation for Lesson 32: damp steel wool pushed into the bottom of a measuring cylinder, inverted in a dish of water, water level marked.
-- **Check for understanding:** "When bicarbonate of soda and vinegar fizz, what evidence shows a chemical reaction?" → A gas (bubbles of carbon dioxide) is made — a new substance — and the temperature drops.
+- **Key activity:** Retrieval circus (Year 4 met the signs of a new material and Year 5 weighed up the evidence for reactions): ice melting, bicarbonate of soda + vinegar, burning a candle, dissolving salt; record and decide, now using the words physical and chemical change and explaining each with particles and atoms (the same particles rearranged in space vs atoms rearranged into new substances). Set up the steel-wool oxygen investigation for Lesson 32: damp steel wool pushed into the bottom of a measuring cylinder, inverted in a dish of water, water level marked.
+- **Check for understanding:** "Explain, using particles and atoms, why ice melting is a physical change but a candle wick burning is a chemical change." → When ice melts, the same water molecules just move further apart and slide past each other — no new substance; when the wick burns, the atoms in the wax and wick rearrange with oxygen atoms to form new substances (carbon dioxide and water), so different molecules exist afterwards.
 - **Differentiation:** support: an observation grid with the signs listed / stretch: explain why dissolving is a physical change even though the solid "disappears"
 - **Materials:** ice, bicarbonate of soda, vinegar, steel wool (soap-free), measuring cylinder, shallow dish, marker pen, candle and matches (adult), salt, thermometer, goggles
 - **Joy:** "Change detectives" circus
 
-### Lesson 27 — Word equations and conservation of mass
+### Lesson 27 — Word equations and conservation of mass: counting atoms
 - **Duration:** 45 min
-- **Objective:** "By the end, I can write word equations and show by experiment that mass is conserved in a reaction when nothing escapes." (UK KS3 Chemistry — conservation of mass; NGSS MS-PS1-5)
-- **Hook:** "Bicarbonate of soda and vinegar in an open cup lose mass. In a sealed bottle with a balloon, they don't. Why?"
-- **Key activity:** Weigh the reaction in an open cup and in a bottle sealed with a balloon; compare; write the word equation (sodium hydrogencarbonate + ethanoic acid → sodium ethanoate + water + carbon dioxide); explain that atoms are rearranged, not created or destroyed.
-- **Check for understanding:** "Why did the open cup lose mass even though mass is conserved?" → Carbon dioxide gas escaped into the air; the atoms still exist, they just left the cup.
-- **Differentiation:** support: a word-equation frame (reactants → products) with the names given / stretch: use molecule models to show atoms being rearranged in a simple reaction
-- **Materials:** digital scale (0.1 g), bicarbonate of soda, vinegar, plastic bottle, balloon, cup, goggles
-- **Joy:** The self-inflating balloon
+- **Objective:** "By the end, I can write word equations, use molecule models to show that atoms are rearranged but not created or destroyed, and explain a reaction in which the mass seems to go up." (UK KS3 Chemistry — conservation of mass; NGSS MS-PS1-5)
+- **Hook:** Teacher demo: a pad of fine steel wool on an electronic balance is touched with a 9 V battery and glows as it burns. "The reading goes *up*. Has the reaction made mass out of nothing?"
+- **Key activity:** Two-minute retrieval of Year 5's sealed-bottle vs open-cup result (mass conserved when nothing escapes) — not repeated. New: write word equations for reactions pupils know (bicarbonate + vinegar; burning methane: methane + oxygen → carbon dioxide + water); build the molecules for burning methane with model kits (one CH₄ and two O₂ on the left; one CO₂ and two H₂O on the right) and count every atom on each side — the same atoms, rearranged. Explain the steel-wool demo: iron + oxygen → iron oxide; oxygen atoms from the air joined the iron, so the product weighs more than the iron did, but the total mass of iron plus oxygen is unchanged.
+- **Check for understanding:** "When steel wool burns on a balance, the reading goes up. Explain how this fits with the law of conservation of mass." → oxygen atoms from the air combine with the iron to make iron oxide; the balance didn't weigh that oxygen at the start, so the product is heavier than the iron alone, but no atoms were created — the total mass of reactants and products is the same
+- **Differentiation:** support: a word-equation frame (reactants → products) with the names given, and ready-built models to count / stretch: explain why wood burning loses mass but steel wool burning gains mass, using atoms and where the products go
+- **Materials:** molecular model kits, word-equation cards, teacher demo: fine steel wool, a 9 V battery, an electronic balance on a heat-proof mat, goggles. Safety: teacher only; keep the steel wool away from anything flammable; hair tied back
+- **Joy:** "Atom accountants" — teams audit reactions to prove not a single atom has gone missing
 
 ### Lesson 28 — Acids and alkalis around us
 - **Duration:** 40 min
@@ -428,7 +431,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Materials:** apple slices, lemon juice, baking powder, flour, milk, mixing equipment, microwave or oven (adult)
 - **Joy:** Eating the results (in a kitchen, not a lab)
 
-**End-of-unit check:** Identify signs of chemical change in three scenarios; write a word equation for a named reaction; explain conservation of mass with an open vs closed system; place five substances on the pH scale; explain the fire triangle and the conditions for rusting.
+**End-of-unit check:** Explain with atoms why three changes are physical or chemical; write a word equation for a named reaction; explain with atoms why burning steel wool gains mass while conservation of mass still holds; place five substances on the pH scale; explain the fire triangle and the conditions for rusting.
 
 ---
 
@@ -526,7 +529,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 
 **Essential question:** How do forces make things start, stop, speed up, slow down, turn and change shape?
 
-**Key vocabulary:** force, newton (N), force meter, contact force, non-contact force, weight, mass, gravitational field strength, friction, air resistance, drag, upthrust, balanced, unbalanced, resultant force, speed, distance–time graph, extension, Hooke's law, pressure, moment, pivot
+**Key vocabulary:** force, newton (N), force meter, contact force, non-contact force, weight, mass, gravitational field strength, friction, static friction, lubricant, air resistance, drag, terminal velocity, upthrust, balanced, unbalanced, resultant force, speed, distance–time graph, extension, Hooke's law, pressure, moment, pivot
 
 ### Lesson 42 — Forces as interactions
 - **Duration:** 40 min
@@ -542,31 +545,31 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain the difference between mass and weight and calculate weight on Earth and other planets (W = m × g)." (UK KS3 Physics — weight and mass; NGSS MS-PS2-4)
 - **Hook:** "An astronaut weighs about one-sixth as much on the Moon. Has she lost mass?"
-- **Key activity:** Hang known masses on force meters (1 kg ≈ 10 N on Earth, using g ≈ 10 N/kg; more precisely 9.8); plot mass vs weight (straight line); calculate weights on the Moon (g ≈ 1.6 N/kg) and Jupiter (g ≈ 25 N/kg).
-- **Check for understanding:** "Why is saying 'I weigh 40 kg' scientifically incorrect?" → Kilograms measure mass; weight is a force measured in newtons (about 400 N on Earth).
+- **Key activity:** Two-minute retrieval of Year 4's newton-meter work (about 10 N per kilogram; the Moon's pull is about one-sixth) — not repeated. New: gravitational field strength *g* and the formula W = m × g; hang known masses on force meters and plot mass against weight to find *g* from the gradient of the straight line (≈ 9.8 N/kg); use *g* values to calculate weights on the Moon (g ≈ 1.6 N/kg), Mars (g ≈ 3.7 N/kg) and Jupiter (g ≈ 25 N/kg).
+- **Check for understanding:** "An astronaut has a mass of 70 kg. Use W = m × g to calculate her weight on Earth (g ≈ 10 N/kg) and on Mars (g ≈ 3.7 N/kg), and say which quantity changes and why." → about 700 N on Earth and about 259 N on Mars; her mass stays 70 kg because the amount of matter in her is the same, but her weight changes because Mars's gravitational field is weaker.
 - **Differentiation:** support: a calculation frame and g values card / stretch: explain why mass stays the same everywhere but weight changes
 - **Materials:** force meters, slotted masses, graph paper, planet g-value cards
 - **Joy:** "Your weight across the Solar System" poster
 
-### Lesson 44 — Friction investigation
+### Lesson 44 — Friction investigation: starting, sliding and lubricating
 - **Duration:** 45 min
-- **Objective:** "By the end, I can investigate how the surface affects friction, using a force meter and a fair test." (UK KS3 Physics; NGSS MS-PS2-2)
-- **Hook:** "Why do football boots have studs and ice skates have smooth blades?"
-- **Key activity:** Pull a shoe (or block with a mass on it) across different surfaces (carpet, wood, sandpaper, plastic) with a force meter at a steady speed; repeat three times; bar chart; conclude.
-- **Check for understanding:** "Why must you pull the shoe at a steady speed when measuring friction?" → At a steady speed the pull balances friction, so the reading equals the friction force; if speeding up, the reading would be larger.
-- **Differentiation:** support: a results table and one surface change at a time / stretch: investigate whether mass on the shoe affects friction (a line graph)
-- **Materials:** force meter, shoe or wooden block, masses, surfaces (carpet, sandpaper, wood, plastic, towel)
-- **Joy:** "Grip test" of family shoes
+- **Objective:** "By the end, I can measure the force needed to start an object moving and to keep it sliding, explain the difference, and investigate how lubricants reduce friction." (UK KS3 Physics — forces; NGSS MS-PS2-2)
+- **Hook:** "Why is it harder to get a heavy box moving than to keep it moving — and why do engineers pour oil into engines?"
+- **Key activity:** Two-minute retrieval of Year 4's friction investigation (heavier objects need more force; pull at a steady speed). New: with a force meter, pull a loaded block and record the **peak reading just before it starts to move** (static friction) and the **steady reading while it slides** (sliding friction); repeat three times and find means. Then a fair test of **lubricants**: the same block on the same board, dry, wet with water, and with a thin film of cooking oil or washing-up liquid (on a tray, cleaned afterwards); compare sliding friction and explain uses and dangers (engine oil, wet roads, ice).
+- **Check for understanding:** "The force meter read 6 N just before the block started to move, then 4 N while it slid at a steady speed. Explain both readings." → friction is bigger before the surfaces start to slide (static friction), so 6 N was needed to get it moving; once it was sliding, friction was smaller, and at a steady speed the 4 N pull exactly balanced the sliding friction
+- **Differentiation:** support: a results table with the peak and steady columns labelled / stretch: explain why cars have anti-lock brakes that stop wheels from skidding, using static and sliding friction
+- **Materials:** wooden blocks with hooks, 100 g masses, force meters (0–10 N), a board, water, cooking oil or washing-up liquid, trays and cloths. Safety: wipe up spills straight away
+- **Joy:** "Slide or stick?" — predict which lubricant wins before each test
 
-### Lesson 45 — Air resistance and water resistance: parachute challenge
+### Lesson 45 — Terminal velocity: air and water resistance
 - **Duration:** 45 min
-- **Objective:** "By the end, I can investigate how canopy area affects the fall time of a parachute and explain terminal velocity." (UK KS3 Physics; NGSS MS-PS2-2)
-- **Hook:** "Skydivers fall at about 200 km/h — but not faster. Why don't they keep speeding up?"
-- **Key activity:** Make paper or plastic-bag parachutes with canopies of different areas; drop from a fixed height; time falls with repeats; plot area vs time; explain balanced forces at terminal velocity.
-- **Check for understanding:** "When a parachute falls at a steady speed, how do the forces compare?" → Weight (down) and air resistance (up) are equal and balanced.
-- **Differentiation:** support: pre-cut canopy sizes and a guided method / stretch: calculate canopy areas and plot a line graph
-- **Materials:** plastic bags, string, paper clips or plasticine as loads, stopwatch, metre rule, scissors
-- **Joy:** "Egg drop" or "toy drop" parachute competition
+- **Objective:** "By the end, I can explain with forces why a falling object speeds up and then reaches a steady (terminal) speed, and investigate how mass changes that speed." (UK KS3 Physics — forces and motion; NGSS MS-PS2-2)
+- **Hook:** "A skydiver falls at about 200 km/h — and then opens a parachute and slows down, even though gravity hasn't changed. How?"
+- **Key activity:** Two-minute retrieval of Year 4's parachute investigation (bigger canopy, more air resistance, slower fall) — not repeated. New: drop paper cupcake cases stacked 1, 2, 3, 4 and 5 deep (same shape, more mass) from 2 m; time only the last metre, when they are falling steadily, with a phone slow-motion video against a metre rule; repeat and find means; plot mass against speed. Then water resistance: drop the same plasticine lump shaped as a ball, a flat disc and a streamlined 'torpedo' through a tall cylinder of water and time each. Draw force diagrams for a skydiver at four moments (jump, speeding up, terminal velocity, parachute open).
+- **Check for understanding:** "Explain, using forces, why a falling cupcake case speeds up at first and then falls at a steady speed — and why five stacked cases fall faster than one." → at first its weight is bigger than air resistance, so it speeds up; air resistance grows as it goes faster until it equals the weight — the forces are balanced and it falls at a steady (terminal) speed; five cases are heavier but the same shape, so they must fall faster before air resistance grows large enough to balance their weight
+- **Differentiation:** support: force-arrow cards to place on a skydiver diagram / stretch: explain why the skydiver slows down when the parachute opens even though the forces then become balanced again
+- **Materials:** paper cupcake cases, metre rules, phones or tablets with slow-motion video, stopwatches, a tall clear cylinder or bottle of water, plasticine, force-diagram sheets
+- **Joy:** "Skydiver storyboard" — a four-frame comic with the force arrows drawn to scale
 
 ### Lesson 46 — Balanced and unbalanced forces
 - **Duration:** 40 min
@@ -636,7 +639,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 
 **Essential question:** How does every living thing depend on others — and what happens when one part of the web changes?
 
-**Key vocabulary:** ecosystem, habitat, community, population, producer, consumer, herbivore, carnivore, omnivore, decomposer, food chain, food web, photosynthesis, interdependence, competition, predator, prey, adaptation, biodiversity, pollination, bioaccumulation, quadrat, sampling
+**Key vocabulary:** ecosystem, habitat, community, population, producer, consumer, herbivore, carnivore, omnivore, decomposer, food chain, food web, photosynthesis, interdependence, competition, predator, prey, adaptation, biodiversity, pollination, pollinator, bioaccumulation, quadrat, sampling
 
 ### Lesson 52 — Photosynthesis: where plants get their food
 - **Duration:** 45 min
@@ -678,15 +681,15 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Materials:** cress seeds, identical pots of compost sown two weeks earlier at three densities, rulers, digital scale (0.1 g), scissors, case-study cards
 - **Joy:** "Seedling survivor" — predict which pot will produce the tallest single plant, then measure
 
-### Lesson 56 — Pollination and seed dispersal
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how plants depend on animals for pollination and seed dispersal, and why pollinator decline matters." (UK KS3 Biology — reproduction in plants; NGSS MS-LS1-4)
-- **Hook:** "About three-quarters of the world's leading food crops benefit from animal pollination. What if bees disappeared?"
-- **Key activity:** Dissect a flower (lily or tulip) to find stamens, anthers, stigma and ovary; model pollination with cheese puffs or powder on cotton buds; seed-dispersal design challenge (spinning seeds like sycamore).
-- **Check for understanding:** "How does a bee help a plant to reproduce?" → Pollen sticks to the bee at one flower and is carried to the stigma of another, allowing fertilisation.
-- **Differentiation:** support: a labelled flower diagram / stretch: research one pollinator from another continent (e.g. hummingbirds, fruit bats)
-- **Materials:** flowers, hand lenses, cutting boards, blunt knives or scissors, cotton buds, powder or cheese puffs, card for seed models
-- **Joy:** Spinning "sycamore seed" drop competition
+### Lesson 56 — Pollinators: who feeds the world?
+- **Duration:** 45 min
+- **Objective:** "By the end, I can survey pollinator visits, explain why many crops depend on pollinators, and evaluate what happens when pollinators decline." (UK KS3 Biology — reproduction in plants and interdependence; NGSS MS-LS2-2)
+- **Hook:** "Every vanilla pod you have ever tasted from Madagascar was pollinated by a human hand. Why?"
+- **Key activity:** Two-minute retrieval of Year 4's flower dissection and the difference between pollination and fertilisation — not repeated. New: the story of vanilla — its natural pollinators live in Mexico and Central America, so when vanilla was grown on the island of Réunion it produced no pods until, in 1841, a 12-year-old enslaved boy, Edmond Albius, invented a quick way to pollinate each flower by hand, still used today. Fieldwork: in pairs, watch a patch of flowers for ten minutes and tally visits by bees, hoverflies, butterflies and others; pool the class data and chart it by flower colour and shape. Then read simple data on crops that need pollinators (e.g. apples, almonds, cocoa, coffee) versus wind-pollinated crops (wheat, rice, maize) and discuss causes of pollinator decline (habitat loss, pesticides, disease, climate) and solutions (wildflower strips, bee hotels, less pesticide).
+- **Check for understanding:** "Farmers in Madagascar pollinate vanilla by hand. Why do they have to, and what does this show about why pollinator decline matters for food?" → vanilla's natural pollinators don't live there, so without hand pollination the flowers would not be fertilised and no pods (fruits with seeds) would grow; many food crops depend on insects in the same way, so if pollinators decline, harvests fall or farmers must pay for slow, expensive hand pollination
+- **Differentiation:** support: a picture tally sheet of common pollinators / stretch: use the class data to suggest which flowers to plant for the most pollinator visits, and design a fair test to check it
+- **Materials:** tally sheets, clipboards, hand lenses, stopwatches, a patch of flowering plants (or pollinator videos in winter), crop-pollination data cards, photographs of vanilla flowers. Safety: no touching bees or wasps; check for sting allergies before fieldwork
+- **Joy:** "Pollinator patrol" — design and plant (or plan) a pollinator-friendly corner of the school grounds
 
 ### Lesson 57 — Fieldwork: sampling with quadrats
 - **Duration:** 45 min
@@ -743,7 +746,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Objective:** "By the end, I can explain the seasons using Earth's 23.5° tilt, not its distance from the Sun." (UK KS3 Physics — Earth and space; NGSS MS-ESS1-1)
 - **Hook:** "Earth is actually closest to the Sun in early January. So why is January winter in Europe but summer in Australia?"
 - **Key activity:** Retrieve Year 4's tilted-orbit model with a lamp and globe, then go deeper: shine a torch on squared paper at different angles and count the lit squares to show that steeper sunlight is more concentrated; compare day lengths in different cities (e.g. Oslo, Singapore, Buenos Aires) across the year.
-- **Check for understanding:** "Why is it summer in the southern hemisphere when it is winter in the northern hemisphere?" → Earth's tilt means the southern hemisphere is tilted towards the Sun then — it gets more direct sunlight and longer days.
+- **Check for understanding:** "Using your torch-and-squares results, explain why the same Sun heats the ground less in winter, even at midday." → in winter the Sun is lower in the sky, so its light arrives at a shallower angle and is spread over a larger area (more squares); each square gets less energy, and the days are shorter too, so the ground warms less.
 - **Differentiation:** support: a four-position diagram to label / stretch: explain why the equator has little seasonal temperature change and why the poles have midnight sun
 - **Materials:** lamp, globe or ball on a skewer, torch, squared paper, day-length data for world cities
 - **Joy:** "Midnight sun" and "polar night" data exploration
@@ -752,7 +755,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain the phases of the Moon and the difference between solar and lunar eclipses." (UK KS3 Physics; NGSS MS-ESS1-1)
 - **Hook:** "The Moon doesn't make its own light — so why does it change shape?"
-- **Key activity:** Hold a ball on a stick at arm's length and turn around a lamp in a darkened room to see the phases; record a month of Moon observations (started earlier as homework); model eclipses.
+- **Key activity:** Two-minute retrieval of Year 4's ball-and-lamp phases model (not repeated) and a check of the class's month-long Moon diary (started earlier as homework). New: eclipses — with a lamp, a globe and a small ball, model a solar eclipse (the Moon's shadow falls on Earth, only at new moon) and a lunar eclipse (Earth's shadow falls on the Moon, only at full moon); show with a tilted hoop why they don't happen every month; the coincidence that the Sun is about 400 times wider than the Moon and about 400 times further away, so they look the same size; look up the next eclipses visible from your country.
 - **Check for understanding:** "Why don't we see an eclipse every month?" → The Moon's orbit is tilted slightly relative to Earth's, so the Sun, Earth and Moon line up exactly only occasionally.
 - **Differentiation:** support: a phase-sequence card to match / stretch: explain why we always see the same side of the Moon
 - **Materials:** lamp, polystyrene balls on sticks, darkened room, Moon diary
@@ -798,7 +801,7 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Materials:** fact cards, briefing templates, presentation materials
 - **Joy:** Mission-control role play
 
-**End-of-unit check:** Explain the seasons with a tilted-Earth diagram; sequence the Moon's phases and explain them; explain orbits with gravity; identify the three rock types and their formation; draw the carbon cycle and explain the enhanced greenhouse effect.
+**End-of-unit check:** Explain the seasons using the angle of sunlight and day length; explain solar and lunar eclipses and why they are rare; explain orbits with gravity; identify the three rock types and their formation; draw the carbon cycle and explain the enhanced greenhouse effect.
 
 ---
 
