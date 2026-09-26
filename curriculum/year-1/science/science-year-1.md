@@ -30,7 +30,7 @@ season.
 **What Year 2 relies on:** confidence running a simple fair test with one thing changed; recording in a table;
 knowing plants need water, light and warmth; food chains; the idea that materials are chosen for their
 properties and that heating/cooling changes some materials; vibration as the cause of sound. Year 2 (ages 7–8)
-adds the jobs of plant parts, pollination and seed dispersal, nutrition and skeletons, rocks, fossils and soils,
+adds the jobs of plant parts, pollination, fruits (linking back to this year's seed dispersal), how much water, soil and space plants need, nutrition and skeletons, rocks, fossils and soils,
 light and shadows, and forces and magnets.
 
 ## Time budget
@@ -70,7 +70,7 @@ light and shadows, and forces and magnets.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can name the life processes (move, breathe, feel, grow, reproduce, get rid of waste, feed) and show that plants do them too." (UK NC Y2 LH — life processes)
 - **Hook:** "A plant can't walk. Does that mean it isn't alive?"
-- **Key activity:** Learn the life processes with actions (MRS GREN as a class chant: Move, Respiration/breathing, Sensitivity, Growth, Reproduction, Excretion, Nutrition). Evidence hunt: sunflower turning to light (moves, senses), time-lapse of a seedling (grows), seeds (reproduces).
+- **Key activity:** Learn the life processes with actions (MRS GREN as a class chant: Move, Respiration/breathing, Sensitivity, Growth, Reproduction, Excretion, Nutrition). Evidence hunt: sunflower turning to light (moves, senses), time-lapse of a seedling (grows), seeds (reproduces). Note: plants have no lungs, but they do take in and give out air through tiny holes in their leaves — so "breathing" here means using air, not lungs.
 - **Check for understanding:** "How do we know a plant moves if we never see it walk?" → It moves slowly — it turns its leaves towards the light and its roots grow down.
 - **Differentiation:** support: 4 processes with picture cards / stretch: explain how a fungus or a tree shows the processes
 - **Materials:** potted plants (one moved by a window a week ago), time-lapse video of seed growth, action cards
@@ -130,8 +130,8 @@ light and shadows, and forces and magnets.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can use the words producer, predator and prey to describe animals in a food chain." (UK NC Y2 LH — food chains, vocabulary)
 - **Hook:** "Is a bird a predator or prey? Trick question!"
-- **Key activity:** Label producers (plants make their own food using sunlight), predators and prey on chains; discover some animals are both (a blackbird eats worms, a cat catches blackbirds). Pond-dipping photos or a video to build a chain.
-- **Check for understanding:** "Why does every food chain start with a plant?" → Plants are producers: they make their own food using sunlight, and every other living thing in the chain depends on them.
+- **Key activity:** Label producers (green plants — and seaweed, which is a plant-like alga — make their own food using light, air and water; they don't "eat" sunlight), predators and prey on chains; discover some animals are both (a blackbird eats worms, a cat catches blackbirds). Pond-dipping photos or a video to build a chain.
+- **Check for understanding:** "Why does every food chain we have built start with a green plant (or seaweed)?" → They are producers: they make their own food using light, air and water, and every animal in the chain depends on that food.
 - **Differentiation:** support: sort pictures into plant / predator / prey / stretch: find an animal that is both predator and prey and explain
 - **Materials:** labelled cards, pond or rock-pool photos, habitat video
 - **Joy:** "Predator and prey" tag game outdoors.
@@ -259,7 +259,7 @@ light and shadows, and forces and magnets.
 ### Lesson 20 — Inventors of new materials
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain how an inventor found a new material or a new use for one." (UK NC Y2 MA — people who developed useful materials; link: History)
-- **Hook:** "Before rubber tyres, bikes shook your bones! Who fixed it?"
+- **Hook:** "Before air-filled tyres, bikes shook your bones! Who fixed it?"
 - **Key activity:** Short stories: Charles Macintosh (waterproof fabric), John Dunlop (air-filled rubber tyre), and the ancient Chinese invention of paper. Timeline them. Discuss how each property solved a problem.
 - **Check for understanding:** "What problem did the waterproof coat fabric solve, and which property made it work?" → Getting wet in the rain; the rubber layer is waterproof.
 - **Differentiation:** support: 2 inventions with pictures / stretch: invent a new material for a job and name its properties
@@ -281,7 +281,7 @@ light and shadows, and forces and magnets.
 - **Objective:** "By the end, I can choose materials for a boat, test it and improve it." (UK NC Y2 WS — test and improve; NGSS K-2-ETS1-1)
 - **Hook:** "Build a boat that can carry the most marbles without sinking!"
 - **Key activity:** Plan (choose from foil, card, plastic, sponge), build, test in water adding marbles one at a time, record, improve once, retest.
-- **Check for understanding:** "Why did card work less well than foil or plastic?" → Card absorbs water and goes soggy; foil and plastic are waterproof.
+- **Check for understanding:** "Your card boat floated at first but sank later. Explain why, using a property word." → Card is absorbent — it soaks up water, goes soggy and weak; foil and plastic are waterproof.
 - **Differentiation:** support: foil boats only / stretch: explain how changing the shape (wider) helped
 - **Materials:** foil, card, plastic trays, sponges, marbles, water tray, towels, results table
 - **Joy:** The marble-sinking countdown.
@@ -331,7 +331,7 @@ light and shadows, and forces and magnets.
 - **Objective:** "By the end, I can order the stages of a butterfly and a frog life cycle and describe the changes." (UK NC Y2 AH — growth; NGSS 3-LS1-1 preview)
 - **Hook:** "An egg, a very hungry caterpillar… what comes next?"
 - **Key activity:** Order life-cycle cards; model with play dough; if possible, raise caterpillars in a class butterfly kit (spring) or watch time-lapse video.
-- **Check for understanding:** "What happens inside the chrysalis?" → The caterpillar's body changes into a butterfly.
+- **Check for understanding:** "A caterpillar and a butterfly look completely different. How can they be the same animal?" → The caterpillar grows, makes a chrysalis, and inside it its body changes into a butterfly — it is one animal changing as it grows (and the butterfly lays eggs that hatch into caterpillars).
 - **Differentiation:** support: 4 stages with pictures / stretch: compare the two life cycles — what is the same?
 - **Materials:** life-cycle cards, play dough, butterfly kit or time-lapse video
 - **Joy:** Play-dough life-cycle models.
@@ -363,7 +363,7 @@ light and shadows, and forces and magnets.
 - **Key activity:** Count breaths (or feel heartbeat) at rest, after 1 minute of jumping, and after resting. Record in a table; discuss why the heart works harder.
 - **Check for understanding:** "Why does your heart beat faster when you exercise?" → Your muscles need more oxygen and energy, so the heart pumps blood faster.
 - **Differentiation:** support: describe "faster / slower" rather than count / stretch: compare two different exercises and draw a bar chart
-- **Materials:** stopwatch, results table, space to move
+- **Materials:** stopwatch, results table, cleared space to move (safety: non-slip floor, space between children; children with asthma or heart conditions join at their own pace with inhalers to hand)
 - **Joy:** Star-jump science.
 
 ### Lesson 30 — Food groups and a balanced plate
@@ -431,7 +431,7 @@ light and shadows, and forces and magnets.
 - **Objective:** "By the end, I can identify sounds around me and name their sources." (NGSS 1-PS4-1; link: Music)
 - **Hook:** "Close your eyes for one minute. How many sounds can you hear?"
 - **Key activity:** Listening walk indoors and outdoors; record sounds and their sources on a map; sort into loud and quiet, near and far.
-- **Check for understanding:** "What is the 'source' of a sound?" → The thing that makes it — e.g. the bird is the source of birdsong.
+- **Check for understanding:** "You hear a dog barking next door but can't see it. What is the source of the sound, and how did it reach you?" → The dog is the source (the thing making the sound); the sound travelled from the dog through the air (and walls) to my ears.
 - **Differentiation:** support: picture recording sheet / stretch: rank sounds by volume and explain
 - **Materials:** clipboards, sound map, blindfolds (optional)
 - **Joy:** Silent listening walk.
@@ -479,11 +479,11 @@ light and shadows, and forces and magnets.
 ### Lesson 40 — High and low sounds
 - **Duration:** 25 min
 - **Objective:** "By the end, I can make high and low sounds and notice that shorter or tighter things usually make higher sounds." (link: Music pitch; NGSS 1-PS4-1)
-- **Hook:** Bottles with different water levels: "Blow across the tops. Why different notes?"
-- **Key activity:** Test: elastic bands of different thickness, chime bars of different lengths, bottles with different water levels (tap them). Record high/low.
-- **Check for understanding:** "Which chime bar makes the higher note — the short one or the long one?" → The short one.
+- **Hook:** Chime bars of different lengths: "Same metal, different notes. Why?"
+- **Key activity:** Test: chime bars of different lengths, elastic bands of different tightness and thickness over a box, bottles with different water levels (tap them gently with a spoon — the water and glass vibrate, so the fullest bottle gives the lowest note). Record high/low. (Teacher note: blowing across the bottles gives the opposite pattern, because then the air inside vibrates — keep to tapping to avoid confusion.)
+- **Check for understanding:** "Here are two chime bars you haven't heard. Which will make the higher note, and why?" → The shorter one — shorter (or tighter, thinner) things vibrate faster and make higher sounds.
 - **Differentiation:** support: sort sounds into high/low / stretch: make a 3-note scale with bottles
-- **Materials:** glass bottles and water, chime bars, elastic bands, box
+- **Materials:** chime bars, elastic bands, box, identical bottles and water (plastic bottles or sturdy glass tapped gently, adult supervised), spoons
 - **Joy:** Bottle orchestra.
 
 ### Lesson 41 — Design and make a musical instrument
@@ -540,7 +540,7 @@ light and shadows, and forces and magnets.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe how the Moon seems to change shape over a month and record it." (NGSS 1-ESS1-1)
 - **Hook:** Read *Papa, Please Get the Moon for Me* by Eric Carle: "Does the Moon really get smaller?"
-- **Key activity:** Moon diary (4 weeks, at home with families); ball-and-lamp model showing we see different amounts of the lit half. a paper-plate phase wheel.
+- **Key activity:** Moon diary (4 weeks, at home with families); ball-and-lamp model showing we see different amounts of the lit half; a paper-plate phase wheel.
 - **Check for understanding:** "Does the Moon really change shape? What changes?" → No — it's always round; we see different amounts of its sunlit half as it moves around Earth.
 - **Differentiation:** support: order 4 phase pictures / stretch: predict the shape a week after full moon
 - **Materials:** *Papa, Please Get the Moon for Me* by Eric Carle, polystyrene ball, lamp, moon diary sheets
@@ -560,8 +560,8 @@ light and shadows, and forces and magnets.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can compare the amount of daylight in different seasons using sunrise and sunset times." (NGSS 1-ESS1-2)
 - **Hook:** "Why is it dark at breakfast in winter but light in summer?"
-- **Key activity:** Read sunrise and sunset times from a calendar or website for four months; count daylight hours; make a block diagram (link: Maths statistics).
-- **Check for understanding:** "Which season has the most daylight, and what does our chart show?" → Summer; its bar is the tallest.
+- **Key activity:** Read sunrise and sunset times from a calendar or website for four months; count daylight hours; make a block diagram (link: Maths statistics). Note: the difference is large far from the equator and small near it — a child in Singapore or Nairobi will find daylight almost the same all year, which is itself a great finding.
+- **Check for understanding:** "Our chart shows June and December. How can you tell from the bars which is summer where we live?" → Summer has the most daylight, so its bar is the tallest (in the southern hemisphere that is December; near the equator the bars are almost the same).
 - **Differentiation:** support: compare two months / stretch: compare with a city in the other hemisphere
 - **Materials:** sunrise/sunset table, squared paper
 - **Joy:** "Daylight detective" chart.
@@ -859,6 +859,8 @@ light and shadows, and forces and magnets.
 
 **Misconceptions to watch for and how to fix them**
 - *"If it moves, it's alive"* (cars, clouds, fire) → use the full life-process test.
+- *"A seed is dead"* (or "never alive") → a seed is **alive but resting (dormant)**: given water and warmth it germinates and grows. Evidence: the soaked bean in Lesson 53 and the jar beans in Lesson 54.
+- *"Plants eat sunlight"* → plants use the Sun's **light energy** to make their own food (sugar) from air and water; light is not food itself.
 - *"Plants get their food from the soil"* → plants make their own food using light; soil gives water and minerals — the dark-cupboard plant is the evidence.
 - *"A whale is a fish"* (retrieved from Foundation) → breathes air, feeds milk to young: a mammal.
 - *"Heavier/bigger things are made of stronger materials"* → test, don't assume.

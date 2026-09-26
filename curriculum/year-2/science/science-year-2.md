@@ -90,7 +90,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Objective:** "By the end, I can present results in a bar chart and write a simple conclusion." (UK NC Y3 Working scientifically; Maths link: statistics)
 - **Hook:** Yesterday's helicopter data — "What does it tell us?"
 - **Key activity:** Turn results into a bar chart (Maths link); write a conclusion using "We found that… This shows… because…"; compare with the prediction.
-- **Check for understanding:** "What is the difference between a result and a conclusion?" → A result is what we measured; a conclusion explains what the results show.
+- **Check for understanding:** "'Helicopter A took 3 seconds to fall; helicopter B took 5 seconds' and 'Longer wings make a helicopter fall more slowly.' Which sentence is a result and which is a conclusion? How do you know?" → The first is a result (what we measured); the second is a conclusion (what the results show, as a pattern we can use).
 - **Differentiation:** support: axes drawn and scale given, conclusion frame / stretch: suggest why one result didn't fit the pattern.
 - **Materials:** squared paper, rulers, data from Lesson 2, conclusion frames
 - **Joy:** Each group reveals its chart like a "science news" announcement.
@@ -113,20 +113,20 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Materials:** potted plants (e.g. geraniums), hand lenses, newspaper, labelling sheets
 - **Joy:** "Plant surgeons" — gently unpot and examine a plant.
 
-### Lesson 6 — Investigation plan: what do plants need to grow well?
+### Lesson 6 — Investigation plan: how much do plants need?
 - **Duration:** 25 min
-- **Objective:** "By the end, I can plan a fair test to find out what plants need." (UK NC Y3 Plants; Working scientifically; NGSS 2-LS2-1)
-- **Hook:** Two identical bean seedlings: "One will get everything; one will miss something. What should we test?"
-- **Key activity:** Groups choose one factor (light, water, or warmth) and plan a fair test with identical seedlings; set up; measure height on day 1; start a class results table to be updated weekly.
-- **Check for understanding:** "In your test, what is the one thing you change, and what do you keep the same?" → e.g. change light (window vs cupboard); keep water, pot, soil and seedling type the same.
-- **Differentiation:** support: planning frame with pictures / stretch: predict with a reason and suggest how to measure "growing well" (height, leaf count, colour).
-- **Materials:** bean or cress seedlings, identical pots, compost, rulers, a dark cupboard, measuring cylinder for water
+- **Objective:** "By the end, I can plan a fair test to find out how the amount of water, the soil, or the space a plant has affects how well it grows." (UK NC Y3 Plants — requirements for life and growth: air, light, water, nutrients from soil, room to grow; Working scientifically; NGSS 2-LS2-1)
+- **Hook:** "In Year 1 we proved plants need water and light. But does more water always mean a bigger plant?"
+- **Key activity:** Quick retrieval of the Year 1 yes/no test, then go further: groups choose one factor and test it at three or four *levels* — amount of water (e.g. 0, 10, 30, 60 ml every two days), soil vs sand vs cotton wool (nutrients), or 1, 5 or 20 seeds per pot (room to grow). Plan change / keep the same / measure (height in mm, leaf count); set up; measure on day 1; start a class results table to be updated weekly.
+- **Check for understanding:** "In your test, what is the one thing you change, what do you keep the same, and why can't we just test 'water' against 'no water' this time?" → e.g. change the amount of water; keep the pot, soil, seedling type and light the same; we already know plants need some water — now we want to find out how much is best, so we need several amounts.
+- **Differentiation:** support: planning frame with pictures and two levels only (a little water / a lot of water) / stretch: predict the shape of the results with a reason (e.g. "growth goes up then down — too much water drowns roots") and suggest how to measure "growing well" (height, leaf count, colour).
+- **Materials:** cress or bean seeds and seedlings, identical pots, compost, sand, cotton wool, rulers, measuring cylinder for water, labels
 - **Joy:** Each group names and "adopts" its seedlings.
 
 ### Lesson 7 — Leaves: food factories
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain that leaves use light to make food for the plant." (UK NC Y3 Plants; NGSS 5-LS1-1 preview)
-- **Hook:** A leaf half-covered with foil for a week (set up in advance) — "Why is the covered part paler?"
+- **Hook:** A leaf half-covered with foil for a week (set up in advance) — "Why is the covered part paler?" (it may look paler or yellower after a week in the dark)
 - **Key activity:** Observe the covered leaf; explain simply that green leaves use sunlight, air and water to make the plant's food (no need for the word photosynthesis to be mastered); compare leaf shapes collected outdoors.
 - **Check for understanding:** "Why do plants in a dark cupboard go pale and weak?" → Without light the leaves can't make enough food.
 - **Differentiation:** support: sort leaves by shape and colour first / stretch: explain why leaves are thin and flat (to catch light).
@@ -173,45 +173,45 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Materials:** pipe cleaners, paper flowers, cocoa powder or cheese puffs, a short pollination video
 - **Joy:** Pollinator role play in the playground.
 
-### Lesson 12 — Seed dispersal
+### Lesson 12 — Fruits and seed dispersal
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain different ways seeds are spread and why it helps the plant." (UK NC Y3 Plants – dispersal; NGSS 2-LS2-2)
-- **Hook:** A dandelion clock and a burr on a sock — "How do seeds travel?"
-- **Key activity:** Sort real seeds by dispersal method (wind, animals — hooks and eating, water, explosion); test "sycamore" helicopters and burdock on fabric.
-- **Check for understanding:** "Why is it good for seeds to land far from the parent plant?" → They won't compete for light, water and space with the parent.
-- **Differentiation:** support: sort with picture cards / stretch: design a seed that would travel by water and explain its features.
-- **Materials:** dandelion clocks, sycamore seeds, burrs, coconut (picture or real), fruits with seeds, fabric
-- **Joy:** "Seed designer" — make a paper seed that stays in the air the longest.
+- **Objective:** "By the end, I can explain that a fruit grows from the flower to protect and spread seeds, and link a fruit's features to how its seeds travel." (UK NC Y3 Plants – seed formation and dispersal; NGSS 2-LS2-2)
+- **Hook:** "Is a tomato a fruit or a vegetable? A scientist says: if it has seeds inside and grew from a flower, it's a fruit!"
+- **Key activity:** Retrieve Year 1's four ways seeds travel (wind, water, animals, bursting) in two minutes, then go deeper: cut open fruits (apple, tomato, pepper, pea pod, orange; photos of a coconut and a burdock burr); count and compare seeds; link each fruit back to the flower's ovary (Lesson 10); decide how its seeds are most likely spread and which feature shows it (sweet flesh, hooks, wings, a floating husk, a pod that dries and bursts).
+- **Check for understanding:** "A plant has sweet, brightly coloured berries with tiny hard seeds. How are its seeds most likely spread, and why do the seeds need a tough coat?" → Animals eat the berries and drop the seeds somewhere else in their droppings; the tough coat stops the seeds being digested.
+- **Differentiation:** support: match five real fruits to picture cards of wind / water / animal / bursting / stretch: explain why a plant "spends" energy making sweet fruit, and design a fruit for a plant growing on a river bank.
+- **Materials:** apples, tomatoes, peppers, pea pods, oranges, coconut and burr (real or photos), chopping board and knife (adult only), hand lenses, seed-count sheet (check fruit allergies; no tasting without permission)
+- **Joy:** "Seed count" — predict, then count, how many seeds hide in a pepper or a tomato.
 
 ### Lesson 13 — The life cycle of a flowering plant
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe the life cycle of a flowering plant from seed to seed." (UK NC Y3 Plants – life cycle; NGSS 3-LS1-1)
-- **Hook:** A bean split open — "There's a baby plant inside!"
-- **Key activity:** Observe soaked beans (seed coat, tiny root and shoot); sequence the life cycle (germination, growth, flowering, pollination, seed formation, dispersal) in a circular diagram.
+- **Hook:** "Which came first — the seed or the plant?"
+- **Key activity:** Retrieve the Year 1 bean dissection (seed coat, baby root and shoot, food store) with a quick look at one soaked bean; then sequence the life cycle (germination, growth, flowering, pollination, seed formation, dispersal) in a circular diagram.
 - **Check for understanding:** "Why is it called a cycle and not a line?" → The seeds grow into new plants that make more seeds — it repeats.
 - **Differentiation:** support: picture sequence to arrange / stretch: compare with an animal life cycle.
 - **Materials:** soaked broad beans, hand lenses, life-cycle templates
-- **Joy:** Germination jars — beans on wet paper towel against glass.
+- **Joy:** Chalk a giant class life-cycle wheel on the playground and walk it round.
 
 ### Lesson 14 — Seedling investigation: conclusions
 - **Duration:** 25 min
 - **Objective:** "By the end, I can use my results to draw a conclusion about what plants need." (UK NC Y3 Working scientifically)
 - **Hook:** Final measurement day.
-- **Key activity:** Final measurements; bar chart of results; write a conclusion; compare groups' findings about light, water and warmth.
-- **Check for understanding:** "What does your evidence show about light and plant growth?" → Plants with light grew taller, greener and healthier; without light they grew pale and weak.
+- **Key activity:** Final measurements; bar chart of results; write a conclusion; compare groups' findings about water, soil and room to grow.
+- **Check for understanding:** "What does your evidence show about how much your plants needed? Use two numbers from your table." → e.g. "The 30 ml pots grew to 85 mm but the 60 ml pots only 40 mm and went mouldy — plants need water, but too much is harmful"; or "crowded pots had thinner, shorter seedlings because they competed for light and water"; or "seedlings in soil grew bigger than in cotton wool because soil gives nutrients".
 - **Differentiation:** support: conclusion frame / stretch: evaluate the test — what would you improve?
 - **Materials:** seedlings, rulers, squared paper
 - **Joy:** "Plant awards" ceremony.
 
-### Lesson 15 — Scientist spotlight: Janaki Ammal and Wangari Maathai
+### Lesson 15 — Scientist spotlight: Janaki Ammal and Yuan Longping
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how two scientists' work with plants changed lives." (UK NC Y3 Working scientifically – scientists; global citizenship)
-- **Hook:** A stick of sugarcane and a picture of a tree nursery.
-- **Key activity:** Learn about Janaki Ammal (Indian botanist who bred sweeter sugarcane varieties for India) and Wangari Maathai (Kenyan scientist whose Green Belt Movement planted tens of millions of trees); discuss why plants matter to people.
-- **Check for understanding:** "Why did planting trees help communities in Kenya?" → Trees provide wood, shade and food, protect soil and water, and give women work.
-- **Differentiation:** support: picture-supported fact cards / stretch: compare the two scientists' goals.
-- **Materials:** fact cards, photos, *Wangari's Trees of Peace* (Jeanette Winter)
-- **Joy:** Plant a tree or seedling in the school grounds.
+- **Objective:** "By the end, I can explain how two plant scientists bred better crops and why that changed lives." (UK NC Y3 Working scientifically – scientists; global citizenship)
+- **Hook:** A stick of sugarcane and a bowl of rice: "Two scientists, two countries, one big idea."
+- **Key activity:** Learn about Janaki Ammal (Indian botanist who bred sugarcane varieties that grew well in India, so the country could grow more of its own sugar) and Yuan Longping (Chinese agricultural scientist who bred high-yield hybrid rice, helping feed many millions of people); link to pollination (Lesson 11) — breeders move pollen between chosen parent plants to combine their best features. Retrieve Year 1's Wangari Maathai in one sentence.
+- **Check for understanding:** "Both scientists moved pollen from one chosen plant to another. Why could that help feed more people?" → The new plants combine good features from both parents (sweeter, bigger or stronger crops), so farmers grow more food on the same land.
+- **Differentiation:** support: picture-supported fact cards / stretch: compare the two scientists' goals and suggest a crop in their own country they would improve, and how.
+- **Materials:** fact cards, photos, sugarcane (or a photo), rice seed (unmilled paddy rice — shop rice will not germinate), shallow tray, soil, water
+- **Joy:** Sow rice seed in a flooded tray and watch a mini paddy field sprout.
 
 ### Lesson 16 — Plants around the world
 - **Duration:** 25 min
@@ -346,7 +346,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Objective:** "By the end, I can explain how diet and exercise keep bones and muscles healthy." (UK NC Y3 Animals; PE & Health link)
 - **Hook:** An astronaut returning from space — "Why do astronauts' bones get weaker?"
 - **Key activity:** Discuss calcium, protein, exercise and sleep; design a "healthy bones" poster.
-- **Check for understanding:** "Why do astronauts need to exercise in space?" → Without gravity their bones and muscles don't work as hard and get weaker.
+- **Check for understanding:** "Why do astronauts need to exercise in space?" → Floating weightless, their bones and muscles don't have to hold their bodies up, so they get weaker unless they exercise.
 - **Differentiation:** support: poster frame / stretch: explain the role of calcium.
 - **Materials:** poster paper, food pictures
 - **Joy:** Astronaut exercises.
@@ -426,7 +426,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Key activity:** Sequence steps (animal dies → buried by sediment → soft parts rot → hard parts replaced by minerals → layers become rock → rock erodes and fossil is found); make a mould-and-cast fossil with modelling clay and plaster of Paris.
 - **Check for understanding:** "Why are fossils usually of shells and bones, not skin?" → Hard parts last long enough to be replaced by minerals; soft parts rot away.
 - **Differentiation:** support: picture sequencing / stretch: explain the difference between a mould and a cast fossil.
-- **Materials:** fossils or replicas, modelling clay, shells, plaster of Paris, paper cups
+- **Materials:** fossils or replicas, modelling clay, shells, plaster of Paris, paper cups (safety: an adult mixes the plaster; it warms as it sets — never set hands or fingers in it; avoid breathing the dust)
 - **Joy:** Make your own fossil to "dig up" next lesson.
 
 ### Lesson 36 — Scientist spotlight: Mary Anning
@@ -444,7 +444,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Objective:** "By the end, I can separate soil into its parts and describe what I find." (UK NC Y3 Rocks – soils; NGSS 2-ESS2-1 link)
 - **Hook:** A jar of muddy water that has settled overnight into layers.
 - **Key activity:** Shake soil samples with water in jars; observe layers after settling (stones, sand, silt, clay, floating organic matter/humus); sieve dry soil; identify rock pieces, living things and decaying matter.
-- **Check for understanding:** "What are the two main ingredients of soil?" → Tiny pieces of rock and organic matter (decayed plants and animals), plus air and water.
+- **Check for understanding:** "Your jar has sand and silt at the bottom and bits of leaf floating on top. What do the layers tell you about what soil is made of, and where did each part come from?" → Soil is tiny pieces of rock (worn off bigger rocks by weathering) plus organic matter/humus (rotted plants and animals), with air and water in the gaps.
 - **Differentiation:** support: labelled layer diagram to match / stretch: explain where the tiny rock pieces came from (weathering).
 - **Materials:** soil samples, clear jars with lids, water, sieves, hand lenses, trays, gloves
 - **Joy:** Minibeast count in the soil sample.
@@ -587,13 +587,13 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Materials:** torches, puppets on sticks, rulers, screens (white card)
 - **Joy:** "Giant maker" shadows.
 
-### Lesson 51 — The Sun, day and night
+### Lesson 51 — Sunrise in the east: the spinning Earth
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain that day and night happen because the Earth spins." (NGSS 1-ESS1-1 / 5-ESS1-2 preview; Earth & space)
-- **Hook:** A globe and a lamp in a darkened room.
-- **Key activity:** Model the Earth rotating once a day with a sticker for "our town"; see day and night; locate a partner school in another time zone.
-- **Check for understanding:** "Why does the Sun seem to move across the sky?" → The Earth is spinning; the Sun only appears to move.
-- **Differentiation:** support: role play spinning / stretch: explain why it's night in some countries while day here.
+- **Objective:** "By the end, I can explain why the Sun rises in the east and sets in the west, and why places around the world have different times." (NGSS 1-ESS1-1 / 5-ESS1-2 preview; Earth & space)
+- **Hook:** "In Tokyo children are going to bed; in Mexico City they are just waking up. It's the same moment — how?"
+- **Key activity:** Retrieve Year 1's globe-and-lamp day and night, then go further: spin the globe west-to-east (anticlockwise seen from above the North Pole) with stickers on three cities; see which city meets sunrise first; children stand as "cities" in a circle round a lamp and turn to find "east", where the Sun appears; compare real clock times in partner cities (Geography link: time zones).
+- **Check for understanding:** "Why does the Sun rise in the east everywhere on Earth?" → The Earth spins towards the east, so each place turns to face the Sun on its eastern side first; the Sun only appears to move.
+- **Differentiation:** support: role play spinning with an arrow on the floor marking "east" / stretch: work out which of three cities sees sunrise first and explain.
 - **Materials:** globe, lamp, stickers
 - **Joy:** "Earth spin" role play.
 
@@ -602,8 +602,8 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Objective:** "By the end, I can measure how a shadow changes during the day and explain why." (UK NC Y3 Light; Earth & space; Working scientifically)
 - **Hook:** Chalk outline of a child's shadow at 9 a.m.
 - **Key activity:** Measure a stick's shadow (length and direction) every hour on a sunny day; record; explain using the Sun's apparent position.
-- **Check for understanding:** "Why was the shadow shortest around midday?" → The Sun was highest in the sky.
-- **Differentiation:** support: record with pictures / stretch: predict the shadow at 3 p.m.
+- **Check for understanding:** "Use your table to explain why the shadow changed length and direction during the day." → The Earth spins, so the Sun appears to move across the sky; when it is low (morning, late afternoon) the shadow is long, when it is high (around midday) the shadow is short, and the shadow always points away from the Sun.
+- **Differentiation:** support: record with pictures / stretch: predict the shadow at 3 p.m. (and notice that near the equator the midday shadow almost disappears)
 - **Materials:** stick, chalk, tape measures, compass, recording sheets
 - **Joy:** Chalk shadow art.
 
@@ -811,9 +811,9 @@ and teeth); the properties of materials (leading to states of matter); and light
 - *Stone Girl, Bone Girl: The Story of Mary Anning* — Laurence Anholt: a beautifully illustrated, accurate picture-book life of the fossil hunter.
 - *A Seed Is Sleepy* — Dianna Hutts Aston & Sylvia Long: gorgeous, accurate introduction to seeds and dispersal.
 - *The Tiny Seed* — Eric Carle: a classic life-cycle story for discussing seed dispersal and survival.
-- *Wangari's Trees of Peace* — Jeanette Winter: the true story of a Kenyan scientist who planted millions of trees.
+- *Wangari's Trees of Peace* — Jeanette Winter: the true story of a Kenyan scientist who planted millions of trees (met in Year 1; keep in the class library for retrieval).
 - *Ada Twist, Scientist* — Andrea Beaty: a joyful picture book about asking questions and testing ideas.
-- *Mae Among the Stars* — Roda Ahmed: an astronaut's childhood curiosity (links to light and space).
+- *Mae Among the Stars* — Roda Ahmed: Mae Jemison's childhood dream of space (links to the Sun, day and night, and to Year 1's Scientist spotlight).
 - **Plant, rock and magnet kits:** hand lenses, bar and ring magnets, force meters (10 N), rock sample kit, fossil replicas, UV beads, safety mirrors, torches, measuring cylinders, stopwatches.
 - **Explorify** (free, from the Wellcome Trust) — short "what's going on?" discussion starters that build scientific talk.
 - **BBC Bitesize KS2 Science** — clear short videos for plants, rocks, light, forces and magnets.
@@ -830,7 +830,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 6. **Rocks, fossils, soils** — groups rocks by properties, explains fossil formation in steps and what soil is made of. *Seen:* rock sort and fossil sequence.
 7. **Light** — explains that we see when light reflects into our eyes, how shadows form and change, and how to stay Sun-safe. *Seen:* shadow-size investigation.
 8. **Forces and magnets** — describes friction, sorts magnetic materials, predicts attraction and repulsion. *Seen:* magnet test and pole predictions.
-9. **Scientists** — tells how at least one scientist (e.g. Mary Anning, Ibn al-Haytham, Wangari Maathai) used evidence to find out something new. *Seen:* science-journal "scientist page."
+9. **Scientists** — tells how at least one scientist (e.g. Mary Anning, Ibn al-Haytham, Janaki Ammal) used evidence to find out something new. *Seen:* science-journal "scientist page."
 
 ## Teacher guidance
 
@@ -849,4 +849,4 @@ and teeth); the properties of materials (leading to states of matter); and light
 
 **Local adaptation.** Choose plants, rocks and soils from your own region; replace the named buildings with local examples (a stone temple, mosque, church, market or wall near you); use your local sunrise/sunset times for the day-and-night lesson.
 
-**Vertical alignment.** Year 1 introduced living things, habitats, plant needs, basic animal needs and everyday materials. Year 3 (ages 8–9) builds on this with classification keys, digestion and teeth, states of matter and the water cycle, sound, and electricity — each using the fair-test, measuring and recording routine secured this year.
+**Vertical alignment.** Year 1 introduced living things, habitats and food chains, plant needs (a yes/no fair test with a control), seed dispersal, life cycles, basic animal needs, everyday materials, sound, and day and night. This year deepens rather than repeats: plant needs are tested at several levels, dispersal is linked to fruits, and day and night extends to sunrise direction and time zones. Year 3 (ages 8–9) builds on this with classification keys, digestion and teeth, states of matter and the water cycle, sound, and electricity — each using the fair-test, measuring and recording routine secured this year.
