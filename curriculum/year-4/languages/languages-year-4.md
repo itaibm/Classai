@@ -9,9 +9,9 @@
 
 Year 4 Spanish is the year children move from **single sentences to connected speech**. They give opinions *with reasons* (*porque*), join ideas with connectives (*y, pero, también, o, sin embargo*), and talk about real topics that matter to them — food, hobbies and sport, the body and health, time and their school day, and their town. Every unit follows the same rhythm: **hear it → say it → play with it → read it → write it**, with songs, games and role-plays so children speak far more than they write. Instructions stay in English where needed; Spanish is used for routines (greetings, the date, the weather, classroom requests) every lesson.
 
-**Culture every term:** Mexico and *el Día de los Muertos* (timed for early November), sport and music from across the Spanish-speaking world, and a final unit on stories and songs (including the Spanish edition of Eric Carle's *La oruga muy hambrienta*). Children learn that Spanish is spoken by around 500 million people as a first language, and it is an official language in about 20 countries, with regional differences (*zumo/jugo, patata/papa, coche/carro*) that are all correct.
+**Culture every term:** Mexico and *el Día de los Muertos* (timed for early November), sport and music from across the Spanish-speaking world, and a final unit on stories and songs (including *El grúfalo*, the Spanish edition of Julia Donaldson and Axel Scheffler's *The Gruffalo*). Children learn that Spanish is spoken by around 500 million people as a first language, and it is an official language in about 20 countries, with regional differences (*zumo/jugo, patata/papa, coche/carro*) that are all correct.
 
-**What Year 4 assumes (from Year 3):** greetings and introductions; numbers to 31; colours; family (*mi/mis*); pets with *tengo*; days, months and the date; weather (*hace/está*); survival classroom phrases; simple noun–adjective agreement for colours.
+**What Year 4 assumes (from Years 2–3):** greetings and introductions; numbers to 100, prices, years (*dos mil…*) and temperatures; colours and adjective agreement in gender and number; family with *mi/tu/su*; *ser* (soy, eres, es, somos, son) and *tener*; question words; the *yo* and *él/ella* forms of regular *-ar* verbs; comparisons (*más … que*); days, months and the date; weather; *hay*, rooms and prepositions (*encima de, debajo de, al lado de*); clothes with *llevar*; *me gusta / me gustan* with clothes. Year 4 retrieves these and does not re-teach them.
 **What Year 5 relies on from Year 4:** confident opinions with reasons and connectives; *me gusta/me gustan*; the *yo* form of common verbs as chunks (*juego, toco, como, voy*); telling the time; places and directions; reading short paragraphs. Year 5 then teaches full present-tense verb patterns, adjective agreement, the past (*pretérito*) and near future (*voy a…*) and paragraph-length storytelling.
 
 **Swapping the language.** This plan can be taught in another language with the same unit structure, topics and lesson rhythm — for example **French** (see `knowledge-base/subjects/french/`) or **Hebrew** (see `knowledge-base/subjects/hebrew/`). Replace the target-language examples and the culture lessons (e.g. *la Chandeleur* or Hanukkah in place of *Día de los Muertos*), keeping the grammar progression (opinions with reasons, connectives, plurals, time, directions).
@@ -39,7 +39,7 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 
 **Essential question:** How much Spanish do I already know — and how do Spanish letters sound?
 
-**Key vocabulary:** hola, buenos días, ¿cómo estás?, me llamo, tengo … años, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien, la jota, la eñe, el acento
+**Key vocabulary:** hola, buenos días, ¿cómo estás?, me llamo, tengo … años, cien, ciento, doscientos, trescientos, cuatrocientos, quinientos, seiscientos, setecientos, ochocientos, novecientos, mil, la jota, la eñe, el acento
 
 ### Lesson 1 — ¡Hola otra vez! Greetings and introductions
 - **Duration:** 30 min
@@ -51,15 +51,15 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Materials:** sentence builder mats, name badges, video clip of a native speaker.
 - **Joy:** "Speed-meeting" with a bell every 60 seconds.
 
-### Lesson 2 — Numbers 31–100
+### Lesson 2 — Big numbers: 100 to 1,000
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say, recognise and write numbers from 31 to 100." (UK NC KS2 languages — listening and speaking)
-- **Hook:** Bingo card with numbers 31–100: "¿Qué número es?"
-- **Key activity:** Tens (*treinta, cuarenta … noventa, cien*); from 31 numbers are three words (*treinta y uno*), unlike 16–29 which are one word (*dieciséis, veintiuno*); counting chants in tens; number bingo.
-- **Check for understanding:** "Why is 25 written as one word (*veinticinco*) but 35 as three (*treinta y cinco*)?" → Numbers from 16 to 29 are joined into one word; from 31 onwards they are written as three words with *y*.
-- **Differentiation:** support: tens only, then add ones. / stretch: say prices (e.g. *setenta y cinco céntimos*) and phone numbers in pairs.
-- **Materials:** number cards, bingo cards, mini-whiteboards.
-- **Joy:** Spanish number bingo.
+- **Objective:** "By the end, I can say, recognise and write numbers from 100 to 1,000 and use them for prices and famous years." (UK NC KS2 languages — listening and speaking; links to maths)
+- **Hook:** "In 1492, Columbus sailed… how do you say 1492 in Spanish?"
+- **Key activity:** Two-minute retrieval of 31–100 (Year 3). New: cien (exactly 100) vs ciento (101–199: ciento uno, ciento veinte); the hundreds, including the irregular quinientos, setecientos and novecientos; mil. Build prices (doscientos cincuenta pesos) and years (mil cuatrocientos noventa y dos). Place-value bingo with hundreds, tens and units cards.
+- **Check for understanding:** "Why do we say 'cien' for 100 but 'ciento cinco' for 105, and how would you say 750?" → cien is used for exactly one hundred; from 101 it becomes ciento; 750 is setecientos cincuenta (setecientos is irregular — not 'sietecientos')
+- **Differentiation:** support: hundreds only (cien, doscientos, trescientos) with a place-value chart. / stretch: say years such as 1810 or 1969 and a price like 999 pesos.
+- **Materials:** place-value cards, bingo cards, mini-whiteboards.
+- **Joy:** "Price is right" with big-number prices from a Mexican market catalogue.
 
 ### Lesson 3 — Phonics: j, g, h and ll
 - **Duration:** 30 min
@@ -76,7 +76,7 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Objective:** "By the end, I can pronounce ñ, r/rr and z/c accurately and know that 'th' and 's' are both correct for z." (UK NC KS2 languages — phonics)
 - **Hook:** "*Perro* or *pero*? One is a dog and one means 'but'!"
 - **Key activity:** Practise tapped r vs rolled rr (*pero/perro, caro/carro*); ñ (*España, niño*); z/c before e/i as "th" (Spain) or "s" (Latin America) with audio of both.
-- **Check for understanding:** "Why is *pero* different from *perro*?" → One r is tapped (*pero* = but); rr is rolled (*perro* = dog) — the sound changes the meaning.
+- **Check for understanding:** "In *Rosa tiene un perro caro*, which r sounds are rolled and which is tapped? Explain the rule." → Rolled: *Rosa* (r at the start of a word) and *perro* (rr); tapped: *caro* (a single r between vowels) — and *caro* (expensive) vs *carro* (car) shows the sound changes the meaning.
 - **Differentiation:** support: minimal pairs with pictures. / stretch: read words aloud in both Spain and Latin American accents.
 - **Materials:** minimal-pair cards, audio clips.
 - **Joy:** "Rolling r" competition.
@@ -101,7 +101,7 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Materials:** tablets for recording, sentence builders.
 - **Joy:** Video messages (shared only with parent consent).
 
-**End-of-unit check:** Give a 4-sentence introduction including age and where you live; say six numbers between 31 and 100; read aloud five unseen words with correct pronunciation.
+**End-of-unit check:** Give a 4-sentence introduction including age and where you live; say six numbers between 100 and 1,000, including one year; read aloud five unseen words with correct pronunciation.
 
 ---
 
@@ -126,20 +126,20 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Objective:** "By the end, I can say which foods I like and dislike." (UK NC KS2 languages — opinions)
 - **Hook:** Thumbs up/down vote on real foods.
 - **Key activity:** *Me gusta el chocolate / No me gusta el queso*; survey classmates; tally results.
-- **Check for understanding:** "How do you say you don't like fish?" → *No me gusta el pescado.*
+- **Check for understanding:** "A classmate writes '*No me gusta pescado.*' What is missing, and why does Spanish need it?" → the article *el* — when giving opinions about things in general, Spanish uses *el/la/los/las*: *No me gusta el pescado.*
 - **Differentiation:** support: sentence builder. / stretch: add *me encanta* and *odio* for strength.
 - **Materials:** survey sheets, food flashcards.
 - **Joy:** Class survey with a bar chart (links to maths).
 
-### Lesson 9 — Me gusta vs me gustan
+### Lesson 9 — ¿Te gusta? ¿Le gusta? Asking and reporting opinions
 - **Duration:** 30 min
-- **Objective:** "By the end, I can use me gustan for plural foods and explain why." (UK NC KS2 languages — grammar)
-- **Hook:** "*Me gusta la fresa* or *me gustan las fresas*? What's the difference?"
-- **Key activity:** *Gusta* for one thing, *gustan* for more than one; sort cards; build sentences.
-- **Check for understanding:** "Complete: *Me ___ los tomates.*" → *gustan*, because *los tomates* is plural.
-- **Differentiation:** support: colour-coded singular/plural cards. / stretch: explain *me gusta* + plural as a mistake in a partner's work.
-- **Materials:** singular/plural sort cards.
-- **Joy:** "Gusta or gustan?" jump-left/jump-right game.
+- **Objective:** "By the end, I can ask others what they like (¿te gusta…?) and report their opinions (le gusta / le gustan)." (UK NC KS2 languages — grammar)
+- **Hook:** "You know *me gusta* from Year 3. But how do you tell the class what your best friend likes?"
+- **Key activity:** One-minute retrieval of *me gusta* / *me gustan* (singular vs plural things). New: *¿Te gusta el queso?* (asking you) and *le gusta / le gustan* (him or her), with *a + name* for clarity (*A Sofía le gustan las fresas*). Class food survey: ask, record, then report to the class.
+- **Check for understanding:** "How would you tell the class that your partner likes strawberries — and why 'gustan'?" → *(A Leo) le gustan las fresas* — *le* means 'to him/her', and *gustan* because *las fresas* is plural
+- **Differentiation:** support: a me/te/le colour-coded card with pictures. / stretch: add *nos gusta* for the whole class (*nos gusta la pizza*).
+- **Materials:** survey sheets, food flashcards, me/te/le cards.
+- **Joy:** "Food reporters": live survey results announced like a news bulletin.
 
 ### Lesson 10 — Opinions with reasons: porque
 - **Duration:** 30 min
@@ -251,15 +251,15 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Materials:** map of Mexico, photos.
 - **Joy:** Virtual "tour" slide show.
 
-### Lesson 20 — What is el Día de los Muertos?
+### Lesson 20 — Día de los Muertos: where does it come from?
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain the meaning of the Day of the Dead and name its symbols in Spanish." (UK NC KS2 languages — culture)
-- **Hook:** A decorated sugar skull (*calavera*) and marigolds: "Is this scary or joyful?"
-- **Key activity:** Celebrated on 1 and 2 November; families remember loved ones with an *ofrenda* (altar), photos, *cempasúchil* (marigolds), candles, *pan de muerto*, *papel picado*; listed by UNESCO as Intangible Cultural Heritage. It is a joyful celebration of memory, not Halloween.
-- **Check for understanding:** "Why is it wrong to call el Día de los Muertos 'Mexican Halloween'?" → It is about remembering and honouring loved ones with joy, with its own history and customs, not about scaring.
-- **Differentiation:** support: symbol picture cards. / stretch: explain the roots mixing Indigenous (Aztec) traditions and Catholic All Saints' and All Souls' Days.
-- **Materials:** images, a sugar skull (or picture), marigolds (or paper ones).
-- **Joy:** Learn the symbols with a matching game.
+- **Objective:** "By the end, I can explain the origins of the Day of the Dead and how it is celebrated in different parts of Mexico." (UK NC KS2 languages — culture)
+- **Hook:** A marigold (*cempasúchil*) — a flower native to Mexico: "Why this flower, and why 1 and 2 November?"
+- **Key activity:** Quick retrieval from Years 1–2 (a joyful festival of remembering; the *ofrenda* and its items in Spanish). New: its two roots — older Indigenous traditions of honouring the dead (from the Mexica and other peoples) and the Catholic All Saints' and All Souls' Days on 1 and 2 November; regional customs (candle-lit boats on Lake Pátzcuaro in Michoacán, all-night cemetery vigils in Mixquic); listed by UNESCO as Intangible Cultural Heritage (2008). Children make a two-column chart of customs and roots.
+- **Check for understanding:** "Día de los Muertos mixes two older traditions. Name them and give one custom that comes from each." → Indigenous traditions of honouring ancestors (e.g. marigold flowers and food offerings) and Catholic All Saints' and All Souls' Days (the dates, 1–2 November)
+- **Differentiation:** support: a picture sort of customs into 'Indigenous roots' and 'Catholic roots'. / stretch: explain in English why UNESCO protects traditions like this.
+- **Materials:** images, a map of Mexico, marigolds (real or paper), roots chart.
+- **Joy:** Build a giant marigold arch from paper flowers.
 
 ### Lesson 21 — Making papel picado
 - **Duration:** 35 min
@@ -356,7 +356,7 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Objective:** "By the end, I can read short profiles of sports stars and answer questions." (UK NC KS2 languages — reading; culture)
 - **Hook:** Photos of footballers Lionel Messi (Argentina) and Aitana Bonmatí (Spain), tennis player Rafael Nadal (Spain).
 - **Key activity:** Read simple profiles (*Se llama… Es de… Juega al…*); true/false questions; find cognates.
-- **Check for understanding:** "Where is Lionel Messi from, and which sentence tells you?" → Argentina — *Es de Argentina.*
+- **Check for understanding:** "Messi's profile says *Es de Argentina* and *Juega al fútbol*. Which words tell you where he is from and what he does — and what would you change to write about Aitana Bonmatí?" → *Es de* + country gives nationality; *juega al* + sport gives the activity; for Aitana only the country changes (*Es de España. Juega al fútbol.*) — the verbs stay the same for 'she'
 - **Differentiation:** support: picture-supported profiles. / stretch: write a profile of a sports star from another Spanish-speaking country.
 - **Materials:** profile cards, map.
 - **Joy:** "Guess the star" game.
@@ -431,15 +431,15 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Materials:** body diagrams, song audio.
 - **Joy:** *Simón dice*.
 
-### Lesson 36 — Plurals
+### Lesson 36 — ¡Muévete! Body instructions
 - **Duration:** 30 min
-- **Objective:** "By the end, I can make nouns plural with -s and -es and change the article." (UK NC KS2 languages — grammar: plurals)
-- **Hook:** "One eye, two eyes — *un ojo, dos ojos*. One nose, two noses?"
-- **Key activity:** Rules: add -s after a vowel (*ojo → ojos*); -es after a consonant (*animal → animales*); z → c before -es (*nariz → narices*); articles change (*el → los, la → las*).
-- **Check for understanding:** "Make these plural: *la mano, el pie, la nariz.*" → *las manos, los pies, las narices.*
-- **Differentiation:** support: two rules only. / stretch: the z→c rule and *el lápiz → los lápices*.
-- **Materials:** plural sort cards.
-- **Joy:** "Plural monster" drawing — draw a monster with *tres cabezas*.
+- **Objective:** "By the end, I can understand and give instructions using body parts and command forms (levanta, mueve, dobla, salta)." (UK NC KS2 languages — listening and speaking; links to PE)
+- **Hook:** "*¡Levanta los brazos! ¡Dobla las rodillas!* Can you follow a Spanish fitness instructor?"
+- **Key activity:** Retrieve body words with *Simón dice*. New: command (imperative) forms for a friend — *levanta, dobla, gira, salta, estira, mueve* — built from the infinitive (*levantar → levanta*). Children follow a Spanish warm-up video or the teacher, then write and lead a five-instruction warm-up for their group, using plural body parts correctly (*los brazos, las piernas*).
+- **Check for understanding:** "The instructor says '*Levanta los brazos y dobla las rodillas.*' Do it, then explain how *levanta* is built from *levantar*." → take off the -r: for regular -ar verbs the command to a friend looks like the él/ella form (*levanta*)
+- **Differentiation:** support: picture instruction cards with the command written. / stretch: add *derecha/izquierda* (*levanta la mano derecha*) and a counting rhythm.
+- **Materials:** instruction cards, space to move, a short Spanish-language exercise video.
+- **Joy:** Children lead the class warm-up in Spanish.
 
 ### Lesson 37 — Describing a monster
 - **Duration:** 30 min
@@ -591,22 +591,22 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Materials:** picture maps, flashcards.
 - **Joy:** "Town bingo".
 
-### Lesson 50 — Hay and no hay
+### Lesson 50 — Hay or está?
 - **Duration:** 30 min
-- **Objective:** "By the end, I can describe what there is and isn't in my town." (UK NC KS2 languages — grammar)
-- **Hook:** "*En mi pueblo hay un parque, pero no hay cine.* What about yours?"
-- **Key activity:** *Hay un/una…, hay muchos/muchas…, no hay…* (no article after *no hay* in general statements: *no hay piscina*); describe the school's town.
-- **Check for understanding:** "Say two things there are and one there isn't in our town." → Correct *hay/no hay* sentences.
-- **Differentiation:** support: builder. / stretch: add opinions (*es bonito*).
-- **Materials:** local-area photos.
-- **Joy:** "My dream town" drawings.
+- **Objective:** "By the end, I can choose correctly between hay (there is/are) and está/están (is/are located) to describe my town." (UK NC KS2 languages — grammar)
+- **Hook:** "*Hay un parque en mi pueblo. El parque está al lado del río.* Two different verbs for 'is' — why?"
+- **Key activity:** Quick retrieval of *hay / no hay* (Year 3 homes unit). New: *hay* introduces something (*un/una*, a number, *muchos*) — *está/están* says where a particular thing is (*el/la*). Sorting game with sentence halves; then children describe the school's town with two *hay* sentences and two *está* sentences.
+- **Check for understanding:** "Why do we say '*Hay un museo en el centro*' but '*El museo está en el centro*'?" → *hay* tells you that a museum exists (new information, with *un*); *está* tells you where a specific museum (*el museo*) is
+- **Differentiation:** support: colour-coded cards (*hay* + un/una; *está* + el/la). / stretch: use *están* for plural places (*Las tiendas están en la plaza*).
+- **Materials:** sentence-half cards, local-area photos.
+- **Joy:** "My dream town" drawings labelled with *hay* and *está* sentences.
 
 ### Lesson 51 — Where is it? Prepositions of place
 - **Duration:** 30 min
 - **Objective:** "By the end, I can say where places are using prepositions." (UK NC KS2 languages — grammar)
 - **Hook:** "*¿Dónde está el museo?* — *Está al lado del parque.*"
-- **Key activity:** *al lado de, enfrente de, entre, cerca de, lejos de*; *de + el = del*; map games.
-- **Check for understanding:** "Why is it *al lado del parque* and not *al lado de el parque*?" → *De* + *el* joins to make *del*.
+- **Key activity:** Retrieve Year 3's *encima de, debajo de, al lado de, delante de, detrás de*. New: *enfrente de, entre, cerca de, lejos de, a la derecha de, a la izquierda de*; *de + el = del*; map games.
+- **Check for understanding:** "The bank is between the park and the museum, opposite the station. Say it in Spanish and explain why it is *enfrente de la estación* but *al lado del parque*." → *El banco está entre el parque y el museo, enfrente de la estación* — *de* + *el* joins to make *del*, but *de la* never joins
 - **Differentiation:** support: three prepositions. / stretch: all five with *del/de la*.
 - **Materials:** maps, toy buildings.
 - **Joy:** "Hide the treasure" with preposition clues.
@@ -689,26 +689,26 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 
 **Essential question:** How can stories and songs help me understand and remember Spanish?
 
-**Key vocabulary:** el cuento, la canción, el lunes … el domingo (review), comió, tenía hambre, la oruga, la mariposa, el ritmo, el estribillo
+**Key vocabulary:** el cuento, la canción, el grúfalo, el ratón, el zorro, el búho, la serpiente, el bosque, tiene, terrible, enorme, el ritmo, el estribillo, la rima
 
-### Lesson 59 — La oruga muy hambrienta: reading
+### Lesson 59 — El grúfalo: reading
 - **Duration:** 30 min
-- **Objective:** "By the end, I can follow a familiar story in Spanish using known words and pictures." (UK NC KS2 languages — reading stories)
-- **Hook:** "You know this caterpillar — can you understand it in Spanish?"
-- **Key activity:** Read *La oruga muy hambrienta* (Eric Carle, Spanish edition); spot days, numbers and foods; learn *comió* ('ate') as a chunk.
-- **Check for understanding:** "What did the caterpillar eat on Tuesday? Find the sentence." → Two pears — *El martes comió dos peras.*
-- **Differentiation:** support: picture-supported reading with the teacher. / stretch: retell the story orally without the book.
-- **Materials:** *La oruga muy hambrienta* (Eric Carle, Spanish edition).
-- **Joy:** Read-aloud with actions.
+- **Objective:** "By the end, I can follow a rhyming story in Spanish using body words, pictures and the story pattern." (UK NC KS2 languages — reading stories)
+- **Hook:** "A little mouse walks through the deep dark wood… and describes a monster that doesn't exist. Or does it?"
+- **Key activity:** Read *El grúfalo* (the Spanish edition of Julia Donaldson and Axel Scheffler's *The Gruffalo*); children join in with the repeated lines and collect the monster's features, using Unit 5 body words (*los ojos, la nariz, las rodillas, los dientes*); notice how the pattern repeats with each animal (*el zorro, el búho, la serpiente*).
+- **Check for understanding:** "Which body words from Unit 5 helped you understand the description of the grúfalo? Give two with their meaning — and one adjective that agrees." → e.g. *los ojos* (eyes), *la nariz* (nose); an adjective that agrees, such as *unos ojos enormes* (plural)
+- **Differentiation:** support: picture-supported reading with the teacher and a body-word mat. / stretch: retell the mouse's meeting with one animal without the book.
+- **Materials:** *El grúfalo* (Spanish edition), body-word mats, animal masks.
+- **Joy:** Read-aloud with masks and a class 'grúfalo' drawn from the description.
 
-### Lesson 60 — Retelling and rewriting the story
+### Lesson 60 — Writing: my own monster story
 - **Duration:** 35 min
-- **Objective:** "By the end, I can write my own version of the story with new foods and days." (UK NC KS2 languages — writing)
-- **Hook:** "*El alumno muy hambriento* — what would *you* eat?"
-- **Key activity:** Rewrite using the pattern *El lunes comió…*; illustrate; include opinions (*¡Qué rico!*).
-- **Check for understanding:** "Read one page of your book aloud." → Accurate pattern and pronunciation.
-- **Differentiation:** support: page frames. / stretch: add a twist ending.
-- **Materials:** blank booklets, art supplies.
+- **Objective:** "By the end, I can write a short patterned story describing an imaginary monster with tiene, body parts, plurals and agreeing adjectives." (UK NC KS2 languages — writing)
+- **Hook:** "*El monstruo de mi clase* — what does *your* made-up monster look like?"
+- **Key activity:** Using the story's pattern, children write 4–5 pages in which a small animal scares bigger ones by describing a monster (*Tiene unos ojos enormes y una nariz morada…*); illustrate; a partner checks agreement.
+- **Check for understanding:** "Read one page aloud and point to a *tiene* sentence with a plural body part whose adjective agrees." → e.g. *Tiene unos dientes terribles* — *dientes* is masculine plural, so the adjective is plural too
+- **Differentiation:** support: page frames with a word bank. / stretch: add a twist ending and a sentence with *pero*.
+- **Materials:** blank booklets, art supplies, word banks.
 - **Joy:** Book-making.
 
 ### Lesson 61 — Songs: "La Bamba"
@@ -716,7 +716,7 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Objective:** "By the end, I can sing a traditional Mexican song and explain its background." (UK NC KS2 languages — songs; culture)
 - **Hook:** Listen to a performance of "La Bamba" (a traditional *son jarocho* from Veracruz, Mexico, made world-famous by Ritchie Valens in 1958).
 - **Key activity:** Learn the chorus; clap the rhythm; find the region on a map; discuss how songs travel.
-- **Check for understanding:** "Where does *son jarocho* music come from?" → Veracruz, Mexico.
+- **Check for understanding:** "*La Bamba* began as a traditional *son jarocho* from Veracruz and became a rock-and-roll hit in the USA. What does that show about how songs travel?" → people who move (here the Mexican-American singer Ritchie Valens) carry songs with them and change their style; records and radio then spread them round the world
 - **Differentiation:** support: chorus only. / stretch: verse lines with meaning.
 - **Materials:** audio, lyrics, percussion.
 - **Joy:** Sing with percussion (link to music).
@@ -724,7 +724,7 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 ### Lesson 62 — Poems and rhymes
 - **Duration:** 30 min
 - **Objective:** "By the end, I can read and perform a short Spanish poem with good pronunciation." (UK NC KS2 languages — reading aloud)
-- **Hook:** A short children's poem or traditional rhyme (e.g. "*De colores*").
+- **Hook:** A short poem by Gloria Fuertes (one of Spain's best-loved children's poets) or a traditional *rima* from Latin America.
 - **Key activity:** Read, perform, discuss rhyme and rhythm; learn a short verse by heart.
 - **Check for understanding:** "Which words rhyme, and how do you know?" → Words with matching final sounds.
 - **Differentiation:** support: echo reading. / stretch: write an extra verse.
@@ -745,13 +745,13 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 - **Duration:** 35 min
 - **Objective:** "By the end, I can perform a short story or song for an audience." (UK NC KS2 languages — speaking; performance)
 - **Hook:** "*¡Luces, cámara, acción!*"
-- **Key activity:** Groups perform their caterpillar books, a song or a poem for another class.
+- **Key activity:** Groups perform their monster stories, a song or a poem for another class.
 - **Check for understanding:** "What did you do to make your Spanish clear for the audience?" → Pace, volume, gestures, clear pronunciation.
 - **Differentiation:** support: group chorus roles. / stretch: solo parts.
 - **Materials:** props, books.
 - **Joy:** Performance.
 
-**End-of-unit check:** Read aloud a page of a Spanish picture book with good pronunciation; write a 5-page patterned story using days, foods and *comió*.
+**End-of-unit check:** Read aloud a page of a Spanish picture book with good pronunciation; write a 4–5-page patterned monster story using *tiene*, body parts, plurals and agreeing adjectives.
 
 ---
 
@@ -825,14 +825,14 @@ Year 4 Spanish is the year children move from **single sentences to connected sp
 
 ## Books & resources
 
-- ***La oruga muy hambrienta* — Eric Carle (Spanish edition of *The Very Hungry Caterpillar*)** — a familiar story with days, numbers and food; ideal for reading confidence.
+- ***El grúfalo* — Julia Donaldson and Axel Scheffler (Spanish edition of *The Gruffalo*)** — a rhyming story full of body words and repeated patterns; ideal for Unit 8 after the body unit (*La oruga muy hambrienta* was already read in Year 2).
 - ***Soñadores* / *Dreamers* — Yuyi Morales** — a beautiful bilingual picture book about migration, libraries and dreams by a Mexican-born author-illustrator.
 - ***Viva Frida* — Yuyi Morales** — minimal bilingual text about Frida Kahlo; links Spanish to art.
 - ***Funny Bones: Posada and His Day of the Dead Calaveras* — Duncan Tonatiuh** — the story of the artist behind the famous *calaveras*; perfect for Unit 3.
 - ***Just a Minute: A Trickster Tale and Counting Book* — Yuyi Morales** — Señor Calavera meets Grandma Beetle; a bilingual counting story with Day of the Dead imagery.
 - ***Donde viven los monstruos* — Maurice Sendak (Spanish edition of *Where the Wild Things Are*)** — a well-loved story for reading aloud in Spanish.
 - ***Esperanza Rising* — Pam Muñoz Ryan** — (English class text) full of Spanish words and Mexican culture.
-- **Songs:** "La Bamba" (traditional, Veracruz), "De colores" (traditional), "Cabeza, hombros, rodillas y pies".
+- **Songs and poems:** "La Bamba" (traditional, Veracruz), "Cabeza, hombros, rodillas y pies", and poems by Gloria Fuertes.
 - **Online:** BBC Bitesize KS2 Spanish; Oak National Academy primary Spanish; Rockalingua (songs and games); Instituto Cervantes resources for teachers; the Spanish-language cartoons on public broadcasters (e.g. RTVE's Clan) for listening at home.
 
 ## End-of-year mastery checks

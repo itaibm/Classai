@@ -2,13 +2,13 @@
 
 ## Year overview
 
-Year 3 is the children's third year of Spanish. They move from single words and set phrases to **short, real sentences they can say, read and write about themselves, their families, animals, homes, clothes, dates and the weather**. The approach is *speaking first*: every new word is heard, repeated, used in a game or song and spoken in a sentence before it is read or written. Lessons are short and frequent (two 30-minute lessons a week) because little-and-often builds memory best.
+Year 3 is the children's third year of Spanish. Year 2 already met the calendar, weather, family, pets and festivals in short sentences, so Year 3 *retrieves* those topics briefly and pushes on to **real grammar and longer sentences**: the verb *ser* in all its present forms, possessives, question words, the first regular *-ar* verbs, comparisons, prices, years and temperatures, homes and clothes. The approach is *speaking first*: every new word is heard, repeated, used in a game or song and spoken in a sentence before it is read or written. Lessons are short and frequent (two 30-minute lessons a week) because little-and-often builds memory best.
 
-**Key new language this year.** The verb *tener* (tengo, tienes, tiene) for possessions and age; *ser* for description (es alto, es simpático); *hay* (there is/are); *llevar* for clothes; weather with *hace*, *llueve*, *nieva*, *está nublado*; possessives *mi/mis* and *tu/tus*; **noun gender and adjective agreement** (un gato negro / una gata negra / dos gatos negros); plurals; numbers to 100; dates and birthdays; simple prepositions (en, encima de, debajo de, al lado de). **Phonics** is revisited every week: silent *h*; *j* and *g* before *e/i*; *ll*; *ñ*; rolled *rr*; *c* and *z* (said like *th* in much of Spain and like *s* in Latin America and parts of Spain — both correct); and written accents that mark stress.
+**Key new language this year.** The verb *tener* (tengo, tienes, tiene) for possessions and age; *ser* in the present (soy, eres, es, somos, son); question words (¿quién?, ¿cómo?, ¿cuántos?, ¿dónde?, ¿cuándo?); the first regular *-ar* verbs (yo nado, él nada); comparisons (más … que); prices, years (dos mil veintiséis) and temperatures (bajo cero); *hay* (there is/are); *llevar* for clothes; weather with *hace*, *llueve*, *nieva*, *está nublado*; possessives *mi/mis*, *tu/tus* and *su/sus*; **noun gender and adjective agreement** (un gato negro / una gata negra / dos gatos negros); plural adjectives and quantity words (muchos, pocas); numbers to 100; simple prepositions (en, encima de, debajo de, al lado de). **Phonics** is revisited every week: silent *h*; *j* and *g* before *e/i*; *ll*; *ñ*; rolled *rr*; *c* and *z* (said like *th* in much of Spain and like *s* in Latin America and parts of Spain — both correct); and written accents that mark stress.
 
-**Culture.** Spanish is spoken as an official language in about twenty countries across Europe, the Americas and Africa (Equatorial Guinea). Each unit meets real places and people — Mexico's Día de Muertos, Peru's Inti Raymi, Spain's Las Fallas and Reyes Magos, the reversed seasons of Argentina and Chile, homes from Andalusian patios to Andean villages.
+**Culture.** Spanish is spoken as an official language in about twenty countries across Europe, the Americas and Africa (Equatorial Guinea). Each unit meets real places and people — Oaxaca's Guelaguetza, New Year's twelve grapes in Spain and el Año Viejo in Ecuador, Spain's Las Fallas and Reyes Magos, the Spanish picture book *El monstruo de colores*, the reversed seasons of Argentina and Chile, homes from Andalusian patios to Andean villages.
 
-**What this year assumes (from Years 1–2):** greetings and feelings, classroom instructions, numbers 0–31, colours, classroom objects, and the core Spanish sounds. **What Year 4 relies on:** confident *tener* and *ser*, agreement and plurals, numbers to 100, dates and weather — the base for Year 4's food and opinions, hobbies with reasons, the body, telling the time and directions around a town.
+**What this year assumes (from Years 1–2):** greetings and feelings, classroom instructions, numbers to 50, colours, classroom objects, the core Spanish sounds, days, months, dates and birthdays, weather and reversed seasons, family words with *mi/mis* and *tengo*, pets with the first colour agreement, festivals (Día de los Muertos, Inti Raymi, Carnaval) and the story *La oruga muy hambrienta*. **What Year 4 relies on:** confident *tener* and *ser*, possessives, question words, the *-ar* pattern, agreement and plurals, numbers to 100 and prices, *hay* and prepositions, *me gusta/me gustan* — the base for Year 4's food and opinions, hobbies with reasons, the body, telling the time and directions around a town.
 
 **Another language instead of Spanish.** A school may replace Spanish with another language (for example **Hebrew** or **French** — see `knowledge-base/subjects/hebrew` and `knowledge-base/subjects/french`) using exactly the same unit structure, topics, lesson count and speaking-first method; only the language content and cultural examples change (for Hebrew, add explicit teaching of the alphabet and right-to-left reading and writing).
 
@@ -23,7 +23,7 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 | T1 | 1. ¡Hola otra vez! Review and Spanish sounds | 3 | 6 | 1–6 |
 | T1 | 2. Mi familia | 4.5 | 9 | 7–15 |
 | T1 | 3. Los animales | 4.5 | 9 | 16–24 |
-| T2 | 4. Los números y el calendario | 4.5 | 9 | 25–33 |
+| T2 | 4. Números, precios y el calendario | 4.5 | 9 | 25–33 |
 | T2 | 5. El tiempo | 3.5 | 7 | 34–40 |
 | T2 | 6. Mi casa | 4 | 8 | 41–48 |
 | T3 | 7. La ropa | 4 | 8 | 49–56 |
@@ -74,8 +74,8 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Objective:** "By the end, I can pronounce and read words with ll, ñ, rr, c and z accurately." (UK NC KS2 MFL (phonics))
 - **Hook:** "Can you roll your r like a motorbike? 'Perro' needs it — 'pero' doesn't!"
 - **Key activity:** Sound-action cards: ll (llama, lluvia), ñ (niño, España), rr (perro, arroz) vs single r (pero, cara), c before e/i and z (cebra, zapato — /th/ in much of Spain, /s/ in Latin America: both correct). Minimal pairs listening (pero/perro).
-- **Check for understanding:** "Listen: is the word 'pero' or 'perro'? How can you tell, and why does it matter?" → perro has a rolled rr; they mean different things (but / dog), so the sound changes the meaning
-- **Differentiation:** support: picture cards and exaggerated modelling / stretch: explain why a Mexican and a Spanish speaker might pronounce 'cebra' differently and both be correct
+- **Check for understanding:** "How do many people in Madrid say *cebra* and *zapato*, how do people in Mexico City say them — and which is correct?" → in much of Spain c (before e/i) and z sound like 'th'; in Latin America (and parts of Spain) they sound like 's'; both are correct Spanish
+- **Differentiation:** support: picture cards and exaggerated modelling, starting with the pero/perro pair from Years 1–2 / stretch: listen to a speaker from Buenos Aires and describe how their ll in *llama* sounds (often like 'sh')
 - **Materials:** sound cards, minimal-pair cards
 - **Joy:** motorbike 'rr' race
 
@@ -84,7 +84,7 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Objective:** "By the end, I can use colours, numbers and classroom objects in short sentences." (UK NC KS2 MFL)
 - **Hook:** "¿Qué hay en mi mochila? Guess what's in my school bag!"
 - **Key activity:** Revise colours and classroom objects with un/una; 'Tengo un lápiz rojo'; mystery-bag game; classroom instructions (escuchad, repetid, sentaos).
-- **Check for understanding:** "Why is it 'un lápiz' but 'una regla'?" → lápiz is masculine and regla is feminine — every noun has a gender
+- **Check for understanding:** "How do you say 'I have two blue pencils', and what two changes happen to 'un lápiz azul'?" → Tengo dos lápices azules — lápiz ends in z, so it becomes lápices; azul ends in a consonant, so it adds -es
 - **Differentiation:** support: picture word mat with un/una colour-coded / stretch: describe three objects with colour and number (tengo dos lápices azules)
 - **Materials:** classroom objects, mystery bag
 - **Joy:** mystery-bag guessing game
@@ -107,47 +107,47 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 
 **Essential question:** How can I introduce and describe the people in my family in Spanish?
 
-**Key vocabulary:** la familia, el padre, la madre, el hermano, la hermana, el abuelo, la abuela, el tío, la tía, el primo, la prima, mi, mis, tu, tus, tengo, tiene, se llama, es, alto, bajo, simpático, divertido, el pelo, los ojos, rubio, moreno, castaño, largo, corto, azules, marrones, verdes
+**Key vocabulary:** la familia, el padre, la madre, el hermano, la hermana, el abuelo, la abuela, el tío, la tía, el primo, la prima, mi, mis, tu, tus, su, sus, soy, eres, es, somos, son, ¿quién?, ¿cómo?, ¿cuántos?, ¿dónde?, ¿cuándo?, tengo, tiene, se llama, alto, bajo, simpático, divertido, el pelo, los ojos, rubio, moreno, castaño, largo, corto, azules, marrones, verdes
 
-### Lesson 7 — Family words
+### Lesson 7 — La familia Gómez: family retrieval
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name family members in Spanish and say who is in my family." (UK NC KS2 MFL; CEFR A1)
-- **Hook:** "Meet the Familia Gómez — can you work out who is who from the clues?"
-- **Key activity:** Present family words with photos of a fictional family tree (the Gómez family from Colombia); repeat with actions; 'Quién es?' guessing game; notice masculine/feminine pairs (hermano/hermana, abuelo/abuela).
-- **Check for understanding:** "How does 'hermano' change to 'hermana', and what pattern does this show?" → the -o ending changes to -a for the female; many Spanish nouns for people follow this pattern
-- **Differentiation:** support: family tree with pictures and labels / stretch: explain what 'los padres' and 'los hermanos' can mean (parents; brothers or brothers and sisters)
-- **Materials:** family-tree poster, picture cards
+- **Objective:** "By the end, I can quickly recall Year 2's family words, mi/mis, tengo and se llama and use them together to describe a family tree." (UK NC KS2 MFL; CEFR A1)
+- **Hook:** "Meet the Familia Gómez from Colombia — can you work out who is who from the clues?"
+- **Key activity:** Fast retrieval of Year 2's family unit in one lesson: family words with actions; mi/mis and tengo/no tengo; se llama and tiene … años. Pairs read clue cards ('Tengo dos hermanos. Mi abuela se llama Rosa.') and place the Gómez family photos on a family tree; notice masculine/feminine pairs (hermano/hermana, abuelo/abuela).
+- **Check for understanding:** "Explain the difference between 'mi hermano' and 'mis hermanos', then say a sentence as if you were Lucas Gómez using one of them." → mi is for one person, mis for more than one; e.g. 'Mis hermanos se llaman Ana y Pablo'
+- **Differentiation:** support: family tree with pictures and labels, and a mi/mis colour card / stretch: explain what 'los padres' and 'los hermanos' can mean (parents; brothers, or brothers and sisters) and why Spanish uses the masculine plural for mixed groups
+- **Materials:** family-tree poster, Gómez photo and clue cards
 - **Joy:** "¿Quién es?" family guessing game
 
-### Lesson 8 — Mi and mis
+### Lesson 8 — ¿Tu familia o su familia? Possessives
 - **Duration:** 30 min
-- **Objective:** "By the end, I can use mi and mis correctly with singular and plural family members." (UK NC KS2 MFL (grammar))
-- **Hook:** "One brother or two? The little word in front tells you!"
-- **Key activity:** Model 'mi hermano' vs 'mis hermanos'; sorting game with singular/plural picture cards; children say sentences about the Gómez family and then their own (real or imagined — children may invent a family).
-- **Check for understanding:** "Why do we say 'mis abuelos' but 'mi abuela'?" → mis goes with plural nouns (more than one), mi with singular
-- **Differentiation:** support: cards with one or two figures pictured / stretch: add tu/tus to ask a partner (¿Tienes hermanos? ¿Cómo se llaman tus hermanos?)
-- **Materials:** singular/plural picture cards
-- **Joy:** "Mi or mis?" jump-left/jump-right game
+- **Objective:** "By the end, I can use tu/tus (your) and su/sus (his, her, their) to ask about and describe other people's families." (UK NC KS2 MFL (grammar: possessives))
+- **Hook:** "'Su perro' — is it his dog, her dog or their dog? Let's find out how Spanish decides!"
+- **Key activity:** Model with two puppets: talking *to* a friend → tu hermana / tus primos; talking *about* someone else → su hermana / sus primos. Pairs interview each other (¿Cómo se llama tu hermano? ¿Tienes primos? ¿Cómo se llaman tus primos?) and then report to another pair (Su hermano se llama…). Children may describe a real or invented family — always their choice.
+- **Check for understanding:** "Why do you say 'tu hermana' when talking to your friend, but 'su hermana' when telling the class about her sister?" → tu means 'your' (the person I'm speaking to); su means 'his/her/their' (someone else's); both add -s (tus, sus) before plural nouns
+- **Differentiation:** support: a possessive grid (mi/tu/su with singular and plural pictures) / stretch: explain why 'su' can be confusing (his, her, their or polite 'your') and how the rest of the sentence helps
+- **Materials:** puppets, possessive grids, interview cards
+- **Joy:** "Pass the puppet" reporting game
 
-### Lesson 9 — Tengo … hermanos
+### Lesson 9 — Ser: soy, eres, es, somos, son
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say how many brothers and sisters I have using tener and numbers." (UK NC KS2 MFL)
-- **Hook:** "Survey time: who in our class has the most cousins?"
-- **Key activity:** Model 'Tengo dos hermanos y una hermana. No tengo hermanos.' Class survey with tally charts; results reported in Spanish.
-- **Check for understanding:** "How do you say you don't have any brothers or sisters?" → No tengo hermanos
-- **Differentiation:** support: sentence frame with gaps / stretch: report a partner's answer with 'tiene'
-- **Materials:** survey sheets
-- **Joy:** class survey and bar chart (links with maths)
+- **Objective:** "By the end, I can use the present tense of ser to describe myself, a partner and groups of people." (UK NC KS2 MFL (grammar: key verbs))
+- **Hook:** "Soy simpático. ¿Y tú? ¿Eres simpática? One verb, many forms!"
+- **Key activity:** Teach the forms of ser with gestures (soy — point to yourself; eres — point to a partner; es — point to someone else; somos — arms round your group; son — point to another group); use them with character adjectives and nationalities (Soy colombiana. Mis abuelos son simpáticos). Verb-form dice game: roll a person, say a sentence.
+- **Check for understanding:** "Complete 'Mis abuelos ___ divertidos' and explain your choice of verb form and adjective ending." → son — mis abuelos means 'they' (plural), and divertidos is masculine plural to match
+- **Differentiation:** support: a ser chart with pictures of who each form is for / stretch: write one sentence for each form, including somos
+- **Materials:** ser chart, person dice, adjective cards
+- **Joy:** "Ser dice" game
 
-### Lesson 10 — Se llama… y tiene … años
+### Lesson 10 — Question words: interview a family member
 - **Duration:** 30 min
-- **Objective:** "By the end, I can introduce a family member's name and age." (UK NC KS2 MFL)
-- **Hook:** "Introduce your family's most famous member — even the cat!"
-- **Key activity:** Model 'Mi abuela se llama Rosa. Tiene setenta años.' (numbers to 31 now, bigger numbers previewed); speaking game with family photos or drawings.
-- **Check for understanding:** "Why do we say 'se llama' (not 'me llamo') for another person?" → me llamo is for myself; se llama is for someone else
-- **Differentiation:** support: sentence frames / stretch: introduce two people and link with 'y'
-- **Materials:** drawings or photos
-- **Joy:** family 'show and tell'
+- **Objective:** "By the end, I can use question words (¿quién?, ¿cómo?, ¿cuántos?, ¿dónde?, ¿cuándo?) to ask about someone's family and understand the answers." (UK NC KS2 MFL (ask and answer questions))
+- **Hook:** "You're a reporter for the TV show 'Familias del mundo'. Which questions will you ask?"
+- **Key activity:** Teach question words with a 'question wheel'; notice the ¿…? punctuation and the written accents on question words; build questions (¿Cuántos hermanos tienes? ¿Dónde vive tu abuela? ¿Cómo es tu tío? ¿Cuándo es su cumpleaños?); pairs interview each other and report one answer to the class.
+- **Check for understanding:** "Which question word would you use to find out where your partner's cousin lives, and why does it have an accent?" → ¿Dónde? — question words carry a written accent when they ask a question (¿Dónde vive tu primo?)
+- **Differentiation:** support: question cards with the question word highlighted and a picture clue / stretch: ask a follow-up question that uses the answer (Se llama Tomás. → ¿Cuántos años tiene?)
+- **Materials:** question wheel, interview sheets, microphone prop
+- **Joy:** "Familias del mundo" reporter interviews
 
 ### Lesson 11 — Describing people: ser + adjectives
 - **Duration:** 30 min
@@ -179,15 +179,15 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** letter copies, highlighters, map of South America
 - **Joy:** reply to Lucía with one sentence each on a class postcard
 
-### Lesson 14 — Writing: my family
+### Lesson 14 — Writing: portrait of a family member
 - **Duration:** 30 min
-- **Objective:** "By the end, I can write four to six sentences about my family with correct mi/mis and agreement." (UK NC KS2 MFL (writing))
-- **Hook:** "Build your family tree in Spanish — real, imaginary or your pet's family!"
-- **Key activity:** Children draw a family tree (real or invented — always their choice) and write sentences using frames: 'Se llama…', 'Tiene … años', 'Es…', 'Tiene el pelo…'. Partner checks agreement with a traffic-light checklist.
-- **Check for understanding:** "Check one of your sentences: does the adjective agree with the person? How do you know?" → yes — e.g. 'mi hermana es alta' uses -a because hermana is feminine
-- **Differentiation:** support: sentence frames with drop-down choices / stretch: link sentences with y, pero and también into a short paragraph
-- **Materials:** paper, frames, word mats, checklists
-- **Joy:** family-tree display 'Nuestras familias'
+- **Objective:** "By the end, I can write four to six sentences describing one family member with correct possessives, ser and agreement." (UK NC KS2 MFL (writing))
+- **Hook:** "Frida Kahlo painted her family tree. Paint one person from yours — in words!"
+- **Key activity:** Show Frida Kahlo's painting of her grandparents, parents and herself. Children choose one real or invented family member (always their choice), draw a portrait and write sentences using frames: 'Mi … se llama…', 'Tiene … años', 'Es…', 'Tiene el pelo…', 'Sus ojos son…'. Partner checks agreement and possessives with a traffic-light checklist.
+- **Check for understanding:** "Check one of your sentences: does the adjective agree with the person or thing it describes? How do you know?" → yes — e.g. 'sus ojos son verdes' is plural because ojos is plural
+- **Differentiation:** support: sentence frames with choices / stretch: link sentences with y, pero and también into a short paragraph
+- **Materials:** paper, frames, word mats, checklists, a print of Frida Kahlo's family-tree painting
+- **Joy:** portrait gallery 'Nuestras familias'
 
 ### Lesson 15 — Unit review: presenting my family
 - **Duration:** 30 min
@@ -199,65 +199,65 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** family trees, listening grids, a 'TV screen' frame
 - **Joy:** Spanish TV show with a presenter's microphone
 
-**End-of-unit check:** Present your family in 4–6 sentences with names, ages and descriptions; use mi/mis and agreement correctly; understand a partner's family description.
+**End-of-unit check:** Present a family member in 4–6 sentences with name, age and description; use mi/mis, tu/tus and su/sus and the forms of ser correctly; ask two questions with question words; understand a partner's family description.
 
 ---
 
 ## Unit 3 — Los animales
 
-**Essential question:** How can I talk about pets and wild animals, describe them and ask others about theirs?
+**Essential question:** How can I describe animals — where they live, what they do and how they compare?
 
-**Key vocabulary:** el perro, el gato, el pez, el conejo, el pájaro, el caballo, la tortuga, el hámster, la serpiente, el ratón, el loro, la llama, el jaguar, el mono, el cóndor, ¿tienes un animal?, tengo, no tengo, se llama, es, grande, pequeño, gordo, delgado, bonito, feo, plurals
+**Key vocabulary:** el perro, el gato, el pez, el conejo, el pájaro, el caballo, la tortuga, el hámster, la serpiente, el ratón, el loro, la llama, el jaguar, el mono, el cóndor, el tucán, la iguana, ¿tienes un animal?, tengo, no tengo, vive en, la selva, el desierto, el mar, las montañas, nadar, saltar, caminar, trepar, cazar, hablar, más … que, menos … que, rápido, lento, grande, pequeño, muchos, muchas, pocos, pocas, unos, unas
 
-### Lesson 16 — Pets
+### Lesson 16 — Pets and agreement: retrieval
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name common pets with the correct un/una and say which pet I have or would like." (UK NC KS2 MFL; CEFR A1)
+- **Objective:** "By the end, I can quickly recall Year 2's pets, ¿tienes…? and colour agreement, and find and fix agreement mistakes." (UK NC KS2 MFL; CEFR A1)
 - **Hook:** "Guess the pet from its Spanish sound — perros say 'guau guau', not 'woof'!"
-- **Key activity:** Present pet words with pictures and animal sounds in Spanish (guau guau, miau, pío pío); sort into un/una; children say 'Tengo un perro' or 'No tengo animales' or 'Quiero un caballo'.
-- **Check for understanding:** "Why is it 'un pez' but 'una tortuga'?" → pez is masculine and tortuga is feminine — the article matches the noun's gender
+- **Key activity:** Retrieval carousel of Year 2's animals unit: pet words with Spanish animal sounds (guau guau, miau, pío pío); a quick '¿Tienes un animal? Sí, tengo… / No, no tengo animales' find-someone-who; colour agreement (un gato negro, una gata negra). Then 'mistake detectives': children correct sentences with wrong articles or endings.
+- **Check for understanding:** "A friend writes 'Tengo una perro negra.' Find and fix the mistakes and explain." → Tengo un perro negro — perro is masculine, so the article and the colour must both be masculine
 - **Differentiation:** support: picture cards with un/una colour-coded (blue/red) / stretch: explain which pet words don't follow the -o/-a pattern (el pez, la serpiente) and how you'd check
-- **Materials:** animal picture cards, a toy-animal bag
+- **Materials:** animal picture cards, sentence cards with mistakes
 - **Joy:** Spanish animal-sounds guessing game
 
-### Lesson 17 — ¿Tienes un animal?
+### Lesson 17 — Plural adjectives and quantities: muchos, pocos, unos
 - **Duration:** 30 min
-- **Objective:** "By the end, I can ask and answer questions about pets and report a partner's answers." (UK NC KS2 MFL (ask and answer questions))
-- **Hook:** "Find someone who has a pet fish — without speaking a word of English!"
-- **Key activity:** Model question intonation (rising): '¿Tienes un animal? Sí, tengo un gato. / No, no tengo animales.' 'Find someone who…' bingo; report back with 'X tiene un perro'.
-- **Check for understanding:** "How does your voice show that '¿Tienes un gato?' is a question?" → the voice rises at the end (and in writing it has ¿ at the start and ? at the end)
-- **Differentiation:** support: question and answer frames on a card / stretch: ask a follow-up (¿Cómo se llama? ¿De qué color es?)
-- **Materials:** bingo grids, frames
-- **Joy:** "Find someone who…" bingo
+- **Objective:** "By the end, I can use plural adjectives and quantity words (muchos/muchas, pocos/pocas, unos/unas) that agree with the noun." (UK NC KS2 MFL (grammar: plurals and agreement))
+- **Hook:** "En el zoo hay muchos monos y pocas jirafas — but why 'muchos' and 'pocas'?"
+- **Key activity:** Two-minute retrieval of Year 2's plural rules (perros, ratones, peces). New: plural adjectives (negros/negras; verdes; azules, marrones — -es after a consonant) and quantity words that agree like adjectives (muchos gatos, muchas tortugas, pocos peces, unos loros, unas serpientes). Children build 'zoo census' sentences from picture cards: 'En el zoo hay muchas serpientes verdes y pocos leones.'
+- **Check for understanding:** "Why is it 'muchos gatos negros' but 'muchas tortugas verdes'?" → muchos/muchas and the colour agree with the noun: gatos is masculine plural (muchos … negros); tortugas is feminine plural (muchas); verde has no gender, so it only adds -s (verdes)
+- **Differentiation:** support: an agreement grid with the four endings (-o, -a, -os, -as) and picture cards / stretch: explain why ratón loses its accent in ratones and lápiz becomes lápices
+- **Materials:** zoo picture cards, agreement grids, toy animals
+- **Joy:** "Zoo census" — count the toy zoo and report in Spanish
 
-### Lesson 18 — Plurals
+### Lesson 18 — ¿Dónde vive? Animals and habitats
 - **Duration:** 30 min
-- **Objective:** "By the end, I can make nouns and adjectives plural and use numbers with animals." (UK NC KS2 MFL (grammar: plurals))
-- **Hook:** "One cat is 'un gato'. Three cats? The word changes!"
-- **Key activity:** Rules: add -s after a vowel (gatos), -es after a consonant (ratones, peces — z changes to c). Say and write 'Tengo dos perros y tres peces.' Counting game with toy animals.
-- **Check for understanding:** "Why does 'pez' become 'peces' and not 'pezes'?" → nouns ending in a consonant add -es, and the z changes to c before e
-- **Differentiation:** support: plural rule card with examples / stretch: make plural sentences with agreeing adjectives (dos gatos negros)
-- **Materials:** toy animals, rule cards
-- **Joy:** "Noah's ark" counting game
-
-### Lesson 19 — Colours that agree
-- **Duration:** 30 min
-- **Objective:** "By the end, I can describe animals with colour adjectives that agree in gender and number." (UK NC KS2 MFL (grammar: agreement))
-- **Hook:** "Un gato negro, una gata negra, dos gatos negros — spot the pattern!"
-- **Key activity:** Colour adjectives placed after the noun; -o/-a/-os/-as endings; colours ending in -e or a consonant (verde, azul) change only for plural. Colour-by-instruction pictures.
-- **Check for understanding:** "Why is it 'una vaca blanca' but 'un caballo blanco'?" → the adjective agrees with the noun's gender: vaca is feminine (-a), caballo masculine (-o)
-- **Differentiation:** support: agreement grid to fill in / stretch: explain why 'verde' doesn't change for masculine and feminine but 'rojo' does
-- **Materials:** colouring sheets, agreement grids
-- **Joy:** "Colour by Spanish" mystery picture
-
-### Lesson 20 — Animals of Latin America
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name and describe animals native to Spanish-speaking countries." (UK NC KS2 MFL; intercultural understanding)
+- **Objective:** "By the end, I can say where animals live using vive en, and name animals native to Spanish-speaking countries." (UK NC KS2 MFL; intercultural understanding; links to geography)
 - **Hook:** "Which animal lives in the Andes, spits when it's cross, and is also a Spanish word?"
-- **Key activity:** Meet the llama, el cóndor, el jaguar, el mono, el tucán, la iguana; locate their homes on a map (Andes, Amazon, Galápagos); describe each with es grande/pequeño and colours.
-- **Check for understanding:** "Describe the jaguar in Spanish using two adjectives that agree." → e.g. El jaguar es grande y amarillo (and negro)
-- **Differentiation:** support: picture cards with name and one adjective / stretch: write a riddle about an animal for the class to guess
-- **Materials:** map of South America, animal cards
-- **Joy:** "Animal riddles" game
+- **Key activity:** Meet la llama, el cóndor, el jaguar, el mono, el tucán and la iguana; locate their homes on a map of Latin America (los Andes, la selva amazónica, las islas Galápagos); teach vive en + la selva, el desierto, el mar, las montañas, el río. Children sort animals by habitat and say 'El cóndor vive en las montañas'.
+- **Check for understanding:** "Say where the jaguar lives in Spanish, and explain why it is 'en la selva' but 'en el desierto'." → El jaguar vive en la selva; selva is feminine (la) and desierto is masculine (el)
+- **Differentiation:** support: habitat picture mat with the phrases written / stretch: add a second sentence with a colour or size adjective that agrees
+- **Materials:** map of Latin America, animal and habitat cards
+- **Joy:** "Habitat dash": run to the habitat corner called out in Spanish
+
+### Lesson 19 — What animals do: the first -ar verbs
+- **Duration:** 30 min
+- **Objective:** "By the end, I can use the yo and él/ella forms of regular -ar verbs to say what animals — and I — do." (UK NC KS2 MFL (grammar: verbs))
+- **Hook:** "El mono salta, el pez nada, el loro habla… ¿y tú?"
+- **Key activity:** Teach nadar, saltar, caminar, trepar, cazar, hablar and cantar with actions; show the pattern: infinitive -ar → yo -o (nado, salto) and él/ella -a (nada, salta). Mime game: the teacher says an animal sentence and children act it; then children add what they do (El pez nada. ¡Yo también nado!).
+- **Check for understanding:** "The parrot 'habla'. How would you say 'I talk', and what pattern did you use?" → hablo — for -ar verbs, the yo form ends in -o and the él/ella form ends in -a
+- **Differentiation:** support: verb cards with pictures and both forms written / stretch: add a negative (El pez no camina) and find one more -ar verb in a dictionary
+- **Materials:** verb action cards, animal masks
+- **Joy:** "Animal mime" game
+
+### Lesson 20 — Comparisons: más … que
+- **Duration:** 30 min
+- **Objective:** "By the end, I can compare two animals using más … que and menos … que with agreeing adjectives." (UK NC KS2 MFL (grammar: comparisons))
+- **Hook:** "¿Quién es más rápido: el jaguar o la tortuga?"
+- **Key activity:** Model 'El jaguar es más rápido que la tortuga' and 'La tortuga es más lenta que el conejo'; add menos … que. Top-trumps-style animal cards with size and speed facts; pairs compare cards in Spanish to win.
+- **Check for understanding:** "Why is it 'la tortuga es más lenta' but 'el caracol es más lento'?" → the adjective agrees with the animal being described: tortuga is feminine (lenta), caracol is masculine (lento)
+- **Differentiation:** support: a sentence builder with más/que and adjective pairs / stretch: use menos … que, and explain that 'grande' does not change for masculine and feminine
+- **Materials:** animal comparison cards, sentence builders
+- **Joy:** Spanish "animal top trumps"
 
 ### Lesson 21 — Story: Oso pardo, oso pardo
 - **Duration:** 30 min
@@ -279,35 +279,35 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** adjective cards, pet photos
 - **Joy:** "Charades" of pet personalities
 
-### Lesson 23 — Writing: my dream pet
+### Lesson 23 — Writing: an animal fact file
 - **Duration:** 30 min
-- **Objective:** "By the end, I can write a short description of a real or imaginary pet with name, colour, size and personality." (UK NC KS2 MFL (writing))
-- **Hook:** "Invent the perfect pet — maybe a purple dragon-cat!"
-- **Key activity:** Children plan and write 4–5 sentences (Tengo un…, Se llama…, Es…, Tiene…) and draw it; partner checks agreement and plurals with a checklist.
-- **Check for understanding:** "Show me an adjective in your writing and explain how you chose its ending." → names the noun it describes and its gender/number (e.g. un dragón morado — masculine singular)
-- **Differentiation:** support: sentence frames with choices / stretch: add a sentence with 'hay' or 'también'
-- **Materials:** paper, frames, checklists
-- **Joy:** "Pet show" display with a Spanish label for every pet
+- **Objective:** "By the end, I can write a short fact file about an animal with its habitat, actions, a description and a comparison." (UK NC KS2 MFL (writing))
+- **Hook:** "The zoo needs Spanish information boards. Can you write one?"
+- **Key activity:** Children choose an animal and write 5–6 sentences (Es… / Vive en… / -ar verbs such as nada, salta, caza / Es más … que… / a colour or size description) and draw it; a partner checks agreement and verb endings with a checklist.
+- **Check for understanding:** "Show me one sentence with an -ar verb and one comparison, and explain how you chose the endings." → e.g. 'El delfín nada' — the él form ends in -a; 'La jirafa es más alta que el elefante' — alta agrees with jirafa (feminine)
+- **Differentiation:** support: sentence frames with choices / stretch: add a sentence with 'hay' or 'también' and one with 'no'
+- **Materials:** paper, frames, checklists, animal fact cards
+- **Joy:** "Zoo trail" display with a Spanish board for every animal
 
-### Lesson 24 — Unit review: pet show
+### Lesson 24 — Unit review: animal expo
 - **Duration:** 30 min
-- **Objective:** "By the end, I can ask and answer questions about pets and describe an animal in Spanish." (UK NC KS2 MFL (speaking; listening))
-- **Hook:** "¡Bienvenidos al concurso de mascotas! Welcome to the pet show!"
-- **Key activity:** Children bring a drawing or soft toy; in pairs, one is the judge asking questions (¿Cómo se llama? ¿Cuántos años tiene? ¿Cómo es?), the other answers; then listen to three descriptions and match them to pictures.
-- **Check for understanding:** "Listen to the description and tell me which animal it is and one detail that helped." → identifies the animal and quotes a detail (colour, size or personality)
-- **Differentiation:** support: answer with sentence frames / stretch: ask a follow-up question beyond the list
-- **Materials:** soft toys or drawings, rosettes
-- **Joy:** pet show with rosettes for every 'mascota'
+- **Objective:** "By the end, I can describe an animal and understand other people's descriptions in Spanish." (UK NC KS2 MFL (speaking; listening))
+- **Hook:** "¡Bienvenidos a la expo de animales!"
+- **Key activity:** Children present their fact file in 30–45 seconds; the audience asks one question (¿Dónde vive? ¿Qué hace? ¿Cómo es?); then everyone listens to three descriptions and matches them to pictures.
+- **Check for understanding:** "Listen to the description and tell me which animal it is and one detail that helped." → identifies the animal and quotes a detail (habitat, action or comparison)
+- **Differentiation:** support: present with sentence frames / stretch: answer an unexpected question without notes
+- **Materials:** fact files, picture cards, rosettes
+- **Joy:** animal expo with rosettes for every presenter
 
-**End-of-unit check:** Ask and answer '¿Tienes un animal?'; describe an animal with two agreeing adjectives; make plurals correctly (perros, ratones, peces); understand a spoken description.
+**End-of-unit check:** Fix agreement mistakes in pet sentences; use plural adjectives and muchos/muchas, pocos/pocas correctly; say where an animal lives and what it does with an -ar verb; compare two animals with más … que; understand a spoken description.
 
 ---
 
-## Unit 4 — Los números y el calendario
+## Unit 4 — Números, precios y el calendario
 
-**Essential question:** How do I count to 100, say the date and talk about birthdays and seasons in Spanish?
+**Essential question:** How do I use numbers to 100 — and beyond — for prices, years, dates and temperatures in Spanish?
 
-**Key vocabulary:** treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien, y, los días de la semana, lunes, martes, miércoles, jueves, viernes, sábado, domingo, los meses, enero … diciembre, la fecha, el cumpleaños, ¿cuándo es tu cumpleaños?, las estaciones, la primavera, el verano, el otoño, el invierno
+**Key vocabulary:** treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien, y, los días de la semana, lunes, martes, miércoles, jueves, viernes, sábado, domingo, los meses, enero … diciembre, la fecha, el cumpleaños, ¿cuánto cuesta?, cuesta, el euro, el peso, el céntimo, quiero, mil, dos mil, nací en, los grados, bajo cero
 
 ### Lesson 25 — Numbers 31–100
 - **Duration:** 30 min
@@ -329,55 +329,55 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** number cards, whiteboards
 - **Joy:** Spanish 'Buzz' game
 
-### Lesson 27 — Days of the week
+### Lesson 27 — Calendar retrieval: days, months and dates
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say the days of the week and what day it is today, tomorrow and yesterday." (UK NC KS2 MFL)
-- **Hook:** "In Spanish, days have no capital letter — and 'miércoles' has an accent. Why?"
-- **Key activity:** Days song; note lower-case days and the Monday start of the Spanish-speaking week; 'Hoy es…, mañana es…, ayer fue…'; link a planet/god origin to some day names (lunes—luna, martes—Marte).
-- **Check for understanding:** "If hoy es jueves, what is mañana, and what does the accent in 'miércoles' tell you?" → mañana es viernes; the accent shows which syllable is stressed (MIÉR-co-les)
-- **Differentiation:** support: days on a strip with pictures / stretch: explain where 'lunes' and 'martes' come from (luna = moon; Marte = Mars)
-- **Materials:** days song, days strip
-- **Joy:** weekly class calendar kept in Spanish
+- **Objective:** "By the end, I can say the days, months and the full date quickly and accurately, recalling Year 2's calendar unit." (UK NC KS2 MFL)
+- **Hook:** "In Spanish, days and months have no capital letters — and 'miércoles' has an accent. Can you beat the clock?"
+- **Key activity:** Speed-retrieval stations: the days song and 'hoy es / mañana es / ayer fue'; a months line-up; the date in Spanish order (el veinticinco de marzo); a daily 'date-keeper' role begins for the rest of the year. Explain where lunes and martes come from (luna = Moon; Marte = Mars).
+- **Check for understanding:** "If hoy es jueves, el treinta y uno de marzo, what is mañana? Say the full date and explain what changed." → mañana es viernes, el uno (or el primero) de abril — the day and the month both change because March has 31 days
+- **Differentiation:** support: a days-and-months strip with pictures / stretch: find which day of the week your birthday falls on this year and say it
+- **Materials:** days and months strips, calendars
+- **Joy:** "Beat the clock" calendar relay
 
-### Lesson 28 — Months of the year
+### Lesson 28 — ¿Cuánto cuesta? Prices
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say the months of the year in order and recognise them written." (UK NC KS2 MFL)
-- **Hook:** "Enero, febrero… can we sing all twelve before the timer stops?"
-- **Key activity:** Months song; match Spanish months to English ones and spot which are cognates (marzo, octubre) and which are not (enero); line-up game by birthday month; notice lower-case again.
-- **Check for understanding:** "Which Spanish months look most like English months, and which look least alike?" → e.g. marzo/March and octubre/October look alike; enero/January looks least alike
-- **Differentiation:** support: month cards with pictures of the season / stretch: put months into the seasons for both hemispheres
-- **Materials:** months song, month cards
-- **Joy:** "Birthday line-up" by month without speaking English
+- **Objective:** "By the end, I can ask and say prices up to 100 in euros and pesos." (UK NC KS2 MFL; links to maths (money))
+- **Hook:** "A toy shop in Madrid and a market in Mexico City — what do things cost?"
+- **Key activity:** Teach ¿Cuánto cuesta? / Cuesta … euros / pesos; céntimos (Spain) and centavos (Latin America); note 'un euro' but 'dos euros'. Children read price tags aloud and play a listening game, holding up the price they hear.
+- **Check for understanding:** "The label says 75 €. Say the price in Spanish and explain how you built the number." → Cuesta setenta y cinco euros — setenta (70) y cinco (5)
+- **Differentiation:** support: price cards to 50 with the number written / stretch: prices with euros and céntimos (dos euros cincuenta) and ¿Cuánto cuestan? for plural items
+- **Materials:** price tags, toy objects, play money
+- **Joy:** "Price is right" guessing game
 
-### Lesson 29 — La fecha: saying the date
+### Lesson 29 — Saying the year: dos mil veintiséis
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say and write the date in Spanish word order." (UK NC KS2 MFL (grammar: word order))
-- **Hook:** "Today is el veinticinco de marzo. What's different from English?"
-- **Key activity:** Model 'Hoy es lunes, veinticinco de marzo'; day number + de + month; el primero or el uno for the 1st (both used). Daily date routine; children write the date on their work in Spanish from now on.
-- **Check for understanding:** "How would you write 3rd May in Spanish, and what word joins the number and the month?" → el tres de mayo — 'de' joins them
-- **Differentiation:** support: a date frame with gaps / stretch: say a date with the day of the week and year (dos mil…)
-- **Materials:** calendars, date frames
-- **Joy:** class 'date keeper' role each day
+- **Objective:** "By the end, I can say this year and the year I was born, and ask ¿En qué año naciste?" (UK NC KS2 MFL)
+- **Hook:** "In Spanish, 2026 is 'dos mil veintiséis' — never 'twenty twenty-six'. Why?"
+- **Key activity:** Teach mil and dos mil with the numbers children already know (dos mil diecisiete, dos mil veintiséis); 'Nací en…' as a chunk; build a class timeline of birth years; write today's full date including the year.
+- **Check for understanding:** "How would you say 2017 in Spanish, and how is it different from the way English often says it?" → dos mil diecisiete — Spanish says 'two thousand seventeen', while English often says 'twenty seventeen'
+- **Differentiation:** support: year cards with the words written / stretch: find out how to say a year in the 1900s (mil novecientos…) for a grandparent's birth year
+- **Materials:** year cards, class timeline
+- **Joy:** "Human timeline" of birth years
 
-### Lesson 30 — ¿Cuándo es tu cumpleaños?
+### Lesson 30 — La tienda: a shopping role-play
 - **Duration:** 30 min
-- **Objective:** "By the end, I can ask and answer when birthdays are and record the class's birthdays." (UK NC KS2 MFL (ask and answer questions))
-- **Hook:** "Cumpleaños feliz! Let's find out who has a birthday in every month."
-- **Key activity:** Model '¿Cuándo es tu cumpleaños? Mi cumpleaños es el doce de octubre.' Class survey onto a Spanish birthday calendar; sing 'Cumpleaños feliz' and learn about 'Las mañanitas', the traditional Mexican birthday song.
-- **Check for understanding:** "Your partner says 'Mi cumpleaños es el treinta y uno de julio'. When is it?" → 31st July
-- **Differentiation:** support: a sentence frame and a month/number mat / stretch: ask about a family member's birthday (¿Cuándo es el cumpleaños de tu madre?)
-- **Materials:** birthday calendar poster, survey sheets
-- **Joy:** singing 'Cumpleaños feliz' to everyone with a birthday this month
+- **Objective:** "By the end, I can buy and sell items in a shop role-play using quiero, ¿cuánto cuesta? and prices." (UK NC KS2 MFL (speaking; transactions))
+- **Hook:** "The class 'tienda' is open — but only for Spanish speakers!"
+- **Key activity:** Model the dialogue: '¡Hola! Quiero un lápiz, por favor. ¿Cuánto cuesta? — Cuesta un euro. — Aquí tiene. — ¡Gracias, adiós!'. Pairs take turns as shopkeeper and customer with price-tagged classroom objects and play money; each customer has a budget.
+- **Check for understanding:** "Your budget is 10 euros. The pencil case costs 7 euros and the ruler 4 euros. What will you say to the shopkeeper, and why?" → e.g. 'Quiero el estuche, por favor' — 7 fits the budget, but 7 + 4 = 11 is too much, so only one item
+- **Differentiation:** support: a dialogue card with gaps / stretch: buy two items and ask for the total (¿Cuánto es en total?)
+- **Materials:** price-tagged classroom objects, play money, shop sign
+- **Joy:** class 'tienda' role-play
 
-### Lesson 31 — Las estaciones: seasons in two hemispheres
+### Lesson 31 — Temperatures: grados and bajo cero
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name the seasons and explain why they are reversed in Spanish-speaking countries south of the Equator." (UK NC KS2 MFL; intercultural understanding; links to geography)
-- **Hook:** "In Buenos Aires, Christmas is in summer! ¿Por qué?"
-- **Key activity:** Teach la primavera, el verano, el otoño, el invierno; months in each season for Spain/Mexico vs Argentina/Chile; globe and torch reminder of why seasons flip. Children say 'En Argentina, diciembre es en verano.'
-- **Check for understanding:** "Why is December in summer in Argentina but in winter in Spain?" → Argentina is in the Southern Hemisphere, so its seasons are opposite to Spain's in the Northern Hemisphere
-- **Differentiation:** support: a two-column season chart with pictures / stretch: say which season your birthday is in both hemispheres
-- **Materials:** globe, torch, season cards, world map
-- **Joy:** "Two-hemisphere calendar" poster
+- **Objective:** "By the end, I can say and understand temperatures, including below zero, in Spanish." (UK NC KS2 MFL; links to science and maths (negative numbers))
+- **Hook:** "In July, Mexico City might be veinte grados while Ushuaia in Argentina is cinco grados bajo cero. How can that be?"
+- **Key activity:** Teach grados, bajo cero, la máxima and la mínima; read temperatures on thermometers and a weather map and say them aloud; recall from Year 2 that seasons are reversed in the Southern Hemisphere.
+- **Check for understanding:** "Which is colder, 'dos grados bajo cero' or 'dos grados', and why is July cold in Ushuaia?" → dos grados bajo cero (−2 °C) is colder; Ushuaia is far south, in the Southern Hemisphere, where July is winter
+- **Differentiation:** support: a thermometer card with Spanish labels / stretch: compare two cities' temperatures with 'hace más calor/más frío en … que en …'
+- **Materials:** thermometers, weather maps, a floor number line with negatives
+- **Joy:** "Thermometer race": stand at the temperature called out on the floor number line
 
 ### Lesson 32 — Reading: a Spanish calendar of festivals
 - **Duration:** 30 min
@@ -399,7 +399,7 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** listening grids, interview cards
 - **Joy:** "Radio Madrid" quiz show
 
-**End-of-unit check:** Count and write numbers to 100; say and write the date in Spanish order; ask and answer '¿Cuándo es tu cumpleaños?'; explain why seasons are reversed in Argentina.
+**End-of-unit check:** Count and write numbers to 100; ask and give prices in a shop role-play; say this year and your birth year; say and write the full date in Spanish order; read a temperature below zero.
 
 ---
 
@@ -407,26 +407,26 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 
 **Essential question:** How can I describe the weather in Spanish and compare it across the Spanish-speaking world?
 
-**Key vocabulary:** ¿qué tiempo hace?, hace sol, hace calor, hace frío, hace viento, hace buen tiempo, hace mal tiempo, llueve, nieva, está nublado, hay tormenta, hay niebla, en, y, pero, cuando, el pronóstico
+**Key vocabulary:** ¿qué tiempo hace?, hace mucho calor, hace un poco de frío, más calor que, más frío que, hace sol, hace calor, hace frío, hace viento, hace buen tiempo, hace mal tiempo, llueve, nieva, está nublado, hay tormenta, hay niebla, en, y, pero, cuando, el pronóstico
 
-### Lesson 34 — ¿Qué tiempo hace?
+### Lesson 34 — ¿Qué tiempo hace? Precise weather
 - **Duration:** 30 min
-- **Objective:** "By the end, I can describe today's weather using hace, llueve, nieva and está nublado." (UK NC KS2 MFL; CEFR A1)
-- **Hook:** "Look out of the window. ¿Qué tiempo hace hoy?"
-- **Key activity:** Teach weather phrases with actions (fanning for calor, shivering for frío); weather symbols matching; a daily weather routine starts, linked to the science weather station.
-- **Check for understanding:** "Why do we say 'hace frío' but 'llueve' — not 'hace lluvia'?" → Spanish uses different verbs for different weather: hace for heat, cold, sun and wind; llueve (it rains) and nieva (it snows) are verbs on their own
-- **Differentiation:** support: symbol cards with the phrase written underneath / stretch: describe two kinds of weather joined by y or pero
-- **Materials:** weather symbol cards
-- **Joy:** "Weather actions" Simon-says game
+- **Objective:** "By the end, I can describe the weather precisely using mucho and un poco de and join two weather phrases." (UK NC KS2 MFL; CEFR A1)
+- **Hook:** "It's not just 'hace frío' — is it 'hace un poco de frío' or 'hace muchísimo frío'?"
+- **Key activity:** Quick retrieval of Year 2's weather phrases with actions; new: intensity — hace mucho calor / hace un poco de viento / llueve mucho — and joining with y and pero (Hace sol pero hace frío). The daily weather report joins the date-keeper routine.
+- **Check for understanding:** "Why do we say 'hace mucho frío' and not 'hace muy frío'?" → here frío is a noun ('cold'), so we use mucho ('a lot of'); muy ('very') goes with adjectives, as in 'está muy nublado'
+- **Differentiation:** support: symbol cards with the phrase written underneath / stretch: describe the weather with three phrases and two connectives
+- **Materials:** weather symbol cards, an intensity scale card
+- **Joy:** "Weather actions" Simon-says game with big and small actions
 
-### Lesson 35 — Weather in the Spanish-speaking world
+### Lesson 35 — Comparing weather across the Spanish-speaking world
 - **Duration:** 30 min
-- **Objective:** "By the end, I can describe the weather in cities across the Spanish-speaking world using a map." (UK NC KS2 MFL; intercultural understanding)
+- **Objective:** "By the end, I can compare the weather in two cities using más … que and temperatures." (UK NC KS2 MFL; intercultural understanding)
 - **Hook:** "It's the same day — but it's snowing in one Spanish-speaking city and baking hot in another!"
-- **Key activity:** Map with weather symbols for Madrid, Ciudad de México, Buenos Aires, La Paz, Havana and Malabo; children say 'En Madrid hace sol' etc. Compare with home.
-- **Check for understanding:** "Why might it be cold in La Paz (Bolivia) even though it's near the Equator?" → La Paz is very high in the Andes mountains, and high places are colder
-- **Differentiation:** support: map with symbols and city names / stretch: compare two cities using 'pero'
-- **Materials:** map, symbol stickers
+- **Key activity:** A map with weather symbols and temperatures for Madrid, Ciudad de México, Buenos Aires, La Paz, La Habana and Malabo; children say 'En La Habana hace más calor que en La Paz' and compare with home.
+- **Check for understanding:** "'En La Paz hace más frío que en La Habana.' Why might that be, even though La Paz is in the tropics?" → La Paz is very high in the Andes, and high places are colder; Havana is by the sea at low altitude
+- **Differentiation:** support: a map with symbols, city names and a comparison frame / stretch: compare three cities
+- **Materials:** map, symbol stickers, temperature cards
 - **Joy:** weather-map presenter role
 
 ### Lesson 36 — Seasons and weather
@@ -479,7 +479,7 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** quiz materials
 - **Joy:** "Weather quiz show"
 
-**End-of-unit check:** Describe the weather in four ways; understand a short forecast; write a weather postcard; say how seasons differ between Spain and Argentina.
+**End-of-unit check:** Describe the weather precisely with mucho / un poco de; compare two cities' weather with más … que; understand a short forecast; write a weather postcard.
 
 ---
 
@@ -667,7 +667,7 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 
 **Essential question:** How do festivals across the Spanish-speaking world show what communities value?
 
-**Key vocabulary:** la fiesta, el festival, celebrar, la familia, los Reyes Magos, el Día de Muertos, la ofrenda, la calavera, Las Fallas, el fuego, Inti Raymi, el sol, el carnaval, la música, el baile, la comida, en enero … en diciembre
+**Key vocabulary:** la fiesta, el festival, celebrar, compartir, bailar, el traje, la familia, los Reyes Magos, la Guelaguetza, Las Fallas, el fuego, el Año Nuevo, las uvas, las campanadas, la música, el baile, la comida, en enero … en diciembre
 
 ### Lesson 57 — Los Reyes Magos
 - **Duration:** 30 min
@@ -679,35 +679,35 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** photos, roscón picture (or a real one to taste, allergy-checked)
 - **Joy:** the hidden-figure roscón game
 
-### Lesson 58 — El Día de Muertos
+### Lesson 58 — La Guelaguetza: a festival of sharing
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain how Mexico's Day of the Dead remembers loved ones." (UK NC KS2 MFL; intercultural understanding)
-- **Hook:** "Skeletons, marigolds and sugar skulls — but it's a happy festival. How can that be?"
-- **Key activity:** Learn about el Día de Muertos (1–2 November): ofrendas (altars) with photos, marigolds (cempasúchil), pan de muerto, calaveras; families remembering loved ones with joy. Watch an approved clip; discuss respectfully. Children design a decorated calavera with Spanish colour words.
-- **Check for understanding:** "Why is Día de Muertos a celebration rather than a sad day?" → families remember and honour loved ones who have died with food, flowers, music and happy memories
-- **Differentiation:** support: picture cards with key words / stretch: compare with another way people around the world remember loved ones
-- **Materials:** photos, marigold pictures, calavera templates
-- **Joy:** design a colourful calavera and describe it in Spanish (Tiene flores amarillas…)
+- **Objective:** "By the end, I can describe Oaxaca's Guelaguetza festival in simple Spanish and explain what its name means." (UK NC KS2 MFL; intercultural understanding)
+- **Hook:** "In Oaxaca, Mexico, a festival takes its name from a Zapotec word about giving and sharing. What would a festival of sharing look like?"
+- **Key activity:** Photos and a short approved clip of the Guelaguetza (usually on the two Mondays after 16 July in the city of Oaxaca): groups from Oaxaca's regions perform their dances in traditional dress and share gifts with the audience. Children describe the photos in Spanish (Hay…, Llevan…, Bailan…), locate Oaxaca, and learn that many people there speak Indigenous languages such as Zapotec and Mixtec as well as Spanish.
+- **Check for understanding:** "Why is 'Guelaguetza', a word about sharing, a good name for this festival?" → the communities give their dances, music and gifts to everyone watching — the festival is about giving and sharing, not just performing
+- **Differentiation:** support: picture cards with key words (bailar, compartir, el traje) / stretch: compare it with a festival of giving or sharing in your own community
+- **Materials:** photos, map of Mexico, short approved video
+- **Joy:** learn a simple dance step and 'share' a class basket of drawings
 
 ### Lesson 59 — Las Fallas and La Tomatina
 - **Duration:** 30 min
 - **Objective:** "By the end, I can describe two famous festivals in Spain and say what happens using simple sentences." (UK NC KS2 MFL)
 - **Hook:** "In Valencia, people spend a whole year building giant sculptures — and then burn them!"
 - **Key activity:** Las Fallas (Valencia, March): ninots and fallas, fireworks, the burning (la cremà) on 19 March; La Tomatina (Buñol, August): a tomato fight. Children describe photos: 'Hay…', 'Es grande', 'Me gusta porque…'.
-- **Check for understanding:** "In which city and month is Las Fallas, and what happens at the end?" → Valencia, in March — the giant sculptures are burned
+- **Check for understanding:** "Say in Spanish where and when Las Fallas happens, and suggest why burning the sculptures might matter to the people of Valencia." → 'Es en Valencia, en marzo'; a reasoned idea — e.g. it marks the end of winter and a fresh start, and the whole city celebrates the artists' work together
 - **Differentiation:** support: photo cards with sentence starters / stretch: give and justify an opinion about which festival they'd prefer
 - **Materials:** photos, map of Spain
 - **Joy:** build a mini 'ninot' from card (not burned!)
 
-### Lesson 60 — Inti Raymi and Carnaval
+### Lesson 60 — ¡Feliz Año Nuevo! New Year across the Spanish-speaking world
 - **Duration:** 30 min
-- **Objective:** "By the end, I can describe festivals from Peru and across Latin America and link them to seasons." (UK NC KS2 MFL; links to geography)
-- **Hook:** "Why do people in Cusco celebrate the Sun in June — in winter?"
-- **Key activity:** Inti Raymi (Cusco, Peru, 24 June): an Inca festival of the Sun at the winter solstice in the Southern Hemisphere; Carnaval (e.g. Oruro in Bolivia; Barranquilla in Colombia) with music and costumes. Children map festivals and describe one with a date.
-- **Check for understanding:** "Why is 24th June winter in Peru?" → Peru is in the Southern Hemisphere, so June is winter there; the festival marks the shortest day and asks the Sun to return
-- **Differentiation:** support: map with dates labelled / stretch: explain what Inti Raymi tells us about the Inca civilisation
-- **Materials:** world map, photos, date cards
-- **Joy:** carnival mask-making with Spanish colour instructions
+- **Objective:** "By the end, I can describe New Year traditions in Spain and Latin America and count down to midnight in Spanish." (UK NC KS2 MFL; intercultural understanding)
+- **Hook:** "In Spain, people try to eat twelve grapes in the last seconds of the year — one for each chime of the clock. Could you?"
+- **Key activity:** Las doce uvas (Spain: one grape for each of the twelve midnight chimes, broadcast from the Puerta del Sol in Madrid); el Año Viejo in Ecuador (life-size figures of the old year, burned outdoors by adults at midnight); a countdown from doce to cero; greetings (¡Feliz Año Nuevo!). Children compare with New Year in their own families — including celebrations at other times of year, such as Lunar New Year or Rosh Hashanah.
+- **Check for understanding:** "Why do people in Spain eat exactly twelve grapes, and which number words would you hear?" → one grape for each chime of the clock at midnight (traditionally for luck in each month of the new year); uno to doce
+- **Differentiation:** support: a countdown number line / stretch: write three wishes for the new year beginning 'Deseo…'
+- **Materials:** countdown cards, photos of the Puerta del Sol and Año Viejo figures, halved grapes or raisins (allergy-checked; whole grapes are a choking risk) or pictures
+- **Joy:** the "twelve chimes" countdown challenge
 
 ### Lesson 61 — Festival songs and dances
 - **Duration:** 30 min
@@ -749,15 +749,15 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 - **Materials:** station games, rating sheets
 - **Joy:** Spanish games carousel
 
-### Lesson 64 — Story: La oruga muy hambrienta
+### Lesson 64 — Story: El monstruo de colores
 - **Duration:** 30 min
-- **Objective:** "By the end, I can read a familiar story in Spanish using known language (days, numbers, food) and perform it." (UK NC KS2 MFL (read aloud; stories))
-- **Hook:** "A very hungry caterpillar is eating through the days of the week — in Spanish!"
-- **Key activity:** Read *La oruga muy hambrienta* (the Spanish edition of Eric Carle's *The Very Hungry Caterpillar*); children join in with days and numbers; pick out food words as a preview of Year 4's food unit; perform as a class with props.
-- **Check for understanding:** "Which days and numbers did you hear, and what did the caterpillar eat on el lunes?" → days and numbers correctly identified; on Monday he ate one apple (una manzana)
-- **Differentiation:** support: picture cards of each day's food / stretch: retell the story from memory with a new food for each day
-- **Materials:** *La oruga muy hambrienta*, food picture cards
-- **Joy:** class performance with a sock-puppet caterpillar
+- **Objective:** "By the end, I can read a Spanish picture book about feelings using colour and feeling words, and perform part of it." (UK NC KS2 MFL (read aloud; stories))
+- **Hook:** "The monster has mixed up all his feelings — and each one is a different colour!"
+- **Key activity:** Read *El monstruo de colores* by the Spanish author-illustrator Anna Llenas (in English, *The Colour Monster*); children join in with the colour and feeling words (la alegría, la tristeza, la rabia, el miedo, la calma); sort the feelings into coloured jars; each group performs a page with props; link to 'Estoy contento / triste / enfadado' from Years 1–2.
+- **Check for understanding:** "The monster is azul when he feels la tristeza. Why might Anna Llenas have chosen that colour — and how would you say how you feel today?" → e.g. blue for sadness, like tears or a grey, rainy day; 'Hoy estoy contento/contenta', with the ending that matches the speaker
+- **Differentiation:** support: picture cards of each colour–feeling pair / stretch: write a new page about another feeling and its colour, with correct agreement
+- **Materials:** *El monstruo de colores* (Anna Llenas), coloured jars or cups, colour cards
+- **Joy:** class performance with colour-feeling jars (links to Life Skills)
 
 ### Lesson 65 — Planning 'Todo sobre mí'
 - **Duration:** 30 min
@@ -826,14 +826,14 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 ## Books & resources
 
 - ***Oso pardo, oso pardo, ¿qué ves ahí?* (Bill Martin Jr., illustrated by Eric Carle, Spanish edition)** — a patterned text children know in English, perfect for reading and colour agreement.
-- ***La oruga muy hambrienta* (Eric Carle, Spanish edition)** — days, numbers and food in a loved story; a bridge into Year 4's food unit.
+- ***El monstruo de colores* (Anna Llenas)** — a much-loved picture book by a Spanish author about sorting out feelings by colour; recycles colours and feelings with real Spanish (*La oruga muy hambrienta* was Year 2's story).
 - ***Coco* (Pixar, 2017; approved clips)** — a respectful, joyful window into Mexico's Día de Muertos, with Spanish songs.
 - **Traditional songs:** 'De colores', 'Cumpleaños feliz', 'Las mañanitas', counting and days-of-the-week songs — songs are the fastest route to accurate pronunciation.
 - **Lotería** (the traditional Mexican picture-bingo game) — authentic cultural game for vocabulary revision.
 - **Rockalingua** (songs and videos designed for primary Spanish) — catchy input for numbers, days, months, weather, animals and clothes.
 - **BBC Teach and BBC Bitesize primary Spanish** — short authentic clips of children in Spanish-speaking countries for listening and culture.
 - **A good bilingual picture dictionary** (e.g. a Collins or Oxford first Spanish dictionary) — children learn to check gender and spelling independently.
-- **Pen-pal link** with a school in a Spanish-speaking country (e.g. via eTwinning in Europe or British Council Schools Online) — real audiences for letters, videos and mini-books.
+- **Pen-pal link** with a school in a Spanish-speaking country (e.g. via eTwinning in Europe or a national school-partnership programme) — real audiences for letters, videos and mini-books.
 
 ## End-of-year mastery checks
 
@@ -844,6 +844,7 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 5. **Weather** — describes the weather in several ways and understands a short forecast.
 6. **Pronunciation and phonics** — reads aloud unfamiliar words applying Spanish sound rules (h, j, g, ll, ñ, rr, c/z, accents).
 7. **Reading** — understands a short text on familiar topics using known words and cognates. *See it:* the email task.
+10. **Verbs and questions** — uses the forms of ser, the yo/él forms of regular -ar verbs and question words accurately. *See it:* the family interview and animal fact file.
 8. **Writing** — writes a short paragraph about themselves with connectives (y, pero, porque, también, cuando).
 9. **Culture** — describes three festivals from different Spanish-speaking countries and explains why seasons differ between hemispheres.
 
@@ -866,4 +867,4 @@ Lessons are **30 minutes**, two a week. Instructions are given in simple Spanish
 
 **Switching languages.** Schools teaching Hebrew or French instead keep the same topics and sequence and adapt the grammar points (e.g. French gender and adjective agreement map closely; Hebrew needs explicit teaching of the alphabet, right-to-left writing and gender in verbs and adjectives).
 
-**Vertical connections.** Builds on Years 1–2 (sounds, greetings, numbers to 31, colours, classroom language and gender). Year 4 adds food and opinions with reasons, hobbies, the body, telling the time and directions in a town — relying on this year's tener, ser, agreement, numbers to 100, dates and weather.
+**Vertical connections.** Builds on Years 1–2 (sounds, greetings, numbers to 50, colours, classroom language and gender, the calendar, weather, family, pets and festivals — all retrieved briefly here rather than re-taught). Year 4 adds food and opinions with reasons, hobbies, the body, telling the time and directions in a town — relying on this year's tener, ser, agreement, numbers to 100, dates and weather.
