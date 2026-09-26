@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { BrainVendor } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
@@ -19,6 +19,11 @@ export function ConnectBrain() {
   const [oauthState, setOauthState] = useState('');
   const [oauthCode, setOauthCode] = useState('');
   const [authUrl, setAuthUrl] = useState('');
+  // The sign-in poll timer — cleared on unmount so it never runs (or toasts)
+  // after the parent leaves this screen.
+  const pollRef = useRef<number | null>(null);
+  const stopPoll = () => { if (pollRef.current !== null) { clearInterval(pollRef.current); pollRef.current = null; } };
+  useEffect(() => stopPoll, []);
 
   const models = data?.models?.[vendor] || [];
   const chosenModel = model || models[0]?.id || '';
@@ -28,6 +33,7 @@ export function ConnectBrain() {
     setMethod(v === 'local' ? 'none' : 'api_key');
     setModel('');
     setOauthState('');
+    stopPoll();
   }
 
   async function connect() {
@@ -37,7 +43,20 @@ export function ConnectBrain() {
         // Open the tab synchronously inside the click so the popup blocker
         // allows it — opening it *after* the await would get silently blocked.
         const win = window.open('about:blank', '_blank');
-        const { authorizeUrl, state } = await api.brainOauthStart();
+        // Snapshot OpenAI profiles first: a profile that already existed must not
+        // count as "this sign-in succeeded". Completing OAuth rewrites createdAt.
+        const before = new Map<string, string>();
+        let start: Awaited<ReturnType<typeof api.brainOauthStart>>;
+        try {
+          const { profiles } = await api.brainProfiles();
+          for (const p of profiles) if (p.vendor === 'openai') before.set(p.id, p.createdAt);
+          start = await api.brainOauthStart();
+        } catch (e) {
+          // Don't leave an orphaned blank tab behind when sign-in can't start.
+          if (win && !win.closed) win.close();
+          throw e;
+        }
+        const { authorizeUrl, state } = start;
         setOauthState(state);
         setAuthUrl(authorizeUrl);
         if (win && !win.closed) {
@@ -47,7 +66,7 @@ export function ConnectBrain() {
           show('Popup blocked — use the “Open sign-in page” link below.');
         }
         // also poll for loopback success
-        pollConnected();
+        pollConnected(before);
         return;
       }
       const res = await api.brainConnect({
@@ -70,6 +89,7 @@ export function ConnectBrain() {
     setBusy(true);
     try {
       await api.brainOauthPaste(oauthState, oauthCode.trim(), chosenModel);
+      stopPoll();
       show('ChatGPT connected ✓');
       setOauthState('');
       setOauthCode('');
@@ -81,18 +101,30 @@ export function ConnectBrain() {
     }
   }
 
-  function pollConnected() {
+  function pollConnected(before: Map<string, string>) {
+    stopPoll();
     let n = 0;
-    const t = setInterval(async () => {
-      n++;
-      const { profiles } = await api.brainProfiles();
-      if (profiles.some((p) => p.vendor === 'openai' && p.connected)) {
-        clearInterval(t);
-        setOauthState('');
-        show('ChatGPT connected ✓');
-        reload();
+    let inFlight = false;
+    pollRef.current = window.setInterval(async () => {
+      if (inFlight) return;
+      if (++n > 60) { stopPoll(); return; }
+      inFlight = true;
+      try {
+        const { profiles } = await api.brainProfiles();
+        const fresh = profiles.some(
+          (p) => p.vendor === 'openai' && p.connected && before.get(p.id) !== p.createdAt
+        );
+        if (fresh && pollRef.current !== null) {
+          stopPoll();
+          setOauthState('');
+          show('ChatGPT connected ✓');
+          reload();
+        }
+      } catch {
+        // transient network error — keep polling until the attempt limit
+      } finally {
+        inFlight = false;
       }
-      if (n > 60) clearInterval(t);
     }, 2000);
   }
 
