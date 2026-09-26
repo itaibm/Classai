@@ -325,7 +325,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Duration:** 25 min
 - **Objective:** "By the end, I can plan a fair investigation on exercise and pulse." (UK NC Y3 Working scientifically; PE link)
 - **Hook:** Feel your pulse at your wrist or neck.
-- **Key activity:** Learn to count a pulse for 15 seconds (×4 for a minute); plan: resting pulse vs after 1 minute of star jumps; what to keep the same.
+- **Key activity:** Retrieve pulse-taking from PE Unit 1 (count for 15 seconds, ×4 for a minute); plan a fair test: resting pulse vs after 1 minute of star jumps; what to keep the same.
 - **Check for understanding:** "Why should everyone do the same exercise for the same time?" → To keep the test fair.
 - **Differentiation:** support: partner counts with a timer / stretch: plan a second question (different exercises).
 - **Materials:** stopwatches, recording tables

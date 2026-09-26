@@ -25,9 +25,13 @@ brings **striking and fielding and net games**, **water safety and swimming** (p
 facilities allow; dry-land water safety for all), a **health unit on body safety, feelings, hygiene
 and getting help**, and **athletics and outdoor adventure**, ending with **sports day**.
 
-**What Year 2 assumes from Year 1 (ages 6–7):** running, hopping, skipping and jumping with control;
-throwing and catching a large ball; simple balances; moving safely in space; following simple game
-rules; naming healthy foods and knowing that exercise and sleep matter.
+**What Year 2 assumes from Year 1 (ages 6–7):** running, dodging, hopping, skipping and jumping with
+control; underarm and overarm throwing, catching and dribbling with hands and feet; the five
+gymnastic shapes, points-and-patches balances and a balance–roll–jump sequence; dance with levels,
+unison and world dances; moving into space, simple defending, balloon volleyball and tee-ball;
+simple orienteering and team challenges; dry-land water safety and float-to-live; and health
+lessons on activity, food, water, sleep, handwashing and teeth, feelings, PANTS body safety, road
+safety and emergency calls. Year 2 retrieves these and goes further rather than re-teaching them.
 
 **What Year 3 (ages 8–9) relies on from this year:** accurate passing and receiving in small-sided
 games; a 6–8 movement gymnastics sequence; a performed dance with counts; basic striking; water
@@ -85,10 +89,10 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 
 ### Lesson 3 — Jumping: for height and distance
 - **Duration:** 30 min
-- **Objective:** "By the end, I can take off and land safely when jumping for height and distance." (UK NC KS2 PE – jumping; SHAPE S1.E4)
+- **Objective:** "By the end, I can take off and land safely when jumping for height and distance, and use technique to improve my measurement." (UK NC KS2 PE – jumping; SHAPE S1.E4)
 - **Hook:** "How far can a kangaroo jump? How far can you?"
-- **Key activity:** Teach take-off (two feet, one foot), arm swing, soft landing (bend knees); standing long jump and "jump and reach" for height; measure with tape measures (Maths link).
-- **Check for understanding:** "Why do we bend our knees when we land?" → To absorb the force and protect our joints.
+- **Key activity:** Retrieve Year 1's "swing, bend, jump, land like a spring"; add one-foot take-offs and the hop-step-jump pattern; standing long jump and "jump and reach" for height; measure with tape measures (Maths link); try one technique change and measure again.
+- **Check for understanding:** "Your standing long jump was 90 cm. Name two changes to your technique that could add distance, and explain why each helps." → e.g. a bigger arm swing forwards (it carries my body forward), a deeper knee bend before take-off (more push), pushing off with both feet together and landing with bent knees so I don't fall back.
 - **Differentiation:** support: jump onto a mat marker / stretch: combine hop, step and jump.
 - **Materials:** mats, tape measures, chalk; **safety:** non-slip landing area
 - **Joy:** "Kangaroo challenge" with personal bests.
@@ -113,14 +117,14 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Materials:** agility ladders, cones, skipping ropes, low beam, reaction balls, stopwatch
 - **Joy:** Circuit with music.
 
-### Lesson 6 — Exercise and my heart (Science link)
+### Lesson 6 — Exercise and my heart: pulse and recovery (Science link)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how exercise affects my heart and breathing and why this is healthy." (Health; Science link)
-- **Hook:** Measure resting pulse, then after 1 minute of star jumps.
-- **Key activity:** Count pulse for 15 seconds × 4; compare; discuss why the heart is a muscle that gets stronger with exercise; recovery time.
-- **Check for understanding:** "Why does your heart rate go back down after you stop?" → Muscles need less oxygen once they stop working hard.
+- **Objective:** "By the end, I can take my pulse, measure how quickly it recovers after exercise, and explain why fitter hearts recover faster." (Health; Science link)
+- **Hook:** "In Year 1 you felt your heart speed up. Today you'll measure how fast it comes back down."
+- **Key activity:** Learn to find the pulse at the wrist or neck and count for 15 seconds × 4 (Science Unit 3 uses this skill for its investigation later in the year); measure resting pulse, pulse straight after 1 minute of star jumps, then every minute until it is back near resting; record recovery time; discuss that the heart is a muscle that gets stronger with regular exercise.
+- **Check for understanding:** "Why does a fitter person's heart rate usually come back down faster after exercise?" → Their heart muscle is stronger, so it pumps more blood with each beat and doesn't need to beat as fast to deliver oxygen once they stop.
 - **Differentiation:** support: partner counts pulse / stretch: compare two activities.
-- **Materials:** stopwatches, recording sheets
+- **Materials:** stopwatches, recording sheets; **safety:** stop if anyone feels dizzy; inhalers to hand
 - **Joy:** "Heart detectives."
 
 ### Lesson 7 — Skipping and rhythm
@@ -259,13 +263,13 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 
 **Key vocabulary:** healthy, balanced diet, energy, hydration, sugar, sleep, routine, screen time, active, habit, choice
 
-### Lesson 19 — Fuel for my body
+### Lesson 19 — Fuel for my body: fast and slow energy
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain how food gives my body energy and nutrients." (Health; Science link)
-- **Hook:** A car with no fuel vs a full tank.
-- **Key activity:** Recap food groups from Science; plan an "active day" menu; discuss treats as sometimes foods.
-- **Check for understanding:** "Why is breakfast important before a PE lesson?" → It gives energy for the body and brain.
-- **Differentiation:** support: picture menu / stretch: explain why some foods give longer-lasting energy (wholegrains).
+- **Objective:** "By the end, I can explain why some foods keep me going for longer than others and plan an active-day menu." (Health; Science link)
+- **Hook:** Two breakfasts on the table: a bowl of sugary cereal and porridge with banana — "Which one will still be helping you at 11 o'clock?"
+- **Key activity:** Retrieve Year 1's everyday and sometimes foods in two minutes; new idea: wholegrains, beans and many fruits release energy slowly, while sugary foods give a quick burst that soon runs out; plan an "active day" menu for a day with PE, with a breakfast, snack and lunch that keep energy steady.
+- **Check for understanding:** "Which breakfast would help you most in a PE lesson at 11 o'clock, and why?" → Porridge with banana — it releases energy slowly, so I keep going; sugary cereal gives a quick burst and then I may feel tired and hungry.
+- **Differentiation:** support: picture menu with slow/fast energy stickers / stretch: find wholegrain foods on real packaging.
 - **Materials:** food pictures, plate templates
 - **Joy:** "Menu designer."
 
@@ -273,9 +277,9 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain why my body needs water and how to stay hydrated." (Health)
 - **Hook:** A wilted plant and a watered plant.
-- **Key activity:** Discuss that a large part of the body is water; signs of thirst; compare sugar in drinks (sugar-cube model); water-bottle habit chart.
-- **Check for understanding:** "Why is water better than fizzy drinks after exercise?" → It hydrates without sugar that harms teeth.
-- **Differentiation:** support: picture sort of drinks / stretch: read sugar on drinks labels.
+- **Key activity:** Retrieve Year 1's "drink more when hot or active"; new: read the sugar on real drinks labels and build each drink's sugar as a tower of sugar cubes (about 4 g each — Maths link); compare with water and milk; water-bottle habit chart.
+- **Check for understanding:** "This carton says 20 g of sugar. About how many sugar cubes is that, and what would you choose to drink after PE instead?" → About 5 cubes (5 × 4 g = 20 g); water — it re-hydrates me without sugar that harms my teeth.
+- **Differentiation:** support: picture sort of drinks with the cube towers already built / stretch: compare sugar per 250 ml for two different-sized bottles.
 - **Materials:** drink cartons, sugar cubes, water bottles
 - **Joy:** Fruit-infused water tasting.
 
@@ -283,18 +287,18 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain why sleep matters and plan a good bedtime routine." (Health)
 - **Hook:** A phone battery at 5% — "What happens if we don't recharge?"
-- **Key activity:** Learn children aged 6–12 need about 9–12 hours of sleep; what helps (routine, no screens before bed, dark room); design a bedtime routine.
-- **Check for understanding:** "Why can screens before bed make sleep harder?" → Bright light and exciting content keep the brain awake.
-- **Differentiation:** support: picture routine / stretch: track sleep for a week.
+- **Key activity:** Retrieve Year 1's bedtime routine and the 9–12 hours children aged 6–12 need; new: families help keep a one-week sleep diary (bedtime, wake time, what I did in the last hour); children work out hours slept each night and look for patterns (Maths link); improve their routine using the evidence.
+- **Check for understanding:** "A sleep diary shows 8 hours on the night of a late film and 10 hours after a calm evening with a book. What does the evidence suggest, and what would you change?" → A calm, screen-free last hour helped them sleep longer (bright, exciting screens keep the brain awake); I'd move screens earlier and read before bed.
+- **Differentiation:** support: picture diary with a clock to colour / stretch: make a bar chart of the week's sleep.
 - **Materials:** routine templates, sleep diary
 - **Joy:** "Dream routine" poster.
 
-### Lesson 22 — Active every day
+### Lesson 22 — Active every day: how hard is my body working?
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name ways to be active for 60 minutes a day and try new ones." (Health; WHO guidance)
-- **Hook:** "60 minutes a day — where can we find them?"
-- **Key activity:** Make a "movement menu" (walking to school, playground games, dancing, cycling); try 5 quick activities; plan an active week.
-- **Check for understanding:** "Give three ways you could be active that aren't PE lessons." → e.g. walk, play tag, dance.
+- **Objective:** "By the end, I can tell moderate from vigorous activity using the 'talk test' and plan 60 minutes a day." (Health; WHO guidance)
+- **Hook:** "60 minutes a day — but does a slow stroll count the same as a game of tag?"
+- **Key activity:** Retrieve Year 1's ways to be active; new: try five activities (walking, brisk walking, skipping, tag, star jumps) and do the talk test after each — moderate: you can talk but not sing; vigorous: you can only say a few words before needing a breath; sort them; plan an active week that includes some vigorous activity.
+- **Check for understanding:** "After a game of tag you can only say a few words at a time. Was that moderate or vigorous, and how do you know?" → Vigorous — the talk test shows my heart and lungs were working hard, so I could only say a few words.
 - **Differentiation:** support: picture menu / stretch: plan for a family.
 - **Materials:** activity cards, timers
 - **Joy:** "Activity dice" game.
@@ -332,7 +336,7 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Objective:** "By the end, I can hold balances on different points and patches for 3 seconds." (UK NC KS2 PE – gymnastics; SHAPE S1.E7)
 - **Hook:** "Can you balance on 3 points? 2? Just 1?"
 - **Key activity:** Explore balances on large patches (back, tummy) and small points (hands, feet); hold for 3 counts with tension; partner feedback.
-- **Check for understanding:** "Why is a balance on 2 points harder than on 4?" → Less contact with the floor means it's harder to stay still.
+- **Check for understanding:** "Make a 3-point balance, then make it harder by changing just one thing. What did you change, and why is it harder?" → e.g. lifted one point (fewer points touching the floor), made my base narrower, or raised my body higher — less support underneath makes it harder to stay still.
 - **Differentiation:** support: 4- and 3-point balances / stretch: 1-point balances and changing between balances smoothly.
 - **Materials:** mats; **safety:** bare feet or gym shoes, no jewellery, mats spaced, adult spotting
 - **Joy:** "Statue" freeze game.
@@ -351,7 +355,7 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Duration:** 30 min
 - **Objective:** "By the end, I can perform log, egg and (with support) forward rolls safely." (UK NC KS2 PE – gymnastics)
 - **Hook:** "Roll like a log, rock like an egg."
-- **Key activity:** Teach log roll, egg roll, then forward roll from crouch (chin tucked, hands flat, roll on back of the head/shoulders) on a wedge mat with adult support.
+- **Key activity:** Teach log roll, egg roll, then forward roll from crouch (chin tucked, hands flat, roll across the back of the shoulders — never onto the top of the head) on a wedge mat with adult support.
 - **Check for understanding:** "Why do we tuck our chin for a forward roll?" → To protect the neck and roll smoothly on the back.
 - **Differentiation:** support: log and egg rolls only / stretch: forward roll to stand without hands.
 - **Materials:** mats, wedge (incline) mat; **safety:** adult spotting for forward rolls; never roll on hard floor
@@ -430,7 +434,7 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Objective:** "By the end, I can move in time with music and count 8-beat phrases." (UK NC KS2 PE – dance)
 - **Hook:** Music with a strong beat — "Count to 8 with me!"
 - **Key activity:** Clap and step on the beat; count 8-counts; follow-the-leader moves in 8s.
-- **Check for understanding:** "Why do dancers count in 8s?" → Most music is grouped in phrases of 8 beats; counting keeps everyone together.
+- **Check for understanding:** "Why do dancers count in 8s?" → Much dance and pop music is grouped in phrases of 8 beats (two bars of 4); counting keeps everyone together and tells us when a new move starts.
 - **Differentiation:** support: 4-counts / stretch: lead an 8-count.
 - **Materials:** music player, speakers
 - **Joy:** Follow-the-leader dance.
@@ -458,7 +462,7 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 ### Lesson 37 — Latin American dance: samba and more
 - **Duration:** 30 min
 - **Objective:** "By the end, I can perform basic samba steps in time." (UK NC KS2 PE – dance; culture; Spanish link)
-- **Hook:** Brazilian carnival samba music (Spanish/Portuguese link: carnival).
+- **Hook:** Brazilian carnival samba music (Brazil speaks Portuguese, not Spanish — a good talking point; link to Spanish carnival lessons).
 - **Key activity:** Samba basic step; arm styling; a carnival parade formation.
 - **Check for understanding:** "What makes samba feel energetic?" → Fast rhythm, bouncy steps and big arm movements.
 - **Differentiation:** support: step-touch version / stretch: add turns.
@@ -695,8 +699,8 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain body safety rules and name trusted adults I can talk to." (Health – body safety; NSPCC PANTS rule)
 - **Hook:** A friendly "Pantosaurus"-style character or a simple story about a child who told a trusted adult.
-- **Key activity:** Teach the PANTS rule in age-appropriate language (Privates are private; Always remember your body belongs to you; No means no; Talk about secrets that upset you; Speak up, someone can help); make a "trusted adults" hand (five fingers, five adults).
-- **Check for understanding:** "What's the difference between a surprise and a secret?" → A surprise is fun and will be shared soon (like a present); a secret that makes you worried should be told to a trusted adult.
+- **Key activity:** Retrieve the PANTS rule from Year 1 in age-appropriate language (Privates are private; Always remember your body belongs to you; No means no; Talk about secrets that upset you; Speak up, someone can help); go further with "No means no" in everyday situations — you can say no to a hug or tickle from anyone, even someone you love, and offer a wave or high five instead; if one trusted adult doesn't listen, keep telling until someone does; update the "trusted adults" hand (five fingers, five adults).
+- **Check for understanding:** "A grown-up you know wants a hug and you don't feel like one. What could you say or do, and why is that OK?" → Say "No thank you" and offer a wave or high five — my body belongs to me, and a kind grown-up will respect that; if anyone makes me feel uncomfortable, I tell a trusted adult.
 - **Differentiation:** support: picture cards / stretch: role play saying no and telling someone.
 - **Materials:** PANTS materials, hand outline sheets; **note:** follow school safeguarding policy; inform families beforehand
 - **Joy:** Decorating the "trusted adults" hand.
@@ -714,12 +718,12 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 ### Lesson 60 — Germs and hygiene
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain how germs spread and wash my hands properly." (Health – hygiene; Science link)
-- **Hook:** Glitter "germs" on hands spread around the room.
-- **Key activity:** Handwashing technique (soap, 20 seconds — sing a song, backs, between fingers, thumbs, nails); cover coughs and sneezes; test with glitter or UV gel.
-- **Check for understanding:** "Why wash for 20 seconds and not 2?" → It takes time for soap to lift germs off all parts of the hands.
+- **Hook:** UV "germ" gel under a torch — "You washed your hands in Year 1. Did you really get them clean?"
+- **Key activity:** Rub UV gel on hands, wash as usual, then check under a UV torch to find the missed spots (usually thumbs, backs and between fingers); retrieve the full technique (soap, 20 seconds, backs, between fingers, thumbs, nails) and re-test; new: how germs travel through the air and on surfaces — "catch it, bin it, kill it" for coughs and sneezes.
+- **Check for understanding:** "Why is it better to sneeze into a tissue or your elbow than into your hands?" → Hands touch everything — door handles, food, friends — so germs on them spread; a tissue (binned) or elbow keeps them away from things others touch.
 - **Differentiation:** support: picture steps / stretch: design a handwashing poster for younger children.
-- **Materials:** soap, sink, glitter or UV gel and torch, timer
-- **Joy:** Glitter germ experiment.
+- **Materials:** soap, sink, UV "germ" gel and UV torch (adult holds the torch; never shine it in eyes), tissues, bin, timer
+- **Joy:** The UV "missed spots" reveal.
 
 ### Lesson 61 — Dental health
 - **Duration:** 25 min
@@ -794,19 +798,19 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 - **Objective:** "By the end, I can use a map to find control points with a partner." (UK NC KS2 PE – outdoor adventure; Geography link)
 - **Hook:** Treasure map of the school grounds.
 - **Key activity:** Orient the map; find 6–8 control points marked with letters; spell a secret word.
-- **Check for understanding:** "How did you turn the map to match the ground?" → Lined up map features with real features (or used a compass).
+- **Check for understanding:** "Your map says control 4 is north-east of the pond. How do you use the compass and the map together to get there?" → Turn the map so its north arrow points the same way as the compass needle, find the pond, then walk from it in the north-east direction. (Year 1 turned the map using landmarks only.)
 - **Differentiation:** support: fewer controls with an adult / stretch: timed course with compass.
 - **Materials:** school-ground maps, control markers, compasses; **safety:** boundaries set, adults stationed
 - **Joy:** Secret-word hunt.
 
 ### Lesson 68 — Team challenges: problem solving outdoors
 - **Duration:** 30 min
-- **Objective:** "By the end, I can work in a team to solve a physical challenge." (UK NC KS2 PE – outdoor adventure; Life skills link)
-- **Hook:** "Cross the lava river using only three mats."
-- **Key activity:** Team challenges (lava river, blindfold guide, rope shapes); reflection on communication.
-- **Check for understanding:** "What helped your team succeed?" → Listening, planning, everyone having a job.
+- **Objective:** "By the end, I can work in a team to plan, try and improve a solution to a physical challenge." (UK NC KS2 PE – outdoor adventure; Life skills link)
+- **Hook:** "Your whole team is standing on a magic carpet. Can you turn it over without anyone stepping off?" (Year 1 did the mat-crossing "swamp".)
+- **Key activity:** Team challenges: magic-carpet flip (an old sheet or tarp), blindfold guide (a partner talks you through a cone course using left, right and steps), and rope shapes (make a square with eyes closed); each team plans, tries, reviews and tries again.
+- **Check for understanding:** "What did your team change after your first try, and why did it work better?" → A specific change (e.g. one person gave instructions and everyone else listened; we moved one at a time from one corner).
 - **Differentiation:** support: simpler challenge / stretch: fewer resources.
-- **Materials:** mats, ropes, blindfolds, cones
+- **Materials:** old sheet or tarp, ropes, blindfolds (or closed eyes), cones; **safety:** flat soft ground, no lifting of children, guides walk beside blindfolded partners
 - **Joy:** Lava river.
 
 ### Lesson 69 — Sports day practice
@@ -835,7 +839,6 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 
 - *Wilma Unlimited: How Wilma Rudolph Became the World's Fastest Woman* — Kathleen Krull: an Olympic champion who overcame polio; perfect for athletics and resilience.
 - *Firebird* — Misty Copeland (illustrated by Christopher Myers): a ballerina's story of hard work and belief — pairs with the dance unit.
-- *Ruby's Worry* — Tom Percival: a gentle story about how worries shrink when shared (Unit 8).
 - *The Huge Bag of Worries* — Virginia Ironside: a classic on talking about worries with trusted people.
 - *My Body! What I Say Goes!* — Jayneen Sanders: clear, age-appropriate body-safety teaching to support the PANTS lesson.
 - **NSPCC "Talk PANTS"** resources: the widely used, child-friendly body-safety programme.
@@ -872,4 +875,4 @@ available, and adult supervision. Pool lessons need qualified instructors and co
 
 **Inclusion.** Adapt equipment (larger balls, lower nets), roles (referee, scorer, coach) and distances so every child is active and successful.
 
-**Vertical alignment.** Year 1 built fundamental movement and basic health knowledge. Year 3 (ages 8–9) extends to more tactical team games, longer gymnastics and dance compositions, swimming distance targets (towards 25 m by the end of primary), and health topics including puberty basics in later years and online wellbeing.
+**Vertical alignment.** Year 1 built fundamental movement, first team games, gymnastics and dance, dry-land water safety, and health basics (activity, food, water, sleep, hygiene, feelings, PANTS, road safety, emergency calls); this year retrieves them and deepens each. Year 3 (ages 8–9) extends to more tactical team games, longer gymnastics and dance compositions, swimming distance targets (towards 25 m by the end of primary), and health topics including puberty basics in later years and online wellbeing.

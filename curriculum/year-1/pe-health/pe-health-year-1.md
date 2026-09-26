@@ -326,7 +326,7 @@ of activity; health lessons 20–25 min.
 - **Objective:** "By the end, I can show how to wash my hands properly and brush my teeth for two minutes, and explain why." (UK Health Ed HY; link: Science)
 - **Hook:** "Invisible germs everywhere! How do we get rid of them?"
 - **Key activity:** Handwashing steps with a song; tooth-brushing demonstration on a model; 2-minute timer game.
-- **Check for understanding:** "When should you always wash your hands?" → After the toilet, before eating, after playing outside or touching animals.
+- **Check for understanding:** "You've just stroked a friend's dog and now it's snack time. What should you do first, and why?" → Wash my hands with soap — germs from the dog's fur can get onto my food and into my mouth.
 - **Differentiation:** support: step picture cards / stretch: design a hygiene poster
 - **Materials:** soap, water, model teeth and toothbrush, sand timer
 - **Joy:** Handwashing song.
@@ -376,7 +376,7 @@ of activity; health lessons 20–25 min.
 - **Objective:** "By the end, I can mirror a partner and move in unison with a group." (UK NC KS1 PE DA)
 - **Hook:** "Are you my reflection? Prove it!"
 - **Key activity:** Mirror pairs (slow movements), then small groups moving in unison (same time) to a short phrase.
-- **Check for understanding:** "What does 'in unison' mean?" → Everyone doing the same move at the same time.
+- **Check for understanding:** "Your group danced in unison except one person who was one move behind. What would the audience notice, and how could you fix it?" → They'd see one dancer out of step, because unison means everyone does the same move at the same time; we could count out loud together or watch a leader.
 - **Differentiation:** support: slow simple moves / stretch: switch leader without stopping
 - **Materials:** slow music; safety: space between pairs
 - **Joy:** Mirror game.
@@ -786,7 +786,7 @@ of activity; health lessons 20–25 min.
 - **Objective:** "By the end, I can show a sprint start, a safe baton pass, a throw and a jump, and explain water-safety rules." (UK NC KS1 PE; Health Ed SA — assessment)
 - **Hook:** "Athletics passport — final stamps!"
 - **Key activity:** Adult observes events with a checklist; quick oral water-safety check.
-- **Check for understanding:** "What are the two most important water-safety rules?" → Always swim with an adult (where there's a lifeguard), and don't jump in to rescue — call for help.
+- **Check for understanding:** "Your friend's ball floats out into a lake and they want to wade in after it. What should you both do, and why?" → Leave it and tell an adult — the water could be deep, cold or moving, and we only go in water with an adult (where there's a lifeguard); if someone is in trouble, shout for help and throw something that floats rather than going in.
 - **Differentiation:** support: fewer events / stretch: coach a partner
 - **Materials:** athletics kit, checklist
 - **Joy:** Passport stamps.
@@ -876,4 +876,4 @@ of activity; health lessons 20–25 min.
 
 **Inclusion.** Adapt every activity (larger or softer balls, shorter distances, seated options) so every child can succeed and be challenged. Celebrate effort and improvement, not just winning.
 
-**Vertical alignment.** This year secures fundamental movement skills and health knowledge. Year 2 (ages 7–8) develops them into invasion, net and striking games with more tactics, longer dance and gymnastics sequences, and swimming towards independent water competence.
+**Vertical alignment.** This year secures fundamental movement skills and health knowledge (activity, food, water, sleep, hygiene, feelings, body safety with PANTS, road safety, emergency calls, water safety). Year 2 (ages 7–8) develops them into invasion, net and striking games with more tactics, longer dance and gymnastics sequences, swimming towards independent water competence, and health lessons that go deeper (energy release, sugar in drinks, sleep data, activity intensity, consent in everyday situations, first aid) rather than repeating this year's.
