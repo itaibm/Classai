@@ -185,14 +185,7 @@ export const LessonPlanSchema = z.object({
   title: z.string().default(''),
   objectives: z.array(z.string()).default([]),
   difficulty: z.enum(['gentle', 'standard', 'challenge']).default('standard').catch('standard'),
-  analysis: z
-    .object({
-      keyConcepts: z.array(z.string()).default([]),
-      misconceptions: z.array(z.string()).default([]),
-      hooks: z.array(z.string()).default([]),
-      priorKnowledge: z.array(z.string()).default([])
-    })
-    .default(EMPTY_ANALYSIS),
+  analysis: LessonAnalysisSchema.default(EMPTY_ANALYSIS),
   plan: z
     .array(
       z.object({
