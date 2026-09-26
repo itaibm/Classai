@@ -1935,7 +1935,7 @@ conferences, author visits, World Book Day and catch-up.
 - "I, Too" — Langston Hughes; "Where the Mind is Without Fear" — Rabindranath Tagore; "Checking Out Me History" — John Agard; "Life Doesn't Frighten Me" — Maya Angelou; "The Magic Box" — Kit Wright; "The Tyger" — William Blake; "The Door" — Miroslav Holub; "Jabberwocky" — Lewis Carroll; "The Lady of Shalott" — Alfred, Lord Tennyson. Chosen for range of continents, centuries and forms, and because each teaches one clear craft lesson.
 
 **Wider reading list (independent reading and read-alouds)**
-- *The Crossover* — Kwame Alexander — a verse novel about twin brothers and basketball; pairs with *Boy* as a very different life story.
+- *Ghost* — Jason Reynolds — a boy who runs from his past joins a track team; a funny, raw first-person voice to set beside *Boy*.
 - *Inside Out & Back Again* — Thanhha Lai — a verse novel of a Vietnamese refugee girl in the USA; pairs with *The Arrival*.
 - *Amal Unbound* — Aisha Saeed — a girl in Pakistan fights for her education and freedom; pairs with *The Breadwinner*.
 - *Pax* — Sara Pennypacker — a boy and his fox in a time of war; alternating viewpoints (optional re-read for those who met it in the Year 4 book club).

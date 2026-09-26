@@ -232,8 +232,8 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 40 min
 - **Objective:** "By the end, I can learn to spell ten words from the statutory list using meaning and memory strategies." (UK NC Y3–4 Wt (word list))
 - **Hook:** "Why is 'separate' spelled with 'a rat' in the middle?"
-- **Key activity:** Teach 10 list words (e.g. separate, believe, disappear, earth, heart, island, occasion, special, strength, surprise). Strategies: look for the tricky part, mnemonics, words within words, syllables, look-say-cover-write-check.
-- **Check for understanding:** "Which part of 'island' is tricky, and what strategy helps you remember it?" → the silent s — e.g. 'an island is land surrounded by water'
+- **Key activity:** Quick retrieval of five list words from Year 2 (believe, island, surprise, earth, heard). Then teach 10 new list words (e.g. separate, disappear, heart, occasion, special, strength, particular, possession, probably, quarter). Strategies: look for the tricky part, mnemonics, words within words, syllables, look-say-cover-write-check.
+- **Check for understanding:** "Which part of 'possession' is tricky, and what strategy helps you remember it?" → the two double s's — e.g. split it into syllables (pos-ses-sion) and notice the root 'possess'
 - **Differentiation:** support: five words with picture mnemonics / stretch: create mnemonics for three words and teach them to the class
 - **Materials:** word cards, whiteboards
 - **Joy:** "Spelling magician": invent the funniest mnemonic
@@ -1521,8 +1521,8 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 ### Lesson 135 — Word study: Year 3–4 word list (2)
 - **Duration:** 40 min
 - **Objective:** "By the end, I can learn to spell ten more statutory words using meaning and memory strategies." (UK NC Y3–4 Wt (word list))
-- **Hook:** "Rehearse is a word actors need — and it's on our list!"
-- **Key activity:** Teach ten list words useful for scripts and stories (e.g. address, answer, appear, believe, describe, favourite, forward, imagine, remember, suppose); look for tricky parts, word families (appear, appearance), and test in pairs with look-say-cover-write-check.
+- **Hook:** "Describe, imagine, mention — words every playwright needs, and they're all on our list!"
+- **Key activity:** Teach ten list words useful for scripts and stories, avoiding those already learned in Year 2 (e.g. address, describe, favourite, forward, imagine, mention, opposite, position, question, suppose); look for tricky parts, word families (describe, description; imagine, imagination), and test in pairs with look-say-cover-write-check.
 - **Check for understanding:** "Which part of 'describe' do people often misspell, and what helps you remember?" → the 'de' prefix (not 'dis'); remembering 'description' uses the same start
 - **Differentiation:** support: five words with picture mnemonics / stretch: build word families for three words and explain the spelling links
 - **Materials:** word cards, whiteboards
@@ -1937,7 +1937,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - *A Poem for Every Day of the Year* edited by Allie Esiri — a wide-ranging anthology for daily poem-reading.
 
 **Independent reading shelf (a sample for the class library, all real and widely available)**
-*The Miraculous Journey of Edward Tulane* (Kate DiCamillo), *The Year of the Dog* (Grace Lin), *The Hundred Dresses* (Eleanor Estes), *Varjak Paw* (S. F. Said), *Matilda* (Roald Dahl), *The Lion, the Witch and the Wardrobe* (C. S. Lewis), *Stig of the Dump* (Clive King), *Because of Winn-Dixie* (Kate DiCamillo), *Ivy + Bean* (Annie Barrows, for less confident readers), *Journey to the River Sea* (Eva Ibbotson, a stretch read linked to the Amazon geography unit), plus quality non-fiction such as DK Eyewitness titles on Ancient Greece and Ancient Rome.
+*The Miraculous Journey of Edward Tulane* (Kate DiCamillo), *The Year of the Dog* (Grace Lin), *The Hundred Dresses* (Eleanor Estes), *The Hundred-Mile-an-Hour Dog* (Jeremy Strong), *Matilda* (Roald Dahl), *Stig of the Dump* (Clive King), *Because of Winn-Dixie* (Kate DiCamillo), *Ivy + Bean* (Annie Barrows, for less confident readers), *Journey to the River Sea* (Eva Ibbotson, a stretch read linked to the Amazon geography unit), plus quality non-fiction such as DK Eyewitness titles on Ancient Greece and Ancient Rome.
 
 **Teaching resources**
 - **Talk for Writing** (Pie Corbett) — the approach behind oral storytelling, story maps and 'reading as a writer'.

@@ -1883,7 +1883,7 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - *The Night Diary* — Veera Hiranandani: a girl's letters to her late mother during the Partition of India in 1947.
 - *The Other Side of Truth* — Beverley Naidoo: two Nigerian children alone in London.
 - *Trash* — Andy Mulligan: a thriller set among children who live on a rubbish dump.
-- *Goodnight Mister Tom* — Michelle Magorian: a Second World War evacuee story of healing and friendship.
+- *When Hitler Stole Pink Rabbit* — Judith Kerr: the author's own escape from Nazi Germany as a child, told as a novel.
 - *Treasure Island* — Robert Louis Stevenson: the adventure classic.
 - *The Hobbit* — J. R. R. Tolkien: the gateway to epic fantasy.
 - *A Wrinkle in Time* — Madeleine L'Engle; *City of Ember* — Jeanne DuPrau; *The Last Cuentista* — Donna Barba Higuera: speculative fiction that pairs with Unit 8.
