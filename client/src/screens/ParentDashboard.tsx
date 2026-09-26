@@ -150,7 +150,7 @@ export function ParentDashboard() {
                   <div className="grow">
                     <label className="field">Name<input type="text" value={name} onChange={(e) => setName(e.target.value)} autoFocus /></label>
                     <div className="row">
-                      <label className="field grow">Age<input type="number" min={8} max={19} value={age} onChange={(e) => setAge(Number(e.target.value))} /></label>
+                      <label className="field grow">Age<input type="number" min={4} max={14} value={age} onChange={(e) => setAge(Number(e.target.value))} /></label>
                       <label className="field grow">Grade / level<input type="text" value={grade} onChange={(e) => setGrade(e.target.value)} placeholder="7th grade" /></label>
                     </div>
                     <label className="field">

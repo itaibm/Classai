@@ -14,6 +14,7 @@ import type {
   MemoryEpisode,
   SchoolYear,
   Session,
+  SessionSummary,
   Topic
 } from '../../../shared/types.ts';
 import { DATA_DIR } from '../config.ts';
@@ -524,6 +525,39 @@ export const sessions = {
   },
   listByKid: (kidId: string): Session[] =>
     db.prepare('SELECT * FROM sessions WHERE kidId=? ORDER BY startedAt DESC').all(kidId).map(rowToSession),
+  /** Newest-first summaries without transcripts/snapshots (cheap history list). */
+  listSummariesByKid(kidId: string, limit = 20): SessionSummary[] {
+    const rows = db.prepare(`SELECT id, classId, lessonId, subject, topic, status, startedAt, endedAt, report,
+        json_extract(lessonSnapshot, '$.curriculumId') AS curriculumId,
+        json_extract(working, '$.lessonMastery') AS lessonMastery
+      FROM sessions WHERE kidId=? ORDER BY startedAt DESC LIMIT ?`).all(kidId, limit) as any[];
+    return rows.map((row) => ({
+      id: row.id,
+      classId: row.classId,
+      lessonId: row.lessonId,
+      curriculumId: typeof row.curriculumId === 'string' ? row.curriculumId : undefined,
+      subject: row.subject,
+      topic: row.topic,
+      status: row.status,
+      startedAt: row.startedAt,
+      endedAt: row.endedAt || undefined,
+      report: P(row.report, undefined as SessionSummary['report']),
+      lessonMastery: typeof row.lessonMastery === 'number' ? row.lessonMastery : undefined
+    }));
+  },
+  /** Per-session lesson outcomes (curriculum id, status, end, mastery) — for progress rollups. */
+  listOutcomesByKid(kidId: string): Array<{ curriculumId?: string; status: Session['status']; endedAt?: string; lessonMastery?: number }> {
+    const rows = db.prepare(`SELECT status, endedAt,
+        json_extract(lessonSnapshot, '$.curriculumId') AS curriculumId,
+        json_extract(working, '$.lessonMastery') AS lessonMastery
+      FROM sessions WHERE kidId=? ORDER BY startedAt DESC`).all(kidId) as any[];
+    return rows.map((row) => ({
+      curriculumId: typeof row.curriculumId === 'string' ? row.curriculumId : undefined,
+      status: row.status,
+      endedAt: row.endedAt || undefined,
+      lessonMastery: typeof row.lessonMastery === 'number' ? row.lessonMastery : undefined
+    }));
+  },
   insert(item: Session): Session {
     db.prepare(`INSERT INTO sessions
       (id,kidId,classId,lessonId,lessonSnapshot,subject,topic,status,startedAt,endedAt,transcript,working,report)

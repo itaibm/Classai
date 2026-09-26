@@ -9,6 +9,7 @@ import type {
   KnowledgeMaterial,
   Lesson,
   Session,
+  SessionSummary,
   LessonKind,
   BrainProfilePublic,
   BrainVendor,
@@ -217,6 +218,6 @@ export const api = {
       episodes: MemoryEpisode[];
       model: LearnerModel;
     }>(`/kids/${kidId}/progress`),
-  sessions: (kidId: string) => req<{ sessions: Session[] }>(`/kids/${kidId}/sessions`),
+  sessions: (kidId: string, limit = 20) => req<{ sessions: SessionSummary[]; limit: number }>(`/kids/${kidId}/sessions?limit=${limit}`),
   memory: (kidId: string) => req<{ model: LearnerModel; episodes: MemoryEpisode[] }>(`/kids/${kidId}/memory`)
 };
