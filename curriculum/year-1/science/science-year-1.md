@@ -1,291 +1,221 @@
-# Year 1 Science (ages 5–6, KS1) — Lesson Outlines
+# Year 1 Science (ages 6–7, KS1) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Source of truth: [`knowledge-base/subjects/science/year-1.md`](../../../knowledge-base/subjects/science/year-1.md).
+> Source of truth: [`knowledge-base/subjects/science/year-2.md`](../../../knowledge-base/subjects/science/year-2.md).
 
 ## Year overview
 
-Year 1 science is the science of **careful looking and naming the everyday world**. Across the year a child learns to name the parts of a plant, sort trees and animals, know their own body and five senses, describe the materials things are made of, and track the four seasons and the weather. The teaching is **hands-on inquiry**: wherever possible the child **explores and notices first, then names the concept** (the 5E pattern — Engage, Explore, Explain, Elaborate, Evaluate), because a five-year-old learns "leaf" from a real leaf in the hand, not from a definition. Running through **every** unit is the **working-scientifically thread** — observe closely, identify and classify, ask simple questions, gather and talk about what we notice, and test our ideas. Lessons are short and active (most 20–30 min of focused teaching, with investigation lessons stretching to 35–40 min); the bulk of every lesson is the child *doing* science outdoors, at the table, or with real objects.
+Year 1 science moves the child **from naming the everyday world to explaining how living things grow and live where they do, and why we choose particular materials.** Across the year a child learns to sort things into living, dead and never-alive; to see that animals and plants are *suited* to their habitats and joined in food chains; to grow a plant from a seed and track what it needs; to understand that animals (including us) have young, basic needs and healthy habits; and to choose materials because their properties fit the job. The teaching stays **hands-on inquiry** — explore and notice first, then name the concept (the 5E pattern) — because a six-year-old learns "habitat" by lifting a log, not from a definition. The **working-scientifically thread** steps up from Foundation: this year the child runs **simple comparative tests** ("which material keeps water out best?"), **gathers and records data**, and **observes growth and change over time** (a bean in a jar across a week). This builds directly on Foundation's careful looking, naming and sorting. Lessons are short and active (most 20–30 min of focused teaching, with investigation lessons stretching to 35–40 min); the bulk of every lesson is the child *doing* science.
 
 ---
 
-## Unit 1 — Plants
+## Unit 1 — Living things and their habitats
 
-**Essential question:** What is a plant, what are its parts, and how can we tell trees apart?
+**Essential question:** How do we know if something is living, and how is each living thing suited to where it lives?
 
-**Key vocabulary:** plant, living, roots, stem, trunk, leaves, flower, seed, soil, deciduous, evergreen, sort.
+**Key vocabulary:** living, dead, never alive, life process, move, grow, feed, habitat, microhabitat, shelter, suited, survive, food chain, arrow, predator, prey.
 
-### Lesson 1 — What is a plant? (sort living things)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say what a plant is and find one growing near me."
-- **Hook:** "How many plants can we spot in one minute out the window — even in cracks in the pavement?"
-- **Key activity:** Explore — hunt for plants outdoors (garden, park, weeds, trees). Notice — they grow in soil, stay still, are green, need light and water. Name the concept — a **plant is a living thing that usually grows in soil and needs light and water**.
-- **Check for understanding:** "Is a daisy growing in a crack in the pavement a plant?" → Yes — it grows, is green, and needs light and water.
-- **Differentiation:** support: point out and name plants together; stretch: find a plant in an unexpected place and explain how it lives there.
-- **Materials:** outdoor space or several houseplants/weeds, collecting basket.
-- **Joy:** going on a plant hunt and finding a plant growing somewhere surprising.
-
-### Lesson 2 — The four parts of a plant
+### Lesson 1 — Living, dead, or never alive
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name and point to the roots, stem, leaves and flower."
-- **Hook:** "A plant has a body just like you — where do you think its 'legs' that drink are?"
-- **Key activity:** Explore — gently pull up a whole weed (e.g. dandelion) with roots intact. Notice — long white roots, green stem, leaves at the base, flower on top. Name — **roots** (drink water, hold it still), **stem** (holds it up, carries water), **leaves** (catch sunlight), **flower** (makes seeds). Label a real plant by pointing.
-- **Check for understanding:** "Which part grows underground and drinks water?" → The roots. "Which part catches sunlight?" → The leaves.
-- **Differentiation:** support: match part-name cards to the real plant; stretch: explain the job of each part in own words.
-- **Materials:** a whole pulled weed with roots, a houseplant, part-name cards.
-- **Joy:** pulling up a real plant and seeing the hidden roots for the first time.
+- **Objective:** "By the end, I can sort things into living, dead and never alive and give a reason."
+- **Hook:** "A wooden chair and a tree are both wood — but are they both alive?"
+- **Key activity:** Explore — handle/look at a butterfly picture, a dead leaf, a pebble, a plant, a teddy. Notice — living things move, grow, feed and make babies. Name the three groups: **living** (does or could grow, feed, have young), **dead** (was once alive), **never alive** (never could). Use the test "Does it, or did it ever, grow, feed and have babies?"
+- **Check for understanding:** "A leaf on the ground that fell from a tree — living, dead or never alive?" → Dead (it was once alive).
+- **Differentiation:** support: sort living vs never-alive only; stretch: explain why a seashell is "dead/once-living."
+- **Materials:** real or pictured butterfly, dead leaf, pebble, plant, toy; three sorting hoops.
+- **Joy:** the "gotcha" of busting "a car is alive because it moves."
 
-### Lesson 3 — Plant parts we eat
+### Lesson 2 — The seven life processes (a child's list)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can sort foods into root, leaf and flower."
-- **Hook:** "Did you know broccoli is a flower and a carrot is a root we eat?"
-- **Key activity:** Explore — handle/look at carrot, lettuce, broccoli, celery. Notice — each is a different plant part. Name and sort foods into **root** (carrot), **leaf** (lettuce, cabbage), **flower** (broccoli, cauliflower), **stem** (celery).
-- **Check for understanding:** "A carrot is which plant part?" → A root. "Lettuce?" → Leaves.
-- **Differentiation:** support: sort with two groups only (root vs leaf); stretch: add stem and flower and name an extra food for each.
-- **Materials:** real or pictured carrot, lettuce, broccoli, celery; sorting mats.
-- **Joy:** discovering the vegetables on their plate are secretly plant parts.
+- **Objective:** "By the end, I can name things all living things do."
+- **Hook:** "What do you, a worm and a sunflower all secretly have in common?"
+- **Key activity:** Explore examples of each life process (you move and grow; a plant grows and turns to light; animals feed and have babies). Notice and name the child-sized list: **move, grow, feed, make babies** (and breathe, sense, get rid of waste). Test a few objects against the list.
+- **Check for understanding:** "Name two things all living things do." → Any two: move, grow, feed, make babies.
+- **Differentiation:** support: match a picture to one life process; stretch: explain how a plant "moves" (grows toward light).
+- **Materials:** picture cards of life processes, mixed object cards.
+- **Joy:** acting out each life process with their whole body.
 
-### Lesson 4 — Is a tree a plant? (big plants)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can explain that a tree is a plant and name its parts."
-- **Hook:** "Some children think a tree is too big to be a plant — are they right?"
-- **Key activity:** Explore — visit/look closely at a tree. Notice — it has roots, a stem (the **trunk**), leaves, and flowers/seeds, just very big. Confront the misconception ("trees aren't plants — they're too big") and fix it: a tree is just a very big plant. Compare trunk = stem.
-- **Check for understanding:** "Is an oak tree a plant? How do you know?" → Yes — it has roots, a stem (trunk), leaves and grows like a plant.
-- **Differentiation:** support: match tree parts to small-plant parts; stretch: explain why the trunk is the same as a stem.
-- **Materials:** a real tree or tree photos, the Lesson 2 small plant for comparison.
-- **Joy:** standing by a giant tree and finding the same four parts as on a tiny weed.
+### Lesson 3 — What is a habitat?
+- **Duration:** 30 min
+- **Objective:** "By the end, I can say what a habitat is and how an animal is suited to it."
+- **Hook:** "Why would a polar bear be miserable in a hot desert?"
+- **Key activity:** Explore — match animals to homes (polar bear/Arctic, fish/water, camel/desert). Notice — a **habitat** gives a living thing food, water and shelter, and each animal is **suited** to its home (thick fur for cold, gills for water). Name the rule: living things live where they get what they need.
+- **Check for understanding:** "Why does a polar bear live in the Arctic and not the desert?" → Its thick fur suits the cold; it would overheat in the desert.
+- **Differentiation:** support: match two obvious animal–habitat pairs; stretch: describe how a chosen animal is suited to its habitat.
+- **Materials:** animal cards, habitat scene cards (Arctic, ocean, desert, woodland).
+- **Joy:** choosing a favourite wild animal and "designing" its perfect home.
 
-### Lesson 5 — Deciduous and evergreen trees (investigation)
+### Lesson 4 — Microhabitats (lift a log)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can sort trees into those that lose their leaves and those that stay green."
-- **Hook:** "Why is a Christmas tree green in midwinter when other trees are bare?"
-- **Key activity:** Explore — collect/examine leaves from different trees (a pine needle, a holly leaf, a broad oak/chestnut leaf). Notice — some leaves are tough and needle-like, some are broad and soft. Name — **evergreen** ("green forever," keeps leaves all year) vs **deciduous** (drops its leaves in autumn, grows them back in spring). Sort tree pictures into "loses leaves / keeps leaves." Fix misconception that a bare winter tree is dead — it's resting.
-- **Check for understanding:** "In winter a tree has bare branches. Deciduous or evergreen?" → Deciduous. "Name an evergreen tree." → Pine, fir or holly.
-- **Differentiation:** support: sort two obvious examples (bare oak vs green pine); stretch: predict what each tree will look like in summer and winter.
-- **Materials:** real leaves/needles (pine, holly, broadleaf), tree pictures in summer and winter, sorting hoops.
-- **Joy:** handling a spiky holly leaf and a soft pine needle and feeling the difference.
+- **Objective:** "By the end, I can find a microhabitat and say why minibeasts live there."
+- **Hook:** "There's a whole secret world living under that log — shall we look?"
+- **Key activity:** Investigate — with an adult, lift a log or stone outdoors, observe what's underneath (woodlice, worms, beetles), then replace it gently. Notice — it's damp, dark and safe. Name a **microhabitat** (a tiny habitat inside a bigger one). Record findings. Working scientifically: observe and gather, then return habitat as found.
+- **Check for understanding:** "Name a microhabitat where you might find woodlice." → Under a log or stone (any damp, dark spot).
+- **Differentiation:** support: spot and name one minibeast; stretch: explain why woodlice wouldn't survive on a hot sunny path.
+- **Materials:** outdoor space with a log/stone, magnifier, a "found it" recording sheet.
+- **Joy:** discovering the hidden minibeasts and counting them.
 
-### Lesson 6 — Plants review and nature collection
+### Lesson 5 — Food chains
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name a plant's parts and tell a deciduous tree from an evergreen one."
-- **Hook:** "Can you be the plant expert today and teach me the parts?"
-- **Key activity:** Make a small nature collection (pressed leaf, a flower, a labelled drawing of a plant with all four parts). Child names parts aloud and sorts collected leaves into deciduous/evergreen.
-- **Check for understanding:** "Name the four parts of a plant." → Roots, stem, leaves, flower.
-- **Differentiation:** support: label with cards; stretch: write/say one fact about each part.
-- **Materials:** collected leaves and flowers, paper, glue, crayons.
-- **Joy:** making and keeping their own nature collection to show the family.
+- **Objective:** "By the end, I can build a food chain with the plant first and arrows the right way."
+- **Hook:** "Trace your breakfast back — did you know cereal comes from a grass?"
+- **Key activity:** Explore — what eats what (grass → rabbit → fox). Notice — chains start with a **plant** (it makes its own food); the **arrow means 'is eaten by'** and points to the eater. Build a chain with cards in the correct order with arrows.
+- **Check for understanding:** "What does the arrow in a food chain mean?" → "Is eaten by" (food/energy goes that way).
+- **Differentiation:** support: order a three-card chain with the plant given; stretch: build a four-step pond chain (pondweed → tadpole → fish → heron).
+- **Materials:** food-chain picture cards, arrow cards.
+- **Joy:** acting out the chain — being the grass, the rabbit, then the fox.
 
-**End-of-unit 1 check:** Name and point to roots, stem, leaves, flower on a real plant; explain that a tree is a big plant; sort three trees into deciduous and evergreen and say how you know.
+**End-of-unit 1 check:** Sort three things into living/dead/never-alive with reasons; name two life processes; say what a habitat is and how one animal is suited to it; name a microhabitat; build a food chain with the plant first and arrows the right way.
 
 ---
 
-## Unit 2 — Animals, including humans
+## Unit 2 — Plants: how they grow
 
-**Essential question:** How can we group animals, and what does my own body do?
+**Essential question:** How does a tiny seed turn into a plant, and what does it need?
 
-**Key vocabulary:** animal, mammal, bird, fish, reptile, amphibian, insect, fur, feathers, scales, gills, carnivore, herbivore, omnivore, body, senses, sight, hearing, smell, taste, touch.
+**Key vocabulary:** seed, bulb, germinate, root, shoot, water, light, warmth, temperature, soil, observe over time.
 
-### Lesson 7 — Animal groups: spotting the clues
-- **Duration:** 30 min
-- **Objective:** "By the end, I can sort animals into mammals, birds and fish by their body clues."
-- **Hook:** "Scientists have to sort millions of animals — how would you start?"
-- **Key activity:** Explore — look at lots of animal pictures/toys. Notice — body clues: **fur/hair + milk = mammal**, **feathers + beak + wings = bird**, **scales + gills + lives in water = fish**. Sort a pile into the three groups by clue.
-- **Check for understanding:** "A robin has feathers, wings and a beak. What group is it?" → A bird.
-- **Differentiation:** support: sort with one clue per group; stretch: add reptiles (dry scaly skin) and amphibians (water and land).
-- **Materials:** animal picture cards or toy animals, three group mats.
-- **Joy:** being an animal detective, finding the clue that cracks each group.
-
-### Lesson 8 — Tricky animals (fix the "whale is a fish" idea)
+### Lesson 6 — Seeds and bulbs
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain why a whale is a mammal, not a fish."
-- **Hook:** "A whale lives in the sea — so is it a fish?"
-- **Key activity:** Explore the clues for a whale — it breathes air, has no scales, feeds its babies milk. Notice the clues point to **mammal**, not fish. Name the rule: we group by **body features, not where it lives**. Check a bat (flies but is a mammal) and a penguin (swims but is a bird).
-- **Check for understanding:** "Why is a whale a mammal?" → It breathes air and feeds its babies milk — it has no scales or gills.
-- **Differentiation:** support: compare a whale to a fish side by side; stretch: explain a bat and a penguin.
-- **Materials:** picture cards of whale, fish, bat, penguin.
-- **Joy:** the surprise of busting the "whale is a fish" myth.
+- **Objective:** "By the end, I can say new plants grow from seeds and bulbs and name examples."
+- **Hook:** "Inside this tiny seed is a whole plant waiting — and its packed lunch!"
+- **Key activity:** Explore — look at and handle seeds (bean, sunflower) and bulbs (onion, daffodil). Notice — a seed has a baby plant and a food store inside; bulbs grow plants too. Name **seed** and **bulb** and sort examples.
+- **Check for understanding:** "Name a plant that grows from a bulb." → Daffodil, tulip or onion (any bulb plant).
+- **Differentiation:** support: sort seeds from bulbs by sight; stretch: name two of each.
+- **Materials:** assorted seeds and bulbs, a cut-open soaked bean to see the baby plant.
+- **Joy:** splitting open a soaked bean to find the tiny plant inside.
 
-### Lesson 9 — What animals eat: carnivore, herbivore, omnivore
+### Lesson 7 — What a seed needs to grow
 - **Duration:** 30 min
-- **Objective:** "By the end, I can sort animals into carnivores, herbivores and omnivores."
-- **Hook:** "An elephant is huge — does that mean it eats meat?"
-- **Key activity:** Explore what different animals eat (lion = meat, rabbit/cow = plants, human/bear/pig = both). Name — **carnivore** (eats meat), **herbivore** (eats plants), **omnivore** (eats both). Sort animals by diet. Fix the "all big animals are carnivores" idea with elephants and cows.
-- **Check for understanding:** "What do we call an animal that eats only plants?" → A herbivore. "Is a human a carnivore, herbivore or omnivore?" → Omnivore — we eat both.
-- **Differentiation:** support: sort meat-eater vs plant-eater only; stretch: add omnivore and give a dinosaur example (T. rex carnivore, Diplodocus herbivore).
-- **Materials:** animal cards, food cards, three diet mats.
-- **Joy:** matching dinosaurs and zoo animals to what they eat.
+- **Objective:** "By the end, I can name three things a seed needs to grow."
+- **Hook:** "You might think seeds need soil — but can we grow one on wet paper?"
+- **Key activity:** Explore — discuss what seeds need. Notice and name: **water, warmth and light** (soil adds support and minerals later but isn't essential to sprout). Fix "the more water the better" — too much drowns the seed. Set up a bean in a clear jar with damp paper against the side.
+- **Check for understanding:** "Name three things a seed needs to grow." → Water, warmth (suitable temperature), light.
+- **Differentiation:** support: pick the three needs from picture cards; stretch: explain why too much water is bad.
+- **Materials:** clear jars, beans, kitchen paper, water.
+- **Joy:** planting their own bean and giving it a name.
 
-### Lesson 10 — My amazing body
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name and point to parts of the human body."
-- **Hook:** "How many body parts can you point to and name in 30 seconds?"
-- **Key activity:** Explore — "Simon Says" / point-and-name game for head, neck, shoulders, arms, hands, fingers, legs, feet, etc. Notice each part has a job. Draw and label a body outline.
-- **Check for understanding:** "Point to and name three body parts." → e.g. head, arm, foot.
-- **Differentiation:** support: name basic parts; stretch: add elbow, knee, wrist, ankle.
-- **Materials:** big paper or body-outline sheet, crayons, mirror.
-- **Joy:** drawing around themselves (or a friend) to make a life-size body.
-
-### Lesson 11 — The five senses (sense hunt)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can name the five senses and the body part for each."
-- **Hook:** "When you bite an apple, how many senses are you using at once?"
-- **Key activity:** Explore — a **sense hunt**: find one thing to see (eyes), hear (ears), smell (nose), touch (skin), and safely taste (tongue). Notice each sense uses a body part. Name the five senses and match sense → body part. Do the apple example: see red, smell fresh, feel cold, taste sweet, hear the crunch — all five at once.
-- **Check for understanding:** "You're in a dark room and smell toast. Which sense told you?" → Smell (your nose).
-- **Differentiation:** support: match sense to body-part pictures; stretch: name which senses a goalkeeper uses to catch a ball.
-- **Materials:** sense-hunt items (something to smell, a textured object, a snack to taste, a sound-maker), sense → body-part cards.
-- **Joy:** a blindfold guessing game — naming objects by smell, sound and touch.
-
-### Lesson 12 — Senses test: do taste and smell work together? (investigation)
+### Lesson 8 — Root first, then shoot (observe over time)
 - **Duration:** 30 min
-- **Objective:** "By the end, I can show that taste and smell are different senses."
-- **Hook:** "Some people think we taste with our nose — can we test it?"
-- **Key activity:** Investigate — taste a small piece of food normally, then taste it again with the nose held shut. Observe — flavour fades when the nose is blocked. Talk about what we noticed: taste is the **tongue**, smell is the **nose**, and they work together but are different senses. Also test "all your skin can feel" by touching a cheek or knee, not just hands.
-- **Check for understanding:** "Do we taste with our nose?" → No — we taste with our tongue and smell with our nose; they just work together.
-- **Differentiation:** support: do the nose-held taste test together and describe; stretch: predict the result before testing and explain it after.
-- **Materials:** small safe food samples (apple, raisin), a way to gently hold the nose, blindfold optional.
-- **Joy:** the funny "the flavour disappeared!" moment of the nose-held test.
+- **Objective:** "By the end, I can say which grows first from a seed and draw the stages."
+- **Hook:** "Which comes out of the bean first — a root going down, or a shoot going up?"
+- **Key activity:** Investigate — observe the bean jar over the week. Notice — the **root grows down first**, then the **shoot grows up** toward the light. Name **germinate**. Draw the bean each day (an *observing over time* enquiry) and order the stages.
+- **Check for understanding:** "Which grows first from a seed — the root or the shoot?" → The root (it grows down first).
+- **Differentiation:** support: order two stage pictures; stretch: explain why the root goes down and shoot goes up.
+- **Materials:** the Lesson 7 bean jars, a daily observation diary.
+- **Joy:** seeing the white root crack out of "their" bean for the first time.
 
-**End-of-unit 2 check:** Sort five animals into mammal/bird/fish by their clues; explain why a whale is a mammal; sort three animals into carnivore/herbivore/omnivore; name the five senses and the body part for each.
+**End-of-unit 2 check:** Name two things that grow from seeds and two from bulbs; name three things a seed needs; say the root grows down first; order the germination stages.
 
 ---
 
-## Unit 3 — Everyday materials
+## Unit 3 — Animals, including humans
 
-**Essential question:** What are things made of, and how can we describe and sort materials?
+**Essential question:** How do animals grow and change, and how do we stay healthy?
 
-**Key vocabulary:** material, object, wood, plastic, metal, glass, fabric, paper, rock, water; hard, soft, bendy, stiff, rough, smooth, shiny, dull, see-through (transparent), waterproof.
+**Key vocabulary:** offspring, young, adult, life stage, needs, food, water, air, shelter, balanced diet, exercise, hygiene, germs.
 
-### Lesson 13 — Object vs material (the big idea)
+### Lesson 9 — Baby animals grow up
 - **Duration:** 30 min
-- **Objective:** "By the end, I can tell the difference between an object and the material it is made of."
-- **Hook:** "Is a cup a material? Let's find out the big secret of science."
-- **Key activity:** Explore — handle a cup, a spoon, a jumper. Notice — the **object** is the thing (cup, spoon), the **material** is what it's made of (plastic, metal, wool). Name the difference and fix the "a cup is a material" idea: a cup is the object; the material is the plastic/glass/china it's made from. Name common materials: wood, plastic, metal, glass, fabric, paper, rock.
-- **Check for understanding:** "Is a spoon a material?" → No — a spoon is an object; metal/plastic is the material. "What material is a window made of?" → Glass.
-- **Differentiation:** support: name the material of one object at a time; stretch: name one material that can make many different objects (e.g. plastic).
-- **Materials:** a tray of everyday objects (cup, spoon, jumper, book, window pane/photo, toy).
-- **Joy:** the "aha" of cracking the object-vs-material secret.
+- **Objective:** "By the end, I can match a baby animal to its adult and say it grows into it."
+- **Hook:** "What does a tiny puppy turn into — and is it a different animal?"
+- **Key activity:** Explore — match baby animals to parents (lamb–sheep, calf–cow, chick–hen, puppy–dog). Notice — young grow into adults that look like their parents. Name **offspring/young**. Fix "a baby animal is a different kind of animal" — a puppy *is* a baby dog.
+- **Check for understanding:** "What is a baby sheep called, and what does it grow into?" → A lamb; it grows into a sheep.
+- **Differentiation:** support: match three obvious pairs; stretch: add a kangaroo (joey) and explain.
+- **Materials:** baby/adult animal picture cards.
+- **Joy:** the matching game and finding surprising baby names (joey, cygnet).
 
-### Lesson 14 — Describing materials (properties)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can describe a material using property words."
-- **Hook:** "How many words can you find to describe metal?"
-- **Key activity:** Explore — feel and look at wood, metal, fabric, glass (safely), plastic, paper. Notice and name **properties**: hard/soft, bendy/stiff, rough/smooth, shiny/dull, see-through or not, waterproof or not. Fix "metal and wood are the same — both hard": test them — metal is shiny and cold, wood is dull and warmer.
-- **Check for understanding:** "Give two words to describe metal." → e.g. hard and shiny (also cold, strong).
-- **Differentiation:** support: choose between two property words (hard or soft?); stretch: give three properties for one material.
-- **Materials:** material samples (wood block, metal spoon, fabric, paper, plastic), property word cards.
-- **Joy:** a "feely bag" — describe a material by touch before pulling it out.
-
-### Lesson 15 — Material hunt and sorting
+### Lesson 10 — What every animal needs
 - **Duration:** 25 min
-- **Objective:** "By the end, I can sort objects by the material they are made of."
-- **Hook:** "Let's hunt the house — how many things made of plastic can we find?"
-- **Key activity:** Explore — a **material hunt**: collect five objects and say the material and one property of each. Sort the objects by material (all the wood here, all the metal there). Match object → material.
-- **Check for understanding:** "What is this water bottle made of and why?" → Plastic — because it's light, bendy and waterproof.
-- **Differentiation:** support: sort into two material groups; stretch: explain why each material suits its object (glass for windows so you can see through).
-- **Materials:** five+ collected household objects, sorting mats labelled by material.
-- **Joy:** the treasure-hunt thrill of collecting objects from around the home.
+- **Objective:** "By the end, I can name the things all animals need to stay alive."
+- **Hook:** "What do a goldfish, a hamster and you all need every single day?"
+- **Key activity:** Explore — think about a pet's day (food, water, air, a place to sleep). Notice and name the four basic needs: **food, water, air, shelter**. Apply to a chosen animal and to themselves.
+- **Check for understanding:** "Name three things every animal needs to stay alive." → Any three: food, water, air, shelter.
+- **Differentiation:** support: pick needs from a mixed picture set; stretch: explain what happens to an animal missing one need.
+- **Materials:** pet-care picture cards, a chosen animal card.
+- **Joy:** designing a perfect day's care for a pet.
 
-### Lesson 16 — Which material is best? (waterproof investigation)
+### Lesson 11 — Staying healthy: food, exercise, hygiene
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name ways humans stay healthy."
+- **Hook:** "Is the secret to being healthy never eating treats at all? Let's check."
+- **Key activity:** Explore — sort foods and activities. Notice and name the three healthy habits: a **balanced, varied diet**, **exercise**, and **hygiene** (washing hands, brushing teeth to stop germs). Fix "healthy means zero sugar/fat" — it's about variety and balance. Make a one-day "stay healthy" plan.
+- **Check for understanding:** "Name two things humans do to stay healthy." → Any two: eat a balanced diet, exercise, wash, brush teeth.
+- **Differentiation:** support: sort healthy/less-healthy with two examples; stretch: plan a balanced plate.
+- **Materials:** food and activity cards, a "stay healthy" plan sheet.
+- **Joy:** building their own healthy-day plan to show the family.
+
+**End-of-unit 3 check:** Match three baby animals to adults and say they grow into them; name three things every animal needs; name two ways humans stay healthy and explain "balance, not zero."
+
+---
+
+## Unit 4 — Uses of everyday materials
+
+**Essential question:** Why do we choose a particular material for a job, and how can we test which is best?
+
+**Key vocabulary:** material, object, property, waterproof, transparent, hard, bendy, squash, bend, twist, stretch, suitable, fair test, predict.
+
+### Lesson 12 — Why this material for this job?
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain why an object is made of a chosen material."
+- **Hook:** "Why is a window glass and not wood — what would a wooden window be like?"
+- **Key activity:** Explore — examine a window (glass = transparent), raincoat (plastic = waterproof), spoon (metal = hard, easy to clean), tyre (rubber = bendy, grippy). Notice — each material is chosen because its **property suits the job**. Match object → best material with a reason.
+- **Check for understanding:** "Why is a raincoat made of plastic and not paper?" → Plastic is waterproof; paper soaks up water.
+- **Differentiation:** support: match three object–material pairs; stretch: explain why a saucepan is metal.
+- **Materials:** everyday objects (window pane photo, raincoat, metal spoon, rubber band), property cards.
+- **Joy:** the "what if it were made of the wrong thing?" game (a paper umbrella!).
+
+### Lesson 13 — Changing the shape of materials
+- **Duration:** 25 min
+- **Objective:** "By the end, I can change a material's shape by squashing, bending, twisting or stretching."
+- **Hook:** "If I bend a paperclip, have I turned it into a new material?"
+- **Key activity:** Explore — squash playdough, bend a pipe cleaner, twist a sponge, stretch a rubber band. Notice and name the four actions: **squash, bend, twist, stretch**. Fix "bending it makes a new material" — it's still metal; only the shape changed.
+- **Check for understanding:** "Name a material whose shape you can change by squashing." → Clay / playdough / sponge.
+- **Differentiation:** support: do each action and name it; stretch: name a material for each of the four actions.
+- **Materials:** playdough, pipe cleaners, sponge, rubber bands.
+- **Joy:** squashing and twisting materials freely and predicting which spring back.
+
+### Lesson 14 — Which material is best? (fair-test investigation)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can test materials to find which is waterproof and explain my result."
-- **Hook:** "If it's raining, which material would keep a teddy dry — paper, fabric or plastic?"
-- **Key activity:** Investigate — predict which materials are waterproof, then drip water onto paper, fabric, plastic and metal. Observe which let water through and which keep it out. Talk about what we noticed and name **waterproof** (water can't soak through). Connect to real life: why a raincoat is plastic, why windows are glass.
-- **Check for understanding:** "Which material kept the water out, and why is that useful?" → Plastic (and metal/glass) — waterproof, so good for raincoats and windows.
-- **Differentiation:** support: test two materials and say which let water through; stretch: predict before testing and explain why some materials are waterproof.
-- **Materials:** paper, fabric, plastic, metal samples, water, droppers/sponge, tray, teddy (optional).
-- **Joy:** dripping water and watching some materials soak and others stay dry.
+- **Objective:** "By the end, I can run a fair test to find the best material for a job and explain my result."
+- **Hook:** "Which material would make the best umbrella for a teddy — paper, cotton or plastic?"
+- **Key activity:** Investigate — predict, then test paper, cotton and plastic by dripping the **same amount of water from the same height** (a **fair test**). Observe which keeps the teddy dry. Talk about results and name the winner and why. Working scientifically: predict → fair test → conclude.
+- **Check for understanding:** "Which material won and why?" → Plastic — it's waterproof, so it keeps the rain out.
+- **Differentiation:** support: test two materials and say which let water through; stretch: explain what made the test "fair."
+- **Materials:** paper, cotton fabric, plastic, water, dropper, tray, small teddy.
+- **Joy:** dripping water and cheering when plastic keeps teddy dry.
 
-**End-of-unit 3 check:** Tell an object from its material; name four materials and one property of each; sort six objects by material; explain which material is waterproof and why that is useful.
-
----
-
-## Unit 4 — Seasonal changes and weather
-
-**Essential question:** How does the world change through the four seasons, and how can we observe the weather?
-
-**Key vocabulary:** season, spring, summer, autumn, winter, weather, sunny, rainy, cloudy, windy, snowy, temperature, warm, cold, daylight, day, night, diary, observe.
-
-### Lesson 17 — The four seasons in order
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name the four seasons in order and say one change in each."
-- **Hook:** "Which season is your birthday in — and what's the weather usually like then?"
-- **Key activity:** Explore — sort season pictures by their clues. Notice the order and the changes: **spring** (new leaves, baby animals, warming), **summer** (warm, long sunny days), **autumn** (cooler, leaves fall, darker), **winter** (cold, short dark days). Name and order the four seasons; note they come in the same order every year.
-- **Check for understanding:** "Name the four seasons in order, starting with spring." → Spring, summer, autumn, winter.
-- **Differentiation:** support: order with picture prompts; stretch: name two changes in a chosen season.
-- **Materials:** season picture cards, an ordering strip, the deciduous tree from Unit 1.
-- **Joy:** finding their own birthday on the seasons wheel.
-
-### Lesson 18 — Temperature and daylight: summer vs winter
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say how summer and winter differ in warmth and daylight."
-- **Hook:** "Why do we wear a coat in winter but a sun hat in summer?"
-- **Key activity:** Explore — compare summer and winter: **temperature** (warm vs cold) and **daylight** (long sunny days vs short dark days, dark by teatime in winter). Match clothes to the right season and explain why. Fix "winter means it always snows": winter is cold with short days — in many places it rains far more than it snows.
-- **Check for understanding:** "In which season are the days shortest and coldest?" → Winter.
-- **Differentiation:** support: sort warm vs cold clothes; stretch: explain why winter days feel so short.
-- **Materials:** clothes/props (coat, sun hat, scarf, sunglasses), summer/winter scene pictures.
-- **Joy:** dressing a doll (or themselves) for the right season.
-
-### Lesson 19 — Weather watch (observe and record, investigation)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can observe today's weather and record it with a symbol."
-- **Hook:** "Can we become weather reporters and tell the family the forecast?"
-- **Key activity:** Investigate — go outside and observe: is it sunny, cloudy, rainy, windy? Warm or cold? Notice and name kinds of weather. Record today on a **weather diary** with a symbol and a warm/cold note. Set up the diary to continue across the week (working scientifically: observe and gather over time).
-- **Check for understanding:** "Name two kinds of weather." → Any two: sunny, rainy, cloudy, windy, snowy, foggy.
-- **Differentiation:** support: pick the matching weather symbol; stretch: give a short spoken "weather report" for today.
-- **Materials:** weather symbol cards, a weather diary chart, outdoor access, a ribbon/windmill to spot wind.
-- **Joy:** giving a pretend TV weather report.
-
-### Lesson 20 — Seasons and weather review
-- **Duration:** 25 min
-- **Objective:** "By the end, I can match a weather/season description to the right season."
-- **Hook:** "I'll describe a day — can you guess the season?"
-- **Key activity:** Review the week's weather diary: what did we notice? Play a description-to-season matching game ("short dark days, frost" → winter; "long sunny evenings, full leaves" → summer). Order the seasons and recap key weather words.
-- **Check for understanding:** "Short, dark, cold days with frost — which season?" → Winter.
-- **Differentiation:** support: match with two season choices; stretch: describe a season for someone else to guess.
-- **Materials:** the completed weather diary, season/description cards.
-- **Joy:** the guessing game where they stump the grown-up.
-
-**End-of-unit 4 check:** Name the four seasons in order; say which season is coldest with shortest days; name three kinds of weather; record one day's weather with a symbol; match two descriptions to the right season.
+**End-of-unit 4 check:** Explain why one object is made of a chosen material; name the four ways to change a material's shape; run a simple fair test and say which material is best and why.
 
 ---
 
-## Unit 5 — Working scientifically (wrap-up)
+## Unit 5 — Working scientifically (year wrap-up)
 
-**Essential question:** How do scientists look closely, sort things, and answer questions?
+**Essential question:** How do scientists compare, gather and record what they find?
 
-**Key vocabulary:** observe, look closely, sort, group, classify, question, test, predict, notice, scientist.
+**Key vocabulary:** observe, compare, fair test, predict, record, data, gather over time, conclude.
 
-### Lesson 21 — Looking closely like a scientist
-- **Duration:** 25 min
-- **Objective:** "By the end, I can observe an object closely and describe what I notice."
-- **Hook:** "A magnifying glass can show you a whole hidden world — want to look?"
-- **Key activity:** Explore — use a magnifying glass to look closely at a leaf, a feather, a fabric, a rock. Notice tiny details (veins, threads, sparkles). Name this as **observing** — looking closely, the first job of every scientist — and describe each find in words.
-- **Check for understanding:** "What did you notice on the leaf that you couldn't see before?" → e.g. tiny lines/veins.
-- **Differentiation:** support: describe one detail; stretch: compare two objects and say how they differ up close.
-- **Materials:** magnifying glasses, leaf, feather, fabric, rock.
-- **Joy:** discovering hidden details through a magnifying glass.
-
-### Lesson 22 — Asking questions and sorting (year review)
+### Lesson 15 — Becoming a data gatherer (year review)
 - **Duration:** 30 min
-- **Objective:** "By the end, I can ask a simple science question and sort things into groups to answer it."
-- **Hook:** "What do you most want to find out about the things around you?"
-- **Key activity:** Review the year by sorting: pull together plants, animals, materials and season cards and **classify** them into groups, explaining the rule each time (living/non-living, mammal/bird, wood/metal, deciduous/evergreen). Practise asking a simple question ("Which things float?") and saying how we could find out.
-- **Check for understanding:** "How would you find out which of these objects are waterproof?" → Test them by dripping water and watching which let water through.
-- **Differentiation:** support: sort with a given rule; stretch: invent your own sorting rule and a question to test.
-- **Materials:** a mixed set of cards/objects from all four units, sorting hoops.
-- **Joy:** being the "head scientist" who invents the sorting rule and the question.
+- **Objective:** "By the end, I can plan a simple comparative test and say how to record the results."
+- **Hook:** "If we wanted to find out which paper towel soaks up most water, how would we be fair?"
+- **Key activity:** Review the year's enquiries (bean over time, waterproof test, log hunt). Plan a new simple comparative test together, deciding what to keep the same, what to change, and how to **record** results (a tally or chart). Carry out a quick version and gather the data. Name **fair test, predict, record, conclude**.
+- **Check for understanding:** "To compare two paper towels fairly, what must stay the same?" → Same amount of water, same size of towel, same way of testing.
+- **Differentiation:** support: choose what to change with a prompt; stretch: design the test and recording chart alone.
+- **Materials:** paper towels or sponges, water, droppers, a recording chart.
+- **Joy:** being the "head scientist" who designs and runs the whole test.
 
-**End-of-unit 5 check:** Observe an object closely and name two details; sort a mixed set into groups and state the rule; ask one simple science question and say how to find the answer.
+**End-of-unit 5 check:** Plan a simple comparative test (what to keep same, what to change); record results on a chart; state a conclusion in words.
 
 ---
 
 ## End-of-year mastery checks
 
-1. **Plants:** Point to and name the roots, stem, leaves and flower on a real plant, and explain that a tree is just a big plant.
-2. **Trees:** Sort three trees into deciduous and evergreen and say how you know.
-3. **Animal groups:** Sort five animals into mammal, bird and fish by their body clues, and explain why a whale is a mammal.
-4. **Diet:** Sort three animals into carnivore, herbivore and omnivore, and say which one a human is.
-5. **Body and senses:** Name the five senses and the body part used for each.
-6. **Materials:** Tell an object from its material, and name two materials with one property each.
-7. **Investigation:** Test which material is waterproof and explain why that is useful in real life.
-8. **Seasons and weather:** Name the four seasons in order, say which is coldest with shortest days, and record one day's weather with a symbol.
+1. **Living things:** Sort three things into living, dead and never alive and give a reason for each.
+2. **Habitats:** Say what a habitat is and explain how one animal is suited to its home.
+3. **Microhabitats & food chains:** Name a microhabitat, and build a food chain with the plant first and the arrows the right way.
+4. **Growing plants:** Name three things a seed needs and say which grows first — the root or the shoot.
+5. **Animals & offspring:** Match a baby animal to its adult, and name three things every animal needs to stay alive.
+6. **Staying healthy:** Name two healthy habits and explain that health comes from balance, not from cutting things out completely.
+7. **Materials:** Explain why an object is made of a chosen material, and name two ways to change a material's shape.
+8. **Investigation:** Run a simple fair test to find the best material for a job, and explain why the test was fair.

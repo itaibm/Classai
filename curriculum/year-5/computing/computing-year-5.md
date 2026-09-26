@@ -1,4 +1,4 @@
-# Computing — Year 5 (ages 9–10, KS2) — Lesson Outlines
+# Computing — Year 5 (ages 10–11, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 5 scope drawn from `knowledge-base/subjects/computing-life-skills/computing-ks1-ks2.md`
@@ -7,270 +7,294 @@
 
 ## Year overview
 
-Year 5 is where programs start to **think and remember**. In **computer science**, children
-meet **selection** ("if … then …" and "if … then … else …") so programs make decisions, and
-**variables** — named boxes that store a value that can change — so programs remember a score,
-a count or a name. They combine these with last year's loops to build simple interactive
-projects (a quiz, a catch game). In **information technology**, the data strand reaches
-**spreadsheets**: rows, columns, cells, entering data, using **SUM** and auto-charts, so the
-computer calculates and visualises for them. The **digital-literacy** strand turns to the
-**web and searching well**: choosing good keywords, understanding how a search engine ranks
-results, and applying critical evaluation to real searches. The **online-safety** thread
-matures to the idea of a **digital footprint** (what we leave online and who can see it),
-alongside continued privacy, kindness, balance and the worry plan.
+Year 5 is the **capstone** of primary computing — children bring together every big idea and
+build real, complete programs. In **computer science**, they **combine sequence, loops,
+selection and variables** into a substantial project (a multi-level game or interactive quiz),
+plan and decompose it, and **debug, evaluate and improve** it like a real programmer. They
+also take two exciting steps toward what comes next: **physical computing** — programming
+something in the real world (a micro:bit or a Crumble-style controller, with an unplugged
+fallback) — and a first taste of **text-based programming**, seeing that a typed line of code
+is just an instruction, like a block. In **information technology**, they run a full **data
+project** end-to-end (collect → spreadsheet → calculate → chart → conclude) and **evaluate and
+share** their digital work, giving and acting on feedback. The **digital-literacy /
+online-safety** thread consolidates everything for the move to secondary: managing a
+**digital footprint and reputation**, evaluating information and **fake news** critically,
+healthy balance, and a confident, well-rehearsed worry plan.
 
-How it builds on Year 4: Year 4 mastered repetition; Year 5 adds the two remaining big
-programming ideas — **selection** and **variables** — and combines all three. Year 4 used
-branching databases and bar charts; Year 5 moves to **spreadsheets** that calculate. Year 4
-judged sources; Year 5 applies that to **searching the web** with good keywords and an
-understanding of ranking. Online safety steps up from "posts can spread" to a fuller idea of
-a **digital footprint**.
+How it builds on Year 4: Year 4 introduced selection and variables; Year 5 **combines all
+four programming concepts** in one real project and adds **physical** and **text-based**
+programming as a bridge to secondary. Year 4 used spreadsheets; Year 5 runs a **complete data
+investigation**. Year 4 introduced the digital footprint; Year 5 deepens it to **reputation
+and critical evaluation**, readying pupils for an increasingly independent online life.
 
-The year runs to **19 lessons** across **5 units**, each lesson 25–40 minutes.
-
----
-
-## Unit 1 — Selection: programs that decide
-
-**Essential question:** How can my program make a decision and do different things in different situations?
-
-**Key vocabulary:** selection, condition, "if … then …", "if … then … else …", true/false, sensing, decide, branch.
-
-### Lesson 1 — Conditions: yes/no questions
-- **Duration:** 30 min
-- **Objective:** "By the end, I can give everyday 'if … then …' rules and identify the condition."
-- **Hook:** "'If it's raining, take an umbrella.' Computers make decisions the same way — let's learn how."
-- **Key activity:** Introduce **selection** = the program *chooses* what to do based on a **condition** (a true/false question). Unplugged: children sort situations into "if [condition] then [action]" and identify the condition (the yes/no part). Build a class set of "if … then …" rules.
-- **Check for understanding:** "In 'if it's dark then turn on the light', what is the condition?" → "It's dark" — the true/false question the action depends on.
-- **Differentiation:** support: match conditions to actions. / stretch: write an "if … then … else …" rule.
-- **Materials:** condition/action cards, sorting mat.
-- **Joy:** inventing funny "if … then …" rules for the classroom robot.
-
-### Lesson 2 — "if … then …" in Scratch
-- **Duration:** 35 min
-- **Objective:** "By the end, I can use an 'if … then …' block with a sensing condition."
-- **Hook:** "Can you make your sprite say 'Ouch!' the moment — and only the moment — it touches the wall?"
-- **Key activity:** In Scratch, introduce the **"if ( ) then"** block and sensing conditions ("touching colour/edge?", "key pressed?"). Children build "if [touching edge] then [say 'Ouch', bounce]" inside a **forever** loop so it keeps checking. Demonstrate making the condition false → inside blocks skip.
-- **Check for understanding:** "What does 'if … then …' do?" → Runs the inside blocks only if the condition is true; otherwise it skips them.
-- **Differentiation:** support: drop a condition into a ready "if". / stretch: use two conditions in one project.
-- **Materials:** computers with Scratch.
-- **Joy:** a sprite that reacts the instant it bumps something.
-
-### Lesson 3 — Why "if" needs a loop
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain why an 'if' usually lives inside a forever loop."
-- **Hook:** "My 'if touching wall' only checked once and missed it — what went wrong?"
-- **Key activity:** Show an "if" that runs once and misses the moment the condition becomes true; wrap it in **forever** so it keeps checking. Children fix a project where the decision is checked only once. Reinforces selection + repetition working together.
-- **Check for understanding:** "Why put the 'if' inside a forever loop?" → So the program keeps checking the condition over and over and catches the moment it becomes true.
-- **Differentiation:** support: add a ready forever around the if. / stretch: explain a case where a one-time if is fine.
-- **Materials:** computers with Scratch, a "checks once" buggy project.
-- **Joy:** the fix that finally makes the sprite *always* react.
-
-### Lesson 4 — "if … then … else …"
-- **Duration:** 35 min
-- **Objective:** "By the end, I can use 'if … then … else …' to choose between two actions."
-- **Hook:** "What if the program should do ONE thing when true and a DIFFERENT thing when false?"
-- **Key activity:** Introduce **"if … then … else …"**: do one thing if true, another if false (e.g. "if score > 10 then say 'You win!' else say 'Keep going!'"). Children build a project that gives two different responses depending on a condition.
-- **Check for understanding:** "In 'if answer = 10 then say correct else say try again', when does it say 'try again'?" → Whenever the answer is *not* 10 (the condition is false).
-- **Differentiation:** support: complete a part-built if/else. / stretch: nest a second decision inside the else.
-- **Materials:** computers with Scratch.
-- **Joy:** a program that talks back differently depending on what you do.
-
-**End-of-unit check:** Child uses "if … then …" with a sensing condition inside a loop, explains why, and uses "if … then … else …" to choose between two actions.
+The year runs to **20 lessons** across **6 units**, each lesson 25–40 minutes.
 
 ---
 
-## Unit 2 — Variables: programs that remember
+## Unit 1 — Combine it all: a complete program
 
-**Essential question:** How does a program remember and change a value like a score?
+**Essential question:** How do I plan, build, debug and improve a program that uses sequence, loops, selection and variables together?
 
-**Key vocabulary:** variable, value, "set ( ) to ( )", "change ( ) by ( )", score, store, name, reset.
+**Key vocabulary:** decompose, sequence, loop, selection, variable, condition, plan, debug, evaluate, improve, algorithm.
 
-### Lesson 5 — What is a variable?
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain a variable as a named box that stores a value that can change."
-- **Hook:** "How does a game remember your score while you play? It uses a clever labelled box."
-- **Key activity:** Introduce the **variable** = a named box (label = name, contents = value that can change). Unplugged: a labelled box ("score") with number cards inside; "set to 0" empties and puts 0; "change by 1" adds one. Children act out a score going 0→1→2→3.
-- **Check for understanding:** "What is a variable?" → A named box that stores a value which can change while the program runs.
-- **Differentiation:** support: read the value after one "change by 1". / stretch: explain "set to" vs "change by".
-- **Materials:** a labelled box, number cards.
-- **Joy:** physically "running the program" with a real box and cards.
-
-### Lesson 6 — Make and change a variable in Scratch
+### Lesson 1 — Plan and decompose a project
 - **Duration:** 35 min
-- **Objective:** "By the end, I can create a variable, set it to 0, and change it by 1."
-- **Hook:** "Let's make a score that climbs live on screen every time you catch something!"
-- **Key activity:** In Scratch, make a "score" variable. Use **"set score to 0"** at the green flag and **"change score by 1"** on an event (e.g. clicking/catching a sprite). Show the variable on the stage so it updates live. Discuss "set to" (replace) vs "change by" (add).
-- **Check for understanding:** "Score is 3; you run 'change score by 1' twice. What's the score?" → 5.
-- **Differentiation:** support: add a ready "change by 1" to a catch event. / stretch: add a second variable (e.g. lives) that goes down.
-- **Materials:** computers with Scratch.
-- **Joy:** watching the score tick up on screen in real time.
+- **Objective:** "By the end, I can decompose a program idea into parts and plan the algorithm."
+- **Hook:** "We're building a real game this term. Real developers plan first — let's break the dream into buildable parts."
+- **Key activity:** Recap the four big ideas (sequence, loops, selection, variables). Children choose a project (a game or interactive quiz), **decompose** it into parts (start, controls, scoring, win/lose), and write the algorithm/plan, noting where each concept will be used.
+- **Check for understanding:** "Which concept will you use to keep score, and which to decide if the player wins?" → A variable for score; selection ("if score = …") to decide the win.
+- **Differentiation:** support: choose from two project templates and plan with prompts. / stretch: plan a project with two levels or two win conditions.
+- **Materials:** planning sheet, project idea cards.
+- **Joy:** designing their own game on paper, dreaming up the rules.
 
-### Lesson 7 — Reset and debug variables
-- **Duration:** 30 min
-- **Objective:** "By the end, I can fix a variable bug, including a missing reset."
-- **Hook:** "My game starts at last game's score, not zero! What did I forget?"
-- **Key activity:** Show the classic bug — no "set score to 0" at the start, so old values linger. Children add the reset and re-run. Also fix a "set to" used where "change by" was meant. Apply predict→run→spot→fix.
-- **Check for understanding:** "Why 'set score to 0' at the start?" → So every game begins fresh at zero, not with the last game's score.
-- **Differentiation:** support: add the missing reset. / stretch: explain the difference between "set to 1" and "change by 1" with an example.
-- **Materials:** computers with Scratch, a "no reset" buggy project.
-- **Joy:** the relief of a game that finally starts fresh each time.
-
-### Lesson 8 — Combine: a small catch game
+### Lesson 2 — Build the core
 - **Duration:** 40 min
-- **Objective:** "By the end, I can build a small game using a variable, an event and a loop."
-- **Hook:** "Let's build a real catch game with a live score people will want to play!"
-- **Key activity:** Children build a catch game: set score to 0 on green flag; move a target; "change score by 1" when caught (event + condition). Combines variable + event + loop. Test on a partner; debug as needed.
-- **Check for understanding:** "Which three big ideas did your game use?" → A variable (score), an event/condition (catching), and a loop (to keep the game running).
-- **Differentiation:** support: extend a starter game. / stretch: add a timer/lives variable.
-- **Materials:** computers with Scratch, planning sheet.
-- **Joy:** a partner racking up points in a game they built.
+- **Objective:** "By the end, I can build the core of my project using events, a loop and a variable."
+- **Hook:** "Time to bring the plan to life — controls, movement and a working score!"
+- **Key activity:** Children build the core: green flag setup (reset score to 0), event-driven controls (keys/clicks), a forever loop for ongoing action, and a score variable that changes on the right event. Test the core works before adding more.
+- **Check for understanding:** "Why test the core before adding features?" → To make sure the basics work, so any new bug must be in the part you just added — easier to find.
+- **Differentiation:** support: extend a starter project's core. / stretch: add a second controllable element.
+- **Materials:** computers with Scratch, the plan from Lesson 1.
+- **Joy:** the first moment their own game is actually playable.
 
-**End-of-unit check:** Child creates a variable, sets and changes it correctly, fixes a missing-reset bug, and uses a variable in a small interactive project.
+### Lesson 3 — Add decisions (selection)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can add selection so my program reacts and decides win/lose."
+- **Hook:** "A game needs stakes — let's add winning, losing, and reactions!"
+- **Key activity:** Children add "if … then …" / "if … then … else …" inside the loop: react to collisions/conditions, and a win/lose decision (e.g. "if score = 10 then say 'You win!'", "if lives = 0 then stop"). Combines selection + variables + loop.
+- **Check for understanding:** "How does your program decide the player has won?" → An "if [condition about the score/state] then …" runs the win action only when the condition is true.
+- **Differentiation:** support: add one given if/then. / stretch: add both a win and a lose condition.
+- **Materials:** computers with Scratch.
+- **Joy:** the first time their game can actually be won (or lost!).
+
+### Lesson 4 — Debug, evaluate, improve
+- **Duration:** 35 min
+- **Objective:** "By the end, I can debug my project and improve it against my plan."
+- **Hook:** "Does it do what you planned? Where's the bug — and what would make it even better?"
+- **Key activity:** Children test against their plan, debug systematically (predict→run→spot→fix, isolating which part holds the bug), then **evaluate**: does it meet the goal? They make one or two improvements (difficulty, feedback, clarity) and note why.
+- **Check for understanding:** "How do you find which part of a big program has the bug?" → Test parts separately / check the part you changed last; narrow down to the section that misbehaves.
+- **Differentiation:** support: debug one flagged issue. / stretch: improve based on a partner's playtest feedback.
+- **Materials:** computers with Scratch, the plan, a debugging checklist.
+- **Joy:** polishing their game until it plays just right.
+
+**End-of-unit check:** Child plans/decomposes a project, builds it using sequence, loop, selection and a variable, and debugs/evaluates/improves it against the plan.
 
 ---
 
-## Unit 3 — Spreadsheets & data
+## Unit 2 — Physical computing
 
-**Essential question:** How can a spreadsheet calculate and chart my data for me?
+**Essential question:** How can my code control something in the real world?
 
-**Key vocabulary:** spreadsheet, cell, row, column, data entry, formula, SUM, total, chart, sort.
+**Key vocabulary:** physical computing, micro:bit / controller, input, output, sensor, LED, program, download/flash, real world.
 
-### Lesson 9 — Inside a spreadsheet: cells, rows, columns
+> If no hardware is available, use the **unplugged fallback** noted in each lesson (and the
+> micro:bit online simulator at makecode.microbit.org).
+
+### Lesson 5 — Inputs and outputs in the real world
 - **Duration:** 30 min
-- **Objective:** "By the end, I can enter data into the right cells of a spreadsheet."
-- **Hook:** "A spreadsheet is a giant grid where the computer can do the maths for you. Let's explore it!"
-- **Key activity:** Tour a spreadsheet — **cells**, **rows**, **columns**, cell references (A1, B2). Children enter a small data set (e.g. goals per player, or favourite-snack counts) into labelled columns, with headings.
-- **Check for understanding:** "What is a cell, and how do we name one?" → A single box in the grid; named by its column letter and row number (e.g. B3).
-- **Differentiation:** support: type into highlighted cells. / stretch: add a heading row and a new column.
-- **Materials:** computers with a spreadsheet app (Google Sheets / Excel / free tool).
-- **Joy:** filling a real grid like the ones grown-ups use at work.
+- **Objective:** "By the end, I can identify inputs and outputs on a physical device."
+- **Hook:** "Your code has only lived on screen. What if it could light up, buzz or react to a shake?"
+- **Key activity:** Introduce **physical computing** = programming a device that interacts with the real world. Identify **inputs** (button, shake, light/temperature sensor) and **outputs** (LED display, sound). On a micro:bit (or simulator), explore the buttons and LED grid. Unplugged fallback: sort real-world devices' inputs vs outputs.
+- **Check for understanding:** "Give one input and one output on the device." → e.g. input: button A / shake; output: the LED display / a sound.
+- **Differentiation:** support: match inputs/outputs to a picture. / stretch: explain how a sensor is a special kind of input.
+- **Materials:** micro:bit + computer (or simulator at makecode.microbit.org); input/output sorting cards as fallback.
+- **Joy:** holding a tiny computer they can actually program.
 
-### Lesson 10 — The computer does the maths: SUM
-- **Duration:** 35 min
-- **Objective:** "By the end, I can use SUM to total numbers automatically."
-- **Hook:** "Don't add it up yourself — make the spreadsheet do it instantly, even if the numbers change!"
-- **Key activity:** Introduce a **formula**: =SUM(range) to total a column/row. Children total their data with SUM, then *change a number* and watch the total update automatically — the key idea that a spreadsheet calculates, unlike a notebook. (Optionally try a simple average/max.)
-- **Check for understanding:** "Why is a spreadsheet better than a notebook for adding numbers?" → It calculates for you and updates the total automatically when the numbers change.
-- **Differentiation:** support: use SUM on a small ready range. / stretch: total two columns and compare them.
-- **Materials:** computers with a spreadsheet app.
-- **Joy:** the "magic" of a total that fixes itself when you edit a number.
-
-### Lesson 11 — Charts from spreadsheets
-- **Duration:** 35 min
-- **Objective:** "By the end, I can make a chart from spreadsheet data and read it."
-- **Hook:** "One click and the spreadsheet draws your bar chart — let's make data beautiful!"
-- **Key activity:** Children select their data and insert a **chart** (bar/column), add a title and labels, then answer most/least/total/compare questions from it. Discuss choosing the right chart for the data. Links to maths – statistics.
-- **Check for understanding:** "Why turn spreadsheet data into a chart?" → To see and compare it at a glance — most, least, totals — instead of reading raw numbers.
-- **Differentiation:** support: insert a chart from selected data. / stretch: choose and justify the chart type.
-- **Materials:** computers with a spreadsheet app.
-- **Joy:** clicking "chart" and watching the computer draw it instantly.
-
-### Lesson 12 — Spreadsheet mini-project
+### Lesson 6 — Program the device
 - **Duration:** 40 min
-- **Objective:** "By the end, I can collect data, enter it, total it and chart it to answer a question."
-- **Hook:** "Let's answer a real question with data — start to finish, like a data analyst!"
-- **Key activity:** Children pick/are given a question (e.g. "which lunch is most popular?"), collect or use data, enter it, total with SUM, make a chart, and write the answer with evidence from their chart.
-- **Check for understanding:** "How does your chart answer the question?" → It shows which is most/least and the totals, so the answer is clear from the data.
-- **Differentiation:** support: use a part-built sheet. / stretch: add a second question their data answers.
-- **Materials:** computers with a spreadsheet app, data source.
-- **Joy:** presenting a real data-backed answer like a pro.
+- **Objective:** "By the end, I can write a program that responds to an input with an output."
+- **Hook:** "Let's make it show a heart when you press a button — your code, in your hand!"
+- **Key activity:** In MakeCode (blocks), children build "on button A pressed → show icon/scroll text", and "on shake → show a number" (a dice). They download/flash to the device (or run in the simulator), combining event + output, and add selection or a variable if confident (e.g. a step counter). Unplugged fallback: simulator only.
+- **Check for understanding:** "What does your program do when you press the button?" → Shows the chosen output (icon/number/text) — an input triggers an output.
+- **Differentiation:** support: build "on A → show heart". / stretch: add a variable counter or an if/then condition.
+- **Materials:** micro:bit + USB + computer (or simulator), MakeCode.
+- **Joy:** their code lighting up a real device they can wave around.
 
-**End-of-unit check:** Child enters data into a spreadsheet, totals it with SUM, makes and reads a chart, and answers a question with evidence.
-
----
-
-## Unit 4 — Searching the web well
-
-**Essential question:** How do search engines work, and how do I search and judge results well?
-
-**Key vocabulary:** search engine, keywords, results, ranking, advert, sponsored, reliable, refine, evaluate.
-
-### Lesson 13 — How a search engine works
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain a search engine as a tool that matches keywords to pages."
-- **Hook:** "There are billions of web pages. How does a search engine find the right one in less than a second?"
-- **Key activity:** Explain a **search engine** as "a librarian for the internet" that matches your words to pages and lists the ones it thinks are most useful near the top (**ranking**). Connect to Year 3's servers/internet. Note that some top results are **adverts/sponsored**, not the best answers.
-- **Check for understanding:** "What does a search engine do?" → Finds web pages that match the words you type and ranks the most useful near the top.
-- **Differentiation:** support: define "search engine" in your own words. / stretch: explain why the top result isn't always the best.
-- **Materials:** displayed example search results (with adverts marked).
-- **Joy:** spotting the sneaky "sponsored/advert" labels at the top of results.
-
-### Lesson 14 — Choosing good keywords
-- **Duration:** 35 min
-- **Objective:** "By the end, I can choose good keywords to get better search results."
-- **Hook:** "'Can you please tell me which dinosaur was the most very tall one' vs 'tallest dinosaur' — which wins?"
-- **Key activity:** Teach **keywords** = the *important* words only. Children rewrite chatty/over-long searches into tight keyword searches, predict which gets better results, then test (on a curated/safe search). Practise refining: add a word to narrow a too-broad search.
-- **Check for understanding:** "To find how tall a giraffe grows, what keywords would you type?" → Short, e.g. "how tall is a giraffe" — important words only.
-- **Differentiation:** support: pick the better of two searches. / stretch: refine a search that returns too many results.
-- **Materials:** computers with a safe/curated search, keyword practice cards.
-- **Joy:** turning a rambling question into a sharp search and getting a better answer.
-
-### Lesson 15 — Evaluate search results
-- **Duration:** 35 min
-- **Objective:** "By the end, I can pick the most reliable result and explain why."
-- **Hook:** "The top result, an advert, a museum page and a random blog all appear. Which do you trust?"
-- **Key activity:** Given a topic and several "results" (museum/encyclopaedia, advert, blog, news), children pick the most reliable using who/why/when and the fact that ranking ≠ truth. They search a real question and choose a reliable result, noting why. Combines searching with Year 4's evaluation.
-- **Check for understanding:** "Is the first result always the best?" → No — top results can be adverts or just popular; check who made the page and whether others agree.
-- **Differentiation:** support: choose between two clearly different sources. / stretch: explain how an advert can be mistaken for a top answer.
-- **Materials:** computers with a safe search, results-ranking sheet.
-- **Joy:** outsmarting the search engine by choosing a better answer than the top hit.
-
-**End-of-unit check:** Child explains how a search engine ranks results, chooses good keywords, and selects/justifies the most reliable result.
+**End-of-unit check:** Child identifies inputs/outputs and writes a program where an input triggers an output on a physical device (or simulator).
 
 ---
 
-## Unit 5 — Your digital footprint (staying safe, KS2)
+## Unit 3 — A peek at text-based code
 
-**Essential question:** What do I leave behind online, and how do I keep it safe and kind?
+**Essential question:** How is typed code like the blocks I already know?
 
-**Key vocabulary:** digital footprint, profile, post, share, permanent, privacy settings, reputation, trusted adult.
+**Key vocabulary:** text-based code, command/statement, syntax, line, error, Python/JavaScript, translate.
 
-> **Tone note (from the online-safety KB):** keep this unit **warm, calm and reassuring** —
-> the internet is brilliant, and a trusted adult is always there to help. Never imply a child
-> is to blame; keep examples gentle and age-appropriate.
+### Lesson 7 — Blocks to text
+- **Duration:** 35 min
+- **Objective:** "By the end, I can match a familiar block to a line of text code."
+- **Hook:** "Grown-up coders type their instructions. But a typed line is just a block in words — let's prove it!"
+- **Key activity:** Show side-by-side: a Scratch "say 'Hello'" block ↔ a text line (e.g. `print("Hello")`), a loop block ↔ `for`/`repeat`, an if block ↔ `if`. Children match blocks to lines. In a beginner text tool (or block→text view), they run a tiny program (print a message; a short loop). Emphasise: same ideas, typed.
+- **Check for understanding:** "What does a line like print('Hi') do?" → It outputs/displays "Hi" — the same as a "say/print Hi" block.
+- **Differentiation:** support: match 3 blocks to 3 lines. / stretch: write a 2-line text program (print, then a short loop).
+- **Materials:** computers with a beginner text editor (e.g. Python via a kid-friendly online tool) or Scratch's text view; block↔text matching cards.
+- **Joy:** typing real code and seeing it actually run.
 
-### Lesson 16 — What is a digital footprint?
+### Lesson 8 — Syntax and errors
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain a digital footprint and that online actions can last."
-- **Hook:** "Footprints in sand wash away — but the ones we leave online can stick around. What are we leaving?"
-- **Key activity:** Introduce **digital footprint** = the trail of things we do/share online (posts, photos, messages, comments). Discuss that things can be copied, shared and last a long time — even if we delete our copy. Children map a "footprint" of what a made-up child has shared and discuss who might see it.
-- **Check for understanding:** "What is a digital footprint?" → The trail of things you do and share online, which can last and be seen by others.
-- **Differentiation:** support: list 3 things that add to a footprint. / stretch: explain why "I deleted it" doesn't always remove it.
-- **Materials:** "footprint trail" sheet, example posts.
-- **Joy:** being a "footprint detective" tracing what someone left online.
+- **Objective:** "By the end, I can explain that text code needs exact syntax and fix a simple typo."
+- **Hook:** "One missing bracket and the computer gets confused — text code is super precise!"
+- **Key activity:** Introduce **syntax** = the exact rules for writing a line (spelling, brackets, quotes). Show a tiny program with a typo (missing quote/bracket); children read the error, find and fix it — debugging applied to text. Reinforce: precision matters even more than with blocks.
+- **Check for understanding:** "Why might a typed program not run?" → A syntax error — a typo, missing bracket or quote; the computer needs it written exactly right.
+- **Differentiation:** support: fix one clearly marked typo. / stretch: fix a program with two small syntax errors.
+- **Materials:** computers with a beginner text editor, buggy one-line examples.
+- **Joy:** cracking the "secret code" rules and making a broken program run.
 
-### Lesson 17 — Think before you post
+**End-of-unit check:** Child matches blocks to text-code lines, runs a tiny text program, and fixes a simple syntax error.
+
+---
+
+## Unit 4 — A complete data investigation
+
+**Essential question:** How do I answer a real question with data from start to finish?
+
+**Key vocabulary:** question, data, collect, spreadsheet, formula (SUM/average), chart, interpret, conclusion, evidence.
+
+### Lesson 9 — Pose the question & collect data
 - **Duration:** 30 min
-- **Objective:** "By the end, I can decide what's wise to post and what to keep private."
-- **Hook:** "Before you post, ask: would I be happy if my teacher, gran and future self all saw this?"
-- **Key activity:** Recap personal information stays private (passwords secret). Children apply a **think-before-you-post** test to scenarios (a photo, a comment, personal details) and decide post / keep private / check with a trusted adult. Mention privacy settings exist and a trusted adult helps set them.
-- **Check for understanding:** "What's a good test before posting something?" → Would I be happy if a trusted adult (and my future self) saw it? If not, don't post; keep private things private.
-- **Differentiation:** support: sort post / keep-private cards. / stretch: explain why a kind, private footprint helps "future you".
-- **Materials:** scenario cards, sorting mat.
-- **Joy:** designing a "footprint I'd be proud of".
+- **Objective:** "By the end, I can frame a question and plan how to collect data to answer it."
+- **Hook:** "Data can settle any classroom debate — let's pick a question and prove the answer!"
+- **Key activity:** Children choose a real question (e.g. "which sport is most popular in our class?", "do we read more in winter?"). They plan **what data** to collect and **how** (survey/measurement), then collect it. Discuss fair, accurate collection.
+- **Check for understanding:** "Why plan how you collect data before starting?" → So the data actually answers the question and is fair/accurate.
+- **Differentiation:** support: use a ready survey. / stretch: plan a question needing two pieces of data.
+- **Materials:** survey/data-collection sheets, clipboards.
+- **Joy:** running their own survey to settle a real debate.
 
-### Lesson 18 — Kind, balanced & getting help (refresh)
+### Lesson 10 — Spreadsheet: enter and calculate
+- **Duration:** 35 min
+- **Objective:** "By the end, I can enter my data and use formulas to calculate."
+- **Hook:** "Let the computer crunch the numbers — totals and averages in a click!"
+- **Key activity:** Children enter their data into a spreadsheet with headings, then use **SUM** (and, for stretch, **AVERAGE**/MAX) to calculate. They change a value to see totals update automatically. Reinforces Year 4 spreadsheet skills at greater depth.
+- **Check for understanding:** "Why use a formula instead of typing the total?" → It recalculates automatically if the data changes, and avoids mistakes.
+- **Differentiation:** support: SUM a ready range. / stretch: also compute an average and compare two groups.
+- **Materials:** computers with a spreadsheet app.
+- **Joy:** the formula instantly totalling dozens of numbers.
+
+### Lesson 11 — Chart, interpret, conclude
+- **Duration:** 35 min
+- **Objective:** "By the end, I can chart my data and write a conclusion backed by evidence."
+- **Hook:** "What does the data actually tell us? Time to chart it and reveal the answer!"
+- **Key activity:** Children make an appropriate **chart**, read it (most/least/total/compare), and write a **conclusion** that answers their question *with evidence* ("X is most popular: 12 votes vs 4"). Discuss honest interpretation (not over-claiming).
+- **Check for understanding:** "What makes a good conclusion?" → It answers the question using evidence from the data (specific numbers from the chart), without exaggerating.
+- **Differentiation:** support: complete a sentence-stem conclusion. / stretch: note a limitation of their data.
+- **Materials:** computers with a spreadsheet app, conclusion sheet.
+- **Joy:** revealing the data-backed answer to the class.
+
+**End-of-unit check:** Child runs a data investigation end-to-end: poses a question, collects and enters data, calculates with a formula, charts it, and writes an evidence-based conclusion.
+
+---
+
+## Unit 5 — Evaluate & share
+
+**Essential question:** How do I evaluate my digital work and improve it from feedback?
+
+**Key vocabulary:** evaluate, criteria, feedback, audience, purpose, improve, share, present, reflect.
+
+### Lesson 12 — Evaluate against criteria
+- **Duration:** 30 min
+- **Objective:** "By the end, I can evaluate a piece of digital work against clear criteria."
+- **Hook:** "How do we know if our work is *good*? We measure it against what good looks like."
+- **Key activity:** Agree **criteria** for a strong project/piece (meets its purpose, suits its audience, works/has no obvious bugs, clear and well-made). Children evaluate their own (or an example) project against the criteria, scoring and noting strengths and one fix.
+- **Check for understanding:** "Why use criteria to evaluate?" → They give a fair, clear measure of whether the work meets its purpose and is well made.
+- **Differentiation:** support: tick criteria with prompts. / stretch: weight the most important criterion and justify.
+- **Materials:** criteria checklist, work to evaluate.
+- **Joy:** judging work like a real reviewer.
+
+### Lesson 13 — Give and act on feedback
+- **Duration:** 35 min
+- **Objective:** "By the end, I can give kind, useful feedback and improve my work using feedback I receive."
+- **Hook:** "The best creators love feedback — it's how good becomes great."
+- **Key activity:** Teach kind, specific feedback ("two stars and a wish" / "what works + one improvement"). Pairs play/review each other's projects and give feedback against the criteria. Each child then makes one improvement based on feedback received and notes the change.
+- **Check for understanding:** "What makes feedback useful rather than just nice?" → It's specific and helps the person improve (names what works and one clear thing to change).
+- **Differentiation:** support: use sentence stems for feedback. / stretch: prioritise which feedback to act on first and say why.
+- **Materials:** feedback slips/stems, projects to review.
+- **Joy:** seeing your project get better thanks to a friend's idea.
+
+### Lesson 14 — Share with an audience
+- **Duration:** 35 min
+- **Objective:** "By the end, I can present my finished work clearly to an audience."
+- **Hook:** "A project isn't finished until you share it — let's present like real makers."
+- **Key activity:** Children prepare a short share (demo + explain purpose, how it works, what they'd improve next). They present to a small group/the class. Discuss sharing safely (what's okay to share publicly vs keep private) — links to footprint.
+- **Check for understanding:** "What three things make a clear project share?" → Show it working, explain its purpose/how it works, and say what you'd improve next.
+- **Differentiation:** support: present with a script/partner. / stretch: field a question from the audience.
+- **Materials:** finished projects, presentation space.
+- **Joy:** the applause after demoing their own creation.
+
+**End-of-unit check:** Child evaluates work against criteria, gives and acts on specific feedback, and presents finished work clearly to an audience.
+
+---
+
+## Unit 6 — Ready for secondary: footprint, reputation & critical online life
+
+**Essential question:** How do I take charge of my online life — footprint, reputation, and what I believe — as I move on?
+
+**Key vocabulary:** digital footprint, reputation, privacy settings, fake news, misinformation, critical, verify, trusted adult, balance.
+
+> **Tone note (from the online-safety KB):** keep this unit **warm, calm and empowering** —
+> the internet is brilliant and pupils are becoming capable, critical, kind users. A trusted
+> adult is always there to help; never imply a child is to blame.
+
+### Lesson 15 — Footprint & reputation
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain how my digital footprint shapes my reputation."
+- **Hook:** "What might someone learn about you just from what you've shared online — and is it the *you* you want them to see?"
+- **Key activity:** Build on Year 4's footprint to **reputation** = the impression your footprint gives others (friends, schools, future you). Children review what builds a positive footprint (kind, honest, private about personal info) vs a risky one, and plan habits for a footprint to be proud of. Note privacy settings and that a trusted adult helps.
+- **Check for understanding:** "How can your digital footprint affect your reputation?" → What you share builds the impression others get of you; a kind, careful footprint protects your reputation.
+- **Differentiation:** support: sort builds-good vs risky actions. / stretch: explain why "future you" cares about today's posts.
+- **Materials:** footprint/reputation scenario cards.
+- **Joy:** designing the "online me I'm proud of".
+
+### Lesson 16 — Spotting fake news & misinformation
+- **Duration:** 35 min
+- **Objective:** "By the end, I can critically evaluate a claim and decide if it's reliable."
+- **Hook:** "A shocking headline is racing round the internet. True, or fake? Let's investigate like fact-checkers."
+- **Key activity:** Recap who/why/when + cross-check. Introduce **misinformation/fake news** and that surprising claims need *more* checking. Children investigate a few claims/headlines (some real, some fake/satire/advert), verify across sources, and decide reliable or not, justifying with evidence.
+- **Check for understanding:** "A shocking claim has no author and isn't on any trusted site. Reliable?" → No — unverified and surprising; check who made it and whether trustworthy sources agree before believing/sharing.
+- **Differentiation:** support: judge 2 clear claims. / stretch: explain why people *share* fake news and how to slow down.
+- **Materials:** computers with curated claim examples, fact-check checklist.
+- **Joy:** unmasking a viral "fact" as fake with real evidence.
+
+### Lesson 17 — Kind, balanced & safe for secondary
+- **Duration:** 30 min
+- **Objective:** "By the end, I can set healthy habits and apply the worry plan confidently for an independent online life."
+- **Hook:** "Bigger freedom online is coming — let's go in strong, kind and safe."
+- **Key activity:** Discuss the more independent online life ahead (more messaging, social apps with age limits). Refresh kindness/bystander, **balance** & healthy habits, age-appropriate choices, and the **worry plan** (stop → don't reply → keep it → tell) + **Childline**. Children set two personal habits and name trusted adults. Reinforce: never your fault, always tell.
+- **Check for understanding:** "Name a healthy habit and the worry-plan steps." → e.g. take breaks / screen-free before bed; stop → don't reply → keep it → tell a trusted adult.
+- **Differentiation:** support: order the worry-plan cards. / stretch: explain why age limits on apps exist and how to handle pressure to break them.
+- **Materials:** habit-pledge sheet, worry-plan cards.
+- **Joy:** writing a personal "online charter" for secondary.
+
+### Lesson 18 — Capstone build (catch-up & polish)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can finish and polish my main project to a standard I'm proud of."
+- **Hook:** "Final polish time — make your project the best it can be!"
+- **Key activity:** Dedicated time to complete, debug and improve the main programming or data project using feedback and criteria. Children finalise and prepare to showcase.
+- **Check for understanding:** "Against your criteria, what's the strongest part of your project and what did you improve?" → A specific strength and a specific improvement, referenced to the criteria.
+- **Differentiation:** support: focus on one improvement. / stretch: add a stretch feature and re-test.
+- **Materials:** computers, criteria checklist, feedback notes.
+- **Joy:** the pride of a finished, polished creation.
+
+### Lesson 19 — Computing showcase
+- **Duration:** 40 min
+- **Objective:** "By the end, I can present my capstone work and demonstrate my full range of skills."
+- **Hook:** "Six years of computing, all in one showcase — let's celebrate everything you can do!"
+- **Key activity:** Children present their capstone project (game/data investigation/physical-computing piece), explaining the concepts used. Mini-stations revisit the range: physical computing, a text-code snippet, source/fake-news evaluation, the worry plan. Audience explores and gives feedback.
+- **Check for understanding:** "Name the four programming concepts you used this year." → Sequence, repetition (loops), selection (if), and variables.
+- **Differentiation:** support: present with a partner/script. / stretch: explain how two concepts worked together in your project.
+- **Materials:** all projects + resources — computers, micro:bit/simulator, source/claim cards, certificates.
+- **Joy:** a "primary computing graduate" certificate and a proud public demo.
+
+### Lesson 20 — Reflect & look ahead
 - **Duration:** 25 min
-- **Objective:** "By the end, I can apply kindness, balance and the worry plan to KS2 online life."
-- **Hook:** "Bigger online life means our safety smarts grow too — let's sharpen them."
-- **Key activity:** Refresh being kind / a good bystander, balance & healthy habits, and the **worry plan** (stop → don't reply → keep it → tell a trusted adult), plus **Childline**. Discuss the "keep it secret from your family" warning sign and that it's never your fault.
-- **Check for understanding:** "A stranger online asks you to keep a secret from your parents. What do you do?" → Don't reply, keep it, tell a trusted adult — it's a warning sign and never your fault.
-- **Differentiation:** support: order the worry-plan cards. / stretch: explain who counts as a trusted adult and why two+ is wise.
-- **Materials:** worry-plan cards, balance-planning strip.
-- **Joy:** confidently coaching the plan to a partner.
+- **Objective:** "By the end, I can reflect on my computing journey and set a goal for secondary."
+- **Hook:** "From your first algorithm in Foundation to a full program now — look how far you've come!"
+- **Key activity:** Children reflect on their growth across the primary years (algorithms → robots → Scratch → loops → selection/variables → real projects, plus data, online smarts and safety). They write one thing they're proudest of and one computing goal for secondary (e.g. learn more Python, make a bigger game).
+- **Check for understanding:** "What's one thing computers still can't do without us?" → e.g. decide what's true, what's kind, or what's worth making — they follow our instructions; we provide the thinking and judgement.
+- **Differentiation:** support: complete reflection sentence stems. / stretch: explain how an online-safety skill will matter even more at secondary.
+- **Materials:** reflection sheet, "computing journey" timeline.
+- **Joy:** seeing their whole computing journey on a timeline and dreaming about what's next.
 
-### Lesson 19 — Year 5 computing showcase
-- **Duration:** 35 min
-- **Objective:** "By the end, I can demonstrate selection, variables, spreadsheets, searching and footprint smarts."
-- **Hook:** "Decisions, memory, real spreadsheets, smart searching, and a footprint to be proud of — show it all!"
-- **Key activity:** Stations/showcase: (1) demo a project using if/then and a variable, (2) show a spreadsheet with SUM and a chart, (3) demonstrate good keywords and choosing a reliable result, (4) map a digital footprint and apply think-before-you-post, (5) recite the worry plan. Present one proud achievement.
-- **Check for understanding:** "Name the three big programming ideas you can now use." → Sequence/events, repetition (loops), selection (if), and variables (memory) — any of these core ideas.
-- **Differentiation:** support: present at two stations with a partner. / stretch: be a station helper.
-- **Materials:** all year's resources — computers with Scratch + spreadsheet, search demos, footprint sheets, certificates.
-- **Joy:** a Year 5 "computing expert" certificate and demoing a self-made game.
-
-**End-of-unit check:** Child explains a digital footprint and that posts can last, applies a think-before-you-post test, and recites the worry plan with trusted adults.
+**End-of-unit check:** Child explains how a digital footprint shapes reputation, critically evaluates a claim for reliability, and confidently states healthy habits and the worry plan for independent online life.
 
 ---
 
@@ -278,11 +302,11 @@ The year runs to **19 lessons** across **5 units**, each lesson 25–40 minutes.
 
 A Year 5 child finishing this curriculum should be able to:
 
-1. **Selection.** Use "if … then …" with a sensing condition inside a loop, and "if … then … else …" to choose between two actions.
-2. **Variables.** Create a variable, set it to 0 and change it, and explain "set to" vs "change by".
-3. **Combining ideas.** Build a small interactive project (e.g. a catch game) using a variable, an event/condition and a loop, and debug it (including a missing reset).
-4. **Spreadsheets.** Enter data into cells, total it with SUM, and make and read a chart to answer a question.
-5. **How search works.** Explain that a search engine matches keywords and ranks results, and that ranking isn't truth.
-6. **Searching well.** Choose good keywords and refine a search, then pick and justify the most reliable result.
-7. **Digital footprint.** Explain what a digital footprint is, that online actions can last, and apply a think-before-you-post test.
-8. **Staying safe.** Keep personal information private, act kindly, and recite the worry plan with trusted adults, knowing it's never their fault.
+1. **Complete programs.** Plan/decompose, build and improve a substantial program that combines sequence, loops, selection and variables.
+2. **Debugging & evaluating.** Debug a larger program systematically and evaluate it against its plan/criteria.
+3. **Physical computing.** Identify inputs/outputs and write a program where an input triggers an output on a device (or simulator).
+4. **Text-based code.** Match blocks to text-code lines, run a tiny text program, and fix a simple syntax error.
+5. **Data investigation.** Run a full investigation: pose a question, collect and enter data, calculate with a formula, chart it, and write an evidence-based conclusion.
+6. **Evaluate & share.** Evaluate work against criteria, give and act on specific feedback, and present finished work clearly.
+7. **Footprint & critical thinking.** Explain how a digital footprint shapes reputation, and critically evaluate a claim for reliability (spotting fake news/misinformation).
+8. **Safe & ready.** State healthy habits, age-appropriate choices and the worry plan with trusted adults for a more independent online life, knowing it's never their fault.

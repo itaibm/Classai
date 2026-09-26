@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { CatalogSubject, Kid } from '@shared/types';
+import { yearLabel } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { ErrorNote, Loading, Toast, TopBar, useAsync, useToast } from '../lib/ui.tsx';
@@ -22,7 +23,7 @@ export function ClassLibrary() {
   const [subjectKey, setSubjectKey] = useState<string>(''); // selected subject folder
 
   useEffect(() => {
-    if (year === null && data?.years.length) setYear(data.years[0]!.year);
+    if (year === null && data?.years.length) setYear((data.years.find((y) => y.year >= 1) ?? data.years[0]!).year); // Foundation is optional — open on Year 1
   }, [data, year]);
 
   const activeYear = data?.years.find((y) => y.year === year) || null;
@@ -57,7 +58,7 @@ export function ClassLibrary() {
                   className={`btn ${y.year === year ? '' : 'ghost'} small`}
                   onClick={() => { setYear(y.year); setSubjectKey(''); }}
                 >
-                  Year {y.year}
+                  {yearLabel(y.year)}
                 </button>
               ))}
             </div>
@@ -86,10 +87,10 @@ export function ClassLibrary() {
 
             {activeSubject && (
               <section style={subjectStyle(activeSubject.subjectKey)}>
-                <button className="btn ghost small" onClick={() => setSubjectKey('')}>← All Year {year} subjects</button>
+                <button className="btn ghost small" onClick={() => setSubjectKey('')}>← All {yearLabel(year ?? 0)} subjects</button>
                 <h2 className="row" style={{ gap: 8, alignItems: 'center', marginTop: 8 }}>
                   <span className="today-dot" style={{ background: subjectColor(activeSubject.subjectKey).accent }} />
-                  Year {year} {activeSubject.subjectLabel}
+                  {yearLabel(year ?? 0)} {activeSubject.subjectLabel}
                 </h2>
                 {activeSubject.yearOverview && <p className="muted small">{activeSubject.yearOverview}</p>}
 

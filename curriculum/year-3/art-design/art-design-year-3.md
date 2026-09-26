@@ -1,198 +1,188 @@
-# Art & Design — Year 3 (ages 7–8, lower KS2) — Lesson Outlines
+# Art & Design — Year 3 (ages 8–9, lower KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 3 scope drawn from [`knowledge-base/subjects/art-music/art-ks1-ks2.md`](../../../knowledge-base/subjects/art-music/art-ks1-ks2.md)
-> (topic 7 **Sketchbooks & observational drawing** as the year's spine, with the first steps of topic 10 **tone**,
-> plus topic 1 line and topic 8 artists at a lower-KS2 level). Every lesson honours the 8 design principles in
-> [`../README.md`](../README.md).
+> (topic 2 **colour** taken to complementary colours & harmonies, topic 3 **painting** technique, topic 10 **tone**
+> completed, the first steps of topic 11 **perspective & space**, and topic 8 artists). Every lesson honours the 8
+> design principles in [`../README.md`](../README.md).
 
 ## Year overview
 
-Year 3 is the year the child learns to **draw what they really see**. KS1 built a toolkit of marks, colours and
-making methods; now we point those tools at the real world. The spine is **observational drawing from life** —
-slow looking, light build-up lines, drawing the object in front of you rather than a remembered cartoon. From
-that we open the door to **tone**: a flat outline becomes a rounded form when we add light and dark. The
-**sketchbook** stops being a scrapbook and becomes a true working tool — dated studies, repeated attempts,
-notes on what was tricky. We deepen **line** into contour and continuous-line drawing, and we study artists who
-drew from observation and used line and tone — **Leonardo da Vinci** (studies/sketchbooks), **Vincent van
-Gogh** (drawn line and mark) and **Käthe Kollwitz** / **Albrecht Dürer** for tonal drawing. The rule stays
-**make → look → improve**, with "look more than you draw" added on top. Lessons run 25–35 min; observational
-and tonal studies reach 35–40 min.
+Year 3 is the year of **colour theory and the illusion of depth**. Year 2 taught the child to draw what they see;
+Year 3 teaches them to **understand colour like a painter** and to **make a flat page look deep**. The colour
+spine goes beyond primary/secondary into the **full colour wheel** — complementary pairs that "pop" against each
+other, and warm/cool harmonies that sit calmly together — and into **painting technique** (tints and shades from
+Year 1 now used to model form, wet-into-wet blending, layering). We **complete tone** (begun in Year 2): hatching
+for tone, shading several forms, tone in colour. Then we take the first real steps into **perspective and space** —
+the depth tricks (smaller, higher, overlapped) and a first taste of a **vanishing point** — preparing the full
+one-point perspective of Year 4. Artists studied use colour and depth boldly: **Claude Monet** (light and colour),
+**Paul Cézanne** (form and still life), **Henri Rousseau** (layered jungle depth) and **Georgia O'Keeffe**
+(colour and scale). Sketchbook practice runs throughout; the rule is still **make → look → improve**. Lessons run
+30–35 min; painting and perspective tasks reach 40 min.
 
-> **Builds on Year 2, hands to Year 4.** Light build-up lines, sketchbook habits, tints/shades and clay are
-> assumed. **Full tone/shading** (a 5-step scale, shading a sphere with one light source) is *begun* here and
-> **completed in Year 4** alongside **colour theory and perspective basics**. Each technique is reserved for one
-> year.
-
----
-
-## Unit 1 — Slow looking & observational drawing
-
-**Essential question:** How do I draw a real object so it looks like what I actually see?
-**Key vocabulary:** observational drawing, from life, slow looking, outline, proportion, detail, study, sketchbook, light line.
-
-### Lesson 1 — Look more than you draw
-- **Duration:** 30 min
-- **Objective:** "By the end, I can keep my eyes on the object and draw what I really see, not what I imagine."
-- **Hook:** Most people draw a *cartoon* apple from memory — today we draw a *real* one and it'll look completely different.
-- **Key activity:** Compare a memory-cartoon apple with a real apple → demo "slow looking" (look 10s, draw a little, look again) → children draw the same real object twice: once from memory, once from observation, and compare.
-- **Check for understanding:** "What is observational drawing?" → drawing a real object in front of you, looking carefully at it.
-- **Differentiation:** support: large simple object (a ball) / stretch: choose a more detailed object (a leaf, a shell).
-- **Materials:** real objects, pencils, sketchbook.
-- **Joy:** the shock of how much better the "looked-at" drawing is.
-
-### Lesson 2 — Blind contour: trust your eyes
-- **Duration:** 30 min
-- **Objective:** "By the end, I can draw an object's edge slowly without looking at my paper."
-- **Hook:** What if you drew without ever looking at the page? It sounds impossible — and it works.
-- **Key activity:** Demo **blind contour** (eyes on object, pencil moves slowly along its edge, no peeking) → children do 2–3 blind contour drawings of a hand or object → laugh at the wonky results, then notice how *observant* the lines are.
-- **Check for understanding:** "Where should your eyes mostly be while observational drawing?" → on the object, not the paper.
-- **Differentiation:** support: short 30-second blind contours / stretch: a slow one-minute blind contour of the whole hand.
-- **Materials:** pencils, sketchbook.
-- **Joy:** the funny, freeing wobble of a blind drawing.
-
-### Lesson 3 — Continuous-line drawing
-- **Duration:** 35 min
-- **Objective:** "By the end, I can draw an object in one continuous line without lifting my pencil."
-- **Hook:** Can you draw a whole object without your pencil ever leaving the page?
-- **Key activity:** Demo a continuous-line drawing of a plant/shoe (pencil never lifts) → children draw one object in a single unbroken line, looking carefully.
-- **Check for understanding:** "Why does drawing in one line make you look harder?" → you can't stop and copy from memory; you follow the real edges.
-- **Differentiation:** support: simple object, allow 2 lifts / stretch: a detailed object, truly no lifts.
-- **Materials:** fine-liners, sketchbook, objects.
-- **Joy:** the elegant tangle of a one-line drawing.
-
-### Lesson 4 — Drawing your own hand (proportion)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can use light build-up lines to draw my hand roughly in proportion."
-- **Hook:** Your hand is always with you — and it's one of the hardest, best things to draw.
-- **Key activity:** Recap light build-up lines → demo blocking the big shape of a hand first, then fingers, then details → children draw their own non-drawing hand from observation, building up lightly then darkening.
-- **Check for understanding:** "Why block in the big shape before the fingers?" → to get the proportions right before adding detail.
-- **Differentiation:** support: trace the big shape lightly first / stretch: add knuckle creases and nails by observation.
-- **Materials:** pencils, sketchbook.
-- **Joy:** producing a real, recognisable drawing of their own hand.
-
-> **Continues into Year 4:** drawing larger scenes and figures with proportion deepens once tone and perspective are in place.
-
-**End-of-unit check:** Child completes an observational drawing of one real object using slow looking and light build-up lines, plus one blind-contour or continuous-line study, and explains where the eyes should be while drawing from life.
+> **Builds on Year 2, hands to Year 4.** Observational drawing, the 5-step tone scale and a shaded sphere are
+> assumed. **Full one-point perspective with a vanishing point** (KB topic 11) and **relief printmaking / sculpture
+> depth / art history** are reserved for Year 4. Each technique appears in one year only.
 
 ---
 
-## Unit 2 — Texture & detail by observation
+## Unit 1 — The full colour wheel
 
-**Essential question:** How do I draw the texture and detail I can actually see?
-**Key vocabulary:** texture, detail, mark-making, hatching, stippling, pattern, surface, natural form.
+**Essential question:** Why do some colours clash and others calm each other?
+**Key vocabulary:** colour wheel, complementary, opposite, contrast, harmony, warm, cool, tertiary, palette.
 
-### Lesson 5 — A mark-making texture menu
-- **Duration:** 30 min
-- **Objective:** "By the end, I can make at least five different marks to stand for different textures."
-- **Hook:** How would you draw 'fluffy' versus 'spiky' versus 'scaly' using just a pencil?
-- **Key activity:** Demo marks: dots (**stippling**), small lines (**hatching**), cross-hatch, scribble, dashes → children fill a 6-box menu, labelling which texture each mark could show.
-- **Check for understanding:** "Which mark would you use for fur, and which for spikes?" → e.g. soft scribble/short strokes for fur; sharp straight strokes for spikes.
-- **Differentiation:** support: copy 4 marks / stretch: invent a mark and name its texture.
-- **Materials:** pencils, fine-liners, sketchbook.
-- **Joy:** building a personal "vocabulary" of marks.
+### Lesson 1 — Rebuild the colour wheel (with tertiaries)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can mix and place tertiary colours between the primaries and secondaries."
+- **Hook:** Six colours isn't the whole wheel — what lives *between* orange and red?
+- **Key activity:** Recap primaries/secondaries → demo a **tertiary** (mix a primary with its neighbouring secondary, e.g. red + orange → red-orange) → the child builds a 12-colour wheel, mixing and placing each tertiary.
+- **Check for understanding:** "What two colours make red-orange?" → red and orange.
+- **Differentiation:** support: 6-colour wheel + label one tertiary / stretch: name all six tertiaries.
+- **Materials:** paint, brushes, circle template, sketchbook.
+- **Joy:** the satisfying completeness of a full 12-colour wheel.
 
-### Lesson 6 — Observational study of a natural object
+### Lesson 2 — Complementary colours that pop
+- **Duration:** 35 min
+- **Objective:** "By the end, I can name complementary pairs and use one pair to make a colour pop."
+- **Hook:** Why does a red poppy look so loud in a green field? The colour wheel knows.
+- **Key activity:** Identify **complementary** pairs (opposite on the wheel: red/green, blue/orange, yellow/purple) → the child paints a small motif using one complementary pair so the subject "pops" against its background.
+- **Check for understanding:** "What is the complementary colour of blue?" → orange.
+- **Differentiation:** support: pre-named pair to use / stretch: explain *why* complements pop (they're opposites, maximum contrast).
+- **Materials:** paint, brushes, paper, sketchbook; colour wheel.
+- **Joy:** the visual "zing" when complements sit side by side.
+
+### Lesson 3 — Harmonies that calm (Monet)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can choose a harmonious (neighbouring) palette to make a calm picture."
+- **Hook:** **Claude Monet** painted the same pond again and again — using colours that sit gently together. Let's borrow his calm.
+- **Key activity:** Look at **Claude Monet**'s *Water Lilies* (soft, neighbouring blues/greens/purples) → the child paints a small calm scene using a **harmonious** palette of 3 neighbouring colours.
+- **Check for understanding:** "How is a harmonious palette different from a complementary one?" → harmonious colours sit next to each other and feel calm; complementary are opposite and feel bold.
+- **Differentiation:** support: pre-chosen trio of neighbours / stretch: add white/black tints and shades within the harmony.
+- **Materials:** paint, brushes, paper, sketchbook; Monet image.
+- **Joy:** mixing a soft, dreamy palette that feels peaceful.
+
+**End-of-unit check:** Child builds a 12-colour wheel, names a complementary pair and a harmonious group, and paints one "pop" (complementary) and one "calm" (harmonious) example.
+
+---
+
+## Unit 2 — Painting technique
+
+**Essential question:** How do I control paint to model form and blend smoothly?
+**Key vocabulary:** tint, shade, blend, wet-into-wet, layer, dry, glaze, brush control, model, highlight, shadow.
+
+### Lesson 4 — Wet-into-wet blending
+- **Duration:** 35 min
+- **Objective:** "By the end, I can blend two colours smoothly while the paint is wet."
+- **Hook:** How do painters make a sunset melt from orange to purple with no hard line?
+- **Key activity:** Demo **wet-into-wet** (lay one colour, add the next while wet, blend the join) → the child paints a blended sky strip melting from one colour into another.
+- **Check for understanding:** "Why blend while the paint is still wet?" → so the colours mix on the paper with no hard edge.
+- **Differentiation:** support: two warm colours that blend easily / stretch: blend across three colours.
+- **Materials:** paint, brushes, water, paper, sketchbook.
+- **Joy:** a sky that melts seamlessly between colours.
+
+### Lesson 5 — Painting a tonal apple (modelling form)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can draw a natural object with its real texture using the marks I know."
-- **Hook:** A pinecone, a shell, a leaf — up close they're full of hidden texture. Let's catch it.
-- **Key activity:** Recap slow looking + marks → children draw one natural object large, blocking the shape lightly, then adding observed texture with hatching/stippling.
-- **Check for understanding:** "What texture did you see, and which mark did you use for it?" → child names the texture and the matching mark.
-- **Differentiation:** support: large flat object (leaf) / stretch: a complex object (pinecone) with varied textures.
-- **Materials:** natural objects, pencils, fine-liners, sketchbook.
-- **Joy:** discovering how detailed something ordinary really is.
+- **Objective:** "By the end, I can paint one object using tints and shades so it looks 3-D."
+- **Hook:** Last year you *shaded* a ball in pencil — now we'll *paint* one round, with light and shadow in colour.
+- **Key activity:** Recap tints/shades + one light source → the child paints an apple/ball: base colour, highlight (tint), shadow side (shade), and let the highlight stay light.
+- **Check for understanding:** "How did you make the shadow side and the lit side of your apple?" → shade (add black) for shadow, tint (add white) for highlight.
+- **Differentiation:** support: paint over a pre-drawn outline / stretch: add a cast shadow and a reflected highlight.
+- **Materials:** paint incl. white/black, brushes, a lit fruit, paper, sketchbook.
+- **Joy:** a painted fruit that looks good enough to pick up.
 
-### Lesson 7 — Leonardo's notebook page (Leonardo da Vinci)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can make a study page with drawings AND written notes, like an artist-scientist."
-- **Hook:** **Leonardo da Vinci** filled thousands of notebook pages with drawings of everything — and wrote notes all over them.
-- **Key activity:** Look at **Leonardo da Vinci**'s study sketches (plants, hands, machines, with annotations) → children make their own "study page": 2–3 observational drawings of one object from different angles, with dated notes about what they noticed.
-- **Check for understanding:** "What did Leonardo use his sketchbooks for?" → studying, recording observations and ideas, experimenting — not finished pictures.
-- **Differentiation:** support: one drawing + one note / stretch: draw the object from three angles with measurements/notes.
-- **Materials:** objects, pencils, sketchbook; Leonardo study image.
-- **Joy:** feeling like an artist-scientist filling a discovery page.
+### Lesson 6 — Layering: background, then detail (Cézanne still life)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can paint in layers — big shapes first, details once dry."
+- **Hook:** **Paul Cézanne** built his fruit from patches of colour, layer on layer. Why wait for paint to dry?
+- **Key activity:** Look at **Paul Cézanne**'s still lifes (solid form from colour patches) → the child paints a simple still life: block big shapes first, let dry, then add detail and tone on top.
+- **Check for understanding:** "Why let a layer dry before adding detail?" → so the top layer doesn't smear into the wet base.
+- **Differentiation:** support: two objects, one detail layer / stretch: three objects with cast shadows added last.
+- **Materials:** paint, brushes, still-life objects, paper, sketchbook; Cézanne image.
+- **Joy:** seeing a solid, "real" still life grow layer by layer.
 
-**End-of-unit check:** Child draws a natural object with at least two observed textures using named marks (hatching/stippling), and makes a dated study page with at least one written observation.
+**End-of-unit check:** Child paints one object modelled with tints and shades (lit and shadow sides), demonstrates a wet-into-wet blend, and explains why layers must dry before detail.
 
 ---
 
-## Unit 3 — First steps in tone
+## Unit 3 — Completing tone
 
-**Essential question:** How can light and dark make a flat drawing look solid?
-**Key vocabulary:** tone, light, dark, shading, light source, shadow, tone scale, gradient, 3-D, form.
+**Essential question:** How do I shade with control to make any form look solid?
+**Key vocabulary:** tone, hatching, cross-hatching, gradient, blend, light source, core shadow, cast shadow, highlight, form.
 
-### Lesson 8 — Light and dark all around us
-- **Duration:** 25 min
-- **Objective:** "By the end, I can spot where light hits an object and where the shadow falls."
-- **Hook:** Shine a torch on a ball — one side glows, the other hides in shadow. Where does the dark go?
-- **Key activity:** Shine a single light on objects → children observe and point to the lit side, the dark side and the cast shadow → quick sketch noting "light here, dark here".
-- **Check for understanding:** "If the light is on the left, which side of the ball is darker?" → the right side (away from the light).
-- **Differentiation:** support: one round object / stretch: predict the shadow direction before turning the light.
-- **Materials:** torch/lamp, simple objects, pencils, sketchbook.
-- **Joy:** controlling light to make shadows move.
+### Lesson 7 — Hatching for tone
+- **Duration:** 35 min
+- **Objective:** "By the end, I can build smooth tone using hatching and cross-hatching."
+- **Hook:** How do you make dark areas without scribbling — using neat lines instead?
+- **Key activity:** Demo **hatching** (parallel lines, closer = darker) and **cross-hatching** (a second layer crossing) → the child makes a tone strip light→dark using only hatching, then cross-hatching.
+- **Check for understanding:** "How do you make a hatched area darker?" → put the lines closer together / add a crossing layer.
+- **Differentiation:** support: 3-step hatched strip / stretch: a curved-hatching strip that follows a rounded form.
+- **Materials:** fine-liners/pencils, sketchbook.
+- **Joy:** the control of building darkness from clean lines.
 
-### Lesson 9 — A 5-step tone scale
-- **Duration:** 30 min
-- **Objective:** "By the end, I can make a smooth pencil tone scale from white to black."
-- **Hook:** How many shades of grey can one pencil make between white and black?
-- **Key activity:** Demo building tone by pressing harder / layering → children make a 5-box tone scale, lightest (untouched) to darkest (pressed/layered), kept even and smooth.
-- **Check for understanding:** "What does *tone* mean in art?" → how light or dark something is.
-- **Differentiation:** support: 3-step scale / stretch: a smooth gradient strip with no visible steps.
-- **Materials:** soft pencils (2B–6B), sketchbook.
-- **Joy:** seeing a single pencil command a whole range of greys.
-
-### Lesson 10 — Shading a sphere round (first tonal form)
+### Lesson 8 — Shade three forms with one light
 - **Duration:** 40 min
-- **Objective:** "By the end, I can shade a circle with one light source so it looks like a 3-D ball."
-- **Hook:** A circle is flat — but with the right shading it bulges off the page into a ball. Magic, or skill?
-- **Key activity:** Worked example — circle; light top-left; leave top-left light, shade gradually darker to bottom-right, add a cast shadow → children shade their own ball from a real lit object to make it look round.
-- **Check for understanding:** "Why do we use tone/shading?" → to make a flat drawing look 3-D / rounded.
-- **Differentiation:** support: pre-drawn circle + marked light direction / stretch: shade a second form (cylinder or apple) with the same light source.
-- **Materials:** soft pencils, a lit ball/fruit, sketchbook.
-- **Joy:** watching a flat circle pop into a solid ball.
+- **Objective:** "By the end, I can shade a sphere, cylinder and cube consistently from one light source."
+- **Hook:** Every solid object is really a sphere, cylinder or cube in disguise — master these three and you can shade anything.
+- **Key activity:** Recap one light source → demo how light falls differently on a sphere (gradual), cylinder (banded) and cube (flat planes) → the child shades all three from a single lit setup, keeping the light direction the same.
+- **Check for understanding:** "Why does the cube have flat areas of tone but the sphere has a gradient?" → flat faces catch even light; a curved surface turns gradually away from the light.
+- **Differentiation:** support: shade two of the three / stretch: add cast shadows linking all three to the surface.
+- **Materials:** soft pencils, lit white forms, sketchbook.
+- **Joy:** unlocking the three "building-block" forms behind everything.
 
-> **Continues into Year 4:** full tone work — hatching for tone, tonal drawing of grouped objects, and tone with colour (KB topic 10) is completed in Year 4.
+### Lesson 9 — Tone in one colour (monochrome study)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use tints and shades of one colour to model a form (tone in colour)."
+- **Hook:** Can you paint a whole picture in just *one* colour and still show light and shadow?
+- **Key activity:** Recap tints/shades → the child paints a simple object **monochrome**: one colour only, using its lightest tint for highlights and darkest shade for shadow.
+- **Check for understanding:** "What does *tone* mean — and is it the same as colour?" → tone is how light or dark something is; you can have light and dark of one colour.
+- **Differentiation:** support: 3 tones of one colour / stretch: 5 tones blended on a rounded form.
+- **Materials:** one colour of paint + white/black, brushes, paper, sketchbook.
+- **Joy:** proving a single colour can do everything.
 
-**End-of-unit check:** Child makes a smooth 5-step tone scale and shades a circle with one light source so it reads as a 3-D sphere with a cast shadow.
+> **Tone is now complete.** Year 4 applies tone within perspective drawings and prints rather than re-teaching it.
+
+**End-of-unit check:** Child builds tone by hatching and cross-hatching, shades a sphere/cylinder/cube from one light source, and paints a monochrome study showing tints-and-shades tone.
 
 ---
 
-## Unit 4 — Putting it together: a still life
+## Unit 4 — First steps in space & depth
 
-**Essential question:** How do I combine looking, line and tone into one finished drawing?
-**Key vocabulary:** still life, composition, arrange, overlap, observe, tone, refine, evaluate.
+**Essential question:** How can a flat page show what is near and what is far?
+**Key vocabulary:** space, depth, foreground, middleground, background, overlap, scale, horizon, vanishing point.
 
-### Lesson 11 — Set up and sketch a still life
+### Lesson 10 — Depth tricks: smaller, higher, overlapped
 - **Duration:** 35 min
-- **Objective:** "By the end, I can arrange a small group of objects and lightly sketch its big shapes."
-- **Hook:** Artists have drawn bowls of fruit for 500 years — today you arrange and draw your own.
-- **Key activity:** Discuss composition (overlap objects, vary heights) → children arrange 2–3 objects, then lightly block in the big shapes from observation.
-- **Check for understanding:** "Why overlap the objects in a still life?" → it shows which is in front / makes a more interesting composition.
-- **Differentiation:** support: two simple objects / stretch: three objects of different heights and textures.
-- **Materials:** 2–3 objects, pencils, sketchbook/paper.
-- **Joy:** being the director who arranges the scene.
+- **Objective:** "By the end, I can show depth by drawing far things smaller, higher up and overlapped."
+- **Hook:** Why does a faraway friend look tiny enough to fit in your hand?
+- **Key activity:** Demo the three depth cues (further = smaller, higher up the page, partly hidden behind nearer things) → the child draws a simple landscape using all three: big tree in front, small trees higher and behind.
+- **Check for understanding:** "Name two ways to show something is far away." → smaller; higher up the page; overlapped (any two).
+- **Differentiation:** support: pre-marked foreground/background bands / stretch: add a third overlapping layer (middleground).
+- **Materials:** pencils, paper, sketchbook.
+- **Joy:** making a flat page suddenly feel deep.
 
-### Lesson 12 — Add the tone (light source on your still life)
+### Lesson 11 — Layered jungle depth (Henri Rousseau)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can add tone to my still life from one light source to make the objects look solid."
-- **Hook:** Your outline is good — now make those objects look like you could pick them up.
-- **Key activity:** Recap one-light-source shading → children add tone across their still life: lit sides light, far sides dark, cast shadows on the surface.
-- **Check for understanding:** "Where is your light coming from, and how can I tell?" → child names the direction and points to the lit sides/shadows.
-- **Differentiation:** support: shade just one object fully / stretch: shade all objects + a background tone.
-- **Materials:** soft pencils, lamp, the still life, paper.
-- **Joy:** the moment the flat objects gain weight and solidity.
+- **Objective:** "By the end, I can build a scene in foreground, middleground and background layers to show depth."
+- **Hook:** **Henri Rousseau** painted thick jungles he'd never seen — leaf in front of leaf in front of leaf. How does it feel so deep?
+- **Key activity:** Look at **Henri Rousseau**'s jungle paintings (overlapping layers, big front leaves) → the child paints or draws a layered jungle: large overlapping leaves/animals in front, smaller paler ones behind.
+- **Check for understanding:** "How does overlapping show depth?" → the thing in front is closer; what it covers is further back.
+- **Differentiation:** support: three pre-drawn depth bands to fill / stretch: make far layers paler/bluer (atmospheric hint).
+- **Materials:** paint or pencils, paper, sketchbook; Rousseau image.
+- **Joy:** building a deep, lush jungle layer by layer.
 
-### Lesson 13 — Look and improve (evaluating my work)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can say one strength and one improvement in my own drawing and act on it."
-- **Hook:** Even the best artists ask: what's working, and what would I change?
-- **Key activity:** Children prop up their still life drawing, compare to the real objects, write one "I'm proud of…" and one "Next time I'll…", then make one small fix.
-- **Check for understanding:** "What is one thing you would improve, and how?" → child names a specific change (e.g. darker shadows, fix a proportion).
-- **Differentiation:** support: choose from a list of "improve" prompts / stretch: redraw one object applying the improvement.
-- **Materials:** drawings, sketchbook, pencils.
-- **Joy:** the pride of judging their own work like a real artist.
+### Lesson 12 — Meet the vanishing point
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use a single vanishing point to make a road or path look like it stretches away."
+- **Hook:** Stand on a long straight road and the sides seem to *rush together* in the distance. Where do they meet?
+- **Key activity:** Demo a first **vanishing point**: a dot on the horizon, two lines from the bottom corners to it (a road), trees big near the front and small near the dot → the child draws their own road-into-distance with one vanishing point.
+- **Check for understanding:** "What is the vanishing point?" → the single point in the distance where parallel lines appear to meet.
+- **Differentiation:** support: vanishing point + road lines pre-marked / stretch: add a fence/poles shrinking toward the point.
+- **Materials:** rulers, pencils, paper, sketchbook.
+- **Joy:** the "aha" of a flat road that genuinely looks miles long.
 
-**End-of-unit check:** Child produces a still-life drawing combining observed line and one-light-source tone, then states one strength and one improvement and makes a small refinement.
+> **Continues into Year 4:** full **one-point perspective** (a street/room of boxes converging on the vanishing point) is completed in Year 4.
+
+**End-of-unit check:** Child draws a scene using all three depth cues (smaller/higher/overlapped) and a road or path that recedes to a single vanishing point.
 
 ---
 
@@ -200,11 +190,11 @@ and tonal studies reach 35–40 min.
 
 By the end of Year 3, a child's sketchbook/portfolio should show:
 
-1. **Observational drawings from life** of at least three real objects, using slow looking and light build-up lines.
-2. **A blind-contour and a continuous-line study**, showing eyes-on-the-object drawing.
-3. **A mark-making menu** (hatching, stippling, cross-hatch and more) used to draw real **texture** on a natural object.
-4. **A dated study page** with drawings and written observations, in the spirit of **Leonardo da Vinci**.
-5. **A smooth 5-step tone scale** in pencil.
-6. **A shaded sphere** that reads as 3-D, with one light source and a cast shadow.
-7. **A finished still life** combining observed line and tone from a single light source.
-8. **A self-evaluation** — one stated strength, one improvement, and an acted-on refinement of their own work.
+1. **A 12-colour wheel** including tertiary colours, correctly mixed and placed.
+2. **A complementary "pop" piece and a harmonious "calm" piece**, with the pairs/groups named.
+3. **A wet-into-wet blend** and an object **modelled in paint** with tints (highlight) and shades (shadow).
+4. **A layered painting** (big shapes first, detail once dry), in the spirit of **Cézanne** or **Monet**.
+5. **Hatching and cross-hatching tone**, and a **sphere, cylinder and cube** shaded from one light source.
+6. **A monochrome study** showing tone in a single colour.
+7. **A depth drawing** using the three cues (smaller, higher, overlapped), e.g. a **Rousseau**-style layered scene.
+8. **A first vanishing-point drawing** of a road or path receding into the distance.

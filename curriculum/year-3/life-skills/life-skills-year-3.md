@@ -1,283 +1,293 @@
-# Year 3 Life Skills (ages 7–8, KS2) — Lesson Outlines
+# Year 3 Life Skills (ages 8–9, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 3 scope drawn from [`knowledge-base/subjects/computing-life-skills/life-skills.md`](../../../knowledge-base/subjects/computing-life-skills/life-skills.md).
 
 ## Year overview
 
-Year 3 is the first year of KS2, and Life Skills steps up to match. Seven- and eight-year-olds can hold longer reasoning chains, manage friendships with more independence, and handle real numbers — so this year deepens every strand: emotional literacy moves from calming down to *understanding why* feelings happen and how thoughts shape them; friendship moves from kindness to *resolving conflict fairly* on their own; growth mindset adds *self-talk and goal-setting*; health adds *why* food and movement work the way they do; money makes the leap to **real budgeting with numbers**; critical thinking adds **facts vs opinions**; and a new citizenship strand opens — *rules, fairness and caring for our shared world*. The tone stays warm and **never shaming**: feelings, mistakes and disagreements are normal, and the message is always *you can think it through, sort it out, and grow.* Most lessons run 25–35 minutes; a few investigations stretch to 40. Seven units, twenty lessons, every one anchored to the knowledge base.
+Year 3 is the midpoint of primary school, and eight- and nine-year-olds are ready to move from managing themselves to *navigating a wider social world*. Friendships get more complex (groups, fall-outs, the first whiffs of pressure); screens and online spaces become a bigger part of life; and they can now reason about other people's motives, weigh evidence, and handle multi-step money problems. So Year 3 deepens every strand: emotional literacy adds **stress, worry and resilience**; friendship adds **handling peer pressure and online kindness**; growth mindset adds **bouncing back from setbacks**; health adds **emotional wellbeing and balanced screen habits**; personal safety goes **online safety in earnest**; money adds **smart shopping, value and where money goes**; critical thinking adds **spotting tricks and checking sources**; and citizenship adds **rights, responsibilities and community action**. The tone stays warm and **never shaming** — pressure, worry and mistakes are normal, and the message is *you can think for yourself, stand firm kindly, and ask for help.* Most lessons run 30–35 minutes; a couple of projects stretch to 40. Seven units, twenty-one lessons, every one anchored to the knowledge base.
 
-**How it builds on Year 2:** Y2 caught feelings rising; Y3 explores *why* feelings happen and how thinking changes them. Y2 read others' feelings; Y3 resolves conflict using the fair-fix steps independently. Y2 made a "try another way" plan; Y3 adds growth-mindset self-talk and sets a real goal. Y2 picked steady snacks; Y3 learns the food groups and *why* sleep and exercise help. Y2 saved up; Y3 builds a real Spend/Save/Give budget with numbers. New this year: facts vs opinions, and citizenship (rules, fairness, sustainability).
-
----
-
-## Unit 1 — Understanding my feelings (emotional literacy)
-
-**Essential question:** Why do I feel the way I do — and can my thoughts change it?
-**Key vocabulary:** trigger, cause, thought, reaction, mixed feelings, reframe, self-talk, overwhelmed, disappointed, grateful.
-**KB source:** Topic 8 — Feelings & calming down.
-
-### Lesson 1 — Feelings have causes
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain what caused a feeling, not just name it."
-- **Hook:** "Two children both got the same low score. One feels crushed, one feels fine. Same event — why different feelings?"
-- **Key activity:** Introduce trigger → feeling. Children map a recent feeling to its cause ("I felt nervous *because* it was new"). Discuss that the same event can spark different feelings in different people.
-- **Check for understanding:** Why might two people feel differently about the same thing? → Because feelings depend on the person's thoughts, past and what matters to them — not just the event.
-- **Differentiation:** support: match a feeling to a cause card / stretch: describe a time their feeling about something changed.
-- **Materials:** trigger/feeling cards, a simple "cause → feeling" arrow sheet.
-- **Joy:** the surprise of the "same event, different feeling" puzzle.
-
-### Lesson 2 — Mixed and changing feelings
-- **Duration:** 25 min
-- **Objective:** "By the end, I can describe feeling more than one thing at once."
-- **Hook:** "On your last day before a holiday, can you feel excited AND a bit sad at the same time?"
-- **Key activity:** Explore mixed feelings (nervous + excited before a big match; happy + sad at goodbyes). Children draw a "feelings smoothie" blending two feelings about one real situation.
-- **Check for understanding:** Can you feel two different feelings at the same time? → Yes — mixed feelings are normal and okay.
-- **Differentiation:** support: pick two feeling cards for one event / stretch: explain why both feelings make sense.
-- **Materials:** "feelings smoothie" cup template, crayons.
-- **Joy:** blending their own colourful feelings smoothie.
-
-### Lesson 3 — Helpful and unhelpful thoughts
-- **Duration:** 30 min
-- **Objective:** "By the end, I can swap an unhelpful thought for a more helpful one."
-- **Hook:** "Two thoughts about a mistake: 'I'm useless' and 'I can fix this.' Which one helps you keep going?"
-- **Key activity:** Teach that thoughts feed feelings. Sort thought cards into "helpful" and "unhelpful," then practise reframing unhelpful ones ("Nobody likes me" → "Some friendships take time"). Build a personal helpful-thought card.
-- **Check for understanding:** Turn the unhelpful thought "I always get it wrong" into a more helpful one. → e.g. "I'm still learning — I can try again."
-- **Differentiation:** support: choose the helpful thought from a pair / stretch: reframe an unhelpful thought of their own.
-- **Materials:** helpful/unhelpful thought cards, reframe template.
-- **Joy:** "flipping" an unhelpful thought card to reveal the helpful flip-side.
-
-**End-of-unit check:** The child explains a feeling's cause, describes a mixed feeling, and reframes an unhelpful thought into a helpful one.
+**How it builds on Year 2:** Y3 understood why feelings happen; Y4 handles stress and worry and builds resilience. Y3 resolved conflict; Y4 stands up to peer pressure and is kind online. Y3 set goals; Y4 bounces back from real setbacks. Y3 learned the food groups; Y4 links body health to mood and balances screen time. Y3 budgeted; Y4 becomes a smart shopper who judges value. Y3 sorted fact vs opinion; Y4 checks whether a source can be trusted. Y3 met fair rules; Y4 explores rights, responsibilities and taking community action. New this year: online safety in depth.
 
 ---
 
-## Unit 2 — Friendship & sorting out conflict
+## Unit 1 — Worry, stress & resilience (emotional wellbeing)
 
-**Essential question:** How do I solve a falling-out fairly, by myself, and keep the friendship?
-**Key vocabulary:** conflict, compromise, fair fix, point of view, apology, repair, win-win, peer, listen-back.
-**KB source:** Topic 10 — Social skills: listening, sharing & resolving disagreements.
+**Essential question:** What can I do when worry or stress builds up inside me?
+**Key vocabulary:** worry, stress, overwhelmed, control circle, what-if, calm strategy, resilience, bounce back, support.
+**KB source:** Topic 8 — Feelings & calming down; Topic 9 — Resilience.
 
-### Lesson 4 — Both sides of the story
+### Lesson 1 — What worry feels like and does
 - **Duration:** 30 min
-- **Objective:** "By the end, I can tell a conflict from both people's points of view."
-- **Hook:** Show one picture two ways (the famous "is it a duck or a rabbit?"). "Two people can look at the same thing and see different things — same in an argument."
-- **Key activity:** Read a playground fall-out. Children retell it once from each child's point of view, noticing both had reasons. Introduce "listen-back" — repeat the other's side before replying.
-- **Check for understanding:** Before fixing an argument, why try to see the other person's side? → Both people usually have reasons; understanding both makes a fair fix possible.
-- **Differentiation:** support: tell one side with a sentence starter / stretch: argue both sides convincingly.
-- **Materials:** an ambiguous picture, a two-sided conflict story.
-- **Joy:** the "duck or rabbit?" optical-illusion reveal.
+- **Objective:** "By the end, I can describe what worry feels like and that everyone gets it sometimes."
+- **Hook:** "Worry is like a smoke alarm — useful when there's real danger, annoying when it goes off over burnt toast."
+- **Key activity:** Map worry's body and mind signs (racing thoughts, tight chest, trouble sleeping). Discuss that worry is normal and protective, but sometimes over-fires. The child names a common worry without shame.
+- **Check for understanding:** Is it normal to feel worried sometimes? → Yes — everyone worries; it's the brain trying to keep you safe, even when there's no real danger.
+- **Differentiation:** support: point to worry signs on a body map / stretch: tell when worry is helpful vs over-firing.
+- **Materials:** body-map sheets, a "smoke alarm" picture.
+- **Joy:** the funny "smoke alarm over burnt toast" analogy and acting it out.
 
-### Lesson 5 — The fair-fix steps on my own
+### Lesson 2 — What I can and can't control
 - **Duration:** 30 min
-- **Objective:** "By the end, I can use calm steps to solve a disagreement without a grown-up stepping in."
-- **Hook:** "What if no grown-up is nearby and you and a friend fall out? Could you fix it yourselves?"
-- **Key activity:** Teach the steps: calm down → each speaks and listens ("I felt… when…") → find a win-win → agree it. Role-play real scenarios (shared game, broken turn, hurtful joke) and reach a fair fix; know when a grown-up *is* still needed (someone's hurt or scared).
-- **Check for understanding:** What's the goal when fixing a disagreement — winning, or…? → A fair fix where both people feel heard (win-win), not one winner.
-- **Differentiation:** support: use the step cards in order / stretch: invent the win-win solution themselves.
-- **Materials:** fair-fix step cards, scenario cards.
-- **Joy:** acting out the "win-win" happy ending where both friends grin.
+- **Objective:** "By the end, I can sort worries into what I can and can't control."
+- **Hook:** "You can't control the weather — but you can grab a coat. What does that teach us about worry?"
+- **Key activity:** Draw a "circle of control." The child sorts their worries: inside the circle (I can act on it — make a plan) vs outside (let it go / share it). Make a tiny action plan for one in-circle worry.
+- **Check for understanding:** What can you do with a worry you *can't* control? → Let it go or share it with a trusted person, and focus your energy on what you *can* control.
+- **Differentiation:** support: sort two given worries / stretch: turn an in-circle worry into a small action plan.
+- **Materials:** circle-of-control sheets, worry slips.
+- **Joy:** physically placing worries inside or outside the circle.
 
-### Lesson 6 — A real apology
-- **Duration:** 25 min
-- **Objective:** "By the end, I can give a real apology that repairs a friendship."
-- **Hook:** "'Sorry' said with a shrug, vs a real sorry that means it — which one fixes things?"
-- **Key activity:** Teach a real apology: name what you did, say it was wrong, say how you'll make it better. Compare empty vs real sorries. Children practise a real apology for a pretend slip.
-- **Check for understanding:** What three parts make a real apology? → Name what you did, say it was wrong/you're sorry, and how you'll put it right.
-- **Differentiation:** support: fill in an apology sentence frame / stretch: give a real apology and accept one graciously.
-- **Materials:** apology sentence frames, scenario cards.
-- **Joy:** the "repair" handshake or fist-bump after a real apology.
+### Lesson 3 — My resilience toolkit
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name strategies that help me bounce back from a hard day."
+- **Hook:** "A bouncy ball hits the floor and springs back up. What helps a person bounce back?"
+- **Key activity:** Build a resilience toolkit: talk to someone, move your body, do something you enjoy, helpful self-talk, rest, ask for help. The child chooses their top three and makes a "bounce-back" card.
+- **Check for understanding:** Name two things that help you bounce back after a hard day. → Any two of: talk to someone, move, do something you enjoy, helpful self-talk, rest, ask for help.
+- **Differentiation:** support: pick three from picture cards / stretch: match a strategy to a specific tough situation.
+- **Materials:** resilience-strategy cards, a bouncy ball, toolkit template.
+- **Joy:** the bouncy-ball demo and building their own bounce-back card.
 
-**End-of-unit check:** The child explains both sides of a conflict, walks through the fair-fix steps independently, and gives a real three-part apology.
+**End-of-unit check:** The child describes worry and that it's normal, sorts worries by control, and names resilience strategies to bounce back.
 
 ---
 
-## Unit 3 — Growth mindset: self-talk & goals
+## Unit 2 — Friendship, groups & peer pressure
 
-**Essential question:** How do my words to myself, and a clear goal, help me get better?
-**Key vocabulary:** self-talk, inner voice, goal, step, progress, effort, strategy, persevere, feedback.
+**Essential question:** How do I stay true to myself and kind to others, even when friends push me?
+**Key vocabulary:** peer pressure, dare, stand firm, assertive, bystander, upstander, exclude, loyal, online kindness.
+**KB source:** Topic 10 — Social skills; Topic 12 — Staying safe (peer pressure).
+
+### Lesson 4 — When friends pressure you
+- **Duration:** 35 min
+- **Objective:** "By the end, I can recognise peer pressure and name a way to say no kindly but firmly."
+- **Hook:** "'Everyone's doing it — go on!' Have you ever felt pushed to do something you weren't sure about?"
+- **Key activity:** Teach what peer pressure is and that real friends respect a "no." Practise saying-no strategies: say no clearly, give a reason, suggest something else, walk away, find a different friend. Role-play dares (small and safe in the room).
+- **Check for understanding:** A friend dares you to do something you know is wrong. What can you do? → Say no clearly, give a reason, suggest something else, or walk away — real friends respect it.
+- **Differentiation:** support: practise one "say no" phrase / stretch: handle a friend who keeps pushing.
+- **Materials:** peer-pressure scenario cards, "say no" strategy cards.
+- **Joy:** acting out confident, even funny, ways to say no.
+
+### Lesson 5 — Upstander, not bystander
+- **Duration:** 30 min
+- **Objective:** "By the end, I can choose a safe way to help when I see someone being treated unkindly."
+- **Hook:** "If someone's being left out or teased and you just watch — does watching help? What could you do instead?"
+- **Key activity:** Teach bystander vs upstander. Brainstorm safe upstander actions: include the person, speak up kindly, get help, support them afterwards. Role-play turning a bystander moment into an upstander one.
+- **Check for understanding:** What's one safe thing an upstander can do when someone's being treated badly? → e.g. include them, tell the person to stop kindly, get a trusted adult, comfort them after.
+- **Differentiation:** support: choose an upstander action from cards / stretch: pick the safest action for a tricky situation and explain why.
+- **Materials:** bystander/upstander scenario cards.
+- **Joy:** the empowering "upstander" role-play where they help someone left out (played by the tutor).
+
+### Lesson 6 — Being kind online
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain how to be kind and think before posting online."
+- **Hook:** "Words on a screen can't smile or hug — so how might a joke be read the wrong way?"
+- **Key activity:** Teach that online words feel real and last. Introduce "think before you post": is it kind, true, necessary? Discuss screens hide tone, so messages can hurt unintentionally. The child rewrites an unkind/ambiguous message to be kind and clear.
+- **Check for understanding:** Before sending a message online, what should you ask yourself? → Is it kind, true and necessary? Could it be taken the wrong way?
+- **Differentiation:** support: choose the kinder of two messages / stretch: rewrite a tricky message and explain the fix.
+- **Materials:** sample messages, "think before you post" poster.
+- **Joy:** rewriting a grumpy message into a kind one in a fun "kindness translator" game.
+
+**End-of-unit check:** The child recognises peer pressure and says no kindly, chooses a safe upstander action, and applies "think before you post" to online kindness.
+
+---
+
+## Unit 3 — Bouncing back (growth mindset & resilience)
+
+**Essential question:** How do I keep growing after a setback or a failure?
+**Key vocabulary:** setback, failure, learn from, perseverance, reflect, adapt, famous failures, not yet, progress.
 **KB source:** Topic 9 — Growth mindset & resilience.
 
-### Lesson 7 — My inner coach
-- **Duration:** 25 min
-- **Objective:** "By the end, I can talk to myself like a kind coach when something is hard."
-- **Hook:** "Imagine a coach who shouts 'you're rubbish!' vs one who says 'good try, here's the next step.' Which makes you better?"
-- **Key activity:** Compare a harsh inner critic with a kind inner coach. Children write three coach phrases for themselves ("Keep going," "Mistakes help me," "I can try another way") and practise saying them.
-- **Check for understanding:** What kind of self-talk helps you improve? → Kind, encouraging coach-talk — not harsh critic-talk.
-- **Differentiation:** support: choose a coach phrase from a list / stretch: write their own coach phrase for a real challenge.
-- **Materials:** inner-coach card template.
-- **Joy:** designing their own "inner coach" character with a name.
-
-### Lesson 8 — Setting a goal in steps
+### Lesson 7 — Failure is feedback
 - **Duration:** 30 min
-- **Objective:** "By the end, I can break a goal into small steps and track progress."
-- **Hook:** "How do you eat an elephant? One bite at a time! How do you reach a big goal?"
-- **Key activity:** Teach goal → steps → progress. Each child picks a real learnable goal (read a chapter book, do ten keepy-uppies) and breaks it into 3–4 steps on a ladder. Mark where they are now.
-- **Check for understanding:** Why break a big goal into small steps? → It makes it doable and lets you see progress instead of feeling stuck.
-- **Differentiation:** support: order pre-written steps / stretch: write their own steps and a "how I'll know I've done it."
-- **Materials:** goal-ladder templates.
-- **Joy:** building a personal goal ladder they can climb over the term.
+- **Objective:** "By the end, I can find the lesson hidden inside a mistake or failure."
+- **Hook:** "Did you know light bulbs, footballers and authors all came from LOTS of failures first?"
+- **Key activity:** Share famous "failures before success" stories. Teach that failure gives feedback. The child picks a recent setback and writes "what it taught me / what I'll try next."
+- **Check for understanding:** What's a growth-mindset way to think about a failure? → As feedback that shows what to try next — not proof you can't do it.
+- **Differentiation:** support: complete a "this taught me…" sentence / stretch: turn a failure into a concrete next-step plan.
+- **Materials:** famous-failure cards, reflection sheets.
+- **Joy:** the surprising stories of famous people who failed first.
 
-### Lesson 9 — Feedback helps me grow
+### Lesson 8 — Perseverance through the hard middle
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name what keeps me going when I want to quit."
+- **Hook:** "The hardest part of a long run is the middle. What keeps a runner going to the finish?"
+- **Key activity:** Discuss the "messy middle" of any hard task. The child lists their personal "keep-going fuel" (a goal in mind, breaking it up, a cheering friend, remembering past wins) and commits to a current challenge.
+- **Check for understanding:** Name one thing that helps you keep going when you want to quit. → e.g. remember the goal, break it up, cheer yourself on, recall a past success, take a short break then return.
+- **Differentiation:** support: choose keep-going fuel from a list / stretch: make a plan to push through a real current challenge.
+- **Materials:** "keep-going fuel" cards.
+- **Joy:** designing a personal "don't quit" motivational poster.
+
+### Lesson 9 — Reflecting to improve
 - **Duration:** 25 min
-- **Objective:** "By the end, I can take feedback as help, not criticism."
-- **Hook:** "A coach says 'bend your knees more.' Is that a put-down, or a gift?"
-- **Key activity:** Teach that feedback tells you the *next step*, not that you're bad. Practise receiving feedback graciously ("Thanks, I'll try that") and giving kind, helpful feedback ("I liked… one idea is…").
-- **Check for understanding:** Someone gives you feedback on your work. What's a growth-mindset response? → Thank them and try the idea — feedback is help for the next step.
-- **Differentiation:** support: practise the "thanks, I'll try that" response / stretch: give kind, specific feedback to a partner.
-- **Materials:** feedback sentence frames, sample work to comment on.
-- **Joy:** the "two stars and a wish" feedback game with a partner.
+- **Objective:** "By the end, I can reflect on what went well and what to change next time."
+- **Hook:** "Sports teams watch the match back to get better. Could *you* 'watch back' your own work?"
+- **Key activity:** Teach simple reflection: What went well? What was tricky? What will I do differently? The child reflects on a recent piece of work or challenge and sets one improvement.
+- **Check for understanding:** Why is it useful to reflect after finishing something? → To notice what worked and what to improve, so you do better next time.
+- **Differentiation:** support: answer the three questions with prompts / stretch: turn a reflection into a specific goal.
+- **Materials:** reflection template.
+- **Joy:** being their own "coach" reviewing the highlights.
 
-**End-of-unit check:** The child uses kind coach self-talk, breaks a goal into steps with progress, and responds to feedback as helpful.
+**End-of-unit check:** The child finds the lesson in a failure, names what keeps them persevering, and reflects to set one improvement.
 
 ---
 
-## Unit 4 — Healthy body, healthy mind (health & wellbeing)
+## Unit 4 — Mind, body & balance (health & wellbeing)
 
-**Essential question:** Why do good food, sleep and movement keep my body AND brain working well?
-**Key vocabulary:** food groups, balanced, fuel, hydration, brain, mood, energy, screen-time, wind-down.
-**KB source:** Topic 6 — Healthy eating; Topic 7 — Sleep & exercise.
+**Essential question:** How do my body, my screens and my mood all affect how well I feel?
+**Key vocabulary:** wellbeing, mood, balance, screen-time, active habit, hydration, sugar, sleep hygiene, mindful.
+**KB source:** Topic 6 — Healthy eating; Topic 7 — Sleep & exercise; Topic 8 — Wellbeing.
 
-### Lesson 10 — The food groups and why they help
+### Lesson 10 — Food, mood and energy
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name the main food groups and what each does for my body."
-- **Hook:** "Your body is a building site — which foods are the bricks, which are the fuel, which keep the lights on?"
-- **Key activity:** Teach the groups: fruit & veg (vitamins/health), starchy (energy), protein (building/repair), dairy (strong bones), water. Children match foods to jobs and build a balanced plate with reasons.
-- **Check for understanding:** Which food group helps build and repair your body? → Protein (beans, eggs, fish, meat, nuts).
-- **Differentiation:** support: match foods to two groups / stretch: explain each group's job and design a balanced day's meals.
-- **Materials:** food cards, group-job mats, paper plate.
-- **Joy:** the "build a body" game matching foods to their jobs.
+- **Objective:** "By the end, I can explain how what I eat and drink affects my mood and energy."
+- **Hook:** "Ever felt 'hangry'? Why might an empty tummy make you grumpy?"
+- **Key activity:** Teach the link between steady fuel (regular balanced meals, water) and steady mood/energy, vs sugar spikes-and-crashes and skipped meals. The child plans a "steady energy" day and spots the mood-dippers.
+- **Check for understanding:** How can what you eat affect your mood? → Steady, balanced food and water keep mood and energy steady; too much sugar or skipping meals can make you crash and feel grumpy.
+- **Differentiation:** support: match foods to "steady" or "crash" / stretch: explain the spike-and-crash and plan a fix.
+- **Materials:** food/drink cards, a day-planner.
+- **Joy:** the "hangry" role-play before the calm, well-fed version.
 
-### Lesson 11 — Sleep is brain maintenance
-- **Duration:** 25 min
-- **Objective:** "By the end, I can explain how sleep helps my brain remember and feel good."
-- **Hook:** "While you sleep, your brain runs a night-shift sorting the day. What happens if it doesn't get enough hours?"
-- **Key activity:** Teach that sleep saves memories, repairs the body and steadies mood (children need ~9–11 hours). Compare a rested vs tired day. Children design a calm bedtime wind-down routine with screens off early.
-- **Check for understanding:** Name one job your brain does while you sleep. → It saves/sorts memories from the day (also rests and repairs).
-- **Differentiation:** support: order a simple bedtime routine / stretch: explain why screens late at night make sleep harder.
-- **Materials:** bedtime-routine cards, a "night-shift brain" picture.
-- **Joy:** designing a dreamy personal wind-down routine.
-
-### Lesson 12 — Move for body and mood
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain how exercise lifts my mood and keeps me well, and do an active burst."
-- **Hook:** "Feeling grumpy? Scientists found a free mood-booster with no batteries — what is it?" (Moving!)
-- **Key activity:** Teach exercise → strong heart/muscles, better sleep, "feel-good" brain signals. Aim for an active hour a day. Children do a real movement circuit, then notice their mood and heartbeat before/after.
-- **Check for understanding:** Name two things exercise does for you. → Any two of: strong heart/muscles, better sleep, better mood, more energy, clearer thinking.
-- **Differentiation:** support: join the circuit at their own pace / stretch: explain the mood-boost link and plan a daily active habit.
-- **Materials:** movement-circuit cards, music, space to move.
-- **Joy:** the real movement circuit and feeling their heart race.
-
-**End-of-unit check:** The child names the food groups and their jobs, explains a job sleep does for the brain, and explains an exercise benefit plus completes an active burst.
-
----
-
-## Unit 5 — Money sense: budgeting
-
-**Essential question:** How do I plan my money so I can spend, save and give wisely?
-**Key vocabulary:** budget, income, spend, save, give, goal, jar, plan, total, leftover.
-**KB source:** Topic 3 — Saving, spending & simple budgeting.
-
-### Lesson 13 — Spend, Save, Give
-- **Duration:** 30 min
-- **Objective:** "By the end, I can split money into spend, save and give jars."
-- **Hook:** Three decorated jars appear. "If you got £6, how would you share it across these three pots?"
-- **Key activity:** Teach the Spend/Save/Give plan. Give each child play money to share across three jars, explaining their choices. Talk warmly about giving a little to a cause they care about.
-- **Check for understanding:** What are the three jars in a simple money plan? → Spend, Save and Give.
-- **Differentiation:** support: split into equal thirds / stretch: justify an uneven split for a specific goal.
-- **Materials:** three labelled jars, play money.
-- **Joy:** decorating and naming their own three money jars.
-
-### Lesson 14 — Making a budget
-- **Duration:** 30 min
-- **Objective:** "By the end, I can make a simple budget: what comes in and how I'll use it."
-- **Hook:** "A budget is just a plan for your money. Could a plan stop you running out before the week ends?"
-- **Key activity:** Teach income → plan. Children fill a simple budget sheet for a pretend week's pocket money: list income, decide spend/save/give amounts, check it adds up. Spot the difference between a plan and "spend till it's gone."
-- **Check for understanding:** What is a budget? → A plan for your money — what comes in and how you'll spend, save and give it.
-- **Differentiation:** support: complete a part-filled budget / stretch: adjust the budget to afford a goal sooner.
-- **Materials:** simple budget sheets, play coins.
-- **Joy:** the "I'm in charge of the money" feeling of planning their own week.
-
-### Lesson 15 — How many weeks to my goal?
-- **Duration:** 30 min
-- **Objective:** "By the end, I can work out how many weeks of saving reach a goal."
-- **Hook:** "You want a £12 game and can save £2 a week. Can we work out exactly when you'll get it?"
-- **Key activity:** Teach goal ÷ weekly saving = weeks. Children pick a priced goal, choose a weekly save, and calculate the weeks; mark a halfway point. Connect to real maths (division, counting up).
-- **Check for understanding:** You save £2 a week for a £10 goal. How many weeks? → 5 weeks (£10 ÷ £2).
-- **Differentiation:** support: use friendly numbers and count up in 2s / stretch: try two saving rates and compare how the wait changes.
-- **Materials:** goal cards with prices, number lines.
-- **Joy:** the triumphant "I'll have it in 6 weeks!" calculation.
-
-**End-of-unit check:** The child splits money into Spend/Save/Give, makes a simple budget that adds up, and calculates weeks-to-goal.
-
----
-
-## Unit 6 — Thinking clearly: facts vs opinions (critical thinking)
-
-**Essential question:** How do I tell what's a fact I can check from what's just someone's opinion?
-**Key vocabulary:** fact, opinion, check, true for everyone, preference, clue word, persuade, advert.
-**KB source:** Topic 5 — Facts vs opinions; Topic 4 — Asking good questions.
-
-### Lesson 16 — Fact or opinion?
-- **Duration:** 30 min
-- **Objective:** "By the end, I can sort statements into facts and opinions."
-- **Hook:** "'A week has seven days' vs 'Mondays are the worst.' Which one could you prove?"
-- **Key activity:** Teach: a fact can be checked and is true for everyone; an opinion is what someone thinks or feels. Sort statement cards into fact/opinion, explaining how you'd check each fact.
-- **Check for understanding:** Is "the Sun is a star" a fact or opinion? Is "blue is the prettiest colour" a fact or opinion? → Fact; opinion.
-- **Differentiation:** support: sort three clear statements / stretch: turn an opinion into a checkable fact ("This film is best" → "This film won an award").
-- **Materials:** statement cards, fact/opinion sorting trays.
-- **Joy:** the fast-paced fact/opinion sorting race.
-
-### Lesson 17 — Opinion clue words
-- **Duration:** 25 min
-- **Objective:** "By the end, I can spot clue words that signal an opinion."
-- **Hook:** "Best! Worst! Lovely! Horrible! — what do these words tell you about a sentence?"
-- **Key activity:** Teach feeling/judgement clue words (best, worst, should, lovely, horrible, prettiest). Children hunt for clue words in sample sentences and adverts, marking each opinion.
-- **Check for understanding:** What clue words often signal an opinion? → Judgement words like best, worst, lovely, horrible, should, prettiest.
-- **Differentiation:** support: circle a given clue word / stretch: rewrite an opinion as a neutral fact.
-- **Materials:** sample sentences/adverts, highlighters.
-- **Joy:** being a "clue-word detective" hunting opinions in real adverts.
-
-### Lesson 18 — Don't be fooled by adverts
-- **Duration:** 30 min
-- **Objective:** "By the end, I can spot how adverts mix facts and opinions to persuade me."
-- **Hook:** "'This is the BEST cereal EVER and it makes you super strong!' — which bit is opinion, which bit should you check?"
-- **Key activity:** Look at kid-friendly adverts. Children separate the facts (checkable claims) from the opinions (best ever, amazing) and flag claims worth questioning ("how do you know?"). Curiosity beats being fooled.
-- **Check for understanding:** An advert says a toy is "the most fun ever." Is that a fact or opinion, and should you trust it? → Opinion — it's there to persuade, so check before believing.
-- **Differentiation:** support: find one opinion in an advert / stretch: redesign the advert using only honest facts.
-- **Materials:** simple printed adverts.
-- **Joy:** "busting" sneaky advert claims like an advert detective.
-
-**End-of-unit check:** The child sorts statements into fact/opinion, spots opinion clue words, and explains how an advert mixes the two to persuade.
-
----
-
-## Unit 7 — Being a good citizen (citizenship & sustainability)
-
-**Essential question:** How do rules, fairness and small green choices help everyone share our world?
-**Key vocabulary:** rule, fair, rights, responsibility, community, reduce, reuse, recycle, waste, energy, care.
-**KB source:** Builds on Topic 10 (cooperation) and the KB's "look after our world" framing into age-appropriate citizenship.
-
-### Lesson 19 — Why we have rules (and fair ones)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain why fair rules help everyone and suggest a fair rule."
-- **Hook:** "Imagine a game with NO rules. What happens? Now imagine an unfair rule — what then?"
-- **Key activity:** Play a quick game first with no rules, then with fair rules — notice the difference. Discuss that good rules keep things safe and fair for everyone. In groups, children invent a fair classroom or game rule and explain who it protects.
-- **Check for understanding:** What makes a rule a *good* rule? → It keeps people safe and is fair to everyone, not just some.
-- **Differentiation:** support: pick the fairer of two rules / stretch: write a fair rule and explain how it protects everyone.
-- **Materials:** a simple game, "rule" cards.
-- **Joy:** the chaos (then order) of playing a game with and without rules.
-
-### Lesson 20 — Caring for our shared world
+### Lesson 11 — Screens: finding the balance
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name and commit to a green action that helps our community and planet."
-- **Hook:** "Every bit of litter, every wasted light — who does it affect? Just you, or everyone?"
-- **Key activity:** Deepen reduce/reuse/recycle with *why* (saving resources, helping animals and people, less waste). Children audit one real waste in their day (lights, plastic, food) and choose a personal "green pledge," plus one way to encourage others.
-- **Check for understanding:** Name one green action and say who it helps. → e.g. recycling/saving water/turning off lights — helps animals, people and the planet by saving resources.
-- **Differentiation:** support: pick a pledge from picture cards / stretch: explain the chain from their action to a wider benefit.
-- **Materials:** recycle/waste sorting items, "green pledge" cards.
-- **Joy:** making and signing a personal green pledge badge.
+- **Objective:** "By the end, I can plan a healthy balance of screen time and other activities."
+- **Hook:** "Screens are fun — but what gets squeezed out if they take ALL your time?"
+- **Key activity:** Discuss the good and not-so-good of screens (fun and learning vs less sleep, movement, face-to-face time). Teach balance, breaks, screens off before bed. The child plans a balanced evening with screen *and* non-screen time.
+- **Check for understanding:** Name one thing that helps keep screen time healthy. → e.g. set limits, take breaks, screens off before bed, balance with active and face-to-face time.
+- **Differentiation:** support: place screen and non-screen cards on a balance scale / stretch: explain why screens before bed harm sleep.
+- **Materials:** activity cards, a "balance scale" template.
+- **Joy:** balancing a real see-saw/scale of screen vs non-screen activities.
 
-**End-of-unit check:** The child explains why fair rules help everyone and suggests one, and names a green action with who it helps, committing to a pledge.
+### Lesson 12 — A calm mind: mindful moments
+- **Duration:** 25 min
+- **Objective:** "By the end, I can use a mindful moment to calm and reset my mind."
+- **Hook:** "Your mind is like a snow globe — shake it and it's a blur. How do the flakes settle?" (Stillness.)
+- **Key activity:** Teach mindfulness in kid terms: noticing right now, slow breaths, a body scan, listening to sounds. Do a 3-minute guided mindful moment with a snow-globe prop. The child names when they'd use one.
+- **Check for understanding:** When might a mindful moment help you? → e.g. when feeling stressed, worried, before a test, to calm down or refocus.
+- **Differentiation:** support: follow the breathing along / stretch: lead the tutor through a short mindful moment.
+- **Materials:** a snow globe (or jar of glitter water), calm audio.
+- **Joy:** watching the snow-globe glitter settle as their mind settles.
+
+**End-of-unit check:** The child explains the food–mood link, plans a healthy screen balance, and uses a mindful moment to reset.
+
+---
+
+## Unit 5 — Staying safe online (personal safety)
+
+**Essential question:** How do I keep myself safe, kind and private online?
+**Key vocabulary:** private information, password, screen name, stranger danger online, share, tell, trusted adult, scam, footprint.
+**KB source:** Topic 12 — Staying safe (online-safety focus).
+
+### Lesson 13 — Keeping private information private
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name which information to keep private online."
+- **Hook:** "Would you shout your home address to a crowd of strangers? Posting online can be like that — who's listening?"
+- **Key activity:** Teach private info: full name, address, club or school, phone, passwords, photos that show where you are. Sort "okay to share" vs "keep private" cards. Discuss strong passwords kept secret (except from a parent).
+- **Check for understanding:** Name two pieces of information you should keep private online. → Any two of: home address, club or school, full name, phone number, passwords, where you are.
+- **Differentiation:** support: sort three clear cards / stretch: explain why a photo could give away private info.
+- **Materials:** "share / keep private" cards.
+- **Joy:** the "secret agent" game guarding private info.
+
+### Lesson 14 — People aren't always who they say online
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain that online people may not be who they claim, and what to do."
+- **Hook:** "A 'kid' in a game wants to chat privately and meet up. How do you know they're really a kid?"
+- **Key activity:** Teach that people online can pretend to be someone else. Rules: don't share private info, never agree to meet, never keep online "secrets," tell a trusted adult about anything that feels off. Role-play a tricky chat and the safe response.
+- **Check for understanding:** Someone online you don't know asks to meet up. What do you do? → Don't agree, don't go, and tell a trusted adult straight away.
+- **Differentiation:** support: practise "I'll tell a grown-up" / stretch: explain why online "secrets" are a warning sign.
+- **Materials:** pretend chat cards, scenario prompts.
+- **Joy:** spotting the "red flags" like an online safety detective.
+
+### Lesson 15 — When something online upsets me
+- **Duration:** 30 min
+- **Objective:** "By the end, I can say what to do if I see or get something upsetting online."
+- **Hook:** "Something pops up that scares or upsets you. Is it your fault? What's the very first thing to do?"
+- **Key activity:** Teach the steps: don't reply, don't delete it (it's evidence), tell a trusted adult, it's never your fault. Discuss scams/"free prize" tricks and pop-ups too. Role-play telling a grown-up calmly.
+- **Check for understanding:** If something online upsets or scares you, what's the first thing to do? → Tell a trusted adult — it's never your fault, and they can help.
+- **Differentiation:** support: name one trusted adult to tell / stretch: explain why you shouldn't reply to or delete it.
+- **Materials:** scenario cards, a "trusted adult" reminder card.
+- **Joy:** the reassurance and role-play of being believed and helped.
+
+**End-of-unit check:** The child names private info to protect, explains online people may not be who they claim and to never meet, and knows to tell a trusted adult about anything upsetting online.
+
+---
+
+## Unit 6 — Smart with money: value & shopping
+
+**Essential question:** How do I get the best value and make wise spending choices?
+**Key vocabulary:** value, price, compare, deal, advert, impulse, need vs want, worth it, where money goes.
+**KB source:** Topic 2 — Needs vs wants; Topic 3 — Budgeting; Topic 5 — Critical thinking applied to adverts.
+
+### Lesson 16 — Best value, not just cheapest
+- **Duration:** 30 min
+- **Objective:** "By the end, I can compare options to work out the best value."
+- **Hook:** "Two drinks: a tiny one for £1 or a big one for £1.50. Which is better value? How do you decide?"
+- **Key activity:** Teach value = what you get for what you pay (not just cheapest). The child compares priced options (size, quality, how long it lasts) and picks the best value, explaining why.
+- **Check for understanding:** Does "best value" always mean "cheapest"? → No — it means the best you get for the price; sometimes paying a bit more lasts longer or is worth it.
+- **Differentiation:** support: compare two simple options / stretch: compare three options weighing size, quality and price.
+- **Materials:** priced product cards.
+- **Joy:** the "shopping showdown" comparing real-feeling deals.
+
+### Lesson 17 — Don't get tricked into buying
+- **Duration:** 30 min
+- **Objective:** "By the end, I can spot sales tricks and resist impulse buying."
+- **Hook:** "'BUY NOW! ONLY 2 LEFT! HALF PRICE!' — why do shops use words like these?"
+- **Key activity:** Teach common tricks (limited time, "only a few left", pester-power adverts, things placed at the till). Teach the pause: "Do I need it? Is it good value? Will I still want it tomorrow?" The child spots tricks in sample adverts.
+- **Check for understanding:** Name one question to ask yourself before an impulse buy. → e.g. Do I really need it? Is it good value? Will I still want it tomorrow?
+- **Differentiation:** support: spot one trick word / stretch: explain how a trick is designed to rush you.
+- **Materials:** sample adverts and shop displays.
+- **Joy:** "busting" the sneaky sales tricks like a savvy shopper.
+
+### Lesson 18 — Where does money go?
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain that families spend money on needs, wants and bills, and a little can be saved or given."
+- **Hook:** "When money comes into a home, where does it all go? Let's follow it."
+- **Key activity:** Teach the bigger picture: money pays for needs (food, home, bills), some wants, savings, and giving. The child divides a pretend family budget across these, seeing needs come first. Connect to their own Spend/Save/Give habit.
+- **Check for understanding:** When money is shared in a family, what comes first? → Needs (food, home, bills) come before wants; some is saved or given too.
+- **Differentiation:** support: place big categories in order / stretch: balance a small family budget so needs are covered.
+- **Materials:** family-budget mat, play money.
+- **Joy:** "running the household" budget like a grown-up.
+
+**End-of-unit check:** The child works out best value, resists a sales trick by pausing, and explains where money goes with needs first.
+
+---
+
+## Unit 7 — Trustworthy thinking & community (critical thinking & citizenship)
+
+**Essential question:** How do I decide what to believe, and how do I help my community?
+**Key vocabulary:** source, trustworthy, evidence, check, rights, responsibility, community, contribute, fair.
+**KB source:** Topic 4 — Asking good questions; Topic 5 — Facts vs opinions; citizenship extension.
+
+### Lesson 19 — Can I trust this source?
+- **Duration:** 30 min
+- **Objective:** "By the end, I can ask whether a piece of information can be trusted."
+- **Hook:** "A friend says 'I read online that chocolate makes you fly!' Should you believe it? How would you check?"
+- **Key activity:** Teach checking a source: Who said it? How would they know? Can I check it elsewhere? The child judges a set of claims (a known site vs a random post vs a rumour) and decides what to trust and how to verify.
+- **Check for understanding:** Name one question to ask before believing something you read online. → e.g. Who said it? How do they know? Can I check it somewhere reliable?
+- **Differentiation:** support: pick the more trustworthy of two sources / stretch: explain how they'd verify a doubtful claim.
+- **Materials:** sample claims and "sources" cards.
+- **Joy:** "myth-busting" silly online claims.
+
+### Lesson 20 — My rights and responsibilities
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name a right children have and a responsibility that goes with it."
+- **Hook:** "You have a right to learn and be safe. What responsibility comes with that — for you and for others?"
+- **Key activity:** Introduce basic children's rights (to be safe, to learn, to play, to be heard) and that rights come with responsibilities (help others be safe, let others learn and be heard). The child matches rights to responsibilities.
+- **Check for understanding:** You have a right to be heard. What's a matching responsibility? → To listen to others so they can be heard too.
+- **Differentiation:** support: match one right to its responsibility / stretch: explain why rights and responsibilities go together.
+- **Materials:** rights/responsibility match cards.
+- **Joy:** the "match the pair" rights-and-responsibilities game.
+
+### Lesson 21 — Taking community action
+- **Duration:** 35 min
+- **Objective:** "By the end, I can plan a small action that makes my community or world better."
+- **Hook:** "One person picking up litter helps a little. What if you got others to join in?"
+- **Key activity:** Discuss community (family, street, neighbourhood, clubs) and how small group actions add up (a litter pick, a kindness campaign, saving energy at home). The child plans one realistic action and how they'd get others involved.
+- **Check for understanding:** Why can a group action help the community more than one person alone? → More people doing a small thing adds up to a bigger difference and encourages others.
+- **Differentiation:** support: choose an action from cards / stretch: plan the steps and how to recruit helpers.
+- **Materials:** community-action idea cards, planning sheet.
+- **Joy:** designing a real "make it better" mini-campaign with the tutor.
+
+**End-of-unit check:** The child questions whether a source is trustworthy, matches a right to its responsibility, and plans a small community action.
 
 ---
 
@@ -285,11 +295,11 @@ Year 3 is the first year of KS2, and Life Skills steps up to match. Seven- and e
 
 By the end of Year 3, a child should reliably show:
 
-1. **Emotional understanding** — explains what causes a feeling, accepts mixed feelings, and reframes an unhelpful thought into a helpful one.
-2. **Independent conflict resolution** — sees both sides, uses the fair-fix steps without an adult stepping in, and gives a real apology.
-3. **Growth mindset with goals** — uses kind coach self-talk, breaks a goal into trackable steps, and treats feedback as help.
-4. **Health knowledge** — names the food groups and their jobs, explains how sleep and exercise help body and brain, and stays active daily.
-5. **Budgeting** — splits money into Spend/Save/Give, makes a simple budget, and works out weeks-to-goal with real numbers.
-6. **Critical thinking** — sorts facts from opinions, spots opinion clue words, and questions persuasive adverts.
-7. **Citizenship & sustainability** — explains why fair rules matter, suggests one, and commits to a green action that helps the wider world.
-8. **Warm, fair character** — treats feelings, mistakes and disagreements as normal and solvable, and acts kindly and responsibly toward others.
+1. **Emotional resilience** — recognises worry as normal, sorts what they can and can't control, and uses bounce-back strategies.
+2. **Social courage** — recognises and resists peer pressure kindly, acts as an upstander, and is thoughtful and kind online.
+3. **Growth from setbacks** — treats failure as feedback, perseveres through the hard middle, and reflects to improve.
+4. **Balanced wellbeing** — links food and screens to mood and energy, balances screen time, and uses a mindful reset.
+5. **Online safety** — protects private information, knows online people may not be who they claim and never to meet, and tells a trusted adult about anything upsetting.
+6. **Money smarts** — judges best value, resists sales tricks and impulse buys, and explains where household money goes with needs first.
+7. **Trustworthy thinking & citizenship** — questions whether a source is reliable, links rights to responsibilities, and plans a community action.
+8. **Independent, kind character** — thinks for themselves, stands firm with kindness, and helps others and the wider world.

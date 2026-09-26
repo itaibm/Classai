@@ -1,4 +1,4 @@
-# Computing — Year 3 (ages 7–8, KS2) — Lesson Outlines
+# Computing — Year 3 (ages 8–9, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 3 scope drawn from `knowledge-base/subjects/computing-life-skills/computing-ks1-ks2.md`
@@ -7,260 +7,259 @@
 
 ## Year overview
 
-Year 3 opens **Key Stage 2**. The big move is from tablet-style block apps to **full Scratch**
-(scratch.mit.edu) on a computer — typing nothing, but snapping richer blocks. In **computer
-science**, children build proper **sequence-and-event** programs in Scratch (the green flag,
-"when key pressed", "when sprite clicked"), debug them with a real strategy, and meet the
-first big network idea: **how the internet works** — networks, servers, and the journey a
-request makes. In **information technology**, they step up their **data** work from Year 2's
-pictograms to **bar charts** and reading data to answer questions, and they create richer
-**digital content** that combines text and images purposefully. The **digital-literacy /
-online-safety** thread adds the KS2 idea that **not everything online is true** (a first
-look at reliable vs unreliable information) while keeping privacy, kindness and the worry
-plan warm and firmly in place.
+Year 3 is the year of **repetition**. In **computer science**, the child meets the most
+powerful idea so far: the **loop** — spotting a repeating pattern and using "repeat ( )" and
+"forever" instead of dragging the same blocks over and over. The child uses loops with the Scratch
+**pen** to draw shapes and patterns, and debugs loop programs. In **information technology**,
+the data strand grows into **branching databases** — sorting and identifying things by
+yes/no questions — and a first creative leap into **multimedia**: planning and making a short
+**audio or video** piece (recorded narration, sound effects, a simple animation or photo
+sequence) for a real purpose and audience. The **digital-literacy / online-safety** thread
+goes deeper on **reliable vs unreliable information** (judging and comparing sources to do
+real research) and keeps privacy, kindness, balance and the worry plan warm and current.
 
-How it builds on Year 2: Year 2 programmed a sprite in a ScratchJr-style tool; Year 3 does
-the same thinking in **real Scratch**, with keyboard/click **events** triggering different
-scripts. Year 2 met data as tallies and pictograms; Year 3 reads and builds **bar charts**.
-Year 2 learned the internet "comes from somewhere"; Year 3 explains *how* with networks and
-servers. Online safety grows from "is it kind / private / for my age" to *also* "is it
-**true** — who made it and why?"
+How it builds on Year 2: Year 2 wrote sequences and event-driven programs; Year 3 adds
+**repetition** so programs become shorter, clearer and able to make patterns. Year 2 read and
+built bar charts; Year 3 organises information by **yes/no questions** in a branching
+database. Year 2 created text-and-image pages; Year 3 adds **sound and moving images
+(multimedia)**. Year 2 met "not everything is true"; Year 3 uses the who/why/when checks to
+**research properly** across sources.
 
 The year runs to **18 lessons** across **5 units**, each lesson 20–40 minutes.
 
 ---
 
-## Unit 1 — Welcome to Scratch: sequence
+## Unit 1 — Loops & repetition
 
-**Essential question:** How do I turn an algorithm into a working Scratch program that runs in order?
+**Essential question:** How can a loop make my program shorter, clearer and able to repeat a pattern?
 
-**Key vocabulary:** Scratch, sprite, stage, block, script, sequence, green flag, run, costume, motion, command.
+**Key vocabulary:** loop, repeat, repeat ( ), forever, pattern, repetition, efficient, iterate, debug.
 
-### Lesson 1 — Meet Scratch
-- **Duration:** 35 min
-- **Objective:** "By the end, I can find sprites, blocks and the stage, and run a script on the green flag."
-- **Hook:** "Last year you snapped blocks on a tablet. Today you get the *real* tool that big kids and even grown-ups use to make games!"
-- **Key activity:** Tour the Scratch screen — stage, sprite, block palette, scripts area. Children drag a "when 🏁 clicked" block and a couple of motion blocks, snap them, and run. Explain a **script** runs **top to bottom in sequence**.
-- **Check for understanding:** "What does the 'when green flag clicked' block do?" → It tells that script when to start running.
-- **Differentiation:** support: copy a 2-block script. / stretch: add a "say hello" block before the moves.
-- **Materials:** computers with Scratch (scratch.mit.edu) or offline editor.
-- **Joy:** running their first *real* Scratch script and watching the cat move.
-
-### Lesson 2 — A sequence that does something useful
-- **Duration:** 35 min
-- **Objective:** "By the end, I can build a sequence of blocks so my sprite completes a task in order."
-- **Hook:** "Can you make your sprite walk to the apple, say 'yum', and grow a bit — in exactly that order?"
-- **Key activity:** Children plan a short multi-step task (move, say, change size/costume) and build it as one ordered script on the green flag. They predict the order of effects, then run and compare. Emphasise sequence: blocks run one after another.
-- **Check for understanding:** "Your blocks are: move 50, say 'hi', next costume. What happens, in order?" → Moves 50, then says 'hi', then changes costume — one after another.
-- **Differentiation:** support: arrange given blocks into order. / stretch: add a "wait" block to time the actions nicely.
-- **Materials:** computers with Scratch, a simple plan strip.
-- **Joy:** choreographing a little routine and watching it play out in order.
-
-### Lesson 3 — Debug a Scratch sequence
+### Lesson 1 — Spot the repeat
 - **Duration:** 30 min
-- **Objective:** "By the end, I can debug a Scratch script using predict → run → spot → fix."
-- **Hook:** "This script *should* make the sprite dance — but it just sits there. Bug detectives, to work!"
-- **Key activity:** Open a pre-made buggy project (missing green flag, blocks out of order, wrong number). Apply predict→run→spot→fix→run, changing only the faulty block. Children then fix a second bug independently.
-- **Check for understanding:** "Why change only the broken block instead of rebuilding?" → The rest works; fixing only the bug is faster and keeps what's right.
-- **Differentiation:** support: bug is highlighted. / stretch: two bugs in one script.
-- **Materials:** computers with Scratch, pre-loaded buggy projects.
-- **Joy:** the "aha!" of spotting a hidden bug everyone else missed.
+- **Objective:** "By the end, I can spot a repeating pattern and say how many times it repeats."
+- **Hook:** "To make your sprite hop 20 times, would you really drag 20 blocks? There's a smarter way!"
+- **Key activity:** Unplugged: clap/stamp patterns and dances — the child spots "this bit repeats N times." Look at a long Scratch script of identical blocks and identify the repeating chunk and its count. Introduce **repetition** as a key computational-thinking idea (pattern recognition).
+- **Check for understanding:** "These four blocks are the same and repeat 8 times. What pattern do you see?" → The same action repeated 8 times — it can be a loop.
+- **Differentiation:** support: count repeats in a clear pattern. / stretch: find two different repeating chunks in one sequence.
+- **Materials:** rhythm/dance prompts, printed long-script example.
+- **Joy:** turning a clapping pattern into "repeat 8".
 
-**End-of-unit check:** Child builds and runs a Scratch sequence that starts on the green flag and completes an ordered task, and debugs a faulty script with the predict→run→spot→fix routine.
+### Lesson 2 — The "repeat" loop in Scratch
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use a 'repeat ( )' loop to replace many copied blocks."
+- **Hook:** "One block inside a loop can do the work of twenty. Let's shrink a program!"
+- **Key activity:** Introduce the C-shaped **"repeat ( )"** block: whatever's inside runs that many times. The child takes a long copied-block script and rewrites it with one repeat loop, predicts, runs, and confirms identical behaviour. Discuss loops = shorter, clearer, easier to debug.
+- **Check for understanding:** "How many 'hop' blocks do you need with a loop to make a sprite hop 6 times?" → Just one hop block inside "repeat 6".
+- **Differentiation:** support: drop one block into a ready repeat. / stretch: nest a count change to vary the repeats.
+- **Materials:** a computer with Scratch, a long starter script to refactor.
+- **Joy:** the satisfaction of a giant script collapsing into a tidy little loop.
+
+### Lesson 3 — "forever" vs "repeat"
+- **Duration:** 30 min
+- **Objective:** "By the end, I can choose 'repeat ( )' or 'forever' for the right job."
+- **Hook:** "Some things repeat a set number of times; some go on and on. Which loop fits which?"
+- **Key activity:** Contrast **"repeat 10"** (stops) with **"forever"** (runs until you stop it — great for animation like flapping wings). The child builds one of each: a costume-swap animation in "forever", and a fixed action in "repeat N". Discuss when each is right.
+- **Check for understanding:** "Why might 'forever' be a problem if you want the program to finish?" → It never ends on its own — you'd use 'repeat N' when you want it to stop.
+- **Differentiation:** support: match "repeat / forever" to two examples. / stretch: combine a "forever" animation with a "repeat" movement.
+- **Materials:** a computer with Scratch (multi-costume sprite).
+- **Joy:** a "forever" flapping/wiggling animation that won't sit still.
+
+### Lesson 4 — Loops + pen: draw shapes
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use a loop with the pen to draw a regular shape."
+- **Hook:** "Can you draw a perfect square with just ONE loop instead of eight blocks?"
+- **Key activity:** Add the **pen** extension. Build "pen down → repeat 4 [move 100, turn 90]" → a square. Predict the shape before running. Change to repeat 3 / turn 120 → triangle. The child predicts and draws two shapes. (Links to maths: angles, regular polygons.)
+- **Check for understanding:** "Why use a loop instead of copying the same blocks?" → It's shorter, clearer, less error-prone and shows the repeating pattern.
+- **Differentiation:** support: run a given shape, then change the count. / stretch: work out the turn for a pentagon (360 ÷ 5 = 72).
+- **Materials:** a computer with Scratch + pen extension.
+- **Joy:** watching a perfect shape appear from one tiny loop.
+
+### Lesson 5 — Debug a loop program
+- **Duration:** 30 min
+- **Objective:** "By the end, I can find and fix a bug in a loop program."
+- **Hook:** "My square came out as an open shape! Is the bug in the loop or in a block inside it?"
+- **Key activity:** Open buggy loop projects (wrong repeat count, wrong turn angle, missing pen down). Apply predict→run→spot→fix, deciding whether the bug is the *loop count* or a *block inside the loop*. The child fixes two.
+- **Check for understanding:** "Your shape has too many sides. Is the fix the loop count or the move block?" → The loop count (repeat number) — reduce it.
+- **Differentiation:** support: one clearly-flagged bug. / stretch: a bug where the count and angle must both be reasoned about.
+- **Materials:** a computer with Scratch, pre-loaded buggy loop projects.
+- **Joy:** turning a wonky scribble back into a crisp shape with one fix.
+
+**End-of-unit check:** Child replaces copied blocks with a "repeat" loop, chooses repeat vs forever appropriately, draws a shape with a loop+pen, and debugs a loop program.
 
 ---
 
-## Unit 2 — Events: making programs respond
+## Unit 2 — Branching databases
 
-**Essential question:** How do I make my program react to keys, clicks and messages?
+**Essential question:** How can yes/no questions help me sort and identify things?
 
-**Key vocabulary:** event, trigger, "when key pressed", "when sprite clicked", broadcast, message, respond, interactive.
+**Key vocabulary:** data, attribute, branching database, yes/no question, sort, identify, classify, tree.
 
-### Lesson 4 — Events: "when key pressed"
+### Lesson 6 — Yes/no questions sort the world
+- **Duration:** 30 min
+- **Objective:** "By the end, I can sort a set of things using a series of yes/no questions."
+- **Hook:** "I'm thinking of an animal. With clever yes/no questions, can you find it in just a few guesses?"
+- **Key activity:** Play "20 questions" / guess-who with a set of objects or animals, noticing good questions split the group roughly in half. Introduce **attribute** (a feature like "has wings"). The child sorts a small set of picture cards by repeatedly asking yes/no questions.
+- **Check for understanding:** "Why is 'does it have wings?' a better first question than 'is it a robin?'" → It splits the group, ruling out lots at once, instead of checking one thing.
+- **Differentiation:** support: sort 4 items with given questions. / stretch: invent questions that split the set evenly.
+- **Materials:** picture/object cards, sorting hoops.
+- **Joy:** the detective thrill of narrowing down to the answer fast.
+
+### Lesson 7 — Build a branching database
 - **Duration:** 35 min
-- **Objective:** "By the end, I can use key-press events so the user controls my sprite."
-- **Hook:** "What if *you* could drive the sprite with the arrow keys, like a real game?"
-- **Key activity:** Introduce **events** as triggers beyond the green flag. Children add "when up/down/left/right arrow pressed" scripts that move the sprite. They test driving the sprite around the stage. Discuss: each event is its own little script waiting for its trigger.
-- **Check for understanding:** "What is an event in a program?" → A trigger that tells a script when to start (a key press, a click, the green flag).
-- **Differentiation:** support: set up two arrow keys. / stretch: all four keys plus a "space = jump/say".
-- **Materials:** computers with Scratch.
-- **Joy:** controlling their sprite live with the keyboard like a video game.
+- **Objective:** "By the end, I can build a branching database that identifies items by yes/no questions."
+- **Hook:** "Let's build a machine that can identify any of our creatures just by asking questions!"
+- **Key activity:** Introduce the **branching database** as a tree of yes/no questions, each splitting into two branches, ending at a single item. The child builds one (on paper, then optionally in a tool like j2e/branching software) for ~6 items, testing that each item is reached by a unique question path.
+- **Check for understanding:** "What does each yes/no question do in a branching database?" → Splits the items into two groups, narrowing down until one item is left.
+- **Differentiation:** support: complete a part-built tree. / stretch: ensure no two items share the same path.
+- **Materials:** tree-template sheets, item cards, (optional) branching-database tool.
+- **Joy:** testing the "identifier" and watching it pinpoint each creature.
 
-### Lesson 5 — Events: clicks and broadcasts
+### Lesson 8 — Test and improve the database
+- **Duration:** 30 min
+- **Objective:** "By the end, I can test my branching database and fix a question that doesn't work."
+- **Hook:** "Two animals end up at the same spot — our machine is confused! Which question must we fix?"
+- **Key activity:** The child and tutor swap databases — the child tests the tutor's (which hides a planted collision) by trying to identify each item, while the tutor tests the child's. Where two items land together, the child spots the missing/poor question and adds or improves one to separate them — debugging applied to data.
+- **Check for understanding:** "Two items reach the same end. What's wrong and how do you fix it?" → A question is missing/unclear; add a yes/no question that separates the two items.
+- **Differentiation:** support: fix one flagged collision. / stretch: redesign a question so the whole tree is balanced.
+- **Materials:** the child's database from Lesson 7, a tutor-made database with a planted collision, blank question slips.
+- **Joy:** being the "tester" who breaks then fixes the tutor's machine.
+
+**End-of-unit check:** Child builds a branching database that identifies each item by a unique yes/no path, and tests/fixes a question that fails.
+
+---
+
+## Unit 3 — Multimedia: audio & video
+
+**Essential question:** How do I plan and make a short audio or video piece for a real purpose?
+
+**Key vocabulary:** multimedia, audio, video, record, narration, sound effect, sequence/storyboard, edit, purpose, audience.
+
+### Lesson 9 — Plan with a storyboard
 - **Duration:** 35 min
-- **Objective:** "By the end, I can use 'when sprite clicked' and a broadcast message so sprites respond to each other."
-- **Hook:** "Can you make one sprite shout a secret message that makes *another* sprite do something?"
-- **Key activity:** Children add "when this sprite clicked" to trigger an action. Then introduce **broadcast**: one sprite broadcasts a message; another has "when I receive [message]" and reacts. Build a two-sprite "call and response" (e.g. click dog → dog barks → cat runs).
-- **Check for understanding:** "How can one sprite make another sprite do something?" → By sending (broadcasting) a message the other sprite is waiting to receive.
-- **Differentiation:** support: use a ready broadcast. / stretch: two different messages causing two different responses.
-- **Materials:** computers with Scratch.
-- **Joy:** the magic of one click setting off a chain reaction across sprites.
+- **Objective:** "By the end, I can storyboard a short audio/video piece for a purpose and audience."
+- **Hook:** "Films and podcasts aren't made up on the spot — they're *planned*. Let's plan ours!"
+- **Key activity:** Decide purpose + audience (e.g. a 30-second advert for a summer fair, a fact narration, a short stop-motion). The child fills a **storyboard**: each frame/section's picture or shot, plus the words/sounds. Emphasise planning before recording.
+- **Check for understanding:** "Why storyboard before recording?" → It plans the order, words and shots so the recording goes smoothly and matches the purpose.
+- **Differentiation:** support: 3-frame storyboard with prompts. / stretch: include camera/sound notes per frame.
+- **Materials:** storyboard sheets, example short clips.
+- **Joy:** "directing" their own mini-production on paper first.
 
-### Lesson 6 — Build an interactive scene
+### Lesson 10 — Record audio (narration & sound)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can record clear narration and a sound effect for my piece."
+- **Hook:** "A great voiceover can make a picture come alive — let's get recording!"
+- **Key activity:** Using a recording tool, the child records narration following their storyboard (clear voice, no rush) and adds/records a sound effect. They listen back, re-record a section to improve it (editing = redoing/trimming a part). Save with a sensible name.
+- **Check for understanding:** "Your narration was too quiet and rushed. What do you do?" → Re-record that part more slowly and clearly (you can edit/redo it).
+- **Differentiation:** support: read a short scripted line. / stretch: layer narration with a fitting sound effect.
+- **Materials:** a device with a recording app, quiet space, headphones.
+- **Joy:** hearing their own voice played back as a "real" recording.
+
+### Lesson 11 — Make and share the video/animation
 - **Duration:** 40 min
-- **Objective:** "By the end, I can combine sequence and events into a small interactive project."
-- **Hook:** "Let's build a tiny interactive scene people can actually play with!"
-- **Key activity:** Children plan and build a small interactive project using green flag + at least one key/click event (e.g. a scene where clicking sprites makes them talk, or arrow keys move a character to a goal). They debug as they go, then test it on a partner.
-- **Check for understanding:** "Name two different events you used and what each one triggers." → e.g. green flag → sets the scene; right arrow → sprite moves right (any two valid).
-- **Differentiation:** support: extend a starter project. / stretch: add a broadcast so sprites interact.
-- **Materials:** computers with Scratch, planning sheet.
-- **Joy:** a partner playing *their* interactive scene and reacting to it.
+- **Objective:** "By the end, I can combine images and sound into a short piece and improve one thing."
+- **Hook:** "Time to put it together — pictures, words and sound into one piece your audience will love!"
+- **Key activity:** The child assembles their multimedia piece — a photo/picture sequence or simple stop-motion/animation with their audio, in the storyboard order. They watch it, improve one thing (timing, an extra caption, a clearer shot), then share it with the tutor and family (the audience).
+- **Check for understanding:** "How does your finished piece match its purpose and audience?" → It explains/advertises clearly for the people it's meant for (any sound link of content to purpose/audience).
+- **Differentiation:** support: sequence given images with audio. / stretch: time captions/audio to match the visuals.
+- **Materials:** a device with a simple video/animation/slideshow tool, saved audio.
+- **Joy:** the premiere — showing their finished "film" to the tutor and family.
 
-**End-of-unit check:** Child builds an interactive Scratch project using the green flag plus at least one key/click (or broadcast) event, and explains what each event triggers.
+**End-of-unit check:** Child storyboards, records clear audio, and assembles a short multimedia piece for a stated purpose and audience, improving one element.
 
 ---
 
-## Unit 3 — How the internet works
+## Unit 4 — Researching with reliable sources
 
-**Essential question:** When I load a video or page, where does it come from and how does it reach me?
+**Essential question:** How do I find trustworthy information and tell good sources from bad?
 
-**Key vocabulary:** network, internet, server, request, packet, World Wide Web, connect, share, wi-fi.
+**Key vocabulary:** source, reliable, unreliable, evidence, who/why/when, cross-check, advert, fake news, fact, opinion.
 
-### Lesson 7 — Networks: computers that share
+### Lesson 12 — Reliable vs unreliable, deeper
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain what a network is and give an example."
-- **Hook:** "How do all the classroom computers use the same printer? They're secretly joined up!"
-- **Key activity:** Introduce a **network** = computers joined (cables/wi-fi) so they can share information and devices. Unplugged: children become "computers" passing a message-card across a "network" of string/yarn to share with another computer; add a shared "printer" node. Contrast a single computer vs networked ones.
-- **Check for understanding:** "What is a network?" → Two or more computers joined together so they can share information (and devices like a printer).
-- **Differentiation:** support: name one thing networked computers can share. / stretch: explain a benefit of networking (share files, printer, internet).
-- **Materials:** yarn/string, "computer" and "printer" name cards, message cards.
-- **Joy:** physically "being the network" and passing messages along the strings.
+- **Objective:** "By the end, I can use who/why/when to judge and rank several sources."
+- **Hook:** "Four pages, four different 'facts' about the same animal. Which can we trust — and how do we decide?"
+- **Key activity:** Recap that anyone can publish online. Strengthen the **who / why / when / do others agree** checks. Given a topic and 4 sources (encyclopaedia/museum, advert, joke/satire, news), the child ranks most→least reliable and justifies each with the detective questions.
+- **Check for understanding:** "Give two questions to judge a web page." → Any two of: Who made it? Why? When? Do other good sources agree?
+- **Differentiation:** support: rank 3 sources. / stretch: spot which source is an advert in disguise and explain how.
+- **Materials:** four contrasting source cards on one topic, ranking mat.
+- **Joy:** running a "source court" and judging which page is guilty of fibbing.
 
-### Lesson 8 — The internet and servers
+### Lesson 13 — Fact vs opinion; cross-checking
+- **Duration:** 30 min
+- **Objective:** "By the end, I can tell a fact from an opinion and cross-check a fact in a second source."
+- **Hook:** "'The Earth has one moon' and 'the moon is the best thing in space' — which can you actually check?"
+- **Key activity:** Distinguish **fact** (can be checked) from **opinion** (a feeling/view). The child sorts statements. Then they take one fact and **cross-check** it against a second trustworthy source, learning that agreement across good sources builds confidence.
+- **Check for understanding:** "Why check a fact in a second source?" → If two trustworthy sources agree, it's much more likely to be true.
+- **Differentiation:** support: sort clear fact/opinion cards. / stretch: rewrite an opinion as a checkable fact.
+- **Materials:** fact/opinion statement cards, two vetted sources to cross-check.
+- **Joy:** confirming a wild "fact" is actually true by catching two experts agreeing.
+
+### Lesson 14 — Mini-research with sources
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain the internet as a giant network and what a server does."
-- **Hook:** "When you press play on a video, it isn't hiding inside your tablet. So where does it live?"
-- **Key activity:** Build from network → **internet** (millions of networks worldwide) → **servers** (always-on computers that store websites/videos and send them when asked). Distinguish internet (the network) from the World Wide Web (the websites that travel on it). Unplugged "pizza order" analogy: you ask → kitchen (server) makes & sends → it arrives.
-- **Check for understanding:** "When you press play on a video, where does the video actually come from?" → From a server — another computer that sends it to your device across the internet.
-- **Differentiation:** support: match "internet / server / web" to definitions. / stretch: explain the internet vs the web difference.
-- **Materials:** "server" prop/cards, world-map visual, pizza-order picture.
-- **Joy:** the "it travelled across the world to your screen!" wow moment.
+- **Objective:** "By the end, I can research a question using sources I've judged reliable and note where facts came from."
+- **Hook:** "Let's answer a real question — and prove our answer with trustworthy sources!"
+- **Key activity:** The child researches a set question (e.g. "how do volcanoes erupt?") using tutor-curated sources, choosing reliable ones, recording 2–3 facts and *where each came from*. Optionally turn it into a short content piece (links to multimedia/content skills).
+- **Check for understanding:** "How do you know your answer is trustworthy?" → The facts came from reliable sources I checked, and ideally agreed across two.
+- **Differentiation:** support: pick from two vetted sources. / stretch: cross-check one fact across two sources.
+- **Materials:** a computer with curated sources, research note sheet.
+- **Joy:** becoming a real "researcher" who can back up every fact.
 
-### Lesson 9 — The journey of a request
-- **Duration:** 30 min
-- **Objective:** "By the end, I can put the steps of loading a webpage in the right order."
-- **Hook:** "Let's trace the secret journey your tap makes to fetch a page — it's a round trip!"
-- **Key activity:** Walk through: (1) you tap a link, (2) your device asks the internet "where is this?", (3) the request reaches the server, (4) the server sends the page back in little **packets**, (5) your browser reassembles and shows it. Children order scrambled step cards, then act it out as a relay (request out, packets back). Show wi-fi off → page won't load (proof it comes from elsewhere).
-- **Check for understanding:** "Put in order: server sends it back / you tap a link / browser shows the page / request travels the internet." → tap link → request travels → server sends back → browser shows.
-- **Differentiation:** support: order 3 steps. / stretch: explain what a "packet" is (a little piece of the data).
-- **Materials:** step cards, optional device to demo wi-fi off, "packet" tokens.
-- **Joy:** running the relay race that *is* the internet request.
-
-**End-of-unit check:** Child explains network, internet and server, and correctly orders the steps of loading a webpage.
+**End-of-unit check:** Child ranks several sources by reliability with reasons, distinguishes fact from opinion, and researches a question using reliable, noted sources.
 
 ---
 
-## Unit 4 — Data: bar charts
+## Unit 5 — Staying safe, kind & balanced (KS2)
 
-**Essential question:** How do I organise data so it answers my questions clearly?
+**Essential question:** How do I keep myself and others safe, kind and balanced online as I grow?
 
-**Key vocabulary:** data, collect, organise, bar chart, axis, scale, title, most, least, total, compare.
+**Key vocabulary:** personal information, privacy, kind, bystander, worry plan, trusted adult, Childline, balance, breaks.
 
-### Lesson 10 — From pictogram to bar chart
-- **Duration:** 35 min
-- **Objective:** "By the end, I can turn data into a bar chart with a title and labels."
-- **Hook:** "Pictograms are cute, but what if everyone's favourite needs counting in tens? Bars to the rescue!"
-- **Key activity:** Recap data and pictograms. Collect/use class data and build a **bar chart**: axes, labels, a title, bars to scale. Children draw their own bar chart from a tally, choosing a sensible scale.
-- **Check for understanding:** "What does a bar chart need to be readable?" → A title, labelled axes, and bars drawn to the right scale.
-- **Differentiation:** support: complete a part-drawn bar chart. / stretch: choose a scale of 2 and label it correctly.
-- **Materials:** squared paper, tally data, rulers (optional chart tool).
-- **Joy:** seeing the tallest bar reveal the winner instantly.
+> **Tone note (from the online-safety KB):** keep this unit **warm, calm and reassuring** —
+> the internet is brilliant, and a trusted adult is always there to help. Never imply a child
+> is to blame; keep examples gentle and age-appropriate.
 
-### Lesson 11 — Read and answer questions from data
-- **Duration:** 30 min
-- **Objective:** "By the end, I can answer most/least/total/compare questions from a bar chart."
-- **Hook:** "A good chart answers questions in a heartbeat — let's prove it with a quiz!"
-- **Key activity:** Given bar charts, children answer: most, least, how many altogether, how many more X than Y, and a "which two together equal…?" question. Discuss why charts beat lists for answering quickly. Optionally enter data in a spreadsheet tool and auto-make a chart.
-- **Check for understanding:** "Why put data in a chart instead of a list?" → So we can see and compare — most, least, totals — at a glance.
-- **Differentiation:** support: most/least only. / stretch: multi-step ("how many more, then total of two bars").
-- **Materials:** printed/displayed bar charts, quiz sheet, (optional) device with spreadsheet.
-- **Joy:** racing to answer chart questions like a game-show contestant.
-
-**End-of-unit check:** Child builds a labelled bar chart from data and answers most/least/total/compare questions from one.
-
----
-
-## Unit 5 — Create content & think critically online
-
-**Essential question:** How do I make purposeful content — and how do I tell if what I read online is true?
-
-**Key vocabulary:** purpose, audience, text, image, layout, edit, improve; reliable, unreliable, source, fake news, check, who/why/when.
-
-> **Tone note (from the online-safety KB):** keep the safety lessons **warm, calm and
-> reassuring** — the internet is brilliant, and a trusted adult is always there to help.
-> Never imply a child is to blame; keep examples gentle and age-appropriate.
-
-### Lesson 12 — Create content for a real purpose
-- **Duration:** 40 min
-- **Objective:** "By the end, I can create digital content that combines text and images for a purpose and audience."
-- **Hook:** "Let's make something real — a fact page that actually teaches your family something!"
-- **Key activity:** Children plan (purpose + audience), then build a one-page document/slide combining a title, 2–3 facts and image(s), laid out for the reader. Pick the right tool for the job. Save with a sensible name.
-- **Check for understanding:** "What two questions guide good content?" → What's it for (purpose), and who is it for (audience)?
-- **Differentiation:** support: use a template with placeholders. / stretch: lay out facts and images so the page guides the reader's eye.
-- **Materials:** computers with a word/slide tool, image sources, planning sheet.
-- **Joy:** making a page good enough to actually show off at home.
-
-### Lesson 13 — Edit and improve for the reader
-- **Duration:** 30 min
-- **Objective:** "By the end, I can reopen and improve my content to help the reader."
-- **Hook:** "First drafts are never the best — let's reopen ours and make the reader's life easier."
-- **Key activity:** Children reopen their saved page and improve it *for the reader*: clearer title, fix spelling, better image size/position, an extra useful fact. Reinforce create → save → retrieve → improve.
-- **Check for understanding:** "Name one change you made and how it helps the reader." → Any sensible improvement with a reader-focused reason.
-- **Differentiation:** support: one guided improvement. / stretch: two coordinated improvements (text + layout).
-- **Materials:** computers, saved work from Lesson 12.
-- **Joy:** comparing "before and after" and feeling the upgrade.
-
-### Lesson 14 — Not everything online is true
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain that anyone can publish online, so some information isn't true."
-- **Hook:** "Two websites say a goldfish lives 3 years AND 30 years. They can't both be right — who do we believe?"
-- **Key activity:** Teach that **anyone can put anything online** — facts, jokes, adverts, mistakes, even deliberate "fake news." Show two pages that disagree about a fun fact; discuss why we must check rather than just believe the screen. Introduce the idea of a **reliable source**.
-- **Check for understanding:** "Is everything you read on the internet true?" → No — anyone can put anything online, so we have to check.
-- **Differentiation:** support: pick the more believable of two clear sources. / stretch: explain why a surprising claim needs *more* checking, not less.
-- **Materials:** two contrasting "fact pages" (printed/displayed) on the same topic.
-- **Joy:** catching a website out in a wild made-up "fact".
-
-### Lesson 15 — Detective questions: who, why, when?
-- **Duration:** 30 min
-- **Objective:** "By the end, I can use 'who/why/when' to judge if a source is reliable."
-- **Hook:** "Be a fact-detective — every web page leaves clues about whether to trust it."
-- **Key activity:** Teach the detective questions — **Who** made it? **Why** (inform vs sell vs joke)? **When**? Do **other good sources agree**? Given a topic and a few sources (museum/encyclopaedia page, advert, joke site, news), children rank most→least reliable and justify with the questions.
-- **Check for understanding:** "Give two questions to check if a web page is reliable." → Any two of: Who made it? Why? When? Do other good sources agree?
-- **Differentiation:** support: match each source to "trust more / trust less". / stretch: explain how an advert can disguise itself as a fact page.
-- **Materials:** source cards (museum, advert, joke, news), ranking mat.
-- **Joy:** unmasking the sneaky advert pretending to be a fact.
-
-### Lesson 16 — Kindness, privacy & worries refresh (KS2)
+### Lesson 15 — Privacy & footprints (a first look)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can apply kindness, privacy and the worry plan to KS2 situations."
-- **Hook:** "Now you're in KS2 — chats and games get bigger, so let's level up our safety smarts."
-- **Key activity:** Quick refresh of being kind (incl. bystander), keeping personal info private (passwords are secret), and the **worry plan** (stop → don't reply → keep it → tell a trusted adult). Introduce **Childline** as a free, private helpline for any worry. Discuss the "keep it secret from your family" warning sign.
-- **Check for understanding:** "Something online worries you — what do you do, and will you be in trouble?" → Stop, don't reply, keep it, tell a trusted adult; no — it's never your fault.
-- **Differentiation:** support: order the worry-plan cards. / stretch: explain why "don't tell your parents" is a warning sign.
-- **Materials:** worry-plan cards, "trusted adults" sheet, Childline mention.
-- **Joy:** confidently teaching the plan back, like a safety expert.
+- **Objective:** "By the end, I can explain why we keep personal information private and that things shared online can spread."
+- **Hook:** "Once you post something, who might see it — and can you always take it back?"
+- **Key activity:** Recap personal information (full name, address, school, phone, password, photos) staying private and that passwords are secret. Introduce gently that things shared online (a photo, a message) can be copied and shared on — so we think before we post and check with a trusted adult. (A first, light touch on digital footprint — deepened in Year 4.)
+- **Check for understanding:** "Why think carefully before posting a photo or message?" → Once it's out, others can copy/share it and you can't always take it back; keep private things private.
+- **Differentiation:** support: sort private vs okay-to-share. / stretch: explain why "I can just delete it" isn't a full safety net.
+- **Materials:** "share / keep private" cards, simple "it spreads" visual.
+- **Joy:** the "aha" of seeing how one shared thing can travel.
 
-### Lesson 17 — Mini-project: make and check
-- **Duration:** 35 min
-- **Objective:** "By the end, I can create a fact page and check that my facts come from a reliable source."
-- **Hook:** "Let's make a fact page that's not just pretty — it's *true*, because we checked!"
-- **Key activity:** Children make a short fact page (text + image) on a chosen topic, but must find their facts from a source they judge reliable (using who/why/when) and note where it came from. Combines content creation with critical thinking.
-- **Check for understanding:** "How do you know your facts are trustworthy?" → They came from a reliable source (who knows the topic, made to inform, agreed by another good source).
-- **Differentiation:** support: choose from two vetted sources. / stretch: cross-check a fact against a second source.
-- **Materials:** computers with internet (teacher-curated sources) + a content tool.
-- **Joy:** making something that's both good-looking *and* genuinely true.
+### Lesson 16 — Kind online & being a good bystander
+- **Duration:** 25 min
+- **Objective:** "By the end, I can act kindly online and help when I see unkindness."
+- **Hook:** "Standing up for someone online can be as brave as in the playground."
+- **Key activity:** Scenarios of teasing/exclusion in chats/games. The child decides the kind action *and* the bystander action (don't join in, support the person, tell a trusted adult). Reinforce telling-to-help is not tattling. Use the "would I be happy if this was said to me in front of my family?" test.
+- **Check for understanding:** "You see someone being left out of a game on purpose. What can a kind bystander do?" → Don't join in; include or support them; tell a trusted adult.
+- **Differentiation:** support: choose the kind option from two. / stretch: script a kind bystander response.
+- **Materials:** scenario cards, role-play prompts.
+- **Joy:** acting out the "upstander" who makes things right.
+
+### Lesson 17 — Balance, breaks & the worry plan
+- **Duration:** 25 min
+- **Objective:** "By the end, I can plan a balanced day and recite the worry plan with my trusted adults."
+- **Hook:** "Screens are great — and so is everything else. What makes a brilliant balanced day?"
+- **Key activity:** Discuss **balance** (screens + movement, sleep, reading, friends) and healthy habits (take breaks, screen-free before bed; apps are *designed* to be hard to stop — not your fault). The child plans a balanced day. Refresh the **worry plan** (stop → don't reply → keep it → tell) and **trusted adults** / Childline.
+- **Check for understanding:** "Name one healthy screen habit, and the first step of the worry plan." → e.g. take breaks / screen-free before bed; and: stop (then don't reply, keep it, tell a trusted adult).
+- **Differentiation:** support: sort screen vs screen-free activities. / stretch: explain why screen-free time before bed helps sleep.
+- **Materials:** day-planning strip, activity cards, worry-plan cards.
+- **Joy:** designing their ideal balanced day.
 
 ### Lesson 18 — Year 3 computing showcase
 - **Duration:** 35 min
-- **Objective:** "By the end, I can demonstrate my Scratch, internet, data and online-smart skills."
-- **Hook:** "You've gone from tablet blocks to real Scratch, learned how the internet works, and become a fact-detective. Showtime!"
-- **Key activity:** Stations/showcase: (1) demo a Scratch interactive project, (2) order the internet-request steps, (3) read a bar chart, (4) rank sources by reliability, (5) recite the worry plan and name trusted adults. Children present one thing they're proud of.
-- **Check for understanding:** "Name one thing computers can't do without us." → e.g. decide what's true, or what to do — they only follow our instructions and need us to think.
-- **Differentiation:** support: present at two stations with a partner. / stretch: be a station helper explaining to others.
-- **Materials:** all year's resources — computers with Scratch, internet step cards, bar charts, source cards, certificates.
-- **Joy:** a Year 3 "computing expert" certificate and presenting a real Scratch project.
+- **Objective:** "By the end, I can demonstrate my loops, data, multimedia and online-smart skills."
+- **Hook:** "Loops, branching databases, your own film, and source-detective skills — let's show them off!"
+- **Key activity:** Stations/showcase: (1) demo a loop+pen drawing, (2) use a branching database to identify items, (3) play your multimedia piece, (4) rank sources / sort fact vs opinion, (5) recite the worry plan and a balanced-day plan. The child presents one proud achievement to the tutor and family.
+- **Check for understanding:** "Why is a loop better than copying the same blocks ten times?" → Shorter, clearer, less error-prone, and shows the repeating pattern.
+- **Differentiation:** support: present at two stations with the tutor alongside. / stretch: teach one strand to a family member as if they were the learner.
+- **Materials:** all year's resources — a computer with Scratch, branching databases, multimedia clips, source cards, certificates.
+- **Joy:** a Year 3 "computing expert" certificate and a film premiere.
 
-**End-of-unit check:** Child creates purposeful content from a checked source, explains that not everything online is true, uses who/why/when to judge a source, and recites the KS2 worry plan.
+**End-of-unit check:** Child explains why personal information stays private and that posts can spread, acts as a kind bystander, plans a balanced day, and recites the worry plan and trusted adults.
 
 ---
 
@@ -268,11 +267,11 @@ The year runs to **18 lessons** across **5 units**, each lesson 20–40 minutes.
 
 A Year 3 child finishing this curriculum should be able to:
 
-1. **Scratch sequence.** Build and run a Scratch script that starts on the green flag and completes an ordered task.
-2. **Events.** Use the green flag plus at least one key/click (or broadcast) event to make an interactive program respond.
-3. **Debugging in Scratch.** Use predict→run→spot→fix to find and fix a bug, changing only the faulty block.
-4. **The internet.** Explain network, internet and server, and order the steps of loading a webpage.
-5. **Data.** Build a labelled bar chart from data and answer most/least/total/compare questions.
-6. **Creating content.** Create, save and improve digital content combining text and images for a purpose and audience.
-7. **Critical thinking.** Explain that not everything online is true, and use who/why/when to judge whether a source is reliable.
-8. **Staying safe.** Apply kindness (incl. bystander), keep personal information private, and recite the worry plan, knowing it's never their fault.
+1. **Loops.** Replace copied blocks with a "repeat" loop, and choose between "repeat N" and "forever" for the job.
+2. **Loops + pen.** Use a loop with the pen to draw a regular shape, predicting it first.
+3. **Debugging loops.** Find and fix a bug, reasoning about whether it's the loop count or a block inside the loop.
+4. **Branching databases.** Build a branching database that identifies each item by a unique yes/no path, and fix a question that fails.
+5. **Multimedia.** Storyboard, record clear audio, and assemble a short multimedia piece for a purpose and audience.
+6. **Evaluating sources.** Use who/why/when to rank sources by reliability and distinguish fact from opinion.
+7. **Researching.** Research a question using reliable sources and note where the facts came from (cross-checking when possible).
+8. **Staying safe.** Explain privacy and that posts can spread, act as a kind bystander, plan a balanced day, and recite the worry plan with trusted adults.

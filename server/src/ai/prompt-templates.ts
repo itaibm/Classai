@@ -17,7 +17,7 @@ import {
 // --- sample data (placeholders only) ---------------------------------------
 
 const kid = {
-  id: 'sample', name: 'Alex', age: 7, gradeLevel: 'Year 2',
+  id: 'sample', name: 'Alex', age: 7, gradeLevel: 'Year 1',
   interests: ['soccer', 'space', 'drawing'],
   avatar: { character: 'sage', hue: 210, voice: 'default', rate: 1 },
   createdAt: '2026-01-01T00:00:00.000Z'

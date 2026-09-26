@@ -1,197 +1,186 @@
-# Art & Design — Year 5 (ages 9–10, upper KS2) — Lesson Outlines
+# Art & Design — Year 5 (ages 10–11, upper KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 5 scope drawn from [`knowledge-base/subjects/art-music/art-ks1-ks2.md`](../../../knowledge-base/subjects/art-music/art-ks1-ks2.md)
-> (topic 4 **printmaking** taken to relief/multi-layer prints, topic 6 **sculpture** to armatures and depth, topic 11
-> **perspective & space** completed as one-point perspective, and topic 8 **artists / art history**). Every lesson
-> honours the 8 design principles in [`../README.md`](../README.md).
+> — the **synthesis year**: it brings together every formal element (line, shape, tone, colour, texture, pattern,
+> form, space) and every medium (drawing, painting, printmaking, collage, sculpture, **digital/mixed media**),
+> applied through **sustained personal projects** with real **evaluating and refining** (topics 1–11, especially
+> topics 7 & 8). Every lesson honours the 8 design principles in [`../README.md`](../README.md).
 
 ## Year overview
 
-Year 5 is the year of **depth in the making crafts and depth in art history**. The drawing and colour foundations
-of Years 3–4 are now applied to **ambitious printmaking and sculpture**, and the child begins to see art as a
-**story across time and cultures**. The print spine moves from KS1 stamping to **relief printmaking** — carving a
-design into a soft block (polystyrene/foam) and pulling multiple, multi-colour prints — meeting the work of
-**Katsushika Hokusai** (woodblock) and **Elizabeth Catlett** (linocut/printmaker). The sculpture spine grows from
-clay to **armatures and built form** — building over a frame, working larger, thinking about balance — alongside
-**Barbara Hepworth** and **Louise Nevelson**. We **complete perspective**: full **one-point perspective** with a
-horizon and vanishing point, drawing boxes, a street and a room that genuinely recede. Threaded through is a first
-real **art-history journey**: looking at works across periods and cultures and placing them on a simple timeline.
-The rule stays **make → look → improve**; sketchbooks now carry planning, trials and annotated evaluations.
-Lessons run 30–35 min; printmaking, sculpture and perspective tasks reach 40 min.
+Year 5 does not teach a new single technique each unit — by now the child owns the whole toolkit. Instead it is
+the year the child **works like an artist**: choosing media, planning in a sketchbook, **combining techniques** in
+**mixed media**, exploring **digital art**, and — above all — **evaluating and refining their own work** over more
+than one sitting. The spine is the **creative process** itself: *gather inspiration → develop ideas in the
+sketchbook → make → evaluate → refine → present*. We open with portraiture and proportion (a chance to fuse
+observational drawing, tone and colour from Years 3–4); we explore **digital and photographic** art; we run a
+**mixed-media project** combining at least three media; and we end with a **self-directed personal project** and
+a curated **portfolio/exhibition** the child presents and critiques. Artists studied model voice and process:
+**Frida Kahlo** (self-portraits/identity), **Andy Warhol** (digital/repetition/Pop), **Hannah Höch** /
+**Wangechi Mutu** (photomontage & mixed media) and a free-choice artist for the personal project. The rule
+matures from **make → look → improve** into **plan → make → evaluate → refine**. Lessons run 30–40 min;
+project sessions run at the 40-minute band and span several lessons.
 
-> **Builds on Year 4, hands to Year 6.** The 12-colour wheel, painting technique, completed tone and the
-> first vanishing point are assumed. Year 6 takes everything into **personal projects, mixed media, and
-> sustained evaluate-and-refine work** rather than introducing new single techniques. Each technique appears in
-> one year only.
-
----
-
-## Unit 1 — One-point perspective (completing space)
-
-**Essential question:** How do parallel lines create the illusion of real distance?
-**Key vocabulary:** perspective, one-point perspective, horizon line, eye level, vanishing point, orthogonal, converge, recede, scale.
-
-### Lesson 1 — Horizon, eye level and the vanishing point
-- **Duration:** 35 min
-- **Objective:** "By the end, I can set up a horizon line with a vanishing point and explain what each does."
-- **Hook:** Why does the horizon always sit at *your* eye level, wherever you stand?
-- **Key activity:** Recap last year's road → introduce the **horizon line = eye level** and the **vanishing point** on it → children rule a horizon, mark a vanishing point, and draw lines (orthogonals) radiating from it to feel how they recede.
-- **Check for understanding:** "In one-point perspective, what is the vanishing point?" → the single point where parallel lines appear to meet.
-- **Differentiation:** support: pre-ruled horizon / stretch: try a high vs low horizon and describe the difference.
-- **Materials:** rulers, pencils, paper, sketchbook.
-- **Joy:** controlling where the whole world seems to vanish.
-
-### Lesson 2 — Boxes in perspective
-- **Duration:** 40 min
-- **Objective:** "By the end, I can draw cubes/boxes correctly in one-point perspective."
-- **Hook:** Draw a box that looks truly 3-D and sitting in space — not just a flat square.
-- **Key activity:** Demo a box: draw the front face, run orthogonals from each corner to the vanishing point, close off the back → children draw several boxes above, below and beside the horizon, all converging on one point.
-- **Check for understanding:** "Why do all the depth lines go to the same point?" → because they're parallel in real life; in one-point perspective parallels meet at a single vanishing point.
-- **Differentiation:** support: one box, orthogonals pre-started / stretch: stack and group boxes like buildings.
-- **Materials:** rulers, pencils, paper, sketchbook.
-- **Joy:** boxes that genuinely sit *in* space.
-
-### Lesson 3 — A street (or corridor) in perspective
-- **Duration:** 40 min
-- **Objective:** "By the end, I can draw a street or corridor receding to one vanishing point, sized for distance."
-- **Hook:** Look down a long corridor — the floor, ceiling and walls all rush to one spot. Let's draw it.
-- **Key activity:** Children draw a street/corridor: buildings or doors as boxes shrinking toward the vanishing point, windows/poles getting smaller and closer together with distance.
-- **Check for understanding:** "A tree near the front vs one far away — which is bigger?" → the near one.
-- **Differentiation:** support: vanishing point + first building given / stretch: add tone (Year 4 skill) so near surfaces are crisper/darker than far.
-- **Materials:** rulers, pencils, paper, sketchbook.
-- **Joy:** stepping into their own drawn street.
-
-> **Perspective is now complete.** Year 6 uses it within personal projects rather than re-teaching it.
-
-**End-of-unit check:** Child draws a one-point-perspective scene (street or corridor) with a horizon line, single vanishing point and at least two objects correctly sized for distance.
+> **Builds on Years 1–5, the apex of the spine.** All formal elements, observational drawing, tone, colour theory,
+> perspective, printmaking and sculpture are assumed and now *applied and combined*, not retaught. This is the
+> exit point of primary art: the portfolio should evidence range, control and independent judgement.
 
 ---
 
-## Unit 2 — Relief printmaking
+## Unit 1 — Portraits, proportion & identity
 
-**Essential question:** How do I carve a block to print a design many times, even in colour?
-**Key vocabulary:** relief print, block, carve, ink, roller (brayer), press, edition, registration, layer, woodblock, linocut.
+**Essential question:** How do I capture a real face — and show who someone is?
+**Key vocabulary:** portrait, proportion, features, self-portrait, expression, identity, symbol, observe, refine.
 
-### Lesson 4 — From stamp to carved block
+### Lesson 1 — The proportions of a face
 - **Duration:** 35 min
-- **Objective:** "By the end, I can carve a simple design into a soft block and explain how a relief print works."
-- **Hook:** What if your stamp could show a whole detailed picture — by *removing* the bits you don't want?
-- **Key activity:** Demo **relief**: draw a simple bold design on a polystyrene/foam tile, press the lines in with a blunt pencil → explain that pressed-in lines stay un-inked (show white) → children carve their own simple design.
-- **Check for understanding:** "On a relief print, do the carved-in lines print or stay blank?" → they stay blank (the raised surface prints).
-- **Differentiation:** support: bold simple motif / stretch: add texture marks and a border.
-- **Materials:** polystyrene/foam tiles, blunt pencils, sketchbook.
-- **Joy:** carving a secret design that only appears when printed.
+- **Objective:** "By the end, I can use guide lines to place facial features in roughly the right proportions."
+- **Hook:** Eyes are halfway down the head, not near the top — most people guess wrong. Let's learn the real map.
+- **Key activity:** Demo the proportion "rules" (eyes on the halfway line, nose halfway between eyes and chin, etc.) → children lightly draw an oval with guide lines and place features, checking against a real face/photo.
+- **Check for understanding:** "Where on the head do the eyes sit?" → about halfway down.
+- **Differentiation:** support: pre-printed guide-line oval / stretch: turn the head slightly and adjust the guides.
+- **Materials:** pencils, mirror/photo, sketchbook.
+- **Joy:** discovering the hidden "map" behind every face.
 
-### Lesson 5 — Ink it and pull a print (an edition)
+### Lesson 2 — Tonal self-portrait from a mirror
 - **Duration:** 40 min
-- **Objective:** "By the end, I can ink a block with a roller and pull several matching prints."
-- **Hook:** Real printmakers make an *edition* — many prints from one block. Let's make ours.
-- **Key activity:** Demo rolling an even layer of ink with a **brayer**, pressing paper down firmly, peeling → children pull 3–4 prints from their block, troubleshooting (too much/little ink, uneven pressure).
-- **Check for understanding:** "Why roll a thin, even layer of ink?" → so the print is clear and detailed, not blobby.
-- **Differentiation:** support: pre-inked block to press / stretch: print onto coloured paper for contrast.
-- **Materials:** block printing ink, rollers, trays, paper, sketchbook.
-- **Joy:** peeling back the paper to reveal a clean printed image — again and again.
+- **Objective:** "By the end, I can draw a self-portrait from observation using proportion and tone."
+- **Hook:** The hardest, most honest subject an artist has is their own face in the mirror.
+- **Key activity:** Recap proportion + one-light-source tone (Years 3–4) → children draw a self-portrait from a mirror: light build-up lines for the features, then tone to round the face.
+- **Check for understanding:** "Name two skills you combined in this portrait." → e.g. proportion guide lines + tonal shading.
+- **Differentiation:** support: focus on getting features placed; light tone only / stretch: full tonal modelling with cast shadow.
+- **Materials:** mirrors, soft pencils, sketchbook/paper.
+- **Joy:** seeing themselves emerge convincingly on the page.
 
-### Lesson 6 — Two-colour / two-layer print (Hokusai woodblock)
+### Lesson 3 — Identity portrait (Frida Kahlo)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can build a print in two colours/layers using registration."
-- **Hook:** **Katsushika Hokusai**'s *Great Wave* used many carved blocks, one per colour — how did they line up?
-- **Key activity:** Look at **Hokusai**'s woodblock process → demo **registration** (marks so layers line up) → children print one colour, let dry, print a second block/colour aligned on top.
-- **Check for understanding:** "Why do printmakers use registration marks?" → so each colour layer lines up exactly with the last.
-- **Differentiation:** support: print a background colour then one detail block / stretch: three layers with careful registration.
-- **Materials:** two blocks, ink (two colours), rollers, paper, registration guides, sketchbook; Hokusai image.
-- **Joy:** the magic of a second colour landing perfectly in place.
+- **Objective:** "By the end, I can add symbols and colour to a portrait to show something about a person."
+- **Hook:** **Frida Kahlo** filled her self-portraits with flowers, animals and symbols of her life. What symbols would tell *your* story?
+- **Key activity:** Look at **Frida Kahlo**'s symbolic self-portraits → children develop their self-portrait by surrounding it with 2–3 personal symbols and a chosen colour palette (warm/cool/complementary) that fits the mood.
+- **Check for understanding:** "Why did Kahlo put symbols around herself, and what do yours mean?" → to show her identity/story; child explains their symbols.
+- **Differentiation:** support: choose symbols from a prompt list / stretch: use a deliberate complementary or harmonious palette to set the mood.
+- **Materials:** the portrait, colour media, sketchbook; Kahlo image.
+- **Joy:** turning a portrait into a story about themselves.
 
-### Lesson 7 — Printmaker study (Elizabeth Catlett)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can describe a printmaker's work and design a print inspired by their style."
-- **Hook:** **Elizabeth Catlett** carved powerful linocut portraits to tell stories of real people. What story could your print tell?
-- **Key activity:** Look at **Elizabeth Catlett**'s linocut prints (bold shapes, strong contrast, dignity of subject) → children design (and if time, carve) a print that tells a small story or shows a person who matters to them.
-- **Check for understanding:** "Describe a relief print using a formal element." → e.g. strong contrast of light/dark, bold line, flat shape.
-- **Differentiation:** support: design on paper only / stretch: carve and pull the print.
-- **Materials:** sketchbook, foam tiles, ink, rollers; Catlett image.
-- **Joy:** making a print that says something they care about.
-
-**End-of-unit check:** Child carves a relief block, pulls a small edition of matching prints, and produces one two-layer print using registration. Inspiration named (Hokusai / Catlett).
+**End-of-unit check:** Child draws a self-portrait from observation using correct proportion and tone, then develops it with personal symbols and a deliberate colour palette, explaining their choices.
 
 ---
 
-## Unit 3 — Sculpture with depth
+## Unit 2 — Digital & photographic art
 
-**Essential question:** How do I build a sculpture that stands, balances and works from every side?
-**Key vocabulary:** sculpture, armature, build up, balance, freestanding, in the round, abstract, positive/negative space, assemblage.
+**Essential question:** How can a camera or computer be an artist's tool?
+**Key vocabulary:** digital art, photography, composition, crop, filter, layer, repetition, Pop Art, edit, screen.
 
-### Lesson 8 — Armatures: a skeleton to build on
+### Lesson 4 — Composing a photograph
+- **Duration:** 35 min
+- **Objective:** "By the end, I can compose and crop a photo using framing and viewpoint on purpose."
+- **Hook:** A phone camera is everywhere — but a *photographer* chooses what to leave out. How?
+- **Key activity:** Demo composition ideas (fill the frame, unusual viewpoint, rule of thirds, crop tight) → children take/select several photos of one subject from different viewpoints, then choose and crop the strongest.
+- **Check for understanding:** "Name one way to make a photo more interesting than a snapshot." → e.g. fill the frame, change viewpoint, crop, use the rule of thirds.
+- **Differentiation:** support: photograph one given subject 3 ways / stretch: explain why their chosen crop works.
+- **Materials:** camera/tablet (or printed photos to crop), sketchbook.
+- **Joy:** realising they can direct a photo, not just snap it.
+
+### Lesson 5 — Pop Art repetition (Andy Warhol)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can build an armature (frame) and add material over it to make a standing figure."
-- **Hook:** Why do tall sculptures need a hidden skeleton inside?
-- **Key activity:** Demo bending wire/rolled foil into a simple stick-figure **armature** that stands → children build an armature, then bulk it out with foil/clay/modroc to make a figure or animal in a pose.
-- **Check for understanding:** "What does an armature do for a sculpture?" → it's an inner frame that supports the shape and helps it stand.
-- **Differentiation:** support: pre-bent armature base / stretch: pose the figure in mid-action (running, reaching).
-- **Materials:** wire/pipe cleaners, foil, clay/modelling material, sketchbook.
-- **Joy:** a figure that stands up in a real pose.
+- **Objective:** "By the end, I can turn one image into a repeated, recoloured grid like Warhol."
+- **Hook:** **Andy Warhol** took *one* image and repeated it in clashing colours until it became Pop Art. Why does repetition catch the eye?
+- **Key activity:** Look at **Andy Warhol**'s repeated portraits/soup cans → children take one simple image (a photo or self-portrait outline), repeat it in a grid (printed, traced, or digital), and colour each copy with a different bold palette.
+- **Check for understanding:** "What did Warhol do to make ordinary images into Pop Art?" → repeated them and recoloured them in bold, unexpected colours.
+- **Differentiation:** support: 4-square grid, given outline / stretch: 6+ squares using complementary colour choices per copy.
+- **Materials:** repeated outlines or simple digital tool, colour media, sketchbook; Warhol image.
+- **Joy:** the bold, punchy buzz of a recoloured grid.
 
-### Lesson 9 — Abstract form & negative space (Barbara Hepworth)
+### Lesson 6 — Digital drawing or editing
 - **Duration:** 40 min
-- **Objective:** "By the end, I can make an abstract 3-D form that uses holes (negative space) on purpose."
-- **Hook:** **Barbara Hepworth** carved *holes* into her sculptures — why would an artist take material away?
-- **Key activity:** Look at **Barbara Hepworth**'s pierced abstract forms → discuss **positive** (the material) and **negative** (the space/holes) → children mould a smooth abstract form and pierce a hole through it, turning it to check it works from all sides.
-- **Check for understanding:** "What is negative space in a sculpture?" → the empty space (e.g. a hole) that is part of the design.
-- **Differentiation:** support: one hole in a simple form / stretch: two holes that frame views through the sculpture.
-- **Materials:** clay/dough/soap, tools, sketchbook; Hepworth image.
-- **Joy:** the surprise of a hole becoming part of the art.
+- **Objective:** "By the end, I can create or edit an image using digital tools (layers, brushes or filters)."
+- **Hook:** Artists today paint with light on a screen — let's try the digital studio.
+- **Key activity:** Demo a simple digital tool (drawing app or photo editor): brushes, undo, **layers**, filters → children make a small digital piece (a drawing, or an edited/composited photo), exploring at least two tools.
+- **Check for understanding:** "Name one thing digital tools let you do that paper can't." → e.g. undo, layers, instant copies, easy colour changes/filters.
+- **Differentiation:** support: edit a given photo with filters/crop / stretch: build a layered composition combining drawing and photo.
+- **Materials:** tablet/computer with a free drawing/editing app, sketchbook for planning.
+- **Joy:** the freedom of unlimited undo and instant colour change.
 
-### Lesson 10 — Found-object assemblage (Louise Nevelson)
-- **Duration:** 40 min
-- **Objective:** "By the end, I can assemble found objects into a unified sculpture and unify it with one colour."
-- **Hook:** **Louise Nevelson** glued together scrap wood and painted it all one colour so it became a single artwork. Could rubbish become a masterpiece?
-- **Key activity:** Look at **Louise Nevelson**'s monochrome assemblages → children arrange and join found objects (boxes, lids, offcuts) into a relief or freestanding **assemblage**, then unify it by painting it all one colour.
-- **Check for understanding:** "Why did Nevelson paint everything one colour?" → so the different objects read as one unified sculpture, not separate bits.
-- **Differentiation:** support: arrange into a box frame / stretch: plan composition (balance, repetition) before gluing.
-- **Materials:** clean found objects, glue/tape, one colour of paint, sketchbook; Nevelson image.
-- **Joy:** transforming junk into a striking one-colour artwork.
-
-**End-of-unit check:** Child makes a freestanding sculpture over an armature OR an abstract form using negative space, and explains one sculpture idea (armature / negative space / assemblage). Inspiration named (Hepworth / Nevelson).
+**End-of-unit check:** Child composes and crops a strong photograph, makes a Warhol-style repeated/recoloured grid, and creates or edits one image digitally using at least two tools.
 
 ---
 
-## Unit 4 — A journey through art history
+## Unit 3 — Mixed-media project
 
-**Essential question:** How has art changed across time and cultures, and where does my work fit?
-**Key vocabulary:** art history, period, culture, timeline, style, movement, ancient, modern, abstract, representational.
+**Essential question:** How do I combine several media into one strong, planned artwork?
+**Key vocabulary:** mixed media, photomontage, combine, layer, plan, develop, compose, contrast, unify.
 
-### Lesson 11 — Art across time (a timeline)
+### Lesson 7 — Gather and plan (sketchbook development)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can place a few famous artworks on a rough timeline and describe how styles changed."
-- **Hook:** Cave paintings, golden pharaohs, swirling Van Goghs, Hokusai's wave — could you put them in order?
-- **Key activity:** Look at 4–5 works across eras (cave art, ancient Egypt, Hokusai woodblock, Van Gogh, an abstract by Kandinsky) → children place them on a simple timeline and note one thing that changed (realism, colour, abstraction).
-- **Check for understanding:** "Name one way art changed from ancient times to modern times." → e.g. it became less realistic / more abstract / used bolder colour (any reasoned answer).
-- **Differentiation:** support: order 3 clearly different works / stretch: explain *why* a style might have changed.
-- **Materials:** artwork images, timeline strip, sketchbook.
-- **Joy:** seeing 30,000 years of human art on one line.
+- **Objective:** "By the end, I can gather inspiration and plan a mixed-media piece in my sketchbook."
+- **Hook:** Big artworks start small — in a messy, brilliant page of ideas. Let's plan ours.
+- **Key activity:** Choose a theme (e.g. "my city", "nature and machines") → children fill a development page: gathered images, colour trials, thumbnail sketches, and a plan listing the 3+ media they'll combine.
+- **Check for understanding:** "What three media will you combine, and why those?" → child names them with a reason (texture, colour, contrast).
+- **Differentiation:** support: theme + media menu given / stretch: trial two layouts and pick one with reasons.
+- **Materials:** sketchbook, magazines, pencils, sample materials.
+- **Joy:** designing their own ambitious piece from scratch.
 
-### Lesson 12 — Art from many cultures
+### Lesson 8 — Photomontage & mixed media (Hannah Höch / Wangechi Mutu)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can combine cut images, paint and other media into one composed artwork."
+- **Hook:** **Hannah Höch** and **Wangechi Mutu** cut photos apart and combined them with paint and texture to make startling new worlds. Let's build one.
+- **Key activity:** Look at **photomontage**/mixed-media work → children build their planned piece: combine collage/photo cut-outs with paint, drawing and texture, composing and layering deliberately.
+- **Check for understanding:** "How do you keep a mixed-media piece looking like one artwork, not a mess?" → unify it (repeated colour, clear composition, a main focus), not just pile media on.
+- **Differentiation:** support: 2 media well combined / stretch: 4 media with a clear focal point and unifying colour.
+- **Materials:** photos/magazines, paint, paper, found textures, glue, sketchbook; photomontage image.
+- **Joy:** inventing a strange new world from combined media.
+
+### Lesson 9 — Evaluate and refine the project
+- **Duration:** 40 min
+- **Objective:** "By the end, I can evaluate my mixed-media piece against my plan and make targeted improvements."
+- **Hook:** The difference between okay and great art is the *refining* — what would you change?
+- **Key activity:** Children pin up their piece beside their plan, write two strengths and two improvements against the plan, then make targeted refinements (deepen a shadow, add contrast, strengthen the focal point).
+- **Check for understanding:** "What did you refine, and did it match your plan better?" → child names a specific, justified change.
+- **Differentiation:** support: improve-prompt checklist / stretch: explain a change of direction from the original plan and why.
+- **Materials:** the artwork, sketchbook, full media kit.
+- **Joy:** the pride of lifting their own work to a higher level.
+
+**End-of-unit check:** Child plans, makes, then evaluates and refines a mixed-media artwork combining at least three media, with the development and evaluation recorded in the sketchbook.
+
+---
+
+## Unit 4 — Personal project & portfolio
+
+**Essential question:** What kind of artist am I, and how do I show my best work?
+**Key vocabulary:** personal project, artist study, intention, process, curate, portfolio, exhibition, critique, evaluate.
+
+### Lesson 10 — Choose an artist and an intention
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe artworks from different cultures and respond to one in my sketchbook."
-- **Hook:** Aboriginal dot paintings, Islamic geometric tiles, West African Adinkra symbols, Mexican muralists — art belongs to the whole world.
-- **Key activity:** Look at 3–4 art traditions from different cultures → discuss what each is for and how it looks → children make a small respectful response inspired by one (e.g. a symmetrical geometric pattern, a dot-style design), naming its origin.
-- **Check for understanding:** "Which culture inspired your piece, and what idea did you borrow?" → child names the culture and the borrowed idea (pattern, symbol, dots).
-- **Differentiation:** support: respond to one given tradition / stretch: combine an idea from a culture's art with a Year-4/5 technique.
-- **Materials:** culture artwork images, drawing/painting materials, sketchbook.
-- **Joy:** discovering how differently — and beautifully — the world makes art.
+- **Objective:** "By the end, I can choose an artist to study and set a clear intention for my own personal project."
+- **Hook:** This one's yours: pick any artist who excites you, and decide what *you* want to make.
+- **Key activity:** Children choose a free-choice artist (any from Years 1–6 or a new one), study one work, and write a short intention: their theme, the medium(s), and what they want the viewer to feel.
+- **Check for understanding:** "What is your project's intention, and which artist inspires it?" → child states a clear aim and names the artist.
+- **Differentiation:** support: choose from a curated artist shortlist / stretch: justify how their chosen medium fits their intention.
+- **Materials:** artist resources, sketchbook.
+- **Joy:** total ownership — their artist, their idea.
 
-### Lesson 13 — Art detective: read and compare
-- **Duration:** 30 min
-- **Objective:** "By the end, I can compare two artworks using formal-element vocabulary."
-- **Hook:** Be the art detective: two paintings, one museum label each — what's similar, what's different?
-- **Key activity:** Children compare two contrasting works (e.g. a calm Monet vs a bold Hokusai) using formal elements (line, colour, tone, space, pattern), recording 2 similarities and 2 differences.
-- **Check for understanding:** "Name an artist and one thing they're known for." → e.g. Hokusai — woodblock prints / *The Great Wave*; Monet — light and water lilies.
-- **Differentiation:** support: a comparison frame to fill in / stretch: say which they prefer and justify it with vocabulary.
-- **Materials:** two artwork images, sketchbook.
-- **Joy:** sounding like a real critic, backed by evidence.
+### Lesson 11 — Make the personal project
+- **Duration:** 40 min
+- **Objective:** "By the end, I can make a personal artwork that carries out my intention using chosen techniques."
+- **Hook:** Time to make the piece only *you* could make.
+- **Key activity:** Children develop and make their personal artwork over the session(s), applying chosen techniques from across the years and referring back to their intention and artist study.
+- **Check for understanding:** "Which techniques from earlier years are you using, and why?" → child names techniques (tone, colour, perspective, print, etc.) tied to the intention.
+- **Differentiation:** support: one main technique well applied / stretch: combine three+ techniques purposefully.
+- **Materials:** the child's chosen media, sketchbook.
+- **Joy:** making something genuinely personal and meaningful.
 
-**End-of-unit check:** Child places artworks on a rough timeline, makes a respectful response inspired by one world-culture tradition (naming it), and compares two artworks using at least three formal elements.
+### Lesson 12 — Curate a portfolio & critique
+- **Duration:** 40 min
+- **Objective:** "By the end, I can curate my best work into a portfolio and give and receive a fair critique."
+- **Hook:** Galleries don't show *everything* — they choose. Curate your own primary-school exhibition.
+- **Key activity:** Children select their best pieces from the year, arrange a mini portfolio/exhibition, and run a respectful critique: each says one strength and one next-step for their own and a peer's work using formal-element vocabulary.
+- **Check for understanding:** "Choose one piece and explain why it's your strongest, using art vocabulary." → child justifies with formal elements and process.
+- **Differentiation:** support: a critique sentence-starter frame / stretch: write a short "artist statement" for the exhibition.
+- **Materials:** the year's work, display space, sketchbook.
+- **Joy:** seeing a whole year of growth, curated and celebrated.
+
+**End-of-unit check:** Child completes a personal project guided by a written intention and artist study, then curates a portfolio and gives a justified critique of their own and a peer's work.
 
 ---
 
@@ -199,11 +188,11 @@ Lessons run 30–35 min; printmaking, sculpture and perspective tasks reach 40 m
 
 By the end of Year 5, a child's sketchbook/portfolio should show:
 
-1. **A one-point-perspective scene** (street/corridor) with horizon line, single vanishing point and correct scaling for distance.
-2. **A carved relief block and a small edition** of matching prints pulled from it.
-3. **A two-layer (two-colour) print** made using registration, inspired by **Hokusai** or **Elizabeth Catlett**.
-4. **A freestanding sculpture over an armature**, posed and balanced, working in the round.
-5. **An abstract form using negative space** (e.g. **Hepworth**-style) and/or a unified **assemblage** (e.g. **Nevelson**-style).
-6. **An art-history timeline** placing works from different periods, with a note on how style changed.
-7. **A culturally-inspired response** to one world art tradition, with its origin named.
-8. **A written comparison** of two artworks using at least three formal elements, naming the artists.
+1. **A tonal self-portrait** drawn from observation with correct proportion, developed into an **identity portrait** with symbols and a deliberate palette (**Kahlo**-inspired).
+2. **A composed, cropped photograph** showing intentional framing and viewpoint.
+3. **A Pop Art repeated/recoloured grid** (**Warhol**-inspired) and **a digital piece** made or edited with at least two digital tools.
+4. **A planned mixed-media artwork** combining at least three media, unified into one composition (**photomontage**-inspired).
+5. **Sketchbook development pages** evidencing the process: gathered inspiration, trials, thumbnails and plans.
+6. **Written evaluations** that judge work against intention and a refinement actually carried out.
+7. **A personal project** driven by the child's own intention and a self-chosen artist study, applying techniques from across the years.
+8. **A curated portfolio and a justified critique** (own and peer) using formal-element vocabulary — evidencing range, control and independent artistic judgement at the exit of primary school.

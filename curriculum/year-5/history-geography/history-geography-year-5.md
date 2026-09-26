@@ -1,266 +1,340 @@
-# History & Geography — Year 5 (ages 9–10, KS2) — Lesson Outlines
+# History & Geography — Year 5 (ages 10–11, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 5 continues the KS2 chronological journey, drawn from
+> Year 5 is the capstone of Key Stage 2, drawn from
 > [`knowledge-base/subjects/history-geography/history-ks2.md`](../../../knowledge-base/subjects/history-geography/history-ks2.md),
 > [`geography-ks2.md`](../../../knowledge-base/subjects/history-geography/geography-ks2.md)
 > and [`extension-topics.md`](../../../knowledge-base/subjects/history-geography/extension-topics.md).
 
 ## Year overview
 
-Year 5 carries the story of Britain on from the Romans' departure: the **Anglo-Saxons and Scots** settle the land and give us the name "England," then the **Vikings** raid, trade, explore and settle, fighting the Anglo-Saxons until England is finally united up to **1066**. We then step right off the British line to a contrasting **non-European civilisation, the Maya**, flourishing in the rainforests of Central America *at the same time* as the Anglo-Saxons — a deliberate challenge to the idea that "advanced" only means Europe, and a powerful lesson in same-time-different-place. The history is rounded off with a disciplinary skill that the rich sources of this year demand: **working with sources** (primary vs secondary, and "how reliable?"). Geography deepens into the most powerful **physical processes** — **mountains, volcanoes and earthquakes** and the tectonic plates that drive them — and into **human geography**, with **settlements and land use** building on Year 3's settlement hierarchy. History and geography interlock all year: the Maya unit needs the world map and the rainforest biome (Year 4); the Vikings' longship voyages cross the oceans and seas of the globe; and the tectonics unit explains the very mountains and coasts that shaped where Anglo-Saxons and Vikings could settle. Disciplinary questions deepen to **"who made this source, when, and why — and can we trust it?"** and **"is this telling both sides fairly?"**. Six units, 18 lessons, interleaving History (H) and Geography (G).
+Year 5 is the **capstone year**: it brings the whole KS2 journey home and pushes every skill to mastery. In history we move firmly **beyond 1066** — the **Tudors** (Henry VIII, Elizabeth I, exploration and Shakespeare), a **theme of change over time** (the history of flight, from balloon to the Moon), and the **Second World War home front** within great-grandparents' living memory. We anchor it all with a deep **local-history study** of the child's own area, and crown the history strand with the two hardest disciplinary ideas — **interpretations and significance** (why stories change and why some people are remembered) and an honest, sensitive introduction to the **wider world and the transatlantic trade**. In geography we reach real **map fluency** (four- and six-figure grid references, scale and contours on Ordnance Survey maps), study **economic geography and trade** (where our things come from), tackle **climate change** at a hopeful, child's level, deepen our understanding of **biomes as ecosystems**, and finish with a **regional comparison** that uses every geographical tool built across KS2. History and geography are now fully interwoven: the transatlantic topic is mapped across three continents; trade explains why goods cross oceans; the local-history study reads old maps; and the region study compares climate, rivers, settlements and land use at once. Throughout, sensitive topics (war, enslavement, climate) are told **truthfully, calmly and hopefully**, centring people's humanity and agency. Eight units, 23 lessons, interleaving History (H) and Geography (G).
 
 ---
 
-## Unit 1 (History) — Anglo-Saxons and Scots
+## Unit 1 (Geography) — Ordnance Survey Map Mastery
 
-**Essential question:** Who settled Britain after the Romans left, and how did "England" begin?
+**Essential question:** How do real maps let walkers pinpoint any spot, judge distance and read the shape of the land?
 
-**Key vocabulary:** Angles, Saxons, Jutes, Anglo-Saxon, settle, kingdom, Wessex, Mercia, Northumbria, Scots, Picts, Old English, Christianity, Sutton Hoo, AD 410.
+**Key vocabulary:** Ordnance Survey, symbol, key/legend, grid, four-figure reference, six-figure reference, scale, scale bar, contour line, steep, gentle.
 
-### Lesson 1 — After Rome: a gap to fill
+### Lesson 1 — Symbols, keys and the grid
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain who settled Britain after the Romans left and where they came from."
-- **Hook:** "The mighty Roman army packed up and left around AD 410, leaving Britain wide open. Who would come next?"
-- **Key activity:** Recap the Romans leaving (~AD 410, Year 4). Across the **North Sea**, the **Angles, Saxons and Jutes** (from today's Germany, Denmark, Netherlands) sailed over and **settled**. They lived in **wooden villages** and farmed, not grand Roman cities. Place them on the timeline (Romans → Anglo-Saxons). Locate their homelands on the map.
-- **Check for understanding:** "Who settled in Britain after the Romans left, and where did they come from?" → the Angles, Saxons and Jutes, from across the North Sea (now Germany/Denmark/Netherlands).
-- **Differentiation:** support: match the three tribes to "across the North Sea." / stretch: explain why a gap opened up when the Romans left.
-- **Materials:** a map of the North Sea region; the timeline; settlement images.
-- **Joy:** picturing whole families crossing the sea in wooden boats to start anew.
+- **Objective:** "By the end, I can use an OS key to decode symbols and read a four-figure grid reference."
+- **Hook:** "A walker's map is crammed with tiny pictures — a code. Crack it, and you can find anything."
+- **Key activity:** Read an **OS map** key (church with a tower, campsite, footpath, woodland). Introduce the **grid** and the **four-figure grid reference** rule: read **along the bottom first, then up** — "**along the corridor, up the stairs**." Worked example: locate a symbol at 42, 17. Drill several references (Battleships-style first to embed "along then up").
+- **Check for understanding:** "When giving a four-figure grid reference, which numbers do you read first?" → along the bottom (across), then up the side.
+- **Differentiation:** support: give references for symbols on a small 4×4 grid. / stretch: give references for several symbols quickly and accurately.
+- **Materials:** an OS map extract; a key/legend; a grid worksheet.
+- **Joy:** a quick Battleships game that secretly teaches grid references.
 
-### Lesson 2 — Where "England" comes from
+### Lesson 2 — Six-figure references and scale
+- **Duration:** 40 min
+- **Objective:** "By the end, I can give a six-figure grid reference and use scale to find a real distance."
+- **Hook:** "Four figures finds a whole square. Six figures finds a spot the size of a school. How?"
+- **Key activity:** Worked example from the KB — split each square into **tenths**: "42 17" becomes "**425 173**" (still along-then-up, plus one extra digit each way), pinpointing to ~100 m. Then **scale**: on a **1:25,000** map, 1 cm = 250 m. Measure between two symbols (6 cm → 1,500 m = 1.5 km) using the **scale bar**. Tackle "1 cm = 1 cm" and "bigger ratio = more detail."
+- **Check for understanding:** "Two places are 4 cm apart on a 1:25,000 map. How far is that in real life?" → 4 × 250 m = 1,000 m = 1 km.
+- **Differentiation:** support: give one six-figure reference and one scale conversion with support. / stretch: plan a short route, pinpointing start/end and measuring its length.
+- **Materials:** an OS extract with a scale bar; rulers; a six-figure worksheet.
+- **Joy:** planning a real walk and working out exactly how far it is.
+
+### Lesson 3 — Contours: reading the shape of the land
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that 'England' comes from the Angles and that Britain was many kingdoms."
-- **Hook:** "England wasn't always called England — and it wasn't even one country. So how did the name appear?"
-- **Key activity:** Worked example from the KB — the **Angles** → "**Angle-land**" / **Engla-land** → **England**. Britain was several rival **kingdoms** (Wessex, Mercia, Northumbria, Kent), each with its own king; the **Scots** and **Picts** lived in the north. Map the kingdoms. Note place names and English itself come from these settlers.
-- **Check for understanding:** "Where does the name 'England' come from?" → from the Angles — "Angle-land."
-- **Differentiation:** support: fill the blank: "The ___ gave their name to England." (Angles). / stretch: explain why "England was always one country" is wrong.
-- **Materials:** a map of the Anglo-Saxon kingdoms; word-origin cards.
-- **Joy:** discovering the country's name was hidden inside a tribe's name all along.
+- **Objective:** "By the end, I can read contour lines to tell whether land is steep or gentle."
+- **Hook:** "How can a flat map show you a steep mountain? With clever rings called contours."
+- **Key activity:** **Contour lines** join points of equal **height**: lines **close together** = steep; **far apart** = gentle; circles within circles = a hilltop. Match contour patterns to side-view slopes. Tackle "contours are paths/rivers" — they're imaginary lines of equal height. Combine all skills: decode a symbol, give a six-figure reference, and say if the land there is steep.
+- **Check for understanding:** "On a map, contour lines are very close together. What does that tell you?" → the land is steep there.
+- **Differentiation:** support: match three contour patterns to "steep / gentle / hilltop." / stretch: describe the landscape of a small map area using contours.
+- **Materials:** a contour worksheet; side-view slope cards; an OS extract.
+- **Joy:** "seeing" a 3-D hill rise out of flat contour rings.
 
-### Lesson 3 — Beliefs, weekdays and Sutton Hoo
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how we know about the Anglo-Saxons and name our weekday links to their gods."
-- **Hook:** "You say the names of Anglo-Saxon gods every single week — Wednesday, Thursday. And a king was buried inside an entire ship."
-- **Key activity:** Early Anglo-Saxons worshipped many gods (**Woden** → Wednesday, **Thunor/Thor** → Thursday); over time **Christianity** spread, with monasteries as centres of writing and learning. Meet **Sutton Hoo**: a king buried in a whole **ship** with a famous helmet and treasure (found 1939) — a spectacular **source**. Tackle the "Dark Ages = nothing happened" myth (art, *Beowulf*, fine metalwork).
-- **Check for understanding:** "What is Sutton Hoo and why does it matter?" → a ship-burial of an Anglo-Saxon king with treasure and a helmet — a rich source about their power and beliefs.
-- **Differentiation:** support: match two weekdays to two gods. / stretch: explain why the "Dark Ages" nickname is unfair.
-- **Materials:** an image of the Sutton Hoo helmet; weekday/god cards.
-- **Joy:** realising they speak Anglo-Saxon gods' names every week.
-
-**End-of-unit check (Unit 1):** Say who settled after the Romans and from where; explain where "England" comes from and that it was many kingdoms; name Sutton Hoo as a source and a weekday-god link. **Misconception watch:** England was *not* always one country/called England; Anglo-Saxons ≠ Vikings (they came earlier); the "Dark Ages" were far from dark.
+**End-of-unit check (Unit 1):** Decode OS symbols; give four- and six-figure references ("along then up"); use scale to find a real distance; read contours for steepness. **Misconception watch:** read along first then up; a *bigger* scale ratio (1:50,000) means *less* detail; contours are imaginary height lines, not paths.
 
 ---
 
-## Unit 2 (Geography) — The Restless Earth: mountains, volcanoes & earthquakes
+## Unit 2 (History) — The Tudors: a turning point beyond 1066
 
-**Essential question:** Why does the solid-feeling ground build mountains, erupt and shake?
+**Essential question:** How did the Tudors change England, and why do we know so much about them?
 
-**Key vocabulary:** crust, tectonic plate, plate boundary, mountain, fold, magma, lava, volcano, eruption, earthquake, Ring of Fire, Everest.
+**Key vocabulary:** Tudor, 1485–1603, Henry VIII, Church of England, Catholic, Elizabeth I, golden age, exploration, Shakespeare, inequality, portrait, significance.
 
-### Lesson 4 — The cracked shell: tectonic plates
+### Lesson 4 — Meet the Tudors (after 1066)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that the Earth's crust is broken into slowly moving tectonic plates."
-- **Hook:** "The ground feels solid — but it's actually cracked into giant pieces that float and creep, centimetres a year. What happens where they meet?"
-- **Key activity:** Introduce the Earth's layers and the **crust** broken into **tectonic plates** floating on hot rock, creeping a few cm a year — but where their **edges meet**, the action happens. Use a cracked-eggshell or jigsaw model. Show a plate map; note many volcanoes/earthquakes cluster at plate edges.
-- **Check for understanding:** "What are tectonic plates?" → giant pieces of the Earth's cracked outer shell (crust) that slowly move.
-- **Differentiation:** support: point to plate edges on a map. / stretch: explain why edges are where things happen, not the middle.
-- **Materials:** a cracked-eggshell or jigsaw-globe model; a tectonic plate map.
-- **Joy:** cracking an eggshell to model the whole planet's crust.
+- **Objective:** "By the end, I can place the Tudors on the timeline after 1066 and explain why we have so many sources."
+- **Hook:** "Long after the Vikings, a single family ruled England for over a hundred years — and left so many letters, portraits and buildings that we know them better than almost anyone before."
+- **Key activity:** Place the **Tudors (1485–1603)** on the long timeline, clearly *after* 1066 and the Middle Ages — closer to us than to the Vikings. Note the wealth of **sources** (letters, portraits, buildings) — great for the source skills from Year 4. Tackle "Tudors = olden days with knights like the Normans."
+- **Check for understanding:** "Roughly when did the Tudors rule, and is that before or after 1066?" → about 1485–1603 (around 500 years ago) — well *after* 1066.
+- **Differentiation:** support: place the Tudors after "1066" on a pre-made line. / stretch: explain why we have far more sources for the Tudors than for the Vikings.
+- **Materials:** the long timeline; Tudor portraits and building images.
+- **Joy:** realising the Tudors are closer to us than to the Vikings.
 
-### Lesson 5 — How mountains form
+### Lesson 5 — Henry VIII and the break from Rome
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain Henry VIII's break from the Catholic Church and why it was significant."
+- **Hook:** "When the Pope said no, Henry VIII didn't just argue — he started his own church and made himself its head."
+- **Key activity:** Henry VIII (the **six wives**) broke from the **Catholic Church** to make himself head of a new **Church of England** — a massive, lasting change to England's religion. Worked example from the KB — apply the **significance test**: it affected **everyone**, was a **deep** change, and **lasted** (the Church of England still exists). Read a Tudor portrait as a source (what does it *want* you to think?).
+- **Check for understanding:** "What big change to religion did Henry VIII make, and why does it matter?" → he broke from the Catholic Church and made himself head of a new Church of England — a deep, lasting change still here today.
+- **Differentiation:** support: choose two facts about Henry VIII. / stretch: explain why the *reason* (a divorce) was personal but the *consequence* was huge.
+- **Materials:** a portrait of Henry VIII; a significance-test prompt; the timeline.
+- **Joy:** "reading" a grand royal portrait for the message it's trying to send.
+
+### Lesson 6 — Elizabeth I, exploration and Shakespeare — golden for whom?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name bright and hard sides of Tudor England and avoid the 'golden age for all' myth."
+- **Hook:** "Theatre, sea voyages, a queen who ruled 45 years — but for many ordinary people, life was poor and hard. Was it really a 'golden age'?"
+- **Key activity:** **Elizabeth I**'s long reign (a "golden age"); English sailors **explored and traded** across oceans (linking to earlier explorers — contact *and* harm); **theatre** flourished (Shakespeare, the Globe). Then the honest balance: sharp **inequality** — grand nobles vs many poor with hard, short lives. Act a Shakespeare line. Hold both glamour and hardship together.
+- **Check for understanding:** "Name one bright thing and one hard thing about Tudor England." → bright: exploration / Shakespeare and theatre / Elizabeth's long reign; hard: big inequality, poverty for many.
+- **Differentiation:** support: sort facts into "bright" vs "hard." / stretch: explain why "a golden age for everyone" is not fair.
+- **Materials:** a portrait of Elizabeth I; a Shakespeare line/Globe image; a world map of Tudor voyages.
+- **Joy:** performing a line of Shakespeare on a pretend Globe stage.
+
+**End-of-unit check (Unit 2):** Place the Tudors after 1066; explain Henry VIII's break and why it's significant; name bright and hard sides of Tudor England. **Misconception watch:** Tudors are *after* the Middle Ages, not "knights and castles"; the break from Rome mattered hugely; it was not a golden age for everyone.
+
+---
+
+## Unit 3 (History) — A Theme Across Time: the history of flight
+
+**Essential question:** How did humans go from never flying to walking on the Moon in about a lifetime?
+
+**Key vocabulary:** change over time, continuity, balloon, Wright brothers, 1903, powered flight, jet airliner, rocket, Moon landing, 1969, consequence.
+
+### Lesson 7 — From the ground to the first powered flight
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain that powered flight is only about 120 years old and name who achieved it."
+- **Hook:** "For all of human history, people could not fly. Then in 1903, two brothers changed everything in 12 seconds."
+- **Key activity:** For all of history humans couldn't fly; balloons lifted people from the 1780s but couldn't steer powered flight. In **1903**, the **Wright brothers** flew the first **powered, controlled aeroplane** — 12 seconds, metres off the ground. Place 1903 on the timeline (great-grandparents' time). Tackle "people have always had planes."
+- **Check for understanding:** "Who made the first powered, controlled flight, and in what year?" → the Wright brothers (Orville and Wilbur), in 1903.
+- **Differentiation:** support: place "first flight, 1903" on the timeline. / stretch: explain how tiny that first flight was compared with planes today.
+- **Materials:** the timeline; a Wright Flyer image; paper for paper aeroplanes.
+- **Joy:** flying paper aeroplanes and grappling with the Wright brothers' problem.
+
+### Lesson 8 — Change speeds up: jets, rockets and the Moon
+- **Duration:** 40 min
+- **Objective:** "By the end, I can order the milestones of flight and weigh good and bad consequences."
+- **Hook:** "Only 66 years after a 12-second hop, a human stood on the Moon. Why did change get so fast?"
+- **Key activity:** Worked example from the KB — order the milestones and see the **acceleration**: **balloon (1780s) → powered flight (1903) → jet airliners (mid-1900s) → Moon landing (1969)**; each built on the last and the gaps shrank. Then weigh **consequences**: flight **shrank the world** (travel, trade, family) *but* was used in **war/bombing** and causes **pollution**. Sort consequences into "helped" vs "caused problems."
+- **Check for understanding:** "Give one good and one bad consequence of the invention of flight." → good: fast travel/trade, connecting the world; bad: used in war/bombing, causes pollution.
+- **Differentiation:** support: order four milestone cards. / stretch: explain why each milestone "built on" the one before.
+- **Materials:** milestone cards; a consequences sorting mat; Moon-landing image.
+- **Joy:** seeing the timeline gaps shrink — change visibly speeding up.
+
+**End-of-unit check (Unit 3):** Say who achieved powered flight and when; order the milestones; weigh one good and one bad consequence; explain change accelerating. **Misconception watch:** people have *not* always had planes (powered flight is ~120 years old); new tech is neither all-good nor all-bad; the first plane was tiny.
+
+---
+
+## Unit 4 (Geography) — Economic Geography: trade, jobs & where our things come from
+
+**Essential question:** Why does so much of what we use come from other countries?
+
+**Key vocabulary:** trade, import, export, specialise, resources, climate, primary, secondary, tertiary, global journey.
+
+### Lesson 9 — Trade: imports and exports
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain trade and tell imports from exports."
+- **Hook:** "Check the label on a banana or a T-shirt — it probably travelled from another country to reach you. Why?"
+- **Key activity:** Define **trade** (buying and selling between countries because no country makes everything well). **Imports** come *in*; **exports** go *out* (im**port** = comes **in**to port). Places **specialise** by **resources and climate** (bananas/cocoa in hot countries; factories elsewhere; services elsewhere). The UK imports bananas, exports cars/services. A "label hunt" plots products on a world map.
+- **Check for understanding:** "What is the difference between an import and an export?" → an import comes *into* a country from abroad; an export is sold *out* to another country.
+- **Differentiation:** support: sort products into "UK can grow/make" vs "must import." / stretch: explain why the UK imports bananas instead of growing them (climate).
+- **Materials:** product labels/cards; a world map; sticky dots.
+- **Joy:** discovering where their own clothes and snacks were really made.
+
+### Lesson 10 — Jobs and the journey of a chocolate bar
+- **Duration:** 40 min
+- **Objective:** "By the end, I can sort jobs into primary, secondary and tertiary and trace a product's global journey."
+- **Hook:** "How many countries and jobs does it take to put one chocolate bar in your hand?"
+- **Key activity:** Three job families: **primary** (raw materials — farming, fishing, mining), **secondary** (making things — factories), **tertiary** (services — shops, teaching, transport). Worked example from the KB — trace a chocolate bar: cocoa **grown** (primary, an import) → shipped to a **factory** (secondary) → sold in a **shop**, delivered by **lorry** (tertiary). One bar crosses oceans through trade.
+- **Check for understanding:** "Sort these jobs into primary/secondary/tertiary: a farmer, a factory worker, a teacher." → farmer = primary; factory worker = secondary; teacher = tertiary.
+- **Differentiation:** support: match six jobs to the three families. / stretch: trace a second product (a T-shirt or phone) through all three stages.
+- **Materials:** job cards; a product-journey map; a world map.
+- **Joy:** following one chocolate bar around the whole world.
+
+**End-of-unit check (Unit 4):** Explain trade; distinguish imports from exports; sort jobs into primary/secondary/tertiary; trace a product's global journey. **Misconception watch:** not everything is made locally; im**port** = in, ex**port** = out; primary/secondary/tertiary are different kinds of job.
+
+---
+
+## Unit 5 (History) — The Second World War Home Front (told gently)
+
+**Essential question:** How did a war change the lives of ordinary children and families at home?
+
+**Key vocabulary:** Second World War, 1939–1945, home front, evacuation, evacuee, rationing, ration book, blackout, air-raid shelter, Dig for Victory, pulling together.
+
+> **Teaching note:** keep this gentle and reassuring — focus on daily life and community, not frightening detail. Acknowledge war is sad, then concentrate on how ordinary people coped.
+
+### Lesson 11 — What was the "home front"?
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how mountains form when plates push together."
-- **Hook:** "Mount Everest is the highest place on Earth — and it's still growing taller every year. How?"
-- **Key activity:** When two plates **push into each other**, the land between **buckles upward** into mountains over millions of years — how the **Himalayas** (with **Everest**) keep rising. Demo by pushing two cloths/paper stacks together to fold them up. Tackle "mountains were made quickly" — it takes millions of years.
-- **Check for understanding:** "How do fold mountains form?" → two plates push together and crumple the land between them upward over millions of years.
-- **Differentiation:** support: push two paper stacks together and describe what happens. / stretch: explain why Everest is still rising.
-- **Materials:** layered cloths/paper; an image of the Himalayas/Everest.
-- **Joy:** crumpling cloth into a "mountain range" with their own hands.
+- **Objective:** "By the end, I can explain what the home front means and place WWII in great-grandparents' time."
+- **Hook:** "You don't have to be a soldier for a war to change your life. The Second World War reached right into homes and schools."
+- **Key activity:** The **Second World War (1939–1945)** reached ordinary people at home — the **home front**. Place 1939–45 near the recent end of the timeline (great-grandparents' living memory — some who remember are still alive). Tackle "only soldiers were affected" and "it was ages ago, like the Tudors."
+- **Check for understanding:** "What does 'the home front' mean?" → the way the war affected ordinary people at home — daily life (evacuation, rationing, shelters), not the fighting.
+- **Differentiation:** support: choose "home front" examples from a list. / stretch: explain why WWII is much more recent than the Tudors.
+- **Materials:** the timeline; period photographs of home life.
+- **Joy:** realising someone in their family may remember (or know someone who remembers) this time.
 
-### Lesson 6 — Volcanoes: magma to lava
+### Lesson 12 — Children's lives: evacuation, rationing, the blackout
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how a volcano forms and the difference between magma and lava."
-- **Hook:** "Melted rock from deep inside the Earth bursts out at the surface. Underground it has one name; once it's out, another. Which is which?"
-- **Key activity:** Super-hot melted rock (**magma**) finds a weak spot and erupts as a **volcano**; once erupted it's **lava** (same rock, different place/name). Volcanic soil is fertile, so people farm near them despite the risk. Build a baking-soda-and-vinegar eruption; label a volcano diagram (magma chamber, crater, lava, ash).
-- **Check for understanding:** "What's the difference between magma and lava?" → magma is molten rock underground; it's called lava once it erupts onto the surface.
-- **Differentiation:** support: label a part-made volcano diagram. / stretch: explain why people live near dangerous volcanoes (fertile soil).
-- **Materials:** baking soda, vinegar, a volcano model; a labelled diagram.
-- **Joy:** the classic erupting-volcano experiment.
+- **Objective:** "By the end, I can explain why children were evacuated and what rationing was for (cause and consequence)."
+- **Hook:** "Imagine packing one small case, pinning on a label, and being sent to live with strangers in the countryside — to keep you safe."
+- **Key activity:** Three big changes for children: **evacuation** (city children sent to the safer **countryside**), **rationing** (a fair, limited share of scarce food via a **ration book**; "Dig for Victory," "make do and mend"), and the **blackout** + **air-raid shelters**. Worked example from the KB — reason out evacuation: cities bombed → dangerous → countryside safer → children sent there (cause → action → consequence). Pack a tiny "evacuee's suitcase."
+- **Check for understanding:** "Why were many children evacuated to the countryside?" → to keep them safe from the bombing of cities.
+- **Differentiation:** support: sort home-front features and say what each was for. / stretch: explain why rationing was *fair sharing*, not a punishment or "no food."
+- **Materials:** a (replica) ration book; suitcase items to choose from; home-front cards.
+- **Joy:** deciding the one or two things they'd pack as an evacuee.
 
-### Lesson 7 — Earthquakes and the Ring of Fire
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain what causes an earthquake and why these events cluster in the same regions."
-- **Hook:** "Why do Japan, Indonesia and California get so many earthquakes — while Britain almost never does?"
-- **Key activity:** Plates catch, stick, then suddenly **slip**, releasing energy that **shakes** the ground — an **earthquake**. People in quake zones design buildings to sway safely. Worked example from the KB: mountains, volcanoes *and* earthquakes all happen at **plate boundaries** — so plate edges like the **Ring of Fire** get all three. Map the Ring of Fire.
-- **Check for understanding:** "Why do mountains, volcanoes and earthquakes often occur in the same regions?" → all three happen at plate boundaries (e.g. the Ring of Fire).
-- **Differentiation:** support: match cause → feature (collide→mountains, magma→volcano, slip→earthquake). / stretch: explain why Britain has very few earthquakes.
-- **Materials:** a Ring of Fire map; cause→feature cards.
-- **Joy:** spotting the "ring" of danger around the whole Pacific Ocean.
-
-**End-of-unit check (Unit 2):** Explain tectonic plates; how mountains form; magma vs lava; what causes earthquakes and why the three cluster at plate boundaries. **Misconception watch:** magma (underground) vs lava (erupted); these events cluster at plate boundaries, not randomly; mountains form slowly over millions of years.
-
----
-
-## Unit 3 (History) — The Vikings and the Struggle for England
-
-**Essential question:** Were the Vikings only fearsome raiders — or much more than that?
-
-**Key vocabulary:** Viking, Scandinavia, longship, raid, Lindisfarne, trade, explore, settle, Danelaw, Jorvik (York), Alfred the Great, 1066.
-
-### Lesson 8 — Raiders from the sea: AD 793
-- **Duration:** 40 min
-- **Objective:** "By the end, I can say where the Vikings came from and when their raids on Britain began."
-- **Hook:** "In AD 793, fast ships appeared from nowhere, struck a rich monastery, and vanished. The Viking age had begun."
-- **Key activity:** The first big **Viking** raid hit **Lindisfarne** in **AD 793**. Vikings came from **Scandinavia** (Norway, Denmark, Sweden). Their **longships** were shallow enough to sail up rivers and onto beaches — strike fast, vanish. Place them on the timeline (after Anglo-Saxons). Examine why the longship design made them so deadly.
-- **Check for understanding:** "Where did the Vikings come from, and roughly when did they start raiding Britain?" → Scandinavia (Norway/Denmark/Sweden); from around AD 793 (Lindisfarne).
-- **Differentiation:** support: find Scandinavia on a map; name the start year. / stretch: explain how the longship's shape made surprise raids possible.
-- **Materials:** a map of Scandinavia and the North Sea; a longship diagram; the timeline.
-- **Joy:** designing the perfect raiding longship and seeing why the real ones worked.
-
-### Lesson 9 — More than raiders: traders, explorers, settlers
-- **Duration:** 40 min
-- **Objective:** "By the end, I can name three things Vikings did besides raiding."
-- **Hook:** "Vikings reached North America 500 years before Columbus — and built a thriving city right here in Britain. Just raiders? Hardly."
-- **Key activity:** Worked example from the KB — weigh the evidence: yes, they raided (Lindisfarne), *but* they also **traded** (Jorvik/**York**), **explored** (Iceland, Greenland, North America), **farmed and settled**, and made fine craft. Sort facts into Raider / Explorer-Trader / Settler. Words we still use from Old Norse (sky, egg, knife, *they*).
-- **Check for understanding:** "Name two things Vikings did *besides* raiding." → any two of: traded, explored (Iceland/Greenland/North America), farmed and settled, made fine crafts, built towns like York.
-- **Differentiation:** support: a three-box sort with support. / stretch: explain why the "only mindless raiders" image is unfair.
-- **Materials:** fact cards; a map of Viking voyages; Old Norse word cards.
-- **Joy:** the surprise that Vikings reached America centuries before Columbus.
-
-### Lesson 10 — Alfred, the Danelaw, and 1066
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain who Alfred the Great was and how the Anglo-Saxon–Viking age ended."
-- **Hook:** "One Anglo-Saxon king refused to give up against the Vikings — and earned the title 'the Great.'"
-- **Key activity:** Vikings conquered so much that part of England became the **Danelaw**. **Alfred the Great** of Wessex resisted them, won in battle, and helped unite English resistance; gradually Saxons and Vikings settled side by side and England became one kingdom — until **1066**, which ends this whole age. Bust the **horned-helmet myth** (no evidence; a Victorian invention).
-- **Check for understanding:** "Did Vikings wear horned helmets?" → no — that's a myth with no evidence; real helmets were plain. (And: who was Alfred the Great? → King of Wessex who resisted the Vikings and helped unite English resistance.)
-- **Differentiation:** support: choose "myth" or "true" for several Viking facts. / stretch: explain how Saxons and Vikings ended up living together.
-- **Materials:** a map of the Danelaw; a "myth or true?" card set; the timeline to 1066.
-- **Joy:** busting the famous horned-helmet myth.
-
-**End-of-unit check (Unit 3):** Say where/when Vikings raided; name three non-raiding Viking activities; explain Alfred, the Danelaw and 1066; identify the horned-helmet myth. **Misconception watch:** Vikings were not *only* raiders; no horned helmets; Anglo-Saxons came first, Vikings later (Romans → Saxons → Vikings → 1066).
-
----
-
-## Unit 4 (Geography) — Settlements & Land Use
-
-**Essential question:** Once a settlement grows, how is its land used — and how can we read that from a map?
-
-**Key vocabulary:** settlement, land use, residential, commercial, industrial, agricultural, recreational, city centre, countryside, services.
-
-### Lesson 11 — Land use: what land is *for*
-- **Duration:** 40 min
-- **Objective:** "By the end, I can name the main types of land use and give an example of each."
-- **Hook:** "Houses, shops, factories, farms, parks — every patch of land has a job. How many jobs can land have?"
-- **Key activity:** Build on Year 3's settlement hierarchy and site factors. Introduce **land use**: **residential** (homes), **commercial** (shops/offices), **industrial** (factories/warehouses), **agricultural** (farms), **recreational** (parks/sports). Categorize land-use photos. Note land has *many* uses, not just "town vs countryside."
-- **Check for understanding:** "What does 'land use' mean? Give two examples." → what land is used for; e.g. residential (homes), commercial (shops), industrial (factories), agricultural (farms), recreational (parks).
-- **Differentiation:** support: match five photos to five land-use labels. / stretch: find an area with mixed land use and describe it.
-- **Materials:** land-use photo cards; an aerial map of a town.
-- **Joy:** sorting a big pile of place-photos into all five land-use types.
-
-### Lesson 12 — Reading land use from a map
-- **Duration:** 40 min
-- **Objective:** "By the end, I can spot different land uses on a map and describe how city centres differ from edges."
-- **Hook:** "Looking down from above, you can tell shops from houses from fields — if you know the patterns. Can you read the city?"
-- **Key activity:** On an aerial/OS-style map, spot land use by patterns (dense buildings = city centre/commercial; rows of houses = residential; large green = parks/farmland). Note a **city centre** is mostly commercial; **edges and countryside** are more residential and agricultural. Annotate a map with land-use zones.
-- **Check for understanding:** "How does land use differ between a city centre and the countryside?" → city centre is mostly commercial (shops/offices); the countryside is more agricultural and residential.
-- **Differentiation:** support: colour three obvious land-use zones on a simplified map. / stretch: explain *why* shops cluster in the centre.
-- **Materials:** an aerial/OS-style town map; coloured pencils; a land-use key.
-- **Joy:** "reading" a real city from above like a geographer.
-
-### Lesson 13 — Why settlements grow at good sites (revisited & deepened)
+### Lesson 13 — Pulling together (and our area in the war)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain why a settlement grew at a particular site and how land use changes as it grows."
-- **Hook:** "London grew where the Thames could be crossed and ships could reach the sea. A perfect spot — but how did its land use change as it boomed?"
-- **Key activity:** Worked example from the KB — at a **river crossing**, site factors stack up (water, trade routes, building land, transport) → a settlement grows → over time, land splits into residential, commercial, industrial, etc. Trace how a village becomes a town and city, with changing land use. Link to the rivers/settlements work from Year 3.
-- **Check for understanding:** "Why might a town grow at a river crossing?" → the river gives water, the crossing lets roads/trade meet, flat banks give building land, boats bring transport — many reasons to settle.
-- **Differentiation:** support: match site factors to "why settle here." / stretch: explain how land use changes as a settlement grows from village to city.
-- **Materials:** a sketch map with a river crossing; site-factor and land-use cards.
-- **Joy:** watching a village "grow" into a city on the map step by step.
+- **Objective:** "By the end, I can describe how people pulled together and find out how the war touched my own area."
+- **Hook:** "Neighbours shared, children helped, everyone 'did their bit.' Did your own town take in evacuees — or get bombed?"
+- **Key activity:** The strongest theme: people **pulling together** — sharing, helping, everyday courage. Then a local link (history + local study): was the learner's town bombed, or did it take in evacuees? Look for a local war memorial or wartime photos. Children write one gentle line "home" as an evacuee.
+- **Check for understanding:** "What was a ration book for?" → to share scarce food fairly, so everyone got a limited, equal amount.
+- **Differentiation:** support: complete an "evacuee's line home" sentence frame. / stretch: suggest one local source that could show how the war affected their town.
+- **Materials:** a local war memorial photo; wartime local images; a writing frame.
+- **Joy:** writing a heartfelt one-line letter home as a wartime child.
 
-**End-of-unit check (Unit 4):** Name the five land-use types with examples; read land use from a map; explain why settlements grow at good sites and how land use changes. **Misconception watch:** a city differs from a town in size *and* services; settlements grew for reasons; land has many uses, often mixed.
-
----
-
-## Unit 5 (History) — A Non-European Civilisation: the Maya
-
-**Essential question:** Could a civilisation far from Europe be just as advanced — or even ahead?
-
-**Key vocabulary:** Maya, Central America, rainforest, Tikal, Chichén Itzá, pyramid-temple, astronomer, calendar, zero, glyphs, maize, cacao, descendants.
-
-### Lesson 14 — Cities in the rainforest
-- **Duration:** 40 min
-- **Objective:** "By the end, I can locate the Maya and explain they lived at the same time as the Anglo-Saxons, far away."
-- **Hook:** "While Anglo-Saxons farmed villages in Britain, on the other side of the world people were carving huge stone cities out of the jungle."
-- **Key activity:** Locate the **Maya** in **Central America** (Mexico, Guatemala, Belize) on the world map. Their cities — **Tikal**, **Chichén Itzá** — had stone **pyramid-temples**, palaces and ball-courts. They flourished ~**AD 250–900**, the *same time* as the Anglo-Saxons (Year 4 chronology: same time, different place). Compare on the timeline.
-- **Check for understanding:** "Where and roughly when did the Maya civilisation flourish?" → in Central America (Mexico/Guatemala etc.), around AD 250–900 — at the same time as the Anglo-Saxons.
-- **Differentiation:** support: find Central America on the map; name "rainforest." / stretch: explain how two peoples can live at once but never meet.
-- **Materials:** a world map; images of Tikal/Chichén Itzá; the timeline.
-- **Joy:** the jaw-drop of giant stone pyramids hidden in the jungle.
-
-### Lesson 15 — Maya genius: zero, the calendar and the stars
-- **Duration:** 40 min
-- **Objective:** "By the end, I can give two impressive Maya achievements and name something they had before Europe."
-- **Hook:** "The Maya understood the number *zero* and built one of the most accurate calendars ever — centuries before Europe caught up."
-- **Key activity:** Worked example from the KB — test "were the Maya advanced?": they used **zero** and place-value maths, built an accurate **calendar**, were superb **astronomers**, and wrote in **glyphs** — all without metal tools or the wheel for transport. Crack the Maya number code (dots and bars) and the idea of zero. Mention **maize** and **cacao** (chocolate — even used as money).
-- **Check for understanding:** "Name one thing the Maya had that Europe didn't have for a long time afterwards." → the concept of zero (and a very accurate calendar).
-- **Differentiation:** support: write a number in Maya dots and bars. / stretch: explain why "faraway old peoples were primitive" is wrong.
-- **Materials:** a Maya number chart (dots/bars); a glyph sheet; a cacao image.
-- **Joy:** writing numbers in Maya symbols and learning chocolate was once money.
-
-### Lesson 16 — Did the Maya disappear?
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain that Maya cities were abandoned but the Maya people did not vanish."
-- **Hook:** "Around AD 900, the great Maya cities were mysteriously abandoned. So did the Maya disappear? Not at all."
-- **Key activity:** Many great cities were **abandoned** ~AD 900 (likely drought, war, overused land). Crucially, **the Maya people did not vanish** — millions of descendants live in Central America today and still speak Maya languages. Tackle two misconceptions: the Maya didn't "die out," and the Maya, Aztecs and Incas were different peoples.
-- **Check for understanding:** "Did the Maya people all disappear?" → no — their big cities were abandoned ~AD 900, but millions of Maya descendants live today.
-- **Differentiation:** support: choose true/false for "the Maya all died out." / stretch: explain the difference between a city being abandoned and a people disappearing.
-- **Materials:** images of abandoned cities and of modern Maya communities; a map.
-- **Joy:** the powerful reveal that the Maya are still here today.
-
-**End-of-unit check (Unit 5):** Locate the Maya and place them at the same time as the Anglo-Saxons; give two achievements (zero, calendar, glyphs, cities); explain the cities were abandoned but the people remain. **Misconception watch:** the Maya did *not* die out; "advanced" isn't only European; Maya ≠ Aztecs ≠ Incas.
+**End-of-unit check (Unit 5):** Explain the home front and place WWII recently; explain why children were evacuated and what rationing was for; describe people pulling together. **Misconception watch:** civilians (not only soldiers) were affected; rationing was fair sharing, not punishment; WWII is within living memory, not "ages ago like the Tudors."
 
 ---
 
-## Unit 6 (History) — Working with Sources: how do we really know?
+## Unit 6 (History) — A Local History Study in Depth
 
-**Essential question:** How do historians decide whether to trust the clues they find?
+**Essential question:** How does the story of my own area connect to the big national timeline?
 
-**Key vocabulary:** source, primary, secondary, evidence, reliable, biased, incomplete, cross-check, who/when/why.
+**Key vocabulary:** local history, old map, census, war memorial, industry, mill, mine, railway, port, cause, consequence, change over time.
 
-### Lesson 17 — Primary and secondary sources
+### Lesson 14 — My area on the national timeline
 - **Duration:** 40 min
-- **Objective:** "By the end, I can sort sources into primary and secondary and explain the difference."
-- **Hook:** "Samuel Pepys's diary, a Roman coin, your school textbook — which were made at the time, and which were made later?"
-- **Key activity:** Define **primary** (made at the time — a diary, coin, photo, tool, the Sutton Hoo helmet, the Rosetta Stone) vs **secondary** (made later by someone studying it — a textbook, museum label, documentary, this lesson). Sort a mixed set into primary/secondary, drawing on sources met this year and last.
-- **Check for understanding:** "What is the difference between a primary and a secondary source?" → primary = made at the time (diary, coin, photo); secondary = made later by someone studying it (textbook, documentary).
-- **Differentiation:** support: a two-box sort with support. / stretch: classify a tricky example (a museum reconstruction) and justify it.
-- **Materials:** a mixed source set (Roman coin, textbook, 1940 photo, museum label, helmet, documentary).
-- **Joy:** sorting real historical objects like a museum curator.
+- **Objective:** "By the end, I can connect one feature of my area to a period on the national timeline."
+- **Hook:** "Big national stories — Romans, industry, war — left marks right where you live. Can you find the thread to your own street?"
+- **Key activity:** Turn the historian's tools onto the learner's **own area** (tutor: personalise). Is there a Roman/medieval site, a castle or abbey, a Victorian **factory/mine/mill/port/railway**, or a **war memorial**? Connect one local feature to a period studied across KS2. Use the long timeline as a backbone.
+- **Check for understanding:** "Name one local feature and the period of history it connects to." → e.g. a Victorian railway → the industrial 1800s (any valid local feature + period).
+- **Differentiation:** support: match a local feature to a period with support. / stretch: explain how a national story (industry, war) reached their town.
+- **Materials:** local landmark photos; the KS2 timeline; a map of the local area.
+- **Joy:** finding the thread from a national story to their own doorstep.
 
-### Lesson 18 — Is this source reliable?
+### Lesson 15 — Reading old maps and photos (sources for my town)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can ask who/when/why to judge if a source is reliable, and explain why historians use more than one."
-- **Hook:** "A winning king's scribe says it was 'a glorious victory.' The village's death list tells a different story. Who do you believe?"
-- **Key activity:** Sources can be **incomplete** (wood rots, gold lasts), **biased** (the Romans wrote about "barbarians"), or made to **persuade**. Before trusting one, ask **Who? When? Why?**. Worked example from the KB: the scribe vs the village death list — use *both*, and note the scribe's **bias**. Spot bias in an old advert/poster. Stress: historians **cross-check** several sources.
-- **Check for understanding:** "Name two questions you'd ask to judge if a source is reliable." → any two of: Who made it? When? Why (to record/boast/persuade)? Does another source agree?
-- **Differentiation:** support: pick the more reliable of two sources for a question and say why. / stretch: explain why even a primary source can be unreliable.
-- **Materials:** the scribe vs death-list example; an old advert/propaganda poster; question cards.
-- **Joy:** catching the "spin" in a biased source and seeing through it.
+- **Objective:** "By the end, I can compare an old and modern map of my area and describe what changed."
+- **Hook:** "Here's your town 150 years ago, and here it is now. Which streets are new? Where were there fields?"
+- **Key activity:** Compare an **old map/photo** of the learner's area with a modern one (georeferenced historic maps online): which streets are new? where did fields become houses? Read names on a **war memorial**; note **census** records as a source. Apply Year 4 source skills (who/when/why). List what changed and stayed the same.
+- **Check for understanding:** "Name two local sources a historian could use to study your town's past." → any two of: old maps, photographs, census records, war memorials, buildings, museum collections, older residents.
+- **Differentiation:** support: spot three differences between old and new maps. / stretch: explain why an old map is reliable primary evidence.
+- **Materials:** paired old/modern maps of the area; a census extract; a war-memorial photo.
+- **Joy:** spotting their own street appear (or not yet exist!) on a 150-year-old map.
 
-**End-of-unit check (Unit 6):** Sort sources into primary/secondary; ask who/when/why to judge reliability; explain why historians cross-check several sources. **Misconception watch:** "written down / primary" doesn't mean true; a textbook is secondary; one good source isn't enough.
+### Lesson 16 — Why did my town change? A local enquiry (cause & consequence)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can run a local enquiry on one feature: when, why, what changed, and how we know."
+- **Hook:** "A village in 1750, a boom town by 1850, then change again. The whole story is written into the streets — let's read it."
+- **Key activity:** Worked example from the KB — take one local feature (a station, mill, mine): *When* built (date/old maps)? *Why* (move coal/cotton/people)? *What changed* (town grew, new houses/jobs)? *How do we know* (maps, photos, census, memories)? Build a cause→consequence chain (e.g. coalfield → mine → people move → boom → railway → houses → mine closes → new work). Children present a complete local enquiry.
+- **Check for understanding:** "Why might a town have grown quickly in the 1800s?" → a new industry/transport (factory, mine, mill, port or railway) brought jobs, so people moved there.
+- **Differentiation:** support: order a town's change-arc with support. / stretch: explain a full cause-and-consequence chain for one local feature.
+- **Materials:** a local feature source set; a cause-consequence chain template.
+- **Joy:** presenting like a real local historian who has "solved" their town's story.
+
+**End-of-unit check (Unit 6):** Connect a local feature to a national period; compare old and modern maps/photos of the area; run a local enquiry (when/why/what changed/how we know). **Misconception watch:** important history happens locally too; the area hasn't "always looked like this"; old maps/census are real primary evidence.
+
+---
+
+## Unit 7 (History/Geography) — The Wider World: trade across the Atlantic (told honestly and sensitively)
+
+**Essential question:** What does it mean that explorers' voyages brought both contact and harm — and how is this also a story of resistance and change?
+
+**Key vocabulary:** Atlantic, trade routes, Europe, Africa, the Americas, enslavement, injustice, resistance, abolitionist, Olaudah Equiano, 1807, 1833.
+
+> **Teaching note:** handle with sensitivity, without graphic detail, centring the dignity, humanity and resilience of African and enslaved people. Be truthful, calm and brief; check in with the learner's feelings. No quiz-style gamification on this topic.
+
+### Lesson 17 — Three continents linked by the Atlantic
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe the Atlantic trade routes and say truthfully what was wrong about part of this trade."
+- **Hook:** "Earlier we said explorers crossing oceans brought *contact and harm*. This is part of what that meant."
+- **Key activity:** From the **1500s–1800s**, European countries (including Britain) sailed the **Atlantic**, trading between **Europe, Africa and the Americas** (map all three — history + geography). Tell truthfully and gently that **millions of African people were captured, taken from their families and enslaved**, forced across the Atlantic to work without freedom — one of history's gravest wrongs. Centre that these were **people** with names, families, skills and cultures.
+- **Check for understanding:** "Which three continents did the Atlantic trade routes link?" → Europe, Africa and the Americas.
+- **Differentiation:** support: trace the three continents on a map. / stretch: explain why we tell this history honestly rather than hiding it.
+- **Materials:** a world map showing the Atlantic; a calm, age-appropriate overview.
+- **Joy (age-appropriate):** the geography-history link of reading real ocean routes across a world map (kept respectful, not gamified).
+
+### Lesson 18 — Resistance, change, and whose voice we hear
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain that this is also a story of resistance and change, and why a first-hand voice matters."
+- **Hook:** "This is not only a story of suffering — it is also a story of people who resisted, survived, and changed the law."
+- **Key activity:** Enslaved people **resisted** in many ways and kept their cultures alive. **Abolitionists** — including formerly enslaved people like **Olaudah Equiano**, who wrote his own life story — campaigned for years until the slave **trade** (1807) and slavery (1833) were made illegal in the British Empire. Worked example from the KB, sensitively: Equiano's own account (primary, a voice that was there) vs a trader's records (primary, but written by people profiting) — which gives the human truth? Equiano's. Discuss honestly that Britain both profited *and* later abolished.
+- **Check for understanding:** "Name one way this is also a story of resistance and change." → enslaved people resisted and kept their cultures; abolitionists (e.g. Olaudah Equiano) campaigned until the trade (1807) and slavery (1833) were abolished in the British Empire.
+- **Differentiation:** support: discussion-led; the child says in their own words why telling this truthfully matters. / stretch: explain why a first-hand voice (Equiano) is so valuable.
+- **Materials:** an age-appropriate account of Olaudah Equiano; a calm discussion space.
+- **Joy (age-appropriate):** the dignity of hearing a real person tell their own story — handled as respect, not entertainment.
+
+**End-of-unit check (Unit 7):** Name the three continents linked; state truthfully the grave wrong; explain that it is also a story of resistance and change and why a first-hand voice matters. **Misconception watch:** it mattered hugely and still affects today; enslaved people resisted (did not "just accept it"); Britain both profited from *and* later abolished the trade — hold both.
+
+---
+
+## Unit 8 (Geography) — Our Changing World: climate, biomes & comparing regions
+
+**Essential question:** How is our planet changing, and how do geographers fairly describe and compare different places?
+
+**Key vocabulary:** climate change, greenhouse effect, carbon dioxide, fossil fuels, trend, ecosystem, food chain, rainforest layers, region, compare, evidence.
+
+### Lesson 19 — Climate change: the science, simply
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain the main cause of recent climate change."
+- **Hook:** "A natural blanket of gases keeps Earth warm enough for life. The trouble starts when the blanket gets too thick."
+- **Key activity:** Recap **weather** (today) vs **climate** (long-term). **Climate change** = the long-term pattern slowly shifting (Earth warming on average). Cause: extra **greenhouse gases** (mainly **CO₂**) from burning **fossil fuels** trap more heat — a thicker "blanket" (the **greenhouse effect**). Effects: melting ice, rising seas, more extreme weather. A jar/greenhouse demo idea shows how glass traps warmth.
+- **Check for understanding:** "What is the main cause of recent climate change?" → extra greenhouse gases (especially carbon dioxide) from burning fossil fuels, trapping more of the Sun's heat.
+- **Differentiation:** support: order the cause chain (burn fossil fuels → more CO₂ → traps heat → warming). / stretch: explain why a *natural* greenhouse effect is good but *extra* gases are the problem.
+- **Materials:** a jar/greenhouse demo; a simple greenhouse-effect diagram.
+- **Joy:** the cosy-blanket model that makes a big idea click.
+
+### Lesson 20 — Weather vs climate, and reasons for hope
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain why one cold day doesn't disprove climate change, and name actions that help."
+- **Hook:** "It snowed today — so climate change can't be real, right? Here's why that's not how it works."
+- **Key activity:** Worked example from the KB — separate **weather** (one day, jumps around) from **climate change** (the **average over many years**); geographers look at **long-term data**, not one day. Then the hopeful half: people are switching to **clean energy** (wind, solar), planting **trees**, wasting less, travelling cleanly — and children can help too. Sort actions into "adds greenhouse gases" vs "helps the climate."
+- **Check for understanding:** "Why doesn't one cold day disprove climate change?" → that's weather; climate change is the long-term average over many years — geographers look at the trend.
+- **Differentiation:** support: sort five actions into "adds gases" vs "helps." / stretch: explain how geographers use long-term data to tell a real trend from one odd day.
+- **Materials:** an actions sorting set; a simple long-term temperature trend graph.
+- **Joy:** naming one real action they could take — feeling part of the solution.
+
+### Lesson 21 — Biomes as ecosystems: rainforest layers and food chains
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name the rainforest layers and build a food chain showing energy flow."
+- **Hook:** "A rainforest isn't just trees — it's four storeys of life, all connected, with people living in it too."
+- **Key activity:** Deepen Year 3's biomes: a biome is a whole **ecosystem** (climate + plants + animals + people, all linked). The tropical rainforest's layers: **emergent → canopy → understorey → forest floor**, each with adapted animals. Worked example from the KB — build a food chain (**leaves → insect → frog → snake**) with arrows showing **energy flowing to the eater**. Note **people live in** rainforests and **deforestation** harms the whole system (link to climate change).
+- **Check for understanding:** "Name the four layers of a tropical rainforest." → emergent (top), canopy, understorey, forest floor. (And: which way do food-chain arrows point? → to the eater, showing energy flow.)
+- **Differentiation:** support: place animals in the right layer. / stretch: explain why protecting the rainforest helps the whole planet.
+- **Materials:** a rainforest-layers diagram; food-chain cards with arrows.
+- **Joy:** building the four-storey rainforest and placing each creature on its floor.
+
+### Lesson 22 — Describing a region: physical and human geography
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe a region using physical and human geography."
+- **Hook:** "To really know a place, geographers ask two big sets of questions — about the land, and about the people."
+- **Key activity:** A **region** is a defined area studied in depth (a county, a national park, part of a continent). Describe a region with **physical** questions (landscape, rivers, climate, biome) and **human** questions (people, settlements, jobs, land use). Sort features of one region into physical vs human. Use the learner's own UK region as the first example.
+- **Check for understanding:** "Name two *physical* and two *human* things you'd describe about a region." → physical: landscape, rivers, climate, biome; human: people/settlements, jobs, land use.
+- **Differentiation:** support: a two-box sort (physical vs human) with support. / stretch: describe their own region in two or three sentences using both.
+- **Materials:** features cards for a region; a physical/human sorting mat; a regional map.
+- **Joy:** becoming the expert describer of their own home region.
+
+### Lesson 23 — Comparing two regions fairly
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare a UK region with a region of the Americas using evidence, avoiding stereotypes."
+- **Hook:** "A region of the UK and a region of the Amazon — what's surprisingly the same, and what's truly different?"
+- **Key activity:** Worked example from the KB — a two-column compare across **climate, rivers, settlements, land use**: UK region (temperate, four seasons, temperate forest/farmland) vs an Amazon region (tropical rainforest, hot, wet). **Similarities** (both have rivers, towns, people who work and learn) and **differences**. Stress using **maps, photos and data** to stay fair — every region has cities *and* countryside; comparing isn't ranking.
+- **Check for understanding:** "Give one similarity and one difference between a UK region and an Amazon region." → similarity: both have rivers and settlements; difference: UK is temperate, the Amazon is tropical rainforest.
+- **Differentiation:** support: fill a part-made compare table. / stretch: explain why we must avoid stereotyping whole places.
+- **Materials:** photos and data for both regions; a two-column compare table.
+- **Joy:** the side-by-side "spot the similar, spot the different" between two real places.
+
+**End-of-unit check (Unit 8):** Explain the cause of climate change and weather-vs-climate (with hope/actions); name rainforest layers and a food chain; describe a region with physical/human geography and compare two regions fairly. **Misconception watch:** one cold day is weather, not proof against climate change; the natural greenhouse effect is good (extra gases are the problem); food-chain arrows show energy to the eater; comparing regions means noting similarities/differences, not ranking.
 
 ---
 
 ## End-of-year mastery checks (History + Geography)
 
-A Year 5 child who has mastered this year should be able to:
+A Year 5 child who has mastered this year (and KS2) should be able to:
 
-1. **(History — Anglo-Saxons)** Say who settled Britain after Rome and where "England" comes from, and name Sutton Hoo as a source.
-2. **(History — Vikings)** Say where/when Vikings raided, name three non-raiding Viking activities, explain Alfred/the Danelaw/1066, and identify the horned-helmet myth.
-3. **(History — the Maya)** Locate the Maya, place them at the same time as the Anglo-Saxons, give two achievements, and explain the people did not vanish.
-4. **(History — sources)** Sort primary vs secondary sources and ask who/when/why to judge reliability, explaining why historians cross-check.
-5. **(Geography — tectonics)** Explain tectonic plates, how mountains form, magma vs lava, and what causes earthquakes (and why the three cluster at plate boundaries).
-6. **(Geography — land use)** Name the five land-use types with examples and read land use from a map.
-7. **(Geography — settlements)** Explain why settlements grow at good sites and how their land use changes as they grow.
-8. **(Cross-strand)** Use the world map and timeline together to explain "same time, different place" (Maya and Anglo-Saxons) and Viking voyages across the oceans.
+1. **(History — beyond 1066)** Place the Tudors after 1066, explain Henry VIII's significant break from Rome, and name bright and hard sides of Tudor England.
+2. **(History — change over time)** Order the milestones of flight (balloon → 1903 → jets → Moon 1969) and weigh one good and one bad consequence.
+3. **(History — WWII home front)** Explain the home front, why children were evacuated and what rationing was for, told within living memory.
+4. **(History — local study)** Connect a local feature to a national period, compare old and modern maps of the area, and run a when/why/what-changed/how-we-know enquiry.
+5. **(History — interpretation & significance)** Explain (truthfully and sensitively) the Atlantic trade as contact, harm, resistance and change, and why a first-hand voice (Equiano) matters.
+6. **(Geography — map mastery)** Give four- and six-figure grid references, use scale to find a real distance, and read contours for steepness.
+7. **(Geography — economy)** Explain trade, distinguish imports/exports, sort jobs into primary/secondary/tertiary, and trace a product's global journey.
+8. **(Geography — environment & regions)** Explain the cause of climate change and weather-vs-climate (hopefully), describe rainforest layers and a food chain, and compare two regions fairly using evidence.

@@ -1,161 +1,142 @@
-# Year 3 Geography (ages 7–8, KS2) — Lesson Outlines
+# Year 3 Geography (ages 8–9, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 3 opens Key Stage 2, drawn from
+> Year 3 continues the KS2 geography journey, drawn from
 > [`knowledge-base/subjects/history-geography/geography-ks2.md`](../../../knowledge-base/subjects/history-geography/geography-ks2.md)
 > and [`extension-topics.md`](../../../knowledge-base/subjects/history-geography/extension-topics.md).
 
 ## Year overview
 
-Year 3 lays the **place** half of the KS2 journey. We start by laying the **global grid** (latitude, longitude, hemispheres and time zones) so children can pinpoint any place on Earth — including every civilisation they meet in history. We then zoom into the **UK's regions, settlements and physical/human geography**, building on KS1's countries-and-capitals, and finish with **rivers** — what they are, which way they flow, and why people have always needed them. Geography and history reinforce each other constantly: every civilisation is pinned to the grid, and every river lesson connects to the physical geography that made the ancient river-civilisations possible. A world map and globe stay on the wall, and every place-fact is pinned to one of them. Three units, 10 lessons.
+Year 3 geography deepens from naming places to understanding **systems and processes**. We study the **water cycle** (how river water is recycled forever — building on Year 2's rivers), then **climate zones and biomes** (why latitude decides whether a place is rainforest, desert or tundra), and finish with **fieldwork methods** (the child becomes a geographer outdoors, collecting their own data fairly). The strands support each other: the water cycle explains the rivers that fed every ancient civilisation; climate zones are pinned to the global grid; and fieldwork turns map skills into real investigation. The disciplinary questions sharpen — **"how do we know?"**, **"what changed and why?"**, and **"is this fair and reliable?"**. Three units, 9 lessons.
 
 ---
 
-## Unit 1 — Lines on the Globe: latitude, longitude, hemispheres & time zones
+## Unit 1 — The Water Cycle: how rivers never run dry
 
-**Essential question:** How can we describe the exact spot of any place on the whole planet?
+**Essential question:** Where does rain come from, and why does the water never run out?
 
-**Key vocabulary:** latitude, longitude, Equator, Prime Meridian, Greenwich, degrees, hemisphere, Northern, Southern, grid, time zone, spin.
+**Key vocabulary:** water cycle, evaporation, condensation, precipitation, collection, cloud, vapour, the Sun, recycled.
 
-### Lesson 1 — The Earth's grid: latitude and longitude
+### Lesson 1 — The never-ending journey of water
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that latitude lines run across and longitude lines run up-and-down, and name the two most important ones."
-- **Hook:** "How does a phone know *exactly* where you are anywhere on Earth? It uses two invisible lines."
-- **Key activity:** On a globe, find **latitude** lines (across, like rungs of a ladder; the **Equator** is 0°) and **longitude** lines (pole to pole; the **Prime Meridian** is 0°, through **Greenwich**, London). Memory aid: "**lat**itude is the **lad**der going across." Trace a few lines; explain they are **imaginary** reference lines we agreed on.
-- **Check for understanding:** "Which lines run across the globe, and what is the most important one called?" → latitude lines; the Equator (0°).
-- **Differentiation:** support: colour the Equator red and the Prime Meridian blue on a globe map. / stretch: explain why the lines aren't really painted on the Earth.
-- **Materials:** a globe; a flat world map with the grid; coloured pencils.
-- **Joy:** discovering the world's main longitude line runs right through London.
+- **Objective:** "By the end, I can name the four stages of the water cycle in order."
+- **Hook:** "The water you drank today might once have been in a dinosaur's drink. How? Because water is used again and again, forever."
+- **Key activity:** Build on Year 2's rivers. Teach the cycle: the Sun heats water → **evaporation** (vapour rises) → **condensation** (clouds form) → **precipitation** (rain/snow falls) → **collection** (back to seas and rivers) → repeat. Order/label the stages on a diagram with arrows.
+- **Check for understanding:** "Name the four stages of the water cycle in order." → evaporation → condensation → precipitation → collection.
+- **Differentiation:** support: order four picture cards (sun → cloud → rain → river). / stretch: explain what powers the whole cycle (the Sun).
+- **Materials:** a water-cycle diagram; stage cards; arrows.
+- **Joy:** the mind-bending idea that today's rain is ancient recycled water.
 
-### Lesson 2 — Hemispheres: splitting the Earth in halves
+### Lesson 2 — Watching the water cycle for real
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name the hemispheres and say which one the UK is in."
-- **Hook:** "Slice the Earth in half along the middle — what do we call each half?"
-- **Key activity:** The **Equator** splits the Earth into the **Northern** and **Southern** hemispheres; the **Prime Meridian** splits it into **Eastern** and **Western**. Place countries into the right hemisphere (UK → Northern; Australia → Southern). Worked example: the UK is **north of the Equator** and **on the Prime Meridian**.
-- **Check for understanding:** "Which hemisphere is the UK in?" → the Northern Hemisphere.
-- **Differentiation:** support: sort four countries into Northern / Southern. / stretch: explain why the UK is on the line between Eastern and Western.
-- **Materials:** a globe; country cards; a hemisphere sorting mat.
-- **Joy:** finding that Australia is "upside down" from us in the opposite hemisphere.
+- **Objective:** "By the end, I can explain that rain is recycled water, not brand-new water made in clouds."
+- **Hook:** "Clouds don't *make* new water — so where did all that rain come from?"
+- **Key activity:** Tackle the misconception: rain isn't new — it's the **same water recycled forever**, evaporated from seas and rivers, condensed, fallen again. Optional demo: warm water in a covered bowl/jar producing "rain" droplets on the lid (evaporation → condensation). Connect each step to a real-world example (puddles drying = evaporation).
+- **Check for understanding:** "Is rain brand-new water made in the clouds? Explain." → no — it's the same water recycled: evaporated, condensed into clouds, then fallen again.
+- **Differentiation:** support: match each stage to an everyday example (puddle drying / clouds / rain). / stretch: trace one drop's full loop in their own words.
+- **Materials:** a clear bowl/jar with warm water and a lid; the water-cycle diagram.
+- **Joy:** seeing "rain" form on the lid of their own mini water-cycle.
 
-### Lesson 3 — Time zones: why it's lunchtime here, night there
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain that the spinning Earth gives different places different times of day."
-- **Hook:** "When you're eating breakfast, a child in Australia is going to bed. How can it be two different times at once?"
-- **Key activity:** Use a globe and a torch (the Sun): spin the globe slowly and watch which side faces the "Sun." Because the Earth **spins** once a day, the Sun reaches places at different moments — so the world is split into **time zones**. Greenwich sets the world's time (link back to the Prime Meridian).
-- **Check for understanding:** "Why is it a different time of day in Australia than in the UK?" → the Earth spins, so the Sun reaches them at a different time — they're in a different time zone.
-- **Differentiation:** support: point to "day side" and "night side" on the lit globe. / stretch: explain why a video call to family abroad can happen at a strange hour for them.
-- **Materials:** a globe; a torch; a darkened corner.
-- **Joy:** the torch-and-globe demo — watching "day" sweep around the spinning Earth.
-
-**End-of-unit check (Unit 1):** Explain latitude (across) vs longitude (up-down), name the Equator and Prime Meridian, say which hemisphere the UK is in, and explain time zones. **Misconception watch:** the lines are imaginary, not painted; latitude vs longitude (the ladder runs across); it is not the same time everywhere on Earth.
+**End-of-unit check (Unit 1):** Order the four stages, explain that water is recycled, and link the cycle to where river water comes from. **Misconception watch:** rain is recycled, not new; the Sun drives the cycle.
 
 ---
 
-## Unit 2 — Our United Kingdom: regions, settlements and features
+## Unit 2 — Climate Zones & Biomes
 
-**Essential question:** What is the UK made of beyond its four countries — its regions, cities and landscapes?
+**Essential question:** Why is one part of the world a steamy jungle and another a frozen desert?
 
-**Key vocabulary:** region, county, city, town, village, capital, settlement, human feature, physical feature, mountain, river, coast, upland, lowland.
+**Key vocabulary:** weather, climate, climate zone, latitude, temperate, tropical, polar, biome, rainforest, desert, grassland, tundra, adaptation.
 
-### Lesson 4 — From four countries to many regions
+### Lesson 3 — Weather vs climate
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name some UK regions and major cities beyond the four capitals."
-- **Hook:** "You know England, Scotland, Wales and Northern Ireland. But within them are dozens of regions and cities — how many can you find?"
-- **Key activity:** Build on KS1's four countries/capitals. Introduce **regions** (e.g. the South West, the Midlands, the Highlands) and major **cities** (Manchester, Birmingham, Glasgow, etc.). Locate the learner's own region and city on a UK map. Add labels to a blank UK map.
-- **Check for understanding:** "Name one UK region and one major city other than a capital." → e.g. the Midlands; Manchester (any valid region/city).
-- **Differentiation:** support: place three city stickers on a UK map. / stretch: name which country and region the learner lives in.
-- **Materials:** a large UK map; region and city labels; sticky dots.
-- **Joy:** pinpointing their own home region and city on the national map.
+- **Objective:** "By the end, I can explain the difference between weather and climate."
+- **Hook:** "London had a hot, sunny day — does that make London a hot country? No. Here's why."
+- **Key activity:** Distinguish **weather** (what's happening today, changes fast) from **climate** (the usual pattern over many years). London's climate is "mild and rainy" even on a rare hot day. Sort statements into "weather" vs "climate."
+- **Check for understanding:** "What's the difference between weather and climate?" → weather is today's conditions; climate is the usual pattern over many years.
+- **Differentiation:** support: a two-box sort with support. / stretch: explain why one hot day doesn't change the UK's climate.
+- **Materials:** weather/climate statement cards; the UK seasons chart (link to KS1).
+- **Joy:** catching out the "one hot day = hot country" trap.
 
-### Lesson 5 — Human and physical features of the UK
+### Lesson 4 — Climate zones follow latitude
 - **Duration:** 40 min
-- **Objective:** "By the end, I can name UK physical and human features and sort them correctly."
-- **Hook:** "Some of Britain was shaped by nature over millions of years; some was built by people. Can you tell which is which?"
-- **Key activity:** Introduce key UK **physical features** (mountains like Ben Nevis/Snowdon, rivers like the Thames/Severn, coasts, uplands/lowlands) and **human features** (cities, motorways, bridges, ports). Sort photos into the two groups; locate two physical features on the UK map.
-- **Check for understanding:** "Is a mountain a physical or a human feature?" → physical (natural); a motorway is human-made.
-- **Differentiation:** support: a two-box photo sort with support. / stretch: explain how a physical feature (a river) influenced a human one (a city).
-- **Materials:** a UK relief map; feature photo cards; two sorting hoops.
-- **Joy:** finding the UK's highest mountain and longest river on a relief map.
+- **Objective:** "By the end, I can explain that climate zones follow latitude — hot at the Equator, cold at the poles."
+- **Hook:** "Why is it always hot near the Equator and always cold at the poles? It comes down to those invisible lines from before."
+- **Key activity:** Link to the global grid (Year 2): near the **Equator** = hot all year (**tropical**); near the **poles** = cold all year (**polar**); in between (like the UK) = **temperate** (mild, with seasons). Colour climate-zone bands on a world map and place countries in the right zone.
+- **Check for understanding:** "Where is the climate hot all year, and what zone is the UK in?" → near the Equator (tropical); the UK is temperate.
+- **Differentiation:** support: colour the three main bands on a world map. / stretch: explain why latitude (the angle of sunlight) causes the zones.
+- **Materials:** a blank world map; climate-zone colour key; the globe.
+- **Joy:** colouring the world into hot, mild and cold bands and seeing the pattern.
 
-### Lesson 6 — Settlements: hamlets, villages, towns and cities
-- **Duration:** 35 min
-- **Objective:** "By the end, I can order settlement types by size and name the learner's own settlement type."
-- **Hook:** "A handful of houses, or millions of people — both are 'settlements.' What's the difference?"
-- **Key activity:** Introduce the **settlement hierarchy**: **hamlet → village → town → city** (more people and services as they grow). Classify the learner's own home and justify it. Look at an aerial map and spot a small settlement vs a large one.
-- **Check for understanding:** "Order these smallest to largest: city, hamlet, town, village." → hamlet, village, town, city.
-- **Differentiation:** support: order with picture support (few houses → big city). / stretch: explain what extra services a city has that a village doesn't.
-- **Materials:** settlement-size cards; aerial photos of a village and a city.
-- **Joy:** deciding (and defending) whether their own home is a village, town or city.
+### Lesson 5 — Biomes: nature's big regions
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name three biomes and match them to their climate."
+- **Hook:** "Rainforest, desert, frozen tundra — each is a whole world of its own. Where does each one belong?"
+- **Key activity:** Introduce **biomes** — large regions with their own climate, plants and animals: **tropical rainforest** (hot, wet), **desert** (very dry), **grassland/savanna**, **temperate forest** (the UK), **tundra** (cold, treeless), **polar** (ice). Match biome → climate and place them on the climate-zone map.
+- **Check for understanding:** "Name three biomes." → any three of: rainforest, desert, grassland/savanna, temperate forest, tundra, polar.
+- **Differentiation:** support: match three biomes to "hot & wet / dry / cold." / stretch: explain why a desert is defined by being *dry*, not hot (Antarctica is a cold desert).
+- **Materials:** biome photo cards; the climate-zone map; a biome/climate matching mat.
+- **Joy:** matching favourite animals to their biome homes.
 
-### Lesson 7 — Why settlements grew where they did
-- **Duration:** 35 min
-- **Objective:** "By the end, I can give two reasons people built settlements in particular places (site factors)."
-- **Hook:** "People didn't settle just anywhere — they looked for good spots. What would *you* need nearby to start a town?"
-- **Key activity:** Introduce simple **site factors**: fresh water (rivers), flat dry land, food/good soil, shelter, defence, and travel routes. Worked example: a town grows at a river crossing because the river gives water, the crossing brings trade, and flat banks give building land. Link to the UK rivers from Lesson 5.
-- **Check for understanding:** "Give two reasons people built settlements by rivers." → fresh water to drink; transport/trade by boat (also fertile land, a crossing point, defence).
-- **Differentiation:** support: match a site factor (water/flat land) to "why it's useful." / stretch: choose the best spot on a sketch map and justify it.
-- **Materials:** a sketch map with rivers/hills; site-factor cards.
-- **Joy:** "founding" their own town on the map and defending the location.
+### Lesson 6 — Adaptation: built for the biome
+- **Duration:** 40 min
+- **Objective:** "By the end, I can give one way a plant or animal is adapted to its biome."
+- **Hook:** "Why does a cactus have spines instead of leaves, and a polar bear thick fur? Each is perfectly built for its home."
+- **Key activity:** Worked example from the KB — a **cactus** stores water in its fat stem and has spines instead of leaves to lose less water (desert); a **polar bear** has thick fur and fat (polar). Match animals/plants to biomes and explain one adaptation each. Tackle "animals can live anywhere" — they're adapted to a *particular* biome.
+- **Check for understanding:** "Give one way a cactus is adapted to the desert." → it stores water in its stem / has spines instead of leaves to lose less water.
+- **Differentiation:** support: match animal → biome with support. / stretch: explain why a camel couldn't survive the Arctic.
+- **Materials:** animal/plant cards; biome mats; a cactus and a broad leaf to compare.
+- **Joy:** being an "adaptation detective" — working out *why* each creature is built that way.
 
-**End-of-unit check (Unit 2):** Name a UK region and city; sort physical vs human features; order the settlement hierarchy; give two site factors. **Misconception watch:** England ≠ the UK; a city is more than "a big town" (size *and* services); settlements grew for reasons, not randomly.
-
----
-
-## Unit 3 — Rivers Near and Far: linking physical geography to the civilisations
-
-**Essential question:** What is a river, and why do rivers matter so much to people — then and now?
-
-**Key vocabulary:** river, source, mouth, downhill, flow, drinking water, transport, settlement, the Nile, the Thames, valley.
-
-### Lesson 8 — What is a river? Source to mouth
-- **Duration:** 35 min
-- **Objective:** "By the end, I can name the start and end of a river and explain that rivers flow downhill."
-- **Hook:** "Where does a river begin, and where does all that water finally go?"
-- **Key activity:** Introduce the **source** (start, high ground) and **mouth** (end, at the sea), and that rivers flow **downhill** (high to low). Tilt a sand tray and pour water to watch a "river" find the lowest path. Label source and mouth on a simple river diagram.
-- **Check for understanding:** "What do we call the start and end of a river?" → the source (start, high ground) and the mouth (end, at the sea).
-- **Differentiation:** support: label source and mouth on a part-labelled diagram. / stretch: explain why water flows downhill (gravity).
-- **Materials:** a sand tray and water jug; a river diagram; the UK relief map.
-- **Joy:** making a real "river" run down the tilted sand tray.
-
-### Lesson 9 — Which way does a river flow?
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain that rivers flow downhill in any compass direction, not always south."
-- **Hook:** "The mighty Nile flows *north*. Doesn't 'down' the map mean south? Let's solve the puzzle."
-- **Key activity:** Worked example from the KB: a river flows from **source** (high) to **mouth** (sea), always **downhill** — in whatever compass direction "downhill" happens to be. The **Nile** flows **north** because its high ground is in the south and the sea is in the north. Separate "down the map" (south) from real "downhill" (lower height).
-- **Check for understanding:** "Do rivers always flow south? Explain." → no — they flow downhill (high to low) in any direction; e.g. the Nile flows north.
-- **Differentiation:** support: trace the Nile's flow with a finger and name the direction. / stretch: explain why "downhill means south" is a map-reading trap.
-- **Materials:** a map of the Nile; the UK relief map; arrows showing flow.
-- **Joy:** the brain-twister of a river that flows "up" the map.
-
-### Lesson 10 — Why people need rivers: cities on water
-- **Duration:** 35 min
-- **Objective:** "By the end, I can give three reasons rivers matter to people and link this to the river civilisations."
-- **Hook:** "London on the Thames, Cairo on the Nile, ancient Ur on the Euphrates — why do so many great cities sit on rivers?"
-- **Key activity:** List why rivers matter: **drinking water**, **watering crops**, **transport** of boats and goods, and **fertile land**. Connect directly to the history units — Egypt, Sumer and the Indus all grew on rivers for exactly these reasons. Trace one famous river (Thames or Nile) source to mouth on a map.
-- **Check for understanding:** "Why do many cities grow up next to rivers?" → for drinking water, farming, and transport of goods/people (and fertile land).
-- **Differentiation:** support: match a river use (drink/farm/travel) to a picture. / stretch: explain how this links the Nile to Ancient Egypt's success.
-- **Materials:** a map of a famous river; river-use cards; the civilisations timeline.
-- **Joy:** connecting the physical geography back to the great civilisations they've just met.
-
-**End-of-unit check (Unit 3):** Name a river's source and mouth; explain rivers flow downhill in any direction; give three reasons rivers matter to people. **Misconception watch:** rivers don't always flow south; rain is recycled water (not "new"); a river starts at its source, not the sea.
+**End-of-unit check (Unit 2):** Explain weather vs climate; explain climate zones follow latitude; name three biomes and match to climate; give one adaptation. **Misconception watch:** weather ≠ climate; deserts are defined by dryness (not heat/sand); wild animals are adapted to a particular biome.
 
 ---
 
-## Bridge to Year 4
+## Unit 3 — Fieldwork: being a geographer outdoors
 
-KS2 geography deepens next year:
-- **Climate and biomes** — the world's major climate zones and the plant and animal life they support.
-- **Mapwork** with grid references and contour lines, reading height and slope.
-- More **comparative regional study**, building on the UK regions laid this year.
+**Essential question:** How do geographers collect their own reliable evidence about a real place?
+
+**Key vocabulary:** fieldwork, data, observe, measure, tally, survey, questionnaire, sketch map, systematic, fair, present, conclude.
+
+### Lesson 7 — The fieldwork cycle
+- **Duration:** 40 min
+- **Objective:** "By the end, I can put the steps of a fieldwork investigation in order."
+- **Hook:** "Geographers don't just read maps — they go outside and find things out for themselves. But there's a right way to do it."
+- **Key activity:** Teach the cycle: **ask a question → choose a method → collect data → present it → explain/conclude**. Discuss methods: a **tally count**, a **survey/questionnaire**, a **sketch map**, **measuring**. Order the steps; match each method to a question it could answer.
+- **Check for understanding:** "Put the fieldwork steps in order: present, ask a question, collect data, choose a method, conclude." → ask a question → choose a method → collect data → present → conclude.
+- **Differentiation:** support: order the five steps with picture support. / stretch: match three methods to three questions.
+- **Materials:** step cards; method cards; example question cards.
+- **Joy:** planning to investigate a real question about their own street or neighbourhood.
+
+### Lesson 8 — Be systematic and fair
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain why fieldwork must use the same method each time to be fair."
+- **Hook:** "If I count cars for 2 minutes here and 10 minutes there, can I really compare? Why not?"
+- **Key activity:** Teach the golden rule: be **systematic and fair** — same method, same time, same question — or the results are meaningless. Spot the unfairness in a flawed plan (different counting times) and fix it. Design a fair tally count.
+- **Check for understanding:** "Why must you use the same method each time?" → so it's fair and you can compare; systematic data is meaningful, messy data isn't.
+- **Differentiation:** support: choose the "fair" plan from two options. / stretch: spot and fix two unfair choices in a sample plan.
+- **Materials:** a flawed-plan example; a tally chart template.
+- **Joy:** catching the "cheats" in an unfair survey and fixing them.
+
+### Lesson 9 — Collect, present and conclude
+- **Duration:** 40 min
+- **Objective:** "By the end, I can present fieldwork data and use it to answer a question."
+- **Hook:** "We counted 4 people at 9am and 22 at 4pm. So… is our park well used, and when?"
+- **Key activity:** Worked example from the KB — a 10-minute **tally count** of park users at two times (9am: 4; 4pm: 22) → present as a small **bar chart** → conclude: the park is used much more after school. If a safe space is available (with the tutor), carry out a real 10-minute count; otherwise use the sample data.
+- **Check for understanding:** "What is fieldwork in geography?" → collecting your own data outdoors by observing, measuring, counting and recording to answer a question.
+- **Differentiation:** support: fill in a part-made bar chart and read off the busiest time. / stretch: write a full conclusion explaining *why* the busier time is busier.
+- **Materials:** a tally chart; bar-chart paper; (if safe) a clipboard and the tutor.
+- **Joy:** turning their own counts into a chart and "solving" a real question.
+
+**End-of-unit check (Unit 3):** Order the fieldwork cycle; explain why method must stay the same; present data and draw a conclusion that answers the question. **Misconception watch:** fieldwork is structured (not "a day off"); the method must be consistent; data must be presented and explained, not just collected.
 
 ---
 
 ## End-of-year mastery checks (Geography)
 
-A Year 3 child who has mastered this year should be able to:
+A Year 3 child who has mastered this year's geography should be able to:
 
-1. **(Global grid)** Explain latitude vs longitude, name the Equator and Prime Meridian, say which hemisphere the UK is in, and explain time zones.
-2. **(UK regions & features)** Name a UK region and a major city, and sort physical vs human features of the UK.
-3. **(Settlements)** Order the settlement hierarchy (hamlet → village → town → city) and give two site factors that make a good place to settle.
-4. **(Rivers)** Name a river's source and mouth, and explain that rivers flow downhill in any direction (not always south).
-5. **(Rivers & people)** Give three reasons rivers matter to people and link this to why the river civilisations grew where they did.
+1. **(Water cycle)** Name the four stages of the water cycle in order and explain that rain is recycled water.
+2. **(Climate)** Explain weather vs climate and that climate zones follow latitude (tropical / temperate / polar).
+3. **(Biomes)** Name three biomes, match them to their climate, and give one adaptation of a plant or animal.
+4. **(Fieldwork — the cycle)** Order the fieldwork cycle and explain why the method must stay the same.
+5. **(Fieldwork — data)** Present collected data and draw a conclusion that answers a geographical question.

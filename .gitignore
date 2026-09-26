@@ -17,3 +17,4 @@ auth-profiles.json
 
 # editor workspace
 .obsidian/
+.claude/worktrees/

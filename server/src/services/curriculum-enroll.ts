@@ -2,10 +2,11 @@
  * Curriculum enrollment — maps a curriculum subject-year to the (hidden) shared
  * class + enrollment data layer, so per-learner progress and mastery keep
  * working without exposing the old manual class builder. Class/year ids are
- * deterministic (`cur:y2-maths`, `cur-year-2`) so a subject-year always resolves
+ * deterministic (`cur:y1-maths`, `cur-year-1`) so a subject-year always resolves
  * to the same class.
  */
 import type { ClassDefinition, SchoolYear } from '../../../shared/types.ts';
+import { yearLabel } from '../../../shared/types.ts';
 import * as db from '../db/index.ts';
 import { curriculumSubjectKey } from './curriculum.ts';
 import { isCurriculumSubject } from './curriculum-catalog.ts';
@@ -33,7 +34,7 @@ export function parseCurriculumClassId(classId: string): { year: number; subject
 export function ensureCurriculumClass(year: number, subject: string): ClassDefinition {
   const yearId = curriculumYearId(year);
   if (!db.schoolYears.get(yearId)) {
-    const y: SchoolYear = { id: yearId, name: `Year ${year}`, order: year, createdAt: now() };
+    const y: SchoolYear = { id: yearId, name: yearLabel(year), order: year, createdAt: now() };
     try { db.schoolYears.insert(y); } catch { /* raced */ }
   }
   const classId = curriculumClassId(year, subject);
@@ -42,11 +43,11 @@ export function ensureCurriculumClass(year: number, subject: string): ClassDefin
   const cls: ClassDefinition = {
     id: classId,
     yearId,
-    yearName: `Year ${year}`,
+    yearName: yearLabel(year),
     subject: label(subject),
     subjectKey: curriculumSubjectKey(subject),
     title: label(subject),
-    description: `Year ${year} ${label(subject)} — from the curriculum.`,
+    description: `${yearLabel(year)} ${label(subject)} — from the curriculum.`,
     createdAt: now(),
     updatedAt: now()
   };

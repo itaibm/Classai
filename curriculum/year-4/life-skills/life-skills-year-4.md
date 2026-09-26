@@ -1,293 +1,295 @@
-# Year 4 Life Skills (ages 8–9, KS2) — Lesson Outlines
+# Year 4 Life Skills (ages 10–11, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 4 scope drawn from [`knowledge-base/subjects/computing-life-skills/life-skills.md`](../../../knowledge-base/subjects/computing-life-skills/life-skills.md).
 
 ## Year overview
 
-Year 4 is the midpoint of primary school, and eight- and nine-year-olds are ready to move from managing themselves to *navigating a wider social world*. Friendships get more complex (groups, fall-outs, the first whiffs of pressure); screens and online spaces become a bigger part of life; and they can now reason about other people's motives, weigh evidence, and handle multi-step money problems. So Year 4 deepens every strand: emotional literacy adds **stress, worry and resilience**; friendship adds **handling peer pressure and online kindness**; growth mindset adds **bouncing back from setbacks**; health adds **emotional wellbeing and balanced screen habits**; personal safety goes **online safety in earnest**; money adds **smart shopping, value and where money goes**; critical thinking adds **spotting tricks and checking sources**; and citizenship adds **rights, responsibilities and community action**. The tone stays warm and **never shaming** — pressure, worry and mistakes are normal, and the message is *you can think for yourself, stand firm kindly, and ask for help.* Most lessons run 30–35 minutes; a couple of projects stretch to 40. Seven units, twenty-one lessons, every one anchored to the knowledge base.
+Year 4 is the year bodies and social worlds start to change, and Life Skills meets that head-on with warmth and honesty. Ten- and eleven-year-olds can think about their own thinking, hold nuanced views, weigh evidence, and handle real-world money and choices — and many are beginning **puberty**. So this year adds, age-appropriately and without shame, **changing bodies, emotions and self-image**; deepens emotional literacy into **identity and self-esteem**; takes friendship into **healthy vs unhealthy relationships and trust**; turns growth mindset into **metacognition (learning how to learn)**; brings health into **understanding puberty, hygiene and emotional ups-and-downs**; sharpens personal safety with **online reputation, media pressure and critical media literacy**; moves money into **value, the cost of borrowing and the first taste of enterprise**; and grows citizenship into **diversity, inclusion and global awareness**. The tone is consistently warm, factual and **never shaming** — every body changes, every person is different, and the message is *you are growing into yourself, and you can think, choose and ask for help.* Most lessons run 30–40 minutes. Seven units, twenty-one lessons, every one anchored to the knowledge base.
 
-**How it builds on Year 3:** Y3 understood why feelings happen; Y4 handles stress and worry and builds resilience. Y3 resolved conflict; Y4 stands up to peer pressure and is kind online. Y3 set goals; Y4 bounces back from real setbacks. Y3 learned the food groups; Y4 links body health to mood and balances screen time. Y3 budgeted; Y4 becomes a smart shopper who judges value. Y3 sorted fact vs opinion; Y4 checks whether a source can be trusted. Y3 met fair rules; Y4 explores rights, responsibilities and taking community action. New this year: online safety in depth.
-
----
-
-## Unit 1 — Worry, stress & resilience (emotional wellbeing)
-
-**Essential question:** What can I do when worry or stress builds up inside me?
-**Key vocabulary:** worry, stress, overwhelmed, control circle, what-if, calm strategy, resilience, bounce back, support.
-**KB source:** Topic 8 — Feelings & calming down; Topic 9 — Resilience.
-
-### Lesson 1 — What worry feels like and does
-- **Duration:** 30 min
-- **Objective:** "By the end, I can describe what worry feels like and that everyone gets it sometimes."
-- **Hook:** "Worry is like a smoke alarm — useful when there's real danger, annoying when it goes off over burnt toast."
-- **Key activity:** Map worry's body and mind signs (racing thoughts, tight chest, trouble sleeping). Discuss that worry is normal and protective, but sometimes over-fires. The child names a common worry without shame.
-- **Check for understanding:** Is it normal to feel worried sometimes? → Yes — everyone worries; it's the brain trying to keep you safe, even when there's no real danger.
-- **Differentiation:** support: point to worry signs on a body map / stretch: tell when worry is helpful vs over-firing.
-- **Materials:** body-map sheets, a "smoke alarm" picture.
-- **Joy:** the funny "smoke alarm over burnt toast" analogy and acting it out.
-
-### Lesson 2 — What I can and can't control
-- **Duration:** 30 min
-- **Objective:** "By the end, I can sort worries into what I can and can't control."
-- **Hook:** "You can't control the weather — but you can grab a coat. What does that teach us about worry?"
-- **Key activity:** Draw a "circle of control." The child sorts their worries: inside the circle (I can act on it — make a plan) vs outside (let it go / share it). Make a tiny action plan for one in-circle worry.
-- **Check for understanding:** What can you do with a worry you *can't* control? → Let it go or share it with a trusted person, and focus your energy on what you *can* control.
-- **Differentiation:** support: sort two given worries / stretch: turn an in-circle worry into a small action plan.
-- **Materials:** circle-of-control sheets, worry slips.
-- **Joy:** physically placing worries inside or outside the circle.
-
-### Lesson 3 — My resilience toolkit
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name strategies that help me bounce back from a hard day."
-- **Hook:** "A bouncy ball hits the floor and springs back up. What helps a person bounce back?"
-- **Key activity:** Build a resilience toolkit: talk to someone, move your body, do something you enjoy, helpful self-talk, rest, ask for help. The child chooses their top three and makes a "bounce-back" card.
-- **Check for understanding:** Name two things that help you bounce back after a hard day. → Any two of: talk to someone, move, do something you enjoy, helpful self-talk, rest, ask for help.
-- **Differentiation:** support: pick three from picture cards / stretch: match a strategy to a specific tough situation.
-- **Materials:** resilience-strategy cards, a bouncy ball, toolkit template.
-- **Joy:** the bouncy-ball demo and building their own bounce-back card.
-
-**End-of-unit check:** The child describes worry and that it's normal, sorts worries by control, and names resilience strategies to bounce back.
+**How it builds on Year 3:** Y4 handled worry and resilience; Y5 explores identity, self-esteem and the emotional swings of growing up. Y4 resisted peer pressure; Y5 tells healthy from unhealthy relationships and what trust means. Y4 set goals and reflected; Y5 learns *how* to learn (metacognition). Y4 balanced screens and mood; Y5 understands puberty, the bodily changes ahead, and looking after a changing body. Y4 judged value; Y5 understands borrowing, the cost of "buy now" and tries simple enterprise. Y4 explored community; Y5 widens to diversity, inclusion and the global picture. New this year: puberty and changing bodies (age-appropriate).
 
 ---
 
-## Unit 2 — Friendship, groups & peer pressure
+## Unit 1 — Identity & self-esteem (emotional literacy)
 
-**Essential question:** How do I stay true to myself and kind to others, even when friends push me?
-**Key vocabulary:** peer pressure, dare, stand firm, assertive, bystander, upstander, exclude, loyal, online kindness.
-**KB source:** Topic 10 — Social skills; Topic 12 — Staying safe (peer pressure).
+**Essential question:** Who am I, and how do I feel good about being me?
+**Key vocabulary:** identity, self-esteem, strengths, values, unique, comparison, self-worth, confidence, authentic.
+**KB source:** Topic 8 — Feelings & wellbeing; Topic 9 — Resilience.
 
-### Lesson 4 — When friends pressure you
+### Lesson 1 — What makes me, me
+- **Duration:** 30 min
+- **Objective:** "By the end, I can describe parts of my identity and what makes me unique."
+- **Hook:** "If you had to describe yourself without using your looks — your interests, values, talents — what would you say?"
+- **Key activity:** Explore identity as many layers (interests, strengths, values, background, personality). Children make an "identity flower," a petal each. Celebrate that everyone's flower is different.
+- **Check for understanding:** Name two things that are part of who you are beyond how you look. → e.g. interests, values, talents, how you treat others, what you care about.
+- **Differentiation:** support: fill petals from prompt words / stretch: explain a value that matters most to them and why.
+- **Materials:** identity-flower templates, prompt-word cards.
+- **Joy:** designing a colourful identity flower that's uniquely theirs.
+
+### Lesson 2 — The comparison trap
 - **Duration:** 35 min
-- **Objective:** "By the end, I can recognise peer pressure and name a way to say no kindly but firmly."
-- **Hook:** "'Everyone's doing it — go on!' Have you ever felt pushed to do something you weren't sure about?"
-- **Key activity:** Teach what peer pressure is and that real friends respect a "no." Practise saying-no strategies: say no clearly, give a reason, suggest something else, walk away, find a different friend. Role-play dares (small and safe in the room).
-- **Check for understanding:** A friend dares you to do something you know is wrong. What can you do? → Say no clearly, give a reason, suggest something else, or walk away — real friends respect it.
-- **Differentiation:** support: practise one "say no" phrase / stretch: handle a friend who keeps pushing.
-- **Materials:** peer-pressure scenario cards, "say no" strategy cards.
-- **Joy:** acting out confident, even funny, ways to say no.
+- **Objective:** "By the end, I can explain why comparing myself to others can hurt my self-esteem."
+- **Hook:** "Online, everyone seems happier, smarter, cooler. Is that the whole truth, or the highlight reel?"
+- **Key activity:** Teach that people show their "highlight reel," not their whole story — comparing your behind-the-scenes to others' highlights is unfair to you. Discuss real vs edited images. Children write one thing they appreciate about themselves.
+- **Check for understanding:** Why is comparing yourself to others online often unfair to you? → Because people post their best, edited moments (the highlight reel), not the ordinary or hard parts.
+- **Differentiation:** support: spot "real vs highlight" in examples / stretch: explain how comparison can dent self-esteem and how to push back.
+- **Materials:** "highlight reel vs real life" example images.
+- **Joy:** the eye-opening "behind the highlight reel" reveal.
 
-### Lesson 5 — Upstander, not bystander
+### Lesson 3 — Building healthy self-esteem
 - **Duration:** 30 min
-- **Objective:** "By the end, I can choose a safe way to help when I see someone being treated unkindly."
-- **Hook:** "If someone's being left out or teased and you just watch — does watching help? What could you do instead?"
-- **Key activity:** Teach bystander vs upstander. Brainstorm safe upstander actions: include the person, speak up kindly, get help, support them afterwards. Role-play turning a bystander moment into an upstander one.
-- **Check for understanding:** What's one safe thing an upstander can do when someone's being treated badly? → e.g. include them, tell the person to stop kindly, get a trusted adult, comfort them after.
-- **Differentiation:** support: choose an upstander action from cards / stretch: pick the safest action for a tricky situation and explain why.
-- **Materials:** bystander/upstander scenario cards.
-- **Joy:** the empowering "upstander" role-play where they help someone left out (played by the tutor).
+- **Objective:** "By the end, I can name ways to grow healthy self-esteem."
+- **Hook:** "Self-esteem is like a battery. What charges it up, and what drains it?"
+- **Key activity:** Teach self-esteem boosters (focus on strengths, kind self-talk, helping others, trying new things, good friends) and drainers (harsh self-talk, comparison, unkind friends). Children build a "self-esteem charger" plan.
+- **Check for understanding:** Name one thing that builds healthy self-esteem. → e.g. kind self-talk, using your strengths, helping others, trying new things, good friendships.
+- **Differentiation:** support: choose chargers from cards / stretch: make a personal plan to recharge after a knock.
+- **Materials:** charger/drainer cards, plan template.
+- **Joy:** designing their personal self-esteem "charger."
 
-### Lesson 6 — Being kind online
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain how to be kind and think before posting online."
-- **Hook:** "Words on a screen can't smile or hug — so how might a joke be read the wrong way?"
-- **Key activity:** Teach that online words feel real and last. Introduce "think before you post": is it kind, true, necessary? Discuss screens hide tone, so messages can hurt unintentionally. The child rewrites an unkind/ambiguous message to be kind and clear.
-- **Check for understanding:** Before sending a message online, what should you ask yourself? → Is it kind, true and necessary? Could it be taken the wrong way?
-- **Differentiation:** support: choose the kinder of two messages / stretch: rewrite a tricky message and explain the fix.
-- **Materials:** sample messages, "think before you post" poster.
-- **Joy:** rewriting a grumpy message into a kind one in a fun "kindness translator" game.
-
-**End-of-unit check:** The child recognises peer pressure and says no kindly, chooses a safe upstander action, and applies "think before you post" to online kindness.
+**End-of-unit check:** The child describes their identity, explains the comparison trap, and names ways to build healthy self-esteem.
 
 ---
 
-## Unit 3 — Bouncing back (growth mindset & resilience)
+## Unit 2 — Healthy relationships & trust
 
-**Essential question:** How do I keep growing after a setback or a failure?
-**Key vocabulary:** setback, failure, learn from, perseverance, reflect, adapt, famous failures, not yet, progress.
-**KB source:** Topic 9 — Growth mindset & resilience.
+**Essential question:** What makes a relationship healthy, and who can I trust?
+**Key vocabulary:** healthy, unhealthy, respect, trust, boundary, consent, controlling, support, equal, red flag.
+**KB source:** Topic 10 — Social skills; Topic 12 — Staying safe (relationships).
 
-### Lesson 7 — Failure is feedback
-- **Duration:** 30 min
-- **Objective:** "By the end, I can find the lesson hidden inside a mistake or failure."
-- **Hook:** "Did you know light bulbs, footballers and authors all came from LOTS of failures first?"
-- **Key activity:** Share famous "failures before success" stories. Teach that failure gives feedback. The child picks a recent setback and writes "what it taught me / what I'll try next."
-- **Check for understanding:** What's a growth-mindset way to think about a failure? → As feedback that shows what to try next — not proof you can't do it.
-- **Differentiation:** support: complete a "this taught me…" sentence / stretch: turn a failure into a concrete next-step plan.
-- **Materials:** famous-failure cards, reflection sheets.
-- **Joy:** the surprising stories of famous people who failed first.
-
-### Lesson 8 — Perseverance through the hard middle
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name what keeps me going when I want to quit."
-- **Hook:** "The hardest part of a long run is the middle. What keeps a runner going to the finish?"
-- **Key activity:** Discuss the "messy middle" of any hard task. The child lists their personal "keep-going fuel" (a goal in mind, breaking it up, a cheering friend, remembering past wins) and commits to a current challenge.
-- **Check for understanding:** Name one thing that helps you keep going when you want to quit. → e.g. remember the goal, break it up, cheer yourself on, recall a past success, take a short break then return.
-- **Differentiation:** support: choose keep-going fuel from a list / stretch: make a plan to push through a real current challenge.
-- **Materials:** "keep-going fuel" cards.
-- **Joy:** designing a personal "don't quit" motivational poster.
-
-### Lesson 9 — Reflecting to improve
-- **Duration:** 25 min
-- **Objective:** "By the end, I can reflect on what went well and what to change next time."
-- **Hook:** "Sports teams watch the match back to get better. Could *you* 'watch back' your own work?"
-- **Key activity:** Teach simple reflection: What went well? What was tricky? What will I do differently? The child reflects on a recent piece of work or challenge and sets one improvement.
-- **Check for understanding:** Why is it useful to reflect after finishing something? → To notice what worked and what to improve, so you do better next time.
-- **Differentiation:** support: answer the three questions with prompts / stretch: turn a reflection into a specific goal.
-- **Materials:** reflection template.
-- **Joy:** being their own "coach" reviewing the highlights.
-
-**End-of-unit check:** The child finds the lesson in a failure, names what keeps them persevering, and reflects to set one improvement.
-
----
-
-## Unit 4 — Mind, body & balance (health & wellbeing)
-
-**Essential question:** How do my body, my screens and my mood all affect how well I feel?
-**Key vocabulary:** wellbeing, mood, balance, screen-time, active habit, hydration, sugar, sleep hygiene, mindful.
-**KB source:** Topic 6 — Healthy eating; Topic 7 — Sleep & exercise; Topic 8 — Wellbeing.
-
-### Lesson 10 — Food, mood and energy
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain how what I eat and drink affects my mood and energy."
-- **Hook:** "Ever felt 'hangry'? Why might an empty tummy make you grumpy?"
-- **Key activity:** Teach the link between steady fuel (regular balanced meals, water) and steady mood/energy, vs sugar spikes-and-crashes and skipped meals. The child plans a "steady energy" day and spots the mood-dippers.
-- **Check for understanding:** How can what you eat affect your mood? → Steady, balanced food and water keep mood and energy steady; too much sugar or skipping meals can make you crash and feel grumpy.
-- **Differentiation:** support: match foods to "steady" or "crash" / stretch: explain the spike-and-crash and plan a fix.
-- **Materials:** food/drink cards, a day-planner.
-- **Joy:** the "hangry" role-play before the calm, well-fed version.
-
-### Lesson 11 — Screens: finding the balance
+### Lesson 4 — Healthy vs unhealthy friendships
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan a healthy balance of screen time and other activities."
-- **Hook:** "Screens are fun — but what gets squeezed out if they take ALL your time?"
-- **Key activity:** Discuss the good and not-so-good of screens (fun and learning vs less sleep, movement, face-to-face time). Teach balance, breaks, screens off before bed. The child plans a balanced evening with screen *and* non-screen time.
-- **Check for understanding:** Name one thing that helps keep screen time healthy. → e.g. set limits, take breaks, screens off before bed, balance with active and face-to-face time.
-- **Differentiation:** support: place screen and non-screen cards on a balance scale / stretch: explain why screens before bed harm sleep.
-- **Materials:** activity cards, a "balance scale" template.
-- **Joy:** balancing a real see-saw/scale of screen vs non-screen activities.
+- **Objective:** "By the end, I can tell signs of a healthy friendship from an unhealthy one."
+- **Hook:** "A friend who only wants you to play with THEM and gets cross if you don't — healthy or not?"
+- **Key activity:** Teach signs of healthy (respect, trust, kindness, room to be yourself, support) vs unhealthy (controlling, mean, jealous, pressuring, one-sided). Children sort scenario cards and discuss what to do about a red flag.
+- **Check for understanding:** Name one sign of a healthy friendship and one red flag. → Healthy: e.g. respect, trust, support. Red flag: e.g. controlling, mean, pressuring, one-sided.
+- **Differentiation:** support: sort clear healthy/unhealthy cards / stretch: suggest how to handle an unhealthy friendship kindly.
+- **Materials:** friendship scenario cards.
+- **Joy:** the "spot the red flag" sorting challenge.
 
-### Lesson 12 — A calm mind: mindful moments
-- **Duration:** 25 min
-- **Objective:** "By the end, I can use a mindful moment to calm and reset my mind."
-- **Hook:** "Your mind is like a snow globe — shake it and it's a blur. How do the flakes settle?" (Stillness.)
-- **Key activity:** Teach mindfulness in kid terms: noticing right now, slow breaths, a body scan, listening to sounds. Do a 3-minute guided mindful moment with a snow-globe prop. The child names when they'd use one.
-- **Check for understanding:** When might a mindful moment help you? → e.g. when feeling stressed, worried, before a test, to calm down or refocus.
-- **Differentiation:** support: follow the breathing along / stretch: lead the tutor through a short mindful moment.
-- **Materials:** a snow globe (or jar of glitter water), calm audio.
-- **Joy:** watching the snow-globe glitter settle as their mind settles.
+### Lesson 5 — Boundaries and consent
+- **Duration:** 30 min
+- **Objective:** "By the end, I can set a boundary and respect someone else's."
+- **Hook:** "Everyone has an invisible line — 'I'm okay with this, not okay with that.' How do we respect each other's?"
+- **Key activity:** Teach boundaries (what's okay for you) and consent (asking and respecting a yes/no — for touch, sharing photos, borrowing things). Practise stating a boundary kindly and accepting "no" without sulking.
+- **Check for understanding:** What does it mean to respect someone's boundary? → To accept their "no" or limit without pushing, guilt-tripping or getting cross.
+- **Differentiation:** support: practise saying "I'm not okay with that" / stretch: handle someone who ignores your boundary.
+- **Materials:** boundary scenario cards.
+- **Joy:** role-playing confident, respectful "no thanks, that's my line."
 
-**End-of-unit check:** The child explains the food–mood link, plans a healthy screen balance, and uses a mindful moment to reset.
+### Lesson 6 — Trust: earned and broken
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain how trust is built and what to do when it's broken."
+- **Hook:** "Trust is like a tower of blocks — slow to build, quick to knock over. How do you rebuild it?"
+- **Key activity:** Teach trust is earned by keeping promises, honesty and reliability — and can be repaired with honesty, apology and changed behaviour. Discuss who's safe to trust with worries (trusted adults). Children identify trustworthy traits.
+- **Check for understanding:** Name one thing that builds trust and one that breaks it. → Builds: e.g. honesty, keeping promises, reliability. Breaks: e.g. lying, breaking promises, sharing secrets.
+- **Differentiation:** support: sort trust-building vs trust-breaking actions / stretch: explain how to rebuild broken trust.
+- **Materials:** building-block prop, trust-action cards.
+- **Joy:** the block-tower demo of building and rebuilding trust.
+
+**End-of-unit check:** The child distinguishes healthy from unhealthy relationships, sets and respects a boundary, and explains how trust is built, broken and repaired.
 
 ---
 
-## Unit 5 — Staying safe online (personal safety)
+## Unit 3 — Learning how to learn (metacognition & growth mindset)
 
-**Essential question:** How do I keep myself safe, kind and private online?
-**Key vocabulary:** private information, password, screen name, stranger danger online, share, tell, trusted adult, scam, footprint.
-**KB source:** Topic 12 — Staying safe (online-safety focus).
+**Essential question:** How do I understand and improve the way I learn?
+**Key vocabulary:** metacognition, strategy, plan, monitor, review, memory, focus, distraction, study, reflect.
+**KB source:** Topic 9 — Growth mindset; Topic 4 — Critical thinking.
 
-### Lesson 13 — Keeping private information private
+### Lesson 7 — Thinking about my thinking
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name which information to keep private online."
-- **Hook:** "Would you shout your home address to a crowd of strangers? Posting online can be like that — who's listening?"
-- **Key activity:** Teach private info: full name, address, club or school, phone, passwords, photos that show where you are. Sort "okay to share" vs "keep private" cards. Discuss strong passwords kept secret (except from a parent).
-- **Check for understanding:** Name two pieces of information you should keep private online. → Any two of: home address, club or school, full name, phone number, passwords, where you are.
-- **Differentiation:** support: sort three clear cards / stretch: explain why a photo could give away private info.
-- **Materials:** "share / keep private" cards.
-- **Joy:** the "secret agent" game guarding private info.
+- **Objective:** "By the end, I can describe how I learn best and notice when I'm stuck."
+- **Hook:** "Top learners aren't the ones who never get stuck — they're the ones who *notice* they're stuck and do something about it."
+- **Key activity:** Introduce metacognition (thinking about your thinking). Children reflect on how they learn best (seeing, doing, hearing, explaining), and practise noticing "I don't get this yet" and naming the next move.
+- **Check for understanding:** What does it mean to notice you're stuck and do something? → Spotting you don't understand yet and choosing a strategy (reread, ask, try another way) instead of giving up.
+- **Differentiation:** support: pick how they learn best from options / stretch: describe a time noticing they were stuck helped them.
+- **Materials:** learning-style reflection sheet.
+- **Joy:** discovering their personal "learning superpower."
 
-### Lesson 14 — People aren't always who they say online
+### Lesson 8 — Plan, do, review
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain that online people may not be who they claim, and what to do."
-- **Hook:** "A 'kid' in a game wants to chat privately and meet up. How do you know they're really a kid?"
-- **Key activity:** Teach that people online can pretend to be someone else. Rules: don't share private info, never agree to meet, never keep online "secrets," tell a trusted adult about anything that feels off. Role-play a tricky chat and the safe response.
-- **Check for understanding:** Someone online you don't know asks to meet up. What do you do? → Don't agree, don't go, and tell a trusted adult straight away.
-- **Differentiation:** support: practise "I'll tell a grown-up" / stretch: explain why online "secrets" are a warning sign.
-- **Materials:** pretend chat cards, scenario prompts.
-- **Joy:** spotting the "red flags" like an online safety detective.
+- **Objective:** "By the end, I can plan a task, work on it, and review how it went."
+- **Hook:** "Builders plan before they build and check after. Could learning work the same way?"
+- **Key activity:** Teach the plan–do–review cycle. Children apply it to a real task: plan (what, how, how long), do it, review (what worked, what to change). Compare with diving in unplanned.
+- **Check for understanding:** What are the three stages of the plan-do-review cycle? → Plan, do, review.
+- **Differentiation:** support: use a part-filled plan / stretch: adjust the plan after reviewing to improve next time.
+- **Materials:** plan-do-review template.
+- **Joy:** running their own learning like a project manager.
 
-### Lesson 15 — When something online upsets me
+### Lesson 9 — Focus and beating distractions
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say what to do if I see or get something upsetting online."
-- **Hook:** "Something pops up that scares or upsets you. Is it your fault? What's the very first thing to do?"
-- **Key activity:** Teach the steps: don't reply, don't delete it (it's evidence), tell a trusted adult, it's never your fault. Discuss scams/"free prize" tricks and pop-ups too. Role-play telling a grown-up calmly.
-- **Check for understanding:** If something online upsets or scares you, what's the first thing to do? → Tell a trusted adult — it's never your fault, and they can help.
-- **Differentiation:** support: name one trusted adult to tell / stretch: explain why you shouldn't reply to or delete it.
-- **Materials:** scenario cards, a "trusted adult" reminder card.
-- **Joy:** the reassurance and role-play of being believed and helped.
+- **Objective:** "By the end, I can name strategies to focus and reduce distractions."
+- **Hook:** "Your phone buzzes while you study. What does it do to your focus — and how do you get it back?"
+- **Key activity:** Teach how distractions (notifications, multitasking) hurt focus and memory. Strategies: one task at a time, remove distractions, short focused bursts with breaks (e.g. work-then-rest), a tidy space. Children plan a focus-friendly study setup.
+- **Check for understanding:** Name one strategy to help you focus. → e.g. one task at a time, remove distractions/notifications, work in short bursts with breaks, tidy space.
+- **Differentiation:** support: pick focus tips from a list / stretch: design a full focus plan for homework.
+- **Materials:** focus-strategy cards.
+- **Joy:** designing their ideal "focus zone."
 
-**End-of-unit check:** The child names private info to protect, explains online people may not be who they claim and to never meet, and knows to tell a trusted adult about anything upsetting online.
+**End-of-unit check:** The child describes how they learn best and notices being stuck, uses plan-do-review, and names focus strategies.
 
 ---
 
-## Unit 6 — Smart with money: value & shopping
+## Unit 4 — Growing up: my changing body (health & wellbeing)
 
-**Essential question:** How do I get the best value and make wise spending choices?
-**Key vocabulary:** value, price, compare, deal, advert, impulse, need vs want, worth it, where money goes.
-**KB source:** Topic 2 — Needs vs wants; Topic 3 — Budgeting; Topic 5 — Critical thinking applied to adverts.
+**Essential question:** How is my body changing as I grow up, and how do I look after it?
+**Key vocabulary:** puberty, growing up, changes, hormones, hygiene, emotions, normal, everyone's different, trusted adult.
+**KB source:** Topic 7 — Sleep & exercise; Topic 6 — Healthy eating; Topic 8 — Wellbeing (puberty added, RSHE-aligned, age-appropriate).
 
-### Lesson 16 — Best value, not just cheapest
-- **Duration:** 30 min
-- **Objective:** "By the end, I can compare options to work out the best value."
-- **Hook:** "Two drinks: a tiny one for £1 or a big one for £1.50. Which is better value? How do you decide?"
-- **Key activity:** Teach value = what you get for what you pay (not just cheapest). The child compares priced options (size, quality, how long it lasts) and picks the best value, explaining why.
-- **Check for understanding:** Does "best value" always mean "cheapest"? → No — it means the best you get for the price; sometimes paying a bit more lasts longer or is worth it.
-- **Differentiation:** support: compare two simple options / stretch: compare three options weighing size, quality and price.
-- **Materials:** priced product cards.
-- **Joy:** the "shopping showdown" comparing real-feeling deals.
+> **Teacher note:** Deliver this unit factually, calmly and inclusively, with no shame and no giggling-cues. Emphasise that every body is different and changes happen at different times. Keep content age-appropriate (the *fact* that bodies change, basic hygiene, and emotional ups-and-downs) and direct any deeper questions to a trusted adult. Follow your setting's RSHE policy.
 
-### Lesson 17 — Don't get tricked into buying
-- **Duration:** 30 min
-- **Objective:** "By the end, I can spot sales tricks and resist impulse buying."
-- **Hook:** "'BUY NOW! ONLY 2 LEFT! HALF PRICE!' — why do shops use words like these?"
-- **Key activity:** Teach common tricks (limited time, "only a few left", pester-power adverts, things placed at the till). Teach the pause: "Do I need it? Is it good value? Will I still want it tomorrow?" The child spots tricks in sample adverts.
-- **Check for understanding:** Name one question to ask yourself before an impulse buy. → e.g. Do I really need it? Is it good value? Will I still want it tomorrow?
-- **Differentiation:** support: spot one trick word / stretch: explain how a trick is designed to rush you.
-- **Materials:** sample adverts and shop displays.
-- **Joy:** "busting" the sneaky sales tricks like a savvy shopper.
-
-### Lesson 18 — Where does money go?
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain that families spend money on needs, wants and bills, and a little can be saved or given."
-- **Hook:** "When money comes into a home, where does it all go? Let's follow it."
-- **Key activity:** Teach the bigger picture: money pays for needs (food, home, bills), some wants, savings, and giving. The child divides a pretend family budget across these, seeing needs come first. Connect to their own Spend/Save/Give habit.
-- **Check for understanding:** When money is shared in a family, what comes first? → Needs (food, home, bills) come before wants; some is saved or given too.
-- **Differentiation:** support: place big categories in order / stretch: balance a small family budget so needs are covered.
-- **Materials:** family-budget mat, play money.
-- **Joy:** "running the household" budget like a grown-up.
-
-**End-of-unit check:** The child works out best value, resists a sales trick by pausing, and explains where money goes with needs first.
-
----
-
-## Unit 7 — Trustworthy thinking & community (critical thinking & citizenship)
-
-**Essential question:** How do I decide what to believe, and how do I help my community?
-**Key vocabulary:** source, trustworthy, evidence, check, rights, responsibility, community, contribute, fair.
-**KB source:** Topic 4 — Asking good questions; Topic 5 — Facts vs opinions; citizenship extension.
-
-### Lesson 19 — Can I trust this source?
-- **Duration:** 30 min
-- **Objective:** "By the end, I can ask whether a piece of information can be trusted."
-- **Hook:** "A friend says 'I read online that chocolate makes you fly!' Should you believe it? How would you check?"
-- **Key activity:** Teach checking a source: Who said it? How would they know? Can I check it elsewhere? The child judges a set of claims (a known site vs a random post vs a rumour) and decides what to trust and how to verify.
-- **Check for understanding:** Name one question to ask before believing something you read online. → e.g. Who said it? How do they know? Can I check it somewhere reliable?
-- **Differentiation:** support: pick the more trustworthy of two sources / stretch: explain how they'd verify a doubtful claim.
-- **Materials:** sample claims and "sources" cards.
-- **Joy:** "myth-busting" silly online claims.
-
-### Lesson 20 — My rights and responsibilities
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name a right children have and a responsibility that goes with it."
-- **Hook:** "You have a right to learn and be safe. What responsibility comes with that — for you and for others?"
-- **Key activity:** Introduce basic children's rights (to be safe, to learn, to play, to be heard) and that rights come with responsibilities (help others be safe, let others learn and be heard). The child matches rights to responsibilities.
-- **Check for understanding:** You have a right to be heard. What's a matching responsibility? → To listen to others so they can be heard too.
-- **Differentiation:** support: match one right to its responsibility / stretch: explain why rights and responsibilities go together.
-- **Materials:** rights/responsibility match cards.
-- **Joy:** the "match the pair" rights-and-responsibilities game.
-
-### Lesson 21 — Taking community action
+### Lesson 10 — Bodies change as we grow up
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan a small action that makes my community or world better."
-- **Hook:** "One person picking up litter helps a little. What if you got others to join in?"
-- **Key activity:** Discuss community (family, street, neighbourhood, clubs) and how small group actions add up (a litter pick, a kindness campaign, saving energy at home). The child plans one realistic action and how they'd get others involved.
-- **Check for understanding:** Why can a group action help the community more than one person alone? → More people doing a small thing adds up to a bigger difference and encourages others.
-- **Differentiation:** support: choose an action from cards / stretch: plan the steps and how to recruit helpers.
-- **Materials:** community-action idea cards, planning sheet.
-- **Joy:** designing a real "make it better" mini-campaign with the tutor.
+- **Objective:** "By the end, I can explain that puberty is a normal stage when bodies change as we grow up."
+- **Hook:** "A caterpillar becomes a butterfly. Humans change too as they grow up — it's called puberty. What might you already have noticed?"
+- **Key activity:** Teach calmly that puberty is the natural stage (roughly ages 8–14) when children's bodies grow and change into adult bodies — at different times for everyone. Cover general changes (growing taller, more sweat, changing emotions) factually and matter-of-factly. Reassure: it's normal, everyone goes through it, and questions are welcome.
+- **Check for understanding:** Is it normal for everyone's body to change at a slightly different time? → Yes — puberty happens at different times for different people; there's no "right" time.
+- **Differentiation:** support: confirm "everyone changes, it's normal" / stretch: explain why comparing your timing to others isn't helpful.
+- **Materials:** caterpillar/butterfly image, an age-appropriate "growing up" diagram, a question box.
+- **Joy:** an anonymous "ask anything" question box that's answered with respect.
 
-**End-of-unit check:** The child questions whether a source is trustworthy, matches a right to its responsibility, and plans a small community action.
+### Lesson 11 — Looking after a changing body
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name hygiene habits that help during the changes of growing up."
+- **Hook:** "As bodies change, they need a bit more daily care. What new habits might help?"
+- **Key activity:** Teach hygiene for growing-up bodies: regular washing/showering, clean clothes, looking after teeth, using deodorant when needed, hand-washing. Frame as self-care, not embarrassment. Children build a daily "fresh and ready" routine.
+- **Check for understanding:** Name two hygiene habits that help as your body changes. → Any two of: wash/shower regularly, clean clothes, deodorant when needed, brush teeth, wash hands.
+- **Differentiation:** support: order a simple hygiene routine / stretch: explain why these habits matter more during puberty.
+- **Materials:** hygiene-routine cards.
+- **Joy:** designing a personal "fresh and ready" routine card.
+
+### Lesson 12 — Feelings during growing up
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain that bigger ups-and-downs in feelings are a normal part of growing up."
+- **Hook:** "Ever feel happy then grumpy for no clear reason? During growing up, feelings can ride a rollercoaster — and that's normal."
+- **Key activity:** Teach that changing bodies bring stronger, more changeable emotions, and that's normal. Revisit calming tools and talking to trusted adults. Children make a "feelings rollercoaster" plan: what helps when emotions surge.
+- **Check for understanding:** Are bigger mood swings normal while growing up? → Yes — stronger, more changeable feelings are a normal part of puberty; calming tools and talking help.
+- **Differentiation:** support: choose a calming tool for a mood surge / stretch: explain why talking to a trusted adult helps.
+- **Materials:** "feelings rollercoaster" template, calming-tool reminder cards.
+- **Joy:** designing their own emotions "rollercoaster" with calm-down stops.
+
+**End-of-unit check:** The child explains puberty is a normal stage at different times for everyone, names hygiene habits for a changing body, and knows mood swings are normal and what helps.
+
+---
+
+## Unit 5 — Smart online: media & reputation (personal safety)
+
+**Essential question:** How do I protect my reputation and think critically about what I see online?
+**Key vocabulary:** digital footprint, reputation, screenshot, edited image, media, advert, influencer, critical, private.
+**KB source:** Topic 12 — Staying safe; Topic 5 — Facts vs opinions.
+
+### Lesson 13 — Your digital footprint
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain that what I post online can last and affect my reputation."
+- **Hook:** "Footprints in wet cement set hard. What happens to footprints you leave online?"
+- **Key activity:** Teach the digital footprint: posts, comments and photos can be saved, screenshotted and seen later — even after deleting. Discuss the "would I be happy for a teacher/grandparent to see this?" test. Children sort posts into "safe to share" vs "think again."
+- **Check for understanding:** Why think carefully before posting online? → Because it can last, be shared/screenshotted, and affect how others see you later.
+- **Differentiation:** support: apply the "would Grandma mind?" test to examples / stretch: explain how an old post could matter years later.
+- **Materials:** sample-post cards, the "footprint" test poster.
+- **Joy:** the wet-cement footprint demo.
+
+### Lesson 14 — Don't believe everything you see
+- **Duration:** 35 min
+- **Objective:** "By the end, I can spot edited images and misleading media."
+- **Hook:** "This 'perfect' photo took 50 tries and a filter. How much of what we see online is real?"
+- **Key activity:** Build on Y5 self-esteem and Y4 sources. Teach about filters, editing, staged photos and clickbait. Children compare edited vs unedited images and spot misleading headlines, asking "is this real / who benefits?"
+- **Check for understanding:** Name one sign an image or headline online might be misleading. → e.g. it looks too perfect, it's edited/filtered, a shocking clickbait headline, no reliable source.
+- **Differentiation:** support: spot the edited image in a pair / stretch: explain why some media is made to mislead or sell.
+- **Materials:** edited/unedited image pairs, sample headlines.
+- **Joy:** "spot the fake" detective challenge.
+
+### Lesson 15 — Pressure from screens and influencers
+- **Duration:** 30 min
+- **Objective:** "By the end, I can recognise when media or influencers are trying to influence me."
+- **Hook:** "An influencer says 'you NEED this.' Are they your friend, or are they selling something?"
+- **Key activity:** Teach how influencers and adverts shape what we want and how we feel about ourselves (paid promotions, "perfect lives"). Children spot persuasion in sample content and practise the pause: "Do I actually want this, or am I being sold to?"
+- **Check for understanding:** Why might an influencer recommend a product? → They may be paid to; it doesn't mean you need it — think for yourself.
+- **Differentiation:** support: spot one persuasion trick / stretch: explain how this links to the comparison trap and self-esteem.
+- **Materials:** sample influencer/advert content.
+- **Joy:** "decoding" influencer posts like a media detective.
+
+**End-of-unit check:** The child explains the lasting digital footprint, spots edited/misleading media, and recognises and questions influencer/advert pressure.
+
+---
+
+## Unit 6 — Money: value, borrowing & enterprise
+
+**Essential question:** What's the real cost of "buy now," and how can I earn and grow money fairly?
+**Key vocabulary:** borrowing, lending, interest, cost, value, save first, enterprise, profit, cost, customer.
+**KB source:** Topic 3 — Saving, spending & budgeting; Topic 1 — Money.
+
+### Lesson 16 — The cost of borrowing
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain that borrowing money usually costs more to pay back."
+- **Hook:** "A friend lends you a sweet but wants TWO back next week. Is borrowing free?"
+- **Key activity:** Teach borrowing/lending and that borrowed money usually costs extra to pay back (interest) — so "buy now" can cost more than saving up. Children compare saving up for an item vs borrowing and paying back more.
+- **Check for understanding:** Why does borrowing money to buy something often cost more than saving up first? → Because you usually pay back more than you borrowed (interest).
+- **Differentiation:** support: compare two simple totals / stretch: work out how much extra a borrowed amount costs.
+- **Materials:** borrow-vs-save comparison cards, play money.
+- **Joy:** the "pay back more!" reveal that makes the maths click.
+
+### Lesson 17 — Save first, spend later
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain why saving up usually beats buy-now-pay-later."
+- **Hook:** "'Buy now, pay later' sounds great — what's the catch?"
+- **Key activity:** Connect Y3 budgeting and Y4 value with borrowing. Teach the wisdom of saving first (no extra cost, no debt worry) vs the convenience-with-a-cost of buying on credit. Children advise a character tempted by buy-now-pay-later.
+- **Check for understanding:** Give one reason saving up first can be wiser than buy-now-pay-later. → No extra cost/interest, no debt to worry about, and you truly own it.
+- **Differentiation:** support: pick the wiser choice in a scenario / stretch: explain the catch of buy-now-pay-later.
+- **Materials:** scenario cards.
+- **Joy:** playing the wise "money advisor" to a tempted character.
+
+### Lesson 18 — Be an entrepreneur
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a simple enterprise and work out if it could make a profit."
+- **Hook:** "Lemonade stand! If a cup costs you 20p to make and you sell it for 50p — are you making money?"
+- **Key activity:** Teach enterprise basics: an idea, costs, a price, profit (price − cost), and a customer. In teams, children plan a tiny enterprise (a craft sale, a car wash), list costs, set a fair price, and calculate possible profit.
+- **Check for understanding:** If something costs you 20p to make and you sell it for 50p, what's your profit? → 30p (price minus cost).
+- **Differentiation:** support: calculate profit with friendly numbers / stretch: plan how to cover costs and make a real profit.
+- **Materials:** enterprise-planning sheet, play money.
+- **Joy:** pitching their own business idea, Dragons' Den style.
+
+**End-of-unit check:** The child explains the cost of borrowing, argues for saving first over buy-now-pay-later, and plans an enterprise calculating profit.
+
+---
+
+## Unit 7 — One world: diversity & inclusion (citizenship)
+
+**Essential question:** How do we respect difference and include everyone in our world?
+**Key vocabulary:** diversity, inclusion, respect, stereotype, prejudice, fairness, equality, global, community.
+**KB source:** Topic 10 — Social skills; citizenship/global-awareness extension; Topic 5 — critical thinking on stereotypes.
+
+### Lesson 19 — Celebrating diversity
+- **Duration:** 30 min
+- **Objective:** "By the end, I can explain why a diverse community is a strength."
+- **Hook:** "A garden of one flower vs a garden of many — which is more interesting and stronger?"
+- **Key activity:** Teach diversity (differences in culture, background, beliefs, abilities, looks) as something that makes communities richer. Children share something about their own background and find what they share *and* what's wonderfully different.
+- **Check for understanding:** Why is a diverse community a good thing? → Different people bring different ideas, skills and experiences, making the community richer and stronger.
+- **Differentiation:** support: name one way people can be different / stretch: explain how diversity helps a team or community.
+- **Materials:** diverse-garden image, sharing prompts.
+- **Joy:** the "what's the same, what's different" mingle game.
+
+### Lesson 20 — Stereotypes and fairness
+- **Duration:** 35 min
+- **Objective:** "By the end, I can recognise a stereotype and explain why it's unfair."
+- **Hook:** "'Boys don't cry.' 'Girls can't do science.' Are these true — or unfair assumptions?"
+- **Key activity:** Teach stereotypes (assuming things about a whole group) and how they're unfair and often wrong. Children bust common stereotypes with counter-examples and discuss treating everyone as an individual.
+- **Check for understanding:** What's wrong with a stereotype? → It assumes things about a whole group, which is unfair and often untrue — people are individuals.
+- **Differentiation:** support: spot the stereotype in examples / stretch: explain how to challenge a stereotype kindly.
+- **Materials:** stereotype/counter-example cards.
+- **Joy:** "busting" stereotypes with real counter-examples.
+
+### Lesson 21 — Including everyone
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name ways to make sure everyone feels included."
+- **Hook:** "Imagine a game everyone can join vs one that leaves some out. How do we design for *everyone*?"
+- **Key activity:** Teach inclusion (making sure no one's left out — by ability, language, background). Children redesign a game, event or space so everyone can take part, and pledge one inclusive action.
+- **Check for understanding:** Name one way to make sure everyone is included. → e.g. invite people in, adapt so all can join, listen to those left out, use kind welcoming words.
+- **Differentiation:** support: choose an inclusive action from cards / stretch: redesign an activity to include someone with a different need.
+- **Materials:** activity-redesign prompts, pledge cards.
+- **Joy:** designing a game where truly everyone can play.
+
+**End-of-unit check:** The child explains why diversity is a strength, recognises and challenges a stereotype, and names ways to include everyone.
 
 ---
 
@@ -295,11 +297,11 @@ Year 4 is the midpoint of primary school, and eight- and nine-year-olds are read
 
 By the end of Year 4, a child should reliably show:
 
-1. **Emotional resilience** — recognises worry as normal, sorts what they can and can't control, and uses bounce-back strategies.
-2. **Social courage** — recognises and resists peer pressure kindly, acts as an upstander, and is thoughtful and kind online.
-3. **Growth from setbacks** — treats failure as feedback, perseveres through the hard middle, and reflects to improve.
-4. **Balanced wellbeing** — links food and screens to mood and energy, balances screen time, and uses a mindful reset.
-5. **Online safety** — protects private information, knows online people may not be who they claim and never to meet, and tells a trusted adult about anything upsetting.
-6. **Money smarts** — judges best value, resists sales tricks and impulse buys, and explains where household money goes with needs first.
-7. **Trustworthy thinking & citizenship** — questions whether a source is reliable, links rights to responsibilities, and plans a community action.
-8. **Independent, kind character** — thinks for themselves, stands firm with kindness, and helps others and the wider world.
+1. **Strong self-identity** — describes who they are, recognises the comparison trap, and builds healthy self-esteem.
+2. **Healthy relationships** — tells healthy from unhealthy relationships, sets and respects boundaries and consent, and understands trust.
+3. **Metacognition** — knows how they learn best, uses plan-do-review, and applies focus strategies.
+4. **Understanding of growing up** — explains puberty as a normal, varied stage, cares for a changing body, and knows mood swings are normal.
+5. **Critical media safety** — manages their digital footprint, spots edited/misleading media, and questions influencer and advert pressure.
+6. **Mature money sense** — explains the cost of borrowing, prefers saving first, and plans a simple profitable enterprise.
+7. **Inclusive citizenship** — values diversity, challenges stereotypes, and acts to include everyone.
+8. **Confident, kind character** — feels secure being themselves, treats growing-up changes as normal, and respects and includes others.

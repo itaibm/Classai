@@ -1,262 +1,282 @@
-# History & Geography — Year 1 (ages 5–6, KS1) — Lesson Outlines
+# History & Geography — Year 1 (ages 6–7, KS1) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 1 of the KS1 History & Geography strand, drawn from
+> Year 1 completes the KS1 History & Geography strand, drawn from
 > [`knowledge-base/subjects/history-geography/history-ks1.md`](../../../knowledge-base/subjects/history-geography/history-ks1.md)
 > and [`geography-ks1.md`](../../../knowledge-base/subjects/history-geography/geography-ks1.md).
 
 ## Year overview
 
-KS1 history and geography span two years; this file lays the **foundational first year**, choosing the strands a five-year-old can hold concretely, and signposts what continues into **Year 2**. The two subjects **alternate in short blocks** so children switch between "time" thinking and "place" thinking, and so each idea has room to settle before the next. We open with **history that starts from the child's own life** (now/past, living memory), then swing to **geography that starts from the child's own room and town** (maps, compass), then widen geography outwards (UK → world → hot/cold → weather) and deepen history with **the child's own local past** and **one significant person within or near living memory**. Throughout, a **globe and a UK map stay on the wall** and every place-fact is pinned to one of them; every history-fact is pinned to a simple **left-to-right timeline** (you → parents → grandparents → long ago). The big KS1 events that sit "beyond living memory" (the Great Fire of London, Columbus & Armstrong, the Crimean nurses) are deliberately **held back for Year 2**, once children have a secure sense of "a long time ago" to hang them on. Six units, 22 lessons, alternating History (H) and Geography (G).
+Foundation laid a secure sense of "a long time ago" on a close timeline (you → parents → grandparents) and built the first geography — bird's-eye maps, the compass, the UK, the globe, hot/cold places and the seasons. **Year 1 now reaches back beyond living memory**, exactly as Foundation's bridge promised: the **Great Fire of London (1666)**, the **explorers** Columbus and Armstrong, the **nurses** Nightingale and Seacole, and a deeper **local-history** enquiry. These are hung on a **stretched timeline** that runs much further left than last year's — "before grandparents, before cars, before castles." Geography interleaves to keep "place" thinking alive and to consolidate the KS1 skills before KS2's big jump into systems: we sharpen **map and fieldwork** skills, **compare the UK with a contrasting hot place**, and pin every new history-fact to the **wall map and globe**. History and geography alternate in short blocks so the learner keeps switching between *time* and *place*. The two big KS1 disciplinary habits — **"how do we know?"** (sources) and **"what changed, and why?"** (cause and consequence) — drive every history lesson, readying the learner for the disciplined chronology of Year 2. Six units, 20 lessons, alternating History (H) and Geography (G).
 
 ---
 
-## Unit 1 (History) — Now and Then: time and living memory
+## Unit 1 (History) — The Great Fire of London, 1666
 
-**Essential question:** How do we know what life was like before we were born?
+**Essential question:** How could one small fire change a whole city — and how do we know what happened so long ago?
 
-**Key vocabulary:** past, present, now, before, after, a long time ago, order, oldest, newest, living memory, source, photograph, change, same.
+**Key vocabulary:** beyond living memory, 1666, cause, consequence, spread, source, diary, Samuel Pepys, rebuild, brick, The Monument.
 
-### Lesson 1 — Now, before, and a long time ago
-- **Duration:** 25 min
-- **Objective:** "By the end, I can put 'now', 'before' and 'a long time ago' in order and use the words *past* and *present*."
-- **Hook:** "Were you ever a tiny baby? Can you remember it? How could we find out what you were like?"
-- **Key activity:** Build a left-to-right "time line of me": a photo (or drawing) of the child as a baby, as a toddler, and now — arrange oldest → newest left to right; say "first… then… now." I do (teacher orders own pictures) → we do → you do.
-- **Check for understanding:** "Which is the *past* and which is the *present* — the baby photo or you today?" → baby photo = past, me today = present.
-- **Differentiation:** support: give just two pictures (baby / now) to order. / stretch: add a fourth point (next birthday) and label it *future*.
-- **Materials:** 3–4 photos or drawings of the child at different ages; a long strip of paper as the timeline; arrow showing oldest → newest.
-- **Joy:** seeing their own baby photo and laughing at how much they have changed.
-
-### Lesson 2 — Living memory: ask someone who was there
+### Lesson 1 — A fire over 350 years ago
 - **Duration:** 30 min
-- **Objective:** "By the end, I can explain that *living memory* means things people alive today can remember, and name one way to find out about it."
-- **Hook:** "A long time ago does NOT have to mean dinosaurs! Some of the past is close — it's what your grandparents remember."
-- **Key activity:** Extend the timeline left: you → parents as children → grandparents as children (about 60–70 years). Plan and ask three interview questions for an older grown-up ("What toys did you play with? What was your school like?"). Practise asking the teacher first.
-- **Check for understanding:** "Name one way we can find out what life was like when your grandparents were young." → ask them (they remember), or look at old photos/objects.
-- **Differentiation:** support: choose from picture-prompt questions (toy, school, TV). / stretch: write or record a fourth question of their own.
-- **Materials:** the class timeline; pictures of a grandparent-era classroom; a simple interview question card to take home.
-- **Joy:** becoming a "history detective" with real questions to ask their family.
+- **Objective:** "By the end, I can place the Great Fire of London on a timeline as 'beyond living memory' and say where and when it started."
+- **Hook:** "A whole city on fire — started by one baker who forgot to put out his oven. Could that really happen?"
+- **Key activity:** Stretch last year's timeline far to the left: you → grandparents → (much further) → 1666, after castles and knights but long before cars. Tell the story's opening: a fire in a **baker's shop on Pudding Lane** at night in **1666**. Mark it on the long home timeline.
+- **Check for understanding:** "Where and when did the Great Fire of London start?" → in a baker's shop on Pudding Lane, in 1666.
+- **Differentiation:** support: place the fire between "knights and castles" and "cars" on a pre-made line. / stretch: explain that 1666 is "beyond living memory" — no one alive today can remember it.
+- **Materials:** the long home timeline; a map of old London; a picture of Pudding Lane / a baker's oven.
+- **Joy:** discovering the disaster began with one tiny oven fire in the middle of the night.
 
-### Lesson 3 — Then and now: how things have changed
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name one thing that has *changed* and one thing that has *stayed the same* since my grandparents were young."
-- **Hook:** Hold up a wooden spinning top next to a tablet: "Both are toys — but which one did your grandparents play with?"
-- **Key activity:** Then-vs-now sorting. Compare pairs (old/new toys, old/new school, black-and-white TV vs flat screen). Talk through what changed (computers, screens, cars) and what stayed the same (children still learn to read, still play at break).
-- **Check for understanding:** "Tell me one thing that has changed and one thing that has stayed the same about school." → changed: computers/whiteboards; same: learning to read, playing at break.
-- **Differentiation:** support: sort given pictures into "grandparents' time" / "today" boxes. / stretch: explain *why* the new version came along.
-- **Materials:** old vs new toy (real if possible); old/new school and phone photos; two labelled sorting hoops.
-- **Joy:** playing with a genuinely old toy (spinning top, wooden train).
-
-### Lesson 4 — Oldest to newest: reading objects as clues
-- **Duration:** 30 min
-- **Objective:** "By the end, I can order three objects from oldest to newest and say how I know."
-- **Hook:** Three telephones in a bag — a dial phone, a button phone, a smartphone: "Which one is the oldest? How could we tell?"
-- **Key activity:** Worked example from the KB — order dial phone → button phone → smartphone, oldest to newest. Children justify with evidence ("photos and grandparents tell us dial phones came first"). Then order a second set (toys or cameras).
-- **Check for understanding:** "Put these in order, oldest first: smartphone, dial telephone, button telephone." → dial telephone, button telephone, smartphone.
-- **Differentiation:** support: order two objects, then add the third. / stretch: explain that people in the past were just as clever — they invented the things we use now.
-- **Materials:** picture cards or models of three phones; a second ordering set; the class timeline.
-- **Joy:** dialling a real (or pretend) rotary phone and discovering it has no screen.
-
-**End-of-unit check (Unit 1):** Order three pictures of the same thing across time, oldest first, and say one way historians find out about the recent past (ask people / look at old photos and objects). **Misconception watch:** "the olden days = dinosaurs and castles all mixed up" — keep this unit on the *close* timeline (you → parents → grandparents) and save dinosaurs/castles for much further back.
-
----
-
-## Unit 2 (Geography) — My Local Area: maps and the compass
-
-**Essential question:** How can we show our world on a piece of paper?
-
-**Key vocabulary:** map, above, bird's-eye view, symbol, key, North, South, East, West, compass, near, far.
-
-### Lesson 5 — A bird's-eye view: what a map really is
-- **Duration:** 30 min
-- **Objective:** "By the end, I can explain that a map shows a place from *above*, not from the side."
-- **Hook:** "Imagine a bird flying high over our school, looking straight down. What can it see?"
-- **Key activity:** Look at a side photo of a house, then an aerial/satellite photo of the same place. Name what changes (you see roofs and tops, not fronts). Drop a toy onto the floor and "draw the bird's-eye view" of it together.
-- **Check for understanding:** "Does a map show the view from the side or from above?" → from above (a bird's-eye view).
-- **Differentiation:** support: match three side-photos to their three aerial photos. / stretch: explain why you cannot see the front door of a house on a map.
-- **Materials:** side and aerial photos of the school/home; a satellite map app on a screen; small toys to view from above.
-- **Joy:** finding their own home or school on a live satellite map and zooming in.
-
-### Lesson 6 — Symbols and a key: the map's secret code
-- **Duration:** 30 min
-- **Objective:** "By the end, I can read a simple map *key* and say what a symbol stands for."
-- **Hook:** "Maps are too small for real trees and rivers — so they use a secret code. Can you crack it?"
-- **Key activity:** Introduce symbols (blue = water, green = park, tree = woods) and the key that decodes them. Match symbols to meanings, then mark symbols onto a blank class map. Stress: the blue line *stands for* a river — it isn't really water.
-- **Check for understanding:** "What is a map *key* for?" → it explains what the symbols and colours mean.
-- **Differentiation:** support: match four symbol cards to four meaning cards. / stretch: invent a sensible new symbol and add it to the key.
-- **Materials:** symbol cards and meaning cards; a blank simple map; coloured pencils.
-- **Joy:** designing their own treasure-map symbol and key.
-
-### Lesson 7 — North, South, East, West
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name the four compass directions and find which way is North."
-- **Hook:** "A compass needle always points the same way, no matter which way you turn. Where does it point?"
-- **Key activity:** Learn N–E–S–W clockwise with "Never Eat Soggy Weetabix." Place a big N at the top of the room; play "point North/East/South/West" games. Use a real or phone compass to find North from the door. Reinforce: North is fixed — turning your body doesn't move it.
-- **Check for understanding:** "Name the four main compass directions." → North, South, East, West. (And: which is usually at the top of a map? → North.)
-- **Differentiation:** support: just North and South first, then add East and West. / stretch: give simple route directions ("go North then East to the door").
-- **Materials:** a real or phone compass; four labelled direction signs (N/E/S/W); floor space.
-- **Joy:** the compass "magic" — the needle swings back to North however you spin.
-
-### Lesson 8 — Make a map of my room (fieldwork)
+### Lesson 2 — Why did the fire spread so fast? (cause)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can draw a simple bird's-eye map with at least three symbols, a key, and a North arrow."
-- **Hook:** "Could you draw your bedroom so well that a stranger could find the door, the bed and the window?"
-- **Key activity:** Worked example from the KB — draw a rectangle for the room, add symbols for door, bed/desk and window, write a key, and put an N arrow at the top. Children make their own map of a room or the classroom. (Concrete → pictorial: walk the real space first, then draw.)
-- **Check for understanding:** "Show me on your map: which symbol is the door, and which way is North?" → child points to the door symbol and the N arrow.
-- **Differentiation:** support: complete a part-drawn map by adding two symbols and the key. / stretch: add a fourth symbol and label two compass directions.
-- **Materials:** paper, rulers, coloured pencils; the classroom itself as the "field"; a North arrow stamp/sticker.
-- **Joy:** swapping maps with a friend and following it to find a hidden object.
+- **Objective:** "By the end, I can give two reasons (causes) the fire spread so quickly."
+- **Hook:** "If your house were made of wood and squashed right up against your neighbour's, what would happen if one caught fire?"
+- **Key activity:** Worked example from the KB — build the answer from causes: houses were **wooden**; houses were **close together**; the weather was **hot, dry and windy**; there was **no fire brigade**. Model a row of "wooden houses" (paper) and show how flames would jump. List the causes together.
+- **Check for understanding:** "Give two reasons the fire spread so fast." → any two of: wooden houses; houses close together; hot, dry, windy weather; no fire engines.
+- **Differentiation:** support: sort cause-cards (wood / close / windy / no fire brigade) into a "why it spread" box. / stretch: explain which single cause they think mattered most, and why.
+- **Materials:** paper "houses"; cause-cards; a painting of the burning city.
+- **Joy:** acting out the bucket chains and pulling houses down to make fire-gaps.
 
-**End-of-unit check (Unit 2):** Draw or label a bird's-eye map with a key and a North arrow, and name the four compass directions. **Misconception watch:** a map is from *straight above* (roofs, not fronts); symbols *stand for* real things; North is a fixed direction, not "up" or "the way I'm facing."
+### Lesson 3 — How do we know? Samuel Pepys's diary (sources)
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name a source that tells us about the fire and explain why a diary is useful."
+- **Hook:** "A man buried his cheese and wine in the garden to save them from the fire — and wrote it all down. How do we know? Because we still have his diary!"
+- **Key activity:** Meet **Samuel Pepys** and his **diary** as a **written source**. Read one short, child-friendly line. Talk about why a diary written *at the time* is so useful, and how paintings and records survive too. The child "keeps a diary line" of their own day to feel what a source is.
+- **Check for understanding:** "How do we know so much about the Great Fire?" → Samuel Pepys wrote about it in his diary (a written source); paintings and records survive too.
+- **Differentiation:** support: match "diary / painting / The Monument" to "things that tell us about the fire." / stretch: explain why an eyewitness who was *there* is so valuable.
+- **Materials:** a portrait of Pepys; a simplified diary line; a "my diary" strip.
+- **Joy:** writing their own one-line diary entry like a real historian's source.
+
+### Lesson 4 — What changed afterwards? (consequence)
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name one thing that changed in London because of the fire."
+- **Hook:** "After the fire, London made a rule that would stop it ever happening again. Can you guess what they built houses out of next?"
+- **Key activity:** Sequence the story to its end: fire starts → wind spreads it → burns four days → London **rebuilt in brick and stone**, with **wider streets**, and a fire service grew up. Compare a wood house and a brick house: which is safer, and why? Look at **The Monument**, built to remember the fire.
+- **Check for understanding:** "Name one thing that changed in London because of the fire." → houses rebuilt in brick/stone; wider streets; a fire service developed.
+- **Differentiation:** support: choose "brick" or "wood" for the safer rebuild and say why. / stretch: explain how a sad event led to a useful change (safer city).
+- **Materials:** before/after pictures of London streets; a wood block and a brick; an image of The Monument.
+- **Joy:** "testing" wood vs brick and deciding the new rule for rebuilding London.
+
+**End-of-unit check (Unit 1):** Place 1666 on the timeline as beyond living memory; give two causes of the fire's fast spread; name Pepys's diary as a source; name one change that followed. **Misconception watch:** very few people are recorded as dying (houses burned, not mostly people); the fire had clear *causes*, not "just bad luck"; 1666 sits after castles but long before cars.
 
 ---
 
-## Unit 3 (Geography) — Our Country: the United Kingdom
+## Unit 2 (Geography) — Mapmaker Skills: revisiting maps, symbols and the compass
 
-**Essential question:** What country do we live in, and what is it made of?
+**Essential question:** How do mapmakers fit a whole place onto one small piece of paper?
 
-**Key vocabulary:** United Kingdom, UK, country, England, Scotland, Wales, Northern Ireland, capital city, island, sea, surrounded.
+**Key vocabulary:** bird's-eye view, plan, symbol, key, scale, smaller, North, South, East, West, route, near, far.
 
-### Lesson 9 — The four countries of the UK
+### Lesson 5 — From above again: drawing a plan view
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name the four countries of the United Kingdom and find them on a map."
-- **Hook:** "The UK isn't one country — it's four countries joined together. Can you spot them all?"
-- **Key activity:** On a big UK map, find England (biggest, south/middle), Scotland (north), Wales (west), Northern Ireland (across the Irish Sea). Find where the learner lives — which country is it in? Look at each country's flag and how they combine into the Union Jack.
-- **Check for understanding:** "Name the four countries of the UK." → England, Scotland, Wales, Northern Ireland.
-- **Differentiation:** support: drag two country names onto the map first, then the rest. / stretch: explain that *England* and *the UK* are not the same thing.
-- **Materials:** a large UK map; the four country flags and the Union Jack; sticky country labels.
-- **Joy:** discovering the Union Jack is really three flags layered together.
+- **Objective:** "By the end, I can draw a simple bird's-eye plan of objects on a table and explain it shows the view from above."
+- **Hook:** "Put your lunchbox, pencil case and cup on the table — now become the bird looking straight down. What shapes do you see?"
+- **Key activity:** Revisit the bird's-eye idea from Foundation and stretch it: look straight down at a tray of objects, then draw their plan view (shapes from above, not the sides). Compare a side photo with the plan to check the difference.
+- **Check for understanding:** "Does a plan show the front of things or the top of things?" → the top (the view from straight above).
+- **Differentiation:** support: trace round objects placed on the paper. / stretch: draw the plan of the whole desk, including where the chair tucks in.
+- **Materials:** a tray of household objects; paper and pencils; a side photo vs aerial photo pair.
+- **Joy:** the "bird's eye" game — closing one eye and "becoming" the bird above the table.
 
-### Lesson 10 — Capital cities and the seas around us
+### Lesson 6 — Symbols, a key, and shrinking the world
 - **Duration:** 30 min
-- **Objective:** "By the end, I can match each UK country to its capital and say the UK is surrounded by sea."
-- **Hook:** "Every country has one most-important city where its leaders work. Do you know ours?"
-- **Key activity:** Match capitals: England → London, Scotland → Edinburgh, Wales → Cardiff, Northern Ireland → Belfast. Then trace the blue edges of the map: the UK is a group of *islands*, surrounded by sea (North Sea, Irish Sea, English Channel, Atlantic Ocean). Name one sea on each side.
-- **Check for understanding:** "Is the UK surrounded by land or sea? Name one sea around it." → sea (it's islands); e.g. the North Sea, Irish Sea, English Channel, or Atlantic Ocean.
-- **Differentiation:** support: match two capitals (London, Edinburgh) first. / stretch: explain you must cross water (or the Channel Tunnel) to reach France.
-- **Materials:** UK map with city dots; capital-city matching cards; blue arrows labelling the seas.
-- **Joy:** "sailing" a toy boat around the islands and naming each sea it passes.
+- **Objective:** "By the end, I can use symbols and a key on a map and explain that a map is shrunk (smaller than real life)."
+- **Hook:** "A real park is huge — but here it fits on one page. How did the mapmaker shrink it?"
+- **Key activity:** Revisit symbols and a **key** (blue = water, green = park, tree = woods) and add the idea of **shrinking**: a whole town fits on a page because everything is made much smaller. Decode a simple local map using its key; mark two more symbols and add them to the key.
+- **Check for understanding:** "Why can a whole town fit onto one map?" → because a map is shrunk — everything is drawn much smaller than real life. (And: what tells you what a symbol means? → the key.)
+- **Differentiation:** support: match six symbol cards to their meanings. / stretch: invent a sensible new symbol (e.g. for a school) and add it to the key.
+- **Materials:** a simple local map with a key; symbol cards; coloured pencils.
+- **Joy:** designing a personal symbol for their own house and adding it to the key.
 
-**End-of-unit check (Unit 3):** Name the four countries and at least two capitals, and state that the UK is surrounded by sea. **Misconception watch:** England ≠ Britain ≠ UK; London is England's capital, not the only one; the UK is islands, not joined to mainland Europe by land.
+### Lesson 7 — Following and giving compass routes
+- **Duration:** 30 min
+- **Objective:** "By the end, I can follow and give a simple route using North, South, East and West."
+- **Hook:** "I've hidden a treasure. Follow my directions exactly — North two steps, East three — or you'll miss it!"
+- **Key activity:** Refresh N–E–S–W ("Never Eat Soggy Weetabix") with a big N at the top of the room. Play a route game on a floor grid: the tutor gives compass directions to a hidden object; then the child writes a short route for the tutor to follow.
+- **Check for understanding:** "Give a route from the door to my desk using compass directions." → e.g. "go North to the window, then East to the desk" (any sensible compass route).
+- **Differentiation:** support: follow two-step routes (just N and E). / stretch: write a four-step route and a return route.
+- **Materials:** a floor grid (tape squares); N/E/S/W signs; route cards; a hidden "treasure."
+- **Joy:** sending the tutor on a treasure route and watching them find the prize.
+
+**End-of-unit check (Unit 2):** Draw a bird's-eye plan with a key, explain that a map is shrunk, and give or follow a compass route. **Misconception watch:** a plan shows tops not fronts; symbols *stand for* real things; North is fixed, not "the way I'm facing."
 
 ---
 
-## Unit 4 (Geography) — Our World: continents, oceans, hot and cold
+## Unit 3 (History) — Explorers Across Time: Columbus and Armstrong
 
-**Essential question:** What does our whole planet look like, and why is it hot in some places and cold in others?
+**Essential question:** What makes someone an explorer, and how have explorers changed over hundreds of years?
 
-**Key vocabulary:** Earth, globe, world map, sphere, continent, ocean, Equator, North Pole, South Pole, Arctic, Antarctica, hot, cold.
+**Key vocabulary:** explorer, voyage, the unknown, 1492, 1969, Atlantic Ocean, the Moon, sailing ship, rocket, similar, different.
 
-### Lesson 11 — Continents and oceans of the world
+### Lesson 8 — What is an explorer? Columbus sails west (1492)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can find the UK on a globe and name the continent it's in plus two oceans."
-- **Hook:** "Zoom out from the UK… all the way out, until our whole planet is a ball. Spin it — where did the UK go?"
-- **Key activity:** Introduce the globe as the truest map (Earth is a sphere). Find the seven continents (Asia biggest; the UK is in Europe) and five oceans (Pacific biggest; Atlantic to the UK's west). Spin-and-stop game: "what continent did your finger land on?" Match animals to continents (penguin → Antarctica, lion → Africa, kangaroo → Oceania).
-- **Check for understanding:** "How many continents are there, and which one is the UK in?" → seven; the UK is in Europe. (And name two oceans.)
-- **Differentiation:** support: find just Europe and the Atlantic, plus one animal. / stretch: explain a continent holds many countries, but the UK is one country.
-- **Materials:** a globe and a flat world map; continent and ocean labels; animal picture cards.
-- **Joy:** the spin-the-globe game and discovering where their favourite animal lives.
+- **Objective:** "By the end, I can say what an explorer does and tell the story of Columbus's voyage truthfully."
+- **Hook:** "Imagine sailing for weeks across an ocean so big you can't see land — and not knowing what's on the other side."
+- **Key activity:** Define **explorer** (someone who travels to find out about places people don't know well). Tell Columbus's **1492** voyage in three **wooden ships** across the **Atlantic**. Tell the whole truth honestly: he was the first to sail there *from Europe*, but **millions of people already lived in the Americas**, and the arrival brought great harm to them. Trace the route on the globe.
+- **Check for understanding:** "Did Columbus discover an empty land? Explain." → no — millions of people already lived in the Americas; he was the first to sail there from Europe, and his arrival brought harm.
+- **Differentiation:** support: trace Columbus's route with a finger on the globe and name the ocean. / stretch: explain why "he discovered America" is not the whole truth.
+- **Materials:** a globe; pictures of wooden sailing ships; a child-friendly fact card.
+- **Joy:** "sailing" a model ship across the Atlantic on the globe and spotting how far it is.
 
-### Lesson 12 — Globe vs flat map; the Equator and the Poles
+### Lesson 9 — Armstrong walks on the Moon (1969)
 - **Duration:** 30 min
-- **Objective:** "By the end, I can point to the Equator and the two Poles and say which places are hot and which are cold."
-- **Hook:** "Why is it boiling hot in some parts of the world and frozen solid in others — at the very same moment?"
-- **Key activity:** On the globe, find the Equator (middle → hottest, rainforests) and the North and South Poles (top and bottom → freezing, ice). Torch-and-ball demo: straight light is strong (hot middle), slanted light is weak (cold poles). Note: the UK is in between — *mild*. Compare the globe to a flat map (flattening stretches the edges).
-- **Check for understanding:** "Where on Earth is it hottest, and what is that line called?" → around the middle, on the Equator.
-- **Differentiation:** support: point to "hot middle" and "cold top/bottom" on the globe. / stretch: explain *why* the poles are cold (slanted, weak sunlight — not distance from the Sun).
-- **Materials:** a globe; a torch; a ball; a flat world map for comparison.
-- **Joy:** doing the torch-and-ball experiment and feeling how the angle changes the brightness.
+- **Objective:** "By the end, I can tell the story of Neil Armstrong and place it in my grandparents' time."
+- **Hook:** "One explorer didn't cross an ocean — he left the Earth completely. Where did Neil Armstrong put his footprints?"
+- **Key activity:** Tell Armstrong's **1969** journey to the **Moon** in a **rocket** (Apollo 11) and his famous words. Place it near the right-hand (recent) end of the timeline — in grandparents'/great-grandparents' time. Compare the *tools* of exploring: compass and sail vs rocket and spacesuit.
+- **Check for understanding:** "Which explorer walked on the Moon, and roughly when?" → Neil Armstrong, in 1969 (your grandparents' lifetime).
+- **Differentiation:** support: match "rocket / the Moon / 1969" to Armstrong. / stretch: explain why the Moon footprints are still there (no wind to blow them away).
+- **Materials:** an image of the Moon landing; a model rocket/spacesuit picture; the timeline.
+- **Joy:** practising the "one small step" line and the slow-motion Moon bounce.
 
-### Lesson 13 — Animals of hot and cold places
+### Lesson 10 — Same and different: comparing two explorers
 - **Duration:** 30 min
-- **Objective:** "By the end, I can sort animals and places into 'hot (near the Equator)' or 'cold (near the Poles)'."
-- **Hook:** "Could a polar bear and a penguin ever meet in the wild? Let's find out where each one really lives."
-- **Key activity:** Sort pictures — monkey, parrot, rainforest (hot) vs polar bear, penguin, igloo, ice (cold). Pin each to the globe. Reveal the twist: polar bears live in the Arctic (North), penguins in Antarctica (South) — opposite ends, they never meet. Pack a suitcase for the Equator vs the North Pole.
-- **Check for understanding:** "Where do polar bears live — the North Pole or the South Pole?" → the North (Arctic); penguins live in the South (Antarctica).
-- **Differentiation:** support: two-box sort with picture support. / stretch: explain why "everywhere is either hot or cold" is wrong (in between is mild, like the UK).
-- **Materials:** animal/place picture cards; the globe; a "suitcase" with hot- and cold-weather clothes.
-- **Joy:** dressing a doll (or themselves) for the Equator, then for the freezing pole.
+- **Objective:** "By the end, I can name one thing that was the same and one thing that was different about Columbus and Armstrong."
+- **Hook:** "Two brave explorers — but they lived almost 500 years apart. What could they possibly have in common?"
+- **Key activity:** Worked example from the KB — sort facts into **Columbus / Armstrong / Both**: "wooden ships, 1492" → Columbus; "rocket, 1969, the Moon" → Armstrong; "brave, travelled somewhere unknown, changed what people understood" → both. Place both on the timeline to feel the ~500-year gap.
+- **Check for understanding:** "Name one thing the same and one thing different about the two explorers." → same: both brave, both explored the unknown; different: ships vs rocket, ~500 years apart.
+- **Differentiation:** support: a two-column sort with picture cards. / stretch: explain how the *way* people explore has changed over 500 years.
+- **Materials:** fact/picture cards (ship, rocket, 1492, 1969, ocean, Moon, brave explorer); a sorting mat; the timeline.
+- **Joy:** the satisfaction of placing a card in "Both" and explaining why it fits.
 
-**End-of-unit check (Unit 4):** Find the UK's continent on a globe, name two oceans, point to the Equator and the Poles, and say which is hot and which is cold. **Misconception watch:** a country ≠ a continent; polar bears (north) and penguins (south) never meet; the poles are cold because of the *angle* of sunlight, not distance from the Sun.
+**End-of-unit check (Unit 3):** Say what an explorer does; tell the Columbus and Armstrong stories truthfully; give one similarity and one difference; place both on the timeline ~500 years apart. **Misconception watch:** the Americas were not empty; Columbus and Armstrong did *not* live at the same time.
 
 ---
 
-## Unit 5 (Geography) — Weather and Seasons in the UK
+## Unit 4 (Geography) — Comparing Places: my hometown and a hot, faraway place
 
-**Essential question:** Why does the weather keep changing, and what pattern does the year follow?
+**Essential question:** How is daily life the same and different in a hot place far from the UK?
 
-**Key vocabulary:** weather, sunny, cloudy, rainy, windy, snowy, season, spring, summer, autumn, winter, observe, record, forecast.
+**Key vocabulary:** compare, similar, different, hot, mild, climate, human feature, physical feature, daily life, country, continent.
 
-### Lesson 14 — Today's weather: become a weather reporter
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name today's weather and explain that weather is what the sky is doing *right now*."
-- **Hook:** "Look out of the window — what is the sky doing this very minute? It might be different by lunchtime!"
-- **Key activity:** Learn weather words and symbols (☀ ☁ 🌧 wind, snow). Each child takes a turn as "weather reporter" presenting today's weather with the matching symbol. Start a class weather chart for the week.
-- **Check for understanding:** "Name two types of weather." → any two of: sunny, rainy, cloudy, windy, snowy, foggy.
-- **Differentiation:** support: choose today's symbol from three options. / stretch: predict and explain whether the weather might change later today.
-- **Materials:** weather symbol cards; a blank weekly weather chart; a window with a view.
-- **Joy:** being "on TV" as the weather presenter with a pointer and symbols.
-
-### Lesson 15 — The four seasons, always in order
+### Lesson 11 — Human and physical features around me
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name the four seasons in order and match each to its typical weather."
-- **Hook:** "Snowmen, conkers, the beach, baby lambs — each belongs to a different time of year. Can you put the year in order?"
-- **Key activity:** Order spring → summer → autumn → winter → back to spring (a circle, not a line). Match each season to a picture (lambs → spring, beach → summer, falling leaves → autumn, snow → winter). Distinguish weather (today) from seasons (year-long pattern): one rainy summer day doesn't stop it being summer.
-- **Check for understanding:** "In which season do leaves fall off the trees in the UK?" → autumn. (And: name the four seasons in order.)
-- **Differentiation:** support: order two seasons (summer/winter) by warmth first. / stretch: explain that when it's summer in the UK it's winter in Australia.
-- **Materials:** four season picture cards; a season wheel/circle; the weekly weather chart to compare.
-- **Joy:** spinning a "season wheel" and miming each season (shivering, splashing, jumping in leaves).
+- **Objective:** "By the end, I can sort features of a place into human-made and physical (natural)."
+- **Hook:** "Look out of the window. Which things did people build, and which were already there before people came?"
+- **Key activity:** Introduce **human features** (houses, shops, roads, bridges) vs **physical features** (hills, rivers, trees, beaches, weather). Sort photos of the local area into the two groups; then label a simple aerial photo with one of each.
+- **Check for understanding:** "Is a river a human feature or a physical feature?" → physical (natural); a road is human-made.
+- **Differentiation:** support: a two-box picture sort with support. / stretch: find a feature that is "a bit of both" (e.g. a reservoir) and explain.
+- **Materials:** photos of the local area; two labelled sorting hoops; an aerial photo to annotate.
+- **Joy:** racing the clock to sort a big pile of place-photos into "people made it" vs "nature made it."
 
-**End-of-unit check (Unit 5):** Name the four seasons in order, give two types of weather, and explain the difference between weather (today) and seasons (the year's pattern). **Misconception watch:** weather ≠ seasons; the season order is fixed; it is *not* summer everywhere at once (opposite seasons north and south).
+### Lesson 12 — A hot place far away: locating and describing it
+- **Duration:** 35 min
+- **Objective:** "By the end, I can find a contrasting hot place on the globe and describe its weather and features."
+- **Hook:** "In some places it's hot enough to swim every day of the year — and they've never seen snow. Let's visit one."
+- **Key activity:** Choose a contrasting hot place near the Equator (e.g. a village in Kenya or a Caribbean island — tutor may personalise). Find it on the **globe** and name its continent. Describe its **climate** (hot, near the Equator) and its human and physical features from photos, pinning each to the globe and the UK map.
+- **Check for understanding:** "Is our chosen place hotter or cooler than the UK, and how do you know from the globe?" → hotter — it is much nearer the Equator than the UK.
+- **Differentiation:** support: find the place with a sticker already half-placed; name "hot or cold." / stretch: explain why it's hot there using the Equator (link to Foundation).
+- **Materials:** a globe and UK map; photo set of the contrasting place; sticky labels.
+- **Joy:** "travelling" there on the globe and discovering animals or food they've never seen.
+
+### Lesson 13 — Same and different: two places, one comparison
+- **Duration:** 30 min
+- **Objective:** "By the end, I can give two ways my hometown and the hot place are similar and two ways they are different."
+- **Hook:** "Children there go to school and play games too — but what's on their plate and outside their window is very different from yours."
+- **Key activity:** Build a simple two-column compare: **same** (children go to school, families, homes, play) vs **different** (weather/climate, houses, food, clothes, animals). Use paired photos. End with the fair-minded point: every place has things in common with us *and* things that are different — that's normal and interesting, not "better or worse."
+- **Check for understanding:** "Give one way the two places are the same and one way they are different." → same: both have homes/schools/families; different: e.g. weather, houses, food.
+- **Differentiation:** support: match three "same" and three "different" picture pairs. / stretch: explain why the *climate* causes some of the differences (clothes, houses).
+- **Materials:** paired photos of both places; a two-column compare mat.
+- **Joy:** spotting something surprisingly *the same* about a child living far away.
+
+**End-of-unit check (Unit 4):** Sort human vs physical features; locate a contrasting hot place on the globe and describe it; give two similarities and two differences with home. **Misconception watch:** "different" doesn't mean "worse"; hot places are hot because they're near the Equator; people everywhere share much in common.
 
 ---
 
-## Unit 6 (History) — History Where I Live: my local past and a person who mattered
+## Unit 5 (History) — Significant Nurses: Florence Nightingale and Mary Seacole
 
-**Essential question:** Did history happen right where I live — and how can I find the clues?
+**Essential question:** What does it mean to be *significant*, and how can two people be significant in different ways?
 
-**Key vocabulary:** local, past, clue, evidence, source, old, statue, plaque, street name, change, significant.
+**Key vocabulary:** significant, nurse, hospital, Crimean War, clean, organised, the Lady with the Lamp, Jamaica, British Hotel, change that lasts.
 
-### Lesson 16 — History is under your feet: clues in my town
+### Lesson 14 — Hospitals long ago and Florence Nightingale
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain what Florence Nightingale changed about hospitals and why it still matters."
+- **Hook:** "170 years ago, more soldiers were dying in hospital than on the battlefield — because the hospitals were so dirty. One woman changed that."
+- **Key activity:** Set the scene of the **Crimean War** (~170 years ago) and dirty, crowded wards. Tell how **Florence Nightingale** made wards **clean**, opened windows, organised care — and fewer soldiers died. The "**Lady with the Lamp**" checked patients at night. She trained nurses and changed hospitals forever. Define **significant** = a lasting change that still matters.
+- **Check for understanding:** "What did Florence Nightingale change about hospitals?" → she made them clean, organised and well-run, so fewer patients died; she trained nurses.
+- **Differentiation:** support: choose two given facts about Nightingale. / stretch: explain why "she was just kind" misses why she's significant.
+- **Materials:** a portrait of Nightingale; before/after hospital pictures; a small lamp/torch.
+- **Joy:** acting out the "Lady with the Lamp" checking on patients by torchlight.
+
+### Lesson 15 — Mary Seacole and the British Hotel
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name one kind of clue that tells us about my area's past."
-- **Hook:** "History didn't only happen in faraway places — your own street has a story. Who can be a history detective?"
-- **Key activity:** Tour (real walk or digital map) past one old building near home/school. Spot clues: an old church, a statue, a blue plaque, a street name. Decode a street-name clue ("Mill Lane probably had a mill long ago"). List the kinds of local sources (old photos, museum, plaques, older neighbours).
-- **Check for understanding:** "Name one kind of clue that tells us about your area's past." → an old building/church, a statue or plaque, a street name, old photos, or an older person's memories.
-- **Differentiation:** support: spot clues in given photos of a local street. / stretch: explain how you'd find out what the high street looked like 100 years ago.
-- **Materials:** a digital map/aerial view of the local area; photos of a local landmark; a real street-name sign or photo.
-- **Joy:** being a "history detective" hunting clues on a map of their own street.
+- **Objective:** "By the end, I can tell Mary Seacole's story and place her on the world map."
+- **Hook:** "She was turned away because of the colour of her skin — so she paid her own way to the war to help the soldiers anyway."
+- **Key activity:** Meet **Mary Seacole**, a brave nurse from **Jamaica** who knew how to treat fevers. Turned away, she funded her own journey and set up the "**British Hotel**" near the fighting to care for soldiers ("Mother Seacole"). Trace her journey from Jamaica on the **world map** (history + geography). Talk honestly about the unfair treatment she faced.
+- **Check for understanding:** "Who was Mary Seacole and where was she from?" → a brave nurse from Jamaica who set up the British Hotel to care for soldiers near the battlefield.
+- **Differentiation:** support: find Jamaica on the map; name one thing she did. / stretch: explain how she showed determination despite being treated unfairly.
+- **Materials:** a portrait of Seacole; a world map; her route Jamaica → Crimea.
+- **Joy:** tracing her brave, self-funded journey across the world on the map.
 
-### Lesson 17 — Then and now: my high street changes
+### Lesson 16 — Two ways to be significant: comparing the nurses
 - **Duration:** 30 min
-- **Objective:** "By the end, I can compare an old and a new photo of the same place and say what changed and what stayed the same."
-- **Hook:** "Here's our high street 100 years ago — and here it is today. Play 'spot the difference'!"
-- **Key activity:** Worked example from the KB — read one local source (e.g. an old water mill): how do we know it's old (a carved date, old photos, the street name)? what was it for (grinding grain)? what changed (now a café; flour comes from factories)? Compare old vs new photos of one local street; list same (the church, the road's shape) and different (shops, cars, clothes).
+- **Objective:** "By the end, I can compare the two nurses and explain that people can be significant in different ways."
+- **Hook:** "Same war, both nursing soldiers — yet their stories are very different. Why do we remember *both*?"
+- **Key activity:** MatchPairs from the KB — "Lady with the Lamp / made wards clean" → Nightingale; "from Jamaica / ran the British Hotel" → Seacole; "nursed soldiers in the Crimean War" → both. Discuss how, for years, only Nightingale was widely remembered; now we tell both stories — there's more than one way to be brave and to matter.
+- **Check for understanding:** "What does it mean to say someone is *significant* in history?" → they made a change that still matters / lasts a long time, not just that they were famous.
+- **Differentiation:** support: sort six fact-cards into Nightingale / Seacole / both. / stretch: explain why it's fairer to remember both nurses.
+- **Materials:** fact/picture cards; a Nightingale/Seacole/both sorting mat; the timeline.
+- **Joy:** the "both!" reveal — realising one card belongs to *both* nurses.
+
+**End-of-unit check (Unit 5):** Explain what Nightingale changed and why it lasts; tell Seacole's story and place her journey on the map; define *significant* and give one example of each nurse. **Misconception watch:** significant ≠ "just kind/famous"; the two nurses are different people; there is more than one way to be significant.
+
+---
+
+## Unit 6 (History) — History Where I Live: a closer local study
+
+**Essential question:** What is the story of my own town, and how can I prove it with local clues?
+
+**Key vocabulary:** local, source, clue, evidence, old map, old photograph, plaque, statue, war memorial, change, cause.
+
+### Lesson 17 — Local clues: reading my town for evidence
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name three kinds of local source a history detective could use."
+- **Hook:** "Your town is full of clues to its own past. A statue, a street name, an old photo — each one is evidence. Ready to hunt?"
+- **Key activity:** Revisit local sources from Foundation and add more: old **buildings/churches**, **statues** and **plaques**, **street names**, **old photographs**, a **war memorial**, the **museum**, and **older neighbours' memories**. Spot clues on a digital map / photos of the learner's real area. (Tutor: personalise to the learner's town.)
+- **Check for understanding:** "Name three kinds of local source you could use." → any three of: old building, statue/plaque, street name, old photo, war memorial, museum, older residents.
+- **Differentiation:** support: spot clues in given photos. / stretch: explain which source would best show how the high street has changed.
+- **Materials:** a digital map of the local area; photos of local landmarks; a real street-name sign image.
+- **Joy:** being a "history detective" hunting real clues on a map of their own street.
+
+### Lesson 18 — Then and now: how my high street changed
+- **Duration:** 30 min
+- **Objective:** "By the end, I can compare an old and a new picture of the same local place and say what changed and what stayed."
+- **Hook:** "Here's your high street 100 years ago — and here it is today. Spot the difference!"
+- **Key activity:** Worked example from the KB — read one local source (e.g. an old water mill): how do we know it's old (a carved date, old photos, the street name)? what was it for? what changed? Compare paired old/new photos of one local street; list **same** (church, the road's shape) and **different** (shops, cars, clothes).
 - **Check for understanding:** "A street is called 'Mill Lane' but there's no mill now. What does that tell us?" → there probably used to be a mill there long ago — the name is a clue to the past.
-- **Differentiation:** support: match three "same" and three "different" items between the two photos. / stretch: explain why an old building hasn't "always looked like that."
-- **Materials:** paired old/new photos of a local street or landmark; a local history book or library/museum webpage.
+- **Differentiation:** support: match three "same" and three "different" items between two photos. / stretch: explain why an old building hasn't "always looked like that."
+- **Materials:** paired old/new photos of a local street; a local history book or library/museum webpage.
 - **Joy:** finding a spot they recognise in a 100-year-old photo of their own town.
 
-### Lesson 18 — A significant person from near home
+### Lesson 19 — Why did my town change? (cause)
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say what makes a person *significant* and name one significant local person and what they did."
-- **Hook:** "There's a statue / plaque for a real person who once lived near here. Why do we remember them?"
-- **Key activity:** Meet one significant local (or, if none to hand, a nationally significant figure shown via a local plaque/landmark). Tell their story simply; explain *significant* means they made a change that still matters, not just that they were famous. Children say one thing the person did. (Tutor: personalise to the learner's real town.)
-- **Check for understanding:** "What does it mean to say someone is *significant* in history?" → they made a change that still matters / lasts a long time, not just that they were famous.
-- **Differentiation:** support: choose from two given facts about the person. / stretch: explain how we *know* about this person (statue, plaque, museum, written records).
-- **Materials:** a photo of the local statue/plaque; a short, child-friendly fact sheet about the person.
-- **Joy:** "meeting" a real person from their own town's history and saying why they matter.
+- **Objective:** "By the end, I can suggest one reason (cause) my town grew or changed over time."
+- **Hook:** "Why is your town where it is? Maybe a river, a road, a mill or a railway brought people here long ago."
+- **Key activity:** Introduce simple **causes** of local change (a river, a market, a mill or factory, a railway, a port). Look at one real local feature and ask: when was it built? why? what changed because of it? Build a tiny cause→consequence chain for the learner's own town (or a model town if no local material).
+- **Check for understanding:** "Name one reason a town might have grown long ago." → a river, road, market, mill/factory, railway or port brought people, work or trade.
+- **Differentiation:** support: match a cause (river/railway) to "why people came." / stretch: explain a two-step chain (e.g. "railway → jobs → more houses").
+- **Materials:** a local feature photo (station, mill, river); cause-and-consequence cards.
+- **Joy:** "solving" why their own town ended up exactly where it is.
 
-**End-of-unit check (Unit 6):** Name one local source/clue, compare an old and new photo of the same place (one change, one same), and explain what *significant* means with one local example. **Misconception watch:** history is local too (not only London/Egypt/TV); old buildings haven't "always looked like that" — sources show the change.
+### Lesson 20 — Presenting my local history
+- **Duration:** 35 min
+- **Objective:** "By the end, I can present one local source and explain one thing it tells us about the past."
+- **Hook:** "You're the town's history guide for the day. Pick one clue and tell its story!"
+- **Key activity:** The child chooses one local source (a building, statue, photo, street name) and presents it to the tutor (or family): what it is, how we know it's old, and one thing it tells us about the past — using the sentence frame "___ is old because ___; it used to be ___ but now ___." Brings together sources, change and evidence from the whole unit.
+- **Check for understanding:** "Tell me one thing your chosen source tells us about the past." → child gives a source-based fact (e.g. "Mill Lane tells us there was once a mill here").
+- **Differentiation:** support: complete the sentence frame with picture prompts. / stretch: add *how we know* (which source proves it) and one *cause* of the change.
+- **Materials:** the learner's chosen local source/photo; the sentence frame; a "town guide" badge.
+- **Joy:** being the expert "town guide" presenting a real clue from their own area.
+
+**End-of-unit check (Unit 6):** Name three local sources; compare an old and new photo (one change, one same); suggest one cause of local change; present one source with a fact about the past. **Misconception watch:** history is local too (not only London/faraway); old buildings haven't "always looked like that" — sources show the change.
 
 ---
 
-## Bridge to Year 2
+## Bridge to Year 2 (Key Stage 2)
 
-These KS1 strands continue next year, building on the secure sense of "a long time ago" laid this year:
-- **History — events beyond living memory:** the Great Fire of London (1666); cause, consequence and Samuel Pepys's diary.
-- **History — significant individuals:** explorers Columbus & Armstrong (~500 years apart); nurses Florence Nightingale & Mary Seacole (Crimean War).
-- **Geography:** deeper map and fieldwork skills, comparing the UK to a contrasting non-European place, and more detailed human and physical features.
+KS2 begins next year with a disciplined, roughly **chronological journey** using **BC/AD** and a long timeline:
+- **History:** the deep past — **Stone Age to Iron Age Britain**, then early river civilisations (**Ancient Egypt**, and **Sumer & the Indus Valley**), learning through archaeology and sources.
+- **Geography:** the global grid — **latitude, longitude, hemispheres and time zones** — plus **UK regions, settlements and physical/human geography** in more depth.
+- New habits: BC/AD dating, weighing sources more carefully, and keeping every period in order on one long timeline.
 
 ---
 
@@ -264,11 +284,11 @@ These KS1 strands continue next year, building on the secure sense of "a long ti
 
 A Year 1 child who has mastered this year should be able to:
 
-1. **(History — time)** Order three pictures of the same thing oldest → newest and use the words *past*, *present*, *before*, *after*.
-2. **(History — living memory & sources)** Name one way historians find out about the recent past (ask people who remember, or look at old photos and objects), and give one thing that has changed and one that has stayed the same since their grandparents were young.
-3. **(Geography — maps)** Explain that a map is a bird's-eye view from *above*, read a simple key, and name the four compass directions (North, South, East, West).
-4. **(Geography — UK)** Name the four countries of the United Kingdom, at least two capital cities, and state that the UK is surrounded by sea.
-5. **(Geography — world)** Find the UK's continent (Europe) on a globe, name two oceans, and point to the Equator and the Poles, saying which is hot and which is cold.
-6. **(Geography — hot/cold)** Explain that polar bears live in the Arctic (North) and penguins in Antarctica (South), and that the UK is mild/in between.
-7. **(Geography — weather & seasons)** Name the four seasons in order and explain the difference between weather (today) and seasons (the year-long pattern).
-8. **(History — local)** Name one clue to the local past (old building, statue, plaque, street name, old photo, older neighbour) and explain what *significant* means with one example.
+1. **(History — beyond living memory)** Place the Great Fire of London (1666) on a timeline as "beyond living memory," give two causes of its fast spread, and name one change that followed.
+2. **(History — sources)** Name a source for the Great Fire (Samuel Pepys's diary) and explain why a diary written at the time is useful.
+3. **(History — explorers)** Tell the stories of Columbus (1492) and Armstrong (1969) truthfully, give one similarity and one difference, and place them ~500 years apart.
+4. **(History — significance)** Explain what Florence Nightingale changed about hospitals, tell Mary Seacole's story, and define *significant* with one example of each.
+5. **(History — local)** Name three local sources, compare an old and new picture of the same place, and suggest one cause of how their town changed.
+6. **(Geography — map skills)** Draw a bird's-eye plan with a key, explain that a map is shrunk, and give or follow a compass route (N/E/S/W).
+7. **(Geography — features)** Sort features of a place into human-made and physical (natural).
+8. **(Geography — comparison)** Locate a contrasting hot place on the globe, describe its climate, and give two similarities and two differences with their hometown.

@@ -1,4 +1,4 @@
-# History & Geography — Year 4 (ages 8–9, KS2) — Lesson Outlines
+# History & Geography — Year 4 (ages 9–10, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 4 continues the KS2 chronological journey, drawn from
@@ -8,267 +8,247 @@
 
 ## Year overview
 
-Year 4 carries the chronological journey forward from the deep past into the **classical world**: **Ancient Greece** (~2,500 years ago), with its city-states, democracy and lasting legacy, and then the **Roman Empire and its invasion of Britain** (AD 43) — the moment the deep prehistory of Year 3 meets a written, conquering empire. We round off the history with a dedicated **chronology** skill lesson that places every period studied so far on **one long line**, since the periods are easy to muddle and BC/AD trips children up. Geography deepens from naming places to understanding **systems and processes**: the **water cycle** (how river water is recycled forever — building on Year 3's rivers), **climate zones and biomes** (why latitude decides whether a place is rainforest, desert or tundra), and **fieldwork methods** (the child becomes a geographer outdoors, collecting their own data fairly). History and geography keep interleaving and supporting each other: the Greeks and Romans are pinned to the global grid and the climate map; the water cycle explains the rivers that fed every ancient civilisation; and fieldwork turns map skills into real investigation. The disciplinary questions sharpen — **"how do we know?"**, **"what changed and why?"**, and now **"can we trust this source / is this fair to both sides?"**. Six units, 20 lessons, interleaving History (H) and Geography (G).
+Year 4 carries the story of Britain on from the Romans' departure: the **Anglo-Saxons and Scots** settle the land and give us the name "England," then the **Vikings** raid, trade, explore and settle, fighting the Anglo-Saxons until England is finally united up to **1066**. We then step right off the British line to a contrasting **non-European civilisation, the Maya**, flourishing in the rainforests of Central America *at the same time* as the Anglo-Saxons — a deliberate challenge to the idea that "advanced" only means Europe, and a powerful lesson in same-time-different-place. The history is rounded off with a disciplinary skill that the rich sources of this year demand: **working with sources** (primary vs secondary, and "how reliable?"). Geography deepens into the most powerful **physical processes** — **mountains, volcanoes and earthquakes** and the tectonic plates that drive them — and into **human geography**, with **settlements and land use** building on Year 2's settlement hierarchy. History and geography interlock all year: the Maya unit needs the world map and the rainforest biome (Year 3); the Vikings' longship voyages cross the oceans and seas of the globe; and the tectonics unit explains the very mountains and coasts that shaped where Anglo-Saxons and Vikings could settle. Disciplinary questions deepen to **"who made this source, when, and why — and can we trust it?"** and **"is this telling both sides fairly?"**. Six units, 18 lessons, interleaving History (H) and Geography (G).
 
 ---
 
-## Unit 1 (History) — Ancient Greece
+## Unit 1 (History) — Anglo-Saxons and Scots
 
-**Essential question:** How can a civilisation from 2,500 years ago still shape the way we live today?
+**Essential question:** Who settled Britain after the Romans left, and how did "England" begin?
 
-**Key vocabulary:** city-state, Athens, Sparta, democracy, citizen, vote, philosophy, Olympic Games, myth, legacy, BC.
+**Key vocabulary:** Angles, Saxons, Jutes, Anglo-Saxon, settle, kingdom, Wessex, Mercia, Northumbria, Scots, Picts, Old English, Christianity, Sutton Hoo, AD 410.
 
-### Lesson 1 — Not one country: the Greek city-states
+### Lesson 1 — After Rome: a gap to fill
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what a city-state was and name two famous Greek ones."
-- **Hook:** "Ancient Greece wasn't one country with one king — it was dozens of tiny countries that often fought each other. How did that work?"
-- **Key activity:** Place Ancient Greece on the timeline (~2,500 years ago, BC; after Egypt, before the Romans). Explain **city-states** — independent cities each like its own country (**Athens**, **Sparta**) — that shared a language, the same **gods**, and the **Olympic Games**. Locate Greece on the grid/map.
-- **Check for understanding:** "What is a *city-state*, and name two famous Greek ones." → an independent city that ran like its own country; Athens and Sparta.
-- **Differentiation:** support: match "Athens / Sparta" to a map dot. / stretch: explain what the city-states shared despite fighting.
-- **Materials:** a map of Ancient Greece; the long timeline; city-state cards.
-- **Joy:** discovering the Olympics began 2,500 years ago in these city-states.
+- **Objective:** "By the end, I can explain who settled Britain after the Romans left and where they came from."
+- **Hook:** "The mighty Roman army packed up and left around AD 410, leaving Britain wide open. Who would come next?"
+- **Key activity:** Recap the Romans leaving (~AD 410, Year 3). Across the **North Sea**, the **Angles, Saxons and Jutes** (from today's Germany, Denmark, Netherlands) sailed over and **settled**. They lived in **wooden villages** and farmed, not grand Roman cities. Place them on the timeline (Romans → Anglo-Saxons). Locate their homelands on the map.
+- **Check for understanding:** "Who settled in Britain after the Romans left, and where did they come from?" → the Angles, Saxons and Jutes, from across the North Sea (now Germany/Denmark/Netherlands).
+- **Differentiation:** support: match the three tribes to "across the North Sea." / stretch: explain why a gap opened up when the Romans left.
+- **Materials:** a map of the North Sea region; the timeline; settlement images.
+- **Joy:** picturing whole families crossing the sea in wooden boats to start anew.
 
-### Lesson 2 — Athens vs Sparta
-- **Duration:** 40 min
-- **Objective:** "By the end, I can name one big difference between Athens and Sparta."
-- **Hook:** "One city loved books, art and ideas. The other trained its boys as soldiers from childhood. Which would you rather live in?"
-- **Key activity:** Compare **Athens** (learning, art, theatre, ideas, **democracy**) with **Sparta** (war, toughness, soldier training). Sort statements into Athens / Sparta. Discuss what each valued most and the trade-offs.
-- **Check for understanding:** "Name one big difference between Athens and Sparta." → Athens valued learning, art and democracy; Sparta valued war and toughness.
-- **Differentiation:** support: a two-column statement sort with support. / stretch: argue which city-state they'd choose and why.
-- **Materials:** Athens/Sparta statement cards; a comparison mat.
-- **Joy:** debating with the tutor which city-state they'd want to be a citizen of.
-
-### Lesson 3 — Democracy is born in Athens
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain what democracy means and that it began in Athens — with honest limits."
-- **Hook:** "What if, instead of one king deciding everything, *the people* voted? That idea started in Athens — but not everyone got a vote."
-- **Key activity:** Define **democracy** = rule by the people (citizens vote on decisions). Run a tiny mock vote with the tutor (and any family who'd like to join) to feel it — the child casts a real ballot into a box. Then the honest limit: only free adult **male citizens** voted; women, enslaved people and foreigners could not. Compare with today's wider voting.
-- **Check for understanding:** "What does *democracy* mean, and which city-state began it?" → rule by the people (citizens vote); it began in Athens.
-- **Differentiation:** support: cast a ballot in a simple mock vote with the tutor and name what democracy means. / stretch: explain how Athenian democracy was *unfair* compared with today.
-- **Materials:** voting slips/a ballot box; the comparison from Lesson 2.
-- **Joy:** holding a real mock vote with the tutor and seeing democracy in action.
-
-### Lesson 4 — The legacy of Greece
+### Lesson 2 — Where "England" comes from
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name three things from Ancient Greece we still have today."
-- **Hook:** "The Olympics, voting, even the word 'politics' — all gifts from people who lived 2,500 years ago."
-- **Key activity:** Worked example from the KB — list the **legacy**: the **Olympics**, **democracy/voting**, early **maths and science** (Pythagoras, Archimedes), **theatre**, and **myths** (Heracles, the Minotaur, the Trojan Horse). Note Greek words we still use (democracy, politics). Hear a short Greek myth.
-- **Check for understanding:** "Give two things from Ancient Greece we still have today." → any two of: the Olympic Games, democracy/voting, maths and science ideas, theatre, myths.
-- **Differentiation:** support: match three legacy items to "from Ancient Greece." / stretch: explain how a 2,500-year-old idea still shapes today.
-- **Materials:** legacy cards; a short illustrated Greek myth; Olympic images.
-- **Joy:** hearing a thrilling Greek myth and meeting its monsters and heroes.
+- **Objective:** "By the end, I can explain that 'England' comes from the Angles and that Britain was many kingdoms."
+- **Hook:** "England wasn't always called England — and it wasn't even one country. So how did the name appear?"
+- **Key activity:** Worked example from the KB — the **Angles** → "**Angle-land**" / **Engla-land** → **England**. Britain was several rival **kingdoms** (Wessex, Mercia, Northumbria, Kent), each with its own king; the **Scots** and **Picts** lived in the north. Map the kingdoms. Note place names and English itself come from these settlers.
+- **Check for understanding:** "Where does the name 'England' come from?" → from the Angles — "Angle-land."
+- **Differentiation:** support: fill the blank: "The ___ gave their name to England." (Angles). / stretch: explain why "England was always one country" is wrong.
+- **Materials:** a map of the Anglo-Saxon kingdoms; word-origin cards.
+- **Joy:** discovering the country's name was hidden inside a tribe's name all along.
 
-**End-of-unit check (Unit 1):** Explain city-states and name two; give one Athens/Sparta difference; define democracy and where it began; name three Greek legacies. **Misconception watch:** Greece was *not* one country with one king; Athenian democracy was *not* for everyone; the myths were their real religion, not "just fairy tales."
+### Lesson 3 — Beliefs, weekdays and Sutton Hoo
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how we know about the Anglo-Saxons and name our weekday links to their gods."
+- **Hook:** "You say the names of Anglo-Saxon gods every single week — Wednesday, Thursday. And a king was buried inside an entire ship."
+- **Key activity:** Early Anglo-Saxons worshipped many gods (**Woden** → Wednesday, **Thunor/Thor** → Thursday); over time **Christianity** spread, with monasteries as centres of writing and learning. Meet **Sutton Hoo**: a king buried in a whole **ship** with a famous helmet and treasure (found 1939) — a spectacular **source**. Tackle the "Dark Ages = nothing happened" myth (art, *Beowulf*, fine metalwork).
+- **Check for understanding:** "What is Sutton Hoo and why does it matter?" → a ship-burial of an Anglo-Saxon king with treasure and a helmet — a rich source about their power and beliefs.
+- **Differentiation:** support: match two weekdays to two gods. / stretch: explain why the "Dark Ages" nickname is unfair.
+- **Materials:** an image of the Sutton Hoo helmet; weekday/god cards.
+- **Joy:** realising they speak Anglo-Saxon gods' names every week.
+
+**End-of-unit check (Unit 1):** Say who settled after the Romans and from where; explain where "England" comes from and that it was many kingdoms; name Sutton Hoo as a source and a weekday-god link. **Misconception watch:** England was *not* always one country/called England; Anglo-Saxons ≠ Vikings (they came earlier); the "Dark Ages" were far from dark.
 
 ---
 
-## Unit 2 (Geography) — The Water Cycle: how rivers never run dry
+## Unit 2 (Geography) — The Restless Earth: mountains, volcanoes & earthquakes
 
-**Essential question:** Where does rain come from, and why does the water never run out?
+**Essential question:** Why does the solid-feeling ground build mountains, erupt and shake?
 
-**Key vocabulary:** water cycle, evaporation, condensation, precipitation, collection, cloud, vapour, the Sun, recycled.
+**Key vocabulary:** crust, tectonic plate, plate boundary, mountain, fold, magma, lava, volcano, eruption, earthquake, Ring of Fire, Everest.
 
-### Lesson 5 — The never-ending journey of water
+### Lesson 4 — The cracked shell: tectonic plates
 - **Duration:** 40 min
-- **Objective:** "By the end, I can name the four stages of the water cycle in order."
-- **Hook:** "The water you drank today might once have been in a dinosaur's drink. How? Because water is used again and again, forever."
-- **Key activity:** Build on Year 3's rivers. Teach the cycle: the Sun heats water → **evaporation** (vapour rises) → **condensation** (clouds form) → **precipitation** (rain/snow falls) → **collection** (back to seas and rivers) → repeat. Order/label the stages on a diagram with arrows.
-- **Check for understanding:** "Name the four stages of the water cycle in order." → evaporation → condensation → precipitation → collection.
-- **Differentiation:** support: order four picture cards (sun → cloud → rain → river). / stretch: explain what powers the whole cycle (the Sun).
-- **Materials:** a water-cycle diagram; stage cards; arrows.
-- **Joy:** the mind-bending idea that today's rain is ancient recycled water.
+- **Objective:** "By the end, I can explain that the Earth's crust is broken into slowly moving tectonic plates."
+- **Hook:** "The ground feels solid — but it's actually cracked into giant pieces that float and creep, centimetres a year. What happens where they meet?"
+- **Key activity:** Introduce the Earth's layers and the **crust** broken into **tectonic plates** floating on hot rock, creeping a few cm a year — but where their **edges meet**, the action happens. Use a cracked-eggshell or jigsaw model. Show a plate map; note many volcanoes/earthquakes cluster at plate edges.
+- **Check for understanding:** "What are tectonic plates?" → giant pieces of the Earth's cracked outer shell (crust) that slowly move.
+- **Differentiation:** support: point to plate edges on a map. / stretch: explain why edges are where things happen, not the middle.
+- **Materials:** a cracked-eggshell or jigsaw-globe model; a tectonic plate map.
+- **Joy:** cracking an eggshell to model the whole planet's crust.
 
-### Lesson 6 — Watching the water cycle for real
+### Lesson 5 — How mountains form
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that rain is recycled water, not brand-new water made in clouds."
-- **Hook:** "Clouds don't *make* new water — so where did all that rain come from?"
-- **Key activity:** Tackle the misconception: rain isn't new — it's the **same water recycled forever**, evaporated from seas and rivers, condensed, fallen again. Optional demo: warm water in a covered bowl/jar producing "rain" droplets on the lid (evaporation → condensation). Connect each step to a real-world example (puddles drying = evaporation).
-- **Check for understanding:** "Is rain brand-new water made in the clouds? Explain." → no — it's the same water recycled: evaporated, condensed into clouds, then fallen again.
-- **Differentiation:** support: match each stage to an everyday example (puddle drying / clouds / rain). / stretch: trace one drop's full loop in their own words.
-- **Materials:** a clear bowl/jar with warm water and a lid; the water-cycle diagram.
-- **Joy:** seeing "rain" form on the lid of their own mini water-cycle.
+- **Objective:** "By the end, I can explain how mountains form when plates push together."
+- **Hook:** "Mount Everest is the highest place on Earth — and it's still growing taller every year. How?"
+- **Key activity:** When two plates **push into each other**, the land between **buckles upward** into mountains over millions of years — how the **Himalayas** (with **Everest**) keep rising. Demo by pushing two cloths/paper stacks together to fold them up. Tackle "mountains were made quickly" — it takes millions of years.
+- **Check for understanding:** "How do fold mountains form?" → two plates push together and crumple the land between them upward over millions of years.
+- **Differentiation:** support: push two paper stacks together and describe what happens. / stretch: explain why Everest is still rising.
+- **Materials:** layered cloths/paper; an image of the Himalayas/Everest.
+- **Joy:** crumpling cloth into a "mountain range" with their own hands.
 
-**End-of-unit check (Unit 2):** Order the four stages, explain that water is recycled, and link the cycle to where river water comes from. **Misconception watch:** rain is recycled, not new; the Sun drives the cycle.
+### Lesson 6 — Volcanoes: magma to lava
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a volcano forms and the difference between magma and lava."
+- **Hook:** "Melted rock from deep inside the Earth bursts out at the surface. Underground it has one name; once it's out, another. Which is which?"
+- **Key activity:** Super-hot melted rock (**magma**) finds a weak spot and erupts as a **volcano**; once erupted it's **lava** (same rock, different place/name). Volcanic soil is fertile, so people farm near them despite the risk. Build a baking-soda-and-vinegar eruption; label a volcano diagram (magma chamber, crater, lava, ash).
+- **Check for understanding:** "What's the difference between magma and lava?" → magma is molten rock underground; it's called lava once it erupts onto the surface.
+- **Differentiation:** support: label a part-made volcano diagram. / stretch: explain why people live near dangerous volcanoes (fertile soil).
+- **Materials:** baking soda, vinegar, a volcano model; a labelled diagram.
+- **Joy:** the classic erupting-volcano experiment.
+
+### Lesson 7 — Earthquakes and the Ring of Fire
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain what causes an earthquake and why these events cluster in the same regions."
+- **Hook:** "Why do Japan, Indonesia and California get so many earthquakes — while Britain almost never does?"
+- **Key activity:** Plates catch, stick, then suddenly **slip**, releasing energy that **shakes** the ground — an **earthquake**. People in quake zones design buildings to sway safely. Worked example from the KB: mountains, volcanoes *and* earthquakes all happen at **plate boundaries** — so plate edges like the **Ring of Fire** get all three. Map the Ring of Fire.
+- **Check for understanding:** "Why do mountains, volcanoes and earthquakes often occur in the same regions?" → all three happen at plate boundaries (e.g. the Ring of Fire).
+- **Differentiation:** support: match cause → feature (collide→mountains, magma→volcano, slip→earthquake). / stretch: explain why Britain has very few earthquakes.
+- **Materials:** a Ring of Fire map; cause→feature cards.
+- **Joy:** spotting the "ring" of danger around the whole Pacific Ocean.
+
+**End-of-unit check (Unit 2):** Explain tectonic plates; how mountains form; magma vs lava; what causes earthquakes and why the three cluster at plate boundaries. **Misconception watch:** magma (underground) vs lava (erupted); these events cluster at plate boundaries, not randomly; mountains form slowly over millions of years.
 
 ---
 
-## Unit 3 (History) — The Romans and Their Impact on Britain
+## Unit 3 (History) — The Vikings and the Struggle for England
 
-**Essential question:** What did the Romans change about Britain — and did everyone welcome them?
+**Essential question:** Were the Vikings only fearsome raiders — or much more than that?
 
-**Key vocabulary:** empire, invade, AD 43, legion, army, road, town, Londinium, baths, Boudica, revolt, Hadrian's Wall, resistance, legacy.
+**Key vocabulary:** Viking, Scandinavia, longship, raid, Lindisfarne, trade, explore, settle, Danelaw, Jorvik (York), Alfred the Great, 1066.
 
-### Lesson 7 — Rome invades: AD 43
+### Lesson 8 — Raiders from the sea: AD 793
 - **Duration:** 40 min
-- **Objective:** "By the end, I can say when and from where the Romans invaded Britain and what an empire is."
-- **Hook:** "Iron Age Britain had tribes in hillforts. Then a giant, organised army arrived from far across the sea. What happened next?"
-- **Key activity:** Recap Iron Age Britain (Year 3). Explain the Roman **Empire** (already ruling lands round the Mediterranean) and the **invasion in AD 43**, led by a superbly trained **army (legions)**. Locate Rome (Italy) and Britain on the map and grid. Tackle the misconception: Rome is in Italy — the Romans came from abroad.
-- **Check for understanding:** "In what year did the Romans invade Britain, and where did they come from?" → AD 43; from Rome/Italy as part of the Roman Empire.
-- **Differentiation:** support: place "Rome" and "Britain" on a map and name the year. / stretch: explain what made an "empire" different from a single kingdom.
-- **Materials:** a map of the Roman Empire; the timeline; Roman soldier images.
-- **Joy:** the drama of a disciplined legion arriving to conquer Iron Age tribes.
+- **Objective:** "By the end, I can say where the Vikings came from and when their raids on Britain began."
+- **Hook:** "In AD 793, fast ships appeared from nowhere, struck a rich monastery, and vanished. The Viking age had begun."
+- **Key activity:** The first big **Viking** raid hit **Lindisfarne** in **AD 793**. Vikings came from **Scandinavia** (Norway, Denmark, Sweden). Their **longships** were shallow enough to sail up rivers and onto beaches — strike fast, vanish. Place them on the timeline (after Anglo-Saxons). Examine why the longship design made them so deadly.
+- **Check for understanding:** "Where did the Vikings come from, and roughly when did they start raiding Britain?" → Scandinavia (Norway/Denmark/Sweden); from around AD 793 (Lindisfarne).
+- **Differentiation:** support: find Scandinavia on a map; name the start year. / stretch: explain how the longship's shape made surprise raids possible.
+- **Materials:** a map of Scandinavia and the North Sea; a longship diagram; the timeline.
+- **Joy:** designing the perfect raiding longship and seeing why the real ones worked.
 
-### Lesson 8 — What the Romans built and brought
+### Lesson 9 — More than raiders: traders, explorers, settlers
 - **Duration:** 40 min
-- **Objective:** "By the end, I can name three things the Romans built or brought that lasted in Britain."
-- **Hook:** "They had heated floors, public baths and dead-straight roads — 2,000 years ago. Some of those roads are still under ours."
-- **Key activity:** Worked example from the KB — list the lasting impact: **straight roads** (still beneath modern ones), the first **towns/cities** (**Londinium** = London), stone buildings, **public baths**, **central heating** (hypocausts), **coins** and **writing**. Sort "before the Romans" (hillforts, roundhouses) vs "after the Romans" (roads, towns, baths).
-- **Check for understanding:** "Give two things the Romans built or brought that lasted." → any two of: roads, towns/cities (e.g. London), baths/central heating, coins, writing, Hadrian's Wall.
-- **Differentiation:** support: a before/after sort with picture support. / stretch: explain how a Roman thing (a road, London) still affects Britain today.
-- **Materials:** before/after picture cards; a Roman roads map; a hypocaust diagram.
-- **Joy:** discovering the Romans had heated floors and baths 2,000 years ago.
+- **Objective:** "By the end, I can name three things Vikings did besides raiding."
+- **Hook:** "Vikings reached North America 500 years before Columbus — and built a thriving city right here in Britain. Just raiders? Hardly."
+- **Key activity:** Worked example from the KB — weigh the evidence: yes, they raided (Lindisfarne), *but* they also **traded** (Jorvik/**York**), **explored** (Iceland, Greenland, North America), **farmed and settled**, and made fine craft. Sort facts into Raider / Explorer-Trader / Settler. Words we still use from Old Norse (sky, egg, knife, *they*).
+- **Check for understanding:** "Name two things Vikings did *besides* raiding." → any two of: traded, explored (Iceland/Greenland/North America), farmed and settled, made fine crafts, built towns like York.
+- **Differentiation:** support: a three-box sort with support. / stretch: explain why the "only mindless raiders" image is unfair.
+- **Materials:** fact cards; a map of Viking voyages; Old Norse word cards.
+- **Joy:** the surprise that Vikings reached America centuries before Columbus.
 
-### Lesson 9 — Resistance: Boudica's revolt
+### Lesson 10 — Alfred, the Danelaw, and 1066
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that not everyone welcomed the Romans, using Boudica as an example."
-- **Hook:** "A British queen led a fierce army that burned Roman towns to the ground. Who was she, and why did she fight?"
-- **Key activity:** Tell the story of **Queen Boudica** of the Iceni and her revolt (~AD 60), burning Roman towns before being defeated. Use it to break the "everyone was happy the Romans came" misconception: it was an **invasion**, and many Britons fought back. Weigh that the Romans brought useful things *and* conquered by force — both are true.
-- **Check for understanding:** "Who was Boudica?" → a British queen (of the Iceni) who led a revolt against the Romans.
-- **Differentiation:** support: choose two facts about Boudica. / stretch: explain why "everyone welcomed the Romans" is not a fair statement.
-- **Materials:** an image of Boudica; a map of the revolt; the before/after Roman impact list.
-- **Joy:** the dramatic story of a warrior queen who fought the mighty empire.
+- **Objective:** "By the end, I can explain who Alfred the Great was and how the Anglo-Saxon–Viking age ended."
+- **Hook:** "One Anglo-Saxon king refused to give up against the Vikings — and earned the title 'the Great.'"
+- **Key activity:** Vikings conquered so much that part of England became the **Danelaw**. **Alfred the Great** of Wessex resisted them, won in battle, and helped unite English resistance; gradually Saxons and Vikings settled side by side and England became one kingdom — until **1066**, which ends this whole age. Bust the **horned-helmet myth** (no evidence; a Victorian invention).
+- **Check for understanding:** "Did Vikings wear horned helmets?" → no — that's a myth with no evidence; real helmets were plain. (And: who was Alfred the Great? → King of Wessex who resisted the Vikings and helped unite English resistance.)
+- **Differentiation:** support: choose "myth" or "true" for several Viking facts. / stretch: explain how Saxons and Vikings ended up living together.
+- **Materials:** a map of the Danelaw; a "myth or true?" card set; the timeline to 1066.
+- **Joy:** busting the famous horned-helmet myth.
 
-### Lesson 10 — Hadrian's Wall and the end of Roman Britain
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain why Hadrian's Wall was built and roughly when the Romans left."
-- **Hook:** "The Romans built a stone wall right across the north of Britain. What were they keeping out?"
-- **Key activity:** Explain **Hadrian's Wall** — built to defend Roman Britain from tribes to the north (now Scotland), showing ongoing conflict. Locate it on a UK map. Then note Rome weakened and the army left around **AD 410**, leaving roads, towns and ruins behind. Place the whole Roman period on the timeline.
-- **Check for understanding:** "Why did the Romans build Hadrian's Wall?" → to defend Roman Britain from tribes to the north (in what's now Scotland).
-- **Differentiation:** support: find Hadrian's Wall on a UK map. / stretch: explain what the Wall tells us about whether Roman rule was peaceful.
-- **Materials:** a UK map with Hadrian's Wall; an image of the Wall; the timeline.
-- **Joy:** the idea of a wall so long you can still walk along it today.
-
-**End-of-unit check (Unit 3):** Say when/where the Romans invaded; name three lasting Roman things; explain Boudica's revolt and that it was an invasion; explain Hadrian's Wall. **Misconception watch:** Rome is in Italy (Romans came from abroad); not everyone welcomed them; Roman things *did* last (roads, London).
+**End-of-unit check (Unit 3):** Say where/when Vikings raided; name three non-raiding Viking activities; explain Alfred, the Danelaw and 1066; identify the horned-helmet myth. **Misconception watch:** Vikings were not *only* raiders; no horned helmets; Anglo-Saxons came first, Vikings later (Romans → Saxons → Vikings → 1066).
 
 ---
 
-## Unit 4 (Geography) — Climate Zones & Biomes
+## Unit 4 (Geography) — Settlements & Land Use
 
-**Essential question:** Why is one part of the world a steamy jungle and another a frozen desert?
+**Essential question:** Once a settlement grows, how is its land used — and how can we read that from a map?
 
-**Key vocabulary:** weather, climate, climate zone, latitude, temperate, tropical, polar, biome, rainforest, desert, grassland, tundra, adaptation.
+**Key vocabulary:** settlement, land use, residential, commercial, industrial, agricultural, recreational, city centre, countryside, services.
 
-### Lesson 11 — Weather vs climate
+### Lesson 11 — Land use: what land is *for*
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name the main types of land use and give an example of each."
+- **Hook:** "Houses, shops, factories, farms, parks — every patch of land has a job. How many jobs can land have?"
+- **Key activity:** Build on Year 2's settlement hierarchy and site factors. Introduce **land use**: **residential** (homes), **commercial** (shops/offices), **industrial** (factories/warehouses), **agricultural** (farms), **recreational** (parks/sports). Categorize land-use photos. Note land has *many* uses, not just "town vs countryside."
+- **Check for understanding:** "What does 'land use' mean? Give two examples." → what land is used for; e.g. residential (homes), commercial (shops), industrial (factories), agricultural (farms), recreational (parks).
+- **Differentiation:** support: match five photos to five land-use labels. / stretch: find an area with mixed land use and describe it.
+- **Materials:** land-use photo cards; an aerial map of a town.
+- **Joy:** sorting a big pile of place-photos into all five land-use types.
+
+### Lesson 12 — Reading land use from a map
+- **Duration:** 40 min
+- **Objective:** "By the end, I can spot different land uses on a map and describe how city centres differ from edges."
+- **Hook:** "Looking down from above, you can tell shops from houses from fields — if you know the patterns. Can you read the city?"
+- **Key activity:** On an aerial/OS-style map, spot land use by patterns (dense buildings = city centre/commercial; rows of houses = residential; large green = parks/farmland). Note a **city centre** is mostly commercial; **edges and countryside** are more residential and agricultural. Annotate a map with land-use zones.
+- **Check for understanding:** "How does land use differ between a city centre and the countryside?" → city centre is mostly commercial (shops/offices); the countryside is more agricultural and residential.
+- **Differentiation:** support: colour three obvious land-use zones on a simplified map. / stretch: explain *why* shops cluster in the centre.
+- **Materials:** an aerial/OS-style town map; coloured pencils; a land-use key.
+- **Joy:** "reading" a real city from above like a geographer.
+
+### Lesson 13 — Why settlements grow at good sites (revisited & deepened)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain the difference between weather and climate."
-- **Hook:** "London had a hot, sunny day — does that make London a hot country? No. Here's why."
-- **Key activity:** Distinguish **weather** (what's happening today, changes fast) from **climate** (the usual pattern over many years). London's climate is "mild and rainy" even on a rare hot day. Sort statements into "weather" vs "climate."
-- **Check for understanding:** "What's the difference between weather and climate?" → weather is today's conditions; climate is the usual pattern over many years.
-- **Differentiation:** support: a two-box sort with support. / stretch: explain why one hot day doesn't change the UK's climate.
-- **Materials:** weather/climate statement cards; the UK seasons chart (link to KS1).
-- **Joy:** catching out the "one hot day = hot country" trap.
+- **Objective:** "By the end, I can explain why a settlement grew at a particular site and how land use changes as it grows."
+- **Hook:** "London grew where the Thames could be crossed and ships could reach the sea. A perfect spot — but how did its land use change as it boomed?"
+- **Key activity:** Worked example from the KB — at a **river crossing**, site factors stack up (water, trade routes, building land, transport) → a settlement grows → over time, land splits into residential, commercial, industrial, etc. Trace how a village becomes a town and city, with changing land use. Link to the rivers/settlements work from Year 2.
+- **Check for understanding:** "Why might a town grow at a river crossing?" → the river gives water, the crossing lets roads/trade meet, flat banks give building land, boats bring transport — many reasons to settle.
+- **Differentiation:** support: match site factors to "why settle here." / stretch: explain how land use changes as a settlement grows from village to city.
+- **Materials:** a sketch map with a river crossing; site-factor and land-use cards.
+- **Joy:** watching a village "grow" into a city on the map step by step.
 
-### Lesson 12 — Climate zones follow latitude
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain that climate zones follow latitude — hot at the Equator, cold at the poles."
-- **Hook:** "Why is it always hot near the Equator and always cold at the poles? It comes down to those invisible lines from before."
-- **Key activity:** Link to the global grid (Year 3): near the **Equator** = hot all year (**tropical**); near the **poles** = cold all year (**polar**); in between (like the UK) = **temperate** (mild, with seasons). Colour climate-zone bands on a world map and place countries in the right zone.
-- **Check for understanding:** "Where is the climate hot all year, and what zone is the UK in?" → near the Equator (tropical); the UK is temperate.
-- **Differentiation:** support: colour the three main bands on a world map. / stretch: explain why latitude (the angle of sunlight) causes the zones.
-- **Materials:** a blank world map; climate-zone colour key; the globe.
-- **Joy:** colouring the world into hot, mild and cold bands and seeing the pattern.
-
-### Lesson 13 — Biomes: nature's big regions
-- **Duration:** 40 min
-- **Objective:** "By the end, I can name three biomes and match them to their climate."
-- **Hook:** "Rainforest, desert, frozen tundra — each is a whole world of its own. Where does each one belong?"
-- **Key activity:** Introduce **biomes** — large regions with their own climate, plants and animals: **tropical rainforest** (hot, wet), **desert** (very dry), **grassland/savanna**, **temperate forest** (the UK), **tundra** (cold, treeless), **polar** (ice). Match biome → climate and place them on the climate-zone map.
-- **Check for understanding:** "Name three biomes." → any three of: rainforest, desert, grassland/savanna, temperate forest, tundra, polar.
-- **Differentiation:** support: match three biomes to "hot & wet / dry / cold." / stretch: explain why a desert is defined by being *dry*, not hot (Antarctica is a cold desert).
-- **Materials:** biome photo cards; the climate-zone map; a biome/climate matching mat.
-- **Joy:** matching favourite animals to their biome homes.
-
-### Lesson 14 — Adaptation: built for the biome
-- **Duration:** 40 min
-- **Objective:** "By the end, I can give one way a plant or animal is adapted to its biome."
-- **Hook:** "Why does a cactus have spines instead of leaves, and a polar bear thick fur? Each is perfectly built for its home."
-- **Key activity:** Worked example from the KB — a **cactus** stores water in its fat stem and has spines instead of leaves to lose less water (desert); a **polar bear** has thick fur and fat (polar). Match animals/plants to biomes and explain one adaptation each. Tackle "animals can live anywhere" — they're adapted to a *particular* biome.
-- **Check for understanding:** "Give one way a cactus is adapted to the desert." → it stores water in its stem / has spines instead of leaves to lose less water.
-- **Differentiation:** support: match animal → biome with support. / stretch: explain why a camel couldn't survive the Arctic.
-- **Materials:** animal/plant cards; biome mats; a cactus and a broad leaf to compare.
-- **Joy:** being an "adaptation detective" — working out *why* each creature is built that way.
-
-**End-of-unit check (Unit 4):** Explain weather vs climate; explain climate zones follow latitude; name three biomes and match to climate; give one adaptation. **Misconception watch:** weather ≠ climate; deserts are defined by dryness (not heat/sand); wild animals are adapted to a particular biome.
+**End-of-unit check (Unit 4):** Name the five land-use types with examples; read land use from a map; explain why settlements grow at good sites and how land use changes. **Misconception watch:** a city differs from a town in size *and* services; settlements grew for reasons; land has many uses, often mixed.
 
 ---
 
-## Unit 5 (Geography) — Fieldwork: being a geographer outdoors
+## Unit 5 (History) — A Non-European Civilisation: the Maya
 
-**Essential question:** How do geographers collect their own reliable evidence about a real place?
+**Essential question:** Could a civilisation far from Europe be just as advanced — or even ahead?
 
-**Key vocabulary:** fieldwork, data, observe, measure, tally, survey, questionnaire, sketch map, systematic, fair, present, conclude.
+**Key vocabulary:** Maya, Central America, rainforest, Tikal, Chichén Itzá, pyramid-temple, astronomer, calendar, zero, glyphs, maize, cacao, descendants.
 
-### Lesson 15 — The fieldwork cycle
+### Lesson 14 — Cities in the rainforest
 - **Duration:** 40 min
-- **Objective:** "By the end, I can put the steps of a fieldwork investigation in order."
-- **Hook:** "Geographers don't just read maps — they go outside and find things out for themselves. But there's a right way to do it."
-- **Key activity:** Teach the cycle: **ask a question → choose a method → collect data → present it → explain/conclude**. Discuss methods: a **tally count**, a **survey/questionnaire**, a **sketch map**, **measuring**. Order the steps; match each method to a question it could answer.
-- **Check for understanding:** "Put the fieldwork steps in order: present, ask a question, collect data, choose a method, conclude." → ask a question → choose a method → collect data → present → conclude.
-- **Differentiation:** support: order the five steps with picture support. / stretch: match three methods to three questions.
-- **Materials:** step cards; method cards; example question cards.
-- **Joy:** planning to investigate a real question about their own street or local area.
+- **Objective:** "By the end, I can locate the Maya and explain they lived at the same time as the Anglo-Saxons, far away."
+- **Hook:** "While Anglo-Saxons farmed villages in Britain, on the other side of the world people were carving huge stone cities out of the jungle."
+- **Key activity:** Locate the **Maya** in **Central America** (Mexico, Guatemala, Belize) on the world map. Their cities — **Tikal**, **Chichén Itzá** — had stone **pyramid-temples**, palaces and ball-courts. They flourished ~**AD 250–900**, the *same time* as the Anglo-Saxons (Year 3 chronology: same time, different place). Compare on the timeline.
+- **Check for understanding:** "Where and roughly when did the Maya civilisation flourish?" → in Central America (Mexico/Guatemala etc.), around AD 250–900 — at the same time as the Anglo-Saxons.
+- **Differentiation:** support: find Central America on the map; name "rainforest." / stretch: explain how two peoples can live at once but never meet.
+- **Materials:** a world map; images of Tikal/Chichén Itzá; the timeline.
+- **Joy:** the jaw-drop of giant stone pyramids hidden in the jungle.
 
-### Lesson 16 — Be systematic and fair
+### Lesson 15 — Maya genius: zero, the calendar and the stars
+- **Duration:** 40 min
+- **Objective:** "By the end, I can give two impressive Maya achievements and name something they had before Europe."
+- **Hook:** "The Maya understood the number *zero* and built one of the most accurate calendars ever — centuries before Europe caught up."
+- **Key activity:** Worked example from the KB — test "were the Maya advanced?": they used **zero** and place-value maths, built an accurate **calendar**, were superb **astronomers**, and wrote in **glyphs** — all without metal tools or the wheel for transport. Crack the Maya number code (dots and bars) and the idea of zero. Mention **maize** and **cacao** (chocolate — even used as money).
+- **Check for understanding:** "Name one thing the Maya had that Europe didn't have for a long time afterwards." → the concept of zero (and a very accurate calendar).
+- **Differentiation:** support: write a number in Maya dots and bars. / stretch: explain why "faraway old peoples were primitive" is wrong.
+- **Materials:** a Maya number chart (dots/bars); a glyph sheet; a cacao image.
+- **Joy:** writing numbers in Maya symbols and learning chocolate was once money.
+
+### Lesson 16 — Did the Maya disappear?
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain why fieldwork must use the same method each time to be fair."
-- **Hook:** "If I count cars for 2 minutes here and 10 minutes there, can I really compare? Why not?"
-- **Key activity:** Teach the golden rule: be **systematic and fair** — same method, same time, same question — or the results are meaningless. Spot the unfairness in a flawed plan (different counting times) and fix it. Design a fair tally count.
-- **Check for understanding:** "Why must you use the same method each time?" → so it's fair and you can compare; systematic data is meaningful, messy data isn't.
-- **Differentiation:** support: choose the "fair" plan from two options. / stretch: spot and fix two unfair choices in a sample plan.
-- **Materials:** a flawed-plan example; a tally chart template.
-- **Joy:** catching the "cheats" in an unfair survey and fixing them.
+- **Objective:** "By the end, I can explain that Maya cities were abandoned but the Maya people did not vanish."
+- **Hook:** "Around AD 900, the great Maya cities were mysteriously abandoned. So did the Maya disappear? Not at all."
+- **Key activity:** Many great cities were **abandoned** ~AD 900 (likely drought, war, overused land). Crucially, **the Maya people did not vanish** — millions of descendants live in Central America today and still speak Maya languages. Tackle two misconceptions: the Maya didn't "die out," and the Maya, Aztecs and Incas were different peoples.
+- **Check for understanding:** "Did the Maya people all disappear?" → no — their big cities were abandoned ~AD 900, but millions of Maya descendants live today.
+- **Differentiation:** support: choose true/false for "the Maya all died out." / stretch: explain the difference between a city being abandoned and a people disappearing.
+- **Materials:** images of abandoned cities and of modern Maya communities; a map.
+- **Joy:** the powerful reveal that the Maya are still here today.
 
-### Lesson 17 — Collect, present and conclude
-- **Duration:** 40 min
-- **Objective:** "By the end, I can present fieldwork data and use it to answer a question."
-- **Hook:** "We counted 4 people at 9am and 22 at 4pm. So… is our park well used, and when?"
-- **Key activity:** Worked example from the KB — a 10-minute **tally count** of park users at two times (9am: 4; 4pm: 22) → present as a small **bar chart** → conclude: the park is used much more after school. If a safe space is available (with a grown-up), carry out a real 10-minute count; otherwise use the sample data.
-- **Check for understanding:** "What is fieldwork in geography?" → collecting your own data outdoors by observing, measuring, counting and recording to answer a question.
-- **Differentiation:** support: fill in a part-made bar chart and read off the busiest time. / stretch: write a full conclusion explaining *why* the busier time is busier.
-- **Materials:** a tally chart; bar-chart paper; (if safe) a clipboard and a grown-up.
-- **Joy:** turning their own counts into a chart and "solving" a real question.
-
-**End-of-unit check (Unit 5):** Order the fieldwork cycle; explain why method must stay the same; present data and draw a conclusion that answers the question. **Misconception watch:** fieldwork is structured (not "a day off"); the method must be consistent; data must be presented and explained, not just collected.
+**End-of-unit check (Unit 5):** Locate the Maya and place them at the same time as the Anglo-Saxons; give two achievements (zero, calendar, glyphs, cities); explain the cities were abandoned but the people remain. **Misconception watch:** the Maya did *not* die out; "advanced" isn't only European; Maya ≠ Aztecs ≠ Incas.
 
 ---
 
-## Unit 6 (History) — Chronology: putting the periods in order
+## Unit 6 (History) — Working with Sources: how do we really know?
 
-**Essential question:** How do all the periods we've studied fit on one long timeline, and how does BC/AD work?
+**Essential question:** How do historians decide whether to trust the clues they find?
 
-**Key vocabulary:** chronology, timeline, BC, AD, before, after, century, overlap, period, order.
+**Key vocabulary:** source, primary, secondary, evidence, reliable, biased, incomplete, cross-check, who/when/why.
 
-### Lesson 18 — One long timeline
+### Lesson 17 — Primary and secondary sources
 - **Duration:** 40 min
-- **Objective:** "By the end, I can place this year's and last year's periods on one timeline in the right order."
-- **Hook:** "Stone Age, Egypt, Greece, Romans — it's easy to muddle them. Let's line them all up so they never get jumbled again."
-- **Key activity:** Make a "washing-line timeline." Peg on, oldest → newest: **Stone Age → Ancient Egypt/Sumer/Indus (~3000 BC) → Ancient Greece (~2,500 years ago) → Romans in Britain (AD 43)**. Stretch a string to show most of it is the Stone Age — everything famous is squashed at one end.
-- **Check for understanding:** "Order oldest → newest: Romans in Britain, Stone Age, Ancient Greece, Ancient Egypt." → Stone Age → Ancient Egypt → Ancient Greece → Romans in Britain.
-- **Differentiation:** support: peg four periods in order. / stretch: explain why the Stone Age takes up most of the line.
-- **Materials:** a washing line and pegs; period cards with rough dates; a long string.
-- **Joy:** building the whole washing-line timeline across the room and seeing the giant gaps.
+- **Objective:** "By the end, I can sort sources into primary and secondary and explain the difference."
+- **Hook:** "Samuel Pepys's diary, a Roman coin, your school textbook — which were made at the time, and which were made later?"
+- **Key activity:** Define **primary** (made at the time — a diary, coin, photo, tool, the Sutton Hoo helmet, the Rosetta Stone) vs **secondary** (made later by someone studying it — a textbook, museum label, documentary, this lesson). Sort a mixed set into primary/secondary, drawing on sources met this year and last.
+- **Check for understanding:** "What is the difference between a primary and a secondary source?" → primary = made at the time (diary, coin, photo); secondary = made later by someone studying it (textbook, documentary).
+- **Differentiation:** support: a two-box sort with support. / stretch: classify a tricky example (a museum reconstruction) and justify it.
+- **Materials:** a mixed source set (Roman coin, textbook, 1940 photo, museum label, helmet, documentary).
+- **Joy:** sorting real historical objects like a museum curator.
 
-### Lesson 19 — BC and AD: counting time both ways
+### Lesson 18 — Is this source reliable?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use BC and AD correctly and say which of two dates is older."
-- **Hook:** "Here's a brain-twister: is 2000 BC older or newer than 500 BC? Most people get it wrong!"
-- **Key activity:** Teach the rule: **BC counts *down* toward 0** (bigger BC number = older); **AD counts *up*** from there. Worked example: order 3000 BC, 500 BC, AD 43, AD 1066. Drill several "which is older?" questions. Note that two peoples can live at the same time but far apart in space (a Year 5 set-up for the Maya).
-- **Check for understanding:** "Which is older, 1500 BC or 200 BC?" → 1500 BC (bigger BC number = further back).
-- **Differentiation:** support: order two BC dates with a number line. / stretch: order a mixed BC/AD set correctly.
-- **Materials:** a BC/AD number line crossing 0; date cards.
-- **Joy:** mastering the BC trick that catches grown-ups out.
+- **Objective:** "By the end, I can ask who/when/why to judge if a source is reliable, and explain why historians use more than one."
+- **Hook:** "A winning king's scribe says it was 'a glorious victory.' The village's death list tells a different story. Who do you believe?"
+- **Key activity:** Sources can be **incomplete** (wood rots, gold lasts), **biased** (the Romans wrote about "barbarians"), or made to **persuade**. Before trusting one, ask **Who? When? Why?**. Worked example from the KB: the scribe vs the village death list — use *both*, and note the scribe's **bias**. Spot bias in an old advert/poster. Stress: historians **cross-check** several sources.
+- **Check for understanding:** "Name two questions you'd ask to judge if a source is reliable." → any two of: Who made it? When? Why (to record/boast/persuade)? Does another source agree?
+- **Differentiation:** support: pick the more reliable of two sources for a question and say why. / stretch: explain why even a primary source can be unreliable.
+- **Materials:** the scribe vs death-list example; an old advert/propaganda poster; question cards.
+- **Joy:** catching the "spin" in a biased source and seeing through it.
 
-### Lesson 20 — Who could have met whom?
-- **Duration:** 35 min
-- **Objective:** "By the end, I can use the timeline to judge whether two peoples could have met."
-- **Hook:** "Could a Viking have met a Roman? Could a pharaoh have visited Stonehenge? The timeline knows the answer."
-- **Key activity:** Use the timeline to reason about overlap in **time** and distance in **space**. Could a Roman meet a Viking? (No — centuries apart.) Were Egypt's pyramids already ancient when the Romans came? (Yes.) The child answers "could they meet?" questions posed by the tutor and justifies each with the timeline.
-- **Check for understanding:** "Were Egypt's pyramids already old when the Romans invaded Britain? How do you know?" → yes — Egypt is ~3000 BC and the Romans invaded in AD 43, thousands of years later.
-- **Differentiation:** support: answer one "could they meet?" with the timeline visible. / stretch: explain a case where two peoples overlapped in time but not space.
-- **Materials:** the washing-line timeline; "could they meet?" question cards.
-- **Joy:** the satisfying "no way!" of realising how far apart famous periods really are.
-
-**End-of-unit check (Unit 6):** Place the studied periods on one timeline; use BC/AD and judge which date is older; reason about whether two peoples could have met. **Misconception watch:** bigger BC number = older (not newer); "ancient" periods are *not* all the same time; same time ≠ same place.
+**End-of-unit check (Unit 6):** Sort sources into primary/secondary; ask who/when/why to judge reliability; explain why historians cross-check several sources. **Misconception watch:** "written down / primary" doesn't mean true; a textbook is secondary; one good source isn't enough.
 
 ---
 
@@ -276,11 +256,11 @@ Year 4 carries the chronological journey forward from the deep past into the **c
 
 A Year 4 child who has mastered this year should be able to:
 
-1. **(History — Ancient Greece)** Explain city-states, give one Athens/Sparta difference, define democracy (with its honest limits), and name three Greek legacies.
-2. **(History — Romans)** Say when/where the Romans invaded, name three lasting Roman things in Britain, and explain that it was an invasion many resisted (Boudica, Hadrian's Wall).
-3. **(History — chronology)** Place Stone Age → Egypt → Greece → Romans on one timeline and use BC/AD (bigger BC number = older).
-4. **(History — reasoning)** Use a timeline to judge whether two peoples could have met, distinguishing time from place.
-5. **(Geography — water cycle)** Name the four stages of the water cycle in order and explain that rain is recycled water.
-6. **(Geography — climate)** Explain weather vs climate and that climate zones follow latitude (tropical / temperate / polar).
-7. **(Geography — biomes)** Name three biomes, match them to their climate, and give one adaptation of a plant or animal.
-8. **(Geography — fieldwork)** Order the fieldwork cycle, explain why the method must stay the same, and present data to answer a question.
+1. **(History — Anglo-Saxons)** Say who settled Britain after Rome and where "England" comes from, and name Sutton Hoo as a source.
+2. **(History — Vikings)** Say where/when Vikings raided, name three non-raiding Viking activities, explain Alfred/the Danelaw/1066, and identify the horned-helmet myth.
+3. **(History — the Maya)** Locate the Maya, place them at the same time as the Anglo-Saxons, give two achievements, and explain the people did not vanish.
+4. **(History — sources)** Sort primary vs secondary sources and ask who/when/why to judge reliability, explaining why historians cross-check.
+5. **(Geography — tectonics)** Explain tectonic plates, how mountains form, magma vs lava, and what causes earthquakes (and why the three cluster at plate boundaries).
+6. **(Geography — land use)** Name the five land-use types with examples and read land use from a map.
+7. **(Geography — settlements)** Explain why settlements grow at good sites and how their land use changes as they grow.
+8. **(Cross-strand)** Use the world map and timeline together to explain "same time, different place" (Maya and Anglo-Saxons) and Viking voyages across the oceans.

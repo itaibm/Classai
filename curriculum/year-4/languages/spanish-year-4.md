@@ -1,4 +1,4 @@
-# Spanish — Year 4 (ages 8–9, KS2) — Lesson Outlines
+# Spanish — Year 4 (ages 9–10, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > This file breaks **Year 4 Spanish** into **20–40 minute lesson outlines**, drawn from
@@ -10,224 +10,235 @@
 
 ## Year overview
 
-Year 4 moves from single words to **short, real sentences**. The big new ideas are *tener* (to
-have), possessives *mi/mis*, **adjective agreement** at colour level (*un gato negro / una vaca
-blanca*), and two whole new topic worlds (family, animals) plus calendar and weather.
+Year 4 is the year of **longer, connected speech**. Children move from single facts to opinions
+*with reasons*, stitched together with connectives (*y, pero, porque, también, o*). New topic
+worlds — food, hobbies, the body, time, directions — give plenty to talk about, and a region/festival
+study deepens intercultural understanding.
 
-- **Listening:** follow short descriptions and questions about family, pets and weather.
-- **Speaking:** introduce family, say what pet you have and describe it, give the date and the weather.
-- **Reading:** read short labelled sentences and match them to pictures.
-- **Writing:** write a few captioned sentences (a family tree label, a pet description) with correct *un/una*.
-- **Phonics/pronunciation:** consolidate *rr* (*perro*), accents marking stress (*plátano, miércoles*).
-- **Vocabulary:** family, animals, days, months, weather; plus survival lesson phrases.
-- **Grammar:** *mi/mis*; *tener* for "have"/age; first **agreement** (*-o/-a*); *hace…/está…* for weather; date order day-de-month.
-- **Intercultural:** Spanish festivals tied to dates; Spanish weather vs home; animal sounds.
+- **Listening:** follow longer turns containing opinions, reasons and several joined ideas.
+- **Speaking:** express likes/dislikes with reasons; talk about hobbies; tell the time; give directions; run a café order.
+- **Reading:** read short connected paragraphs (a café menu, an opinion text) and pick out meaning.
+- **Writing:** write 3–4 connected sentences using connectives (a "what I like and why" paragraph).
+- **Phonics/pronunciation:** stress and accents on longer words (*plátano, miércoles, derecha*); *z/c* = "th"/"s".
+- **Vocabulary:** food & drink, hobbies & sports, body, time, places in town & directions.
+- **Grammar:** *me gusta* vs *me gustan*; plain verb after *me gusta*; *me encanta*; plurals (*-s/-es*); *me duele*; *Es la/Son las…*; *está* for location; **connectives**.
+- **Intercultural:** a region or festival study (e.g. Mexico / *Día de los Muertos*); the Spanish-speaking world.
 
-How it builds on Year 3: Year 3 gave the sounds, greetings, numbers, colours and noun gender.
-Year 4 **uses** them inside sentences — numbers power age and dates, colours now *agree* with the
-animals they describe, and *un/una* extends to a verb (*tengo un perro*). Survival lesson
-phrases let lessons run increasingly in Spanish.
-
----
-
-## Unit 1 — La familia: my family
-
-**Essential question:** How do I introduce my family and say how old they are?
-
-**Key vocabulary:** *madre, padre, hermano, hermana, abuelo/a, tío/a, primo/a, bebé; mi, mis; este es…, esta es…, se llama…, tiene … años; ¿cómo se llama?, ¿cuántos años tiene?*
-
-### Lesson 1 — Los miembros de la familia
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name family members in Spanish."
-- **Hook:** Draw a family tree — but everyone's label is in Spanish.
-- **Key activity:** Listen → repeat *madre, padre, hermano* (er-MA-no)*, hermana, abuelo/a, tío/a, primo/a, bebé.* Note *-o*=boy, *-a*=girl (herman**o**/herman**a**). Produce: label a tree.
-- **Check for understanding:** "Say 'brother' and 'sister.'" → *hermano, hermana.*
-- **Differentiation:** support: match word to a face card / stretch: name cousins and uncles/aunts too.
-- **Materials:** blank family-tree sheet, family photo cards.
-- **Joy:** make a tree for a favourite cartoon family and label it in Spanish.
-
-### Lesson 2 — Mi y mis: saying "my"
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say 'my…' for one person (*mi*) and more than one (*mis*)."
-- **Hook:** One brother or two? Spanish changes the word for "my."
-- **Key activity:** Listen → *mi madre* (one), *mis abuelos* (more than one). Drill: one finger = *mi*, two fingers = *mis*. Produce: say *mi…* / *mis…* for several family members.
-- **Check for understanding:** "Say 'my mother' and 'my grandparents.'" → *mi madre, mis abuelos.*
-- **Differentiation:** support: choose *mi/mis* with finger cue / stretch: a full sentence with *mis primos*.
-- **Materials:** finger cue cards (1 = mi, 2 = mis).
-- **Joy:** "one or many?" clap game — clap once for *mi*, twice for *mis*.
-
-### Lesson 3 — Este es mi… + age
-- **Duration:** 30 min
-- **Objective:** "By the end, I can introduce a family member with their name and age."
-- **Hook:** Show a photo and tell us *who* it is and *how old* — all in Spanish.
-- **Key activity:** Listen → *Este es mi padre* (man) / *Esta es mi madre* (woman); *Se llama…*; *Tiene siete años* (age uses *tener*, recycled from Y3). Produce: introduce three family members.
-- **Check for understanding:** "Introduce your brother Sam, age 8." → *Este es mi hermano. Se llama Sam. Tiene ocho años.*
-- **Differentiation:** support: sentence frames on strips / stretch: ask the tutor *¿Cuántos años tiene?* about their family.
-- **Materials:** family photos or drawings, sentence-frame strips.
-- **Joy:** "family museum" — present your tree like a tour guide.
-
-**End-of-unit check:** child introduces three family members (*Este/Esta es mi… Se llama… Tiene … años*) using *mi/mis* correctly.
+How it builds on Year 3: Year 3 produced short single sentences. Year 4 **connects** them — *porque*
+turns a like into an argued opinion, *y/pero/también* chain ideas, and topics demand multi-sentence
+answers. *Me gusta* now flexes to *me gustan* for plurals, and the body topic introduces plural
+rules and *me duele*.
 
 ---
 
-## Unit 2 — Los animales: animals & pets
+## Unit 1 — La comida: food, drink & opinions
 
-**Essential question:** What pets and animals can I name and describe?
+**Essential question:** How do I say what food I like and dislike, with a plural twist?
 
-**Key vocabulary:** *un perro, un gato, un pez, un conejo, un pájaro, un caballo, un ratón, una tortuga, una vaca, un león, un elefante; tengo…, no tengo…, ¿tienes un animal?; negro/a, blanco/a (agreement).*
+**Key vocabulary:** *el pan, el queso, la fruta, la manzana, el plátano, la naranja, el pollo, el pescado, el agua, la leche, el zumo, el helado, el chocolate; me gusta / me gustan, no me gusta, quiero…, por favor.*
 
-### Lesson 4 — Tengo un perro: animals & *tener*
+### Lesson 1 — La comida: naming food & drink
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name pets and say which I have (*Tengo un…*)."
-- **Hook:** Does a Spanish dog say "woof"? It says *guau*! Meet the animals.
-- **Key activity:** Listen → repeat *un perro* (roll the *rr*), *un gato, un pez, un conejo, un pájaro, una tortuga.* Then *Tengo un… / No tengo un animal.* Produce: say your real or dream pet.
-- **Check for understanding:** "Say 'I have a dog.'" → *Tengo un perro.*
-- **Differentiation:** support: *Tengo un ___* with a picture / stretch: list two pets with *y*.
-- **Materials:** animal flashcards, toy animals.
-- **Joy:** animal-sound charades — make the sound, the tutor names it in Spanish, then swap roles.
+- **Objective:** "By the end, I can name common foods and drinks in Spanish."
+- **Hook:** Could you read a Spanish menu? By the end of today — yes.
+- **Key activity:** Listen → repeat *el pan, el queso, la fruta, la manzana, el plátano* (PLA-ta-no)*, el pollo* (PO-yo)*, el zumo* (THOO-mo)*, el agua, la leche, el helado.* Produce: point-and-name a food picture set.
+- **Check for understanding:** "Name three foods in Spanish." → e.g. *el pan, el pollo, la manzana.*
+- **Differentiation:** support: match word to picture / stretch: sort foods into *comida/bebida* (food/drink).
+- **Materials:** food/drink flashcards, a mock menu.
+- **Joy:** build a pretend Spanish lunch tray and name each item.
 
-### Lesson 5 — ¿Tienes un animal? (asking)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can ask someone if they have a pet and answer back."
-- **Hook:** Find out who at home has a pet — but only ask in Spanish.
-- **Key activity:** Listen → *¿Tienes un animal?* → *Sí, tengo un… / No, no tengo un animal.* Keep the *un/una* (don't drop it). Produce: "pet survey" — interview the tutor and family members.
-- **Check for understanding:** "Ask someone if they have a pet." → *¿Tienes un animal?*
-- **Differentiation:** support: yes/no answer only / stretch: report the tutor's answer (*Tiene un gato*).
-- **Materials:** survey grid with animal pictures.
-- **Joy:** tally the household's pets (real and dream) on a big chart and announce the winner in Spanish.
-
-### Lesson 6 — Un gato negro: colours that agree
+### Lesson 2 — Me gusta vs me gustan
 - **Duration:** 30 min
-- **Objective:** "By the end, I can describe an animal's colour, making the colour agree (*-o/-a*)."
-- **Hook:** A black *cat* and a black *cow* — the word "black" changes its ending. Why?
-- **Key activity:** Recycle colours; show agreement: *un gato negr**o*** (masc.) vs *una vaca negr**a*** (fem.). Colour goes *after* the noun. Practise → produce: describe several animals by colour.
-- **Check for understanding:** "Describe a black cat, then a black cow." → *un gato negro / una vaca negra.*
-- **Differentiation:** support: choose the *-o/-a* ending with a cue / stretch: describe three animals, mixing genders.
-- **Materials:** coloured animal cards (masc. & fem. nouns).
-- **Joy:** "colour-the-zoo" — colour animals, then describe them in agreeing Spanish.
+- **Objective:** "By the end, I can say I like one food (*me gusta*) or several (*me gustan*)."
+- **Hook:** One apple = *me gusta*. Lots of apples = *me gustan*. The verb grows an "n"!
+- **Key activity:** Show *Me gusta el queso* (one) vs *Me gustan las manzanas* (plural). Explain Spanish says "the cheese pleases me." Practise → produce: like one + like many.
+- **Check for understanding:** "Say 'I like apples' (plural)." → *Me gustan las manzanas.*
+- **Differentiation:** support: choose *gusta/gustan* from a cue / stretch: mix singular + plural in one turn.
+- **Materials:** singular/plural food cards.
+- **Joy:** "one or many" buzzer game — buzz *gusta* or *gustan* fast.
 
-**End-of-unit check:** child says which pet they have, asks the tutor, and describes one masculine and one feminine animal with an agreeing colour.
+### Lesson 3 — En el café: ordering
+- **Duration:** 30 min
+- **Objective:** "By the end, I can order food politely and say one like and one dislike."
+- **Hook:** Step up to a Spanish café counter and order — *Quiero…, por favor.*
+- **Key activity:** Listen → *¿Qué quieres?* → *Quiero un zumo, por favor.* Add *Me gusta… pero no me gusta…* Practise → produce: full café exchange in pairs.
+- **Check for understanding:** "Order a juice politely." → *Quiero un zumo, por favor.*
+- **Differentiation:** support: order one item / stretch: order two items with a like + dislike.
+- **Materials:** café menu, play food, "waiter" apron.
+- **Joy:** run a real mini-café with a till and play money.
+
+**End-of-unit check:** child names foods, uses *me gusta*/*me gustan* correctly, and completes a café order with *Quiero… por favor* plus a like and a dislike.
 
 ---
 
-## Unit 3 — El calendario: days, months & birthdays
+## Unit 2 — Los pasatiempos: hobbies & opinions with reasons
 
-**Essential question:** How do I say the date and when my birthday is?
+**Essential question:** How do I say what I like to do and *why*?
 
-**Key vocabulary:** *lunes, martes, miércoles, jueves, viernes, sábado, domingo; enero…diciembre; hoy es…, el … de …, ¿cuándo es tu cumpleaños?, mi cumpleaños es el…*
+**Key vocabulary:** *jugar, leer, cantar, bailar, nadar, dibujar, correr, ver la tele; jugar al fútbol/tenis/baloncesto; me gusta + plain verb, me encanta, porque, es divertido; y, pero, también, o.*
 
-### Lesson 7 — Los días de la semana
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say the days of the week (starting Monday) and today's day."
-- **Hook:** Spanish weeks start on Monday — and the days are *not* capitalised. Spot the difference!
-- **Key activity:** Listen → repeat *lunes, martes, miércoles* (mee-AIR-ko-les)*, jueves, viernes, sábado, domingo.* Note lower-case. Produce: *Hoy es…* (today is…), order day cards.
-- **Check for understanding:** "Say the days of the week." → lunes…domingo.
-- **Differentiation:** support: order 3 days / stretch: say yesterday/tomorrow's day too.
-- **Materials:** day cards, a weekly calendar.
-- **Joy:** a days-of-the-week chant/song to a clapping beat.
-
-### Lesson 8 — Los meses del año
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name the months of the year in Spanish."
-- **Hook:** Twelve new words — but lots look like English. Hunt the cousins!
-- **Key activity:** Listen → repeat *enero…diciembre* (lower-case). Spot near-cognates (*marzo, abril, septiembre*). Produce: say the month of your birthday; order month cards.
-- **Check for understanding:** "Name three months in Spanish." → any three, e.g. *enero, mayo, agosto.*
-- **Differentiation:** support: match month to a season picture / stretch: say all twelve in order.
-- **Materials:** month cards, seasons pictures.
-- **Joy:** "birthday line-up" — order the family's birthday months, calling out *mi mes es…* for your own.
-
-### Lesson 9 — La fecha & mi cumpleaños
+### Lesson 4 — Me gusta + plain verb
 - **Duration:** 30 min
-- **Objective:** "By the end, I can give a date (day-month) and say when my birthday is."
-- **Hook:** In Spanish the day comes *before* the month. *El 4 de mayo* — never "mayo 4."
-- **Key activity:** Show date = *el* + number + *de* + month; recycle numbers. *¿Cuándo es tu cumpleaños?* → *Mi cumpleaños es el 12 de junio.* Produce: the child gives their birthday and asks the tutor theirs.
-- **Check for understanding:** "Say 'the 10th of July.'" → *el diez de julio.*
-- **Differentiation:** support: fill *el ___ de ___* / stretch: give a family member's birthday and a festival date.
-- **Materials:** number cards, blank calendar.
-- **Joy:** mark the whole family's birthdays on a big Spanish wall calendar.
+- **Objective:** "By the end, I can say what I like doing (the verb stays plain after *me gusta*)."
+- **Hook:** *Me gusta nadar* — after *me gusta*, the action verb doesn't change. Easy!
+- **Key activity:** Listen → *jugar, leer, cantar, bailar, nadar, dibujar.* Sports: *jugar al fútbol/tenis/baloncesto* (keep the *al*). Produce: two activities you like with *y*.
+- **Check for understanding:** "Say 'I like to swim.'" → *Me gusta nadar.*
+- **Differentiation:** support: *Me gusta ___* with a verb card / stretch: add a sport with *jugar al…*.
+- **Materials:** activity/sport flashcards.
+- **Joy:** charades — mime a hobby, others say *Te gusta…?*
 
-**End-of-unit check:** child says the days in order, three months, and answers *¿Cuándo es tu cumpleaños?* with a correct day-de-month date.
-
----
-
-## Unit 4 — El tiempo: weather
-
-**Essential question:** How do I describe today's weather in Spanish?
-
-**Key vocabulary:** *¿qué tiempo hace?, hace sol, hace calor, hace frío, hace viento, hace buen/mal tiempo, está lloviendo, está nevando, está nublado; y.*
-
-### Lesson 10 — ¿Qué tiempo hace? (hace…)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say sunny/hot/cold/windy weather with *hace…*"
-- **Hook:** Spanish says weather "makes" sun — *hace sol*. Be the forecaster!
-- **Key activity:** Listen → repeat *Hace sol, hace calor, hace frío* (FREE-oh)*, hace viento.* Ask *¿Qué tiempo hace?* Produce: respond to weather-icon flashcards.
-- **Check for understanding:** "Say 'it's sunny.'" → *Hace sol.*
-- **Differentiation:** support: match icon to phrase / stretch: add *hace buen/mal tiempo*.
-- **Materials:** weather-icon flashcards.
-- **Joy:** be a TV weather presenter pointing at a map.
-
-### Lesson 11 — Está lloviendo (está…) and joining with *y*
+### Lesson 5 — Porque: opinions with reasons
 - **Duration:** 30 min
-- **Objective:** "By the end, I can use *está…* for rain/snow/cloud and join two weather facts with *y*."
-- **Hook:** Rain, snow and cloud break the rule — they use *está*, not *hace*. Learn the chunks!
-- **Key activity:** Listen → *Está lloviendo, está nevando, está nublado.* Sort: *hace* (sun/heat/cold/wind) vs *está* (rain/snow/cloud). Join: *Hace frío y está lloviendo.* Produce: a two-part forecast.
-- **Check for understanding:** "Say 'it's raining.'" → *Está lloviendo.*
-- **Differentiation:** support: pick the right verb from two cards / stretch: a three-part forecast with *y*.
-- **Materials:** *hace/está* sorting mat, weather icons.
-- **Joy:** "forecast for a faraway place" — invent the weather on a made-up island.
+- **Objective:** "By the end, I can give an opinion and back it with *porque*."
+- **Hook:** "I like football" is fine — "I like football *because it's fun*" is brilliant.
+- **Key activity:** Listen → *me encanta* (love), *no me gusta*; add a reason *…porque es divertido / aburrido (boring) / fácil / difícil.* Practise → produce: opinion + *porque* reason.
+- **Check for understanding:** "Why do you like dancing?" → e.g. *Me gusta bailar porque es divertido.*
+- **Differentiation:** support: pick a reason from a bank / stretch: use *me encanta* and a contrast.
+- **Materials:** reason-word cards (*divertido, aburrido, fácil, difícil*).
+- **Joy:** "rate my hobby" thumbs game with spoken reasons.
 
-**End-of-unit check:** child answers *¿Qué tiempo hace?* with a two-part forecast, choosing *hace* and *está* correctly and joining with *y*.
-
----
-
-## Unit 5 — En clase en español: survival language & review
-
-**Essential question:** How do I keep the whole lesson going in Spanish?
-
-**Key vocabulary:** *no entiendo, ¿cómo se dice…?, ¿puedes repetir, por favor?, otra vez por favor, no sé, ¿puedo ir al baño?; gracias, de nada.*
-
-### Lesson 12 — Survival phrases (staying in Spanish)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can ask for help in Spanish instead of switching to English."
-- **Hook:** What do good language learners do when they're stuck? They ask — in Spanish!
-- **Key activity:** Listen → learn chunks: *No entiendo, ¿Cómo se dice…?, ¿Puedes repetir, por favor?, Otra vez por favor, No sé.* Produce: respond to English "stuck" situations with the right phrase.
-- **Check for understanding:** "Say 'I don't understand.'" → *No entiendo.*
-- **Differentiation:** support: match situation to phrase / stretch: use a survival phrase to actually learn a new word (*¿Cómo se dice "fish"?*).
-- **Materials:** situation cards, phrase posters.
-- **Joy:** "stuck challenge" — earn a point each time you stay in Spanish when stuck.
-
-### Lesson 13 — Las fiestas: a Spanish festival (culture)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name a Spanish-speaking festival and say its date in Spanish."
-- **Hook:** In Spain, kids get presents on *el 6 de enero* from the Three Kings — not just at Christmas!
-- **Key activity:** Explore *Navidad*, *los Reyes Magos* (6 Jan, Spain), and *La Tomatina* (a friendly tomato fight). Recycle months for dates. Produce: say a festival + its date.
-- **Check for understanding:** "What happens on *el 6 de enero* in Spain?" → *Los Reyes Magos* — children often get presents.
-- **Differentiation:** support: match festival to picture / stretch: say the date fully in Spanish.
-- **Materials:** festival pictures, calendar.
-- **Joy:** make a Three Kings crown or a tomato-fight collage.
-
-### Lesson 14 — Year-4 review: all about me and mine
+### Lesson 6 — Connectives: longer sentences (y, pero, también, o)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can give a short spoken profile: family, a pet, my birthday and the weather."
-- **Hook:** Give the tutor a "this is my world" mini-presentation — in Spanish.
-- **Key activity:** Recombine all units: *Este es mi hermano… Tengo un gato negro… Mi cumpleaños es el… Hoy hace sol.* Practise → produce: the child delivers 4–5 connected sentences.
-- **Check for understanding:** "Tell me one family member, your pet, your birthday and the weather." → 4 correct sentences.
-- **Differentiation:** support: prompt cards per sentence / stretch: add an agreeing colour and join with *y*.
-- **Materials:** prompt cards, photos/drawings.
-- **Joy:** film the mini-presentation as a "Spanish vlog" clip.
+- **Objective:** "By the end, I can join several ideas with at least three connectives."
+- **Hook:** Glue words make you sound fluent — let's stitch four ideas into one sentence.
+- **Key activity:** Listen → *y* (and), *pero* (but), *también* (also), *o* (or), *porque* (because). Note *porque* (reason) ≠ *¿por qué?* (why?). Build: *Me gusta dibujar y también leer, pero prefiero nadar porque es divertido.* Produce: a four-idea sentence.
+- **Check for understanding:** "Give the Spanish for: and, but, because." → *y, pero, porque.*
+- **Differentiation:** support: join two ideas with *y/pero* / stretch: use four connectives in one turn.
+- **Materials:** connective cards, idea strips.
+- **Joy:** "sentence train" — each child adds a carriage with a new connective.
 
-**End-of-unit check:** child uses at least two survival phrases when prompted and gives a four-sentence personal profile spanning family, pet, birthday and weather.
+**End-of-unit check:** child gives an opinion on three things, each with a *porque* reason, using at least three different connectives.
+
+---
+
+## Unit 3 — El cuerpo: the body & plurals
+
+**Essential question:** How do I name body parts, make them plural, and say something hurts?
+
+**Key vocabulary:** *la cabeza, el pelo, la cara, los ojos, la nariz, la boca, las orejas, el brazo, la mano, la pierna, el pie, la barriga; -s/-es plurals; me duele…, ¿qué te duele?*
+
+### Lesson 7 — Las partes del cuerpo
+- **Duration:** 25 min
+- **Objective:** "By the end, I can name parts of the body and follow body-part instructions."
+- **Hook:** Time for *Simón dice* (Simon Says) — but only in Spanish!
+- **Key activity:** Listen → repeat *la cabeza, el pelo, los ojos, la nariz, la boca, las orejas, el brazo, la mano* (note *la mano* — feminine despite *-o*!)*, la pierna, el pie.* Produce: play *Simón dice: toca la nariz.*
+- **Check for understanding:** "Name three body parts." → e.g. *la cabeza, los ojos, la mano.*
+- **Differentiation:** support: touch the named part / stretch: name all twelve.
+- **Materials:** body diagram, *Simón dice* prompts.
+- **Joy:** fast *Simón dice* with out-on-a-trick rules.
+
+### Lesson 8 — Plurales & me duele
+- **Duration:** 30 min
+- **Objective:** "By the end, I can make plurals (*-s/-es*) and say what hurts (*me duele…*)."
+- **Hook:** One eye = *ojo*; two = *ojos*. But *nariz* needs *-es*! And how do you say "my head hurts"?
+- **Key activity:** Show plural rule: *-s* after a vowel (*ojo→ojos*), *-es* after a consonant (*nariz→narices*). Then *Me duele la cabeza* (the head hurts to me). Produce: "doctor" role-play with *¿Qué te duele?*
+- **Check for understanding:** "Make *ojo* plural and say 'I have two eyes.'" → *ojos* → *Tengo dos ojos.*
+- **Differentiation:** support: pick *-s/-es* from a cue / stretch: say two different hurts.
+- **Materials:** body cards, doctor props.
+- **Joy:** pretend to be a Spanish doctor diagnosing a poorly puppet.
+
+**End-of-unit check:** child names body parts, makes correct *-s/-es* plurals, and says *Me duele…* for at least one part.
+
+---
+
+## Unit 4 — ¿Qué hora es? Telling the time
+
+**Essential question:** How do I ask and tell the time in Spanish?
+
+**Key vocabulary:** *¿qué hora es?, es la una, son las dos…doce, y media, y cuarto, menos cuarto; a la una, a las…*
+
+### Lesson 9 — Es la una / Son las…
+- **Duration:** 30 min
+- **Objective:** "By the end, I can tell the time on the hour in Spanish."
+- **Hook:** One o'clock is the rebel — it uses *Es*, everything else uses *Son*. Catch the odd one out!
+- **Key activity:** Listen → *¿Qué hora es?* → *Es la una* (1 o'clock, singular) but *Son las dos, son las tres…* Recycle numbers. Produce: read clock cards aloud.
+- **Check for understanding:** "Say 'it's three o'clock' and 'it's one o'clock.'" → *Son las tres / Es la una.*
+- **Differentiation:** support: read whole hours 1–6 / stretch: read up to 12.
+- **Materials:** geared toy clock, hour cards.
+- **Joy:** "beat the clock" — set the toy clock, race to say it.
+
+### Lesson 10 — Y media, y cuarto, menos cuarto
+- **Duration:** 30 min
+- **Objective:** "By the end, I can say half past and quarter past/to."
+- **Hook:** Half past = *y media*; quarter to = *menos cuarto* ("minus a quarter"). Maths meets time!
+- **Key activity:** Listen → *Son las cuatro y media* (half past 4), *…y cuarto* (quarter past), *…menos cuarto* (quarter to). Produce: read mixed times; say a daily time (*Como a la una* — I eat at one).
+- **Check for understanding:** "Say 'it's half past six.'" → *Son las seis y media.*
+- **Differentiation:** support: half past only / stretch: a daily timetable in Spanish (*Como a las…, juego a las…*).
+- **Materials:** toy clock, time cards, a "my day" timetable.
+- **Joy:** make a Spanish TV guide — what's on *a las ocho*?
+
+**End-of-unit check:** child reads times on the hour, half past, and quarter past/to, using *Es la/Son las…* correctly.
+
+---
+
+## Unit 5 — En la ciudad: directions, places & a region study
+
+**Essential question:** How do I find my way around a Spanish town — and what's special about a Spanish-speaking region?
+
+**Key vocabulary:** *¿dónde está…?, a la derecha, a la izquierda, todo recto, gira; el parque, la escuela, la tienda, el museo, el restaurante, la estación; está cerca/lejos; México, el Día de los Muertos.*
+
+### Lesson 11 — ¿Dónde está…? Places in town
+- **Duration:** 30 min
+- **Objective:** "By the end, I can name places in town and ask where something is."
+- **Hook:** You're lost in a Spanish town. One question saves you — *¿Dónde está…?*
+- **Key activity:** Listen → *el parque, la escuela, la tienda, el museo, el restaurante, la estación.* Ask *¿Dónde está el parque?* (location uses *está*, not *es*). Produce: ask for several places.
+- **Check for understanding:** "Ask 'Where is the school?'" → *¿Dónde está la escuela?*
+- **Differentiation:** support: name places from a map / stretch: ask about five places fluently.
+- **Materials:** town map, place flashcards.
+- **Joy:** build a toy town and tour it in Spanish.
+
+### Lesson 12 — Direcciones: giving directions
+- **Duration:** 30 min
+- **Objective:** "By the end, I can give simple directions and say if something is near or far."
+- **Hook:** Left or right? Get it wrong and your friend ends up at the wrong place!
+- **Key activity:** Listen → *a la derecha* (right)*, a la izquierda* (eeth-kee-ER-da, left)*, todo recto* (straight on)*, gira* (turn); *está cerca / lejos.* Practise with hand gestures. Produce: direct the tutor through a route.
+- **Check for understanding:** "Say 'to the right' and 'straight on.'" → *a la derecha / todo recto.*
+- **Differentiation:** support: one direction word + cerca/lejos / stretch: a two-step route.
+- **Materials:** town map, arrow cards.
+- **Joy:** blindfold treasure hunt steered by Spanish directions.
+
+### Lesson 13 — Región study: México & el Día de los Muertos
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe a Spanish-speaking region and one of its festivals."
+- **Hook:** More people speak Spanish in *Mexico* than anywhere else — and they have an unforgettable festival.
+- **Key activity:** Locate *México* on a map (capital *Ciudad de México*). Explore *el Día de los Muertos* — joyful, respectful remembering of loved ones (marigolds, sugar skulls), **not** scary/Halloween. Produce: say a fact about Mexico and the festival.
+- **Check for understanding:** "What is *el Día de los Muertos*, and is it scary?" → A joyful Mexican festival remembering loved ones — not scary.
+- **Differentiation:** support: match festival image to fact / stretch: compare it to a festival you know.
+- **Materials:** world map, festival images (marigolds, *calaveras*).
+- **Joy:** decorate a paper *calavera* (sugar skull), explaining it celebrates memory.
+
+**End-of-unit check:** child names places and gives a two-step direction with *cerca/lejos*, and states one fact about Mexico and *el Día de los Muertos*.
+
+---
+
+## Unit 6 — Repaso: review & connected speech
+
+**Essential question:** Can I speak in longer, connected turns across several topics?
+
+**Key vocabulary:** review of Units 1–5; connectives recycled.
+
+### Lesson 14 — Mi mundo: a connected speaking showcase
+- **Duration:** 35 min
+- **Objective:** "By the end, I can give a 5–6 sentence connected talk using opinions, reasons and time."
+- **Hook:** Tell us about your world — food, hobbies, your day — all joined up.
+- **Key activity:** Recombine: a favourite food (*me gusta… porque…*), a hobby with a reason, a daily time (*Como a la una*), and an opinion contrast (*pero*). Practise → produce: deliver the talk with connectives.
+- **Check for understanding:** "Give three joined sentences about what you like, with a reason." → uses *y/pero/porque* correctly.
+- **Differentiation:** support: a planning frame / stretch: include a plural like (*me gustan…*) and a time.
+- **Materials:** planning frame, topic icons.
+- **Joy:** record a "Spanish podcast minute" and listen back.
+
+**End-of-unit check:** child delivers a connected 5–6 sentence talk spanning at least three topics, with reasons and connectives.
 
 ---
 
 ## End-of-year can-do statements (Year 4)
 
 By the end of Year 4, I can…
-1. **Introduce** my family with *mi/mis*, names and ages (*Este es mi… Se llama… Tiene … años*).
-2. **Say** which pets I have, ask someone (*¿Tienes un animal?*), and answer.
-3. **Describe** an animal's colour with correct agreement (*un gato negro / una vaca blanca*).
-4. **Say** the days of the week (Monday-first, lower-case) and the months of the year.
-5. **Give** a date in day-de-month order and say when my birthday is.
-6. **Describe** the weather using *hace…* and *está…* and join two facts with *y*.
-7. **Use** survival phrases (*No entiendo, ¿Cómo se dice…?, ¿Puedes repetir?*) to stay in Spanish.
-8. **Name** a Spanish festival, say its date, and give a short spoken profile about myself.
+1. **Name** foods and drinks and use *me gusta* / *me gustan* correctly; order in a café (*Quiero… por favor*).
+2. **Say** what I like to do (verb stays plain after *me gusta*) and use *me encanta*.
+3. **Give** opinions with reasons using *porque* and a describing word.
+4. **Join** ideas with at least three connectives (*y, pero, también, o, porque*).
+5. **Name** body parts, make *-s/-es* plurals, and say what hurts (*me duele…*).
+6. **Tell** the time on the hour, half past and quarter past/to (*Es la/Son las…*).
+7. **Name** places in town, ask *¿Dónde está…?* and give directions with *cerca/lejos*.
+8. **Describe** a Spanish-speaking region and one festival (*México / el Día de los Muertos*) and speak in connected 5–6 sentence turns.

@@ -1,262 +1,262 @@
-# English — Year 4 (ages 8–9, Lower KS2) — Lesson Outlines
+# English — Year 4 (ages 9–10, Upper KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Source of truth: [`knowledge-base/subjects/english/year-4.md`](../../../knowledge-base/subjects/english/year-4.md).
+> Source of truth: [`knowledge-base/subjects/english/year-5.md`](../../../knowledge-base/subjects/english/year-5.md).
 > Format + 8 design principles: [`../README.md`](../README.md).
 
 ## Year overview
 
-Year 4 completes Lower Key Stage 2 and sharpens every strand into craft. Building on Year 3's adverbs, paragraphs and recount, grammar now embeds **fronted adverbials with a comma**, the **possessive apostrophe with plural and irregular nouns**, and **Standard English with irregular verb tenses**. Spelling masters the full **`/shun/` and `/zhun/` families** (*-tion, -sion, -ssion, -cian*) and completes the **Year 3/4 word list** through spaced practice. Reading climbs from inference into **summarising the main idea** and noticing **how writers create effect** with word choice and figurative language (simile, metaphor, personification). Writing becomes properly literary: **building settings and characters** with "show, don't tell" and the senses, and writing a non-fiction **explanation text** with cause-and-effect language. Lessons run 25–35 min, explicit-first, guided → independent, with retrieval and spaced spelling woven throughout so the year is a gap-free climb from "I can organise my writing" to "I can craft it for effect".
+Year 4 opens Upper Key Stage 2, where writers gain precision and readers gain judgement. Building on Year 3's adverbials, figurative language and explanation texts, grammar now adds **relative clauses**, **modal verbs and adverbs of possibility**, and **parenthesis with brackets, dashes and commas**. Spelling tackles the hardest endings — **-able/-ible and -ant/-ent** — plus **silent letters, the ei/ie rule**, and the start of the **Year 4/6 statutory word list**. Reading sharpens into **distinguishing fact from opinion and comparing texts**, reading adverts and reviews with a critical eye. Writing turns persuasive and cohesive: **writing to persuade** with rhetorical devices and modal verbs, building **cohesion across paragraphs**, and **integrating dialogue to show character**. Lessons run 25–35 min, explicit-first, guided → independent, with retrieval and spaced spelling woven throughout so the year is a gap-free climb from "I can craft a sentence" to "I can argue, link and shape writing for a reader".
 
 ---
 
-## Unit 1 — Grammar & punctuation: adverbials, apostrophes, Standard English
+## Unit 1 — Grammar: clauses, modality & parenthesis
 
-> **Essential question:** How do I open sentences with style, show belonging for many owners, and write in correct Standard English?
+> **Essential question:** How do I add extra information, show how sure I am, and drop asides into a sentence?
 >
-> **Key vocabulary:** adverbial, fronted adverbial, comma, possession, singular/plural/irregular plural, subject–verb agreement, irregular past tense.
+> **Key vocabulary:** relative clause, relative pronoun (*who/which/that/whose/where/when*), essential/non-essential, modal verb, adverb of possibility, parenthesis, brackets, dashes, commas.
 >
-> Drawn from KB topics 1, 2, 3. Fronted adverbials with a comma; the plural possessive apostrophe; Standard English and irregular verbs.
+> Drawn from KB topics 1, 2, 3. Relative clauses (with commas for non-essential), modality, and the three ways to punctuate parenthesis.
 
-### Lesson 1 — Fronted adverbials and the comma
+### Lesson 1 — Relative clauses (who, which, whose)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can move an adverbial to the front of a sentence and follow it with a comma."
-- **Hook:** "Not every sentence should start with 'The…'! *Suddenly,* a noise echoed. *Deep in the cave,* something stirred."
-- **Key activity:** I do — adverbial = when/where/how phrase; front it, add a comma. Model *Later that day, we set off.* We do — front the adverbial in two sentences. You do — child rewrites five sentences moving the adverbial to the front with a comma.
-- **Check for understanding:** "What punctuation follows a fronted adverbial?" → a comma.
-- **Differentiation:** support: adverbial pre-identified to move. / stretch: sort fronted adverbials by time/place/manner.
-- **Materials:** sentence cards; adverbial bank.
-- **Joy:** "scene-setting" story openers — *Deep in the jungle, …*.
+- **Objective:** "By the end, I can add a relative clause about a noun using the right relative pronoun."
+- **Hook:** "Want to tell more about a noun? Drop in an 'extra info' clause: 'The boy *who won the race* was tired.'"
+- **Key activity:** I do — *who* (people), *which* (things), *whose* (belonging); model adding to a noun. We do — add a relative clause to two sentences. You do — child completes five sentences choosing the right relative pronoun.
+- **Check for understanding:** "Which relative pronoun is for people?" → *who*.
+- **Differentiation:** support: pronoun-to-noun matching cards. / stretch: add a *where/when* relative clause.
+- **Materials:** sentence cards; relative-pronoun bank.
+- **Joy:** "upgrading" plain sentences with rich extra detail.
 
-### Lesson 2 — Singular possessive apostrophe (recap & secure)
+### Lesson 2 — Commas around non-essential relative clauses
 - **Duration:** 20 min
-- **Objective:** "By the end, I can place the apostrophe before the *s* for one owner."
-- **Hook:** "Whose bag? *The girl's bag* — one girl, apostrophe before the *s*. The apostrophe shows WHO owns it."
-- **Key activity:** I do — *the dog's lead* (one dog). Contrast with a plain plural (*the dogs are barking* — no apostrophe). We do — punctuate two phrases. You do — child writes singular possessives for four phrases and rejects an apostrophe for a plain plural.
-- **Check for understanding:** "Is *cats* in 'the cats are asleep' possessive?" → No — plain plural, no apostrophe.
-- **Differentiation:** support: "is something belonging?" yes/no gate. / stretch: write a sentence mixing a possessive and a plain plural.
-- **Materials:** belonging phrase cards.
-- **Joy:** being the "apostrophe judge" — owns it or not?
+- **Objective:** "By the end, I can comma off a relative clause that is extra (non-essential)."
+- **Hook:** "'Mr Khan, *who lives next door*, waved.' Lift out the middle bit — the sentence still works! That's why it gets commas."
+- **Key activity:** I do — the lift-out test: removable extra → commas; essential (which one) → *that*, no commas. We do — comma off one. You do — child decides commas-or-not for five relative clauses.
+- **Check for understanding:** "Do you comma off an essential clause (the one saying *which* book)?" → No.
+- **Differentiation:** support: highlight the removable clause. / stretch: write one essential and one non-essential example.
+- **Materials:** relative-clause sentence cards.
+- **Joy:** the "can I lift it out?" detective test.
 
-### Lesson 3 — Plural & irregular possessive apostrophe
+### Lesson 3 — Modal verbs & adverbs of possibility
+- **Duration:** 20 min
+- **Objective:** "By the end, I can use modal verbs and possibility adverbs to show how sure something is."
+- **Hook:** "Will it rain? *Might*, *could*, *will*, *must* — each one changes how SURE you are."
+- **Key activity:** I do — modals for possibility/certainty/obligation/permission (*might, will, must, can*); adverbs (*probably, perhaps, definitely*); a certainty scale. Flag *should have* not *should of*. We do — rank two sentences. You do — child chooses the modal/adverb to fit the meaning in five sentences.
+- **Check for understanding:** "Which is more certain: 'It might snow' or 'It will snow'?" → "It will snow".
+- **Differentiation:** support: certainty scale strip. / stretch: rank four sentences from least to most certain.
+- **Materials:** modal/adverb cards; certainty scale.
+- **Joy:** being the weather forecaster choosing how confident to sound.
+
+### Lesson 4 — Parenthesis: brackets, dashes, commas
 - **Duration:** 25 min
-- **Objective:** "By the end, I can place the apostrophe for many owners and for irregular plurals."
-- **Hook:** "Many girls own bags: *the girls' bags* — apostrophe AFTER the *s*! But *children* don't end in *s*…"
-- **Key activity:** I do — regular plural (ends in *s*) → apostrophe after: *the dogs' leads*; irregular plural → add *'s*: *the children's toys*. Trick: find the owner word first. We do — punctuate *babies, men*. You do — child places the apostrophe for singular, plural and irregular owners (six items).
-- **Check for understanding:** "Coats belonging to the children?" → *the children's coats*.
-- **Differentiation:** support: "does the plural end in *s*?" decision card. / stretch: fix *the childrens' toys* and *the dogs's leads*.
-- **Materials:** owner cards (singular/plural/irregular); decision card.
-- **Joy:** judging real shop signs as right or wrong.
+- **Objective:** "By the end, I can drop an aside into a sentence using a pair of brackets, dashes or commas."
+- **Hook:** "'My dog (a noisy spaniel) barks all night.' Extra info, dropped in — and you can lift it back out!"
+- **Key activity:** I do — three pairs: brackets (formal), dashes (dramatic), commas (smooth); the golden test (remove it, sentence still works); always in pairs. We do — add a parenthesis two ways. You do — child inserts a parenthesis into five sentences using all three methods.
+- **Check for understanding:** "What's the test for a parenthesis?" → remove it — the sentence still makes sense.
+- **Differentiation:** support: extra-info phrase provided to insert. / stretch: choose the most suitable of the three for each context.
+- **Materials:** base sentences; extra-info phrases.
+- **Joy:** sneaking funny asides into sentences with dashes.
 
-### Lesson 4 — Standard English: subject–verb agreement
+### Lesson 5 — Grammar review: clause, modal, parenthesis (retrieval)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can write in Standard English (we *were*, he *doesn't*) for formal writing."
-- **Hook:** "Everyone has a home way of talking — lovely! But for writing and the news we use 'school English'."
-- **Key activity:** I do — *I/he/she was*; *we/you/they were*; *she doesn't* (not *don't*). Fix *we was*. We do — correct two non-Standard sentences. You do — child corrects five sentences into Standard English.
-- **Check for understanding:** "Standard: 'they ___ at the park.' (was/were)" → *were*.
-- **Differentiation:** support: agreement table on the desk. / stretch: edit a paragraph so the *narrator* is Standard but a character may speak naturally.
-- **Materials:** non-Standard sentence cards; agreement table.
-- **Joy:** "newsreader voice" for reading Standard English aloud.
+- **Objective:** "By the end, I can combine a relative clause, a modal verb and a parenthesis correctly."
+- **Hook:** "Sentence Upgrade Lab! Take a plain sentence and add three power-tools."
+- **Key activity:** Retrieval across Lessons 1–4. Guided warm-up, then independent: child upgrades two sentences, each adding a relative clause (commas if non-essential), a modal verb, OR a parenthesis as prompted.
+- **Check for understanding:** "Correct 'I should of gone.'" → *I should have gone.*
+- **Differentiation:** support: one upgrade at a time. / stretch: fit all three into one sentence.
+- **Materials:** plain sentence cards; tool prompts.
+- **Joy:** the "most upgraded sentence" challenge.
 
-### Lesson 5 — Irregular past tenses (went, saw, caught) — retrieval
-- **Duration:** 20 min
-- **Objective:** "By the end, I can use the correct irregular past tense and avoid *goed/catched*."
-- **Hook:** "*Goed*? *Catched*? These verbs are rebels — they don't just add *-ed*. *Go → went*, *catch → caught*!"
-- **Key activity:** Retrieval of Lesson 4 agreement. I do — *go→went, see→saw, catch→caught, bring→brought, do→did, come→came*. We do — match three pairs. You do — child fills five gaps with the correct irregular past, then fixes *I done my best*.
-- **Check for understanding:** "Past tense of *catch*?" → *caught*.
-- **Differentiation:** support: verb-pair cards to match. / stretch: write a short past-tense recount with three irregular verbs.
-- **Materials:** irregular verb-pair cards; gap-fill sheet.
-- **Joy:** the "rebel verbs" framing — they refuse the *-ed* rule.
-
-> **End-of-Unit 1 check:** Child fronts an adverbial with a comma, punctuates *the boys' toys* and *the children's coats*, and corrects *We was happy and I done my best.* Mastery = comma after fronted adverbial; plural/irregular apostrophes correct; agreement and irregular past fixed.
+> **End-of-Unit 1 check:** Child adds a relative clause with correct pronoun and commas where non-essential, chooses a modal/possibility adverb for meaning, and inserts a parenthesis (and removes it to test). Mastery = pronoun and commas correct; certainty matched; parenthesis paired and removable.
 
 ---
 
-## Unit 2 — Spelling: the /shun/ families & Y3/4 list
+## Unit 2 — Spelling: tricky endings, silent letters & Y5/6 list
 
-> **Essential question:** How do I choose the right spelling for the `/shun/` sound and finish the must-learn list?
+> **Essential question:** How do I choose between sound-alike endings and remember letters I can't hear?
 >
-> **Key vocabulary:** `/shun/`, `/zhun/`, *-tion, -sion, -ssion, -cian*, root clue, morphology, mnemonic, spaced practice.
+> **Key vocabulary:** *-able/-ible*, *-ant/-ent/-ance/-ence*, root clue, silent letter, *i before e except after c*, Y5/6 word list, mnemonic.
 >
-> Drawn from KB topic 4 (and completing topic-3 list practice from Year 3). Choose `/shun/` spellings by root clues; finish the Y3/4 list.
+> Drawn from KB topics 4, 5. The *-able/-ible* and *-ant/-ent* choices; silent letters and ei/ie; starting the Y5/6 list.
 
-### Lesson 6 — -tion and -cian (the default and the jobs)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can spell *-tion* words and the *-cian* job words."
-- **Hook:** "The `/shun/` sound has four disguises. Two big ones: *-tion* (the default) and *-cian* (for jobs!)."
-- **Key activity:** I do — *-tion* default, often from *-t/-te* roots: *act → action, complete → completion*; *-cian* for people/jobs from *-c/-cs* roots: *music → musician, magic → magician*. We do — spell two of each. You do — child spells five words choosing *-tion* or *-cian*.
-- **Check for understanding:** "A person who plays music?" → *musician*.
-- **Differentiation:** support: "is it a job?" → *-cian* prompt. / stretch: spell *politician* from *politics*.
-- **Materials:** root cards; spelling sheet.
-- **Joy:** unmasking the `/shun/` "disguises" one by one.
-
-### Lesson 7 — -ssion and -sion (double-s roots & /zhun/)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can choose *-ssion* or *-sion* using the root."
-- **Hook:** "*Discussion* keeps the double *s* of *discuss*! And *division* sounds more like `/zhun/`."
-- **Key activity:** I do — *-ssion* from *-ss/-mit* roots: *discuss → discussion, permit → permission*; *-sion* from *-d/-de/-se* roots, often `/zhun/`: *divide → division, confuse → confusion, explode → explosion*. We do — choose for two. You do — child spells five, using the root clue.
-- **Check for understanding:** "Spell the maths word for sharing into groups." → *division*.
-- **Differentiation:** support: root-clue chart. / stretch: spell *confusion* and *permission* from their roots.
-- **Materials:** root cards; root-clue chart.
-- **Joy:** the "keep the root's double *s*" trick.
-
-### Lesson 8 — /shun/ sort & list completion (retrieval)
+### Lesson 6 — -able or -ible (use the root clue)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can sort `/shun/` words into the four spellings and spell remaining Y3/4 list words."
-- **Hook:** "Final `/shun/` showdown — sort them all, then conquer the last of the must-learn list!"
-- **Key activity:** Retrieval across Lessons 6–7. Guided sort, then independent: child sorts eight `/shun/` words into four columns AND dictation of five remaining Y3/4 list words (e.g. *length, possess, particular, weight, woman*), self-checking the tricky part.
-- **Check for understanding:** "Noun from *act*?" → *action*.
-- **Differentiation:** support: columns labelled with an example each. / stretch: explain why *discussion* has double *s* but *division* has one.
-- **Materials:** `/shun/` word cards; sorting mat; dictation list.
-- **Joy:** "conquering the boss list" with a completed words-I-own wall.
+- **Objective:** "By the end, I can choose *-able* or *-ible* using whether the root is a full word."
+- **Hook:** "*Enjoyable* or *enjoyible*? Clue: *enjoy* is a whole word → *-able*. *Poss-* isn't → *possible*."
+- **Key activity:** I do — *-able* on full words (often a related *-ation*: *adore→adorable*); *-ible* on partial roots (*poss-ible, horr-ible, vis-ible*); adverbs *-ably/-ibly*. We do — choose for two. You do — child spells five, using the full-word test.
+- **Check for understanding:** "*-able* or *-ible*: poss__?" → *possible*.
+- **Differentiation:** support: "is the root a full word?" gate. / stretch: spell *comfortably* and *horribly*.
+- **Materials:** root cards; test prompt.
+- **Joy:** the "is it a real word on its own?" detective test.
 
-> **End-of-Unit 2 check:** Child sorts *action, musician, discussion, division* into the right spelling families and spells three Y3/4 list words. Mastery = `/shun/` chosen by root clue for at least 3 of 4; list words correct.
+### Lesson 7 — -ant/-ance and -ent/-ence
+- **Duration:** 20 min
+- **Objective:** "By the end, I can choose *-ant/-ent* using a related word clue."
+- **Hook:** "*Independant* or *independent*? A related word reveals the vowel: *confidence → confident*."
+- **Key activity:** I do — pairs *observant/observance, innocent/innocence*; use a related word for the vowel. We do — choose for two. You do — child spells five *-ant/-ent* words using related-word clues.
+- **Check for understanding:** "Spell the opposite of 'guilty' ending *-ent*." → *innocent*.
+- **Differentiation:** support: related-word clues given. / stretch: spell *confident, important, patient* and justify.
+- **Materials:** word-pair cards.
+- **Joy:** cracking the vowel with a "hidden cousin" word.
+
+### Lesson 8 — Silent letters & the ei/ie rule
+- **Duration:** 20 min
+- **Objective:** "By the end, I can spell words with silent letters and apply *i before e except after c*."
+- **Hook:** "*Doubt* has a silent *b*! *Island* hides an *s*! And after *c*, the rule flips: *receive*, not *recieve*."
+- **Key activity:** I do — silent letters (*knee, doubt, island, science, write*); *i before e* for `/ee/` **except after c** (*believe* vs *receive*); flag exceptions (*weird, science*). We do — spell two of each. You do — child spells five, underlining the silent or ei/ie part.
+- **Check for understanding:** "*ie* or *ei*: rec__ve?" → *receive* (after c).
+- **Differentiation:** support: silent-letter reminder list. / stretch: spell *believe, field, ceiling* and explain each.
+- **Materials:** silent-letter cards; rule card.
+- **Joy:** the "silent-letter hunt" through a book page.
+
+### Lesson 9 — The Y5/6 word list & mnemonics (retrieval)
+- **Duration:** 20 min
+- **Objective:** "By the end, I can spell hard Y5/6 list words using mnemonics for doubled letters."
+- **Hook:** "Boss-level words! *Necessary* — '1 collar, 2 socks' (1 c, 2 s). *Rhythm* — 'Rhythm Helps Your Two Hips Move'."
+- **Key activity:** Retrieval of Lessons 6–8. I do — mnemonics for *necessary, accommodate, rhythm, definitely, separate*. We do — build a mnemonic together. You do — child spells five list words and invents/uses a mnemonic for one.
+- **Check for understanding:** "Spell *necessary*." → n-e-c-e-s-s-a-r-y (1 c, 2 s).
+- **Differentiation:** support: mnemonic provided. / stretch: spell *accommodate* and explain the doubled letters.
+- **Materials:** list-word deck; mnemonic prompts.
+- **Joy:** the mnemonic-invention competition.
+
+> **End-of-Unit 2 check:** Child chooses *-able/-ible* and *-ant/-ent* by clue, spells two silent-letter words and applies ei/ie (*receive*), and spells *necessary* with a mnemonic. Mastery = endings chosen by root/related-word clue; silent letters and ei/ie correct; list word right.
 
 ---
 
-## Unit 3 — Reading: summarising & writer's effect
+## Unit 3 — Reading: fact vs opinion & comparing texts
 
-> **Essential question:** How do I say what a text is mostly about — and notice how a writer makes me feel something?
+> **Essential question:** How do I tell what's true from what someone thinks, and compare two texts fairly?
 >
-> **Key vocabulary:** summary, main idea, simile, metaphor, personification, word choice, effect, "which makes the reader feel…".
+> **Key vocabulary:** fact, opinion, checkable, opinion signal words, viewpoint, purpose, "Both… but… whereas…".
 >
-> Drawn from KB topics 5, 6. Summarising the main idea, then analysing how word choice and figurative language create effect.
+> Drawn from KB topic 6. Distinguishing fact from opinion (including opinions dressed as facts) and comparing texts.
 
-### Lesson 9 — Summarising one paragraph (the main idea)
+### Lesson 10 — Fact or opinion?
 - **Duration:** 20 min
-- **Objective:** "By the end, I can say the main idea of a paragraph in one sentence."
-- **Hook:** "What's this paragraph MOSTLY about? Not every little detail — just the headline."
-- **Key activity:** I do — read the hedgehog paragraph; ask "what is it mostly about?"; say it in one sentence (*Hedgehogs hunt insects at night and hibernate in winter.*). We do — summarise one paragraph together. You do — child writes a one-sentence main idea for two paragraphs.
-- **Check for understanding:** "Should a summary include every example?" → No — keep only the main points.
-- **Differentiation:** support: choose the best main-idea sentence from three. / stretch: summarise dropping ALL examples.
-- **Materials:** short non-fiction paragraphs.
-- **Joy:** writing the "headline" for each paragraph.
+- **Objective:** "By the end, I can tell a fact from an opinion using the 'can it be checked?' test."
+- **Hook:** "'Dogs have four legs' vs 'Dogs make the best pets' — one you can check, one is just someone's view."
+- **Key activity:** I do — fact = checkable/provable; opinion = a view; signal words (*I think, best, worst, amazing, should*). We do — sort two statements. You do — child sorts ten statements into fact/opinion and underlines opinion signals.
+- **Check for understanding:** "Fact or opinion: 'Maths is boring.'" → opinion.
+- **Differentiation:** support: signal-word list. / stretch: rewrite an opinion as a checkable fact (and vice versa).
+- **Materials:** statement cards; signal-word list.
+- **Joy:** catching "best ever!" opinions trying to sound like facts.
 
-### Lesson 10 — Summarising across a text
+### Lesson 11 — Opinions disguised as facts (adverts & reviews)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can combine paragraph main ideas into one overall summary."
-- **Hook:** "Recap a whole book to your tutor in one breath — that's a summary of the *whole* text!"
-- **Key activity:** I do — write a one-sentence main idea per paragraph, then join them into a short overall summary. We do — combine two main ideas. You do — child summarises a 2–3 paragraph text: one sentence each, then one overall.
-- **Check for understanding:** "What is a summary?" → a short version saying what a text is mostly about.
-- **Differentiation:** support: main ideas provided to combine. / stretch: turn the summary into a newspaper headline.
-- **Materials:** multi-paragraph text.
-- **Joy:** the "one-breath recap" challenge.
+- **Objective:** "By the end, I can spot opinions dressed as facts in persuasive texts."
+- **Hook:** "Adverts are sneaky — 'the most amazing toy ever!' sounds like a fact, but can you CHECK it?"
+- **Key activity:** I do — read an advert; flag confident-sounding opinions; apply "can it be checked?". We do — judge two advert claims. You do — child marks five review/advert claims as fact or opinion, justifying.
+- **Check for understanding:** "Why might a strong opinion feel like a fact?" → the confident tone makes it sound certain.
+- **Differentiation:** support: claims pre-listed. / stretch: write a "fair" version of a biased advert claim.
+- **Materials:** short advert/review extracts.
+- **Joy:** being the "advert myth-buster".
 
-### Lesson 11 — Simile and metaphor (comparing for effect)
+### Lesson 12 — Comparing two texts
 - **Duration:** 25 min
-- **Objective:** "By the end, I can identify a simile and a metaphor and explain their effect."
-- **Hook:** "'As quiet as a mouse' vs 'the kitchen was a zoo' — writers compare things to paint pictures in your head."
-- **Key activity:** I do — simile (compares with *like/as*), metaphor (says it *is*); model the effect ("makes me picture…"). We do — sort two phrases. You do — child sorts phrases into simile/metaphor and explains the effect of one.
-- **Check for understanding:** "Is 'as cold as ice' a simile or metaphor?" → simile (uses *as*).
-- **Differentiation:** support: signal-word reminder (*like/as* = simile). / stretch: write one simile and one metaphor of your own.
-- **Materials:** figurative phrase cards.
-- **Joy:** inventing your own wild comparisons.
+- **Objective:** "By the end, I can compare two texts using 'Both… but… whereas…'."
+- **Hook:** "Two reports of the same match — do they agree? Whose side is each on? Let's compare!"
+- **Key activity:** I do — compare two short texts for viewpoint/purpose/style with the stem "Both texts… but text A… whereas text B…". We do — compare one feature. You do — child compares two short texts in two or three sentences using the stem.
+- **Check for understanding:** "What stem helps you compare directly?" → "Both… but… whereas…".
+- **Differentiation:** support: comparison grid (same / different). / stretch: compare viewpoint AND purpose.
+- **Materials:** paired short texts; comparison grid.
+- **Joy:** the "whose side are they on?" investigation.
 
-### Lesson 12 — Personification & word choice (why that word?)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can spot personification and explain why a writer chose a powerful word."
-- **Hook:** "'The old house *glared* at us.' A house can't glare — but doesn't it feel alive and creepy now?"
-- **Key activity:** I do — personification (human action for a non-living thing); analyse *glared* and *stomped* vs *walked* for effect. We do — explain one. You do — child names the technique and explains the effect with "…which makes the reader feel/picture…".
-- **Check for understanding:** "Name the technique: 'the moon smiled down'." → personification.
-- **Differentiation:** support: effect sentence stem given. / stretch: rewrite a flat sentence using personification.
-- **Materials:** descriptive passages; technique cards.
-- **Joy:** finding the words that make a story spooky.
-
-> **End-of-Unit 3 check:** Child writes a one-sentence main idea for a paragraph and an overall summary, and identifies a simile, metaphor and personification, explaining one effect. Mastery = summary keeps main points only; figurative techniques named with an effect.
+> **End-of-Unit 3 check:** Child sorts statements into fact/opinion, spots an opinion dressed as a fact, and compares two texts with "Both… but… whereas…". Mastery = "checkable" test applied; disguised opinion caught; comparison links both texts directly.
 
 ---
 
-## Unit 4 — Writing fiction: settings & characters
+## Unit 4 — Writing to persuade
 
-> **Essential question:** How do I pull a reader into a story with vivid settings and believable characters?
+> **Essential question:** How do I convince a reader to agree with me or take action?
 >
-> **Key vocabulary:** setting, the senses, atmosphere, character, "show, don't tell", expanded noun phrase, fronted adverbial, simile.
+> **Key vocabulary:** persuasion, viewpoint, reason + evidence, rhetorical question, emotive language, rule of three, modal verbs, call to action (AFOREST).
 >
-> Drawn from KB topic 7. Building settings through the senses and characters through actions, varying sentence openers.
+> Drawn from KB topic 7. Persuasive structure and devices, with reasons and evidence for every point.
 
-### Lesson 13 — Describing a setting with the senses
+### Lesson 13 — Persuasive tools (the AFOREST toolkit)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can describe a setting using two senses and a simile."
-- **Hook:** "Don't just say 'a scary forest'. SHOW it: 'Twisted branches clawed at the grey sky, and an owl shrieked.'"
-- **Key activity:** I do — describe through senses (see/hear/smell/feel) + a simile; avoid adjective-stacking. We do — build one sense-rich line. You do — child describes a chosen setting using two senses and one simile.
-- **Check for understanding:** "Name two senses to use when describing a setting." → any two of sight, sound, smell, touch.
-- **Differentiation:** support: senses word-bank; sentence frame. / stretch: add a fronted adverbial opener to vary the rhythm.
-- **Materials:** setting image prompts (Pobble 365 style); senses word-bank.
-- **Joy:** turning a familiar place spooky just by the words you choose.
+- **Objective:** "By the end, I can identify and use rhetorical questions, the rule of three and emotive language."
+- **Hook:** "'Did you know we throw away enough rubbish to fill a stadium every day?' That's persuasion grabbing you!"
+- **Key activity:** I do — toolkit: rhetorical questions, facts/statistics, emotive language, rule of three, modal verbs. Model each in a recycling argument. We do — write a rhetorical question + a triple. You do — child writes one persuasive sentence using two devices.
+- **Check for understanding:** "Name two persuasive techniques." → any two of rhetorical question, rule of three, emotive language, facts/statistics.
+- **Differentiation:** support: device sentence-starters. / stretch: use three devices in one sentence.
+- **Materials:** AFOREST poster; device starters.
+- **Joy:** crafting a punchy "rule of three" that really lands.
 
-### Lesson 14 — Show, don't tell (character feelings)
+### Lesson 14 — Reason + evidence (and modal verbs for urgency)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can show a character's emotion through actions instead of stating it."
-- **Hook:** "'Sam was nervous' — boring! 'Sam's hands trembled as he reached for the door.' Now we FEEL it."
-- **Key activity:** I do — turn *telling* (*Mia was scared*) into *showing* (*Mia's heart hammered; she backed away…*). We do — "show" one emotion together. You do — child rewrites two "telling" sentences as "showing".
-- **Check for understanding:** "Turn 'He was angry' into a 'show' sentence." → e.g. *He slammed the door and clenched his fists.*
-- **Differentiation:** support: body-clue bank (shaking, frowning, racing heart). / stretch: show two contrasting emotions in two characters.
-- **Materials:** "telling" sentence cards; body-clue bank.
-- **Joy:** the "show, don't tell" upgrade that makes writing come alive.
+- **Objective:** "By the end, I can support a viewpoint with a reason and evidence, using a modal verb for force."
+- **Hook:** "'Recycling is good' is weak. 'We *must* recycle *because* it saves resources, protects wildlife and cuts pollution' — now that argues!"
+- **Key activity:** I do — every point = viewpoint + *because* reason + evidence (fact/example) + a modal (*must/should*). We do — build one argument. You do — child writes one full persuasive point with reason, evidence and a modal verb.
+- **Check for understanding:** "What should every persuasive point include?" → a reason and evidence.
+- **Differentiation:** support: argument frame (viewpoint → because → evidence). / stretch: address a counter-argument.
+- **Materials:** argument frame; cause list for a chosen topic.
+- **Joy:** picking a real cause they care about to argue for.
 
-### Lesson 15 — Bringing it together: a setting + character scene
+### Lesson 15 — Write a persuasive piece
 - **Duration:** 30 min
-- **Objective:** "By the end, I can write a short scene with a vivid setting and a character shown through action."
-- **Hook:** "You're the author! Drop a character into your setting and let us SEE how they feel."
-- **Key activity:** I do — model planning: setting (2 senses + simile), then character entering, shown through action; vary openers with fronted adverbials. We do — plan one. You do — child writes a short paragraph combining setting and a "shown" emotion; rehearses aloud first.
-- **Check for understanding:** "What does 'show, don't tell' mean?" → reveal feelings through actions/details, not by stating them.
-- **Differentiation:** support: planning frame + word banks. / stretch: include an expanded noun phrase and a simile.
-- **Materials:** image prompt; planning frame; word banks.
-- **Joy:** reading your atmospheric scene aloud "in character".
+- **Objective:** "By the end, I can write a persuasive paragraph with a hook, an argued point and a call to action."
+- **Hook:** "Launch your campaign! Hook them, argue your case, and end with a punch."
+- **Key activity:** I do — model structure: hook (rhetorical question) → argument (reason + evidence + rule of three + modal) → strong call to action. We do — plan one. You do — child writes a persuasive paragraph on a chosen cause; rehearses the argument aloud first.
+- **Check for understanding:** "Which modal verb adds urgency?" → *must* (or *should*).
+- **Differentiation:** support: full persuasive frame. / stretch: write two arguments, each a paragraph, with a counter addressed.
+- **Materials:** persuasive frame; cause prompts.
+- **Joy:** writing a campaign for something they'd genuinely change.
 
-> **End-of-Unit 4 check:** Child describes a setting using two senses and a simile, and shows a character's emotion through action (not telling). Mastery = setting is sensory not a list; emotion shown, with at least one figurative touch.
+> **End-of-Unit 4 check:** Child writes a persuasive paragraph with a hook, at least one reason + evidence, a modal verb and the rule of three, ending with a call to action. Mastery = clear viewpoint; every point reasoned and evidenced; at least two persuasive devices.
 
 ---
 
-## Unit 5 — Writing non-fiction: explanation texts
+## Unit 5 — Cohesion & dialogue
 
-> **Essential question:** How do I explain how or why something happens, clearly and in order?
+> **Essential question:** How do I make my writing flow together and use dialogue to reveal character?
 >
-> **Key vocabulary:** explanation, process, cause and effect (*because, so, as a result, this means*), present tense, third person, heading, introduction.
+> **Key vocabulary:** cohesion, cohesive adverbials (*however, therefore, meanwhile, in addition*), pronoun reference, dialogue, new speaker = new line, speech verb, action beat.
 >
-> Drawn from KB topic 8. Writing an explanation of a process using cause-and-effect language, present tense and headings.
+> Drawn from KB topics 8, 9. Cohesive devices that link ideas, and dialogue that shows character.
 
-### Lesson 16 — What an explanation text does
-- **Duration:** 25 min
-- **Objective:** "By the end, I can identify the features of an explanation text and tell it apart from instructions."
-- **Hook:** "How does a volcano erupt? Why do we have day and night? An explanation answers 'How?' and 'Why?'"
-- **Key activity:** I do — features: present tense, third person, cause-effect connectives, ordered paragraphs, title (often a question), headings. Contrast with instructions (a how-to FOR the reader). We do — label features in a model. You do — child sorts sentences into "explanation" vs "instruction".
-- **Check for understanding:** "What question does an explanation text answer?" → how or why something happens.
-- **Differentiation:** support: feature checklist. / stretch: turn an instruction sentence into an explanation sentence.
-- **Materials:** model explanation; feature checklist.
-- **Joy:** choosing a "how/why" question they're genuinely curious about.
-
-### Lesson 17 — Cause-and-effect connectives
+### Lesson 16 — Cohesion: linking adverbials
 - **Duration:** 20 min
-- **Objective:** "By the end, I can link ideas with *because, so, as a result, this means* to show cause and effect."
-- **Hook:** "'The Earth spins, *so* the side facing the Sun has day, *as a result* the other side has night.' Cause → effect!"
-- **Key activity:** I do — model the day/night paragraph with connectives. We do — join two cause-effect ideas. You do — child completes five sentences with the best cause-effect connective and writes one of their own.
-- **Check for understanding:** "Give two cause-and-effect connectives." → any of *because, so, as a result, this causes*.
-- **Differentiation:** support: connective bank. / stretch: write a 3-link cause-effect chain.
-- **Materials:** connective bank; cause-effect sentence pairs.
-- **Joy:** building a "domino chain" of causes and effects.
+- **Objective:** "By the end, I can link ideas across sentences and paragraphs with cohesive adverbials."
+- **Hook:** "'Then… then… then…' is dull. Use *however*, *therefore*, *meanwhile* to guide the reader smoothly."
+- **Key activity:** I do — categories: contrast (*however*), adding (*in addition*), result (*therefore*), time (*meanwhile*); often fronted to open a paragraph. We do — link two sentences. You do — child inserts the best cohesive adverbial between five sentence pairs.
+- **Check for understanding:** "Give a cohesive adverbial that shows contrast." → *however* (or *on the other hand*).
+- **Differentiation:** support: adverbial bank by category. / stretch: use a cohesive adverbial to open a new paragraph.
+- **Materials:** sentence pairs; cohesive-adverbial bank.
+- **Joy:** "signposting" a piece so the reader never gets lost.
 
-### Lesson 18 — Write an explanation text
+### Lesson 17 — Cohesion: pronouns & referencing back
+- **Duration:** 20 min
+- **Objective:** "By the end, I can avoid repeating a noun by using pronouns and 'this/such' references."
+- **Hook:** "'The spaniel barked. The spaniel wouldn't stop. The spaniel…' — exhausting! Swap in *It*."
+- **Key activity:** I do — replace repeated nouns with pronouns (kept clear); reference back with "this problem, such a plan". We do — fix one repetitive passage. You do — child rewrites a repetitive passage using pronouns and referencing, keeping it clear.
+- **Check for understanding:** "Why use a pronoun like *it*?" → to avoid repeating the noun and link sentences.
+- **Differentiation:** support: repeated nouns highlighted. / stretch: use "this/such" to reference back to a whole idea.
+- **Materials:** repetitive passages.
+- **Joy:** "de-cluttering" a clunky paragraph into a smooth one.
+
+### Lesson 18 — Integrating dialogue to show character
 - **Duration:** 30 min
-- **Objective:** "By the end, I can write a short explanation of a process in the present tense with cause-effect language and headings."
-- **Hook:** "Explain a real wonder — the water cycle, why leaves fall, how brakes stop a bike!"
-- **Key activity:** I do — model planning: title question, intro, ordered paragraphs with headings, present tense, cause-effect connectives. We do — plan one process. You do — child plans and writes a short explanation with a title, intro and two explaining paragraphs.
-- **Check for understanding:** "What tense are explanations usually in?" → present tense.
-- **Differentiation:** support: writing frame with headings and connective starters. / stretch: add a labelled diagram and a subheading.
-- **Materials:** explanation writing frame; connective bank; process images.
-- **Joy:** explaining a science wonder like a real non-fiction author.
+- **Objective:** "By the end, I can write dialogue that reveals character, with new lines and action beats."
+- **Hook:** "'Hurry up!' barked the captain, stamping his boot. We learn he's IMPATIENT — without being told!"
+- **Key activity:** I do — rules: new speaker = new line; vary speech verbs (mostly *said*, occasional *whispered/snapped*); add action beats (*she muttered, turning away*); punctuation inside the marks. We do — write one exchange. You do — child writes a short dialogue between two contrasting characters with new lines and an action beat each.
+- **Check for understanding:** "What do you do when a new person speaks?" → start a new line/paragraph.
+- **Differentiation:** support: dialogue frame; speech-verb bank. / stretch: reveal each character's personality purely through how they speak.
+- **Materials:** dialogue frame; speech-verb and action-beat banks; character prompts.
+- **Joy:** giving two characters totally different "voices".
 
-### Lesson 19 — End-of-year review: summarise, craft, explain (retrieval)
+### Lesson 19 — End-of-year review: link it, argue it, voice it (retrieval)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can summarise a text, show a feeling, and explain with cause-effect language."
-- **Hook:** "Show-off day! Everything Year 4 taught you — in three quick challenges."
-- **Key activity:** Mixed retrieval across the year. You do — child (1) writes a one-sentence summary of a short text, (2) rewrites a "telling" sentence as "showing", (3) writes one cause-effect explanation sentence in the present tense.
-- **Check for understanding:** "Why might a writer choose 'stomped' instead of 'walked'?" → to show anger/heaviness.
-- **Differentiation:** support: frames and banks given. / stretch: add a fronted adverbial and a possessive apostrophe somewhere.
-- **Materials:** short text; mixed task cards; word banks.
-- **Joy:** the "three challenges" round to beat your personal best.
+- **Objective:** "By the end, I can link ideas cohesively, argue a point and write a line of character dialogue."
+- **Hook:** "Show-off day! Cohesion, persuasion and dialogue — all the Year 4 power-tools."
+- **Key activity:** Mixed retrieval. You do — child (1) links two sentences with a cohesive adverbial, (2) writes one persuasive point with reason + modal, (3) writes one line of dialogue with an action beat that shows character.
+- **Check for understanding:** "What is an action beat?" → a small action around the speech showing how it's said.
+- **Differentiation:** support: banks and frames given. / stretch: add a relative clause or parenthesis to one answer.
+- **Materials:** mixed task cards; word banks.
+- **Joy:** the "all power-tools" round to beat your best.
 
-> **End-of-Unit 5 check:** Child identifies an explanation vs an instruction, links ideas with a cause-effect connective, and writes a short present-tense explanation with a heading. Mastery = correct genre features; cause-effect language used; present tense maintained.
+> **End-of-Unit 5 check:** Child links ideas with cohesive adverbials and pronouns, and writes a short dialogue (new lines, action beats) that reveals two characters' personalities. Mastery = no clunky repetition; cohesive devices varied; dialogue punctuated and characterful.
 
 ---
 
@@ -264,11 +264,11 @@ Year 4 completes Lower Key Stage 2 and sharpens every strand into craft. Buildin
 
 A Year 4 child has mastered English when they can:
 
-1. **Open and punctuate with control** — use fronted adverbials followed by a comma, and place possessive apostrophes correctly for singular, plural and irregular owners (e.g. *Suddenly, …*; *the boys' toys*; *the children's coats*).
-2. **Write Standard English** — use correct subject–verb agreement (*we were, she doesn't*) and irregular past tenses (*went, saw, caught*), fixing non-Standard forms.
-3. **Spell the `/shun/` families** — choose *-tion, -sion, -ssion* or *-cian* by root clue (e.g. *action, division, discussion, musician*) and spell remaining Y3/4 list words.
-4. **Summarise** — give the main idea of a paragraph in one sentence and combine paragraph ideas into an overall summary, keeping only the main points.
-5. **Analyse writer's effect** — identify simile, metaphor and personification, and explain how a word choice makes the reader feel or picture something.
-6. **Describe settings** — build a setting through at least two senses and a simile, avoiding flat adjective-lists.
-7. **Create character** — show emotion through action ("show, don't tell") rather than stating it.
-8. **Explain in non-fiction** — write a clear explanation of a process in the present tense, using cause-and-effect connectives and headings.
+1. **Use relative clauses** — add information with *who/which/that/whose/where/when*, marking non-essential clauses with commas.
+2. **Show modality** — use modal verbs and adverbs of possibility to express how certain something is (and write *should have*, not *should of*).
+3. **Punctuate parenthesis** — drop in an aside with brackets, dashes or commas in pairs, removable without breaking the sentence.
+4. **Spell tricky endings & words** — choose *-able/-ible* and *-ant/-ent* by clue, apply silent letters and *i before e except after c*, and spell Y5/6 list words with mnemonics.
+5. **Distinguish fact from opinion** — apply the "can it be checked?" test, catch opinions dressed as facts, and compare two texts with "Both… but… whereas…".
+6. **Write to persuade** — state a clear viewpoint, support each point with a reason and evidence, and use persuasive devices (rhetorical question, rule of three, modal verbs) with a call to action.
+7. **Build cohesion** — link ideas across sentences and paragraphs with cohesive adverbials, pronouns and referencing back, avoiding repetition.
+8. **Integrate dialogue** — write dialogue that reveals character, with new lines for each speaker, varied speech verbs and action beats, punctuated correctly.

@@ -1,294 +1,274 @@
-# History & Geography — Year 3 (ages 7–8, KS2) — Lesson Outlines
+# History & Geography — Year 3 (ages 8–9, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 3 opens Key Stage 2, drawn from
+> Year 3 continues the KS2 chronological journey, drawn from
 > [`knowledge-base/subjects/history-geography/history-ks2.md`](../../../knowledge-base/subjects/history-geography/history-ks2.md),
 > [`geography-ks2.md`](../../../knowledge-base/subjects/history-geography/geography-ks2.md)
 > and [`extension-topics.md`](../../../knowledge-base/subjects/history-geography/extension-topics.md).
 
 ## Year overview
 
-Year 3 is the **start of the KS2 chronological journey** — and the first year children use **BC/AD** and rough dates. We begin at the very deepest past, **Stone Age to Iron Age Britain**, where there is no writing, so children learn that history can be detective work from **archaeology**. We then travel to the world's first great **river civilisations** — **Ancient Egypt** on the Nile, and **Ancient Sumer and the Indus Valley** — and discover the same big idea each time: a river makes farming reliable, surplus food lets cities and jobs grow, and writing appears. A long **timeline on the wall** keeps these periods in order (they are easy to muddle), and the question **"how do we know?"** drives every lesson. Geography interleaves to give the **place** half of "history and geography": we lay the **global grid** (latitude, longitude, hemispheres and time zones) so children can pinpoint any place on Earth — including every civilisation they study — and then zoom into the **UK's regions, settlements and physical/human geography**, building on KS1's countries-and-capitals. History and geography reinforce each other constantly: every civilisation is pinned to the grid, and every river-civilisation lesson connects to the physical geography of rivers and land. Six units, 22 lessons, interleaving History (H) and Geography (G).
+Year 3 carries the chronological journey forward from the deep past into the **classical world**: **Ancient Greece** (~2,500 years ago), with its city-states, democracy and lasting legacy, and then the **Roman Empire and its invasion of Britain** (AD 43) — the moment the deep prehistory of Year 2 meets a written, conquering empire. We round off the history with a dedicated **chronology** skill lesson that places every period studied so far on **one long line**, since the periods are easy to muddle and BC/AD trips children up. Geography deepens from naming places to understanding **systems and processes**: the **water cycle** (how river water is recycled forever — building on Year 2's rivers), **climate zones and biomes** (why latitude decides whether a place is rainforest, desert or tundra), and **fieldwork methods** (the child becomes a geographer outdoors, collecting their own data fairly). History and geography keep interleaving and supporting each other: the Greeks and Romans are pinned to the global grid and the climate map; the water cycle explains the rivers that fed every ancient civilisation; and fieldwork turns map skills into real investigation. The disciplinary questions sharpen — **"how do we know?"**, **"what changed and why?"**, and now **"can we trust this source / is this fair to both sides?"**. Six units, 20 lessons, interleaving History (H) and Geography (G).
 
 ---
 
-## Unit 1 (Geography) — Lines on the Globe: latitude, longitude, hemispheres & time zones
+## Unit 1 (History) — Ancient Greece
 
-**Essential question:** How can we describe the exact spot of any place on the whole planet?
+**Essential question:** How can a civilisation from 2,500 years ago still shape the way we live today?
 
-**Key vocabulary:** latitude, longitude, Equator, Prime Meridian, Greenwich, degrees, hemisphere, Northern, Southern, grid, time zone, spin.
+**Key vocabulary:** city-state, Athens, Sparta, democracy, citizen, vote, philosophy, Olympic Games, myth, legacy, BC.
 
-### Lesson 1 — The Earth's grid: latitude and longitude
+### Lesson 1 — Not one country: the Greek city-states
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that latitude lines run across and longitude lines run up-and-down, and name the two most important ones."
-- **Hook:** "How does a phone know *exactly* where you are anywhere on Earth? It uses two invisible lines."
-- **Key activity:** On a globe, find **latitude** lines (across, like rungs of a ladder; the **Equator** is 0°) and **longitude** lines (pole to pole; the **Prime Meridian** is 0°, through **Greenwich**, London). Memory aid: "**lat**itude is the **lad**der going across." Trace a few lines; explain they are **imaginary** reference lines we agreed on.
-- **Check for understanding:** "Which lines run across the globe, and what is the most important one called?" → latitude lines; the Equator (0°).
-- **Differentiation:** support: colour the Equator red and the Prime Meridian blue on a globe map. / stretch: explain why the lines aren't really painted on the Earth.
-- **Materials:** a globe; a flat world map with the grid; coloured pencils.
-- **Joy:** discovering the world's main longitude line runs right through London.
+- **Objective:** "By the end, I can explain what a city-state was and name two famous Greek ones."
+- **Hook:** "Ancient Greece wasn't one country with one king — it was dozens of tiny countries that often fought each other. How did that work?"
+- **Key activity:** Place Ancient Greece on the timeline (~2,500 years ago, BC; after Egypt, before the Romans). Explain **city-states** — independent cities each like its own country (**Athens**, **Sparta**) — that shared a language, the same **gods**, and the **Olympic Games**. Locate Greece on the grid/map.
+- **Check for understanding:** "What is a *city-state*, and name two famous Greek ones." → an independent city that ran like its own country; Athens and Sparta.
+- **Differentiation:** support: match "Athens / Sparta" to a map dot. / stretch: explain what the city-states shared despite fighting.
+- **Materials:** a map of Ancient Greece; the long timeline; city-state cards.
+- **Joy:** discovering the Olympics began 2,500 years ago in these city-states.
 
-### Lesson 2 — Hemispheres: splitting the Earth in halves
+### Lesson 2 — Athens vs Sparta
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name one big difference between Athens and Sparta."
+- **Hook:** "One city loved books, art and ideas. The other trained its boys as soldiers from childhood. Which would you rather live in?"
+- **Key activity:** Compare **Athens** (learning, art, theatre, ideas, **democracy**) with **Sparta** (war, toughness, soldier training). Sort statements into Athens / Sparta. Discuss what each valued most and the trade-offs.
+- **Check for understanding:** "Name one big difference between Athens and Sparta." → Athens valued learning, art and democracy; Sparta valued war and toughness.
+- **Differentiation:** support: a two-column statement sort with support. / stretch: argue which city-state they'd choose and why.
+- **Materials:** Athens/Sparta statement cards; a comparison mat.
+- **Joy:** debating with the tutor which city-state they'd want to be a citizen of.
+
+### Lesson 3 — Democracy is born in Athens
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain what democracy means and that it began in Athens — with honest limits."
+- **Hook:** "What if, instead of one king deciding everything, *the people* voted? That idea started in Athens — but not everyone got a vote."
+- **Key activity:** Define **democracy** = rule by the people (citizens vote on decisions). Run a tiny mock vote with the tutor (and any family who'd like to join) to feel it — the child casts a real ballot into a box. Then the honest limit: only free adult **male citizens** voted; women, enslaved people and foreigners could not. Compare with today's wider voting.
+- **Check for understanding:** "What does *democracy* mean, and which city-state began it?" → rule by the people (citizens vote); it began in Athens.
+- **Differentiation:** support: cast a ballot in a simple mock vote with the tutor and name what democracy means. / stretch: explain how Athenian democracy was *unfair* compared with today.
+- **Materials:** voting slips/a ballot box; the comparison from Lesson 2.
+- **Joy:** holding a real mock vote with the tutor and seeing democracy in action.
+
+### Lesson 4 — The legacy of Greece
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name the hemispheres and say which one the UK is in."
-- **Hook:** "Slice the Earth in half along the middle — what do we call each half?"
-- **Key activity:** The **Equator** splits the Earth into the **Northern** and **Southern** hemispheres; the **Prime Meridian** splits it into **Eastern** and **Western**. Place countries into the right hemisphere (UK → Northern; Australia → Southern). Worked example: the UK is **north of the Equator** and **on the Prime Meridian**.
-- **Check for understanding:** "Which hemisphere is the UK in?" → the Northern Hemisphere.
-- **Differentiation:** support: sort four countries into Northern / Southern. / stretch: explain why the UK is on the line between Eastern and Western.
-- **Materials:** a globe; country cards; a hemisphere sorting mat.
-- **Joy:** finding that Australia is "upside down" from us in the opposite hemisphere.
+- **Objective:** "By the end, I can name three things from Ancient Greece we still have today."
+- **Hook:** "The Olympics, voting, even the word 'politics' — all gifts from people who lived 2,500 years ago."
+- **Key activity:** Worked example from the KB — list the **legacy**: the **Olympics**, **democracy/voting**, early **maths and science** (Pythagoras, Archimedes), **theatre**, and **myths** (Heracles, the Minotaur, the Trojan Horse). Note Greek words we still use (democracy, politics). Hear a short Greek myth.
+- **Check for understanding:** "Give two things from Ancient Greece we still have today." → any two of: the Olympic Games, democracy/voting, maths and science ideas, theatre, myths.
+- **Differentiation:** support: match three legacy items to "from Ancient Greece." / stretch: explain how a 2,500-year-old idea still shapes today.
+- **Materials:** legacy cards; a short illustrated Greek myth; Olympic images.
+- **Joy:** hearing a thrilling Greek myth and meeting its monsters and heroes.
 
-### Lesson 3 — Time zones: why it's lunchtime here, night there
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain that the spinning Earth gives different places different times of day."
-- **Hook:** "When you're eating breakfast, a child in Australia is going to bed. How can it be two different times at once?"
-- **Key activity:** Use a globe and a torch (the Sun): spin the globe slowly and watch which side faces the "Sun." Because the Earth **spins** once a day, the Sun reaches places at different moments — so the world is split into **time zones**. Greenwich sets the world's time (link back to the Prime Meridian).
-- **Check for understanding:** "Why is it a different time of day in Australia than in the UK?" → the Earth spins, so the Sun reaches them at a different time — they're in a different time zone.
-- **Differentiation:** support: point to "day side" and "night side" on the lit globe. / stretch: explain why a video call to family abroad can happen at a strange hour for them.
-- **Materials:** a globe; a torch; a darkened corner.
-- **Joy:** the torch-and-globe demo — watching "day" sweep around the spinning Earth.
-
-**End-of-unit check (Unit 1):** Explain latitude (across) vs longitude (up-down), name the Equator and Prime Meridian, say which hemisphere the UK is in, and explain time zones. **Misconception watch:** the lines are imaginary, not painted; latitude vs longitude (the ladder runs across); it is not the same time everywhere on Earth.
+**End-of-unit check (Unit 1):** Explain city-states and name two; give one Athens/Sparta difference; define democracy and where it began; name three Greek legacies. **Misconception watch:** Greece was *not* one country with one king; Athenian democracy was *not* for everyone; the myths were their real religion, not "just fairy tales."
 
 ---
 
-## Unit 2 (History) — Stone Age to Iron Age Britain
+## Unit 2 (Geography) — The Water Cycle: how rivers never run dry
 
-**Essential question:** How do we know about people who lived before writing, and what was the biggest change in their lives?
+**Essential question:** Where does rain come from, and why does the water never run out?
 
-**Key vocabulary:** prehistory, archaeology, Stone Age, Bronze Age, Iron Age, hunter-gatherer, farmer, settle, Neolithic, Stonehenge, hillfort, BC.
+**Key vocabulary:** water cycle, evaporation, condensation, precipitation, collection, cloud, vapour, the Sun, recycled.
 
-### Lesson 4 — Prehistory and archaeology: history with no books
+### Lesson 5 — The never-ending journey of water
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why it's called *pre*history and how we learn about it."
-- **Hook:** "There are no books, no diaries, no writing at all from this time. So how can we possibly know anything about it?"
-- **Key activity:** Introduce **prehistory** (before writing) and **archaeology** (learning from dug-up tools, bones, pots and monuments). Place the Stone Age at the far left of a long BC timeline. Be "archaeologists": examine mystery objects (or pictures) and reason what they were for and how old they might be.
-- **Check for understanding:** "Why is it called *pre*history, and how do we learn about it?" → it's before writing, so we use archaeology — tools, bones, pots and monuments, not books.
-- **Differentiation:** support: match "tool / bone / pot" to "clues we dig up." / stretch: explain why missing evidence makes prehistory like a puzzle.
-- **Materials:** a long BC/AD timeline; mystery artefact pictures; magnifying glasses.
-- **Joy:** being a real archaeologist examining "ancient" finds and guessing their use.
+- **Objective:** "By the end, I can name the four stages of the water cycle in order."
+- **Hook:** "The water you drank today might once have been in a dinosaur's drink. How? Because water is used again and again, forever."
+- **Key activity:** Build on Year 2's rivers. Teach the cycle: the Sun heats water → **evaporation** (vapour rises) → **condensation** (clouds form) → **precipitation** (rain/snow falls) → **collection** (back to seas and rivers) → repeat. Order/label the stages on a diagram with arrows.
+- **Check for understanding:** "Name the four stages of the water cycle in order." → evaporation → condensation → precipitation → collection.
+- **Differentiation:** support: order four picture cards (sun → cloud → rain → river). / stretch: explain what powers the whole cycle (the Sun).
+- **Materials:** a water-cycle diagram; stage cards; arrows.
+- **Joy:** the mind-bending idea that today's rain is ancient recycled water.
 
-### Lesson 5 — Hunter-gatherers: living off the land
+### Lesson 6 — Watching the water cycle for real
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe how Stone Age hunter-gatherers found food and tools."
-- **Hook:** "No shops, no farms, no fridge. How would *you* get food today?"
-- **Key activity:** Describe early Stone Age **hunter-gatherers**: moving to follow animals, gathering berries, nuts and roots, using sharp **stone** tools and fire. Plan a "survival day" — what would you hunt or gather, and what tools would you need? Handle (or examine) a picture of a flint hand-axe.
-- **Check for understanding:** "How did hunter-gatherers get their food?" → by hunting wild animals and gathering plants (berries, nuts, roots) — they had no farms.
-- **Differentiation:** support: sort foods into "hunt" vs "gather." / stretch: explain why hunter-gatherers had to keep moving.
-- **Materials:** a flint hand-axe picture/replica; food picture cards; a "survival day" planner.
-- **Joy:** planning their own Stone Age survival day with real choices.
+- **Objective:** "By the end, I can explain that rain is recycled water, not brand-new water made in clouds."
+- **Hook:** "Clouds don't *make* new water — so where did all that rain come from?"
+- **Key activity:** Tackle the misconception: rain isn't new — it's the **same water recycled forever**, evaporated from seas and rivers, condensed, fallen again. Optional demo: warm water in a covered bowl/jar producing "rain" droplets on the lid (evaporation → condensation). Connect each step to a real-world example (puddles drying = evaporation).
+- **Check for understanding:** "Is rain brand-new water made in the clouds? Explain." → no — it's the same water recycled: evaporated, condensed into clouds, then fallen again.
+- **Differentiation:** support: match each stage to an everyday example (puddle drying / clouds / rain). / stretch: trace one drop's full loop in their own words.
+- **Materials:** a clear bowl/jar with warm water and a lid; the water-cycle diagram.
+- **Joy:** seeing "rain" form on the lid of their own mini water-cycle.
 
-### Lesson 6 — The great change: farming and settling down
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how farming let people settle and why that mattered."
-- **Hook:** "One discovery changed everything — and meant people could stop wandering and build the first villages. What was it?"
-- **Key activity:** Worked example from the KB — trace the chain: people learn to **grow crops and keep animals** → they don't need to follow the herds → they **settle** → they build homes and store food → **villages** and big monuments appear. This is the **Neolithic** revolution. Look at **Stonehenge** (~4,500 years ago) as a mystery from sources.
-- **Check for understanding:** "What was the biggest change in the Stone Age and why did it matter?" → people learned to farm, so they could settle in one place — the start of villages.
-- **Differentiation:** support: order three pictures (follow animals → plant crops → build a village). / stretch: explain why Stonehenge is still a mystery.
-- **Materials:** a picture of Stonehenge; sequence cards; the timeline.
-- **Joy:** puzzling over how people moved stones that heavy 4,500 years ago.
-
-### Lesson 7 — Bronze, iron, and the world the Romans found
-- **Duration:** 35 min
-- **Objective:** "By the end, I can order the three ages and explain why better metals mattered."
-- **Hook:** "Why are these times named after stone, bronze and iron? Because the *material* changed everything people could make."
-- **Key activity:** Order **Stone Age → Bronze Age → Iron Age** (named after the best tool material). Explain better metals → better tools, weapons, farming and trade; Iron Age people built **hillforts** and round houses. Sort items (flint axe, bronze sword, iron knife) by age. End by noting this is roughly where Britain was when the Romans arrived (Year 4 link).
-- **Check for understanding:** "Order these oldest first: Iron Age, Stone Age, Bronze Age." → Stone Age, Bronze Age, Iron Age.
-- **Differentiation:** support: order two ages, then add the third. / stretch: explain why iron tools beat stone ones.
-- **Materials:** age-ordering cards; tool picture cards (flint, bronze, iron); the timeline.
-- **Joy:** the "tech upgrade" feel of stone → bronze → iron tools getting stronger.
-
-**End-of-unit check (Unit 2):** Explain prehistory and archaeology; describe hunter-gatherers; explain how farming led to settling; order the three ages. **Misconception watch:** cavemen did *not* live with dinosaurs (millions of years apart); Stone Age people were clever, not "stupid brutes"; the ages overlapped and arrived at different times in different places.
+**End-of-unit check (Unit 2):** Order the four stages, explain that water is recycled, and link the cycle to where river water comes from. **Misconception watch:** rain is recycled, not new; the Sun drives the cycle.
 
 ---
 
-## Unit 3 (Geography) — Our United Kingdom: regions, settlements and features
+## Unit 3 (History) — The Romans and Their Impact on Britain
 
-**Essential question:** What is the UK made of beyond its four countries — its regions, cities and landscapes?
+**Essential question:** What did the Romans change about Britain — and did everyone welcome them?
 
-**Key vocabulary:** region, county, city, town, village, capital, settlement, human feature, physical feature, mountain, river, coast, upland, lowland.
+**Key vocabulary:** empire, invade, AD 43, legion, army, road, town, Londinium, baths, Boudica, revolt, Hadrian's Wall, resistance, legacy.
 
-### Lesson 8 — From four countries to many regions
-- **Duration:** 35 min
-- **Objective:** "By the end, I can name some UK regions and major cities beyond the four capitals."
-- **Hook:** "You know England, Scotland, Wales and Northern Ireland. But within them are dozens of regions and cities — how many can you find?"
-- **Key activity:** Build on KS1's four countries/capitals. Introduce **regions** (e.g. the South West, the Midlands, the Highlands) and major **cities** (Manchester, Birmingham, Glasgow, etc.). Locate the learner's own region and city on a UK map. Add labels to a blank UK map.
-- **Check for understanding:** "Name one UK region and one major city other than a capital." → e.g. the Midlands; Manchester (any valid region/city).
-- **Differentiation:** support: place three city stickers on a UK map. / stretch: name which country and region the learner lives in.
-- **Materials:** a large UK map; region and city labels; sticky dots.
-- **Joy:** pinpointing their own home region and city on the national map.
-
-### Lesson 9 — Human and physical features of the UK
+### Lesson 7 — Rome invades: AD 43
 - **Duration:** 40 min
-- **Objective:** "By the end, I can name UK physical and human features and sort them correctly."
-- **Hook:** "Some of Britain was shaped by nature over millions of years; some was built by people. Can you tell which is which?"
-- **Key activity:** Introduce key UK **physical features** (mountains like Ben Nevis/Snowdon, rivers like the Thames/Severn, coasts, uplands/lowlands) and **human features** (cities, motorways, bridges, ports). Sort photos into the two groups; locate two physical features on the UK map.
-- **Check for understanding:** "Is a mountain a physical or a human feature?" → physical (natural); a motorway is human-made.
-- **Differentiation:** support: a two-box photo sort with support. / stretch: explain how a physical feature (a river) influenced a human one (a city).
-- **Materials:** a UK relief map; feature photo cards; two sorting hoops.
-- **Joy:** finding the UK's highest mountain and longest river on a relief map.
+- **Objective:** "By the end, I can say when and from where the Romans invaded Britain and what an empire is."
+- **Hook:** "Iron Age Britain had tribes in hillforts. Then a giant, organised army arrived from far across the sea. What happened next?"
+- **Key activity:** Recap Iron Age Britain (Year 2). Explain the Roman **Empire** (already ruling lands round the Mediterranean) and the **invasion in AD 43**, led by a superbly trained **army (legions)**. Locate Rome (Italy) and Britain on the map and grid. Tackle the misconception: Rome is in Italy — the Romans came from abroad.
+- **Check for understanding:** "In what year did the Romans invade Britain, and where did they come from?" → AD 43; from Rome/Italy as part of the Roman Empire.
+- **Differentiation:** support: place "Rome" and "Britain" on a map and name the year. / stretch: explain what made an "empire" different from a single kingdom.
+- **Materials:** a map of the Roman Empire; the timeline; Roman soldier images.
+- **Joy:** the drama of a disciplined legion arriving to conquer Iron Age tribes.
 
-### Lesson 10 — Settlements: hamlets, villages, towns and cities
+### Lesson 8 — What the Romans built and brought
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name three things the Romans built or brought that lasted in Britain."
+- **Hook:** "They had heated floors, public baths and dead-straight roads — 2,000 years ago. Some of those roads are still under ours."
+- **Key activity:** Worked example from the KB — list the lasting impact: **straight roads** (still beneath modern ones), the first **towns/cities** (**Londinium** = London), stone buildings, **public baths**, **central heating** (hypocausts), **coins** and **writing**. Sort "before the Romans" (hillforts, roundhouses) vs "after the Romans" (roads, towns, baths).
+- **Check for understanding:** "Give two things the Romans built or brought that lasted." → any two of: roads, towns/cities (e.g. London), baths/central heating, coins, writing, Hadrian's Wall.
+- **Differentiation:** support: a before/after sort with picture support. / stretch: explain how a Roman thing (a road, London) still affects Britain today.
+- **Materials:** before/after picture cards; a Roman roads map; a hypocaust diagram.
+- **Joy:** discovering the Romans had heated floors and baths 2,000 years ago.
+
+### Lesson 9 — Resistance: Boudica's revolt
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain that not everyone welcomed the Romans, using Boudica as an example."
+- **Hook:** "A British queen led a fierce army that burned Roman towns to the ground. Who was she, and why did she fight?"
+- **Key activity:** Tell the story of **Queen Boudica** of the Iceni and her revolt (~AD 60), burning Roman towns before being defeated. Use it to break the "everyone was happy the Romans came" misconception: it was an **invasion**, and many Britons fought back. Weigh that the Romans brought useful things *and* conquered by force — both are true.
+- **Check for understanding:** "Who was Boudica?" → a British queen (of the Iceni) who led a revolt against the Romans.
+- **Differentiation:** support: choose two facts about Boudica. / stretch: explain why "everyone welcomed the Romans" is not a fair statement.
+- **Materials:** an image of Boudica; a map of the revolt; the before/after Roman impact list.
+- **Joy:** the dramatic story of a warrior queen who fought the mighty empire.
+
+### Lesson 10 — Hadrian's Wall and the end of Roman Britain
 - **Duration:** 35 min
-- **Objective:** "By the end, I can order settlement types by size and name the learner's own settlement type."
-- **Hook:** "A handful of houses, or millions of people — both are 'settlements.' What's the difference?"
-- **Key activity:** Introduce the **settlement hierarchy**: **hamlet → village → town → city** (more people and services as they grow). Classify the learner's own home and justify it. Look at an aerial map and spot a small settlement vs a large one.
-- **Check for understanding:** "Order these smallest to largest: city, hamlet, town, village." → hamlet, village, town, city.
-- **Differentiation:** support: order with picture support (few houses → big city). / stretch: explain what extra services a city has that a village doesn't.
-- **Materials:** settlement-size cards; aerial photos of a village and a city.
-- **Joy:** deciding (and defending) whether their own home is a village, town or city.
+- **Objective:** "By the end, I can explain why Hadrian's Wall was built and roughly when the Romans left."
+- **Hook:** "The Romans built a stone wall right across the north of Britain. What were they keeping out?"
+- **Key activity:** Explain **Hadrian's Wall** — built to defend Roman Britain from tribes to the north (now Scotland), showing ongoing conflict. Locate it on a UK map. Then note Rome weakened and the army left around **AD 410**, leaving roads, towns and ruins behind. Place the whole Roman period on the timeline.
+- **Check for understanding:** "Why did the Romans build Hadrian's Wall?" → to defend Roman Britain from tribes to the north (in what's now Scotland).
+- **Differentiation:** support: find Hadrian's Wall on a UK map. / stretch: explain what the Wall tells us about whether Roman rule was peaceful.
+- **Materials:** a UK map with Hadrian's Wall; an image of the Wall; the timeline.
+- **Joy:** the idea of a wall so long you can still walk along it today.
 
-### Lesson 11 — Why settlements grew where they did
-- **Duration:** 35 min
-- **Objective:** "By the end, I can give two reasons people built settlements in particular places (site factors)."
-- **Hook:** "People didn't settle just anywhere — they looked for good spots. What would *you* need nearby to start a town?"
-- **Key activity:** Introduce simple **site factors**: fresh water (rivers), flat dry land, food/good soil, shelter, defence, and travel routes. Worked example: a town grows at a river crossing because the river gives water, the crossing brings trade, and flat banks give building land. Link to the UK rivers from Lesson 9.
-- **Check for understanding:** "Give two reasons people built settlements by rivers." → fresh water to drink; transport/trade by boat (also fertile land, a crossing point, defence).
-- **Differentiation:** support: match a site factor (water/flat land) to "why it's useful." / stretch: choose the best spot on a sketch map and justify it.
-- **Materials:** a sketch map with rivers/hills; site-factor cards.
-- **Joy:** "founding" their own town on the map and defending the location.
-
-**End-of-unit check (Unit 3):** Name a UK region and city; sort physical vs human features; order the settlement hierarchy; give two site factors. **Misconception watch:** England ≠ the UK; a city is more than "a big town" (size *and* services); settlements grew for reasons, not randomly.
+**End-of-unit check (Unit 3):** Say when/where the Romans invaded; name three lasting Roman things; explain Boudica's revolt and that it was an invasion; explain Hadrian's Wall. **Misconception watch:** Rome is in Italy (Romans came from abroad); not everyone welcomed them; Roman things *did* last (roads, London).
 
 ---
 
-## Unit 4 (History) — Ancient Egypt
+## Unit 4 (Geography) — Climate Zones & Biomes
 
-**Essential question:** Why did one of the world's first great civilisations grow up in a desert — and how do we know so much about it?
+**Essential question:** Why is one part of the world a steamy jungle and another a frozen desert?
 
-**Key vocabulary:** civilisation, River Nile, flood, fertile, pharaoh, pyramid, tomb, mummy, afterlife, hieroglyphics, papyrus, source.
+**Key vocabulary:** weather, climate, climate zone, latitude, temperate, tropical, polar, biome, rainforest, desert, grassland, tundra, adaptation.
 
-### Lesson 12 — The gift of the Nile
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain why Ancient Egypt grew up beside the River Nile."
-- **Hook:** "Egypt is mostly burning desert — so why did a huge, rich civilisation grow there 5,000 years ago?"
-- **Key activity:** Find the **Nile** on a map (link to the global grid — north-east Africa). Worked example from the KB: desert all around → little water → the Nile **floods** yearly → leaves fertile black mud → good **farming** → plenty of food → a large, organised **civilisation**. Place Egypt on the timeline (~5,000 years ago, much older than the Romans).
-- **Check for understanding:** "Why was the River Nile so important to the Egyptians?" → its yearly flood left fertile mud for farming, so people could grow food in the desert.
-- **Differentiation:** support: order the chain cards (desert → flood → mud → farming → cities). / stretch: explain why Egypt is on the timeline far *before* the Romans.
-- **Materials:** a map of north-east Africa; the Nile-flood chain cards; the long timeline.
-- **Joy:** the surprise that a desert civilisation depended entirely on one river.
-
-### Lesson 13 — Pharaohs, gods and the afterlife
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain who a pharaoh was and why Egyptians made mummies."
-- **Hook:** "Why would anyone carefully dry out a body, wrap it in bandages, and bury it with gold? It wasn't to be creepy — it was about belief."
-- **Key activity:** Introduce the **pharaoh** (a king believed chosen by the gods), the many **gods** (e.g. Ra), and the strong belief in an **afterlife**. Explain **mummies** as careful preparation of the body for life after death — a serious religious belief. Look at how the richest were buried with treasures.
-- **Check for understanding:** "What is a mummy and why did Egyptians make them?" → a preserved, wrapped body — made because they believed in an afterlife.
-- **Differentiation:** support: match "pharaoh / god / mummy / afterlife" to meanings. / stretch: explain why "they made mummies because they were creepy" is wrong.
-- **Materials:** images of a pharaoh, gods, a mummy; a child-friendly afterlife storyboard.
-- **Joy:** the "spooky but real" fascination of mummies — and learning the real reason behind them.
-
-### Lesson 14 — Pyramids: building the impossible
+### Lesson 11 — Weather vs climate
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain what pyramids were for and that humans built them."
-- **Hook:** "Giant stone mountains, built by hand 4,500 years ago, lined up with the stars. Aliens? No — people."
-- **Key activity:** Pyramids were giant **tombs** for pharaohs, holding treasures for the afterlife. Tackle the misconception head-on: thousands of skilled, organised workers used **ramps, levers and planning** — humans, not aliens. Compare pyramid-building to a huge team project.
-- **Check for understanding:** "What were the pyramids for?" → giant tombs for pharaohs, with treasures for the afterlife.
-- **Differentiation:** support: choose "tomb" or "house" for the pyramid's purpose. / stretch: explain how humans could move such heavy stones (ramps, levers, teamwork).
-- **Materials:** images of the pyramids; a simple ramp/lever demo; building-blocks.
-- **Joy:** building a mini pyramid and testing a ramp to lift a "stone."
+- **Objective:** "By the end, I can explain the difference between weather and climate."
+- **Hook:** "London had a hot, sunny day — does that make London a hot country? No. Here's why."
+- **Key activity:** Distinguish **weather** (what's happening today, changes fast) from **climate** (the usual pattern over many years). London's climate is "mild and rainy" even on a rare hot day. Sort statements into "weather" vs "climate."
+- **Check for understanding:** "What's the difference between weather and climate?" → weather is today's conditions; climate is the usual pattern over many years.
+- **Differentiation:** support: a two-box sort with support. / stretch: explain why one hot day doesn't change the UK's climate.
+- **Materials:** weather/climate statement cards; the UK seasons chart (link to KS1).
+- **Joy:** catching out the "one hot day = hot country" trap.
 
-### Lesson 15 — Hieroglyphics and how we know
+### Lesson 12 — Climate zones follow latitude
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how we know so much about Ancient Egypt and write my name in hieroglyphics."
-- **Hook:** "For thousands of years, nobody could read Egyptian writing — until one special stone gave them the key."
-- **Key activity:** Introduce **hieroglyphics** (picture-writing) on tombs and **papyrus**, the **Rosetta Stone** as the key, and why dry tombs preserved everything (e.g. **Tutankhamun's** tomb, found nearly untouched in 1922). Children crack the code: write their name in hieroglyphs. Stress: we know so much *because* Egyptians wrote and their tombs preserved sources.
-- **Check for understanding:** "Why do we know so much about Ancient Egypt?" → they wrote (hieroglyphics) and dry tombs preserved objects and bodies — rich sources like Tutankhamun's tomb.
-- **Differentiation:** support: copy three given hieroglyphs. / stretch: explain why the dry climate helped sources survive.
-- **Materials:** a hieroglyphic alphabet sheet; an image of the Rosetta Stone and Tutankhamun's mask; papyrus-style paper.
-- **Joy:** writing their own name in real Egyptian hieroglyphics to take home.
+- **Objective:** "By the end, I can explain that climate zones follow latitude — hot at the Equator, cold at the poles."
+- **Hook:** "Why is it always hot near the Equator and always cold at the poles? It comes down to those invisible lines from before."
+- **Key activity:** Link to the global grid (Year 2): near the **Equator** = hot all year (**tropical**); near the **poles** = cold all year (**polar**); in between (like the UK) = **temperate** (mild, with seasons). Colour climate-zone bands on a world map and place countries in the right zone.
+- **Check for understanding:** "Where is the climate hot all year, and what zone is the UK in?" → near the Equator (tropical); the UK is temperate.
+- **Differentiation:** support: colour the three main bands on a world map. / stretch: explain why latitude (the angle of sunlight) causes the zones.
+- **Materials:** a blank world map; climate-zone colour key; the globe.
+- **Joy:** colouring the world into hot, mild and cold bands and seeing the pattern.
 
-**End-of-unit check (Unit 4):** Explain why Egypt grew by the Nile; describe pharaohs, mummies and the afterlife; say what pyramids were for; explain how we know (hieroglyphics + preserved tombs). **Misconception watch:** humans (not aliens) built the pyramids; mummies came from religious belief; Egypt is *much* older than Greece/Rome.
+### Lesson 13 — Biomes: nature's big regions
+- **Duration:** 40 min
+- **Objective:** "By the end, I can name three biomes and match them to their climate."
+- **Hook:** "Rainforest, desert, frozen tundra — each is a whole world of its own. Where does each one belong?"
+- **Key activity:** Introduce **biomes** — large regions with their own climate, plants and animals: **tropical rainforest** (hot, wet), **desert** (very dry), **grassland/savanna**, **temperate forest** (the UK), **tundra** (cold, treeless), **polar** (ice). Match biome → climate and place them on the climate-zone map.
+- **Check for understanding:** "Name three biomes." → any three of: rainforest, desert, grassland/savanna, temperate forest, tundra, polar.
+- **Differentiation:** support: match three biomes to "hot & wet / dry / cold." / stretch: explain why a desert is defined by being *dry*, not hot (Antarctica is a cold desert).
+- **Materials:** biome photo cards; the climate-zone map; a biome/climate matching mat.
+- **Joy:** matching favourite animals to their biome homes.
+
+### Lesson 14 — Adaptation: built for the biome
+- **Duration:** 40 min
+- **Objective:** "By the end, I can give one way a plant or animal is adapted to its biome."
+- **Hook:** "Why does a cactus have spines instead of leaves, and a polar bear thick fur? Each is perfectly built for its home."
+- **Key activity:** Worked example from the KB — a **cactus** stores water in its fat stem and has spines instead of leaves to lose less water (desert); a **polar bear** has thick fur and fat (polar). Match animals/plants to biomes and explain one adaptation each. Tackle "animals can live anywhere" — they're adapted to a *particular* biome.
+- **Check for understanding:** "Give one way a cactus is adapted to the desert." → it stores water in its stem / has spines instead of leaves to lose less water.
+- **Differentiation:** support: match animal → biome with support. / stretch: explain why a camel couldn't survive the Arctic.
+- **Materials:** animal/plant cards; biome mats; a cactus and a broad leaf to compare.
+- **Joy:** being an "adaptation detective" — working out *why* each creature is built that way.
+
+**End-of-unit check (Unit 4):** Explain weather vs climate; explain climate zones follow latitude; name three biomes and match to climate; give one adaptation. **Misconception watch:** weather ≠ climate; deserts are defined by dryness (not heat/sand); wild animals are adapted to a particular biome.
 
 ---
 
-## Unit 5 (History) — The First Cities: Ancient Sumer & the Indus Valley
+## Unit 5 (Geography) — Fieldwork: being a geographer outdoors
 
-**Essential question:** Was Egypt the only early civilisation — or did the same idea grow up beside other great rivers?
+**Essential question:** How do geographers collect their own reliable evidence about a real place?
 
-**Key vocabulary:** Mesopotamia, Tigris, Euphrates, Sumer, Ur, Indus Valley, Mohenjo-daro, surplus, cuneiform, wheel, planned city, drains.
+**Key vocabulary:** fieldwork, data, observe, measure, tally, survey, questionnaire, sketch map, systematic, fair, present, conclude.
 
-### Lesson 16 — Two more river civilisations
+### Lesson 15 — The fieldwork cycle
 - **Duration:** 40 min
-- **Objective:** "By the end, I can locate Sumer and the Indus Valley and explain why all three civilisations grew beside rivers."
-- **Hook:** "Egypt wasn't alone. At the very same time, two more brilliant civilisations were rising — beside two other great rivers."
-- **Key activity:** Find **Mesopotamia** (the **Tigris** and **Euphrates**, today's Iraq — home of **Sumer** and cities like **Ur**) and the **Indus Valley** (today's Pakistan/north-west India — **Mohenjo-daro**, **Harappa**) on the world map and grid. Worked example from the KB: river → water + fertile soil → reliable farming → **surplus** food → not everyone farms → traders, builders, writers → **cities**.
-- **Check for understanding:** "Why did early cities grow next to rivers?" → rivers gave water and fertile soil for reliable farming, creating surplus food so cities and new jobs could grow.
-- **Differentiation:** support: match each civilisation to its river (Egypt→Nile, Sumer→Tigris/Euphrates, Indus→Indus). / stretch: explain what "surplus food" means and why it matters.
-- **Materials:** a world map/globe; civilisation-river-city matching cards; the timeline.
-- **Joy:** the "aha" of seeing all three great civilisations sitting on rivers.
+- **Objective:** "By the end, I can put the steps of a fieldwork investigation in order."
+- **Hook:** "Geographers don't just read maps — they go outside and find things out for themselves. But there's a right way to do it."
+- **Key activity:** Teach the cycle: **ask a question → choose a method → collect data → present it → explain/conclude**. Discuss methods: a **tally count**, a **survey/questionnaire**, a **sketch map**, **measuring**. Order the steps; match each method to a question it could answer.
+- **Check for understanding:** "Put the fieldwork steps in order: present, ask a question, collect data, choose a method, conclude." → ask a question → choose a method → collect data → present → conclude.
+- **Differentiation:** support: order the five steps with picture support. / stretch: match three methods to three questions.
+- **Materials:** step cards; method cards; example question cards.
+- **Joy:** planning to investigate a real question about their own street or local area.
 
-### Lesson 17 — Sumer: the first writing and the wheel
+### Lesson 16 — Be systematic and fair
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name two Sumerian inventions and explain what the first writing was for."
-- **Hook:** "The very first writing in the world wasn't poems or stories — it was a shopping list. Why?"
-- **Key activity:** Introduce **cuneiform** (wedge marks pressed into clay — the first writing), invented partly to **count and record goods**, and the **wheel**. Children press wedge shapes into clay/play-dough to "write" cuneiform. Discuss why records (not stories) came first.
-- **Check for understanding:** "Where did the Sumerians live, and name one thing they invented." → Mesopotamia (between the Tigris and Euphrates, today's Iraq); cuneiform writing (and the wheel).
-- **Differentiation:** support: copy three cuneiform marks. / stretch: explain why writing began with counting goods, not stories.
-- **Materials:** play-dough/clay; styluses (sticks); a cuneiform tablet image.
-- **Joy:** pressing their own cuneiform "tablet" like a Sumerian scribe.
+- **Objective:** "By the end, I can explain why fieldwork must use the same method each time to be fair."
+- **Hook:** "If I count cars for 2 minutes here and 10 minutes there, can I really compare? Why not?"
+- **Key activity:** Teach the golden rule: be **systematic and fair** — same method, same time, same question — or the results are meaningless. Spot the unfairness in a flawed plan (different counting times) and fix it. Design a fair tally count.
+- **Check for understanding:** "Why must you use the same method each time?" → so it's fair and you can compare; systematic data is meaningful, messy data isn't.
+- **Differentiation:** support: choose the "fair" plan from two options. / stretch: spot and fix two unfair choices in a sample plan.
+- **Materials:** a flawed-plan example; a tally chart template.
+- **Joy:** catching the "cheats" in an unfair survey and fixing them.
 
-### Lesson 18 — The Indus Valley: the best-planned ancient cities
-- **Duration:** 35 min
-- **Objective:** "By the end, I can describe what made Indus Valley cities like Mohenjo-daro so advanced."
-- **Hook:** "These cities had straight streets, brick houses and covered drains and toilets — 4,500 years ago. How does your town compare?"
-- **Key activity:** Describe **Mohenjo-daro**'s grid streets, brick houses, and remarkable **covered drains and early toilets** — clever public health long ago. Compare with a modern town plan. Tackle the misconception that "old = primitive."
-- **Check for understanding:** "Name one impressive feature of Indus Valley cities like Mohenjo-daro." → planned grid streets / brick houses / covered drains and early toilets.
-- **Differentiation:** support: match "grid streets / drains / brick houses" to "clever city ideas." / stretch: explain why this shows ancient people were not "primitive."
-- **Materials:** a Mohenjo-daro plan image; a modern town grid; comparison sheet.
-- **Joy:** the surprise that an ancient city had better drains than many later towns.
+### Lesson 17 — Collect, present and conclude
+- **Duration:** 40 min
+- **Objective:** "By the end, I can present fieldwork data and use it to answer a question."
+- **Hook:** "We counted 4 people at 9am and 22 at 4pm. So… is our park well used, and when?"
+- **Key activity:** Worked example from the KB — a 10-minute **tally count** of park users at two times (9am: 4; 4pm: 22) → present as a small **bar chart** → conclude: the park is used much more after school. If a safe space is available (with a grown-up), carry out a real 10-minute count; otherwise use the sample data.
+- **Check for understanding:** "What is fieldwork in geography?" → collecting your own data outdoors by observing, measuring, counting and recording to answer a question.
+- **Differentiation:** support: fill in a part-made bar chart and read off the busiest time. / stretch: write a full conclusion explaining *why* the busier time is busier.
+- **Materials:** a tally chart; bar-chart paper; (if safe) a clipboard and a grown-up.
+- **Joy:** turning their own counts into a chart and "solving" a real question.
 
-**End-of-unit check (Unit 5):** Locate Sumer and the Indus Valley; explain why all three civilisations grew by rivers; name Sumerian inventions (cuneiform, the wheel); describe Mohenjo-daro's planning. **Misconception watch:** Egypt was *not* the only/first civilisation; ancient peoples planned brilliant cities; early writing recorded goods before stories.
+**End-of-unit check (Unit 5):** Order the fieldwork cycle; explain why method must stay the same; present data and draw a conclusion that answers the question. **Misconception watch:** fieldwork is structured (not "a day off"); the method must be consistent; data must be presented and explained, not just collected.
 
 ---
 
-## Unit 6 (Geography) — Rivers Near and Far: linking physical geography to the civilisations
+## Unit 6 (History) — Chronology: putting the periods in order
 
-**Essential question:** What is a river, and why do rivers matter so much to people — then and now?
+**Essential question:** How do all the periods we've studied fit on one long timeline, and how does BC/AD work?
 
-**Key vocabulary:** river, source, mouth, downhill, flow, drinking water, transport, settlement, the Nile, the Thames, valley.
+**Key vocabulary:** chronology, timeline, BC, AD, before, after, century, overlap, period, order.
 
-### Lesson 19 — What is a river? Source to mouth
-- **Duration:** 35 min
-- **Objective:** "By the end, I can name the start and end of a river and explain that rivers flow downhill."
-- **Hook:** "Where does a river begin, and where does all that water finally go?"
-- **Key activity:** Introduce the **source** (start, high ground) and **mouth** (end, at the sea), and that rivers flow **downhill** (high to low). Tilt a sand tray and pour water to watch a "river" find the lowest path. Label source and mouth on a simple river diagram.
-- **Check for understanding:** "What do we call the start and end of a river?" → the source (start, high ground) and the mouth (end, at the sea).
-- **Differentiation:** support: label source and mouth on a part-labelled diagram. / stretch: explain why water flows downhill (gravity).
-- **Materials:** a sand tray and water jug; a river diagram; the UK relief map.
-- **Joy:** making a real "river" run down the tilted sand tray.
-
-### Lesson 20 — Which way does a river flow?
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain that rivers flow downhill in any compass direction, not always south."
-- **Hook:** "The mighty Nile flows *north*. Doesn't 'down' the map mean south? Let's solve the puzzle."
-- **Key activity:** Worked example from the KB: a river flows from **source** (high) to **mouth** (sea), always **downhill** — in whatever compass direction "downhill" happens to be. The **Nile** flows **north** because its high ground is in the south and the sea is in the north. Separate "down the map" (south) from real "downhill" (lower height).
-- **Check for understanding:** "Do rivers always flow south? Explain." → no — they flow downhill (high to low) in any direction; e.g. the Nile flows north.
-- **Differentiation:** support: trace the Nile's flow with a finger and name the direction. / stretch: explain why "downhill means south" is a map-reading trap.
-- **Materials:** a map of the Nile; the UK relief map; arrows showing flow.
-- **Joy:** the brain-twister of a river that flows "up" the map.
-
-### Lesson 21 — Why people need rivers: cities on water
-- **Duration:** 35 min
-- **Objective:** "By the end, I can give three reasons rivers matter to people and link this to the river civilisations."
-- **Hook:** "London on the Thames, Cairo on the Nile, ancient Ur on the Euphrates — why do so many great cities sit on rivers?"
-- **Key activity:** List why rivers matter: **drinking water**, **watering crops**, **transport** of boats and goods, and **fertile land**. Connect directly to the units just studied — Egypt, Sumer and the Indus all grew on rivers for exactly these reasons. Trace one famous river (Thames or Nile) source to mouth on a map.
-- **Check for understanding:** "Why do many cities grow up next to rivers?" → for drinking water, farming, and transport of goods/people (and fertile land).
-- **Differentiation:** support: match a river use (drink/farm/travel) to a picture. / stretch: explain how this links the Nile to Ancient Egypt's success.
-- **Materials:** a map of a famous river; river-use cards; the civilisations timeline.
-- **Joy:** connecting the physical geography back to the great civilisations they've just met.
-
-### Lesson 22 — Year 3 timeline review: putting the civilisations in order
+### Lesson 18 — One long timeline
 - **Duration:** 40 min
-- **Objective:** "By the end, I can place this year's periods on one timeline and use BC/AD correctly."
-- **Hook:** "We've travelled from the Stone Age to Egypt, Sumer and the Indus. Can you line them all up in the right order?"
-- **Key activity:** Make a "washing-line timeline" across the room. Peg on **Stone Age → Bronze/Iron Age → Egypt/Sumer/Indus (~5,000 years ago, BC)**. Practise the BC rule (bigger BC number = older). Note that the river civilisations overlapped in time but were far apart in space.
-- **Check for understanding:** "Which is older, 3000 BC or 500 BC?" → 3000 BC (bigger BC number = further back).
-- **Differentiation:** support: peg three periods in order. / stretch: explain one huge gap (e.g. Stone Age vs Ancient Egypt).
-- **Materials:** a washing line and pegs; period cards with rough dates; the long timeline.
-- **Joy:** physically building the class timeline across the whole room.
+- **Objective:** "By the end, I can place this year's and last year's periods on one timeline in the right order."
+- **Hook:** "Stone Age, Egypt, Greece, Romans — it's easy to muddle them. Let's line them all up so they never get jumbled again."
+- **Key activity:** Make a "washing-line timeline." Peg on, oldest → newest: **Stone Age → Ancient Egypt/Sumer/Indus (~3000 BC) → Ancient Greece (~2,500 years ago) → Romans in Britain (AD 43)**. Stretch a string to show most of it is the Stone Age — everything famous is squashed at one end.
+- **Check for understanding:** "Order oldest → newest: Romans in Britain, Stone Age, Ancient Greece, Ancient Egypt." → Stone Age → Ancient Egypt → Ancient Greece → Romans in Britain.
+- **Differentiation:** support: peg four periods in order. / stretch: explain why the Stone Age takes up most of the line.
+- **Materials:** a washing line and pegs; period cards with rough dates; a long string.
+- **Joy:** building the whole washing-line timeline across the room and seeing the giant gaps.
 
-**End-of-unit check (Unit 6):** Name a river's source and mouth; explain rivers flow downhill in any direction; give three reasons rivers matter; order the year's periods with correct BC use. **Misconception watch:** rivers don't always flow south; rain is recycled water (not "new"); a river starts at its source, not the sea.
+### Lesson 19 — BC and AD: counting time both ways
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use BC and AD correctly and say which of two dates is older."
+- **Hook:** "Here's a brain-twister: is 2000 BC older or newer than 500 BC? Most people get it wrong!"
+- **Key activity:** Teach the rule: **BC counts *down* toward 0** (bigger BC number = older); **AD counts *up*** from there. Worked example: order 3000 BC, 500 BC, AD 43, AD 1066. Drill several "which is older?" questions. Note that two peoples can live at the same time but far apart in space (a Year 4 set-up for the Maya).
+- **Check for understanding:** "Which is older, 1500 BC or 200 BC?" → 1500 BC (bigger BC number = further back).
+- **Differentiation:** support: order two BC dates with a number line. / stretch: order a mixed BC/AD set correctly.
+- **Materials:** a BC/AD number line crossing 0; date cards.
+- **Joy:** mastering the BC trick that catches grown-ups out.
+
+### Lesson 20 — Who could have met whom?
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use the timeline to judge whether two peoples could have met."
+- **Hook:** "Could a Viking have met a Roman? Could a pharaoh have visited Stonehenge? The timeline knows the answer."
+- **Key activity:** Use the timeline to reason about overlap in **time** and distance in **space**. Could a Roman meet a Viking? (No — centuries apart.) Were Egypt's pyramids already ancient when the Romans came? (Yes.) The child answers "could they meet?" questions posed by the tutor and justifies each with the timeline.
+- **Check for understanding:** "Were Egypt's pyramids already old when the Romans invaded Britain? How do you know?" → yes — Egypt is ~3000 BC and the Romans invaded in AD 43, thousands of years later.
+- **Differentiation:** support: answer one "could they meet?" with the timeline visible. / stretch: explain a case where two peoples overlapped in time but not space.
+- **Materials:** the washing-line timeline; "could they meet?" question cards.
+- **Joy:** the satisfying "no way!" of realising how far apart famous periods really are.
+
+**End-of-unit check (Unit 6):** Place the studied periods on one timeline; use BC/AD and judge which date is older; reason about whether two peoples could have met. **Misconception watch:** bigger BC number = older (not newer); "ancient" periods are *not* all the same time; same time ≠ same place.
 
 ---
 
@@ -296,11 +276,11 @@ Year 3 is the **start of the KS2 chronological journey** — and the first year 
 
 A Year 3 child who has mastered this year should be able to:
 
-1. **(History — prehistory)** Explain why it's called prehistory and how archaeology lets us learn about it, and describe how farming let people settle.
-2. **(History — chronology)** Order Stone Age → Bronze Age → Iron Age, and place Ancient Egypt/Sumer/Indus correctly using BC (bigger BC number = older).
-3. **(History — Egypt)** Explain why Egypt grew by the Nile, what pyramids and mummies were for, and how we know (hieroglyphics + preserved tombs).
-4. **(History — first cities)** Locate Sumer and the Indus Valley and explain why all three river civilisations grew where they did.
-5. **(Geography — global grid)** Explain latitude vs longitude, name the Equator and Prime Meridian, say which hemisphere the UK is in, and explain time zones.
-6. **(Geography — UK)** Name a UK region and a major city, and sort physical vs human features of the UK.
-7. **(Geography — settlements)** Order the settlement hierarchy (hamlet → village → town → city) and give two site factors that make a good place to settle.
-8. **(Geography — rivers)** Name a river's source and mouth, explain that rivers flow downhill in any direction, and give reasons rivers matter to people.
+1. **(History — Ancient Greece)** Explain city-states, give one Athens/Sparta difference, define democracy (with its honest limits), and name three Greek legacies.
+2. **(History — Romans)** Say when/where the Romans invaded, name three lasting Roman things in Britain, and explain that it was an invasion many resisted (Boudica, Hadrian's Wall).
+3. **(History — chronology)** Place Stone Age → Egypt → Greece → Romans on one timeline and use BC/AD (bigger BC number = older).
+4. **(History — reasoning)** Use a timeline to judge whether two peoples could have met, distinguishing time from place.
+5. **(Geography — water cycle)** Name the four stages of the water cycle in order and explain that rain is recycled water.
+6. **(Geography — climate)** Explain weather vs climate and that climate zones follow latitude (tropical / temperate / polar).
+7. **(Geography — biomes)** Name three biomes, match them to their climate, and give one adaptation of a plant or animal.
+8. **(Geography — fieldwork)** Order the fieldwork cycle, explain why the method must stay the same, and present data to answer a question.

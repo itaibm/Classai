@@ -1,327 +1,389 @@
-# Year 1 Mathematics (ages 5–6, KS1) — Lesson Outlines
+# Year 1 Mathematics (ages 6–7, KS1) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Drawn from `knowledge-base/subjects/maths/year-1.md`. Follows the lesson-outline format and
-> the 8 design principles in [`../README.md`](../README.md).
+> Drawn from `knowledge-base/subjects/maths/year-2.md`. Follows the lesson-outline format and
+> the 8 design principles in [`../../year-0/README.md`](../../year-0/README.md).
 
 ## Year overview
 
-Year 1 maths is the hands-on foundation year: counters, fingers, cubes and real objects on
-nearly every step, numbers kept small, talk kept concrete. The year runs on a **concrete →
-pictorial → abstract** spine — children always *do* a number before they draw it and draw it
-before they write it. We open with **number sense** (counting, one more/less, comparing), which
-underpins everything else, then build **calculation** (number bonds → addition & subtraction
-within 20), then **place value to 100**, then the applied strands — **fractions, money, time**
-— and finally **shape, position & direction**, which need no number prerequisites and make a
-joyful, movement-rich close. Retrieval and fluency lessons are woven in so earlier facts stay
-sharp as new ones land. Most lessons run 20–30 minutes; a few hands-on or making lessons reach
-the upper end. Lessons are numbered continuously (1–24) and grouped into six units.
+Year 1 takes the Foundation year (place value to 100, bonds, add/subtract within 20, halves
+and quarters, o'clock/half-past, basic coins and shapes) and **extends every strand**. Numbers
+grow to 100 with real comparing and partitioning; addition and subtraction become two-digit with
+**regrouping**; skip-counting blossoms into the **first multiplication tables (2, 5, 10)** and
+the idea of equal groups; fractions move from halves and quarters to **thirds and three-quarters
+of quantities**; money goes into **pounds and pence and change**; time reaches **5-minute
+intervals**; and two brand-new strands arrive — **measurement with standard units** and the
+**first statistics** (tally charts, pictograms, block diagrams). Keep the concrete → pictorial →
+abstract (CPA) spine: the learner builds a number before drawing it and draws it before writing
+it. Most lessons run **20–30 minutes**. Lessons are numbered continuously (1–28) across seven
+units, with retrieval and fluency lessons woven in.
 
 ---
 
-## Unit 1 — Number sense to 20
+## Unit 1 — Place value to 100
 
-**Essential question:** How do we say how many there are, and how do numbers fit together in order?
+**Essential question:** How do the tens and the ones decide how big a number is?
 
-**Key vocabulary:** count, number, how many, altogether, total, one more, one less, before,
-after, more, less, fewer, equal, greater than, smaller than, teen, ten.
+**Key vocabulary:** tens, ones, digit, place, partition, recombine, two-digit, compare, greater
+than, less than, order, smallest, largest.
 
-### Lesson 1 — Counting to 10 by touching
-- **Duration:** 20 min
-- **Objective:** "By the end, I can count a group of up to 10 objects, touching each one once, and say how many there are altogether." (Y1 number & place value)
-- **Hook:** "How many stairs do you climb to bed? Let's find out by counting them."
-- **Key activity:** I do → we do → you do. Concrete: line up cubes and touch each as you say "one, two, three…"; the last word is *how many altogether*. We count claps and jumps together; then the child counts their own pile of up to 10 cubes.
-- **Check for understanding:** "Here are 8 counters in a row. How many are there?" → 8 (touches each once; says the last number).
-- **Differentiation:** support: move each object into a "counted" pile so none is counted twice (KB fix for double-counting). / stretch: count past 10 to 15.
-- **Materials:** cubes or counters, real objects (toy cars, stickers).
-- **Joy:** count claps and jumps with their whole body.
-
-### Lesson 2 — Counting to 20 and the tricky teens
-- **Duration:** 25 min
-- **Objective:** "By the end, I can count to 20 and match each spoken number to its written numeral." (Y1 number & place value)
-- **Hook:** "Why does 'thirteen' sound a bit like 'three'? Because it's three and a ten!"
-- **Key activity:** Concrete → pictorial → abstract. Count 20 objects into a line; then count dots on a card; then match number words to numerals 1–20, slowing on the teens ("thirteen = three-ten").
-- **Check for understanding:** "What number comes after 14?" → 15.
-- **Differentiation:** support: after counting, cover the objects and ask "so how many?" to lock in cardinality (KB fix). / stretch: read any numeral 1–20 the tutor points to, out of order.
-- **Materials:** numeral cards 1–20, counters, a number track 1–20.
-- **Joy:** "Underwater Counting" style game — count creatures hiding in the picture.
-
-### Lesson 3 — One more, one less
-- **Duration:** 20 min
-- **Objective:** "By the end, I can find one more and one less than a number to 20 by stepping, without counting from one." (Y1 number & place value)
-- **Hook:** "You had 6 points in the game — one more goal makes…?"
-- **Key activity:** Concrete: build a tower of 5 cubes; add one ("one more, now 6"), take one away ("one less, now 5"). Pictorial: step right/left on a number track. Abstract: "one more than 7 is 8; one less than 7 is 6."
-- **Check for understanding:** "One more than 12?" → 13. "One less than 15?" → 14.
-- **Differentiation:** support: physically add a cube for "more" and remove one for "less" so the words tie to a direction (KB fix for less→more confusion). / stretch: "Which is bigger, one more than 8 or one less than 10?" → equal, both 9.
-- **Materials:** cubes, number track 1–20.
-- **Joy:** rapid-fire "more or less?" call-and-answer race against the tutor.
-
-### Lesson 4 — Comparing and ordering numbers to 20
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say which of two numbers is greater or smaller, and put numbers in order." (Y1 number & place value)
-- **Hook:** "Two piles of treats — which has more? How can we be sure?"
-- **Key activity:** Concrete: build two cube towers and line them up to compare heights. Pictorial: place numbers on a track to see which comes later (later = bigger). Abstract: "9 is greater than 6; 6 is fewer than 9." Order three numbers smallest to largest.
-- **Check for understanding:** "Which is bigger, 13 or 8, and how do you know?" → 13 (it comes later when counting / its tower is taller).
-- **Differentiation:** support: line objects up side by side so the longer row is visibly "more." / stretch: order four teen numbers.
-- **Materials:** cubes, number track, numeral cards.
-- **Joy:** "biggest wins" card flip — flip two cards, keep the bigger one.
-
-### Lesson 5 — Retrieval & fluency: numbers to 20
-- **Duration:** 20 min
-- **Objective:** "By the end, I can quickly count, find one more/less, and compare numbers to 20." (Y1 number & place value — review)
-- **Hook:** "Maths warm-up challenge — how fast can your brain go today?"
-- **Key activity:** Mixed quick-fire retrieval: count a flashed group, "one more than 11," "one less than 19," "which is bigger, 14 or 9?" Children answer on whiteboards or aloud; tutor revisits any wobble with cubes.
-- **Check for understanding:** "Show me 6 fingers, then one more — how many now?" → 7 fingers shown.
-- **Differentiation:** support: number track stays in view as a prop. / stretch: answer with eyes closed (no track), purely mentally.
-- **Materials:** mini-whiteboards, flashable dot cards, number track for support.
-- **Joy:** beat-the-timer streak — how many right in a row.
-
-**End-of-unit check:** (1) Count 12 counters → 12. (2) One more than 9 → 10; one less than 9 → 8. (3) Which is greater, 15 or 11? → 15. (4) Put 7, 14, 4 in order, smallest first → 4, 7, 14.
-
----
-
-## Unit 2 — Bonds, addition & subtraction within 20
-
-**Essential question:** How can we put numbers together and take them apart?
-
-**Key vocabulary:** part, whole, number bond, make, split, add, plus, subtract, minus, take away,
-count on, count back, difference, altogether, is equal to (=), opposite.
-
-### Lesson 6 — Splitting numbers: part–whole to 10
-- **Duration:** 25 min
-- **Objective:** "By the end, I can split a number up to 10 into two parts and see that the parts make the whole." (Y1 addition & subtraction)
-- **Hook:** "If you had 5 cubes, how many ways could you share them between two hands?"
-- **Key activity:** Concrete: hold 5 cubes, split across two hands (4 and 1, 3 and 2, 5 and 0). Pictorial: fill a part–whole diagram. Abstract: 4 + 1 = 5, 3 + 2 = 5.
-- **Check for understanding:** "Show me a way to make 6 with two parts." → any bond, e.g. 4 and 2.
-- **Differentiation:** support: use a part–whole mat with physical cubes in the circles. / stretch: list *all* the bonds of 6.
-- **Materials:** cubes, part–whole mats.
-- **Joy:** "two pockets" game — secretly split marbles, partner guesses the hidden part.
-
-### Lesson 7 — Number bonds to 10 (learn by heart)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can quickly recall pairs of numbers that make 10." (Y1 addition & subtraction)
-- **Hook:** "These are the magic pairs that make maths fast forever — let's learn all of them."
-- **Key activity:** Concrete: a ten-frame; fill some squares, name the empty ones (7 and 3 make 10). Pictorial: bonds-to-10 rainbow. Abstract: 0+10, 1+9, 2+8, 3+7, 4+6, 5+5 until automatic. Match-pairs game: 1↔9, 2↔8, 3↔7, 4↔6, 5↔5.
-- **Check for understanding:** "8 + ? = 10" → 2.
-- **Differentiation:** support: ten-frame stays out so the gap is visible. / stretch: "Hit the Button" speed round on bonds to 10.
-- **Materials:** ten-frames, bond cards, counters.
-- **Joy:** beat-your-own-time bonds challenge.
-
-### Lesson 8 — Addition is in any order (commutativity)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can show that 3 + 4 and 4 + 3 give the same total." (Y1 addition & subtraction)
-- **Hook:** "Does it matter which pile you count first? Let's prove it."
-- **Key activity:** Concrete: combine two cube piles, then physically turn them around — same total. Pictorial: two part–whole diagrams swapped. Abstract: 4 + 3 = 7 and 3 + 4 = 7, so learn one bond and get its partner free.
-- **Check for understanding:** "If 7 + 2 = 9, what is 2 + 7?" → 9 (order doesn't change the total).
-- **Differentiation:** support: show the same cubes literally rotated so it's visibly unchanged (KB fix for "different and must recount"). / stretch: write both facts for a given pair.
-- **Materials:** two-colour cubes.
-- **Joy:** "flip it" trick — wow the tutor by answering the swapped fact instantly.
-
-### Lesson 9 — Adding within 20 by counting on
-- **Duration:** 25 min
-- **Objective:** "By the end, I can add two numbers within 20 by putting the bigger number in my head and counting on." (Y1 addition & subtraction)
-- **Hook:** "3 goals in the first half, 4 in the second — how many altogether?"
-- **Key activity:** I do → we do → you do. Concrete: bead string — start at 7, count on 5 → 12. Pictorial: jumps on a number line. Abstract: 7 + 5 = 12, starting from the larger number.
-- **Check for understanding:** "8 + 6 = ?" → 14.
-- **Differentiation:** support: "put the big number in your head, count on" with the bead string in hand (KB fix for counting-all). / stretch: add three small numbers, e.g. 4 + 3 + 5.
-- **Materials:** bead string, number line.
-- **Joy:** zoo story sums — 9 monkeys, 4 more arrive, how many now?
-
-### Lesson 10 — Subtracting within 20 by counting back
-- **Duration:** 25 min
-- **Objective:** "By the end, I can subtract within 20 by taking away or counting back." (Y1 addition & subtraction)
-- **Hook:** "You had 15 sweets and ate 6 — how many are left?"
-- **Key activity:** Concrete: take objects away and count what's left. Pictorial: count-back jumps on a number line (the first jump *leaves* the start). Abstract: 13 − 5 = 8.
-- **Check for understanding:** "15 − 7 = ?" → 8.
-- **Differentiation:** support: on the number line, show the first jump landing on 12, not 13, so the start isn't counted (KB fix for off-by-one). / stretch: find the difference between two numbers ("how far apart are 14 and 9?").
-- **Materials:** counters, number line.
-- **Joy:** "eat the sweets" — physically remove counters and watch the pile shrink.
-
-### Lesson 11 — Add and subtract are opposites; the = sign balances
-- **Duration:** 20 min
-- **Objective:** "By the end, I can use an addition fact to find a subtraction fact, and explain that = means 'is the same as'." (Y1 addition & subtraction)
-- **Hook:** "If adding builds it up, what undoes it?"
-- **Key activity:** Concrete: a balance/see-saw image — both sides must match. Show 9 + 4 = 13, then 13 − 4 = 9 with the same cubes. Try 7 = 3 + 4 written "backwards" to break the "= means answer next" idea.
-- **Check for understanding:** "If 9 + 4 = 13, what is 13 − 4?" → 9 (subtraction undoes addition).
-- **Differentiation:** support: use the balance picture and ask "what makes both sides the same?" (KB fix for = misconception). / stretch: complete 6 + ? = 6 + 5 (find the missing balancing number).
-- **Materials:** balance scale or picture, cubes.
-- **Joy:** "magic undo" — make a number, then make it disappear back.
-
-### Lesson 12 — Retrieval & fluency: bonds and within-20 facts
-- **Duration:** 20 min
-- **Objective:** "By the end, I can quickly recall bonds to 10 and solve mixed add/subtract facts within 20." (Y1 addition & subtraction — review)
-- **Hook:** "Maths gym day — let's flex those number muscles."
-- **Key activity:** Mixed quick-fire on whiteboards: bonds to 10, 7 + 8, 16 − 9, 12 + 6, 20 − 4. Encourage count-on from the bigger number and count-back for subtraction.
-- **Check for understanding:** "6 + 4 and then 10 − 4?" → 10, then 6.
-- **Differentiation:** support: bead string / ten-frame available. / stretch: "Mental Maths Train" speed challenge, no tools.
-- **Materials:** mini-whiteboards, bead strings, ten-frames.
-- **Joy:** team relay — each correct answer moves the train one stop.
-
-**End-of-unit check:** (1) Two pairs that make 10 → e.g. 6+4, 7+3. (2) 5 + 3 → 8. (3) 8 + 6 → 14. (4) 15 − 7 → 8. (5) If 9 + 4 = 13, then 13 − 4 → 9.
-
----
-
-## Unit 3 — Place value: tens and ones to 100
-
-**Essential question:** How do just ten digits build every number up to 100?
-
-**Key vocabulary:** ten, one, tens column, ones column, digit, bundle, two-digit number, place,
-count in tens, tens and ones.
-
-### Lesson 13 — Making tens: bundling ones
-- **Duration:** 25 min
-- **Objective:** "By the end, I can bundle ten ones into one ten and count in tens to 100." (Y1 number & place value)
-- **Hook:** "Stickers come in packs of 10 — how fast can you count lots of packs?"
-- **Key activity:** Concrete: bundle ten lollipop sticks (or snap ten cubes) into one "ten." Pictorial: draw a ten as a long stick. Abstract: count in tens 0, 10, 20 … 100.
-- **Check for understanding:** "Count in tens from 0 to 50." → 0, 10, 20, 30, 40, 50.
-- **Differentiation:** support: count the bundles by pointing to each. / stretch: count on in tens from a non-zero start, e.g. 30, 40, 50.
-- **Materials:** lollipop sticks + elastic bands or base-10 rods, cubes.
-- **Joy:** the satisfying snap of ten cubes clicking into one rod.
-
-### Lesson 14 — Tens and ones to 100
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say how many tens and ones are in a two-digit number and build it." (Y1 number & place value)
-- **Hook:** "Why are 34 and 43 different if they use the same digits?"
-- **Key activity:** Concrete: build 27 with 2 rods and 7 cubes. Pictorial: draw tens as sticks, ones as dots. Abstract: 34 = 3 tens and 4 ones = 30 + 4; the left digit counts tens.
-- **Check for understanding:** "How many tens and ones in 56?" → 5 tens and 6 ones.
-- **Differentiation:** support: a tens/ones place-value mat to sort rods and cubes (KB fix for "twenty-three = 203"). / stretch: "What is 4 tens and 2 ones?" → 42, with no equipment.
+### Lesson 1 — Tens and ones to 100
+- **Duration:** 22 min
+- **Objective:** "By the end, I can build any number to 100 and say how many tens and ones it has." (Y2 number & place value)
+- **Hook:** "Why are 34 and 43 different if they use the same two digits?"
+- **Key activity:** Concrete → pictorial → abstract. Build 65 with 6 ten-rods and 5 ones; draw tens as sticks and ones as dots; write 65 = "6 tens and 5 ones."
+- **Check for understanding:** "How many tens and ones in 47?" → 4 tens and 7 ones.
+- **Differentiation:** support: a tens/ones place-value mat to sort rods and cubes. / stretch: "What is 7 tens and 0 ones?" → 70, with no equipment.
 - **Materials:** base-10 rods and cubes, place-value mat.
-- **Joy:** "Place Value Basketball" style game — shoot the digit into the right column.
+- **Joy:** "Place Value Basketball" style game — shoot each digit into its column.
 
-### Lesson 15 — Comparing two-digit numbers; retrieval of tens
-- **Duration:** 20 min
-- **Objective:** "By the end, I can compare two two-digit numbers using their tens, and recall counting in tens." (Y1 number & place value — review/extend)
-- **Hook:** "43 versus 34 — which really is bigger, and why?"
-- **Key activity:** Build both numbers with rods; compare tens first (4 tens beats 3 tens). Quick retrieval: count in tens, "how many tens in 70?", "fill in: 38 = __ tens and __ ones."
-- **Check for understanding:** "Which is bigger, 34 or 43, and how do you know?" → 43 (4 tens beats 3 tens; position decides value).
-- **Differentiation:** support: line up the rods so the taller tens-stack is obvious (KB fix for ignoring position). / stretch: order three two-digit numbers.
+### Lesson 2 — Partitioning numbers
+- **Duration:** 22 min
+- **Objective:** "By the end, I can partition a two-digit number into tens and ones and put it back together." (Y2 number & place value)
+- **Hook:** "Can you break a number apart and rebuild it without losing any?"
+- **Key activity:** Take 76, split into 70 and 6 with rods, then recombine. Repeat with 50 (= 50 and 0) to break the "5 and 0" mistake. Abstract: 43 = 40 + 3.
+- **Check for understanding:** "Partition 76." → 70 + 6.
+- **Differentiation:** support: build the number first, physically separate the rods. / stretch: partition in a non-standard way (43 = 30 + 13).
 - **Materials:** base-10 rods and cubes.
-- **Joy:** "rod duel" — build two numbers, the bigger tens-tower wins the round.
+- **Joy:** "smash and rebuild" — explode a number into parts, then reassemble it.
 
-**End-of-unit check:** (1) Count in tens 0→100. (2) 38 = __ tens and __ ones → 3 and 8. (3) Make 61 → 6 tens, 1 one. (4) Which is bigger, 27 or 72? → 72 (7 tens).
+### Lesson 3 — Comparing two-digit numbers
+- **Duration:** 24 min
+- **Objective:** "By the end, I can compare two two-digit numbers by looking at the tens first." (Y2 number & place value)
+- **Hook:** "Two house numbers, 38 and 41 — which house comes first along the street?"
+- **Key activity:** Build both numbers; compare **tens first** (4 tens beats 3 tens). Only when tens are equal, compare ones (47 vs 43). Abstract: 41 > 38.
+- **Check for understanding:** "Which is bigger, 38 or 41?" → 41 (4 tens beats 3 tens).
+- **Differentiation:** support: line the rods side by side so the taller tens-stack is obvious (KB fix for "19 > 21 because 9 > 1"). / stretch: compare using the > and < symbols.
+- **Materials:** base-10 rods and cubes, > / < cards.
+- **Joy:** "rod duel" — build two numbers; the bigger tens-tower wins.
 
----
+### Lesson 4 — Ordering numbers to 100
+- **Duration:** 22 min
+- **Objective:** "By the end, I can put a set of two-digit numbers in order, smallest first." (Y2 number & place value)
+- **Hook:** "Mix up these page numbers — can you put the book back in order?"
+- **Key activity:** Order 52, 25, 50: compare tens, then ones, lay them on a number track. Abstract: 25, 50, 52.
+- **Check for understanding:** "Order smallest first: 52, 25, 50." → 25, 50, 52.
+- **Differentiation:** support: place numbers on a 0–100 track to *see* which comes first. / stretch: order four numbers, some with equal tens.
+- **Materials:** numeral cards, 0–100 number track.
+- **Joy:** "number line on the floor" — lay a row of cards on the floor and slot each new card into the right place.
 
-## Unit 4 — Fractions: halves and quarters
-
-**Essential question:** What does it mean to share something into fair, equal parts?
-
-**Key vocabulary:** whole, part, equal, fair, share, half, halves, quarter, quarters.
-
-### Lesson 16 — Halves: two equal parts
-- **Duration:** 25 min
-- **Objective:** "By the end, I can find a half of a shape or a small set of objects, and explain that halves must be equal." (Y1 fractions)
-- **Hook:** "Two friends, one sandwich — how do we cut it so it's fair?"
-- **Key activity:** Concrete: fold a paper square so both parts match exactly — each is a half. Share 8 sweets fairly into two piles (4 each). Pictorial: shade half a circle. Abstract: half of 6 = 3.
-- **Check for understanding:** "What is half of 10?" → 5.
-- **Differentiation:** support: fold paper so parts overlap exactly to prove "equal" (KB fix for calling any two pieces halves). / stretch: half of 12, half of 20.
-- **Materials:** paper squares/circles, counters, fruit or pretend food.
-- **Joy:** actually folding and cutting paper to make perfect matching halves.
-
-### Lesson 17 — Quarters: four equal parts
-- **Duration:** 25 min
-- **Objective:** "By the end, I can find a quarter of a shape or set and see that a quarter is smaller than a half." (Y1 fractions)
-- **Hook:** "Now four friends want a fair share — how many pieces this time?"
-- **Key activity:** Concrete: fold paper into four matching parts; share 8 cubes into four equal piles of 2. Pictorial: shade a quarter of a square. Abstract: a quarter of 8 = 2; four quarters make the whole.
-- **Check for understanding:** "What is a quarter of 12?" → 3.
-- **Differentiation:** support: cut the same cake into 2 vs 4 to show quarter pieces are smaller (KB fix for "quarter > half"). / stretch: "Is this shape split into quarters?" with an unequal split → no.
-- **Materials:** paper shapes, cubes, a "cake" picture.
-- **Joy:** the reveal that more pieces means each piece is *smaller*, not bigger.
-
-**End-of-unit check:** (1) Half of 8 → 4. (2) Unequal split — halves? → no, parts not equal. (3) Quarter of 4 → 1. (4) Quarter of 12 → 3.
+**End-of-unit check:** (1) 38 = __ tens and __ ones → 3 and 8. (2) Partition 76 → 70 + 6. (3) Which is bigger, 27 or 72? → 72 (7 tens). (4) Order 52, 25, 50 → 25, 50, 52.
 
 ---
 
-## Unit 5 — Money and time
+## Unit 2 — Calculation: add, subtract, multiply, divide
 
-**Essential question:** How do we count money and read the clock in everyday life?
+**Essential question:** How do we add and take away bigger numbers, and what does "lots of" mean?
 
-**Key vocabulary:** coin, penny (p), pound (£), value, worth, total, change; clock, hour hand,
-minute hand, o'clock, half past, before, after.
+**Key vocabulary:** add, subtract, regroup, exchange, carry, borrow, inverse, skip-count, step,
+equal groups, array, multiply, lots of, times, divide, share, group, commutative.
 
-### Lesson 18 — Recognising coins and their value
+### Lesson 5 — Counting in 2s, 5s and 10s
+- **Duration:** 18 min
+- **Objective:** "By the end, I can skip-count in 2s, 5s and 10s and spot the pattern in the last digits." (Y2 multiplication & division)
+- **Hook:** "Count the socks in 2s — how much faster is that than counting one by one?"
+- **Key activity:** Concrete: count cubes in 2s and 5p coins in 5s. Pictorial: jumps of 2/5/10 on a number line. Abstract: notice 5s end in 0 or 5; 10s end in 0; 2s are even.
+- **Check for understanding:** "Counting in 5s, could you say 23?" → No — 5s end in 0 or 5.
+- **Differentiation:** support: physically make equal groups, saying the step each jump. / stretch: skip-count in 3s to 30.
+- **Materials:** cubes, 5p/10p coins, number line.
+- **Joy:** "Hit the Button" style skip-count race.
+
+### Lesson 6 — Adding two-digit numbers (with regrouping)
+- **Duration:** 28 min
+- **Objective:** "By the end, I can add two-digit numbers, exchanging ten ones for a ten when needed." (Y2 addition & subtraction)
+- **Hook:** "Two prices in a shop — 36p and 27p — how much altogether?"
+- **Key activity:** Concrete: 36 + 27 with base-10. Add ones (6 + 7 = 13) → *exchange* ten ones for a ten; add tens (30 + 20 + 10 = 60); total 63. Abstract: (30+20)+(6+7) = 50 + 13 = 63.
+- **Check for understanding:** "27 + 46 = ?" → 73.
+- **Differentiation:** support: physically swap 10 ones for 1 ten so 45 + 38 ≠ "713" (KB fix). / stretch: add three two-digit numbers.
+- **Materials:** base-10 rods and cubes.
+- **Joy:** "the great exchange" — trade ten ones for one shiny ten-rod.
+
+### Lesson 7 — Subtracting two-digit numbers (with exchange)
+- **Duration:** 28 min
+- **Objective:** "By the end, I can subtract two-digit numbers, exchanging a ten for ten ones when the ones are too small." (Y2 addition & subtraction)
+- **Hook:** "You had 63p and spent 28p — how much is left?"
+- **Key activity:** Concrete: 52 − 27. Not enough ones (2 − 7), so *exchange* a ten: 52 becomes 40 and 12; 12 − 7 = 5, 40 − 20 = 20 → 25. Abstract: lay it out in tens and ones.
+- **Check for understanding:** "63 − 28 = ?" → 35.
+- **Differentiation:** support: model the exchange with blocks before any writing (KB fix for "7 − 2 because you can't do 2 − 7"). / stretch: subtract across a multiple of ten (70 − 23).
+- **Materials:** base-10 rods and cubes.
+- **Joy:** "break the ten" — snap a ten-rod into ten ones to make the sum possible.
+
+### Lesson 8 — Inverse: addition and subtraction check each other
 - **Duration:** 20 min
-- **Objective:** "By the end, I can name UK coins and say which is worth more, knowing value isn't about size." (Y1 measurement — money)
-- **Hook:** "This tiny 5p — is it worth more than the big fat 2p? Let's find out."
-- **Key activity:** Concrete: handle real/plastic coins (1p, 2p, 5p, 10p, 20p, 50p, £1, £2); swap a 5p for five 1ps to prove value. Pictorial: match coins to their printed values.
-- **Check for understanding:** "Which is worth more, a 5p or a 2p?" → 5p.
-- **Differentiation:** support: physically swap a 5p for five 1ps to break the "bigger = more" idea (KB fix). / stretch: order four coins by value.
-- **Materials:** real or plastic coins.
-- **Joy:** the surprise that a small coin beats a big one.
+- **Objective:** "By the end, I can use an addition fact to check a subtraction (and the reverse)." (Y2 addition & subtraction)
+- **Hook:** "How can you be *sure* your answer is right?"
+- **Key activity:** From 38 + 25 = 63, derive 63 − 25 = 38 with the same blocks. Practise checking each sum with its inverse.
+- **Check for understanding:** "If 38 + 25 = 63, what is 63 − 25?" → 38.
+- **Differentiation:** support: keep the blocks built so the relationship is visible. / stretch: write all four facts in the family.
+- **Materials:** base-10 rods and cubes, fact-family cards.
+- **Joy:** "the detective check" — prove your own answer is correct.
 
-### Lesson 19 — Counting coins to make an amount
-- **Duration:** 25 min
-- **Objective:** "By the end, I can find the total of a small set of coins by counting on from the biggest." (Y1 measurement — money)
-- **Hook:** "This rubber costs 7p — which coins pay for it exactly?"
-- **Key activity:** Concrete: count 10p + 5p + 1p + 1p, starting big: 10 … 15 … 16 … 17p. Abstract: count on by each coin's *value*, not "one." Then "make 7p" → 5p + 2p.
-- **Check for understanding:** "How much is 10p + 2p + 2p?" → 14p.
-- **Differentiation:** support: say each coin's value aloud before counting on (KB fix for counting coins as 1 each). / stretch: find two different ways to make 20p.
-- **Materials:** plastic coins, a pretend "toy shop" of priced items.
-- **Joy:** play shopkeeper — pay for items and check the till.
+### Lesson 9 — Multiplication: equal groups and arrays
+- **Duration:** 24 min
+- **Objective:** "By the end, I can show a multiplication as equal groups and as an array." (Y2 multiplication & division)
+- **Hook:** "4 plates, 5 grapes on each — how many grapes without counting them all?"
+- **Key activity:** Concrete: make 4 groups of 5. Pictorial: build a 3-by-5 array of dots; rotate it 90° — same 15 dots → 3 × 5 = 5 × 3 (commutative). Abstract: 3 × 5 = 15.
+- **Check for understanding:** "3 × 5 = ?" → 15.
+- **Differentiation:** support: count the array in skip-counts. / stretch: write both facts for the same array (3 × 5 and 5 × 3).
+- **Materials:** counters, dot-array cards, plates and props.
+- **Joy:** "spin the array" — turn it and watch the answer stay the same.
 
-### Lesson 20 — Telling the time: o'clock
+### Lesson 10 — The 2, 5 and 10 times tables
+- **Duration:** 28 min
+- **Objective:** "By the end, I can recall facts from the 2, 5 and 10 times tables." (Y2 multiplication & division)
+- **Hook:** "Count five 5p coins — that's a times-table fact in disguise!"
+- **Key activity:** Build each table from skip-counting and arrays. 5, 10, 15, 20, 25 = five 5s = 5 × 5. Match-pairs game linking each fact to its array.
+- **Check for understanding:** "If 2 × 10 = 20, what is 10 × 2?" → 20.
+- **Differentiation:** support: skip-count along a number line to reach a fact. / stretch: "Hit the Button" speed round on 2/5/10.
+- **Materials:** number line, coins, fact/array cards.
+- **Joy:** beat-your-own-time tables challenge.
+
+### Lesson 11 — Division as sharing and grouping
+- **Duration:** 24 min
+- **Objective:** "By the end, I can divide by sharing equally and by making equal groups." (Y2 multiplication & division)
+- **Hook:** "20 sweets, 5 friends — how do we share them so it's fair?"
+- **Key activity:** Concrete: deal 20 counters one-to-each into 5 piles → 4 each (20 ÷ 5 = 4). Also "how many 5s in 20?" by grouping. Link to multiplication: 4 × 5 = 20.
+- **Check for understanding:** "Share 20 equally between 5 — how many each?" → 4.
+- **Differentiation:** support: deal one-to-each like cards until gone (KB fix for guessing). / stretch: find both division facts from 4 × 5 = 20.
+- **Materials:** counters, paper plates.
+- **Joy:** play "fair dealer" — deal a deck into equal piles so every pile gets the same.
+
+### Lesson 12 — Retrieval & fluency: calculation
 - **Duration:** 20 min
-- **Objective:** "By the end, I can read and set o'clock times, knowing the long hand points to 12." (Y1 measurement — time)
-- **Hook:** "We eat dinner at 6 o'clock — can you make the clock show it?"
-- **Key activity:** Concrete: a geared teaching clock. Short hand = hour, long hand = minutes. Long hand on 12 → "something o'clock," read the short hand. Set 3 o'clock, 5 o'clock, etc.
-- **Check for understanding:** "Long hand on 12, short hand on 7 — what time?" → 7 o'clock.
-- **Differentiation:** support: chant "short hand = short word, hour" to stop hand-swapping (KB fix). / stretch: set times the child names from their own day.
+- **Objective:** "By the end, I can quickly add/subtract two-digit numbers and recall 2/5/10 facts." (Y2 calculation — review)
+- **Hook:** "Maths gym day — let's flex every muscle we've built."
+- **Key activity:** Mixed quick-fire on whiteboards: 48 + 37, 71 − 26, 6 × 5, 30 ÷ 10, plus one inverse check. Encourage estimation first.
+- **Check for understanding:** "6 × 5 and then 30 ÷ 5?" → 30, then 6.
+- **Differentiation:** support: base-10 / number line available. / stretch: timed streak, no tools.
+- **Materials:** mini-whiteboards, base-10 blocks, number line.
+- **Joy:** solo relay — each correct answer moves the train one stop along the track.
+
+**End-of-unit check:** (1) Count in 3s to 15 → 3, 6, 9, 12, 15. (2) 48 + 37 → 85. (3) 71 − 26 → 45. (4) 3 × 5 → 15. (5) Share 12 between 3 → 4 each.
+
+---
+
+## Unit 3 — Fractions of shapes and quantities
+
+**Essential question:** What does each part of a fraction tell us, and how do we find a fraction of a number?
+
+**Key vocabulary:** whole, equal parts, numerator, denominator, half, third, quarter, three-quarters,
+share, denominator names the parts.
+
+### Lesson 13 — Thirds and quarters of shapes
+- **Duration:** 24 min
+- **Objective:** "By the end, I can find ⅓, ¼ and ¾ of a shape and explain that the parts must be equal." (Y2 fractions)
+- **Hook:** "Three friends, one chocolate bar — how do we split it fairly?"
+- **Key activity:** Concrete: fold a strip into 3 equal parts (thirds) and into 4 (quarters); shade 3 of 4 → ¾. Pictorial: shade a bar split into equal parts. Abstract: the denominator says how many equal parts.
+- **Check for understanding:** "Which is bigger, ½ or ¼?" → ½ (more parts means smaller parts).
+- **Differentiation:** support: fold the same bar into 2 vs 3 to show thirds are smaller (KB fix for "⅓ > ½"). / stretch: "Is this split into quarters?" with an unequal split → no.
+- **Materials:** paper strips/circles, colouring pencils.
+- **Joy:** the reveal that more pieces means each piece is *smaller*.
+
+### Lesson 14 — Fractions of a quantity
+- **Duration:** 24 min
+- **Objective:** "By the end, I can find a unit and non-unit fraction of an amount by sharing." (Y2 fractions)
+- **Hook:** "¼ of 12 sweets — how many is that?"
+- **Key activity:** Concrete: share 12 counters into 4 equal piles → each is ¼ (3); three piles are ¾ (9). Abstract: ¼ of 12 = 12 ÷ 4 = 3; ¾ of 12 = 3 × 3 = 9.
+- **Check for understanding:** "What is ¾ of 12?" → 9.
+- **Differentiation:** support: physically deal into the denominator's number of piles (KB fix for "12 − 4"). / stretch: find ⅓ of 9, ¾ of 8.
+- **Materials:** counters, sharing mats.
+- **Joy:** "fair feast" — share treats into equal piles and count the fraction.
+
+**End-of-unit check:** (1) ¼ of 8 → 2. (2) ¾ of 12 → 9. (3) Which is bigger, ½ or ¼? → ½. (4) Is an unequal split into 3 "thirds"? → no, parts not equal.
+
+---
+
+## Unit 4 — Money: pounds and pence
+
+**Essential question:** How do we use pounds and pence to pay and work out change?
+
+**Key vocabulary:** pound (£), pence (p), £1 = 100p, total, cost, change, fewest coins, decimal point.
+
+### Lesson 15 — Pounds, pence and making amounts
+- **Duration:** 22 min
+- **Objective:** "By the end, I can show that £1 = 100p and make an amount the efficient way." (Y2 measurement — money)
+- **Hook:** "How many pennies make a pound? Let's count them into the pot."
+- **Key activity:** Concrete: count 100p into £1; swap two 50ps for a pound. Make 80p with the fewest coins (50p + 20p + 10p). Note £1.50 = 1 pound and 50 pence (two digits after the dot).
+- **Check for understanding:** "How many pence in £1?" → 100p.
+- **Differentiation:** support: "£1.50 = 1 pound and 50 pence; £1.05 = 1 pound and 5 pence" with coins (KB fix for £1.5). / stretch: make £1.35 the fewest-coins way.
+- **Materials:** plastic coins and notes.
+- **Joy:** the "pound pot" — drop in coins until you hit exactly £1.
+
+### Lesson 16 — Adding amounts and finding change
+- **Duration:** 22 min
+- **Objective:** "By the end, I can total a small shopping list and work out change by counting up." (Y2 measurement — money)
+- **Hook:** "A pen costs 70p; you pay £1 — what change do you get?"
+- **Key activity:** Concrete: total 30p + 25p = 55p. Change from £1 for a 65p toy: count *up* from 65 → 70 (5p) → 100 (30p) = 35p. Abstract: money given − cost = change.
+- **Check for understanding:** "A pen costs 70p; you pay £1. What's your change?" → 30p.
+- **Differentiation:** support: count up coin by coin from the price (KB fix for subtracting the wrong way). / stretch: two items and change from £2.
+- **Materials:** plastic coins, a pretend toy shop with priced items.
+- **Joy:** play shopkeeper — take payment and count out change.
+
+**End-of-unit check:** (1) How many pence in £1? → 100p. (2) 40p + 35p → 75p. (3) A 70p pen, pay £1 — change? → 30p. (4) Make 80p with the fewest coins → 50p + 20p + 10p.
+
+---
+
+## Unit 5 — Measurement: length, mass, capacity, temperature
+
+**Essential question:** How do we measure and compare how long, heavy, full or hot things are?
+
+**Key vocabulary:** length, cm, m, mass, g, kg, capacity, ml, litre, temperature, °C, scale,
+interval, zero, compare, order, unit.
+
+### Lesson 17 — Measuring length with a ruler
+- **Duration:** 22 min
+- **Objective:** "By the end, I can measure a length in cm by lining the object up with zero." (Y2 measurement)
+- **Hook:** "How tall are you in cm? Let's measure and find out."
+- **Key activity:** Concrete: measure pencils and books with a ruler, always starting at **0**. Pictorial: read where the end lines up. Compare two lengths.
+- **Check for understanding:** "A ruler reads 0 to 15 along the object — how long is it?" → 15 cm.
+- **Differentiation:** support: show how starting at 1 makes the answer one short (KB fix). / stretch: measure to the nearest cm and compare three objects.
+- **Materials:** rulers, objects to measure, a tape measure.
+- **Joy:** measure their own height and mark it on the wall.
+
+### Lesson 18 — Reading scales: mass and capacity
+- **Duration:** 24 min
+- **Objective:** "By the end, I can read a scale and choose the right unit for mass and capacity." (Y2 measurement)
+- **Hook:** "Which holds more — the tall thin glass or the short wide cup? Let's pour and check."
+- **Key activity:** Concrete: weigh fruit (g/kg); pour water into a marked jug, reading the interval. Pour from a tall glass into a short wide one — same water (KB fix for "taller holds more"). Order three measurements.
+- **Check for understanding:** "Which is heavier, 1 kg or 500 g?" → 1 kg.
+- **Differentiation:** support: count the marked intervals aloud. / stretch: read a scale where each mark is 100 ml.
+- **Materials:** kitchen scales, marked jugs, water, fruit, containers of different shapes.
+- **Joy:** the surprising pour — same water looks different in each cup.
+
+**End-of-unit check:** (1) Which is longer, 25 cm or 30 cm? → 30 cm. (2) Which is heavier, 1 kg or 500 g? → 1 kg. (3) A jug marked every 100 ml reaches the second mark → 200 ml. (4) Object from 0 to 15 → 15 cm.
+
+---
+
+## Unit 6 — Time to 5 minutes
+
+**Essential question:** How do we read the clock to the nearest 5 minutes, and when do we say "past" or "to"?
+
+**Key vocabulary:** minute hand, hour hand, past, to, quarter past, quarter to, five minutes,
+clockwise, count in 5s.
+
+### Lesson 19 — Minutes past the hour
+- **Duration:** 22 min
+- **Objective:** "By the end, I can read 'minutes past' times by counting the minute hand in 5s." (Y2 measurement — time)
+- **Hook:** "Each number on the clock is worth more than it looks — how many minutes is the 4?"
+- **Key activity:** Concrete: a teaching clock. Count the minute hand in 5s: 5, 10, 15, 20… The right side of the clock (12 round to 6) is "past." Quarter past = minute hand on 3 (15 min).
+- **Check for understanding:** "Minute hand on 3 — how many minutes past?" → 15 (quarter past).
+- **Differentiation:** support: count in 5s round to the number — "4 means 20" (KB fix for "4 minutes past"). / stretch: read 25 past, 20 past from set faces.
 - **Materials:** geared teaching clock.
-- **Joy:** spin the clock to "find" bedtime, breakfast and TV time.
+- **Joy:** set the clock to "show me when school starts."
 
-### Lesson 21 — Telling the time: half past
-- **Duration:** 20 min
-- **Objective:** "By the end, I can read and set 'half past' times and explain where each hand points." (Y1 measurement — time)
-- **Hook:** "Your show starts at half past 4 — where will the hands be?"
-- **Key activity:** Concrete: from an o'clock time, move the long hand to 6 — half the hour has passed = "half past." Note the short hand now sits *between* two numbers (half past 3 = between 3 and 4).
-- **Check for understanding:** "At half past 2, between which numbers is the short hand?" → between 2 and 3.
-- **Differentiation:** support: "the short hand has *left* 3 but not *reached* 4 — say the number it left" (KB fix for reading the nearer number). / stretch: read a mix of o'clock and half-past faces.
-- **Materials:** geared teaching clock, clock-face cards.
-- **Joy:** "what's the time, Mr Wolf?" — set and read clocks as a game.
+### Lesson 20 — Minutes to the hour
+- **Duration:** 24 min
+- **Objective:** "By the end, I can read 'minutes to' times once the minute hand passes the 6." (Y2 measurement — time)
+- **Hook:** "After half past, we stop counting up and start counting down to the next hour — why?"
+- **Key activity:** Concrete: move the minute hand past 6; the left side (6 round to 12) is "to." Minute hand on 8 = 20 *to* the next hour. Quarter to = minute hand on 9.
+- **Check for understanding:** "Minute hand on 9 — say the time as '___ to.'" → quarter to / 15 minutes to.
+- **Differentiation:** support: count the minutes *remaining* to the next hour; mark the past/to halves (KB fix for "40 past"). / stretch: read a mix of past and to times.
+- **Materials:** geared teaching clock with marked halves.
+- **Joy:** "what's the time?" — race to read and set clocks.
 
-**End-of-unit check:** (1) Which is worth more, 5p or 2p? → 5p. (2) 10p + 2p + 2p → 14p. (3) Long hand on 12, short on 9 → 9 o'clock. (4) Where does the long hand point at half past? → to the 6.
+**End-of-unit check:** (1) Minute hand on 3 → 15 past (quarter past). (2) Minute hand on 9 → quarter to. (3) Minute hand on 2, hour near 4 → 10 past 4. (4) Set "twenty to 6."
 
 ---
 
-## Unit 6 — Shape, position & direction
+## Unit 7 — Statistics, shape and symmetry
 
-**Essential question:** How do we name shapes and describe where things are and how they move?
+**Essential question:** How do we record data, and how do we describe shapes by their parts and their symmetry?
 
-**Key vocabulary:** flat, solid, 2-D, 3-D, side, corner, face, circle, square, triangle,
-rectangle, cube, sphere, cone, cylinder, pyramid; on, under, next to, in front, behind, above,
-below, left, right, forwards, backwards, half turn, quarter turn, whole turn.
+**Key vocabulary:** tally, pictogram, key, block diagram, bar, most, least, total, side, vertex,
+face, edge, line of symmetry, sort.
 
-### Lesson 22 — 2-D shapes: sides and corners
+### Lesson 21 — Tally charts and pictograms
+- **Duration:** 22 min
+- **Objective:** "By the end, I can make a tally chart and read a pictogram, including one with a key." (Y2 statistics)
+- **Hook:** "Let's find the family's favourite ice-cream flavour — and prove it with a chart."
+- **Key activity:** Concrete: tally real data, the fifth stroke crossing the four (gate of 5). Read a pictogram with key 🍎 = 2 → count symbols, multiply by the key.
+- **Check for understanding:** "Pictogram key 🍎 = 5; a row has 4 apples — how many?" → 20.
+- **Differentiation:** support: always read the key first (KB fix for counting each symbol as 1). / stretch: read a half-symbol as half the key value.
+- **Materials:** survey data, tally sheets, pictogram cards.
+- **Joy:** survey the household, then unveil the winning flavour.
+
+### Lesson 22 — Block diagrams: most, least, how many more
+- **Duration:** 22 min
+- **Objective:** "By the end, I can read a block diagram to answer 'most', 'least' and 'how many more'." (Y2 statistics)
+- **Hook:** "Which colour car passed the window most? The chart will tell us."
+- **Key activity:** Read a block diagram: tallest bar = most. "How many more dogs than cats?" = subtract. Total two categories.
+- **Check for understanding:** "Dogs = 6, cats = 4 — how many more dogs?" → 2.
+- **Differentiation:** support: point to each bar's top and read across. / stretch: build a block diagram from a tally.
+- **Materials:** block-diagram cards, squared paper.
+- **Joy:** tally real cars passing, then chart them.
+
+### Lesson 23 — Properties of 2-D and 3-D shapes
+- **Duration:** 22 min
+- **Objective:** "By the end, I can describe 2-D shapes by sides/vertices and 3-D shapes by faces/edges/vertices." (Y2 geometry)
+- **Hook:** "How many faces hide on a dice you can't see at once?"
+- **Key activity:** Concrete: count sides and vertices of a pentagon (5, 5). Hold and rotate a cube, tallying *every* face (6), edges (12), vertices (8) — including hidden ones.
+- **Check for understanding:** "How many faces does a cube have?" → 6.
+- **Differentiation:** support: turn the solid to find hidden faces (KB fix for "4 faces"). / stretch: count faces/edges/vertices of a cuboid (cereal box).
+- **Materials:** 2-D cut-outs, real solids (dice, ball, tin, box).
+- **Joy:** "find the hidden face" — rotate the solid to catch them all.
+
+### Lesson 24 — Symmetry: matching halves
+- **Duration:** 22 min
+- **Objective:** "By the end, I can find a line of symmetry by folding so both halves match." (Y2 geometry — symmetry)
+- **Hook:** "A butterfly's wings are a perfect match — how do we test for that?"
+- **Key activity:** Concrete: fold paper shapes so both halves land exactly on top — the fold is a line of symmetry. A square has 4; a scalene triangle may have none. Make a symmetrical paint-fold picture.
+- **Check for understanding:** "Does a square have a line of symmetry?" → Yes (in fact 4).
+- **Differentiation:** support: fold to test — only a true line makes halves match (KB fix for "any line"). / stretch: draw all lines of symmetry on a rectangle and a square.
+- **Materials:** paper shapes, paint, scissors.
+- **Joy:** paint-fold butterflies that come out perfectly symmetrical.
+
+### Lesson 25 — Retrieval & fluency: shape, data and symmetry
 - **Duration:** 20 min
-- **Objective:** "By the end, I can name common flat shapes by counting their sides and corners." (Y1 geometry — properties of shapes)
-- **Hook:** "Shape hunt! How many windows, signs and doors can you name by their shape?"
-- **Key activity:** Concrete: handle cut-out circles, squares, triangles, rectangles; count sides and corners. Rotate a triangle slowly — still a triangle (orientation doesn't change it). Abstract: "4 equal sides + 4 corners = square."
-- **Check for understanding:** "How many sides does a triangle have?" → 3.
-- **Differentiation:** support: trace each side with a finger while counting. / stretch: spot a triangle balanced on its point and name it (KB misconception fix). 
-- **Materials:** 2-D shape cut-outs, shapes around the room.
-- **Joy:** room shape-hunt — point and name real shapes.
+- **Objective:** "By the end, I can quickly recall shape properties, read a chart and spot symmetry." (Y2 geometry/statistics — review)
+- **Hook:** "Quiz challenge — how many can you fire back without a pause?"
+- **Key activity:** Mixed quick-fire: "sides of a pentagon?", "faces of a cube?", "read this bar — most?", "is this line a line of symmetry?"
+- **Check for understanding:** "Sides and vertices of a pentagon?" → 5 sides, 5 vertices.
+- **Differentiation:** support: shapes and a chart stay in view. / stretch: explain *why* an answer is right.
+- **Materials:** shape cards, chart cards, mini-whiteboards.
+- **Joy:** beat-the-timer streak.
 
-### Lesson 23 — 3-D shapes and sorting flat vs solid
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name common solid shapes and sort objects into 2-D (flat) and 3-D (solid)." (Y1 geometry — properties of shapes)
-- **Hook:** "Which of these can you actually hold in your hand — and which roll?"
-- **Key activity:** Concrete: feel a cube (dice), sphere (ball), cylinder (tin), cone, pyramid; sort real objects into flat-drawings vs solids. Note a cube's *face* is a square, but the cube is the solid.
-- **Check for understanding:** "Name a 3-D shape that rolls." → sphere (or cylinder/cone).
-- **Differentiation:** support: anchor "flat = 2-D drawing name; solid you can hold = 3-D name" (KB fix for cube/square mix-up). / stretch: find something at home shaped like a cylinder.
-- **Materials:** real solids (ball, tin, dice, cone, box), picture cards.
-- **Joy:** build a tower and test which solids stack and which roll.
+**End-of-unit check:** (1) In a tally, how is 5 shown? → four strokes with a fifth across. (2) Pictogram key 🍎 = 5, row of 4 → 20. (3) Faces of a cube → 6. (4) Sides/vertices of a pentagon → 5 and 5. (5) Does a square have a line of symmetry? → yes.
 
-### Lesson 24 — Position, direction and turns
-- **Duration:** 20 min
-- **Objective:** "By the end, I can use position words and follow and describe directions and turns." (Y1 geometry — position & direction)
-- **Hook:** "Be a robot! I'll give the moves and you have to follow them exactly."
-- **Key activity:** Concrete: place a teddy on / under / next to / behind a box and name each. With the body: whole turn (back to start), half turn (opposite way), quarter turn (corner). Follow "forwards 2, turn right, forwards 1."
-- **Check for understanding:** "If you make a half turn, are you facing the same way or the opposite way?" → opposite.
-- **Differentiation:** support: use a body cue (writing hand = right) for left/right (KB fix). / stretch: give the robot instructions yourself for the tutor to follow.
-- **Materials:** a teddy and box, floor space, a simple treasure map.
-- **Joy:** the robot / treasure-map movement game.
+---
 
-**End-of-unit check:** (1) Sides of a triangle → 3. (2) A flat shape with 4 equal sides → square. (3) Name a 3-D shape that rolls → sphere. (4) A quarter turn is how much of a full turn? → a quarter. (5) Half turn faces which way? → the opposite way.
+## Unit 8 — Year-end consolidation
+
+**Essential question:** Can I bring all my Year 1 maths together to solve mixed problems?
+
+**Key vocabulary:** (all year vocabulary revisited) place value, regroup, times table, fraction,
+change, scale, time, data.
+
+### Lesson 26 — Mixed problems: number and calculation
+- **Duration:** 24 min
+- **Objective:** "By the end, I can choose the right operation to solve a worded number problem." (Y2 — review)
+- **Hook:** "Be the maths detective — which operation does this story need?"
+- **Key activity:** Solve worded problems: "48 marbles, give away 19", "5 bags of 5 sweets", "share 20 between 4". Decide add/subtract/multiply/divide; estimate, solve, check.
+- **Check for understanding:** "5 bags with 5 sweets each — how many sweets?" → 25.
+- **Differentiation:** support: act the story out with counters. / stretch: a two-step problem.
+- **Materials:** word-problem cards, counters, base-10.
+- **Joy:** crack the "story" and reveal the answer.
+
+### Lesson 27 — Mixed problems: money, measure and time
+- **Duration:** 24 min
+- **Objective:** "By the end, I can solve everyday problems with money, measurement and time." (Y2 — review)
+- **Hook:** "A whole pretend shopping trip — can you handle the money and the clock?"
+- **Key activity:** Total a shopping list and find change; compare two lengths; "the bus leaves at quarter past 3 — set the clock." Mixed contexts in one session.
+- **Check for understanding:** "Two snacks at 30p and 25p — total and change from £1?" → 55p; 45p change.
+- **Differentiation:** support: coins and a clock to hand. / stretch: a problem combining two measures.
+- **Materials:** coins, clock, ruler, scenario cards.
+- **Joy:** role-play a full shopping trip start to finish.
+
+### Lesson 28 — Year 1 maths challenge & review
+- **Duration:** 24 min
+- **Objective:** "By the end, I can show what I have mastered across the whole year." (Y2 — review)
+- **Hook:** "The Year 1 maths champion challenge — show off everything you know!"
+- **Key activity:** A rotation of quick stations: place value, a two-digit sum, a times-table fact, a fraction of an amount, reading a clock, reading a chart. Self-check against an answer card.
+- **Check for understanding:** "Which station did you find easiest, and why?" → child reflects and explains.
+- **Differentiation:** support: choose the stations they feel ready for. / stretch: design a question for the tutor to solve.
+- **Materials:** station cards, manipulatives, answer cards.
+- **Joy:** earn a "Year 1 maths champion" badge for completing the circuit.
+
+**End-of-unit check:** (1) 5 bags of 5 → 25. (2) Total 30p + 25p and change from £1 → 55p; 45p. (3) ¾ of 12 → 9. (4) Set quarter past 3. (5) Read "most" from a bar chart.
 
 ---
 
@@ -329,11 +391,11 @@ below, left, right, forwards, backwards, half turn, quarter turn, whole turn.
 
 Spanning the whole year — a child secure in Year 1 maths can:
 
-1. **Count & order:** count a group of up to 20 objects accurately and order numbers to 20 smallest-to-largest.
-2. **One more/less & compare:** give one more and one less than any number to 20, and say which of two numbers is greater.
-3. **Bonds to 10:** quickly recall pairs that make 10 (e.g. 8 + ? = 10 → 2).
-4. **Add & subtract within 20:** solve 8 + 6 → 14 and 15 − 7 → 8, and use 9 + 4 = 13 to give 13 − 4 = 9.
-5. **Place value:** state the tens and ones in a two-digit number (56 → 5 tens, 6 ones) and count in tens to 100.
-6. **Fractions:** find half and a quarter of a small amount (half of 8 → 4; quarter of 12 → 3).
-7. **Money & time:** total simple coins (10p + 2p + 2p → 14p) and read o'clock and half-past times.
-8. **Shape & position:** name common 2-D and 3-D shapes and follow position/turn instructions (a half turn faces the opposite way).
+1. **Place value to 100:** partition a two-digit number (76 → 70 + 6) and compare/order numbers using tens first (72 > 27).
+2. **Add & subtract within 100:** solve 48 + 37 → 85 and 71 − 26 → 45 with regrouping, and check with the inverse.
+3. **Tables & equal groups:** recall 2/5/10 facts, show 3 × 5 as an array, and share equally (20 ÷ 5 = 4).
+4. **Fractions of quantities:** find ¼ of 8 → 2 and ¾ of 12 → 9, and know ½ > ¼.
+5. **Money:** total amounts and find change (70p pen, pay £1 → 30p), knowing £1 = 100p.
+6. **Measurement:** read a ruler from 0, compare mass and capacity, and choose a sensible unit.
+7. **Time:** read the clock to 5 minutes, including "past" and "to" (quarter past, quarter to).
+8. **Statistics & shape:** read a pictogram with a key and a block diagram, count faces of a cube (6), and find a line of symmetry.

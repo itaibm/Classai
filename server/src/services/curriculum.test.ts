@@ -32,9 +32,9 @@ before(async () => {
 });
 
 test('scope parser reads units and lesson fields', () => {
-  const md = fs.readFileSync(path.join(TMP, 'curriculum/year-2/maths/maths-year-2.md'), 'utf8');
+  const md = fs.readFileSync(path.join(TMP, 'curriculum/year-1/maths/maths-year-1.md'), 'utf8');
   const parsed = scope.parseScopeFile(md);
-  assert.ok(parsed.units.length >= 7, 'maths year 2 has several units');
+  assert.ok(parsed.units.length >= 7, 'maths year 1 has several units');
   const u1 = parsed.units[0]!;
   assert.equal(u1.number, 1);
   assert.match(u1.essentialQuestion, /tens and the ones/i);
@@ -48,25 +48,25 @@ test('scope parser reads units and lesson fields', () => {
 test('catalog merges authored + outline lessons', () => {
   const tree = catalog.buildCatalog();
   assert.ok(tree.length >= 6, 'six years');
-  const ref = catalog.getCatalogLessonRef('y2-maths-u1-l01')!;
+  const ref = catalog.getCatalogLessonRef('y1-maths-u1-l01')!;
   assert.equal(ref.status, 'authored');
   assert.ok(ref.authored, 'authored lesson resolves to a LessonFull');
-  const outline = catalog.getCatalogLessonRef('y3-history-u1-l01')!;
+  const outline = catalog.getCatalogLessonRef('y2-history-u1-l01')!;
   assert.equal(outline.status, 'outline');
   assert.ok(!outline.authored);
   assert.ok(outline.outline, 'outline-only lesson still carries its scope outline');
 });
 
 test('generator builds, validates and saves an outline-only lesson', async () => {
-  const ref = catalog.getCatalogLessonRef('y3-history-u1-l01')!;
+  const ref = catalog.getCatalogLessonRef('y2-history-u1-l01')!;
   assert.equal(ref.status, 'outline');
   const { lesson, fallback } = await generator.generateAndSaveLesson(ref);
   assert.equal(fallback, false, 'mock brain returns a valid lesson, not the fallback');
-  assert.equal(lesson.id, 'y3-history-u1-l01');
+  assert.equal(lesson.id, 'y2-history-u1-l01');
   assert.ok(lesson.plan.length >= 4, 'has beats');
   assert.ok(lesson.practiceBank.length >= 9, 'has a full practice bank');
   // It is now authored on disk and re-reads.
-  const after = catalog.getCatalogLessonRef('y3-history-u1-l01')!;
+  const after = catalog.getCatalogLessonRef('y2-history-u1-l01')!;
   assert.equal(after.status, 'authored');
-  assert.ok(curriculum.getCurriculumLesson('y3-history-u1-l01'), 'file is on disk');
+  assert.ok(curriculum.getCurriculumLesson('y2-history-u1-l01'), 'file is on disk');
 });

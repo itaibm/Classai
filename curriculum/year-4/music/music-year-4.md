@@ -1,186 +1,196 @@
-# Year 4 Music (ages 8–9, KS2) — Lesson Outlines
+# Year 4 Music (ages 9–10, KS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Scope drawn from [`knowledge-base/subjects/art-music/music-ks1-ks2.md`](../../../knowledge-base/subjects/art-music/music-ks1-ks2.md)
-> (Year-4 slice: **pitch on the five-line stave** (Topic 8 pitch half) read on the recorder; **the elements together + texture** (Topic 7); **structure** — verse/chorus, AB/ABA, rondo, ostinato; first **music history** map (Topic 11); continued appraising (Topic 10).)
+> (Year-5 slice: **part-singing** — unison → rounds → two-part/ostinato; **composing a short piece with notation** (Topic 9 + Topic 8 in full); melodic ostinato and layered texture; new rhythm (dotted/semibreve, simple time signatures); continued cross-era appraising (Topic 10).)
 
 ## Year overview
 
-Year 4 puts the notes **on the stave** and zooms out to how whole pieces are **built**. Last year the page told the child the *rhythm*; this year it tells the *pitch* too — the **five-line treble stave**, the **treble clef**, lines and spaces (EGBDF / FACE), and reading the recorder's known notes (G–A–B–C–D–E) by their *height* on the stave. With both rhythm and pitch readable, the child plays and recognises more music — and learns to hear the **dimensions all at once**, adding **texture** (thin/thick layers) properly. The big new idea is **structure**: how music is organised — verse/chorus, **AB** and **ABA**, the returning theme of a **rondo**, and the repeating **ostinato** that underpins so much world and pop music. A first **music-history map** appears (classical/orchestral → jazz → pop/rock → electronic), placing pieces by their instruments' timbre. The listening thread spans eras and cultures with full **notice → feel → judge** appraising. Part-singing/composition with notation continues **→ Year 5**; tutor-and-child duet performance and critical history **→ Year 6**.
+Year 4 is the year music becomes **many parts at once and fully written down**. The singing voice, solid in unison from earlier years, now splits: **rounds** (canons), a sung **ostinato/drone** against a melody, and simple **two-part** singing — the child must hold their own line while another sounds. In parallel, **composing** matures from graphic plans into **notated composition on the stave**: the child invents a melody using known notes, writes it with correct rhythm and pitch (or via Chrome Music Lab Song Maker), and can hand it to someone else to play. Rhythm reading deepens with the **semibreve** (4 beats), the **dotted note**, and naming a **time signature** (4/4, 3/4). **Texture** is now created on purpose by stacking melody + ostinato + drone, and the listening thread keeps comparing layered music across cultures with confident **notice → feel → judge** appraising. This sets up Year 5's **ensemble performance and critical music history**. (Full music history → Year 5.)
 
 ---
 
-## Unit 1 — Pitch on the stave (reading melodies)
+## Unit 1 — Singing in parts (unison → rounds)
 
-**Essential question:** How do I read which note to play from its place on the five-line stave?
+**Essential question:** How do I hold my own vocal line while other parts are sounding at the same time?
 
-**Key vocabulary:** stave, treble clef, line note, space note, EGBDF, FACE, ledger, pitch
+**Key vocabulary:** unison, round, canon, part, blend, balance, entry, hold your line
 
-### Lesson 1 — Five lines, four spaces
-- **Duration:** 30 min
-- **Objective:** "By the end, I can name the line notes (E-G-B-D-F) and space notes (F-A-C-E) on the treble stave."
-- **Hook:** Music lives on a ladder of five lines — climb it and the notes get higher!
-- **Key activity:** Read → chant → place. Treble clef = the "G clef" curling round the G line. Lines bottom-up: **Every Good Boy Deserves Football**; spaces: **FACE**. Place note-heads on lines/spaces and name them; higher on the stave = higher pitch.
-- **Check for understanding:** "On a stave, what does a note higher up mean?" → "a higher pitch."
-- **Differentiation:** support: just name the four FACE spaces / stretch: name any note placed, line or space.
-- **Materials:** stave whiteboard/cards; note-head counters.
-- **Joy:** cracking the "secret ladder" that all sheet music uses.
-
-### Lesson 2 — Read your recorder notes on the stave
-- **Duration:** 30 min
-- **Objective:** "By the end, I can read G, A, B, C, D, E on the stave and play them on the recorder."
-- **Hook:** Your recorder fingers already know these notes — now match each to its spot on the ladder.
-- **Key activity:** Read → finger → play. Locate G (line) up to E on the stave; match each to its fingering. Read short stave phrases (rhythm + pitch) and play them on the recorder.
-- **Check for understanding:** "Play this written note." → child names and plays the correct pitch from the stave.
-- **Differentiation:** support: read 3 notes (G-A-B) / stretch: read a 4-bar stave phrase at sight.
-- **Materials:** recorders; stave flashcards; fingering chart.
-- **Joy:** reading a real piece of sheet music and hearing it come out right.
-
-### Lesson 3 — Play a notated melody
-- **Duration:** 30 min
-- **Objective:** "By the end, I can play a short notated melody reading both pitch and rhythm from the stave."
-- **Hook:** Both clues at once now — the shape says how long, the height says how high. Real reading!
-- **Key activity:** Read → practise → perform. Clap the rhythm, name the pitches, finger silently, then play a short notated tune (e.g. **"Ode to Joy"** opening, in recorder range). Keep a steady pulse.
-- **Check for understanding:** "Sight-read this 2-bar melody." → child plays correct pitches and rhythm in time.
-- **Differentiation:** support: play with the note-letters written in / stretch: play with no letters, from the stave alone.
-- **Materials:** recorders; notated melody; backing track.
-- **Joy:** sounding out a famous tune straight off the page.
-
-**Listening thread (Unit 1):** **"Ode to Joy"** (Beethoven) — follow the rising-and-falling melody line; *notice → feel → judge* the step-wise tune and its build.
-
-**End-of-unit 1 check:** Child names line and space notes on the treble stave and plays a short notated melody on the recorder, reading both pitch and rhythm.
-
----
-
-## Unit 2 — The elements together (and texture)
-
-**Essential question:** How can I describe a piece by hearing many dimensions at once, including how many layers it has?
-
-**Key vocabulary:** dimensions, texture, thin, thick, layer, melody, accompaniment, ostinato
-
-### Lesson 4 — Texture: thin and thick
+### Lesson 1 — Tight unison and blend
 - **Duration:** 25 min
-- **Objective:** "By the end, I can tell a thin texture (few layers) from a thick one (many layers)."
-- **Hook:** One singer alone… then a whole choir crashes in. How many layers can your ears count?
-- **Key activity:** Listen → categorise → perform. Define **texture** = how many sounds at once: thin (a solo) → thick (a band/choir). Build texture live: one clapper, then add a stamp, a hum, a drum — feel it thicken. Listen and judge thin/thick.
-- **Check for understanding:** "Is one singer alone a thin or thick texture?" → "thin."
-- **Differentiation:** support: thin vs thick on two clear clips / stretch: count and name the layers in a clip.
-- **Materials:** layered recordings; tutor and child (plus willing family members) for building texture.
-- **Joy:** feeling the room "fill up" as layers stack.
+- **Objective:** "By the end, I can sing in unison with others, matching pitch, timing and vowel shape to blend."
+- **Hook:** Before splitting into parts, the strongest choirs sound like *one* voice — let's blend perfectly.
+- **Key activity:** Warm up → perform. Posture, breath, pitch-matching warm-ups. Sing a known song in tight unison: same vowels, same cut-offs, listening *out* not just singing. Hear the difference between "together" and "blended."
+- **Check for understanding:** "What does it mean to blend in unison?" → "everyone matches pitch, timing and vowel sound so it's like one voice."
+- **Differentiation:** support: blend on a sustained note / stretch: lead the cut-offs.
+- **Materials:** a known song; chime bar for the starting note.
+- **Joy:** the goosebumps of a perfectly blended chord.
 
-### Lesson 5 — Ostinato (a layer that repeats)
+### Lesson 2 — Your first round
 - **Duration:** 30 min
-- **Objective:** "By the end, I can play a repeating ostinato pattern and keep it going under a melody."
-- **Hook:** A short pattern, looped forever, holds whole songs together — that's an ostinato.
-- **Key activity:** Imitate → perform. Learn a 4-beat ostinato (a riff or rhythm) and loop it steadily while the tutor plays a melody on top. Swap roles. Feel two layers = a thicker texture. (Sets up Year 5 part work.)
-- **Check for understanding:** "What is an ostinato?" → "a short pattern that repeats over and over."
-- **Differentiation:** support: a one-note ostinato / stretch: keep a melodic ostinato under a changing tune.
-- **Materials:** tuned/untuned percussion or recorders.
-- **Joy:** the hypnotic groove of locking into a loop.
+- **Objective:** "By the end, I can sing a 2-part round, holding my line as the other part overlaps."
+- **Hook:** One tune, started at different times, becomes harmony by magic — that's a round!
+- **Key activity:** Imitate → perform. Learn a round (e.g. **"Frère Jacques"** or **"London's Burning"**) in unison first; then split into two groups entering a phrase apart. Hold your line; listen across to the other part.
+- **Check for understanding:** "What is a round/canon?" → "the same tune sung by groups starting at different times, so they overlap."
+- **Differentiation:** support: stay with the tutor's group / stretch: be the second entry, starting alone.
+- **Materials:** a round; two groups (or recorded part).
+- **Joy:** the thrill of two overlapping lines fitting together.
 
-### Lesson 6 — Music detective (describe with the elements)
+### Lesson 3 — Three-part round / part stamina
 - **Duration:** 30 min
-- **Objective:** "By the end, I can describe a clip using at least four dimensions, including texture."
-- **Hook:** A musical detective lists *everything* going on — pulse, tempo, dynamics, pitch, timbre, texture.
-- **Key activity:** Listen → appraise. Use a dimension checklist on a clip: Pulse fast/slow? Loud/quiet? Melody high/low? Instruments (timbre)? Many layers or few (texture)? Build a full spoken description.
-- **Check for understanding:** "Name three dimensions to describe a song." → any three of tempo, dynamics, pitch, timbre, texture.
-- **Differentiation:** support: answer the checklist with prompts / stretch: describe with five dimensions unaided.
-- **Materials:** a rich short clip; the checklist.
-- **Joy:** sounding like a real critic with a long, confident description.
+- **Objective:** "By the end, I can hold my part in a 3-part round without drifting onto another part."
+- **Hook:** If two parts made harmony, what will three do? Don't let the others pull you off your line!
+- **Key activity:** Perform → appraise. Add a third entry to the round. Balance the parts (not too loud); aim for even volume and clean entries. Record and appraise: did the parts blend and balance?
+- **Check for understanding:** "Why did you not drift onto the other part?" → "I kept listening to my own line and the pulse."
+- **Differentiation:** support: sing a 2-part version / stretch: lead a part confidently and cue an entry.
+- **Materials:** the round; recording device.
+- **Joy:** the rich wash of three overlapping voices.
 
-**Listening thread (Unit 2):** **"Mambo" from *West Side Story*** (Bernstein) — *notice → feel → judge*: a thick, layered, brass-heavy texture; count the layers and name the energy.
+**Listening thread (Unit 1):** **"Pachelbel's Canon"** and a **Bulgarian / Georgian polyphonic folk song** — *notice → feel → judge*: hear independent vocal lines weaving together; describe the texture and harmony.
 
-**End-of-unit 2 check:** Child tells thin from thick texture, plays a repeating ostinato under a melody, and describes a clip using at least four dimensions including texture.
+**End-of-unit 1 check:** Child blends in unison and holds one part in a 2- or 3-part round, with clean entries and balanced volume.
 
 ---
 
-## Unit 3 — Structure (how music is organised)
+## Unit 2 — Layered parts: ostinato, drone & two parts
 
-**Essential question:** How is a whole piece built — repeats, contrasts and returning themes?
+**Essential question:** How do I build a thick, satisfying texture by combining a melody with a repeating part?
 
-**Key vocabulary:** structure, verse, chorus, AB, ABA, rondo, theme, contrast, repeat
+**Key vocabulary:** melody, ostinato, drone, harmony, two-part, texture, balance, layer
 
-### Lesson 7 — Verse, chorus and AB
+### Lesson 4 — Melody over a drone
 - **Duration:** 25 min
-- **Objective:** "By the end, I can hear and label verse/chorus and an AB structure in songs."
-- **Hook:** Why does the catchy bit keep coming back? Because someone *designed* the shape of the song.
-- **Key activity:** Listen → label. Map a pop/folk song: verse (changes, A) and chorus (returns, B). Hold up A or B cards as each section plays. Label a simple **AB** instrumental too.
-- **Check for understanding:** "What's the difference between a verse and a chorus?" → "verse tells the story and changes; chorus repeats and is the catchy returning part."
-- **Differentiation:** support: raise a hand on the chorus only / stretch: map the whole A/B order.
-- **Materials:** a clear verse-chorus song; A/B cards.
-- **Joy:** seeing a song as a built shape, not just sound.
+- **Objective:** "By the end, I can play/sing a melody over a held drone and keep both balanced."
+- **Hook:** Bagpipes, Indian music and game soundtracks all sit a tune on top of one held note — a drone.
+- **Key activity:** Perform. One group holds a **drone** (a sustained low note); another plays/sings a pentatonic melody on top. Balance so the melody is heard. Swap. Feel a two-layer texture. (Builds Y4 ostinato.)
+- **Check for understanding:** "What is a drone?" → "a continuous held note that the melody plays over."
+- **Differentiation:** support: hold the drone / stretch: improvise the melody over the drone.
+- **Materials:** recorders/voices/chime bars.
+- **Joy:** the ancient, hypnotic sound of a tune over a drone.
 
-### Lesson 8 — ABA (sandwich form)
+### Lesson 5 — Melody + melodic ostinato
 - **Duration:** 30 min
-- **Objective:** "By the end, I can recognise and perform an ABA structure (a contrasting middle that returns to the start)."
-- **Hook:** A musical sandwich — the same idea, a different filling in the middle, then back to the start.
-- **Key activity:** Listen → perform. Hear an **ABA** piece (e.g. a minuet & trio). Then perform one: A = a known recorder phrase, B = a contrasting one (different dynamics/tempo), A = back to the first. Make the contrast clear.
-- **Check for understanding:** "What is ABA structure?" → "a first section, a contrasting middle, then the first section returns."
-- **Differentiation:** support: play A and B only / stretch: make B contrast in dynamics, tempo *and* pitch.
-- **Materials:** an ABA recording; recorders/percussion.
-- **Joy:** designing a clear "return home" in your own playing.
+- **Objective:** "By the end, I can perform a melody against a different repeating melodic ostinato."
+- **Hook:** Now the under-part has its *own* little tune that loops — two melodies at once!
+- **Key activity:** Imitate → perform. Learn a short melody and a contrasting 4-beat **melodic ostinato** (e.g. the "Tubular Bells" or a riff). Half the group loops the ostinato while the other plays the melody. Lock them together; balance the layers.
+- **Check for understanding:** "How is this texture thicker than a single tune?" → "two independent layers are playing at once."
+- **Differentiation:** support: clap/loop a rhythmic ostinato / stretch: hold a melodic ostinato under a changing tune.
+- **Materials:** recorders/tuned percussion; backing.
+- **Joy:** the groove when melody and riff click into place.
 
-### Lesson 9 — Rondo (the theme keeps returning)
+### Lesson 6 — Build a three-layer texture
 - **Duration:** 30 min
-- **Objective:** "By the end, I can recognise a rondo (ABACA) where one theme keeps coming back."
-- **Hook:** What if the chorus came back after *every* new idea? A-B-A-C-A — that's a rondo!
-- **Key activity:** Listen → perform. Hear a rondo theme return between episodes. Build a rondo together: tutor and child play the **A** theme together; the child improvises the **B** and **C** episodes as the soloist; A returns each time.
-- **Check for understanding:** "In a rondo, what keeps coming back?" → "the main theme (A), between different episodes."
-- **Differentiation:** support: play the returning A theme / stretch: improvise a contrasting episode.
-- **Materials:** a rondo recording; recorders/percussion.
-- **Joy:** being the soloist on your own episode between the returns.
+- **Objective:** "By the end, I can combine melody, ostinato and drone into a balanced three-layer texture."
+- **Hook:** Stack three layers — tune, riff, drone — and conduct the texture thick and thin.
+- **Key activity:** Perform → appraise. Three groups: melody, ostinato, drone. Add layers one at a time (thin→thick) and remove them (thick→thin); a conductor cues entries and balance. Appraise the texture.
+- **Check for understanding:** "How did you make the texture thicker, then thinner?" → "added/removed layers."
+- **Differentiation:** support: play one chosen layer well / stretch: conduct the entries and balance.
+- **Materials:** recorders/percussion; a conductor.
+- **Joy:** controlling a whole "band" of layers like a conductor.
 
-**Listening thread (Unit 3):** A **rondo** (e.g. Mozart, *Rondo alla Turca*) and a **call-and-response** West African song — *notice → feel → judge* the returning theme and the repeating response.
+**Listening thread (Unit 2):** A **gamelan** piece (interlocking ostinati) and a **minimalist** work (e.g. Steve Reich) — *notice → feel → judge* the stacked repeating layers and shifting texture.
 
-**End-of-unit 3 check:** Child labels verse/chorus and AB, performs an ABA with clear contrast, and recognises a rondo's returning theme.
+**End-of-unit 2 check:** Child performs a melody over a drone, against a melodic ostinato, and within a balanced three-layer texture, controlling thin/thick.
 
 ---
 
-## Unit 4 — A first map of music history
+## Unit 3 — Notation in full (read & write pitch + rhythm)
 
-**Essential question:** How can I roughly place a piece in time using the instruments I hear (timbre)?
+**Essential question:** How do I write a melody on the stave so anyone can play it exactly?
 
-**Key vocabulary:** genre, era, classical/orchestral, jazz, pop/rock, electronic, timbre clues
+**Key vocabulary:** semibreve, dotted note, time signature (4/4, 3/4), bar, stave, treble clef
 
-### Lesson 10 — Four eras by their sound
+### Lesson 7 — Longer notes and the time signature
 - **Duration:** 30 min
-- **Objective:** "By the end, I can name four eras/genres and a typical sound for each."
-- **Hook:** You can often *guess* how old music is just by the instruments — no electric guitar means it's old!
-- **Key activity:** Listen → categorise. Hear a clip of each: **classical/orchestral** (strings, woodwind, brass — old), **jazz** (swing, trumpet/sax, double bass), **pop/rock** (singer, electric guitar, drum kit), **electronic** (synths, beats — modern). Match genre → typical instrument (timbre).
-- **Check for understanding:** "What is a genre of music?" → "a style/family of music, e.g. jazz, pop, classical."
-- **Differentiation:** support: match two genres to instruments / stretch: match all four.
-- **Materials:** four contrasting era clips; match cards.
-- **Joy:** guessing a song's era like a time-detective.
+- **Objective:** "By the end, I can read a semibreve and a dotted note, and read a 4/4 or 3/4 time signature."
+- **Hook:** A note that lasts a whole bar (semibreve), and a magic dot that makes a note *longer* — plus the number that tells you beats per bar.
+- **Key activity:** Read → clap → play. Semibreve = hollow, no stem = 4 beats; a **dot** adds half again (dotted minim = 3 beats). **Time signature**: top number = beats per bar (4/4 = four, 3/4 = three — a waltz). Clap and play lines in 4/4 and 3/4.
+- **Check for understanding:** "How many beats in a bar of 3/4, and what's a semibreve worth?" → "three beats; a semibreve is four beats."
+- **Differentiation:** support: read 4/4 with semibreves only / stretch: read a 3/4 line with a dotted minim.
+- **Materials:** notated lines in 4/4 and 3/4; recorders.
+- **Joy:** feeling the "lilt" of a waltz in 3/4.
 
-### Lesson 11 — Order them oldest to newest
+### Lesson 8 — Write a rhythm and a melody
+- **Duration:** 35 min
+- **Objective:** "By the end, I can write a 4-bar melody on the stave with correct rhythm and pitch."
+- **Hook:** Be the composer who writes it down — then watch a friend play exactly what you wrote.
+- **Key activity:** Compose → notate. Choose a key set of notes (e.g. G-A-B-C-D). Decide a 4-bar rhythm (right beats per bar), then place note-heads at the right *height* for the pitch. Write it on a stave (paper or Song Maker).
+- **Check for understanding:** "On the stave, what tells the pitch and what tells the length?" → "height tells pitch; the note shape tells length."
+- **Differentiation:** support: notate a given rhythm with chosen pitches / stretch: notate an 8-bar AB melody.
+- **Materials:** manuscript paper or Chrome Music Lab *Song Maker*; recorders.
+- **Joy:** seeing your own tune written as real sheet music.
+
+### Lesson 9 — Swap and play (notation works!)
 - **Duration:** 30 min
-- **Objective:** "By the end, I can order clips oldest → newest using the instruments (timbre) as evidence."
-- **Hook:** Put music in a time-line — and prove your order with the instruments you hear.
-- **Key activity:** Listen → order → justify. Order four clips oldest→newest. Justify each with timbre evidence ("electric guitar → not old"; "only an orchestra → older"). Bust the myth that "classical = old/boring."
-- **Check for understanding:** "If a clip has only an orchestra and no electric instruments, is it likely old or modern?" → "old/classical."
-- **Differentiation:** support: order two clips / stretch: order four and justify each.
-- **Materials:** four era clips; a time-line strip.
-- **Joy:** winning the argument with real evidence.
+- **Objective:** "By the end, I can play a melody someone else notated, proving notation communicates music."
+- **Hook:** The real test: can a stranger play *your* tune just from the page?
+- **Key activity:** Read → perform. Swap notated melodies; sight-read and play each other's. Composer checks it sounds as intended; fix any unclear notation. (Topics 8 + 9 united.)
+- **Check for understanding:** "What is notation for?" → "to write music down so someone else can play it the same way."
+- **Differentiation:** support: play a swapped 2-bar melody / stretch: play a swapped 8-bar melody at sight.
+- **Materials:** the notated melodies; recorders.
+- **Joy:** hearing your written music played back by someone else.
 
-**Listening thread (Unit 4):** One clip per era — a **Baroque/Classical** orchestral piece, a **jazz** standard (e.g. Ellington), a **pop/rock** hit, and an **electronic/dance** track — *notice → feel → judge* and place each in time. (Full history detail → Year 6.)
+**Listening thread (Unit 3):** A **waltz** (e.g. Strauss, *Blue Danube*, in 3/4) and a **4/4 pop song** — *notice → feel → judge*: feel the difference between three-beat and four-beat bars.
 
-**End-of-unit 4 check:** Child names four eras/genres with a typical sound, and orders clips oldest→newest justifying with timbre evidence.
+**End-of-unit 3 check:** Child reads semibreves, dotted notes and time signatures (4/4, 3/4), notates a 4-bar melody on the stave, and plays a peer's notated melody.
+
+---
+
+## Unit 4 — Compose, layer & perform a piece
+
+**Essential question:** How do I compose a structured piece with layered parts and perform it from notation?
+
+**Key vocabulary:** compose, structure (ABA/rondo), layer, dynamics, tempo, rehearse, perform, appraise
+
+### Lesson 10 — Compose a layered, structured piece
+- **Duration:** 35 min
+- **Objective:** "By the end, I can compose a structured piece (e.g. ABA) with at least two layers and deliberate dynamics/tempo."
+- **Hook:** Bring it all together — a written melody, a looping ostinato, a clear shape, chosen volume and speed.
+- **Key activity:** Compose → notate. Plan an **ABA** (or rondo) piece: write the A melody on the stave, design a B contrast (different dynamics/tempo), add an ostinato or drone layer. Mark forte/piano and tempo.
+- **Check for understanding:** "Name two things you chose on purpose in your piece." → any two: structure, layers, dynamics, tempo, timbre.
+- **Differentiation:** support: AB with one extra layer / stretch: a rondo with two contrasting episodes.
+- **Materials:** manuscript/Song Maker; recorders/percussion.
+- **Joy:** designing a piece that genuinely sounds like *yours*.
+
+### Lesson 11 — Rehearse the parts together
+- **Duration:** 30 min
+- **Objective:** "By the end, I can rehearse a multi-part piece, balancing layers and fixing the tricky sections."
+- **Hook:** A band rehearses until the parts lock — loop the hard bar, then balance the layers.
+- **Key activity:** Practise. Assign parts (melody, ostinato/drone). Loop the trickiest bar; then run the whole piece, balancing so the melody is heard; refine dynamics and entries.
+- **Check for understanding:** "How do you stop one layer drowning the others?" → "balance the volume so the melody can be heard."
+- **Differentiation:** support: play one part reliably / stretch: cue entries and lead balance.
+- **Materials:** the composed parts; instruments.
+- **Joy:** the moment the layers finally lock together.
+
+### Lesson 12 — Perform and appraise
+- **Duration:** 30 min
+- **Objective:** "By the end, I can perform a layered piece for an audience and appraise one with notice → feel → judge."
+- **Hook:** Showtime for a real, multi-part composition — then judge it like a critic.
+- **Key activity:** Perform → appraise. Perform the layered piece from notation, in time, balanced, with dynamics. Audience appraises: *notice* (≥3 dimensions incl. texture/structure), *feel*, *judge with a because*.
+- **Check for understanding:** "Appraise that performance with reasons." → child names texture/structure + a *because*.
+- **Differentiation:** support: appraise with two dimensions / stretch: suggest one improvement musically.
+- **Materials:** the pieces; a "stage"; recording device.
+- **Joy:** the applause for a piece you wrote *and* arranged in parts.
+
+**Listening thread (Unit 4):** A **film score** (e.g. John Williams) built from layered themes — *notice → feel → judge* the structure, layers and dynamics that build the mood.
+
+**End-of-unit 4 check:** Child composes a structured, layered piece with deliberate dynamics/tempo, rehearses and performs it from notation balanced, and appraises a performance with notice → feel → judge.
 
 ---
 
 ## Listening & appraising (the year-long thread)
 
-The thread now deliberately spans **eras** (Beethoven, Mozart, Bernstein, jazz, pop, electronic) and **cultures** (West African call-and-response), with the child reliably running **notice → feel → judge** and naming **texture** and **structure** alongside the other dimensions. The new skill is using **timbre as evidence** to place music in time — the seed of the full music-history work in **Year 6**.
+The thread focuses on **layered and multi-part music** across traditions — Pachelbel and Bulgarian/Georgian polyphony, gamelan and minimalism, Strauss waltz and pop, and a layered film score — with the child reliably running **notice → feel → judge** and naming **texture, structure and harmony**. The skills here (independent parts, notated composition, balanced layers) are the foundation for **Year 5's ensemble performance and critical music history**.
 
 ---
 
 ## End-of-year outcomes (what a Year 4 child can do)
 
-1. **Read pitch on the stave** — name line and space notes on the treble stave (EGBDF / FACE) and know higher = higher pitch.
-2. **Play notated melodies** — read both pitch and rhythm from the stave and play a short tune (e.g. "Ode to Joy") on the recorder.
-3. **Hear texture** — distinguish thin from thick textures and count layers.
-4. **Play an ostinato** — keep a repeating pattern going as one layer under a melody.
-5. **Describe with the elements** — appraise a clip using at least four dimensions including texture.
-6. **Recognise structure** — identify and perform verse/chorus, AB, ABA, and recognise a rondo's returning theme.
-7. **Place music in time** — name four eras/genres, match them to typical instruments, and order clips oldest→newest using timbre as evidence.
-8. **Appraise across eras & cultures** — listen to a diverse range and respond with notice → feel → judge, naming texture and structure.
+1. **Sing in parts** — blend in unison and hold one part in a 2- or 3-part round with clean entries.
+2. **Layer parts** — perform a melody over a drone, against a melodic ostinato, and within a balanced three-layer texture.
+3. **Read fuller notation** — read semibreves, dotted notes and time signatures (4/4, 3/4) on the stave.
+4. **Notate a melody** — write a 4-bar melody on the stave (or Song Maker) with correct rhythm and pitch that others can play.
+5. **Compose with structure** — compose a structured piece (ABA/rondo) with at least two layers and deliberate dynamics and tempo.
+6. **Rehearse & balance** — rehearse a multi-part piece, fix tricky sections, and balance the layers.
+7. **Perform a composition** — perform a layered piece from notation for an audience, in time and balanced.
+8. **Appraise multi-part music** — appraise across traditions with notice → feel → judge, naming texture, structure and harmony.

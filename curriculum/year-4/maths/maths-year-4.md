@@ -1,357 +1,381 @@
-# Year 4 Mathematics (ages 8–9, LKS2) — Lesson Outlines
+# Year 4 Mathematics (ages 9–10, UKS2) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Drawn from `knowledge-base/subjects/maths/year-4.md`. Follows the lesson-outline format and
-> the 8 design principles in [`../../year-1/README.md`](../../year-1/README.md).
+> Drawn from `knowledge-base/subjects/maths/year-5.md`. Follows the lesson-outline format and
+> the 8 design principles in [`../../year-0/README.md`](../../year-0/README.md).
 
 ## Year overview
 
-Year 4 is the year fluency is formally tested (the national **Multiplication Tables Check**), and
-it widens every Year 3 strand. Place value reaches **10,000**, with the new tools of **rounding**,
-**negative numbers** and **Roman numerals**; the 3/4/8 tables expand to **all tables to 12 × 12**,
-which then power **column multiplication and short division**; fractions branch into **decimals
-(tenths and hundredths)** alongside deeper **equivalence and fractions of amounts**; measurement
-adds **area** beside perimeter; geometry introduces **coordinates and translation**; and statistics
-moves to **line graphs and two-way tables**. The child now works fluently in the abstract while still
-proving new ideas concretely (a 100-square for decimals, cubes for area). Most lessons run **24–30
-minutes**, the older end of the band. Lessons are numbered continuously (1–30) across eight units,
-with retrieval and fluency lessons woven in.
+Year 4 opens Upper Key Stage 2 and pushes every strand toward fluency and abstraction. Place value
+reaches **1,000,000** and uses negatives in context; the tables children mastered in Year 3 now
+underpin the **number theory** of multiples, factors, primes, squares and cubes, and the written
+methods grow to **long multiplication and short division**. Fractions become a full operation set —
+**adding and subtracting with unlike denominators** and **multiplying by whole numbers** — while
+decimals extend to **three places** and the powerful new idea of **percentages** arrives, linking
+fractions, decimals and proportion. Measurement adds **volume** beside composite **area**; geometry
+moves to **measuring and drawing angles with a protractor** and **polygons, reflection and
+translation**; statistics deepens to **interpreting line graphs and reading timetables**. Children
+work largely in the abstract, returning to concrete or pictorial models to introduce or unstick each
+new idea. Most lessons run **28–38 minutes**, the upper end of the band. Lessons are numbered
+continuously (1–32) across eight units, with retrieval and fluency lessons woven in.
 
 ---
 
-## Unit 1 — Place value, rounding and number systems
+## Unit 1 — Place value to a million
 
-**Essential question:** How big can numbers get, how do we round them, and what other number systems do we use?
+**Essential question:** How do we read, compare and round numbers up to a million, including across zero?
 
-**Key vocabulary:** thousands, ten-thousands, placeholder, partition, round, nearest, negative,
-below zero, thermometer, Roman numerals, subtractive rule.
+**Key vocabulary:** thousands, ten-thousands, hundred-thousands, million, group in threes,
+compare, round, negative, difference across zero.
 
-### Lesson 1 — Place value to 10,000
-- **Duration:** 24 min
-- **Objective:** "By the end, I can read, build and partition four-digit numbers." (Y4 number & place value)
-- **Hook:** "A stadium holds 3,482 fans — what does each digit mean?"
-- **Key activity:** Build 3,482 on a Th | H | T | O chart = 3000 + 400 + 80 + 2. Watch placeholder zeros (3,047). Compare from the biggest place; count in 1000s.
-- **Check for understanding:** "Partition 6,209." → 6000 + 200 + 0 + 9.
-- **Differentiation:** support: the Th/H/T/O chart — empty columns get a 0. / stretch: "Which is bigger, 7,108 or 7,180?" → 7,180 (tens decide).
-- **Materials:** place-value chart, base-10/counters, numeral cards.
-- **Joy:** "build the crowd" — make big stadium numbers digit by digit.
+### Lesson 1 — Reading and comparing numbers to 1,000,000
+- **Duration:** 28 min
+- **Objective:** "By the end, I can read, write and compare numbers to 1,000,000." (Y5 number & place value)
+- **Hook:** "A city has 245,300 people — how do we even say that number?"
+- **Key activity:** Extend the place-value chart leftwards; commas group every three digits. Read each group with its label. Compare from the biggest place (245,300 vs 245,030 → hundreds decide).
+- **Check for understanding:** "Order: 120,400; 102,400; 120,040." → 102,400; 120,040; 120,400.
+- **Differentiation:** support: group in threes from the right (KB fix for misreading 250,000). / stretch: read and write a seven-digit number.
+- **Materials:** large place-value chart, numeral cards.
+- **Joy:** "say the population" of real world cities.
 
-### Lesson 2 — Rounding to 10, 100 and 1000
-- **Duration:** 22 min
-- **Objective:** "By the end, I can round a number to the nearest 10, 100 or 1000." (Y4 number & place value)
-- **Hook:** "About how many people came? Sometimes 'about' is the best answer."
-- **Key activity:** On a number line, decide which two round numbers a value sits between, pick the nearer. The rule: look at the digit to the *right* of the rounding place; 5+ up, 4 or less down; the rest become 0.
-- **Check for understanding:** "Round 2,749 to the nearest 100." → 2,700.
-- **Differentiation:** support: a number line to see the nearer end (KB fix for "round always goes up"). / stretch: "which numbers round to 500 to the nearest 100?"
-- **Materials:** number lines, place-value chart.
-- **Joy:** "is it nearer the top or bottom of the hill?" rounding game.
+### Lesson 2 — Rounding large numbers and negatives in context
+- **Duration:** 28 min
+- **Objective:** "By the end, I can round large numbers and find a difference across zero." (Y5 number & place value)
+- **Hook:** "From −5 °C to 3 °C — how many degrees did it climb?"
+- **Key activity:** Round big numbers with the same rule (367,500 to nearest 100,000 → 400,000). Negatives in context: count across zero; difference from −4 to 5 = 9.
+- **Check for understanding:** "Round 367,500 to the nearest 100,000." → 400,000. "Difference from −4 to 5?" → 9.
+- **Differentiation:** support: a number line crossing zero (KB fix for rounding the wrong digit). / stretch: a temperature problem with two negatives.
+- **Materials:** number line, place-value chart.
+- **Joy:** model a thermometer's overnight swing across zero.
 
-### Lesson 3 — Negative numbers
-- **Duration:** 22 min
-- **Objective:** "By the end, I can count through zero and compare negative numbers." (Y4 number & place value)
-- **Hook:** "It's −2 °C outside — what does the minus mean?"
-- **Key activity:** Extend the number line left of 0. A thermometer model: below zero, bigger digit = lower number (−5 colder than −2). Count down through zero (2, 1, 0, −1, −2).
-- **Check for understanding:** "Which is colder, −3 °C or −7 °C?" → −7 °C.
-- **Differentiation:** support: read the thermometer (KB fix for "−5 > −2"). / stretch: find the difference between −3 and 4.
-- **Materials:** thermometer model, negative number line.
-- **Joy:** "lift to the basement" — floors −1, −2 below ground.
-
-### Lesson 4 — Roman numerals
-- **Duration:** 22 min
-- **Objective:** "By the end, I can read and write Roman numerals using the subtractive rule." (Y4 number & place value)
-- **Hook:** "Why does a clock say IV for 4 and a film say MMXXIV?"
-- **Key activity:** I=1, V=5, X=10, L=50, C=100, D=500, M=1000. Repeating adds (III=3); a smaller numeral before a bigger one subtracts (IV=4, IX=9, XL=40). Write 24 = XXIV; read years.
-- **Check for understanding:** "What is XL?" → 40.
-- **Differentiation:** support: the subtractive rule chart (KB fix for IIII). / stretch: write a recent year in Roman numerals.
-- **Materials:** Roman-numeral chart, a clock face.
-- **Joy:** write their own birth year in Roman numerals.
-
-**End-of-unit check:** (1) Partition 6,209 → 6000 + 200 + 0 + 9. (2) Round 4,350 to nearest 1000 → 4,000. (3) Colder: −3 or −7 °C → −7. (4) XL → 40.
+**End-of-unit check:** (1) Order 120,400; 102,400; 120,040 → 102,400; 120,040; 120,400. (2) Round 367,500 to nearest 100,000 → 400,000. (3) Difference −4 to 5 → 9. (4) Read 250,000 → two hundred and fifty thousand.
 
 ---
 
-## Unit 2 — Multiplication, division and tables fluency
+## Unit 2 — Number theory and written methods
 
-**Essential question:** Can I recall every table to 12 × 12 and use the written methods quickly?
+**Essential question:** How are numbers built from factors and primes, and how do we multiply and divide big numbers?
 
-**Key vocabulary:** times table, fact family, commutative, inverse, column multiplication, carry,
-short division, bus stop, remainder, estimate.
+**Key vocabulary:** multiple, factor, factor pair, prime, composite, square (²), cube (³), common
+factor, long multiplication, placeholder zero, short division, remainder, estimate.
 
-### Lesson 5 — Tables to 12 × 12 (building the new tables)
-- **Duration:** 28 min
-- **Objective:** "By the end, I can use known facts to find 6, 7, 9, 11 and 12 table facts." (Y4 multiplication & division)
-- **Hook:** "9 × 7 looks hard — but it's just 10 × 7 take away one 7."
-- **Key activity:** Build from the known: 6× = double 3×; 9× = 10× − 1× (9 × 7 = 70 − 7 = 63); 12× = 10× + 2×. Spot the 9-table pattern (digits sum to 9).
-- **Check for understanding:** "9 × 6 = ?" → 54.
-- **Differentiation:** support: write the helper fact first. / stretch: explain the 9s digit pattern.
-- **Materials:** multiplication grid, pattern cards.
-- **Joy:** the "10× minus 1×" trick that makes 9s easy.
+### Lesson 3 — Multiples and factors
+- **Duration:** 26 min
+- **Objective:** "By the end, I can list factor pairs and find multiples and common factors." (Y5 multiplication & division)
+- **Hook:** "How many ways can you arrange 12 objects into equal rows?"
+- **Key activity:** Find factors in pairs (12: 1&12, 2&6, 3&4). Multiples = the times table. Find common factors of two numbers.
+- **Check for understanding:** "List the factors of 12." → 1, 2, 3, 4, 6, 12.
+- **Differentiation:** support: build arrays to reveal factor pairs. / stretch: find common factors of 18 and 24.
+- **Materials:** counters, factor-pair cards.
+- **Joy:** "rows-and-arrays" hunt for every factor of a number.
 
-### Lesson 6 — MTC-style rapid recall
-- **Duration:** 24 min
-- **Objective:** "By the end, I can recall any fact to 12 × 12 quickly, both ways and as division." (Y4 multiplication & division)
-- **Hook:** "Beat the clock — the Multiplication Tables Check is all about speed."
-- **Key activity:** Timed mixed recall across all tables and divisions; commutativity halves the work (7 × 8 = 8 × 7). Track personal best.
-- **Check for understanding:** "7 × 8 = ?" → 56. "72 ÷ 12 = ?" → 6.
-- **Differentiation:** support: target the tricky facts (6, 7, 8) only. / stretch: full mixed grid, tighter timer.
-- **Materials:** timer, fact cards, mini-whiteboards.
-- **Joy:** "Hit the Button" MTC challenge against a personal best.
+### Lesson 4 — Primes, squares and cubes
+- **Duration:** 26 min
+- **Objective:** "By the end, I can identify primes and compute square and cube numbers." (Y5 multiplication & division)
+- **Hook:** "Why isn't 1 a prime number, even though it 'only divides by 1 and itself'?"
+- **Key activity:** Prime = exactly two factors (2, 3, 5, 7, 11…); 1 is not prime. Square: 5² = 5 × 5 = 25 (a square of dots). Cube: 3³ = 3 × 3 × 3 = 27 (a cube of blocks).
+- **Check for understanding:** "Is 7 prime?" → yes. "What is 4²? And 2³?" → 16; 8.
+- **Differentiation:** support: build a square of tiles and a cube of blocks (KB fix for "5² = 10"). / stretch: list primes under 20.
+- **Materials:** square tiles, cubes, hundred grid.
+- **Joy:** stack cubes into a literal cube number.
 
-### Lesson 7 — Column multiplication (× 1-digit)
-- **Duration:** 28 min
-- **Objective:** "By the end, I can multiply a 2- or 3-digit number by a 1-digit number in columns." (Y4 multiplication & division)
-- **Hook:** "243 seats in each of 3 sections — how many seats in all?"
-- **Key activity:** Estimate first (243 × 3 ≈ 720). Multiply each digit from the right, carrying: 3×3=9; 3×4=12 write 2 carry 1; 3×2=6+1=7 → 729.
-- **Check for understanding:** "134 × 4 = ?" → 536.
-- **Differentiation:** support: note the carry above the next column (KB fix for dropping the carry). / stretch: a 3-digit × 1-digit with two carries.
+### Lesson 5 — Long multiplication
+- **Duration:** 30 min
+- **Objective:** "By the end, I can multiply a 3-digit number by a 2-digit number with long multiplication." (Y5 multiplication & division)
+- **Hook:** "16 tickets at £24 each — what's the total cost?"
+- **Key activity:** Multiply by the ones, then by the tens (writing a 0 placeholder first), then add the two rows. 24 × 16 → 144 + 240 = 384. Estimate first (≈ 400).
+- **Check for understanding:** "23 × 14 = ?" → 322.
+- **Differentiation:** support: write the 0 placeholder before the tens row (KB fix for forgetting it). / stretch: 142 × 13.
 - **Materials:** columned paper, place-value chart.
-- **Joy:** check the answer lands close to the estimate.
+- **Joy:** the two rows "stack up" into one big answer.
 
-### Lesson 8 — Short division (bus stop)
+### Lesson 6 — Short division with remainders
 - **Duration:** 28 min
-- **Objective:** "By the end, I can divide using short division, carrying remainders." (Y4 multiplication & division)
-- **Hook:** "84 cards shared among 6 — how many each, fairly?"
-- **Key activity:** Bus-stop method: 96 ÷ 4 → 9 ÷ 4 = 2 r1 (carry 1 → 16); 16 ÷ 4 = 4 → 24. Estimate first; check by multiplying back.
-- **Check for understanding:** "84 ÷ 6 = ?" → 14.
-- **Differentiation:** support: carry the remainder to the next digit (KB fix for ignoring it). / stretch: a 3-digit ÷ 1-digit with remainders.
+- **Objective:** "By the end, I can divide with short division and express the remainder." (Y5 multiplication & division)
+- **Hook:** "738 sweets shared among 6 — how many each, and any left over?"
+- **Key activity:** Bus-stop division left to right, carrying remainders; express a final remainder as "r". 156 ÷ 4 = 39. Estimate first; check by multiplying back.
+- **Check for understanding:** "156 ÷ 4 = ?" → 39.
+- **Differentiation:** support: carry the remainder to the next digit (KB fix for dropping it). / stretch: 738 ÷ 6 with a remainder.
 - **Materials:** columned paper.
-- **Joy:** "carry the leftover" — pass the remainder along the bus stop.
+- **Joy:** "carry the leftover" along the bus stop.
 
-### Lesson 9 — Retrieval & fluency: multiplication and division
-- **Duration:** 20 min
-- **Objective:** "By the end, I can recall tables and use both written methods at speed." (Y4 multiplication & division — review)
-- **Hook:** "Maths sprint day — recall and method, back to back."
-- **Key activity:** Mixed quick-fire: 7 × 8, 9 × 6, 246 × 3, 132 ÷ 6, plus one fact family.
-- **Check for understanding:** "Estimate 312 × 3." → about 900.
-- **Differentiation:** support: grid / fact cards available. / stretch: timed, no tools.
-- **Materials:** mini-whiteboards, fact cards.
+### Lesson 7 — Retrieval & fluency: number theory and methods
+- **Duration:** 22 min
+- **Objective:** "By the end, I can quickly recall factors/primes/squares and use the written methods." (Y5 — review)
+- **Hook:** "Number-theory sprint — facts and methods in one round."
+- **Key activity:** Mixed quick-fire: "factors of 18", "is 13 prime?", "6²", "36 × 24", "245 ÷ 5".
+- **Check for understanding:** "Estimate 38 × 21." → about 800 (≈ 40 × 20).
+- **Differentiation:** support: hundred grid / columned paper available. / stretch: timed, no tools.
+- **Materials:** mini-whiteboards, hundred grid.
 - **Joy:** beat-your-own-time streak.
 
-**End-of-unit check:** (1) 7 × 8 → 56. (2) 9 × 6 → 54. (3) 134 × 4 → 536. (4) 84 ÷ 6 → 14. (5) 72 ÷ 12 → 6.
+**End-of-unit check:** (1) Factors of 12 → 1, 2, 3, 4, 6, 12. (2) Is 7 prime? → yes. (3) 4² and 2³ → 16; 8. (4) 23 × 14 → 322. (5) 156 ÷ 4 → 39.
 
 ---
 
-## Unit 3 — Decimals: tenths and hundredths
+## Unit 3 — Fractions: add, subtract and multiply
 
-**Essential question:** How does place value carry on to the right of the decimal point?
+**Essential question:** How do we add fractions with different denominators and multiply a fraction by a whole number?
 
-**Key vocabulary:** decimal point, tenths, hundredths, divide by 10, divide by 100, 100-square,
-equivalent fraction, compare.
+**Key vocabulary:** common denominator, equivalent, numerator, improper fraction, mixed number,
+multiply a fraction, simplify.
 
-### Lesson 10 — Tenths and hundredths
+### Lesson 8 — Adding and subtracting unlike denominators
+- **Duration:** 28 min
+- **Objective:** "By the end, I can add and subtract fractions by finding a common denominator." (Y5 fractions)
+- **Hook:** "½ a cup plus ¼ a cup — how much in total? They aren't the same size yet."
+- **Key activity:** Re-cut ½ into 2/4, now both are quarters: 2/4 + 1/4 = 3/4. For 1/3 + 1/4 → twelfths: 4/12 + 3/12 = 7/12. Multiply both top and bottom together.
+- **Check for understanding:** "1/2 + 1/4 = ?" → 3/4.
+- **Differentiation:** support: re-cut on a bar model (KB fix for "½ + ¼ = 2/6"). / stretch: 5/6 − 1/3.
+- **Materials:** fraction bars, fraction wall.
+- **Joy:** "re-cut to match" — slice a half into quarters and combine.
+
+### Lesson 9 — Improper fractions and mixed numbers
 - **Duration:** 26 min
-- **Objective:** "By the end, I can read tenths and hundredths and write them as fractions or decimals." (Y4 fractions — decimals)
-- **Hook:** "Money already uses decimals — £2.05 means what exactly?"
-- **Key activity:** A 100-square: one column = 0.1 (a tenth), one small square = 0.01 (a hundredth). Link: 0.7 = 7/10; 0.03 = 3/100; 0.5 = ½.
-- **Check for understanding:** "Write 7/10 as a decimal." → 0.7.
-- **Differentiation:** support: shade the 100-square to match. / stretch: write 0.25 as a fraction (= ¼).
-- **Materials:** 100-square grids, colouring pencils.
-- **Joy:** colour a hundredth and a tenth and see how tiny 0.01 is.
+- **Objective:** "By the end, I can convert between improper fractions and mixed numbers." (Y5 fractions)
+- **Hook:** "3/4 + 3/4 makes more than a whole — how do we write that?"
+- **Key activity:** 3/4 + 3/4 = 6/4 = 1½. Convert 5/4 = 1¼; 7/3 = 2⅓. Practise both directions.
+- **Check for understanding:** "3/4 + 3/4 = ?" → 6/4 = 1½.
+- **Differentiation:** support: shade bars past one whole. / stretch: convert 11/4 to a mixed number.
+- **Materials:** fraction bars.
+- **Joy:** "fill past the whole" and rename the leftover.
 
-### Lesson 11 — Dividing by 10 and 100
-- **Duration:** 24 min
-- **Objective:** "By the end, I can divide by 10 and 100 by moving the digits, not the point." (Y4 fractions — decimals)
-- **Hook:** "Where does the 4 go when you share it among 10?"
-- **Key activity:** ÷10 moves every digit *one* place right (4 → 0.4; 36 → 3.6); ÷100 moves two places. The point stays put — the digits move.
-- **Check for understanding:** "What is 26 ÷ 10?" → 2.6.
-- **Differentiation:** support: a place-value chart to slide digits (KB fix for "4 ÷ 10 = 0.04"). / stretch: 36 ÷ 100.
-- **Materials:** place-value chart, digit cards.
-- **Joy:** "slide the digits" along the chart and watch them shrink.
+### Lesson 10 — Multiplying a fraction by a whole number
+- **Duration:** 26 min
+- **Objective:** "By the end, I can multiply a fraction by a whole number by multiplying the numerator." (Y5 fractions)
+- **Hook:** "Three portions of ⅖ of a pizza — how much pizza is that?"
+- **Key activity:** ⅖ × 3 = 6/5 = 1⅕ (multiply the numerator, keep the denominator). Pictorial: repeated copies of the bar.
+- **Check for understanding:** "¾ × 2 = ?" → 6/4 = 1½.
+- **Differentiation:** support: lay out repeated bars (KB fix for "6/15"). / stretch: ⅖ × 4 and simplify.
+- **Materials:** fraction bars.
+- **Joy:** stack copies of a fraction bar to pass a whole.
 
-### Lesson 12 — Comparing and ordering decimals
-- **Duration:** 22 min
-- **Objective:** "By the end, I can compare and order decimals by place value." (Y4 fractions — decimals)
-- **Hook:** "Is 0.45 bigger than 0.5? Careful — it's a trap!"
-- **Key activity:** Line up by place: 0.5 = 0.50; 50 hundredths > 45 hundredths, so 0.5 > 0.45. Order a set of decimals.
-- **Check for understanding:** "Which is bigger, 0.3 or 0.25?" → 0.3.
-- **Differentiation:** support: equalise places with a trailing zero (KB fix for "45 > 5"). / stretch: order four decimals with mixed places.
-- **Materials:** decimal cards, place-value chart.
-- **Joy:** "spot the trap" — beat the 0.45-vs-0.5 illusion.
-
-**End-of-unit check:** (1) Write 7/10 as a decimal → 0.7. (2) 26 ÷ 10 → 2.6. (3) Which is bigger, 0.3 or 0.25? → 0.3. (4) Write 3/100 as a decimal → 0.03.
+**End-of-unit check:** (1) 1/2 + 1/4 → 3/4. (2) 5/6 − 1/3 → 1/2. (3) 3/4 + 3/4 → 6/4 = 1½. (4) ¾ × 2 → 6/4 = 1½.
 
 ---
 
-## Unit 4 — Fractions: equivalence and amounts
+## Unit 4 — Decimals to 3 places and percentages
 
-**Essential question:** How do we make equivalent fractions and find a fraction of an amount?
+**Essential question:** How do decimals reach thousandths, and what does "percent" mean?
 
-**Key vocabulary:** equivalent, multiply top and bottom, numerator, denominator, fraction of an
-amount, improper, mixed number.
+**Key vocabulary:** thousandths, decimal point, line up the places, percent, per hundred,
+10% / 1% building blocks, equivalence (FDP).
 
-### Lesson 13 — Equivalent fractions
+### Lesson 11 — Decimals to three places
+- **Duration:** 26 min
+- **Objective:** "By the end, I can read, write and order decimals to three places." (Y5 fractions — decimals)
+- **Hook:** "A race time of 1.250 seconds — what is that third decimal place worth?"
+- **Key activity:** The third place is thousandths (0.001). Convert: 0.4 = 4/10, 0.04 = 4/100, 0.004 = 4/1000. Order by giving the same number of places (0.5 = 0.500).
+- **Check for understanding:** "Write 0.007 as a fraction." → 7/1000.
+- **Differentiation:** support: equalise places with trailing zeros (KB fix for "0.5 < 0.45"). / stretch: order 0.3, 0.25, 0.305.
+- **Materials:** place-value chart with thousandths, decimal cards.
+- **Joy:** compare precise race times to the thousandth.
+
+### Lesson 12 — Introducing percentages
 - **Duration:** 24 min
-- **Objective:** "By the end, I can make equivalent fractions by multiplying or dividing top and bottom." (Y4 fractions)
-- **Hook:** "How many different names can ¾ have?"
-- **Key activity:** ×/÷ top and bottom by the same number keeps the value (½ = 3/6 by ×3; ¾ = 6/8, 9/12). Confirm on a fraction wall.
-- **Check for understanding:** "Make a fraction equivalent to ¾." → e.g. 6/8, 9/12.
-- **Differentiation:** support: read off the wall. / stretch: simplify a fraction back down.
-- **Materials:** fraction wall, fraction cards.
-- **Joy:** "the fraction with many names" challenge.
+- **Objective:** "By the end, I can explain that percent means 'out of 100' and link % to fractions and decimals." (Y5 fractions — percentages)
+- **Hook:** "30% off in the sale — what does that 30 really mean?"
+- **Key activity:** Percent = per hundred; shade a 100-square. Key set: 50% = ½ = 0.5; 25% = ¼ = 0.25; 10% = 1/10 = 0.1. Convert % ↔ fraction ↔ decimal.
+- **Check for understanding:** "Write 25% as a fraction and a decimal." → ¼ and 0.25.
+- **Differentiation:** support: shade the 100-square to match each form. / stretch: convert 12.5% to a fraction.
+- **Materials:** 100-square grids, FDP cards.
+- **Joy:** "three names, one amount" matching game.
 
-### Lesson 14 — Fractions of an amount
-- **Duration:** 24 min
-- **Objective:** "By the end, I can find a fraction of an amount by dividing by the bottom and multiplying by the top." (Y4 fractions)
-- **Hook:** "⅗ of a team of 20 players — how many is that?"
-- **Key activity:** ⅗ of 20: 20 ÷ 5 = 4 (one fifth), × 3 = 12. Rule: "divide by the bottom, times by the top." Same-denominator addition can pass a whole (¾ + 2/4 = 5/4 = 1¼).
-- **Check for understanding:** "⅔ of 12 = ?" → 8.
-- **Differentiation:** support: deal into the denominator's piles first (KB fix for dividing by the numerator). / stretch: convert an improper answer to a mixed number.
-- **Materials:** counters, sharing mats.
-- **Joy:** share a "team" into fractional groups.
+### Lesson 13 — Percentage of an amount
+- **Duration:** 26 min
+- **Objective:** "By the end, I can find a percentage of an amount using 10% and 1% building blocks." (Y5 fractions — percentages)
+- **Hook:** "20% off a £150 game — how much do you save?"
+- **Key activity:** Find 10% (÷10) and 1% (÷100), then build up. 30% of 80 = 3 × 8 = 24. Check against the ¼ benchmark.
+- **Check for understanding:** "Find 20% of 150." → 30.
+- **Differentiation:** support: 25% = ¼ (÷4) for quarters (KB fix for "60 ÷ 25"). / stretch: 35% using 10% + 10% + 10% + 5%.
+- **Materials:** mini-whiteboards, 100-square.
+- **Joy:** work out real sale discounts.
 
-### Lesson 15 — Retrieval & fluency: fractions and decimals
-- **Duration:** 20 min
-- **Objective:** "By the end, I can quickly convert and calculate with fractions and decimals." (Y4 fractions — review)
-- **Hook:** "Fraction–decimal quick-fire — switch between them fast."
-- **Key activity:** Mixed: "7/10 as a decimal", "⅔ of 12", "equivalent to ¾", "order 0.3, 0.25, 0.4".
-- **Check for understanding:** "5/6 − 2/6 = ?" → 3/6 (= ½).
-- **Differentiation:** support: fraction wall / 100-square available. / stretch: timed, no tools.
-- **Materials:** mini-whiteboards, fraction wall.
+### Lesson 14 — Retrieval & fluency: decimals and percentages
+- **Duration:** 22 min
+- **Objective:** "By the end, I can quickly convert and calculate with decimals and percentages." (Y5 — review)
+- **Hook:** "FDP quick-fire — switch between the three forms fast."
+- **Key activity:** Mixed: "10% of 50", "25% as a decimal", "order 0.3, 0.25, 0.305", "0.007 as a fraction".
+- **Check for understanding:** "What is 10% of 50?" → 5.
+- **Differentiation:** support: 100-square / FDP card available. / stretch: timed, no tools.
+- **Materials:** mini-whiteboards, FDP cards.
 - **Joy:** streak counter.
 
-**End-of-unit check:** (1) Equivalent to ¾ → e.g. 6/8. (2) ⅔ of 12 → 8. (3) 5/6 − 2/6 → 3/6 (½). (4) 7/10 as a decimal → 0.7.
+**End-of-unit check:** (1) 0.007 as a fraction → 7/1000. (2) 25% as fraction and decimal → ¼, 0.25. (3) 20% of 150 → 30. (4) Order 0.3, 0.25, 0.305 → 0.25, 0.3, 0.305.
 
 ---
 
-## Unit 5 — Area and perimeter
+## Unit 5 — Area, perimeter and volume
 
-**Essential question:** What is the difference between the distance around a shape and the space inside it?
+**Essential question:** How do we find the area of composite shapes and the volume of a solid?
 
-**Key vocabulary:** perimeter, area, square unit, cm², length, width, count squares, length × width.
+**Key vocabulary:** composite shape, split into rectangles, volume, cubic unit, cm³, layer,
+length × width × height.
 
-### Lesson 16 — Area by counting squares
-- **Duration:** 24 min
-- **Objective:** "By the end, I can find the area of a rectangle by counting squares." (Y4 measurement)
-- **Hook:** "How many tiles cover this floor? Let's count them."
-- **Key activity:** Concrete: cover a 4-by-3 rectangle with 1 cm squares and count = 12. Area is measured in **square units** (cm²). Distinguish from perimeter (the fence vs the grass).
-- **Check for understanding:** "What units do we use for area?" → square units (cm²).
-- **Differentiation:** support: count every inside square (KB fix for counting only edges). / stretch: find area of an irregular grid shape by counting.
-- **Materials:** cm-square tiles, grid paper.
-- **Joy:** tile a rectangle and watch the squares fill it.
-
-### Lesson 17 — Area = length × width; perimeter together
+### Lesson 15 — Area of composite shapes
 - **Duration:** 26 min
-- **Objective:** "By the end, I can calculate area with length × width and keep it separate from perimeter." (Y4 measurement)
-- **Hook:** "Fence for the garden, turf for the inside — which is which?"
-- **Key activity:** A 5 cm × 3 cm rectangle: perimeter = 5 + 3 + 5 + 3 = 16 cm; area = 5 × 3 = 15 cm². Solve a missing-side problem (area 12, one side 3 → other side 4).
-- **Check for understanding:** "Area of a 6 cm × 4 cm rectangle?" → 24 cm². "Perimeter?" → 20 cm.
-- **Differentiation:** support: perimeter = walk the edge, area = fill inside; different units (KB fix for confusing them). / stretch: "area 12 cm², one side 3 — find the other."
-- **Materials:** grid paper, ruler, labelled rectangles.
-- **Joy:** design a garden, then cost the fence and the turf.
+- **Objective:** "By the end, I can find the area of an L-shape by splitting it into rectangles." (Y5 measurement)
+- **Hook:** "Carpeting an L-shaped room — how much carpet do we buy?"
+- **Key activity:** Split an L-shape into two rectangles, find each area, add them. A 5×2 plus a 2×2 = 10 + 4 = 14 cm².
+- **Check for understanding:** "Area of an L-shape made of a 4×3 plus a 2×2?" → 16 cm².
+- **Differentiation:** support: draw the split line first (KB fix for bounding-box error). / stretch: a three-rectangle composite.
+- **Materials:** grid paper, labelled L-shapes.
+- **Joy:** "carpet the room" with the right amount.
 
-**End-of-unit check:** (1) Area of a 6 × 4 rectangle → 24 cm². (2) Perimeter of the same → 20 cm. (3) Units for area → cm² (square units). (4) Area 12 cm², one side 3 → other side 4 cm.
+### Lesson 16 — Volume of cuboids
+- **Duration:** 28 min
+- **Objective:** "By the end, I can find the volume of a cuboid by counting cubes and by l × w × h." (Y5 measurement)
+- **Hook:** "How many sugar cubes fill this box?"
+- **Key activity:** Concrete: build a 3×2×2 cuboid from cm cubes — 6 per layer × 2 layers = 12 cm³. Abstract: volume = length × width × height. Units: cm (length), cm² (area), cm³ (volume).
+- **Check for understanding:** "Volume of a 2 cm × 2 cm × 3 cm cuboid?" → 12 cm³.
+- **Differentiation:** support: count the cubes layer by layer (KB fix for multiplying only two dimensions). / stretch: 4 × 3 × 2 cuboid.
+- **Materials:** cm cubes, cuboid nets/boxes.
+- **Joy:** fill a box with cubes and count the layers.
+
+**End-of-unit check:** (1) Volume of a 2×2×3 cuboid → 12 cm³. (2) Units for volume → cm³. (3) Area of an L-shape (4×3 + 2×2) → 16 cm². (4) Volume of a 4×3×2 cuboid → 24 cm³.
 
 ---
 
-## Unit 6 — Coordinates and translation
+## Unit 6 — Angles: measuring and drawing
 
-**Essential question:** How do we describe an exact position on a grid and slide a shape?
+**Essential question:** How do we measure angles in degrees and use angle facts to find missing angles?
 
-**Key vocabulary:** coordinate, axis, origin, x (across), y (up), translation, slide, plot.
+**Key vocabulary:** degree (°), protractor, full turn 360°, straight line 180°, around a point,
+acute, right, obtuse, reflex, missing angle.
 
-### Lesson 18 — Plotting coordinates (x, y)
+### Lesson 17 — Degrees and angle facts
+- **Duration:** 24 min
+- **Objective:** "By the end, I can use that a straight line is 180° and a point is 360° to find missing angles." (Y5 geometry)
+- **Hook:** "Two angles share a straight line; one is 130° — what's the other?"
+- **Key activity:** Full turn = 360°, straight line = 180°, right angle = 90°. Missing angle on a line = 180 − known; around a point = 360 − known. Classify acute/right/obtuse/reflex.
+- **Check for understanding:** "Angles on a straight line: one is 110°, find the other." → 70°.
+- **Differentiation:** support: distinguish straight line (180) from full turn (360) (KB fix). / stretch: two known angles around a point.
+- **Materials:** angle cards, straight-line and point diagrams.
+- **Joy:** "complete the turn" puzzles.
+
+### Lesson 18 — Measuring and drawing with a protractor
+- **Duration:** 28 min
+- **Objective:** "By the end, I can measure and draw an angle to the nearest degree with a protractor." (Y5 geometry)
+- **Hook:** "A protractor has two number scales — how do we pick the right one?"
+- **Key activity:** Line the centre on the vertex and 0° along one arm; read the scale that starts at 0 on that arm. Measure given angles; draw a 60° angle.
+- **Check for understanding:** "Is 200° acute, obtuse or reflex?" → reflex.
+- **Differentiation:** support: an acute angle must read under 90 (KB fix for the wrong scale). / stretch: measure a reflex angle.
+- **Materials:** protractors, angle worksheets.
+- **Joy:** draw a precise angle and check it measures exactly.
+
+**End-of-unit check:** (1) Degrees in a right angle → 90°. (2) On a straight line, one is 110° → other 70°. (3) Is 200° reflex? → yes. (4) Full turn → 360°.
+
+---
+
+## Unit 7 — Polygons, reflection and translation
+
+**Essential question:** What makes a polygon regular, and how do reflection and translation move shapes?
+
+**Key vocabulary:** polygon, regular, irregular, equal sides, equal angles, reflect, mirror line,
+translate, slide, vector, coordinate.
+
+### Lesson 19 — Regular and irregular polygons
 - **Duration:** 22 min
-- **Objective:** "By the end, I can plot and read coordinates, going across then up." (Y4 geometry — position)
-- **Hook:** "The treasure is at (3, 2) — where do we dig?"
-- **Key activity:** "Along the corridor (x), then up the stairs (y)." Plot (4, 1) = 4 right, 1 up. Stress order: (3, 2) ≠ (2, 3).
-- **Check for understanding:** "Which comes first in (5, 2)?" → the 5 (across / x).
-- **Differentiation:** support: a giant floor grid to walk. / stretch: name the coordinates of a shape's vertices.
-- **Materials:** coordinate grids, floor grid.
-- **Joy:** play a Battleships-style grid game against the tutor.
+- **Objective:** "By the end, I can sort polygons into regular and irregular." (Y5 geometry)
+- **Hook:** "A stop sign and a kite both have straight sides — but only one is 'regular'."
+- **Key activity:** Regular = all sides equal AND all angles equal (equilateral triangle, square, regular hexagon). Irregular = not all equal. Sort a set; check a rhombus (equal sides, unequal angles → irregular).
+- **Check for understanding:** "Is a square a regular polygon?" → yes (equal sides and angles).
+- **Differentiation:** support: check both sides and angles (KB fix for "equal sides = regular"). / stretch: name a regular octagon's properties.
+- **Materials:** polygon cards, ruler/protractor.
+- **Joy:** "regular or imposter?" sorting game.
 
-### Lesson 19 — Translating shapes
+### Lesson 20 — Reflection across an axis
+- **Duration:** 24 min
+- **Objective:** "By the end, I can reflect a point or shape across an axis." (Y5 geometry — position)
+- **Hook:** "Your reflection in a mirror — how far is it behind the glass?"
+- **Key activity:** Reflect across the y-axis: same height, flip the x sign → (2, 3) becomes (−2, 3). The image is the same distance from the mirror line, other side. Reflection keeps size and shape.
+- **Check for understanding:** "Reflect (3, 1) across the x-axis." → (3, −1).
+- **Differentiation:** support: measure equal distances either side (KB fix for wrong distance). / stretch: reflect a triangle's three vertices.
+- **Materials:** coordinate grids, small mirrors.
+- **Joy:** check a reflection with a real mirror on the grid.
+
+### Lesson 21 — Translation by a vector
 - **Duration:** 22 min
-- **Objective:** "By the end, I can translate a point or shape by a given number of squares." (Y4 geometry — position)
-- **Hook:** "Slide the game piece 3 right and 2 up — where does it land?"
-- **Key activity:** Translation slides every point the same way, no turning or resizing. Translate (4, 1) by 2 left and 3 up → (2, 4).
-- **Check for understanding:** "Translate (1, 1) by 3 right, 1 up." → (4, 2).
-- **Differentiation:** support: move each vertex one at a time. / stretch: describe the translation between two given shapes.
+- **Objective:** "By the end, I can translate a shape by a given number of squares right/left and up/down." (Y5 geometry — position)
+- **Hook:** "Slide the wallpaper pattern across — every point moves the same way."
+- **Key activity:** Translate every vertex the same amount; no flip or turn. e.g. 3 right, 2 up. Contrast with reflection (which flips).
+- **Check for understanding:** "Does reflecting change a shape's size?" → no — only its position/orientation.
+- **Differentiation:** support: move one vertex at a time. / stretch: describe the translation between two shapes.
 - **Materials:** coordinate grids, cut-out shapes.
-- **Joy:** "slide the spaceship" across the grid without turning it.
+- **Joy:** create a sliding, repeating wallpaper pattern.
 
-**End-of-unit check:** (1) Which comes first in (5, 2)? → the 5 (x). (2) Plot (2, 3): describe the move → 2 right, 3 up. (3) Translate (1, 1) by 3 right, 1 up → (4, 2). (4) Does translation turn the shape? → no.
+**End-of-unit check:** (1) Is a square regular? → yes. (2) Reflect (3, 1) across the x-axis → (3, −1). (3) Does reflection change size? → no. (4) Translate a shape 3 right, 2 up → every point shifts the same.
 
 ---
 
-## Unit 7 — Statistics: line graphs and tables
+## Unit 8 — Statistics and year-end consolidation
 
-**Essential question:** How do we read change over time and find values in a table?
+**Essential question:** How do we read graphs and timetables, and can I bring all Year 4 maths together?
 
-**Key vocabulary:** line graph, time axis, value axis, rise, fall, flat, trend, two-way table,
-row, column.
+**Key vocabulary:** line graph, intermediate value, timetable, departure, arrival, duration,
+crossing the hour, mean.
 
-### Lesson 20 — Reading line graphs
-- **Duration:** 22 min
-- **Objective:** "By the end, I can read values and changes from a line graph." (Y4 statistics)
-- **Hook:** "How did the temperature change through the day? The line tells the story."
-- **Key activity:** Read like coordinates — up from the time, across to the value. Rising = increasing, falling = decreasing, flat = no change. At 9 am 12 °C, 1 pm 18 °C → rose 6 °C.
-- **Check for understanding:** "On a line graph, what does a rising line mean?" → the value is increasing over time.
-- **Differentiation:** support: trace up-then-across; check the scale interval (KB fix). / stretch: find the steepest rise.
+### Lesson 22 — Interpreting line graphs
+- **Duration:** 24 min
+- **Objective:** "By the end, I can read intermediate values from a line graph." (Y5 statistics)
+- **Hook:** "The graph only marks 8 am and noon — can we still find the value at 10 am?"
+- **Key activity:** Because data is continuous, read *between* points. Trace up from a time to the line and across to the value. Find changes (8 °C → 20 °C = rose 12 °C).
+- **Check for understanding:** "On a line graph, value rose 5 → 11 — by how much?" → 6.
+- **Differentiation:** support: use a ruler to trace up-then-across (KB fix for "exact points only"). / stretch: estimate a between-points value.
 - **Materials:** line-graph cards, ruler.
-- **Joy:** "read the story" of a day's temperature.
+- **Joy:** "read the in-between moment" on a temperature graph.
 
-### Lesson 21 — Two-way tables
-- **Duration:** 22 min
-- **Objective:** "By the end, I can find a value in a two-way table and compare rows." (Y4 statistics)
-- **Hook:** "A timetable is just a table — can you find the right cell?"
-- **Key activity:** Read the correct row and column to find a value; compare across rows; total a row or column.
-- **Check for understanding:** "Find the value where 'Tuesday' row meets 'Maths' column." → that cell's value.
-- **Differentiation:** support: run a finger along the row and down the column to the cell. / stretch: answer a difference question across two cells.
-- **Materials:** sample two-way tables.
-- **Joy:** find your favourite lesson in your own weekly timetable.
+### Lesson 23 — Reading timetables
+- **Duration:** 24 min
+- **Objective:** "By the end, I can work out journey durations from a timetable, including across the hour." (Y5 statistics)
+- **Hook:** "Which bus gets me to school before 9 — and how long is the ride?"
+- **Key activity:** Each column a service, each row a stop. Duration = arrival − departure; count up across the hour (09:50 → 10:20 = 30 min). Solve "before X?" problems.
+- **Check for understanding:** "A bus leaves 10:15, arrives 10:50 — journey time?" → 35 minutes.
+- **Differentiation:** support: count up in chunks across the hour (KB fix for "70 minutes"). / stretch: compare two routes' durations.
+- **Materials:** sample bus/train timetables.
+- **Joy:** plan a real journey from a timetable.
 
-### Lesson 22 — Retrieval & fluency: data
+### Lesson 24 — Retrieval & fluency: data
 - **Duration:** 20 min
-- **Objective:** "By the end, I can quickly read line graphs and tables." (Y4 statistics — review)
-- **Hook:** "Data quick-fire — graphs and tables back to back."
-- **Key activity:** Mixed: "value at 2 pm?", "how much did it rise 10 → 16?", "which day had most?", "flat line means?"
-- **Check for understanding:** "Temperature went 10 → 16 — how much did it rise?" → 6.
-- **Differentiation:** support: graph and table in view. / stretch: explain each reading.
-- **Materials:** graph/table cards, mini-whiteboards.
+- **Objective:** "By the end, I can quickly read line graphs and timetables." (Y5 statistics — review)
+- **Hook:** "Data quick-fire — graphs and timetables back to back."
+- **Key activity:** Mixed: "value at 11 am?", "rise 5 → 11?", "journey 14:35 to 15:10?", "earliest departure?"
+- **Check for understanding:** "Journey 14:35 to 15:10?" → 35 minutes.
+- **Differentiation:** support: graph and timetable in view. / stretch: explain each reading.
+- **Materials:** graph/timetable cards, mini-whiteboards.
 - **Joy:** streak counter.
 
-**End-of-unit check:** (1) Rising line means → value increasing. (2) Value at 2 pm reads 15 → 15. (3) Temperature 10 → 16 → rose 6. (4) Find a cell in a two-way table → correct value.
-
----
-
-## Unit 8 — Year-end consolidation
-
-**Essential question:** Can I combine all Year 4 maths to solve multi-step problems and check my work?
-
-**Key vocabulary:** (all year vocabulary revisited) rounding, tables, decimals, area, coordinates,
-line graph.
-
-### Lesson 23 — Reasoning with number and calculation
-- **Duration:** 26 min
-- **Objective:** "By the end, I can solve multi-step problems and check by rounding." (Y4 — review)
-- **Hook:** "Estimate first, then prove it exactly — can your guess catch a slip?"
-- **Key activity:** Multi-step worded problems with the four operations; round to estimate, then compute and check. e.g. "246 × 3, then round to nearest 100."
-- **Check for understanding:** "246 × 3, rounded to the nearest 100?" → 700 (738 → 700).
+### Lesson 25 — Reasoning: number and calculation
+- **Duration:** 28 min
+- **Objective:** "By the end, I can solve multi-step number problems and check by estimating." (Y5 — review)
+- **Hook:** "Two operations, one answer — estimate, then prove it."
+- **Key activity:** Multi-step worded problems using long ×, short ÷, fractions and percentages; estimate, solve, check. e.g. "24 × 16, then find 25% of it."
+- **Check for understanding:** "24 × 16, then 25% of the result?" → 96 (384 × ¼).
 - **Differentiation:** support: one step at a time with prompts. / stretch: a three-step problem.
 - **Materials:** problem cards, columned paper.
-- **Joy:** beat your own estimate against the exact answer.
+- **Joy:** crack the chained puzzle.
 
-### Lesson 24 — Reasoning with measure and data
-- **Duration:** 24 min
-- **Objective:** "By the end, I can solve problems mixing area, coordinates and data." (Y4 — review)
-- **Hook:** "Plan and measure a garden, then chart its growth."
-- **Key activity:** "Area of a 7 × 4 plot"; "plot its corners as coordinates"; "read the plant-height line graph". Combine in one scenario.
-- **Check for understanding:** "Area of a 7 cm × 4 cm plot?" → 28 cm².
-- **Differentiation:** support: grid and ruler to hand. / stretch: a problem needing both area and a coordinate.
-- **Materials:** grid paper, ruler, graph card.
-- **Joy:** design and "grow" a garden across the lesson.
+### Lesson 26 — Reasoning: measure and geometry
+- **Duration:** 28 min
+- **Objective:** "By the end, I can solve problems mixing area/volume, angles and coordinates." (Y5 — review)
+- **Hook:** "Design a box and a room — find volume, area and a missing angle."
+- **Key activity:** "Volume of a 4×3×2 box"; "area of an L-shaped room"; "missing angle on a line"; "reflect a corner". Combine in one design scenario.
+- **Check for understanding:** "Volume of a 4 × 3 × 2 box?" → 24 cm³.
+- **Differentiation:** support: cubes and a protractor to hand. / stretch: a two-concept problem.
+- **Materials:** cubes, grid paper, protractor.
+- **Joy:** design a model room with measurements.
 
-### Lesson 25 — Year 4 maths challenge & review
-- **Duration:** 24 min
-- **Objective:** "By the end, I can show what I have mastered across the whole year." (Y4 — review)
-- **Hook:** "The Year 4 maths champion circuit — and the MTC speed badge!"
-- **Key activity:** Station rotation: place value/rounding, a tables sprint, column × and short ÷, a decimal, area, a coordinate, a line graph. Self-check.
-- **Check for understanding:** "Which station felt fastest now versus the start of the year?" → child reflects.
+### Lesson 27 — Year 4 maths challenge & review
+- **Duration:** 26 min
+- **Objective:** "By the end, I can show what I have mastered across the whole year." (Y5 — review)
+- **Hook:** "The Year 4 maths champion circuit — every strand in one go!"
+- **Key activity:** Station rotation: place value to a million, primes/squares, long ×, fractions, percentages, volume, angles, a graph. Self-check.
+- **Check for understanding:** "Which strand grew the most this year?" → child reflects.
 - **Differentiation:** support: choose stations they feel ready for. / stretch: design a challenge for the tutor.
-- **Materials:** station cards, manipulatives, timer.
-- **Joy:** earn a "Year 4 maths champion" badge plus an MTC speed star.
+- **Materials:** station cards, manipulatives, answer cards.
+- **Joy:** earn a "Year 4 maths champion" badge.
 
-**End-of-unit check:** (1) Round 2,749 to nearest 100 → 2,700. (2) 9 × 6 → 54. (3) 134 × 4 → 536. (4) Area of a 6 × 4 → 24 cm². (5) Translate (1, 1) by 3 right, 1 up → (4, 2).
+**End-of-unit check:** (1) Journey 10:15 to 10:50 → 35 min. (2) 24 × 16 → 384. (3) 20% of 150 → 30. (4) Volume of a 2×2×3 cuboid → 12 cm³. (5) Reflect (3, 1) across the x-axis → (3, −1).
 
 ---
 
@@ -359,11 +383,11 @@ line graph.
 
 Spanning the whole year — a child secure in Year 4 maths can:
 
-1. **Place value to 10,000:** partition (6,209 → 6000 + 200 + 0 + 9) and compare four-digit numbers.
-2. **Rounding & number systems:** round to 10/100/1000, compare negatives (−7 colder than −3), and read Roman numerals (XL → 40).
-3. **Tables to 12 × 12:** recall any fact quickly both ways and as division (7 × 8 → 56; 72 ÷ 12 → 6).
-4. **Written × and ÷:** column-multiply (134 × 4 → 536) and short-divide (84 ÷ 6 → 14), estimating first.
-5. **Decimals:** read tenths/hundredths, divide by 10/100 (26 ÷ 10 → 2.6), and compare decimals (0.3 > 0.25).
-6. **Fractions:** make equivalents (¾ = 6/8) and find a fraction of an amount (⅔ of 12 → 8).
-7. **Area & perimeter:** find area (6 × 4 → 24 cm²) and perimeter (→ 20 cm), keeping the units distinct.
-8. **Coordinates & data:** plot/translate coordinates ((1,1)→(4,2)) and read line graphs and two-way tables.
+1. **Place value to a million:** read, compare and order six-digit numbers, round large numbers, and find differences across zero.
+2. **Number theory:** list factors, identify primes (7 → prime; 1 → not), and compute squares and cubes (4² → 16; 2³ → 8).
+3. **Written methods:** long-multiply (24 × 16 → 384) and short-divide with remainders (156 ÷ 4 → 39).
+4. **Fractions:** add/subtract unlike denominators (½ + ¼ → ¾), convert improper↔mixed, and multiply by a whole number (¾ × 2 → 1½).
+5. **Decimals & percentages:** order decimals to 3 places, and find a percentage of an amount (20% of 150 → 30).
+6. **Area & volume:** find composite area (L-shape → 16 cm²) and volume of a cuboid (2×2×3 → 12 cm³).
+7. **Angles & shape:** measure/draw with a protractor, use 180°/360° to find missing angles, and reflect/translate shapes.
+8. **Statistics:** read intermediate values on a line graph and work out journey times from a timetable (10:15 to 10:50 → 35 min).

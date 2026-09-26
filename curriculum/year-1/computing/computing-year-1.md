@@ -1,4 +1,4 @@
-# Computing — Year 1 (ages 5–6, KS1) — Lesson Outlines
+# Computing — Year 1 (ages 6–7, KS1) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Year 1 scope drawn from `knowledge-base/subjects/computing-life-skills/computing-ks1-ks2.md`
@@ -7,277 +7,262 @@
 
 ## Year overview
 
-Year 1 computing begins **away from the screen**. Before children ever touch a floor robot
-or a tablet, they learn that an **algorithm** is just a precise list of steps in the right
-order — building computational thinking through recipes, routines, dances and "literal
-robot" games. From there they meet their first real programs: directing a **floor robot**
-(Bee-Bot style) and snapping **blocks** together in a ScratchJr-style tool, learning to
-predict what their instructions will do and to spot and fix a simple mistake. Alongside
-the computer-science thread runs a **digital-literacy** thread: technology is a *tool* with
-a *purpose*, and children practise the everyday skills of logging in, using a mouse and
-keyboard, and creating and saving their own digital content. The year closes — warmly and
-without fear — with the foundations of **online safety**: be kind, keep personal things
-private, and *always tell a trusted adult* if anything worries you. The arc moves from
-**computational thinking unplugged → simple programming → using technology safely and well**.
+Year 1 **finishes Key Stage 1** and sharpens everything Foundation began. Across the three
+strands the work gets more precise, more independent and a little longer. In **computer
+science**, the child now writes *clearer, longer algorithms*, decomposes a big task into small
+steps, and becomes a confident **debugger** — predicting, running, spotting and fixing a
+single wrong step, first unplugged, then on a floor robot, then on screen. In **programming**
+they move from Foundation's first blocks to building and improving a real **on-screen program
+with a sprite** (ScratchJr-style): a sequence that starts on an event and reaches a goal,
+which they then make better. In **information technology** they create **digital content
+with a purpose and an audience** — text *and* pictures together — and meet their first
+**data**: collecting it, organising it into a tally and pictogram, and answering questions
+from it. The **digital-literacy / online-safety** thread deepens from Foundation: still warm and
+reassuring, but now adding **age-appropriate choices** (age ratings) and firmer practice of
+privacy, kindness and the worry plan.
 
-The year runs to **20 lessons** across **5 units**, each lesson 20–40 minutes, weighted
-heavily toward unplugged, hands-on doing.
+How it builds on Foundation: Foundation met the *word* algorithm and pressed a robot's buttons; Year 1
+**writes** algorithms, **debugs** them deliberately, and turns them into a sprite program it
+can improve. Foundation created and saved a single picture; Year 1 combines text and image **for
+an audience** and begins **handling data**. Online safety moves from "be kind, keep private,
+tell an adult" to *also* judging what content is right for me.
 
----
-
-## Unit 1 — Algorithms unplugged
-
-**Essential question:** What is a precise instruction, and why does the order matter?
-
-**Key vocabulary:** algorithm, step, instruction, order, sequence, first/next/then/last,
-precise, robot.
-
-### Lesson 1 — What is an algorithm?
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say what an algorithm is and give one for an everyday task."
-- **Hook:** "How does a grown-up know exactly how to make your favourite sandwich? They follow a secret list of steps!"
-- **Key activity:** Together, build the jam-sandwich algorithm aloud (get two slices → spread jam → put slices together → cut in half). Children act out each step on a carpet "kitchen." Then each child gives a 3–4 step algorithm for a task they know (brushing teeth, getting dressed).
-- **Check for understanding:** "Give me the algorithm for making toast." → Any sensible *ordered* list, e.g. get bread → put it in the toaster → push it down → wait → take it out.
-- **Differentiation:** support: give 3 picture cards to put in order. / stretch: add a missing step a friend forgot and explain why it matters.
-- **Materials:** picture-step cards (sandwich, teeth, dressing), play food, carpet space.
-- **Joy:** acting out the steps as a "human kitchen," cutting an imaginary sandwich with a flourish.
-
-### Lesson 2 — Order matters
-- **Duration:** 25 min
-- **Objective:** "By the end, I can show that changing the order of steps can make an algorithm go wrong."
-- **Hook:** Teacher tries to put socks on *over* shoes. "Why won't this work?!"
-- **Key activity:** Take a familiar algorithm (getting dressed) on big cards; deliberately swap two cards and act it out — pants over trousers, shoes before socks. Children laugh, spot the problem, and fix the order. Repeat with washing hands (rinse before soap = silly).
-- **Check for understanding:** "Is 'put your shoes on, then put your socks on' a good algorithm?" → No — the order is wrong; socks must go first.
-- **Differentiation:** support: fix a 2-card swap with picture support. / stretch: scramble 5 steps and re-order the whole sequence.
-- **Materials:** large sequence cards (getting dressed, washing hands), real socks and shoes.
-- **Joy:** catching the teacher being "silly" and being the one to fix it.
-
-### Lesson 3 — Precise instructions: the literal robot
-- **Duration:** 30 min
-- **Objective:** "By the end, I can give a precise, clear instruction so a 'robot' does what I mean."
-- **Hook:** "I'm a robot. I only do EXACTLY what you say. Tell me to make a sandwich…" (teacher squashes the whole jar onto the loaf).
-- **Key activity:** "Literal robot" game — children take turns instructing the teacher-robot, who obeys the *exact* words (including silly results) until the instruction is precise enough. Then pairs direct each other to "draw a house" using only precise steps ("draw a square, then a triangle on top").
-- **Check for understanding:** "Why didn't the robot make the sandwich when you said 'put jam on bread'?" → Because the instruction wasn't precise — it didn't say to open the jar, take some jam and spread it.
-- **Differentiation:** support: choose from a word bank (open, take, spread, put). / stretch: break a big instruction ("make breakfast") into small precise steps.
-- **Materials:** play food + jar, paper and crayons, robot prop (e.g. a box hat).
-- **Joy:** bossing the "robot" around and watching it do exactly — comically — what was said.
-
-### Lesson 4 — Directing a robot on a grid (unplugged)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can give precise forward/turn instructions to move a robot along a grid."
-- **Hook:** A big floor grid with a treasure square. "Can you guide our robot to the treasure with words only?"
-- **Key activity:** On a taped floor grid, one child is the "robot," another gives precise moves: "forward 3, turn right, forward 2, stop." Class checks each step; a missing turn walks the robot into a "wall," then they fix it. Introduce the idea of counting *gaps*, not tiles (a row of 5 tiles needs "forward 4").
-- **Check for understanding:** "I'm a robot at the start of a row of 5 tiles. Tell me precisely how to reach the last tile." → "Move forward 4" (it's 4, not 5).
-- **Differentiation:** support: arrow cards to lay down for each move. / stretch: plan the whole route silently first, then test it.
-- **Materials:** masking-tape floor grid, treasure prop, arrow cards.
-- **Joy:** being the robot that marches across the grid (and the giggle of bumping a wall).
-
-**End-of-unit check:** Child gives a correct ordered algorithm for a familiar task, fixes one out-of-order step, and directs a "robot" across at least 3 grid squares with precise instructions.
+The year runs to **18 lessons** across **5 units**, each lesson 20–40 minutes, still
+hands-on and unplugged-first wherever it helps.
 
 ---
 
-## Unit 2 — Programming floor robots
+## Unit 1 — Clearer algorithms & decomposition
 
-**Essential question:** How do I make a real robot follow my instructions — and fix it when it goes wrong?
+**Essential question:** How do I break a big job into precise small steps a computer could follow?
 
-**Key vocabulary:** program, button, command, forward, back, turn, predict, run, bug, debug, fix.
+**Key vocabulary:** algorithm, step, sequence, order, precise, decompose / break down, task, instruction, command.
 
-### Lesson 5 — Meet the floor robot
-- **Duration:** 25 min
-- **Objective:** "By the end, I can press the buttons to make a floor robot move forward and turn."
-- **Hook:** Reveal the Bee-Bot. "This robot can't think — it only does what *you* program. Let's wake it up!"
-- **Key activity:** Explore the buttons (forward, back, turn left, turn right, go, clear). Children press a single command, then "go," and watch one move. Build a 2–3 step program to move the robot to a nearby spot, pressing "clear" first each time.
-- **Check for understanding:** "What does the robot do if you don't press 'go'?" → Nothing — it waits; "go" tells the program to start running.
-- **Differentiation:** support: copy the teacher's button sequence. / stretch: get the robot to a target two moves away first try.
-- **Materials:** Bee-Bot (or floor robot), open floor space, target markers.
-- **Joy:** the robot beeping to life and trundling across the carpet on their command.
-
-### Lesson 6 — Predict, then run
+### Lesson 1 — Algorithms grow up: longer and clearer
 - **Duration:** 30 min
-- **Objective:** "By the end, I can predict where my robot will stop before I press go."
-- **Hook:** "I bet you can't guess where the robot will land… or can you?"
-- **Key activity:** On a robot mat, children enter a short program, then *point to where they think it will stop* before pressing go. Run it and compare. Celebrate correct predictions; discuss surprises. Repeat with a turn added.
-- **Check for understanding:** "Your program is forward, forward, turn right, forward. Point to where the robot will be." → Child points to the correct end square (reasoning about each step).
-- **Differentiation:** support: 2-step programs, point with a counter. / stretch: predict programs with two turns.
-- **Materials:** Bee-Bot, gridded floor mat, prediction counters.
-- **Joy:** the thrill of calling the landing square correctly — "I knew it!"
-- *(Connects to maths: counting squares, left/right, position.)*
+- **Objective:** "By the end, I can write a clear 5–6 step algorithm for an everyday task."
+- **Hook:** "Last year you wrote 3 steps. A computer needs every tiny one — can you write the *whole* hand-washing algorithm with nothing missing?"
+- **Key activity:** Recap "algorithm = precise ordered steps." Together build the 7-step hand-washing algorithm (tap on → wet → soap → rub → rinse → tap off → dry). Then the child writes a 5–6 step algorithm for their own task (making cereal, packing a bag) on a numbered strip and tests it on the tutor, who "is the computer" and follows it *exactly*.
+- **Check for understanding:** "Why does a computer need *every* step, even obvious ones?" → Because it can't think or guess — it only does exactly what we tell it.
+- **Differentiation:** support: sequence pre-written step cards. / stretch: spot and add a step the tutor deliberately left out of an algorithm.
+- **Materials:** numbered instruction strips, picture-step cards, the tutor to "be the computer."
+- **Joy:** watching the tutor follow your steps super-literally and getting them perfect.
 
-### Lesson 7 — Robot to the target (programming a route)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can plan and program a robot to travel from start to a chosen target."
-- **Hook:** A mat with picture squares (farm, shop, park). "Can you drive the robot to the farm to feed the animals?"
-- **Key activity:** Children plan a multi-step route to a target picture, enter the whole program, predict, then run. They use a planning strip (arrow cards) before pressing buttons — "plan it, build it, run it."
-- **Check for understanding:** "How did you get the robot to the shop?" → Child describes the ordered sequence of commands they used.
-- **Differentiation:** support: short straight route, no turns. / stretch: a route with two turns, or reach two targets in a row.
-- **Materials:** picture floor mat, Bee-Bot, arrow planning strips.
-- **Joy:** "driving" the robot on a real journey across a colourful map.
-
-### Lesson 8 — Finding and fixing a bug
+### Lesson 2 — Decompose it: big job, small steps
 - **Duration:** 30 min
-- **Objective:** "By the end, I can spot the one wrong step in a program and fix it."
-- **Hook:** "Uh oh — my robot was meant to reach the star but it crashed! Can you be a bug detective?"
-- **Key activity:** Teacher runs a deliberately buggy program (one wrong move). Together: **predict** what should happen → **run** → **spot** where it went wrong → **fix that one step** → **run again**. Children then fix a buggy program of their own. Reframe bugs as normal and fun ("great, now we know where to look!").
+- **Objective:** "By the end, I can break a big task into smaller parts (decompose)."
+- **Hook:** "'Tidy your room' is too big for a robot. How do we chop it into bites it can do?"
+- **Key activity:** Introduce **decompose** = break a big task into small parts. Take a big job (make a sandwich / get ready for school / build a tower) and together split it into 3–4 parts, then break each part into precise steps. The child picks a big task and draws a "step tree" — big job at the top, small steps underneath.
+- **Check for understanding:** "What does it mean to *decompose* a task?" → To break a big task down into smaller, easier steps.
+- **Differentiation:** support: split one given big task into 3 parts with prompts. / stretch: decompose two parts each into their own small steps.
+- **Materials:** "step tree" sheets, big-task cards, sticky notes.
+- **Joy:** building a "step tree" and seeing a giant job become lots of easy little ones.
+
+**End-of-unit check:** Child writes a clear 5–6 step algorithm with nothing missing and decomposes one big task into smaller steps.
+
+---
+
+## Unit 2 — Become a debugger
+
+**Essential question:** When a program goes wrong, how do I find and fix the one mistake?
+
+**Key vocabulary:** bug, debug, predict, run, spot, fix, mistake, test, detective.
+
+### Lesson 3 — Bugs are normal (predict → run → spot → fix)
+- **Duration:** 30 min
+- **Objective:** "By the end, I can say what a bug is and name the steps to debug it."
+- **Hook:** "Even the best coders make bugs every single day — finding them is the fun part! Did you know a real moth once caused a computer bug?"
+- **Key activity:** Teach the debugging routine: **predict → run → spot → fix one step → run again**. Unplugged: give a buggy "draw a square" instruction list (only 3 forward+turns). Predict a square, "run" it on squared paper, spot the missing side, fix the one step, run again. Reframe bugs as detective work, not failure.
 - **Check for understanding:** "What is a bug, and what is debugging?" → A bug is a mistake in the instructions; debugging is finding and fixing it.
-- **Differentiation:** support: bug is in a 2-step program, with a hint. / stretch: find a bug in a longer program with no hint.
-- **Materials:** Bee-Bot, floor mat with a "star" target, planning cards.
-- **Joy:** being a "bug detective" with a magnifying glass and cheering when the robot finally reaches the star.
+- **Differentiation:** support: bug is hinted ("look at the number of sides"). / stretch: explain *why* changing everything is a bad strategy.
+- **Materials:** squared paper, buggy instruction cards, "bug detective" magnifier prop.
+- **Joy:** being a "bug detective" with a magnifying glass and shouting "found it!"
 
-**End-of-unit check:** Child programs a floor robot to reach a chosen target, predicts where it will stop, and finds and fixes one bug in a short program.
+### Lesson 4 — Debug the floor robot
+- **Duration:** 35 min
+- **Objective:** "By the end, I can find and fix one wrong step in a floor-robot program."
+- **Hook:** "My robot was meant to reach the star but it bumped the wall. Can you fix it without starting over?"
+- **Key activity:** On a robot mat, the tutor runs a deliberately buggy multi-step program (one wrong turn/move). The child predicts the goal, runs it, spots where it diverged, changes *just that one command*, runs again. Tutor and child then swap roles: each writes a "broken" program to a target for the other to debug.
+- **Check for understanding:** "Why fix only the broken step instead of clearing the whole program?" → Because the rest works — changing only the bug is faster and you keep what's right.
+- **Differentiation:** support: bug in a 3-step program with a hint. / stretch: a longer program with the bug unmarked.
+- **Materials:** Bee-Bot/floor robot, gridded mat with "star" target.
+- **Joy:** the cheer when the robot finally reaches the star after a clever one-step fix.
+
+### Lesson 5 — Debug on screen
+- **Duration:** 30 min
+- **Objective:** "By the end, I can fix a block program so the sprite reaches its goal."
+- **Hook:** "This cat keeps overshooting the fish! What one block should we change?"
+- **Key activity:** In ScratchJr-style tool, the child opens a pre-made buggy project (sprite over/undershoots a target, or a move/turn is wrong). They predict, run, spot, and change one block, then run again. Discuss that on-screen debugging uses the same routine as the robot.
+- **Check for understanding:** "Your cat went too far past the fish. What could you change?" → Remove/shorten a move block (or fix the wrong block), then run again.
+- **Differentiation:** support: choose "add one" or "take one away." / stretch: fix a bug that's a wrong block, not just a count.
+- **Materials:** tablets/computers with ScratchJr-style tool, pre-loaded buggy projects.
+- **Joy:** the satisfying moment the sprite finally lands exactly on target.
+
+**End-of-unit check:** Child states the predict→run→spot→fix→run routine and uses it to fix one bug unplugged, on the robot, and on screen.
 
 ---
 
-## Unit 3 — First programs on screen (blocks)
+## Unit 3 — Program a sprite (on screen)
 
-**Essential question:** How do I turn my algorithm into a program a computer can run?
+**Essential question:** How do I build, run and improve my own on-screen program?
 
-**Key vocabulary:** program, block, drag, sequence, event, start, green flag, sprite/character, run.
+**Key vocabulary:** program, block, sequence, event, start, sprite/character, run, goal, improve, instruction.
 
-### Lesson 9 — From robot to blocks
+### Lesson 6 — Plan it, then build it
 - **Duration:** 30 min
-- **Objective:** "By the end, I can drag and join blocks to make a character move in sequence."
-- **Hook:** "Our floor robot followed buttons. This cat follows blocks — and you build them like jigsaw pieces!"
-- **Key activity:** In a ScratchJr-style app, children meet the blocks and the green-flag/start block. Drag "move right" blocks and join them so the character walks across to an object. They learn blocks run **in order, top to bottom (or left to right)**.
-- **Check for understanding:** "Your blocks are: move right, move right, jump. What will the character do, in order?" → Move right, move right again, then jump.
-- **Differentiation:** support: drag pre-chosen blocks into the right order. / stretch: choose blocks to make the character reach exactly the right spot.
-- **Materials:** tablets/computers with ScratchJr (or similar), large block cards for the carpet.
-- **Joy:** snapping the bright blocks together and watching their own character spring to life.
+- **Objective:** "By the end, I can plan a short program on paper and build it on screen."
+- **Hook:** "Real programmers plan before they build — let's draw our program before we touch a block."
+- **Key activity:** The child picks a simple goal (sprite walks across to a house). They **plan** with arrow/block cards on the table first, then build the matching sequence on screen, starting on the green-flag/event block. Compare plan to result.
+- **Check for understanding:** "Why plan before building?" → It helps you get the steps right first, so there's less to fix later.
+- **Differentiation:** support: copy a given plan. / stretch: plan a route with a turn in it.
+- **Materials:** tablets with ScratchJr-style tool, paper block/arrow cards.
+- **Joy:** seeing your paper plan come alive exactly on screen.
 
-### Lesson 10 — The start block (events)
+### Lesson 7 — Make the sprite reach the goal
+- **Duration:** 35 min
+- **Objective:** "By the end, I can build and run a sequence that starts on an event and reaches a goal."
+- **Hook:** "Can you guide your character all the way to the treasure — and make it start when you tap the flag?"
+- **Key activity:** The child builds a longer sequence (with at least one turn) that begins on the event block and gets a sprite to a target object. They predict where it will stop, run, and adjust block counts to land it. Add a second sprite that also starts on the flag for a "scene."
+- **Check for understanding:** "What does the start/event block do?" → It tells the program when to begin running.
+- **Differentiation:** support: straight route, no turn. / stretch: two sprites, both triggered, reaching two goals.
+- **Materials:** tablets with ScratchJr-style tool, on-screen target objects.
+- **Joy:** tapping the flag and watching a whole little scene spring to life.
+
+### Lesson 8 — Improve your program
+- **Duration:** 30 min
+- **Objective:** "By the end, I can make my working program better in one clear way."
+- **Hook:** "It works — but can we make it *better*? Add a sound? A smoother path? A surprise?"
+- **Key activity:** Starting from a working program, the child chooses one improvement (add a sound/speech block, smooth the route, add a background, make a sprite react). They make the change, run it, and explain why it's better. Introduce "make it work → make it better."
+- **Check for understanding:** "Your program already works. Name one way you made it better and why." → Any sensible improvement with a reason (e.g. added a sound so it's more fun; fewer blocks so it's clearer).
+- **Differentiation:** support: choose an improvement from a menu of two. / stretch: combine two improvements that work together.
+- **Materials:** tablets with ScratchJr-style tool.
+- **Joy:** adding a silly sound or surprise and showing the tutor or family the upgraded version.
+
+**End-of-unit check:** Child plans, builds and runs a sprite program that starts on an event and reaches a goal, then improves it in one explained way.
+
+---
+
+## Unit 4 — Create digital content & first data
+
+**Essential question:** How do I make something useful on a computer, and how do I make sense of information?
+
+**Key vocabulary:** create, save, open, edit, improve, purpose, audience, text, picture; data, collect, tally, pictogram, most, least, altogether.
+
+### Lesson 9 — Content for a purpose and an audience
+- **Duration:** 30 min
+- **Objective:** "By the end, I can plan digital content by deciding its purpose and who it's for."
+- **Hook:** "A poster for a bake sale and a card for grandma both use a computer — but they look completely different. Why?"
+- **Key activity:** Discuss **purpose** (what it's for) and **audience** (who'll see it). The child picks a real task (a thank-you card, a "facts about my pet" card, a bake-sale poster) and plans on paper: purpose, audience, what text and what picture. Match the tool to the job (paint vs word vs slide).
+- **Check for understanding:** "What two questions help you plan digital content?" → What's it *for* (purpose), and *who* is it for (audience)?
+- **Differentiation:** support: choose from given purpose/audience pairs. / stretch: explain which tool fits the job and why.
+- **Materials:** planning sheet, examples of posters/cards.
+- **Joy:** designing something real for a real person they care about.
+
+### Lesson 10 — Combine text and picture
+- **Duration:** 35 min
+- **Objective:** "By the end, I can create a piece that uses text and a picture together for my audience."
+- **Hook:** "A title without a picture is dull; a picture without words is a mystery. Together they're brilliant!"
+- **Key activity:** In a word/slide tool, the child types a title and a short caption/fact and adds a picture (drawn, inserted, or a photo). They arrange them sensibly for the reader. Save with a sensible name.
+- **Check for understanding:** "Why add both text *and* a picture?" → Text tells, the picture shows — together they're clearer and more interesting for the audience.
+- **Differentiation:** support: type a title onto a ready picture. / stretch: lay out two facts with two pictures neatly.
+- **Materials:** tablets/computers with a word/slide app, picture sources.
+- **Joy:** seeing their words and image come together like a real published page.
+
+### Lesson 11 — Save, reopen, improve
 - **Duration:** 25 min
-- **Objective:** "By the end, I can use a start/green-flag block so my program knows when to begin."
-- **Hook:** Teacher's blocks are built but the character won't move. "What's missing? How does it know *when* to start?"
-- **Key activity:** Introduce the **event** (green-flag / "when tapped") block as the trigger. Children remove the start block → nothing happens; add it back → it runs. They build a program that begins on the green flag and moves a sprite to a target.
-- **Check for understanding:** "What does an event block (like 'when green flag clicked') do?" → It tells the program when to start running.
-- **Differentiation:** support: add the start block to a ready-made sequence. / stretch: make two characters that both start on the green flag.
-- **Materials:** tablets/computers with ScratchJr-style tool.
-- **Joy:** the "magic moment" of tapping the green flag and the whole program springing into action.
+- **Objective:** "By the end, I can reopen my saved work and improve it for my audience."
+- **Hook:** "Yesterday's work isn't finished forever — let's reopen it and make it even better!"
+- **Key activity:** The child reopens their saved content, then improves it for the audience: fix a spelling, add a fact, change a colour, resize a picture. Reinforce **create → save → retrieve → improve**.
+- **Check for understanding:** "Why is being able to save and reopen work a superpower?" → You can keep it, share it, and improve it later — paper can't do that as easily.
+- **Differentiation:** support: make one guided improvement. / stretch: make two improvements that help the reader.
+- **Materials:** tablets/computers, saved work from Lesson 10.
+- **Joy:** the "even better!" feeling of upgrading their own creation.
 
-### Lesson 11 — Adjust and improve (a tiny debug)
+### Lesson 12 — Data: collect and tally
 - **Duration:** 30 min
-- **Objective:** "By the end, I can change the number of blocks so my character lands in the right place."
-- **Hook:** "My cat walked too far and fell off the screen! How do we fix it?"
-- **Key activity:** Children build a program to reach a ball; if the sprite over- or undershoots, they add or remove a "move" block — a first on-screen debug. Encourage predict → run → adjust → run again.
-- **Check for understanding:** "Your cat went too far past the ball. What could you change?" → Take away (or shorten) a move block, then run again.
-- **Differentiation:** support: choose between "add one" or "take one away." / stretch: get the sprite to land exactly on target in the fewest blocks.
-- **Materials:** tablets/computers with ScratchJr-style tool, target object on screen.
-- **Joy:** the satisfaction of tweaking and finally landing the character bang on target.
+- **Objective:** "By the end, I can collect data and record it in a tally chart."
+- **Hook:** "What's our family's favourite fruit? Right now it's a jumble in our heads — let's turn it into data!"
+- **Key activity:** Introduce **data** = collected information. Run a quick survey (favourite fruit / pet / colour). Teach the **tally** (the fifth stroke crosses the four — count in fives). The child collects answers from family members and the tutor (the tutor can also answer for toys or story characters to add more data) and records a tally chart.
+- **Check for understanding:** "Why is a tally chart a smart way to count?" → The crossing-fifth makes it quick and accurate to count in fives.
+- **Differentiation:** support: tally from a pre-collected list. / stretch: survey more people and total each row.
+- **Materials:** tally sheets, survey question, clipboard.
+- **Joy:** going round the home as a "data collector" with a clipboard.
 
-**End-of-unit check:** Child builds a short block program that starts on the green flag, runs it in sequence, and adjusts the blocks to reach a target.
+### Lesson 13 — Pictograms answer questions
+- **Duration:** 30 min
+- **Objective:** "By the end, I can make a pictogram and answer most/least/altogether questions."
+- **Hook:** "A pile of tally marks is hard to read — but a row of pictures shows the answer at a glance!"
+- **Key activity:** Turn the tally into a **pictogram** (one symbol = one vote; later, mention a key where one = 2). The child builds the pictogram, then answers: most popular? least? how many altogether? how many more X than Y? Optionally enter into a simple spreadsheet/chart tool.
+- **Check for understanding:** "Why turn data into a chart instead of a list?" → So we can see and compare — most, least, totals — at a glance.
+- **Differentiation:** support: answer "most" and "least" only. / stretch: answer "how many more X than Y" and explain.
+- **Materials:** pictogram grid, symbol cards/stickers, (optional) a device with a chart tool.
+- **Joy:** sticking on the picture symbols and instantly "seeing" the winner.
+
+**End-of-unit check:** Child creates a saved piece of digital content combining text and a picture for an audience, and collects data into a tally then a pictogram, answering most/least/altogether questions.
 
 ---
 
-## Unit 4 — Technology around us & creating digital content
+## Unit 5 — Safe, kind and right-for-me online
 
-**Essential question:** What is technology for, and what can I make with it?
+**Essential question:** How do I stay safe and kind online, and choose what's right for my age?
 
-**Key vocabulary:** technology, computer, tablet, mouse, keyboard, click, type, log in, password, save, open, create.
-
-### Lesson 12 — Technology is a tool with a purpose
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name technology around me and say what we use it for."
-- **Hook:** "A pencil helps us write. A bike helps us travel. What does a tablet help us do?"
-- **Key activity:** Spot technology around the room/home (computer, tablet, phone, interactive board). Sort picture cards by *purpose* — to create, to find out, to communicate, to play. Discuss using a device *purposefully* (knowing why) rather than just tapping.
-- **Check for understanding:** "Name two things you could *create* with a tablet for a real purpose." → e.g. a birthday card, a story, a drawing, a photo album. (Any purposeful creation.)
-- **Differentiation:** support: match a device to one use. / stretch: explain which tool is best for a given job and why.
-- **Materials:** picture cards of devices and uses, real devices to point to.
-- **Joy:** going on a "technology hunt" around the room.
-
-### Lesson 13 — Logging in, mouse and keyboard
-- **Duration:** 30 min
-- **Objective:** "By the end, I can log in and use a mouse/touchpad and keyboard to point, click and type."
-- **Hook:** "Every computer has a secret 'hello' — let's learn how to wake yours up safely."
-- **Key activity:** Guided log-in (typing a name/simple code). Practise mouse skills with a free clicking/dragging game (point, click, drag, double-click) or on-screen targets. Then find letters on the keyboard and type their own name. Note: a password is private (link forward to online safety).
-- **Check for understanding:** "Show me how to type your name and click the green button." → Child types name and clicks accurately (observed).
-- **Differentiation:** support: hand-over-hand or large-target practice. / stretch: type a short word and use the space bar between two words.
-- **Materials:** computers/tablets, keyboard practice game, name cards.
-- **Joy:** typing their very own name on the screen for the first time.
-
-### Lesson 14 — Painting and drawing on screen
-- **Duration:** 30 min
-- **Objective:** "By the end, I can use a paint app to create a picture for a purpose."
-- **Hook:** "Today we paint without any mess — and we can undo any mistake!"
-- **Key activity:** In a simple paint app, children create a picture for a real purpose (e.g. a card for someone). Explore brush, colour, fill and the magic **undo**. Match the *tool to the job* — paint for pictures.
-- **Check for understanding:** "Which tool would you use to colour the whole sky blue?" → The fill/bucket tool (or a big brush).
-- **Differentiation:** support: trace/colour a ready shape. / stretch: combine shapes and colours into a planned scene.
-- **Materials:** tablets/computers with a paint app.
-- **Joy:** the "undo" superpower and making bold, colourful art with no mess.
-
-### Lesson 15 — Save it, open it, improve it
-- **Duration:** 30 min
-- **Objective:** "By the end, I can save my digital work with a name, reopen it, and improve one thing."
-- **Hook:** "If I close my picture, is it gone forever? Let's find out!"
-- **Key activity:** Children save their picture (or a short typed caption) with a sensible name, close it, then reopen it together — showing the work is still there. They **edit and improve** one thing (a colour, a detail, fix a letter). Introduce **create → save → retrieve → improve**.
-- **Check for understanding:** "Why is it useful to *save* your digital work?" → So you can open it again later to keep, share or improve it.
-- **Differentiation:** support: teacher-guided save with a picture prompt. / stretch: save, reopen and add a brand-new detail independently.
-- **Materials:** tablets/computers, paint/word app, saved-work display.
-- **Joy:** the "ta-da!" of reopening their own work after it seemed to disappear.
-
-**End-of-unit check:** Child logs in, uses mouse/keyboard to create a piece of digital content for a purpose, saves it with a name, and reopens it to improve one thing.
-
----
-
-## Unit 5 — Staying safe and kind online
-
-**Essential question:** How do I stay safe, kind and happy when I use technology?
-
-**Key vocabulary:** online, kind, private, personal information, password, trusted adult, worry, tell, safe.
+**Key vocabulary:** online, kind, private, personal information, password, trusted adult, worry plan, age rating, PEGI, suitable.
 
 > **Tone note (from the online-safety KB):** keep this unit **warm, calm and reassuring**.
 > The recurring message is *the internet is brilliant, and a trusted adult is always there
 > to help.* Never imply a child is to blame; keep examples gentle and age-appropriate.
 
-### Lesson 16 — Being kind online
+### Lesson 14 — Kind online, even when it's easy to forget
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain that we are kind online, just like in real life."
-- **Hook:** "There's a real person on the other side of every screen — with feelings just like yours."
-- **Key activity:** Discuss that the kindness rules are the same online as in the playground. Read short pretend messages and sort them "kind" or "unkind," then say a kinder way for the unkind ones. Introduce the test: *"Would I be happy if someone sent this to me?"*
-- **Check for understanding:** "What's a good question to ask yourself before sending a message?" → "Would I be happy if someone sent this to me?" / "Is it kind?"
-- **Differentiation:** support: thumbs up/down for kind/unkind. / stretch: rewrite an unkind message kindly.
-- **Materials:** message cards, kind/unkind sorting hoops.
-- **Joy:** turning a grumpy message into a happy one and acting out the friendly version.
+- **Objective:** "By the end, I can choose the kind action online, including as a bystander."
+- **Hook:** "There's a real person reading every message — would you say it to their face?"
+- **Key activity:** Recap that kindness rules are the same online. Read short pretend group-chat scenarios (someone left out, a teasing message) and decide what a kind person does — and what a kind *bystander* does (don't join in, be kind instead, tell a trusted adult). Use the test: *"Would I be happy if this was said to me in front of my family?"*
+- **Check for understanding:** "Friends are sending mean messages about someone who isn't there. What can you do?" → Don't join in; you could be kind instead; tell a trusted adult — it's not tattling, it's helping.
+- **Differentiation:** support: thumbs up/down for kind/unkind. / stretch: rewrite an unkind message kindly *and* say what a bystander should do.
+- **Materials:** scenario cards, kind/unkind sorting mat.
+- **Joy:** role-playing the "kind hero" who turns a chat around.
 
-### Lesson 17 — Keeping personal information private
+### Lesson 15 — Private stays private (and passwords)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name personal information and say we keep it private online."
-- **Hook:** "Some things about you are like the key to your front door — only for people you really trust."
-- **Key activity:** Introduce **personal information** (full name, address, school, phone number, password, photos) as private. Sort facts into "okay to share in a game" (favourite colour, that I like dogs) vs "keep private" (home address, school, password). Reinforce: a password is a secret, only for you and a parent/carer; check with a trusted adult before sharing anything about yourself.
+- **Objective:** "By the end, I can name personal information and explain why we keep it private, including passwords."
+- **Hook:** "Some facts about you are like the key to your front door — only for people you really trust."
+- **Key activity:** Sort facts into "okay to share in a game" (favourite colour, likes dogs) vs "keep private" (full name, address, school, phone, password, photos). Teach that a **password** is extra-special: a secret only for you and a parent/carer, never a friend or anyone online; check with a trusted adult before sharing anything about yourself.
 - **Check for understanding:** "A new online 'friend' in a game asks where you live. What do you do?" → Don't tell them, and tell a trusted adult.
-- **Differentiation:** support: sort 4 clear cards. / stretch: explain *why* an item is private.
-- **Materials:** "share / keep private" cards, sorting mat, a toy key prop.
-- **Joy:** the secret-keeper "key" idea — guarding their private treasure.
+- **Differentiation:** support: sort 4 clear cards. / stretch: explain *why* even a friendly stranger shouldn't get private info.
+- **Materials:** "share / keep private" cards, sorting mat, toy key prop.
+- **Joy:** the "secret-keeper key" idea — guarding their private treasure.
 
-### Lesson 18 — Tell a trusted adult
+### Lesson 16 — Is this for me? Age ratings
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name my trusted adults and the steps to take if something online worries me."
-- **Hook:** "Just like a fire drill, we can have a plan for online worries — let's learn it together."
-- **Key activity:** Each child names two or three **trusted adults**. Teach the simple plan, putting the steps in order: **stop → don't reply → keep it (don't delete) → tell a trusted adult.** Reassure firmly and repeatedly: it is *never* your fault and you will *never* be in trouble for telling.
-- **Check for understanding:** "Something online makes you feel scared. What's the first thing to do?" → Tell a trusted adult (after stopping and not replying). And: "Will you get in trouble for telling?" → No — it's never your fault.
+- **Objective:** "By the end, I can use age ratings to decide if a game or video is right for my age."
+- **Hook:** "Some films are for grown-ups, and so are some games — how can you tell which are made for *you*?"
+- **Key activity:** Introduce **age ratings** (PEGI 3/7/12/16/18; the number is the *youngest* age it's made for) and that videos/apps have guidance too. Given game/video age labels and "you are 7," the child sorts into "for me now" vs "for when I'm older," and practises saying "I'll check with a trusted adult." Stress: ratings look after you; loads of brilliant things are made for your age.
+- **Check for understanding:** "A game is rated for ages older than you. What's the wise thing to do?" → Don't play it; check with a trusted adult and pick something right for your age.
+- **Differentiation:** support: match 3 clear labels to "now / older." / stretch: explain why "my friends play it" isn't a reason it's okay.
+- **Materials:** mock game/video cards with PEGI-style labels, sorting mat.
+- **Joy:** being a "ratings detective" who spots what's just right for them.
+
+### Lesson 17 — The worry plan, by heart
+- **Duration:** 25 min
+- **Objective:** "By the end, I can name my trusted adults and the worry-plan steps in order."
+- **Hook:** "Like a fire drill, we practise the online-worry plan so we'd just *know* what to do."
+- **Key activity:** The child names two or three **trusted adults**. Order the plan with cards: **stop → don't reply → keep it (don't delete) → tell a trusted adult**. Use the "keep-it-secret-from-your-family" warning-sign example. Reassure firmly: it's never your fault and you'll never be in trouble for telling.
+- **Check for understanding:** "Something online scares you — what's the first thing to do, and will you be in trouble for telling?" → Stop, don't reply, keep it, tell a trusted adult; no — it's never your fault.
 - **Differentiation:** support: order the plan with picture cards. / stretch: explain why we *keep* (don't delete) the worrying thing.
-- **Materials:** "worry plan" sequence cards, a "my trusted adults" drawing sheet.
-- **Joy:** drawing their own circle of trusted grown-ups (a personal "helper team").
+- **Materials:** worry-plan sequence cards, "my trusted adults" sheet.
+- **Joy:** drawing their personal "helper team" of trusted grown-ups.
 
-### Lesson 19 — Safe and balanced screen habits
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name a healthy screen habit and a screen-free thing I love."
-- **Hook:** "Screens are a bit like sweets — lovely in the right amount. What else makes a great day?"
-- **Key activity:** Talk about **balance**: some screen time *and* plenty of running, reading, building, playing, sleeping. Children plan a balanced day, sorting activities into "screen" and "screen-free," and name one favourite screen-free thing. Healthy habits: take breaks, sit well, rest your eyes, stop a while before bed. (It's normal to find it hard to stop — that's why we plan.)
-- **Check for understanding:** "Name one healthy screen habit." → e.g. take breaks, stop a while before bed, have screen-free activities you enjoy.
-- **Differentiation:** support: pick activities from picture cards. / stretch: explain why screen-free time before bed helps.
-- **Materials:** day-planning strip, activity picture cards (screen and screen-free).
-- **Joy:** designing their own "perfect balanced day."
-
-### Lesson 20 — Safe, kind and clever: a computing celebration
+### Lesson 18 — Computing experts: a Year 1 celebration
 - **Duration:** 35 min
-- **Objective:** "By the end, I can show what I learned this year about algorithms, robots and staying safe online."
-- **Hook:** "You started the year not knowing the word 'algorithm' — today you're computing experts. Let's celebrate!"
-- **Key activity:** Carousel of mini-stations revisiting the year: (1) sequence a jumbled algorithm, (2) program the floor robot to a target, (3) build a quick block program, (4) sort "kind/unkind" and "private/okay-to-share," (5) name a trusted adult and the worry plan. Children rotate, helping each other. Finish by sharing one thing they're proud of.
-- **Check for understanding:** "Tell me one thing computers can't do without us." → e.g. think for themselves — they only follow the algorithm/instructions we give them.
-- **Differentiation:** support: partner up and choose two stations. / stretch: be a "station helper" who explains a station to others.
-- **Materials:** all year's props — sequence cards, floor robot + mat, tablets, sorting cards, trusted-adult sheets, stickers/certificates.
-- **Joy:** a "computing expert" certificate and showing off a favourite skill to the class.
+- **Objective:** "By the end, I can show what I learned this year about algorithms, debugging, content, data and staying safe."
+- **Hook:** "You can now write algorithms, fix bugs, build programs, handle data *and* stay safe online. Let's celebrate!"
+- **Key activity:** Carousel of stations revisiting the year: (1) write/sequence a longer algorithm, (2) debug a floor-robot program, (3) build a quick sprite program, (4) read a pictogram (most/least/altogether), (5) sort private/share and age-right/older, name a trusted adult and the worry plan. The child moves through the stations with the tutor as quizmaster and game-partner, then shares one proud moment.
+- **Check for understanding:** "Name one thing a computer can't do without us." → e.g. think or decide for itself — it only follows the algorithm/instructions we give.
+- **Differentiation:** support: do the stations together with the tutor, picking just two. / stretch: "teach" a favourite station back to the tutor, explaining it.
+- **Materials:** all year's props — algorithm strips, floor robot + mat, tablets, pictogram cards, safety sorting cards, certificates.
+- **Joy:** a "computing expert" certificate and showing off a favourite skill.
 
-**End-of-unit check:** Child explains that we are kind online and keep personal information private, names two trusted adults, and recites the simple "tell a trusted adult" worry plan.
+**End-of-unit check:** Child explains kindness and privacy online (incl. passwords), uses age ratings to judge suitability, names two trusted adults and recites the worry plan.
 
 ---
 
@@ -285,11 +270,11 @@ precise, robot.
 
 A Year 1 child finishing this curriculum should be able to:
 
-1. **Algorithms.** Give a correct, ordered algorithm (3–4 steps) for a familiar task, and explain why the order matters.
-2. **Precise instructions.** Direct a "robot" (person or floor robot) to a target using precise forward/turn commands, counting moves correctly.
-3. **Programming a floor robot.** Program a Bee-Bot-style robot to reach a chosen target, and predict where it will stop before running it.
-4. **Debugging.** Find and fix one wrong step in a short program (unplugged, robot, or on-screen).
-5. **First on-screen program.** Build and run a short block program that starts on a green-flag/event block and runs in sequence.
-6. **Using technology.** Log in and use a mouse/touchpad and keyboard to create digital content, save it with a name, and reopen it to improve it.
-7. **Kind & private online.** Explain that we are kind online, name several pieces of personal information that stay private, and apply the test "Would I be happy if someone sent this to me?"
-8. **Getting help.** Name two trusted adults and state the worry plan (stop → don't reply → keep it → tell a trusted adult), knowing it is never their fault and they will never be in trouble for telling.
+1. **Algorithms & decomposition.** Write a clear 5–6 step algorithm with nothing missing, and decompose a big task into smaller steps.
+2. **Debugging.** State the predict→run→spot→fix→run routine and use it to find and fix one bug — unplugged, on a floor robot, and on screen.
+3. **Programming a sprite.** Plan, build and run an on-screen program that starts on an event block and reaches a goal.
+4. **Improving a program.** Make a working program better in one clear, explained way.
+5. **Creating digital content.** Create, save, reopen and improve a piece that combines text and a picture for a stated purpose and audience.
+6. **Data.** Collect data, record it in a tally, make a pictogram, and answer most / least / altogether / how-many-more questions.
+7. **Kind & private online.** Choose the kind action (including as a bystander), name personal information that stays private, and explain why passwords are extra-special.
+8. **Right-for-me & getting help.** Use age ratings to decide what's suitable, name two trusted adults, and recite the worry plan (stop → don't reply → keep it → tell), knowing it's never their fault.

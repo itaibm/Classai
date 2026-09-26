@@ -46,7 +46,7 @@ function subjectLabel(folder: string): string {
 
 const pad2 = (n: number): string => String(n).padStart(2, '0');
 
-/** Catalog id for a lesson slot — matches the authored `y2-maths-u1-l01` scheme. */
+/** Catalog id for a lesson slot — matches the authored `y1-maths-u1-l01` scheme. */
 export function catalogId(year: number, subject: string, unitNumber: number, lessonNumber: number): string {
   return `y${year}-${subject}-u${unitNumber}-l${pad2(lessonNumber)}`;
 }
@@ -77,8 +77,8 @@ export interface CatalogLessonRef {
 
 // ---- filesystem helpers ----------------------------------------------------
 
-/** Find the scope markdown in a subject folder (e.g. `maths-year-2.md`, or
- *  `spanish-year-3.md` where the file name differs from the folder). */
+/** Find the scope markdown in a subject folder (e.g. `maths-year-1.md`, or
+ *  `spanish-year-2.md` where the file name differs from the folder). */
 function scopeFileFor(year: number, subjectDir: string): string | null {
   const dir = path.join(CURRICULUM_DIR, `year-${year}`, subjectDir);
   let files: string[];
@@ -113,7 +113,7 @@ function listYears(): number[] {
       .readdirSync(CURRICULUM_DIR)
       .filter((d) => /^year-\d+$/i.test(d))
       .map((d) => Number(d.replace(/[^\d]/g, '')))
-      .filter((n) => n > 0)
+      .filter((n) => n >= 0) // year-0 = Foundation (ages 5–6, optional catch-up)
       .sort((a, b) => a - b);
   } catch {
     return [];

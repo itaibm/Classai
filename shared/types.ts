@@ -939,3 +939,9 @@ export interface PromptTemplate {
   system: string;
   user?: string; // sample first user message, where the call has one
 }
+
+/** Display name for a curriculum year: Year N = ages N+5 to N+6 (the charter's
+ *  ages 6–12); year 0 is the optional Foundation catch-up year (ages 5–6). */
+export function yearLabel(year: number): string {
+  return year === 0 ? 'Foundation' : `Year ${year}`;
+}

@@ -1,342 +1,322 @@
-# English — Year 1 (ages 5–6, KS1) — Lesson Outlines
+# English — Year 1 (ages 6–7, KS1) — Lesson Outlines
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Source of truth: [`knowledge-base/subjects/english/year-1.md`](../../../knowledge-base/subjects/english/year-1.md).
+> Source of truth: [`knowledge-base/subjects/english/year-2.md`](../../../knowledge-base/subjects/english/year-2.md).
 > Format + 8 design principles: [`../README.md`](../README.md).
 
 ## Year overview
 
-Year 1 is the engine room of reading. Across the year a child moves from blending single-letter sounds into words to reading with digraphs, trigraphs, split digraphs and Phase 5 alternatives, while learning the first common exception (tricky) words on sight. In parallel they learn to **segment to spell**, form letters correctly by hand, and build proper sentences — capital letter, full stop, joined with *and*, made plural with *-s/-es*. Comprehension and spoken language run alongside throughout: predicting, talking about stories in full sentences, and rehearsing ideas aloud before writing them. The cardinal rule, every lesson, is **talk before you write**. Lessons are short (20–40 min), explicit-teaching-first, then guided → independent, with retrieval and review woven in so the year reads as a real, gap-free progression toward a fluent, joyful early reader and writer.
+Year 1 turns a decoder into a reader. Building directly on Foundation's blending, segmenting and tricky words, this year secures phonics as a **route to fluency** (Phase 6): chopping long words into syllables, reading more words on sight, and reading smoothly with expression. Spelling grows from "add an *-s*" into real rules — the **suffix family** (drop the *e*, double the consonant, *y → i*) and the meaning-changing suffixes (*-ful, -less, -ness, -ly, -ment*) — plus the first **homophones**. Punctuation gains the **apostrophe** (two jobs) and the **four sentence types** with their end marks. Grammar names the **parts of speech** (noun, adjective, verb) and builds **expanded noun phrases** and **subordinate clauses** (*because, when, if, that*). Reading deepens from prediction into **inference with evidence**, and composition tackles a real non-fiction genre — **instructions**. The Foundation rule still rules: **talk before you write**. Lessons stay short (20–30 min), explicit-teaching-first, then guided → independent, with retrieval woven in so the year is a gap-free climb from "I can sound it out" to "I read and write with accuracy and purpose".
 
 ---
 
-## Unit 1 — Phonics & decoding (the sound code)
+## Unit 1 — Fluent reading: longer words & expression (Phase 6)
 
-> **Essential question:** How do letters and letter-teams turn into the words I can read and write?
+> **Essential question:** How do I read big words and long sentences smoothly, like a storyteller?
 >
-> **Key vocabulary:** sound (phoneme), letter/letter-team (grapheme), blend, segment, sound button, digraph, trigraph, split digraph, magic *e*, vowel.
+> **Key vocabulary:** syllable (beat), blend, on sight, sight word, fluency, expression, decode.
 >
-> Drawn from KB topics 1–4. Systematic, cumulative synthetic phonics: each sound is taught explicitly, modelled, practised in reading (blend) and spelling (segment), then revisited.
+> Drawn from KB topic 1. Syllable-chopping for long words and growing automatic sight reading; phonics stays the trusty backup for any new word.
 
-### Lesson 1 — Sound detective: blending to read CVC words
+### Lesson 1 — Clap it into beats: reading long words by syllable
 - **Duration:** 20 min
-- **Objective:** "By the end, I can sound out and blend a three-letter word to read it."
-- **Hook:** "I'm a sound detective — can you crack this secret word with me?" (show *cat* hidden under a flap).
-- **Key activity:** I do — model reading *pin*: point under p `/p/`, i `/i/`, n `/n/`, then sweep and blend → "pin". We do — blend *cat, dog, hen* together with sound buttons. You do — child reads *man, top, web, run* aloud, sounding then blending.
-- **Check for understanding:** "Sound out and read this word: *sit*." → /s/ /i/ /t/ → "sit".
-- **Differentiation:** support: physical counters to touch one per sound; tutor says the first sound. / stretch: read CCVC words (*flag, swim*).
-- **Materials:** flashcards or magnetic letters for *cat, dog, hen, pig, fox*; picture cards to match.
-- **Joy:** "press the sound buttons" with a real finger-click and match each animal word to its picture.
+- **Objective:** "By the end, I can read a long word by chopping it into syllables (beats)."
+- **Hook:** "This word looks scary — *fantastic*! But watch: I can knock it down by clapping it into beats."
+- **Key activity:** I do — clap *rab-bit* (2), read each beat, push together → "rabbit". We do — clap and beat-read *sun-set, play-ground, el-e-phant*. You do — child claps then beat-reads *picnic, dinosaur, jumper, basket*, reading each beat then blending.
+- **Check for understanding:** "How many syllables in *elephant*, and read it." → 3 (*el-e-phant*) → "elephant".
+- **Differentiation:** support: tutor claps first, child echoes then reads. / stretch: chop a 4-beat word (*caterpillar*).
+- **Materials:** long-word cards; a drum or table to clap/beat on.
+- **Joy:** "knocking down" each scary word one beat at a time, like toppling blocks.
 
-### Lesson 2 — Don't say the names, say the sounds
+### Lesson 2 — Dinosaur names & place names (beat-reading challenge)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can say the pure sound a letter makes (not its name) and use it to blend."
-- **Hook:** Silly robot: read *cat* as letter-names ("see-ay-tee") and ask "Did that make a word? What went wrong?"
-- **Key activity:** I do — over-articulate pure sounds (`/c/` not "cuh-uh"); contrast name vs sound. We do — flip cards: I show a letter, you give the *sound*. You do — blend a short list using sounds only, finger tracking left-to-right under each grapheme.
-- **Check for understanding:** "How many sounds are in *dog*, and what are they?" → 3: /d/ /o/ /g/.
-- **Differentiation:** support: mirror to watch mouth shapes for tricky pure sounds. / stretch: spot a friend's blending error and fix it.
-- **Materials:** single-letter cards `s a t p i n m d g o c k`; mirror.
-- **Joy:** be the "blending coach" who catches the robot's mistakes.
+- **Objective:** "By the end, I can read very long, unfamiliar words by syllable-chopping."
+- **Hook:** "Could you read a word as long as a dinosaur? *Ste-go-sau-rus* — let's prove it!"
+- **Key activity:** I do — model marking the beats with little dots, then reading beat by beat. We do — beat-read *T-rex, triceratops, Manchester*. You do — child chooses dinosaur/place cards, dots the beats, reads each aloud.
+- **Check for understanding:** "Read *stegosaurus* by beats." → *ste-go-sau-rus* → "stegosaurus".
+- **Differentiation:** support: beats pre-dotted on the card. / stretch: read a long word with no dots, marking the beats yourself.
+- **Materials:** dinosaur and place-name cards; pencil for dotting beats.
+- **Joy:** reading a "world's longest word" and feeling like an expert.
 
-### Lesson 3 — Segmenting to spell (chop the word into sounds)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can break a spoken word into its sounds and write a letter for each."
-- **Hook:** "Reading runs forwards — spelling runs backwards. Watch me chop a word like a sausage."
-- **Key activity:** I do — say *net*, segment `/n/ /e/ /t/` on three fingers, write n-e-t, read back to check. We do — segment *map, pig, sun* together. You do — tutor says *cat, hop, lamp*; child segments on fingers then writes.
-- **Check for understanding:** "Spell *pig* by sounding it out." → /p/ /i/ /g/ → p-i-g.
-- **Differentiation:** support: stretch the middle vowel slowly in a "robot voice"; one finger per sound. / stretch: spell CCVC words (*swim, frog*).
-- **Materials:** mini whiteboard + pen; finger-counting prompt.
-- **Joy:** "robot voice" the words out loud and beat your own count.
-
-### Lesson 4 — Hearing the middle sound (vowels don't hide!)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can hear and write the vowel in the middle of a CVC word."
-- **Hook:** Show *nt* and ask "What's missing? A word lost its middle — help me find it." (→ *net*).
-- **Key activity:** I do — model the common slip of dropping the vowel; fix by stretching the middle. We do — fill the missing vowel: c_t, p_g, b_s. You do — child spells words and self-checks the middle sound is there and in order.
-- **Check for understanding:** "Spell *sun* — how many sounds do you write?" → 3 (s-u-n).
-- **Differentiation:** support: vowel cards on the table to choose from. / stretch: words with two possible vowels — pick by sound (*pin/pan*).
-- **Materials:** vowel cards `a e i o u`; whiteboard.
-- **Joy:** rescue the "lost middle" of each word and cheer when it reads back right.
-
-### Lesson 5 — Letter teams: digraphs (two letters, one sound)
+### Lesson 3 — Reading on sight & reading with expression (fluency)
 - **Duration:** 25 min
-- **Objective:** "By the end, I can read a word with a digraph by treating the two letters as one sound."
-- **Hook:** "In *ship*, s and h aren't `/s/ /h/` — together they make a brand-new sound. Listen: `/sh/`."
-- **Key activity:** I do — draw ONE sound button under `sh`; read *ship* as /sh/ /i/ /p/ (3 sounds, 4 letters). We do — spot-the-team then blend *shop, fish, chip, rain*. You do — read a digraph word list, drawing the team-button first.
-- **Check for understanding:** "How many sounds are in *fish*?" → 3 (/f/ /i/ /sh/).
-- **Differentiation:** support: pre-highlight the digraph in colour. / stretch: read words with two digraphs (*sheep*, *chain*).
-- **Materials:** digraph cards `sh ch th ng ai ee oa`; coloured pen for team-buttons.
-- **Joy:** hunt the "letter teams" hiding in words like a spotter.
+- **Objective:** "By the end, I can read a sentence smoothly, with expression, not robot-by-word."
+- **Hook:** Read a sentence in a flat robot voice, then re-read it with feeling: "Which one was a real reader?"
+- **Key activity:** I do — explain *sight words* (eyes just know them) and model expressive re-reading. We do — read a short passage once to decode, then again for fluency, watching punctuation. You do — child reads three sentences, re-reading each for smoothness and expression.
+- **Check for understanding:** "What does it mean to read a word *on sight*?" → read it instantly without sounding it out.
+- **Differentiation:** support: very short, decodable sentences; tutor models each first. / stretch: read a paragraph aloud "in character".
+- **Materials:** short decodable passage; a familiar storybook page.
+- **Joy:** performing the sentence "in character" — a giant, a baby, a king.
 
-### Lesson 6 — The th sound and tricky teams
+### Lesson 4 — Fluency review: beat the robot (retrieval)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can read *th* as one sound, not two."
-- **Hook:** Tongue-out mirror: "Watch my tongue — `/th/`. Try it!" (in *that, this, with*).
-- **Key activity:** I do — teach `th` explicitly with mirror; contrast wrong `/t/ /h/` with correct `/th/`. We do — collect a `th` word wall. You do — read *that, then, with, bath*, drawing one button under `th`.
-- **Check for understanding:** "Read *that*." → /th/ /a/ /t/ → "that".
-- **Differentiation:** support: tutor models each word first to echo. / stretch: sort voiced vs unvoiced *th* (*the* vs *bath*) by feel — just notice, no jargon.
-- **Materials:** mirror; `th` word-wall card.
-- **Joy:** the "tongue-out" sound everyone gets to make in the mirror.
+- **Objective:** "By the end, I can syllable-chop new words and read a passage fluently."
+- **Hook:** "Robot vs Storyteller! Read it the robot way once, then beat the robot with a smooth read."
+- **Key activity:** Retrieval of syllable-chopping (Lessons 1–2) and sight reading (Lesson 3). Guided warm-up, then independent: child beat-reads 4 long words, then reads a short passage twice (decode → fluency).
+- **Check for understanding:** "Read *playground* and tell me the beats." → *play-ground* (2) → "playground".
+- **Differentiation:** support: fewer words, shorter passage. / stretch: time the second read and try to beat it for smoothness.
+- **Materials:** long-word cards; short passage; timer (optional).
+- **Joy:** the "Robot vs Storyteller" face-off you always win the second time.
 
-### Lesson 7 — Trigraphs: three-letter teams (*igh*, *ear*, *air*)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can read a trigraph as one sound inside a word."
-- **Hook:** "*Night* has a three-letter team — i-g-h — all saying ONE sound, `/ie/`."
-- **Key activity:** I do — read *night* as /n/ /igh/ /t/; one button under all three letters. We do — blend *light, fright, hair, hear*. You do — read trigraph words, marking the three-letter team first.
-- **Check for understanding:** "Read *night*." → /n/ /igh/ /t/ → "night".
-- **Differentiation:** support: trigraph pre-circled. / stretch: match trigraph words to pictures and write one.
-- **Materials:** trigraph cards `igh ear air`; picture cards.
-- **Joy:** spotting the "biggest team" (three letters!) in a word.
-
-### Lesson 8 — Digraph sort (retrieval & consolidation)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can sort words by the letter-team they contain."
-- **Hook:** "Mystery mailbags! Each word belongs in the right team's bag — can you deliver them?"
-- **Key activity:** Quick retrieval of `sh ch ai igh` sounds. Guided sort of a few words, then independent: child sorts *ship, shop, fish* / *chip, chin, rich* / *rain, pain, wait* into columns, reading each aloud as they place it.
-- **Check for understanding:** "Find the digraph in *boat*." → `oa`.
-- **Differentiation:** support: three columns only, pre-labelled with a picture. / stretch: add a fourth column and a word that fits none (catch the trick).
-- **Materials:** sorting mat with columns; word cards.
-- **Joy:** "delivering" each word to its team like a postie.
-
-### Lesson 9 — Magic e: the split digraph
-- **Duration:** 25 min
-- **Objective:** "By the end, I can read a split-digraph word and explain what the silent *e* does."
-- **Hook:** "Meet a superhero letter: the silent *e* never makes a sound, but it changes the whole word — *cap → cape*!"
-- **Key activity:** I do — cover the *e* in *cake* to see *cak*; add *e* back: it reaches over and makes `a` say its name `/ai/`. We do — read *time, home, race*; compare pairs *pin/pine, hop/hope*. You do — change short words to magic-e words: *can→cane, tub→tube, cub→cube*.
-- **Check for understanding:** "What does the *e* do in *cake*?" → makes the `a` say its name `/ai/`; the *e* itself is silent.
-- **Differentiation:** support: physical "cover the e" card. / stretch: read a sentence mixing short and magic-e words.
-- **Materials:** word-pair cards (*pin/pine, hop/hope*); cover-card.
-- **Joy:** giving the silent *e* a "superhero swoosh" each time it changes a word.
-
-### Lesson 10 — One sound, many spellings (Phase 5 alternatives)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can choose a likely spelling when one sound has more than one way to write it."
-- **Hook:** Picture of a kite: "Which spelling is right — *kit, kite, kight*? They sound close, but only one is real."
-- **Key activity:** I do — show `/ai/` can be `ai`, `ay`, or `a_e` (*rain, play, cake*). We do — match sound to the right spelling in context. You do — `multipleChoice`: pick the real spelling for picture words; then read a short alternatives word list.
-- **Check for understanding:** "Read *home*." → /h/ /oa/ /m/ → "home".
-- **Differentiation:** support: two choices not three. / stretch: write the word from the picture with no options given.
-- **Materials:** picture cards; spelling-choice cards.
-- **Joy:** being the "spelling judge" who throws out the fake spellings.
-
-> **End-of-Unit 1 check:** Child reads a mixed list — 2 CVC, 1 digraph, 1 trigraph, 1 split-digraph word (e.g. *top, fish, night, cake, home*) — sounding out where needed; and spells *map, ship, time* by segmenting. Mastery = reads all five and spells all three correctly.
+> **End-of-Unit 1 check:** Child syllable-chops and reads three unfamiliar long words (e.g. *picnic, elephant, stegosaurus*) and reads a short passage aloud fluently with some expression. Mastery = long words read by beats; passage read smoothly, not word-by-word.
 
 ---
 
-## Unit 2 — Tricky words & sight reading
+## Unit 2 — Spelling with suffixes
 
-> **Essential question:** Why can't I sound out every word, and how do I read the tricky ones fast?
+> **Essential question:** How do I add an ending to a word so it's still spelled correctly?
 >
-> **Key vocabulary:** tricky word, common exception word, on sight, the tricky part.
+> **Key vocabulary:** root word, suffix, drop the *e*, double the consonant, *y → i*, *-ful*, *-less*, *-ness*, *-ly*, *-ment*.
 >
-> Drawn from KB topic 5. The tricky-part-by-heart, rest-by-sound approach; quick flashcard routines build automatic sight recall that frees attention for meaning.
+> Drawn from KB topics 2–3. The three suffix spelling rules, then the meaning-changing suffixes that build new words.
 
-### Lesson 11 — Words that don't play fair (the *the / I / he* set)
+### Lesson 5 — Just add it on: -ing, -ed, -er, -est
 - **Duration:** 20 min
-- **Objective:** "By the end, I can read the first common exception words on sight."
-- **Hook:** "Some words are sneaky — they break the sound rules. *The* won't sound out: try it… 'thuh-eh'? No! We just *know* it."
-- **Key activity:** I do — flag tricky words; read *the, I, he, she, we, me, be* on sight. We do — flashcard echo. You do — child reads the set on sight in a 3-second flash routine.
-- **Check for understanding:** "Read this word: *they*." → "they" (on sight).
-- **Differentiation:** support: 4 words, slower flash. / stretch: read tricky words inside a short sentence.
-- **Materials:** tricky-word flashcards.
-- **Joy:** the fast "flashcard race" with a personal best to beat.
+- **Objective:** "By the end, I can add a suffix to a word that needs no spelling change."
+- **Hook:** "A suffix is a little tail you add to a word — *jump* grows a tail and becomes *jumping*!"
+- **Key activity:** I do — define root + suffix; add *-ing/-ed* to *jump, play* (no change). We do — add suffixes to *help, paint, kick*. You do — child adds *-ing* and *-ed* to four "easy" roots and reads them back.
+- **Check for understanding:** "Add *-ing* to *play*." → *playing*.
+- **Differentiation:** support: root word written, child just adds the tail. / stretch: add *-er* and *-est* to *fast* (*faster, fastest*).
+- **Materials:** root-word cards; suffix tail cards (*-ing, -ed, -er, -est*).
+- **Joy:** physically sticking a paper "tail" onto each root word.
 
-### Lesson 12 — The tricky part: *was, said, you, are*
+### Lesson 6 — Drop the e (hope → hoping)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can read a tricky word and point to the part that breaks the rules."
-- **Hook:** "*Was* looks like it says 'wass' — but the `a` here says `/o/`. Sneaky!"
-- **Key activity:** I do — read *was*: sound `w…s`, the `a` says `/o/` → "woz". Locate the tricky part in *said* (`ai` says `/e/`). We do — find the tricky part in *you, are, were*. You do — read these on sight, naming the tricky bit.
-- **Check for understanding:** "Which part of *said* is tricky?" → the `ai`, which says `/e/`.
-- **Differentiation:** support: tricky part pre-highlighted. / stretch: read *your, they, there* and spot the tricky parts.
-- **Materials:** flashcards with tricky part highlighted.
-- **Joy:** being the detective who finds the "sneaky bit" in each word.
+- **Objective:** "By the end, I can drop a silent *e* before adding a vowel suffix."
+- **Hook:** "*Hope* + *ing* = *hopeing*? Try reading it… clunky! The silent *e* must hop off first."
+- **Key activity:** I do — *hope → hoping, bake → baking* (drop the *e*). We do — drop-the-*e* for *smile, nice, ride*. You do — child adds *-ing/-ed* to four *e*-ending roots, crossing the *e* off first.
+- **Check for understanding:** "Add *-ed* to *hope*." → *hoped* (drop the *e*).
+- **Differentiation:** support: tutor crosses the *e*; child adds the suffix. / stretch: spell *nicer*, *largest* (drop *e* before *-er/-est*).
+- **Materials:** *e*-ending root cards; whiteboard.
+- **Joy:** "kicking off" the silent *e* before the suffix moves in.
 
-### Lesson 13 — Spelling tricky words from memory
+### Lesson 7 — Double the consonant (run → running)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can spell key tricky words correctly from memory."
-- **Hook:** "We can't sound *said* to spell it — but we can say it a silly way to remember: 's-AY-id!'"
-- **Key activity:** I do — model the "silly way" mnemonic for *said*; spell *the, was*. We do — look-cover-write-check together. You do — spell *said, was, you, the* from memory and check against the card.
-- **Check for understanding:** "Spell *the*." → t-h-e.
-- **Differentiation:** support: copy first, then cover and try. / stretch: spell *they, there, friend* from memory.
-- **Materials:** look-cover-write-check sheet; tricky-word cards.
-- **Joy:** decorate a personal "tricky word wall" with each one mastered.
+- **Objective:** "By the end, I can double the final consonant of a short-vowel word before a vowel suffix."
+- **Hook:** "*Hoping* or *hopping*? One letter changes everything — and it's all about protecting a short sound."
+- **Key activity:** I do — *run → running, hop → hopping* (one vowel + one consonant → double); contrast *hoping/hopping*. We do — decide and double for *big, sit, swim*. You do — child adds *-ing/-ed* to four CVC roots, doubling the last letter.
+- **Check for understanding:** "Add *-ing* to *hop*." → *hopping* (double the *p*).
+- **Differentiation:** support: "short vowel + one consonant → double it" prompt card. / stretch: explain *why* *hoping* and *hopping* differ.
+- **Materials:** CVC root cards; rule prompt card.
+- **Joy:** the "twin letters" trick — watch the last letter make a copy of itself.
 
-### Lesson 14 — Tricky-word review & flashcard race (retrieval)
+### Lesson 8 — y → i (happy → happier)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can read and spell my tricky words quickly and accurately."
-- **Hook:** "Championship round! How many tricky words can you read in one minute?"
-- **Key activity:** Mixed retrieval across Lessons 11–13. Guided warm-up flash, then independent timed read of 10 tricky words, then spell 3 chosen from memory.
-- **Check for understanding:** "Spell *was*." → w-a-s (and reads it correctly).
-- **Differentiation:** support: smaller deck, untimed first. / stretch: read tricky words embedded in a story sentence.
-- **Materials:** full tricky-word deck; timer; whiteboard.
-- **Joy:** beating yesterday's score on the "championship" timer.
+- **Objective:** "By the end, I can change a final *y* to *i* before *-er/-est/-ed* (but keep *y* before *-ing*)."
+- **Hook:** "*Happyer*? No — the *y* turns into an *i* first: *happier*. But watch *crying* — *y* stays!"
+- **Key activity:** I do — *happy → happier/happiest, cry → cried* (but *crying*). We do — apply to *funny, sunny, try*. You do — child spells *happiest, sadder, dried* and *flying* (notice the *-ing* exception).
+- **Check for understanding:** "Add *-est* to *happy*." → *happiest* (*y → i*).
+- **Differentiation:** support: pairs given side by side to copy the change. / stretch: explain why *crying* keeps the *y*.
+- **Materials:** *y*-ending root cards; suffix cards.
+- **Joy:** watching the *y* "turn into" an *i* like a transformation.
 
-> **End-of-Unit 2 check:** Child reads 8 common exception words on sight (e.g. *the, said, was, you, they, there, are, here*) and spells *the, said, was* from memory. Mastery = 7/8 read, 3/3 spelled.
-
----
-
-## Unit 3 — Handwriting & letter formation
-
-> **Essential question:** How do I form each letter so my writing is clear and easy to read?
->
-> **Key vocabulary:** capital letter, lowercase letter, ascender, descender, start point, letter family.
->
-> Not a standalone KB topic but a Year 1 statutory strand; sequenced here so transcription keeps pace with spelling and sentence writing. Letters taught in families that share a movement.
-
-### Lesson 15 — Sitting, holding, and starting in the right place
-- **Duration:** 20 min
-- **Objective:** "By the end, I can hold my pencil correctly and form letters starting from the right point."
-- **Hook:** "Every letter has a secret starting dot — start in the wrong place and it goes wobbly!"
-- **Key activity:** I do — model tripod grip and posture; show start points for *c, a, o*. We do — air-write, then trace with a green start-dot. You do — form *c, a, o* in a guided line, starting on the dot each time.
-- **Check for understanding:** "Where does *c* start?" → at the top, just under the line, curving back (the start dot).
-- **Differentiation:** support: chunky pencil/grip aid; large dotted letters. / stretch: form the whole curly family *c a o d g*.
-- **Materials:** lined paper with start dots; pencil grip; tracing cards.
-- **Joy:** giant "air-writing" the letters like a magic wand before writing small.
-
-### Lesson 16 — Letter families: forming lowercase letters
+### Lesson 9 — Suffix sort (which rule?) — retrieval
 - **Duration:** 25 min
-- **Objective:** "By the end, I can form lowercase letters correctly within their movement families."
-- **Hook:** "Letters come in families that move the same way — meet the 'curly caterpillars' and the 'long ladders'."
-- **Key activity:** I do — model the long-ladder family *l i t u j* and one-armed-robot family *r n m h b p*. We do — trace and copy a few from each. You do — write each family on lined paper, watching ascenders sit tall and descenders dip below.
-- **Check for understanding:** "Which letters dip below the line?" → descenders like *g, j, p, y*.
-- **Differentiation:** support: one family only; dotted guides. / stretch: write a short word from each family (*lit, run*).
-- **Materials:** family handwriting strips; lined paper.
-- **Joy:** naming the silly letter families ("one-armed robots!") as you write them.
+- **Objective:** "By the end, I can choose the right suffix rule for any root word."
+- **Hook:** "Spelling Sorting Office! Each word goes in the right rule-bag: just-add, drop-e, double, or y→i."
+- **Key activity:** Retrieval of all three rules. Guided sort of a few words, then independent: child sorts *jump, hope, run, happy, bake, sit, play, cry* into four rule columns, then writes each with *-ing* or *-ed*.
+- **Check for understanding:** "Which rule for *run* + *-ing*?" → double the consonant → *running*.
+- **Differentiation:** support: three columns; words pre-grouped roughly. / stretch: add a "trick" word that fits none and explain.
+- **Materials:** four-column sorting mat; root-word cards.
+- **Joy:** being the "sorting office worker" who files each word correctly.
 
-### Lesson 17 — Capital letters and writing my name
-- **Duration:** 20 min
-- **Objective:** "By the end, I can form capital letters and write my name with a capital first letter."
-- **Hook:** "Your name deserves a big proud capital at the front — let's make it perfect."
-- **Key activity:** I do — model capitals all start at the top, same height. We do — practise capitals needed for the child's name and *I*. You do — write own name (capital + lowercase) and the word *I* three times.
-- **Check for understanding:** "How do you start writing your name?" → with a capital (big) letter.
-- **Differentiation:** support: highlighter name to trace. / stretch: write name plus one capital place-name (*London*).
-- **Materials:** name card; lined paper.
-- **Joy:** a beautifully written name they can sign their work with from now on.
+### Lesson 10 — Word-builders: -ful, -less, -ness, -ly, -ment
+- **Duration:** 25 min
+- **Objective:** "By the end, I can add a meaning-changing suffix to build a new word."
+- **Hook:** "*Help* + *ful* = full of help! *Help* + *less* = without help! One word, two opposite meanings."
+- **Key activity:** I do — build from *care*: *careful* (full of), *careless* (without); *kind → kindness*; *quick → quickly*; *enjoy → enjoyment*. Flag *-ful* loses an *l*. We do — build words from *hope, pain, sad*. You do — child builds and uses one new word in a sentence.
+- **Check for understanding:** "Add *-ful* to *care*." → *careful* (one *l*).
+- **Differentiation:** support: match roots to suffixes to make real words. / stretch: build a "thing" word and a "how" word from *happy* (*happiness, happily*).
+- **Materials:** root cards; suffix cards (*-ful, -less, -ness, -ly, -ment*).
+- **Joy:** inventing real superhero words — *powerful, fearless*.
 
-> **End-of-Unit 3 check:** Child writes the lowercase alphabet legibly (correct start points, ascenders/descenders placed), writes their own name with a capital, and forms the word *I*. Mastery = letters recognisable and correctly started, name capitalised.
-
----
-
-## Unit 4 — Sentence writing (VGP)
-
-> **Essential question:** What turns a pile of words into a proper sentence I can write?
->
-> **Key vocabulary:** sentence, capital letter, full stop, joining word (*and*), noun, plural, suffix (*-s, -es*).
->
-> Drawn from KB topics 6, 7, 8. "Hat and shoe" punctuation, joining with *and*, and plural suffixes — each taught, then applied in the child's own writing.
-
-### Lesson 18 — Capital letters and full stops (hat and shoe)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can write a sentence with a capital letter and a full stop."
-- **Hook:** "A sentence wears a hat (capital) at the start and a shoe (full stop) at the end — let's dress one up!"
-- **Key activity:** I do — say *The dog ran* aloud, then write it: capital T, full stop. We do — fix *the cat sat on the mat* (add hat + shoe). You do — `fillBlank`: add the missing capital + full stop to three sentences; then write one own sentence about today.
-- **Check for understanding:** "Fix this: *sam likes jam*." → *Sam likes jam.* (capital S, full stop).
-- **Differentiation:** support: oral rehearsal then dictate one word at a time. / stretch: write two sentences, proofreading each for hat + shoe.
-- **Materials:** sentence strips with punctuation missing; whiteboard.
-- **Joy:** drawing a tiny "hat" and "shoe" on each sentence as you check it.
-
-### Lesson 19 — The word *I* is always a capital
-- **Duration:** 20 min
-- **Objective:** "By the end, I can write the word *I* as a capital, even in the middle of a sentence."
-- **Hook:** "There's one word that ALWAYS wears its capital hat, anywhere in a sentence. Can you guess it? It's… *I*!"
-- **Key activity:** I do — model *I like football.* and *Today I ran.* (capital I mid-sentence). We do — fix *i like jam* and *today i played*. You do — write two sentences about themselves using a capital *I*.
-- **Check for understanding:** "Which word is always a capital letter?" → *I*.
-- **Differentiation:** support: word *I* pre-printed to place. / stretch: write a sentence with *I* in the middle and a name (both capitals).
-- **Materials:** sentence cards with lowercase *i* to fix.
-- **Joy:** "catching" every sneaky lowercase *i* and giving it its capital hat.
-
-### Lesson 20 — Joining ideas with *and*
-- **Duration:** 20 min
-- **Objective:** "By the end, I can join two ideas into one sentence using *and*."
-- **Hook:** "Two short sentences feel choppy: 'I like cats. I like dogs.' Glue them: 'I like cats *and* dogs!'"
-- **Key activity:** I do — join *I had toast* + *I had juice* → *I had toast and juice.* (no full stop before *and*). We do — join two more pairs. You do — `fillBlank`: join sentence pairs with *and* into one sentence.
-- **Check for understanding:** "True or false: you put a full stop before *and*." → False.
-- **Differentiation:** support: *and* card to drop into the gap. / stretch: join two actions (*She ran and jumped.*).
-- **Materials:** sentence-pair cards; *and* card.
-- **Joy:** physically "gluing" two sentence strips together with an *and* card.
-
-### Lesson 21 — Plurals with *-s*
-- **Duration:** 20 min
-- **Objective:** "By the end, I can add *-s* to make most nouns plural."
-- **Hook:** "One toy, two toys! When there's more than one, the word grows an *s*."
-- **Key activity:** I do — *cat → cats, pen → pens*. We do — make a handful plural. You do — write the plural of *dog, book, tree, car* (and notice: no apostrophe!).
-- **Check for understanding:** "Make *cat* plural." → *cats*.
-- **Differentiation:** support: count pictures to feel "more than one". / stretch: write a sentence using a plural.
-- **Materials:** noun picture cards; whiteboard.
-- **Joy:** counting a pile of objects and watching the word "grow" its *s*.
-
-### Lesson 22 — Plurals with *-es* (the hissing endings)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can add *-es* to nouns that end in *s, ss, sh, ch, x, z*."
-- **Hook:** "*Boxs*? Try saying it — your mouth gets stuck! Some words need *-es* to give an extra sound: *boxes*."
-- **Key activity:** I do — *box → boxes, dish → dishes, bus → buses* (listen for the extra syllable). We do — decide *-s* or *-es* for a few words. You do — `categorize`: sort nouns into "add *-s*" (*pen, book, tree*) vs "add *-es*" (*glass, witch, box*), then write each plural.
-- **Check for understanding:** "Make *bush* plural." → *bushes* (ends in *sh* → add *-es*).
-- **Differentiation:** support: trigger-ending chart on the desk. / stretch: explain *why* and correct *foxs → foxes*.
-- **Materials:** sorting mat; noun cards; trigger-endings chart.
-- **Joy:** saying the wrong "*boxs*" out loud and laughing at the stuck mouth.
-
-> **End-of-Unit 4 check:** Child writes one own sentence with a capital and full stop, joins a given pair with *and*, and makes *cat → cats* and *box → boxes* plural. Mastery = sentence correctly punctuated, *and* used without an early full stop, both plurals correct.
+> **End-of-Unit 2 check:** Child spells *hopping, hoped, happier* (applying double / drop-e / y→i) and builds *careful, kindness, happily*. Mastery = correct rule applied to at least 4 of 5; *-ful* spelled with one *l*.
 
 ---
 
-## Unit 5 — Spoken language, comprehension & composition
+## Unit 3 — Apostrophes & homophones
 
-> **Essential question:** How do I think about a story and turn my ideas into writing?
+> **Essential question:** When does a word need an apostrophe, and how do I pick between sound-alike words?
 >
-> **Key vocabulary:** predict, clue, because, character, beginning/middle/end, say it before you write it, read back.
+> **Key vocabulary:** apostrophe, contraction, possession, belonging, homophone, *there/their/they're*, *to/too/two*.
 >
-> Drawn from KB topics 9, 10. Talk-first comprehension and composition: prediction with reasons, then oral rehearsal into a short written story.
+> Drawn from KB topics 4, 8. The apostrophe's two jobs (never for plurals), then choosing homophones by meaning.
 
-### Lesson 23 — Predicting with clues (and *because*)
+### Lesson 11 — Apostrophes job 1: squashing words (contractions)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can predict what happens next using a clue and the word *because*."
-- **Hook:** Stop reading *The Three Little Pigs* at the straw house: "The wolf is huffing… what do you think happens next?"
-- **Key activity:** I do — model "I think the house falls down, *because* straw is not strong" (name the clues). We do — predict at another story stop, finding a clue. You do — `speak`: child predicts in a full sentence using *because*.
-- **Check for understanding:** "What is a prediction?" → a good guess about what happens next, using clues.
-- **Differentiation:** support: sentence stem "I think… because…". / stretch: predict two possible outcomes with reasons.
-- **Materials:** a familiar story with clear stopping points.
-- **Joy:** racing to call out the prediction before the page turns.
+- **Objective:** "By the end, I can write a contraction with the apostrophe where letters are missing."
+- **Hook:** "When we squash two words together, some letters fall out — the apostrophe is the little gravestone marking the gap."
+- **Key activity:** I do — *do not → don't, I am → I'm, it is → it's* (apostrophe where letters dropped). We do — contract *can not, she will, we are*. You do — child writes the contraction for four pairs, pointing to the missing letters.
+- **Check for understanding:** "Contract *cannot*." → *can't*.
+- **Differentiation:** support: cross out the dropped letters first, then add the apostrophe. / stretch: write *they're, you're* and say which letters are missing.
+- **Materials:** word-pair cards; whiteboard.
+- **Joy:** "burying" the missing letters under a little apostrophe gravestone.
 
-### Lesson 24 — Talking about a story in full sentences
+### Lesson 12 — Apostrophes job 2: belonging (possession)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can answer questions about a story in a full spoken sentence."
-- **Hook:** "Good readers don't just *read* the words — they *think* about the story. Let's talk like book detectives."
-- **Key activity:** I do — model a full-sentence answer ("The wolf wanted to eat the pigs."). We do — answer who/what/where questions together. You do — `speak`: answer three comprehension questions about a read-aloud in full sentences.
-- **Check for understanding:** "Give a reason word we use in predictions." → *because*.
-- **Differentiation:** support: a sentence stem to complete. / stretch: retell the gist in three sentences (beginning/middle/end).
-- **Materials:** a short read-aloud; question prompts.
-- **Joy:** being the "book detective" who explains what really happened.
+- **Objective:** "By the end, I can use *'s* to show that something belongs to someone."
+- **Hook:** "Whose pencil is this? Add a tiny *'s* and the word can tell you: *Mia's pencil*."
+- **Key activity:** I do — *the cat's tail = the tail of the cat*; *Sam's bag*. We do — turn "the bone of the dog" → *the dog's bone*. You do — child writes possessive *'s* for four phrases and labels items around the home.
+- **Check for understanding:** "Show the bag belongs to Sam." → *Sam's bag*.
+- **Differentiation:** support: phrase given, child just adds *'s*. / stretch: rewrite "the lead of the dog" and "the desk of the tutor".
+- **Materials:** belonging phrase cards; sticky labels.
+- **Joy:** making "belonging labels" for real objects around the room.
 
-### Lesson 25 — Say it before you write it (oral rehearsal)
+### Lesson 13 — The apostrophe trap: NOT for plurals
 - **Duration:** 20 min
-- **Objective:** "By the end, I can say a sentence aloud, then write it the same way."
-- **Hook:** "Magic rule of writers: if you can SAY it, you can WRITE it. Say it first!"
-- **Key activity:** I do — say "A little dog got lost.", then write it word for word. We do — rehearse and write one sentence together. You do — child says one sentence aloud about a picture, then writes it (capital + full stop), then reads it back.
-- **Check for understanding:** "What should you do *before* you write a sentence?" → say it out loud.
-- **Differentiation:** support: rehearse 2–3 times before writing. / stretch: rehearse and write two linked sentences.
-- **Materials:** a story-starter picture (e.g. Pobble 365 style); whiteboard.
-- **Joy:** the satisfying "read it back" to hear your own sentence work.
+- **Objective:** "By the end, I can tell a plural (no apostrophe) from possession/contraction (apostrophe)."
+- **Hook:** Show a sign reading "apple's 50p". "Is this right? The apples don't *own* anything — that apostrophe is a mistake!"
+- **Key activity:** I do — contrast *two cats* (plural, no apostrophe) with *the cat's tail* (belonging). Teach the *it's/its* test ("say *it is*"). We do — fix grocer's-apostrophe signs. You do — child decides apostrophe or not for six phrases.
+- **Check for understanding:** "True or false: two dogs is written *dog's*." → False — *dogs*.
+- **Differentiation:** support: ask "is something *belonging*?" as a yes/no gate. / stretch: fix *its/it's* in two sentences.
+- **Materials:** "wrong sign" cards; sorting mat (apostrophe / no apostrophe).
+- **Joy:** being the "sign inspector" who catches shops' apostrophe mistakes.
 
-### Lesson 26 — Beginning, middle and end (order a story)
+### Lesson 14 — Homophones: there / their / they're
+- **Duration:** 25 min
+- **Objective:** "By the end, I can choose *there*, *their* or *they're* by meaning."
+- **Hook:** "Three words sound the same but mean totally different things — the words people muddle most. Be the expert!"
+- **Key activity:** I do — *there* (place, has *here* in it), *their* (belonging), *they're* (= *they are*). Model the "say *they are*" test. We do — choose for two sentences. You do — child fills six gaps choosing the right one, saying the test aloud.
+- **Check for understanding:** "Which means 'belonging to them'?" → *their*.
+- **Differentiation:** support: two choices not three; meaning cue cards. / stretch: write one sentence using all three correctly.
+- **Materials:** homophone cue cards; gap-fill sentences.
+- **Joy:** "they're / their / there" test cracked — feeling smarter than most grown-up texters.
+
+### Lesson 15 — Homophones: to / too / two & friends (retrieval)
 - **Duration:** 20 min
-- **Objective:** "By the end, I can put a story's events in order: beginning, middle, end."
-- **Hook:** "A story muddled up makes no sense — help me put these three parts back in order!"
-- **Key activity:** I do — show why order matters (end before middle = nonsense). We do — order three sentences with "first / then / at the end" fingers. You do — `ordering`: arrange three story sentences into beginning/middle/end.
-- **Check for understanding:** "What three parts does a story have?" → beginning, middle and end.
-- **Differentiation:** support: picture cards alongside sentences. / stretch: add a missing middle sentence of your own.
-- **Materials:** scrambled story-sentence cards.
-- **Joy:** unscrambling the muddled story like a puzzle.
+- **Objective:** "By the end, I can choose the right homophone from sound-alike sets by meaning."
+- **Hook:** "*Two* biscuits is *too* many *to* eat! Three sound-alikes in one sentence — let's untangle them."
+- **Key activity:** Retrieval of there/their/they're. I do — *two* (number), *too* (also/very — extra *o* for 'extra'), *to* (the rest); also *here/hear, see/sea*. We do — choose for two sentences. You do — child completes six mixed homophone gaps.
+- **Check for understanding:** "Choose: 'I want to come ___.' (also)" → *too*.
+- **Differentiation:** support: meaning prompts on each word. / stretch: explain the *too = extra o* memory trick.
+- **Materials:** homophone gap-fill sheet; cue cards.
+- **Joy:** the "extra *o* for extra" trick that makes *too* easy forever.
 
-### Lesson 27 — Writing my own three-sentence story
+> **End-of-Unit 3 check:** Child writes *can't* and *Sam's bag*, marks two dogs as *dogs* (no apostrophe), and chooses correctly in "___ going to ___ house over ___" (*They're / their / there*). Mastery = both apostrophe jobs correct, no plural apostrophe, homophones right.
+
+---
+
+## Unit 4 — Word classes & sentence types (VGP)
+
+> **Essential question:** What jobs do words do, and how do sentences come in different types?
+>
+> **Key vocabulary:** noun, adjective, verb, adverb, expanded noun phrase, statement, question, command, exclamation, conjunction, co-ordination, subordination.
+>
+> Drawn from KB topics 5, 6, 7. Naming word classes and building noun phrases; the four sentence types and their marks; joining clauses with *and/but* and *because/when/if/that*.
+
+### Lesson 16 — Nouns, adjectives and verbs (word jobs)
+- **Duration:** 25 min
+- **Objective:** "By the end, I can spot whether a word is a noun, an adjective or a verb."
+- **Hook:** "Every word has a job. Nouns name, adjectives describe, verbs do — let's hand out the jobs!"
+- **Key activity:** I do — tests: noun ("can I put *the* before it?"), verb ("can I *do* it?"), adjective ("does it describe a noun?"). Model on *dog, run, fluffy*. We do — sort a few words. You do — child sorts a word list into nouns / adjectives / verbs using the tests.
+- **Check for understanding:** "Which word is the verb: *The happy dog ran*?" → *ran*.
+- **Differentiation:** support: two columns first (nouns vs verbs). / stretch: find all three word classes in one sentence.
+- **Materials:** word cards; three-column sorting mat; test prompts.
+- **Joy:** using the quick "tests" like a word detective's tools.
+
+### Lesson 17 — Expanded noun phrases (paint a picture)
+- **Duration:** 25 min
+- **Objective:** "By the end, I can expand a noun with adjectives, using a comma between two."
+- **Hook:** "Not just *a dog* — *a small, noisy dog*! Adjectives paint a clearer picture in the reader's head."
+- **Key activity:** I do — build *castle → a dark castle → a dark, spooky castle* (comma between two adjectives). We do — expand *forest, monster*. You do — child expands three nouns into noun phrases with two adjectives and a comma.
+- **Check for understanding:** "Add two adjectives to *forest*." → e.g. *a dark, silent forest*.
+- **Differentiation:** support: adjective word-bank to choose from. / stretch: add a noun phrase into a full sentence.
+- **Materials:** noun cards; adjective word-bank.
+- **Joy:** describing a made-up monster with three vivid adjectives.
+
+### Lesson 18 — The four sentence types
+- **Duration:** 20 min
+- **Objective:** "By the end, I can name the four sentence types and add the correct end mark."
+- **Hook:** "Sentences come in four flavours — telling, asking, bossing, and bursting with feeling!"
+- **Key activity:** I do — statement (.), question (?), command (bossy verb), exclamation (*What…!/How…!*). Model sorting *Stop! / Where are you? / I am tired.* We do — sort two more. You do — child sorts eight sentences into the four types and adds end marks.
+- **Check for understanding:** "What type is 'Close the window.'?" → a command.
+- **Differentiation:** support: four type-cards as anchors. / stretch: write one of each type.
+- **Materials:** sentence cards; four type labels.
+- **Joy:** reading each type aloud in the right voice (asking voice goes up!).
+
+### Lesson 19 — Questions & exclamations (the special marks)
+- **Duration:** 20 min
+- **Objective:** "By the end, I can write a question with a ? and a true exclamation starting *What/How*."
+- **Hook:** "An asking sentence makes your voice go UP — and it needs a special hook on the end: ?"
+- **Key activity:** I do — turn statements into questions (*The sky is blue.* → *Is the sky blue?*); turn *The cake is big.* into *What a big cake!* We do — fix a question ending in a full stop. You do — child writes two questions and one *What/How* exclamation.
+- **Check for understanding:** "Turn 'The cake is big.' into an exclamation." → *What a big cake!*
+- **Differentiation:** support: question-word bank (*who, what, where, when, why, how*). / stretch: explain why a command with *!* is not an exclamation *sentence*.
+- **Materials:** statement cards; question-word bank.
+- **Joy:** the "voice goes up" game for spotting questions.
+
+### Lesson 20 — Joining clauses: and / but / or, and because / when / if / that
+- **Duration:** 25 min
+- **Objective:** "By the end, I can join two ideas with the right conjunction, including *because* for a reason."
+- **Hook:** "'I was happy.' Why? Add *because* and tell us the reason: 'I was happy *because* it was my birthday!'"
+- **Key activity:** I do — co-ordination (*and/but/or* join equals) vs subordination (*because/when/if/that* add a dependent part). Model adding a *because* reason. We do — join two pairs. You do — child completes five sentences with the best conjunction.
+- **Check for understanding:** "Which word shows a reason: *and, but, because*?" → *because*.
+- **Differentiation:** support: conjunction bank with meanings. / stretch: write a sentence using *when* or *if* correctly.
+- **Materials:** sentence-pair cards; conjunction bank.
+- **Joy:** finishing silly "I was late because…" sentences with your own reasons.
+
+> **End-of-Unit 4 check:** Child sorts a word into noun/adjective/verb, expands a noun into a phrase with a comma, sorts three sentences into types with end marks, and joins a pair with *because* giving a real reason. Mastery = word class correct, comma used, end marks right, reasoned *because*.
+
+---
+
+## Unit 5 — Comprehension & composition
+
+> **Essential question:** How do I read between the lines, and how do I write a clear set of instructions?
+>
+> **Key vocabulary:** retrieval, inference, clue, evidence, *because the text says…*, instructions, command, order words (*first, next, then, finally*), "you will need".
+>
+> Drawn from KB topics 9, 10. Inference backed by clues, then writing a real how-to text.
+
+### Lesson 21 — Retrieval vs inference (be a reading detective)
+- **Duration:** 20 min
+- **Objective:** "By the end, I can tell a retrieval question from an inference question."
+- **Hook:** "Some answers are written right there. Others you have to *work out* like a detective — from the clues."
+- **Key activity:** I do — passage about Mia and the fridge: retrieval ("What did Mia open?" → it says) vs inference ("How does she feel?" → hungry, tummy rumbled). We do — sort two questions. You do — child reads a 3-sentence passage and labels two questions as retrieval or inference.
+- **Check for understanding:** "Is 'What colour was the coat?' retrieval or inference?" → retrieval.
+- **Differentiation:** support: highlight where the retrieval answer "sits" on the page. / stretch: write one of each question type about the passage.
+- **Materials:** short passages; question cards.
+- **Joy:** the "detective" framing — clues hidden in the words.
+
+### Lesson 22 — Inference with a clue (and proving it)
+- **Duration:** 25 min
+- **Objective:** "By the end, I can make an inference and back it up with a clue from the text."
+- **Hook:** "The text says 'Tom's hands were shaking and he couldn't speak.' It never says *scared* — but we KNOW. How?"
+- **Key activity:** I do — model "I think Tom is scared *because* the text says his hands shook." We do — infer a feeling from another short passage, naming the clue. You do — child answers one inference question with the stem "I think… because the text says…".
+- **Check for understanding:** "How do we know Tom is scared?" → his hands shake and he can't speak.
+- **Differentiation:** support: clue pre-underlined; sentence stem given. / stretch: infer two feelings, each with its own clue.
+- **Materials:** short passages with clue words; "I think… because…" stem card.
+- **Joy:** cracking the hidden feeling and proving it with evidence.
+
+### Lesson 23 — How instructions work (commands & order words)
+- **Duration:** 20 min
+- **Objective:** "By the end, I can identify the features of instructions and order steps correctly."
+- **Hook:** "Could someone in your family make a jam sandwich from your writing — without you there? Good instructions can do that!"
+- **Key activity:** I do — features: title, "you will need", numbered steps starting with a **bossy verb**, order words (*first, next, then, finally*). We do — order four jumbled sandwich steps. You do — child orders a jumbled set of steps and underlines each bossy verb.
+- **Check for understanding:** "What kind of sentence starts each step?" → a command (bossy verb).
+- **Differentiation:** support: pictures alongside each step. / stretch: spot a missing step and add it.
+- **Materials:** jumbled step cards; order-word bank.
+- **Joy:** unscrambling the muddled recipe like a puzzle.
+
+### Lesson 24 — Write your own instructions
 - **Duration:** 30 min
-- **Objective:** "By the end, I can plan, say and write a three-sentence story with a beginning, middle and end."
-- **Hook:** "You're the author today — your own mini-story about a hero, a lost pet, or your real day!"
-- **Key activity:** I do — model planning on "first / then / at the end" fingers, rehearsing each sentence before writing. We do — plan one together. You do — child plans, says, then writes three sentences (capitals + full stops), and reads back to check it makes sense in order.
-- **Check for understanding:** "Why do we read our writing back?" → to check it makes sense.
-- **Differentiation:** support: oral rehearse each sentence with the tutor before writing; word bank. / stretch: join two ideas with *and* somewhere in the story.
-- **Materials:** planning fingers/strip; lined paper; character choices.
-- **Joy:** being a real "author" and reading the finished story aloud.
+- **Objective:** "By the end, I can write a clear set of instructions with commands and order words."
+- **Hook:** "You're the instruction author! Teach someone how to do something *you* know — a game, a craft, a snack."
+- **Key activity:** I do — model planning: title, "you will need", then steps with *first/next/then/finally* and bossy verbs. We do — plan one together. You do — child writes a title, a "you will need" list, and 3–4 numbered command steps; rehearses each aloud first.
+- **Check for understanding:** "Why start each step with a bossy verb?" → so the reader knows exactly what to do.
+- **Differentiation:** support: writing frame with starters (*First, … Next, …*). / stretch: test the instructions by following them and fixing any gap.
+- **Materials:** instruction writing frame; order-word bank.
+- **Joy:** writing a real how-to the tutor or a family member could actually follow.
 
-> **End-of-Unit 5 check:** Child makes a reasoned prediction using *because*, answers a comprehension question in a full sentence, and writes a three-sentence story in order with capitals and full stops. Mastery = prediction has a clue + reason; story is sequenced and punctuated.
+### Lesson 25 — End-of-year review: read it, prove it, write it (retrieval)
+- **Duration:** 25 min
+- **Objective:** "By the end, I can read fluently, infer with evidence, and write a correctly punctuated sentence."
+- **Hook:** "Show-off day! Everything you've learned this year — in one mini challenge."
+- **Key activity:** Mixed retrieval across the year. You do — child (1) beat-reads two long words and reads a sentence fluently, (2) answers one inference question with a clue, (3) writes one sentence with a capital, end mark, and a *because* reason.
+- **Check for understanding:** "Give a sentence stem that proves an inference." → "I think… because the text says…".
+- **Differentiation:** support: choose the easier of two passages; sentence stems given. / stretch: add an expanded noun phrase to the written sentence.
+- **Materials:** mixed task cards; short passage; whiteboard.
+- **Joy:** a "show what you know" round with a personal best to beat.
+
+> **End-of-Unit 5 check:** Child labels a retrieval vs an inference question, makes an inference with a clue ("…because the text says…"), and writes a 3–4 step set of instructions with commands and order words. Mastery = inference evidenced; instructions ordered with bossy verbs and a "you will need".
 
 ---
 
@@ -344,11 +324,11 @@ Year 1 is the engine room of reading. Across the year a child moves from blendin
 
 A Year 1 child has mastered English when they can:
 
-1. **Blend to read** — sound out and read unfamiliar CVC and CCVC words, including digraphs, trigraphs and split digraphs (e.g. *fish, night, cake*).
-2. **Segment to spell** — break a spoken word into sounds and write a grapheme for each, with the vowel in the middle (e.g. spell *ship, time*).
-3. **Read tricky words on sight** — read at least 20 common exception words automatically and spell key ones (*the, said, was, you*) from memory.
-4. **Form letters correctly** — write the lowercase alphabet legibly with correct start points and ascenders/descenders, and capital letters including their name and the word *I*.
-5. **Punctuate a sentence** — write a sentence with a capital letter and a full stop, and capitalise *I* and names every time.
-6. **Join and pluralise** — join two ideas with *and* (no early full stop) and make nouns plural with *-s* and *-es* correctly (no apostrophe).
-7. **Comprehend and talk** — make a reasoned prediction using *because* and answer questions about a story in full spoken sentences.
-8. **Compose** — rehearse aloud then write a short three-sentence story with a beginning, middle and end, and read it back to check it makes sense.
+1. **Read fluently** — syllable-chop and read unfamiliar long words, read many words on sight, and read a passage smoothly with expression (e.g. *stegosaurus, playground*).
+2. **Spell with suffix rules** — add *-ing/-ed/-er/-est* using drop-the-*e*, double-the-consonant and *y → i* correctly (e.g. *hoping, hopping, happier*).
+3. **Build words with suffixes** — make new words with *-ful, -less, -ness, -ly, -ment* (e.g. *careful, kindness, happily*), spelling *-ful* with one *l*.
+4. **Use apostrophes correctly** — write contractions and possessive *'s*, and never use an apostrophe for a plain plural.
+5. **Choose homophones** — pick *there/their/they're* and *to/too/two* by meaning.
+6. **Use word classes & sentence types** — identify noun/adjective/verb, build an expanded noun phrase with a comma, and write all four sentence types with correct end marks.
+7. **Join clauses** — co-ordinate with *and/but/or* and subordinate with *because/when/if/that*, giving a real reason after *because*.
+8. **Comprehend and compose** — make an inference backed by a clue from the text, and write a clear set of instructions using commands and order words.
