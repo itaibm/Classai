@@ -30,7 +30,7 @@ objects.
 
 **What Year 3 (ages 8–9) relies on from this year:** secure BCE/CE chronology and long timelines;
 comparing civilisations by the same headings (food, homes, beliefs, writing, rulers, legacy);
-evaluating sources. Year 3 continues the story with **Ancient Greece** and **the Roman Empire**,
+evaluating sources. Year 3 continues the story with **Ancient Greece**, **the Roman Empire**, **Kush** and **Ancient China**,
 which grew from the world built by the civilisations studied here.
 
 **How we teach history here:** a big question per unit, rich stories, real (replica) artefacts,
@@ -74,7 +74,7 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 - **Hook:** "Which is older: 3000 BCE or 300 BCE? The bigger number?"
 - **Key activity:** Use a number line with year 1 in the middle; BCE counts backwards (like negative numbers), CE counts forwards; order a set of dates; note that BC/AD are older labels for the same system.
 - **Check for understanding:** "Why is 3000 BCE older than 300 BCE?" → BCE years count backwards from year 1, so the bigger the BCE number, the further back in time.
-- **Differentiation:** support: order three dates using a large number line / stretch: find how many years between 500 BCE and 500 CE (about 1,000 — there is no year 0).
+- **Differentiation:** support: order three dates using a large number line / stretch: find how many years between 500 BCE and 500 CE (999, not 1,000 — there is no year 0).
 - **Materials:** large number-line timeline, date cards, pegs
 - **Joy:** "Time-travel line-up" — children holding dates arrange themselves.
 
@@ -179,7 +179,7 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 ### Lesson 12 — The Bronze Age: metal changes everything
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain why bronze was important and how trade grew." (UK NC KS2 History – Bronze Age)
-- **Hook:** A copper coin and a tin can — "Mix these and you get…?"
+- **Hook:** A piece of copper wire and a photo of tin — "Melt these two metals together and you get…?" (Aside: most coins and "tin" cans today are not really made of copper or tin — a good reason to check.)
 - **Key activity:** Learn that bronze is made by mixing copper and tin; that metal tools and weapons were stronger; that because copper and tin were often found far apart, trade grew; look at the Amesbury Archer's grave goods (buried near Stonehenge, whose teeth show he grew up in the Alps region).
 - **Check for understanding:** "Why did the Bronze Age lead to more trade?" → Copper and tin came from different places, so people had to trade to get both.
 - **Differentiation:** support: picture sequence of making bronze / stretch: explain how scientists can tell where someone grew up (chemistry of teeth).
@@ -190,7 +190,7 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe life in the Iron Age and why iron replaced bronze." (UK NC KS2 History – Iron Age)
 - **Hook:** A photo of a hillfort seen from the air.
-- **Key activity:** Learn that iron ore was more common than copper and tin, so tools became cheaper; explore roundhouses, hillforts and Iron Age craft (e.g. Celtic metalwork); note that Iron Ages began at different times in different places.
+- **Key activity:** Learn that iron ore was more common than copper and tin, so tools became cheaper; explore roundhouses, hillforts and Iron Age craft (e.g. Celtic metalwork) and, in West Africa, the Nok culture of Nigeria — early iron-smelters famous for their terracotta heads; note that Iron Ages began at different times in different places.
 - **Check for understanding:** "Why might people build their homes on a hill with ditches around it?" → For protection from attack and to see enemies coming.
 - **Differentiation:** support: labelled hillfort picture / stretch: compare a roundhouse with a Neolithic house.
 - **Materials:** aerial photos, roundhouse model plans, metalwork images
@@ -337,7 +337,7 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 - **Objective:** "By the end, I can describe a Sumerian city and explain the importance of the wheel." (UK NC KS2 History – Sumer)
 - **Hook:** The Royal Game of Ur, one of the oldest board games in the world — "Let's play!"
 - **Key activity:** Explore city-states, ziggurats and inventions (wheeled carts, the potter's wheel, counting in 60s, which gives us 60 minutes in an hour); play the Royal Game of Ur (printable board).
-- **Check for understanding:** "What do we still use today that comes from Sumer?" → e.g. 60 minutes/seconds, the wheel, writing.
+- **Check for understanding:** "Look at a clock. Explain how it connects to Sumer 5,000 years ago." → The Sumerians (and later Babylonians) counted in 60s, and we still split an hour into 60 minutes and a minute into 60 seconds.
 - **Differentiation:** support: picture cards of inventions / stretch: explain why counting in 60s is useful (many factors).
 - **Materials:** Royal Game of Ur boards, counters, dice, ziggurat pictures
 - **Joy:** The Royal Game of Ur tournament.
@@ -415,7 +415,7 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 - **Objective:** "By the end, I can place all the year's periods and civilisations on one timeline and spot overlaps." (UK NC KS2 History – chronology)
 - **Hook:** "When the Great Pyramid was being built, what was happening at Stonehenge?"
 - **Key activity:** Build a class timeline with parallel rows for different places; notice overlaps (Stonehenge's big stones and the Great Pyramid are roughly the same age; the Shang and later Egyptian dynasties overlap).
-- **Check for understanding:** "What does it mean that two civilisations 'overlap' on the timeline?" → They existed at the same time in different places.
+- **Check for understanding:** "Use our timeline to prove that Shang China and Ancient Egypt overlapped. Did the people know about each other?" → Both rows cover about 1600–1050 BCE, so they existed at the same time; they almost certainly did not know about each other — overlapping in time does not mean meeting.
 - **Differentiation:** support: place cards on a prepared timeline / stretch: calculate time gaps between events.
 - **Materials:** long paper, event cards, string
 - **Joy:** A wall-length "world timeline."
@@ -423,7 +423,7 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 ### Lesson 34 — Ancient history near me
 - **Duration:** 30 min
 - **Objective:** "By the end, I can find out about an ancient site or object from my own country or region." (UK NC KS2 History – local history)
-- **Hook:** A photo of an ancient site or museum object from the local area (worked example: for a school in the UK, a local Iron Age hillfort; in Kenya, the rock art of Lake Victoria region; in Mexico, Teotihuacan; in Israel, Tel Megiddo).
+- **Hook:** A photo of an ancient site or museum object from the local area (worked example: for a school in the UK, a local Iron Age hillfort; in Kenya, the rock art of Mfangano Island on Lake Victoria; in Mexico, Teotihuacan; in Israel, Tel Megiddo).
 - **Key activity:** Research a local site or museum object with the four detective questions; add it to the big timeline; if possible, visit.
 - **Check for understanding:** "How does your local site fit on the big timeline?" → Places it and compares it with a civilisation studied.
 - **Differentiation:** support: guided fact sheet / stretch: compare the local site with one studied this year.
@@ -478,4 +478,4 @@ us? What else would we need?* Lessons are 25–30 minutes, one per week.
 
 **International and local.** Swap case studies to include ancient sites from your own country in Unit 5 and wherever possible throughout (e.g. Great Zimbabwe is later but can be previewed on the timeline; Caral in Peru is one of the oldest cities in the Americas).
 
-**Vertical alignment.** Year 1 introduced chronology within and beyond living memory, significant people and local history. Year 3 continues the story to **Ancient Greece and Rome** — the comparison headings, BCE/CE timelines and evidence routines built this year carry straight into those units.
+**Vertical alignment.** Year 1 introduced chronology within and beyond living memory, significant people and local history. Year 3 continues the story to **Ancient Greece, Rome, the Kingdom of Kush and Ancient China** (which deepens this year's single Shang lesson into a full unit) — the comparison headings, BCE/CE timelines and evidence routines built this year carry straight into those units.

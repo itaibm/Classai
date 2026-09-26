@@ -68,7 +68,7 @@ daily 2-minute singing or pulse warm-ups in class are strongly recommended.
 - **Objective:** "By the end, I can say and clap ta (one sound on a beat) and ti-ti (two sounds on a beat) and read them from cards." (UK NC KS1 Music PL; MMC Y2)
 - **Hook:** "Bear and bee: the bear walks slowly — ta, ta. The bee buzzes — ti-ti, ti-ti."
 - **Key activity:** Learn ta and ti-ti with actions; stick notation (ta = |, ti-ti = two joined sticks); read 4-beat rhythm cards; echo-clap.
-- **Check for understanding:** "How many sounds does ti-ti make on one beat?" → Two.
+- **Check for understanding:** "I clap 'ta, ti-ti, ta, ta'. How many claps is that, and how many beats? Why are they different?" → Five claps but four beats — ti-ti fits two sounds into one beat.
 - **Differentiation:** support: 2-beat cards / stretch: 8-beat patterns
 - **Materials:** rhythm cards, bear and bee pictures, drum
 - **Joy:** Bear and bee movement game.
@@ -98,7 +98,7 @@ daily 2-minute singing or pulse warm-ups in class are strongly recommended.
 - **Objective:** "By the end, I can keep a short repeating rhythm (an ostinato) going while others sing." (UK NC KS1 Music PL; MMC Y2)
 - **Hook:** Listen to the snare drum in Ravel's *Boléro*: "What does it keep doing?"
 - **Key activity:** Learn a word ostinato ("pizza, pizza, pop!"); play it on untuned percussion while the class sings a known song; layer two ostinati.
-- **Check for understanding:** "What is an ostinato? Give an example from today." → A pattern that repeats over and over, like the Boléro drum or our "pizza" pattern.
+- **Check for understanding:** "I play a pattern once and then something different. Is that an ostinato? What would make it one?" → No — an ostinato has to keep repeating over and over, like the Boléro drum or our "pizza, pizza, pop!" pattern.
 - **Differentiation:** support: ostinato that follows the pulse (ta ta ta ta) / stretch: two ostinati at once in a group
 - **Materials:** recording of *Boléro* (Ravel), untuned percussion
 - **Joy:** Layered "rhythm band".
@@ -208,7 +208,7 @@ daily 2-minute singing or pulse warm-ups in class are strongly recommended.
 - **Objective:** "By the end, I can make music gradually get louder (crescendo) and quieter (diminuendo)." (UK NC KS1 Music PL/LI)
 - **Hook:** Listen again to "In the Hall of the Mountain King": "What happens to the volume as it goes on?"
 - **Key activity:** Show the hairpin symbols; sound story of a storm arriving and leaving with percussion; conductor controls with arms.
-- **Check for understanding:** "What is a crescendo? Where did you hear one today?" → Getting gradually louder — in the Mountain King and our storm.
+- **Check for understanding:** "Count from 1 to 8 on one note with a crescendo. What changed, and what stayed the same?" → The volume grew gradually louder; the speed (tempo) and the note (pitch) stayed the same — a crescendo is only about getting louder.
 - **Differentiation:** support: follow the conductor / stretch: plan where the crescendo goes in the storm piece
 - **Materials:** Grieg recording, hairpin cards, percussion
 - **Joy:** The storm sound story.
@@ -318,7 +318,7 @@ daily 2-minute singing or pulse warm-ups in class are strongly recommended.
 - **Objective:** "By the end, I can identify instruments by sound, name their family and describe their timbre." (UK NC KS1 Music LI — assessment)
 - **Hook:** "Instrument passport — one stamp for each correct guess."
 - **Key activity:** Listening quiz with clips; sort instrument pictures; describe a favourite instrument's timbre. Meet percussionist Evelyn Glennie, who feels music through her body.
-- **Check for understanding:** "Name an instrument from each family." → e.g. violin, flute, trumpet, drum.
+- **Check for understanding:** "Here is a picture of an instrument we haven't met (e.g. a tuba or a harp). Which family does it belong to, and what clue tells you?" → e.g. the tuba is brass — it's metal with a cup mouthpiece you buzz your lips into; the harp is strings — it has strings you pluck.
 - **Differentiation:** support: picture choices / stretch: explain how Evelyn Glennie "hears" music
 - **Materials:** audio clips, instrument pictures, passports
 - **Joy:** Passport stamps.
@@ -491,4 +491,4 @@ daily 2-minute singing or pulse warm-ups in class are strongly recommended.
 
 **Inclusive music.** Offer instruments that suit every child's body; celebrate musical traditions from children's homes; invite family musicians to share.
 
-**Vertical alignment.** Foundation gave pulse, rhythm, high/low, singing and untuned percussion. Year 2 (ages 7–8) begins the recorder (B–A–G), standard notation with bars and minims, and structured improvisation — this year's so–mi–la singing, stick notation and glockenspiel technique are the launchpad.
+**Vertical alignment.** Foundation gave pulse, rhythm, high/low, singing and untuned percussion. Year 2 (ages 7–8) begins the recorder (B–A–G and beyond), staff notation with bars, minims and metre, new rounds and world songs, and pentatonic composing on the recorder — this year's so–mi–la singing, stick notation, rounds, glockenspiel pentatonic improvisation and graphic scores are the launchpad, and Year 2 should retrieve rather than re-teach them.

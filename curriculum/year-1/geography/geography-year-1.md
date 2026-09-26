@@ -77,7 +77,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can use and design symbols and a key for a map." (UK NC KS1 SF — simple maps and keys)
 - **Hook:** "Maps can't write 'tree' everywhere — they use a secret code!"
 - **Key activity:** Read symbols on real maps; design clear symbols for school features (library, playground, office); make a key.
-- **Check for understanding:** "Why does a map need a key?" → To tell the reader what each symbol means.
+- **Check for understanding:** "Here is a map with three symbols but no key. What problem will a visitor have, and how would you fix it?" → They can't tell what the symbols mean (is the triangle a tent or a tree?); add a key that shows each symbol next to its meaning.
 - **Differentiation:** support: match given symbols to pictures / stretch: design symbols that work without colour
 - **Materials:** local maps, symbol cards, paper
 - **Joy:** Inventing a secret-code map.
@@ -207,7 +207,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can name and locate the seven continents on a globe and world map." (UK NC KS1 LK — continents)
 - **Hook:** Continent song: "Seven continents — can you find them all?"
 - **Key activity:** Retrieve Foundation learning; label a world map; continent jigsaw; compare globe and flat map.
-- **Check for understanding:** "Which continent do we live on, and which continent is the coldest?" → Our continent (named correctly); Antarctica.
+- **Check for understanding:** "Antarctica is a continent, but the Arctic is not. Use the globe to explain why." → Antarctica is a huge area of land (covered in ice); the Arctic around the North Pole is mostly frozen ocean, with no continent underneath.
 - **Differentiation:** support: 4 continents with colour cues / stretch: order continents by size
 - **Materials:** globe, world maps, continent jigsaw
 - **Joy:** Continent song with actions.
@@ -217,7 +217,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can name and locate the five oceans and say which continents they touch." (UK NC KS1 LK — oceans)
 - **Hook:** "Most of the Earth is water. Which ocean is the biggest?"
 - **Key activity:** Label oceans; find which continents each ocean touches; ocean animals match.
-- **Check for understanding:** "Which ocean is between Africa and Australia?" → The Indian Ocean.
+- **Check for understanding:** "A ship sails from Kenya to Australia. Which ocean does it cross, and how can you tell from the map?" → The Indian Ocean — it is the water between the east coast of Africa and the west coast of Australia.
 - **Differentiation:** support: 3 oceans / stretch: plan a sea voyage from our country to another continent and name the oceans crossed
 - **Materials:** globe, world maps, ocean animal cards
 - **Joy:** "Voyage" game with toy boats on a floor map.
@@ -227,7 +227,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can locate my country on a map, name its capital city and describe its neighbours and seas." (UK NC KS1 LK — own country)
 - **Hook:** "Zoom in from space to our country — then to our town!"
 - **Key activity:** Use a globe, atlas and map to zoom in: continent → country → capital → our town. Worked example: the UK's four countries and capitals (London, Cardiff, Edinburgh, Belfast); children do their own country (and families share countries they're from).
-- **Check for understanding:** "What is the difference between a country and a continent?" → A continent is a huge area of land containing many countries.
+- **Check for understanding:** "Someone says 'Kenya is bigger than Africa.' Explain why that can't be right, using the words country and continent." → Kenya is one country inside the continent of Africa; a continent is a huge area of land made up of many countries (Africa has 54), so it must be bigger.
 - **Differentiation:** support: labelled map to colour / stretch: name neighbouring countries and a sea
 - **Materials:** atlases, country maps, "zoom" nesting cards
 - **Joy:** "Zoom" nesting cards from space to classroom.
@@ -237,7 +237,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can locate some countries and capitals on different continents, including those our families come from." (UK NC KS1 LK)
 - **Hook:** "Our class has connections all over the world. Let's map them!"
 - **Key activity:** Class map with pins for family countries; locate five capitals (e.g. Nairobi, Tokyo, Brasília, Canberra, Cairo); postcard pictures.
-- **Check for understanding:** "Is Nairobi a country or a capital city? Where is it?" → A capital city — of Kenya, in Africa.
+- **Check for understanding:** "Tokyo, Asia, Japan: which is the city, which is the country and which is the continent? Show how they fit inside each other." → Tokyo is a (capital) city inside the country Japan, which is inside the continent of Asia — like nesting boxes.
 - **Differentiation:** support: match pictures to places / stretch: find each capital's continent and nearest ocean
 - **Materials:** world map, pins, capital-city picture cards
 - **Joy:** Family-connection map.
@@ -317,7 +317,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can compare our area and the Kenyan town using human and physical features and weather." (UK NC KS1 PK — compare)
 - **Hook:** "Two places, one big comparison chart!"
 - **Key activity:** Complete a class comparison chart (weather, land, homes, jobs, transport, school); write "Both places…", "In Kenya…, but here…".
-- **Check for understanding:** "Give one similarity and one difference and explain the reason for the difference." → e.g. both have schools; Kenya has two rainy seasons but we have four seasons because Kenya is on the Equator.
+- **Check for understanding:** "Give one similarity and one difference and explain the reason for the difference." → e.g. both have schools; Kenya has two rainy seasons but we have four seasons because Kenya is on the Equator (if our home has four seasons; a school in the tropics compares wet and dry seasons instead).
 - **Differentiation:** support: sentence frames / stretch: explain two differences with reasons
 - **Materials:** comparison chart, photos, fieldwork data from Unit 2
 - **Joy:** Comparison gallery.
@@ -379,7 +379,7 @@ hemispheres and time zones, settlements and rivers.
 - **Objective:** "By the end, I can explain that when it's summer in one half of the world, it's winter in the other, and that places near the Equator have wet and dry seasons." (UK NC KS1 HP — seasonal patterns)
 - **Hook:** "In December, children in Australia go to the beach. Why?"
 - **Key activity:** Globe and lamp model showing tilt (simple); compare seasons in our country, Australia and Kenya; calendar comparison.
-- **Check for understanding:** "If it's summer in Europe, what season is it in Australia?" → Winter.
+- **Check for understanding:** "Explain why children in Sydney can go to the beach in December while children in Canada are building snowmen." → They are in different halves (hemispheres) of the Earth; because the Earth is tilted, in December the southern half leans towards the Sun (summer) and the northern half leans away (winter).
 - **Differentiation:** support: picture calendar comparison / stretch: explain why the Equator doesn't have four seasons
 - **Materials:** globe, lamp, season picture cards
 - **Joy:** "Beach Christmas" photos from Australia.

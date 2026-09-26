@@ -15,17 +15,22 @@ program — **sequence, events and repetition (loops)** — and the habit of **d
 systematically. They also learn **how the internet works** (networks, routers, servers, packets),
 how to **collect and present data** digitally, and how to be **safe, kind, critical and balanced
 online**. Each unit starts **unplugged** (away from the screen) so children understand the idea
-before they code it, and every unit meets a computing pioneer — Ada Lovelace, Grace Hopper, Tim
-Berners-Lee, Radia Perlman, Katherine Johnson and Jerry Lawson.
+before they code it, and every unit meets a computing pioneer — Grace Hopper (Unit 1), Mitchel
+Resnick's Scratch team (Unit 2), Tim Berners-Lee and Radia Perlman (Unit 3), Lillian Schwartz (Unit 4),
+Katherine Johnson (Unit 5) and Jerry Lawson (Unit 6).
 
-**What Year 2 assumes from Year 1 (ages 6–7):** algorithms as precise instructions; programming a
-floor robot or ScratchJr character with sequences; spotting and fixing simple bugs; using a
-device to take photos and write; knowing to tell a trusted adult if something online is upsetting.
+**What Year 2 assumes from Year 1 (ages 6–7):** precise algorithms (the literal "jam sandwich"
+robot), decomposition and repeats unplugged; floor-robot programs with predict–run–debug; ScratchJr
+sequences, green-flag/tap/bump events and repeat blocks; typing, photos, saving and a short
+presentation; pictograms on a device and yes/no branching trees; inputs and outputs; and online
+safety basics (kind online, private information, age ratings, the worry plan). Year 2 retrieves these
+and builds on them rather than repeating them.
 
 **What Year 3 (ages 8–9) relies on from this year:** confident use of Scratch (sprites, stage,
 costumes, events, loops); debugging strategies; a mental model of networks and the internet;
-simple digital data handling; online-safety habits (privacy, reliability, kindness). Year 3 adds
-**selection (if/then)**, variables, branching databases and more complex projects.
+simple digital data handling; online-safety habits (privacy, reliability, kindness). Year 3 deepens
+loops in bigger Scratch projects, builds branching databases in software, adds audio and video, and
+researching with reliable sources; **selection (if/then)** and variables follow in Year 4.
 
 ## Time budget
 
@@ -49,15 +54,15 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 
 **Key vocabulary:** algorithm, instruction, sequence, precise, program, input, output, bug, debug, predict, test, decompose
 
-### Lesson 1 — Algorithms everywhere
+### Lesson 1 — Algorithms: which one is better?
 - **Duration:** 25 min
-- **Objective:** "By the end, I can write a precise algorithm and explain why order matters." (UK NC KS2 Computing – algorithms; CSTA 1A-AP-08)
-- **Hook:** The "jam sandwich robot" — the teacher follows children's instructions exactly (and messily).
-- **Key activity:** Unplugged: write an algorithm for a daily task (brushing teeth, making a sandwich); swap and test; improve for precision.
-- **Check for understanding:** "Why did the robot fail when the instruction said 'put jam on the bread'?" → The instruction wasn't precise — it didn't say to open the jar or use a knife.
-- **Differentiation:** support: order picture cards into an algorithm / stretch: write an algorithm with a repeat ("do this 3 times").
-- **Materials:** bread, jam, plastic knife (or pretend props), instruction cards; **safety:** allergy check
-- **Joy:** The "jam sandwich robot" disaster.
+- **Objective:** "By the end, I can write a precise algorithm and compare two working algorithms to decide which is more efficient." (UK NC KS2 Computing – algorithms; CSTA 1A-AP-08)
+- **Hook:** Two children follow two different algorithms to the same classroom treasure — both work! "So which is the better algorithm?"
+- **Key activity:** Retrieve Year 1's literal robot in one quick example ("put jam on the bread"), then go further: write an algorithm for a daily task (packing a school bag, a route across the playground); swap and test for precision; then compare two correct algorithms for the same task — count the steps, spot repeats, judge which is clearer.
+- **Check for understanding:** "Both algorithms get the robot to the treasure. Which is better, and why?" → The one with fewer steps (or that uses a repeat) is more efficient — quicker to follow and easier to check — as long as it is still precise.
+- **Differentiation:** support: order picture cards into two algorithms and count the steps / stretch: rewrite the longer algorithm using a repeat.
+- **Materials:** instruction cards, floor tape, a "treasure" object
+- **Joy:** Algorithm race — whose route has the fewest steps?
 
 ### Lesson 2 — Programming a human robot
 - **Duration:** 25 min
@@ -72,17 +77,17 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 ### Lesson 3 — Decomposition: breaking big problems down
 - **Duration:** 25 min
 - **Objective:** "By the end, I can break a big task into smaller steps." (CSTA 1A-AP-11)
-- **Hook:** "Plan a birthday party. Where do we even start?"
-- **Key activity:** Decompose tasks (a party, a school day, a game) into parts and steps; mind maps.
-- **Check for understanding:** "Why is it easier to solve lots of little problems than one big one?" → Each small part is simpler to understand, test and fix.
-- **Differentiation:** support: pre-sorted steps / stretch: decompose a simple video game.
+- **Hook:** "How would you make a video game? Where do we even start?" (Year 1 decomposed a party — now a program.)
+- **Key activity:** Play a simple catch game on paper; decompose "make a fruit-catching game" into parts (the player moves, fruit falls, catching scores a point, the game ends) and each part into steps; mind maps; decide an order to build and test the parts (preparing Scratch in Unit 2).
+- **Check for understanding:** "You've split the fruit-catching game into parts. Which part would you build and test first, and why?" → The player moving, because every other part needs it; building and testing one small part at a time makes bugs easier to find.
+- **Differentiation:** support: pre-sorted part cards to put in order / stretch: decompose a second game (e.g. a maze) independently.
 - **Materials:** large paper, sticky notes
 - **Joy:** Plan a class party (for real).
 
 ### Lesson 4 — Debugging detectives: Grace Hopper
 - **Duration:** 25 min
 - **Objective:** "By the end, I can find and fix bugs in an algorithm using a strategy." (CSTA 1A-AP-14)
-- **Hook:** A photo of the moth taped into a 1947 computer logbook — "the first actual case of bug being found."
+- **Hook:** A photo of the moth taped into a 1947 computer logbook (met in Year 1) — "Who was on the team that found it?"
 - **Key activity:** Learn about Grace Hopper, a computing pioneer who helped make programming languages closer to English; debug broken algorithms (dance moves, drawing instructions) by predicting, testing and changing one thing at a time.
 - **Check for understanding:** "Why change one thing at a time when debugging?" → So you know which change fixed (or caused) the problem.
 - **Differentiation:** support: one bug per algorithm / stretch: two bugs and explain each.
@@ -110,9 +115,9 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 ### Lesson 6 — Meet Scratch
 - **Duration:** 25 min
 - **Objective:** "By the end, I can open Scratch, find the stage, sprite and blocks, and make a sprite move." (UK NC KS2 Computing – programming)
-- **Hook:** Show a fun Scratch game made by a child — "You'll make these!"
-- **Key activity:** Tour of Scratch (stage, sprite list, block palette, code area); drag "when green flag clicked" + "move 10 steps"; explore.
-- **Check for understanding:** "What does the 'when green flag clicked' block do?" → It starts the script when the green flag is clicked (it's an event).
+- **Hook:** Show a fun Scratch game made by a child — "You'll make these!" Scratch was made at MIT by Mitchel Resnick's team so that children everywhere could create, not just play (millions of young people share projects).
+- **Key activity:** Compare Scratch with ScratchJr from Year 1 (what's the same? what's new — the block categories, x and y, typed numbers); tour the screen (stage, sprite list, block palette, code area); drag "when green flag clicked" + "move 10 steps"; explore.
+- **Check for understanding:** "In ScratchJr you tapped a green flag block. Which Scratch block does the same job, and what happens if you forget it?" → "When green flag clicked" — it's the event that starts the script; without it, nothing runs when the flag is clicked.
 - **Differentiation:** support: step-by-step picture guide / stretch: find the "say" and "turn" blocks and use them.
 - **Materials:** computers or tablets with Scratch (scratch.mit.edu or offline app), picture guide
 - **Joy:** Free exploration time.
@@ -199,7 +204,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain that the internet connects networks all around the world." (CSTA 1B-NI-04)
 - **Hook:** A map of undersea internet cables.
-- **Key activity:** Learn that most data between continents travels through cables under the sea; routers direct data; the internet is the connections, the web is the pages on it.
+- **Key activity:** Learn that most data between continents travels through cables under the sea; routers direct data; meet Radia Perlman, whose clever rules (the spanning-tree protocol) let huge networks pass data without getting stuck going round in circles; the internet is the connections, the web is the pages on it.
 - **Check for understanding:** "What's the difference between the internet and the World Wide Web?" → The internet is the network of connections; the web is the websites and pages we visit using it.
 - **Differentiation:** support: labelled diagram / stretch: trace a message from here to another continent on the cable map.
 - **Materials:** cable map, world map
@@ -247,9 +252,9 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 - **Duration:** 25 min
 - **Objective:** "By the end, I can spot repeated patterns in instructions and replace them with a loop." (CSTA 1A-AP-10)
 - **Hook:** A dance with the same move written 8 times — "Is there a shorter way?"
-- **Key activity:** Rewrite long algorithms with "repeat" (e.g. repeat 4: step, clap); act them out.
-- **Check for understanding:** "Why use 'repeat 4' instead of writing the same thing four times?" → It's shorter, clearer and easier to change.
-- **Differentiation:** support: simple repeat / stretch: nested repeat (repeat 2: repeat 3 clap, jump).
+- **Key activity:** Retrieve Year 1's repeats in a quick dance; new: rewrite longer algorithms with a repeat around a *pattern* of steps (repeat 4: step, step, clap, turn); act them out.
+- **Check for understanding:** "Here is an algorithm: 'step, clap, step, clap, step, clap, jump'. Rewrite it with a loop. Why is 'jump' outside the loop?" → Repeat 3: step, clap; then jump — the jump only happens once, after the repeating part.
+- **Differentiation:** support: simple repeat of one action / stretch: nested repeat (repeat 2: [repeat 3: clap], jump).
 - **Materials:** instruction cards, music
 - **Joy:** Loop dance.
 
@@ -286,7 +291,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 ### Lesson 22 — Planning an animated story
 - **Duration:** 25 min
 - **Objective:** "By the end, I can plan an animated story with a storyboard." (CSTA 1A-AP-12; English link)
-- **Hook:** A short Scratch animation retelling a Cinderella version (English link).
+- **Hook:** A short Scratch animation retelling a Cinderella version (English link) — and a clip by Lillian Schwartz, one of the first artists to make animated films with computers (at Bell Labs in the 1960s–70s).
 - **Key activity:** Storyboard 3–4 scenes; list sprites, backdrops, events and loops needed.
 - **Check for understanding:** "Where will you use a loop in your story, and why?" → e.g. walking or waves — repeated movement.
 - **Differentiation:** support: 2-scene template / stretch: 4 scenes with broadcasts to change scenes.
@@ -345,21 +350,21 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 - **Duration:** 25 min
 - **Objective:** "By the end, I can make a bar chart from a table and answer questions from it." (CSTA 1A-DA-07; Maths link)
 - **Hook:** "Turn numbers into a picture."
-- **Key activity:** Create a bar chart in the tool; add title and labels; answer "most/least/how many more" questions.
+- **Key activity:** Create a bar chart in the tool; add title and labels; answer "most/least/how many more" questions; meet Katherine Johnson, the NASA mathematician whose careful calculations with data helped send astronauts to space and back safely.
 - **Check for understanding:** "Which is easier to compare quickly — the table or the chart? Why?" → The chart, because bar heights can be compared at a glance.
 - **Differentiation:** support: step-by-step guide / stretch: compare two charts.
 - **Materials:** computers
 - **Joy:** Print charts for the class display.
 
-### Lesson 28 — Yes/no questions: branching sort
+### Lesson 28 — Fields and records: a class data table
 - **Duration:** 25 min
-- **Objective:** "By the end, I can sort objects using yes/no questions in a branching diagram." (UK NC KS2 Computing – data; Science link)
-- **Hook:** "Guess Who?"
-- **Key activity:** Unplugged: sort animals or minibeasts with yes/no questions; build a branching diagram; test it on a new object.
-- **Check for understanding:** "Why must each question have only yes or no answers?" → So every object goes down exactly one branch.
-- **Differentiation:** support: 4 objects / stretch: 8 objects with the fewest questions.
-- **Materials:** animal cards, large paper
-- **Joy:** "Guess Who?" style game.
+- **Objective:** "By the end, I can organise information about objects into a table of records and fields and use it to answer questions." (UK NC KS2 Computing – data; Science link)
+- **Hook:** "Guess Who?" — then: "How could a computer store everything about every character so it can find the answer fast?"
+- **Key activity:** Retrieve Year 1's yes/no branching tree with one quick example; new: build a class table about minibeasts or rocks (Science link) — each row is a *record* (one minibeast), each column a *field* (legs, wings, habitat); enter it on a computer; sort and filter to answer questions ("Which minibeasts have 6 legs and live in leaf litter?"). This prepares Year 3's branching databases in software.
+- **Check for understanding:** "In our table, what is one record and what is one field? How would you find every minibeast with 8 legs?" → A record is one row (e.g. the spider); a field is a column (e.g. number of legs); sort or filter the legs field to show only 8.
+- **Differentiation:** support: pre-built table with 6 records to sort / stretch: add a new field and explain what question it helps answer.
+- **Materials:** minibeast or rock fact cards, computers with a simple table/spreadsheet tool
+- **Joy:** "Database detectives" — the fastest correct filter wins.
 
 ### Lesson 29 — Unit check: data
 - **Duration:** 25 min
@@ -371,7 +376,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 - **Materials:** computers, question cards
 - **Joy:** Data detective badges.
 
-**End-of-unit check:** Enter data into a table, create a titled bar chart and write one conclusion; sort four objects with a yes/no branching diagram.
+**End-of-unit check:** Enter data into a table, create a titled bar chart and write one conclusion; name a record and a field in a class data table and use sorting to answer a question.
 
 ## Unit 6 — Digital citizens: safe, kind, critical and creative
 
@@ -404,7 +409,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 - **Objective:** "By the end, I can explain how to be kind online and what to do if someone is unkind." (UK NC KS2 Computing – online safety)
 - **Hook:** Toothpaste squeezed out — "Can you put it back?" (Words online are hard to take back.)
 - **Key activity:** Discuss scenarios; the difference between banter and hurting; screenshot and tell a trusted adult; "THINK" before posting (True, Helpful, Inspiring, Necessary, Kind).
-- **Check for understanding:** "If someone sends you an unkind message, what should you do?" → Don't reply; keep the evidence; tell a trusted adult.
+- **Check for understanding:** "Your friend sent a message that upset someone and now says 'it was just a joke'. How can you tell banter from hurting, and what should happen next?" → If the other person isn't laughing too or feels hurt, it isn't banter; stop, say sorry, and if unkind messages keep coming, don't reply, keep the evidence (screenshot) and tell a trusted adult. (Year 1 learned the basic don't-reply-and-tell rule.)
 - **Differentiation:** support: scenario cards with choices / stretch: write a class online-kindness charter.
 - **Materials:** toothpaste, scenario cards
 - **Joy:** Toothpaste demonstration.
@@ -422,7 +427,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 ### Lesson 34 — Creating content: a digital poster or e-book
 - **Duration:** 30 min
 - **Objective:** "By the end, I can create a digital poster with text, images and credits." (UK NC KS2 Computing – creating content)
-- **Hook:** "Teach Year 1 how to stay safe online!"
+- **Hook:** "Teach Year 1 how to stay safe online!" Meet Jerry Lawson, the engineer who led the team that made one of the first home video-game consoles with swappable game cartridges — a reminder that people design the technology we use.
 - **Key activity:** Create a poster or short e-book about online safety; use own images or credited free images; check with a partner.
 - **Check for understanding:** "Why should we credit images we didn't make?" → They belong to someone else; it's fair and honest.
 - **Differentiation:** support: template / stretch: add audio narration.
@@ -446,7 +451,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 - *Hello Ruby: Adventures in Coding* — Linda Liukas: a story with unplugged activities that teaches computational thinking.
 - *How to Code a Sandcastle* — Josh Funk: sequences, loops and conditions through a beach adventure.
 - *Grace Hopper: Queen of Computer Code* — Laurie Wallmark: the life of a debugging pioneer.
-- *Ada Byron Lovelace and the Thinking Machine* — Laurie Wallmark: the first published algorithm for a machine.
+- *Ada Byron Lovelace and the Thinking Machine* — Laurie Wallmark: the first published algorithm for a machine (for the class library; Year 3 studies Ada Lovelace in its loops unit).
 - **Scratch** (scratch.mit.edu, MIT) — free, the best block-based programming environment for this age.
 - **Barefoot Computing** and **CS Unplugged** — excellent free unplugged activities.
 - **NCCE Teach Computing** — free, detailed primary units aligned to this progression.
@@ -460,7 +465,7 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 3. **Sequence and events in Scratch** — builds scripts that respond to green flag, keys, clicks and broadcasts. *Seen:* interactive card.
 4. **Loops** — uses repeat and forever loops and explains why. *Seen:* animation and shape drawing.
 5. **Networks and the internet** — explains routers, packets, servers and the internet vs the web. *Seen:* message journey diagram.
-6. **Data** — collects, enters, sorts and charts data and draws a conclusion. *Seen:* data project.
+6. **Data** — collects, enters, sorts and charts data, uses records and fields, and draws a conclusion. *Seen:* data project.
 7. **Online safety** — keeps personal information private, uses strong passwords, knows what to do about unkindness. *Seen:* scenarios.
 8. **Critical thinking online** — checks reliability and spots adverts. *Seen:* fake-or-fact task.
 9. **Creating content** — makes a digital product with credited sources. *Seen:* poster/e-book.
@@ -478,4 +483,4 @@ simple digital data handling; online-safety habits (privacy, reliability, kindne
 
 **Inclusion.** Pair programming (driver and navigator, swapping every 5 minutes) builds confidence; keyboard shortcuts and large-display settings help children with access needs.
 
-**Vertical alignment.** Year 1 built unplugged algorithms and ScratchJr sequences. Year 3 (ages 8–9) introduces selection (if/then/else), variables and simple games with scores, branching databases in software, and deeper online-safety topics (digital footprint, consent to share images).
+**Vertical alignment.** Year 1 built unplugged algorithms, decomposition and repeats, floor-robot debugging, ScratchJr sequences, events and repeats, pictograms and yes/no trees, and online-safety basics. Year 3 (ages 8–9) deepens loops in larger Scratch projects, builds branching databases in software, looks at networks in more depth, creates audio and video, researches with reliable sources, and extends online safety (digital footprint, consent to share images); selection and variables follow in Year 4.

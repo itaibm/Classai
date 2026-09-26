@@ -23,9 +23,13 @@ Lessons are short, discussion-rich and practical — role play, stories, games a
 with a named picture book in most units. There are no tests; progress is seen in what children say
 and do, recorded through reflection journals and teacher observation.
 
-**What Year 2 assumes from Year 1 (ages 6–7):** naming basic feelings; simple calming strategies;
-taking turns and sharing; saying sorry; knowing that money is used to buy things and can be saved;
-recycling basics; knowing some adults who help us.
+**What Year 2 assumes from Year 1 (ages 6–7):** naming eight or more feelings, body clues and a
+calm-down toolbox; sharing worries (worry dolls); a friendship recipe, empathy ("in their shoes"),
+bucket filling, listening and fix-it steps; "my elastic brain", mistakes and "yet", trying another
+way and a stepped goal; earning, needs vs wants, saving for a goal, banks and giving; reduce–reuse–
+recycle, saving water and energy, helping wildlife; same and different, celebrations, children's
+rights and a service project. Year 2 revisits these themes only to go deeper, with new books and
+new skills.
 
 **What Year 3 (ages 8–9) relies on from this year:** a toolkit of regulation strategies; the fair-fix
 steps for conflict; growth-mindset language; spend/save/give and budgeting; an understanding of
@@ -56,20 +60,20 @@ children's rights; experience of planning a small action project.
 ### Lesson 1 — Feelings have causes
 - **Duration:** 25 min
 - **Objective:** "By the end, I can name a feeling and what caused it." (CASEL self-awareness; PSHE H17)
-- **Hook:** *The Colour Monster* (Anna Llenas) — feelings sorted into coloured jars.
+- **Hook:** *Grumpy Monkey* (Suzanne Lang) — Jim is grumpy and doesn't know why: "Can a feeling have a cause we haven't noticed yet?"
 - **Key activity:** Build a class "feelings wheel" with more precise words (frustrated, nervous, proud, disappointed); scenario cards: "What might someone feel and why?"
 - **Check for understanding:** "Why might two children feel differently about the same thing, like a test?" → They have different experiences and thoughts about it.
 - **Differentiation:** support: picture feelings cards / stretch: use three precise feelings words in a real example.
-- **Materials:** *The Colour Monster*, feelings-wheel poster, scenario cards, jars
+- **Materials:** *Grumpy Monkey*, feelings-wheel poster, scenario cards, jars
 - **Joy:** Colour jars — children add a coloured bead for their feeling today.
 
 ### Lesson 2 — Body clues
 - **Duration:** 25 min
 - **Objective:** "By the end, I can notice where I feel emotions in my body." (CASEL self-awareness)
-- **Hook:** "Where do you feel butterflies?"
-- **Key activity:** Body-outline mapping: colour where anger, worry and excitement show (hot face, fast heart, tight tummy); discuss early warning signs.
-- **Check for understanding:** "Why is it useful to notice body clues early?" → You can use a calming strategy before the feeling gets too big.
-- **Differentiation:** support: pre-drawn body outline with prompts / stretch: compare how two feelings can feel similar in the body (excitement and nervousness).
+- **Hook:** "Butterflies in your tummy before a party — and before a test. Same clue, different feeling?"
+- **Key activity:** Retrieve Year 1's body map quickly; new: the same body clue (fast heart, butterflies) can come with different feelings (excited, nervous, scared), so we check the *situation* and our *thoughts* to name the feeling; scenario pairs; add a "what's happening + what am I thinking" box to the body map.
+- **Check for understanding:** "Your heart is racing before you go on stage. How can you tell if you're excited or nervous — and does it matter which?" → Look at what I'm thinking ("This will be fun!" or "What if I forget?"); it matters because it helps me choose — enjoy it, or use a calming strategy and a helpful thought.
+- **Differentiation:** support: pre-drawn body outline with prompts / stretch: name a third feeling that shares the same clue.
 - **Materials:** body-outline sheets, coloured pencils
 - **Joy:** Life-size body outline on the floor.
 
@@ -86,32 +90,32 @@ children's rights; experience of planning a small action project.
 ### Lesson 4 — Calming strategies toolkit
 - **Duration:** 25 min
 - **Objective:** "By the end, I can use three calming strategies and choose the right one." (CASEL self-management)
-- **Hook:** A shaken glitter jar settling.
-- **Key activity:** Practise: square breathing, counting to 10 backwards, "5-4-3-2-1" senses, squeezing a stress ball, asking for a break; make a personal toolkit card.
-- **Check for understanding:** "Which strategy would you use if you were angry in the playground, and why?" → e.g. step away and breathe, because it calms the body quickly.
+- **Hook:** A feelings thermometer from 1 (tiny) to 5 (huge) — "Is every feeling the same size?"
+- **Key activity:** Retrieve Year 1's toolbox; new: rate the *size* of a feeling and match the strategy to it — small feelings (1–2): name it, take a breath; medium (3): square breathing, counting backwards from 10, "5-4-3-2-1" senses; big (4–5): step away to a calm spot, ask for a break, get an adult; update the personal toolkit card with sizes.
+- **Check for understanding:** "Losing a card game makes you a 2; someone breaking your model makes you a 5. Would you use the same strategy? Why?" → No — for the 2 a slow breath is enough; for the 5 I need to step away and calm my body first (and get help) before I talk about it.
 - **Differentiation:** support: picture toolkit / stretch: teach a strategy to a partner.
-- **Materials:** glitter jar, stress balls, toolkit cards
-- **Joy:** Make a personal glitter jar.
+- **Materials:** feelings thermometer poster, stress balls, toolkit cards
+- **Joy:** "Feelings weather report" — children show their size with a hand thermometer.
 
 ### Lesson 5 — Helpful and unhelpful thoughts
 - **Duration:** 25 min
 - **Objective:** "By the end, I can change an unhelpful thought into a helpful one." (CASEL self-management)
-- **Hook:** *Silly Billy* (Anthony Browne) — Billy's worries and the worry dolls from Guatemala.
-- **Key activity:** Sort thoughts ("I'll never be good at this" vs "I can get better with practice"); practise "flipping" thoughts; make worry dolls from pegs.
+- **Hook:** *Jabari Jumps* (Gaia Cornwall) — Jabari is sure he's ready to jump off the diving board… until he reaches the top. (Year 1 met *Silly Billy* and made worry dolls.)
+- **Key activity:** Notice how Jabari's thoughts change his feelings, and what his dad says that helps; sort thoughts ("I'll never be good at this" vs "I can get better with practice"); practise "flipping" thoughts on cards.
 - **Check for understanding:** "How can changing a thought change a feeling?" → A kinder, more helpful thought can make us feel calmer or braver.
 - **Differentiation:** support: choose the helpful thought from two / stretch: write their own flips.
-- **Materials:** *Silly Billy*, thought cards, wooden pegs, wool
-- **Joy:** Worry-doll making.
+- **Materials:** *Jabari Jumps*, thought cards, a paper "diving board"
+- **Joy:** "Thought-flip" card game — flip the card, say the helpful thought.
 
 ### Lesson 6 — Empathy: walking in someone's shoes
 - **Duration:** 25 min
 - **Objective:** "By the end, I can imagine how someone else feels and respond kindly." (CASEL social awareness)
-- **Hook:** A pair of big shoes — "Step into these and become someone else."
-- **Key activity:** Role play scenarios from different perspectives; practise empathetic responses ("That sounds hard. Can I help?").
+- **Hook:** *Hey, Little Ant* (Phillip and Hannah Hoose) — a boy is about to squish an ant, and the ant talks back. (Year 1 stepped into paper shoes; now we look at a harder perspective.)
+- **Key activity:** Hear the story from both sides; hot-seat the boy and the ant; role play everyday scenarios from different perspectives; practise empathetic responses ("That sounds hard. Can I help?").
 - **Check for understanding:** "What's the difference between feeling sorry for someone and empathy?" → Empathy is trying to understand how they feel from their side.
 - **Differentiation:** support: sentence stems / stretch: respond to a complex scenario.
-- **Materials:** shoes, scenario cards
-- **Joy:** "Shoe swap" role play.
+- **Materials:** *Hey, Little Ant*, scenario cards
+- **Joy:** Class vote on the story's open ending — "What should the boy do?"
 
 **End-of-unit check (reflection):** In a journal entry or conversation, the child names a feeling, its cause and body clues, and explains which calming strategy they would use.
 
@@ -125,20 +129,20 @@ children's rights; experience of planning a small action project.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe qualities of a good friend and how to show them." (CASEL relationship skills; PSHE R1)
 - **Hook:** *Beegu* (Alexis Deacon) — an alien who wants a friend.
-- **Key activity:** Build a "friendship recipe" (ingredients: kindness, listening, sharing, forgiveness); discuss how Beegu felt.
-- **Check for understanding:** "Which ingredient matters most to you, and why?" → A reasoned choice.
+- **Key activity:** Discuss how Beegu felt and who was a friend to Beegu; retrieve Year 1's friendship recipe in one minute; new: friendship *dilemmas* — a friend wants you to leave someone out, a friend copies your work, a friend tells you a worrying secret; decide together what a good friend does.
+- **Check for understanding:** "Your friend says, 'Don't play with Sam or I won't be your friend.' What would a good friend do, and why?" → Kindly say no and include Sam — a real friend doesn't make you leave others out; talk to your friend about it (and to an adult if it keeps happening).
 - **Differentiation:** support: picture ingredient cards / stretch: write a friendship poem.
-- **Materials:** *Beegu*, recipe templates
-- **Joy:** Friendship "recipe cards" displayed.
+- **Materials:** *Beegu*, dilemma cards
+- **Joy:** "What would a good friend do?" freeze-frame drama.
 
 ### Lesson 8 — Including everyone
 - **Duration:** 25 min
 - **Objective:** "By the end, I can notice when someone is left out and invite them in." (CASEL social awareness)
-- **Hook:** *The Invisible Boy* (Trudy Ludwig) — Brian, who nobody notices.
-- **Key activity:** Discuss how Brian becomes visible; playground "buddy bench" plan; role play inviting someone to play.
+- **Hook:** *Strictly No Elephants* (Lisa Mantchev) — a pet club turns a boy and his tiny elephant away, so they start a club where everyone is welcome. (Year 1 read *The Invisible Boy*.)
+- **Key activity:** Discuss how it feels to be turned away and what the children did about it; playground "buddy bench" or "everyone welcome" club plan; role play inviting someone to play.
 - **Check for understanding:** "What small thing can you do to include someone?" → e.g. say hello, invite them to play, sit with them.
 - **Differentiation:** support: phrase cards / stretch: design a class inclusion idea.
-- **Materials:** *The Invisible Boy*, phrase cards
+- **Materials:** *Strictly No Elephants*, phrase cards
 - **Joy:** "Invite" role play.
 
 ### Lesson 9 — Both sides of the story
@@ -189,34 +193,34 @@ children's rights; experience of planning a small action project.
 
 **Key vocabulary:** brain, neuron, practise, effort, mistake, challenge, growth mindset, "yet", resilience, goal, step, feedback
 
-### Lesson 13 — My elastic brain
+### Lesson 13 — How my brain learns: neurons, practice and sleep
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain that my brain gets stronger when I practise hard things." (CASEL self-management)
-- **Hook:** *Your Fantastic Elastic Brain* (JoAnn Deak).
-- **Key activity:** Model neurons connecting with pipe cleaners (connections grow with practice); share something they learned through practice (riding a bike, times tables).
-- **Check for understanding:** "Why does practising something hard make it easier over time?" → Brain connections get stronger each time we practise.
-- **Differentiation:** support: picture model / stretch: explain using the word 'neuron'.
-- **Materials:** book, pipe cleaners
+- **Objective:** "By the end, I can explain how practice, spacing it out and sleep help my brain learn." (CASEL self-management)
+- **Hook:** "Your brain has tens of billions of neurons (about 86 billion!). In Year 1 you learned your brain can stretch — today, how do we help it?"
+- **Key activity:** Model neurons connecting with pipe cleaners — each practice adds a twist and the connection gets stronger; compare two plans for learning a spelling list (all in one go on Sunday vs 5 minutes a day) and try both on a mini memory game; link to sleep from PE & Health (the brain sorts memories while we sleep).
+- **Check for understanding:** "Why does a little practice every day work better than one long go once a week?" → Each practice strengthens the connections again, and spacing it out (with sleep in between) helps the learning stick.
+- **Differentiation:** support: picture model / stretch: explain using the words 'neuron' and 'connection'.
+- **Materials:** pipe cleaners, spelling or picture memory cards
 - **Joy:** Pipe-cleaner brains.
 
 ### Lesson 14 — The power of "yet" and mistakes
 - **Duration:** 25 min
 - **Objective:** "By the end, I can see mistakes as chances to learn and use the word 'yet'." (CASEL self-management)
-- **Hook:** *The Girl Who Never Made Mistakes* (Mark Pett & Gary Rubinstein).
-- **Key activity:** Discuss Beatrice's fear of mistakes; "mistake of the week" celebration; flip "I can't" to "I can't yet."
-- **Check for understanding:** "How can a mistake help you learn?" → It shows what to change or practise next.
+- **Hook:** *The Magical Yet* (Angela DiTerlizzi) — "What is a Yet, and how can it help?" (Year 1 read *The Girl Who Never Made Mistakes*.)
+- **Key activity:** Discuss the story; "mistake of the week" celebration where a child shows what a mistake taught them; flip fixed statements into "yet" statements with a strategy attached ("I can't do column addition *yet* — I'll use base-10 blocks").
+- **Check for understanding:** "A classmate says, 'I'm just not a maths person.' What could you say to them, using 'yet' and a strategy?" → e.g. "You can't do it *yet* — let's find the mistake together and try with the blocks; brains get better with practice."
 - **Differentiation:** support: sentence flip cards / stretch: describe a famous person who failed before succeeding.
-- **Materials:** book, flip cards
+- **Materials:** *The Magical Yet*, flip cards
 - **Joy:** "Mistake of the week" award.
 
-### Lesson 15 — Perseverance: the most magnificent thing
+### Lesson 15 — Perseverance: the thing I couldn't do (yet)
 - **Duration:** 25 min
 - **Objective:** "By the end, I can use strategies to keep going when something is hard." (CASEL self-management)
-- **Hook:** *The Most Magnificent Thing* (Ashley Spires) — a girl whose invention keeps going wrong.
-- **Key activity:** Build a tower or bridge from limited materials; when it fails, use strategies (take a break, try another way, ask for help).
-- **Check for understanding:** "What did the girl do when she felt like giving up, and what did you do?" → Took a walk, came back and saw what was good; describes their own strategy.
+- **Hook:** *The Thing Lou Couldn't Do* (Ashley Spires) — Lou finds every excuse not to try climbing a tree. (Year 1 read the same author's *The Most Magnificent Thing*.)
+- **Key activity:** Discuss Lou's excuses and her brave try; build a tower or bridge from limited materials; when it fails, use strategies (take a break, try another way, ask for help) and plan a "try again tomorrow" step.
+- **Check for understanding:** "Lou didn't manage it the first time. Was she brave? Why? What did you do when your build fell down?" → Yes — she tried even though she might fail and planned to try again; describes their own strategy after the collapse.
 - **Differentiation:** support: simpler build / stretch: improve design after a test.
-- **Materials:** book, spaghetti, marshmallows or tape, card
+- **Materials:** *The Thing Lou Couldn't Do*, spaghetti, marshmallows or tape, card
 - **Joy:** Build challenge.
 
 ### Lesson 16 — Goals in small steps
@@ -247,21 +251,21 @@ children's rights; experience of planning a small action project.
 
 **Key vocabulary:** money, earn, spend, save, give, need, want, price, value, budget, goal, bank, interest, advert, choice
 
-### Lesson 18 — Where does money come from?
+### Lesson 18 — How we pay: coins, cards and currencies
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain that people earn money by working and use it to pay for things." (Financial education – earning)
-- **Hook:** "Does money grow on trees? Where does it come from?"
-- **Key activity:** Discuss jobs and earning; the flow of money (work → pay → spend/save); banks keep money safe; introduce currency from different countries (Maths Unit 6 link).
-- **Check for understanding:** "Why do people go to work?" → To earn money to pay for needs and wants (and because work can be meaningful).
+- **Objective:** "By the end, I can explain that cards and phones spend real money from a bank account, and that different countries use different currencies." (Financial education – managing money)
+- **Hook:** "When a grown-up taps a card, the shop gets paid. Is that money invisible — or free?"
+- **Key activity:** Retrieve Year 1's work → pay → spend/save flow in one minute; new: cash, cards and phones all use money that was earned and kept in a bank account; role-play a shop with a "bank balance" card that goes down with each tap; look at coins and notes from several countries and their names (Maths Unit 6 link).
+- **Check for understanding:** "When a grown-up taps a card to pay, where does the money come from, and what happens to their account?" → From their bank account — money they earned; the amount in the account goes down, just as if they had paid with cash.
 - **Differentiation:** support: picture flow chart / stretch: interview a family member about their job.
-- **Materials:** job picture cards, play money, world coins
-- **Joy:** "Job fair" role play.
+- **Materials:** play money, pretend bank cards with balance slips, world coins and notes (or pictures)
+- **Joy:** "Tap to pay" shop where you watch your balance shrink.
 
 ### Lesson 19 — Needs and wants
 - **Duration:** 25 min
 - **Objective:** "By the end, I can sort needs and wants and explain the difference." (Financial education)
 - **Hook:** *Those Shoes* (Maribeth Boelts) — Jeremy wants the shoes everyone has.
-- **Key activity:** Sort items; discuss that needs can differ by situation; Jeremy's choice.
+- **Key activity:** Retrieve Year 1's needs/wants sort quickly; new: needs can depend on the situation, and wants can feel like needs when everyone has something; discuss Jeremy's choice at the end of the story.
 - **Check for understanding:** "Is a coat a need or a want? Can it be both?" → A warm coat is a need in cold weather; a designer coat is a want.
 - **Differentiation:** support: picture sort / stretch: explain a tricky item.
 - **Materials:** book, item cards
@@ -270,11 +274,11 @@ children's rights; experience of planning a small action project.
 ### Lesson 20 — Spend, save, give
 - **Duration:** 25 min
 - **Objective:** "By the end, I can divide money into spend, save and give and explain each." (Financial education)
-- **Hook:** *A Chair for My Mother* (Vera B. Williams) — a family saves coins in a jar for a new chair after a fire.
-- **Key activity:** Make three jars; share play money between them; discuss choices.
-- **Check for understanding:** "Why did the family save instead of spending straight away?" → To buy something bigger and important that they couldn't afford at once.
+- **Hook:** *One Hen* (Katie Smith Milway) — Kojo in Ghana uses a small loan to buy one hen. (Year 1 read *A Chair for My Mother*.)
+- **Key activity:** Follow Kojo's money: he sells eggs, saves, buys more hens, and later helps others; make three jars (spend, save, give) and share play money between them; discuss choices.
+- **Check for understanding:** "Kojo didn't spend all the money from his eggs. What did he do with it, and why did that help him — and others?" → He saved it to buy more hens, so he could sell more eggs and earn more; later his farm gave jobs and helped his village.
 - **Differentiation:** support: equal split / stretch: choose their own split and justify.
-- **Materials:** book, jars, labels, play money
+- **Materials:** *One Hen*, jars, labels, play money
 - **Joy:** Decorating spend/save/give jars.
 
 ### Lesson 21 — Saving for a goal
@@ -319,8 +323,8 @@ children's rights; experience of planning a small action project.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain what happens to rubbish and why reducing waste matters." (UNESCO ESD; Geography link)
 - **Hook:** A bag of (clean) classroom rubbish tipped out.
-- **Key activity:** Sort into landfill, recycling, compost; discuss that some plastics take hundreds of years to break down; the "3 Rs" in order (reduce first).
-- **Check for understanding:** "Why is 'reduce' better than 'recycle'?" → Reducing means less waste is made at all; recycling still uses energy.
+- **Key activity:** Sort into landfill, recycling, compost; follow each pile on a picture journey (landfill site, recycling plant, compost heap); discuss that some plastics take hundreds of years to break down; retrieve the "3 Rs" order from Year 1.
+- **Check for understanding:** "A yoghurt pot goes in the landfill bin instead of recycling. What happens to it, and why is that a problem?" → It is buried in a landfill site where it can take hundreds of years to break down and takes up space; recycled, it could become something new (reducing the pots we use is even better).
 - **Differentiation:** support: picture sort / stretch: explain what happens at a recycling plant.
 - **Materials:** clean rubbish, sorting bins, gloves
 - **Joy:** Rubbish sort.
@@ -338,22 +342,22 @@ children's rights; experience of planning a small action project.
 ### Lesson 26 — Plastic and the ocean
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain how plastic reaches the ocean and harms wildlife." (UNESCO ESD; Geography link)
-- **Hook:** *One Plastic Bag* (Miranda Paul) — Isatou Ceesay and the women of Gambia who recycled plastic bags into purses.
-- **Key activity:** Trace plastic from street to sea (Geography rivers link); discuss the Gambia story as a real solution.
-- **Check for understanding:** "How did Isatou Ceesay turn a problem into a solution?" → She and other women recycled plastic bags into purses to sell, cleaning up and earning money.
+- **Hook:** Poems from *The Last Straw: Kids vs. Plastics* (Susan Hood) — real children who took on plastic pollution. (Year 1 met Isatou Ceesay in *One Plastic Bag*.)
+- **Key activity:** Trace plastic from street to river to sea (Geography rivers link); how it harms wildlife; compare solutions by children and communities (the poems, Isatou Ceesay's recycled purses); choose one the class could copy.
+- **Check for understanding:** "Choose one solution from the poems or from Isatou's story. How does it stop plastic reaching the sea?" → Names the solution and the step it blocks (e.g. refusing straws means fewer are made and dropped; turning bags into purses keeps them out of drains and rivers).
 - **Differentiation:** support: sequence cards / stretch: design an upcycled product.
-- **Materials:** book, sequence cards
+- **Materials:** *The Last Straw*, *One Plastic Bag* (for retrieval), sequence cards
 - **Joy:** Upcycling craft.
 
-### Lesson 27 — Saving water and energy
+### Lesson 27 — Energy: where does our electricity come from?
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name ways to save water and energy at school and home." (UNESCO ESD)
-- **Hook:** Measure how much water runs from a tap in one minute.
-- **Key activity:** Measure water (Maths link: capacity); energy hunt (lights, screens left on); make "switch off" signs.
-- **Check for understanding:** "Why does turning off the tap while brushing your teeth help?" → A running tap wastes several litres of clean water a minute.
-- **Differentiation:** support: picture checklist / stretch: calculate water saved in a week.
-- **Materials:** measuring jug, tap, timer, sign materials
-- **Joy:** "Energy patrol" badges.
+- **Objective:** "By the end, I can explain that electricity is made in different ways and why energy from the sun, wind and water is better for the planet." (UNESCO ESD; SDG 7, 13)
+- **Hook:** A small solar-powered toy or fan in sunshine, then in shade: "Where is its energy coming from?" (Year 1 hunted for lights left on.)
+- **Key activity:** Picture journey of electricity from power station to plug; sort sources into those that run out and pollute (coal, oil, gas) and those that are renewable (sun, wind, moving water); find out how our country makes most of its electricity; retrieve Year 1's switch-off habits and add one new one.
+- **Check for understanding:** "Why is electricity from the sun or wind better for the planet than electricity from burning coal?" → Burning coal makes smoke and gases that pollute the air and heat up the planet, and coal will run out; sun and wind don't run out and don't make that pollution.
+- **Differentiation:** support: picture sort of energy sources / stretch: design a school roof with solar panels and explain where to put them (the sunniest side).
+- **Materials:** solar toy or small solar panel with a fan, energy-source picture cards, sorting hoops
+- **Joy:** Solar fan race — sun vs shade.
 
 ### Lesson 28 — Food waste and growing food
 - **Duration:** 25 min
@@ -387,8 +391,8 @@ children's rights; experience of planning a small action project.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can name some rights every child has and why they matter." (UNCRC; global citizenship)
 - **Hook:** *We Are All Born Free* (Amnesty International) — the Universal Declaration of Human Rights, illustrated by famous artists: "Rights for everyone — and there's a special list just for children."
-- **Key activity:** Learn that the UN Convention on the Rights of the Child (1989) lists rights for every child; sort wants vs rights; discuss rights and responsibilities.
-- **Check for understanding:** "What's the difference between a right and a want?" → A right is something every child needs to be safe and grow (like education); a want is nice to have.
+- **Key activity:** Retrieve Year 1's rights vs wants in one minute; learn that the UN Convention on the Rights of the Child (1989) lists rights for every child and that almost every country has agreed to it; new: every right comes with responsibilities — for children and for adults and governments.
+- **Check for understanding:** "You have the right to learn. What responsibility goes with it — for you, and for the adults around you?" → For me: to listen and let others learn too; for adults and governments: to provide schools and teachers so every child can learn.
 - **Differentiation:** support: picture rights cards / stretch: link a right to a responsibility.
 - **Materials:** book, rights cards
 - **Joy:** Class "rights charter."
@@ -447,17 +451,17 @@ children's rights; experience of planning a small action project.
 
 ## Books & resources
 
-- *The Colour Monster* — Anna Llenas: sorting feelings into colours; a simple start to emotional vocabulary.
-- *Silly Billy* — Anthony Browne: worries and the Guatemalan worry dolls.
+- *Grumpy Monkey* — Suzanne Lang: feelings have causes, and it's OK to feel them.
+- *Jabari Jumps* — Gaia Cornwall: how thoughts change feelings, and brave next steps.
+- *Hey, Little Ant* — Phillip and Hannah Hoose: seeing the world from someone else's side.
 - *Beegu* — Alexis Deacon: belonging and friendship through the eyes of a lost alien.
-- *The Invisible Boy* — Trudy Ludwig: how small acts include others.
+- *Strictly No Elephants* — Lisa Mantchev: a club where everyone is welcome.
 - *Each Kindness* — Jacqueline Woodson: a powerful story about missed kindness.
-- *Your Fantastic Elastic Brain* — JoAnn Deak: brain science for growth mindset.
-- *The Girl Who Never Made Mistakes* — Mark Pett & Gary Rubinstein: freedom in making mistakes.
-- *The Most Magnificent Thing* — Ashley Spires: perseverance and creativity.
+- *The Magical Yet* — Angela DiTerlizzi: the power of "yet".
+- *The Thing Lou Couldn't Do* — Ashley Spires: bravery in trying something hard.
 - *Those Shoes* — Maribeth Boelts: needs, wants and generosity.
-- *A Chair for My Mother* — Vera B. Williams: saving together for a goal.
-- *One Plastic Bag* — Miranda Paul: a real recycling hero from The Gambia.
+- *One Hen* — Katie Smith Milway: how saving and investing a little can grow and help a whole village (Ghana).
+- *The Last Straw: Kids vs. Plastics* — Susan Hood: poems about real children tackling plastic pollution.
 - *The Promise* — Nicola Davies: planting hope in a grey city.
 - *Last Stop on Market Street* — Matt de la Peña: seeing beauty and community in everyday life.
 - *We Are All Born Free* — Amnesty International: the Universal Declaration of Human Rights illustrated by artists.
@@ -489,6 +493,6 @@ children's rights; experience of planning a small action project.
 
 **Cultural and family sensitivity.** Families have different incomes, beliefs and traditions — use play money and hypothetical scenarios; never ask children to reveal family finances; celebrate many ways of giving and belonging.
 
-**Links.** Unit 4 runs alongside Maths Unit 6 (money); Unit 5 links to Geography rivers and Science soils; Unit 1 links to PE & Health Unit 8.
+**Links.** Unit 4 runs alongside Maths Unit 6 (money); Unit 5 links to Geography rivers and Science soils; Unit 1 links to PE & Health Unit 8 (which uses a glitter jar — this unit uses a feelings thermometer instead).
 
-**Vertical alignment.** Year 1 introduced feelings vocabulary, sharing, simple saving and recycling. Year 3 (ages 8–9) develops these into managing peer pressure, deeper conflict resolution, earning and simple enterprise, and larger community and sustainability projects.
+**Vertical alignment.** Year 1 introduced feelings vocabulary, body clues and a calm-down toolbox, friendship and fix-it steps, "yet" and mistakes, earning, needs and wants, saving and giving, reduce–reuse–recycle, water and energy saving, rights and a service project — each revisited here at greater depth with new books (Year 1's *Silly Billy*, *The Invisible Boy*, *Your Fantastic Elastic Brain*, *The Girl Who Never Made Mistakes*, *The Most Magnificent Thing* and *A Chair for My Mother* are not reused). Year 3 (ages 8–9) develops these into managing peer pressure, deeper conflict resolution, earning and simple enterprise, and larger community and sustainability projects.

@@ -8,8 +8,11 @@
 ## Year overview
 
 Year 2 is the **second year of Spanish**. Year 1 (ages 6–7) launched the language by ear: greetings
-and feelings, numbers 0–31, colours, classroom objects, the first songs, and the idea that nouns are
-*el* or *la*. Year 2 keeps the emphasis on **listening and speaking** — children should hear and
+and feelings, numbers 0–20, colours and shapes, family, animals, the body, food, weather and the
+days of the week, the Spanish sound rules, and a first *noticing* that words change for boys and
+girls (*contento/contenta*, *este/esta*). Year 2 revisits those topics only to go deeper — every
+repeated topic adds new structures (plurals, *mi/mis*, adjective agreement, *ayer*), reading and
+writing. Year 2 keeps the emphasis on **listening and speaking** — children should hear and
 say far more Spanish than they read or write — but now asks them to **string words into short
 sentences** (*Tengo un perro negro. Mi cumpleaños es el cinco de mayo. Hoy hace sol.*), to **read**
 familiar words and short sentences aloud with accurate Spanish sounds, and to **write** short
@@ -28,8 +31,8 @@ about themselves.
 **What Year 3 (ages 8–9) relies on from this year:** confident pronunciation; numbers to 50 used
 in dates and ages; days, months and weather routines; *tengo / no tengo*, *me gusta / no me gusta*,
 *es / hay*; nouns with *el/la/un/una* and adjectives placed after the noun and agreeing in gender.
-Year 3 adds food and shopping with prices, hobbies, the body, telling the time and the first
-regular *-ar* verbs.
+Year 3 revisits family, animals, the calendar and weather with longer sentences built on *tener*
+and *ser*, and adds the home and clothes.
 
 **Swappable language.** Spanish is the default, chosen because it is spoken as a first language
 in more than 20 countries across four continents. Another language (for example French or Hebrew —
@@ -86,21 +89,21 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Materials:** vowel action cards, syllable cards, a recording of the rhyme
 - **Joy:** "Vowel orchestra" — five groups each sing one vowel when the conductor points.
 
-### Lesson 3 — Tricky letters: ll, ñ, j, h, rr
+### Lesson 3 — Tricky letters: ll, ñ, j, h, r and rr
 - **Duration:** 25 min
 - **Objective:** "By the end, I can pronounce ll, ñ, j, silent h and rr in Spanish words." (KS2 Languages – phonics)
 - **Hook:** "Tongue-twister challenge": *Erre con erre, cigarro…* — a well-known Spanish trabalenguas (teacher reads it slowly).
 - **Key activity:** Sound "studio": *ll* like "y" (*llama*), *ñ* like "ny" (*niño*), *j* like a breathy "h" (*jirafa*), *h* silent (*hola*), *rr* rolled (*perro*); sort picture-words by sound; practise rolling with "drrr" motor noises.
-- **Check for understanding:** "What's the difference between 'pero' and 'perro'?" → 'Pero' has a single tapped r and means "but"; 'perro' has a rolled rr and means "dog."
+- **Check for understanding:** "Why do *rojo* and *perro* both have the long rolled sound, but *pero* does not?" → An r at the start of a word is always rolled, just like rr; a single r between two vowels is a quick tap. (New this year — Year 1 learned only the pero/perro pair.)
 - **Differentiation:** support: three sounds only, lots of echoing / stretch: read five new words with these letters aloud without a model.
 - **Materials:** sound-picture cards, mirrors (to watch mouths), recording device
 - **Joy:** Motorbike "rr" races — whoever rolls longest wins.
 
-### Lesson 4 — Números 0–31 revisited
+### Lesson 4 — Números 21–31: the *veinti-* pattern
 - **Duration:** 25 min
-- **Objective:** "By the end, I can count and recognise numbers 0–31 quickly in Spanish." (KS2 Languages – listening/speaking; Maths link)
+- **Objective:** "By the end, I can count and recognise numbers 0–31 quickly in Spanish, including the new numbers 21–31." (KS2 Languages – listening/speaking; Maths link)
 - **Hook:** "Lotería" (Mexican bingo) boards with numbers.
-- **Key activity:** Count aloud with actions; recall the pattern for 16–29 (*dieciséis* = "ten and six", *veintidós*); play number bingo and "¿Cuántos?" with objects.
+- **Key activity:** Retrieve 0–20 from Year 1 with actions; recall the 16–19 "joining trick" (*dieciséis* = "ten and six"), then use it for the new numbers 21–29 (*veintiuno, veintidós, veintitrés…* — note the accents on *veintidós, veintitrés, veintiséis*) and 30–31 (*treinta, treinta y uno*); play number bingo and "¿Cuántos?" with objects.
 - **Check for understanding:** "How is 'veintitrés' built?" → *veinte* (20) + *tres* (3) joined into one word.
 - **Differentiation:** support: 0–20 with number line / stretch: say numbers backwards from 31 and find the pattern for 31 (*treinta y uno* — three words).
 - **Materials:** lotería/bingo boards, counters, number cards, number line 0–31
@@ -116,12 +119,12 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Materials:** recorded message, speed-meeting grid, sentence strips
 - **Joy:** Speed-meeting with a bell to change partners.
 
-### Lesson 6 — Colours and classroom objects revisited
+### Lesson 6 — Classroom objects (new) with colours
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name classroom objects with el/la and say their colour." (KS2 Languages – vocabulary; grammar – gender)
+- **Objective:** "By the end, I can name eight classroom objects with el or la and say their colour." (KS2 Languages – vocabulary; grammar – gender)
 - **Hook:** A "bolsa misteriosa" (mystery bag) of classroom objects.
-- **Key activity:** Pull out objects; name them with *el/la* and a colour (*el lápiz azul*, *la regla roja*); notice the colour comes after the noun.
-- **Check for understanding:** "Where does the colour go in Spanish: before or after the object?" → After: *el lápiz azul*.
+- **Key activity:** New words (not taught in Year 1): *el lápiz, el libro, el cuaderno, el sacapuntas, la regla, la goma, la mochila, la silla*; pull out objects and name them with *el/la* and a retrieved colour (*el lápiz azul*, *la regla roja*); introduce *el/la* formally — every noun is masculine or feminine — building on Year 1's *este/esta*.
+- **Check for understanding:** "You know *la regla* and *el libro*. Why do we say *la regla roja* but *el libro rojo*?" → *Regla* is a feminine (la) word, so the colour ends in -a; *libro* is masculine (el), so it ends in -o — and in both the colour comes after the object.
 - **Differentiation:** support: object + colour cards to match / stretch: plurals (*dos lápices azules*).
 - **Materials:** classroom objects, a cloth bag, colour cards
 - **Joy:** Mystery-bag guessing by touch — "¿Es un lápiz?"
@@ -159,7 +162,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Objective:** "By the end, I can say the days of the week in order and say what day it is today." (KS2 Languages – vocabulary)
 - **Hook:** A days-of-the-week song with actions.
 - **Key activity:** Learn days by ear; note they are not capitalised in Spanish; start a daily routine: *Hoy es lunes*; order jumbled day cards.
-- **Check for understanding:** "If hoy es miércoles, what is mañana?" → *jueves*.
+- **Check for understanding:** "If *mañana es sábado*, what day is *hoy*, and what day was *ayer*?" → *Hoy es viernes; ayer fue jueves.* (Year 1 practised only *hoy* and *mañana*.)
 - **Differentiation:** support: song lyrics with pictures / stretch: say *ayer* (yesterday) and *mañana* for any day.
 - **Materials:** day cards, a class calendar, song recording
 - **Joy:** "Human week" — seven children hold cards and shuffle; the class puts them in order.
@@ -256,7 +259,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Duration:** 25 min
 - **Objective:** "By the end, I can say what the weather is like using six weather phrases." (KS2 Languages – speaking)
 - **Hook:** A weather-presenter's map and a toy microphone.
-- **Key activity:** Learn weather phrases by ear with actions (fan yourself for *hace calor*, shiver for *hace frío*); add to the daily routine; look out of the window: *Hoy…*.
+- **Key activity:** Retrieve Year 1's weather phrases with actions (fan yourself for *hace calor*, shiver for *hace frío*) in two minutes, then add new ones: *hace buen tiempo, hace mal tiempo, hay tormenta*; add to the daily routine; look out of the window: *Hoy…*.
 - **Check for understanding:** "Why do we say 'hace' for sun, heat and cold but 'llueve' for rain?" → Different verbs: *hace* ("it makes") for some weather; *llueve* means "it rains."
 - **Differentiation:** support: weather symbol cards to hold up / stretch: combine two (*hace sol pero hace frío*).
 - **Materials:** weather symbol cards, a map, toy microphone
@@ -344,7 +347,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Duration:** 25 min
 - **Objective:** "By the end, I can name family members in Spanish." (KS2 Languages – vocabulary)
 - **Hook:** Paco the puppet shows photos of his big Mexican family.
-- **Key activity:** Learn family words by ear with photos; notice masculine/feminine pairs (*hermano/hermana*, *abuelo/abuela*, *tío/tía*); play "¿Quién es?" pointing at the photos.
+- **Key activity:** Retrieve Year 1's family words with a quick photo game, then add new ones (*el primo, la prima, el bebé, hijo único*); notice masculine/feminine pairs (*hermano/hermana*, *abuelo/abuela*, *tío/tía*); play "¿Quién es?" pointing at the photos.
 - **Check for understanding:** "If 'abuelo' is grandfather, what do you think 'abuela' is? Why?" → Grandmother — the -a ending is often feminine.
 - **Differentiation:** support: five core words with pictures / stretch: *primo/prima* and *tío/tía*.
 - **Materials:** family photo cards, puppet
@@ -355,7 +358,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Objective:** "By the end, I can say who is in my family using tengo and no tengo." (KS2 Languages – speaking; grammar)
 - **Hook:** "¿Cuántos hermanos tienes?" asked to the class.
 - **Key activity:** Model *Tengo un hermano y dos hermanas. No tengo hermanos.*; note that *un* becomes nothing after *no* (*no tengo hermanos*); partner interviews; *hijo único / hija única*.
-- **Check for understanding:** "How would you say 'I have two brothers' and 'I don't have sisters'?" → *Tengo dos hermanos. No tengo hermanas.*
+- **Check for understanding:** "A classmate says '*No tengo un hermano*'. What would a Spanish speaker usually say instead, and why?" → *No tengo hermanos* — after *no tengo* we usually drop *un/una* and use the plural.
 - **Differentiation:** support: sentence builder with picture tiles / stretch: add ages (*Mi hermano tiene diez años*).
 - **Materials:** sentence builders, interview sheets
 - **Joy:** "Find someone who…" hunt (*¿Tienes un hermano?*).
@@ -442,8 +445,8 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Duration:** 25 min
 - **Objective:** "By the end, I can name eight pets in Spanish with el or la." (KS2 Languages – vocabulary)
 - **Hook:** A pet shop "sound quiz" — animal noises, including Spanish ones (*guau guau*, *miau*).
-- **Key activity:** Learn pets by ear with pictures and actions; compare animal sounds in Spanish and English; memory game.
-- **Check for understanding:** "What does a Spanish dog say?" → *Guau guau.*
+- **Key activity:** Retrieve Year 1's pets and animal sounds in a quick sound quiz; add new pets (*el ratón, el loro, el hámster, la cobaya*); learn plurals — add -s after a vowel (*dos perros*), -es after a consonant (*dos ratones*), and z → c (*un pez, dos peces*); memory game.
+- **Check for understanding:** "Why is it *dos perros* but *dos peces*?" → *Perro* ends in a vowel, so we just add -s; *pez* ends in a consonant, so we add -es — and the z changes to c.
 - **Differentiation:** support: six pets / stretch: add *el hámster*, *la cobaya*.
 - **Materials:** pet pictures, sound recordings, memory cards
 - **Joy:** Animal-sound comparison — the class laughs at the differences.
@@ -452,8 +455,8 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Duration:** 20 min
 - **Objective:** "By the end, I can ask and answer whether someone has a pet." (KS2 Languages – speaking)
 - **Hook:** Paco has a mystery pet in a box.
-- **Key activity:** Practise *¿Tienes una mascota? — Sí, tengo un gato. / No, no tengo mascotas.*; class survey and tally (Maths link).
-- **Check for understanding:** "How do you answer 'no' fully in Spanish?" → *No, no tengo mascotas* — two *no*s.
+- **Key activity:** Retrieve Year 1's *¿Tienes una mascota? — Sí, tengo un gato. / No, no tengo mascotas.*; class survey and tally (Maths link); then report the results with *hay* and plurals: *En la clase hay seis perros y dos peces.*
+- **Check for understanding:** "Report one result from our survey in a full Spanish sentence." → e.g. *En la clase hay cinco gatos.* (number + plural noun)
 - **Differentiation:** support: picture cards to choose from / stretch: add the pet's name (*Se llama…*).
 - **Materials:** survey sheets, mystery box
 - **Joy:** Class pet survey chart.
@@ -461,7 +464,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 ### Lesson 37 — Colours and adjectives after the noun
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe an animal with a colour or size after the noun." (KS2 Languages – grammar)
-- **Hook:** "A blue dog? Un perro azul!" — silly animal pictures.
+- **Hook:** "A blue dog? ¡Un perro azul!" — silly animal pictures.
 - **Key activity:** Model noun + adjective order (*un gato negro*, *un pez pequeño*); describe silly animals; draw a description a partner reads aloud.
 - **Check for understanding:** "Where does the adjective go in 'un perro grande'?" → After the noun.
 - **Differentiation:** support: adjectives that don't change (*grande*, *verde*, *azul*) / stretch: two adjectives with *y* (*un perro grande y negro*).
@@ -490,13 +493,13 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 
 ### Lesson 40 — Animal song and rhyme
 - **Duration:** 20 min
-- **Objective:** "By the end, I can sing a traditional Spanish-language animal song with good pronunciation." (KS2 Languages – performance)
-- **Hook:** *Los pollitos dicen* — a traditional Latin American children's song about chicks.
-- **Key activity:** Learn the song by ear, then with lyrics; add actions; discuss what the chicks want (food and warmth).
-- **Check for understanding:** "What do the chicks say, and why?" → *pío, pío, pío* — they are hungry and cold.
-- **Differentiation:** support: first verse only / stretch: lead the song.
-- **Materials:** lyrics, recording, chick puppets
-- **Joy:** Chick puppets for the performance.
+- **Objective:** "By the end, I can sing a traditional Spanish-language counting song about animals with good pronunciation." (KS2 Languages – performance)
+- **Hook:** *Un elefante se balanceaba* — a traditional counting song sung across Spain and Latin America (Year 1 already knows *Los pollitos dicen*).
+- **Key activity:** Learn the song by ear, then with lyrics; each verse adds one more elephant balancing on a spider's web (*sobre la tela de una araña*); children join the line one by one as the number grows; notice the plural *elefantes*.
+- **Check for understanding:** "In verse three, how many elephants are there, and why does the word change from *elefante* to *elefantes*?" → *Tres elefantes* — more than one, so it takes a plural -s.
+- **Differentiation:** support: join the repeated line only / stretch: lead the song and count up to *diez elefantes*.
+- **Materials:** lyrics, recording, a rope or chalk line as the "web"
+- **Joy:** The growing, wobbling elephant line.
 
 ### Lesson 41 — Reading: animal riddles
 - **Duration:** 20 min
@@ -661,7 +664,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 - **Objective:** "By the end, I can explain what the Day of the Dead celebrates and name its symbols in Spanish." (KS2 Languages – intercultural)
 - **Hook:** Marigold flowers (*cempasúchil*) and a decorated sugar-skull picture.
 - **Key activity:** Learn that families remember loved ones who have died, with happy music, food and flowers; name symbols (*la flor, la vela, la calavera, el papel picado*); make papel picado (cut tissue-paper banners).
-- **Check for understanding:** "Is the Day of the Dead a sad or a happy festival? Explain." → It is a joyful celebration of remembering loved ones.
+- **Check for understanding:** "Name two things on an *ofrenda* in Spanish and say why each one is there." → e.g. *la vela* (a candle to light the way and remember), *la flor / el cempasúchil* (bright, scented flowers to welcome loved ones), *la foto* (to remember the person). (Year 1 already discussed why it is a happy festival.)
 - **Differentiation:** support: picture labels / stretch: describe an altar with colours (*flores naranjas*).
 - **Materials:** tissue paper, scissors, marigolds or pictures
 - **Joy:** Papel picado banners for the classroom.
@@ -679,7 +682,7 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 ### Lesson 57 — Carnaval: music and masks
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe a carnival mask using colours and adjectives." (KS2 Languages – speaking/writing; Art link)
-- **Hook:** Carnival music from Oruro (Bolivia) or Cádiz (Spain) and mask photos.
+- **Hook:** Carnival music and mask photos from Oruro (Bolivia) — Year 1 visited Barranquilla and Cádiz; this year the new step is making every adjective agree.
 - **Key activity:** Make a carnival mask; describe it: *Mi máscara es roja y amarilla. Es grande y bonita.* (agreement: *la máscara* is feminine).
 - **Check for understanding:** "Why is it 'roja' and not 'rojo' for my mask?" → *Máscara* is feminine.
 - **Differentiation:** support: colour words only / stretch: three adjectives.
@@ -869,4 +872,4 @@ hints below are plain-English approximations with the **STRESSED** syllable in c
 
 **Assessment is by listening and watching.** Keep a simple tracker for the four skills; celebrate risk-taking — a child who tries a sentence with an error is making more progress than one who stays silent.
 
-**Vertical alignment.** Year 1 built greetings, numbers 0–31, colours, classroom objects and first songs by ear. Year 3 (ages 8–9) adds food and shopping with prices, hobbies, the body, telling the time and first regular *-ar* verbs — so secure pronunciation, dates, *tengo*, *me gusta* and adjective agreement before the summer.
+**Vertical alignment.** Year 1 built greetings, numbers 0–20, colours, family, animals, body, food, weather and days by ear, with the Spanish sound rules. This year adds numbers to 50, classroom objects, months and dates, plurals, *mi/mis*, adjective agreement, reading and writing. Year 3 (ages 8–9) revisits family, animals, the calendar and weather with *tener* and *ser* in longer sentences and adds the home and clothes — so secure pronunciation, dates, *tengo*, *me gusta* and adjective agreement before the summer.

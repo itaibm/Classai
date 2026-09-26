@@ -142,7 +142,7 @@ and printing lessons use the upper end.
 - **Objective:** "By the end, I can mix shades by adding a tiny amount of black and explain the difference between a tint and a shade." (UK NC KS1 Art TE)
 - **Hook:** "Black is powerful — just a speck changes everything!"
 - **Key activity:** Model adding black on the tip of a brush; children mix a shade ladder beside their tint ladder, making one colour's full range from light to dark.
-- **Check for understanding:** "What's the difference between a tint and a shade?" → A tint is a colour made lighter with white; a shade is a colour made darker with black.
+- **Check for understanding:** "Here are two new blues you haven't seen me mix. Which is a tint and which is a shade? How do you think each was made?" → The lighter one is a tint (blue + white); the darker one is a shade (blue + a tiny bit of black).
 - **Differentiation:** support: 3 shades only / stretch: full 7-step range from lightest tint to darkest shade
 - **Materials:** paint, black, white, palettes, brushes
 - **Joy:** The full "light to dark" strip.
@@ -272,7 +272,7 @@ and printing lessons use the upper end.
 - **Objective:** "By the end, I can design a motif and repeat it in different pattern rules (AB, ABBA, rotating)." (UK NC KS1 Art TE; link: Maths patterns)
 - **Hook:** Fabric samples and wallpapers from around the world: "What's repeating? What's the rule?"
 - **Key activity:** Identify motifs and rules; design a simple motif in the sketchbook; repeat it three ways (straight, alternating, rotating).
-- **Check for understanding:** "What is a 'motif' in a pattern?" → The shape or picture that repeats.
+- **Check for understanding:** "Look at this new fabric. What is the motif, and what is the rule it follows? How can you tell?" → Names the repeating shape (the motif) and describes the rule (e.g. it flips every other time — I can see it pointing up, down, up, down).
 - **Differentiation:** support: stencil motifs / stretch: design a pattern where the motif rotates a quarter turn each time
 - **Materials:** fabric and wallpaper samples, stencils, squared paper
 - **Joy:** "Guess my rule" game.
@@ -362,7 +362,7 @@ and printing lessons use the upper end.
 - **Objective:** "By the end, I can weave yarn on a card loom and explain how an artist made weaving into modern art." (UK NC KS1 Art AR/MA)
 - **Hook:** Show a woven work by Anni Albers: "Is weaving art or craft? Can it be both?"
 - **Key activity:** Card loom with a warp; weave yarn with a plastic needle; change colours to make stripes; discuss Albers's bold geometric patterns.
-- **Check for understanding:** "What is the difference between the warp and the weft?" → The warp threads are stretched on the loom first; the weft threads are woven over and under them.
+- **Check for understanding:** "Point to the warp and the weft on your loom. Which did you put on first, and why couldn't you do it the other way round?" → The warp is stretched on the loom first; the weft can only go over and under something that is already there, so the warp must come first.
 - **Differentiation:** support: chunky yarn and a wide loom / stretch: add a pattern block of a different colour
 - **Materials:** card looms, yarn, plastic needles, Anni Albers images
 - **Joy:** Colourful woven mini-tapestries.
@@ -402,7 +402,7 @@ and printing lessons use the upper end.
 - **Objective:** "By the end, I can use my hands to roll, pinch and coil clay and describe the shapes each makes." (UK NC KS1 Art MA/TE)
 - **Hook:** "Clay is one of the oldest art materials in the world. What can your hands do with it?"
 - **Key activity:** Explore techniques: roll a ball, pinch a small pot, roll coils (snakes), press textures; record in the sketchbook with drawings.
-- **Check for understanding:** "What's the difference between a coil and a slab?" → A coil is a long rolled snake; a slab is a flat sheet.
+- **Check for understanding:** "You want to make a bowl with tall sides. Would you use a pinch or coils, and why?" → Coils — you can stack them round and round to build the walls higher; a pinch pot only stretches as far as one ball of clay goes.
 - **Differentiation:** support: softened clay or dough / stretch: coil a small spiral dish
 - **Materials:** air-drying clay, boards, texture tools, wet cloths
 - **Joy:** Squishing clay.
@@ -422,7 +422,7 @@ and printing lessons use the upper end.
 - **Objective:** "By the end, I can join two pieces of clay by scoring and slipping so they don't fall off." (UK NC KS1 Art TE)
 - **Hook:** Show a clay model whose ears fell off: "Why did this happen? How can we stop it?"
 - **Key activity:** Demonstrate "score, slip, press, smooth"; children add handles, ears or legs to a form; test by gently lifting.
-- **Check for understanding:** "What are the four steps to join clay?" → Score (scratch), slip (wet clay glue), press, smooth.
+- **Check for understanding:** "Your friend's clay ears fell off when they dried. Which step did they probably skip, and why does it matter?" → Score and slip — scratching both surfaces and adding slip lets the clay grip like glue; just pressing pieces together doesn't hold.
 - **Differentiation:** support: one join with help / stretch: three joins on a creature
 - **Materials:** clay, plastic forks for scoring, slip (clay + water), sponges
 - **Joy:** The "shake test" for joins.
@@ -496,4 +496,4 @@ and printing lessons use the upper end.
 
 **Safety.** Blunt needles, safety scissors, adult-only craft knives; wash hands after clay; check allergies for materials.
 
-**Vertical alignment.** Foundation gave line, primary/secondary colour, tints, collage, stamp printing and dough. Year 2 (ages 7–8) moves to slow observational drawing, texture by observation, first tone (shading a sphere) and a still life — all built on this year's sketchbook habit and light-first drawing.
+**Vertical alignment.** Foundation gave line, primary/secondary colour, tints, collage, stamp printing and dough. Year 2 (ages 7–8) moves to slow observational drawing, texture by observation, first tone (shading a sphere) and a still life, tertiary colours, multi-colour block printing, slab building and hollow forms, and new weaving traditions — all built on this year's sketchbook habit, light-first drawing, tints and shades, relief printing, weaving and pinch/coil/score-and-slip clay.
