@@ -370,8 +370,10 @@ export function parseNumberAnswer(raw: string): number[] {
   const s = raw.trim().replace(/\s+/g, ' ');
   if (!s) return [];
   const out: number[] = [];
+  // "1,000" is a thousands separator; any other single comma is a decimal comma
+  // ("2,5" = 2.5). One reading only, so a wrong answer is never marked right.
   if (/^[-+]?\d{1,3}(,\d{3})+$/.test(s)) out.push(Number(s.replace(/,/g, '')));
-  if (/^[-+]?(\d+([.,]\d*)?|[.,]\d+)$/.test(s)) out.push(Number(s.replace(',', '.')));
+  else if (/^[-+]?(\d+([.,]\d*)?|[.,]\d+)$/.test(s)) out.push(Number(s.replace(',', '.')));
   const frac = /^([-+])?(?:(\d+) )?(\d+) ?\/ ?(\d+)$/.exec(s);
   if (frac) {
     const den = Number(frac[4]);
