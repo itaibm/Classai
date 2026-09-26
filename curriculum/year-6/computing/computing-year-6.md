@@ -19,8 +19,10 @@ ends with a **capstone program** that serves the cross-subject graduation projec
 **What we assume from Years 4 and 5:** Scratch games with variables, lists, custom blocks and clones;
 physical computing with the micro:bit (sensors, conditions, radio); **first Python** — `print`, turtle
 graphics, `for` loops with `range`, variables, `int(input())`, `if/elif/else` and reading error
-messages (Year 5 Unit 5); computer systems, binary and how text and images are stored (Year 5);
-networks, packets and the web (Year 4); spreadsheets with formulas, sorting, filtering and charts;
+messages (Year 5 Unit 5); computer systems and binary to 31 (Year 4); bytes, character codes, RGB
+images, sound sampling and compression (Year 5); networks, packets and URLs (Year 3); spreadsheet
+basics — SUM, sorting and charts (Year 4) — and spreadsheet models with absolute references,
+'what if?' questions, scatter graphs and simulations (Year 5);
 fact-checking, advertising and sponsored content, and an unplugged introduction to how AI learns.
 **What Year 6 adds:** data types and casting, operators including `//` and `%`, strings and f-strings,
 Boolean logic, `while` loops and nested loops, lists, functions with parameters and return values,
@@ -295,15 +297,15 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 
 **Key vocabulary:** data, information, record, field, data type, database, table, primary key, query, criteria, sort, filter, spreadsheet, cell reference, formula, function (`SUM`, `AVERAGE`, `IF`, `COUNTIF`), chart, CSV file, data validation
 
-### Lesson 22 — Data and information; spreadsheet formulas
+### Lesson 22 — Data and information: data types and validation
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the difference between data and information and use formulas and functions with cell references in a spreadsheet." (UK KS3 Computing — data; CSTA 2-DA-08)
-- **Hook:** "12, 15, 9, 21 — is that information? What if I tell you they're the hours of screen time four children had last week?"
-- **Key activity:** Data vs information (data + context = information); build a spreadsheet of class data (e.g. from the Maths statistics unit); formulas with cell references (`=B2*C2`), functions (`SUM`, `AVERAGE`, `MAX`, `MIN`), relative references when filling down.
-- **Check for understanding:** "Why is `=B2+B3+B4` better than `=12+15+9`?" → It uses cell references, so if the data changes the result updates automatically.
-- **Differentiation:** support: a partly built spreadsheet / stretch: absolute references (`$B$1`) for a fixed value like a price
-- **Materials:** spreadsheet software, class data set
-- **Joy:** A live "class facts" spreadsheet that updates as data is added
+- **Objective:** "By the end, I can explain the difference between data and information, choose a suitable data type for each field, and use data validation to stop bad data getting in." (UK KS3 Computing — data; CSTA 2-DA-08)
+- **Hook:** "12, 15, 9, 21 — is that information? What if I tell you they're the hours of screen time four children had last week? And what if one child typed 'loads'?"
+- **Key activity:** Three-minute retrieval of Year 5's café model (input cells, `$` absolute references, fill-down). New: data vs information (data + context = information); **data types** in a table (text, whole number, decimal, date, true/false) and why 'loads' or '12 hrs' breaks `AVERAGE`; **data validation** — drop-down lists, number ranges (0–24 hours) and date checks in a class survey sheet; "garbage in, garbage out": pupils try to break each other's sheets with silly entries, then add validation rules to stop them.
+- **Check for understanding:** "A survey column for 'hours of sleep' contains 9, 10, 'about 8', 11 and 90. Which entries cause problems, why, and what validation rule would have stopped them?" → 'about 8' is text, so it can't be averaged; 90 is impossible for one night and would wreck the average; a rule allowing only whole or decimal numbers between 0 and 24 would reject both
+- **Differentiation:** support: a partly built survey sheet with one validation rule to copy / stretch: explain why a telephone number should be stored as text, not as a number (leading zeros, no arithmetic)
+- **Materials:** spreadsheet software, a class survey data set with deliberate errors
+- **Joy:** "Break my sheet" — a hacker-style challenge to get bad data past a partner's validation
 
 ### Lesson 23 — IF, COUNTIF and conditional formatting
 - **Duration:** 40 min
@@ -340,7 +342,7 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 - **Objective:** "By the end, I can answer a question with data using a spreadsheet (formulas and a suitable chart) and explain my findings." (UK KS3 Computing; CSTA 2-DA-07, 2-DA-09)
 - **Hook:** "Ask a question, find the data, answer it."
 - **Key activity:** Choose a question (possibly for the graduation capstone: e.g. a survey about a local issue); organise data; use formulas and a chart; write a short conclusion and a limitation; short check on vocabulary.
-- **Check for understanding:** "Why did you choose that type of chart for your data?" → A reason matching chart type to data (e.g. a bar chart for categories, a line graph for change over time).
+- **Check for understanding:** "Name one limitation of your data and explain how it could change your conclusion." → A specific limitation linked to the conclusion (e.g. only 20 people answered, all from one class, so the result may not be true for the whole school; or the question could be misread, so some answers are unreliable).
 - **Differentiation:** support: a prepared data set and chart template / stretch: combine spreadsheet and Python analysis
 - **Materials:** spreadsheet software, data sets or survey data
 - **Joy:** Answering a real question with your own data
@@ -368,9 +370,9 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 ### Lesson 28 — Packets and IP addresses (unplugged)
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain how data is split into packets, addressed with IP addresses and reassembled." (UK KS3 Computing — the internet; CSTA 2-NI-04)
-- **Hook:** "In Year 4 you played the packet game. Today, let's watch real packets travel — and count the countries they pass through."
-- **Key activity:** Quick unplugged retrieval of packet switching (numbered packets, different routes, reassembly — Year 4). New: IPv4 addresses (four numbers 0–255 — link to Year 5 binary: each is one byte); a teacher-led `ping` and `traceroute` to a distant server, counting hops and looking up where routers are; how a protocol (TCP) checks every packet arrived and asks for missing ones to be resent.
-- **Check for understanding:** "Why are packets numbered?" → They may take different routes and arrive out of order; numbers let the receiving computer put them back together correctly (and ask for missing ones).
+- **Hook:** "In Year 3 you played the lost-packets game. Today, let's watch real packets travel — and count the countries they pass through."
+- **Key activity:** Quick unplugged retrieval of packet switching (numbered packets, different routes, check numbers and resending — Year 3). New: IPv4 addresses (four numbers 0–255 — link to Year 5 binary: each is one byte); a teacher-led `ping` and `traceroute` to a distant server, counting hops and looking up where routers are; how a protocol (TCP) checks every packet arrived and asks for missing ones to be resent.
+- **Check for understanding:** "Someone says their IP address is 192.168.1.300. Explain, using what you know about bytes, why that cannot be right." → Each of the four numbers in an IPv4 address is stored in one byte, and a byte can only hold 0–255, so 300 is impossible.
 - **Differentiation:** support: a guided role card as a router / stretch: explain why sending packets by different routes makes the internet more reliable
 - **Materials:** envelopes or sticky notes, address labels, a laptop for `traceroute`
 - **Joy:** The packet-switching race
@@ -379,7 +381,7 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain the difference between the internet and the World Wide Web, what happens when I type a URL, and why HTTPS matters." (UK KS3 Computing; CSTA 2-NI-04)
 - **Hook:** "The web was invented by Tim Berners-Lee in 1989 at CERN. The internet is older. What's the difference?"
-- **Key activity:** Internet (the network) vs the web (pages and links that run on it); DNS as the internet's phone book (domain name → IP address); parts of a URL; HTTP vs HTTPS (the padlock means the connection is encrypted — not that the site is trustworthy).
+- **Key activity:** One-minute retrieval of the internet vs the web (Year 2) and the parts of a URL (Year 3). New: DNS as the internet's phone book (domain name → IP address), traced step by step from typing a URL to the page arriving; HTTP vs HTTPS (the padlock means the connection is encrypted — not that the site is trustworthy).
 - **Check for understanding:** "Does the padlock (HTTPS) prove a website is honest? Explain." → No: it only means the connection is encrypted; a scam site can also use HTTPS.
 - **Differentiation:** support: a sequence of cards for "what happens when you type a URL" / stretch: inspect a web page's HTML with the browser's developer tools
 - **Materials:** laptops, URL anatomy cards, sequence cards
@@ -499,5 +501,5 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 - **Screen-time balance and wellbeing:** at least a third of each lesson is unplugged thinking, discussion or tracing; eye breaks; link to PE and Health (sleep and screens).
 - **Online safety and safeguarding:** supervised internet use; age limits for AI and social tools respected; no personal data entered into online tools; clear reporting routes if something worrying appears.
 - **Differentiation.** Support means worked examples, partly completed programs (Parsons problems — reorder lines of code), and templates; stretch means open specifications, extra features (validation, files, efficiency) and explaining design choices — not racing ahead to new syntax.
-- **Vertical alignment.** Year 4 taught networks, packets and the web; Year 5 secured block programming, physical computing, first Python (turtle, `for`, input, `if/elif/else`), binary and data representation, and a spreadsheet investigation. Year 6 retrieves these briefly and establishes Python fundamentals, data processing, networks, security and AI literacy. Secondary computing (UK Year 8 / US Grade 7 / MYP 2) builds on these to dictionaries, file handling, algorithms (searching and sorting), binary and computer architecture.
+- **Vertical alignment.** Years 2–3 taught networks, packets and URLs; Year 4 taught computer systems, binary to 31 and spreadsheet basics; Year 5 secured block programming, physical computing, first Python (turtle, `for`, input, `if/elif/else`), data representation (bytes, text, images, sound, compression) and spreadsheet modelling. Year 6 retrieves these briefly and establishes Python fundamentals, data processing, networks, security and AI literacy. Secondary computing (UK Year 8 / US Grade 7 / MYP 2) builds on these to dictionaries, file handling, algorithms (searching and sorting), binary and computer architecture.
 - **Cross-curricular links:** Maths (operators, sequences, polygons and exterior angles, statistics, prime numbers), Science (data from investigations), Geography (country data, GIS, undersea cables), English (research, evaluating sources, AI and misinformation), Art (turtle art, digital design), Life Skills (the graduation capstone).

@@ -98,16 +98,20 @@ Art & Design 1 · Music 1 · Computing 1 · Life Skills 1 = **22 lessons**.
 - **Builds on Year 5 (ages 10–11, UK Year 6 / US Grade 5)** — see [`../year-5/`](../year-5/) and
   `knowledge-base/subjects/*/year-6.md`: the full KS2 toolkit (long multiplication and division, four
   operations with fractions, first ratio and algebra, the mean, pie charts; KS2 grammar and spelling;
-  classification, circulation, evolution, light, electricity, the particle model and first chemical
-  reactions, atmosphere and climate; source evaluation, the Ottoman Empire, the Renaissance, the
-  transatlantic slave trade and the Second World War home fronts; map projections and GIS, Kenya,
-  water, trade and the polar regions; Scratch, the micro:bit, **first Python** and binary; A1 Spanish
-  with the present tense and *ir a* + infinitive; choral harmony, ukulele, keyboard and compound time;
+  classification (ranks, evolutionary trees, fungi), circulation, evolution, light, electricity
+  (diagrams, short circuits, resistance), chemical reactions (evidence, carbon dioxide, exothermic and
+  endothermic changes, rates, conservation of mass), atmosphere and climate; source evaluation, the
+  Ottoman Empire, the Renaissance, the transatlantic slave trade and the Second World War home fronts;
+  map projections and satellite change, Kenya, water, trade and shipping, and Australia and the Pacific
+  islands; Scratch, the micro:bit, **first Python**, data representation (bytes, text, images, sound,
+  compression) and spreadsheet modelling; A1 Spanish with the present tense and *ir a* + infinitive;
+  choral harmony, Ukulele III, keyboard, compound time and accidentals, and world music III (samul nori,
+  kora, Irish jigs, son, klezmer);
   illustration, collage and sculpture; changing friendships, risk, banks, scams and a data-led
-  sustainability campaign). Year 4 taught networks and the web, and a first class enterprise and service
-  project. Each Year 6 file starts with brief retrieval and then goes deeper. The review in
+  sustainability campaign). Year 3 taught networks, packets and URLs; Year 4 taught computer systems,
+  binary to 31, spreadsheet basics, and a first class enterprise and service project. Each Year 6 file starts with brief retrieval and then goes deeper. The review in
   [`../../docs/reviews/years-5-6.md`](../../docs/reviews/years-5-6.md) records where Year 5–6 repeats were
-  removed.
+  removed, including the boundary fixes against Years 3–4.
 - **Hands on to secondary (UK Year 8 / US Grade 7 / MYP 2):** proportional reasoning and multi-step
   equations; thesis-driven analytical and argument essays, heritage texts and Shakespeare; the cell,
   particle, energy and force models; source evaluation and interpretation; case-study geography and

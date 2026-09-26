@@ -519,3 +519,155 @@ All 18 owned files parse with `parseScopeFile`:
   - Stress and calm strategies in Life Skills Year 5 and PE & Health Year 6 (performance nerves vs anxiety).
 - **Year 4 was read only.** Several Year 4 files contain the same content that Year 5 repeated. The fixes were made on the Year 5/6 side.
 - **Books:** titles I could not verify with certainty were removed rather than guessed. Resource links (UNICEF, VIA, World's Largest Lesson, etc.) are named but URLs were not live-checked from this environment.
+
+
+## Boundary fixes (branch `review/boundary`, from `8509cea`)
+
+**Why.** The Years 3–4 and Years 5–6 reviewers edited Year 4 and Year 5 independently, which created new collisions at the Y4/Y5 boundary. **Year 4 is settled and was not edited.** Only Years 5 and 6 (and their READMEs) changed. The rule was the same as before: the later year opens with a short retrieval, then teaches something new.
+
+**How it was checked.** Every edited file was re-parsed with `parseScopeFile` after each change: unit and lesson counts are unchanged, numbering is continuous, all eight fields are present and durations are 30–45 min. `node curriculum/validate-lessons.mjs curriculum --quiet` reports 0 errors. Affected lessons were rewritten in full (title, objective, hook, activity, check, differentiation, materials, joy), not just renamed. The overviews, vocabulary, end-of-unit checks, mastery checks, misconceptions and vertical notes were updated to match.
+
+### Computing
+
+**Year 5 Unit 1: "Inside the computer: binary and data" → "Data representation: text, images, sound and compression"**
+- **L1 Bits and bytes.** Retrieves Y4's input–process–output model, memory vs storage and binary to 31. New: 8-bit bytes (0–255), KB/MB/GB, file sizes.
+- **L2 ASCII and Unicode.** Kept; Y4 does not teach it.
+- **L3 RGB and colour depth.** Y4 L4 taught black-and-white pixels. New: image-size calculations.
+- **L4 Sound as data (sampling).** New.
+- **L5 Compression and unit check.** Run-length encoding, lossless vs lossy.
+
+**Year 5 Unit 4: "Data detectives: spreadsheets" → "Spreadsheet modelling: what if?"** Y4 taught cells, SUM, MAX/MIN, sorting and bar/line charts, and Y5 was re-teaching them.
+- **L19** Absolute references ($).
+- **L20** Input/output 'what if?' models.
+- **L21** Scatter graphs, correlation vs cause, and misleading charts.
+- **L22** A 1,000-roll dice simulation.
+- **L23** The café model check.
+
+**Year 5, other lessons**
+- **L8** "Variables: score, lives and timer" repeated Y4 L14–15. It is now "Levels and game states" (a level variable and broadcasts).
+- **L34** "Privacy and security" repeated Y4 L31–32 (passphrases, two-step verification). It is now "Your data trail": cookies, photo location data and online reputation.
+- **Overview.** "Networks from Year 4" is corrected to Year 3.
+
+**Year 6: the spreadsheet strand now runs Y4 basics → Y5 modelling → Y6 databases and analysis**
+- **L22** "Data and information; spreadsheet formulas" is now "Data types and validation". It retrieves Y5 briefly.
+- **L26** The check (chart choice, a Y4/Y5 repeat) now asks about a limitation of the data.
+
+**Year 6: network retrieval**
+- **L28** now retrieves Year 3's lost-packets game, not "Year 4". Its new check asks why 192.168.1.300 is impossible (one byte per number).
+- **L29** retrieves Y2–3's internet vs web and URL parts, then focuses on DNS and HTTPS.
+
+### Geography
+
+**Year 5 Unit 5: "The polar regions" → "Region study: Australia and the Pacific islands"**
+- **Why.** The old unit repeated Y4's Antarctica unit (the same land-ice vs sea-ice model and check, and the Antarctic Treaty). It also repeated Y3 L15, the Arctic tundra and the Inuit.
+- **Why Oceania.** It is the one continent with no regional unit in Years 3–6.
+- **L26** Oceania on the map; where Australians live (rainfall and population overlays).
+- **L27** First Nations land care and cultural burning (Uluru–Kata Tjuta).
+- **L28** The Great Barrier Reef and coral bleaching.
+- **L29** Atolls in a rising ocean (Tuvalu, Fiji's Vunidogoloa), with Pacific wayfinding (*Hōkūleʻa*). Retrieves Y4's land-ice model in one minute.
+- **L30** Enquiry comparing Sydney, Alice Springs, Funafuti and the pupils' own town.
+
+**Year 5 Unit 4: trade.** L21 "The journey of chocolate" and L22 "Fair trade" repeated Y3 Unit 6 (the same Kuapa Kokoo case). L20's label hunt repeated Y3 L29. The unit now runs:
+- **L20** Our country in world trade (trade data and a flow map).
+- **L21** Ships, containers and chokepoints (the *Ever Given*, Suez).
+- **L22** The T-shirt.
+- **L23** Food miles.
+- **L24** A local business in a global world (an interview).
+- **L25** Enquiry.
+
+**Year 5 Unit 3: water**
+- **L17** is now "Water stress: reading the data" (m³ per person). It retrieves Y3's physical and human reasons.
+- **L18** is now "Village-scale solutions: which will last?". The tap-timer activity, a Y3 L8 repeat, is removed.
+- **L19** was "our local water supply", a Y3 L6 repeat. It is now "After the drain: where does our used water go?".
+
+**Year 5, other lessons**
+- **L6** "GIS and satellite images" nearly duplicated Y6 L4's check. It is now "Satellites as time machines": measuring change over time (the Aral Sea, a growing city).
+- **"What this year assumes."** Corrected. It had described a different Year 4.
+
+**Year 6**
+- **Overview and vertical note** updated.
+- **L27** fair-trade retrieval now points to Year 3.
+- **L15** Tuvalu card (now taught in Y5) is replaced by Miami, with a new "capacity to adapt" ranking. Tuvalu is retrieved in one minute.
+
+### Music
+
+**Year 5 Unit 2: "Ukulele II" → "Ukulele III"**
+- Year 4 has Ukulele I and II.
+- The content (G, D, Em, key of G, TAB, fingerpicking, reggae skank) already went beyond Y4's C, Am, F and G7, so only the name changed.
+
+**Year 5 Unit 4: "Music of the world II" → "Music of the world III: samul nori, kora, Irish jigs, son and klezmer"**
+- Taiko and Andean panpipes were Year 3 (L23–24), and oud and maqam were Year 4 (L24). They are replaced by:
+  - **L18** Korean samul nori.
+  - **L20** Irish jigs and the session, which apply Unit 3's 6/8.
+  - **L22** Klezmer. Its freygish mode deliberately retrieves Y4's maqam Hijaz and teaches how scales travel, linked to the Ottoman unit in history.
+- **L23** now compares traditions across Years 3, 4 and 5.
+- **Recordings list** updated.
+
+**Year 5, other lessons**
+- **L15** "Pitch on the treble stave" repeated Y3 L1 and L3 (lines and spaces, middle C, sharps). It is now "Flats, naturals and accidentals: the key of F".
+- **"What this year assumes."** It wrongly listed samba, djembe, gamelan and raga as Year 4. Corrected.
+
+**Year 6**
+- **L3** "Clapping Music" repeated Y3 L11. It is now Terry Riley's *In C*, which retrieves Clapping Music.
+- **L9** "Pachelbel's Canon" repeated Y3 L9. It now retrieves Pachelbel's ground, harmonises it with triads, and adds Purcell's chromatic lament bass ("Dido's Lament").
+- **L17** Raga now retrieves Y3 L22 and goes deeper: Yaman's rules, alap.
+- **L19–21** retrieval notes corrected: West African drumming and samba are Year 3, and gamelan is Year 2.
+- **L20** The check was identical to Y2 L18's ("what does the big gong do?"). It is now a kotekan interlocking check.
+
+### Science
+
+**Chemistry strand now: Y3 states and particles → Y4 materials, dissolving, separating, reversible/irreversible and rusting → Y5 reactions → Y6 particles at KS3 depth, separation, atoms and word equations, acids, combustion**
+
+**Year 5 Unit 6: "Chemistry: particles, properties and reactions" → "Chemistry: chemical reactions and new materials"**
+- Removed as repeats:
+  - L47 particle model (Y3 L31).
+  - L48 dissolving and mass (Y4 L8 and L13).
+  - L50 signs of a chemical reaction (Y4 L19, with the same bicarbonate, candle and baking carousel).
+- New:
+  - **L47** Physical or chemical? Weighing the evidence.
+  - **L48** Capturing carbon dioxide (the pouring-gas candle demo).
+  - **L50** Hot and cold (exothermic and endothermic) reactions.
+- Kept: mystery powders, milk plastic, reaction-rate investigation, conservation of mass.
+- **L55 and end-of-unit check** rewritten.
+
+**Year 6 chemistry**
+- **L16** "Evaporation, boiling and condensation" repeated Y3 L36's surface-area test. It is now "Evaporative cooling and boiling points" (wet-bulb thermometers; boiling at about 70 °C on Everest).
+- **L21** "Filtration, evaporation…" repeated Y4 L15–17. It is now "Purifying rock salt: crystallisation and percentage yield".
+- **L26** The check repeated Y4 L19's. It is now an atoms-level physical-vs-chemical explanation.
+- **L27** The sealed-bottle vs open-cup experiment and check were identical to Y5 L54. It is now "counting atoms" with model kits, plus the steel-wool mass-gain demo.
+- **L14, L20** retrieval notes now point to the right year.
+
+**Other same-depth repeats fixed**
+- **Y5 Unit 1** repeated Y3 L5–10: vertebrates and invertebrates (the same whale/dolphin and spider checks), Linnaeus, and keys. Now:
+  - **L2** Ranks from kingdom to species.
+  - **L3** Evolutionary trees and homologous limb bones.
+  - **L4** Fungi as a kingdom (spore prints).
+  - **L7** A pond-life key (Euglena).
+  - **L1** retrieves Y3.
+- **Y5 L39** "Circuit symbols and diagrams" repeated Y3 L59. It is now "Reading diagrams to find faults: short circuits" (simulator only).
+- **Y5 L42** retrieval corrected: conductors are Year 3.
+- **Y6 L43** Mass and weight: retrieves Y4 L38 and adds W = m × g with a Mars calculation check.
+- **Y6 L44** Friction on surfaces repeated Y2/Y4 work. It is now static vs sliding friction and lubricants.
+- **Y6 L45** The parachute investigation repeated Y4 L41–42. It is now terminal velocity (stacked cupcake cases, water resistance).
+- **Y6 L56** Pollination and seed dispersal repeated Y4 L57–58. It is now "Pollinators: who feeds the world?" (a vanilla hand-pollination case and a pollinator survey).
+- **Y6 L61** The check repeated Y4 L31's. It is now about the angle of sunlight.
+- **Y6 L62** The phases activity repeated Y4 L32. Phases are now retrieved, and the lesson focuses on eclipses.
+
+### History
+- **Y6 L7** "The Silk Roads" repeated Y3 L31 (the same relay trade game and near-identical check). It is now "The Indian Ocean world: monsoons, dhows and the Swahili coast", which retrieves Y3's overland route.
+- **Y5 L11** "Copernicus and Galileo" repeated Y4 science L33 (the same Jupiter's-moons check). It now retrieves that science and teaches why new ideas were dangerous: Taqi al-Din's Istanbul observatory (1577–1580), and Galileo's Italian *Dialogue* and his 1633 trial.
+- **Y6 L1** The check repeated Y5 L2's century question. It is now a long BCE/CE interval comparison (the Great Pyramid, Cleopatra and the Moon landing).
+- **Y6 L2** The check repeated Y5 L3's "exaggerating portrait is still useful" check. It is now a NOP comparison of the David and Delaroche paintings.
+- **Y6 L8** now retrieves Y4's sack of Baghdad.
+
+### READMEs and cross-references
+- **Year 5 README:** the year paragraph, term highlights and threads updated. Oceania, trade, Ukulele III, world music III, data representation, spreadsheet modelling and the chemistry unit are now named.
+- **Year 6 README:** the "Builds on Year 5" paragraph updated. Networks are now correctly Year 3. Year 6 unit names are unchanged.
+- **Y5 life skills:** the note on where fair trade is taught was corrected.
+
+### Left / noted
+- **Year 4 (read only) has one stale forward reference**, for the Y3–4 owner: the Y4 computing overview says "Year 5 adds IP addresses, DNS and encryption", but those are taught in Year 6.
+- **Deliberate spirals kept:**
+  - Y5 L16 (the Nile dam) builds on Y4 L12 (sharing the Colorado) at an international scale.
+  - Y6 raga, West African drumming, gamelan and samba-reggae revisit Year 2–3 traditions at KS3 depth, with retrieval.
+- **Resource links** (oec.world, bom.gov.au, PhET, AIATSIS map) are named but were not live-checked from this environment.

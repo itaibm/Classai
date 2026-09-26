@@ -12,12 +12,17 @@ The year balances the three strands of computing:
 
 - **Computer science:** pupils consolidate Scratch with ambitious game design (variables, lists,
   custom blocks, clones), program a **BBC micro:bit** with sensors, and write their **first Python
-  programs** (turtle graphics, loops, variables, input and selection). They look **inside the
-  computer**: its parts, and how numbers, text and pictures are all stored in **binary**. (How the
-  internet works was taught in Year 4 and is deepened in Year 6, with encryption, so it is not
+  programs** (turtle graphics, loops, variables, input and selection). Year 4 already opened the
+  computer (input–process–output, memory and storage) and taught binary to 31 and black-and-white
+  pixels, so Year 5 retrieves that in one lesson and moves on to **data representation**: bytes and
+  file sizes, text (ASCII and Unicode), colour images (RGB and colour depth), **sound as data**
+  (sampling) and **compression** (lossless and lossy). (Networks, packets and URLs were taught in
+  Years 2–3 and are deepened in Year 6 with IP addresses, DNS and encryption, so they are not
   repeated here.)
-- **Information technology:** spreadsheets move on to **formulas, sorting, filtering and charts** to
-  answer real questions with data (linked to science and maths).
+- **Information technology:** Year 4 taught spreadsheet basics (cells, SUM, MAX/MIN, sorting, bar
+  and line charts). Year 5 moves on to **spreadsheet modelling**: absolute references, 'what if?'
+  models with inputs and outputs, scatter graphs and misleading charts, and a dice simulation. Year 6
+  then adds IF/COUNTIF, databases and queries, and data analysis in Python.
 - **Digital literacy and online safety:** spotting **advertising, influencer and sponsored content**
   (building on Year 4's fact-checking), understanding what **AI** tools can and cannot do, protecting
   **privacy**, and building healthy technology habits.
@@ -26,14 +31,16 @@ Every programming unit follows **use → modify → create**: pupils read and ru
 it, then design their own, with **debugging** taught as a skill, not a failure. Pupils plan
 algorithms on paper (flowcharts and pseudocode) before coding.
 
-**What this year assumes (from Year 4):** Scratch with sequence, repetition, selection (if/else) and
-simple variables; how networks, packets and the web work; a first spreadsheet with SUM and a chart;
+**What this year assumes (from Years 3–4):** Scratch with sequence, repetition, selection (if/else) and
+simple variables (score, timer, lives); input–process–output, memory vs storage, binary to 31 and
+black-and-white pixel images (Year 4); how networks, packets and URLs work (Year 3); a first
+spreadsheet with SUM, MAX/MIN, sorting and bar/line charts (Year 4);
 searching effectively and checking whether information is true; AI chatbots' limits; the idea of a
 digital footprint and strong passwords.
 
 **What Year 6 relies on:** writing short Python programs with loops, variables, input and if/else;
-using sensors and outputs in physical computing; understanding binary and how computers store data;
-using spreadsheet formulas; and critically evaluating online information and persuasive content — ready
+using sensors and outputs in physical computing; bytes, character codes and how images and sound are
+stored and compressed; spreadsheet models with relative and absolute references; and critically evaluating online information and persuasive content — ready
 for deeper Python (strings, while loops, lists, functions), data processing, networks and security,
 and larger projects.
 
@@ -43,73 +50,73 @@ and larger projects.
 
 | Unit | Title | Strand | Term | Lessons |
 |---|---|---|---|---|
-| 1 | Inside the computer: binary and data | Computer science (systems and data) | 1 | 5 (1–5) |
+| 1 | Data representation: text, images, sound and compression | Computer science (data) | 1 | 5 (1–5) |
 | 2 | Game design in Scratch | Computer science (programming) | 1 | 7 (6–12) |
 | 3 | Physical computing with the micro:bit | Computer science | 2 | 6 (13–18) |
-| 4 | Data detectives: spreadsheets | Information technology | 2 | 5 (19–23) |
+| 4 | Spreadsheet modelling: what if? | Information technology | 2 | 5 (19–23) |
 | 5 | First steps in Python | Computer science (programming) | 3 | 8 (24–31) |
 | 6 | Digital citizenship: truth, AI and privacy | Digital literacy | 3 | 4 (32–35) |
 | | **Total** | | | **35** |
 
 ---
 
-## Unit 1 — Inside the computer: binary and data
+## Unit 1 — Data representation: text, images, sound and compression
 
-**Essential question:** How can a machine that only understands 'on' and 'off' store numbers, words, pictures and music?
+**Essential question:** If a computer only stores 0s and 1s, how can the same bits become a message, a photo or a song — and how do we make files smaller?
 
-**Key vocabulary:** hardware, processor (CPU), memory, storage, input, output, bit, byte, binary, place value, denary (decimal), character code, ASCII, Unicode, pixel, resolution, RGB, file size, compression
+**Key vocabulary:** bit, byte, kilobyte (KB), megabyte (MB), gigabyte (GB), binary, denary, character code, ASCII, Unicode, pixel, RGB, colour depth, resolution, sample, sample rate, file size, compression, lossless, lossy, run-length encoding
 
-### Lesson 1 — What's inside a computer?
+### Lesson 1 — Bits and bytes: how much can we store?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can name the main parts of a computer system and explain what each one does." (UK NC KS2 computing — understand computer systems)
-- **Hook:** An old computer or phone opened up safely by the teacher (or a photo of one): "Where does your game actually 'live' when you switch it off?"
-- **Key activity:** Identify input and output devices, the processor (CPU — follows instructions very fast), memory (RAM — the fast 'desk' used while working, emptied when switched off) and storage (keeps files when switched off); unplugged role-play of a computer: an 'input' pupil passes instructions to the 'CPU' pupil, who uses the 'memory' whiteboard and sends results to the 'output' pupil.
-- **Check for understanding:** "Your unsaved drawing disappears when the power cuts out, but your saved one doesn't. Why?" → Unsaved work is only in memory (RAM), which is emptied when the power goes; saved work is written to storage, which keeps it without power.
-- **Differentiation:** support: a labelled diagram of a computer system to complete / stretch: explain why a phone with more memory can run more apps at once.
-- **Materials:** an old computer or phone for teacher demonstration (unplugged, battery removed), picture cards of components, role-play cards. Safety: only the teacher handles opened devices.
-- **Joy:** the "human computer" role-play.
+- **Objective:** "By the end, I can explain what a bit and a byte are, show numbers up to 255 in binary, and put everyday files in order of size." (UK NC KS2 computing — understand computer systems; CSTA 1B-DA-06)
+- **Hook:** "A text message, a photo, a song and a film are all on your phone. Which is biggest — and how many times bigger?"
+- **Key activity:** Five-minute retrieval of Year 4: the input–process–output model, memory vs storage, and binary to 31 with the five dot cards. New: add cards 32, 64 and 128 to make one **byte** (8 bits); pairs make 100, 200 and 255 and discover that 8 bits give 256 values (0–255). Units of data: a kilobyte is 1,000 bytes, a megabyte a million, a gigabyte a thousand million (some computers count in 1,024s — say so). Groups order file-size cards (a short text message ≈ 100 bytes, a phone photo ≈ 3 MB, a song ≈ 4 MB, an hour of HD video ≈ 2 GB) on a washing line and work out roughly how many 3 MB photos fit on a 64 GB phone (about 20,000).
+- **Check for understanding:** "The biggest number one byte can show is 255, but a byte can store 256 different values. Explain how both are true." → the values run from 0 (all cards face down) to 255 (all face up), and 0 counts as a value too, so there are 256 of them
+- **Differentiation:** support: eight dot cards with the dots showing, converting numbers to 100 only / stretch: work out how many values 16 bits can store (65,536) and explain the doubling pattern
+- **Materials:** binary dot cards 1–128 (CS Unplugged, one set per pair), file-size cards, a washing line and pegs, mini-whiteboards
+- **Joy:** "Byte-sized birthdays" — the class shows birthday days and months as a full 8-bit byte, with eight children as human 'bits' standing (1) or crouching (0)
 
-### Lesson 2 — Binary: counting with on and off
+### Lesson 2 — Words as numbers: ASCII and Unicode
 - **Duration:** 40 min
-- **Objective:** "By the end, I can convert numbers between binary and denary up to 31 and explain why computers use binary." (UK NC KS2 computing — how computers work; maths link: place value)
-- **Hook:** "Five cards with dots on them. With them, I can show any number from 0 to 31 — using only face up or face down."
-- **Key activity:** CS Unplugged binary cards (16, 8, 4, 2, 1 dots): pupils show numbers by turning cards over (1 = face up, 0 = face down); link to place value (each place is worth double the one to its right); convert both ways; explain that a computer's switches are either on or off — two states, so base 2.
-- **Check for understanding:** "What number is 10110 in binary, and how do you know?" → 22: 16 + 4 + 2 (the places worth 16, 4 and 2 are 'on').
-- **Differentiation:** support: cards with dots to count / stretch: work out the largest number 8 bits (one byte) can show (255) and explain why.
-- **Materials:** binary cards (printed), mini-whiteboards, place-value chart.
-- **Joy:** "Binary birthdays" — show your age and birthday in binary with the cards.
-
-### Lesson 3 — Words as numbers: character codes
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how text is stored as numbers using a character code and decode a binary message." (UK NC KS2 computing — how computers work)
+- **Objective:** "By the end, I can explain how text is stored as numbers using a character code and decode a binary message." (UK NC KS2 computing — how computers work; CSTA 1B-DA-06)
 - **Hook:** "When you type the letter A, the computer stores a number. Which one — and how can it store every alphabet on Earth, and emojis too?"
-- **Key activity:** Letters as numbers (a simple 1–26 code, then ASCII, where 'A' is 65); decode a short message written in binary; learn that Unicode extends this to well over 100,000 characters, covering scripts from Arabic and Chinese to Devanagari, plus emojis; pupils encode their initials.
-- **Check for understanding:** "Why did computers need Unicode as well as the original ASCII code?" → ASCII only had room for 128 characters, enough for basic English but not for the world's writing systems; Unicode gives a number to characters from almost every script (and emojis).
-- **Differentiation:** support: a 1–26 letter code before binary / stretch: explain why capital and lowercase letters need different codes.
-- **Materials:** ASCII table (letters), binary cards, secret messages.
-- **Joy:** "Binary bracelets" — beads spelling your initials (two colours for 0 and 1).
+- **Key activity:** Letters as numbers: a simple 1–26 code, then ASCII, where 'A' is 65 and 'a' is 97; decode a short message written as 8-bit bytes (using Lesson 1's cards); learn that Unicode extends this to well over 100,000 characters, covering scripts from Arabic and Chinese to Devanagari and Ge'ez, plus emojis; pupils encode their initials and look up the Unicode number of a character from a language spoken in the class.
+- **Check for understanding:** "Why did computers need Unicode as well as the original ASCII code?" → ASCII only had room for 128 characters, enough for basic English but not for the world's writing systems; Unicode gives a number to characters from almost every script (and emojis)
+- **Differentiation:** support: a 1–26 letter code before binary / stretch: spot the pattern between capital and lowercase codes (they always differ by 32) and explain why that is exactly one binary card
+- **Materials:** ASCII table (letters and digits), binary cards, printed secret messages, a Unicode character chart (teacher-led)
+- **Joy:** "Binary bracelets" — beads in two colours spelling your initials in ASCII
 
-### Lesson 4 — Pictures as numbers: pixels and resolution
+### Lesson 3 — Colour pictures: RGB and colour depth
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how images are stored as pixels with number codes for colour, and how resolution affects quality and file size." (UK NC KS2 computing — how computers work / digital media)
-- **Hook:** Zoom right into a photo until it becomes squares: "Every picture on a screen is a grid of numbers. Let's prove it."
-- **Key activity:** Unplugged pixel painting: colour a grid from a black-and-white code (1 = black, 0 = white), then a run-length code (e.g. '3 white, 2 black'); screens mix red, green and blue light (RGB) — each colour stored as three numbers; compare the same image at low and high resolution and their file sizes.
-- **Check for understanding:** "Why does a photo with more pixels usually look sharper but take up more storage?" → More pixels show finer detail, but each pixel is stored as numbers, so more pixels means more data.
-- **Differentiation:** support: an 8 × 8 black-and-white grid / stretch: use run-length coding and explain how it makes the file smaller (compression).
-- **Materials:** squared paper grids, pixel codes, a zoomable photo on screen.
-- **Joy:** "Pixel art decoder" — reveal a hidden picture from the numbers.
+- **Objective:** "By the end, I can explain how a colour is stored as red, green and blue numbers, and calculate how colour depth and resolution change an image's file size." (UK NC KS2 computing — how computers work / digital media; CSTA 1B-DA-06)
+- **Hook:** Show a phone screen through a hand lens: "There are no yellow dots on this screen at all. So where is the yellow coming from?"
+- **Key activity:** Two-minute retrieval of Year 4's black-and-white pixel pictures (1 bit per pixel). New: screens mix red, green and blue light; in a colour picker, pupils set R, G and B from 0 to 255 (one byte each) and predict before they check (255, 255, 0 = yellow; 0, 0, 0 = black). **Colour depth:** 1 bit = 2 colours, 2 bits = 4, 8 bits = 256, 24 bits (3 bytes) ≈ 16.7 million. Pupils colour a 4 × 4 grid using a 2-bit palette (00, 01, 10, 11), swap codes with a partner, then calculate file sizes as width × height × bits per pixel.
+- **Check for understanding:** "An icon is 10 × 10 pixels. How many bits does it need in black and white, and how many in full 24-bit colour? Why the difference?" → 100 bits in black and white (1 bit per pixel) and 2,400 bits (300 bytes) in full colour (24 bits per pixel); each colour pixel needs three bytes to say how much red, green and blue it has
+- **Differentiation:** support: a 4 × 4 grid with a 2-colour palette first, and a calculator for sizes / stretch: show why a 12-megapixel photo would be about 36 MB uncompressed, and predict why the real file is much smaller (preview of Lesson 5)
+- **Materials:** hand lenses, a colour-picker tool on screen (any drawing app), squared paper, coloured pencils in four colours, calculators
+- **Joy:** "Mystery mixer" — call out RGB numbers and race to guess the colour before it is revealed
 
-### Lesson 5 — Unit 1 check: everything is data
+### Lesson 4 — Sound as data: sampling
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how numbers, text and images are all stored in binary and describe the parts of a computer system." (UK NC KS2 computing — assessment)
-- **Hook:** "Send a secret picture-and-word message to another group using only 0s and 1s."
-- **Key activity:** Groups encode a short word and a small pixel image in binary and pass it to another group to decode; short quiz on components, binary conversion and character codes; link forward to how this data travels across networks (Year 4 and Year 6).
-- **Check for understanding:** "If the whole message is just 0s and 1s, how does the computer know which bits are a letter and which are part of a picture?" → The file or program says how to interpret the bits — the same bits could mean a number, a letter or a colour depending on the agreed code.
-- **Differentiation:** support: a partly encoded message to complete / stretch: estimate how many bits your message needs and suggest how to shrink it.
-- **Materials:** binary cards, grids, ASCII tables, quiz sheets.
-- **Joy:** the code-and-decode message swap.
+- **Objective:** "By the end, I can explain how sound is recorded as numbers by sampling, and how the sample rate affects quality and file size." (UK NC KS2 computing — how computers work; CSTA 1B-DA-06; science link: sound)
+- **Hook:** Play a voice recording at full quality and then at a very low sample rate: "Same voice, same words — why does one sound like a robot?"
+- **Key activity:** Retrieve Year 3 science: sound is a vibration. A microphone turns the vibration into a changing electrical wave; the computer **samples** the height of the wave many times a second and stores each height as a number. Unplugged: pupils draw a wave on graph paper, measure its height at 4 evenly spaced points, then at 16, and join the dots to redraw it — the 16-sample version is much closer to the original. Then record a short sentence in a free audio editor (e.g. Audacity), zoom in until the individual samples appear, and export it at 44,100 and 8,000 samples per second to compare the sound and the file sizes.
+- **Check for understanding:** "Music is often recorded at 44,100 samples per second, but old telephone calls used about 8,000. Why does the higher rate sound better, and what does it cost?" → more samples capture the shape of the wave, including high sounds, more accurately; but every sample is a number to store, so the file is much bigger
+- **Differentiation:** support: a pre-drawn wave with the sample lines already marked / stretch: calculate how many samples one minute of music needs at 44,100 per second for one channel (2,646,000), and for stereo (twice as many)
+- **Materials:** graph paper, rulers, a laptop with a free audio editor and a microphone, headphones, a pre-recorded class sentence
+- **Joy:** "Robot voices" — record a class tongue-twister and play it back at ever lower sample rates
 
-**End-of-unit check:** Pupil names the parts of a computer system and their jobs, converts between binary and denary up to 31, decodes a binary text message, and explains how images are stored as pixels and why resolution affects file size.
+### Lesson 5 — Squeezing data: compression, and Unit 1 check
+- **Duration:** 45 min
+- **Objective:** "By the end, I can compress a picture with run-length encoding, explain the difference between lossless and lossy compression, and show what I know about how data is represented." (UK NC KS2 computing — how computers work; CSTA 1B-DA-06; assessment)
+- **Hook:** "This picture takes 64 bits to send. Can you send exactly the same picture with far fewer numbers?"
+- **Key activity:** Unplugged **run-length encoding** (RLE): an 8 × 8 picture as a list of 64 bits, then as runs ('3 white, 2 black, 3 white'); pupils encode and decode each other's pictures and count the saving. RLE is **lossless** — the picture comes back exactly. Then **lossy** compression: compare the same photo saved as a high-quality and a very low-quality JPEG and spot what was thrown away (blocky edges, smudged colours); MP3 and streamed music do the same with sound. Finish with a 15-minute unit check: bytes and 8-bit binary, an ASCII message, an image-size calculation and a sampling question.
+- **Check for understanding:** "Why is it fine for a holiday photo to use lossy compression, but not a computer program or a bank balance?" → lossy compression throws information away for ever; tiny changes to a photo are hard to see, but changing even one digit of a program or a balance makes it wrong, so they must use lossless compression
+- **Differentiation:** support: a picture with long runs of one colour (easy savings) and a decoding frame / stretch: design a picture where RLE makes the file *bigger* (a chessboard) and explain why
+- **Materials:** 8 × 8 grids, pencils, two versions of the same photo (high- and low-quality JPEG) on screen with their file sizes, unit-check sheets
+- **Joy:** "Squeeze it" league — pairs compete for the biggest saving on the same picture, then try to beat the chessboard
+
+**End-of-unit check:** Pupil shows numbers to 255 as an 8-bit byte, decodes an ASCII message, calculates the size of a small image from its resolution and colour depth, explains how sound is sampled and why the sample rate affects quality and size, and compresses a picture with run-length encoding, explaining when lossy compression is and is not acceptable.
 
 ---
 
@@ -117,7 +124,7 @@ and larger projects.
 
 **Essential question:** How do programmers combine variables, selection and repetition to build a playable game?
 
-**Key vocabulary:** sprite, costume, script, event, loop, forever, repeat until, if/else, condition, variable, score, timer, list, custom block (procedure), parameter, clone, debug, iterate, playtest
+**Key vocabulary:** sprite, costume, script, event, loop, forever, repeat until, if/else, condition, variable, level, game state, broadcast, list, custom block (procedure), parameter, clone, debug, iterate, playtest
 
 ### Lesson 6 — Game analysis and design
 - **Duration:** 40 min
@@ -139,15 +146,15 @@ and larger projects.
 - **Materials:** Scratch, starter projects.
 - **Joy:** racing sprites around a maze.
 
-### Lesson 8 — Variables: score, lives and timer
+### Lesson 8 — Levels and game states: variables that control the game
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use variables to track score, lives and time, and reset them at the start." (UK NC KS2 computing — variables)
-- **Hook:** "A game where the score never resets — what's wrong?"
-- **Key activity:** Create variables; change on events (collisions); reset on green flag; a countdown timer with 'repeat until timer = 0'; game over when lives = 0.
-- **Check for understanding:** "Why must variables be reset when the game starts?" → Otherwise they keep the values from the last game.
-- **Differentiation:** support: variable blocks provided in the starter / stretch: store a high score that only changes if beaten.
-- **Materials:** Scratch, starter projects.
-- **Joy:** "Beat the high score".
+- **Objective:** "By the end, I can use a level variable and broadcasts to move a game between states (start, playing, next level, game over) and make it harder as the level rises." (UK NC KS2 computing — variables and selection; CSTA 1B-AP-09)
+- **Hook:** "Every good game has a title screen, levels that get harder and a game-over screen. How does one project know which of these it should be showing?"
+- **Key activity:** Two-minute retrieval of Year 4: score, timer and lives variables, reset on the green flag. New: a **level** variable and **broadcasts** ('start game', 'next level', 'game over') that switch backdrops and start or stop scripts; use the variable inside other blocks so the game gets harder by itself (enemy speed = 2 + level; timer = 30 − 5 × level); draw the game states as a flowchart with arrows labelled by the broadcast that causes each change, then code it.
+- **Check for understanding:** "Your enemy's speed block says 'move (2 + level) steps'. What speed does it move at on level 3, and why is this better than writing a separate script for each level?" → 5 steps; the one script works for every level because the variable changes, so adding level 10 needs no new code
+- **Differentiation:** support: a starter project with the broadcasts already made, pupils add the level variable to one block / stretch: store a high score that only changes if beaten, and add a 'boss' level that only appears when level = 5
+- **Materials:** Scratch, starter project with title and game-over backdrops, game-state flowchart sheet
+- **Joy:** "Can you reach level 5?" — play-test each other's levels as they get harder
 
 ### Lesson 9 — Lists: a question bank
 - **Duration:** 40 min
@@ -263,63 +270,63 @@ and larger projects.
 
 ---
 
-## Unit 4 — Data detectives: spreadsheets
+## Unit 4 — Spreadsheet modelling: what if?
 
-**Essential question:** How can a spreadsheet help us answer questions with data?
+**Essential question:** How can a spreadsheet model help us test ideas and make decisions before we try them for real?
 
-**Key vocabulary:** spreadsheet, cell, cell reference, row, column, formula, function, SUM, AVERAGE, MAX, MIN, sort, filter, chart, data, record, field, question, conclusion
+**Key vocabulary:** model, input cell, output cell, formula, function, AVERAGE, relative reference, absolute reference ($), fill down, what if?, trial and improvement, scatter graph, correlation, cause, misleading chart, simulation, RANDBETWEEN
 
-### Lesson 19 — Formulas and cell references
+### Lesson 19 — Formulas that copy correctly: absolute references
 - **Duration:** 40 min
-- **Objective:** "By the end, I can write formulas using cell references so they update automatically." (UK NC KS2 computing — data)
-- **Hook:** "Change one number and watch the whole spreadsheet recalculate. Magic — or formulas?"
-- **Key activity:** Enter data (e.g. class pulse readings from science); write =B2+C2, =B2*2; then functions =SUM(B2:B10), =AVERAGE(), =MAX(), =MIN(); copy formulas down with the fill handle.
-- **Check for understanding:** "Why is =SUM(B2:B10) better than typing the total yourself?" → It updates automatically if any value changes and avoids calculation errors.
-- **Differentiation:** support: formulas with the cell references highlighted / stretch: calculate a percentage of a total with a formula.
-- **Materials:** spreadsheet software (e.g. Google Sheets, Excel or LibreOffice Calc), data files.
-- **Joy:** "Break the spreadsheet" — change inputs and watch results update.
+- **Objective:** "By the end, I can explain why a formula changes when it is copied, and use an absolute reference ($) to lock a cell that must not change." (UK NC KS2 computing — use software to accomplish goals; CSTA 1B-DA-06; maths link)
+- **Hook:** "I copied my formula down the column and suddenly every answer is zero. The spreadsheet isn't broken — so what happened?"
+- **Key activity:** Three-minute retrieval of Year 4: cell references, SUM, MAX and MIN on a ready-made sheet. New: AVERAGE; what fill-down does to a formula (=B2*C2 becomes =B3*C3 — a **relative** reference); build a currency converter where every price uses one exchange-rate cell; watch =B2*C1 break when filled down (C1 becomes C2, which is empty) and fix it with =B2*$C$1 (an **absolute** reference); then change the rate once and see every row update.
+- **Check for understanding:** "You fill =B2*C1 down the column and row 3 shows 0. Explain why, and how =B2*$C$1 fixes it." → when copied down, C1 turns into C2, an empty cell, so the answer is 0; the $ signs lock the reference to C1, so every row uses the same exchange rate
+- **Differentiation:** support: the rate cell highlighted in colour and formulas with blanks to complete / stretch: add a second locked cell for a 20% discount and write one formula that uses both
+- **Materials:** spreadsheet software (e.g. Google Sheets, Excel or LibreOffice Calc), a price list in the local currency, a real exchange rate for a neighbouring country's currency
+- **Joy:** "Holiday shopping" — convert a wish list into three currencies by changing just one cell
 
-### Lesson 20 — Sorting and filtering
-- **Duration:** 40 min
-- **Objective:** "By the end, I can sort and filter data to find answers quickly." (UK NC KS2 computing — data)
-- **Hook:** "A table of 100 animals. Which is the fastest? Which live in Africa and weigh more than 100 kg?"
-- **Key activity:** Sort by a column (ascending/descending); filter by conditions; answer a set of questions; discuss keeping rows together when sorting.
-- **Check for understanding:** "What goes wrong if you sort only one column instead of the whole table?" → The rows get mixed up, so data no longer matches the right record.
-- **Differentiation:** support: questions answered by a single sort / stretch: questions needing two filter conditions.
-- **Materials:** animal data spreadsheet (teacher-prepared from reliable sources).
-- **Joy:** "Data race" question challenge.
-
-### Lesson 21 — Choosing the right chart
-- **Duration:** 40 min
-- **Objective:** "By the end, I can create a chart that suits the data and the question." (UK NC KS2 computing — data / maths link)
-- **Hook:** "Same data, three charts. Which tells the story best?"
-- **Key activity:** Create bar, line and pie charts from data; choose the right one for the question (comparison, change over time, parts of a whole); label axes and titles.
-- **Check for understanding:** "Why is a line chart right for temperature over a week but wrong for favourite fruits?" → Temperature changes continuously over time; fruits are separate categories.
-- **Differentiation:** support: chart wizard with guidance / stretch: spot and correct a misleading chart (e.g. axis not starting at zero).
-- **Materials:** spreadsheet software, data sets.
-- **Joy:** "Chart makeover" of a bad chart.
-
-### Lesson 22 — Investigation: answering a real question
+### Lesson 20 — What if? Building a model
 - **Duration:** 45 min
-- **Objective:** "By the end, I can collect, organise and analyse data to answer a question." (UK NC KS2 computing — data)
-- **Hook:** "Do Year 5s get enough sleep? Does screen time before bed make a difference?" (Or a question from science or geography fieldwork.)
-- **Key activity:** Groups design a data table, enter survey or fieldwork data, use formulas and charts, and write a conclusion.
-- **Check for understanding:** "What does your data show, and how confident are you in the conclusion?" → A conclusion from the data, with a comment on sample size or reliability.
-- **Differentiation:** support: a pre-structured table / stretch: compare two groups using AVERAGE and a chart.
-- **Materials:** spreadsheet software, anonymous survey data.
-- **Joy:** "Data reveal" presentations.
+- **Objective:** "By the end, I can build a spreadsheet model with input cells and formula cells, and use it to answer 'what if?' questions." (UK NC KS2 computing — use software to accomplish goals; CSTA 1B-DA-06; life-skills link: money)
+- **Hook:** "Our class is running a cake sale for charity. How many cakes must we sell, and at what price, to raise 100?"
+- **Key activity:** I do: a model with **inputs** (price per cake, number sold, cost of ingredients) coloured yellow and **outputs** (money taken =B1*B2, profit =B4−B3) coloured green. We do: change one input at a time and record what happens; use **trial and improvement** to find the price that reaches the target. You do: groups build their own model for a different event (a school disco or a plant sale), then swap and test each other's models with 'what if?' cards ('What if it rains and only half as many people come?').
+- **Check for understanding:** "In the model, 40 cakes at 2.50 with ingredient costs of 60 gives a profit of 40. Which cells are inputs, which are formulas, and what is the profit if the price becomes 3.00? Show how you know." → price, number sold and costs are inputs; money taken and profit are formulas; 40 × 3.00 = 120, and 120 − 60 = 60 profit
+- **Differentiation:** support: a partly built model with the formulas already entered, changing inputs only / stretch: add a 'break-even' row that shows how many cakes must be sold to cover the costs (60 ÷ price), and explain why it must be rounded up
+- **Materials:** spreadsheet software, a cake-sale starter model, 'what if?' cards, calculators for checking
+- **Joy:** "Model market" — groups pitch their event plans using live 'what if?' changes on screen
 
-### Lesson 23 — Unit 4 check
+### Lesson 21 — Scatter graphs and charts that tell the truth
 - **Duration:** 40 min
-- **Objective:** "By the end, I can show I can use spreadsheets to calculate, sort and chart data." (UK NC KS2 computing — assessment)
-- **Hook:** "The school café needs your help to understand its sales."
-- **Key activity:** Practical task: complete formulas, sort and filter, create an appropriate chart, answer questions.
-- **Check for understanding:** "Which item sold the most, and which formula or tool did you use to find out?" → The correct item and method (sort, MAX or filter).
-- **Differentiation:** support: step prompts / stretch: create a formula that calculates profit from price and cost columns.
-- **Materials:** café sales spreadsheet.
-- **Joy:** café 'business advisor' certificates.
+- **Objective:** "By the end, I can make a scatter graph to test whether two things are related, explain why a relationship does not prove one causes the other, and spot a misleading chart." (UK NC KS2 computing — present data; CSTA 1B-DA-07; maths link: statistics)
+- **Hook:** "Do people with longer arms have longer legs? Do towns that sell more ice cream have more sunburn? Let's ask the data."
+- **Key activity:** One-minute retrieval of Year 4: bar charts for categories, line graphs for change over time. New: pupils measure arm span and height (in pairs, sensitively; children may choose not to be measured and use a sample data set instead), enter the class data and make a **scatter graph**; describe the pattern (as one goes up, so does the other). **Correlation is not cause:** ice-cream sales and sunburn rise together because both are caused by hot, sunny weather. Then fix three **misleading charts**: a y-axis starting at 90, a 3D pie that makes one slice look huge, and a chart with no labels.
+- **Check for understanding:** "A chart shows that pupils who own more books get higher reading scores. Does this prove that buying books makes you a better reader? Explain." → no; the two go together (a correlation), but something else could cause both, such as how much time the family spends reading; you would need a fair test to show cause
+- **Differentiation:** support: a prepared data set and step-by-step chart instructions / stretch: add a line of best fit and use it to predict the height of someone with a 150 cm arm span, explaining how confident they are
+- **Materials:** spreadsheet software, tape measures, a sample arm-span data set, three printed misleading charts
+- **Joy:** "Chart crimes court" — pupils prosecute and fix the worst misleading chart
 
-**End-of-unit check:** Pupil uses formulas with cell references and functions, sorts and filters data correctly, chooses and labels an appropriate chart, and draws a conclusion from data.
+### Lesson 22 — Simulation: rolling 1,000 dice
+- **Duration:** 45 min
+- **Objective:** "By the end, I can use a spreadsheet to simulate a chance event many times and explain why more trials give a result closer to the expected one." (UK NC KS2 computing — use software; CSTA 1B-DA-07; maths link: probability)
+- **Hook:** "Roll two dice and add them. Which total wins most often? Place your bets."
+- **Key activity:** Each child first rolls two real dice 20 times and tallies the totals; the class notices results disagree. Then the spreadsheet: =RANDBETWEEN(1,6) in two columns and their sum in a third, filled down 1,000 rows; filter to each total and read the count; chart the results. Compare with the maths: 36 possible outcomes, 6 of which make 7, so 7 should come up about 1 in 6 times (about 167 in 1,000). Discuss how scientists and weather forecasters use simulations to test things they cannot try for real.
+- **Check for understanding:** "Group A rolled 20 times and got no 7s. The spreadsheet rolled 1,000 times and got 171. Which is closer to the truth about two dice, and why?" → the 1,000 rolls; with only a few trials, luck can make results very uneven, but over many trials the results settle close to the expected 1 in 6 (about 167)
+- **Differentiation:** support: a single-die simulation (six outcomes, each about 1 in 6) first / stretch: explain why 2 and 12 are the rarest totals by listing the outcomes, and predict how the chart would change for three dice
+- **Materials:** two dice per child, tally sheets, spreadsheet software, a starter sheet with column headings
+- **Joy:** "Dice derby" — each pupil backs a total and watches the 1,000-roll race refresh live
+
+### Lesson 23 — Unit 4 check: the café model
+- **Duration:** 40 min
+- **Objective:** "By the end, I can build and use a spreadsheet model with absolute references, answer 'what if?' questions and choose an honest chart." (UK NC KS2 computing — assessment; CSTA 1B-DA-06, 1B-DA-07)
+- **Hook:** "The school café wants to raise its prices. Will it make more money — or lose customers? You're the advisors."
+- **Key activity:** Practical task on a café sheet (items, cost to make, price, number sold): write profit formulas and fill them down; add a single 'price rise %' input cell used with an absolute reference; test 5% and 10% rises; answer 'what if?' questions; choose and label a chart for the owner and explain one way a chart could mislead her.
+- **Check for understanding:** "The café raises every price by 10%. Which single cell do you change in your model, and why does every profit update?" → the 'price rise %' input cell; every price formula uses it through an absolute reference ($), so changing it once recalculates every row
+- **Differentiation:** support: step prompts and the price formulas already written / stretch: add an input for 'customers lost for every 10% rise' and find the price rise that gives the most profit
+- **Materials:** café sales spreadsheet, task sheet
+- **Joy:** café 'business advisor' certificates
+
+**End-of-unit check:** Pupil builds a model with clearly marked input and formula cells, uses relative and absolute references correctly, answers 'what if?' questions, makes a scatter graph and explains why correlation is not cause, and explains why a simulation with many trials is more trustworthy than one with few.
 
 ---
 
@@ -417,7 +424,7 @@ and larger projects.
 
 **Essential question:** How can I be a wise, safe and kind digital citizen when not everything online is true or private?
 
-**Key vocabulary:** information, opinion, advertising, sponsored, influencer, in-app purchase, persuasive design, source, bias, artificial intelligence (AI), algorithm, training data, privacy, personal information, password, two-factor authentication, screen time, wellbeing
+**Key vocabulary:** information, opinion, advertising, sponsored, influencer, in-app purchase, persuasive design, source, bias, artificial intelligence (AI), algorithm, training data, privacy, personal information, cookie, location data, data profile, online reputation, screen time, wellbeing
 
 ### Lesson 32 — Who made this and why? Adverts, influencers and sponsored content
 - **Duration:** 40 min
@@ -439,15 +446,15 @@ and larger projects.
 - **Materials:** picture cards, a teacher-led machine-learning demonstration tool, discussion prompts.
 - **Joy:** "Train the robot" game.
 
-### Lesson 34 — Privacy and security
+### Lesson 34 — Your data trail: cookies, location and online reputation
 - **Duration:** 40 min
-- **Objective:** "By the end, I can protect my personal information with strong passwords and good privacy settings." (UK NC KS2 computing — online safety)
-- **Hook:** "How long would a computer take to guess 'password123'? And 'PurpleTigerJumps!Moon7'?"
-- **Key activity:** Personal information sort (safe to share / never share / ask a trusted adult); password strength (length and unpredictability; passphrases); why not to reuse passwords; two-factor authentication; app permissions.
-- **Check for understanding:** "Why is a long passphrase of random words stronger than a short word with a number on the end?" → It has many more possible combinations, so it's much harder to guess.
-- **Differentiation:** support: personal-information sorting cards / stretch: explain why the same password should never be used on two sites.
-- **Materials:** sorting cards, password-strength demonstration (teacher-led).
-- **Joy:** invent a memorable (fictional) passphrase story.
+- **Objective:** "By the end, I can explain how apps and websites collect data about me (cookies, location, what I click), how that data is used, and how to limit it." (UK NC KS2 computing — use technology safely, respectfully and responsibly; CSTA 1B-NI-05)
+- **Hook:** "You searched for football boots once. Now football boot adverts follow you everywhere. How did the internet find out?"
+- **Key activity:** Two-minute retrieval of Year 4: digital footprint, passphrases and two-step verification. New: **cookies** (small files a website saves so it recognises you) and cookie banners — what 'accept all' vs 'reject' means; **location data** — phones can store where a photo was taken inside the photo file; how clicks, likes and searches build a **profile** used to target adverts (link to Lesson 32) and recommendations; **online reputation** — what a stranger, a future school or an employer might find. Pupils audit a fictional child's online trail and give advice; practise choosing 'reject' or 'necessary only' on a mock cookie banner and turning off camera location with a trusted adult.
+- **Check for understanding:** "A child posts a photo of their new bike taken in their front garden. Why could that be risky even if the photo shows nothing personal, and what could they do instead?" → the photo file may contain the location where it was taken (and the house may be recognisable), which could show where they live; turn off location for the camera, check the background, and share only with people they know, with a trusted adult's help
+- **Differentiation:** support: picture cards showing where data is collected (search, map, game, camera) / stretch: explain why free apps collect data, and argue whether 'reject all' should be the default for children
+- **Materials:** fictional online-trail case study, a printed mock cookie banner, a teacher-led demonstration of photo location settings. Safety: no real accounts or personal devices; parents are told about the lesson in advance
+- **Joy:** "Trail trackers" — reconstruct a fictional child's day from their data trail, then 'clean it up'
 
 ### Lesson 35 — Healthy tech and year review
 - **Duration:** 40 min
@@ -459,7 +466,7 @@ and larger projects.
 - **Materials:** tech-plan templates, review quiz.
 - **Joy:** "Digital citizen" certificates.
 
-**End-of-unit check:** Pupil identifies advertising and sponsored content and explains one persuasive technique, explains how AI learns from data and why it can be wrong, and describes how to protect personal information and get help.
+**End-of-unit check:** Pupil identifies advertising and sponsored content and explains one persuasive technique, explains how AI learns from data and why it can be wrong, and describes how data trails are collected and limited and how to get help.
 
 ## Books & resources
 
@@ -474,19 +481,22 @@ and larger projects.
 ## End-of-year mastery checks
 
 1. **Computer systems** — names the parts of a computer system and explains the difference between memory and storage.
-2. **Binary and data** — converts between binary and denary (to 31), and explains how text and images are stored as numbers.
+2. **Data representation** — shows numbers to 255 as a byte, explains how text (ASCII/Unicode), colour images (RGB, colour depth) and sound (sampling) are stored, and explains lossless vs lossy compression.
 3. **Scratch** — builds a game using variables, selection, repetition, lists or clones and a custom block.
 4. **Physical computing** — programs a micro:bit using sensors, variables and conditions to solve a problem.
 5. **Python** — writes a short program with a loop, variable, input and if/else, and fixes errors by reading error messages.
-6. **Data** — uses spreadsheet formulas, sorting, filtering and charts to answer a question.
+6. **Data** — builds a spreadsheet model with input cells and absolute references, answers 'what if?' questions, and makes and critiques charts (scatter graphs; correlation vs cause).
 7. **Digital literacy** — recognises advertising and sponsored content, explains how AI learns from data and its limits.
-8. **Safety** — protects personal information and knows how to report concerns and get help.
+8. **Safety** — explains how cookies, location data and clicks build a data trail, limits it, and knows how to report concerns and get help.
 
 ## Teacher guidance
 
 **Common misconceptions to watch for**
 - *"Computers store words and pictures, not numbers."* Everything is stored as binary numbers; codes decide what they mean.
-- *"Memory and storage are the same thing."* Memory (RAM) is emptied when the power goes; storage keeps files.
+- *"A kilobyte is exactly 1,000 bytes / exactly 1,024 bytes."* Both are used; be honest that there are two conventions.
+- *"Compression is always fine."* Lossy compression throws data away for ever; programs and numbers need lossless.
+- *"If two things rise together, one causes the other."* Correlation is not cause.
+- *"Copying a formula keeps it the same."* Relative references move; use $ to lock a cell.
 - *"If someone I follow recommends it, it's their honest opinion."* It may be a paid advert.
 - *"Computers are clever; they understand what I mean."* Computers follow instructions exactly — syntax matters.
 - *"= means equals."* In Python, = assigns; == compares.
@@ -503,6 +513,6 @@ and larger projects.
 - AI tools: use teacher-led demonstrations; do not require pupils to create accounts on services with age restrictions.
 
 **Vertical connections**
-- *From Year 4:* Scratch selection and variables, how the internet and web work, first spreadsheets, searching and fact-checking, AI chatbots, digital footprint and passwords.
-- *Into Year 6:* Python strings, while loops, nested loops, lists and functions, larger text-based projects, databases and CSV analysis, networks, encryption and cybersecurity, training a machine-learning model and AI ethics.
-- *Across subjects:* maths (angles in turtle graphics, averages in spreadsheets, coordinates), science (sensors, data logging, pulse data), art (turtle art, digital design), English (evaluating sources), life skills (wellbeing and online behaviour).
+- *From Year 4:* Scratch selection and variables (score, timer, lives), input–process–output, memory vs storage, binary to 31 and black-and-white pixels, first spreadsheets (SUM, MAX/MIN, sorting, bar and line charts), searching and fact-checking, AI chatbots, digital footprint, phishing and two-step verification. *From Year 3:* networks, packets and URLs. Year 5 retrieves each briefly and does not re-teach it.
+- *Into Year 6:* Python strings, while loops, nested loops, lists and functions, larger text-based projects, IF/COUNTIF, databases and queries and CSV analysis (building on Year 5's models), IP addresses (one byte per number — Year 5 Lesson 1), DNS, encryption and cybersecurity, training a machine-learning model and AI ethics.
+- *Across subjects:* maths (angles in turtle graphics, averages, scatter graphs and probability in spreadsheets, coordinates), science (sound and sampling, sensors, data logging, pulse data), art (turtle art, digital design), English (evaluating sources), life skills (wellbeing and online behaviour).

@@ -188,15 +188,15 @@ detail, and never role-play enslavement or persecution.
 - **Materials:** cause cards, images of Florence Cathedral dome, Leonardo's notebooks and Michelangelo's *David*, rulers and paper for perspective.
 - **Joy:** draw a one-point perspective corridor that 'goes on forever'.
 
-### Lesson 11 — A new view of the heavens: Copernicus and Galileo
+### Lesson 11 — A new view of the heavens: why were new ideas dangerous?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how observations challenged old ideas about the universe and why that caused conflict." (UK NC KS2 — beyond 1066; C3 D2.His.3.3-5)
-- **Hook:** "In 1610 Galileo pointed a home-made telescope at Jupiter and saw four 'stars' moving around it. Why did that sight get him into trouble?"
-- **Key activity:** The Earth-centred model; Copernicus's Sun-centred model (1543); Galileo's observations of Jupiter's moons and the phases of Venus (1609–1610) and his trial (1633). Connect to earlier astronomers such as Ulugh Beg's observatory in Samarkand (1420s). Pupils model both systems with lamps and balls.
-- **Check for understanding:** "Why was seeing moons orbit Jupiter strong evidence against the idea that everything circles the Earth?" → It showed at least some objects orbit something other than the Earth, so the Earth could not be the centre of all motion.
-- **Differentiation:** support: a two-model picture comparison / stretch: explain why new evidence doesn't always change people's minds quickly.
-- **Materials:** lamp, balls, images of Galileo's sketches of Jupiter's moons, timeline.
-- **Joy:** "Galileo's notebook" — sketch the positions of Jupiter's moons from real observation images over four nights.
+- **Objective:** "By the end, I can explain why new ideas about the universe caused conflict with powerful people in both Europe and the Ottoman Empire, using sources." (UK NC KS2 — beyond 1066; C3 D2.His.3.3-5)
+- **Hook:** "In 1580 a magnificent new observatory in Istanbul was pulled down on the Sultan's orders. In 1633 Galileo was put on trial in Rome. What made studying the sky so risky?"
+- **Key activity:** Two-minute retrieval of Year 4 science: Ptolemy's Earth-centred model, Copernicus (1543) and Galileo's moons of Jupiter as evidence — not re-taught. New, the history: who held authority over knowledge and why new ideas threatened it. Case 1: Taqi al-Din's observatory in Istanbul, built in 1577 with the Sultan's support and demolished in 1580 after religious and political opponents turned the court against it (link to the Ottoman unit). Case 2: Galileo's *Dialogue* (1632), printed in Italian rather than Latin so that ordinary readers could follow it (link to Lesson 9's printing), his trial by the Roman Inquisition (1633) and house arrest for the rest of his life; the Catholic Church formally acknowledged its error in 1992. Pupils read short extracts (adapted) from the charges and from Galileo's own writing, then compare the two cases on a Venn diagram.
+- **Check for understanding:** "Galileo and Taqi al-Din both lost the support of powerful people. Give one reason new ideas about the heavens could be seen as dangerous in the 1500s and 1600s, and explain why Galileo's use of printing made his case more serious." → rulers and religious leaders claimed authority over what was true, and ideas that contradicted accepted teaching could be seen as challenging that authority; Galileo printed his book in everyday Italian, so the ideas could spread quickly to many ordinary readers, not just a few scholars
+- **Differentiation:** support: a picture timeline and a sentence frame for the Venn diagram / stretch: explain why the popular story that Galileo was 'thrown into a dungeon' is a myth, and how myths about the past grow
+- **Materials:** timeline, adapted source extracts (the 1633 sentence and a passage from Galileo), images of Taqi al-Din's observatory from an Ottoman manuscript, Venn diagram sheets
+- **Joy:** "The trial" — a structured role-play in which pupils argue Galileo's case and the court's, then the class decides how history should judge it
 
 ### Lesson 12 — Printing changes the world: pamphlets and the Reformation
 - **Duration:** 40 min

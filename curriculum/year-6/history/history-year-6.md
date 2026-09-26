@@ -23,7 +23,9 @@ usefulness); **interpretations** (why historians disagree); **causation** (long-
 causes, consequences); **change and continuity**; and **significance** (criteria for deciding what
 matters, and to whom).
 
-**What we assume from Years 4 and 5:** a chronological framework from the ancient world to 1950;
+**What we assume from Years 3–5:** a chronological framework from the ancient world to 1950;
+Year 3's ancient world, including the overland Silk Road (retrieved in Lesson 7, which turns to the
+Indian Ocean sea routes instead);
 Year 4's depth studies of the Vikings, Abbasid Baghdad, Benin and the Maya (retrieved here, not
 re-taught); from Year 5, the Ottoman Empire, the Renaissance and the printing revolution, the
 transatlantic slave trade and resistance taught honestly, the history of flight, the Second World War
@@ -62,8 +64,8 @@ One lesson a week, 40–45 minutes.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can place major eras and civilisations from every continent on a timeline and use BCE/CE and centuries correctly." (UK KS3 History — chronology; C3 D2.His.1.6-8)
 - **Hook:** "The Great Pyramid of Giza was already about 2,500 years old when Julius Caesar was born. Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid. True?" (Yes.)
-- **Key activity:** Build a long washing-line timeline (3000 BCE to today) with event cards from every continent (Indus Valley cities, the Maya, the Tang dynasty, the Kingdom of Aksum, Great Zimbabwe, Inca Empire, the printing press, the Industrial Revolution); practise converting years to centuries (1450 is in the 15th century) and calculating intervals across BCE/CE.
-- **Check for understanding:** "Why is the year 1450 in the 15th century, not the 14th?" → The 1st century was years 1–100, so the 15th century covers 1401–1500; the century number is one more than the first two digits.
+- **Key activity:** Build a long washing-line timeline (3000 BCE to today) with event cards from every continent (Indus Valley cities, the Maya, the Tang dynasty, the Kingdom of Aksum, Great Zimbabwe, Inca Empire, the printing press, the Industrial Revolution); one-minute retrieval of Year 5's century conversion (1450 is in the 15th century); the new step is calculating long intervals across BCE/CE and comparing them, using a number line with no year 0.
+- **Check for understanding:** "Which is the longer gap: from the building of the Great Pyramid of Giza (c. 2560 BCE) to Cleopatra's death (30 BCE), or from Cleopatra's death to the Moon landing (1969 CE)? Show your working." → Pyramid to Cleopatra: about 2,560 − 30 = 2,530 years; Cleopatra to the Moon landing: 30 + 1,969 − 1 = 1,998 years (no year 0); so the first gap is longer — Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.
 - **Differentiation:** support: a timeline with century markers already labelled / stretch: explain why there is no year 0 and calculate how many years passed from 500 BCE to 500 CE (1,000 years)
 - **Materials:** string or washing line, pegs, illustrated event cards from many continents, world map
 - **Joy:** "Human timeline" — race to peg events in order
@@ -73,7 +75,7 @@ One lesson a week, 40–45 minutes.
 - **Objective:** "By the end, I can use provenance (who, when, why) to judge how useful a source is for a specific question." (UK KS3 History — sources; C3 D2.His.9.6-8, D2.His.10.6-8)
 - **Hook:** "A king's official portrait and a secret letter from his servant describe the same king. Which is more useful?"
 - **Key activity:** Teach the NOP questions (Nature, Origin, Purpose); evaluate a set of sources about one event (e.g. a school sports day: an official report, a photograph, a diary entry, a newspaper headline); then apply to a historical pair (a painting of Napoleon crossing the Alps by Jacques-Louis David vs Paul Delaroche's version on a mule).
-- **Check for understanding:** "Why might David's painting of Napoleon on a rearing horse be less reliable about what happened, but still useful?" → It was made to glorify Napoleon, so it exaggerates; but it is very useful for showing how Napoleon wanted to be seen.
+- **Check for understanding:** "Delaroche painted Napoleon on a mule in 1850, about fifty years after the crossing; David painted him on a rearing horse in 1801 for Napoleon himself. Use Nature, Origin and Purpose to explain why neither painting is simply 'reliable', and what else you would check." → David's was made at the time but to glorify Napoleon, so it exaggerates; Delaroche's looks more realistic (mules were used) but was painted decades later, not by an eyewitness, and with its own purpose (a less heroic view); both need checking against written accounts from people who were on the crossing.
 - **Differentiation:** support: a NOP question card with sentence starters / stretch: explain the difference between "reliable" and "useful"
 - **Materials:** source cards, images of the two Napoleon paintings, NOP question cards
 - **Joy:** "Source detectives" — spot the propaganda
@@ -106,7 +108,7 @@ One lesson a week, 40–45 minutes.
 
 **Essential question:** How connected was the medieval world — and who gained from those connections?
 
-**Key vocabulary:** caliphate, Abbasid, House of Wisdom, translation, Silk Roads, caravan, dynasty, Song, movable type, compass, Mongol, khan, Pax Mongolica, empire, Mali, Mansa, Timbuktu, pilgrimage, Great Zimbabwe, trade network
+**Key vocabulary:** caliphate, Abbasid, House of Wisdom, translation, Silk Roads, Indian Ocean, monsoon, dhow, Swahili, caravan, dynasty, Song, movable type, compass, Mongol, khan, Pax Mongolica, empire, Mali, Mansa, Timbuktu, pilgrimage, Great Zimbabwe, trade network
 
 ### Lesson 5 — From Baghdad to Toledo: how knowledge crossed the medieval world
 - **Duration:** 45 min
@@ -128,21 +130,21 @@ One lesson a week, 40–45 minutes.
 - **Materials:** needle, magnet, cork, bowl of water, invention cards, images of Song artefacts
 - **Joy:** Make a working floating compass
 
-### Lesson 7 — The Silk Roads
+### Lesson 7 — The Indian Ocean world: monsoons, dhows and the Swahili coast
 - **Duration:** 45 min
-- **Objective:** "By the end, I can explain how the Silk Roads connected Asia, Africa and Europe through trade in goods, ideas, religions and diseases." (UK KS3 History; C3 D2.His.14.6-8; Geography link)
-- **Hook:** A bag of "trade goods" (silk, spices, paper, glass beads, a coin): "Where did each come from, and how did it travel?"
-- **Key activity:** Trade simulation — groups represent cities (Chang'an, Samarkand, Baghdad, Constantinople, Venice, Kilwa) with goods and ideas to trade; track what moved (goods, religions such as Buddhism and Islam, technologies such as paper, and diseases); map the routes, including the maritime routes of the Indian Ocean.
-- **Check for understanding:** "Give an example of something that travelled along the Silk Roads that was not a product for sale." → e.g. a religion (Buddhism spreading from India to China), a technology (papermaking), a disease (the Black Death).
-- **Differentiation:** support: a trade card set with prompts / stretch: argue whether the Silk Roads did more good than harm
-- **Materials:** trade cards, samples of goods (silk scarf, cinnamon, paper), world map, string for routes
-- **Joy:** The Silk Roads trading game
+- **Objective:** "By the end, I can explain how the monsoon winds made the Indian Ocean a great trading network linking East Africa, Arabia, India and China, and use archaeological evidence to show its reach." (UK KS3 History; C3 D2.His.14.6-8; Geography link)
+- **Hook:** A bag of "finds": a blue-and-white porcelain shard, a cowrie shell, a copper coin and a glass bead. "All of these were found in Africa. How did a Chinese bowl end up in the ruins of Great Zimbabwe?"
+- **Key activity:** Two-minute retrieval of Year 3's overland Silk Road (Zhang Qian, goods passed stage to stage, ideas and diseases travelling too) — not repeated. New: the sea routes. The **monsoon** winds blow from the north-east for part of the year and from the south-west for the rest, so a ship's captain sailed one way, traded, and waited for the wind to turn; **dhows** with lateen sails; the Swahili city-states (Kilwa Kisiwani, Mombasa, Zanzibar), whose Swahili language and culture blended African and Arabic influences; Ibn Battuta's visit to Kilwa in 1331, which he described as one of the most beautiful cities he had seen; gold from Great Zimbabwe (Lesson 10) passing through Kilwa. Evidence carousel: Chinese porcelain found at Kilwa and Great Zimbabwe; Kilwa copper coins found as far away as northern Australia; a giraffe from East Africa that reached the Chinese emperor's court in 1414 (preview of Zheng He, Lesson 12). Pupils map the monsoon routes with seasonal wind arrows.
+- **Check for understanding:** "Why did merchants sailing between East Africa and India have to plan their voyages around the seasons, and what does Chinese porcelain found at Great Zimbabwe tell a historian?" → the monsoon winds blow in one direction for part of the year and the opposite way for the rest, so ships could only sail each way in the right season and had to wait for the wind to change before returning; the porcelain shows that Great Zimbabwe was connected, through the Swahili ports, to trade that reached as far as China — it was part of a wide trading world, not isolated
+- **Differentiation:** support: a map with the routes and wind arrows partly drawn, and captioned finds cards / stretch: compare the Indian Ocean and overland Silk Road networks — which carried more goods, and why might sea trade have been cheaper?
+- **Materials:** world map with the Indian Ocean centred, wind-arrow cards for both monsoon seasons, photographs of finds (porcelain, coins, beads), images of a dhow, an extract from Ibn Battuta's description of Kilwa
+- **Joy:** "Catch the monsoon" — a sailing game in which ships can only move when the wind card for their direction comes up
 
 ### Lesson 8 — The Mongols: destroyers or connectors?
 - **Duration:** 45 min
 - **Objective:** "By the end, I can compare two interpretations of the Mongol Empire and reach a supported judgement." (UK KS3 History — interpretations; C3 D2.His.4.6-8)
 - **Hook:** "The largest contiguous land empire in history was built by people on horseback in just a few decades."
-- **Key activity:** Map the Mongol Empire's expansion under Genghis Khan and his successors; read two interpretations (a chronicler describing the destruction of cities; a modern historian stressing the Pax Mongolica, safe trade and the relay postal system); weigh evidence for each; link to Marco Polo's travels.
+- **Key activity:** Two-minute retrieval of Year 4's Mongol sack of Baghdad in 1258 (the end of the Golden Age) — which now becomes one side of a bigger argument. Map the Mongol Empire's expansion under Genghis Khan and his successors; read two interpretations (a chronicler describing the destruction of cities; a modern historian stressing the Pax Mongolica, safe trade and the relay postal system); weigh evidence for each; link to Marco Polo's travels.
 - **Check for understanding:** "Why might a 13th-century Persian chronicler and a 21st-century historian see the Mongols differently?" → The chronicler lived through (or near) the destruction; the modern historian can see long-term effects such as increased trade and exchange.
 - **Differentiation:** support: interpretation cards with key phrases highlighted / stretch: a written judgement "How far were the Mongols connectors rather than destroyers?"
 - **Materials:** maps of Mongol expansion, interpretation extracts, a "judgement line" (from destroyers to connectors)

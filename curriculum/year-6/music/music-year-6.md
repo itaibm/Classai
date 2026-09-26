@@ -19,12 +19,15 @@ then to keyboard basics. In Year 6 **keyboard is the main instrument** (a 61-key
 piano app is enough), with **ukulele** as a parallel route for chords; every lesson includes singing
 or playing.
 
-**What we assume from Years 4 and 5:** singing in parts (rounds, partner songs, harmony in thirds, a
-descant, three-part singing); ukulele in C and G with fingerpicking, TAB and a reggae strum; note values,
-dotted notes, ties, syncopation and time signatures including 5/4 (Holst's "Mars", Year 4) and 6/8;
-treble-stave reading; keyboard basics (five-finger melody, C, F and G triads, hands together); world
-traditions — samba, djembe, gamelan, raga and tala (Year 4), taiko, kora, siku hocket, Cuban son and
-maqam (Year 5); opera, Peking opera and musical theatre, and setting words to music (Year 5).
+**What we assume from Years 3–5:** singing in parts (rounds, partner songs, harmony in thirds, a
+descant, three-part singing); ukulele in C and G with fingerpicking, TAB and a reggae strum (Ukulele
+I–III); note values, dotted notes, ties, syncopation and time signatures including 5/4 (Holst's "Mars",
+Year 4) and 6/8; treble-stave reading with sharps, flats and accidentals; keyboard basics (five-finger
+melody, C, F and G triads, hands together); Pachelbel's ground bass and Reich's *Clapping Music* (Year 3);
+world traditions — gamelan (Year 2); West African drumming, samba, raga and tala, taiko and Andean
+panpipes (Year 3); steel pan, flamenco, Chinese instruments, maqam and Mongolian throat singing
+(Year 4); samul nori, kora, Irish jigs, Cuban son and klezmer (Year 5); opera, Peking opera and musical
+theatre, and setting words to music (Year 5).
 **What Year 6 adds:** irregular metres (7/8), triplets and swing; the bass clef and grand staff; major
 scales with fingering, major and minor triads, primary chords and common progressions; the 12-bar
 blues and improvisation; deeper study of raga and tala, West African cross-rhythm, gamelan
@@ -56,7 +59,7 @@ personal response). One lesson a week, 40–45 minutes.
 
 **Essential question:** How is rhythm organised and written down so that anyone, anywhere, can play it?
 
-**Key vocabulary:** pulse, metre, simple time, compound time, irregular metre, 5/4, 7/8, grouping, triplet, swing, straight, ostinato, phase, stave, treble clef, bass clef, grand staff, ledger line
+**Key vocabulary:** pulse, metre, simple time, compound time, irregular metre, 5/4, 7/8, grouping, triplet, swing, straight, ostinato, phase, minimalism, aleatoric (chance), stave, treble clef, bass clef, grand staff, ledger line
 
 ### Lesson 1 — Irregular metre: 5/4 and 7/8
 - **Duration:** 40 min
@@ -78,15 +81,15 @@ personal response). One lesson a week, 40–45 minutes.
 - **Materials:** rhythm cards, percussion, keyboards, recordings of Ellington and Joplin
 - **Joy:** "Swing switch" — the class flips from straight to swing on the teacher's signal
 
-### Lesson 3 — Minimalism: Steve Reich's Clapping Music
+### Lesson 3 — Minimalism: Terry Riley's *In C*
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform a phasing rhythm and explain how minimalist music builds from a simple repeated pattern." (UK KS3 Music — listening; NCAS MU:Re7.2.6)
-- **Hook:** Listening: Steve Reich's *Clapping Music* (1972) — "Two people, two hands each, one pattern. How can this be a whole piece?"
-- **Key activity:** Learn the 12-quaver pattern; one group keeps it steady while the other shifts one quaver at a time (phasing); discuss minimalism (repetition, gradual change).
-- **Check for understanding:** "What changes and what stays the same in *Clapping Music*?" → The pattern stays the same; the second part shifts by one quaver at a time, so the combination changes until the parts line up again.
-- **Differentiation:** support: perform only the steady part / stretch: perform the shifting part and write the first three shifts in notation
-- **Materials:** recording and score of *Clapping Music*
-- **Joy:** Surviving all 12 shifts together
+- **Objective:** "By the end, I can perform in a minimalist piece where each player chooses when to move on, and explain how *In C* builds a large, changing texture from short repeated patterns." (UK KS3 Music — listening and performing; NCAS MU:Re7.2.6)
+- **Hook:** Listening: an extract of Terry Riley's *In C* (1964) — "Fifty-three tiny patterns, no conductor, and every player decides when to move on. Why doesn't it turn into chaos?"
+- **Key activity:** Two-minute retrieval of Year 3's *Clapping Music* (one pattern, shifting by one beat — phasing). New: in *In C* every player works through the same short numbered patterns in order, repeating each as many times as they choose, while a steady pulse of repeated high Cs keeps everyone together; players listen and stay within a few patterns of each other. The class plays the first eight patterns from notation (written on the treble stave) on keyboards, glockenspiels, recorders and ukuleles over a quaver pulse on a high C, then discusses how texture, harmony and dynamics grew without anyone planning them.
+- **Check for understanding:** "In *In C* everyone plays the same patterns in the same order. Why is every performance different, and how is this different from *Clapping Music*?" → each player chooses how many times to repeat each pattern, so the overlaps between patterns (and the texture) change every time; in *Clapping Music* the shifts are fixed in advance, one beat at a time, so every performance follows the same plan
+- **Differentiation:** support: keep the steady high-C pulse, or play only patterns 1–3 / stretch: act as the 'listener-leader' who signals when the group should aim to move on, and write a ninth pattern in the same style
+- **Materials:** a recording and the published pattern sheet of *In C*, keyboards, glockenspiels, recorders, ukuleles, a metronome
+- **Joy:** "No conductor" — a whole-class performance that the players steer entirely by listening
 
 ### Lesson 4 — The bass clef and the grand staff
 - **Duration:** 40 min
@@ -108,7 +111,7 @@ personal response). One lesson a week, 40–45 minutes.
 - **Materials:** manuscript paper or notation app, percussion
 - **Joy:** Class rhythm orchestra
 
-**End-of-unit check:** Perform a 4-bar rhythm in an irregular metre from notation accurately; perform a riff straight and swung; name ten notes across the treble and bass staves; write a 4-bar rhythm with correct bar totals; describe how *Clapping Music* uses phasing.
+**End-of-unit check:** Perform a 4-bar rhythm in an irregular metre from notation accurately; perform a riff straight and swung; name ten notes across the treble and bass staves; write a 4-bar rhythm with correct bar totals; describe how *In C* builds its texture from players' choices.
 
 ---
 
@@ -116,7 +119,7 @@ personal response). One lesson a week, 40–45 minutes.
 
 **Essential question:** How do chords work, and how can I use them to accompany a melody?
 
-**Key vocabulary:** keyboard, octave, tone, semitone, sharp, flat, major scale, fingering, triad, root, third, fifth, chord, primary chords (I, IV, V), chord progression, ground bass, broken chord, accompaniment
+**Key vocabulary:** keyboard, octave, tone, semitone, sharp, flat, major scale, fingering, triad, root, third, fifth, chord, primary chords (I, IV, V), chord progression, ground bass, chromatic, lament bass, broken chord, accompaniment
 
 ### Lesson 6 — Scales and keys: the major-scale pattern
 - **Duration:** 40 min
@@ -148,15 +151,15 @@ personal response). One lesson a week, 40–45 minutes.
 - **Materials:** keyboards or ukuleles, chord charts, song sheets
 - **Joy:** Singing while accompanying yourself
 
-### Lesson 9 — The ground bass: Pachelbel's Canon
+### Lesson 9 — The ground bass: from Pachelbel to Purcell's lament
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform a repeating bass line (ground bass) and explain how a canon and a chord progression work together." (UK KS3 Music — listening; NCAS MU:Re7.2.6)
-- **Hook:** Listening: Johann Pachelbel's Canon in D (c. 1700) — "The bass plays the same eight notes 28 times. Why doesn't it get boring?"
-- **Key activity:** Learn the ground bass (D–A–B–F♯–G–D–G–A) on keyboard or tuned percussion; the upper parts enter one after another (canon); discuss how many modern songs use a similar progression.
-- **Check for understanding:** "What is a ground bass?" → A repeated bass line over which other parts change and develop.
-- **Differentiation:** support: play only the first four notes of the ground bass / stretch: play the bass with the left hand and the chords with the right
-- **Materials:** keyboards, glockenspiels, recording of Pachelbel's Canon, bass-line score
-- **Joy:** Class performance of the Canon in layers
+- **Objective:** "By the end, I can harmonise a ground bass with triads and explain how a descending chromatic ground creates sadness in Purcell's 'Dido's Lament'." (UK KS3 Music — listening and performing; NCAS MU:Re7.2.6)
+- **Hook:** Listening: "When I am laid in earth" ('Dido's Lament') from Henry Purcell's opera *Dido and Aeneas* (c. 1689) — "The bass repeats again and again, like Pachelbel's. So why does this one make people cry?"
+- **Key activity:** Two-minute retrieval of Year 3's Pachelbel ground bass on glockenspiels (D–A–B–F♯–G–D–G–A). New: harmonise it with triads from Lessons 7–8 (D, A, Bm, F♯m, G, D, G, A) — left hand bass, right hand chords. Then Purcell's ground: a bass that falls one semitone at a time from G down to D (G–F♯–F–E–E♭–D) and then closes with a cadence, in a minor key and a slow triple time; listen for how Dido's vocal phrases start and end at different points from the bass repeats, so the music never quite rests. Pupils play the falling chromatic line and improvise a slow, sad melody over it in pairs.
+- **Check for understanding:** "Pachelbel's and Purcell's grounds both repeat. Give two musical reasons why Purcell's sounds so much sadder." → it is in a minor key and slow; the bass sinks step by step through semitones (chromatic), like sighing or weeping; and the singer's phrases don't line up with the bass, so the music keeps pulling onward instead of resting
+- **Differentiation:** support: play only the bass line of either ground / stretch: play the Pachelbel bass with the left hand and the triads with the right, then compose a four-bar melody over Purcell's ground that ends on a different beat from the bass
+- **Materials:** keyboards, glockenspiels, recordings of Pachelbel's Canon and 'Dido's Lament', bass-line scores for both grounds, chord charts
+- **Joy:** "Two grounds" — half the class plays Pachelbel's bright ground while the other answers with Purcell's lament, then they swap
 
 ### Lesson 10 — The "four-chord" progression in popular music
 - **Duration:** 40 min
@@ -252,7 +255,7 @@ personal response). One lesson a week, 40–45 minutes.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain what a raga and a drone are and improvise a melody over a drone using the notes of a raga." (UK KS3 Music — world music; NCAS MU:Re7.2.6)
 - **Hook:** Listening: Ravi Shankar playing sitar (e.g. a recorded *alap*): "No chords, no bars — so what holds it together?"
-- **Key activity:** A raga as a set of notes with rules and a mood (e.g. Raga Yaman in the evening); the tanpura drone; sing sargam (Sa Re Ga Ma Pa Dha Ni Sa); improvise slowly over a drone.
+- **Key activity:** Two-minute retrieval of Year 3's raga and tala (the set of notes for a melody; the rhythmic cycle; the tanpura drone). New: a raga as more than a scale — rules for rising and falling, characteristic phrases, a mood and a time of day (e.g. Raga Yaman, an evening raga that uses a raised fourth, like F sharp over a C drone); sing sargam (Sa Re Ga Ma Pa Dha Ni Sa) and learn one Yaman phrase by ear; how a performance unfolds from a slow, unmetred *alap* to faster sections with the tabla; improvise slowly over a drone, keeping to the raga's rules.
 - **Check for understanding:** "How is a raga different from a Western major scale?" → A raga has rules for how notes move, characteristic phrases, a mood and sometimes a time of day — not just a set of notes.
 - **Differentiation:** support: improvise on three notes of the raga / stretch: shape a short *alap*-style improvisation that rises gradually
 - **Materials:** keyboards or tuned percussion, a tanpura drone app or recording, recordings of Ravi Shankar
@@ -272,7 +275,7 @@ personal response). One lesson a week, 40–45 minutes.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can perform one part in a West African polyrhythmic drumming piece, keeping my part against others." (UK KS3 Music — world music; NCAS MU:Pr4.3.6)
 - **Hook:** "In a West African drum ensemble, no single drum plays 'the rhythm' — the music is in how the parts fit."
-- **Key activity:** Retrieve Year 4's djembe strokes (bass, tone, slap). New: cross-rhythm — clap 3 against 2 (one hand three, the other two in the same time span); the timeline bell pattern (a 12-pulse bell rhythm of the kind used in Ewe music from Ghana) as the reference every drummer hears; then three interlocking parts (bell, djembe, dundun) of a traditional rhythm (e.g. *Kuku* from Guinea) with master-drummer calls.
+- **Key activity:** Retrieve Year 3's West African drumming (bass, tone and slap strokes; lead-drummer calls). New: cross-rhythm — clap 3 against 2 (one hand three, the other two in the same time span); the timeline bell pattern (a 12-pulse bell rhythm of the kind used in Ewe music from Ghana) as the reference every drummer hears; then three interlocking parts (bell, djembe, dundun) of a traditional rhythm (e.g. *Kuku* from Guinea) with master-drummer calls.
 - **Check for understanding:** "What is cross-rhythm, and why does the bell pattern help you keep your part?" → Two conflicting groupings of the beat played together (e.g. 3 against 2); the bell pattern is a fixed timeline that every player measures their part against, so they don't drift.
 - **Differentiation:** support: the bell part (steadiest) / stretch: the master-drummer role with calls
 - **Materials:** djembes or hand drums, cowbell or agogo, recordings of West African ensembles
@@ -282,17 +285,17 @@ personal response). One lesson a week, 40–45 minutes.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can perform a simple gamelan-style piece with layered parts and a cyclic structure marked by a gong." (UK KS3 Music — world music; NCAS MU:Re7.2.6)
 - **Hook:** Listening: Balinese *gamelan gong kebyar* then Javanese gamelan — "Why do they sound so different?"
-- **Key activity:** Retrieve Year 4's Balinese gamelan listening. New: the colotomic structure (gongs of different sizes marking points in the cycle, with the largest gong ending it); the *balungan* (core melody) in a pentatonic scale; Balinese *kotekan*, where two players (*polos* and *sangsih*) split a fast figuration so that neither plays it alone (compare Year 5's siku hocket); perform on glockenspiels with pentatonic notes.
-- **Check for understanding:** "What does the large gong do in gamelan music?" → It marks the end (and beginning) of each cycle, like a musical full stop.
+- **Key activity:** Retrieve Year 2's gamelan (the big gong ends each cycle) in one question. New: the colotomic structure (gongs of different sizes marking points in the cycle, with the largest gong ending it); the *balungan* (core melody) in a pentatonic scale; Balinese *kotekan*, where two players (*polos* and *sangsih*) split a fast figuration so that neither plays it alone (compare Year 3's interlocking Aka polyphony); perform on glockenspiels with pentatonic notes.
+- **Check for understanding:** "In kotekan, why can neither the *polos* nor the *sangsih* player play the fast figuration alone, and what does that tell you about how gamelan players must listen?" → each plays only some of the notes, fitting into the gaps left by the other, so the full fast pattern exists only when both play together; each player must listen closely to the other and to the gong cycle rather than just to their own part
 - **Differentiation:** support: the slow core melody / stretch: the fast decorating (interlocking) part
 - **Materials:** glockenspiels and metallophones set to a pentatonic scale, a gong or cymbal, recordings of Balinese and Javanese gamelan
 - **Joy:** The "gong moment" at the end of each cycle
 
 ### Lesson 21 — Samba-reggae: Olodum and Afro-Brazilian identity
 - **Duration:** 45 min
-- **Objective:** "By the end, I can play a part in a samba-reggae groove and explain how it differs from the Rio samba played in Year 4 and why it was created." (UK KS3 Music — world music; NCAS MU:Pr4.3.6)
+- **Objective:** "By the end, I can play a part in a samba-reggae groove and explain how it differs from the Rio samba played in Year 3 and why it was created." (UK KS3 Music — world music; NCAS MU:Pr4.3.6)
 - **Hook:** Listening and video: the drum group Olodum in Salvador, Bahia — "It uses samba drums, but it sounds slower and heavier. Why did musicians in Salvador invent a new style in the 1980s?"
-- **Key activity:** Retrieve Year 4's Rio samba batucada (surdo pulse, caixa, tamborim, whistle breaks). New: samba-reggae from Salvador — several surdo parts playing interlocking melodic patterns, a reggae-influenced feel, snare patterns; its roots in Afro-Brazilian *blocos* celebrating Black identity and African heritage; play a layered samba-reggae groove with a break.
+- **Key activity:** Retrieve Year 3's Rio samba batucada (surdo pulse, caixa, tamborim, whistle breaks). New: samba-reggae from Salvador — several surdo parts playing interlocking melodic patterns, a reggae-influenced feel, snare patterns; its roots in Afro-Brazilian *blocos* celebrating Black identity and African heritage; play a layered samba-reggae groove with a break.
 - **Check for understanding:** "Give two musical differences between samba-reggae and Rio samba, and one reason samba-reggae matters to the people who created it." → e.g. slower tempo and interlocking surdo melodies with a reggae feel; it was created by Afro-Brazilian groups in Salvador to celebrate Black identity and African heritage.
 - **Differentiation:** support: the lowest surdo part / stretch: an interlocking surdo part or leading a break
 - **Materials:** samba instruments or substitutes (large drums, buckets, shakers, cowbells), a whistle, video of Olodum
@@ -480,7 +483,7 @@ personal response). One lesson a week, 40–45 minutes.
 - **BBC Ten Pieces (bbc.co.uk/teach/ten-pieces)** — free films, listening guides and composing ideas for orchestral repertoire, including Grieg and Holst.
 - **Chrome Music Lab (musiclab.chromeexperiments.com)** — free browser tools for rhythm, harmony and song-making.
 - **BandLab (bandlab.com) or GarageBand** — free digital audio workstations for Unit 6.
-- **Listening list (all named in lessons):** Dave Brubeck Quartet, "Take Five"; a Macedonian *lesnoto* dance; Duke Ellington, "It Don't Mean a Thing (If It Ain't Got That Swing)"; Scott Joplin, "The Entertainer"; Steve Reich, *Clapping Music*; "Sakura Sakura" (Japanese folk song); Pachelbel, Canon in D; B.B. King, "The Thrill Is Gone"; Bessie Smith; Ravi Shankar; Zakir Hussain; West African drum ensembles; Balinese and Javanese gamelan; Olodum (samba-reggae, Salvador); Paul Simon and Ladysmith Black Mambazo; Anoushka Shankar; Grieg, "In the Hall of the Mountain King"; Britten, *The Young Person's Guide to the Orchestra*; John Williams, *Jaws* and *Star Wars*; Joe Hisaishi, Studio Ghibli scores — a spread across five continents and four centuries.
+- **Listening list (all named in lessons):** Dave Brubeck Quartet, "Take Five"; a Macedonian *lesnoto* dance; Duke Ellington, "It Don't Mean a Thing (If It Ain't Got That Swing)"; Scott Joplin, "The Entertainer"; Terry Riley, *In C*; "Sakura Sakura" (Japanese folk song); Pachelbel, Canon in D; Purcell, 'When I am laid in earth' (*Dido and Aeneas*); B.B. King, "The Thrill Is Gone"; Bessie Smith; Ravi Shankar; Zakir Hussain; West African drum ensembles; Balinese and Javanese gamelan; Olodum (samba-reggae, Salvador); Paul Simon and Ladysmith Black Mambazo; Anoushka Shankar; Grieg, "In the Hall of the Mountain King"; Britten, *The Young Person's Guide to the Orchestra*; John Williams, *Jaws* and *Star Wars*; Joe Hisaishi, Studio Ghibli scores — a spread across five continents and four centuries.
 - **Instruments (essential):** keyboards (61-key) or piano apps with headphones; ukuleles; glockenspiels/metallophones; djembes or hand drums; samba percussion or substitutes; a gong or large cymbal; a tanpura drone app.
 
 ## End-of-year mastery checks
@@ -500,5 +503,5 @@ personal response). One lesson a week, 40–45 minutes.
 - **Non-specialist teachers.** Use backing tracks, BBC Ten Pieces and Chrome Music Lab; the keyboard skills needed are simple and can be learned alongside the children.
 - **Differentiation.** Support routes use ukulele or single root notes, fewer notes, steadier parts and picture-based listening maps; stretch routes use hands together, inversions, leadership roles, harder rhythms and written appraisal.
 - **Hearing and sensory needs.** Provide ear defenders for drumming lessons; offer visual notation and tactile rhythm (tapping on shoulders) for children who need it.
-- **Vertical alignment.** Year 4 taught rounds, first ukulele chords, note values and 5/4, and samba, djembe, gamelan and raga; Year 5 taught choral harmony, ukulele in two keys, 6/8 and syncopation, treble-stave reading, keyboard basics, taiko, kora, siku, son and maqam, and opera. Year 6 retrieves these and adds irregular metre and swing, the bass clef, scales and harmony, the blues, deeper world-music study, orchestral timbre, film music and music technology, preparing for secondary music (UK Year 8 / US Grade 7 / MYP 2), which expects keyboard and notation basics and confident composing.
+- **Vertical alignment.** Year 3 taught the recorder and stave, Pachelbel's ground and *Clapping Music*, and West African drumming, samba, raga and tala, taiko and Andean panpipes; Year 4 taught rounds, Ukulele I–II, note values and 5/4, and steel pan, flamenco, Chinese instruments, maqam and throat singing; Year 5 taught choral harmony, Ukulele III, 6/8, syncopation and accidentals, keyboard basics, samul nori, kora, Irish jigs, son and klezmer, and opera. Year 6 retrieves these and adds irregular metre and swing, the bass clef, scales and harmony, the blues, deeper world-music study, orchestral timbre, film music and music technology, preparing for secondary music (UK Year 8 / US Grade 7 / MYP 2), which expects keyboard and notation basics and confident composing.
 - **Cross-curricular links:** Maths (note values as fractions, time signatures, ratios in rhythm), History (the blues, civil rights), Geography (music of the world), Science (sound and timbre), English (lyrics and poetry), Computing (DAWs), Art (Kandinsky and music), Life Skills (managing nerves, the graduation concert).
