@@ -1,173 +1,481 @@
-# Year 4 History (ages 9–10, KS2) — Lesson Outlines
+# Year 4 History (ages 9–10) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 4 continues the KS2 chronological journey, drawn from
-> [`knowledge-base/subjects/history-geography/history-ks2.md`](../../../knowledge-base/subjects/history-geography/history-ks2.md)
-> and [`extension-topics.md`](../../../knowledge-base/subjects/history-geography/extension-topics.md).
+> Written to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Standards reference:
+> `knowledge-base/subjects/history-geography/history-ks2.md`, `misconceptions.md` and `_lesson-banks-humanities.md`.
+> Codes: **UK NC KS2 History** (England; Viking struggle, early Islamic civilisation — Baghdad c. AD 900, Benin c. AD 900–1300, Maya c. AD 900) and **C3** (US College, Career and Civic Life Framework, D2.His, Grades 3–5).
 
 ## Year overview
 
-Year 4 carries the story of Britain on from the Romans' departure: the **Anglo-Saxons and Scots** settle the land and give us the name "England," then the **Vikings** raid, trade, explore and settle, fighting the Anglo-Saxons until England is finally united up to **1066**. We then step right off the British line to a contrasting **non-European civilisation, the Maya**, flourishing in the rainforests of Central America *at the same time* as the Anglo-Saxons — a deliberate challenge to the idea that "advanced" only means Europe, and a powerful lesson in same-time-different-place. The history is rounded off with a disciplinary skill that the rich sources of this year demand: **working with sources** (primary vs secondary, and "how reliable?"). The Maya unit needs the world map and the rainforest biome (Year 3); the Vikings' longship voyages cross the oceans and seas of the globe. Disciplinary questions deepen to **"who made this source, when, and why — and can we trust it?"** and **"is this telling both sides fairly?"**. Four units, 12 lessons.
+Year 4 history asks one big question: **what was the world like around AD 900, and how do we know?** Year 3 studied the ancient world (Greece and Rome) and learned to place periods on one long timeline. Year 4 moves into the **medieval world (c. AD 500–1500)** and deliberately looks at four very different societies on four continents that existed *at the same time*: the **Vikings** of Scandinavia (Europe and the North Atlantic), **Baghdad and the Islamic Golden Age** (Asia), the **Kingdom of Benin** (Africa) and the **Maya** (the Americas). Children discover that "the Middle Ages" were not dark everywhere — Baghdad had libraries and hospitals, Benin had cities with grand walls and master metalworkers, and the Maya had written books and a number system with zero.
+
+Every unit is an enquiry built on the historian's toolkit: **chronology** (where does this fit?), **sources and evidence** (objects, texts, archaeology — "how do we know?"), **interpretation** (why do people tell the story differently?), **cause and consequence**, **similarity and difference**, and **significance**. Each unit ends with a short written or spoken answer to its enquiry question. The final unit compares the four societies and invites children to research what was happening in **their own country** around the same time.
+
+**What Year 4 assumes (from Year 3):** a timeline from ancient to modern times; BC/AD (BCE/CE); primary vs secondary sources introduced; Ancient Greece and Rome.
+**What Year 5 relies on:** a secure medieval timeline and the idea of a connected world of trade and ideas, ready for Tudors and global exploration, the Atlantic trade and modern history; confident source evaluation (who made it, when, why — can we trust it?).
+
+## Time budget
+
+| Term | Unit | Weeks | Lessons |
+|---|---|---|---|
+| 1 | 1 — The world around AD 900: chronology and the historian's toolkit | 4 | 4 |
+| 1 | 2 — The Vikings: raiders, traders, explorers | 7 | 7 |
+| 2 | 3 — Baghdad and the Islamic Golden Age | 7 | 7 |
+| 2 | 4 — The Kingdom of Benin | 6 | 6 |
+| 3 | 5 — The Maya | 6 | 6 |
+| 3 | 6 — Comparing civilisations and our own story | 5 | 5 |
+| | **Total** | **35** (+1 week flex) | **35** |
 
 ---
 
-## Unit 1 — Anglo-Saxons and Scots
+## Unit 1 — The world around AD 900: chronology and the historian's toolkit
 
-**Essential question:** Who settled Britain after the Romans left, and how did "England" begin?
+**Essential question:** How do historians find out about people who lived over a thousand years ago?
 
-**Key vocabulary:** Angles, Saxons, Jutes, Anglo-Saxon, settle, kingdom, Wessex, Mercia, Northumbria, Scots, Picts, Old English, Christianity, Sutton Hoo, AD 410.
+**Key vocabulary:** chronology, century, millennium, BCE/CE, BC/AD, medieval, primary source, secondary source, artefact, archaeology, evidence, interpretation
 
-### Lesson 1 — After Rome: a gap to fill
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain who settled Britain after the Romans left and where they came from."
-- **Hook:** "The mighty Roman army packed up and left around AD 410, leaving Britain wide open. Who would come next?"
-- **Key activity:** Recap the Romans leaving (~AD 410, Year 3). Across the **North Sea**, the **Angles, Saxons and Jutes** (from today's Germany, Denmark, Netherlands) sailed over and **settled**. They lived in **wooden villages** and farmed, not grand Roman cities. Place them on the timeline (Romans → Anglo-Saxons). Locate their homelands on the map.
-- **Check for understanding:** "Who settled in Britain after the Romans left, and where did they come from?" → the Angles, Saxons and Jutes, from across the North Sea (now Germany/Denmark/Netherlands).
-- **Differentiation:** support: match the three tribes to "across the North Sea." / stretch: explain why a gap opened up when the Romans left.
-- **Materials:** a map of the North Sea region; the timeline; settlement images.
-- **Joy:** picturing whole families crossing the sea in wooden boats to start anew.
-
-### Lesson 2 — Where "England" comes from
+### Lesson 1 — Our place on the timeline
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that 'England' comes from the Angles and that Britain was many kingdoms."
-- **Hook:** "England wasn't always called England — and it wasn't even one country. So how did the name appear?"
-- **Key activity:** Worked example from the KB — the **Angles** → "**Angle-land**" / **Engla-land** → **England**. Britain was several rival **kingdoms** (Wessex, Mercia, Northumbria, Kent), each with its own king; the **Scots** and **Picts** lived in the north. Map the kingdoms. Note place names and English itself come from these settlers.
-- **Check for understanding:** "Where does the name 'England' come from?" → from the Angles — "Angle-land."
-- **Differentiation:** support: fill the blank: "The ___ gave their name to England." (Angles). / stretch: explain why "England was always one country" is wrong.
-- **Materials:** a map of the Anglo-Saxon kingdoms; word-origin cards.
-- **Joy:** discovering the country's name was hidden inside a tribe's name all along.
+- **Objective:** "By the end, I can place the medieval period on a timeline and explain what a century and a millennium are." (UK NC KS2 chronology; C3 D2.His.1.3-5)
+- **Hook:** A string timeline across the classroom from 3000 BCE to today: "Where would you pin Ancient Rome? Where are we? What fills the gap?"
+- **Key activity:** Retrieve Year 3 periods; pin new cards (Vikings, Baghdad's House of Wisdom, Benin's Obas, Maya cities) around AD 900; count centuries; explain BCE/CE and BC/AD.
+- **Check for understanding:** "The year AD 900 is in which century, and how do you know?" → The 9th century CE; the 9th century covers AD 801–900 (in everyday use, the 800s).
+- **Differentiation:** support: a timeline with centuries marked. / stretch: calculate how long ago AD 900 was and how many generations that is (about 1,100+ years; roughly 40–45 generations at 25 years each).
+- **Materials:** string, pegs, date cards, picture cards.
+- **Joy:** "Living timeline" — children holding cards find their place in order.
 
-### Lesson 3 — Beliefs, weekdays and Sutton Hoo
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how we know about the Anglo-Saxons and name our weekday links to their gods."
-- **Hook:** "You say the names of Anglo-Saxon gods every single week — Wednesday, Thursday. And a king was buried inside an entire ship."
-- **Key activity:** Early Anglo-Saxons worshipped many gods (**Woden** → Wednesday, **Thunor/Thor** → Thursday); over time **Christianity** spread, with monasteries as centres of writing and learning. Meet **Sutton Hoo**: a king buried in a whole **ship** with a famous helmet and treasure (found 1939) — a spectacular **source**. Tackle the "Dark Ages = nothing happened" myth (art, *Beowulf*, fine metalwork).
-- **Check for understanding:** "What is Sutton Hoo and why does it matter?" → a ship-burial of an Anglo-Saxon king with treasure and a helmet — a rich source about their power and beliefs.
-- **Differentiation:** support: match two weekdays to two gods. / stretch: explain why the "Dark Ages" nickname is unfair.
-- **Materials:** an image of the Sutton Hoo helmet; weekday/god cards.
-- **Joy:** realising they speak Anglo-Saxon gods' names every week.
-
-**End-of-unit check (Unit 1):** Say who settled after the Romans and from where; explain where "England" comes from and that it was many kingdoms; name Sutton Hoo as a source and a weekday-god link. **Misconception watch:** England was *not* always one country/called England; Anglo-Saxons ≠ Vikings (they came earlier); the "Dark Ages" were far from dark.
-
----
-
-## Unit 2 — The Vikings and the Struggle for England
-
-**Essential question:** Were the Vikings only fearsome raiders — or much more than that?
-
-**Key vocabulary:** Viking, Scandinavia, longship, raid, Lindisfarne, trade, explore, settle, Danelaw, Jorvik (York), Alfred the Great, 1066.
-
-### Lesson 4 — Raiders from the sea: AD 793
-- **Duration:** 40 min
-- **Objective:** "By the end, I can say where the Vikings came from and when their raids on Britain began."
-- **Hook:** "In AD 793, fast ships appeared from nowhere, struck a rich monastery, and vanished. The Viking age had begun."
-- **Key activity:** The first big **Viking** raid hit **Lindisfarne** in **AD 793**. Vikings came from **Scandinavia** (Norway, Denmark, Sweden). Their **longships** were shallow enough to sail up rivers and onto beaches — strike fast, vanish. Place them on the timeline (after Anglo-Saxons). Examine why the longship design made them so deadly.
-- **Check for understanding:** "Where did the Vikings come from, and roughly when did they start raiding Britain?" → Scandinavia (Norway/Denmark/Sweden); from around AD 793 (Lindisfarne).
-- **Differentiation:** support: find Scandinavia on a map; name the start year. / stretch: explain how the longship's shape made surprise raids possible.
-- **Materials:** a map of Scandinavia and the North Sea; a longship diagram; the timeline.
-- **Joy:** designing the perfect raiding longship and seeing why the real ones worked.
-
-### Lesson 5 — More than raiders: traders, explorers, settlers
-- **Duration:** 40 min
-- **Objective:** "By the end, I can name three things Vikings did besides raiding."
-- **Hook:** "Vikings reached North America 500 years before Columbus — and built a thriving city right here in Britain. Just raiders? Hardly."
-- **Key activity:** Worked example from the KB — weigh the evidence: yes, they raided (Lindisfarne), *but* they also **traded** (Jorvik/**York**), **explored** (Iceland, Greenland, North America), **farmed and settled**, and made fine craft. Sort facts into Raider / Explorer-Trader / Settler. Words we still use from Old Norse (sky, egg, knife, *they*).
-- **Check for understanding:** "Name two things Vikings did *besides* raiding." → any two of: traded, explored (Iceland/Greenland/North America), farmed and settled, made fine crafts, built towns like York.
-- **Differentiation:** support: a three-box sort with support. / stretch: explain why the "only mindless raiders" image is unfair.
-- **Materials:** fact cards; a map of Viking voyages; Old Norse word cards.
-- **Joy:** the surprise that Vikings reached America centuries before Columbus.
-
-### Lesson 6 — Alfred, the Danelaw, and 1066
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain who Alfred the Great was and how the Anglo-Saxon–Viking age ended."
-- **Hook:** "One Anglo-Saxon king refused to give up against the Vikings — and earned the title 'the Great.'"
-- **Key activity:** Vikings conquered so much that part of England became the **Danelaw**. **Alfred the Great** of Wessex resisted them, won in battle, and helped unite English resistance; gradually Saxons and Vikings settled side by side and England became one kingdom — until **1066**, which ends this whole age. Bust the **horned-helmet myth** (no evidence; a Victorian invention).
-- **Check for understanding:** "Did Vikings wear horned helmets?" → no — that's a myth with no evidence; real helmets were plain. (And: who was Alfred the Great? → King of Wessex who resisted the Vikings and helped unite English resistance.)
-- **Differentiation:** support: choose "myth" or "true" for several Viking facts. / stretch: explain how Saxons and Vikings ended up living together.
-- **Materials:** a map of the Danelaw; a "myth or true?" card set; the timeline to 1066.
-- **Joy:** busting the famous horned-helmet myth.
-
-**End-of-unit check (Unit 2):** Say where/when Vikings raided; name three non-raiding Viking activities; explain Alfred, the Danelaw and 1066; identify the horned-helmet myth. **Misconception watch:** Vikings were not *only* raiders; no horned helmets; Anglo-Saxons came first, Vikings later (Romans → Saxons → Vikings → 1066).
-
----
-
-## Unit 3 — A Non-European Civilisation: the Maya
-
-**Essential question:** Could a civilisation far from Europe be just as advanced — or even ahead?
-
-**Key vocabulary:** Maya, Central America, rainforest, Tikal, Chichén Itzá, pyramid-temple, astronomer, calendar, zero, glyphs, maize, cacao, descendants.
-
-### Lesson 7 — Cities in the rainforest
-- **Duration:** 40 min
-- **Objective:** "By the end, I can locate the Maya and explain they lived at the same time as the Anglo-Saxons, far away."
-- **Hook:** "While Anglo-Saxons farmed villages in Britain, on the other side of the world people were carving huge stone cities out of the jungle."
-- **Key activity:** Locate the **Maya** in **Central America** (Mexico, Guatemala, Belize) on the world map. Their cities — **Tikal**, **Chichén Itzá** — had stone **pyramid-temples**, palaces and ball-courts. They flourished ~**AD 250–900**, the *same time* as the Anglo-Saxons (Year 3 chronology: same time, different place). Compare on the timeline.
-- **Check for understanding:** "Where and roughly when did the Maya civilisation flourish?" → in Central America (Mexico/Guatemala etc.), around AD 250–900 — at the same time as the Anglo-Saxons.
-- **Differentiation:** support: find Central America on the map; name "rainforest." / stretch: explain how two peoples can live at once but never meet.
-- **Materials:** a world map; images of Tikal/Chichén Itzá; the timeline.
-- **Joy:** the jaw-drop of giant stone pyramids hidden in the jungle.
-
-### Lesson 8 — Maya genius: zero, the calendar and the stars
-- **Duration:** 40 min
-- **Objective:** "By the end, I can give two impressive Maya achievements and name something they had before Europe."
-- **Hook:** "The Maya understood the number *zero* and built one of the most accurate calendars ever — centuries before Europe caught up."
-- **Key activity:** Worked example from the KB — test "were the Maya advanced?": they used **zero** and place-value maths, built an accurate **calendar**, were superb **astronomers**, and wrote in **glyphs** — all without metal tools or the wheel for transport. Crack the Maya number code (dots and bars) and the idea of zero. Mention **maize** and **cacao** (chocolate — even used as money).
-- **Check for understanding:** "Name one thing the Maya had that Europe didn't have for a long time afterwards." → the concept of zero (and a very accurate calendar).
-- **Differentiation:** support: write a number in Maya dots and bars. / stretch: explain why "faraway old peoples were primitive" is wrong.
-- **Materials:** a Maya number chart (dots/bars); a glyph sheet; a cacao image.
-- **Joy:** writing numbers in Maya symbols and learning chocolate was once money.
-
-### Lesson 9 — Did the Maya disappear?
+### Lesson 2 — Sources: what counts as evidence?
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that Maya cities were abandoned but the Maya people did not vanish."
-- **Hook:** "Around AD 900, the great Maya cities were mysteriously abandoned. So did the Maya disappear? Not at all."
-- **Key activity:** Many great cities were **abandoned** ~AD 900 (likely drought, war, overused land). Crucially, **the Maya people did not vanish** — millions of descendants live in Central America today and still speak Maya languages. Tackle two misconceptions: the Maya didn't "die out," and the Maya, Aztecs and Incas were different peoples.
-- **Check for understanding:** "Did the Maya people all disappear?" → no — their big cities were abandoned ~AD 900, but millions of Maya descendants live today.
-- **Differentiation:** support: choose true/false for "the Maya all died out." / stretch: explain the difference between a city being abandoned and a people disappearing.
-- **Materials:** images of abandoned cities and of modern Maya communities; a map.
-- **Joy:** the powerful reveal that the Maya are still here today.
+- **Objective:** "By the end, I can sort sources into primary and secondary and explain what each can tell us." (UK NC KS2 how knowledge is constructed from sources; C3 D2.His.9.3-5)
+- **Hook:** A mystery box of "artefacts" (replicas or pictures): a coin, a comb, a carved stone, a page of writing, a modern book.
+- **Key activity:** Define primary (made at the time) and secondary (made later about the past); sort sources; ask "What can this tell us? What can't it?"
+- **Check for understanding:** "Is a history book written today about the Vikings a primary or secondary source? Can it still be useful?" → Secondary; yes, because historians have studied many primary sources to write it.
+- **Differentiation:** support: picture cards with the date made on each. / stretch: find a source that could be both (e.g. an old chronicle about events 100 years earlier).
+- **Materials:** replica artefacts or photos, sorting hoops.
+- **Joy:** "Mystery box" archaeology.
 
-**End-of-unit check (Unit 3):** Locate the Maya and place them at the same time as the Anglo-Saxons; give two achievements (zero, calendar, glyphs, cities); explain the cities were abandoned but the people remain. **Misconception watch:** the Maya did *not* die out; "advanced" isn't only European; Maya ≠ Aztecs ≠ Incas.
+### Lesson 3 — Archaeology: digging for the past
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how archaeologists find and interpret evidence, and why context matters." (UK NC KS2 how we know; C3 D2.His.10.3-5)
+- **Hook:** A tray "dig site" layered with sand and hidden objects: "What's older — the object at the top or the bottom?"
+- **Key activity:** Mini excavation in layers; record find locations on a grid; discuss stratigraphy (deeper usually means older) and why objects removed without recording lose meaning.
+- **Check for understanding:** "Why do archaeologists record exactly where each object was found?" → The location and layer help show its age and how it was used; without it, much of the evidence is lost.
+- **Differentiation:** support: guided dig with an adult. / stretch: interpret the "site" — who lived here and what did they do?
+- **Materials:** trays with sand/soil layers, small replica objects, brushes, grid string, recording sheets.
+- **Joy:** Being archaeologists.
+
+### Lesson 4 — Interpretations: why stories differ
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain why two accounts of the same event can differ." (UK NC KS2 interpretations; C3 D2.His.4.3-5)
+- **Hook:** Two short accounts of the same playground event from different children: "Who's telling the truth?"
+- **Key activity:** Discuss perspective, purpose and missing voices; apply to two short historical accounts (e.g. a monk's description of a Viking raid and a Norse saga's description of a voyage).
+- **Check for understanding:** "Why might a monk describe Vikings very differently from how a Viking poet would?" → The monk's monastery was attacked, so he saw them as terrifying enemies; the poet wanted to celebrate their bravery.
+- **Differentiation:** support: guided comparison grid. / stretch: suggest what a third, missing voice might say.
+- **Materials:** paired accounts, comparison grid.
+- **Joy:** "Two sides" role-play.
+
+**End-of-unit check:** Place four civilisations on a timeline around AD 900; sort six sources into primary and secondary with a reason; explain why two accounts of a Viking raid differ.
 
 ---
 
-## Unit 4 — Working with Sources: how do we really know?
+## Unit 2 — The Vikings: raiders, traders, explorers
 
-**Essential question:** How do historians decide whether to trust the clues they find?
+**Essential question:** Were the Vikings mainly raiders — or were they traders, settlers and explorers too?
 
-**Key vocabulary:** source, primary, secondary, evidence, reliable, biased, incomplete, cross-check, who/when/why.
+**Key vocabulary:** Viking, Norse, Scandinavia, longship, raid, settlement, trade route, silver, saga, rune, Thing (assembly), Vinland, Danelaw
 
-### Lesson 10 — Primary and secondary sources
+### Lesson 5 — Who were the Vikings?
+- **Duration:** 35 min
+- **Objective:** "By the end, I can locate Scandinavia and describe who the Vikings were and when they lived." (UK NC KS2 the Viking struggle; C3 D2.His.2.3-5)
+- **Hook:** A longship picture: "Where did these ships go, and why were people afraid of them?"
+- **Key activity:** Map Norway, Sweden and Denmark; the Viking Age (about AD 793–1066); why people went "a-viking" (land, wealth, adventure, trade); busting myths (no horned helmets).
+- **Check for understanding:** "Why is it wrong to draw Vikings with horned helmets?" → No horned helmets have been found from the Viking Age; the image comes from 19th-century costumes and paintings (e.g. for opera).
+- **Differentiation:** support: labelled map. / stretch: explain what "a-viking" meant (going on a raiding or trading voyage).
+- **Materials:** maps of Scandinavia and Europe, images of Viking objects.
+- **Joy:** Design a (historically accurate) Viking helmet.
+
+### Lesson 6 — Longships: the technology that changed everything
 - **Duration:** 40 min
-- **Objective:** "By the end, I can sort sources into primary and secondary and explain the difference."
-- **Hook:** "Samuel Pepys's diary, a Roman coin, your school textbook — which were made at the time, and which were made later?"
-- **Key activity:** Define **primary** (made at the time — a diary, coin, photo, tool, the Sutton Hoo helmet, the Rosetta Stone) vs **secondary** (made later by someone studying it — a textbook, museum label, documentary, this lesson). Sort a mixed set into primary/secondary, drawing on sources met this year and last.
-- **Check for understanding:** "What is the difference between a primary and a secondary source?" → primary = made at the time (diary, coin, photo); secondary = made later by someone studying it (textbook, documentary).
-- **Differentiation:** support: a two-box sort with support. / stretch: classify a tricky example (a museum reconstruction) and justify it.
-- **Materials:** a mixed source set (Roman coin, textbook, 1940 photo, museum label, helmet, documentary).
-- **Joy:** sorting real historical objects like a museum curator.
+- **Objective:** "By the end, I can explain how longship design helped the Vikings travel so far." (UK NC KS2 the Vikings; C3 D2.His.14.3-5)
+- **Hook:** Photos of the Oseberg or Gokstad ship (found in burial mounds in Norway, now in museums in Oslo).
+- **Key activity:** Features: shallow draught (sail up rivers), clinker-built planks, sail and oars, symmetrical ends (reverse quickly); build model longships and test in a water tray.
+- **Check for understanding:** "Why did a shallow hull help Vikings raid monasteries far inland?" → It could sail up rivers and land on beaches without a harbour.
+- **Differentiation:** support: model kit with instructions. / stretch: compare with a modern boat design.
+- **Materials:** card, dowels, fabric, water tray, photos of the Oseberg ship.
+- **Joy:** Longship model races.
 
-### Lesson 11 — Is this source reliable?
+### Lesson 7 — Lindisfarne, AD 793: a raid and its sources
 - **Duration:** 40 min
-- **Objective:** "By the end, I can ask who/when/why to judge if a source is reliable, and explain why historians use more than one."
-- **Hook:** "A winning king's scribe says it was 'a glorious victory.' The village's death list tells a different story. Who do you believe?"
-- **Key activity:** Sources can be **incomplete** (wood rots, gold lasts), **biased** (the Romans wrote about "barbarians"), or made to **persuade**. Before trusting one, ask **Who? When? Why?**. Worked example from the KB: the scribe vs the village death list — use *both*, and note the scribe's **bias**. Spot bias in an old advert/poster. Stress: historians **cross-check** several sources.
-- **Check for understanding:** "Name two questions you'd ask to judge if a source is reliable." → any two of: Who made it? When? Why (to record/boast/persuade)? Does another source agree?
-- **Differentiation:** support: pick the more reliable of two sources for a question and say why. / stretch: explain why even a primary source can be unreliable.
-- **Materials:** the scribe vs death-list example; an old advert/propaganda poster; question cards.
-- **Joy:** catching the "spin" in a biased source and seeing through it.
+- **Objective:** "By the end, I can use sources to describe the raid on Lindisfarne and judge how reliable they are." (UK NC KS2 the Viking struggle; sources; C3 D2.His.10.3-5)
+- **Hook:** Read an extract from the letter of Alcuin (a scholar at Charlemagne's court) about the raid.
+- **Key activity:** Examine the source: who wrote it, when, why; what it tells us; what it might exaggerate; compare with archaeological evidence.
+- **Check for understanding:** "Alcuin wasn't at Lindisfarne during the raid. Does that make his letter useless? Explain." → Not useless — it shows how shocked Christians were at the time — but he may exaggerate or lack details.
+- **Differentiation:** support: simplified extract with guided questions. / stretch: write a short evaluation using "This source is useful because… but…".
+- **Materials:** extract (simplified translation), source-evaluation frame.
+- **Joy:** "Source detective" magnifying glasses.
 
-**End-of-unit check (Unit 4):** Sort sources into primary/secondary; ask who/when/why to judge reliability; explain why historians cross-check several sources. **Misconception watch:** "written down / primary" doesn't mean true; a textbook is secondary; one good source isn't enough.
+### Lesson 8 — Traders on the rivers of the east
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain how Viking trade linked Scandinavia to Constantinople and Baghdad." (UK NC KS2 the Vikings — trade; C3 D2.His.14.3-5)
+- **Hook:** An Arabic silver coin (dirham) found in a Viking hoard in Sweden: "How did it get there?"
+- **Key activity:** Map trade routes along the rivers of Eastern Europe (e.g. the Volga and Dnieper) to Constantinople and beyond to the Islamic world; goods traded (furs, amber, slaves, silver, silk); discuss the Viking role in the slave trade honestly.
+- **Check for understanding:** "What does an Arabic coin in a Swedish hoard prove?" → Vikings traded (directly or indirectly) with the Islamic world thousands of kilometres away.
+- **Differentiation:** support: a route map to trace. / stretch: explain how this links to Unit 3 (Baghdad).
+- **Materials:** maps, images of hoards and coins, trade-goods cards.
+- **Joy:** Trading game with goods cards.
+
+### Lesson 9 — Settlers and daily life
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe Viking daily life using evidence from archaeology." (UK NC KS2 the Vikings — settlement; C3 D2.His.3.3-5)
+- **Hook:** Photos from the excavations at Coppergate in York (Jórvík): "What can rubbish tell us?"
+- **Key activity:** Evidence of homes, food, clothes, crafts, games (hnefatafl); the role of women (many managed farms and trade; keys as symbols of household authority); the Thing assembly.
+- **Check for understanding:** "What does finding thousands of everyday objects at Jórvík tell us that monks' records don't?" → What ordinary people ate, made and wore, not just about raids.
+- **Differentiation:** support: picture evidence cards. / stretch: evaluate what archaeology can't tell us (people's thoughts and beliefs).
+- **Materials:** photos, replica objects, a hnefatafl board.
+- **Joy:** Play hnefatafl (a Viking board game).
+
+### Lesson 10 — Explorers: Iceland, Greenland and Vinland
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain the evidence that Norse explorers reached North America around AD 1000." (UK NC KS2 the Vikings; C3 D2.His.10.3-5)
+- **Hook:** "Five hundred years before Columbus, someone else crossed the Atlantic. How do we know?"
+- **Key activity:** The sagas (written down about 200 years later) tell of Leif Erikson's voyage to "Vinland"; archaeologists Helge and Anne Stine Ingstad found a Norse site at L'Anse aux Meadows in Newfoundland, Canada (1960s); a 2021 tree-ring study showed wood there was cut in AD 1021. Compare the two kinds of evidence.
+- **Check for understanding:** "Why did historians need archaeology as well as the sagas?" → The sagas were written down much later and mix fact with legend; the site gave physical proof.
+- **Differentiation:** support: a two-column evidence chart. / stretch: consider the Indigenous peoples already living in North America and how the sagas describe them.
+- **Materials:** map of the North Atlantic, photos of L'Anse aux Meadows (a UNESCO World Heritage Site).
+- **Joy:** Plot the voyage on a big map.
+
+### Lesson 11 — Unit 2 enquiry: raiders or traders?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a balanced answer to 'Were the Vikings mainly raiders?' using evidence." (UK NC KS2 construct informed responses; C3 D2.His.16.3-5)
+- **Hook:** A "conscience line" — stand on a line from "raiders" to "traders".
+- **Key activity:** Sort evidence cards; write a balanced paragraph with "On the one hand… On the other hand… Overall…".
+- **Check for understanding:** "Give one piece of evidence for each side and your overall judgement." → Evidence for raids (Lindisfarne) and trade (silver hoards), and a reasoned conclusion.
+- **Differentiation:** support: paragraph frame. / stretch: explain why the "raider" image is so strong (the sources that survive were written by victims).
+- **Materials:** evidence cards, writing frames.
+- **Joy:** The human conscience line.
+
+**End-of-unit check:** A balanced paragraph answering the enquiry, using at least two pieces of evidence and one source evaluation.
 
 ---
 
-## End-of-year mastery checks (History)
+## Unit 3 — Baghdad and the Islamic Golden Age
 
-A Year 4 child who has mastered this year's history should be able to:
+**Essential question:** Why was Baghdad around AD 900 one of the greatest centres of learning in the world?
 
-1. **(Anglo-Saxons)** Say who settled Britain after Rome and where "England" comes from, and name Sutton Hoo as a source.
-2. **(Vikings)** Say where/when Vikings raided, name three non-raiding Viking activities, explain Alfred/the Danelaw/1066, and identify the horned-helmet myth.
-3. **(The Maya)** Locate the Maya, place them at the same time as the Anglo-Saxons, give two achievements, and explain the people did not vanish.
-4. **(Same time, different place)** Use the world map and timeline together to explain "same time, different place" (Maya and Anglo-Saxons).
-5. **(Sources — primary/secondary)** Sort primary vs secondary sources and explain the difference.
-6. **(Sources — reliability)** Ask who/when/why to judge reliability, explaining why historians cross-check several sources.
+**Key vocabulary:** caliph, Abbasid, Baghdad, Round City, House of Wisdom, scholar, translation, astronomy, algebra, algorithm, paper, hospital, Silk Roads
+
+### Lesson 12 — The Round City
+- **Duration:** 35 min
+- **Objective:** "By the end, I can locate Baghdad and describe why it was built as a round city in AD 762." (UK NC KS2 early Islamic civilisation — Baghdad c. AD 900; C3 D2.His.2.3-5)
+- **Hook:** A plan of the Round City: "Why build a city in a perfect circle?"
+- **Key activity:** Caliph al-Mansur founded Baghdad in AD 762 on the River Tigris; design reasons (defence, the caliph's palace at the centre, four gates towards different regions); trade position between the Tigris and Euphrates.
+- **Check for understanding:** "Give two reasons why Baghdad's location was a good choice." → Water from the Tigris; on trade routes linking Asia, the Middle East and beyond.
+- **Differentiation:** support: labelled map and plan. / stretch: compare with a planned city of today (e.g. Brasília or Canberra).
+- **Materials:** maps of the Middle East, Round City plan.
+- **Joy:** Design a round city in groups.
+
+### Lesson 13 — The House of Wisdom
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain what scholars did in Baghdad's House of Wisdom and why it mattered." (UK NC KS2 early Islamic civilisation; C3 D2.His.14.3-5)
+- **Hook:** "Imagine a library where scholars translated the best books from Greece, Persia and India into one language."
+- **Key activity:** Translation of Greek, Persian and Indian works into Arabic; scholars of different faiths working together; how this knowledge later reached Europe.
+- **Check for understanding:** "Why was translating books so important for the future of science?" → Knowledge from many cultures was preserved and combined, and later passed on to Europe and the wider world.
+- **Differentiation:** support: picture story sequence. / stretch: trace the journey of one idea (e.g. Indian numerals → Baghdad → Europe).
+- **Materials:** images of manuscripts, a map of knowledge routes.
+- **Joy:** "Translator's desk" — decode a message written in another script (with a key).
+
+### Lesson 14 — Scientists and mathematicians: al-Khwarizmi and friends
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe the achievements of scholars of the Islamic Golden Age and their legacy today." (UK NC KS2 early Islamic civilisation — significance; C3 D2.His.3.3-5)
+- **Hook:** "The words 'algebra' and 'algorithm' come from Baghdad. How?"
+- **Key activity:** Al-Khwarizmi (maths: 'algebra' from his book title al-jabr; 'algorithm' from his name); Ibn al-Haytham (studied light and vision, working in Cairo); the physician al-Razi (hospitals and medicine in Baghdad). Create "legacy cards".
+- **Check for understanding:** "Choose one scholar and explain why their work still matters today." → A named scholar and a specific legacy (e.g. algebra taught in schools; the scientific method of testing ideas).
+- **Differentiation:** support: fact cards with pictures. / stretch: explain what "Hindu–Arabic numerals" means and why the name matters.
+- **Materials:** scholar fact cards, a simple pinhole camera (for Ibn al-Haytham's work on light).
+- **Joy:** Build a pinhole camera.
+
+### Lesson 15 — Paper, books and markets
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain how paper-making changed learning and trade in Baghdad." (UK NC KS2 early Islamic civilisation; C3 D2.His.14.3-5)
+- **Hook:** Make paper from pulp: "Before paper, books were written on parchment made from animal skins. Why would paper change things?"
+- **Key activity:** Paper-making spread from China to the Islamic world in the 8th century, and Baghdad had paper mills by the late 700s; cheaper books, booksellers' markets, the Silk Roads.
+- **Check for understanding:** "Why did cheaper paper help knowledge spread?" → More books could be made, more cheaply, so more people could read and share ideas.
+- **Differentiation:** support: step-by-step paper-making cards. / stretch: explain the Silk Roads' role in spreading technologies.
+- **Materials:** paper pulp kit (recycled paper, water, frames), Silk Roads map.
+- **Joy:** Make recycled paper.
+
+### Lesson 16 — Everyday life in Baghdad
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe daily life in Baghdad using different sources, including stories." (UK NC KS2 early Islamic civilisation — daily life; C3 D2.His.3.3-5)
+- **Hook:** An extract from *One Thousand and One Nights* (stories set partly in the Baghdad of the caliph Harun al-Rashid): "Can a story be evidence?"
+- **Key activity:** Build a picture of markets, homes, food, hospitals and baths from sources; discuss what stories can and can't tell historians.
+- **Check for understanding:** "What can a collection of stories like *One Thousand and One Nights* tell us about Baghdad, and what should we be careful about?" → It shows what people imagined and valued; it isn't a factual record, and it was collected and added to over centuries.
+- **Differentiation:** support: picture sources. / stretch: compare a story source with a traveller's account.
+- **Materials:** story extract, images of markets and manuscripts.
+- **Joy:** "Market day" role-play with spices to smell (allergy-checked).
+
+### Lesson 17 — The end of the Golden Age: the Mongol sack of 1258
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain the causes and consequences of the Mongol attack on Baghdad in 1258." (UK NC KS2 cause and consequence; C3 D2.His.14.3-5)
+- **Hook:** Legends say the Tigris ran dark with ink from books thrown into the river: "Why would a story like that be told?"
+- **Key activity:** The Mongol Empire's expansion; the siege and destruction of 1258; consequences for learning; how knowledge survived elsewhere (Cairo, Córdoba, Samarkand).
+- **Check for understanding:** "Is the story of the 'river of ink' definitely true? How should a historian treat it?" → Not certain; it may be exaggerated but shows how great the loss of books felt; historians look for other evidence.
+- **Differentiation:** support: cause–consequence chain with pictures. / stretch: explain why learning didn't disappear completely.
+- **Materials:** maps of the Mongol Empire, cause–consequence template.
+- **Joy:** "Save the library" — choose which books to rescue and justify.
+
+### Lesson 18 — Unit 3 enquiry: why was Baghdad so great?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can present an answer to the enquiry question using evidence and significance." (UK NC KS2 construct informed responses; C3 D2.His.16.3-5)
+- **Hook:** "Museum curators need your help: which five objects best tell Baghdad's story?"
+- **Key activity:** Groups curate a five-object "museum case" with labels explaining significance; present.
+- **Check for understanding:** "Why did you choose that object, and what does it show about Baghdad?" → A reasoned choice linked to learning, trade or daily life.
+- **Differentiation:** support: object menu. / stretch: include an object that shows a problem or weakness.
+- **Materials:** object images, label cards.
+- **Joy:** Class museum opening.
+
+**End-of-unit check:** A museum label (60–100 words) explaining the significance of the House of Wisdom, and a timeline of Baghdad from AD 762 to 1258.
+
+---
+
+## Unit 4 — The Kingdom of Benin
+
+**Essential question:** What can the art of Benin tell us about one of West Africa's great kingdoms — and who should own it today?
+
+**Key vocabulary:** Benin, Edo, Oba, kingdom, brass, bronze, plaque, lost-wax casting, guild, walls, moat, oral history, loot, restitution
+
+### Lesson 19 — Where and when was Benin?
+- **Duration:** 35 min
+- **Objective:** "By the end, I can locate the Kingdom of Benin and place it on the timeline." (UK NC KS2 Benin c. AD 900–1300; C3 D2.His.2.3-5)
+- **Hook:** "The Kingdom of Benin was in what is now southern Nigeria — not the modern country called Benin. Why do you think names can be confusing?"
+- **Key activity:** Map West Africa; Benin City (the Edo people); the kingdom grew from around the 900s–1100s and lasted until 1897; compare with the timeline of Vikings and Baghdad.
+- **Check for understanding:** "Is the Kingdom of Benin the same as today's Republic of Benin? Explain." → No; the kingdom was in present-day southern Nigeria; the modern country of Benin is next door and took the name later.
+- **Differentiation:** support: labelled map. / stretch: find out how oral history tells the story of the first rulers.
+- **Materials:** maps of Africa and West Africa, timeline.
+- **Joy:** Add Benin to the living timeline.
+
+### Lesson 20 — Obas and the royal court
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain the role of the Oba and how the kingdom was organised." (UK NC KS2 Benin; C3 D2.Civ.3-5 link)
+- **Hook:** The ivory mask of Queen Mother Idia (16th century): "Who was she, and why make a mask of her?"
+- **Key activity:** The Oba (king) as political and spiritual leader; chiefs, guilds of craftspeople; Queen Mother Idia's role in helping her son Oba Esigie win a war. The Oba still has a ceremonial role in Benin City today.
+- **Check for understanding:** "Why were guilds of craftspeople important to the Oba?" → They made the brass and ivory art that recorded history and showed the Oba's power.
+- **Differentiation:** support: role cards. / stretch: compare the Oba's power with that of the caliph in Baghdad.
+- **Materials:** images of the Idia mask and court scenes, role cards.
+- **Joy:** Create a court "organisation chart" with portraits.
+
+### Lesson 21 — The Benin Bronzes: art as evidence
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use Benin plaques as sources to find out about life at the royal court." (UK NC KS2 Benin — sources; C3 D2.His.10.3-5)
+- **Hook:** A close-up of a Benin plaque showing a warrior and Portuguese traders: "What story is this telling?"
+- **Key activity:** Examine plaques (brass, often called bronzes): what they show (Obas, warriors, ceremonies, Portuguese traders from the late 1400s); what they suggest about power, trade and beliefs.
+- **Check for understanding:** "What can a plaque showing Portuguese traders tell us about Benin?" → Benin traded with Europeans (brass, cloth, coral), and it was important enough to record in art.
+- **Differentiation:** support: guided "see — think — wonder" questions. / stretch: explain what the plaques can't tell us.
+- **Materials:** high-quality images of plaques (museum collections online), magnifiers, see-think-wonder sheets.
+- **Joy:** "See, think, wonder" gallery.
+
+### Lesson 22 — Lost-wax casting and the city walls
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how Benin's metalworkers made their art and why the city's walls were remarkable." (UK NC KS2 Benin — achievements)
+- **Hook:** "How do you make a metal sculpture with a wax model that disappears?"
+- **Key activity:** Lost-wax casting steps (wax model, clay mould, heat to melt wax out, pour molten metal, break mould); model with clay and plasticine. The Walls of Benin: huge earth walls and moats built over centuries.
+- **Check for understanding:** "Why is it called 'lost-wax' casting?" → The wax model melts and runs out of the mould, leaving a space that is filled with metal.
+- **Differentiation:** support: sequence picture cards. / stretch: explain why each cast piece is unique.
+- **Materials:** modelling clay, plasticine, sequence cards, images of the walls.
+- **Joy:** Make a clay relief "plaque" telling a class story.
+
+### Lesson 23 — 1897: the British attack and the bronzes today
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain what happened in 1897 and discuss different views about returning the Benin Bronzes." (UK NC KS2 interpretations and significance; C3 D2.His.4.3-5)
+- **Hook:** "Thousands of Benin artworks are in museums in Europe and America. How did they get there?"
+- **Key activity:** In 1897 a British military expedition captured Benin City, burned much of it and took thousands of artworks. Today, some museums (e.g. in Germany and the Horniman Museum in London, 2022) have returned objects to Nigeria. Discuss viewpoints respectfully.
+- **Check for understanding:** "Give one argument for returning the bronzes and one argument some museums have made for keeping them, and your own view." → Returning: they were taken by force and belong to the people of Benin; keeping: more people can see them, or concerns about care — plus a reasoned personal view.
+- **Differentiation:** support: viewpoint cards. / stretch: write a letter to a museum director.
+- **Materials:** viewpoint cards, simple news extracts.
+- **Joy:** Structured class debate.
+
+### Lesson 24 — Unit 4 enquiry
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain what Benin's art tells us about the kingdom." (UK NC KS2 construct informed responses)
+- **Hook:** "Be the museum audio-guide."
+- **Key activity:** Record a 1-minute audio guide for a Benin artwork, including what it shows, how it was made and how it came to be in a museum.
+- **Check for understanding:** "What is the most important thing a visitor should know about this object, and why?" → A significant point about its meaning or history.
+- **Differentiation:** support: script frame. / stretch: include a question for visitors to think about.
+- **Materials:** tablets or recorders, object images.
+- **Joy:** Audio guides played at the class museum.
+
+**End-of-unit check:** A written or recorded explanation (80–120 words) of what one Benin plaque shows, how it was made, and two views on where it should be kept.
+
+---
+
+## Unit 5 — The Maya
+
+**Essential question:** How did the Maya build a great civilisation in the rainforest — and what happened to their cities?
+
+**Key vocabulary:** Maya, Mesoamerica, city-state, pyramid, temple, glyph, codex, calendar, Long Count, zero, maize, drought, LiDAR, descendant
+
+### Lesson 25 — Cities in the rainforest
+- **Duration:** 35 min
+- **Objective:** "By the end, I can locate the Maya region and describe Maya cities." (UK NC KS2 non-European society — Maya c. AD 900; C3 D2.His.2.3-5)
+- **Hook:** A photo of Tikal's temples rising above the jungle canopy.
+- **Key activity:** Map southern Mexico, Guatemala, Belize, Honduras and El Salvador; city-states (Tikal, Calakmul, Palenque, Copán); the Classic period (about AD 250–900); temples, plazas and ball courts.
+- **Check for understanding:** "Why is it wrong to call the Maya an 'empire' with one ruler?" → They were many city-states, each with its own ruler, which sometimes allied and sometimes fought.
+- **Differentiation:** support: labelled map. / stretch: compare Maya city-states with Greek city-states (Year 3).
+- **Materials:** maps of Central America, photos of Maya sites.
+- **Joy:** Build a stepped pyramid from blocks.
+
+### Lesson 26 — Maya writing and books
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how Maya glyphs work and why so few Maya books survive." (UK NC KS2 Maya — sources; C3 D2.His.10.3-5)
+- **Hook:** Show a Maya glyph for a name: "Can you read this?"
+- **Key activity:** Maya writing combined sound signs and word signs; carved stone monuments (stelae); folding bark-paper books (codices) — only four survive; many were burned by Spanish priests in the 1500s. Children design their own name glyph.
+- **Check for understanding:** "Why do historians rely so much on carvings rather than books to study the Maya?" → Most codices were destroyed or have rotted; stone carvings survived.
+- **Differentiation:** support: glyph templates. / stretch: explain why decoding Maya writing took until the 20th century.
+- **Materials:** glyph examples, clay tiles or card, pens.
+- **Joy:** Carve a personal name glyph in clay.
+
+### Lesson 27 — Maths and the calendar: zero and counting in twenties
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use Maya number symbols and explain why their zero was an important achievement." (UK NC KS2 Maya — achievements; links to maths)
+- **Hook:** "The Maya wrote numbers with dots, bars and a shell. What could the shell mean?"
+- **Key activity:** Dot = 1, bar = 5, shell = 0; base-20 system (counting on fingers and toes); write numbers to 19, then 20 with the shell; the Maya were one of very few civilisations to develop zero independently. Calendars: the 260-day and 365-day cycles and the Long Count.
+- **Check for understanding:** "Why was having a symbol for zero so useful?" → It holds an empty place, so large numbers can be written in a place-value system.
+- **Differentiation:** support: number cards 0–19. / stretch: write a number above 20 in Maya numerals using the second place.
+- **Materials:** Maya numeral chart, counters, bars (lolly sticks) and shells (or shell drawings).
+- **Joy:** "Maya maths market" — pay with Maya numerals.
+
+### Lesson 28 — Maize, farming and daily life
+- **Duration:** 35 min
+- **Objective:** "By the end, I can describe Maya daily life and explain why maize was so important." (UK NC KS2 Maya — daily life; C3 D2.His.3.3-5)
+- **Hook:** Taste a (allergy-checked) corn tortilla and chocolate made from cacao: "Both come from Maya farming!"
+- **Key activity:** Maize at the heart of life and belief (the Maya creation story in the *Popol Vuh* tells of people made from maize); farming (terraces, raised fields); cacao as a drink and currency; homes, family, the ballgame.
+- **Check for understanding:** "What does the *Popol Vuh* creation story tell us about how important maize was?" → People are said to be made from maize dough, showing it was central to life and belief.
+- **Differentiation:** support: picture sources. / stretch: explain how farming supported large cities.
+- **Materials:** maize, cacao images, *Popol Vuh* extract (child-friendly retelling).
+- **Joy:** Tortilla tasting and a cacao "drink" (hot chocolate) discussion.
+
+### Lesson 29 — What happened to the Maya cities?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can weigh evidence about why many southern Maya cities were abandoned around AD 800–900." (UK NC KS2 cause and consequence; C3 D2.His.14.3-5)
+- **Hook:** "Imagine a city of tens of thousands, then a jungle. What could cause that?"
+- **Key activity:** Evidence cards: drought (lake sediments), warfare (carvings of battles), overpopulation and deforestation, political collapse; rank causes and discuss that historians think several causes combined. LiDAR (laser scanning from aircraft) has revealed many more hidden structures in recent years.
+- **Check for understanding:** "Why do historians think there was more than one cause?" → Different kinds of evidence point to drought, war and environmental damage working together.
+- **Differentiation:** support: diamond-ranking with picture cards. / stretch: explain how scientific evidence (lake sediments) helps historians.
+- **Materials:** evidence cards, diamond-ranking templates, LiDAR images.
+- **Joy:** Diamond-ranking debate.
+
+### Lesson 30 — The Maya today and Unit 5 enquiry
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain that Maya people did not disappear and answer the unit enquiry question." (UK NC KS2 construct informed responses; interpretations)
+- **Hook:** "Millions of Maya people live in Mexico and Central America today and speak Maya languages. Why do people say the Maya 'disappeared'?"
+- **Key activity:** Challenge the "disappearance" myth; later cities in the north (e.g. Chichén Itzá, Mayapán); Spanish conquest in the 1500s; Maya communities and languages today (e.g. K'iche', Yucatec). Write the enquiry answer.
+- **Check for understanding:** "Is it accurate to say the Maya disappeared? Explain." → No; some southern cities were abandoned, but Maya people and culture continued and continue today.
+- **Differentiation:** support: paragraph frame. / stretch: explain how myths about "lost civilisations" can be harmful.
+- **Materials:** images of Maya communities today, writing frames.
+- **Joy:** Listen to a recording of a Maya language (e.g. Yucatec or K'iche') from a community or university source, and learn a greeting.
+
+**End-of-unit check:** Explain two Maya achievements with evidence, and write a paragraph challenging the myth that the Maya "disappeared".
+
+---
+
+## Unit 6 — Comparing civilisations and our own story
+
+**Essential question:** What was similar and different about life around the world in AD 900 — and what was happening where I live?
+
+**Key vocabulary:** similarity, difference, comparison, significance, local history, primary source, enquiry, presentation
+
+### Lesson 31 — Comparing four civilisations
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare two or more civilisations using themes like power, beliefs, trade and learning." (UK NC KS2 similarity and difference; C3 D2.His.2.3-5)
+- **Hook:** "If a Viking trader, a Baghdad scholar, a Benin metalworker and a Maya scribe met, what would they talk about?"
+- **Key activity:** Comparison grid (leaders, beliefs, trade, technology, writing/records); discuss surprising similarities (all traded, all recorded their history in different ways).
+- **Check for understanding:** "Give one similarity and one difference between two of the civilisations, with evidence." → Accurate comparison.
+- **Differentiation:** support: partly filled grid. / stretch: explain which civilisation you think had the most lasting legacy, and why.
+- **Materials:** comparison grids, unit notes.
+- **Joy:** "Time-travel dinner party" role-play.
+
+### Lesson 32 — What was happening where I live? (research)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can research what was happening in my own country or region around AD 900 using reliable sources." (UK NC KS2 local/national history link; C3 D2.His.2.3-5)
+- **Hook:** "Our four civilisations are far away — what about here?"
+- **Key activity:** Guided research using museum websites and library books (e.g. for a school in Britain: the Anglo-Saxon kingdoms and Alfred the Great; in India: the Chola dynasty; in China: the Tang dynasty; in Ethiopia: the successors of Aksum; in Japan: the Heian period; in Australia: Aboriginal nations' long histories and oral traditions). Worked example modelled by the teacher.
+- **Check for understanding:** "How do you know your source is reliable?" → e.g. it's a museum or university website, or it gives evidence and names its sources.
+- **Differentiation:** support: pre-selected sources. / stretch: find a primary source (an object, inscription or document) from that time.
+- **Materials:** library books, museum websites, research frames.
+- **Joy:** Adding "our place" to the class world timeline.
+
+### Lesson 33 — Preparing a history fair stall
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a presentation that answers an enquiry question with evidence." (UK NC KS2 communicate historical knowledge)
+- **Hook:** "Families are coming — what will you teach them?"
+- **Key activity:** Groups choose a civilisation or "our place" and an enquiry question; prepare a poster, a replica object and a 2-minute talk.
+- **Check for understanding:** "What is your enquiry question, and what evidence will you use to answer it?" → A clear question and at least two sources.
+- **Differentiation:** support: stall template. / stretch: include an interpretation debate on your stall.
+- **Materials:** poster paper, craft materials, notes.
+- **Joy:** Making replica artefacts.
+
+### Lesson 34 — History fair
+- **Duration:** 40 min
+- **Objective:** "By the end, I can present historical knowledge clearly and answer visitors' questions." (UK NC KS2 communicate; C3 D2.His.16.3-5)
+- **Hook:** Doors open to families and another class.
+- **Key activity:** Present stalls; visitors complete "question passports".
+- **Check for understanding:** "What was the hardest question a visitor asked, and how did you answer?" → A thoughtful reflection.
+- **Differentiation:** support: present in a pair with a script. / stretch: act as a fair "guide".
+- **Materials:** stalls, passports.
+- **Joy:** The history fair.
+
+### Lesson 35 — End-of-year assessment and reflection
+- **Duration:** 35 min
+- **Objective:** "By the end, I can show my understanding of chronology, sources and the civilisations studied." (UK NC KS2 — assessment)
+- **Hook:** "Historian's certificate challenge."
+- **Key activity:** Timeline task; source evaluation of an unseen source; short written comparison.
+- **Check for understanding:** "Evaluate this source: who made it, when, why — and how useful is it for answering our question?" → A structured evaluation.
+- **Differentiation:** support: evaluation frame. / stretch: compare two sources.
+- **Materials:** assessment sheet, unseen source.
+- **Joy:** Historian's certificate.
+
+**End-of-unit check:** History fair presentation and a written evaluation of an unseen source.
+
+## Books & resources
+
+- ***Journey to Jo'burg* — Beverley Naidoo** — (English text) opens discussion of how history shapes lives; pair with Unit 1 on interpretations.
+- ***The Orchard Book of Greek Myths* — Geraldine McCaughrean** — (English text) recalls Year 3's Greece and shows how myths are also sources.
+- ***Odd and the Frost Giants* — Neil Gaiman** — a short, funny Norse-myth novel that brings the Viking world of stories to life.
+- ***D'Aulaires' Book of Norse Myths* — Ingri and Edgar Parin d'Aulaire** — the classic illustrated Norse myths.
+- ***The House of Wisdom* — Florence Parry Heide and Judith Heide Gilliland, illustrated by Mary GrandPré** — picture book set in Baghdad's House of Wisdom.
+- ***One Thousand and One Nights*** (a children's retelling such as Geraldine McCaughrean's *One Thousand and One Arabian Nights*) — stories from the world of Harun al-Rashid's Baghdad.
+- ***Tristan Strong Punches a Hole in the Sky* — Kwame Mbalia** — (class-library choice) West African and African American folklore; sparks interest in African history.
+- **British Museum, Horniman Museum and Nigerian national collections online** — high-quality images and information about Benin art and its return.
+- **Museo Popol Vuh (Guatemala) and the British Museum's Maya collection online** — Maya sources.
+- **Jorvik Viking Centre (York) and the Museum of the Viking Age (Oslo, formerly the Viking Ship Museum) websites** — archaeology and ships.
+- **BBC Bitesize KS2 History** (Vikings, Early Islamic Civilisation, Benin, Maya) — clear, free overviews for teachers and children.
+
+## End-of-year mastery checks
+
+1. **Chronology** — places the Vikings, Abbasid Baghdad, Benin and the Maya correctly on a timeline with Year 3's ancient civilisations. *See it:* a living-timeline task with dates and centuries explained.
+2. **Sources** — distinguishes primary and secondary sources and evaluates a source (who, when, why, how useful). *See it:* the unseen-source task in Lesson 35.
+3. **Interpretations** — explains why accounts differ (e.g. monks vs sagas; views on the Benin Bronzes). *See it:* a paragraph explaining two perspectives.
+4. **Cause and consequence** — explains causes of change (Maya city abandonment, the 1258 sack of Baghdad). *See it:* diamond-ranking with reasons.
+5. **Similarity and difference** — compares civilisations on themes (power, beliefs, trade, learning). *See it:* comparison grid and paragraph.
+6. **Significance** — argues why a person, object or idea matters (House of Wisdom, Maya zero). *See it:* museum label or audio guide.
+7. **Communication** — answers an enquiry question in a structured, evidenced way. *See it:* history-fair presentation.
+
+## Teacher guidance
+
+**Common misconceptions (and fixes).**
+- *"The Middle Ages were dark and backward everywhere."* — Baghdad's libraries and hospitals, Benin's metalwork and Maya mathematics show otherwise.
+- *"Vikings wore horned helmets and only raided."* — No horned helmets have been found; show trade hoards and settlements.
+- *"Africa had no history before Europeans arrived."* — Benin's long line of Obas, cities and art (and oral history) disprove this; treat oral tradition as a real source.
+- *"The Maya disappeared."* — Millions of Maya people live today.
+- *"Primary sources are always true."* — every source has a creator and a purpose.
+- *"The Kingdom of Benin is the modern country of Benin."* — it was in present-day Nigeria.
+
+**Enquiry routine.** Every unit starts with the enquiry question on the wall, adds evidence week by week, and ends with an answer. Always ask: *How do we know? Who made this source, and why? What's missing?*
+
+**Sensitive content.** Raiding and slavery (Vikings), conquest and looting (1897 Benin; the Spanish conquest of the Maya) should be taught honestly and calmly, focusing on people's agency, resilience and the ongoing conversations about restitution.
+
+**International notes.** Lesson 32 adapts to any country: model one worked example from your own region's history around AD 900 before children research. Use BCE/CE or BC/AD consistently and explain both.
+
+**Vertical links.** Year 3: Greece, Rome, chronology. Year 4: the connected medieval world. Year 5: Tudors and exploration, the Atlantic trade, the history of flight, the Second World War home front and local history — built on this year's timeline and source skills.
+
+**Cross-curricular links.** Maths (Maya base-20 and zero; al-Khwarizmi and algebra), English (sagas and myths, *One Thousand and One Nights*), geography (maps of trade routes, rivers and rainforests), art (Benin casting, Maya glyphs, Islamic geometric patterns), science (archaeology and dating methods).
