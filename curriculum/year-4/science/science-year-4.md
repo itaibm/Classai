@@ -40,13 +40,13 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 
 **Essential question:** How do scientists and engineers choose the right material for the job?
 
-**Key vocabulary:** material, property, hardness, flexibility, transparent, translucent, opaque, electrical conductor, electrical insulator, thermal conductor, thermal insulator, magnetic, soluble, insoluble, fair test, variable
+**Key vocabulary:** material, property, hardness, strength, absorbent, waterproof, flexibility, transparent, translucent, opaque, electrical conductor, electrical insulator, thermal conductor, thermal insulator, magnetic, soluble, insoluble, fair test, variable
 
 ### Lesson 1 — Why materials matter
 - **Duration:** 35 min
 - **Objective:** "By the end, I can describe materials using several properties and explain why a material suits its use." (UK NC Y5 properties of materials; NGSS 5-PS1-3)
-- **Hook:** A mystery bag: a metal spoon, a rubber glove, a glass jar, a wooden block, a plastic bottle. "Why is a saucepan handle never made of metal alone?"
-- **Key activity:** Explore and describe objects with property words; match property to purpose (glass — transparent for windows; rubber — flexible and waterproof for boots). Children record in a property table.
+- **Hook:** A mystery bag: a metal spoon, a rubber glove, a glass jar, a wooden block, a plastic bottle. "Why do so many saucepans have plastic or wooden handles?"
+- **Key activity:** Five-minute retrieval: from Year 2 (magnets) and Year 3 (circuits), children sort samples into 'magnetic?' and 'conducts electricity?' from memory, then check two with a magnet and a tester circuit. Then explore and describe objects with property words; match property to purpose (glass — transparent for windows; rubber — flexible and waterproof for boots). Children record in a property table.
 - **Check for understanding:** "Why is a frying pan made of metal but its handle of plastic or wood?" → Metal conducts heat to cook the food; plastic/wood are thermal insulators so the handle stays cool enough to hold.
 - **Differentiation:** support: property word cards with pictures. / stretch: suggest a new use for a material based on two of its properties.
 - **Materials:** a tray of everyday objects in different materials, hand lenses, property tables.
@@ -72,21 +72,21 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Materials:** torches, fabric and plastic samples, tracing paper, cling film, white card screen.
 - **Joy:** "Shadow puppet test" — which material makes the best shadow puppet?
 
-### Lesson 4 — Electrical conductors and insulators
+### Lesson 4 — Strength: which thread holds the most? (investigation)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can test materials in a circuit to find electrical conductors and insulators." (UK NC Y5 compare materials — electrical conductivity; NGSS 4-PS3-2)
-- **Hook:** "Why are plugs made of plastic but with metal pins?"
-- **Key activity:** Retrieve Year 3 circuits; build a tester circuit with a gap; place materials in the gap; the bulb lights for conductors. Predict first, then test.
-- **Check for understanding:** "Why are electrical wires made of copper inside and plastic outside?" → Copper conducts electricity; plastic insulates to stop current reaching us and keep us safe.
-- **Differentiation:** support: pre-built tester circuits. / stretch: test water and salty water (salty water conducts better) and discuss why wet hands and electricity are dangerous.
-- **Materials:** batteries (1.5 V), bulbs or buzzers, wires with crocodile clips, test materials (foil, coins, paper clips, plastic, wood, graphite pencil lead). Safety: only low-voltage batteries — never mains electricity.
-- **Joy:** Surprise: a pencil's graphite conducts!
+- **Objective:** "By the end, I can carry out a fair test to compare the strength of materials and use the results to choose a material for a job." (UK NC Y5 compare and group materials by their properties; give reasons for particular uses)
+- **Hook:** "A climbing rope, a fishing line and a kite string all have to hold weight without snapping. Which material would you trust?"
+- **Key activity:** Groups test equal lengths of cotton thread, wool, nylon fishing line, paper string and raffia: hang each from a clamp or a table edge, hook a small bag on the end and add washers (or read the pull on a newton meter) until it snaps. Repeat each three times; record the load at breaking in a table; rank the materials and link to uses (nylon climbing ropes, cotton sewing thread).
+- **Check for understanding:** "Group A says nylon is stronger than wool because their nylon held 40 N and their wool held 25 N — but their wool piece was much thinner. Can they be sure? What should they change?" → No — thickness was not kept the same, so it may have caused the difference; repeat with pieces of equal thickness and length
+- **Differentiation:** support: three materials only, with the results table and a 'keep the same' checklist provided. / stretch: explain why engineers test many samples of a material, not just one, before building a bridge cable.
+- **Materials:** threads and strings of equal length, washers and a small bag or newton meters (0–50 N), clamps, results tables. Safety: goggles on; keep feet clear of falling masses (a tray of sand or a cushion underneath).
+- **Joy:** The "snap-o-meter" league table — watch the class strongman thread crowned.
 
 ### Lesson 5 — Thermal insulators: a fair test (planning)
 - **Duration:** 40 min
 - **Objective:** "By the end, I can plan a fair test to find which material keeps a drink warm longest." (UK NC Y5 compare materials — thermal conductivity; working scientifically — plan)
 - **Hook:** "Explorers in Antarctica, desert nomads, and your lunchbox all need insulation. Why?"
-- **Key activity:** Identify variables: change (material wrapped around cup), measure (temperature every 5 min), keep the same (starting temperature, volume of water, cup type, time). Plan a results table; make predictions with reasons.
+- **Key activity:** Retrieve Year 3's ice-cube wrapping test (which only timed melting); this time measure temperature with a thermometer so the results make a cooling curve. Identify variables: change (material wrapped around cup), measure (temperature every 5 min), keep the same (starting temperature, volume of water, cup type, time). Plan a results table; make predictions with reasons.
 - **Check for understanding:** "Which variable are you changing and which must stay the same? Why does it matter?" → Change the wrapping material; keep water volume, start temperature and cup the same, so any difference is caused by the material.
 - **Differentiation:** support: a planning frame with variable boxes. / stretch: plan to repeat readings and explain why.
 - **Materials:** planning frames, cups, thermometers, wrapping materials (foil, wool, bubble wrap, newspaper, cotton).
@@ -102,15 +102,15 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Materials:** warm (not hot) water from a flask, thermometers or data loggers, stopwatches, graph paper. Safety: water no hotter than a warm bath; adults pour.
 - **Joy:** Watching the class results come together on one big graph.
 
-### Lesson 7 — Magnetic materials
+### Lesson 7 — Absorbency: which material soaks up most? (investigation)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can test which materials are magnetic and explain that not all metals are magnetic." (UK NC Y5 compare materials — response to magnets)
-- **Hook:** "Recycling plants separate steel cans from aluminium cans in seconds. How?"
-- **Key activity:** Predict then test metals and non-metals with a magnet; discover only iron, nickel, cobalt and steel (which contains iron) are attracted; aluminium, copper and brass are not.
-- **Check for understanding:** "Mei says all metals stick to magnets. What evidence proves her wrong?" → An aluminium can or copper coin was not attracted.
-- **Differentiation:** support: sorting hoops for magnetic/non-magnetic. / stretch: explain how a recycling plant could use this to separate cans.
-- **Materials:** bar magnets, steel and aluminium cans, copper wire, brass fastener, iron nail, plastic, wood.
-- **Joy:** "Magnetic fishing" — a recycling sorting game.
+- **Objective:** "By the end, I can measure how absorbent different materials are and explain why absorbency suits some jobs and not others." (UK NC Y5 compare and group materials by their properties)
+- **Hook:** "A spill on the kitchen floor, a nappy, a raincoat: when do we want a material to soak up water — and when do we definitely not?"
+- **Key activity:** Groups cut equal squares of kitchen towel, cotton cloth, sponge cloth, newspaper and plastic; dip each in water for 10 seconds, let it drip for 10 seconds, then squeeze the water into a measuring cylinder (or weigh before and after). Record in ml, repeat, and rank; match results to real uses (towels, mops, tents, sports shirts that 'wick').
+- **Check for understanding:** "The sponge cloth held the most water. Would it make a good tent? Use two properties to explain." → No — a tent needs to be waterproof (not absorbent) so rain runs off; the sponge cloth soaks water up and would get heavy and drip
+- **Differentiation:** support: three materials and a pre-drawn results table. / stretch: explain why weighing before and after might be more accurate than squeezing out the water.
+- **Materials:** equal squares of five materials, trays of water, timers, measuring cylinders or digital scales, results tables.
+- **Joy:** "Spill rescue" — use the winning material to mop a (water) disaster fastest.
 
 ### Lesson 8 — Soluble and insoluble
 - **Duration:** 35 min
@@ -150,7 +150,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Check for understanding:** "Justify one material choice using a result from our tests." → e.g. "Bubble wrap, because it was the best thermal insulator in our cup test."
 - **Differentiation:** support: choose from three materials. / stretch: balance two conflicting properties (strong but light).
 - **Materials:** recycled boxes, fabric, foil, bubble wrap, tape, scissors.
-- **Joy:** Prototype showcase and "Dragons' Den"-style pitch to the class.
+- **Joy:** Prototype showcase and an inventors' pitch to a panel of 'investors' from the class.
 
 ### Lesson 12 — Unit 1 review and assessment
 - **Duration:** 35 min
@@ -162,7 +162,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Materials:** assessment sheet.
 - **Joy:** "Materials museum" labels.
 
-**End-of-unit check:** Sort 8 materials by three properties with evidence; write a fair-test plan for waterproofing; explain why not all metals are magnetic.
+**End-of-unit check:** Sort 8 materials by three properties with evidence; write a fair-test plan for waterproofing; justify one material choice using two test results from this unit.
 
 ---
 
@@ -226,11 +226,11 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Duration:** 35 min
 - **Objective:** "By the end, I can identify reversible changes and explain how to reverse them." (UK NC Y5 reversible changes)
 - **Hook:** An ice lolly melting: "Can we get the lolly back?"
-- **Key activity:** Retrieve melting, freezing, evaporating and condensing from Year 3; add dissolving; demonstrate reversing each (freeze melted chocolate, evaporate salt water).
-- **Check for understanding:** "Is melting chocolate a reversible change? Explain." → Yes; cooling it makes it solid again; no new material is made.
-- **Differentiation:** support: change-and-reverse matching cards. / stretch: explain why reversed chocolate might look different (the shape changes but it's still chocolate).
-- **Materials:** chocolate, ice, warm water bath, freezer access.
-- **Joy:** Make chocolate shapes by melting and re-setting in moulds.
+- **Key activity:** Quick retrieval of Year 3's changes of state (melting, freezing, evaporating, condensing); the new idea is that dissolving and mixing are also reversible. Stations: recover salt from salt water (the dishes set up in Lesson 16), sieve sand back out of a sand–water mixture, and refreeze melted juice. Children record each change, how it was reversed and the evidence that no new material was made.
+- **Check for understanding:** "Salt dissolving in water and juice freezing are both reversible. How would you reverse each one, and what is the same about the two changes?" → evaporate the water to get the salt back; warm the ice to get juice again; in both, no new material is made — the same substances are there before and after
+- **Differentiation:** support: change-and-reverse matching cards. / stretch: explain why dissolved salt can be recovered but the water is lost unless you condense it.
+- **Materials:** salt-water dishes from Lesson 16, sand, water, sieves, juice, zip bags, ice, salt.
+- **Joy:** Instant slush: squeeze a bag of juice inside a bag of ice and salt and watch it freeze in minutes.
 
 ### Lesson 19 — Irreversible changes: new materials
 - **Duration:** 40 min
@@ -246,7 +246,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Duration:** 40 min
 - **Objective:** "By the end, I can plan an investigation into what makes iron rust." (UK NC Y5 irreversible changes — working scientifically)
 - **Hook:** Photos of a rusty ship and a shiny bridge: "Why does one rust and not the other?"
-- **Key activity:** Set up nails in: dry air, tap water, salt water, oil-covered water, painted nail in water; predict; observe over a week.
+- **Key activity:** Set up nails in: dry air (with a drying agent), tap water, salt water, water that an adult has boiled and cooled with a layer of oil on top (boiling removes dissolved air; the oil stops air getting back in), and a painted nail in water; predict; observe over a week.
 - **Check for understanding:** "What is the variable you are changing, and what will you observe?" → The conditions around the nail; the amount of rust.
 - **Differentiation:** support: pre-labelled jars. / stretch: predict which condition rusts fastest and explain.
 - **Materials:** iron nails, jars, water, salt, cooking oil, paint, silica gel (for dry air).
@@ -334,23 +334,23 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 
 ### Lesson 28 — Day and night: a rotating Earth
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a model to explain day and night by Earth's rotation." (UK NC Y5 day and night; NGSS 5-ESS1-2)
-- **Hook:** "The Sun rises in the east and sets in the west. Does the Sun really move?"
-- **Key activity:** Torch (Sun) and globe; a sticker for your city; rotate the globe anticlockwise (seen from above the North Pole) once for 24 hours; observe day and night; children act as Earth spinning in the classroom.
-- **Check for understanding:** "Why does the Sun appear to move across the sky?" → Earth rotates on its axis once a day, so different places face the Sun; the Sun only seems to move.
-- **Differentiation:** support: guided model with the teacher. / stretch: explain why it's night in Tokyo when it's morning in London.
+- **Objective:** "By the end, I can use a model to work out which way Earth spins and explain why sunrise comes earlier in places further east." (UK NC Y5 day and night; NGSS 5-ESS1-2)
+- **Hook:** "In Year 2 we found that day and night come from Earth spinning. But which way does it spin — and how could you prove it?"
+- **Key activity:** Quick retrieval with torch (Sun) and globe. Then children test both spin directions with a sticker on their city and decide which one makes the Sun rise in the east; conclude that Earth spins west to east (anticlockwise seen from above the North Pole). Use sunrise times for two cities in the same country on the same date (e.g. Shanghai and Kashgar, which both use Beijing time) to test the model; children act as Earth spinning in the classroom.
+- **Check for understanding:** "On the same day, the Sun rises about three hours earlier in Shanghai (far east of China) than in Kashgar (far west), though their clocks show the same time. Use Earth's spin to explain why." → Earth spins towards the east, so places further east turn into the sunlight first; Shanghai reaches sunrise before Kashgar does
+- **Differentiation:** support: guided model with the teacher, with east and west labelled on the globe. / stretch: explain why it is night in Tokyo when it is midday in Lagos.
 - **Materials:** globe, strong torch or lamp, stickers, dark room.
 - **Joy:** "Human Earth" spinning under a lamp "Sun".
 
-### Lesson 29 — Shadows and the Sun's apparent movement (investigation)
+### Lesson 29 — The Sun is a star (investigation)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can measure a shadow through the day and explain the pattern using Earth's rotation." (UK NC Y5 Earth and space — evidence; NGSS 5-ESS1-2)
-- **Hook:** Show a sundial: "How can a shadow tell the time?"
-- **Key activity:** Place a stick (gnomon) in the playground; mark and measure its shadow length and direction at intervals across the day; plot shadow length against time.
-- **Check for understanding:** "Why is the shadow shortest around midday?" → The Sun appears highest in the sky then, so the shadow is shortest.
-- **Differentiation:** support: measure and mark with a partner using chalk. / stretch: predict where the shadow will be at a later time and test it.
-- **Materials:** a metre stick or pole, chalk, measuring tape, compass, results table. Safety: never look directly at the Sun.
-- **Joy:** Make a working playground sundial.
+- **Objective:** "By the end, I can explain that the Sun is a star and use evidence to show that it looks brighter than other stars because it is much closer." (NGSS 5-ESS1-1; UK NC Y5 Earth and space)
+- **Hook:** "Some of the stars you see at night give out far more light than the Sun. So why do they look like tiny dots?"
+- **Key activity:** In a darkened room, measure the brightness of the same torch at 1, 2, 4 and 8 metres with a light-meter app (or a brightness scale on a white card); repeat, record and plot a line graph. Conclude that the same light looks dimmer the further away it is. Apply to stars: the Sun is an ordinary star about 150 million km away; the next nearest star is about 270,000 times further. Share star stories from several cultures (e.g. Matariki / the Pleiades in Aotearoa New Zealand; the Southern Cross in many southern-hemisphere traditions).
+- **Check for understanding:** "Sirius gives out about 25 times as much light as the Sun, yet it looks like a tiny dot. Use your torch results to explain why." → Sirius is vastly further away than the Sun; our results showed that the same light source looks dimmer the further away it is, so a brighter star can look much fainter
+- **Differentiation:** support: two distances only and a brightness card instead of the app. / stretch: explain why two torches, one brighter than the other, could look equally bright from where you stand.
+- **Materials:** identical torches, light-meter app or brightness cards, measuring tapes, a darkened room, star-map printouts. Safety: never look directly at the Sun or shine torches into eyes.
+- **Joy:** Make a pinhole "star lantern" of a constellation from another culture.
 
 ### Lesson 30 — Time zones
 - **Duration:** 35 min
@@ -504,13 +504,13 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 
 ### Lesson 44 — Friction
 - **Duration:** 40 min
-- **Objective:** "By the end, I can measure friction on different surfaces with a newton meter and explain when friction is useful." (UK NC Y5 friction)
-- **Hook:** "Why do football boots have studs and ice skates have smooth blades?"
-- **Key activity:** Pull a shoe across different surfaces (carpet, wood, sandpaper, plastic) at a steady speed with a newton meter; record force needed; discuss useful and unhelpful friction.
-- **Check for understanding:** "Why is friction useful for walking but a problem in a bicycle chain?" → It stops us slipping; in a chain it wastes energy and causes wear, so we oil it.
-- **Differentiation:** support: two surfaces only. / stretch: repeat and average readings; explain why a steady speed matters.
-- **Materials:** a shoe, newton meters, surface samples, results table.
-- **Joy:** "Slippery slope" ramp race with different surfaces.
+- **Objective:** "By the end, I can investigate how the weight of an object affects the friction on it, measuring in newtons and presenting a line graph." (UK NC Y5 friction; working scientifically — line graphs)
+- **Hook:** "Why is a sledge full of friends so much harder to pull than an empty one — even on the same snow?"
+- **Key activity:** Retrieve Year 2's surface test in one minute. New question: does a heavier object need more force to drag? Pairs drag a shoe (or a tray) across the same surface at a steady speed with a newton meter, adding 100 g masses one at a time; repeat each reading three times; plot force against mass on a line graph and describe the pattern.
+- **Check for understanding:** "Use your graph to predict the force needed with one more mass than you tested, and explain why a loaded sledge is harder to pull than an empty one." → A prediction that continues the pattern; more weight presses the surfaces together harder, so there is more friction to overcome
+- **Differentiation:** support: two surfaces and three masses only, with axes pre-drawn. / stretch: explain why the reading must be taken while the shoe is moving steadily, not as it starts.
+- **Materials:** a shoe or tray, newton meters (0–10 N), 100 g masses, one surface, results table, graph paper.
+- **Joy:** "Sledge-pull challenge" — predict then measure the force to drag a friend-loaded play mat.
 
 ### Lesson 45 — Levers
 - **Duration:** 40 min
@@ -526,8 +526,8 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Duration:** 40 min
 - **Objective:** "By the end, I can build a pulley system and explain how more pulleys reduce the effort needed." (UK NC Y5 mechanisms — pulleys)
 - **Hook:** Photo of a construction crane: "How can it lift a steel beam?"
-- **Key activity:** Build single and double pulleys with cotton reels and string; measure effort with newton meters; compare.
-- **Check for understanding:** "What is the trade-off when you use two pulleys to halve the force?" → You have to pull twice as much rope (a longer distance).
+- **Key activity:** Build a single fixed pulley (it changes the direction of the pull but not its size) and then a movable pulley where two lengths of string hold the load; measure effort with newton meters; compare and discuss why the readings are not exactly half (friction and the pulley's own weight).
+- **Check for understanding:** "When two strings hold the load, the effort is about half. What is the trade-off?" → You have to pull twice as much string (twice the distance) to lift the load the same height.
 - **Differentiation:** support: pre-built pulley frames. / stretch: predict the force needed with four supporting ropes.
 - **Materials:** cotton reels or pulley kits, string, frames, masses, newton meters.
 - **Joy:** "Castle drawbridge" pulley model.
@@ -637,7 +637,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Objective:** "By the end, I can compare the life cycles of different animal groups and describe the work of a naturalist." (UK NC Y5 life cycles — compare; naturalists)
 - **Hook:** Jane Goodall watched chimpanzees in Gombe, Tanzania, for decades: "What can you learn by patient watching?"
 - **Key activity:** Comparison table (mammal, amphibian, insect, bird); read about Jane Goodall and David Attenborough; children practise a 10-minute naturalist observation of a local animal (birds, snails, ants).
-- **Check for understanding:** "Name one similarity and one difference between the frog and bird life cycles." → Both begin with eggs; frogs undergo metamorphosis in water, birds hatch as small versions of the adult and are cared for.
+- **Check for understanding:** "Name one similarity and one difference between the frog and bird life cycles." → Both begin as eggs; frogs change body form completely (metamorphosis) and grow up in water, while birds grow into adults without metamorphosis and are usually fed and protected by their parents.
 - **Differentiation:** support: guided comparison table. / stretch: evaluate which life cycle gives the best chance of survival in a changing environment.
 - **Materials:** comparison tables, field notebooks, clipboards, hand lenses.
 - **Joy:** Outdoor naturalist observation.
@@ -646,7 +646,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Duration:** 40 min
 - **Objective:** "By the end, I can identify the parts of a flower and describe pollination and fertilisation." (UK NC Y5 reproduction in plants; NGSS 4-LS1-1)
 - **Hook:** Dissect a lily or tulip: "Where does a seed come from?"
-- **Key activity:** Careful dissection; label petals, stamens (anther and filament), carpel (stigma, style, ovary); pollen transfer by insects or wind (pollination), then pollen joins the egg cell (fertilisation) to make a seed.
+- **Key activity:** Retrieve Year 2's flower parts quickly; the new work is inside the carpel. Careful dissection; label petals, stamens (anther and filament), carpel (stigma, style, ovary), then cut the ovary open with a hand lens to find the ovules; pollen transfer by insects or wind (pollination), then pollen joins the egg cell (fertilisation) to make a seed.
 - **Check for understanding:** "What is the difference between pollination and fertilisation?" → Pollination is pollen moving to the stigma; fertilisation is when the pollen's cell joins the egg in the ovary to make a seed.
 - **Differentiation:** support: labelled diagram to match. / stretch: explain why flowers pollinated by wind (e.g. grasses) have no bright petals.
 - **Materials:** large flowers (lilies/tulips), tweezers, hand lenses, sticky tape, card. Safety: lily pollen stains and is toxic to cats; wash hands.
@@ -656,8 +656,8 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Duration:** 40 min
 - **Objective:** "By the end, I can investigate how seed shape affects dispersal distance." (UK NC Y5 reproduction in plants; working scientifically)
 - **Hook:** Sycamore spinners, dandelion clocks, burrs: "Why do plants want their seeds to travel?"
-- **Key activity:** Seed dispersal types (wind, animals, water, explosion); test paper models of winged seeds with a fan, measuring distance; record and conclude.
-- **Check for understanding:** "Why is it an advantage for seeds to travel away from the parent plant?" → Less competition for light, water and nutrients; new places to grow.
+- **Key activity:** Retrieve Year 2's dispersal types (wind, animals, water, explosion). New: a fair test — change the wing length of paper 'sycamore' models, keep the paper, paper-clip mass, fan setting and release height the same; measure distance travelled, repeat three times and find the mean; record and conclude.
+- **Check for understanding:** "Your longer-winged models travelled further. Explain why, and name two things you kept the same so you can trust the result." → Longer wings meet more air, so the seed falls more slowly and the fan carries it further; e.g. same paper-clip mass and same release height/fan distance
 - **Differentiation:** support: test two designs only. / stretch: control the fan distance and repeat for reliability.
 - **Materials:** seeds/fruit examples, paper, paper clips, fan, measuring tapes.
 - **Joy:** "Seed flight" competition.
@@ -667,7 +667,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Objective:** "By the end, I can describe asexual reproduction in plants and grow new plants from cuttings, bulbs, runners or tubers." (UK NC Y5 reproduction in plants — asexual)
 - **Hook:** "Can you grow a new plant without any seeds?"
 - **Key activity:** Plant spider-plant runners, potato pieces with eyes (tubers), onion bulbs; take mint or geranium cuttings; begin a growth record. Asexual reproduction makes plants identical to the parent.
-- **Check for understanding:** "Why are plants grown from cuttings identical to the parent, but plants from seeds are not?" → Cuttings come from one parent only; seeds come from two parents' cells combining, so they vary.
+- **Check for understanding:** "Why are plants grown from cuttings identical to the parent, but plants from seeds are not?" → A cutting is part of one parent, so it has exactly the same features; a seed forms when a pollen cell joins an egg cell (usually from two different plants), so the new plant is a mix and varies.
 - **Differentiation:** support: step picture guide. / stretch: explain one advantage and one disadvantage for farmers of growing crops asexually (e.g. bananas).
 - **Materials:** spider plant, potatoes, onions, mint, compost, pots, water.
 - **Joy:** A classroom "plant nursery" to take home.
@@ -766,7 +766,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 - **Duration:** 40 min
 - **Objective:** "By the end, I can choose a testable question and plan a fair investigation." (UK NC Y5 working scientifically — plan)
 - **Hook:** "What have you wondered about all year?"
-- **Key activity:** Sort questions into testable and not testable; choose one linked to the year's units (e.g. which ball bounces highest; does salt affect ice melting; which paper towel absorbs most); complete a planning sheet.
+- **Key activity:** Sort questions into testable and not testable; choose one linked to the year's units (e.g. does salt affect how fast ice melts; does canopy shape affect parachute fall time; does the length of a lever change the effort needed); complete a planning sheet.
 - **Check for understanding:** "What will you change, measure and keep the same?" → All three variable types identified correctly.
 - **Differentiation:** support: choose from 5 ready-made questions. / stretch: add repeats and plan a graph.
 - **Materials:** planning sheets, question cards.
@@ -825,7 +825,7 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 3. **Writes explained conclusions** — states what happened *and* why using scientific ideas, and evaluates. *See it:* parachute conclusion referring to air resistance.
 4. **Materials** — compares and groups materials by several properties and justifies uses with evidence. *See it:* chooses and justifies materials for a lunchbox using test results.
 5. **Changes** — separates mixtures by sieving, filtering, evaporating and magnets; classifies reversible and irreversible changes with evidence of new materials. *See it:* separates sand, salt and iron filings and explains each step.
-6. **Earth and space** — explains day and night, years, seasons (tilt) and Moon phases with models; describes the Solar System. *See it:* uses a globe and lamp to explain why it is night in Japan when it is morning in Europe.
+6. **Earth and space** — explains day and night, years, seasons (tilt) and Moon phases with models; describes the Solar System. *See it:* uses a globe and lamp to explain why it is night in Japan when it is midday in Europe.
 7. **Forces** — explains gravity (weight in newtons), air and water resistance, friction, and how levers, pulleys and gears help. *See it:* measures effort with and without a pulley and explains the difference.
 8. **Life cycles and reproduction** — compares life cycles of mammals, amphibians, insects and birds; describes sexual and asexual reproduction in plants. *See it:* labels a flower and explains pollination vs fertilisation.
 9. **Human development** — describes stages from birth to old age and reads a growth graph. *See it:* identifies growth spurts on a graph.
@@ -852,6 +852,6 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 
 **Sensitive content.** Human development and puberty (Unit 6) should follow the school's relationships and health education policy, with families informed and materials shared in advance.
 
-**Vertical links.** Year 3 introduced states of matter, circuits and classification; Year 4 builds dissolving, reversible change and controlled investigations on them. Year 5 builds on life cycles (inheritance and evolution), forces and measurement, and the full independent investigation.
+**Vertical links.** Year 2 taught magnetic materials, friction on different surfaces, shadows through the day, day and night, and flower parts, pollination and dispersal; Year 3 taught states of matter, circuits, conductors and insulators, and classification. Year 4 only *retrieves* those (a few minutes each) and spends its lessons on what is new: strength and absorbency, cooling curves, dissolving, separating, reversible and irreversible change, which way Earth spins, the Sun as a star, weight in newtons, friction and mass, fertilisation, and controlled investigations. Year 5 builds on life cycles (inheritance and evolution), forces and measurement, and the full independent investigation.
 
 **Cross-curricular links.** Maths (line graphs, averages, measures and time zones), English (explanation texts, *Cosmic* and *The Boy Who Harnessed the Wind*), geography (salt production, time zones, climate), computing (data loggers), art (Merian's illustrations, botanical drawing).
