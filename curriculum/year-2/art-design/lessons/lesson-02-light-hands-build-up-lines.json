@@ -77,8 +77,8 @@
       "kind": "hook",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        0,
+        3
       ],
       "goal": "Spark curiosity about why artists begin with pale ‘ghost lines’.",
       "note": "Keep it playful and process-focused. Do not imply the pale lines are errors.",
@@ -158,8 +158,8 @@
       "kind": "explain",
       "delivery": "ai",
       "timeboxMin": [
-        5,
-        6
+        3,
+        8
       ],
       "goal": "Teach the single new idea: draw lightly first, then darken only the lines to keep.",
       "note": "Use the formal element of line. Focus on pressure and sequence, not on shading or tone.",
@@ -339,8 +339,8 @@
       "kind": "example",
       "delivery": "ai",
       "timeboxMin": [
-        5,
-        6
+        8,
+        13
       ],
       "goal": "Model the process on a simple object: cup outline from wobbly light lines to chosen dark lines.",
       "note": "This is the worked demonstration before the child draws. Keep it observational: big shape first, details later.",
@@ -371,8 +371,8 @@
       "kind": "check",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        13,
+        16
       ],
       "goal": "Check understanding of why artists draw lightly first.",
       "note": "This is the lesson’s key concept check. The app will report whether the learner chose correctly.",
@@ -425,8 +425,8 @@
       "kind": "practice",
       "delivery": "human",
       "timeboxMin": [
-        10,
-        12
+        16,
+        27
       ],
       "goal": "Learner draws one real object using light build-up lines, then darkens the keeper lines.",
       "note": "This is the heart of the lesson. Most time should be spent drawing. Encourage slow looking and gentle pressure.",
@@ -482,53 +482,53 @@
       "kind": "recap",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        27,
+        30
       ],
-      "goal": "Consolidate the method and end with an earned win.",
-      "note": "Celebrate process evidence: light lines, changes, and chosen dark lines.",
-      "successCriteria": "Learner can state the sequence and identify one place where ghost lines helped.",
+      "goal": "Assess the real drawing: the learner points to a ghost line and a keeper line and explains why they kept it; then consolidate the method.",
+      "note": "Assessment is of the drawing itself. Accept any reason that ties the keeper choice to looking at the object (“it matched the side of the cup”). Finish with process praise.",
+      "successCriteria": "Learner identifies at least one pale build-up line and one darkened keeper line in their own drawing and gives a looking-based reason for the keeper choice.",
       "script": {
-        "say": "You used a real sketchbook habit today: try lightly, look again, then commit. Your ghost lines are not a mistake — they show your artist brain working. Earned win: you made a cleaner, more confident drawing by starting softly.",
-        "adaptHints": "Refer to a specific visible success if known: ‘I can see where you chose the side line’ or ‘Your dark rim line looks confident because you tested it first.’"
+        "say": "Hold your drawing up next to the real object. Show me one pale ghost line and one dark keeper line. Why did you choose that line to keep? What did you notice when you looked again?",
+        "adaptHints": "Use the learner’s own object words (rim, handle, corner, edge). If they chose well, name the looking: “You checked the real cup and picked the line that matched — that is exactly what artists do.”"
       },
       "blocks": [
         {
-          "type": "fillBlank",
-          "text": "Artists draw lightly first so they can ___ the shape before darkening the keeper lines.",
-          "answer": "fix",
-          "wordBank": [
-            "fix",
-            "hide",
-            "rush",
-            "forget"
-          ]
+          "type": "speak",
+          "prompt": "Point to a pale ghost line and a dark keeper line in your drawing. Why did you keep that one?"
+        },
+        {
+          "type": "keyTerm",
+          "term": "keeper line",
+          "definition": "The line an artist chooses to darken because it best matches what they see.",
+          "example": "I kept the second line for the side of my cup because it was straight like the real cup."
         }
       ],
       "check": {
-        "question": "Artists draw lightly first so they can ___ the shape before darkening the keeper lines.",
-        "expectedAnswer": "fix",
+        "question": "Point to a pale ghost line and a dark keeper line in your drawing. Why did you keep that one?",
+        "expectedAnswer": "Identifies a pale build-up line and a darkened keeper line in their own drawing, with a reason based on looking — e.g. “I kept this one because it matched the side of the real cup.”",
         "wrongAnswers": [
           {
-            "answer": "hide",
-            "why": "Light lines are not for hiding the drawing; they are for testing and improving it.",
-            "remedy": "Say: ‘The artist still needs to see the light lines to choose the best ones.’"
+            "answer": "“I darkened all of them.”",
+            "why": "Went over every line, so no choosing happened — the drawing loses the light-first advantage.",
+            "remedy": "Say: “Next time we will choose.” Put the object back in view and ask which ONE line matches best; darken just that one now if there is room, or do a tiny corner test."
           },
           {
-            "answer": "rush",
-            "why": "Build-up lines slow the artist down enough to look carefully.",
-            "remedy": "Prompt the sequence: ‘Look, light line, look again, darken.’"
+            "answer": "Points to the lines but the reason is “because it looks nice / because I like it”.",
+            "why": "Choosing by taste rather than by looking at the object.",
+            "remedy": "Ask: “Hold it next to the real object — which line matches the real edge best?” Then have them say the reason again using the object."
           },
           {
-            "answer": "forget",
-            "why": "A sketchbook helps artists record and remember their experiments.",
-            "remedy": "Connect to sketchbook purpose: ‘We keep the tries because they show learning.’"
+            "answer": "“There aren’t any ghost lines — I pressed hard from the start.”",
+            "why": "The light-first habit has not transferred to independent drawing yet.",
+            "remedy": "Praise the honesty. Do three feather-light test lines together at the side of the page, then redraw one edge light-first and choose a keeper."
           }
         ]
       },
       "stuckProtocol": [
-        "Give the sentence starter: ‘I drew ghost lines because…’",
-        "Ask the learner to point to one pale line and one keeper line in their drawing."
+        "Narrow it: “Put your finger on the palest line you can see.” Then: “Now the darkest one.”",
+        "Give the sentence starter: ‘I kept this line because…’",
+        "If nothing was chosen, do a 1-minute corner redo together: ghost lines, look, pick one, darken it."
       ]
     }
   ],
@@ -537,7 +537,7 @@
     "stretch": "Draw two simple objects overlapping, such as a cup in front of a box. Use light build-up lines to find both shapes, then darken only the visible keeper outlines, leaving hidden overlap lines pale."
   },
   "extension": "Make a tiny ‘before and after’ corner in the sketchbook: one pale ghost-line version and one dark keeper-line version of the same object, labelled ‘light first’ and ‘keepers’.",
-  "assessmentEvidence": "Look for a sketchbook drawing that shows pale build-up lines, a darker selected outline, and the learner’s verbal explanation that drawing lightly helps fix the shape before committing.",
+  "assessmentEvidence": "The learner’s own drawing shows pale build-up lines and a darker selected outline (not every line darkened), and the learner can point to a ghost line and a keeper line and explain the keeper choice by comparing with the real object.",
   "revisitLater": "Next lesson, revisit light build-up lines before adding details or mark-making textures, so learners keep the habit of big shape first, details after.",
   "format": "classai-lesson/1",
   "id": "y2-art-design-u1-l02",
@@ -678,6 +678,11 @@
           "answer": "False",
           "why": "The learner may think all drawing lines should be strong straight away.",
           "remedy": "Remind them: the first lines are for testing, and the darker lines come later."
+        },
+        {
+          "answer": "False — light lines are for the final drawing",
+          "why": "Mixing up the job of light lines (searching) with keeper lines (showing).",
+          "remedy": "Say: “Light lines search, keeper lines show.” Point to one of each on the demo cup."
         }
       ],
       "hints": [
@@ -1156,11 +1161,12 @@
       "reteach": {
         "say": "An artist self-check is not just ‘good’ or ‘bad’. It names the habit you used. Today’s habit is: light first, darken keepers later.",
         "block": {
-          "type": "sentenceFrames",
-          "frames": [
-            "First I used ___ lines.",
-            "Then I darkened the ___ lines.",
-            "Next time I will ___ before using fine-liner."
+          "type": "steps",
+          "title": "Artist self-check — finish each sentence",
+          "steps": [
+            "First I used ___ lines. (light / ghost / build-up)",
+            "Then I darkened the ___ lines. (keeper / best)",
+            "Next time I will ___ before using fine-liner. (look again / fix the shape)"
           ]
         }
       },
@@ -1298,6 +1304,11 @@
           "answer": "True",
           "why": "The learner may think pressing harder will fix the wobble, but it usually makes the mistake more visible.",
           "remedy": "Model the phrase: “Don’t panic-darken. Softly search again.”"
+        },
+        {
+          "answer": "True — but only if it looks really wobbly",
+          "why": "Still believes a wobbly line must be fixed by pressing harder, rather than by adding another light line.",
+          "remedy": "Ask: “What would make it easier to change later — a soft line or a hard one?” Add a second light line beside the wobbly one and choose later."
         }
       ],
       "hints": [
@@ -1393,6 +1404,6 @@
       "Celebrate ghost lines as useful thinking lines, not mistakes."
     ],
     "personalization": "Swap the object in prompts for a simple interest-based object the child can imagine or see, such as a toy car, football, shell, trainer, mug, game controller, or favourite soft toy. Keep the same art facts: light pencil first, fine-liner only on keeper lines.",
-    "endOnSuccess": "Finish with an easy win: ask the learner to complete the sentence, “I draw lightly first so I can ___ before I darken the keeper lines.” Accept “fix the shape” or similar, then praise the process: careful looking, soft pressure, and smart choosing."
+    "endOnSuccess": "Finish with an earned win on the real drawing: the learner points to one keeper line they chose well and says why (“it matched the real cup”). Then praise the process: careful looking, soft pressure, and smart choosing."
   }
 }
