@@ -26,13 +26,19 @@ scores and reflect afterwards. Each Key activity says what the adult and the chi
 outdoors, checking the space for hazards, and a cool-down. Materials lists include specific safety
 notes. Any child with a medical condition follows their care plan.
 
-**What we assume from Year 5 (ages 10–11):** fundamental movement skills secure; basic skills and
-rules in invasion, net/wall and striking/fielding games; running, jumping and throwing; simple dance
-and gymnastic sequences; swimming 25 m and basic self-rescue; knowledge of healthy eating, sleep,
-hygiene and body safety; first steps in managing emotions. **What Year 6 adds:** components of fitness
-and training principles; tactics and decision-making; technique refinement in athletics; composing
-and performing longer dance and gymnastic sequences; orienteering; age-appropriate puberty, mental
-health, substances and first-aid education; leadership and officiating. **What secondary relies on:**
+**What we assume from Years 4 and 5:** fundamental movement skills secure; components of fitness,
+warm-ups, heart rate, reaction time and the talk test; invasion and net/wall games (badminton,
+volleyball, short tennis); gymnastics with partner counter-balances (Year 4), inverted balances, the
+cartwheel and turning jumps (Year 5); dance from Bollywood, capoeira and samba (Year 4) to flamenco,
+West African dance, hip hop and tī rākau (Year 5); running, jumping and throwing; swimming 25 m,
+'Float to Live', rip currents and 'call, reach, throw, don't go'; map-making and orienteering with
+bearings; puberty, hygiene, sleep, nutrition and mental health; the primary survey, emergency call and
+recovery position. **What Year 6 adds:** training principles (FITT, overload, specificity,
+reversibility) and training zones; tactics and decision-making; **striking and fielding games (new
+this year)**; technique refinement and video analysis in athletics; longer dance and gymnastic
+compositions with vaulting and group balances; real orienteering maps and route choice; first aid for
+asthma, allergic reactions, CPR, choking, bleeding and burns; substances and peer pressure; leadership
+and officiating. **What secondary relies on:**
 confident participation, understanding of fitness and tactics, and healthy habits that survive the
 move to a bigger school.
 
@@ -76,8 +82,8 @@ terms as your climate requires.)
 - **Duration:** 45 min
 - **Objective:** "By the end, I can measure my heart rate at rest and after exercise and explain what the change shows." (UK KS3 PE; SHAPE Std 3; Science link)
 - **Hook:** "Your heart is a muscle. What happens to it when you sprint?"
-- **Key activity:** Find the pulse (wrist or neck) and count for 15 seconds × 4; record resting heart rate; do 2 minutes of light, then moderate, then vigorous exercise, measuring after each; measure recovery after 1, 2 and 3 minutes; plot a graph (Maths link); estimate maximum heart rate (roughly 220 − age, a rough guide only).
-- **Check for understanding:** "Why does your heart rate go up during exercise, and what does a quick recovery suggest?" → Muscles need more oxygen, so the heart pumps faster; a fast recovery suggests good cardiovascular fitness.
+- **Key activity:** Quick retrieval of pulse-taking (Year 5 science and PE). New: recovery rate and training zones — record resting heart rate; do 2 minutes each of light, moderate and vigorous exercise; measure recovery after 1, 2 and 3 minutes and plot a recovery graph (Maths link); estimate maximum heart rate (roughly 220 − age, a rough guide only) and calculate a moderate training zone (about 60–80% of it); try to keep your heart rate in the zone during a 5-minute jog.
+- **Check for understanding:** "Your estimated maximum is 208 beats per minute. What is 70% of it, and why do training plans use zones rather than 'as hard as possible'?" → About 146 bpm; working in a zone lets you exercise long enough to build fitness safely, rather than tiring out quickly.
 - **Differentiation:** support: a partner counts the pulse or a heart-rate monitor is used / stretch: compare recovery rates and suggest why they differ
 - **Materials:** stopwatches, heart-rate monitors (optional), graph paper; safety: children stop if dizzy or unwell
 - **Joy:** Seeing your own heart-rate graph
@@ -260,7 +266,7 @@ terms as your climate requires.)
 
 **Essential question:** How can I look after my body and mind as I grow up, and help others in an emergency?
 
-**Key vocabulary:** puberty, hormones, hygiene, nutrients, balanced diet, free sugars, hydration, sleep, circadian rhythm, mental health, wellbeing, stress, anxiety, coping strategies, peer pressure, drugs, alcohol, nicotine, vaping, medicines, consent, first aid, DRSABC, recovery position, CPR, choking
+**Key vocabulary:** puberty, hormones, hygiene, nutrients, balanced diet, free sugars, hydration, sleep, circadian rhythm, mental health, wellbeing, stress, anxiety, coping strategies, peer pressure, drugs, alcohol, nicotine, vaping, medicines, consent, first aid, DRSABC, recovery position, asthma, anaphylaxis, auto-injector, CPR, choking
 
 ### Lesson 19 — Balanced diet and energy
 - **Duration:** 40 min
@@ -332,15 +338,15 @@ terms as your climate requires.)
 - **Materials:** scenario cards, refusal-strategy poster
 - **Joy:** Role-play "the confident no"
 
-### Lesson 26 — First aid: DRSABC and the recovery position
+### Lesson 26 — First aid: DRSABC, asthma and allergic reactions
 - **Duration:** 45 min
-- **Objective:** "By the end, I can use the DRSABC approach to assess a casualty and place someone in the recovery position." (UK KS3 Health Education — basic first aid; NHES Std 7)
-- **Hook:** "Someone collapses in the park. What are the first three things you do?"
-- **Key activity:** DRSABC: Danger, Response, Send for help (know your local emergency number — e.g. 112 in the EU and many other countries, 911 in North America, 999 in the UK), Airway, Breathing, CPR; practise the recovery position in pairs on mats.
-- **Check for understanding:** "Why do we check for danger before helping?" → So the helper doesn't become a second casualty.
-- **Differentiation:** support: a picture flowchart / stretch: explain why the recovery position keeps the airway open
-- **Materials:** mats, DRSABC flowchart, emergency-number cards; safety: gentle practice, supervised
-- **Joy:** "First-aid champion" certificate
+- **Objective:** "By the end, I can use DRSABC to assess a casualty and know how to help someone having an asthma attack or a severe allergic reaction." (UK KS3 Health Education — basic first aid; NHES Std 7)
+- **Hook:** "Your friend is wheezing and can't finish a sentence after running. Another friend's lips swell after eating a snack. What do you do?"
+- **Key activity:** Quick practical retrieval of Year 5's primary survey and recovery position, now as the full DRSABC: Danger, Response, Send for help (know your local emergency number — e.g. 112 in the EU and many other countries, 911 in North America, 999 in the UK), Airway, Breathing, CPR. New: asthma attack (help them sit upright and stay calm, help them use their own reliever inhaler as their asthma plan says, get an adult, call emergency services if it doesn't improve or they are very unwell); severe allergic reaction/anaphylaxis (call emergency services straight away, get an adult, help them use their own adrenaline auto-injector if they have one, keep them still — sitting up if breathing is hard). Scenario practice with trainer devices only.
+- **Check for understanding:** "Why should you call for help immediately for a swollen face and difficulty breathing after eating, rather than waiting to see if it gets better?" → It may be anaphylaxis, which can get worse very quickly and affect breathing; the adrenaline and emergency help are needed fast.
+- **Differentiation:** support: a picture flowchart for each emergency / stretch: explain why the recovery position keeps the airway open, and find out where your school keeps spare inhalers and auto-injectors
+- **Materials:** mats, DRSABC flowchart, emergency-number cards, trainer (needle-free) auto-injector and a spacer device if available; safety: gentle practice, supervised; never use anyone's real medicine. **Parent note:** a good moment for families to share any care plans.
+- **Joy:** "First-aid champion" scenario relay
 
 ### Lesson 27 — First aid: CPR, choking, bleeding and burns
 - **Duration:** 45 min
@@ -392,25 +398,25 @@ terms as your climate requires.)
 - **Materials:** music, formation cards, a tablet to film
 - **Joy:** Watching the canon ripple on video
 
-### Lesson 31 — Dance from around the world: Bollywood
+### Lesson 31 — Kathak meets contemporary: Akram Khan
 - **Duration:** 45 min
-- **Objective:** "By the end, I can perform a short Bollywood-style routine with characteristic hand gestures, footwork and expression." (UK KS3 PE — dance from different cultures; SHAPE Std 1)
-- **Hook:** Bollywood film dance clips: "Why is dance so central in Indian cinema?"
-- **Key activity:** Learn key moves (e.g. "screw the light bulb", "pat the dog", shoulder shimmies) and mudra-inspired hand gestures; a short routine to a Bollywood song; discuss its roots in Indian classical and folk dance.
-- **Check for understanding:** "How does facial expression add to a Bollywood performance?" → It tells the story and shows emotion, just as much as the movements do.
-- **Differentiation:** support: fewer moves repeated more / stretch: add a section in canon
-- **Materials:** Bollywood music, video examples, open space
-- **Joy:** Performing with energy and big smiles
+- **Objective:** "By the end, I can perform a phrase using kathak-inspired spins, footwork and gesture and explain how Akram Khan fuses kathak with contemporary dance." (UK KS3 PE — dance from different cultures; SHAPE Std 1)
+- **Hook:** Retrieve Year 4's Bollywood routine for one minute, then watch a clip of Akram Khan: "Bollywood borrowed from classical Indian dance. What happens when a classical dancer meets contemporary dance?"
+- **Key activity:** Kathak (a North Indian classical storytelling dance): rhythmic footwork counted in syllables (e.g. "ta thei thei tat"), fast spins (*chakkars*) spotting a point, hand gestures; Akram Khan (British choreographer of Bangladeshi heritage) combines these with contemporary floor work and weight; groups create an 8-count phrase that fuses one kathak element with one contemporary element.
+- **Check for understanding:** "Name one kathak element and one contemporary element in your phrase, and explain what the fusion adds." → e.g. a chakkar spin and a slow fall to the floor — the contrast of speed and weight creates drama.
+- **Differentiation:** support: footwork and gestures only, no spins / stretch: add a sequence of three chakkars with spotting and a controlled stop
+- **Materials:** video clips (kathak and Akram Khan), recorded tabla bols, open space; safety: bare feet or suitable shoes, spotting technique taught before spins, stop if dizzy
+- **Joy:** The spin-and-freeze finish
 
-### Lesson 32 — Dance from around the world: capoeira movement
+### Lesson 32 — South African gumboot dance
 - **Duration:** 45 min
-- **Objective:** "By the end, I can perform basic capoeira-inspired movements (ginga, esquiva) in the roda with rhythm and control." (UK KS3 PE — dance; SHAPE Std 1)
-- **Hook:** "A Brazilian art that is part dance, part martial art, part music — created by enslaved Africans in Brazil."
-- **Key activity:** History (African roots, Brazil); the *ginga* (rocking base step), *esquiva* (dodge) and non-contact kicks performed slowly with control; form a *roda* (circle) with clapping and songs; pairs "play" without contact.
-- **Check for understanding:** "Why is the *ginga* so important in capoeira?" → It keeps you constantly moving and balanced, ready to attack or dodge; it's the base of everything else.
-- **Differentiation:** support: ginga and one dodge only / stretch: add a cartwheel (*aú*) where safe
-- **Materials:** capoeira music (berimbau), open space, mats for cartwheels; safety: no contact, controlled kicks, spacing
-- **Joy:** The *roda* with clapping and singing
+- **Objective:** "By the end, I can perform a gumboot-style body-percussion routine in a group and explain how the dance began." (UK KS3 PE — dance; SHAPE Std 1)
+- **Hook:** "Miners in South Africa's gold mines were often forbidden to talk while working. How could boots and slaps become a language?"
+- **Key activity:** History: gumboot dance developed among Black migrant mine workers under harsh conditions (including under apartheid), using slaps, stamps and boot rhythms to communicate and entertain; links to Year 5's "Shosholoza" and Year 6 history. Learn a caller-led routine: stamps, boot and thigh slaps, claps, with call and response; groups add their own 4-count break.
+- **Check for understanding:** "Why is it important to know where gumboot dance came from, not just the steps?" → The rhythms carried meaning for workers in hard conditions; knowing the history lets us perform it respectfully rather than as a novelty.
+- **Differentiation:** support: stamp-and-clap pattern only / stretch: be the caller and lead the group's changes
+- **Materials:** wellington boots (optional — trainers work), recordings, open space; safety: controlled slaps, warm up ankles and knees
+- **Joy:** The final full-group rhythm, perfectly together
 
 ### Lesson 33 — Composing a group dance
 - **Duration:** 45 min
@@ -442,11 +448,11 @@ terms as your climate requires.)
 
 **Key vocabulary:** balance, counterbalance, counter-tension, weight transfer, roll, flight, take-off, landing, vault, symmetry, asymmetry, matching, mirroring, contrasting, sequence, extension, control
 
-### Lesson 35 — Balances: counterbalance and counter-tension
+### Lesson 35 — Balances: counterbalance, counter-tension and group balances
 - **Duration:** 45 min
-- **Objective:** "By the end, I can perform partner counterbalances (pushing) and counter-tension balances (pulling) safely and with control." (UK KS3 PE — gymnastics; SHAPE Std 1)
-- **Hook:** "Two people can balance in positions neither could hold alone. How?"
-- **Key activity:** Adult demonstrates safe grips; pairs explore counterbalances (leaning in, pushing) and counter-tension (leaning out, pulling); hold for 3 seconds with extension.
+- **Objective:** "By the end, I can perform counterbalances and counter-tension balances with a partner and a group balance of three or four, safely and with control." (UK KS3 PE — gymnastics; SHAPE Std 1)
+- **Hook:** "Year 4 balanced in pairs. Can four people build a balance where every person is essential?"
+- **Key activity:** Retrieve Year 4's partner counterbalances (leaning in, pushing) and counter-tension (leaning out, pulling) with safe grips; new: group balances of three or four (e.g. a central counter-tension with two supporting counterbalances), and bridging shapes over a partner; hold for 3 seconds with extension; exit safely.
 - **Check for understanding:** "What is the difference between counterbalance and counter-tension?" → Counterbalance: partners push against each other (leaning in); counter-tension: partners pull away from each other (leaning out).
 - **Differentiation:** support: low, stable balances with wide bases / stretch: balances on fewer points of contact or at different levels
 - **Materials:** mats, balance cards; safety: matched partners, mats, no stacking on backs, adult spotting
@@ -692,25 +698,25 @@ terms as your climate requires.)
 
 **Key vocabulary:** orienteering, map, key, orientate, compass, bearing, control point, route choice, contour, teamwork, leadership, risk assessment, water safety, rip current, float to live, cold-water shock, throw-don't-go
 
-### Lesson 57 — Orienteering: orientating the map
+### Lesson 57 — Orienteering with a real map: symbols and control descriptions
 - **Duration:** 45 min
-- **Objective:** "By the end, I can orientate a map to the ground and navigate a short course to find control points." (UK KS3 PE — outdoor and adventurous activities; Geography link)
-- **Hook:** "No phone, no GPS — just a map. Can you find all ten controls?"
-- **Key activity:** Map of the school grounds or park (Geography link — scale and symbols); orientate by features; a star course (return to the start between controls); a score course in pairs.
-- **Check for understanding:** "What does it mean to 'orientate' a map, and why does it help?" → Turn the map so its features line up with the real ones around you; then left on the map is left in real life.
+- **Objective:** "By the end, I can read a standard orienteering map (colours, symbols and control descriptions) and navigate a score course in a park." (UK KS3 PE — outdoor and adventurous activities; Geography link)
+- **Hook:** "No phone, no GPS — and this map is coloured in a strange way. Why is the forest white?"
+- **Key activity:** Retrieve orientating a map (Years 4–5). New: a real orienteering map of a local park (or one from the national orienteering federation) — standard colours (white = easy-to-run forest, green = thick vegetation, yellow = open ground, brown contours), symbols and pictorial control descriptions (e.g. 'boulder, north side'); a score course in pairs, choosing the order of controls.
+- **Check for understanding:** "On an orienteering map, why is running through green slower than through white, and how does that change your route?" → Green shows thick vegetation that slows you down, so a longer route through white or yellow can be quicker.
 - **Differentiation:** support: pairs with an adult nearby and fewer controls / stretch: a longer line course with route choices
 - **Materials:** site maps, control markers and punches or codes, stopwatches; safety: boundaries, meeting point, whistles, pairs
 - **Joy:** The orienteering race
 
-### Lesson 58 — Compass skills
+### Lesson 58 — Navigation: route choice, contours and pacing
 - **Duration:** 45 min
-- **Objective:** "By the end, I can use a compass to find north, take a simple bearing and follow it." (UK KS3 PE — OAA; Geography and Maths link — angles)
-- **Hook:** "Explorers crossed deserts and oceans with a needle that points north."
-- **Key activity:** Parts of a baseplate compass; find north; set and walk a bearing (e.g. 90°, 30 paces) around a course of cones; compass "treasure hunt".
-- **Check for understanding:** "If you walk on a bearing of 90°, which direction are you going?" → East.
-- **Differentiation:** support: the four cardinal directions only / stretch: follow a three-leg bearing course and return to the start
-- **Materials:** baseplate compasses, cones, bearing cards; safety: clear, bounded space
-- **Joy:** Compass treasure hunt
+- **Objective:** "By the end, I can choose between routes using contours and terrain, and combine a compass bearing with pace-counting to reach a control." (UK KS3 PE — OAA; Geography and Maths link — contours and distance)
+- **Hook:** "The straight line is the shortest route. Is it always the fastest?"
+- **Key activity:** Retrieve bearings (Year 5 geography and PE). New: measure your pace count for 100 m (Maths link); read contours on the orienteering map (Geography Lesson 5) to spot hills and valleys; for each leg compare a direct route with a longer path or 'handrail' route and decide; run the course with a partner, logging the choices and splits.
+- **Check for understanding:** "Why might the longer route round a hill be faster than going straight over it?" → Climbing steep ground (close contours) or crossing rough terrain slows you much more than the extra distance on a flat path.
+- **Differentiation:** support: two route choices marked for each leg / stretch: a leg with no path, using only bearing and pace count
+- **Materials:** orienteering maps, baseplate compasses, tape measure for pace counting, stopwatches; safety: bounded area, pairs, whistles, meeting time
+- **Joy:** "Route-choice debrief" — which pair chose best?
 
 ### Lesson 59 — Team problem solving
 - **Duration:** 45 min
@@ -722,14 +728,14 @@ terms as your climate requires.)
 - **Materials:** mats or carpet squares, blindfolds, a tarp, cones, rope; safety: supervision, soft surfaces
 - **Joy:** Cracking the hardest challenge together
 
-### Lesson 60 — Water safety: understanding the dangers
+### Lesson 60 — Water safety: rivers, lakes, tides and ice
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the main dangers of open water (cold-water shock, rip currents, hidden hazards) and the actions that keep people safe." (UK KS3 PE — water safety; NHES Std 7)
+- **Objective:** "By the end, I can assess the risks of a real local waterside place (river, lake, coast or frozen water) and plan how to enjoy it safely." (UK KS3 PE — water safety; NHES Std 7)
 - **Hook:** "Most drownings happen to people who never meant to be in the water."
-- **Key activity:** Water-safety messages (e.g. from the RNLI, Royal Life Saving Society or national lifesaving organisations): swim at lifeguarded places between the flags; cold-water shock and "Float to Live" (lean back, extend arms and legs, float until breathing is under control); how to spot and escape a rip current (swim parallel to the shore); call for help; "throw, don't go" to help others.
-- **Check for understanding:** "If you're caught in a rip current, what should you do?" → Don't fight it by swimming straight back; float, then swim parallel to the shore until free, and raise an arm to call for help.
-- **Differentiation:** support: picture cards for each message / stretch: design a water-safety poster for a local beach, river or lake
-- **Materials:** water-safety resources and videos, flag images, rope or throw bag
+- **Key activity:** Two-minute retrieval of Year 5's messages (Float to Live, rip currents, 'call, reach, throw, don't go'). New: hazards of different places — rivers (strong, unseen currents; cold water even in summer; steep, slippery banks), lakes and quarries (sudden depth, very cold water), coasts (tides that cut people off, checking tide times), frozen water (never walk on ice; if someone falls through, call emergency services and reach from the bank — don't go onto the ice); pupils risk-assess a photo of a real local spot and write a safety plan for a family day out.
+- **Check for understanding:** "Why can a river be dangerous even on a hot day when the surface looks calm?" → The water can be very cold below the surface and currents can be strong and hidden, so cold-water shock and being swept away are real risks.
+- **Differentiation:** support: picture cards for each hazard / stretch: design a water-safety sign for a specific local river, lake or beach
+- **Materials:** water-safety resources (e.g. RNLI, Royal Life Saving Society or national lifesaving organisations), photographs of local waterside places, tide tables, rope or throw bag
 - **Joy:** "Throw bag" accuracy challenge (on land)
 
 ### Lesson 61 — Swimming and self-rescue (pool session)
@@ -867,7 +873,7 @@ terms as your climate requires.)
 4. **Composes and performs:** a group dance and a partner gymnastics sequence with control and choreographic/gymnastic devices. *See it:* the showcases.
 5. **Navigates and stays safe outdoors and near water:** orienteering, compass bearings, "Float to Live", rip-current escape, self-rescue. *See it:* the orienteering course and water-safety explanation.
 6. **Knows how to stay healthy:** balanced diet, sleep, hygiene, puberty as normal, mental-health strategies, risks of substances. *See it:* the personal health plan.
-7. **Can give first aid:** DRSABC, recovery position, hands-only CPR, burns and bleeding. *See it:* the first-aid practical.
+7. **Can give first aid:** DRSABC, recovery position, helping with asthma and severe allergic reactions, hands-only CPR, burns and bleeding. *See it:* the first-aid practical.
 8. **Leads others:** plans, adapts (STEP) and leads an inclusive activity and officiates fairly. *See it:* the sports festival.
 
 ## Teacher guidance
@@ -877,5 +883,5 @@ terms as your climate requires.)
 - **Inclusion.** Adapt with STEP; celebrate personal bests over rankings; keep fitness results private; offer choice of activities; respect cultural and religious needs (clothing, fasting periods, mixed-gender activities) in consultation with families.
 - **Health education is sensitive.** Inform parents before puberty and substances lessons; use an anonymous question box; answer factually and age-appropriately; signpost trusted adults and helplines; never single out a child; be alert to safeguarding disclosures and follow your safeguarding procedure.
 - **Common misconceptions:** stretching cold muscles prevents injury (warm up first); more sweat means more fat burned; you have to be "sporty" to be fit; sports drinks are needed for ordinary exercise (water is usually enough); vaping is harmless water vapour; you can swim your way out of a rip current by heading straight for the shore; a person having a seizure should have something put in their mouth (never do this).
-- **Vertical alignment.** Year 5 secured sports skills, basic rules, swimming 25 m and core health knowledge; Year 6 adds fitness science, tactics, technique analysis, composition, navigation, first aid, puberty and substances education, and leadership — preparing children for secondary PE (UK Year 8 / US Grade 7 / MYP 2) and a healthy adolescence.
+- **Vertical alignment.** Year 5 secured sports skills and rules, gymnastics rotation, new dance traditions, open-water safety, orienteering with bearings, puberty and the primary survey; Year 6 adds training principles, striking and fielding, tactics, technique analysis, composition, real-map navigation, first aid for asthma, allergy and CPR, substances education, and leadership — preparing children for secondary PE (UK Year 8 / US Grade 7 / MYP 2) and a healthy adolescence.
 - **Cross-curricular links:** Science (heart rate, energy, forces in sport), Maths (heart-rate graphs, points tables, fixtures, bearings), Geography (maps and orienteering), Life Skills (resilience, wellbeing, leadership and the graduation capstone), Music (dance and rhythm).

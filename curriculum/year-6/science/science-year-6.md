@@ -18,8 +18,12 @@ concluding and evaluating. Every unit has at least one full investigation.
 
 **What we assume from Year 5 (ages 10–11, UK Y6 / US Grade 5):** classification of living things,
 the human circulatory system, inheritance, adaptation and evolution with fossil evidence, light
-travelling in straight lines and how we see, electrical circuits (voltage, brightness, symbols), and
-a first complete controlled investigation. From earlier years: states of matter, reversible and
+travelling in straight lines and how we see, electrical circuits (voltage, brightness, symbols,
+resistance), the particle model of solids, liquids and gases, signs of chemical reaction and
+conservation of mass, Earth's atmosphere, the carbon cycle and the greenhouse effect, and a first
+complete independent investigation. Where Year 6 returns to these (particles, reactions, the
+atmosphere) it opens with a short retrieval and then goes deeper — word equations, pH,
+oxidation, the Keeling curve — rather than re-teaching. From earlier years: states of matter, reversible and
 irreversible changes, dissolving and separating by sieving/filtering/evaporating, forces (gravity,
 friction, air resistance), the Solar System, food chains and habitats, rocks and soils.
 
@@ -77,11 +81,11 @@ slides, and a digital kitchen scale reading to 0.1 g.
 ### Lesson 2 — Variables and fair tests
 - **Duration:** 40 min
 - **Objective:** "By the end, I can identify independent, dependent and control variables and plan a fair test." (UK KS3 Working Scientifically; NGSS SEP 3)
-- **Hook:** "Does warm water dissolve sugar faster? Two people tested it and got different answers. Why?"
-- **Key activity:** Plan the dissolving test together: independent (water temperature), dependent (time to dissolve), control (mass of sugar, volume of water, stirring, cup type); spot unfair tests in example plans.
-- **Check for understanding:** "In a test of how temperature affects dissolving, why must you use the same amount of stirring each time?" → Stirring also affects dissolving speed; if it varies, you can't tell whether the temperature caused the change.
-- **Differentiation:** support: a variables table with the independent variable filled in / stretch: explain why a control variable can't always be controlled completely (e.g. room temperature) and how to reduce its effect
-- **Materials:** sugar cubes, cups, thermometer, kettle (adult use), stopwatch, measuring jug
+- **Hook:** "Galileo is said to have timed a swinging cathedral lamp against his own pulse. Does a longer pendulum swing faster, slower or the same?"
+- **Key activity:** Plan a pendulum investigation together (new to this year — Year 4 already investigated dissolving speed): independent (string length), dependent (time for one swing), control (mass of the bob, release angle, same timer); discover why timing 10 swings and dividing by 10 is more accurate than timing one; spot unfair tests in example plans.
+- **Check for understanding:** "In a test of how string length affects swing time, why must you release the bob from the same angle each time — and why time 10 swings, not 1?" → If the angle changed as well, you couldn't be sure the length caused any difference; one swing is too short to time accurately with human reactions, so timing 10 and dividing spreads the reaction-time error over 10 swings.
+- **Differentiation:** support: a variables table with the independent variable filled in / stretch: explain why a control variable can't always be controlled completely (e.g. air movement) and how to reduce its effect
+- **Materials:** string, metal washers or a lump of modelling clay as the bob, tape, protractor, metre rule, stopwatch, a table edge or doorframe to hang from
 - **Joy:** "Unfair test detective" — spot the flaws in silly experiments
 
 ### Lesson 3 — Measuring, repeating and averaging
@@ -97,11 +101,11 @@ slides, and a digital kitchen scale reading to 0.1 g.
 ### Lesson 4 — Graphs, conclusions and evaluation
 - **Duration:** 45 min
 - **Objective:** "By the end, I can choose between a bar chart and a line graph, plot data accurately, write a conclusion and evaluate a method." (UK KS3 Working Scientifically; NGSS SEP 4)
-- **Hook:** "A graph is a picture of a pattern. What pattern will our dissolving data show?"
-- **Key activity:** Carry out the dissolving investigation planned in Lesson 2; plot a line graph (continuous independent variable); write a conclusion ("As… increases, … because…"); evaluate (What went wrong? How could we improve?). Include a simple risk assessment for hot water.
-- **Check for understanding:** "Why is a line graph right for temperature vs dissolving time, but a bar chart right for 'type of sugar' vs time?" → Temperature is continuous (values between the points exist); sugar type is categorical.
+- **Hook:** "A graph is a picture of a pattern. What pattern will our pendulum data show?"
+- **Key activity:** Carry out the pendulum investigation planned in Lesson 2 (five lengths, three repeats of 10 swings each); plot a line graph (continuous independent variable); write a conclusion ("As… increases, …"); evaluate (What went wrong? How could we improve?). Include a simple risk assessment (swinging masses, clear space).
+- **Check for understanding:** "Why is a line graph right for string length vs swing time, but a bar chart right for 'bob material' vs swing time?" → Length is continuous (values between the points exist); material is categorical.
 - **Differentiation:** support: axes pre-drawn and scaled / stretch: draw a line of best fit and use it to predict a value not tested
-- **Materials:** sugar, cups, thermometer, kettle (adult use), graph paper, rulers, safety goggles
+- **Materials:** pendulum kit from Lesson 2, stopwatches, graph paper, rulers, calculators
 - **Joy:** "Science lab licence" awarded after completing the first full investigation
 
 **End-of-unit check:** Plan a fair test for "Does the height of a ramp affect how far a toy car travels?", naming all three types of variable, a results table with units and repeats, the right type of graph, and one way to improve accuracy.
@@ -214,15 +218,15 @@ slides, and a digital kitchen scale reading to 0.1 g.
 
 **Key vocabulary:** particle model, solid, liquid, gas, melting point, boiling point, evaporation, condensation, sublimation, diffusion, gas pressure, density, pure substance, mixture, solute, solvent, solution, soluble, insoluble, saturated, filtration, evaporation, crystallisation, distillation, chromatography
 
-### Lesson 14 — The particle model
+### Lesson 14 — The particle model revisited: forces, expansion and limits
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use the particle model to describe the arrangement and movement of particles in solids, liquids and gases." (UK KS3 Chemistry — particulate nature of matter; NGSS MS-PS1-4)
-- **Hook:** "Why can you walk through air but not through a wall?"
-- **Key activity:** Children act as particles (tightly packed and vibrating; close but sliding; far apart and fast); draw particle diagrams; use marbles in a tray to model each state.
-- **Check for understanding:** "Why can a gas be squashed but a solid can't?" → Gas particles are far apart with space between them; solid particles are already touching.
-- **Differentiation:** support: particle-diagram templates to complete / stretch: explain why the particle model is a model, not a picture (particles aren't really coloured balls)
-- **Materials:** marbles, trays, syringes (sealed with air, water and sand to compare squashing)
-- **Joy:** "Human particles" drama in the playground
+- **Objective:** "By the end, I can use the particle model — including the forces between particles — to explain expansion, and say what the model gets wrong." (UK KS3 Chemistry — particulate nature of matter; NGSS MS-PS1-4)
+- **Hook:** "Railway tracks and bridges have gaps built in. Why would engineers leave gaps on purpose?"
+- **Key activity:** Five-minute retrieval of Year 5's solid/liquid/gas particle diagrams (no re-teaching). New: the attractive forces between particles; expansion when heated (ball-and-ring demo, or a balloon-topped bottle in warm water; a liquid thermometer as expansion in action); explain with particles vibrating more and moving slightly further apart — the particles themselves do not get bigger. Evaluate the model's limits with marbles in a tray.
+- **Check for understanding:** "A pupil says metal expands when heated because its particles get bigger. What is wrong, and what is the correct explanation?" → The particles stay the same size; they vibrate more and move slightly further apart, so the whole object takes up more space.
+- **Differentiation:** support: particle-diagram templates with 'before heating' and 'after heating' boxes / stretch: explain why the particle model is a model, not a picture (particles aren't coloured balls, and there is nothing — not even air — between them)
+- **Materials:** marbles, trays, ball-and-ring kit or a bottle with a balloon, bowl of warm water (adult), liquid thermometer, photographs of bridge expansion joints
+- **Joy:** "Expansion hunt" — spot expansion gaps in pavements, bridges and window frames on the way home
 
 ### Lesson 15 — Changes of state and heating curves
 - **Duration:** 45 min
@@ -277,9 +281,9 @@ slides, and a digital kitchen scale reading to 0.1 g.
 ### Lesson 20 — Dissolving and solubility
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain dissolving with particles, use the words solute, solvent and solution, and investigate how temperature affects solubility." (UK KS3 Chemistry; NGSS MS-PS1-2)
-- **Hook:** "When sugar dissolves, where does it go? Has it disappeared?"
-- **Key activity:** Weigh water and sugar before and after dissolving (mass is conserved); investigate how much salt or sugar dissolves in 100 ml at different temperatures until saturated; plot a solubility graph.
-- **Check for understanding:** "20 g of sugar dissolves in 100 g of water. What is the mass of the solution, and why?" → 120 g: the sugar particles spread between the water particles but are still there, so no mass is lost.
+- **Hook:** "Can you keep dissolving sugar in a cup of tea forever?"
+- **Key activity:** Quick retrieval of Year 5's mass-conservation result (20 g sugar + 100 g water → 120 g solution), now with the words solute, solvent and solution. New: add weighed spatulas of salt (or sugar) to 100 ml of water at different temperatures until no more dissolves (saturated); record the mass dissolved; plot a solubility graph and compare salt (changes little with temperature) with sugar (changes a lot).
+- **Check for understanding:** "At 20 °C, 100 g of water can hold about 200 g of sugar; at 60 °C it can hold about 290 g. What would you see if you cooled a saturated 60 °C solution to 20 °C, and why?" → Crystals would form: the cooler water can hold less sugar, so about 90 g comes out of solution.
 - **Differentiation:** support: a results table and guided steps / stretch: use a solubility graph to predict how much would crystallise out on cooling
 - **Materials:** digital scale, sugar, salt, measuring jug, thermometer, warm water (adult), stirring rods
 - **Joy:** "Sugar vanishing trick" with the mass reveal
@@ -348,10 +352,10 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can identify the signs of a chemical reaction (new substance, gas, colour change, temperature change, light) and distinguish it from a physical change." (UK KS3 Chemistry — chemical reactions; NGSS MS-PS1-2)
 - **Hook:** "Is baking a cake a physical or chemical change? What about melting chocolate?"
-- **Key activity:** Circus of changes: ice melting, bicarbonate of soda + vinegar, steel wool rusting (set up for a week), burning a candle, dissolving salt; record observations and decide; revisit reversible/irreversible from earlier years with the new vocabulary.
+- **Key activity:** Retrieval circus (Year 5 met the signs of reaction): ice melting, bicarbonate of soda + vinegar, burning a candle, dissolving salt; record and decide, now using the words physical and chemical change and explaining each with particles and atoms (the same particles rearranged in space vs atoms rearranged into new substances). Set up the steel-wool oxygen investigation for Lesson 32: damp steel wool pushed into the bottom of a measuring cylinder, inverted in a dish of water, water level marked.
 - **Check for understanding:** "When bicarbonate of soda and vinegar fizz, what evidence shows a chemical reaction?" → A gas (bubbles of carbon dioxide) is made — a new substance — and the temperature drops.
 - **Differentiation:** support: an observation grid with the signs listed / stretch: explain why dissolving is a physical change even though the solid "disappears"
-- **Materials:** ice, bicarbonate of soda, vinegar, steel wool, candle and matches (adult), salt, thermometer, goggles
+- **Materials:** ice, bicarbonate of soda, vinegar, steel wool (soap-free), measuring cylinder, shallow dish, marker pen, candle and matches (adult), salt, thermometer, goggles
 - **Joy:** "Change detectives" circus
 
 ### Lesson 27 — Word equations and conservation of mass
@@ -404,15 +408,15 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Materials:** tea lights, glass jars of different volumes, matches (adult), heat-proof mat, stopwatch, fire-safety posters, goggles
 - **Joy:** Plan the family's home fire-escape route (Life Skills link)
 
-### Lesson 32 — Oxidation and rusting investigation
+### Lesson 32 — Oxidation: how much of the air does rusting use?
 - **Duration:** 45 min
-- **Objective:** "By the end, I can conclude from a week-long investigation which conditions are needed for iron to rust and suggest ways to prevent it." (UK KS3 Chemistry — oxidation; NGSS MS-PS1-2)
-- **Hook:** "The Eiffel Tower is repainted about every seven years. Why?"
-- **Key activity:** Examine nails set up a week earlier in: air only (dry, with a drying agent such as salt or rice), boiled water with oil on top (no air), and water + air; and salt water + air; conclude that rust needs both water and oxygen; salt speeds it up; prevention methods (painting, oiling, galvanising).
-- **Check for understanding:** "Why is the nail in boiled water covered with oil not rusted?" → Boiling removes dissolved air and the oil stops more air getting in, so there's no oxygen.
-- **Differentiation:** support: pictures of the four tubes with the conditions labelled / stretch: explain why cars rust faster where roads are salted in winter
-- **Materials:** iron nails, test tubes or jars, cooking oil, salt, boiled (cooled) water, uncooked rice as drying agent
-- **Joy:** The "rust reveal" after a week
+- **Objective:** "By the end, I can explain rusting as oxidation with a word equation and use a week-long investigation to estimate the fraction of air that is oxygen." (UK KS3 Chemistry — oxidation; NGSS MS-PS1-2)
+- **Hook:** "The Eiffel Tower is repainted about every seven years. Why — and why has the water climbed up our measuring cylinder this week?"
+- **Key activity:** Brief retrieval of Year 4's rusting conditions (water + oxygen; salt speeds it up) — not repeated. New: read the steel-wool cylinder set up in Lesson 26 — the water has risen about one-fifth of the way because the iron used up the oxygen; calculate the percentage; write the word equation iron + oxygen + water → hydrated iron oxide (rust); compare with combustion as another oxidation; prevention (painting, oiling, galvanising, sacrificial zinc blocks on ships).
+- **Check for understanding:** "The water rose from the 100 ml mark to about the 80 ml mark. What does this tell you about air, and why did it stop rising?" → About 20% (one-fifth) of the air was oxygen, used up by the rusting iron; it stopped because the oxygen had run out and the remaining gas (mostly nitrogen) doesn't react with the iron.
+- **Differentiation:** support: a labelled diagram of the cylinder with a calculation frame / stretch: suggest why the result is usually a little under 21%, and explain why painted steel still rusts where the paint is scratched
+- **Materials:** the steel-wool cylinders from Lesson 26, rulers, calculators, rusty and galvanised nails to compare, photos of the Eiffel Tower and a ship's hull with zinc blocks
+- **Joy:** The "oxygen reveal" — measuring the risen water
 
 ### Lesson 33 — Unit 4 assessment: chemistry in the kitchen
 - **Duration:** 45 min
@@ -466,13 +470,13 @@ slides, and a digital kitchen scale reading to 0.1 g.
 
 ### Lesson 37 — Heating: conduction, convection and radiation
 - **Duration:** 45 min
-- **Objective:** "By the end, I can explain conduction, convection and radiation and investigate which materials are the best insulators." (UK KS3 Physics — heating and thermal equilibrium; NGSS MS-PS3-3)
-- **Hook:** "Which keeps a hot drink warm longest: a paper cup, a foam cup, a metal mug or a cup wrapped in a sock?"
-- **Key activity:** Fair test: cups of equal hot water (adult pours), different insulating wraps; measure temperature every 2 minutes for 20 minutes; plot cooling curves; explain insulation with particles.
-- **Check for understanding:** "Why is the metal mug the worst at keeping the drink hot?" → Metal is a good conductor; energy is transferred through it quickly to the surroundings.
-- **Differentiation:** support: axes pre-drawn and temperatures recorded with a partner / stretch: explain why trapped air is a good insulator (particles far apart, and convection is prevented)
-- **Materials:** identical cups, insulating materials (foil, wool, bubble wrap, cotton), thermometers, hot water (adult), stopwatch
-- **Joy:** "Design the ultimate flask" challenge
+- **Objective:** "By the end, I can explain conduction, convection and radiation with particles and investigate how surface colour affects heating by radiation." (UK KS3 Physics — heating and thermal equilibrium; NGSS MS-PS3-3)
+- **Hook:** "Why are so many houses in Greece and Morocco painted white?"
+- **Key activity:** Three quick demo stations (Year 4 already compared insulating wraps, so we go beyond it): conduction (metal, wooden and plastic spoons standing in hot water — which handle warms?), convection (a coloured ice cube melting in warm water), radiation. Then the investigation: two identical cans or jars of water, one black, one wrapped in shiny foil, under a lamp (or in sunshine); measure temperature every 2 minutes for 20 minutes; plot both heating curves on the same axes.
+- **Check for understanding:** "Your black can warmed faster. Use radiation to explain why, and why white walls help keep houses cool." → Dark, dull surfaces absorb more of the radiation that falls on them; white or shiny surfaces reflect more, so less energy is transferred into the house.
+- **Differentiation:** support: axes pre-drawn and temperatures recorded with a partner / stretch: explain why trapped air is a good insulator (its particles are far apart so it conducts poorly, and trapping it stops convection) and use all three ideas to explain a vacuum flask
+- **Materials:** identical cans or jars, black paint or paper, foil, thermometers, lamp or sunshine, metal/wooden/plastic spoons, hot water (adult), food colouring, ice-cube tray, stopwatch
+- **Joy:** "Design the ultimate flask" challenge using all three ideas
 
 ### Lesson 38 — Power, energy bills and saving energy
 - **Duration:** 40 min
@@ -657,22 +661,22 @@ slides, and a digital kitchen scale reading to 0.1 g.
 ### Lesson 54 — Interdependence and population changes
 - **Duration:** 40 min
 - **Objective:** "By the end, I can predict and explain how a change in one population affects others in a food web, using real examples." (UK KS3 Biology; NGSS MS-LS2-1, MS-LS2-4)
-- **Hook:** "When wolves were reintroduced to Yellowstone in 1995, rivers changed course. How?"
-- **Key activity:** Study the Yellowstone wolves case (a trophic cascade: fewer elk grazing by rivers → trees recover → banks stabilise); analyse predator–prey population graphs (lynx and snowshoe hare); predict changes in class food webs.
+- **Hook:** "When wolves were reintroduced to Yellowstone in 1995–96, some people claimed they even changed the rivers. Could that be true?"
+- **Key activity:** Study the Yellowstone wolves case (a proposed trophic cascade: fewer elk browsing by rivers → willows and aspens recover → banks stabilise), including the honest twist that scientists still debate how big the wolves' effect was compared with other causes (bears, human hunting, drought); analyse predator–prey population graphs (Canada lynx and snowshoe hare, from Hudson's Bay Company fur records); predict changes in class food webs.
 - **Check for understanding:** "If the number of hares increases, what happens to the lynx population, and then what happens to the hares?" → The lynx population increases with more food; then more hares are eaten, so the hare population falls — the cycle repeats.
 - **Differentiation:** support: a simple arrow-chain prediction sheet / stretch: explain why the lynx peaks come after the hare peaks
 - **Materials:** Yellowstone case-study cards, lynx–hare graph, food web cards
-- **Joy:** "How wolves change rivers" animation discussion
+- **Joy:** "Science courtroom" — weigh the evidence for and against the claim that "wolves changed the rivers"
 
 ### Lesson 55 — Competition and adaptation
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how organisms compete for resources and how adaptations help them succeed, building on Year 5's evolution work." (UK KS3 Biology; NGSS MS-LS2-2)
 - **Hook:** "Why don't lions and cheetahs hunt at the same time on the Serengeti?"
-- **Key activity:** "Beak" simulation: using different tools (tweezers, spoon, pegs) as beaks to collect different "foods" (beans, rice, rubber bands) in timed rounds; relate to competition and adaptation; examples from plants (competing for light).
-- **Check for understanding:** "Which 'beak' was best for rice and why? How does this model competition in nature?" → The tweezers (or spoon), suited to small food; organisms with adaptations suited to a resource get more of it and are more likely to survive.
-- **Differentiation:** support: guided tally charts / stretch: explain how competition could lead two species to specialise over time
-- **Materials:** tweezers, spoons, clothes pegs, chopsticks, beans, rice, rubber bands, cups, timer
-- **Joy:** The beak challenge
+- **Key activity:** Plant competition investigation (Year 5 used the beak game for natural selection, so we move to real organisms): compare pots of cress sown two weeks earlier at different densities (10, 50 and 200 seeds per pot); measure the stem height and mass of a sample; relate crowding to competition for light, water and minerals. Then case studies of how animals reduce competition: lions and cheetahs hunting at different times of day, and the warbler species that Robert MacArthur found feeding in different parts of the same spruce trees.
+- **Check for understanding:** "Why were the seedlings in the most crowded pot thinner and paler, even though every pot got the same water and light?" → Each seedling had to share the light, water and minerals with many others, so each got less and grew less well — that is competition.
+- **Differentiation:** support: a guided results table and picture prompts / stretch: explain how competition could lead two species to specialise over time, using the warblers
+- **Materials:** cress seeds, identical pots of compost sown two weeks earlier at three densities, rulers, digital scale (0.1 g), scissors, case-study cards
+- **Joy:** "Seedling survivor" — predict which pot will produce the tallest single plant, then measure
 
 ### Lesson 56 — Pollination and seed dispersal
 - **Duration:** 40 min
@@ -724,21 +728,21 @@ slides, and a digital kitchen scale reading to 0.1 g.
 
 **Key vocabulary:** orbit, axis, tilt, rotation, revolution, season, hemisphere, equator, phases of the Moon, gravity, satellite, light-year, galaxy, crust, mantle, core, tectonic plate, rock cycle, igneous, sedimentary, metamorphic, weathering, erosion, atmosphere, greenhouse effect, carbon cycle
 
-### Lesson 60 — Scale of the Solar System and the universe
+### Lesson 60 — Beyond the Solar System: light-years, stars and galaxies
 - **Duration:** 45 min
-- **Objective:** "By the end, I can build a scale model of the Solar System and explain what a light-year measures." (UK KS3 Physics — space; NGSS MS-ESS1-3)
-- **Hook:** "If the Sun were a football at one end of a football pitch, where would Earth be — and how big?"
-- **Key activity:** Toilet-paper or outdoor pacing model of planetary distances (scaled: e.g. 1 step ≈ 10 million km); size model with fruit and seeds; light-year as a distance (light takes about 8 minutes to reach us from the Sun); the Milky Way and other galaxies.
+- **Objective:** "By the end, I can use light travel time to describe distances in space and explain what a light-year measures." (UK KS3 Physics — space; NGSS MS-ESS1-3)
+- **Hook:** "The light you see from the nearest star after the Sun left it more than four years ago. Are you looking into the past?"
+- **Key activity:** Two-minute retrieval of Year 4's outdoor Solar System scale model (not rebuilt). New: light travel times (Sun → Earth about 8 minutes; Moon → Earth about 1.3 s; Proxima Centauri about 4.2 years); the light-year as a distance; the Sun as one star among roughly 100–400 billion in the Milky Way; the Andromeda galaxy (about 2.5 million light-years away) as the most distant object most people can see with the naked eye; write a "cosmic address" from home out to the Local Group of galaxies.
 - **Check for understanding:** "Is a light-year a measure of time or distance? Explain." → Distance: the distance light travels in one year (about 9.5 trillion km).
-- **Differentiation:** support: a pre-calculated scale table / stretch: calculate distances for your own scale and explain why models can't show size and distance on the same scale easily
-- **Materials:** toilet roll or long tape, planet distance table, fruit and seeds for sizes, calculators
-- **Joy:** The playground Solar System walk
+- **Differentiation:** support: a "cosmic address" template and a ready-made light-travel-time table / stretch: calculate how far light travels in a year (300,000 km/s × the number of seconds in a year) and explain why a telescope is a kind of time machine
+- **Materials:** light-travel-time cards, calculators, star map or planetarium app, images of the Milky Way and Andromeda
+- **Joy:** Write your "cosmic address" and find Andromeda on a star map (or in a dark sky)
 
 ### Lesson 61 — Day, night and the seasons
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain the seasons using Earth's 23.5° tilt, not its distance from the Sun." (UK KS3 Physics — Earth and space; NGSS MS-ESS1-1)
 - **Hook:** "Earth is actually closest to the Sun in early January. So why is January winter in Europe but summer in Australia?"
-- **Key activity:** Model with a lamp (Sun) and a tilted globe or ball on a skewer; shine a torch on paper at different angles to show that steeper sunlight is more concentrated; compare day lengths in different cities (e.g. Oslo, Singapore, Buenos Aires) across the year.
+- **Key activity:** Retrieve Year 4's tilted-orbit model with a lamp and globe, then go deeper: shine a torch on squared paper at different angles and count the lit squares to show that steeper sunlight is more concentrated; compare day lengths in different cities (e.g. Oslo, Singapore, Buenos Aires) across the year.
 - **Check for understanding:** "Why is it summer in the southern hemisphere when it is winter in the northern hemisphere?" → Earth's tilt means the southern hemisphere is tilted towards the Sun then — it gets more direct sunlight and longer days.
 - **Differentiation:** support: a four-position diagram to label / stretch: explain why the equator has little seasonal temperature change and why the poles have midnight sun
 - **Materials:** lamp, globe or ball on a skewer, torch, squared paper, day-length data for world cities
@@ -778,10 +782,10 @@ slides, and a digital kitchen scale reading to 0.1 g.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can describe the composition of the atmosphere, the carbon cycle and how human activity increases the greenhouse effect." (UK KS3 Chemistry — Earth and atmosphere; NGSS MS-ESS3-5)
 - **Hook:** "Carbon dioxide is less than half of one-tenth of a percent of the air. How can such a small amount warm the planet?"
-- **Key activity:** Pie chart of atmospheric composition (about 78% nitrogen, 21% oxygen, about 1% argon, about 0.04% carbon dioxide); draw the carbon cycle (photosynthesis, respiration, combustion, decomposition, oceans); greenhouse-effect model: two sealed jars under a lamp, one with extra CO₂ from bicarbonate + vinegar (results vary — discuss honestly); read the Keeling curve.
+- **Key activity:** Brief retrieval of Year 5's atmosphere composition, carbon cycle and greenhouse-jar model (not repeated). New: this year's chemistry applied — the combustion, respiration and photosynthesis word equations as the arrows of the carbon cycle; read and analyse the Keeling curve (Mauna Loa, from 1958: about 315 ppm then, over 420 ppm now); ocean acidification demo — blow gently through a straw into red cabbage indicator (Lesson 29) and watch it shift towards acidic as carbon dioxide dissolves, then discuss what that means for shells and corals.
 - **Check for understanding:** "How does burning fossil fuels change the carbon cycle?" → It releases carbon stored underground for millions of years as carbon dioxide, faster than photosynthesis and oceans can absorb it, so levels in the air rise.
 - **Differentiation:** support: a partly completed carbon-cycle diagram / stretch: interpret the Keeling curve's yearly wiggle (seasonal plant growth in the northern hemisphere)
-- **Materials:** pie chart templates, carbon-cycle cards, two jars, thermometers, lamp, bicarbonate of soda and vinegar, Keeling curve graph
+- **Materials:** carbon-cycle cards, Keeling curve graph (NOAA Global Monitoring Laboratory or Scripps), red cabbage indicator, clear cups, straws (one per pupil — blow out only, never suck), goggles
 - **Joy:** Build the carbon cycle as a board game
 
 ### Lesson 66 — Unit 8 assessment: space mission briefing

@@ -16,8 +16,9 @@ The year covers all four strands. **Biology:** how living things are classified 
 microorganisms); the circulatory system and a healthy body; evolution and inheritance, from fossils to
 natural selection. **Physics:** light travelling in straight lines, reflection, refraction and how we
 see; electricity, circuit symbols and how voltage changes brightness. **Chemistry:** the particle
-model, acids and alkalis, and irreversible chemical reactions, including a first look at conservation of
-mass. **Earth and space:** Earth's atmosphere, the carbon cycle and the scientific evidence for climate
+model, identifying substances by their properties, irreversible chemical reactions and what speeds them
+up, and a first look at conservation of mass (acids, alkalis and the pH scale are kept for Year 6, and
+rusting was investigated in Year 4, so neither is repeated here). **Earth and space:** Earth's atmosphere, the carbon cycle and the scientific evidence for climate
 change.
 
 **What this year assumes (from Year 4):** life cycles and reproduction in plants and animals; the
@@ -46,7 +47,7 @@ and Wangari Maathai.
 | 3 | Evolution and inheritance | Biology | 1–2 | 5 | 10 (19–28) |
 | 4 | Light and how we see | Physics | 2 | 4.5 | 9 (29–37) |
 | 5 | Electricity and circuits | Physics | 2 | 4.5 | 9 (38–46) |
-| 6 | Chemistry: acids, alkalis and reactions | Chemistry | 3 | 4.5 | 9 (47–55) |
+| 6 | Chemistry: particles, properties and reactions | Chemistry | 3 | 4.5 | 9 (47–55) |
 | 7 | Earth's atmosphere and climate | Earth & space | 3 | 4 | 8 (56–63) |
 | 8 | Science fair: independent investigation | All | 3 | 3.5 | 7 (64–70) |
 | | **Total** | | | **35 (+1 flex)** | **70** |
@@ -226,7 +227,7 @@ and Wangari Maathai.
 - **Key activity:** Card sort: medicines (helpful when used correctly), legal drugs (caffeine, alcohol, nicotine) and their effects on heart and lungs. Discuss safe medicine rules (only from a trusted adult, follow the label). Link to vaping as a current concern.
 - **Check for understanding:** "Why should medicines only be taken as prescribed or directed on the label?" → The right dose helps; too much, or the wrong medicine, can harm the body.
 - **Differentiation:** support: picture cards with simple effect statements / stretch: evaluate a health poster about smoking for accuracy and persuasiveness.
-- **Materials:** card sort, empty medicine packaging (safe), health posters. Handle sensitively: some pupils' family members may smoke or drink.
+- **Materials:** card sort, empty medicine packaging (safe), health posters. **Parent note:** share the lesson content with families beforehand; handle sensitively, as some pupils' family members may smoke, vape or drink. Facts only — no scare stories — and the message 'if you are ever offered something, you can say no and tell a trusted adult' (links to PE & Health).
 - **Joy:** design a health campaign poster aimed at younger children.
 
 ### Lesson 17 — Charles Drew and blood donation
@@ -409,12 +410,12 @@ and Wangari Maathai.
 - **Materials:** card or cartons, small safety mirrors, scissors, tape, protractors.
 - **Joy:** periscope spy games around the classroom.
 
-### Lesson 33 — Transparent, translucent, opaque
+### Lesson 33 — Measuring light through materials
 - **Duration:** 40 min
-- **Objective:** "By the end, I can classify materials by how much light passes through them and test this fairly." (UK NC Y6 light / working scientifically)
+- **Objective:** "By the end, I can measure how much light passes through materials with a sensor and use the data to go beyond 'transparent, translucent, opaque'." (UK NC Y6 light / working scientifically — builds on Year 4's sorting by eye)
 - **Hook:** "Which material would make the best curtains for a bedroom that faces the sunrise?"
-- **Key activity:** Fair test using a torch and a light sensor (data logger or phone app) at a fixed distance; measure light through different materials; classify.
-- **Check for understanding:** "What must stay the same in this test and why?" → Torch, distance, sensor position and angle — so only the material affects the light reading.
+- **Key activity:** Quick retrieval of Year 4's three categories, then the new step: a fair test using a torch and a light sensor (data logger or phone app) at a fixed distance; measure the light (lux) through each material, rank them on a continuous scale and discover that 'translucent' covers a huge range.
+- **Check for understanding:** "Tissue and greaseproof paper are both 'translucent'. Why is the sensor reading more useful than the label when choosing a curtain — and what must stay the same for the comparison to be fair?" → The reading shows how much light each lets through, so you can compare two 'translucent' materials; torch, distance, sensor position and angle must stay the same so only the material affects the reading.
 - **Differentiation:** support: classify by eye before measuring / stretch: test layers of the same material and graph the pattern.
 - **Materials:** torches, light sensors or data loggers, material samples (cling film, tissue, card, fabric, foil, bubble wrap).
 - **Joy:** "Curtain designer" — choose and justify a curtain fabric from data.
@@ -484,7 +485,7 @@ and Wangari Maathai.
 - **Objective:** "By the end, I can use recognised symbols to draw circuit diagrams and build circuits from diagrams." (UK NC Y6 electricity)
 - **Hook:** "An electrician in Japan and one in Brazil can read the same diagram. How?"
 - **Key activity:** Learn symbols (cell, battery, bulb, switch open/closed, buzzer, motor, wire). Draw diagrams of circuits built; then build circuits from given diagrams. Note: symbols are internationally agreed.
-- **Check for understanding:** "What is the difference between the symbol for a cell and the symbol for a battery?" → A battery is two or more cells joined together, shown as several cell symbols.
+- **Check for understanding:** "This diagram shows a battery of two cells, a bulb and an open switch. Will the bulb light? Redraw it so that it will, and explain why the battery symbol has two parts." → No — the open switch breaks the loop; redraw with the switch closed. A battery is two or more cells joined together, so it is drawn as several cell symbols.
 - **Differentiation:** support: symbol cards to match to components / stretch: draw a diagram for a circuit with two bulbs and a switch that controls only one bulb (requires a parallel branch — explain).
 - **Materials:** circuit kits, symbol cards, rulers, squared paper.
 - **Joy:** "Diagram relay" — one partner draws, the other builds, then swap.
@@ -509,15 +510,15 @@ and Wangari Maathai.
 - **Materials:** circuit kits, extra bulbs, cells.
 - **Joy:** "Brightness puzzle cards" to solve.
 
-### Lesson 42 — Conductors and insulators test
+### Lesson 42 — Conductors, insulators and resistance
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a circuit to test materials and classify them as conductors or insulators." (UK NC Y6 electricity / working scientifically)
-- **Hook:** "Is a pencil 'lead' a conductor? (It's actually graphite.)"
-- **Key activity:** Build a tester circuit with a gap; test materials (metal spoon, plastic, wood, foil, coin, pencil graphite, water with salt). Classify and explain uses (why wires are copper inside plastic).
-- **Check for understanding:** "Why are electrical wires made of copper with a plastic coating?" → Copper conducts electricity; plastic insulates, keeping people safe from electric shock.
-- **Differentiation:** support: prediction and result table with pictures / stretch: test graphite pencil lines of different lengths and observe brightness changes.
-- **Materials:** circuit kits, test materials, pencils, paper, salt water in a cup.
-- **Joy:** "Draw a circuit" — a graphite line drawn heavily on paper that lights an LED (with care).
+- **Objective:** "By the end, I can investigate how the length of a conductor affects the brightness of a bulb and explain it using the idea of resistance." (UK NC Y6 electricity / working scientifically — builds on Year 4's conductor/insulator sorting)
+- **Hook:** "Is a pencil 'lead' a conductor? (It's actually graphite.) And does it matter how long the path is?"
+- **Key activity:** Quick retrieval: use a tester circuit to re-sort five materials (Year 4). Then the new idea: slide a crocodile clip along a pencil 'lead' (graphite) or a 30 cm length of thin nichrome resistance wire (short tests only — it can get warm), measuring brightness at 2 cm steps with a light sensor or brightness scale; graph and explain — a longer path means more resistance, so less current.
+- **Check for understanding:** "Why does the bulb get dimmer as the graphite path gets longer — and why are household wires made of copper rather than graphite?" → A longer path has more resistance, so less current flows; copper has very low resistance, so it wastes little energy, and its plastic coating insulates to keep people safe.
+- **Differentiation:** support: prediction and results table with pictures, and three lengths only / stretch: predict and test what a thicker graphite line (drawn heavily on paper) does to brightness, and explain.
+- **Materials:** circuit kits, test materials, a propelling-pencil graphite rod (2B or softer) or thick 6B pencil lines on paper, rulers, light sensor or brightness scale.
+- **Joy:** "Draw a dimmer switch" — a graphite line drawn heavily on paper becomes a home-made dimmer as the clip slides along it.
 
 ### Lesson 43 — Electricity pioneers
 - **Duration:** 40 min
@@ -563,11 +564,11 @@ and Wangari Maathai.
 
 ---
 
-## Unit 6 — Chemistry: acids, alkalis and reactions
+## Unit 6 — Chemistry: particles, properties and reactions
 
 **Essential question:** How can we tell when a new substance has been made, and what happens to the particles?
 
-**Key vocabulary:** particle, solid, liquid, gas, state, dissolve, solution, acid, alkali, neutral, indicator, pH, neutralise, chemical reaction, reactant, product, reversible, irreversible, gas, fizz, rust, conservation of mass
+**Key vocabulary:** particle, solid, liquid, gas, state, dissolve, solution, property, identify, chemical reaction, new substance, reactant, product, reversible, irreversible, rate (speed of reaction), casein, conservation of mass
 
 ### Lesson 47 — The particle model
 - **Duration:** 40 min
@@ -589,55 +590,55 @@ and Wangari Maathai.
 - **Materials:** digital scales, beakers, sugar, water, spoons.
 - **Joy:** "Magic-mass" reveal.
 
-### Lesson 49 — Acids and alkalis around us
+### Lesson 49 — Mystery powders: identifying substances by their properties
 - **Duration:** 40 min
-- **Objective:** "By the end, I can identify acids and alkalis in everyday life and describe their properties safely." (Cambridge Primary Stage 6 chemistry)
-- **Hook:** "What do lemons, vinegar and cola have in common? What about soap and toothpaste?"
-- **Key activity:** Sort safe household substances into acids, alkalis and neutral (predict by taste memory only — never tasting in the lab). Introduce hazard symbols and why strong acids and alkalis are dangerous.
-- **Check for understanding:** "Why must we never taste substances to identify them in science?" → Some are harmful; we use indicators and equipment instead.
-- **Differentiation:** support: picture cards of household items / stretch: research how acids are used in digestion (stomach acid).
-- **Materials:** labelled safe household samples (lemon juice, vinegar, soap solution, bicarbonate solution, water), hazard symbol cards, goggles.
-- **Joy:** "Kitchen chemist" spotting at home.
+- **Objective:** "By the end, I can identify unknown substances by testing and comparing their properties, without tasting." (NGSS 5-PS1-3 / Cambridge Primary Stage 6 chemistry)
+- **Hook:** "Five jars of white powder have lost their labels: flour, cornflour, sugar, salt and bicarbonate of soda. How can a chemist tell them apart without tasting?"
+- **Key activity:** Teach first: why we never taste in science, and how a property (look, feel, dissolving in water, fizzing with vinegar, turning blue-black with iodine — iodine dropped by the adult) acts as a 'fingerprint'. We do: test one known powder together and record. You do: groups test all five known powders, build a results table, then use it to identify two unlabelled 'mystery' powders.
+- **Check for understanding:** "Powder A fizzes with vinegar; powder B turns blue-black with iodine and doesn't dissolve. Which is bicarbonate and which is cornflour — and why is testing better than just looking?" → A is bicarbonate (fizzing shows a gas is made), B is cornflour (iodine shows starch); all five powders look almost the same, so only tests of properties tell them apart reliably.
+- **Differentiation:** support: three powders only, with a picture results table / stretch: design a flow chart (key) that identifies any of the five powders in the fewest tests, and justify its order.
+- **Materials:** flour, cornflour, sugar, salt, bicarbonate of soda in labelled pots plus two unlabelled mystery pots, water, vinegar, dilute iodine solution (adult-held dropper), spotting tiles, hand lenses, goggles.
+- **Joy:** "Crime-lab chemists" — identify the powder 'spilled at the scene'.
 
-### Lesson 50 — Red cabbage indicator
-- **Duration:** 45 min
-- **Objective:** "By the end, I can make and use a natural indicator to classify substances as acidic, neutral or alkaline." (Cambridge Primary Stage 6 chemistry / working scientifically)
-- **Hook:** "Can a cabbage tell us if something is an acid?"
-- **Key activity:** Make red cabbage indicator (chopped red cabbage in hot water, strained — teacher prepares the hot liquid). Test samples; record colours (red/pink = acid, purple = neutral, green/yellow = alkali); build a colour scale and compare with universal indicator and the pH scale.
-- **Check for understanding:** "A mystery liquid turns the indicator green. What does that tell you?" → It is an alkali.
-- **Differentiation:** support: a colour chart to match against / stretch: order the samples from most acidic to most alkaline and justify.
-- **Materials:** red cabbage indicator, spotting tiles or clear cups, pipettes, samples, goggles, universal indicator paper.
-- **Joy:** the rainbow of colours in the spotting tile.
-
-### Lesson 51 — Neutralisation
-- **Duration:** 40 min
-- **Objective:** "By the end, I can describe neutralisation and give examples of its use." (Cambridge Primary Stage 6 chemistry)
-- **Hook:** "Why do some people take indigestion tablets, and what does a bee sting have to do with it?"
-- **Key activity:** Add bicarbonate solution drop by drop to vinegar with indicator; watch the colour change through neutral. Discuss uses: indigestion remedies, treating acidic soil with lime.
-- **Check for understanding:** "What happens to the acid when you add an alkali, and how does the indicator show it?" → They react and cancel each other out; the indicator changes from the acid colour to the neutral colour.
-- **Differentiation:** support: step cards and a colour chart / stretch: count the drops needed and compare two different vinegars' strength.
-- **Materials:** vinegar, bicarbonate solution, indicator, pipettes, clear cups, goggles.
-- **Joy:** "Colour switch" drop-by-drop challenge.
-
-### Lesson 52 — Signs of a chemical reaction
+### Lesson 50 — Signs of a chemical reaction
 - **Duration:** 40 min
 - **Objective:** "By the end, I can identify evidence that a chemical reaction has made a new substance." (NGSS 5-PS1-4 / UK NC Y5 changes review)
 - **Hook:** "Vinegar + bicarbonate of soda in a bottle, balloon on top. What will happen?"
-- **Key activity:** Carousel of reactions: vinegar and bicarbonate (gas), burning a candle (teacher demonstration), baking a cake (compare raw and baked), milk and vinegar (a solid forms). Record signs: gas, colour change, temperature change, new solid, light.
-- **Check for understanding:** "How do you know that a new substance was made in the vinegar–bicarbonate reaction?" → A gas (carbon dioxide) was produced that wasn't there before, and the change can't easily be reversed.
-- **Differentiation:** support: a signs-of-reaction checklist with pictures / stretch: classify each change as reversible or irreversible and justify.
-- **Materials:** vinegar, bicarbonate, balloons, bottles, milk, candle (teacher only), goggles.
+- **Key activity:** Carousel of changes: vinegar and bicarbonate (gas), burning a candle (teacher demonstration), baking a cake (compare raw and baked), milk and vinegar (a solid forms), ice melting and salt dissolving (as 'no new substance' comparisons). Record signs of a new substance: gas, colour change, temperature change, new solid, light. Retrieve Year 4's reversible/irreversible idea and connect it to 'new substance made'.
+- **Check for understanding:** "Ice melting and bicarbonate fizzing both 'change'. Which one made a new substance, and what is your evidence?" → The fizzing: a gas (carbon dioxide) was made that wasn't there before and the change can't easily be reversed; melting ice is still water, just in a different state.
+- **Differentiation:** support: a signs-of-reaction checklist with pictures / stretch: find a change that shows a sign (e.g. bubbles when water boils) but is NOT a chemical reaction, and explain why one sign alone isn't proof.
+- **Materials:** vinegar, bicarbonate, balloons, bottles, milk, ice, salt, candle (teacher only), goggles.
 - **Joy:** balloon inflation race.
 
-### Lesson 53 — Investigation: what makes iron rust?
+### Lesson 51 — Making new materials: milk plastic
 - **Duration:** 45 min
-- **Objective:** "By the end, I can plan a test to find the conditions needed for rusting, controlling variables." (Cambridge Primary Stage 6 / working scientifically)
-- **Hook:** "Bridges, bikes and cars rust. What makes it happen?"
-- **Key activity:** Set up iron nails in test tubes: air only (dry, with a drying agent), water only (boiled water with an oil layer), air and water, salty water. Predict; observe over two weeks; conclude that iron needs both oxygen and water to rust.
-- **Check for understanding:** "Why is there a layer of oil on top of the boiled water?" → To stop air (oxygen) getting into the water, so we can test water without air.
-- **Differentiation:** support: pre-labelled tubes and a results table / stretch: suggest and test ways to prevent rust (painting, oiling, galvanising).
-- **Materials:** iron nails, test tubes, rack, boiled water, oil, salt, calcium chloride (drying agent, teacher-handled), labels, goggles.
-- **Joy:** "Rust race" predictions board.
+- **Objective:** "By the end, I can make a new material through a chemical reaction and explain why it cannot be turned back into what it was made from." (NGSS 5-PS1-4 / Cambridge Primary Stage 6 chemistry)
+- **Hook:** "Before modern plastics, buttons and jewellery were made from milk. How?"
+- **Key activity:** Adult warms milk (not boiling); pupils stir in vinegar, watch curds form, strain through a cloth, press out the liquid and mould the solid (casein) into shapes to dry for two days. Discuss other useful reactions that make new materials around the world: baking bread, making paneer and cheese, plaster setting, concrete hardening.
+- **Check for understanding:** "Could you get the milk and vinegar back from your milk plastic? Explain using the idea of a new substance." → No: the milk protein reacted with the acid to form a new solid (casein plastic) with different properties; it is an irreversible chemical change.
+- **Differentiation:** support: step-by-step picture method card and a partner / stretch: plan a fair test to find which amount of vinegar makes the most plastic from 100 ml of milk, naming the variables.
+- **Materials:** milk, white vinegar, jug, spoons, sieve and cloth, kitchen paper, cookie cutters or moulds, food colouring (optional), hot plate or microwave (adult only), goggles.
+- **Joy:** keep your own milk-plastic charm or button.
+
+### Lesson 52 — Investigation: what makes a reaction go faster? (planning)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a fair test into how temperature affects the speed of a reaction, identifying the variables and how to measure." (Cambridge Primary Stage 6 / UK NC Y6 working scientifically)
+- **Hook:** "Drop a fizzy vitamin tablet into cold water and another into warm water. Which finishes first — and can we measure it properly?"
+- **Key activity:** Watch the demonstration, then plan together: changed variable (water temperature), measured variable (time until fizzing stops), controlled variables (tablet size, water volume, container, no stirring). Groups choose four or five temperatures, draw a results table with room for three repeats and predict with a reason using particles.
+- **Check for understanding:** "Why must every tablet be the same size, and why should the water not be stirred?" → Both would change how fast the reaction happens, so we couldn't tell whether temperature caused the difference.
+- **Differentiation:** support: a planning sheet with the variables started / stretch: add a second question (does crushing the tablet change the time?) and explain why it must be a separate test.
+- **Materials:** effervescent vitamin C or antacid tablets (adult-supervised; not to be swallowed), clear cups, measuring jug, thermometers, stopwatches, planning sheets. Hot water from the tap only (no kettle-hot water).
+- **Joy:** "Fizz forecast" — pupils bet on the finishing order.
+
+### Lesson 53 — Investigation: what makes a reaction go faster? (testing and graphing)
+- **Duration:** 45 min
+- **Objective:** "By the end, I can carry out my plan with repeat readings, calculate means and draw a line graph of temperature against reaction time." (Cambridge Primary Stage 6 / UK NC Y6 working scientifically)
+- **Hook:** "Our predictions are on the board. Time to find out."
+- **Key activity:** Groups run the test, three repeats per temperature; calculate means; spot any anomaly and repeat it; plot a line graph (temperature on the x-axis); describe the pattern and explain it with particles moving faster and meeting more often when warmer.
+- **Check for understanding:** "Use your graph to predict the time at a temperature you didn't test. How confident are you, and why?" → A value read from the line between two tested points, with confidence based on how close the repeats were.
+- **Differentiation:** support: axes pre-drawn and scaled / stretch: explain why the graph is a curve rather than a straight line, and suggest how to make the timing more accurate.
+- **Materials:** as Lesson 52, plus graph paper, rulers, calculators.
+- **Joy:** "Fastest fizz" — the class reveals the finishing order against the forecasts.
 
 ### Lesson 54 — Conservation of mass
 - **Duration:** 40 min
@@ -649,17 +650,17 @@ and Wangari Maathai.
 - **Materials:** digital scales, bottles, balloons, vinegar, bicarbonate, goggles.
 - **Joy:** the sealed vs open "mass mystery".
 
-### Lesson 55 — Unit 6 mastery check and rust results
+### Lesson 55 — Unit 6 mastery check
 - **Duration:** 40 min
-- **Objective:** "By the end, I can show my understanding of particles, acids, alkalis and chemical reactions and draw conclusions from the rust investigation." (Cambridge Stage 6 — assessment)
-- **Hook:** "The rust tubes are ready. What did we find?"
-- **Key activity:** Groups analyse the rust results and conclude; mastery task on particles, indicators, neutralisation and signs of reaction.
-- **Check for understanding:** "Which tube rusted most, and what does that tell us about the conditions for rusting?" → Usually salty water with air — iron needs oxygen and water, and salt speeds it up.
-- **Differentiation:** support: conclusion frame / stretch: explain why ships and coastal bridges need special protection.
-- **Materials:** rust tubes, mastery task.
-- **Joy:** "Rust hall of fame" photographs.
+- **Objective:** "By the end, I can show my understanding of particles, properties, chemical reactions and conservation of mass." (Cambridge Stage 6 / NGSS 5-PS1 — assessment)
+- **Hook:** "The milk-plastic buttons are dry. What do they prove?"
+- **Key activity:** Examine the dried milk plastic; mastery task: particle diagrams, identify a mystery powder from given test results, sort changes into 'new substance' or 'no new substance' with evidence, explain an open-vs-closed mass result, and interpret a reaction-speed graph.
+- **Check for understanding:** "A pupil says: 'When wood burns, the mass goes down, so mass is destroyed.' Is she right?" → No: the wood reacts with oxygen and makes gases (carbon dioxide and water vapour) and smoke that escape into the air; if everything were trapped and weighed, the total mass would be the same.
+- **Differentiation:** support: conclusion frames and a word bank / stretch: explain why cooking an egg is a chemical change but melting butter is not, using the particle model.
+- **Materials:** dried milk plastic, mastery task, reaction-speed graphs.
+- **Joy:** "Chemistry show-and-tell" — each pupil demonstrates one change to a partner and explains it.
 
-**End-of-unit check:** Pupil uses the particle model to explain dissolving, classifies substances with an indicator, identifies signs of a chemical reaction, and explains why mass is conserved in a closed container.
+**End-of-unit check:** Pupil uses the particle model to explain dissolving, identifies an unknown substance from its properties, gives evidence that a chemical reaction has made a new substance, explains a reaction-speed result from a graph, and explains why mass is conserved in a closed container.
 
 ---
 
@@ -684,7 +685,7 @@ and Wangari Maathai.
 - **Objective:** "By the end, I can describe how carbon moves between living things, the air, the oceans and the ground." (NGSS 5-LS2-1, 5-ESS2-1)
 - **Hook:** "The carbon in your body may once have been part of a dinosaur. How?"
 - **Key activity:** Carbon cycle role-play: pupils as carbon atoms roll dice at stations (air, plant, animal, ocean, fossil fuel, soil) that send them to the next place, recording their journey. Link photosynthesis (plants take in CO₂) and respiration (living things give out CO₂).
-- **Check for understanding:** "How do plants remove carbon dioxide from the air?" → They take it in through their leaves and use it in photosynthesis to make food.
+- **Check for understanding:** "A forest is cut down and burned. Use the carbon cycle to explain two ways this changes the amount of carbon dioxide in the air." → Burning releases the carbon stored in the wood as carbon dioxide, and with fewer trees less carbon dioxide is taken in by photosynthesis — so the amount in the air rises.
 - **Differentiation:** support: a simplified four-station cycle / stretch: explain how burning fossil fuels moves carbon from the ground to the air much faster than natural processes.
 - **Materials:** station signs, dice, journey recording sheets.
 - **Joy:** the carbon-journey dice game.
@@ -851,7 +852,7 @@ and Wangari Maathai.
 4. **Explain light** — draws ray diagrams for seeing, shadows and reflection and explains a periscope.
 5. **Control circuits** — draws circuit diagrams with symbols and predicts the effect of changing cells or components.
 6. **Use the particle model** — explains states of matter, dissolving and conservation of mass using particles.
-7. **Identify reactions** — uses an indicator to classify substances and names evidence of chemical change.
+7. **Identify substances and reactions** — identifies an unknown substance from its properties, names evidence of chemical change and explains what affects reaction speed.
 8. **Explain the greenhouse effect** — explains it with a diagram and interprets long-term climate data.
 9. **Investigate independently** — plans, carries out and evaluates a fair test with repeats, means and a suitable graph (science fair).
 
@@ -863,6 +864,7 @@ and Wangari Maathai.
 - *"Animals evolve because they need to / try to."* Individuals don't change on purpose; populations change over generations through variation and selection.
 - *"Humans evolved from chimpanzees."* Humans and chimpanzees share a common ancestor.
 - *"Dissolved substances disappear."* Weighing shows the mass remains.
+- *"Burning destroys mass."* The products are gases that escape; in a closed system mass is conserved.
 - *"Batteries store current."* Cells provide a voltage (a push); current flows only in a complete circuit.
 - *"The greenhouse effect is bad."* It keeps Earth habitable; the problem is its enhancement by extra greenhouse gases.
 - *"Weather and climate are the same."* Climate is a long-term average.
@@ -875,6 +877,6 @@ and Wangari Maathai.
 - Handle sensitive topics (health, drugs, family inheritance, climate anxiety) with care, focusing on agency and hope.
 
 **Vertical connections**
-- *From Year 4:* life cycles, the solar system and forces, properties and changes of materials, fair testing.
-- *Into Year 6:* cells and microscopes build on classification and microorganisms; body systems build on circulation; ecosystems and food webs build on adaptation and the carbon cycle; chemical reactions, elements and compounds build on acids, alkalis and conservation of mass; energy transfers build on circuits and the greenhouse effect; waves build on light.
+- *From Year 4:* life cycles, the solar system and forces, properties and changes of materials (including conductors, sorting by transparency and the rusting investigation — built on here, not repeated), fair testing.
+- *Into Year 6:* cells and microscopes build on classification and microorganisms; body systems build on circulation; ecosystems and food webs build on adaptation and the carbon cycle; chemical reactions, elements, compounds, acids, alkalis and word equations build on signs of reaction, identifying substances and conservation of mass; energy transfers build on circuits and the greenhouse effect; waves build on light.
 - *Across subjects:* maths (means, line graphs, pie charts, protractors for angles of reflection), geography (climate, biomes), English (explanation texts, research), computing (data loggers, spreadsheets), life skills (health, sustainability).

@@ -626,7 +626,7 @@ simple conversations on familiar topics.
 ### Lesson 51 — Where is Spanish spoken?
 - **Duration:** 35 min
 - **Objective:** "By the end, I can name and locate Spanish-speaking countries and say where they are." (KS2 languages — intercultural)
-- **Hook:** "Spanish is an official language in about 20 countries, on four continents. Can you find them?"
+- **Hook:** "Spanish is an official language in 20 countries (21 if you count Puerto Rico), on four continents. Can you find them?"
 - **Key activity:** Map activity: locate Spanish-speaking countries (including Equatorial Guinea in Africa); *México está en América del Norte*; capitals; discuss the many millions of Spanish speakers in the USA.
 - **Check for understanding:** "Name a Spanish-speaking country outside Europe and the Americas." → Equatorial Guinea (in Africa).
 - **Differentiation:** support: map with countries outlined / stretch: find the capitals and say them with correct stress.
@@ -673,15 +673,15 @@ simple conversations on familiar topics.
 - **Materials:** festival fact cards, photographs.
 - **Joy:** plan a class fiesta.
 
-### Lesson 56 — A song from Mexico: "La Bamba"
+### Lesson 56 — A song from the Spanish-speaking world: "De colores"
 - **Duration:** 35 min
-- **Objective:** "By the end, I can sing a traditional song and understand its key words." (KS2 languages — listening / culture)
-- **Hook:** "This song from Veracruz became a worldwide hit in 1958."
-- **Key activity:** Learn the chorus of "La Bamba"; find verbs and key words; discuss the son jarocho tradition; perform with percussion (music link).
-- **Check for understanding:** "What does 'para bailar la bamba' mean?" → 'In order to dance the bamba.'
-- **Differentiation:** support: lyric sheet with translation / stretch: find verbs in the lyrics and name their infinitives.
+- **Objective:** "By the end, I can sing a traditional song, understand its key lines and spot grammar I know inside it." (KS2 languages — listening / culture)
+- **Hook:** "Year 4 sang 'La Bamba'. This traditional song about the colours of spring is sung from Spain to Mexico — and became an anthem of farmworkers in the USA. Why might a song about colours matter so much?"
+- **Key activity:** Learn the first verse and chorus of "De colores"; find the colours, animals and verbs; notice the reflexive *se visten* ("dress themselves", from Unit 5) in *de colores se visten los campos en la primavera*; discuss how songs travel and take on new meanings; perform with percussion (music link).
+- **Check for understanding:** "What does 'de colores se visten los campos en la primavera' mean, and why is the verb 'se visten' and not 'se viste'?" → 'In spring the fields dress themselves in colours'; *los campos* is plural, so the verb is in the 'they' form.
+- **Differentiation:** support: lyric sheet with translation and picture cues / stretch: find all the verbs in the lyrics, name their infinitives and write a new verse about your own town.
 - **Materials:** lyrics, recording, shakers and guitars/ukuleles (music link).
-- **Joy:** singing and dancing.
+- **Joy:** singing in parts, with actions for each colour.
 
 ### Lesson 57 — Research and present a country
 - **Duration:** 40 min
@@ -851,7 +851,7 @@ simple conversations on familiar topics.
 - ***Donde viven los monstruos*** (Spanish edition of *Where the Wild Things Are*) by Maurice Sendak — a familiar story that lets pupils use prior knowledge to read Spanish.
 - ***Bilingual dictionary*** — a good-quality Spanish–English school dictionary (e.g. *Collins Spanish School Dictionary* or *Oxford Spanish Minidictionary*) — dictionary skills are taught explicitly this year.
 - **WordReference (wordreference.com)** — a reliable free online dictionary with forum answers from native speakers; use with teacher guidance.
-- **Songs** — "La Bamba" (traditional, Mexico), "De colores" (traditional), "Cielito lindo" (traditional, Mexico) — well-known songs with clear, repeatable language.
+- **Songs** — "De colores" (traditional; Lesson 56), with "La Bamba" (traditional, Mexico — learned in Year 4) for retrieval; clear, repeatable language. ("Cielito lindo" is kept for Year 6.)
 - ***Coco*** (Pixar, 2017) — watch clips with Spanish audio and subtitles; set in Mexico, rich in cultural detail.
 - **Partner school or pen-pal exchange** — the single most motivating resource: real letters and video messages with children in a Spanish-speaking country.
 - **Classroom kit** — verb wheels, sentence-builder grids, mini-whiteboards, flashcards, a world map of the Spanish-speaking world, props for role-plays, recording devices.
@@ -889,4 +889,4 @@ simple conversations on familiar topics.
 **Vertical connections**
 - *From Year 4:* chunks for opinions, hobbies, food, time and directions; the habit of joining sentences with connectives.
 - *Into Year 6:* the full preterite past tense for common verbs, longer descriptive and narrative paragraphs, conversations on familiar topics, and reading short authentic stories.
-- *Across subjects:* geography (Spanish-speaking countries, markets), music ("La Bamba", son jarocho), maths (numbers to 1,000, prices, timetables), history (Maya link), English (grammar terminology: verbs, adjectives, agreement).
+- *Across subjects:* geography (Spanish-speaking countries, markets), music ("De colores", Andean music), maths (numbers to 1,000, prices, timetables), history (Maya link), English (grammar terminology: verbs, adjectives, agreement).

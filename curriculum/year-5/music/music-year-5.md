@@ -3,35 +3,40 @@
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Source material:
 > `knowledge-base/subjects/art-music/music-ks1-ks2.md`, `resources.md` and `videos.md`.
+> Revised in the 2026-09 Years 5–6 review (`docs/reviews/years-5-6.md`): the earlier draft repeated
+> Year 4's singing, ukulele and world-music units almost song for song, and Year 6's film-music unit.
 
 ## Year overview
 
-Year 5 music is about **playing together and making music of your own**. Pupils sing in parts
-(rounds, partner songs and two-part harmony, including songs from South Africa and Australia), continue
-the **instrument pathway** with **ukulele chords** and then move on to **keyboard basics** (hand
-position, a five-finger melody and simple chords), and read and write rhythm and pitch with growing
-fluency (time signatures including 3/4 and a first look at 6/8, dotted rhythms, semiquavers and
-syncopation). Listening is wide and specific: **West African drumming**, **Indian classical music**
-(raga and tala), **Indonesian gamelan**, and orchestral and film music by **Grieg**, **Holst** and **John
-Williams**. The year ends with pupils **composing and performing a group soundtrack** for a short film
-scene, using notation, instruments and music technology.
+Year 5 music is about **playing together, reading music and telling stories in sound**. Pupils move
+from Year 4's rounds and partner songs to **choral singing in harmony** (thirds, a descant, three-part
+singing and South African and Ghanaian choral traditions); take the **ukulele** beyond Year 4's first
+chords to new keys, fingerpicking and TAB; learn **compound time, ties and syncopation** and read
+melodies on the treble stave; meet **five new musical traditions** — Japanese taiko, the kora of West
+Africa, Andean panpipes, Cuban son and Arabic maqam; start **keyboard basics** (hand position, a
+five-finger melody and simple chords); and finish by **telling stories in song** through opera, Peking
+opera and musical theatre, composing songs for Shakespeare's *The Tempest* (the English class play).
 
 Every unit balances the four strands: **listen and appraise** (notice → feel → judge, with musical
 vocabulary), **sing**, **play**, and **compose/improvise**, and ends with a performance.
 
-**Instrument pathway:** Years 1–2 untuned and tuned percussion → Years 3–4 recorder and ukulele →
-**Year 5 ukulele chords and keyboard basics** → Year 6 keyboard and ensemble playing (with any
-orchestral or band instruments pupils learn individually welcomed into class ensembles).
+**Instrument pathway:** Years 1–2 untuned and tuned percussion → Years 3–4 recorder and ukulele (first
+chords) → **Year 5 ukulele (new keys, fingerpicking, TAB) and keyboard basics** → Year 6 keyboard harmony
+and ensemble playing (with any orchestral or band instruments pupils learn individually welcomed into
+class ensembles).
 
-**What this year assumes (from Year 4):** reading crotchets, quavers, minims and rests; pitch on the
-stave for recorder notes; ostinato, texture, and simple structures (AB, ABA, rondo); a first map of
-music history; singing in tune in unison and simple rounds.
+**What this year assumes (from Year 4):** singing in unison, rounds ("Kookaburra", "Dona nobis pacem"),
+partner songs and call and response ("Siyahamba"); ukulele chords C, Am, F and G7 and the I–IV–V
+pattern ("La Bamba"); note values from semibreve to semiquaver, rests, dotted notes and time signatures
+including 5/4; samba, djembe drumming, Balinese gamelan and Indian raga and tala. These are **retrieved,
+not re-taught**.
 
-**What Year 6 relies on:** holding a part in a group; strumming at least four ukulele chords in time;
-playing a five-finger melody and simple chords on the keyboard; reading and writing rhythms in 2/4, 3/4
-and 4/4 with dotted notes; knowing features of at least three world musical traditions; and composing a
-structured piece with others — ready for ensemble work, more advanced keyboard skills and a fuller
-history of music.
+**What Year 6 relies on:** holding a harmony part; strumming and fingerpicking in at least two keys;
+playing a five-finger melody and C, F and G triads on the keyboard; reading rhythms in simple and
+compound time with ties and syncopation, and naming notes on the treble stave; knowing features of the
+traditions met in Years 4 and 5; and composing a song to words with others — ready for the grand staff,
+scales and harmony, the blues, deeper world-music study, programme and film music, and songwriting with
+technology.
 
 ## Time budget
 
@@ -39,71 +44,71 @@ history of music.
 
 | Unit | Title | Main strand | Term | Lessons |
 |---|---|---|---|---|
-| 1 | Singing in parts | Singing | 1 | 6 (1–6) |
-| 2 | Ukulele: chords and accompaniment | Playing | 1 | 6 (7–12) |
-| 3 | Reading rhythm and pitch | Notation | 2 | 5 (13–17) |
-| 4 | Music of the world: drums, raga and gamelan | Listening and playing | 2 | 6 (18–23) |
+| 1 | Choral singing: harmony and world choirs | Singing | 1 | 6 (1–6) |
+| 2 | Ukulele II: new keys, fingerpicking and TAB | Playing | 1 | 6 (7–12) |
+| 3 | Reading music: compound time, syncopation and pitch | Notation | 2 | 5 (13–17) |
+| 4 | Music of the world II: taiko, kora, panpipes, son and maqam | Listening and playing | 2 | 6 (18–23) |
 | 5 | Keyboard basics | Playing | 3 | 6 (24–29) |
-| 6 | Composing a film soundtrack | Composing and technology | 3 | 6 (30–35) |
+| 6 | Stories in song: opera, musical theatre and *The Tempest* | Composing and performing | 3 | 6 (30–35) |
 | | **Total** | | | **35** |
 
 ---
 
-## Unit 1 — Singing in parts
+## Unit 1 — Choral singing: harmony and world choirs
 
-**Essential question:** How can different voices sing different things at the same time and still sound like one piece of music?
+**Essential question:** How can a choir sound like one instrument when every voice sings something different?
 
-**Key vocabulary:** unison, round, canon, partner song, harmony, part, call and response, blend, balance, breath, phrase, posture, dynamics, crescendo, diminuendo
+**Key vocabulary:** unison, harmony, part, third, drone, descant, melody, blend, balance, breath, phrase, posture, diction, dynamics, crescendo, diminuendo, a cappella, isicathamiya
 
 ### Lesson 1 — The singer's toolkit
 - **Duration:** 35 min
-- **Objective:** "By the end, I can use good posture, breathing and diction to sing a phrase clearly in unison." (UK NC KS2 music — singing)
+- **Objective:** "By the end, I can use good posture, breathing and diction to shape a long phrase in unison." (UK NC KS2 music — singing)
 - **Hook:** "Why do singers yawn and hiss before they sing?"
-- **Key activity:** Warm-ups (posture, breathing with a hiss for 10 counts, lip trills, sirens); learn "Kookaburra" (by Marion Sinclair, Australia) in unison, focusing on breathing at phrase ends and clear consonants.
-- **Check for understanding:** "Where should you breathe in this song, and why there?" → At the end of a phrase, so the words and melody aren't broken in the middle.
-- **Differentiation:** support: breathing marks drawn on the lyrics / stretch: sing a phrase in one breath with a crescendo.
+- **Key activity:** Warm-ups (posture, breathing with a hiss for 10 counts, lip trills, sirens); quick retrieval of a Year 4 round ("Kookaburra"); then learn the traditional folk song "The Water Is Wide" in unison, shaping its long phrases with breath control and a crescendo to the phrase peak.
+- **Check for understanding:** "Where should you breathe in this song, and why there — not in the middle of 'the water is wide'?" → At the end of a phrase, so the words and the shape of the melody aren't broken.
+- **Differentiation:** support: breathing marks drawn on the lyrics / stretch: sing a whole phrase in one breath with a crescendo and diminuendo.
 - **Materials:** lyric sheets with breath marks, piano or recording.
 - **Joy:** "Longest hiss" breathing challenge.
 
-### Lesson 2 — Rounds
+### Lesson 2 — Harmony in thirds
 - **Duration:** 35 min
-- **Objective:** "By the end, I can hold my part in a two- and three-part round." (UK NC KS2 music — singing in parts)
-- **Hook:** "One tune, sung at different times, makes harmony. How?"
-- **Key activity:** Sing "Kookaburra" as a round in two, then three groups; then "Dona nobis pacem" (traditional round, Latin for 'give us peace'); discuss how entries create harmony.
-- **Check for understanding:** "What is the trick to not getting lost in a round?" → Listen to your own group, keep a steady beat and know your entry point — don't follow the other groups.
-- **Differentiation:** support: stand with a confident singer in your group / stretch: sing in a small group of three, one per part.
-- **Materials:** lyric sheets, entry-cue cards.
-- **Joy:** the whole class singing a round in four parts.
-
-### Lesson 3 — Call and response: "Siyahamba"
-- **Duration:** 35 min
-- **Objective:** "By the end, I can sing a call-and-response song with confidence and understand its origin." (UK NC KS2 music — singing / world music)
-- **Hook:** "This song from South Africa means 'We are marching (in the light of God)'. It's often sung while moving."
-- **Key activity:** Learn "Siyahamba" in isiZulu (with pronunciation guide) and English; call-and-response between leader and group; add stepping movement.
-- **Check for understanding:** "What is call and response, and why is it useful for group singing?" → A leader sings a phrase and the group answers; everyone can join quickly and it builds energy.
-- **Differentiation:** support: sing the response only / stretch: lead the call.
-- **Materials:** lyrics with pronunciation guide, recording, djembe for the beat.
-- **Joy:** singing and marching around the hall.
-
-### Lesson 4 — Partner songs
-- **Duration:** 35 min
-- **Objective:** "By the end, I can sing one song while another group sings a different song that fits with it." (UK NC KS2 music — singing in parts)
-- **Hook:** "Two different songs at once — can it work?"
-- **Key activity:** Learn two songs with the same chord pattern (e.g. "When the Saints Go Marching In" and "This Little Light of Mine", both traditional, or a teacher-chosen partner-song pair); sing separately, then together.
-- **Check for understanding:** "Why do these two songs fit together?" → They share the same chords and beat, so their melodies harmonise.
-- **Differentiation:** support: sing the simpler song with a leader / stretch: sing in a small group of four, two per song.
-- **Materials:** lyric sheets, chord chart, recording.
-- **Joy:** the moment both songs click together.
-
-### Lesson 5 — Two-part harmony
-- **Duration:** 35 min
-- **Objective:** "By the end, I can sing a simple harmony line (in thirds) against a melody." (UK NC KS2 music — singing in parts)
+- **Objective:** "By the end, I can sing a simple harmony line a third above or below a melody." (UK NC KS2 music — singing in parts)
 - **Hook:** "Some notes sound sweet together. Let's find them."
-- **Key activity:** Sing a scale; group A holds 'do', group B moves up to 'mi' — hear the third; learn a simple harmony line in thirds for a short song phrase (e.g. the chorus of "Siyahamba").
-- **Check for understanding:** "What does 'singing in harmony' mean, compared with singing in unison?" → Singing different notes that sound good together, rather than the same notes.
+- **Key activity:** Sing a scale with sol-fa hand signs; group A holds 'do', group B moves up to 'mi' — hear the third; learn a harmony line in thirds for the chorus of "The Water Is Wide"; swap parts.
+- **Check for understanding:** "What does 'singing in harmony' mean, and how is it different from a round?" → Singing different notes that sound good together at the same moment; in a round everyone sings the same tune starting at different times.
 - **Differentiation:** support: sing the melody while a strong group sings harmony / stretch: sing the harmony in a group of two.
 - **Materials:** keyboard for pitching, sol-fa hand-sign chart.
 - **Joy:** the 'goosebumps' moment of the first harmony.
+
+### Lesson 3 — South African choral singing: isicathamiya and "Shosholoza"
+- **Duration:** 35 min
+- **Objective:** "By the end, I can sing a South African choral song with a lead and a harmonised response, and describe features of isicathamiya." (UK NC KS2 music — singing / world music)
+- **Hook:** Ladysmith Black Mambazo, led by Joseph Shabalala: "How can ten men with no instruments sound like a whole orchestra?"
+- **Key activity:** Listen to isicathamiya (soft, blended a cappella harmony, low bass voices, gentle stepping — developed by Zulu migrant workers); learn "Shosholoza" (a traditional Nguni song sung by miners travelling by train, now an unofficial national song) with a pronunciation guide: leader's call and a harmonised group response; add the train-like bass ostinato.
+- **Check for understanding:** "How is 'Shosholoza' different from Year 4's call and response in 'Siyahamba'?" → Here the response is sung in harmony over a repeating bass ostinato, so the texture is thicker; the leader and group overlap.
+- **Differentiation:** support: sing the bass ostinato / stretch: lead the call or sing the upper harmony.
+- **Materials:** lyrics with pronunciation guide, recordings of Ladysmith Black Mambazo, a map of South Africa.
+- **Joy:** the "train" — the bass line starts slow and the whole choir speeds up together.
+
+### Lesson 4 — Singing a descant from notation
+- **Duration:** 35 min
+- **Objective:** "By the end, I can follow my part in a simple two-part vocal score and sing a descant above a melody." (UK NC KS2 music — singing / notation)
+- **Hook:** "A descant floats above the tune like a bird above a ship."
+- **Key activity:** Look at a two-part vocal score (melody below, descant above); follow the shape of your line with a finger (higher on the stave = higher pitch); learn a descant for a well-known song ("Amazing Grace" or a school song) by ear and from notation; perform in two groups.
+- **Check for understanding:** "On the score, how can you tell your part goes higher than the melody at the end?" → The notes of my line sit higher on the stave than the melody's notes.
+- **Differentiation:** support: sing the melody with the score as a guide / stretch: sing the descant in a small group.
+- **Materials:** two-part vocal score, keyboard, recording.
+- **Joy:** hearing the descant soar over the whole class.
+
+### Lesson 5 — Three-part singing: "Tue Tue"
+- **Duration:** 35 min
+- **Objective:** "By the end, I can hold one of three parts in a partner-song-style arrangement and keep my part against the others." (UK NC KS2 music — singing in parts)
+- **Hook:** "A Ghanaian song in three layers — can each group keep its own?"
+- **Key activity:** Learn the traditional Ghanaian song "Tue Tue" in three layered parts (a low ostinato, the main melody and a high answering part); add clapping patterns; layer the parts one at a time, then all together.
+- **Check for understanding:** "What is the trick to holding your part when two other parts are going on?" → Listen to your own group, know your first note and entry point, keep the pulse — and listen to how your part fits, not to copy the others.
+- **Differentiation:** support: stand with a confident singer in your group / stretch: sing in a small group of three, one per part.
+- **Materials:** lyric sheets, part cards, recording.
+- **Joy:** all three layers locking together.
 
 ### Lesson 6 — Choir performance and appraisal
 - **Duration:** 40 min
@@ -115,207 +120,207 @@ history of music.
 - **Materials:** recording device, performance space, appraisal cards.
 - **Joy:** the concert.
 
-**End-of-unit check:** Pupil holds their part in a three-part round and a partner song, sings a simple harmony line, and appraises a recording using the words balance, blend and dynamics.
+**End-of-unit check:** Pupil sings a harmony line in thirds, holds one part in a three-part arrangement, follows their line in a simple vocal score, and appraises a recording using the words balance, blend and dynamics.
 
 ---
 
-## Unit 2 — Ukulele: chords and accompaniment
+## Unit 2 — Ukulele II: new keys, fingerpicking and TAB
 
-**Essential question:** How do chords turn a melody into a full song?
+**Essential question:** How can the same four strings sound like a folk song, a reggae band or a harp?
 
-**Key vocabulary:** ukulele, string, fret, chord, chord diagram, strum, down-strum, up-strum, strumming pattern, chord change, accompaniment, tuning, G C E A
+**Key vocabulary:** ukulele, fret, chord, chord diagram, key, G major, D major, E minor, strum, fingerpicking, arpeggio, thumb, TAB (tablature), riff, off-beat, skank, accompaniment
 
-### Lesson 7 — Ukulele refresh: tuning and C chord
+### Lesson 7 — Refresh and two new chords: G and Em
 - **Duration:** 35 min
-- **Objective:** "By the end, I can hold the ukulele correctly, read a chord diagram and strum a C chord in time." (UK NC KS2 music — playing)
-- **Hook:** "One finger, one chord, a thousand songs."
-- **Key activity:** Revise holding, tuning (G C E A — "Good Cooks Eat Apples"), reading chord diagrams; play C (third fret, A string) with steady down-strums to a backing track.
-- **Check for understanding:** "On a chord diagram, what do the vertical lines and the dots show?" → The lines are strings and the dots show where to put your fingers on the frets.
-- **Differentiation:** support: coloured stickers on the fret / stretch: try a G7 chord.
-- **Materials:** ukuleles (one per pupil or pair), clip-on tuners, chord diagrams, backing tracks.
-- **Joy:** strum along to a favourite song in C.
-
-### Lesson 8 — Am and F: changing chords
-- **Duration:** 35 min
-- **Objective:** "By the end, I can change between C, Am and F in time." (UK NC KS2 music — playing)
-- **Hook:** "Some of the most famous pop songs use just a few chords. Let's learn three."
-- **Key activity:** Learn Am (second fret, G string) and F (second fret G string + first fret E string); practise changes slowly with a metronome; "anchor finger" tips.
-- **Check for understanding:** "Which finger stays in the same place when you change from Am to F?" → The finger on the second fret of the G string.
-- **Differentiation:** support: change every four beats / stretch: change every two beats.
-- **Materials:** ukuleles, chord charts, metronome.
+- **Objective:** "By the end, I can change cleanly between Year 4's chords and the new chords G and Em." (UK NC KS2 music — playing)
+- **Hook:** "You already know C, Am, F and G7. Two new shapes will unlock hundreds of songs."
+- **Key activity:** Tune up (G C E A); five-minute retrieval of C, Am, F, G7 with the I–IV–V pattern; learn G (three fingers) and Em; practise the changes C–Em and G–C slowly with a metronome, keeping an 'anchor finger' where possible.
+- **Check for understanding:** "Which finger can stay in place when you change from G to Em, and why does that help?" → Pupils find a shared note or a short slide between the shapes; keeping a finger anchored makes the change quicker and cleaner.
+- **Differentiation:** support: change every four beats / stretch: change every two beats and name the notes in each chord.
+- **Materials:** ukuleles, clip-on tuners, chord diagrams, metronome.
 - **Joy:** "Chord-change race" — how many clean changes in 30 seconds?
 
-### Lesson 9 — G chord and a four-chord song
+### Lesson 8 — The key of G and a song from Kenya
 - **Duration:** 35 min
-- **Objective:** "By the end, I can play a four-chord sequence (C–G–Am–F) to accompany a song." (UK NC KS2 music — playing)
-- **Hook:** "C–G–Am–F: a chord pattern used in many well-known songs."
-- **Key activity:** Learn G (three fingers); play the sequence with a backing track; sing a song that uses it (teacher's choice) while strumming.
-- **Check for understanding:** "Why is it easier to sing along once your chord changes are automatic?" → You don't have to think about your fingers, so you can focus on singing and the beat.
-- **Differentiation:** support: play C and Am only while a partner plays G and F / stretch: sing and strum at the same time.
-- **Materials:** ukuleles, chord charts, backing tracks.
-- **Joy:** full-class singalong with ukuleles.
+- **Objective:** "By the end, I can play a song in the key of G using G, C and D, and explain what changing key does." (UK NC KS2 music — playing)
+- **Hook:** "'Jambo Bwana' greets you in Swahili ('Hello, sir') — and it's sung all over Kenya (geography link)."
+- **Key activity:** Learn D (three fingers on the second fret); play G–C–D as I–IV–V in G and compare with Year 4's C–F–G in C (same pattern, different starting note); accompany "Jambo Bwana" (written by Teddy Kalanda Harrison of the Kenyan band Them Mushrooms, early 1980s) while others sing.
+- **Check for understanding:** "Why do G–C–D in the key of G and C–F–G in the key of C sound like the same pattern?" → Both are chords I, IV and V — the same relationships starting from a different home note.
+- **Differentiation:** support: play only the G and C chords while a partner plays D / stretch: sing and strum at the same time.
+- **Materials:** ukuleles, chord charts, lyric sheet, recording.
+- **Joy:** a Swahili singalong with ukuleles.
 
-### Lesson 10 — Strumming patterns
+### Lesson 9 — Reading ukulele TAB
 - **Duration:** 35 min
-- **Objective:** "By the end, I can play a down–up strumming pattern with rhythm and accents." (UK NC KS2 music — playing / rhythm)
-- **Hook:** "The same chords can sound like reggae, pop or a lullaby. The difference is the strum."
-- **Key activity:** Learn patterns: D D D D; D DU DU D; D DU UDU (a common pop pattern); reggae off-beat strums; link to rhythm notation (quavers).
-- **Check for understanding:** "How does a strumming pattern change the style of a song?" → Different rhythms and accents give different feels (e.g. off-beats for reggae).
-- **Differentiation:** support: down-strums only with accents / stretch: invent a pattern and notate it.
-- **Materials:** ukuleles, pattern cards, style examples.
-- **Joy:** "Style switch" — same song in three styles.
+- **Objective:** "By the end, I can read ukulele tablature (TAB) and play a short melody or riff from it." (UK NC KS2 music — playing / notation)
+- **Hook:** "Four lines, some numbers — and suddenly you can play a tune. How does TAB work?"
+- **Key activity:** TAB: each line is a string (A at the top, G at the bottom), each number is a fret (0 = open); play single-note riffs and a short folk melody from TAB; compare TAB with staff notation (TAB shows where to put your finger; the stave shows pitch and rhythm).
+- **Check for understanding:** "What does a '3' on the top line of ukulele TAB tell you to do, and what doesn't TAB tell you?" → Play the A string at the third fret (the note C); basic TAB usually doesn't show rhythm, so you need to know the tune or have rhythm added.
+- **Differentiation:** support: a riff using open strings and one fret / stretch: write your own four-bar riff in TAB and teach it to a partner.
+- **Materials:** ukuleles, TAB sheets, staff-notation version of the same melody.
+- **Joy:** "Riff relay" — each pair teaches a riff to the next.
 
-### Lesson 11 — "La Bamba" on ukulele
+### Lesson 10 — Fingerpicking
 - **Duration:** 35 min
-- **Objective:** "By the end, I can accompany "La Bamba" with a C–F–G pattern while others sing (Spanish link)." (UK NC KS2 music — playing / world music)
-- **Hook:** "Remember 'La Bamba' from Spanish? Let's play it."
-- **Key activity:** Play the repeating C–F–G–(F) pattern; half the class sings, half plays; swap; add percussion.
-- **Check for understanding:** "What makes 'La Bamba' easy to accompany?" → The same short chord pattern repeats throughout.
-- **Differentiation:** support: play only on the first beat of each bar / stretch: add a simple riff on the A string.
-- **Materials:** ukuleles, lyrics, shakers, recording.
-- **Joy:** a Mexican-style fiesta performance.
+- **Objective:** "By the end, I can play a simple fingerpicking pattern over a chord sequence." (UK NC KS2 music — playing / timbre)
+- **Hook:** "The same chords, but instead of strumming — pluck. It sounds like a harp. Why?"
+- **Key activity:** Thumb plays the G and C strings, index and middle fingers play the E and A strings; learn a four-note pattern (thumb–index–middle–index) over C–Am–F–G; compare the texture of strumming and fingerpicking (chord vs broken chord / arpeggio).
+- **Check for understanding:** "How does fingerpicking change the mood of a song compared with strumming?" → Notes sound one at a time as an arpeggio, giving a lighter, gentler, flowing texture instead of a full, percussive chord.
+- **Differentiation:** support: thumb-only pattern on the beat / stretch: a pattern that changes between the verse and the chorus.
+- **Materials:** ukuleles, pattern cards, recordings of fingerpicked songs.
+- **Joy:** "Harp mode" — a fingerpicked lullaby played to the class.
+
+### Lesson 11 — Reggae on ukulele: "Three Little Birds"
+- **Duration:** 35 min
+- **Objective:** "By the end, I can play an off-beat reggae strum ('skank') in time and explain why it gives reggae its feel." (UK NC KS2 music — playing / world music)
+- **Hook:** Bob Marley's "Three Little Birds" (Jamaica, 1977): "Why does reggae make you want to sway rather than march?"
+- **Key activity:** Learn the chords (A, D and E7 on ukulele); count 1-and-2-and; strum short, muted chords only on the 'ands' (the off-beats); play along with the recording; half the class keeps the beat on shakers.
+- **Check for understanding:** "Where are your strums in the bar, and why does that make reggae feel relaxed?" → On the off-beats between the counts; accenting the weak part of the beat creates a laid-back, swaying groove (link to syncopation in Unit 3).
+- **Differentiation:** support: play only the A chord on the off-beats / stretch: add a bass-line riff from TAB.
+- **Materials:** ukuleles, chord charts, recording, shakers.
+- **Joy:** a sunshine singalong.
 
 ### Lesson 12 — Ukulele band performance
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform in a ukulele band, keeping in time with others." (UK NC KS2 music — performing)
+- **Objective:** "By the end, I can perform in a ukulele band with different roles, keeping in time with others." (UK NC KS2 music — performing)
 - **Hook:** "The Year 5 Ukulele Orchestra takes the stage."
-- **Key activity:** Rehearse two songs; groups take roles (chords, riff, singers, percussion); perform and record; appraise.
-- **Check for understanding:** "What did you do when you lost your place during the performance?" → Keep strumming the beat, listen, and rejoin on the next chord change — never stop the band.
-- **Differentiation:** support: chord role with a simplified pattern / stretch: lead the band with count-ins and endings.
+- **Key activity:** Rehearse two of the unit's songs; groups take roles (strumming chords, fingerpicking, TAB riff, singers, percussion); perform and record; appraise.
+- **Check for understanding:** "What did you do when you lost your place during the performance?" → Keep the beat, listen, and rejoin on the next chord change — never stop the band.
+- **Differentiation:** support: strumming role with a simplified pattern / stretch: lead the band with count-ins and endings, or play the fingerpicked intro.
 - **Materials:** ukuleles, percussion, recording device.
 - **Joy:** the ukulele concert.
 
-**End-of-unit check:** Pupil changes cleanly between C, Am, F and G in time, plays a strumming pattern, and accompanies a song in a group performance.
+**End-of-unit check:** Pupil changes cleanly between chords in C and G, plays a fingerpicking pattern and an off-beat reggae strum in time, reads a short riff from TAB, and plays a role in a group performance.
 
 ---
 
-## Unit 3 — Reading rhythm and pitch
+## Unit 3 — Reading music: compound time, syncopation and pitch
 
 **Essential question:** How does notation let musicians share music across time and distance?
 
-**Key vocabulary:** semibreve, minim, crotchet, quaver, semiquaver, dotted note, rest, tie, bar, bar line, time signature, 4/4, 3/4, 6/8, syncopation, treble clef, stave, sharp, flat
+**Key vocabulary:** simple time, compound time, 6/8, dotted crotchet beat, tie, syncopation, off-beat, accent, treble clef, stave, ledger line, step, leap, sharp, flat, dictation
 
-### Lesson 13 — Time signatures: 4/4 and 3/4
+### Lesson 13 — Compound time: 6/8
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain what a time signature tells me and feel the difference between 4/4 and 3/4." (UK NC KS2 music — notation)
-- **Hook:** "March or waltz? Your body knows before your brain does."
-- **Key activity:** Listen to a march and a waltz (e.g. Johann Strauss II's *The Blue Danube*); step and clap the beats; read and clap rhythms in each; complete bars with the right number of beats (maths link: fractions).
-- **Check for understanding:** "In 3/4, what does the top 3 tell you, and what does the bottom 4 tell you?" → Three beats in each bar; each beat is a crotchet.
-- **Differentiation:** support: rhythm cards with beat counts written above / stretch: identify the time signature of an unknown piece by listening.
+- **Objective:** "By the end, I can feel and clap music in 6/8 and explain how it differs from 3/4." (UK NC KS2 music — notation)
+- **Hook:** "An Irish jig and a Viennese waltz both have six quavers in a bar. So why do they feel completely different?"
+- **Key activity:** Retrieve Year 4's 2/4, 3/4 and 4/4 in two minutes. New: in 6/8 the quavers group in two sets of three (two dotted-crotchet beats: ONE-two-three FOUR-five-six); in 3/4 they group in three pairs. Listen to a jig (e.g. "The Irish Washerwoman") and "Row, Row, Row Your Boat"; step the two big beats; read and clap 6/8 rhythms.
+- **Check for understanding:** "Both 6/8 and 3/4 hold six quavers. Why do they feel different?" → In 6/8 the quavers group into two beats of three (a lilting 'two'); in 3/4 they group into three beats of two (a 'one-two-three' waltz).
+- **Differentiation:** support: rhythm cards with the groupings shown in colour / stretch: identify whether an unknown piece is in 6/8 or 3/4 by listening.
 - **Materials:** recordings, rhythm cards, mini-whiteboards.
-- **Joy:** waltz and march around the room.
+- **Joy:** jig and waltz around the room — and switch when the music does.
 
-### Lesson 14 — Dotted notes and ties
+### Lesson 14 — Ties and syncopation
 - **Duration:** 35 min
-- **Objective:** "By the end, I can read and perform dotted notes and ties." (UK NC KS2 music — notation)
-- **Hook:** "A dot after a note adds half its value. What's a dotted minim worth?"
-- **Key activity:** Learn dotted minim (3 beats), dotted crotchet + quaver; ties across bar lines; clap and play rhythms on percussion; spot them in "Happy Birthday" (3/4).
-- **Check for understanding:** "What is the difference between a dotted minim and a minim tied to a crotchet?" → They last the same (3 beats); the tie is needed when the sound crosses a bar line.
-- **Differentiation:** support: rhythm grid with counts shown / stretch: write and perform a rhythm with a dotted crotchet–quaver pattern.
-- **Materials:** rhythm cards, percussion, whiteboards.
-- **Joy:** "Rhythm detectives" spotting dotted rhythms in famous tunes.
-
-### Lesson 15 — Semiquavers and syncopation
-- **Duration:** 35 min
-- **Objective:** "By the end, I can perform semiquavers and syncopated rhythms accurately." (UK NC KS2 music — rhythm)
+- **Objective:** "By the end, I can read and perform tied notes and syncopated rhythms and explain what syncopation is." (UK NC KS2 music — notation / rhythm)
 - **Hook:** "Why does some music make you want to move? Often it's syncopation — accents off the beat."
-- **Key activity:** Use word rhythms (e.g. 'wa-ter-mel-on' for four semiquavers); clap syncopated patterns; listen for syncopation in a jazz or Latin piece (e.g. a ragtime piece by Scott Joplin, *The Entertainer*).
-- **Check for understanding:** "What is syncopation?" → Accenting notes that fall between or off the main beats.
-- **Differentiation:** support: speak word rhythms before clapping / stretch: compose a two-bar syncopated rhythm and teach it.
+- **Key activity:** Ties (joining two notes into one sound, including across a bar line); syncopation made with ties and off-beat accents; word rhythms; clap syncopated patterns against a steady pulse; spot them in Scott Joplin's *The Entertainer* (1902) and in the reggae strum from Unit 2.
+- **Check for understanding:** "What is the difference between a dotted minim and a minim tied to a crotchet — and when must you use the tie?" → They last the same (3 beats); the tie is needed when the sound crosses a bar line.
+- **Differentiation:** support: speak word rhythms before clapping / stretch: compose a two-bar syncopated rhythm using a tie and teach it.
 - **Materials:** rhythm cards, recordings, body percussion.
 - **Joy:** syncopated body-percussion routine.
 
-### Lesson 16 — Pitch on the treble stave
+### Lesson 15 — Pitch on the treble stave
 - **Duration:** 35 min
 - **Objective:** "By the end, I can name notes on the treble stave from middle C to high G, including sharps and flats." (UK NC KS2 music — notation)
 - **Hook:** "Every Good Boy Deserves Football — and FACE in the spaces."
 - **Key activity:** Revise the lines (E G B D F) and spaces (F A C E); add middle C and D below; introduce sharps and flats (black keys); note-naming games on stave cards and a keyboard.
-- **Check for understanding:** "What does a sharp sign do to a note?" → It raises it by a semitone (the next key up, often a black key).
+- **Check for understanding:** "What does a sharp sign do to a note, and where would you find F sharp on the keyboard?" → It raises the note by a semitone; F sharp is the black key just to the right of F.
 - **Differentiation:** support: note-name reference card / stretch: name notes with ledger lines above the stave.
 - **Materials:** stave flashcards, keyboard, note-naming apps or games.
 - **Joy:** "Note-name speed round".
+
+### Lesson 16 — Reading a melody: steps and leaps
+- **Duration:** 35 min
+- **Objective:** "By the end, I can read the shape of a melody (steps, leaps, repeated notes) and sing or play a short melody at sight." (UK NC KS2 music — notation)
+- **Hook:** "You don't need to name every note to read music — you can read its shape. Watch."
+- **Key activity:** Identify steps (line to next space), leaps and repeated notes in short melodies; trace the contour with a hand; sight-sing with sol-fa and play on glockenspiel or ukulele; spot these shapes in "The Water Is Wide" and "Ode to Joy" (ready for Unit 5).
+- **Check for understanding:** "Looking at this bar, which note is the biggest leap, and how can you tell before playing it?" → The two notes with the most lines and spaces between them; the bigger the gap on the stave, the bigger the leap in pitch.
+- **Differentiation:** support: melodies with only steps and repeated notes / stretch: sight-read a melody with a leap of a fifth or more.
+- **Materials:** melody cards, glockenspiels, ukuleles.
+- **Joy:** "Melody detectives" — guess the famous tune from its shape.
 
 ### Lesson 17 — Dictation and notation check
 - **Duration:** 35 min
 - **Objective:** "By the end, I can write down a short rhythm I hear and read a short melody at sight." (UK NC KS2 music — notation / assessment)
 - **Hook:** "Can you write down what you hear — like a musical spy?"
-- **Key activity:** Rhythm dictation (two bars); sight-clap four-bar rhythms; sight-sing or play a short melody on the ukulele or glockenspiel.
-- **Check for understanding:** "Clap this rhythm and tell me its time signature." → Correct performance and time signature.
+- **Key activity:** Rhythm dictation (two bars, including a tie or 6/8 bar); sight-clap four-bar rhythms; sight-sing or play a short melody on the ukulele or glockenspiel.
+- **Check for understanding:** "Clap this rhythm and tell me whether it is in 6/8 or 3/4, and how you know." → Correct performance and time signature, explained by the grouping of the quavers.
 - **Differentiation:** support: fill-the-gap dictation / stretch: dictate a melody (pitch and rhythm).
 - **Materials:** dictation sheets, glockenspiels, rhythm cards.
 - **Joy:** "Music spy" dictation game.
 
-**End-of-unit check:** Pupil reads and performs rhythms in 4/4 and 3/4 including dotted notes and semiquavers, names notes on the treble stave, and writes down a two-bar rhythm by ear.
+**End-of-unit check:** Pupil reads and performs rhythms in simple and compound time including ties and syncopation, names notes on the treble stave, reads the shape of a melody, and writes down a two-bar rhythm by ear.
 
 ---
 
-## Unit 4 — Music of the world: drums, raga and gamelan
+## Unit 4 — Music of the world II: taiko, kora, panpipes, son and maqam
 
-**Essential question:** How do musicians in different cultures organise rhythm, melody and texture?
+**Essential question:** What can five very different traditions teach us about rhythm, melody and playing together?
 
-**Key vocabulary:** djembe, polyrhythm, call and response, master drummer, cycle, raga, tala, drone, sitar, tabla, improvisation, gamelan, metallophone, gong, interlocking, cyclic, texture
+**Key vocabulary:** taiko, kata, kiai, ensemble, kora, griot, ostinato, siku, hocket, interlocking, son, clave, tres, maqam, oud, microtone, improvisation, texture
 
-### Lesson 18 — West African drumming
+### Lesson 18 — Japanese taiko: drumming as ensemble and movement
 - **Duration:** 40 min
-- **Objective:** "By the end, I can play a part in a West African drumming pattern and follow a master drummer's call." (UK NC KS2 music — world music / performing)
-- **Hook:** "In many West African traditions, a lead drummer 'talks' to the group with rhythms."
-- **Key activity:** Learn djembe technique (bass, tone, slap); learn two interlocking rhythms; respond to the master drummer's call signals (start, stop, change).
-- **Check for understanding:** "What is a polyrhythm?" → Two or more different rhythms played at the same time that fit together.
-- **Differentiation:** support: play the steady bass part / stretch: take the master drummer role.
-- **Materials:** djembes (or hand drums/buckets), rhythm cards, recordings of West African drumming (e.g. from Guinea or Mali).
-- **Joy:** full-class drum circle.
+- **Objective:** "By the end, I can play a part in a taiko-style piece with precise unison, shouts (kiai) and movement." (UK NC KS2 music — world music / performing)
+- **Hook:** A taiko ensemble such as Kodo: "Why do taiko drummers move and shout as well as drum?"
+- **Key activity:** Watch and discuss taiko (large drums, powerful full-body strokes, *kata* — set movements, *kiai* — shouts that keep the group together); on buckets or tyres with sticks, learn a base rhythm and a lead pattern; practise starting and stopping together exactly.
+- **Check for understanding:** "Why are the kiai and the movements part of the music, not just decoration?" → They help the ensemble stay together and show the energy and timing to each other and the audience; the performance is seen as well as heard.
+- **Differentiation:** support: play the steady base rhythm / stretch: play the lead pattern and call the changes.
+- **Materials:** large drums, buckets or tyres with beaters, recording or video of a taiko ensemble, ear defenders if needed.
+- **Joy:** the big unison finish.
 
 ### Lesson 19 — Listening: kora and the griots
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe the sound and role of the kora and griot tradition (history link)." (UK NC KS2 music — listening)
+- **Objective:** "By the end, I can describe the sound and role of the kora and griot tradition." (UK NC KS2 music — listening)
 - **Hook:** "A harp-lute with 21 strings, played by storytellers for centuries."
-- **Key activity:** Listen to kora music (e.g. Toumani Diabaté, from Mali); describe texture (bass, melody and improvisation played by one musician); link to the griots of the Mali Empire (history Unit 4).
-- **Check for understanding:** "How can one kora player create several layers of music at once?" → The thumbs play a bass ostinato while fingers play melody and improvised runs.
-- **Differentiation:** support: listening grid with vocabulary / stretch: compare kora texture with the ukulele accompaniment we played.
+- **Key activity:** Listen to kora music (e.g. Toumani Diabaté, from Mali); describe texture (bass ostinato, melody and improvised runs played by one musician); learn about griots as musicians, historians and advisers (the Mali Empire is studied in Year 6 history).
+- **Check for understanding:** "How can one kora player create several layers of music at once?" → The thumbs play a bass ostinato while the fingers play melody and improvised runs.
+- **Differentiation:** support: listening grid with vocabulary / stretch: compare the kora's texture with the fingerpicked ukulele from Unit 2.
 - **Materials:** recordings, images of the kora, listening grids.
 - **Joy:** eyes-closed listening with a 'mind picture' drawing.
 
-### Lesson 20 — Indian classical music: raga and tala
+### Lesson 20 — Andean panpipes: sharing a melody (hocket)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe a raga, a tala and a drone and improvise over a drone." (UK NC KS2 music — world music)
-- **Hook:** Listen to Ravi Shankar playing the sitar. "There's no written score. How do the musicians know what to play?"
-- **Key activity:** Explain raga (a set of notes and melodic rules, often linked to a time of day or mood), tala (a rhythmic cycle, e.g. teentaal of 16 beats), drone (e.g. tanpura). Pupils improvise on a five-note scale over a drone on keyboards or glockenspiels; clap a tala cycle.
-- **Check for understanding:** "What is the job of the drone in Indian classical music?" → It sounds continuously, giving a steady home note for the melody.
-- **Differentiation:** support: improvise with three notes / stretch: improvise a phrase that ends on the home note and repeats with variation.
-- **Materials:** recordings of Ravi Shankar, tanpura drone track, glockenspiels or keyboards, tala clap chart.
-- **Joy:** improvising over the drone.
+- **Objective:** "By the end, I can play my half of a melody in a hocket, so that two players together make one tune." (UK NC KS2 music — world music / performing)
+- **Hook:** "The siku panpipes of Peru and Bolivia are split into two halves. Neither player can play the whole tune alone. Why would anyone design an instrument like that?"
+- **Key activity:** Listen to siku ensembles; learn how the notes of the scale alternate between the two rows (*ira* and *arca*), so players must interlock (hocket); on glockenspiels, split a simple melody between two players, each playing alternate notes; link to the Spanish region study of Peru.
+- **Check for understanding:** "What happens to the melody if one player in a hocket stops?" → Half the notes disappear and the tune falls apart — the music only exists when both players work together.
+- **Differentiation:** support: a four-note melody with the notes colour-coded for each player / stretch: hocket a longer melody at speed.
+- **Materials:** glockenspiels, colour-coded note cards, recordings of siku ensembles, a map of the Andes.
+- **Joy:** "Two halves, one tune" — perform your hocket blindfolded to prove you're listening.
 
-### Lesson 21 — Gamelan: interlocking patterns
+### Lesson 21 — Cuban son and the clave
 - **Duration:** 40 min
-- **Objective:** "By the end, I can play an interlocking part in a gamelan-style piece." (UK NC KS2 music — world music / performing)
-- **Hook:** "In Bali, two players can split one fast melody between them, each playing only half the notes."
-- **Key activity:** Listen to Balinese and Javanese gamelan; learn about the balungan (core melody), gongs marking the cycle, and interlocking parts; perform a gamelan-style piece on glockenspiels and metallophones with a gong cycle.
-- **Check for understanding:** "What does the big gong do in gamelan music?" → It marks the end or beginning of each cycle, like a musical full stop.
-- **Differentiation:** support: play the core melody / stretch: play an interlocking part.
-- **Materials:** glockenspiels, metallophones, gong or cymbal, recordings.
-- **Joy:** hearing the interlocking parts create one shimmering melody.
+- **Objective:** "By the end, I can play the son clave rhythm and layer it with other parts in a Cuban son groove." (UK NC KS2 music — world music / rhythm)
+- **Hook:** "Five claps hold together a whole style of music — and later salsa. Can you keep the clave steady while everything else happens around it?"
+- **Key activity:** Listen to Cuban son (e.g. the Buena Vista Social Club recordings: the *tres* guitar, bongos, maracas and voices); learn the 3-2 son clave on claves; layer a steady maraca pulse, a bass ostinato and a bongo pattern; link to syncopation (Unit 3).
+- **Check for understanding:** "Why is the clave called the 'key' of the music?" → Its syncopated pattern is the reference that every other part fits around; if it slips, the whole groove falls apart.
+- **Differentiation:** support: play the steady maraca pulse / stretch: play the clave while speaking the pulse, or switch to 2-3 clave.
+- **Materials:** claves (or two pencils), maracas, bongos or hand drums, recordings, a map of Cuba.
+- **Joy:** the full son groove with a sung chorus.
 
-### Lesson 22 — Comparing traditions
-- **Duration:** 35 min
-- **Objective:** "By the end, I can compare how three musical traditions use rhythm, melody and texture." (UK NC KS2 music — appraising)
-- **Hook:** "Drums, sitar, gamelan: what do they share?"
-- **Key activity:** Listen to short excerpts again; complete a comparison grid (instruments, rhythm, texture, structure, improvisation, cycles); discuss similarities (cycles, repetition) and differences.
-- **Check for understanding:** "Name one feature that West African drumming and gamelan share, and one difference." → e.g. both use cycles and interlocking parts; drumming is mainly percussion with call signals, gamelan uses tuned metallophones.
-- **Differentiation:** support: grid with key words / stretch: write a comparative paragraph using evidence from the listening.
-- **Materials:** recordings, comparison grids.
-- **Joy:** "Mystery excerpt" game — which tradition is this?
-
-### Lesson 23 — World music performance
+### Lesson 22 — Arabic music: maqam and the oud
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform in a piece inspired by one of the traditions and explain its features." (UK NC KS2 music — performing)
-- **Hook:** "World music day: three stages, three traditions."
-- **Key activity:** Groups choose one tradition, rehearse a short piece and introduce it (what listeners should notice); perform for the class.
-- **Check for understanding:** "What should the audience listen for in your performance?" → A clear feature (e.g. the tala cycle, the gong, the master drummer's call).
-- **Differentiation:** support: a steady-beat role / stretch: a leading or improvising role.
-- **Materials:** instruments from the unit, performance space.
-- **Joy:** world music performance day.
+- **Objective:** "By the end, I can describe what a maqam is and improvise a phrase in a maqam-inspired scale over a drone." (UK NC KS2 music — world music / improvising)
+- **Hook:** Listen to the oud (e.g. Munir Bashir or Naseer Shamma): "This instrument has no frets. Why might a musician want notes between the piano's keys?"
+- **Key activity:** The oud (fretless lute, ancestor of the European lute); a maqam as a scale with characteristic phrases and a mood, sometimes using intervals smaller than a Western semitone (microtones); listen for improvisation (*taqsim*); improvise a short phrase on keyboards or glockenspiels using a maqam-like scale (e.g. D–E♭–F♯–G–A–B♭–C–D, similar to maqam Hijaz) over a D drone.
+- **Check for understanding:** "Why can't a piano play every note of a maqam exactly?" → Some maqamat use notes between the piano's fixed semitones (microtones); a fretless instrument like the oud or the voice can slide to them.
+- **Differentiation:** support: improvise using only four notes of the scale / stretch: shape a phrase that rises, pauses and returns to the drone note.
+- **Materials:** recordings, images of the oud, keyboards or glockenspiels, a drone track.
+- **Joy:** "Taqsim circle" — each pupil adds a short improvised phrase.
 
-**End-of-unit check:** Pupil plays a part in a drumming or gamelan pattern, improvises over a drone, and compares two traditions using musical vocabulary.
+### Lesson 23 — Comparing traditions and world music performance
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare traditions from Years 4 and 5 and perform a piece that shows one tradition's key feature." (UK NC KS2 music — appraising / performing)
+- **Hook:** "Taiko, kora, siku, son and maqam — plus Year 4's samba, djembe, gamelan and raga. What connects them?"
+- **Key activity:** Mystery-excerpt listening; comparison grid (instruments, rhythm, texture, how players work together, improvisation); groups rehearse and perform a short piece from one Year 5 tradition, introducing what listeners should notice.
+- **Check for understanding:** "Name one way the siku hocket and Year 4's gamelan are similar, and one difference." → Both split a melody between players who interlock; the siku uses breath and panpipes in the Andes, the gamelan uses tuned metal instruments and a gong cycle in Indonesia.
+- **Differentiation:** support: grid with key words; a steady-beat role / stretch: a written comparison paragraph; a leading or improvising role.
+- **Materials:** recordings, comparison grids, instruments from the unit.
+- **Joy:** "World music day" performance.
+
+**End-of-unit check:** Pupil plays a part in a taiko, hocket or son groove, improvises a phrase over a drone, and compares two traditions using musical vocabulary.
 
 ---
 
@@ -389,93 +394,92 @@ history of music.
 
 ---
 
-## Unit 6 — Composing a film soundtrack
+## Unit 6 — Stories in song: opera, musical theatre and *The Tempest*
 
-**Essential question:** How does music tell a story and create feelings without words?
+**Essential question:** How do composers use songs to tell a story and show who a character is?
 
-**Key vocabulary:** programme music, soundtrack, leitmotif, tempo, accelerando, ritardando, crescendo, dynamics, timbre, texture, major, minor, ostinato, structure, loop, layer, sequencer, storyboard
+**Key vocabulary:** opera, aria, recitative, libretto, musical theatre, character, soprano, alto, tenor, bass, range, word setting, syllable, stress, strong beat, accompaniment, mood, storm music, ostinato
 
-### Lesson 30 — Music that tells stories
+### Lesson 30 — What is opera? Mozart's *The Magic Flute*
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how composers use tempo, dynamics and timbre to tell a story." (UK NC KS2 music — listening)
-- **Hook:** Play Grieg's "In the Hall of the Mountain King" (from *Peer Gynt*, 1875) with eyes closed. "What is happening?"
-- **Key activity:** Identify the ostinato theme, accelerando and crescendo; then Holst's "Mars, the Bringer of War" (*The Planets*, with its uneven five-beat rhythm) — how does the rhythm create menace?
-- **Check for understanding:** "How does Grieg build excitement in 'In the Hall of the Mountain King'?" → He repeats the same theme, getting faster (accelerando) and louder (crescendo), with more instruments.
-- **Differentiation:** support: listening map with pictures / stretch: count the five-beat pattern in 'Mars' and explain why it feels unsettling.
-- **Materials:** recordings, listening maps.
-- **Joy:** draw the story you hear.
+- **Objective:** "By the end, I can explain how an opera tells a story through arias and how the music shows each character." (UK NC KS2 music — listening)
+- **Hook:** The Queen of the Night's aria from Mozart's *The Magic Flute* (1791): "She sings a note higher than almost any other role in opera. Why would Mozart give an angry queen such dazzling, high music?"
+- **Key activity:** The idea of opera (a drama that is sung; the libretto; arias vs recitative); contrast the Queen of the Night's furious coloratura with Papageno's cheerful, simple bird-catcher song; voice types (soprano, alto, tenor, bass).
+- **Check for understanding:** "How does Mozart's music tell us Papageno is a very different character from the Queen?" → Papageno's song is simple, folk-like, steady and cheerful; the Queen's aria is fast, very high and full of dramatic leaps — showing rage and power.
+- **Differentiation:** support: a listening grid with character pictures and mood words / stretch: explain the difference between an aria and a recitative.
+- **Materials:** recordings or video of the two arias (with subtitles), character cards.
+- **Joy:** "Pa-pa-pa" — sing Papageno and Papagena's stuttering duet chorus.
 
-### Lesson 31 — Leitmotifs and film music
+### Lesson 31 — Peking opera: a different way to tell a story
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain what a leitmotif is and create one for a character." (UK NC KS2 music — composing)
-- **Hook:** "Two notes, a semitone apart, and everyone knows a shark is coming." (John Williams's theme for *Jaws*, 1975.)
-- **Key activity:** Listen to film themes (*Jaws*, *Star Wars* main title) and identify features; compose a short leitmotif (2–4 bars) for a hero, villain or place, notating it.
-- **Check for understanding:** "Why is the *Jaws* theme so frightening even though it's so simple?" → The low, repeated semitone gets faster and louder, like something approaching, building tension.
-- **Differentiation:** support: compose with three notes on a glockenspiel / stretch: create two contrasting leitmotifs (major for hero, minor for villain).
-- **Materials:** recordings, glockenspiels, keyboards, manuscript paper.
-- **Joy:** "Guess the character" from leitmotifs.
+- **Objective:** "By the end, I can describe features of Peking opera and compare them with European opera." (UK NC KS2 music — world music / listening)
+- **Hook:** "In Peking opera (*jingju*), you can tell who a character is before they sing — from the face paint and the drums. How?"
+- **Key activity:** Watch a short Peking opera excerpt: role types (*sheng*, *dan*, *jing*, *chou*), painted faces with colour meanings, stylised movement, and the percussion (drums, gongs and clappers) that signals entrances and action; compare with *The Magic Flute* on a Venn diagram. (Peking opera is on UNESCO's list of the world's intangible cultural heritage.)
+- **Check for understanding:** "Give one similarity and one difference between Peking opera and Mozart's opera." → Both tell stories through singing and characters; Peking opera uses stylised movement, painted faces and loud percussion cues, while Mozart's uses an orchestra and arias.
+- **Differentiation:** support: a picture-supported Venn diagram / stretch: explain how the percussion works like a 'soundtrack' for movement.
+- **Materials:** video excerpt, face-paint colour chart, woodblocks and small gongs.
+- **Joy:** create percussion cues for a classmate's stylised 'entrance'.
 
-### Lesson 32 — Planning the soundtrack
+### Lesson 32 — Musical theatre: songs that move a story on
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain how a musical-theatre song reveals a character's feelings or moves the story forward." (UK NC KS2 music — listening / appraising)
+- **Hook:** The opening of the stage musical *The Lion King*, "Circle of Life", begins with a Zulu chant sung by Lebo M: "Why start a show with a language most of the audience doesn't speak?"
+- **Key activity:** Listen to two songs from different musicals (e.g. "Circle of Life" and a teacher-chosen 'I want' song in which a character sings their dream); map what the character wants, how the music changes as the feeling grows (key change, louder, higher, fuller accompaniment); link to *The Tempest* characters.
+- **Check for understanding:** "How does the music change when the character's feeling gets stronger?" → A specific change (e.g. a key change upward, a crescendo, the melody rising, more instruments joining).
+- **Differentiation:** support: a listening map with prompts / stretch: plan an 'I want' song for Miranda or Caliban in *The Tempest*.
+- **Materials:** recordings (age-appropriate), lyric sheets, listening maps.
+- **Joy:** sing the opening call of "Circle of Life" as a class.
+
+### Lesson 33 — Setting words to music: Ariel's songs
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a soundtrack for a short film scene using a storyboard and a structure." (UK NC KS2 music — composing)
-- **Hook:** Watch a 60-second silent animation clip (teacher-chosen, copyright-safe) twice.
-- **Key activity:** Groups storyboard the scene and plan music for each section (mood, tempo, dynamics, instruments, leitmotifs, silence); assign roles.
-- **Check for understanding:** "Where in the scene will your music change, and how?" → A specific moment with planned musical changes (e.g. tempo increases, minor key).
-- **Differentiation:** support: a storyboard with mood words provided / stretch: include a moment of silence and explain its effect.
-- **Materials:** film clip, storyboard templates, instruments.
-- **Joy:** "Director's meeting" planning session.
+- **Objective:** "By the end, I can set a line of Shakespeare to a melody so that stressed syllables fall on strong beats." (UK NC KS2 music — composing; English link)
+- **Hook:** Shakespeare's *The Tempest* (1611) has songs for the spirit Ariel — and a setting of "Full fathom five" by Robert Johnson, who worked with Shakespeare's company, still survives. "How would you set it today?"
+- **Key activity:** Listen to Johnson's setting; speak "Full fathom five thy father lies" over a pulse and mark the stressed syllables; in groups, compose a melody (on glockenspiels, keyboards or voice) that places stresses on strong beats and paints the words (low notes for "full fathom five"); notate in rhythm or letter names.
+- **Check for understanding:** "Which words fall on your strong beats, and why does that make the line easier to understand?" → The stressed syllables (FULL FA-thom FIVE) land on strong beats, matching natural speech, so the words sound clear and natural.
+- **Differentiation:** support: a given rhythm to add pitches to / stretch: add word-painting and a simple accompaniment (drone or ostinato).
+- **Materials:** text of Ariel's songs, recording of Johnson's setting, glockenspiels, keyboards, notation sheets.
+- **Joy:** hearing Shakespeare's words sung in your group's melody.
 
-### Lesson 33 — Composing with technology
-- **Duration:** 45 min
-- **Objective:** "By the end, I can use a music sequencer to layer loops and my own melodies." (UK NC KS2 music — composing / technology)
-- **Hook:** "Professional film composers work with software as well as orchestras."
-- **Key activity:** Use a free sequencer (e.g. Chrome Music Lab Song Maker, BandLab or GarageBand) to layer drum patterns, bass ostinatos and leitmotifs; export or record.
-- **Check for understanding:** "How did you change the texture as the scene becomes more dramatic?" → Adding layers (more instruments, parts) to thicken the texture.
-- **Differentiation:** support: pre-made loops to arrange / stretch: record live instruments over the sequenced track.
-- **Materials:** tablets or computers with a sequencer, headphones.
-- **Joy:** hearing your soundtrack with the film for the first time.
-
-### Lesson 34 — Rehearsing and refining
+### Lesson 34 — The storm scene: composing and rehearsing
 - **Duration:** 40 min
-- **Objective:** "By the end, I can refine a composition based on feedback and rehearse it with the film." (UK NC KS2 music — composing and performing)
-- **Hook:** "Does your music match the picture, second by second?"
-- **Key activity:** Groups play along with the clip; peer groups give feedback (Does the music match the mood? Is the timing right?); refine and rehearse.
-- **Check for understanding:** "What change did you make after feedback, and why?" → A specific change (e.g. slower tempo at the sad moment) with a reason.
-- **Differentiation:** support: clear structure cues on the storyboard / stretch: add a live conductor to cue changes.
-- **Materials:** film clip, instruments, technology.
-- **Joy:** "Test screening".
+- **Objective:** "By the end, I can compose storm music and combine it with our songs into a short musical scene from *The Tempest*." (UK NC KS2 music — composing and performing)
+- **Hook:** "The play opens with a shipwreck in a magic storm. Can we make the audience feel the waves?"
+- **Key activity:** Groups compose storm music using dynamics, tempo, texture and timbre (drums, cymbals, glissandos, a rising ostinato, silence at the moment the ship splits), using instruments and optionally a sequencer (Chrome Music Lab or BandLab); rehearse the storm into Ariel's song with narration.
+- **Check for understanding:** "How does your storm music build tension, and where is the climax?" → A planned build (layers added, crescendo, accelerando) to a clearly placed climax, then a change for calm.
+- **Differentiation:** support: a structure card (calm → wind → waves → crash → calm) / stretch: act as conductor, cueing entries and dynamics.
+- **Materials:** percussion, keyboards, glockenspiels, tablets with a sequencer (optional), scene script.
+- **Joy:** the moment the whole storm crashes — then total silence.
 
-### Lesson 35 — Premiere and year review
+### Lesson 35 — Performance and year review
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform my group's soundtrack live with the film and appraise my progress this year." (UK NC KS2 music — performing and appraising)
-- **Hook:** "Red carpet premiere!"
-- **Key activity:** Screen each film with a live or recorded soundtrack; audience appraisal; pupils reflect on their musical growth this year and set a Year 6 goal.
-- **Check for understanding:** "Which musical choice in your soundtrack best matched the film, and why?" → A specific choice (tempo, timbre, leitmotif, dynamics) and its effect.
-- **Differentiation:** support: appraisal sentence starters / stretch: write a short 'programme note' for your soundtrack.
-- **Materials:** film clips, instruments, projector, appraisal cards.
-- **Joy:** the premiere with popcorn.
+- **Objective:** "By the end, I can perform our musical scene with expression and appraise my progress this year." (UK NC KS2 music — performing and appraising)
+- **Hook:** "Curtain up on *The Tempest* — the musical."
+- **Key activity:** Perform the scene for families or another class (linking with the English performance where possible); audience appraisal; pupils reflect on their musical growth this year and set a Year 6 goal.
+- **Check for understanding:** "Which musical choice in our scene best matched the story, and why?" → A specific choice (word setting, dynamics, timbre, tempo) and its effect.
+- **Differentiation:** support: appraisal sentence starters / stretch: write a short programme note for the scene.
+- **Materials:** instruments, performance space, programmes, appraisal cards.
+- **Joy:** the premiere.
 
-**End-of-unit check:** Pupil contributes to a structured group soundtrack using a leitmotif, deliberate changes of tempo, dynamics and texture, and explains their choices.
+**End-of-unit check:** Pupil explains how opera, Peking opera and musical theatre tell stories through music, sets words so that stresses fall on strong beats, and contributes to a performed scene with deliberate choices of dynamics, texture and timbre.
 
 ## Books & resources
 
-- ***The Story of the Orchestra*** by Robert Levine (with CD) — clear, lively introduction to composers and instruments; supports Unit 6 listening.
-- ***The Young Person's Guide to the Orchestra*** by Benjamin Britten (1946) — the classic listening piece for hearing each instrument family.
-- ***Chrome Music Lab*** (musiclab.chromeexperiments.com) — free browser tools (Song Maker, Rhythm, Kandinsky) that make composing immediate.
-- ***BandLab*** or ***GarageBand*** — free sequencers for layering loops and recording.
-- **Recordings** — Grieg: "In the Hall of the Mountain King"; Holst: *The Planets* ("Mars"); Beethoven: Symphony No. 9 (finale); Satie: *Gymnopédie No. 1*; Johann Strauss II: *The Blue Danube*; Scott Joplin: *The Entertainer*; Ravi Shankar (sitar); Toumani Diabaté (kora); Balinese and Javanese gamelan; West African drumming ensembles; John Williams: *Jaws* and *Star Wars*.
-- **Songs** — "Kookaburra" (Marion Sinclair), "Dona nobis pacem" (traditional round), "Siyahamba" (South African traditional), "La Bamba" (Mexican traditional), traditional partner songs.
-- **Instruments** — ukuleles with tuners, keyboards with headphones, djembes or hand drums, glockenspiels and metallophones, gong or suspended cymbal, shakers.
+- ***The Story of the Orchestra*** by Robert Levine — a clear, lively introduction to composers, voices and instruments; supports Units 3 and 6.
+- **Opera on film** — a subtitled recording of Mozart's *The Magic Flute* from a major opera house (e.g. the Royal Opera House or the Metropolitan Opera), with the teacher telling the plot first (Unit 6).
+- ***Chrome Music Lab*** (musiclab.chromeexperiments.com) — free browser tools (Song Maker, Rhythm) that make composing immediate.
+- ***BandLab*** or ***GarageBand*** — free sequencers for layering and recording.
+- **Recordings** — "The Water Is Wide" (traditional); Ladysmith Black Mambazo; "Shosholoza" and "Tue Tue" (traditional); "Jambo Bwana" (Them Mushrooms); Bob Marley, "Three Little Birds"; Scott Joplin, *The Entertainer*; an Irish jig; Kodo (taiko); Toumani Diabaté (kora); siku ensembles from Peru and Bolivia; Buena Vista Social Club (Cuban son); Munir Bashir or Naseer Shamma (oud); Beethoven, Symphony No. 9 (finale); Satie, *Gymnopédie No. 1*; Mozart, *The Magic Flute*; a Peking opera excerpt; *The Lion King* ("Circle of Life"); Robert Johnson, "Full fathom five".
+- **Instruments** — ukuleles with tuners, keyboards with headphones, large drums or buckets and beaters, claves, maracas, bongos, glockenspiels and metallophones, woodblocks and small gongs.
 
 ## End-of-year mastery checks
 
-1. **Singing in parts** — holds a part in a round, a partner song and a simple harmony (heard in performance).
-2. **Ukulele** — plays C, Am, F and G with clean changes and a strumming pattern in time.
+1. **Singing in harmony** — holds a harmony line in thirds and one part of a three-part arrangement (heard in performance).
+2. **Ukulele** — plays in two keys, fingerpicks a pattern, reads a riff from TAB and plays an off-beat strum in time.
 3. **Keyboard** — plays a five-finger melody from notation and simple triads, hands together.
-4. **Notation** — reads and writes rhythms in 4/4 and 3/4 (including dotted notes and semiquavers) and names notes on the treble stave.
-5. **World music** — describes and performs features of West African drumming, Indian classical music and gamelan.
-6. **Listening and appraising** — explains how composers use tempo, dynamics, timbre and texture to create effects, using correct vocabulary.
-7. **Composing** — composes a structured piece with a leitmotif and deliberate changes, using notation or technology.
+4. **Notation** — reads and writes rhythms in simple and compound time with ties and syncopation, and names notes on the treble stave.
+5. **World music** — describes and performs features of taiko, siku hocket, Cuban son and maqam, and compares them with Year 4's traditions.
+6. **Listening and appraising** — explains how composers tell stories and show character (opera, musical theatre, Peking opera), using correct vocabulary.
+7. **Composing** — sets words to a melody with stresses on strong beats and composes descriptive music with deliberate changes.
 8. **Performing** — performs in an ensemble, keeping in time and recovering from mistakes without stopping.
 
 ## Teacher guidance
@@ -483,8 +487,10 @@ history of music.
 **Common misconceptions to watch for**
 - *"Louder means faster."* Separate dynamics and tempo explicitly (loud and slow; quiet and fast).
 - *"Harmony means singing the same tune."* Harmony is different notes sounding together.
-- *Counting rests as nothing.* Rests take up beats; count them.
-- *"World music is simple."* Many traditions have complex rhythms, scales and strict training (e.g. Indian classical music).
+- *"6/8 is just 3/4 twice."* The grouping of the quavers is different — feel two big beats.
+- *Counting rests and ties as nothing.* Rests take up beats; tied notes are held, not re-struck.
+- *"World music is simple."* Many traditions have complex rhythms, scales and strict training.
+- *"Opera is just loud singing."* It is drama in music; every musical choice shows character.
 - *Staring at fingers on ukulele/keyboard.* Build muscle memory with slow, repeated changes so eyes can read.
 
 **How to teach it well**
@@ -492,9 +498,10 @@ history of music.
 - Model everything: play or sing it first, then 'we do', then 'you do'.
 - Keep instruments in pupils' hands as much as possible; explanation should be short.
 - Use real recordings of expert musicians and name them; include musicians from many cultures and women composers and performers where possible.
-- Record performances regularly so pupils can hear themselves and track progress.
+- Present each tradition on its own terms, with its musicians and social role; teach song words and meanings from other languages with a pronunciation guide and respect.
+- Record performances regularly so pupils can hear themselves and track progress. Provide ear defenders for drumming.
 
 **Vertical connections**
-- *From Year 4:* stave reading, texture, ostinato, simple structures, first music history map, recorder and ukulele basics.
-- *Into Year 6:* ensemble performance, more advanced keyboard (hands together, scales, simple accompaniment), a fuller history of Western and world music, and composing in larger forms.
-- *Across subjects:* maths (time signatures as fractions, patterns, cycles), history (griots and the Mali Empire), languages ("La Bamba", "Siyahamba"), computing (sequencers), English (storyboards and narrative).
+- *From Year 4:* rounds, partner songs and call and response; ukulele C, Am, F, G7; note values and time signatures; samba, djembe, gamelan and raga — retrieved, not repeated.
+- *Into Year 6:* irregular metres, swing and triplets, the bass clef and grand staff, major scales and triads, primary chords and the four-chord progression, the blues, deeper study of raga, tala, polyrhythm, gamelan and Afro-Brazilian music, programme and film music, songwriting with technology and the graduation concert.
+- *Across subjects:* English (*The Tempest*, word stress and rhythm), maths (time signatures as fractions, patterns, cycles), geography (Kenya, the Andes, Cuba), languages (Spanish — Peru and Cuba; Swahili and Zulu song words), computing (sequencers), history (griots — Year 6).

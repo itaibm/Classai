@@ -15,7 +15,7 @@ Life Skills in the graduation year is where the charter's **vision of the gradua
 curious inquirer* and *a creative maker*. Children deepen their understanding of **who they are**
 (values, strengths, goals), **how to manage themselves** (emotions, setbacks, stress), **how to relate
 to others** (listening, assertiveness, conflict, healthy friendships online and offline), **how money
-works** (interest, credit, digital money, enterprise) and **how to act in the world** (rights,
+works** (interest, credit, pay and tax, enterprise) and **how to act in the world** (rights,
 sustainability, democracy, service). Three lessons prepare them practically for **secondary school**.
 
 The year culminates in the **Graduation Capstone: the Change-Maker Project**, a cross-subject project in
@@ -27,14 +27,21 @@ Computing (data analysis and the capstone program — Units 4 and 7), Art & Desi
 Units 6–7), Science (investigation — Unit 9), History (oral history — Unit 6) and Music and PE (the
 graduation concert and sports festival).
 
-**What we assume from Year 5 (ages 10–11):** managing stress and change; making and keeping friends;
-standing firm against pressure; online reputation; responsibility for learning and leadership; mental
-health and safe choices about risk; independence and personal safety; first aid basics; independent
-budgeting, spending with values and spotting scams; bias, misinformation and using one's voice.
-**What Year 6 adds:** values and character strengths as a compass; metacognition and goal-setting
-methods; the neuroscience of emotions; assertive communication and conflict resolution; consent and
-boundaries (age-appropriate); interest, credit and enterprise; rights, democracy and sustainable
-consumption; and a full, self-directed change-making project. One lesson a week, 40–45 minutes.
+**What we assume from Years 4 and 5:** an identity map, character strengths, growth-mindset language,
+conflict steps, "I" statements and SMART goals (Year 4); identity across groups and influences, values
+dilemmas and precise emotion words; changing friendships, group chats, dares and risk, bullying and the
+upstander toolkit, disagreeing well and personal safety; performance nerves, problem-solving, change and
+loss, and helping a struggling friend (Year 5); simple interest, borrowing and a market stall (Year 4);
+bank accounts, scams, unit pricing, tax and a class event budget (Year 5); key children's rights,
+stereotypes and service (Year 4); a behaviour-change campaign measured with data, the
+stereotype–prejudice–discrimination chain, the social model of disability, a class election and a letter
+to a decision-maker (Year 5). Puberty, mental-health basics and first aid are taught in PE & Health.
+**What Year 6 adds:** values and purpose as a compass; the 24 VIA character strengths; growth mindset
+done right; WOOP goals and habit design; the neuroscience of emotions, thinking traps and
+self-compassion; deeper listening, assertiveness in hard situations, mediation, consent and boundaries,
+and the bystander effect; compound interest, credit, payslips and a mini-business with break-even;
+rights in tension, how laws are made, sustainable consumption and carbon footprints; secondary-school
+readiness; and a full, self-directed change-making project. One lesson a week, 35–45 minutes.
 
 ## Time budget
 
@@ -57,13 +64,13 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 
 **Key vocabulary:** identity, values, character strengths, integrity, growth mindset, metacognition, goal, SMART goal, WOOP (wish, outcome, obstacle, plan), habit, role model, purpose
 
-### Lesson 1 — My identity and my values
+### Lesson 1 — My values and my purpose
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe the parts of my identity and choose three core values that guide my choices." (CASEL self-awareness; PSHE KS3 Health and wellbeing)
-- **Hook:** "If you had to pack your whole self into a suitcase, what would you take?"
-- **Key activity:** An "identity map" (family, culture, languages, interests, beliefs, experiences); a values card sort (e.g. kindness, honesty, courage, fairness, curiosity, family, freedom, creativity) narrowing to three; discuss how values guide decisions with real dilemmas.
-- **Check for understanding:** "Describe a situation where one of your values would help you make a hard decision." → A specific scenario linking a named value to a choice.
-- **Differentiation:** support: picture-supported value cards and a sentence frame / stretch: explore when two of your values might conflict and how you'd decide
+- **Objective:** "By the end, I can choose three core values, explain how they have shaped a real decision, and name an issue I care about enough to act on." (CASEL self-awareness; PSHE KS3 Health and wellbeing)
+- **Hook:** Open the sealed letters written at the end of Year 5 Lesson 16: "What did your younger self hope for — and what has changed?"
+- **Key activity:** Brief retrieval of the Year 4 identity map and Year 5 values dilemmas; a values card sort (e.g. kindness, honesty, courage, fairness, curiosity, family, freedom, creativity) narrowed to three, with evidence of each from the past year; "purpose" — what problems in the world make you care enough to act? Start a list of issues that will seed the Change-Maker capstone (Lesson 27).
+- **Check for understanding:** "Describe a real decision this year where one of your values guided you — and one where you acted against it. What was different?" → Two specific situations with honest reflection on what helped or got in the way (e.g. pressure, tiredness, wanting to fit in).
+- **Differentiation:** support: picture-supported value cards and a sentence frame / stretch: explain how your values connect to the issue you care about most
 - **Materials:** identity-map templates, values cards
 - **Joy:** "Identity suitcase" art piece
 
@@ -77,21 +84,21 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Materials:** strengths cards (based on the VIA classification), reflection journals
 - **Joy:** "Strength-spotting" notes to classmates
 
-### Lesson 3 — Growth mindset and metacognition: learning how I learn
+### Lesson 3 — Growth mindset done right: effort, strategy and help
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how the brain gets stronger with effortful practice and use metacognitive questions to plan, monitor and evaluate my learning." (CASEL self-management; IB MYP ATL self-management)
-- **Hook:** "Is intelligence fixed, or can it grow?"
-- **Key activity:** How practice strengthens connections in the brain (neuroplasticity, simply); effective study strategies (retrieval practice, spacing, interleaving — contrast with re-reading); the metacognitive cycle (plan–monitor–evaluate) applied to a real piece of homework.
-- **Check for understanding:** "Why is testing yourself better than re-reading your notes?" → Retrieving information from memory strengthens it more; re-reading can feel easy but doesn't show what you can actually remember.
-- **Differentiation:** support: a question card for each stage of the cycle / stretch: design a two-week revision plan using spacing
-- **Materials:** metacognition prompt cards, a simple brain diagram, journals
-- **Joy:** "Brain-training" retrieval game using facts from the week
+- **Objective:** "By the end, I can explain why effort alone isn't enough, spot 'false growth mindset', and use plan–monitor–evaluate questions to change strategy when I'm stuck." (CASEL self-management; IB MYP ATL self-management)
+- **Hook:** "'I tried really hard and still failed — so growth mindset is rubbish.' Is this person right?"
+- **Key activity:** Retrieve Year 4 (the brain strengthens connections with practice; 'yet'). New: Carol Dweck's warning about 'false growth mindset' (praising effort that isn't working; saying 'just try harder'); the three ingredients — effort, effective strategies and help from others; the 'learning pit' idea that feeling stuck is part of learning; apply plan–monitor–evaluate questions to a real piece of work and change one strategy.
+- **Check for understanding:** "A friend has practised the same times-table the same way for two weeks and still gets it wrong. Using growth mindset properly, what would you advise?" → Not just 'try harder': change the strategy (e.g. self-testing, spotting patterns, a different method) and ask for help — then check whether it's working.
+- **Differentiation:** support: a question card for each stage of the cycle / stretch: explain how a teacher's praise can accidentally encourage a fixed mindset
+- **Materials:** metacognition prompt cards, 'learning pit' diagram, journals
+- **Joy:** "Strategy swap" — each pupil shares one technique that got them out of the pit
 
 ### Lesson 4 — Setting goals that work: WOOP
 - **Duration:** 40 min
 - **Objective:** "By the end, I can set a meaningful goal using WOOP (Wish, Outcome, Obstacle, Plan) and an if–then plan." (CASEL self-management; PSHE KS3)
-- **Hook:** "Most New Year's resolutions fail by February. Why — and what works better?"
-- **Key activity:** Teach WOOP (researched by psychologist Gabriele Oettingen); each child writes a WOOP for a real goal this term (learning, health, friendship or a skill) with an "if [obstacle], then I will [action]" plan; compare with SMART goals.
+- **Hook:** "Lots of New Year's resolutions are given up within weeks. Why — and what works better?"
+- **Key activity:** Retrieve Year 4's SMART goals. New: teach WOOP (researched by psychologist Gabriele Oettingen) — why simply imagining success can make people less likely to act, while planning for the obstacle helps; each child writes a WOOP for a real goal this term (learning, health, friendship or a skill) with an "if [obstacle], then I will [action]" plan; compare with SMART goals.
 - **Check for understanding:** "Why does thinking about the obstacle make you more likely to succeed?" → You plan ahead for what will get in the way, so when it happens you already know what to do.
 - **Differentiation:** support: a WOOP template with an example / stretch: set a long-term goal with milestones
 - **Materials:** WOOP templates, journals
@@ -115,13 +122,13 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 
 **Essential question:** How can I understand and manage my emotions, bounce back from setbacks and understand others' feelings?
 
-**Key vocabulary:** emotion, emotional intelligence, amygdala, prefrontal cortex, "flipping the lid", trigger, self-regulation, reframing, resilience, setback, optimism, gratitude, empathy, perspective-taking, compassion
+**Key vocabulary:** emotion, emotional intelligence, amygdala, prefrontal cortex, "flipping the lid", trigger, self-regulation, reframing, resilience, setback, perfectionism, self-compassion, realistic optimism, empathy, perspective-taking, compassion
 
 ### Lesson 6 — My brain and my emotions
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how strong emotions affect thinking (using the hand model of the brain) and name strategies to calm down." (CASEL self-awareness and self-management; PSHE KS3)
 - **Hook:** "Have you ever done something when you were angry that you'd never do when calm? Why?"
-- **Key activity:** Dr Dan Siegel's hand model of the brain (the "lid" of the thinking brain flips when the alarm system — the amygdala — takes over); triggers and body signals; calming strategies (breathing, movement, naming the emotion — "name it to tame it"); personal calm plan.
+- **Key activity:** Retrieve Year 5's precise emotion words and the body's alarm response. New: Dr Dan Siegel's hand model of the brain (a simplified model: the "lid" of the thinking brain flips when the alarm system — including the amygdala — takes over); triggers and body signals; calming strategies (breathing, movement, naming the emotion — "name it to tame it"); personal calm plan.
 - **Check for understanding:** "Why is it hard to make good decisions when you've 'flipped your lid'?" → The alarm part of the brain takes over and the thinking part (prefrontal cortex) is less able to plan and control actions until you calm down.
 - **Differentiation:** support: an emotions vocabulary chart with faces / stretch: explain why naming an emotion helps calm it
 - **Materials:** hand-model diagram, emotions vocabulary chart, calm-plan templates
@@ -147,15 +154,15 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Materials:** story cards, comeback-plan templates
 - **Joy:** "Failure wall" — celebrating mistakes that taught us something
 
-### Lesson 9 — Gratitude, optimism and wellbeing
+### Lesson 9 — Self-compassion, perfectionism and realistic optimism
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how gratitude and realistic optimism support wellbeing and practise both." (CASEL self-awareness; PSHE KS3)
-- **Hook:** "Researchers have found that writing down a few good things each day can lift mood. Shall we test it?"
-- **Key activity:** "Three good things" practice; a gratitude letter to someone who helped you; realistic optimism vs toxic positivity (it's OK not to be OK); start a two-week gratitude experiment and review it later.
-- **Check for understanding:** "What's the difference between realistic optimism and pretending everything is fine?" → Realistic optimism accepts difficulties and still looks for what can go well; pretending ignores real feelings and problems.
-- **Differentiation:** support: gratitude prompts / stretch: design a mini-experiment with a before-and-after mood rating
-- **Materials:** gratitude journals, letter paper
-- **Joy:** Delivering the gratitude letter
+- **Objective:** "By the end, I can tell high standards from perfectionism, speak to myself with self-compassion after a mistake, and explain realistic optimism." (CASEL self-awareness and self-management; PSHE KS3)
+- **Hook:** "You got 19 out of 20. Do you celebrate the 19 — or think about the one you got wrong all evening?"
+- **Key activity:** High standards (aiming high, learning from mistakes) vs perfectionism (fear of any mistake, not starting or giving up, harsh self-criticism); self-compassion — treat yourself as you would a good friend: notice it's hard, remember everyone struggles, speak kindly; realistic optimism vs toxic positivity (it's OK not to be OK); retrieve Year 4's gratitude practice as one tool among several.
+- **Check for understanding:** "Priya re-starts her poster five times because it isn't 'perfect' and misses the deadline. Is this high standards or perfectionism? What would a self-compassionate response sound like?" → Perfectionism: fear of mistakes stops her finishing; e.g. "It doesn't have to be perfect to be good — I'll finish it, then improve one thing."
+- **Differentiation:** support: sort statements into 'high standards' and 'perfectionism' / stretch: explain why harsh self-criticism can make people perform worse, not better
+- **Materials:** statement cards, journals
+- **Joy:** "Kind coach" — write the note a kind coach would give you after a mistake
 
 ### Lesson 10 — Empathy and perspective-taking
 - **Duration:** 40 min
@@ -175,7 +182,7 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 
 **Essential question:** How can I build healthy relationships and handle conflict respectfully, face to face and online?
 
-**Key vocabulary:** active listening, assertive, passive, aggressive, "I" statement, conflict resolution, compromise, mediation, healthy relationship, boundary, consent, respect, peer pressure, bullying, cyberbullying, bystander, upstander
+**Key vocabulary:** active listening, assertive, passive, aggressive, "I" statement, DESC script, conflict resolution, compromise, mediation, healthy relationship, boundary, consent, respect, peer pressure, bullying, cyberbullying, bystander, bystander effect, upstander
 
 ### Lesson 11 — Active listening
 - **Duration:** 40 min
@@ -187,14 +194,14 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Materials:** listening checklists, conversation topic cards
 - **Joy:** "Listening challenge" — can you repeat back three details?
 
-### Lesson 12 — Assertive communication
+### Lesson 12 — Assertiveness in hard situations
 - **Duration:** 40 min
-- **Objective:** "By the end, I can distinguish passive, aggressive and assertive responses and use 'I' statements to express my needs respectfully." (CASEL relationship skills; PSHE KS3)
-- **Hook:** Someone keeps borrowing your things without asking. Three responses — which works best?
-- **Key activity:** Model the three styles; "I feel… when… because… I would like…"; role-play scenarios (group work, borrowing, being left out); body language and tone.
-- **Check for understanding:** "Turn 'You always ruin everything!' into an assertive 'I' statement." → e.g. "I feel frustrated when our project changes without asking me, because I worked hard on it. I'd like us to decide together."
-- **Differentiation:** support: an "I" statement frame / stretch: stay assertive when the other person pushes back
-- **Materials:** scenario cards, "I" statement frames
+- **Objective:** "By the end, I can stay assertive in harder situations — with older pupils, with adults and when standing up for someone else — using the DESC script." (CASEL relationship skills; PSHE KS3)
+- **Hook:** "It's easy to say 'I feel…' to a friend. What about to an older pupil who pushes in, or an adult who has got something wrong about you?"
+- **Key activity:** Quick retrieval of passive, aggressive and assertive styles and "I" statements (Year 4). New: the DESC script — **D**escribe what happened, **E**xpress how you feel, **S**pecify what you'd like, **C**onsequence (the positive result); the 'broken record' technique for pushback; respectful assertiveness with adults; speaking up for someone else; role-play in threes with an observer.
+- **Check for understanding:** "A teacher blames you for a mess you didn't make. Write a DESC response that is assertive but respectful." → e.g. "I know the table's messy (D). I feel upset because I didn't do it (E). Could I explain what happened? (S) Then we can sort out who should tidy it (C)."
+- **Differentiation:** support: a DESC frame with sentence starters / stretch: stay assertive while the other person pushes back twice
+- **Materials:** scenario cards, DESC frames
 - **Joy:** Role-play "remix" — replay the scene assertively
 
 ### Lesson 13 — Resolving conflict
@@ -221,9 +228,9 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Duration:** 40 min
 - **Objective:** "By the end, I can recognise bullying and cyberbullying, and use safe upstander strategies." (CASEL social awareness and responsible decision-making; PSHE KS3)
 - **Hook:** "What's the difference between banter, conflict and bullying?"
-- **Key activity:** Definitions (bullying is repeated, intentional and involves an imbalance of power); online forms (exclusion from group chats, sharing images, fake accounts); the bystander effect; safe upstander actions (support the target, don't join in, report, save evidence online, tell a trusted adult); unit review.
-- **Check for understanding:** "Name three safe things you can do if you see someone being bullied online." → Don't like or share, support the person privately, save evidence/screenshot, report on the platform, tell a trusted adult.
-- **Differentiation:** support: scenario cards with choices / stretch: design a class anti-bullying charter
+- **Key activity:** Quick retrieval of Year 5's definition (repeated, intentional, imbalance of power) and upstander actions. New: 'banter' vs bullying (it stops being a joke when the target isn't laughing or can't say stop); prejudice-based bullying (about race, religion, disability, sexuality or gender) and why schools record it; online forms (fake accounts, image-sharing, pile-ons); the bystander effect — the more people who watch, the less likely any one person is to help (diffusion of responsibility); how to overcome it; unit review.
+- **Check for understanding:** "Thirty people saw a cruel comment in a group chat and nobody did anything. Why does that happen, and what could one person do to break the pattern?" → Each person assumes someone else will act (diffusion of responsibility); one person can act first — not reacting, supporting the target privately, reporting, saving evidence and telling an adult — which makes it easier for others to follow.
+- **Differentiation:** support: scenario cards with choices / stretch: design a class anti-bullying charter that tackles the bystander effect
 - **Materials:** scenario cards, charter template, reporting information
 - **Joy:** Class upstander pledge
 
@@ -235,7 +242,7 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 
 **Essential question:** How can I make, save, spend and grow money wisely — and use it to make a difference?
 
-**Key vocabulary:** income, expenses, budget, saving, interest, simple interest, compound interest, bank account, debit card, credit, loan, debt, APR, digital payments, in-app purchase, advertising, influencer, profit, loss, revenue, cost, entrepreneur, enterprise, social enterprise
+**Key vocabulary:** income, expenses, budget, saving, interest, simple interest, compound interest, bank account, debit card, credit, loan, debt, APR, gross pay, net pay, payslip, deduction, pension, profit, loss, revenue, cost, entrepreneur, enterprise, social enterprise
 
 ### Lesson 16 — Budgets for real life
 - **Duration:** 40 min
@@ -262,20 +269,20 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Objective:** "By the end, I can explain how loans and credit cards work, what interest costs a borrower, and how to avoid problem debt." (National Standards for Personal Financial Education — managing credit; PSHE KS3)
 - **Hook:** "Buy now, pay later. What's the catch?"
 - **Key activity:** How borrowing works (the lender charges interest); compare the total cost of a phone bought outright vs on credit; "buy now, pay later" schemes; how debt can grow; good and bad reasons to borrow.
-- **Check for understanding:** "A phone costs 300 cash or 30 a month for 12 months. Which is cheaper and by how much?" → Cash: 12 × 30 = 360, so credit costs 60 more.
+- **Check for understanding:** "A phone costs 300 cash or 30 a month for 12 months. Which is cheaper and by how much?" → Cash is cheaper: on credit you pay 12 × 30 = 360, which is 60 more than 300.
 - **Differentiation:** support: a guided comparison table / stretch: calculate the effect of only paying the minimum on a credit card balance (simplified)
 - **Materials:** comparison cards, calculators
 - **Joy:** "Deal or no deal?" — spot the hidden costs
 
-### Lesson 19 — Digital money, in-app purchases and advertising
+### Lesson 19 — Work, pay and tax: reading a payslip
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how digital payments, in-game currencies and targeted advertising influence spending, and use strategies to stay in control." (National Standards for Personal Financial Education — spending; PSHE KS3; Computing link)
-- **Hook:** "Why do games use gems and coins instead of real prices?"
-- **Key activity:** How contactless and phone payments feel less "real"; in-game currencies and loot boxes; influencer marketing and targeted ads (how data is used); a personal spending "pause" rule (wait 24 hours before buying).
-- **Check for understanding:** "Why might a game price items in gems rather than money?" → It hides the real cost, so players spend more without noticing.
-- **Differentiation:** support: a spot-the-tactic checklist / stretch: analyse a real advert or influencer post and its techniques (link to English rhetoric)
-- **Materials:** example screenshots of in-game stores and ads, tactic checklists
-- **Joy:** "Ad-buster" challenge
+- **Objective:** "By the end, I can read a simple payslip, calculate take-home pay from gross pay and deductions, and explain what the deductions pay for." (National Standards for Personal Financial Education — earning income; PSHE KS3 Living in the wider world; Maths link)
+- **Hook:** "Your first job pays 2,000 a month. Why does only about 1,640 arrive in your bank account?"
+- **Key activity:** Retrieve Year 5's taxes and public services lesson. New: a simplified payslip — gross pay, income tax, social-security contributions, pension saving, net ("take-home") pay; hourly pay, overtime and minimum wages (many countries set one); calculate net pay for several job cards; connect deductions to public services and to saving for later life; discuss why tax rates differ between countries.
+- **Check for understanding:** "Gross pay 2,000; income tax 200; other contributions 100; pension 60. What is the take-home pay, and why is the pension deduction good for the worker?" → 2,000 − 360 = 1,640; the pension is the worker's own money saved (often with extra from the employer) for when they stop working.
+- **Differentiation:** support: a payslip with round numbers and labelled boxes / stretch: compare take-home pay for an hourly job with and without overtime
+- **Materials:** simplified payslips, job cards, calculators
+- **Joy:** "Payday" — match each job card to its correct payslip
 
 ### Lesson 20 — Enterprise: planning a mini-business
 - **Duration:** 45 min
@@ -305,32 +312,32 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 
 **Essential question:** What are my rights and responsibilities as a citizen of my community and the world, and how can I help create change?
 
-**Key vocabulary:** human rights, children's rights, UNCRC, responsibility, democracy, vote, government, local council, petition, campaign, sustainability, consumerism, circular economy, reduce–reuse–recycle, carbon footprint, fast fashion, volunteering, service, social action
+**Key vocabulary:** human rights, UDHR, children's rights, UNCRC, responsibility, rights clash, ombudsperson, democracy, vote, government, local council, petition, campaign, sustainability, consumerism, circular economy, reduce–reuse–recycle, carbon footprint, fast fashion, volunteering, service, social action
 
-### Lesson 22 — Children's rights: the UNCRC
+### Lesson 22 — Human rights in tension: who protects them?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain key articles of the UN Convention on the Rights of the Child (1989) and how rights come with responsibilities." (UNESCO GCED; PSHE KS3 Living in the wider world; History link)
-- **Hook:** "The UNCRC is the most widely ratified human-rights treaty in the world. What rights does it give you?"
-- **Key activity:** Explore simplified articles (e.g. right to education — Article 28, to be heard — Article 12, to play — Article 31, to protection from harm — Article 19); diamond-rank them; link rights to responsibilities (my right to learn → my responsibility not to disrupt others' learning); link to the UDHR from History.
-- **Check for understanding:** "Choose one right and explain the responsibility that goes with it." → e.g. the right to be heard → the responsibility to listen to others.
-- **Differentiation:** support: a picture-supported simplified UNCRC / stretch: research a child-rights issue in one country and a campaign addressing it
-- **Materials:** simplified UNCRC (UNICEF), diamond-ranking templates
-- **Joy:** Class "rights and responsibilities" charter
+- **Objective:** "By the end, I can explain how the UDHR (1948) and the UNCRC (1989) protect rights, reason through a case where two rights clash, and name who upholds rights." (UNESCO GCED; PSHE KS3 Living in the wider world; History link)
+- **Hook:** "The UNCRC is the most widely ratified human-rights treaty in the world. So why are some children still not in school?"
+- **Key activity:** Retrieve Year 4's key UNCRC articles and responsibilities (education — Article 28, to be heard — Article 12, to play — Article 31, protection from harm — Article 19). New: the UDHR (1948, from History) as the parent document; when rights clash (free expression vs protection from harm, privacy vs safety online, a parent's choices vs a child's right to be heard) — reason through cases in groups; who upholds rights (governments that ratify treaties, courts, children's commissioners or ombudspersons, charities, a free press); why rights on paper are not always rights in practice.
+- **Check for understanding:** "A pupil posts a true but embarrassing story about a classmate and says 'It's free speech.' Which two rights clash, and how would you decide?" → Freedom of expression vs privacy and protection from harm; free speech has limits when it harms someone else, so the classmate's privacy and wellbeing should win here.
+- **Differentiation:** support: picture-supported rights cards and a simpler clash (my right to play vs your right to learn) / stretch: research a child-rights issue in one country and the organisation working to fix it
+- **Materials:** simplified UNCRC (UNICEF), UDHR summary, rights-clash case cards
+- **Joy:** "Rights court" — groups judge a case and explain the verdict
 
 ### Lesson 23 — Democracy and how change happens
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how decisions are made in my country and community and describe ways citizens (including young people) influence them." (UNESCO GCED; PSHE KS3; C3 D2.Civ)
 - **Hook:** "At what age can you vote in your country? Some countries allow 16-year-olds to vote. Should we?"
-- **Key activity:** Levels of government (local, national, international); how laws are made (in your own country — a worked example); ways to influence (voting, petitions, contacting representatives, peaceful campaigns, youth councils); case studies of young change-makers (Malala Yousafzai; students in the Soweto uprising — History link; young climate campaigners).
+- **Key activity:** Retrieve Year 5's class election and letter to a decision-maker. New: levels of government (local, national, international); how laws are made (in your own country — a worked example from idea to law); ways to influence (voting, petitions, contacting representatives, peaceful campaigns, youth councils); case studies of young change-makers (Malala Yousafzai; students in the Soweto uprising — History Unit 5; young climate campaigners).
 - **Check for understanding:** "Name two ways a young person who can't vote can still influence a decision." → e.g. writing to a representative, starting a petition, joining a youth council, peaceful campaigning, raising awareness.
 - **Differentiation:** support: a picture map of local government / stretch: compare how two countries' governments make decisions
 - **Materials:** local government information, case-study cards
-- **Joy:** Hold a class election with manifestos (links to English speeches)
+- **Joy:** A mock council meeting: pupils play councillors and residents debating a real local proposal (links to English speeches)
 
 ### Lesson 24 — Consumerism and the circular economy
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain the environmental and social costs of "take–make–waste" consumption and how a circular economy works." (UNESCO GCED; SDG 12; Geography link)
-- **Hook:** "A T-shirt can take around 2,700 litres of water to make — roughly what one person drinks in two and a half years."
+- **Hook:** "One estimate says a cotton T-shirt can take around 2,700 litres of water to make — roughly what one person drinks in two and a half years."
 - **Key activity:** Trace the life cycle of a T-shirt (cotton growing, manufacture, transport, use, disposal); fast fashion; the circular economy (repair, reuse, share, recycle); audit one's own clothes or belongings; plan a swap shop.
 - **Check for understanding:** "What is the difference between recycling and a circular economy?" → Recycling is one step; a circular economy designs products to be used longer, repaired, reused and then recycled so waste is avoided from the start.
 - **Differentiation:** support: a life-cycle picture sequence / stretch: evaluate a company's sustainability claim (link to English — spotting spin)
@@ -367,7 +374,7 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Materials:** capstone project booklet, issue cards, SDG icons
 - **Joy:** Choosing your own cause
 
-**End-of-unit check:** Explain two UNCRC rights with responsibilities; describe two ways young people can influence decisions; explain the circular economy; rank climate actions by impact; a launched capstone plan with a question and goal.
+**End-of-unit check:** Reason through a case where two rights clash and name who upholds rights; describe two ways young people can influence decisions; explain the circular economy; rank climate actions by impact; a launched capstone plan with a question and goal.
 
 ---
 
@@ -391,7 +398,7 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use effective study techniques (retrieval practice, flashcards, spacing, mind maps) and create a study plan for a test." (CASEL self-management; IB MYP ATL self-management)
 - **Hook:** "Two students revise for the same test for the same time. One gets 90%, one gets 55%. What did they do differently?"
-- **Key activity:** Revisit Lesson 3 (metacognition); make flashcards with questions on one side; the Leitner box system; a spaced study timetable for a mock test; practise with content from Maths or Science.
+- **Key activity:** Revisit Lesson 3 (plan–monitor–evaluate) and Year 4's retrieval practice. New: why self-testing beats re-reading; make flashcards with questions on one side; the Leitner box system; interleaving topics; a spaced study timetable for a mock test; practise with content from Maths or Science.
 - **Check for understanding:** "Why does spacing your study over several days work better than cramming the night before?" → Revisiting information after a gap strengthens long-term memory; cramming fades quickly.
 - **Differentiation:** support: pre-made flashcards to start with / stretch: design a full two-week revision timetable for three subjects
 - **Materials:** index cards, boxes for the Leitner system, study planners
@@ -483,7 +490,8 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 
 - ***Mindset: The New Psychology of Success* by Carol S. Dweck** — for the teacher and parents: the research behind growth mindset (Lesson 3), including how to avoid "false growth mindset".
 - ***The Whole-Brain Child* by Daniel J. Siegel and Tina Payne Bryson** — for parents and teachers: the hand model of the brain and practical strategies for emotions (Lesson 6).
-- ***The 7 Habits of Highly Effective Teens* by Sean Covey** — accessible, practical habits and goal-setting for early adolescents; excerpts for Unit 1.
+- ***The 7 Habits of Highly Effective Teens* by Sean Covey** — accessible, practical habits and goal-setting for early adolescents; teacher-chosen excerpts for Unit 1.
+- ***Rethinking Positive Thinking: Inside the New Science of Motivation* by Gabriele Oettingen** — teacher background for WOOP (Lesson 4).
 - ***The Boy, the Mole, the Fox and the Horse* by Charlie Mackesy** — a gentle, beautifully illustrated book about kindness, courage and asking for help; perfect for Unit 2 discussions.
 - ***I Am Malala* (Young Readers Edition) by Malala Yousafzai with Patricia McCormick** — a young change-maker's story; inspiration for Units 5 and 7.
 - ***The Boy Who Harnessed the Wind* (Young Readers Edition) by William Kamkwamba and Bryan Mealer** — enterprise and ingenuity solving a community problem; a model for the capstone.
@@ -499,7 +507,7 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 1. **Knows and directs themselves:** can state their values and strengths and sets goals with WOOP and habits, reviewing progress. *See it:* the Unit 1 "compass" page and habit tracker.
 2. **Manages emotions and setbacks:** uses a calm plan, reframes unhelpful thoughts and makes a comeback plan. *See it:* Unit 2 artefacts and real-life use reported in reflections.
 3. **Communicates and relates well:** listens actively, speaks assertively, resolves conflict, respects boundaries and consent, acts as an upstander. *See it:* Unit 3 role plays.
-4. **Manages money:** balances a budget, explains compound interest and the cost of credit, recognises spending traps and runs an enterprise. *See it:* Unit 4 records.
+4. **Manages money:** balances a budget, explains compound interest and the cost of credit, reads a payslip and runs an enterprise. *See it:* Unit 4 records.
 5. **Acts as a global citizen:** explains rights and responsibilities, how to influence decisions and how to live more sustainably, and has served the community. *See it:* Unit 5 work and service action.
 6. **Is ready for secondary school:** organises a timetable and homework, uses effective study strategies and knows where to get help. *See it:* Unit 6 planner and study plan.
 7. **Makes change happen:** completes the Change-Maker Project from research to impact and presents it confidently. *See it:* the graduation exhibition.
@@ -511,5 +519,5 @@ consumption; and a full, self-directed change-making project. One lesson a week,
 - **Common misconceptions:** resilience means not feeling upset (it means recovering and adapting); growth mindset means "just try harder" (it means effective strategies, help-seeking and effort); assertive means aggressive; bullying is any conflict (it is repeated, intentional and involves a power imbalance); a bigger number of small eco-actions beats a few big ones; credit is "free money"; children can't make real change (the capstone proves otherwise).
 - **The capstone.** Keep projects small, local and achievable; success includes honest partial success and what was learned; involve families and community partners; celebrate every project at the exhibition.
 - **Differentiation.** Support means frames, examples, choice from prepared options and adult mentoring; stretch means leadership roles, outside partners, deeper analysis and more ambitious goals.
-- **Vertical alignment.** Year 5 covered stress and change, friendships and pressure, independence and safety, budgeting and scams, and using one's voice; Year 6 deepens each into self-direction, emotional intelligence, assertive communication, financial concepts, citizenship and a full change-making project. Secondary PSHE (UK Year 8 / US Grade 7 / MYP 2) builds on these foundations in adolescence.
+- **Vertical alignment.** Year 4 built the foundations (identity, strengths, growth mindset, conflict steps, SMART goals, simple interest, a market stall, a waste audit, rights and stereotypes); Year 5 applied them to harder situations (influence, mixed emotions, group chats, risk, bullying, personal safety, nerves, loss, banks and scams, tax, a data-led campaign, prejudice, democracy and letters to decision-makers). Year 6 retrieves these briefly and deepens each into self-direction, emotional intelligence, assertiveness in hard situations, financial concepts, rights and citizenship, and a full change-making project. Secondary PSHE (UK Year 8 / US Grade 7 / MYP 2) builds on these foundations in adolescence.
 - **Cross-curricular links:** every subject contributes to the capstone (see Unit 7); English (speeches, research), Maths (budgets, interest, statistics), Geography (SDGs, sustainability), History (rights and change-makers), Computing (data, AI and online safety), PE & Health (wellbeing, leadership), Art (exhibition design).
