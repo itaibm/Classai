@@ -319,7 +319,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
       <div className="topbar">
         <div className="brand" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>← Leave class</div>
         <div className="spacer" />
-        <span className="muted small">{lesson?.title}</span>
+        <span className="muted small topbar-title">{lesson?.title}</span>
         {listening && (
           <span className="listening-pill" title="Microphone is listening">
             <span className="rec-dot" /> Listening…
@@ -328,22 +328,24 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
         <button
           className="btn ghost small"
           title={micOn ? 'Microphone is on — click to turn off' : 'Microphone is off — click to turn on'}
+          aria-label={micOn ? 'Microphone on' : 'Microphone off'}
           onClick={() => setMicOn((m) => { localStorage.setItem(MIC_KEY, m ? '0' : '1'); return !m; })}
         >
-          {micOn ? '🎙️ Mic on' : '🎙️ Mic off'}
+          <span aria-hidden="true">🎙️</span><span className="lbl">{micOn ? ' Mic on' : ' Mic off'}</span>
         </button>
         <button
           className="btn ghost small"
           title="Hands-free: when the tutor asks you something, the mic listens and sends your answer by itself"
+          aria-label={handsFree ? 'Hands-free talking on' : 'Tap to talk'}
           onClick={() => setHandsFree((h) => { localStorage.setItem(HANDSFREE_KEY, h ? '0' : '1'); return !h; })}
         >
-          {handsFree ? '🙌 Hands-free' : '👆 Tap to talk'}
+          <span aria-hidden="true">{handsFree ? '🙌' : '👆'}</span><span className="lbl">{handsFree ? ' Hands-free' : ' Tap to talk'}</span>
         </button>
-        <button className="btn ghost small" onClick={() => setMuted((m) => { localStorage.setItem(MUTE_KEY, m ? '0' : '1'); return !m; })}>
-          {muted ? '🔇 Muted' : '🔊 Voice on'}
+        <button className="btn ghost small" aria-label={muted ? 'Voice muted' : 'Voice on'} onClick={() => setMuted((m) => { localStorage.setItem(MUTE_KEY, m ? '0' : '1'); return !m; })}>
+          <span aria-hidden="true">{muted ? '🔇' : '🔊'}</span><span className="lbl">{muted ? ' Muted' : ' Voice on'}</span>
         </button>
         <button className="btn ghost small" title="Higher-quality voice (downloads once)" onClick={() => setHd((h) => { localStorage.setItem(HD_KEY, h ? '0' : '1'); return !h; })}>
-          {hd ? '✨ HD voice' : 'HD voice off'}
+          <span aria-hidden="true">✨</span><span className="lbl">{hd ? ' HD voice' : ' HD voice off'}</span>
         </button>
       </div>
 
