@@ -162,6 +162,13 @@ export function parseScopeFile(markdown: string): ParsedScope {
     if (lesson && unit) {
       const field = line.match(FIELD_RE);
       if (field) {
+        // The end-of-unit check follows the unit's last lesson: it closes that
+        // lesson and belongs to the unit, not the lesson.
+        if ((field[1] || '').trim().toLowerCase() === 'end-of-unit check') {
+          flushLesson();
+          unit.endOfUnitCheck = (field[2] || '').trim();
+          continue;
+        }
         applyField(lesson, unit, field[1] || '', field[2] || '');
         continue;
       }

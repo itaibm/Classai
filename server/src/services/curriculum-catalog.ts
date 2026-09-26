@@ -38,7 +38,8 @@ const SUBJECT_LABELS: Record<string, string> = {
   'life-skills': 'Life Skills',
   computing: 'Computing',
   music: 'Music',
-  languages: 'Languages'
+  languages: 'Languages',
+  'pe-health': 'PE & Health'
 };
 
 function subjectLabel(folder: string): string {

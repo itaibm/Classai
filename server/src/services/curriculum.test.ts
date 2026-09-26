@@ -177,3 +177,21 @@ test('validator block-type list matches the app BlockSchema', async () => {
   const shared = JSON.parse(fs.readFileSync(path.join(REAL, 'block-types.json'), 'utf8')) as { blockTypes: string[] };
   assert.deepEqual([...shared.blockTypes].sort(), appTypes, 'curriculum/block-types.json must list exactly the BlockSchema types');
 });
+
+test('scope parser attaches an end-of-unit check that follows the last lesson to the unit', () => {
+  const md = [
+    '## Unit 1 — Numbers',
+    '**Essential question:** How big?',
+    '### Lesson 1 — Count',
+    '- **Objective:** "By the end, I can count."',
+    '- **Check for understanding:** "How many?" → 3',
+    '**End-of-unit check:** Count 20 objects and explain how you kept track.',
+    '## Unit 2 — Shapes',
+    '### Lesson 2 — Circles',
+    '- **Objective:** "By the end, I can find circles."'
+  ].join('\n');
+  const parsed = scope.parseScopeFile(md);
+  assert.equal(parsed.units[0]!.endOfUnitCheck, 'Count 20 objects and explain how you kept track.');
+  assert.equal(parsed.units[0]!.lessons[0]!.check, '"How many?" → 3', 'the lesson keeps its own fields');
+  assert.equal(parsed.units[1]!.lessons.length, 1);
+});
