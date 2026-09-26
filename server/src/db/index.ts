@@ -17,7 +17,8 @@ import type {
   SessionSummary,
   Topic
 } from '../../../shared/types.ts';
-import { DATA_DIR } from '../config.ts';
+import { DATA_DIR, CURRICULUM_DIR } from '../config.ts';
+import { migrateYearsV4 } from './migrate-years.ts';
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 const db = new DatabaseSync(path.join(DATA_DIR, 'classai.sqlite'));
@@ -152,7 +153,9 @@ const MIGRATIONS: Array<() => void> = [
       CREATE INDEX IF NOT EXISTS idx_episodes_kid ON episodes(kidId, createdAt);
       CREATE INDEX IF NOT EXISTS idx_blueprints_class ON lesson_blueprints(classId);
     `);
-  }
+  },
+  // v3 → v4: curriculum years re-anchored to the charter's ages (see migrate-years.ts).
+  () => migrateYearsV4(db, { curriculumDir: CURRICULUM_DIR, dataDir: DATA_DIR })
 ];
 {
   const FIRST = 3; // MIGRATIONS[0] produces schema version 3
