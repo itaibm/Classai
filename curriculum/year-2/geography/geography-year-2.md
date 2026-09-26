@@ -88,7 +88,7 @@ people change places and how places change people — is discussed in every unit
 - **Objective:** "By the end, I can explain latitude and longitude and use them to find a place roughly." (UK NC KS2 Geography – locational knowledge)
 - **Hook:** A beach ball with lines drawn on it — "How could a pilot describe exactly where they are?"
 - **Key activity:** Latitude lines run east–west and measure north/south of the equator (0°–90°); longitude lines run pole to pole and measure east/west of the Prime Meridian (0°–180°); play "battleships" on a simplified world grid.
-- **Check for understanding:** "Which line is 0° latitude and which is 0° longitude?" → The equator is 0° latitude; the Prime Meridian (through Greenwich, London) is 0° longitude.
+- **Check for understanding:** "Why do we need two numbers — latitude and longitude — to pin down a place, not just one?" → Latitude alone only says how far north or south (a whole line around the Earth); longitude says how far east or west, and the two lines cross at just one point. (0° latitude is the equator; 0° longitude is the Prime Meridian through Greenwich, London.)
 - **Differentiation:** support: only north/south of the equator / stretch: find a capital city from given coordinates (e.g. roughly 0°, 78° W — Quito).
 - **Materials:** beach balls, world grid maps, atlases
 - **Joy:** "World battleships."
@@ -97,7 +97,7 @@ people change places and how places change people — is discussed in every unit
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain why some places have day while others have night." (UK NC KS2 Geography – time zones; Science link)
 - **Hook:** A video call (or a recorded message) from a school in another time zone.
-- **Key activity:** Torch-and-globe demo; stickers on four cities; rotate the globe to see sunrise travel west-to-east across them; recap Science Unit 5.
+- **Key activity:** Torch-and-globe demo; stickers on four cities; rotate the globe (west to east) and see which city meets sunrise first; retrieve Year 1 Science (day and night) — Science Unit 5 later this year uses these clocks again.
 - **Check for understanding:** "When it's noon here, why is it night on the opposite side of the world?" → That side is facing away from the Sun as the Earth spins.
 - **Differentiation:** support: two cities only / stretch: explain why places further east see the sunrise first.
 - **Materials:** globe, torch or lamp, stickers
@@ -136,7 +136,7 @@ people change places and how places change people — is discussed in every unit
 - **Objective:** "By the end, I can use the eight compass points to give and follow directions." (UK NC KS2 Geography – map skills)
 - **Hook:** "Never Eat Shredded Wheat" — and a real compass.
 - **Key activity:** Learn N, NE, E, SE, S, SW, W, NW; find north outdoors with a compass (Science link: magnets); a directions game in the playground.
-- **Check for understanding:** "If you face north and turn a quarter turn clockwise, which way are you facing?" → East.
+- **Check for understanding:** "You face north-east and make a quarter turn clockwise. Which way are you facing now, and how did you work it out?" → South-east — a quarter turn moves two of the eight points round (NE → E → SE).
 - **Differentiation:** support: 4 points first with a floor compass / stretch: give directions using 8 points and numbers of steps.
 - **Materials:** compasses, chalk, floor compass mat
 - **Joy:** "Compass treasure hunt."
@@ -156,7 +156,7 @@ people change places and how places change people — is discussed in every unit
 - **Objective:** "By the end, I can find a square on a map using a four-figure grid reference." (UK NC KS2 Geography – map skills; Maths link: coordinates)
 - **Hook:** "Along the corridor and up the stairs!"
 - **Key activity:** Learn to read eastings (along) then northings (up); find squares on a grid map; give references for features.
-- **Check for understanding:** "Why do we always read along first, then up?" → So everyone finds the same square — it's an agreed rule.
+- **Check for understanding:** "Your friend says the tree is in square 0312, but you find a pond there. The tree is really in 1203. What mistake did your friend make?" → They read up first, then along; the rule is along the corridor (eastings) first, then up the stairs (northings).
 - **Differentiation:** support: 2-figure references on a small grid / stretch: 4-figure references on a real map.
 - **Materials:** grid maps, local map with a grid
 - **Joy:** "Grid-reference bingo."
@@ -181,13 +181,13 @@ people change places and how places change people — is discussed in every unit
 - **Materials:** local maps with scale bars, rulers, string
 - **Joy:** Walk the route to check.
 
-### Lesson 13 — Fieldwork: planning a land-use survey
+### Lesson 13 — Fieldwork: planning a land-use transect
 - **Duration:** 25 min
-- **Objective:** "By the end, I can plan a fieldwork survey of land use around the school." (UK NC KS2 Geography – fieldwork)
-- **Hook:** "What is our local area used for? Let's find out like real geographers."
-- **Key activity:** Agree categories (homes, shops, green space, roads, services); plan a route; prepare tally sheets and a base map.
-- **Check for understanding:** "Why do we agree categories before we go out?" → So everyone records in the same way and results can be compared.
-- **Differentiation:** support: pre-made tally sheet / stretch: add a question (e.g. noise level).
+- **Objective:** "By the end, I can plan a fieldwork enquiry with a question, a prediction and fixed stopping points." (UK NC KS2 Geography – fieldwork)
+- **Hook:** "In Year 1 we mapped what is around school. This year's question: does the land use change as we walk away from the school (or town centre)? What do you predict?"
+- **Key activity:** Write the enquiry question and a prediction with "because"; mark 4–5 stopping points along a straight-ish route on the base map with four-figure grid references; at each point we will record land use (homes, shops, green space, roads, services) and give an environmental-quality score (1–5 for litter, noise, greenery); agree categories and the scoring rules so every group records the same way.
+- **Check for understanding:** "Why do we stop at the same fixed points and use the same 1–5 scale in every group?" → So results from different groups and places can be compared fairly — otherwise differences might just be because people chose different spots or scored differently.
+- **Differentiation:** support: pre-made recording sheet with pictures for each category / stretch: add a second measure (e.g. counting pedestrians for 2 minutes at each point).
 - **Materials:** base maps, tally sheets, clipboards
 - **Joy:** "Geographer" lanyards.
 
@@ -195,8 +195,8 @@ people change places and how places change people — is discussed in every unit
 - **Duration:** 30 min
 - **Objective:** "By the end, I can collect and record land-use data in the field." (UK NC KS2 Geography – fieldwork)
 - **Hook:** The walk begins.
-- **Key activity:** Walk the route (supervised); tally land use; colour the base map; take photos.
-- **Check for understanding:** "What was the most common land use, and did it surprise you?" → Based on tallies.
+- **Key activity:** Walk the route (supervised; adult ratios, high-visibility vests); at each stopping point tally land use, score environmental quality, take a photo facing the same compass direction, and note the direction of travel using the eight compass points.
+- **Check for understanding:** "Look at your first and last stopping points. What changed, and does it match our prediction so far?" → A comparison based on the tallies and scores (e.g. "Point 1 was mostly shops and scored 2; point 5 was mostly homes and a park and scored 4 — so far it matches").
 - **Differentiation:** support: work in a pair with an adult / stretch: record a sketch map.
 - **Materials:** clipboards, tally sheets, base maps, coloured pencils, camera
 - **Joy:** Fieldwork walk.
@@ -205,8 +205,8 @@ people change places and how places change people — is discussed in every unit
 - **Duration:** 25 min
 - **Objective:** "By the end, I can present fieldwork results in a map and chart and draw a conclusion." (Assessment)
 - **Hook:** "Report to the town council."
-- **Key activity:** Make a bar chart of land use (Maths link); write two conclusions and one suggestion to improve the area; map-skills check (compass, symbols, grid references).
-- **Check for understanding:** "What does your chart show, and what would you change in our local area?" → A data-based conclusion and a suggestion (e.g. more green space).
+- **Key activity:** Make a bar chart of land use at each stopping point (Maths link); plot the environmental scores on the base map; write a conclusion that answers the question and says whether the prediction was right; one suggestion to improve the area; map-skills check (compass, symbols, grid references).
+- **Check for understanding:** "Was our prediction right? Use two pieces of data to prove it — and name one thing that could have made our results less reliable." → A data-based conclusion (e.g. "Yes — green space rose from 0 tallies at point 1 to 6 at point 5") and a limitation (one visit, one time of day).
 - **Differentiation:** support: chart template / stretch: compare with an aerial photo from years ago.
 - **Materials:** squared paper, results
 - **Joy:** Presentation to the head teacher as "council."
@@ -332,7 +332,7 @@ people change places and how places change people — is discussed in every unit
 - **Objective:** "By the end, I can explain how volcanoes form and erupt and label a volcano." (UK NC KS2 Geography – volcanoes)
 - **Hook:** A baking-soda-and-vinegar volcano eruption (outdoors).
 - **Key activity:** Label magma chamber, vent, crater, lava; sort active, dormant, extinct; locate the Ring of Fire around the Pacific.
-- **Check for understanding:** "What is the difference between magma and lava?" → Magma is melted rock underground; lava is magma that has come out onto the surface.
+- **Check for understanding:** "A news reporter says, 'Red-hot magma is pouring down the side of the volcano.' Is that the right word? Explain." → No — melted rock underground is magma; once it comes out onto the surface it is called lava.
 - **Differentiation:** support: labelled diagram / stretch: explain why so many volcanoes are around the Pacific.
 - **Materials:** model volcano, baking soda, vinegar, food colouring, maps
 - **Joy:** The eruption!
@@ -456,7 +456,7 @@ people change places and how places change people — is discussed in every unit
 1. **Globe knowledge** — locates continents, oceans, the equator, tropics, polar circles, Prime Meridian and hemispheres. *Seen:* labelled world map.
 2. **Latitude, longitude and time zones** — explains the grid and works out a time difference in whole hours. *Seen:* pilot's mission and world clocks.
 3. **Map skills** — uses eight compass points, map symbols and keys, four-figure grid references and a simple scale. *Seen:* map-skills check.
-4. **Fieldwork** — plans, collects, records and presents fieldwork data with a conclusion. *Seen:* land-use survey.
+4. **Fieldwork** — plans an enquiry with a prediction, collects and records data at fixed points, and presents a conclusion with a limitation. *Seen:* land-use transect.
 5. **Rivers** — describes a river from source to mouth, explains erosion and deposition, and why people settle by rivers. *Seen:* stream tray and river check.
 6. **Mountains, volcanoes, earthquakes** — explains how they form, where they happen (plate edges) and how people live with the risks. *Seen:* Unit 4 check.
 7. **My country** — names regions, capital and major cities and explains why the local settlement grew where it did. *Seen:* Unit 5 work.
@@ -477,4 +477,4 @@ people change places and how places change people — is discussed in every unit
 
 **Local adaptation.** Units 2 and 5 are built around your own school and country; swap the UK worked example for your own. Choose river and volcano case studies from your region where possible.
 
-**Vertical alignment.** Year 1 introduced continents, oceans, simple maps and comparing places. Year 3 (ages 8–9) builds on this year's globe grid, map skills and rivers with the water cycle, climate zones and biomes, and more data-heavy fieldwork.
+**Vertical alignment.** Year 1 introduced continents, oceans, simple maps with four-point compass and letter–number grids, a first land-use and traffic survey, and comparing places; this year moves to eight points, four-figure references, scale, and a transect with a prediction. Year 3 (ages 8–9) builds on this year's globe grid, map skills and rivers with the water cycle, climate zones and biomes, and more data-heavy fieldwork.

@@ -591,7 +591,7 @@ and teeth); the properties of materials (leading to states of matter); and light
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain why the Sun rises in the east and sets in the west, and why places around the world have different times." (NGSS 1-ESS1-1 / 5-ESS1-2 preview; Earth & space)
 - **Hook:** "In Tokyo children are going to bed; in Mexico City they are just waking up. It's the same moment — how?"
-- **Key activity:** Retrieve Year 1's globe-and-lamp day and night, then go further: spin the globe west-to-east (anticlockwise seen from above the North Pole) with stickers on three cities; see which city meets sunrise first; children stand as "cities" in a circle round a lamp and turn to find "east", where the Sun appears; compare real clock times in partner cities (Geography link: time zones).
+- **Key activity:** Retrieve Year 1's globe-and-lamp day and night, then go further: spin the globe west-to-east (anticlockwise seen from above the North Pole) with stickers on three cities; see which city meets sunrise first; children stand as "cities" in a circle round a lamp and turn to find "east", where the Sun appears; use the model to explain the "world clock wall" from Geography Unit 1 (time zones) rather than re-teaching it.
 - **Check for understanding:** "Why does the Sun rise in the east everywhere on Earth?" → The Earth spins towards the east, so each place turns to face the Sun on its eastern side first; the Sun only appears to move.
 - **Differentiation:** support: role play spinning with an arrow on the floor marking "east" / stretch: work out which of three cities sees sunrise first and explain.
 - **Materials:** globe, lamp, stickers
