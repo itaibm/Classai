@@ -2,7 +2,7 @@
 
 ## Year overview
 
-Year 3 geography takes children **around the world through its climates and biomes** and into two contrasting region studies — **the Amazon rainforest in South America** and **the Mediterranean region of Italy in Europe** — then follows food along global **trade routes from Ghana (Africa)** to their own kitchen. It opens by taking Year 2's **map skills** (eight compass points, four-figure grid references, symbols, keys and scale) outdoors and into real atlases and digital maps — orienteering, atlas indexes, satellite layers and comparing maps of different scales — and closes with **fieldwork** in the local area, adaptable to any town or country.
+Year 3 geography takes children **around the world through its climates and biomes** and into two contrasting region studies — **the Amazon rainforest in South America** and **the Mediterranean region of Italy in Europe** — then follows food along global **trade routes from Ghana (Africa)** to their own kitchen. It opens by taking Year 2's **map skills** (eight compass points, four-figure grid references, symbols, keys and scale) outdoors and into real atlases and digital maps — sixteen compass points, atlas indexes, satellite layers and comparing maps of different scales — and closes with **fieldwork** in the local area, adaptable to any town or country.
 
 **Physical and human geography together.** Every unit links what the land and climate are like (physical) to how people live, work, trade and change places (human), and asks about **sustainability** — deforestation, water use, fair trade, and caring for local places.
 
@@ -33,17 +33,17 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
 **Essential question:** How do maps help us find, describe and plan routes to places near and far?
 
-**Key vocabulary:** map, plan, key, symbol, scale, compass, north, north-east, east, south-east, south, south-west, west, north-west, grid, grid reference, easting, northing, route, aerial photograph, atlas, index, orienteering, set the map, satellite image, layer, large-scale, small-scale
+**Key vocabulary:** map, plan, key, symbol, scale, compass, north, north-east, east, south-east, south, south-west, west, north-west, grid, grid reference, easting, northing, route, aerial photograph, atlas, index, north-north-east (and the other in-between points), sixteen-point compass, magnetic compass, satellite image, layer, large-scale, small-scale
 
-### Lesson 1 — Orienteering: setting the map and following a course
+### Lesson 1 — Sixteen compass points: giving precise directions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can set (orient) a map to north with a compass and use it with the eight compass points to navigate a course." (UK NC KS2 Ge (eight points of a compass; use maps))
-- **Hook:** "Your map says the next control is north-east — but which way is north-east when you're standing in the playground holding the map upside down?"
-- **Key activity:** Quick retrieval of the eight points (Year 2) on a chalk compass rose. New: *setting the map* — turn the map until its north arrow lines up with the compass needle, so features on the map line up with the real world. Pairs then run a short orienteering course in the school grounds with 6–8 control points marked on a school map, recording the direction of each leg and punching a card at each control.
-- **Check for understanding:** "Why do orienteers turn the map to match the land before choosing a direction, and what goes wrong if they don't?" → a set map lines up with the real world, so 'straight ahead on the map' is straight ahead on the ground; with an unset map you can head the wrong way (e.g. south-west instead of north-east)
-- **Differentiation:** support: a course of four controls with an adult, and the map pre-set with a north arrow chalked on the ground / stretch: design a new control and write the leg directions for a partner to follow
-- **Materials:** magnetic compasses, school maps, control markers and punch cards, chalk
-- **Joy:** timed orienteering course around the school grounds
+- **Objective:** "By the end, I can use the sixteen points of the compass and a magnetic compass to describe directions more precisely." (UK NC KS2 Ge (eight points of a compass; use maps))
+- **Hook:** "A ship is told to sail 'north-east', but the harbour really lies halfway between north-east and north. After a long voyage, will it arrive?"
+- **Key activity:** Quick retrieval of the eight points (Year 2) on a chalk compass rose. New: the sixteen points — the directions halfway between each pair (NNE, ENE, ESE, SSE, SSW, WSW, WNW, NNW), named with the nearest of N, E, S or W first (so NNE is closer to north, ENE closer to east); a magnetic compass needle points to magnetic north, so line the map's north arrow up with it before reading directions (set maps and pace counts are practised in PE orienteering). Pairs then give and follow leg-by-leg directions between control points in the school grounds using the sixteen points.
+- **Check for understanding:** "Why would a pilot or sailor say 'north-north-east' rather than just 'north-east'?" → it is more precise; over a long distance even a small difference in direction takes you a long way from where you meant to go
+- **Differentiation:** support: a compass-rose card with the sixteen points colour-coded (main, half-way, in-between) / stretch: write a five-leg treasure route for a partner using at least three in-between points
+- **Materials:** magnetic compasses, school maps, control markers, chalk
+- **Joy:** "Compass-rose twister": call a direction and everyone jumps to it
 
 ### Lesson 2 — Atlas skills: finding any place in the world
 - **Duration:** 40 min
@@ -85,7 +85,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 - **Materials:** local maps, rulers, compasses
 - **Joy:** follow the best route on a real walk if possible
 
-**End-of-unit check:** Set a map with a compass and follow a short course; find three places with an atlas index; choose the right map type and scale for a task; give four-figure grid references and measure a winding route with a scale bar.
+**End-of-unit check:** Name and use the sixteen compass points to give precise directions; find three places with an atlas index; choose the right map type and scale for a task; give four-figure grid references and measure a winding route with a scale bar.
 
 ---
 
@@ -465,7 +465,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
 ## End-of-year mastery checks
 
-1. **Map skills** — sets a map and navigates with eight compass points; uses an atlas index, digital map layers, four-figure grid references, keys and scale; chooses maps of the right scale. *See it:* the orienteering course and the expedition route plan.
+1. **Map skills** — uses sixteen compass points and a magnetic compass to give precise directions; uses an atlas index, digital map layers, four-figure grid references, keys and scale; chooses maps of the right scale. *See it:* the compass-rose trail and the expedition route plan.
 2. **Weather vs climate** — explains the difference and reads a climate graph. *See it:* describes and compares two climate graphs.
 3. **Climate zones and biomes** — explains why latitude affects temperature and locates the main biomes with examples of adaptations. *See it:* a labelled world biome map.
 4. **Water** — traces water from rain to tap and explains unequal access with physical and human reasons.
@@ -492,4 +492,4 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
 **Differentiation.** Support = more concrete: physical maps and globes, picture cards, partially completed diagrams, adult-supported fieldwork roles. Stretch = deeper geographical reasoning: explain causes and trade-offs, compare three places, evaluate data reliability, propose sustainable solutions.
 
-**Vertical connections.** Builds on Year 2 (latitude and longitude, hemispheres, time zones, eight compass points, four-figure grid references, symbols, scale, rivers, mountains and volcanoes, settlements). Year 3 retrieves those map skills briefly and adds orienteering, atlas indexes, digital layers and map scale. Year 4 uses them for coasts, the Colorado River region of North America, Antarctica, mountains at altitude, and resources and energy; Year 5 adds six-figure grid references, contours and GIS.
+**Vertical connections.** Builds on Year 2 (latitude and longitude, hemispheres, time zones, eight compass points, four-figure grid references, symbols, scale, rivers, mountains and volcanoes, settlements). Year 3 retrieves those map skills briefly and adds sixteen compass points, atlas indexes, digital layers and map scale. Year 4 uses them for coasts, the Colorado River region of North America, Antarctica, mountains at altitude, and resources and energy; Year 5 adds six-figure grid references, contours and GIS.
