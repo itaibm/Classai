@@ -7,18 +7,18 @@
 
 ## Year overview
 
-Year 4 computing is the year children write **programs that make decisions and remember things**, and learn **how the internet actually works**. In Scratch they move from loops (Year 3) to **selection** (*if…then…else*, conditions, sensing and operators) and **variables** (score, timer, lives), combining all three to design, test and improve their own games. Unplugged role-plays reveal how **data travels across networks** in packets through routers, how the internet differs from the World Wide Web, and how **search engines** find and rank pages. A **spreadsheets** unit uses real data from science and PE, and a **media literacy** unit teaches children to question what they find online — including answers from AI chatbots. **Online safety and wellbeing** (digital footprint, strong passwords, kindness, balance and getting help) run through the year and have their own unit.
+Year 4 computing is the year children write **programs that make decisions and remember things**, and look **inside the computer itself**. In Scratch they move from loops (Year 3) to **selection** (*if…then…else*, conditions, sensing and operators) and **variables** (score, timer, lives), combining all three to design, test and improve their own games. Unplugged activities reveal **how a computer works** — input, processing, memory, storage — and how everything it handles, from numbers to pictures, is stored in **binary**; later, children learn how **search engines** find and rank pages. (Networks, packets and the web were taught in Years 2 and 3; Year 5 adds IP addresses, DNS and encryption.) A **spreadsheets** unit uses real data from science and PE, and a **media literacy** unit teaches children to question what they find online — including answers from AI chatbots. **Online safety and wellbeing** (digital footprint, strong passwords, kindness, balance and getting help) run through the year and have their own unit.
 
 Every programming lesson follows **Use → Modify → Create**, with **debugging** taught as a normal, positive part of programming ("bugs are clues"). Unplugged activities come first when a concept is new.
 
-**What Year 4 assumes (from Year 3):** sequences and loops (*repeat*, *forever*) in Scratch; drawing with the pen; debugging a simple program; branching databases (yes/no questions); making audio and video; reliable vs unreliable sources; privacy and kindness online.
-**What Year 5 relies on from Year 4:** confident use of selection and variables (for complete programs and physical computing); understanding of networks and search (for evaluating information and online reputation); spreadsheet formulas and charts (for a full data investigation); the habit of planning, testing and evaluating code (for the move to text-based programming in Python).
+**What Year 4 assumes (from Years 2–3):** sequences, events and broadcasts; loops (*repeat*, *forever*, *repeat until*, nested loops, parallel scripts) in Scratch; drawing with the pen; debugging by tracing; branching databases; networks, packets, servers and URLs; making audio and video; reliable sources and user-written content; passwords, privacy settings, kindness and sleep-friendly screen habits.
+**What Year 5 relies on from Year 4:** confident use of selection and variables (for complete programs and physical computing); understanding of how computers store data in binary and how search works (for IP addresses, encryption and evaluating information); spreadsheet formulas and charts (for a full data investigation); the habit of planning, testing and evaluating code (for the move to text-based programming in Python).
 
 ## Time budget
 
 | Term | Unit | Weeks | Lessons |
 |---|---|---|---|
-| 1 | 1 — How the internet works: networks, packets and the web | 5 | 5 |
+| 1 | 1 — Inside the computer: input, processing, storage and binary | 5 | 5 |
 | 1 | 2 — Selection: programs that decide | 7 | 7 |
 | 2 | 3 — Variables and games | 8 | 8 |
 | 2–3 | 4 — Spreadsheets and data | 6 | 6 |
@@ -29,63 +29,63 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 
 ---
 
-## Unit 1 — How the internet works: networks, packets and the web
+## Unit 1 — Inside the computer: input, processing, storage and binary
 
-**Essential question:** How does a message get from my computer to the other side of the world in less than a second?
+**Essential question:** What actually happens inside a computer — and how can it store words, numbers and pictures using only 0s and 1s?
 
-**Key vocabulary:** network, internet, World Wide Web, router, packet, IP address, server, client, cable, wireless, Wi-Fi, website, URL, browser, domain name
+**Key vocabulary:** input, output, process, processor (CPU), memory (RAM), storage, sensor, data, binary, bit, byte, pixel, resolution, computer system
 
-### Lesson 1 — What is a network?
+### Lesson 1 — Input, process, output: computers all around us
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain what a network is and identify the parts of our school network." (UK NC KS2 understand computer networks; CSTA 1B-NI-04)
-- **Hook:** "How does the printer know which computer sent the document?"
-- **Key activity:** Unplugged: children connected by string to a "switch" pass messages; then a walk to see the school's router, cables and wireless access points (with the IT lead).
-- **Check for understanding:** "Why is a network useful in a school?" → Devices can share information and resources (printers, files, the internet).
-- **Differentiation:** support: labelled network diagram. / stretch: explain the difference between wired and wireless connections.
-- **Materials:** string, name cards, network diagram.
-- **Joy:** "Human network" message passing.
+- **Objective:** "By the end, I can identify the input, processing and output in everyday computer systems." (UK NC KS2 understand computer systems; CSTA 1B-CS-01)
+- **Hook:** "A microwave, a traffic light, a supermarket self-checkout and a games console — which of these are computers?"
+- **Key activity:** Retrieve inputs and outputs from earlier years in two minutes. New: the input–process–output model. Groups sort photo cards of devices, then draw an input → process → output diagram for three of them (including one with a sensor, such as automatic doors).
+- **Check for understanding:** "A self-checkout scans a barcode and shows a price. Name the input, the processing and the output." → input: the scanner reads the barcode; processing: the computer looks up the price and adds it to the total; output: the price on the screen and a beep
+- **Differentiation:** support: picture cards with the three boxes already drawn. / stretch: find a system with more than one input and explain how the processing combines them.
+- **Materials:** device photo cards, IPO diagram sheets.
+- **Joy:** "Is it a computer?" debate.
 
-### Lesson 2 — The internet: a network of networks
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain that the internet connects networks around the world through routers and cables." (UK NC KS2 networks including the internet; CSTA 1B-NI-04)
-- **Hook:** A map of undersea internet cables: "Most international internet traffic travels under the sea!"
-- **Key activity:** Map undersea cables; routers pass data between networks; IP addresses as postal addresses for devices.
-- **Check for understanding:** "What is the job of a router?" → It directs data between networks, choosing where to send it next.
-- **Differentiation:** support: picture sequence of a message's journey. / stretch: explain why there are many possible routes.
-- **Materials:** undersea cable map (e.g. from a public submarine cable map website), world map.
-- **Joy:** Trace a message's route from our school to a partner school abroad.
-
-### Lesson 3 — Packets: breaking messages into pieces
+### Lesson 2 — Inside the box: processor, memory and storage
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how data is split into packets and reassembled." (UK NC KS2 how networks transfer data; CSTA 1B-NI-04)
-- **Hook:** "How would you post a whole bicycle? In pieces, with instructions!"
-- **Key activity:** Unplugged: write a message across numbered cards (packets) with address and sequence number; "routers" (children) send packets by different routes; receiver reassembles; one packet lost — resend.
-- **Check for understanding:** "Why do packets need sequence numbers?" → They may arrive in a different order, and the numbers let the computer put them back together correctly.
-- **Differentiation:** support: shorter message and fewer routers. / stretch: design a way to check whether a packet is missing.
-- **Materials:** envelopes or cards, classroom "routers" (tables).
-- **Joy:** Packet-race game.
+- **Objective:** "By the end, I can name the main parts inside a computer and explain the jobs of the processor, memory and storage." (UK NC KS2 understand computer systems; CSTA 1B-CS-02)
+- **Hook:** An old desktop computer with its side panel removed: "What's in here — and which part is the 'brain'?"
+- **Key activity:** An adult opens an old, unplugged desktop computer (power supply left sealed, any batteries removed); children identify the processor (CPU), memory (RAM), storage (hard drive or SSD), motherboard and fan. Unplugged role-play: a 'processor' child follows instructions from a 'memory' whiteboard that is wiped when the 'power' goes off, while a 'storage' notebook keeps its notes.
+- **Check for understanding:** "Why does a computer need both memory (RAM) and storage?" → memory holds what the computer is working on right now and is very fast, but it forgets everything when the power goes off; storage keeps files even when the computer is switched off
+- **Differentiation:** support: a labelled photo of the inside of a computer to match. / stretch: explain why a computer with more memory can run more apps at once.
+- **Materials:** an old, unplugged desktop computer (adult-opened; do not open the power supply or batteries), labels, whiteboards and notebooks for the role-play.
+- **Joy:** "Computer surgeons" labelling the parts.
 
-### Lesson 4 — The World Wide Web, browsers and addresses
+### Lesson 3 — Binary: everything is 0s and 1s (unplugged)
+- **Duration:** 40 min
+- **Objective:** "By the end, I can represent numbers up to 31 in binary and explain why computers use only two digits." (UK NC KS2 understand how data is represented; CSTA 1B-DA-06)
+- **Hook:** "Five cards, each with dots on one side. Can you show any number from 0 to 31 just by turning them face up or face down?"
+- **Key activity:** CS Unplugged binary cards (16, 8, 4, 2, 1 dots): face up = 1, face down = 0. Children make numbers, write them in binary, and link to the on/off signals of Year 3 (a switch, a light, a current). Send a secret number in binary with torches.
+- **Check for understanding:** "Using the cards 16, 8, 4, 2 and 1, show 13 in binary and explain why each card is either face up or face down." → 01101 (8 + 4 + 1); each card is either on (1) or off (0) — just like a switch in a computer, which can only be on or off
+- **Differentiation:** support: numbers to 15 with four cards. / stretch: work out the largest number six cards could show, and explain the doubling pattern.
+- **Materials:** binary dot cards (one set per pair), whiteboards, torches.
+- **Joy:** "Binary birthday" — write your age and birthday in binary.
+
+### Lesson 4 — Pictures as numbers: pixels
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a picture is stored as a grid of pixels, each saved as numbers." (UK NC KS2 understand how data is represented; CSTA 1B-DA-06)
+- **Hook:** Zoom right into a digital photo on the board: "Where did the smooth picture go?"
+- **Key activity:** Colour in a black-and-white picture on squared paper from a list of 0s and 1s (1 = black, 0 = white); then send a partner a picture as a list of numbers; discuss how colour pictures use three numbers per pixel (red, green, blue) and how more pixels give a sharper image.
+- **Check for understanding:** "A 5 × 5 black-and-white picture is sent as 25 zeros and ones. Why does a bigger, sharper picture take longer to send?" → it has more pixels, so there are more numbers (bits) to store and send across the network
+- **Differentiation:** support: a 5 × 5 grid with the first row done. / stretch: design an 8 × 8 icon and work out how many bits it needs; explain how colour needs even more.
+- **Materials:** squared paper, pixel-grid sheets, a zoomable digital photo.
+- **Joy:** "Pixel postcard" — send a hidden picture as numbers.
+
+### Lesson 5 — Unit 1 review: design a smart device
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain the difference between the internet and the World Wide Web and read the parts of a web address." (UK NC KS2 use services such as the World Wide Web; CSTA 1B-NI-04)
-- **Hook:** "Are the internet and the web the same thing?"
-- **Key activity:** The web is a service that runs on the internet (like email or video calls); invented by Tim Berners-Lee at CERN in 1989; parts of a URL (protocol, domain name, path); domain names are translated into IP addresses.
-- **Check for understanding:** "Give one internet service that is not the web." → Email, video calling or online games.
-- **Differentiation:** support: URL labelling sheet. / stretch: explain what 'https' and the padlock icon mean (the connection is encrypted).
-- **Materials:** browser on screens, URL cards.
-- **Joy:** "Postcode for the web" — decode silly URLs.
+- **Objective:** "By the end, I can design a simple computer system and explain its inputs, processing, storage and how its data is stored in binary." (UK NC KS2 understand computer systems; CSTA 1B-CS-01)
+- **Hook:** "Invent a device that would make our school better — a plant-watering robot, a noise meter, a smart bin."
+- **Key activity:** Groups draw their device as an input → process → output diagram, say what it must store and remember, write a simple algorithm for it, and explain one piece of its data in binary.
+- **Check for understanding:** "Point to your device's input, processing and output, and explain one thing it must store and why." → a correct diagram and a sensible stored item (e.g. the plant robot stores the last time it watered, so it doesn't water twice)
+- **Differentiation:** support: a template with the three boxes and picture prompts. / stretch: add a condition to the algorithm ('if the soil is dry then…') — a preview of Unit 2.
+- **Materials:** design sheets, coloured pens.
+- **Joy:** "Inventors' fair" pitch.
 
-### Lesson 5 — Unit 1 review: journey of a web page
-- **Duration:** 35 min
-- **Objective:** "By the end, I can explain step by step how a web page reaches my screen." (UK NC KS2 networks; CSTA 1B-NI-04)
-- **Hook:** Comic-strip challenge.
-- **Key activity:** Create a comic strip: type address → request travels as packets → server sends the page in packets → routers → browser reassembles and displays.
-- **Check for understanding:** "What does a web server do?" → It stores web pages and sends them when a browser requests them.
-- **Differentiation:** support: fill-the-gap comic. / stretch: add what happens if a packet is lost.
-- **Materials:** comic templates.
-- **Joy:** Comic strips.
-
-**End-of-unit check:** Explain in a diagram how a web page reaches the screen, using packets, routers, servers and browsers; state the difference between the internet and the web.
+**End-of-unit check:** Draw an input → process → output diagram for a device; explain why a computer needs both memory and storage; write a number to 31 in binary and explain how a picture is stored as pixels.
 
 ---
 
@@ -355,15 +355,15 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 - **Materials:** devices with child-safe search.
 - **Joy:** "Search challenge" treasure hunt.
 
-### Lesson 29 — Is it true? Checking sources and spotting misinformation
+### Lesson 29 — Misinformation: why false stories spread
 - **Duration:** 40 min
-- **Objective:** "By the end, I can evaluate a website and cross-check a claim." (UK NC KS2 be discerning in evaluating digital content)
-- **Hook:** A famous spoof website (e.g. the "Pacific Northwest tree octopus" hoax page): "Is this real?"
-- **Key activity:** Checklist: who made it? when? why? evidence? do other reliable sources agree?; evaluate three pages; fact vs opinion; how photos can be edited.
-- **Check for understanding:** "What two checks would you do before believing a surprising claim online?" → Check who wrote it and whether trusted sources agree (cross-check).
-- **Differentiation:** support: checklist with pictures. / stretch: explain why people create misinformation.
-- **Materials:** example websites, evaluation checklist.
-- **Joy:** "Real or hoax?" game.
+- **Objective:** "By the end, I can explain why false information spreads online and check a claim before sharing it." (UK NC KS2 be discerning in evaluating digital content)
+- **Hook:** "'We only use 10% of our brains.' Millions of people have shared this. Is it true?"
+- **Key activity:** Retrieve Year 3's reliability checklist, edited images and wikis in two minutes. New: misinformation — why surprising, scary or funny stories get shared faster than careful ones; how 'likes' and shares are not evidence; tracing a claim back to where it started; checking with fact-checking and expert sources. Children investigate two viral claims (one true, one false) and present their verdicts.
+- **Check for understanding:** "A shocking post has thousands of shares. Why doesn't that make it true, and what would you check before sharing it?" → shares only show that it is popular, not that it is accurate; check who first posted it, whether trusted experts or news organisations report it, and whether the picture appears elsewhere with a different story
+- **Differentiation:** support: a three-question checking card with picture prompts. / stretch: explain why people create misinformation (money from clicks, jokes, trying to change what people think).
+- **Materials:** printed examples of viral claims (teacher-prepared), a checking card.
+- **Joy:** "Myth-busters" verdict board.
 
 ### Lesson 30 — AI chatbots: helpful but not always right
 - **Duration:** 35 min
@@ -375,7 +375,7 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 - **Materials:** prepared examples (teacher-run; children do not need accounts).
 - **Joy:** "Catch the robot's mistake."
 
-**End-of-unit check:** Explain how search engines index and rank pages; evaluate a website with a checklist and cross-check one claim; explain why AI answers need checking.
+**End-of-unit check:** Explain how search engines index and rank pages; check a viral claim before sharing it and explain why shares are not evidence; explain why AI answers need checking.
 
 ---
 
@@ -383,7 +383,7 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 
 **Essential question:** How can I protect myself and be a good digital citizen?
 
-**Key vocabulary:** digital footprint, privacy, personal information, password, passphrase, two-step verification, permission, cyberbullying, bystander, upstander, screen time, report, trusted adult
+**Key vocabulary:** digital footprint, privacy, personal information, passphrase, phishing, scam, two-step verification, viral challenge, in-game purchase, pressure, report, trusted adult
 
 ### Lesson 31 — Digital footprint and privacy
 - **Duration:** 35 min
@@ -395,27 +395,27 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 - **Materials:** sorting cards.
 - **Joy:** "Footprint" sorting game.
 
-### Lesson 32 — Strong passwords and security
+### Lesson 32 — Phishing, scams and two-step verification
 - **Duration:** 35 min
-- **Objective:** "By the end, I can create a strong passphrase and explain how to keep accounts safe." (UK NC KS2 security; CSTA 1B-NI-05)
-- **Hook:** "Which is stronger: 'Fluffy1' or 'PurpleTrainBanana'?"
-- **Key activity:** Three random words (advice used by national cyber-security agencies such as the UK's NCSC); don't reuse or share passwords; two-step verification; phishing messages (too good to be true).
-- **Check for understanding:** "Why is three random words stronger than a pet's name and a number?" → It's longer and harder to guess, but still easy for you to remember.
-- **Differentiation:** support: word-picker cards. / stretch: explain what phishing is and spot one in examples.
-- **Materials:** example messages, word cards (children don't use real passwords in class).
-- **Joy:** "Password strength" game.
+- **Objective:** "By the end, I can spot the signs of a phishing message and explain how two-step verification protects an account." (UK NC KS2 security; CSTA 1B-NI-05)
+- **Hook:** "'Congratulations! You've won a free tablet! Click here and enter your password to claim it.' Would you click?"
+- **Key activity:** Retrieve Years 2–3 password habits (three random words; never share) in one minute. New: phishing — messages that pretend to be from someone trusted to steal passwords or money; the warning signs (urgency, prizes, spelling mistakes, odd addresses, requests for passwords); what two-step verification adds (a code sent to a second device); what to do (don't click, tell an adult, report, delete).
+- **Check for understanding:** "A message says 'You've won a new tablet! Click here and enter your password to claim it.' Give two clues that it's phishing, and say what you should do." → it's too good to be true, it asks for your password, it is urgent or comes from an odd address; don't click, don't reply, tell a trusted adult and delete or report it
+- **Differentiation:** support: word-picker cards and a picture checklist of warning signs. / stretch: explain why two-step verification still protects you even if someone learns your password.
+- **Materials:** example messages (teacher-prepared; children don't use real passwords in class).
+- **Joy:** "Scam spotter" challenge.
 
-### Lesson 33 — Kindness, balance and getting help
+### Lesson 33 — Online pressure: dares, challenges and in-game spending
 - **Duration:** 35 min
-- **Objective:** "By the end, I can respond to unkind behaviour online, balance screen time and know how to get help." (UK NC KS2 recognise acceptable/unacceptable behaviour; identify ways to report concerns; CSTA 1B-NI-05)
-- **Hook:** Scenario cards: a mean comment in a game chat.
-- **Key activity:** Upstander actions (don't reply, screenshot, block, report, tell a trusted adult); screen-time balance plan; who to tell (parents, teachers, national helplines such as Childline in the UK or your country's equivalent).
-- **Check for understanding:** "Name three things to do if someone is unkind to you online." → e.g. don't reply, block/report, tell a trusted adult (and keep evidence).
-- **Differentiation:** support: action cards. / stretch: write a "kind online" charter for the class.
+- **Objective:** "By the end, I can recognise online pressure (viral dares, in-game purchases, group-chat pressure) and know how to say no and get help." (UK NC KS2 recognise acceptable/unacceptable behaviour; identify ways to report concerns; CSTA 1B-NI-05)
+- **Hook:** Scenario cards: a video dares children to try a risky 'challenge'; a game offers a '50% off — today only!' skin.
+- **Key activity:** Retrieve Year 3's upstander actions and sleep plan in two minutes. New: why challenges and limited-time offers spread and pressure us; role-play saying no in a group chat; who to tell (parents, teachers, national helplines such as Childline in the UK or your country's equivalent); agree a class 'think before you tap' rule.
+- **Check for understanding:** "An online 'challenge' dares children to do something risky and post a video. Why do challenges like this spread, and what should you do?" → they get views, likes and attention, and people feel they must join in; don't do it or share it, talk to a trusted adult and report the video
+- **Differentiation:** support: action cards with picture prompts. / stretch: design a poster explaining one persuasive trick games use to make you spend money.
 - **Materials:** scenario cards, helpline information for your country.
-- **Joy:** Class digital-kindness charter.
+- **Joy:** Class "think before you tap" charter.
 
-**End-of-unit check:** Sort personal information by safety; create a three-word passphrase; describe what to do if something online upsets you.
+**End-of-unit check:** Explain what a digital footprint is; spot two signs of a phishing message; describe what to do if you feel pressured online.
 
 ---
 
@@ -429,7 +429,7 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 - **Duration:** 35 min
 - **Objective:** "By the end, I can prepare a demonstration of my best computing work." (UK NC KS2 present; CSTA 1B-AP-17)
 - **Hook:** "Families are coming to see what you've built."
-- **Key activity:** Choose a project (game, quiz, data investigation, internet comic); prepare a 1-minute explanation of how it works.
+- **Key activity:** Choose a project (game, quiz, data investigation, smart-device design); prepare a 1-minute explanation of how it works.
 - **Check for understanding:** "What is the most interesting thing about how your project works?" → A clear technical explanation.
 - **Differentiation:** support: explanation frame. / stretch: prepare a live demo with a code walkthrough.
 - **Materials:** devices, projects.
@@ -440,7 +440,7 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 - **Objective:** "By the end, I can present my work and reflect on my progress in computing." (UK NC KS2 — review)
 - **Hook:** Doors open.
 - **Key activity:** Present; visitors play games and ask questions; reflection sheet; preview Year 5 (physical computing and a first look at Python).
-- **Check for understanding:** "What is one concept you understand now that you didn't at the start of the year?" → e.g. variables, selection, packets.
+- **Check for understanding:** "What is one concept you understand now that you didn't at the start of the year?" → e.g. variables, selection, binary.
 - **Differentiation:** support: reflection frame. / stretch: set a personal coding goal for the summer (e.g. a Scratch project at home).
 - **Materials:** devices, reflection sheets.
 - **Joy:** Showcase.
@@ -456,7 +456,7 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 - ***Hidden Figures* (Young Readers' Edition) — Margot Lee Shetterly** — the women who calculated and programmed for NASA.
 - **Scratch (MIT, scratch.mit.edu)** — free block-based programming; use offline or with teacher-managed accounts.
 - **Code.org and Barefoot Computing** — free unplugged and online lessons.
-- **CS Unplugged (University of Canterbury, New Zealand)** — excellent unplugged activities for networks and data.
+- **CS Unplugged (University of Canterbury, New Zealand)** — excellent unplugged activities for binary, data and networks (the binary cards in Lesson 3 come from here).
 - **Online safety:** national resources such as Childnet, Common Sense Education's digital citizenship lessons and your national cyber-security agency's advice for families.
 
 ## End-of-year mastery checks
@@ -464,18 +464,18 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 1. **Selection** — writes programs using *if…then…else* inside loops with sensing and operators. *See it:* a sprite that reacts correctly in two situations.
 2. **Variables** — creates, resets and changes variables for score, timer and lives. *See it:* the Unit 3 game.
 3. **Design and debugging** — decomposes a project, tests with users and improves it; explains bugs and fixes. *See it:* changelog and arcade explanation.
-4. **Networks** — explains packets, routers, servers and the internet vs the web. *See it:* journey-of-a-web-page comic.
+4. **Computer systems** — explains input, processing, memory and storage, and represents numbers and pictures in binary. *See it:* the smart-device design and binary cards.
 5. **Data** — uses spreadsheet formulas (SUM, MAX, MIN) and makes suitable charts. *See it:* class data investigation.
-6. **Search and evaluation** — searches effectively and evaluates sources, including AI answers. *See it:* "real or hoax?" evaluation.
-7. **Online safety** — protects privacy, creates strong passphrases, responds to unkindness and knows how to get help. *See it:* digital-kindness charter and scenarios.
+6. **Search and evaluation** — explains how search engines rank pages, checks viral claims and evaluates AI answers. *See it:* the myth-busters verdicts.
+7. **Online safety** — manages a digital footprint, spots phishing, resists online pressure and knows how to get help. *See it:* scam-spotter and pressure scenarios.
 
 ## Teacher guidance
 
 **Common misconceptions (and fixes).**
 - *"The if-block keeps checking by itself."* — it only checks when it runs; put it inside a loop.
 - *"Variables remember the right value automatically."* — always initialise (reset) at the start.
-- *"The internet and the web are the same."* — the web is one service on the internet.
-- *"Data travels as one big file."* — it travels as packets that can take different routes.
+- *"Memory and storage are the same."* — memory is fast and forgets when the power is off; storage keeps files.
+- *"Computers understand words and pictures directly."* — everything is stored as numbers in binary.
 - *"The first search result is the best."* — rankings include adverts and popularity.
 - *"AI always knows the answer."* — AI predicts likely text and can be wrong; check facts.
 - *"Deleting a post removes it forever."* — it may have been copied or saved.
@@ -486,6 +486,6 @@ Every programming lesson follows **Use → Modify → Create**, with **debugging
 
 **International notes.** Scratch is available in many languages; spreadsheet formulas may use semicolons instead of commas in some locales (e.g. =SUM(B2;B5)).
 
-**Vertical links.** Year 3: loops, pen drawing, branching databases, multimedia, reliable sources. Year 4: selection, variables, games, networks, spreadsheets, search, AI literacy. Year 5: complete programs, physical computing, a first look at text-based code (Python), full data investigations and online reputation.
+**Vertical links.** Years 2–3: loops (to nested and parallel), pen drawing, branching databases, networks, packets, servers and URLs, multimedia, reliable sources. Year 4: selection, variables, games, how computers work and binary, spreadsheets, search, misinformation and AI literacy. Year 5: complete programs, physical computing, a first look at text-based code (Python), full data investigations and online reputation.
 
-**Cross-curricular links.** Maths (coordinates and negative numbers on the Scratch stage; operators; spreadsheets), science (data from investigations), geography (undersea cables; maps), English (evaluating sources, persuasive writing about online safety), art (digital pattern design), life skills (budgets, kindness).
+**Cross-curricular links.** Maths (coordinates and negative numbers on the Scratch stage; operators; spreadsheets), science (data from investigations), design and technology (smart-device design; circuits and switches as on/off), English (evaluating sources, persuasive writing about online safety), art (digital pattern design), life skills (budgets, kindness).

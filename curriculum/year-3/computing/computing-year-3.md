@@ -2,13 +2,13 @@
 
 ## Year overview
 
-Year 3 computing makes children **confident Scratch programmers who use repetition (loops)**, **organisers of data with branching databases**, **understanders of how networks carry information**, **creators of audio and video**, **critical researchers**, and **safe, kind, balanced digital citizens**. Programming moves from sequences and events (Year 2) to **loops**: count-controlled 'repeat', 'forever' and first 'repeat until', used to draw shapes, animate characters and make games — with systematic **debugging**.
+Year 3 computing makes children **confident Scratch programmers who use repetition (loops)**, **organisers of data with branching databases**, **understanders of how networks carry information**, **creators of audio and video**, **critical researchers**, and **safe, kind, balanced digital citizens**. Year 2 introduced sequences, events and simple *repeat* and *forever* loops; Year 3 takes loops much further — **nested loops**, loops that change values each time, several scripts running at once, and **'repeat until'** with a condition — in bigger animations and games, with systematic **debugging by tracing**.
 
-**Every year includes data, networks, digital literacy and online safety.** This year: branching databases (data), how packets travel across networks and the difference between the internet and the web (networks), recording and editing sound and video, judging reliable sources, and online privacy, kindness and screen-time balance (digital literacy and safety).
+**Every year includes data, networks, digital literacy and online safety.** This year: branching databases (data), how signals carry data by wire and Wi-Fi, how lost packets are detected and resent, where the web 'lives' in servers and data centres, and how to read a URL (networks — building on Year 2's networks, packets and web), recording and editing sound and video, judging reliable sources and user-written content, and privacy settings, strangers online, kindness and sleep-friendly screen habits (digital literacy and safety).
 
-**Pioneers:** Ada Lovelace (who wrote about loops in a program for Babbage's Analytical Engine in the 1840s), Grace Hopper (whose team logged a real moth as a 'bug' in a computer in 1947), and Tim Berners-Lee (who invented the World Wide Web in 1989).
+**Pioneers:** Ada Lovelace (who wrote about repeating operations in a program for Babbage's Analytical Engine in the 1840s) is new this year; Grace Hopper (whose team logged a real moth as a 'bug' in 1947) and Tim Berners-Lee (who invented the World Wide Web in 1989) are retrieved from Year 2.
 
-**What this year assumes (from Year 2, ages 7–8):** algorithms as precise instructions; Scratch basics — sprites, sequences and events; that the internet connects computers; simple bar charts from data; first online-safety rules. **What Year 4 (ages 9–10) relies on:** confident use of loops and debugging (for selection with 'if' and variables), organising data by attributes (for spreadsheets), understanding the web and URLs (for effective searching), and privacy habits (for the digital-footprint unit).
+**What this year assumes (from Year 2, ages 7–8):** algorithms and decomposition; Scratch sprites, sequences, events and broadcasts; *repeat* and *forever* loops and drawing polygons with the pen; debugging with Grace Hopper's story; networks, routers, packets, the internet vs the web (Tim Berners-Lee); data tables and charts; passwords, checking reliability, kindness online, adverts and screen balance. **What Year 4 (ages 9–10) relies on:** confident use of loops and debugging (for selection with 'if' and variables), organising data by attributes (for spreadsheets), understanding the web and URLs (for effective searching), and privacy habits (for the digital-footprint unit).
 
 Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are used to introduce new ideas; about two-thirds of lessons are hands-on at a device. Online safety is revisited in every unit, not only in Unit 6.
 
@@ -32,15 +32,15 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 
 **Essential question:** How can a loop make a program shorter, smarter and easier to change?
 
-**Key vocabulary:** algorithm, program, sequence, loop, repeat, forever, repeat until, iteration, sprite, costume, pen, debug, bug, efficient, pattern, event
+**Key vocabulary:** algorithm, program, loop, nested loop, repeat, forever, repeat until, iteration, condition, parallel, broadcast, trace, sprite, costume, pen, debug, bug, efficient, pattern
 
-### Lesson 1 — Spot the repeat (unplugged)
+### Lesson 1 — Loops inside loops (unplugged)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can find repeated patterns in everyday instructions and rewrite them using a loop." (UK NC KS2 Computing (use repetition in programs))
-- **Hook:** "Write instructions for brushing your teeth. How many times did you write 'brush up and down'?"
-- **Key activity:** Unplugged: children write step-by-step instructions for a dance routine or a sandwich; circle repeated steps; rewrite with 'repeat 4 times [ … ]'. Perform a partner's looped dance.
-- **Check for understanding:** "Why is 'repeat 8 times: clap' better than writing 'clap' eight times?" → it's shorter, easier to read and easier to change (just change the number)
-- **Differentiation:** support: a dance-move card set to arrange and loop / stretch: write a loop inside a loop (nested) for a dance chorus
+- **Objective:** "By the end, I can read and write nested loops (a loop inside a loop) and work out how many times each step runs." (UK NC KS2 Computing (use repetition in programs))
+- **Hook:** "A dance chorus: 'clap, clap, clap, clap, spin' — and the whole chorus happens three times. How can we write that in the fewest words?"
+- **Key activity:** Two-minute retrieval of Year 2's 'repeat' dances. New: nested loops — 'repeat 3 [repeat 4 [clap], spin]'. Children act out nested dance algorithms, predict the total number of claps before performing, then write their own nested routine for a partner.
+- **Check for understanding:** "In 'repeat 3 [repeat 4 [clap], spin]', how many claps and how many spins are there, and why?" → 12 claps and 3 spins — the inner loop runs its 4 claps every time the outer loop runs, and the outer loop runs 3 times
+- **Differentiation:** support: dance-move cards with the loops drawn as boxes inside boxes / stretch: write a nested loop that produces exactly 24 claps in two different ways
 - **Materials:** dance cards, whiteboards, music
 - **Joy:** 'Loop dance' performance
 
@@ -54,44 +54,44 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 - **Materials:** story cards, timeline
 - **Joy:** 'human computer' role-play
 
-### Lesson 3 — The repeat block
+### Lesson 3 — Loops that change things each time
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a repeat block in Scratch to make a sprite move and animate." (UK NC KS2 Computing)
-- **Hook:** "Your cat needs to walk across the screen — can you do it in three blocks?"
-- **Key activity:** Model: 'when green flag clicked' → 'repeat 10 [move 10 steps, next costume, wait 0.1]'. Children animate a sprite walking, then change the repeat count and wait time and predict the effect.
-- **Check for understanding:** "What happens if you change 'repeat 10' to 'repeat 20'?" → the sprite moves twice as far because the move happens 20 times
-- **Differentiation:** support: step-by-step block cards / stretch: make the sprite walk, turn around and walk back using two loops
-- **Materials:** computers/tablets with Scratch, block cards
-- **Joy:** 'Walking cat' animation
+- **Objective:** "By the end, I can use a loop that changes a sprite a little each time (size, colour, position) and predict the result." (UK NC KS2 Computing (use repetition; variables preview))
+- **Hook:** "Can you make a balloon grow, change colour and float away — in five blocks?"
+- **Key activity:** Retrieve Year 2's walking-cat 'repeat' in one minute. New: loops with changing values — 'repeat 10 [change size by 10, change colour effect by 25, change y by 5]'; children predict what the sprite will look like after the loop, run it, and explain any difference; then make a growing, fading or spiralling effect of their own.
+- **Check for understanding:** "A sprite starts at size 100%. What size is it after 'repeat 10 [change size by 10]', and why?" → 200% — the size grows by 10 each time round and the loop runs 10 times (10 × 10 = 100 more)
+- **Differentiation:** support: step-by-step block cards and a prediction table to fill in / stretch: make the change depend on the loop so the sprite spirals outwards (change the move distance each time)
+- **Materials:** computers/tablets with Scratch, block cards, prediction tables
+- **Joy:** 'Magic balloon' animations
 
-### Lesson 4 — Drawing shapes with loops and pen
+### Lesson 4 — Nested loops with the pen: flowers and snowflakes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use repeat and the pen extension to draw regular shapes and explain the maths." (UK NC KS2 Computing; links to maths (angles, polygons))
-- **Hook:** "Can you draw a perfect square in just four blocks? A hexagon?"
-- **Key activity:** Pen extension: 'pen down, repeat 4 [move 100, turn 90]'. Children draw a triangle, pentagon, hexagon; discover turn = 360 ÷ number of sides.
-- **Check for understanding:** "Why do you turn 90 degrees for a square but 60 for a hexagon?" → the sprite must turn a total of 360 degrees; 360 ÷ 4 = 90 and 360 ÷ 6 = 60
-- **Differentiation:** support: a table of shapes with turns given / stretch: nest loops to draw a flower of repeated shapes
+- **Objective:** "By the end, I can use a loop inside a loop to repeat a shape around a point and explain the angles." (UK NC KS2 Computing; links to maths (angles))
+- **Hook:** "In Year 2 you drew one square. Can you draw twelve squares in a perfect flower — with only seven blocks?"
+- **Key activity:** Retrieve Year 2's pen polygons (turn = 360 ÷ sides) with a quick square and hexagon. New: nest the shape inside a second loop that turns a little each time — 'repeat 12 [repeat 4 [move 50, turn 90], turn 30]' — then design snowflakes and flowers, changing the numbers and explaining the pattern.
+- **Check for understanding:** "Your program 'repeat 12 [repeat 4 [move 50, turn 90], turn 30]' draws a flower of squares. Why turn 30 in the outer loop?" → 12 squares × 30° = 360°, so the squares are spread evenly all the way round and the flower closes up
+- **Differentiation:** support: a table of outer-loop numbers with the matching turns given (6 × 60, 8 × 45, 12 × 30) / stretch: nest three loops, or change the pen colour inside the outer loop
 - **Materials:** Scratch with pen extension, protractor images
-- **Joy:** 'Spirograph' art gallery
+- **Joy:** 'Snowflake' art gallery
 
-### Lesson 5 — Forever loops
+### Lesson 5 — Many loops at once: parallel scripts
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use forever loops for continuous actions and explain when to use repeat vs forever." (UK NC KS2 Computing)
-- **Hook:** "Some things should never stop — like a bouncing ball in a game."
-- **Key activity:** Model 'forever [move 10, if on edge bounce]'; compare with repeat; build a background animation that runs forever.
-- **Check for understanding:** "When should you use a forever loop instead of a repeat loop?" → when an action must keep going for the whole program (e.g. music or a bouncing ball), not a fixed number of times
-- **Differentiation:** support: a pre-made project to modify / stretch: add a second sprite with a different forever loop
+- **Objective:** "By the end, I can run several loops at the same time in different sprites and use broadcasts to make them start in the right order." (UK NC KS2 Computing (sequence; repetition))
+- **Hook:** "In an aquarium, every fish moves at the same time. How can one computer run all their loops at once?"
+- **Key activity:** Retrieve Year 2's forever-loop aquarium. New: several sprites with their own forever and repeat loops running in parallel; then use 'broadcast' (from Year 2) at the end of one script to start another, so a scene happens in order (a diver swims down, then the fish scatter).
+- **Check for understanding:** "Two sprites each have a forever loop. Why do they both move at once — and how could you make the second one start only after the first has finished its repeat loop?" → Scratch runs each sprite's script at the same time (in parallel); put a 'broadcast' after the first sprite's loop and start the second sprite's script 'when I receive' that message
+- **Differentiation:** support: a pre-made project to modify / stretch: use 'broadcast and wait' and explain how it differs from 'broadcast'
 - **Materials:** Scratch
-- **Joy:** 'Aquarium' animation
+- **Joy:** 'Underwater show' with scenes in order
 
-### Lesson 6 — Grace Hopper and debugging
+### Lesson 6 — Debugging loops: trace, test, fix
 - **Duration:** 40 min
-- **Objective:** "By the end, I can find and fix bugs in loop programs systematically." (UK NC KS2 Computing (detect and correct errors))
-- **Hook:** "In 1947, Grace Hopper's team found a real moth stuck in a computer — and taped it in their logbook as the first actual 'bug'!"
-- **Key activity:** Children receive four buggy Scratch programs (wrong repeat count, missing turn, block outside the loop, wrong order); use 'predict, run, investigate, fix' and explain each fix.
-- **Check for understanding:** "The square program draws only a line. What's the bug and how did you find it?" → the 'turn' block is outside the loop (or missing); found by running step by step and watching
-- **Differentiation:** support: bugs listed as clues / stretch: create a buggy program for a partner
-- **Materials:** Scratch, bug cards
+- **Objective:** "By the end, I can find and fix bugs in loop programs by tracing what happens each time round the loop." (UK NC KS2 Computing (detect and correct errors))
+- **Hook:** "You met Grace Hopper's moth in Year 2. Today's bugs are harder: they hide inside loops."
+- **Key activity:** Teach tracing: a table with one row per time round the loop (what the sprite does, where it is, what it has drawn). Children receive four buggy Scratch programs (wrong repeat count, turn outside the loop, blocks in the wrong loop of a nested pair, a loop that never ends); predict, trace, run, fix and explain each fix.
+- **Check for understanding:** "The flower program draws only one square. Trace it: what's the bug and how did you find it?" → the 'turn 30' is outside the outer loop (or inside the inner one); the trace table showed the outer turn never happened between squares
+- **Differentiation:** support: bugs listed as clues and a half-filled trace table / stretch: create a buggy nested-loop program for a partner and write the answer key
+- **Materials:** Scratch, bug cards, trace tables
 - **Joy:** 'Bug hunters' badges
 
 ### Lesson 7 — Repeat until
@@ -114,7 +114,7 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 - **Materials:** Scratch, planning sheets
 - **Joy:** 'Arcade day': Year 2 visitors play the games
 
-**End-of-unit check:** Show and tell: build a Scratch program that uses repeat, forever and repeat until; explain each loop's job and how one bug was found and fixed.
+**End-of-unit check:** Show and tell: build a Scratch program that uses a nested loop, two scripts running in parallel and a 'repeat until'; explain each loop's job and how one bug was found by tracing.
 
 ---
 
@@ -182,59 +182,59 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 
 **Essential question:** How does a message, photo or video get from one device to another across the world?
 
-**Key vocabulary:** network, device, router, switch, server, Wi-Fi, cable, data, packet, address (IP address), internet, World Wide Web, web page, website, browser, URL, link
+**Key vocabulary:** network, router, signal, copper cable, fibre-optic cable, Wi-Fi, radio waves, packet, check number, resend, server, data centre, the cloud, URL, domain name, path, https
 
-### Lesson 14 — What is a network?
+### Lesson 14 — Wires, light and radio: how signals carry data
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe a network as connected devices sharing information and identify the school network." (UK NC KS2 Computing (understand computer networks))
-- **Hook:** "How does the printer know which computer sent the picture?"
-- **Key activity:** Unplugged: children become devices connected by string; a 'router' passes messages; tour of the school network (with IT technician) to see a switch, cables, Wi-Fi access points and a server if there is one.
-- **Check for understanding:** "What does a router do?" → it directs data between devices and networks, like a post office sorting letters
-- **Differentiation:** support: picture labels of network parts / stretch: explain the difference between wired and wireless connections and one benefit of each
-- **Materials:** string, labels, access to the school network cabinet with an adult
-- **Joy:** 'Human network' string game
+- **Objective:** "By the end, I can explain how data travels as signals through copper wires, fibre-optic cables and Wi-Fi, and compare them." (UK NC KS2 Computing (understand computer networks))
+- **Hook:** "In Year 2 you built a string network. But what actually travels down the string — or through the air?"
+- **Key activity:** Two-minute retrieval of Year 2's network parts (devices, router, cables, Wi-Fi). New: data as on/off signals — children send a short message across the room as flashes of a torch (fibre: light), taps on a table (copper: electrical pulses) and a 'radio' code (Wi-Fi: invisible radio waves), using an agreed code; then tour the school network (with the IT technician) to spot each kind.
+- **Check for understanding:** "Why might a school use cables for its main connections but Wi-Fi in classrooms?" → cables are usually faster and more reliable; Wi-Fi lets laptops and tablets move around without wires, but walls and distance weaken it
+- **Differentiation:** support: picture labels of the three kinds of connection / stretch: explain why fibre-optic cables can carry data further and faster than copper
+- **Materials:** torches, a code card, labels, access to the school network cabinet with an adult
+- **Joy:** 'Torch Morse' message race
 
-### Lesson 15 — Packets: data in pieces (unplugged)
+### Lesson 15 — Lost packets: how networks check and resend (unplugged)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how data is split into packets, sent separately and reassembled." (UK NC KS2 Computing)
-- **Hook:** "Can we send a whole picture across the room in pieces — and put it back together?"
-- **Key activity:** Cut a picture into numbered 'packets' with address labels; pass them by different routes around the class; the receiver reassembles them by number, and asks for any missing packet to be resent.
-- **Check for understanding:** "Why are packets numbered?" → so the receiving device can put them back in the right order and spot any that are missing
-- **Differentiation:** support: fewer, larger packets / stretch: explain what happens if a packet is lost and how the network fixes it
-- **Materials:** pictures, scissors, envelopes
-- **Joy:** 'Packet race' across the classroom
+- **Objective:** "By the end, I can explain how a computer notices a missing or damaged packet and gets it sent again." (UK NC KS2 Computing)
+- **Hook:** "A packet goes missing on its way across the world. How does your computer even know?"
+- **Key activity:** Retrieve Year 2's packet game in one round (numbered pieces, reassembled). New: add a 'check number' to each packet (e.g. the number of letters it carries); a 'noisy router' secretly changes or removes some packets; receivers use the numbers to spot missing or damaged packets and send back 'please resend 4'.
+- **Check for understanding:** "A packet arrives with 9 letters but its check number says 10. What has happened, and what should the receiving computer do?" → the packet has been damaged on the way; the computer throws it away and asks for that packet to be sent again
+- **Differentiation:** support: fewer, larger packets with the check numbers already written / stretch: design a better check that would also catch two swapped letters
+- **Materials:** message cards, envelopes, check-number sheets
+- **Joy:** 'Noisy network' challenge
 
-### Lesson 16 — The internet: a network of networks
+### Lesson 16 — Where the web lives: servers and data centres
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that the internet connects networks worldwide, including through undersea cables." (UK NC KS2 Computing)
-- **Hook:** "Most international internet traffic travels under the sea. Really?"
-- **Key activity:** Look at a map of undersea cables; trace a message from school to a website in another continent through routers; compare speed of light in fibre with posting a letter.
-- **Check for understanding:** "How can a message reach another continent in under a second?" → it travels as light or electrical signals through cables and routers extremely fast
-- **Differentiation:** support: a map with the route drawn / stretch: explain why the internet still works if one cable breaks (other routes)
-- **Materials:** submarine cable map, world map
-- **Joy:** trace a message around the world
+- **Objective:** "By the end, I can explain what servers and data centres do and why they need so much energy and cooling." (UK NC KS2 Computing (understand networks and the services they provide))
+- **Hook:** "When you watch a video, where is it actually stored? Not in your tablet!"
+- **Key activity:** Retrieve Year 2's browser–server request role-play. New: photos and a short approved tour video of a data centre; how 'the cloud' is really buildings full of servers around the world; why they need huge amounts of electricity and cooling, and how some are built in cold places or run on renewable energy (links to science and geography). Children map where a favourite app's servers might be.
+- **Check for understanding:** "Why is 'the cloud' not really in the sky, and why do data centres need so much cooling?" → the cloud is thousands of real computers (servers) in buildings; they run all day and night and get hot, so they need cooling to keep working
+- **Differentiation:** support: a picture sequence from a tablet to a data centre and back / stretch: suggest two ways data centres could use less energy
+- **Materials:** photos or video of data centres, world map
+- **Joy:** 'Design a greener data centre' sketch
 
-### Lesson 17 — The internet vs the World Wide Web
+### Lesson 17 — Reading a URL: domains, paths and https
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the difference between the internet and the web and what a URL tells us." (UK NC KS2 Computing (understand the World Wide Web))
-- **Hook:** "Is the internet the same as the web? Tim Berners-Lee would say no."
-- **Key activity:** Story of Tim Berners-Lee inventing the web (1989); the web is pages and links that travel over the internet; email and video calls also use the internet but aren't the web. Break a URL into parts (https, domain, page).
-- **Check for understanding:** "Name one thing that uses the internet but isn't the web." → email, online games, video calls
-- **Differentiation:** support: Venn diagram with pictures / stretch: explain what 'https' and the padlock mean for safety
-- **Materials:** browser, sample URLs
-- **Joy:** 'URL detectives'
+- **Objective:** "By the end, I can name the parts of a web address and use them to judge where a page comes from." (UK NC KS2 Computing (understand the World Wide Web))
+- **Hook:** "Two web addresses look almost the same. One is a real museum, one is a trick. Can you tell?"
+- **Key activity:** Retrieve Year 2's internet vs web in one question. New: break URLs into parts — https (secure connection), domain name (who runs the site), country and type endings (.org, .edu, .gov, .co.uk, .ke), and the path (which page); spot look-alike addresses used in tricks; link to Unit 5's reliability checks.
+- **Check for understanding:** "Look at https://www.museum-example.org/dinosaurs/t-rex. Which part tells you who runs the site, and which part tells you the page?" → the domain name (museum-example.org) tells you who runs it; the path (/dinosaurs/t-rex) tells you which page on the site
+- **Differentiation:** support: a URL cut into coloured pieces to label / stretch: explain what 'https' and the padlock mean — and why a padlock alone doesn't prove a site is honest
+- **Materials:** browser, URL cards
+- **Joy:** 'URL detectives' — real or look-alike?
 
 ### Lesson 18 — Unit review: network explainer
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how a message travels across a network using the correct vocabulary." (UK NC KS2 Computing)
 - **Hook:** "Make a comic that shows a photo's journey from your tablet to your grandma's phone in another country."
 - **Key activity:** Children create a comic strip with packets, routers, cables, servers and the internet; share and check each other's accuracy.
-- **Check for understanding:** "Explain the journey of your photo in three steps using the words packet and router." → the photo is split into packets; routers send them across networks; the receiving device reassembles them
+- **Check for understanding:** "Your photo travels by Wi-Fi, copper and fibre, and one packet is damaged. Explain the journey and how the photo still arrives complete." → the photo is split into packets and sent as radio, electrical and light signals through routers; the receiver checks each packet, asks for the damaged one again, and reassembles them in order
 - **Differentiation:** support: comic template with vocabulary bank / stretch: include what happens when a packet is lost
 - **Materials:** comic templates
 - **Joy:** 'Journey of a photo' comic gallery
 
-**End-of-unit check:** Show and tell: explain with a diagram how a photo travels from one device to another as packets through routers, and the difference between the internet and the web.
+**End-of-unit check:** Show and tell: explain with a diagram how a photo travels as signals and packets (including how a lost packet is resent), what a data centre does, and what each part of a URL tells you.
 
 ---
 
@@ -260,7 +260,7 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 - **Hook:** "Why do podcasters record in cupboards full of coats?"
 - **Key activity:** Test recording in different places; learn microphone distance, quiet space, soft surfaces to reduce echo; record narration and Foley sound effects (links to Science: sound).
 - **Check for understanding:** "Why did the recording in the coat cupboard sound better than in the hall?" → soft materials absorb sound and reduce echo
-- **Differentiation:** support: a recording checklist / stretch: create a sound effect that tricks the listener (e.g. celery for breaking bones in films)
+- **Differentiation:** support: a recording checklist / stretch: create a sound effect that tricks the listener (e.g. snapping celery for a breaking branch, or coconut shells for horses' hooves)
 - **Materials:** tablets or laptops with a recording app, household objects
 - **Joy:** 'Foley studio' sound effects
 
@@ -344,15 +344,15 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 - **Materials:** devices, image pairs
 - **Joy:** 'Spot the edit' challenge
 
-### Lesson 28 — Searching safely and effectively
+### Lesson 28 — Who writes the web? Wikis, reviews and comments
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a child-safe search engine with good keywords." (UK NC KS2 Computing (use search technologies effectively))
-- **Hook:** "Which search words find what you need fastest?"
-- **Key activity:** Compare vague and precise searches on a child-friendly search engine; practise choosing keywords for a research question from history or science.
-- **Check for understanding:** "Why did 'Roman aqueducts how water flows' work better than 'Romans'?" → specific keywords narrow the results to what you need
-- **Differentiation:** support: keyword planner / stretch: use quotation marks or extra words to refine a search
-- **Materials:** devices, child-safe search engine
-- **Joy:** 'Search race'
+- **Objective:** "By the end, I can explain that much of the web is written by ordinary users and judge how far to trust wikis, reviews and comments." (UK NC KS2 Computing (be discerning in evaluating digital content))
+- **Hook:** "Anyone can edit Wikipedia — even you. So why do so many people use it?"
+- **Key activity:** Retrieve Year 2's search-and-check habits in one minute. New: user-generated content — look at a child-friendly wiki page and its history of edits, a product page with star reviews, and a comments section; discuss who wrote each, why, and how to check; practise using a wiki's references to reach the original source.
+- **Check for understanding:** "Anyone can edit Wikipedia. Why can it still be useful, and how should you use it for research?" → many editors check and correct pages, and good pages list their sources; use it as a starting point and check important facts in the sources it lists or another trusted source
+- **Differentiation:** support: three examples with 'who wrote it?' labels / stretch: explain why lots of five-star reviews can still be misleading (fake or paid reviews)
+- **Materials:** devices, printed example pages
+- **Joy:** 'Edit war' role-play showing how wiki editors correct a false claim
 
 ### Lesson 29 — Unit review: research mission
 - **Duration:** 40 min
@@ -374,15 +374,15 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 
 **Key vocabulary:** personal information, private, password, privacy settings, digital footprint, stranger, report, block, cyberbullying, upstander, screen time, balance, wellbeing, SMART rules, trusted adult
 
-### Lesson 30 — Personal information and passwords
+### Lesson 30 — Privacy settings and app permissions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can identify personal information that should stay private and create a strong password." (UK NC KS2 Computing (use technology safely; keep personal information private))
-- **Hook:** "What could a stranger learn about you from one photo of you in your school uniform outside your house?"
-- **Key activity:** Sort information into safe to share / ask an adult / keep private; learn to make a strong password from three random words; never share passwords (except with a parent).
-- **Check for understanding:** "Why is 'three random words' a stronger password than your pet's name?" → it's longer and harder to guess; a pet's name can be found out
-- **Differentiation:** support: sorting cards with pictures / stretch: explain why you should use different passwords for different accounts
-- **Materials:** sorting cards
-- **Joy:** 'Password strength' challenge (no real passwords shared)
+- **Objective:** "By the end, I can explain what app permissions and privacy settings control and decide which permissions an app really needs." (UK NC KS2 Computing (use technology safely; keep personal information private))
+- **Hook:** "A drawing app wants to use your location, your camera and your contacts. Why?"
+- **Key activity:** Quick retrieval of Year 2's private information and three-random-word passwords. New: permissions (location, camera, microphone, contacts) and public vs private accounts; children sort pretend apps' permission requests into 'needed to work' and 'not needed', and plan settings for a new game account with an adult.
+- **Check for understanding:** "A drawing app asks to use your location and contacts. Should you allow it? Explain." → no — a drawing app doesn't need your location or contacts to work; allowing them shares private information, so say no or ask a trusted adult
+- **Differentiation:** support: sorting cards with pictures / stretch: explain why a map app needs location but should only use it while you are using the app
+- **Materials:** permission-request cards, pretend settings screens
+- **Joy:** 'Permission police' sorting game
 
 ### Lesson 31 — People online aren't always who they say
 - **Duration:** 40 min
@@ -404,15 +404,15 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 - **Materials:** scenario cards
 - **Joy:** kindness charter signing
 
-### Lesson 33 — Screen time and balance
+### Lesson 33 — Screens and sleep
 - **Duration:** 40 min
-- **Objective:** "By the end, I can reflect on my screen use and plan a healthy balance." (UK NC KS2 Computing; UK RSHE (internet safety and harms))
-- **Hook:** "How do games and apps keep you watching 'just one more'?"
-- **Key activity:** Log screen time for a week; discuss autoplay, streaks and notifications designed to keep us hooked; plan screen-free activities and a bedtime rule (link to PE sleep lesson).
-- **Check for understanding:** "Name one trick apps use to keep you on them and one way to take back control." → e.g. autoplay; turn it off or set a timer
-- **Differentiation:** support: a simple log with pictures / stretch: design a feature for an app that helps users take breaks
-- **Materials:** screen-time logs
-- **Joy:** 'Balance wheel' of activities
+- **Objective:** "By the end, I can explain how screens and app design can affect my sleep and plan a healthy evening routine." (UK NC KS2 Computing; UK RSHE (internet safety and harms))
+- **Hook:** "Your tablet says 'Just one more episode — starting in 5, 4, 3…'. Who decided that?"
+- **Key activity:** Retrieve Year 2's adverts, rewards and screen balance in one minute. New: how autoplay, notifications and streaks work at bedtime; why sleep matters for learning and mood (link to the PE sleep lesson); children log their evening screen use for a week and design a bedtime routine with an adult.
+- **Check for understanding:** "Why might using a screen just before bed make it harder to fall asleep, and what is one rule that would help?" → bright screens and exciting content keep the brain alert, and notifications can wake you; e.g. screens off an hour before bed and devices charged outside the bedroom
+- **Differentiation:** support: a simple evening log with pictures / stretch: design an app feature that helps users stop at bedtime
+- **Materials:** evening logs
+- **Joy:** 'Sleep-friendly evening' comic strip
 
 ### Lesson 34 — When something online upsets me
 - **Duration:** 40 min
@@ -452,14 +452,14 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 
 ## End-of-year mastery checks
 
-1. **Loops** — writes Scratch programs using repeat, forever and repeat until, and explains when to use each. *See it:* the loop game.
-2. **Debugging** — finds and fixes bugs systematically (predict, run, investigate, fix). *See it:* the bug-hunt tasks.
-3. **Maths through code** — draws regular polygons with loops and explains the turn angle. *See it:* the shapes program.
+1. **Loops** — writes Scratch programs with nested loops, loops that change values, parallel scripts and repeat until, and explains when to use each. *See it:* the loop game.
+2. **Debugging** — finds and fixes bugs systematically by tracing each time round a loop. *See it:* the bug-hunt tasks.
+3. **Maths through code** — draws rotating patterns with nested loops and explains both turn angles. *See it:* the snowflake program.
 4. **Branching databases** — builds and tests a branching database with objective yes/no questions.
-5. **Networks** — explains packets, routers and the difference between the internet and the web.
+5. **Networks** — explains how signals carry data, how lost packets are resent, what data centres do and how to read a URL.
 6. **Media** — plans with a storyboard, records and edits audio and video, and credits sources.
 7. **Digital literacy** — judges reliability, distinguishes facts, opinions and adverts, and cross-checks information.
-8. **Online safety** — keeps personal information private, knows the SMART rules, acts as an upstander and knows how to get help.
+8. **Online safety** — manages privacy settings and app permissions, knows the SMART rules, acts as an upstander, protects sleep, and knows how to get help.
 
 ## Teacher guidance
 
@@ -469,7 +469,8 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 - *A loop is only for repeating identical things* — loops can repeat actions that change the sprite each time (move, turn, change costume).
 - *Forever loops are always better* — use repeat for a fixed number of times and repeat until when a condition should stop the loop.
 - *Blocks outside a loop still repeat* — only blocks inside the loop's 'mouth' repeat.
-- *The internet and the web are the same thing* — the web is one service that runs on the internet.
+- *The cloud is in the sky* — it is real computers (servers) in data centres.
+- *Wi-Fi is the internet* — Wi-Fi is just the last short radio link to the router; the internet is the worldwide network beyond it.
 - *If it's online, it's true* — always cross-check.
 - *Deleted means gone forever* — screenshots and copies can remain (preview of Year 4's digital footprint).
 - *Only strangers are a risk online* — unkindness can come from people we know; be an upstander.
@@ -478,4 +479,4 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 
 **Differentiation.** Support = unplugged practice, partly built Scratch projects, block cards, working in pairs. Stretch = nested loops, conditions, remixing projects, teaching others, and explaining code line by line.
 
-**Vertical connections.** Builds on Year 2 sequences, events, how the internet works, bar charts and creating content safely. Year 4 adds selection (if/else) and variables, spreadsheets, effective web searching and managing a digital footprint.
+**Vertical connections.** Builds on Year 2's sequences, events, broadcasts, simple repeat/forever loops and pen polygons, networks, packets and the web, data tables, and first online-safety habits — each retrieved briefly, then extended. Year 4 adds selection (if/else) and variables, how computers work inside (input, processing, storage, binary), spreadsheets, how search engines rank pages and managing a digital footprint.
