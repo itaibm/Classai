@@ -36,7 +36,7 @@ import { getCurriculumLesson } from '../services/curriculum.ts';
 import * as db from '../db/index.ts';
 import { getBrain, type Brain, type ChatMessage } from '../ai/provider.ts';
 import { generateStructured, TurnSchema, ReportSchema } from '../ai/schemas.ts';
-import { teachSystemPrompt, teachKickoff, turnDirective, authoredDirective, reportPrompt, summaryPrompt } from '../ai/prompts.ts';
+import { teachSystemPrompt, voicingSystemPrompt, teachKickoff, turnDirective, authoredDirective, reportPrompt, summaryPrompt } from '../ai/prompts.ts';
 import type { AuthoredMode } from '../ai/prompts.ts';
 import { subjectProfile } from '../ai/subjects.ts';
 import {
@@ -457,7 +457,9 @@ export async function authoredTurn(args: AuthoredArgs): Promise<TurnResult> {
     blocks: LessonBlock[],
     opts?: { awaitResponse?: boolean; autoAdvance?: boolean; continueLabel?: string; revealAnswer?: boolean }
   ): Promise<TeacherTurn> => {
-    const system = teachSystemPrompt(kid, course, lesson, profile, model);
+    // The slim voicing prompt: no tool belt / block contract (the director owns
+    // blocks here), and split so Anthropic can cache the stable part.
+    const system = voicingSystemPrompt(kid, course, lesson, profile, model);
     a.lastResult = undefined; // consumed: the directive built for this turn already carries it
     const messages = buildMessages(session, kid, lesson, returning, directive);
     const { blockError: _b, ...parsed } = await generateStructured(brain, TurnSchema, {

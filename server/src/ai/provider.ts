@@ -2,33 +2,59 @@
  * Brain provider abstraction. Given the user's connected profile, returns a
  * `Brain` with a single `generate()` method. Three vendors are supported:
  *
- *   anthropic — your own API key, OR reuse your local Claude login (token from
- *               the `ant` CLI), OR a stored OAuth token.
- *   openai    — your own API key, OR "Sign in with ChatGPT" OAuth (best-effort,
- *               targets the configurable ChatGPT backend; mirrors OpenClaw).
+ *   anthropic — your own API key, OR "reuse your local Claude login" (the
+ *               Claude Code OAuth token, read from ~/.claude/.credentials.json
+ *               or the macOS Keychain, legacy `ant` CLI as a last resort — see
+ *               oauth.ts), OR a stored OAuth token.
+ *   openai    — your own API key, OR "Sign in with ChatGPT" OAuth, which talks
+ *               to the Codex subscription backend (Responses API over SSE).
  *   local     — any OpenAI-compatible endpoint (Ollama by default), no key.
  *
- * The three key/local paths are fully standard. The OAuth paths follow
- * OpenClaw's approach and depend on unofficial upstream endpoints.
+ * The key/local paths are fully standard. The two subscription paths (Claude
+ * login, ChatGPT/Codex) depend on unofficial upstream endpoints — best-effort.
+ *
+ * Prompt caching: a system prompt may be a plain string or a
+ * `{ cached, dynamic }` split (see `SystemPrompt`). On Anthropic the `cached`
+ * part becomes a system block with `cache_control`, so a lesson's stable
+ * instructions are billed at the cache-read rate after the first turn. Every
+ * other vendor just receives the flattened string.
  */
 import { randomUUID } from 'node:crypto';
 import Anthropic from '@anthropic-ai/sdk';
 import OpenAI from 'openai';
 import type { BrainVendor } from '../../../shared/types.ts';
 import { authStore } from './auth-store.ts';
-import { getAnthropicLocalToken, refreshOpenAI } from './oauth.ts';
+import { getAnthropicLocalToken, clearAnthropicLocalTokenCache, refreshOpenAI } from './oauth.ts';
 import { recordPrompt } from './prompt-log.ts';
+import type { SplitSystemPrompt } from './prompts.ts';
 
 export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
 }
 
+/** A system prompt: a plain string, or split so providers with prompt caching
+ *  can cache the stable part (`cached`) and resend only `dynamic` uncached. */
+export type SystemPrompt = string | SplitSystemPrompt;
+
+/** The system prompt as one string (for vendors without caching, and the log). */
+export function flattenSystem(system: SystemPrompt): string {
+  if (typeof system === 'string') return system;
+  return system.dynamic ? `${system.cached}\n\n${system.dynamic}` : system.cached;
+}
+
+/** Appended to the system prompt when a caller needs JSON back and the vendor
+ *  has no schema-free JSON mode (Anthropic, Codex, local). */
+export const JSON_ONLY_HINT = 'Reply with ONLY a single valid JSON object — no prose before or after it, no code fences.';
+
 export interface GenerateOptions {
-  system: string;
+  system: SystemPrompt;
   messages: ChatMessage[];
   maxTokens?: number;
-  json?: boolean; // hint the model to return a single JSON object
+  /** The reply must be a single JSON object. OpenAI (API key) uses
+   *  response_format json_object; the other vendors get JSON_ONLY_HINT appended
+   *  to the system prompt. Parsing stays tolerant either way (schemas.ts). */
+  json?: boolean;
   quality?: 'fast' | 'deep'; // 'deep' enables thinking on capable models
   label?: string; // what this call is for; shown in the Parent prompt inspector
 }
@@ -53,7 +79,7 @@ export function mockBrainEnabled(): boolean {
 }
 
 function mockGenerate(opts: GenerateOptions): string {
-  const s = opts.system || '';
+  const s = flattenSystem(opts.system || '');
   const u = (opts.messages || []).map((m) => m.content).join('\n');
   if (/\{"correct": boolean\}/.test(s) || /grade a young learner/i.test(s)) return '{"correct": true}';
   if (/progress report/i.test(s)) {
@@ -152,7 +178,7 @@ function withPromptLog(brain: Brain): Brain {
         label: opts.label || 'AI call',
         vendor: brain.vendor,
         model: brain.model,
-        system: opts.system,
+        system: flattenSystem(opts.system),
         messages: opts.messages
       };
       try {
@@ -169,65 +195,107 @@ function withPromptLog(brain: Brain): Brain {
 
 // ---- Anthropic ------------------------------------------------------------
 
+/** OAuth (Claude-login / subscription) tokens are NOT general API keys: Anthropic
+ *  only honors them when the request identifies itself as Claude Code. The first
+ *  system block MUST be exactly this line, or the call is rejected (401/429) even
+ *  with a valid token. API-key requests don't need it. */
+export const CLAUDE_CODE_IDENTITY = "You are Claude Code, Anthropic's official CLI for Claude.";
+
+export interface AnthropicRequestInput {
+  model: string;
+  system: SystemPrompt;
+  messages: ChatMessage[];
+  maxTokens?: number;
+  json?: boolean;
+  quality?: GenerateOptions['quality'];
+  /** Claude-login / OAuth path: prepend the Claude Code identity block. */
+  oauth: boolean;
+}
+
+/**
+ * Build the Messages API request body. Pure (no network) so the exact shape —
+ * identity block order, cache breakpoint placement, thinking — is unit-tested.
+ *
+ * System blocks, in order (the order is load-bearing):
+ *   1. CLAUDE_CODE_IDENTITY            — OAuth/local-login only; must be first.
+ *   2. the stable prompt               — `cache_control: ephemeral` when the
+ *                                        caller split it ({ cached, dynamic }).
+ *                                        The breakpoint caches 1+2 as one prefix.
+ *   3. the dynamic prompt              — uncached (e.g. learner mastery).
+ *   4. JSON_ONLY_HINT                  — when `json` is set; after the breakpoint
+ *                                        so it never splits the cache.
+ * A plain-string system prompt is sent uncached: callers that pass one (free
+ * teaching, reports) mix per-turn data into it, so a breakpoint would only add
+ * the 1.25× cache-write premium on every call. The per-turn DIRECTIVE lives in
+ * `messages`, after the cached prefix.
+ */
+export function buildAnthropicRequest(input: AnthropicRequestInput): Anthropic.MessageCreateParamsNonStreaming {
+  const { model, system, messages, maxTokens = 1400, json, quality = 'fast', oauth } = input;
+  const blocks: Anthropic.TextBlockParam[] = [];
+  if (oauth) blocks.push({ type: 'text', text: CLAUDE_CODE_IDENTITY });
+  if (typeof system === 'string') {
+    if (system) blocks.push({ type: 'text', text: system });
+  } else {
+    if (system.cached) blocks.push({ type: 'text', text: system.cached, cache_control: { type: 'ephemeral' } });
+    if (system.dynamic) blocks.push({ type: 'text', text: system.dynamic });
+  }
+  if (json) blocks.push({ type: 'text', text: JSON_ONLY_HINT });
+
+  // Adaptive thinking is only available on the larger models — Haiku (and
+  // others) reject it with "adaptive thinking is not supported on this model",
+  // so gate it by capability. 'deep' tasks (syllabus/report) get it; live turns
+  // stay snappy.
+  const thinking = quality === 'deep' && /opus|sonnet/.test(model);
+  return {
+    model,
+    // Thinking tokens count against max_tokens — give them headroom so the
+    // JSON answer isn't truncated after a long think.
+    max_tokens: thinking ? maxTokens + 6000 : maxTokens,
+    ...(blocks.length ? { system: blocks } : {}),
+    // `adaptive` postdates this SDK's types; the API accepts it.
+    ...(thinking ? { thinking: { type: 'adaptive' } as unknown as Anthropic.ThinkingConfigParam } : {}),
+    messages: messages.map((m) => ({ role: m.role, content: m.content }))
+  };
+}
+
 async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object): Promise<Brain> {
   const model = p!.model || 'claude-opus-4-8';
   let client: Anthropic;
-  // OAuth (Claude-login / subscription) tokens are NOT general API keys: Anthropic
-  // only honors them when the request identifies itself as Claude Code. The first
-  // system block MUST be this exact line, or the call is rejected (401/429) even
-  // with a valid token. API-key requests don't need it.
-  let oauthMode = false;
+  let oauth = false;
+  const localLogin = p!.method === 'local_login';
 
   if (p!.method === 'api_key' && p!.apiKey) {
     client = new Anthropic({ apiKey: p!.apiKey });
-  } else if (p!.method === 'local_login') {
+  } else if (localLogin) {
+    // Throws a clear, actionable error when the login is missing or expired.
     const token = await getAnthropicLocalToken();
-    if (!token) throw new Error('No local Claude login found. Run `claude` or `ant auth login` first, or connect an API key.');
     client = new Anthropic({ authToken: token, defaultHeaders: { 'anthropic-beta': 'oauth-2025-04-20' } });
-    oauthMode = true;
+    oauth = true;
   } else if (p!.oauth?.access) {
     client = new Anthropic({ authToken: p!.oauth.access, defaultHeaders: { 'anthropic-beta': 'oauth-2025-04-20' } });
-    oauthMode = true;
+    oauth = true;
   } else {
     throw new NoBrainError();
   }
 
-  const CLAUDE_CODE_IDENTITY = "You are Claude Code, Anthropic's official CLI for Claude.";
-
-  // Adaptive thinking is only available on the larger 4.x models — Haiku (and
-  // other models) reject it with "adaptive thinking is not supported on this
-  // model", so gate it by capability rather than sending it unconditionally.
-  const supportsAdaptiveThinking = /opus|sonnet/.test(model);
-
   return {
     vendor: 'anthropic',
     model,
-    async generate({ system, messages, maxTokens = 1400, json, quality = 'fast' }) {
-      // For OAuth tokens, prepend the required Claude Code identity as the first
-      // system block (keeping the app's real instructions as a second block).
-      const sys = oauthMode
-        ? [
-            { type: 'text' as const, text: CLAUDE_CODE_IDENTITY },
-            ...(system ? [{ type: 'text' as const, text: system }] : [])
-          ]
-        : system;
-      const thinking = quality === 'deep' && supportsAdaptiveThinking;
-      const res = await client.messages.create({
-        model,
-        // Thinking tokens count against max_tokens — give them headroom so the
-        // JSON answer isn't truncated after a long think.
-        max_tokens: thinking ? maxTokens + 6000 : maxTokens,
-        system: sys as any,
-        // 'deep' tasks (syllabus/report) get adaptive thinking where supported; live turns stay snappy.
-        ...(thinking ? { thinking: { type: 'adaptive' as const } } : {}),
-        messages: messages.map((m) => ({ role: m.role, content: m.content }))
-      } as any, { timeout: timeoutFor(quality), maxRetries: 1 });
-      const text = (res.content || [])
-        .filter((b: any) => b.type === 'text')
-        .map((b: any) => b.text)
+    async generate({ system, messages, maxTokens, json, quality = 'fast' }) {
+      const req = buildAnthropicRequest({ model, system, messages, maxTokens, json, quality, oauth });
+      let res: Anthropic.Message;
+      try {
+        res = await client.messages.create(req, { timeout: timeoutFor(quality), maxRetries: 1 });
+      } catch (e) {
+        // A rejected local-login token (revoked, refreshed elsewhere) must not
+        // stay cached until its stated expiry — re-read the stores next turn.
+        if (localLogin && e instanceof Anthropic.AuthenticationError) clearAnthropicLocalTokenCache();
+        throw e;
+      }
+      return res.content
+        .map((b) => (b.type === 'text' ? b.text : ''))
         .join('')
         .trim();
-      return text;
     }
   };
 }
@@ -258,7 +326,7 @@ async function openaiBrain(p: ReturnType<typeof authStore.getStored> & object): 
       async generate({ system, messages, maxTokens = 1400, json, quality }) {
         const res = await client.chat.completions.create({
           model,
-          messages: [{ role: 'system', content: system }, ...messages],
+          messages: [{ role: 'system', content: flattenSystem(system) }, ...messages],
           ...(isReasoning
             ? { max_completion_tokens: maxTokens + 2000, reasoning_effort: 'low' as const }
             : { max_tokens: maxTokens }),
@@ -270,6 +338,10 @@ async function openaiBrain(p: ReturnType<typeof authStore.getStored> & object): 
   }
 
   throw new NoBrainError();
+}
+
+function withJsonHint(system: string, json: boolean | undefined): string {
+  return json ? `${system}\n\n${JSON_ONLY_HINT}` : system;
 }
 
 /** Per-call timeout: a live turn must fail fast enough for the learner to retry;
@@ -308,7 +380,7 @@ async function codexBrain(p: ReturnType<typeof authStore.getStored> & object, mo
   return {
     vendor: 'openai',
     model: codexModel,
-    async generate({ system, messages, quality }) {
+    async generate({ system, messages, json, quality }) {
       let oauth = authStore.getStored(p!.id)?.oauth ?? p!.oauth!;
       if (oauth.expires && oauth.refresh && oauth.expires < Date.now() + 60_000) {
         oauth = await refreshCodexTokens(p!.id, oauth.refresh);
@@ -332,7 +404,7 @@ async function codexBrain(p: ReturnType<typeof authStore.getStored> & object, mo
         },
         body: JSON.stringify({
           model: codexModel,
-          instructions: system,
+          instructions: withJsonHint(flattenSystem(system), json),
           input,
           stream: true, // required by the codex backend
           store: false, // required by the codex backend
@@ -398,14 +470,14 @@ async function localBrain(p: ReturnType<typeof authStore.getStored> & object): P
   return {
     vendor: 'local',
     model,
-    async generate({ system, messages, maxTokens = 1400 }) {
+    async generate({ system, messages, maxTokens = 1400, json }) {
       // Note: we deliberately do NOT send `response_format` here — many
       // OpenAI-compatible local servers (Ollama, etc.) reject json_object.
-      // JSON is enforced via the prompt and parsed tolerantly upstream.
+      // JSON is enforced via the prompt (JSON_ONLY_HINT) and parsed tolerantly upstream.
       const res = await client.chat.completions.create({
         model,
         max_tokens: maxTokens,
-        messages: [{ role: 'system', content: system }, ...messages]
+        messages: [{ role: 'system', content: withJsonHint(flattenSystem(system), json) }, ...messages]
       }, { timeout: 180_000 }); // local models on consumer hardware can be slow
       return (res.choices[0]?.message?.content || '').trim();
     }
