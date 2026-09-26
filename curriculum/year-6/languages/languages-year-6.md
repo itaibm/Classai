@@ -19,14 +19,19 @@ school, town, food and festivals, what they did last weekend or holiday, and wha
 do — and write a connected paragraph using **three time frames** (present, preterite past and near
 future) with opinions and reasons.
 
-**What we assume from Year 5 (ages 10–11):** Spanish phonics; greetings and personal information;
-the present tense of regular -ar, -er and -ir verbs in the singular; adjective agreement; some past
-chunks (*fui*, *comí*, *vi*); *voy a* + infinitive; sequencing words; countries and capitals of the
-Spanish-speaking world; retelling a simple story. **What Year 6 adds:** full present-tense paradigms
-(all persons) and the key irregulars (*ser, estar, tener, ir, hacer*); reflexive verbs; *gustar* with
-plurals and *encantar*; comparatives; *hay* and prepositions of place; ordering food politely; the
-regular preterite in all persons plus the key irregulars *fui, hice, fue*; weather and the near future;
-connectives and complex sentences; reading short authentic and graded texts. **What secondary relies
+**What we assume from Year 5 (ages 10–11):** Spanish phonics and stress rules; personal information;
+the present tense of regular -ar, -er and -ir verbs **in all persons** and of *ser, tener, ir* and
+*hacer*; adjective agreement (including nationalities and colours); *gustar/gustan* and *encantar*;
+describing people, home (*hay*, *está* + prepositions, *del/al*), school, clothes and prices (numbers to
+1,000); a daily routine with reflexive verbs as first-person chunks; the Spanish-speaking world;
+*voy a* + infinitive and *si* + present + *voy a*; the past chunks *fui, comí, vi, fue*. From Year 4:
+food and the café, hobbies, the body, telling the time, places in town and directions.
+**What Year 6 adds (these topics are revisited, but always with new grammar):** stem-changing verbs
+(e→ie, o→ue, e→i, u→ue); reflexive verbs in all persons and *soler* + infinitive; verbs like *gustar*
+(*me interesa, me parece*); comparatives and superlatives; *tener que / se puede*; the three-way
+contrast *ser / estar / hay*; formal (*usted*) commands for directions; *debes* + infinitive; the
+regular preterite in all persons plus *fui, hice, fue*; *ir a* + infinitive in all persons; *me
+gustaría / espero*; the three-tense paragraph; reading graded readers and authentic texts. **What secondary relies
 on:** secure present, preterite and near future; confident pronunciation; a vocabulary of about 600
 words across everyday themes; the ability to understand short texts independently.
 
@@ -128,33 +133,33 @@ week, 35–40 minutes.
 
 **Essential question:** How can I describe my day in Spanish — and how do days differ around the Spanish-speaking world?
 
-**Key vocabulary:** me despierto, me levanto, me ducho, me visto, me lavo los dientes, desayuno, voy al colegio, como, vuelvo a casa, hago los deberes, ceno, me acuesto, ¿a qué hora…?, a la una, a las dos y media, por la mañana, por la tarde, por la noche, primero, luego, después, finalmente, normalmente, a veces, siempre, nunca
+**Key vocabulary:** despertarse (me despierto), acostarse (me acuesto), vestirse (me visto), volver (vuelvo), empezar (empieza), jugar (juego), soler (suelo), antes de, después de, entre semana, los fines de semana, ¿a qué hora…?, por la mañana, por la tarde, por la noche, primero, luego, después, finalmente, normalmente, a veces, siempre, nunca
 
-### Lesson 7 — Telling the time
+### Lesson 7 — Stem-changing verbs: the "boot" verbs of my day
 - **Duration:** 35 min
-- **Objective:** "By the end, I can tell and ask the time in Spanish, including quarter past, half past and quarter to." (CEFR A1; UK KS3 MFL)
-- **Hook:** Clocks showing the time in Madrid, Mexico City and Buenos Aires: "¿Qué hora es en…?"
-- **Key activity:** *Es la una / Son las dos*; *y cuarto, y media, menos cuarto*; *¿A qué hora…?* → *A las ocho*; practise with real clocks; the 24-hour clock for timetables (*las quince horas*).
-- **Check for understanding:** "Why do we say *es la una* but *son las tres*?" → One o'clock is singular (*una hora*); other hours are plural.
-- **Differentiation:** support: a clock with Spanish labels / stretch: calculate time differences between Spanish-speaking capitals and say them in Spanish
-- **Materials:** clock faces with movable hands, time-zone map
-- **Joy:** "Reloj loco": race to set the clock to the time called
+- **Objective:** "By the end, I can conjugate stem-changing verbs (e→ie, o→ue, e→i, u→ue) in the present tense and use them to describe my day." (CEFR A1–A2; UK KS3 MFL — grammar)
+- **Hook:** "Why is it *vuelvo* (I return) but *volvemos* (we return)? Where did the *u* go?"
+- **Key activity:** Five-minute retrieval of Year 5 routine chunks and time phrases (*a las siete y media* — time was taught in Years 4–5). New: the 'boot' pattern — the stem changes in every form except *nosotros* and *vosotros*: *empezar* (empiezo), *volver* (vuelvo), *pedir* (pido), *jugar* (juego); colour a boot shape over the verb table; use the verbs in sentences about the school day (*las clases empiezan a las nueve; vuelvo a casa a las cuatro; juego al baloncesto*).
+- **Check for understanding:** "Why do we say *volvemos* but *vuelven*?" → *Volver* is an o→ue verb; the stem changes in all forms except *nosotros* and *vosotros* (outside the 'boot'), so *volvemos* keeps the o.
+- **Differentiation:** support: a verb table with the boot already drawn and one verb per pattern / stretch: sort ten unfamiliar verbs into their patterns using a dictionary (e.g. *dormir*, *querer*, *preferir*, *poder*)
+- **Materials:** verb tables, boot templates, coloured pencils, dictionaries
+- **Joy:** "Bota o no bota" — stamp your foot when the form is inside the boot
 
-### Lesson 8 — Reflexive verbs: my morning
+### Lesson 8 — Weekdays and weekends: antes de and después de + infinitive
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use reflexive verbs in the first person to describe my morning routine." (CEFR A1; UK KS3 MFL — grammar)
-- **Hook:** Mime the morning: "Me despierto… me levanto… ¡me ducho!"
-- **Key activity:** Teach reflexive verbs with actions (*me despierto, me levanto, me ducho, me visto, me lavo los dientes*); explain the reflexive pronoun ("myself"); sequence a morning with times and sequencing words.
-- **Check for understanding:** "What does the *me* in *me levanto* mean, and why is it there?" → "Myself" — I get *myself* up; reflexive verbs show the action is done to oneself.
-- **Differentiation:** support: picture cards with the verbs / stretch: add *normalmente, a veces, nunca* and a time to each sentence
-- **Materials:** action picture cards, sequencing word cards
-- **Joy:** "Mímica" (charades) — guess the routine verb
+- **Objective:** "By the end, I can contrast my weekday and weekend routines and link actions with *antes de* / *después de* + infinitive." (CEFR A2; UK KS3 MFL — grammar)
+- **Hook:** "Entre semana me levanto a las siete… pero los sábados, ¡me levanto a las once!"
+- **Key activity:** Quick mime retrieval of Year 5's reflexive chunks (*me despierto, me levanto, me ducho, me visto*). New: *antes de* / *después de* take the infinitive, and with a reflexive verb the pronoun joins the end (*después de ducharme, desayuno*); contrast *entre semana* and *los fines de semana* with *pero* and *sin embargo*.
+- **Check for understanding:** "Why is it *antes de acostarme* and not *antes de me acuesto*?" → After a preposition such as *antes de* Spanish uses the infinitive, and the reflexive pronoun is attached to the end of it (*acostarme*).
+- **Differentiation:** support: a two-column weekday/weekend sentence builder / stretch: write a chain of four actions linked with *antes de* and *después de*
+- **Materials:** action picture cards, sentence builders, mini-whiteboards
+- **Joy:** "Mañana perezosa" — the laziest possible Saturday, described in perfect Spanish
 
 ### Lesson 9 — Reflexive verbs in all persons
 - **Duration:** 40 min
 - **Objective:** "By the end, I can conjugate a reflexive verb in all persons and describe someone else's routine." (CEFR A1–A2; UK KS3 MFL — grammar)
 - **Hook:** "¿A qué hora se levanta un astronauta en la Estación Espacial?"
-- **Key activity:** Conjugate *levantarse* (*me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan*); note stem change *despertarse* → *me despierto*; describe a family member's routine.
+- **Key activity:** Conjugate *levantarse* (*me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan*); combine with Lesson 7's stem changes (*despertarse* → *nos despertamos* but *se despiertan*; *acostarse* → *se acuesta*; *vestirse* → *se viste*); describe a family member's routine.
 - **Check for understanding:** "Complete: *Mis padres ___ (levantarse) a las seis.*" → *se levantan*.
 - **Differentiation:** support: a verb table with pronouns colour-coded / stretch: explain the stem change e → ie in *despertarse* and find another verb that does it (*empezar* → *empiezo*)
 - **Materials:** verb tables, routine cards for different people
@@ -162,9 +167,9 @@ week, 35–40 minutes.
 
 ### Lesson 10 — Afternoon and evening: frequency expressions
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe my afternoon and evening routine using frequency expressions and irregular verbs *hacer* and *ir*." (CEFR A1–A2; UK KS3 MFL)
-- **Hook:** "¿Qué haces después del colegio?"
-- **Key activity:** *Vuelvo a casa, hago los deberes, veo la tele, juego al fútbol, ceno, me acuesto*; frequency (*siempre, normalmente, a veces, nunca*); *voy / hago* as irregular first persons.
+- **Objective:** "By the end, I can describe my afternoon and evening routine with frequency expressions and *soler* + infinitive ('I usually…')." (CEFR A1–A2; UK KS3 MFL)
+- **Hook:** "¿Qué haces después del colegio? ¿Qué sueles hacer los viernes?"
+- **Key activity:** Retrieve Year 5 frequency words (*siempre, normalmente, a veces, nunca*) and after-school activities. New: *soler* + infinitive (*suelo hacer los deberes, solemos cenar a las ocho*) — another o→ue verb from Lesson 7; *de vez en cuando*, *una vez a la semana*, *todos los días*.
 - **Check for understanding:** "Where does *nunca* go in a sentence like 'I never watch TV'?" → Before the verb: *Nunca veo la tele* (or *No veo nunca la tele*).
 - **Differentiation:** support: a sentence builder with frequency words / stretch: compare weekdays and weekends with *pero los fines de semana…*
 - **Materials:** sentence builders, frequency cards
@@ -220,21 +225,21 @@ week, 35–40 minutes.
 
 **Key vocabulary:** las asignaturas (las matemáticas, las ciencias, la historia, la geografía, el inglés, el español, el arte, la música, la educación física, la informática), el horario, el recreo, el profesor / la profesora, el uniforme, es fácil / difícil / útil / interesante / aburrido, más … que, menos … que, tan … como, hay, tengo que, se puede, no se puede
 
-### Lesson 15 — School subjects and opinions
+### Lesson 15 — Beyond gustar: me interesa, me parece, me aburre
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name school subjects and give opinions with reasons, using *me gusta(n)* correctly with plurals." (CEFR A1; UK KS3 MFL)
-- **Hook:** "¿Cuál es tu asignatura favorita?" — vote with your feet.
-- **Key activity:** Learn subjects with cognate strategies; opinions with reasons (*me encantan las ciencias porque son interesantes*); note plural subjects (*las matemáticas, las ciencias*) take *gustan*.
-- **Check for understanding:** "Why is it *me gustan las matemáticas* and not *me gusta las matemáticas*?" → *Las matemáticas* is plural, so the verb must be plural (*gustan*).
-- **Differentiation:** support: subject picture cards and an opinion ladder / stretch: add a teacher opinion (*porque el profesor es…*)
-- **Materials:** subject cards, opinion ladder
-- **Joy:** "Four corners" opinion vote
+- **Objective:** "By the end, I can give varied opinions about school subjects using verbs that work like *gustar* (*me interesa(n), me parece(n), me aburre(n)*)." (CEFR A2; UK KS3 MFL — grammar)
+- **Hook:** "¿Cuál es tu asignatura favorita?" — vote with your feet, then say it in a new way.
+- **Key activity:** Five-minute retrieval of Year 5 subjects and *me gusta(n)* with reasons. New: *me interesa la historia*, *me parecen útiles las ciencias*, *me aburre la geografía* — all agree with the thing, like *gustar*; *me parece + adjective* for judgements; *a mi amigo le interesa…*.
+- **Check for understanding:** "Why is it *me parecen difíciles las matemáticas* but *me parece fácil el arte*?" → Like *gustar*, the verb agrees with the thing: *las matemáticas* is plural (*parecen … difíciles*), *el arte* singular (*parece … fácil*) — and the adjective agrees too.
+- **Differentiation:** support: an opinion ladder with the new verbs and picture subject cards / stretch: report a partner's opinions with *le interesa / le parece*
+- **Materials:** subject cards, opinion ladder, mini-whiteboards
+- **Joy:** "Four corners" opinion vote — each corner has a different opinion verb
 
 ### Lesson 16 — My timetable and days of the week
 - **Duration:** 35 min
 - **Objective:** "By the end, I can describe my timetable with days, times and subjects." (CEFR A1; UK KS3 MFL)
 - **Hook:** A real timetable from a school in Colombia or Spain: "¿Qué tienen los lunes a las nueve?"
-- **Key activity:** Days of the week (lower case in Spanish); *los lunes tengo…*; read and write timetables; compare with own.
+- **Key activity:** Days of the week (lower case in Spanish); *los lunes tengo…*; the 24-hour clock used on real timetables (*las quince horas*, *a las catorce y treinta*); read and write timetables; compare with own.
 - **Check for understanding:** "What does *los lunes* mean compared with *el lunes*?" → *Los lunes* means "on Mondays" (every Monday); *el lunes* means "on Monday" (one particular Monday).
 - **Differentiation:** support: a gap-fill timetable / stretch: describe your ideal timetable with reasons
 - **Materials:** example timetables, blank timetable templates
@@ -242,9 +247,9 @@ week, 35–40 minutes.
 
 ### Lesson 17 — Comparatives
 - **Duration:** 35 min
-- **Objective:** "By the end, I can compare subjects, teachers and schools using *más … que, menos … que* and *tan … como*." (CEFR A2; UK KS3 MFL — grammar)
-- **Hook:** "¿El arte es más divertido que las matemáticas?" — debate!
-- **Key activity:** Teach comparatives with agreement (*la historia es más interesante que la geografía*); irregulars *mejor* and *peor*; compare subjects in pairs.
+- **Objective:** "By the end, I can compare subjects, teachers and schools using *más/menos … que*, *tan … como* and superlatives (*la asignatura más útil*)." (CEFR A2; UK KS3 MFL — grammar)
+- **Hook:** "¿El arte es más divertido que las matemáticas? ¿Cuál es la asignatura más útil del mundo?" — debate!
+- **Key activity:** Retrieve *más … que* (a Year 5 stretch) and teach the full set with agreement (*la historia es más interesante que la geografía*); *tan … como*; irregulars *mejor* and *peor*; superlatives (*el/la más … de*, *el/la mejor*); compare and rank subjects in pairs.
 - **Check for understanding:** "Translate: 'Music is better than art.'" → *La música es mejor que el arte.*
 - **Differentiation:** support: a comparative sentence builder / stretch: use *tan … como* and justify with *porque*
 - **Materials:** sentence builders, subject cards
@@ -308,34 +313,34 @@ week, 35–40 minutes.
 
 **Essential question:** How can I describe where I live, find my way around a Spanish-speaking town, and say what there is to do?
 
-**Key vocabulary:** la ciudad, el pueblo, el barrio, hay, no hay, el parque, la plaza, el mercado, la biblioteca, el cine, el museo, la estación, el polideportivo, la iglesia, la mezquita, la sinagoga, el templo, está, cerca de, lejos de, al lado de, enfrente de, entre, sigue todo recto, gira a la derecha / a la izquierda, toma la primera / segunda calle, voy a, al, a la, se puede
+**Key vocabulary:** la ciudad, el pueblo, el barrio, hay, no hay, el parque, la plaza, el mercado, la biblioteca, el cine, el museo, la estación, el polideportivo, la iglesia, la mezquita, la sinagoga, el templo, está, cerca de, lejos de, al lado de, enfrente de, entre, sigue / siga todo recto, gira / gire a la derecha / a la izquierda, toma / tome la primera / segunda calle, cruza / cruce, voy a, al, a la, se puede
 
-### Lesson 23 — Places in town with hay
+### Lesson 23 — My town then and now: antes había… ahora hay…
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name places in a town and say what there is and isn't in my area." (CEFR A1; UK KS3 MFL)
-- **Hook:** A satellite tour of a plaza in Oaxaca, Mexico: "¿Qué hay en la plaza?"
-- **Key activity:** Places in town with articles; *hay un/una…, hay muchos/muchas…, no hay…*; places of worship from many faiths; describe own town.
+- **Objective:** "By the end, I can describe what there is in my town now and what there used to be, using *hay* and the chunk *había*." (CEFR A2; UK KS3 MFL)
+- **Hook:** A satellite tour of a plaza in Oaxaca, Mexico, then an old photo of the same plaza: "¿Qué hay ahora? ¿Qué había antes?"
+- **Key activity:** Five-minute retrieval of Year 4's places in town with *hay / no hay* (not re-taught). New: *muchos/muchas*, *varios*, *algunos*; places of worship from many faiths; the fixed chunk *antes había…* ('there used to be') to contrast past and present; describe own town then and now (with old photos from the local history work).
 - **Check for understanding:** "Why do we say *no hay cine* without *un*?" → After a negative *hay*, the article is usually dropped (*no hay cine* — "there isn't a cinema").
 - **Differentiation:** support: picture cards with articles / stretch: add adjectives and opinions (*hay un parque grande que me encanta*)
 - **Materials:** place cards, town map, satellite images
 - **Joy:** "Veo, veo" (I spy) with a picture of a town
 
-### Lesson 24 — Where is it? Estar and prepositions
+### Lesson 24 — Ser, estar or hay?
 - **Duration:** 35 min
-- **Objective:** "By the end, I can say where places are using *estar* and prepositions of place, including *al* and *del*." (CEFR A1–A2; UK KS3 MFL — grammar)
-- **Hook:** "¿Dónde está el tesoro?" — a treasure map of a town.
-- **Key activity:** *Estar* for location (*el cine está al lado del parque*); prepositions (*cerca de, lejos de, al lado de, enfrente de, entre*); contractions *de + el = del*, *a + el = al*; describe a town map.
-- **Check for understanding:** "Why do we use *estar*, not *ser*, to say where the museum is?" → Location uses *estar* (*el museo está en el centro*).
-- **Differentiation:** support: a preposition picture card / stretch: describe your route from home to school using three prepositions
+- **Objective:** "By the end, I can choose correctly between *ser*, *estar* and *hay* when describing a town." (CEFR A2; UK KS3 MFL — grammar)
+- **Hook:** "*Hay un museo. El museo es moderno. El museo está en la plaza.* Three verbs, three jobs. What are they?"
+- **Key activity:** Retrieve prepositions and *del/al* from Years 4–5 with a treasure map (*¿Dónde está el tesoro?*). New: the three-way contrast — *hay* introduces something that exists (*hay un cine*); *estar* says where a known thing is (*el cine está al lado del parque*); *ser* describes what it is like (*el cine es grande*). Sort sentences, then correct a 'broken' tourist leaflet.
+- **Check for understanding:** "Correct and explain: *El museo es en la plaza* and *Está un parque cerca*." → *El museo está en la plaza* (location of a particular thing uses *estar*); *Hay un parque cerca* (introducing something that exists uses *hay*).
+- **Differentiation:** support: a colour-coded three-column sorting mat (exists / where / what it's like) / stretch: write a five-sentence description of a real square using all three verbs twice
 - **Materials:** town maps, preposition cards, small objects to position
 - **Joy:** "¿Dónde está el tesoro?" hunt
 
 ### Lesson 25 — Asking for and giving directions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can ask for and follow directions in Spanish." (CEFR A2 spoken interaction; UK KS3 MFL)
-- **Hook:** "You're lost in Seville with no phone battery. ¿Cómo se va a la catedral?"
-- **Key activity:** *Perdone, ¿dónde está…? / ¿Cómo se va a…?*; *sigue todo recto, gira a la derecha / a la izquierda, toma la primera calle*; follow directions on a map; blindfolded direction game in the playground.
-- **Check for understanding:** "Give directions from the station to the market on the map." → Accurate directions using at least two instructions.
+- **Objective:** "By the end, I can ask for and give directions politely to a stranger using formal (*usted*) commands." (CEFR A2 spoken interaction; UK KS3 MFL — grammar)
+- **Hook:** "You're lost in Seville with no phone battery. You ask an elderly lady: ¿Cómo se va a la catedral? Would you say *sigue* or *siga*?"
+- **Key activity:** Retrieve Year 4's informal directions (*sigue todo recto, gira a la derecha, toma la primera calle*). New: the formal *usted* commands used with strangers and older people (*siga todo recto, gire a la izquierda, tome la segunda calle, cruce la plaza*) — notice the 'swapped' vowel; *Perdone, ¿dónde está…?*; follow and give directions on a map; blindfolded direction game in the playground (formal version).
+- **Check for understanding:** "Give directions from the station to the market on the map to an adult stranger, and explain why you said *gire* not *gira*." → Accurate formal directions with at least two instructions; *gire* is the polite *usted* command used with a stranger.
 - **Differentiation:** support: arrow cards with phrases / stretch: use distances (*a doscientos metros*) and landmarks
 - **Materials:** street maps, arrow cards, blindfold, cones
 - **Joy:** Blindfold direction game
@@ -634,7 +639,7 @@ week, 35–40 minutes.
 - **Duration:** 35 min
 - **Objective:** "By the end, I can make plans that depend on the weather using *si* + present + *voy a* + infinitive." (CEFR A2; UK KS3 MFL — grammar)
 - **Hook:** "Si llueve, ¿qué vas a hacer?"
-- **Key activity:** Build conditional plans; role play planning a day out with a partner based on a forecast; agree and disagree (*buena idea / prefiero…*).
+- **Key activity:** Retrieve Year 5's *si hace sol, voy a…* (first person). New: plans for other people and groups (*si llueve, mis amigos van a…*), two conditions in one plan, and negotiating (*¿por qué no…?, buena idea, prefiero…, vale, de acuerdo*); role play planning a day out with a partner based on a forecast.
 - **Check for understanding:** "Complete: *Si hace frío, …*" → e.g. *Si hace frío, voy a quedarme en casa y ver una película.*
 - **Differentiation:** support: a frame with *si* clauses / stretch: include two conditions and a preference
 - **Materials:** forecast cards, sentence builders
@@ -713,7 +718,7 @@ week, 35–40 minutes.
 ### Lesson 59 — A song: understanding and singing
 - **Duration:** 35 min
 - **Objective:** "By the end, I can understand the gist and key lines of a Spanish-language song and sing along with accurate pronunciation." (CEFR A2 listening; UK KS3 MFL)
-- **Hook:** A catchy, age-appropriate song made for learners (e.g. by Señor Wooly) or the traditional "Cielito lindo".
+- **Hook:** A catchy, age-appropriate song made for learners (e.g. by Señor Wooly) or the traditional Mexican song "Cielito lindo" (Year 4 learned "La Bamba" and Year 5 "De colores", so choose something new).
 - **Key activity:** Listen for gist; gap-fill the chorus; discuss meaning; sing.
 - **Check for understanding:** "What is the chorus about, and which words helped you understand?" → A correct summary with key words identified.
 - **Differentiation:** support: lyrics with a translation alongside / stretch: write a new verse
@@ -874,5 +879,5 @@ week, 35–40 minutes.
 - **Retrieval.** Start every lesson with 5 minutes of mixed retrieval from earlier units; keep a vocabulary log and use spaced practice (flashcards or an app).
 - **Differentiation.** Support means more visual scaffolding, sentence builders and shorter tasks on the same topic; stretch means more persons and tenses, connectives, unprepared questions and longer texts — not new topics.
 - **Swapping the language.** For Hebrew, French or another language, keep the unit themes and the sequence (present → past → future → three-tense paragraph; transactions; culture), replacing grammar points with the language's equivalents (e.g. Hebrew verb patterns by gender and number; French *passé composé* with *avoir/être*).
-- **Vertical alignment.** Year 5 introduced the present in the singular, adjective agreement, past chunks and *voy a*; Year 6 completes the core A2 toolkit. Secondary (UK Year 8 / US Grade 7 / MYP 2) builds the imperfect, the full future and conditional, and longer texts on this base.
+- **Vertical alignment.** Year 5 taught the present tense in all persons (regular verbs and *ser, tener, ir, hacer*), adjective agreement, reflexive chunks, *hay/está*, numbers to 1,000, past chunks and *voy a*; Year 4 taught food, hobbies, time, town and directions. Year 6 revisits these themes only to add new grammar (stem changes, *soler*, *ser/estar/hay*, superlatives, formal commands, the full preterite) and completes the core A2 toolkit. Secondary (UK Year 8 / US Grade 7 / MYP 2) builds the imperfect, the full future and conditional, and longer texts on this base.
 - **Cross-curricular links:** Maths (time, numbers, money, surveys), Geography (weather, the Spanish-speaking world, volcanoes), English (poetry — "Where I'm From" and Martí's lines), Music (songs), Life Skills (global citizenship).

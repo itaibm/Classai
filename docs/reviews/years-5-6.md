@@ -173,3 +173,49 @@ Tuvalu's high point ~4.6 m; 8 billion (Nov 2022), 1 billion ~1804; urban share <
 million in ~2 km² (estimates vary — "perhaps" kept); India overtook China 2023 (UN); Shenzhen SEZ 1980;
 Three Gorges largest power station by capacity, >1 million relocated; Samoa skipped 30 Dec 2011;
 Curitiba BRT 1970s; Nairobi 1° 17′ S 36° 49′ E; Cape Town 50 L/person/day in 2018.
+
+---
+
+## Languages (Spanish)
+
+### Accuracy
+All Spanish in both files was checked (conjugations, agreement, *del/al*, *cien/ciento*, *doscientas
+personas*, stress rules, *hablo/habló*, *jugué*, *hizo*, *fui/fue*, omission of *un/una* before
+professions, *quisiera*, regional *zumo/jugo*, *vosotros/ustedes*). No grammatical errors were found in
+the model language. Cultural facts verified: Inti Raymi (24 June, Cusco), Día de Muertos (1–2 Nov), La
+Tomatina (Buñol, late August), Las Fallas (March), "La Bamba" a 1958 hit, Gabriela Mistral's 1945 Nobel,
+Martí's *Versos sencillos* → "Guantanamera", Nahuatl loanwords (*tomate, chocolate, aguacate*). Y5's
+"about 20 countries" and Y6's "21" harmonised ("20, or 21 counting Puerto Rico").
+
+### The coherence problem
+Year 6's overview assumed Year 5 had taught "the present tense … in the singular" and listed as *new*
+in Year 6: full present paradigms, reflexive verbs, *hay* and prepositions, comparatives. In fact Year 5
+teaches all of these (Units 2–5), and Year 4 already taught time, food/café, town and directions. So
+Year 6 Units 2–4 re-taught Year 4/5 at the same depth (e.g. Y6 L7 time was the **third** time-telling
+lesson; Y6 L8 "Reflexive verbs: my morning" = Y5 L35; Y6 L23–25 places/prepositions/directions = Y4 L49–52).
+
+### Changes (Year 6) — themes kept, new grammar added
+| Lesson | Was | Now |
+|---|---|---|
+| 7 | Telling the time | **Stem-changing ("boot") verbs** e→ie, o→ue, e→i, u→ue |
+| 8 | Reflexive verbs, first person | Weekdays vs weekends with **antes de / después de + infinitive** (pronoun attached: *después de ducharme*) |
+| 9 | Reflexives all persons | + combined with stem changes (*nos despertamos / se despiertan*) |
+| 10 | Frequency words | + **soler + infinitive** |
+| 15 | Subjects and *gustar* | **Verbs like gustar**: *me interesa, me parece(n), me aburre* |
+| 16 | Timetable | + 24-hour clock (moved from L7) |
+| 17 | Comparatives | + **superlatives** |
+| 23 | Places with *hay* | Town then and now: *antes había… ahora hay…* |
+| 24 | *Estar* + prepositions | **Ser, estar or hay?** — the three-way contrast, with an error-correction check |
+| 25 | Informal directions | **Formal usted commands** (*siga, gire, tome, cruce*) |
+| 52 | *si* + present + *voy a* (done in Y5 L61) | Retrieval + other persons, two conditions, negotiating |
+Overview ("What we assume / What Year 6 adds"), Unit 2 and 4 key vocabulary and the vertical-alignment
+note corrected.
+
+### Changes (Year 5)
+- L56 "La Bamba" repeated Year 4 L61 → **"De colores"** (links to the Unit 5 reflexive *se visten*; farmworkers' anthem context). Y6 L59 now notes Y4/Y5 songs so "Cielito lindo" stays new.
+- Songs list and cross-curricular note updated.
+
+### Books & resources
+All real and correctly attributed: Llenas *El monstruo de colores*; Sendak *Donde viven los monstruos*;
+Collins/Oxford dictionaries; WordReference; *Coco*; Blaine Ray *Pobre Ana*; Carol Gaab *Brandon Brown
+quiere un perro*; *Extr@ en español*; Señor Wooly; BBC Bitesize KS3 Spanish. No removals needed.
