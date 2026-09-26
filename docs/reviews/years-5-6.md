@@ -75,3 +75,60 @@ pollination; bleach + acid → chlorine. All books verified as real titles/autho
 Origin of Species*, Tweet's *Grandmother Fish*, Anholt's *Stone Girl, Bone Girl*, Kamkwamba & Mealer,
 Winter's *Wangari's Trees of Peace*, Shetterly YRE, Beaty, Macaulay's *The Way Things Work Now*,
 Arnold's *Horrible Science*, Bryson's *A Really Short History of Nearly Everything*, Carson).
+
+---
+
+## History
+
+### The big problem: Year 5 repeated Year 4 and Year 6, and left Year 6's assumptions unmet
+- Year 5 Units 2–5 (22 lessons: Baghdad, the Maya, Benin, the Vikings) re-taught Year 4's four depth
+  studies **with the same lesson titles** ("The Round City", "The House of Wisdom", "Cities in the
+  rainforest", "Lindisfarne 793"…). Year 5 Unit 1 reused Year 4's mystery box and its
+  playground/monk-vs-saga interpretation activity.
+- Year 5 Unit 6 (Gandhi, Montgomery, apartheid, with the identical "queue to vote" joy) duplicated
+  Year 6 Lessons 28, 30 and 31.
+- Year 4 promised Year 5 would teach "Tudors and exploration, the Atlantic trade, the history of flight,
+  the Second World War home front and local history", and Year 6 **assumes** Year 5 taught the
+  transatlantic slave trade and the WWII home front — **neither was in Year 5**.
+
+**Resolution: Year 5 history rewritten** (35 lessons, 7 units, same format) to cover 1450–1950 without
+touching Year 4's or Year 6's topics:
+
+| Unit | Lessons | Content |
+|---|---|---|
+| 1 Toolkit | 1–4 | Extend the timeline from Y4; centuries and calendars; provenance — reliable vs useful (Armada Portrait); **fiction as history: *Journey to Jo'burg* and apartheid** (keeps the English link in Term 1; how apartheid ended stays in Y6) |
+| 2 The Ottoman Empire, 1453–1600 | 5–8 | 1453 through two eyewitnesses (Barbaro, Tursun Beg); Suleiman "Magnificent" vs "Lawgiver"; coffee, tulips and Busbecq; the Piri Reis map (1513) |
+| 3 Renaissance and the printing revolution | 9–13 | Who invented printing? (*Diamond Sutra* 868, Bi Sheng, *Jikji* 1377, Gutenberg); why Florence; Copernicus/Galileo (+ Ulugh Beg); printing and the Reformation (neutral); "rebirth — for whom?" (Trithemius, Anguissola, Gentileschi) |
+| 4 The transatlantic slave trade and resistance | 14–20 | Kongo (Afonso I's 1526 letter) and Queen Nzinga; the triangular trade with SlaveVoyages data (≈12.5 m embarked, ≈10.7 m arrived); the *Brookes* diagram as a source; plantations and cultural survival; Palmares/Zumbi and Nanny of the Maroons; reading the archive "against the grain"; legacies and remembrance (25 March, Cape Coast, Gorée debate). Abolition and Haiti left to Y6. Parent notes, no role-play. |
+| 5 History of flight | 21–23 | Wright (1903) vs Santos-Dumont (1906) as an interpretations lesson; Coleman, Johnson, Earhart; significance of flight |
+| 6 WWII home fronts | 24–30 | Overview; evacuation in Britain, Finland, Japan and Leningrad; rationing; women's work and the "We Can Do It!" myth; refugees and the Kindertransport (Holocaust itself left to Y6; parent note); propaganda and the "Keep Calm" myth; votes for women worldwide |
+| 7 Local history | 31–35 | Maps; census records; the world in our town; our area in WWII; year review. Oral-history interviews removed (Y5 English and the Y6 history capstone both do them). |
+
+Books replaced accordingly (all verified): kept *Journey to Jo'burg*; added Sís *Starry Messenger*, Krull
+*Leonardo da Vinci*, McKissack *Nzinga: Warrior Queen of Matamba*, Weatherford *Freedom in Congo Square*,
+Olusoga *Black and British: A Short, Essential History*, Freedman *The Wright Brothers*, Borden &
+Kroeger *Fly High!*, Kerr *When Hitler Stole Pink Rabbit*, Magorian *Goodnight Mister Tom* (preview
+note), Coerr *Sadako*, SlaveVoyages. Removed titles tied to the dropped topics (Wisniewski *Sundiata*,
+Burns *Mansa Musa*, *1001 Inventions*, Giovanni *Rosa*, *Grandfather Gandhi*, abridged *Long Walk to
+Freedom* — the last remains in Y6).
+
+### Year 6 history changes
+- L5 "Baghdad and the House of Wisdom" re-taught Y4 → now **"From Baghdad to Toledo"**: brief retrieval,
+  then how knowledge reached Europe via Córdoba (Ibn Rushd), Toledo's translators (Gerard of Cremona),
+  Norman Sicily (al-Idrisi, 1154) and Fibonacci (1202); new check challenges the "they just preserved
+  Greek knowledge" misconception.
+- L29 claimed Ghana was "the first sub-Saharan African colony to win independence" — Sudan became
+  independent in January 1956; reworded to "one of the first".
+- L26 (Holocaust): added an explicit parent note and a pointer to Anne Frank House education materials.
+- Overview "What we assume" and the vertical-alignment note now describe what Years 4 and 5 actually teach.
+
+### Checked and correct (no change)
+Great Pyramid/Cleopatra/Moon-landing comparison; David vs Delaroche Napoleon; Caton-Thompson 1929 and
+Zimbabwe 1980; Zheng He 1405–33; Tenochtitlan c. 1325; Akbar 1556–1605 and the jizya; Jefferson and
+600+ enslaved people; Sadler 1832, Mines Commission 1842, Factory Act 1833; Haiti 1791–1804 and the 1825
+indemnity; Equiano 1789, Douglass 1845, abolition 1833–34/1865/1888; Perry 1853, first railway 1872;
+Hansa Mehta and Article 1; Nkrumah 6 March 1957; 1960 "Year of Africa" (17 states); Ruby Bridges 1960;
+Browder v. Gayle; Sharpeville 1960, Soweto 1976; space-race dates. Y6 books all real (Gombrich,
+Frankopan/Packer illustrated edition, Anne Frank, Ruby Bridges, van Wyk's abridged Mandela, *I Am
+Malala* YRE, *Horrible Histories*). The Y6 handling of the Holocaust (through Anne Frank and rescuers,
+no role-play, depth deferred to secondary) is age-appropriate and was kept.

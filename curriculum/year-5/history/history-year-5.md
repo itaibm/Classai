@@ -2,514 +2,531 @@
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
 > Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Source material:
-> `knowledge-base/subjects/history-geography/history-ks2.md` (non-European societies: early Islamic
-> civilisation, the Maya, Benin), `extension-topics.md`, and `_lesson-banks-humanities.md`.
+> `knowledge-base/subjects/history-geography/history-ks2.md` (British history beyond 1066, a local
+> history study, non-European societies), `extension-topics.md`, and `_lesson-banks-humanities.md`.
+> Revised in the 2026-09 Years 5–6 review (see `docs/reviews/years-5-6.md`): the earlier draft
+> repeated Year 4's depth studies (Vikings, Baghdad, Benin, the Maya) and Year 6's twentieth-century
+> unit; this version fills the gap Year 4 promised and Year 6 relies on.
 
 ## Year overview
 
-Year 5 history asks one big question: **how connected was the world before modern times — and how
-do we know?** Pupils study five societies across four continents, most of them flourishing in the same
-period (roughly AD 750–1500), so that they can compare them side by side on one timeline: **Abbasid
-Baghdad and the Islamic Golden Age** (Asia), **the Maya** (the Americas), **the West African kingdoms of
-Mali and Benin** (Africa), and **the Vikings** (Europe, who traded as far as Baghdad and sailed to North
-America). This "same time, different places" design breaks the habit of thinking history happens only
-in Europe, and it shows that trade, ideas and conflict linked the medieval world.
+Year 5 history carries the class timeline **from about 1450 to about 1950** — the half-millennium in
+which the world's regions were tied together by ships, print, empire, enslavement, flight and world war.
+Year 4 studied the connected medieval world (the Vikings, Abbasid Baghdad, Benin and the Maya) in depth;
+Year 5 asks **"How did the world become so tightly connected — and who paid the price?"**
 
-The year then leaps forward to the twentieth century for **the long road to freedom** — Gandhi and
-Indian independence, the US civil rights movement and the end of apartheid in South Africa — deliberately
-linked to the English class text *Journey to Jo'burg*. It closes with a **local history study** that
-connects the pupils' own town or country to the wider world.
+The year moves chronologically. After a toolkit unit that deepens source work, pupils study **the
+Ottoman Empire** from the fall of Constantinople (1453) to Suleiman the Magnificent (Asia and Europe),
+**the Renaissance and the printing revolution** — with printing's Chinese and Korean origins given their
+due — then **the transatlantic slave trade and resistance**, taught honestly and with African agency at
+its centre (Africa, the Americas and Europe). A short unit on **the history of flight** asks who really
+flew first (the USA or Brazil?), and a unit on **the Second World War as ordinary people lived it** —
+evacuation, rationing, women's work and refugees in several countries — closes with the spread of votes
+for women after the war. The year ends with a **local history study** that finds these big stories in
+the pupils' own town.
 
-Every unit asks **"How do we know?"**: pupils handle primary and secondary sources (manuscripts, objects,
-oral traditions, maps, photographs, speeches), weigh their reliability, compare interpretations, and
-consider whose voices are missing. Chronology is built continuously on a class timeline that runs the
-length of the classroom.
+Every unit asks **"How do we know?"**: pupils handle primary and secondary sources (maps, prints,
+letters, posters, ship records, photographs, objects), judge their reliability and usefulness, compare
+interpretations and ask whose voices are missing. Chronology is built on a class timeline running the
+length of the classroom, joined to Year 4's.
 
-**What this year assumes (from Year 4):** a secure sense of BC/AD (BCE/CE), a class timeline from the
-ancient world, and knowledge of at least one ancient civilisation; the difference between primary and
-secondary sources.
+**What this year assumes (from Year 4):** a secure medieval timeline (c. 700–1500) and depth knowledge
+of the Vikings, Baghdad, Benin and the Maya; primary vs secondary sources; the idea that accounts differ.
 
-**What Year 6 relies on:** a mental map of the medieval world and its connections; confidence with
-sources and interpretations; the habit of asking who made a source and why; and the ability to write a
-short, evidence-based historical explanation — ready for deeper study of later periods and extended
-historical writing.
+**What Year 6 relies on:** the transatlantic slave trade taught honestly (Year 6 studies abolition and
+the Haitian Revolution); the Second World War from the home-front perspective (Year 6 adds the global
+course of the war and the Holocaust); printing and the Renaissance (Year 6's significance work); formal
+use of reliability and usefulness; and short evidence-based written explanations. Year 6 then studies
+the medieval world's connections (Song China, the Mongols, Mali, Great Zimbabwe), encounters and empires
+(Zheng He, the Mexica, the Mughals), revolutions and the twentieth century — so none of those is
+duplicated here.
+
+**Sensitive content.** The slave-trade unit (Lessons 14–20) and the refugees lesson (Lesson 28) need
+preparation: inform parents beforehand, centre dignity, agency and resistance rather than graphic
+detail, and never role-play enslavement or persecution.
 
 ## Time budget
 
-36 weeks × 1 lesson = 36 slots; 35 lessons planned, 1 spare for a museum visit.
+36 weeks × 1 lesson = 36 slots; 35 lessons planned, 1 spare for a museum or archive visit.
 
-| Unit | Title | Continent | Term | Lessons |
+| Unit | Title | Continents | Term | Lessons |
 |---|---|---|---|---|
-| 1 | The historian's toolkit: one timeline, many worlds | All | 1 | 4 (1–4) |
-| 2 | Baghdad and the Islamic Golden Age | Asia | 1 | 6 (5–10) |
-| 3 | The Maya | Americas | 1–2 | 5 (11–15) |
-| 4 | West African kingdoms: Mali and Benin | Africa | 2 | 6 (16–21) |
-| 5 | The Vikings: raiders, traders, explorers | Europe / North Atlantic | 2 | 5 (22–26) |
-| 6 | The long road to freedom (20th century) | Asia, Americas, Africa | 3 | 6 (27–32) |
-| 7 | Local history study and year review | Your own town | 3 | 3 (33–35) |
+| 1 | The historian's toolkit: reliability, usefulness, interpretations | All | 1 | 4 (1–4) |
+| 2 | The Ottoman Empire, 1453–1600 | Asia / Europe | 1 | 4 (5–8) |
+| 3 | The Renaissance and the printing revolution | Europe / Asia | 1–2 | 5 (9–13) |
+| 4 | The transatlantic slave trade and resistance | Africa / Americas / Europe | 2 | 7 (14–20) |
+| 5 | Taking to the skies: the history of flight | Americas / Europe / Asia | 2 | 3 (21–23) |
+| 6 | The Second World War: home fronts around the world | Europe / Asia / Americas | 3 | 7 (24–30) |
+| 7 | Local history study and year review | Your own town | 3 | 5 (31–35) |
 | | **Total** | | | **35** |
 
 ---
 
-## Unit 1 — The historian's toolkit: one timeline, many worlds
+## Unit 1 — The historian's toolkit: reliability, usefulness, interpretations
 
-**Essential question:** How do historians work out what happened long ago, and how can we see different places at the same time?
+**Essential question:** How can historians trust sources that were made by people with their own views and purposes?
 
-**Key vocabulary:** chronology, timeline, century, millennium, BCE/CE, BC/AD, era, primary source, secondary source, evidence, interpretation, reliability, bias, archaeology, oral history
+**Key vocabulary:** chronology, century, millennium, BCE/CE, BC/AD, calendar, primary source, secondary source, provenance, reliability, usefulness, bias, propaganda, interpretation, historical fiction
 
-### Lesson 1 — The world in AD 800
+### Lesson 1 — The world in 1450: extending our timeline
 - **Duration:** 40 min
-- **Objective:** "By the end, I can place several societies on a timeline and a world map and say what was happening at the same time." (UK NC KS2 history — chronology)
-- **Hook:** "In AD 800, which city was the largest in the world: London, Baghdad or Chang'an (in China)?" (Baghdad and Chang'an were each far larger than any city in western Europe.)
-- **Key activity:** Build the class timeline from 500 to 1500 across the classroom wall; pupils peg picture cards (Baghdad's round city, a Maya pyramid, a Viking longship, a Benin bronze, Mansa Musa) onto a timeline and a world map. Discuss "same time, different places".
-- **Check for understanding:** "Why is it misleading to call AD 500–1500 the 'Dark Ages' for the whole world?" → Many societies (Baghdad, the Maya, West African kingdoms, China) were flourishing, with great cities, learning and trade.
-- **Differentiation:** support: timeline with century markers and picture cards / stretch: calculate how many years separate pairs of events and identify overlaps.
-- **Materials:** long wall timeline, world map, picture cards, pegs and string.
-- **Joy:** "Time-travel tourism" — choose one city in 800 to visit and say why.
+- **Objective:** "By the end, I can join Year 4's medieval timeline to the period we will study and explain what 'the world became more connected' means." (UK NC KS2 history — chronology; C3 D2.His.1.3-5)
+- **Hook:** "In 1450 a letter from Venice to Beijing took about a year. By 1950 a telephone call took seconds. What happened in between?"
+- **Key activity:** Retrieval quiz on Year 4's societies (Vikings, Baghdad, Benin, the Maya) placed on the wall timeline; extend the timeline to 1950 and peg 'preview' cards for this year's units (Constantinople 1453, a printing press, a slave-trade ship, the Wright Flyer, an evacuee's label); mark each on a world map and discuss what joined places together.
+- **Check for understanding:** "Choose two preview cards and explain one way each connected distant parts of the world." → e.g. printing spread ideas quickly between countries; the slave trade forcibly moved millions of people from Africa to the Americas.
+- **Differentiation:** support: timeline with century markers and picture cards / stretch: calculate the gaps between events and identify which of Year 4's societies still existed in 1450.
+- **Materials:** long wall timeline (continued from Year 4), world map, picture cards, pegs and string.
+- **Joy:** "Message race" — how long would a message take from your town to Beijing in 1450, 1850 and 1950?
 
 ### Lesson 2 — Counting time: centuries and calendars
 - **Duration:** 40 min
-- **Objective:** "By the end, I can convert dates into centuries and explain that different cultures use different calendars." (UK NC KS2 history — chronology)
-- **Hook:** "Why is 1066 in the eleventh century, not the tenth?"
-- **Key activity:** Practise century conversion (AD 1–100 = 1st century; so 1066 is in the 11th). Compare calendars: Gregorian, Islamic (Hijri, from AD 622), Chinese, Hebrew and the Maya Long Count. Discuss BCE/CE and BC/AD as equivalent systems.
-- **Check for understanding:** "In which century was the year 762, and why isn't it the 7th century?" → The 8th century: years 701–800 make up the 8th century, because the 1st century was years 1–100.
-- **Differentiation:** support: a century conversion ruler / stretch: explain why the Islamic calendar year is shorter than the Gregorian year (it is based on the Moon — about 354 days).
+- **Objective:** "By the end, I can convert dates into centuries and explain that different cultures use different calendars." (UK NC KS2 history — chronology; C3 D2.His.1.3-5)
+- **Hook:** "Why is 1453 in the fifteenth century, not the fourteenth?"
+- **Key activity:** Practise century conversion (AD 1–100 = 1st century; so 1453 is in the 15th). Compare calendars: Gregorian, Islamic (Hijri, counted from AD 622), Chinese, Hebrew and the Ethiopian calendar. Discuss BCE/CE and BC/AD as equivalent systems, and why countries changed calendars (the Ottoman Empire, Russia and others adopted the Gregorian calendar at different dates).
+- **Check for understanding:** "In which century was the year 1900, and why isn't it the 20th?" → The 19th century: years 1801–1900 make up the 19th century, because the 1st century was years 1–100.
+- **Differentiation:** support: a century conversion ruler / stretch: explain why the Islamic calendar year is shorter than the Gregorian year (it follows the Moon — about 354 days) and what that does to the dates of festivals.
 - **Materials:** century conversion ruler, calendar examples, timeline.
 - **Joy:** write today's date in three calendars.
 
-### Lesson 3 — Sources: what counts as evidence?
+### Lesson 3 — Provenance: reliable, useful — or both?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can classify sources as primary or secondary and explain what each can and can't tell us." (UK NC KS2 history — historical enquiry)
-- **Hook:** A mystery box of 'sources': a coin, a letter, a textbook page, a photograph, a recording of a grandparent, a museum label.
-- **Key activity:** Sort sources; for each, ask: who made it, when, why, and what can it tell us? Introduce oral history and archaeology as types of evidence.
-- **Check for understanding:** "Is a modern textbook about the Vikings a primary or secondary source? Why?" → Secondary: it was written long after the events, using other evidence.
-- **Differentiation:** support: sort with a two-column mat and question prompts / stretch: explain how one object can be primary for one question and useless for another.
-- **Materials:** mystery-box sources (replica coin, letter, photographs, textbook page, audio clip), sorting mats.
-- **Joy:** the mystery-box unboxing.
+- **Objective:** "By the end, I can use who made a source, when and why to judge how reliable and how useful it is for a question." (UK NC KS2 history — historical enquiry; C3 D2.His.10.3-5)
+- **Hook:** Two sources about one school trip: the official newsletter ("a wonderful day") and a pupil's text message ("coach broke down, soaked"). "Which is 'true'?"
+- **Key activity:** Building on Year 4's primary/secondary sort, introduce provenance questions (Who? When? Why? For whom?). Apply to a historical pair: a portrait of Queen Elizabeth I painted to celebrate her (the Armada Portrait, c. 1588) and a foreign ambassador's private report. Sort statements: "reliable about…" / "useful for…".
+- **Check for understanding:** "Can a source that exaggerates still be useful to a historian? Give an example." → Yes: the Armada Portrait exaggerates the queen's power, but it is very useful for showing how she wanted to be seen.
+- **Differentiation:** support: provenance question card with sentence starters / stretch: explain the difference between 'reliable' and 'useful' in your own words with a new example.
+- **Materials:** paired school-trip sources, image of the Armada Portrait, ambassador extract (simplified), sorting cards.
+- **Joy:** "Source detective agency" — each pair receives a case file and must report which source they would trust for which question.
 
-### Lesson 4 — Interpretations: why historians disagree
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain why two accounts of the same event can differ." (UK NC KS2 history — interpretations)
-- **Hook:** Two short accounts of a playground argument from two different witnesses. "Who's right?"
-- **Key activity:** Compare two historical accounts of a Viking raid (a monk's account and a modern historian's); discuss purpose, viewpoint and evidence. Create a class "Source detective checklist" (Who? When? Why? What's missing?) to use all year.
-- **Check for understanding:** "Why might a monk whose monastery was raided describe the Vikings differently from a Viking saga?" → Each had different experiences and purposes: the monk was a victim, the saga celebrated Viking heroes.
-- **Differentiation:** support: a guided comparison table / stretch: find a word in each account that reveals the writer's viewpoint.
-- **Materials:** paired accounts, checklist poster.
-- **Joy:** "Witness statements" drama — act out one event from two viewpoints.
+### Lesson 4 — Can a novel be history? *Journey to Jo'burg* and apartheid
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain how historical fiction differs from a primary source and use sources to check what a novel tells us about the past." (UK NC KS2 history — interpretations; C3 D2.His.4.3-5)
+- **Hook:** "*Journey to Jo'burg* was banned in South Africa when it was published in 1985. Why would a government ban a children's book?"
+- **Key activity:** Linked to the English class text: brief, age-appropriate context on apartheid (1948–1994) — laws that separated people by race, pass laws controlling where Black South Africans could live and work. Pupils compare a scene in the novel with sources (a pass book image, a 'Whites only' sign photograph, a short testimony) and decide what the novel gets right, what it invents and why an author might invent. (How apartheid ended is studied in Year 6.)
+- **Check for understanding:** "The characters in *Journey to Jo'burg* are invented. Can the novel still help us understand apartheid? Explain." → Yes: the people are invented, but the laws, places and experiences match real sources, so it helps us understand how apartheid affected families; we must check it against evidence.
+- **Differentiation:** support: a two-column 'novel says / sources show' table with picture sources / stretch: explain why the South African government saw the book as a threat.
+- **Materials:** *Journey to Jo'burg* (Beverley Naidoo), pass book and signage images, short testimony extract, comparison tables.
+- **Joy:** "Author's desk" — pupils write the author's note Naidoo might have added to explain which parts are true.
 
-**End-of-unit check:** Pupil places five societies on a timeline and map, converts three dates to centuries, and uses the source-detective checklist on an unfamiliar source.
+**End-of-unit check:** Pupil places this year's units on the timeline with correct centuries, and for an unfamiliar source explains who made it, why, and what it is useful for — including one way it may be unreliable.
 
 ---
 
-## Unit 2 — Baghdad and the Islamic Golden Age
+## Unit 2 — The Ottoman Empire, 1453–1600
 
-**Essential question:** Why did Baghdad become one of the world's great centres of learning, and what happened to it?
+**Essential question:** How did the Ottomans build an empire that joined Asia and Europe — and how do we know about it?
 
-**Key vocabulary:** Abbasid, caliph, Baghdad, House of Wisdom, scholar, translation, manuscript, astronomy, algebra, algorithm, hospital, Silk Roads, trade, paper, Mongols, legacy
+**Key vocabulary:** Ottoman, sultan, Constantinople, Istanbul, Byzantine, siege, cannon, empire, Suleiman, law, architect, mosque, coffee house, tulip, map, chronicle
 
-### Lesson 5 — The Round City
+### Lesson 5 — 1453: the fall of Constantinople
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain why Constantinople fell in 1453 and compare two eyewitness accounts." (UK NC KS2 — a non-European society; C3 D2.His.6.3-5)
+- **Hook:** "For over a thousand years the city's walls had never been broken by a cannon. In 1453 a young sultan brought one of the largest guns ever built."
+- **Key activity:** Map Constantinople between two continents; the siege by Sultan Mehmed II (April–May 1453): the giant cannon cast by the engineer Orban, ships dragged overland into the Golden Horn, the fall on 29 May. Compare short extracts from a Venetian eyewitness (the ship's doctor Nicolò Barbaro) and an Ottoman eyewitness (the official Tursun Beg).
+- **Check for understanding:** "Why might Barbaro and Tursun Beg describe the same day so differently?" → Barbaro was on the defending side and saw a disaster; Tursun Beg served the sultan and saw a glorious victory — each wrote for their own people.
+- **Differentiation:** support: a picture sequence of the siege with key words / stretch: explain why the event is described both as 'the end of the Byzantine Empire' and 'the beginning of Ottoman Istanbul'.
+- **Materials:** map of Constantinople and the straits, images of the Theodosian Walls, simplified eyewitness extracts, timeline.
+- **Joy:** "Ships over the hill" — model how the Ottomans rolled ships over greased logs using toy boats and pencils.
+
+### Lesson 6 — Suleiman the Magnificent and a multi-faith empire
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why Baghdad was built where it was and how it was designed." (UK NC KS2 — early Islamic civilisation)
-- **Hook:** Show a reconstruction of Baghdad's circular walls. "Why build a city in a perfect circle?"
-- **Key activity:** Caliph al-Mansur founded Baghdad in AD 762 on the River Tigris, near the Euphrates. Pupils analyse its site on a map (rivers, trade routes, fertile land) and its round design (palace and mosque at the centre, four gates).
-- **Check for understanding:** "Give two reasons why Baghdad's location helped it become rich and powerful." → Rivers for water, farming and transport; position on trade routes between east and west.
-- **Differentiation:** support: a labelled map with guiding questions / stretch: compare Baghdad's site with the site of your own capital city.
-- **Materials:** map of the Middle East, reconstruction images, compasses and rulers for drawing a round city plan.
-- **Joy:** design your own round city with compasses (maths link).
+- **Objective:** "By the end, I can describe how Suleiman (reigned 1520–1566) governed a huge, diverse empire and evaluate his two nicknames." (UK NC KS2 — a non-European society; C3 D2.His.2.3-5)
+- **Hook:** "Europeans called him 'the Magnificent'. His own people called him *Kanuni* — 'the Lawgiver'. Why two different names?"
+- **Key activity:** Map the empire at its height (from Hungary to Iraq and North Africa); how it was governed: written law codes, provinces, and religious communities (Christians and Jews) allowed to keep their own leaders and many of their own courts; Jewish refugees expelled from Spain in 1492 welcomed into Ottoman cities. Mimar Sinan, the architect of the Süleymaniye Mosque (1550s). Discuss: tolerant for its time, but non-Muslims paid an extra tax and were not equal.
+- **Check for understanding:** "Why might the two nicknames tell us about who was describing Suleiman?" → Europeans saw his wealth and military power from outside ('Magnificent'); his subjects experienced his laws and government ('Lawgiver').
+- **Differentiation:** support: nickname cards with evidence to sort / stretch: judge 'How tolerant was the Ottoman Empire?' with evidence on both sides.
+- **Materials:** map of the Ottoman Empire c. 1566, images of the Süleymaniye Mosque, evidence cards.
+- **Joy:** design a dome using Sinan's trick of half-domes, with paper bowls and card.
 
-### Lesson 6 — The House of Wisdom
+### Lesson 7 — Coffee, tulips and trade: Ottoman connections
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe what scholars did in the House of Wisdom and why translation mattered." (UK NC KS2 — early Islamic civilisation)
-- **Hook:** "Imagine a place where scholars translated books from Greek, Persian and Sanskrit into Arabic — and saved ideas that might have been lost."
-- **Key activity:** Stations on scholars and ideas linked to Baghdad: al-Khwarizmi (algebra — from *al-jabr* — and the word 'algorithm' from his name), the Banu Musa brothers (ingenious machines), translation of Greek works such as Euclid; the spread of Indian numerals (our 'Arabic' numerals).
-- **Check for understanding:** "Why do we call our digits 'Hindu–Arabic numerals'?" → They were developed in India and spread to Europe through Arabic-speaking scholars.
-- **Differentiation:** support: station cards with pictures and key facts / stretch: explain why translation helped knowledge grow rather than just survive.
-- **Materials:** station cards, a copy of a manuscript page (image), world map.
-- **Joy:** write your name in Arabic calligraphy style (with a model).
+- **Objective:** "By the end, I can explain how goods and ideas moved between the Ottoman Empire and Europe, using travellers' accounts." (UK NC KS2 — a non-European society; C3 D2.His.14.3-5)
+- **Hook:** "The tulip — symbol of the Netherlands — and the coffee house both reached western Europe from the Ottoman world. How?"
+- **Key activity:** Trace coffee (from Ethiopia and Yemen to Istanbul's coffee houses in the 1550s, then to Venice, London and Vienna) and tulips (from Central Asia through Ottoman gardens to the Netherlands); read a simplified extract from the letters of Ogier Ghiselin de Busbecq, a European ambassador in Istanbul (1550s), and evaluate him as an outsider.
+- **Check for understanding:** "What can an ambassador's letters tell us about the Ottoman Empire, and what might he get wrong?" → He saw the court and city first-hand and noticed things new to Europeans; but he was a foreigner and a diplomat for a rival power, so he may misunderstand or judge unfairly.
+- **Differentiation:** support: a route map with goods to place / stretch: explain why historians say the tulip's journey to Europe is 'not fully known' and what evidence would help.
+- **Materials:** trade-route map, images of Iznik tiles and Ottoman tulip designs, Busbecq extract (simplified), coffee beans to look at and smell.
+- **Joy:** paint an Iznik-style tulip tile (art link).
 
-### Lesson 7 — Paper, trade and the Silk Roads
+### Lesson 8 — How do we know? The Piri Reis map
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how trade along the Silk Roads spread goods and ideas, including papermaking." (UK NC KS2 — early Islamic civilisation)
-- **Hook:** "Paper was invented in China. How did it reach Baghdad — and why did that change learning?"
-- **Key activity:** Trace Silk Road routes; papermaking spread from China into the Islamic world, and paper mills were operating in Baghdad by the late 700s, making books cheaper. Pupils make simple recycled paper.
-- **Check for understanding:** "Why did paper help Baghdad become a centre of learning?" → Paper was cheaper than parchment or papyrus, so many more books could be made and copied.
-- **Differentiation:** support: a trade-route map with goods to place / stretch: list goods and ideas that travelled in each direction and explain why.
-- **Materials:** Silk Road map, trade-good cards, papermaking kit (pulp, screens, sponges).
-- **Joy:** make recycled paper.
+- **Objective:** "By the end, I can analyse an Ottoman map as a source and explain what it reveals about knowledge in 1513." (UK NC KS2 — historical enquiry; C3 D2.His.9.3-5)
+- **Hook:** "An Ottoman admiral drew a map in 1513 that shows the coast of South America — only 21 years after Columbus's first voyage. How did he know?"
+- **Key activity:** Examine the surviving fragment of Piri Reis's world map; read his own notes that he combined about twenty older maps, including one by Columbus; compare with a modern map. Unit review: complete a source-detective sheet and write a short answer to the unit question.
+- **Check for understanding:** "What does the Piri Reis map show about how knowledge travelled in the 1500s?" → News of Columbus's voyages and his maps reached an Ottoman admiral within about twenty years, so knowledge crossed rival empires quickly — through captured or copied maps.
+- **Differentiation:** support: a guided 'see–think–wonder' sheet / stretch: explain why the map is both accurate and inaccurate, and why that is still useful.
+- **Materials:** high-resolution image of the Piri Reis map (Topkapı Palace Library), modern world map, source-detective sheets.
+- **Joy:** "Map makers" — combine three 'secret' partial maps into one, as Piri Reis did.
 
-### Lesson 8 — Medicine, science and inventions
-- **Duration:** 40 min
-- **Objective:** "By the end, I can describe advances in medicine and science in the Islamic world and evaluate their significance." (UK NC KS2 — early Islamic civilisation)
-- **Hook:** "Hospitals with separate wards, free treatment and trained doctors — in the 900s?"
-- **Key activity:** Research carousel: Baghdad's hospitals; Ibn Sina's *Canon of Medicine* (used in European universities for centuries); al-Jazari's water-powered elephant clock (1206); Fatima al-Fihri, who founded al-Qarawiyyin in Fez (859), often described as the world's oldest continuously operating university. Rank their significance with criteria.
-- **Check for understanding:** "What makes an achievement historically 'significant'? Apply your criteria to one example." → e.g. it affected many people, for a long time, and changed later ideas — applied to the *Canon of Medicine*.
-- **Differentiation:** support: significance criteria card with examples / stretch: argue for the most significant achievement in a short paragraph.
-- **Materials:** research cards, significance criteria, images of the elephant clock.
-- **Joy:** build a simple water clock from cups with holes.
-
-### Lesson 9 — The fall of Baghdad, 1258
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain causes and consequences of the Mongol destruction of Baghdad." (UK NC KS2 — cause and consequence)
-- **Hook:** "It is said that the River Tigris ran black with ink from the books thrown into it. Is that a fact, or a story?"
-- **Key activity:** Learn about the Mongol conquest of 1258; sort causes and consequences; discuss the ink story as a later account — how would we check it? What would count as evidence?
-- **Check for understanding:** "Why should historians be careful with the story of the Tigris running black with ink?" → It comes from accounts written after the event and may be exaggerated; it shows how people felt about the loss, but it needs checking against other evidence.
-- **Differentiation:** support: cause/consequence cards to sort / stretch: explain why losing libraries is a special kind of historical loss.
-- **Materials:** timeline, cause/consequence cards, map of the Mongol Empire.
-- **Joy:** "Save the library" — pupils choose which five books to save and justify.
-
-### Lesson 10 — How do we know? Baghdad review
-- **Duration:** 40 min
-- **Objective:** "By the end, I can use sources to explain the legacy of the Islamic Golden Age." (UK NC KS2 — historical enquiry)
-- **Hook:** "Algebra, algorithm, coffee, cotton, sofa — what connects these words?" (They reached English through Arabic.)
-- **Key activity:** Examine sources (a manuscript image, a map, a traveller's account, a museum object); apply the source-detective checklist; write a short explanation of Baghdad's legacy.
-- **Check for understanding:** "What is one piece of evidence that ideas from Baghdad reached Europe? Explain it." → e.g. Latin translations of Arabic books such as Ibn Sina's *Canon*, or words in English from Arabic.
-- **Differentiation:** support: paragraph frame / stretch: evaluate which source is most useful for the question and why.
-- **Materials:** source pack, checklist, paragraph frames.
-- **Joy:** "Word archaeology" — find Arabic-origin words in the dictionary.
-
-**End-of-unit check:** Pupil explains why Baghdad became a centre of learning (location, trade, paper, translation) and evaluates the reliability of one source about its fall.
+**End-of-unit check:** Pupil explains two reasons the Ottoman Empire became powerful, compares two accounts of 1453, and evaluates one source (the Piri Reis map or Busbecq's letters) for usefulness.
 
 ---
 
-## Unit 3 — The Maya
+## Unit 3 — The Renaissance and the printing revolution
 
-**Essential question:** How did the Maya build great cities in the rainforest, and how have we learned to read their story?
+**Essential question:** Was the Renaissance really a 'rebirth' — and who invented printing?
 
-**Key vocabulary:** Maya, Mesoamerica, city-state, pyramid, temple, glyph, codex, Long Count, zero, astronomy, maize, ball game, decline, decipherment, descendants
+**Key vocabulary:** Renaissance, rebirth, patron, humanism, perspective, Florence, Medici, printing press, movable type, woodblock, pamphlet, Reformation, astronomy, telescope, heliocentric
 
-### Lesson 11 — Cities in the rainforest
+### Lesson 9 — Who invented printing?
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain how printing developed in China, Korea and Germany and why Gutenberg's press changed Europe so quickly." (UK NC KS2 — beyond 1066; C3 D2.His.14.3-5)
+- **Hook:** "Most European textbooks say Gutenberg invented printing around 1450. But the oldest dated printed book is Chinese, from 868. Who deserves the credit?"
+- **Key activity:** Timeline of printing: the *Diamond Sutra* (China, 868, woodblock); Bi Sheng's movable clay type (China, 1040s); the *Jikji* (Korea, 1377, the oldest surviving book printed with metal movable type); Gutenberg's press with metal type and oil-based ink (Mainz, c. 1450; the Gutenberg Bible, c. 1455). Print with potato or foam letters to feel why an alphabet of 26 letters suited movable type better than thousands of Chinese characters.
+- **Check for understanding:** "Why did movable type spread so fast in Europe but less in China, even though China invented it first?" → European alphabets need only a few dozen letters, so type was quick to set and reuse; Chinese writing uses thousands of characters, so woodblocks were often more practical.
+- **Differentiation:** support: a picture timeline and matching cards / stretch: write a fair 'credits' statement for the invention of printing.
+- **Materials:** foam or potato letter stamps, ink pads, images of the *Diamond Sutra*, *Jikji* and the Gutenberg Bible, world map.
+- **Joy:** print a class 'broadsheet' using movable letters.
+
+### Lesson 10 — Renaissance Florence: why there, why then?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can locate the Maya world and describe features of a Classic Maya city." (UK NC KS2 — non-European society: the Maya)
-- **Hook:** Show a lidar image revealing hidden Maya structures beneath the forest. "How can we find a city we can't see?"
-- **Key activity:** Map the Maya area (southern Mexico, Guatemala, Belize, parts of Honduras and El Salvador). Explore Tikal and Palenque: pyramids, plazas, ball courts, reservoirs. Classic period roughly AD 250–900.
-- **Check for understanding:** "What problems would building a city in a rainforest create, and how did the Maya solve one of them?" → e.g. storing water in the dry season — they built reservoirs and plastered plazas to collect rain.
-- **Differentiation:** support: labelled city plan / stretch: explain how lidar helps archaeologists and what it can't show.
-- **Materials:** map, images of Tikal and Palenque, lidar images, city plan.
-- **Joy:** build a Maya pyramid from cardboard boxes.
+- **Objective:** "By the end, I can explain the causes of the Renaissance in Florence, including links to scholarship from the Islamic world and Byzantium." (UK NC KS2 — beyond 1066; C3 D2.His.14.3-5)
+- **Hook:** "Brunelleschi built the largest brick dome in the world in Florence (finished 1436) — and nobody is completely sure how he did it without a wooden frame underneath."
+- **Key activity:** Causes card sort: wealth from banking and trade (the Medici as patrons), rediscovered ancient Greek and Roman texts (many preserved and studied in Baghdad and Byzantium — retrieve Year 4), Greek scholars arriving after 1453 (link to Lesson 5), printing, competition between cities. Examine works by Leonardo da Vinci and Michelangelo; try one-point perspective drawing.
+- **Check for understanding:** "Why is it inaccurate to say the Renaissance was only a European achievement?" → It depended on knowledge preserved and developed by scholars in the Islamic world and Byzantium, and on trade with Asia and Africa that made Italian cities rich.
+- **Differentiation:** support: cause cards with pictures / stretch: rank the causes and justify the most important one.
+- **Materials:** cause cards, images of Florence Cathedral dome, Leonardo's notebooks and Michelangelo's *David*, rulers and paper for perspective.
+- **Joy:** draw a one-point perspective corridor that 'goes on forever'.
 
-### Lesson 12 — Maya maths and the calendar
+### Lesson 11 — A new view of the heavens: Copernicus and Galileo
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain Maya achievements in mathematics and astronomy and why they matter." (UK NC KS2 — the Maya)
-- **Hook:** "The Maya used a symbol for zero centuries before it was used in Europe." (Maths link: Lesson 8 in maths.)
-- **Key activity:** Use Maya numerals (dots, bars, shell) to write numbers; explore the Long Count calendar and how the Maya tracked Venus; discuss the 2012 'end of the world' myth as a misunderstanding of the calendar.
-- **Check for understanding:** "Why did the Maya calendar NOT predict the end of the world in 2012?" → 2012 was the end of a large cycle of the Long Count — like a car's mileage counter rolling over — not an ending.
-- **Differentiation:** support: numeral key card / stretch: explain how the Maya Long Count is a place-value system.
-- **Materials:** Maya numeral cards, beans and sticks, calendar diagrams.
-- **Joy:** write your birthday in Maya numerals.
+- **Objective:** "By the end, I can explain how observations challenged old ideas about the universe and why that caused conflict." (UK NC KS2 — beyond 1066; C3 D2.His.3.3-5)
+- **Hook:** "In 1610 Galileo pointed a home-made telescope at Jupiter and saw four 'stars' moving around it. Why did that sight get him into trouble?"
+- **Key activity:** The Earth-centred model; Copernicus's Sun-centred model (1543); Galileo's observations of Jupiter's moons and the phases of Venus (1609–1610) and his trial (1633). Connect to earlier astronomers such as Ulugh Beg's observatory in Samarkand (1420s). Pupils model both systems with lamps and balls.
+- **Check for understanding:** "Why was seeing moons orbit Jupiter strong evidence against the idea that everything circles the Earth?" → It showed at least some objects orbit something other than the Earth, so the Earth could not be the centre of all motion.
+- **Differentiation:** support: a two-model picture comparison / stretch: explain why new evidence doesn't always change people's minds quickly.
+- **Materials:** lamp, balls, images of Galileo's sketches of Jupiter's moons, timeline.
+- **Joy:** "Galileo's notebook" — sketch the positions of Jupiter's moons from real observation images over four nights.
 
-### Lesson 13 — Reading the glyphs: how do we know?
+### Lesson 12 — Printing changes the world: pamphlets and the Reformation
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Maya writing was deciphered and why so few Maya books survive." (UK NC KS2 — historical enquiry)
-- **Hook:** "Only four Maya books (codices) are known to survive. What happened to the rest?"
-- **Key activity:** Learn how Spanish officials such as Bishop Diego de Landa burned Maya books in 1562; how 20th-century scholars (including Yuri Knorozov and Tatiana Proskouriakoff) cracked the glyphs from inscriptions on stone. Pupils decode a simplified glyph message.
-- **Check for understanding:** "Why are stone inscriptions such important sources for the Maya?" → Most books were destroyed; stone survived, recording names, dates and events of rulers.
-- **Differentiation:** support: a glyph key with pictures / stretch: discuss whose story stone inscriptions tell (mostly rulers) and whose is missing.
-- **Materials:** glyph decoding sheets, images of the Dresden Codex and stelae.
-- **Joy:** carve your own name glyph into clay.
+- **Objective:** "By the end, I can explain how printing helped new ideas spread rapidly, using the Reformation as an example." (UK NC KS2 — beyond 1066; C3 D2.His.14.3-5)
+- **Hook:** "In 1517 a monk named Martin Luther wrote ninety-five arguments. Within months they had been read across Europe. Before printing, how long might that have taken?"
+- **Key activity:** Explain simply and neutrally: Luther's criticisms of the Catholic Church; printed pamphlets and woodcut images spreading them; Europe dividing into Catholic and Protestant churches; conflicts that followed. Pupils model the spread: one 'scribe' copying by hand vs a 'press' team.
+- **Check for understanding:** "Explain one way printing was a cause of the Reformation spreading, and one consequence of the spread." → Printed pamphlets carried Luther's ideas to thousands quickly and cheaply; Europe split into different churches, which led to religious wars.
+- **Differentiation:** support: cause–consequence arrows with picture prompts / stretch: compare the speed of printing's spread of ideas with social media today — similarities and differences.
+- **Materials:** timeline, images of printed pamphlets and woodcuts, copying-race materials.
+- **Joy:** the 'scribe vs press' race.
 
-### Lesson 14 — Daily life, maize and the ball game
-- **Duration:** 40 min
-- **Objective:** "By the end, I can describe everyday Maya life and compare it with life in another society we have studied." (UK NC KS2 — the Maya)
-- **Hook:** "The Maya believed humans were made from maize. Why might maize be so important to them?"
-- **Key activity:** Explore farming (maize, beans, squash), chocolate (cacao), the ball game (players hit a heavy rubber ball with hips) and family life. Compare with Baghdad in a Venn diagram.
-- **Check for understanding:** "Give one similarity and one difference between life in Maya cities and in Abbasid Baghdad." → e.g. both had great cities and advanced astronomy; the Maya had no wheeled transport or large domesticated animals, while Baghdad used camels and ships for trade.
-- **Differentiation:** support: Venn diagram with statement cards / stretch: explain why comparing societies helps historians avoid calling one 'more advanced'.
-- **Materials:** images, cacao beans (to look at), Venn diagrams, rubber ball.
-- **Joy:** a (safe, gentle) hip-ball game in the playground.
+### Lesson 13 — Unit enquiry: a 'rebirth' — for whom?
+- **Duration:** 45 min
+- **Objective:** "By the end, I can evaluate the interpretation that the Renaissance was a 'rebirth', using evidence and considering whose voices are missing." (UK NC KS2 — interpretations; C3 D2.His.4.3-5)
+- **Hook:** "In 1492 the abbot Johannes Trithemius wrote *In Praise of Scribes*, warning that printed books would never last like handwritten ones — and then had it printed. What does that tell us?"
+- **Key activity:** Weigh evidence for 'rebirth' (art, science, printing) and against (much continued from the Middle Ages; knowledge came from elsewhere; most people's lives barely changed). Study women who succeeded despite barriers: the painters Sofonisba Anguissola and Artemisia Gentileschi. Write a short judgement.
+- **Check for understanding:** "Give one piece of evidence for and one against calling this period a 'rebirth', and say which is stronger for you and why." → e.g. For: new art and science; against: ideas built on medieval and Islamic scholarship and most farmers' lives did not change — with a reasoned choice.
+- **Differentiation:** support: a paragraph frame and evidence bank / stretch: explain how the word 'Renaissance' itself is an interpretation, invented by later historians.
+- **Materials:** evidence cards, images of Anguissola's and Gentileschi's paintings, writing frames; links to *The Tempest* in English (Shakespeare's world, 1611).
+- **Joy:** "Renaissance salon" — pupils present their judgement in role as a Renaissance figure.
 
-### Lesson 15 — Did the Maya disappear?
-- **Duration:** 40 min
-- **Objective:** "By the end, I can weigh evidence for different explanations of the decline of Classic Maya cities and explain that the Maya did not disappear." (UK NC KS2 — interpretations)
-- **Hook:** "Headline: 'The Mysterious Disappearance of the Maya.' What's wrong with it?"
-- **Key activity:** Evidence cards for explanations of the Classic-period decline around AD 800–900 (drought evidence from lake sediments, warfare, overpopulation, deforestation). Emphasise that millions of Maya people live in the region today and speak Mayan languages.
-- **Check for understanding:** "Why is 'the Maya disappeared' a misleading statement?" → Many cities in the southern lowlands were abandoned, but the Maya people continued — later cities flourished and millions of Maya live there today.
-- **Differentiation:** support: evidence cards with guiding questions / stretch: write a short paragraph arguing for the most likely combination of causes.
-- **Materials:** evidence cards, modern photographs of Maya communities.
-- **Joy:** "Headline fixers" — rewrite the misleading headline.
-
-**End-of-unit check:** Pupil describes two Maya achievements, explains how we know about the Maya (inscriptions, codices, archaeology, lidar), and corrects the "disappearance" myth with evidence.
+**End-of-unit check:** Pupil explains the development of printing across Asia and Europe, gives two causes of the Renaissance, and writes a short evidence-based judgement on 'rebirth'.
 
 ---
 
-## Unit 4 — West African kingdoms: Mali and Benin
+## Unit 4 — The transatlantic slave trade and resistance
 
-**Essential question:** What made the kingdoms of Mali and Benin rich and powerful, and why were their stories long ignored in Europe?
+**Essential question:** How did millions of Africans come to be enslaved in the Americas — and how did they resist?
 
-**Key vocabulary:** empire, kingdom, mansa, oba, griot, oral tradition, Sahara, trans-Saharan trade, caravan, gold, salt, Timbuktu, manuscript, Benin Bronzes, restitution, museum
+**Key vocabulary:** enslaved person, enslaver, Kingdom of Kongo, Ndongo, trade, triangular trade, Middle Passage, plantation, sugar, resistance, rebellion, Maroon, Palmares, legacy, remembrance
 
-### Lesson 16 — Gold, salt and the Sahara
+### Lesson 14 — West-Central Africa before the trade: Kongo and Ndongo
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how trans-Saharan trade made West African kingdoms rich." (UK NC KS2 — non-European society)
-- **Hook:** "Would you trade a bag of gold for a bag of salt? In medieval West Africa, salt was precious."
-- **Key activity:** Trade simulation: groups represent gold-rich regions, salt mines and merchants with camel caravans; negotiate trades. Map the routes across the Sahara.
-- **Check for understanding:** "Why was salt so valuable in West Africa?" → It was needed to preserve food and for health in a hot climate, and there was little of it locally — it came across the Sahara.
-- **Differentiation:** support: a simplified trade-route map / stretch: explain how controlling trade routes gave kings power.
-- **Materials:** trade cards (gold, salt, cloth, books), map of West Africa and the Sahara.
-- **Joy:** the trade simulation market.
+- **Objective:** "By the end, I can describe African kingdoms that traded with Europeans and explain that African rulers and peoples responded in different ways." (UK NC KS2 — a non-European society; C3 D2.His.1.3-5)
+- **Hook:** "In 1526 King Afonso I of Kongo wrote to the King of Portugal complaining that his people were being kidnapped every day. What does this letter tell us?"
+- **Key activity:** Retrieve Year 4's Benin; map the Kingdom of Kongo and Ndongo; read an extract of Afonso's letter (1526) as a primary source; learn about Queen Nzinga of Ndongo and Matamba (c. 1583–1663), who fought and negotiated with the Portuguese for decades. Discuss honestly that some African rulers and merchants also sold captives, while others resisted.
+- **Check for understanding:** "Why is Afonso's letter important evidence for historians?" → It is an African ruler's own voice from the time, showing that the trade was seen as harmful and resisted from the start — not only described by Europeans.
+- **Differentiation:** support: a guided reading of the letter with a glossary / stretch: explain why the history of the trade is more complicated than 'Europeans vs Africans' while still being clear about who gained most.
+- **Materials:** map of West-Central Africa, simplified extract of Afonso's letter, images and portrait of Nzinga, timeline.
+- **Joy:** "Nzinga's council" — pupils advise the queen on a negotiation, as her councillors might have.
 
-### Lesson 17 — Sundiata and the griots
+### Lesson 15 — The triangular trade: how did it work?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what oral tradition is and how historians use it as evidence." (UK NC KS2 — historical enquiry)
-- **Hook:** "For centuries, the story of Sundiata Keita, founder of the Mali Empire, was passed on by griots — without being written down. Can we trust it?"
-- **Key activity:** Hear a retelling of the Epic of Sundiata (founder of Mali, around 1235). Discuss griots as historians, musicians and advisers. Play a game of "whispers" and then a trained-memory game to compare how accurately stories can be passed on.
-- **Check for understanding:** "What are one strength and one weakness of oral tradition as historical evidence?" → Strength: preserves the community's own voice and memory; weakness: details can change over generations, so it needs comparing with other evidence.
-- **Differentiation:** support: a picture storyboard of the epic / stretch: compare oral tradition with written chronicles written by outsiders.
-- **Materials:** a children's retelling of the Epic of Sundiata, recording of a kora (the griot's harp-lute).
-- **Joy:** listen to kora music and retell a scene as a griot.
+- **Objective:** "By the end, I can explain the triangular trade and its scale using data, and who profited from it." (UK NC KS2 — beyond 1066; C3 D2.His.14.3-5)
+- **Hook:** "Between about 1500 and 1866, around 12.5 million Africans were forced onto ships. How do historians know that number?"
+- **Key activity:** Draw the three sides of the trade on a map (manufactured goods from Europe to Africa; captive Africans to the Americas; sugar, cotton, tobacco and coffee to Europe); use simplified data from the Trans-Atlantic Slave Trade Database (SlaveVoyages) — about 12.5 million embarked, about 10.7 million survived the crossing; most were taken to Brazil and the Caribbean. Identify who profited (ship-owners, merchants, plantation owners, banks and ports in several European countries).
+- **Check for understanding:** "Why are the records of ships' voyages useful but also limited as evidence?" → They give numbers, dates and routes across thousands of voyages, but they were made by traders and tell us almost nothing about the enslaved people's names, feelings or lives.
+- **Differentiation:** support: a labelled map and simplified bar chart / stretch: calculate the difference between those embarked and those who arrived and explain what it means.
+- **Materials:** world map, arrows and goods cards, simplified SlaveVoyages charts (slavevoyages.org), calculators.
+- **Joy:** "Data detectives" — find the pattern in the chart (maths link), approached with seriousness rather than as a game.
 
-### Lesson 18 — Mansa Musa and Timbuktu
+### Lesson 16 — The Middle Passage: sources and silences
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain what the Middle Passage was and evaluate the famous *Brookes* ship diagram as a source." (UK NC KS2 — historical enquiry; C3 D2.His.10.3-5)
+- **Hook:** "This diagram of a ship packed with people was printed in 1788. Who made it, and why did they want the public to see it?"
+- **Key activity:** Teacher-led, sensitively: the crossing of the Atlantic (weeks in terrible conditions; many died; people resisted, including by revolt on board). Analyse the *Brookes* diagram: made by abolitionists in Plymouth and London to shock the public — accurate in its measurements but also a campaign image. Discuss what it shows and what it silences (names, families, courage). No re-enactment.
+- **Check for understanding:** "The *Brookes* diagram was made by people campaigning to end the trade. Does that make it unreliable? Explain." → It was made to persuade, but it was based on the ship's real measurements; it is reliable about the crowding and very useful for showing how abolitionists campaigned — though it shows people as objects, not as individuals.
+- **Differentiation:** support: guided questions on the diagram / stretch: suggest what sources historians could use to recover the voices the diagram leaves out.
+- **Materials:** image of the *Brookes* diagram (1788), map of the Atlantic, discussion prompts. **Parent note:** send home a summary before this lesson.
+- **Joy:** (Sensitive lesson) — end with a quiet 'names remembered' moment, reading aloud names recorded in the African Names Database (slavevoyages.org).
+
+### Lesson 17 — Plantations, sugar and survival of culture
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why Mansa Musa became famous far beyond Africa and why Timbuktu was a centre of learning." (UK NC KS2 — non-European society)
-- **Hook:** Show the Catalan Atlas (1375) with Mansa Musa holding a golden nugget. "Why would a European mapmaker draw an African king?"
-- **Key activity:** Learn about Mansa Musa's pilgrimage to Mecca (1324), when he gave away so much gold in Cairo that its value fell; Timbuktu's mosques and scholars; the Timbuktu manuscripts saved by families and librarians, including during the 2012–13 conflict.
-- **Check for understanding:** "What does the Catalan Atlas tell us about how Europeans saw Mali in the 1300s?" → They knew of Mali's great wealth — the king is shown with gold — so Mali was famous across the Mediterranean world.
-- **Differentiation:** support: a picture sequence of the pilgrimage / stretch: explain why the Timbuktu manuscripts are an important primary source for African history.
-- **Materials:** image of the Catalan Atlas, map, images of Timbuktu's Djinguereber Mosque and manuscripts.
-- **Joy:** design a page of an illuminated 'Timbuktu manuscript'.
+- **Objective:** "By the end, I can describe plantation slavery in the Caribbean and Brazil and explain how enslaved people kept their cultures alive." (UK NC KS2 — beyond 1066; C3 D2.His.2.3-5)
+- **Hook:** "Sugar was once a luxury. By the 1700s many European families put it in their tea every day. Where did it come from, and at what cost?"
+- **Key activity:** Follow sugar from a Caribbean or Brazilian plantation to a European teacup; conditions of forced labour (described factually, without graphic detail). Then culture as survival: music and dance (drumming, the roots of samba and calypso), languages (creoles), foods, stories (Anansi tales from the Akan people), faiths (Candomblé in Brazil).
+- **Check for understanding:** "Why can keeping music, stories and language be called a form of resistance?" → Enslavers tried to erase people's identities; keeping their cultures alive preserved dignity and community and passed identity to the next generation.
+- **Differentiation:** support: a picture journey of sugar with captions / stretch: explain how the sugar trade connected consumers in Europe to slavery in the Americas.
+- **Materials:** map of the Caribbean and Brazil, images, an Anansi story, a recording of Afro-Brazilian or Caribbean music.
+- **Joy:** retell an Anansi trickster story in groups.
 
-### Lesson 19 — The Kingdom of Benin
+### Lesson 18 — Resistance and rebellion: Maroons and Palmares
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe the Kingdom of Benin, its obas, city and craftworkers." (UK NC KS2 — non-European society: Benin)
-- **Hook:** "This kingdom — in today's Nigeria, not the modern country of Benin — had a walled city and royal artists who made plaques from brass and bronze."
-- **Key activity:** Explore Benin City, the oba (king), the guilds of craftworkers, the city's walls and earthworks, and trade with Portuguese merchants from the late 1400s. Analyse a Benin plaque as a source: what does it show about life at court?
-- **Check for understanding:** "What can a Benin plaque tell a historian, and what can't it tell us?" → It shows court life, dress, weapons and even Portuguese visitors; it can't tell us about ordinary people's daily lives or the artist's thoughts.
-- **Differentiation:** support: a guided 'see–think–wonder' sheet / stretch: compare what the plaques show with what Portuguese written accounts say.
-- **Materials:** museum images of Benin plaques and heads, map of Nigeria.
-- **Joy:** make a clay relief plaque showing your own "court".
+- **Objective:** "By the end, I can describe different forms of resistance by enslaved people and explain their significance." (UK NC KS2 — beyond 1066; C3 D2.His.3.3-5)
+- **Hook:** "For almost a century, a free community of escaped people in the hills of Brazil resisted every army sent against it. What was Palmares?"
+- **Key activity:** Resistance on a spectrum: everyday resistance (working slowly, keeping culture), escape, and armed rebellion. Case studies: Palmares in Brazil (c. 1600s–1694) and its leader Zumbi, remembered on Brazil's Black Consciousness Day (20 November); Nanny of the Maroons, who led free communities in Jamaica's mountains in the 1700s and is a National Hero of Jamaica. (The Haitian Revolution is studied in Year 6.)
+- **Check for understanding:** "Why is it wrong to say that enslaved people simply accepted slavery?" → They resisted constantly in many ways — from keeping their cultures to escaping and fighting — and built free communities like Palmares and the Maroon towns.
+- **Differentiation:** support: resistance cards to place on a spectrum / stretch: argue which form of resistance was most significant, using criteria.
+- **Materials:** map of Brazil and Jamaica, case-study cards, images of memorials to Zumbi and Nanny.
+- **Joy:** design a memorial to a resistance leader, with an inscription.
 
-### Lesson 20 — The Benin Bronzes: who should own them?
+### Lesson 19 — How do we know? Whose voices are in the archive?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what happened to the Benin Bronzes in 1897 and discuss arguments about returning them." (UK NC KS2 — interpretations / citizenship link)
-- **Hook:** "Thousands of objects taken from Benin City in 1897 are in museums around the world. Where should they be?"
-- **Key activity:** Learn about the British military expedition of 1897, which looted the royal palace. Examine current debates: several museums and governments have agreed to return objects to Nigeria. Structured discussion using evidence.
-- **Check for understanding:** "Give one argument for returning the Benin Bronzes and one argument that some museums have made against it." → For: they were taken by force and belong to the people of Benin/Nigeria; against (argued by some museums): they are seen by many visitors or are legally owned — pupils must present fairly.
-- **Differentiation:** support: argument cards to sort / stretch: write a letter to a museum director with your view and reasons.
-- **Materials:** information sheets, news extracts about returns (teacher-selected, up to date).
-- **Joy:** "Museum council" role-play.
+- **Objective:** "By the end, I can explain why most records of slavery were made by enslavers and how historians recover enslaved people's voices." (UK NC KS2 — historical enquiry; C3 D2.His.10.3-5)
+- **Hook:** "A plantation record lists a woman's price but not her name. How can a historian find her story?"
+- **Key activity:** Sort sources by who made them: ship logs, plantation account books, advertisements for escaped people (which, read carefully, reveal skills, languages and courage), court records, and the few autobiographies and testimonies of formerly enslaved people (in Year 6 pupils read Olaudah Equiano and Frederick Douglass); archaeology of enslaved people's homes; oral traditions.
+- **Check for understanding:** "How can a notice written by an enslaver about someone who escaped tell us something about the escaped person?" → Read 'against the grain', it reveals the person's skills, languages, appearance and determination to be free — facts the writer included for his own purposes.
+- **Differentiation:** support: a source sort with 'who made it?' prompts / stretch: explain what 'reading against the grain' means with a new example.
+- **Materials:** simplified source pack, sorting mats, source-detective checklist.
+- **Joy:** "Historian's reconstruction" — build a respectful profile of one real person from three scraps of evidence.
 
-### Lesson 21 — How do we know? Why were these stories ignored?
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain why African history was often ignored in European accounts and how historians use many kinds of evidence to tell it." (UK NC KS2 — interpretations)
-- **Hook:** "An old European book once claimed that Africa 'had no history'. What evidence from this unit proves that wrong?"
-- **Key activity:** Gather evidence types used in this unit (oral tradition, manuscripts, maps, art, archaeology, travellers' accounts such as Ibn Battuta's). Pupils write an evidence-based paragraph answering the unit question.
-- **Check for understanding:** "Name three kinds of evidence that show West African kingdoms had rich histories." → e.g. the Timbuktu manuscripts, Benin plaques, oral epics, the Catalan Atlas, Ibn Battuta's account.
-- **Differentiation:** support: paragraph frame / stretch: explain how prejudice can affect how history is written.
-- **Materials:** unit sources, paragraph frames.
-- **Joy:** add West Africa's achievements to the class timeline with illustrations.
+### Lesson 20 — Legacies and remembrance
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain some legacies of the transatlantic slave trade and how countries remember it today." (UK NC KS2 — beyond 1066; C3 D2.His.2.3-5)
+- **Hook:** "Every 25 March the United Nations remembers the victims of slavery and the transatlantic slave trade. Why remember something that ended so long ago?"
+- **Key activity:** Legacies: African diaspora communities and cultures across the Americas and Europe; wealth built in port cities; racism used to justify slavery that outlasted it. Remembrance: Cape Coast Castle (Ghana), the House of Slaves on Gorée Island (Senegal — note that historians debate how many captives left from Gorée itself), the UN's *Ark of Return* memorial (2015), and museums in Liverpool and Rio de Janeiro. Unit mastery task.
+- **Check for understanding:** "Why do historians debate the numbers who left from Gorée, even though it is an important memorial?" → Memorials can stand for a bigger history than one building's records show; historians check claims against evidence while still respecting a place of memory.
+- **Differentiation:** support: a legacy card sort with images / stretch: write a short paragraph on 'Why should we remember the transatlantic slave trade?' using evidence from the unit.
+- **Materials:** images of memorials, map, mastery-task sheet.
+- **Joy:** design a class remembrance display for 25 March.
 
-**End-of-unit check:** Pupil explains the importance of trans-Saharan trade, describes Mansa Musa and Benin with evidence, and evaluates oral tradition as a source.
+**End-of-unit check:** Pupil explains how the trade worked and its scale, gives two forms of resistance with examples, and evaluates one source (the *Brookes* diagram, a ship record or Afonso's letter) for usefulness.
 
 ---
 
-## Unit 5 — The Vikings: raiders, traders, explorers
+## Unit 5 — Taking to the skies: the history of flight
 
-**Essential question:** Were the Vikings just raiders — and how far did their world reach?
+**Essential question:** Who really flew first — and how did flight change the world in one lifetime?
 
-**Key vocabulary:** Viking, Norse, Scandinavia, raid, monastery, longship, trade, silver, dirham, settlement, saga, rune, runestone, Vinland, archaeology, myth
+**Key vocabulary:** balloon, glider, powered flight, aviator, pilot's licence, record, jet, airliner, claim, evidence, significance
 
-### Lesson 22 — The raid on Lindisfarne, 793
+### Lesson 21 — Who flew first? Wright vs Santos-Dumont
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain why the USA and Brazil credit different people with the first aeroplane flight and weigh the evidence." (UK NC KS2 — a theme beyond 1066; C3 D2.His.4.3-5)
+- **Hook:** "Ask in the USA and you'll hear 'the Wright brothers, 1903'. Ask in Brazil and you'll hear 'Alberto Santos-Dumont, 1906'. Can both be right?"
+- **Key activity:** Earlier dreams (Abbas ibn Firnas's reported glide in Córdoba in the 800s, known only from much later accounts; the Montgolfier brothers' crewed balloon, Paris, 1783). Then the evidence: the Wright Flyer's 12-second flight at Kitty Hawk on 17 December 1903 (a photograph, few witnesses, launched from a rail into a headwind) vs Santos-Dumont's *14-bis* flights in Paris in 1906 (public, officially measured, taking off on its own wheels). Pupils build a two-column evidence table and decide.
+- **Check for understanding:** "Why do people in different countries give different answers to 'who flew first?'" → They use different definitions (any powered, controlled flight vs a public, officially witnessed take-off on its own wheels) and national pride shapes which story is told.
+- **Differentiation:** support: an evidence table with picture cards / stretch: write a definition of 'first flight' that you think is fair and apply it.
+- **Materials:** photograph of the 1903 flight, images of the *14-bis*, evidence cards, world map.
+- **Joy:** paper-glider design test — whose glider flies furthest, and how should we measure 'best'?
+
+### Lesson 22 — Pioneers of the air
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why the Viking raid on Lindisfarne shocked people, using a primary source." (UK NC KS2 — the Vikings)
-- **Hook:** Read a short extract of a letter by the scholar Alcuin reacting to the attack on Lindisfarne in 793.
-- **Key activity:** Discuss why monasteries were targets (wealth, undefended, near the coast); apply the source-detective checklist to Alcuin's letter.
-- **Check for understanding:** "Why might Alcuin's description of the raid be one-sided?" → He was a Christian scholar writing about an attack on a monastery, so he saw the Vikings as punishment and enemies; he did not see their side.
-- **Differentiation:** support: a simplified version of the letter with questions / stretch: compare Alcuin's reaction with how a Viking might have described the raid.
-- **Materials:** source extract, map of the North Sea, images of Lindisfarne.
-- **Joy:** "Monastery lookout" drama — spot the longships.
+- **Objective:** "By the end, I can describe the achievements of aviation pioneers from different backgrounds and the barriers they faced." (UK NC KS2 — significant individuals; C3 D2.His.3.3-5)
+- **Hook:** "No flight school in the USA would teach Bessie Coleman because she was a Black woman. So she learned French and went to France."
+- **Key activity:** Research carousel: Bessie Coleman (the first African American woman to earn an international pilot's licence, 1921); Amy Johnson (first woman to fly solo from England to Australia, 1930); Amelia Earhart (first woman to fly solo across the Atlantic, 1932); and a pioneer from the pupils' own region where possible. Compare barriers and achievements.
+- **Check for understanding:** "What barriers did Bessie Coleman face, and why does her story matter beyond aviation?" → She faced racism and sexism that closed US flight schools to her; she overcame them by training abroad, showing how prejudice wastes talent and inspiring others.
+- **Differentiation:** support: fact cards with key dates and pictures / stretch: compare two pioneers' barriers and explain the difference.
+- **Materials:** research cards, world map for routes, images.
+- **Joy:** plot Amy Johnson's route to Australia on a map and calculate its length with the map scale (maths link).
 
-### Lesson 23 — Longships and journeys
+### Lesson 23 — How flight changed the world
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Viking ship technology allowed them to travel so widely." (UK NC KS2 — the Vikings)
-- **Hook:** "A ship that could cross oceans and also sail up shallow rivers. How?"
-- **Key activity:** Examine the Oseberg or Gokstad ship finds (Norway); features: shallow draught, clinker-built hull, sail and oars. Map Viking journeys: to Britain and Ireland, Iceland, Greenland, down Russian rivers to the Black Sea and Constantinople.
-- **Check for understanding:** "Why was a shallow-bottomed ship an advantage for raids and trade?" → It could land on beaches and sail up rivers far inland.
-- **Differentiation:** support: labelled longship diagram / stretch: calculate the distance from Norway to Newfoundland using a map scale (maths link).
-- **Materials:** longship images and models, world map, string and rulers.
-- **Joy:** build and float mini longships in a water tray.
+- **Objective:** "By the end, I can judge the significance of flight using criteria, considering benefits and costs." (UK NC KS2 — significance; C3 D2.His.2.3-5)
+- **Hook:** "The first flight lasted 12 seconds in 1903. In 1969 — 66 years later — humans walked on the Moon. What happened in between?"
+- **Key activity:** Timeline from the Wright Flyer to the first jet airliner service (the de Havilland Comet, 1952) and the Boeing 747 (1970); consequences cards: travel and tourism, migration, trade, the use of aircraft in war, and climate impact. Rank using simple significance criteria (how many people affected, how deeply, for how long).
+- **Check for understanding:** "Give one way flight changed ordinary people's lives, and one cost it brought." → e.g. families could migrate or visit across the world in a day; aircraft were used to bomb cities in war / flying adds to climate change.
+- **Differentiation:** support: consequence cards sorted into benefits and costs / stretch: argue whether flight is more significant than the printing press, using the same criteria.
+- **Materials:** timeline cards, consequence cards, criteria card.
+- **Joy:** "Then and now" — plan a journey across the world in 1900 and today.
 
-### Lesson 24 — Traders: from Baghdad silver to Birka
-- **Duration:** 40 min
-- **Objective:** "By the end, I can use archaeological evidence to show the Vikings were traders connected to distant places." (UK NC KS2 — the Vikings; connections)
-- **Hook:** "Why have archaeologists found thousands of Arab silver coins (dirhams) buried in Scandinavia?"
-- **Key activity:** Examine evidence: silver hoards with dirhams, a Buddha figure found at Helgö in Sweden, trading towns such as Birka and Hedeby, and the Arab traveller Ibn Fadlan's account (921–922) of meeting the Rus on the Volga. Connect back to Baghdad on the timeline.
-- **Check for understanding:** "What does a hoard of Arab silver coins in Sweden suggest about the Viking world?" → Vikings traded (or raided) along routes that connected them with the Islamic world, far to the south-east.
-- **Differentiation:** support: object cards with 'what it tells us' prompts / stretch: evaluate Ibn Fadlan's account as a source — what might an outsider notice or misunderstand?
-- **Materials:** images of hoards and objects, trade map, Ibn Fadlan extract (simplified).
-- **Joy:** "Viking trade fair" — trade objects between distant places.
-
-### Lesson 25 — Vinland: Vikings in North America
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how archaeology confirmed the sagas' stories of Vikings reaching North America." (UK NC KS2 — historical enquiry)
-- **Hook:** "The sagas said Leif Erikson sailed west to a place called Vinland around the year 1000. For centuries many people thought it was just a story."
-- **Key activity:** Compare the saga account with the archaeological site at L'Anse aux Meadows in Newfoundland (discovered in the 1960s by Helge and Anne Stine Ingstad). What does each source contribute?
-- **Check for understanding:** "How did archaeology change historians' view of the Vinland sagas?" → The Norse site at L'Anse aux Meadows provided physical evidence that Vikings really reached North America, supporting parts of the sagas.
-- **Differentiation:** support: a two-column 'saga says / archaeology shows' table / stretch: explain why it is important that Indigenous peoples already lived in North America (the Norse met people they called Skrælings).
-- **Materials:** saga extract, images of L'Anse aux Meadows, map of the North Atlantic.
-- **Joy:** "Saga storytelling" — retell the voyage with actions.
-
-### Lesson 26 — Myth-busting the Vikings
-- **Duration:** 40 min
-- **Objective:** "By the end, I can challenge popular myths about the Vikings with evidence." (UK NC KS2 — interpretations)
-- **Hook:** "Vikings wore horned helmets. True or false?"
-- **Key activity:** Myth-busting stations: horned helmets (false — no evidence in Viking-age burials; the image comes from the 1800s), all Vikings were raiders (most were farmers and traders), Viking women (some owned land and ran farms). Pupils create a myth-busting leaflet citing evidence.
-- **Check for understanding:** "Where did the horned-helmet myth come from, and what evidence disproves it?" → From 19th-century art and costume design; no horned helmets have been found in Viking-age graves.
-- **Differentiation:** support: myth/fact cards with evidence to match / stretch: explain why myths about the past persist.
-- **Materials:** station cards, images, leaflet templates.
-- **Joy:** "Myth-busters" TV-style presentations.
-
-**End-of-unit check:** Pupil explains three roles of Vikings (raiders, traders, explorers) with evidence, and uses a primary source and archaeology to support or challenge an account.
+**End-of-unit check:** Pupil explains why 'who flew first?' has two answers, describes one pioneer's achievement and barriers, and judges flight's significance with criteria.
 
 ---
 
-## Unit 6 — The long road to freedom (20th century)
+## Unit 6 — The Second World War: home fronts around the world
 
-**Essential question:** How did ordinary people change unfair laws in the twentieth century?
+**Essential question:** What was it like to be a child, a worker or a refugee during the Second World War — and how do we know?
 
-**Key vocabulary:** empire, colony, independence, civil rights, segregation, apartheid, non-violent protest, boycott, march, petition, vote, suffrage, democracy, speech, legacy
+**Key vocabulary:** Second World War, Allies, Axis, home front, evacuation, evacuee, air raid, blackout, rationing, propaganda, refugee, Kindertransport, persecution, suffrage, vote
 
-### Lesson 27 — Votes for everyone? The fight for suffrage
+### Lesson 24 — A world at war, 1939–1945
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how the right to vote was won by different groups in different countries." (UK NC KS2 — a study beyond 1066 / citizenship)
-- **Hook:** "In 1893, New Zealand became the first self-governing country where women could vote in national elections. How long did your own country take?"
-- **Key activity:** Timeline of suffrage around the world (New Zealand 1893; other examples, including the pupils' own country); analyse a petition or poster as a source.
-- **Check for understanding:** "Why was the right to vote so important to people who didn't have it?" → Voting lets people choose leaders and change laws; without it, they had no say in the rules they lived under.
+- **Objective:** "By the end, I can place the Second World War on the timeline and map, and explain why it touched homes on every inhabited continent." (UK NC KS2 — a theme beyond 1066; C3 D2.His.1.3-5)
+- **Hook:** "In 1939 a child in London, a child in Tokyo and a child in Leningrad all had their lives turned upside down. How?"
+- **Key activity:** A simple overview (the war in Europe from 1939, in Asia and the Pacific, ending in 1945); a map of countries involved; the idea of the 'home front' — ordinary people's lives far from battles. (The global course of the war and the Holocaust are studied in depth in Year 6.)
+- **Check for understanding:** "What does 'home front' mean, and why do historians study it as well as battles?" → The lives of civilians at home during war; most people experienced the war as bombing, shortages and separation, not fighting, so it is a big part of the war's story.
+- **Differentiation:** support: a labelled map and picture timeline / stretch: explain how empires drew people from many continents into the war.
+- **Materials:** world map, timeline cards, photographs of civilians in several countries.
+- **Joy:** "Suitcase of history" — unpack a replica evacuee's case and infer who owned it.
+
+### Lesson 25 — Evacuation: children on the move
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare children's evacuation in different countries using letters, photographs and memoirs." (UK NC KS2 — a theme beyond 1066; C3 D2.His.2.3-5)
+- **Hook:** "In September 1939 about 1.5 million people — most of them children — left British cities in a few days. Children in Finland, Japan and the Soviet Union were also sent away. Why?"
+- **Key activity:** Case studies: Britain's evacuation (1939); around 70,000 Finnish 'war children' sent to Sweden; Japanese city schoolchildren evacuated to the countryside (from 1944); children evacuated from besieged Leningrad across frozen Lake Ladoga. Compare experiences using letters and photographs.
+- **Check for understanding:** "Why might two evacuees from the same city remember evacuation completely differently?" → Their experiences depended on the families who took them in, their age and how long they were away — so one memory can't stand for everyone.
+- **Differentiation:** support: a comparison grid with picture sources / stretch: evaluate a memoir written 50 years later as a source.
+- **Materials:** evacuation photographs and letters (simplified), map, comparison grids; *Goodnight Mister Tom* extract (optional).
+- **Joy:** write a letter home from an evacuee, then swap and 'read between the lines'.
+
+### Lesson 26 — Rationing and making do
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain why rationing was introduced and evaluate its effects on families." (UK NC KS2 — a theme beyond 1066; C3 D2.His.14.3-5)
+- **Hook:** "One egg a week. Would you swap your sweets for sugar for the family's cake?"
+- **Key activity:** Why food and goods ran short (shipping attacked, farms and factories turned to war work); rationing in Britain (1940–1954), victory gardens in the USA and Britain, 'make do and mend'. Pupils plan a day's meals on a ration book and compare with today (maths link: weights and portions).
+- **Check for understanding:** "Rationing lasted in Britain until 1954 — nine years after the war. Why might shortages continue after a war ends?" → Economies, farms, ships and factories needed rebuilding and debts had to be paid, so goods stayed scarce.
+- **Differentiation:** support: a picture ration card and pre-weighed portions / stretch: evaluate whether rationing made some people healthier and others worse off.
+- **Materials:** replica ration book, kitchen scales, portion examples, wartime recipe cards.
+- **Joy:** cook (or plan) a wartime recipe such as carrot cookies (allergy-checked).
+
+### Lesson 27 — Women at work: change or continuity?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the war changed women's work in several countries and judge whether the change lasted." (UK NC KS2 — change and continuity; C3 D2.His.1.3-5)
+- **Hook:** "'We Can Do It!' — this poster is famous today. But how many people actually saw it during the war?"
+- **Key activity:** Women's war work: factory workers in the USA ('Rosie the Riveter'), the Women's Land Army in Britain, Soviet women pilots of the 588th Night Bomber Regiment (the 'Night Witches'), nurses and code-breakers. Examine the 'We Can Do It!' poster (displayed only briefly in factories in 1943 and made famous decades later). What changed after 1945 — and what went back?
+- **Check for understanding:** "Did the war permanently change women's work? Give evidence for change and for continuity." → Change: women proved they could do any job and many kept working; continuity: many were expected to give jobs back to men after the war and were paid less.
+- **Differentiation:** support: a change/continuity sort with pictures / stretch: explain how a poster's meaning can change when later generations reuse it.
+- **Materials:** photographs and posters, case-study cards, change/continuity grid.
+- **Joy:** design a poster celebrating an unsung wartime worker from any country.
+
+### Lesson 28 — Children who had to flee: refugees and the Kindertransport
+- **Duration:** 45 min
+- **Objective:** "By the end, I can explain why some children had to flee their homes before and during the war and how others helped them." (UK NC KS2 — a theme beyond 1066; C3 D2.His.3.3-5)
+- **Hook:** "In 1933 a nine-year-old girl, Judith Kerr, left her pink rabbit behind when her family fled Germany. Why did they have to go?"
+- **Key activity:** Sensitively: the Nazi government's persecution of Jewish people and others from 1933; the Kindertransport (1938–1939), which brought about 10,000 mostly Jewish children from Germany, Austria, Czechoslovakia and Poland to Britain, usually without their parents; helpers such as Nicholas Winton, who organised trains for 669 children from Prague. (What happened to many who could not escape — the Holocaust — is studied in Year 6.) Stretch comparison: the unjust imprisonment of about 120,000 Japanese Americans in US camps from 1942.
+- **Check for understanding:** "Why were the Kindertransport children safe but still suffering loss?" → They escaped persecution, but most had to leave their parents, homes and languages, and many never saw their families again.
+- **Differentiation:** support: a picture-story sequence with discussion prompts / stretch: compare the Kindertransport with the incarceration of Japanese Americans — who was protected, who was treated unjustly, and why.
+- **Materials:** *When Hitler Stole Pink Rabbit* (Judith Kerr) extract, photographs of Kindertransport arrivals, map of Europe. **Parent note:** inform families beforehand; no role-play.
+- **Joy:** (Sensitive lesson) — "Helpers' wall": pupils write a card honouring someone who helped a refugee, then or now.
+
+### Lesson 29 — How do we know? Posters, propaganda and diaries
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain what propaganda is and evaluate wartime posters and diaries as sources." (UK NC KS2 — historical enquiry; C3 D2.His.10.3-5)
+- **Hook:** "'Keep Calm and Carry On' is on mugs everywhere. But almost nobody saw it during the war. How do we know?"
+- **Key activity:** The 'Keep Calm' poster was printed in 1939 but hardly ever displayed, and became famous only after a copy was found in a bookshop in 2000. Compare posters from several countries (Britain, the USA, the USSR, Japan) — what did governments want people to feel and do? Contrast with private diaries and letters. Unit mastery task.
+- **Check for understanding:** "Why is a government poster useful evidence about what the government wanted, but weaker evidence about what people actually felt?" → It shows the message the government chose; people may have ignored it, disagreed or never seen it — private diaries show feelings better.
+- **Differentiation:** support: a poster analysis frame / stretch: evaluate two sources on the same topic and say which is more useful for a stated question.
+- **Materials:** poster images from several countries, diary extracts, analysis frames, mastery-task sheet.
+- **Joy:** "Poster decoder" gallery walk.
+
+### Lesson 30 — After the war: votes for women around the world
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how and when women won the vote in different countries and why some people were still left out." (UK NC KS2 — a theme beyond 1066 / citizenship; C3 D2.His.14.3-5)
+- **Hook:** "Women in France first voted in 1945, in Italy and Japan in 1946 — and in Swiss national elections not until 1971. Why so late, when New Zealand women voted in 1893?"
+- **Key activity:** Build a world suffrage timeline (New Zealand 1893; Finland 1906; many countries after the First and Second World Wars; Switzerland 1971; Saudi Arabia's municipal elections 2015) including the pupils' own country; ask who was excluded even after 'votes for women' (e.g. Aboriginal Australians until 1962); analyse a suffrage poster or petition as a source; link to the war's changes to women's work.
+- **Check for understanding:** "Why might the Second World War have helped women in some countries win the vote?" → Women's war work made it harder to argue they should have no say, and new post-war constitutions were written that included them.
 - **Differentiation:** support: a picture timeline / stretch: research when everyone in your own country gained the vote and who was excluded before.
-- **Materials:** suffrage timeline cards, source images (petition, poster).
-- **Joy:** hold a class vote on a real class decision.
+- **Materials:** suffrage timeline cards, source images (petition, poster), world map.
+- **Joy:** hold a class vote on a real class decision — with a twist first round where only some can vote.
 
-### Lesson 28 — Gandhi and the Salt March
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how non-violent protest helped India gain independence." (UK NC KS2 — beyond 1066)
-- **Hook:** "Why would thousands of people walk nearly 400 km to the sea to make salt?"
-- **Key activity:** Learn about British rule in India, the Salt Tax and Gandhi's Salt March (1930); independence in 1947 (and the painful Partition). Analyse a photograph of the march.
-- **Check for understanding:** "Why was making salt a clever form of protest?" → Everyone needs salt, so the unfair tax affected everyone; breaking the law peacefully showed the injustice and united people.
-- **Differentiation:** support: a picture sequence / stretch: explain why independence and Partition must both be taught.
-- **Materials:** map of India, photographs, timeline.
-- **Joy:** "Salt march" walk around the school while pupils explain the protest in role.
-
-### Lesson 29 — The US civil rights movement
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how the Montgomery Bus Boycott and the civil rights movement challenged segregation." (UK NC KS2 — beyond 1066)
-- **Hook:** "One seat on one bus in 1955. Why did it matter?"
-- **Key activity:** Learn about Rosa Parks and the Montgomery Bus Boycott (1955–56, lasting 381 days), and Martin Luther King Jr.'s "I Have a Dream" speech (1963); the Civil Rights Act (1964). Emphasise that the boycott was an organised community effort, not one person's tiredness.
-- **Check for understanding:** "Why is it inaccurate to say Rosa Parks refused to move just because she was tired?" → She was an experienced activist; her protest was a deliberate act of resistance, and the boycott was carefully organised by the community.
-- **Differentiation:** support: a picture biography / stretch: analyse a short extract of King's speech for its techniques (link to English Unit 7).
-- **Materials:** photographs, speech extract, timeline.
-- **Joy:** perform the speech extract with feeling.
-
-### Lesson 30 — The end of apartheid
-- **Duration:** 40 min
-- **Objective:** "By the end, I can describe how apartheid ended and the roles of protest, prison and negotiation." (UK NC KS2 — beyond 1066; link to *Journey to Jo'burg*)
-- **Hook:** Photograph of Hector Pieterson in Soweto, 16 June 1976. "This image went around the world. Why?"
-- **Key activity:** Timeline: apartheid laws (from 1948), the Soweto uprising (1976), international pressure, Nelson Mandela's release (1990) after 27 years in prison, the first democratic elections (1994). Link to the English novel.
-- **Check for understanding:** "Give two different kinds of action that helped end apartheid." → e.g. protest by students and workers, international boycotts, negotiation between leaders, and the courage of prisoners like Mandela.
-- **Differentiation:** support: timeline cards to order / stretch: explain why the 1994 election was so significant.
-- **Materials:** photographs, timeline, *Journey to Jo'burg*.
-- **Joy:** "Queue to vote" — re-create the long lines of the 1994 election with a class ballot.
-
-### Lesson 31 — Comparing movements
-- **Duration:** 40 min
-- **Objective:** "By the end, I can compare the methods and outcomes of three freedom movements." (UK NC KS2 — similarity and difference)
-- **Hook:** "Gandhi, King and Mandela: what did they share, and where did they differ?"
-- **Key activity:** Comparison grid (aims, methods, obstacles, outcomes, key individuals and ordinary people). Discuss connections: King was inspired by Gandhi's non-violence.
-- **Check for understanding:** "Why is it important to remember ordinary people as well as famous leaders?" → Movements succeeded because thousands took part — boycotting, marching, organising — not only because of leaders.
-- **Differentiation:** support: comparison grid with statement cards / stretch: write a comparative paragraph on methods.
-- **Materials:** comparison grids, unit sources.
-- **Joy:** "Hall of courage" — each pupil adds an ordinary person's story to a display.
-
-### Lesson 32 — How do we know? Photographs and speeches as sources
-- **Duration:** 40 min
-- **Objective:** "By the end, I can evaluate photographs and speeches as historical sources." (UK NC KS2 — historical enquiry)
-- **Hook:** "Can a photograph lie?"
-- **Key activity:** Analyse photographs (what's inside and outside the frame, who took it and why) and speeches (purpose, audience); write a short evaluation of one source.
-- **Check for understanding:** "What is one way a photograph can be misleading even if it hasn't been changed?" → It shows only one moment and what the photographer chose to frame; it can leave out context.
-- **Differentiation:** support: a 'frame' activity — cover parts of a photo to see how meaning changes / stretch: evaluate two sources about the same event.
-- **Materials:** photograph packs, speech extracts, card frames.
-- **Joy:** "Outside the frame" — pupils draw what might lie beyond a photograph's edge.
-
-**End-of-unit check:** Pupil explains how one freedom movement changed unfair laws, compares it with another, and evaluates a photograph or speech as a source.
+**End-of-unit check:** Pupil describes two home-front experiences from different countries with evidence, evaluates a poster or diary as a source, and explains one change the war brought to ordinary people's lives.
 
 ---
 
 ## Unit 7 — Local history study and year review
 
-**Essential question:** How has the wider world shaped the place where I live?
+**Essential question:** How did the big stories of 1450–1950 reach the place where I live?
 
-**Key vocabulary:** local history, archive, census, map, oral history, change, continuity, migration, heritage, significance
+**Key vocabulary:** local history, archive, census, map, memorial, street name, change, continuity, migration, heritage, significance
 
-### Lesson 33 — Our place through time
+### Lesson 31 — Our place through time
 - **Duration:** 45 min
-- **Objective:** "By the end, I can use local sources to describe how my town or area has changed and stayed the same." (UK NC KS2 — local history study)
+- **Objective:** "By the end, I can use old and new maps and photographs to describe how my area has changed and stayed the same." (UK NC KS2 — local history study; C3 D2.His.1.3-5)
 - **Hook:** Show an old photograph or map of the school's area. "Where are we standing?"
-- **Key activity:** Compare old and new maps and photographs of the local area; walk (or virtual walk) to spot clues (street names, old buildings, memorials). Worked example: "A street named after a foreign city or person — why?" Adapt to any country: in a port city, look for trade links; in a village, look for farming changes.
+- **Key activity:** Compare old and new maps and photographs; walk (or virtual walk) to spot clues (street names, old buildings, memorials, dates on buildings). Worked example: "A street named after a faraway city, a merchant or a battle — why?" Adapt to any country: in a port city, look for trade links; in a village, look for changes in farming.
 - **Check for understanding:** "Give one change and one continuity in our area and the evidence for each." → A specific change (e.g. fields became houses) and a continuity (e.g. the river crossing), each with evidence.
 - **Differentiation:** support: a spot-the-difference map activity / stretch: explain the causes of one change.
 - **Materials:** old and new local maps and photographs (from a local archive or library), clipboards.
 - **Joy:** the local history walk.
 
-### Lesson 34 — Connections: the world in our town
+### Lesson 32 — Who lived here? Census and archive records
 - **Duration:** 45 min
-- **Objective:** "By the end, I can find and present evidence of connections between my local area and the wider world." (UK NC KS2 — local history)
-- **Hook:** "Which things in our town came from — or were named after — somewhere far away?"
-- **Key activity:** Groups investigate one strand (migration, trade, food, place names, a local person with global links) using oral history (family interviews, linked to English Unit 8), archives and objects; prepare a short museum display.
-- **Check for understanding:** "What evidence did you use, and how reliable is it?" → Named sources with a judgement of reliability.
-- **Differentiation:** support: a structured investigation sheet / stretch: link your strand to a society studied earlier this year.
-- **Materials:** archive materials, interview notes, display boards.
-- **Joy:** "Our town museum" exhibition.
+- **Objective:** "By the end, I can use a census or similar record to find out about people who lived in my area and explain the record's limits." (UK NC KS2 — local history; C3 D2.His.10.3-5)
+- **Hook:** "Over a hundred years ago an official knocked on the door of a house near here and wrote down everyone inside. What did they record?"
+- **Key activity:** Examine a transcribed census page (or a parish, school or land record) for a local street: names, ages, jobs, birthplaces. Pupils find patterns (large families, child workers, people born far away) and ask what the record leaves out.
+- **Check for understanding:** "What can the census tell us about a family, and what can't it tell us?" → Who lived there, ages, jobs and birthplaces; not their feelings, beliefs or what happened between censuses.
+- **Differentiation:** support: a simplified census table with guiding questions / stretch: track one family across two censuses and explain the changes.
+- **Materials:** transcribed local census or archive record (national archives or local library), highlighters, question sheets.
+- **Joy:** "Household detectives" — build the story of one household.
 
-### Lesson 35 — Year review: one connected world
+### Lesson 33 — The world in our town
+- **Duration:** 45 min
+- **Objective:** "By the end, I can find and present evidence of connections between my local area and this year's world history." (UK NC KS2 — local history; C3 D2.His.14.3-5)
+- **Hook:** "Which things in our town came from — or were named after — somewhere far away?"
+- **Key activity:** Groups investigate one strand (trade and goods, migration, place names, a building or fortune linked to empire or the slave trade, the war memorial) using archives, objects and online collections; prepare a museum display. (Oral-history interviews are Year 6's capstone, so this enquiry uses documents, maps and objects.)
+- **Check for understanding:** "What evidence did you use, and how reliable is it?" → Named sources with a judgement of reliability.
+- **Differentiation:** support: a structured investigation sheet / stretch: link your strand to a unit studied earlier this year.
+- **Materials:** archive materials, local museum online collection, display boards.
+- **Joy:** "Our town museum" exhibition for families.
+
+### Lesson 34 — Our area in the Second World War
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain connections between the societies we studied and reflect on how historians know what they know." (UK NC KS2 — assessment)
+- **Objective:** "By the end, I can use local sources to explain how the Second World War affected my area." (UK NC KS2 — local history; C3 D2.His.2.3-5)
+- **Hook:** "Is there a memorial, a shelter, a rebuilt building or a gap in the street near us? What happened here?"
+- **Key activity:** Use local memorials, newspapers, photographs and records to find out how the war reached the area (people who served, evacuees who arrived or left, shortages, bombing, refugees who settled). Where the area was not directly affected, investigate how the war changed it later (migration, rebuilding, new industries).
+- **Check for understanding:** "How does our local evidence support or challenge what we learned about the home front in Unit 6?" → A specific local example that matches (e.g. evacuees arrived) or differs from the general picture.
+- **Differentiation:** support: a guided source trail / stretch: write a short local 'home front' account using three sources.
+- **Materials:** photographs of local memorials, archive newspapers, maps.
+- **Joy:** add a local 'home front' layer to the class timeline.
+
+### Lesson 35 — Year review: how did the world become connected?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain connections across this year's units and reflect on how historians know what they know." (UK NC KS2 — assessment; C3 D2.His.16.3-5)
 - **Hook:** "Pull one string on our class timeline. What else does it connect to?"
-- **Key activity:** Pupils connect the societies with string on the class timeline and map (e.g. Baghdad silver → Viking hoards; paper from China → Baghdad; Gandhi → King). Short written assessment: an evidence-based answer to "How connected was the medieval world?"
-- **Check for understanding:** "Give two examples of connections between societies we studied, with evidence." → e.g. Arab dirhams in Viking hoards; Mansa Musa on the Catalan Atlas; paper spreading from China to Baghdad.
+- **Key activity:** Pupils connect events with string on the timeline and map (e.g. 1453 → Greek scholars in Florence; printing → the Reformation; sugar → the slave trade; war work → votes for women). Short written assessment: an evidence-based answer to "How did the world become more connected between 1450 and 1950 — and who paid the price?"
+- **Check for understanding:** "Give two connections between events we studied this year, with evidence." → e.g. Piri Reis used Columbus's map; war work helped women win the vote; European demand for sugar drove the slave trade.
 - **Differentiation:** support: connection cards to place / stretch: write a full paragraph answering the question with three pieces of evidence.
 - **Materials:** class timeline, world map, string, assessment sheets.
 - **Joy:** the finished "web of connections" across the classroom.
 
-**End-of-unit check:** Pupil presents a local history finding with evidence and writes an evidence-based paragraph on connections between medieval societies.
+**End-of-unit check:** Pupil presents a local history finding with named sources and writes an evidence-based paragraph on how the world became connected between 1450 and 1950.
 
 ## Books & resources
 
-- ***The Epic of Sundiata*** — a children's retelling such as *Sundiata: Lion King of Mali* by David Wisniewski — brings oral tradition alive and shows African history through an African epic.
-- ***1001 Inventions and the Library of Secrets*** (the educational film and exhibition from the 1001 Inventions organisation) — a vivid, accurate introduction to scientists of the Islamic Golden Age.
-- ***Mansa Musa: The Lion of Mali*** by Khephra Burns — a picture-book account of Mali's famous king.
-- ***The Arrival*** by Shaun Tan and ***Journey to Jo'burg*** by Beverley Naidoo — shared with English; bring migration and apartheid to life.
-- ***Rosa*** by Nikki Giovanni, illustrated by Bryan Collier — a picture book about Rosa Parks and the Montgomery Bus Boycott.
-- ***Long Walk to Freedom*** (abridged picture-book edition, adapted by Chris van Wyk) — Nelson Mandela's autobiography for young readers.
-- ***Grandfather Gandhi*** by Arun Gandhi and Bethany Hegedus — Gandhi's grandson on non-violence and anger.
-- **Museum collections online** — the British Museum, the Smithsonian and national museums of the countries studied provide high-quality object images for source work.
-- **Local archive, library and heritage society** — for maps, photographs and census material for Unit 7.
+- ***Journey to Jo'burg*** by Beverley Naidoo — shared with English; the starting point for Lesson 4 on fiction as history.
+- ***Starry Messenger*** by Peter Sís — a Caldecott Honor picture book about Galileo, dense with his own words and drawings; perfect for Lesson 11.
+- ***Leonardo da Vinci*** by Kathleen Krull (Giants of Science series) — a lively, well-researched biography for independent reading in Unit 3.
+- ***Nzinga: Warrior Queen of Matamba*** by Patricia C. McKissack (Royal Diaries series) — historical fiction in diary form about Queen Nzinga; supports Lesson 14 (discuss what is invented, as in Lesson 4).
+- ***Freedom in Congo Square*** by Carole Boston Weatherford, illustrated by R. Gregory Christie — a picture book on how enslaved people in New Orleans kept music and culture alive; supports Lesson 17.
+- ***Black and British: A Short, Essential History*** by David Olusoga — a leading historian's children's edition, honest and readable on Britain's role in the slave trade and its legacies.
+- ***The Wright Brothers: How They Invented the Airplane*** by Russell Freedman — a Newbery Honor book built on the Wrights' own photographs; ideal for Lesson 21's evidence work.
+- ***Fly High! The Story of Bessie Coleman*** by Louise Borden and Mary Kay Kroeger — an accessible biography for Lesson 22.
+- ***When Hitler Stole Pink Rabbit*** by Judith Kerr — the author's own family's flight from Nazi Germany, told for children; for Lesson 28.
+- ***Goodnight Mister Tom*** by Michelle Magorian — a much-loved evacuation novel (a strong read-aloud or independent choice; some upsetting scenes — preview first).
+- ***Sadako and the Thousand Paper Cranes*** by Eleanor Coerr — a Japanese perspective on the war's aftermath; for confident readers, with care.
+- **SlaveVoyages (slavevoyages.org)** — the Trans-Atlantic Slave Trade Database and African Names Database; the scholarly source behind Lessons 15–16.
+- **Museum collections online** — the British Museum, the Metropolitan Museum of Art, the International Slavery Museum (Liverpool) and national museums of the countries studied provide high-quality object images for source work.
+- **Local archive, library and heritage society** — for maps, photographs, census material and newspapers for Unit 7.
 
 ## End-of-year mastery checks
 
-1. **Chronology** — places the societies studied on a timeline, converts dates to centuries and explains which existed at the same time.
-2. **Knowledge** — describes key features and achievements of Abbasid Baghdad, the Maya, Mali, Benin and the Vikings.
-3. **Connections** — explains at least three connections between societies (trade, ideas, people) with evidence.
-4. **Sources** — distinguishes primary and secondary sources and evaluates reliability using who, when, why and what's missing.
-5. **Interpretations** — explains why accounts differ and challenges a myth with evidence (e.g. "the Maya disappeared", horned helmets).
-6. **Cause and consequence** — explains causes and consequences of one major event (e.g. the fall of Baghdad, the end of apartheid).
-7. **Change through protest** — explains how one twentieth-century movement changed unfair laws.
+1. **Chronology** — places the events of 1450–1950 studied this year on a timeline joined to Year 4's, converts dates to centuries and explains what was happening at the same time.
+2. **Knowledge** — describes key features of the Ottoman Empire, the Renaissance and printing, the transatlantic slave trade and resistance, early flight and the Second World War home front.
+3. **Connections** — explains at least three connections between events or places (trade, ideas, people) with evidence.
+4. **Sources** — judges reliability and usefulness using who, when, why and what's missing, including reading a source 'against the grain'.
+5. **Interpretations** — explains why accounts differ (e.g. 1453, 'who flew first?', 'rebirth') and challenges a myth with evidence (e.g. 'Keep Calm and Carry On').
+6. **Cause and consequence** — explains causes and consequences of one major development (e.g. printing, the slave trade, evacuation).
+7. **Agency and resistance** — explains how enslaved people resisted and how ordinary people shaped events.
 8. **Historical writing** — writes a short evidence-based explanation answering a historical question.
 
 ## Teacher guidance
 
 **Common misconceptions to watch for**
-- *"History happened mostly in Europe."* The timeline design is the antidote: keep returning to "what was happening elsewhere at the same time?"
-- *"Old = primitive."* The Maya had zero, Baghdad had hospitals, Mali had libraries; avoid language like "advanced" vs "backward".
-- *"The Maya disappeared."* Maya people and languages thrive today.
-- *"Vikings wore horned helmets and only raided."*
-- *"Benin" confusion.* The Kingdom of Benin was in present-day Nigeria, not the modern Republic of Benin.
-- *"Famous individuals made change alone."* Stress the ordinary people behind every movement.
+- *"History happened mostly in Europe."* Keep returning to "what was happening elsewhere at the same time?" — printing began in China and Korea; the Ottomans were a world power.
+- *"Enslaved people were passive victims."* Resistance was constant; teach it in every lesson of Unit 4.
+- *"Only Europeans were involved / only Africans were to blame."* Be clear and truthful: some African rulers and merchants sold captives, but the system was built and overwhelmingly profited from by European and American traders, planters and states.
+- *"Slavery ended because kind politicians decided."* That is Year 6's abolition unit, but plant the idea of enslaved people's agency now.
+- *"The Renaissance came from nowhere."* It built on medieval, Byzantine and Islamic scholarship.
+- *"A famous image must have been famous at the time."* 'Keep Calm' and 'We Can Do It!' were barely seen during the war.
 - *"A source is either true or false."* Sources are useful for some questions and not others.
 
 **How to teach it well**
 - Keep the class timeline and world map visible and add to them every lesson.
 - Start each lesson with a source or object; end with a "How do we know?" question.
-- Be sensitive when teaching conflict, empire, slavery-era contexts and apartheid; some pupils may have family connections. Present multiple perspectives honestly and age-appropriately.
+- **Sensitive history.** The slave trade and the persecution of Jewish people involve great suffering. Prepare pupils and inform parents; teach truthfully but without graphic detail; centre dignity, agency and resistance; never role-play enslavement or persecution; allow time to talk. Some pupils may have family connections to these histories — invite, never require, sharing.
+- Present religion (Unit 2, the Reformation) neutrally and factually.
 - Adapt Unit 7 to your location: every town has connections to the wider world.
 
 **Vertical connections**
-- *From Year 4:* ancient civilisations, BC/AD, and first source work.
-- *Into Year 6:* deeper study of later periods (e.g. the medieval and early modern world, empires and revolutions), extended historical writing and more complex interpretations; the source-detective checklist becomes formal source analysis.
-- *Across subjects:* English (*Journey to Jo'burg*, speeches, oral history), maths (Maya numerals, map scales, calendars), geography (trade routes, the Sahara, the rainforest), science (scholars of the Islamic Golden Age), art (Islamic geometry, Benin plaques), music (the kora and griots).
+- *From Year 4:* the connected medieval world (Vikings, Baghdad, Benin, the Maya), BC/AD and first source work — retrieved, not re-taught.
+- *Into Year 6:* Year 6 studies medieval connections (Song China, the Mongols, Mali, Great Zimbabwe), encounters and empires (Zheng He, the Mexica, the Mughals), the age of revolutions including abolition and Haiti, and the twentieth century including the Holocaust, independence movements, civil rights and the end of apartheid — building on this year's slave-trade and home-front units and on reliability, usefulness and interpretations.
+- *Across subjects:* English (*Journey to Jo'burg*, *The Tempest*, oral history in the memoir unit), maths (data on the slave trade, map scales, ration weights, calendars), geography (trade routes, the Atlantic world), science (Galileo's astronomy, flight), art (Iznik tiles, Renaissance perspective, posters), music (Afro-Brazilian and Caribbean music).

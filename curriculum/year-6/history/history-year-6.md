@@ -23,10 +23,12 @@ usefulness); **interpretations** (why historians disagree); **causation** (long-
 causes, consequences); **change and continuity**; and **significance** (criteria for deciding what
 matters, and to whom).
 
-**What we assume from Year 5 (ages 10–11):** a chronological framework of ancient and medieval
-history from earlier years; a first use of sources and "whose voice do we hear?"; the transatlantic
-slave trade taught honestly; the Second World War from a home-front perspective; a local history
-enquiry. **What Year 6 adds:** global connections, multiple interpretations, formal source
+**What we assume from Years 4 and 5:** a chronological framework from the ancient world to 1950;
+Year 4's depth studies of the Vikings, Abbasid Baghdad, Benin and the Maya (retrieved here, not
+re-taught); from Year 5, the Ottoman Empire, the Renaissance and the printing revolution, the
+transatlantic slave trade and resistance taught honestly, the history of flight, the Second World War
+from a home-front perspective (including refugees and the Kindertransport), votes for women, a local
+history enquiry, and source work on reliability, usefulness and "whose voice do we hear?". **What Year 6 adds:** global connections, multiple interpretations, formal source
 evaluation and an extended enquiry answer. **What secondary relies on:** a secure mental timeline
 of world history, source evaluation using provenance, and extended writing that reaches a supported
 judgement.
@@ -106,15 +108,15 @@ One lesson a week, 40–45 minutes.
 
 **Key vocabulary:** caliphate, Abbasid, House of Wisdom, translation, Silk Roads, caravan, dynasty, Song, movable type, compass, Mongol, khan, Pax Mongolica, empire, Mali, Mansa, Timbuktu, pilgrimage, Great Zimbabwe, trade network
 
-### Lesson 5 — Baghdad and the House of Wisdom
+### Lesson 5 — From Baghdad to Toledo: how knowledge crossed the medieval world
 - **Duration:** 45 min
-- **Objective:** "By the end, I can explain why Abbasid Baghdad became a world centre of learning and name contributions of its scholars." (UK KS3 History — a significant society; C3 D2.His.14.6-8)
-- **Hook:** "The word 'algebra' comes from an Arabic book title, *al-jabr*, written in Baghdad around 820 CE. Why Baghdad?"
-- **Key activity:** Explore the round city of Baghdad (founded 762 CE); the House of Wisdom's translations of Greek, Persian and Indian texts; scholars such as al-Khwarizmi (algebra; the word "algorithm" comes from his name) and the physician al-Razi; trace Hindu–Arabic numerals from India to Baghdad to Europe (Maths link).
-- **Check for understanding:** "Why was translation so important to the House of Wisdom's success?" → It gathered knowledge from many civilisations in one language (Arabic), so scholars could combine and build on it.
-- **Differentiation:** support: an illustrated fact sheet / stretch: explain how knowledge preserved in Baghdad later reached Europe (through Spain and Sicily)
-- **Materials:** images of the round city plan, a map of Abbasid trade routes, Hindu–Arabic vs Roman numeral cards
-- **Joy:** "Translate and multiply": do the same sum in Roman and Hindu–Arabic numerals — which is easier?
+- **Objective:** "By the end, I can explain how knowledge gathered in Abbasid Baghdad reached Europe through al-Andalus and Sicily, and judge who deserves credit for it." (UK KS3 History — a significant society; C3 D2.His.14.6-8)
+- **Hook:** "The word 'algebra' comes from a book written in Baghdad around 820 CE. How did it end up in the maths lessons of European universities 400 years later?"
+- **Key activity:** Five-minute retrieval of Year 4's Baghdad unit (the Round City, the House of Wisdom, al-Khwarizmi) — not re-taught. New: the routes by which that knowledge travelled west — Córdoba in al-Andalus (the philosopher Ibn Rushd, known in Europe as Averroes), the translators of 12th-century Toledo (such as Gerard of Cremona, who translated dozens of Arabic works into Latin) and the multilingual court of Norman Sicily (al-Idrisi's world map for King Roger II, 1154). Trace Hindu–Arabic numerals from India to Baghdad to Europe (Fibonacci's *Liber Abaci*, 1202; Maths link).
+- **Check for understanding:** "Why is it misleading to say that Arabic scholars simply 'preserved' Greek knowledge for Europe?" → They also corrected, combined and added to it (algebra, medicine, optics, astronomy), and Europeans learned from their new work, not just from the old Greek texts.
+- **Differentiation:** support: an illustrated route map with the three 'gateways' labelled / stretch: explain why Toledo and Sicily, where Muslims, Christians and Jews lived side by side, became translation centres
+- **Materials:** map of the Mediterranean c. 1150, image of al-Idrisi's map, Hindu–Arabic vs Roman numeral cards, translation-chain cards
+- **Joy:** "Translation relay": a sentence passes from Greek to Arabic to Latin to English through four 'translators' — what survives, what changes?
 
 ### Lesson 6 — Song China: an age of invention
 - **Duration:** 40 min
@@ -353,7 +355,7 @@ One lesson a week, 40–45 minutes.
 - **Key activity:** A global overview timeline (Europe, the Pacific, North Africa; the war ending in 1945 after the atomic bombings of Hiroshima and Nagasaki); the Holocaust: the murder of about six million Jews by Nazi Germany and its collaborators, alongside Roma, disabled people and others; read carefully chosen entries from *The Diary of a Young Girl*; discuss why we remember.
 - **Check for understanding:** "Why is Anne Frank's diary such an important source?" → It gives the voice of one real young person, showing the human cost of Nazi persecution in a way statistics cannot; it is personal testimony written at the time.
 - **Differentiation:** support: a teacher-led reading with discussion prompts / stretch: research an act of rescue (e.g. Miep Gies, who helped hide the Frank family, or Chiune Sugihara, who issued visas to Jewish refugees in Lithuania)
-- **Materials:** *The Diary of a Young Girl* (Anne Frank) selected entries, a world timeline of WWII, photographs of the Secret Annex (Anne Frank House resources)
+- **Materials:** *The Diary of a Young Girl* (Anne Frank) selected entries (teacher-chosen; use the Anne Frank House's education materials), a world timeline of WWII, photographs of the Secret Annex. **Parent note:** inform families before this lesson; builds on Year 5's Kindertransport lesson; no graphic images.
 - **Joy:** (Sensitive lesson) — end with "upstanders": children create a tribute card to a rescuer, focusing on courage and humanity
 
 ### Lesson 27 — The United Nations and human rights
@@ -378,7 +380,7 @@ One lesson a week, 40–45 minutes.
 
 ### Lesson 29 — African independence: Ghana and beyond
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Ghana became the first sub-Saharan African colony to win independence (1957) and describe the wave of independence that followed." (UK KS3 History — the end of empire; C3 D2.His.14.6-8)
+- **Objective:** "By the end, I can explain how Ghana became one of the first sub-Saharan African countries to win independence from colonial rule (1957) and describe the wave of independence that followed." (UK KS3 History — the end of empire; C3 D2.His.14.6-8)
 - **Hook:** "At midnight on 6 March 1957, Kwame Nkrumah told a huge crowd in Accra that Ghana was free 'for ever'."
 - **Key activity:** Read an extract of Nkrumah's independence speech; map African independence dates (1960 — the "Year of Africa", when 17 African nations became independent); discuss the challenges new nations faced (borders drawn by colonial powers, economies built for export).
 - **Check for understanding:** "Why did many African countries face difficulties after independence?" → Colonial powers had drawn borders that ignored peoples and languages and had built economies around exporting raw materials, not developing local industry or education.
@@ -489,5 +491,5 @@ One lesson a week, 40–45 minutes.
 - **Common misconceptions:** history is "what happened" rather than an evidence-based interpretation; primary sources are always reliable and secondary sources aren't; people in the past were less intelligent; progress is always steady and upward; Africa and the Americas "had no history" before Europeans (challenged directly in Units 2–3); change happens because of single great individuals (always include ordinary people's agency).
 - **Local adaptation.** Every unit works in any country; add a lesson connection to your own country's history (e.g. how your country was affected by the Silk Roads, empires, the world wars or independence movements) in the flexible week.
 - **Differentiation.** Support means shorter sources with glossaries, sentence frames and picture timelines; stretch means evaluating interpretations, comparing across societies and writing judgements that weigh counter-evidence.
-- **Vertical alignment.** Earlier years built chronology and single-civilisation depth studies; Year 5 introduced sources, "whose voice?", the transatlantic slave trade and the Second World War home front. Year 6 adds global connections, formal provenance, interpretations and extended judgements, preparing for secondary history (UK Year 8 / US Grade 7 / MYP 2), which assumes children can evaluate sources and write a supported argument.
+- **Vertical alignment.** Earlier years built chronology and single-civilisation depth studies (Year 4: the Vikings, Baghdad, Benin, the Maya); Year 5 covered 1450–1950 — the Ottomans, the Renaissance and printing, the transatlantic slave trade and resistance, flight, the Second World War home front and votes for women — with reliability, usefulness and "whose voice?". Year 6 retrieves these briefly rather than re-teaching them. Year 6 adds global connections, formal provenance, interpretations and extended judgements, preparing for secondary history (UK Year 8 / US Grade 7 / MYP 2), which assumes children can evaluate sources and write a supported argument.
 - **Cross-curricular links:** English (speeches of King and Mandela; *Brown Girl Dreaming*; *A Christmas Carol* and the Industrial Revolution; *A Long Walk to Water* and South Sudan), Geography (trade, empire and development), Maths (timelines and intervals, Hindu–Arabic numerals), Art (Mughal miniatures, woodblock prints), Life Skills (human rights, the UNCRC).
