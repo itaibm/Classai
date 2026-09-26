@@ -205,7 +205,7 @@ foundation.
 ### Lesson 14 — Ibn Battuta: the great traveller from Morocco
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe Ibn Battuta's travels and explain how we know about them." (UK NC KS1 SP; HS — sources)
-- **Hook:** "In 1325 a young man left his home in Tangier for a journey. He didn't come home for almost 30 years!"
+- **Hook:** "In 1325 a 21-year-old left his home in Tangier for a journey. He didn't come home for about 24 years — and then set off again!"
 - **Key activity:** Read *Traveling Man: The Journey of Ibn Battuta, 1325–1354* by James Rumford. Trace his route on a map across North Africa, the Middle East, India and China. Learn that he told his story to a writer who recorded it in a book.
 - **Check for understanding:** "How do we know about Ibn Battuta's journey 700 years later?" → He told his story to a writer who wrote it down in a book that people still read.
 - **Differentiation:** support: trace route with stickers / stretch: suggest why travelling took so long then
@@ -215,7 +215,7 @@ foundation.
 ### Lesson 15 — Zheng He and the treasure ships
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe Zheng He's voyages from China and compare his ships with ships today." (UK NC KS1 SP)
-- **Hook:** "Imagine a wooden ship much bigger than any other in the world at the time — and a whole fleet of them!"
+- **Hook:** "Imagine wooden ships far bigger than most ships of their time — and a whole fleet of them!" (Historians still argue about exactly how big the biggest ships were — a good "how do we know?" question.)
 - **Key activity:** Learn about the seven voyages (1405–1433) of the Ming admiral Zheng He across the Indian Ocean to Arabia and East Africa, and the giraffe brought back to the emperor. Map the route; compare ship pictures then and now.
 - **Check for understanding:** "What did Zheng He's voyages bring back to China, and what does that tell us about why he travelled?" → Gifts and animals like a giraffe, and goods — the voyages were for trade and to show China's power.
 - **Differentiation:** support: picture storyboard / stretch: compare his routes with Ibn Battuta's
@@ -276,7 +276,7 @@ foundation.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can describe what hospitals were like in the 1850s and how Florence Nightingale improved them." (UK NC KS1 SP)
 - **Hook:** A picture of a crowded army hospital in the 1850s: "Would you want to be a patient here? Why not?"
-- **Key activity:** Learn about Scutari hospital in the Crimean War (1854): dirty wards, little food. Nightingale's changes: cleaning, fresh air, food, keeping records. "The Lady with the Lamp".
+- **Key activity:** Learn about Scutari hospital in the Crimean War (1854): dirty wards, little food. Nightingale's changes: cleaning, fresh air, food, keeping records. "The Lady with the Lamp". (Teacher note: people then did not yet know about germs — Nightingale thought "bad air" caused disease — but cleaning and fresh air still saved lives, especially once the drains were cleared in 1855.)
 - **Check for understanding:** "Why did cleaning the hospital save lives?" → Dirt spreads germs that cause illness, so cleaner wards meant fewer soldiers died of disease.
 - **Differentiation:** support: before/after picture sort / stretch: explain how her records (charts) helped persuade others
 - **Materials:** pictures of Scutari hospital, *Florence Nightingale* by Demi, a lamp prop
@@ -326,7 +326,7 @@ foundation.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can use a simple test (made a change, helped many people, remembered today) to decide if a person is significant." (UK NC KS1 SP — significance)
 - **Hook:** "Is a famous singer significant in history? Is your grandma?"
-- **Key activity:** Build a class significance test; apply it to the four people; order them on the timeline; apply it to someone the children choose (from any country).
+- **Key activity:** Build a class significance test; apply it to the four people; order them on the timeline; apply it to someone the children choose from any country — offer cards such as Sequoyah (who created a way of writing the Cherokee language — link to Braille), Mahatma Gandhi (India's peaceful protests, which inspired the US civil-rights movement — link to Rosa Parks) and Wangari Maathai (Kenya — met in science).
 - **Check for understanding:** "Using our test, explain why Louis Braille is significant." → He made a big change (braille), it helped many people, and it's still used today.
 - **Differentiation:** support: tick-box test / stretch: argue about a borderline case
 - **Materials:** significance test cards, timeline
@@ -483,6 +483,6 @@ foundation.
 
 **Sensitive topics.** War (Crimea), disability (Braille) and racism (Rosa Parks) are taught in age-appropriate, factual, hopeful language, focusing on the courage of the people and the changes they made. Invite questions and answer honestly and simply.
 
-**Making it international and local.** The spine visits Africa, Asia, Europe, North America and Oceania. Unit 5 must be your own place — use the worked examples as a model. If you teach outside the UK, you may swap the Great Fire of London for a great event from your own country's history, keeping the same lesson shape (what happened, why, how we know, what changed, compare with another city).
+**Making it international and local.** The spine visits Africa, Asia, Europe, North America and Oceania; Unit 4's four core people are from Europe, the Caribbean and North America, so use the Lesson 25 cards (Sequoyah, Gandhi, Wangari Maathai) to widen it. Unit 5 must be your own place — use the worked examples as a model. If you teach outside the UK, you may swap the Great Fire of London for a great event from your own country's history, keeping the same lesson shape (what happened, why, how we know, what changed, compare with another city).
 
 **Vertical alignment.** Foundation introduced *now and then*, living memory and a first local walk. Year 2 (ages 7–8) moves to prehistory and the first civilisations, using this year's timeline and source skills.
