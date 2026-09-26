@@ -20,20 +20,20 @@ Children begin to *explain* as well as *do*: every lesson ends with a check that
 |---|---|---|---|---|
 | Mathematics | 170 | 5 | [`maths/maths-year-3.md`](./maths/maths-year-3.md) | place value to 10,000; 4-digit column methods; **all tables to 12 × 12 (secure check, Lesson 168)**; column multiplication and short division; fractions (equivalence, >1, of amounts); decimals (tenths, hundredths); area; time, money, angles, coordinates, line graphs |
 | English | 170 | 5 | [`english/english-year-3.md`](./english/english-year-3.md) | class novels *The Iron Man*, *The Boy at the Back of the Class*, *Where the Mountain Meets the Moon*, *My Side of the Mountain*; Greek myths; *The Journey* (Francesca Sanna); paragraphs; research reports; explanation texts; playscripts; poetry every term |
-| Science | 70 | 2 | [`science/science-year-3.md`](./science/science-year-3.md) | classification keys; food chains and environments; digestion and teeth; states of matter; water cycle and weather; sound; electricity; an independent investigation |
-| History | 35 | 1 | [`history/history-year-3.md`](./history/history-year-3.md) | chronology and sources; Ancient Greece; the Roman Empire (Britain and North Africa); Kush; Shang to Han China and the Silk Road; local legacy |
-| Geography | 35 | 1 | [`geography/geography-year-3.md`](./geography/geography-year-3.md) | 8-point compass and 4-figure grid references; water supply; climate zones and biomes; the Amazon; the Mediterranean; cocoa trade and Fairtrade; local fieldwork |
-| Languages (Spanish) | 70 | 2 | [`languages/languages-year-3.md`](./languages/languages-year-3.md) | family, animals, numbers to 100 and dates, weather, home, clothes, festivals; *tener*, *ser*, *hay*, agreement; a spoken and written 'todo sobre mí' |
-| Art & Design | 35 | 1 | [`art-design/art-design-year-3.md`](./art-design/art-design-year-3.md) | sketchbooks; the full colour wheel; painting control; tone; weaving and Kente; depth in landscape; exhibition |
-| Music | 35 | 1 | [`music/music-year-3.md`](./music/music-year-3.md) | recorder D–D' from the stave; texture and ostinato; structure (ABA, rondo); world music; four eras of Western music; composing |
-| PE & Health | 70 | 2 | [`pe-health/pe-health-year-3.md`](./pe-health/pe-health-year-3.md) | invasion, net/wall, striking/fielding games; gymnastics; world dance; athletics; orienteering; water safety; food, sleep, hygiene, body safety, first aid |
-| Computing | 35 | 1 | [`computing/computing-year-3.md`](./computing/computing-year-3.md) | loops in Scratch and debugging; branching databases; networks and packets; audio and video; reliable sources; online safety |
-| Life Skills | 35 | 1 | [`life-skills/life-skills-year-3.md`](./life-skills/life-skills-year-3.md) | feelings and resilience; friendship and upstanding; growth mindset; identity and respect; money sense; sustainability; rights and a community action project |
+| Science | 70 | 2 | [`science/science-year-3.md`](./science/science-year-3.md) | classification keys (Linnaeus, *Homo sapiens*); food chains, changing environments and the Great Green Wall; digestion and teeth; states of matter; water cycle and weather; sound; electricity; an independent investigation |
+| History | 35 | 1 | [`history/history-year-3.md`](./history/history-year-3.md) | chronology, dating and corroborating sources (Herodotus); Ancient Greece; the Roman Empire across three continents; Kush; Shang to Han China, the Mandate of Heaven and the Silk Road; local legacy |
+| Geography | 35 | 1 | [`geography/geography-year-3.md`](./geography/geography-year-3.md) | sixteen-point compass, atlas indexes, digital map layers and scale (retrieving Year 2's eight points and grid references); water supply; climate zones and biomes; the Amazon; the Mediterranean; cocoa trade and Fairtrade; local fieldwork |
+| Languages (Spanish) | 70 | 2 | [`languages/languages-year-3.md`](./languages/languages-year-3.md) | retrieves Year 2 vocabulary and goes further: *ser* and possessives, question words, regular *-ar* verbs, comparatives, prices and years, temperatures, home, clothes, festivals (Guelaguetza, New Year); *El monstruo de colores*; a spoken and written 'todo sobre mí' |
+| Art & Design | 35 | 1 | [`art-design/art-design-year-3.md`](./art-design/art-design-year-3.md) | research sketchbooks (Margaret Mee); the full colour wheel and colour across cultures; painting control (Seurat, Alma Thomas, Tarsila do Amaral); tone with charcoal and chalk; stitch, appliqué and story quilts; depth in landscape and Chinese *shan shui*; exhibition |
+| Music | 35 | 1 | [`music/music-year-3.md`](./music/music-year-3.md) | recorder: F sharp and the key signature, low C, slurs and ledger lines (beyond Year 2's notes); the minor pentatonic; texture, drones and ostinato (Pachelbel, Reich, Aka polyphony); structure (ABA, rondo); world music; four eras of Western music; composing |
+| PE & Health | 70 | 2 | [`pe-health/pe-health-year-3.md`](./pe-health/pe-health-year-3.md) | invasion, net/wall, striking/fielding games; gymnastics; world dance (bhangra, kpanlogo, capoeira, ribbon); athletics; orienteering with map scale and pacing; water safety (rip currents, cold water shock, reach-or-throw rescue); health beyond Year 2: allergies and asthma, posture, road safety, food hygiene, body image, PANTS online, the stress response, burns and nosebleeds |
+| Computing | 35 | 1 | [`computing/computing-year-3.md`](./computing/computing-year-3.md) | nested and parallel loops, trace tables and debugging (beyond Year 2's repeat loops); branching databases; networks, packets and data centres; audio and video; URLs, wikis and reliable sources; permissions, privacy and sleep |
+| Life Skills | 35 | 1 | [`life-skills/life-skills-year-3.md`](./life-skills/life-skills-year-3.md) | precise feelings, 'what if…' worries and problem-solving; joining in, I-statements and the bystander effect; deliberate practice and goal obstacle plans; identity, names and stereotypes; opportunity cost, value and saving; product life cycles and the waste hierarchy; barriers to rights, public services and a community action project |
 | **Total** | **760** | **22** | | |
 
 Every file follows the same parseable format (units → numbered lessons with all eight fields →
 end-of-unit check), and ends with **Books & resources**, **End-of-year mastery checks** and **Teacher
-guidance**. The `scripts/` folders hold older tutor scripts that will be updated to match these scopes.
+guidance**. The `scripts/` folders hold older tutor scripts that do **not** yet match these reviewed scopes (see `docs/reviews/years-3-4.md`) and need regenerating.
 
 ## Sample weekly timetable
 
@@ -65,17 +65,18 @@ a 36-week year.
   greetings, numbers to 31 and colours. See [`../year-2/`](../year-2/).
 - **To Year 4 (ages 9–10):** numbers to a million, long multiplication, thousandths and percentages;
   persuasive writing, relative clauses and cohesion; life cycles, materials, Earth and space, forces;
-  Anglo-Saxons, Vikings and the Maya; mountains, volcanoes and settlements; perspective, printmaking
-  and sculpture; singing in parts; selection and variables in code; food, hobbies and directions in
-  Spanish. See [`../year-4/`](../year-4/).
+  the world around AD 900 (Vikings, Abbasid Baghdad, Benin, the Maya); coasts, the Colorado River,
+  Antarctica, mountains and energy resources; perspective, printmaking, clay and textiles; singing in
+  parts, ukulele and world music; computer systems and binary, selection and variables in code; food,
+  hobbies, Día de los Muertos and directions in Spanish. See [`../year-4/`](../year-4/).
 
 ## Cross-curricular threads this year
 
 - **Ancient worlds:** Greek myths in English ↔ Ancient Greece in history; Roman engineering in history ↔
   the Mediterranean in geography; *Where the Mountain Meets the Moon* ↔ Ancient China; Kush ↔ the Nile.
-- **Water:** the water cycle (science) → water supply and use (geography) → hydration (PE & Health) →
+- **Water:** the water cycle (science) → water supply and use (geography) → water safety at beaches and lakes (PE & Health) →
   the Amazon making its own rain.
-- **Ghana:** cocoa and Fairtrade (geography) ↔ Kente and El Anatsui (art) ↔ call-and-response and
+- **Ghana:** cocoa and Fairtrade (geography) ↔ Kente (art) ↔ call-and-response and
   drumming (music) ↔ kpanlogo (dance).
 - **Sound:** vibration and pitch (science) ↔ panpipes and instruments (music) ↔ recording audio (computing).
 - **Data:** bar charts and line graphs (maths) ↔ weather data (science) ↔ fieldwork (geography) ↔

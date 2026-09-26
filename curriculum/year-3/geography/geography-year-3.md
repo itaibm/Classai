@@ -2,13 +2,13 @@
 
 ## Year overview
 
-Year 3 geography takes children **around the world through its climates and biomes** and into two contrasting region studies — **the Amazon rainforest in South America** and **the Mediterranean region of Italy in Europe** — then follows food along global **trade routes from Ghana (Africa)** to their own kitchen. It opens by sharpening **map skills** (eight compass points, four-figure grid references, symbols, keys and scale) and closes with **fieldwork** in the local area, adaptable to any town or country.
+Year 3 geography takes children **around the world through its climates and biomes** and into two contrasting region studies — **the Amazon rainforest in South America** and **the Mediterranean region of Italy in Europe** — then follows food along global **trade routes from Ghana (Africa)** to their own kitchen. It opens by taking Year 2's **map skills** (eight compass points, four-figure grid references, symbols, keys and scale) outdoors and into real atlases and digital maps — sixteen compass points, atlas indexes, satellite layers and comparing maps of different scales — and closes with **fieldwork** in the local area, adaptable to any town or country.
 
 **Physical and human geography together.** Every unit links what the land and climate are like (physical) to how people live, work, trade and change places (human), and asks about **sustainability** — deforestation, water use, fair trade, and caring for local places.
 
-**What this year assumes (from Year 2, ages 7–8):** continents and oceans; latitude, longitude, the Equator, hemispheres and time zones; the country's regions; rivers and the water cycle's role in rivers. **What Year 4 (ages 9–10) relies on:** confident four-figure grid references (moving to six-figure), the climate-zone and biome framework, comparing regions, and the fieldwork cycle — used in Year 4's units on mountains, volcanoes and earthquakes, settlements and land use.
+**What this year assumes (from Year 2, ages 7–8):** continents and oceans; latitude, longitude, the Equator, hemispheres and time zones; the country's regions; rivers and the water cycle's role in rivers. **What Year 4 (ages 9–10) relies on:** confident four-figure grid references, atlas and digital-map skills, the climate-zone and biome framework, comparing regions fairly, and the fieldwork cycle — used in Year 4's units on coasts, the Colorado River region of North America, Antarctica, mountains at altitude, and resources and energy.
 
-**Horizontal links:** the water cycle is taught in Science (Unit 6) — geography builds on it with water supply and use; the Roman Mediterranean links to History; *Journey to the River Sea* and *The Wild Robot* on the English shelf link to the rainforest and biomes.
+**Horizontal links:** the water cycle is met in Year 2 (rivers) and taught fully in Science (Unit 6, Term 2) — geography's Term 1 water unit recalls the basics and focuses on water supply and use; the Roman Mediterranean links to History; *Journey to the River Sea* and *The Wild Robot* on the English shelf link to the rainforest and biomes.
 
 Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
@@ -33,45 +33,45 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
 **Essential question:** How do maps help us find, describe and plan routes to places near and far?
 
-**Key vocabulary:** map, plan, key, symbol, scale, compass, north, north-east, east, south-east, south, south-west, west, north-west, grid, grid reference, easting, northing, route, aerial photograph, atlas
+**Key vocabulary:** map, plan, key, symbol, scale, compass, north, north-east, east, south-east, south, south-west, west, north-west, grid, grid reference, easting, northing, route, aerial photograph, atlas, index, north-north-east (and the other in-between points), sixteen-point compass, magnetic compass, satellite image, layer, large-scale, small-scale
 
-### Lesson 1 — Eight points of the compass
+### Lesson 1 — Sixteen compass points: giving precise directions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use the eight points of a compass to give and follow directions." (UK NC KS2 Ge (eight points of a compass))
-- **Hook:** "A treasure is hidden north-east of the tree. Where exactly should you dig?"
-- **Key activity:** Find north with a real compass in the playground; chalk a giant compass rose; children give and follow directions using all eight points to find hidden cards. Then use the compass on a map of the school.
-- **Check for understanding:** "If you face south-west and turn to face the opposite direction, which way are you facing? Explain." → north-east — opposite points are directly across the compass rose
-- **Differentiation:** support: a compass-rose card with the four main points coloured and the in-between points built from them (north + east = north-east) / stretch: give a route of five directions that returns to the start
-- **Materials:** magnetic compasses, chalk, treasure cards
-- **Joy:** playground treasure hunt by compass
+- **Objective:** "By the end, I can use the sixteen points of the compass and a magnetic compass to describe directions more precisely." (UK NC KS2 Ge (eight points of a compass; use maps))
+- **Hook:** "A ship is told to sail 'north-east', but the harbour really lies halfway between north-east and north. After a long voyage, will it arrive?"
+- **Key activity:** Quick retrieval of the eight points (Year 2) on a chalk compass rose. New: the sixteen points — the directions halfway between each pair (NNE, ENE, ESE, SSE, SSW, WSW, WNW, NNW), named with the nearest of N, E, S or W first (so NNE is closer to north, ENE closer to east); a magnetic compass needle points to magnetic north, so line the map's north arrow up with it before reading directions (set maps and pace counts are practised in PE orienteering). Pairs then give and follow leg-by-leg directions between control points in the school grounds using the sixteen points.
+- **Check for understanding:** "Why would a pilot or sailor say 'north-north-east' rather than just 'north-east'?" → it is more precise; over a long distance even a small difference in direction takes you a long way from where you meant to go
+- **Differentiation:** support: a compass-rose card with the sixteen points colour-coded (main, half-way, in-between) / stretch: write a five-leg treasure route for a partner using at least three in-between points
+- **Materials:** magnetic compasses, school maps, control markers, chalk
+- **Joy:** "Compass-rose twister": call a direction and everyone jumps to it
 
-### Lesson 2 — Four-figure grid references
+### Lesson 2 — Atlas skills: finding any place in the world
 - **Duration:** 40 min
-- **Objective:** "By the end, I can read and give four-figure grid references to locate squares on a map." (UK NC KS2 Ge (four-figure grid references))
-- **Hook:** "How can two pairs of numbers pinpoint any square on a map?"
-- **Key activity:** Link to maths coordinates: along the corridor (eastings) then up the stairs (northings). Teacher models on a large grid map; pairs locate features and give references; play 'Battleships' on local maps.
-- **Check for understanding:** "Why must you always give the easting before the northing?" → so everyone reads the same square — swapping them points to a different square
-- **Differentiation:** support: a grid with the axis numbers highlighted in two colours / stretch: find a feature that spans two squares and explain how to describe it
-- **Materials:** grid maps, local Ordnance Survey–style or city map, counters
-- **Joy:** map Battleships
+- **Objective:** "By the end, I can use an atlas's contents and index to find any place, and choose the right kind of map for a question." (UK NC KS2 Ge (use maps, atlases and globes; four-figure grid references))
+- **Hook:** "There are thousands of places in this atlas. How can you find Manaus in under a minute?"
+- **Key activity:** Quick retrieval of four-figure grid references (Year 2) on a local map. New: atlas skills — the contents page, the index (page number plus a letter–number grid square, e.g. '48 C3'), and different map types (physical, political, climate, population). Races to find places from the index; then pairs decide which map type answers questions such as 'Which is the highest mountain in Africa?' or 'Which country borders Ghana to the west?'.
+- **Check for understanding:** "You want to know whether Italy is mountainous. Would you use the political map or the physical map of Europe? Explain." → the physical map, because it shows height with colours and marks mountain ranges; the political map mainly shows countries, borders and cities
+- **Differentiation:** support: an index card with the page and grid square already highlighted / stretch: find the same city on two maps of different scales and explain what each shows better
+- **Materials:** class sets of the same school atlas, index-race cards, local grid maps
+- **Joy:** "Atlas race": teams find five mystery places fastest
 
-### Lesson 3 — Symbols, keys and aerial photographs
+### Lesson 3 — Digital maps and satellite images
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use map symbols and keys and match maps to aerial photographs." (UK NC KS2 Ge (symbols and keys))
-- **Hook:** "A map is a bird's-eye view with a secret code. Can you crack it?"
-- **Key activity:** Compare an aerial photo with a map of the same place; identify features; design symbols for the school; use a published map key (e.g. OS or local equivalent).
-- **Check for understanding:** "Why do maps use symbols instead of pictures?" → symbols are clear, small and consistent, so lots of information fits and anyone with the key can read it
-- **Differentiation:** support: matching cards (photo ↔ symbol) / stretch: design a key for a new park that someone else can use without help
-- **Materials:** aerial photos (online satellite view), map keys
-- **Joy:** "Symbol inventors" school map
+- **Objective:** "By the end, I can use a digital map's layers, zoom and measuring tool to find and compare information about a place." (UK NC KS2 Ge (use digital/computer mapping))
+- **Hook:** "The same place can look completely different depending on which button you press. Why?"
+- **Key activity:** Quick retrieval of symbols, keys and aerial photos (Year 2). New: on tablets, children switch between map, satellite and terrain layers for the school and one faraway place (e.g. Manaus or Rome); zoom in and out to see what appears and disappears; use the measuring tool to find a straight-line distance; and record one thing each layer shows best.
+- **Check for understanding:** "You need to know whether a path goes uphill. Which layer would you use, and why not the satellite view?" → the terrain layer, because it shows the shape and height of the land; a satellite photo shows what is on the surface but not clearly how high or steep it is
+- **Differentiation:** support: a step-by-step card with screenshots of each button / stretch: compare a satellite image from years ago with today's (using a historical-imagery tool) and describe one change
+- **Materials:** tablets or computers with a free digital map, printed screenshots for backup, recording sheets
+- **Joy:** "Satellite spy": identify mystery places from above
 
-### Lesson 4 — Scale and distance
+### Lesson 4 — Large-scale and small-scale maps
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a simple scale to measure distances on a map." (UK NC KS2 Ge (use maps))
-- **Hook:** "On this map, 1 cm is 100 m in real life. How far is it from the school to the park?"
-- **Key activity:** Measure with string and ruler; convert using the scale bar; compare straight-line distance with route distance.
-- **Check for understanding:** "Why is the walking route longer than the straight-line distance on the map?" → roads and paths bend around buildings and obstacles
-- **Differentiation:** support: scale bar with ruler marks / stretch: calculate the time to walk a route at a given speed
+- **Objective:** "By the end, I can compare maps of different scales, choose the right one for a job, and measure a winding route with a scale bar." (UK NC KS2 Ge (use maps; scale))
+- **Hook:** "Why can't you find your school on a map of the whole world — or the whole world on a map of your street?"
+- **Key activity:** Quick retrieval: using a scale bar to measure a straight distance (Year 2). New: lay out four maps of the same place at different scales (street plan, town, country, world); discuss how detail disappears as the area grows. Measure a winding walking route with string along the scale bar and compare it with the straight-line distance.
+- **Check for understanding:** "You are planning a walk to the park. Would you use the country map or the street map? Explain using the word 'detail'." → the street map — it is a large-scale map covering a small area, so it shows individual streets and paths in detail; the country map covers a huge area and leaves those details out
+- **Differentiation:** support: scale bar with ruler marks and two maps only / stretch: calculate the time to walk a route at a given speed
 - **Materials:** maps, string, rulers
 - **Joy:** "Route race": plan the shortest route
 
@@ -85,7 +85,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 - **Materials:** local maps, rulers, compasses
 - **Joy:** follow the best route on a real walk if possible
 
-**End-of-unit check:** Give and follow eight-point compass directions; give four-figure grid references for three features; use a map key and scale to describe a route.
+**End-of-unit check:** Name and use the sixteen compass points to give precise directions; find three places with an atlas index; choose the right map type and scale for a task; give four-figure grid references and measure a winding route with a scale bar.
 
 ---
 
@@ -99,7 +99,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can trace the journey of water from rain to our taps." (UK NC KS2 Ge (human geography: distribution of natural resources))
 - **Hook:** "Turn on a tap. Where was that water a week ago?"
-- **Key activity:** Build on the science water cycle; follow water through catchment, reservoir or aquifer, treatment works and pipes to school; locate the local reservoir or source on a map.
+- **Key activity:** Recall the water cycle from Year 2's rivers unit (Science teaches it fully in Term 2); follow water through catchment, reservoir or aquifer, treatment works and pipes to school; locate the local reservoir or source on a map.
 - **Check for understanding:** "Why must water be treated before it reaches our taps?" → to remove dirt and germs so it's safe to drink
 - **Differentiation:** support: a flow diagram to complete / stretch: explain what happens to water after it goes down the drain
 - **Materials:** maps, flow diagrams
@@ -109,7 +109,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can compare access to clean water in different places and explain the physical and human reasons for the differences." (UK NC KS2 Ge (human and physical geography; distribution of resources))
 - **Hook:** "Millions of children around the world spend hours every day fetching water. Why — when others just turn a tap?"
-- **Key activity:** Groups study case-study cards (a village in northern Kenya, a city in India, a town in the Netherlands, the child's own town) with rainfall data and infrastructure facts; mark them on a world map; sort reasons into physical (low or seasonal rainfall, drought) and human (no pipes or treatment, cost, conflict). Children carry a full 10-litre bucket 50 m to feel the effort (a smaller amount for safety).
+- **Key activity:** Groups study case-study cards (a village in northern Kenya, a city in India, a town in the Netherlands, the child's own town) with rainfall data and infrastructure facts; mark them on a world map; sort reasons into physical (low or seasonal rainfall, drought) and human (no pipes or treatment, cost, conflict). Children carry a bucket holding a safe amount (3–5 litres) for 50 m, then calculate how many trips it would take to carry the 20 litres or more a family may need each day.
 - **Check for understanding:** "Give one physical and one human reason why a place might lack clean water." → physical: very little or unreliable rain; human: no money for pipes, pumps or treatment works
 - **Differentiation:** support: picture case-study cards with key facts highlighted / stretch: explain how building a village well or rainwater tank changes daily life, especially for girls who often fetch water
 - **Materials:** case-study cards, world map, rainfall charts, buckets
@@ -149,7 +149,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain the difference between weather and climate using data." (UK NC KS2 Ge (climate zones))
 - **Hook:** "Today it's raining in Cairo. Does that mean Cairo has a wet climate?"
-- **Key activity:** Use the class weather-station data (from Science) as 'weather' and 30-year averages as 'climate'. Sort statements into weather or climate. Read a first climate graph (bars for rainfall, line for temperature).
+- **Key activity:** Use a week of local weather observations (the class records them for a week before the lesson, or uses a weather website) as 'weather' and 30-year averages as 'climate'. Sort statements into weather or climate. Read a first climate graph (bars for rainfall, line for temperature).
 - **Check for understanding:** "Why can't one rainy day tell us Cairo's climate?" → weather is the day-to-day conditions; climate is the average pattern over many years — Cairo's climate is hot and dry overall
 - **Differentiation:** support: statement cards with 'today / usually' clue words / stretch: read a climate graph and describe the wettest and hottest months
 - **Materials:** climate graphs, weather data, sorting cards
@@ -158,12 +158,12 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 ### Lesson 11 — Why latitude matters
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain why places near the Equator are hotter than places near the poles." (UK NC KS2 Ge (latitude; climate zones))
-- **Hook:** "Shine a torch straight down, then at a slant. Which patch of light is brighter?"
-- **Key activity:** Torch-and-globe demonstration: the Sun's rays hit the Equator directly (concentrated) and the poles at a low angle (spread out). Mark the Equator and Tropics on a globe; colour a blank world map with climate zones (tropical, dry, temperate, polar, mountain).
-- **Check for understanding:** "Why is it colder near the poles even though the Sun shines there too?" → sunlight hits at a low angle and spreads over a larger area, so each part gets less heat
-- **Differentiation:** support: a map with zones outlined to colour using a key / stretch: explain why mountains near the Equator can have snow (height makes it colder)
-- **Materials:** globes, torches, blank world maps, atlases
-- **Joy:** torch-and-globe demonstration in a darkened room
+- **Hook:** "If we travel south from the Arctic to the Equator along one line of longitude, will it get warmer all the way?"
+- **Key activity:** Quick retrieval of Year 2's torch-and-globe demonstration (direct rays near the Equator, spread-out rays near the poles). New: a temperature transect along about 30° E. Pairs plot average yearly temperatures on a bar chart ordered by latitude — Murmansk (69° N, about 0 °C), St Petersburg (60° N, about 6 °C), Kyiv (50° N, about 8 °C), Istanbul (41° N, about 15 °C), Cairo (30° N, about 22 °C), Khartoum (16° N, about 30 °C) and Kampala (0°, about 22 °C) — describe the pattern and hunt for the surprise. Then colour a blank world map with climate zones (tropical, dry, temperate, polar, mountain).
+- **Check for understanding:** "Temperatures rise from Murmansk to Khartoum, but Kampala, almost on the Equator, is cooler than Khartoum. Explain both parts of the pattern." → nearer the Equator the Sun's rays are more direct, so it is generally warmer; Kampala is about 1,200 m above sea level, and higher places are cooler
+- **Differentiation:** support: a bar chart with the axes and first three bars drawn, and a map with zones outlined to colour / stretch: explain why mountains near the Equator, such as Kilimanjaro, can have snow
+- **Materials:** globes, torches, blank world maps, atlases, city temperature cards, squared paper
+- **Joy:** "Surprise city" — spot the city that breaks the pattern
 
 ### Lesson 12 — What is a biome?
 - **Duration:** 40 min
@@ -378,7 +378,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 ### Lesson 30 — Cocoa in Ghana
 - **Duration:** 40 min
 - **Objective:** "By the end, I can describe how cocoa is grown in Ghana and the lives of cocoa farmers." (UK NC KS2 Ge (place knowledge: a region in Africa))
-- **Hook:** "Most of the world's cocoa is grown in West Africa, and Ghana is one of the biggest producers. Most cocoa farmers have never tasted a chocolate bar."
+- **Hook:** "Most of the world's cocoa is grown in West Africa, and Ghana is one of the biggest producers. Many cocoa farmers rarely, if ever, eat the chocolate made from their beans. Why might that be?"
 - **Key activity:** Locate Ghana; climate graph (tropical); cocoa-growing steps (pods, beans, fermenting, drying, selling); photos and a short approved video of a cocoa farm; discuss farmers' incomes.
 - **Check for understanding:** "Why does cocoa grow well in Ghana?" → Ghana is near the Equator with a hot, wet climate that cocoa trees need, usually in the shade of taller trees
 - **Differentiation:** support: a picture sequence of cocoa growing / stretch: explain why it's unfair that many farmers earn very little even though chocolate is expensive
@@ -465,7 +465,7 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
 ## End-of-year mastery checks
 
-1. **Map skills** — uses eight compass points, four-figure grid references, map keys and a simple scale to describe locations and routes. *See it:* the expedition route plan.
+1. **Map skills** — uses sixteen compass points and a magnetic compass to give precise directions; uses an atlas index, digital map layers, four-figure grid references, keys and scale; chooses maps of the right scale. *See it:* the compass-rose trail and the expedition route plan.
 2. **Weather vs climate** — explains the difference and reads a climate graph. *See it:* describes and compares two climate graphs.
 3. **Climate zones and biomes** — explains why latitude affects temperature and locates the main biomes with examples of adaptations. *See it:* a labelled world biome map.
 4. **Water** — traces water from rain to tap and explains unequal access with physical and human reasons.
@@ -492,4 +492,4 @@ Lessons are **40 minutes**, one a week, with at least three lessons outdoors.
 
 **Differentiation.** Support = more concrete: physical maps and globes, picture cards, partially completed diagrams, adult-supported fieldwork roles. Stretch = deeper geographical reasoning: explain causes and trade-offs, compare three places, evaluate data reliability, propose sustainable solutions.
 
-**Vertical connections.** Builds on Year 2 (latitude and longitude, hemispheres, time zones, regions and rivers). Year 4 uses these map skills (moving to six-figure grid references) and the climate framework for mountains, volcanoes and earthquakes, and for settlements and land use.
+**Vertical connections.** Builds on Year 2 (latitude and longitude, hemispheres, time zones, eight compass points, four-figure grid references, symbols, scale, rivers, mountains and volcanoes, settlements). Year 3 retrieves those map skills briefly and adds sixteen compass points, atlas indexes, digital layers and map scale. Year 4 uses them for coasts, the Colorado River region of North America, Antarctica, mountains at altitude, and resources and energy; Year 5 adds six-figure grid references, contours and GIS.

@@ -2,7 +2,7 @@
 
 ## Year overview
 
-Year 3 PE turns fundamental movement into **game, gymnastic, dance and athletic skill**, and builds the **health knowledge** that keeps a body and mind well. Children apply running, jumping, throwing, catching, balancing and striking in **invasion games** (basketball, netball, football, hockey — simplified), **net and wall games**, and **striking and fielding games** (cricket, rounders, baseball); link actions into **gymnastic sequences**; learn **dances from around the world**; run, jump and throw in **athletics**; navigate outdoors with maps in **orienteering**; and learn **water safety**. Two **health units** teach food and energy, hydration, sleep, hygiene, body safety, feelings and basic first aid.
+Year 3 PE turns fundamental movement into **game, gymnastic, dance and athletic skill**, and builds the **health knowledge** that keeps a body and mind well. Children apply running, jumping, throwing, catching, balancing and striking in **invasion games** (basketball, netball, football, hockey — simplified), **net and wall games**, and **striking and fielding games** (cricket, rounders, baseball); link actions into **gymnastic sequences**; learn **dances from around the world**; run, jump and throw in **athletics**; navigate outdoors with maps in **orienteering**; and learn **water safety**. Two **health units** briefly retrieve the Year 2 basics (food, water, sleep, handwashing, body safety, calm breathing, calling for help) and go further: allergies and asthma, carrying loads and posture, road and cycling safety, food hygiene, growing bodies and body image, online secrets, the body's stress response, and first aid for burns and nosebleeds.
 
 **Delivery.** PE is active and mostly **delivered by a teacher, coach or parent**, outdoors or in a hall — the Classai tutor can explain rules, show diagrams and run reflection, but the doing is physical and supervised. Every practical lesson follows: warm-up (raising heart rate and mobilising joints) → skill teaching with demonstration → practice in small groups → a small-sided game or performance → cool-down and reflection. Children should be **moving for most of every lesson**.
 
@@ -23,11 +23,11 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 | T1 | 1. Fit for life: movement foundations and fitness | 3 | 6 | 1–6 |
 | T1 | 2. Invasion games 1: basketball and netball skills | 4 | 8 | 7–14 |
 | T1 | 3. Gymnastics: balance, rolls and sequences | 3.5 | 7 | 15–21 |
-| T2 | 4. Health 1: food, water, sleep and energy | 3 | 6 | 22–27 |
+| T2 | 4. Health 1: food, safety and active living | 3 | 6 | 22–27 |
 | T2 | 5. Dance around the world | 3.5 | 7 | 28–34 |
 | T2 | 6. Invasion games 2: football and hockey | 3.5 | 7 | 35–41 |
 | T2 | 7. Net and wall games | 3 | 6 | 42–47 |
-| T3 | 8. Health 2: hygiene, body safety, feelings and first aid | 3 | 6 | 48–53 |
+| T3 | 8. Health 2: staying clean, safe, well and ready to help | 3 | 6 | 48–53 |
 | T3 | 9. Striking and fielding: cricket, rounders and baseball | 3.5 | 7 | 54–60 |
 | T3 | 10. Athletics, outdoor adventure and water safety | 5 | 10 | 61–70 |
 | **Total** | **10 units** | **35** | **70** | |
@@ -274,73 +274,73 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 
 ---
 
-## Unit 4 — Health 1: food, water, sleep and energy
+## Unit 4 — Health 1: food, safety and active living
 
-**Essential question:** How do food, water, sleep and activity give me energy and help me grow?
+**Essential question:** How do food and activity keep me healthy — and how can I keep myself and my friends safe every day?
 
-**Key vocabulary:** nutrients, carbohydrate, protein, fat, fibre, vitamins, minerals, balanced diet, portion, hydration, sleep, routine, energy, screen time, habit
+**Key vocabulary:** nutrients, carbohydrate, protein, fat, fibre, vitamins, minerals, balanced diet, portion, allergy, asthma, inhaler, auto-injector, posture, spine, stopping distance, reflective, helmet, active minutes, average, habit
 
 ### Lesson 22 — A balanced plate
 - **Duration:** 40 min
 - **Objective:** "By the end, I can plan a balanced meal and explain what each food group does." (UK RSHE Health (healthy eating); links to Science)
 - **Hook:** "If you ate only pasta for a week, what would your body be missing?"
-- **Key activity:** Use a balanced-plate model (fruit and vegetables, starchy foods, protein, dairy or alternatives, small amounts of oils); sort pictures of meals from around the world (jollof rice, dal and chapati, bibimbap, paella) into groups; plan a balanced lunchbox.
+- **Key activity:** Quick retrieval from Year 2 (which foods give fast or slow energy? why do water and sleep matter?); then use a balanced-plate model (fruit and vegetables, starchy foods, protein, dairy or alternatives, small amounts of oils); sort pictures of meals from around the world (jollof rice, dal and chapati, bibimbap, paella) into groups; plan a balanced lunchbox.
 - **Check for understanding:** "Why do we need protein, and name two foods that contain it." → protein helps us grow and repair the body — e.g. beans, eggs, fish, lentils, meat, tofu
 - **Differentiation:** support: picture cards with food groups colour-coded / stretch: adapt a meal to make it more balanced and explain the change
 - **Materials:** food picture cards, plate templates, food packaging
 - **Joy:** 'World lunchbox' design
 
-### Lesson 23 — Energy in, energy out
+### Lesson 23 — Allergies, asthma and helping a friend
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that food gives energy and that activity uses it." (UK RSHE Health)
-- **Hook:** "Why are you so hungry after swimming?"
-- **Key activity:** Active lesson: children do 1 minute each of different activities and rate effort; discuss how the body uses energy from food; compare snack choices for before sport.
-- **Check for understanding:** "Why might a banana be a better pre-match snack than a bag of sweets?" → it releases energy more steadily and contains vitamins and fibre; sweets give a quick spike then a drop
-- **Differentiation:** support: picture snack cards / stretch: plan a sports-day eating plan with reasons
-- **Materials:** skipping ropes, timers, snack cards
-- **Joy:** 'Energy relay' activities
+- **Objective:** "By the end, I can explain what allergies and asthma are, recognise when a friend needs help, and know what to do." (UK RSHE Health (health and prevention; basic first aid); NHES Standard 5)
+- **Hook:** "Some children carry an inhaler or an allergy pen everywhere. Why — and how could you help if they suddenly felt unwell?"
+- **Key activity:** Adult-led, with the school nurse if possible: an allergy is the body's defence system over-reacting to something usually harmless (e.g. peanuts, eggs, milk, bee stings, pollen); signs of a serious reaction (swelling of the lips or face, itchy rash, difficulty breathing, feeling faint) mean *fetch an adult at once* — they may use the child's auto-injector pen and call the emergency number; asthma: the airways tighten and narrow, making breathing hard, and a reliever inhaler relaxes and opens them; why we don't share food and why warm-ups help children with asthma. Role-play: notice, get an adult, stay with your friend and keep them calm. Only the child themselves or a trained adult uses an inhaler or auto-injector.
+- **Check for understanding:** "Your friend with a nut allergy eats a biscuit and says their mouth feels itchy and their lips are swelling. What should you do, and why quickly?" → fetch an adult straight away (they may use the auto-injector and call the emergency number) and stay with your friend; a serious allergic reaction can make breathing difficult within minutes
+- **Differentiation:** support: picture cards for 'notice — get an adult — stay with them' / stretch: explain why a reliever inhaler makes breathing easier during an asthma attack
+- **Materials:** picture scenario cards, trainer (practice) inhaler and auto-injector if the school nurse brings them; sensitivity: never single out children with allergies or asthma — they share their own story only if they want to
+- **Joy:** 'Allergy-aware class' agreement signed by everyone
 
-### Lesson 24 — Water and hydration
+### Lesson 24 — Posture, backpacks and looking after my back
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why the body needs water and recognise signs of dehydration." (UK RSHE Health)
-- **Hook:** "About 60% of your body is water — where does it go when you run?"
-- **Key activity:** Discuss sweat, breathing and needing to drink regularly; signs of dehydration (thirst, headache, tiredness, dark urine); measure a day's drinks; compare water with sugary drinks (link to Science teeth investigation).
-- **Check for understanding:** "What are two signs that you might need to drink more water?" → e.g. feeling thirsty and having a headache or dark-coloured urine
-- **Differentiation:** support: picture signs cards / stretch: plan how to stay hydrated on a hot sports day
-- **Materials:** cups, jugs, drink cards
-- **Joy:** 'Water champion' daily chart
+- **Objective:** "By the end, I can carry, lift and sit in ways that protect my back." (UK RSHE Health (health and prevention); SHAPE Standard 3)
+- **Hook:** "Weigh your school bag. Is it heavier than it should be?"
+- **Key activity:** Weigh school bags (never children) and compare with a guideline many health organisations use: a bag should be about 10% of body weight and no more than about 15%; work out the limits for sample body weights (e.g. 30 kg → 3 kg, up to 4.5 kg) — a maths link; wear both straps, pack the heaviest items nearest the back; safe lifting (bend the knees, keep the back straight, hold the load close); sitting and screen posture; spine-mobility moves (cat–cow, gentle twists) to finish.
+- **Check for understanding:** "A 28 kg child carries a 6 kg bag on one shoulder. What two changes would you suggest, and why?" → lighten it to about 3–4 kg (roughly 10–15% of 28 kg) and use both straps, so the load is spread evenly and one side of the back and shoulders isn't strained
+- **Differentiation:** support: find 10% using a tenths chart (divide by 10) / stretch: design a 'pack it right' guide for younger children with reasons
+- **Materials:** bathroom scales, school bags, calculators, mats; sensitivity: calculations use sample body weights — children are not weighed in class
+- **Joy:** 'Pack it right' relay
 
-### Lesson 25 — Sleep: the body's recharge
+### Lesson 25 — Road and cycling safety
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain why sleep matters and plan a healthy bedtime routine." (UK RSHE Health (sleep))
-- **Hook:** "What happens to your brain while you sleep? It's busier than you think!"
-- **Key activity:** Discuss that children aged 6–12 need about 9–12 hours; what sleep does (growth, memory, mood); screens and light before bed; plan a wind-down routine.
-- **Check for understanding:** "Why can using a tablet right before bed make it harder to fall asleep?" → the bright light and excitement keep the brain alert
-- **Differentiation:** support: picture routine cards to order / stretch: keep a one-week sleep diary and spot a pattern
-- **Materials:** routine cards, sleep diary sheets
-- **Joy:** 'Dream routine' comic strip
+- **Objective:** "By the end, I can cross roads safely, fit a cycle helmet correctly and explain how to be seen." (UK RSHE Health (being safe); NHES Standard 7)
+- **Hook:** "A car at 50 km/h needs about 25 metres to stop — let's mark that out on the playground. Could a driver stop if you stepped out?"
+- **Key activity:** Outdoors on the playground: pace out the stopping distance; a safe crossing routine (find a safe place such as a crossing, stop at the kerb, look and listen in both directions — remembering which side traffic drives on where you live — and keep looking while you cross; never step out between parked cars); being seen (bright and reflective clothing by day, lights at night); helmet fit in pairs: level on the head about two fingers' width above the eyebrows, side straps meeting in a V just under each ear, chin strap snug with room for one finger; quick bike checks (brakes, tyres).
+- **Check for understanding:** "Why can't a driver stop instantly when someone steps out, and what does that mean for how you cross?" → the driver needs time to notice and react, and the car keeps moving while it brakes, so it travels many metres; you wait until the road is clear or traffic has stopped, and keep looking as you cross
+- **Differentiation:** support: crossing steps as picture cards / stretch: explain why stopping distances get longer on wet roads and at higher speeds
+- **Materials:** tape measure, cones, cycle helmets in several sizes, reflective items, torch; safety: all practice on the playground, never on real roads
+- **Joy:** 'Be bright, be seen' torch test in a darkened room
 
 ### Lesson 26 — Active habits
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan how to get 60 active minutes a day." (UK RSHE Health (physical activity))
-- **Hook:** "The WHO says 60 minutes a day of moving — how close are you?"
-- **Key activity:** Children log activity for a day; brainstorm active options at home; design a 'playground game' to increase activity.
-- **Check for understanding:** "How could you add 20 more active minutes to your day?" → realistic ideas (walking to school, active play)
-- **Differentiation:** support: an activity menu / stretch: design an active game for younger children
-- **Materials:** activity logs, playground equipment
+- **Objective:** "By the end, I can use an activity log to check whether I get 60 active minutes a day and plan how to add more." (UK RSHE Health (physical activity); maths link (averages))
+- **Hook:** "The WHO says children should average at least 60 minutes a day of moving that makes you warm and a bit out of breath — how close are you?"
+- **Key activity:** Retrieve Year 2 'how hard is my body working?' (talk test); the WHO guideline includes activities that make you breathe hard, and bone- and muscle-strengthening play (jumping, climbing) on at least three days a week; children keep a week's activity log (with families) and find their average; brainstorm active options at home; design a 'playground game' to increase activity.
+- **Check for understanding:** "Maya's active minutes on five school days were 40, 75, 30, 90 and 65. What was her average, and what would you advise her?" → 300 ÷ 5 = 60 minutes, so she meets the guideline on average — but on two days (40 and 30) she was well short, so she could add active play on those days
+- **Differentiation:** support: an activity menu and a calculator / stretch: design an active game for younger children that includes jumping or climbing (bone strength)
+- **Materials:** activity logs, calculators, playground equipment
 - **Joy:** play the invented games
 
 ### Lesson 27 — Unit review: healthy habits plan
 - **Duration:** 40 min
 - **Objective:** "By the end, I can create a personal healthy-habits plan and explain it." (UK RSHE Health)
 - **Hook:** "Design your personal 'power-up' plan."
-- **Key activity:** Children make a plan covering food, water, sleep and activity with one realistic change each; share with a partner.
+- **Key activity:** Children make a plan covering food, activity, sleep, carrying their bag and getting to school safely, with one realistic change each; share with a partner.
 - **Check for understanding:** "Which change will make the biggest difference for you, and why?" → reasoned choice
 - **Differentiation:** support: template / stretch: track the plan for a week and reflect
 - **Materials:** templates
 - **Joy:** 'Power-up' posters
 
-**End-of-unit check:** Explain the jobs of the main food groups; plan a balanced meal; explain why water and 9–12 hours of sleep matter; set one realistic healthy-habit target.
+**End-of-unit check:** Plan a balanced meal and explain what protein does; say what to do if a friend has an allergic reaction or asthma attack; show how to carry a bag, fit a helmet and cross a road safely; calculate an average from an activity log and set one realistic healthy-habit target.
 
 ---
 
@@ -372,11 +372,11 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 
 ### Lesson 30 — Kpanlogo (Ghana)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can dance kpanlogo-style steps to live or recorded drumming." (UK NC KS2 PE; different cultures)
-- **Hook:** "In Ghana, kpanlogo dancers and drummers talk to each other — the dancers change when the drum calls."
-- **Key activity:** Adult-led: learn grounded steps with bent knees and relaxed upper body to kpanlogo drumming; respond to drum signals (links to music unit).
-- **Check for understanding:** "How do the dancers know when to change their movement?" → they listen for the lead drummer's call signal
-- **Differentiation:** support: one basic step / stretch: lead a change with a signal
+- **Objective:** "By the end, I can dance kpanlogo-style steps to drumming and explain how a newer dance grew from older traditions." (UK NC KS2 PE; different cultures)
+- **Hook:** "Kpanlogo was created by young Ga people in Accra, Ghana, in the early 1960s — just after Ghana's independence in 1957. Can a dance be both new and traditional?"
+- **Key activity:** Adult-led: retrieve Year 2's call-and-response with the drum; new: grounded steps with bent knees and a relaxed, rippling upper body; feet keep one pattern while hands clap a different one (two rhythms at once, as in the drumming); dancers change on the lead drummer's call and improvise in turn in a circle (links to music).
+- **Check for understanding:** "Kpanlogo is only about 60 years old, but it uses older Ga rhythms and movements. What does that tell us about 'traditional' dance?" → traditions keep changing: people mix old rhythms and steps with new music and ideas, so cultures stay alive rather than frozen in the past
+- **Differentiation:** support: one basic step with a steady clap / stretch: lead a change with a signal and improvise a solo phrase in the circle
 - **Materials:** drums, recordings, map of Ghana
 - **Joy:** dance-and-drum circle
 
@@ -574,73 +574,73 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 
 ---
 
-## Unit 8 — Health 2: hygiene, body safety, feelings and first aid
+## Unit 8 — Health 2: staying clean, safe, well and ready to help
 
 **Essential question:** How can I keep my body clean, safe and well — and help others when something goes wrong?
 
-**Key vocabulary:** hygiene, germs, bacteria, virus, handwashing, dental care, body safety, private parts, consent, trusted adult, feelings, stress, calm, first aid, emergency, recovery position, emergency number
+**Key vocabulary:** hygiene, bacteria, cross-contamination, clean–separate–cook–chill, growth spurt, body image, edited image, body safety, private parts, consent, trusted adult, stress, adrenaline, calm, first aid, burn, nosebleed, recovery position, emergency number
 
-### Lesson 48 — Germs and hygiene
+### Lesson 48 — Food hygiene: stopping germs in the kitchen
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how germs spread and how hygiene stops them." (UK RSHE Health (health protection and prevention))
-- **Hook:** "Glitter is a germ! Let's see how far it travels in one morning."
-- **Key activity:** Glitter-germs demonstration (a little glitter on one child's hand; watch it spread through handshakes and shared objects); proper 20-second handwashing with soap (sing a song twice through); coughing/sneezing into elbow or tissue ('catch it, bin it, kill it').
-- **Check for understanding:** "Why do we need soap, and why for about 20 seconds?" → soap breaks up grease and germs so water can wash them away; 20 seconds gives time to cover all surfaces
-- **Differentiation:** support: picture sequence of handwashing steps / stretch: explain why washing hands is especially important before eating and after the toilet
-- **Materials:** glitter (washable), soap, sinks, timers
-- **Joy:** glitter-germ detective hunt
+- **Objective:** "By the end, I can explain how germs spread through food and use the four rules that keep food safe." (UK RSHE Health (health protection and prevention); links to Science)
+- **Hook:** "In Year 2 the germ was glitter. In a kitchen the germs are invisible — so how do cooks stop them spreading?"
+- **Key activity:** Quick retrieval: 20-second handwashing with soap, and coughing or sneezing into a tissue (bin it, wash hands) or your elbow. New: the four food-safety habits — clean (hands, surfaces, boards), separate (raw meat and fish on their own board, away from ready-to-eat food), cook (until steaming hot all the way through), chill (keep food in a fridge at about 5 °C or below); spot the risks in a kitchen picture; model how bacteria can double about every 20 minutes in warm conditions using counters (1 → 2 → 4 → 8 … → 64 after two hours).
+- **Check for understanding:** "Why should raw chicken never be cut on the same board as salad, even though the chicken will be cooked?" → bacteria from the raw chicken can pass onto the salad, which isn't cooked, so nothing kills them before someone eats it
+- **Differentiation:** support: sort picture cards into clean / separate / cook / chill / stretch: use the doubling model to explain why cooked food shouldn't sit in a warm room for hours
+- **Materials:** kitchen-scene picture, coloured chopping boards (or pictures), counters, soap, sinks
+- **Joy:** 'Kitchen detectives' spot-the-risk race
 
-### Lesson 49 — Caring for teeth and body
+### Lesson 49 — Growing bodies and respecting differences
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a daily care routine for teeth, skin and hair and explain why it matters." (UK RSHE Health; links to Science)
-- **Hook:** "Your teeth have to last the rest of your life. How are you protecting them?"
-- **Key activity:** Revisit the science eggshell investigation; teach brushing twice daily for 2 minutes with fluoride toothpaste, spitting not rinsing; sun safety (hat, sunscreen, shade); introduce that bodies change as we grow (puberty is taught in Year 4–5).
-- **Check for understanding:** "Why should you spit out toothpaste but not rinse with water afterwards?" → it leaves fluoride on the teeth to protect them
-- **Differentiation:** support: picture routine cards / stretch: plan a sun-safety kit for a school trip and explain each item
-- **Materials:** toothbrushes, model teeth, sun-safety items
-- **Joy:** 'two-minute brush' song
+- **Objective:** "By the end, I can explain that bodies grow and change at different rates, spot edited images, and speak respectfully about all bodies." (UK RSHE Health (changing body; respectful relationships); NHES Standard 2)
+- **Hook:** "Top athletes come in every shape — a gymnast about 1.4 m tall and a basketball player over 2 m. Which body is 'right' for sport?"
+- **Key activity:** Using sample (not class) growth data: children grow at different rates, with growth spurts at different times; bodies differ in shape, size, skin and ability — and all deserve respect; how photos in adverts and online can be edited or filtered; kind language about bodies (what bodies can *do*); a brief preview that more changes come at puberty (taught in Year 4); quick retrieval of daily care (teeth twice a day with fluoride toothpaste — spit, don't rinse; sun protection).
+- **Check for understanding:** "An advert shows a 'perfect' athlete's photo. Why shouldn't you compare your own body with it?" → the photo may be edited or filtered, and real bodies grow at different rates and come in different shapes; what matters is being healthy and what your body can do
+- **Differentiation:** support: sort 'kind' and 'unkind' comments about bodies / stretch: rewrite an advert slogan so it celebrates what bodies can do
+- **Materials:** sample growth chart, age-appropriate advert examples, sun-safety items; sensitivity: never measure or weigh children in front of others
+- **Joy:** 'What my body can do' gallery
 
-### Lesson 50 — Body safety
+### Lesson 50 — Body safety: offline and online
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain that my body belongs to me and how to get help if I feel unsafe." (UK RSHE (being safe); NSPCC PANTS guidance)
-- **Hook:** "Some secrets are fun, like a surprise party. Others make you feel worried. What's the difference?"
-- **Key activity:** Teach the NSPCC PANTS rule (Privates are private; Always remember your body belongs to you; No means no; Talk about secrets that upset you; Speak up, someone can help) in age-appropriate, calm language; identify trusted adults; practise saying 'no' and telling. Follow safeguarding procedures for any disclosure.
-- **Check for understanding:** "What is the difference between a good surprise and a worrying secret, and what should you do about a worrying one?" → a surprise is fun and will be shared soon; a worrying secret makes you feel bad — tell a trusted adult
-- **Differentiation:** support: picture scenarios and a 'helping hand' of five trusted adults / stretch: explain why you should keep telling until someone listens
-- **Materials:** PANTS resources, helping-hand templates
-- **Joy:** 'Helping hand' drawing of trusted adults
+- **Objective:** "By the end, I can apply the PANTS rule to situations at home, at school and online, and know how to get help." (UK RSHE (being safe; online relationships); NSPCC PANTS guidance)
+- **Hook:** "Someone in a game chat says, 'Don't tell your parents about me — it's our secret.' Is that a fun surprise or a worrying secret?"
+- **Key activity:** Retrieve the PANTS rule from Years 1–2 in calm, age-appropriate language (Privates are private; Always remember your body belongs to you; No means no; Talk about secrets that upset you; Speak up, someone can help); go further: the same rules apply online — no one should ask you for photos of your body or ask you to keep a chat secret; nothing is ever your fault, even if you broke a rule to get there; practise 'stop, block, tell' for online messages; update the five trusted adults and add one outside school or home (e.g. a helpline number for your country). Links to computing (online safety). Follow safeguarding procedures for any disclosure.
+- **Check for understanding:** "Someone you've only met in an online game asks you to send a photo and keep it secret. What should you do, and which PANTS ideas help you?" → don't send it; stop chatting and block; tell a trusted adult — 'Talk about secrets that upset you' and 'Speak up, someone can help'; you won't be in trouble
+- **Differentiation:** support: picture scenarios sorted into 'surprise' or 'tell' / stretch: explain why someone might ask you to keep a secret, and why you should keep telling until someone listens
+- **Materials:** PANTS resources, scenario cards, helping-hand templates, a local helpline number
+- **Joy:** 'Helping hand' of trusted adults, now with one new name
 
-### Lesson 51 — Feelings and calm
+### Lesson 51 — Feelings, stress and the body's alarm
 - **Duration:** 40 min
-- **Objective:** "By the end, I can recognise physical signs of strong feelings and use strategies to calm down." (UK RSHE (mental wellbeing))
-- **Hook:** "When you're nervous before a race, what does your body do?"
-- **Key activity:** Map where feelings show in the body (butterflies, fast heart, hot face); practise calming strategies: 'square breathing', 5-4-3-2-1 senses, muscle squeeze and release; link exercise to good mood.
-- **Check for understanding:** "Which calming strategy works best for you, and when would you use it?" → names a strategy and a real situation
-- **Differentiation:** support: picture strategy cards / stretch: teach a strategy to a partner
-- **Materials:** strategy cards, calm music
+- **Objective:** "By the end, I can explain what my body does when I feel stressed and use slow breathing to calm it." (UK RSHE (mental wellbeing); links to Science (heart and lungs))
+- **Hook:** "Your heart pounds on the start line before you've even run a step. Why?"
+- **Key activity:** Retrieve Year 2 calming strategies; new: the body's 'alarm system' — when we feel threatened or under pressure, adrenaline makes the heart and breathing speed up, muscles tense and the tummy 'flutter': helpful for escaping danger, less helpful before a test or a performance; practise slow breathing with a longer out-breath (in for 4, out for 6) for two minutes and take your pulse before and after; add 5-4-3-2-1 senses and exercise as a mood-lifter; everyone makes a personal calm plan.
+- **Check for understanding:** "Why does breathing out slowly help you calm down when your body's alarm is on?" → slow breathing with a long out-breath tells the body it is safe, so the heart and breathing slow down and muscles relax
+- **Differentiation:** support: trace a 'breathing star' card while breathing / stretch: explain why the alarm response helped early humans and when it still helps today
+- **Materials:** breathing cards, stopwatches, calm music
 - **Joy:** 'calm corner' kit
 
-### Lesson 52 — First aid basics
+### Lesson 52 — First aid: burns, nosebleeds and getting help
 - **Duration:** 40 min
-- **Objective:** "By the end, I can know how to get help in an emergency and give basic first aid for minor injuries." (UK RSHE (basic first aid))
-- **Hook:** "Your friend falls and won't answer you. What do you do first?"
-- **Key activity:** Adult-led with a first-aid trainer if possible: check for danger; shout for help; call the emergency number for your country (e.g. 999 in the UK, 112 across the EU, 911 in the US and Canada, 000 in Australia) and what to say; treat minor cuts (clean, cover) and bumps (cold compress); practise the recovery position on a partner.
-- **Check for understanding:** "What information will the emergency operator need from you?" → where you are, what happened, and whether the person is breathing and responding
-- **Differentiation:** support: a picture step card for getting help / stretch: role-play a full emergency call with correct information
-- **Materials:** first-aid kit, role-play phones, mats
+- **Objective:** "By the end, I can get help in an emergency and give first aid for burns, nosebleeds and minor cuts." (UK RSHE (basic first aid))
+- **Hook:** "You spill a hot drink on your hand. Ice, butter or cool water — which one is right?"
+- **Key activity:** Adult-led, with a trained first aider if possible. Retrieve Year 2: check for danger, shout for help, call the emergency number for your country (e.g. 112 across the EU, 999 in the UK, 911 in the US and Canada, 000 in Australia) and say where you are and what happened. New: burns — cool under cool running water for 20 minutes, remove rings or watches nearby unless stuck, cover loosely with cling film or a clean non-fluffy cover, never ice, butter or creams, and always tell an adult; nosebleeds — sit down, lean forward, pinch the soft part of the nose for 10 minutes, breathe through the mouth; cuts — press with a clean pad, then clean and cover; practise the recovery position on a partner for someone breathing but not responding.
+- **Check for understanding:** "Why should someone with a nosebleed lean forward, not tip their head back?" → so the blood drains out of the nose instead of running down the throat, where it could make them cough, choke or be sick
+- **Differentiation:** support: picture step cards for a burn and a nosebleed / stretch: explain why ice is not used on a burn (it can damage the skin further; cool running water is safer)
+- **Materials:** first-aid kit, role-play phones, mats, bowl of water for practice
 - **Joy:** 'Little lifesavers' certificates
 
 ### Lesson 53 — Unit review: health heroes
 - **Duration:** 40 min
 - **Objective:** "By the end, I can show what I know about staying clean, safe and well." (UK RSHE)
 - **Hook:** "Health heroes: design a campaign for younger children."
-- **Key activity:** Groups create posters or short plays about one health topic (handwashing, teeth, body safety, calm strategies, getting help); present to Year 1–2.
+- **Key activity:** Groups create posters or short plays about one health topic (food hygiene, respecting bodies, body safety online and offline, the body's alarm and calm breathing, first aid for burns and nosebleeds); present to Year 1–2.
 - **Check for understanding:** "What is the key message of your campaign, and why does it matter?" → clear message and reason
 - **Differentiation:** support: templates / stretch: include a 'what to do' action for the audience
 - **Materials:** poster materials
 - **Joy:** campaign roadshow to younger classes
 
-**End-of-unit check:** Demonstrate thorough handwashing; explain the PANTS rule and name trusted adults; use a calming strategy; describe what to say in an emergency call.
+**End-of-unit check:** Explain clean–separate–cook–chill; explain why bodies grow at different rates and why edited images mislead; apply the PANTS rule to an online secret and name trusted adults; use slow breathing and explain why it works; show first aid for a burn and a nosebleed and describe an emergency call.
 
 ---
 
@@ -780,14 +780,14 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 - **Materials:** stopwatches, tape measures, foam javelins, soft shots, PB passports; safety: throwing lanes, water breaks
 - **Joy:** personal-best certificates
 
-### Lesson 66 — Orienteering: reading a map
+### Lesson 66 — Orienteering: map scale and pacing
 - **Duration:** 40 min
-- **Objective:** "By the end, I can orient a map of the school grounds and navigate to control points." (UK NC KS2 PE (outdoor and adventurous activity); links to geography)
-- **Hook:** "Can you find a hidden flag using only a map — no signs, no asking?"
-- **Key activity:** Adult-led: learn map symbols for the school grounds; 'set' (orient) the map so features on the map line up with real features; thumb on the map to track position; a star course where pairs run out to one control and back to the teacher each time.
-- **Check for understanding:** "How do you orient a map, and why does it help?" → turn it so features on the map line up with the real ones around you; then left on the map is left in real life
+- **Objective:** "By the end, I can set a map, judge distance using the scale and my pace count, and navigate to control points." (UK NC KS2 PE (outdoor and adventurous activity); links to geography (scale))
+- **Hook:** "The control is 50 metres away on the map. How many of your steps is that?"
+- **Key activity:** Adult-led: quick retrieval from Year 2 — set the map so features line up with the real ones, thumb on your position. New: measure distance on the map with the scale (e.g. 1 cm = 10 m); find your pace count by walking a taped 10 m and counting double-steps (each time the same foot lands); use it on a star course where pairs run out to a control and back to the teacher each time, estimating the distance before they go.
+- **Check for understanding:** "Your 10 m test took 8 double-steps. The control is 50 m away. About how many double-steps should you count?" → 50 m is five lots of 10 m, so about 5 × 8 = 40 double-steps
 - **Differentiation:** support: an adult or older buddy and a map with photos of each control / stretch: plan and justify the quickest route to a far control
-- **Materials:** school-grounds maps, control markers with punches or codes; safety: boundaries agreed, adults posted
+- **Materials:** school-grounds maps with a scale bar, tape measure, control markers with punches or codes; safety: boundaries agreed, adults posted
 - **Joy:** star orienteering with secret code words at each control
 
 ### Lesson 67 — Orienteering: team challenge
@@ -810,27 +810,27 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 - **Materials:** blank maps, markers, pencils
 - **Joy:** 'Course swap' challenge
 
-### Lesson 69 — Water safety: dangers and the Water Safety Code
+### Lesson 69 — Water safety: rip currents, flags and cold water shock
 - **Duration:** 40 min
-- **Objective:** "By the end, I can identify dangers at pools, rivers, lakes and beaches and explain how to stay safe." (UK NC KS2 PE (swimming and water safety); UK RSHE (being safe))
-- **Hook:** "A river looks calm on top — so why can it be dangerous?"
-- **Key activity:** Land-based lesson: photos of different water places; spot dangers (cold water, currents, hidden objects, rip currents at beaches); learn a water safety code (e.g. Stop and think, Stay together, Float, Call for help) and beach flag meanings (swim between red and yellow flags where these are used).
-- **Check for understanding:** "Why is cold open water dangerous even for good swimmers?" → cold water shock makes you gasp and can stop you swimming properly; there may be currents and no lifeguard
-- **Differentiation:** support: picture danger-spotting cards / stretch: explain what a rip current is and how to escape (swim parallel to the shore, or float and signal)
-- **Materials:** photos, flag cards, a water safety poster
-- **Joy:** 'Spot the danger' photo challenge
+- **Objective:** "By the end, I can spot a rip current, read beach flags and explain what cold water does to the body." (UK NC KS2 PE (swimming and water safety); UK RSHE (being safe))
+- **Hook:** "Which part of this beach photo looks calmest? It may be the most dangerous."
+- **Key activity:** Land-based lesson. Quick retrieval of the Year 2 water safety code (stop and think, stay together, float, call for help). New depth: how a rip current forms (water pushed in by waves flows back out to sea through a narrow channel) and how to spot one in photos (a darker, calmer-looking gap between breaking waves, foam or debris moving out to sea); what to do if caught (don't swim against it — rips can flow faster than strong swimmers; float, raise a hand and shout, then swim parallel to the shore to escape); beach flags differ by country, so learn the local system (e.g. swim between red-and-yellow flags where these are used); cold water shock — for about the first minute you gasp and breathe fast, so float and wait for it to pass before doing anything.
+- **Check for understanding:** "Why is swimming straight back towards the beach the wrong choice in a rip current?" → the rip pulls outwards faster than you can swim, so you tire out; float and signal for help, then swim parallel to the shore to get out of the channel
+- **Differentiation:** support: sort photo cards into 'rip' and 'no rip' / stretch: draw and label a diagram of how a rip forms and the escape route
+- **Materials:** beach photos (with and without rips), flag cards, a tray of water to model a current (optional)
+- **Joy:** 'Spot the rip' photo challenge
 
-### Lesson 70 — Water safety: float, call and help safely
+### Lesson 70 — Water safety: float, reach and throw
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how to float to survive and how to help someone in trouble without getting into the water." (UK NC KS2 PE (perform safe self-rescue in different water-based situations))
-- **Hook:** "If you fall into cold water, what should you do first? Fight the water — or float?"
-- **Key activity:** Land-based practice (and in the pool if lessons are available): the 'float to live' approach — lean back, spread arms and legs, keep calm, catch your breath, then call for help; for helping others: 'call, shout, throw, don't go' — call the emergency number, shout encouragement, throw something that floats, never jump in.
-- **Check for understanding:** "Why should you throw something that floats instead of jumping in to help a friend?" → you could get into difficulty too; a float helps them without putting you in danger
-- **Differentiation:** support: picture sequence cards and role-play on land / stretch: plan the safe rescue for a scenario and justify each step
-- **Materials:** floats, throw lines or ropes, role-play props
+- **Objective:** "By the end, I can explain how to float to survive and help someone in trouble from the land using things around me." (UK NC KS2 PE (perform safe self-rescue in different water-based situations))
+- **Hook:** "There's no lifebuoy at the lake. What around you could save a life?"
+- **Key activity:** Land-based practice (and in the pool if lessons are available): retrieve 'float to live' (lean back, spread arms and legs, keep calm, catch your breath, then call for help). New: 'call, shout, reach or throw — don't go' with improvised aids — reach with a long stick, pole or jacket while lying down or kneeling back from the edge so you can't be pulled in; throw something that floats (a ball, an empty plastic bottle, a cool box); talk to the person ("kick your legs, grab it"); throwing-accuracy practice to hoops at 5 and 8 metres.
+- **Check for understanding:** "At a lake with no lifebuoy, name two things you could use to help someone, and how you would keep yourself safe while doing it." → e.g. throw a football or empty bottle, or reach with a stick or jacket; call for help first, and lie down or stay back from the edge so you can't be pulled in — never go in
+- **Differentiation:** support: picture sequence cards and role-play on land / stretch: plan the safest rescue for three different scenarios and justify each step
+- **Materials:** floats, throw lines, empty plastic bottles, balls, sticks, hoops, role-play props
 - **Joy:** 'Throw the float' target game on the field
 
-**End-of-unit check:** Sprint, jump and throw with good technique and record personal bests; orient a map and navigate to controls; explain the water safety code and 'float, call, throw — don't go'.
+**End-of-unit check:** Sprint, jump and throw with good technique and record personal bests; set a map, judge distance with the scale and a pace count and navigate to controls; spot a rip current and explain cold water shock; plan a safe rescue from land ('call, shout, reach or throw — don't go').
 
 ---
 
@@ -839,7 +839,7 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 - **World Health Organization, *Guidelines on physical activity and sedentary behaviour* (2020)** — the source of the 60-minutes-a-day recommendation for ages 5–17; use to explain why activity matters.
 - **The Daily Mile** — a free, simple initiative for 15 minutes of daily running or jogging; supports the stamina lessons all year.
 - **NSPCC 'PANTS' (the Underwear Rule) resources** — calm, age-appropriate body-safety teaching materials used in Unit 8.
-- **RNLI 'Float to Live' and Royal Life Saving Society 'call, shout, throw, don't go' guidance** (or your national lifesaving society's equivalent) — the water-safety messages taught in Unit 10.
+- **Water-safety guidance from your national lifesaving body** (e.g. the RNLI's 'Float to Live', Royal Life Saving Society Australia, the American Red Cross) — the water-safety messages taught in Unit 10.
 - **British Orienteering (or national federation) school resources** — map-making and course-planning ideas for the school grounds.
 - **Youth Sport Trust** and **SHAPE America** resources — high-quality lesson ideas for games, gymnastics and dance, and PE assessment frameworks.
 - **Picture books linking movement and persistence:** ***Giraffes Can't Dance* by Giles Andreae** — finding your own rhythm and not giving up (dance unit); ***Salt in His Shoes* by Deloris Jordan and Roslyn M. Jordan** — Michael Jordan's childhood lesson that practice and patience matter more than height (games units).
@@ -855,9 +855,9 @@ Assessed by watching children move and talking with them, not by written tests:
 5. **Gymnastics** — performs a six-movement sequence with control, tension and smooth transitions.
 6. **Dance** — performs a group dance with unison, canon and formation changes, and explains a dance's cultural origins.
 7. **Athletics** — sprints, jumps and throws with correct technique and records personal bests.
-8. **Outdoor adventure** — orients a map and navigates to control points as part of a team.
-9. **Water safety** — explains the water safety code, 'float to live' and 'call, shout, throw — don't go'.
-10. **Health** — explains a balanced diet, hydration, 9–12 hours' sleep and 60 active minutes a day; demonstrates handwashing; knows the PANTS rule and trusted adults; can call for help in an emergency.
+8. **Outdoor adventure** — sets a map, judges distance with the scale and a pace count, and navigates to control points as part of a team.
+9. **Water safety** — spots a rip current and explains how to escape it, explains cold water shock and 'float to live', and plans a safe rescue from land.
+10. **Health** — plans a balanced meal and checks 60 active minutes a day from a log; knows what to do if a friend has an allergic reaction or asthma attack; carries a bag and crosses a road safely; uses clean–separate–cook–chill; applies the PANTS rule online and offline; explains the stress response and uses slow breathing; gives first aid for a burn and a nosebleed and can call for help in an emergency.
 
 ## Teacher guidance
 
@@ -873,7 +873,10 @@ Assessed by watching children move and talking with them, not by written tests:
 - *Healthy eating means never having treats* — balance and portion size matter.
 - *Only 'sporty' people exercise* — everyone needs 60 active minutes a day; find activity you enjoy.
 - *A strong swimmer is safe in any water* — cold water shock and currents affect everyone.
-- *Keeping a worrying secret is loyal* — worrying secrets must be shared with a trusted adult.
+- *Keeping a worrying secret is loyal* — worrying secrets (including online ones) must be shared with a trusted adult.
+- *Ice or butter helps a burn* — cool running water for 20 minutes.
+- *Tip your head back for a nosebleed* — lean forward and pinch the soft part of the nose.
+- *The calmest-looking water is the safest* — a rip current often looks like a calm gap between waves.
 
 **Safeguarding.** Body-safety lessons may prompt disclosures. Know your school's safeguarding procedure, listen calmly, do not promise to keep secrets, and report immediately.
 
@@ -881,4 +884,4 @@ Assessed by watching children move and talking with them, not by written tests:
 
 **Differentiation.** Support = simpler equipment (bigger, softer balls; lower nets), more space and time, cooperative before competitive. Stretch = add pressure (defenders, time), tactical decisions, leadership roles (captain, referee, coach).
 
-**Vertical connections.** Builds on Years 1–2 fundamental movement and simple games. Year 4 moves to more formal versions of sports with more tactics, longer gymnastic and dance sequences, fitness training principles, and health topics including the changing body.
+**Vertical connections.** Builds on Years 1–2 fundamental movement and simple games. Health, orienteering and water-safety lessons open with a brief retrieval of the Year 2 versions (food and energy, water, sleep, handwashing, PANTS, calm breathing, emergency calls, setting the map, the water safety code) and then go further, so nothing is simply re-taught. Year 4 moves to more formal versions of sports with more tactics, longer gymnastic and dance sequences, fitness training principles, and health topics including the changing body.

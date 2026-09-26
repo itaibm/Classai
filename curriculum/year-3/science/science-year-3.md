@@ -8,7 +8,7 @@ Year 3 science turns curious children into **careful investigators**. Every unit
 
 **What this year assumes (from Year 2, ages 7–8):** plant parts and life cycles; nutrition, skeletons and muscles; rocks, fossils and soils; light, shadows and reflection; forces and magnets; recording in tables and bar charts; simple fair tests with one variable changed. **What Year 4 (ages 9–10) relies on:** accurate use of classification keys (for life cycles and reproduction), confident use of thermometers and reading scales (for materials and changes), the particle idea that solids, liquids and gases behave differently (for dissolving, mixtures and reversible/irreversible changes), vibration and energy transfer (for forces and later light/sound), series circuits (for extending circuits in Year 5–6), and independent planning of a fair test.
 
-**Scientists and ideas from around the world** appear in every unit: Carl Linnaeus (Sweden) and the naming of living things; Wangari Maathai (Kenya) and the Green Belt Movement; William Beaumont (USA) and early experiments on digestion; Anders Celsius (Sweden) and the temperature scale; Evelyn Glennie (Scotland), who performs as a percussionist while profoundly deaf and 'hears' vibrations; Alessandro Volta (Italy) and the first battery; Lewis Latimer (USA), who improved the carbon filament in light bulbs.
+**Scientists and ideas from around the world** appear in every unit: Carl Linnaeus (Sweden) and the naming of living things; Yacouba Sawadogo (Burkina Faso) and the zaï pits that help regreen the Sahel; William Beaumont (USA) and early experiments on digestion; Anders Celsius (Sweden) and the temperature scale; Evelyn Glennie (Scotland), who performs as a percussionist while profoundly deaf and 'hears' vibrations; Alessandro Volta (Italy) and the first battery; Lewis Latimer (USA), who improved the carbon filament in light bulbs.
 
 Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a responsible adult supervises all heat, sharp tools and glass.
 
@@ -82,7 +82,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Objective:** "By the end, I can explain the life processes that make something living." (UK NC Y4 Sc (living things))
 - **Hook:** "Is fire alive? It grows, it moves, it 'eats' fuel, it needs air…"
 - **Key activity:** Introduce life processes (movement, respiration, sensitivity, growth, reproduction, excretion, nutrition — MRS GREN). Sort cards: living, dead, never alive (e.g. a leaf on a tree, a fallen leaf, a stone, fire).
-- **Check for understanding:** "Is fire living? Use the life processes to explain." → no — although it seems to grow and use air, it doesn't reproduce, feel, or have cells
+- **Check for understanding:** "Is fire living? Use the life processes to explain." → no — although it seems to grow, 'feed' and use air, it is not made of cells, cannot sense or respond to its surroundings, and spreading is not the same as producing offspring
 - **Differentiation:** support: picture cards with three processes to check / stretch: explain the difference between 'dead' and 'never alive' with examples
 - **Materials:** picture cards, real objects (seed, rock, leaf, shell)
 - **Joy:** "Is it alive?" mystery box
@@ -121,7 +121,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain why scientists use a shared naming system for living things." (UK NC Y4 Sc; WS)
 - **Hook:** "In Spanish it's 'perro', in Swahili 'mbwa', in Japanese 'inu' — how do scientists everywhere know they mean the same animal?"
-- **Key activity:** Story of Linnaeus (Sweden, 1700s) and two-part Latin names (Canis familiaris; Panthera leo). Children match common and scientific names and invent names for a new creature.
+- **Key activity:** Story of Linnaeus (Sweden, 1700s) and two-part Latin names (Panthera leo for the lion; Homo sapiens for us). Children match common and scientific names and invent names for a new creature.
 - **Check for understanding:** "Why is a shared scientific name useful?" → scientists who speak different languages can be sure they mean the same species
 - **Differentiation:** support: matching cards / stretch: explain what the two parts of the name mean (genus and species)
 - **Materials:** name cards, world map
@@ -217,15 +217,15 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Materials:** photo cards
 - **Joy:** "Before and after" photo detectives
 
-### Lesson 17 — Wangari Maathai and the Green Belt Movement
+### Lesson 17 — Yacouba Sawadogo and the Great Green Wall
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how people can change environments for the better." (UK NC Y4 Sc; global citizenship)
-- **Hook:** "One woman in Kenya started planting trees — and millions followed."
-- **Key activity:** Story of Wangari Maathai (Nobel Peace Prize 2004); why trees matter for soil, water and wildlife.
-- **Check for understanding:** "How did planting trees help people and wildlife in Kenya?" → trees prevent soil erosion, protect water and provide habitats and firewood
-- **Differentiation:** support: picture story / stretch: research another conservation project
-- **Materials:** biography picture book (e.g. *Wangari's Trees of Peace* by Jeanette Winter)
-- **Joy:** plant a tree or seeds in the school grounds
+- **Objective:** "By the end, I can explain how people can change an environment for the better, using a real example from the Sahel." (UK NC Y4 Sc (environments can change); global citizenship)
+- **Hook:** "In Burkina Faso, a farmer was laughed at for digging holes in dry, hard ground. Years later a forest grew there. How?"
+- **Key activity:** One-sentence retrieval of Wangari Maathai's tree planting (Year 1). New story: Yacouba Sawadogo revived the traditional *zaï* method — small pits dug into hard ground and filled with compost or manure catch the rain; termites break down the compost and tunnel through the soil so water soaks in where roots need it. Link to the Great Green Wall, an African-led project (launched in 2007) to restore land across the Sahel. Model: pour the same amount of water onto hard-packed soil and onto soil with a compost-filled pit, and measure how much runs off.
+- **Check for understanding:** "How do zaï pits help trees and crops grow on dry, hard ground?" → the pits catch the rain and hold compost, so water soaks in around the roots instead of running off, and the compost adds nutrients (helped by termites opening up the soil)
+- **Differentiation:** support: a picture story of how a zaï pit works / stretch: explain how restoring land helps both people and wildlife (food, shade, habitats, less soil blown away)
+- **Materials:** trays of hard-packed soil, compost, watering can, measuring jug, photos of land in the Sahel before and after restoration
+- **Joy:** plant seeds in class 'zaï pits' and in flat soil, and compare them over the next weeks
 
 ### Lesson 18 — Investigation: pollution and plants
 - **Duration:** 40 min
@@ -283,14 +283,14 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Hook:** "Could you tell what an animal eats just from its skull?"
 - **Key activity:** Compare skull photos or replicas (sheep, dog/lion, human); link teeth shapes to herbivore, carnivore and omnivore diets. Mystery skulls: children predict the diet with reasons.
 - **Check for understanding:** "A skull has large canines and sharp, pointed back teeth. What did the animal eat, and how do you know?" → it was a carnivore — canines grip and tear meat and pointed back teeth slice it
-- **Differentiation:** support: skulls/photos labelled with tooth types / stretch: explain why a panda (a carnivore by family) has flat molars for bamboo
+- **Differentiation:** support: skulls/photos labelled with tooth types / stretch: explain why a giant panda — a member of the bear family, whose relatives mostly eat meat — has broad, flat molars for crushing bamboo
 - **Materials:** skull replicas or photos, magnifiers
 - **Joy:** "Mystery skull" detectives
 
 ### Lesson 23 — Investigation: what harms teeth?
 - **Duration:** 40 min
 - **Objective:** "By the end, I can plan and carry out a fair test on how drinks affect eggshell (as a model of tooth enamel)." (UK NC Y4 Sc; WS (fair test; predictions))
-- **Hook:** "Eggshell is made of a similar mineral to tooth enamel. What will cola, orange juice, milk and water do to it?"
+- **Hook:** "Eggshell, like tooth enamel, is a hard calcium-based mineral that acid can attack. What will cola, orange juice, milk and water do to it?"
 - **Key activity:** Groups plan: change (the drink), keep the same (egg size, amount of drink, time), observe (colour, softness, surface). Set up hard-boiled eggs in cups for 3–5 days; predict with reasons.
 - **Check for understanding:** "Why must every egg be in the same amount of drink for the same time?" → so any difference is caused by the type of drink alone
 - **Differentiation:** support: planning board with change/keep the same sticky notes / stretch: explain why eggshell is a model, not a perfect copy, of a real tooth
@@ -310,8 +310,8 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 ### Lesson 25 — The digestive journey
 - **Duration:** 40 min
 - **Objective:** "By the end, I can describe the main parts of the digestive system in order and what happens in each." (UK NC Y4 Sc (simple functions of the basic parts of the digestive system))
-- **Hook:** "Your digestive system is about 9 metres long. Where does all that tube fit?"
-- **Key activity:** Measure out 9 m of rope/wool labelled with parts (mouth, oesophagus, stomach, small intestine ~6–7 m, large intestine ~1.5 m). Label a body outline. Sequence cards with each part's job.
+- **Hook:** "Stretched out end to end, your digestive tract would be roughly 8–9 metres long. Where does all that tube fit?"
+- **Key activity:** Measure out about 9 m of rope/wool labelled with parts (mouth, oesophagus, stomach, small intestine ~6 m when stretched out, large intestine ~1.5 m); explain that in a living body the muscular tube is shorter and coiled, so these are 'stretched-out' lengths. Label a body outline. Sequence cards with each part's job.
 - **Check for understanding:** "What happens in the small intestine, and why is it so long?" → nutrients are absorbed into the blood; its great length (and folded lining) gives lots of surface to absorb them
 - **Differentiation:** support: a body outline with parts pre-drawn to label / stretch: explain the role of saliva and stomach acid in breaking food down
 - **Materials:** rope or wool, labels, body outlines
@@ -332,7 +332,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Objective:** "By the end, I can explain how scientists found out how digestion works." (UK NC Y4 Sc; WS (how scientists work))
 - **Hook:** "In the 1820s, a doctor could see into a living man's stomach. How?"
 - **Key activity:** Tell the story of William Beaumont and Alexis St. Martin (a wound that healed with an opening into the stomach); Beaumont's observations of food on strings. Discuss ethics and evidence.
-- **Check for understanding:** "What did Beaumont's experiments show about the stomach?" → stomach juices break food down chemically, not just by squeezing
+- **Check for understanding:** "Beaumont also put food in a jar with juice taken from the stomach, and the food still broke down. What did that prove that watching the stomach alone could not?" → that the stomach juice itself breaks food down chemically — digestion isn't only the stomach squeezing and churning
 - **Differentiation:** support: picture timeline / stretch: discuss whether the experiments were fair to St. Martin
 - **Materials:** story cards, timeline
 - **Joy:** "Doctor's notebook" role-play
@@ -412,7 +412,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Objective:** "By the end, I can read a thermometer accurately in °C and know water's freezing and boiling points." (UK NC Y4 Sc; WS (measure temperature))
 - **Hook:** "Anders Celsius set 0 and 100 as water's special temperatures. What happens at each?"
 - **Key activity:** Practise reading thermometers (and digital probes) in cold water, room water, warm water; learn 0 °C (water freezes/ice melts) and 100 °C (water boils at sea level).
-- **Check for understanding:** "Why is 0 °C important for water?" → it's the temperature at which water freezes and ice melts
+- **Check for understanding:** "A freezer reads −18 °C and the kitchen reads 21 °C. Where will an ice cube stay solid and where will it melt? Explain using water's special temperature." → it stays solid in the freezer because that is below 0 °C, water's freezing/melting point; in the kitchen it is above 0 °C, so the ice melts
 - **Differentiation:** support: thermometer scale cards with intervals marked / stretch: read a scale with 2-degree intervals
 - **Materials:** thermometers, digital probes, water at different temperatures (adult-prepared)
 - **Joy:** temperature guessing game
@@ -429,11 +429,11 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 
 ### Lesson 36 — Evaporation
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain evaporation as liquid turning to gas and investigate what makes it faster." (UK NC Y4 Sc (evaporation; temperature))
+- **Objective:** "By the end, I can explain evaporation as liquid turning to gas and investigate how surface area and moving air change how fast it happens." (UK NC Y4 Sc (evaporation))
 - **Hook:** "Where does a puddle go on a sunny day? It doesn't soak into the concrete!"
-- **Key activity:** Draw chalk around a puddle and re-draw every hour. Indoors, set up equal amounts of water in dishes: warm place vs cold place, wide dish vs narrow cup, with a fan vs without. Predict; measure water left after 2 days.
-- **Check for understanding:** "Why does washing dry faster on a warm, windy day?" → heat gives water particles energy to escape as gas; wind carries the vapour away so more can evaporate
-- **Differentiation:** support: picture prediction cards for each set-up / stretch: explain why a wide dish loses water faster than a narrow cup (larger surface)
+- **Key activity:** Draw chalk around a puddle and re-draw every hour. Indoors, set up equal amounts of water side by side in the same room: a wide dish vs a narrow cup, and a dish with a fan blowing over it vs one without. Predict; measure water left after 2 days. (Temperature is tested properly in Lesson 42.)
+- **Check for understanding:** "Why does a wet towel dry faster spread out on a line in a breeze than left scrunched in a heap?" → spread out, more of its water is at the surface where particles can escape as gas; the breeze carries the water vapour away so more can evaporate
+- **Differentiation:** support: picture prediction cards for each set-up / stretch: predict, with a reason, what temperature will do to evaporation and write the fair-test question we will use in Lesson 42
 - **Materials:** chalk, dishes, measuring cylinders, small fan
 - **Joy:** "Disappearing puddle" chalk time-lapse
 
@@ -451,8 +451,8 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain that changes of state can be reversed and show them on a cycle diagram with temperatures." (UK NC Y4 Sc)
 - **Hook:** "Can you turn water into ice into water into steam into water again — and still have the same water?"
-- **Key activity:** Build a change-of-state cycle diagram (melting, freezing, evaporating/boiling, condensing) with the key temperatures for water (0 °C, 100 °C). Sort changes as reversible (melting chocolate, freezing juice) vs not (cooking an egg) — previewing Year 4.
-- **Check for understanding:** "Why is melting chocolate a reversible change but baking a cake is not?" → melted chocolate can set again as chocolate; a baked cake can't be turned back into batter — new substances formed
+- **Key activity:** Build a change-of-state cycle diagram (melting, freezing, evaporating/boiling, condensing) with the key temperatures for water (0 °C, 100 °C). Children 'run the cycle backwards': for each change they name the opposite change and what must be done (heat or cool) to cause it. (Irreversible changes are taught in Year 4.)
+- **Check for understanding:** "A puddle of water is frozen at −5 °C, then left in the sun until it has all gone. Name each change of state in order, and explain how you could get the water back as a liquid." → freezing is reversed by melting (above 0 °C); the water then evaporates into water vapour; cooling the vapour on a cold surface condenses it back into liquid water — it was the same water throughout
 - **Differentiation:** support: a cycle diagram with the arrows drawn and labels to place / stretch: explain why different substances melt at different temperatures (e.g. iron in a foundry)
 - **Materials:** cycle diagram templates, picture cards
 - **Joy:** make chocolate shapes: melt, pour into moulds, set
@@ -521,7 +521,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Duration:** 40 min
 - **Objective:** "By the end, I can collect, present and interpret weather data in tables and graphs." (UK NC Y4 Sc; WS; NGSS 3-ESS2-1)
 - **Hook:** "Was it really the rainiest fortnight ever — or does it just feel like it?"
-- **Key activity:** Children take turns recording daily readings for two weeks (set up in the previous lesson); present temperature as a line graph and rainfall as a bar chart; compare with a city on another continent using published data.
+- **Key activity:** Children take turns recording daily readings (temperature, rainfall, wind direction and cloud cover as clear / partly cloudy / overcast) for two weeks, starting from the station built in the previous lesson; present temperature as a line graph and rainfall as a bar chart; compare with a city on another continent using published data.
 - **Check for understanding:** "What does your graph show about the link between cloud cover and temperature on our coldest days?" → a data-based answer (e.g. the clearest nights were coldest) with values from the graph
 - **Differentiation:** support: axes prepared; compare only two quantities / stretch: compare with data from a city in the other hemisphere and explain the difference by season
 - **Materials:** weather-station data, squared paper, online climate tables
@@ -703,9 +703,9 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Hook:** "How does a light switch on the wall turn on a light on the ceiling without touching it?"
 - **Key activity:** Use a commercial switch in a circuit; then make a switch from card, two split pins and a paper clip; explain 'open' (gap) and 'closed' (complete). Test in a circuit with a buzzer.
 - **Check for understanding:** "What does a switch do inside a circuit? Use the words 'open' and 'closed'." → a closed switch completes the loop so electricity flows; an open switch makes a gap so it stops
-- **Differentiation:** support: step-by-step photo guide for making the switch / stretch: design a pressure switch (two foil pads separated by sponge) that sounds a buzzer when stepped on
+- **Differentiation:** support: step-by-step photo guide for making the switch / stretch: make a switch from a wooden clothes peg and foil, and explain which parts must be conductors and which must be insulators
 - **Materials:** card, split pins, paper clips, foil, sponge, kits
-- **Joy:** build a 'burglar alarm' for a treasure box
+- **Joy:** a switch-operated card 'lighthouse' that flashes on and off
 
 ### Lesson 61 — Investigation: conductors and insulators
 - **Duration:** 40 min
@@ -717,15 +717,15 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Materials:** tester circuits, material samples, a safe cut section of cable
 - **Joy:** "Conductor hunt" around the classroom
 
-### Lesson 62 — Investigation: more cells, brighter bulbs?
+### Lesson 62 — Inside a torch: a real circuit
 - **Duration:** 40 min
-- **Objective:** "By the end, I can investigate how the number of cells affects the brightness of a bulb." (UK NC Y4 Sc; WS (Y6 preview))
-- **Hook:** "What happens if we add more cells — brighter, dimmer, or nothing?"
-- **Key activity:** Plan a fair test: change the number of cells (1, 2, 3), keep the same bulb and wires; observe brightness against a brightness scale (or a light-meter app); record and conclude. Caution: bulbs rated for the voltage; teacher checks before connecting.
-- **Check for understanding:** "What did you change, what did you keep the same, and what pattern did you see?" → changed the number of cells; kept bulb and wires the same; more cells made the bulb brighter
-- **Differentiation:** support: a brightness scale card (1–5) / stretch: predict and test what happens with two bulbs and one cell
-- **Materials:** cells, holders, bulbs, light-meter app
-- **Joy:** "Brightness ladder" display
+- **Objective:** "By the end, I can identify and name the parts of a real series circuit in a torch and trace the complete loop." (UK NC Y4 Sc (construct a simple series circuit, identifying and naming its basic parts))
+- **Hook:** "A torch has no wires you can see. So where is its circuit?"
+- **Key activity:** Pairs carefully take apart a simple battery torch (cells, spring, metal strips, switch, bulb or LED, reflector); lay the parts out in order; trace the path from one end of the cells, through the switch and bulb, back to the other end, using a finger and then a coloured pencil on a photo. Draw the torch's circuit with the symbols from Lesson 59, then reassemble it and prove it works. Discuss which parts are conductors (spring, strips) and which are insulators (casing).
+- **Check for understanding:** "Trace the loop in the torch. What completes it when the switch is on, and what exactly breaks it when the switch is off?" → the loop runs from the cells through the metal strip, switch and bulb and back to the cells; switching off moves a metal contact apart, leaving a gap, so the loop is broken
+- **Differentiation:** support: a photo guide of the dismantled torch with the path already coloured in part / stretch: explain why the torch fails if one cell is put in the wrong way round, and why the case is plastic but the strips are metal
+- **Materials:** simple battery torches (one per pair, cells included), trays, photo sheets, symbol cards. Safety: only ordinary 1.5 V cells; never open a cell or use button batteries (dangerous if swallowed)
+- **Joy:** "Torch surgeons": take it apart, put it back together and switch it on
 
 ### Lesson 63 — Buzzers and motors
 - **Duration:** 40 min
@@ -791,7 +791,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Duration:** 40 min
 - **Objective:** "By the end, I can choose a testable question from this year's topics and plan a fair test independently." (UK NC Y3–4 WS (all))
 - **Hook:** "Scientists choose their own questions. What do YOU want to find out?"
-- **Key activity:** Children (in pairs) choose from a menu or invent a question linked to the year (e.g. Does the temperature of water affect how fast sugar dissolves? Does the length of an elastic band change its pitch? Which cloth keeps a drink warm longest?). Complete a full plan: question, prediction with reason, variables, equipment, method, risk assessment, results table. Teacher approves each plan.
+- **Key activity:** Children (in pairs) choose from a menu or invent a question linked to the year (e.g. Does the thickness of a wrapping change how long an ice cube lasts? Does the length of an elastic band change its pitch? Does the size of a dish change how fast water evaporates?). Complete a full plan: question, prediction with reason, variables, equipment, method, risk assessment, results table. Teacher approves each plan.
 - **Check for understanding:** "What will you change, what will you measure, and what will you keep the same?" → one variable changed, a measurement named with units, and at least two things kept the same
 - **Differentiation:** support: a planning template with examples and a narrower menu of questions / stretch: plan repeats and explain how you'll deal with an odd result
 - **Materials:** planning templates, equipment catalogue
@@ -824,7 +824,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 ## Books & resources
 
 - ***The Street Beneath My Feet* by Charlotte Guillain and Yuval Zommer** — a fold-out journey down through soil, rock and water to the Earth's core; brilliant for habitats, the water cycle and Earth science curiosity.
-- ***Wangari's Trees of Peace* by Jeanette Winter** — a true story of Wangari Maathai and the Green Belt Movement; makes conservation personal and shows an African woman scientist-activist.
+- ***Wangari's Trees of Peace* by Jeanette Winter** — the true story of Wangari Maathai and the Green Belt Movement, met in Year 1; keep it in the class library to retrieve alongside Lesson 17's Sahel story.
 - ***A Drop of Water* by Walter Wick** — astonishing photographs of water freezing, evaporating and condensing; the best visual support for the states-of-matter and water-cycle units.
 - ***The Way Things Work Now* by David Macaulay** — the classic illustrated explanation of machines and electricity, for curious readers and teacher reference.
 - ***DK Eyewitness* titles (e.g. *Electricity*, *Human Body*)** — reliable, photo-rich non-fiction for research and reading in science lessons.
@@ -834,7 +834,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **PSTT (Primary Science Teaching Trust)** resources and the **Association for Science Education** — evidence-informed investigation ideas and safety guidance.
 - **Evelyn Glennie's 'Hearing Essay'** and interviews (on her official website) — her own account of sensing sound through vibration.
 
-**Kit list:** hand lenses and magnifiers, pooters, quadrats or hoops, identification keys, model jaw and skull replicas, thermometers (and digital probes if available), measuring cylinders, digital scales, timers, rain gauges and wind vanes (made in class), tuning forks, elastic bands, bottles and straws, a sound-meter app on a teacher device, low-voltage circuit kits (1.5 V cells, holders, bulbs, buzzers, motors, switches, crocodile-clip wires), LEDs, goggles.
+**Kit list:** hand lenses and magnifiers, pooters, quadrats or hoops, identification keys, model jaw and skull replicas, thermometers (and digital probes if available), measuring cylinders, digital scales, timers, rain gauges and wind vanes (made in class), tuning forks, elastic bands, bottles and straws, a sound-meter app on a teacher device, low-voltage circuit kits (1.5 V cells, holders, bulbs, buzzers, motors, switches, crocodile-clip wires), simple battery torches to dismantle, LEDs, goggles.
 
 ## End-of-year mastery checks
 
