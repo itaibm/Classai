@@ -12,7 +12,7 @@ Classai is a private, character-driven AI homeschool tutor. Parents supply a cur
 - `npm run dev:server` / `npm run dev:client` — run one side only.
 - `npm run typecheck` — full monorepo typecheck (server + client).
 - `npm test` — node:test suites (practice engine, authored-lesson director, curriculum loader), run against a temp data dir with a mock brain. Run both after edits; there is no linter or formatter.
-- `node curriculum/validate-lessons.mjs $(find curriculum -type d -name lessons)` — structural check of authored lesson files.
+- `node curriculum/validate-lessons.mjs curriculum` — structural check of every lesson file (errors) + pedagogy warnings. Block types come from `curriculum/block-types.json` (a test keeps it equal to `BlockSchema`).
 - `npm run build` — Vite build of the client into `client/dist/`.
 - `npm start` — production: serve the built client + API from :8787.
 - `bash start.sh` (or `start.command` on macOS) — idempotent launcher: checks Node 22+, installs deps + builds once, opens the browser.

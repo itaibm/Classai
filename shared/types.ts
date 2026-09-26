@@ -322,6 +322,11 @@ export interface LessonFull extends Lesson {
   /** Set when this lesson was loaded from disk: its stable curriculum id + hash. */
   curriculumId?: string;
   contentHash?: string;
+  /** AI-generated lessons only: when/by which brain it was built, and when a
+   *  parent approved it (generated files live in the data dir, not curriculum/). */
+  generatedAt?: string;
+  generatedBy?: string;
+  reviewedAt?: string;
 }
 
 /** Runtime check: is this session running an authored curriculum lesson? */
@@ -414,7 +419,10 @@ export interface ParsedScope {
   units: ScopeUnit[];
 }
 
-export type CatalogLessonStatus = 'authored' | 'outline';
+/** authored = hand-built JSON in curriculum/; generated = AI-built on first
+ *  start and saved to the data dir (playable, pending parent review);
+ *  outline = only the scope outline exists (AI builds it on first start). */
+export type CatalogLessonStatus = 'authored' | 'generated' | 'outline';
 
 export interface CatalogLesson {
   id: string; // e.g. "y2-maths-u1-l01"
@@ -425,6 +433,26 @@ export interface CatalogLesson {
   durationMin: number;
   status: CatalogLessonStatus; // authored = a JSON exists; outline = AI will build it
   deliveryMode?: LessonFull['delivery']['mode'];
+  /** Generated lessons only: 'draft' until a parent approves it. */
+  review?: 'draft' | 'approved';
+}
+
+/** One AI-generated lesson awaiting (or past) parent review. */
+export interface GeneratedLessonSummary {
+  id: string;
+  year: number;
+  subject: string;
+  subjectLabel: string;
+  unitNumber: number;
+  unitTitle: string;
+  lessonNumber: number;
+  title: string;
+  status: 'draft' | 'approved' | 'archived';
+  generatedAt?: string;
+  generatedBy?: string;
+  reviewedAt?: string;
+  /** An authored lesson with the same id exists, so this draft is never played. */
+  shadowed: boolean;
 }
 
 export interface CatalogUnit {

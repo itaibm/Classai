@@ -1,0 +1,9 @@
+{
+  "$comment": "The LessonBlock types the app can render (server/src/ai/blocks.ts BlockSchema). The single list validate-lessons.mjs reads; server/src/services/curriculum.test.ts asserts it equals BlockSchema's options, so adding a block type to the app without adding it here fails npm test.",
+  "blockTypes": [
+    "richText", "steps", "keyTerm", "numberLine", "table", "emojiViz",
+    "image", "video", "slideshow", "flashcards", "whiteboard", "custom",
+    "multipleChoice", "multiSelect", "trueFalse", "fillBlank", "matchPairs",
+    "ordering", "categorize", "numberEntry", "shortText", "speak"
+  ]
+}

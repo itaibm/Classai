@@ -159,8 +159,8 @@
         }
       ],
       "check": {
-        "question": "How many pence in £1? And show me £1.50 in coins.",
-        "expectedAnswer": "100p; £1 coin + 50p coin",
+        "question": "What does £1.50 mean? Show it in coins.",
+        "expectedAnswer": "1 pound and 50 pence — a £1 coin + a 50p coin (£1 is 100p, so 150p altogether)",
         "wrongAnswers": [
           { "answer": "£1.50 is 'one pound and five pence'", "why": "ignoring place value after the dot — reading .50 as 5", "remedy": "Build both side by side: £1.50 = £1 + 50p, and £1.05 = £1 + 5p. Look at the two digits after the dot — which one has the 0 holding the tens place?" },
           { "answer": "£1 = 10p", "why": "mixing pounds and pence — treating £1 like a ten", "remedy": "Remember the pound pot — how many pennies did we drop in before it made a pound? Count the tens again: 10, 20… 100." },

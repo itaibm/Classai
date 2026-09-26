@@ -136,8 +136,8 @@
         { "type": "speak", "prompt": "Now read it — beat by beat, then the whole dinosaur.", "target": "stegosaurus" }
       ],
       "check": {
-        "question": "Read stegosaurus by its beats — dot them first.",
-        "expectedAnswer": "ste-go-sau-rus → 'stegosaurus', read beat by beat",
+        "question": "How many beats (dots) does stegosaurus need? Dot them first, then read it beat by beat.",
+        "expectedAnswer": "4 — ste · go · sau · rus, read beat by beat → 'stegosaurus'",
         "wrongAnswers": [
           { "answer": "reads it as one long blur and stops", "why": "overload from too many sounds", "remedy": "Chop it into beats first — dot it together, then read one stepping stone at a time." },
           { "answer": "reads the beats correctly but can't blend the whole word", "why": "lost the thread over four beats", "remedy": "Read the first two beats together — ste-go — then the next two — sau-rus — then join the two halves." }

@@ -71,7 +71,7 @@
       "kind": "hook",
       "delivery": "ai",
       "timeboxMin": [
-        2,
+        0,
         3
       ],
       "goal": "Spark curiosity and make the learner feel safe about messy experiments.",
@@ -113,8 +113,8 @@
       "kind": "explain",
       "delivery": "ai",
       "timeboxMin": [
-        4,
-        5
+        3,
+        7
       ],
       "goal": "Teach the new idea: a sketchbook is for testing, experimenting, and recording ideas, with a date.",
       "note": "One new idea only: the sketchbook as a workshop/test space. Include vocabulary in context.",
@@ -238,8 +238,8 @@
       "kind": "example",
       "delivery": "ai",
       "timeboxMin": [
-        4,
-        5
+        7,
+        11
       ],
       "goal": "Model how to set up and start a first test page with a date and warm-up mark-making strip.",
       "note": "Concrete demonstration before learner makes their own page. No rubbing out rule introduced positively.",
@@ -270,8 +270,8 @@
       "kind": "check",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        11,
+        14
       ],
       "goal": "Check understanding of the purpose of a sketchbook before independent making.",
       "note": "Interactive block carries the question and answer. React to the app result next turn in implementation.",
@@ -296,7 +296,7 @@
       ],
       "check": {
         "question": "What is a sketchbook really for?",
-        "expectedAnswer": "Testing, experimenting, practising, and recording ideas; not only perfect finished pictures.",
+        "expectedAnswer": "Testing, experimenting, and recording ideas — not only perfect finished pictures.",
         "wrongAnswers": [
           {
             "answer": "Only perfect finished pictures",
@@ -324,8 +324,8 @@
       "kind": "practice",
       "delivery": "human",
       "timeboxMin": [
-        10,
-        12
+        14,
+        22
       ],
       "goal": "Learner creates a first dated sketchbook test page filled with many marks.",
       "note": "This is the heart of the lesson. Most time is learner doing. Adult only supports setup and safety with materials.",
@@ -336,7 +336,7 @@
       },
       "humanHandoff": {
         "setup": "Give the child the sketchbook/paper, pencil, fine-liner or felt-tip, and crayons. If they need support, draw a small date box and a 6-square grid before they begin.",
-        "cueToResume": "When the child has filled the test page or after about 10 minutes, return to the AI and say: “We’re ready to recap.”"
+        "cueToResume": "When the child has filled the test page or after about 8 minutes, return to the AI and say: “We’re ready to recap.”"
       },
       "stuckProtocol": [
         "If the learner freezes, suggest six starter marks: dots, dashes, zig-zags, spirals, wavy lines, and scribbly texture.",
@@ -348,17 +348,21 @@
       "kind": "recap",
       "delivery": "ai",
       "timeboxMin": [
-        2,
-        3
+        22,
+        25
       ],
-      "goal": "Consolidate the earned win and reinforce process praise.",
-      "note": "End on pride in the dated test page and the concept of sketchbook as workshop.",
-      "successCriteria": "Learner can explain that their page is a dated test page for experiments, not a perfect picture.",
+      "goal": "Assess the real page: the learner describes two of their marks and how they made them, then names what a sketchbook is for.",
+      "note": "Assessment is of the page, not of recall. Accept any two genuinely different marks described with HOW they were made (pressure, speed, tool, movement). Then consolidate the big idea with process praise.",
+      "successCriteria": "Learner holds up a dated page and describes at least two different marks with how each was made (e.g. “pressed hard for a dark zig-zag, tapped for dots”), and says the page is a test page, not a perfect picture.",
       "script": {
-        "say": "You have made your first artist workshop page. The date shows when you began, and the marks show your experiments. The win today is not neatness — it is bravery, trying, and filling the page with ideas.",
-        "adaptHints": "Name a visible effort if known: “I like how you kept going even when a mark changed direction.”"
+        "say": "Hold up your page — I want to hear about it like an artist. Point to two different marks. For each one, tell me what it looks like and how you made it: did you press hard or softly, go fast or slow, which tool did you use? Then tell me: what is your sketchbook for?",
+        "adaptHints": "If the learner only names a mark (“a zig-zag”), ask one follow-up about HOW (“hard or soft? fast or slow?”). Echo their words back as artist vocabulary: “So pressing hard gave you a dark, bold line — that is mark-making.”"
       },
       "blocks": [
+        {
+          "type": "speak",
+          "prompt": "Point to two different marks on your page. For each one: what does it look like, and how did you make it?"
+        },
         {
           "type": "keyTerm",
           "term": "test page",
@@ -368,8 +372,30 @@
       ],
       "stuckProtocol": [
         "If the learner says it is messy, respond: “Yes — useful messy. That is what a workshop page can look like.”",
-        "Ask them to point to one mark they are glad they tried."
-      ]
+        "Narrow the question: “Point to your darkest mark. Did you press hard or softly?”",
+        "Offer the frame: “I made ___ by ___.”"
+      ],
+      "check": {
+        "question": "Describe two different marks on your page and how you made each one.",
+        "expectedAnswer": "Two genuinely different marks, each with how it was made — e.g. “a dark zig-zag: I pressed hard and went fast” and “tiny dots: I tapped the pencil”.",
+        "wrongAnswers": [
+          {
+            "answer": "Names marks but not how they were made (e.g. “a line and some dots”).",
+            "why": "The learner is labelling, not yet reflecting on the process — the point of a test page is noticing what you tried.",
+            "remedy": "Ask one small follow-up: “For that line — did you press hard or softly? Fast or slow?” Then echo it back as a full artist sentence."
+          },
+          {
+            "answer": "“It’s messy / it’s bad.”",
+            "why": "Still judging the page as a finished picture rather than as a record of experiments.",
+            "remedy": "Say: “Useful messy — that is a workshop page.” Ask them to point to one mark they are glad they tried and how they made it."
+          },
+          {
+            "answer": "Describes the same kind of mark twice.",
+            "why": "Has not yet noticed the variety on the page (or made much variety).",
+            "remedy": "Ask: “Can you find a mark that is different — lighter, darker, bumpier, or made with another tool?” If there is none, invite them to add one now and describe it."
+          }
+        ]
+      }
     }
   ],
   "differentiation": {
@@ -377,7 +403,7 @@
     "stretch": "Add a short written note next to one mark explaining what was tried, such as “pressed hard,” “used crayon sideways,” or “made tiny dots.”"
   },
   "extension": "Make a second mini strip using only one tool, but change pressure and speed: light, hard, slow, fast, tiny, huge.",
-  "assessmentEvidence": "The learner’s dated page contains multiple different marks and the learner can state that a sketchbook is for testing, experimenting, and recording ideas rather than only perfect pictures.",
+  "assessmentEvidence": "The learner’s dated page contains several genuinely different marks, and the learner can describe at least two of them with how they were made (pressure, speed, tool, movement), and state that a sketchbook is for testing, experimenting, and recording ideas rather than only perfect pictures.",
   "revisitLater": "Next lesson, refer back to this first dated test page and ask what mark they might build up, outline, or add detail to.",
   "format": "classai-lesson/1",
   "id": "y1-art-design-u1-l01",
@@ -510,6 +536,11 @@
           "answer": "True",
           "why": "The learner may believe unusual marks are mistakes that must be hidden.",
           "remedy": "Say: In a sketchbook workshop, strange marks are evidence. We keep them so we can learn from them."
+        },
+        {
+          "answer": "True (but only the really bad ones)",
+          "why": "Still sorting marks into good and bad — on a test page every mark is information about the tool.",
+          "remedy": "Ask: “What did that strange mark teach you about your pencil?” Keep it and label it with what you tried."
         }
       ],
       "hints": [

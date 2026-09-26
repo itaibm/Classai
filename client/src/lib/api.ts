@@ -29,7 +29,8 @@ import type {
   CatalogYear,
   CatalogLessonDetail,
   AssignedSubject,
-  LessonStats
+  LessonStats,
+  GeneratedLessonSummary
 } from '@shared/types';
 
 /** Parent session token from the PIN gate (sent on every request; the server
@@ -199,6 +200,15 @@ export const api = {
   startCatalogLesson: (id: string, kidId: string, theme?: string) =>
     req<{ sessionId: string }>(`/catalog/lessons/${encodeURIComponent(id)}/start`, { method: 'POST', body: JSON.stringify({ kidId, theme }) }),
   kidCurriculum: (kidId: string) => req<{ subjects: AssignedSubject[] }>(`/kids/${kidId}/curriculum`),
+
+  // parent review of AI-generated lessons (saved as drafts in the data dir)
+  generatedLessons: () => req<{ lessons: GeneratedLessonSummary[] }>('/parent/generated'),
+  generatedLesson: (id: string) => req<{ lesson: LessonFull }>(`/parent/generated/${encodeURIComponent(id)}`),
+  approveGeneratedLesson: (id: string) =>
+    req<{ lesson: LessonFull }>(`/parent/generated/${encodeURIComponent(id)}/approve`, { method: 'POST', body: '{}' }),
+  discardGeneratedLesson: (id: string) => req<{ ok: true }>(`/parent/generated/${encodeURIComponent(id)}`, { method: 'DELETE' }),
+  regenerateLesson: (id: string) =>
+    req<{ lesson: LessonFull }>(`/parent/generated/${encodeURIComponent(id)}/regenerate`, { method: 'POST', body: '{}' }),
 
   // teaching
   startLesson: (lessonId: string, kidId: string, theme?: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
