@@ -57,6 +57,14 @@ Both subscription paths are a ToS gray area and depend on unofficial endpoints �
 - **Privacy: data stays local.** Voice STT (Whisper) and TTS (Kokoro) run in-browser via transformers.js/WebGPU; only transcribed text is sent to the user's brain. Learner profiles + transcripts live in local SQLite. Don't add code that ships voice audio or personal data off-device.
 - **`shared/types.ts` is the contract** between server and client (`TeacherTurn`, `LearnerModel`, etc.). Changes here ripple across both sides — update both.
 
+## Curriculum (re-anchored 2026-09)
+
+- `curriculum/year-N/` for N = 1…6 is the charter's Year N (**ages N+5 to N+6**); `year-0` is the optional **Foundation** catch-up year (ages 5–6). `yearLabel()` in `shared/types.ts` renders year 0 as "Foundation".
+- Each year has 11 subject folders (`maths`, `english`, `science`, `history`, `geography`, `languages`, `art-design`, `music`, `pe-health`, `computing`, `life-skills`), each with one scope file `<subject>-year-N.md` (~760 lessons/year) that the app parses (`server/src/services/curriculum-scope.ts`). The binding spec is `curriculum/PLANNING-BRIEF.md`; review notes live in `docs/reviews/`.
+- Hand-built app-runnable lessons (`<subject>/lessons/*.json` + `.md`) are matched to scope slots **by lesson number**; renumbering them requires an ID map (`curriculum/year-1/ID-MAP.json`) and a DB migration.
+- `knowledge-base/subjects/*/year-N.md` keep **UK** year numbers: our Year N reads UK Year N+1 (the generator does this mapping).
+- AI-generated lessons go to `data/generated/` as drafts for parent review — never into `curriculum/`.
+
 ## Layout
 
 - `server/src/ai/` — provider abstraction, OAuth, prompts, schemas, subject profiles
