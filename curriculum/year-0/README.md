@@ -1,72 +1,66 @@
-# Foundation Curriculum (ages 5–6, KS1) — Lesson Outlines
+# Foundation (ages 5–6) — Optional Catch-up Year
 
 > Part of **the best international primary school** (see [`../../SCHOOL-CHARTER.md`](../../SCHOOL-CHARTER.md)).
-> This folder breaks **Foundation** of every knowledge-base subject into **20–40 minute lesson outlines**,
-> ready for a teacher (or the Classai tutor) to expand into full plans.
+> Year numbering and ages are set in [`../PLANNING-BRIEF.md`](../PLANNING-BRIEF.md) §1.
 
-## What this is
+**Label:** Foundation (folder `year-0`) · **Ages:** 5–6 · **UK equivalent:** Year 1 · **US equivalent:** Kindergarten / Grade 1.
 
-Each subject file takes its Foundation scope from `knowledge-base/subjects/…` and sequences it into
-a gap-free run of teachable lessons. Foundation is the foundation year: hands-on, concrete, short
-attention spans. Most lessons run **20–30 min** of focused teaching (the upper end, 35–40 min,
-is reached only where a making/investigation task needs it) — matched to the age band per
-`knowledge-base/templates/lesson-anatomy.md` (~10–15 min new content for 5–7s, the rest doing).
+## What Foundation is for
 
-> **Year-label note.** We follow the knowledge base's own labels: **Foundation = ages 5–6 (UK KS1
-> Foundation)**. The charter's neutral "Foundation = ages 6–7" sits one step later; when we map labels
-> across the whole school we will align these. Content here is anchored to the KB, which is the
-> source of truth.
+The school's main spine runs from **Year 1 (ages 6–7)** to **Year 6 (ages 11–12)**. Foundation is an **optional
+year before Year 1** for:
 
-## Subjects in Foundation (KB-covered)
+- children aged 5–6 who start school with us early;
+- older children joining the school who need to **catch up** on the basics that Year 1 assumes — early phonics and
+  blending, counting and number bonds, letter formation, and simple sentences.
 
-| Subject | Source in knowledge-base | File |
-|---|---|---|
-| Mathematics | `subjects/maths/year-0.md` | [`maths/`](./maths/) |
-| English | `subjects/english/year-0.md` | [`english/`](./english/) |
-| Science | `subjects/science/year-0.md` | [`science/`](./science/) |
-| History & Geography | `subjects/history-geography/history-ks1.md`, `geography-ks1.md` | [`history-geography/`](./history-geography/) |
-| Art & Design | `subjects/art-music/art-ks1-ks2.md` | [`art-design/`](./art-design/) |
-| Music | `subjects/art-music/music-ks1-ks2.md` | [`music/`](./music/) |
-| Computing | `subjects/computing-life-skills/computing-ks1-ks2.md` | [`computing/`](./computing/) |
-| Life Skills | `subjects/computing-life-skills/life-skills.md` | [`life-skills/`](./life-skills/) |
+Year 1 is written to assume Foundation: each Year 1 subject file's *Year overview* lists exactly what it expects a
+child to know, and its first lessons retrieve those ideas. A child who can already do those things can start Year 1
+directly.
 
-**World language:** the KB only holds Spanish at KS2 (Years 3–6), so no Foundation world-language
-file is generated here. Hebrew (`subjects/hebrew/kita-1-2.md`) and French exist as Israeli-track
-alternates and can be added on request.
+## Standards reference
 
-## The lesson-outline format (every lesson uses this)
+Foundation content is drawn from the knowledge base's **UK Year 1** material (the knowledge base keeps UK year
+numbers; our Foundation = UK Year 1):
 
-Each lesson is a compact skeleton — enough for a teacher to deliver, expandable to a full plan:
+| Subject | Knowledge-base source |
+|---|---|
+| Mathematics | `knowledge-base/subjects/maths/year-1.md` |
+| English | `knowledge-base/subjects/english/year-1.md` |
+| Science | `knowledge-base/subjects/science/year-1.md` |
+| History | `knowledge-base/subjects/history-geography/history-ks1.md` |
+| Geography | `knowledge-base/subjects/history-geography/geography-ks1.md` |
+| Art & Design | `knowledge-base/subjects/art-music/art-ks1-ks2.md` |
+| Music | `knowledge-base/subjects/art-music/music-ks1-ks2.md` |
+| Computing | `knowledge-base/subjects/computing-life-skills/computing-ks1-ks2.md` |
+| Life Skills | `knowledge-base/subjects/computing-life-skills/life-skills.md` |
 
-```
-### Lesson N — <title>
-- **Duration:** <20–40 min>
-- **Objective:** "By the end, I can <observable thing the child can do>." (tied to a Foundation standard)
-- **Hook:** <one line that creates curiosity / links to the child's world>
-- **Key activity:** <the core doing — concrete → pictorial → abstract, or I do → we do → you do>
-- **Check for understanding:** <one question> → <expected answer>
-- **Differentiation:** support: <…> / stretch: <…>
-- **Materials:** <manipulatives, texts, props>
-- **Joy:** <the one element a child would be excited to do>
-```
+## What's in this folder
 
-Lessons are grouped into **Units**. Each unit states its **essential question**, **key
-vocabulary**, and an **end-of-unit check**. Each subject file opens with a **year overview**
-and closes with **end-of-year mastery checks**.
+One lesson-outline file per subject, each with a year overview, units (essential question, key vocabulary) and
+mostly 20–30 minute lessons (a few making or investigation lessons run longer) in the eight-field format, followed by end-of-year checks:
 
-## The 8 design principles (every lesson must honour these)
+| Folder | File | Lessons | Focus |
+|---|---|---|---|
+| `maths/` | [maths-year-0.md](./maths/maths-year-0.md) | 24 | Number sense to 20, bonds and within-20 facts, first tens and ones, halves and quarters, coins and o'clock/half past, shape and position |
+| `english/` | [english-year-0.md](./english/english-year-0.md) | 27 | Phonics Phases 3–5 (blending, digraphs, split digraphs, first alternatives), tricky words, handwriting, first sentences, talking about stories |
+| `science/` | [science-year-0.md](./science/science-year-0.md) | 22 | Plants, animals and the human body, everyday materials, seasons and weather |
+| `history/` | [history-year-0.md](./history/history-year-0.md) | 7 | Now and then, living memory, a first local-history walk |
+| `geography/` | [geography-year-0.md](./geography/geography-year-0.md) | 11 | Maps and the compass, own country, continents and oceans, weather and seasons |
+| `history-geography/` | [history-geography-year-0.md](./history-geography/history-geography-year-0.md) | 18 | Legacy combined file that duplicates `history/` + `geography/`; kept for reference until Foundation is re-planned |
+| `art-design/` | [art-design-year-0.md](./art-design/art-design-year-0.md) | 22 | Line, colour mixing, texture and collage, pattern and printing, 3-D making |
+| `music/` | [music-year-0.md](./music/music-year-0.md) | 18 | Pulse, rhythm, high and low, singing, untuned and tuned percussion |
+| `computing/` | [computing-year-0.md](./computing/computing-year-0.md) | 20 | Unplugged algorithms, floor robots, first blocks, using a device, staying safe online |
+| `life-skills/` | [life-skills-year-0.md](./life-skills/life-skills-year-0.md) | 20 | Feelings, friendship, growth mindset, healthy and safe habits, money, caring for the world |
 
-1. Clear learning objective tied to the year's standards.
-2. Hook / question that creates curiosity.
-3. Explicit teaching of the new idea (concrete first for young children).
-4. Guided practice → independent practice.
-5. A real check for understanding.
-6. Built-in differentiation (support + stretch).
-7. Connection to the real world or another subject.
-8. Joy — at least one element a child would be excited to do.
+Foundation has **no `languages/` or `pe-health/` file yet**: Spanish and structured PE & Health begin in Year 1, and
+Foundation children join in with singing, games and daily active play. These Foundation outlines are shorter than
+the full-year Year 1–6 scope & sequence files (they have not yet been expanded to the planning brief's lesson
+counts), which suits a flexible catch-up year.
 
-## How to extend
+## How to use Foundation
 
-To expand any lesson to a full teacher-ready plan, use the templates in
-`knowledge-base/templates/lesson-plan-templates.md` (A–H). The KB topic each unit is drawn
-from carries the misconceptions, worked examples, and ready-made checks to fill them out.
+- **As a full year (ages 5–6):** teach the files in order, with daily phonics, story time, number games and lots of play.
+- **As catch-up:** use the Year 1 subject overviews' "What this year assumes" lists to find gaps, then teach just the
+  matching Foundation units alongside Year 1 (especially phonics and number bonds).
+- **Next:** [Year 1 (ages 6–7)](../year-1/README.md).
