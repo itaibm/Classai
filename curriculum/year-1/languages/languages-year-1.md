@@ -20,7 +20,7 @@ pure vowels; silent *h* and the throaty *j*; *ñ* and *ll*; tapped *r* and rolle
 *qu*; hard and soft *g*; and word stress with accents. By the end of the year children can read aloud familiar
 words correctly — a huge head start for Year 2.
 
-**Culture.** Spanish is spoken in more than 20 countries. Each unit visits one or two: Spain, Mexico, Argentina,
+**Culture.** Spanish is an official language of about 20 countries (and is spoken by tens of millions more in the USA and elsewhere). Each unit visits one or two: Spain, Mexico, Argentina,
 Colombia, Peru, Cuba, Chile, Guatemala, Equatorial Guinea and more — through songs, festivals (Día de los Muertos,
 Los Reyes Magos, La Tomatina, Carnaval), food and stories. Where the two main accents differ (e.g. *z* and *ce/ci*
 said /th/ in most of Spain and /s/ in Latin America; *zumo* vs *jugo*), both are taught as correct.
@@ -30,8 +30,8 @@ become "expert helpers" and are stretched with reading and extended talk.
 
 **What Year 2 relies on:** greetings and feelings, numbers 0–20, colours, family, animals, body, food, weather and
 days as heard-and-spoken vocabulary; *me gusta / no me gusta*, *tengo*, *hay*; the Spanish sound rules; confidence
-to speak in short sentences. Year 2 extends numbers to 31, adds classroom objects and gender (*el/la, un/una*),
-and begins writing short phrases.
+to speak in short sentences. Year 2 extends numbers to 50, adds classroom objects, gender (*el/la, un/una*)
+and adjective agreement, and begins writing short phrases.
 
 **Swapping the language.** The same unit structure works for another language — e.g. Hebrew
 (`knowledge-base/subjects/hebrew/kita-1-2.md`) or French (`knowledge-base/subjects/french/french-foundations.md`):
@@ -118,7 +118,7 @@ and highly active.
 - **Duration:** 20 min
 - **Objective:** "By the end, I can say how I feel with 'Estoy…' and a feelings word." (CEFR pre-A1 S)
 - **Hook:** Feelings faces on a spinner: "Spin it and act it!"
-- **Key activity:** Teach contento/a, triste, cansado/a, enfadado/a with faces and actions; note that girls often say contenta and boys contento (an early glimpse of agreement); spin-and-say game.
+- **Key activity:** Teach contento/a, triste, cansado/a, enfadado/a with faces and actions; note that a girl says *contenta* and a boy says *contento* — the word matches the person (an early glimpse of agreement); spin-and-say game.
 - **Check for understanding:** "Paco yawns and stretches. What does he say?" → "Estoy cansado."
 - **Differentiation:** support: point-and-say / stretch: "Estoy contento porque…" with an English reason (a bridge to Year 2)
 - **Materials:** feelings spinner, face cards
@@ -197,9 +197,9 @@ and highly active.
 ### Lesson 13 — Numbers 11–15
 - **Duration:** 20 min
 - **Objective:** "By the end, I can say and recognise the numbers 11 to 15." (CEFR pre-A1 L/S)
-- **Hook:** "Once… it sounds like the English word 'once' but it means 11!"
+- **Hook:** "*Once* is spelled like the English word 'once' — but it's said ON-seh and it means 11!"
 - **Key activity:** Teach once, doce, trece, catorce, quince with a counting-stick; "stand up if you hear your number" game.
-- **Check for understanding:** "What number is 'doce'?" → 12.
+- **Check for understanding:** "Paco has *doce* stickers and you have *quince*. Who has more, and how many more?" → I do — 15 is 3 more than 12.
 - **Differentiation:** support: 11–13 / stretch: count from 10 to 15 and back
 - **Materials:** counting stick, number cards
 - **Joy:** Stand-up number game.
@@ -649,7 +649,7 @@ and highly active.
 - **Objective:** "By the end, I can name foods from different Spanish-speaking countries." (CEFR pre-A1 IC)
 - **Hook:** "Tacos from Mexico, paella from Spain, arepas from Colombia and Venezuela — which would you try?"
 - **Key activity:** Map foods to countries; try a simple food (e.g. tortilla chips with guacamole — check allergies); say "¡Delicioso!" or "No me gusta".
-- **Check for understanding:** "Which country is paella from?" → Spain.
+- **Check for understanding:** "Paco says: 'Me gusta la paella, pero no me gusta el taco.' Which food does he like, and which country does it come from?" → Paella — from Spain (he doesn't like tacos, from Mexico).
 - **Differentiation:** support: 3 foods / stretch: describe a food with a colour
 - **Materials:** food photos, map, tasting items
 - **Joy:** Tasting.
@@ -718,7 +718,7 @@ and highly active.
 - **Duration:** 20 min
 - **Objective:** "By the end, I can use accent marks to know which part of a word to say more strongly (miércoles, sábado, jirafa)." (CEFR pre-A1 phonology)
 - **Hook:** "That little line on miércoles is a volume knob!"
-- **Key activity:** Clap syllables with the stressed one loudest; the accent mark shows the stressed syllable; practise with days and animal words.
+- **Key activity:** Clap syllables with the stressed one loudest; the accent mark shows the stressed syllable; words with no accent that end in a vowel are stressed on the second-to-last syllable (ji-RA-fa, LU-nes); practise with days and animal words.
 - **Check for understanding:** "Which part of 'sábado' is loudest, and how do you know?" → The first — "SÁ-ba-do" — the accent is on the á.
 - **Differentiation:** support: clap along / stretch: find the stressed syllable in plátano and música
 - **Materials:** word cards, drum
@@ -744,14 +744,14 @@ and highly active.
 - **Materials:** dress-up clothes, weather cards
 - **Joy:** Dress-up relay race.
 
-### Lesson 62 — My week diary
+### Lesson 62 — My week's weather forecast
 - **Duration:** 20 min
-- **Objective:** "By the end, I can say what the weather was like each day of the week, reading the day words." (CEFR pre-A1 S/R)
-- **Hook:** "Our class weather diary is full — let's report it!"
-- **Key activity:** Use the class weather record to say "El lunes, hace sol. El martes, llueve…"; read day and weather word cards.
-- **Check for understanding:** "What was the weather on miércoles?" → Answer from the diary in Spanish.
-- **Differentiation:** support: picture diary / stretch: read the diary aloud
-- **Materials:** class weather diary, word cards
+- **Objective:** "By the end, I can give a weather forecast for each day of the week, reading the day words." (CEFR pre-A1 S/R)
+- **Hook:** "The weather office needs a forecast for next week — let's make one!"
+- **Key activity:** Groups fill a week chart with weather symbols, then read it as a forecast: "El lunes hace sol. El martes llueve…" (in Spanish the present tense works for a forecast; saying what the weather *was* needs past-tense forms, which come later); read day and weather word cards.
+- **Check for understanding:** "Look at our forecast: which day is best for a picnic, and why? Answer in Spanish." → e.g. "El jueves — hace sol y hace calor."
+- **Differentiation:** support: picture chart with two weather cards per day / stretch: read the whole forecast aloud
+- **Materials:** week forecast chart, weather symbols, word cards
 - **Joy:** Weather-diary report.
 
 ### Lesson 63 — Unit check: weather reporter
@@ -839,7 +839,7 @@ and highly active.
 - **Objective:** "By the end, I can perform in Spanish for an audience and greet visitors." (CEFR pre-A1 S; IC)
 - **Hook:** "¡Bienvenidos a nuestra fiesta!"
 - **Key activity:** Perform the show for families; children greet visitors in Spanish and teach them a word.
-- **Check for understanding:** "Greet a visitor and teach them one Spanish word." → "¡Hola! Me llamo… '¡Perro' means dog!"
+- **Check for understanding:** "Greet a visitor and teach them one Spanish word." → "¡Hola! Me llamo… 'Perro' means dog!"
 - **Differentiation:** support: group performance / stretch: host role
 - **Materials:** props, costumes, decorations
 - **Joy:** The fiesta.
@@ -877,4 +877,4 @@ and highly active.
 
 **Home-speakers of Spanish** are an asset: give them "expert" roles, extended reading (the Spanish editions in the class library) and early writing tasks.
 
-**Vertical alignment.** This is the first year of the language spine. Year 2 (ages 7–8) extends numbers to 31, adds classroom objects, gender (el/la, un/una) and simple written phrases, building on this year's sound rules and spoken confidence.
+**Vertical alignment.** This is the first year of the language spine. Year 2 (ages 7–8) extends numbers to 50, adds classroom objects, formal gender (el/la, un/una) and adjective agreement, dates and months, reading short texts and writing simple phrases — revisiting this year's topics (family, animals, weather, festivals) at a deeper level rather than re-teaching them.
