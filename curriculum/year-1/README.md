@@ -1,72 +1,81 @@
-# Year 1 Curriculum (ages 5–6, KS1) — Lesson Outlines
+# Year 1 (ages 6–7) — Year Overview
 
 > Part of **the best international primary school** (see [`../../SCHOOL-CHARTER.md`](../../SCHOOL-CHARTER.md)).
-> This folder breaks **Year 1** of every knowledge-base subject into **20–40 minute lesson outlines**,
-> ready for a teacher (or the Classai tutor) to expand into full plans.
+> Every subject file follows [`../PLANNING-BRIEF.md`](../PLANNING-BRIEF.md): a full-year scope & sequence with a
+> time budget, units with essential questions and vocabulary, every lesson with its eight fields, end-of-unit
+> checks, books & resources, end-of-year mastery checks and teacher guidance.
 
-## What this is
+**Label:** Year 1 · **Ages:** 6–7 · **UK equivalent:** Year 2 · **US equivalent:** Grade 1.
+Standards references come from the knowledge base's **UK Year 2** files (`knowledge-base/subjects/*/year-2.md`) and
+KS1 subject files. The optional [Foundation year](../year-0/README.md) (ages 5–6) comes before; [Year 2](../year-2/)
+(ages 7–8) comes after.
 
-Each subject file takes its Year 1 scope from `knowledge-base/subjects/…` and sequences it into
-a gap-free run of teachable lessons. Year 1 is the foundation year: hands-on, concrete, short
-attention spans. Most lessons run **20–30 min** of focused teaching (the upper end, 35–40 min,
-is reached only where a making/investigation task needs it) — matched to the age band per
-`knowledge-base/templates/lesson-anatomy.md` (~10–15 min new content for 5–7s, the rest doing).
+## The year at a glance
 
-> **Year-label note.** We follow the knowledge base's own labels: **Year 1 = ages 5–6 (UK KS1
-> Year 1)**. The charter's neutral "Year 1 = ages 6–7" sits one step later; when we map labels
-> across the whole school we will align these. Content here is anchored to the KB, which is the
-> source of truth.
+Year 1 is the year children become **readers, reasoners and makers**. Phonics is consolidated from Phase 5 to Phase 6
+so reading becomes fluent; number sense to 100 turns into calculation, the first times tables and fractions of
+quantities; science brings real investigations in all four sciences; and a world language, music, art, PE,
+computing and life skills make the week rich and joyful. Each subject names **real books and artists/composers from
+many cultures**, and every unit closes with a low-stakes mastery check.
 
-## Subjects in Year 1 (KB-covered)
+| Subject | File | Lessons | Units — in teaching order |
+|---|---|---|---|
+| Mathematics | [maths/maths-year-1.md](./maths/maths-year-1.md) | 170 | Numbers to 100 · Addition & subtraction · Multiplication · Division · Length · Mass, capacity & temperature · Money · Fractions · Time · Statistics · Shape & symmetry · Position & direction · Year-end problem solving |
+| English | [english/english-year-1.md](./english/english-year-1.md) | 170 | Vowel spellings (*Frog and Toad Are Friends*) · Long words & descriptions (*Traction Man Is Here!*) · Information texts (*The Emperor's Egg*) · Suffixes & letters (*Flat Stanley*) · Traditional tales (*Lon Po Po*, *Why Mosquitoes Buzz in People's Ears*) · Apostrophes & diaries (*The Hodgeheg*) · Instructions (*How to Wash a Woolly Mammoth*) · Persuasion (*Meerkat Mail*, *The Great Kapok Tree*) · My own story (*Fantastic Mr Fox*) |
+| Science | [science/science-year-1.md](./science/science-year-1.md) | 70 | Living things & habitats · Everyday materials · Animals incl. humans · Sound · Sun, Moon & Earth · Plants · Our own investigation |
+| History | [history/history-year-1.md](./history/history-year-1.md) | 35 | Time detectives · The Great Fire of London (and Chicago) · Explorers from around the world · People who made a difference · History where I live · Class museum |
+| Geography | [geography/geography-year-1.md](./geography/geography-year-1.md) | 35 | Maps & mapmakers · Local fieldwork · Continents, oceans & my country · Home and a town in Kenya · Weather & climate · Caring for our world |
+| Languages (Spanish) | [languages/languages-year-1.md](./languages/languages-year-1.md) | 70 | ¡Hola! · Numbers 0–20 · Colours & shapes · Family · Animals · Body · Food · Weather & days · ¡Fiesta! |
+| Art & Design | [art-design/art-design-year-1.md](./art-design/art-design-year-1.md) | 35 | Sketchbook & line · Tints, shades & moods · Collage · Pattern & printmaking · Textiles · Clay & exhibition |
+| Music | [music/music-year-1.md](./music/music-year-1.md) | 35 | Pulse & rhythm · Singing so–mi–la · Dynamics & tempo · Instruments of the world · Glockenspiel · Compose & perform |
+| PE & Health | [pe-health/pe-health-year-1.md](./pe-health/pe-health-year-1.md) | 70 | Movement skills · Ball skills · Health 1 · Dance · Gymnastics · Health 2 (feelings & safety) · Team games · Outdoors, water safety & athletics · Festival |
+| Computing | [computing/computing-year-1.md](./computing/computing-year-1.md) | 35 | Algorithms · Debugging with floor robots · ScratchJr · Digital content · Data · Technology & online safety |
+| Life Skills | [life-skills/life-skills-year-1.md](./life-skills/life-skills-year-1.md) | 35 | Feelings · Friendship & kindness · Growth mindset · Money sense · Caring for our planet · Global citizenship & service |
+| **Total** | | **760** | |
 
-| Subject | Source in knowledge-base | File |
-|---|---|---|
-| Mathematics | `subjects/maths/year-1.md` | [`maths/`](./maths/) |
-| English | `subjects/english/year-1.md` | [`english/`](./english/) |
-| Science | `subjects/science/year-1.md` | [`science/`](./science/) |
-| History & Geography | `subjects/history-geography/history-ks1.md`, `geography-ks1.md` | [`history-geography/`](./history-geography/) |
-| Art & Design | `subjects/art-music/art-ks1-ks2.md` | [`art-design/`](./art-design/) |
-| Music | `subjects/art-music/music-ks1-ks2.md` | [`music/`](./music/) |
-| Computing | `subjects/computing-life-skills/computing-ks1-ks2.md` | [`computing/`](./computing/) |
-| Life Skills | `subjects/computing-life-skills/life-skills.md` | [`life-skills/`](./life-skills/) |
+## A sample week
 
-**World language:** the KB only holds Spanish at KS2 (Years 3–6), so no Year 1 world-language
-file is generated here. Hebrew (`subjects/hebrew/kita-1-2.md`) and French exist as Israeli-track
-alternates and can be added on request.
+36 teaching weeks; lessons are 20–30 minutes (the brief's Years 1–2 range). The §2 budget gives **22 lessons a
+week**. One way to lay it out:
 
-## The lesson-outline format (every lesson uses this)
+| | Mon | Tue | Wed | Thu | Fri |
+|---|---|---|---|---|---|
+| Early morning (10 min) | Phonics warm-up | Phonics warm-up | Phonics warm-up | Phonics warm-up | Phonics warm-up |
+| Lesson 1 | English | English | English | English | English |
+| Lesson 2 | Maths | Maths | Maths | Maths | Maths |
+| *Break — outdoor play* | | | | | |
+| Lesson 3 | Spanish | Science | Geography | Science | Spanish |
+| Lesson 4 | History | PE & Health | Art & Design | PE & Health | Life Skills |
+| Lesson 5 | — | Music | — | Computing | — |
+| Every day | 10 min home reading · story read-aloud · outdoor play | | | | |
 
-Each lesson is a compact skeleton — enough for a teacher to deliver, expandable to a full plan:
+Weekly totals: English 5 · Maths 5 · Science 2 · Spanish 2 · PE & Health 2 · History 1 · Geography 1 · Art & Design 1 ·
+Music 1 · Computing 1 · Life Skills 1 = **22**. Short days (Mon, Wed, Fri) leave time for play, reading for pleasure,
+catch-up groups and projects — protecting childhood is part of the charter.
 
-```
-### Lesson N — <title>
-- **Duration:** <20–40 min>
-- **Objective:** "By the end, I can <observable thing the child can do>." (tied to a Year 1 standard)
-- **Hook:** <one line that creates curiosity / links to the child's world>
-- **Key activity:** <the core doing — concrete → pictorial → abstract, or I do → we do → you do>
-- **Check for understanding:** <one question> → <expected answer>
-- **Differentiation:** support: <…> / stretch: <…>
-- **Materials:** <manipulatives, texts, props>
-- **Joy:** <the one element a child would be excited to do>
-```
+## Cross-curricular threads
 
-Lessons are grouped into **Units**. Each unit states its **essential question**, **key
-vocabulary**, and an **end-of-unit check**. Each subject file opens with a **year overview**
-and closes with **end-of-year mastery checks**.
+- **Kenya and East Africa** — Geography Unit 4, English reading-for-pleasure (*Lila and the Secret of Rain*, *Handa's Surprise*), Science (Wangari Maathai), Art (Magdalene Odundo) and Life Skills (*Beatrice's Goat*, Uganda).
+- **Rainforests** — English Unit 8 (*The Great Kapok Tree*), Geography Unit 6, Science (habitats) and Music (sound poems).
+- **Measuring and data** — Maths Units 5, 6 and 10 are used in Science investigations, Geography fieldwork, PE athletics and Computing data.
+- **Money** — Maths Unit 7 and Life Skills Unit 4.
+- **Position, direction and algorithms** — Maths Unit 12, Computing Units 1–2 and Geography Unit 1.
+- **Sound and music** — Science Unit 4 and Music Units 3–5.
+- **Ghana** — Art (Adinkra, Kente), Music (Obwisana, Che Che Koolay) and PE (Adowa-inspired dance).
 
-## The 8 design principles (every lesson must honour these)
+## Authored app lessons
 
-1. Clear learning objective tied to the year's standards.
-2. Hook / question that creates curiosity.
-3. Explicit teaching of the new idea (concrete first for young children).
-4. Guided practice → independent practice.
-5. A real check for understanding.
-6. Built-in differentiation (support + stretch).
-7. Connection to the real world or another subject.
-8. Joy — at least one element a child would be excited to do.
+Hand-built, app-runnable lessons live in `maths/lessons/` (28), `english/lessons/` (25), `science/lessons/` (1) and
+`art-design/lessons/` (2). The catalog matches them to outline slots by **lesson number**; in this re-planned year
+most were moved to new slots, and every old → new id is recorded in [`ID-MAP.json`](./ID-MAP.json) so learner
+progress can be migrated. (Apply the map once — some new ids reuse the text of other old ids.)
 
-## How to extend
+The `scripts/` folders are tutor scripts written for the previous, shorter outlines; their lesson numbers no longer
+match the scope & sequence files and should be regenerated from the new lessons.
 
-To expand any lesson to a full teacher-ready plan, use the templates in
-`knowledge-base/templates/lesson-plan-templates.md` (A–H). The KB topic each unit is drawn
-from carries the misconceptions, worked examples, and ready-made checks to fill them out.
+## How to use this year
+
+1. Read each subject's **Year overview** and **Teacher guidance** first.
+2. Follow the lessons in order — numbering is continuous through each file and already reflects the best teaching sequence.
+3. Use every **End-of-unit check** as a friendly conversation or task, and record next steps for each child.
+4. Use the **End-of-year mastery checks** in the final weeks to plan the handover to Year 2.

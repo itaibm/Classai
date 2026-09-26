@@ -1,274 +1,1987 @@
-# English — Year 5 (ages 9–10, Upper KS2) — Lesson Outlines
+# Year 5 English (ages 10–11) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Source of truth: [`knowledge-base/subjects/english/year-5.md`](../../../knowledge-base/subjects/english/year-5.md).
-> Format + 8 design principles: [`../README.md`](../README.md).
+> Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Standards reference:
+> `knowledge-base/subjects/english/year-6.md` (UK Year 6 = our Year 5), cross-referenced to US Common
+> Core Grade 5 (RL/RI/W/SL/L.5).
 
 ## Year overview
 
-Year 5 opens Upper Key Stage 2, where writers gain precision and readers gain judgement. Building on Year 4's adverbials, figurative language and explanation texts, grammar now adds **relative clauses**, **modal verbs and adverbs of possibility**, and **parenthesis with brackets, dashes and commas**. Spelling tackles the hardest endings — **-able/-ible and -ant/-ent** — plus **silent letters, the ei/ie rule**, and the start of the **Year 5/6 statutory word list**. Reading sharpens into **distinguishing fact from opinion and comparing texts**, reading adverts and reviews with a critical eye. Writing turns persuasive and cohesive: **writing to persuade** with rhetorical devices and modal verbs, building **cohesion across paragraphs**, and **integrating dialogue to show character**. Lessons run 25–35 min, explicit-first, guided → independent, with retrieval and spaced spelling woven throughout so the year is a gap-free climb from "I can craft a sentence" to "I can argue, link and shape writing for a reader".
+Year 5 is the year pupils become **readers who analyse and writers who choose**. The year is built
+around a **class-text spine** of whole books read together, with every writing genre, grammar point,
+vocabulary set and speaking task growing out of the text in hand. Grammar is never drilled for a test:
+each new structure (the passive voice, semicolons, colons, dashes, formal register, the subjunctive,
+hyphens) is introduced because a writer we are reading uses it, practised in short "sentence studio"
+tasks, and then used in the pupils' own writing where it earns its place.
+
+**The class-text spine**
+
+| Term | Whole books | Poetry | Main writing outcomes |
+|---|---|---|---|
+| 1 | *Wonder* — R. J. Palacio (USA); *The Breadwinner* — Deborah Ellis (Canada; set in Afghanistan) | *The Lady of Shalott* — Alfred, Lord Tennyson | story told by two narrators; narrative poem performance; diary in role; news report and explanation |
+| 2 | *A Long Walk to Water* — Linda Sue Park (South Sudan/USA); *Boy: Tales of Childhood* — Roald Dahl (Wales/Norway/England); *The Arrival* — Shaun Tan (wordless, Australia) | Poems from around the world — Langston Hughes, Rabindranath Tagore, John Agard, Maya Angelou, Kit Wright | balanced argument and persuasive speech; memoir; migration story from images |
+| 3 | *Skellig* — David Almond (England); *The Tempest* — William Shakespeare (in a quality retelling plus key scenes) | "The Door" — Miroslav Holub; *Jabberwocky* — Lewis Carroll | literary analysis essay; scripted scene and performance; independent research report; personal poetry anthology |
+
+**What this year assumes (from Year 4):** fluent, expressive reading of age-appropriate novels; a
+joined, legible handwriting style; paragraphs organised around a topic; relative clauses, modal verbs
+and parenthesis (brackets, dashes, commas); fronted adverbials and cohesive devices; speech punctuation;
+the -able/-ible, -ant/-ent and silent-letter spelling patterns; distinguishing fact from opinion;
+persuasive writing with rhetorical devices.
+
+**What this year adds:** summarising and **analysing** whole texts with evidence (Point–Evidence–
+Explain); comparing texts and perspectives; the **passive voice** and **formal register**; **semicolons,
+colons and dashes** between independent clauses; hyphens to avoid ambiguity; bullet-point layout;
+précis; the Y5/6 statutory word list and Greek and Latin roots; **balanced argument**; memoir; multiple and dual
+narratives; drama and Shakespeare; and an **independent research project** with notes, sources and a
+bibliography.
+
+**What Year 6 relies on:** the ability to write an extended analytical paragraph about a novel, to
+research independently from several sources and cite them, to plan–draft–revise–edit a multi-page
+piece, to write a reasoned argument that acknowledges the other side, and to control register and
+sentence structure deliberately.
+
+**Every day, outside these lessons:** 20–30 minutes of independent reading of a self-chosen book
+(tracked in a reading journal, discussed weekly in a short conference), 5 minutes of spelling
+practice, and a class read-aloud of a book from the wider reading list. Handwriting is now maintained
+through writing, with speed-and-legibility practice only for pupils who need it.
+
+## Time budget
+
+36 weeks × 5 English lessons = 180 slots. 170 lessons are planned; 10 spare slots cover assessment
+conferences, author visits, World Book Day and catch-up.
+
+| Unit | Title | Term | Weeks | Lessons |
+|---|---|---|---|---|
+| 1 | *Wonder*: character, voice and multiple narrators | 1 | 3.5 | 18 (1–18) |
+| 2 | Narrative poetry: *The Lady of Shalott* | 1 | 1.5 | 8 (19–26) |
+| 3 | *The Breadwinner*: point of view and justice | 1 | 3 | 14 (27–40) |
+| 4 | Non-fiction: news reports and explanations | 1 | 2.5 | 12 (41–52) |
+| 5 | Speaking and listening: debate, and Term 1 review | 1 | 1 | 5 (53–57) |
+| 6 | *A Long Walk to Water*: dual narratives | 2 | 3 | 16 (58–73) |
+| 7 | Argument: the water campaign | 2 | 2.5 | 12 (74–85) |
+| 8 | *Boy*: autobiography and memoir | 2 | 3 | 14 (86–99) |
+| 9 | Poetry from around the world | 2 | 1.5 | 8 (100–107) |
+| 10 | *The Arrival*: reading images, writing migration stories | 2 | 1.5 | 8 (108–115) |
+| 11 | *Skellig*: literary fiction and analysis | 3 | 3 | 16 (116–131) |
+| 12 | *The Tempest*: Shakespeare, drama and performance | 3 | 3 | 14 (132–145) |
+| 13 | Independent research project | 3 | 3 | 14 (146–159) |
+| 14 | Poetry of choices: Holub, Carroll and our own anthology | 3 | 1 | 6 (160–165) |
+| 15 | Year-end portfolio and bridge to Year 6 | 3 | 1 | 5 (166–170) |
+| | **Total** | | **34 (+2 flex)** | **170** |
 
 ---
 
-## Unit 1 — Grammar: clauses, modality & parenthesis
+## Unit 1 — *Wonder*: character, voice and multiple narrators
 
-> **Essential question:** How do I add extra information, show how sure I am, and drop asides into a sentence?
->
-> **Key vocabulary:** relative clause, relative pronoun (*who/which/that/whose/where/when*), essential/non-essential, modal verb, adverb of possibility, parenthesis, brackets, dashes, commas.
->
-> Drawn from KB topics 1, 2, 3. Relative clauses (with commas for non-essential), modality, and the three ways to punctuate parenthesis.
+**Essential question:** How does telling one story through several narrators change what we understand — and what does it really mean to "choose kind"?
 
-### Lesson 1 — Relative clauses (who, which, whose)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can add a relative clause about a noun using the right relative pronoun."
-- **Hook:** "Want to tell more about a noun? Drop in an 'extra info' clause: 'The boy *who won the race* was tired.'"
-- **Key activity:** I do — *who* (people), *which* (things), *whose* (belonging); model adding to a noun. We do — add a relative clause to two sentences. You do — child completes five sentences choosing the right relative pronoun.
-- **Check for understanding:** "Which relative pronoun is for people?" → *who*.
-- **Differentiation:** support: pronoun-to-noun matching cards. / stretch: add a *where/when* relative clause.
-- **Materials:** sentence cards; relative-pronoun bank.
-- **Joy:** "upgrading" plain sentences with rich extra detail.
+**Key vocabulary:** protagonist, narrator, first person, multiple narrators, perspective, voice, precept, empathy, inference, evidence, motif, theme, turning point, semicolon, colon, independent clause
 
-### Lesson 2 — Commas around non-essential relative clauses
-- **Duration:** 20 min
-- **Objective:** "By the end, I can comma off a relative clause that is extra (non-essential)."
-- **Hook:** "'Mr Khan, *who lives next door*, waved.' Lift out the middle bit — the sentence still works! That's why it gets commas."
-- **Key activity:** I do — the lift-out test: removable extra → commas; essential (which one) → *that*, no commas. We do — comma off one. You do — child decides commas-or-not for five relative clauses.
-- **Check for understanding:** "Do you comma off an essential clause (the one saying *which* book)?" → No.
-- **Differentiation:** support: highlight the removable clause. / stretch: write one essential and one non-essential example.
-- **Materials:** relative-clause sentence cards.
-- **Joy:** the "can I lift it out?" detective test.
+### Lesson 1 — "I know I'm not an ordinary ten-year-old kid"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can make inferences about a narrator and his situation from the opening chapters, citing the words that gave me the clue." (UK NC Y6 reading — inference / CCSS RL.5.1)
+- **Hook:** Read the first line aloud: "I know I'm not an ordinary ten-year-old kid." — "What does a narrator reveal about himself by starting like that?"
+- **Key activity:** I do: read the opening chapters of *Wonder* by R. J. Palacio aloud, thinking aloud about what August (Auggie) tells us and what he holds back about his face, his home-schooling and starting school. We do: annotate an extract for clues about how he feels and how others treat him. You do: complete an inference grid — "I think… because the text says…".
+- **Check for understanding:** "Auggie says he won't describe what he looks like — 'whatever you're thinking, it's probably worse.' What does that tell us about him?" → He is used to people staring and has learned to protect himself with humour; he is funny and honest but also expects to be judged.
+- **Differentiation:** support: inference grid with the quotations pre-selected and sentence starters / stretch: explain how Auggie's humour makes a painful situation readable, with two quotations.
+- **Materials:** class copies of *Wonder* by R. J. Palacio, extract photocopies, highlighters, inference grids.
+- **Joy:** "Precept jar" — begin a class collection of wise sayings, as Auggie's English teacher does.
 
-### Lesson 3 — Modal verbs & adverbs of possibility
-- **Duration:** 20 min
-- **Objective:** "By the end, I can use modal verbs and possibility adverbs to show how sure something is."
-- **Hook:** "Will it rain? *Might*, *could*, *will*, *must* — each one changes how SURE you are."
-- **Key activity:** I do — modals for possibility/certainty/obligation/permission (*might, will, must, can*); adverbs (*probably, perhaps, definitely*); a certainty scale. Flag *should have* not *should of*. We do — rank two sentences. You do — child chooses the modal/adverb to fit the meaning in five sentences.
-- **Check for understanding:** "Which is more certain: 'It might snow' or 'It will snow'?" → "It will snow".
-- **Differentiation:** support: certainty scale strip. / stretch: rank four sentences from least to most certain.
-- **Materials:** modal/adverb cards; certainty scale.
-- **Joy:** being the weather forecaster choosing how confident to sound.
+### Lesson 2 — Meeting Auggie and Beecher Prep
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe a character using evidence of what he says, does and thinks, and how others treat him." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "Three pupils are asked to show Auggie round his new school before term starts. What would you do in their place?"
+- **Key activity:** Build a character "role on the wall" (outline of Auggie): inside — thoughts and feelings; outside — how others see and treat him (the tour with Jack, Julian and Charlotte; the first days in class). Pupils find evidence and add quotations. Discuss respectful language for talking about facial difference.
+- **Check for understanding:** "How does Auggie cope with being stared at in his first days? Give one piece of evidence." → A reasoned answer with evidence (e.g. he keeps his head down and makes jokes, but tells us privately how much it hurts), showing both courage and hurt.
+- **Differentiation:** support: choose from six provided quotations and match each to a trait / stretch: explain how Palacio makes us sympathise with Auggie without him ever asking for pity.
+- **Materials:** *Wonder*, large paper for role on the wall, sticky notes.
+- **Joy:** Mr Browne's first precept — "When given the choice between being right or being kind, choose kind" — becomes the class motto for the week.
 
-### Lesson 4 — Parenthesis: brackets, dashes, commas
-- **Duration:** 25 min
-- **Objective:** "By the end, I can drop an aside into a sentence using a pair of brackets, dashes or commas."
-- **Hook:** "'My dog (a noisy spaniel) barks all night.' Extra info, dropped in — and you can lift it back out!"
-- **Key activity:** I do — three pairs: brackets (formal), dashes (dramatic), commas (smooth); the golden test (remove it, sentence still works); always in pairs. We do — add a parenthesis two ways. You do — child inserts a parenthesis into five sentences using all three methods.
-- **Check for understanding:** "What's the test for a parenthesis?" → remove it — the sentence still makes sense.
-- **Differentiation:** support: extra-info phrase provided to insert. / stretch: choose the most suitable of the three for each context.
-- **Materials:** base sentences; extra-info phrases.
-- **Joy:** sneaking funny asides into sentences with dashes.
+### Lesson 3 — Another narrator: Via's story
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a change of narrator adds meaning to the main story." (UK NC Y6 reading — structure / CCSS RL.5.5)
+- **Hook:** "Suddenly the book stops being Auggie's story. His sister Via says Auggie is the Sun and the family are planets orbiting him. What does she mean?"
+- **Key activity:** Read the opening of Via's section. Create a two-column chart: what we knew from Auggie / what Via's section adds (her feelings about being the 'easy' child, her grandmother, starting high school). Discuss what the change of narrator makes us expect.
+- **Check for understanding:** "What does Via's section tell us that Auggie could never have told us himself?" → Her private feelings — her love for Auggie mixed with loneliness and the wish to be seen for herself — which Auggie doesn't know about.
+- **Differentiation:** support: chart template with events printed to sort / stretch: predict whose voice we might hear next and what they might reveal, with reasons.
+- **Materials:** *Wonder*, two-column charts, a simple 'Sun and planets' diagram.
+- **Joy:** a class "narrator map" that grows as each new voice appears.
 
-### Lesson 5 — Grammar review: clause, modal, parenthesis (retrieval)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can combine a relative clause, a modal verb and a parenthesis correctly."
-- **Hook:** "Sentence Upgrade Lab! Take a plain sentence and add three power-tools."
-- **Key activity:** Retrieval across Lessons 1–4. Guided warm-up, then independent: child upgrades two sentences, each adding a relative clause (commas if non-essential), a modal verb, OR a parenthesis as prompted.
-- **Check for understanding:** "Correct 'I should of gone.'" → *I should have gone.*
-- **Differentiation:** support: one upgrade at a time. / stretch: fit all three into one sentence.
-- **Materials:** plain sentence cards; tool prompts.
-- **Joy:** the "most upgraded sentence" challenge.
+### Lesson 4 — Sentence studio: the semicolon
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use a semicolon to join two closely linked independent clauses." (UK NC Y6 grammar / CCSS L.5.2)
+- **Hook:** "Auggie walked into the classroom; everyone went quiet. How is that different from 'Auggie walked into the classroom. Everyone went quiet.'?"
+- **Key activity:** Teach: a semicolon joins two complete sentences (independent clauses) that are closely related, without a conjunction. Test: each side must stand alone. Practise by rewriting pairs of sentences about the book; spot incorrect semicolons.
+- **Check for understanding:** "Is this correct: 'Auggie felt nervous; because it was his first day.' Why or why not?" → No: "because it was his first day" is not an independent clause, so a semicolon can't be used; write "Auggie felt nervous because it was his first day."
+- **Differentiation:** support: cut-up sentence strips to test each half aloud ("Does it make sense alone?") / stretch: use a semicolon to separate items in a complex list that already contains commas.
+- **Materials:** sentence strips, *Wonder* extracts, mini-whiteboards.
+- **Joy:** "Semicolon surgery" — join and separate sentence strips with a giant cardboard semicolon.
 
-> **End-of-Unit 1 check:** Child adds a relative clause with correct pronoun and commas where non-essential, chooses a modal/possibility adverb for meaning, and inserts a parenthesis (and removes it to test). Mastery = pronoun and commas correct; certainty matched; parenthesis paired and removable.
+### Lesson 5 — Halloween: a friendship broken
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a key event changes a relationship and develops a theme." (UK NC Y6 reading — themes / CCSS RL.5.2)
+- **Hook:** "Auggie loves Halloween: for one day, nobody can see his face. So why does this Halloween become the worst day of his year?"
+- **Key activity:** Read the Halloween chapters, in which Auggie, in an unexpected costume, overhears his friend Jack saying cruel things about him to fit in with Julian. In groups, discuss why Jack said it and how Auggie responds. Record on a "theme web" connecting friendship, belonging and kindness.
+- **Check for understanding:** "Why is the Halloween moment so painful for Auggie, and what does it tell us about Jack?" → Auggie trusted Jack as his real friend; hearing him mock Auggie to impress others shows how much pressure there is to fit in — and that Jack made a weak choice, not that he is simply cruel.
+- **Differentiation:** support: guided reading group with key passages marked and question prompts / stretch: predict how Jack's own section might change our view of this moment, with reasons.
+- **Materials:** *Wonder*, theme-web templates, sticky notes.
+- **Joy:** "Precept jar": pupils add a precept that Jack should have remembered.
 
----
+### Lesson 6 — Vocabulary: word families and roots
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use Greek and Latin roots to work out the meanings of unfamiliar words." (UK NC Y6 spelling & vocabulary / CCSS L.5.4b)
+- **Hook:** "Mr Browne teaches 'precepts'. 'Pre' means before — so what might 'cept' mean?"
+- **Key activity:** Teach roots: *cept/cap* (take), *spect* (look), *dict* (say), *port* (carry), *vis/vid* (see), *bene* (good), *aqua* (water). Build word-family trees; use the roots to decode words from the book and beyond (precept, spectator, predict, visible, benefit).
+- **Check for understanding:** "Using roots, what might 'benefactor' mean? Explain your reasoning." → Someone who does good for others ('bene' = good, 'fact' = do/make, '-or' = a person who).
+- **Differentiation:** support: 4 roots with picture cues and example words / stretch: invent a plausible new word from two roots and define it.
+- **Materials:** root cards, word-family tree templates, a children's dictionary with etymologies.
+- **Joy:** "Root inventor" — invent and illustrate a new word (e.g. 'benevision': seeing the good in people).
 
-## Unit 2 — Spelling: tricky endings, silent letters & Y5/6 list
+### Lesson 7 — Jack's side: understanding a mistake
+- **Duration:** 40 min
+- **Objective:** "By the end, I can track how a relationship changes and explain what causes the change." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "Now we hear from Jack. Will his side of the story change what we think of him?"
+- **Key activity:** Read Jack's section. Map the Auggie–Jack friendship on a "relationship graph" (closeness over time) with key events: the tour, becoming friends, Halloween, the punch, the "war" with Julian's group, making up. Discuss what Jack learns.
+- **Check for understanding:** "What do we learn in Jack's section about the Halloween moment that Auggie couldn't know, and how does it change your judgement?" → Jack felt pressured by Julian, regretted it at once and really does like Auggie; we still think it was wrong, but we understand him and believe his apology.
+- **Differentiation:** support: pre-plotted key events to place on the graph / stretch: argue whether Jack deserves forgiveness, with evidence from both narrators.
+- **Materials:** *Wonder*, relationship-graph templates, coloured pencils.
+- **Joy:** write the apology message Jack might have sent — then compare with what he does in the book.
 
-> **Essential question:** How do I choose between sound-alike endings and remember letters I can't hear?
->
-> **Key vocabulary:** *-able/-ible*, *-ant/-ent/-ance/-ence*, root clue, silent letter, *i before e except after c*, Y5/6 word list, mnemonic.
->
-> Drawn from KB topics 4, 5. The *-able/-ible* and *-ant/-ent* choices; silent letters and ei/ie; starting the Y5/6 list.
+### Lesson 8 — Spelling: when suffixes break the rule (argument, truly, awful)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can add consonant suffixes such as -ness, -ment, -ful and -ly correctly, including the common exceptions." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "The rule says keep the e before a consonant suffix: hope → hopeful, amaze → amazement. So why is it 'argument', 'truly' and 'awful'?"
+- **Key activity:** Retrieve the rules (keep the final e before a consonant suffix; y → i after a consonant: kind → kindness, happy → happiness). Then teach the exceptions that trip up even adults: argue → argument, true → truly, due → duly, whole → wholly, awe → awful, and judge → judgement (British) or judgment (American). Sort words about the novel's themes (kindness, loneliness, courageous, argument, truly, thoughtful).
+- **Check for understanding:** "Which of these is spelled wrongly — hopeful, arguement, loneliness, truly — and what is the rule it breaks?" → 'arguement' is wrong: 'argument' is an exception that drops the e even though -ment starts with a consonant.
+- **Differentiation:** support: 10 high-frequency words with a sorting mat / stretch: find two more exceptions in a dictionary and explain them.
+- **Materials:** word-sort cards, spelling journals, dictionaries.
+- **Joy:** "Rule-breakers wanted" poster for the classroom wall.
 
-### Lesson 6 — -able or -ible (use the root clue)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can choose *-able* or *-ible* using whether the root is a full word."
-- **Hook:** "*Enjoyable* or *enjoyible*? Clue: *enjoy* is a whole word → *-able*. *Poss-* isn't → *possible*."
-- **Key activity:** I do — *-able* on full words (often a related *-ation*: *adore→adorable*); *-ible* on partial roots (*poss-ible, horr-ible, vis-ible*); adverbs *-ably/-ibly*. We do — choose for two. You do — child spells five, using the full-word test.
-- **Check for understanding:** "*-able* or *-ible*: poss__?" → *possible*.
-- **Differentiation:** support: "is the root a full word?" gate. / stretch: spell *comfortably* and *horribly*.
-- **Materials:** root cards; test prompt.
-- **Joy:** the "is it a real word on its own?" detective test.
+### Lesson 9 — Same event, different eyes
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare how two narrators present the same event and explain the effect on the reader." (UK NC Y6 reading — structure / CCSS RL.5.6)
+- **Hook:** "Summer sits with Auggie at lunch on the first day. Auggie thinks one thing; Summer tells us why. Who knows the truth?"
+- **Key activity:** Read Summer's section. Detective hunt: find moments told by more than one narrator (the lunch table, Halloween, the science fair). Record each on a "two lenses" card: narrator A saw… / narrator B reveals… Discuss why Palacio lets us see events twice.
+- **Check for understanding:** "Why does Palacio tell some events twice, through different narrators?" → Each narrator knows only part of the truth; seeing the same moment from another side builds empathy and shows how easily we misjudge other people.
+- **Differentiation:** support: 'two lenses' cards with page references / stretch: rank the retold moments by how much the second narrator changes our understanding and justify the top choice.
+- **Materials:** *Wonder*, 'two lenses' cards, coloured glasses (for fun).
+- **Joy:** "Case board" — pin each event and its two versions with string, detective-style.
 
-### Lesson 7 — -ant/-ance and -ent/-ence
-- **Duration:** 20 min
-- **Objective:** "By the end, I can choose *-ant/-ent* using a related word clue."
-- **Hook:** "*Independant* or *independent*? A related word reveals the vowel: *confidence → confident*."
-- **Key activity:** I do — pairs *observant/observance, innocent/innocence*; use a related word for the vowel. We do — choose for two. You do — child spells five *-ant/-ent* words using related-word clues.
-- **Check for understanding:** "Spell the opposite of 'guilty' ending *-ent*." → *innocent*.
-- **Differentiation:** support: related-word clues given. / stretch: spell *confident, important, patient* and justify.
-- **Materials:** word-pair cards.
-- **Joy:** cracking the vowel with a "hidden cousin" word.
+### Lesson 10 — Sentence studio: colons and dashes between clauses
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use a colon to introduce an explanation and a dash to add a dramatic afterthought." (UK NC Y6 grammar / CCSS L.5.2)
+- **Hook:** Compare: "Auggie knew one thing for sure: he never wanted to go back." / "Auggie opened the door — the room went silent."
+- **Key activity:** Teach: a colon after a complete clause introduces an explanation or a list; a dash (informal) adds a pause for emphasis or an afterthought. Practise with sentences about the book, choosing which punctuation fits the effect.
+- **Check for understanding:** "Why is 'Auggie had: courage and humour.' incorrect?" → A colon should follow a complete clause; "Auggie had" is not complete. Write "Auggie had two great strengths: courage and humour."
+- **Differentiation:** support: choose between two versions and explain which is correct / stretch: write a suspenseful paragraph that uses a semicolon, a colon and a dash, each for a clear reason.
+- **Materials:** punctuation cards, mini-whiteboards, *Wonder* extracts.
+- **Joy:** "Punctuation stage" — pupils read sentences aloud, performing the pause each mark creates.
 
-### Lesson 8 — Silent letters & the ei/ie rule
-- **Duration:** 20 min
-- **Objective:** "By the end, I can spell words with silent letters and apply *i before e except after c*."
-- **Hook:** "*Doubt* has a silent *b*! *Island* hides an *s*! And after *c*, the rule flips: *receive*, not *recieve*."
-- **Key activity:** I do — silent letters (*knee, doubt, island, science, write*); *i before e* for `/ee/` **except after c** (*believe* vs *receive*); flag exceptions (*weird, science*). We do — spell two of each. You do — child spells five, underlining the silent or ei/ie part.
-- **Check for understanding:** "*ie* or *ei*: rec__ve?" → *receive* (after c).
-- **Differentiation:** support: silent-letter reminder list. / stretch: spell *believe, field, ceiling* and explain each.
-- **Materials:** silent-letter cards; rule card.
-- **Joy:** the "silent-letter hunt" through a book page.
+### Lesson 11 — The nature retreat: a turning point
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a change of setting creates a turning point and changes relationships." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "A night-time film in the woods, older boys from another school, and Auggie far from home. Why does the mood change here?"
+- **Key activity:** Read the chapters of the fifth-grade nature retreat. Compare the setting with school (collect words for each) and discuss how the danger in the dark woods — older boys bullying Auggie — becomes the moment classmates who once kept their distance stand up for him.
+- **Check for understanding:** "Why is the nature retreat a turning point for Auggie?" → When classmates who had avoided him protect him from the older boys, Auggie realises he truly belongs; the others show they have changed too.
+- **Differentiation:** support: setting word banks sorted into "school" and "woods" / stretch: write the woods scene as a short prose poem using a colon and a semicolon.
+- **Materials:** *Wonder*, setting comparison chart, word banks.
+- **Joy:** "Night sounds" — create the soundscape of the woods before reading the scene.
 
-### Lesson 9 — The Y5/6 word list & mnemonics (retrieval)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can spell hard Y5/6 list words using mnemonics for doubled letters."
-- **Hook:** "Boss-level words! *Necessary* — '1 collar, 2 socks' (1 c, 2 s). *Rhythm* — 'Rhythm Helps Your Two Hips Move'."
-- **Key activity:** Retrieval of Lessons 6–8. I do — mnemonics for *necessary, accommodate, rhythm, definitely, separate*. We do — build a mnemonic together. You do — child spells five list words and invents/uses a mnemonic for one.
-- **Check for understanding:** "Spell *necessary*." → n-e-c-e-s-s-a-r-y (1 c, 2 s).
-- **Differentiation:** support: mnemonic provided. / stretch: spell *accommodate* and explain the doubled letters.
-- **Materials:** list-word deck; mnemonic prompts.
-- **Joy:** the mnemonic-invention competition.
+### Lesson 12 — Reading response: the theme of kindness
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write a Point–Evidence–Explain paragraph about a theme." (UK NC Y6 reading & writing / CCSS RL.5.2, W.5.9a)
+- **Hook:** At the graduation, Mr Tushman quotes J. M. Barrie: "Shall we make a new rule of life from tonight: always to try to be a little kinder than is necessary?" — "Does the book prove him right?"
+- **Key activity:** I do: model a PEE paragraph with a quotation, showing how to explain the effect of specific words. We do: co-write a second paragraph. You do: each pupil writes one paragraph on "Is being kind always easy?" using evidence from two narrators.
+- **Check for understanding:** "What is the difference between retelling and explaining? Point to the sentence in your paragraph that explains." → Retelling repeats what happens; explaining says why it matters or how it shows the theme — pupils identify their own explanatory sentence.
+- **Differentiation:** support: PEE frame with sentence starters and a choice of three quotations / stretch: add a counter-argument sentence ("However, it could be argued…").
+- **Materials:** *Wonder*, PEE frames, highlighters (three colours for P, E, E).
+- **Joy:** "Kinder than necessary" — a secret kindness challenge for the week.
 
-> **End-of-Unit 2 check:** Child chooses *-able/-ible* and *-ant/-ent* by clue, spells two silent-letter words and applies ei/ie (*receive*), and spells *necessary* with a mnemonic. Mastery = endings chosen by root/related-word clue; silent letters and ei/ie correct; list word right.
+### Lesson 13 — Plan a story told by two narrators
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a short story in which two narrators tell the same event in different ways." (UK NC Y6 writing — composition / CCSS W.5.3a)
+- **Hook:** "One event — a new pupil's first day, a broken window, a lost dog — seen by two people who don't understand each other yet."
+- **Key activity:** Analyse how *Wonder* hands the story from narrator to narrator, each with a heading and a different voice (Justin's section is even written without capital letters). Pupils choose an event, plan two sections on a two-column planner (what each narrator sees, knows, feels and misunderstands), and decide the moment the truth comes out.
+- **Check for understanding:** "How will your reader know when the narrator changes? Name two techniques." → e.g. a new section heading with the narrator's name, a change of voice (vocabulary, sentence length, humour), a different view of the same detail.
+- **Differentiation:** support: a choice of three ready-made event prompts with a partly filled planner / stretch: plant a detail in the first section that the second narrator reveals in a new light.
+- **Materials:** two-column story planners, event prompt cards, *Wonder*.
+- **Joy:** the mystery-event bag — each pupil draws the event that starts their story.
 
----
+### Lesson 14 — Draft: the first narrator
+- **Duration:** 45 min
+- **Objective:** "By the end, I can draft an opening section that hooks the reader in a distinctive first-person voice." (UK NC Y6 writing / CCSS W.5.3a–b)
+- **Hook:** Share three first lines from famous novels, including *Wonder*'s. "Which would make you keep reading, and why?"
+- **Key activity:** Model an opening in a first-person voice that reveals character at once (like Auggie's). Pupils draft the first narrator's section, showing what this narrator notices, feels and gets wrong.
+- **Check for understanding:** "Read your first sentence aloud. What does it reveal about your narrator?" → Pupil names a specific trait or situation the sentence reveals (e.g. "that she's nervous but hides it with jokes").
+- **Differentiation:** support: opening sentence frames and a word bank for voice / stretch: open with a line of dialogue or a one-sentence paragraph for impact.
+- **Materials:** planners, writing books, first-line cards.
+- **Joy:** "First-line gallery" — pupils post their best first lines and vote on which they'd read on.
 
-## Unit 3 — Reading: fact vs opinion & comparing texts
+### Lesson 15 — Draft: the second narrator and the reveal
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write a second section in a contrasting voice that changes the reader's understanding, using varied sentence structures." (UK NC Y6 writing / CCSS W.5.3b, W.5.3e)
+- **Hook:** "In *Wonder*, Jack's section changed how we saw Halloween. Now your second narrator gets to tell their side."
+- **Key activity:** Model varying sentence length for pace and choosing vocabulary that gives a second narrator a different voice. Pupils draft the second section and the moment the truth comes out.
+- **Check for understanding:** "What does your second narrator reveal that the first couldn't know, and how does their voice sound different?" → Pupil identifies the new information and one clear voice difference (vocabulary, sentence length, tone).
+- **Differentiation:** support: a model second section to magpie from and a checklist / stretch: end with a line that echoes the first narrator's opening but means something new.
+- **Materials:** writing books, voice checklist, *Wonder*.
+- **Joy:** pupils read their "reveal" line to a partner, who must react honestly.
 
-> **Essential question:** How do I tell what's true from what someone thinks, and compare two texts fairly?
->
-> **Key vocabulary:** fact, opinion, checkable, opinion signal words, viewpoint, purpose, "Both… but… whereas…".
->
-> Drawn from KB topic 6. Distinguishing fact from opinion (including opinions dressed as facts) and comparing texts.
+### Lesson 16 — Revise and edit with a partner
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise my story for effect and edit it for accuracy using a checklist." (UK NC Y6 writing — evaluate and edit / CCSS W.5.5)
+- **Hook:** "Can your partner tell which narrator is speaking without looking at the headings?"
+- **Key activity:** Revising (content: distinct voices, clarity of the switch, suspense, vocabulary) is separated from editing (spelling, punctuation). Partners use "two stars and a wish"; pupils make at least three visible revisions in a different colour, then edit.
+- **Check for understanding:** "Show one revision you made and explain how it improved the reader's experience." → A specific change (e.g. made the second voice more formal; moved a clue earlier) with a reason.
+- **Differentiation:** support: a short checklist of three items and a partner who reads aloud to them / stretch: cut 10% of the words without losing meaning.
+- **Materials:** drafts, coloured editing pens, revision and editing checklists.
+- **Joy:** "Before and after" — read one sentence in both versions and feel the difference.
 
-### Lesson 10 — Fact or opinion?
-- **Duration:** 20 min
-- **Objective:** "By the end, I can tell a fact from an opinion using the 'can it be checked?' test."
-- **Hook:** "'Dogs have four legs' vs 'Dogs make the best pets' — one you can check, one is just someone's view."
-- **Key activity:** I do — fact = checkable/provable; opinion = a view; signal words (*I think, best, worst, amazing, should*). We do — sort two statements. You do — child sorts ten statements into fact/opinion and underlines opinion signals.
-- **Check for understanding:** "Fact or opinion: 'Maths is boring.'" → opinion.
-- **Differentiation:** support: signal-word list. / stretch: rewrite an opinion as a checkable fact (and vice versa).
-- **Materials:** statement cards; signal-word list.
-- **Joy:** catching "best ever!" opinions trying to sound like facts.
+### Lesson 17 — Publish and share
+- **Duration:** 40 min
+- **Objective:** "By the end, I can present a polished final version and read it aloud with expression." (UK NC Y6 writing & spoken language / CCSS W.5.4, SL.5.4)
+- **Hook:** "An audience changes everything. Who will read our stories?"
+- **Key activity:** Pupils publish (handwritten or typed), adding a title and a one-sentence blurb. Small-group readings in two voices (a partner reads the second narrator), with listeners giving specific praise about the structure.
+- **Check for understanding:** "Listeners: how did the second narrator change what you thought about the event, and how did the writer make the two voices different?" → Listener identifies the change in understanding and one voice technique.
+- **Differentiation:** support: publish an extract (the opening and the reveal) / stretch: add a cover with a tagline that hints at the two sides without giving the reveal away.
+- **Materials:** publishing paper, laptops (optional), binding materials.
+- **Joy:** "Author's chair" readings to a younger class.
 
-### Lesson 11 — Opinions disguised as facts (adverts & reviews)
-- **Duration:** 20 min
-- **Objective:** "By the end, I can spot opinions dressed as facts in persuasive texts."
-- **Hook:** "Adverts are sneaky — 'the most amazing toy ever!' sounds like a fact, but can you CHECK it?"
-- **Key activity:** I do — read an advert; flag confident-sounding opinions; apply "can it be checked?". We do — judge two advert claims. You do — child marks five review/advert claims as fact or opinion, justifying.
-- **Check for understanding:** "Why might a strong opinion feel like a fact?" → the confident tone makes it sound certain.
-- **Differentiation:** support: claims pre-listed. / stretch: write a "fair" version of a biased advert claim.
-- **Materials:** short advert/review extracts.
-- **Joy:** being the "advert myth-buster".
+### Lesson 18 — *Wonder* unit review and book talk
+- **Duration:** 40 min
+- **Objective:** "By the end, I can discuss the whole novel, supporting my opinions with evidence and responding to others." (UK NC Y6 reading & spoken language / CCSS SL.5.1)
+- **Hook:** "Would *Wonder* be better or worse if Auggie told the whole story himself?"
+- **Key activity:** Structured book talk (Aidan Chambers' "Tell me" approach: likes, dislikes, puzzles, patterns). Then a short independent mastery task: explain how one other narrator changes our understanding of Auggie's story, with evidence.
+- **Check for understanding:** "Choose one narrator other than Auggie and explain what their section adds to the whole book." → e.g. Via shows the family's hidden struggles; Jack explains Halloween; Summer shows that kindness can be a free choice — with the link explained.
+- **Differentiation:** support: talk roles and sentence stems ("I agree with… because…") / stretch: compare *Wonder*'s structure with another book they know that uses more than one narrator.
+- **Materials:** *Wonder*, "Tell me" talk prompt cards, mastery task sheet.
+- **Joy:** vote on the class's favourite precept and make it the class motto for the term.
 
-### Lesson 12 — Comparing two texts
-- **Duration:** 25 min
-- **Objective:** "By the end, I can compare two texts using 'Both… but… whereas…'."
-- **Hook:** "Two reports of the same match — do they agree? Whose side is each on? Let's compare!"
-- **Key activity:** I do — compare two short texts for viewpoint/purpose/style with the stem "Both texts… but text A… whereas text B…". We do — compare one feature. You do — child compares two short texts in two or three sentences using the stem.
-- **Check for understanding:** "What stem helps you compare directly?" → "Both… but… whereas…".
-- **Differentiation:** support: comparison grid (same / different). / stretch: compare viewpoint AND purpose.
-- **Materials:** paired short texts; comparison grid.
-- **Joy:** the "whose side are they on?" investigation.
-
-> **End-of-Unit 3 check:** Child sorts statements into fact/opinion, spots an opinion dressed as a fact, and compares two texts with "Both… but… whereas…". Mastery = "checkable" test applied; disguised opinion caught; comparison links both texts directly.
-
----
-
-## Unit 4 — Writing to persuade
-
-> **Essential question:** How do I convince a reader to agree with me or take action?
->
-> **Key vocabulary:** persuasion, viewpoint, reason + evidence, rhetorical question, emotive language, rule of three, modal verbs, call to action (AFOREST).
->
-> Drawn from KB topic 7. Persuasive structure and devices, with reasons and evidence for every point.
-
-### Lesson 13 — Persuasive tools (the AFOREST toolkit)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can identify and use rhetorical questions, the rule of three and emotive language."
-- **Hook:** "'Did you know we throw away enough rubbish to fill a stadium every day?' That's persuasion grabbing you!"
-- **Key activity:** I do — toolkit: rhetorical questions, facts/statistics, emotive language, rule of three, modal verbs. Model each in a recycling argument. We do — write a rhetorical question + a triple. You do — child writes one persuasive sentence using two devices.
-- **Check for understanding:** "Name two persuasive techniques." → any two of rhetorical question, rule of three, emotive language, facts/statistics.
-- **Differentiation:** support: device sentence-starters. / stretch: use three devices in one sentence.
-- **Materials:** AFOREST poster; device starters.
-- **Joy:** crafting a punchy "rule of three" that really lands.
-
-### Lesson 14 — Reason + evidence (and modal verbs for urgency)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can support a viewpoint with a reason and evidence, using a modal verb for force."
-- **Hook:** "'Recycling is good' is weak. 'We *must* recycle *because* it saves resources, protects wildlife and cuts pollution' — now that argues!"
-- **Key activity:** I do — every point = viewpoint + *because* reason + evidence (fact/example) + a modal (*must/should*). We do — build one argument. You do — child writes one full persuasive point with reason, evidence and a modal verb.
-- **Check for understanding:** "What should every persuasive point include?" → a reason and evidence.
-- **Differentiation:** support: argument frame (viewpoint → because → evidence). / stretch: address a counter-argument.
-- **Materials:** argument frame; cause list for a chosen topic.
-- **Joy:** picking a real cause they care about to argue for.
-
-### Lesson 15 — Write a persuasive piece
-- **Duration:** 30 min
-- **Objective:** "By the end, I can write a persuasive paragraph with a hook, an argued point and a call to action."
-- **Hook:** "Launch your campaign! Hook them, argue your case, and end with a punch."
-- **Key activity:** I do — model structure: hook (rhetorical question) → argument (reason + evidence + rule of three + modal) → strong call to action. We do — plan one. You do — child writes a persuasive paragraph on a chosen cause; rehearses the argument aloud first.
-- **Check for understanding:** "Which modal verb adds urgency?" → *must* (or *should*).
-- **Differentiation:** support: full persuasive frame. / stretch: write two arguments, each a paragraph, with a counter addressed.
-- **Materials:** persuasive frame; cause prompts.
-- **Joy:** writing a campaign for something they'd genuinely change.
-
-> **End-of-Unit 4 check:** Child writes a persuasive paragraph with a hook, at least one reason + evidence, a modal verb and the rule of three, ending with a call to action. Mastery = clear viewpoint; every point reasoned and evidenced; at least two persuasive devices.
+**End-of-unit check:** Pupil writes a PEE paragraph explaining how Palacio uses more than one narrator to change the reader's understanding, using at least one quotation; and correctly uses a semicolon and a colon in their own narrative.
 
 ---
 
-## Unit 5 — Cohesion & dialogue
+## Unit 2 — Narrative poetry: *The Lady of Shalott*
 
-> **Essential question:** How do I make my writing flow together and use dialogue to reveal character?
->
-> **Key vocabulary:** cohesion, cohesive adverbials (*however, therefore, meanwhile, in addition*), pronoun reference, dialogue, new speaker = new line, speech verb, action beat.
->
-> Drawn from KB topics 8, 9. Cohesive devices that link ideas, and dialogue that shows character.
+**Essential question:** How does a poem tell a story through rhythm, repetition and imagery?
 
-### Lesson 16 — Cohesion: linking adverbials
-- **Duration:** 20 min
-- **Objective:** "By the end, I can link ideas across sentences and paragraphs with cohesive adverbials."
-- **Hook:** "'Then… then… then…' is dull. Use *however*, *therefore*, *meanwhile* to guide the reader smoothly."
-- **Key activity:** I do — categories: contrast (*however*), adding (*in addition*), result (*therefore*), time (*meanwhile*); often fronted to open a paragraph. We do — link two sentences. You do — child inserts the best cohesive adverbial between five sentence pairs.
-- **Check for understanding:** "Give a cohesive adverbial that shows contrast." → *however* (or *on the other hand*).
-- **Differentiation:** support: adverbial bank by category. / stretch: use a cohesive adverbial to open a new paragraph.
-- **Materials:** sentence pairs; cohesive-adverbial bank.
-- **Joy:** "signposting" a piece so the reader never gets lost.
+**Key vocabulary:** narrative poem, ballad, stanza, rhythm, rhyme scheme, refrain, repetition, metaphor, simile, personification, imagery, alliteration, contrast, performance
 
-### Lesson 17 — Cohesion: pronouns & referencing back
-- **Duration:** 20 min
-- **Objective:** "By the end, I can avoid repeating a noun by using pronouns and 'this/such' references."
-- **Hook:** "'The spaniel barked. The spaniel wouldn't stop. The spaniel…' — exhausting! Swap in *It*."
-- **Key activity:** I do — replace repeated nouns with pronouns (kept clear); reference back with "this problem, such a plan". We do — fix one repetitive passage. You do — child rewrites a repetitive passage using pronouns and referencing, keeping it clear.
-- **Check for understanding:** "Why use a pronoun like *it*?" → to avoid repeating the noun and link sentences.
-- **Differentiation:** support: repeated nouns highlighted. / stretch: use "this/such" to reference back to a whole idea.
-- **Materials:** repetitive passages.
-- **Joy:** "de-cluttering" a clunky paragraph into a smooth one.
+### Lesson 19 — Hearing the poem
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe the rhythm and mood of a narrative poem and explain how they are created." (UK NC Y6 reading — poetry / CCSS RL.5.5)
+- **Hook:** Lights low, a single candle (LED) by a window: "Four grey walls, and four grey towers, / Overlook a space of flowers, / And the silent isle imbowers / The Lady of Shalott."
+- **Key activity:** Read the whole poem by Alfred, Lord Tennyson (published 1832, revised 1842) in its four parts. Tap the steady beat; mark the rhyme scheme of one stanza (AAAABCCCB) and notice that every stanza ends with "Camelot" in line 5 and "Shalott" in line 9. Discuss the mood of each part. (Alfred Noyes's "The Highwayman" was studied in Year 4.)
+- **Check for understanding:** "How do the steady rhythm and the fixed rhyme words 'Camelot' and 'Shalott' help create the mood?" → The regular beat is like the steady weaving and the flowing river; ending every stanza on the same two words makes each one feel closed in — just as the Lady is trapped in her tower.
+- **Differentiation:** support: listen with the text and a glossary (wold, shallop, greaves, reapers) / stretch: find where the rhythm or mood changes and explain why.
+- **Materials:** copies of "The Lady of Shalott" by Alfred, Lord Tennyson (the Charles Keeping illustrated edition is excellent), audio recording or teacher reading, glossary.
+- **Joy:** candlelit dramatic listening.
 
-### Lesson 18 — Integrating dialogue to show character
-- **Duration:** 30 min
-- **Objective:** "By the end, I can write dialogue that reveals character, with new lines and action beats."
-- **Hook:** "'Hurry up!' barked the captain, stamping his boot. We learn he's IMPATIENT — without being told!"
-- **Key activity:** I do — rules: new speaker = new line; vary speech verbs (mostly *said*, occasional *whispered/snapped*); add action beats (*she muttered, turning away*); punctuation inside the marks. We do — write one exchange. You do — child writes a short dialogue between two contrasting characters with new lines and an action beat each.
-- **Check for understanding:** "What do you do when a new person speaks?" → start a new line/paragraph.
-- **Differentiation:** support: dialogue frame; speech-verb bank. / stretch: reveal each character's personality purely through how they speak.
-- **Materials:** dialogue frame; speech-verb and action-beat banks; character prompts.
-- **Joy:** giving two characters totally different "voices".
+### Lesson 20 — Imagery: shadows and sunlight
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain the effect of imagery and contrast in a poem." (UK NC Y6 reading — figurative language / CCSS RL.5.4, L.5.5a)
+- **Hook:** "For years the Lady sees the world only as shadows in a mirror. Then Sir Lancelot rides by, flashing in the sun."
+- **Key activity:** Compare the grey, shadowy images of Parts I–II (the tower, the mirror, "shadows of the world") with the dazzling light and colour of Lancelot's arrival in Part III (sunlight on his armour and helmet, jewels, the song "Tirra lirra"). Pupils sort images into 'shadow' and 'light' and explain what the contrast suggests.
+- **Check for understanding:** "Why does Tennyson make Lancelot so bright and dazzling, and what does it show about the Lady's life?" → His light, colour and song contrast with her grey, shadowy world; it shows how much real life she has been missing, which is why she can no longer resist looking.
+- **Differentiation:** support: match each image to 'shadow' or 'light' with a picture / stretch: explain what the line "I am half sick of shadows" reveals about her feelings.
+- **Materials:** poem copies, drawing paper, image-sorting grid.
+- **Joy:** "Mirror and window" — pupils sketch the same scene as a dim reflection and as dazzling reality.
 
-### Lesson 19 — End-of-year review: link it, argue it, voice it (retrieval)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can link ideas cohesively, argue a point and write a line of character dialogue."
-- **Hook:** "Show-off day! Cohesion, persuasion and dialogue — all the Year 5 power-tools."
-- **Key activity:** Mixed retrieval. You do — child (1) links two sentences with a cohesive adverbial, (2) writes one persuasive point with reason + modal, (3) writes one line of dialogue with an action beat that shows character.
-- **Check for understanding:** "What is an action beat?" → a small action around the speech showing how it's said.
-- **Differentiation:** support: banks and frames given. / stretch: add a relative clause or parenthesis to one answer.
-- **Materials:** mixed task cards; word banks.
-- **Joy:** the "all power-tools" round to beat your best.
+### Lesson 21 — Characters and the curse
+- **Duration:** 40 min
+- **Objective:** "By the end, I can infer a character's motives from a poem and discuss who or what is to blame." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "A curse, a mirror and a knight who never knew she existed: who is to blame for what happens?"
+- **Key activity:** Hot-seat the Lady, Sir Lancelot and a townsperson of Camelot (pupils in role answer questions using evidence from the poem). Build a "blame ladder" (the curse, the Lady's choice, Lancelot, the people of Camelot) and justify placings.
+- **Check for understanding:** "Why does the Lady leave the loom and look out at Camelot, even though she knows about the curse? Use a line to support your answer." → She is weary of living through reflections ("I am half sick of shadows") and Lancelot's brightness draws her to real life; she chooses to see the world for herself whatever it costs.
+- **Differentiation:** support: hot-seat with a question bank and evidence cards / stretch: argue that the Lady's choice is brave rather than foolish, using the poem.
+- **Materials:** poem copies, simple costume props (a shawl, a helmet), blame-ladder template.
+- **Joy:** hot-seating in costume.
 
-> **End-of-Unit 5 check:** Child links ideas with cohesive adverbials and pronouns, and writes a short dialogue (new lines, action beats) that reveals two characters' personalities. Mastery = no clunky repetition; cohesive devices varied; dialogue punctuated and characterful.
+### Lesson 22 — Performing a narrative poem
+- **Duration:** 40 min
+- **Objective:** "By the end, I can perform part of a narrative poem, using volume, pace and pause to create mood." (UK NC Y6 spoken language / CCSS SL.5.4)
+- **Hook:** Watch or listen to two readings of the same stanza — one flat, one dramatic.
+- **Key activity:** Groups take a section (the tower, Lancelot's ride, the curse falling — "The mirror crack'd from side to side" — or the boat drifting down to Camelot); annotate for pace, volume, emphasis and sound effects; rehearse with choral and solo voices.
+- **Check for understanding:** "Where did your group choose to slow down or pause, and why?" → A specific moment (e.g. the mirror cracking, or the final stanza) justified by the mood.
+- **Differentiation:** support: shorter section with performance annotations suggested / stretch: direct the group, planning an ending that echoes the opening.
+- **Materials:** poem copies, annotation symbols sheet, percussion (a bell, a rain-stick).
+- **Joy:** whole-poem performance in four parts, with a paper boat drifting across the room for Part IV.
+
+### Lesson 23 — Spelling: homophones and near-homophones
+- **Duration:** 35 min
+- **Objective:** "By the end, I can choose correctly between tricky homophones such as affect/effect, practice/practise and stationary/stationery." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "The Lady's loom was stationary (or stationery?) when she walked to the window."
+- **Key activity:** Teach with memory hooks: stationEry (envelopes), stationAry (stAy); affect (verb, action) / effect (noun, end result — usually); advice/advise and practice/practise (noun with c, verb with s, in British spelling; note American English uses 'practice' for both). Sort and write sentences.
+- **Check for understanding:** "Which is correct: 'The curse will effect her life' or 'affect her life'? Why?" → 'Affect': it's the verb (the action of changing something).
+- **Differentiation:** support: three pairs only, with picture mnemonics / stretch: explain the one common use of 'effect' as a verb ('to effect change' = to bring about).
+- **Materials:** homophone cards, mnemonic posters, spelling journals.
+- **Joy:** "Homophone hunt" — find mistakes planted in a fake 'Camelot Gazette'.
+
+### Lesson 24 — Plan a ballad
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a narrative poem with a clear story arc, a refrain and a chosen rhyme scheme." (UK NC Y6 writing / CCSS W.5.3)
+- **Hook:** "What story from history, the news or a legend deserves to be a ballad?"
+- **Key activity:** Pupils choose a story (a legend from their heritage, a historical event, an invented tale), plan 5–6 stanzas on a storyboard, write a refrain (like Tennyson's "The Lady of Shalott") and choose a rhyme scheme (e.g. AABB or ABCB).
+- **Check for understanding:** "Where will your refrain appear and what will its repetition add?" → A location (e.g. end of each stanza) and effect (tension, memorability, echo at the end).
+- **Differentiation:** support: 4 stanzas with a given refrain / stretch: use a changing refrain whose meaning shifts by the final stanza.
+- **Materials:** storyboard templates, rhyming dictionaries, legend books from several cultures.
+- **Joy:** refrain workshop — the class chants each refrain back to its writer.
+
+### Lesson 25 — Write and craft a ballad
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write a narrative poem using rhythm, rhyme, a refrain and at least two kinds of imagery." (UK NC Y6 writing / CCSS W.5.3d)
+- **Hook:** "Can you make a reader's heart race in eight lines?"
+- **Key activity:** Draft stanzas; reading aloud after each stanza to check rhythm; add a metaphor and a contrast of light and shadow; a partner checks the story is clear.
+- **Check for understanding:** "Read one line aloud and clap the beat. Does it fit the rhythm of the others? If not, how will you fix it?" → Pupil identifies stressed beats and adjusts wording.
+- **Differentiation:** support: stanza frames with some lines given / stretch: use internal rhyme or alliteration to mimic a sound in the story.
+- **Materials:** draft books, rhyming dictionaries, thesauruses.
+- **Joy:** pupils test lines on a "rhythm drum" played by a partner.
+
+### Lesson 26 — Ballad performance and unit check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can perform my own ballad and give precise feedback on others'." (UK NC Y6 spoken language / CCSS SL.5.4, SL.5.1)
+- **Hook:** "Tonight's show: the Ballads of Year 5."
+- **Key activity:** Performances in small groups (or to the class); listeners give feedback on imagery and rhythm using a two-question card. Pupils self-assess against the unit criteria.
+- **Check for understanding:** "What single change would most improve the rhythm or imagery of the ballad you just heard? Be specific." → A precise suggestion (e.g. "cut 'very' in line 3 so it keeps the beat").
+- **Differentiation:** support: perform in pairs, reading alternate stanzas / stretch: memorise and perform without the text.
+- **Materials:** ballads, feedback cards, a simple stage area, optional recording device.
+- **Joy:** a recorded "ballad podcast" for families.
+
+**End-of-unit check:** Pupil explains the effect of one image or contrast from *The Lady of Shalott* in a PEE paragraph and performs an original ballad with a clear story, consistent rhythm and a refrain.
 
 ---
+
+## Unit 3 — *The Breadwinner*: point of view and justice
+
+**Essential question:** How can a story told through one girl's eyes help us understand injustice — and what does courage look like when the rules themselves are unfair?
+
+**Key vocabulary:** Taliban, regime, oppression, justice, injustice, disguise, perspective, point of view, third person, empathy, resilience, diary, recount, formal, informal, passive voice
+
+### Lesson 27 — Setting the scene: Kabul under the Taliban
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use background knowledge to understand the setting of a novel based on real events." (UK NC Y6 reading — context / CCSS RI.5.7, RL.5.1)
+- **Hook:** "Imagine a law that says girls may not go to school and women may not go out without a man from their family. Deborah Ellis met girls in refugee camps who had lived with rules like that — and wrote their story."
+- **Key activity:** Short, age-appropriate non-fiction reading, a map and photographs about Afghanistan: decades of war; Taliban rule in Kabul from 1996 to 2001, when girls were banned from school and women from most work and from going out alone. Pupils build a "context board" to refer to while reading, and note that Afghanistan is also a country of mountains, poetry, markets and families like any other.
+- **Check for understanding:** "Why is it a disaster for Parvana's family when her father is arrested?" → Under the rules at that time, the women and girls could not go out alone to earn money or buy food, so without a man the family could starve.
+- **Differentiation:** support: picture-supported fact cards with key vocabulary / stretch: find out what has happened to girls' education in Afghanistan since the book was written, from a reliable source, and share one fact.
+- **Materials:** *The Breadwinner* by Deborah Ellis, context fact cards, map of Afghanistan and its neighbours, photographs from a reputable archive.
+- **Joy:** a class map of Kabul's market, the family's room and the places Parvana goes, added to as we read.
+
+### Lesson 28 — Parvana becomes a boy
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain a character's motivation and predict what challenges she will face." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "Would you cut off your hair and wear your dead brother's clothes to feed your family?"
+- **Key activity:** Read the opening chapters (Parvana at the market with her father, who reads and writes letters for people; the night he is taken away; the family trapped in one room). Pupils complete a "motivation and obstacles" chart and make evidence-based predictions about her disguise.
+- **Check for understanding:** "Why does the family decide that Parvana must become a boy?" → As a 'boy' she can go out, work in the market and buy food; without that the family would starve — her disguise is the only way to survive.
+- **Differentiation:** support: chart with sentence starters and page references / stretch: explain what the title *The Breadwinner* means and why it fits.
+- **Materials:** *The Breadwinner*, motivation chart, map.
+- **Joy:** "Market stall" — pupils design the letter-reading stall Parvana takes over from her father.
+
+### Lesson 29 — Point of view: whose eyes?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the narrator's point of view shapes what the reader knows and feels." (UK NC Y6 reading / CCSS RL.5.6)
+- **Hook:** "A Taliban soldier asks Parvana to read him a letter — and it makes him cry. Why would the author include this?"
+- **Key activity:** Notice that the story is told in the third person but stays close to Parvana, so we see only what she sees. Read the episode of the soldier and the letter, then retell it from the soldier's point of view and from her older sister Nooria's point of view at home. Discuss why the author lets us glimpse the humanity of someone on the other side.
+- **Check for understanding:** "Why does Ellis show a Taliban soldier weeping over a letter?" → It shows that even the people enforcing cruel rules are human, with their own losses; the story is about unfair rules and fear, not about one group of people being monsters.
+- **Differentiation:** support: retell with a partner using a story map / stretch: write the same paragraph from two viewpoints and explain what changes.
+- **Materials:** *The Breadwinner*, perspective cards, drama space.
+- **Joy:** "Freeze frame and thought-track" — pupils in freeze frames speak characters' thoughts aloud.
+
+### Lesson 30 — Sentence studio: the passive voice
+- **Duration:** 35 min
+- **Objective:** "By the end, I can change sentences between active and passive voice and explain why a writer might hide who did something." (UK NC Y6 grammar / CCSS L.5.1)
+- **Hook:** "'The soldiers arrested Parvana's father.' / 'Parvana's father was arrested.' What information has disappeared in the second?"
+- **Key activity:** Teach: active (subject does the action) vs passive (subject receives the action, using a form of 'be' + past participle, 'by…' optional). Transform sentences; discuss why news reports or officials might use the passive (to sound formal, or to hide who is responsible).
+- **Check for understanding:** "Rewrite 'The storm damaged the school' in the passive, and explain one reason a writer might choose it." → "The school was damaged (by the storm)." It focuses on the school, or the cause may be unknown or unimportant.
+- **Differentiation:** support: sentence-transformation cards with the verb forms given / stretch: find passive sentences in a real newspaper report and explain each choice.
+- **Materials:** transformation cards, newspaper cuttings, mini-whiteboards.
+- **Joy:** "Mystery culprit" — rewrite classroom 'crimes' in the passive to hide the culprit, then reveal with 'by…'.
+
+### Lesson 31 — Shauzia: a friend who changes everything
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a secondary character changes the protagonist's understanding." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "In the market, Parvana meets another 'boy' — and discovers it is her old classmate Shauzia, in disguise too."
+- **Key activity:** Read the Shauzia chapters (working together, their hardest and bravest jobs, Shauzia's dream of escaping to see the sea). Discuss what Parvana learns from her friend. Pupils complete a "before and after" chart of Parvana's thinking.
+- **Check for understanding:** "How is Parvana different after she meets Shauzia? Use evidence." → She is no longer alone; working together makes her braver and more resourceful, and Shauzia's dreams make Parvana imagine a future beyond just surviving.
+- **Differentiation:** support: before/after chart with prompting questions / stretch: compare the two girls' dreams and explain what each dream shows about her.
+- **Materials:** *The Breadwinner*, before/after charts.
+- **Joy:** "Conscience alley" — pupils voice the arguments inside Parvana's head when a job frightens her.
+
+### Lesson 32 — Vocabulary: words for justice and fairness
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use precise vocabulary to discuss justice and explain shades of meaning." (UK NC Y6 vocabulary / CCSS L.5.5c)
+- **Hook:** "Is 'unfair' the same as 'unjust'? Is 'rule' the same as 'law'?"
+- **Key activity:** Word clines and Frayer models for: equality, equity, discrimination, prejudice, oppression, rights, resistance, dignity, justice. Pupils use each in a sentence about the novel.
+- **Check for understanding:** "What is the difference between 'prejudice' and 'discrimination'?" → Prejudice is an unfair belief or feeling about a group; discrimination is unfair action or treatment.
+- **Differentiation:** support: 5 words with picture cues and example sentences / stretch: explain 'equity' vs 'equality' with an example from school life.
+- **Materials:** Frayer model templates, word cards, dictionaries.
+- **Joy:** "Word ladder race" — order words on a cline from mild to strong.
+
+### Lesson 33 — The ending: hopeful, sad or both?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can evaluate an ending and explain whether it is hopeful, sad or both." (UK NC Y6 reading / CCSS RL.5.2)
+- **Hook:** "Parvana's father comes home — but the family is split up and the war goes on. Is that a happy ending?"
+- **Key activity:** Read the final chapters (her father's return, the journey north to find the rest of the family, Parvana and Shauzia's promise to meet again in twenty years at the top of the Eiffel Tower). Groups argue for "hopeful", "sad" or "both" using evidence; conclude with a class vote and individual written justification.
+- **Check for understanding:** "Give one reason the ending is hopeful and one reason it is not." → e.g. her father is free and the girls promise to meet again, showing they still have dreams (hopeful); the family is separated, the war continues and the unjust rules remain (not hopeful).
+- **Differentiation:** support: evidence cards to sort into 'hopeful' and 'sad' / stretch: explain why an author might choose an open ending for a story about an injustice that was still going on when she wrote it.
+- **Materials:** *The Breadwinner*, evidence cards, voting counters.
+- **Joy:** "Hope-o-meter" — each pupil places a marker on a scale and defends it.
+
+### Lesson 34 — Spelling: the Y5/6 word list (1)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can spell ten words from the statutory list using meaning, morphology and mnemonics." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "Why do 'necessary' and 'accommodate' trip up adults too?"
+- **Key activity:** Words: accommodate, according, aggressive, communicate, correspond, embarrass, government, necessary, occupy, opportunity. Identify the tricky part; invent mnemonics (necessary: one Collar, two Sleeves); look–say–cover–write–check; use in sentences about the novel.
+- **Check for understanding:** "Which part of 'government' do people misspell, and how does knowing the root 'govern' help?" → They miss the 'n'; 'govern' + 'ment' keeps the 'n'.
+- **Differentiation:** support: 6 words with a mnemonic provided / stretch: find the Latin roots of three words (e.g. 'communicate' from 'communis', common).
+- **Materials:** word-list cards, spelling journals, dictionaries.
+- **Joy:** "Mnemonic masters" — the funniest mnemonics are voted onto a class poster.
+
+### Lesson 35 — Diary in role: planning
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a diary in role that shows a character's thoughts and feelings about real events." (UK NC Y6 writing / CCSS W.5.3)
+- **Hook:** Read a short extract written by a real young person in a difficult time (e.g. from *I Am Malala*, Young Readers Edition, where Malala describes the ban on girls' schooling in Pakistan's Swat Valley).
+- **Key activity:** Identify diary features (first person, past tense for events, present for feelings, informal register, dates). Pupils plan three entries as Parvana at key points (the night her father is taken; her first day as a 'boy'; meeting Shauzia).
+- **Check for understanding:** "Why is a diary usually written in an informal register? When might a character's diary become more formal?" → It's private, written to oneself; it might become formal if the writer imagines others reading it or is recording something serious for history.
+- **Differentiation:** support: plan two entries with a structured planner / stretch: plan entries that show Parvana's changing understanding across the novel.
+- **Materials:** diary extracts, planners, *The Breadwinner*.
+- **Joy:** pupils design an "aged" diary cover (tea-stained paper).
+
+### Lesson 36 — Diary in role: writing
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write diary entries in role, showing feelings through detail rather than naming them." (UK NC Y6 writing / CCSS W.5.3b, W.5.3d)
+- **Hook:** "'I was scared.' vs 'My hands wouldn't stop shaking.' Which is stronger?"
+- **Key activity:** Model "show, not tell". Pupils write entries, including reflective questions and a detail from the setting in each.
+- **Check for understanding:** "Underline one place where you showed a feeling without naming it. What does it reveal?" → Pupil identifies a detail (action, body language, thought) and names the feeling it implies.
+- **Differentiation:** support: a bank of 'showing' phrases / stretch: include a moment where Parvana's feelings are mixed (e.g. fear and pride) and show both.
+- **Materials:** planners, diary paper, "show, don't tell" cards.
+- **Joy:** swap diaries anonymously — can a partner identify which moment each entry is from?
+
+### Lesson 37 — Formal and informal register: writing letters for others
+- **Duration:** 35 min
+- **Objective:** "By the end, I can recognise and switch between formal and informal language for different audiences." (UK NC Y6 grammar / CCSS L.5.3a)
+- **Hook:** "Parvana earns money by reading and writing letters for people who can't. Would a letter to a government office sound like a letter to a cousin?"
+- **Key activity:** Compare formal and informal versions of the same message (vocabulary, contractions, sentence length, passive voice, question tags). In role as Parvana's customers' letter-writer, pupils rewrite an informal message as a formal letter to an official asking for news of a missing family member.
+- **Check for understanding:** "Name three changes you made to turn informal into formal writing." → e.g. removed contractions, chose formal vocabulary ('request' for 'ask'), used full sentences and possibly the passive.
+- **Differentiation:** support: a formal/informal word-swap bank / stretch: use one subjunctive form correctly ("I request that my brother be allowed to return home.").
+- **Materials:** formal/informal sorting cards, sample letters.
+- **Joy:** "Register roulette" — say the same message as a text to a friend, a school announcement and a royal proclamation.
+
+### Lesson 38 — Paired reading: comparing texts on the same theme
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare how a novel and a non-fiction text treat the same theme." (UK NC Y6 reading — comparing / CCSS RL.5.9, RI.5.9)
+- **Hook:** "Can a story teach us about the world better than a report?"
+- **Key activity:** Read a short, recent non-fiction article from a reputable source (e.g. UNICEF or a children's news service) about girls' right to education around the world, and the corresponding part of the novel. Compare purpose, language, facts and feelings on a Venn diagram.
+- **Check for understanding:** "What can the novel do that the non-fiction text cannot, and vice versa?" → The novel lets us feel through a character; the non-fiction gives verified facts, dates and numbers.
+- **Differentiation:** support: Venn diagram with statements to sort / stretch: evaluate the reliability of the non-fiction source (who wrote it, when, why).
+- **Materials:** non-fiction extract (from a reputable organisation or children's news site), *The Breadwinner*, Venn diagrams.
+- **Joy:** "Which one would you give a friend?" — a quick persuasive pitch for one text.
+
+### Lesson 39 — Speaking: a reasoned response
+- **Duration:** 40 min
+- **Objective:** "By the end, I can give a short, structured spoken response to a question about the novel, using evidence." (UK NC Y6 spoken language / CCSS SL.5.4)
+- **Hook:** "Question for the class: 'Is it ever right to break an unjust law?' Parvana breaks the rules every day she goes to market."
+- **Key activity:** Pupils prepare a 1-minute response (point, evidence from the novel, explanation, link to today) and deliver it in small groups; listeners build on or challenge using stems.
+- **Check for understanding:** "What evidence from the novel did you use, and how did it support your point?" → A specific event or quotation linked logically to the point.
+- **Differentiation:** support: a speaking frame and time to rehearse with a partner / stretch: respond to a counter-argument in your talk.
+- **Materials:** speaking frames, timers, *The Breadwinner*.
+- **Joy:** "Talking stick" circle where only the holder may speak — and everyone must build on the last speaker.
+
+### Lesson 40 — Unit 3 mastery check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can show my understanding of point of view and theme in a written response." (UK NC Y6 reading — assessment / CCSS RL.5.2, RL.5.6)
+- **Hook:** "Your turn to be the literary critic."
+- **Key activity:** Independent task: answer three questions on an unseen extract from the novel (inference, vocabulary in context, point of view) and write one PEE paragraph on the theme of courage under injustice.
+- **Check for understanding:** "How does the author make us feel that the rules Parvana lives under are unfair? Use a quotation." → A PEE response linking specific language to the reader's reaction.
+- **Differentiation:** support: questions read aloud and a PEE frame / stretch: an extra question comparing Parvana's courage with Auggie's in *Wonder*.
+- **Materials:** extract, mastery task sheet, *The Breadwinner*.
+- **Joy:** pupils design an alternative front cover for the book with a new tagline.
+
+**End-of-unit check:** Pupil writes a diary entry in role showing (not telling) feelings, rewrites a paragraph formally using the passive voice once, and explains in a PEE paragraph how point of view shapes the reader's response.
+
+---
+
+## Unit 4 — Non-fiction: news reports and explanations
+
+**Essential question:** How do writers inform readers clearly, fairly and accurately?
+
+**Key vocabulary:** headline, standfirst, lead paragraph, 5 Ws, quotation, reported speech, direct speech, bias, objective, subjective, explanation, cause, effect, technical vocabulary, cohesion, bullet points, hyphen
+
+### Lesson 41 — What makes news?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can identify the features of a news report and explain their purpose." (UK NC Y6 reading — non-fiction / CCSS RI.5.5)
+- **Hook:** Two headlines about the same event: "Heroic Rescue at Sea!" and "Boat Sinks; Five Saved". Which is news, which is opinion?
+- **Key activity:** Examine children's news articles (e.g. from *First News* or *Newsround*); label features: headline, standfirst, lead with the 5 Ws, body in order of importance (inverted pyramid), quotations.
+- **Check for understanding:** "Why is the most important information put first in a news report?" → Readers may stop early; the inverted pyramid means they still get the key facts.
+- **Differentiation:** support: feature labels to match on a printed article / stretch: find an example of bias in a headline and rewrite it neutrally.
+- **Materials:** children's news articles, labelling cards, highlighters.
+- **Joy:** "Headline hotshot" — write the most eye-catching accurate headline for a classroom event.
+
+### Lesson 42 — Fact, opinion and bias in reporting
+- **Duration:** 40 min
+- **Objective:** "By the end, I can identify bias in news writing through word choice and selection of facts." (UK NC Y6 reading / CCSS RI.5.6)
+- **Hook:** "'Protesters stormed the building' vs 'Protesters entered the building'. What's the difference?"
+- **Key activity:** Compare two reports of the same event; highlight emotive words and omitted facts; discuss how journalists aim for objectivity and why it's hard.
+- **Check for understanding:** "Give an example of a loaded word from the report and explain how it shapes the reader's view." → e.g. 'stormed' suggests violence and chaos, making readers view the protesters negatively.
+- **Differentiation:** support: pairs of words to rank from neutral to loaded / stretch: rewrite a biased paragraph to be balanced, including both sides' quotations.
+- **Materials:** paired reports, highlighters, word-cline cards.
+- **Joy:** "Spin doctors" — write the same event as a biased report for each side, then a fair one.
+
+### Lesson 43 — Direct and reported speech
+- **Duration:** 35 min
+- **Objective:** "By the end, I can convert direct speech to reported speech, changing tense and pronouns correctly." (UK NC Y6 grammar / CCSS L.5.1)
+- **Hook:** '"I will never give up," said the swimmer.' → 'The swimmer said that she would never give up.' What changed?
+- **Key activity:** Teach the shifts (tense back-shift, pronouns, time words: 'today' → 'that day'). Practise with quotations from a sports report; decide when a journalist should use each.
+- **Check for understanding:** "Change to reported speech: 'We are opening the new library tomorrow,' said the mayor." → The mayor said that they were opening the new library the next day.
+- **Differentiation:** support: sentence cards with the changing parts highlighted / stretch: explain why journalists often keep powerful words as direct quotations.
+- **Materials:** speech transformation cards, sample reports, mini-whiteboards.
+- **Joy:** "Press conference" — the teacher answers questions; pupils report them both ways.
+
+### Lesson 44 — Research and notes for a report
+- **Duration:** 40 min
+- **Objective:** "By the end, I can gather facts from two sources and make concise notes in my own words." (UK NC Y6 writing — research / CCSS W.5.8)
+- **Hook:** "News flash: a new species discovered! How would a reporter find out the facts?"
+- **Key activity:** Model note-making (key words, abbreviations, no full sentences, source recorded). Pupils research a real recent event from two provided sources and create 5 Ws notes.
+- **Check for understanding:** "Why should notes be in your own words and include the source?" → So you understand the content, avoid copying (plagiarism), and can check facts or credit the source.
+- **Differentiation:** support: one source with key facts highlighted and a 5 Ws grid / stretch: find one fact that differs between the two sources and decide how to report it.
+- **Materials:** two printed sources per event, 5 Ws grids, sticky notes.
+- **Joy:** "Newsroom" — teams become rival newspapers racing to deadline.
+
+### Lesson 45 — Write a news report
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write a news report with a headline, lead paragraph, quotations and the passive voice where useful." (UK NC Y6 writing / CCSS W.5.2)
+- **Hook:** "Deadline in 30 minutes!"
+- **Key activity:** Pupils write their reports using notes; include one direct and one reported quotation and at least one deliberate passive sentence (e.g. "A fossil was discovered…").
+- **Check for understanding:** "Point to your passive sentence. Why was it the right choice there?" → e.g. the discoverer isn't known or the discovery is more important than who made it.
+- **Differentiation:** support: a report frame with paragraph prompts / stretch: include a paragraph of background context and a closing quotation that looks ahead.
+- **Materials:** notes, report frames, newspaper-layout templates.
+- **Joy:** reports are laid out as a real front page with photographs.
+
+### Lesson 46 — Explanation texts: how and why
+- **Duration:** 40 min
+- **Objective:** "By the end, I can identify the features of an explanation text and the cause-and-effect language it uses." (UK NC Y6 reading — non-fiction / CCSS RI.5.3)
+- **Hook:** "How does a volcano erupt?" — show a 20-second clip of an eruption.
+- **Key activity:** Read a high-quality explanation (linked to the science or geography curriculum). Highlight causal connectives (because, as a result, consequently, which causes), technical vocabulary and diagrams.
+- **Check for understanding:** "Find two cause-and-effect sentences and explain how the connective shows the link." → e.g. "As pressure builds, magma rises" — 'as' shows that one causes the other.
+- **Differentiation:** support: colour-coded causal connective cards / stretch: turn a flow diagram into a cohesive paragraph without repeating any connective.
+- **Materials:** explanation texts, flow diagrams, highlighters.
+- **Joy:** "Explain it to an alien" — a partner (the 'alien') asks "why?" after every sentence.
+
+### Lesson 47 — Sentence studio: hyphenated adjectives and bullet points
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use hyphens to avoid ambiguity and lay out bullet points consistently." (UK NC Y6 grammar & punctuation / CCSS L.5.2)
+- **Hook:** "A well-known author — but 'the author is well known'. Why does the hyphen disappear?"
+- **Key activity:** Retrieve hyphens from Year 4 (man-eating shark; re-cover vs recover). Then go further: compound adjectives take a hyphen before a noun (a well-known author, a ten-year-old girl, a fast-moving river) but usually not after the verb (the author is well known; the girl is ten years old). Bullet points: introduced by a colon, parallel structure, consistent punctuation. Practise by formatting a safety explanation.
+- **Check for understanding:** "Why does 'well-known' have a hyphen in 'a well-known author' but not in 'the author is well known'?" → Before a noun the two words work together as one adjective describing it, so the hyphen joins them; after the verb they don't need joining.
+- **Differentiation:** support: hyphenated compound matching cards / stretch: write a list of bullet points where each starts with the same grammatical form (e.g. an imperative verb).
+- **Materials:** hyphen cards, sample bulleted texts, mini-whiteboards.
+- **Joy:** "Hyphen howlers" — illustrate a funny ambiguous phrase with and without the hyphen.
+
+### Lesson 48 — Plan and draft an explanation
+- **Duration:** 45 min
+- **Objective:** "By the end, I can plan and draft an explanation text with a clear sequence of causes and effects." (UK NC Y6 writing / CCSS W.5.2a–c)
+- **Hook:** "Choose a 'how' or 'why' question you've always wanted answered."
+- **Key activity:** Choose a topic from current science/geography learning (e.g. how the heart pumps blood, why earthquakes happen). Plan with a flow diagram, then draft with an introduction, sequenced paragraphs and a conclusion.
+- **Check for understanding:** "How does your introduction prepare the reader for the explanation?" → It names the phenomenon, why it matters, and what will be explained.
+- **Differentiation:** support: a topic with a given flow diagram and vocabulary list / stretch: include a labelled diagram and a glossary.
+- **Materials:** flow-diagram templates, topic research packs, writing books.
+- **Joy:** "Question jar" — pupils pull a real 'why?' question submitted by younger children to answer.
+
+### Lesson 49 — Revise for clarity and cohesion
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise an explanation so that it is clear, cohesive and precise." (UK NC Y6 writing — cohesion / CCSS W.5.5, W.5.2c)
+- **Hook:** "Can a 7-year-old understand your explanation? Let's find out."
+- **Key activity:** Test explanations on a younger reader (or a partner acting as one); revise vocabulary, add cohesive devices (pronouns, synonyms, adverbials), and check each paragraph has one main idea.
+- **Check for understanding:** "Show a place where you replaced a repeated noun with a pronoun or synonym. Is it still clear what it refers to?" → Pupil shows the change and confirms the reference is unambiguous.
+- **Differentiation:** support: a cohesion checklist with examples / stretch: remove any sentence that doesn't help the reader understand.
+- **Materials:** drafts, revision checklists, coloured pens.
+- **Joy:** "Mini-teacher" — pupils read their explanation to a younger class buddy.
+
+### Lesson 50 — Spelling: the Y5/6 word list (2) and silent letters review
+- **Duration:** 35 min
+- **Objective:** "By the end, I can spell ten more list words and explain the tricky parts." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "Which word has three double letters: 'committee', 'embarrass' or 'accommodation'?"
+- **Key activity:** Words: committee, conscience, conscious, definite, environment, familiar, foreign, rhythm, sincerely, twelfth. Morphology (con + science), pronunciation for spelling ('Wed-nes-day' style), and mnemonics.
+- **Check for understanding:** "What is the difference between 'conscience' and 'conscious', and how does the spelling help you remember?" → Conscience (knowing right from wrong) contains 'science'; conscious means awake/aware.
+- **Differentiation:** support: six words with mnemonics given / stretch: explain the silent letters in 'rhythm', 'foreign' and 'twelfth' (pronunciation changes over time).
+- **Materials:** word cards, spelling journals, dictionaries with etymologies.
+- **Joy:** "Spelling bee" in teams (with help-lines).
+
+### Lesson 51 — Publish: class news magazine
+- **Duration:** 45 min
+- **Objective:** "By the end, I can publish my report or explanation with layout features that help readers." (UK NC Y6 writing — presentation / CCSS W.5.6)
+- **Hook:** "The first edition of our class magazine goes to print today."
+- **Key activity:** Pupils finalise and lay out their pieces (headings, subheadings, captions, diagrams, bullet points) digitally or by hand; an editorial team checks consistency.
+- **Check for understanding:** "Which layout feature did you add, and how does it help your reader?" → e.g. subheadings let readers find information quickly.
+- **Differentiation:** support: a layout template / stretch: act as section editor, checking three pieces for accuracy.
+- **Materials:** computers or tablets (word processing), paper, printers, glue.
+- **Joy:** the printed class magazine goes home and to the school library.
+
+### Lesson 52 — Unit 4 mastery check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can show I can read and write non-fiction for information." (UK NC Y6 — assessment / CCSS RI.5.1–3, W.5.2)
+- **Hook:** "Breaking news — you have 35 minutes."
+- **Key activity:** Unseen news article with questions (main idea, bias, a vocabulary question, a question on the passive voice), then a short report of a given event from a fact sheet.
+- **Check for understanding:** "Is the article objective? Support your answer with two examples." → A judgement with two specific word choices or omissions as evidence.
+- **Differentiation:** support: questions read aloud; a report frame / stretch: include balanced quotations from two sides.
+- **Materials:** unseen article, fact sheet, task sheet.
+- **Joy:** the best reports are 'broadcast' on a class news show.
+
+**End-of-unit check:** Pupil writes a news report with an accurate headline, a 5 Ws lead, a direct and a reported quotation and a purposeful passive sentence; identifies bias in an unseen text with evidence.
+
+---
+
+## Unit 5 — Speaking and listening: debate, and Term 1 review
+
+**Essential question:** How do we disagree well?
+
+**Key vocabulary:** debate, motion, proposition, opposition, rebuttal, point of information, chair, evidence, persuade, respectful, summarise
+
+### Lesson 53 — How debates work
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain the structure of a formal debate and the roles within it." (UK NC Y6 spoken language / CCSS SL.5.1)
+- **Hook:** Watch a short clip of a children's debate competition. "What rules keep it fair?"
+- **Key activity:** Teach roles (chair, proposition, opposition, timekeeper), structure (opening speeches, rebuttal, summary) and respectful language ("I understand your point, however…"). Practise with a light-hearted motion ("Cats make better pets than dogs").
+- **Check for understanding:** "What is a rebuttal, and why must it respond to what the other side actually said?" → A response that answers the opponent's argument; if it ignores what they said, it doesn't weaken their case.
+- **Differentiation:** support: role cards with sentence stems / stretch: take the chair role and summarise both sides fairly.
+- **Materials:** role cards, timer, debate structure poster, gavel or bell.
+- **Joy:** the "silly motion" warm-up debate.
+
+### Lesson 54 — Preparing a case
+- **Duration:** 40 min
+- **Objective:** "By the end, I can prepare three strong points with evidence and anticipate the other side's arguments." (UK NC Y6 spoken language / CCSS SL.5.4)
+- **Hook:** Motion: "This house believes that children should be allowed to vote in their country's elections."
+- **Key activity:** Teams research quickly from provided fact cards, prepare three points each with evidence, and list likely opposition points with a planned response.
+- **Check for understanding:** "What is the strongest point the other team could make, and how will you answer it?" → A realistic opposing point and a reasoned rebuttal.
+- **Differentiation:** support: fact cards grouped by argument / stretch: prepare a 'point of information' question for the other side.
+- **Materials:** fact cards, planning sheets, timer.
+- **Joy:** "Secret weapon" — each team hides one surprising fact for the debate.
+
+### Lesson 55 — The debate
+- **Duration:** 45 min
+- **Objective:** "By the end, I can take part in a formal debate, speaking clearly and responding to others respectfully." (UK NC Y6 spoken language / CCSS SL.5.1, SL.5.4)
+- **Hook:** "The chair calls the house to order."
+- **Key activity:** Full debate with rotating roles; the audience votes before and after, and gives feedback on persuasion and respect.
+- **Check for understanding:** "Which argument changed the most minds, and why was it effective?" → Pupil identifies a specific argument and its technique (evidence, example, emotional appeal).
+- **Differentiation:** support: speak using a prepared card, with a partner / stretch: deliver the closing summary, responding to points raised live.
+- **Materials:** debate set-up, voting slips, timer, feedback cards.
+- **Joy:** before-and-after vote reveal.
+
+### Lesson 56 — Term 1 reading review
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare the three Term 1 texts and explain which techniques I found most powerful." (UK NC Y6 reading — retrieval / CCSS RL.5.9)
+- **Hook:** "*Wonder*, *The Lady of Shalott* and *The Breadwinner* all have a character who must face the world outside. What else do they share?"
+- **Key activity:** Retrieval quiz on characters, vocabulary and techniques; then a comparison grid (theme, structure, narrator, setting). Pupils review their reading journals and set a reading goal for Term 2.
+- **Check for understanding:** "Compare how unfairness is shown in *Wonder* and *The Breadwinner*." → e.g. *Wonder* shows everyday unkindness at school through several narrators; *The Breadwinner* shows unjust laws through one girl's eyes — both show courage in the face of it.
+- **Differentiation:** support: comparison grid partly filled / stretch: add *The Lady of Shalott* to the comparison and write a comparative paragraph.
+- **Materials:** Term 1 texts, comparison grids, reading journals.
+- **Joy:** "Book awards" — the class votes for best character, best line and best twist.
+
+### Lesson 57 — Term 1 writing review and goal-setting
+- **Duration:** 40 min
+- **Objective:** "By the end, I can evaluate my own writing from Term 1 and set two specific targets." (UK NC Y6 writing — evaluate / CCSS W.5.5)
+- **Hook:** "Your writing portfolio: what are you proudest of?"
+- **Key activity:** Pupils re-read their narrative, diary and report; highlight evidence of new skills (semicolons, colons, passive, formal register); choose two targets; short grammar-in-context retrieval task.
+- **Check for understanding:** "Show me a sentence from your portfolio where a colon or semicolon improved the writing — and explain why." → A specific sentence and a reason (links related ideas, creates pause, introduces explanation).
+- **Differentiation:** support: a guided checklist of skills to hunt for / stretch: rewrite a paragraph from Term 1 applying both targets.
+- **Materials:** writing portfolios, skills checklist, target cards.
+- **Joy:** a one-to-one "writing conference" with the teacher to celebrate progress.
+
+**End-of-unit check:** Pupil speaks for one minute in a debate with a clear point, evidence and a rebuttal; identifies and explains two new punctuation or grammar skills in their own portfolio.
+
+---
+
+## Unit 6 — *A Long Walk to Water*: dual narratives
+
+**Essential question:** How can two stories, told years apart, come together to show hope?
+
+**Key vocabulary:** dual narrative, parallel, alternate, perspective, refugee, displaced, perseverance, resilience, summary, précis, synonym, antonym, cohesion, climax, resolution
+
+### Lesson 58 — Two voices, two times
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a dual narrative is organised and predict how the strands might connect." (UK NC Y6 reading — structure / CCSS RL.5.5)
+- **Hook:** Show the chapter headings: "Southern Sudan, 1985" and "Southern Sudan, 2008". "Why would an author alternate between two times?"
+- **Key activity:** Read the first two chapters of Linda Sue Park's novel (based on the true story of Salva Dut). Map on a world map where South Sudan is; start a dual timeline (Salva / Nya) that grows through the book.
+- **Check for understanding:** "What do Salva and Nya have in common so far, and what is different?" → Both are children in southern Sudan facing hardship; Salva's danger is war (1985), Nya's is the daily walk for water (2008).
+- **Differentiation:** support: timeline with chapter summaries to place / stretch: predict how a story from 1985 could connect to one from 2008, with evidence.
+- **Materials:** *A Long Walk to Water* by Linda Sue Park, world map, dual-timeline strip.
+- **Joy:** a class map pinning each chapter's location.
+
+### Lesson 59 — Nya's walk
+- **Duration:** 40 min
+- **Objective:** "By the end, I can infer a character's feelings and daily life from sparse, simple prose." (UK NC Y6 reading — inference / CCSS RL.5.1)
+- **Hook:** Carry a full 5-litre container of water across the playground and back. "Now imagine doing that for hours, twice a day."
+- **Key activity:** Read Nya's chapters. Discuss how Park uses short sentences and repetition to show routine and exhaustion. Pupils annotate an extract.
+- **Check for understanding:** "Why does Park describe Nya's walk in short, repetitive sentences?" → It mirrors the monotony and effort of the walk, day after day.
+- **Differentiation:** support: annotate with prompts ("What does this tell you about…?") / stretch: compare the style of Nya's and Salva's chapters.
+- **Materials:** novel, a 5-litre water container (handled safely in pairs), annotation sheets.
+- **Joy:** the water-carrying experience (short and supervised).
+
+### Lesson 60 — Salva runs
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the author builds tension and fear in a scene of danger." (UK NC Y6 reading — author's craft / CCSS RL.5.4)
+- **Hook:** "Gunshots at school. Salva's teacher says: run into the bush." What would you do?
+- **Key activity:** Read the attack and flight chapters. Identify techniques: short sentences, sensory detail, what is not explained (the confusion of a child). Pupils map Salva's feelings on a tension graph.
+- **Check for understanding:** "Why does the author not explain the war in detail at this point?" → Salva doesn't understand it either; we experience his confusion and fear.
+- **Differentiation:** support: tension graph with key moments listed / stretch: rewrite a paragraph with a different pace and explain how it changes the effect.
+- **Materials:** novel, tension-graph templates.
+- **Joy:** "Soundscape" — the class creates the sounds of the scene as it's read aloud.
+
+### Lesson 61 — "Just to that clump of bushes"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a character's words and actions develop a theme (perseverance)." (UK NC Y6 reading — themes / CCSS RL.5.2)
+- **Hook:** "How do you keep going when the goal seems impossibly far?"
+- **Key activity:** Read the chapters where Salva's Uncle Jewiir helps him cross the desert by setting small goals ("just to that clump of bushes"). Discuss how this idea returns later. Pupils connect it to their own experience of a hard task.
+- **Check for understanding:** "How does Uncle's advice help Salva later in the story? Use evidence." → Salva uses the same step-by-step thinking to survive the camps and later to build his project, one well at a time.
+- **Differentiation:** support: key quotations provided on cards / stretch: track the image of walking/steps through the whole book as a motif.
+- **Materials:** novel, sticky notes, "goal ladder" template.
+- **Joy:** pupils draw a personal "clump of bushes" goal ladder for something hard they want to achieve.
+
+### Lesson 62 — Sentence studio: synonyms, antonyms and cohesion
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use synonyms and pronouns to build cohesion and avoid repetition." (UK NC Y6 grammar — cohesion / CCSS L.5.5c, W.5.2c)
+- **Hook:** Read aloud a paragraph that repeats "the water" nine times. "What's wrong?"
+- **Key activity:** Teach cohesion through synonyms (the water → the precious liquid → it), antonyms for contrast, and pronoun reference. Rewrite the paragraph; check every pronoun points clearly to one noun.
+- **Check for understanding:** "In 'Salva met Marial and he gave him food', who gave whom food? How would you fix it?" → It's ambiguous; rewrite with names or restructure ("Marial gave Salva food").
+- **Differentiation:** support: a synonym bank for the paragraph / stretch: rewrite a paragraph using at least three different cohesive devices and label them.
+- **Materials:** repetitive paragraph cards, thesauruses, highlighters.
+- **Joy:** "Repetition police" — pupils 'fine' repeated words in a silly paragraph.
+
+### Lesson 63 — Vocabulary: the language of displacement
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain and use words such as refugee, displaced, asylum and migrant accurately and sensitively." (UK NC Y6 vocabulary / CCSS L.5.6)
+- **Hook:** "Is every migrant a refugee? Is every refugee a migrant?"
+- **Key activity:** Frayer models for refugee, migrant, displaced, asylum, persecution, resilience, humanitarian. Discuss why precise and respectful language matters when talking about real people.
+- **Check for understanding:** "What is the difference between a refugee and a migrant?" → A refugee has fled their country because of danger such as war or persecution; a migrant moves for many possible reasons, including work or family.
+- **Differentiation:** support: 4 words with pictures and example sentences / stretch: explain how a word like 'displaced' can describe someone who has not left their own country.
+- **Materials:** Frayer templates, dictionaries, UNHCR children's explainer (printed).
+- **Joy:** "Word detectives" — find the words in a real news article and check they're used precisely.
+
+### Lesson 64 — Paired non-fiction: life in a refugee camp
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use information from a non-fiction text to deepen my understanding of a novel." (UK NC Y6 reading — non-fiction / CCSS RI.5.9)
+- **Hook:** "Salva lived in camps in Ethiopia and Kenya for years. What would daily life be like?"
+- **Key activity:** Read a short, age-appropriate non-fiction text about refugee camps (e.g. from UNHCR's education resources). Pupils note facts that explain events in the novel and questions they still have.
+- **Check for understanding:** "Name one fact from the non-fiction text that helps explain something Salva experiences." → A fact linked to an event (e.g. limited food and water explains the queues and hunger).
+- **Differentiation:** support: text with key facts pre-highlighted / stretch: note one question the text doesn't answer and suggest where to find the answer.
+- **Materials:** non-fiction extract, novel, fact-and-question grid.
+- **Joy:** "Ask an expert" — pupils write questions to a charity worker (sent via the teacher if possible).
+
+### Lesson 65 — Spelling: unstressed vowels — the letters we can't hear
+- **Duration:** 35 min
+- **Objective:** "By the end, I can spell words with unstressed vowels by using related words, syllables and mnemonics." (UK NC Y5–6 spelling — unstressed vowels / CCSS L.5.2e)
+- **Hook:** "Say 'desperate', 'definite' and 'separate' at normal speed. Which vowels can you actually hear?"
+- **Key activity:** Teach that in many long words one vowel is unstressed and sounds like a quick 'uh' (the schwa), so you can't spell it by listening. Strategies: find a related word where the vowel is stressed (definite — define, finite; competition — compete; medicine — medicinal); say it in 'spelling voice' (des-PER-ate, SEP-A-rate); use a mnemonic. Sort words from the novel and the Y5/6 list (desperate, separate, definite, category, library, vegetable, relevant) by strategy. (The 'ough' letter string was taught in Year 4.)
+- **Check for understanding:** "Why is 'definite' spelled with an i in the middle, not an a? Which strategy proves it?" → The middle vowel is unstressed, so you can't hear it; the related words 'define' and 'finite' say the i clearly.
+- **Differentiation:** support: five words with the related word given beside each / stretch: find three more words where a related word reveals the hidden vowel.
+- **Materials:** word-sort cards, spelling journals, dictionaries.
+- **Joy:** "Vowel detectives" — race to find the related word that unmasks each hidden vowel.
+
+### Lesson 66 — Summarising a chapter
+- **Duration:** 40 min
+- **Objective:** "By the end, I can summarise a chapter in under 50 words, keeping only the most important events." (UK NC Y6 reading — summarising / CCSS RL.5.2)
+- **Hook:** "Tell me the whole chapter in one tweet-length message."
+- **Key activity:** Teach "Somebody–Wanted–But–So–Then". Model with one chapter, then pupils summarise the next and compare with a partner — what did each keep and cut?
+- **Check for understanding:** "Which detail did you leave out, and why wasn't it essential?" → A named detail and the reason (it doesn't change what happens or why).
+- **Differentiation:** support: SWBST frame / stretch: summarise the same chapter in 25 words, then in 10.
+- **Materials:** novel, SWBST frames, word counters (or pupils count).
+- **Joy:** "Summary squeeze" — the shortest accurate summary wins.
+
+### Lesson 67 — Précis: shrinking a passage
+- **Duration:** 40 min
+- **Objective:** "By the end, I can reduce a passage to about half its length while keeping its meaning, in my own words." (UK NC Y6 writing — précis / CCSS RI.5.2)
+- **Hook:** "An editor says: 'Brilliant — now make it half as long.' How?"
+- **Key activity:** Model: identify main points, cut examples and repetition, combine sentences, paraphrase. Pupils précis a 200-word non-fiction passage about water scarcity to about 100 words.
+- **Check for understanding:** "Is it a précis if you copy every other sentence? Why not?" → No: a précis keeps the key points and meaning in your own words; cutting sentences at random loses important ideas.
+- **Differentiation:** support: key points highlighted first / stretch: précis to 50 words while keeping the author's main argument.
+- **Materials:** passages, highlighters, word counters.
+- **Joy:** "Editor's red pen" — the precise cuts are celebrated in a class "Before/After" display.
+
+### Lesson 68 — Salva's new life
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a character develops across a whole novel." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "From running barefoot through the bush to living in Rochester, New York. What has changed in Salva — and what hasn't?"
+- **Key activity:** Read the chapters about Salva's move to the USA and his idea for a water project. Character-development chart: traits at the start, middle and end, with evidence.
+- **Check for understanding:** "What trait has Salva kept all the way through, and where do we see it at the start and end?" → e.g. perseverance — crossing the desert step by step; later raising money and drilling well after well.
+- **Differentiation:** support: chart with prompts / stretch: argue which moment was Salva's true turning point.
+- **Materials:** novel, character-development charts.
+- **Joy:** "Then and now" portraits of Salva drawn by pupils with a quote beneath each.
+
+### Lesson 69 — The stories meet
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the ending connects the two narratives and what message it leaves." (UK NC Y6 reading / CCSS RL.5.2, RL.5.5)
+- **Hook:** "Were you surprised by who Nya meets at the end?"
+- **Key activity:** Read the final chapters and the author's note. Discuss how the well links the two strands, the significance of a Nuer girl meeting a Dinka man given their peoples' history of conflict, and what the author's note adds.
+- **Check for understanding:** "Why is it significant that Salva, who is Dinka, brings water to Nya's Nuer village?" → Their groups had been in conflict; his project shows hope, forgiveness and shared humanity.
+- **Differentiation:** support: guided questions with page references / stretch: evaluate whether the book would be as powerful without the author's note explaining it is based on a true story.
+- **Materials:** novel, author's note, discussion cards.
+- **Joy:** "Message in a bottle" — pupils write the book's message in one sentence and seal it in a (paper) bottle.
+
+### Lesson 70 — Plan a dual narrative
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan two alternating narrative strands that come together at the end." (UK NC Y6 writing / CCSS W.5.3a)
+- **Hook:** "Two characters, two times or places, one object or place that links them."
+- **Key activity:** Pupils choose two characters (e.g. a child who plants a tree in 1950 and a child who climbs it today), plan 4 alternating sections and the meeting point, with a clear voice for each.
+- **Check for understanding:** "How will each character's section sound different? Give one example." → e.g. one in first person present tense, the other in third person past; different vocabulary.
+- **Differentiation:** support: a choice of linked pairs and a planning frame / stretch: plan strands that reveal information to the reader before the characters know it (dramatic irony).
+- **Materials:** planners, picture prompts, the novel for modelling.
+- **Joy:** "Link object" lucky dip.
+
+### Lesson 71 — Draft a dual narrative
+- **Duration:** 45 min
+- **Objective:** "By the end, I can draft alternating sections with distinct voices and clear signals of time and place." (UK NC Y6 writing / CCSS W.5.3b, W.5.3c)
+- **Hook:** "Your two characters are about to meet — but not yet."
+- **Key activity:** Draft sections with headings (place and date, like Park's). Use a range of transitions and cohesive devices; show feelings through actions.
+- **Check for understanding:** "What signals tell your reader that the time and place have changed?" → Headings, tense, setting details and time adverbials.
+- **Differentiation:** support: two sections only, with a model to follow / stretch: end each section on a mini cliffhanger.
+- **Materials:** planners, writing books.
+- **Joy:** pupils read one section aloud "in character" with a different voice for each strand.
+
+### Lesson 72 — Revise, edit and publish
+- **Duration:** 45 min
+- **Objective:** "By the end, I can revise my dual narrative for voice and cohesion, and edit it for accuracy." (UK NC Y6 writing — evaluate and edit / CCSS W.5.5)
+- **Hook:** "Swap and spot: can your partner tell whose section is whose without the headings?"
+- **Key activity:** Partner test for distinct voices; revision (at least three changes); editing for spelling, punctuation (including semicolons, colons and dashes) and paragraphing; final copy.
+- **Check for understanding:** "Which change made the biggest difference to your writing, and why?" → A specific revision with a reason.
+- **Differentiation:** support: editing checklist with examples / stretch: add an 'author's note' explaining what inspired the story.
+- **Materials:** drafts, checklists, coloured pens, publishing paper.
+- **Joy:** "Voice test" — partners guess the narrator from a covered-up section.
+
+### Lesson 73 — Unit 6 mastery check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can show my understanding of structure, character and theme in a novel." (UK NC Y6 reading — assessment / CCSS RL.5.2–5)
+- **Hook:** "Explain the book to someone who has never read it."
+- **Key activity:** Independent reading task: an unseen extract with inference and vocabulary questions, a 50-word summary, and a PEE paragraph on how the dual structure creates hope.
+- **Check for understanding:** "Why does the author alternate between Salva and Nya instead of telling Salva's story first and Nya's second?" → Alternating builds suspense about the connection and keeps both stories present, so the ending has more impact.
+- **Differentiation:** support: questions read aloud, PEE frame / stretch: compare the structure with *Wonder*'s multiple narrators.
+- **Materials:** extract, task sheet, novel.
+- **Joy:** pupils nominate the book for a class "Books That Change Minds" shelf with a recommendation card.
+
+**End-of-unit check:** Pupil writes a 50-word summary and a 100-word précis accurately, and explains in a PEE paragraph how the dual narrative creates meaning.
+
+---
+
+## Unit 7 — Argument: the water campaign
+
+**Essential question:** How can words change what people think and do — fairly?
+
+**Key vocabulary:** argument, persuasion, balanced, viewpoint, counter-argument, evidence, statistic, source, rhetoric, rhetorical question, tricolon, repetition, emotive, subjunctive, formal, conclusion, call to action
+
+### Lesson 74 — Persuasive or balanced?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can distinguish a persuasive text from a balanced argument and explain their different purposes." (UK NC Y6 reading — non-fiction / CCSS RI.5.8)
+- **Hook:** Two texts on "Should schools sell bottled water?" — one is a campaign leaflet, one is a discussion. "Which one is trying to make up your mind for you?"
+- **Key activity:** Compare features: one-sided vs both sides, emotive vs neutral language, conclusion as a demand vs a weighed judgement. Build a comparison chart.
+- **Check for understanding:** "Why might a balanced argument be more convincing to a reader who hasn't decided?" → It shows the writer has considered both sides fairly, so their conclusion seems more trustworthy.
+- **Differentiation:** support: statements to sort into 'persuasive' and 'balanced' / stretch: identify a sentence in the balanced text that subtly shows the writer's own view.
+- **Materials:** paired texts, comparison chart, highlighters.
+- **Joy:** "Which side are we on?" — a quick human vote-line before and after reading.
+
+### Lesson 75 — Evidence and statistics used honestly
+- **Duration:** 40 min
+- **Objective:** "By the end, I can choose reliable evidence and explain how statistics can be used honestly or misleadingly." (UK NC Y6 reading / CCSS RI.5.8, W.5.8)
+- **Hook:** "'Millions of people lack safe water.' How many millions? Who says so? When?"
+- **Key activity:** Evaluate sources (who, when, why) for claims about water access, using an up-to-date figure from WHO/UNICEF chosen by the teacher. Discuss rounding and "up to" claims (maths link: Unit 7 percentages).
+- **Check for understanding:** "Why is a figure from an international health organisation more reliable than one from an anonymous social-media post?" → It is from an expert body that explains its methods and can be checked; the post has no known source.
+- **Differentiation:** support: a source-rating checklist with three sources / stretch: find the same statistic reported differently in two places and explain the difference.
+- **Materials:** source cards, checklist, printed data from WHO/UNICEF (teacher-selected).
+- **Joy:** "Fact or fiction?" game with real and invented statistics.
+
+### Lesson 76 — Sentence studio: the subjunctive and formal persuasion
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use the subjunctive form in formal writing and explain its effect." (UK NC Y6 grammar / CCSS L.5.1)
+- **Hook:** "'If I was head teacher…' vs 'If I were head teacher…'. Which sounds more formal?"
+- **Key activity:** Teach two uses: hypothetical 'were' ("If I were…", "If the school were to…") and the mandative subjunctive after verbs such as insist, recommend, demand ("We recommend that every school provide free water"). Practise in formal campaign sentences.
+- **Check for understanding:** "Correct this formal sentence: 'The council insists that every child has access to water.'" → "…insists that every child have access to water" (the subjunctive uses the base form).
+- **Differentiation:** support: 'If I were…' sentences only, with frames / stretch: write a formal recommendation using the mandative subjunctive and the passive voice.
+- **Materials:** sentence cards, formal/informal comparison posters.
+- **Joy:** "If I were…" wishes chain around the class — each must be correctly formed.
+
+### Lesson 77 — Structuring a balanced argument
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a balanced argument with an introduction, points for and against, and a reasoned conclusion." (UK NC Y6 writing / CCSS W.5.1a–b)
+- **Hook:** Motion: "Our school should stop selling drinks in plastic bottles."
+- **Key activity:** Gather arguments in a for/against table, with evidence for each; order points from strongest to weakest; plan paragraphs with contrasting connectives (however, on the other hand, conversely, nevertheless).
+- **Check for understanding:** "Why should the conclusion come after both sides have been presented?" → A balanced argument weighs the evidence first, so the conclusion is justified by what came before.
+- **Differentiation:** support: arguments on cards to sort into the table / stretch: include a point that could be used by both sides and explain it.
+- **Materials:** for/against tables, connective banks, evidence sheets.
+- **Joy:** "Tug of war" — pupils physically move a rope marker as arguments are read.
+
+### Lesson 78 — Draft a balanced argument
+- **Duration:** 45 min
+- **Objective:** "By the end, I can draft a balanced argument in a formal register with evidence and cohesive devices." (UK NC Y6 writing / CCSS W.5.1c–d)
+- **Hook:** "The school council will read these. Make them count."
+- **Key activity:** Draft from plans: introduction stating the issue neutrally, paragraphs for each side, conclusion weighing them; formal register (no contractions, passive where useful, subjunctive in the recommendation).
+- **Check for understanding:** "Point to the sentence where you move from one side to the other. What connective did you use, and why?" → e.g. "On the other hand" — signals a contrasting viewpoint.
+- **Differentiation:** support: paragraph frames and connective bank / stretch: include a rhetorical question in the introduction and a counter-argument within a paragraph.
+- **Materials:** plans, frames, writing books.
+- **Joy:** drafts will genuinely go to the school council.
+
+### Lesson 79 — Revise: sharpening arguments
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise an argument so every point has evidence and every paragraph links clearly." (UK NC Y6 writing / CCSS W.5.5)
+- **Hook:** "Would this argument convince a sceptical head teacher?"
+- **Key activity:** Peer 'sceptic' feedback: partners challenge any point without evidence. Revise, then edit for formal register and punctuation.
+- **Check for understanding:** "Which point did your sceptic challenge, and how did you strengthen it?" → A named point and the evidence or reasoning added.
+- **Differentiation:** support: a checklist of five questions for the sceptic / stretch: add a paragraph acknowledging the strongest opposing point before concluding.
+- **Materials:** drafts, sceptic question cards, editing pens.
+- **Joy:** "Sceptic's badge" awarded to the toughest (but kindest) critic.
+
+### Lesson 80 — The power of a speech: a young water protector at the UN
+- **Duration:** 40 min
+- **Objective:** "By the end, I can identify rhetorical techniques in a real speech and explain their effect." (UK NC Y6 reading & spoken language / CCSS RI.5.8, SL.5.3)
+- **Hook:** Watch a teacher-chosen clip of Autumn Peltier, an Anishinaabe water protector from Canada, speaking at the United Nations in 2018, aged 13, about every person's right to clean water.
+- **Key activity:** Read a transcript extract; identify personal story, repetition, direct address, inclusive pronouns ('we') and the call to action. Discuss why a young speaker with lived experience of her community's water problems can move world leaders. (Malala Yousafzai's UN speech is analysed in Year 6.)
+- **Check for understanding:** "Why might a 13-year-old speaking about her own community's water be especially persuasive to adults in power?" → Her personal experience gives her credibility and emotional force, and as a young person she speaks for the future generations who will live with their decisions.
+- **Differentiation:** support: technique cards with examples to match to the text / stretch: compare with an extract from another famous speech (e.g. Martin Luther King Jr.'s "I Have a Dream").
+- **Materials:** speech extract and video (from the UN or another reputable source), technique cards.
+- **Joy:** pupils perform a key line with emphasis, trying different ways to stress the words.
+
+### Lesson 81 — Write a campaign speech
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write a short persuasive speech using at least three rhetorical techniques." (UK NC Y6 writing / CCSS W.5.1, W.5.4)
+- **Hook:** "You have two minutes at the school assembly to persuade everyone to support a water charity or a water-saving campaign."
+- **Key activity:** Plan a speech: hook, three points with evidence, emotional appeal, call to action. Draft using tricolon, rhetorical question, repetition and direct address.
+- **Check for understanding:** "Label your three rhetorical techniques. Which is most powerful and why?" → Labelled examples and a reasoned choice.
+- **Differentiation:** support: a speech frame with technique prompts / stretch: include a personal story or anecdote that makes the issue real.
+- **Materials:** speech frames, the Lesson 80 speech extract, timers.
+- **Joy:** "Speech lab" — test your opening line on three classmates and choose the best version.
+
+### Lesson 82 — Delivering a speech
+- **Duration:** 40 min
+- **Objective:** "By the end, I can deliver a speech with clear voice, eye contact, pace and gesture." (UK NC Y6 spoken language / CCSS SL.5.4, SL.5.6)
+- **Hook:** "Same words, two speakers — why does one move us?"
+- **Key activity:** Teach delivery (posture, eye contact, pausing before key points, varying volume). Rehearse in pairs with feedback; deliver to the class or in assembly.
+- **Check for understanding:** "Where did you pause for effect, and what did the pause do?" → A specific moment and effect (lets the audience think, adds drama).
+- **Differentiation:** support: deliver from cue cards to a small group / stretch: deliver without notes and respond to one audience question.
+- **Materials:** cue cards, timers, a lectern or 'stage' spot, video recording (with permission).
+- **Joy:** real assembly speeches, with a donation or water-saving pledge collected afterwards.
+
+### Lesson 83 — Spelling: the Y5/6 word list (3)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can spell ten more list words, using word structure and mnemonics." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "Which is correct: 'persuade' or 'pursuade'? 'Recommend' or 'reccomend'?"
+- **Key activity:** Words: persuade, recommend, sufficient, suggest, symbol, system, temperature, variety, vegetable, yacht. Morphology (sufficient: suf + fic), sound-it-out spellings (veg-e-ta-ble), mnemonics.
+- **Check for understanding:** "How can knowing 'suggestion' help you spell 'suggest'?" → Word families keep the same spelling of the root: suggest + ion.
+- **Differentiation:** support: six words with mnemonics / stretch: explain the Dutch origin of 'yacht' and why it's spelled unusually.
+- **Materials:** word cards, spelling journals, etymological dictionary.
+- **Joy:** "Speed spell relay" in teams.
+
+### Lesson 84 — Campaign leaflets: layout and concise language
+- **Duration:** 40 min
+- **Objective:** "By the end, I can design a leaflet that uses layout, concise language and evidence to persuade." (UK NC Y6 writing — presentation / CCSS W.5.4, W.5.6)
+- **Hook:** "You have 5 seconds of a passer-by's attention. What do they see?"
+- **Key activity:** Analyse real charity leaflets for headings, bullet points, images, statistics, call to action. Design a folded leaflet for the class campaign.
+- **Check for understanding:** "Why is a bullet list more effective than a paragraph in a leaflet?" → Readers skim; bullets make key points quick to find and remember.
+- **Differentiation:** support: a leaflet template with sections labelled / stretch: create two versions for different audiences (children and adults) and explain the changes.
+- **Materials:** sample charity leaflets, A4 paper, design software (optional), coloured pens.
+- **Joy:** leaflets are distributed at a real school event.
+
+### Lesson 85 — Unit 7 mastery check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can show I can write a balanced argument and analyse persuasive techniques." (UK NC Y6 — assessment / CCSS W.5.1, RI.5.8)
+- **Hook:** "New motion — no preparation. Show what you've learned."
+- **Key activity:** Unseen persuasive text: identify three techniques and their effects. Then write a short balanced argument (introduction, one paragraph each side, conclusion) on a new motion.
+- **Check for understanding:** "Choose one technique from the unseen text and explain how it affects the reader." → A named technique, quotation and effect.
+- **Differentiation:** support: planning frame and connective bank / stretch: include a subjunctive recommendation and a passive sentence in the conclusion.
+- **Materials:** unseen text, planning frames, task sheet.
+- **Joy:** the class votes on which new motion to debate next term.
+
+**End-of-unit check:** Pupil writes a balanced argument in a formal register with evidence on both sides and a reasoned conclusion, and delivers a 1–2 minute speech using at least three rhetorical techniques.
+
+---
+
+## Unit 8 — *Boy*: autobiography and memoir
+
+**Essential question:** How do writers turn their own memories into stories other people want to read?
+
+**Key vocabulary:** autobiography, biography, memoir, anecdote, first person, retrospective, voice, exaggeration, humour, caricature, sensory detail, reliability, idiom, etymology, oral history
+
+### Lesson 86 — What is an autobiography?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can distinguish autobiography, biography and memoir and explain why Dahl says *Boy* is 'not an autobiography'." (UK NC Y6 reading / CCSS RI.5.5)
+- **Hook:** Read Dahl's preface: he says autobiographies are full of boring details and that this is not one. "So what is it?"
+- **Key activity:** Sort extracts (from *Boy*, a biography of a scientist, a diary) into autobiography, biography, memoir; list features. Discuss Dahl's claim that he chose only the memories that stayed vivid.
+- **Check for understanding:** "What's the difference between an autobiography and a biography?" → An autobiography is written by the person about their own life; a biography is written by someone else about them.
+- **Differentiation:** support: sorting with feature cards / stretch: argue whether *Boy* is better described as a memoir, using the preface.
+- **Materials:** *Boy: Tales of Childhood* by Roald Dahl, sorting extracts.
+- **Joy:** "Memory jar" — pupils write one vivid childhood memory on a slip and seal it for later.
+
+### Lesson 87 — The Great Mouse Plot
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how Dahl creates humour through exaggeration and a child's viewpoint." (UK NC Y6 reading — author's craft / CCSS RL.5.4)
+- **Hook:** "A dead mouse in a jar of gobstoppers. What could go wrong?"
+- **Key activity:** Read the chapter. Identify exaggeration, comic timing, the contrast between the boys' pride and the consequences. Discuss the ethics too: were the boys right? Was the punishment right?
+- **Check for understanding:** "How does Dahl make the reader side with the boys even though they do something cruel?" → He tells it from the boys' excited viewpoint and makes Mrs Pratchett so unpleasant that we enjoy her shock.
+- **Differentiation:** support: find three examples of exaggeration from a list of highlighted sentences / stretch: explain how the adult Dahl's voice sometimes comments on the child's actions.
+- **Materials:** *Boy*, annotation sheets.
+- **Joy:** "Dramatic reading" — the chapter's climax performed as a radio play.
+
+### Lesson 88 — Caricature: Mrs Pratchett
+- **Duration:** 40 min
+- **Objective:** "By the end, I can analyse how a writer uses precise, exaggerated detail to create a memorable character." (UK NC Y6 reading / CCSS RL.5.4)
+- **Hook:** "Close your eyes as I read this description. What do you see — and smell?"
+- **Key activity:** Collect Dahl's descriptive details (her grimy hands, her apron) and discuss how exaggeration creates a caricature. Pupils write a caricature description of an imaginary shopkeeper using expanded noun phrases.
+- **Check for understanding:** "Why does Dahl focus on Mrs Pratchett's dirty fingers rather than her height or hair colour?" → The detail is disgusting and connected to the sweets she handles, making readers share the boys' disgust.
+- **Differentiation:** support: a noun-phrase builder with adjective and prepositional phrase banks / stretch: create a caricature that is funny but not cruel, and explain the line between the two.
+- **Materials:** *Boy*, noun-phrase builder, drawing paper.
+- **Joy:** draw your caricature in the style of Quentin Blake (who illustrated many Dahl books).
+
+### Lesson 89 — Sentence studio: asides for voice
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use brackets, dashes and commas for parenthesis to create a chatty narrative voice." (UK NC Y6 grammar — parenthesis review in context / CCSS L.5.2)
+- **Hook:** "'My mother (who was Norwegian) never once raised her voice.' What does the bracket add?"
+- **Key activity:** Find parenthetical asides in *Boy*; discuss how they make the voice sound like someone talking to us. Pupils add asides to plain sentences, choosing brackets (quiet aside), dashes (dramatic aside) or commas (smooth addition).
+- **Check for understanding:** "What happens to a sentence if you remove the parenthesis? What should happen?" → It should still make complete sense; parenthesis is extra information.
+- **Differentiation:** support: sentences with a marked place to insert an aside / stretch: write a paragraph where each type of parenthesis is used for a different effect.
+- **Materials:** *Boy* extracts, punctuation cards, mini-whiteboards.
+- **Joy:** "Whisper, shout, murmur" — read brackets as a whisper, dashes as a shout.
+
+### Lesson 90 — Norway: memory and the senses
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how sensory detail makes a memory vivid for readers." (UK NC Y6 reading / CCSS RL.5.4)
+- **Hook:** "Which smell instantly takes you back to a place?"
+- **Key activity:** Read the Norway holiday chapters. Pupils find details for each sense and discuss why memoirs rely on them. Short write: one sensory paragraph about a place from their own life.
+- **Check for understanding:** "Choose one sensory detail from the Norway chapters. Why does it make the memory feel real?" → A specific detail and its effect (e.g. something the reader can imagine smelling or tasting).
+- **Differentiation:** support: five-senses chart with examples / stretch: include one sense that is surprising or unusual in your paragraph.
+- **Materials:** *Boy*, five-senses charts, map of Norway.
+- **Joy:** "Smell memory" station with safe scents (cinnamon, lemon, pine) to spark writing.
+
+### Lesson 91 — Can we trust a memoir?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can evaluate the reliability of an autobiography by comparing it with other sources." (UK NC Y6 reading — evaluating / CCSS RI.5.6)
+- **Hook:** "Memories change over time. Does that make a memoir untrue?"
+- **Key activity:** Compare one episode from *Boy* with a factual account from a biography or reference source about Dahl's schooling. Discuss memory, exaggeration and point of view.
+- **Check for understanding:** "Why might a writer exaggerate in a memoir, and does it matter?" → To entertain or show how it felt; it matters if readers take it as exact fact — memoir captures truth of feeling more than every detail.
+- **Differentiation:** support: a comparison table with guiding questions / stretch: write a short paragraph arguing whether memoir should be shelved as fiction or non-fiction.
+- **Materials:** *Boy*, reference extract about Roald Dahl, comparison table.
+- **Joy:** "Tall tale test" — pupils tell a true memory with one exaggeration; the class guesses which part.
+
+### Lesson 92 — Chocolate and becoming a writer
+- **Duration:** 40 min
+- **Objective:** "By the end, I can make links between an author's life and their fiction, supported by evidence." (UK NC Y6 reading / CCSS RL.5.9)
+- **Hook:** "Cadbury sent new chocolate bars to Dahl's school to be tested. Which of his books might that have inspired?"
+- **Key activity:** Read the "Chocolates" chapter. Pupils list links between events in *Boy* and Dahl's novels (e.g. *Charlie and the Chocolate Factory*), supported with quotations.
+- **Check for understanding:** "What evidence suggests the chocolate testing influenced Dahl's later writing?" → He describes dreaming of working in a chocolate invention room — similar to Willy Wonka's factory.
+- **Differentiation:** support: link-matching cards / stretch: find a darker experience in *Boy* that may have shaped his unpleasant adult characters.
+- **Materials:** *Boy*, other Dahl novels, link cards.
+- **Joy:** "Invention room" — design and name a new chocolate bar with a persuasive description.
+
+### Lesson 93 — Vocabulary: idioms and figurative expressions
+- **Duration:** 35 min
+- **Objective:** "By the end, I can explain the meaning and origin of common idioms and use them appropriately." (UK NC Y6 vocabulary / CCSS L.5.5b)
+- **Hook:** "'Let the cat out of the bag.' 'Break the ice.' Why don't they mean what they say?"
+- **Key activity:** Explore idioms in *Boy* and everyday English; compare with idioms from other languages pupils speak (e.g. Spanish "costar un ojo de la cara" — to cost an eye of the face); discuss why idioms are hard for language learners.
+- **Check for understanding:** "What does 'to be in hot water' mean, and why would a literal reader be confused?" → To be in trouble; a literal reader would imagine actual hot water.
+- **Differentiation:** support: idiom–meaning matching with pictures / stretch: research the origin of two idioms and present them.
+- **Materials:** idiom cards, picture cards, pupils' home-language knowledge.
+- **Joy:** "Idiom charades" — act out idioms literally for others to guess.
+
+### Lesson 94 — Oral history: interviewing a family member
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan and conduct an interview with open questions and follow-up questions." (UK NC Y6 spoken language / CCSS SL.5.1c)
+- **Hook:** "What was school like for the oldest person you know?"
+- **Key activity:** Teach open vs closed questions and follow-ups ("Can you tell me more about…?"). Practise interviewing a partner, then plan a home interview with a family member or community elder.
+- **Check for understanding:** "Turn 'Did you like school?' into an open question and explain why it's better." → e.g. "What do you remember most about your school?" — it invites a detailed story, not yes/no.
+- **Differentiation:** support: a question bank to choose from / stretch: plan a follow-up question for each main question in case the answer is short.
+- **Materials:** interview planners, recording devices (with permission), question banks.
+- **Joy:** interviews shared at a class "memory museum" (with family permission).
+
+### Lesson 95 — Plan a memoir chapter
+- **Duration:** 40 min
+- **Objective:** "By the end, I can choose a vivid memory and plan it as an anecdote with a beginning, turning point and reflection." (UK NC Y6 writing / CCSS W.5.3a)
+- **Hook:** Open the memory jars from Lesson 86. "Which memory has a story in it?"
+- **Key activity:** Model planning an anecdote (setting the scene, the incident, the turning point, what the adult writer understands now). Pupils plan theirs on a story mountain with a reflection box.
+- **Check for understanding:** "What is the 'reflection' at the end of your memoir, and why does a memoir need one?" → What the writer realises looking back; it gives the memory meaning beyond 'what happened'.
+- **Differentiation:** support: a choice of memory prompts (a first time, a mistake, a journey) with a planning frame / stretch: plan to open in the middle of the action and then fill in context.
+- **Materials:** memory jars, planners, *Boy* for modelling.
+- **Joy:** "Memory pitch" — pupils pitch their memory in 30 seconds to a partner.
+
+### Lesson 96 — Draft: voice and humour
+- **Duration:** 45 min
+- **Objective:** "By the end, I can draft a memoir chapter with a distinctive first-person voice." (UK NC Y6 writing / CCSS W.5.3b, W.5.3d)
+- **Hook:** "Dahl talks to the reader like a friend. How can you make your reader feel you're talking to them?"
+- **Key activity:** Draft using direct address, asides (parenthesis), a mix of past and present reflection ("Even now, I…"), sensory detail and, where suitable, gentle humour.
+- **Check for understanding:** "Find a sentence where your adult 'now' voice comments on the child 'then'. What does it add?" → A sentence of reflection and its effect (perspective, humour, meaning).
+- **Differentiation:** support: model paragraph and voice sentence stems / stretch: use a recurring detail (an object or phrase) that returns at the end.
+- **Materials:** planners, writing books, voice stems.
+- **Joy:** pupils read their funniest line to a partner and see if it lands.
+
+### Lesson 97 — Revise: dialogue and show-not-tell
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise my memoir to include dialogue that reveals character and details that show feelings." (UK NC Y6 writing / CCSS W.5.3b, W.5.5)
+- **Hook:** "'My grandmother was strict.' How could dialogue show this instead?"
+- **Key activity:** Teach how to integrate a short exchange of dialogue with action beats; revise two 'telling' sentences into 'showing'; peer feedback focused on voice.
+- **Check for understanding:** "Show one 'telling' sentence you changed. What does the new version let the reader work out?" → The original and revision, with the inferred feeling or trait.
+- **Differentiation:** support: dialogue punctuation checklist with an example / stretch: use dialogue in which what is said differs from what is meant (subtext).
+- **Materials:** drafts, dialogue checklist, coloured pens.
+- **Joy:** "Voice actors" — partners read the dialogue aloud in character.
+
+### Lesson 98 — Spelling: words from other languages
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use knowledge of word origins to spell words borrowed from other languages." (UK NC Y5–6 spelling / CCSS L.5.4c)
+- **Hook:** "Fjord, ski, ballet, chauffeur, tsunami, safari, shampoo, pyjamas: where do they come from?"
+- **Key activity:** Group borrowed words by origin: French (ballet, chauffeur, chef — 'ch' says /ʃ/; 'et' says /eɪ/), Norwegian (fjord, ski), Japanese (tsunami), Swahili (safari), Hindi/Urdu (shampoo, pyjamas). Notice spelling patterns from the original language.
+- **Check for understanding:** "Why does 'chef' start with 'ch' but sound like 'sh'?" → It comes from French, where 'ch' is pronounced /ʃ/.
+- **Differentiation:** support: 8 words with origins given / stretch: find three English words borrowed from a language spoken in your family or community.
+- **Materials:** world map, word cards, etymological dictionary.
+- **Joy:** "Word passport" — stamp each borrowed word's country of origin on a map.
+
+### Lesson 99 — Publish memoirs and unit check
+- **Duration:** 45 min
+- **Objective:** "By the end, I can publish a polished memoir chapter and explain the choices I made as a writer." (UK NC Y6 writing / CCSS W.5.4, W.5.5)
+- **Hook:** "Our class anthology: *Tales of Childhood*, Year 5 edition."
+- **Key activity:** Final edits and publication; each pupil writes a short "writer's note" explaining one choice (voice, structure, detail). Short reading check: identify features of memoir in an unseen extract.
+- **Check for understanding:** "In your writer's note, which choice are you proudest of, and what effect does it have on the reader?" → A specific choice and its intended effect.
+- **Differentiation:** support: writer's note sentence stems / stretch: write a preface for the class anthology in Dahl's style.
+- **Materials:** drafts, publishing materials, unseen extract.
+- **Joy:** anthology launch with families invited to read.
+
+**End-of-unit check:** Pupil publishes a memoir chapter with a clear first-person voice, a reflective ending, correctly punctuated dialogue and parenthesis; explains one difference between autobiography and biography.
+
+---
+
+## Unit 9 — Poetry from around the world
+
+**Essential question:** How do poets from different places and times use a few words to say something that matters?
+
+**Key vocabulary:** free verse, rhyme, refrain, metaphor, imagery, tone, voice, dialect, Standard English, performance poetry, structure, enjambment, stanza, compare, contrast
+
+### Lesson 100 — Langston Hughes: "I, Too"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a poet uses one everyday situation as a metaphor for injustice and hope." (UK NC Y6 reading — poetry / CCSS RL.5.4)
+- **Hook:** "'They send me to eat in the kitchen / When company comes.' Who is 'they', and why does it matter?"
+- **Key activity:** Read "I, Too" by Langston Hughes (Harlem Renaissance, USA, 1926), recalling his "Dreams" (Year 3) and "April Rain Song" (Year 4). Unpick the central image of the "darker brother" sent to the kitchen, the speaker's response (he laughs, eats well and grows strong) and the prediction that tomorrow he will sit at the table. Link to segregation in the USA at the time.
+- **Check for understanding:** "What does being sent to eat in the kitchen stand for, and how does the speaker's attitude change by 'Tomorrow'?" → It stands for Black Americans being shut out and treated as second-class; instead of giving up, the speaker grows strong and confident that he will take his place at the table, and that others will see he is beautiful and be ashamed — ending "I, too, am America."
+- **Differentiation:** support: picture prompts for the kitchen and the table / stretch: explain why the last line changes the first line's "I, too, sing America".
+- **Materials:** poem copies, picture cards, brief biography of Langston Hughes.
+- **Joy:** "A seat at the table" — pupils write who they would invite and why.
+
+### Lesson 101 — Rabindranath Tagore: "Where the Mind is Without Fear"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the structure of a poem (one long sentence, repeated 'where') builds its vision." (UK NC Y6 reading — poetry / CCSS RL.5.5)
+- **Hook:** "Tagore was the first non-European to win the Nobel Prize in Literature, in 1913. What kind of country did he dream of?"
+- **Key activity:** Read the poem (from *Gitanjali*); map the repeated "Where…" clauses; discuss each image (narrow domestic walls, the clear stream of reason, the dreary desert sand of dead habit). Link to India's struggle for independence.
+- **Check for understanding:** "Why might Tagore write the whole poem as one sentence building to a final line?" → The long build-up of "where" clauses creates hope and momentum, ending in the prayer for his country to awake into that freedom.
+- **Differentiation:** support: a glossary and a partially annotated copy / stretch: write two new "Where…" lines in Tagore's style for your own community.
+- **Materials:** poem copies, map of India, glossary.
+- **Joy:** "Class 'Where' poem" — every pupil contributes one line.
+
+### Lesson 102 — John Agard: "Checking Out Me History"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a performance poet uses rhythm, dialect and contrast to make a serious point." (UK NC Y6 reading & spoken language / CCSS RL.5.4, SL.5.4)
+- **Hook:** Watch a recording of John Agard (born in Guyana) performing "Checking Out Me History": "Whose history do we learn at school — and whose is left out?"
+- **Key activity:** Read the poem; identify the Caribbean-English spellings and rhythm, and the contrast between the nursery-rhyme and European figures the speaker was taught and the Caribbean and African heroes he had to find for himself (e.g. Toussaint L'Ouverture, Nanny de Maroon, Mary Seacole). Discuss when poets choose non-standard English and why that is a deliberate choice.
+- **Check for understanding:** "Why does Agard write in a spoken Caribbean voice rather than Standard English?" → The poem is about claiming his own identity and history, so writing in his own voice is part of the message; it also creates the rhythm for performance and is a deliberate artistic choice.
+- **Differentiation:** support: perform a verse with a partner using the recording as a guide / stretch: explain how the changes of rhythm between the 'taught' history and the heroes' stanzas carry the meaning.
+- **Materials:** poem copies, recording of Agard's performance, short fact cards on the heroes named, percussion.
+- **Joy:** group performances with rhythm accompaniment.
+
+### Lesson 103 — Maya Angelou: voice and refrain
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how refrains and a confident voice create a poem's tone." (UK NC Y6 reading — poetry / CCSS RL.5.4)
+- **Hook:** "What would you say to yourself if you needed courage?"
+- **Key activity:** Read Maya Angelou's "Life Doesn't Frighten Me" (USA). Identify the refrain, rhythm and tone; recall Grace Nichols's refrain poem "Give Yourself a Hug" from Year 4 and compare what each speaker wants the reader to feel.
+- **Check for understanding:** "How does the refrain 'Life doesn't frighten me at all' change in meaning as the poem goes on?" → At first it sounds like bravado against small fears; after the list of fears, it feels like determined courage — or perhaps the speaker convincing herself.
+- **Differentiation:** support: listen to recordings with the text and a tone-word bank / stretch: argue whether the speaker in Angelou's poem is truly unafraid, with evidence.
+- **Materials:** poem copies, recordings, tone-word banks.
+- **Joy:** "Courage chorus" — the class performs the refrain with different tones (whispered, defiant, joyful).
+
+### Lesson 104 — Comparing two poems
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a comparative paragraph about two poems using connectives of comparison." (UK NC Y6 reading & writing / CCSS RL.5.9, W.5.9a)
+- **Hook:** "Hughes and Angelou: both African American poets, writing decades apart. What do 'I, Too' and 'Life Doesn't Frighten Me' share?"
+- **Key activity:** Venn diagram (theme, imagery, structure, tone); model a comparative paragraph with "Similarly…", "In contrast…", "Whereas…", "Both poets…". Pupils write their own.
+- **Check for understanding:** "Give one similarity and one difference between 'I, Too' and 'Life Doesn't Frighten Me', with evidence." → e.g. both speakers refuse to be defeated; Hughes uses a single extended image (the kitchen and the table) and a calm, confident tone, Angelou uses a defiant refrain and a playful rhythm.
+- **Differentiation:** support: comparison frame with connectives / stretch: compare three poems in one paragraph.
+- **Materials:** poem copies, Venn diagrams, comparison frames.
+- **Joy:** "Poem face-off" — pairs argue which poem would be better for a school assembly.
+
+### Lesson 105 — "The Magic Box": poems of treasured things
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use a model poem to write about my own memories, heritage and hopes using specific, concrete details." (UK NC Y6 writing — poetry / CCSS W.5.3d)
+- **Hook:** Read Kit Wright's "The Magic Box" ("I will put in the box / the swish of a silk sari on a summer night…"). "What would you put in yours?"
+- **Key activity:** Notice the pattern ("I will put in the box…"), the sensory detail, the impossible images and the final stanza describing the box itself. Brainstorm concrete details: sounds, tastes, memories, sayings, places, family and heritage languages, a wish. Draft a "Magic Box" poem, choosing specific nouns over general ones. (George Ella Lyon's "Where I'm From" is studied in Year 6.)
+- **Check for understanding:** "Why is 'the swish of a silk sari on a summer night' stronger than 'a nice sound'?" → It is specific and sensory — we can hear and picture it — and the repeated s sounds imitate the swish itself; general words create no image.
+- **Differentiation:** support: a brainstorming grid with categories / stretch: include a line in a family or heritage language and explain why you placed it there.
+- **Materials:** "The Magic Box" by Kit Wright, brainstorming grids, family photos (optional), small decorated boxes.
+- **Joy:** poems folded inside hand-decorated boxes for a class 'treasure' display.
+
+### Lesson 106 — Revise poems for performance
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise a poem for sound and meaning, choosing line breaks deliberately." (UK NC Y6 writing / CCSS W.5.5)
+- **Hook:** "Where you break a line changes how it's read. Try it."
+- **Key activity:** Experiment with line breaks and enjambment in one stanza; read aloud each version. Revise the poem; prepare it for performance.
+- **Check for understanding:** "Show one line break you changed. How does it change the way the line is read aloud?" → A specific change and effect (pause, emphasis, surprise).
+- **Differentiation:** support: two alternative line-break versions to choose between / stretch: add a refrain that shifts in meaning at the end.
+- **Materials:** drafts, poems, recording device.
+- **Joy:** "Line-break lab" — hear the same words differently.
+
+### Lesson 107 — Poetry café
+- **Duration:** 45 min
+- **Objective:** "By the end, I can perform a poem with expression and discuss a classmate's poem thoughtfully." (UK NC Y6 spoken language / CCSS SL.5.4, SL.5.1)
+- **Hook:** Dim lights, café tables, finger-snapping instead of clapping.
+- **Key activity:** Pupils perform their identity poem or a world poem they love; audience responds with one specific compliment and one question.
+- **Check for understanding:** "Ask the poet one question about a choice they made (a word, a line break, an image)." → A question about a specific craft choice.
+- **Differentiation:** support: perform in pairs or with a recording / stretch: introduce your poem with context about why you chose it.
+- **Materials:** café set-up, microphone (optional), poems.
+- **Joy:** the poetry café itself — with families invited.
+
+**End-of-unit check:** Pupil writes a comparative paragraph on two poems with evidence, and performs an original poem with deliberate choices of imagery and line breaks.
+
+---
+
+## Unit 10 — *The Arrival*: reading images, writing migration stories
+
+**Essential question:** How can a story be told without any words — and what happens when we add them?
+
+**Key vocabulary:** graphic novel, panel, frame, sequence, close-up, wide shot, gutter, visual literacy, symbol, inference, migration, belonging, first person, sensory detail
+
+### Lesson 108 — Reading a wordless book
+- **Duration:** 40 min
+- **Objective:** "By the end, I can make inferences from images, justifying them with visual evidence." (UK NC Y6 reading — inference / CCSS RL.5.7)
+- **Hook:** Show the opening pages of Shaun Tan's *The Arrival*: objects on a shelf, a family packing. "What's happening? How do you know?"
+- **Key activity:** Model "I see… I think… I wonder…" with panels. Pairs read the first chapter and record inferences with page references.
+- **Check for understanding:** "What evidence in the images tells you the man is leaving for a long time?" → e.g. the packed suitcase, the family photograph, the sad faces, the goodbye at the station.
+- **Differentiation:** support: guided panels with question prompts / stretch: find a symbol that recurs and suggest what it means (e.g. the shadowy tails over the city).
+- **Materials:** *The Arrival* by Shaun Tan (copies or projected), "See–Think–Wonder" sheets.
+- **Joy:** silent reading — the room goes quiet as pupils 'read' pictures.
+
+### Lesson 109 — Panels, pace and point of view
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how panel size, sequence and viewpoint control pace and feeling." (UK NC Y6 reading — author's craft / CCSS RL.5.7)
+- **Hook:** "Why does Tan use nine small panels of clouds in a row?"
+- **Key activity:** Analyse pages: many small panels slow time (the long voyage); a full-page image stops us in wonder (the arrival city). Identify close-ups and wide shots and their effects.
+- **Check for understanding:** "Why might Tan show the new city in one huge image after many small panels?" → The sudden size creates awe and overwhelm, like the man's first sight of it.
+- **Differentiation:** support: a vocabulary card of panel terms with examples / stretch: redraw one page with different panel sizes and explain how the pace changes.
+- **Materials:** *The Arrival*, panel-term cards, blank comic grids.
+- **Joy:** "Director's cut" — pupils storyboard a moment from their own day in panels.
+
+### Lesson 110 — Stories within the story
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how other characters' stories deepen the book's themes." (UK NC Y6 reading — themes / CCSS RL.5.2)
+- **Hook:** "The people the man meets have their own reasons for leaving home. Why include them?"
+- **Key activity:** Read the chapters where other migrants tell their stories (through images). Groups each 'narrate' one embedded story and connect it to the theme of belonging.
+- **Check for understanding:** "What do the other characters' stories add to our understanding of the man's journey?" → They show migration happens for many reasons (war, danger, hope) and that the man is not alone.
+- **Differentiation:** support: key pages marked and a story frame / stretch: link one embedded story to a real historical event and justify the link.
+- **Materials:** *The Arrival*, story frames.
+- **Joy:** groups 'narrate' their embedded story live over projected images.
+
+### Lesson 111 — Vocabulary: shades of feeling
+- **Duration:** 35 min
+- **Objective:** "By the end, I can choose precise words for complex emotions." (UK NC Y6 vocabulary / CCSS L.5.5c)
+- **Hook:** "'Sad' and 'happy' aren't enough to describe this face. What words are?"
+- **Key activity:** Build emotion clines (uneasy → apprehensive → terrified; content → elated → euphoric; confused → bewildered → disoriented). Match words to panels and justify.
+- **Check for understanding:** "Which word fits the man's face in the city best: 'bewildered', 'furious' or 'bored'? Why?" → 'Bewildered': everything is strange and he doesn't understand it, as the images show.
+- **Differentiation:** support: three clines with picture support / stretch: explain the difference between 'nostalgic' and 'homesick'.
+- **Materials:** emotion-cline cards, *The Arrival* panels, thesauruses.
+- **Joy:** "Emotion charades" using only faces.
+
+### Lesson 112 — Plan: putting words to the pictures
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a first-person narrative of one chapter of *The Arrival*." (UK NC Y6 writing / CCSS W.5.3a)
+- **Hook:** "What was the man thinking as the ship arrived?"
+- **Key activity:** Pupils choose a sequence of panels and plan a first-person narrative: what he sees, hears, feels and remembers; where to use short and long sentences.
+- **Check for understanding:** "Which panel will be the emotional high point of your narrative, and how will your sentences change there?" → A named panel and planned techniques (short sentences, sensory detail).
+- **Differentiation:** support: a sequence of 4 panels pre-chosen with a planning grid / stretch: include a memory of home that interrupts the present (a flashback).
+- **Materials:** *The Arrival*, planning grids, printed panel sequences.
+- **Joy:** pupils pick their own panel sequence like choosing a film scene.
+
+### Lesson 113 — Draft the narrative
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write a first-person narrative with sensory detail, varied sentence openings and a clear emotional arc." (UK NC Y6 writing / CCSS W.5.3b, W.5.3d)
+- **Hook:** "Make your reader feel the strangeness of a new world."
+- **Key activity:** Draft with the panels in front of them; include at least one semicolon or colon where it helps; vary sentence openings (adverbials, -ed clauses, -ing clauses).
+- **Check for understanding:** "Find three sentences with different kinds of opening. How does the variety help the reader?" → Three different openings; variety keeps the rhythm interesting and emphasises different details.
+- **Differentiation:** support: sentence-opening prompt cards / stretch: write sections in present tense for immediacy and explain the choice.
+- **Materials:** panels, drafts, sentence-opening cards.
+- **Joy:** drafts are later read aloud over the projected panels.
+
+### Lesson 114 — Revise, edit and perform with images
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise my narrative for effect and perform it alongside the images." (UK NC Y6 writing & spoken language / CCSS W.5.5, SL.5.5)
+- **Hook:** "Words + pictures: do they repeat each other or add something new?"
+- **Key activity:** Revise so the words add thoughts and feelings the images can't show (not just describe the picture). Edit. Perform with projected panels.
+- **Check for understanding:** "Show a sentence that tells us something the picture alone can't. What does it add?" → e.g. a memory, a thought, a smell — information beyond the visual.
+- **Differentiation:** support: revision focused on two sentences / stretch: add a final line that connects to the theme of belonging.
+- **Materials:** drafts, projector, editing checklist.
+- **Joy:** a "silent film with narration" screening.
+
+### Lesson 115 — Unit 10 check and Term 2 review
+- **Duration:** 40 min
+- **Objective:** "By the end, I can reflect on my Term 2 reading and writing and show my visual inference skills." (UK NC Y6 — assessment and retrieval / CCSS RL.5.7)
+- **Hook:** "Three books, one theme: journeys. What did each teach you?"
+- **Key activity:** Short visual-inference task on an unseen page of *The Arrival*; then a Term 2 reflection comparing *A Long Walk to Water*, *Boy* and *The Arrival*; set targets for Term 3.
+- **Check for understanding:** "What do the man in *The Arrival* and Salva have in common, and how are their stories told differently?" → Both leave home and struggle to belong; Salva's is told in words based on a true story, the man's through wordless images.
+- **Differentiation:** support: guided comparison grid / stretch: write a comparative paragraph on how the three books show journeys.
+- **Materials:** unseen page, reflection sheets, Term 2 books.
+- **Joy:** "Journey jar" — pupils add one thing they've learned about journeys this term.
+
+**End-of-unit check:** Pupil makes three justified inferences from an unseen page of images and writes a first-person narrative that adds thought and feeling beyond what the images show.
+
+---
+
+## Unit 11 — *Skellig*: literary fiction and analysis
+
+**Essential question:** How does a writer use symbols and mystery to explore big questions like life, love and hope?
+
+**Key vocabulary:** literary fiction, symbol, symbolism, motif, ambiguity, magical realism, first-person narrator, mood, atmosphere, ellipsis, fragment, thesis, analysis, embedded quotation, academic register
+
+### Lesson 116 — "I found him in the garage on a Sunday afternoon"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how an opening line and first chapter create mystery." (UK NC Y6 reading / CCSS RL.5.1, RL.5.5)
+- **Hook:** Read only the first sentence of David Almond's *Skellig*. "Found who? Why a garage? What questions do you have?"
+- **Key activity:** Read chapter 1 aloud. Pupils list every question the opening raises; discuss how Almond withholds information and how the narrator's plain voice makes strange things feel real.
+- **Check for understanding:** "Why doesn't Almond describe Skellig fully at the start?" → To create mystery and suspense; the reader, like Michael, has to work out what he is.
+- **Differentiation:** support: question stems ("I wonder who…", "Why would…") / stretch: compare Almond's opening with Palacio's in *Wonder* — how does each hook the reader?
+- **Materials:** class copies of *Skellig* by David Almond, question wall.
+- **Joy:** a "question wall" that the class returns to as mysteries are solved.
+
+### Lesson 117 — Michael's world
+- **Duration:** 40 min
+- **Objective:** "By the end, I can infer a narrator's feelings from what he notices and avoids saying." (UK NC Y6 reading — inference / CCSS RL.5.6)
+- **Hook:** "Michael talks a lot about the garage and very little about his baby sister. Why?"
+- **Key activity:** Read the chapters about the new house and the baby's illness. Discuss how Michael's worries show through actions and objects. Pupils annotate for 'unspoken' feelings.
+- **Check for understanding:** "What does Michael's behaviour at school suggest about how he feels about the baby?" → He's distracted and anxious; he can't concentrate because he's worried she might die, even if he doesn't say so directly.
+- **Differentiation:** support: guided annotation with prompts / stretch: explain how Almond uses the first-person narrator to hide and reveal feelings at the same time.
+- **Materials:** *Skellig*, annotation sheets.
+- **Joy:** "Inner voice" — pupils write the thought bubble Michael never says out loud.
+
+### Lesson 118 — Who — or what — is Skellig?
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use evidence to argue for different interpretations of a mysterious character." (UK NC Y6 reading / CCSS RL.5.1, RL.5.3)
+- **Hook:** "He eats bluebottles, wants Chinese takeaway 27 and 53, and has something strange under his jacket."
+- **Key activity:** Evidence hunt for three interpretations (a homeless man, an angel, a creature between human and bird). Groups build a case for each and present.
+- **Check for understanding:** "Which interpretation do you find most convincing, and what is your strongest piece of evidence?" → An interpretation with a specific quotation or detail.
+- **Differentiation:** support: evidence cards to sort into the three interpretations / stretch: argue why Almond might want the question to stay open.
+- **Materials:** *Skellig*, evidence cards, presentation sheets.
+- **Joy:** "Skellig trial" — the class hears the evidence and delivers a verdict.
+
+### Lesson 119 — Mina, birds and seeing clearly
+- **Duration:** 40 min
+- **Objective:** "By the end, I can analyse how a secondary character influences the protagonist and introduces key ideas." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "Mina says school stops people from seeing and thinking for themselves. Do you agree?"
+- **Key activity:** Read the chapters introducing Mina (home-schooled, drawing birds, loving the poetry of William Blake). Track how she changes the way Michael looks at the world.
+- **Check for understanding:** "How does Mina change Michael? Give evidence of one thing he starts to notice because of her." → He begins to observe nature closely (the blackbirds, the owls), asks questions and imagines more freely.
+- **Differentiation:** support: before/after chart for Michael with prompts / stretch: debate Mina's views on school with evidence from the book and your own experience.
+- **Materials:** *Skellig*, bird field guide, sketchbooks.
+- **Joy:** outdoor bird-watching and sketching, as Mina does.
+
+### Lesson 120 — Sentence studio: ellipsis and fragments for effect
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use ellipsis and deliberate fragments for effect, and know when full sentences are needed." (UK NC Y6 punctuation / CCSS L.5.3a)
+- **Hook:** "Find a sentence in *Skellig* that trails off or stops short of being a full sentence. Why would a writer do that on purpose?"
+- **Key activity:** Find examples of ellipsis and short fragments in *Skellig*; discuss effect (hesitation, mystery, thought trailing off). Rewrite a plain paragraph using one ellipsis and one fragment deliberately — and explain why formal essays should avoid them.
+- **Check for understanding:** "Why would a fragment like 'Silence.' work in a story but not in your research report?" → In narrative it creates mood and emphasis; formal non-fiction needs complete sentences for clarity.
+- **Differentiation:** support: choose the best place for an ellipsis in three sentences / stretch: write a suspense paragraph with exactly one ellipsis and one fragment, and justify both.
+- **Materials:** *Skellig* extracts, mini-whiteboards.
+- **Joy:** "Cliffhanger radio" — read sentences aloud, pausing dramatically at the ellipsis.
+
+### Lesson 121 — Symbols: wings, owls and the heart
+- **Duration:** 40 min
+- **Objective:** "By the end, I can identify symbols in a novel and explain what they might represent." (UK NC Y6 reading — themes / CCSS RL.5.2)
+- **Hook:** "In *Skellig*, a character says our shoulder blades are where our wings used to be. What might wings stand for in this story?"
+- **Key activity:** Track symbols (wings, birds, the baby's heart, the owls, the garage) on a symbol map with quotations; discuss possible meanings (freedom, life, hope, love).
+- **Check for understanding:** "What might Skellig's wings symbolise in a story about a baby who is fighting to live?" → Hope, the spirit, the possibility of recovery or of something beyond the ordinary — a strong connection between life and flight.
+- **Differentiation:** support: symbol map with suggested meanings to match / stretch: find a symbol that connects Skellig and the baby and explain the link.
+- **Materials:** *Skellig*, symbol-map templates.
+- **Joy:** create a "symbol shield" — pupils design a personal emblem with symbols that represent them.
+
+### Lesson 122 — William Blake: "The Tyger"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a poem uses questions and imagery to create a sense of awe." (UK NC Y6 reading — poetry / CCSS RL.5.4)
+- **Hook:** "Mina loves William Blake. Let's meet one of his most famous poems."
+- **Key activity:** Read "The Tyger" (from *Songs of Experience*, 1794). Map the questions; discuss "fearful symmetry" and the imagery of fire and the forge. Link: why might Mina, and Almond, love a poet who asks big questions about creation?
+- **Check for understanding:** "Why does Blake ask questions instead of giving answers?" → The questions show wonder and awe at a creation too amazing and frightening to explain.
+- **Differentiation:** support: glossary and a partially annotated copy / stretch: compare "The Tyger" with "The Lamb" (*Songs of Innocence*).
+- **Materials:** "The Tyger" by William Blake, glossary, images of Blake's illuminated printing.
+- **Joy:** illuminate a verse in Blake's style — text and picture on one page.
+
+### Lesson 123 — Vocabulary: scientific roots in *Skellig*
+- **Duration:** 35 min
+- **Objective:** "By the end, I can use Greek and Latin roots to understand scientific words such as ossification, archaeopteryx and evolution." (UK NC Y6 vocabulary / CCSS L.5.4b)
+- **Hook:** "Mina says 'ossification'. What might it mean if 'os' is Latin for bone?"
+- **Key activity:** Roots: *os/oss* (bone), *archaeo* (ancient), *pteryx* (wing), *evolvere* (to unroll), *bio*, *logy*. Decode words from the novel and science; build word webs.
+- **Check for understanding:** "Using its roots, explain why 'archaeopteryx' is a good name for the fossil creature." → 'Ancient wing' — it was an ancient animal with feathered wings, linking dinosaurs and birds.
+- **Differentiation:** support: 4 roots with pictures / stretch: find the roots of 'pterodactyl' ('wing' + 'finger') and explain.
+- **Materials:** root cards, science picture cards, dictionaries.
+- **Joy:** "Name a new species" using Greek and Latin roots, with a drawing.
+
+### Lesson 124 — Spelling: the Y5/6 word list (4)
+- **Duration:** 35 min
+- **Objective:** "By the end, I can spell ten more list words and use them in sentences about the novel." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "'Mischievous' — how many people say it with an extra syllable?"
+- **Key activity:** Words: ancient, curiosity, desperate, especially, existence, individual, interrupt, mischievous, physical, prejudice. Pronunciation traps (mis-chie-vous, not mis-chee-vee-ous), word families (curious → curiosity drops the 'u'), mnemonics.
+- **Check for understanding:** "Why is 'curiosity' spelled without the 'u' of 'curious'?" → When -ity is added, the 'ou' changes to 'o' — a pattern to learn (like generous → generosity).
+- **Differentiation:** support: six words with mnemonics / stretch: find other -ous → -osity pairs.
+- **Materials:** word cards, spelling journals.
+- **Joy:** "Mischievous spellings" — a silly story using all ten words.
+
+### Lesson 125 — Ambiguity: the reader decides
+- **Duration:** 40 min
+- **Objective:** "By the end, I can discuss how an author leaves some things unexplained and why." (UK NC Y6 reading / CCSS RL.5.2, SL.5.1)
+- **Hook:** "Is it annoying or brilliant when an author refuses to explain?"
+- **Key activity:** Philosophy for Children-style enquiry: pupils generate questions about the book (e.g. "Can love heal?", "What makes something real?"), vote on one and discuss it with reasons, building on each other.
+- **Check for understanding:** "Give one reason Almond might leave Skellig's identity unexplained, and one reason a reader might wish he hadn't." → e.g. it keeps the wonder and lets readers decide; but some readers want certainty and a clear answer.
+- **Differentiation:** support: enquiry sentence stems ("I agree/disagree because…") / stretch: act as the enquiry facilitator, summarising different views.
+- **Materials:** *Skellig*, enquiry question cards, talking object.
+- **Joy:** a class philosophical enquiry circle.
+
+### Lesson 126 — The climax and resolution
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the climax brings together the main threads of the novel." (UK NC Y6 reading — structure / CCSS RL.5.5)
+- **Hook:** "The baby's operation and a strange dance at night. How do the two connect?"
+- **Key activity:** Read the final chapters. Map the threads (Skellig's health, the baby's heart, Michael and Mina's friendship) and show where they meet. Discuss the ending and the baby's name.
+- **Check for understanding:** "How does the ending link Skellig's recovery with the baby's?" → Both are weak and then grow strong; Michael's mother dreams of a figure holding the baby, suggesting Skellig helped.
+- **Differentiation:** support: a thread map with key events provided / stretch: explain whether the ending is realistic, magical or both, with evidence.
+- **Materials:** *Skellig*, thread-map templates.
+- **Joy:** "Best moment" vote with a quick illustrated favourite scene.
+
+### Lesson 127 — Planning a literary essay
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan an analytical essay with a thesis and three supporting points." (UK NC Y6 writing / CCSS W.5.1a, W.5.9a)
+- **Hook:** "Essay question: How does David Almond use symbols to show hope in *Skellig*?"
+- **Key activity:** Teach thesis statements (a clear answer that can be argued); pupils plan an introduction, three PEE paragraphs (each with a quotation) and a conclusion.
+- **Check for understanding:** "Is 'Skellig is a book about a boy' a thesis? Why not?" → No: it's a fact, not an arguable claim that answers the question.
+- **Differentiation:** support: a choice of three thesis statements and a structured planner / stretch: plan a paragraph that considers an alternative interpretation.
+- **Materials:** essay planners, *Skellig*, quotation bank.
+- **Joy:** "Thesis auction" — pupils 'bid' for the strongest thesis statement.
+
+### Lesson 128 — Drafting: embedding quotations
+- **Duration:** 45 min
+- **Objective:** "By the end, I can embed short quotations smoothly in my own sentences and explain their effect." (UK NC Y6 writing / CCSS W.5.9a)
+- **Hook:** Compare two ways of using the same quotation from *Wonder*: 'Auggie says, "I know I'm not an ordinary ten-year-old kid." This shows he is different.' and 'Auggie's confident claim that he is "not an ordinary" child immediately suggests someone who has learned to name his difference before others can.' Which is stronger?
+- **Key activity:** Model embedding short quotations; pupils draft the introduction and body paragraphs, zooming in on single words.
+- **Check for understanding:** "Show one embedded quotation and the word you zoomed in on. What does that word suggest?" → An embedded quotation with a focused explanation of one word's connotation.
+- **Differentiation:** support: paragraph frames and a quotation bank / stretch: include two quotations in one paragraph and link them.
+- **Materials:** planners, drafts, quotation bank.
+- **Joy:** "Word zoom" — enlarge a single word on the board and brainstorm its connotations.
+
+### Lesson 129 — Drafting: conclusions and academic register
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a conclusion that answers the question and use an academic register throughout." (UK NC Y6 writing / CCSS W.5.1d)
+- **Hook:** "A conclusion is not 'The end'. What should it do?"
+- **Key activity:** Teach conclusions that revisit the thesis, bring points together and suggest wider meaning. Check register: third person, tentative language ('suggests', 'perhaps', 'could represent'), no slang.
+- **Check for understanding:** "Why do literary critics use words like 'suggests' and 'may' instead of 'proves'?" → Interpretations can be argued, not proven; tentative language shows awareness of other readings.
+- **Differentiation:** support: conclusion frame / stretch: end with a sentence linking the novel's message to the wider world.
+- **Materials:** drafts, academic-language word bank.
+- **Joy:** "Critic's voice" — read a sentence aloud in your most distinguished critic's voice.
+
+### Lesson 130 — Revise and edit the essay
+- **Duration:** 40 min
+- **Objective:** "By the end, I can revise my essay for argument and evidence, and edit for accuracy." (UK NC Y6 writing / CCSS W.5.5)
+- **Hook:** "Would your essay convince someone who disagrees?"
+- **Key activity:** Partner review against a success checklist (thesis, evidence, explanation, cohesion, register); make three revisions; edit spelling (including list words) and punctuation.
+- **Check for understanding:** "Where does your essay link one paragraph to the next? What cohesive device did you use?" → A named link sentence or adverbial.
+- **Differentiation:** support: a shortened checklist and teacher conference / stretch: add a counter-argument paragraph.
+- **Materials:** drafts, checklists, editing pens.
+- **Joy:** essays are bound into a "Critics' Corner" collection for the library.
+
+### Lesson 131 — Unit 11 mastery check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can show I can analyse a literary text independently." (UK NC Y6 reading — assessment / CCSS RL.5.1–6)
+- **Hook:** "An unseen passage from *Skellig*. What can you find?"
+- **Key activity:** Independent task: questions on an unseen extract (inference, a word's effect, symbolism, structure), then one analytical paragraph with an embedded quotation.
+- **Check for understanding:** "How does the writer create an atmosphere of mystery in this passage? Refer to two words or phrases." → A developed answer quoting two phrases and explaining their effect.
+- **Differentiation:** support: questions read aloud and a paragraph frame / stretch: compare the passage's atmosphere with the opening of *The Breadwinner*.
+- **Materials:** unseen extract, task sheet.
+- **Joy:** pupils write a "blurb for a future reader" to go inside the class copies.
+
+**End-of-unit check:** Pupil writes a planned literary essay with a thesis, embedded quotations, explanations of word choice and a conclusion in an academic register.
+
+---
+
+## Unit 12 — *The Tempest*: Shakespeare, drama and performance
+
+**Essential question:** Why do people still perform a play written over 400 years ago?
+
+**Key vocabulary:** play, act, scene, playwright, stage direction, soliloquy, aside, dramatic irony, iambic pentameter, archaic, exposition, protagonist, forgiveness, freedom, power, script, rehearse, block
+
+### Lesson 132 — Shakespeare's world and a storm
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe the context of Shakespeare's theatre and predict the play from its opening." (UK NC Y6 reading — context / CCSS RL.5.7)
+- **Hook:** Create a storm with body percussion (rubbing hands, clicking, thighs, stamping), then reveal: "This is how *The Tempest* begins."
+- **Key activity:** Short context input: Shakespeare (1564–1616), the Globe Theatre, performances in daylight with few props, *The Tempest* written around 1610–11. Read the play's summary in a quality retelling.
+- **Check for understanding:** "Shakespeare's audience had no special effects. How did he create a storm on stage?" → Through the actors' shouting, action and language describing the storm, plus simple sound effects.
+- **Differentiation:** support: a picture timeline of Shakespeare's life / stretch: research one fact about the Globe and explain how it affected performances.
+- **Materials:** a quality retelling (e.g. Leon Garfield's *Shakespeare Stories* or Marcia Williams's *Mr William Shakespeare's Plays*), images of the Globe, drama space.
+- **Joy:** the body-percussion storm.
+
+### Lesson 133 — The story and its characters
+- **Duration:** 40 min
+- **Objective:** "By the end, I can retell the plot of *The Tempest* and map the relationships between characters." (UK NC Y6 reading / CCSS RL.5.2–3)
+- **Hook:** "A magician, his daughter, a spirit, a 'monster', a shipwrecked king: how are they all connected?"
+- **Key activity:** Read the retelling. Build a character map (Prospero, Miranda, Ariel, Caliban, Antonio, Alonso, Ferdinand, Trinculo, Stephano) with arrows showing relationships and conflicts.
+- **Check for understanding:** "Why does Prospero cause the storm?" → To bring his enemies — his brother Antonio, who stole his dukedom of Milan, and Alonso, King of Naples, who helped — to the island.
+- **Differentiation:** support: a character-map template with pictures / stretch: identify which relationships change by the end of the play and how.
+- **Materials:** retelling, character-map templates, character picture cards.
+- **Joy:** "Human character map" — pupils wear name cards and hold ribbons showing relationships.
+
+### Lesson 134 — Performing the storm scene
+- **Duration:** 40 min
+- **Objective:** "By the end, I can perform a short scene from the original text, using voice and movement to show meaning." (UK NC Y6 spoken language / CCSS SL.5.4, RL.5.5)
+- **Hook:** "'We split, we split!' — what's happening to the ship?"
+- **Key activity:** Read an edited version of Act 1 Scene 1; decode unfamiliar words; groups rehearse and perform with movement and sound effects.
+- **Check for understanding:** "How does the language of the scene (short cries, commands) show panic?" → Short exclamations and orders show urgency, fear and chaos.
+- **Differentiation:** support: shorter lines and a glossary / stretch: play the Boatswain, whose rudeness to the nobles shows who really matters in a storm.
+- **Materials:** edited Act 1 Scene 1 scripts, glossary, percussion, fabric for waves.
+- **Joy:** full-class storm performance.
+
+### Lesson 135 — Prospero and Miranda: telling the backstory
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how a playwright uses dialogue to tell the audience what happened before the play began." (UK NC Y6 reading — structure / CCSS RL.5.5)
+- **Hook:** "Miranda has lived on the island since she was a little child. What does she not know?"
+- **Key activity:** Read a short edited extract of Act 1 Scene 2 in which Prospero tells Miranda how they came to the island. Discuss exposition; pupils summarise the backstory as a timeline.
+- **Check for understanding:** "Why does Shakespeare have Prospero tell the story to Miranda rather than to the audience directly?" → It feels natural (she doesn't know), and her reactions help the audience feel the injustice.
+- **Differentiation:** support: a modern-English parallel text / stretch: find where Prospero keeps checking Miranda is listening, and explain what this reveals about him.
+- **Materials:** edited extract with parallel modern text, timeline template.
+- **Joy:** "Storyteller's chair" — pupils retell the backstory as Prospero to a partner.
+
+### Lesson 136 — Ariel and Caliban: power and freedom
+- **Duration:** 40 min
+- **Objective:** "By the end, I can compare two characters and discuss different interpretations of their situations." (UK NC Y6 reading / CCSS RL.5.3, RL.5.9)
+- **Hook:** "'This island's mine, by Sycorax my mother.' Is Caliban right?"
+- **Key activity:** Compare Ariel (who wants freedom and is promised it) and Caliban (who claims the island was his). Discuss, age-appropriately, how modern productions sometimes explore the play's links to colonisation. Pupils write a short argument on who deserves the island.
+- **Check for understanding:** "How are Ariel and Caliban similar and different in how they react to Prospero's power?" → Both want freedom; Ariel serves willingly for a promised release, Caliban resents and resists Prospero.
+- **Differentiation:** support: comparison grid with quotations provided / stretch: consider the play from Caliban's point of view and write a paragraph defending him.
+- **Materials:** extracts, comparison grids.
+- **Joy:** "Island court" — Caliban and Prospero present their claims; the class jury decides.
+
+### Lesson 137 — Shakespeare's language: rhythm and insults
+- **Duration:** 35 min
+- **Objective:** "By the end, I can hear the rhythm of iambic pentameter and explain how Shakespeare's word choices create character." (UK NC Y6 reading / CCSS RL.5.4)
+- **Hook:** "Da-DUM da-DUM da-DUM da-DUM da-DUM. It's the rhythm of a heartbeat — and of most of Shakespeare's verse."
+- **Key activity:** Clap iambic lines; notice that noble characters often speak in verse and comic characters often in prose. Explore Shakespearean compound insults from the play and invent (kind) new ones.
+- **Check for understanding:** "Why might Shakespeare give Stephano and Trinculo prose but Prospero verse?" → Verse sounds elevated and suits powerful or serious characters; prose suits comic, ordinary characters.
+- **Differentiation:** support: clap along with lines already marked with stresses / stretch: write two lines of your own in iambic pentameter.
+- **Materials:** line cards marked with stresses, insult word lists (from the play).
+- **Joy:** "Shakespearean compliment battle" — invent grand compound compliments.
+
+### Lesson 138 — "Be not afeard; the isle is full of noises"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can analyse how imagery in a speech reveals an unexpected side of a character." (UK NC Y6 reading — poetry and drama / CCSS RL.5.4)
+- **Hook:** "The 'monster' Caliban speaks one of the most beautiful speeches in the play. Why?"
+- **Key activity:** Read Caliban's speech about the island's sounds and dreams. Annotate imagery (sounds and sweet airs, a thousand twangling instruments, clouds opening to show riches) and discuss what it reveals about him.
+- **Check for understanding:** "What does this speech reveal about Caliban that challenges the idea that he is simply a monster?" → He loves the island, notices beauty and has dreams — he is sensitive and human, not just savage.
+- **Differentiation:** support: a modern parallel version / stretch: compare how the speech changes your view of Caliban with how others in the play describe him.
+- **Materials:** speech copies, parallel text, soundscape instruments.
+- **Joy:** a soundscape performance of the speech.
+
+### Lesson 139 — Vocabulary: archaic words and how English changes
+- **Duration:** 35 min
+- **Objective:** "By the end, I can translate archaic words and explain how English has changed over 400 years." (UK NC Y6 vocabulary / CCSS L.5.3b)
+- **Hook:** "'Wherefore art thou?' does not mean 'where are you?' So what does it mean?"
+- **Key activity:** Translate thee/thou/thy, art, hath, doth, wherefore ('why'), ere, anon, afeard; discuss how languages change over time; compare with pupils' other languages that have formal and informal 'you' (e.g. French tu/vous, Spanish tú/usted).
+- **Check for understanding:** "Why would a character say 'thou' to one person and 'you' to another?" → 'Thou' was used for close friends, family or social inferiors; 'you' was more formal — the choice showed the relationship.
+- **Differentiation:** support: a glossary to use while translating / stretch: rewrite a short modern conversation in Shakespearean English.
+- **Materials:** archaic-word glossary, extracts, language comparison cards.
+- **Joy:** "Speak like Shakespeare" — conduct morning greetings in Early Modern English.
+
+### Lesson 140 — "O brave new world": dramatic irony
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain dramatic irony and its effect on an audience." (UK NC Y6 reading — drama / CCSS RL.5.5)
+- **Hook:** "Miranda sees the shipwrecked lords and says 'O brave new world that has such people in't!' — but we know some of them are villains."
+- **Key activity:** Define dramatic irony (the audience knows something a character does not). Read the line in context and other examples in the play (Ferdinand thinks his father is drowned). Discuss how the audience feels.
+- **Check for understanding:** "Why is Miranda's 'brave new world' line ironic?" → She thinks these people are wonderful, but the audience knows some of them (like Antonio) plotted terrible things.
+- **Differentiation:** support: two scenes with the irony explained, then one to identify / stretch: find dramatic irony in a book or film you know and explain it.
+- **Materials:** extracts, irony example cards.
+- **Joy:** "Audience knows" — act out a scene where the class is in on a secret the actor doesn't know.
+
+### Lesson 141 — Forgiveness: "The rarer action is in virtue than in vengeance"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how the play's ending develops its theme of forgiveness." (UK NC Y6 reading — themes / CCSS RL.5.2)
+- **Hook:** "Prospero has his enemies in his power. What would you do?"
+- **Key activity:** Read the key lines from Act 5 in which Prospero chooses forgiveness, frees Ariel and gives up his magic. Discuss: is forgiveness strength or weakness? Link to *A Long Walk to Water* and *The Breadwinner*.
+- **Check for understanding:** "What does Prospero mean by 'the rarer action is in virtue than in vengeance'?" → It is nobler, and less common, to forgive than to take revenge.
+- **Differentiation:** support: a modern-English version of the lines and a discussion frame / stretch: evaluate whether Antonio deserves forgiveness, using the fact that he never says sorry.
+- **Materials:** Act 5 extract, parallel text, discussion cards.
+- **Joy:** "Revenge or forgive?" — a conscience alley for Prospero's big decision.
+
+### Lesson 142 — Writing a scene: play-script conventions
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write an original scene using play-script conventions and stage directions." (UK NC Y6 writing / CCSS W.5.3b)
+- **Hook:** "What happens to Ariel on the first day of freedom?"
+- **Key activity:** Teach script layout (character names in the margin, no speech marks, stage directions in italics or brackets in the present tense). Pupils write a new scene, e.g. Ariel's first day free, or Caliban alone on the island after the others leave.
+- **Check for understanding:** "Why don't play scripts use speech marks, and why are stage directions in the present tense?" → The character's name shows who speaks; stage directions are instructions for what happens now, on stage.
+- **Differentiation:** support: a script template with the first exchange written / stretch: include a soliloquy (a character alone, speaking thoughts) of at least six lines.
+- **Materials:** script templates, extracts for modelling.
+- **Joy:** scenes swapped and read aloud by other groups on the spot.
+
+### Lesson 143 — Rehearsal: directing and blocking
+- **Duration:** 40 min
+- **Objective:** "By the end, I can work in a group to rehearse a scene, making and explaining directing choices." (UK NC Y6 spoken language / CCSS SL.5.1b)
+- **Hook:** "A director's job is to make choices. Where will each actor stand, move and look?"
+- **Key activity:** Groups choose one pupil-written scene or an edited Shakespeare scene. Rotate the director role; plan blocking (movement on stage), voice and pauses; rehearse.
+- **Check for understanding:** "Explain one directing choice your group made and why it helps the audience understand the scene." → A specific choice (e.g. Caliban kneels when speaking of the island) and its intended meaning.
+- **Differentiation:** support: a small role with a script in hand / stretch: direct the group and write a director's note for the programme.
+- **Materials:** scripts, simple props and costumes, stage area.
+- **Joy:** the rehearsal itself — with a "director's chair".
+
+### Lesson 144 — Performance
+- **Duration:** 45 min
+- **Objective:** "By the end, I can perform a scene to an audience with clear voice, expression and awareness of other actors." (UK NC Y6 spoken language / CCSS SL.5.4, SL.5.6)
+- **Hook:** "The house lights dim…"
+- **Key activity:** Performances to another class or families. Audience feedback: one moment that worked and why.
+- **Check for understanding:** "Which moment in your performance best showed the character's feelings, and how did you show it?" → A named moment with voice, movement or facial expression explained.
+- **Differentiation:** support: perform in a chorus or with a smaller role / stretch: perform a memorised speech (e.g. Caliban's "Be not afeard" or Prospero's "We are such stuff as dreams are made on").
+- **Materials:** stage area, costumes, props, programmes.
+- **Joy:** a real performance for an audience.
+
+### Lesson 145 — Unit 12 mastery check
+- **Duration:** 40 min
+- **Objective:** "By the end, I can show my understanding of the play's characters, language and themes." (UK NC Y6 reading — assessment / CCSS RL.5.2–5)
+- **Hook:** "'We are such stuff as dreams are made on.' What does Prospero mean — and what do you think?"
+- **Key activity:** Independent task: explain an extract's meaning and one technique; a PEE paragraph on forgiveness or freedom; reflection on why the play is still performed.
+- **Check for understanding:** "Why do you think *The Tempest* is still performed today? Give two reasons linked to the play." → e.g. timeless themes (forgiveness, freedom, power), memorable characters and language, and questions about who owns a land that still matter.
+- **Differentiation:** support: parallel text and paragraph frame / stretch: compare Prospero's and Skellig's roles as mysterious helpers.
+- **Materials:** extract, task sheet, parallel text.
+- **Joy:** each pupil chooses a favourite line to write on the class "Tempest wall".
+
+**End-of-unit check:** Pupil writes an original play scene with correct script conventions, performs a role with expression, and explains the theme of forgiveness in a PEE paragraph with a quotation.
+
+---
+
+## Unit 13 — Independent research project
+
+**Essential question:** How do I find out something new, check it is true, and share it clearly?
+
+**Key vocabulary:** research question, source, primary source, secondary source, reliable, bias, skim, scan, notes, paraphrase, quotation, plagiarism, cite, bibliography, sub-heading, caption, conclusion, presentation
+
+### Lesson 146 — Choosing a research question
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a focused, open research question that I can answer with sources." (UK NC Y6 writing — research / CCSS W.5.7)
+- **Hook:** "'Animals' is a topic. 'How do octopuses change colour?' is a question. What's the difference?"
+- **Key activity:** From topics in this year's science, history and geography, pupils brainstorm, narrow and test questions (Is it open? Can I find sources? Is it interesting?). Teacher approves each question.
+- **Check for understanding:** "Why is 'What year did the Titanic sink?' a poor research question?" → It's closed with a one-word answer; research questions need explanation and several sources.
+- **Differentiation:** support: a menu of research questions to adapt / stretch: add two sub-questions that together answer the main question.
+- **Materials:** question-narrowing funnel sheet, topic lists, library books.
+- **Joy:** "Question fair" — pupils pitch their questions and get curious reactions.
+
+### Lesson 147 — Finding and judging sources
+- **Duration:** 40 min
+- **Objective:** "By the end, I can find sources and judge their reliability by asking who wrote them, when and why." (UK NC Y6 reading / CCSS W.5.8, RI.5.9)
+- **Hook:** Two websites about the same animal: one from a museum, one from an anonymous blog with adverts. "Which do you trust?"
+- **Key activity:** Teach a simple reliability check (Who? When? Why? Can I check it elsewhere?). Pupils find three sources (at least one book) and rate each; distinguish primary and secondary sources.
+- **Check for understanding:** "Why should you check a surprising fact in a second source?" → A single source might be wrong or biased; confirmation makes it more reliable.
+- **Differentiation:** support: a curated source list to evaluate / stretch: find a primary source (an interview, a photograph, a letter, data) for your question.
+- **Materials:** library books, safe-search internet access, source-rating sheets.
+- **Joy:** "Source detective" badges for finding a great primary source.
+
+### Lesson 148 — Skimming, scanning and note-making
+- **Duration:** 40 min
+- **Objective:** "By the end, I can skim for gist, scan for key facts and make organised notes." (UK NC Y6 reading / CCSS RI.5.7, W.5.8)
+- **Hook:** "You have 2 minutes and a 10-page chapter. How do you find what you need?"
+- **Key activity:** Teach skimming (headings, first sentences) and scanning (keywords). Model two-column notes (sub-question / notes) with source labels; pupils make notes from their sources.
+- **Check for understanding:** "What's the difference between skimming and scanning, and when would you use each?" → Skimming gets the gist (to decide if a source is useful); scanning finds a specific detail.
+- **Differentiation:** support: a highlighted source and a note-making grid / stretch: use abbreviations and symbols to make notes faster, with a key.
+- **Materials:** sources, note-making grids, sticky tabs.
+- **Joy:** "Scan race" — find five facts in a text against the clock.
+
+### Lesson 149 — Paraphrasing, quoting and avoiding plagiarism
+- **Duration:** 35 min
+- **Objective:** "By the end, I can paraphrase a source in my own words and quote correctly when the exact words matter." (UK NC Y6 writing / CCSS W.5.8)
+- **Hook:** "Copying is easy. Understanding is the real work. How can you tell the difference?"
+- **Key activity:** Model paraphrasing (read, cover, write from memory, check). Practise with short passages; decide when a quotation is better (a powerful phrase, a definition, a witness's words) and punctuate it with credit.
+- **Check for understanding:** "Why is changing a few words in a copied sentence still plagiarism?" → The structure and ideas are still someone else's, presented without credit or understanding.
+- **Differentiation:** support: paraphrasing with a partner and a synonym bank / stretch: paraphrase a complex paragraph into one clear sentence.
+- **Materials:** short passages, synonym banks, mini-whiteboards.
+- **Joy:** "Paraphrase telephone" — pass a fact along the table in different words and check it survives.
+
+### Lesson 150 — Organising and planning the report
+- **Duration:** 40 min
+- **Objective:** "By the end, I can organise my notes into sections with sub-headings and plan my report." (UK NC Y6 writing / CCSS W.5.2a)
+- **Hook:** "A heap of notes isn't a report. How do you build one?"
+- **Key activity:** Sort notes into groups by sub-question; name each group as a sub-heading; order sections logically; plan introduction and conclusion.
+- **Check for understanding:** "Why does each section of your report need its own sub-heading and focus?" → It helps readers find information and keeps each section clear and cohesive.
+- **Differentiation:** support: a report skeleton with suggested sub-headings / stretch: plan a section that compares two sources that disagree.
+- **Materials:** notes, coloured sticky notes, planning sheets.
+- **Joy:** "Note sorting" with colour-coded sticky notes on a large sheet.
+
+### Lesson 151 — Primary sources: interviewing an expert
+- **Duration:** 40 min
+- **Objective:** "By the end, I can gather information from a person with expertise, using prepared questions." (UK NC Y6 spoken language / CCSS SL.5.1c, W.5.8)
+- **Hook:** "Who knows more about your topic than any website?"
+- **Key activity:** Pupils prepare questions for a real expert (a parent, a local professional, a museum educator, via video call or email arranged by the teacher) or interview a classmate who has researched a related topic; record answers accurately.
+- **Check for understanding:** "Which of your questions could only be answered by a person, not a book?" → A question about experience, opinion or very recent information.
+- **Differentiation:** support: a question bank / stretch: follow up an answer with a probing question on the spot.
+- **Materials:** interview sheets, recording devices (with permission), expert contacts.
+- **Joy:** meeting a real expert (in person or online).
+
+### Lesson 152 — Writing the introduction
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write an introduction that hooks the reader, states my question and outlines my report." (UK NC Y6 writing / CCSS W.5.2a)
+- **Hook:** "Start with a startling fact, a question or a scene. Which will you choose?"
+- **Key activity:** Compare three model introductions; pupils draft their own with a hook, context and a sentence previewing the sections.
+- **Check for understanding:** "Read your hook. Why would a reader want to continue?" → It raises curiosity or surprise linked to the question.
+- **Differentiation:** support: an introduction frame / stretch: open with a short anecdote from your interview.
+- **Materials:** model introductions, planning sheets.
+- **Joy:** "Hook-off" — the class votes on the most intriguing hooks (anonymously).
+
+### Lesson 153 — Writing the main sections
+- **Duration:** 45 min
+- **Objective:** "By the end, I can write clear, formal sections using technical vocabulary, the passive voice where appropriate, and cohesive devices." (UK NC Y6 writing / CCSS W.5.2b–d)
+- **Hook:** "Your reader knows nothing about your topic. Take them with you."
+- **Key activity:** Draft sections from notes: topic sentence, facts and explanations, technical terms explained in context, links between paragraphs.
+- **Check for understanding:** "Find a technical word in your section. How have you helped the reader understand it?" → A definition, example or context clue given in the text.
+- **Differentiation:** support: section frames with topic-sentence starters / stretch: include a paragraph that compares two ideas or sources.
+- **Materials:** notes, plans, drafts.
+- **Joy:** "Expert status" — each pupil becomes the class's go-to expert on their topic.
+
+### Lesson 154 — Visuals: diagrams, tables and captions
+- **Duration:** 40 min
+- **Objective:** "By the end, I can add visuals that add information and write precise captions." (UK NC Y6 writing — presentation / CCSS W.5.2a, RI.5.7)
+- **Hook:** "A picture is only worth a thousand words if it says something new."
+- **Key activity:** Evaluate visuals in non-fiction books (decoration vs information); create a labelled diagram, table or chart (maths link: graphs) and a caption that explains it.
+- **Check for understanding:** "What does your visual show that your words don't?" → A specific piece of information (a comparison, a process, a location).
+- **Differentiation:** support: a caption frame / stretch: create a graph from data you collected or found, citing the source.
+- **Materials:** non-fiction books, drawing materials, graph paper or spreadsheet software.
+- **Joy:** "Visual gallery" — visuals displayed for classmates to guess the topic.
+
+### Lesson 155 — Conclusion and reflection
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a conclusion that answers my research question and reflects on what I still want to know." (UK NC Y6 writing / CCSS W.5.2e)
+- **Hook:** "Did you answer your question? Did you find a better one?"
+- **Key activity:** Model a conclusion (answer the question, summarise key findings, suggest further questions). Pupils draft theirs and write a short reflection on their research process.
+- **Check for understanding:** "What is one new question your research raised, and why is that a good sign?" → A specific follow-up question; good research often reveals more to discover.
+- **Differentiation:** support: a conclusion frame / stretch: evaluate the reliability of your own sources in the reflection.
+- **Materials:** drafts, conclusion frames, reflection sheets.
+- **Joy:** "Question chain" — a display of every new question the class discovered.
+
+### Lesson 156 — Citing sources: the bibliography
+- **Duration:** 35 min
+- **Objective:** "By the end, I can list my sources in a consistent bibliography." (UK NC Y6 writing / CCSS W.5.8)
+- **Hook:** "Scientists and historians always show where their information came from. Why?"
+- **Key activity:** Teach a simple format (Author, *Title*, Publisher/Website, Year/date accessed) and alphabetical order. Pupils write their bibliographies.
+- **Check for understanding:** "Why does a bibliography make your report more trustworthy?" → Readers can check your sources and see you researched properly.
+- **Differentiation:** support: a bibliography template with example entries / stretch: include a primary source (interview) correctly.
+- **Materials:** bibliography templates, sources.
+- **Joy:** "Library detective" — check a partner's bibliography by finding one of their sources.
+
+### Lesson 157 — Peer review, revise and edit
+- **Duration:** 45 min
+- **Objective:** "By the end, I can give and use specific feedback to improve a long piece of writing." (UK NC Y6 writing / CCSS W.5.5)
+- **Hook:** "Real researchers have their work 'peer-reviewed' before it's published."
+- **Key activity:** Structured peer review with a checklist (question answered, sections focused, evidence, register, cohesion, accuracy); pupils revise and then edit carefully.
+- **Check for understanding:** "What was the most useful feedback you received, and what did you change because of it?" → A specific comment and resulting revision.
+- **Differentiation:** support: teacher conference plus a short checklist / stretch: review two classmates' reports.
+- **Materials:** drafts, peer-review checklists, editing pens.
+- **Joy:** "Peer reviewer" certificates for thoughtful feedback.
+
+### Lesson 158 — Preparing a presentation
+- **Duration:** 40 min
+- **Objective:** "By the end, I can plan a 3-minute presentation that shares my findings clearly, with visuals." (UK NC Y6 spoken language / CCSS SL.5.4, SL.5.5)
+- **Hook:** "Your report is 1,000 words. Your talk is 3 minutes. What stays?"
+- **Key activity:** Select key points; prepare cue cards and a poster or 3–5 simple slides (few words, strong visuals); rehearse with a timer and a partner.
+- **Check for understanding:** "Why should slides have few words?" → The audience should listen to you, not read; visuals support rather than repeat the talk.
+- **Differentiation:** support: a presentation structure card / stretch: prepare for audience questions by listing three likely questions and answers.
+- **Materials:** cue cards, poster paper or presentation software, timers.
+- **Joy:** rehearsal "red carpet" practice with a partner audience.
+
+### Lesson 159 — Research expo and unit check
+- **Duration:** 45 min
+- **Objective:** "By the end, I can present my research confidently and answer questions about it." (UK NC Y6 spoken language & writing — assessment / CCSS SL.5.4, W.5.7)
+- **Hook:** "Welcome to the Year 5 Research Expo."
+- **Key activity:** Pupils present to visitors (other classes, families) and answer questions; reports are assessed against the unit criteria.
+- **Check for understanding:** "A visitor asks something you didn't research. What's a good response?" → Acknowledge it honestly, say what you do know, and suggest how it could be found out.
+- **Differentiation:** support: present to a small group with cue cards / stretch: moderate a small panel discussion between presenters on linked topics.
+- **Materials:** reports, posters, slides, expo layout.
+- **Joy:** the expo itself.
+
+**End-of-unit check:** Pupil produces a researched report with a clear question, organised sections, paraphrased information from at least three sources (one primary where possible), a visual with caption, a conclusion and a bibliography; presents it for three minutes and answers questions.
+
+---
+
+## Unit 14 — Poetry of choices: Holub, Carroll and our own anthology
+
+**Essential question:** How can poems help us think about the choices ahead — and play with language on the way?
+
+**Key vocabulary:** metaphor, extended metaphor, ambiguity, nonsense verse, portmanteau, neologism, rhyme scheme, anthology, recitation, introduction, theme
+
+### Lesson 160 — "The Door"
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain an extended metaphor and discuss how a short poem can mean more than one thing." (UK NC Y6 reading — poetry / CCSS RL.5.4)
+- **Hook:** A closed door at the front of the room: "What might be on the other side? Should you open it?"
+- **Key activity:** Read "The Door" by the Czech poet and scientist Miroslav Holub (in English translation). Trace the repeated command "Go and open the door" and the list of what might be outside, from a magic city to fog, darkness or nothing at all. Discuss what the door could stand for (a new school, a risk, a new idea, a choice) and the surprise of the last lines. (Robert Frost's "The Road Not Taken" is studied in Year 6.)
+- **Check for understanding:** "Why does Holub end by saying that even if nothing is there, at least there'll be a draught?" → Even when a choice seems to lead nowhere, opening the door changes something — fresh air comes in; the gentle, funny ending says that trying is always worth it.
+- **Differentiation:** support: a glossary and a picture of the door with the possibilities placed around it / stretch: argue for one meaning of the door with evidence, and explain how the short lines slow the reader down.
+- **Materials:** "The Door" by Miroslav Holub (in translation), picture prompt, a real or cardboard door.
+- **Joy:** "Door of possibilities" — pupils post what they hope is behind next year's door.
+
+### Lesson 161 — "Jabberwocky": playing with words
+- **Duration:** 40 min
+- **Objective:** "By the end, I can use grammar and morphology to make sense of invented words." (UK NC Y6 reading & vocabulary / CCSS L.5.4, RL.5.4)
+- **Hook:** "'Twas brillig, and the slithy toves / Did gyre and gimble in the wabe.' Which words are nouns? Verbs? How do you know?"
+- **Key activity:** Read Lewis Carroll's "Jabberwocky" (from *Through the Looking-Glass*, 1871). Use word position and endings to classify invented words. Learn that Humpty Dumpty explains 'slithy' as 'lithe and slimy' — a portmanteau — and that 'chortle' and 'galumph' entered English from this poem.
+- **Check for understanding:** "How can you tell 'toves' is a noun and 'gyre' is a verb without knowing their meanings?" → 'The slithy toves' — after 'the' and an adjective, with a plural -s; 'did gyre' — after 'did', like a verb.
+- **Differentiation:** support: a word-class sorting grid with sentence positions marked / stretch: invent three portmanteau words and define them.
+- **Materials:** "Jabberwocky" copies, word-class grids, Tenniel's original illustration.
+- **Joy:** a dramatic "Jabberwocky" battle performance with sound effects.
+
+### Lesson 162 — Write a nonsense poem
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a nonsense poem with invented words whose meaning readers can still infer from grammar and context." (UK NC Y6 writing — poetry / CCSS W.5.3d)
+- **Hook:** "Invent a creature. Name it. Describe its battle — in words that don't exist yet."
+- **Key activity:** Create a glossary of invented words (with word classes); write a narrative nonsense poem following Carroll's pattern (setting, warning, quest, battle, return); partner tests whether meaning comes through.
+- **Check for understanding:** "What clues did you give so a reader can guess what your invented verb means?" → Its position, ending (-ed, -ing), and surrounding words.
+- **Differentiation:** support: a frame following "Jabberwocky"'s structure / stretch: keep a consistent rhyme scheme and rhythm throughout.
+- **Materials:** glossary sheets, poem frames, rhyming dictionaries.
+- **Joy:** creature illustrations to accompany the poems.
+
+### Lesson 163 — Building an anthology
+- **Duration:** 40 min
+- **Objective:** "By the end, I can select and arrange poems for an anthology and explain my choices in an introduction." (UK NC Y6 reading & writing / CCSS W.5.4)
+- **Hook:** "An anthology is like a playlist. What makes a good one?"
+- **Key activity:** Pupils choose 6–8 poems (their own from the year and favourites from reading), decide an order and a theme, and draft an editor's introduction explaining why.
+- **Check for understanding:** "Why did you place your first and last poems where you did?" → A reasoned choice about opening and closing (e.g. hook the reader; end on hope).
+- **Differentiation:** support: a theme menu and a guided introduction frame / stretch: write a short note for each poem explaining its link to the theme.
+- **Materials:** poetry collections, pupils' own poems, anthology templates.
+- **Joy:** designing a beautiful anthology cover.
+
+### Lesson 164 — A poem for the road ahead
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a reflective poem about change and the future using an extended metaphor." (UK NC Y6 writing — poetry / CCSS W.5.3d)
+- **Hook:** "Next year you'll be in the final year of primary school. What metaphor fits that feeling — a door, a bridge, a road, a river?"
+- **Key activity:** Brainstorm metaphors for change; draft a poem sustaining one metaphor; revise for imagery and line breaks.
+- **Check for understanding:** "How does your metaphor stay consistent through the poem? Point to two lines." → Two lines extending the same image.
+- **Differentiation:** support: metaphor starters and a line-by-line frame / stretch: end with a line that shifts the metaphor's meaning.
+- **Materials:** drafts, metaphor banks.
+- **Joy:** poems added to the anthology as its closing piece.
+
+### Lesson 165 — Anthology launch and recitation
+- **Duration:** 45 min
+- **Objective:** "By the end, I can recite a poem from memory with expression and present my anthology." (UK NC Y6 spoken language / CCSS SL.5.4)
+- **Hook:** "Poems learned by heart stay with you for life. Which one will you carry?"
+- **Key activity:** Each pupil recites one memorised poem (their own or a published one from this year) and presents their anthology in small groups.
+- **Check for understanding:** "Why did you choose this poem to learn by heart, and what did learning it teach you about it?" → A personal reason and a new insight gained through memorisation.
+- **Differentiation:** support: recite a shorter poem or a single stanza, with a prompt card / stretch: recite a longer poem (e.g. a section of *The Lady of Shalott*).
+- **Materials:** anthologies, recitation space.
+- **Joy:** the recitation celebration.
+
+**End-of-unit check:** Pupil explains an extended metaphor in a poem with evidence, writes a nonsense or reflective poem with deliberate craft choices, and recites a poem from memory.
+
+---
+
+## Unit 15 — Year-end portfolio and bridge to Year 6
+
+**Essential question:** How have I grown as a reader, writer and speaker — and what's next?
+
+**Key vocabulary:** portfolio, reflection, evidence, growth, target, genre, register, recommend, transition
+
+### Lesson 166 — My reading year
+- **Duration:** 40 min
+- **Objective:** "By the end, I can reflect on my reading this year and recommend a book persuasively." (UK NC Y6 reading & spoken language / CCSS SL.5.4)
+- **Hook:** "How many books did you read this year? Which one changed you?"
+- **Key activity:** Pupils review reading journals; create a reading timeline; prepare and deliver a 1-minute book recommendation (without spoilers) to a partner or small group.
+- **Check for understanding:** "What makes a recommendation persuasive without giving away the plot?" → A hook, a sense of genre and mood, who would love it, and a question to intrigue.
+- **Differentiation:** support: a recommendation frame / stretch: recommend a book by comparing it to two class texts.
+- **Materials:** reading journals, class library.
+- **Joy:** "Book speed-dating" — rotate partners to hear recommendations.
+
+### Lesson 167 — My writing portfolio
+- **Duration:** 45 min
+- **Objective:** "By the end, I can select my best writing and annotate evidence of growth." (UK NC Y6 writing — evaluate / CCSS W.5.5, W.5.10)
+- **Hook:** "Put your first piece from September next to your research report. What's changed?"
+- **Key activity:** Select three pieces (different genres); annotate evidence of skills (structure, voice, punctuation such as semicolons and colons, register, cohesion); write a reflective paragraph on growth.
+- **Check for understanding:** "Point to one skill you couldn't do in September that you can now. Where is the evidence?" → A named skill and a specific example.
+- **Differentiation:** support: a skills checklist to hunt with / stretch: choose one piece to redraft with everything you now know.
+- **Materials:** writing portfolios, annotation stickers, skills checklists.
+- **Joy:** portfolio sharing with a parent or carer.
+
+### Lesson 168 — Editing challenge: grammar in service of writing
+- **Duration:** 40 min
+- **Objective:** "By the end, I can edit a passage for grammar, punctuation, spelling and register, explaining each change." (UK NC Y6 grammar & spelling — retrieval / CCSS L.5.1–3)
+- **Hook:** "An editor has sent back this passage with 15 hidden problems. Can you find them all?"
+- **Key activity:** Pairs edit a passage containing errors in punctuation (semicolon, colon, hyphen, commas), register (informal words in a formal letter), agreement, the passive and list-word spellings; explain each fix.
+- **Check for understanding:** "Choose one change you made and explain the rule and why the change helps the reader." → A specific edit with the reason (clarity, formality, accuracy).
+- **Differentiation:** support: errors of three types only, with hint symbols in the margin / stretch: rewrite one paragraph to shift it from informal to formal.
+- **Materials:** editing passages, editing symbols chart.
+- **Joy:** "Editor-in-chief" badges for finding all 15.
+
+### Lesson 169 — Letter to my Year 6 teacher
+- **Duration:** 40 min
+- **Objective:** "By the end, I can write a formal letter introducing myself as a learner, with appropriate register and structure." (UK NC Y6 writing / CCSS W.5.4)
+- **Hook:** "What would you want your new teacher to know about you as a reader and writer?"
+- **Key activity:** Plan and write a formal letter: introduction, strengths, targets with evidence, what helps you learn, closing. Compare with an informal note to a friend about the same news.
+- **Check for understanding:** "Name two differences between your formal letter and your informal note." → e.g. formal greeting and sign-off, no contractions, more precise vocabulary.
+- **Differentiation:** support: a letter template / stretch: include a subjunctive recommendation ("I suggest that my next reading goal be…").
+- **Materials:** letter templates, portfolios, envelopes.
+- **Joy:** letters are genuinely delivered to the Year 6 teacher.
+
+### Lesson 170 — Bridge to Year 6: the reading road ahead
+- **Duration:** 40 min
+- **Objective:** "By the end, I can set a summer reading goal and preview the kind of reading and writing Year 6 will bring." (UK NC Y6 reading / CCSS RL.5.10)
+- **Hook:** "Next year: longer novels, sharper arguments, your own research. Here's a taste."
+- **Key activity:** Teacher reads the opening of a book from the Year 6 spine (or a challenging choice from the wider reading list); pupils predict and discuss; each pupil chooses a summer reading challenge (three books across genres) and writes it on a "reading passport".
+- **Check for understanding:** "Why did you choose these three books for the summer, and what will each stretch in you?" → A reasoned plan (e.g. a new genre, a longer book, an author from a new country).
+- **Differentiation:** support: a curated list of ten high-interest books to choose from / stretch: include a classic and a non-fiction book in your challenge.
+- **Materials:** reading passports, wider reading list, class library.
+- **Joy:** a year-end book swap and celebration.
+
+**End-of-unit check:** Pupil presents a portfolio with three annotated pieces and a reflection on growth, and writes a formal letter with correct register and structure.
+
+## Books & resources
+
+**Class texts (the spine)**
+- ***Wonder*** — R. J. Palacio (2012) — a modern classic told by several narrators; the ideal text for teaching voice, perspective and structure, and for honest talk about kindness, difference and belonging. (*Holes* is studied in Year 6.)
+- ***The Lady of Shalott*** — Alfred, Lord Tennyson (1832, revised 1842) — a hypnotic narrative poem of light and shadow, rhythm and refrain; a step up in language from Year 4's "The Highwayman".
+- ***The Breadwinner*** — Deborah Ellis (2000) — a short, gripping novel, based on interviews with Afghan girls in refugee camps, about a girl who disguises herself as a boy to feed her family under the Taliban; opens discussion of justice, courage and girls' education. (*Journey to Jo'burg* is studied in Year 4.)
+- ***A Long Walk to Water*** — Linda Sue Park (2010) — a dual narrative based on the true story of Salva Dut; teaches structure and perseverance and links to geography (water) and global citizenship.
+- ***Boy: Tales of Childhood*** — Roald Dahl (1984) — the model for memoir voice: funny, vivid and honest about the cruelty of some schools; shows how life becomes fiction.
+- ***The Arrival*** — Shaun Tan (2006) — a wordless masterpiece about migration; builds visual literacy and empathy and is accessible to every reader regardless of reading level.
+- ***Skellig*** — David Almond (1998) — rich literary fiction with symbols, ambiguity and big questions; the ideal first text for a literary essay.
+- ***The Tempest*** — William Shakespeare, via a quality retelling (e.g. Leon Garfield's *Shakespeare Stories* or Marcia Williams's *Mr William Shakespeare's Plays*) with key scenes in the original — a first, joyful encounter with Shakespeare through performance.
+
+**Poems**
+- "I, Too" — Langston Hughes; "Where the Mind is Without Fear" — Rabindranath Tagore; "Checking Out Me History" — John Agard; "Life Doesn't Frighten Me" — Maya Angelou; "The Magic Box" — Kit Wright; "The Tyger" — William Blake; "The Door" — Miroslav Holub; "Jabberwocky" — Lewis Carroll; "The Lady of Shalott" — Alfred, Lord Tennyson. Chosen for range of continents, centuries and forms, and because each teaches one clear craft lesson.
+
+**Wider reading list (independent reading and read-alouds)**
+- *Ghost* — Jason Reynolds — a boy who runs from his past joins a track team; a funny, raw first-person voice to set beside *Boy*.
+- *Inside Out & Back Again* — Thanhha Lai — a verse novel of a Vietnamese refugee girl in the USA; pairs with *The Arrival*.
+- *Amal Unbound* — Aisha Saeed — a girl in Pakistan fights for her education and freedom; pairs with *The Breadwinner*.
+- *Pax* — Sara Pennypacker — a boy and his fox in a time of war; alternating viewpoints (optional re-read for those who met it in the Year 4 book club).
+- *The London Eye Mystery* — Siobhan Dowd — a clever mystery solved by a boy whose brain works differently.
+- *Tom's Midnight Garden* — Philippa Pearce — a classic time-slip story; pairs with dual narratives.
+- *Goodnight Mister Tom* — Michelle Magorian — a Second World War evacuee story of healing and friendship.
+- *The Girl Who Drank the Moon* — Kelly Barnhill — Newbery-winning fantasy with rich language.
+- *Northern Lights* — Philip Pullman — a stretch text for confident readers.
+- *I Am Malala* (Young Readers Edition) — Malala Yousafzai — non-fiction memoir; pairs with *The Breadwinner*.
 
 ## End-of-year mastery checks
 
-A Year 5 child has mastered English when they can:
+1. **Analyse a novel** — writes a PEE (or longer analytical) paragraph about theme, character or structure, embedding quotations and explaining word choice (seen in the *Skellig* essay).
+2. **Summarise and précis** — summarises a chapter in about 50 words and reduces a non-fiction passage to half its length in their own words.
+3. **Compare texts** — compares two texts or poems using comparative connectives and evidence.
+4. **Write narrative with control** — writes an extended narrative (interwoven, dual or first-person) with a deliberate structure, a distinct voice and varied sentences for pace.
+5. **Write non-fiction for purpose** — writes a news report, explanation or research report with formal register, the passive voice where useful, sub-headings and cohesion.
+6. **Argue fairly** — writes a balanced argument with evidence on both sides and a reasoned conclusion; delivers a persuasive speech with rhetorical techniques.
+7. **Research independently** — frames a question, evaluates and cites sources, paraphrases, and presents findings with a bibliography.
+8. **Punctuate for meaning** — uses semicolons, colons, dashes, hyphens, brackets and bullet points correctly and for a reason in their own writing.
+9. **Spell accurately** — spells the Y5/6 statutory words in their own writing and uses roots and morphology to spell and understand new words.
+10. **Speak and perform** — performs a poem from memory, takes part in a formal debate and plays a role in a scripted performance with clear voice and expression.
 
-1. **Use relative clauses** — add information with *who/which/that/whose/where/when*, marking non-essential clauses with commas.
-2. **Show modality** — use modal verbs and adverbs of possibility to express how certain something is (and write *should have*, not *should of*).
-3. **Punctuate parenthesis** — drop in an aside with brackets, dashes or commas in pairs, removable without breaking the sentence.
-4. **Spell tricky endings & words** — choose *-able/-ible* and *-ant/-ent* by clue, apply silent letters and *i before e except after c*, and spell Y5/6 list words with mnemonics.
-5. **Distinguish fact from opinion** — apply the "can it be checked?" test, catch opinions dressed as facts, and compare two texts with "Both… but… whereas…".
-6. **Write to persuade** — state a clear viewpoint, support each point with a reason and evidence, and use persuasive devices (rhetorical question, rule of three, modal verbs) with a call to action.
-7. **Build cohesion** — link ideas across sentences and paragraphs with cohesive adverbials, pronouns and referencing back, avoiding repetition.
-8. **Integrate dialogue** — write dialogue that reveals character, with new lines for each speaker, varied speech verbs and action beats, punctuated correctly.
+Assessed through the writing portfolio, reading conferences and observed performances — not through isolated grammar tests.
+
+## Teacher guidance
+
+**Common misconceptions to watch for**
+- *Semicolons used like commas* ("I was tired; because…"). Test: both sides must be complete sentences.
+- *Colons after incomplete clauses* ("The ingredients are: …"). The clause before the colon should make sense alone.
+- *Passive = past tense.* The passive can be in any tense ("is being built", "will be announced"); it's about who does the action.
+- *Formal = long words.* Formal writing is precise and impersonal, not stuffed with rare vocabulary.
+- *Retelling instead of analysing.* In PEE paragraphs, pupils often retell plot. Ask: "So what? What does this show?"
+- *Copying from sources.* Insist on read–cover–write paraphrasing and on the bibliography from the first research lesson.
+- *Should of / could of.* Model "should have" and explain that the spoken contraction "should've" sounds like "of".
+- *Affect/effect, practice/practise, stationary/stationery.* Revisit with mnemonics in editing lessons.
+
+**How to teach it well**
+- Read the class texts aloud generously, with pupils following in their own copies; model expressive reading every day.
+- Keep grammar lessons short ("sentence studios") and always return pupils to their own writing to use the new structure.
+- Write in front of the class: think aloud as you plan, draft and revise. Show that professional writers revise.
+- Use talk before writing: drama, hot-seating, debate and enquiry lead to better writing.
+- Protect independent reading time and conference with each pupil every week; celebrate reading volume and range.
+- Sensitive topics (life under the Taliban, including a public punishment Parvana witnesses; war; refugees; facial difference; a baby's illness) need preparation: pre-read chapters, allow pupils to opt for a quieter role, and be alert to pupils' own experiences.
+
+**Vertical connections**
+- *From Year 4:* relative clauses, parenthesis, modal verbs, fronted adverbials, persuasive techniques, fact vs opinion, and paragraph cohesion are assumed and used; the -able/-ible and -ant/-ent patterns and the first part of the Y5/6 list are revisited in editing.
+- *Into Year 6:* the literary essay grows into multi-paragraph analysis of longer novels and poems; balanced argument grows into discursive and persuasive essays; the research project becomes independent inquiry with more complex sources; Shakespeare continues with a second play; précis and summary skills support note-taking across all subjects.
+- *Across subjects:* history (Afghanistan's recent history, Shakespeare's England, oral history), geography (water scarcity, South Sudan, Afghanistan, migration), science (explanations, scientific roots), life skills (empathy, justice, courage), languages (idioms, borrowed words, formal 'you').

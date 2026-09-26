@@ -10,19 +10,10 @@
  * loop (server/src/teach).
  */
 import { nanoid } from 'nanoid';
-import type {
-  LearnerModel,
-  MemoryUpdate,
-  MemoryEpisode,
-  Course,
-  Topic,
-  TopicProgress,
-  CourseProgress,
-  Recommendation
-} from '../../../shared/types.ts';
+import type { LearnerModel, MemoryUpdate, MemoryEpisode } from '../../../shared/types.ts';
 import * as dbm from '../db/index.ts';
+import { blendObservation } from './mastery.ts';
 
-const MASTERY_THRESHOLD = 0.8;
 const CAP = 15;
 
 function pushCapped(arr: string[], v?: string): void {
@@ -53,21 +44,12 @@ export function getOrInitLearner(kidId: string): LearnerModel {
 /** Fold a batch of turn observations into long-term memory. */
 export function applyTurnMemory(kidId: string, updates: MemoryUpdate[]): LearnerModel {
   const model = getOrInitLearner(kidId);
-  const now = new Date().toISOString();
+  const nowMs = Date.now();
+  const now = new Date(nowMs).toISOString();
   for (const u of updates) {
     if (!u?.topic) continue;
-    const prev = model.topicMastery[u.topic];
-    const w = 0.5; // weight of new evidence
-    const mastery = prev
-      ? Math.max(0, Math.min(1, prev.mastery * (1 - w) + u.mastery * w))
-      : Math.max(0, Math.min(1, u.mastery));
-    model.topicMastery[u.topic] = {
-      mastery,
-      confidence: Math.min(1, (prev?.confidence || 0) + 0.2),
-      note: u.note || prev?.note || '',
-      topicId: prev?.topicId,
-      updatedAt: now
-    };
+    // Confidence-weighted blend from a 0.5 prior, with forgetting (see mastery.ts).
+    model.topicMastery[u.topic] = blendObservation(model.topicMastery[u.topic], u.mastery, u.note, nowMs);
     pushCapped(model.strengths, u.strength);
     pushCapped(model.struggles, u.struggle);
     pushCapped(model.misconceptions, u.misconception);
@@ -104,103 +86,8 @@ export function addEpisode(
 }
 
 // ---- progress & recommendations -------------------------------------------
+// Pure rollup/recommendation logic lives in progress.ts; mastery math in mastery.ts.
 
-function daysSince(iso?: string): number {
-  if (!iso) return Infinity;
-  return (Date.now() - new Date(iso).getTime()) / 86_400_000;
-}
-
-/** A topic is due for spaced review when it's partly learned and gone cold. */
-function isDue(mastery: number, updatedAt?: string): boolean {
-  if (mastery >= MASTERY_THRESHOLD || mastery <= 0) return false;
-  const interval = 1 + Math.floor(mastery * 7); // weaker grasp → sooner review
-  return daysSince(updatedAt) >= interval;
-}
-
-export function courseProgress(course: Course, topics: Topic[], model: LearnerModel): CourseProgress {
-  const tp: TopicProgress[] = topics.map((t) => {
-    const m = model.topicMastery[t.title];
-    const mastery = m?.mastery ?? 0;
-    return {
-      topicId: t.id,
-      title: t.title,
-      mastery,
-      confidence: m?.confidence ?? 0,
-      lastTouched: m?.updatedAt,
-      due: isDue(mastery, m?.updatedAt)
-    };
-  });
-  const mastered = tp.filter((t) => t.mastery >= MASTERY_THRESHOLD).length;
-  return { classDefinition: course, topics: tp, completion: topics.length ? mastered / topics.length : 0 };
-}
-
-/** Human-readable course name; titles often already contain the subject ("Math" / "Math"). */
-function courseLabel(course: Course): string {
-  return course.title.toLowerCase().includes(course.subject.toLowerCase())
-    ? course.title
-    : `${course.subject} ${course.title}`;
-}
-
-/** Recommend the single best next thing for this course. */
-export function recommendNext(course: Course, topics: Topic[], model: LearnerModel): Recommendation | null {
-  if (!topics.length) return null;
-  const touched = topics.some((t) => model.topicMastery[t.title]);
-
-  // Brand-new, substantial course → start with a diagnostic.
-  if (!touched && topics.length > 3) {
-    const first = topics[0]!;
-    return {
-      reason: 'diagnostic',
-      classId: course.id,
-      topicId: first.id,
-      topicTitle: first.title,
-      note: `Start with a quick check-in to see what ${courseLabel(course)} already feels like.`
-    };
-  }
-
-  // Spaced review takes priority over new material.
-  const due = topics
-    .map((t) => ({ t, m: model.topicMastery[t.title] }))
-    .filter(({ m }) => m && isDue(m.mastery, m.updatedAt))
-    .sort((a, b) => (a.m!.mastery - b.m!.mastery))[0];
-  if (due) {
-    return {
-      reason: 'spaced_review',
-      classId: course.id,
-      topicId: due.t.id,
-      topicTitle: due.t.title,
-      note: `Time to lock in "${due.t.title}" with a short review.`
-    };
-  }
-
-  // Otherwise the next not-yet-mastered topic whose prerequisites are met.
-  const masteredTitles = new Set(
-    topics.filter((t) => (model.topicMastery[t.title]?.mastery ?? 0) >= MASTERY_THRESHOLD).map((t) => t.title)
-  );
-  for (const t of topics) {
-    const m = model.topicMastery[t.title]?.mastery ?? 0;
-    if (m >= MASTERY_THRESHOLD) continue;
-    const ready = t.prerequisites.every((p) => masteredTitles.has(p));
-    if (ready) {
-      return {
-        reason: 'next_topic',
-        classId: course.id,
-        topicId: t.id,
-        topicTitle: t.title,
-        note: `Next up: "${t.title}".`
-      };
-    }
-  }
-
-  // Everything mastered — keep the weakest sharp.
-  const weakest = topics
-    .map((t) => ({ t, m: model.topicMastery[t.title]?.mastery ?? 1 }))
-    .sort((a, b) => a.m - b.m)[0]!;
-  return {
-    reason: 'continue',
-    classId: course.id,
-    topicId: weakest.t.id,
-    topicTitle: weakest.t.title,
-    note: `Great progress! Keep "${weakest.t.title}" sharp.`
-  };
-}
+export { courseProgress, recommendNext, curriculumProgress, MASTERY_THRESHOLD } from './progress.ts';
+export type { LessonOutcome } from './progress.ts';
+export { decayedMastery, isDue, blendObservation } from './mastery.ts';

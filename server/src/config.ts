@@ -32,3 +32,8 @@ export const PARENT_PIN_ENV = process.env.CLASSAI_PARENT_PIN || '';
  *  not be reachable from the LAN (the mic only works on localhost anyway). Set
  *  CLASSAI_HOST=0.0.0.0 to deliberately expose it. */
 export const HOST = process.env.CLASSAI_HOST || '127.0.0.1';
+
+/** Where AI-generated lessons are written (`generated/year-N/<subject>/lessons/`).
+ *  Kept in the git-ignored data dir as drafts for parent review — never in
+ *  `curriculum/`, so unreviewed AI output can't pass as authored curriculum. */
+export const GENERATED_DIR = path.join(DATA_DIR, 'generated');

@@ -7,8 +7,9 @@
  *
  *  - Anthropic ("reuse local Claude login"): we read the access token from the
  *    user's existing Claude login — the Claude Code credentials file / macOS
- *    Keychain, falling back to the internal `ant` CLI. No secret is stored by
- *    Classai in that mode.
+ *    Keychain (whichever holds the later-expiring token), falling back to the
+ *    legacy `ant` CLI. Cached in memory until shortly before expiry; no secret
+ *    is stored by Classai in that mode.
  *
  * Endpoints and the public client id are configurable via env so this keeps
  * working if the upstream backend changes — the exact values mirror OpenClaw's.
@@ -168,42 +169,115 @@ export async function refreshOpenAI(refresh: string): Promise<OAuthTokens> {
 }
 
 /**
- * Reuse the user's existing local Claude login. Sources, tried in order:
+ * Reuse the user's existing local Claude login. Sources:
  *   1. Claude Code credentials file (~/.claude/.credentials.json) — Linux/manual.
  *   2. macOS Keychain entry written by Claude Code ("Claude Code-credentials").
- *   3. The internal `ant` CLI (`ant auth print-credentials --access-token`).
- * Returns undefined if none yield a token. No secret is persisted by Classai.
+ *   3. The legacy `ant` CLI (`ant auth print-credentials --access-token`), only
+ *      when neither of the above holds a usable token.
+ *
+ * Both 1 and 2 are read and the one with the LATER `expiresAt` wins — Claude
+ * Code refreshes whichever store it uses, so the other can hold a stale token.
+ * An expired token counts as missing. The chosen token is cached in memory until
+ * ~60s before it expires, so a live lesson doesn't spawn `security` (Keychain)
+ * on every turn. No secret is persisted by Classai.
+ *
+ * Throws LocalLoginError with an actionable message when no usable token exists.
  */
-export async function getAnthropicLocalToken(): Promise<string | undefined> {
-  return readClaudeCredsFile() || (await readClaudeKeychain()) || (await readAntCli());
+export async function getAnthropicLocalToken(): Promise<string> {
+  const now = Date.now();
+  if (cachedLocal && cachedLocal.validUntil > now) return cachedLocal.token;
+  cachedLocal = undefined;
+
+  const found = [readClaudeCredsFile(), await readClaudeKeychain()].filter((c): c is LocalCreds => !!c);
+  const chosen = pickLocalCreds(found, now);
+  if (chosen) {
+    cachedLocal = { token: chosen.token, validUntil: localCacheUntil(chosen.expiresAt, now) };
+    return chosen.token;
+  }
+  const ant = await readAntCli();
+  if (ant) {
+    cachedLocal = { token: ant, validUntil: now + NO_EXPIRY_CACHE_MS };
+    return ant;
+  }
+  if (found.length) {
+    throw new LocalLoginError(
+      'Your local Claude login has expired. Open a terminal and run `claude` once to refresh it, then try again (or connect an API key instead).'
+    );
+  }
+  throw new LocalLoginError(
+    'No local Claude login found. Open a terminal and run `claude` to sign in, then try again (or connect an API key instead).'
+  );
 }
 
-/** Pull `claudeAiOauth.accessToken` out of a Claude Code credentials JSON blob. */
-function tokenFromCredsJson(raw: string): string | undefined {
+export class LocalLoginError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'LocalLoginError';
+  }
+}
+
+/** Forget the cached local token (e.g. after the API rejects it). */
+export function clearAnthropicLocalTokenCache(): void {
+  cachedLocal = undefined;
+}
+
+/** A token found in a Claude Code credentials store. */
+export interface LocalCreds {
+  token: string;
+  /** Epoch ms; undefined when the store doesn't say. */
+  expiresAt?: number;
+}
+
+/** Stop using a token this long before it expires (clock skew + request time). */
+const EXPIRY_MARGIN_MS = 60_000;
+/** How long to trust a token whose expiry is unknown before re-reading. */
+const NO_EXPIRY_CACHE_MS = 5 * 60_000;
+
+let cachedLocal: { token: string; validUntil: number } | undefined;
+
+/**
+ * Pick the usable token with the latest expiry. Tokens within the expiry margin
+ * are treated as missing. A token with no stated expiry is used only when no
+ * source has a known-valid one.
+ */
+export function pickLocalCreds(found: LocalCreds[], now = Date.now()): LocalCreds | undefined {
+  const usable = found.filter((c) => c.expiresAt === undefined || c.expiresAt - EXPIRY_MARGIN_MS > now);
+  return usable.sort((a, b) => (b.expiresAt ?? -Infinity) - (a.expiresAt ?? -Infinity))[0];
+}
+
+function localCacheUntil(expiresAt: number | undefined, now: number): number {
+  return expiresAt === undefined ? now + NO_EXPIRY_CACHE_MS : expiresAt - EXPIRY_MARGIN_MS;
+}
+
+/** Pull `claudeAiOauth.{accessToken,expiresAt}` out of a Claude Code credentials JSON blob. */
+export function credsFromJson(raw: string): LocalCreds | undefined {
   try {
-    const tok = JSON.parse(raw)?.claudeAiOauth?.accessToken;
-    return typeof tok === 'string' && tok ? tok : undefined;
+    const o = JSON.parse(raw)?.claudeAiOauth;
+    const token = o?.accessToken;
+    if (typeof token !== 'string' || !token) return undefined;
+    const exp = Number(o.expiresAt);
+    return { token, expiresAt: Number.isFinite(exp) && exp > 0 ? exp : undefined };
   } catch {
     return undefined;
   }
 }
 
-function readClaudeCredsFile(): string | undefined {
+function readClaudeCredsFile(): LocalCreds | undefined {
   try {
-    return tokenFromCredsJson(readFileSync(path.join(os.homedir(), '.claude', '.credentials.json'), 'utf8'));
+    return credsFromJson(readFileSync(path.join(os.homedir(), '.claude', '.credentials.json'), 'utf8'));
   } catch {
     return undefined;
   }
 }
 
-function readClaudeKeychain(): Promise<string | undefined> {
+function readClaudeKeychain(): Promise<LocalCreds | undefined> {
   if (process.platform !== 'darwin') return Promise.resolve(undefined);
   return new Promise((resolve) => {
     execFile(
       'security',
       ['find-generic-password', '-s', 'Claude Code-credentials', '-w'],
       { timeout: 15_000 },
-      (err, stdout) => resolve(err ? undefined : tokenFromCredsJson(stdout))
+      (err, stdout) => resolve(err ? undefined : credsFromJson(stdout))
     );
   });
 }

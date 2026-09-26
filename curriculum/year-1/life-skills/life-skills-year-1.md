@@ -1,283 +1,499 @@
-# Year 1 Life Skills (ages 5–6, KS1) — Lesson Outlines
+# Year 1 Life Skills (ages 6–7) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 1 scope drawn from [`knowledge-base/subjects/computing-life-skills/life-skills.md`](../../../knowledge-base/subjects/computing-life-skills/life-skills.md).
+> Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Standards reference:
+> `knowledge-base/subjects/computing-life-skills/life-skills.md`. Codes: **CASEL** competencies (SA = self-awareness,
+> SM = self-management, SO = social awareness, RS = relationship skills, DM = responsible decision-making), **UK
+> Relationships Education (primary)** (FA = families, CF = caring friendships, RR = respectful relationships),
+> **financial education** (FE) and **UN Sustainable Development Goals** (SDG) for sustainability and global citizenship.
+> Body safety, road safety and physical health are taught in PE & Health, so this subject focuses on the rest.
 
 ## Year overview
 
-Year 1 Life Skills is the warm, wellbeing-first heart of the foundation year: a gap-free run of short, discussion- and play-based lessons that help five- and six-year-olds understand themselves, get on with others, and look after their bodies, their world and their pennies. Children learn to name and calm big feelings, be a kind friend, add the magic word "yet" when things are hard, choose healthy fuel and good sleep, cross a road safely and know that 999 helps, tell needs from wants, and care for the planet through small everyday actions. The tone is always **supportive and never shaming** — mistakes and big feelings are normal, and the steady message is *you can learn, grow and ask for help*. Most lessons are 20–30 minutes of cosy talk, stories and role-play; a few making/exploring lessons stretch to 35–40. Six units, eighteen lessons, every one anchored to the knowledge base.
+Year 1 life skills grows the **character** the charter asks for — kindness, integrity, perseverance, curiosity and
+confidence — through short, warm, discussion-and-activity lessons built around great picture books. Children learn
+to understand and manage their feelings, to be good friends and fix falling-outs, to keep going when learning is
+hard, to make sensible choices with money, to care for the planet and to see themselves as members of one diverse
+world. Every lesson ends with a small action children can take today.
+
+**What this year assumes (from Foundation, ages 5–6):** naming basic feelings and a calm-down toolbox; sharing,
+turn-taking and simple kindness; "my brain grows" and the power of "yet"; needs and wants; looking after the
+world; working as a team.
+
+**How the year runs.** *Unit 1* — feelings and self-regulation. *Unit 2* — friendship, empathy and kindness,
+including fixing falling-outs. *Unit 3* — growth mindset and resilience. *Unit 4* — money sense: where money comes
+from, saving for a goal, choices and sharing. *Unit 5* — sustainability: waste, energy, water and nature. *Unit 6* —
+global citizenship: one world, many cultures, fairness and rights, and a class service project.
+
+**What Year 2 relies on:** naming a wide range of feelings and choosing a strategy; the steps to sort out a
+disagreement; talking kindly to yourself when things are hard; saving towards a goal; reduce–reuse–recycle
+habits; respect for differences. Year 2 (ages 7–8) adds causes of feelings and helpful thoughts, fair-fix steps
+independently, goal-setting in steps, budgeting (spend–save–give), fact vs opinion and adverts, and why we have
+rules.
+
+## Time budget
+
+36 weeks × 1 lesson = 36 slots; **35 lessons** (1 flex slot for a whole-school kindness or charity day).
+Lessons 20–25 min, often followed by a short circle time.
+
+| Term | Unit | Weeks | Lessons |
+|---|---|---|---|
+| 1 | 1 — Feelings and self-regulation | 6 | 6 (1–6) |
+| 1 | 2 — Friendship, empathy and kindness | 6 | 6 (7–12) |
+| 2 | 3 — Growth mindset and resilience | 5 | 5 (13–17) |
+| 2 | 4 — Money sense | 6 | 6 (18–23) |
+| 3 | 5 — Caring for our planet | 6 | 6 (24–29) |
+| 3 | 6 — One world: global citizenship and service | 6 | 6 (30–35) |
+| | **Total** | **35 + 1 flex** | **35** |
 
 ---
 
-## Unit 1 — Feelings & me (emotional regulation)
+## Unit 1 — Feelings and self-regulation
 
-**Essential question:** All feelings are okay — so what can I *do* when a feeling gets really big?
-**Key vocabulary:** feeling, happy, sad, angry, scared, worried, excited, calm, breathe, name it, take a break.
-**KB source:** Topic 8 — Feelings & calming down.
+**Essential question:** How can I understand my feelings and choose what to do with them?
 
-### Lesson 1 — All my feelings are okay
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name at least four different feelings and say that all feelings are okay."
-- **Hook:** A puppet arrives looking grumpy, then giggly, then a bit teary — "What is happening to our friend today?"
-- **Key activity:** Talk through a feelings-faces poster; children make the face for each feeling, then share a time they felt happy, sad, cross or excited. Sort faces into "I have felt this" — everyone has felt every one.
-- **Check for understanding:** Is it okay to feel angry or sad sometimes? → Yes — all feelings are okay and normal; they pass.
-- **Differentiation:** support: point to the face that matches a feeling word instead of saying it / stretch: describe what made the feeling happen ("I felt nervous *because*…").
-- **Materials:** a puppet, a feelings-faces poster or printed emoji cards.
-- **Joy:** pulling silly, dramatic feeling-faces in a mirror or with a partner.
+**Key vocabulary:** feeling, emotion, happy, sad, angry, scared, worried, excited, calm, frustrated, proud, jealous, body clues, trigger, strategy, calm-down toolbox, pause, breathe
 
-### Lesson 2 — Feelings are like weather
+### Lesson 1 — A rainbow of feelings
 - **Duration:** 20 min
-- **Objective:** "By the end, I can explain that feelings come and go, like the weather."
-- **Hook:** Show a stormy-sky and a sunny-sky picture — "Does it stay stormy forever?"
-- **Key activity:** Match feelings to weather (angry = thunderstorm, calm = sunshine, worried = grey clouds). Children draw their "weather right now" on a little sky card and explain why even storms move on.
-- **Check for understanding:** What happens to a stormy feeling after a while? → It passes, like a storm; calmer weather comes.
-- **Differentiation:** support: choose from two weather cards / stretch: tell about a feeling that started stormy and then cleared up.
-- **Materials:** weather picture cards, blank "sky" cards, crayons.
-- **Joy:** drawing their own personal weather and showing it like a tiny forecaster.
+- **Objective:** "By the end, I can name at least eight feelings and show them on my face and body." (CASEL SA)
+- **Hook:** Read *In My Heart: A Book of Feelings* by Jo Witek: "What feeling is in your heart today?"
+- **Key activity:** Build a class "feelings rainbow" of words and faces; feelings charades; check-in routine (move your peg to today's feeling).
+- **Check for understanding:** "What's the difference between feeling 'worried' and feeling 'scared'?" → Worried is thinking something bad might happen; scared is a strong feeling when something frightening is happening now (either answer that shows the child can distinguish them).
+- **Differentiation:** support: 4 feelings with faces / stretch: explain 'frustrated' or 'jealous' with an example
+- **Materials:** *In My Heart* by Jo Witek, feelings cards, peg chart
+- **Joy:** Feelings charades.
 
-### Lesson 3 — Name it to tame it
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name a feeling I am having instead of just acting it out."
-- **Hook:** A short story: a child whose tower is knocked over and feels their volume going UP.
-- **Key activity:** Practise the sentence "I feel ___." with feeling cards and little scenarios ("Your friend shares their snack" / "You can't find your teddy"). Discuss how saying the name turns the volume down a bit.
-- **Check for understanding:** What is the clever first step when a big feeling arrives? → Name it — say "I feel ___."
-- **Differentiation:** support: a feelings word-mat to point to / stretch: name the feeling *and* a possible reason.
-- **Materials:** feeling cards, a simple scenario list, a "volume dial" prop.
-- **Joy:** turning a pretend volume dial down as they name the feeling.
+### Lesson 2 — Body clues
+- **Duration:** 20 min
+- **Objective:** "By the end, I can notice the clues my body gives me when I have a big feeling." (CASEL SA)
+- **Hook:** "When you're angry, does your body change? Where?"
+- **Key activity:** Body-map outline: colour where you feel anger (hot face, tight fists), worry (tummy butterflies), excitement (bouncy legs).
+- **Check for understanding:** "Why is it useful to notice your body clues early?" → So I can use a calming strategy before the feeling gets too big.
+- **Differentiation:** support: picture clue cards / stretch: compare two feelings' body clues
+- **Materials:** body outlines, crayons
+- **Joy:** Colourful feelings body-maps.
+
+### Lesson 3 — Big feelings: anger and what to do
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain that anger is OK but hurting isn't, and choose a safe way to handle it." (CASEL SM)
+- **Hook:** Read *Ravi's Roar* by Tom Percival: "What happened when Ravi turned into a tiger?"
+- **Key activity:** Discuss the story; sort "safe" and "unsafe" ways to show anger; practise "stop, breathe, say it" ("I feel angry because…").
+- **Check for understanding:** "Is it OK to feel angry? Is it OK to hit someone when you're angry?" → Feeling angry is OK; hurting someone is never OK — use a safe strategy.
+- **Differentiation:** support: choose from strategy cards / stretch: role-play using an "I feel… because…" sentence
+- **Materials:** *Ravi's Roar* by Tom Percival, strategy cards
+- **Joy:** Tiger-roar then tiger-calm breathing.
 
 ### Lesson 4 — My calm-down toolbox
-- **Duration:** 30 min
-- **Objective:** "By the end, I can use a calming tool when a feeling gets really big."
-- **Hook:** "Smell the flower, blow out the candle" — everyone tries one big slow breath together.
-- **Key activity:** Teach three tools: slow breathing (flower/candle or breathe round the hand), take a break, count to ten. Role-play the knocked-tower scenario: name it → breathe → then choose what to do. Children pick a favourite tool for their own "toolbox" card.
-- **Check for understanding:** Name one thing you can do to calm down when a feeling gets really big. → e.g. slow breathing, take a break, count to ten, talk to a trusted adult.
-- **Differentiation:** support: practise just the breathing tool with the adult / stretch: explain *why* you'd pause before acting on a big feeling.
-- **Materials:** a paper "toolbox" template, a pretend flower and candle (or hand outline), calm music.
-- **Joy:** finger-tracing "breathe round your hand" and feeling themselves go calm.
-
-**End-of-unit check:** The child names several feelings, says all feelings are okay and pass like weather, names a feeling using "I feel ___," and demonstrates one calming tool.
-
----
-
-## Unit 2 — Friendship & kindness
-
-**Essential question:** How do I listen, share and stay friends even when we fall out?
-**Key vocabulary:** listen, share, take turns, kind, friend, fair, sorry, disagree, "I felt…", trusted adult.
-**KB source:** Topic 10 — Social skills: listening, sharing & resolving disagreements.
-
-### Lesson 5 — Good listening
-- **Duration:** 25 min
-- **Objective:** "By the end, I can show two things good listening looks like."
-- **Hook:** The adult "listens" terribly (looking away, talking over) — "How does that feel? What was I doing wrong?"
-- **Key activity:** Build a "good listening" chart together (look at the person, stay quiet, don't interrupt, really try to understand). In pairs, one child shares a favourite thing while the other practises good listening, then swaps.
-- **Check for understanding:** What are two things good listening involves? → Any two of: looking at the person, staying quiet, not interrupting, really trying to understand.
-- **Differentiation:** support: focus on just "eyes looking, mouth quiet" / stretch: repeat back one thing their partner said to show they listened.
-- **Materials:** a "good listening looks like" chart, pictures of children listening.
-- **Joy:** catching the adult being a "silly bad listener" and fixing them.
-
-### Lesson 6 — Sharing and taking turns
-- **Duration:** 25 min
-- **Objective:** "By the end, I can suggest a fair way to share or take turns."
-- **Hook:** Two puppets both grab the same toy and start to squabble — "Uh oh. What could they do?"
-- **Key activity:** Talk about why hogging makes play unhappy. Practise turn-taking language ("you go, then me") and a fair sharing plan with a real toy or a single crayon two children both want.
-- **Check for understanding:** Two friends both want the last turn on a swing. Suggest a fair way to solve it. → Take turns (e.g. count to 20 each), share the time, or ask a grown-up to help decide fairly.
-- **Differentiation:** support: use a sand timer to make turns concrete / stretch: invent the fair plan themselves and explain why it's fair.
-- **Materials:** two puppets, a shared toy or single crayon, a sand timer.
-- **Joy:** using a sand timer to run perfectly fair turns.
-
-### Lesson 7 — Being kind
 - **Duration:** 20 min
-- **Objective:** "By the end, I can name a kind thing I can do for someone today."
-- **Hook:** "Filling someone's bucket" — a quick story about how kind words and acts fill people up, and unkind ones empty them.
-- **Key activity:** Brainstorm small kind acts (sharing, helping, a kind word, including someone). Each child chooses one "kindness mission" to do today and draws it. Build a class "kindness wall."
-- **Check for understanding:** Name one kind thing you could do for a friend or grown-up. → Any genuine kind act (share, help, kind word, include someone).
-- **Differentiation:** support: choose a kind act from picture cards / stretch: plan a kindness for someone they don't usually play with.
-- **Materials:** a kindness story, "kindness wall" paper, crayons, sticky notes.
-- **Joy:** adding their own kindness leaf/heart to the kindness wall.
+- **Objective:** "By the end, I can use three calming strategies and choose one that works for me." (CASEL SM)
+- **Hook:** "Every builder has a toolbox. Every feeling-builder needs one too!"
+- **Key activity:** Try strategies: bubble breathing, five-finger breathing, counting to ten, squeezing a stress ball, a calm corner; make a personal toolbox card.
+- **Check for understanding:** "Which strategy works best for you, and when would you use it?" → A named strategy and situation.
+- **Differentiation:** support: two strategies with pictures / stretch: teach a strategy to a partner
+- **Materials:** bubbles, stress balls, toolbox templates
+- **Joy:** Bubble breathing.
 
-### Lesson 8 — Sorting out a falling-out
-- **Duration:** 30 min
-- **Objective:** "By the end, I can use calm steps to solve a disagreement with a friend."
-- **Hook:** Two children both want the blue crayon — "If they grab and shout, what happens? Is there a better way?"
-- **Key activity:** Teach the steps: calm down first (a breath), take turns to speak using "I felt…," find a fair fix together — and if stuck, ask a trusted adult. Role-play the blue-crayon disagreement and reach a fair fix.
-- **Check for understanding:** Does disagreeing with a friend mean you're not friends any more? → No — all friends disagree sometimes; solving it kindly makes friendships stronger.
-- **Differentiation:** support: practise just the "I felt…" sentence / stretch: act out both roles and suggest the fair fix.
-- **Materials:** a blue crayon prop, the three-step "fair fix" cards.
-- **Joy:** acting out the "happy ending" where both friends feel heard.
-
-**End-of-unit check:** The child demonstrates good listening, suggests a fair sharing plan, names a kind act, and walks through the calm steps to fix a pretend disagreement.
-
----
-
-## Unit 3 — Growth mindset
-
-**Essential question:** What do I do when something feels too hard?
-**Key vocabulary:** practise, mistake, learn, brain, try again, effort, ask for help, the magic word "yet."
-**KB source:** Topic 9 — Growth mindset & resilience (adapted for ages 5–6).
-
-### Lesson 9 — Your brain grows like a muscle
+### Lesson 5 — Worries and the worry monster
 - **Duration:** 20 min
-- **Objective:** "By the end, I can explain that I get better at things by practising."
-- **Hook:** "Who here couldn't walk / talk / ride a scooter as a baby — but can now? How?"
-- **Key activity:** Talk about the brain getting stronger with practice (flex a "brain muscle" together). Each child shares one thing they couldn't do before but can now, and how they got there.
-- **Check for understanding:** How do you get better at something hard? → By practising and trying again — not by being "born clever."
-- **Differentiation:** support: pick from pictures of skills they've learned / stretch: explain *how* practice helped them improve.
-- **Materials:** baby/now photo prompts, a stretchy band or "brain muscle" gesture.
-- **Joy:** the whole-body "flex your brain muscle" cheer.
+- **Objective:** "By the end, I can explain that sharing worries helps and choose who to share them with." (CASEL SA/RS)
+- **Hook:** Read *Silly Billy* by Anthony Browne: "Billy's grandma gives him worry dolls from Guatemala. What are they for?"
+- **Key activity:** Learn about Guatemalan worry dolls; make a paper worry doll; discuss trusted people to share worries with; class worry box.
+- **Check for understanding:** "What helped Billy's worries get smaller?" → Telling them (to the dolls and to his grandma) — sharing worries helps.
+- **Differentiation:** support: draw a worry and a helper / stretch: suggest how to help a friend with a worry
+- **Materials:** *Silly Billy* by Anthony Browne, pipe cleaners, fabric scraps, worry box
+- **Joy:** Making worry dolls.
 
-### Lesson 10 — Mistakes help me learn
+### Lesson 6 — Unit check: my feelings plan
 - **Duration:** 20 min
-- **Objective:** "By the end, I can say that mistakes are okay and help my brain learn."
-- **Hook:** The adult makes a "mistake" on purpose (wobbly drawing) and celebrates it — "Hooray, a mistake! My brain just grew!"
-- **Key activity:** Story or chat about wobbles when learning to ride a bike. Children try a deliberately tricky doodle and practise saying "That's okay — I'm still learning" instead of "I'm rubbish."
-- **Check for understanding:** What do mistakes do for your brain? → They help it learn and grow; struggling means you're learning, not failing.
-- **Differentiation:** support: repeat the "that's okay, I'm still learning" line / stretch: name what a mistake taught them.
-- **Materials:** paper and crayons, a "mistakes help me learn" poster.
-- **Joy:** a "yay, a mistake!" celebration cheer when something goes wrong.
+- **Objective:** "By the end, I can name feelings, notice body clues and choose a strategy in a scenario." (CASEL SA/SM — assessment)
+- **Hook:** "Feelings detectives: solve the case!"
+- **Key activity:** Scenario cards (lost a game, a friend moved away, a scary dream): name the feeling, the body clue and a strategy; share.
+- **Check for understanding:** "You lost a game and feel your face getting hot. What's happening, and what could you do?" → I'm getting angry or frustrated; I could breathe slowly, walk away for a moment, then say "good game".
+- **Differentiation:** support: picture scenarios / stretch: invent a scenario for others
+- **Materials:** scenario cards, toolbox cards
+- **Joy:** Detective badges.
 
-### Lesson 11 — The magic word "yet"
-- **Duration:** 25 min
-- **Objective:** "By the end, I can add 'yet' to turn 'I can't' into 'I can't… yet.'"
-- **Hook:** "There's one tiny magic word that turns a dead end into a path — can you guess it?"
-- **Key activity:** Practise flipping "I can't tie my laces / read this / do this puzzle" into "…yet," then name one thing to try (practise, ask for help, try another way). Each child picks a personal "yet" goal.
-- **Check for understanding:** Turn "I can't do this" into a growth-mindset sentence. → "I can't do this *yet*."
-- **Differentiation:** support: echo "…yet" after the adult / stretch: name a strategy to reach their "yet" goal.
-- **Materials:** "I can't… YET" sentence strips, a sparkly "magic word" card.
-- **Joy:** shouting the magic word "YET!" together with a sparkle gesture.
-
-**End-of-unit check:** The child explains the brain grows with practice, says mistakes help learning, and turns an "I can't" into "I can't… yet" with one idea for how to improve.
+**End-of-unit check:** Given a scenario, the child names the feeling, describes a body clue and chooses a helpful strategy, explaining why it helps.
 
 ---
 
-## Unit 4 — Healthy & safe (self-care)
+## Unit 2 — Friendship, empathy and kindness
 
-**Essential question:** How do I keep my body and brain healthy, happy and safe?
-**Key vocabulary:** balanced plate, fuel, fruit, vegetables, sometimes-food, sleep, exercise, active, stop-look-listen-think, 999, trusted adult.
-**KB source:** Topic 6 — Healthy eating; Topic 7 — Sleep & exercise; Topic 12 — Staying safe.
+**Essential question:** What makes a good friend, and how do we fix things when friendships go wrong?
 
-### Lesson 12 — Food is fuel: the balanced plate
-- **Duration:** 30 min
-- **Objective:** "By the end, I can build a balanced plate with mostly fruit and vegetables."
-- **Hook:** "What fuel does a car need to go? What fuel does YOUR body need to run and play?"
-- **Key activity:** Sort food pictures into groups; build a paper plate that's half fruit & veg, some starchy, some protein, a little dairy, plus a glass of water. Compare with an all-sweets plate — fun sometimes, not fuel to grow on.
-- **Check for understanding:** Which should fill most of your plate for a balanced meal? → Fruit and vegetables.
-- **Differentiation:** support: place foods onto a pre-labelled plate / stretch: explain why the all-sweets plate isn't good everyday fuel.
-- **Materials:** paper plates, food picture cards, glue.
-- **Joy:** designing a colourful "eat a rainbow" plate of their own.
+**Key vocabulary:** friend, friendship, kind, empathy, listen, share, include, left out, feelings, perspective, falling-out, sorry, fix, compromise, bucket filler
 
-### Lesson 13 — Sometimes-foods and everyday-foods
+### Lesson 7 — What makes a good friend?
 - **Duration:** 20 min
-- **Objective:** "By the end, I can tell an 'everyday' food from a 'sometimes' food."
-- **Hook:** "Is cake an every-day food or a special treat? What about an apple?"
-- **Key activity:** Sort foods into "everyday" and "sometimes" baskets. Talk warmly about balance — treats are fine now and then; healthy eating is mostly good fuel, not banning treats.
-- **Check for understanding:** Are sweets an "every day" food or a "sometimes" food? → A sometimes food / treat — fine now and then, in small amounts.
-- **Differentiation:** support: sort just three obvious foods / stretch: explain that one treat doesn't make you "unhealthy" — it's the overall pattern.
-- **Materials:** two labelled baskets, food picture cards.
-- **Joy:** the satisfying "everyday vs sometimes" sorting race.
+- **Objective:** "By the end, I can describe what a good friend does and doesn't do." (UK Relationships Ed CF; CASEL RS)
+- **Hook:** Read *Enemy Pie* by Derek Munson: "How did the 'enemy' become a friend?"
+- **Key activity:** Build a "recipe for friendship" with ingredients (listening, sharing, kindness, including, honesty); compare with the story.
+- **Check for understanding:** "Why did spending the day together change how they felt about each other?" → They got to know each other and found they liked the same things.
+- **Differentiation:** support: picture ingredient cards / stretch: write a friendship recipe step
+- **Materials:** *Enemy Pie* by Derek Munson, recipe templates
+- **Joy:** Friendship recipe (with a friendship-pie snack, optional).
 
-### Lesson 14 — Sleep & moving my body
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name why sleep and exercise keep me well."
-- **Hook:** "While you sleep, is your body lazy — or secretly busy?" (It's busy growing and saving memories!)
-- **Key activity:** Compare a well-rested, active day with a tired, no-play day. Children plan a healthy day (a calm bedtime routine + an active game they love) and do a 2-minute movement burst (dance/jumps).
-- **Check for understanding:** Name two good things exercise does for you. → Any two of: strong heart/muscles, better sleep, better mood, more energy.
-- **Differentiation:** support: choose an active activity from picture cards / stretch: explain how sleep and exercise help each other.
-- **Materials:** day-planner strip, movement music.
-- **Joy:** a real wiggly movement burst right there in the lesson.
+### Lesson 8 — Empathy: standing in someone's shoes
+- **Duration:** 20 min
+- **Objective:** "By the end, I can imagine how someone else feels and say something kind." (CASEL SO)
+- **Hook:** Read *The Invisible Boy* by Trudy Ludwig: "How does Brian feel? How do you know?"
+- **Key activity:** Discuss clues to Brian's feelings; "shoes" activity (step into cut-out shoes and speak as a character); plan ways to include someone.
+- **Check for understanding:** "How could you tell someone felt left out, and what could you do?" → Their face or body looks sad, they're alone; invite them to join in.
+- **Differentiation:** support: feelings face cards / stretch: role-play including someone new
+- **Materials:** *The Invisible Boy* by Trudy Ludwig, paper shoes
+- **Joy:** "In their shoes" role play.
 
-### Lesson 15 — Crossing roads safely
-- **Duration:** 30 min
-- **Objective:** "By the end, I can say and act out Stop, Look, Listen, Think."
-- **Hook:** A teddy is about to dash across a pretend road — "Wait! What should teddy do first?"
-- **Key activity:** Teach Stop, Look, Listen, Think and "find a safe place, hold a grown-up's hand." Set up a pretend kerb and road; children practise the steps in order, keeping looking and listening as they cross.
-- **Check for understanding:** What are the four steps for crossing a road safely? → Stop, Look, Listen, Think (and cross with a grown-up at a safe place).
-- **Differentiation:** support: do the steps with the adult calling each one / stretch: explain why you keep looking *while* crossing, not just once.
-- **Materials:** tape/chalk "road," a teddy, a kerb line.
-- **Joy:** being the safety teacher who guides teddy across the road.
+### Lesson 9 — Bucket filling
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain how kind actions 'fill buckets' and do a kind act on purpose." (CASEL RS)
+- **Hook:** Read *How Full Is Your Bucket? For Kids* by Tom Rath and Mary Reckmeyer.
+- **Key activity:** Discuss bucket filling and dipping; write or draw a kindness note for a classmate; class kindness jar.
+- **Check for understanding:** "Give an example of bucket filling and bucket dipping." → Filling: helping someone; dipping: calling someone names.
+- **Differentiation:** support: pre-written kind-note starters / stretch: plan a kind act for someone outside the class
+- **Materials:** the book, note paper, a class jar
+- **Joy:** Kindness notes delivery.
 
-### Lesson 16 — Getting help in an emergency
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say what to do if someone is hurt and know that 999 gets help."
-- **Hook:** "Who are the helpers with flashing lights and sirens? How do we call them?"
-- **Key activity:** Teach: stay calm → get an adult straight away → in a real emergency a grown-up calls 999 for ambulance, police or fire. Reassure that getting an adult *is* powerful help — you don't have to be a doctor. Role-play "my friend has fallen and is really hurt."
-- **Check for understanding:** What number is called in a UK emergency, and what can you ask for? → 999 — ambulance, police or fire.
-- **Differentiation:** support: practise just "stay calm, get a grown-up" / stretch: explain why a child fetching an adult is real, important help.
-- **Materials:** a toy phone, pictures of the 999 helpers.
-- **Joy:** practising the "999" call on a toy phone like a real helper.
+### Lesson 10 — Good listening
+- **Duration:** 20 min
+- **Objective:** "By the end, I can show good listening (eyes, ears, quiet body, ask a question) and explain why it matters." (CASEL RS; UK Relationships Ed RR)
+- **Hook:** Read *The Rabbit Listened* by Cori Doerrfeld: "Which animal helped Taylor most?"
+- **Key activity:** Discuss why the rabbit helped; partner talk with "good listening" and "bad listening" role-plays; practise asking a follow-up question.
+- **Check for understanding:** "Why did the rabbit help Taylor more than the other animals?" → The rabbit listened quietly and let Taylor share feelings, instead of telling Taylor what to do.
+- **Differentiation:** support: listening checklist / stretch: summarise what a partner said
+- **Materials:** *The Rabbit Listened* by Cori Doerrfeld
+- **Joy:** "Listen and remember" partner game.
 
-**End-of-unit check:** The child builds a balanced plate, tells an everyday food from a sometimes food, names why sleep and exercise matter, performs Stop-Look-Listen-Think, and knows to stay calm, get an adult and that 999 brings help.
+### Lesson 11 — Fixing a falling-out
+- **Duration:** 20 min
+- **Objective:** "By the end, I can use steps to sort out a disagreement: calm down, take turns to say how you feel, find a fair fix." (CASEL RS/DM)
+- **Hook:** Puppets arguing over a toy: "What could they do?"
+- **Key activity:** Teach steps (stop and calm, "I feel… when…", listen, find a fair fix: take turns, share, choose together); role-play with puppets.
+- **Check for understanding:** "Two friends both want the same swing. Suggest a fair fix." → Take turns with a timer, or play something together.
+- **Differentiation:** support: puppets and step cards / stretch: help two puppets solve a trickier problem
+- **Materials:** puppets, step cards
+- **Joy:** Puppet problem-solving.
 
----
+### Lesson 12 — Unit check: kind community
+- **Duration:** 20 min
+- **Objective:** "By the end, I can describe a good friend, show empathy and use the fix-it steps." (CASEL RS — assessment)
+- **Hook:** "Our class kindness charter!"
+- **Key activity:** Create a class kindness charter; each child adds one promise and demonstrates a fix-it step in role-play.
+- **Check for understanding:** "What will you do if you see someone sitting alone at playtime?" → Ask them to join in or sit with them.
+- **Differentiation:** support: choose a charter promise / stretch: lead a role-play
+- **Materials:** charter poster, puppets
+- **Joy:** Signing the charter with handprints.
 
-## Unit 5 — Money sense
-
-**Essential question:** Where does money come from, and how do I choose what to spend it on?
-**Key vocabulary:** money, coins, notes, card, earn, work, choose, need, want, save.
-**KB source:** Topic 1 — What is money & where it comes from; Topic 2 — Needs vs wants.
-
-### Lesson 17 — What is money & where it comes from
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say that money is mostly earned by working, and there's only so much of it."
-- **Hook:** Show real coins, a note and a card — "What are these for? Where do grown-ups get them?"
-- **Key activity:** Explain money is what we use to pay for things, and we mostly get it by working at a job. Play a "shop" with play coins and a small fixed budget — children pick what they can afford and see that buying one thing means not another.
-- **Check for understanding:** Where does most money come from? → From working/doing a job and being paid (also gifts/pocket money).
-- **Differentiation:** support: shop with just two priced items / stretch: work out what's left after a purchase, or whether they can afford two items.
-- **Materials:** play coins, price tags, toy "shop" items.
-- **Joy:** running a real pretend shop with a till and play money.
-
-### Lesson 18 — Needs and wants
-- **Duration:** 25 min
-- **Objective:** "By the end, I can sort things into needs and wants and say needs come first."
-- **Hook:** "Desert island! You can only take a few things — what do you really *need* to be safe and well?"
-- **Key activity:** Teach need (must have to live and be well — food, water, home, warm clothes) vs want (nice to have — toys, sweets). Sort picture cards into "need" and "want," then each child picks one *want* worth saving up for.
-- **Check for understanding:** Is food a need or a want? Is a video game a need or a want? → Food = need; video game = want.
-- **Differentiation:** support: sort three clear cards (water, coat, toy) / stretch: explain why needs come before wants when money is limited.
-- **Materials:** need/want picture cards, two sorting hoops or trays.
-- **Joy:** the "desert island" imagining of what they'd take to survive.
-
-**End-of-unit check:** The child says money is mostly earned and limited, chooses within a small budget, and sorts items into needs and wants — explaining that needs come first.
+**End-of-unit check:** The child explains two qualities of a good friend, shows how to include someone who is left out, and role-plays the steps to sort out a disagreement.
 
 ---
 
-## Unit 6 — Our world (looking after our planet & working together)
+## Unit 3 — Growth mindset and resilience
 
-**Essential question:** How can small everyday choices help look after our world — and how do we do big jobs together?
-**Key vocabulary:** look after, care, reduce, reuse, recycle, waste, litter, switch off, save water, team, together, job, help.
-**KB source:** Builds on the KB's warm "look after ourselves and our world" framing (extends Topics 6–7 self-care and Topic 10 teamwork to age-appropriate sustainability and collaboration).
+**Essential question:** What can I do when learning feels hard?
 
-### Lesson 19 — Looking after our world
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name one small thing I can do to look after our planet."
-- **Hook:** Two pictures: a park full of litter, a clean park with happy animals — "Which would you rather play in? How did each one happen?"
-- **Key activity:** Talk about reduce, reuse, recycle in kid-words (use less, use again, sort the right bin) plus switching off lights and turning off the tap. Children sort pretend waste into recycle/rubbish bins and choose one "planet promise" to keep.
-- **Check for understanding:** Name one small thing you can do to look after our planet. → e.g. put litter in the bin, recycle, switch off a light, turn off the tap, reuse something.
-- **Differentiation:** support: sort just two items into the right bin / stretch: explain why looking after our world helps animals and people.
-- **Materials:** clean/littered park pictures, pretend "waste" items, recycle and rubbish bins.
-- **Joy:** the bin-sorting game and making a personal "planet promise" badge.
+**Key vocabulary:** brain, grow, practise, mistake, challenge, effort, strategy, yet, persevere, give up, keep going, resilient, proud, feedback
 
-### Lesson 20 — Working together as a team
-- **Duration:** 30 min
-- **Objective:** "By the end, I can do a job as part of a team and say why teamwork helps."
-- **Hook:** "Can one ant carry a giant crumb alone? What if lots of ants help?"
-- **Key activity:** Discuss that big jobs are easier and more fun together — everyone has a part. In small teams, children do a shared challenge (build a tall tower, or tidy a "messy" area together), sharing jobs and taking turns, then reflect on how teamwork helped.
-- **Check for understanding:** Why is it good to work together as a team? → A big job gets easier, faster and more fun when everyone helps and shares the jobs.
-- **Differentiation:** support: give each child one clear role in the team / stretch: notice and name a teammate who helped, and what made the team work well.
-- **Materials:** building blocks or a tidy-up challenge area.
-- **Joy:** the buzz of building something tall as a team and cheering the result.
+### Lesson 13 — My elastic brain
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain that my brain gets stronger when I practise and try hard things." (CASEL SA)
+- **Hook:** Read *Your Fantastic Elastic Brain* by JoAnn Deak: "Your brain can stretch!"
+- **Key activity:** Discuss how practice builds brain connections; stretch elastic bands; share something you learned by practising (riding a bike, reading).
+- **Check for understanding:** "What happens in your brain when you practise something hard?" → It grows stronger connections, so the thing gets easier.
+- **Differentiation:** support: picture before/after of learning a skill / stretch: explain to a partner using an example
+- **Materials:** *Your Fantastic Elastic Brain* by JoAnn Deak, elastic bands
+- **Joy:** "I used to… now I can…" sharing.
 
-**End-of-unit check:** The child names a small action to care for the planet, sorts waste correctly, and completes a shared task as a cooperative team member who can say why teamwork helps.
+### Lesson 14 — Mistakes help me learn
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain how a mistake can help me learn and say something helpful to myself after a mistake." (CASEL SM)
+- **Hook:** Read *The Girl Who Never Made Mistakes* by Mark Pett and Gary Rubinstein: "What happened when Beatrice finally made one?"
+- **Key activity:** Discuss the story; "beautiful mistakes" drawing game (turn a scribble into a picture); practise helpful self-talk ("I can't do it YET", "Let me try another way").
+- **Check for understanding:** "What could you say to yourself after getting a sum wrong?" → Something helpful like "I can find my mistake and try again."
+- **Differentiation:** support: self-talk cards / stretch: explain what they learned from a real mistake
+- **Materials:** the book, paper, crayons
+- **Joy:** Beautiful-mistake drawings.
+
+### Lesson 15 — Try another way
+- **Duration:** 20 min
+- **Objective:** "By the end, I can choose a different strategy when I'm stuck, instead of giving up." (CASEL SM/DM)
+- **Hook:** Read *The Most Magnificent Thing* by Ashley Spires: "What did the girl do when her invention kept going wrong?"
+- **Key activity:** Make a "when I'm stuck" strategy list (reread, try another way, use equipment, ask a friend, take a break, ask an adult); tackle a hard puzzle using it.
+- **Check for understanding:** "What did the girl do that helped her finally succeed?" → She took a break, calmed down and looked again at what worked and what didn't.
+- **Differentiation:** support: 3 strategies / stretch: coach a partner through a puzzle using the list
+- **Materials:** *The Most Magnificent Thing* by Ashley Spires, puzzles, strategy cards
+- **Joy:** Puzzle challenge.
+
+### Lesson 16 — Bouncing back: resilience
+- **Duration:** 20 min
+- **Objective:** "By the end, I can describe a time I bounced back from something hard and what helped me." (CASEL SM/SA)
+- **Hook:** Read *After the Fall* by Dan Santat: "How does Humpty Dumpty get back up?"
+- **Key activity:** Discuss fear and courage; bounce-back ball game (share a time you kept going when you pass the ball); make a "bounce-back" badge.
+- **Check for understanding:** "What helped Humpty Dumpty climb again?" → Taking small brave steps and facing his fear bit by bit.
+- **Differentiation:** support: sentence starters / stretch: suggest small steps for a friend facing a fear
+- **Materials:** *After the Fall* by Dan Santat, soft ball, badge templates
+- **Joy:** Bounce-back ball game.
+
+### Lesson 17 — Unit check: my growth story
+- **Duration:** 20 min
+- **Objective:** "By the end, I can set a small learning goal and explain the strategies I'll use when it gets hard." (CASEL SM — assessment)
+- **Hook:** "What do you want to be able to do by the end of the year?"
+- **Key activity:** Each child sets a goal (e.g. tie shoelaces, read a chapter book), draws the steps and chooses two "when I'm stuck" strategies.
+- **Check for understanding:** "What will you say to yourself if your goal gets hard?" → A helpful phrase ("I can't do it yet, but I'm getting there").
+- **Differentiation:** support: goal from a menu / stretch: plan three steps with dates
+- **Materials:** goal sheets
+- **Joy:** Goal tree display.
+
+**End-of-unit check:** The child sets a small learning goal, names two strategies to use when stuck and explains why mistakes help us learn.
 
 ---
 
-## End-of-year outcomes
+## Unit 4 — Money sense
 
-By the end of Year 1, a child should reliably show:
+**Essential question:** How can I make good choices with money?
 
-1. **Emotional awareness** — names their feelings, knows all feelings are okay and pass, and uses a calming tool (slow breathing, a break) when a feeling gets big.
-2. **Kind friendship** — listens well, shares and takes turns fairly, does kind acts, and uses calm steps ("I felt…", a fair fix, ask an adult) when friends fall out.
-3. **A growth mindset** — keeps trying when things are hard, treats mistakes as learning, and adds the magic word "yet."
-4. **Healthy self-care** — chooses mostly healthy "fuel," knows treats are sometimes-foods, and values sleep and daily active play.
-5. **Everyday safety** — crosses roads with Stop-Look-Listen-Think and a grown-up, and knows to stay calm, get an adult and that 999 brings help.
-6. **Money sense** — understands money is mostly earned and limited, and sorts needs from wants with needs first.
-7. **Care for our world** — names and does small everyday actions to look after the planet (bin litter, recycle, save water and power).
-8. **Collaboration** — works happily as part of a team, sharing jobs and taking turns, and can say why working together helps.
+**Key vocabulary:** money, coin, note, earn, job, pay, price, cost, save, spend, share, give, goal, piggy bank, bank, need, want, choice, value
+
+### Lesson 18 — Where does money come from?
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain that people earn money by working and use it to pay for things." (FE — earning)
+- **Hook:** "Does money grow on trees? Where does it really come from?"
+- **Key activity:** Discuss jobs people do and that they are paid; money travels (card, cash, phone); role-play a job and "payday".
+- **Check for understanding:** "Your friend says, 'Grown-ups just get money out of the cash machine — it's free!' What would you tell them?" → The cash machine only gives out money people have already earned by working and kept in the bank — it isn't free.
+- **Differentiation:** support: match jobs to pictures / stretch: explain why people pay for goods and services
+- **Materials:** job picture cards, play money
+- **Joy:** Jobs role-play.
+
+### Lesson 19 — Needs and wants (retrieval) and choices
+- **Duration:** 20 min
+- **Objective:** "By the end, I can sort needs and wants and explain that choosing one thing means not having another." (FE — choices)
+- **Hook:** "You have 10 coins. A book costs 6 and a toy costs 8. Can you have both?"
+- **Key activity:** Retrieve needs/wants; "choices" game — pick from a shop with a limited budget and explain what you gave up.
+- **Check for understanding:** "You chose the toy. What did you give up, and was it a good choice?" → The book — a reasoned answer about the choice.
+- **Differentiation:** support: two choices / stretch: explain whether each choice was a need or want
+- **Materials:** play money, price-tagged items
+- **Joy:** The choices shop.
+
+### Lesson 20 — Saving for a goal
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain what saving means and plan how to save for something I want." (FE — saving)
+- **Hook:** Read *A Chair for My Mother* by Vera B. Williams: "How did the family get the chair?"
+- **Key activity:** Discuss saving in a jar over time; make a saving goal chart (e.g. save 2 coins a week — how many weeks for 10?) (link: Maths).
+- **Check for understanding:** "Why did the family save coins in a jar instead of spending them?" → To collect enough money for something big they really needed.
+- **Differentiation:** support: count up saved coins with a number line / stretch: work out weeks to reach a goal
+- **Materials:** *A Chair for My Mother* by Vera B. Williams, jars, play coins, charts
+- **Joy:** Decorate a savings jar.
+
+### Lesson 21 — Keeping money safe: banks
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain why people keep money in a bank and how a bank keeps it safe." (FE — managing money)
+- **Hook:** "Where is the safest place for your savings — under the bed or in a bank?"
+- **Key activity:** Discuss piggy banks vs banks; role-play a class bank with deposit slips; note that banks keep records.
+- **Check for understanding:** "Why might a bank be safer than keeping money at home?" → It's locked and protected, and the bank keeps a record of your money.
+- **Differentiation:** support: picture sort / stretch: explain what a record (statement) shows
+- **Materials:** play money, deposit slips, a "bank" desk
+- **Joy:** Class bank role-play.
+
+### Lesson 22 — Sharing and giving
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain how sharing money, time or things can help others, including through charities." (FE — giving; SDG 1)
+- **Hook:** Read *Beatrice's Goat* by Page McBrier: "How did one goat change Beatrice's life in Uganda?"
+- **Key activity:** Discuss how a gift helped a family; ways to give (money, time, toys); plan a class giving idea.
+- **Check for understanding:** "How did the goat help Beatrice go to school?" → The family sold the goat's milk, which earned money to pay for school.
+- **Differentiation:** support: picture sequence / stretch: suggest a way the class could help others
+- **Materials:** *Beatrice's Goat* by Page McBrier, world map
+- **Joy:** Planning a class giving project.
+
+### Lesson 23 — Unit check: the money-choices game
+- **Duration:** 20 min
+- **Objective:** "By the end, I can make and explain sensible money choices: earning, saving, spending and sharing." (FE — assessment)
+- **Hook:** "Money-choices board game!"
+- **Key activity:** Board game with earning, saving, spending and giving squares; explain choices; reflect.
+- **Check for understanding:** "You land on 'birthday money'. What would you do with it and why?" → A reasoned plan (e.g. save some for a goal and spend a little).
+- **Differentiation:** support: play with an adult / stretch: keep a running total (link: Maths)
+- **Materials:** board game, play money, dice
+- **Joy:** The board game.
+
+**End-of-unit check:** The child explains where money comes from, sorts needs and wants, plans how many weeks it will take to save for a goal, and gives one reason people share or give.
+
+---
+
+## Unit 5 — Caring for our planet
+
+**Essential question:** How can I help look after our planet?
+
+**Key vocabulary:** planet, nature, environment, waste, rubbish, reduce, reuse, recycle, compost, energy, electricity, water, save, pollution, habitat, wildlife, sustainable
+
+### Lesson 24 — Our amazing planet
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain why our planet is special and why we need to look after it." (SDG 13, 15)
+- **Hook:** Read *Here We Are* by Oliver Jeffers: "What would you tell a new baby about our planet?"
+- **Key activity:** Discuss what the Earth gives us (air, water, food, homes for animals); nature walk to notice living things.
+- **Check for understanding:** "Name two things the Earth gives us that we couldn't live without." → e.g. clean water and air (or food).
+- **Differentiation:** support: picture sort / stretch: explain how people depend on plants
+- **Materials:** *Here We Are* by Oliver Jeffers, clipboards for a nature walk
+- **Joy:** Nature walk.
+
+### Lesson 25 — Reduce, reuse, recycle
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain reduce, reuse and recycle and give an example of each." (SDG 12; link: Science materials)
+- **Hook:** Read *The Tin Forest* by Helen Ward: "How did the old man turn rubbish into a forest?"
+- **Key activity:** Sort a (clean) rubbish bag into reduce/reuse/recycle ideas; make something new from junk.
+- **Check for understanding:** "Which is best to do first: reduce, reuse or recycle? Why?" → Reduce — making less rubbish in the first place saves the most.
+- **Differentiation:** support: picture examples / stretch: plan a reduce idea for lunchtime
+- **Materials:** *The Tin Forest* by Helen Ward, clean junk, glue, tape
+- **Joy:** Junk-model reuse creations.
+
+### Lesson 26 — Saving water
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain why clean water is precious and show two ways to save water." (SDG 6)
+- **Hook:** "In some places, children walk a long way every day to collect water. How much do we use?"
+- **Key activity:** Measure how much water runs while brushing teeth with the tap on vs off (link: Maths capacity); discuss water around the world; make a water-saving promise.
+- **Check for understanding:** "How does turning the tap off while brushing save water?" → Water isn't wasted running down the drain while you're not using it.
+- **Differentiation:** support: picture promise / stretch: calculate water saved in a week
+- **Materials:** measuring jug, stopwatch, bowl
+- **Joy:** Water-saving experiment.
+
+### Lesson 27 — Saving energy
+- **Duration:** 20 min
+- **Objective:** "By the end, I can find ways to save electricity at school and home." (SDG 7, 13)
+- **Hook:** "Energy detectives: where is electricity being wasted in our school?"
+- **Key activity:** Hunt for lights left on and devices on standby; make "switch off" reminder signs; discuss why saving energy helps the planet.
+- **Check for understanding:** "Why is switching lights off good for the planet?" → Making electricity often uses fuels that cause pollution; using less helps.
+- **Differentiation:** support: picture checklist / stretch: plan an energy monitor rota
+- **Materials:** checklists, card for signs
+- **Joy:** Energy detective patrol.
+
+### Lesson 28 — Helping wildlife
+- **Duration:** 25 min
+- **Objective:** "By the end, I can make something that helps wildlife and explain how it helps." (SDG 15; link: Science habitats)
+- **Hook:** Read *Tidy* by Emily Gravett: "What happened when Pete the badger tidied the whole forest?"
+- **Key activity:** Discuss the story's message; make a bird feeder (pine cone, seeds) or plant wildflower seeds.
+- **Check for understanding:** "What did Pete learn about nature at the end of the story?" → Nature needs its messy, wild places — tidying it all away harmed the animals' homes.
+- **Differentiation:** support: guided making / stretch: explain which animals the feeder or flowers help
+- **Materials:** *Tidy* by Emily Gravett, pine cones, seeds, string, or wildflower seeds and pots; allergy check (nut-free seeds)
+- **Joy:** Hanging bird feeders.
+
+### Lesson 29 — Unit check: our green promise
+- **Duration:** 20 min
+- **Objective:** "By the end, I can make a class green promise with actions for waste, water, energy and nature." (SDG — assessment)
+- **Hook:** "Planet protectors, it's time for our promise!"
+- **Key activity:** Groups create one promise per area; present; sign a class promise poster; plan how to check it.
+- **Check for understanding:** "Which promise will make the biggest difference, and why?" → A reasoned choice.
+- **Differentiation:** support: choose from promise cards / stretch: plan how to measure progress
+- **Materials:** poster, promise cards
+- **Joy:** Planet-protector badges.
+
+**End-of-unit check:** The child explains reduce, reuse and recycle with examples, and one way each to save water and energy and to help wildlife, and why it matters.
+
+---
+
+## Unit 6 — One world: global citizenship and service
+
+**Essential question:** How are people around the world different and the same, and how can I help make things fair?
+
+**Key vocabulary:** world, country, culture, language, tradition, celebration, similar, different, respect, fair, unfair, rights, needs, community, volunteer, service
+
+### Lesson 30 — We are all different, we are all the same
+- **Duration:** 20 min
+- **Objective:** "By the end, I can describe ways people are different and ways we are all the same." (CASEL SO; SDG 10)
+- **Hook:** Read *Whoever You Are* by Mem Fox: "Children all over the world — what's the same inside?"
+- **Key activity:** Discuss the book; "same and different" partner interviews (food, languages, families, what makes us laugh); class "our world" map of family connections.
+- **Check for understanding:** "Name something that's different about you and a friend, and something that's the same." → Specific examples.
+- **Differentiation:** support: picture prompts / stretch: explain why differences make a class stronger
+- **Materials:** *Whoever You Are* by Mem Fox, world map, pins
+- **Joy:** Family-connection map.
+
+### Lesson 31 — Celebrations around the world
+- **Duration:** 20 min
+- **Objective:** "By the end, I can describe a celebration from another culture and compare it with one I know." (CASEL SO)
+- **Hook:** "Lights, lanterns, feasts and fireworks — who celebrates what, and why?"
+- **Key activity:** Families share celebrations (e.g. Diwali, Eid al-Fitr, Lunar New Year, Hanukkah, Christmas, Nowruz); compare features (food, light, family, giving).
+- **Check for understanding:** "What is one thing many celebrations have in common?" → e.g. families gathering, special food, lights, giving gifts.
+- **Differentiation:** support: picture matching / stretch: interview a family member about a celebration
+- **Materials:** photos, objects shared by families, calendar
+- **Joy:** Celebration show-and-tell.
+
+### Lesson 32 — Fair and unfair: everyone's rights
+- **Duration:** 20 min
+- **Objective:** "By the end, I can explain that all children have rights, such as to be safe, to learn and to play." (SDG 4, 10; UN Convention on the Rights of the Child)
+- **Hook:** "Is it fair if only some children in the world get to go to school?"
+- **Key activity:** Introduce a few child-friendly rights (to be safe, to learn, to play, to have a name, to be heard); sort "wants" and "rights"; draw a right.
+- **Check for understanding:** "Why is going to school a right and not just a want?" → Every child needs education to grow and have a good life — it's something all children should have.
+- **Differentiation:** support: picture cards / stretch: suggest how people can help children get their rights
+- **Materials:** child-friendly rights cards (e.g. UNICEF resources)
+- **Joy:** Rights bunting.
+
+### Lesson 33 — Helping our community
+- **Duration:** 20 min
+- **Objective:** "By the end, I can identify people who help our community and plan a way our class can help." (CASEL DM; UK Relationships Ed RR)
+- **Hook:** "Who helps us every day that we might not notice?"
+- **Key activity:** List community helpers (cleaners, cooks, nurses, bus drivers, volunteers); write thank-you cards; choose a service project (litter pick, food-bank collection, reading to younger children).
+- **Check for understanding:** "Is the nurse at the hospital a volunteer? Is the grandparent who helps at our school fair for free? Explain." → The nurse is not — it's their paid job; the grandparent is a volunteer — they help without being paid, because they care.
+- **Differentiation:** support: picture thank-you cards / stretch: plan the project steps
+- **Materials:** card, pens, project planning sheet
+- **Joy:** Delivering thank-you cards.
+
+### Lesson 34 — Our service project
+- **Duration:** 25 min
+- **Objective:** "By the end, I can take part in a class service project and explain how it helped." (CASEL DM; SDG 11)
+- **Hook:** "Today we make a difference!"
+- **Key activity:** Carry out the chosen project with adults (e.g. school litter pick with gloves, packing a food-bank box, reading buddies); reflect afterwards.
+- **Check for understanding:** "Who did our project help, and how do you know?" → A named group and evidence (e.g. the playground is cleaner).
+- **Differentiation:** support: paired roles / stretch: team-leader role
+- **Materials:** depends on project (gloves, litter pickers, boxes, books); safety: adult supervision and risk assessment
+- **Joy:** Doing real good.
+
+### Lesson 35 — Year review: my character journey
+- **Duration:** 20 min
+- **Objective:** "By the end, I can describe how I have grown in kindness, resilience and responsibility this year." (CASEL SA — end-of-year review)
+- **Hook:** Read *The Day You Begin* by Jacqueline Woodson: "What brave things did you begin this year?"
+- **Key activity:** Revisit the feelings toolbox, kindness charter, goal tree, savings chart and green promise; each child chooses one they're proud of and shares.
+- **Check for understanding:** "Which life skill from this year will you use most next year, and how?" → A named skill and a specific use.
+- **Differentiation:** support: picture reflection sheet / stretch: write advice for next year's Year 1
+- **Materials:** *The Day You Begin* by Jacqueline Woodson, class displays, reflection sheets
+- **Joy:** "Character awards" given by classmates.
+
+**End-of-unit check:** The child describes ways people around the world are different and the same, names two children's rights, and explains how the class service project helped others.
+
+## Books & resources
+
+- *In My Heart: A Book of Feelings* by Jo Witek — names a wide range of feelings beautifully (Unit 1).
+- *Ravi's Roar* by Tom Percival — anger and how to handle it (Unit 1).
+- *Silly Billy* by Anthony Browne — worries and Guatemalan worry dolls (Unit 1).
+- *Enemy Pie* by Derek Munson — how enemies can become friends (Unit 2).
+- *The Invisible Boy* by Trudy Ludwig — noticing and including others (Unit 2).
+- *How Full Is Your Bucket? For Kids* by Tom Rath and Mary Reckmeyer — a simple, memorable model of kindness (Unit 2).
+- *The Rabbit Listened* by Cori Doerrfeld — the power of listening (Unit 2).
+- *Your Fantastic Elastic Brain* by JoAnn Deak — the science of learning for young children (Unit 3).
+- *The Girl Who Never Made Mistakes* by Mark Pett and Gary Rubinstein — the freedom of making mistakes (Unit 3).
+- *The Most Magnificent Thing* by Ashley Spires — frustration, persistence and trying another way (Unit 3).
+- *After the Fall* by Dan Santat — courage and getting back up (Unit 3).
+- *A Chair for My Mother* by Vera B. Williams — a family saves together (Unit 4).
+- *Beatrice's Goat* by Page McBrier — a gift that changed a Ugandan girl's life (Unit 4).
+- *Here We Are* by Oliver Jeffers — a tour of our planet for a new arrival (Unit 5).
+- *The Tin Forest* by Helen Ward — turning waste into wonder (Unit 5).
+- *Tidy* by Emily Gravett — why nature needs its wild places (Unit 5).
+- *Whoever You Are* by Mem Fox — we're different on the outside, the same inside (Unit 6).
+- *The Day You Begin* by Jacqueline Woodson — courage to share who you are (Unit 6).
+- **Resources:** CASEL framework (competencies and practices); UNICEF child-friendly rights resources; WWF and national environmental education resources; a class calm corner.
+
+## End-of-year mastery checks
+
+1. Names a wide range of feelings, notices body clues and uses a calming strategy. *(Seen: scenario conversation.)*
+2. Describes a good friend, includes others and uses steps to sort out a disagreement. *(Seen: role-play.)*
+3. Explains that the brain grows with practice and uses a strategy when stuck. *(Seen: goal plan.)*
+4. Explains earning, needs vs wants, choices, saving for a goal and giving. *(Seen: money game.)*
+5. Explains reduce–reuse–recycle and ways to save water and energy and help wildlife. *(Seen: green promise.)*
+6. Describes similarities and differences between people and cultures and names children's rights. *(Seen: discussion.)*
+7. Takes part in a service project and explains its impact. *(Seen: reflection.)*
+
+## Teacher guidance
+
+**How to teach it well.** Keep lessons warm, short and practical; use the class's real situations (playground disagreements, a hard maths lesson) as teachable moments all week, not just in the lesson. Model the language yourself ("I'm feeling frustrated, so I'm going to take a breath").
+
+**Sensitivities.** Some children have difficult experiences with feelings, family, money or loss. Never ask children to share more than they want; offer "pass" options; follow safeguarding procedures for any disclosure. When discussing money, avoid comparing families' wealth — use play money and neutral scenarios.
+
+**Inclusion and culture.** Invite families to share languages, celebrations and traditions; ensure every child sees their culture reflected across the year.
+
+**Vertical alignment.** Foundation introduced feelings, kindness, "yet", needs and wants and caring for the world. Year 2 (ages 7–8) moves to causes of feelings, feeling size and helpful thoughts, friendship dilemmas and bullying vs conflict, how the brain learns and feedback, how we pay and spend–save–give budgeting, where rubbish and electricity go, rights with responsibilities, fairness vs sameness and facts vs opinions — with new picture books, since this year's (e.g. *Silly Billy*, *The Invisible Boy*, *Your Fantastic Elastic Brain*, *A Chair for My Mother*) have been used.

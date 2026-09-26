@@ -5,19 +5,20 @@
  * to fill the placeholders so the templates read naturally.
  */
 import type {
-  Kid, Course, Topic, Lesson, Session, LearnerModel, LessonAnalysis, PromptTemplate
+  Kid, Course, Topic, Lesson, LessonFull, Session, LearnerModel, LessonAnalysis, PromptTemplate
 } from '../../../shared/types.ts';
 import { subjectProfile } from './subjects.ts';
 import {
   persona, safetyRules, TEACHING_PRINCIPLES,
   syllabusPrompt, lessonAnalysisPrompt, lessonPlanPrompt,
-  teachSystemPrompt, teachKickoff, reportPrompt, summaryPrompt
+  teachSystemPrompt, voicingSystemPrompt, teachKickoff, reportPrompt, summaryPrompt
 } from './prompts.ts';
+import { flattenSystem } from './provider.ts';
 
 // --- sample data (placeholders only) ---------------------------------------
 
 const kid = {
-  id: 'sample', name: 'Alex', age: 7, gradeLevel: 'Year 2',
+  id: 'sample', name: 'Alex', age: 7, gradeLevel: 'Year 1',
   interests: ['soccer', 'space', 'drawing'],
   avatar: { character: 'sage', hue: 210, voice: 'default', rate: 1 },
   createdAt: '2026-01-01T00:00:00.000Z'
@@ -69,6 +70,14 @@ const lesson = {
   status: 'approved', createdAt: '2026-01-01T00:00:00.000Z', updatedAt: '2026-01-01T00:00:00.000Z'
 } as unknown as Lesson;
 
+// An authored (classai-lesson/1) lesson adds what MUST land + key words.
+const authoredLesson = {
+  ...lesson,
+  format: 'classai-lesson/1',
+  emphasize: ['Adding a negative number moves you LEFT on the number line', 'Say it: "plus a negative means step back"'],
+  vocabulary: [{ term: 'integer', definition: 'a whole number that can be positive, negative, or zero' }]
+} as unknown as LessonFull;
+
 const session = {
   id: 'sample', topic: 'Adding Integers',
   working: { checksPassed: 2, checksTotal: 3, struggleStreak: 0, momentum: 'flowing', turnsSinceCheck: 1 },
@@ -116,6 +125,12 @@ export function promptTemplates(): PromptTemplate[] {
       description: 'The complete instructions the tutor receives every turn: persona, what it knows about your child, the lesson plan, the visual “tool belt”, safety rules, and the required reply format. (Shown with the sample learner.)',
       system: teachSystemPrompt(kid, course, lesson, profile, model),
       user: teachKickoff(kid, lesson, false)
+    },
+    {
+      key: 'voice',
+      title: 'Authored lesson turn — voicing prompt',
+      description: 'Used for the ready-made curriculum lessons. The lesson’s questions and pictures are fixed by teachers, so the tutor only gets what it needs to SAY things well: its persona, what must land, how to give feedback, the safety rules, a short reply format, and what it knows about your child. Each turn it also receives the lesson state and the exact script or remedy to voice. (Shown with the sample learner.)',
+      system: flattenSystem(voicingSystemPrompt(kid, course, authoredLesson, profile, model))
     },
     {
       key: 'syllabus',

@@ -19,6 +19,7 @@ import type {
   Lesson,
   LessonBeatFull,
   PracticeItem,
+  LessonFull,
   LearnerModel,
   WorkingMemory,
   SubjectProfile,
@@ -307,6 +308,85 @@ export function teachSystemPrompt(
   ]
     .filter(Boolean)
     .join('\n');
+}
+
+// ---------------------------------------------------------------------------
+// Voicing an AUTHORED lesson (classai-lesson/1)
+//
+// In authored mode the director owns everything but the words: it picks the
+// beat, passes the authored blocks through untouched, and sets awaitResponse /
+// autoAdvance itself — any blocks the model returns are discarded. So the model
+// needs none of the free-teaching tool belt (BLOCK_CATALOG) or its long turn
+// contract; it needs its voice, the child, safety, what must land, how to give
+// feedback, and a short reply shape. Kept deliberately small (it is sent every
+// turn) and split so the stable part can be prompt-cached (see provider.ts).
+// ---------------------------------------------------------------------------
+
+/** Feedback/voicing principles for authored lessons — no block-building advice. */
+export const VOICING_PRINCIPLES = `How you voice this lesson:
+- The lesson is written by teachers. The app shows the authored blocks (questions, pictures, boards) and decides when to move on. You never create, change, or describe blocks that aren't there.
+- Each turn a LESSON STATE + DIRECTIVE tells you what to do. Obey it. Say a SCRIPT essentially verbatim, in character.
+- Personalize ONLY names and interest nouns. NEVER change a number, answer, spelling target, or fact.
+- ONE idea per turn, then hand it back. If a block is shown, your speech is a short setup — don't read its question out word-for-word.
+- Right answer: name the SPECIFIC good thinking ("you traded ten ones for a ten") — never just "good job" or "you're so clever".
+- Wrong answer: do NOT give the answer (unless the directive says to model it). Use the remedy or hint you are given; otherwise ONE small question that moves them forward.
+- Mistakes are information, never failures. Keep it warm and emotionally safe.`;
+
+/** The short reply shape for authored voicing turns. The director sets the rest. */
+const VOICING_CONTRACT = `Reply with ONLY one JSON object (no prose, no code fences):
+{
+  "speech": string,      // what you SAY aloud now — short, warm, in character
+  "emotion": "neutral"|"happy"|"encouraging"|"celebrating"|"thinking"|"curious"|"gentle",
+  "answerEval": "correct"|"partial"|"incorrect"|"na",  // the learner's LAST reply; "na" if none or it was a prediction
+  "assessment": string,  // private, NOT spoken: your read on their thinking right now
+  "memoryUpdates": [     // what you learned about the learner this turn ([] if nothing)
+    {"topic": string, "mastery": 0..1, "note"?: string, "strength"?: string, "struggle"?: string, "misconception"?: string, "interest"?: string}
+  ],
+  "concern": string      // OPTIONAL: only if a parent should be told something
+}
+Do not add blocks or any other fields — the app controls what is shown and when the lesson moves on.`;
+
+/** A system prompt split for prompt caching: `cached` is stable for the whole
+ *  lesson; `dynamic` (the learner context) may change turn to turn. */
+export interface SplitSystemPrompt {
+  cached: string;
+  dynamic?: string;
+}
+
+/**
+ * System prompt for VOICING an authored lesson. `cached` holds the parts that
+ * stay byte-identical for the whole lesson (persona, lesson summary, principles,
+ * safety, reply contract); `dynamic` holds the learner context, whose mastery
+ * line is updated between turns. Keep volatile data out of `cached`.
+ */
+export function voicingSystemPrompt(
+  kid: Kid,
+  course: Course,
+  lesson: Lesson | LessonFull,
+  profile: SubjectProfile,
+  model: LearnerModel | undefined
+): SplitSystemPrompt {
+  const full = lesson as Partial<LessonFull>;
+  const a = lesson.analysis;
+  const vocab = (full.vocabulary || []).map((v) => `${v.term} (${v.definition})`).join('; ');
+  const lessonSummary = [
+    `LESSON: "${lesson.title}" — topic "${lesson.topic}" in ${course.title}.`,
+    `Objectives: ${(lesson.objectives.join('; ') || lesson.topic).replace(/\.$/, '')}.`,
+    full.emphasize?.length ? `MUST land (the big ideas): ${full.emphasize.join(' | ')}` : '',
+    vocab ? `Key words: ${vocab}.` : '',
+    a && a.misconceptions.length ? `Misconceptions to catch: ${a.misconceptions.join('; ')}.` : '',
+    `Teaching approach for ${profile.label}: ${profile.pedagogy}`
+  ]
+    .filter(Boolean)
+    .join('\n');
+  const cached = [
+    persona(kid.avatar.character, kid.name),
+    lessonSummary,
+    VOICING_PRINCIPLES,
+    safetyRules(kid.age),
+    VOICING_CONTRACT
+  ].join('\n\n');
+  return { cached, dynamic: `ABOUT THE LEARNER (kept up to date):\n${renderLearnerContext(kid, model)}` };
 }
 
 /** First user message that kicks off a lesson. */

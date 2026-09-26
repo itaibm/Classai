@@ -153,8 +153,8 @@ export function Ordering({ block, active, onComplete }: { block: OrderingBlock; 
               <span className="grow">{item.text}</span>
               {!checked && (
                 <span className="order-moves">
-                  <button disabled={!active || i === 0} onClick={() => move(i, -1)} aria-label="up">▲</button>
-                  <button disabled={!active || i === order.length - 1} onClick={() => move(i, 1)} aria-label="down">▼</button>
+                  <button type="button" disabled={!active || i === 0} onClick={() => move(i, -1)} aria-label={`Move “${item.text}” up`}>▲</button>
+                  <button type="button" disabled={!active || i === order.length - 1} onClick={() => move(i, 1)} aria-label={`Move “${item.text}” down`}>▼</button>
                 </span>
               )}
             </li>
@@ -180,6 +180,14 @@ export function Categorize({ block, active, onComplete }: { block: CategorizeBlo
     setPlaced({ ...placed, [sel]: bucket });
     setSel(null);
   }
+  /** Changed your mind? Tap a placed item (before Check) to send it back to the pool. */
+  function unplace(i: number) {
+    if (!active || checked) return;
+    const next = { ...placed };
+    delete next[i];
+    setPlaced(next);
+    setSel(null);
+  }
   const allPlaced = items.every((_, i) => placed[i]);
 
   function check() {
@@ -195,25 +203,51 @@ export function Categorize({ block, active, onComplete }: { block: CategorizeBlo
       <div className="cat-tray">
         {items.map((it, i) =>
           placed[i] ? null : (
-            <button key={i} className={`chip-btn ${sel === i ? 'sel' : ''}`} disabled={!active || checked} onClick={() => setSel(i)}>
+            <button key={i} type="button" className={`chip-btn ${sel === i ? 'sel' : ''}`} aria-pressed={sel === i} disabled={!active || checked} onClick={() => setSel(sel === i ? null : i)}>
               {it.text}
             </button>
           )
         )}
       </div>
       <div className="cat-buckets">
-        {block.buckets.map((b) => (
-          <div key={b} className={`cat-bucket ${sel !== null ? 'droppable' : ''}`} onClick={() => place(b)}>
-            <div className="cat-bucket-name">{b}</div>
-            {items.map((it, i) =>
-              placed[i] === b ? (
-                <span key={i} className={`chip ${checked ? (it.bucket === b ? 'ok' : 'bad') : ''}`}>
-                  {it.text}{checked && (it.bucket === b ? ' ✓' : ` → ${it.bucket}`)}
-                </span>
-              ) : null
-            )}
-          </div>
-        ))}
+        {block.buckets.map((b) => {
+          const inBucket = items.map((it, i) => ({ it, i })).filter(({ i }) => placed[i] === b);
+          return (
+            // Pointer users can still tap anywhere in the bucket (big target).
+            <div key={b} className={`cat-bucket ${sel !== null ? 'droppable' : ''}`} onClick={() => place(b)}>
+              {/* The bucket name is the drop target: a real button, so keyboard and
+                  screen-reader users can place the selected item too. */}
+              <button
+                type="button"
+                className="cat-bucket-name"
+                disabled={!active || checked || sel === null}
+                aria-label={sel !== null ? `Put “${items[sel]?.text ?? ''}” in ${b}` : `${b} group`}
+                onClick={(e) => { e.stopPropagation(); place(b); }}
+              >
+                {b}
+              </button>
+              {inBucket.map(({ it, i }) =>
+                checked ? (
+                  <span key={i} className={`chip ${it.bucket === b ? 'ok' : 'bad'}`}>
+                    {it.text}{it.bucket === b ? ' ✓' : ` → ${it.bucket}`}
+                  </span>
+                ) : (
+                  <button
+                    key={i}
+                    type="button"
+                    className="chip cat-placed"
+                    disabled={!active}
+                    aria-label={`${it.text} — in ${b}. Tap to take it back out`}
+                    title="Tap to take it back out"
+                    onClick={(e) => { e.stopPropagation(); unplace(i); }}
+                  >
+                    {it.text} <span aria-hidden="true">↩</span>
+                  </button>
+                )
+              )}
+            </div>
+          );
+        })}
       </div>
       {!checked && <div className="row center" style={{ marginTop: 12 }}><button className="btn" disabled={!active || !allPlaced} onClick={check}>Check</button></div>}
     </div>

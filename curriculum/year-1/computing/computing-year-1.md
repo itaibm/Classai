@@ -1,295 +1,490 @@
-# Computing — Year 1 (ages 5–6, KS1) — Lesson Outlines
+# Year 1 Computing (ages 6–7) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 1 scope drawn from `knowledge-base/subjects/computing-life-skills/computing-ks1-ks2.md`
-> and `online-safety.md`. Follows the lesson-outline format and 8 design principles in
-> [`../README.md`](../README.md).
+> Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Standards reference:
+> `knowledge-base/subjects/computing-life-skills/computing-ks1-ks2.md` and `online-safety.md`. Codes: **UK NC KS1
+> Computing** (AL = algorithms, PR = create and debug programs, LR = logical reasoning to predict, DC = create,
+> organise, store, retrieve digital content, IT = recognise uses of IT beyond school, OS = use technology safely and
+> respectfully) and **CSTA** K–2 standards (1A-AP = algorithms & programming, 1A-DA = data, 1A-CS = computing
+> systems, 1A-IC = impacts of computing, 1A-NI = networks & the internet).
 
 ## Year overview
 
-Year 1 computing begins **away from the screen**. Before children ever touch a floor robot
-or a tablet, they learn that an **algorithm** is just a precise list of steps in the right
-order — building computational thinking through recipes, routines, dances and "literal
-robot" games. From there they meet their first real programs: directing a **floor robot**
-(Bee-Bot style) and snapping **blocks** together in a ScratchJr-style tool, learning to
-predict what their instructions will do and to spot and fix a simple mistake. Alongside
-the computer-science thread runs a **digital-literacy** thread: technology is a *tool* with
-a *purpose*, and children practise the everyday skills of logging in, using a mouse and
-keyboard, and creating and saving their own digital content. The year closes — warmly and
-without fear — with the foundations of **online safety**: be kind, keep personal things
-private, and *always tell a trusted adult* if anything worries you. The arc moves from
-**computational thinking unplugged → simple programming → using technology safely and well**.
+Year 1 computing moves children from following algorithms to **writing, testing and debugging programs** of their
+own — first unplugged and with floor robots, then on screen in **ScratchJr**, a free block-based app designed for
+ages 5–7. Alongside programming, children create digital content (typing, photos, a simple presentation), collect
+and present data, learn how technology is used around them, and deepen their **online safety** habits: kind,
+private, careful and quick to tell a trusted adult.
 
-The year runs to **20 lessons** across **5 units**, each lesson 20–40 minutes, weighted
-heavily toward unplugged, hands-on doing.
+Every programming lesson uses the same routine: **predict → run → check → debug → improve**. Unplugged activities
+come first whenever an idea is new, so children understand the idea before they touch a device. Screen time is
+short and purposeful (no more than about 15 minutes of a lesson).
 
----
+**What this year assumes (from Foundation, ages 5–6):** what an algorithm is; order matters; directing a floor
+robot on a grid; finding a simple bug; using a mouse or touchscreen; painting on screen; being kind online and
+telling a trusted adult.
 
-## Unit 1 — Algorithms unplugged
+**How the year runs.** *Unit 1* writes longer, precise algorithms and breaks problems into parts (decomposition).
+*Unit 2* makes debugging a habit with floor robots. *Unit 3* programs characters in ScratchJr with sequences,
+events and repeats. *Unit 4* creates digital content with text and photos for a real audience. *Unit 5* collects,
+sorts and presents data. *Unit 6* covers technology around us and online safety, ending with a showcase.
 
-**Essential question:** What is a precise instruction, and why does the order matter?
+**What Year 2 relies on:** planning and debugging a sequence; using "when flag clicked" and other events; a first
+repeat; saving and reopening work; making a pictogram; and secure online-safety rules. Year 2 (ages 7–8) moves to
+Scratch on a computer, events and interactive scenes, how the internet works, bar charts and evaluating online
+information.
 
-**Key vocabulary:** algorithm, step, instruction, order, sequence, first/next/then/last,
-precise, robot.
+## Time budget
 
-### Lesson 1 — What is an algorithm?
-- **Duration:** 25 min
-- **Objective:** "By the end, I can say what an algorithm is and give one for an everyday task."
-- **Hook:** "How does a grown-up know exactly how to make your favourite sandwich? They follow a secret list of steps!"
-- **Key activity:** Together, build the jam-sandwich algorithm aloud (get two slices → spread jam → put slices together → cut in half). Children act out each step on a carpet "kitchen." Then each child gives a 3–4 step algorithm for a task they know (brushing teeth, getting dressed).
-- **Check for understanding:** "Give me the algorithm for making toast." → Any sensible *ordered* list, e.g. get bread → put it in the toaster → push it down → wait → take it out.
-- **Differentiation:** support: give 3 picture cards to put in order. / stretch: add a missing step a friend forgot and explain why it matters.
-- **Materials:** picture-step cards (sandwich, teeth, dressing), play food, carpet space.
-- **Joy:** acting out the steps as a "human kitchen," cutting an imaginary sandwich with a flourish.
+36 weeks × 1 lesson = 36 slots; **35 lessons** (1 flex slot for Safer Internet Day activities). Lessons 25–30 min.
 
-### Lesson 2 — Order matters
-- **Duration:** 25 min
-- **Objective:** "By the end, I can show that changing the order of steps can make an algorithm go wrong."
-- **Hook:** Teacher tries to put socks on *over* shoes. "Why won't this work?!"
-- **Key activity:** Take a familiar algorithm (getting dressed) on big cards; deliberately swap two cards and act it out — pants over trousers, shoes before socks. Children laugh, spot the problem, and fix the order. Repeat with washing hands (rinse before soap = silly).
-- **Check for understanding:** "Is 'put your shoes on, then put your socks on' a good algorithm?" → No — the order is wrong; socks must go first.
-- **Differentiation:** support: fix a 2-card swap with picture support. / stretch: scramble 5 steps and re-order the whole sequence.
-- **Materials:** large sequence cards (getting dressed, washing hands), real socks and shoes.
-- **Joy:** catching the teacher being "silly" and being the one to fix it.
-
-### Lesson 3 — Precise instructions: the literal robot
-- **Duration:** 30 min
-- **Objective:** "By the end, I can give a precise, clear instruction so a 'robot' does what I mean."
-- **Hook:** "I'm a robot. I only do EXACTLY what you say. Tell me to make a sandwich…" (teacher squashes the whole jar onto the loaf).
-- **Key activity:** "Literal robot" game — children take turns instructing the teacher-robot, who obeys the *exact* words (including silly results) until the instruction is precise enough. Then pairs direct each other to "draw a house" using only precise steps ("draw a square, then a triangle on top").
-- **Check for understanding:** "Why didn't the robot make the sandwich when you said 'put jam on bread'?" → Because the instruction wasn't precise — it didn't say to open the jar, take some jam and spread it.
-- **Differentiation:** support: choose from a word bank (open, take, spread, put). / stretch: break a big instruction ("make breakfast") into small precise steps.
-- **Materials:** play food + jar, paper and crayons, robot prop (e.g. a box hat).
-- **Joy:** bossing the "robot" around and watching it do exactly — comically — what was said.
-
-### Lesson 4 — Directing a robot on a grid (unplugged)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can give precise forward/turn instructions to move a robot along a grid."
-- **Hook:** A big floor grid with a treasure square. "Can you guide our robot to the treasure with words only?"
-- **Key activity:** On a taped floor grid, one child is the "robot," another gives precise moves: "forward 3, turn right, forward 2, stop." Class checks each step; a missing turn walks the robot into a "wall," then they fix it. Introduce the idea of counting *gaps*, not tiles (a row of 5 tiles needs "forward 4").
-- **Check for understanding:** "I'm a robot at the start of a row of 5 tiles. Tell me precisely how to reach the last tile." → "Move forward 4" (it's 4, not 5).
-- **Differentiation:** support: arrow cards to lay down for each move. / stretch: plan the whole route silently first, then test it.
-- **Materials:** masking-tape floor grid, treasure prop, arrow cards.
-- **Joy:** being the robot that marches across the grid (and the giggle of bumping a wall).
-
-**End-of-unit check:** Child gives a correct ordered algorithm for a familiar task, fixes one out-of-order step, and directs a "robot" across at least 3 grid squares with precise instructions.
+| Term | Unit | Weeks | Lessons |
+|---|---|---|---|
+| 1 | 1 — Algorithms and decomposition (unplugged) | 6 | 6 (1–6) |
+| 1 | 2 — Debugging with floor robots | 5 | 5 (7–11) |
+| 2 | 3 — Programming in ScratchJr | 8 | 8 (12–19) |
+| 2–3 | 4 — Creating digital content | 5 | 5 (20–24) |
+| 3 | 5 — Data: collect, sort, present | 5 | 5 (25–29) |
+| 3 | 6 — Technology around us and staying safe online | 6 | 6 (30–35) |
+| | **Total** | **35 + 1 flex** | **35** |
 
 ---
 
-## Unit 2 — Programming floor robots
+## Unit 1 — Algorithms and decomposition (unplugged)
 
-**Essential question:** How do I make a real robot follow my instructions — and fix it when it goes wrong?
+**Essential question:** How do we give instructions so clear that a computer (or a robot friend) gets it right every time?
 
-**Key vocabulary:** program, button, command, forward, back, turn, predict, run, bug, debug, fix.
+**Key vocabulary:** algorithm, instruction, sequence, precise, order, decompose, step, input, output, predict, repeat, loop
 
-### Lesson 5 — Meet the floor robot
+### Lesson 1 — Algorithms everywhere
 - **Duration:** 25 min
-- **Objective:** "By the end, I can press the buttons to make a floor robot move forward and turn."
-- **Hook:** Reveal the Bee-Bot. "This robot can't think — it only does what *you* program. Let's wake it up!"
-- **Key activity:** Explore the buttons (forward, back, turn left, turn right, go, clear). Children press a single command, then "go," and watch one move. Build a 2–3 step program to move the robot to a nearby spot, pressing "clear" first each time.
-- **Check for understanding:** "What does the robot do if you don't press 'go'?" → Nothing — it waits; "go" tells the program to start running.
-- **Differentiation:** support: copy the teacher's button sequence. / stretch: get the robot to a target two moves away first try.
-- **Materials:** Bee-Bot (or floor robot), open floor space, target markers.
-- **Joy:** the robot beeping to life and trundling across the carpet on their command.
+- **Objective:** "By the end, I can find algorithms in everyday life and explain why the order of steps matters." (UK NC KS1 Computing AL; CSTA 1A-AP-08)
+- **Hook:** "Get dressed with your shoes on first, then your socks. Did that work?"
+- **Key activity:** Retrieve Foundation: an algorithm is a precise set of ordered steps. Sort jumbled steps for brushing teeth and planting a seed; find algorithms in recipes, dances and games.
+- **Check for understanding:** "Why is the order of steps in an algorithm important?" → If steps are in the wrong order, the result is wrong or impossible (you can't put socks on over shoes).
+- **Differentiation:** support: 4 picture steps / stretch: find a step that can be done in either order and explain
+- **Materials:** picture step cards, recipe card
+- **Joy:** Silly out-of-order acting.
 
-### Lesson 6 — Predict, then run
-- **Duration:** 30 min
-- **Objective:** "By the end, I can predict where my robot will stop before I press go."
-- **Hook:** "I bet you can't guess where the robot will land… or can you?"
-- **Key activity:** On a robot mat, children enter a short program, then *point to where they think it will stop* before pressing go. Run it and compare. Celebrate correct predictions; discuss surprises. Repeat with a turn added.
-- **Check for understanding:** "Your program is forward, forward, turn right, forward. Point to where the robot will be." → Child points to the correct end square (reasoning about each step).
-- **Differentiation:** support: 2-step programs, point with a counter. / stretch: predict programs with two turns.
-- **Materials:** Bee-Bot, gridded floor mat, prediction counters.
-- **Joy:** the thrill of calling the landing square correctly — "I knew it!"
-- *(Connects to maths: counting squares, left/right, position.)*
+### Lesson 2 — Precise instructions: the literal robot
+- **Duration:** 25 min
+- **Objective:** "By the end, I can write precise instructions that a 'robot' follows exactly." (UK NC KS1 Computing AL/LR; CSTA 1A-AP-08)
+- **Hook:** The teacher becomes a robot that follows instructions *literally* to make a jam sandwich.
+- **Key activity:** Children give instructions; the robot takes them literally (chaos!); improve instructions to be precise (which hand, how many, where).
+- **Check for understanding:** "Why did 'put jam on the bread' go wrong?" → It wasn't precise — the robot didn't know to open the jar, use a knife, or spread it.
+- **Differentiation:** support: choose the more precise of two instructions / stretch: write 6 precise steps for a partner
+- **Materials:** bread, jam, knife (adult), plate; or a building-block model as an alternative (check allergies)
+- **Joy:** The literal robot teacher.
 
-### Lesson 7 — Robot to the target (programming a route)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can plan and program a robot to travel from start to a chosen target."
-- **Hook:** A mat with picture squares (farm, shop, park). "Can you drive the robot to the farm to feed the animals?"
-- **Key activity:** Children plan a multi-step route to a target picture, enter the whole program, predict, then run. They use a planning strip (arrow cards) before pressing buttons — "plan it, build it, run it."
-- **Check for understanding:** "How did you get the robot to the shop?" → Child describes the ordered sequence of commands they used.
-- **Differentiation:** support: short straight route, no turns. / stretch: a route with two turns, or reach two targets in a row.
-- **Materials:** picture floor mat, Bee-Bot, arrow planning strips.
-- **Joy:** "driving" the robot on a real journey across a colourful map.
+### Lesson 3 — Decomposition: big jobs in small steps
+- **Duration:** 25 min
+- **Objective:** "By the end, I can break a big task into smaller parts and write steps for each." (UK NC KS1 Computing AL; CSTA 1A-AP-11)
+- **Hook:** "Plan a birthday party — all at once? Too big! How do we make it manageable?"
+- **Key activity:** Decompose "make a party" into parts (invitations, food, games) and each part into steps; do the same for "draw a house".
+- **Check for understanding:** "Decompose 'get ready for school' into three parts. Why is it easier to plan the parts one at a time?" → e.g. get dressed, eat breakfast, pack my bag; each small part has only a few steps, so it's easier to think about, check and fix than one giant job.
+- **Differentiation:** support: 3 parts given / stretch: decompose "a morning routine" into parts and steps independently
+- **Materials:** planning sheets, sticky notes
+- **Joy:** Planning a real class celebration.
 
-### Lesson 8 — Finding and fixing a bug
-- **Duration:** 30 min
-- **Objective:** "By the end, I can spot the one wrong step in a program and fix it."
-- **Hook:** "Uh oh — my robot was meant to reach the star but it crashed! Can you be a bug detective?"
-- **Key activity:** Teacher runs a deliberately buggy program (one wrong move). Together: **predict** what should happen → **run** → **spot** where it went wrong → **fix that one step** → **run again**. Children then fix a buggy program of their own. Reframe bugs as normal and fun ("great, now we know where to look!").
-- **Check for understanding:** "What is a bug, and what is debugging?" → A bug is a mistake in the instructions; debugging is finding and fixing it.
-- **Differentiation:** support: bug is in a 2-step program, with a hint. / stretch: find a bug in a longer program with no hint.
-- **Materials:** Bee-Bot, floor mat with a "star" target, planning cards.
-- **Joy:** being a "bug detective" with a magnifying glass and cheering when the robot finally reaches the star.
+### Lesson 4 — Repeats (loops) in algorithms
+- **Duration:** 25 min
+- **Objective:** "By the end, I can spot a repeating part of an algorithm and write it shorter using 'repeat'." (UK NC KS1 Computing AL; CSTA 1A-AP-10)
+- **Hook:** "Step, step, step, step, step, step… is there a quicker way to write this?"
+- **Key activity:** Dance routines with repeated moves; rewrite "clap clap clap clap" as "repeat 4 times: clap"; perform each other's looped dances.
+- **Check for understanding:** "Rewrite 'hop, hop, hop, turn' using repeat." → Repeat 3 times: hop; then turn.
+- **Differentiation:** support: one repeated action / stretch: repeat a pattern of two actions (repeat 3: clap, stamp)
+- **Materials:** action cards, music
+- **Joy:** Loop dance-off.
 
-**End-of-unit check:** Child programs a floor robot to reach a chosen target, predicts where it will stop, and finds and fixes one bug in a short program.
+### Lesson 5 — Grid algorithms with arrows
+- **Duration:** 25 min
+- **Objective:** "By the end, I can write an arrow algorithm to move a character across a grid to a target, avoiding obstacles." (UK NC KS1 Computing AL/LR; link: Maths position)
+- **Hook:** "Help the lost puppy get home — but avoid the puddles!"
+- **Key activity:** Floor grid; one child is the "robot", another writes arrow cards; test; then paper grids in pairs.
+- **Check for understanding:** "Your partner's robot ended one square short. How do you fix the algorithm?" → Add one more forward arrow at the right place.
+- **Differentiation:** support: 4 × 4 grid, no obstacles / stretch: find the shortest algorithm
+- **Materials:** floor grid, arrow cards, paper grids
+- **Joy:** Human robots.
+
+### Lesson 6 — Unit check: algorithm challenge
+- **Duration:** 25 min
+- **Objective:** "By the end, I can write, test and explain a precise algorithm that uses sequence and a repeat." (UK NC KS1 Computing AL — assessment)
+- **Hook:** "Algorithm Olympics!"
+- **Key activity:** Write an algorithm for a grid route with a repeat; test with a partner; explain decomposition of a task.
+- **Check for understanding:** "Where in your algorithm did you use a repeat, and why?" → Where the same step happened several times in a row — it makes it shorter.
+- **Differentiation:** support: arrow cards / stretch: two repeats
+- **Materials:** grids, arrow cards, assessment checklist
+- **Joy:** Algorithm medals.
+
+**End-of-unit check:** The child writes a precise arrow algorithm to reach a target on a grid, shortens it with a repeat, and decomposes an everyday task into at least three parts.
 
 ---
 
-## Unit 3 — First programs on screen (blocks)
+## Unit 2 — Debugging with floor robots
 
-**Essential question:** How do I turn my algorithm into a program a computer can run?
+**Essential question:** What should a programmer do when a program doesn't work?
 
-**Key vocabulary:** program, block, drag, sequence, event, start, green flag, sprite/character, run.
+**Key vocabulary:** program, floor robot, command, forward, backward, turn, clear, go, bug, debug, predict, test, fix
 
-### Lesson 9 — From robot to blocks
-- **Duration:** 30 min
-- **Objective:** "By the end, I can drag and join blocks to make a character move in sequence."
-- **Hook:** "Our floor robot followed buttons. This cat follows blocks — and you build them like jigsaw pieces!"
-- **Key activity:** In a ScratchJr-style app, children meet the blocks and the green-flag/start block. Drag "move right" blocks and join them so the character walks across to an object. They learn blocks run **in order, top to bottom (or left to right)**.
-- **Check for understanding:** "Your blocks are: move right, move right, jump. What will the character do, in order?" → Move right, move right again, then jump.
-- **Differentiation:** support: drag pre-chosen blocks into the right order. / stretch: choose blocks to make the character reach exactly the right spot.
-- **Materials:** tablets/computers with ScratchJr (or similar), large block cards for the carpet.
-- **Joy:** snapping the bright blocks together and watching their own character spring to life.
-
-### Lesson 10 — The start block (events)
+### Lesson 7 — Bugs are normal
 - **Duration:** 25 min
-- **Objective:** "By the end, I can use a start/green-flag block so my program knows when to begin."
-- **Hook:** Teacher's blocks are built but the character won't move. "What's missing? How does it know *when* to start?"
-- **Key activity:** Introduce the **event** (green-flag / "when tapped") block as the trigger. Children remove the start block → nothing happens; add it back → it runs. They build a program that begins on the green flag and moves a sprite to a target.
-- **Check for understanding:** "What does an event block (like 'when green flag clicked') do?" → It tells the program when to start running.
-- **Differentiation:** support: add the start block to a ready-made sequence. / stretch: make two characters that both start on the green flag.
-- **Materials:** tablets/computers with ScratchJr-style tool.
-- **Joy:** the "magic moment" of tapping the green flag and the whole program springing into action.
+- **Objective:** "By the end, I can explain that a bug is a mistake in a program and that all programmers find and fix bugs." (UK NC KS1 Computing PR; CSTA 1A-AP-14)
+- **Hook:** "In 1947 engineers found a real moth stuck inside a computer and taped it into their notebook as the 'first actual case of bug being found'! (People already called mistakes 'bugs' — the moth made it famous.) Today bugs are mistakes in code."
+- **Key activity:** Watch a teacher's buggy robot program fail; use predict → run → spot → fix; celebrate finding bugs.
+- **Check for understanding:** "Is finding a bug a bad thing? Explain." → No — finding bugs helps us fix programs; all programmers do it.
+- **Differentiation:** support: fix with adult guidance / stretch: explain the bug in words
+- **Materials:** floor robot (e.g. a Bee-Bot or similar), mat
+- **Joy:** "Bug hunter" badges.
 
-### Lesson 11 — Adjust and improve (a tiny debug)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can change the number of blocks so my character lands in the right place."
-- **Hook:** "My cat walked too far and fell off the screen! How do we fix it?"
-- **Key activity:** Children build a program to reach a ball; if the sprite over- or undershoots, they add or remove a "move" block — a first on-screen debug. Encourage predict → run → adjust → run again.
-- **Check for understanding:** "Your cat went too far past the ball. What could you change?" → Take away (or shorten) a move block, then run again.
-- **Differentiation:** support: choose between "add one" or "take one away." / stretch: get the sprite to land exactly on target in the fewest blocks.
-- **Materials:** tablets/computers with ScratchJr-style tool, target object on screen.
-- **Joy:** the satisfaction of tweaking and finally landing the character bang on target.
+### Lesson 8 — Predict before you run
+- **Duration:** 25 min
+- **Objective:** "By the end, I can predict where a floor robot will go before running a program." (UK NC KS1 Computing LR; CSTA 1A-AP-14)
+- **Hook:** "Place your bet: where will the robot stop?"
+- **Key activity:** Read a program on cards; place a counter where it will end; run; compare; explain any difference.
+- **Check for understanding:** "Why do programmers predict before running?" → So they can check if the program does what they expect and spot bugs.
+- **Differentiation:** support: 3-step programs / stretch: programs with turns
+- **Materials:** floor robot, program cards, counters
+- **Joy:** Prediction betting (with counters).
 
-**End-of-unit check:** Child builds a short block program that starts on the green flag, runs it in sequence, and adjusts the blocks to reach a target.
+### Lesson 9 — Turns and routes
+- **Duration:** 25 min
+- **Objective:** "By the end, I can program a floor robot to follow a route including turns." (UK NC KS1 Computing PR; link: Maths turns)
+- **Hook:** "The robot needs to get round the corner to the treasure. How?"
+- **Key activity:** Learn that robot turns are on the spot (a quarter turn) and don't move it forward; plan with arrow cards; program; test.
+- **Check for understanding:** "After a 'turn right', does the robot move to a new square?" → No — it turns on the spot; you need a forward command to move.
+- **Differentiation:** support: one turn / stretch: two turns and an obstacle
+- **Materials:** floor robot, mats, arrow cards
+- **Joy:** Treasure route.
+
+### Lesson 10 — Debugging challenges
+- **Duration:** 25 min
+- **Objective:** "By the end, I can find and fix the bug in a program that doesn't reach its target." (UK NC KS1 Computing PR; CSTA 1A-AP-14)
+- **Hook:** "Bug alert! Five broken programs — can you fix them all?"
+- **Key activity:** Buggy program cards; step through each command with a finger on the mat; find the first wrong step; fix and test.
+- **Check for understanding:** "What's a good way to find exactly where a bug is?" → Follow the program one step at a time and see where it first goes wrong.
+- **Differentiation:** support: one bug per program / stretch: two bugs
+- **Materials:** floor robots, buggy program cards
+- **Joy:** Bug-fixing race.
+
+### Lesson 11 — Unit check: robot mission
+- **Duration:** 25 min
+- **Objective:** "By the end, I can plan, program, test and debug a robot route to complete a mission." (UK NC KS1 Computing PR/LR — assessment)
+- **Hook:** "Mission: deliver the letter to the post office on the town mat!"
+- **Key activity:** Plan on paper, program, run, debug; explain the process to the teacher.
+- **Check for understanding:** "Talk me through how you found and fixed your bug." → Predicted, ran, saw where it went wrong, changed that command, tested again.
+- **Differentiation:** support: shorter route / stretch: shortest route with fewest commands
+- **Materials:** floor robots, town mat, planning sheets
+- **Joy:** Mission accomplished.
+
+**End-of-unit check:** The child plans and programs a floor-robot route with at least one turn, predicts where it will stop, and finds and fixes a planted bug, explaining the steps.
 
 ---
 
-## Unit 4 — Technology around us & creating digital content
+## Unit 3 — Programming in ScratchJr
 
-**Essential question:** What is technology for, and what can I make with it?
+**Essential question:** How can I make characters move, talk and react using code?
 
-**Key vocabulary:** technology, computer, tablet, mouse, keyboard, click, type, log in, password, save, open, create.
+**Key vocabulary:** ScratchJr, app, sprite (character), block, script, sequence, trigger, event, green flag, on tap, motion, looks, sound, repeat, wait, end, page, background, run, stop
 
-### Lesson 12 — Technology is a tool with a purpose
+### Lesson 12 — Meet ScratchJr
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name technology around me and say what we use it for."
-- **Hook:** "A pencil helps us write. A bike helps us travel. What does a tablet help us do?"
-- **Key activity:** Spot technology around the room/home (computer, tablet, phone, interactive board). Sort picture cards by *purpose* — to create, to find out, to communicate, to play. Discuss using a device *purposefully* (knowing why) rather than just tapping.
-- **Check for understanding:** "Name two things you could *create* with a tablet for a real purpose." → e.g. a birthday card, a story, a drawing, a photo album. (Any purposeful creation.)
-- **Differentiation:** support: match a device to one use. / stretch: explain which tool is best for a given job and why.
-- **Materials:** picture cards of devices and uses, real devices to point to.
-- **Joy:** going on a "technology hunt" around the room.
+- **Objective:** "By the end, I can open ScratchJr, find the block categories and make a character move with a green-flag script." (UK NC KS1 Computing PR; CSTA 1A-AP-10)
+- **Hook:** "Your first real app program — make a cat dance!"
+- **Key activity:** Tour the screen (stage, characters, block palette, programming area); drag a green-flag trigger and motion blocks; run it.
+- **Check for understanding:** "You tap the green flag but your cat doesn't move. What might be wrong?" → The script may be missing the green-flag trigger at the start, or the blocks aren't snapped together — a script only runs when it starts with a trigger.
+- **Differentiation:** support: step-by-step picture card / stretch: add a sound block
+- **Materials:** tablets with ScratchJr (free), picture guide cards
+- **Joy:** Making the cat dance.
 
-### Lesson 13 — Logging in, mouse and keyboard
+### Lesson 13 — Sequences that tell a mini-story
+- **Duration:** 25 min
+- **Objective:** "By the end, I can build a sequence of blocks so a character moves and speaks in the right order." (UK NC KS1 Computing PR; CSTA 1A-AP-10)
+- **Hook:** "Make your character walk to a friend and say hello!"
+- **Key activity:** Plan the sequence on paper first (move, move, say "Hello!"); build; test; fix the order if needed.
+- **Check for understanding:** "What happens if you put the 'say hello' block before the move blocks?" → The character says hello before walking — the order changes what happens.
+- **Differentiation:** support: 3 blocks / stretch: two characters each with a script
+- **Materials:** tablets, planning cards
+- **Joy:** First animated story.
+
+### Lesson 14 — Events: on tap and on bump
+- **Duration:** 25 min
+- **Objective:** "By the end, I can use different triggers (green flag, on tap, on bump) to start scripts." (UK NC KS1 Computing PR; CSTA 1A-AP-10)
+- **Hook:** "Tap the dog and it barks. How does it know?"
+- **Key activity:** Explore trigger blocks; make a character react when tapped; make two characters react when they bump.
+- **Check for understanding:** "What's the difference between a green-flag script and an on-tap script?" → Green flag starts when the flag is pressed; on tap starts when you touch that character.
+- **Differentiation:** support: one on-tap script / stretch: a chain using "send message" and "on message"
+- **Materials:** tablets
+- **Joy:** Interactive zoo (tap each animal).
+
+### Lesson 15 — Repeats in code
+- **Duration:** 25 min
+- **Objective:** "By the end, I can use a repeat block to make a character do something several times with fewer blocks." (UK NC KS1 Computing PR/AL; CSTA 1A-AP-10)
+- **Hook:** "Make the frog hop 10 times — without using 10 hop blocks!"
+- **Key activity:** Retrieve unplugged repeats; wrap blocks in a repeat; change the number; compare with long sequences.
+- **Check for understanding:** "Why is using a repeat block better than 10 separate hop blocks?" → It's shorter, easier to read and easier to change.
+- **Differentiation:** support: one block inside the repeat / stretch: two blocks inside (hop, turn) and repeat forever
+- **Materials:** tablets
+- **Joy:** Frog hop race.
+
+### Lesson 16 — Looks, sounds and backgrounds
+- **Duration:** 25 min
+- **Objective:** "By the end, I can change a character's size or visibility, record a sound and choose a background to set a scene." (UK NC KS1 Computing PR/DC)
+- **Hook:** "Make a magic trick — the rabbit disappears and reappears!"
+- **Key activity:** Use looks blocks (grow, shrink, hide, show) and record a sound; pick a background; build a "magic trick" script.
+- **Check for understanding:** "Which blocks made your trick work, and in what order?" → e.g. hide, wait, show — the order makes it look like magic.
+- **Differentiation:** support: hide/show only / stretch: add a sound and a size change
+- **Materials:** tablets, headphones
+- **Joy:** Magic tricks.
+
+### Lesson 17 — Plan, build, test: an animated story
 - **Duration:** 30 min
-- **Objective:** "By the end, I can log in and use a mouse/touchpad and keyboard to point, click and type."
-- **Hook:** "Every computer has a secret 'hello' — let's learn how to wake yours up safely."
-- **Key activity:** Guided log-in (typing a name/simple code). Practise mouse skills with a free clicking/dragging game (point, click, drag, double-click) or on-screen targets. Then find letters on the keyboard and type their own name. Note: a password is private (link forward to online safety).
-- **Check for understanding:** "Show me how to type your name and click the green button." → Child types name and clicks accurately (observed).
-- **Differentiation:** support: hand-over-hand or large-target practice. / stretch: type a short word and use the space bar between two words.
-- **Materials:** computers/tablets, keyboard practice game, name cards.
-- **Joy:** typing their very own name on the screen for the first time.
+- **Objective:** "By the end, I can plan a short animated story with a beginning and end and build it in ScratchJr." (UK NC KS1 Computing PR/DC; CSTA 1A-AP-11)
+- **Hook:** "You're an animator! Turn a scene from a class book into an animation."
+- **Key activity:** Storyboard (3 boxes) on paper; build scripts for two characters; test and debug.
+- **Check for understanding:** "How did your storyboard help you build the program?" → It showed what each character should do and in what order.
+- **Differentiation:** support: one character, one page / stretch: two pages with "go to page"
+- **Materials:** storyboard sheets, tablets
+- **Joy:** Animating a favourite story.
 
-### Lesson 14 — Painting and drawing on screen
-- **Duration:** 30 min
-- **Objective:** "By the end, I can use a paint app to create a picture for a purpose."
-- **Hook:** "Today we paint without any mess — and we can undo any mistake!"
-- **Key activity:** In a simple paint app, children create a picture for a real purpose (e.g. a card for someone). Explore brush, colour, fill and the magic **undo**. Match the *tool to the job* — paint for pictures.
-- **Check for understanding:** "Which tool would you use to colour the whole sky blue?" → The fill/bucket tool (or a big brush).
-- **Differentiation:** support: trace/colour a ready shape. / stretch: combine shapes and colours into a planned scene.
-- **Materials:** tablets/computers with a paint app.
-- **Joy:** the "undo" superpower and making bold, colourful art with no mess.
+### Lesson 18 — Debug and improve
+- **Duration:** 25 min
+- **Objective:** "By the end, I can test a partner's program, suggest one improvement and debug my own." (UK NC KS1 Computing PR/LR; CSTA 1A-AP-14)
+- **Hook:** "Programmers test each other's apps — it's called a code review!"
+- **Key activity:** Swap tablets; test; give "two stars and a wish"; fix bugs and add one improvement.
+- **Check for understanding:** "What bug did you find, and how did you fix it?" → A specific bug and fix (e.g. the character moved off-screen — reduced the number of steps).
+- **Differentiation:** support: checklist for testing / stretch: add a new feature
+- **Materials:** tablets, review cards
+- **Joy:** Code review swap.
 
-### Lesson 15 — Save it, open it, improve it
-- **Duration:** 30 min
-- **Objective:** "By the end, I can save my digital work with a name, reopen it, and improve one thing."
-- **Hook:** "If I close my picture, is it gone forever? Let's find out!"
-- **Key activity:** Children save their picture (or a short typed caption) with a sensible name, close it, then reopen it together — showing the work is still there. They **edit and improve** one thing (a colour, a detail, fix a letter). Introduce **create → save → retrieve → improve**.
-- **Check for understanding:** "Why is it useful to *save* your digital work?" → So you can open it again later to keep, share or improve it.
-- **Differentiation:** support: teacher-guided save with a picture prompt. / stretch: save, reopen and add a brand-new detail independently.
-- **Materials:** tablets/computers, paint/word app, saved-work display.
-- **Joy:** the "ta-da!" of reopening their own work after it seemed to disappear.
+### Lesson 19 — Unit check: ScratchJr showcase
+- **Duration:** 25 min
+- **Objective:** "By the end, I can show and explain a ScratchJr program that uses a sequence, an event and a repeat." (UK NC KS1 Computing PR — assessment)
+- **Hook:** "App premiere night!"
+- **Key activity:** Present animations to the class; explain one script block by block.
+- **Check for understanding:** "Point to the trigger, the sequence and the repeat in your script." → Correctly identifies each.
+- **Differentiation:** support: explain one script / stretch: explain how messages link two characters
+- **Materials:** tablets, projector
+- **Joy:** Premiere with popcorn (optional).
 
-**End-of-unit check:** Child logs in, uses mouse/keyboard to create a piece of digital content for a purpose, saves it with a name, and reopens it to improve one thing.
+**End-of-unit check:** The child builds and explains a ScratchJr program using a trigger, a sequence of at least four blocks and a repeat, and debugs one mistake.
 
 ---
 
-## Unit 5 — Staying safe and kind online
+## Unit 4 — Creating digital content
 
-**Essential question:** How do I stay safe, kind and happy when I use technology?
+**Essential question:** How can I use technology to create and share something useful for a real audience?
 
-**Key vocabulary:** online, kind, private, personal information, password, trusted adult, worry, tell, safe.
+**Key vocabulary:** content, audience, purpose, type, keyboard, space bar, shift, delete, font, photo, camera, edit, crop, save, open, file, folder, presentation, slide
 
-> **Tone note (from the online-safety KB):** keep this unit **warm, calm and reassuring**.
-> The recurring message is *the internet is brilliant, and a trusted adult is always there
-> to help.* Never imply a child is to blame; keep examples gentle and age-appropriate.
-
-### Lesson 16 — Being kind online
+### Lesson 20 — Keyboard skills
 - **Duration:** 25 min
-- **Objective:** "By the end, I can explain that we are kind online, just like in real life."
-- **Hook:** "There's a real person on the other side of every screen — with feelings just like yours."
-- **Key activity:** Discuss that the kindness rules are the same online as in the playground. Read short pretend messages and sort them "kind" or "unkind," then say a kinder way for the unkind ones. Introduce the test: *"Would I be happy if someone sent this to me?"*
-- **Check for understanding:** "What's a good question to ask yourself before sending a message?" → "Would I be happy if someone sent this to me?" / "Is it kind?"
-- **Differentiation:** support: thumbs up/down for kind/unkind. / stretch: rewrite an unkind message kindly.
-- **Materials:** message cards, kind/unkind sorting hoops.
-- **Joy:** turning a grumpy message into a happy one and acting out the friendly version.
+- **Objective:** "By the end, I can type words and a sentence using the space bar, shift for capitals and delete to fix mistakes." (UK NC KS1 Computing DC; link: English)
+- **Hook:** "Where's the 'a' hiding? Keyboard treasure hunt!"
+- **Key activity:** Explore keys; type name and a sentence about a class book; use shift, space, delete, full stop.
+- **Check for understanding:** "How do you make a capital letter on the keyboard?" → Hold shift and press the letter.
+- **Differentiation:** support: letter stickers / stretch: type two sentences with correct punctuation
+- **Materials:** computers or tablets with keyboards
+- **Joy:** Keyboard treasure hunt.
 
-### Lesson 17 — Keeping personal information private
+### Lesson 21 — Taking good photos
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name personal information and say we keep it private online."
-- **Hook:** "Some things about you are like the key to your front door — only for people you really trust."
-- **Key activity:** Introduce **personal information** (full name, address, school, phone number, password, photos) as private. Sort facts into "okay to share in a game" (favourite colour, that I like dogs) vs "keep private" (home address, school, password). Reinforce: a password is a secret, only for you and a parent/carer; check with a trusted adult before sharing anything about yourself.
-- **Check for understanding:** "A new online 'friend' in a game asks where you live. What do you do?" → Don't tell them, and tell a trusted adult.
-- **Differentiation:** support: sort 4 clear cards. / stretch: explain *why* an item is private.
-- **Materials:** "share / keep private" cards, sorting mat, a toy key prop.
-- **Joy:** the secret-keeper "key" idea — guarding their private treasure.
+- **Objective:** "By the end, I can take a clear photo, hold the device steady and ask permission before photographing people." (UK NC KS1 Computing DC/OS)
+- **Hook:** "Blurry or sharp? Close or far? What makes a good photo?"
+- **Key activity:** Photo tips (steady, fill the frame, light); photograph shapes in school (link: Maths shape); discuss permission.
+- **Check for understanding:** "Why should you ask before taking a photo of someone?" → It's their picture — they should agree, and some people don't want photos shared.
+- **Differentiation:** support: photograph objects only / stretch: crop and edit a photo
+- **Materials:** tablets or cameras
+- **Joy:** Shape-hunt photography.
 
-### Lesson 18 — Tell a trusted adult
+### Lesson 22 — Text and pictures together
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name my trusted adults and the steps to take if something online worries me."
-- **Hook:** "Just like a fire drill, we can have a plan for online worries — let's learn it together."
-- **Key activity:** Each child names two or three **trusted adults**. Teach the simple plan, putting the steps in order: **stop → don't reply → keep it (don't delete) → tell a trusted adult.** Reassure firmly and repeatedly: it is *never* your fault and you will *never* be in trouble for telling.
-- **Check for understanding:** "Something online makes you feel scared. What's the first thing to do?" → Tell a trusted adult (after stopping and not replying). And: "Will you get in trouble for telling?" → No — it's never your fault.
-- **Differentiation:** support: order the plan with picture cards. / stretch: explain why we *keep* (don't delete) the worrying thing.
-- **Materials:** "worry plan" sequence cards, a "my trusted adults" drawing sheet.
-- **Joy:** drawing their own circle of trusted grown-ups (a personal "helper team").
+- **Objective:** "By the end, I can combine a photo and typed text to make a page that explains something." (UK NC KS1 Computing DC)
+- **Hook:** "Make a page for our class 'Shapes in Our School' e-book!"
+- **Key activity:** Insert a photo; add a caption and a sentence; change font size; save in the class folder.
+- **Check for understanding:** "Why does your page need a caption?" → To tell the reader what the picture shows.
+- **Differentiation:** support: template page / stretch: two photos with captions and a title
+- **Materials:** tablets/computers with a simple page or book-creator app
+- **Joy:** Class e-book.
 
-### Lesson 19 — Safe and balanced screen habits
+### Lesson 23 — Save, reopen, improve
 - **Duration:** 25 min
-- **Objective:** "By the end, I can name a healthy screen habit and a screen-free thing I love."
-- **Hook:** "Screens are a bit like sweets — lovely in the right amount. What else makes a great day?"
-- **Key activity:** Talk about **balance**: some screen time *and* plenty of running, reading, building, playing, sleeping. Children plan a balanced day, sorting activities into "screen" and "screen-free," and name one favourite screen-free thing. Healthy habits: take breaks, sit well, rest your eyes, stop a while before bed. (It's normal to find it hard to stop — that's why we plan.)
-- **Check for understanding:** "Name one healthy screen habit." → e.g. take breaks, stop a while before bed, have screen-free activities you enjoy.
-- **Differentiation:** support: pick activities from picture cards. / stretch: explain why screen-free time before bed helps.
-- **Materials:** day-planning strip, activity picture cards (screen and screen-free).
-- **Joy:** designing their own "perfect balanced day."
+- **Objective:** "By the end, I can save my work with a clear name, find it again and improve it." (UK NC KS1 Computing DC)
+- **Hook:** "Your work has vanished! Or has it? Where did it go?"
+- **Key activity:** Name files clearly; save in folders; reopen last lesson's page and improve it (spelling, layout).
+- **Check for understanding:** "Why is 'my page 1' a worse file name than 'Maya shapes page'?" → A clear name tells you what's in it and whose it is, so it's easy to find.
+- **Differentiation:** support: guided save / stretch: organise two files into a folder
+- **Materials:** devices, class folders
+- **Joy:** "Lost file rescue" mission.
 
-### Lesson 20 — Safe, kind and clever: a computing celebration
-- **Duration:** 35 min
-- **Objective:** "By the end, I can show what I learned this year about algorithms, robots and staying safe online."
-- **Hook:** "You started the year not knowing the word 'algorithm' — today you're computing experts. Let's celebrate!"
-- **Key activity:** Carousel of mini-stations revisiting the year: (1) sequence a jumbled algorithm, (2) program the floor robot to a target, (3) build a quick block program, (4) sort "kind/unkind" and "private/okay-to-share," (5) name a trusted adult and the worry plan. Children rotate, helping each other. Finish by sharing one thing they're proud of.
-- **Check for understanding:** "Tell me one thing computers can't do without us." → e.g. think for themselves — they only follow the algorithm/instructions we give them.
-- **Differentiation:** support: partner up and choose two stations. / stretch: be a "station helper" who explains a station to others.
-- **Materials:** all year's props — sequence cards, floor robot + mat, tablets, sorting cards, trusted-adult sheets, stickers/certificates.
-- **Joy:** a "computing expert" certificate and showing off a favourite skill to the class.
+### Lesson 24 — Unit check: a mini-presentation
+- **Duration:** 30 min
+- **Objective:** "By the end, I can make a 3-slide presentation with text and pictures for a real audience and present it." (UK NC KS1 Computing DC — assessment)
+- **Hook:** "Teach the younger class something you know — with a slideshow!"
+- **Key activity:** Plan 3 slides (title, fact with picture, fact with picture); build; save; present.
+- **Check for understanding:** "Who is your audience, and how did you make the slides right for them?" → e.g. younger children — big pictures, short words.
+- **Differentiation:** support: template slides / stretch: add a transition and consistent style
+- **Materials:** presentation app, devices, projector
+- **Joy:** Presenting to the younger class.
 
-**End-of-unit check:** Child explains that we are kind online and keep personal information private, names two trusted adults, and recites the simple "tell a trusted adult" worry plan.
+**End-of-unit check:** The child creates, saves (with a clear name), reopens and improves a short digital piece combining typed text and a photo, and explains its audience and purpose.
 
 ---
+
+## Unit 5 — Data: collect, sort, present
+
+**Essential question:** How can computers help us collect and understand information?
+
+**Key vocabulary:** data, information, collect, sort, group, tally, pictogram, question, answer, attribute, yes/no question, branching database
+
+### Lesson 25 — Sorting by attributes
+- **Duration:** 25 min
+- **Objective:** "By the end, I can sort objects by attributes (colour, size, shape) and explain my sorting." (UK NC KS1 Computing DC; CSTA 1A-DA-06)
+- **Hook:** "A pile of toys — how could we sort them? How else?"
+- **Key activity:** Sort toys/shapes in different ways; name the attribute used; guess a partner's sorting rule.
+- **Check for understanding:** "I've sorted these toys into two groups. What's my rule — which attribute did I use? How do you know it isn't colour?" → Names the attribute (e.g. size — big and small) and explains that both groups have mixed colours, so colour can't be the rule.
+- **Differentiation:** support: one attribute / stretch: sort by two attributes (Venn)
+- **Materials:** toys, shapes, hoops
+- **Joy:** "Guess my rule".
+
+### Lesson 26 — Yes/no questions: a branching tree
+- **Duration:** 25 min
+- **Objective:** "By the end, I can use yes/no questions to sort objects into a simple branching tree (a branching database)." (UK NC KS1 Computing LR/DC; CSTA 1A-DA-06)
+- **Hook:** "Twenty questions: I'm thinking of an animal…"
+- **Key activity:** Build a branching tree on the floor with yes/no questions (Does it have legs? Can it fly?) to identify animals.
+- **Check for understanding:** "Why is 'Is it big?' a poor question for the tree?" → People might disagree — questions should have a clear yes or no answer.
+- **Differentiation:** support: 4 animals / stretch: 8 animals with 3 levels of questions
+- **Materials:** animal cards, floor arrows, question cards
+- **Joy:** Twenty questions.
+
+### Lesson 27 — Collecting data on a device
+- **Duration:** 25 min
+- **Objective:** "By the end, I can collect class data using a simple survey tool or tally on a device." (UK NC KS1 Computing DC; CSTA 1A-DA-05)
+- **Hook:** "What's our class's favourite fruit? Let's ask the computer to help count."
+- **Key activity:** Plan a question with 4–5 options; tally on paper and on a device (a simple tally or pictogram app); compare speed.
+- **Check for understanding:** "How did the device make collecting data easier?" → It counted and kept the results for us, with fewer mistakes.
+- **Differentiation:** support: tally on paper with an adult entering / stretch: design the question and options
+- **Materials:** devices with a simple pictogram or tally tool, survey sheets
+- **Joy:** Live class survey.
+
+### Lesson 28 — Pictograms on screen
+- **Duration:** 25 min
+- **Objective:** "By the end, I can make a pictogram on a device and answer questions about it." (UK NC KS1 Computing DC; link: Maths statistics)
+- **Hook:** "Paper or screen: which pictogram is quicker to change?"
+- **Key activity:** Enter data into a pictogram tool; answer most/least/how many more; change one value and see the chart update.
+- **Check for understanding:** "What happened to the chart when you changed the data? Why is that useful?" → It updated instantly — easy to fix mistakes and see new results.
+- **Differentiation:** support: 3 categories / stretch: compare two charts
+- **Materials:** devices with pictogram tool
+- **Joy:** Instant chart magic.
+
+### Lesson 29 — Unit check: data detectives
+- **Duration:** 25 min
+- **Objective:** "By the end, I can collect, present and answer questions about data using a device." (UK NC KS1 Computing DC — assessment)
+- **Hook:** "Data detectives, what's the mystery question?"
+- **Key activity:** Choose a question, collect data, make a pictogram on screen, answer two questions, and use a branching tree to identify an object.
+- **Check for understanding:** "What does your chart tell us? Give one fact." → A fact read from the chart.
+- **Differentiation:** support: guided / stretch: explain a surprising result
+- **Materials:** devices, animal cards
+- **Joy:** Detective badges.
+
+**End-of-unit check:** The child sorts objects using yes/no questions in a branching tree, and collects data, presents it as a pictogram on a device and answers a "most/least" question.
+
+---
+
+## Unit 6 — Technology around us and staying safe online
+
+**Essential question:** How is technology used around us, and how do I stay safe, kind and healthy with it?
+
+**Key vocabulary:** technology, computer, input, output, device, internet, online, personal information, password, private, kind, age rating, screen time, trusted adult, report
+
+### Lesson 30 — Technology around us: inputs and outputs
+- **Duration:** 25 min
+- **Objective:** "By the end, I can find technology used beyond school and say its input and output (e.g. a barcode scanner, traffic lights)." (UK NC KS1 Computing IT; CSTA 1A-CS-01)
+- **Hook:** "At the supermarket, how does the till know the price?"
+- **Key activity:** Technology hunt (photos): shop tills, traffic lights, lifts, automatic doors, thermostats; identify input (button, sensor, scanner) and output (sound, light, movement).
+- **Check for understanding:** "What is the input and output of an automatic door?" → Input: the sensor detects someone; output: the door opens.
+- **Differentiation:** support: picture matching / stretch: invent a new device and name its input and output
+- **Materials:** photos of technology, input/output cards
+- **Joy:** Invent-a-gadget drawings.
+
+### Lesson 31 — Kind online
+- **Duration:** 25 min
+- **Objective:** "By the end, I can explain how to be kind online and what to do if someone is unkind." (UK NC KS1 Computing OS; CSTA 1A-IC-18)
+- **Hook:** "Would you say it to their face? Then should you type it?"
+- **Key activity:** Sort messages as kind/unkind; role-play replying kindly; learn: don't reply to unkind messages — tell a trusted adult.
+- **Check for understanding:** "If someone sends you an unkind message, what should you do?" → Don't reply; tell a trusted adult; keep it to show them.
+- **Differentiation:** support: picture scenarios / stretch: write a kind-online class rule
+- **Materials:** scenario cards
+- **Joy:** Kindness message wall.
+
+### Lesson 32 — Private stays private: personal information and passwords
+- **Duration:** 25 min
+- **Objective:** "By the end, I can say what personal information is, keep it private online, and explain why passwords are secret." (UK NC KS1 Computing OS; CSTA 1A-NI-04)
+- **Hook:** "Which of these is okay to share online: your favourite colour, your address, your password?"
+- **Key activity:** Sort information into "OK to share" and "keep private"; learn that passwords are like a toothbrush — don't share them (except with your trusted grown-ups).
+- **Check for understanding:** "Why should you keep your address private online?" → Strangers could find out where you live.
+- **Differentiation:** support: picture sort / stretch: explain what makes a strong password
+- **Materials:** sorting cards
+- **Joy:** "Toothbrush and password" poster.
+
+### Lesson 33 — Is it right for me? Age ratings and asking first
+- **Duration:** 25 min
+- **Objective:** "By the end, I can explain what age ratings are for and ask a trusted adult before using a new app or website." (UK NC KS1 Computing OS)
+- **Hook:** "Films, games and apps have age labels. Who decides and why?"
+- **Key activity:** Look at age-rating symbols (e.g. PEGI, app store ratings); discuss why content is rated; practise "ask first" scenarios.
+- **Check for understanding:** "A game says 12+. What should you do?" → It's not meant for my age — don't play it, and ask a trusted adult.
+- **Differentiation:** support: 2 scenarios / stretch: explain why ratings help keep children safe
+- **Materials:** age-rating images, scenario cards
+- **Joy:** "Ask first" role-play.
+
+### Lesson 34 — Healthy screen time and the worry plan
+- **Duration:** 25 min
+- **Objective:** "By the end, I can explain how to balance screen time with other activities and say my plan if something online worries me." (UK NC KS1 Computing OS; link: PE & Health)
+- **Hook:** "Your day is a pie. How much should be screens?"
+- **Key activity:** Make a "healthy day" pie chart with play, sleep, school, family, screens; learn the worry plan: stop, turn the screen over or close the lid, tell a trusted adult.
+- **Check for understanding:** "What will you do if you see something online that upsets you?" → Stop, close/turn over the screen, and tell a trusted adult straight away.
+- **Differentiation:** support: picture pie / stretch: suggest off-screen activities for a rainy day
+- **Materials:** paper plates for pies, worry-plan cards
+- **Joy:** Worry-plan hand signal.
+
+### Lesson 35 — Computing showcase and year review
+- **Duration:** 30 min
+- **Objective:** "By the end, I can show and explain my best computing work and my online-safety rules." (UK NC KS1 Computing — end-of-year review)
+- **Hook:** "Welcome to the Computing Expo!"
+- **Key activity:** Stations: ScratchJr animations, floor-robot missions, e-book pages, data charts, online-safety posters; children guide visitors.
+- **Check for understanding:** "Explain one program you made and one online-safety rule." → A clear explanation of both.
+- **Differentiation:** support: guide with a partner / stretch: teach a visitor to code a block
+- **Materials:** devices, robots, posters
+- **Joy:** The Expo.
+
+**End-of-unit check:** The child identifies the input and output of a familiar device, and explains how to be kind online, what to keep private, and their worry plan.
+
+## Books & resources
+
+- *Hello Ruby: Adventures in Coding* by Linda Liukas — a delightful story with unplugged activities that make algorithms and decomposition concrete (Unit 1).
+- *How to Code a Sandcastle* by Josh Funk — sequences, loops and conditionals in a beach story (Units 1 and 3).
+- *Robot Rumpus!* by Sean Taylor — what happens when robots follow instructions too literally (Unit 2).
+- *Rosie Revere, Engineer* by Andrea Beaty — persistence and learning from failure (debugging mindset, Unit 2).
+- *Chicken Clicking* by Jeanne Willis and Tony Ross — a gentle cautionary tale about online safety (Unit 6).
+- *Digiduck's Big Decision* (Childnet International, free online) — a picture-book story about being kind online (Unit 6).
+- **Tools and resources:** ScratchJr (free app from MIT Media Lab and Tufts University's DevTech group) with its teaching guides; floor robots (e.g. Bee-Bot or Blue-Bot); CS Unplugged (free unplugged activities from the University of Canterbury, New Zealand); Barefoot Computing resources; Childnet and the UK Safer Internet Centre resources for Safer Internet Day; Common Sense Education digital citizenship lessons.
 
 ## End-of-year mastery checks
 
-A Year 1 child finishing this curriculum should be able to:
+1. Writes a precise algorithm with a repeat and decomposes a task into parts. *(Seen: algorithm challenge.)*
+2. Predicts the outcome of a short program before running it. *(Seen: floor robot.)*
+3. Finds and fixes a bug by stepping through a program. *(Seen: debug task.)*
+4. Builds a ScratchJr program using a trigger, a sequence and a repeat, and explains it. *(Seen: showcase.)*
+5. Creates, saves with a clear name, reopens and improves digital content with text and images. *(Seen: e-book/presentation.)*
+6. Collects data and presents it as a pictogram on a device; uses yes/no questions to sort. *(Seen: data task.)*
+7. Explains input and output in everyday technology. *(Seen: oral.)*
+8. Explains how to be kind online, what to keep private, age ratings and the worry plan. *(Seen: safety conversation.)*
 
-1. **Algorithms.** Give a correct, ordered algorithm (3–4 steps) for a familiar task, and explain why the order matters.
-2. **Precise instructions.** Direct a "robot" (person or floor robot) to a target using precise forward/turn commands, counting moves correctly.
-3. **Programming a floor robot.** Program a Bee-Bot-style robot to reach a chosen target, and predict where it will stop before running it.
-4. **Debugging.** Find and fix one wrong step in a short program (unplugged, robot, or on-screen).
-5. **First on-screen program.** Build and run a short block program that starts on a green-flag/event block and runs in sequence.
-6. **Using technology.** Log in and use a mouse/touchpad and keyboard to create digital content, save it with a name, and reopen it to improve it.
-7. **Kind & private online.** Explain that we are kind online, name several pieces of personal information that stay private, and apply the test "Would I be happy if someone sent this to me?"
-8. **Getting help.** Name two trusted adults and state the worry plan (stop → don't reply → keep it → tell a trusted adult), knowing it is never their fault and they will never be in trouble for telling.
+## Teacher guidance
+
+**Misconceptions:** "Computers are clever and know what you mean" → the literal robot; "a bug means I failed" → celebrate bugs; "a turn moves the robot forward" → turns are on the spot; "more blocks = better program" → repeats make code shorter and clearer; "personal information is only my password" → address, school, birthday and photos are personal too.
+
+**Screen time.** Keep screen use short and purposeful; unplugged first; devices off during explanations ("screens down").
+
+**Online safety** is revisited in every unit, not just Unit 6: whenever children use devices, remind them of the worry plan. Follow the school's safeguarding procedures for any disclosure.
+
+**Vertical alignment.** Foundation gave algorithms, floor robots and first blocks. Year 2 (ages 7–8) moves to Scratch on a computer, events and interactive scenes, how the internet works, bar charts and evaluating online information — built on this year's ScratchJr sequences, events and repeats.

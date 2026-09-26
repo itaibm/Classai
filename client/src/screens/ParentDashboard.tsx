@@ -69,6 +69,7 @@ export function ParentDashboard() {
           <div className="row" style={{ gap: 8 }}>
             <button className="btn" onClick={() => navigate('/parent/classes')}>📚 Class library</button>
             <button className="btn ghost" onClick={() => navigate('/parent/prompts')}>🔎 AI prompt monitor</button>
+            <button className="btn ghost" onClick={() => navigate('/parent/generated')}>📝 Review AI lessons</button>
             <button className="btn ghost" onClick={() => navigate('/connect')}>
               {brainConnected ? '⚙ Manage AI brain' : '⚡ Connect AI brain'}
             </button>
@@ -150,7 +151,7 @@ export function ParentDashboard() {
                   <div className="grow">
                     <label className="field">Name<input type="text" value={name} onChange={(e) => setName(e.target.value)} autoFocus /></label>
                     <div className="row">
-                      <label className="field grow">Age<input type="number" min={8} max={19} value={age} onChange={(e) => setAge(Number(e.target.value))} /></label>
+                      <label className="field grow">Age<input type="number" min={4} max={14} value={age} onChange={(e) => setAge(Number(e.target.value))} /></label>
                       <label className="field grow">Grade / level<input type="text" value={grade} onChange={(e) => setGrade(e.target.value)} placeholder="7th grade" /></label>
                     </div>
                     <label className="field">

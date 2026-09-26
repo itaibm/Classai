@@ -322,6 +322,11 @@ export interface LessonFull extends Lesson {
   /** Set when this lesson was loaded from disk: its stable curriculum id + hash. */
   curriculumId?: string;
   contentHash?: string;
+  /** AI-generated lessons only: when/by which brain it was built, and when a
+   *  parent approved it (generated files live in the data dir, not curriculum/). */
+  generatedAt?: string;
+  generatedBy?: string;
+  reviewedAt?: string;
 }
 
 /** Runtime check: is this session running an authored curriculum lesson? */
@@ -414,7 +419,10 @@ export interface ParsedScope {
   units: ScopeUnit[];
 }
 
-export type CatalogLessonStatus = 'authored' | 'outline';
+/** authored = hand-built JSON in curriculum/; generated = AI-built on first
+ *  start and saved to the data dir (playable, pending parent review);
+ *  outline = only the scope outline exists (AI builds it on first start). */
+export type CatalogLessonStatus = 'authored' | 'generated' | 'outline';
 
 export interface CatalogLesson {
   id: string; // e.g. "y2-maths-u1-l01"
@@ -425,6 +433,26 @@ export interface CatalogLesson {
   durationMin: number;
   status: CatalogLessonStatus; // authored = a JSON exists; outline = AI will build it
   deliveryMode?: LessonFull['delivery']['mode'];
+  /** Generated lessons only: 'draft' until a parent approves it. */
+  review?: 'draft' | 'approved';
+}
+
+/** One AI-generated lesson awaiting (or past) parent review. */
+export interface GeneratedLessonSummary {
+  id: string;
+  year: number;
+  subject: string;
+  subjectLabel: string;
+  unitNumber: number;
+  unitTitle: string;
+  lessonNumber: number;
+  title: string;
+  status: 'draft' | 'approved' | 'archived';
+  generatedAt?: string;
+  generatedBy?: string;
+  reviewedAt?: string;
+  /** An authored lesson with the same id exists, so this draft is never played. */
+  shadowed: boolean;
 }
 
 export interface CatalogUnit {
@@ -719,6 +747,8 @@ export interface MasteryEntry {
   note: string;
   topicId?: string;
   updatedAt: string;
+  evidence?: number; // observations folded in so far (absent on legacy entries)
+  reviews?: number; // separate study occasions — indexes the spaced-review ladder
 }
 
 /** LONG-TERM memory: the durable, cross-lesson model of one learner. */
@@ -890,6 +920,56 @@ export interface CourseProgress {
   classDefinition: ClassDefinition;
   topics: TopicProgress[];
   completion: number; // 0..1 share of topics at/above mastery threshold
+  /** Set for curriculum classes (`cur:y<N>-<subject>`): catalog-based progress. */
+  curriculum?: CurriculumProgress;
+}
+
+/** One catalog lesson as a parent sees it: attempts + best result. */
+export interface CurriculumLessonProgress {
+  lessonId: string;
+  unitNumber: number;
+  lessonNumber: number;
+  title: string;
+  attempts: number; // ended sessions of this lesson
+  bestMastery?: number; // 0..1, best lessonMastery across attempts (unset if never finished)
+  stars?: 1 | 2 | 3;
+  done: boolean; // learned: mastered (>= 0.6) or moved on after 2 attempts
+  lastFinished?: string; // ISO time the most recent attempt ended
+}
+
+export interface CurriculumUnitProgress {
+  number: number;
+  title: string;
+  lessons: CurriculumLessonProgress[];
+  completed: number;
+  total: number;
+  averageMastery?: number; // over attempted lessons only
+}
+
+export interface CurriculumProgress {
+  year: number;
+  subject: string;
+  subjectLabel: string;
+  units: CurriculumUnitProgress[];
+  completed: number;
+  total: number;
+  next?: Recommendation; // first lesson not yet learned
+  review?: Recommendation; // weakest mastered-but-shaky lesson that's gone cold
+}
+
+/** A session without its transcript — the /kids/:id/sessions list shape. */
+export interface SessionSummary {
+  id: string;
+  classId: string;
+  lessonId: string;
+  curriculumId?: string;
+  subject: string;
+  topic: string;
+  status: Session['status'];
+  startedAt: string;
+  endedAt?: string;
+  report?: LessonReport;
+  lessonMastery?: number;
 }
 
 export interface Recommendation {
@@ -938,4 +1018,10 @@ export interface PromptTemplate {
   description: string;
   system: string;
   user?: string; // sample first user message, where the call has one
+}
+
+/** Display name for a curriculum year: Year N = ages N+5 to N+6 (the charter's
+ *  ages 6–12); year 0 is the optional Foundation catch-up year (ages 5–6). */
+export function yearLabel(year: number): string {
+  return year === 0 ? 'Foundation' : `Year ${year}`;
 }

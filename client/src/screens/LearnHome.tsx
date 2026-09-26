@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { AssignedLesson, AssignedSubject } from '@shared/types';
+import { yearLabel } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync } from '../lib/ui.tsx';
@@ -75,7 +76,7 @@ export function LearnHome({ kidId }: { kidId: string }) {
                           <span className="today-dot" style={{ background: accent }} />
                           {subject.subjectLabel}
                         </h3>
-                        <span className="muted small">Year {subject.year} · {subject.completed}/{subject.total} lessons</span>
+                        <span className="muted small">{yearLabel(subject.year)} · {subject.completed}/{subject.total} lessons</span>
                       </div>
                       {next ? (
                         <div className="col" style={{ gap: 6, alignItems: 'stretch' }}>

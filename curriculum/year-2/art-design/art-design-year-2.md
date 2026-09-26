@@ -1,274 +1,491 @@
-# Art & Design — Year 2 (ages 6–7, KS1) — Lesson Outlines
+# Year 2 Art & Design (ages 7–8) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Year 2 scope drawn from [`knowledge-base/subjects/art-music/art-ks1-ks2.md`](../../../knowledge-base/subjects/art-music/art-ks1-ks2.md)
-> (topics 1, 2, 3, 4, 5, 6, 8, 9 — consolidating KS1 and adding the first true **tints-and-shades** control,
-> **sketchbook habits**, and a **deeper single-artist study**). Every lesson honours the 8 design principles
-> in [`../README.md`](../README.md).
+> Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Drawn from
+> `knowledge-base/subjects/art-music/` and the UK National Curriculum KS2 Art & Design (sketchbooks,
+> mastery of drawing, painting and sculpture with a range of materials, great artists, architects
+> and designers in history).
 
 ## Year overview
 
-Year 2 **consolidates and stretches** the Year 1 toolkit. Where Year 1 met each formal element once, Year 2
-asks the child to **combine and control** them with more intention. The spine: we restart the **sketchbook** as
-a deliberate working habit (date it, test in it, never "spoil" it); we push **colour** past Year 1's tints into
-true **tints *and* shades** (white lightens, black darkens) and the start of mood through colour; we deepen
-**collage** into planned, layered, mixed-media work; we turn **printmaking** from single stamps into
-**designed repeating patterns** (wallpaper, tiles, two-block prints); and we grow **3-D form** into clay joining
-("score-and-slip") and sturdier builds. The artist thread becomes a **deeper study**: rather than one artist per
-lesson, Year 2 dwells longer on **Henri Matisse** (his cut-outs across a whole unit) and revisits **Van Gogh**,
-**Kandinsky** and **Yayoi Kusama** with richer vocabulary. The rule for every lesson stays **make → look →
-improve**. Lessons run 25–35 min; making lessons reach 35–40 min.
+Year 2 is the year children start to **work like artists**: they keep a **sketchbook** as a place to
+look, try and fail safely; they learn that good drawing comes from **slow, careful looking**; and
+they build a toolkit of techniques that each later year extends — **drawing** (line, texture,
+tone), **colour** (mixing, tints, shades, warm and cool), **printmaking** (relief and stamp
+printing), **clay** (pinch, coil and slab), **textiles** (weaving and resist dyeing) and a first
+taste of **digital art**. Every unit is anchored in **named artists and makers from many
+cultures** — Leonardo da Vinci and Albrecht Dürer, Rembrandt van Rijn, Wassily Kandinsky, Paul Klee,
+Georgia O'Keeffe, Yayoi Kusama, Katsushika Hokusai, hand-block printers of Rajasthan (India), Jōmon
+potters of ancient Japan, the Nok sculptors of Nigeria, Andean weavers of Peru, Sheila Hicks,
+Indonesian batik artists and David Hockney — and some units link to History (cave art, ancient pottery) and Science (light and
+shadow, observation of plants).
 
-> **Builds on Year 1, hands to Year 3.** Year 1's lines, primary/secondary colour, warm/cool and first prints
-> are assumed. **Observational drawing and tone/shading** (KB topics 7 & 10) begin properly in Year 3 — Year 2
-> flags the seeds. Each KS2 technique is reserved for one later year.
+**Assessment is by looking and talking, not quizzes.** Each "check for understanding" is a short
+conversation about a child's work or an artwork, and each unit ends with a *gallery talk* where
+children explain their choices and give kind, specific feedback.
+
+**What Year 2 assumes from Year 1 (ages 6–7):** a dated sketchbook habit and light-first drawing;
+mixing tints and shades and choosing warm or cool colours for a mood; layered collage; a one-colour
+relief print and Adinkra stamping; paper and card-loom weaving (Kente, Anni Albers) and running
+stitch; pinch pots, coils and score-and-slip joins (Odundo, Maria Martinez, Hepworth); talking about
+art with vocabulary. This year does not repeat those at the same depth: it retrieves them briefly
+and adds tone, still life, tertiary colours, multi-colour block printing, slabs and hollow forms,
+new weaving and resist traditions, and digital layers.
+
+**What Year 3 (ages 8–9) relies on from this year:** sketchbook habits; the 5-step tone scale; colour
+mixing with tints and shades; relief printing; joining clay with score-and-slip; basic weaving; and
+the language to discuss and evaluate art.
+
+## Time budget
+
+36 weeks × 1 lesson = 36 slots; 35 planned, 1 flex (gallery visit).
+
+| Unit | Title | Term | Weeks | Lessons |
+|---|---|---|---|---|
+| 1 | Drawing: slow looking, line, texture and tone | 1 | 7 | 7 (L1–7) |
+| 2 | Colour: mixing, mood and pattern | 1–2 | 7 | 7 (L8–14) |
+| 3 | Printmaking: stamps, waves and cave marks | 2 | 6 | 6 (L15–20) |
+| 4 | Clay: pinch, coil and slab | 2–3 | 6 | 6 (L21–26) |
+| 5 | Textiles: weaving and resist dyeing | 3 | 5 | 5 (L27–31) |
+| 6 | Digital art and our exhibition | 3 | 4 | 4 (L32–35) |
+| | **Total** | | **35 + 1 flex** | **35** |
 
 ---
 
-## Unit 1 — Sketchbook habits & line revisited
+## Unit 1 — Drawing: slow looking, line, texture and tone
 
-**Essential question:** How does an artist use a sketchbook to get better?
-**Key vocabulary:** sketchbook, date, test page, experiment, light line, build-up, outline, detail, mark-making.
+**Essential question:** How does looking carefully change what I draw?
 
-### Lesson 1 — My sketchbook is my workshop
+**Key vocabulary:** observe, sketchbook, line, contour, continuous line, texture, mark-making, tone, light, shadow, shading, proportion, self-portrait
+
+### Lesson 1 — My sketchbook: look more than you draw
+- **Duration:** 30 min
+- **Objective:** "By the end, I can use my sketchbook to record careful observations of a real object." (UK NC KS2 Art – sketchbooks; drawing)
+- **Hook:** A leaf, a shell and a pine cone under a magnifying glass — "What do you see that you've never noticed?"
+- **Key activity:** Personalise sketchbook covers; practise "look 4 seconds, draw 1 second"; draw a natural object three times, each time noticing more.
+- **Check for understanding:** "Show me what changed between your first and third drawing, and why." → Points to details added from closer looking.
+- **Differentiation:** support: a viewfinder (card window) to focus on one small part / stretch: add written notes around the drawing like a naturalist.
+- **Materials:** A5 sketchbooks, 2B and 4B pencils, natural objects, magnifying glasses, card viewfinders
+- **Joy:** Decorating their very own sketchbook.
+
+### Lesson 2 — Blind contour and continuous line
 - **Duration:** 25 min
-- **Objective:** "By the end, I can set up and date a sketchbook page and explain it is for testing, not for perfect pictures."
-- **Hook:** Real artists' sketchbooks are full of crossings-out and wild experiments — yours will be too.
-- **Key activity:** Show messy real artist sketchbook pages → demo dating a page and making a "warm-up" mark-making strip → the child fills a first test page with as many marks as they can, dating it, no rubbing out allowed.
-- **Check for understanding:** "What is a sketchbook really for?" → testing, experimenting, recording ideas — not just finished art.
-- **Differentiation:** support: pre-printed date box and 6-square grid / stretch: add a written note next to one mark saying what they tried.
-- **Materials:** sketchbook, pencils, fine-liners, crayons.
-- **Joy:** being told mess and mistakes are the *point*.
+- **Objective:** "By the end, I can draw an object's outline by following its edges with my eyes." (UK NC KS2 Art – drawing)
+- **Hook:** "Draw your partner's face without looking at the paper!" — laughter guaranteed.
+- **Key activity:** Blind contour drawings of a shoe, then continuous-line drawings (pen never leaves the page); discuss how these loosen up drawing and train the eye.
+- **Check for understanding:** "Why does blind drawing help us draw better, even though it looks funny?" → It makes us look at the object, not the page, so we see real edges and shapes.
+- **Differentiation:** support: simple objects (a cup) / stretch: continuous line of a complex object (a bicycle wheel).
+- **Materials:** felt-tip pens, sketchbooks, shoes, cups, a bicycle wheel
+- **Joy:** Blind portrait gallery.
 
-### Lesson 2 — Light hands: build-up lines
-- **Duration:** 30 min
-- **Objective:** "By the end, I can draw lightly first and darken only the lines I want to keep."
-- **Hook:** Why do artists draw "ghost lines" before the real one?
-- **Key activity:** Demo a wobbly light outline of a simple object (a cup), then darkening the best lines → the child draws one object with light build-up lines, then go over the keepers in fine-liner.
-- **Check for understanding:** "Why draw lightly first?" → so you can fix the shape before committing.
-- **Differentiation:** support: very soft pencil + chunky object / stretch: draw two objects overlapping.
-- **Materials:** soft pencils, fine-liners, simple objects, sketchbook.
-- **Joy:** seeing a confident clean drawing emerge from messy ghost lines.
-
-### Lesson 3 — A line that shows movement (Van Gogh)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can use swirling, energetic lines to show movement like Van Gogh."
-- **Hook:** Van Gogh's sky doesn't sit still — it *swirls*. How did he make a line look like it's moving?
-- **Key activity:** Look at **Vincent van Gogh**'s *The Starry Night* (swirly, energetic lines) → the child practises swirl, spiral and flowing lines, then fills a night-sky strip with moving Van-Gogh-style lines.
-- **Check for understanding:** "How did Van Gogh make his sky look like it's moving?" → swirling, curvy, repeated lines.
-- **Differentiation:** support: trace over faint swirl guides / stretch: add small dabbed lines for stars among the swirls.
-- **Materials:** dark paper, oil pastels or felt-tips, sketchbook; Starry Night image.
-- **Joy:** swirling a whole sky into motion.
-
-> **Continues into Year 3:** drawing real objects in front of you (observational drawing, KB topic 7) starts in Year 3.
-
-**End-of-unit check:** Child shows a dated test page, draws one object using light build-up lines then darkens the keepers, and names one thing a sketchbook is for.
-
----
-
-## Unit 2 — Colour: tints AND shades
-
-**Essential question:** How do I make any colour lighter or darker, and use colour for a feeling?
-**Key vocabulary:** tint, shade, lighter, darker, white, black, tone of a colour, mood, palette.
-
-### Lesson 4 — Tints ladder revisited (lighter with white)
-- **Duration:** 30 min
-- **Objective:** "By the end, I can make a smooth ladder of one colour from bright to palest using white."
-- **Hook:** How many different pinks can one red make?
-- **Key activity:** Recap tints from Year 1 → the child paints a 5-step ladder of one colour, adding a little more white each step, keeping each box even.
-- **Check for understanding:** "How do you make a colour lighter?" → add white.
-- **Differentiation:** support: 3-step ladder / stretch: name each tint (e.g. "palest sky blue").
-- **Materials:** paint incl. white, brushes, paper, sketchbook.
-- **Joy:** watching one colour soften step by step.
-
-### Lesson 5 — Shades: darker with black (the secret ingredient)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can make a colour darker by adding a tiny bit of black."
-- **Hook:** A tiny speck of black can change everything — but too much makes mud. Let's find the line.
-- **Key activity:** Demo red + a *tiny* speck of black → deeper red; warn that too much = muddy → the child makes a 5-step shades ladder of one colour, adding only a little black each step.
-- **Check for understanding:** "How do you make red into a darker shade?" → add a little black.
-- **Differentiation:** support: pre-mixed dark blob to dilute back / stretch: compare "too much black" vs "just right".
-- **Materials:** paint incl. black, brushes, paper, sketchbook.
-- **Joy:** the power of one tiny speck of black.
-
-### Lesson 6 — Tints-and-shades strip (one colour, full range)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can paint one colour across five tones from light to dark in order."
-- **Hook:** Can you arrange one colour like steps on a staircase, light at the top, dark at the bottom?
-- **Key activity:** Worked example — blue in the middle box, +white to the left (2 boxes), +black to the right (2 boxes) → the child makes their own 5-box tints-and-shades strip, then arranges/checks it reads lightest → darkest.
-- **Check for understanding:** Point to the lightest and darkest boxes → child identifies both and says why (most white / most black).
-- **Differentiation:** support: pre-drawn 5 boxes / stretch: do a second strip in a different colour and compare.
-- **Materials:** paint incl. white & black, brushes, paper, sketchbook.
-- **Joy:** a neat staircase of one colour they fully control.
-
-### Lesson 7 — Colour moods (warm/cool feelings)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can choose a warm or cool palette to give a picture a feeling."
-- **Hook:** Could you paint "cosy" or "lonely" using only colour, no faces?
-- **Key activity:** Recap warm/cool → discuss the *feeling* each gives (warm = cosy/excited; cool = calm/sad) → the child paints two small abstract pictures: one "warm feeling", one "cool feeling", using tints and shades for variety.
-- **Check for understanding:** "Which palette feels calm — warm or cool?" → cool.
-- **Differentiation:** support: choose from warm/cool colour cards / stretch: paint one scene (e.g. a campfire on a cold night) using both, on purpose.
-- **Materials:** paint, brushes, paper, sketchbook.
-- **Joy:** discovering colour alone can carry a feeling.
-
-> **Continues into Year 4:** the full colour wheel with complementary colours and harmonies (KB topic 2) deepens in Year 4.
-
-**End-of-unit check:** Child paints a 5-box tints-and-shades strip of one colour reading lightest → darkest, and explains white lightens / black darkens. Recorded in the sketchbook.
-
----
-
-## Unit 3 — Layered & mixed-media collage
-
-**Essential question:** How do I plan a collage so the layers tell a story?
-**Key vocabulary:** collage, layer, foreground, background, overlap, mixed media, arrange, compose, texture.
-
-### Lesson 8 — Background first, then layers
-- **Duration:** 35 min
-- **Objective:** "By the end, I can build a collage in layers, background first, foreground last."
-- **Hook:** Why do collage artists always glue the sky *before* the bird?
-- **Key activity:** Demo: glue a torn background (sky/ground), then a middle layer, then a foreground subject on top → the child plans a simple scene in layers, arranging all pieces dry before gluing back-to-front.
-- **Check for understanding:** "Why glue the background first?" → so the front pieces sit on top / overlap correctly.
-- **Differentiation:** support: 2 layers only / stretch: 3+ layers with overlap to show near and far.
-- **Materials:** coloured/torn papers, glue, backing sheet, sketchbook.
-- **Joy:** a scene with real depth, near things in front of far things.
-
-### Lesson 9 — Mixed-media texture collage
-- **Duration:** 40 min
-- **Objective:** "By the end, I can combine paper with at least two other materials in one planned collage."
-- **Hook:** What happens when paper meets fabric, foil and string in the same picture?
-- **Key activity:** Recap texture words (rough/smooth/soft) → the child composes a subject mixing paper + fabric + foil/string/wool, arranging then gluing, naming each texture.
-- **Check for understanding:** "Which formal element does mixing materials bring out most?" → texture.
-- **Differentiation:** support: outline to fill / stretch: use texture to suggest something real (foil = water, wool = fur).
-- **Materials:** paper, fabric, foil, wool/string, glue, sketchbook.
-- **Joy:** a picture you can run your fingers across.
-
-### Lesson 10 — Photo-and-paper collage (Romare Bearden revisited)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can combine cut magazine images with paper to compose a new scene."
-- **Hook:** **Romare Bearden** built whole neighbourhoods from snipped photos and paper — let's build a place his way.
-- **Key activity:** Look again at **Romare Bearden**'s pieced photo-collages → the child cuts images/textures from magazines and combines with coloured paper to compose an imagined room or street, arranging then gluing.
-- **Check for understanding:** "What does it mean to *compose* a collage?" → to arrange the pieces on purpose to make a whole picture.
-- **Differentiation:** support: pre-selected magazine cut-outs / stretch: mix scales deliberately (a giant cup, a tiny door) for surprise.
-- **Materials:** magazines, scissors, coloured paper, glue, sketchbook; Bearden image.
-- **Joy:** Frankenstein-ing a brand-new place out of bits of the real world.
-
-> **Continues into Year 5:** collage as part of larger mixed-media and printmaking projects deepens in Year 5.
-
-**End-of-unit check:** Child makes a layered collage (background → foreground) combining at least three materials, names each texture, and explains why layers are glued back-to-front.
-
----
-
-## Unit 4 — Designed patterns & printmaking
-
-**Essential question:** How do I design a repeating pattern that could cover wallpaper or a tile?
-**Key vocabulary:** pattern, repeat, unit, tile, wallpaper, rotate, alternate, ABBA, two-block print, grid.
-
-### Lesson 11 — Pattern rules: ABBA and beyond
+### Lesson 3 — Texture: a mark-making menu
 - **Duration:** 25 min
-- **Objective:** "By the end, I can make and state a pattern rule more complex than ABAB."
-- **Hook:** ABAB is the easy one — can your brain handle ABBA, or AABB?
-- **Key activity:** Recap ABAB → introduce **ABBA** and **AABB** as rules → the child draws a strip for each, saying the rule aloud as they go.
-- **Check for understanding:** "Continue ▲ ● ● ▲, ▲ ● ● ▲, ▲ ___." → ● (then ●, ▲).
-- **Differentiation:** support: physical counters to lay the rule out / stretch: invent a 3-unit rule (ABC).
-- **Materials:** crayons/shape cards, paper, sketchbook.
-- **Joy:** outsmarting a trickier pattern puzzle.
+- **Objective:** "By the end, I can make at least eight different marks to show texture." (UK NC KS2 Art – drawing)
+- **Hook:** Feely bag of textures (sandpaper, feather, bark, silk).
+- **Key activity:** Create a "texture menu" grid: hatching, cross-hatching, stippling, scribbling, wavy lines; match marks to the feely-bag textures; make rubbings.
+- **Check for understanding:** "Which mark would you use for fur and which for bark? Why?" → Short soft flicks for fur; rough, broken lines for bark — they look like the texture.
+- **Differentiation:** support: a grid with example marks to copy / stretch: invent and name a new mark.
+- **Materials:** 2B/4B pencils, charcoal, sketchbooks, texture objects, wax crayons for rubbings
+- **Joy:** Texture rubbing hunt around the school.
 
-### Lesson 12 — Design a tile (the repeating unit)
-- **Duration:** 35 min
-- **Objective:** "By the end, I can design one square tile that repeats into a bigger pattern."
-- **Hook:** One small square, drawn once, can cover a whole wall — how?
-- **Key activity:** Demo designing one square "tile" so its edges line up when repeated → the child designs a single tile in their sketchbook, then redraws it in a 2×2 grid to see it repeat.
-- **Check for understanding:** "What is the repeating unit in your pattern?" → child points to their single tile design.
-- **Differentiation:** support: pre-ruled grid + simple motif / stretch: make a motif that connects edge-to-edge across tiles.
-- **Materials:** ruler, paper, felt-tips, sketchbook.
-- **Joy:** seeing one little square multiply into a real pattern.
-
-### Lesson 13 — Two-block printing (wallpaper)
-- **Duration:** 40 min
-- **Objective:** "By the end, I can print a repeating pattern using two different blocks in a rule."
-- **Hook:** Real wallpaper is printed — let's print our own with two stamps and a rule.
-- **Key activity:** Recap clean printing (thin paint, press straight down, lift straight up) → the child prints a pattern alternating two found-object/cut blocks in an ABAB or ABBA rule across a grid.
-- **Check for understanding:** "What's the rule of your printed pattern?" → child states it (e.g. leaf, cork, leaf, cork).
-- **Differentiation:** support: grid drawn to stamp into / stretch: add rotation as a second rule.
-- **Materials:** two print blocks, paint in trays, paper/grid, sketchbook.
-- **Joy:** unrolling a length of self-made "wallpaper".
-
-### Lesson 14 — Polka-dot pattern field (Yayoi Kusama revisited)
+### Lesson 4 — Leonardo and Dürer: artists who looked closely
 - **Duration:** 30 min
-- **Objective:** "By the end, I can cover a surface with a planned dot pattern that varies by a rule."
-- **Hook:** **Yayoi Kusama** doesn't scatter dots randomly — there's a hidden rule. Let's find ours.
-- **Key activity:** Look again at **Yayoi Kusama**'s infinity dots → the child fills a shape (pumpkin/leaf) with a dot pattern using a planned rule (e.g. big-small-big, or one colour per row).
-- **Check for understanding:** "What makes your dots a *pattern* and not just dots?" → they follow a repeating rule.
-- **Differentiation:** support: big dots, simple rule / stretch: combine two rules (size + colour).
-- **Materials:** paint, cotton buds/corks, paper, sketchbook; Kusama image.
-- **Joy:** the satisfying rhythm of a field of ruled dots.
+- **Objective:** "By the end, I can describe how Leonardo da Vinci and Albrecht Dürer observed nature and use their approach." (UK NC KS2 Art – great artists)
+- **Hook:** Dürer's *Young Hare* (1502) — "How many different marks can you spot in the fur?"
+- **Key activity:** Look at Leonardo's notebook pages and Dürer's *Young Hare*; discuss their patient observation; make a "notebook page" of a plant or animal (toy or photo) with annotations.
+- **Check for understanding:** "What did Dürer do to make the fur look soft and real?" → Hundreds of fine lines following the direction the fur grows.
+- **Differentiation:** support: draw one part (an ear or leaf) / stretch: include a close-up detail box like Leonardo.
+- **Materials:** prints of Leonardo's notebooks and *Young Hare*, fine pens, pencils, plants or toy animals
+- **Joy:** Mirror writing like Leonardo for their labels.
 
-> **Continues into Year 5:** carved-block relief printmaking (polystyrene/lino-style) and multi-layer prints (KB topic 4) develop in Year 5.
+### Lesson 5 — Tone: a 5-step scale
+- **Duration:** 25 min
+- **Objective:** "By the end, I can shade from light to dark in five even steps." (UK NC KS2 Art – drawing; tone)
+- **Hook:** A torch shining on a white ball in a dark corner (Science link).
+- **Key activity:** Make a 5-box tone scale with pressure control; then a smooth gradient; apply to a simple shape.
+- **Check for understanding:** "How did you make the darkest tone without tearing the paper?" → Layered the pencil and used a softer (4B) pencil.
+- **Differentiation:** support: 3-step scale / stretch: 7 steps and a smooth blend.
+- **Materials:** 2B, 4B, 6B pencils, blending stumps (or tissue), sketchbooks, torch, white ball
+- **Joy:** "Tone thermometer" challenge.
 
-**End-of-unit check:** Child designs a single repeating tile, prints a two-block pattern stating its rule, and names a place patterns appear in the real world.
-
----
-
-## Unit 5 — Clay & 3-D form
-
-**Essential question:** How do I join clay so my sculpture doesn't fall apart?
-**Key vocabulary:** form, clay, roll, pinch, coil, slab, score-and-slip, join, smooth, texture, in the round.
-
-### Lesson 15 — Clay warm-up: roll, pinch, coil
+### Lesson 6 — Making it round: shading a sphere and a first still life
 - **Duration:** 30 min
-- **Objective:** "By the end, I can shape clay by rolling, pinching and coiling."
-- **Hook:** A lump of clay can become almost anything — first we learn its three magic moves.
-- **Key activity:** Demo rolling a ball/sausage, pinching a pot from a ball, coiling a long snake → the child practises all three on a clay test tile.
-- **Check for understanding:** "Show me a coil and a pinch." → child rolls a coil and pinches a small hollow.
-- **Differentiation:** support: softer clay/dough, hand-over-hand / stretch: pinch an even-walled little pot.
-- **Materials:** air-dry clay or dough, boards, sketchbook.
-- **Joy:** the squishy freedom of warming up clay.
+- **Objective:** "By the end, I can use tone to make a flat circle look like a 3-D ball, and draw a simple still life lit from one side." (UK NC KS2 Art – drawing)
+- **Hook:** "Can we make a circle pop off the page?"
+- **Key activity:** Observe a ball lit from one side; identify highlight, mid-tone, shadow and cast shadow; shade a sphere; compare with a flat circle; then arrange a small still life (an apple, a cup, a ball) under one lamp and draw it with light build-up lines and three tones.
+- **Check for understanding:** "Where did you put the lightest part, and why?" → On the side nearest the light, because that's where light hits it.
+- **Differentiation:** support: pre-drawn circle with arrows showing light / stretch: shade a cube and a cylinder too.
+- **Materials:** balls, desk lamp, pencils, tissue for blending
+- **Joy:** The "pop" moment when the ball looks real.
 
-### Lesson 16 — Score-and-slip: joins that hold
-- **Duration:** 35 min
-- **Objective:** "By the end, I can join two pieces of clay securely using score-and-slip."
-- **Hook:** Why do clay arms fall off — and how do potters stop it?
-- **Key activity:** Demo **score-and-slip** (scratch both surfaces, dab water/slip, press and smooth) → the child joins two coils/balls with score-and-slip and tug-tests the join.
-- **Check for understanding:** "What are the steps to join clay so it holds?" → score both sides, add slip/water, press and smooth.
-- **Differentiation:** support: pre-scored pieces / stretch: join three pieces into a small structure.
-- **Materials:** clay, water pots, tools, sketchbook.
-- **Joy:** a join that survives the tug-test.
+### Lesson 7 — Self-portraits in light and shadow (Rembrandt) and gallery talk
+- **Duration:** 30 min
+- **Objective:** "By the end, I can draw a self-portrait from a mirror using line, texture and tone, and talk about my choices." (UK NC KS2 Art – drawing; evaluate)
+- **Hook:** Two of Rembrandt's many self-portraits (Netherlands, 1600s) — "Where is the light coming from? How can you tell?" (Year 1 painted colourful self-portraits inspired by Frida Kahlo; this year the focus is tone.)
+- **Key activity:** Notice how Rembrandt leaves one side of the face lit and lets the other fall into shadow; draw a self-portrait from a mirror with a facial proportions guide (eyes halfway down the head), a desk lamp lighting one side; add three tones from the Lesson 5 scale; gallery talk.
+- **Check for understanding:** Gallery talk: "Show us where the light hits your face in your drawing, and how you made the shadow side." → Points to the lit side (lightest tone, near the lamp) and the shadow side (built-up darker tones, softer pencil).
+- **Differentiation:** support: a head-proportion template and two tones only / stretch: add a cast shadow (e.g. under the nose) and a meaningful object in the background.
+- **Materials:** mirrors, desk lamp, 2B–6B pencils, proportion guide, Rembrandt self-portrait prints
+- **Joy:** A class self-portrait gallery.
 
-### Lesson 17 — Clay creature in the round
-- **Duration:** 40 min
-- **Objective:** "By the end, I can mould a clay creature that holds together and looks good from all sides."
-- **Hook:** You're a sculptor — your creature must work from the front, side AND back.
-- **Key activity:** The child plans a simple creature, builds the body by pinching/coiling, adds limbs/features with score-and-slip, adds texture (scales/spots) by pressing tools, turning it as they work.
-- **Check for understanding:** "Name two clay skills you used." → e.g. coiling + score-and-slip.
-- **Differentiation:** support: one-lump creature with pressed features / stretch: add a securely joined feature (tail, ears) and surface texture.
-- **Materials:** clay, tools, water, sketchbook.
-- **Joy:** a sturdy little creature that stands on the table.
+**End-of-unit check:** A gallery talk on a self-portrait and a natural-object study: the child shows where they used line, texture and tone and explains one thing they noticed by looking closely.
 
-### Lesson 18 — Matisse cut-out paper sculpture finish
-- **Duration:** 35 min
-- **Objective:** "By the end, I can decorate or build a 3-D form using bright cut-out shapes like Matisse."
-- **Hook:** When **Henri Matisse** got too ill to paint, he "drew with scissors" — cutting shapes straight from colour.
-- **Key activity:** Look at **Henri Matisse**'s cut-outs (e.g. *The Snail*) → the child cuts bold simple shapes freehand (no drawing first) and arranges/glues them to decorate their clay creature's stand, or builds a small standing cut-out sculpture.
-- **Check for understanding:** "What did Matisse mean by 'drawing with scissors'?" → cutting shapes directly from coloured paper instead of drawing them.
-- **Differentiation:** support: cut simple geometric shapes / stretch: cut a flowing organic shape with no outline.
-- **Materials:** coloured paper, scissors, glue, sketchbook; Matisse image.
-- **Joy:** cutting bold shapes straight from colour, fearlessly.
+## Unit 2 — Colour: mixing, mood and pattern
 
-> **Continues into Year 5:** larger sculpture, armatures and modelling depth (KB topic 6) develop in Year 5.
+**Essential question:** How can colour change the way a picture makes us feel?
 
-**End-of-unit check:** Child makes a clay form using at least two clay skills (incl. a score-and-slip join that holds), and shows it is finished from front, side and back.
+**Key vocabulary:** primary, secondary, tertiary, colour wheel, tint, shade, tone, warm, cool, complementary, mood, pattern, abstract, palette, wash
 
----
+### Lesson 8 — Mixing the colour wheel
+- **Duration:** 30 min
+- **Objective:** "By the end, I can mix secondary and tertiary colours and arrange them on a colour wheel." (UK NC KS2 Art – painting)
+- **Hook:** Only red, yellow and blue paint on the table — "Can we make every colour?"
+- **Key activity:** Mix secondaries, then tertiaries (e.g. red-orange); build a 12-part colour wheel; learn brush care.
+- **Check for understanding:** "How did you make yellow-green, and why is it called tertiary?" → Mixed yellow with a little green; it's a mix of a primary and a secondary.
+- **Differentiation:** support: 6-part wheel / stretch: find complementary pairs opposite each other.
+- **Materials:** ready-mix red, yellow, blue, palettes, brushes (sizes 4 and 8), water pots, colour-wheel templates
+- **Joy:** "Colour chemists" — name a newly mixed colour.
 
-## End-of-year outcomes
+### Lesson 9 — Tints, shades and tones: beyond black and white
+- **Duration:** 25 min
+- **Objective:** "By the end, I can make tints, shades and tones (adding grey), and darken a colour with its complementary instead of black." (UK NC KS2 Art – painting)
+- **Hook:** Paint strips from a hardware shop — "Year 1 made tints and shades. How did the paint company make these soft, greyish colours?"
+- **Key activity:** Retrieve tints (white) and shades (black) with a quick 3-step ladder; add two new ideas — a *tone* (colour + grey, softer and duller) and a *natural shade* made with the complementary colour (a little red into green, a little purple into yellow); use them to paint a misty landscape (soft tones far away, rich shades close up).
+- **Check for understanding:** "Mix a darker green without using black. What did you add, and why does it look more natural than green plus black?" → A little red (its complementary colour); it darkens and dulls the green like real shadow, while black can make it look muddy and flat.
+- **Differentiation:** support: 3-step ladder then one complementary mix with help / stretch: a 5-step ladder from pure green to a deep complementary shade.
+- **Materials:** paint, white, black, palettes, paint strips
+- **Joy:** "Paint shop" naming of their colours.
 
-By the end of Year 2, a child's sketchbook/portfolio should show:
+### Lesson 10 — Warm and cool, near and far (Paul Klee)
+- **Duration:** 25 min
+- **Objective:** "By the end, I can use warm colours to bring shapes forward and cool colours to push them back." (UK NC KS2 Art – great artists)
+- **Hook:** Paul Klee's *Castle and Sun* (1928) — "Which shapes seem closest to you? Why?"
+- **Key activity:** Retrieve Year 1's warm and cool moods in one minute; new idea: warm colours seem to come forward and cool colours seem to sit back; build a Klee-style castle from geometric shapes — warm castle in front of a cool sky, then swap on a second version and compare.
+- **Check for understanding:** Gallery talk: "Compare your two castles. In which one does the castle stand out more, and why?" → The warm castle on a cool sky — warm colours seem to jump forward and cool colours seem to sit back, so the castle looks nearer.
+- **Differentiation:** support: pre-drawn shapes / stretch: use warm and cool colours to show a sunset moving into night.
+- **Materials:** Klee print, rulers, paint or oil pastels, squared paper
+- **Joy:** A "warm vs cool" class castle wall.
 
-1. **A working sketchbook** — dated test pages, mark-making warm-ups, and the habit of light build-up lines before darkening.
-2. **A tints-and-shades strip** of one colour reading lightest → darkest, showing white lightens and black darkens.
-3. **A colour-mood pair** — one warm-palette and one cool-palette picture, with the feeling named.
-4. **A layered collage** built background-to-foreground showing near and far, with overlap.
-5. **A mixed-media collage** combining paper with at least two other materials, each texture named.
-6. **A designed repeating pattern** — one self-made tile plus a printed two-block pattern with its rule stated.
-7. **A clay form** made with at least two clay skills, including a secure score-and-slip join, finished in the round.
-8. **A deeper artist study** — work inspired by **Matisse** (cut-outs) plus revisits of **Van Gogh**, **Kandinsky** or **Kusama**, with the child describing each using a formal-element word.
+### Lesson 11 — Kandinsky: colour and music
+- **Duration:** 25 min
+- **Objective:** "By the end, I can respond to music with colour and shape in the style of Kandinsky." (UK NC KS2 Art – great artists; Music link)
+- **Hook:** Kandinsky's *Squares with Concentric Circles* (1913) and a piece of music.
+- **Key activity:** Learn that Kandinsky linked colour and sound; paint concentric circles while listening to two contrasting pieces; compare.
+- **Check for understanding:** "How did the music change your colour choices?" → e.g. fast, loud music → bright, warm colours; slow → cool, soft colours.
+- **Differentiation:** support: circles drawn with a template / stretch: explain their colour choices in writing.
+- **Materials:** Kandinsky print, paints or oil pastels, circle templates, music
+- **Joy:** Painting to music.
+
+### Lesson 12 — Georgia O'Keeffe: close up and big
+- **Duration:** 30 min
+- **Objective:** "By the end, I can paint a flower close up, blending colours like Georgia O'Keeffe." (UK NC KS2 Art – great artists)
+- **Hook:** An O'Keeffe flower painting — "Why make a flower so huge?"
+- **Key activity:** Use a viewfinder on a real flower; draw it large enough to touch the edges; paint with blended tints and shades (Science link: parts of a flower).
+- **Check for understanding:** "How does painting it so big change how we see a flower?" → We notice details and shapes we usually miss.
+- **Differentiation:** support: large outline provided / stretch: blend three colours smoothly.
+- **Materials:** real flowers, viewfinders, watercolours or ready-mix, large paper
+- **Joy:** Giant flower gallery.
+
+### Lesson 13 — Pattern and dots: Yayoi Kusama
+- **Duration:** 25 min
+- **Objective:** "By the end, I can use repeated dots and colour to make a bold pattern." (UK NC KS2 Art – great artists; pattern)
+- **Hook:** Photos of Kusama's dotted pumpkins and rooms.
+- **Key activity:** Design a pumpkin or fruit covered in dots, using complementary colours; discuss repetition and rhythm.
+- **Check for understanding:** "What happens when you use complementary colours next to each other?" → They make each other look brighter and create contrast.
+- **Differentiation:** support: dot stickers / stretch: dots changing size to create depth.
+- **Materials:** Kusama photos, paint, cotton buds, dot stickers, card
+- **Joy:** A dotted classroom "installation."
+
+### Lesson 14 — Colour gallery talk
+- **Duration:** 25 min
+- **Objective:** "By the end, I can explain how I used colour and give kind, specific feedback." (UK NC KS2 Art – evaluate)
+- **Hook:** Sketchbooks laid out as a gallery.
+- **Key activity:** Gallery walk with sticky-note feedback ("I notice… I wonder…"); each child chooses their strongest colour piece and explains why.
+- **Check for understanding:** "Which colour technique are you most proud of, and where did you use it?" → Names it and points to it.
+- **Differentiation:** support: sentence stems / stretch: compare two artists' use of colour.
+- **Materials:** sketchbooks, sticky notes
+- **Joy:** "Gallery opening" with juice.
+
+**End-of-unit check:** Gallery talk: the child mixes a tint and a shade on demand, points to warm and cool colours in their work, and explains how colour created mood.
+
+## Unit 3 — Printmaking: stamps, waves and cave marks
+
+**Essential question:** How can one design be repeated to make something new?
+
+**Key vocabulary:** print, printing block, relief, stamp, press, roller (brayer), ink, repeat, pattern, symbol, reverse, mirror image, woodblock, registration, edition
+
+### Lesson 15 — Cave marks: the first prints
+- **Duration:** 25 min
+- **Objective:** "By the end, I can make hand and stencil prints like the earliest artists." (UK NC KS2 Art; History link)
+- **Hook:** Photos of ancient hand stencils from caves on several continents (e.g. Cueva de las Manos, Argentina).
+- **Key activity:** Make hand stencils with sponges and natural-coloured paint; add animal silhouettes; discuss why people left handprints.
+- **Check for understanding:** "What is the difference between a stencil print and a handprint?" → A stencil blocks the paint to leave a shape; a handprint puts paint on with the hand.
+- **Differentiation:** support: pre-cut stencils / stretch: overlap two colours.
+- **Materials:** sponges, ochre/brown/black paint, card stencils, brown paper
+- **Joy:** A class "cave wall."
+
+### Lesson 16 — Hand-block printing from India: two colours that fit
+- **Duration:** 25 min
+- **Objective:** "By the end, I can print a two-colour repeat pattern by lining up a second block with the first." (UK NC KS2 Art – craft; culture)
+- **Hook:** Hand-block-printed cotton from Rajasthan (e.g. Bagru or Sanganer) and a short film of printers stamping carved wooden blocks: "Year 1 printed Adinkra with one stamp. How do these printers make two colours land in exactly the right place?"
+- **Key activity:** Learn that printers carve a separate wooden block for each colour and line each one up by eye with the last print (registration); make an outline block and a "fill" block from craft foam on card (a flower: outline + centre); print the outline in a grid, then carefully add the second colour; retrieve Adinkra as a comparison.
+- **Check for understanding:** "Why do the printers line up the second block so carefully with the first?" → So the second colour lands inside the right shapes; if it slips, the colours don't fit and the pattern looks blurred.
+- **Differentiation:** support: a large, simple two-part shape with a corner guide mark / stretch: a three-block design and a border.
+- **Materials:** images/film of Indian hand-block printing, craft foam, card, scissors, glue, water-based ink, rollers, fabric or paper (adult cuts any wooden or card bases)
+- **Joy:** A class "block-printed" tablecloth.
+
+### Lesson 17 — Hokusai's Great Wave
+- **Duration:** 25 min
+- **Objective:** "By the end, I can describe how Hokusai made The Great Wave as a woodblock print." (UK NC KS2 Art – great artists)
+- **Hook:** *The Great Wave off Kanagawa* — "Find the boats. Find the mountain."
+- **Key activity:** Discuss composition (big wave, tiny Mount Fuji), line and colour (Prussian blue); learn that it was printed from carved wooden blocks, one per colour; sketch wave shapes.
+- **Check for understanding:** "Why did Hokusai need a different block for each colour?" → Each block printed one colour, layered to build the picture.
+- **Differentiation:** support: trace wave shapes / stretch: plan a two-colour print.
+- **Materials:** Hokusai print, sketchbooks, blue pencils
+- **Joy:** "Wave sketching" to the sound of the sea.
+
+### Lesson 18 — Designing a relief print
+- **Duration:** 25 min
+- **Objective:** "By the end, I can design a print knowing it will come out reversed." (UK NC KS2 Art – printmaking)
+- **Hook:** "Write your name and print it — what happens?"
+- **Key activity:** Discover mirror images; design a wave or animal image on polystyrene tile size; avoid letters or reverse them.
+- **Check for understanding:** "Your name came out backwards on your test print. How will you draw it on your next block so it prints the right way round — and how could a mirror help you check?" → Draw the letters reversed (mirror writing) on the block; hold the block up to a mirror — if it reads correctly in the mirror, it will print correctly.
+- **Differentiation:** support: simple bold shapes / stretch: include reversed lettering.
+- **Materials:** polystyrene tiles (press-print foam), pencils, mirrors
+- **Joy:** Mirror magic.
+
+### Lesson 19 — Printing an edition
+- **Duration:** 30 min
+- **Objective:** "By the end, I can ink a block evenly and print a small edition." (UK NC KS2 Art – printmaking)
+- **Hook:** A real printing roller and ink.
+- **Key activity:** Press designs into foam; roll ink evenly; print three copies; try two colours; sign and number prints (1/3).
+- **Check for understanding:** "Why is your first print sometimes lighter than the second?" → The block absorbs some ink the first time.
+- **Differentiation:** support: adult helps with rolling / stretch: two-colour overprint.
+- **Materials:** foam tiles, water-based printing ink, rollers (brayers), inking trays, paper
+- **Joy:** Pulling the first print.
+
+### Lesson 20 — Print gallery talk
+- **Duration:** 25 min
+- **Objective:** "By the end, I can evaluate my prints and choose the best one." (UK NC KS2 Art – evaluate)
+- **Hook:** "Which print would you frame?"
+- **Key activity:** Compare editions; choose the best print and explain; give feedback to a partner.
+- **Check for understanding:** "What made your best print better than the others?" → Even ink, clean edges, clear design.
+- **Differentiation:** support: checklist / stretch: suggest improvements.
+- **Materials:** prints, frames (card mounts)
+- **Joy:** Framing the chosen print.
+
+**End-of-unit check:** Gallery talk: the child explains how a print is made, why it comes out reversed, and chooses their best print with reasons.
+
+## Unit 4 — Clay: pinch, coil and slab
+
+**Essential question:** How can a lump of clay become something useful and beautiful?
+
+**Key vocabulary:** clay, pinch pot, coil, slab, score, slip, join, texture, impress, form, vessel, kiln, glaze, sculpture, pierced form
+
+### Lesson 21 — Ancient pots: Jōmon and beyond
+- **Duration:** 25 min
+- **Objective:** "By the end, I can describe why people have made pots for thousands of years." (UK NC KS2 Art – craft; History link)
+- **Hook:** Images of Jōmon pottery (Japan) — some of the oldest pots in the world, with cord-pressed patterns.
+- **Key activity:** Compare pots from different ancient cultures (Jōmon, Egyptian, Indus); explore how patterns were pressed in; practise pressing texture into clay.
+- **Check for understanding:** "What does a pot tell us about the people who made it?" → What they cooked and stored, and their skills and designs.
+- **Differentiation:** support: picture sort / stretch: compare two cultures' pots.
+- **Materials:** images, clay samples, string, texture tools (wash hands after clay)
+- **Joy:** Pressing string patterns into clay.
+
+### Lesson 22 — Two pinch pots make a hollow form
+- **Duration:** 30 min
+- **Objective:** "By the end, I can join two pinch pots into a hollow form and make it safe to dry." (UK NC KS2 Art – sculpture)
+- **Hook:** "Year 1 made pinch pots. What happens if we put two together, rim to rim?"
+- **Key activity:** Quickly retrieve the pinch pot (thumb in, pinch and turn, even walls); make two the same size; score and slip the rims and join into a hollow ball; shape it into a creature, fruit or seed pod; pierce a small hidden hole with a pencil tip; add impressed texture.
+- **Check for understanding:** "Why do we poke a tiny hole into a closed hollow form?" → So the air trapped inside can escape; without it the form can crack as it dries or burst if it is fired in a kiln.
+- **Differentiation:** support: one pinch pot with a slab lid / stretch: add score-and-slipped features (legs, ears) that stay on.
+- **Materials:** air-dry or kiln clay, boards, texture tools
+- **Joy:** Pinch-pot creatures.
+
+### Lesson 23 — Coil building
+- **Duration:** 30 min
+- **Objective:** "By the end, I can roll coils and join them to build a vessel." (UK NC KS2 Art – sculpture)
+- **Hook:** A coil pot — "It's made of snakes!"
+- **Key activity:** Roll even coils; build on a base; smooth inside to join.
+- **Check for understanding:** "Why smooth the coils on the inside?" → To join them securely so the pot doesn't come apart.
+- **Differentiation:** support: fewer coils / stretch: patterned coil walls left visible outside.
+- **Materials:** clay, boards, modelling tools, water
+- **Joy:** Coil pots.
+
+### Lesson 24 — Slab tiles and score-and-slip
+- **Duration:** 30 min
+- **Objective:** "By the end, I can make a textured slab tile and join clay with score and slip." (UK NC KS2 Art – sculpture)
+- **Hook:** Decorative tiles from Islamic architecture and Portuguese azulejos.
+- **Key activity:** Roll a slab with guides; cut a tile; add a relief design joined with score-and-slip.
+- **Check for understanding:** "Why do we score and slip before joining?" → So the pieces grip and don't fall off when drying.
+- **Differentiation:** support: pressing texture only / stretch: raised relief pieces joined.
+- **Materials:** clay, rolling pins, wooden guides, slip, tools
+- **Joy:** A class tile "wall."
+
+### Lesson 25 — Nok terracotta heads: sculpting a face
+- **Duration:** 30 min
+- **Objective:** "By the end, I can model a clay head with features that stay on, inspired by the Nok sculptors of ancient Nigeria." (UK NC KS2 Art – great artists and craft; History link)
+- **Hook:** Photos of Nok terracotta heads (Nigeria, about 2,000–2,500 years old): "Look at the eyes. What shapes did the sculptors use?"
+- **Key activity:** Notice the bold, simple shapes (triangular or half-moon eyes with pierced pupils, carefully styled hair); link to the Nok iron-workers met in History; model a head from a thick slab or a pinch-pot form; add nose, lips, eyebrows and hair with score-and-slip; pierce the pupils with a pencil. (Year 1 made pierced forms after Hepworth; here holes become features.)
+- **Check for understanding:** "Which of your features stayed on best, and what did you do to join it? What did you borrow from the Nok sculptors?" → Names the scored-and-slipped feature and explains the join; names a Nok idea (e.g. simple triangle eyes with holes).
+- **Differentiation:** support: pressing features in (impressing) rather than adding / stretch: an elaborate hairstyle built from coils.
+- **Materials:** photos of Nok heads, clay, slip, plastic forks for scoring, loop tools, pencils
+- **Joy:** A "museum shelf" of class terracotta heads.
+
+### Lesson 26 — Clay gallery talk
+- **Duration:** 25 min
+- **Objective:** "By the end, I can explain how I made my clay piece and what I'd change." (UK NC KS2 Art – evaluate)
+- **Hook:** Dried pieces on upturned-box "plinths" with spotlights (desk lamps).
+- **Key activity:** Finish pieces with paint (air-dry clay) or glaze (if a kiln is available); gallery walk with "I notice… I wonder…" sticky notes; each child talks for one minute about their piece.
+- **Check for understanding:** "Which technique did you use, what was the hardest part, and how did you solve it?" → Names the technique (pinch/coil/slab), a specific challenge (e.g. cracks) and the fix (e.g. more slip, smoothing).
+- **Differentiation:** support: sentence stems ("I made… The tricky part was… I fixed it by…") / stretch: compare their form with a Jōmon pot or a Nok head.
+- **Materials:** dried clay pieces, acrylic paint or glaze, brushes, boxes for plinths, desk lamps, sticky notes
+- **Joy:** Seeing their pieces "in the museum" under the spotlights.
+
+**End-of-unit check:** Gallery talk: the child names the technique used (pinch, coil or slab), explains score-and-slip, and evaluates one strength and one improvement.
+
+## Unit 5 — Textiles: weaving and resist dyeing
+
+**Essential question:** How are patterns built into cloth — and what do they mean to the people who make them?
+
+**Key vocabulary:** textile, weave, warp, weft, loom, over-under, twill, pattern, backstrap loom, alpaca, natural dye, cochineal, resist, wax, batik, dye
+
+### Lesson 27 — Weaving patterns: beyond over-and-under
+- **Duration:** 25 min
+- **Objective:** "By the end, I can plan a weaving pattern on squared paper and weave it, including a diagonal (twill) pattern." (UK NC KS2 Art – textiles)
+- **Hook:** A close-up of denim jeans under a magnifier — "Why do the lines go diagonally?"
+- **Key activity:** Retrieve Year 1's plain over-under weave and warp/weft in two minutes; plan a new rule on squared paper (over two, under two, shifting one each row); weave it in paper strips and watch a diagonal appear; invent one more rule.
+- **Check for understanding:** "What happens if you go over-over-under instead of over-under?" → The pattern changes (a twill-like diagonal).
+- **Differentiation:** support: wide strips / stretch: invent a pattern rule.
+- **Materials:** coloured paper strips, scissors, glue
+- **Joy:** Pattern discovery.
+
+### Lesson 28 — Andean weaving of Peru
+- **Duration:** 25 min
+- **Objective:** "By the end, I can describe how Andean weavers make and colour their cloth and design a pattern inspired by it." (UK NC KS2 Art – craft; culture; Spanish link)
+- **Hook:** Photos or a film of Quechua weavers in the Andes (e.g. around Chinchero, near Cusco) spinning alpaca wool and weaving on a backstrap loom tied round the weaver's waist. (Year 1 studied Kente from Ghana — compare.)
+- **Key activity:** Learn that the weaver's body keeps the warp tight; that wool is dyed with plants and insects (red from tiny cochineal insects, blue from indigo, yellows from local plants); that patterns are passed down in families and can stand for things like lakes, mountains or flowers; design a symmetrical pattern band on squared paper with a "natural dye" palette.
+- **Check for understanding:** "The weavers' reds come from tiny cochineal insects. Why would weavers long ago make dyes from plants and insects — and why does it make each place's cloth look different?" → There were no factory dyes; they used what grew or lived nearby, so different places had different colours and styles.
+- **Differentiation:** support: pattern template with a mirror line / stretch: explain what their pattern's shapes stand for, like an Andean weaver.
+- **Materials:** photos/film of Andean weaving, alpaca or wool samples, squared paper, coloured pencils in a natural-dye palette
+- **Joy:** A class "pattern road" of everyone's bands side by side.
+
+### Lesson 29 — Texture weaving: a woven wall hanging
+- **Duration:** 30 min
+- **Objective:** "By the end, I can warp my own loom and weave a wall hanging that mixes colours, textures and a shape." (UK NC KS2 Art – textiles)
+- **Hook:** Sheila Hicks's thick, textured woven works — "Weaving can be bumpy, fluffy and 3-D!" (Year 1 wove stripes on ready-warped card looms, inspired by Anni Albers.)
+- **Key activity:** Warp a card loom themselves this time; weave with yarns, ribbons and fabric strips; build a block of colour (a sun, a hill) by weaving back and forth across only part of the warp; finish by tying off and hanging from a stick.
+- **Check for understanding:** "Why shouldn't you pull the weft too tight?" → The weaving narrows and puckers.
+- **Differentiation:** support: pre-warped loom / stretch: add textures (feathers, fabric strips).
+- **Materials:** card looms, yarn, ribbons, large plastic needles
+- **Joy:** Wall-hanging weavings.
+
+### Lesson 30 — Resist dyeing: batik-style
+- **Duration:** 30 min
+- **Objective:** "By the end, I can use a resist to create a pattern on fabric." (UK NC KS2 Art – textiles; culture)
+- **Hook:** Indonesian batik fabrics.
+- **Key activity:** Learn that batik uses hot wax as a resist (adult-only); children use a safe resist (flour paste or glue gel) on cotton, then paint with fabric paint or dye; remove resist.
+- **Check for understanding:** "What does the 'resist' do?" → It stops the dye soaking in, leaving a pattern.
+- **Differentiation:** support: simple lines / stretch: two-colour layering.
+- **Materials:** cotton squares, flour paste or gel glue, fabric paint, brushes
+- **Joy:** The reveal when the resist is washed off.
+
+### Lesson 31 — Textiles gallery talk
+- **Duration:** 25 min
+- **Objective:** "By the end, I can explain how my textile was made and its pattern." (UK NC KS2 Art – evaluate)
+- **Hook:** A textile "market" — tables draped with cloth and the children's work laid out like a market stall.
+- **Key activity:** Children "sell" their textile to a visiting partner by explaining how it was made and what the pattern means; the partner "buys" with a compliment and a question.
+- **Check for understanding:** "Explain warp and weft using your weaving, and how your resist square got its pattern." → Points to the fixed vertical warp and the woven weft; explains that the resist blocked the dye.
+- **Differentiation:** support: picture labels for warp, weft and resist / stretch: compare their pattern choices with Andean weaving or batik and the meanings in those traditions.
+- **Materials:** woven pieces, dyed squares, table cloths, label cards
+- **Joy:** The "textile market" role play.
+
+**End-of-unit check:** Gallery talk: the child explains warp and weft on their weaving and how a resist creates a pattern.
+
+## Unit 6 — Digital art and our exhibition
+
+**Essential question:** How can technology be an artist's tool — and how do artists share their work?
+
+**Key vocabulary:** digital, app, layer, brush tool, undo, composition, curate, exhibition, label, artist statement
+
+### Lesson 32 — David Hockney's digital drawings
+- **Duration:** 25 min
+- **Objective:** "By the end, I can make a digital drawing using brushes and layers." (UK NC KS2 Art – digital media; Computing link)
+- **Hook:** David Hockney's iPad drawings of landscapes and flowers.
+- **Key activity:** Explore a child-friendly drawing app: brushes, colour picker, layers, undo; draw a view from the window.
+- **Check for understanding:** "What can you do digitally that's hard with paint?" → Undo, layers, instant colour changes.
+- **Differentiation:** support: one layer / stretch: use 3 layers.
+- **Materials:** tablets with a drawing app, styluses
+- **Joy:** Digital drawing.
+
+### Lesson 33 — Curating: choosing our best work
+- **Duration:** 25 min
+- **Objective:** "By the end, I can choose two pieces from my year's work and explain why they show my best learning." (UK NC KS2 Art – evaluate)
+- **Hook:** A short video or photos of a museum curator hanging an exhibition — "Curators choose what visitors will see."
+- **Key activity:** Children page through their sketchbooks and portfolios, shortlist four pieces, then choose two using criteria (shows a technique well, shows progress, tells a story, influenced by an artist); groups agree a theme and hanging plan for their wall.
+- **Check for understanding:** "Why did you choose those two pieces over the others?" → Reasons linked to technique, progress or meaning, not just "I like it."
+- **Differentiation:** support: a criteria card with pictures and a sorting mat (yes / maybe / no) / stretch: plan a themed group wall and justify the order of pieces.
+- **Materials:** sketchbooks, portfolios, criteria cards, sticky notes, a floor plan of the display space
+- **Joy:** Wearing "curator" badges and planning the gallery.
+
+### Lesson 34 — Artist statements and museum labels
+- **Duration:** 25 min
+- **Objective:** "By the end, I can write a museum label that tells visitors what, how and why." (UK NC KS2 Art – evaluate; English link)
+- **Hook:** Real museum labels photographed on a school trip or from a museum website.
+- **Key activity:** Analyse a label (title, artist, date, materials, a sentence about the idea); write labels for their two pieces, including one artist or culture that inspired them; mount work.
+- **Check for understanding:** "Read your label: what will a visitor learn that they couldn't tell just by looking?" → The inspiration, the technique used and the reason for choices.
+- **Differentiation:** support: label frame (Title… Made with… I was inspired by… I want you to notice…) / stretch: a 3–4 sentence artist statement for their group wall.
+- **Materials:** label cards, mounting card, glue, example labels
+- **Joy:** Titling their work like real artists.
+
+### Lesson 35 — Exhibition opening and year gallery talk
+- **Duration:** 30 min
+- **Objective:** "By the end, I can present my art to visitors, explaining techniques, influences and choices." (Assessment)
+- **Hook:** Opening night — invitations sent to families and another class; a ribbon to cut.
+- **Key activity:** Each child stands by their work and gives a 1-minute talk to visitors; visitors leave comments in a guest book; the class reflects on the year: "What can you do now that you couldn't in September?"
+- **Check for understanding:** Gallery talk with a visitor: "Tell me how you made this and which artist helped you." → Names the technique and an artist/tradition and explains one deliberate choice.
+- **Differentiation:** support: talk with a partner using prompt cards / stretch: act as a tour guide for a whole group wall.
+- **Materials:** mounted work, labels, guest book, ribbon, (optional) juice for visitors
+- **Joy:** Cutting the ribbon and hosting the exhibition.
+
+**End-of-unit check:** The exhibition: each child presents two works and explains techniques, artist inspiration and choices.
+
+## Books & resources
+
+- *The Dot* — Peter H. Reynolds: a picture book about a child who believes she can't draw (met in Year 1 — reread briefly as the sketchbook year begins; *Ish* below is the new text).
+- *Ish* — Peter H. Reynolds: why "drawing-ish" is worth celebrating; builds confidence.
+- *Frida Kahlo and Her Animalitos* — Monica Brown & John Parra: Kahlo's life and her beloved animals (links back to Year 1's self-portraits).
+- *The Noisy Paint Box: The Colors and Sounds of Kandinsky's Abstract Art* — Barb Rosenstock & Mary GrandPré: Kandinsky's synaesthesia made vivid.
+- *Georgia's Bones* — Jen Bryant: O'Keeffe's way of looking at shapes in nature.
+- *Yayoi Kusama: From Here to Infinity!* — Sarah Suzuki (Museum of Modern Art): a picture-book life of Kusama.
+- *Hokusai: The Man Who Painted a Mountain* — Deborah Kogan Ray: the artist's lifelong practice.
+- **Museum collections online:** The Metropolitan Museum of Art, the British Museum, Tate Kids, the Smithsonian — high-quality images of every artwork named.
+- **Materials kit:** A5 sketchbooks, 2B–6B pencils, charcoal, oil pastels, ready-mix and watercolour paints, brushes (sizes 2–12), printing foam and rollers, water-based printing ink, clay and tools, card looms and yarn, fabric paint, tablets with a drawing app.
+
+## End-of-year mastery checks
+
+1. **Sketchbook habit** — uses the sketchbook to observe, experiment and annotate. *Seen:* flicking through the sketchbook with the child.
+2. **Drawing from observation** — draws with careful looking, using line, texture and a 5-step tone. *Seen:* self-portrait and still-life studies.
+3. **Colour** — mixes secondaries, tertiaries, tints and shades and chooses colour for mood. *Seen:* colour work and talk.
+4. **Printmaking** — makes a relief print edition and explains mirror images. *Seen:* the print edition.
+5. **Clay** — makes coil and slab forms and a hollow form from joined pinch pots, and joins features with score-and-slip. *Seen:* clay pieces.
+6. **Textiles** — weaves over-under and uses a resist technique. *Seen:* weaving and batik-style square.
+7. **Artists and cultures** — names at least five artists or traditions from different cultures and explains how they influenced their work. *Seen:* gallery talks.
+8. **Evaluation** — gives kind, specific feedback and explains their own choices using art vocabulary. *Seen:* exhibition talk.
+
+## Teacher guidance
+
+**Assessment by looking and talking.** Keep notes from gallery talks; judge progress from the sketchbook across the year, never from a single "finished" piece. Praise process, experiment and risk.
+
+**Common difficulties (and the fix)**
+- *Drawing what they "know" rather than what they see* (a stick-like hand): use blind contour and viewfinders; look 4 seconds, draw 1.
+- *Muddy colours*: clean brushes, mix on the palette not the paper, add dark to light gradually.
+- *Pressing too hard in pencil*: teach pressure control with the tone scale.
+- *Prints that are blotchy*: roll ink until it "hisses" (sticky, even) and use enough pressure.
+- *Clay cracking or falling apart*: keep clay damp, score-and-slip every join, even walls.
+
+**Cultural respect.** When learning from cultural traditions (Indian block printing, Andean weaving, Nok sculpture, batik), teach the meaning and makers, credit the culture, and create "inspired by" designs rather than copying sacred symbols.
+
+**Safety.** Adults handle knives, hot wax and kilns; wash hands after clay; ventilate when using inks and paints.
+
+**Vertical alignment.** Year 1 set up the sketchbook, tints and shades, warm and cool, collage, one-colour relief and Adinkra printing, plain weaving (Kente, Albers) and running stitch, and pinch/coil/score-and-slip clay; this year retrieves each briefly and goes a step further. Year 3 (ages 8–9) extends this year's drawing (perspective, proportion), colour (watercolour washes), printmaking (multi-layer), sculpture (armatures) and textiles (sewing, appliqué), and adds architecture and design.

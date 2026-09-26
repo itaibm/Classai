@@ -45,18 +45,20 @@ export function Home() {
                 </div>
                 <div className="grid cols-3">
                   {data.kids.map((k) => (
-                    <div
+                    <button
+                      type="button"
                       key={k.id}
                       className="card learner-tile"
                       style={{ ['--accent-h' as any]: k.avatar.hue }}
+                      aria-label={`Start learning as ${k.name}`}
                       onClick={() => navigate(`/learn/${k.id}`)}
                     >
-                      <div style={{ width: 120, height: 120 }}>
+                      <div style={{ width: 120, height: 120 }} aria-hidden="true">
                         <Character character={k.avatar.character} hue={k.avatar.hue} emotion="happy" mouthOpen={0} speaking={false} />
                       </div>
                       <strong style={{ fontSize: '1.2rem' }}>{k.name}</strong>
                       <span className="muted small">{k.gradeLevel || `age ${k.age}`}</span>
-                    </div>
+                    </button>
                   ))}
                 </div>
               </>

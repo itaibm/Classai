@@ -1,238 +1,489 @@
-# Year 2 Music (ages 6–7, KS1) — Lesson Outlines
+# Year 2 Music (ages 7–8) — Scope & Sequence
 
 > Part of **the best international primary school** (see [`../../../SCHOOL-CHARTER.md`](../../../SCHOOL-CHARTER.md)).
-> Scope drawn from [`knowledge-base/subjects/art-music/music-ks1-ks2.md`](../../../knowledge-base/subjects/art-music/music-ks1-ks2.md)
-> (Year-2 slice: consolidate KS1 pulse/rhythm/pitch/singing, then add **note values** (Topic 2), **dynamics & tempo as named dimensions** (Topic 5), the first **graphic notation** (Topic 8), **timbre & families** (Topic 6 start), and the first proper **notice → feel → judge** appraising (Topic 10).)
+> Built to [`../../PLANNING-BRIEF.md`](../../PLANNING-BRIEF.md). Drawn from
+> `knowledge-base/subjects/art-music/` and the UK National Curriculum KS2 Music and Model Music
+> Curriculum (Year 3), with world-music listening throughout.
 
 ## Year overview
 
-Year 2 takes everything Year 1 made the body *feel* and gives it **names, symbols and control**. The spine still runs **pulse → rhythm → pitch → singing → play → create → perform**, but now each dimension gets its musical word and the child starts to *direct* it on purpose: rhythm gains the first **note-value names** (ta / ti-ti, long / short = crotchet / quavers) and the rest (a silent beat); **dynamics** (loud/quiet, *forte/piano*, getting louder/softer) and **tempo** (fast/slow, getting faster/slower) become two clearly separate dimensions; **timbre** earns its name and the four instrument families appear in listening; and music gets **written down** for the first time through invented **graphic notation**. Singing grows into rounds-ready unison and stronger choruses. The year ends with composing a short piece from a written plan and a real performance, plus a listening thread that now does full **notice → feel → judge with a reason**. The golden rule from the knowledge base holds: **body and voice first, name the dimensions as you go, cycle Listen → Perform → Compose.** No instruments are required (voice, body and household sounds suffice) but tuned and untuned percussion make it richer. Skills that grow further are flagged **→ Year 3**.
+Year 2 music is the year children **learn their first melodic instrument — the recorder** — and
+learn to **read the music they play**. The instrument pathway across the school runs voice and
+percussion (Year 1) → **recorder (Year 2)** → recorder/ukulele (Years 3–4) → keyboard basics
+(Years 5–6), so this year lays the foundations of breath, posture, finger control and staff
+notation that every later instrument uses.
+
+Each lesson blends four strands: **singing** (songs and rounds from around the world, sung in tune
+with good posture), **listening** (a named piece every lesson — from Saint-Saëns and Grieg to
+Indonesian gamelan, South African choirs and Japanese folk song), **playing** (untuned percussion,
+then recorder), and **creating** (improvising and composing with the pentatonic scale and graphic
+and staff notation). Units progress from **pulse and rhythm reading** → **first recorder notes B,
+A, G** → **singing the world** → **more notes and reading the stave** → **composing** → a
+**performance** and appraisal.
+
+**What Year 2 assumes from Year 1 (ages 6–7):** keeping a steady beat and telling pulse from
+rhythm; ta, ti-ti and rests in stick notation; ostinato; singing so–mi–la in tune with hand signs;
+two-part rounds (*Frère Jacques*, *Kookaburra*); forte, piano, crescendo, allegro, adagio; the four
+orchestral families and instruments from several cultures (djembe, steel pan, sitar, gamelan);
+glockenspiel technique, a drone, and pentatonic (C D E G A) question-and-answer improvisation;
+graphic scores and a class composition. This year retrieves those quickly and moves on: metre,
+staff notation, the recorder, new rounds, pentatonic on the recorder, and composing in notation.
+
+**What Year 3 (ages 8–9) relies on from this year:** reading crotchets, quavers, minims and rests
+on a five-line stave; playing at least five recorder notes (B, A, G, C', D') with good tone;
+singing a two-part round; composing a short pentatonic melody; using musical vocabulary (pulse,
+rhythm, pitch, tempo, dynamics, timbre, texture) to describe music.
+
+## Time budget
+
+36 weeks × 1 lesson = 36 slots; 35 planned, 1 flex (concert rehearsal).
+
+| Unit | Title | Term | Weeks | Lessons |
+|---|---|---|---|---|
+| 1 | Pulse, rhythm and reading notation | 1 | 6 | 6 (L1–6) |
+| 2 | Meet the recorder: B, A and G | 1 | 7 | 7 (L7–13) |
+| 3 | Singing the world: songs, rounds and listening | 2 | 6 | 6 (L14–19) |
+| 4 | Recorder: more notes and reading the stave | 2 | 6 | 6 (L20–25) |
+| 5 | Composing with the pentatonic scale | 3 | 6 | 6 (L26–31) |
+| 6 | Perform and appraise: our concert | 3 | 4 | 4 (L32–35) |
+| | **Total** | | **35 + 1 flex** | **35** |
 
 ---
 
-## Unit 1 — Pulse & rhythm, with names (consolidate and notate)
+## Unit 1 — Pulse, rhythm and reading notation
 
-**Essential question:** How can I write down the long-and-short pattern of a rhythm and read it back?
+**Essential question:** How can we write down a rhythm so anyone can play it?
 
-**Key vocabulary:** pulse, rhythm, crotchet (ta), quavers (ti-ti), beat, rest, long, short
+**Key vocabulary:** pulse, beat, rhythm, tempo, crotchet (ta), quavers (ti-ti), minim (ta-a), crotchet rest, bar, bar line, time signature, ostinato, body percussion
 
-### Lesson 1 — Welcome back: pulse and rhythm together
+### Lesson 1 — Finding the pulse
 - **Duration:** 25 min
-- **Objective:** "By the end, I can keep a steady pulse with my feet and clap a word-rhythm on top."
-- **Hook:** Last year your feet learned the heartbeat and your hands learned the words — let's prove you still have both!
-- **Key activity:** Listen → imitate → perform. Feet tap the pulse to a steady song; clap the rhythm of "I like pizza" and "ba-na-na bread" on top. Swap leader with the tutor: one takes the pulse, one takes the rhythm.
-- **Check for understanding:** "Which is the steady one, pulse or rhythm?" → "pulse is steady; rhythm is the changing long-short pattern."
-- **Differentiation:** support: do feet first, then add hands / stretch: keep both through a whole nursery rhyme.
-- **Materials:** a steady-tempo recording; optional claves.
-- **Joy:** beating the tutor at the "two jobs at once" game.
+- **Objective:** "By the end, I can keep a steady pulse and show it when the tempo changes." (UK NC KS2 Music – play and perform; MMC Y3)
+- **Hook:** Grieg's *In the Hall of the Mountain King* — it starts slowly and gets faster and faster.
+- **Key activity:** March, tap and pat the pulse while listening; follow the tempo change (accelerando); pass a ball around the circle on the beat.
+- **Check for understanding:** "What happened to the pulse in the Grieg, and how did you show it?" → It got faster (accelerando); we tapped faster to keep with it.
+- **Differentiation:** support: tap pulse on a drum with a partner / stretch: keep the pulse while the teacher claps a different rhythm.
+- **Materials:** recording of Grieg, soft ball, hand drums
+- **Joy:** "Mountain King" chase game — creep, then run as it speeds up.
 
-### Lesson 2 — Ta and ti-ti (naming the notes)
+### Lesson 2 — Strong beats: feeling music in 2s, 3s and 4s
+- **Duration:** 25 min
+- **Objective:** "By the end, I can find the strong beat and tell whether music moves in twos, threes or fours." (UK NC KS2 Music – play; listen)
+- **Hook:** A march (Sousa, *The Stars and Stripes Forever*) then a waltz (Johann Strauss II, *The Blue Danube*): "March to one, sway to the other. Why do your feet want different things?"
+- **Key activity:** Quick retrieval of pulse vs rhythm from Year 1 (feet pulse, hands rhythm); then find the strong beat — stamp on 1 and tap the rest (1-2, 1-2-3, 1-2-3-4); groups count along to short clips and decide 2, 3 or 4; this prepares bars and time signatures in Lesson 4.
+- **Check for understanding:** "Listen to this new piece. Does it move in 2s or 3s? Show me how you found out." → Counts along with a stamp on the strong beat; the strong beat comes every three counts, so it's in 3s (a waltz) — or every two, so it's in 2s (a march).
+- **Differentiation:** support: stamp only the strong beat while the teacher counts / stretch: clap a rhythm with hands while feet show the metre.
+- **Materials:** recordings of a march and a waltz, claves, drums
+- **Joy:** "Ballroom or parade?" — the class switches between waltzing and marching as the music changes.
+
+### Lesson 3 — Crotchets, quavers and rests
+- **Duration:** 25 min
+- **Objective:** "By the end, I can read and clap rhythms using crotchets, paired quavers and crotchet rests." (UK NC KS2 Music – notation)
+- **Hook:** Stick-notation flashcards from Year 1 turn into "real" notes with note heads.
+- **Key activity:** Learn names: crotchet (ta), paired quavers (ti-ti), crotchet rest (sh); read 4-beat rhythm cards; play them on percussion; dictation: clap → children write.
+- **Check for understanding:** "How long does a crotchet rest last, and what do you do during it?" → One beat — stay silent but keep counting.
+- **Differentiation:** support: read cards with the teacher / stretch: write and read 8-beat patterns.
+- **Materials:** rhythm flashcards, untuned percussion, whiteboards
+- **Joy:** "Rhythm detective" — find the card the teacher clapped.
+
+### Lesson 4 — Minims and bars in 4/4
+- **Duration:** 25 min
+- **Objective:** "By the end, I can read minims and group beats into bars of four." (UK NC KS2 Music – notation)
+- **Hook:** Ravel's *Boléro* snare-drum pattern — "It never stops!"
+- **Key activity:** Learn the minim (2 beats); bar lines and 4/4 time; complete bars with the right number of beats; perform.
+- **Check for understanding:** "A bar in 4/4 has a minim and a crotchet. What's missing to make 4 beats?" → One more crotchet (or two quavers, or a crotchet rest).
+- **Differentiation:** support: beat-count boxes under the notes / stretch: write two different bars that each add to 4.
+- **Materials:** notation cards, whiteboards, *Boléro* recording
+- **Joy:** "Bar builder" race.
+
+### Lesson 5 — Ostinato: repeating patterns
+- **Duration:** 25 min
+- **Objective:** "By the end, I can perform a rhythmic ostinato against another part." (UK NC KS2 Music – play; improvise)
+- **Hook:** West African drumming recording — "Which patterns keep repeating?"
+- **Key activity:** Learn that an ostinato is a repeated pattern; layer three ostinatos on djembes, shakers and bells; a leader signals entries.
+- **Check for understanding:** "Why does it help to have a steady ostinato underneath?" → It gives everyone a stable pattern to fit their part with.
+- **Differentiation:** support: a simple crotchet ostinato / stretch: a syncopated ostinato.
+- **Materials:** djembes or hand drums, shakers, agogo bells, recording
+- **Joy:** A class drum circle.
+
+### Lesson 6 — Unit check: rhythm reading
+- **Duration:** 25 min
+- **Objective:** "By the end, I can read and play a 4-bar rhythm and write one I hear." (Assessment)
+- **Hook:** "Rhythm challenge cards."
+- **Key activity:** Read and play a 4-bar rhythm; write down a 2-bar rhythm the teacher claps; perform an ostinato in a group.
+- **Check for understanding:** "Clap this rhythm (ta ti-ti ta-a) and tell me how many beats it has." → Claps correctly; 4 beats.
+- **Differentiation:** support: 2-bar reading / stretch: 4-bar dictation.
+- **Materials:** rhythm cards, percussion
+- **Joy:** "Rhythm champion" badges.
+
+**End-of-unit check:** Read and perform a 4-bar rhythm in 4/4 using crotchets, quavers, minims and rests while a partner keeps the pulse.
+
+## Unit 2 — Meet the recorder: B, A and G
+
+**Essential question:** How do I make a beautiful sound on my first instrument?
+
+**Key vocabulary:** recorder, mouthpiece, thumb hole, left hand, tonguing ("doo"), breath, tone, stave, treble clef, line, space, note B, note A, note G, legato, staccato
+
+### Lesson 7 — Holding and breathing
+- **Duration:** 25 min
+- **Objective:** "By the end, I can hold the recorder correctly and play a gentle, steady note." (UK NC KS2 Music – play an instrument)
+- **Hook:** "The recorder has been played for over 600 years — and it only needs a gentle breath."
+- **Key activity:** Posture and hold (left hand on top); "warm breath" like fogging a window; tonguing with "doo"; play open notes on the pulse; care and hygiene rules.
+- **Check for understanding:** "Why do we blow gently and say 'doo'?" → Blowing too hard makes a squeak; 'doo' starts each note cleanly.
+- **Differentiation:** support: practise breath on a hand first / stretch: long notes held for 8 counts.
+- **Materials:** a descant recorder per child (named), cleaning rods, mirror
+- **Joy:** "Echo doo" — teacher plays a rhythm, class echoes on one note.
+
+### Lesson 8 — The note B
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play B with a clear tone and read it on the stave." (UK NC KS2 Music – play; notation)
+- **Hook:** "Your first real note! Thumb and first finger."
+- **Key activity:** Fingering for B (left thumb + first finger); find B on the middle line of the treble stave; play rhythm cards on B.
+- **Check for understanding:** "Where does B sit on the stave, and which holes do you cover?" → On the middle line; thumb hole and the first finger hole.
+- **Differentiation:** support: finger-chart stickers / stretch: play B with staccato and legato.
+- **Materials:** recorders, fingering charts, stave flashcards
+- **Joy:** "B-rhythm" echoes.
+
+### Lesson 9 — The note A
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play and read A and move between B and A." (UK NC KS2 Music – play; notation)
+- **Hook:** "Add one finger — the note gets lower!"
+- **Key activity:** Fingering for A (add second finger); A in the second space; B–A patterns from notation.
+- **Check for understanding:** "Why does covering more holes make the note lower?" → The air column inside gets longer.
+- **Differentiation:** support: B–A only in slow crotchets / stretch: B–A in quaver patterns.
+- **Materials:** recorders, stave cards
+- **Joy:** "Call and response" on B and A.
+
+### Lesson 10 — The note G and first tunes
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play G and perform a tune using B, A and G." (UK NC KS2 Music – play; perform)
+- **Hook:** *Hot Cross Buns* — a traditional English street-seller's tune played with B, A, G.
+- **Key activity:** G fingering (add third finger); G on the second line; learn *Hot Cross Buns* and *Merrily We Roll Along* (B A G A B B B).
+- **Check for understanding:** "Which note is lowest of B, A and G, and how do you know?" → G — it has the most fingers down and sits lowest on the stave.
+- **Differentiation:** support: letter names under the notes / stretch: play from notation only.
+- **Materials:** recorders, tune sheets
+- **Joy:** Playing a real tune.
+
+### Lesson 11 — Reading tunes on the stave
+- **Duration:** 25 min
+- **Objective:** "By the end, I can read B, A and G tunes from the stave without letter names." (UK NC KS2 Music – notation)
+- **Hook:** "Mystery tunes" — play one from notation; guess the song.
+- **Key activity:** Read short phrases; sight-read; partner checking.
+- **Check for understanding:** "How can you tell if the next note goes up or down?" → If it is higher on the stave, it goes up.
+- **Differentiation:** support: coloured note heads / stretch: sight-read a new 4-bar tune.
+- **Materials:** mystery tune cards, recorders
+- **Joy:** "Name that tune."
+
+### Lesson 12 — Dynamics and articulation
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play loudly and quietly (without squeaking) and smoothly or detached." (UK NC KS2 Music – play with control)
+- **Hook:** Tchaikovsky's *Dance of the Sugar Plum Fairy* — delicate, detached notes.
+- **Key activity:** Learn *p* and *f*, legato and staccato; play a tune in different ways; discuss the effect.
+- **Check for understanding:** "How can you play quietly on a recorder without the note going flat?" → Use gentler but steady breath and keep tonguing clear.
+- **Differentiation:** support: two contrasts only / stretch: crescendo on a long note.
+- **Materials:** recorders, dynamics cards, recording
+- **Joy:** "Fairy vs giant" playing game.
+
+### Lesson 13 — Unit check: first recorder performance
+- **Duration:** 25 min
+- **Objective:** "By the end, I can perform a B–A–G tune with good tone and read it." (Assessment)
+- **Hook:** "First recital."
+- **Key activity:** Small groups perform a tune; teacher notes posture, tone, fingering and reading; peer feedback.
+- **Check for understanding:** "What did you do to make your tone sound good?" → Gentle breath, 'doo' tonguing, covering holes fully.
+- **Differentiation:** support: perform with a partner / stretch: solo with dynamics.
+- **Materials:** recorders, tune cards
+- **Joy:** First recital.
+
+**End-of-unit check:** Perform a short tune using B, A and G from staff notation with steady pulse, clear tone and correct fingering.
+
+## Unit 3 — Singing the world: songs, rounds and listening
+
+**Essential question:** How do people around the world make music with their voices — and how can we sing together in harmony?
+
+**Key vocabulary:** unison, round, part, harmony, call and response, a cappella, melody, pitch, phrase, breath, posture, timbre, texture
+
+### Lesson 14 — Singing well: posture, breath and pitch
+- **Duration:** 25 min
+- **Objective:** "By the end, I can sing with good posture and breathing and match pitch." (UK NC KS2 Music – sing)
+- **Hook:** A "voice warm-up" with sirens and yawns.
+- **Key activity:** Warm-ups; pitch-matching echoes; learn *Funga Alafia* (a West African welcome song), sung in call and response.
+- **Check for understanding:** "Why do singers stand tall and breathe low?" → To have enough breath and a clear, strong sound.
+- **Differentiation:** support: sing the response only / stretch: lead the call.
+- **Materials:** recording or teacher model, drum accompaniment
+- **Joy:** Welcome song with actions.
+
+### Lesson 15 — New rounds: *Shalom Chaverim* and *Row, Row, Row Your Boat*
+- **Duration:** 25 min
+- **Objective:** "By the end, I can learn a new round quickly and hold my part in two parts, entering at the right moment." (UK NC KS2 Music – sing in parts)
+- **Hook:** Sing Year 1's *Kookaburra* as a round from memory — "Can we do it with a song we've never sung before?"
+- **Key activity:** Learn *Shalom Chaverim* (a Hebrew round from Israel meaning "goodbye, friends" — link to the swappable language) and *Row, Row, Row Your Boat*; sing in unison, then as two-part rounds; mark on the lyric sheet where the second group comes in, and have each group count in its own entry.
+- **Check for understanding:** "Where on the words does group 2 come in, and what would go wrong if they came in a beat early?" → Points to the entry point (e.g. when group 1 reaches the second line); coming in early would make the parts clash instead of fitting together.
+- **Differentiation:** support: sing in the stronger group with the teacher / stretch: a small group tries three parts (Year 3 builds three-part rounds).
+- **Materials:** lyrics, recorders (to play the tune later)
+- **Joy:** The first round that works.
+
+### Lesson 16 — South African a cappella
+- **Duration:** 25 min
+- **Objective:** "By the end, I can describe a cappella singing and sing a South African song in parts." (UK NC KS2 Music – listen; sing)
+- **Hook:** Ladysmith Black Mambazo recording.
+- **Key activity:** Listen and describe (voices only, rich harmony, call and response); learn *Shosholoza* with a simple two-part arrangement and body movement.
+- **Check for understanding:** "What does 'a cappella' mean, and how can voices sound so full without instruments?" → Voices only; many singers on different notes make harmony.
+- **Differentiation:** support: sing the lower repeated part / stretch: sing the melody part.
+- **Materials:** recordings, lyrics
+- **Joy:** Singing and stepping together.
+
+### Lesson 17 — Japanese folk song and the pentatonic sound
+- **Duration:** 25 min
+- **Objective:** "By the end, I can sing *Sakura Sakura* and describe its sound." (UK NC KS2 Music – sing; listen)
+- **Hook:** Photos of cherry blossom and the sound of a koto.
+- **Key activity:** Learn *Sakura Sakura* (Japanese folk song about cherry blossoms); listen to koto; notice the scale sounds different — it uses a Japanese five-note scale with some very small steps, which gives its misty, wistful mood (a different five-note scale from the bright C–D–E–G–A pentatonic of Year 1 and Unit 5).
+- **Check for understanding:** "How is the mood of *Sakura* different from *Shosholoza*?" → Calm, slow and gentle vs energetic and rhythmic.
+- **Differentiation:** support: hum the tune / stretch: sing with Japanese words learned from a recording.
+- **Materials:** recording, lyrics, photos
+- **Joy:** Paper-blossom movement piece.
+
+### Lesson 18 — Gamelan: music of Indonesia
+- **Duration:** 25 min
+- **Objective:** "By the end, I can describe the sound of gamelan and play interlocking patterns." (UK NC KS2 Music – listen to world music)
+- **Hook:** A Javanese or Balinese gamelan recording and photos of bronze gongs and metallophones.
+- **Key activity:** Listen and describe (layers, gongs marking cycles); play interlocking patterns on glockenspiels and chime bars; a big gong at the end of each cycle.
+- **Check for understanding:** "What is the job of the big gong in gamelan?" → It marks the end of each cycle, like a musical full stop.
+- **Differentiation:** support: gong or steady-beat part / stretch: interlocking fast part.
+- **Materials:** glockenspiels, chime bars, a gong or cymbal, recording
+- **Joy:** Class "gamelan" orchestra.
+
+### Lesson 19 — Unit check: singing
+- **Duration:** 25 min
+- **Objective:** "By the end, I can sing a song in tune and hold a part in a round." (Assessment)
+- **Hook:** "Choir day."
+- **Key activity:** Groups sing a round and a song of their choice; listening: identify a cappella, round, call and response in short clips.
+- **Check for understanding:** "Listen: is this a round, call and response or unison?" → Identifies correctly with a reason.
+- **Differentiation:** support: sing in larger group / stretch: solo line.
+- **Materials:** recordings, lyrics
+- **Joy:** Choir performance.
+
+**End-of-unit check:** Sing in tune in a two-part round and identify call and response, a cappella and unison singing in unseen clips.
+
+## Unit 4 — Recorder: more notes and reading the stave
+
+**Essential question:** How do more notes open up more music — and how do musicians read quickly?
+
+**Key vocabulary:** stave, treble clef, line notes, space notes, high C, high D, E, D, step, leap, phrase, repeat sign, first and second time bars
+
+### Lesson 20 — High C
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play high C and read it in the third space." (UK NC KS2 Music – play; notation)
+- **Hook:** "A new note using just thumb and second finger."
+- **Key activity:** Fingering for C' (thumb + second finger); find it on the stave; play B–C'–B patterns; tunes using G A B C'.
+- **Check for understanding:** "B and high C both use two holes plus the thumb. Why is C higher?" → For C the first finger hole is left open, so the air escapes higher up the recorder — the vibrating air column is shorter, so the note is higher; it also sits higher on the stave (third space).
+- **Differentiation:** support: slow crotchets / stretch: smooth changes between A and C'.
+- **Materials:** recorders, fingering charts
+- **Joy:** "Note ladder" game.
+
+### Lesson 21 — High D
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play high D and read it on the fourth line." (UK NC KS2 Music – play; notation)
+- **Hook:** "Thumb off!"
+- **Key activity:** D' fingering (second finger only, thumb off); five-note tunes; *Ode to Joy* opening (Beethoven) on B B C' D' D' C' B A G G A B B A A.
+- **Check for understanding:** "What changes with your thumb for D?" → The thumb comes off the hole.
+- **Differentiation:** support: shorter tune / stretch: full first phrase of *Ode to Joy*.
+- **Materials:** recorders, tune sheets
+- **Joy:** Playing Beethoven.
+
+### Lesson 22 — Low E and D (right hand)
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play low E and D using my right hand." (UK NC KS2 Music – play)
+- **Hook:** "Your right hand wakes up!"
+- **Key activity:** E (left hand G fingering + right hand first two fingers); D (+ third finger); careful covering; slow long notes.
+- **Check for understanding:** "Why do low notes squeak more easily, and how do you fix it?" → Any hole not fully covered leaks air; press fingers flat and blow gently.
+- **Differentiation:** support: stay with B A G C' D' and play E only / stretch: play a D–E–G–A–B scale.
+- **Materials:** recorders, mirrors
+- **Joy:** "Squeak-free challenge."
+
+### Lesson 23 — Steps and leaps; reading faster
+- **Duration:** 25 min
+- **Objective:** "By the end, I can spot steps and leaps in notation and read tunes faster." (UK NC KS2 Music – notation)
+- **Hook:** "Is the tune walking or jumping?"
+- **Key activity:** Identify steps (line to next space) and leaps; sight-reading games; repeat signs.
+- **Check for understanding:** "How can you tell a step from a leap on the stave?" → A step moves to the next line or space; a leap skips at least one.
+- **Differentiation:** support: tunes with steps only / stretch: a tune with leaps and a repeat sign.
+- **Materials:** tune cards, recorders
+- **Joy:** "Walk or jump" movement game.
+
+### Lesson 24 — Ensemble playing in two parts
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play my part in a two-part recorder piece while listening to the other part." (UK NC KS2 Music – play in ensemble)
+- **Hook:** Two recorder groups: one plays a tune, one holds a long G — "Is that two parts?"
+- **Key activity:** Play a known tune (*Merrily We Roll Along* or the *Ode to Joy* opening) as melody over a drone part on G; then an echo canon — group 2 plays a 2-bar B–A–G phrase one bar after group 1. (Year 1's rounds need notes beyond this year's range, so sing them rather than play them.)
+- **Check for understanding:** "What's the hardest thing about playing in two parts, and how did you manage it?" → Staying in time; by counting and listening to the pulse.
+- **Differentiation:** support: drone part / stretch: melody part.
+- **Materials:** recorders, arrangements
+- **Joy:** First "ensemble" rehearsal.
+
+### Lesson 25 — Unit check: recorder skills
+- **Duration:** 25 min
+- **Objective:** "By the end, I can play a tune with at least five notes from notation." (Assessment)
+- **Hook:** "Recorder grades" — earn coloured "belts" (like martial arts).
+- **Key activity:** Individual or pair performance; sight-reading of a short phrase.
+- **Check for understanding:** "Name each note in your tune and play it." → Accurate names and fingering.
+- **Differentiation:** support: three-note tune / stretch: tune with low E and D.
+- **Materials:** recorders, belt charts, ribbons
+- **Joy:** Recorder belts.
+
+**End-of-unit check:** Play a tune using at least five notes (G, A, B, C', D') from staff notation, with clear tone and a steady pulse.
+
+## Unit 5 — Composing with the pentatonic scale
+
+**Essential question:** How do composers turn ideas into music — and how can we write our own?
+
+**Key vocabulary:** compose, composer, pentatonic, scale, melody, phrase, question and answer, structure, graphic score, notation, texture, dynamics, timbre
+
+### Lesson 26 — Listening like a composer: Carnival of the Animals
+- **Duration:** 25 min
+- **Objective:** "By the end, I can describe how a composer uses instruments, pitch and tempo to paint animals." (UK NC KS2 Music – listen; appraise)
+- **Hook:** Saint-Saëns' *The Carnival of the Animals* — "Guess the animal."
+- **Key activity:** Year 1 heard *The Elephant* and *Aquarium* for dynamics; now listen as composers to new movements — *Royal March of the Lion*, *Kangaroos*, *Fossils* (xylophone) and *The Swan* (cello); describe the timbre, pitch and tempo choices for each animal.
+- **Check for understanding:** "Why do you think Saint-Saëns gave *Fossils* a xylophone?" → Its dry, clacking wooden sound is like rattling skeleton bones.
+- **Differentiation:** support: picture choices / stretch: describe texture and dynamics too.
+- **Materials:** recordings, animal pictures
+- **Joy:** "Guess the animal" game.
+
+### Lesson 27 — The pentatonic scale on the recorder
+- **Duration:** 25 min
+- **Objective:** "By the end, I can improvise on the recorder using the G pentatonic scale (G, A, B, D, E)." (UK NC KS2 Music – improvise)
+- **Hook:** "Play only the black notes on a keyboard — it always sounds good! In Year 1 you did the same on the glockenspiel. Can we find a pentatonic on the recorder?"
+- **Key activity:** Retrieve Year 1's C–D–E–G–A glockenspiel pentatonic; build the same pattern starting on G using recorder notes already learned (G, A, B, high D, low E); improvise 2-bar phrases over a G drone; notice that G feels like "home"; link to pentatonic folk songs from China, Scotland and West Africa.
+- **Check for understanding:** "Which five notes make our recorder pentatonic, and why does it still sound good whatever order you play them in?" → G, A, B, D and E; it leaves out the two notes (C and F sharp) that make the most clashing steps, so any combination fits.
+- **Differentiation:** support: three notes (G, A, B) / stretch: improvise a 4-bar melody that ends on G.
+- **Materials:** recorders, keyboards, glockenspiels (for comparison), drone on G (recorded or played)
+- **Joy:** Everyone improvising at once — and it works.
+
+### Lesson 28 — Question and answer phrases
+- **Duration:** 25 min
+- **Objective:** "By the end, I can compose a 'question' phrase and an 'answer' phrase that ends on the home note." (UK NC KS2 Music – compose)
+- **Hook:** A sung question: "What did you have for lunch?" (rising) and answer (falling).
+- **Key activity:** In pairs, compose a 2-bar question that ends up in the air and a 2-bar answer that ends on G, using the recorder pentatonic; then write both phrases on the stave with their rhythms (new this year — Year 1 improvised answers but did not notate them).
+- **Check for understanding:** "Why does ending on the home note sound finished?" → Our ears hear it as 'home', so the music feels complete.
+- **Differentiation:** support: answer given / stretch: repeat with a variation.
+- **Materials:** glockenspiels, recorders, whiteboards
+- **Joy:** Musical "conversation" duets.
+
+### Lesson 29 — Graphic scores
+- **Duration:** 25 min
+- **Objective:** "By the end, I can create a graphic score for a soundscape." (UK NC KS2 Music – compose; notation)
+- **Hook:** A page of Cathy Berberian's *Stripsody* (1966), a real graphic score drawn like a comic strip — "How would a singer perform this?" (Year 1 drew graphic scores for a rainforest.)
+- **Key activity:** Groups compose a volcano soundscape (Geography link) with percussion and voices in three sections — rumbling, eruption, calm again (ABA structure) — and show layers (texture) stacked on the graphic score, with symbols for dynamics and timbre.
+- **Check for understanding:** "How does your score show loud and quiet?" → Bigger/thicker shapes for loud, smaller for quiet.
+- **Differentiation:** support: symbol bank and two layers / stretch: add a tempo change and a timeline in seconds.
+- **Materials:** percussion, large paper, pens
+- **Joy:** Performing each other's scores.
+
+### Lesson 30 — Composing our class piece
 - **Duration:** 30 min
-- **Objective:** "By the end, I can say and clap 'ta' for a long sound and 'ti-ti' for two quick sounds."
-- **Hook:** Musicians have secret nicknames for sounds — one beat is "**ta**," two quick beats squeezed in one is "**ti-ti**"!
-- **Key activity:** Listen → imitate → practise. Tutor claps "ta" (one beat, a *crotchet*) and "ti-ti" (two *quavers*); child echoes with the words. Map foods: "cat" = ta, "ti-ger" = ti-ti, "pizza" = ti-ti. Clap 4-beat strings like *ta, ti-ti, ta, ta* while feet keep pulse.
-- **Check for understanding:** "Clap and say 'ta ti-ti ta ta'." → child performs one long, two quick, two long, in time.
-- **Differentiation:** support: clap just ta then just ti-ti / stretch: invent a 4-beat ta/ti-ti pattern and say it.
-- **Materials:** food picture cards; optional claves.
-- **Joy:** the silly fun of saying "ti-ti" while clapping.
+- **Objective:** "By the end, I can contribute to a class composition with a structure." (UK NC KS2 Music – compose)
+- **Hook:** "Our own Carnival of the Animals."
+- **Key activity:** Groups compose an animal "movement" using pentatonic melody, ostinato and chosen timbre; write it in staff or graphic notation; sequence into a class piece.
+- **Check for understanding:** "How did your group choose instruments to suit your animal?" → Matches timbre, pitch and tempo to the animal.
+- **Differentiation:** support: ostinato role / stretch: melody role written in staff notation.
+- **Materials:** instruments, recorders, notation sheets
+- **Joy:** Recording the class composition.
 
-### Lesson 3 — The silent beat (rest)
+### Lesson 31 — Refining and recording
 - **Duration:** 25 min
-- **Objective:** "By the end, I can leave a silent beat (a rest) in a rhythm and still keep the pulse."
-- **Hook:** What if the music goes *shh* — a beat where you make no sound but the pulse keeps marching?
-- **Key activity:** Imitate → practise → perform. Clap "ta, ta, ta, (rest)" — show the rest as a quiet open-hands gesture. Pulse never stops in the feet. Play "clap–clap–clap–shh" patterns, then mix rests into ta/ti-ti patterns.
-- **Check for understanding:** "What happens on a rest?" → "you make no sound but the beat keeps going."
-- **Differentiation:** support: one rest at the end of a pattern / stretch: a rest in the middle of a pattern.
-- **Materials:** none (body percussion).
-- **Joy:** the dramatic silence of the "shh" beat.
+- **Objective:** "By the end, I can improve our composition after listening back." (UK NC KS2 Music – appraise)
+- **Hook:** Playback of the recording.
+- **Key activity:** Listen; suggest improvements (dynamics, tempo, balance); re-record.
+- **Check for understanding:** "What one change made our piece better?" → A specific improvement.
+- **Differentiation:** support: choose from suggested improvements / stretch: lead a group rehearsal.
+- **Materials:** tablet recorder, instruments
+- **Joy:** Final recording.
 
-### Lesson 4 — Draw the rhythm (graphic notation)
+**End-of-unit check:** Compose, notate and perform a 4-bar pentatonic question-and-answer melody ending on G, and explain the choices made in the class composition.
+
+## Unit 6 — Perform and appraise: our concert
+
+**Essential question:** How do we prepare a performance that moves an audience?
+
+**Key vocabulary:** rehearse, perform, audience, ensemble, conductor, cue, balance, appraise, evaluate, programme
+
+### Lesson 32 — Planning the concert programme
+- **Duration:** 25 min
+- **Objective:** "By the end, I can help plan a concert programme and explain our choices." (UK NC KS2 Music – perform)
+- **Hook:** A real concert programme.
+- **Key activity:** Choose pieces (a song from Unit 3, a recorder piece, the class composition); assign roles (performers, presenters, conductor); design the programme.
+- **Check for understanding:** "Why is it good to have a mix of pieces in a concert?" → It keeps the audience interested and shows different skills.
+- **Differentiation:** support: choose from options / stretch: write the introductions.
+- **Materials:** programme templates, song lists
+- **Joy:** Designing the programme.
+
+### Lesson 33 — Rehearsal: ensemble skills
 - **Duration:** 30 min
-- **Objective:** "By the end, I can write a 4-beat rhythm with my own symbols and clap someone else's."
-- **Hook:** How could a friend play YOUR pattern tomorrow if you didn't tell them? Write it down!
-- **Key activity:** Compose → read. Invent symbols: a long dash = ta, two joined dots = ti-ti, a blank box = rest. Write a 4-beat line, e.g. dash · dots · dash · box. Swap with the tutor and clap each other's exactly. (First taste of **notation** → Year 3.)
-- **Check for understanding:** "What is notation for?" → "to write music down so it can be played the same way again."
-- **Differentiation:** support: copy and clap a given symbol line / stretch: write an 8-beat line with a rest.
-- **Materials:** paper and pen; symbol key.
-- **Joy:** decoding a secret rhythm the tutor wrote.
+- **Objective:** "By the end, I can follow a conductor, start and stop together, and balance my sound." (UK NC KS2 Music – perform in ensemble)
+- **Hook:** A child conductor with a baton.
+- **Key activity:** Rehearse each piece; practise cues, dynamics and walking on/off; peer feedback.
+- **Check for understanding:** "What does the conductor's signal for 'quieter' look like, and why follow it?" → A lowered hand; so the whole group changes together.
+- **Differentiation:** support: stand next to a strong player / stretch: conduct a section.
+- **Materials:** instruments, baton, programme
+- **Joy:** Taking turns to conduct.
 
-**Listening thread (Unit 1):** **"Mango Walk"** (Caribbean folk, revisited from Y1) — clap the ti-ti-rich rhythm of the words, then *notice → feel → judge*: name the bouncy pulse and say if it makes you want to move, and why.
-
-**End-of-unit 1 check:** Child claps a 4-beat pattern mixing ta, ti-ti and a rest while keeping the pulse, and writes/reads a short rhythm in graphic notation.
-
----
-
-## Unit 2 — Pitch and the singing voice (consolidate and grow)
-
-**Essential question:** How do I make my voice match a note and sing a tune that stays in tune?
-
-**Key vocabulary:** pitch, high, low, melody, in tune, match, warm-up, step, leap
-
-### Lesson 5 — Warm up and match the note
-- **Duration:** 25 min
-- **Objective:** "By the end, I can warm up my voice and sing back a single note in tune."
-- **Hook:** Singers tune their voices like a guitar — can your voice find the exact note I sing?
-- **Key activity:** Imitate → practise. Posture and breath; sirens up and down; then *pitch-matching*: tutor sings a note (or plays a chime bar), child slides to match it. Use a hand at the matched height. Try three different notes.
-- **Check for understanding:** "Sing back this note." → child matches the pitch reasonably accurately.
-- **Differentiation:** support: match one comfortable mid note / stretch: match three notes including a high one.
-- **Materials:** a chime bar for a clear starting note.
-- **Joy:** the satisfying "lock-on" when your voice hits the note.
-
-### Lesson 6 — Steps and leaps (how tunes move)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can hear and sing a tune that steps (next-door notes) versus one that leaps."
-- **Hook:** Some tunes tiptoe up the stairs one step at a time; some jump like a frog!
-- **Key activity:** Listen → imitate → create. Sing a step-wise tune (e.g. the start of "Frère Jacques") and a leaping one (e.g. "Twinkle Twinkle" 1–1–5–5). Hand traces small steps vs big jumps. Child invents a 3-note "steps" tune and a "leap" tune.
-- **Check for understanding:** "Did that tune step or leap?" → child distinguishes a step-wise from a leaping phrase.
-- **Differentiation:** support: just copy steps then leaps / stretch: name step vs leap while singing.
-- **Materials:** chime bars/xylophone; recordings of both songs.
-- **Joy:** making your voice "frog-jump" between notes.
-
-### Lesson 7 — Sing a song in tune and in time
+### Lesson 34 — Concert
 - **Duration:** 30 min
-- **Objective:** "By the end, I can sing a short song from memory, in tune and in time, with a clear chorus."
-- **Hook:** Today you become the whole band — voice, beat and tune all at once.
-- **Key activity:** Listen → imitate → perform. Learn a verse-chorus song (e.g. **"This Little Light of Mine"** or **"Down by the Bay"**). Tap pulse on listen; echo line by line; join; sing the chorus a little stronger (breath, not shouting).
-- **Check for understanding:** "Should you shout to sing louder?" → "no — use breath and stay in tune."
-- **Differentiation:** support: sing chorus only, hum verses / stretch: lead the song as caller.
-- **Materials:** a clear verse-chorus song recording.
-- **Joy:** sounding genuinely good on the chorus.
+- **Objective:** "By the end, I can perform confidently for an audience." (Assessment – perform)
+- **Hook:** The audience arrives.
+- **Key activity:** Perform the programme; presenters introduce pieces.
+- **Check for understanding:** Teacher observes: posture, tone, pulse, ensemble, confidence.
+- **Differentiation:** support: ensemble roles / stretch: solo or duet feature.
+- **Materials:** instruments, programme, chairs
+- **Joy:** The concert.
 
-**Listening thread (Unit 2):** **"The Aquarium"** (Saint-Saëns) revisited — *notice* the high sparkly pitch and gliding melody, *feel* whether it sounds calm or busy, *judge* with a "because."
-
-**End-of-unit 2 check:** Child matches a sung note, tells a stepping tune from a leaping one, and sings a short song from memory in tune and in time.
-
----
-
-## Unit 3 — Dynamics & tempo (two new named dimensions)
-
-**Essential question:** How are loud/quiet (dynamics) and fast/slow (tempo) different, and how do I control each?
-
-**Key vocabulary:** dynamics, forte (loud), piano (quiet), tempo, fast, slow, getting louder, getting softer, getting faster
-
-### Lesson 8 — Forte and piano (the volume words)
+### Lesson 35 — Appraising our performance and the year
 - **Duration:** 25 min
-- **Objective:** "By the end, I can play forte (loud) and piano (quiet) on cue and name them."
-- **Hook:** Musicians use Italian: **forte** = loud, **piano** = quiet. Secret words to boss the music around!
-- **Key activity:** Listen → imitate → perform. Clap/play *forte* then *piano*; respond to flashcards F / P. Conduct: big hands = forte, small = piano. Play a song's pulse switching forte/piano on cue. (Dynamics = Topic 5.)
-- **Check for understanding:** "What does dynamics mean?" → "how loud or quiet the music is."
-- **Differentiation:** support: just two levels loud/quiet / stretch: three levels (quiet, medium, loud).
-- **Materials:** drum/shaker; F and P cards.
-- **Joy:** conducting the tutor from a whisper to a roar.
+- **Objective:** "By the end, I can appraise our performance and my own progress using musical vocabulary." (UK NC KS2 Music – appraise)
+- **Hook:** Watch the concert video.
+- **Key activity:** Discuss what went well and what to improve using vocabulary (pulse, dynamics, tempo, timbre, texture); set a recorder goal for Year 3.
+- **Check for understanding:** "Use two musical words to describe one strength of our concert." → e.g. "Our dynamics were clear, and the tempo stayed steady."
+- **Differentiation:** support: vocabulary cards / stretch: written review.
+- **Materials:** concert video, vocabulary cards
+- **Joy:** Watching themselves perform.
 
-### Lesson 9 — Tempo: fast, slow, and changing
-- **Duration:** 25 min
-- **Objective:** "By the end, I can keep a fast pulse and a slow pulse and gradually speed up or slow down."
-- **Hook:** A lullaby crawls; a race gallops. Same heartbeat, different *speed* — that's tempo.
-- **Key activity:** Listen → imitate → perform. Tap a slow pulse, then a fast pulse, to two recordings. Then *gradually* speed up (accelerando) like a train leaving, and slow down to a stop. Keep it even, not jerky.
-- **Check for understanding:** "What does tempo mean?" → "how fast or slow the music is."
-- **Differentiation:** support: just fast vs slow / stretch: smooth gradual speed-up then slow-down.
-- **Materials:** a fast and a slow recording.
-- **Joy:** being a steam train that speeds up and chuffs to a halt.
+**End-of-unit check:** Perform in the class concert and appraise it using at least three musical elements.
 
-### Lesson 10 — The trick: loud isn't fast
-- **Duration:** 25 min
-- **Objective:** "By the end, I can prove dynamics and tempo are different by playing loud-and-slow and quiet-and-fast."
-- **Hook:** Bet you can't play LOUD but SLOW… or quiet but super fast! Can you?
-- **Key activity:** Practise → perform. Play four combinations: loud-slow (giant footsteps), quiet-fast (tiptoe scurry), loud-fast, quiet-slow. Name each combo with both words. Sort sound clips into a loud/quiet and a fast/slow box.
-- **Check for understanding:** "Can music be loud and slow at the same time?" → "yes — dynamics and tempo are different."
-- **Differentiation:** support: do two combos / stretch: invent and label all four.
-- **Materials:** drum/body percussion; sorting cards.
-- **Joy:** booming slow giant steps then scurrying quiet mouse feet.
+## Books & resources
 
-**Listening thread (Unit 3):** **"In the Hall of the Mountain King"** (Grieg) — track how it gets *both* louder (dynamics) and faster (tempo); *notice → feel → judge* the building excitement.
+- *Recorder from the Beginning, Book 1* — John Pitts: the classic, carefully graded recorder method used worldwide.
+- *The Story Orchestra: The Nutcracker* — illustrated by Jessica Courtney-Tickle: a press-button sound book that brings Tchaikovsky (including the *Dance of the Sugar Plum Fairy*) to life.
+- *Zin! Zin! Zin! A Violin* — Lloyd Moss: a rhyming introduction to instruments and ensembles.
+- *Ada's Violin* — Susan Hood: the true story of the Recycled Orchestra of Cateura, Paraguay — music from rubbish.
+- **BBC Ten Pieces** — free films and resources on orchestral music including Grieg and Holst.
+- **Chrome Music Lab** (Google) — free browser tools (Song Maker, Rhythm) for composing.
+- **Sing Up** — high-quality song bank including world songs with teaching notes.
+- **Listening list (named pieces):** Grieg *In the Hall of the Mountain King*; Ravel *Boléro*; Sousa *The Stars and Stripes Forever*; Johann Strauss II *The Blue Danube*; Tchaikovsky *Dance of the Sugar Plum Fairy*; Saint-Saëns *The Carnival of the Animals* (Lion, Kangaroos, Fossils, Swan); Cathy Berberian *Stripsody*; *Sakura Sakura* and *Shalom Chaverim*; Beethoven *Ode to Joy* (Symphony No. 9); Ladysmith Black Mambazo (South Africa); Javanese/Balinese gamelan; Japanese koto music; West African djembe drumming.
+- **Instruments:** a named descant recorder per child, djembes and hand drums, shakers, claves, agogo bells, glockenspiels (with removable bars), chime bars, a gong.
 
-**End-of-unit 3 check:** Child controls forte/piano and fast/slow on cue, performs a gradual change, and explains that dynamics (volume) and tempo (speed) are separate.
+## End-of-year mastery checks
 
----
+1. **Pulse and rhythm** — keeps a steady pulse and reads/plays rhythms with crotchets, quavers, minims and rests in 4/4. *Seen:* rhythm challenge.
+2. **Recorder** — plays G, A, B, C', D' (and ideally E, D) with good posture, breath and tonguing. *Seen:* recorder belt.
+3. **Notation** — reads these notes on the treble stave and writes a heard rhythm. *Seen:* sight-reading and dictation.
+4. **Singing** — sings in tune with good posture and holds a part in a two-part round. *Seen:* choir day.
+5. **Listening** — describes named pieces using pitch, tempo, dynamics, timbre and texture, and recognises music from at least three cultures. *Seen:* listening journals.
+6. **Composing** — composes a pentatonic question-and-answer melody and records it in notation. *Seen:* composition.
+7. **Performing** — performs in an ensemble following a conductor. *Seen:* concert.
+8. **Appraising** — evaluates a performance with musical vocabulary. *Seen:* concert appraisal.
 
-## Unit 4 — Timbre & instrument families (the colour of sound)
+## Teacher guidance
 
-**Essential question:** What makes a drum, a bell and a voice sound different, even on the same note?
+**Common difficulties (and the fix)**
+- *Squeaking recorder:* blowing too hard or leaking holes — "warm breath," pads of fingers flat, check in a mirror.
+- *Confusing pulse and rhythm:* always layer them (feet = pulse, hands = rhythm).
+- *Reading letter names instead of notes:* remove letter names gradually; play "line or space?" games.
+- *Singing too low or shouting:* warm up with sirens; sing lightly in the head voice; model pitch.
+- *Rushing in ensemble:* use a steady drum pulse and a conductor; record and listen back.
 
-**Key vocabulary:** timbre, bright, dull, ringing, buzzy, percussion, strings, woodwind, brass
+**Hygiene.** One named recorder per child; never share; clean with a rod and warm water weekly.
 
-### Lesson 11 — Same note, different sound (timbre)
-- **Duration:** 25 min
-- **Objective:** "By the end, I can name 'timbre' and describe sounds as bright, dull, ringing or buzzy."
-- **Hook:** A drum and a flute play the SAME note — so why don't they sound the same? It's timbre!
-- **Key activity:** Explore → describe. Tap a metal pan (bright, ringing), a cushion (dull, soft), a glass of water (clear ting), a comb-and-paper (buzzy). Same action, different *colour* of sound. Build a word bank of timbre words. (Timbre = Topic 6.)
-- **Check for understanding:** "What is timbre?" → "the type/character of a sound — what makes instruments sound different."
-- **Differentiation:** support: match two sounds to two words / stretch: invent your own timbre word for a sound.
-- **Materials:** household sound-makers; word cards.
-- **Joy:** the "kitchen band" of clever everyday sounds.
+**Practice at home.** 5 minutes a day beats 30 minutes once a week; send home fingering charts and recordings.
 
-### Lesson 12 — The four families
-- **Duration:** 30 min
-- **Objective:** "By the end, I can sort instruments into percussion, strings, woodwind and brass by how they make sound."
-- **Hook:** Instruments live in families — hit, blown, bowed or buzzed. Which family is a trumpet in?
-- **Key activity:** Listen → categorise. Watch/hear a violin (bowed strings), recorder/flute (blown woodwind), trumpet (buzzed brass), drum (hit percussion). Sort picture/sound cards by *how* the sound is made. Catch tricksters: piano is keyboard (strings struck), recorder is woodwind not brass.
-- **Check for understanding:** "Which family is a trumpet in?" → "brass."
-- **Differentiation:** support: sort four clear examples / stretch: explain the rule (hit/blown/bowed/buzzed).
-- **Materials:** BBC Ten Pieces instrument clips; family sort cards.
-- **Joy:** being an "instrument detective" who never gets fooled.
+**Inclusion.** Adapted recorders or a glockenspiel part for children with fine-motor difficulties; every child performs.
 
-**Listening thread (Unit 4):** **"The Young Person's Guide to the Orchestra"** (Britten) — pick out a family by its timbre each time it enters; *notice → feel → judge* which timbre you liked and why.
-
-**End-of-unit 4 check:** Child describes three sounds with timbre words and sorts instruments into the four families by how they make sound.
-
----
-
-## Unit 5 — Compose, notate & perform (putting it together)
-
-**Essential question:** How do I plan a short piece on paper, choosing dynamics and tempo, then perform it the same way twice?
-
-**Key vocabulary:** compose, structure, beginning–middle–end, repeat, dynamics, tempo, perform, appraise
-
-### Lesson 13 — Plan a sound piece on paper
-- **Duration:** 30 min
-- **Objective:** "By the end, I can plan a 3-part piece in graphic notation, choosing dynamics and tempo."
-- **Hook:** Composers sketch before they play — let's draw a piece before we make a single sound.
-- **Key activity:** Compose. Plan a "journey/weather" piece in three boxes: **beginning** (quiet, slow — light rain), **middle** (loud, fast — storm), **end** (quiet, slow, fading). Draw symbols and write F/P and fast/slow under each box.
-- **Check for understanding:** "Name the three parts a piece should have." → "a beginning, a middle and an end."
-- **Differentiation:** support: tutor scribes, child decides / stretch: add a repeating pattern that returns.
-- **Materials:** paper, symbol key, mixed percussion.
-- **Joy:** seeing your music as a map before you play it.
-
-### Lesson 14 — Play your plan twice the same
-- **Duration:** 30 min
-- **Objective:** "By the end, I can perform my planned piece the same way twice, with deliberate dynamics and tempo."
-- **Hook:** A composer can play it AGAIN exactly — random noise can't be repeated. Can you repeat yours?
-- **Key activity:** Practise → perform. Choose instruments/timbres for each box. Rehearse following the plan; control forte/piano and fast/slow on purpose. Play it through twice and check it matched.
-- **Check for understanding:** "What does composing mean?" → "making up your own music you can play the same way again."
-- **Differentiation:** support: tutor points to each box as a guide / stretch: perform from memory of the plan.
-- **Materials:** the written plan; percussion/household sounds.
-- **Joy:** proving your piece is "real music" by repeating it perfectly.
-
-### Lesson 15 — Our concert and appraise
-- **Duration:** 30 min
-- **Objective:** "By the end, I can perform for an audience and appraise a piece with notice → feel → judge."
-- **Hook:** Showtime! Then you become the music critic — what did you notice, feel and think?
-- **Key activity:** Perform → appraise. The child performs their piece or a learned song, in time, with chosen dynamics, for an audience of the tutor and family. Then swap: the tutor performs (or a recording plays) and the child appraises it in three steps: *notice* (a dimension word), *feel* (a mood), *judge* ("I liked … because …"). Take a bow.
-- **Check for understanding:** "Give an opinion about that piece with a reason." → child uses a dimension word + a *because* (e.g. "I liked it because the loud middle felt exciting").
-- **Differentiation:** support: just say one *notice* word / stretch: do all three steps unaided.
-- **Materials:** composed pieces / songs; a "stage."
-- **Joy:** performing for a real audience and giving a real critic's verdict.
-
-**Listening thread (Unit 5):** A **West African djembe** ensemble and a quiet **lullaby** side by side — appraise each with *notice → feel → judge*, comparing their tempo, dynamics and timbre.
-
-**End-of-unit 5 check:** Child plans a 3-part piece in graphic notation, performs it twice the same with deliberate dynamics and tempo, and appraises a performance using notice → feel → judge with a reason.
-
----
-
-## Listening & appraising (the year-long thread)
-
-Every unit carries a short, **named** piece, deliberately diverse: Caribbean folk (Mango Walk), orchestral (Saint-Saëns, Grieg, Britten), West African drumming, and lullaby/choral singing. This year the response grows from "notice" to full **notice → feel → judge with a reason** — say what you heard (using dimension words: pulse/tempo, dynamics, pitch, timbre), how it made you feel, and what you think *because*. Liking or disliking is fine; **explaining** is the skill. Wider history and genre comparison continue **→ Year 4 / 6**.
-
----
-
-## End-of-year outcomes (what a Year 2 child can do)
-
-1. **Read & write rhythm** — clap a 4-beat pattern of ta (crotchet), ti-ti (quavers) and a rest, and notate/read a short rhythm in graphic notation.
-2. **Keep pulse and rhythm together** — feet on the steady pulse, hands on the word-rhythm, through a whole song.
-3. **Sing in tune and in time** — warm up, match a note, tell a step from a leap, and sing a verse-chorus song from memory.
-4. **Control dynamics** — play forte/piano on cue and get gradually louder or softer.
-5. **Control tempo** — keep fast and slow pulses and gradually speed up or slow down, knowing tempo is not the same as dynamics.
-6. **Describe timbre** — use words like bright, dull, ringing, buzzy, and sort instruments into percussion/strings/woodwind/brass.
-7. **Compose & perform** — plan a 3-part piece in graphic notation, choosing dynamics and tempo, and perform it the same way twice for an audience.
-8. **Appraise** — listen to music from several traditions and respond with notice → feel → judge, using dimension words and a *because* reason.
+**Vertical alignment.** Year 1 built pulse and rhythm in stick notation, so–mi–la singing, two-part rounds, dynamics and tempo, instrument families, glockenspiel pentatonic improvisation and graphic scores. Year 3 (ages 8–9) consolidates recorder reading on the stave, adds texture (drones and ostinatos), structure (verse–chorus, ABA, rondo), more world music and a first map of music history; the ukulele or keyboard follows from Year 4.
