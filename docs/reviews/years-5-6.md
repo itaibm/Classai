@@ -219,3 +219,44 @@ note corrected.
 All real and correctly attributed: Llenas *El monstruo de colores*; Sendak *Donde viven los monstruos*;
 Collins/Oxford dictionaries; WordReference; *Coco*; Blaine Ray *Pobre Ana*; Carol Gaab *Brandon Brown
 quiere un perro*; *Extr@ en español*; Señor Wooly; BBC Bitesize KS3 Spanish. No removals needed.
+
+---
+
+## Art & design
+
+### Repeats found (Year 4 is the baseline)
+- **Relief printmaking three times at the same depth:** Y4 Unit 2 (polystyrene, edition 1/3, two-colour
+  reduction), Y5 Unit 3 (polystyrene, edition 1/3, two-colour reduction), Y6 L16–19 (Dürer & Hokusai
+  intro — identical to Y4 L7 — then block cutting and a two-colour reduction).
+- **Islamic geometric construction:** Y4 Unit 5 and Y5 Unit 2 (same compass six-fold construction).
+- **Hepworth soap/plaster carving with a void:** Y4 L18 and Y6 L21 (identical activity); Y5 L27 "pierced forms".
+- **El Anatsui collaborative recycled "cloth":** Y4 L23, Y5 L28, Y6 L24 — three times.
+- **One-point corridor:** Y4 Unit 1, Y5 L4, Y6 L7. **Tone on a lit egg/ball:** Y5 L2–3 and Y6 L2.
+- **Typography/poster hierarchy:** Y5 L33 and Y6 L27–28.
+- Y6's "What we assume from Year 5" described a different Year 5 (Warhol, Höch, Mutu, digital drawing).
+
+### Resolution
+**Year 5** (35 lessons, 6 units):
+- Unit 2 Islamic pattern → **Illustration and visual storytelling** (Shaun Tan's *The Arrival* — a Y5 English text — Quentin Blake, Yuyi Morales; character model sheets, panels and viewpoints, a wordless sequence, a "read-back" crit).
+- Unit 3 relief printmaking → **Collage: painting with scissors** (Matisse's cut-outs; Chinese *jianzhi*; Romare Bearden's *The Block*; Hannah Höch's photomontage with a preview-images note; final mixed collage).
+- L1 Dürer → **Maria Sibylla Merian** (science link); L4 one-point perspective → **atmospheric perspective** (Fan Kuan and Friedrich).
+- Sculpture: hook now Giacometti, **Ruth Asawa** and the **Ife heads**; L27 pierced forms → **clay heads in the round**; L28 El Anatsui → **Romuald Hazoumè's jerrycan masks**.
+- L33 typography poster → **pictograms** (Otl Aicher, Munich 1972). Overview, mastery checks, misconceptions, safety and vertical notes rewritten.
+
+**Year 6:** overview assumptions rewritten to match Years 4–5; L2 → **reductive charcoal** (Seurat); L7 → **viewpoint, foreshortening and three-point perspective**; printmaking now goes *beyond* Y4 — L16 **prints with a purpose** (Posada, Corita Kent, Warhol), L17 monoprint/collagraph (kept), L18 **stencil and screen printing**, L19 **linocut with gouges** (Catlett and the Taller de Gráfica Popular; Picasso reduction as stretch); L21 → **site-specific sculpture** (Moore, Noguchi) instead of repeating the soap carving; L24 → **Louise Nevelson assemblage**. End-of-unit check, mastery check 4, artists list and vertical note updated.
+
+### Facts checked
+*Young Hare* 1502; *Great Wave* c. 1831; *Rhinoceros* 1515; *School of Athens* 1509–11; *Relativity* 1953;
+Sagrada Família begun 1882; *Composition VII* 1913; Sher-Gil 1913–41, *Three Girls* 1935; Tarsila
+1886–1973, *Abaporu* 1928; Kahlo ~55 self-portraits; Wiley's Obama portrait flowers; *Ice Watch*
+(Copenhagen 2014, Paris 2015, London 2018); Matisse *Jazz* 1947 and *The Snail* 1953; Bearden *The Block*
+1971; Höch 1919–20; Merian's *Metamorphosis* 1705; jianzhi on UNESCO's list (2009); Munich 1972
+pictograms. Corrected in passing: Warhol's 1962 soup cans were painted — the new text refers to his
+1960s screen-printed Marilyns and soup cans.
+
+### Books
+Y5: removed Broug *Islamic Geometric Patterns* (unit gone); added Sidman *The Girl Who Drew Butterflies*,
+Tan *The Arrival*, Winter *Henri's Scissors*, Greenberg *Romare Bearden: Collage of Memories*. Kept
+Beckett, Wenzel *13 Artists*, Brown & Parra *Frida Kahlo and Her Animalitos*, Kogan Ray *Hokusai*.
+Y6 list (Gombrich, Edwards, Dickins *Usborne Introduction to Art*, DK Eyewitness) verified; museum and
+artist lists updated.

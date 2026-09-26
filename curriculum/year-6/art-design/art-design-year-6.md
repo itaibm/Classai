@@ -15,13 +15,16 @@ colour and painting, printmaking, sculpture, and graphic/product design** — th
 designers from many cultures and centuries. The year ends with a **graduation exhibition**: each child
 develops and curates a personal project, the visual-arts strand of the graduation capstone.
 
-**What we assume from Year 5 (ages 10–11):** portrait proportions and tonal self-portraits (with Frida
-Kahlo as a model), photographic composition and Pop Art repetition (Andy Warhol), photomontage and
-mixed media (Hannah Höch, Wangechi Mutu), digital drawing, and a first personal project and portfolio.
-**What Year 6 adds:** sustained observational drawing with a full tonal range; linear perspective;
-colour theory applied in paint; relief and reduction printmaking; clay and assemblage sculpture; the
-design process (brief → research → ideas → prototype → test → refine); curation and artist
-statements. **What secondary relies on:** a well-used sketchbook habit, secure drawing and colour
+**What we assume from Years 4 and 5:** Year 4 — one-point perspective, relief printmaking with a
+two-colour reduction print, clay (pinch, coil, relief), Hepworth's carved forms, El Anatsui, textiles
+and Islamic geometric pattern. Year 5 — tonal drawing and atmospheric perspective, ink and brush,
+illustration and visual storytelling, collage and photomontage (Matisse, *jianzhi*, Bearden, Höch),
+portraits and identity (Rembrandt, Kahlo, Wiley), wire, plaster and clay figure sculpture, photography,
+digital collage and pictograms. **What Year 6 adds:** sustained observational drawing and reductive
+charcoal; linear perspective in two points and extreme viewpoints; colour theory applied in paint;
+printmaking beyond relief (monoprint, collagraph, stencil and screen printing, linocut); site-specific
+sculpture, slab building and assemblage; the design process (brief → research → ideas → prototype →
+test → refine); curation and artist statements. **What secondary relies on:** a well-used sketchbook habit, secure drawing and colour
 skills, confidence with several media, and the vocabulary to analyse and evaluate art.
 
 **Assessment is by looking and talking**, never quizzes: each lesson's check is a question to ask
@@ -61,15 +64,15 @@ timetable allows).
 - **Materials:** sketchbooks, drawing pencils (HB, 2B, 4B), fine liners, everyday objects, viewfinders cut from card, images of Leonardo's notebook pages
 - **Joy:** Laughing at the wonderfully wobbly blind contour hands — then seeing how much they capture
 
-### Lesson 2 — Tone: making objects look 3D
+### Lesson 2 — Reductive charcoal: drawing light out of dark
 - **Duration:** 45 min
-- **Objective:** "By the end, I can make a tonal scale of at least seven steps and use tone to make a simple object look three-dimensional." (UK KS3 Art — drawing; NCAS VA:Cr2.1.6)
-- **Hook:** A white egg under a desk lamp: "It's white — so why can we see at least five different greys on it?"
-- **Key activity:** Make a seven-step tonal scale with a 4B pencil; draw an egg or ball lit from one side, identifying highlight, mid-tones, core shadow, reflected light and cast shadow; blend and lift out highlights with an eraser.
-- **Check for understanding:** Looking at the drawing: "Where is the light coming from? How does your drawing show it?" → The child identifies the light source and points to the highlight on that side and the cast shadow on the other.
-- **Differentiation:** support: a simple sphere with a printed tonal guide beside it / stretch: a group of two or three white objects with overlapping cast shadows
-- **Materials:** 2B–6B pencils, blending stumps or tissues, erasers, eggs or white balls, desk lamp
-- **Joy:** Seeing a flat circle "pop" into a 3D sphere
+- **Objective:** "By the end, I can make a reductive charcoal drawing, lifting out lights with an eraser to model form on a toned ground." (UK KS3 Art — drawing; NCAS VA:Cr2.1.6)
+- **Hook:** A white cloth draped over a chair under a single lamp: "Instead of adding dark to white paper, what if we started dark and drew with light?"
+- **Key activity:** Two-minute retrieval of Year 5's tonal scale and the parts of light on a form (highlight, core shadow, reflected light, cast shadow). New: cover the paper in a mid-tone of compressed or willow charcoal; block in the darks; 'draw' the lights with a putty rubber and an eraser edge; study Georges Seurat's conté crayon drawings, built entirely from tone with no outlines.
+- **Check for understanding:** Looking at the drawing: "Where is the light coming from, and how did you use the eraser to show it?" → The child identifies the light source and points to lifted-out highlights on that side and the deepened cast shadow on the other.
+- **Differentiation:** support: a single white object (an egg or mug) with a tone guide / stretch: draped fabric with folds, keeping at least five distinct tones
+- **Materials:** willow and compressed charcoal, putty rubbers, erasers, cartridge or sugar paper, fixative (adult, well ventilated) or hairspray alternative, white objects and fabric, desk lamp, images of Seurat's drawings
+- **Joy:** Watching a form appear out of darkness as you "rub in" the light
 
 ### Lesson 3 — Mark-making for texture: Dürer's Young Hare
 - **Duration:** 45 min
@@ -109,7 +112,7 @@ timetable allows).
 
 **Essential question:** How can a flat drawing create the illusion of deep space?
 
-**Key vocabulary:** perspective, horizon line, eye level, vanishing point, orthogonal lines, one-point perspective, two-point perspective, foreshortening, scale, overlap, atmospheric perspective, architecture, façade
+**Key vocabulary:** perspective, horizon line, eye level, vanishing point, orthogonal lines, one-point perspective, two-point perspective, three-point perspective, bird's-eye view, worm's-eye view, foreshortening, scale, overlap, atmospheric perspective, architecture, façade
 
 ### Lesson 6 — Discovering perspective
 - **Duration:** 40 min
@@ -121,15 +124,15 @@ timetable allows).
 - **Materials:** printouts of *The School of Athens* and a Chinese landscape scroll (e.g. by Guo Xi), rulers, coloured pencils
 - **Joy:** "Find the vanishing point" race on famous images
 
-### Lesson 7 — One-point perspective: a room or corridor
+### Lesson 7 — Viewpoint and foreshortening: bird's-eye and worm's-eye views
 - **Duration:** 45 min
-- **Objective:** "By the end, I can draw a room or corridor in one-point perspective with a horizon line, a vanishing point and correctly angled lines." (UK KS3 Art — drawing; NCAS VA:Cr2.1.6)
-- **Hook:** "Draw a corridor so real you want to walk down it."
-- **Key activity:** Step-by-step demonstration (horizon, vanishing point, back wall, orthogonals, doors and windows); children draw a room or corridor, then add furniture and details; photograph a real corridor to compare.
-- **Check for understanding:** Looking at the drawing: "Show me that all your lines going into the distance meet at one point." → The child traces orthogonals back to the vanishing point.
-- **Differentiation:** support: a template with the horizon and vanishing point marked / stretch: add a staircase, a patterned floor or a figure drawn to correct scale
-- **Materials:** rulers, sharp HB pencils, erasers, A3 paper
-- **Joy:** Adding a surprise "door to another world" at the end of the corridor
+- **Objective:** "By the end, I can draw objects and buildings from an extreme high or low viewpoint, using foreshortening and a third vanishing point." (UK KS3 Art — drawing; NCAS VA:Cr2.1.6)
+- **Hook:** Photographs looking straight up at skyscrapers and straight down from a tower: "Why do the sides of the buildings lean together?"
+- **Key activity:** Quick retrieval of Year 4's one-point perspective (one corridor sketch in three minutes). New: eye level and viewpoint — from far above or below, vertical lines also converge to a third vanishing point; foreshortening (a pointing hand or an outstretched foot looks shorter and larger); draw a hand pointing at the viewer, then a tower seen from below or a street from above.
+- **Check for understanding:** Looking at the drawing: "Why do the vertical edges of your tower get closer together at the top?" → When we look up, the top of the tower is further from us, so its vertical edges converge towards a vanishing point high above.
+- **Differentiation:** support: foreshortening only (a hand, a shoe) with a photo reference / stretch: a full three-point perspective building with windows correctly diminishing
+- **Materials:** rulers, sharp HB pencils, erasers, A3 paper, photographs of extreme viewpoints, a camera for reference shots
+- **Joy:** "Ant's view / eagle's view" — photograph the school from both, then draw one
 
 ### Lesson 8 — Two-point perspective: buildings and streets
 - **Duration:** 45 min
@@ -229,17 +232,17 @@ timetable allows).
 
 **Essential question:** How does printmaking let artists repeat, layer and share images?
 
-**Key vocabulary:** relief print, woodcut, linocut, block, brayer, ink, registration, edition, artist's proof, reduction print, positive space, negative space, mirror image, monoprint, collagraph
+**Key vocabulary:** relief print, linocut, gouge, block, brayer, ink, registration, edition, artist's proof, stencil, screen print, squeegee, mesh, positive space, negative space, mirror image, monoprint, collagraph
 
-### Lesson 16 — The history of printmaking: Dürer and Hokusai
+### Lesson 16 — Prints with a purpose: Posada, Corita Kent and Warhol
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how woodcut prints are made and why printmaking spread images across the world." (UK KS3 Art — history of art; NCAS VA:Re7.1.6)
-- **Hook:** Dürer's *Rhinoceros* (1515) — drawn from a written description; he never saw the animal. And Hokusai's *The Great Wave off Kanagawa* (c. 1831), printed thousands of times.
-- **Key activity:** Compare the two prints; watch a demonstration of Japanese woodblock printing (ukiyo-e: artist, carver, printer); learn about positive/negative space and mirror images; draw design ideas.
-- **Check for understanding:** Looking at a design: "When you print this, what will be reversed? Show me." → The child identifies that the image (especially text) will appear mirror-reversed.
-- **Differentiation:** support: simple bold shapes in the design / stretch: a design planned in two colours
-- **Materials:** images of *Rhinoceros* and *The Great Wave*, woodblock-printing video, sketchbooks
-- **Joy:** Spotting *The Great Wave* in modern culture (logos, emoji, posters)
+- **Objective:** "By the end, I can explain why artists have chosen printmaking to reach many people and compare three printmakers' purposes and methods." (UK KS3 Art — history of art; NCAS VA:Re7.1.6)
+- **Hook:** José Guadalupe Posada's skeleton *calaveras* (Mexico, around 1900), Corita Kent's joyful screen-printed words (USA, 1960s) and Andy Warhol's screen-printed, repeated Marilyns and soup cans (1960s): "Why would an artist *want* many identical copies?"
+- **Key activity:** Retrieve Year 4's relief-printing basics (raised parts print, the image reverses) in two minutes; compare the three artists' methods (relief engraving, screen printing) and purposes (popular satire, messages of hope, commenting on mass production); sketch design ideas for the unit.
+- **Check for understanding:** "Why did Posada, Kent and Warhol all choose print rather than painting for these works?" → Print makes many copies cheaply to reach many people, and repetition itself can carry meaning (e.g. Warhol's comment on mass-produced goods).
+- **Differentiation:** support: a comparison grid with images / stretch: explain how Warhol's repetition changes what we think about an everyday object
+- **Materials:** images of Posada, Corita Kent and Warhol prints, sketchbooks
+- **Joy:** Spotting printed images in the room — how many copies of each exist?
 
 ### Lesson 17 — Monoprints and collagraphs
 - **Duration:** 45 min
@@ -251,25 +254,25 @@ timetable allows).
 - **Materials:** water-based block ink, brayers, inking plates, card, string, lace, leaves, PVA glue, paper
 - **Joy:** Peeling back the paper to reveal the print
 
-### Lesson 18 — Relief printing: designing and cutting a block
+### Lesson 18 — Stencils and screen printing
 - **Duration:** 45 min
-- **Objective:** "By the end, I can design and cut a relief block (foam or soft-cut lino) with clear positive and negative spaces." (UK KS3 Art — printmaking; NCAS VA:Cr2.2.6)
-- **Hook:** Elizabeth Catlett's bold linocuts of people (e.g. *Sharecropper*, 1952/1968): "How did she make the faces so powerful with just black and white?"
-- **Key activity:** Transfer the design to the block; safety demonstration (cut away from the hand, bench hook); cut with lino tools (or draw into foam with a pencil); test-print.
-- **Check for understanding:** Looking at the block: "Which parts will print black and which will stay white? Why?" → Uncut raised areas print; cut-away areas stay white.
-- **Differentiation:** support: polystyrene foam (safer, easier) / stretch: soft-cut lino with varied textures (hatching lines)
-- **Materials:** safety-cut lino or polystyrene sheets, lino cutters with bench hooks, pencils, carbon or tracing paper, images of Catlett's prints
-- **Joy:** The first test print
+- **Objective:** "By the end, I can cut a paper stencil and pull a screen print (or stencil print) with a clean, even layer of ink." (UK KS3 Art — printmaking; NCAS VA:Cr2.2.6)
+- **Hook:** "Corita Kent printed bright words through silk. How can ink pass through some parts of a screen and not others?"
+- **Key activity:** Design a bold two-shape image or a word (connect to Lesson 27 lettering); cut a paper stencil (remembering 'islands' such as the middle of an O need bridges); print through an embroidery-hoop screen or a stretched-mesh frame with a squeegee (or dab through the stencil with a sponge); pull several prints and compare.
+- **Check for understanding:** Looking at the stencil and print: "Why did the centre of your letter O disappear — or how did you stop it?" → The centre is a separate 'island' with nothing holding it in the stencil, so it falls out; a bridge (a thin strip) keeps it attached.
+- **Differentiation:** support: sponge-stencilling through a card stencil / stretch: two stencils printed in register for two colours
+- **Materials:** paper for stencils, craft knives (adult) or safety scissors, embroidery hoops with net curtain or screen mesh, squeegees or stiff card, water-based screen or block ink, sponges, paper, images of Corita Kent's prints
+- **Joy:** The first clean pull of the squeegee
 
-### Lesson 19 — Reduction print: two colours from one block
+### Lesson 19 — Linocut: cutting with gouges
 - **Duration:** 45 min
-- **Objective:** "By the end, I can make a two-colour reduction print, printing a light colour first, cutting more, then printing a dark colour in register." (UK KS3 Art — printmaking; NCAS VA:Cr2.1.6)
-- **Hook:** "Picasso printed many-coloured linocuts from a single block. You can't go back — every cut is forever."
-- **Key activity:** Print an edition of five in a light colour; cut away areas to stay that colour; print the dark colour on top using a registration jig; number and sign the edition (1/5, 2/5…).
-- **Check for understanding:** Looking at the prints: "Why must you print the lighter colour first?" → A dark colour printed first can't be covered by a lighter one; each cut removes areas that keep the earlier colour.
-- **Differentiation:** support: a simple design and a registration template / stretch: three colours
-- **Materials:** lino or foam blocks, two ink colours, brayers, a registration jig (card corner), paper
-- **Joy:** Signing and numbering your own edition like a professional
+- **Objective:** "By the end, I can cut a lino block safely with different gouges to create line, texture and solid areas, and print an edition." (UK KS3 Art — printmaking; NCAS VA:Cr2.1.6)
+- **Hook:** Elizabeth Catlett and the People's Graphic Workshop (*Taller de Gráfica Popular*) in Mexico City: "Year 4 drew into soft foam. Lino lets you cut lines as fine as hair — or clear whole areas. How did these artists make faces so powerful in black and white?"
+- **Key activity:** Safety demonstration (bench hook, cut away from the hand, warm the lino); test strip with V-gouge and U-gouge marks (lines, hatching, dots, clearing); transfer the design (mirror-reversed); cut; print an edition of three and number it (1/3, 2/3, 3/3). Picasso's multi-colour reduction linocuts are shown as the stretch model.
+- **Check for understanding:** Looking at the test strip and block: "Which gouge did you use for the fine lines and which for clearing, and why does that matter in the print?" → The V-gouge cuts fine lines that print as thin white lines; the U-gouge clears wide areas that print as white shapes.
+- **Differentiation:** support: soft-cut (safety) lino and a bold simple design / stretch: a two- or three-colour reduction linocut printed in register, like Picasso's
+- **Materials:** soft-cut or traditional lino, V- and U-gouges, bench hooks, a warm radiator or hand-warmers for the lino, tracing paper, block ink, brayers, paper, images of Catlett's and TGP prints
+- **Joy:** Peeling back the first lino print
 
 ### Lesson 20 — Print exhibition and critique
 - **Duration:** 45 min
@@ -281,7 +284,7 @@ timetable allows).
 - **Materials:** mounting card, glue, prints, checklists
 - **Joy:** Print swap — keep a classmate's print
 
-**End-of-unit check:** A signed two-colour reduction edition and a critique conversation explaining the process, positive/negative space and one improvement.
+**End-of-unit check:** A signed linocut edition and one stencil or collagraph print, with a critique conversation explaining the processes, positive/negative space and one improvement.
 
 ---
 
@@ -291,15 +294,15 @@ timetable allows).
 
 **Key vocabulary:** form, mass, volume, void, relief, in the round, maquette, armature, coil, slab, score and slip, lost-wax casting, bronze, assemblage, found object, installation
 
-### Lesson 21 — Form and space: Barbara Hepworth and Henry Moore
+### Lesson 21 — Sculpture and place: Henry Moore and Isamu Noguchi
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Hepworth and Moore used holes (voids) and flowing forms, and make a small abstract maquette." (UK KS3 Art — sculpture; NCAS VA:Re7.2.6)
-- **Hook:** "Barbara Hepworth pierced her sculptures with holes. Why would you make a hole on purpose?"
-- **Key activity:** Look at Hepworth's pierced forms and Moore's reclining figures from all sides (photos or 3D scans); carve a small abstract maquette from soap or a plaster block, or model in air-dry clay, with at least one void.
-- **Check for understanding:** Looking at the maquette from all sides: "How does the hole change how we see the form?" → It lets light and space pass through, links front and back and makes the viewer walk around it.
-- **Differentiation:** support: model in clay (easier to change) / stretch: carve soap or plaster with a planned void
-- **Materials:** soap bars or plaster blocks, carving tools (plastic knives, loop tools), air-dry clay, images of Hepworth and Moore
-- **Joy:** Looking through your sculpture's hole at the world
+- **Objective:** "By the end, I can explain how sculptors design for a particular site and make a maquette for a public sculpture in our school grounds." (UK KS3 Art — sculpture; NCAS VA:Re7.2.6)
+- **Hook:** Henry Moore's large reclining figures set in open landscape and Isamu Noguchi's sculptural playgrounds and gardens (e.g. Moerenuma Park, Sapporo): "Is a playground a sculpture?"
+- **Key activity:** Retrieve Year 4's Hepworth and the idea of the void. New: site-specific sculpture — scale, materials that survive weather, how people move around and through it. Choose a real spot in the school grounds; photograph and measure it; make a scaled maquette in air-dry clay, card or wire; photograph the maquette in the real site to test it.
+- **Check for understanding:** Looking at the maquette in its photographed site: "How did the place you chose change your design?" → A specific link (e.g. made it low and curved so younger children can sit on it; oriented the opening towards the sunrise).
+- **Differentiation:** support: a card maquette from a template on a site photo / stretch: a scale drawing with measurements and a materials proposal for the full-size version
+- **Materials:** air-dry clay, card, wire, tape measures, cameras or tablets, site photographs, images of Moore's and Noguchi's work
+- **Joy:** "Photo trick" — place your maquette so it looks giant in the real site
 
 ### Lesson 22 — The Benin Bronzes: history, skill and return
 - **Duration:** 45 min
@@ -321,15 +324,15 @@ timetable allows).
 - **Materials:** clay (air-dry or kiln clay), slip, modelling tools, rolling pins, guide sticks, boards
 - **Joy:** The feel of clay — building something that could last thousands of years
 
-### Lesson 24 — Assemblage from found materials: El Anatsui
+### Lesson 24 — Assemblage: Louise Nevelson and the found object
 - **Duration:** 45 min
-- **Objective:** "By the end, I can create an assemblage from recycled materials, inspired by El Anatsui, and explain how material carries meaning." (UK KS3 Art — contemporary art; NCAS VA:Cr1.2.6)
-- **Hook:** El Anatsui's shimmering wall hangings look like gold cloth — they're made from thousands of bottle caps joined with copper wire.
-- **Key activity:** Discuss El Anatsui (Ghana-born, working in Nigeria) and how materials tell stories (trade, consumption, kente cloth); collaboratively build a panel from bottle caps, can ring-pulls or cardboard, joined with wire or string.
-- **Check for understanding:** Looking at the panel: "What does using recycled materials add to the meaning of your work?" → e.g. a message about waste and reuse, or transforming something thrown away into something beautiful.
-- **Differentiation:** support: work on a shared class panel section / stretch: design an individual panel with a planned pattern
-- **Materials:** cleaned bottle caps, ring-pulls, card, pliers, wire or string, hole punch
-- **Joy:** Class assemblage "curtain" for the exhibition
+- **Objective:** "By the end, I can create an assemblage from found objects, unified by colour and structure, and explain how material and arrangement carry meaning." (UK KS3 Art — contemporary art; NCAS VA:Cr1.2.6)
+- **Hook:** Louise Nevelson's walls of wooden boxes filled with chair legs, banister rails and wooden offcuts — all painted one colour: "Why paint everything black? What happens to a chair leg when it's no longer a chair leg?"
+- **Key activity:** Retrieve Year 4's El Anatsui and Year 5's Hazoumè (material tells a story). New: assemblage as composition — pupils fill a shallow box with found objects (card tubes, lids, offcuts, broken toys), arrange for rhythm and balance, then unify with a single colour of paint; join individual boxes into a class 'wall'.
+- **Check for understanding:** Looking at the box: "What does painting everything one colour do to the way we see your objects?" → It hides what the objects were, so we notice their shapes, shadows and rhythm instead — they become parts of a new whole.
+- **Differentiation:** support: a smaller box with a limited set of objects / stretch: plan the whole-class wall's composition and colour as lead designer
+- **Materials:** shallow boxes or card trays, cleaned found objects, PVA and glue guns (low-temperature, supervised), one colour of acrylic or poster paint per group
+- **Joy:** Assembling the class "Nevelson wall" for the exhibition
 
 ### Lesson 25 — Sculpture critique and presentation
 - **Duration:** 45 min
@@ -472,8 +475,8 @@ timetable allows).
 - ***The Usborne Introduction to Art*** by Rosie Dickins — an accessible, well-illustrated overview of art history and techniques for young readers.
 - ***Eyewitness Art* series (DK)** — beautifully illustrated books on artists and movements, good for research pages.
 - **Google Arts & Culture (artsandculture.google.com)** — high-resolution images of artworks from museums worldwide; zoom in on brushstrokes and marks.
-- **Museum collections online:** the Van Gogh Museum (including Van Gogh's letters), the Tate (Hepworth and Moore), the British Museum and Nigerian institutions (Benin Bronzes), the Smithsonian (Elizabeth Catlett), the Museum of Modern Art, Tokyo National Museum (Hokusai).
-- **Artists and designers studied:** Leonardo da Vinci, Albrecht Dürer, Clara Peeters, Paul Cézanne, Korean *chaekgeori* painters, Raphael, Guo Xi, Antoni Gaudí, Zaha Hadid, M. C. Escher, Vincent van Gogh, Wassily Kandinsky, Amrita Sher-Gil, Tarsila do Amaral, Georgia O'Keeffe, Katsushika Hokusai, Elizabeth Catlett, Pablo Picasso, Barbara Hepworth, Henry Moore, the Benin guild of brass casters, Maria Martinez, El Anatsui, Dieter Rams, Charles and Ray Eames, Paula Scher — balanced across continents, centuries and genders.
+- **Museum collections online:** the Van Gogh Museum (including Van Gogh's letters), the Tate (Moore), the Noguchi Museum, the British Museum and Nigerian institutions (Benin Bronzes), the Smithsonian (Elizabeth Catlett), the Corita Art Center, the Museum of Modern Art (Warhol, Nevelson).
+- **Artists and designers studied:** Leonardo da Vinci, Georges Seurat, Albrecht Dürer, Clara Peeters, Paul Cézanne, Korean *chaekgeori* painters, Raphael, Guo Xi, Antoni Gaudí, Zaha Hadid, M. C. Escher, Vincent van Gogh, Wassily Kandinsky, Amrita Sher-Gil, Tarsila do Amaral, Georgia O'Keeffe, José Guadalupe Posada, Corita Kent, Andy Warhol, Elizabeth Catlett and the *Taller de Gráfica Popular*, Pablo Picasso, Henry Moore, Isamu Noguchi, the Benin guild of brass casters, Maria Martinez, Louise Nevelson, Dieter Rams, Charles and Ray Eames, Paula Scher — balanced across continents, centuries and genders.
 - **Materials list (essential):** sketchbooks (A4), drawing pencils (HB–6B), fine liners, erasers, blending stumps, acrylic/poster paints and watercolours, brushes of several sizes, palette knives, water-based block ink, brayers, polystyrene and safety-cut lino with cutters and bench hooks, air-dry or kiln clay with tools, soap or plaster for carving, cardboard, glue guns (supervised), rulers, viewfinders.
 
 ## End-of-year mastery checks (assessed by looking and discussion)
@@ -481,7 +484,7 @@ timetable allows).
 1. **Draws from observation** with accurate proportions, a full tonal range and varied mark-making. *See it:* the Unit 1 sustained drawing.
 2. **Uses perspective** (one- and two-point) to create convincing space. *See it:* the building drawing.
 3. **Applies colour theory in paint** — mixes tints, shades and complementaries purposefully. *See it:* the Van Gogh or Sher-Gil/Amaral painting and its explanation.
-4. **Makes relief prints** with clear positive/negative space and good registration. *See it:* the reduction edition.
+4. **Makes prints by several methods** (collagraph, stencil or screen, linocut) with clear positive/negative space and clean inking. *See it:* the linocut edition and stencil print.
 5. **Constructs in 3D** — joins clay securely or builds an assemblage, considering all viewpoints. *See it:* the sculpture and its photographs.
 6. **Follows the design cycle** — brief, research, ideas, prototype, test, improve. *See it:* the design portfolio sheet.
 7. **Analyses art from many cultures** using vocabulary and context, including questions about ownership and meaning (e.g. the Benin Bronzes). *See it:* critique conversations and museum labels.
@@ -494,5 +497,5 @@ timetable allows).
 - **Cultural respect.** When studying art from other cultures, focus on the artists, their techniques and context; don't copy sacred or culturally restricted designs. Discuss questions of ownership and return (e.g. the Benin Bronzes) honestly and age-appropriately.
 - **Safety.** Lino cutters (cut away from the body, use bench hooks), glue guns (low-temperature, supervised), carving tools, clay dust (wipe, don't sweep), and water-based inks only.
 - **Differentiation.** Support means simpler subjects, templates, easier materials (foam instead of lino, clay instead of carving) and smaller formats — with the same artistic thinking. Stretch means more complex subjects, extra colours or layers, larger scale and written analysis.
-- **Vertical alignment.** Year 5 introduced portraits, photography, mixed media and a first personal project; Year 6 deepens drawing, adds perspective, systematic colour, printmaking, sculpture and design, and ends with a curated exhibition, preparing for secondary art and design (UK Year 8 / US Grade 7 / MYP 2).
+- **Vertical alignment.** Year 4 taught one-point perspective, relief and reduction printing, Hepworth and El Anatsui; Year 5 taught tone and atmospheric perspective, illustration, collage, portraits, figure sculpture and pictograms. Year 6 deepens drawing, adds two- and three-point perspective, systematic colour, new print methods, site-specific sculpture and design, and ends with a curated exhibition, preparing for secondary art and design (UK Year 8 / US Grade 7 / MYP 2).
 - **Cross-curricular links:** Maths (perspective and geometry, tessellation, scale), History (Benin, Mughal miniatures, Renaissance), Geography (architecture and place), Music (Kandinsky), Computing (digital design), Life Skills (the graduation capstone — posters and exhibition).

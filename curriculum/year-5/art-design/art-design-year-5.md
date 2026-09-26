@@ -10,18 +10,24 @@ In Year 5, pupils learn to **see like artists and think like designers**. Each u
 with artists from different cultures and centuries, so pupils learn both *how* to make and *why* artists
 make the choices they do. The year builds deliberately on earlier skills:
 
-- **Drawing** moves from observation to **tone, texture and one-point perspective**, with sketchbook
-  studies inspired by Albrecht Dürer, Katsushika Hokusai, Leonardo da Vinci and Qi Baishi.
-- **Pattern and design** explores **Islamic geometric art** (the Alhambra, Iznik tiles), constructed
-  with compasses and rulers (maths link).
-- **Printmaking** develops **relief printing** from Benin plaques and Hokusai's woodblocks to José
-  Guadalupe Posada's calaveras, using polystyrene and lino-style blocks.
+- **Drawing** moves from observation to **tone, texture and atmospheric perspective**, with sketchbook
+  studies inspired by Maria Sibylla Merian, Fan Kuan, Caspar David Friedrich, Katsushika Hokusai and
+  Qi Baishi.
+- **Illustration and visual storytelling** designs characters and tells a wordless story in panels,
+  learning from Shaun Tan (whose *The Arrival* is an English class text), Quentin Blake and Yuyi Morales.
+- **Collage** "paints with scissors" like Henri Matisse, folds and cuts Chinese *jianzhi*, layers
+  community scenes like Romare Bearden and combines images in photomontage like Hannah Höch.
 - **Portraiture** studies identity in the self-portraits of Frida Kahlo and Rembrandt and the portraits
   of Kehinde Wiley, in mixed media.
-- **Sculpture** works in clay, wire and recycled materials, learning from Barbara Hepworth, Alberto
-  Giacometti and El Anatsui.
-- **Digital art and design for a cause** combines photography, digital collage and poster design to
-  communicate about sustainability, inspired by Olafur Eliasson, Ansel Adams and Yayoi Kusama.
+- **Sculpture** works in wire, plaster, clay and recycled materials, learning from Alberto Giacometti,
+  Ruth Asawa, the Ife sculptors of West Africa and Romuald Hazoumè.
+- **Digital art and design for a cause** combines photography, digital collage and pictogram design to
+  communicate about sustainability, inspired by Olafur Eliasson, Ansel Adams, Yayoi Kusama and Otl Aicher.
+
+Year 4 already taught one-point perspective, relief printmaking (including a two-colour reduction
+print), Islamic geometric pattern, Barbara Hepworth and El Anatsui, and Year 6 returns to printmaking,
+linear perspective, carving and assemblage at secondary depth — so Year 5 deliberately covers other
+disciplines (illustration, collage, figure and head sculpture, pictogram design) rather than repeating them.
 
 Every unit follows the same arc: **look and respond** (discuss an artist's work) → **explore and
 practise** (sketchbook technique studies) → **develop** (plan and refine ideas) → **make** (a final
@@ -32,8 +38,8 @@ is by looking at and discussing the work** — sketchbooks, final pieces and cri
 colour mixing (primary, secondary, tints and shades), simple printing, basic clay techniques (pinch,
 coil, slab), and a sketchbook habit.
 
-**What Year 6 relies on:** tonal drawing and perspective, independent development of ideas in a
-sketchbook, confident use of at least one printmaking method, sculpture in more than one material, and
+**What Year 6 relies on:** tonal drawing and depth, independent development of ideas in a sketchbook,
+composition and visual storytelling, collage and mixed media, sculpture in more than one material, and
 the vocabulary to analyse and compare artworks — ready for larger independent projects and art history
 across periods.
 
@@ -45,8 +51,8 @@ practical sessions benefit from a double lesson where the timetable allows.
 | Unit | Title | Main technique | Term | Lessons |
 |---|---|---|---|---|
 | 1 | Seeing deeply: drawing, tone and perspective | Drawing | 1 | 6 (1–6) |
-| 2 | Islamic geometric pattern | Pattern, construction, colour | 1 | 5 (7–11) |
-| 3 | Relief printmaking across cultures | Printmaking | 2 | 6 (12–17) |
+| 2 | Illustration and visual storytelling | Drawing, ink and wash, sequence | 1 | 5 (7–11) |
+| 3 | Collage: painting with scissors | Cut paper, paper-cutting, photomontage | 2 | 6 (12–17) |
 | 4 | Portraits and identity | Mixed media, colour | 2 | 6 (18–23) |
 | 5 | Form and space: sculpture | Clay, wire, recycled materials | 3 | 6 (24–29) |
 | 6 | Digital art and design for a cause | Photography, digital collage, graphic design | 3 | 6 (30–35) |
@@ -58,16 +64,16 @@ practical sessions benefit from a double lesson where the timetable allows.
 
 **Essential question:** How do artists make a flat drawing look solid, textured and deep?
 
-**Key vocabulary:** observation, tone, value, gradient, shading, hatching, cross-hatching, stippling, blending, highlight, shadow, texture, perspective, horizon line, vanishing point, foreshortening, ink wash
+**Key vocabulary:** observation, tone, value, gradient, shading, hatching, cross-hatching, stippling, blending, highlight, shadow, texture, depth, overlap, foreground, middle ground, background, atmospheric perspective, ink wash
 
-### Lesson 1 — Looking like Dürer
+### Lesson 1 — Looking like Maria Sibylla Merian
 - **Duration:** 45 min
-- **Objective:** "By the end, I can make a careful observational drawing that records texture, inspired by Albrecht Dürer." (UK NC KS2 art — drawing)
-- **Hook:** Show Dürer's *Young Hare* (1502). "How did he make fur look so soft with a brush and paint?"
-- **Key activity:** Discuss the painting (detail, light, texture). Pupils make a 15-minute 'slow looking' drawing of a natural object (feather, pine cone, shell) with a viewfinder, focusing on texture marks.
+- **Objective:** "By the end, I can make a careful observational drawing that records texture, inspired by the artist-naturalist Maria Sibylla Merian." (UK NC KS2 art — drawing)
+- **Hook:** Merian's plates from *Metamorphosis of the Insects of Suriname* (1705): "Over 300 years ago she sailed from Amsterdam to South America to draw caterpillars. Why would drawing help a scientist?"
+- **Key activity:** Discuss Merian's plates (detail, texture, life cycles shown together — science link). Pupils make a 15-minute 'slow looking' drawing of a natural object (feather, pine cone, shell, leaf with an insect nibble) with a viewfinder, focusing on texture marks.
 - **Check for understanding:** "Point to one mark you made to show texture and explain why you chose it." → A specific mark (e.g. short flicks for fur, dots for rough bark) linked to what they observed.
 - **Differentiation:** support: a viewfinder to crop a small area and a texture-mark reference sheet / stretch: draw the same object at two scales and compare detail.
-- **Materials:** image of *Young Hare*, natural objects, viewfinders, sketchbooks, graphite pencils (2B–6B).
+- **Materials:** images of Merian's plates, natural objects, viewfinders, sketchbooks, graphite pencils (2B–6B).
 - **Joy:** "Slow looking" — a silent, timed focus challenge.
 
 ### Lesson 2 — The tonal scale
@@ -90,15 +96,15 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Materials:** white objects, desk lamp, sketchbooks, pencils, erasers (for lifting highlights).
 - **Joy:** drama-lit still life in a darkened classroom.
 
-### Lesson 4 — One-point perspective
+### Lesson 4 — Atmospheric perspective: landscapes in layers
 - **Duration:** 45 min
-- **Objective:** "By the end, I can draw a street or corridor using one-point perspective." (UK NC KS2 art — drawing)
-- **Hook:** "In Florence, around 1420, Filippo Brunelleschi showed how to draw depth on a flat surface. Let's learn his secret."
-- **Key activity:** Teach horizon line and vanishing point; draw a corridor or street with rulers; add doors, windows and figures that get smaller; look at a Renaissance painting using perspective.
-- **Check for understanding:** "Why do lines like the edges of a road meet at the vanishing point?" → Parallel lines going away from us appear to get closer together and meet at the horizon.
-- **Differentiation:** support: a template with the horizon and vanishing point marked / stretch: add a second vanishing point for a building on a corner.
-- **Materials:** rulers, sharp pencils, sketchbooks, images of Renaissance paintings and photographs of long corridors.
-- **Joy:** draw the view down the school corridor — then add something impossible at the end.
+- **Objective:** "By the end, I can show distance in a landscape using overlap, size and atmospheric perspective (paler, softer and less detailed further away)." (UK NC KS2 art — drawing)
+- **Hook:** Fan Kuan's *Travellers among Mountains and Streams* (China, around 1000) beside Caspar David Friedrich's *Wanderer above the Sea of Fog* (Germany, 1818): "Neither uses a vanishing point. How do both make the mountains feel far away?"
+- **Key activity:** Retrieve Year 4's one-point perspective in two minutes, then learn the other depth tools: overlap, size, placement, and atmospheric perspective (distant things are paler, bluer and less detailed because of the air between us and them). Draw a layered landscape from a photograph in four tonal bands (foreground darkest and most detailed, background palest), using graphite or charcoal.
+- **Check for understanding:** "Why do distant mountains look paler and less detailed than near ones?" → There is more air, moisture and dust between us and far objects, which scatters light, softening colour, contrast and detail.
+- **Differentiation:** support: a landscape template divided into three bands with a tone guide / stretch: add a figure in the foreground to exaggerate scale, as Friedrich does.
+- **Materials:** images of the two paintings, photographs of mountain or hill landscapes, graphite pencils, charcoal, erasers, sketchbooks.
+- **Joy:** "Misty mountains" — watch the page gain depth as each paler layer goes on.
 
 ### Lesson 5 — Ink and brush: Qi Baishi and Hokusai
 - **Duration:** 45 min
@@ -115,142 +121,142 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Objective:** "By the end, I can discuss my drawings and others', using art vocabulary to explain strengths and next steps." (UK NC KS2 art — evaluate)
 - **Hook:** "An exhibition of our drawings — and you are the critics."
 - **Key activity:** Pupils select their best drawing and display it; gallery walk with sticky notes (a strength using vocabulary, a question); whole-class crit; teacher reviews sketchbooks and confers with individuals.
-- **Check for understanding:** "Using the words tone, texture or perspective, explain what works best in a classmate's drawing." → A specific, vocabulary-rich comment.
+- **Check for understanding:** "Using the words tone, texture or depth, explain what works best in a classmate's drawing." → A specific, vocabulary-rich comment.
 - **Differentiation:** support: crit sentence starters / stretch: compare two drawings that use tone differently.
 - **Materials:** sketchbooks, display boards, sticky notes, crit prompt cards.
 - **Joy:** the class gallery opening.
 
-**End-of-unit check:** Looking at the sketchbook and crit contribution: the pupil shows a smooth tonal range, uses shading to create form, draws a convincing one-point perspective scene, and explains their choices using art vocabulary.
+**End-of-unit check:** Looking at the sketchbook and crit contribution: the pupil shows a smooth tonal range, uses shading to create form, creates convincing depth in a landscape with overlap and atmospheric perspective, and explains their choices using art vocabulary.
 
 ---
 
-## Unit 2 — Islamic geometric pattern
+## Unit 2 — Illustration and visual storytelling
 
-**Essential question:** How can a compass and a ruler create patterns of endless beauty?
+**Essential question:** How can pictures tell a whole story — even without words?
 
-**Key vocabulary:** geometric, pattern, symmetry, rotation, reflection, tessellation, grid, compass, arc, construction, motif, star pattern, arabesque, calligraphy, tile, glaze
+**Key vocabulary:** illustration, illustrator, narrative, sequence, panel, frame, gutter, character, expression, gesture, viewpoint, close-up, wide shot, storyboard, thumbnail, mood, sepia, wordless book
 
-### Lesson 7 — Patterns of the Alhambra
+### Lesson 7 — How pictures tell stories
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe features of Islamic geometric art and explain why it is based on geometry." (UK NC KS2 art — great artists and designers)
-- **Hook:** Photographs of the tilework and plaster of the Alhambra in Granada, Spain, and the Iznik tiles of Turkey.
-- **Key activity:** Discuss the art: repetition, symmetry, stars and interlacing; the tradition of geometric and plant-based (arabesque) designs and calligraphy in many Islamic buildings. Pupils sketch motifs from images.
-- **Check for understanding:** "What mathematical ideas can you see in the Alhambra patterns?" → Symmetry (reflection and rotation), tessellation, circles, stars, regular polygons.
-- **Differentiation:** support: copy one motif on squared paper / stretch: identify the lines of symmetry and order of rotation in a pattern.
-- **Materials:** images of the Alhambra and Iznik tiles, sketchbooks, squared paper.
-- **Joy:** virtual tour of the Alhambra's courtyards.
+- **Objective:** "By the end, I can explain how illustrators use composition, expression and colour to tell a story, comparing artists from different countries." (UK NC KS2 art — great artists and designers)
+- **Hook:** A double page from Shaun Tan's wordless book *The Arrival* (the English class text later this year): "There isn't a single word. How do we know what the man is feeling?"
+- **Key activity:** Slow looking at three illustrators: Shaun Tan (Australia — sepia pencil, strange invented worlds), Quentin Blake (UK — quick, energetic ink lines) and Yuyi Morales (Mexico/USA — collage and paint in *Dreamers*). Pupils annotate one spread: where does the eye go first, how is the character's feeling shown, what does the colour do?
+- **Check for understanding:** "Choose one picture and explain two things the illustrator did to show the character's feeling without words." → e.g. hunched posture and a small figure in a huge empty space to show loneliness; muted colours for sadness.
+- **Differentiation:** support: a 'see–think–wonder' frame with a picture already cropped / stretch: compare how two of the illustrators would draw the same moment differently.
+- **Materials:** copies of *The Arrival*, a Quentin Blake-illustrated book and *Dreamers*, sketchbooks, sticky notes.
+- **Joy:** "Silent story" — the class reads a few pages of *The Arrival* together in total silence, then shares what they understood.
 
-### Lesson 8 — Constructing with compass and ruler
+### Lesson 8 — Character design: expression and gesture
 - **Duration:** 45 min
-- **Objective:** "By the end, I can construct a six-fold pattern using only compasses and a ruler." (UK NC KS2 art / maths link)
-- **Hook:** "One circle can create a flower, a hexagon and a star. Watch."
-- **Key activity:** Step-by-step: draw a circle; walk the compasses around the edge to mark six points (the radius fits exactly six times); draw the 'flower of life' and join points to make a hexagon and a six-pointed star.
-- **Check for understanding:** "Why does the radius fit exactly six times around the circle?" → Six equilateral triangles fit around the centre (6 × 60° = 360°), each with sides equal to the radius.
-- **Differentiation:** support: a template with the circle and centre marked / stretch: construct a twelve-pointed star.
-- **Materials:** safety compasses, rulers, sharp pencils, fine-liner pens.
-- **Joy:** the moment the star appears from the circles.
+- **Objective:** "By the end, I can design a character and draw it with at least five different expressions and poses that stay recognisable." (UK NC KS2 art — drawing)
+- **Hook:** "Animators draw a 'model sheet' so a character looks the same on every page. Can you keep your character consistent?"
+- **Key activity:** Warm up with 30-second gesture drawings of partners in action poses (a stick 'line of action' first); invent a simple character (a creature, a robot, a traveller); draw a model sheet: front, side, and five expressions (joy, fear, anger, surprise, sadness), focusing on eyebrows, mouth and posture.
+- **Check for understanding:** "Point to the drawing where your character is most afraid. Which lines changed to show it?" → Specific changes (e.g. raised eyebrows, wide eyes, shoulders up, body leaning away).
+- **Differentiation:** support: an expression reference sheet and a simple round-headed character / stretch: show the same emotion through posture alone, with the face hidden.
+- **Materials:** sketchbooks, pencils, fine-liners, mirrors (to study your own expressions), timers.
+- **Joy:** "Emotion charades" — draw an expression; the class guesses it.
 
-### Lesson 9 — Repeating and tessellating the motif
-- **Duration:** 45 min
-- **Objective:** "By the end, I can repeat a motif on a grid to create a tessellating pattern." (UK NC KS2 art — design)
-- **Hook:** "How do you make a pattern that could cover a whole wall?"
-- **Key activity:** Construct the motif on a triangular or square grid; repeat it across the page; trace over the lines that form the design, erasing construction lines.
-- **Check for understanding:** "What would happen if your motif didn't fit the grid exactly?" → Gaps or overlaps would appear when it repeats; the pattern wouldn't tessellate.
-- **Differentiation:** support: pre-printed grids with the motif started / stretch: design your own motif that tessellates and test it.
-- **Materials:** isometric and square grid paper, compasses, rulers, tracing paper.
-- **Joy:** join individual tiles into a class 'wall'.
-
-### Lesson 10 — Colour and tile making
-- **Duration:** 45 min
-- **Objective:** "By the end, I can apply a limited colour palette to enhance symmetry and pattern." (UK NC KS2 art — colour)
-- **Hook:** "Iznik potters used a few strong colours: cobalt blue, turquoise, green and a famous tomato red. Why a limited palette?"
-- **Key activity:** Choose a 3–4 colour palette; colour the pattern using symmetry (same colour for matching parts); optionally transfer to a clay tile or card tile.
-- **Check for understanding:** "How did your colour choices help the viewer see the symmetry?" → Matching shapes in matching colours make the repeated structure visible.
-- **Differentiation:** support: a colour key suggesting which shapes to colour / stretch: use colour to make one layer of the pattern appear to lie 'on top' of another.
-- **Materials:** gouache or coloured pencils, fine brushes, tile blanks or card squares.
-- **Joy:** assembling the tiles into a class 'Iznik panel'.
-
-### Lesson 11 — Pattern crit
+### Lesson 9 — Framing the story: panels and viewpoints
 - **Duration:** 40 min
-- **Objective:** "By the end, I can evaluate the accuracy and beauty of geometric designs and suggest improvements." (UK NC KS2 art — evaluate)
-- **Hook:** "What makes one pattern more beautiful than another?"
-- **Key activity:** Class display; crit focusing on accuracy of construction, use of symmetry and colour; pupils write a short artist's statement.
-- **Check for understanding:** "Explain one decision you made about your pattern and what you would change next time." → A clear decision and a specific improvement.
-- **Differentiation:** support: artist's statement frame / stretch: compare your pattern with an Alhambra pattern in a short paragraph.
-- **Materials:** finished patterns, display, statement frames.
-- **Joy:** 'museum label' writing for the display.
+- **Objective:** "By the end, I can plan a story in thumbnail panels, choosing close-ups, wide shots and viewpoints for effect." (UK NC KS2 art — design)
+- **Hook:** "Film-makers choose where to put the camera. Illustrators do too. Why start with a tiny figure in a huge landscape?"
+- **Key activity:** Analyse panel types in comics and wordless books (establishing wide shot, medium shot, close-up, bird's-eye and worm's-eye views, the 'gutter' between panels where the reader imagines what happens). Plan a 6-panel story for your character in thumbnails (a journey, a lost object, an arrival in a strange place).
+- **Check for understanding:** "Why did you choose a close-up for this panel instead of a wide shot?" → A reason linked to the story (e.g. to show a feeling or an important object).
+- **Differentiation:** support: a 4-panel template with suggested shots / stretch: use one surprising viewpoint and explain how it changes the mood.
+- **Materials:** thumbnail templates, comic and picture-book examples, pencils.
+- **Joy:** "Camera swap" — redraw a partner's panel from a completely different viewpoint.
 
-**End-of-unit check:** Looking at the constructed pattern and sketchbook: the pupil constructs an accurate six-fold design with compasses, repeats it so it tessellates, uses colour to reveal symmetry, and explains the link to the Alhambra or Iznik tradition.
+### Lesson 10 — Making the wordless sequence
+- **Duration:** 45 min
+- **Objective:** "By the end, I can produce a finished wordless sequence using line, tone and a limited palette to carry the story." (UK NC KS2 art — making)
+- **Hook:** "Shaun Tan spent about four years on *The Arrival*. You have one lesson — so plan carefully!"
+- **Key activity:** Transfer thumbnails to a final 4–6 panel layout; draw in pencil, then work in sepia or brown pencil, ink and wash, or a two-colour limited palette; use tone (Unit 1) for mood and depth.
+- **Check for understanding:** "Show me the panel where the mood changes. How did your tone or colour help?" → A specific panel and technique (e.g. darker tone for danger, lighter wash when the character is safe).
+- **Differentiation:** support: four panels with the layout ruled / stretch: add a double-page 'reveal' panel at the end.
+- **Materials:** cartridge paper, sepia or brown pencils, diluted ink, fine brushes, rulers.
+- **Joy:** seeing your story come alive panel by panel.
+
+### Lesson 11 — Storytelling crit
+- **Duration:** 40 min
+- **Objective:** "By the end, I can evaluate whether a picture sequence communicates its story and suggest improvements." (UK NC KS2 art — evaluate)
+- **Hook:** "The ultimate test: can someone who hasn't heard your story tell it back to you from your pictures alone?"
+- **Key activity:** Swap sequences; readers write or tell the story they see; the artist compares it with their intention; whole-class crit on clarity, expression and framing.
+- **Check for understanding:** "Where did your reader understand something different from what you meant, and what would you change?" → A specific panel and a specific visual fix.
+- **Differentiation:** support: crit sentence starters / stretch: compare your sequence with a spread by Tan, Blake or Morales.
+- **Materials:** finished sequences, crit prompt cards.
+- **Joy:** "Story read-back" — hearing your story told by someone else.
+
+**End-of-unit check:** Looking at the model sheet, thumbnails and final sequence: the pupil keeps a character consistent, uses expression and gesture to show feeling, chooses shots and viewpoints for effect, and explains how their pictures tell the story, with reference to Tan, Blake or Morales.
 
 ---
 
-## Unit 3 — Relief printmaking across cultures
+## Unit 3 — Collage: painting with scissors
 
-**Essential question:** How can carving and pressing create images that can be repeated and shared?
+**Essential question:** How can cutting, tearing and combining existing images create something new?
 
-**Key vocabulary:** relief print, block, plate, carve, incise, positive space, negative space, reverse, brayer (roller), ink, registration, edition, woodblock, linocut, calavera
+**Key vocabulary:** collage, cut-out, torn edge, overlap, layer, composition, positive and negative shape, symmetry, fold, paper-cutting, photomontage, juxtaposition, texture, found image
 
-### Lesson 12 — Looking at prints: Hokusai and Posada
+### Lesson 12 — Painting with scissors: Henri Matisse
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how relief prints are made and compare two printmakers from different cultures." (UK NC KS2 art — great artists)
-- **Hook:** Hokusai's *Under the Wave off Kanagawa* ('The Great Wave', around 1831) beside José Guadalupe Posada's calavera prints (Mexico, around 1900).
-- **Key activity:** Discuss how the images were made (carved blocks inked and printed, many copies), the purpose of each (landscape prints for sale; satirical popular prints), and their visual language (line, contrast, pattern).
-- **Check for understanding:** "Why could printmaking spread art to many more people than painting?" → A block can print many identical copies cheaply, so many people could own them.
-- **Differentiation:** support: compare using a similarities/differences grid / stretch: explain what 'satire' means in Posada's calaveras.
-- **Materials:** images of *The Great Wave* and Posada's prints, a real carved block (if available), sketchbooks.
-- **Joy:** "Spot the wave" — find hidden details in Hokusai's print (Mount Fuji, the boats).
+- **Objective:** "By the end, I can use cut coloured shapes to make a lively composition, explaining how Matisse used colour and shape." (UK NC KS2 art — great artists)
+- **Hook:** "When illness meant Matisse could no longer stand at an easel, he 'drew with scissors'. Were his cut-outs still real art?"
+- **Key activity:** Look at *The Snail* (1953) and pages from *Jazz* (1947): bold colour, organic shapes, balance. Pupils paint sheets of paper with gouache, then cut shapes freely (no drawing first) and arrange them, trying several compositions before gluing.
+- **Check for understanding:** "What did you change as you moved your shapes around, and why is the final arrangement better?" → A specific change (e.g. moved the large shape off-centre for balance; put complementary colours side by side).
+- **Differentiation:** support: pre-painted papers and a limited set of shapes / stretch: use the 'leftover' negative shapes from your cuts as part of the design.
+- **Materials:** gouache-painted paper, scissors, glue sticks, large backing sheets, images of Matisse's cut-outs.
+- **Joy:** "Drawing with scissors" — cut without a pencil line.
 
-### Lesson 13 — Positive and negative space
+### Lesson 13 — Cut-paper traditions: Chinese jianzhi
+- **Duration:** 45 min
+- **Objective:** "By the end, I can make a symmetrical paper-cut by folding and cutting, and explain the tradition it comes from." (UK NC KS2 art — art from other cultures)
+- **Hook:** "Chinese paper-cutting (*jianzhi*) is so skilled that UNESCO lists it as world cultural heritage. How can one fold and a pair of scissors make this?"
+- **Key activity:** Look at *jianzhi* for festivals (window decorations with animals, flowers and good-luck characters); learn folding for two-, four- and eight-fold symmetry; plan the positive and negative shapes so the design holds together; cut a design.
+- **Check for understanding:** "Why must the shapes in a paper-cut stay connected to each other?" → If a shape isn't joined to the rest, it falls out and the design falls apart; the paper links hold it together.
+- **Differentiation:** support: a two-fold design with a drawn guide / stretch: an eight-fold radial design with fine detail.
+- **Materials:** thin red and coloured paper, small scissors, pencils, examples of *jianzhi* (images).
+- **Joy:** unfolding the paper to reveal the design.
+
+### Lesson 14 — Romare Bearden: collage and community
+- **Duration:** 45 min
+- **Objective:** "By the end, I can layer photographs, painted paper and pattern to show a place and its people, learning from Romare Bearden." (UK NC KS2 art — great artists)
+- **Hook:** Romare Bearden's *The Block* (1971), a street in Harlem, New York, made from cut paper and photographs: "What can you tell about the people who live here?"
+- **Key activity:** Discuss how Bearden combined painted paper, photographs and patterned paper to show everyday life and music; pupils make a study of a building or street near school from photographs, magazine pieces and painted papers, overlapping for depth.
+- **Check for understanding:** "How does overlapping the pieces create depth in your collage?" → Pieces in front overlap those behind, so the eye reads layers of space.
+- **Differentiation:** support: a background street shape already cut / stretch: include people and a sense of sound or music, as Bearden did.
+- **Materials:** photographs of the local area, magazines, painted and patterned papers, scissors, glue, card.
+- **Joy:** "Our street" — collages lined up to make one long class street.
+
+### Lesson 15 — Photomontage: Hannah Höch and surprising combinations
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a design in bold positive and negative shapes suitable for printing." (UK NC KS2 art — design)
-- **Hook:** "In a relief print, whatever you carve away stays white. How does that change how you design?"
-- **Key activity:** Practise black-and-white designs with marker on paper; experiment with reversing positive and negative; plan a print design on a theme (a creature, a place, a 'calavera' of a hobby).
-- **Check for understanding:** "Which parts of your design will you carve away, and what colour will they print?" → The areas to be white; they will be the paper colour, not inked.
-- **Differentiation:** support: a simple silhouette design / stretch: design with texture marks (hatching lines) that will carve cleanly.
-- **Materials:** black markers, paper, sketchbooks, example prints.
-- **Joy:** "Negative-space puzzle" — images that show two things at once.
+- **Objective:** "By the end, I can combine cut photographs to create an image with a new meaning, explaining the idea of juxtaposition." (UK NC KS2 art — great artists)
+- **Hook:** "About a hundred years ago, the German artist Hannah Höch cut up newspapers and magazines to make pictures that made people think twice. What happens when a giraffe's head goes on a teapot?"
+- **Key activity:** Look at teacher-selected, age-appropriate Höch photomontages; discuss juxtaposition (putting unexpected things together to create a new idea); pupils make a photomontage from magazines on a theme ('the future', 'my dream invention', 'upside-down world').
+- **Check for understanding:** "Which two images did you put together, and what new idea does the combination create?" → Two named images and the meaning created by combining them.
+- **Differentiation:** support: a choice of pre-cut images to combine / stretch: create a montage that makes a point about an issue, without words.
+- **Materials:** old magazines and newspapers, scissors, glue, card, teacher-selected Höch images. (Preview images: some Dada works are unsuitable for children.)
+- **Joy:** "Mix-up machine" — the silliest successful combination wins.
 
-### Lesson 14 — Carving the block
+### Lesson 16 — Making the final collage
 - **Duration:** 45 min
-- **Objective:** "By the end, I can transfer and carve my design safely, remembering the image will print in reverse." (UK NC KS2 art — printmaking)
-- **Hook:** "Write your name on a block the right way round. What will happen when you print it?"
-- **Key activity:** Transfer design to polystyrene printing tiles (press lines with a blunt pencil) or soft-cut lino (with safety cutters, bench hooks, cutting away from the body); remember text reverses.
-- **Check for understanding:** "Why must any writing be carved backwards?" → The print is a mirror image of the block.
-- **Differentiation:** support: polystyrene tile with pencil indenting / stretch: soft-cut lino with two depths of cut.
-- **Materials:** polystyrene printing tiles or soft-cut lino, lino cutters, bench hooks, blunt pencils. Safety: always cut away from the hand holding the block.
-- **Joy:** the first reveal of carved lines.
+- **Objective:** "By the end, I can plan and make a final collage that combines at least two collage techniques to express an idea about my world." (UK NC KS2 art — making)
+- **Hook:** "Matisse, jianzhi, Bearden, Höch — which tools will you choose?"
+- **Key activity:** Choose a theme ('my world', 'journeys', 'the neighbourhood'); plan in the sketchbook; combine techniques (painted cut-outs, symmetrical paper-cut, photographic layers, montage); pay attention to composition and edges (cut vs torn).
+- **Check for understanding:** "Why did you choose these two techniques for your idea?" → A reason linking technique to meaning (e.g. torn edges for an old memory, bright cut-outs for joy).
+- **Differentiation:** support: a planned layout with two techniques / stretch: combine three techniques and a limited colour scheme.
+- **Materials:** all unit materials, larger card.
+- **Joy:** the big reveal of the finished collage.
 
-### Lesson 15 — Printing an edition
-- **Duration:** 45 min
-- **Objective:** "By the end, I can print a clean, consistent edition of three prints." (UK NC KS2 art — printmaking)
-- **Hook:** "Professional printmakers sign and number their prints. Today you'll make your first edition."
-- **Key activity:** Roll ink evenly with a brayer; register the block and paper; burnish with a spoon or baren; peel back; evaluate and adjust; number and sign (1/3, 2/3, 3/3).
-- **Check for understanding:** "Your print is patchy. What might have caused it?" → Too little or uneven ink, or not enough pressure when burnishing.
-- **Differentiation:** support: work with a printing partner / stretch: print on coloured or patterned paper to change the mood.
-- **Materials:** block printing ink, brayers, inking trays, paper, spoons or barens, drying rack, aprons.
-- **Joy:** signing your first numbered edition.
-
-### Lesson 16 — Two-colour prints (reduction or overlay)
-- **Duration:** 45 min
-- **Objective:** "By the end, I can make a two-colour print by overprinting or reduction." (UK NC KS2 art — printmaking)
-- **Hook:** "How did Hokusai's printers get so many colours from wooden blocks?" (A separate block for each colour.)
-- **Key activity:** Print a light colour first; carve away more; overprint in a darker colour (reduction method) — or print two blocks in register.
-- **Check for understanding:** "Why is the lighter colour printed first?" → Dark ink covers light ink, so the dark colour must go on top.
-- **Differentiation:** support: overlay a second colour using a stencil / stretch: plan a three-colour reduction.
-- **Materials:** as Lesson 15, plus a second ink colour.
-- **Joy:** watching the second colour transform the image.
-
-### Lesson 17 — Print exhibition and crit
+### Lesson 17 — Collage crit
 - **Duration:** 40 min
-- **Objective:** "By the end, I can evaluate prints for clarity, contrast and craft, and explain my process." (UK NC KS2 art — evaluate)
-- **Hook:** "Our printmakers' exhibition opens today."
-- **Key activity:** Display editions with process photos; crit using the vocabulary; pupils explain one problem they solved.
-- **Check for understanding:** "What problem did you solve during printing, and how?" → A specific problem (e.g. patchy ink) and solution (more rolling, firmer burnishing).
-- **Differentiation:** support: crit prompts / stretch: compare your print's use of contrast with Posada's or Hokusai's.
-- **Materials:** prints, process photos, display.
-- **Joy:** "Print swap" — trade one print with a classmate.
+- **Objective:** "By the end, I can evaluate collages for composition, contrast and meaning, and explain my choices." (UK NC KS2 art — evaluate)
+- **Hook:** "Collage exhibition: guess the artist who inspired each piece."
+- **Key activity:** Display; gallery walk with sticky notes; artists explain one choice; write a museum label naming the influence.
+- **Check for understanding:** "Which artist from this unit influenced your collage most, and what exactly did you borrow?" → A named artist and a specific technique or idea.
+- **Differentiation:** support: crit prompts / stretch: compare your collage with the artist's work in a short paragraph.
+- **Materials:** finished collages, sticky notes, label cards.
+- **Joy:** "Guess the influence" gallery game.
 
-**End-of-unit check:** Looking at the edition and process notes: the pupil designs with clear positive/negative space, carves safely with the image reversed, prints a consistent edition, and discusses their work in relation to Hokusai or Posada.
+**End-of-unit check:** Looking at the final collage and sketchbook: the pupil composes with cut shapes, makes a connected symmetrical paper-cut, uses overlap for depth, combines images to create meaning, and names the artists and traditions that influenced them.
 
 ---
 
@@ -297,7 +303,7 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Key activity:** Discuss Wiley's use of traditional heroic poses for contemporary sitters and decorative backgrounds; design a patterned background using a motif meaningful to you (e.g. a flower from your family's country, a textile pattern).
 - **Check for understanding:** "How can a background change what we think about the person in a portrait?" → It adds meaning (places, culture, status) and can make the sitter look powerful or connected to something.
 - **Differentiation:** support: stencil or print a repeated motif / stretch: combine two cultural patterns meaningfully.
-- **Materials:** images of Wiley's portraits, patterned papers and textiles, printing blocks from Unit 3, paints.
+- **Materials:** images of Wiley's portraits, patterned papers and textiles, cut-paper and collage techniques from Unit 3, paints.
 - **Joy:** choosing a 'heroic' pose for your portrait photo.
 
 ### Lesson 22 — Making the mixed-media self-portrait
@@ -328,17 +334,17 @@ practical sessions benefit from a double lesson where the timetable allows.
 
 **Essential question:** How do sculptors use form, space and materials to express ideas?
 
-**Key vocabulary:** sculpture, three-dimensional, form, mass, volume, space, positive and negative space, pierced form, armature, maquette, carve, model, construct, texture, surface, recycled, installation
+**Key vocabulary:** sculpture, three-dimensional, form, mass, volume, space, positive and negative space, armature, maquette, wire, model, additive, proportion, texture, surface, terracotta, recycled, installation
 
 ### Lesson 24 — Looking at sculpture
 - **Duration:** 40 min
 - **Objective:** "By the end, I can compare how three sculptors use form, space and material." (UK NC KS2 art — great artists)
-- **Hook:** Barbara Hepworth's pierced forms, Alberto Giacometti's thin walking figures and El Anatsui's shimmering hangings made from bottle-top aluminium.
-- **Key activity:** Walk around objects to see sculpture from all sides; discuss each artist's material and idea (Hepworth: holes that let space and light into the form; Giacometti: fragile, lonely figures; El Anatsui: transforming waste into something like woven cloth, echoing kente textiles of Ghana).
-- **Check for understanding:** "Why does Hepworth put holes in her sculptures?" → To bring space, light and the surroundings into the form, making the 'empty' part as important as the solid.
-- **Differentiation:** support: a comparison grid with images / stretch: explain how El Anatsui's choice of material carries meaning.
+- **Hook:** Alberto Giacometti's thin walking figures, Ruth Asawa's hanging looped-wire forms and a terracotta head from Ife (Nigeria, 12th–15th century).
+- **Key activity:** Retrieve Year 4's Hepworth and 'negative space'. Walk around objects to see sculpture from all sides; discuss each artist's material and idea (Giacometti: fragile, lonely figures; Asawa: drawing in space with wire, transparent forms inside forms; the Ife sculptors: calm, naturalistic heads of great skill that surprised European scholars in the early 1900s).
+- **Check for understanding:** "How does Ruth Asawa's use of wire change the way we see space compared with a solid sculpture?" → You can see through it, so the space inside and the shadows it casts become part of the work — a line drawing in three dimensions.
+- **Differentiation:** support: a comparison grid with images / stretch: explain why the Ife heads challenged some Europeans' ideas about African art in the 1900s.
 - **Materials:** images (and small reproductions if available), sketchbooks.
-- **Joy:** "Human sculptures" — freeze in the pose of a Giacometti or a Hepworth.
+- **Joy:** "Human sculptures" — freeze in the pose of a Giacometti walker.
 
 ### Lesson 25 — Maquettes and armatures
 - **Duration:** 45 min
@@ -360,25 +366,25 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Materials:** armatures, masking tape, plaster bandage or air-drying clay, tools, paint.
 - **Joy:** a group installation of figures 'walking' across a table.
 
-### Lesson 27 — Clay: pierced forms
+### Lesson 27 — Clay heads: modelling a face in the round
 - **Duration:** 45 min
-- **Objective:** "By the end, I can model a clay form with a piercing, considering it from all sides." (UK NC KS2 art — sculpture)
-- **Hook:** "Can a hole be the most important part of a sculpture?"
-- **Key activity:** Model a smooth abstract form from a ball of clay (inspired by a pebble or shell); pierce through with a tool; smooth edges; turn it constantly to check all views.
-- **Check for understanding:** "Why do you need to keep turning your sculpture as you work?" → A sculpture is seen from all sides; each view must work.
-- **Differentiation:** support: start from a pebble shape and make one hole / stretch: create two connected pierced forms.
-- **Materials:** clay, modelling tools, sponges, water, boards, pebbles and shells for inspiration.
-- **Joy:** hold your sculpture up to the light and look through it.
+- **Objective:** "By the end, I can model a small clay head with features in proportion, checking it from all sides." (UK NC KS2 art — sculpture)
+- **Hook:** "The sculptors of Ife made heads so lifelike that each seems to be a real person. Can you use Unit 4's face proportions in three dimensions?"
+- **Key activity:** Build an egg-shaped head on a paper-ball core (additive modelling); mark the eye line halfway (Unit 4) and add features by adding and blending clay, not just scratching lines; turn it constantly to check profile and front views.
+- **Check for understanding:** "Why do you need to keep turning your head sculpture as you work?" → A sculpture is seen from all sides; the profile shows mistakes (e.g. a flat face or a nose that sticks out too far) that the front view hides.
+- **Differentiation:** support: a pre-formed head shape with the eye line marked / stretch: give the head a clear expression or age, as in the portrait unit.
+- **Materials:** clay, paper-ball cores, modelling tools, sponges, water, boards, mirrors, images of Ife heads.
+- **Joy:** the profile check — hold your head up beside a partner's real profile.
 
-### Lesson 28 — Recycled materials: El Anatsui
+### Lesson 28 — Recycled materials: Romuald Hazoumè's masks
 - **Duration:** 45 min
-- **Objective:** "By the end, I can transform recycled materials into a collaborative sculptural hanging." (UK NC KS2 art — sculpture / sustainability)
-- **Hook:** "El Anatsui joins thousands of bottle tops with copper wire to make sculptures that look like shimmering cloth."
-- **Key activity:** Collect clean recycled materials (bottle caps, foil, cardboard, fabric scraps); flatten and join with wire or string into tiles; groups join tiles into a large hanging.
-- **Check for understanding:** "How does using recycled materials add meaning to a sculpture?" → The material tells a story (about waste, consumption, transformation) as well as creating the look.
-- **Differentiation:** support: join a small tile following a pattern / stretch: plan the hanging's overall colour pattern like a textile design.
-- **Materials:** clean recycled materials, soft wire, string, hole punches, scissors, gloves.
-- **Joy:** hanging the finished collaborative piece.
+- **Objective:** "By the end, I can transform recycled plastic packaging into a sculptural mask that carries a message." (UK NC KS2 art — sculpture / sustainability)
+- **Hook:** "Romuald Hazoumè, an artist from Benin, turns old plastic petrol cans into faces. What is he saying?"
+- **Key activity:** Look at Hazoumè's jerrycan masks: a handle becomes a nose, a spout a mouth — found shapes suggest features; discuss the story the material tells (fuel smuggling, waste, recycling). Pupils search clean plastic packaging for 'faces', then cut, join and add small found elements to make a mask.
+- **Check for understanding:** "How does using a piece of rubbish add meaning to your mask?" → The material tells a story (about waste, consumption, transformation) as well as creating the look.
+- **Differentiation:** support: a bottle with the 'face' already chosen and simple additions / stretch: design a mask whose material and expression together make a clear point about an issue.
+- **Materials:** clean plastic bottles and containers, safety scissors (adult cuts thick plastic), masking tape, wire, bottle caps, string, gloves.
+- **Joy:** the "face-finding" hunt through the recycling box.
 
 ### Lesson 29 — Sculpture crit and display
 - **Duration:** 40 min
@@ -390,7 +396,7 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Materials:** sculptures, plinths (boxes), cameras.
 - **Joy:** the "sculpture park" walk.
 
-**End-of-unit check:** Looking at the sculptures and photographs: the pupil builds a stable armature, models expressive form and texture, uses space deliberately, and discusses materials and meaning with reference to Hepworth, Giacometti or El Anatsui.
+**End-of-unit check:** Looking at the sculptures and photographs: the pupil builds a stable armature, models expressive form and texture and a head in proportion, uses space deliberately, and discusses materials and meaning with reference to Giacometti, Asawa, the Ife sculptors or Hazoumè.
 
 ---
 
@@ -398,7 +404,7 @@ practical sessions benefit from a double lesson where the timetable allows.
 
 **Essential question:** How can art and design persuade people to care about the planet?
 
-**Key vocabulary:** composition, rule of thirds, viewpoint, focus, digital collage, layer, typography, font, layout, contrast, hierarchy, message, audience, installation, graphic design
+**Key vocabulary:** composition, rule of thirds, viewpoint, focus, digital collage, layer, pictogram, symbol, consistency, simplicity, contrast, message, audience, installation, graphic design
 
 ### Lesson 30 — Art that makes us care
 - **Duration:** 40 min
@@ -430,21 +436,21 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Materials:** tablets or computers with a simple image editor, pupils' photos, copyright-free image source.
 - **Joy:** revealing surprising collages to the class.
 
-### Lesson 33 — Typography and poster design
+### Lesson 33 — Pictograms: a message without words
 - **Duration:** 45 min
-- **Objective:** "By the end, I can design a poster using typography, hierarchy and contrast to communicate clearly." (UK NC KS2 art — design)
-- **Hook:** "You walk past a poster for three seconds. What do you remember?"
-- **Key activity:** Analyse effective posters (one main image, a short message, clear hierarchy of text sizes, contrast); design a campaign poster combining the collage with a slogan; test legibility from across the room.
-- **Check for understanding:** "What is the first thing a viewer sees on your poster, and why did you design it that way?" → The focal element and the design choices (size, contrast, position) that make it first.
-- **Differentiation:** support: a layout grid template / stretch: design two versions for different audiences and compare.
-- **Materials:** tablets or computers, poster templates, printed examples.
-- **Joy:** the "3-second test" from across the room.
+- **Objective:** "By the end, I can design a set of simple pictograms that communicate an action for the environment to anyone, whatever language they speak." (UK NC KS2 art — design)
+- **Hook:** Otl Aicher's pictograms for the 1972 Munich Olympics: "Visitors spoke dozens of languages. How did one set of little figures tell everyone where to go?"
+- **Key activity:** Analyse pictograms (simple geometry, one idea each, consistent line and style); design a set of three consistent pictograms for your campaign (e.g. 'switch off', 'refill', 'walk to school') on a square grid; test them on a partner who hasn't seen your ideas. (Typography and poster hierarchy are studied in Year 6.)
+- **Check for understanding:** "Your partner misread one pictogram. What will you simplify or change, and why?" → A specific change (e.g. removing a distracting detail, making the arrow clearer) that makes the single idea easier to read.
+- **Differentiation:** support: a grid template with basic shapes / stretch: make the set work in one colour and at postage-stamp size.
+- **Materials:** squared paper, fine-liners, tablets or computers (optional), images of the 1972 Olympic pictograms and everyday signs.
+- **Joy:** the "stranger test" — can someone from another class guess all three?
 
 ### Lesson 34 — Installation: a class artwork for a cause
 - **Duration:** 45 min
 - **Objective:** "By the end, I can contribute to a collaborative installation that communicates a message." (UK NC KS2 art — making)
 - **Hook:** "Like *Ice Watch*, let's make the school stop and think."
-- **Key activity:** Combine posters, the recycled hanging from Unit 5 and photographs into an installation in a shared space (hall, entrance); plan viewer journey, lighting and labels.
+- **Key activity:** Combine collages, pictograms, the recycled masks from Unit 5 and photographs into an installation in a shared space (hall, entrance); plan viewer journey, lighting and labels.
 - **Check for understanding:** "How does the placement of your piece affect how people experience it?" → A reasoned choice about location, height, sequence or lighting.
 - **Differentiation:** support: a defined role (labels, hanging, photography) / stretch: act as curator, planning the layout and writing the introduction panel.
 - **Materials:** all unit work, display materials, lighting (lamps), labels.
@@ -455,43 +461,46 @@ practical sessions benefit from a double lesson where the timetable allows.
 - **Objective:** "By the end, I can reflect on my progress across the year and choose work that shows my growth." (UK NC KS2 art — evaluate)
 - **Hook:** "Your sketchbook is a record of how you've learned to see."
 - **Key activity:** Pupils review their sketchbook and finished pieces, choose three that show growth, and discuss them with a partner and the teacher; set a goal for Year 6.
-- **Check for understanding:** "Which piece shows your biggest improvement, and what exactly improved?" → A specific piece and a specific skill (e.g. tonal range, carving accuracy).
+- **Check for understanding:** "Which piece shows your biggest improvement, and what exactly improved?" → A specific piece and a specific skill (e.g. tonal range, consistency of a character, control of cut edges).
 - **Differentiation:** support: a reflection frame / stretch: write a short artist's biography for yourself.
 - **Materials:** sketchbooks, finished works, reflection frames.
 - **Joy:** a year-end exhibition for families.
 
-**End-of-unit check:** Looking at the photographs, collage, poster and installation role: the pupil composes photographs deliberately, layers digital images with intent, designs a legible poster with clear hierarchy, and explains how their work communicates a message.
+**End-of-unit check:** Looking at the photographs, digital collage, pictograms and installation role: the pupil composes photographs deliberately, layers digital images with intent, designs clear, consistent pictograms, and explains how their work communicates a message.
 
 ## Books & resources
 
 - ***The Story of Painting*** by Sister Wendy Beckett — an authoritative, accessible survey for teacher background and for curious pupils.
 - ***13 Artists Children Should Know*** by Angela Wenzel (Prestel) — short, well-illustrated introductions to major artists; ideal for independent research.
 - ***Frida Kahlo and Her Animalitos*** by Monica Brown, illustrated by John Parra — a picture book about Kahlo's animals and their symbolism (Unit 4).
-- ***Hokusai: The Man Who Painted a Mountain*** by Deborah Kogan Ray — a picture-book biography of Hokusai (Units 1 and 3).
-- ***Islamic Geometric Patterns*** by Eric Broug — clear step-by-step constructions for teachers (Unit 2).
-- **Museum collections online** — the Metropolitan Museum of Art, the British Museum and the Alhambra's official site provide high-resolution images for close looking.
-- **Materials list** — graphite pencils 2H–6B, charcoal, fine-liners, Chinese brushes and ink, safety compasses, gouache, polystyrene printing tiles and soft-cut lino, lino cutters and bench hooks, block printing ink, brayers, clay and modelling tools, soft wire, plaster bandage, recycled materials, tablets with camera and image editor, sketchbooks for every pupil.
+- ***Hokusai: The Man Who Painted a Mountain*** by Deborah Kogan Ray — a picture-book biography of Hokusai (Unit 1).
+- ***The Girl Who Drew Butterflies: How Maria Merian's Art Changed Science*** by Joyce Sidman — an award-winning biography that shows why careful drawing matters (Unit 1).
+- ***The Arrival*** by Shaun Tan — the wordless graphic novel at the heart of Unit 2 (shared with English).
+- ***Henri's Scissors*** by Jeanette Winter — a picture book about Matisse's cut-outs (Unit 3).
+- ***Romare Bearden: Collage of Memories*** by Jan Greenberg — an accessible introduction to Bearden's life and collages (Unit 3).
+- **Museum collections online** — the Metropolitan Museum of Art (Bearden), Tate (Matisse), the British Museum (Ife heads) and Google Arts & Culture provide high-resolution images for close looking.
+- **Materials list** — graphite pencils 2H–6B, charcoal, fine-liners, sepia pencils, Chinese brushes and ink, gouache, coloured and thin red paper, small scissors, magazines for collage, clay and modelling tools, soft wire, plaster bandage, recycled plastic packaging, tablets with camera and image editor, sketchbooks for every pupil.
 
 ## End-of-year mastery checks
 
 Assessed by looking at sketchbooks and finished work, and through crit discussions:
 
 1. **Tone and form** — uses a full tonal range and shading techniques to make objects look three-dimensional.
-2. **Perspective** — draws a convincing one-point perspective scene.
-3. **Geometric design** — constructs an accurate pattern with compasses and ruler and repeats it to tessellate.
-4. **Printmaking** — plans for reversal and positive/negative space, carves safely and prints a consistent edition.
+2. **Depth** — creates convincing depth in a landscape using overlap, scale and atmospheric perspective.
+3. **Visual storytelling** — designs a consistent character and tells a wordless story in panels, choosing shots for effect.
+4. **Collage** — composes with cut shapes and layered images, and combines images to create new meaning.
 5. **Portraiture** — draws faces in proportion and uses symbol, colour and background to express identity.
 6. **Sculpture** — builds a stable form in at least two materials, considering all viewpoints and space.
-7. **Digital design** — composes photographs, layers digital images and designs a legible poster with a clear message.
+7. **Digital design** — composes photographs, layers digital images and designs clear, consistent pictograms with a message.
 8. **Talking about art** — analyses and compares artworks from different cultures using precise vocabulary, and explains their own intentions.
 
 ## Teacher guidance
 
 **Common misconceptions to watch for**
-- *"Good art = realistic art."* Show expressive and abstract work (Qi Baishi, Hepworth, Kusama) as equally skilled.
+- *"Good art = realistic art."* Show expressive and abstract work (Qi Baishi, Matisse, Asawa, Kusama) as equally skilled.
 - *Eyes drawn too high; features too large.* Measure and use guidelines.
 - *Outlining everything.* Encourage tone and edges rather than hard outlines in observational work.
-- *Forgetting prints reverse.* Check lettering before carving.
+- *Cutting out every detail in collage.* Big, simple shapes read better; let edges (cut vs torn) do the work.
 - *Treating a sculpture like a picture from the front.* Turn it constantly.
 - *Copying rather than learning from artists.* Pupils should borrow a technique or idea and make it their own.
 
@@ -499,10 +508,10 @@ Assessed by looking at sketchbooks and finished work, and through crit discussio
 - Begin every unit with slow looking at real artworks (or high-quality reproductions) and open questions: What do you see? What do you think? What do you wonder?
 - Keep sketchbooks as thinking spaces: experiments, notes and failures are valued.
 - Hold regular crits with kind, specific, helpful feedback; model the language.
-- Safety: cutting away from the body with lino tools, supervised wire cutting, dust-free clay practice, safe use of compasses.
+- Safety: small scissors used seated, adult cuts thick plastic, supervised wire cutting, dust-free clay practice; preview collage source images (magazines and Dada works) for suitability.
 - Credit artists from many cultures and include women artists in every unit.
 
 **Vertical connections**
-- *From Year 4:* observational drawing, colour mixing, simple printing and clay.
-- *Into Year 6:* extended independent projects, more complex printmaking and painting, architecture and design, and art history across periods and movements.
-- *Across subjects:* maths (geometry, symmetry, tessellation, scale, perspective), history (Benin plaques, Islamic art, Maya glyphs), science (light and shadow), computing (digital editing), life skills (sustainability, identity).
+- *From Year 4:* one-point perspective, relief printmaking, clay (pinch, coil, relief), Hepworth and negative space, El Anatsui, Islamic geometric pattern and textiles — built on, not repeated.
+- *Into Year 6:* linear and two-point perspective, colour theory in paint, printmaking beyond relief (monoprint, collagraph, stencil, linocut), site-specific sculpture and assemblage, graphic and product design, and an independent graduation project.
+- *Across subjects:* English (*The Arrival*), maths (symmetry, scale, proportion), history (the Renaissance, the Ife and Benin kingdoms), science (Merian's life cycles, light and shadow), computing (digital editing), life skills (sustainability, identity).
