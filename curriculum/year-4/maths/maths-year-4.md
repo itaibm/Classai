@@ -9,7 +9,7 @@
 
 Year 4 is the year a child stops being a "calculator of small numbers" and becomes a **reasoner with large numbers, parts of wholes, and space**. It follows the Singapore / Maths-No-Problem mastery tradition: every new idea is met **concretely** (base-10, place-value counters, fraction strips, cubes, protractors), then **pictorially** (place-value charts, bar models, number lines, area models), then **abstractly**, and no idea gets only one lesson — each is introduced, practised, applied to a problem and retrieved later in the year.
 
-**What Year 4 assumes (from Year 3):** place value to 10,000; all times tables to 12 × 12 recalled fluently with related division facts; column addition and subtraction of 4-digit numbers; column multiplication of 2–3-digit × 1-digit and short division with no or simple remainders; tenths and hundredths; equivalent fractions and fractions of amounts; area by counting squares; right, acute and obtuse angles; first-quadrant coordinates; bar charts and simple line graphs.
+**What Year 4 assumes (from Year 3):** place value to 10,000; all times tables to 12 × 12 recalled fluently with related division facts; column addition and subtraction of 4-digit numbers; column multiplication of 2–3-digit × 1-digit and short division with no or simple remainders; tenths and hundredths; equivalent fractions (wall and multiplying), a first look at simplifying, improper fractions and mixed numbers, adding and subtracting with the same denominator, and fractions of amounts — so Unit 4 retrieves these briefly and extends them (hundredths, HCF, benchmarks, measures); area by counting squares; right, acute and obtuse angles; first-quadrant coordinates; bar charts and simple line graphs.
 
 **How the year sequences.**
 - **Term 1 — Number sense for big numbers.** Place value to 1,000,000 (with negatives and Roman numerals), written and mental addition/subtraction, then the *structure* of multiplication — multiples, factors, primes, squares, cubes — and the key idea that ×/÷ by 10, 100 and 1000 moves digits, not the decimal point. Fractions A (equivalence, comparing, mixed numbers) closes the term so fractions are revisited in Term 2 rather than crammed.
@@ -104,7 +104,7 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 
 ### Lesson 6 — Rounding to the nearest 10, 100, 1000
 - **Duration:** 35 min
-- **Objective:** "By the end, I can round any number to the nearest 10, 100 or 1000 and explain using a number line." (UK NC Y5 place value; CCSS 4.NBT.3)
+- **Objective:** "By the end, I can round any number up to 1,000,000 to the nearest 10, 100 or 1000 and explain using a number line." (UK NC Y5 place value; CCSS 4.NBT.3)
 - **Hook:** A newspaper says "5,000 fans"; the ticket office says 4,862. "Who is right?"
 - **Key activity:** Find the two multiples the number sits between on a number line, find the halfway point, decide which is nearer; then the digit-to-the-right shortcut (5 or more rounds up — a halfway number is rounded up by convention).
 - **Check for understanding:** "Round 4,950 to the nearest 100 and to the nearest 1000. Why do both answers make sense?" → 5,000 both times; 4,950 is halfway between 4,900 and 5,000 (rounds up) and nearer 5,000 than 4,000.
@@ -492,19 +492,19 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Materials:** fraction strips/wall, paper strips for folding, number lines 0–1.
 - **Joy:** "Fraction wall build" — each group builds and colours a section of a giant class wall.
 
-### Lesson 42 — Equivalent fractions with models
+### Lesson 42 — Equivalent fractions: retrieval and tenths and hundredths
 - **Duration:** 40 min
-- **Objective:** "By the end, I can find equivalent fractions using fraction walls and area models." (UK NC Y5 fractions — equivalence; CCSS 4.NF.1)
-- **Hook:** Fold a paper strip in half, then half again and again: "The shaded amount never changed — but its name did!"
-- **Key activity:** Paper folding and fraction walls to find ½ = 2/4 = 4/8; area model grids splitting both ways. Record families of equivalent fractions.
-- **Check for understanding:** "Using a model, show why ⅔ = 6/9." → Split each third into 3 equal parts; the 2 shaded thirds become 6 of 9 parts.
-- **Differentiation:** support: halves/quarters/eighths families with physical folding. / stretch: find a fraction equivalent to ¾ with a denominator of 100 and explain the link to hundredths.
-- **Materials:** paper strips, fraction walls, squared paper for area models.
-- **Joy:** "Fraction family trees" — grow as many branches of equivalent fractions as possible in 5 minutes.
+- **Objective:** "By the end, I can find equivalent fractions with a model and rewrite fractions as tenths and hundredths (e.g. ¾ = 75/100, 2/5 = 40/100)." (UK NC Y5 fractions — equivalence including tenths and hundredths; CCSS 4.NF.1, 4.NF.5)
+- **Hook:** Fold a paper strip in half, then half again and again: "The shaded amount never changed — but its name did! Could one of its names be in hundredths?"
+- **Key activity:** Retrieval (Year 3 taught equivalence with walls and by multiplying): a quick fraction-wall round (½ = 2/4 = 4/8). New step: hundred squares and area models to rename fractions with denominators that are factors of 100 as hundredths (¼ = 25/100, ⅕ = 20/100, 3/20 = 15/100), and to see why ⅓ cannot be written as a whole number of hundredths.
+- **Check for understanding:** "Using a hundred square, show why 2/5 = 40/100. Can you do the same for ⅓? Why not?" → Split the square into 5 equal columns-of-two (20 squares each); 2 of them is 40 squares. ⅓ of 100 squares is not a whole number of squares, because 3 is not a factor of 100.
+- **Differentiation:** support: halves, quarters and tenths on shaded hundred squares first / stretch: which fractions with denominators 2 to 12 can be written exactly as hundredths? Explain using factors of 100.
+- **Materials:** paper strips, fraction walls, hundred squares, squared paper for area models.
+- **Joy:** "Fraction family trees" — grow as many branches of equivalent fractions as possible in 5 minutes, with a gold branch for every hundredths name.
 
 ### Lesson 43 — Equivalent fractions by multiplying and dividing
 - **Duration:** 35 min
-- **Objective:** "By the end, I can find equivalent fractions by multiplying or dividing numerator and denominator by the same number." (UK NC Y5 fractions — equivalence)
+- **Objective:** "By the end, I can find equivalent fractions by multiplying or dividing numerator and denominator by the same number, and test whether two fractions are equivalent." (UK NC Y5 fractions — equivalence)
 - **Hook:** "Is there a quicker way than drawing every time?"
 - **Key activity:** Link the model to the rule: ×3 on both parts = splitting each part into 3. Show why adding the same number does not work (1/2 → 2/3 is not equal).
 - **Check for understanding:** "Jin says 2/5 = 3/6 because he added 1 to both. Show with a model why he's wrong." → 2/5 = 0.4 of a strip, 3/6 = ½; the strips don't match — only multiplying/dividing by the same number keeps the value.
@@ -512,7 +512,7 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Materials:** fraction wall, multiplication grid, fraction strips.
 - **Joy:** "Equivalence snap" — a card game snapping pairs of equal fractions.
 
-### Lesson 44 — Simplifying fractions
+### Lesson 44 — Simplifying fractions using the highest common factor
 - **Duration:** 35 min
 - **Objective:** "By the end, I can simplify fractions using common factors." (UK NC Y5 fractions — equivalence)
 - **Hook:** "18/24 of the class brought lunch. Can we say it in a simpler way?"
@@ -522,15 +522,15 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Materials:** fraction walls, factor-pair cards, counters.
 - **Joy:** "Fraction shrink ray" — "zap" fractions to their simplest form on a game board.
 
-### Lesson 45 — Fractions greater than 1: improper fractions
+### Lesson 45 — Fractions greater than 1 in measures and on number lines
 - **Duration:** 35 min
-- **Objective:** "By the end, I can represent improper fractions with models and on a number line." (UK NC Y5 fractions — improper fractions)
-- **Hook:** "I ate 5 quarters of pizza. Is that possible?"
-- **Key activity:** Paper circles cut into quarters; collect 5 quarters, rebuild one whole plus a quarter. Number line 0–3 in quarters. Name improper fractions (numerator ≥ denominator).
-- **Check for understanding:** "Where does 7/4 go on a number line? Explain using wholes." → Between 1 and 2; 4/4 is one whole and 3/4 more takes you to 1¾.
-- **Differentiation:** support: physical fraction circles for halves and quarters. / stretch: place 11/6, 7/3 and 9/4 on one number line.
-- **Materials:** fraction circles, number lines 0–3, paper plates to cut.
-- **Joy:** "Pizza party maths" — share paper pizzas to build improper fractions.
+- **Objective:** "By the end, I can read improper fractions and mixed numbers from scales, number lines and measures (e.g. 7/4 kg, 2⅓ m) and explain which whole numbers they lie between." (UK NC Y5 fractions — improper fractions)
+- **Hook:** "The jug shows 5 quarter-litres of water. The recipe says 1¼ litres. Is that enough?"
+- **Key activity:** Retrieval (Year 3 met 7/4 = 1¾ with fraction circles). New step: read scales and rulers marked in halves, thirds, quarters and fifths beyond 1; record each reading both ways (9/4 kg = 2¼ kg); place improper fractions on a 0–3 number line by first finding the whole numbers (4/4, 8/4, 12/4).
+- **Check for understanding:** "A ribbon is 11/3 m long. Between which two whole metres is it, and how do you know without drawing?" → Between 3 and 4 m: 9/3 = 3 and 12/3 = 4, and 11/3 is between them (3⅔ m).
+- **Differentiation:** support: physical fraction circles and a jug marked in quarter-litres / stretch: place 11/6, 7/3 and 9/4 on one number line and order them.
+- **Materials:** fraction circles, measuring jugs marked in quarter-litres, number lines 0–3, rulers.
+- **Joy:** "Kitchen scale detectives" — read mystery ingredient masses as improper fractions and mixed numbers.
 
 ### Lesson 46 — Mixed numbers and converting both ways
 - **Duration:** 40 min
@@ -542,15 +542,15 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Materials:** fraction circles, fraction strips, number lines.
 - **Joy:** "Juice bar" — fill paper bottles with quarter-bottle cut-outs to match orders.
 
-### Lesson 47 — Comparing fractions with the same denominator or numerator
+### Lesson 47 — Comparing fractions using benchmarks (0, ½ and 1)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can compare fractions with the same denominator or the same numerator and explain why." (UK NC Y5 fractions — compare; CCSS 4.NF.2)
-- **Hook:** "Would you rather have 3/8 or 3/5 of a chocolate bar?"
-- **Key activity:** Same denominator: compare numerators (same-size parts). Same numerator: compare denominators (fewer parts = bigger parts). Prove with strips.
-- **Check for understanding:** "Without drawing, which is greater: 4/9 or 4/7? Explain." → 4/7, because sevenths are bigger than ninths and there are 4 of each.
-- **Differentiation:** support: fraction strips for every comparison. / stretch: order 5/6, 5/8, 5/12, 5/5 and explain.
-- **Materials:** fraction strips, chocolate-bar images divided into parts.
-- **Joy:** "Would you rather?" fraction debates with votes.
+- **Objective:** "By the end, I can compare fractions with different denominators by comparing each with ½ or 1, without finding a common denominator." (UK NC Y5 fractions — compare; CCSS 4.NF.2)
+- **Hook:** "Would you rather have 3/8 or 4/7 of a chocolate bar? Decide in 10 seconds — no drawing!"
+- **Key activity:** Retrieval (Year 3 compared same-numerator and same-denominator fractions). New step: benchmark reasoning with fraction strips on a 0–1 number line — 3/8 is less than ½ (4/8), 4/7 is more than ½ (3½/7); 7/8 and 9/10 are both one piece short of 1, and the smaller missing piece belongs to the bigger fraction.
+- **Check for understanding:** "Which is greater, 5/12 or 6/11? Explain using ½." → 6/11 — it is more than half (half of 11 is 5½) while 5/12 is less than half (half of 12 is 6).
+- **Differentiation:** support: fraction strips for every comparison, lined up against a ½ strip / stretch: order 5/6, 7/8, 3/4 and 11/12 by how far each is from 1 and explain.
+- **Materials:** fraction strips, 0–1 number lines with ½ marked, chocolate-bar images divided into parts.
+- **Joy:** "Would you rather?" fraction debates with votes — the winner must justify with a benchmark.
 
 ### Lesson 48 — Comparing and ordering fractions with related denominators
 - **Duration:** 40 min
@@ -1208,7 +1208,7 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Key activity:** Short assessment with a line graph, a two-way table and a timetable; partner marking.
 - **Check for understanding:** "From the timetable, which is the latest bus you can take to arrive by 09:00, and how long is the journey?" → Answer depends on the given timetable; child identifies the service and calculates duration correctly.
 - **Differentiation:** support: questions read aloud. / stretch: add a 'which graph would best show…' reasoning question.
-- **Materials:** assessment sheet.
+- **Materials:** assessment sheet, analogue clocks and time number lines, rulers.
 - **Joy:** Unlock a 'mission complete' certificate.
 
 **End-of-unit check:** Read a temperature at an intermediate time from a line graph; complete a two-way table with 3 missing values; calculate a journey 11:48 → 13:15 (1 h 27 min).
@@ -1347,7 +1347,7 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Key activity:** Mini-assessment; partner marking; fix-it/deepen-it.
 - **Check for understanding:** "Find 15% of 260 and explain your building blocks." → 10% = 26, 5% = 13, 15% = 39.
 - **Differentiation:** support: 10% blocks drawn. / stretch: find the original price after a 20% discount gave 48 (60).
-- **Materials:** assessment sheet.
+- **Materials:** assessment sheet, hundred squares, bar-model strips.
 - **Joy:** Stall manager badge.
 
 **End-of-unit check:** Write 35% as a fraction (7/20) and decimal (0.35); find 60% of 450 (270); decide which is greater, 0.3 or 28%, and explain.
@@ -1567,7 +1567,7 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 - **Key activity:** Mini-assessment with a travel theme; partner marking; fix-it/deepen-it.
 - **Check for understanding:** "A bag weighs 3.4 kg and its contents 1,850 g. Total in kg?" → 5.25 kg.
 - **Differentiation:** support: conversion chart provided. / stretch: multi-step with time zones.
-- **Materials:** assessment sheet.
+- **Materials:** assessment sheet, kitchen scales, measuring jugs, metre sticks, conversion charts.
 - **Joy:** Boarding-pass stamp for each section.
 
 **End-of-unit check:** Convert 3.07 km to m (3,070 m) and 450 ml to l (0.45 l); a train leaves 22:40 and arrives 01:15 — journey time (2 h 35 min); about how many cm is 12 inches (about 30 cm)?
@@ -1580,9 +1580,9 @@ Five lessons a week over 36 weeks gives 180 slots; the 10 spare slots are delibe
 
 **Key vocabulary:** angle, degree (°), vertex, arm, acute, right, obtuse, reflex, straight line, full turn, protractor, estimate, angles on a straight line, angles around a point, vertically opposite
 
-### Lesson 141 — Angles as turns
+### Lesson 141 — Angles as turns measured in degrees
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe angles as amounts of turn and know that a full turn is 360°." (UK NC Y5 geometry — angles; CCSS 4.MD.5)
+- **Objective:** "By the end, I can describe angles as amounts of turn measured in degrees and know that a full turn is 360° and a right angle 90°." (UK NC Y5 geometry — angles; CCSS 4.MD.5)
 - **Hook:** "Skateboarders talk about a '360' and a '180' — what do they mean?"
 - **Key activity:** Children turn their bodies quarter, half, three-quarter, full turns; link to 90°, 180°, 270°, 360°; compass directions; clock hands.
 - **Check for understanding:** "Why is a full turn 360° and not 100°?" → Degrees are a human convention (traditionally traced to ancient Babylonian astronomers); 360 is useful because it divides exactly by 2, 3, 4, 5, 6, 8, 9, 10 and 12.
