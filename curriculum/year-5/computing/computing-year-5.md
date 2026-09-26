@@ -12,25 +12,30 @@ The year balances the three strands of computing:
 
 - **Computer science:** pupils consolidate Scratch with ambitious game design (variables, lists,
   custom blocks, clones), program a **BBC micro:bit** with sensors, and write their **first Python
-  programs** (turtle graphics, loops, variables, input and selection). They learn how the **internet**
-  works (packets, addresses, routers) and meet encryption.
+  programs** (turtle graphics, loops, variables, input and selection). They look **inside the
+  computer**: its parts, and how numbers, text and pictures are all stored in **binary**. (How the
+  internet works was taught in Year 4 and is deepened in Year 6, with encryption, so it is not
+  repeated here.)
 - **Information technology:** spreadsheets move on to **formulas, sorting, filtering and charts** to
   answer real questions with data (linked to science and maths).
-- **Digital literacy and online safety:** evaluating **misinformation**, understanding what **AI**
-  tools can and cannot do, protecting **privacy**, and building healthy technology habits.
+- **Digital literacy and online safety:** spotting **advertising, influencer and sponsored content**
+  (building on Year 4's fact-checking), understanding what **AI** tools can and cannot do, protecting
+  **privacy**, and building healthy technology habits.
 
 Every programming unit follows **use → modify → create**: pupils read and run working code, change
 it, then design their own, with **debugging** taught as a skill, not a failure. Pupils plan
 algorithms on paper (flowcharts and pseudocode) before coding.
 
 **What this year assumes (from Year 4):** Scratch with sequence, repetition, selection (if/else) and
-simple variables; a first spreadsheet with SUM and a chart; searching effectively; the idea of a
-digital footprint.
+simple variables; how networks, packets and the web work; a first spreadsheet with SUM and a chart;
+searching effectively and checking whether information is true; AI chatbots' limits; the idea of a
+digital footprint and strong passwords.
 
 **What Year 6 relies on:** writing short Python programs with loops, variables, input and if/else;
-using sensors and outputs in physical computing; understanding how data travels across networks;
-using spreadsheet formulas; and critically evaluating online information — ready for functions,
-lists in Python, data structures and larger projects.
+using sensors and outputs in physical computing; understanding binary and how computers store data;
+using spreadsheet formulas; and critically evaluating online information and persuasive content — ready
+for deeper Python (strings, while loops, lists, functions), data processing, networks and security,
+and larger projects.
 
 ## Time budget
 
@@ -38,7 +43,7 @@ lists in Python, data structures and larger projects.
 
 | Unit | Title | Strand | Term | Lessons |
 |---|---|---|---|---|
-| 1 | How the internet works | Computer science (networks) | 1 | 5 (1–5) |
+| 1 | Inside the computer: binary and data | Computer science (systems and data) | 1 | 5 (1–5) |
 | 2 | Game design in Scratch | Computer science (programming) | 1 | 7 (6–12) |
 | 3 | Physical computing with the micro:bit | Computer science | 2 | 6 (13–18) |
 | 4 | Data detectives: spreadsheets | Information technology | 2 | 5 (19–23) |
@@ -48,63 +53,63 @@ lists in Python, data structures and larger projects.
 
 ---
 
-## Unit 1 — How the internet works
+## Unit 1 — Inside the computer: binary and data
 
-**Essential question:** What actually happens when I send a message or open a web page?
+**Essential question:** How can a machine that only understands 'on' and 'off' store numbers, words, pictures and music?
 
-**Key vocabulary:** network, internet, World Wide Web, router, server, client, packet, IP address, domain name, DNS, protocol, bandwidth, wired, wireless, encryption, cipher, key
+**Key vocabulary:** hardware, processor (CPU), memory, storage, input, output, bit, byte, binary, place value, denary (decimal), character code, ASCII, Unicode, pixel, resolution, RGB, file size, compression
 
-### Lesson 1 — Networks all around us
+### Lesson 1 — What's inside a computer?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what a network is and identify the parts of the school network." (UK NC KS2 computing — networks)
-- **Hook:** "How does a video uploaded in Seoul reach a phone in São Paulo in seconds?"
-- **Key activity:** Unplugged: pupils act as computers connected by string; send 'messages' along routes. Tour the school network with the IT lead (router, switch, access points, server). Distinguish the internet (the global network) from the World Wide Web (pages you visit on it), invented by Tim Berners-Lee at CERN in 1989.
-- **Check for understanding:** "Is the internet the same as the World Wide Web? Explain." → No: the internet is the global network of connected computers; the web is one service that runs on it (others include email and video calls).
-- **Differentiation:** support: label a simple network diagram / stretch: explain why a network with several routes is more reliable than one with a single route.
-- **Materials:** string, labels, network diagram, access to the school's network cabinet (with IT lead).
-- **Joy:** the human network game.
+- **Objective:** "By the end, I can name the main parts of a computer system and explain what each one does." (UK NC KS2 computing — understand computer systems)
+- **Hook:** An old computer or phone opened up safely by the teacher (or a photo of one): "Where does your game actually 'live' when you switch it off?"
+- **Key activity:** Identify input and output devices, the processor (CPU — follows instructions very fast), memory (RAM — the fast 'desk' used while working, emptied when switched off) and storage (keeps files when switched off); unplugged role-play of a computer: an 'input' pupil passes instructions to the 'CPU' pupil, who uses the 'memory' whiteboard and sends results to the 'output' pupil.
+- **Check for understanding:** "Your unsaved drawing disappears when the power cuts out, but your saved one doesn't. Why?" → Unsaved work is only in memory (RAM), which is emptied when the power goes; saved work is written to storage, which keeps it without power.
+- **Differentiation:** support: a labelled diagram of a computer system to complete / stretch: explain why a phone with more memory can run more apps at once.
+- **Materials:** an old computer or phone for teacher demonstration (unplugged, battery removed), picture cards of components, role-play cards. Safety: only the teacher handles opened devices.
+- **Joy:** the "human computer" role-play.
 
-### Lesson 2 — Packets: sending data in pieces
+### Lesson 2 — Binary: counting with on and off
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how data is split into packets and reassembled." (UK NC KS2 computing — networks)
-- **Hook:** "Send a picture across the room — but it has to be cut into pieces first."
-- **Key activity:** Unplugged: cut a picture into numbered 'packets' with 'to/from' addresses; pupils (routers) pass them by different routes; receivers reassemble using the numbers; simulate a lost packet and a resend.
-- **Check for understanding:** "Why are packets numbered?" → So they can be put back in the right order, because they may arrive by different routes and out of order.
-- **Differentiation:** support: fewer packets with clear numbers / stretch: explain what happens when a packet is lost and how the receiver knows.
-- **Materials:** pictures, scissors, envelopes labelled as packets, route cards.
-- **Joy:** the packet relay race.
+- **Objective:** "By the end, I can convert numbers between binary and denary up to 31 and explain why computers use binary." (UK NC KS2 computing — how computers work; maths link: place value)
+- **Hook:** "Five cards with dots on them. With them, I can show any number from 0 to 31 — using only face up or face down."
+- **Key activity:** CS Unplugged binary cards (16, 8, 4, 2, 1 dots): pupils show numbers by turning cards over (1 = face up, 0 = face down); link to place value (each place is worth double the one to its right); convert both ways; explain that a computer's switches are either on or off — two states, so base 2.
+- **Check for understanding:** "What number is 10110 in binary, and how do you know?" → 22: 16 + 4 + 2 (the places worth 16, 4 and 2 are 'on').
+- **Differentiation:** support: cards with dots to count / stretch: work out the largest number 8 bits (one byte) can show (255) and explain why.
+- **Materials:** binary cards (printed), mini-whiteboards, place-value chart.
+- **Joy:** "Binary birthdays" — show your age and birthday in binary with the cards.
 
-### Lesson 3 — Addresses: IP and DNS
+### Lesson 3 — Words as numbers: character codes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how IP addresses and domain names help data find the right computer." (UK NC KS2 computing — networks)
-- **Hook:** "Computers don't understand 'school.org' — they need numbers. So how does it work?"
-- **Key activity:** Compare IP addresses with postal addresses; model DNS as a phone book that turns names into numbers; trace the steps from typing a web address to seeing a page.
-- **Check for understanding:** "What is the job of DNS?" → It translates a domain name (like example.org) into the IP address a computer needs to find the server.
-- **Differentiation:** support: sequence cards for 'visiting a website' / stretch: explain why every device on the internet needs a unique address.
-- **Materials:** sequence cards, a 'DNS phone book' prop, diagrams.
-- **Joy:** "DNS detective" role-play.
+- **Objective:** "By the end, I can explain how text is stored as numbers using a character code and decode a binary message." (UK NC KS2 computing — how computers work)
+- **Hook:** "When you type the letter A, the computer stores a number. Which one — and how can it store every alphabet on Earth, and emojis too?"
+- **Key activity:** Letters as numbers (a simple 1–26 code, then ASCII, where 'A' is 65); decode a short message written in binary; learn that Unicode extends this to well over 100,000 characters, covering scripts from Arabic and Chinese to Devanagari, plus emojis; pupils encode their initials.
+- **Check for understanding:** "Why did computers need Unicode as well as the original ASCII code?" → ASCII only had room for 128 characters, enough for basic English but not for the world's writing systems; Unicode gives a number to characters from almost every script (and emojis).
+- **Differentiation:** support: a 1–26 letter code before binary / stretch: explain why capital and lowercase letters need different codes.
+- **Materials:** ASCII table (letters), binary cards, secret messages.
+- **Joy:** "Binary bracelets" — beads spelling your initials (two colours for 0 and 1).
 
-### Lesson 4 — Secret messages: encryption
+### Lesson 4 — Pictures as numbers: pixels and resolution
 - **Duration:** 40 min
-- **Objective:** "By the end, I can encrypt and decrypt messages with a Caesar cipher and explain why encryption matters online." (UK NC KS2 computing — networks and safety)
-- **Hook:** "Julius Caesar is said to have shifted letters to keep messages secret. Can you crack one?"
-- **Key activity:** Make cipher wheels; encrypt and decrypt with a shift key; try to crack a message without the key by trying all shifts; discuss how websites use far stronger encryption (the padlock in the browser).
-- **Check for understanding:** "Why is a Caesar cipher easy to crack, and why do real websites use much stronger encryption?" → There are only 25 possible shifts to try; real encryption uses keys with so many possibilities that guessing is practically impossible.
-- **Differentiation:** support: use a printed shift table / stretch: explain how letter frequency (E is the most common letter in English) helps crack a cipher.
-- **Materials:** card cipher wheels, split pins, secret messages.
-- **Joy:** class code-breaking competition.
+- **Objective:** "By the end, I can explain how images are stored as pixels with number codes for colour, and how resolution affects quality and file size." (UK NC KS2 computing — how computers work / digital media)
+- **Hook:** Zoom right into a photo until it becomes squares: "Every picture on a screen is a grid of numbers. Let's prove it."
+- **Key activity:** Unplugged pixel painting: colour a grid from a black-and-white code (1 = black, 0 = white), then a run-length code (e.g. '3 white, 2 black'); screens mix red, green and blue light (RGB) — each colour stored as three numbers; compare the same image at low and high resolution and their file sizes.
+- **Check for understanding:** "Why does a photo with more pixels usually look sharper but take up more storage?" → More pixels show finer detail, but each pixel is stored as numbers, so more pixels means more data.
+- **Differentiation:** support: an 8 × 8 black-and-white grid / stretch: use run-length coding and explain how it makes the file smaller (compression).
+- **Materials:** squared paper grids, pixel codes, a zoomable photo on screen.
+- **Joy:** "Pixel art decoder" — reveal a hidden picture from the numbers.
 
-### Lesson 5 — Unit 1 check: follow a message
+### Lesson 5 — Unit 1 check: everything is data
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the whole journey of a message across the internet." (UK NC KS2 computing — assessment)
-- **Hook:** "Tell the story of an email from our classroom to a partner school on another continent."
-- **Key activity:** Pupils create a comic strip or diagram showing a message's journey (packets, addresses, routers, servers, encryption); peer review for accuracy.
-- **Check for understanding:** "At which point is your message split into packets, and where is it put back together?" → Split by the sending computer; reassembled by the receiving computer.
-- **Differentiation:** support: a partly completed comic template / stretch: add what happens if a router fails.
-- **Materials:** comic templates, diagrams from the unit.
-- **Joy:** "Internet explainer" comics shared with a younger class.
+- **Objective:** "By the end, I can explain how numbers, text and images are all stored in binary and describe the parts of a computer system." (UK NC KS2 computing — assessment)
+- **Hook:** "Send a secret picture-and-word message to another group using only 0s and 1s."
+- **Key activity:** Groups encode a short word and a small pixel image in binary and pass it to another group to decode; short quiz on components, binary conversion and character codes; link forward to how this data travels across networks (Year 4 and Year 6).
+- **Check for understanding:** "If the whole message is just 0s and 1s, how does the computer know which bits are a letter and which are part of a picture?" → The file or program says how to interpret the bits — the same bits could mean a number, a letter or a colour depending on the agreed code.
+- **Differentiation:** support: a partly encoded message to complete / stretch: estimate how many bits your message needs and suggest how to shrink it.
+- **Materials:** binary cards, grids, ASCII tables, quiz sheets.
+- **Joy:** the code-and-decode message swap.
 
-**End-of-unit check:** Pupil explains the difference between the internet and the web, describes packet switching and addressing, and encrypts/decrypts a Caesar cipher.
+**End-of-unit check:** Pupil names the parts of a computer system and their jobs, converts between binary and denary up to 31, decodes a binary text message, and explains how images are stored as pixels and why resolution affects file size.
 
 ---
 
@@ -412,23 +417,23 @@ lists in Python, data structures and larger projects.
 
 **Essential question:** How can I be a wise, safe and kind digital citizen when not everything online is true or private?
 
-**Key vocabulary:** misinformation, disinformation, fact-check, source, bias, clickbait, deepfake, artificial intelligence (AI), algorithm, training data, privacy, personal information, password, two-factor authentication, screen time, wellbeing
+**Key vocabulary:** information, opinion, advertising, sponsored, influencer, in-app purchase, persuasive design, source, bias, artificial intelligence (AI), algorithm, training data, privacy, personal information, password, two-factor authentication, screen time, wellbeing
 
-### Lesson 32 — Is it true? Checking information online
+### Lesson 32 — Who made this and why? Adverts, influencers and sponsored content
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use strategies to check whether online information is reliable." (UK NC KS2 computing — digital literacy)
-- **Hook:** A viral image of a "shark swimming down a flooded motorway". "Real or fake? How could we check?"
-- **Key activity:** Teach lateral reading (check what other reliable sources say), reverse image search, checking the date and author, and emotional warning signs (if it makes you very angry or excited, pause). Evaluate a set of real and fake examples.
-- **Check for understanding:** "Name two ways to check whether a surprising image is real." → e.g. reverse image search, see whether trusted news sources report it, check the date and original source.
-- **Differentiation:** support: a fact-checking checklist / stretch: explain the difference between misinformation and disinformation.
-- **Materials:** example posts and images (teacher-curated), fact-checking checklist, computers.
-- **Joy:** "Fake or fact?" game show.
+- **Objective:** "By the end, I can recognise when online content is trying to sell or persuade, including influencer posts and in-game offers, and explain the techniques used." (UK NC KS2 computing — digital literacy)
+- **Hook:** "A favourite video-maker says she 'just loves' these trainers. Is she telling you her opinion — or being paid?"
+- **Key activity:** Quick retrieval of Year 4's fact-checking strategies (lateral reading, checking the source). New: sort examples into information, opinion and advertising; spot labels such as 'ad', 'sponsored' and 'paid partnership'; persuasive techniques (limited-time offers, 'everyone has one', free-to-play games with loot boxes and in-app purchases); how targeted adverts use your data.
+- **Check for understanding:** "Why do some countries require influencers to label paid posts with 'ad' or 'sponsored', and how does knowing change the way you read the post?" → Viewers have a right to know when someone is being paid to promote something; knowing it's an advert, you judge the claims more carefully because the person benefits if you buy.
+- **Differentiation:** support: an 'information, opinion or advert?' sorting mat with picture examples / stretch: explain why free games and apps still make money, and what the player 'pays' with.
+- **Materials:** teacher-curated examples of posts, adverts and game offers (screenshots), sorting mats.
+- **Joy:** "Advert detectives" — design a spoof advert using every trick, then 'unmask' a partner's.
 
 ### Lesson 33 — What is AI and how does it learn?
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain in simple terms how AI systems learn from data and why they can make mistakes." (UK NC KS2 computing — digital literacy)
 - **Hook:** "How does a phone recognise a cat in a photo? Nobody wrote 'cat' rules."
-- **Key activity:** Unplugged: train a 'human classifier' with example cards (e.g. apples vs not-apples) and test it on tricky cases; try a child-safe, teacher-led machine-learning demo (e.g. a teachable-machine style tool); discuss bias from limited training data and that AI chatbots can produce confident but wrong answers.
+- **Key activity:** Retrieve Year 4's lesson on AI chatbots making mistakes. New: unplugged, train a 'human classifier' with example cards (e.g. apples vs not-apples) and test it on tricky cases; discuss how limited training data leads to mistakes and unfairness. (In Year 6 pupils train and test their own model on a computer.)
 - **Check for understanding:** "Why might an AI trained only on photos of red apples fail to recognise a green apple?" → It learns from the examples it's given; if the data doesn't include green apples, it hasn't learned that they're apples too.
 - **Differentiation:** support: guided card-sort training game / stretch: suggest how to make training data fairer and more complete.
 - **Materials:** picture cards, a teacher-led machine-learning demonstration tool, discussion prompts.
@@ -454,11 +459,11 @@ lists in Python, data structures and larger projects.
 - **Materials:** tech-plan templates, review quiz.
 - **Joy:** "Digital citizen" certificates.
 
-**End-of-unit check:** Pupil fact-checks an online claim with two strategies, explains how AI learns from data and why it can be wrong, and describes how to protect personal information and get help.
+**End-of-unit check:** Pupil identifies advertising and sponsored content and explains one persuasive technique, explains how AI learns from data and why it can be wrong, and describes how to protect personal information and get help.
 
 ## Books & resources
 
-- ***Hello Ruby: Adventures in Coding*** by Linda Liukas — a playful introduction to computational thinking, good for support pupils and unplugged activities.
+- ***Hello Ruby: Adventures in Coding*** by Linda Liukas — a playful introduction to computational thinking, good for support pupils and unplugged activities; its sequel ***Hello Ruby: Journey Inside the Computer*** suits Unit 1.
 - ***Coding Projects in Python*** (DK) by Carol Vorderman and others — clear, visual beginner Python projects that match Unit 5.
 - ***Coding Games in Scratch*** by Jon Woodcock (DK) — step-by-step game projects that extend Unit 2.
 - ***Ada Lovelace, Poet of Science*** by Diane Stanley — picture-book biography of the first person to publish an algorithm for a computing machine.
@@ -468,19 +473,21 @@ lists in Python, data structures and larger projects.
 
 ## End-of-year mastery checks
 
-1. **Networks** — explains how data travels across the internet in packets using addresses, and the difference between the internet and the web.
-2. **Encryption** — encrypts and decrypts a simple cipher and explains why strong encryption protects us online.
+1. **Computer systems** — names the parts of a computer system and explains the difference between memory and storage.
+2. **Binary and data** — converts between binary and denary (to 31), and explains how text and images are stored as numbers.
 3. **Scratch** — builds a game using variables, selection, repetition, lists or clones and a custom block.
 4. **Physical computing** — programs a micro:bit using sensors, variables and conditions to solve a problem.
 5. **Python** — writes a short program with a loop, variable, input and if/else, and fixes errors by reading error messages.
 6. **Data** — uses spreadsheet formulas, sorting, filtering and charts to answer a question.
-7. **Digital literacy** — evaluates online information, explains how AI learns from data and its limits.
+7. **Digital literacy** — recognises advertising and sponsored content, explains how AI learns from data and its limits.
 8. **Safety** — protects personal information and knows how to report concerns and get help.
 
 ## Teacher guidance
 
 **Common misconceptions to watch for**
-- *"The internet and the web are the same."*
+- *"Computers store words and pictures, not numbers."* Everything is stored as binary numbers; codes decide what they mean.
+- *"Memory and storage are the same thing."* Memory (RAM) is emptied when the power goes; storage keeps files.
+- *"If someone I follow recommends it, it's their honest opinion."* It may be a paid advert.
 - *"Computers are clever; they understand what I mean."* Computers follow instructions exactly — syntax matters.
 - *"= means equals."* In Python, = assigns; == compares.
 - *"A variable is the thing itself."* It's a named store whose value can change.
@@ -496,6 +503,6 @@ lists in Python, data structures and larger projects.
 - AI tools: use teacher-led demonstrations; do not require pupils to create accounts on services with age restrictions.
 
 **Vertical connections**
-- *From Year 4:* Scratch selection and variables, first spreadsheets, searching, digital footprint.
-- *Into Year 6:* Python functions and lists, larger text-based projects, data structures, more complex physical computing, deeper study of networks, data and AI ethics.
+- *From Year 4:* Scratch selection and variables, how the internet and web work, first spreadsheets, searching and fact-checking, AI chatbots, digital footprint and passwords.
+- *Into Year 6:* Python strings, while loops, nested loops, lists and functions, larger text-based projects, databases and CSV analysis, networks, encryption and cybersecurity, training a machine-learning model and AI ethics.
 - *Across subjects:* maths (angles in turtle graphics, averages in spreadsheets, coordinates), science (sensors, data logging, pulse data), art (turtle art, digital design), English (evaluating sources), life skills (wellbeing and online behaviour).

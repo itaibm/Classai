@@ -8,21 +8,24 @@
 
 ## Year overview
 
-In the graduation year children move **from blocks to text**: they write real programs in **Python**,
-using variables, selection, iteration, lists and functions, and learn to test and debug
-systematically. Alongside programming they learn how **data** becomes information (spreadsheets,
+In the graduation year children become **confident text-based programmers**: building on their first
+Python in Year 5, they write real programs using variables, data types, strings, selection, `while`
+and nested loops, lists and functions, and learn to test and debug systematically. Alongside programming they learn how **data** becomes information (spreadsheets,
 databases and a first data analysis in Python), how **networks and the internet** actually work
 (packets, IP addresses, DNS, encryption) and how to protect themselves (**cybersecurity**). A short
 unit on **artificial intelligence** asks how machines "learn" and where bias comes from. The year
 ends with a **capstone program** that serves the cross-subject graduation project.
 
-**What we assume from Year 5 (ages 10–11):** confident block-based programming (Scratch or similar)
-with sequence, selection, repetition and variables; decomposition and debugging of a complete
-program; physical computing (inputs and outputs, e.g. micro:bit); a first look at text-based code and
-syntax errors; a data investigation in a spreadsheet; digital footprint, reputation and spotting
-misinformation. **What Year 6 adds:** Python syntax and data types, nested selection and loops,
-lists, functions with parameters and return values, structured testing; databases and queries; the
-layers of the internet; encryption and security; machine learning and bias. **What secondary relies
+**What we assume from Years 4 and 5:** Scratch games with variables, lists, custom blocks and clones;
+physical computing with the micro:bit (sensors, conditions, radio); **first Python** — `print`, turtle
+graphics, `for` loops with `range`, variables, `int(input())`, `if/elif/else` and reading error
+messages (Year 5 Unit 5); computer systems, binary and how text and images are stored (Year 5);
+networks, packets and the web (Year 4); spreadsheets with formulas, sorting, filtering and charts;
+fact-checking, advertising and sponsored content, and an unplugged introduction to how AI learns.
+**What Year 6 adds:** data types and casting, operators including `//` and `%`, strings and f-strings,
+Boolean logic, `while` loops and nested loops, lists, functions with parameters and return values,
+structured testing; spreadsheet `IF`/`COUNTIF`, databases and queries, CSV analysis in Python; LAN/WAN,
+IP addresses, DNS and HTTPS; encryption and cybersecurity; training a machine-learning model and bias. **What secondary relies
 on:** writing, reading and debugging short Python programs independently; understanding how data and
 networks work; safe, critical and ethical use of technology.
 
@@ -52,14 +55,14 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 
 **Key vocabulary:** programming language, Python, syntax, statement, function, `print()`, string, integer, float, Boolean, variable, assignment, `input()`, casting (`int()`, `str()`), operator, expression, comment, syntax error, runtime error, logic error, debugging
 
-### Lesson 1 — From blocks to text: why Python?
+### Lesson 1 — Python restart: what do you remember?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can write and run a Python program that prints text, and explain how a text language differs from block coding." (UK KS3 Computing — text-based language; CSTA 2-AP-11)
-- **Hook:** Show the same program in Scratch and in Python side by side: "Same idea, different language. Which one do professional programmers use, and why?"
-- **Key activity:** Open the editor; `print("Hello, world!")`; print several lines; add comments with `#`; deliberately make a mistake (missing quote or bracket) and read the error message; compare with blocks (precision, typing, speed, power).
+- **Objective:** "By the end, I can show what I remember from Year 5 Python by predicting, running and fixing short programs, and add clear comments." (UK KS3 Computing — text-based language; CSTA 2-AP-11)
+- **Hook:** "Here is a program you could have written in Year 5. Predict exactly what it prints — then run it."
+- **Key activity:** PRIMM diagnostic on Year 5 Python (a `for` loop, an `int(input())`, an `if/elif/else`): predict, run, investigate; fix three planted errors (missing quote or bracket, bad indentation, missing colon) by reading the error messages; add comments with `#`; teacher notes who needs the Year 5 support path.
 - **Check for understanding:** "`print(Hello)` gives an error but `print("Hello")` works. Why?" → Without quotation marks, Python thinks `Hello` is a variable name that doesn't exist; quotes make it a string (text).
-- **Differentiation:** support: copy-and-modify code from a printed card / stretch: print a multi-line ASCII-art picture using several `print` statements
-- **Materials:** laptops with Thonny or a browser Python editor, printed code cards, a Scratch-vs-Python comparison sheet
+- **Differentiation:** support: copy-and-modify code from a printed card, with Year 5 examples on the wall / stretch: print a multi-line ASCII-art picture using a loop
+- **Materials:** laptops with Thonny or a browser Python editor, printed diagnostic programs, Year 5 Python reference cards
 - **Joy:** ASCII-art self-portrait
 
 ### Lesson 2 — Variables and assignment
@@ -140,15 +143,15 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 
 **Essential question:** How can programs make decisions and repeat actions efficiently?
 
-**Key vocabulary:** condition, Boolean, comparison operator (`== != < > <= >=`), `if`, `elif`, `else`, indentation, logical operator (`and`, `or`, `not`), iteration, `while` loop, `for` loop, `range()`, counter, infinite loop, nested, random module, turtle
+**Key vocabulary:** condition, Boolean, `True`, `False`, comparison operator (`== != < > <= >=`), `if`, `elif`, `else`, indentation, logical operator (`and`, `or`, `not`), iteration, `while` loop, `for` loop, `range()`, step, counter, infinite loop, nested loop, random module
 
-### Lesson 9 — Selection: if and else
+### Lesson 9 — Boolean values and comparison
 - **Duration:** 40 min
-- **Objective:** "By the end, I can write `if/else` statements with comparison operators and correct indentation." (UK KS3 Computing — selection; CSTA 2-AP-12)
-- **Hook:** "A roller-coaster ride checks your height. Can we code the gatekeeper?"
-- **Key activity:** Flowchart first (decision diamond); `if height >= 120:` … `else:` …; `==` vs `=`; indentation matters in Python; build age and height checkers.
-- **Check for understanding:** "What is the difference between `=` and `==` in Python?" → `=` assigns a value to a variable; `==` compares two values and gives True or False.
-- **Differentiation:** support: fill in the condition in a given structure / stretch: validate that the input is a sensible number before checking
+- **Objective:** "By the end, I can use all six comparison operators, store the result of a comparison as a Boolean and use it in an `if` statement." (UK KS3 Computing — selection and Boolean logic; CSTA 2-AP-12)
+- **Hook:** "A roller-coaster ride checks your height. The answer is just True or False — so can we store it?"
+- **Key activity:** Quick retrieval of Year 5 `if/elif/else` and `=` vs `==`. New: every comparison produces a Boolean (`print(5 > 3)` shows `True`); all six operators (`== != < > <= >=`); storing a condition (`is_tall = height >= 120`) and using it (`if is_tall:`); flowchart first; build a ride gatekeeper that checks height and age.
+- **Check for understanding:** "After `height = 118` and `is_tall = height >= 120`, what is stored in `is_tall`, and what will `if is_tall:` do?" → `False` (a Boolean), so the code inside the `if` is skipped (the `else`, if there is one, runs instead).
+- **Differentiation:** support: fill in the condition in a given structure, with an operator reference card / stretch: validate that the input is a sensible number before checking
 - **Materials:** flowchart cards, laptops
 - **Joy:** "Roller-coaster gatekeeper" program
 
@@ -176,21 +179,21 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use `for` loops with `range()` to repeat code a set number of times and generate sequences." (UK KS3 Computing — iteration; CSTA 2-AP-12; Maths link)
 - **Hook:** "Print the 7 times table up to 7 × 12 — with three lines of code."
-- **Key activity:** `for i in range(1, 13): print(i, "x 7 =", i * 7)`; `range(start, stop, step)` (stop is not included); count-controlled vs condition-controlled loops; generate sequences from Maths (nth term).
+- **Key activity:** Retrieve Year 5's `for i in range(4)`. New: `for i in range(1, 13): print(i, "x 7 =", i * 7)`; `range(start, stop, step)` (stop is not included); count-controlled (`for`) vs condition-controlled (`while`) loops; generate sequences from Maths (nth term).
 - **Check for understanding:** "What numbers does `range(2, 10, 3)` produce?" → 2, 5, 8 (it stops before 10).
 - **Differentiation:** support: modify a working loop / stretch: print the first 20 terms of the sequence with nth term 4n + 3, and a times-table grid with nested loops
 - **Materials:** laptops, range cards
 - **Joy:** "Times-table machine" for a younger sibling
 
-### Lesson 13 — Turtle graphics: loops make art
+### Lesson 13 — Nested loops: grids and patterns
 - **Duration:** 45 min
-- **Objective:** "By the end, I can use the `turtle` module and loops to draw regular polygons and patterns, linking to exterior angles." (UK KS3 Computing; CSTA 2-AP-12; Maths link)
-- **Hook:** "Can you draw a perfect star or spirograph pattern with a few lines of code?"
-- **Key activity:** `forward()`, `right()`, `color()`; draw a square with a loop; generalise to any regular polygon (turn 360 ÷ n — Maths exterior angles); spirals by changing the distance each loop.
-- **Check for understanding:** "Why does the turtle turn 72° to draw a regular pentagon?" → The exterior angles of any polygon add up to 360°, and 360 ÷ 5 = 72.
-- **Differentiation:** support: a square and a triangle with templates / stretch: a function-free polygon program that asks the user for the number of sides
-- **Materials:** laptops with turtle support
-- **Joy:** "Code art gallery"
+- **Objective:** "By the end, I can write and trace nested loops to print grids and patterns, and predict how many times the inner code runs." (UK KS3 Computing; CSTA 2-AP-12; Maths link)
+- **Hook:** "Year 5 drew polygons with one loop. How would you print a whole times-table square — every row and every column?"
+- **Key activity:** Trace a nested loop on paper (`for row in range(3):` / `for col in range(4):` / `print(row, col)`); print a multiplication grid using `end=" "` to stay on one line; print star patterns (a rectangle, then a right-angled triangle where the inner range depends on the outer variable); optional turtle extension: a ring of polygons using a loop inside a loop.
+- **Check for understanding:** "How many times does `print` run in `for i in range(3):` with `for j in range(4):` inside it, and why?" → 12 times: the inner loop runs 4 times for each of the 3 outer loops (3 × 4).
+- **Differentiation:** support: trace a 2 × 2 nested loop with a filled-in table / stretch: print a triangle of stars whose height the user chooses, and a multiplication grid with aligned columns using f-strings
+- **Materials:** laptops, trace-table sheets, squared paper
+- **Joy:** "Pattern printer" — the class's most impressive text pattern
 
 ### Lesson 14 — Combining selection and iteration: a quiz
 - **Duration:** 45 min
@@ -365,8 +368,8 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 ### Lesson 28 — Packets and IP addresses (unplugged)
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain how data is split into packets, addressed with IP addresses and reassembled." (UK KS3 Computing — the internet; CSTA 2-NI-04)
-- **Hook:** "Send a whole story to the other side of the room — but each messenger can carry only five words."
-- **Key activity:** Unplugged packet-switching game: split a message into numbered packets with destination and source addresses; "routers" (children) forward packets by different routes; some arrive out of order and are reassembled; discuss lost packets and resending; `ping` or `traceroute` demonstration.
+- **Hook:** "In Year 4 you played the packet game. Today, let's watch real packets travel — and count the countries they pass through."
+- **Key activity:** Quick unplugged retrieval of packet switching (numbered packets, different routes, reassembly — Year 4). New: IPv4 addresses (four numbers 0–255 — link to Year 5 binary: each is one byte); a teacher-led `ping` and `traceroute` to a distant server, counting hops and looking up where routers are; how a protocol (TCP) checks every packet arrived and asks for missing ones to be resent.
 - **Check for understanding:** "Why are packets numbered?" → They may take different routes and arrive out of order; numbers let the receiving computer put them back together correctly (and ask for missing ones).
 - **Differentiation:** support: a guided role card as a router / stretch: explain why sending packets by different routes makes the internet more reliable
 - **Materials:** envelopes or sticky notes, address labels, a laptop for `traceroute`
@@ -456,7 +459,7 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 - **Duration:** 45 min
 - **Objective:** "By the end, I can test my program with its users, improve it from feedback, present it and reflect on my growth as a programmer this year." (UK KS3 Computing; CSTA 2-AP-15, 2-AP-19)
 - **Hook:** "Your users are waiting."
-- **Key activity:** User testing (younger children, family or capstone partners); one improvement from feedback; add comments and a short user guide; present at the graduation exhibition; reflection comparing Lesson 1's "Hello, world!" with the capstone program.
+- **Key activity:** User testing (younger children, family or capstone partners); one improvement from feedback; add comments and a short user guide; present at the graduation exhibition; reflection comparing the Lesson 1 diagnostic program with the capstone program.
 - **Check for understanding:** "What did user feedback change in your program, and why?" → A specific change based on what a user found confusing or wanted.
 - **Differentiation:** support: a presentation frame / stretch: publish the program (e.g. on a class page) with documentation
 - **Materials:** laptops, feedback forms, exhibition space
@@ -496,5 +499,5 @@ code on paper, role-plays) as well as screen work. One lesson a week, 40–45 mi
 - **Screen-time balance and wellbeing:** at least a third of each lesson is unplugged thinking, discussion or tracing; eye breaks; link to PE and Health (sleep and screens).
 - **Online safety and safeguarding:** supervised internet use; age limits for AI and social tools respected; no personal data entered into online tools; clear reporting routes if something worrying appears.
 - **Differentiation.** Support means worked examples, partly completed programs (Parsons problems — reorder lines of code), and templates; stretch means open specifications, extra features (validation, files, efficiency) and explaining design choices — not racing ahead to new syntax.
-- **Vertical alignment.** Year 5 secured block programming, physical computing, a first look at text-based code and a spreadsheet investigation; Year 6 establishes Python fundamentals, data processing, networks, security and AI literacy. Secondary computing (UK Year 8 / US Grade 7 / MYP 2) builds on these to dictionaries, file handling, algorithms (searching and sorting), binary and computer architecture.
+- **Vertical alignment.** Year 4 taught networks, packets and the web; Year 5 secured block programming, physical computing, first Python (turtle, `for`, input, `if/elif/else`), binary and data representation, and a spreadsheet investigation. Year 6 retrieves these briefly and establishes Python fundamentals, data processing, networks, security and AI literacy. Secondary computing (UK Year 8 / US Grade 7 / MYP 2) builds on these to dictionaries, file handling, algorithms (searching and sorting), binary and computer architecture.
 - **Cross-curricular links:** Maths (operators, sequences, polygons and exterior angles, statistics, prime numbers), Science (data from investigations), Geography (country data, GIS, undersea cables), English (research, evaluating sources, AI and misinformation), Art (turtle art, digital design), Life Skills (the graduation capstone).

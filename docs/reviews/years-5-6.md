@@ -342,3 +342,40 @@ games recur with tactics deepening; swimming recurs as a practical skill.
 Real and appropriate: Taylor *Celebrate Your Body*, Natterson *Guy Stuff*, Schaefer *The Care and
 Keeping of You*, *Hair Love*; Humphreys *The Boy Who Biked the World*; RNLI, Youth Sport Trust, WHO 2020
 guidelines, Red Cross/St John, British Orienteering, IPC. No changes.
+
+---
+
+## Computing
+
+### Code correctness
+Every Python example and expected answer was run: `range(2, 10, 3)` → 2, 5, 8; `"3" * 4` → `3333`;
+the trace 5 → 8 → 16; `17 // 5`, `17 % 5` → 3, 2; the one-line 7-times-table loop; string indexing,
+`len`, slicing `[::-1]`; `animals[2]` → `"owl"`; the rectangle function; nested-loop count 3 × 4 = 12;
+binary 10110 → 22, `chr(65)` → `A`. Turtle angles (triangle 120°, pentagon 72°, 360 ÷ n) and the
+guessing-game bound (2⁷ = 128 ≥ 100 → 7 guesses) are correct. Spreadsheet `IF(C4>100,…)` with C4 = 100 →
+"Low" is correct. No errors found in the code.
+
+### Repeats found
+- **Networks/packets three times:** Y4 Unit 1 (network, packets, web), Y5 Unit 1 (network, packets, IP/DNS, Caesar), Y6 Unit 5 (network, packets/IP, DNS/HTTPS, Caesar).
+- **Python re-taught from zero in Y6:** Y6 L1 "From blocks to text", L9 `if/else` with the same `=` vs `==` check as Y5 L28, L12 `for`/`range`, L13 turtle polygons with the same exterior-angle check as Y5 L25–26. Y6's overview assumed only "a first look at text-based code".
+- Y5 L32 "Is it true?" repeated Y4 L29 "Is it true?".
+
+### Changes
+**Year 5:** Unit 1 networks → **Inside the computer: binary and data** (components, memory vs storage;
+binary cards to 31 and a byte = 255; ASCII and Unicode; pixels, RGB, resolution and run-length
+compression; encode-and-decode check) — a topic neither Y4 nor Y6 teaches and which Y6 names as a
+secondary prerequisite. L32 → **adverts, influencers and sponsored content** (retrieves Y4 fact-checking).
+L33 AI now retrieves Y4 and stays unplugged (Y6 trains a real model). Overview, mastery checks,
+misconceptions and vertical notes updated; added Liukas's *Hello Ruby: Journey Inside the Computer*.
+
+**Year 6:** overview rewritten to state exactly what Y4–Y5 taught; L1 → **Python restart diagnostic**
+(PRIMM on Y5-style code, planted errors); L9 → **Boolean values and all six comparison operators**
+(new check on storing a Boolean); L12 retrieves Y5 `for`; L13 turtle → **nested loops: grids and
+patterns** (new trace/count check); L28 packets → retrieval plus **IPv4 as four bytes (binary link),
+`ping`/`traceroute` hops and TCP resending**; vocabulary, vertical note and L35 reflection updated.
+
+### Books
+Verified: Liukas *Hello Ruby*; DK *Coding Projects in Python* and *Coding Games in Scratch*/*in Python*;
+Stanley *Ada Lovelace, Poet of Science*; Wallmark *Grace Hopper: Queen of Computer Code*; Briggs
+*Python for Kids*; Raspberry Pi Foundation, NCCE, CS Unplugged, Thonny, Teachable Machine,
+submarinecablemap.com, BBC Bitesize, *Hello World*. No removals.
