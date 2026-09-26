@@ -86,7 +86,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 ### Lesson 5 — Fluency: tables audit (2, 3, 4, 5, 8, 10)
 - **Duration:** 40 min
 - **Objective:** "By the end, I can recall the Year 2 tables and their division facts and find which facts I still need." (UK NC Y3 Nmd; CCSS 3.OA.7)
-- **Hook:** "There are 60 facts in these six tables — but only 21 of them are really new if you know the tricks. Let's find out which ones you own."
+- **Hook:** "These six tables hold 60 facts up to × 10 — but every fact has a turn-around partner, so you need to learn far fewer than 60. Let's find out which ones you already own."
 - **Key activity:** Two-minute untimed recall grid of 2, 3, 4, 5, 8, 10 facts; children colour green (instant), amber (worked out), red (don't know). Teacher models turning an amber fact into a derived fact (8 × 7 = double 4 × 7). Children make a personal 'fact target' card.
 - **Check for understanding:** "You forgot 4 × 8. Show two ways you could work it out from facts you know." → double 4 × 4 (16 → 32); or 8 × 4 = 4 × 8 by commutativity; or 5 × 8 − 8 = 32
 - **Differentiation:** support: use an arrays card or counters to rebuild any red fact before recording it / stretch: explain why every fact in the 4 table is double the 2 table and every 8 fact double the 4
@@ -268,7 +268,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Objective:** "By the end, I can subtract 4-digit numbers exchanging from the next column when needed." (UK NC Y4 Nas; CCSS 4.NBT.4)
 - **Hook:** "Can you take 8 ones from 3 ones? What can we borrow from the neighbours?"
 - **Key activity:** With counters, exchange 1 ten for 10 ones, then subtract. Record by crossing out and writing the new values. Extend to exchanges in two columns. Children say, "I can't take 8 from 3, so I exchange one ten for ten ones."
-- **Check for understanding:** "Sam did 5,432 − 1,718 by taking the smaller digit from the bigger in each column and got 4,286. Explain the error." → he did 8 − 2 instead of exchanging; correct answer 3,714
+- **Check for understanding:** "Sam did 5,432 − 1,718 by taking the smaller digit from the bigger in each column and got 4,326. Explain the error." → in the ones and hundreds he took the top digit from the bottom (8 − 2, 7 − 4) instead of exchanging; correct answer 3,714
 - **Differentiation:** support: counters with every exchange physically made / stretch: subtractions with exchanges in three columns
 - **Materials:** place-value counters, squared paper
 - **Joy:** "Error doctor": children diagnose and fix the 'patient' calculations
@@ -278,7 +278,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Objective:** "By the end, I can subtract from numbers with zeros such as 4,000 or 6,005." (UK NC Y4 Nas)
 - **Hook:** "4,000 − 1 = ? Easy. So why is 4,000 − 1,357 so tricky on paper?"
 - **Key activity:** Model the chain exchange with counters (1 thousand → 10 hundreds → 1 hundred to 10 tens → 1 ten to 10 ones). Compare with a mental strategy: 4,000 − 1,357 = 3,999 − 1,356 = 2,643 (subtract 1 from both).
-- **Check for understanding:** "Show two ways to calculate 5,000 − 2,468 and explain which you prefer." → 2,532 — by chain exchange or by 4,999 − 2,467 + 1
+- **Check for understanding:** "Show two ways to calculate 5,000 − 2,468 and explain which you prefer." → 2,532 — by chain exchange, or by taking 1 from both numbers: 4,999 − 2,467 = 2,532 (no exchanges needed)
 - **Differentiation:** support: start with 1,000 − 368 using counters / stretch: explain why taking 1 from both numbers keeps the difference the same, using a bar model
 - **Materials:** place-value counters, bar strips, number lines
 - **Joy:** "Zero trap" challenge cards with a secret 'easy way' reveal
@@ -593,31 +593,31 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Materials:** ribbon, metre sticks, bar strips
 - **Joy:** "Ribbon relay": measure and join ribbons to hit a target length
 
-### Lesson 53 — Perimeter: measure around
+### Lesson 53 — Perimeter: measure around (retrieval and mixed units)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can measure the perimeter of shapes and explain what perimeter means." (UK NC Y4 Mm; CCSS 3.MD.8)
-- **Hook:** "An ant walks all the way around this book. How far does it walk?"
-- **Key activity:** Run string around shapes then measure it; measure sides with rulers and add; walk the perimeter of the playground.
+- **Objective:** "By the end, I can measure perimeters in mm, cm and m, give the answer in one unit and explain what perimeter means." (UK NC Y4 Mm; CCSS 3.MD.8)
+- **Hook:** "An ant walks all the way around this book. How far does it walk — in cm, and in mm?"
+- **Key activity:** Quick retrieval of Year 2 perimeter (string round a shape, then add the sides). New step: measure to the nearest mm, record sides in mixed units (e.g. 12 cm 4 mm, 85 mm), convert to one unit before adding, and walk and measure the playground perimeter in metres.
 - **Check for understanding:** "Is the perimeter the space inside or the distance around? How do you know?" → the distance around the edge — it's measured in units of length
 - **Differentiation:** support: shapes on cm-squared paper so sides can be counted / stretch: find perimeters of irregular classroom objects
 - **Materials:** string, rulers, squared paper, cut-out shapes
 - **Joy:** "Ant's journey": a toy ant marched around the edge of desks
 
-### Lesson 54 — Perimeter of rectangles
+### Lesson 54 — Perimeter of rectangles: working backwards
 - **Duration:** 40 min
-- **Objective:** "By the end, I can calculate the perimeter of rectangles efficiently." (UK NC Y4 Mm)
-- **Hook:** "Is there a shortcut for rectangles?"
-- **Key activity:** Label length and width; show 2 × length + 2 × width, and (length + width) × 2. Squares: 4 × side.
-- **Check for understanding:** "Why can we multiply the length and width by 2 in a rectangle but not in any shape?" → a rectangle has two pairs of equal sides; irregular shapes don't
-- **Differentiation:** support: label all four sides before adding / stretch: find missing side lengths from a given perimeter
+- **Objective:** "By the end, I can calculate the perimeter of rectangles efficiently and find a missing side from the perimeter." (UK NC Y4 Mm)
+- **Hook:** "The fence is 26 m long and the pen is 8 m long. How wide is it?"
+- **Key activity:** Retrieve 2 × length + 2 × width and (length + width) × 2 with geoboard rectangles; squares: 4 × side. New step: work backwards with a bar model — halve the perimeter to get length + width, then subtract the known side (26 ÷ 2 = 13, 13 − 8 = 5 m).
+- **Check for understanding:** "A rectangle has a perimeter of 30 cm and a length of 9 cm. Nadia says the width is 21 cm. Which is wrong and why?" → 21 cm is wrong: she subtracted 9 from the whole perimeter, but the perimeter has two lengths and two widths — 30 ÷ 2 = 15, 15 − 9 = 6 cm
+- **Differentiation:** support: label all four sides on a geoboard rectangle before adding / stretch: find every whole-number rectangle with perimeter 24 cm and explain how you know you have them all
 - **Materials:** rectangles on squared paper, rulers
 - **Joy:** "Fence the farm": plan fences for animal pens
 
 ### Lesson 55 — Perimeter of rectilinear shapes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can find the perimeter of rectilinear shapes, including missing sides." (UK NC Y4 Mm)
+- **Objective:** "By the end, I can find the perimeter of rectilinear shapes with two or more missing sides, in cm or m." (UK NC Y4 Mm)
 - **Hook:** "An L-shaped garden has two sides with no numbers. Can we still find its perimeter?"
-- **Key activity:** Use known sides to calculate the unknown ones (opposite sides combine). Count sides so none are missed.
+- **Key activity:** Use known sides to calculate the unknown ones (opposite sides combine), now with two missing sides and U- and T-shapes as well as L-shapes; tick each side as it is added so none are missed. Discover the shortcut that an L-shape has the same perimeter as the rectangle drawn round it.
 - **Check for understanding:** "How can you find a missing side in an L-shape?" → the two short parallel sides add to the long opposite side
 - **Differentiation:** support: shapes on squared paper to count / stretch: design a rectilinear shape with perimeter 30 cm
 - **Materials:** squared paper, rectilinear cut-outs
@@ -726,9 +726,9 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 ### Lesson 65 — Multiplication: common errors
 - **Duration:** 40 min
 - **Objective:** "By the end, I can find and fix errors in column multiplication." (UK NC Y4 Nmd)
-- **Hook:** "The robot got 243 × 4 = 8,612. What did it do?"
+- **Hook:** "The robot got 243 × 4 = 862. What did it do?"
 - **Key activity:** Error analysis: forgetting to add the exchange, adding it before multiplying, misalignment. Children mark six worked examples, explain and correct.
-- **Check for understanding:** "In 243 × 4 = 8,612, where did the robot go wrong?" → it wrote 12 in the ones instead of exchanging; correct answer 972
+- **Check for understanding:** "In 243 × 4 = 862, where did the robot go wrong?" → it wrote down 2 ones and 6 tens but never added the exchanged ten and hundred (12 ones → 1 ten; 16 tens + 1 → 1 hundred); correct answer 972
 - **Differentiation:** support: counters to rebuild any disputed step / stretch: create a 'trap' calculation for a partner with a subtle error
 - **Materials:** worked examples sheet, counters
 - **Joy:** "Robot repair shop": fix the robot's code by finding its maths bug
@@ -1119,7 +1119,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Hook:** "¾ of the class — 24 children — chose mango as their favourite fruit. How many children are in the class?"
 - **Key activity:** Bar model: 4 parts, 3 parts = 24, so 1 part = 8, whole = 32. Practise with unit and non-unit fractions.
 - **Check for understanding:** "If ¾ of a number is 24, what is the number? Show the bar model." → 32 — 3 parts are 24, so each part is 8, and 4 parts are 32
-- **Differentiation:** support: unit fractions only (⅕ of a number is 6) / stretch: two-step: ⅖ of a number is 18; find ⅚ of the same number
+- **Differentiation:** support: unit fractions only (⅕ of a number is 6) / stretch: two-step: ⅖ of a number is 18; find ⅗ of the same number (27)
 - **Materials:** bar strips, counters
 - **Joy:** "Mystery bag": guess the number of sweets from a fraction clue
 
@@ -1157,7 +1157,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Duration:** 40 min
 - **Objective:** "By the end, I can reason about fractions in 'always, sometimes, never' and open problems." (UK NC Y4 Nf)
 - **Hook:** "True or false: the bigger the denominator, the bigger the fraction."
-- **Key activity:** Pairs sort statements (e.g. 'a fraction with numerator bigger than denominator is always greater than 1' — always) and prove with strips; then an open problem: 'use digits 1–9 once each to make three equivalent fractions'.
+- **Key activity:** Pairs sort statements (e.g. 'a fraction with numerator bigger than denominator is always greater than 1' — always) and prove with strips; then an open problem: 'use six different digits from 1–9 to make three equivalent fractions (e.g. 1/2 = 3/6 = 4/8) — how many different sets can you find?'.
 - **Check for understanding:** "Always, sometimes or never: adding two fractions less than 1 gives an answer less than 1. Explain." → sometimes — ¼ + ¼ = ½, but ¾ + ¾ = 1½
 - **Differentiation:** support: fewer statements, strips for each / stretch: create your own 'sometimes' statement with examples
 - **Materials:** statement cards, fraction strips
@@ -1229,7 +1229,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Hook:** "Can 2.45 be made from only tenths and hundredths?"
 - **Key activity:** Place-value counters: 2.45 = 2 + 0.4 + 0.05 = 24 tenths + 5 hundredths = 245 hundredths. Part–whole models.
 - **Check for understanding:** "Show 3.62 partitioned in two different ways." → 3 + 0.6 + 0.02, or 3 + 0.5 + 0.12, or 36 tenths + 2 hundredths
-- **Differentiation:** support: standard partition with counters on the chart / stretch: find all the ways to partition 0.5 using only 0.1 and 0.01 counters with at most 10 counters
+- **Differentiation:** support: standard partition with counters on the chart / stretch: find all the ways to partition 0.5 using only 0.1 and 0.01 counters with at most 25 counters
 - **Materials:** place-value counters, part–whole mats
 - **Joy:** "Decimal shop": pay exact amounts with different coin combinations
 
@@ -1513,22 +1513,22 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 
 **Key vocabulary:** angle, right angle, acute, obtuse, straight line, turn, degree, parallel, perpendicular, polygon, regular, irregular, triangle, isosceles, equilateral, scalene, right-angled, quadrilateral, square, rectangle, rhombus, parallelogram, trapezium, kite, line of symmetry, symmetric
 
-### Lesson 139 — Angles as turns
+### Lesson 139 — Angles as turns and compass directions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe angles as amounts of turn and compare them with a right angle." (UK NC Y4 Gp; CCSS 4.MD.5)
+- **Objective:** "By the end, I can describe turns between the eight compass points in right angles and half right angles, and compare angles with a right angle." (UK NC Y4 Gp; CCSS 4.MD.5)
 - **Hook:** "A dancer spins a quarter turn, a half turn, a whole turn — what shapes do their arms make?"
-- **Key activity:** Concrete: children turn their bodies (quarter, half, three-quarter, full turns); make angles with two geostrips and a split pin; compare with a right-angle tester made by folding paper twice. Pictorial: sketch angles and mark right angles with a square. Abstract: name quarter turn = 1 right angle, half turn = 2 right angles (a straight line).
+- **Key activity:** Concrete: children turn their bodies (quarter, half, three-quarter, full turns); make angles with two geostrips and a split pin; compare with a right-angle tester made by folding paper twice. Pictorial: sketch angles and mark right angles with a square. Abstract: name quarter turn = 1 right angle, half turn = 2 right angles (a straight line). New step (Year 2 taught the turns): an 8-point compass rose on the floor — N to NE is half a right angle, N to SE is one and a half right angles; children give and follow turn instructions between compass points.
 - **Check for understanding:** "Is the angle bigger when the arms are longer? Explain with the geostrips." → no — the size of the angle is the amount of turn between the arms, not their length
 - **Differentiation:** support: use the folded right-angle tester on every angle / stretch: find how many right angles make three-quarters of a turn and a full turn (3 and 4) and connect to compass points
 - **Materials:** geostrips, split pins, paper for right-angle testers
 - **Joy:** "Robot dance": children program a partner with turn instructions to music
 
-### Lesson 140 — Acute and obtuse angles
+### Lesson 140 — Compare and order angles up to two right angles
 - **Duration:** 40 min
-- **Objective:** "By the end, I can identify, compare and order acute, obtuse and right angles." (UK NC Y4 Gp; CCSS 4.G.1)
+- **Objective:** "By the end, I can compare and order acute, right and obtuse angles up to two right angles, and explain my order." (UK NC Y4 Gp; CCSS 4.G.1)
 - **Hook:** "Hunt the angles: the classroom is full of them — doors, books, scissors, clock hands."
 - **Key activity:** Angle hunt with right-angle testers, recording acute (less than a right angle), right, obtuse (between a right angle and a straight line). Order angle cards from smallest to largest by overlaying tracing paper.
-- **Check for understanding:** "Is the angle between the clock hands at 4 o'clock acute or obtuse? Explain." → obtuse — at 3 o'clock it's a right angle; at 4 the minute hand has turned further, so it's more than a right angle but less than a straight line
+- **Check for understanding:** "Is the angle between the clock hands at 4 o'clock acute or obtuse? Explain." → obtuse — at 3 o'clock the hands make a right angle; by 4 o'clock the hour hand has moved one more number round, so the angle is more than a right angle but less than a straight line
 - **Differentiation:** support: compare every angle with the right-angle tester / stretch: draw a shape with exactly two acute and two obtuse angles and prove it with the tester
 - **Materials:** right-angle testers, angle cards, tracing paper, a geared clock
 - **Joy:** "Angle safari" photo hunt around school
@@ -1578,7 +1578,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Objective:** "By the end, I can identify regular and irregular polygons and explain the difference." (UK NC Y4 Gp)
 - **Hook:** "A stop sign is a regular octagon. What makes it 'regular'?"
 - **Key activity:** Sort polygon cards; test side lengths with rulers and angles by overlaying; draw regular and irregular versions on dotty paper; name pentagon, hexagon, heptagon, octagon.
-- **Check for understanding:** "Is a rectangle a regular polygon? Explain." → no — its angles are all equal, but its sides are not all equal
+- **Check for understanding:** "Is a rectangle a regular polygon? Explain." → only if it is a square — a rectangle's angles are all equal, but unless it is a square its sides are not all equal
 - **Differentiation:** support: polygons pre-measured, focus on counting sides / stretch: draw an irregular hexagon with all sides equal (angles differ)
 - **Materials:** polygon cards, rulers, dotty paper
 - **Joy:** "Road-sign designer" from signs around the world
@@ -1669,7 +1669,7 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Hook:** "Three corners of a square are at (1, 1), (1, 4) and (4, 4). The fourth has gone missing!"
 - **Key activity:** Plot the given vertices, join with a ruler, name the shape; reason about the missing vertex using properties (equal sides, parallel sides, right angles). Repeat for a rectangle and an isosceles triangle.
 - **Check for understanding:** "Where is the fourth vertex of the square, and which property tells you?" → (4, 1) — opposite sides are equal and parallel, so it lines up below (4, 4) and across from (1, 1)
-- **Differentiation:** support: use a geoboard to build the shape before plotting / stretch: given three vertices (1, 1), (4, 1), (2, 3), find all three possible fourth vertices that make a parallelogram
+- **Differentiation:** support: use a geoboard to build the shape before plotting / stretch: given three vertices (2, 2), (5, 2), (3, 4), find all three possible fourth vertices that make a parallelogram ((6, 4), (0, 4) and (4, 0))
 - **Materials:** grids, rulers, geoboards, elastic bands
 - **Joy:** "Missing-corner mystery": each solved case earns a detective stamp
 
@@ -1912,7 +1912,7 @@ Base-10 blocks (Dienes) including thousand-cubes; place-value counters (1,000 / 
 
 **Common misconceptions to watch for (and the fix).**
 - *"Adding a zero" to multiply by 10* — breaks with decimals. Always say "the digits move one place to the left; zero holds the empty place."
-- *Subtracting the smaller digit from the larger* in each column (5,432 − 1,718 → 4,286). Rebuild with counters and say the exchange aloud.
+- *Subtracting the smaller digit from the larger* in each column (5,432 − 1,718 → 4,326). Rebuild with counters and say the exchange aloud.
 - *Rounding always goes up* — use a number line so the child sees which multiple is nearer; state the convention that exactly halfway rounds up.
 - *Negative numbers: −8 > −3 because 8 > 3* — use a vertical thermometer: lower is smaller.
 - *Remainders bigger than the divisor* or ignored in context — the four remainder decisions (round up, round down, use, share) are taught explicitly in Lesson 72.
