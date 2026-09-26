@@ -81,7 +81,7 @@ information.
 - **Objective:** "By the end, I can break a big task into smaller parts and write steps for each." (UK NC KS1 Computing AL; CSTA 1A-AP-11)
 - **Hook:** "Plan a birthday party — all at once? Too big! How do we make it manageable?"
 - **Key activity:** Decompose "make a party" into parts (invitations, food, games) and each part into steps; do the same for "draw a house".
-- **Check for understanding:** "What does 'decompose' mean in computing?" → Breaking a big problem into smaller parts that are easier to solve.
+- **Check for understanding:** "Decompose 'get ready for school' into three parts. Why is it easier to plan the parts one at a time?" → e.g. get dressed, eat breakfast, pack my bag; each small part has only a few steps, so it's easier to think about, check and fix than one giant job.
 - **Differentiation:** support: 3 parts given / stretch: decompose "a morning routine" into parts and steps independently
 - **Materials:** planning sheets, sticky notes
 - **Joy:** Planning a real class celebration.
@@ -129,7 +129,7 @@ information.
 ### Lesson 7 — Bugs are normal
 - **Duration:** 25 min
 - **Objective:** "By the end, I can explain that a bug is a mistake in a program and that all programmers find and fix bugs." (UK NC KS1 Computing PR; CSTA 1A-AP-14)
-- **Hook:** "The first 'computer bug' was a real moth stuck in a computer in 1947! Today bugs are mistakes in code."
+- **Hook:** "In 1947 engineers found a real moth stuck inside a computer and taped it into their notebook as the 'first actual case of bug being found'! (People already called mistakes 'bugs' — the moth made it famous.) Today bugs are mistakes in code."
 - **Key activity:** Watch a teacher's buggy robot program fail; use predict → run → spot → fix; celebrate finding bugs.
 - **Check for understanding:** "Is finding a bug a bad thing? Explain." → No — finding bugs helps us fix programs; all programmers do it.
 - **Differentiation:** support: fix with adult guidance / stretch: explain the bug in words
@@ -191,7 +191,7 @@ information.
 - **Objective:** "By the end, I can open ScratchJr, find the block categories and make a character move with a green-flag script." (UK NC KS1 Computing PR; CSTA 1A-AP-10)
 - **Hook:** "Your first real app program — make a cat dance!"
 - **Key activity:** Tour the screen (stage, characters, block palette, programming area); drag a green-flag trigger and motion blocks; run it.
-- **Check for understanding:** "What does the green flag block do?" → It starts the script when you tap the green flag.
+- **Check for understanding:** "You tap the green flag but your cat doesn't move. What might be wrong?" → The script may be missing the green-flag trigger at the start, or the blocks aren't snapped together — a script only runs when it starts with a trigger.
 - **Differentiation:** support: step-by-step picture card / stretch: add a sound block
 - **Materials:** tablets with ScratchJr (free), picture guide cards
 - **Joy:** Making the cat dance.
@@ -341,7 +341,7 @@ information.
 - **Objective:** "By the end, I can sort objects by attributes (colour, size, shape) and explain my sorting." (UK NC KS1 Computing DC; CSTA 1A-DA-06)
 - **Hook:** "A pile of toys — how could we sort them? How else?"
 - **Key activity:** Sort toys/shapes in different ways; name the attribute used; guess a partner's sorting rule.
-- **Check for understanding:** "What's an 'attribute'?" → A feature of something, like its colour or size, that we can sort by.
+- **Check for understanding:** "I've sorted these toys into two groups. What's my rule — which attribute did I use? How do you know it isn't colour?" → Names the attribute (e.g. size — big and small) and explains that both groups have mixed colours, so colour can't be the rule.
 - **Differentiation:** support: one attribute / stretch: sort by two attributes (Venn)
 - **Materials:** toys, shapes, hoops
 - **Joy:** "Guess my rule".
