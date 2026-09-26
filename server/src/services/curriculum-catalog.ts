@@ -1,10 +1,13 @@
 /**
  * Curriculum catalog — merges the parsed scope outlines (every planned lesson)
  * with the authored `classai-lesson/1` JSONs (the prepared ones) into one tree
- * the whole app browses. Disk is the source of truth: rebuilt fresh on request.
+ * the whole app browses. Disk is the source of truth: rebuilt fresh on request
+ * (lesson files come from the mtime-cached index in `curriculum.ts`).
  *
- * A lesson is `authored` when a JSON exists for it, else `outline` (the AI will
- * build it from the scope on first start). Catalog ids match the authored
+ * A lesson is `authored` when a hand-built JSON exists in `curriculum/`,
+ * `generated` when the AI built it earlier (a draft in the data dir — playable,
+ * awaiting parent review), else `outline` (the AI will build it from the scope
+ * on first start). Catalog ids match the authored
  * convention `y{year}-{subject}-u{unit}-l{NN}` so a generated file slots in.
  */
 import fs from 'node:fs';
@@ -16,11 +19,12 @@ import type {
   CatalogLesson,
   LessonFull,
   LessonOutline,
+  CatalogLessonStatus,
   SubjectKey
 } from '../../../shared/types.ts';
 import { CURRICULUM_DIR } from '../config.ts';
 import { parseScopeFile } from './curriculum-scope.ts';
-import { curriculumSubjectKey, scanAuthoredLessons, getCurriculumLesson } from './curriculum.ts';
+import { curriculumSubjectKey, scanAuthoredLessons, getCurriculumLesson, curriculumLessonSource, type LessonSource } from './curriculum.ts';
 
 const SUBJECT_LABELS: Record<string, string> = {
   maths: 'Mathematics',
@@ -68,7 +72,7 @@ export interface CatalogLessonRef {
   unitNumber: number;
   lessonNumber: number;
   title: string;
-  status: 'authored' | 'outline';
+  status: CatalogLessonStatus;
   outline?: LessonOutline;
   unit?: { title: string; essentialQuestion: string; keyVocabulary: string[] };
   yearOverview?: string;
@@ -122,13 +126,20 @@ function listYears(): number[] {
 
 // ---- catalog build ---------------------------------------------------------
 
-/** Map key year|subject|lessonNumber → authored LessonFull. */
-function authoredIndex(): Map<string, LessonFull> {
-  const map = new Map<string, LessonFull>();
-  for (const { lesson, year, subject } of scanAuthoredLessons()) {
-    map.set(`${year}|${subject}|${lesson.lessonNumber}`, lesson);
+/** Map key year|subject|lessonNumber → playable LessonFull + where it came
+ *  from. An authored file always wins over a generated draft for the slot. */
+function authoredIndex(): Map<string, { lesson: LessonFull; source: LessonSource }> {
+  const map = new Map<string, { lesson: LessonFull; source: LessonSource }>();
+  for (const { lesson, year, subject, source } of scanAuthoredLessons()) {
+    const key = `${year}|${subject}|${lesson.lessonNumber}`;
+    if (source === 'generated' && map.get(key)?.source === 'authored') continue;
+    map.set(key, { lesson, source });
   }
   return map;
+}
+
+function statusOf(source: LessonSource | null | undefined): CatalogLessonStatus {
+  return source === 'authored' ? 'authored' : source === 'generated' ? 'generated' : 'outline';
 }
 
 /** The whole browsable curriculum tree (summaries; outlines fetched per-lesson). */
@@ -156,9 +167,10 @@ export function buildCatalog(): CatalogYear[] {
       for (const unit of parsed.units) {
         const lessons: CatalogLesson[] = unit.lessons.map((outline) => {
           const key = `${year}|${subjectDir}|${outline.lessonNumber}`;
-          const authoredLesson = authored.get(key);
+          const hit = authored.get(key);
+          const authoredLesson = hit?.lesson;
           lessonCount++;
-          if (authoredLesson) authoredCount++;
+          if (hit?.source === 'authored') authoredCount++;
           return {
             id: authoredLesson?.id ?? catalogId(year, subjectDir, unit.number, outline.lessonNumber),
             lessonNumber: outline.lessonNumber,
@@ -166,8 +178,9 @@ export function buildCatalog(): CatalogYear[] {
             title: outline.title,
             objective: outline.objective,
             durationMin: outline.durationMin || authoredLesson?.durationMin || 20,
-            status: authoredLesson ? 'authored' : 'outline',
-            deliveryMode: authoredLesson?.delivery.mode
+            status: statusOf(hit?.source),
+            deliveryMode: authoredLesson?.delivery.mode,
+            ...(hit?.source === 'generated' ? { review: authoredLesson?.status === 'approved' ? 'approved' as const : 'draft' as const } : {})
           };
         });
         units.push({ number: unit.number, title: unit.title, essentialQuestion: unit.essentialQuestion, lessons });
@@ -229,7 +242,7 @@ export function getCatalogLessonRef(id: string): CatalogLessonRef | null {
     unitNumber,
     lessonNumber,
     title: authored?.title || outline?.title || `Lesson ${lessonNumber}`,
-    status: authored ? 'authored' : 'outline',
+    status: authored ? statusOf(curriculumLessonSource(id)) : 'outline',
     outline,
     unit: unitCtx,
     yearOverview,

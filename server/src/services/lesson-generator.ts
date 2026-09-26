@@ -1,7 +1,11 @@
 /**
  * Lesson generator — builds a full `classai-lesson/1` from a scope outline + the
- * knowledge base when a planned lesson isn't authored yet, then writes it to
- * disk so the curriculum fills itself in. Split into two LLM calls (core beats,
+ * knowledge base when a planned lesson isn't authored yet, then saves it as a
+ * **draft** under `${DATA_DIR}/generated/year-N/<subject>/lessons/` (never in
+ * the git-tracked `curriculum/`), stamped with `generatedAt`/`generatedBy`. The
+ * draft is playable straight away (the learner is never blocked) and shows up
+ * in the parent's review screen, where it can be approved, discarded (so it is
+ * regenerated next time) or regenerated. Split into two LLM calls (core beats,
  * then practice bank) so neither hits output-token limits. Never returns a
  * broken lesson: if generation fails, it synthesizes a minimal-but-valid lesson
  * from the outline alone.
@@ -9,18 +13,25 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { z } from 'zod';
-import type { LessonFull } from '../../../shared/types.ts';
+import type { LessonFull, GeneratedLessonSummary } from '../../../shared/types.ts';
 import { CURRICULUM_DIR } from '../config.ts';
 import { getBrain } from '../ai/provider.ts';
 import { extractJson } from '../ai/schemas.ts';
-import { DiskLessonSchema, getCurriculumLesson, diskToLessonFull } from './curriculum.ts';
+import {
+  DiskLessonSchema,
+  getCurriculumLesson,
+  diskToLessonFull,
+  generatedLessonsDir,
+  generatedLessonFile,
+  listGeneratedLessonFiles
+} from './curriculum.ts';
 import {
   lessonGenSystem,
   lessonGenCoreUser,
   lessonGenPracticeUser,
   type GenLessonMeta
 } from '../ai/prompts.ts';
-import type { CatalogLessonRef } from './curriculum-catalog.ts';
+import { getCatalogLessonRef, type CatalogLessonRef } from './curriculum-catalog.ts';
 
 const KB_MAP: Record<string, string> = {
   maths: 'maths',
@@ -93,8 +104,14 @@ function toMeta(ref: CatalogLessonRef): GenLessonMeta {
   };
 }
 
-/** Assemble a disk-shaped lesson object from the two generated parts + meta. */
-function assemble(meta: GenLessonMeta, core: Record<string, unknown>, practice: Record<string, unknown>): Record<string, unknown> {
+/** Assemble a disk-shaped lesson object from the two generated parts + meta.
+ *  Always a `draft` with provenance — a parent approves it in review. */
+function assemble(
+  meta: GenLessonMeta,
+  core: Record<string, unknown>,
+  practice: Record<string, unknown>,
+  generatedBy: string
+): Record<string, unknown> {
   return {
     ...core,
     format: 'classai-lesson/1',
@@ -110,7 +127,9 @@ function assemble(meta: GenLessonMeta, core: Record<string, unknown>, practice: 
     durationMin: meta.outline.durationMin,
     objectives: [meta.outline.objective].filter(Boolean),
     difficulty: 'standard',
-    status: 'approved',
+    status: 'draft',
+    generatedAt: new Date().toISOString(),
+    generatedBy,
     practiceBank: practice.practiceBank,
     adaptivity: practice.adaptivity
   };
@@ -134,7 +153,8 @@ function fallbackDisk(meta: GenLessonMeta): Record<string, unknown> {
     durationMin: o.durationMin,
     objectives: [o.objective].filter(Boolean),
     difficulty: 'standard',
-    status: 'approved',
+    status: 'draft',
+    generatedBy: 'outline fallback (not saved)',
     vocabulary: [],
     emphasize: [o.objective].filter(Boolean),
     analysis: { keyConcepts: [], misconceptions: [], hooks: o.hook ? [o.hook] : [], priorKnowledge: [] },
@@ -173,17 +193,28 @@ function fallbackDisk(meta: GenLessonMeta): Record<string, unknown> {
   };
 }
 
-function writeLessonFile(meta: GenLessonMeta, disk: Record<string, unknown>): void {
-  const dir = path.join(CURRICULUM_DIR, `year-${meta.year}`, meta.subject, 'lessons');
-  fs.mkdirSync(dir, { recursive: true });
-  const file = path.join(dir, `lesson-${String(meta.lessonNumber).padStart(2, '0')}-${slug(meta.title)}.json`);
+function writeJsonAtomic(file: string, data: unknown): void {
   const tmp = `${file}.tmp`;
-  fs.writeFileSync(tmp, JSON.stringify(disk, null, 2));
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
   fs.renameSync(tmp, file); // atomic
 }
 
-async function callJson(system: string, user: string, maxTokens: number): Promise<Record<string, unknown> | null> {
-  const brain = await getBrain();
+/** Save a generated draft into the data dir (never curriculum/). Any older
+ *  generated file for the same id (e.g. a different title slug) is replaced. */
+function writeLessonFile(meta: GenLessonMeta, disk: Record<string, unknown>): string {
+  const dir = generatedLessonsDir(meta.year, meta.subject);
+  fs.mkdirSync(dir, { recursive: true });
+  const file = path.join(dir, `lesson-${String(meta.lessonNumber).padStart(2, '0')}-${slug(meta.title)}.json`);
+  writeJsonAtomic(file, disk);
+  for (const g of listGeneratedLessonFiles()) {
+    if (g.lesson.id === meta.id && g.filePath !== file) fs.rmSync(g.filePath, { force: true });
+  }
+  return file;
+}
+
+type GenBrain = Awaited<ReturnType<typeof getBrain>>;
+
+async function callJson(brain: GenBrain, system: string, user: string, maxTokens: number): Promise<Record<string, unknown> | null> {
   const attempt = async (): Promise<Record<string, unknown>> => {
     const raw = await brain.generate({ system, messages: [{ role: 'user', content: user }], maxTokens, json: true, quality: 'deep', label: 'Lesson generation' });
     return extractJson(raw) as Record<string, unknown>;
@@ -206,7 +237,8 @@ export interface GeneratedLesson {
 }
 
 /**
- * Generate a full lesson for an outline-only catalog slot, save it to disk, and
+ * Generate a full lesson for an outline-only catalog slot, save it as a draft in
+ * the data dir (`generated/`), and
  * return the runtime LessonFull. Requires a connected brain (throws NoBrainError
  * upward if none) but degrades to a valid minimal lesson if generation fails.
  */
@@ -215,11 +247,12 @@ export async function generateAndSaveLesson(ref: CatalogLessonRef): Promise<Gene
   const knowledge = loadKnowledge(meta.year, meta.subject);
   const system = lessonGenSystem(meta.subjectLabel);
 
-  const core = await callJson(system, lessonGenCoreUser(meta, knowledge), 6000);
-  const practice = core ? await callJson(system, lessonGenPracticeUser(meta), 5000) : null;
+  const brain = await getBrain();
+  const core = await callJson(brain, system, lessonGenCoreUser(meta, knowledge), 6000);
+  const practice = core ? await callJson(brain, system, lessonGenPracticeUser(meta), 5000) : null;
 
   if (core && practice) {
-    const disk = assemble(meta, core, practice);
+    const disk = assemble(meta, core, practice, `${brain.vendor}:${brain.model}`);
     const parsed = DiskLessonSchema.safeParse(disk);
     if (parsed.success) {
       try {
@@ -234,7 +267,7 @@ export async function generateAndSaveLesson(ref: CatalogLessonRef): Promise<Gene
   }
 
   // Fallback — a minimal, valid, playable lesson from the outline. Played from
-  // memory only: saving it would mark the slot "authored" forever, so a single
+  // memory only: saving it would mark the slot "generated" for good, so a single
   // rate-limited call would permanently replace the real lesson with a stub.
   const disk = fallbackDisk(meta);
   const parsed = DiskLessonSchema.safeParse(disk);
@@ -256,3 +289,72 @@ export function generateAndSaveLessonOnce(ref: CatalogLessonRef): Promise<Genera
 
 /** Schema handle re-export so tests can assert shapes without deep imports. */
 export const _GenSchemas = { DiskLessonSchema, z };
+
+// ---- parent review of generated drafts -------------------------------------
+// Everything here is keyed by lesson id and resolved through the curriculum
+// index, so a request id never becomes a path.
+
+/** Every generated lesson in the data dir, newest first. */
+export function listGeneratedLessons(): GeneratedLessonSummary[] {
+  return listGeneratedLessonFiles()
+    .map(({ lesson: l, year, subject, shadowed }) => ({
+      id: l.id,
+      year,
+      subject,
+      subjectLabel: l.subjectLabel || subject,
+      unitNumber: l.unit.number,
+      unitTitle: l.unit.title,
+      lessonNumber: l.lessonNumber,
+      title: l.title,
+      status: l.status as GeneratedLessonSummary['status'],
+      generatedAt: l.generatedAt,
+      generatedBy: l.generatedBy,
+      reviewedAt: l.reviewedAt,
+      shadowed
+    }))
+    .sort((a, b) => (b.generatedAt || '').localeCompare(a.generatedAt || '') || a.id.localeCompare(b.id));
+}
+
+/** The full generated lesson (for the preview), or null. */
+export function getGeneratedLesson(id: string): LessonFull | null {
+  const hit = generatedLessonFile(id);
+  return hit ? structuredClone(hit.lesson) : null;
+}
+
+/** Approve a draft in place (status → approved, stamped). It stays in the data
+ *  dir — promoting it into `curriculum/` is a deliberate human act. */
+export function approveGeneratedLesson(id: string): LessonFull | null {
+  const hit = generatedLessonFile(id);
+  if (!hit) return null;
+  const raw = JSON.parse(fs.readFileSync(hit.filePath, 'utf8')) as Record<string, unknown>;
+  raw.status = 'approved';
+  raw.reviewedAt = new Date().toISOString();
+  writeJsonAtomic(hit.filePath, raw);
+  return getGeneratedLesson(id);
+}
+
+/** Delete every generated file for this id; the next start regenerates it. */
+export function discardGeneratedLesson(id: string): boolean {
+  let removed = false;
+  for (const g of listGeneratedLessonFiles()) {
+    if (g.lesson.id !== id) continue;
+    fs.rmSync(g.filePath, { force: true });
+    removed = true;
+  }
+  return removed;
+}
+
+export type RegenerateResult =
+  | { ok: true; lesson: LessonFull }
+  | { ok: false; reason: 'not_found' | 'generation_failed' };
+
+/** Build a fresh draft for a generated slot, replacing the old one. The old
+ *  draft is kept if the new generation fails (a fallback is never saved). */
+export async function regenerateLesson(id: string): Promise<RegenerateResult> {
+  const ref = getCatalogLessonRef(id);
+  if (!ref || !generatedLessonFile(id)) return { ok: false, reason: 'not_found' };
+  const { authored: _previous, ...outlineRef } = ref; // build from the outline, not the old draft
+  const result = await generateAndSaveLessonOnce({ ...outlineRef, status: 'outline' });
+  if (result.fallback) return { ok: false, reason: 'generation_failed' };
+  return { ok: true, lesson: result.lesson };
+}

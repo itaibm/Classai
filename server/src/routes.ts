@@ -52,6 +52,7 @@ import {
   recommendNext
 } from './memory/index.ts';
 import { checkPin, hasParentToken, issueToken, pinIsSet, registerParentGuard, storePin, validPin } from './parent-auth.ts';
+import { registerGeneratedLessonRoutes } from './routes-generated.ts';
 
 const now = () => new Date().toISOString();
 
@@ -111,6 +112,7 @@ export async function registerRoutes(app: FastifyInstance): Promise<void> {
     app.log.error(err);
     reply.status(status).send({ error: err.message || 'server_error' });
   });
+  registerGeneratedLessonRoutes(app); // parent review of AI-generated lessons
 
   // ---- brain ---------------------------------------------------------------
 
