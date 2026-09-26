@@ -18,11 +18,13 @@ judgement about a real issue.
 
 **What we assume from Year 5 (ages 10–11):** map mastery (projections, compass bearings, thematic
 maps, contours, scale, a first use of GIS); a fair regional comparison (Kenya and the home region);
-water as a resource (the Nile, water scarcity, local supply); trade and supply chains (chocolate,
-T-shirts, fair trade); the polar regions and ice; and an environmental-quality fieldwork enquiry. Year 5
-science introduced the atmosphere, the carbon cycle and climate change. From Year 4: latitude and
-longitude, time zones, grid references, tectonics and hazards, rivers, the Amazon and Andes, and
-settlements.
+water as a resource (the Nile, water stress, village-scale solutions, wastewater); trade and supply
+chains (national trade data, shipping and chokepoints, T-shirts, a local business); a regional study of
+Australia and the Pacific islands (cultural burning, coral bleaching, atolls and rising seas); and an
+environmental-quality fieldwork enquiry. Year 5 science introduced the atmosphere, the carbon cycle and
+climate change. From Years 3–4: the cocoa supply chain and fair trade (Year 3); latitude and longitude,
+grid references, coasts, the Colorado River, Antarctica and land vs sea ice, fold mountains and
+resources (Year 4).
 
 **What Year 6 adds:** precise location (degrees, minutes, GPS), projections and point of view, the
 International Date Line, cross-sections and GIS analysis; plate tectonics with contrasting case studies; climate graphs, global circulation and responses to climate change;
@@ -217,8 +219,8 @@ case-study-based extended answers.
 ### Lesson 15 — Impacts of climate change around the world
 - **Duration:** 45 min
 - **Objective:** "By the end, I can explain how climate change affects people and places differently, using examples from three continents." (UK KS3 Geography; US Nat. Geog. Std. 14)
-- **Hook:** "The highest point of Tuvalu, a Pacific island nation, is only about 4.6 metres above sea level."
-- **Key activity:** Case-study carousel: Bangladesh (low-lying delta, flooding, cyclones); Tuvalu (sea-level rise, saltwater intrusion); the Sahel (drought and farming); the Arctic (melting sea ice, Inuit communities); a European heatwave; sort impacts by social, economic and environmental.
+- **Hook:** "In Year 5 you saw how rising seas threaten Tuvalu. Miami is rich and Tuvalu is not — so why are both worried about the same sea?"
+- **Key activity:** One-minute retrieval of Year 5's atoll lesson (Tuvalu: salt water, storm surges). New: a case-study carousel comparing rich and poorer places on three continents — Bangladesh (low-lying delta, flooding, cyclones); Miami, USA ('sunny-day' tidal flooding, raised roads and pumps paid for by the city); the Sahel (drought and farming); the Arctic (melting sea ice, Inuit communities); a European heatwave. Sort impacts into social, economic and environmental, then rank each place's *capacity to adapt* (money, technology, government, space to move).
 - **Check for understanding:** "Why are countries that produced the least greenhouse gases often the most affected?" → Many are low-lying, hot or dependent on farming, and have less money for protection — an issue of climate justice.
 - **Differentiation:** support: case-study cards with key facts highlighted / stretch: evaluate which impact is most serious and why
 - **Materials:** case-study cards, world map, photographs
@@ -357,8 +359,8 @@ case-study-based extended answers.
 ### Lesson 27 — Fair trade, aid and making a difference
 - **Duration:** 40 min
 - **Objective:** "By the end, I can evaluate fair trade and different types of aid as ways to reduce inequality." (UK KS3 Geography; US Nat. Geog. Std. 11)
-- **Hook:** "Who gets the money when you buy a bar of chocolate — the cocoa farmer, the factory or the shop?" (Build on Year 5's chocolate and fair-trade study.)
-- **Key activity:** Two-minute retrieval of Year 5's fair-trade minimum price and premium. New: types of aid (emergency, long-term development, bottom-up, top-down, loans vs grants) and remittances (money sent home by migrants, which in many countries is larger than aid); case studies of a small-scale project (e.g. community solar lamps) and a large project; evaluate which helps most in the long term and who decides.
+- **Hook:** "Who gets the money when you buy a bar of chocolate — the cocoa farmer, the factory or the shop?" (Build on Year 3's chocolate and fair-trade study.)
+- **Key activity:** Two-minute retrieval of Year 3's fair-trade minimum price and premium, now tested against Year 5's trade data (who earns what along a chain). New: types of aid (emergency, long-term development, bottom-up, top-down, loans vs grants) and remittances (money sent home by migrants, which in many countries is larger than aid); case studies of a small-scale project (e.g. community solar lamps) and a large project; evaluate which helps most in the long term and who decides.
 - **Check for understanding:** "Why might a small, local project sometimes help more than a large one?" → It is designed with local people, uses affordable technology they can maintain, and meets their actual needs.
 - **Differentiation:** support: case-study cards with guiding questions / stretch: argue for and against "trade, not aid"
 - **Materials:** fair trade products and labels, aid case-study cards
@@ -499,5 +501,5 @@ case-study-based extended answers.
 - **Local adaptation.** Units 1 and 7 must be taught with your own area's maps and a real local question; add local examples in every unit (your country's hazards, climate data, population pyramid and development indicators).
 - **Sensitive topics.** Migration and refugees may be personal for some children: sharing family stories is always optional. Hazards and climate change can cause anxiety — always pair problems with action and hope (solutions, success stories, what children can do).
 - **Differentiation.** Support uses labelled diagrams, guided graph questions and writing frames; stretch adds data analysis, interacting causes and extended judgements with counter-arguments.
-- **Vertical alignment.** Year 4 taught latitude and longitude, time zones, tectonics and rivers; Year 5 secured map skills, a Kenya regional study, water, trade and the polar regions (and climate change in science). Year 6 retrieves these briefly and builds global processes, data, case studies and fieldwork enquiry, preparing for secondary geography (UK Year 8 / US Grade 7 / MYP 2), which assumes confident map, graph and case-study skills.
+- **Vertical alignment.** Year 4 taught latitude and longitude, time zones, tectonics and rivers; Year 5 secured map skills, a Kenya regional study, water, trade and an Oceania regional study (and climate change in science). Year 6 retrieves these briefly and builds global processes, data, case studies and fieldwork enquiry, preparing for secondary geography (UK Year 8 / US Grade 7 / MYP 2), which assumes confident map, graph and case-study skills.
 - **Cross-curricular links:** Maths (coordinates, negative numbers and time zones, statistics, rainfall volumes), Science (plate tectonics, greenhouse effect, carbon cycle), History (empire, independence and development), English (*A Long Walk to Water*, research and balanced argument), Computing (GIS, spreadsheets), Life Skills (sustainability, SDGs, the graduation capstone).

@@ -5,7 +5,11 @@
 > `knowledge-base/subjects/history-geography/geography-ks2.md`, `extension-topics.md` and
 > `_lesson-banks-humanities.md`. Revised in the 2026-09 Years 5–6 review (`docs/reviews/years-5-6.md`):
 > the earlier draft re-taught Year 4's tectonics and rivers units and Year 6's population-and-cities
-> unit; those lessons are replaced by a regional study of Kenya and a polar-regions unit.
+> unit; those lessons are replaced by a regional study of Kenya and a polar-regions unit. Boundary
+> fixes (branch `review/boundary`): the polar unit repeated Year 4's Antarctica unit and Year 3's Arctic
+> tundra lesson, so it is replaced by a regional study of **Australia and the Pacific islands**; the
+> chocolate and fair-trade lessons (Year 3 Unit 6) and the local source-to-tap and tap-timer
+> activities (Year 3 Unit 2) are replaced with new content.
 
 ## Year overview
 
@@ -15,26 +19,32 @@ think about fairness and sustainability as global citizens. The year opens with 
 unit uses. A **regional study of Kenya and East Africa** — the Great Rift Valley, wet and dry seasons,
 tea and flower farms, Nairobi's tech economy and wildlife conservation — is compared fairly with the
 pupils' own region, fulfilling the regional comparison Year 4 prepared for. **Water: a precious
-resource** studies the Nile and the countries that share it, water scarcity (linked to the English class
-text *A Long Walk to Water*) and where the pupils' own water comes from. **Trade and globalisation**
-traces the journeys of chocolate and a T-shirt through Africa, Asia and the Americas and weighs fair
-trade. **The polar regions** contrast the Arctic and Antarctica: ice, the peoples of the Arctic, the
-Antarctic Treaty and how the poles are changing. The year ends with a **fieldwork enquiry** in the
+resource** studies the Nile and the countries that share it, water stress measured with data (linked to
+the English class text *A Long Walk to Water*), village-scale solutions that last, and where the pupils'
+own used water goes. **Trade and globalisation** reads the pupils' own country's trade data, follows
+container ships through the world's chokepoints, traces a T-shirt from Asia, and interviews a local
+business about its global links (Year 3 already taught chocolate and fair trade; Year 6 adds aid and
+development). A **regional study of Australia and the Pacific islands** — the continent not yet
+studied in Years 3–6 — covers where Australians live, First Nations land care and cultural burning,
+the Great Barrier Reef, and atolls in a rising ocean. The year ends with a **fieldwork enquiry** in the
 pupils' own area.
 
-Across the year every continent appears: Africa (Kenya, the Nile basin, Ghana and Côte d'Ivoire),
-Asia (Bangladesh, India), Europe and North America (trade, the Arctic), South America (projections,
-cotton and cocoa comparisons), Oceania (map work) and Antarctica. Each unit uses maps, data (maths link:
+Across the year every continent appears: Africa (Kenya, the Nile basin, South Sudan), Asia
+(Bangladesh, India, the ports of China and Singapore), Europe and North America (trade data, Rotterdam,
+the Panama Canal), South America (projections, Chile's copper), Oceania (a full regional study) and
+Antarctica (projections and the Year 4 retrieval of land ice). Each unit uses maps, data (maths link:
 graphs and percentages) and at least one enquiry question that pupils answer with evidence.
 
-**What this year assumes (from Year 4):** latitude and longitude, time zones, four- and six-figure grid
-references; plate tectonics, volcanoes and earthquakes; rivers from source to sea (erosion,
-transportation, deposition, floods); the Amazon and Andes compared with the pupils' own region;
-settlements, land use and resources; a first fieldwork enquiry. These are **retrieved, not re-taught**.
+**What this year assumes (from Years 3–4):** sixteen-point compass, atlas and digital-map skills, scale,
+latitude and longitude, four- and six-figure grid references; climate zones and biomes, including the
+Arctic tundra (Year 3); water from source to tap, water use and physical/human reasons for water
+shortage (Year 3); the cocoa supply chain and fair trade (Year 3); coasts, the Colorado River and its
+drainage basin, Antarctica and land vs sea ice, fold mountains in the Andes and Himalaya, natural
+resources and energy (Year 4); fieldwork enquiries. These are **retrieved, not re-taught**.
 
 **What Year 6 relies on:** contour reading, scale, thematic maps and first GIS; a fair regional
 comparison; the idea of interdependence through trade and supply chains; water scarcity (physical vs
-economic); knowledge of the polar regions and ice; and the full fieldwork cycle (question → collect →
+economic); a second full regional study (Oceania), including sea-level threats to atolls; and the full fieldwork cycle (question → collect →
 present → conclude → evaluate). Year 6 then teaches precise location (degrees and minutes), tectonic
 case studies at secondary depth, climate graphs and climate change, population, migration and cities,
 development, and a China–India regional study — none of which is duplicated here.
@@ -47,9 +57,9 @@ development, and a China–India regional study — none of which is duplicated 
 |---|---|---|---|---|
 | 1 | Maps, projections and GIS | World; local area | 1 | 6 (1–6) |
 | 2 | Regional study: Kenya and East Africa | Kenya, the Rift Valley, Nairobi; your own region | 1 | 7 (7–13) |
-| 3 | Water: a precious resource | The Nile basin, South Sudan, your water supply | 2 | 6 (14–19) |
-| 4 | Trade and globalisation | Ghana/Côte d'Ivoire, Bangladesh, global supply chains | 2 | 6 (20–25) |
-| 5 | The polar regions | The Arctic, Antarctica | 3 | 5 (26–30) |
+| 3 | Water: a precious resource | The Nile basin, South Sudan, eastern Kenya, your wastewater | 2 | 6 (14–19) |
+| 4 | Trade and globalisation | Your country's trade, ports and chokepoints, Bangladesh, a local business | 2 | 6 (20–25) |
+| 5 | Region study: Australia and the Pacific islands | Australia, Fiji, Tuvalu, the Great Barrier Reef | 3 | 5 (26–30) |
 | 6 | Fieldwork: how good is our local environment? | Your own area | 3 | 5 (31–35) |
 | | **Total** | | | **35** |
 
@@ -59,7 +69,7 @@ development, and a China–India regional study — none of which is duplicated 
 
 **Essential question:** How can a flat map show a round, three-dimensional world — and what does every map leave out?
 
-**Key vocabulary:** map projection, Mercator, equal-area, bearing, compass, north, thematic map, choropleth, flow line, dot map, scale, contour line, relief, spot height, symbol, key, GIS, satellite image
+**Key vocabulary:** map projection, Mercator, equal-area, bearing, compass, north, thematic map, choropleth, flow line, dot map, scale, contour line, relief, spot height, symbol, key, GIS, satellite image, timelapse, change over time
 
 ### Lesson 1 — The world on a flat page
 - **Duration:** 40 min
@@ -111,15 +121,15 @@ development, and a China–India regional study — none of which is duplicated 
 - **Materials:** local maps, rulers, string, calculators.
 - **Joy:** "Route planner" challenge for a class walk.
 
-### Lesson 6 — GIS and satellite images
+### Lesson 6 — Satellites as time machines: measuring change
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use digital mapping to compare layers of information and explain what GIS is." (UK NC KS2 geography — digital mapping)
-- **Hook:** "How can a satellite show where a forest has disappeared?"
-- **Key activity:** Use a free online mapping tool (such as Google Earth or OpenStreetMap) to compare satellite images and map layers of the local area and a far-away place; overlay layers (roads, rivers, land use) on acetate to model GIS.
-- **Check for understanding:** "Why is layering maps (GIS) useful for planners?" → It shows how different features relate (e.g. homes near a flood zone), helping decisions.
-- **Differentiation:** support: guided worksheet with specific places to find / stretch: compare satellite images of one place from different years and describe the change.
-- **Materials:** computers or tablets, acetate overlays, local base map.
-- **Joy:** "Fly" over your own school on the digital globe.
+- **Objective:** "By the end, I can compare satellite images of the same place from different years, measure how it has changed, and suggest reasons for the change." (UK NC KS2 geography — digital mapping; human and physical processes)
+- **Hook:** "How can a satellite show where a forest has disappeared, a city has grown or a lake has shrunk — and by how much?"
+- **Key activity:** Two-minute retrieval of Year 3's map, satellite and terrain layers. New: satellites have photographed the whole Earth again and again for decades, so we can compare dates. Using a timelapse or historical-imagery tool (e.g. Google Earth Timelapse or the historical-imagery slider), pupils study three changes: the Aral Sea shrinking (Kazakhstan and Uzbekistan), a fast-growing city (e.g. Dubai or Lagos) and the pupils' own area; they trace the outline at two dates onto squared acetate, count squares to estimate the change in area, and label causes (irrigation water taken from rivers; people moving to cities; new housing or roads). This prepares for Year 6's GIS layering and analysis.
+- **Check for understanding:** "Two satellite images of a lake, 30 years apart, show it covering 40 squares and then 10 squares. What fraction of the lake is left, and what else would you need to know before blaming one cause?" → one quarter is left (10 out of 40), so it has lost three quarters; you need evidence about causes — such as how much river water was taken for farming, rainfall over those years and temperatures — because two pictures show *what* changed, not *why*
+- **Differentiation:** support: pre-printed image pairs with a square grid already drawn / stretch: choose a place of their own, measure the change and write a short 'change report' with a possible cause and the evidence they would need to test it
+- **Materials:** computers or tablets with a satellite timelapse tool, printed image pairs, squared acetate sheets, whiteboard pens
+- **Joy:** "Spot the change" — a before-and-after challenge with the class's own neighbourhood
 
 **End-of-unit check:** Pupil measures a bearing and a distance between two features on a local map, describes relief from contours, chooses a suitable thematic map for a data set, and explains one limitation of a world map projection.
 
@@ -209,7 +219,7 @@ development, and a China–India regional study — none of which is duplicated 
 
 **Essential question:** Who gets the world's fresh water — and how can it be shared fairly?
 
-**Key vocabulary:** fresh water, salt water, ice cap, groundwater, drainage basin, source, mouth, upstream, downstream, dam, reservoir, irrigation, hydroelectric power, water scarcity, physical scarcity, economic scarcity, well, sanitation, treatment
+**Key vocabulary:** fresh water, salt water, ice cap, groundwater, drainage basin, source, mouth, upstream, downstream, dam, reservoir, irrigation, hydroelectric power, water stress, water scarcity, physical scarcity, economic scarcity, well, sand dam, sanitation, treatment, wastewater, sewer
 
 ### Lesson 14 — Where is the world's water?
 - **Duration:** 40 min
@@ -241,167 +251,167 @@ development, and a China–India regional study — none of which is duplicated 
 - **Materials:** Nile basin map, role cards for Ethiopia, Sudan and Egypt, fact sheets.
 - **Joy:** the "river summit" negotiation.
 
-### Lesson 17 — Water scarcity
+### Lesson 17 — Water stress: reading the data
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what water scarcity is, where it happens and why." (UK NC KS2 geography / sustainability; link to *A Long Walk to Water*)
-- **Hook:** "Nya, in *A Long Walk to Water*, walks for most of the day to fetch water. Why can't she simply get it closer to home?"
-- **Key activity:** Map regions of water scarcity using data from a reputable source (e.g. UNICEF/WHO); distinguish physical and economic causes; link to Nya's walk in South Sudan and to the pupils' own water use.
-- **Check for understanding:** "What's the difference between physical water scarcity and economic water scarcity? Give an example of each." → Physical: not enough water in the area (e.g. a desert region); economic: water exists but people can't afford or access it (no pipes, wells or treatment — e.g. Nya's village before the well).
-- **Differentiation:** support: a guided data map / stretch: calculate what percentage of a day Nya spends walking for water (maths link).
-- **Materials:** data maps, *A Long Walk to Water* extract, atlases.
-- **Joy:** "Carry the load" — feel the weight of a 5-litre container on a short, safe walk — then imagine carrying it for hours.
+- **Objective:** "By the end, I can calculate how much fresh water a country has per person, use it to judge water stress, and explain physical and economic water scarcity with examples." (UK NC KS2 geography — human and physical geography / sustainability; maths link: division; link to *A Long Walk to Water*)
+- **Hook:** "Nya, in *A Long Walk to Water*, walks for most of the day to fetch water — yet South Sudan has one of the world's great rivers running through it. How can both be true?"
+- **Key activity:** Two-minute retrieval of Year 3's physical and human reasons for lacking clean water. New: a widely used measure — renewable fresh water per person per year (below about 1,700 m³ = water stress; below about 1,000 m³ = water scarcity). Pupils divide a country's renewable water by its population for a set of real countries (rounded data from a reputable source such as the UN FAO AQUASTAT), plot results on a world choropleth (Lesson 3 skills) and name the two kinds of scarcity: **physical** (not enough water in the area) and **economic** (water exists, but there is no money for wells, pipes or treatment). Place Nya's village on the map: a country with water overall, but a village without a well.
+- **Check for understanding:** "Country A has 5,000 m³ of renewable water per person but many villages have no wells; Country B has 400 m³ per person but almost every home has a tap. Which kind of scarcity does each face, and why can't the number alone tell you who has clean water?" → A has economic scarcity (enough water, but not the money or infrastructure to reach people); B has physical scarcity (very little water, managed carefully with pipes, recycling or desalination); the number shows how much water exists, not whether people can get it
+- **Differentiation:** support: a calculator and a data table with populations already rounded to millions / stretch: find a country whose water mostly comes from rivers that start in other countries (e.g. Egypt) and explain why that makes it more vulnerable
+- **Materials:** country water data cards (rounded, with source named), calculators, a blank world choropleth outline, coloured pencils, *A Long Walk to Water* extract
+- **Joy:** "Water detectives" — pupils reveal a mystery country from its water clues
 
-### Lesson 18 — Solutions: from wells to saving water at home
+### Lesson 18 — Village-scale solutions: which will last?
 - **Duration:** 45 min
-- **Objective:** "By the end, I can evaluate different solutions to water shortages and measure my own household's water use." (UK NC KS2 geography / sustainability)
-- **Hook:** "Salva's organisation drills wells. What other solutions are there — and would they work everywhere?"
-- **Key activity:** Solutions fair: groups research one solution (a village borehole, rainwater harvesting, sand dams in Kenya, drip irrigation, repairing leaks, water-saving at home) and rate it for cost, who benefits and whether local people can maintain it. Then a water audit: measure how much water a running tap uses in one minute and estimate daily household use.
-- **Check for understanding:** "Why might a simple, cheap solution like a sand dam help a village more than an expensive machine?" → Local people can build, understand and repair it themselves with local materials, so it keeps working after outside helpers leave.
-- **Differentiation:** support: a solution card with a rating grid / stretch: compare two solutions for a named place and recommend one with reasons.
-- **Materials:** solution fact cards, rating grids, measuring jugs, stopwatches, a tap or water container.
-- **Joy:** the "tap timer" — how much water goes down the drain while you brush your teeth?
+- **Objective:** "By the end, I can evaluate different small-scale solutions to water shortages using criteria of cost, who benefits and whether local people can maintain them." (UK NC KS2 geography / sustainability)
+- **Hook:** "Thousands of wells drilled by well-meaning charities now stand broken. Why — and how would you make sure yours keeps working?"
+- **Key activity:** Brief retrieval of Year 3's town-council water game (save water vs increase supply). New: a solutions fair — groups research one village-scale solution (a borehole with a hand pump, rainwater harvesting from roofs, sand dams in Kenya, drip irrigation, a community water committee that collects small fees for repairs) and rate it for cost, who benefits, and whether local people can build and repair it; then they read a short case of a broken pump and suggest what should have been planned from the start (training, spare parts, a repair fund). Link to Salva's organisation in *A Long Walk to Water*.
+- **Check for understanding:** "Why might a simple, cheap solution like a sand dam help a village more than an expensive machine?" → local people can build, understand and repair it themselves with local materials, so it keeps working after outside helpers leave
+- **Differentiation:** support: a solution card with a ready-made rating grid / stretch: compare two solutions for a named place (e.g. a dry village in eastern Kenya) and recommend one, with a plan for keeping it working for ten years
+- **Materials:** solution fact cards, rating grids, a sand-dam cross-section diagram, a short broken-pump case study
+- **Joy:** "Elders' panel" — groups pitch their solution to a panel of 'village elders' who grill them about repairs
 
-### Lesson 19 — Unit 3 enquiry: our local river or water supply
+### Lesson 19 — Unit 3 enquiry: after the drain — where does our used water go?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can find out where our water comes from and present my findings with a map." (UK NC KS2 geography — local area)
-- **Hook:** "When you turn on the tap at school, where has that water been?"
-- **Key activity:** Research the local water source (river, reservoir, groundwater, desalination) using a local water company or council website; map its route from source to tap; present findings.
-- **Check for understanding:** "Where does our water come from, and what happens to it before it reaches the tap?" → A specific local source and the treatment steps (e.g. filtered, disinfected, pumped).
-- **Differentiation:** support: a research guide with questions and a map outline / stretch: compare with where water comes from in a city in another continent.
-- **Materials:** local water information, local maps, presentation materials.
-- **Joy:** "From source to tap" illustrated maps.
+- **Objective:** "By the end, I can map where our used water goes, describe how it is cleaned before it returns to a river or the sea, and explain how our choices affect local rivers." (UK NC KS2 geography — local area / human geography)
+- **Hook:** Show a photograph of a 'fatberg' removed from a city sewer: "This monster was made by people like us. How?"
+- **Key activity:** Two-minute retrieval of Year 3's journey from source to tap. New: the other half of the cycle — drains and sewers, the local wastewater treatment works (screening, settling, cleaning by bacteria, returning treated water to a river or the sea), and what happens in heavy rain in places where sewers overflow. Pupils use a local map (or the water company's website) to trace the route from school to the treatment works and the river it flows into; sort items into 'down the drain' and 'never down the drain' (wet wipes, cooking fat, paint) and design a campaign poster.
+- **Check for understanding:** "Why should wet wipes and cooking fat never go down the drain, and where could they end up?" → wet wipes don't break down like toilet paper and fat sets hard when it cools, so together they block sewers (fatbergs); blocked or overflowing sewers can release untreated sewage into streets, rivers or the sea
+- **Differentiation:** support: a partly labelled route map and picture cards of treatment stages / stretch: compare the local system with a city that has no sewer network for many homes, and explain the health consequences
+- **Materials:** local map, water company or council information on wastewater, treatment-stage picture cards, 'drain or bin' sorting cards, poster materials
+- **Joy:** "Flush detectives" poster campaign for school toilets and families
 
-**End-of-unit check:** Pupil explains why usable fresh water is scarce, describes how the Nile supports people and why sharing it causes disagreement, explains physical and economic water scarcity with examples, and maps the local water supply.
+**End-of-unit check:** Pupil explains why usable fresh water is scarce, describes how the Nile supports people and why sharing it causes disagreement, calculates water per person and explains physical and economic water scarcity with examples, evaluates a village-scale solution for how long it will last, and maps where the school's used water goes.
 
 ---
 
 ## Unit 4 — Trade and globalisation
 
-**Essential question:** How are we connected to people around the world through the things we buy — and is trade fair?
+**Essential question:** How are we connected to people around the world through the things we buy and sell — and who wins and who loses?
 
-**Key vocabulary:** trade, import, export, supply chain, raw material, manufacture, globalisation, interdependence, producer, consumer, fair trade, wage, profit, sustainable, carbon footprint
+**Key vocabulary:** trade, import, export, trading partner, supply chain, raw material, manufacture, container, port, shipping lane, chokepoint, globalisation, interdependence, producer, consumer, wage, fast fashion, food miles, carbon footprint
 
-### Lesson 20 — Where do our things come from?
+### Lesson 20 — Our country in world trade
 - **Duration:** 40 min
-- **Objective:** "By the end, I can map where everyday products come from and explain the words import and export." (UK NC KS2 geography — trade)
-- **Hook:** "Check the labels on your shoes, clothes and pencil case. How many countries are in this room?"
-- **Key activity:** Class 'label hunt'; plot countries on a world map with string to the school; discuss why products come from so many places.
-- **Check for understanding:** "Why might a T-shirt be designed in one country, made in another and sold in a third?" → Each step happens where it is cheapest or where the skills and materials are.
-- **Differentiation:** support: a list of countries to locate with an atlas / stretch: calculate the rough distance travelled by one product.
-- **Materials:** product labels, world map, string, atlases.
-- **Joy:** the string web across the world map.
+- **Objective:** "By the end, I can use real trade data to describe what my country imports and exports and who its main trading partners are, and show the pattern on a flow map." (UK NC KS2 geography — trade links; maths link: reading data)
+- **Hook:** "In Year 3 you found where your food comes from by reading labels. Now let's look at the whole country: what does it sell to the world, and what does it buy?"
+- **Key activity:** Two-minute retrieval of Year 3's label hunt and the words import and export. New: explore an interactive trade treemap (e.g. the Observatory of Economic Complexity, oec.world) for the pupils' own country and for two contrasting countries (e.g. Kenya — tea, flowers, coffee; Germany — cars and machinery; Chile — copper); list the top five exports, imports and trading partners; draw a flow map (Lesson 3) with arrow widths showing the value of trade with each partner.
+- **Check for understanding:** "Many countries trade most with their neighbours. Why is that, and name one country that trades a lot with places far away, with a reason." → neighbours are close, so transport is quicker and cheaper, and they often have trade agreements and shared borders; e.g. China trades with almost every country because it makes so many goods, or Australia sells iron ore and coal to distant Asian countries that need them
+- **Differentiation:** support: a printed treemap with the top five items highlighted and a flow-map template / stretch: compare how much of each country's exports are raw materials and how much are manufactured goods, and suggest a reason
+- **Materials:** laptops or printed treemaps (own country, Kenya, Germany, Chile), world outline maps, coloured pencils, rulers
+- **Joy:** "Trade web" — a giant floor map where pupils stretch wool of different thicknesses between trading partners
 
-### Lesson 21 — The journey of chocolate
-- **Duration:** 45 min
-- **Objective:** "By the end, I can describe the supply chain of chocolate from cacao farm to shop." (UK NC KS2 geography — trade; human geography)
-- **Hook:** Taste a square of chocolate (allergy-checked). "Where did this begin?"
-- **Key activity:** Supply-chain sequencing: cacao grown mainly in West Africa (Côte d'Ivoire and Ghana together grow more than half the world's cacao), fermented, dried, shipped, processed and sold. Simulation: divide the price of a chocolate bar among the people in the chain.
-- **Check for understanding:** "Why do cacao farmers often receive only a small share of the price of a chocolate bar?" → Much of the price goes to processing, brands, transport and shops; farmers have little bargaining power.
-- **Differentiation:** support: picture cards of the supply chain / stretch: suggest how the price split could be made fairer.
-- **Materials:** chocolate (allergy-checked), cacao pod or photos, supply-chain cards, price cards, world map.
-- **Joy:** the tasting — and the 'who gets what' reveal.
-
-### Lesson 22 — Fair trade
+### Lesson 21 — Ships, containers and chokepoints
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what fair trade aims to do and evaluate its benefits and limits." (UK NC KS2 geography / global citizenship)
-- **Hook:** "What does this logo on a banana or chocolate bar promise?"
-- **Key activity:** Learn about Fairtrade certification (minimum price, premium for community projects); case study of a cooperative (e.g. Kuapa Kokoo in Ghana, a farmer-owned cocoa cooperative); evaluate benefits and limitations.
-- **Check for understanding:** "How does a fair-trade minimum price help a farmer when world prices fall?" → They still receive at least the minimum, so their income is more secure.
-- **Differentiation:** support: benefits/limits sorting cards / stretch: argue whether shoppers or governments have more power to make trade fair.
-- **Materials:** fair-trade products and packaging, case-study sheet.
-- **Joy:** "Fair-trade shop" role-play.
+- **Objective:** "By the end, I can explain how most goods travel between continents, locate the world's busiest ports and shipping chokepoints, and explain why a blockage in one place affects people far away." (UK NC KS2 geography — human geography: trade links; locational knowledge)
+- **Hook:** "In March 2021 one ship, the *Ever Given*, got stuck sideways in the Suez Canal for six days. Why did shops thousands of kilometres away run short of goods?"
+- **Key activity:** The steel shipping container, standardised from the 1950s, made loading fast and cheap; most of the world's traded goods by volume travel by sea. Pupils locate some of the busiest container ports (Shanghai, Singapore, Ningbo-Zhoushan and Busan in Asia; Rotterdam, Europe's largest) and the chokepoints most routes squeeze through (the Suez Canal, the Panama Canal, the Strait of Malacca, the Strait of Hormuz), using latitude and longitude; measure the extra distance from Shanghai to Rotterdam if a ship must go round the Cape of Good Hope instead of through Suez (using the atlas scale); watch a live ship-tracking map (teacher-led).
+- **Check for understanding:** "Use your map to explain why one ship stuck in the Suez Canal delayed goods in Europe, and what ships could do instead." → the canal is a narrow shortcut between Asia and Europe that hundreds of ships use; when it was blocked they had to queue or sail thousands of kilometres around Africa, which took a week or more longer
+- **Differentiation:** support: a world map with the ports and chokepoints marked, pupils add routes / stretch: explain why some ports (e.g. Singapore, Rotterdam) grew so big, using their location on the map
+- **Materials:** atlases, world maps, string for measuring routes, a shipping-container scale model or photographs, a teacher-led ship-tracking website
+- **Joy:** "Chokepoint crisis" — a table-top game where a blocked canal forces teams to reroute their cargo against the clock
 
-### Lesson 23 — The journey of a T-shirt
+### Lesson 22 — The journey of a T-shirt
 - **Duration:** 40 min
 - **Objective:** "By the end, I can trace a global supply chain for clothing and discuss working conditions and sustainability." (UK NC KS2 geography — globalisation)
 - **Hook:** "A T-shirt can travel around the world before you wear it."
-- **Key activity:** Trace cotton (grown in countries such as India or the USA) → spinning and weaving → sewing (e.g. in Bangladesh) → shops. Discuss factory safety (age-appropriately, including the 2013 Rana Plaza collapse in Bangladesh as a turning point) and the environmental costs of fast fashion.
+- **Key activity:** Trace cotton (grown in countries such as India or the USA) → spinning and weaving → sewing (e.g. in Bangladesh) → shipping (Lesson 21) → shops. Discuss factory safety (age-appropriately, including the 2013 Rana Plaza collapse in Bangladesh as a turning point) and the environmental costs of fast fashion (water for growing cotton, dyes in rivers, clothes thrown away after a few wears).
 - **Check for understanding:** "What is one social and one environmental cost of very cheap clothing?" → Social: low wages or unsafe factories; environmental: water use, pollution, waste when clothes are thrown away quickly.
 - **Differentiation:** support: a supply-chain map with stages labelled / stretch: suggest three actions (by shoppers, companies, governments) and rank them.
 - **Materials:** world map, supply-chain cards, a cotton boll (if available), T-shirt labels.
 - **Joy:** "Swap shop" planning — a class clothes swap for charity.
 
-### Lesson 24 — Interdependence and food miles
+### Lesson 23 — Interdependence and food miles
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain interdependence and weigh the environmental costs of transporting goods." (UK NC KS2 geography — sustainability)
 - **Hook:** "Is a tomato grown locally in a heated greenhouse better for the planet than one grown in the sun far away?"
-- **Key activity:** Map the origin of a meal's ingredients; calculate food miles; discuss that transport is only part of the environmental cost (growing conditions, season, method matter too).
+- **Key activity:** Map the origin of a meal's ingredients; calculate food miles; compare transport by ship, lorry and plane (link to Lesson 21: ships carry huge loads with low emissions per tonne, while air freight — like Kenya's cut roses from Lesson 10 — is much higher); discuss that transport is only part of the environmental cost (growing conditions, season and method matter too).
 - **Check for understanding:** "Why are 'food miles' alone not enough to judge a food's environmental impact?" → How it's grown (heating, water, fertiliser) and how it's transported (ship vs plane) also matter.
 - **Differentiation:** support: ingredient cards with origin countries / stretch: compare two versions of the same food with data.
 - **Materials:** ingredient cards, world map, calculators, data sheets.
 - **Joy:** plan a 'lowest-impact lunch' menu.
 
+### Lesson 24 — A local business in a global world
+- **Duration:** 40 min
+- **Objective:** "By the end, I can find out how a local business depends on trade with other countries and explain what would happen if one link in its supply chain broke." (UK NC KS2 geography — human geography / local area; interdependence)
+- **Hook:** "The bakery (or bike shop, or café) down the road seems very local. How many countries does it really depend on?"
+- **Key activity:** Pupils prepare interview questions, then interview a local business owner in class or by video call (or use a prepared case study): where do its supplies, equipment and customers come from? Map the links on a world map; identify what is local and what is imported; role-play a 'broken link' (a port closes, a harvest fails, a currency changes) and decide how the business could adapt.
+- **Check for understanding:** "Using the business we studied, explain what 'interdependence' means and give one risk and one benefit of it." → businesses and countries rely on each other for goods and customers; benefit: access to goods and ingredients that can't be produced locally, and more customers; risk: if one supplier or route fails, the business can run short or prices rise
+- **Differentiation:** support: a question bank for the interview and a partly completed map / stretch: suggest how the business could make its supply chain more resilient and weigh the cost of doing so
+- **Materials:** interview question sheets, a willing local business owner (arranged in advance, with safeguarding followed) or a prepared case study, world maps
+- **Joy:** "Meet the maker" — the live interview, with pupils as journalists
+
 ### Lesson 25 — Unit 4 enquiry: is global trade good for everyone?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can present a balanced answer to a geographical enquiry using evidence from supply chains." (UK NC KS2 geography — assessment)
+- **Objective:** "By the end, I can present a balanced answer to a geographical enquiry using evidence from trade data and supply chains." (UK NC KS2 geography — assessment)
 - **Hook:** "Winners and losers of trade: who are they?"
-- **Key activity:** Groups prepare a short balanced presentation (benefits and problems of global trade, with examples from chocolate and T-shirts) and a conclusion.
-- **Check for understanding:** "Name one group that benefits from global trade and one that can lose out, with evidence." → e.g. consumers get cheaper goods; some farmers and factory workers earn very little.
-- **Differentiation:** support: a presentation frame / stretch: include a suggestion for making trade fairer and evaluate it.
+- **Key activity:** Groups prepare a short balanced presentation (benefits and problems of global trade, with evidence from their country's trade data, shipping routes, the T-shirt and the local business) and a conclusion.
+- **Check for understanding:** "Name one group that benefits from global trade and one that can lose out, with evidence." → e.g. consumers and exporting businesses gain cheaper goods and bigger markets; some garment workers earn very little, and places depend on routes that can be blocked.
+- **Differentiation:** support: a presentation frame / stretch: include a suggestion for making trade fairer or more resilient and evaluate it.
 - **Materials:** unit notes, presentation materials.
 - **Joy:** presentations to another class.
 
-**End-of-unit check:** Pupil describes a supply chain with a map, explains interdependence, and evaluates fair trade with at least one benefit and one limitation.
+**End-of-unit check:** Pupil reads trade data to describe their country's exports, imports and partners, locates major ports and chokepoints and explains how a blockage spreads, traces a clothing supply chain with a map, and explains interdependence with one benefit and one risk.
 
 ---
 
-## Unit 5 — The polar regions
+## Unit 5 — Region study: Australia and the Pacific islands
 
-**Essential question:** How are the Arctic and Antarctica different, who lives and works there, and why do the poles matter to everyone?
+**Essential question:** How do people in Oceania live with — and look after — a huge dry continent and thousands of small islands in the biggest ocean on Earth?
 
-**Key vocabulary:** Arctic, Antarctic, polar circle, North Pole, South Pole, ice sheet, glacier, sea ice, iceberg, permafrost, tundra, Indigenous, Inuit, Sámi, Antarctic Treaty, research station, ozone layer, sea level
+**Key vocabulary:** Oceania, Australia, Aotearoa New Zealand, Pacific islands, Melanesia, Micronesia, Polynesia, outback, arid, population density, First Nations, Aboriginal and Torres Strait Islander peoples, Country, cultural burning, coral reef, bleaching, atoll, volcanic island, sea-level rise, storm surge, wayfinding
 
-### Lesson 26 — Poles apart: the Arctic and Antarctica
+### Lesson 26 — Oceania on the map
 - **Duration:** 40 min
-- **Objective:** "By the end, I can locate the polar regions and explain the main differences between the Arctic and Antarctica." (UK NC KS2 geography — locational knowledge; physical geography)
-- **Hook:** "At one pole you stand on frozen ocean; at the other you stand on a continent covered by ice more than 2 km thick. Which is which?"
-- **Key activity:** Locate the Arctic and Antarctic Circles and the poles on a globe and on polar projections (retrieve Lesson 1: why polar regions look huge on Mercator); compare the Arctic (an ocean surrounded by land, with countries and people) and Antarctica (a high, ice-covered continent with no permanent population); midnight sun and polar night with a torch and globe.
-- **Check for understanding:** "Why is Antarctica much colder than the Arctic?" → Antarctica is a high continent covered by thick ice, so its surface is far above sea level, and it is far from the warming effect of the ocean; the Arctic is mostly sea, and the ocean water beneath the ice keeps it less cold.
-- **Differentiation:** support: a Venn diagram with fact cards / stretch: explain why the Sun doesn't set for weeks in the polar summer, using the tilt of the Earth.
-- **Materials:** globe, polar projection maps, torch, fact cards, Mercator map for comparison.
-- **Joy:** "Which pole?" quiz with photos (polar bears live only in the Arctic; penguins in the wild almost only in the southern hemisphere).
+- **Objective:** "By the end, I can locate the countries and island groups of Oceania and use rainfall and population maps to explain where most Australians live." (UK NC KS2 geography — locational knowledge; thematic maps)
+- **Hook:** "Australia is about the same size as the whole of the USA without Alaska — yet it has fewer people than many single countries. Where is everybody?"
+- **Key activity:** On a Pacific-centred map, locate Australia, Aotearoa New Zealand, Papua New Guinea and the island groups of Melanesia, Micronesia and Polynesia; find Fiji, Samoa, Tonga, Tuvalu and Kiribati with latitude and longitude; notice how much of Oceania is ocean. Overlay an Australian rainfall map and a population-density map (acetate over atlas maps — a first taste of GIS layering, which Year 6 develops) and describe the pattern: most people live near the coast, especially in the south-east and south-west.
+- **Check for understanding:** "Use the two maps to explain why most Australians live near the coast, especially in the south-east and south-west." → the interior is dry (arid or semi-arid), so there is little water for farming or towns; the south-east and south-west coasts get more rain and have milder climates, and the big cities grew there as ports
+- **Differentiation:** support: a map with countries labelled and a sentence frame for the pattern / stretch: explain why a Pacific-centred map is more useful than a Europe-centred one for this unit (retrieve Lesson 1)
+- **Materials:** Pacific-centred world map, atlases, Australian rainfall and population-density maps, acetate sheets, whiteboard pens
+- **Joy:** "Island hop" — a quiz race across the Pacific using coordinates
 
-### Lesson 27 — Ice: glaciers, ice sheets and sea ice
+### Lesson 27 — Caring for Country: First Nations Australians and fire
+- **Duration:** 40 min
+- **Objective:** "By the end, I can explain how Aboriginal and Torres Strait Islander peoples' knowledge of the land is helping to manage Australia's environment today." (UK NC KS2 geography — human and physical geography; sustainability)
+- **Hook:** "Why are some fire services in Australia now asking Aboriginal rangers to *light* fires?"
+- **Key activity:** Aboriginal and Torres Strait Islander peoples have lived in Australia for at least 50,000 years — probably more than 60,000 — with hundreds of languages and a deep connection to 'Country' (land, water, sky and the living things on them). Case studies: **cultural burning** — small, cool, patchy fires lit at the right time of year to clear dry undergrowth, making huge bushfires less intense; Indigenous ranger programmes; Uluru–Kata Tjuta National Park, returned to its Anangu traditional owners in 1985 and jointly managed, where climbing Uluru ended in 2019 at their request. Pupils compare a map of an area managed with cool burns and one without, and read accounts in rangers' own words.
+- **Check for understanding:** "Explain how a small, cool fire lit on purpose can protect a place from a big bushfire later." → it burns away dry grass and fallen leaves (fuel) slowly, without harming big trees; later, when a hot, dry, windy season comes, there is less fuel, so any bushfire is smaller and easier to control
+- **Differentiation:** support: a picture sequence (dry fuel → cool burn → less fuel → smaller bushfire) to order and explain / stretch: explain why sharing decisions with traditional owners might lead to better care of a national park
+- **Materials:** maps of Australia with Aboriginal language regions (e.g. the AIATSIS map, used with its cultural notes), photographs and short accounts from Indigenous rangers, Uluru case-study card
+- **Joy:** "Ranger's notebook" — plan a year of land care for a patch of Country, season by season
+
+### Lesson 28 — The Great Barrier Reef: a living wonder under pressure
+- **Duration:** 40 min
+- **Objective:** "By the end, I can describe the Great Barrier Reef's location and value to people and nature, and explain why coral bleaching happens." (UK NC KS2 geography — physical geography, human geography and sustainability)
+- **Hook:** Show satellite images of the Great Barrier Reef: "This is the largest structure built by living things on Earth — it can be seen from space. Who built it?"
+- **Key activity:** Locate the reef off Queensland's coast (more than 2,300 km long); corals are tiny animals that live with algae that give them food and colour. Why the reef matters: fish nurseries, protection of the coast from waves, and tourism jobs. **Bleaching:** when the sea stays unusually warm for weeks, corals push out their algae and turn white; if the heat lasts, they can die. Read a simple timeline of recent mass bleaching events (including 2016, 2017, 2020, 2022 and 2024) and a graph of sea temperature; discuss what can be done locally (water quality, controlling crown-of-thorns starfish, marine park zones) and globally (cutting greenhouse gases).
+- **Check for understanding:** "Why can a rise of only 1–2 °C in sea temperature, lasting a few weeks, harm the reef — and why does that matter to people as well as fish?" → the heat makes corals push out the algae that feed them, so they bleach and may starve and die; fewer healthy corals mean fewer fish for food, weaker protection from waves and fewer tourists, so local jobs are lost
+- **Differentiation:** support: labelled photos of healthy and bleached coral and a sentence frame / stretch: explain why local actions (cleaner rivers, marine park zones) help the reef recover but cannot on their own stop bleaching
+- **Materials:** satellite images, reef photographs, bleaching timeline and sea-temperature graph, map of Queensland
+- **Joy:** "Reef guardians" — design a marine-park zoning map with areas for fishing, tourism and full protection
+
+### Lesson 29 — Islands in a rising ocean
 - **Duration:** 45 min
-- **Objective:** "By the end, I can explain the difference between land ice and sea ice and investigate which one raises sea level when it melts." (UK NC KS2 geography — physical geography / science link)
-- **Hook:** "If all the floating sea ice in the Arctic melted, how much would sea level rise? And if Greenland's ice sheet melted?"
-- **Key activity:** Investigation: two identical containers with the same water level — one with ice floating in the water (sea ice), one with ice on a 'land' block of clay above the water (land ice); predict, let the ice melt and measure the water levels. Explain the result and link to glaciers and ice sheets in Greenland and Antarctica.
-- **Check for understanding:** "Why does melting land ice raise sea level but melting floating sea ice hardly does?" → Floating ice already displaces its own weight of water, so when it melts the level barely changes; land ice adds new water to the ocean when it melts and flows in.
-- **Differentiation:** support: a prediction sheet with picture steps / stretch: explain why melting sea ice still matters even though it hardly raises sea level (less white ice to reflect sunlight, habitat loss).
-- **Materials:** two clear containers, ice cubes, modelling clay 'land', rulers, marker pens, water.
-- **Joy:** the "sea-level race" — watch which container's line moves.
+- **Objective:** "By the end, I can explain how atolls and volcanic islands differ, and how rising seas threaten Pacific island communities and how they are responding." (UK NC KS2 geography — physical and human geography; sustainability)
+- **Hook:** "In 1976 the canoe *Hōkūleʻa* sailed from Hawai'i to Tahiti — about 4,000 km — with no compass or charts, steering by stars, waves and birds. How did Pacific navigators find tiny islands in the world's largest ocean?"
+- **Key activity:** Pacific wayfinding: reading star paths, swell patterns and birds. Then island types: high **volcanic islands** (e.g. Viti Levu in Fiji) and low **coral atolls** (e.g. Funafuti in Tuvalu), with cross-section sketches — an atoll is a ring of coral islands around a lagoon, often only a few metres above the sea. One-minute retrieval of Year 4's land-ice model (no rebuild). New: how rising seas threaten atolls long before they are covered — salt water seeping into the ground water and root crops such as pulaka, king tides and storm surges flooding homes, coastal erosion — and how communities respond: sea walls and mangroves, raised homes, moving villages inland (e.g. Vunidogoloa in Fiji, moved in 2014), land reclamation in Tuvalu and agreements with other countries.
+- **Check for understanding:** "Tuvalu's highest land is only a few metres above sea level. Give two ways rising seas harm people there before the islands are actually under water." → salt water gets into the ground and wells, spoiling drinking water and crops; higher tides and storm surges flood homes and roads more often; waves erode the coast and land is lost
+- **Differentiation:** support: labelled cross-section diagrams of an atoll and a volcanic island to compare / stretch: explain why moving a village inland is possible in Fiji but much harder in Tuvalu, using the cross-sections
+- **Materials:** Pacific map, cross-section diagrams, photographs of Funafuti and Viti Levu, a star map, a short account of the *Hōkūleʻa* voyage
+- **Joy:** "Wayfinders" — navigate a playground 'ocean' to hidden islands using only a star-compass card and clues from 'swells' and 'birds'
 
-### Lesson 28 — People of the Arctic
+### Lesson 30 — Unit 5 enquiry: living with the environment across Oceania
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe how Indigenous peoples of the Arctic live today and how their lives combine tradition and change." (UK NC KS2 geography — human geography)
-- **Hook:** "An Inuit teenager in Nunavut, Canada, may hunt with a grandparent at the weekend and play online games in the evening. Is that surprising?"
-- **Key activity:** Case studies: Inuit communities in Canada and Greenland (hunting, fishing, art, Inuktitut language, modern towns); Sámi reindeer herders in Norway, Sweden, Finland and Russia (herding with snowmobiles and GPS); how warming, mining and shipping routes bring both opportunities and threats. Use photographs and people's own words where possible.
-- **Check for understanding:** "Why is 'Arctic people live in igloos' a single story?" → Most live in modern houses in towns and use modern technology while keeping traditional skills, languages and culture; igloos were traditionally used as temporary winter shelters by some Inuit groups.
-- **Differentiation:** support: picture cards of daily life to sort into 'traditional', 'modern', 'both' / stretch: explain how melting sea ice could affect an Inuit hunter's safety and food.
-- **Materials:** map of the Arctic, photographs, short first-person accounts, case-study cards.
-- **Joy:** "Arctic diaries" — write a day in the life that mixes old and new, based on the evidence.
+- **Objective:** "By the end, I can compare how people adapt to three contrasting places in Oceania and in my own region, using climate data and case-study evidence." (UK NC KS2 geography — similarities and differences; assessment)
+- **Hook:** "Sydney, Alice Springs and Funafuti are all in Oceania. Would you pack the same bag for each?"
+- **Key activity:** Groups read climate graphs (temperature and rainfall) for Sydney, Alice Springs and Funafuti and for their own town; list how people adapt in each (water tanks and air conditioning in the outback, water rationing and rain collection on atolls, bushfire plans near cities); build an evidence grid and write an answer to the enquiry question, "How do people in Oceania live with their environment?", including one similarity with their own region and one thing a single story would get wrong.
+- **Check for understanding:** "Choose two of the places. Use their climate graphs to explain one difference in how people live there." → a difference linked to the data (e.g. Alice Springs gets very little rain, so homes collect and store water carefully and farms are huge cattle stations; Funafuti is wet all year but low-lying, so the challenge is salt water and flooding rather than drought)
+- **Differentiation:** support: an evidence grid with prompts and one completed row / stretch: add a fourth place from Aotearoa New Zealand and explain how latitude and relief make its climate different
+- **Materials:** climate graphs for the four places, unit notes, evidence grids, writing frames
+- **Joy:** "Postcards from Oceania" — a postcard from each place, written by a local person, based on the evidence
 
-### Lesson 29 — Antarctica: a continent for science and peace
-- **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Antarctica is governed by international agreement and why scientists work there." (UK NC KS2 geography — human geography / global citizenship)
-- **Hook:** "In the middle of the Cold War, countries that distrusted each other agreed to share a whole continent for peace and science. How?"
-- **Key activity:** The Antarctic Treaty (signed 1959 by 12 countries, now more than 50): no military activity, freedom for scientific research, territorial claims set aside; a later agreement (the Madrid Protocol, 1991) banned mining. Research stations from many countries; the discovery of the ozone hole over Antarctica (reported by British Antarctic Survey scientists in 1985) and the Montreal Protocol (1987) that phased out the harmful chemicals — a global success story.
-- **Check for understanding:** "Why might it be easier for countries to protect Antarctica than other places?" → No country has a permanent population there and no one can use its resources under the treaty, so countries gain more from cooperating on science than from competing.
-- **Differentiation:** support: treaty rule cards with pictures / stretch: evaluate whether the treaty would still work if valuable minerals became easy to mine.
-- **Materials:** map of Antarctica with research stations, treaty summary, ozone-hole images (NASA).
-- **Joy:** "Design a research station" — plan one that can survive −60 °C and harm the environment as little as possible.
-
-### Lesson 30 — Unit 5 enquiry: why do the poles matter to everyone?
-- **Duration:** 40 min
-- **Objective:** "By the end, I can use data and case studies to explain how changes at the poles affect people far away." (UK NC KS2 geography — assessment / sustainability)
-- **Hook:** "Most of us will never go to the Arctic or Antarctica. So why should we care what happens there?"
-- **Key activity:** Read a simple graph of September Arctic sea-ice extent since 1979 (NSIDC data); connect changes at the poles to sea-level rise for coastal cities, weather, wildlife and Arctic peoples; learn that the Arctic Council includes Indigenous peoples' organisations as Permanent Participants. Write an evidence-based answer to the enquiry question.
-- **Check for understanding:** "Give one way a change at the poles could affect a place thousands of kilometres away, and the evidence for it." → e.g. melting land ice in Greenland and Antarctica raises sea level, threatening low-lying coasts — shown by sea-level and ice-loss data.
-- **Differentiation:** support: a writing frame with evidence cards / stretch: explain whose voices should count most in decisions about the Arctic, and why.
-- **Materials:** sea-ice extent graph, case-study notes, writing frames, world map.
-- **Joy:** "Polar ambassadors" — pupils record a one-minute message to another class about why the poles matter.
-
-**End-of-unit check:** Pupil compares the Arctic and Antarctica, explains why melting land ice (not sea ice) raises sea level, describes Arctic peoples' lives without a single story, and explains one way the poles affect the rest of the world.
+**End-of-unit check:** Pupil locates the main countries and island groups of Oceania, uses maps to explain where Australians live, explains cultural burning and coral bleaching, describes how rising seas threaten atolls and how communities respond, and compares places in Oceania with their own region using climate data.
 
 ---
 
@@ -455,7 +465,7 @@ development, and a China–India regional study — none of which is duplicated 
 - **Duration:** 40 min
 - **Objective:** "By the end, I can propose improvements to the local environment based on evidence and reflect on the year's geography." (UK NC KS2 geography — assessment / citizenship)
 - **Hook:** "Your findings could change something real. What would you ask the council or school to do?"
-- **Key activity:** Groups write a short proposal or letter to the school or local council with evidence-based recommendations; year review quiz linking maps, hazards, rivers, trade and cities.
+- **Key activity:** Groups write a short proposal or letter to the school or local council with evidence-based recommendations; year review quiz linking maps, Kenya, water, trade and Oceania.
 - **Check for understanding:** "Which piece of your fieldwork evidence best supports your recommendation?" → A specific data point or map linked to the recommendation.
 - **Differentiation:** support: a letter frame / stretch: include a map and graph in the proposal and address a possible objection.
 - **Materials:** letter frames, fieldwork results, review quiz.
@@ -471,9 +481,9 @@ development, and a China–India regional study — none of which is duplicated 
 - ***One Well: The Story of Water on Earth*** by Rochelle Strauss — an excellent, data-rich picture book about the global water supply; ideal for Lesson 14.
 - ***Mama Miti: Wangari Maathai and the Trees of Kenya*** by Donna Jo Napoli, illustrated by Kadir Nelson — a picture-book biography rooted in Kenya's landscapes and farming; supports Unit 2 (and links to Year 5 science).
 - ***The Boy Who Harnessed the Wind*** (Young Readers Edition) by William Kamkwamba and Bryan Mealer — drought, farming and ingenuity in Malawi; a companion to Units 2–3.
-- ***Shackleton's Journey*** by William Grill — an award-winning illustrated account of the 1914–17 Antarctic expedition; perfect for browsing during Unit 5.
+- ***Welcome to Country*** by Aunty Joy Murphy, illustrated by Lisa Kennedy — a Wurundjeri Elder's welcome to her Country; an authentic First Nations voice to open Lesson 27.
 - ***If the World Were a Village*** by David J. Smith — shows global population and inequality as a village of 100 people; useful across Units 2–4.
-- **Digital tools** — Google Earth or OpenStreetMap; NASA Earth Observatory images; the National Snow and Ice Data Center (nsidc.org) for sea-ice data; national mapping agency maps of your area (e.g. topographic maps at 1 : 25,000).
+- **Digital tools** — Google Earth or OpenStreetMap; NASA Earth Observatory images; the Observatory of Economic Complexity (oec.world) for trade data; the Australian Bureau of Meteorology (bom.gov.au) for climate data; national mapping agency maps of your area (e.g. topographic maps at 1 : 25,000).
 - **Equipment** — globes, atlases, local topographic maps, baseplate compasses, protractors, clipboards, tally counters, stopwatches, modelling clay, measuring jugs.
 
 ## End-of-year mastery checks
@@ -482,8 +492,8 @@ development, and a China–India regional study — none of which is duplicated 
 2. **Projections and GIS** — explains one distortion of a world map and uses digital mapping to compare layers or dates.
 3. **Regional comparison** — describes Kenya's physical and human geography and compares it fairly with the home region.
 4. **Water** — explains why usable fresh water is scarce, why sharing a river causes disagreement, and physical vs economic water scarcity.
-5. **Trade** — traces a supply chain and evaluates fair trade.
-6. **Polar regions** — compares the Arctic and Antarctica and explains why melting land ice raises sea level.
+5. **Trade** — reads trade data for their own country, explains how a blocked chokepoint affects people far away, and traces a supply chain.
+6. **Oceania** — explains where Australians live using maps, how cultural burning and reef protection work, and how rising seas threaten atolls.
 7. **Fieldwork** — completes and evaluates an enquiry with maps and graphs.
 8. **Fair description** — avoids a 'single story' when describing any place, using evidence.
 
@@ -495,8 +505,10 @@ development, and a China–India regional study — none of which is duplicated 
 - *"Africa is a country / it's hot everywhere in Africa."* Use data by country and Mount Kenya's glaciers.
 - *"The equator is hot everywhere."* Altitude matters (Mount Kenya, Nairobi's mild climate).
 - *"Rivers flow from north to south."* Rivers flow downhill, in any direction (the Nile flows north).
-- *"All melting ice raises sea level."* Floating sea ice hardly does; land ice does.
-- *"Penguins and polar bears live together."* Polar bears live in the Arctic; wild penguins almost only in the southern hemisphere.
+- *"A country with lots of water can't have water scarcity."* Economic scarcity: water exists but cannot reach people.
+- *"Australia is mostly beaches and cities / mostly desert with no one living there."* Most people live on the wetter coasts; the interior is arid but is Country with a long human history.
+- *"Islands will only be harmed when the sea covers them."* Salt water, storm surges and erosion harm atolls long before.
+- *"Most goods travel by plane."* Most traded goods by volume go by sea.
 - *"Everything in a developing city is poor."* Avoid single stories; show enterprise, culture and diversity.
 
 **How to teach it well**
@@ -504,8 +516,8 @@ development, and a China–India regional study — none of which is duplicated 
 - Use real, current data (from UN, WHO/UNICEF, NSIDC, national statistics offices) and name sources.
 - Present people in case studies as active agents, not just victims; include voices from the places studied.
 - Adapt the regional comparison, fieldwork and local water study to your own location.
-- Cross-curricular: maths (bearings and angles, scale, graphs, means, percentages), science (the particle model, the carbon cycle and climate in Year 5 science), English (*A Long Walk to Water*, *The Arrival*, persuasive letters), history (the Atlantic world and trade), life skills (fair trade, sustainability).
+- Cross-curricular: maths (bearings and angles, scale, graphs, means, percentages), science (the particle model, the carbon cycle and climate in Year 5 science), English (*A Long Walk to Water*, *The Arrival*, persuasive letters), history (the Atlantic world and trade), life skills (sustainability, money), science (sound and habitats; coral as animals).
 
 **Vertical connections**
-- *From Year 4:* latitude, longitude, time zones and grid references; tectonics; rivers; a first regional comparison (the Amazon and Andes); settlements and resources; first fieldwork — retrieved, not re-taught.
-- *Into Year 6:* precise location (degrees and minutes), map projections and power, cross-sections and GIS analysis; tectonic hazards at secondary depth; climate graphs, climate controls and responses to climate change; population, migration and cities; development and globalisation (the smartphone); water security at city and national scale; a China–India regional study; and an independent fieldwork enquiry on a new question.
+- *From Years 3–4:* compass, atlas and digital-map skills; biomes including the Arctic tundra; water from source to tap; chocolate and fair trade (Year 3); coasts, the Colorado River, Antarctica and land vs sea ice, mountains, resources and energy (Year 4); fieldwork — retrieved, not re-taught.
+- *Into Year 6:* precise location (degrees and minutes), map projections and power, cross-sections and GIS analysis; tectonic hazards at secondary depth; climate graphs, climate controls and responses to climate change; population, migration and cities; development, aid and globalisation (the smartphone; fair trade retrieved from Year 3); water security at city and national scale; a China–India regional study; and an independent fieldwork enquiry on a new question.
