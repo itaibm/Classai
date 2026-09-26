@@ -4,6 +4,7 @@ import { ConnectBrain } from './screens/ConnectBrain.tsx';
 import { ParentGate } from './screens/ParentGate.tsx';
 import { ParentDashboard } from './screens/ParentDashboard.tsx';
 import { ParentPrompts } from './screens/ParentPrompts.tsx';
+import { ParentGeneratedLessons } from './screens/ParentGeneratedLessons.tsx';
 import { KidDetail } from './screens/KidDetail.tsx';
 import { ScheduleEditor } from './screens/ScheduleEditor.tsx';
 import { ClassLibrary } from './screens/ClassLibrary.tsx';
@@ -18,6 +19,7 @@ export function App() {
   if (path === '/connect') return <ParentGate><ConnectBrain /></ParentGate>;
   if (path === '/parent') return <ParentGate><ParentDashboard /></ParentGate>;
   if (path === '/parent/prompts') return <ParentGate><ParentPrompts /></ParentGate>;
+  if (path === '/parent/generated') return <ParentGate><ParentGeneratedLessons /></ParentGate>;
   if (path === '/parent/classes') return <ParentGate><ClassLibrary /></ParentGate>;
 
   let m;

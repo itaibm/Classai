@@ -69,6 +69,7 @@ export function ParentDashboard() {
           <div className="row" style={{ gap: 8 }}>
             <button className="btn" onClick={() => navigate('/parent/classes')}>📚 Class library</button>
             <button className="btn ghost" onClick={() => navigate('/parent/prompts')}>🔎 AI prompt monitor</button>
+            <button className="btn ghost" onClick={() => navigate('/parent/generated')}>📝 Review AI lessons</button>
             <button className="btn ghost" onClick={() => navigate('/connect')}>
               {brainConnected ? '⚙ Manage AI brain' : '⚡ Connect AI brain'}
             </button>
