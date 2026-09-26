@@ -8,6 +8,7 @@
 import type { ClassDefinition, SchoolYear } from '../../../shared/types.ts';
 import * as db from '../db/index.ts';
 import { curriculumSubjectKey } from './curriculum.ts';
+import { isCurriculumSubject } from './curriculum-catalog.ts';
 
 const now = () => new Date().toISOString();
 
@@ -55,6 +56,7 @@ export function ensureCurriculumClass(year: number, subject: string): ClassDefin
 /** Assign a learner to a subject-year (idempotent enrollment). */
 export function assignCurriculum(kidId: string, year: number, subject: string): ClassDefinition {
   if (!db.kids.get(kidId)) throw new Error('learner not found');
+  if (!isCurriculumSubject(year, subject)) throw new Error('no such subject in the curriculum');
   const cls = ensureCurriculumClass(year, subject);
   if (!db.enrollments.get(cls.id, kidId)) {
     db.enrollments.insert({ id: 'e_' + Math.random().toString(36).slice(2), classId: cls.id, kidId, createdAt: now() });

@@ -9,7 +9,7 @@ import type {
 } from '../../../shared/types.ts';
 import { subjectProfile } from './subjects.ts';
 import {
-  persona, SAFETY, TEACHING_PRINCIPLES,
+  persona, safetyRules, TEACHING_PRINCIPLES,
   syllabusPrompt, lessonAnalysisPrompt, lessonPlanPrompt,
   teachSystemPrompt, teachKickoff, reportPrompt, summaryPrompt
 } from './prompts.ts';
@@ -17,7 +17,7 @@ import {
 // --- sample data (placeholders only) ---------------------------------------
 
 const kid = {
-  id: 'sample', name: 'Alex', age: 12, gradeLevel: '7th grade',
+  id: 'sample', name: 'Alex', age: 7, gradeLevel: 'Year 2',
   interests: ['soccer', 'space', 'drawing'],
   avatar: { character: 'sage', hue: 210, voice: 'default', rate: 1 },
   createdAt: '2026-01-01T00:00:00.000Z'
@@ -102,7 +102,7 @@ export function promptTemplates(): PromptTemplate[] {
       key: 'safety',
       title: 'Safety rules',
       description: 'Hard safety constraints included in every live teaching turn.',
-      system: SAFETY
+      system: safetyRules(kid.age)
     },
     {
       key: 'principles',

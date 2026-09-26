@@ -76,6 +76,8 @@ async function getWhisper(): Promise<any> {
       const device = (navigator as any).gpu ? 'webgpu' : 'wasm';
       return await mod.pipeline('automatic-speech-recognition', 'onnx-community/whisper-base', { device });
     })();
+    // A failed download must not disable the mic until reload — retry next time.
+    whisperPromise.catch(() => { whisperPromise = null; });
   }
   return whisperPromise;
 }
@@ -96,7 +98,21 @@ export interface RecorderHandle {
 export interface RecordOpts {
   /** Live input loudness 0..1, ~60fps, so the UI can prove the mic is hearing you. */
   onLevel?: (level: number) => void;
+  /** Hands-free: call `onStop` once the speaker has talked and then gone quiet
+   *  (or never spoke / talked too long). The caller then stops or cancels. */
+  autoStop?: {
+    onStop: (reason: 'silence' | 'max' | 'no_speech') => void;
+    silenceMs?: number; // quiet after speech that ends the answer (default 1400)
+    maxMs?: number; // hard cap (default 15000)
+    noSpeechMs?: number; // give up if nothing is said (default 8000)
+  };
 }
+
+// Level thresholds (the RMS level below is scaled ×3): young children speak
+// softly and pause mid-sentence, so "speech" is generous and silence must last.
+const SPEECH_LEVEL = 0.12;
+const SILENCE_LEVEL = 0.07;
+const MIN_SPEECH_MS = 300;
 
 /** Press-to-record capture: record the mic, then transcribe in-browser with
  *  Whisper. Reliable on localhost — unlike the Web Speech API, it doesn't depend
@@ -108,10 +124,22 @@ export async function startRecording(opts: RecordOpts = {}): Promise<RecorderHan
   rec.ondataavailable = (e) => { if (e.data && e.data.size) chunks.push(e.data); };
   rec.start();
 
-  // Live level metering (optional) so the UI can show it's actually hearing audio.
+  // Live level metering (optional) so the UI can show it's actually hearing audio,
+  // and so hands-free mode can tell when the child has finished talking.
   let raf = 0;
   let levelCtx: AudioContext | null = null;
-  if (opts.onLevel) {
+  const auto = opts.autoStop;
+  const startedAt = performance.now();
+  let lastT = startedAt;
+  let spokenMs = 0;
+  let quietMs = 0;
+  let fired = false;
+  const fire = (reason: 'silence' | 'max' | 'no_speech') => {
+    if (fired || !auto) return;
+    fired = true;
+    auto.onStop(reason);
+  };
+  if (opts.onLevel || auto) {
     try {
       levelCtx = new AudioContext();
       const analyser = levelCtx.createAnalyser();
@@ -125,7 +153,19 @@ export async function startRecording(opts: RecordOpts = {}): Promise<RecorderHan
           const v = (data[i]! - 128) / 128;
           sum += v * v;
         }
-        opts.onLevel!(Math.min(1, Math.sqrt(sum / data.length) * 3)); // RMS, scaled for visibility
+        const level = Math.min(1, Math.sqrt(sum / data.length) * 3); // RMS, scaled for visibility
+        opts.onLevel?.(level);
+        if (auto && !fired) {
+          const now = performance.now();
+          const dt = now - lastT;
+          lastT = now;
+          if (level > SPEECH_LEVEL) { spokenMs += dt; quietMs = 0; }
+          else if (level < SILENCE_LEVEL) quietMs += dt;
+          const elapsed = now - startedAt;
+          if (spokenMs >= MIN_SPEECH_MS && quietMs >= (auto.silenceMs ?? 1400)) fire('silence');
+          else if (elapsed >= (auto.maxMs ?? 15000)) fire(spokenMs >= MIN_SPEECH_MS ? 'max' : 'no_speech');
+          else if (spokenMs < MIN_SPEECH_MS && elapsed >= (auto.noSpeechMs ?? 8000)) fire('no_speech');
+        }
         raf = requestAnimationFrame(tick);
       };
       raf = requestAnimationFrame(tick);
@@ -152,8 +192,12 @@ export async function startRecording(opts: RecordOpts = {}): Promise<RecorderHan
       const buf = await blob.arrayBuffer();
       if (!buf.byteLength) return '';
       const ctx = new AudioContext({ sampleRate: 16000 });
-      const audio = await ctx.decodeAudioData(buf);
-      const mono = audio.getChannelData(0);
+      let mono: Float32Array;
+      try {
+        mono = (await ctx.decodeAudioData(buf)).getChannelData(0);
+      } finally {
+        ctx.close().catch(() => {}); // one per answer — must not leak
+      }
       const asr = await getWhisper();
       const out = await asr(mono);
       return (out?.text || '').trim();

@@ -27,15 +27,37 @@ import type {
   LessonFull,
   CatalogYear,
   CatalogLessonDetail,
-  AssignedSubject
+  AssignedSubject,
+  LessonStats
 } from '@shared/types';
 
+/** Parent session token from the PIN gate (sent on every request; the server
+ *  decides which routes need it). */
+export const PARENT_TOKEN_KEY = 'classai_parent_token';
+const parentToken = (): string | null => {
+  try {
+    return sessionStorage.getItem(PARENT_TOKEN_KEY);
+  } catch {
+    return null;
+  }
+};
+
 async function req<T>(path: string, opts: RequestInit = {}): Promise<T> {
+  const token = parentToken();
   const res = await fetch(`/api${path}`, {
-    headers: { 'content-type': 'application/json' },
-    ...opts
+    ...opts,
+    headers: { 'content-type': 'application/json', ...(token ? { 'x-parent-token': token } : {}) }
   });
   const data = await res.json().catch(() => ({}));
+  if (res.status === 401 && (data as any).error === 'parent_auth_required' && token) {
+    // Token expired (or the server restarted): drop it and show the PIN gate again.
+    try {
+      sessionStorage.removeItem(PARENT_TOKEN_KEY);
+    } catch {
+      /* storage unavailable */
+    }
+    window.location.reload();
+  }
   if (!res.ok) throw new Error((data as any).error || `Request failed (${res.status})`);
   return data as T;
 }
@@ -86,8 +108,8 @@ export const api = {
 
   // parent gate
   parentStatus: () => req<{ pinSet: boolean }>('/parent/status'),
-  parentSetPin: (pin: string) => req('/parent/set-pin', { method: 'POST', body: JSON.stringify({ pin }) }),
-  parentVerify: (pin: string) => req<{ ok: boolean }>('/parent/verify', { method: 'POST', body: JSON.stringify({ pin }) }),
+  parentSetPin: (pin: string) => req<{ ok: boolean; token: string }>('/parent/set-pin', { method: 'POST', body: JSON.stringify({ pin }) }),
+  parentVerify: (pin: string) => req<{ ok: boolean; token: string }>('/parent/verify', { method: 'POST', body: JSON.stringify({ pin }) }),
 
   // prompt inspector
   promptInspector: () => req<{ templates: PromptTemplate[]; log: PromptLogEntry[] }>('/parent/prompts'),
@@ -173,16 +195,16 @@ export const api = {
   catalogLesson: (id: string) => req<{ lesson: CatalogLessonDetail }>(`/catalog/lessons/${encodeURIComponent(id)}`),
   assignCurriculum: (kidId: string, year: number, subject: string) =>
     req<{ classId: string }>('/catalog/assign', { method: 'POST', body: JSON.stringify({ kidId, year, subject }) }),
-  startCatalogLesson: (id: string, kidId: string) =>
-    req<{ sessionId: string }>(`/catalog/lessons/${encodeURIComponent(id)}/start`, { method: 'POST', body: JSON.stringify({ kidId }) }),
+  startCatalogLesson: (id: string, kidId: string, theme?: string) =>
+    req<{ sessionId: string }>(`/catalog/lessons/${encodeURIComponent(id)}/start`, { method: 'POST', body: JSON.stringify({ kidId, theme }) }),
   kidCurriculum: (kidId: string) => req<{ subjects: AssignedSubject[] }>(`/kids/${kidId}/curriculum`),
 
   // teaching
-  startLesson: (lessonId: string, kidId: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
-    method: 'POST', body: JSON.stringify({ kidId })
+  startLesson: (lessonId: string, kidId: string, theme?: string) => req<{ sessionId: string }>(`/lessons/${lessonId}/start`, {
+    method: 'POST', body: JSON.stringify({ kidId, theme })
   }),
   turn: (sessionId: string, response?: KidResponse) =>
-    req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number } }>(
+    req<{ turn: TeacherTurn; ended: boolean; sessionId: string; beat: { index: number; total: number }; stats?: LessonStats }>(
       `/sessions/${sessionId}/turn`,
       { method: 'POST', body: JSON.stringify({ response }) }
     ),

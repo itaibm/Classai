@@ -1,10 +1,9 @@
 /** Classai server: Fastify API + (in production) static client. */
 import Fastify from 'fastify';
-import cors from '@fastify/cors';
 import fastifyStatic from '@fastify/static';
 import fs from 'node:fs';
 import { registerRoutes } from './routes.ts';
-import { PORT, IS_PROD, CLIENT_DIST } from './config.ts';
+import { PORT, HOST, IS_PROD, CLIENT_DIST } from './config.ts';
 
 const app = Fastify({
   logger: { level: process.env.LOG_LEVEL || 'info' },
@@ -25,7 +24,8 @@ app.addContentTypeParser('application/json', { parseAs: 'string' }, (_req, body,
   }
 });
 
-await app.register(cors, { origin: true });
+// No CORS: the client is same-origin (Vite proxies /api in dev), and reflecting
+// any Origin would let every website the parent visits drive this API.
 await registerRoutes(app);
 
 // In production, serve the built SPA and fall back to index.html for routes.
@@ -38,7 +38,7 @@ if (IS_PROD && fs.existsSync(CLIENT_DIST)) {
 }
 
 app
-  .listen({ port: PORT, host: '0.0.0.0' })
+  .listen({ port: PORT, host: HOST })
   .then(() => app.log.info(`Classai listening on http://localhost:${PORT}`))
   .catch((err) => {
     app.log.error(err);

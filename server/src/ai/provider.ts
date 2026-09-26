@@ -211,14 +211,17 @@ async function anthropicBrain(p: ReturnType<typeof authStore.getStored> & object
             ...(system ? [{ type: 'text' as const, text: system }] : [])
           ]
         : system;
+      const thinking = quality === 'deep' && supportsAdaptiveThinking;
       const res = await client.messages.create({
         model,
-        max_tokens: maxTokens,
+        // Thinking tokens count against max_tokens — give them headroom so the
+        // JSON answer isn't truncated after a long think.
+        max_tokens: thinking ? maxTokens + 6000 : maxTokens,
         system: sys as any,
         // 'deep' tasks (syllabus/report) get adaptive thinking where supported; live turns stay snappy.
-        ...(quality === 'deep' && supportsAdaptiveThinking ? { thinking: { type: 'adaptive' as const } } : {}),
+        ...(thinking ? { thinking: { type: 'adaptive' as const } } : {}),
         messages: messages.map((m) => ({ role: m.role, content: m.content }))
-      } as any);
+      } as any, { timeout: timeoutFor(quality), maxRetries: 1 });
       const text = (res.content || [])
         .filter((b: any) => b.type === 'text')
         .map((b: any) => b.text)
@@ -252,7 +255,7 @@ async function openaiBrain(p: ReturnType<typeof authStore.getStored> & object): 
     return {
       vendor: 'openai',
       model,
-      async generate({ system, messages, maxTokens = 1400, json }) {
+      async generate({ system, messages, maxTokens = 1400, json, quality }) {
         const res = await client.chat.completions.create({
           model,
           messages: [{ role: 'system', content: system }, ...messages],
@@ -260,13 +263,36 @@ async function openaiBrain(p: ReturnType<typeof authStore.getStored> & object): 
             ? { max_completion_tokens: maxTokens + 2000, reasoning_effort: 'low' as const }
             : { max_tokens: maxTokens }),
           ...(json ? { response_format: { type: 'json_object' as const } } : {})
-        });
+        }, { timeout: timeoutFor(quality), maxRetries: 1 });
         return (res.choices[0]?.message?.content || '').trim();
       }
     };
   }
 
   throw new NoBrainError();
+}
+
+/** Per-call timeout: a live turn must fail fast enough for the learner to retry;
+ *  'deep' calls (syllabus, report) think for longer. */
+function timeoutFor(quality: GenerateOptions['quality']): number {
+  return quality === 'deep' ? 180_000 : 60_000;
+}
+
+/** One in-flight refresh per profile — OpenAI rotates refresh tokens, so two
+ *  concurrent refreshes with the same token can log the user out. */
+const codexRefreshes = new Map<string, ReturnType<typeof refreshOpenAI>>();
+function refreshCodexTokens(profileId: string, refresh: string): ReturnType<typeof refreshOpenAI> {
+  let pending = codexRefreshes.get(profileId);
+  if (!pending) {
+    pending = refreshOpenAI(refresh)
+      .then((tokens) => {
+        authStore.updateTokens(profileId, tokens);
+        return tokens;
+      })
+      .finally(() => codexRefreshes.delete(profileId));
+    codexRefreshes.set(profileId, pending);
+  }
+  return pending;
 }
 
 const CODEX_BASE = process.env.OPENAI_OAUTH_BASE_URL || 'https://chatgpt.com/backend-api/codex';
@@ -282,11 +308,10 @@ async function codexBrain(p: ReturnType<typeof authStore.getStored> & object, mo
   return {
     vendor: 'openai',
     model: codexModel,
-    async generate({ system, messages }) {
-      let oauth = p!.oauth!;
+    async generate({ system, messages, quality }) {
+      let oauth = authStore.getStored(p!.id)?.oauth ?? p!.oauth!;
       if (oauth.expires && oauth.refresh && oauth.expires < Date.now() + 60_000) {
-        oauth = await refreshOpenAI(oauth.refresh);
-        authStore.updateTokens(p!.id, oauth);
+        oauth = await refreshCodexTokens(p!.id, oauth.refresh);
       }
       const input = messages.map((m) => ({
         type: 'message',
@@ -312,7 +337,8 @@ async function codexBrain(p: ReturnType<typeof authStore.getStored> & object, mo
           stream: true, // required by the codex backend
           store: false, // required by the codex backend
           reasoning: { effort: 'low' } // keep turns snappy
-        })
+        }),
+        signal: AbortSignal.timeout(timeoutFor(quality))
       });
       if (!res.ok || !res.body) {
         const detail = await res.text().catch(() => '');
@@ -336,21 +362,29 @@ async function readCodexStream(body: ReadableStream<Uint8Array>): Promise<string
     buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split('\n');
     buffer = lines.pop() || '';
-    for (const line of lines) {
-      const trimmed = line.trim();
-      if (!trimmed.startsWith('data:')) continue;
-      const payload = trimmed.slice(5).trim();
-      if (!payload || payload === '[DONE]') continue;
-      try {
-        const evt = JSON.parse(payload);
-        if (evt.type === 'response.output_text.delta' && typeof evt.delta === 'string') out += evt.delta;
-        else if (evt.type === 'response.output_text.done' && typeof evt.text === 'string') doneText = evt.text;
-      } catch {
-        /* ignore keep-alives / non-JSON frames */
-      }
+    for (const line of lines) handle(line);
+  }
+  handle(buffer); // a final frame may arrive without a trailing newline
+  return (out || doneText).trim();
+
+  function handle(line: string): void {
+    const trimmed = line.trim();
+    if (!trimmed.startsWith('data:')) return;
+    const payload = trimmed.slice(5).trim();
+    if (!payload || payload === '[DONE]') return;
+    let evt: any;
+    try {
+      evt = JSON.parse(payload);
+    } catch {
+      return; // keep-alives / non-JSON frames
+    }
+    if (evt.type === 'response.output_text.delta' && typeof evt.delta === 'string') out += evt.delta;
+    else if (evt.type === 'response.output_text.done' && typeof evt.text === 'string') doneText = evt.text;
+    else if (evt.type === 'response.failed' || evt.type === 'error') {
+      const msg = evt.response?.error?.message || evt.error?.message || evt.message || 'response failed';
+      throw new Error(`Codex: ${msg}`);
     }
   }
-  return (out || doneText).trim();
 }
 
 // ---- Local (Ollama / any OpenAI-compatible) -------------------------------
@@ -372,7 +406,7 @@ async function localBrain(p: ReturnType<typeof authStore.getStored> & object): P
         model,
         max_tokens: maxTokens,
         messages: [{ role: 'system', content: system }, ...messages]
-      });
+      }, { timeout: 180_000 }); // local models on consumer hardware can be slow
       return (res.choices[0]?.message?.content || '').trim();
     }
   };

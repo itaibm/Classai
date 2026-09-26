@@ -95,7 +95,7 @@
       "note": "Anchor phrase: 'Past the 6 → count the minutes LEFT → say ___ to.' Model minute hand on the 8 (20 to) and on the 9 (quarter to). Name the '40 past' trap out loud so it never traps them.",
       "successCriteria": "Child hears the rule and echoes 'count what's left' for a hand on the left side.",
       "script": {
-        "say": "Here's the secret. The LEFT side of the clock, from the 6 round to the 12, is the 'TO' side. There, we count how many minutes are LEFT until the next hour. Watch: the minute hand is on the 8. I count from the 8 up to the 12 — 5, 10, 15, 20. Twenty minutes left! So it's TWENTY TO the next hour — not 40 past. Nobody says 40 past! And when the hand is on the 9, there are 15 minutes left — we call that QUARTER TO. Say the rule with me: past the 6, count what's LEFT, say '___ to'.",
+        "say": "Here's the secret. The LEFT side of the clock, from the 6 round to the 12, is the 'TO' side. There, we count how many minutes are LEFT until the next hour. Watch: the minute hand is on the 8. I count from the 8 up to the 12 — 5, 10, 15, 20. Twenty minutes left! So on a clock face we say TWENTY TO the next hour. (A digital clock would show it as 5:40 — 'five forty' — that's the same time, said a different way.) And when the hand is on the 9, there are 15 minutes left — we call that QUARTER TO. Say the rule with me: past the 6, count what's LEFT, say '___ to'.",
         "adaptHints": "Sweep slowly and count the 5s with the child. If they love countdowns (rockets, races), frame it as 'the countdown side of the clock'."
       },
       "blocks": [
@@ -295,7 +295,7 @@
         { "answer": "20 past", "why": "counted the right amount but said the wrong side", "remedy": "Good counting — 20 is right! But the hand is on the LEFT side. Left side means minutes left, so twenty…?" }
       ],
       "hints": ["Which side of the clock is the 8 on?", "Count from the 8 up to the 12: 5, 10, 15…"],
-      "reteach": { "say": "The 8 lives on the countdown side. Count what's left: 8 to 9 is 5, to 10 is 10, to 11 is 15, to 12 is 20. Twenty minutes to the next hour — 20 to. Nobody says 40 past!", "block": { "type": "emojiViz", "emojis": "🕗 ➡ 5️⃣ 🔟 1️⃣5️⃣ 2️⃣0️⃣", "caption": "8 up to 12 = 20 minutes left → 20 to" } }
+      "reteach": { "say": "The 8 lives on the countdown side. Count what's left: 8 to 9 is 5, to 10 is 10, to 11 is 15, to 12 is 20. Twenty minutes to the next hour — on a clock face we say 20 to.", "block": { "type": "emojiViz", "emojis": "🕗 ➡ 5️⃣ 🔟 1️⃣5️⃣ 2️⃣0️⃣", "caption": "8 up to 12 = 20 minutes left → 20 to" } }
     },
     {
       "id": "l20-p05", "skill": "set a 'to' time", "level": 2,
@@ -341,13 +341,13 @@
     },
     {
       "id": "l20-p09", "skill": "read minutes to", "level": 3,
-      "block": { "type": "trueFalse", "statement": "When the minute hand is on the 8, the time is '40 past'.", "correct": false, "explain": "After half past we count the minutes LEFT: from the 8 up to the 12 is 20 — so it's 20 to, not 40 past." },
-      "expectedAnswer": "False",
+      "block": { "type": "trueFalse", "statement": "When the minute hand is on the 8, there are 20 minutes left until the next hour.", "correct": true, "explain": "After half past we count the minutes LEFT: from the 8 up to the 12 is 20 — so we say 20 to. (40 minutes have gone, 20 are left: 40 + 20 = 60.)" },
+      "expectedAnswer": "True",
       "wrongAnswers": [
-        { "answer": "True", "why": "the lesson's core misconception — counting up past the 6", "remedy": "40 minutes HAVE gone by — that's true — but clocks don't say it that way. What do we count once the hand passes the 6?" }
+        { "answer": "False", "why": "counting the minutes gone (40) instead of the minutes left", "remedy": "40 minutes HAVE gone by — but how many are LEFT until the 12? Count from the 8 up to the 12 in 5s." }
       ],
-      "hints": ["What do we count after half past — minutes gone, or minutes left?", "Count from the 8 up to the 12 in 5s."],
-      "reteach": { "say": "Sneaky one! Forty minutes really have gone past — but after half past, clock language flips to the countdown. Twenty minutes are left, so we say 20 to. Same moment, better words.", "block": { "type": "emojiViz", "emojis": "⬆40 gone ❌ | ⬇20 left ✅", "caption": "Minute hand on the 8: we say 20 to" } }
+      "hints": ["After half past we count minutes left, not minutes gone.", "Count from the 8 up to the 12 in 5s."],
+      "reteach": { "say": "Sneaky one! Forty minutes really have gone past — and twenty are left. After half past, clock language flips to the countdown, so we say 20 to. Same moment, two ways to see it.", "block": { "type": "emojiViz", "emojis": "⬆ 40 gone · ⬇ 20 left", "caption": "Minute hand on the 8: 20 left, so we say 20 to" } }
     },
     {
       "id": "l20-p10", "skill": "explain the switch", "level": 3,

@@ -27,3 +27,8 @@ export const IS_PROD = process.env.NODE_ENV === 'production';
 export const CLIENT_DIST = path.join(repoRoot, 'client', 'dist');
 
 export const PARENT_PIN_ENV = process.env.CLASSAI_PARENT_PIN || '';
+
+/** Listen address. Loopback by default: learner data and brain credentials must
+ *  not be reachable from the LAN (the mic only works on localhost anyway). Set
+ *  CLASSAI_HOST=0.0.0.0 to deliberately expose it. */
+export const HOST = process.env.CLASSAI_HOST || '127.0.0.1';

@@ -440,3 +440,36 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); bo
 .spinner { width: 22px; height: 22px; border: 3px solid var(--line); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 12px; box-shadow: var(--shadow); z-index: 50; }
+
+/* ---- engagement: answer streak + end-of-lesson stars ---- */
+.streak-pill {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 10px; border-radius: 999px; font-weight: 700; font-size: 14px;
+  background: #fff4e0; color: #b8610a; border: 1px solid #f3c98a;
+  animation: streak-pop .35s ease-out;
+}
+@keyframes streak-pop { 0% { transform: scale(.6); opacity: 0; } 70% { transform: scale(1.12); } 100% { transform: scale(1); opacity: 1; } }
+.stars { display: flex; justify-content: center; gap: 8px; margin: 6px 0 10px; font-size: 44px; line-height: 1; }
+.stars .star { color: var(--line); }
+.stars .star.on { color: #f5b301; animation: star-pop .45s ease-out both; }
+.stars .star.on:nth-child(2) { animation-delay: .2s; }
+.stars .star.on:nth-child(3) { animation-delay: .4s; }
+@keyframes star-pop { 0% { transform: scale(0) rotate(-30deg); } 70% { transform: scale(1.25) rotate(8deg); } 100% { transform: scale(1) rotate(0); } }
+@media (prefers-reduced-motion: reduce) { .streak-pill, .stars .star.on { animation: none; } }
+
+/* ---- hands-free answer preview + read-aloud ---- */
+.sending .heard { font-size: 20px; font-weight: 600; margin: 0; }
+.read-aloud { border: none; background: var(--accent-soft, #eef0ff); border-radius: 999px; min-width: 44px; min-height: 44px; font-size: 20px; cursor: pointer; margin-left: 6px; vertical-align: middle; }
+.read-aloud:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.choice.reading, .chip-btn.reading { outline: 3px solid var(--accent); outline-offset: 2px; }
+.theme-chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.theme-chip { min-height: 48px; padding: 8px 18px; border-radius: 999px; border: 2px solid var(--line); background: #fff; font-size: 17px; font-weight: 600; cursor: pointer; text-transform: capitalize; }
+.theme-chip.on { border-color: var(--accent); background: var(--accent-soft, #eef0ff); }
+.theme-chip:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* ---- phones: bigger word choices, icon-only classroom controls ---- */
+.chip-btn { min-height: 48px; min-width: 48px; font-size: 1.1rem; }
+@media (max-width: 640px) {
+  .classroom .topbar .lbl, .classroom .topbar .topbar-title { display: none; }
+  .classroom .topbar .btn.small { min-width: 44px; min-height: 44px; padding: 6px 10px; font-size: 1.1rem; }
+}

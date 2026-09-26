@@ -466,6 +466,11 @@ export interface CatalogLessonDetail {
 }
 
 /** A learner's assigned subject-year with per-lesson completion (learner home). */
+/** A catalog lesson as one learner sees it. `done` = learned (mastered, or
+ *  moved on after two tries); `tryAgain` = finished once without mastery, so
+ *  it's offered again before the next new lesson. */
+export type AssignedLesson = CatalogLesson & { done: boolean; stars?: 1 | 2 | 3; tryAgain?: boolean };
+
 export interface AssignedSubject {
   classId: string;
   year: number;
@@ -473,7 +478,7 @@ export interface AssignedSubject {
   subjectKey: SubjectKey;
   subjectLabel: string;
   yearOverview: string;
-  units: (CatalogUnit & { lessons: (CatalogLesson & { done: boolean })[] })[];
+  units: (CatalogUnit & { lessons: AssignedLesson[] })[];
   completed: number;
   total: number;
 }
@@ -699,6 +704,9 @@ export interface TeacherTurn {
   // ---- authored-lesson extensions (deterministic, set by the director) ----
   handoff?: HandoffCard; // human beat: client shows a handoff card instead of TTS
   watchTask?: string; // curated-video turn: what to watch for, shown before play
+  /** false = on a miss, mark the choice wrong but DON'T show the right answer —
+   *  the tutor will hint and re-ask (showing it would make the retry meaningless). */
+  revealAnswer?: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -753,6 +761,8 @@ export interface WorkingMemory {
   // ---- authored-lesson director state (only set for `classai-lesson/1`) ----
   practice?: PracticeState; // the practice-bank adaptivity state machine
   authored?: AuthoredState; // where we are within the authored beat sequence
+  lessonMastery?: number; // 0..1, the director's estimate, set when the lesson ends
+  theme?: string; // today's theme the learner picked (one of their interests) — frames examples, never facts
 }
 
 /** Deterministic practice-bank adaptivity state (see teach/practice.ts). */
@@ -762,7 +772,8 @@ export interface PracticeState {
   missesBySkill: Record<string, number>; // consecutive misses per skill
   usedItemIds: string[]; // items already served this session
   attemptsByItem: Record<string, number>; // attempts on the currently-open item (hint ladder)
-  correctCount: number; // total practice items answered correctly
+  correctCount: number; // total practice items answered correctly (incl. after a hint)
+  firstTryCorrect?: number; // items answered correctly on the first attempt — the honest accuracy signal
   askedCount: number; // total practice items served
   currentItemId?: string; // the item awaiting an answer
   lastItemId?: string; // last served item (no back-to-back repeats)
@@ -780,13 +791,39 @@ export type AuthoredPending =
   | 'beat_check' // a check block is out; waiting for the answer
   | 'practice_item' // a practice item is out; waiting for the answer
   | 'reteach' // a reteach explanation is out; waiting for continue
-  | 'recovery_item'; // an end-on-success item is out; waiting for the answer
+  | 'recovery_item' // an end-on-success item is out; waiting for the answer
+  | 'beat_guided' // an explain/example beat's "we do" question is out; graded, remedied, then advanced
+  | 'recap_teachback' // the recap asked the learner to explain the idea in their own words
+  | 'warmup_item' // a retrieval warm-up question from an earlier lesson is out
+  | 'warmup_reveal'; // a missed warm-up's answer was just shown; continue → next warm-up / the lesson
 
 /** Tracks progress through an authored lesson's special (non-LLM) moments. */
 export interface AuthoredState {
   pending?: AuthoredPending; // what the last turn asked, resolved on the next response
   humanRunEnd?: number; // beatIndex to resume at after a merged run of human beats
   videoDone?: boolean; // the lesson-level curated video has been shown (or skipped)
+  misses?: number; // consecutive misses on the currently-open check / guided / recovery item
+  /** Outcome of the learner's last answer, fed to the next voiced turn so the
+   *  tutor gives feedback instead of jumping straight to the next script. */
+  lastResult?: 'correct' | 'prediction';
+  streak?: number; // correct answers in a row (shown to the learner)
+  /** Retrieval warm-up: questions from earlier lessons, served before the hook. */
+  warmup?: { items: WarmupItem[]; index: number };
+}
+
+export interface WarmupItem {
+  item: PracticeItem;
+  fromLessonId: string;
+  fromTitle: string;
+}
+
+/** Kid-facing progress for the current lesson (streaks, stars). */
+export interface LessonStats {
+  streak: number; // correct answers in a row
+  correct: number; // answers judged correct (incl. retries)
+  answered: number; // answers judged
+  mastery?: number; // 0..1, set when the lesson ends
+  stars?: 1 | 2 | 3; // set when the lesson ends
 }
 
 export interface MemoryEpisode {

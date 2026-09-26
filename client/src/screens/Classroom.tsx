@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Kid, Lesson, TeacherTurn, Emotion, LessonReport, LessonBlock, BlockResult, HandoffCard } from '@shared/types';
+import type { Kid, Lesson, TeacherTurn, Emotion, LessonStats, LessonBlock, BlockResult, HandoffCard } from '@shared/types';
 import { blockIsInteractive } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { Character } from '../avatar/Character.tsx';
 import { BlockView, AnswerInput } from '../blocks/BlockView.tsx';
+import { ReadAloudContext, type ReadFn } from '../blocks/readAloud.tsx';
 import { speak, unlockAudio, type SpeakHandle } from '../voice/tts.ts';
 import { subjectStyle } from '../lib/subject.ts';
 
@@ -13,6 +14,7 @@ type Phase = 'gate' | 'starting' | 'thinking' | 'speaking' | 'awaiting' | 'ended
 const HD_KEY = 'classai_hd';
 const MUTE_KEY = 'classai_mute';
 const MIC_KEY = 'classai_mic';
+const HANDSFREE_KEY = 'classai_handsfree';
 
 export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; kidId: string; catalogId?: string }) {
   const [kid, setKid] = useState<Kid | null>(null);
@@ -29,7 +31,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   const [autoAdvance, setAutoAdvance] = useState(true); // explanation turn flows on automatically
   const [continueLabel, setContinueLabel] = useState(''); // AI-chosen advance button text
   const [errMsg, setErrMsg] = useState('');
-  const [report, setReport] = useState<LessonReport | null>(null);
+  const [stats, setStats] = useState<LessonStats | null>(null); // streak now; stars at the end
+  const [reveal, setReveal] = useState(true); // false: a miss is marked wrong without showing the answer
   const [subjectKey, setSubjectKey] = useState<string>('');
   const [beat, setBeat] = useState<{ index: number; total: number } | null>(null);
   const [handoff, setHandoff] = useState<HandoffCard | null>(null); // parent-run beat card
@@ -37,6 +40,14 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   const [hd, setHd] = useState(localStorage.getItem(HD_KEY) === '1');
   const [muted, setMuted] = useState(localStorage.getItem(MUTE_KEY) === '1');
   const [micOn, setMicOn] = useState(localStorage.getItem(MIC_KEY) !== '0'); // default on
+  // Hands-free talking: default ON for young learners (ages ≤ 8), who can't
+  // manage tap-talk-tap-send. Resolved once the learner loads; toggle persists.
+  const [handsFree, setHandsFree] = useState<boolean | null>(() => {
+    const v = localStorage.getItem(HANDSFREE_KEY);
+    return v === null ? null : v === '1';
+  });
+  const [theme, setTheme] = useState<string | undefined>(undefined); // today's theme, picked by the learner
+  const [explicitAsk, setExplicitAsk] = useState(false); // the director marked this turn as awaiting a spoken answer
   const [listening, setListening] = useState(false); // mic actively recording (for top-bar indicator)
 
   const sessionRef = useRef<string>('');
@@ -69,6 +80,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   }
   const kidRef = useRef<Kid | null>(null);
   const mutedRef = useRef(muted);
+  const turnInFlightRef = useRef(false);
+  const lastResponseRef = useRef<Parameters<typeof fetchTurn>[0]>(undefined);
   const hdRef = useRef(hd);
   mutedRef.current = muted;
   hdRef.current = hd;
@@ -81,6 +94,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
         if (cancelled) return;
         setKid(kid);
         kidRef.current = kid;
+        setHandsFree((h) => (h === null ? kid.age <= 8 : h));
         if (catalogId) {
           // Curriculum lesson — may be authored (ready) or outline (AI builds it on start).
           const { lesson: ref } = await api.catalogLesson(catalogId);
@@ -118,8 +132,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setPhase('starting');
     try {
       const { sessionId } = catalogId
-        ? await api.startCatalogLesson(catalogId, kidId)
-        : await api.startLesson(lessonId!, kidId);
+        ? await api.startCatalogLesson(catalogId, kidId, theme)
+        : await api.startLesson(lessonId!, kidId, theme);
       sessionRef.current = sessionId;
       fetchTurn();
     } catch (e: any) {
@@ -129,6 +143,10 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   }
 
   async function fetchTurn(response?: { text: string; via: 'block' | 'continue'; correct?: boolean; confused?: boolean }) {
+    // One request at a time: an auto-advance timer racing a tap must not send two.
+    if (turnInFlightRef.current) return;
+    turnInFlightRef.current = true;
+    lastResponseRef.current = response; // so "Try again" resends the kid's answer
     setPhase('thinking');
     setEmotion('thinking');
     setCaptions('');
@@ -139,12 +157,16 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setHandoff(null);
     setListening(false);
     try {
-      const { turn, ended, beat } = await api.turn(sessionRef.current, response as any);
+      const { turn, ended, beat, stats } = await api.turn(sessionRef.current, response as any);
       setBeat(beat);
+      if (stats) setStats(stats);
       present(turn, ended);
     } catch (e: any) {
       setErrMsg(e.message || 'The tutor had trouble responding.');
+      setEmotion('gentle');
       setPhase('error');
+    } finally {
+      turnInFlightRef.current = false;
     }
   }
 
@@ -167,8 +189,10 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setHandoff(null);
     setCaptions(turn.speech);
     setBlocks(turn.blocks ?? (turn.block ? [turn.block] : []));
+    setReveal(turn.revealAnswer ?? true);
     // The turn expects a spoken/typed answer only if it says so, or its speech is
     // clearly a question. Otherwise it's an explanation — lead with Continue.
+    setExplicitAsk(!!turn.awaitResponse);
     setExpectsAnswer(!!turn.awaitResponse || /\?\s*["'”’)\]]*\s*$/.test((turn.speech || '').trim()));
     // Auto-advance only pure-speech transitions by default; when there's a visual
     // to study (table/diagram/steps/slideshow) wait for the kid — unless the tutor
@@ -198,9 +222,11 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     // onend (long text, tab blur, no loaded voice). Without this, the lesson is
     // stranded in 'speaking' forever and the learner never gets a way to answer.
     // Cap generously above expected speech length so it only fires on real hangs.
+    // Scale by the kid's speech rate: at a slower voice the real speech runs longer.
+    const rate = Math.max(0.5, kidRef.current?.avatar.rate ?? 1);
     const cap = mutedRef.current
-      ? Math.min(6000, 900 + turn.speech.length * 35)
-      : Math.min(60000, 5000 + turn.speech.length * 90);
+      ? Math.min(6000, 900 + turn.speech.length * 35) // muted: just finish the text reveal
+      : Math.min(90000, (5000 + turn.speech.length * 90) / rate);
     watchdogRef.current = window.setTimeout(afterSpeech, cap);
 
     if (mutedRef.current) return; // muted: the watchdog alone advances the turn
@@ -220,12 +246,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setPhase('ended');
     setEmotion('celebrating');
     setBlocks([]);
-    try {
-      const { session } = await api.session(sessionRef.current);
-      setReport(session.report || null);
-    } catch {
-      /* report optional */
-    }
+    // (The parent's progress report is written server-side and shown in the parent area.)
   }
 
   const onBlockComplete = (r: BlockResult) => {
@@ -248,6 +269,31 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   };
 
 
+  // Read a question + its options aloud on request (tapping 🔊 on a block).
+  // Each part has its own watchdog: browser speech often never fires onend.
+  const readAloud: ReadFn = (parts, onPart) => {
+    speakRef.current?.stop();
+    let i = 0;
+    let stopped = false;
+    let handle: SpeakHandle | null = null;
+    let guard = 0;
+    const next = () => {
+      window.clearTimeout(guard);
+      if (stopped) return;
+      if (i >= parts.length) { onPart?.(-1); return; }
+      const idx = i++;
+      const text = parts[idx]!;
+      onPart?.(idx);
+      let advanced = false;
+      const advance = () => { if (!advanced) { advanced = true; window.setTimeout(next, 250); } };
+      const rate = Math.max(0.5, kidRef.current?.avatar.rate ?? 1);
+      guard = window.setTimeout(advance, (1200 + text.length * 85) / rate);
+      handle = speak({ text, hd: hdRef.current, rate, voice: hdRef.current ? 'af_heart' : kidRef.current?.avatar.voice, onEnd: advance });
+    };
+    next();
+    return () => { stopped = true; window.clearTimeout(guard); handle?.stop(); onPart?.(-1); };
+  };
+
   const hue = kid?.avatar.hue ?? 210;
   const speaking = phase === 'speaking';
   const interactiveIdx = blocks.findIndex((b) => blockIsInteractive(b));
@@ -259,19 +305,21 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   // when the tutor opted in (autoAdvance). After a key idea the tutor sets
   // autoAdvance=false so the kid actively confirms ("I got it!") before moving on.
   useEffect(() => {
-    if (!awaitingNoBlock || expectsAnswer || !autoAdvance) return;
+    // Muted means the child is reading, and early readers need their own pace — never auto-advance then.
+    if (!awaitingNoBlock || expectsAnswer || !autoAdvance || muted) return;
     const ms = Math.min(9000, Math.max(4000, 2500 + captions.length * 25));
     const t = window.setTimeout(() => onContinue(), ms);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [awaitingNoBlock, expectsAnswer, autoAdvance, turnSeq]);
+  }, [awaitingNoBlock, expectsAnswer, autoAdvance, muted, turnSeq]);
 
   return (
+    <ReadAloudContext.Provider value={readAloud}>
     <div className="app classroom" style={{ ['--accent-h' as any]: hue, ...subjectStyle(subjectKey) }}>
       <div className="topbar">
         <div className="brand" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>← Leave class</div>
         <div className="spacer" />
-        <span className="muted small">{lesson?.title}</span>
+        <span className="muted small topbar-title">{lesson?.title}</span>
         {listening && (
           <span className="listening-pill" title="Microphone is listening">
             <span className="rec-dot" /> Listening…
@@ -280,15 +328,24 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
         <button
           className="btn ghost small"
           title={micOn ? 'Microphone is on — click to turn off' : 'Microphone is off — click to turn on'}
+          aria-label={micOn ? 'Microphone on' : 'Microphone off'}
           onClick={() => setMicOn((m) => { localStorage.setItem(MIC_KEY, m ? '0' : '1'); return !m; })}
         >
-          {micOn ? '🎙️ Mic on' : '🎙️ Mic off'}
+          <span aria-hidden="true">🎙️</span><span className="lbl">{micOn ? ' Mic on' : ' Mic off'}</span>
         </button>
-        <button className="btn ghost small" onClick={() => setMuted((m) => { localStorage.setItem(MUTE_KEY, m ? '0' : '1'); return !m; })}>
-          {muted ? '🔇 Muted' : '🔊 Voice on'}
+        <button
+          className="btn ghost small"
+          title="Hands-free: when the tutor asks you something, the mic listens and sends your answer by itself"
+          aria-label={handsFree ? 'Hands-free talking on' : 'Tap to talk'}
+          onClick={() => setHandsFree((h) => { localStorage.setItem(HANDSFREE_KEY, h ? '0' : '1'); return !h; })}
+        >
+          <span aria-hidden="true">{handsFree ? '🙌' : '👆'}</span><span className="lbl">{handsFree ? ' Hands-free' : ' Tap to talk'}</span>
+        </button>
+        <button className="btn ghost small" aria-label={muted ? 'Voice muted' : 'Voice on'} onClick={() => setMuted((m) => { localStorage.setItem(MUTE_KEY, m ? '0' : '1'); return !m; })}>
+          <span aria-hidden="true">{muted ? '🔇' : '🔊'}</span><span className="lbl">{muted ? ' Muted' : ' Voice on'}</span>
         </button>
         <button className="btn ghost small" title="Higher-quality voice (downloads once)" onClick={() => setHd((h) => { localStorage.setItem(HD_KEY, h ? '0' : '1'); return !h; })}>
-          {hd ? '✨ HD voice' : 'HD voice off'}
+          <span aria-hidden="true">✨</span><span className="lbl">{hd ? ' HD voice' : ' HD voice off'}</span>
         </button>
       </div>
 
@@ -299,6 +356,19 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
           {phase === 'gate' && (
             <div className="col center" style={{ gap: 12 }}>
               <div className="captions">{lesson ? `Ready for “${lesson.topic}”?` : 'Getting ready…'}</div>
+              {kid && kid.interests.length > 0 && (
+                <div className="col center" style={{ gap: 8 }}>
+                  <span className="muted small">Pick today’s adventure:</span>
+                  <div className="theme-chips">
+                    {kid.interests.slice(0, 3).map((it) => (
+                      <button key={it} type="button" className={`theme-chip${theme === it ? ' on' : ''}`} aria-pressed={theme === it} onClick={() => setTheme(theme === it ? undefined : it)}>
+                        {it}
+                      </button>
+                    ))}
+                    <button type="button" className={`theme-chip${!theme ? ' on' : ''}`} aria-pressed={!theme} onClick={() => setTheme(undefined)}>🎲 Surprise me</button>
+                  </div>
+                </div>
+              )}
               <button className="btn lg" disabled={!lesson} onClick={begin}>▶ Start lesson</button>
               <span className="muted small">Your tutor will talk to you — make sure your sound is on.</span>
             </div>
@@ -307,7 +377,13 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
           {(phase === 'starting' || phase === 'thinking') && (
             <div className="captions thinking">{phase === 'starting' ? startMsg : 'thinking…'}</div>
           )}
-          {phase === 'error' && <div className="captions"><span className="muted">{errMsg}</span></div>}
+          {phase === 'error' && (
+            <div className="captions">
+              <span>Hmm, I got a little muddled there. Let’s try that again!</span>
+              {/* technical detail for the grown-up, kept out of the child's way */}
+              <details className="muted small"><summary>For grown-ups</summary>{errMsg}</details>
+            </div>
+          )}
           {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions && (
             <div className="speech-bubble">
               {kid && <span className="speech-name">{kid.avatar.character.charAt(0).toUpperCase() + kid.avatar.character.slice(1)}</span>}
@@ -319,10 +395,15 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
           )}
 
           {beat && phase !== 'ended' && phase !== 'gate' && (
-            <div className="beats" title={`Step ${beat.index + 1} of ${beat.total}`}>
-              {Array.from({ length: beat.total }).map((_, i) => (
-                <span key={i} className={`dot ${i < beat.index ? 'done' : i === beat.index ? 'now' : ''}`} />
-              ))}
+            <div className="row center" style={{ gap: 10 }}>
+              <div className="beats" title={`Step ${beat.index + 1} of ${beat.total}`}>
+                {Array.from({ length: beat.total }).map((_, i) => (
+                  <span key={i} className={`dot ${i < beat.index ? 'done' : i === beat.index ? 'now' : ''}`} />
+                ))}
+              </div>
+              {(stats?.streak ?? 0) >= 2 && (
+                <span key={stats!.streak} className="streak-pill" aria-live="polite">🔥 {stats!.streak} in a row!</span>
+              )}
             </div>
           )}
         </div>
@@ -399,6 +480,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
                   onComplete={isInteractive ? onBlockComplete : () => {}}
                   micEnabled={isInteractive ? micOn : false}
                   onMicState={isInteractive ? setListening : () => {}}
+                  reveal={reveal}
+                  handsFree={!!handsFree && micOn}
                 />
               );
             })}
@@ -409,13 +492,16 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
           <div className="block-area">
             {showAnswerBar ? (
               <>
-                {/* This turn asked a question — let the kid answer (mic stays OFF
-                    until they tap it; it never auto-opens). */}
+                {/* This turn asked a question — let the kid answer. The mic opens by
+                    itself only in hands-free mode on an explicit ask; otherwise on tap. */}
                 <AnswerInput
                   key={turnSeq}
                   active={true}
                   micEnabled={micOn}
                   onMicState={setListening}
+                  // Hands-free only when the director explicitly asked for an answer —
+                  // never on a guessed "ends with ?" turn (the mic must not feel always-on).
+                  handsFree={!!handsFree && micOn && explicitAsk}
                   onSubmit={onAnswer}
                   placeholder="Speak or type your answer…"
                 />
@@ -433,7 +519,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
                   </button>
                   <button className="btn ghost" onClick={onConfused}>🤔 I don’t get it</button>
                 </div>
-                {autoAdvance && <span className="muted small">continuing automatically…</span>}
+                {autoAdvance && !muted && <span className="muted small">continuing automatically…</span>}
               </div>
             )}
           </div>
@@ -441,7 +527,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
 
         {phase === 'error' && (
           <div className="row center" style={{ gap: 10 }}>
-            <button className="btn" onClick={() => (sessionRef.current ? fetchTurn() : begin())}>Try again</button>
+            <button className="btn lg" onClick={() => (sessionRef.current ? fetchTurn(lastResponseRef.current) : begin())}>🔁 Try again</button>
             <button className="btn ghost" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Leave</button>
           </div>
         )}
@@ -452,7 +538,18 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
             <div className="card pad-lg celebrate-card" style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto' }}>
               <div className="celebrate-emoji">🎉</div>
               <h2>Great work today!</h2>
-              {report && <p className="muted">{report.summary}</p>}
+              {stats?.stars && (
+                <div className="stars" aria-label={`${stats.stars} of 3 stars`}>
+                  {[1, 2, 3].map((n) => <span key={n} className={n <= stats.stars! ? 'star on' : 'star'}>★</span>)}
+                </div>
+              )}
+              {lesson?.title && <p className="muted">You worked on <strong>{lesson.title}</strong>.</p>}
+              {stats && stats.answered > 0 && (
+                <p className="muted">
+                  {stats.correct} right answer{stats.correct === 1 ? '' : 's'}
+                  {stats.stars === 1 ? ' — this one’s tricky, so we’ll practise it again next time. That’s how brains grow! 🌱' : ' — you really worked for these!'}
+                </p>
+              )}
               <div className="row center" style={{ gap: 10, marginTop: 14 }}>
                 <button className="btn lg" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>Done</button>
               </div>
@@ -461,6 +558,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
         )}
       </div>
     </div>
+    </ReadAloudContext.Provider>
   );
 }
 

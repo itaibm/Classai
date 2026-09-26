@@ -1,17 +1,29 @@
 import { useState } from 'react';
-import type { AssignedSubject, CatalogLesson } from '@shared/types';
+import type { AssignedLesson, AssignedSubject } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, useAsync } from '../lib/ui.tsx';
 import { Character } from '../avatar/Character.tsx';
 import { subjectStyle, subjectColor } from '../lib/subject.ts';
 
-type CatLesson = CatalogLesson & { done: boolean };
+type CatLesson = AssignedLesson;
 
-/** First not-yet-done lesson in a subject (the "Continue" target). */
+/** First not-yet-learned lesson in a subject (the "Continue" target). A lesson
+ *  finished without mastery comes back here before new material. */
 function nextLesson(subject: AssignedSubject): CatLesson | null {
   for (const unit of subject.units) for (const lesson of unit.lessons as CatLesson[]) if (!lesson.done) return lesson;
   return null;
+}
+
+/** A finished lesson that could earn more stars (lowest first) — offered as a
+ *  choice next to the new lesson, so the learner has a say without skipping
+ *  ahead in a sequence where order matters. */
+function starLesson(subject: AssignedSubject): CatLesson | null {
+  let best: CatLesson | null = null;
+  for (const unit of subject.units)
+    for (const lesson of unit.lessons as CatLesson[])
+      if (lesson.done && lesson.stars && lesson.stars < 3 && (!best || lesson.stars < best.stars!)) best = lesson;
+  return best;
 }
 
 export function LearnHome({ kidId }: { kidId: string }) {
@@ -51,6 +63,7 @@ export function LearnHome({ kidId }: { kidId: string }) {
             <div className="grid cols-2" style={{ marginTop: 22 }}>
               {data.subjects.map((subject) => {
                 const next = nextLesson(subject);
+                const more = next && !next.tryAgain ? starLesson(subject) : null;
                 const pct = subject.total ? Math.round((subject.completed / subject.total) * 100) : 0;
                 const isOpen = open === subject.classId;
                 const accent = subjectColor(subject.subjectKey).accent;
@@ -65,9 +78,16 @@ export function LearnHome({ kidId }: { kidId: string }) {
                         <span className="muted small">Year {subject.year} · {subject.completed}/{subject.total} lessons</span>
                       </div>
                       {next ? (
-                        <button className="btn subject" onClick={() => go(next)}>
-                          ▶ {subject.completed ? 'Continue' : 'Start'}
-                        </button>
+                        <div className="col" style={{ gap: 6, alignItems: 'stretch' }}>
+                          <button className="btn subject" onClick={() => go(next)} title={next.title}>
+                            {next.tryAgain ? '🔁 Practise again' : `▶ ${subject.completed ? 'New lesson' : 'Start'}`}
+                          </button>
+                          {more && (
+                            <button className="btn soft small" onClick={() => go(more)} title={`Replay “${more.title}” to win more stars`}>
+                              ⭐ Win more stars
+                            </button>
+                          )}
+                        </div>
                       ) : (
                         <span className="pill good">All done 🎉</span>
                       )}
@@ -87,7 +107,9 @@ export function LearnHome({ kidId }: { kidId: string }) {
                               {(unit.lessons as CatLesson[]).map((lesson) => (
                                 <li key={lesson.id} className="row" style={{ justifyContent: 'space-between', alignItems: 'center', padding: '7px 0', borderBottom: '1px solid var(--line)' }}>
                                   <span className="row" style={{ gap: 8, alignItems: 'center', minWidth: 0 }}>
-                                    <span>{lesson.done ? '✅' : '•'}</span>
+                                    <span title={lesson.tryAgain ? 'Let’s practise this one again' : lesson.done ? 'Learned' : 'Not started'}>
+                                      {lesson.tryAgain ? '🔁' : lesson.done ? (lesson.stars ? '⭐'.repeat(lesson.stars) : '✅') : '•'}
+                                    </span>
                                     <span style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{lesson.lessonNumber}. {lesson.title}</span>
                                     {lesson.status === 'authored'
                                       ? <span className="pill good" title="Ready to play">✓</span>

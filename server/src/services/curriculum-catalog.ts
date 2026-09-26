@@ -51,7 +51,13 @@ export function catalogId(year: number, subject: string, unitNumber: number, les
   return `y${year}-${subject}-u${unitNumber}-l${pad2(lessonNumber)}`;
 }
 
-const ID_RE = /^y(\d+)-(.+?)-u(\d+)-l(\d+)$/;
+// Subject is a lowercase slug — never '/', '.', or '..' (ids reach path.join and a disk write).
+const ID_RE = /^y(\d+)-([a-z0-9]+(?:-[a-z0-9]+)*?)-u(\d+)-l(\d+)$/;
+
+/** True only for a real subject folder of a real year (guards every id → path use). */
+export function isCurriculumSubject(year: number, subject: string): boolean {
+  return Number.isInteger(year) && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(subject) && listSubjectDirs(year).includes(subject);
+}
 
 export interface CatalogLessonRef {
   id: string;
@@ -192,6 +198,7 @@ export function getCatalogLessonRef(id: string): CatalogLessonRef | null {
   const subject = m[2]!;
   const unitNumber = Number(m[3]);
   const lessonNumber = Number(m[4]);
+  if (!isCurriculumSubject(year, subject)) return null;
 
   const authored = getCurriculumLesson(id) || undefined;
   const scopePath = scopeFileFor(year, subject);
