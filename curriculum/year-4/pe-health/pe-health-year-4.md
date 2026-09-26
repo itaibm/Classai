@@ -6,11 +6,11 @@
 
 ## Year overview
 
-Year 4 PE & Health turns **fundamental movement into real sport, dance and adventure** — and teaches children how to look after their bodies and minds. Children learn the *principles* behind games (space, width, support, marking) so they can play any invasion or net game well; they build gymnastic sequences with balance, flight and partner work; they choreograph dance from several cultures; they become safer, stronger swimmers who know how to self-rescue; they run, jump and throw with better technique and measure their improvement; and they navigate outdoors with a map and compass. A dedicated **health unit** covers sleep, food, hygiene, growing up, body safety and mental health, and every lesson includes a warm-up and cool-down that children increasingly lead themselves.
+Year 4 PE & Health turns **fundamental movement into real sport, dance and adventure** — and teaches children how to look after their bodies and minds. Children learn the *principles* behind games (space, width, support, marking) so they can play any invasion or net game well; they build gymnastic sequences with balance, flight and partner work; they choreograph dance from several cultures; they become safer, stronger swimmers who know how to self-rescue; they run, jump and throw with better technique and measure their improvement; and they navigate outdoors with a map and compass. A dedicated **health unit** retrieves the Year 3 basics and goes further — food labels and sugar, the immune system and medicines, sun, heat and cold, puberty, resilience, consent and peer pressure, and the first-aid primary survey and defibrillators — and every lesson includes a warm-up and cool-down that children increasingly lead themselves.
 
 **Delivery.** PE is **human-delivered and active**: a teacher, coach or parent leads every session in a hall, playground, field or pool. An app or tutor can support with explanations, rules, videos, reflection questions and progress tracking, but the doing is physical. Every lesson follows: warm-up (raise heart rate, mobilise) → skill teaching (demonstrate, practise, feedback) → apply in a game or performance → cool-down and reflection.
 
-**What Year 4 assumes (from Year 3):** fundamental movement skills (running, jumping, hopping, throwing, catching, kicking, dodging) with reasonable control; simple team games and rules; basic balances and rolls; simple dance phrases; being able to enter the water and move with confidence (swimming ability varies — see Unit 7).
+**What Year 4 assumes (from Year 3):** fundamental movement skills (running, jumping, hopping, throwing, catching, kicking, dodging) with reasonable control; simple team games and rules; basic balances and rolls; simple dance phrases; health basics (balanced plate, allergies and asthma, road safety, food hygiene, PANTS online and offline, the stress response, first aid for burns and nosebleeds); setting a map and pace counting; spotting rip currents and safe land-based rescue; being able to enter the water and move with confidence (swimming ability varies — see Unit 7).
 **What Year 5 relies on:** tactical understanding of attack and defence across game types; sequences combining balance, flight and partner work; secure swimming of 25 m and self-rescue; accurate measurement of personal performance; knowledge of healthy habits and puberty, ready for more independent fitness planning and competitive sport.
 
 **Inclusion.** Adapt every activity for disability, injury, faith and culture (e.g. modest swimwear, fasting periods); use STEP (Space, Task, Equipment, People) to make tasks easier or harder; celebrate personal bests over winning.
@@ -37,17 +37,17 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 
 **Essential question:** What does it mean to be fit, and how can I train my body safely?
 
-**Key vocabulary:** warm-up, cool-down, pulse, heart rate, stamina, strength, flexibility, speed, agility, balance, coordination, stretch (dynamic, static), personal best
+**Key vocabulary:** warm-up, cool-down, pulse, resting / working / recovery heart rate, stamina, strength, flexibility, speed, agility, balance, coordination, stretch (dynamic, static), progression, specificity, rest and recovery, personal best
 
-### Lesson 1 — Why warm up? Heart rate and pulse
+### Lesson 1 — Heart rate: resting, working and recovery
 - **Duration:** 35 min
-- **Objective:** "By the end, I can find my pulse, measure my heart rate, and explain why we warm up." (UK NC KS2 PE — health-related fitness; SHAPE Standard 3)
-- **Hook:** "Put two fingers on your neck. What's that beating — and what will happen to it if we run?"
-- **Key activity:** Teacher-led and active: find pulse (wrist or neck) and count for 15 seconds × 4; run a 3-minute pulse-raiser and measure again; dynamic warm-up (leg swings, lunges, arm circles); discuss why warm muscles are less likely to be injured.
-- **Check for understanding:** "Why does your heart rate go up when you exercise?" → Muscles need more oxygen, so the heart pumps blood faster to deliver it.
-- **Differentiation:** support: partner counts pulse aloud. / stretch: record resting, active and recovery heart rates and graph them (links to maths).
-- **Materials:** stopwatches, recording sheets, cones. Safety: check for medical conditions (asthma inhalers available); clear, non-slip space.
-- **Joy:** "Pulse detectives" — who can predict their heart rate after each activity?
+- **Objective:** "By the end, I can measure my resting, working and recovery heart rates and explain what recovery tells us about fitness." (UK NC KS2 PE — health-related fitness; SHAPE Standard 3; links to science)
+- **Hook:** "Two runners finish the same race. One runner's heart rate is back to normal in 2 minutes, the other's in 6. Who is fitter?"
+- **Key activity:** Teacher-led and active: retrieve taking a pulse (wrist or neck, count for 15 seconds × 4); measure resting heart rate; 3-minute pulse-raiser; measure the working rate; measure again after 1, 2 and 3 minutes of recovery; plot the class's anonymous results as line graphs (maths link); the heart is a muscle that grows stronger with training and pumps more blood with each beat.
+- **Check for understanding:** "Why does a fitter person's heart rate usually return to resting faster after exercise?" → their stronger heart pumps more blood with each beat, so it doesn't need to beat as fast, for as long, to deliver the oxygen the muscles need
+- **Differentiation:** support: partner counts the pulse aloud. / stretch: graph your three rates and describe the shape of the recovery curve.
+- **Materials:** stopwatches, recording sheets, cones. Safety: check for medical conditions (asthma inhalers available); clear, non-slip space; heart rates are personal — no ranking.
+- **Joy:** "Pulse detectives" — predict, then measure, your heart rate after each activity.
 
 ### Lesson 2 — Components of fitness: circuit training
 - **Duration:** 40 min
@@ -89,17 +89,17 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** tape measures, skipping ropes, sit-and-reach box (or ruler on a bench), stopwatches, record cards. Safety: non-slip surface.
 - **Joy:** Personal-best cards.
 
-### Lesson 6 — Design a warm-up
+### Lesson 6 — Training principles: how bodies get fitter
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan and lead a warm-up with a pulse-raiser, mobiliser and dynamic stretches." (UK NC KS2 PE; SHAPE Standard 4 — leadership)
-- **Hook:** "Today you are the coach."
-- **Key activity:** In groups, plan a 5-minute warm-up with three parts and lead it for another group; feedback.
-- **Check for understanding:** "What are the three parts of a good warm-up, and why is each needed?" → Pulse-raiser (warm the body), mobiliser (loosen joints), dynamic stretches (prepare muscles for movement).
-- **Differentiation:** support: warm-up card menu. / stretch: tailor the warm-up to a specific sport.
-- **Materials:** cones, music, planning cards.
-- **Joy:** Coaching the class.
+- **Objective:** "By the end, I can explain how training makes the body fitter and plan a three-week challenge using small steps and rest." (UK NC KS2 PE — develop strength and stamina; SHAPE Standard 3)
+- **Hook:** "You want to skip 100 times without stopping. Should you try 100 on day one?"
+- **Key activity:** Groups lead the three-part warm-up (retrieval from Year 3). New: training principles — progression (add a little more time, repetitions or difficulty each week), specificity (train the thing you want to improve), rest and recovery (bodies adapt and get stronger while resting), 'use it or lose it' (fitness fades if you stop); plan a three-week skipping or plank challenge with small weekly steps and rest days; complete week 1 and record it.
+- **Check for understanding:** "Why does a plan that adds a little each week work better than doing as much as possible on day one?" → the body adapts gradually; small increases with rest let the muscles, heart and lungs get stronger without injury, soreness or giving up
+- **Differentiation:** support: planning template with suggested weekly steps. / stretch: explain which principle a footballer ignores if they only ever train by swimming (specificity).
+- **Materials:** skipping ropes, mats, challenge planning cards, timer.
+- **Joy:** "Challenge cards" with weekly progress stickers.
 
-**End-of-unit check:** Lead a three-part warm-up for a small group; explain what happens to heart rate during exercise and name four components of fitness with an exercise for each.
+**End-of-unit check:** Lead a three-part warm-up for a small group; explain what recovery heart rate shows about fitness; name four components of fitness with an exercise for each; plan a three-week challenge using progression and rest.
 
 ---
 
@@ -307,47 +307,47 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 
 **Essential question:** How do dancers tell stories and share culture through movement?
 
-**Key vocabulary:** choreography, motif, formation, unison, canon, levels, dynamics, gesture, mirroring, Bollywood, capoeira, ginga, dragon dance, samba, performance
+**Key vocabulary:** choreography, motif, formation, unison, canon, levels, dynamics, gesture, mirroring, flamenco, compás, palmas, Bharatanatyam, mudra, breaking, toprock, freeze, cypher, jig, performance
 
-### Lesson 25 — Samba steps (links to music)
+### Lesson 25 — Flamenco: footwork and the 12-beat compás (links to music)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can perform basic samba steps in time to music." (UK NC KS2 PE — dance; SHAPE Standard 1)
-- **Hook:** Rio carnival clip (links to music Unit 4).
-- **Key activity:** Teacher-led: basic samba step (ball-change rhythm), arm styling, travelling; perform in lines.
-- **Check for understanding:** "How does the music's rhythm tell you how to move?" → The strong beats guide the step changes.
-- **Differentiation:** support: slower tempo, marching version. / stretch: add turns.
-- **Materials:** samba music, open space.
-- **Joy:** Carnival parade.
+- **Objective:** "By the end, I can perform flamenco-style footwork, palmas and arm movements to a 12-beat rhythm." (UK NC KS2 PE — dance; SHAPE Standard 1; links to music Unit 4)
+- **Hook:** "Flamenco comes from Andalusia in southern Spain, with deep roots in Gitano (Roma) communities and many other influences; UNESCO recognised it in 2010. Listen — can you count to 12?"
+- **Key activity:** Teacher-led: retrieve the 12-beat compás from music (accents on 3, 6, 8, 10 and 12) with palmas; upright posture; simple footwork (flat-foot stamp, ball, heel) in soft shoes; *braceo* (slow, curving arms); combine into a short phrase that places strong stamps on the accents, with a turn to finish.
+- **Check for understanding:** "How does knowing where the accents fall in the 12-beat cycle help a flamenco dancer?" → they can place strong stamps or turns on the accented beats, so the footwork fits the guitar and palmas and the group stays together
+- **Differentiation:** support: palmas plus one stamp on each accent. / stretch: add a turn that lands on beat 12.
+- **Materials:** flamenco recordings, space. Safety: footwork on a wooden or sprung floor in soft shoes — no hard stamping on concrete.
+- **Joy:** Palmas circle with solo turns in the middle.
 
-### Lesson 26 — Bollywood dance: gestures and storytelling
+### Lesson 26 — Bharatanatyam: telling stories with mudras
 - **Duration:** 35 min
-- **Objective:** "By the end, I can perform a Bollywood-style routine using expressive gestures." (UK NC KS2 PE — dance; SHAPE Standard 1)
-- **Hook:** A clip from a Bollywood film dance number: "The dancers tell a story with their hands and faces."
-- **Key activity:** Teacher-led: signature moves (e.g. "screw the light bulb", "pat the dog"), hand gestures influenced by Indian classical dance, facial expression; short routine.
-- **Check for understanding:** "How did you use gestures to show a feeling or story?" → A specific gesture linked to meaning.
-- **Differentiation:** support: repeat a 4-count phrase. / stretch: add your own gesture to the routine.
-- **Materials:** music, space.
-- **Joy:** Bollywood routine performance.
+- **Objective:** "By the end, I can use Bharatanatyam hand gestures (mudras), stance and facial expression to tell part of a story." (UK NC KS2 PE — dance; SHAPE Standard 1)
+- **Hook:** "In classical Indian dance one hand shape can be a cloud, a forest or a blessing. How many meanings can two hands hold?"
+- **Key activity:** Teacher-led: Bharatanatyam, a classical dance from Tamil Nadu in southern India; the *aramandi* (half-sitting stance, knees turned out); a basic step (*adavu*) to spoken rhythm syllables; mudras such as *pataka* (flat hand — e.g. a cloud or a blessing), *alapadma* (open lotus — a flower or the full moon) and *shikhara* (fist with the thumb up — e.g. a bow or a pillar); facial expression (*abhinaya*); groups tell a four-line nature story. Compare with Year 2's Bollywood dance, which borrows gestures from classical forms.
+- **Check for understanding:** "How is Bharatanatyam different from the Bollywood dance you learned in Year 2?" → Bharatanatyam is a classical form with set stances, steps and hand gestures that carry particular meanings; Bollywood is a modern film style that mixes many influences, including gestures borrowed from classical dance
+- **Differentiation:** support: two mudras and the stance. / stretch: create a new four-count phrase that tells a story with three mudras.
+- **Materials:** Bharatanatyam recordings, mudra picture cards. Safety: build up the aramandi gradually, knees over toes.
+- **Joy:** "Mudra story" performances.
 
-### Lesson 27 — Capoeira: Afro-Brazilian movement
+### Lesson 27 — Breaking: from the Bronx to the Olympics
 - **Duration:** 35 min
-- **Objective:** "By the end, I can perform the ginga and simple capoeira movements with control." (UK NC KS2 PE — dance; SHAPE Standard 1)
-- **Hook:** A capoeira *roda* (circle) with the berimbau: "Is it a dance, a game or a martial art?"
-- **Key activity:** Teacher-led: history (developed by enslaved Africans in Brazil; recognised by UNESCO); the *ginga* (rocking base step), dodges (*esquiva*) and a slow kick with no contact; partner "conversations" of movement.
-- **Check for understanding:** "Why is capoeira sometimes called both a dance and a martial art?" → It combines music and flowing movement with the moves of a fighting art, played as a game.
-- **Differentiation:** support: ginga only. / stretch: combine ginga, esquiva and a turn smoothly.
-- **Materials:** capoeira music (berimbau), space. Safety: no contact; control every kick.
-- **Joy:** A class *roda*.
+- **Objective:** "By the end, I can perform toprock, simple footwork and a freeze with control and explain where breaking began." (UK NC KS2 PE — dance; SHAPE Standard 1)
+- **Hook:** "Breaking began at block parties in the Bronx, New York, in the 1970s — and in 2024 it appeared at the Paris Olympics. How did a street dance get there?"
+- **Key activity:** Teacher-led: history (African American and Puerto Rican young people in the Bronx; DJs such as DJ Kool Herc looping the instrumental 'break' of funk records for dancers); *toprock* (standing steps on the beat), simple floor footwork on hands and feet, and a freeze supported on hands and feet; the *cypher* (circle) where dancers take turns and answer each other's moves.
+- **Check for understanding:** "Why is a breaking 'battle' in a cypher more like a conversation than a fight?" → dancers take turns, respond to each other's moves and the music, and show respect — the aim is creativity and style, not hurting anyone
+- **Differentiation:** support: toprock only. / stretch: link toprock → footwork → freeze to end on the phrase.
+- **Materials:** instrumental hip-hop or funk music, mats. Safety: warm up wrists; mats for floor work; no head-supported moves or spins.
+- **Joy:** A class cypher.
 
-### Lesson 28 — Chinese dragon and ribbon dance
+### Lesson 28 — Irish dance: posture and precise footwork
 - **Duration:** 35 min
-- **Objective:** "By the end, I can move in unison as part of a group dragon and use ribbons to create shapes." (UK NC KS2 PE — dance; SHAPE Standard 1)
-- **Hook:** Lunar New Year dragon dance video.
-- **Key activity:** Teacher-led: group travelling in a line (the "dragon") with following and rippling; ribbon circles and figure-eights.
-- **Check for understanding:** "What does the group need to do to make the dragon look like one creature?" → Move in unison, keep spacing, follow the leader's pathway.
-- **Differentiation:** support: ribbon only. / stretch: lead the dragon.
-- **Materials:** ribbons, a cloth "dragon", drum or music.
-- **Joy:** Dragon dance around the hall.
+- **Objective:** "By the end, I can perform Irish-dance steps with an upright upper body and quick, precise footwork in unison." (UK NC KS2 PE — dance; SHAPE Standard 1)
+- **Hook:** "Irish dancers keep their arms still by their sides — so where does all the energy go?"
+- **Key activity:** Teacher-led: Irish dance was taught for centuries by travelling dance masters and reached audiences worldwide with *Riverdance* (1994); posture (tall back, arms by the sides); the jig rhythm in 6/8 ("one-and-a, two-and-a"); basic steps (threes and sevens) danced in lines in unison, then a formation change.
+- **Check for understanding:** "Flamenco and Irish dance both use fast footwork. Name one similarity and one difference." → e.g. both make rhythm with the feet; flamenco uses curving arms and an expressive upper body, while Irish dance keeps the arms still by the sides
+- **Differentiation:** support: slower tempo, threes only. / stretch: lead a line through a formation change.
+- **Materials:** jig and reel recordings, space.
+- **Joy:** Line dance in unison, getting faster each time.
 
 ### Lesson 29 — Creating a motif
 - **Duration:** 35 min
@@ -487,37 +487,37 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 
 **Essential question:** What choices help me grow up healthy, safe and happy?
 
-**Key vocabulary:** balanced diet, nutrients, hydration, sugar, sleep, hygiene, bacteria, germs, dental care, sun safety, puberty, emotions, stress, resilience, trusted adult, consent, privacy, first aid, emergency
+**Key vocabulary:** food label, per 100 g, free sugars, portion, immune system, white blood cells, vaccine, bacteria, virus, antibiotic, UV index, heat exhaustion, layers, puberty, resilience, setback, consent, peer pressure, trusted adult, primary survey, recovery position, defibrillator (AED), emergency
 
-### Lesson 41 — Eating well: a balanced plate
+### Lesson 41 — Reading food labels: sugar and portions
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan a balanced meal and explain why each food group matters." (Health education — healthy eating; NHES Standard 1)
-- **Hook:** Photos of family meals from around the world (e.g. from the photo book *Hungry Planet*): "What do healthy meals have in common?"
-- **Key activity:** Food groups (vegetables and fruit, whole grains/starchy foods, protein, dairy or alternatives, healthy fats); plan a balanced plate from a chosen cuisine; hydration (water as the best drink).
-- **Check for understanding:** "Why is it better to have a variety of foods rather than just one 'superfood'?" → Different foods give different nutrients the body needs.
-- **Differentiation:** support: picture sorting. / stretch: read a food label for sugar and compare two drinks.
-- **Materials:** food cards, plate templates, food labels, *Hungry Planet* photos (Peter Menzel and Faith D'Aluisio).
-- **Joy:** Design a healthy lunch from your family's cuisine.
+- **Objective:** "By the end, I can read a food label and work out how much sugar is in a drink or snack." (Health education — healthy eating; NHES Standard 1; maths link)
+- **Hook:** "How many teaspoons of sugar are in a can of fizzy drink? Guess — then let's calculate."
+- **Key activity:** Retrieve the balanced plate from Year 3 using photos of family meals from around the world (*Hungry Planet*); read labels 'per 100 g / 100 ml' and 'per portion'; 4 g of sugar is about one teaspoon; calculate the sugar in real drinks and snacks and build the teaspoon piles; the WHO advises keeping 'free sugars' (sugar added to food, plus honey, syrups and fruit juice) low; water and milk as everyday drinks.
+- **Check for understanding:** "A drink has 10 g of sugar per 100 ml. How much sugar is in a 330 ml can, and about how many teaspoons is that?" → 3.3 × 10 = 33 g; 33 ÷ 4 ≈ 8 teaspoons
+- **Differentiation:** support: labels with the per-portion sugar highlighted, and a calculator. / stretch: compare the sugar in a whole orange and a glass of orange juice and explain why juice counts as free sugar.
+- **Materials:** food and drink packaging, calculators, sugar and teaspoons, *Hungry Planet* photos (Peter Menzel and Faith D'Aluisio).
+- **Joy:** "Sugar sleuths" teaspoon towers.
 
-### Lesson 42 — Sugar, teeth and hygiene
+### Lesson 42 — Germs, the immune system and medicines
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how to look after my teeth and why handwashing stops germs spreading." (Health education — health and prevention; NHES Standard 1)
-- **Hook:** Glitter-germ handwashing demonstration.
-- **Key activity:** Dental care (brush twice a day for about two minutes with fluoride toothpaste; limit sugary snacks and drinks); handwashing technique (20 seconds, soap, all surfaces); coughs and sneezes.
-- **Check for understanding:** "Why does sipping sugary drinks all day harm teeth more than having one with a meal?" → Teeth are exposed to sugar (and acid) for longer, giving bacteria more time to damage them.
-- **Differentiation:** support: step picture cards. / stretch: design a poster for younger children.
-- **Materials:** glitter (or UV gel and torch), soap, sinks, toothbrush models.
-- **Joy:** Glitter germ challenge.
+- **Objective:** "By the end, I can explain how my body defends itself against germs and why antibiotics don't cure colds." (Health education — health and prevention; NHES Standard 1; prepares for Year 6 science (microorganisms))
+- **Hook:** "You catch a cold and get better in a week without any medicine. What did the fighting?"
+- **Key activity:** Retrieve handwashing and food hygiene (Year 3); the body's defences — skin and mucus as barriers, white blood cells that find and destroy germs and 'remember' them; vaccines train the immune system safely (Edward Jenner's smallpox vaccine, 1796; smallpox was declared eradicated in 1980); bacteria and viruses are different — antibiotics work on bacteria, not viruses; medicine safety: only take medicines given by a trusted adult.
+- **Check for understanding:** "Why won't antibiotics help you get over a cold?" → colds are caused by viruses, and antibiotics only work against bacteria; your immune system fights off the cold virus
+- **Differentiation:** support: a picture 'body defence' strip to sequence. / stretch: explain how a vaccine prepares the body without making you ill.
+- **Materials:** body-defence diagrams, scenario cards. Sensitivity: respect families' medical circumstances; medicines are only given by trusted adults.
+- **Joy:** "Immune system tag" — white blood cells tag the germs.
 
-### Lesson 43 — Sleep and screens
+### Lesson 43 — Sun, heat and cold: protecting my body outdoors
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain why sleep matters and plan a healthy bedtime routine." (Health education — health and prevention; NHES Standard 7)
-- **Hook:** "How many hours of sleep do you think children your age need?"
-- **Key activity:** Children aged 6–12 are generally advised to get 9–12 hours; what sleep does (growth, memory, mood); screens and blue light before bed; plan a routine.
-- **Check for understanding:** "Give two reasons why sleep helps you at school." → Better memory/learning and better mood/concentration.
-- **Differentiation:** support: routine picture cards. / stretch: keep a one-week sleep diary and reflect (optional, with families).
-- **Materials:** routine planners.
-- **Joy:** "Dream bedroom" design for great sleep.
+- **Objective:** "By the end, I can use the UV index and weather forecast to protect my body from sun, heat and cold." (Health education — health and prevention; NHES Standard 7; links to geography)
+- **Hook:** "Today's UV index is 8. What does that number mean for playtime?"
+- **Key activity:** Retrieve sun basics from Year 2; the UV index — at 3 or above, protect your skin (shade, hat, clothing, broad-spectrum sunscreen of SPF 30 or more, reapplied, sunglasses), even on cloudy days; heat — signs of heat exhaustion (headache, dizziness, feeling sick, heavy sweating) mean stop, find shade, drink water and tell an adult; cold — layers trap warm air, hats and gloves, and wet clothes lose heat fast; plan kit for a hot day and a cold day.
+- **Check for understanding:** "It's cloudy, but the UV index is 6. Do you still need sun protection, and why?" → yes — UV rays pass through cloud, and an index of 6 is high enough to burn skin
+- **Differentiation:** support: kit picture cards. / stretch: explain why several thin layers keep you warmer than one thick jumper (trapped air between layers insulates, and you can take one off if you get hot).
+- **Materials:** weather forecasts showing the UV index, clothes for a layering demonstration, empty sunscreen bottles.
+- **Joy:** "Dress the explorer" relay.
 
 ### Lesson 44 — Growing up: changes at puberty (with science and families)
 - **Duration:** 35 min
@@ -529,35 +529,35 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** agreed health-education resources, question box.
 - **Joy:** A calm, respectful space where questions are welcomed.
 
-### Lesson 45 — Feelings, stress and calming strategies
+### Lesson 45 — Resilience: bouncing back from setbacks
 - **Duration:** 35 min
-- **Objective:** "By the end, I can recognise signs of stress and use calming strategies." (Health education — mental wellbeing; NHES Standard 7)
-- **Hook:** "What does worry feel like in your body?"
-- **Key activity:** Body map of feelings; strategies: slow breathing (e.g. "box breathing": in for 4, hold for 4, out for 4, hold for 4), movement, talking to someone, time outdoors; practise.
-- **Check for understanding:** "Name two strategies you could use before a test or performance." → e.g. slow breathing and positive self-talk.
-- **Differentiation:** support: strategy picture cards. / stretch: create a personal "calm plan".
-- **Materials:** body-map sheets, calm-down cards.
+- **Objective:** "By the end, I can use a plan to bounce back from a setback and support a friend who is worried." (Health education — mental wellbeing; NHES Standard 7)
+- **Hook:** "Wilma Rudolph wore a leg brace after polio as a child — and won three Olympic gold medals in Rome in 1960. What helps people bounce back?"
+- **Key activity:** Retrieve the body's alarm and slow breathing (Year 3), and add box breathing (in for 4, hold for 4, out for 4, hold for 4). New: helpful and unhelpful thoughts ("I can't do it" → "I can't do it *yet*"); breaking a big worry into small steps; asking for help as a strength; supporting a worried friend (listen, don't laugh, suggest telling an adult); write a personal "bounce-back plan".
+- **Check for understanding:** "Your friend misses a penalty in the final and says, 'I'm useless at everything.' What could you say, and why would it help?" → something kind that challenges the all-or-nothing thought (e.g. "You missed one penalty — you set up our first goal, and we can practise"), because it helps them see that one setback doesn't define them and they can improve
+- **Differentiation:** support: thought-swap cards. / stretch: design a bounce-back plan for a real upcoming challenge (a test or performance).
+- **Materials:** thought-swap cards, *Wilma Unlimited* (Kathleen Krull, illustrated by David Diaz), planning sheets.
 - **Joy:** Breathing with a "breathing buddy" (a soft toy on the tummy).
 
-### Lesson 46 — Body safety and trusted adults
+### Lesson 46 — Consent, peer pressure and getting help
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that my body belongs to me, recognise unsafe situations and know how to get help." (Health education — being safe; NHES Standard 5)
-- **Hook:** "Who are the trusted adults in your life?"
-- **Key activity:** Age-appropriate teaching following safeguarding policy: privacy, personal space, safe and unsafe secrets vs surprises, saying no, telling a trusted adult; "helping hand" of five trusted adults. (Resources such as the NSPCC's "PANTS" rule can support this.)
-- **Check for understanding:** "What is the difference between a surprise and a secret that makes you feel worried?" → A surprise is fun and will be revealed soon; a worrying secret should be told to a trusted adult.
-- **Differentiation:** support: scenario picture cards. / stretch: role-play asking for help.
-- **Materials:** "helping hand" templates, scenario cards. Safeguarding: follow school procedures for any disclosure.
-- **Joy:** "Helping hand" craft.
+- **Objective:** "By the end, I can explain consent in everyday situations, resist unkind or unsafe pressure, and know how to get help." (Health education — being safe; respectful relationships; NHES Standard 5)
+- **Hook:** "'Everyone's doing it — don't be boring.' What does pressure from friends feel like, and how can you say no?"
+- **Key activity:** Age-appropriate teaching following safeguarding policy. Retrieve PANTS, trusted adults and 'stop, block, tell' (Year 3). New: consent in everyday life — asking before borrowing, hugging, or taking or sharing a photo of someone; nobody should pressure you into something unsafe or unkind; refusal skills (say no clearly, suggest something else, walk away, tell); when a secret means someone could be hurt, telling is helping, not 'snitching'. (Resources such as the NSPCC's "PANTS" rule can support this.)
+- **Check for understanding:** "A friend takes a funny photo of you and wants to post it in the class group chat. You don't want them to. What does consent mean here, and what can you do?" → they need your permission to share a photo of you, and you can say no; ask them to delete it, and if they share it anyway, tell a trusted adult
+- **Differentiation:** support: scenario picture cards. / stretch: role-play resisting pressure using three different refusal strategies.
+- **Materials:** scenario cards, "helping hand" templates. Safeguarding: follow school procedures for any disclosure.
+- **Joy:** Refusal-skills "freeze-frame" role-plays.
 
-### Lesson 47 — Basic first aid and emergencies
+### Lesson 47 — First aid: the primary survey and defibrillators
 - **Duration:** 40 min
-- **Objective:** "By the end, I can check for danger, call for help and give simple first aid for small injuries." (Health education — basic first aid; NHES Standard 7)
-- **Hook:** "What would you do if a friend fell and didn't get up?"
-- **Key activity:** Teacher-led: check for danger, check response, shout for help, call the emergency number for your country (e.g. 112 in the EU and many other countries, 999 in the UK, 911 in the USA and Canada); cleaning a graze; cold compress; role-play a call.
-- **Check for understanding:** "What information does the emergency operator need?" → Where you are, what happened, and whether the person is awake and breathing.
-- **Differentiation:** support: step cards. / stretch: learn the recovery position with a trained adult.
-- **Materials:** first-aid kit, role-play phones, step cards. Note: ideally co-delivered with a trained first aider.
-- **Joy:** "Emergency call" role-play.
+- **Objective:** "By the end, I can check a casualty in order (danger, response, airway, breathing), know when to use the recovery position, and explain how a defibrillator helps." (Health education — basic first aid; NHES Standard 7)
+- **Hook:** "Many stations, shops and sports clubs have a defibrillator on the wall. Could you use one? (Yes — it tells you exactly what to do.)"
+- **Key activity:** Teacher-led, ideally with a trained first aider. Retrieve the emergency call for your country (e.g. 112 in the EU and many other countries, 999 in the UK, 911 in the USA and Canada, 000 in Australia) and Year 3's burns and nosebleeds. New: the primary survey — Danger, Response, Shout for help, Airway, Breathing; unresponsive but breathing normally → recovery position; not breathing normally → call the emergency number and send someone for a defibrillator (AED) — the call handler and the AED give spoken instructions (CPR is learned in later years); choking — encourage coughing, and if they can't cough, speak or breathe, get an adult at once.
+- **Check for understanding:** "Why must you call for help and fetch a defibrillator quickly if someone collapses and isn't breathing normally?" → their heart may not be pumping properly and every minute counts; the defibrillator checks the heart's rhythm, only gives a shock if one is needed, and talks you through each step
+- **Differentiation:** support: primary-survey step cards. / stretch: practise the recovery position with a trained adult and explain each step.
+- **Materials:** first-aid kit, role-play phones, step cards, a training AED if available (many first-aid organisations lend them). Note: ideally co-delivered with a trained first aider.
+- **Joy:** "Emergency call" role-play with a training defibrillator.
 
 ### Lesson 48 — Health unit review: my healthy-habits plan
 - **Duration:** 35 min
@@ -569,7 +569,7 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** goal planners.
 - **Joy:** Habit-tracker bookmarks.
 
-**End-of-unit check:** Explain a balanced meal, a bedtime routine and two calming strategies; describe how to get help in an emergency and name trusted adults.
+**End-of-unit check:** Calculate the sugar in a drink from its label; explain how the immune system and vaccines protect us and why antibiotics don't cure colds; use the UV index; describe puberty as normal and different for everyone; use a bounce-back strategy; explain consent and one refusal skill; describe the primary survey and when to fetch a defibrillator.
 
 ---
 
@@ -577,7 +577,7 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 
 **Essential question:** How can I swim confidently and keep myself and others safe in and around water?
 
-**Key vocabulary:** front crawl, backstroke, breaststroke, streamline, glide, float, tread water, self-rescue, cold water shock, lifeguard, flags, "Float to Live", buoyancy aid
+**Key vocabulary:** front crawl, backstroke, breaststroke, streamline, glide, float, tread water, self-rescue, cold water shock, lifeguard, flags, "Float to Live", buoyancy aid, lifejacket, tide
 
 ### Lesson 49 — Water confidence and floating
 - **Duration:** 40 min
@@ -619,15 +619,15 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** pool, buoyancy aids, old clothes (pyjamas). Safety: extra adult supervision.
 - **Joy:** "Pyjama swim".
 
-### Lesson 53 — Water safety in the real world
+### Lesson 53 — Open water, boats and ice: planning a safe day by water
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how to stay safe near rivers, beaches, lakes and pools, and how to help someone without getting in." (UK NC KS2 PE — water safety; Health education — being safe)
-- **Hook:** Photos of beach flags used in many countries (red and yellow — swim between them; red — do not swim; check local flag systems), rip currents and frozen lakes.
-- **Key activity:** Classroom or poolside: water safety code (stop and think, stay together, float, call for help); beach flags; rip currents (swim parallel to shore, or float and signal); rescue without entering (reach or throw, don't go).
-- **Check for understanding:** "If a friend is in trouble in the water, why shouldn't you jump in to help?" → You could get into trouble too; instead call for help and reach or throw something that floats.
-- **Differentiation:** support: picture sorting of safe/unsafe. / stretch: plan a family beach safety briefing.
-- **Materials:** flag images, rescue throw-bag or float, scenario cards.
-- **Joy:** "Throw-bag" rescue practice (on land).
+- **Objective:** "By the end, I can plan a safe day by open water, including lifejackets on boats, tides and ice." (UK NC KS2 PE — water safety; Health education — being safe)
+- **Hook:** "A frozen pond looks solid enough to walk on. How could you tell if it's safe? (You can't — so stay off.)"
+- **Key activity:** Classroom or poolside. Retrieve rip currents, beach flags, cold water shock and 'reach or throw, don't go' (Year 3). New: lifejackets and buoyancy aids (a lifejacket is designed to turn you face-up; always wear one, fitted and fastened, on boats, canoes and paddleboards); tides can come in quickly and cut people off on sandbanks — check tide times; never walk on frozen ponds or lakes — if someone falls through, call the emergency number and reach from the bank with a long object, never go onto the ice; plan a family day by water.
+- **Check for understanding:** "Your family is hiring a canoe on a lake. What should you check or wear, and why?" → a correctly fitted, fastened lifejacket or buoyancy aid; the weather and wind; stay near the shore and tell someone your plan — because cold water shock and tiredness can make even good swimmers struggle
+- **Differentiation:** support: picture sorting of safe/unsafe. / stretch: plan a family beach-and-boat safety briefing.
+- **Materials:** lifejacket and buoyancy aid, tide table, ice photos, scenario cards.
+- **Joy:** "Fit the lifejacket" relay (on land).
 
 ### Lesson 54 — Swimming assessment: 25 metres and safety skills
 - **Duration:** 40 min
@@ -737,17 +737,17 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 
 **Essential question:** How can a map, a compass and a good team get us anywhere?
 
-**Key vocabulary:** orienteering, map, key, orientate, control point, compass, north, bearing, route, teamwork, trust, problem-solving, leadership
+**Key vocabulary:** orienteering, map, key, orientate, control point, handrail, catching feature, attack point, compass, north, bearing, route, teamwork, trust, problem-solving, leadership
 
-### Lesson 63 — Maps and orientating
+### Lesson 63 — Route planning: handrails, catching features and attack points
 - **Duration:** 35 min
-- **Objective:** "By the end, I can orientate a map to the ground and follow a short route." (UK NC KS2 PE — outdoor and adventurous; links to geography)
-- **Hook:** A map of the school grounds: "Turn the map so it matches what you see."
-- **Key activity:** Teacher-led outdoors: orientate the map; key symbols; star orienteering (return to base after each control).
-- **Check for understanding:** "What does it mean to 'orientate' a map, and why do it?" → Turning it so it matches the ground, so left and right on the map match real life.
-- **Differentiation:** support: pairs with a picture map. / stretch: find controls in a set order.
+- **Objective:** "By the end, I can use handrails, catching features and attack points to plan and follow a route to a control." (UK NC KS2 PE — outdoor and adventurous; links to geography)
+- **Hook:** "Expert orienteers rarely run in a straight line to a control. Why not?"
+- **Key activity:** Teacher-led outdoors: quick retrieval of setting the map, thumbing and pace counting (Year 3). New: *handrails* (line features such as paths, fences, walls or streams to follow), *catching features* (a feature just beyond the control that tells you you've gone too far) and *attack points* (an easy-to-find feature near the control, from which you go carefully); a map-memory relay (memorise one leg, run it without the map).
+- **Check for understanding:** "What is a catching feature, and how does it stop you getting lost?" → a feature just beyond the control, such as a fence or path — if you reach it, you know you've overshot and can turn back
+- **Differentiation:** support: pairs with a picture map. / stretch: plan two routes to one control and justify which is safer or faster.
 - **Materials:** school-grounds maps, control markers, punch cards. Safety: boundaries set; buddy system.
-- **Joy:** Star orienteering.
+- **Joy:** Map-memory relay.
 
 ### Lesson 64 — Compass skills
 - **Duration:** 35 min
@@ -799,7 +799,7 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** maps, compasses, control markers, first-aid kit, radios/phones. Safety: full risk assessment; adult ratios; meeting point.
 - **Joy:** The adventure.
 
-**End-of-unit check:** Orientate a map and navigate a course with a partner; explain how to use a compass to find north; describe one way the team solved a problem together.
+**End-of-unit check:** Plan a route using handrails, catching features and attack points and navigate a course with a partner; explain how to use a compass to find north; describe one way the team solved a problem together.
 
 ---
 
@@ -846,12 +846,12 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 1. **Invasion games** — passes, moves into space and marks in small-sided games; explains attacking and defending principles. *See it:* observed in the Unit 2 festival.
 2. **Net games** — serves, rallies and hits to space with ready-position recovery. *See it:* doubles tournament.
 3. **Gymnastics** — performs a controlled pair sequence with balance, roll, flight, partner work, unison and canon. *See it:* filmed sequence.
-4. **Dance** — performs and co-choreographs a group dance with a developed motif and formations; describes a world dance style. *See it:* world dance showcase.
-5. **Swimming and water safety** — swims 25 m, floats and treads water; explains self-rescue and "reach or throw, don't go". *See it:* swim passport.
+4. **Dance** — performs and co-choreographs a group dance with a developed motif and formations; compares two world dance styles (e.g. flamenco and Irish dance). *See it:* world dance showcase.
+5. **Swimming and water safety** — swims 25 m, floats and treads water; explains self-rescue, "reach or throw, don't go", and lifejackets, tides and ice. *See it:* swim passport.
 6. **Athletics** — shows improved sprint, jump and throw technique and measures personal bests. *See it:* retest records.
-7. **Outdoor and adventurous** — orientates a map, uses a compass and works as a team. *See it:* orienteering course.
-8. **Health knowledge** — explains a balanced diet, sleep, hygiene, calming strategies, body safety and how to get help in an emergency. *See it:* healthy-habits plan and discussion.
-9. **Fitness and leadership** — leads a warm-up and explains components of fitness and heart-rate changes. *See it:* warm-up leadership.
+7. **Outdoor and adventurous** — plans routes with handrails and attack points, uses a compass and works as a team. *See it:* orienteering course.
+8. **Health knowledge** — reads a food label for sugar; explains the immune system and why antibiotics don't cure colds; uses the UV index; explains puberty, resilience strategies, consent and refusal skills; describes the primary survey and when to fetch a defibrillator. *See it:* healthy-habits plan and discussion.
+9. **Fitness and leadership** — leads a warm-up, explains components of fitness and heart-rate recovery, and plans a progressive three-week challenge. *See it:* warm-up leadership.
 
 ## Teacher guidance
 
@@ -865,12 +865,14 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - *"In rugby you can throw the ball forward."* — teach and practise backward passing.
 - *"Sweets and fizzy drinks are fine if you brush your teeth."* — frequency of sugar matters.
 - *"If someone is drowning, jump in."* — "reach or throw, don't go"; call for help.
+- *"Antibiotics cure colds and flu."* — they work only on bacteria; colds and flu are viruses.
+- *"You can't get sunburnt on a cloudy day."* — check the UV index; UV passes through cloud.
 - *"Fitness means being the fastest."* — fitness has many components; focus on personal progress.
 
 **Inclusion and culture.** Offer alternatives for faith and culture (modest swimwear, fasting adaptations, mixed/single-sex groupings where needed); adapt for disability (e.g. seated volleyball, guide runners, larger or brighter balls); present dances with their cultural origins and respect.
 
 **Health education.** Puberty, body safety and mental health lessons follow the school's policy, with families informed and able to see materials; safeguarding procedures are followed for any disclosure.
 
-**Vertical links.** Year 3: fundamental movements, simple games, basic gymnastics and dance, water confidence. Year 4: tactics across games, sequences with partners, world dance and choreography, 25 m swimming and self-rescue, measured athletics, orienteering, a health unit. Year 5: more competitive sport and personal fitness planning, advanced sequences and choreography, and extended health education.
+**Vertical links.** Year 3: fundamental movements, simple games, basic gymnastics and dance (bhangra, kpanlogo, capoeira, ribbon dance), health (allergies, road safety, food hygiene, stress response, burns and nosebleeds), map scale and pacing, rip currents and land-based rescue — Year 4 lessons open with a brief retrieval of these and go further rather than repeating them. Year 4: tactics across games, sequences with partners, world dance and choreography, 25 m swimming and self-rescue, measured athletics, orienteering, a health unit. Year 5: more competitive sport and personal fitness planning, advanced sequences and choreography, and extended health education.
 
-**Cross-curricular links.** Science (heart and pulse; forces in sport; growing up), maths (measurement, timing, graphs, percentages), geography (maps and compasses), music (samba, rhythm and dance), languages (Spanish healthy advice), life skills (resilience, teamwork, goal setting).
+**Cross-curricular links.** Science (heart and pulse; forces in sport; growing up), maths (measurement, timing, graphs, percentages), geography (maps and compasses), music (flamenco compás, rhythm and dance), languages (Spanish healthy advice), life skills (resilience, teamwork, goal setting).
