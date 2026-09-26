@@ -7,11 +7,11 @@
 
 ## Year overview
 
-Year 4 music is the year children **play chords, sing in harmony and hear the world's music**. The instrument pathway moves from the recorder (Years 2–3) to the **ukulele**: every child learns to hold, tune, strum and change between the chords C, A minor, F and G7, then accompanies songs, including "La Bamba" (links to Spanish). Singing grows from unison into **rounds, partner songs and simple two-part harmony** with songs from Australia, South Africa and the Jewish and Latin traditions. Notation extends to **time signatures (2/4, 3/4, 4/4 and a taste of 5/4), dotted rhythms, semiquavers and rests**. A unit of **world music** — Brazilian samba, West African drumming, Balinese gamelan and Indian raga — builds listening and ensemble skills, and the year ends with children **composing and performing a class piece**.
+Year 4 music is the year children **play chords, sing in harmony and hear the world's music**. The instrument pathway moves from the recorder (Years 2–3) to the **ukulele**: every child learns to hold, tune, strum and change between the chords C, A minor, F and G7, then accompanies songs, including "La Bamba" (links to Spanish). Singing grows from unison into **rounds, partner songs and simple two-part harmony** with songs from Australia, South Africa, the Hebrew tradition and Latin. Notation extends to **time signatures (2/4, 3/4, 4/4 and a taste of 5/4), dotted rhythms, semiquavers and rests**. A unit of **world music** takes children to traditions they have not yet met — the steel pan of Trinidad and Tobago, flamenco from Andalusia, Chinese instruments, Arabic maqam and Mongolian throat singing (samba, West African drumming, raga, taiko and gamelan were covered in Years 2–3) — and the year ends with children **composing and performing a class piece**.
 
 Every lesson includes **listening** to a named piece (with the composer or tradition, the place and the period), **singing or playing**, and **talking about music** using the elements: pitch, duration (rhythm), dynamics, tempo, timbre, texture and structure.
 
-**What Year 4 assumes (from Year 3):** reading pitch on the treble stave (recorder notes B, A, G and neighbours); crotchets, quavers, minims; texture and ostinato; structures (AB, ABA, rondo); a first map of music history (Baroque, Classical, Romantic, modern).
+**What Year 4 assumes (from Years 2–3):** reading pitch on the treble stave from low C to high D, with F sharp and a key signature; semibreves, minims, crotchets, quavers and rests; ostinato, drone, ground bass and phasing; structures (verse–chorus, ABA, rondo); rounds (e.g. *Shalom Chaverim* in Year 2); world traditions already met (gamelan, samba, West African drumming, raga, taiko, Andean music, Aka polyphony); a first map of music history (Baroque, Classical, Romantic, 20th century).
 **What Year 5 relies on:** chord playing and steady strumming (for ensemble work and keyboard chords); part-singing; secure rhythm notation in different time signatures; confident listening vocabulary for appraising genres; experience of composing in a structure.
 
 **Instrument pathway across the school:** untuned percussion (Year 1) → recorder (Years 2–3) → **ukulele (Year 4)** → keyboard basics and ensembles (Years 5–6). Schools without ukuleles can substitute guitars (the same chord shapes on the top four strings are different — use a ukulele-style simplified guitar chart) or chime bars/keyboards for chords.
@@ -23,7 +23,7 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 | 1 | 1 — Singing in parts: rounds, partner songs and harmony | 6 | 6 |
 | 1–2 | 2 — Ukulele I: first chords and strumming | 8 | 8 |
 | 2 | 3 — Rhythm and notation: time signatures and new note values | 6 | 6 |
-| 2–3 | 4 — Music of the world: samba, djembe, gamelan and raga | 7 | 7 |
+| 2–3 | 4 — Music of the world II: steel pan, flamenco, China, the Arab world and Mongolia | 7 | 7 |
 | 3 | 5 — Ukulele II: accompanying songs | 4 | 4 |
 | 3 | 6 — Compose, rehearse and perform | 4 | 4 |
 | | **Total** | **35** (+1 week flex) | **35** |
@@ -56,15 +56,15 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - **Materials:** lyric sheets, recording.
 - **Joy:** Four-part round performance.
 
-### Lesson 3 — "Shalom Chaverim" and "Dona Nobis Pacem"
+### Lesson 3 — Major and minor: "Dona Nobis Pacem" and "Zum Gali Gali"
 - **Duration:** 30 min
-- **Objective:** "By the end, I can sing a round in a minor key and describe its mood." (UK NC KS2 listen and appraise; NCAS MU:Re7.2.4)
-- **Hook:** "Two songs about peace from different traditions — Hebrew and Latin."
-- **Key activity:** Learn "Shalom Chaverim" (a Hebrew song of greeting and peace) and "Dona Nobis Pacem" ("Grant us peace", a Latin round); compare moods (minor vs major); sing as rounds.
-- **Check for understanding:** "How does the minor key change the feeling of 'Shalom Chaverim'?" → It sounds more thoughtful, tender or sad than a major-key song.
-- **Differentiation:** support: one song only. / stretch: sing in three parts.
-- **Materials:** lyric sheets with translations.
-- **Joy:** Candle-lit (LED) peace round.
+- **Objective:** "By the end, I can sing in parts in a major and a minor song and describe how the key changes the mood." (UK NC KS2 listen and appraise; NCAS MU:Re7.2.4)
+- **Hook:** "Two songs, two moods — one in Latin, one in Hebrew. Can you hear which is major and which is minor?"
+- **Key activity:** Learn "Dona Nobis Pacem" ("Grant us peace", a traditional Latin round in a major key) and "Zum Gali Gali" (a Hebrew work song from the 1930s, in a minor key), layering the repeated "zum gali gali" chant as an ostinato under the verse. Compare the moods; sing each in parts. (Year 2 already sang the Hebrew round "Shalom Chaverim".)
+- **Check for understanding:** "One song is major and one is minor. Which is which, and how does the key change the mood even at the same speed?" → "Dona Nobis Pacem" is major and sounds calm and bright; "Zum Gali Gali" is minor and sounds darker and more serious — the key changes the colour of the tune, not its speed
+- **Differentiation:** support: sing the "zum gali gali" ostinato only. / stretch: sing "Dona Nobis Pacem" in three parts.
+- **Materials:** lyric sheets with translations, recordings.
+- **Joy:** Candle-lit (LED) round in three parts.
 
 ### Lesson 4 — Partner songs
 - **Duration:** 30 min
@@ -170,7 +170,7 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - **Duration:** 30 min
 - **Objective:** "By the end, I can pick out the C major scale and improvise a short melody over chords." (UK NC KS2 improvise; NCAS MU:Cr1.1.4)
 - **Hook:** "Can you make up a tune while your partner plays chords?"
-- **Key activity:** Play C–D–E–F–G–A–B–C on the A and E strings (or on chime bars); partner strums C–Am–F; improvise 4-bar answers.
+- **Key activity:** Play C–D–E–F–G–A–B–C across the C, E and A strings (C and D on the C string, E, F and G on the E string, A, B and C on the A string) or on chime bars; partner strums C–Am–F; improvise 4-bar answers.
 - **Check for understanding:** "Which note sounds 'finished' when the chord is C?" → C (the home note).
 - **Differentiation:** support: use only C, E and G. / stretch: use rhythm variety in improvisations.
 - **Materials:** ukuleles or chime bars, a scale chart.
@@ -200,7 +200,7 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - **Duration:** 30 min
 - **Objective:** "By the end, I can read and clap semibreves, minims, crotchets, quavers and semiquavers." (UK NC KS2 staff notation; NCAS MU:Pr4.2.4)
 - **Hook:** Beethoven's Symphony No. 5 opening (da-da-da-DUM): "Can you clap it — and write it?"
-- **Key activity:** A note-value "family tree" (1 semibreve = 2 minims = 4 crotchets = 8 quavers = 16 semiquavers); clap and say rhythm names; read rhythm cards.
+- **Key activity:** Retrieve Year 3's semibreves to quavers in two minutes; the new value is the semiquaver. Complete the note-value "family tree" (1 semibreve = 2 minims = 4 crotchets = 8 quavers = 16 semiquavers); clap and say rhythm names; read rhythm cards with semiquaver groups.
 - **Check for understanding:** "How many semiquavers fit in one crotchet?" → Four (links to fractions: each is ¼ of a crotchet).
 - **Differentiation:** support: rhythm words (ta, ti-ti, ti-ka-ti-ka). / stretch: write the rhythm of a short phrase from a song.
 - **Materials:** rhythm cards, note-value tree poster, Beethoven recording.
@@ -260,68 +260,68 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 
 ---
 
-## Unit 4 — Music of the world: samba, djembe, gamelan and raga
+## Unit 4 — Music of the world II: steel pan, flamenco, China, the Arab world and Mongolia
 
 **Essential question:** What can we learn about people and places from their music?
 
-**Key vocabulary:** samba, batucada, surdo, tamborim, agogô, call and response, djembe, polyrhythm, gamelan, gong, metallophone, cyclic, raga, tala, sitar, tabla, drone, improvisation
+**Key vocabulary:** steel pan, tenor pan, bass pan, calypso, flamenco, palmas, compás, accent, erhu, pipa, guzheng, oud, maqam, quarter-tone, darbuka, khöömei (throat singing), overtone, morin khuur, drone, timbre
 
-### Lesson 21 — Samba: the sound of Brazil's carnival
+### Lesson 21 — Steel pan: music from oil drums
 - **Duration:** 35 min
-- **Objective:** "By the end, I can play a samba rhythm in a group and describe how the instruments layer." (UK NC KS2 music from different traditions; NCAS MU:Cn11.0.4)
-- **Hook:** Video of a Rio de Janeiro samba school parade.
-- **Key activity:** Instruments (surdo — big drum on the beat, tamborim, agogô bells, shakers); the leader's whistle and call signals; play layered ostinatos with a stop–start break.
-- **Check for understanding:** "What is the surdo's job in the band?" → It keeps the steady, deep beat that everyone follows.
-- **Differentiation:** support: surdo or shaker part. / stretch: lead the whistle signals.
-- **Materials:** samba instruments or substitutes (buckets, bottles with rice, cowbells), video.
-- **Joy:** A samba "street parade" around the playground.
+- **Objective:** "By the end, I can describe how the steel pan was invented and play a calypso-style melody and bass pattern in parts." (UK NC KS2 music from different traditions; NCAS MU:Cn11.0.4)
+- **Hook:** A video of a steel orchestra at Trinidad and Tobago's Panorama competition: "Every one of these instruments began as an oil drum."
+- **Key activity:** The steel pan was developed in Trinidad in the 1930s and 1940s from biscuit tins and then oil drums; it is now Trinidad and Tobago's national instrument. The tenor pan plays the melody, bass pans the low notes. Children play a calypso rhythm on untuned percussion, a bass pattern on low chime bars and a simple melody on glockenspiels, then combine them.
+- **Check for understanding:** "One steel pan can play many notes. How does its hammered surface make different pitches?" → the top is hammered into separate note areas; bigger areas vibrate more slowly and give lower notes, smaller areas give higher notes (links to Science: sound)
+- **Differentiation:** support: the calypso rhythm or bass part. / stretch: the melody part with a syncopated rhythm.
+- **Materials:** video, glockenspiels, chime bars, untuned percussion, photos of pans.
+- **Joy:** "Class steel band" performance.
 
-### Lesson 22 — Samba composition: call and response and breaks
+### Lesson 22 — Flamenco: palmas and the 12-beat compás
 - **Duration:** 35 min
-- **Objective:** "By the end, I can compose a call-and-response break and fit it into a samba performance." (UK NC KS2 compose; NCAS MU:Cr2.1.4)
-- **Hook:** "Every samba school has its own breaks (*breques*). Let's make ours."
-- **Key activity:** Groups compose a 4-beat call and a 4-beat response; add to the class samba structure (groove – break – groove).
-- **Check for understanding:** "How does everyone know when the break is coming?" → The leader's call or whistle signal.
-- **Differentiation:** support: choose from rhythm cards. / stretch: compose a break with a rest for dramatic effect.
-- **Materials:** samba instruments.
-- **Joy:** Class samba with our breaks.
+- **Objective:** "By the end, I can clap a 12-beat flamenco compás with the right accents and describe the parts of a flamenco performance." (UK NC KS2 music from different traditions; NCAS MU:Pr4.2.4)
+- **Hook:** Video of flamenco guitar (e.g. Paco de Lucía), singing and dance from Andalusia: "The clapping is part of the music. Can you count it?"
+- **Key activity:** Flamenco grew in Andalusia in southern Spain, with deep roots in Gitano (Roma) communities and many other influences. Learn *palmas* (sharp and muffled claps) and count the 12-beat *compás* used in styles such as *alegrías*, accenting beats 3, 6, 8, 10 and 12; layer guitar-style strums on ukulele and a simple dance step (links to Spanish).
+- **Check for understanding:** "Clap the flamenco compás. Why does it feel different from counting in 4s?" → the accents fall on 3, 6, 8, 10 and 12 — groups of three and then twos — so the cycle doesn't divide into equal bars of four
+- **Differentiation:** support: clap only the accented beats while the teacher counts. / stretch: switch between sharp and muffled palmas and keep the compás while others dance.
+- **Materials:** video, ukuleles, accent cards 1–12.
+- **Joy:** A flamenco *juerga* (gathering) with palmas and '¡olé!'.
 
-### Lesson 23 — West African drumming: the djembe
+### Lesson 23 — Chinese instruments: erhu, pipa and guzheng
 - **Duration:** 35 min
-- **Objective:** "By the end, I can play bass, tone and slap sounds on a djembe and play in a polyrhythm." (UK NC KS2 music from different traditions; NCAS MU:Pr4.2.4)
-- **Hook:** A recording of djembe drumming from Guinea or Mali (e.g. the tradition of master drummer Mamady Keïta).
-- **Key activity:** Techniques (bass in the centre, tone at the edge, slap); a simple rhythm in parts that interlock (polyrhythm); call and response with a lead drummer.
-- **Check for understanding:** "What is a polyrhythm?" → Different rhythms played at the same time that fit together.
-- **Differentiation:** support: bass notes on the beat. / stretch: the lead call part.
-- **Materials:** djembes or hand drums (or buckets), recording.
-- **Joy:** Drum circle.
+- **Objective:** "By the end, I can describe the timbre of three Chinese instruments and play a pentatonic Chinese folk melody." (UK NC KS2 music from different traditions; NCAS MU:Re7.2.4)
+- **Hook:** Listen to "Erquan Yingyue" ("The Moon Reflected in the Second Spring"), played on the erhu by the blind street musician Abing: "How can two strings sound like a voice?"
+- **Key activity:** Meet the erhu (two-string bowed fiddle), pipa (plucked lute) and guzheng (plucked zither); compare their timbres; learn "Mo Li Hua" ("Jasmine Flower"), a Chinese folk song, and play its opening on the pentatonic glockenspiel from Years 2–3.
+- **Check for understanding:** "How can the erhu slide smoothly between notes in a way a glockenspiel cannot?" → the erhu has no frets or fixed bars — the player presses the strings freely and can glide the pitch; a glockenspiel only has separate fixed notes
+- **Differentiation:** support: play the first phrase with note names. / stretch: add a slide on a voice or ukulele string to imitate the erhu and describe the effect.
+- **Materials:** recordings, photos of instruments, glockenspiels (pentatonic set), lyric sheet.
+- **Joy:** "Jasmine Flower" performance with a paper-fan dance.
 
-### Lesson 24 — Balinese gamelan
+### Lesson 24 — Arabic music: the oud, maqam and the darbuka
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe the sound and structure of gamelan and perform a cyclic piece." (UK NC KS2 appreciate music from different traditions; NCAS MU:Re7.2.4)
-- **Hook:** A recording of Balinese gamelan: "It shimmers! How?"
-- **Key activity:** Metallophones, gongs and drums; cyclic structure marked by the big gong; interlocking parts (*kotekan*); perform a simple cycle on chime bars or glockenspiels using a pentatonic set.
-- **Check for understanding:** "What does the big gong do in gamelan music?" → It marks the end and beginning of each cycle.
-- **Differentiation:** support: gong or steady-beat part. / stretch: an interlocking part.
-- **Materials:** chime bars/glockenspiels, a gong or cymbal, recording.
-- **Joy:** Class "gamelan" performance.
+- **Objective:** "By the end, I can describe the oud and maqam and play a darbuka-style rhythm in a group." (UK NC KS2 music from different traditions; NCAS MU:Re7.2.4)
+- **Hook:** Listen to the Iraqi oud master Munir Bashir: "Some of these notes fall between the keys of a piano. How?"
+- **Key activity:** The oud (a short-necked lute with no frets, ancestor of the European lute); *maqam*, the system of scales in Arabic music, some of which use 'quarter-tones' between the notes of a piano; the darbuka (goblet drum) with 'dum' (low, centre) and 'tek' (high, edge). Play the *maqsum* rhythm (dum-tek-tek-dum-tek) in parts on hand drums.
+- **Check for understanding:** "Why can't a piano or glockenspiel play every note of some maqams, but an oud can?" → some maqams use notes between the fixed notes of a piano (quarter-tones); the oud has no frets, so the player can place a finger anywhere on the string
+- **Differentiation:** support: play only the 'dum' strokes. / stretch: improvise a short 'tek' fill at the end of every fourth cycle.
+- **Materials:** recordings, hand drums or buckets, a photo of an oud.
+- **Joy:** Drum circle with the maqsum groove.
 
-### Lesson 25 — Indian classical music: raga and tala
+### Lesson 25 — Mongolian throat singing and the horse-head fiddle
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain raga (melody) and tala (rhythm cycle) and improvise over a drone." (UK NC KS2 appreciate music; improvise; NCAS MU:Cr1.1.4)
-- **Hook:** Ravi Shankar playing the sitar with tabla: "How do they know what to play without written music?"
-- **Key activity:** Drone; a simple raga-style scale; clap a tala cycle (e.g. 8 beats with a clap pattern); improvise short phrases over a drone.
-- **Check for understanding:** "What is the job of the drone?" → It holds a steady note that the melody moves around and returns to.
-- **Differentiation:** support: echo phrases. / stretch: improvise a longer phrase that returns home at the start of the cycle.
-- **Materials:** drone recording or keyboard, chime bars, recording of Ravi Shankar.
-- **Joy:** Improvising over a drone.
+- **Objective:** "By the end, I can explain how a throat singer seems to sing two notes at once and try making overtones." (UK NC KS2 music from different traditions; NCAS MU:Re7.2.4)
+- **Hook:** "One person, two notes at the same time — a deep hum and a high whistle. Impossible?"
+- **Key activity:** Listen to Mongolian *khöömei* (throat singing, recognised by UNESCO as Intangible Cultural Heritage) and the *morin khuur* (horse-head fiddle); link the sounds to the wide grasslands and herding life. Children hum a steady low note and slowly change their mouth shape from 'oo' to 'ee' to hear faint whistling overtones.
+- **Check for understanding:** "How can one throat singer seem to sing two notes at once?" → they hold a low, steady drone note and shape their mouth and tongue so that high 'whistling' overtones inside that sound become loud enough to hear as a second melody
+- **Differentiation:** support: listen and describe the two layers with a picture prompt. / stretch: explain how the throat singer's drone links to the drones heard in Year 3 (bagpipes, tanpura).
+- **Materials:** recordings, map of Mongolia, mirrors.
+- **Joy:** 'Overtone choir' — the class hums and listens for the whistles.
 
 ### Lesson 26 — Comparing world music traditions
 - **Duration:** 30 min
 - **Objective:** "By the end, I can compare two traditions using the elements of music." (UK NC KS2 listen and appraise; NCAS MU:Re8.1.4)
-- **Hook:** "Music Top Trumps" (a trumps-style game) with the four traditions.
+- **Hook:** "Music Top Trumps" (a trumps-style game) with the five traditions.
 - **Key activity:** Listening grid (instruments/timbre, texture, tempo, structure, purpose); compare two traditions in writing or speech.
-- **Check for understanding:** "Give one similarity and one difference between samba and gamelan." → e.g. both use layered repeating parts; samba is loud drumming for parades, gamelan uses metallophones in cycles.
+- **Check for understanding:** "Give one similarity and one difference between flamenco and Mongolian throat singing." → e.g. both come from particular communities and places and are passed on by ear; flamenco is built on a clapped 12-beat rhythm cycle, while throat singing is built on a held drone with overtones
 - **Differentiation:** support: tick-box grid. / stretch: explain how each music's purpose shapes its sound.
 - **Materials:** recordings, comparison grids.
 - **Joy:** Music trumps game.
@@ -330,13 +330,13 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - **Duration:** 35 min
 - **Objective:** "By the end, I can perform in a world-music showcase and explain the tradition to an audience." (UK NC KS2 perform; NCAS MU:Pr6.1.4)
 - **Hook:** "Carnival of the world."
-- **Key activity:** Groups perform samba, djembe or gamelan pieces with a spoken introduction.
+- **Key activity:** Groups perform a steel-band calypso, flamenco palmas, "Jasmine Flower" or the maqsum groove, with a spoken introduction.
 - **Check for understanding:** "What did you tell the audience about your tradition?" → Where it's from, instruments and purpose.
 - **Differentiation:** support: introduction script. / stretch: lead the group.
 - **Materials:** instruments.
 - **Joy:** Showcase.
 
-**End-of-unit check:** Perform one part in a samba, djembe or gamelan piece; describe two traditions using the elements of music (timbre, texture, structure, tempo).
+**End-of-unit check:** Perform one part in a steel-band, flamenco, Chinese or Arabic-style piece; describe two traditions using the elements of music (timbre, texture, structure, tempo).
 
 ---
 
@@ -400,7 +400,7 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - **Duration:** 35 min
 - **Objective:** "By the end, I can plan a composition's structure, theme and layers." (UK NC KS2 compose; NCAS MU:Cr1.1.4)
 - **Hook:** "Our piece: 'Journey Across the World' — a musical postcard from the places we've studied."
-- **Key activity:** Decide structure (e.g. A: ukulele chords and melody; B: samba or gamelan section; A again); plan layers (chords, melody, rhythm, ostinato).
+- **Key activity:** Decide structure (e.g. A: ukulele chords and melody; B: a flamenco-palmas or steel-band section; A again); plan layers (chords, melody, rhythm, ostinato).
 - **Check for understanding:** "What is the structure of our piece and why did we choose it?" → e.g. ABA — the return of A makes it feel complete.
 - **Differentiation:** support: choose a role. / stretch: plan a section.
 - **Materials:** planning sheets.
@@ -410,7 +410,7 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - **Duration:** 35 min
 - **Objective:** "By the end, I can compose and notate a melody or rhythm layer for our piece." (UK NC KS2 compose; notation; NCAS MU:Cr2.1.4)
 - **Hook:** "Every layer needs a composer — that's you."
-- **Key activity:** Groups compose layers (melody on chime bars over ukulele chords, rhythm ostinato, samba break); notate with staff or graphic notation.
+- **Key activity:** Groups compose layers (melody on chime bars over ukulele chords, rhythm ostinato, a palmas or maqsum break); notate with staff or graphic notation.
 - **Check for understanding:** "Show your notation and explain how another group could play it." → Clear notation with note values/pitch.
 - **Differentiation:** support: graphic notation and a pentatonic set. / stretch: staff notation with dynamics marks.
 - **Materials:** instruments, manuscript paper.
@@ -445,7 +445,7 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - ***The Story of the Orchestra* — Robert Levine** — accessible guide to instruments and composers with a CD/online audio.
 - ***Before John Was a Jazz Giant* — Carole Boston Weatherford** — a picture-book biography of John Coltrane about listening to the sounds around you.
 - ***Drum Dream Girl* — Margarita Engle, illustrated by Rafael López** — inspired by Millo Castro Zaldarriaga, a girl who broke Cuba's taboo against female drummers.
-- **Listening list:** Beethoven Symphony No. 5 (opening); Johann Strauss II "The Blue Danube"; Sousa "The Stars and Stripes Forever"; Holst *The Planets* ("Mars", "Jupiter"); Ravi Shankar (sitar); Balinese gamelan recordings; Brazilian samba schools; West African djembe ensembles; Miriam Makeba "Pata Pata"; Jake Shimabukuro (ukulele).
+- **Listening list:** Beethoven Symphony No. 5 (opening); Johann Strauss II "The Blue Danube"; Sousa "The Stars and Stripes Forever"; Holst *The Planets* ("Mars", "Jupiter"); a Trinidad and Tobago steel orchestra (Panorama); Paco de Lucía (flamenco guitar); Abing, "Erquan Yingyue" (erhu); "Mo Li Hua" ("Jasmine Flower"); Munir Bashir (oud); Mongolian khöömei and morin khuur; Miriam Makeba "Pata Pata"; Jake Shimabukuro (ukulele).
 - **Online:** BBC Ten Pieces (free films and resources on orchestral music), Chrome Music Lab (free composing tools), and a clip-on tuner or tuning app for ukuleles.
 
 ## End-of-year mastery checks
@@ -453,8 +453,8 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 1. **Singing in parts** — holds a part in a round, partner song or two-part harmony with good tuning. *See it:* four-part "Kookaburra" in a small group.
 2. **Ukulele** — plays C, A minor, F and G7 cleanly and changes chords in time while others sing. *See it:* "La Bamba" performance.
 3. **Notation** — reads and writes rhythms with semibreves to semiquavers, dotted notes and rests; understands 2/4, 3/4, 4/4. *See it:* rhythm dictation and composition.
-4. **Listening and appraising** — describes named pieces and traditions using the elements of music. *See it:* samba vs gamelan comparison.
-5. **World music** — performs a part in a samba, djembe or gamelan piece and explains the tradition. *See it:* world-music showcase.
+4. **Listening and appraising** — describes named pieces and traditions using the elements of music. *See it:* the flamenco vs throat-singing comparison.
+5. **World music** — performs a part in a steel-band, flamenco, Chinese or Arabic-style piece and explains the tradition. *See it:* world-music showcase.
 6. **Improvising and composing** — improvises over chords or a drone and contributes a notated layer to a class composition. *See it:* composition score and performance.
 7. **Performing** — performs with control, expression and awareness of the ensemble. *See it:* end-of-year concert.
 
@@ -465,15 +465,16 @@ Every lesson includes **listening** to a named piece (with the composer or tradi
 - *"A round is just singing badly out of time."* — show on a score how the parts fit.
 - *"Pressing harder makes a better chord."* — press just behind the fret with fingertips; check each string rings.
 - *"The top string must be the lowest note."* — on a standard ukulele the G string is tuned *higher* than C (re-entrant tuning); demonstrate.
-- *"Music from other cultures is 'simpler'."* — gamelan, raga and djembe traditions involve great skill and complex structures; name the traditions, places and musicians.
+- *"Music from other cultures is 'simpler'."* — flamenco compás, maqam and throat singing involve great skill and complex structures; name the traditions, places and musicians.
+- *"Notes only come in piano steps."* — fretless instruments (erhu, oud) and voices can play pitches between the piano keys.
 - *Time signatures as fractions* — the top number counts beats; the bottom number names the note value (4 = crotchet), not a fraction of a whole.
 
 **Practice routine.** Five minutes of chord changes at the start of every ukulele lesson; slow changes first ("ghost" the shape before strumming); tune every instrument before playing.
 
-**Cultural respect.** Introduce each tradition with its place, people and purpose (e.g. samba's roots in Afro-Brazilian communities; "Siyahamba" in South African churches and the anti-apartheid struggle).
+**Cultural respect.** Introduce each tradition with its place, people and purpose (e.g. the steel pan's origins in Trinidad's working-class Afro-Trinidadian communities; flamenco's roots in Andalusia's Gitano communities; "Siyahamba" in South African churches and the anti-apartheid struggle).
 
 **International notes.** Swap in songs from your children's home cultures; many rounds and partner songs exist in other languages. Hebrew-, French- or Spanish-speaking schools can link songs to the language programme.
 
-**Vertical links.** Year 3: stave reading, recorder, texture, structure, music history. Year 4: part-singing, ukulele chords, time signatures, world music, composing in a structure. Year 5: ensemble performance, genres (classical, jazz, pop, electronic), deeper appraisal and a capstone composition, moving towards keyboard basics.
+**Vertical links.** Years 2–3: stave reading to low C–high D with F sharp, recorder, texture, structure, world traditions (gamelan, samba, djembe, raga, taiko, Andean, Aka), music history. Year 4: part-singing, ukulele chords, time signatures and semiquavers, new world traditions, composing in a structure. Year 5: keyboard basics and composing a film soundtrack; it should treat rounds, ukulele chords and the world traditions of Years 2–4 as retrieval.
 
-**Cross-curricular links.** Science (*The Planets*; sound and vibration), languages ("La Bamba"; "Shalom Chaverim"), English (*Journey to Jo'burg* and "Siyahamba"; poetry and rhythm), maths (note values as fractions; counting in time signatures), geography (Brazil, Indonesia, India, West Africa), PE (dance and movement to waltz, march and samba).
+**Cross-curricular links.** Science (*The Planets*; sound and vibration), languages ("La Bamba"; flamenco and Spanish), English (*Journey to Jo'burg* and "Siyahamba"; poetry and rhythm), maths (note values as fractions; counting in time signatures), geography (Trinidad and Tobago, Andalusia, China, the Arab world, Mongolia), PE (dance and movement to waltz, march and samba).
