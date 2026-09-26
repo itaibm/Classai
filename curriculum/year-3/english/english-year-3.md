@@ -5,11 +5,11 @@
 Year 3 is the year children move from *learning to read* to *reading to learn and to love*. Phonics is complete (Year 1–2 finished synthetic phonics and Phase 6 spelling); now the work is fluency, stamina, vocabulary and understanding of whole books, and writing that is organised in **paragraphs** for real readers. Everything is taught **through the class texts**: grammar and spelling are taught in service of the writing the book inspires, never as isolated test drills.
 
 **The class-text spine (read in full, aloud and together):**
-- **Term 1 — *The Iron Man* by Ted Hughes** (a short modern classic with poetic, rhythmic prose — ideal for learning how writers build setting and suspense) and **Greek myths** from *D'Aulaires' Book of Greek Myths* by Ingri and Edgar Parin d'Aulaire (the foundation stories of Western literature, read alongside the Ancient Greece history unit). Poetry: **performance poetry** — Allan Ahlberg, Roger McGough, Michael Rosen, Joseph Coelho.
-- **Term 2 — *The Boy at the Back of the Class* by Onjali Q. Raúf** (a funny, moving story of a refugee boy from Syria and the friends who help him — builds empathy and discussion) and ***The Arrival* by Shaun Tan** (a wordless graphic novel of migration — a masterclass in inference and a stimulus for narrative). Non-fiction: explanation texts and a **research report** on Ancient Rome or the Kingdom of Kush (linked to history). Poetry: **haiku, tanka and imagery** — Matsuo Bashō, Grace Nichols, Benjamin Zephaniah.
-- **Term 3 — *Where the Mountain Meets the Moon* by Grace Lin** (a Chinese-folklore quest novel full of stories-within-stories, read alongside the Ancient China history unit) and ***The Wild Robot* by Peter Brown** (a robot survives on a wild island — science, nature and what it means to belong). Poetry: **narrative and classic poems to learn by heart** — T. S. Eliot, Charles Causley, Robert Louis Stevenson, Edward Lear.
+- **Term 1 — *The Iron Man* by Ted Hughes** (a short modern classic with poetic, rhythmic prose — ideal for learning how writers build setting and suspense) and **Greek myths** from *D'Aulaires' Book of Greek Myths* by Ingri and Edgar Parin d'Aulaire (the foundation stories of Western literature, read alongside the Ancient Greece history unit). Poetry: **performance poetry** — Paul Fleischman (poems for two voices), Roger McGough, Michael Rosen.
+- **Term 2 — *The Boy at the Back of the Class* by Onjali Q. Raúf** (a funny, moving story of a refugee boy from Syria and the friends who help him — builds empathy and discussion) and ***The Journey* by Francesca Sanna** (a picture book in which a child tells of her family's escape from war — the pictures carry as much meaning as the words, a masterclass in inference and a stimulus for narrative). Non-fiction: explanation texts and a **research report** on Ancient Rome or the Kingdom of Kush (linked to history). Poetry: **haiku, tanka and imagery** — Matsuo Bashō, Grace Nichols, John Agard.
+- **Term 3 — *Where the Mountain Meets the Moon* by Grace Lin** (a Chinese-folklore quest novel full of stories-within-stories, read alongside the Ancient China history unit) and ***My Side of the Mountain* by Jean Craighead George** (a boy leaves New York City to live alone in the Catskill Mountains with a falcon — survival, nature and why we need each other). Poetry: **narrative and classic poems to learn by heart** — T. S. Eliot, Charles Causley, Robert Louis Stevenson, Edward Lear.
 
-**Writing genres this year:** descriptive narrative (a new chapter), myth, letter in role, journey narrative from pictures, explanation, non-chronological report from research, playscript, survival diary/log, poetry (performance, haiku, narrative), book review and a real letter. **Grammar in service of writing:** paragraphs; fronted adverbials with commas; expanded noun phrases with prepositional phrases; pronouns and nouns for cohesion; inverted commas for direct speech; conjunctions and adverbs for time and cause; Standard English verb forms; present perfect; plural possessive apostrophes. **Word study:** prefixes (in-, il-, im-, ir-, sub-, inter-, super-, anti-, auto-), suffixes (-ation, -ous, -ly, -tion/-sion/-ssion/-cian), Greek-origin spellings (ch as /k/, ph), French-origin spellings (ch as /sh/, -que, -gue), /s/ spelled sc, ei/eigh/ey, homophones, and the Year 3–4 statutory word list, practised through the week's reading. **Handwriting** is joined, legible and increasingly fast; **speaking and listening** runs through every unit (reading aloud, discussion with reasons, hot-seating, storytelling, poetry performance, a formal presentation).
+**Writing genres this year:** descriptive narrative (a new chapter), myth, letter in role, journey narrative from pictures, explanation, non-chronological report from research, playscript, survival journal, poetry (performance, haiku, narrative), book review and a real letter. **Grammar in service of writing:** paragraphs; fronted adverbials with commas; expanded noun phrases with prepositional phrases; pronouns and nouns for cohesion; inverted commas for direct speech; conjunctions and adverbs for time and cause; Standard English verb forms; present perfect; plural possessive apostrophes. **Word study:** prefixes (in-, il-, im-, ir-, sub-, inter-, super-, anti-, auto-), suffixes (-ation, -ous, -ly, -tion/-sion/-ssion/-cian), Greek-origin spellings (ch as /k/, ph), French-origin spellings (ch as /sh/, -que, -gue, -eau, -et), /s/ spelled sc, its/it's, homophones, and the Year 3–4 statutory word list, practised through the week's reading. **Handwriting** is joined, legible and increasingly fast; **speaking and listening** runs through every unit (reading aloud, discussion with reasons, hot-seating, storytelling, poetry performance, a formal presentation).
 
 **What this year assumes (from Year 2, ages 7–8):** secure decoding (all phonics phases), reading age-appropriate chapter books with growing independence, writing in simple paragraphs, using prefixes and suffixes, adverbs, prepositions, conjunctions, and speech marks in their simplest form, with joined handwriting started. **What Year 4 (ages 9–10) relies on:** reading longer novels independently, summarising and inferring with evidence, planning and paragraphing multi-part writing, confident direct speech, fronted adverbials and cohesion — the base for Year 4's persuasive writing, relative clauses, modal verbs and parenthesis.
 
@@ -28,14 +28,14 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 | T1 | 5. Poetry: poems to perform | 1.4 | 7 | 48–54 |
 | T1 | 6. Term 1 review: reading and writing | 0.6 | 3 | 55–57 |
 | T2 | 7. Class novel: The Boy at the Back of the Class | 3 | 15 | 58–72 |
-| T2 | 8. The Arrival: reading pictures, writing journeys | 1.4 | 7 | 73–79 |
+| T2 | 8. The Journey: reading pictures, writing journeys | 1.4 | 7 | 73–79 |
 | T2 | 9. Non-fiction: explanation texts | 2 | 10 | 80–89 |
 | T2 | 10. Research and report writing | 2.8 | 14 | 90–103 |
 | T2 | 11. Poetry: small poems, big pictures | 1.4 | 7 | 104–110 |
 | T2 | 12. Speaking and listening: presenting research; Term 2 review | 0.8 | 4 | 111–114 |
 | T3 | 13. Class novel: Where the Mountain Meets the Moon | 3.2 | 16 | 115–130 |
 | T3 | 14. Dialogue and playscripts | 1.8 | 9 | 131–139 |
-| T3 | 15. Class novel: The Wild Robot (reading and survival writing) | 2.6 | 13 | 140–152 |
+| T3 | 15. Class novel: My Side of the Mountain (reading and survival writing) | 2.6 | 13 | 140–152 |
 | T3 | 16. Poetry: story poems and classics to learn by heart | 1.6 | 8 | 153–160 |
 | T3 | 17. Year-end: readers and writers for life | 2 | 10 | 161–170 |
 | **Total** | **17 units** | **34** | **170** | |
@@ -188,12 +188,12 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Materials:** novel, discussion stems
 - **Joy:** "Town-hall meeting" role-play
 
-### Lesson 14 — Word study: the suffix -ous
+### Lesson 14 — Word study: -ous — retrieval and the tricky -eous and -ious endings
 - **Duration:** 40 min
-- **Objective:** "By the end, I can spell and use adjectives ending in -ous, including the tricky ones." (UK NC Y3–4 Wt (-ous suffix))
-- **Hook:** "The Iron Man is enormous, dangerous and mysterious. What do these words share?"
-- **Key activity:** Sort words: root + ous (poisonous, dangerous, mountainous), drop -e (famous, from fame), y → i (various, glorious), -our → -or (humorous), and words with no obvious root (enormous, jealous, tremendous). Children use them in descriptions.
-- **Check for understanding:** "Why is it 'humorous', not 'humourous'? How is 'famous' made?" → the -our of humour changes to -or before -ous; famous = fame with the final e dropped before -ous
+- **Objective:** "By the end, I can spell adjectives ending in -ous, including the tricky -eous and -ious words, and explain the rules." (UK NC Y3–4 Wt (-ous suffix))
+- **Hook:** "The Iron Man is enormous, dangerous, mysterious — and courageous. Why does 'courageous' keep an e?"
+- **Key activity:** Quick retrieval of the Year 2 patterns (just add: dangerous; y → i: glorious; -our → -or: humorous; no obvious root: enormous). Then the new, trickier groups: -eous after a soft g, where the e is kept so the g stays soft (courage → courageous, outrage → outrageous), and words where an /ee/ sound before -ous is spelled i (serious, obvious, curious) or occasionally e (hideous). Children use them in descriptions of the Iron Man.
+- **Check for understanding:** "Why does 'courageous' keep the e from 'courage' when 'famous' drops the e from 'fame'?" → the e in courageous keeps the g soft (/j/); without it the word would read 'couragous' with a hard g. In fame → famous the e isn't needed, so it drops before the vowel suffix.
 - **Differentiation:** support: one group of rule words at a time with a reference card / stretch: collect -ous words from the text and other books and classify them
 - **Materials:** word cards, dictionaries, sorting mats
 - **Joy:** "Adjective auction": bid for the best -ous word for a picture
@@ -308,12 +308,12 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Materials:** emotion picture cards, charts
 - **Joy:** "Freeze-frame theatre"
 
-### Lesson 25 — Word study: prefixes sub-, inter-, super-, anti-, auto-
+### Lesson 25 — Word study: prefix retrieval and new prefixes non-, over- and trans-
 - **Duration:** 40 min
-- **Objective:** "By the end, I can spell and explain words with the prefixes sub-, inter-, super-, anti- and auto-." (UK NC Y3–4 Wt (prefixes))
-- **Hook:** "A submarine goes under the sea. A superhero is above ordinary. What does each prefix mean?"
-- **Key activity:** Meaning chart: sub (under), inter (between), super (above/beyond), anti (against), auto (self). Build words (subheading, international, supermarket, antiseptic, autograph) and invent 'new' words for a sci-fi Iron Man world, defining them.
-- **Check for understanding:** "What does 'interplanetary' mean? Explain using the prefix." → between planets — inter means between
+- **Objective:** "By the end, I can explain the prefixes I learned in Year 2 and spell and use words with non-, over- and trans-." (UK NC Y3–4 Wt (prefixes))
+- **Hook:** "The space-being flew overhead, non-stop, on a transatlantic… no, trans-galactic journey! What does each prefix do?"
+- **Key activity:** Two-minute retrieval of Year 2 prefixes (sub-, super-, inter-, anti-, auto-). Then new prefixes: non- (not: non-stop, nonsense, non-fiction), over- (too much, or above: overflow, overcast, overtake), trans- (across: transport, transform, transatlantic). Build words and invent 'new' words for a sci-fi Iron Man world, defining them.
+- **Check for understanding:** "What does 'transatlantic' mean? Explain using the prefix — and say why 'interplanetary' uses a different one." → across the Atlantic (trans = across); interplanetary means between planets (inter = between)
 - **Differentiation:** support: picture cards for each prefix meaning / stretch: invent and define three words for a science-fiction glossary
 - **Materials:** prefix cards, dictionaries
 - **Joy:** "Invent-a-word" sci-fi dictionary
@@ -462,7 +462,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 40 min
 - **Objective:** "By the end, I can punctuate direct speech with inverted commas and a reporting clause." (UK NC Y3–4 Wg (inverted commas for direct speech))
 - **Hook:** "A weaver boasts she's better than a goddess. What would they say to each other?"
-- **Key activity:** Read the myth of Arachne. Model speech punctuation: opening inverted commas, spoken words, punctuation inside, closing inverted commas, reporting clause. Children write the argument between Arachne and Athena as a dialogue, starting a new line for each new speaker.
+- **Key activity:** Read the myth of Arachne. Recap the Year 2 rules, then extend them: opening inverted commas, spoken words, punctuation inside, closing inverted commas, then the reporting clause — and now also with the reporting clause first (Athena warned, "…"). Children write the argument between Arachne and Athena as a dialogue, starting a new line for each new speaker.
 - **Check for understanding:** "Punctuate: I am the best weaver in the world said Arachne. Explain where each mark goes." → "I am the best weaver in the world," said Arachne. — words spoken go inside inverted commas, with a comma before the closing marks
 - **Differentiation:** support: speech bubbles converted into sentences with a template / stretch: vary reporting verbs and put the reporting clause first or in the middle
 - **Materials:** myth text, speech-bubble templates, weaving loom or picture
@@ -560,13 +560,13 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 
 ### Lesson 48 — Poems are for voices
 - **Duration:** 35 min
-- **Objective:** "By the end, I can perform a poem with a group, using volume, pace and expression to show meaning." (UK NC Y3–4 Rc (prepare poems to read aloud and perform); SL)
-- **Hook:** "Listen to 'Please Mrs Butler' by Allan Ahlberg. Who is speaking in each verse?"
-- **Key activity:** Teacher performs the poem with two voices (the child and Mrs Butler). Class identifies the two speakers and how to show them. Groups of three prepare a performance, deciding who reads which lines and how Mrs Butler's patience changes.
-- **Check for understanding:** "How does Mrs Butler's voice change from the first to the last reply, and why?" → she grows more exasperated each time; the replies get more ridiculous — voice rises in frustration
-- **Differentiation:** support: a single speaking part with the lines highlighted / stretch: add a third voice (the class) and justify its lines
-- **Materials:** copies of 'Please Mrs Butler' (Allan Ahlberg), highlighters
-- **Joy:** "Staffroom drama": groups perform with a teacher's mug prop
+- **Objective:** "By the end, I can perform a poem for two voices, using volume, pace and timing to show meaning." (UK NC Y3–4 Rc (prepare poems to read aloud and perform); SL)
+- **Hook:** "A worker bee and a queen bee describe the very same life. Listen: one says being a bee is a joy, the other says it's a pain!"
+- **Key activity:** Teacher and a volunteer perform 'Honeybees' from Paul Fleischman's *Joyful Noise: Poems for Two Voices* (lines on the left for one voice, lines on the right for the other, and lines printed on both sides spoken together). Class identifies the two viewpoints and how to show them. Pairs prepare their own performance, deciding how each voice sounds and practising the lines spoken together.
+- **Check for understanding:** "Why are some lines spoken by both voices at the same time, and what does that show about the two bees?" → when both say the same words they share the same facts of a bee's life, but their other lines show they feel completely differently about it — the queen enjoys it, the worker is exhausted
+- **Differentiation:** support: take one voice with the lines highlighted and a partner who leads / stretch: write a new two-voice stanza about two other creatures who see life differently
+- **Materials:** copies of 'Honeybees' from *Joyful Noise: Poems for Two Voices* (Paul Fleischman), two colours of highlighter
+- **Joy:** "Hive drama": pairs perform with buzzing sound effects from the class
 
 ### Lesson 49 — Sound poems: onomatopoeia
 - **Duration:** 35 min
@@ -602,7 +602,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 35 min
 - **Objective:** "By the end, I can discuss how a poet uses humour to make a serious point." (UK NC Y3–4 Rc (discuss themes))
 - **Hook:** "Can a funny poem make you think seriously?"
-- **Key activity:** Read a poem from Joseph Coelho's *Werewolf Club Rules!* or Michael Rosen's work that mixes humour and feeling; discuss the poet's message; children find the line where the tone shifts.
+- **Key activity:** Read a poem by Michael Rosen or Roger McGough that mixes humour and feeling (chosen from a class anthology); discuss the poet's message; children find the line where the tone shifts.
 - **Check for understanding:** "Where does the poem change from funny to serious, and how can you tell?" → identifies the line and names the change in word choice or tone
 - **Differentiation:** support: poem split into sections with a tone scale / stretch: compare how two poets use humour differently
 - **Materials:** poetry collections, tone scales
@@ -712,7 +712,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 40 min
 - **Objective:** "By the end, I can add the suffix -ation to verbs and spell the resulting nouns correctly." (UK NC Y3–4 Wt (suffix -ation))
 - **Hook:** "Inform → information. Invite → invitation. What happens to the spelling?"
-- **Key activity:** Sort verbs into groups: just add (inform → information), drop the -e (prepare → preparation, admire → admiration), y → i + c (multiply → multiplication — note). Children write sentences about the story using five -ation nouns.
+- **Key activity:** Sort verbs into groups: just add (inform → information), drop the -e (prepare → preparation, admire → admiration), and the odd one out where y becomes ic (multiply → multiplication). Children write sentences about the story using five -ation nouns.
 - **Check for understanding:** "How do you change 'admire' into a noun with -ation, and why does the e disappear?" → admiration — the final e is dropped before a suffix starting with a vowel
 - **Differentiation:** support: sort only the 'just add' and 'drop the e' groups / stretch: explain 'multiply → multiplication' and find another verb that behaves similarly
 - **Materials:** word cards, sorting mats
@@ -832,61 +832,61 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 
 ---
 
-## Unit 8 — The Arrival: reading pictures, writing journeys
+## Unit 8 — The Journey: reading pictures, writing journeys
 
-**Essential question:** How can a story with no words tell us so much — and how can words bring it to life?
+**Essential question:** How can pictures and very few words tell us so much — and how can our words carry a journey further?
 
-**Key vocabulary:** graphic novel, panel, sequence, inference, setting, migrant, journey, homophone, first person, past tense
+**Key vocabulary:** picture book, illustration, colour, symbol, sequence, inference, setting, refugee, journey, border, homophone, first person, past tense
 
-### Lesson 73 — Reading a wordless book
+### Lesson 73 — Reading pictures as closely as words
 - **Duration:** 40 min
-- **Objective:** "By the end, I can read a wordless graphic novel by noticing details and explaining what they suggest." (UK NC Y3–4 Rc (infer from details))
-- **Hook:** "This book has no words at all. Can you still read it?"
-- **Key activity:** Look closely at the opening pages of *The Arrival* by Shaun Tan (the objects in the family home). Children list details and infer: who lives here, what's happening, how they feel. Model 'I notice… I think… because…'.
-- **Check for understanding:** "What do the objects on the opening pages tell you about the family and what is about to happen?" → they show a family's everyday life and a suitcase being packed — someone is about to leave
-- **Differentiation:** support: a few key panels with guiding questions / stretch: explain how the panel size or layout changes the pace
-- **Materials:** *The Arrival* (Shaun Tan), visualiser or large copies
+- **Objective:** "By the end, I can read the pictures in a picture book by noticing details and explaining what they suggest." (UK NC Y3–4 Rc (infer from details))
+- **Hook:** "This book has only a few words on each page. Can the pictures tell us more than the words?"
+- **Key activity:** Look closely at the opening spreads of *The Journey* by Francesca Sanna (told by a child whose family must leave home because of war). Children list what they notice in the pictures — colours, the dark shapes that spread across the page, the family's faces — and infer what is happening and how the family feel. Model 'I notice… I think… because…'.
+- **Check for understanding:** "What do the dark shapes that spread across the first pages suggest, even though the words don't describe them?" → They stand for the war arriving and taking over the family's happy life — the picture shows the fear and danger the words only hint at.
+- **Differentiation:** support: a few key spreads with guiding questions / stretch: explain how the colours change from the first page to the war pages and why
+- **Materials:** *The Journey* (Francesca Sanna), visualiser or large copies
 - **Joy:** "Detective lenses": magnifying glasses for tiny details
 
 ### Lesson 74 — Following the journey: inference
 - **Duration:** 40 min
-- **Objective:** "By the end, I can infer characters' feelings and the story's events from sequences of images." (UK NC Y3–4 Rc)
-- **Hook:** "The man leaves on a ship. What is he feeling, and how do you know without words?"
-- **Key activity:** Sequence the journey panels; annotate facial expressions, colour and weather; write thought bubbles for the man at three points.
-- **Check for understanding:** "How does the illustrator show the man's feelings changing during the journey?" → through expressions, posture, colour and weather — e.g. grey and lonely at sea, bright wonder on arrival
-- **Differentiation:** support: fewer panels with emotion word banks / stretch: compare his feelings to Ahmet's in the novel
+- **Objective:** "By the end, I can infer characters' feelings and the story's events from words and pictures together." (UK NC Y3–4 Rc)
+- **Hook:** "The family travel on and on — along roads, on foot and across the sea. What are they feeling at each stage, and how do you know?"
+- **Key activity:** Sequence the journey spreads (the packing, the long journey, the border and its guard, the forest, the sea crossing); annotate faces, colour and size of the characters; write thought bubbles for the child narrator at three points.
+- **Check for understanding:** "How does the illustrator show the family's feelings changing on the journey? Give two picture clues." → e.g. tiny figures under a huge wall show how powerless and scared they feel; the mother holding the children close in the dark forest shows fear and protection; brighter pages near the end show hope.
+- **Differentiation:** support: fewer spreads with an emotion word bank / stretch: compare the narrator's feelings with Ahmet's in *The Boy at the Back of the Class*
 - **Materials:** copies of key spreads, thought-bubble templates
-- **Joy:** "Silent sequence": act out the panels in silence
+- **Joy:** "Silent sequence": act out the spreads in freeze-frames, in silence
 
-### Lesson 75 — Word study: homophones
+### Lesson 75 — Word study: homophones — the next set
 - **Duration:** 40 min
-- **Objective:** "By the end, I can spell and choose between common homophones and near-homophones." (UK NC Y3–4 Wt (homophones))
-- **Hook:** "Weather or whether? Here or hear? The spellchecker won't save you!"
-- **Key activity:** Teach sets: there/their/they're, whether/weather, here/hear, knew/new, piece/peace, grate/great, meet/meat, accept/except. Mnemonics (hear has an 'ear'). Children correct a journey paragraph full of homophone errors.
-- **Check for understanding:** "Why won't a spellchecker catch 'there suitcase'? Correct it and explain." → 'there' is a real word, so it isn't flagged; the correct word is 'their' (belonging to them)
-- **Differentiation:** support: three sets only, with picture mnemonics / stretch: write a sentence using three homophones of one sound correctly (they're/their/there)
+- **Objective:** "By the end, I can spell and choose between the Year 3–4 homophones and near-homophones I haven't yet mastered." (UK NC Y3–4 Wt (homophones))
+- **Hook:** "Grate or great? Mist or missed? Main or mane? The spellchecker won't save you!"
+- **Key activity:** Quick retrieval of the Year 2 sets (there/their/they're, whether/weather, piece/peace). Then teach new sets from the Year 3–4 list: accept/except, affect/effect, grate/great, groan/grown, heel/heal/he'll, knot/not, mail/male, main/mane, missed/mist, rain/rein/reign, fair/fare, berry/bury. Mnemonics (accept means to receive; except means leaving out). Children correct a journey paragraph full of homophone errors.
+- **Check for understanding:** "Why won't a spellchecker catch 'The family missed the boat in the thick missed'? Correct it and explain." → Both words are real, so neither is flagged; the second should be 'mist' (fog), because 'missed' is the past tense of 'miss'.
+- **Differentiation:** support: four sets only, with picture mnemonics / stretch: write a sentence using all three of rain/rein/reign correctly
 - **Materials:** homophone cards, error paragraph
 - **Joy:** "Homophone hunt" in a pretend newspaper
 
-### Lesson 76 — Describing a strange city
+### Lesson 76 — Describing a place from a picture
 - **Duration:** 40 min
-- **Objective:** "By the end, I can write a setting description of an unfamiliar place using senses and noun phrases." (UK NC Y3–4 Wc)
-- **Hook:** "Imagine arriving in a city where you can't read any signs or recognise any food."
-- **Key activity:** Explore the strange city spreads; list sense details and surprising objects; write a paragraph in the first person describing arrival, using expanded noun phrases and fronted adverbials.
-- **Check for understanding:** "Read your best sentence. How does it make the reader feel the strangeness?" → identifies how word choice creates unfamiliarity (unusual comparisons, confusion)
+- **Objective:** "By the end, I can write a setting description of a place in the story using senses and noun phrases." (UK NC Y3–4 Wc)
+- **Hook:** "Step into the dark forest spread. What can you hear, smell and feel at night among these trees?"
+- **Key activity:** Explore one spread (the forest at night, the border wall or the sea); list sense details and precise nouns; write a paragraph in the first person as the child narrator, using expanded noun phrases and fronted adverbials.
+- **Check for understanding:** "Read your best sentence. How does it make the reader feel what the child feels?" → identifies how word choice creates the mood (fear, cold, wonder) and links it to the picture
 - **Differentiation:** support: a sense grid and word bank / stretch: include a comparison to home that shows homesickness
 - **Materials:** picture spreads, sense grids
-- **Joy:** "Tourist in a strange land": invent an object and describe it
+- **Joy:** "Soundscape": the class creates the forest or the sea with voices while writers draft
 
-### Lesson 77 — Planning a journey narrative
+### Lesson 77 — Planning the next part of the journey
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a first-person journey narrative based on the book." (UK NC Y3–4 Wc)
-- **Hook:** "You are the man in the book. Tell your journey in your own words."
-- **Key activity:** Choose four key moments (leaving, the voyage, arrival, finding help); plan in paragraphs with feelings and a line of dialogue for each.
-- **Check for understanding:** "What will the reader learn in each paragraph?" → four clear focuses in order
+- **Objective:** "By the end, I can plan a first-person narrative that continues the journey beyond the book's last page." (UK NC Y3–4 Wc)
+- **Hook:** "The book ends with the family still travelling, watching birds fly over, hoping for a new home. What happens next?"
+- **Key activity:** Discuss the ending and the migrating birds; choose four moments for the continuation (the next part of the journey, arriving somewhere new, a first day, finding help or a friend); plan in paragraphs with feelings and a line of dialogue for each.
+- **Check for understanding:** "What will the reader learn in each paragraph, and how does your ending keep the book's feeling of hope?" → four clear focuses in order, with an ending that is hopeful but realistic
 - **Differentiation:** support: planner with images / stretch: plan a flashback to home
-- **Materials:** planners
-- **Joy:** "Postcard home": a quick postcard from the new country
+- **Materials:** planners, the book's final spreads
+- **Joy:** "Postcard from a new place": a quick postcard from the narrator
 
 ### Lesson 78 — Drafting the journey narrative
 - **Duration:** 40 min
@@ -906,9 +906,9 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Check for understanding:** "What did you change after editing, and why?" → explains a specific improvement
 - **Differentiation:** support: checklist with three items / stretch: add a final line that echoes the first
 - **Materials:** checklists, coloured pens
-- **Joy:** reading circle with 'suitcase' of finished stories
+- **Joy:** reading circle with a 'suitcase' of finished stories
 
-**End-of-unit check:** Infer feelings from a sequence of images with evidence; correct homophone errors; write a first-person journey narrative in paragraphs with consistent past tense and punctuated dialogue.
+**End-of-unit check:** Infer feelings from a sequence of pictures with evidence; correct homophone errors; write a first-person journey narrative in paragraphs with consistent past tense and punctuated dialogue.
 
 ---
 
@@ -932,7 +932,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 40 min
 - **Objective:** "By the end, I can spell words where /s/ is spelled sc and other technical science words." (UK NC Y3–4 Wt (/s/ spelled sc))
 - **Hook:** "Science, scissors, scene — why is there a silent c?"
-- **Key activity:** These words come from Latin; sort sc words (science, scene, discipline, fascinate, crescent, scissors). Learn 10 technical words for the explanation (oesophagus/esophagus, saliva, intestine, nutrients, digest) with meaning. Note UK/US spellings.
+- **Key activity:** Recall sc from Year 2, then go deeper: these words come from Latin (scientia, knowledge); sort sc words (science, scene, discipline, fascinate, crescent, scissors) and spot the family science, scientist, conscience. Learn 10 technical words for the explanation (oesophagus/esophagus, saliva, intestine, nutrients, digest) with meaning. Note UK/US spellings.
 - **Check for understanding:** "Why is 'science' spelled with sc, and how can you remember it?" → it comes from Latin 'scientia'; a mnemonic helps (e.g. 'science can be fascinating')
 - **Differentiation:** support: five words with picture cards / stretch: create a glossary entry for three technical words
 - **Materials:** word cards, dictionaries
@@ -1078,13 +1078,13 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Materials:** printed web pages, encyclopedias, checklists
 - **Joy:** "Fact or fake?" quiz game with thumbs up/down cards
 
-### Lesson 95 — Word study: -tion, -sion, -ssion, -cian
+### Lesson 95 — Word study: /shun/ endings — retrieval and the tricky cases
 - **Duration:** 40 min
-- **Objective:** "By the end, I can choose the correct ending for the /shun/ sound." (UK NC Y3–4 Wt)
-- **Hook:** "Invasion, construction, musician, discussion: four spellings, one sound."
-- **Key activity:** Rules: -tion most common (after t roots: invent → invention); -sion after d/s roots (extend → extension; invade → invasion); -ssion after ss or mit roots (discuss → discussion; permit → permission); -cian for people jobs (music → musician). Sort Roman-themed words.
+- **Objective:** "By the end, I can choose the correct ending for the /shun/ sound, including words whose roots change or break the pattern." (UK NC Y3–4 Wt)
+- **Hook:** "Invasion, construction, musician, discussion — and attention! Four spellings, one sound, and one word that breaks the rule."
+- **Key activity:** Retrieve the Year 2 rules in a quick sort: -tion most common (after t roots: invent → invention); -sion after d/de/se roots (extend → extension; invade → invasion); -ssion after ss or mit roots (discuss → discussion; permit → permission); -cian for people (music → musician). Then the tricky cases: roots that change (explain → explanation, decide → decision, admit → admission, comprehend → comprehension) and exceptions to spot (attend → attention, not 'attension'). Sort Roman-themed words.
 - **Check for understanding:** "Why is it 'musician' but 'invention'?" → -cian is used for people with a job linked to a root ending in c/cs; invent ends in t, so -tion
-- **Differentiation:** support: word sort by root ending / stretch: explain 'permit → permission'
+- **Differentiation:** support: word sort by root ending / stretch: explain 'permit → permission' and why 'attention' is an exception
 - **Materials:** word cards
 - **Joy:** "Shun sort" race
 
@@ -1218,15 +1218,15 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Materials:** copies of the poem, sense colour keys
 - **Joy:** taste real tropical fruit while reading
 
-### Lesson 108 — Poems with a voice: Benjamin Zephaniah
+### Lesson 108 — Poems with a voice: John Agard
 - **Duration:** 35 min
 - **Objective:** "By the end, I can explain how a poet's voice, rhythm and spelling choices carry a message." (UK NC Y3–4 Rc (themes; poets' language))
-- **Hook:** "A poem from a turkey's point of view that makes you laugh — and think."
-- **Key activity:** Read and perform 'Talking Turkeys!!' by Benjamin Zephaniah; discuss dub-poetry rhythm, spellings that show voice, and the serious message under the humour.
-- **Check for understanding:** "What is Zephaniah's serious message, and how does the humour help it land?" → be kind to animals / think about what we eat; the humour makes the reader listen and remember
-- **Differentiation:** support: read with the teacher first, then perform one verse / stretch: compare Zephaniah's voice with Ahlberg's from Term 1
+- **Hook:** "A poem that sounds like a carnival coming down the street — and invites you to join in."
+- **Key activity:** Read and perform 'Poetry Jump-Up' by John Agard (born in Guyana); discuss the carnival rhythm, the spellings that show a Caribbean speaking voice, and what the poet wants the reader to do.
+- **Check for understanding:** "What does Agard want his readers to do, and how do the rhythm and spellings help?" → he wants everyone to join in and enjoy poetry out loud, together; the dancing carnival rhythm and the spoken-voice spellings make you hear him and want to join the procession
+- **Differentiation:** support: read with the teacher first, then perform one verse / stretch: compare Agard's voice with Benjamin Zephaniah's in *Talking Turkeys* from Year 2
 - **Materials:** copies of the poem, drums
-- **Joy:** rhythm performance with body percussion
+- **Joy:** a 'poetry jump-up' procession around the classroom with body percussion
 
 ### Lesson 109 — Writing an imagery poem
 - **Duration:** 35 min
@@ -1248,7 +1248,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Materials:** microphone prop, tablecloths
 - **Joy:** café atmosphere with finger-snaps
 
-**End-of-unit check:** Identify haiku, tanka and cinquain by their forms; write a haiku from observation; explain an image's effect in a Grace Nichols or Zephaniah poem; perform a poem to an audience.
+**End-of-unit check:** Identify haiku, tanka and cinquain by their forms; write a haiku from observation; explain an image's effect in a Grace Nichols or John Agard poem; perform a poem to an audience.
 
 ---
 
@@ -1342,7 +1342,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 40 min
 - **Objective:** "By the end, I can spell words ending -gue and -que and words where ch says /sh/." (UK NC Y3–4 Wt (-gue, -que; ch as /sh/))
 - **Hook:** "A chef in a boutique with a unique machine — what's odd about these spellings?"
-- **Key activity:** Explain these come from French: ch as /sh/ (chef, machine, brochure, parachute, chalet); -gue (league, tongue, catalogue, dialogue), -que (unique, antique, cheque/check). Sort, then write sentences.
+- **Key activity:** Recall ch as /sh/, -gue and -que from Year 2 (chef, machine, league, unique). Then extend with more French patterns: -eau (plateau, gateau, bureau), -et saying /ay/ (ballet, bouquet, buffet), ou saying /oo/ (soup, route, souvenir), and dialogue/catalogue (US dialog/catalog). Sort, then write sentences.
 - **Check for understanding:** "How is 'dialogue' spelled, and why does it end in -gue?" → d-i-a-l-o-g-u-e — the ending comes from French
 - **Differentiation:** support: picture cards and a small set of 8 words / stretch: find three more French-origin words in a dictionary and explain the clues
 - **Materials:** word cards, dictionaries
@@ -1572,68 +1572,68 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 
 ---
 
-## Unit 15 — Class novel: The Wild Robot (reading and survival writing)
+## Unit 15 — Class novel: My Side of the Mountain (reading and survival writing)
 
-**Essential question:** Can a machine belong in the wild — and what does it mean to belong anywhere?
+**Essential question:** Can a person really live alone in the wild — and what does it mean to need other people?
 
-**Key vocabulary:** robot, programme, instinct, adapt, survive, island, ecosystem, point of view, chapter, cliffhanger, diary, log, first person, time adverbial, cohesion, ei, eigh, ey
+**Key vocabulary:** survival, wilderness, independence, flashback, first person, journal, log, observation, falcon, forage, shelter, season, time adverbial, cohesion, its, it's
 
-### Lesson 140 — Washed ashore: the opening
+### Lesson 140 — A boy inside a tree: the opening
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how an opening hooks the reader and sets up a problem." (UK NC Y3–4 Rc (predict; how structure contributes to meaning))
-- **Hook:** "A robot wakes up on a wild island with no idea where it is or why. What would you do first?"
-- **Key activity:** Read the opening chapters of *The Wild Robot* by Peter Brown (very short chapters with the author's own illustrations). Children list what Roz knows and doesn't know, and the problem she faces. Discuss the narrator who talks directly to the reader.
-- **Check for understanding:** "What is Roz's first problem, and how does the author make you want to keep reading?" → she must survive in an unknown wild place; short chapters, cliffhangers and questions hook the reader
-- **Differentiation:** support: a 'knows / doesn't know' chart with picture cues / stretch: explain the effect of the narrator addressing the reader directly
-- **Materials:** copies of the novel, island map outline
-- **Joy:** "Island map" that the class fills in as Roz explores
+- **Objective:** "By the end, I can explain how an opening hooks the reader and why an author might start in the middle of the story." (UK NC Y3–4 Rc (predict; how structure contributes to meaning))
+- **Hook:** "A boy is snug inside a hollow tree while a blizzard howls outside. How on earth did he get there?"
+- **Key activity:** Read the opening of *My Side of the Mountain* by Jean Craighead George: Sam Gribley, in his tree home on a mountain in winter, then the jump back to the spring day he left New York City. Children list what Sam knows and has, what we still don't know, and the questions the flashback makes us ask.
+- **Check for understanding:** "Why does the author start in the snowstorm and then go back to how Sam ran away?" → Starting with Sam already surviving in winter hooks us with a mystery; we read on to find out how a city boy learned to do it.
+- **Differentiation:** support: a 'knows / doesn't know' chart with picture cues / stretch: explain what the snowstorm opening tells us about how the story will end
+- **Materials:** copies of the novel, a map of the eastern USA showing New York and the Catskill Mountains
+- **Joy:** "Mountain map" that the class fills in as Sam explores
 
-### Lesson 141 — Learning from the animals
+### Lesson 141 — Learning to survive
 - **Duration:** 40 min
 - **Objective:** "By the end, I can infer how a character learns and adapts from evidence across chapters." (UK NC Y3–4 Rc (infer))
-- **Hook:** "Roz can't ask for help in robot language. How does she learn to survive?"
-- **Key activity:** Track Roz's learning moments (watching, copying, trying and failing); link to science ideas of adaptation. Children complete a learning log for Roz.
-- **Check for understanding:** "Give two ways Roz learns, with evidence, and explain which you think is most important." → observing animals and copying them; trial and error — with examples and a reasoned choice
-- **Differentiation:** support: log template with three prompts / stretch: compare Roz's learning with how children learn a new language
+- **Hook:** "Sam's first night: no fire, no food, cold and wet. What would you do first?"
+- **Key activity:** Track Sam's learning moments (failing to light a fire, learning from library books and a librarian's help, fishing, finding plants, making his tree home) and link them to science ideas about habitats and seasons. Children complete a learning log for Sam.
+- **Check for understanding:** "Give two ways Sam learns, with evidence, and explain which you think matters most." → from books and people he asks, and by trying, failing and trying again — with examples and a reasoned choice
+- **Differentiation:** support: log template with three prompts / stretch: compare Sam's learning with how you learn a new skill
 - **Materials:** novel, learning-log templates
-- **Joy:** "Robot mime": act out Roz learning a new skill
+- **Joy:** "Survival mime": act out Sam learning a new skill for the class to guess
 
-### Lesson 142 — Point of view: the animals and Roz
+### Lesson 142 — Point of view: how others see Sam
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how different characters see Roz and why their views change." (UK NC Y3–4 Rc)
-- **Hook:** "To the animals, Roz is a 'monster'. To us, she's the hero. Who's right?"
-- **Key activity:** Groups take an animal's viewpoint and write thought bubbles at three points in the story; discuss how and why opinions change.
-- **Check for understanding:** "Why do the animals first see Roz as a monster, and what changes their minds?" → she is unknown and strange; her kindness and help over time change their view
+- **Objective:** "By the end, I can explain how different characters see Sam and why their views differ." (UK NC Y3–4 Rc)
+- **Hook:** "To Sam he's a free boy on his own land. To the newspapers he's a 'wild boy' in the woods. Who's right?"
+- **Key activity:** Groups take the viewpoint of someone Sam meets (Bando, the lost teacher who becomes his friend; a hunter; a newspaper reporter; his father) and write thought bubbles about Sam at three points in the story; discuss how and why opinions differ.
+- **Check for understanding:** "Why do some people see Sam as a 'wild boy', and what does Bando see instead?" → They only hear rumours of a strange boy living in the woods; Bando gets to know him and sees a clever, resourceful and friendly boy
 - **Differentiation:** support: viewpoint cards with sentence starters / stretch: compare with how people saw the Iron Man and Ahmet
 - **Materials:** novel, thought-bubble cards
-- **Joy:** "Island gossip" circle: the animals discuss the robot
+- **Joy:** "Mountain gossip" circle: the townspeople discuss the rumours
 
-### Lesson 143 — Brightbill: family and belonging
+### Lesson 143 — Frightful: friendship and belonging
 - **Duration:** 40 min
-- **Objective:** "By the end, I can discuss how the relationship between Roz and Brightbill develops and what it shows about belonging." (UK NC Y3–4 Rc (themes); SL)
-- **Hook:** "A robot becomes a mother to a gosling. Can that really be family?"
-- **Key activity:** Read the adoption chapters and later chapters of Brightbill growing up. Discussion: what makes a family? Children rank statements and justify.
-- **Check for understanding:** "What evidence shows that Roz and Brightbill are a real family?" → care, protection, teaching and love shown in specific events
-- **Differentiation:** support: statement cards with picture support / stretch: argue whether Roz 'feels' or only 'acts' as if she feels, with evidence
-- **Materials:** novel, statement cards
-- **Joy:** "Family portrait" drawing of Roz and Brightbill
+- **Objective:** "By the end, I can discuss how the relationship between Sam and his falcon develops and what it shows about him." (UK NC Y3–4 Rc (themes); SL)
+- **Hook:** "Sam takes a young peregrine falcon from its nest and trains it to hunt. Is Frightful a pet, a helper or a friend?"
+- **Key activity:** Read the chapters where Sam takes and trains Frightful and the later chapters of their life together. Discussion: what makes a companion? Children rank statements ('Frightful is only useful to Sam', 'Frightful is his family'…) and justify.
+- **Check for understanding:** "What evidence shows that Frightful matters to Sam as more than a hunting bird?" → he talks to her, cares for her, worries about her and treats her as his companion — specific events as evidence
+- **Differentiation:** support: statement cards with picture support / stretch: discuss whether Sam was right to take a wild bird from its nest, with evidence and reasons
+- **Materials:** novel, statement cards, photographs of peregrine falcons
+- **Joy:** "Falcon facts": the fastest diving bird in the world — watch a short slow-motion clip
 
-### Lesson 144 — Word study: ei, eigh and ey
+### Lesson 144 — Word study: its and it's
 - **Duration:** 40 min
-- **Objective:** "By the end, I can spell words where the /ay/ sound is spelled ei, eigh or ey." (UK NC Y3–4 Wt (ei, eigh, ey))
-- **Hook:** "Eight geese weigh the same as one robot's arm — eight and weigh both use 'eigh'!"
-- **Key activity:** Sort words: ei (vein, veil, rein, reindeer), eigh (eight, eighty, weigh, weight, neighbour, sleigh), ey (they, obey, grey (UK)/gray (US), prey). Write a nature paragraph using them.
-- **Check for understanding:** "Why do 'weigh' and 'way' sound the same but mean different things?" → they're homophones — weigh (measure mass) and way (a path or method)
-- **Differentiation:** support: one spelling pattern at a time with pictures / stretch: find a word where ei says a different sound (e.g. ceiling) and explain
-- **Materials:** word cards, sorting mats
-- **Joy:** "Sleigh race" spelling relay
+- **Objective:** "By the end, I can choose correctly between its and it's and explain why possessive pronouns never take an apostrophe." (UK NC Y3–4 Wg (apostrophes); Wt)
+- **Hook:** "The falcon shook it's feathers.' — Is that right? What does 'it's' really mean?"
+- **Key activity:** Recall the two jobs of the apostrophe (missing letters; belonging with nouns). Teach that it's always means 'it is' or 'it has', and that its (belonging to it) is a possessive pronoun like his, hers, ours and theirs — none of them take an apostrophe. Test with the 'it is' swap; correct a paragraph from Sam's notebook full of its/it's errors.
+- **Check for understanding:** "Why is there no apostrophe in 'The falcon spread its wings'?" → 'its' means 'belonging to it' — a possessive pronoun, like 'his' — and possessive pronouns never have an apostrophe; 'it is wings' makes no sense, so it can't be 'it's'.
+- **Differentiation:** support: the 'it is' swap card and six sentences / stretch: write a sentence that uses both its and it's correctly, and explain why 'hers' and 'theirs' follow the same rule
+- **Materials:** sentence cards, mini-whiteboards, a correct-and-incorrect sign collection
+- **Joy:** "Apostrophe court": judge real signs with its/it's mistakes
 
-### Lesson 145 — Seasons on the island: summarising
+### Lesson 145 — Seasons on the mountain: summarising
 - **Duration:** 40 min
-- **Objective:** "By the end, I can summarise how the island and Roz change through the seasons." (UK NC Y3–4 Rc (summarise); links to science)
-- **Hook:** "Winter is coming — can a robot survive it?"
-- **Key activity:** Children create a four-season summary strip: one sentence for each season and what Roz faces.
-- **Check for understanding:** "Summarise the challenge of winter in one sentence." → a concise summary of the key challenge (cold, snow, animals struggling, Roz's help)
+- **Objective:** "By the end, I can summarise how Sam's life on the mountain changes through the seasons." (UK NC Y3–4 Rc (summarise); links to science)
+- **Hook:** "Summer is easy. Can a boy survive the winter on a mountain?"
+- **Key activity:** Children create a four-season summary strip: one sentence for each season and what Sam must do (find food and shelter; gather and store food for winter; keep warm; welcome spring and visitors).
+- **Check for understanding:** "Summarise Sam's challenge in autumn in one sentence." → a concise summary of the key challenge (gathering, drying and storing food and making warm clothes before winter)
 - **Differentiation:** support: season prompts / stretch: explain how the seasons structure the book
 - **Materials:** novel, summary strips
 - **Joy:** four-season illustrated strip
@@ -1641,74 +1641,74 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 ### Lesson 146 — Grammar for writing: time adverbials and cohesion
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use time adverbials and pronouns to link sentences and paragraphs in a recount." (UK NC Y3–4 Wg (adverbs, prepositions and conjunctions to express time))
-- **Hook:** "Day 1. Day 2. Day 3. — how can a diary move through time more smoothly?"
+- **Hook:** "Day 1. Day 2. Day 3. — how can a journal move through time more smoothly?"
 - **Key activity:** Collect time adverbials (at dawn, later that week, by the time the leaves fell, meanwhile); model linking paragraphs; revise a flat recount.
 - **Check for understanding:** "Rewrite 'Day 3. I built a shelter.' starting with a time adverbial and a comma." → e.g. 'By the third morning, I had built a shelter.'
 - **Differentiation:** support: adverbial bank sorted by time span / stretch: use a flashback in a recount
 - **Materials:** adverbial cards, recount extracts
 - **Joy:** "Time tunnel": arrange adverbials in order of time
 
-### Lesson 147 — Planning a survival log
+### Lesson 147 — Planning a survival journal
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a first-person survival log in role as Roz, showing how she changes." (UK NC Y3–4 Wc (plan; first person))
-- **Hook:** "You are Roz. Record your first weeks on the island so that the next robot to wash ashore can survive."
-- **Key activity:** Look at real explorers' journals and ship's logs for format (date or time heading, observations, actions, reflections). Children plan five entries on a planner: the problem, what Roz does, what she learns, and one animal observation per entry, showing a change from machine-like to more 'wild'.
-- **Check for understanding:** "What will each log entry show about how Roz is changing?" → each entry shows a new skill or relationship, building from survival basics to belonging
-- **Differentiation:** support: a three-entry planner with picture prompts / stretch: plan an entry where Roz reflects on a 'feeling' she can't explain with her programming
+- **Objective:** "By the end, I can plan a first-person survival journal in role, showing how the writer changes." (UK NC Y3–4 Wc (plan; first person))
+- **Hook:** "Sam writes notes as he goes. You are a young explorer alone in a wild place of your choice — record your first weeks so someone else could survive there."
+- **Key activity:** Look at Sam's notes in the novel and at real explorers' journals for format (date or time heading, observations, actions, reflections). Children choose a wild place (a mountain forest, a rainforest, a coast) and plan five entries: the problem, what they do, what they learn, and one plant or animal observation per entry, showing a change from scared beginner to confident survivor.
+- **Check for understanding:** "What will each journal entry show about how your explorer is changing?" → each entry shows a new skill or relationship, building from survival basics to belonging
+- **Differentiation:** support: a three-entry planner with picture prompts / stretch: plan an entry where the explorer realises what they miss about other people
 - **Materials:** planners, examples of explorers' journals, the novel
-- **Joy:** "Robot voice" rehearsal: read an entry aloud in Roz's calm, precise voice
+- **Joy:** "Explorer's voice" rehearsal: read an entry aloud as if by firelight
 
-### Lesson 148 — Drafting the survival log
+### Lesson 148 — Drafting the survival journal
 - **Duration:** 40 min
-- **Objective:** "By the end, I can draft log entries in the first person with time adverbials, precise observation and a consistent voice." (UK NC Y3–4 Wc (draft))
-- **Hook:** "Your log will be discovered in a crate on the beach. Make every word useful."
-- **Key activity:** Teacher models an entry in Roz's voice (precise, observant, slightly formal at first). Children draft entries, starting each with a time adverbial and using the present perfect where Roz reflects ('I have learned…'). Mid-point partner check on voice and tense.
-- **Check for understanding:** "Show me a sentence where your voice sounds like Roz, and explain what makes it sound robotic or wild." → points to precise, observational wording (e.g. 'Observation: the geese fly south when the temperature drops') and explains
-- **Differentiation:** support: first entry partly written as a model to continue / stretch: make Roz's language gradually change across entries to show her becoming wild
+- **Objective:** "By the end, I can draft journal entries in the first person with time adverbials, precise observation and a consistent voice." (UK NC Y3–4 Wc (draft))
+- **Hook:** "Your journal will be found one day by someone lost in the same place. Make every word useful."
+- **Key activity:** Teacher models an entry in an explorer's voice (practical, observant, honest about fear). Children draft entries, starting each with a time adverbial and using the present perfect where they reflect ('I have learned…'). Mid-point partner check on voice and tense.
+- **Check for understanding:** "Show me a sentence where your observation is precise enough to help another survivor, and explain what makes it useful." → points to precise, observational wording (e.g. 'The stream is shallowest below the fallen birch') and explains
+- **Differentiation:** support: first entry partly written as a model to continue / stretch: make the voice change across entries to show growing confidence
 - **Materials:** drafting books, adverbial banks
-- **Joy:** logs written on 'weathered' tea-stained paper
+- **Joy:** journals written on 'weathered' tea-stained paper
 
-### Lesson 149 — Editing and publishing the log
+### Lesson 149 — Editing and publishing the journal
 - **Duration:** 40 min
-- **Objective:** "By the end, I can edit my log for voice, cohesion and spelling, then publish it." (UK NC Y3–4 Wc (evaluate, edit, proofread))
-- **Hook:** "Does your log sound like a robot that is slowly becoming part of the wild?"
-- **Key activity:** Partner reads the log and marks where the voice slips; writer edits for voice, time adverbials and pronoun clarity; proofread this term's spellings (ei/eigh/ey, French-origin words, list words). Publish with small sketches in the style of Peter Brown's illustrations.
-- **Check for understanding:** "What did you change to make Roz's voice more convincing?" → names a specific edit (e.g. removed slang, added a technical observation)
-- **Differentiation:** support: a three-item checklist with examples / stretch: add an entry from Brightbill's point of view that shows the same event differently
+- **Objective:** "By the end, I can edit my journal for voice, cohesion and spelling, then publish it." (UK NC Y3–4 Wc (evaluate, edit, proofread))
+- **Hook:** "Does your journal sound like one real person growing braver day by day?"
+- **Key activity:** Partner reads the journal and marks where the voice slips; writer edits for voice, time adverbials and pronoun clarity; proofread this term's spellings (its/it's, French-origin words, list words). Publish with small field sketches of plants and animals.
+- **Check for understanding:** "What did you change to make your voice more convincing?" → names a specific edit (e.g. removed modern slang, added a precise observation)
+- **Differentiation:** support: a three-item checklist with examples / stretch: add an entry from an animal's point of view that shows the same event differently
 - **Materials:** editing pens, checklists, sketching pencils
-- **Joy:** logs displayed in a cardboard 'crash crate' on the class beach display
+- **Joy:** journals displayed inside a hollow 'tree' made from a cardboard tube
 
-### Lesson 150 — Book and film
+### Lesson 150 — Fact and fiction: real survival and real nature
 - **Duration:** 40 min
-- **Objective:** "By the end, I can compare the novel with its film adaptation and explain why adaptations make changes." (UK NC Y3–4 Rc (compare; discuss))
-- **Hook:** "The Wild Robot became an animated film in 2024. Which version tells the story better?"
-- **Key activity:** Watch two short teacher-selected clips of scenes the class has read; complete a comparison grid (what's the same, what's changed, what's added or cut). Discuss reasons: time limits, visual drama, sound and music, audience.
-- **Check for understanding:** "Choose one change the film made and explain why the filmmakers might have made it." → names a real change from the clips and a plausible reason (e.g. adding action because film shows rather than tells)
-- **Differentiation:** support: grid with sentence starters and clips replayed / stretch: argue which version better shows the theme of belonging, with evidence from both
-- **Materials:** film clips, comparison grids
-- **Joy:** "Critics' corner": children give star ratings and a 30-second verdict on camera
+- **Objective:** "By the end, I can compare what a novel and a non-fiction text teach about the same subject and judge what is realistic." (UK NC Y3–4 Rc (compare; retrieve from non-fiction))
+- **Hook:** "Could a 12-year-old really live alone on a mountain for a year? Let's check the facts."
+- **Key activity:** Read short non-fiction pages on peregrine falcons and on forest plants and animals of the Catskill Mountains; complete a comparison grid (what the novel gets right, what is exaggerated, what is left out). Safety talk: never eat wild plants or fungi without an expert adult — some look like safe food and are poisonous.
+- **Check for understanding:** "Choose one thing in the novel that is realistic and one that is less likely, and explain your reasons with evidence from both texts." → e.g. falcons really can be trained to hunt (realistic); a child living alone for a year without anyone stopping him is unlikely — with evidence
+- **Differentiation:** support: grid with sentence starters and pictures / stretch: argue whether a novel has to be realistic to be good
+- **Materials:** non-fiction pages, comparison grids
+- **Joy:** "Nature detectives": a short outdoor walk to identify (not pick) three plants with a field guide
 
-### Lesson 151 — Theme: nature and technology
+### Lesson 151 — Theme: independence and needing people
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain a theme of the novel with evidence and connect it to the real world." (UK NC Y3–4 Rc (themes); links to science and life skills)
-- **Hook:** "Can technology and nature live together — or must one win?"
-- **Key activity:** Groups gather evidence of Roz helping and harming the island's ecosystem and of the robots that come to retrieve her. They write a theme statement and link it to a real-world example (drones planting trees, robots cleaning oceans, pollution from machines).
-- **Check for understanding:** "What is one theme of The Wild Robot, and what evidence from the book supports it?" → e.g. technology can live in harmony with nature when it learns to care — supported by Roz's actions in winter
-- **Differentiation:** support: theme statements to choose from / stretch: link the theme to all three novels of the year (Iron Man, Boy at the Back, Wild Robot)
-- **Materials:** novel, evidence cards, real-world photo cards
-- **Joy:** "Robots for the planet" design sketch
+- **Objective:** "By the end, I can explain a theme of the novel with evidence and connect it to my own life." (UK NC Y3–4 Rc (themes); links to life skills)
+- **Hook:** "Sam ran away to be alone. So why does he start to feel glad whenever someone finds him?"
+- **Key activity:** Groups gather evidence of Sam's pride in managing alone and of his growing wish for company (Bando's visits, his father's Christmas visit, the family arriving at the end). They write a theme statement and link it to their own lives.
+- **Check for understanding:** "What is one theme of *My Side of the Mountain*, and what evidence from the book supports it?" → e.g. people can learn to be independent, but everyone needs other people too — supported by Sam's delight at visitors and the ending with his family
+- **Differentiation:** support: theme statements to choose from / stretch: link the theme to all three novels of the year (*The Iron Man*, *The Boy at the Back of the Class*, *My Side of the Mountain*)
+- **Materials:** novel, evidence cards
+- **Joy:** "Alone or together?" — a human continuum across the room, before and after the discussion
 
-### Lesson 152 — Reading assessment: The Wild Robot
+### Lesson 152 — Reading assessment: My Side of the Mountain
 - **Duration:** 40 min
 - **Objective:** "By the end, I can answer retrieval, inference and theme questions on an extract and the whole book." (UK NC Y3–4 Rc)
 - **Hook:** "Final novel check — show everything you've learned as a reader this year."
 - **Key activity:** Comprehension on an extract and whole-book questions, with an extended answer; mark together and discuss model answers. Children compare their answers with their Term 1 reading check.
-- **Check for understanding:** "How does Roz change from the start of the book to the end? Use evidence from both." → describes a change (machine following programming → caring member of the island community) with evidence from both ends
-- **Differentiation:** support: questions read aloud; page references given / stretch: an extended answer comparing Roz with the Iron Man
+- **Check for understanding:** "How does Sam change from the start of the book to the end? Use evidence from both." → describes a change (a city boy who can't light a fire → a skilled survivor who realises he wants people in his life) with evidence from both ends
+- **Differentiation:** support: questions read aloud; page references given / stretch: an extended answer comparing Sam with Minli as travellers who learn what matters
 - **Materials:** comprehension booklet
 - **Joy:** class book awards ('most unforgettable character')
 
-**End-of-unit check:** Explain how Roz changes and why, with evidence; write a first-person survival log with time adverbials; compare the book with its film adaptation.
+**End-of-unit check:** Explain how Sam changes and why, with evidence; write a first-person survival journal with time adverbials; use its and it's correctly; compare the novel with non-fiction about the same place.
 
 ---
 
@@ -1812,7 +1812,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Duration:** 40 min
 - **Objective:** "By the end, I can research an author and explain what makes their books distinctive." (UK NC Y3–4 Rc (range of books; retrieve information))
 - **Hook:** "If you loved one book, how do you find the next one?"
-- **Key activity:** Groups research an author from a curated set (e.g. Grace Lin, Peter Brown, Onjali Q. Raúf, Ted Hughes, Kate DiCamillo, Atinuke, Shaun Tan) using author websites approved by the teacher and book jackets; note themes, style and other titles.
+- **Key activity:** Groups research an author from a curated set (e.g. Grace Lin, Jean Craighead George, Onjali Q. Raúf, Ted Hughes, Kate DiCamillo, Francesca Sanna, Atinuke) using author websites approved by the teacher and book jackets; note themes, style and other titles.
 - **Check for understanding:** "What makes this author's books recognisable? Give two examples." → names features (e.g. illustrations and folklore for Grace Lin) with two titles
 - **Differentiation:** support: a fact-file frame and one author's books to handle / stretch: compare two authors' styles and recommend each to a different reader
 - **Materials:** author books, approved websites, fact-file frames
@@ -1874,7 +1874,7 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - **Hook:** "No help, no hints — just you and everything you've learned as a writer this year."
 - **Key activity:** Children choose one prompt: a narrative from a picture (a lighthouse with one lit window), a first-person log from a new setting, or a short report on a topic from this year's history or science. 10 minutes planning, 25 minutes writing, 5 minutes self-editing with a year checklist (paragraphs, noun phrases, fronted adverbials, speech punctuation, cohesion, Standard English). Kept for the portfolio.
 - **Check for understanding:** "Point to three skills from this year that you used, and explain the effect of one of them." → identifies three skills in their own writing and explains one effect (e.g. a fronted adverbial that sets the time and slows the pace)
-- **Differentiation:** support: a planner and a personal word bank; the child may dictate the first paragraph / stretch: deliberately borrow a technique from one of the class novels (Hughes's repetition, Lin's embedded tale, Brown's short chapters) and name it
+- **Differentiation:** support: a planner and a personal word bank; the child may dictate the first paragraph / stretch: deliberately borrow a technique from one of the class novels (Hughes's repetition, Lin's embedded tale, George's flashback opening) and name it
 - **Materials:** prompts, planners, year checklists
 - **Joy:** finished pieces go into the portfolio next to the September baseline
 
@@ -1918,18 +1918,17 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - ***The Iron Man* by Ted Hughes** (1968) — a Poet Laureate's short novel; every sentence rewards reading aloud, and its repetition, imagery and suspense are the best possible models for Year 3 description. Short enough to finish in three weeks with deep study.
 - ***D'Aulaires' Book of Greek Myths* by Ingri and Edgar Parin d'Aulaire** — the classic illustrated retelling used by generations; faithful, vivid and pitched perfectly for 8–9-year-olds, and it pairs with the Ancient Greece history unit.
 - ***The Boy at the Back of the Class* by Onjali Q. Raúf** (2018) — funny and moving; opens discussion of refugees, kindness and courage from a child's viewpoint, with a British-Bangladeshi author and a Syrian refugee hero.
-- ***The Arrival* by Shaun Tan** (2006) — an award-winning wordless graphic novel of migration; teaches inference from images and gives every child, whatever their reading level, equal access to a rich text.
+- ***The Journey* by Francesca Sanna** (2016) — a powerful picture book in which a child tells her family's escape from war; the pictures carry much of the meaning, so it teaches inference from images and gives every child, whatever their reading level, equal access to a rich text. It pairs with *The Boy at the Back of the Class*. (Shaun Tan's *The Arrival* is studied in Year 5.)
 - ***Where the Mountain Meets the Moon* by Grace Lin** (2009, Newbery Honor) — a quest woven from Chinese folktales, with the author's own full-colour illustrations; teaches story structure (tales within a tale) and pairs with the Ancient China history unit.
-- ***The Wild Robot* by Peter Brown** (2016) — very short chapters and illustrations make it an ideal bridge to independent novel reading; links to science (habitats, seasons) and to themes of belonging and nature.
+- ***My Side of the Mountain* by Jean Craighead George** (1959, Newbery Honor) — the classic survival story, told in Sam's own voice with his notes and sketches; links to science (habitats, seasons, birds of prey) and asks whether we can — or should — live without other people. (*The Wild Robot* is studied in Year 4.)
 
 **Poetry**
-- *Please Mrs Butler* by Allan Ahlberg — classroom poems made for two-voice performance.
+- *Joyful Noise: Poems for Two Voices* by Paul Fleischman (Newbery Medal) — insect poems written to be performed by two readers at once.
 - Roger McGough, 'The Sound Collector' — onomatopoeia and a haunting ending.
 - Michael Rosen's poems (e.g. 'Chocolate Cake') — performance, rhythm and real childhood.
-- *Werewolf Club Rules!* by Joseph Coelho — contemporary, funny and heartfelt.
 - Matsuo Bashō's haiku (in translation) — the master of the form; comparing translations teaches close reading.
 - *Come on into My Tropical Garden* by Grace Nichols — Caribbean imagery and invitation.
-- *Talking Turkeys!!* by Benjamin Zephaniah — dub-poetry rhythm with a serious message.
+- John Agard, 'Poetry Jump-Up' — carnival rhythm and a Caribbean speaking voice. (Allan Ahlberg's, Benjamin Zephaniah's and Joseph Coelho's collections were studied in Year 2.)
 - T. S. Eliot, *Old Possum's Book of Practical Cats* ('Macavity: The Mystery Cat') — narrative, refrain and character.
 - Charles Causley, 'Colonel Fazackerley' — comic narrative verse.
 - Robert Louis Stevenson, 'From a Railway Carriage' — rhythm that becomes the subject.
@@ -1938,13 +1937,13 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - *A Poem for Every Day of the Year* edited by Allie Esiri — a wide-ranging anthology for daily poem-reading.
 
 **Independent reading shelf (a sample for the class library, all real and widely available)**
-*Charlotte's Web* (E. B. White), *The Miraculous Journey of Edward Tulane* (Kate DiCamillo), *Anna Hibiscus* series (Atinuke, set in West Africa), *The Firework-Maker's Daughter* (Philip Pullman), *Varjak Paw* (S. F. Said), *Matilda* (Roald Dahl), *The Lion, the Witch and the Wardrobe* (C. S. Lewis), *Stig of the Dump* (Clive King), *Because of Winn-Dixie* (Kate DiCamillo), *Flat Stanley* (Jeff Brown, for less confident readers), *Journey to the River Sea* (Eva Ibbotson, a stretch read linked to the Amazon geography unit), plus quality non-fiction such as DK Eyewitness titles on Ancient Greece and Ancient Rome.
+*The Miraculous Journey of Edward Tulane* (Kate DiCamillo), *The Year of the Dog* (Grace Lin), *The Hundred Dresses* (Eleanor Estes), *Varjak Paw* (S. F. Said), *Matilda* (Roald Dahl), *The Lion, the Witch and the Wardrobe* (C. S. Lewis), *Stig of the Dump* (Clive King), *Because of Winn-Dixie* (Kate DiCamillo), *Ivy + Bean* (Annie Barrows, for less confident readers), *Journey to the River Sea* (Eva Ibbotson, a stretch read linked to the Amazon geography unit), plus quality non-fiction such as DK Eyewitness titles on Ancient Greece and Ancient Rome.
 
 **Teaching resources**
 - **Talk for Writing** (Pie Corbett) — the approach behind oral storytelling, story maps and 'reading as a writer'.
 - **The Reading Framework** (UK Department for Education, 2023 update) and research summaries from the Education Endowment Foundation on reading comprehension strategies — the evidence behind fluency practice, reading aloud and explicit comprehension teaching.
 - **CLPE (Centre for Literacy in Primary Education) Power of Reading** — book-based teaching sequences and poetry resources; its free poetry archive has poets performing their work.
-- **UNHCR education resources** — accurate, age-appropriate information on refugees for the Term 2 novel.
+- **UNHCR education resources** — accurate, age-appropriate information on refugees for the Term 2 novel and *The Journey*.
 
 ## End-of-year mastery checks
 
@@ -1977,9 +1976,9 @@ Lessons are **40 minutes** (poetry and speaking lessons 35), plus **20 minutes o
 - *Summarising means retelling everything* — teach selection: what can be removed without the story falling apart.
 - *Inference is guessing* — every inference needs evidence; ask "What in the text makes you think that?"
 - *Copying = research* — insist on 'read, cover, keywords, say, write'.
-- *y → i rule* — only when the y follows a consonant (happy → happiness, but play → played).
+- *y → i rule* — only when the y follows a consonant (happy → happiness, but play → played), and never before -ing (cry → crying).
 
-**Sensitive content.** *The Boy at the Back of the Class* and *The Arrival* deal with war and displacement. Know your class: some children may have lived these experiences. Invite, never require, personal sharing, and give children a private way to talk to an adult.
+**Sensitive content.** *The Boy at the Back of the Class* and *The Journey* deal with war and displacement. Know your class: some children may have lived these experiences. Invite, never require, personal sharing, and give children a private way to talk to an adult.
 
 **Differentiation.** Support means *more access*: pre-teaching vocabulary, audio versions of the class text, partner reading, sentence frames, dictation of first paragraphs. Stretch means *more depth*: comparing texts, explaining authorial choices, writing from an unusual viewpoint, borrowing a technique deliberately — never just 'write more'.
 
