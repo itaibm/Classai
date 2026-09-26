@@ -333,10 +333,20 @@ function FillBlank({ block, active, onComplete, reveal = true }: { block: FillBl
     <div className="interaction">
       <p className="block-prompt fill-text">
         {parts[0]}
-        <span className={`blank ${checked ? (ok ? 'reveal-correct' : 'reveal-wrong') : ''}`}>{checked ? (ok || !reveal ? val : block.answer) : (val || '_____')}</span>
+        {/* After checking, the blank always shows what the LEARNER chose, marked
+            right or wrong. The correct word appears separately (only if reveal). */}
+        <span className={`blank ${checked ? (ok ? 'reveal-correct' : 'reveal-wrong') : ''}`}>
+          {checked ? val : (val || '_____')}
+          {checked && <span className="sr-only">{ok ? ' (correct)' : ' (not quite)'}</span>}
+        </span>
         {parts.slice(1).join(' ')}
         {aloud.available && <ReadAloudButton onClick={aloud.start} />}
       </p>
+      {checked && !ok && reveal && (
+        <p className="fill-correction" role="status">
+          The missing word is <span className="blank reveal-correct">{block.answer}</span>
+        </p>
+      )}
       {!checked && block.wordBank && (
         <div className="chips center" style={{ justifyContent: 'center' }}>
           {block.wordBank.map((w, i) => <button key={w} className={`chip-btn${aloud.reading === i + 1 ? ' reading' : ''}`} disabled={!active} onClick={() => submit(w)}>{w}</button>)}
@@ -352,24 +362,46 @@ function FillBlank({ block, active, onComplete, reveal = true }: { block: FillBl
   );
 }
 
+/** Parse a learner's number answer into its possible values. Accepts integers
+ *  and decimals (either "." or "," as the decimal mark), simple fractions "3/4",
+ *  and mixed numbers "1 1/2" (also negative). "1,000" is ambiguous (thousands
+ *  separator vs decimal comma), so both readings are returned. Empty = invalid. */
+export function parseNumberAnswer(raw: string): number[] {
+  const s = raw.trim().replace(/\s+/g, ' ');
+  if (!s) return [];
+  const out: number[] = [];
+  if (/^[-+]?\d{1,3}(,\d{3})+$/.test(s)) out.push(Number(s.replace(/,/g, '')));
+  if (/^[-+]?(\d+([.,]\d*)?|[.,]\d+)$/.test(s)) out.push(Number(s.replace(',', '.')));
+  const frac = /^([-+])?(?:(\d+) )?(\d+) ?\/ ?(\d+)$/.exec(s);
+  if (frac) {
+    const den = Number(frac[4]);
+    if (den !== 0) {
+      const v = (frac[2] ? Number(frac[2]) : 0) + Number(frac[3]) / den;
+      out.push(frac[1] === '-' ? -v : v);
+    }
+  }
+  return out.filter((n) => Number.isFinite(n));
+}
+
 function NumberEntry({ block, active, onComplete, reveal = true }: { block: NumberEntryBlock; active: boolean; onComplete: Done; reveal?: boolean }) {
   const [val, setVal] = useState('');
   const [checked, setChecked] = useState(false);
   const { complete } = useTurnComplete(onComplete);
   const tol = block.tolerance ?? 0;
   const aloud = useReadAloud([block.prompt]);
-  const ok = checked && Math.abs(parseFloat(val) - block.answer) <= tol + 1e-9;
+  const matches = (v: string) => parseNumberAnswer(v).some((n) => Math.abs(n - block.answer) <= tol + 1e-9);
+  const ok = checked && matches(val);
   function submit() {
     if (!active || checked || val.trim() === '') return;
     setChecked(true);
-    const good = Math.abs(parseFloat(val) - block.answer) <= tol + 1e-9;
+    const good = matches(val);
     complete({ text: `Answered ${val}${block.unit ? ' ' + block.unit : ''}${good ? ' (correct)' : reveal ? ` (incorrect — answer: ${block.answer}${block.unit ? ' ' + block.unit : ''})` : ' (incorrect)'}`, correct: good }, good ? 950 : 1500);
   }
   return (
     <div className="interaction">
       <p className="block-prompt">{block.prompt}{aloud.available && <ReadAloudButton onClick={aloud.start} />}</p>
       <form className="answer-row" style={{ maxWidth: 320, margin: '0 auto' }} onSubmit={(e) => { e.preventDefault(); submit(); }}>
-        <input autoFocus type="number" step="any" value={val} disabled={!active || checked}
+        <input autoFocus type="text" inputMode="decimal" autoComplete="off" aria-label="Your answer" value={val} disabled={!active || checked}
           className={checked ? (ok ? 'ok-input' : 'bad-input') : ''}
           onChange={(e) => setVal(e.target.value)} placeholder="?" />
         {block.unit && <span className="unit">{block.unit}</span>}
