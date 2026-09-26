@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { GeneratedLessonSummary, LessonBlock, LessonFull, PracticeItem, WrongAnswer } from '@shared/types';
+import { yearLabel } from '@shared/types';
 import { api } from '../lib/api.ts';
 import { navigate } from '../lib/router.ts';
 import { TopBar, Loading, ErrorNote, Toast, useAsync, useToast } from '../lib/ui.tsx';
@@ -126,7 +127,7 @@ function GeneratedCard({
           <span className="muted">{open ? '▾' : '▸'}</span>
         </div>
         <div className="muted small" style={{ marginTop: 4 }}>
-          Year {s.year} · {s.subjectLabel} · Unit {s.unitNumber}{s.unitTitle ? `: ${s.unitTitle}` : ''} · Lesson {s.lessonNumber}
+          {yearLabel(s.year)} · {s.subjectLabel} · Unit {s.unitNumber}{s.unitTitle ? `: ${s.unitTitle}` : ''} · Lesson {s.lessonNumber}
           {s.generatedAt && <> · built {when(s.generatedAt)}</>}
           {s.generatedBy && <> by {s.generatedBy}</>}
           {s.reviewedAt && <> · approved {when(s.reviewedAt)}</>}
