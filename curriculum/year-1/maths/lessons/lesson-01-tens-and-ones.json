@@ -4,7 +4,7 @@
   "year": 1,
   "subject": "math",
   "subjectLabel": "Mathematics",
-  "unit": { "number": 1, "title": "Place value to 100", "essentialQuestion": "How do the tens and the ones decide how big a number is?" },
+  "unit": { "number": 1, "title": "Numbers to 100", "essentialQuestion": "How do the tens and the ones decide how big a number is?" },
   "lessonNumber": 1,
   "kind": "lesson",
   "topic": "Place value to 100",

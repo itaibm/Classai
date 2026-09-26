@@ -1,5 +1,5 @@
 # Lesson 1 — Tens and ones to 100
-**Maths · Year 1 · Unit 1 (Place value to 100)** · 22 min · **Delivery: 👤 human intro → 🤖 AI**
+**Maths · Year 1 · Unit 1 (Numbers to 100)** · 22 min · **Delivery: 👤 human intro → 🤖 AI**
 **Objective:** "By the end, I can build any number to 100 and say how many tens and ones it has."
 *(Human view of [`lesson-01-tens-and-ones.json`](./lesson-01-tens-and-ones.json) — the JSON is the source of truth.)*
 
