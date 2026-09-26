@@ -26,15 +26,15 @@ civic — of a healthy, kind, capable person.
 |---|---|---|---|---|
 | Mathematics | [maths/maths-year-2.md](maths/maths-year-2.md) | 170 | 5 | Place value to 1000, column methods, bar models, 3/4/8 tables, 2-digit × 1-digit, tenths and equivalence, perimeter, 24-hour clock, angles |
 | English | [english/english-year-2.md](english/english-year-2.md) | 170 | 5 | Phonics completed (Phase 6 + Year 3–4 spelling), fluency, class-text spine, joined handwriting, paragraphs, direct speech, genre writing |
-| Science | [science/science-year-2.md](science/science-year-2.md) | 70 | 2 | Fair tests; plants; nutrition, skeletons and muscles; rocks, fossils and soils; light and shadows; forces and magnets |
+| Science | [science/science-year-2.md](science/science-year-2.md) | 70 | 2 | Fair tests at several levels; plant parts, fruits and how much plants need; nutrition, skeletons and muscles; rocks, fossils and soils; light and shadows; forces and magnets |
 | History | [history/history-year-2.md](history/history-year-2.md) | 35 | 1 | BCE/CE chronology; Stone to Iron Age worldwide; Ancient Egypt; Sumer, Indus Valley, Shang China |
 | Geography | [geography/geography-year-2.md](geography/geography-year-2.md) | 35 | 1 | Globe grid and time zones; 8-point compass and grid references; fieldwork; rivers; volcanoes and earthquakes; my country |
-| Languages (Spanish) | [languages/languages-year-2.md](languages/languages-year-2.md) | 70 | 2 | Calendar, weather, family, animals with adjective agreement, a whole picture book, festivals |
-| Art & Design | [art-design/art-design-year-2.md](art-design/art-design-year-2.md) | 35 | 1 | Sketchbooks; tone; colour mixing; relief printing; clay; weaving and resist dyeing; digital art |
-| Music | [music/music-year-2.md](music/music-year-2.md) | 35 | 1 | Recorder (B A G → C' D' E D); staff notation; rounds and world songs; pentatonic composing |
+| Languages (Spanish) | [languages/languages-year-2.md](languages/languages-year-2.md) | 70 | 2 | Numbers to 50, classroom objects and el/la, dates and months, plurals, *mi/mis*, adjective agreement, a whole picture book, festivals; first reading and writing |
+| Art & Design | [art-design/art-design-year-2.md](art-design/art-design-year-2.md) | 35 | 1 | Slow looking; tone, still life and self-portraits in light and shadow; tertiary colours and tones; multi-colour block printing; slabs, hollow forms and Nok-inspired heads; twill and Andean weaving, batik resist; digital layers |
+| Music | [music/music-year-2.md](music/music-year-2.md) | 35 | 1 | Metre (2s, 3s, 4s); recorder (B A G → C' D' E D); staff notation; new rounds and world songs; pentatonic composing on the recorder, written on the stave |
 | PE & Health | [pe-health/pe-health-year-2.md](pe-health/pe-health-year-2.md) | 70 | 2 | Invasion, striking/fielding and net games; gymnastics sequences; world dance; water safety and swimming; body safety |
-| Computing | [computing/computing-year-2.md](computing/computing-year-2.md) | 35 | 1 | Scratch: sequence, events, loops; how the internet works; digital data; online safety |
-| Life Skills | [life-skills/life-skills-year-2.md](life-skills/life-skills-year-2.md) | 35 | 1 | Feelings and regulation; fair-fix conflict steps; growth mindset; money sense; sustainability action; rights and service |
+| Computing | [computing/computing-year-2.md](computing/computing-year-2.md) | 35 | 1 | Algorithm efficiency; Scratch: sequence, events, loops; how the internet works; tables with records and fields, bar charts; online safety and reliability |
+| Life Skills | [life-skills/life-skills-year-2.md](life-skills/life-skills-year-2.md) | 35 | 1 | Causes and size of feelings, helpful thoughts; friendship dilemmas, conflict vs bullying; how the brain learns, feedback; how we pay, spend–save–give, budgets; waste and energy sources; rights with responsibilities, fairness, service |
 | **Total** | | **760** | **22** | 36 weeks; each subject leaves 1–10 flex slots |
 
 `history-geography/` has been retired — History and Geography now each have their own file.
@@ -91,7 +91,10 @@ read-aloud of the class text, 5 minutes of maths fluency (counting in 3s/4s/8s/5
 - **Money:** Maths Unit 6 ↔ Life Skills Unit 4 ↔ Spanish festivals and markets.
 - **Measurement and angles:** Maths Units 8, 11 ↔ Computing pen drawing (turn 90°) ↔ PE athletics.
 - **Performance:** English poetry units ↔ Music concert ↔ PE world dance ↔ Spanish story performance.
-- **Stories across cultures:** English Cinderella unit ↔ Spanish festivals ↔ Art (Adinkra, Kente, batik, Hokusai).
+- **Stories across cultures:** English Cinderella unit ↔ Spanish festivals ↔ Art (Indian block printing, Andean weaving, batik, Hokusai).
+- **Nigeria's Nok culture:** History Lesson 13 (early iron-working) ↔ Art Lesson 25 (terracotta heads).
+- **Peru and the Andes:** Spanish Inti Raymi ↔ Art Andean weaving ↔ Science (Janaki Ammal/Yuan Longping crop breeding as a global food story).
+- **Pulse and the heart:** PE & Health Lesson 6 (taking a pulse, recovery) ↔ Science Lessons 26–27 (pulse investigation).
 
 ## Class-text spine (English)
 
@@ -99,18 +102,24 @@ read-aloud of the class text, 5 minutes of maths fluency (counting in 3s/4s/8s/5
 |---|---|
 | 1 | *The Owl Who Was Afraid of the Dark* (Jill Tomlinson); *Anna Hibiscus* (Atinuke); *Please Mrs Butler* (Allan Ahlberg); *Flotsam* (David Wiesner) |
 | 2 | *Yeh-Shen* (Ai-Ling Louie, ill. Ed Young), *Mufaro's Beautiful Daughters* (John Steptoe), *The Egyptian Cinderella* (Shirley Climo), *The Rough-Face Girl* (Rafe Martin); *The Iron Man* (Ted Hughes); *Talking Turkeys* (Benjamin Zephaniah); *The Street Beneath My Feet* (Charlotte Guillain & Yuval Zommer) |
-| 3 | *The Wild Robot* (Peter Brown); *Look Up!* (Nathan Byron & Dapo Adeola) with *Mae Among the Stars*, *Wangari's Trees of Peace*, *Counting on Katherine*; *Werewolf Club Rules* (Joseph Coelho) |
+| 3 | *The Wild Robot* (Peter Brown); *Look Up!* (Nathan Bryon & Dapo Adeola) with *Mae Among the Stars*, *Wangari's Trees of Peace*, *Counting on Katherine*; *Werewolf Club Rules* (Joseph Coelho) |
 
 ## Vertical alignment
 
 - **From Year 1 (ages 6–7):** place value to 100 and 2/5/10 tables; Phase 5 phonics and early
-  Phase 6 suffixes; sentence punctuation; simple fair observations; significant people and local
-  history; continents and oceans; first Spanish (greetings, numbers, colours); percussion and
-  singing; ScratchJr; naming feelings.
+  Phase 6 suffixes; sentence punctuation; simple fair tests with a control, seed dispersal, sound,
+  day and night; significant people, explorers and local history; maps with keys and four-point
+  compass, continents and oceans, a first land-use survey; Spanish by ear (greetings, numbers 0–20,
+  colours, family, animals, body, food, weather); so–mi–la singing, rounds, glockenspiel and
+  pentatonic improvisation; tints and shades, relief printing, weaving and pinch/coil clay;
+  ScratchJr; feelings, friendship and money basics. Year 2 subject files retrieve these and go
+  deeper rather than re-teaching them.
 - **To Year 3 (ages 8–9):** place value to 10,000 and all tables to 12 × 12; decimals from tenths;
   area from perimeter; longer novels and writing for effect; classification, digestion, states of
-  matter, sound and electricity; Ancient Greece and Rome; the water cycle and biomes; Spanish food,
-  hobbies, time and -ar verbs; recorder/ukulele; Scratch selection and variables.
+  matter, sound and electricity; Ancient Greece, Rome, Kush and Ancient China; the water cycle and
+  biomes; Spanish family, animals, calendar and weather with *tener* and *ser*, plus the home and
+  clothes; recorder reading, texture, structure and a first map of music history; larger Scratch
+  projects with loops and branching databases (selection and variables follow in Year 4).
 
 ## Notes for maintainers
 
