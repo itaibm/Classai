@@ -71,8 +71,8 @@
       "kind": "hook",
       "delivery": "ai",
       "timeboxMin": [
-        2,
-        3
+        0,
+        2
       ],
       "goal": "Spark curiosity and make the learner feel safe about messy experiments.",
       "note": "Open with the big idea that artists use sketchbooks as workshops, not galleries.",
@@ -113,8 +113,8 @@
       "kind": "explain",
       "delivery": "ai",
       "timeboxMin": [
-        4,
-        5
+        2,
+        6
       ],
       "goal": "Teach the new idea: a sketchbook is for testing, experimenting, and recording ideas, with a date.",
       "note": "One new idea only: the sketchbook as a workshop/test space. Include vocabulary in context.",
@@ -238,8 +238,8 @@
       "kind": "example",
       "delivery": "ai",
       "timeboxMin": [
-        4,
-        5
+        6,
+        10
       ],
       "goal": "Model how to set up and start a first test page with a date and warm-up mark-making strip.",
       "note": "Concrete demonstration before learner makes their own page. No rubbing out rule introduced positively.",
@@ -270,8 +270,8 @@
       "kind": "check",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        10,
+        13
       ],
       "goal": "Check understanding of the purpose of a sketchbook before independent making.",
       "note": "Interactive block carries the question and answer. React to the app result next turn in implementation.",
@@ -324,8 +324,8 @@
       "kind": "practice",
       "delivery": "human",
       "timeboxMin": [
-        10,
-        12
+        13,
+        23
       ],
       "goal": "Learner creates a first dated sketchbook test page filled with many marks.",
       "note": "This is the heart of the lesson. Most time is learner doing. Adult only supports setup and safety with materials.",
@@ -348,8 +348,8 @@
       "kind": "recap",
       "delivery": "ai",
       "timeboxMin": [
-        2,
-        3
+        23,
+        25
       ],
       "goal": "Consolidate the earned win and reinforce process praise.",
       "note": "End on pride in the dated test page and the concept of sketchbook as workshop.",

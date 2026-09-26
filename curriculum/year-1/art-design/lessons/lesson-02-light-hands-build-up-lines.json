@@ -77,8 +77,8 @@
       "kind": "hook",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        0,
+        3
       ],
       "goal": "Spark curiosity about why artists begin with pale ‘ghost lines’.",
       "note": "Keep it playful and process-focused. Do not imply the pale lines are errors.",
@@ -158,8 +158,8 @@
       "kind": "explain",
       "delivery": "ai",
       "timeboxMin": [
-        5,
-        6
+        3,
+        8
       ],
       "goal": "Teach the single new idea: draw lightly first, then darken only the lines to keep.",
       "note": "Use the formal element of line. Focus on pressure and sequence, not on shading or tone.",
@@ -339,8 +339,8 @@
       "kind": "example",
       "delivery": "ai",
       "timeboxMin": [
-        5,
-        6
+        8,
+        13
       ],
       "goal": "Model the process on a simple object: cup outline from wobbly light lines to chosen dark lines.",
       "note": "This is the worked demonstration before the child draws. Keep it observational: big shape first, details later.",
@@ -371,8 +371,8 @@
       "kind": "check",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        13,
+        16
       ],
       "goal": "Check understanding of why artists draw lightly first.",
       "note": "This is the lesson’s key concept check. The app will report whether the learner chose correctly.",
@@ -425,8 +425,8 @@
       "kind": "practice",
       "delivery": "human",
       "timeboxMin": [
-        10,
-        12
+        16,
+        26
       ],
       "goal": "Learner draws one real object using light build-up lines, then darkens the keeper lines.",
       "note": "This is the heart of the lesson. Most time should be spent drawing. Encourage slow looking and gentle pressure.",
@@ -482,8 +482,8 @@
       "kind": "recap",
       "delivery": "ai",
       "timeboxMin": [
-        3,
-        4
+        26,
+        30
       ],
       "goal": "Consolidate the method and end with an earned win.",
       "note": "Celebrate process evidence: light lines, changes, and chosen dark lines.",
@@ -1156,8 +1156,8 @@
       "reteach": {
         "say": "An artist self-check is not just ‘good’ or ‘bad’. It names the habit you used. Today’s habit is: light first, darken keepers later.",
         "block": {
-          "type": "sentenceFrames",
-          "frames": [
+          "type": "steps",
+          "steps": [
             "First I used ___ lines.",
             "Then I darkened the ___ lines.",
             "Next time I will ___ before using fine-liner."
