@@ -30,7 +30,7 @@ fractions** (Unit 3), then launches algebra with **expressions** (Unit 4) and en
 retrieval-and-assessment unit (Unit 5). Term 2 uses that algebra to **solve linear equations and
 inequalities** and to meet **graphs of relationships** (Unit 6); develops **ratio, rate and
 proportion** as a single connected idea (Unit 7); and builds rigorous geometry with **angles,
-parallel lines and ruler-and-compass constructions** (Unit 8), then consolidates (Unit 9). Term 3
+parallel lines, bearings and ruler-and-compass constructions** (Unit 8), then consolidates (Unit 9). Term 3
 applies number and algebra to **area, volume and surface area** (Unit 10), introduces
 **probability** (Unit 11) and **statistics** as a full enquiry cycle (Unit 12), and closes with a
 **graduation problem-solving unit** (Unit 13) in which children tackle rich, multi-strand problems
@@ -193,7 +193,7 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Hook:** "Beat your own score": a 3-minute fluency sprint on squares, cubes and primes, compared with the first-week baseline.
 - **Key activity:** Low-stakes mastery task (below), then self-marking with a model answer; each child writes one "I can" and one "next step" and does targeted practice from a choice board (roots, HCF/LCM, rounding).
 - **Check for understanding:** "Explain why 91 is not prime, even though it looks like it might be." → 91 = 7 × 13, so it has factors other than 1 and itself.
-- **Differentiation:** support: choice board tasks with worked examples beside them / stretch: "Which number below 100 has the most factors?" (60, 72, 84, 90 and 96 tie with 12 factors each)
+- **Differentiation:** support: choice board tasks with worked examples beside them / stretch: "Use prime factorisation to explain why 72 = 2³ × 3² has (3 + 1)(2 + 1) = 12 factors, then find the smallest number with exactly 12 factors" (60 = 2² × 3 × 5)
 - **Materials:** mastery sheet, fluency sprint cards, choice-board cards, squared paper
 - **Joy:** Personal-best graph started on the classroom wall (or learner's notebook)
 
@@ -507,13 +507,13 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 
 **Key vocabulary:** variable, term, coefficient, constant, expression, like terms, simplify, substitute, expand, factorise, formula, equivalent, sequence, nth term, term-to-term rule
 
-### Lesson 41 — From words to expressions
+### Lesson 41 — From words to expressions: brackets and order
 - **Duration:** 40 min
-- **Objective:** "By the end, I can write expressions from word descriptions using letters for unknown numbers." (CCSS 6.EE.2a; UK KS3 Algebra)
+- **Objective:** "By the end, I can write expressions from word descriptions, including ones that need brackets, and explain how the wording decides the order of operations." (CCSS 6.EE.2a–b; UK KS3 Algebra)
 - **Hook:** "Think of a number, double it, add 6, halve it, take away the number you first thought of… you got 3! How did I know?"
-- **Key activity:** Model "a bag with an unknown number of sweets" (cups with hidden counters); "3 more than n" → n + 3; "n shared by 4" → n/4; "5 less than twice n" → 2n − 5; translate both ways; conventions (2n not n2, no × sign).
-- **Check for understanding:** "Is 'subtract 5 from n' written 5 − n or n − 5? Explain with a number." → n − 5: if n = 12, subtracting 5 from 12 gives 7, which is 12 − 5.
-- **Differentiation:** support: cups-and-counters model for every expression / stretch: explain the "think of a number" trick using algebra (n → 2n → 2n + 6 → n + 3 → 3)
+- **Key activity:** Retrieval (Year 5 wrote n + 5, 2n and 3n + 1 with cups and counters): conventions (2n not n2, no × sign). New step: phrases where the order matters — "3 times the sum of n and 4" → 3(n + 4) but "4 more than 3 times n" → 3n + 4; "the difference between n and 7, halved" → (n − 7)/2; "double n, then square" → (2n)² but "square n, then double" → 2n². Translate both ways and test each pair with a value.
+- **Check for understanding:** "Write 'multiply n by 3, then subtract the result from 20' and 'subtract 20 from 3 times n'. Are they the same? Test with n = 10." → 20 − 3n and 3n − 20; with n = 10 they give −10 and 10, so they are different expressions.
+- **Differentiation:** support: cups-and-counters model for every expression, one operation at a time / stretch: explain the "think of a number" trick with algebra (n → 2n → 2n + 6 → n + 3 → 3), then design a trick using brackets that always ends at 5
 - **Materials:** paper cups, counters, expression cards, mini-whiteboards
 - **Joy:** Perform the "think of a number" mind-reading trick, then reveal how it works
 
@@ -537,15 +537,15 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Materials:** formula cards, calculators, a thermometer that shows °C and °F
 - **Joy:** "Formula machine": feed numbers into a paper machine and predict the output
 
-### Lesson 44 — Writing and using formulae
+### Lesson 44 — Writing formulae from tables, including decreasing and negative values
 - **Duration:** 40 min
-- **Objective:** "By the end, I can write a formula from a real situation and use it to calculate." (CCSS 6.EE.2, 6.EE.6; UK KS3 Algebra)
-- **Hook:** "A taxi in Nairobi charges a fixed fee plus a price per km. Can you write the rule?"
-- **Key activity:** Build formulae from tables (taxi fare = 150 + 50k, perimeter of regular polygons P = ns, cost of cinema tickets); distinguish expression from formula (a formula has an equals sign linking variables).
-- **Check for understanding:** "Write a formula for the total cost C of n bus tickets at 2.50 each plus a 5 booking fee. What is C when n = 8?" → C = 2.5n + 5; C = 25.
-- **Differentiation:** support: complete a table of values first, then spot the rule / stretch: write a formula for the number of matchsticks in n joined squares (3n + 1) and prove it
-- **Materials:** matchsticks or toothpicks, formula cards, price lists from real contexts
-- **Joy:** "Matchstick patterns": build, count and predict the 100th pattern
+- **Objective:** "By the end, I can write a formula from a table or a real situation — including quantities that decrease and become negative — and use it to answer questions." (CCSS 6.EE.2, 6.EE.6, 6.EE.9; UK KS3 Algebra)
+- **Hook:** "A candle 24 cm tall burns down 1.5 cm every hour. When will it be only 6 cm tall?"
+- **Key activity:** Retrieval (Year 5 wrote C = 8t + 5 from contexts): tables of values → formula as 'starting value + change × steps'. New step: decreasing situations (h = 24 − 1.5t for the candle; a mountain temperature T = 5 − 3h falling 3 °C per hour and going below zero) and solving questions with the formula; distinguish an expression (3n + 1) from a formula (a rule linking variables with an equals sign).
+- **Check for understanding:** "Write a formula for the candle's height h after t hours and find when it is 6 cm tall. Explain your steps." → h = 24 − 1.5t; 24 − 1.5t = 6, so 1.5t = 18 and t = 12 hours.
+- **Differentiation:** support: complete a table of values first, then spot the starting value and the change per step / stretch: the temperature starts at 5 °C and falls 3 °C per hour — write a formula for T, find T after 4 hours (−7 °C) and when it reaches −16 °C (after 7 hours)
+- **Materials:** a candle (adult-supervised demonstration) or candle pictures, table templates, formula cards, thermometer
+- **Joy:** "Candle clock": mark a real candle every 30 minutes and test the class formula
 
 ### Lesson 45 — Expanding single brackets
 - **Duration:** 40 min
@@ -727,25 +727,25 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 
 **Key vocabulary:** equation, solve, solution, inverse operation, balance, unknown, inequality, less than, greater than, at most, at least, independent variable, dependent variable, table of values, linear
 
-### Lesson 61 — Equations as balance
+### Lesson 61 — One- and two-step equations (retrieval): negative, decimal and fractional solutions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain what an equation means using a balance model and solve one-step equations by doing the same to both sides." (CCSS 6.EE.5, 6.EE.7; UK KS3 Algebra)
+- **Objective:** "By the end, I can solve one- and two-step equations with the balance model, including those whose solutions are negative, decimal or fractional, and check by substituting." (CCSS 6.EE.5, 6.EE.7; UK KS3 Algebra)
 - **Hook:** A real pan balance with a paper bag of unknown mass on one side and 250 g of weights on the other: "What's in the bag?"
-- **Key activity:** Use a pan balance (or balance-scale drawings) with cups of hidden counters: x + 3 = 8; remove 3 from each side. Record solutions of x + 7 = 12, 4x = 28, x/3 = 5, x − 6 = −2; always check by substituting.
-- **Check for understanding:** "Why must you do the same thing to both sides of an equation?" → An equation says both sides are equal (balanced); changing only one side would break the balance, so the solution would be wrong.
-- **Differentiation:** support: physical balance and counters for each equation / stretch: solve 0.4x = 6 and 3/4 x = 12 (15; 16)
-- **Materials:** pan balance, 10 g/50 g masses or counters, paper cups, balance-scale drawing templates
+- **Key activity:** Retrieval (Year 5 solved x + 7 = 15 and 3x + 4 = 19 with cups and counters): pan balance and algebra tiles on an equation mat — do the same to both sides. New step: solutions that are not positive whole numbers — x + 9 = 3 (x = −6), 4x = 10 (x = 2.5), 2x + 9 = 3 (x = −3), 3x − 1 = 6 (x = 7/3) — always checked by substituting.
+- **Check for understanding:** "Why must you do the same thing to both sides, and how can you be sure x = −3 solves 2x + 9 = 3?" → The two sides must stay equal (balanced); substituting gives 2 × (−3) + 9 = −6 + 9 = 3, which matches the right-hand side.
+- **Differentiation:** support: physical balance and counters, positive whole-number solutions first / stretch: 0.4x = 6 (x = 15) and 5 − 2x = 11 (x = −3)
+- **Materials:** pan balance, 10 g/50 g masses or counters, paper cups, algebra tiles, equation mats
 - **Joy:** "What's in the bag?" — solve with the balance, then open the bag to check
 
-### Lesson 62 — Two-step equations
+### Lesson 62 — Equations with fractions
 - **Duration:** 40 min
-- **Objective:** "By the end, I can solve two-step equations such as 3x + 5 = 20 and explain the order of my steps." (CCSS 6.EE.7 → 7.EE.4a; UK KS3 Algebra)
-- **Hook:** "I think of a number, multiply by 3 and add 5. I get 20. What was my number?"
-- **Key activity:** Model 3x + 5 = 20 with algebra tiles on an "equation mat": remove 5 unit tiles from both sides, then share into 3 equal groups; compare with a function machine run backwards; practise including negative answers (2x + 9 = 3 → x = −3).
-- **Check for understanding:** "In 4x − 7 = 13, why do we add 7 before dividing by 4?" → We undo the operations in reverse order: the 7 was subtracted last, so it is undone first.
-- **Differentiation:** support: tiles on an equation mat; positive whole-number solutions / stretch: (x + 4)/3 = 5 and 5 − 2x = 11 (11; −3)
-- **Materials:** algebra tiles, equation mats (a sheet divided by an = sign), function-machine cards
-- **Joy:** "Number-thinking duel": set each other "I think of a number" puzzles
+- **Objective:** "By the end, I can solve equations in which the unknown is divided, such as x/4 + 3 = 7 and (2x + 1)/3 = 5, by undoing the operations in reverse order." (UK KS3 Algebra; CCSS 7.EE.4a foundation)
+- **Hook:** "I think of a number, divide it by 4 and add 3. I get 7. What was my number?"
+- **Key activity:** Function machines run backwards and bar models (a bar split into 4 equal parts, each x/4), then the balance method: x/4 + 3 = 7 → x/4 = 4 → x = 16; (2x + 1)/3 = 5 → 2x + 1 = 15 → x = 7; (x − 2)/5 = −1 → x = −3; ¾x − 2 = 7 → ¾x = 9 → x = 12.
+- **Check for understanding:** "In (2x + 1)/3 = 5, why do we multiply both sides by 3 before subtracting 1?" → The whole of 2x + 1 was divided by 3, so dividing was the last step; undo it first to get 2x + 1 = 15, then subtract 1 and divide by 2 (x = 7).
+- **Differentiation:** support: one-step equations such as x/5 = 4 with bar models / stretch: (x + 4)/3 = (x − 2)/2 — multiply both sides by 6 (2x + 8 = 3x − 6, so x = 14) and check
+- **Materials:** function-machine cards, bar-model templates, algebra tiles, equation mats
+- **Joy:** "Number-thinking duel": set each other "I think of a number, divide it by…" puzzles
 
 ### Lesson 63 — Equations with brackets
 - **Duration:** 40 min
@@ -895,16 +895,16 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 
 **Essential question:** How can we compare quantities multiplicatively, and how do ratios, rates and percentages all describe the same idea?
 
-**Key vocabulary:** ratio, part, whole, simplest form, equivalent ratio, unit ratio, rate, unit rate, best buy, direct proportion, scale factor, scale drawing, map scale, speed, constant of proportionality
+**Key vocabulary:** ratio, part, whole, simplest form, equivalent ratio, unit ratio, rate, unit rate, best buy, direct proportion, inverse proportion, scale factor, scale drawing, map scale, speed, constant of proportionality
 
-### Lesson 77 — Understanding ratio
+### Lesson 77 — Ratio and three-part ratios (retrieval)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use ratio notation a : b to describe a relationship between two quantities and explain the difference between a ratio and a fraction." (CCSS 6.RP.1; UK KS3 Ratio)
+- **Objective:** "By the end, I can use ratio notation for two or three quantities, write each part as a fraction of the whole, and explain how a ratio differs from a fraction." (CCSS 6.RP.1; UK KS3 Ratio)
 - **Hook:** "The flag of a country is exactly 2 : 3. What does that mean for a flag 60 cm high?"
-- **Key activity:** Build ratios with two-colour multilink cube trains (3 red : 2 blue); write as ratio and as fractions of the whole (red is 3/5 of the whole, not 3/2); describe part-to-part and part-to-whole relationships with real flags and recipes.
+- **Key activity:** Retrieval (Year 5 introduced ratio and its link to fractions): two-colour multilink trains (3 red : 2 blue; red is 3/5 of the whole, not 3/2). New step: three-part ratios with three colours (2 : 3 : 5 → 2/10, 3/10 and 5/10 of the whole) in recipes, concrete mixes and flag stripes; write a ratio from a fraction (⅖ of a class are boys → boys : girls = 2 : 3).
 - **Check for understanding:** "In a class the ratio of boys to girls is 2 : 3. What fraction are girls? Explain why it isn't 3/2 or 2/3." → 3/5: there are 5 equal parts in total and 3 of them are girls.
-- **Differentiation:** support: cube trains for every ratio / stretch: in a 3-colour mix of 2 : 3 : 5, what fraction is each colour? (1/5, 3/10, 1/2)
-- **Materials:** multilink cubes in two or three colours, flags of the world cards
+- **Differentiation:** support: cube trains for every ratio / stretch: a fruit mix is apples : pears : plums = 2 : 3 : 5 and a quarter of the plums are removed — what is the new ratio in whole numbers? (2 : 3 : 3.75 = 8 : 12 : 15)
+- **Materials:** multilink cubes in three colours, flags of the world cards, recipe cards
 - **Joy:** "Flag ratio investigation": measure real flag proportions (e.g. Switzerland is square 1 : 1; Nepal is not a rectangle)
 
 ### Lesson 78 — Equivalent ratios and simplest form
@@ -927,45 +927,45 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Materials:** double-number-line templates, graph paper, kitchen scales, rice
 - **Joy:** Scale a real family recipe and cook it (link to Life Skills)
 
-### Lesson 80 — Sharing in a ratio
+### Lesson 80 — Ratio problems: total, one part or difference known (retrieval)
 - **Duration:** 40 min
-- **Objective:** "By the end, I can share an amount in a given ratio using a bar model." (UK KS3 Ratio; CCSS 6.RP.3)
+- **Objective:** "By the end, I can solve ratio problems whether I know the total, one part or the difference, choosing the bar model that fits." (UK KS3 Ratio; CCSS 6.RP.3)
 - **Hook:** "Two sisters earn 60 by washing cars. One worked 2 hours, the other 3. How should they share it fairly?"
-- **Key activity:** Bar model: 2 + 3 = 5 parts, 60 ÷ 5 = 12, so 24 and 36; three-part ratios; problems where the difference is given instead of the total.
-- **Check for understanding:** "Red and blue beads are in the ratio 3 : 5. There are 12 more blue than red. How many beads altogether?" → The difference is 2 parts = 12, so 1 part = 6, total = 8 parts = 48.
-- **Differentiation:** support: bar models already drawn; totals divisible by the number of parts / stretch: share 1,000 in the ratio 1/2 : 1/3 (600 and 400)
-- **Materials:** bar-model templates, counters, play money
+- **Key activity:** Retrieval (Year 5 taught each type in a separate lesson): bar models for the three types side by side — total known (60 in 2 : 3 → 12 per part → 24 and 36), one part known (cement : sand : gravel = 1 : 2 : 4 with 18 kg of sand → 9 kg per part → 36 kg of gravel), difference known (red : blue = 3 : 5 with 12 more blue → 6 per part → 48 beads). Pupils sort a mixed card set by type before solving.
+- **Check for understanding:** "Red and blue beads are in the ratio 3 : 5. There are 12 more blue than red. How many beads altogether?" → The difference is 2 parts = 12, so 1 part = 6, and the total is 8 parts = 48.
+- **Differentiation:** support: two-part ratios with bar models already drawn / stretch: share 1,000 in the ratio ½ : ⅓ (600 and 400)
+- **Materials:** bar-model templates, counters, play money, problem-type sort cards
 - **Joy:** Fair-share role play with play money
 
-### Lesson 81 — Ratio problems with one part known
-- **Duration:** 35 min
-- **Objective:** "By the end, I can solve ratio problems when I know one part, the total or the difference." (UK KS3 Ratio)
-- **Hook:** "A concrete mix is cement : sand : gravel = 1 : 2 : 4. A builder has 18 kg of sand. How much gravel?"
-- **Key activity:** Bar models for "one part known" (2 parts = 18 kg, so 1 part = 9 kg, gravel = 36 kg); sort problems by type (total, one part, difference).
-- **Check for understanding:** "Why is the gravel 36 kg and not 72 kg?" → Sand is 2 parts, so one part is 9 kg; gravel is 4 parts = 36 kg.
-- **Differentiation:** support: two-part ratios with bar models / stretch: ratio changes: "A : B = 3 : 4; after 10 are added to A, the ratio is 1 : 1. Find A and B." (30 and 40)
-- **Materials:** bar-model templates, problem cards
-- **Joy:** Mix "concrete" with sand, soil and gravel in a 1 : 2 : 4 ratio (outdoors)
-
-### Lesson 82 — Unit rates
+### Lesson 81 — Ratio problems where the ratio changes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can find unit rates, such as price per item or km per hour, and use them to solve problems." (CCSS 6.RP.2, 6.RP.3b)
+- **Objective:** "By the end, I can solve problems where quantities are added or removed so that the ratio changes, using 'before and after' bar models or an equation." (UK KS3 Ratio; Singapore Secondary 1)
+- **Hook:** "Amir and Bea have stickers in the ratio 3 : 4. Amir is given 10 more and now they have the same number. How many did each have at first?"
+- **Key activity:** Bar models drawn before and after: 3 bars and 4 bars; adding 10 to Amir makes the bars equal, so 1 bar = 10 → 30 and 40. Then 'one quantity unchanged' problems: boys : girls = 5 : 3; 6 girls join and the ratio becomes 5 : 4 — the boys' 5 parts don't change, the girls grow from 3 parts to 4, so 1 part = 6 → 30 boys and 18 girls at first. Compare with the equation 3k + 6 = 4k.
+- **Check for understanding:** "Red : blue counters = 2 : 5. After 9 red counters are added the ratio is 1 : 1. How many blue counters are there? Explain with a bar model." → Blue (5 parts) didn't change; red grew from 2 parts to 5 parts, so 3 parts = 9 and 1 part = 3; there are 15 blue counters.
+- **Differentiation:** support: two-part ratios with the 'after' bar model drawn / stretch: both quantities change — A : B = 3 : 2; 5 is taken from each and the ratio becomes 2 : 1 (A = 15, B = 10)
+- **Materials:** bar-model templates, two-colour counters, Cuisenaire rods
+- **Joy:** "Before and after" puzzle cards — pairs write one for another pair to solve
+
+### Lesson 82 — Unit rates and best buys
+- **Duration:** 40 min
+- **Objective:** "By the end, I can find unit rates — price per item, metres per second, price per 100 ml — including rates that need unit conversions, and use them to compare value." (CCSS 6.RP.2, 6.RP.3b)
 - **Hook:** "A cheetah covers 120 m in 5 s. A car does 90 km per hour. Who is faster?"
-- **Key activity:** Unit rate = "per 1" (120 m in 5 s = 24 m/s); convert 90 km/h to m/s (25 m/s); unit prices; typing speed in words per minute from a real 1-minute test.
-- **Check for understanding:** "6 pens cost 4.20. Explain how to find the cost of 15 pens using a unit rate." → 4.20 ÷ 6 = 0.70 per pen; 15 × 0.70 = 10.50.
-- **Differentiation:** support: whole-number unit rates with a ratio table / stretch: convert 25 m/s into km/h and explain each step (90 km/h)
-- **Materials:** stopwatch, trundle wheel or tape measure, product labels, calculators
+- **Key activity:** Retrieval (Year 5 compared pack prices by unit price): unit rate = "per 1" (120 m in 5 s = 24 m/s). New step: rates that need conversions (90 km/h = 90,000 m ÷ 3,600 s = 25 m/s) and best buys with awkward sizes (500 ml for 1.20 vs 1.5 L for 3.30), discussing when the "best buy" isn't best (waste, storage).
+- **Check for understanding:** "Explain two different ways to compare 500 ml for 1.20 with 1.5 L for 3.30." → Price per 100 ml (0.24 vs 0.22) or scale the small bottle up to 1.5 L (3.60 vs 3.30); the big bottle is better value.
+- **Differentiation:** support: whole-number unit rates with a ratio table / stretch: convert 25 m/s into km/h explaining each step (90 km/h), then a three-way comparison including a "buy 2 get 1 free" offer
+- **Materials:** stopwatch, trundle wheel or tape measure, product labels and packaging, calculators
 - **Joy:** Measure your own running speed over 20 m and compare with animals
 
-### Lesson 83 — Best buys
-- **Duration:** 35 min
-- **Objective:** "By the end, I can compare value for money using unit prices and explain the better buy." (CCSS 6.RP.3b; UK KS3 Ratio)
-- **Hook:** "500 ml of juice for 1.20 or 1.5 L for 3.30 — which is better value?"
-- **Key activity:** Compare using price per 100 ml or amount per 1 unit of money; real shop prices; discuss when the "best buy" isn't best (waste, storage).
-- **Check for understanding:** "Explain two different ways to compare 500 ml for 1.20 with 1.5 L for 3.30." → Price per 100 ml (0.24 vs 0.22) or scale up the small one to 1.5 L (3.60 vs 3.30); the big bottle is better value.
-- **Differentiation:** support: sizes that are simple multiples / stretch: three-way comparison with awkward sizes and a "buy 2 get 1 free" offer
-- **Materials:** real product packaging or online prices, calculators
-- **Joy:** "Supermarket detective" at home or on a shopping trip
+### Lesson 83 — Inverse proportion
+- **Duration:** 40 min
+- **Objective:** "By the end, I can recognise inverse proportion (when one quantity doubles, the other halves) and solve problems using the constant product." (UK KS3 Ratio; Singapore Secondary 1)
+- **Hook:** "4 painters take 6 days to paint a house. How long would 8 painters take? And 3 painters?"
+- **Key activity:** Concrete: 24 cubes arranged as 4 rows of 6, 8 rows of 3 and 3 rows of 8 — the total (the job: 24 painter-days) never changes. Pictorial: a table where x × y is constant, beside a direct-proportion table where y ÷ x is constant. Abstract: 8 painters take 24 ÷ 8 = 3 days, 3 painters take 8 days (assuming everyone works at the same rate); a fixed 60 km journey takes 2 h at 30 km/h and 1.5 h at 40 km/h.
+- **Check for understanding:** "Are 'the number of people sharing a 60-dollar prize' and 'the amount each gets' in direct or inverse proportion? Explain with numbers." → Inverse: 2 people get 30 each, 4 get 15, 6 get 10 — doubling the people halves each share, and people × share is always 60.
+- **Differentiation:** support: build each arrangement with cubes and fill in the table / stretch: 3 identical pipes fill a tank in 40 minutes — how long do 5 pipes take? (24 minutes) Explain why adding pipes can never make the time zero.
+- **Materials:** multilink cubes, table templates, problem cards, stopwatches
+- **Joy:** "Many hands": time 1, 2 and 4 pupils sorting a box of counters and test whether it really is inverse proportion
 
 ### Lesson 84 — Direct proportion
 - **Duration:** 40 min
@@ -977,9 +977,9 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Materials:** graph paper, data tables, kitchen scales and apples or rice
 - **Joy:** "Proportional or not?" card sort with real-world claims
 
-### Lesson 85 — Recipes, scaling and the unitary method
+### Lesson 85 — Scaling with fractional and decimal scale factors
 - **Duration:** 40 min
-- **Objective:** "By the end, I can scale quantities up and down using the unitary method and scale factors." (UK KS3 Ratio; CCSS 6.RP.3)
+- **Objective:** "By the end, I can scale quantities by non-whole scale factors (such as 1.5, 7/4 or 0.6) using the unitary method or a multiplier, and decide how to round sensibly." (UK KS3 Ratio; CCSS 6.RP.3)
 - **Hook:** A recipe for shakshuka (or a family dish) serves 4. You're cooking for 6.
 - **Key activity:** Unitary method (find 1 serving) and scale-factor method (× 1.5); compare; convert units in recipes; actually prepare a scaled no-cook recipe (e.g. fruit salad or hummus).
 - **Check for understanding:** "A recipe for 8 uses 3 eggs. How many for 12? Explain the scale factor." → Scale factor 12/8 = 1.5; 3 × 1.5 = 4.5 eggs — round sensibly (4 or 5) and explain.
@@ -997,14 +997,14 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Materials:** tape measure, squared paper, rulers, card for furniture cut-outs
 - **Joy:** Redesign your room on paper
 
-### Lesson 87 — Maps and scales
+### Lesson 87 — Map scales: ratio, 'cm to km' and working backwards
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use map scales (ratio and bar scales) to calculate real distances." (UK KS3 Ratio; Geography link)
-- **Hook:** "On a 1 : 25,000 map, your route is 18 cm. How far is the walk?"
-- **Key activity:** Convert map distances with ratio scales (1 cm = 25,000 cm = 250 m); measure curved routes with string; compare scales (1 : 25,000 vs 1 : 1,000,000); link to Geography Unit 1.
+- **Objective:** "By the end, I can convert between ratio scales (1 : 50,000) and '1 cm to n km' form, and work both ways between map distances and real distances." (UK KS3 Ratio; Geography link)
+- **Hook:** "Your walk is 4.5 km. On a 1 : 25,000 map, how long will the route look? On a 1 : 50,000 map?" (18 cm; 9 cm)
+- **Key activity:** Retrieval (Year 5 found real distances from 1 : 25,000 and 1 : 50,000 maps): 18 cm on a 1 : 25,000 map is 450,000 cm = 4.5 km. New steps: rewrite ratio scales as '1 cm to 250 m' or '4 cm to 1 km'; work backwards from a real distance to a map distance; compare the same route on maps of different scales; measure curved routes with string on a real map (link to Geography Unit 1).
 - **Check for understanding:** "Which map shows more detail: 1 : 10,000 or 1 : 100,000? Explain." → 1 : 10,000: each cm represents a shorter real distance (100 m instead of 1 km), so features appear larger.
-- **Differentiation:** support: bar scales and a conversion table / stretch: work out the map distance for 7.5 km at 1 : 50,000 (15 cm)
-- **Materials:** local topographic map or online map with scale, string, rulers
+- **Differentiation:** support: bar scales and a cm–m–km conversion table / stretch: a map says '4 cm to 1 km' — write it as a ratio (1 : 25,000); then find the map distance for 7.5 km on a 1 : 50,000 map (15 cm)
+- **Materials:** local topographic map or online map with a scale, string, rulers, conversion table
 - **Joy:** Plan and measure a real walking route, then walk it and compare
 
 ### Lesson 88 — Speed, distance and time
@@ -1041,7 +1041,7 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Duration:** 40 min
 - **Objective:** "By the end, I can solve multi-step proportion problems and choose between ratio tables, unit rates and scale factors." (CCSS 6.RP.3; IB MYP Criterion A)
 - **Hook:** "If 3 hens lay 3 eggs in 3 days, how many eggs do 6 hens lay in 6 days?" (12)
-- **Key activity:** Rich problems in pairs; compare methods; identify inverse-proportion traps (more workers → less time) as a preview.
+- **Key activity:** Rich problems in pairs; compare methods; retrieve inverse proportion (Lesson 83) and spot direct-versus-inverse traps (more workers → less time).
 - **Check for understanding:** "4 painters take 6 days to paint a house. Will 8 painters take 12 days? Explain." → No: more painters means less time; 8 painters would take 3 days (inverse proportion), assuming they work at the same rate.
 - **Differentiation:** support: ratio table scaffolds / stretch: create an inverse-proportion problem and solve it
 - **Materials:** problem cards, ratio tables
@@ -1085,7 +1085,7 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 
 **Essential question:** How can we use known angle facts and precise constructions to prove and create exact shapes?
 
-**Key vocabulary:** acute, obtuse, reflex, protractor, vertex, vertically opposite, parallel, transversal, alternate, corresponding, co-interior, interior angle, exterior angle, polygon, regular, construct, perpendicular bisector, angle bisector, compass, locus
+**Key vocabulary:** acute, obtuse, reflex, protractor, vertex, vertically opposite, parallel, transversal, alternate, corresponding, co-interior, interior angle, exterior angle, polygon, regular, three-figure bearing, back bearing, construct, perpendicular bisector, angle bisector, compass, locus
 
 ### Lesson 95 — Measuring and drawing angles accurately
 - **Duration:** 40 min
@@ -1097,25 +1097,25 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Materials:** protractors (180° and 360°), rulers, sharp pencils
 - **Joy:** "Angle estimation darts": estimate, measure, score by closeness
 
-### Lesson 96 — Angle facts: lines, points and vertically opposite
-- **Duration:** 35 min
-- **Objective:** "By the end, I can find missing angles using angles on a line (180°), around a point (360°) and vertically opposite angles, giving reasons." (CCSS 7.G.5 foundation; UK KS3 Geometry)
-- **Hook:** Cross two straws: "Which angles are always equal — and can you prove it?"
-- **Key activity:** Retrieve Year 5 facts; prove vertically opposite angles are equal using angles on a line (a + b = 180, b + c = 180 → a = c); solve multi-step problems giving reasons in words.
-- **Check for understanding:** "Why are vertically opposite angles equal? Use angles on a line." → Each of them adds to the same adjacent angle to make 180°, so they must be equal.
-- **Differentiation:** support: straws and a protractor to measure and confirm / stretch: find algebraic angles (3x + 10 and 5x − 30 are vertically opposite; x = 20)
-- **Materials:** straws, split pins, protractors, angle puzzle cards
+### Lesson 96 — Angle facts retrieval: lines, points, triangles and quadrilaterals
+- **Duration:** 40 min
+- **Objective:** "By the end, I can find missing angles using angles on a line, around a point, vertically opposite angles, and the angle sums of triangles and quadrilaterals — giving a geometric reason for every step." (CCSS 7.G.5 foundation; UK KS3 Geometry)
+- **Hook:** "Tear the corners off a paper triangle and a paper quadrilateral. What do they always make — and why are vertically opposite angles always equal?"
+- **Key activity:** Retrieval (Year 5 proved these facts and used them with algebra): straws and split pins, tear-and-arrange corners; multi-step chains written with reasons ("angles in a triangle add to 180°"; "vertically opposite angles are equal"); isosceles triangles with two possible answers.
+- **Check for understanding:** "An isosceles triangle has one angle of 40°. What could the other two be? Is there more than one answer?" → Yes, two: 40° and 100° (if 40° is a base angle) or 70° and 70° (if 40° is the apex angle).
+- **Differentiation:** support: straws, paper shapes and a protractor to confirm, one-step problems / stretch: vertically opposite angles are 3x + 10 and 5x − 30 — find x (20), then use the angle in a triangle problem
+- **Materials:** straws, split pins, paper triangles and quadrilaterals, scissors, protractors, angle puzzle cards
 - **Joy:** "Angle chains": follow a chain of reasons to find a hidden angle
 
-### Lesson 97 — Angles in triangles and quadrilaterals
+### Lesson 97 — Three-figure bearings
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use angle sums of triangles (180°) and quadrilaterals (360°) with reasons, including isosceles triangles." (UK KS3 Geometry; CCSS 8.G.5 foundation)
-- **Hook:** Tear the corners off a paper triangle — they always make a straight line. Does it work for every triangle?
-- **Key activity:** Tear-and-arrange demonstration; split a quadrilateral into two triangles (360°); isosceles triangle problems (base angles equal); give reasons.
-- **Check for understanding:** "An isosceles triangle has one angle of 40°. What could the other two be? Is there more than one answer?" → Yes, two answers: 40° and 100° (if 40° is a base angle) or 70° and 70° (if 40° is the apex).
-- **Differentiation:** support: tear-and-arrange for each shape and one-step problems / stretch: multi-step problems combining triangle and straight-line facts
-- **Materials:** paper triangles and quadrilaterals, scissors, protractors
-- **Joy:** "Two-answer puzzles": find all possibilities
+- **Objective:** "By the end, I can measure and draw three-figure bearings clockwise from north and use them with a scale drawing to describe a journey." (UK KS3 Geometry and Measures; Geography link)
+- **Hook:** "A ship's radio says 'heading 135'. Which way is that — and why do sailors and pilots always use three digits?"
+- **Key activity:** Concrete: a floor compass rose — pupils face north and turn clockwise through 090°, 180° and 270°. Pictorial: draw a north line at the starting point, measure clockwise with a 360° protractor, and always write three figures (045°, not 45°). Abstract: bearings between places on a scale map (1 cm : 1 km); the back bearing differs by 180° (070° and 250°).
+- **Check for understanding:** "The bearing of B from A is 070°. Jo says the bearing of A from B is also 070°. Explain why she is wrong and find it." → Going back you face the opposite way, so add 180°: 250° — measured clockwise from a north line drawn at B.
+- **Differentiation:** support: bearings that are multiples of 45° on a compass rose with the eight points labelled / stretch: a boat sails 5 km on a bearing of 060° then 4 km on 150° — make a scale drawing and measure the distance and bearing back to the start (about 6.4 km on about 279°)
+- **Materials:** floor compass rose, 360° protractors, rulers, scale maps, a magnetic compass
+- **Joy:** "Orienteering": follow a bearing-and-distance course around the playground to a hidden treasure (PE and Geography link)
 
 ### Lesson 98 — Parallel lines: corresponding and alternate angles
 - **Duration:** 40 min
@@ -1399,13 +1399,13 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 
 ### Lesson 124 — Capacity and units of volume
 - **Duration:** 40 min
-- **Objective:** "By the end, I can convert between cm³, m³, ml and litres and explain why 1 m³ = 1,000,000 cm³." (UK KS3 Measures; CCSS 5.MD.1)
-- **Hook:** "How many litres of water fill a 1 m cube? Guess first."
-- **Key activity:** Build a 10 cm cube (1 litre) from card; 1 ml = 1 cm³; model 1 m³ with metre sticks in a room corner (1,000 litres); convert volumes of tanks, pools and bottles.
-- **Check for understanding:** "Leila says 1 m³ = 100 cm³ because 1 m = 100 cm. What is wrong?" → Volume has three dimensions: 100 × 100 × 100 = 1,000,000 cm³.
-- **Differentiation:** support: cm³ ↔ ml ↔ litres only with a 1-litre cube model / stretch: an aquarium is 80 cm × 35 cm × 40 cm — how many litres? (112 litres)
-- **Materials:** card, tape, metre sticks, 1-litre jug, measuring cylinders
-- **Joy:** Build the 1 m³ frame and see how many children fit inside
+- **Objective:** "By the end, I can convert between mm³, cm³, m³, ml and litres, including decimals in both directions, and choose sensible units for large and small volumes." (UK KS3 Measures; CCSS 5.MD.1, 6.RP.3d)
+- **Hook:** "A garden pond holds 2.4 m³ of water. How many 10-litre buckets would it take to fill it?"
+- **Key activity:** Retrieval (Year 5 built the metre-cube frame: 1 m³ = 1,000,000 cm³ = 1,000 litres; 1,000 cm³ = 1 litre): quick recap with a 10 cm card cube. New step: conversions with decimals and in both directions using a conversion chain (2.4 m³ = 2,400 l; 4,500 cm³ = 4.5 l = 0.0045 m³; 1 cm³ = 1,000 mm³) and choosing units (a medicine dose in ml, a swimming pool in m³).
+- **Check for understanding:** "A pond holds 2.4 m³. How many 10-litre buckets fill it? Explain each conversion." → 1 m³ = 1,000 litres, so 2.4 m³ = 2,400 litres, and 2,400 ÷ 10 = 240 buckets.
+- **Differentiation:** support: cm³ ↔ ml ↔ litres only, with the 1-litre cube model / stretch: an aquarium is 80 cm × 35 cm × 40 cm — how many litres, and what fraction of a cubic metre? (112 litres; 0.112 m³)
+- **Materials:** card 10 cm cube, 1-litre jug, measuring cylinders, metre sticks, conversion-chain cards
+- **Joy:** "Bucket brigade": estimate, then calculate, how many buckets fill the school water butt or a paddling pool
 
 ### Lesson 125 — Nets and surface area of cuboids
 - **Duration:** 40 min
@@ -1413,9 +1413,9 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Hook:** "How much wrapping paper do you need for this box, at the very least?"
 - **Key activity:** Unfold a real cereal box; label pairs of equal faces; SA = 2(lw + lh + wh); compare surface areas of boxes with the same volume.
 - **Check for understanding:** "Why do cuboids have their faces in three equal pairs?" → Opposite faces are identical rectangles: top/bottom, front/back, left/right.
-- **Differentiation:** support: work from the unfolded net, labelling each face's area / stretch: find the cuboid with volume 24 cm³ (whole-number edges) that has the least surface area (2 × 3 × 4 → 52 cm²)
+- **Differentiation:** support: work from the unfolded net, labelling each face's area / stretch: find the cuboid with volume 36 cm³ (whole-number edges) that has the least surface area (3 × 3 × 4 → 66 cm²), and explain why it is not a cube
 - **Materials:** empty cardboard boxes, scissors, rulers, squared paper
-- **Joy:** "Eco-packaging challenge": design a box for 24 cubes using the least card
+- **Joy:** "Eco-packaging challenge": design a box for 36 cubes using the least card
 
 ### Lesson 126 — Surface area of prisms and pyramids
 - **Duration:** 40 min
@@ -1936,5 +1936,5 @@ The two flexible weeks absorb re-teaching after mastery checks, so no one is rus
 - **Reasoning language:** insist on "because…" and complete sentences in checks; use "always, sometimes, never" statements often.
 - **International framing:** money is written without currency symbols unless the context names a country; use metric units throughout (with imperial only in explicit comparison lessons); draw contexts from many countries (train speeds in Japan, taxi fares in Kenya, temperatures in Mongolia).
 - **Differentiation:** the "support" route keeps the same objective with more concrete scaffolding; the "stretch" route goes deeper (generalising, proving), not faster onto next year's content.
-- **Vertical alignment:** Year 5 introduced ratio, formulae, simple equations, triangle/parallelogram area, cuboid volume and the mean; Year 6 extends every one (integers in every strand, fraction division, multipliers, nth term, unknowns on both sides, constructions, circles and prisms, probability, IQR/MAD and box plots). Secondary maths (UK Year 8 / US Grade 7 / MYP 2) builds straight on: proportional relationships and percentage change, multi-step equations, the geometry of circles and prisms, and probability of compound events.
+- **Vertical alignment:** Year 5 introduced ratio, formulae, simple equations, triangle/parallelogram area, cuboid volume and the mean; Year 6 extends every one (integers in every strand, fraction division, multipliers, nth term, equations with fractions and unknowns on both sides, ratio-change problems and inverse proportion, bearings, constructions, circles and prisms, probability, IQR/MAD and box plots) and deliberately opens each Year 5 topic with a short retrieval lesson rather than re-teaching it. Secondary maths (UK Year 8 / US Grade 7 / MYP 2) builds straight on: proportional relationships and percentage change, multi-step equations, the geometry of circles and prisms, and probability of compound events.
 - **Wellbeing:** assessments are snapshots for teaching, never rankings; the personal-best graph measures growth against oneself.
