@@ -1031,7 +1031,7 @@ re-teaching, maths-outdoors days and school events.
 - **Key activity:** Read rows and columns; complete missing totals; answer questions.
 - **Check for understanding:** "How can you find a missing total without counting everything again?" → Add the row (or subtract the known values from the grand total).
 - **Differentiation:** support: tables with 2 rows and 2 columns / stretch: create a two-way table from a class survey.
-- **Materials:** printed tables, class survey data
+- **Materials:** printed tables, class survey data, multilink cubes (build each cell's count as a tower to check the totals)
 - **Joy:** A "sports day results" table of the class's own races.
 
 ### Lesson 92 — Statistics investigation
