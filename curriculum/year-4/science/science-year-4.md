@@ -334,10 +334,10 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 
 ### Lesson 28 — Day and night: a rotating Earth
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a model to work out which way Earth spins and explain why sunrise comes earlier in places further east." (UK NC Y5 day and night; NGSS 5-ESS1-2)
-- **Hook:** "In Year 2 we found that day and night come from Earth spinning. But which way does it spin — and how could you prove it?"
-- **Key activity:** Quick retrieval with torch (Sun) and globe. Then children test both spin directions with a sticker on their city and decide which one makes the Sun rise in the east; conclude that Earth spins west to east (anticlockwise seen from above the North Pole). Use sunrise times for two cities in the same country on the same date (e.g. Shanghai and Kashgar, which both use Beijing time) to test the model; children act as Earth spinning in the classroom.
-- **Check for understanding:** "On the same day, the Sun rises about three hours earlier in Shanghai (far east of China) than in Kashgar (far west), though their clocks show the same time. Use Earth's spin to explain why." → Earth spins towards the east, so places further east turn into the sunlight first; Shanghai reaches sunrise before Kashgar does
+- **Objective:** "By the end, I can use Earth's rate of spin (360° in 24 hours) to explain and predict how much later sunrise comes in places further west." (UK NC Y5 day and night; NGSS 5-ESS1-2)
+- **Hook:** "In Year 2 we learned that Earth spins towards the east, so the Sun rises in the east. But how fast does it turn — and can we use that to predict sunrise?"
+- **Key activity:** Quick retrieval with torch (Sun) and globe: Earth spins west to east (anticlockwise seen from above the North Pole). New: 360° in 24 hours means 15° every hour. Children mark lines of longitude 15° apart on a paper strip round the globe, turn the globe one 'hour' at a time and watch sunrise move west by one strip each hour; then test the idea with real sunrise times for cities in one country on the same date (e.g. Shanghai, about 121° E, and Kashgar, about 76° E, which both use Beijing time); children act as Earth spinning in the classroom.
+- **Check for understanding:** "Earth turns 360° in 24 hours. How many degrees does it turn in one hour — and so about how much later does sunrise come in a town 30° further west?" → 15° per hour (360 ÷ 24); about 2 hours later, because the town needs 30 ÷ 15 = 2 more hours of spin to turn into the sunlight
 - **Differentiation:** support: guided model with the teacher, with east and west labelled on the globe. / stretch: explain why it is night in Tokyo when it is midday in Lagos.
 - **Materials:** globe, strong torch or lamp, stickers, dark room.
 - **Joy:** "Human Earth" spinning under a lamp "Sun".
@@ -354,10 +354,10 @@ Year 4 science is the year children **own the whole scientific method**: they ch
 
 ### Lesson 30 — Time zones
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain why different countries have different times." (UK NC Y5 Earth's rotation; links to maths time)
-- **Hook:** Call or show clocks: "Right now, a child in New Zealand is asleep. Why?"
-- **Key activity:** Globe and lamp: when one side faces the Sun, the other is in darkness; Earth turns 360° in 24 hours, so 15° per hour — the basis of time zones.
-- **Check for understanding:** "Why is it 8 hours later in Singapore than in London in winter?" → Singapore is further east, so it turns into sunlight earlier; its clocks are set ahead.
+- **Objective:** "By the end, I can explain how time zones follow Earth's spin (15° per hour) and why clock time and Sun time do not always match." (UK NC Y5 Earth's rotation; links to maths time)
+- **Hook:** "China is about as wide as the USA, but the whole country uses one clock time. What happens to sunrise in the far west?"
+- **Key activity:** Retrieve Year 2's world clocks in two minutes. New: time zones are roughly 15° of longitude wide because Earth turns 15° each hour; but borders and governments bend them. Compare a time-zone map with lines of longitude; look at China (one time zone across about 60° of longitude) and at countries that use half-hour zones (e.g. India); link to Lesson 28's sunrise times.
+- **Check for understanding:** "China stretches across about 60° of longitude but uses one clock time. About how many hours apart is sunrise at its eastern and western edges, and what problem might that cause?" → about 4 hours (60 ÷ 15); in the far west the Sun rises very late by the clock, so the school and work day can start in the dark
 - **Differentiation:** support: a world clock display. / stretch: explain the International Date Line simply.
 - **Materials:** globe, lamp, world time-zone map, clocks.
 - **Joy:** "Wake up, world!" — act out the world waking up around the globe.

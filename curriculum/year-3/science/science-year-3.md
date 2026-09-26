@@ -8,7 +8,7 @@ Year 3 science turns curious children into **careful investigators**. Every unit
 
 **What this year assumes (from Year 2, ages 7–8):** plant parts and life cycles; nutrition, skeletons and muscles; rocks, fossils and soils; light, shadows and reflection; forces and magnets; recording in tables and bar charts; simple fair tests with one variable changed. **What Year 4 (ages 9–10) relies on:** accurate use of classification keys (for life cycles and reproduction), confident use of thermometers and reading scales (for materials and changes), the particle idea that solids, liquids and gases behave differently (for dissolving, mixtures and reversible/irreversible changes), vibration and energy transfer (for forces and later light/sound), series circuits (for extending circuits in Year 5–6), and independent planning of a fair test.
 
-**Scientists and ideas from around the world** appear in every unit: Carl Linnaeus (Sweden) and the naming of living things; Wangari Maathai (Kenya) and the Green Belt Movement; William Beaumont (USA) and early experiments on digestion; Anders Celsius (Sweden) and the temperature scale; Evelyn Glennie (Scotland), who performs as a percussionist while profoundly deaf and 'hears' vibrations; Alessandro Volta (Italy) and the first battery; Lewis Latimer (USA), who improved the carbon filament in light bulbs.
+**Scientists and ideas from around the world** appear in every unit: Carl Linnaeus (Sweden) and the naming of living things; Yacouba Sawadogo (Burkina Faso) and the zaï pits that help regreen the Sahel; William Beaumont (USA) and early experiments on digestion; Anders Celsius (Sweden) and the temperature scale; Evelyn Glennie (Scotland), who performs as a percussionist while profoundly deaf and 'hears' vibrations; Alessandro Volta (Italy) and the first battery; Lewis Latimer (USA), who improved the carbon filament in light bulbs.
 
 Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a responsible adult supervises all heat, sharp tools and glass.
 
@@ -217,15 +217,15 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 - **Materials:** photo cards
 - **Joy:** "Before and after" photo detectives
 
-### Lesson 17 — Wangari Maathai and the Green Belt Movement
+### Lesson 17 — Yacouba Sawadogo and the Great Green Wall
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how people can change environments for the better." (UK NC Y4 Sc; global citizenship)
-- **Hook:** "One woman in Kenya started planting trees — and millions followed."
-- **Key activity:** Story of Wangari Maathai (Nobel Peace Prize 2004); why trees matter for soil, water and wildlife.
-- **Check for understanding:** "How did planting trees help people and wildlife in Kenya?" → trees prevent soil erosion, protect water and provide habitats and firewood
-- **Differentiation:** support: picture story / stretch: research another conservation project
-- **Materials:** biography picture book (e.g. *Wangari's Trees of Peace* by Jeanette Winter)
-- **Joy:** plant a tree or seeds in the school grounds
+- **Objective:** "By the end, I can explain how people can change an environment for the better, using a real example from the Sahel." (UK NC Y4 Sc (environments can change); global citizenship)
+- **Hook:** "In Burkina Faso, a farmer was laughed at for digging holes in dry, hard ground. Years later a forest grew there. How?"
+- **Key activity:** One-sentence retrieval of Wangari Maathai's tree planting (Year 1). New story: Yacouba Sawadogo revived the traditional *zaï* method — small pits dug into hard ground and filled with compost or manure catch the rain; termites break down the compost and tunnel through the soil so water soaks in where roots need it. Link to the Great Green Wall, an African-led project (launched in 2007) to restore land across the Sahel. Model: pour the same amount of water onto hard-packed soil and onto soil with a compost-filled pit, and measure how much runs off.
+- **Check for understanding:** "How do zaï pits help trees and crops grow on dry, hard ground?" → the pits catch the rain and hold compost, so water soaks in around the roots instead of running off, and the compost adds nutrients (helped by termites opening up the soil)
+- **Differentiation:** support: a picture story of how a zaï pit works / stretch: explain how restoring land helps both people and wildlife (food, shade, habitats, less soil blown away)
+- **Materials:** trays of hard-packed soil, compost, watering can, measuring jug, photos of land in the Sahel before and after restoration
+- **Joy:** plant seeds in class 'zaï pits' and in flat soil, and compare them over the next weeks
 
 ### Lesson 18 — Investigation: pollution and plants
 - **Duration:** 40 min
@@ -824,7 +824,7 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 ## Books & resources
 
 - ***The Street Beneath My Feet* by Charlotte Guillain and Yuval Zommer** — a fold-out journey down through soil, rock and water to the Earth's core; brilliant for habitats, the water cycle and Earth science curiosity.
-- ***Wangari's Trees of Peace* by Jeanette Winter** — a true story of Wangari Maathai and the Green Belt Movement; makes conservation personal and shows an African woman scientist-activist.
+- ***Wangari's Trees of Peace* by Jeanette Winter** — the true story of Wangari Maathai and the Green Belt Movement, met in Year 1; keep it in the class library to retrieve alongside Lesson 17's Sahel story.
 - ***A Drop of Water* by Walter Wick** — astonishing photographs of water freezing, evaporating and condensing; the best visual support for the states-of-matter and water-cycle units.
 - ***The Way Things Work Now* by David Macaulay** — the classic illustrated explanation of machines and electricity, for curious readers and teacher reference.
 - ***DK Eyewitness* titles (e.g. *Electricity*, *Human Body*)** — reliable, photo-rich non-fiction for research and reading in science lessons.
