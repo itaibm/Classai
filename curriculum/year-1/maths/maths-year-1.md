@@ -428,7 +428,7 @@ last week) before the new teaching — this is where spaced practice lives.
 - **Hook:** "A thief stole a number: 45 − ☐ = 20. Who can find it?"
 - **Key activity:** Pictorial first: put the numbers into a part-whole model or bar — is the missing number a part or the whole? Then choose + or −. Concrete: blocks to test. Abstract: ☐ + 7 = 15; 45 − ☐ = 20; ☐ − 12 = 30.
 - **Check for understanding:** "In ☐ − 12 = 30, is the missing number a part or the whole? How do you find it?" → The whole; add the parts: 30 + 12 = 42.
-- **Differentiation:** support: missing numbers within 20 with cubes / stretch: two missing digits (4☐ − ☐5 = 21) with more than one answer
+- **Differentiation:** support: missing numbers within 20 with cubes / stretch: two missing digits (4☐ − 2☐ = 21) — find every answer and explain why the ones digits must differ by 1
 - **Materials:** part-whole mats, bar strips, base-10 blocks, "wanted poster" sheets
 - **Joy:** Number-thief detective cards — each solved case earns a detective stamp.
 
@@ -917,7 +917,7 @@ last week) before the new teaching — this is where spaced practice lives.
 - **Objective:** "By the end, I can show I can measure, estimate, compare and solve problems with lengths in cm and m." (UK NC Y2 M — assessment)
 - **Hook:** "The toy workshop needs precise measurers."
 - **Key activity:** Mastery task: measure two objects, draw a line, choose units, order lengths, solve a length problem, explain a ruler mistake.
-- **Check for understanding:** "Explain why this measurement is wrong: the ruler's end, not the 0, is lined up with the pencil." → Many rulers have a gap before 0, so the reading would be too long; line the object up with 0.
+- **Check for understanding:** "Explain why this measurement is wrong: the ruler's end, not the 0, is lined up with the pencil." → Many rulers have a gap before 0, so the reading would be too short (the gap isn't counted); line the object up with 0.
 - **Differentiation:** support: whole-cm items only / stretch: m and cm comparison items
 - **Materials:** rulers, metre stick, objects, assessment sheet
 - **Joy:** Toy workshop certificates.
@@ -1938,7 +1938,7 @@ last week) before the new teaching — this is where spaced practice lives.
 - *Not exchanging* (45 + 38 = 713; 52 − 27 = 35 by "smaller from bigger") → exchange with real blocks until the child can say what the exchange means.
 - *Multiplication = "adding the numbers"* (3 × 5 = 8) → return to equal groups; say "3 groups of 5".
 - *Denominator-as-size* (¼ > ½ because 4 > 2) → fraction strips of the same whole, side by side.
-- *Ruler starts at the end* → line up with 0; show why starting at 1 makes it one short.
+- *Ruler starts at the end or at 1* → line up with 0; show why starting at 1 makes the reading 1 cm too long and starting at the ruler's end (before 0) makes it too short.
 - *Minute hand number = minutes* ("4 past") → count in 5s round the clock, labelled.
 - *Ignoring the key* in pictograms → read the key first, every time.
 
