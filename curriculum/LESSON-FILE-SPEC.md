@@ -81,7 +81,9 @@ Ordered; kinds follow the arc **hook → explain → example → check → pract
 {
   "kind": "explain",                     // hook | explain | example | check | practice | recap
   "delivery": "ai",                      // human | video | ai  (who runs THIS beat)
-  "timeboxMin": [3, 8],                  // start–end minutes
+  "timeboxMin": [3, 8],                  // [startMin, endMin] on the lesson clock — NOT a duration range.
+                                         // Beats are contiguous: the first starts at 0, each starts where the
+                                         // previous ended, the last ends at durationMin (the validator enforces it).
   "goal": "…",
   "note": "director guidance for this beat",
   "successCriteria": "observable evidence the beat landed",
@@ -91,7 +93,8 @@ Ordered; kinds follow the arc **hook → explain → example → check → pract
     "adaptHints": "how the AI may personalize (names, interests) WITHOUT changing the maths"
   },
 
-  "blocks": [ /* concrete LessonBlock objects from shared/types.ts, e.g. whiteboard/slideshow/multipleChoice */ ],
+  "blocks": [ /* concrete LessonBlock objects from shared/types.ts, e.g. whiteboard/slideshow/multipleChoice.
+                 Only the types in curriculum/block-types.json exist — the app can't render anything else. */ ],
 
   "check": {                             // check/practice beats only — BeatCheck + extras
     "question": "…",
@@ -152,6 +155,40 @@ The director picks items live; it never runs out and never repeats an identical 
 - **Human beats end with an explicit handoff cue** so the AI knows when to resume.
 - **Process praise only**; end on an earned success.
 - Practice bank: **≥ 9 items** (3 per level) covering every skill in the objectives, each with `reteach`.
+
+## Block types
+
+The block types the app can render are listed once, in [`block-types.json`](./block-types.json).
+The validator reads it, and `npm test` fails if it drifts from the app's `BlockSchema`
+(`server/src/ai/blocks.ts`). An unknown type (e.g. a made-up `sentenceFrames`) is a
+validation error — use `steps` (a list of sentence frames) or `fillBlank` instead.
+
+## Validating
+
+```sh
+node curriculum/validate-lessons.mjs curriculum          # every lessons/*.json, recursively
+node curriculum/validate-lessons.mjs curriculum/year-2/maths/lessons/lesson-13-thirds-and-quarters.json
+node curriculum/validate-lessons.mjs curriculum --quiet  # warnings as summary counts only
+```
+
+**Errors** (fail the run) are structural: missing fields, unknown block types or broken
+answer keys, timeboxes that don't tile `[0, durationMin]`, a thin practice bank, a missing
+`.md` pair. **Warnings** are pedagogy smells worth a human look: a maths lesson with no
+physical materials (CPA starts concrete), a practice level with fewer than 3 items, a
+check/practice item with fewer than 2 anticipated wrong answers, a check beat that asks a
+question with no answer playbook, and a `multipleChoice` whose `expectedAnswer` doesn't
+match `options[correct]`.
+
+## AI-generated lessons (not in this folder)
+
+When a learner starts a lesson that only exists as a scope outline, the app generates a
+`classai-lesson/1` file from the outline + knowledge base. It is saved as a **draft** under
+`${CLASSAI_DATA_DIR}/generated/year-N/<subject>/lessons/` (outside the repo's tracked files)
+with `status: "draft"`, `generatedAt` and `generatedBy` — never into `curriculum/`. Drafts are
+playable immediately and appear in the parent's **Review AI lessons** screen (approve /
+discard / regenerate). An authored file here always takes precedence over a generated one
+with the same `id`; promoting a good generated lesson into the curriculum is a deliberate
+human copy + review.
 
 ## Proposed `shared/types.ts` extensions (for the app-wiring phase)
 
