@@ -1,6 +1,17 @@
 import { useCallback, useEffect, useState } from 'react';
 import { navigate } from './router.ts';
 
+/** True when the user asked the OS/browser to minimise motion. Checked at call
+ *  time so JS-driven animation (word-by-word captions, confetti) can skip itself;
+ *  CSS animations are already disabled globally in styles.css. */
+export function prefersReducedMotion(): boolean {
+  try {
+    return typeof window !== 'undefined' && !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  } catch {
+    return false;
+  }
+}
+
 /** Run an async loader; re-run with reload(). */
 export function useAsync<T>(fn: () => Promise<T>, deps: unknown[] = []) {
   const [data, setData] = useState<T | null>(null);
@@ -22,9 +33,9 @@ export function useAsync<T>(fn: () => Promise<T>, deps: unknown[] = []) {
 export function TopBar({ accentHue = 210 }: { accentHue?: number }) {
   return (
     <div className="topbar" style={{ ['--accent-h' as any]: accentHue }}>
-      <div className="brand" onClick={() => navigate('/')}>
+      <button type="button" className="brand" aria-label="Classai home" onClick={() => navigate('/')}>
         Class<span>ai</span>
-      </div>
+      </button>
       <div className="spacer" />
       <button className="btn ghost small" onClick={() => navigate('/parent')}>
         Parent area

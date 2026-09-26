@@ -8,6 +8,7 @@ import { BlockView, AnswerInput } from '../blocks/BlockView.tsx';
 import { ReadAloudContext, type ReadFn } from '../blocks/readAloud.tsx';
 import { speak, unlockAudio, type SpeakHandle } from '../voice/tts.ts';
 import { subjectStyle } from '../lib/subject.ts';
+import { prefersReducedMotion } from '../lib/ui.tsx';
 
 type Phase = 'gate' | 'starting' | 'thinking' | 'speaking' | 'awaiting' | 'ended' | 'error';
 
@@ -26,6 +27,10 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   const [mouthOpen, setMouthOpen] = useState(0);
   const [captions, setCaptions] = useState('');
   const [shown, setShown] = useState(''); // progressively-revealed portion of captions
+  // Screen-reader announcement: the FULL speech, set once per turn, in a hidden
+  // polite live region — so assistive tech reads the turn once instead of every
+  // word of the visual word-by-word reveal.
+  const [announce, setAnnounce] = useState('');
   const [blocks, setBlocks] = useState<LessonBlock[]>([]);
   const [expectsAnswer, setExpectsAnswer] = useState(false); // this turn asks an open question
   const [autoAdvance, setAutoAdvance] = useState(true); // explanation turn flows on automatically
@@ -67,7 +72,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
   function startReveal(text: string) {
     stopReveal();
     const tokens = text.split(/(\s+)/); // keep whitespace so join('') restores text
-    if (tokens.length <= 1) { setShown(text); return; }
+    // Reduced motion: show the whole caption at once, no word-by-word animation.
+    if (tokens.length <= 1 || prefersReducedMotion()) { setShown(text); return; }
     const totalMs = Math.min(14000, 600 + text.length * 32);
     const stepMs = Math.max(40, Math.round(totalMs / tokens.length));
     let i = 0;
@@ -150,6 +156,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     setPhase('thinking');
     setEmotion('thinking');
     setCaptions('');
+    setAnnounce('');
     stopReveal();
     clearWatchdog();
     setShown('');
@@ -182,12 +189,14 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
       setShown('');
       setBlocks([]);
       setHandoff(turn.handoff);
+      setAnnounce('Grown-up moment: this part is hands-on with a parent or helper.');
       setMouthOpen(0);
       setPhase('awaiting');
       return;
     }
     setHandoff(null);
     setCaptions(turn.speech);
+    setAnnounce(turn.speech);
     setBlocks(turn.blocks ?? (turn.block ? [turn.block] : []));
     setReveal(turn.revealAnswer ?? true);
     // The turn expects a spoken/typed answer only if it says so, or its speech is
@@ -313,11 +322,29 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [awaitingNoBlock, expectsAnswer, autoAdvance, muted, turnSeq]);
 
+  // Keyboard users: each turn replaces the blocks, so the control they just used
+  // disappears and focus falls back to <body> (Tab would restart at the top bar).
+  // When the tutor starts waiting, move focus to the first answer control —
+  // but never steal focus from something the learner has already focused.
+  const lessonAreaRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    if (phase !== 'awaiting' && phase !== 'ended') return;
+    const t = window.setTimeout(() => {
+      const cur = document.activeElement;
+      if (cur && cur !== document.body && document.contains(cur)) return;
+      const target = lessonAreaRef.current?.querySelector<HTMLElement>(
+        '.block-area button:not([disabled]):not(.read-aloud), .block-area input:not([disabled]), .block-area textarea:not([disabled]), .celebrate-card button'
+      );
+      target?.focus({ preventScroll: false });
+    }, 50);
+    return () => clearTimeout(t);
+  }, [phase, turnSeq]);
+
   return (
     <ReadAloudContext.Provider value={readAloud}>
     <div className="app classroom" style={{ ['--accent-h' as any]: hue, ...subjectStyle(subjectKey) }}>
       <div className="topbar">
-        <div className="brand" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>← Leave class</div>
+        <button type="button" className="brand" onClick={() => navigate(kid ? `/learn/${kid.id}` : '/')}>← Leave class</button>
         <div className="spacer" />
         <span className="muted small topbar-title">{lesson?.title}</span>
         {listening && (
@@ -349,7 +376,8 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
         </button>
       </div>
 
-      <div className="container">
+      <div className="container" ref={lessonAreaRef}>
+        <div className="sr-only" role="status" aria-live="polite" aria-atomic="true">{announce}</div>
         <div className="stage compact">
           {kid && <Character character={kid.avatar.character} hue={hue} emotion={emotion} mouthOpen={mouthOpen} speaking={speaking} />}
 
@@ -385,11 +413,13 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
             </div>
           )}
           {(phase === 'speaking' || phase === 'awaiting' || phase === 'ended') && captions && (
+            // Visual bubble only: the full text is announced once via the live
+            // region above, so this isn't a live region (no per-word chatter).
             <div className="speech-bubble">
               {kid && <span className="speech-name">{kid.avatar.character.charAt(0).toUpperCase() + kid.avatar.character.slice(1)}</span>}
               <div>
                 {shown}
-                {phase === 'speaking' && shown.length < captions.length && <span className="caret">▌</span>}
+                {phase === 'speaking' && shown.length < captions.length && <span className="caret" aria-hidden="true">▌</span>}
               </div>
             </div>
           )}
@@ -534,7 +564,7 @@ export function Classroom({ lessonId, kidId, catalogId }: { lessonId?: string; k
 
         {phase === 'ended' && (
           <>
-            <Confetti />
+            {!prefersReducedMotion() && <Confetti />}
             <div className="card pad-lg celebrate-card" style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto' }}>
               <div className="celebrate-emoji">🎉</div>
               <h2>Great work today!</h2>
