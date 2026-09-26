@@ -2,15 +2,15 @@
 
 ## Year overview
 
-Year 3 art is the year of **colour, paint and cloth**. Children keep a sketchbook as an artist's thinking space; master the full colour wheel (primary, secondary, tertiary, complementary and harmonious colours) and use it to paint with control; deepen **tone** so drawn and painted forms look solid; learn to **weave** and design textiles inspired by Ghanaian Kente cloth, Anni Albers and El Anatsui; and create **landscapes with depth** using overlap, size and colour (Year 4 then teaches the vanishing point and linear perspective).
+Year 3 art is the year of **colour, paint and cloth**. Year 2 already built the colour wheel, tints and shades, warm and cool colour and a first tonal scale, and Years 1–2 taught weaving (Kente, Anni Albers, Andean weaving); Year 3 retrieves those briefly and goes further. Children use the sketchbook for **research**; explore colour as artists use it — **optical mixing** (Seurat), **harmonious schemes** (Alma Thomas, Sonia Delaunay), **colour symbolism** (Franz Marc) and **colour across cultures**; paint with control; build **tone** in charcoal, chalk and hatching; learn to **stitch, appliqué and piece story quilts**; and create **landscapes with depth** using overlap, size, mist and colour (Year 4 then teaches the vanishing point and linear perspective).
 
-**Artists from many cultures in every unit:** Leonardo da Vinci and Albrecht Dürer (sketchbooks and observation); Wassily Kandinsky, Sonia Delaunay and Alma Thomas (colour); Paul Cézanne, Georgia O'Keeffe and Claude Monet (painting); Giorgio Morandi and Henry Moore (tone); Kente weavers of Ghana, Anni Albers, El Anatsui and the quilters of Gee's Bend (textiles); Katsushika Hokusai, Henri Rousseau and Albert Namatjira (landscape and depth).
+**Artists from many cultures in every unit:** Margaret Mee (botanical art of the Amazon); Georges Seurat, Alma Thomas, Sonia Delaunay, Franz Marc and Vincent van Gogh (colour); Paul Cézanne, Tarsila do Amaral and Claude Monet (painting); Giorgio Morandi and Henry Moore (tone); Hmong story-cloth makers, the Fon appliqué artists of Abomey (Benin), kantha stitchers of Bangladesh and India, the quilters of Gee's Bend and Faith Ringgold (textiles); Fan Kuan, Henri Rousseau and Albert Namatjira (landscape and depth).
 
 **Assessment is by looking and talking**, never by quizzes. The check in each lesson is a conversation about the work — the child explains a choice, compares two attempts, or talks about an artist's decision. Sketchbooks show progress over time and are reviewed with the child each half-term.
 
-**What this year assumes (from Year 2, ages 7–8):** slow looking and observational drawing, texture through mark-making, a first introduction to tone (light and shadow), and a still-life composition. **What Year 4 (ages 9–10) relies on:** confident colour mixing and paint control, a range of tonal techniques (hatching, cross-hatching, blending), observational sketchbook habits and early depth cues — for one-point perspective, relief printmaking and sculpture.
+**What this year assumes (from Years 1–2):** a sketchbook habit, slow looking, blind contour and texture mark-making (Leonardo, Dürer's *Young Hare*); a 5-step tonal scale and a shaded sphere and still life; the 12-part colour wheel with tertiaries, tints, shades and tones, warm and cool (Klee), Kandinsky and O'Keeffe; relief printing and Hokusai; pinch, coil and slab clay; paper, card-loom and Andean weaving, Kente and Anni Albers, batik-style resist and running stitch. **What Year 4 (ages 9–10) relies on:** confident colour mixing and paint control, a range of tonal techniques (hatching, cross-hatching, blending), observational sketchbook habits and early depth cues — for one-point perspective, relief printmaking and sculpture.
 
-Lessons are **40 minutes**, one a week (combine two into a double session for painting and weaving when timetables allow).
+Lessons are **40 minutes**, one a week (combine two into a double session for painting and stitching when timetables allow).
 
 ## Time budget
 
@@ -22,7 +22,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 | T1 | 2. Colour theory: the full colour wheel | 6 | 6 | 4–9 |
 | T1 | 3. Painting with control | 6 | 6 | 10–15 |
 | T2 | 4. Tone and form: making things look solid | 5 | 5 | 16–20 |
-| T2 | 5. Textiles: weaving and pattern | 6 | 6 | 21–26 |
+| T2 | 5. Textiles: stitch, appliqué and story quilts | 6 | 6 | 21–26 |
 | T3 | 6. Landscapes with depth | 5 | 5 | 27–31 |
 | T3 | 7. Year 3 exhibition | 4 | 4 | 32–35 |
 | **Total** | **7 units** | **35** | **35** | |
@@ -33,37 +33,37 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 
 **Essential question:** How do artists use sketchbooks to look, think and try out ideas?
 
-**Key vocabulary:** sketchbook, observe, study, line, contour, detail, proportion, annotate, viewfinder, sketch, pressure, H and B pencils
+**Key vocabulary:** sketchbook, research, collect, annotate, observe, study, line weight, contour, detail, proportion, measure, botanical, viewfinder, pressure, H and B pencils, charcoal, ink
 
-### Lesson 1 — What is a sketchbook for?
+### Lesson 1 — Sketchbooks as research
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how artists use sketchbooks and set up my own." (UK NC KS2 Art (sketchbooks to record observations and review ideas))
-- **Hook:** "Leonardo da Vinci filled thousands of pages with drawings of hands, horses, machines and water. Why?"
-- **Key activity:** Look at pages from Leonardo's notebooks (and a modern illustrator's sketchbook); discuss that sketchbooks are for trying, not perfect pictures. Children personalise covers and make a first page of quick studies of their own hand in different positions.
-- **Check for understanding:** "What did Leonardo use his sketchbook for, and what will you use yours for?" → to observe, experiment and think on paper — not to make finished pictures; the child names their own uses
-- **Differentiation:** support: a hand-drawing guide with simple shapes (palm as a box) / stretch: annotate drawings with notes, as Leonardo did, explaining what you noticed
-- **Materials:** sketchbooks, HB and 2B pencils, images of Leonardo's notebooks
+- **Objective:** "By the end, I can use my sketchbook to research — collecting, annotating and testing ideas — not only to draw." (UK NC KS2 Art (sketchbooks to record observations and review ideas))
+- **Hook:** "Artists stick tickets, leaves, fabric and colour swatches in their sketchbooks, and scribble notes everywhere. Why?"
+- **Key activity:** Quick retrieval of Year 2's sketchbook habits (look more than you draw; date every page). New: research pages — children look at a published designer's or illustrator's sketchbook pages, then make a first research page on 'colour in our school grounds': collected objects or rubbings, colour swatches mixed to match them, and written notes on what they notice and might make.
+- **Check for understanding:** "Show me your research page. How could the things you collected become an idea for a finished piece?" → points to a collected item or swatch and explains how it could be used (e.g. the colours of a leaf for a painting's palette)
+- **Differentiation:** support: a research-page template with boxes for 'collect', 'colour' and 'notes' / stretch: add a question the research page makes you want to explore next
+- **Materials:** sketchbooks, glue sticks, collecting bags, paint for swatches, examples of artists' sketchbook pages
 - **Joy:** design your own sketchbook cover and 'artist's signature'
 
-### Lesson 2 — Line and pressure
+### Lesson 2 — Line weight: pencil, charcoal and ink
 - **Duration:** 40 min
-- **Objective:** "By the end, I can control pencil pressure and line quality to show contour and detail." (UK NC KS2 Art (improve mastery of drawing))
-- **Hook:** "One pencil, a hundred different lines — how many can you make?"
-- **Key activity:** Warm-up line exercises (light/heavy, thick/thin, broken, continuous); introduce H, HB, 2B, 4B pencils and a pressure scale; contour drawing of a shell or leaf without lifting the pencil, then a careful detailed study.
-- **Check for understanding:** "Show me where you used a light line and where you used a heavy one. Why?" → light lines for guidelines or distant edges; heavy lines for dark edges or shadows — a deliberate choice
-- **Differentiation:** support: larger objects with strong outlines / stretch: create a line key of ten line types and use at least five in one drawing
-- **Materials:** graded pencils, shells, leaves, sketchbooks
-- **Joy:** blind contour drawing of a partner (laughing allowed!)
+- **Objective:** "By the end, I can control line weight with graded pencils, charcoal and ink to show contour, detail and distance." (UK NC KS2 Art (improve mastery of drawing))
+- **Hook:** "One shell, three tools — which one tells the truth about it best?"
+- **Key activity:** Warm-up line exercises with graded pencils (H to 4B), willow charcoal and a dip pen or fine-liner; make a line-weight scale in each medium; draw the same shell or leaf three times, one per medium, using light lines for guidelines and far edges and heavy lines for shadowed edges.
+- **Check for understanding:** "Show me where you used a light line and where you used a heavy one, and say which medium did it best. Why?" → light lines for guidelines or distant edges, heavy lines for dark or near edges — a deliberate choice, with a reason for the medium (e.g. charcoal for soft, bold darks; ink for crisp detail)
+- **Differentiation:** support: larger objects with strong outlines, pencil and charcoal only / stretch: create a line key of ten line types and use at least five in one drawing
+- **Materials:** graded pencils, willow charcoal, fine-liners or dip pens with ink, shells, leaves, sketchbooks, wipes
+- **Joy:** 'one-line relay': each partner adds one continuous line to a shared drawing
 
-### Lesson 3 — Dürer's hare: observational study
+### Lesson 3 — Margaret Mee: drawing plants like a botanist
 - **Duration:** 40 min
-- **Objective:** "By the end, I can make a careful observational study using a viewfinder, proportion and detail." (UK NC KS2 Art (great artists))
-- **Hook:** "Albrecht Dürer painted a hare in 1502 so real you want to stroke it. How did he do it?"
-- **Key activity:** Look closely at Dürer's *Young Hare*: how fur direction and highlights are shown. Children use a card viewfinder to choose a section of a natural object (feather, pinecone, fruit) and make a detailed study, checking proportions by measuring with the pencil.
-- **Check for understanding:** "Compare your first sketch with your final study. What did slow looking help you notice?" → names specific details (e.g. the direction of fur or veins) noticed through slow looking
-- **Differentiation:** support: a larger object and a gridded viewfinder / stretch: show texture direction and a highlight like Dürer
-- **Materials:** card viewfinders, natural objects, pencils, a print of *Young Hare*
-- **Joy:** "Gallery of details": magnified studies displayed with the real objects
+- **Objective:** "By the end, I can make a botanical study with measured proportions, accurate details and colour notes." (UK NC KS2 Art (great artists; drawing))
+- **Hook:** "Margaret Mee made fifteen journeys into the Amazon rainforest to paint plants no one had drawn — one flowers only for a single night."
+- **Key activity:** One-sentence retrieval of Dürer's *Young Hare* (Year 2). New: botanical illustration — look at Margaret Mee's paintings of Amazon plants (links to the Amazon study in Geography); children choose a plant, measure leaf and stem lengths with a ruler, draw it at life size with a viewfinder, add a magnified detail box and colour notes, as botanical artists do.
+- **Check for understanding:** "Compare your first sketch with your final study. What did measuring and slow looking help you get right?" → names specific details (e.g. the leaf was twice as long as the stem; the veins branch alternately) that improved through measuring and looking
+- **Differentiation:** support: a larger leaf and a gridded viewfinder / stretch: add a labelled cross-section or scale bar, as a botanical plate would
+- **Materials:** plants or large leaves, rulers, card viewfinders, pencils, watercolour pencils, images of Margaret Mee's work
+- **Joy:** "Class herbarium": studies displayed like a botanist's collection
 
 **End-of-unit check:** Gallery conversation: the child talks through two sketchbook pages, explaining how they used line, pressure and observation and what they would improve.
 
@@ -73,47 +73,47 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 
 **Essential question:** How do artists mix and choose colours to create mood and meaning?
 
-**Key vocabulary:** primary, secondary, tertiary, colour wheel, complementary, harmonious (analogous), warm, cool, tint, shade, hue, mood, abstract
+**Key vocabulary:** colour wheel, optical mixing, pointillism, harmonious (analogous), complementary, accent, symbolism, contrast, hue, mood, abstract, RGB
 
-### Lesson 4 — Building the colour wheel
+### Lesson 4 — Seurat: mixing colour in the eye
 - **Duration:** 40 min
-- **Objective:** "By the end, I can mix secondary and tertiary colours and arrange them on a colour wheel." (UK NC KS2 Art (colour))
-- **Hook:** "With just three colours — red, yellow and blue — can we make twelve?"
-- **Key activity:** Revise primary → secondary; mix tertiary colours (red-orange, yellow-green…) in equal and unequal amounts with poster paint; paint a 12-part colour wheel. Teach palette management (clean brush, small amounts, add dark to light).
-- **Check for understanding:** "How did you make yellow-green, and what happened when you added more blue?" → mixed yellow with a little blue (or with green); more blue shifts it towards green/blue-green
-- **Differentiation:** support: a pre-drawn wheel template with mixing arrows / stretch: mix three different greens and explain the difference
-- **Materials:** primary poster paints (red, yellow, blue, white), palettes, brushes, water pots, wheel templates
-- **Joy:** "Mixing lab" with lab-coat aprons
+- **Objective:** "By the end, I can explain optical colour mixing and paint with small dots of colour so they mix in the viewer's eye." (UK NC KS2 Art (colour; great artists))
+- **Hook:** "Stand close to Georges Seurat's *A Sunday Afternoon on the Island of La Grande Jatte*: dots. Step back: a sunny afternoon. How?"
+- **Key activity:** Two-minute retrieval of Year 2's colour wheel (primary, secondary, tertiary). New: optical mixing — test pairs of dots (blue and yellow, red and yellow) from across the room; children paint a small motif using only dots of unmixed colours with cotton buds, then step back to see which colours appear.
+- **Check for understanding:** "Your grass has only blue and yellow dots, yet it looks green from across the room. Why?" → the dots are too small to see separately from far away, so the eye blends them into green — the colour is mixed in the eye, not on the palette
+- **Differentiation:** support: a simple motif outline and two dot colours / stretch: use complementary dots side by side in the shadows and describe the effect
+- **Materials:** poster paints (primaries plus white), cotton buds, small card, a Seurat print
+- **Joy:** "Step back!" reveal from across the hall
 
-### Lesson 5 — Tints and shades
+### Lesson 5 — Harmonious colour: Alma Thomas and Sonia Delaunay
 - **Duration:** 40 min
-- **Objective:** "By the end, I can create tints and shades of one colour and use them to show light and dark." (UK NC KS2 Art)
-- **Hook:** "How many blues are hiding inside one blue?"
-- **Key activity:** Make a tint-and-shade strip (add white stepwise; add a little black or its complementary colour stepwise); paint a simple object in one hue using tints and shades.
-- **Check for understanding:** "Why do we add dark to light in small amounts, not light to dark?" → a tiny bit of dark changes light paint a lot; adding light to dark wastes paint because you need so much
-- **Differentiation:** support: strips pre-divided into boxes / stretch: make a shade by adding the complementary colour instead of black and compare
-- **Materials:** paints, palettes, strips
-- **Joy:** monochrome 'one-colour world' painting
+- **Objective:** "By the end, I can plan and paint a harmonious (analogous) colour scheme and explain why it feels calm or lively." (UK NC KS2 Art (colour; great artists))
+- **Hook:** "Alma Thomas painted rows of colour dabs like mosaics; Sonia Delaunay painted rings of colour that seem to spin. Which colours did each choose to put side by side?"
+- **Key activity:** Find neighbouring colours on the wheel (e.g. blue, blue-green, green) — a harmonious scheme; look at Alma Thomas's dab paintings and Sonia Delaunay's circles; children paint one small design twice: once in a harmonious scheme and once with one complementary 'accent'.
+- **Check for understanding:** "Why does your harmonious version feel calmer, and what did the single accent colour do?" → neighbouring colours blend gently with no strong clashes; the accent colour jumps out and draws the eye to one spot
+- **Differentiation:** support: a colour wheel with harmonious groups shaded / stretch: explain how Delaunay uses both harmonious and complementary colours in one painting
+- **Materials:** paints, colour wheels, prints of Alma Thomas and Sonia Delaunay
+- **Joy:** "Colour families" wall of harmonious designs
 
-### Lesson 6 — Warm, cool and mood
+### Lesson 6 — Franz Marc: colours with meanings
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use warm and cool colours to create mood." (UK NC KS2 Art)
-- **Hook:** "Paint a feeling: angry, calm, excited, sad. What colours come to mind?"
-- **Key activity:** Look at a warm painting and a cool painting; discuss mood; children paint the same simple scene twice, once warm and once cool.
-- **Check for understanding:** "How does changing the colours change the mood of the same scene?" → warm colours make it feel energetic or hot; cool colours make it feel calm or cold
-- **Differentiation:** support: limited palettes given / stretch: create a scene that moves from warm to cool to show time passing
-- **Materials:** paints, images
-- **Joy:** mood-swap display
+- **Objective:** "By the end, I can choose colours for their meaning rather than their real-life colour, and explain my choices." (UK NC KS2 Art (great artists))
+- **Hook:** "Franz Marc painted blue horses and a yellow cow. Was he colour-blind — or was he telling us something?"
+- **Key activity:** Retrieve warm and cool colours (Year 2) in one minute. New: colour symbolism — Marc gave colours meanings (for him, blue was strong and spiritual, yellow gentle and cheerful, red heavy and violent). Children choose an animal and paint it in colours that show its character, then write one line explaining each colour.
+- **Check for understanding:** "Your animal isn't its real colour. What does your colour say about it, and how would a viewer know?" → names the meaning chosen (e.g. a purple, calm owl) and how shape, pose and title help the viewer read it
+- **Differentiation:** support: a colour-meaning card to choose from / stretch: compare Marc's meanings with your own and explain one difference
+- **Materials:** paints or oil pastels, prints of *Blue Horse I* and *The Yellow Cow*
+- **Joy:** "Impossible zoo" gallery
 
-### Lesson 7 — Kandinsky, Delaunay and Alma Thomas
+### Lesson 7 — Colours across cultures
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explore how abstract artists use colour and shape to express feeling and music." (UK NC KS2 Art (great artists, architects and designers in history))
-- **Hook:** "Kandinsky said he could hear colours. What would yellow sound like — a trumpet or a cello?"
-- **Key activity:** Look at Kandinsky's *Squares with Concentric Circles*, Sonia Delaunay's circular colour paintings and Alma Thomas's mosaic-like stripes of colour. Listen to two contrasting pieces of music; children paint an abstract response to one, choosing colour relationships deliberately (warm/cool, complementary, harmonious).
-- **Check for understanding:** "Which artist's approach did you borrow, and how do your colours match the music?" → names an artist and explains a colour choice linked to the music (e.g. bright complementary circles for a fast, loud piece)
-- **Differentiation:** support: a choice of two templates (concentric circles or stripes) / stretch: combine two artists' approaches and explain why
-- **Materials:** paints, pastels, prints of the three artists, music
-- **Joy:** "Painting to music" with the lights low
+- **Objective:** "By the end, I can explain that colours carry different meanings in different cultures and use this in a design." (UK NC KS2 Art (art from different cultures))
+- **Hook:** "At a wedding in one country the bride wears white; in another she wears red. Why?"
+- **Key activity:** Explore examples: red for luck and celebration in Chinese traditions; white for mourning in several East and South Asian traditions and black in many European ones; saffron and marigold colours at Hindu festivals; the colours of Holi, Día de los Muertos and Diwali. Children (including families' own traditions) design a celebration card or banner and explain the colour meanings for their chosen tradition.
+- **Check for understanding:** "Why might the same colour send a different message to people in different places? Give an example." → meanings are learned from tradition, not fixed; e.g. white can mean celebration in one tradition and mourning in another
+- **Differentiation:** support: a picture bank of festival colours / stretch: design one card for two traditions and explain how you avoided a colour that could send the wrong message
+- **Materials:** paints, papers, images of festivals and ceremonies
+- **Joy:** "Colours of our families" display
 
 ### Lesson 8 — Complementary colours that pop
 - **Duration:** 40 min
@@ -135,7 +135,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 - **Materials:** tablets with a drawing app, printed outlines
 - **Joy:** digital 'colour-swap' gallery on the class screen
 
-**End-of-unit check:** Gallery conversation: the child presents their colour wheel and one colour painting, explaining how they mixed tertiary colours, tints and shades, and why they chose complementary or harmonious colours.
+**End-of-unit check:** Gallery conversation: the child presents two colour pieces, explaining optical mixing, a harmonious scheme with an accent, and why they chose colours for meaning.
 
 ---
 
@@ -175,15 +175,15 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 - **Materials:** fruit, poster or acrylic paint, brushes, a print of a Cézanne still life
 - **Joy:** eat the still life afterwards
 
-### Lesson 13 — Georgia O'Keeffe: zooming in
+### Lesson 13 — Tarsila do Amaral: smooth colour and bold shapes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can paint a close-up of a flower or natural object that fills the page." (UK NC KS2 Art (great artists))
-- **Hook:** "Georgia O'Keeffe painted flowers so big that people had to stop and look. What happens when you zoom in?"
-- **Key activity:** Look at O'Keeffe's large flower paintings; use a viewfinder to crop a real flower or leaf; draw it so it touches the edges of the page; paint with blended colour and smooth transitions.
-- **Check for understanding:** "How does filling the page change how we see the flower?" → we notice shapes, colours and details we'd normally miss; it becomes almost abstract
-- **Differentiation:** support: a large, simple flower and a pre-drawn outline / stretch: blend two colours smoothly across a petal and explain the technique
-- **Materials:** real flowers, viewfinders, paint, a print of an O'Keeffe flower
-- **Joy:** "Giant garden" wall display
+- **Objective:** "By the end, I can paint large areas of smooth, even colour and simplify a landscape into bold shapes." (UK NC KS2 Art (great artists; painting technique))
+- **Hook:** "Tarsila do Amaral painted Brazil with round hills, giant cacti and bright flat colour. How do you paint a big shape with no streaks?"
+- **Key activity:** Look at Tarsila do Amaral's Brazilian landscapes and *Abaporu* (1928); discuss simplified, rounded shapes and flat colour (links to South America in Geography). Children simplify a landscape photo into five or six bold shapes, mix enough of each colour first, and paint each shape with a loaded brush in even strokes, blending one area from light to dark.
+- **Check for understanding:** "How did you get smooth colour in a large shape, and why do Tarsila's simple shapes make her landscapes feel bold?" → mixed enough paint first and used a loaded, flat brush with strokes in one direction; the simplified shapes and strong flat colours make the picture clear and striking from far away
+- **Differentiation:** support: a pre-simplified outline to paint / stretch: blend two colours smoothly across one shape and explain the technique
+- **Materials:** poster or acrylic paint, flat brushes, landscape photos, prints of Tarsila do Amaral's work
+- **Joy:** "Bold Brazil" wall display
 
 ### Lesson 14 — Monet's water lilies: light and reflection
 - **Duration:** 40 min
@@ -213,23 +213,23 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 
 **Essential question:** How do artists use light and shadow to make flat drawings look three-dimensional?
 
-**Key vocabulary:** tone, tonal scale, light source, highlight, mid-tone, shadow, cast shadow, form, hatching, cross-hatching, stippling, blending, smudge, monochrome, contrast
+**Key vocabulary:** tone, tonal scale, toned paper, charcoal, chalk, light source, highlight, mid-tone, shadow, cast shadow, reflected light, form, hatching, cross-hatching, stippling, blending, monochrome, contrast
 
-### Lesson 16 — The tonal scale
+### Lesson 16 — Charcoal and chalk on toned paper
 - **Duration:** 40 min
-- **Objective:** "By the end, I can create a smooth tonal scale using pencil pressure and different pencil grades." (UK NC KS2 Art (drawing: tone))
-- **Hook:** "How many greys can one pencil make? Ten? Twenty?"
-- **Key activity:** Make a 7-step tonal scale with pressure only, then with graded pencils (2H to 6B); blend with a paper stump or tissue. Squint at the scale to check the steps are even.
-- **Check for understanding:** "Which step in your scale is uneven, and how would you fix it?" → points to a jump in darkness and explains adding or reducing pressure or layering
-- **Differentiation:** support: a 5-step scale with boxes outlined / stretch: make a scale in one colour pencil and one in charcoal and compare
-- **Materials:** graded pencils, blending stumps, tissues, scale templates
-- **Joy:** "Squint test" to check scales
+- **Objective:** "By the end, I can use charcoal for shadows and white chalk for highlights on mid-grey paper to make an object look solid." (UK NC KS2 Art (drawing: tone))
+- **Hook:** "On grey paper, you can draw light as well as dark. What changes?"
+- **Key activity:** Two-minute retrieval of Year 2's 5-step pencil scale. New: a charcoal-and-chalk scale on grey or brown paper, with the paper as the mid-tone; blend with a finger or stump; draw a white mug or egg under a lamp, adding chalk only where light hits and charcoal only in shadows.
+- **Check for understanding:** "Why is it quicker to show a highlight on grey paper than on white paper?" → the paper is already the middle tone, so you just add white chalk for the light and charcoal for the dark, instead of shading everything else to make the white stand out
+- **Differentiation:** support: a 5-step scale with boxes outlined / stretch: use three tones of paper and explain which works best for a pale object
+- **Materials:** willow charcoal, white chalk or pastel, mid-grey or brown sugar paper, blending stumps, a lamp, wipes. Safety: no spray fixative by children; wash hands afterwards
+- **Joy:** "Glowing egg" challenge
 
 ### Lesson 17 — One light, three forms
 - **Duration:** 40 min
 - **Objective:** "By the end, I can shade a sphere, cube and cylinder lit from one direction, showing highlight, mid-tone, shadow and cast shadow." (UK NC KS2 Art)
 - **Hook:** "Switch off the lights and shine a torch on a ball. Where is it brightest? Where is it darkest?"
-- **Key activity:** Observe real objects lit by a lamp; identify highlight, mid-tone, core shadow and cast shadow; shade a sphere, cube and cylinder from observation with the light from the same side.
+- **Key activity:** Retrieve Year 2's shaded sphere; add the cube and cylinder. Observe real objects lit by a lamp; identify highlight, mid-tone, core shadow and cast shadow; shade a sphere, cube and cylinder from observation with the light from the same side.
 - **Check for understanding:** "Where is the highlight on your sphere, and why is the cast shadow on the opposite side?" → the highlight faces the light source; the object blocks light so its shadow falls away from the light
 - **Differentiation:** support: outlines provided with the light source drawn as an arrow / stretch: add a reflected light at the shadow's edge and explain it
 - **Materials:** balls, boxes, tubes, desk lamp or torch, pencils
@@ -238,7 +238,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 ### Lesson 18 — Hatching and cross-hatching: Henry Moore
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use hatching, cross-hatching and stippling to build tone." (UK NC KS2 Art (great artists))
-- **Hook:** "Henry Moore drew people sheltering in London's Underground during the Second World War using criss-cross lines. How can lines make shadows?"
+- **Hook:** "Henry Moore drew people sheltering in London's Underground during the Second World War, building dark shadows from layers of criss-cross lines and wax crayon. How can lines make shadows?"
 - **Key activity:** Look at Moore's shelter drawings and a detail of an engraving; practise hatching, cross-hatching and stippling scales; use them to shade a shoe or a bag from observation.
 - **Check for understanding:** "How did you make the darkest area darker with hatching?" → added more layers of lines at different angles, closer together
 - **Differentiation:** support: a practice grid with line spacing guides / stretch: follow the form with curved hatching lines
@@ -269,73 +269,73 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 
 ---
 
-## Unit 5 — Textiles: weaving and pattern
+## Unit 5 — Textiles: stitch, appliqué and story quilts
 
-**Essential question:** How do weavers around the world turn threads into patterns that carry meaning?
+**Essential question:** How do makers around the world use needle and thread to tell stories in cloth?
 
-**Key vocabulary:** textile, weave, warp, weft, loom, over-under, pattern, repeat, symmetry, strip, Kente, symbol, fibre, yarn, texture, recycled, quilt
+**Key vocabulary:** textile, fabric, needle, thread, running stitch, backstitch, cross stitch, sampler, appliqué, motif, kantha, layer, quilt, patch, piecing, story cloth, recycled
 
-### Lesson 21 — Kente cloth: patterns with meaning
+### Lesson 21 — Story cloths around the world
 - **Duration:** 40 min
-- **Objective:** "By the end, I can describe how Kente cloth is made and what its colours and patterns can mean." (UK NC KS2 Art (great artists and designers; different cultures))
-- **Hook:** "In Ghana, a cloth can tell a story, show respect or celebrate a new king. How can cloth 'speak'?"
-- **Key activity:** Explore photos and (if possible) a real piece of Kente from the Asante and Ewe peoples of Ghana: woven in narrow strips on hand looms and sewn together; colours often carry meanings (e.g. gold for wealth and status, green for growth, blue for peace — meanings vary by tradition). Link to Ghana in geography. Children design a Kente-inspired strip on squared paper.
-- **Check for understanding:** "How is a large Kente cloth made from narrow strips, and why might that be?" → strips are woven on narrow looms and sewn edge to edge; narrow looms are portable and the strips can be arranged into bold patterns
-- **Differentiation:** support: squared paper with a strip template / stretch: design a strip whose colours carry a personal meaning and explain it
-- **Materials:** Kente photos or sample, squared paper, coloured pencils, map of Ghana
-- **Joy:** "Meaningful colours" strip design
+- **Objective:** "By the end, I can describe how makers in different cultures tell stories in stitched and appliquéd cloth." (UK NC KS2 Art (great designers; different cultures))
+- **Hook:** "A family's journey, a king's victories, a dream of flying over a city — all told in fabric. How can cloth tell a story without words?"
+- **Key activity:** One-minute retrieval of Years 1–2 weaving (warp and weft, Kente, Andean weaving) — weaving makes cloth; today we decorate and tell stories *on* cloth. Explore Hmong story cloths (embroidered by Hmong families, many made in refugee camps from the late 1970s), Fon appliqué banners from Abomey (Benin) showing the symbols of kings, and Faith Ringgold's story quilt *Tar Beach*. Children sketch one scene from their own life as a simple story-cloth panel.
+- **Check for understanding:** "How does this story cloth tell its story without words? Point to two clues." → e.g. figures in sequence from left to right, symbols (a lion for a king), size to show importance, colour to show mood
+- **Differentiation:** support: a three-box storyboard to plan a panel / stretch: compare how two traditions tell a story and explain one difference
+- **Materials:** images of Hmong story cloths, Fon appliqué and Faith Ringgold's quilts, sketchbooks, map
+- **Joy:** "Story detectives" — read a cloth's story aloud
 
-### Lesson 22 — Paper weaving: warp and weft
+### Lesson 22 — Stitches: running stitch, backstitch and cross stitch
 - **Duration:** 40 min
-- **Objective:** "By the end, I can weave paper strips using an over-under pattern and vary it." (UK NC KS2 Art (textiles))
-- **Hook:** "Over, under, over, under — can you make a pattern that changes?"
-- **Key activity:** Teach warp (fixed) and weft (woven through); weave paper strips in plain weave, then change the rhythm (over two, under one) to make diagonal patterns.
-- **Check for understanding:** "What's the difference between warp and weft?" → warp strips are fixed on the loom; weft strips are woven over and under them
-- **Differentiation:** support: pre-cut paper looms with numbered warps / stretch: plan a pattern that makes a diagonal and explain the rhythm
-- **Materials:** coloured paper, pre-cut looms, glue
-- **Joy:** paper-weaving 'quilt' wall
+- **Objective:** "By the end, I can sew running stitch, backstitch and cross stitch neatly and choose between them." (UK NC KS2 Art (textiles techniques))
+- **Hook:** "Three stitches, three different lines — dashed, solid and starry. Which would you use for an outline?"
+- **Key activity:** Retrieve Year 1's running stitch; learn to thread a needle, knot the thread and finish off; stitch a sampler on binca or aida fabric with rows of running stitch, backstitch and cross stitch; use them to outline a simple shape.
+- **Check for understanding:** "When would you choose backstitch instead of running stitch?" → when you want a strong, solid line (e.g. an outline); running stitch is quicker and makes a dashed line
+- **Differentiation:** support: large-hole binca, thick thread and pre-threaded needles / stretch: add a fourth decorative stitch (e.g. chain stitch) and use it in a pattern
+- **Materials:** binca or aida fabric, embroidery thread, large blunt needles, embroidery hoops, needle-count cards. Safety: needle-counting routine at the start and end
+- **Joy:** "Stitch sampler" — the first page of a class stitch book
 
-### Lesson 23 — Card-loom weaving with yarn
+### Lesson 23 — Appliqué: Fon banners of Benin
 - **Duration:** 40 min
-- **Objective:** "By the end, I can weave with yarn on a card loom, keeping tension even." (UK NC KS2 Art (textiles))
-- **Hook:** "From paper to real thread — now it gets soft!"
-- **Key activity:** Thread a card loom; weave with yarn, beating down each row; change colours; tie off.
-- **Check for understanding:** "Why does your weaving pull in at the sides, and how can you stop it?" → the weft was pulled too tight; leave a small arc in each row before pressing it down
-- **Differentiation:** support: larger looms and thicker yarn / stretch: add texture with ribbons, fabric strips or leaves
-- **Materials:** card looms, yarn, plastic needles, ribbons
-- **Joy:** "Tiny tapestry" exhibition
+- **Objective:** "By the end, I can cut fabric shapes and stitch them onto a background to make an appliqué motif." (UK NC KS2 Art (textiles; different cultures))
+- **Hook:** "In Abomey, the royal appliqué makers stitched symbols for each king — a lion, a shark, a buffalo. What symbol would stand for you?"
+- **Key activity:** Look at Fon appliqué banners and how each shape is cut from bright cotton and stitched onto a plain background; design a personal symbol with bold, simple shapes; cut from felt or fabric using a paper template; pin and stitch it on with running stitch or backstitch.
+- **Check for understanding:** "Why do appliqué makers use big, simple shapes rather than tiny details?" → fabric frays and is hard to cut in tiny pieces; bold shapes are easier to stitch and can be read from far away
+- **Differentiation:** support: felt (which doesn't fray) and pre-drawn templates / stretch: layer two shapes (appliqué on appliqué) and add stitched detail
+- **Materials:** felt and cotton scraps, fabric scissors, paper templates, pins, needles, thread, background squares
+- **Joy:** "Symbol banner" of the whole class
 
-### Lesson 24 — Anni Albers: designing with lines
+### Lesson 24 — Kantha: patterns in running stitch
 - **Duration:** 40 min
-- **Objective:** "By the end, I can design a woven pattern inspired by Anni Albers using repeat and contrast." (UK NC KS2 Art (great designers))
-- **Hook:** "Anni Albers turned weaving into art hung in museums. What did she see in simple lines?"
-- **Key activity:** Look at Albers's geometric wall hangings and her study of ancient Andean textiles; design a pattern on squared paper using repeat, contrast and rhythm; weave a section.
-- **Check for understanding:** "What rules did you use to make your pattern repeat?" → names the repeating unit and how it shifts
-- **Differentiation:** support: a repeat template / stretch: break the repeat once on purpose and explain the effect
-- **Materials:** squared paper, Albers images, looms
-- **Joy:** pattern swap: weave a partner's design
+- **Objective:** "By the end, I can use rows of running stitch to join layers of fabric and create a kantha-inspired pattern." (UK NC KS2 Art (textiles; different cultures); sustainability)
+- **Hook:** "In Bangladesh and eastern India, old saris are layered and stitched into new quilts with thousands of tiny running stitches. Why re-use old cloth?"
+- **Key activity:** Look at kantha quilts and embroidered kantha scenes; discuss re-using worn cloth (sustainability) and how rows of stitches hold layers together and make ripples of texture. Children layer two scraps of old fabric and stitch a pattern of running-stitch rows, spirals or a simple motif.
+- **Check for understanding:** "What two jobs do the running stitches do in a kantha quilt?" → they hold the layers of old cloth together and they make the decorative pattern and texture
+- **Differentiation:** support: a pattern drawn on the fabric in washable pen to follow / stretch: plan a motif that uses the stitch rows to show shading or movement
+- **Materials:** old cotton fabric or clean scraps (from home, with permission), needles, thread, washable fabric pens
+- **Joy:** "Second life" display: before and after fabric
 
-### Lesson 25 — El Anatsui: cloth from bottle tops
+### Lesson 25 — Piecing a patch: Gee's Bend and Faith Ringgold
 - **Duration:** 40 min
-- **Objective:** "By the end, I can create a collaborative 'cloth' from recycled materials inspired by El Anatsui." (UK NC KS2 Art (great artists); sustainability)
-- **Hook:** "A Ghanaian artist made shimmering 'cloths' as big as a building from thousands of bottle caps. How?"
-- **Key activity:** Look at El Anatsui's metal 'cloths' made from flattened bottle-top wrappers joined with copper wire; discuss the link to Kente; groups join recycled lids, card and foil pieces with wire twists or paper fasteners into panels and link panels into one class 'cloth'.
-- **Check for understanding:** "How is El Anatsui's work connected to Kente, and why use recycled materials?" → it echoes Kente's patterns and strip structure; recycled materials give new life to waste and tell a story about consumption
-- **Differentiation:** support: pre-punched pieces and paper fasteners / stretch: plan the colour pattern of the whole class piece
-- **Materials:** bottle caps/lids, foil, card, paper fasteners, pliers (adult)
-- **Joy:** class 'cloth' hung in the entrance hall
+- **Objective:** "By the end, I can plan and piece a quilt patch from shapes and add a stitched or appliquéd story detail." (UK NC KS2 Art (great artists; textiles))
+- **Hook:** "The quilters of Gee's Bend, Alabama, made bold patterns from worn work clothes. Faith Ringgold painted stories onto quilts. Can we do both?"
+- **Key activity:** Look at Gee's Bend quilts (improvised blocks and strips) and Faith Ringgold's story quilts; children plan a square patch on paper, then cut and glue or stitch fabric pieces for the background and add one appliquéd or stitched detail from their Lesson 21 story sketch.
+- **Check for understanding:** "What connects the Gee's Bend quilts and Faith Ringgold's story quilts, and how does your patch show it?" → both build pictures and patterns from pieces of fabric and carry family and community stories; the child points to how their patch does the same
+- **Differentiation:** support: pre-cut strips and a paper plan template / stretch: plan how your patch will sit next to a partner's so the patterns connect
+- **Materials:** fabric scraps, backing squares, fabric glue, needles and thread, paper plans, images of the quilts
+- **Joy:** laying out everyone's patches for the first time
 
-### Lesson 26 — Textiles review: gallery conversation
+### Lesson 26 — Class story quilt: gallery conversation
 - **Duration:** 40 min
-- **Objective:** "By the end, I can evaluate my textile work and compare textile traditions." (UK NC KS2 Art (evaluate))
-- **Hook:** "The Gee's Bend quilters of Alabama, Kente weavers, Anni Albers and El Anatsui — what connects them?"
-- **Key activity:** Look at a Gee's Bend quilt; children compare four textile traditions and talk about their own weaving: technique, pattern, meaning.
-- **Check for understanding:** "What connects Kente and a Gee's Bend quilt, and how does your weaving show pattern?" → both build bold patterns from strips or pieces and carry community meaning; child explains their own pattern
-- **Differentiation:** support: talk prompts / stretch: write a short artist's statement
-- **Materials:** weavings, images
-- **Joy:** gallery walk
+- **Objective:** "By the end, I can join my patch to a class story quilt and explain my techniques and influences." (UK NC KS2 Art (evaluate))
+- **Hook:** "Thirty stories, one quilt. What does it say about our class?"
+- **Key activity:** Join the patches (stitched or glued to a backing cloth); each child explains their patch in a small group — technique (stitch, appliqué, piecing), the story it tells and the tradition that inspired it; hang the quilt in the entrance hall.
+- **Check for understanding:** "Which stitch or technique did you use, why that one, and which tradition inspired you?" → names a technique with a reason (e.g. backstitch for a strong outline) and a tradition (Fon appliqué, kantha, Gee's Bend, Faith Ringgold)
+- **Differentiation:** support: talk prompts / stretch: write a short artist's statement for the whole quilt
+- **Materials:** patches, backing cloth, needles, fabric glue
+- **Joy:** the class quilt hung for families to see
 
-**End-of-unit check:** Gallery conversation: the child explains warp and weft using their own weaving, describes the meaning in Kente patterns, and compares two textile artists or traditions.
+**End-of-unit check:** Gallery conversation: the child demonstrates three stitches, explains appliqué and why kantha stitches do two jobs, and compares two story-cloth traditions from different continents.
 
 ---
 
@@ -343,7 +343,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 
 **Essential question:** How do artists make a flat picture look deep, as if we could walk into it?
 
-**Key vocabulary:** landscape, foreground, middle ground, background, overlap, scale, placement, atmospheric perspective, horizon, composition, layer, woodblock print
+**Key vocabulary:** landscape, foreground, middle ground, background, overlap, scale, placement, atmospheric perspective, mist, ink wash, horizon, composition, layer
 
 ### Lesson 27 — Depth tricks: overlap, size and position
 - **Duration:** 40 min
@@ -355,15 +355,15 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 - **Materials:** cameras/tablets, pencils, paper
 - **Joy:** playground 'giant and tiny' photo trick
 
-### Lesson 28 — Hokusai's Great Wave: foreground and background
+### Lesson 28 — Mountains in mist: Chinese landscape painting
 - **Duration:** 40 min
-- **Objective:** "By the end, I can analyse how Hokusai uses scale and overlap to create drama and depth." (UK NC KS2 Art (great artists))
-- **Hook:** "In Hokusai's print, a giant wave towers over boats — and Mount Fuji looks tiny. Why?"
-- **Key activity:** Look closely at *The Great Wave off Kanagawa*: the huge foreground wave, the small mountain in the distance, the boats caught between; discuss woodblock printing. Children draw a composition with a dramatic foreground object and a small distant landmark.
-- **Check for understanding:** "How does Hokusai make Mount Fuji look far away, and why is that dramatic?" → it is small and low in the picture, framed by the huge wave in front; the contrast makes the wave look enormous and dangerous
-- **Differentiation:** support: a compositional template with three bands / stretch: explain why Hokusai might have placed Fuji inside the curve of the wave
-- **Materials:** print of *The Great Wave*, pencils, paper
-- **Joy:** make a simple polystyrene-tile print of a wave (preview of Year 4 printmaking)
+- **Objective:** "By the end, I can show depth with layers, mist and fading tone in an ink landscape, as Chinese landscape painters did." (UK NC KS2 Art (great artists; different cultures))
+- **Hook:** "About a thousand years ago, Fan Kuan painted a mountain so tall the travellers at the bottom look like ants. How does it look so far away with no vanishing point?"
+- **Key activity:** Look closely at Fan Kuan's *Travellers among Mountains and Streams* and other *shan shui* ('mountain-water') paintings: stacked layers, bands of empty mist, distant peaks paler and less detailed. Children paint three layers with ink or black watercolour — darkest and most detailed in front, paler and softer behind — leaving white bands of 'mist' between them.
+- **Check for understanding:** "How does the artist make the mountain look far away without using a vanishing point?" → the layers are separated by bands of mist; distant shapes are paler with less detail; tiny figures show how huge the mountain is
+- **Differentiation:** support: a template with three layers pencilled in / stretch: add tiny travellers or a bridge to show scale and explain the effect
+- **Materials:** black ink or watercolour, water pots, soft round brushes, long paper, images of Chinese landscape paintings
+- **Joy:** "Misty mountain" scrolls hung side by side
 
 ### Lesson 29 — Rousseau's jungle: layering plants
 - **Duration:** 40 min
@@ -379,7 +379,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 - **Duration:** 40 min
 - **Objective:** "By the end, I can use atmospheric perspective — paler, bluer colours in the distance — in a watercolour landscape." (UK NC KS2 Art (great artists))
 - **Hook:** "Why do faraway hills look blue and pale?"
-- **Key activity:** Look at Albert Namatjira's watercolours of the Central Australian landscape (MacDonnell Ranges); notice paler, cooler distant hills and warmer, stronger foregrounds. Children paint a three-layer landscape in watercolour: pale distant hills, mid-tone middle ground, strong foreground.
+- **Key activity:** Look at the watercolours of Albert Namatjira, a Western Arrernte artist, of the Central Australian landscape (MacDonnell Ranges); notice paler, cooler distant hills and warmer, stronger foregrounds. Children paint a three-layer landscape in watercolour: pale distant hills, mid-tone middle ground, strong foreground.
 - **Check for understanding:** "How did you use colour to show distance?" → distant hills paler and bluer, nearer ground warmer and stronger
 - **Differentiation:** support: three pre-drawn bands with suggested colours / stretch: add a detailed foreground tree like Namatjira's ghost gums
 - **Materials:** watercolours, paper, Namatjira images
@@ -395,7 +395,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 - **Materials:** paints, collage materials, sketchbooks
 - **Joy:** 'window into another world' frames
 
-**End-of-unit check:** Gallery conversation: the child explains three depth techniques in their landscape (overlap, size and placement, atmospheric colour) and names an artist who used them.
+**End-of-unit check:** Gallery conversation: the child explains three depth techniques in their landscape (overlap, size and placement, atmospheric colour) and names an artist who used them (e.g. Fan Kuan, Rousseau or Namatjira).
 
 ---
 
@@ -431,7 +431,7 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 - **Hook:** "How do real galleries decide what goes next to what?"
 - **Key activity:** Look at photos of real gallery rooms; groups choose a theme for their wall (colour, paint, tone, textiles or depth), select pieces, plan a layout on paper at small scale, then mount work at eye height with labels and a wall title.
 - **Check for understanding:** "Why did your group put these pieces together, and what will visitors notice?" → explains the shared theme or technique and how the layout guides the eye
-- **Differentiation:** support: a layout plan template with rectangles to arrange / stretch: design an interactive visitor station (e.g. 'mix your own tertiary colour')
+- **Differentiation:** support: a layout plan template with rectangles to arrange / stretch: design an interactive visitor station (e.g. 'step back and watch Seurat's dots mix')
 - **Materials:** mounting card, tape, labels, spirit level
 - **Joy:** installation day with 'curator' lanyards
 
@@ -452,22 +452,21 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 ## Books & resources
 
 - ***The Story of Paintings* by Mick Manning and Brita Granström** — an illustrated journey through art history that introduces many of this year's artists in child-friendly language.
-- ***13 Artists Children Should Know* (Prestel series)** — clear, well-illustrated introductions to artists including Monet, Cézanne and Kandinsky.
-- ***The Noisy Paint Box* by Barb Rosenstock, illustrated by Mary GrandPré** — the story of Kandinsky 'hearing' colours; the perfect opening for the abstract colour lesson.
-- ***Through Georgia's Eyes* by Rachel Rodríguez** — a picture-book biography of Georgia O'Keeffe.
+- ***13 Artists Children Should Know* (Prestel series)** — clear, well-illustrated introductions to famous artists; use alongside the museum images for the painters on this year's list.
+- ***Tar Beach* by Faith Ringgold** — a Caldecott Honor picture book based on her own story quilt; the perfect companion to the story-quilt unit.
 - ***The Fantastic Jungles of Henri Rousseau* by Michelle Markel** — how a self-taught artist painted jungles he never visited.
 - ***Katie and the Waterlily Pond* by James Mayhew** — a gentle way into Monet (Katie series).
 - **Museum collections online** — the British Museum, the Metropolitan Museum of Art, the Art Institute of Chicago and the National Gallery of Australia (for Namatjira) offer free high-resolution images to project and zoom into.
-- **Materials (class kit):** sketchbooks; graphite pencils (2H–6B), blending stumps, fine-liners, charcoal; ready-mix poster paint in primaries plus white and black; watercolour sets and watercolour paper; round and flat brushes; card looms, yarn, ribbons, plastic needles; recycled lids and foil; viewfinders; a desk lamp for tonal studies.
+- **Materials (class kit):** sketchbooks; graphite pencils (2H–6B), blending stumps, fine-liners, willow charcoal, white chalk, toned paper, black ink; ready-mix poster paint in primaries plus white and black; watercolour sets and watercolour paper; round and flat brushes; binca and aida fabric, felt and cotton scraps, embroidery thread, blunt needles and hoops, fabric glue; viewfinders; a desk lamp for tonal studies.
 
 ## End-of-year mastery checks
 
 Assessed through the sketchbook and conversation, not tests:
-1. **Observational drawing** — draws from observation with controlled line and careful proportion, using a viewfinder. *See it:* Dürer-inspired study and later sketchbook pages.
-2. **Colour** — mixes secondary and tertiary colours, tints and shades, and chooses complementary or harmonious schemes deliberately. *See it:* colour wheel and mood paintings, explained aloud.
+1. **Observational drawing** — draws from observation with controlled line weight in several media and measured proportion. *See it:* the botanical study and research pages.
+2. **Colour** — uses optical mixing, harmonious and complementary schemes and colour symbolism deliberately, and knows colour meanings differ between cultures. *See it:* the Seurat, Alma Thomas and Franz Marc pieces, explained aloud.
 3. **Painting control** — chooses brushes and techniques (washes, layering, blending, broken strokes) for effect. *See it:* still life and water-lily paintings.
-4. **Tone and form** — uses a tonal scale, hatching and blending to show highlight, shadow and cast shadow. *See it:* shaded forms and the Morandi still life.
-5. **Textiles** — weaves with even tension and designs a repeating pattern, explaining warp and weft. *See it:* card-loom weaving.
+4. **Tone and form** — uses charcoal and chalk on toned paper, hatching and blending to show highlight, shadow and cast shadow. *See it:* shaded forms and the Morandi still life.
+5. **Textiles** — sews running stitch, backstitch and cross stitch, appliqués a motif and pieces a quilt patch that tells a story. *See it:* the class story quilt.
 6. **Depth** — uses overlap, size, placement and atmospheric colour to create depth. *See it:* the final landscape.
 7. **Knowing and talking about artists** — names artists from at least four continents and explains how they influenced a piece of work. *See it:* the exhibition conversation.
 
@@ -481,11 +480,11 @@ Assessed through the sketchbook and conversation, not tests:
 - *Outlines make things look real* — tone and colour changes, not heavy outlines, create form.
 - *Shadows are always black or grey* — shadows contain colour (often cooler or complementary).
 - *Distance just means 'smaller'* — also higher up, overlapped, paler and bluer.
-- *Weaving 'wrongly'* — skipping a warp creates a pattern choice; help children see mistakes as design opportunities.
-- *Kente colours have one fixed meaning* — meanings vary by tradition and region; present them as examples, not rules.
+- *Stitches must be tiny to be good* — even spacing matters more than size; kantha makers use rows of small, even stitches.
+- *Colours mean the same everywhere* — colour meanings vary by culture and tradition; present them as examples, not rules.
 
-**Safety.** Adults handle craft knives, pliers and wire ends; check for latex and food allergies (fruit still life).
+**Safety.** Adults handle craft knives; count needles in and out every textiles lesson; charcoal dust — no spray fixatives by children and wash hands; check for latex and food allergies (fruit still life).
 
 **Differentiation.** Support = more concrete: templates, larger tools and paper, fewer colours, step-by-step demonstrations repeated. Stretch = deeper decisions: combine techniques, explain choices with artistic vocabulary, adapt an artist's approach in a new way.
 
-**Vertical connections.** Builds on Year 2's observational drawing, texture and first tone. Year 4 adds one-point perspective (vanishing point), relief printmaking and sculpture, and a broader journey through art history, relying on this year's colour mixing, paint control, tone and depth cues.
+**Vertical connections.** Builds on Years 1–2 (sketchbooks, Leonardo and Dürer, the colour wheel with tints, shades and tones, Kandinsky, O'Keeffe, Hokusai, a first tonal scale, weaving, Kente, Anni Albers and running stitch) — each retrieved briefly, not re-taught. Year 4 adds one-point perspective, monoprint, collagraph and reduction printing, clay sgraffito and carving, dyed and printed textiles (natural dyes, adire, shibori, William Morris) and geometric pattern, relying on this year's colour, paint control, tone, stitching and depth cues.
