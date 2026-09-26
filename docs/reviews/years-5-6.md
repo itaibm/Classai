@@ -298,3 +298,47 @@ Y5: kept Levine *The Story of the Orchestra*, Chrome Music Lab, BandLab/GarageBa
 where it is taught; a retelling I could not verify for *The Magic Flute* was **not** added (replaced by
 a subtitled opera-house recording). Y6 (Goodall *The Story of Music*, Levitin, Taylor *Music Theory in
 Practice Grade 1*, BBC Ten Pieces) verified.
+
+---
+
+## PE & health
+
+PE is deliberately spiral (games, athletics and swimming recur every year), so lessons that revisit a
+sport with added technique or tactics were kept. Changes target lessons that repeated Y4 or the other
+year **at the same depth**, and the health/safety content.
+
+### Health and safety content (checked)
+Puberty lessons (Y5 L27–28, Y6 L21–22): accurate (onset roughly 8–14, wide normal range; periods and
+wet dreams taught to everyone), with parent notification, anonymous question box and ground rules —
+kept. Substances (Y6 L24) factual and non-judgemental; Y5 science L16 now also carries a parent note.
+First aid: hands-only CPR 100–120/min, abdominal thrusts only for over-ones and never practised on
+people, burns cooled ~20 minutes, recovery position — correct. Water safety (Float to Live 60–90 s,
+rip-current advice, flags with "check local systems", "call, reach, throw, don't go") matches RNLI
+guidance. Inversions, spins, freezes and gumboot slaps all carry specific safety notes.
+
+### Repeats fixed
+| File | Lesson | Was | Now |
+|---|---|---|---|
+| Y5 | 2 | Warming up and cooling down (Y4 L1/L6; Y6 L3) | **Reaction time and agility** (ruler-drop, agility run, retest) |
+| Y5 | 3 | Heart rate and exercise (same investigation as Y5 **science** L12 and Y4 L1) | **Moderate vs vigorous: the talk test** and the 60-minute guideline |
+| Y5 | 19–20, 22 | Points-and-patches balances, partner counter-balances, shaped jumps (Y4 L17, L21, L19 titles verbatim) | **Inverted balances**, **the cartwheel** (rotation), **turning jumps**; group-of-three sequences |
+| Y5 | 35, 37 | Bollywood, capoeira (Y4 L26–27; also Y6 L31–32) | **Flamenco** (Spanish link), **hip hop and breaking** |
+| Y5 | 66–67 | Maps and orientating (Y4 L63 verbatim), compass intro | **Make a map to scale**; orienteering **with bearings** (Y5 geography link) |
+| Y6 | 2 | Heart rate | + **recovery graph and training zones** (70% of 208 ≈ 146 bpm check) |
+| Y6 | 26 | DRSABC + recovery position (Y5 L68–69) | DRSABC retrieval + **asthma and anaphylaxis first aid** (trainer devices only; parent note) |
+| Y6 | 31–32 | Bollywood, capoeira (third time) | **Kathak and Akram Khan fusion**; **South African gumboot dance** (history link) |
+| Y6 | 35 | Partner counterbalance (Y4 L21) | + **group balances of 3–4** |
+| Y6 | 57–58 | Orientating a map; walking a 90° bearing (Y4/Y5) | **Real orienteering maps** (colours, control descriptions); **route choice, contours and pace counting** |
+| Y6 | 60 | Float to Live / rips / throw-don't-go (verbatim Y5 L51–53) | **Rivers, lakes, tides and ice** — risk-assess a local spot |
+
+Y6 overview wrongly assumed Y5 taught striking/fielding; corrected (it is new in Y6) and the whole
+"What we assume" paragraph rewritten. Vertical notes, vocabulary, end-of-unit and mastery checks updated.
+
+### Left as deliberate spiral (noted, not changed)
+Relay changeovers, sprint starts and throws recur Y4→Y6 with rising technical demand; invasion and net
+games recur with tactics deepening; swimming recurs as a practical skill.
+
+### Books
+Real and appropriate: Taylor *Celebrate Your Body*, Natterson *Guy Stuff*, Schaefer *The Care and
+Keeping of You*, *Hair Love*; Humphreys *The Boy Who Biked the World*; RNLI, Youth Sport Trust, WHO 2020
+guidelines, Red Cross/St John, British Orienteering, IPC. No changes.

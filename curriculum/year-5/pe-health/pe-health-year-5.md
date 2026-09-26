@@ -12,14 +12,15 @@ bodies**. Lessons are **mostly delivered by a teacher, coach or parent in a hall
 pool** — every Key activity describes what pupils physically do — and the Classai tutor supports the
 thinking parts (rules, tactics, health knowledge, reflection) rather than replacing movement.
 
-The year moves from **fitness** (the components of fitness and a personal plan, linked to the science
-unit on the heart) through **invasion games** (passing, space, attacking and defending tactics),
-**gymnastics** (balances, rolls, flight and partner sequences), **dance from around the world**
-(choreography inspired by Bollywood, West African dance, capoeira and Māori stick games), **net and wall
-games** (badminton and volleyball skills), **swimming and water safety** (including 'Float to Live' and
-self-rescue), **athletics** (running, jumping, throwing, measured and improved — maths link), and
-**outdoor and adventurous activities** (orienteering with maps — geography link — team challenges and
-basic first aid).
+The year moves from **fitness** (the components of fitness, reaction and agility, activity intensity and
+a personal plan, linked to the science unit on the heart) through **invasion games** (passing, space,
+attacking and defending tactics), **gymnastics** (inverted balances, rotation — including the cartwheel —
+rolls, flight with turns and group sequences), **dance from around the world** (flamenco, West African
+dance, hip hop and breaking, and Māori stick games — Year 4 already covered Bollywood and capoeira),
+**net and wall games** (badminton, volleyball and short tennis), **swimming and water safety** (including
+'Float to Live' and self-rescue), **athletics** (running, jumping, throwing, measured and improved — maths
+link), and **outdoor and adventurous activities** (drawing a map to scale and orienteering with compass
+bearings — geography link — team challenges and basic first aid).
 
 A dedicated **health unit** covers growing up and puberty (taught with care, following the school's
 policy and informing parents), hygiene, sleep, nutrition and mental health. Healthy habits are also
@@ -66,7 +67,7 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 
 **Essential question:** What does it mean to be fit, and how can I improve my own fitness?
 
-**Key vocabulary:** stamina, strength, speed, flexibility, agility, balance, coordination, heart rate, pulse, warm-up, cool-down, circuit, repetition, personal best, hydration
+**Key vocabulary:** stamina, strength, speed, flexibility, agility, balance, coordination, reaction time, intensity, moderate, vigorous, talk test, warm-up, cool-down, circuit, repetition, personal best, hydration
 
 ### Lesson 1 — What is fitness?
 - **Duration:** 40 min
@@ -78,25 +79,25 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 - **Materials:** cones, mats, stopwatches, balls, station cards. Safety: clear space, mats for floor work, pupils' medical needs checked.
 - **Joy:** "Fitness Olympics" rotation.
 
-### Lesson 2 — Warming up and cooling down
-- **Duration:** 35 min
-- **Objective:** "By the end, I can lead a safe warm-up and cool-down and explain why they matter." (UK NC KS2 PE / SHAPE America Standard 3)
-- **Hook:** "Why do athletes warm up — even for a short race?"
-- **Key activity:** Teacher models the three phases of a warm-up (raise heart rate, mobilise joints, dynamic stretches) and a cool-down (slow jog, static stretches); small groups design and lead a warm-up for the class.
-- **Check for understanding:** "Why should a warm-up start gently and build up?" → To gradually raise heart rate and warm the muscles, reducing the risk of injury.
-- **Differentiation:** support: warm-up cards to sequence / stretch: design a sport-specific warm-up.
-- **Materials:** warm-up cards, music, cones. Safety: no bouncing in stretches; hold static stretches gently.
-- **Joy:** pupil-led warm-ups to music.
-
-### Lesson 3 — Heart rate and exercise
+### Lesson 2 — Reaction time and agility
 - **Duration:** 40 min
-- **Objective:** "By the end, I can measure my heart rate before and after exercise and explain the changes (science link)." (UK NC KS2 PE / SHAPE America Standard 3)
-- **Hook:** "Your heart is a muscle. What happens when it has to work harder?"
-- **Key activity:** Take resting pulse; do 2 minutes of moderate activity (skipping), then vigorous activity (shuttle runs); measure after each and during recovery; record and compare (links to science Lesson 12).
-- **Check for understanding:** "Why does your heart rate go up during exercise?" → Muscles need more oxygen and energy, so the heart pumps faster to deliver more blood.
-- **Differentiation:** support: pulse-taking partner and a simple record sheet / stretch: estimate maximum heart rate with the rough formula 220 − age and discuss why it is only an estimate.
-- **Materials:** stopwatches, skipping ropes, record sheets. Safety: pupils with heart or asthma conditions follow their care plans; stop if dizzy.
-- **Joy:** "Heart-rate race" — who recovers fastest?
+- **Objective:** "By the end, I can measure my reaction time and agility and explain how practice improves them." (UK NC KS2 PE / SHAPE America Standard 3)
+- **Hook:** "A goalkeeper has less than half a second to react to a penalty. Can reactions be trained?"
+- **Key activity:** Pupil-led warm-up (Year 4 taught how to design one). Teacher demonstrates two tests: the ruler-drop test for reaction time (distance fallen before the catch — shorter is faster) and a cone agility run (e.g. a T-shaped course, timed); pupils test, then play reaction games (traffic lights, mirror-the-leader, ball-drop catch) and retest.
+- **Check for understanding:** "Your ruler dropped 15 cm the first time and 11 cm after practice. What does that tell you, and why might practice help?" → Your reaction was faster (the ruler fell less before you caught it); practice helps your brain and muscles respond to a familiar signal more quickly.
+- **Differentiation:** support: larger targets and a partner to cue / stretch: calculate the mean of three ruler-drop trials and compare dominant and non-dominant hands.
+- **Materials:** 30 cm rulers, cones, stopwatches, tennis balls, record sheets. Safety: clear space for the agility course; non-slip surface.
+- **Joy:** "Lightning hands" — the ruler-drop challenge.
+
+### Lesson 3 — How hard am I working? Moderate and vigorous activity
+- **Duration:** 40 min
+- **Objective:** "By the end, I can tell moderate from vigorous activity using the talk test and my heart rate, and explain why both count towards 60 active minutes a day." (UK NC KS2 PE / SHAPE America Standard 3)
+- **Hook:** "Health guidance says 60 minutes of moderate-to-vigorous activity a day. But how do you know if you're working 'moderately'?"
+- **Key activity:** Building on the heart-rate investigation in Science (Lesson 12), pupils do three activities at different intensities (brisk walk, skipping, shuttle runs); after each they use the talk test (moderate: you can talk but not sing; vigorous: you can only say a few words) and a quick 15-second pulse; sort everyday activities (cycling to school, playing tag, walking the dog) into light, moderate and vigorous.
+- **Check for understanding:** "You can chat easily while cycling but not sing. Is that moderate or vigorous, and does it count towards your 60 minutes?" → Moderate — you can talk but not sing — and yes, moderate activity counts.
+- **Differentiation:** support: a picture sorting mat with the talk-test rule / stretch: plan a varied 60-minute active day that includes some vigorous activity at least three days a week, as health guidance recommends.
+- **Materials:** skipping ropes, cones, stopwatches, activity sort cards. Safety: pupils with heart or asthma conditions follow their care plans; stop if dizzy.
+- **Joy:** "Talk-test karaoke" — try to sing during each activity.
 
 ### Lesson 4 — Circuit training
 - **Duration:** 40 min
@@ -148,7 +149,7 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 - **Materials:** score sheets, circuit equipment. Safety: as Lesson 4.
 - **Joy:** personal-best certificates.
 
-**End-of-unit check:** Observed: the pupil leads a safe warm-up, performs circuit exercises with good technique, measures heart rate before and after exercise and explains the change, and sets a measurable fitness goal.
+**End-of-unit check:** Observed: the pupil leads a safe warm-up, performs circuit exercises with good technique, measures reaction time and agility, judges activity intensity with the talk test, and sets a measurable fitness goal.
 
 ---
 
@@ -266,27 +267,27 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 
 **Essential question:** How can I link movements into a sequence that is controlled, creative and safe?
 
-**Key vocabulary:** balance, base of support, point, patch, counter-balance, counter-tension, roll, rotation, flight, take-off, landing, sequence, canon, unison, mirror, symmetry, asymmetry, extension, control
+**Key vocabulary:** balance, base of support, inverted balance, shoulder stand, headstand, rotation, cartwheel, twist, roll, flight, take-off, landing, sequence, canon, unison, mirror, symmetry, asymmetry, extension, control
 
-### Lesson 19 — Balances: points and patches
+### Lesson 19 — Inverted balances
 - **Duration:** 40 min
-- **Objective:** "By the end, I can hold balances on different points and patches with control and extension." (UK NC KS2 PE — gymnastics / SHAPE America Standard 1)
-- **Hook:** "Can you balance on three points? Two? One?"
-- **Key activity:** Teacher demonstrates; pupils explore balances on different bases, holding each for 3 seconds with tension and pointed toes; symmetrical vs asymmetrical shapes (maths link).
-- **Check for understanding:** "Why is a balance on a small base harder than on a large one?" → A smaller base of support makes it harder to keep the centre of gravity over it.
-- **Differentiation:** support: wide-base balances / stretch: balances on one hand and one foot.
-- **Materials:** mats. Safety: mats spaced, no socks on smooth floors, hair tied back, jewellery removed.
-- **Joy:** "Balance gallery" — hold your best shape while others walk round.
+- **Objective:** "By the end, I can perform a controlled inverted balance (shoulder stand, and a supported headstand or handstand where safe) with extension." (UK NC KS2 PE — gymnastics / SHAPE America Standard 1)
+- **Hook:** "Year 4 balanced on points and patches. What changes when your hips go above your head?"
+- **Key activity:** Retrieve points-and-patches balances in a two-minute warm-up. Teacher demonstrates progressions: shoulder stand (candle) with straight legs; tripod balance (head and two hands forming a triangle) building to a supported headstand; handstand kick-ups against a wall or with a trained spotter. Pupils choose the progression they can control.
+- **Check for understanding:** "Why do gymnasts make a triangle with their head and hands for a headstand, instead of a straight line?" → A triangle gives a wider base of support, so it is much easier to keep the centre of gravity over the base without toppling.
+- **Differentiation:** support: shoulder stand and tripod balance only / stretch: wall-supported handstand held for 5 seconds with pointed toes.
+- **Materials:** mats, wall space. Safety: inversions only with teacher approval and spotting; pupils with neck, back or blood-pressure conditions do non-inverted alternatives; hair tied back, jewellery removed.
+- **Joy:** "Upside-down gallery" — photograph your best inverted shape.
 
-### Lesson 20 — Partner balances
+### Lesson 20 — Rotation: the cartwheel
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform counter-balances and counter-tension balances safely with a partner." (UK NC KS2 PE / SHAPE America Standard 4)
-- **Hook:** "Two people can balance in ways one person can't."
-- **Key activity:** Teacher demonstrates safe grips; pupils practise counter-balance (pushing towards each other) and counter-tension (pulling away); create three partner balances.
-- **Check for understanding:** "What is the difference between counter-balance and counter-tension?" → Counter-balance: partners push against each other; counter-tension: partners pull away from each other.
-- **Differentiation:** support: simple hand-to-hand counter-tension / stretch: a balance with three people.
-- **Materials:** mats. Safety: partners of similar size, communication ('ready, go, down'), no standing on partners.
-- **Joy:** photographing partner balances.
+- **Objective:** "By the end, I can perform a cartwheel (or a progression towards one) with hands and feet in a straight line." (UK NC KS2 PE — gymnastics / SHAPE America Standard 1)
+- **Hook:** "Gymnasts rotate in three ways: rolling forwards, turning sideways like a wheel, and twisting. Today — the wheel."
+- **Key activity:** Teacher demonstrates progressions: bunny hops over a bench (weight on hands); 'hand–hand–foot–foot' along a line; a cartwheel over a rope or through a hoop; practise on a straight line on mats.
+- **Check for understanding:** "Why should your hands and feet land along one straight line in a cartwheel?" → Keeping everything on one line keeps the rotation controlled and your body balanced over your hands, so you finish upright facing the same way.
+- **Differentiation:** support: bunny hops and 'hand–hand–foot–foot' only / stretch: a cartwheel from a lunge that finishes in a lunge, or on the non-preferred side.
+- **Materials:** mats, benches, a taped line, a rope. Safety: space around each mat; wrists warmed up; pupils with wrist injuries do alternatives.
+- **Joy:** "Cartwheel conveyor" — the class cartwheels in canon along the mats.
 
 ### Lesson 21 — Rolls
 - **Duration:** 40 min
@@ -301,8 +302,8 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 ### Lesson 22 — Flight: jumps and landings
 - **Duration:** 40 min
 - **Objective:** "By the end, I can perform shaped jumps with a safe take-off and landing." (UK NC KS2 PE / SHAPE America Standard 1)
-- **Hook:** "The hardest part of a jump is landing it."
-- **Key activity:** Teacher demonstrates safe landing (bend knees, arms forward, feet apart, 'stick' it); jumps: straight, tuck, star, straddle, half-turn; from floor then low apparatus.
+- **Hook:** "The hardest part of a jump is landing it — especially after a twist."
+- **Key activity:** Retrieve Year 4's safe landing (bend knees, arms forward, feet apart, 'stick' it) and shaped jumps. New: twist rotation in flight — quarter, half and full turns, using the arms and head to start the twist and spotting a point to land facing the right way; from floor, then low apparatus.
 - **Check for understanding:** "Why do gymnasts bend their knees when landing?" → To absorb the force and protect the joints.
 - **Differentiation:** support: jumps from the floor only / stretch: jumps with a half-turn from a low box.
 - **Materials:** mats, low benches or boxes, springboard (only with trained staff). Safety: apparatus checked; landing mats in place.
@@ -322,7 +323,7 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 - **Duration:** 40 min
 - **Objective:** "By the end, I can create a sequence linking balances, rolls, jumps and travel with smooth transitions." (UK NC KS2 PE / SHAPE America Standard 1)
 - **Hook:** "A great sequence has a clear start, a flowing middle and a strong finish."
-- **Key activity:** Pairs plan a sequence (start and end shape, two balances, a roll, a jump, travel); write it as a sequence card; rehearse.
+- **Key activity:** Groups of three plan a sequence (start and end shape, an inverted balance, a rotation — roll or cartwheel — a turning jump, travel); write it as a sequence card; rehearse.
 - **Check for understanding:** "How did you make the transition between your balance and roll smooth?" → A specific link movement (e.g. lowering into the roll from the balance).
 - **Differentiation:** support: a sequence card template with choices / stretch: include canon and unison.
 - **Materials:** mats, sequence cards. Safety: as above.
@@ -348,7 +349,7 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 - **Materials:** mats, music, judging cards.
 - **Joy:** the showcase.
 
-**End-of-unit check:** Observed: the pupil performs balances, rolls and jumps with control and safe landings, links them into a partner sequence with smooth transitions, and evaluates using gymnastics vocabulary.
+**End-of-unit check:** Observed: the pupil performs an inverted balance, a rotation (roll or cartwheel) and a turning jump with control and safe landings, links them into a group sequence with smooth transitions, and evaluates using gymnastics vocabulary.
 
 ---
 
@@ -448,15 +449,15 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 
 **Key vocabulary:** choreography, motif, phrase, action, dynamics, space, relationship, canon, unison, formation, levels, rhythm, tempo, cultural tradition, respect, performance
 
-### Lesson 35 — Bollywood energy
+### Lesson 35 — Flamenco: rhythm in the feet and hands
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform a short Bollywood-style routine with expressive gestures and rhythm." (UK NC KS2 PE — dance / SHAPE America Standard 1)
-- **Hook:** Watch a short clip of a Bollywood film dance (teacher-checked for age-suitability). "What do the hands and faces tell us?"
-- **Key activity:** Teacher teaches signature moves (e.g. 'light-bulb' hand twist, 'screwing the light bulb', shoulder shimmy), expressive faces and hand gestures; learn a short routine.
-- **Check for understanding:** "How do Bollywood dancers use gesture and facial expression to tell the story?" → Hands and faces show emotions and actions, so the audience understands the story even without words.
-- **Differentiation:** support: simplified arm movements / stretch: add a travelling pattern.
-- **Materials:** music, speaker, space. Safety: clear space, footwear appropriate to floor.
-- **Joy:** full-class Bollywood routine.
+- **Objective:** "By the end, I can perform a short flamenco-inspired phrase combining footwork, handclaps (palmas) and proud posture, and explain where flamenco comes from." (UK NC KS2 PE — dance / SHAPE America Standard 1)
+- **Hook:** A short clip of flamenco from Andalusia, Spain: "The dancer is also a drummer. Where is the drum?"
+- **Key activity:** Context: flamenco grew in Andalusia from Roma (Gitano), Andalusian, Moorish and Jewish influences and is on UNESCO's intangible cultural heritage list. Teacher teaches palmas (clapping rhythms), simple zapateado footwork (heel and ball of the foot stamps, done gently), braceo (curving arm movements) and upright posture; combine into a phrase; link to Spanish lessons.
+- **Check for understanding:** "How does a flamenco dancer add to the music as well as moving to it?" → The footwork and handclaps are percussion — the dancer creates rhythms that are part of the music.
+- **Differentiation:** support: palmas and arm movements only, feet stepping the beat / stretch: add a rhythmic stamping pattern with an accent and a sharp freeze to finish.
+- **Materials:** flamenco recordings, space. Safety: gentle stamping on a sprung or wooden floor in trainers; warm up ankles and knees.
+- **Joy:** the 'olé' ending freeze.
 
 ### Lesson 36 — West African dance and drumming
 - **Duration:** 40 min
@@ -468,15 +469,15 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 - **Materials:** djembes or recorded drumming, space. Safety: warm up knees and ankles.
 - **Joy:** dancing to live drums.
 
-### Lesson 37 — Capoeira-inspired movement
+### Lesson 37 — Hip hop and breaking foundations
 - **Duration:** 40 min
-- **Objective:** "By the end, I can perform capoeira-inspired movements with control and a partner, understanding their history." (UK NC KS2 PE — dance)
-- **Hook:** "Capoeira, from Brazil, combines dance, music and martial art. It was developed by enslaved Africans and their descendants."
-- **Key activity:** Teacher teaches the ginga (rocking base step), esquivas (dodges) and simple kicks performed slowly without contact, in a roda (circle) with clapping and singing.
-- **Check for understanding:** "Why do capoeira players move slowly and never make contact in our lesson?" → To stay safe and focus on control, rhythm and conversation between partners.
-- **Differentiation:** support: ginga and dodges only / stretch: create a four-move 'conversation' with a partner.
-- **Materials:** music (berimbau recordings), space. Safety: no contact; controlled kicks below waist height; space between pairs.
-- **Joy:** the roda circle.
+- **Objective:** "By the end, I can perform hip hop toprock steps and a simple freeze with control, and explain where breaking began." (UK NC KS2 PE — dance)
+- **Hook:** "Breaking began at block parties in the Bronx, New York, in the 1970s — and in 2024 it became an Olympic sport. How?"
+- **Key activity:** Context: hip hop culture (DJing, MCing, graffiti and b-boying/b-girling) grew among African American and Latino young people in the Bronx. Teacher teaches toprock (standing steps to the beat, e.g. the Indian step), a simple floor transition, and a safe freeze (e.g. a baby freeze from a crouch with support); the cypher (circle) where dancers take turns.
+- **Check for understanding:** "What makes a cypher respectful and safe for everyone?" → Taking turns, cheering others on, leaving space, and only trying moves you have practised safely.
+- **Differentiation:** support: toprock steps and a standing freeze / stretch: link toprock, a transition and a freeze into a short 'set' with a musical accent.
+- **Materials:** age-appropriate instrumental hip hop tracks, mats for floor work. Safety: wrists and shoulders warmed up; freezes only on mats; no spins on the head.
+- **Joy:** the class cypher.
 
 ### Lesson 38 — Māori stick games (tī rākau)
 - **Duration:** 40 min
@@ -788,7 +789,7 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 
 **Essential question:** How can I solve problems, navigate and stay safe outdoors as part of a team?
 
-**Key vocabulary:** orienteering, map, key, orientate, control point, compass, bearing (introduced), route, teamwork, communication, leadership, risk, first aid, recovery position, emergency
+**Key vocabulary:** orienteering, map, key, scale, orientate, control point, compass, bearing, pace count, route, teamwork, communication, leadership, risk, first aid, recovery position, emergency
 
 ### Lesson 65 — Team challenges
 - **Duration:** 40 min
@@ -800,22 +801,22 @@ for more formal sports, leadership roles (e.g. young leaders), and deeper health
 - **Materials:** mats, blindfolds, cones, ropes. Safety: blindfolded pupils always guided by a partner; clear space.
 - **Joy:** the river crossing.
 
-### Lesson 66 — Maps and orientating
+### Lesson 66 — Making our own map
 - **Duration:** 40 min
-- **Objective:** "By the end, I can orientate a map and follow a route around the school grounds (geography link)." (UK NC KS2 PE — OAA)
-- **Hook:** "A map is only useful if it's the right way round."
-- **Key activity:** Make/read a school-grounds map with key; orientate it using landmarks; follow a star course (return to base after each control) with partners.
-- **Check for understanding:** "How do you orientate a map using landmarks?" → Turn it so features on the map line up with the same features in front of you.
-- **Differentiation:** support: a simplified map with large landmarks / stretch: a longer course with more controls.
-- **Materials:** school-grounds maps, control markers with codes, recording cards. Safety: boundaries agreed; adults positioned.
-- **Joy:** star-course race.
+- **Objective:** "By the end, I can help draw a map of part of the school grounds to scale, with a key, and use it to set a course for others (geography link)." (UK NC KS2 PE — OAA)
+- **Hook:** "Year 4 followed maps. Today you make one — good enough for another class to race on."
+- **Key activity:** Quick retrieval: orientate a printed map using landmarks (Year 4). New: pace-count or measure a playground area; draw it to a simple scale (e.g. 1 cm = 2 m, geography link); add symbols and a key; place three 'controls' on your map and hide markers for another group to find.
+- **Check for understanding:** "Your map says 1 cm = 2 m. The bench is 7 cm from the gate on the map. How far is it really — and why does an accurate scale matter to the person using your map?" → 14 m; if the scale is wrong, runners misjudge distances and can't find the controls.
+- **Differentiation:** support: a partly drawn base map to complete / stretch: add a north arrow and a second, more detailed inset map.
+- **Materials:** tape measures or trundle wheels, squared paper, rulers, clipboards, control markers. Safety: boundaries agreed; adults positioned.
+- **Joy:** swapping maps and racing each other's courses.
 
 ### Lesson 67 — Orienteering course
 - **Duration:** 45 min
-- **Objective:** "By the end, I can navigate a multi-control course using a map and compass directions." (UK NC KS2 PE — OAA)
-- **Hook:** "Ten controls, one map, the clock is ticking."
-- **Key activity:** Introduce the compass (north, orienting the map); line course in pairs; record control codes; time and check accuracy.
-- **Check for understanding:** "How can a compass help you if you can't see any landmarks?" → The needle points north, so you can turn the map to match and choose the right direction.
+- **Objective:** "By the end, I can navigate a multi-control course using a map and compass bearings." (UK NC KS2 PE — OAA; geography link)
+- **Hook:** "Ten controls, one map, the clock is ticking — and some controls can only be found by bearing."
+- **Key activity:** Retrieve compass bearings from Geography (Lesson 2); orient the map with the compass; a line course in pairs where some legs are given only as a bearing and a distance in paces; record control codes; time and check accuracy.
+- **Check for understanding:** "How can a compass bearing help you when you can't see any landmarks?" → It gives an exact direction measured from north, so you can walk in a straight line towards the control even without features to follow.
 - **Differentiation:** support: fewer controls, adult support / stretch: plan your own course for another pair.
 - **Materials:** maps, compasses, control markers, stopwatches. Safety: pairs only; meeting point and time agreed.
 - **Joy:** the orienteering race.
@@ -869,12 +870,12 @@ Assessed through observation and simple measurements:
 
 1. **Fitness** — names the components of fitness, leads a safe warm-up, and measures and improves a personal fitness score.
 2. **Invasion games** — passes, receives, moves into space and defends in small-sided games, explaining a tactic.
-3. **Gymnastics** — performs a controlled partner sequence with balances, rolls, jumps and smooth transitions.
-4. **Dance** — performs movements from three traditions and choreographs with canon, unison, levels and formations.
+3. **Gymnastics** — performs a controlled group sequence with an inverted balance, a rotation, a turning jump and smooth transitions.
+4. **Dance** — performs movements from three traditions (e.g. flamenco, West African dance, hip hop) and choreographs with canon, unison, levels and formations.
 5. **Net games** — sustains a rally and uses placement tactics.
 6. **Water safety** — explains Float to Live, rip-current advice and 'call, reach, throw, don't go'; swims 25 m where possible.
 7. **Athletics** — sprints, paces, jumps and throws with correct technique, recording and explaining improvement.
-8. **Outdoor activities** — navigates with a map and compass and solves problems as a team.
+8. **Outdoor activities** — draws a simple map to scale, navigates with a map and compass bearings and solves problems as a team.
 9. **Health** — describes puberty accurately and kindly, plans healthy routines for sleep, food and hygiene, and knows how to look after mental health and get help.
 10. **First aid** — carries out the primary survey, calls emergency services and places someone in the recovery position.
 
@@ -896,6 +897,6 @@ Assessed through observation and simple measurements:
 - Encourage pupils to join clubs and be active outside school; aim for 60 minutes of activity a day on average.
 
 **Vertical connections**
-- *From Year 4:* fundamental movement skills, simple games, basic gymnastics and dance, swimming basics, and healthy-lifestyle knowledge.
-- *Into Year 6:* more formal sports and positions, leadership (young leaders), more complex sequences and choreography, advanced athletics techniques, deeper health education (including relationships and substance misuse) and transition to secondary PE.
-- *Across subjects:* science (heart rate, circulation, nutrition, microorganisms and hygiene), maths (measuring, timing, decimals, means and percentage improvement), geography (maps and orienteering), music (drumming and dance), life skills (wellbeing, teamwork, resilience), history (capoeira's origins).
+- *From Year 4:* warm-ups, pulse and components of fitness; invasion and net games; points-and-patches balances, rolls, jumps and partner counter-balances; samba, Bollywood, capoeira and ribbon dance; swimming 25 m; orienteering basics; puberty introduced; basic first aid — built on, not repeated.
+- *Into Year 6:* training principles (FITT, overload), striking and fielding games (new in Year 6), vaulting and group balances, kathak-contemporary fusion and gumboot dance, advanced athletics, real orienteering maps and route choice, first aid for asthma and allergic reactions and CPR, deeper health education (substances, peer pressure), leadership and transition to secondary PE.
+- *Across subjects:* science (heart rate, circulation, nutrition, microorganisms and hygiene), maths (measuring, timing, decimals, means, scale and percentage improvement), geography (bearings and map scale), music and languages (flamenco, drumming and dance), life skills (wellbeing, teamwork, resilience), history (the Bronx and hip hop culture).
