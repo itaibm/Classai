@@ -48,8 +48,8 @@ A homeschool or tutor-led week can follow the same pattern: two core sessions ev
 | Term | Texts |
 |---|---|
 | 1 | *The Wild Robot* — Peter Brown; "The Highwayman" — Alfred Noyes; *Journey to Jo'burg* — Beverley Naidoo |
-| 2 | *The Orchard Book of Greek Myths* — Geraldine McCaughrean (with Anansi and Māui tales); *Where the Mountain Meets the Moon* — Grace Lin; *Cosmic* — Frank Cottrell-Boyce; world poetry (Hughes, Nichols, Zephaniah, Bashō, Tagore, Neruda) |
-| 3 | *The Boy Who Harnessed the Wind* (Young Readers' Edition) — William Kamkwamba and Bryan Mealer; *Esperanza Rising* — Pam Muñoz Ryan; poetry (de la Mare, Carroll, Frost); book club (e.g. *Holes*, *Wonder*, *The Explorer*, *Kensuke's Kingdom*, *Front Desk*) |
+| 2 | *Norse Myths: Tales of Odin, Thor and Loki* — Kevin Crossley-Holland (with Anansi and Māui tales); *One Thousand and One Arabian Nights* — retold by Geraldine McCaughrean; *Cosmic* — Frank Cottrell-Boyce; world poetry (Hughes, Nichols, Berry, the pantoum, Li Bai, Neruda) |
+| 3 | *The Boy Who Harnessed the Wind* (Young Readers' Edition) — William Kamkwamba and Bryan Mealer; *Esperanza Rising* — Pam Muñoz Ryan; poetry (de la Mare, Belloc, Frost); book club (e.g. *Amari and the Night Brothers*, *The Last Bear*, *The Explorer*, *Kensuke's Kingdom*, *Front Desk*) |
 
 ## Threads that connect the subjects
 

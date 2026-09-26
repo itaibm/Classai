@@ -19,14 +19,14 @@ vocabulary and spelling are taught **inside** the units, in service of the writi
 | Term | Class texts | Writing focus | Speaking focus |
 |---|---|---|---|
 | 1 | ***Holes*** — Louis Sachar; ***Brown Girl Dreaming*** — Jacqueline Woodson (with an identity poetry anthology); ***A Christmas Carol*** — Charles Dickens | analytical paragraphs, narrative with interwoven timelines, memoir-in-verse, the first analytical essay | book talk, poetry recital |
-| 2 | Great speeches (Malala Yousafzai, Martin Luther King Jr., Severn Cullis-Suzuki, John F. Kennedy, Nelson Mandela) and spoken-word poetry; ***A Long Walk to Water*** — Linda Sue Park; short stories from around the world (Bradbury, Hughes, Cisneros, Maupassant, O. Henry, Ruskin Bond) | persuasive speech, research report, balanced argument, short story | speech delivery, formal debate |
+| 2 | Great speeches (Malala Yousafzai, Martin Luther King Jr., Severn Cullis-Suzuki, John F. Kennedy, Nelson Mandela) and spoken-word poetry; ***Hoot*** — Carl Hiaasen; short stories from around the world (Bradbury, Hughes, Cisneros, Maupassant, O. Henry, Ruskin Bond) | persuasive speech, research report, balanced argument, short story | speech delivery, formal debate |
 | 3 | ***A Midsummer Night's Dream*** — William Shakespeare; ***The Giver*** — Lois Lowry (with Frost's "The Road Not Taken" and Shakespeare's Sonnet 18) | analytical essay on a play, argument essay, dystopian narrative, graduation portfolio | scene performance, graduation speech |
 
 **Why these books.** They are among the most widely taught, most loved books for 11–12-year-olds
 worldwide; together they span five continents of setting or origin, classic and modern, prose, verse,
 drama and non-fiction; and each carries a big question worth arguing about at this age: fate and
 justice (*Holes*), identity and belonging (*Brown Girl Dreaming*), change and responsibility (*A
-Christmas Carol*), survival and hope (*A Long Walk to Water*), love and illusion (*A Midsummer Night's
+Christmas Carol*), nature, activism and taking a stand (*Hoot*), love and illusion (*A Midsummer Night's
 Dream*), freedom and choice (*The Giver*).
 
 **What we assume from Year 5 (ages 10–11, UK Y6 / US Grade 5):** fluent, expressive reading of
@@ -51,7 +51,7 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 | 1 | 2 — Identity & voice: *Brown Girl Dreaming* and poetry | 3.2 | 16 |
 | 1 | 3 — *A Christmas Carol*: a classic transformation | 4 | 20 |
 | 2 | 4 — The power of speech: rhetoric & spoken word | 3.6 | 18 |
-| 2 | 5 — *A Long Walk to Water*: research & argument | 4.4 | 22 |
+| 2 | 5 — *Hoot*: research & argument | 4.4 | 22 |
 | 2 | 6 — Short stories from around the world | 3.2 | 16 |
 | 3 | 7 — Shakespeare: *A Midsummer Night's Dream* | 4 | 20 |
 | 3 | 8 — *The Giver*: dystopia, choice & the argument essay | 4.4 | 22 |
@@ -399,31 +399,31 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 ### Lesson 33 — Sound in poetry: rhythm, rhyme, alliteration
 - **Duration:** 40 min
 - **Objective:** "By the end, I can analyse how sound devices create rhythm and mood." (CCSS RL.6.4; UK KS3 Reading)
-- **Hook:** Read "The Tyger" (William Blake) aloud with a drumbeat: "What does the rhythm feel like?"
-- **Key activity:** Clap the rhythm of "The Tyger"; identify rhyme, alliteration and repetition; compare with free verse in Woodson; discuss when rhythm helps.
-- **Check for understanding:** "How does the rhythm of 'The Tyger' suit its subject?" → The strong, regular beat sounds like a hammer or a heartbeat, matching the image of the tiger being forged and its power.
-- **Differentiation:** support: clap along and mark stressed syllables with a partner / stretch: explain the effect of the questions throughout the poem
-- **Materials:** "The Tyger" (William Blake), a drum or table to tap
+- **Hook:** Read John Masefield's "Cargoes" aloud — the first stanza slowly and richly, the last one fast and hard: "Three ships, three cargoes. What changes in the sound?"
+- **Key activity:** Identify rhythm, alliteration, long and short vowel sounds and lists in each stanza (the ancient quinquireme with ivory, apes and peacocks; the Spanish galleon with jewels; the "Dirty British coaster" with coal, road-rail and "cheap tin trays"); compare with the free verse in Woodson; discuss when sound carries meaning. ("The Tyger" was studied in Year 5.)
+- **Check for understanding:** "How does the sound of the last stanza differ from the first, and why?" → The first uses smooth, flowing lines, long vowels and exotic, beautiful goods; the last uses harsh, clipped consonants and plain monosyllables ("salt-caked", "pig-lead") — the sound itself makes modern trade feel gritty and ordinary compared with the romance of the past.
+- **Differentiation:** support: read aloud with a partner and mark the 'smooth' and 'harsh' words in two colours / stretch: argue whether Masefield is mocking the modern ship or admiring its hard work
+- **Materials:** "Cargoes" (John Masefield), a drum or table to tap, pictures of the three ships
 - **Joy:** Choral reading with percussion
 
-### Lesson 34 — Forms: haiku, tanka and the sonnet preview
+### Lesson 34 — Forms: renga (linked verse) and the sonnet preview
 - **Duration:** 40 min
 - **Objective:** "By the end, I can describe the rules of several poetic forms and explain how a form can shape meaning." (CCSS RL.6.5; UK KS3 Reading/Writing)
-- **Hook:** Matsuo Bashō's frog haiku (in translation): "Can 17 syllables hold a whole moment?"
-- **Key activity:** Read haiku by Bashō and Kobayashi Issa (in translation — note syllable counts change in translation); write haiku and tanka about a moment from the week; preview the sonnet form for Term 3.
-- **Check for understanding:** "Why does a haiku often focus on nature and a single moment?" → The tiny form suits a single sharp image, and the tradition links a moment to a season.
-- **Differentiation:** support: a syllable-counting grid / stretch: write a linked renga sequence with a partner
-- **Materials:** translated haiku by Bashō and Issa, syllable grids
-- **Joy:** Outdoor "haiku walk" to find a moment worth capturing
+- **Hook:** Kobayashi Issa's snail haiku (in translation): "O snail, / climb Mount Fuji, / but slowly, slowly!" — "You learned haiku in Year 3. What happens when poets write them together?"
+- **Key activity:** Recall haiku (from Year 3) with poems by Issa and Yosa Buson in translation. Then learn the renga, Japanese linked verse written by several poets in turn: a three-line verse (5–7–5 in English) followed by a two-line verse (7–7), each new verse linking to the one before by an image or idea. Groups write a class renga about the week; then preview the sonnet form for Term 3.
+- **Check for understanding:** "In a renga, how must each new verse connect to the one before, and how does that change the way you write?" → It must pick up an image or idea from the previous verse and turn it somewhere new, so you have to read your partner's lines closely and build on them rather than write alone.
+- **Differentiation:** support: a syllable-counting grid and a bank of linking images / stretch: plan a renga whose last verse echoes the first
+- **Materials:** translated haiku by Issa and Buson, syllable grids, a long paper scroll
+- **Joy:** The class renga written on a scroll that is passed from group to group
 
 ### Lesson 35 — Analysing an unseen poem
 - **Duration:** 45 min
 - **Objective:** "By the end, I can analyse an unseen poem using a clear method (first read, questions, language, structure, meaning)." (CCSS RL.6.1–6.5; UK KS3 Reading)
 - **Hook:** "You meet a poem for the first time — where do you start?"
-- **Key activity:** Model the "SMILE" method (Structure, Meaning, Imagery, Language, Effect) on "Mother to Son" (Langston Hughes); children apply it to "Dreams" (Hughes).
+- **Key activity:** Model the "SMILE" method (Structure, Meaning, Imagery, Language, Effect) on "Mother to Son" (Langston Hughes); children apply it to "Harlem" (Hughes: "What happens to a dream deferred?"), which grows out of the short poem "Dreams" they learned in Year 3.
 - **Check for understanding:** "In 'Mother to Son', what does the 'crystal stair' represent, and why does she say her life 'ain't been' one?" → An easy, beautiful life; her life has been hard, with tacks, splinters and bare boards — but she kept climbing.
-- **Differentiation:** support: guided SMILE questions / stretch: write a short essay comparing the two Hughes poems
-- **Materials:** "Mother to Son" and "Dreams" (Langston Hughes), SMILE card
+- **Differentiation:** support: guided SMILE questions / stretch: write a short essay comparing the two Hughes poems, including why "Harlem" ends with a single italicised question ("Or does it explode?") instead of another simile
+- **Materials:** "Mother to Son" and "Harlem" (Langston Hughes), SMILE card
 - **Joy:** Perform "Mother to Son" in the mother's voice
 
 ### Lesson 36 — Writing: memoir poems, planning the sequence
@@ -880,57 +880,57 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 
 ---
 
-## Unit 5 — A Long Walk to Water: research & argument
+## Unit 5 — Hoot: research & argument
 
-**Essential question:** How can one person's story help us understand a global issue — and how do we research and argue about that issue responsibly?
+**Essential question:** When a community must choose between building and protecting nature, how do we find the facts and argue responsibly — and when is it right to take a stand?
 
-**Key vocabulary:** dual narrative, refugee, civil war, perseverance, non-fiction, primary source, secondary source, reliability, bias, paraphrase, plagiarism, citation, bibliography, balanced argument, discussion text, claim, counter-claim
+**Key vocabulary:** protagonist, satire, protected species, habitat, development, environmental impact, activism, civil disobedience, primary source, secondary source, reliability, bias, paraphrase, plagiarism, citation, bibliography, balanced argument, discussion text, claim, counter-claim
 
-### Lesson 79 — Two voices, two times
+### Lesson 79 — The boy who ran without shoes: structure and hook
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Linda Sue Park structures the novel with two narratives in different decades." (CCSS RL.6.5; UK KS3 Reading)
-- **Hook:** A 5-litre water container: "Nya carries water like this for hours every day. Lift it. How far could you walk?"
-- **Key activity:** Introduce the book (based on the true story of Salva Dut, one of the "Lost Boys" of Sudan in 1985, and the fictional Nya in 2008); read Chapters 1–2; set up a dual-timeline chart; compare with the three-strand structure of *Holes*.
-- **Check for understanding:** "How is the structure of this book similar to and different from *Holes*?" → Both alternate between timelines that eventually connect; here there are two, 23 years apart, and one is based on a real person.
-- **Differentiation:** support: a colour-coded dual timeline with chapter summaries / stretch: predict how the two stories could meet
-- **Materials:** *A Long Walk to Water* (Linda Sue Park), a filled water container (safely lifted), world map
-- **Joy:** The water-carrying challenge (short, safe distance)
+- **Objective:** "By the end, I can explain how Carl Hiaasen hooks the reader and builds the novel from more than one story strand." (CCSS RL.6.5; UK KS3 Reading)
+- **Hook:** "From the window of the school bus, Roy sees a boy running — fast, and with no shoes. Who is he, and what is he running from?"
+- **Key activity:** Introduce *Hoot* by Carl Hiaasen (Newbery Honor): Roy Eberhardt, the new kid in a small Florida town, is bullied on the bus and glimpses a mysterious running boy; meanwhile a police officer and a construction foreman are baffled by someone sabotaging the building site of a new pancake restaurant. Read the opening chapters; set up a "strands" chart (Roy's story / the building site) and predict how they will connect; compare with the three-strand structure of *Holes*.
+- **Check for understanding:** "How is the structure of *Hoot* similar to and different from *Holes*?" → Both follow more than one strand that eventually connects, and both use humour to tell a story about justice; *Hoot*'s strands run at the same time in the present, while *Holes* moves across a hundred years.
+- **Differentiation:** support: a colour-coded strands chart with chapter summaries / stretch: predict how the two strands could meet, with clues
+- **Materials:** *Hoot* (Carl Hiaasen), strands chart, a map of Florida
+- **Joy:** "Wanted: information" poster about the mystery running boy
 
-### Lesson 80 — Context: Sudan and South Sudan
+### Lesson 80 — Context: burrowing owls and a growing town
 - **Duration:** 45 min
-- **Objective:** "By the end, I can use non-fiction sources to explain the context of the Second Sudanese Civil War and the creation of South Sudan in 2011." (CCSS RI.6.7, RI.6.1; UK KS3 Reading — non-fiction; Geography/History link)
-- **Hook:** "South Sudan is the world's youngest widely recognised country. Why is it so new?"
-- **Key activity:** Read a short, age-appropriate article and map; note key facts (civil war from 1983 to 2005, the Dinka and Nuer peoples, independence in 2011); discuss how context changes our reading.
-- **Check for understanding:** "Why did Salva have to run away from his school in 1985?" → War reached his village; the fighting forced children and families to flee to survive.
-- **Differentiation:** support: an illustrated fact sheet / stretch: compare two sources on the war and note any differences
-- **Materials:** maps of Sudan and South Sudan, short age-appropriate articles (e.g. from an encyclopedia for young people)
-- **Joy:** "Mapping the journey": trace Salva's route across three countries
+- **Objective:** "By the end, I can use non-fiction sources to explain the real context behind the novel — a protected species and the pressure to build." (CCSS RI.6.7, RI.6.1; UK KS3 Reading — non-fiction; Geography/Science link)
+- **Hook:** A photograph of a small owl standing at the mouth of a hole in the ground: "An owl that lives underground? Where could that possibly go wrong?"
+- **Key activity:** Read a short, reliable non-fiction text (e.g. from a wildlife organisation or national park service) about burrowing owls in Florida: they nest in burrows in open, sandy ground, are protected by law, and lose habitat as towns grow. Note key facts; discuss how the context changes our reading of the building-site mystery.
+- **Check for understanding:** "Why does it matter to the plot that these owls live in burrows underground?" → On an empty-looking building site no one notices them; if the bulldozers flatten the ground, the owls and their chicks will be buried — so someone who knows they're there has a reason to stop the building.
+- **Differentiation:** support: an illustrated fact sheet / stretch: compare two sources on burrowing owls and note any differences in facts or tone
+- **Materials:** photographs and a short age-appropriate article on burrowing owls, map of Florida
+- **Joy:** "Owl cam": watch a short clip of burrowing owls from a wildlife organisation
 
-### Lesson 81 — Survival and perseverance: Salva's journey
+### Lesson 81 — Roy: from new kid to standing up
 - **Duration:** 40 min
-- **Objective:** "By the end, I can analyse how Salva's character develops through hardship, with evidence." (CCSS RL.6.3; UK KS3 Reading)
-- **Hook:** "When the desert seems endless, Salva's uncle tells him to walk only as far as the next landmark — a clump of bushes, then the next. Could that work for you?"
-- **Key activity:** Read Chapters 3–9; track Salva's challenges and responses on a "perseverance ladder"; analyse Uncle's advice about walking to the next goal.
-- **Check for understanding:** "How does Uncle's advice about small goals help Salva, and how could it help you?" → Breaking an impossible task into small, reachable steps makes it bearable; the child gives a personal application.
-- **Differentiation:** support: a chapter summary card / stretch: explain how Park shows Salva's inner thoughts without overwhelming the reader with violence
-- **Materials:** *A Long Walk to Water*, perseverance ladder template
-- **Joy:** "Next bush" goal-setting for a personal challenge (link to Life Skills)
+- **Objective:** "By the end, I can analyse how Roy's character develops, with evidence." (CCSS RL.6.3; UK KS3 Reading)
+- **Hook:** "Roy has moved house many times. His plan at every new school: keep your head down. Why doesn't it work this time?"
+- **Key activity:** Read the chapters of Roy's trouble with the bully on the bus, his search for the running boy and his first meeting with Beatrice. Track Roy's choices on a "courage ladder" (small steps to big stands) with quotations.
+- **Check for understanding:** "What is the first choice Roy makes that shows he is changing, and why does it matter?" → e.g. choosing to follow the running boy instead of staying safe — it shows curiosity and a growing sense that he must act, which leads to everything else.
+- **Differentiation:** support: a chapter summary card / stretch: explain how Hiaasen uses humour to show Roy's feelings without making him seem weak
+- **Materials:** *Hoot*, courage ladder template
+- **Joy:** "Courage ladder" for a personal challenge (link to Life Skills)
 
-### Lesson 82 — Nya's story: water and daily life
+### Lesson 82 — Mullet Fingers and Beatrice: is breaking the law ever right?
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Nya's chapters show the impact of water scarcity on education and daily life." (CCSS RL.6.2; UK KS3 Reading)
-- **Hook:** "Nya spends most of every day walking to fetch water. When does she go to school?"
-- **Key activity:** Read Nya's chapters so far; list the effects of water scarcity (health, time, school, safety); link to data on global water access.
-- **Check for understanding:** "Why does a well in the village change Nya's future, not just her day?" → Without the long walk she can go to school and her family is healthier, which gives her more opportunities.
-- **Differentiation:** support: a cause-and-effect chain template / stretch: find a current statistic about access to safe drinking water from a reliable source (e.g. WHO/UNICEF) and cite it
-- **Materials:** *A Long Walk to Water*, cause-and-effect chains
-- **Joy:** "Water diary": log every use of water for a day
+- **Objective:** "By the end, I can evaluate a character's actions and explain the arguments on both sides." (CCSS RL.6.2, SL.6.1; UK KS3 Reading)
+- **Hook:** "Pulling up survey stakes, hiding alligators in portable toilets, spray-painting a sleeping police officer's car windows — to save owls. Hero or vandal?"
+- **Key activity:** Read the chapters revealing the running boy, known as Mullet Fingers, and his stepsister Beatrice, and his secret campaign against the building site. Build a two-column "for and against" chart on his methods; discuss the difference between his sabotage and peaceful protest.
+- **Check for understanding:** "Is Mullet Fingers right to break the law to protect the owls? Give the strongest argument on each side." → For: the owls are protected and will die, and the adults aren't acting; against: damaging property and endangering people is wrong and could get him or others hurt — a strong answer weighs both.
+- **Differentiation:** support: a cause-and-effect chain template / stretch: define 'civil disobedience' and argue whether his actions count as it
+- **Materials:** *Hoot*, for/against charts
+- **Joy:** "Human continuum": stand on a line from 'hero' to 'vandal' before and after discussion
 
 ### Lesson 83 — Research skills: asking good questions
 - **Duration:** 40 min
 - **Objective:** "By the end, I can write focused research questions and plan how to answer them." (CCSS W.6.7; UK KS3 Writing — research)
-- **Hook:** "'Water' is a topic. 'Why do girls in some countries miss school because of water?' is a question. Which is easier to research?"
-- **Key activity:** Turn broad topics into focused, open research questions; choose a research focus linked to the book (water access, refugees, South Sudan, the Lost Boys, how wells are built).
+- **Hook:** "'Owls' is a topic. 'Why do burrowing owls lose their homes when towns grow, and what protects them?' is a question. Which is easier to research?"
+- **Key activity:** Turn broad topics into focused, open research questions; choose a research focus linked to the book (burrowing owls; how laws protect endangered species; how new building projects are checked for their effect on wildlife; a conflict between building and nature in your own country or another continent — e.g. orangutans and palm-oil plantations, or sea turtles and beach lights).
 - **Check for understanding:** "What makes a research question good?" → It is focused, open (not yes/no), answerable with available sources, and genuinely interesting.
 - **Differentiation:** support: a bank of questions to choose and adapt / stretch: write a main question plus three sub-questions
 - **Materials:** question-building frames, topic cards
@@ -939,10 +939,10 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 ### Lesson 84 — Research skills: finding and evaluating sources
 - **Duration:** 45 min
 - **Objective:** "By the end, I can find sources and evaluate their reliability, purpose and bias." (CCSS W.6.8, RI.6.9; UK KS3 Reading)
-- **Hook:** Two websites about the same topic — one from a charity, one from an unknown blog. "Which do you trust, and why?"
+- **Hook:** Two websites about the same topic — one from a conservation charity, one from a building company. "Which do you trust, and why?"
 - **Key activity:** Teach a source checklist (Who wrote it? Why? When? Evidence? Other sources agree?); evaluate three sources; distinguish primary and secondary sources.
-- **Check for understanding:** "A charity's website says water projects are the best way to help. Why might you want a second source?" → The charity may be biased — it wants donations — so check with an independent source.
-- **Differentiation:** support: a pre-selected set of sources with guided questions / stretch: evaluate an encyclopedia entry against a news report and a charity page
+- **Check for understanding:** "A building company's website says its new development 'will not harm local wildlife'. Why might you want a second source?" → The company may be biased — it wants the project to go ahead — so check with an independent source such as a government wildlife agency or a scientist.
+- **Differentiation:** support: a pre-selected set of sources with guided questions / stretch: evaluate an encyclopedia entry against a news report and a campaign page
 - **Materials:** devices with supervised internet access, source checklists, library books
 - **Joy:** "Source detectives" — rate sources with a trust-o-meter
 
@@ -956,35 +956,35 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - **Materials:** research notes templates, source logs
 - **Joy:** "Paraphrase challenge": explain a hard paragraph in exactly 20 words
 
-### Lesson 86 — Salva in America: resilience and giving back
+### Lesson 86 — The adults: satire and humour
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how Salva's experiences shape his decision to help others." (CCSS RL.6.3; UK KS3 Reading)
-- **Hook:** "Salva arrives in Rochester, New York, in 1996. Snow! How would that feel after the desert?"
-- **Key activity:** Read the chapters of Salva's arrival in the USA and his decision to start water projects; discuss the theme of giving back.
-- **Check for understanding:** "Why does Salva choose to bring water to South Sudan rather than just stay safe in America?" → He remembers suffering and wants to help his people; water gives the whole community health and education.
-- **Differentiation:** support: guided questions / stretch: compare Salva's transformation with Scrooge's — both change the lives of others
-- **Materials:** *A Long Walk to Water*
-- **Joy:** "Letter to Salva" (to share in class)
+- **Objective:** "By the end, I can explain how Hiaasen uses satire and humour to criticise the behaviour of some adults." (CCSS RL.6.4, RL.6.6; UK KS3 Reading)
+- **Hook:** "A police officer whose car gets spray-painted while he sleeps in it; a company vice-president who shouts down the phone. Why are so many adults in this book ridiculous?"
+- **Key activity:** Read the chapters featuring Officer Delinko, the foreman Curly and the pancake company's vice-president, Chuck Muckle; define satire (humour that mocks in order to criticise); find the language and situations Hiaasen uses to make them absurd, and what he is criticising (greed, laziness, not listening).
+- **Check for understanding:** "How does Hiaasen make Chuck Muckle ridiculous, and what is he criticising through him?" → Muckle is pompous, rude and obsessed with the company's image and profits; the exaggeration mocks businesses that care more about money than about nature or honesty.
+- **Differentiation:** support: guided questions / stretch: compare how Hiaasen treats Officer Delinko (mocked, but decent) with how he treats Chuck Muckle, and explain the difference
+- **Materials:** *Hoot*
+- **Joy:** "Satire sketch": groups perform a 30-second exaggerated scene about a real everyday annoyance
 
-### Lesson 87 — The two stories meet: structure and theme
+### Lesson 87 — The groundbreaking ceremony: structure and theme
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the significance of the moment Nya and Salva's stories connect." (CCSS RL.6.2, RL.6.5; UK KS3 Reading)
-- **Hook:** "Nya's people and Salva's people had been enemies. What happens when they meet?"
-- **Key activity:** Read the final chapters; discuss the ending and its message about peace between the Dinka and the Nuer; write an analytical paragraph on the ending.
-- **Check for understanding:** "Why is it important that Salva, a Dinka, brings water to Nya's Nuer village?" → It shows that shared needs and kindness can overcome old conflicts; help crosses ethnic divides.
-- **Differentiation:** support: paragraph frame / stretch: evaluate how the final meeting between Nya and Salva creates a hopeful ending
-- **Materials:** *A Long Walk to Water*, timeline chart
-- **Joy:** Complete the dual-timeline chart with the meeting point
+- **Objective:** "By the end, I can explain the significance of the climax, where the story's strands come together." (CCSS RL.6.2, RL.6.5; UK KS3 Reading)
+- **Hook:** "Cameras, the mayor, a celebrity 'Mother Paula' — and a group of children. What happens when the owls are finally seen in public?"
+- **Key activity:** Read the final chapters (the groundbreaking ceremony, the children's peaceful protest, the evidence that the company knew about the owls, and the owls appearing in front of everyone); discuss how all the strands meet; write an analytical paragraph on the ending.
+- **Check for understanding:** "Why does the children's protest at the ceremony succeed when the secret sabotage did not?" → It is public, peaceful and backed by evidence, with the media watching — so it persuades people and forces the adults to act, instead of only delaying the building.
+- **Differentiation:** support: paragraph frame / stretch: evaluate whether the ending is realistic, and whether that matters
+- **Materials:** *Hoot*, strands chart
+- **Joy:** Complete the strands chart with the meeting point — and an owl sticker for every strand
 
-### Lesson 88 — Fiction and non-fiction: author's note
+### Lesson 88 — Fiction and non-fiction: a journalist's novel
 - **Duration:** 40 min
-- **Objective:** "By the end, I can compare how a novel and a non-fiction text present the same events." (CCSS RI.6.9, RL.6.9; UK KS3 Reading)
-- **Hook:** "Linda Sue Park wasn't there. How did she write it?"
-- **Key activity:** Read the author's note and Salva's own words (the afterword); compare with a news article about Water for South Sudan, the organisation Salva founded; discuss what each form does best.
-- **Check for understanding:** "What can a novel do that a news article can't, and vice versa?" → A novel lets us feel a person's inner experience; a news article gives verified facts and wider context.
-- **Differentiation:** support: a comparison grid / stretch: discuss the responsibility of writing a true person's story
-- **Materials:** the book's author's note and afterword, a news article about Water for South Sudan
-- **Joy:** Watch a video of Salva Dut speaking about his work (from the Water for South Sudan website)
+- **Objective:** "By the end, I can compare how a novel and a news article present the same kind of issue." (CCSS RI.6.9, RL.6.9; UK KS3 Reading)
+- **Hook:** "Carl Hiaasen was a newspaper columnist in Florida for decades. How might that show in his novel?"
+- **Key activity:** Read a real news article (teacher-selected, from a reputable source) about a development that threatened a protected species, and compare it with the novel; discuss what each form does best and how Hiaasen's journalism shows (real places, real laws, satire of real types of people).
+- **Check for understanding:** "What can a novel do that a news article can't, and vice versa?" → A novel lets us feel a person's inner experience and can use humour and satire; a news article gives verified facts, quotations and wider context.
+- **Differentiation:** support: a comparison grid / stretch: discuss the responsibility of a novelist who uses real issues in fiction
+- **Materials:** a news article about a real development-and-wildlife conflict, comparison grid
+- **Joy:** Write a satirical headline for the novel's events, then a serious one
 
 ### Lesson 89 — Writing a research report: structure
 - **Duration:** 45 min
@@ -1000,8 +1000,8 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - **Duration:** 45 min
 - **Objective:** "By the end, I can draft an informative report in a formal, objective style using my own words and citations." (CCSS W.6.2, W.6.8; UK KS3 Writing)
 - **Hook:** "Formal and objective: facts, not feelings — until the conclusion."
-- **Key activity:** Draft sections; use formal register, subject-specific vocabulary, passive voice where useful ("Wells are drilled…"); cite sources in brackets.
-- **Check for understanding:** "Show one sentence where you used the passive voice. Why was it useful there?" → It focuses on the process or result rather than who did it, as in "The well was drilled in 2008."
+- **Key activity:** Draft sections; use formal register, subject-specific vocabulary, passive voice where useful ("Nesting sites are protected by law…"); cite sources in brackets.
+- **Check for understanding:** "Show one sentence where you used the passive voice. Why was it useful there?" → It focuses on the process or result rather than who did it, as in "The nesting site was fenced off in 2019."
 - **Differentiation:** support: sentence starters for each section / stretch: include a short quotation from a primary source with citation
 - **Materials:** drafts, research notes, formal vocabulary mat
 - **Joy:** Adding a real statistic that surprises the reader
@@ -1019,7 +1019,7 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 ### Lesson 92 — Balanced argument: understanding the genre
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how a balanced argument differs from a persuasive speech." (CCSS W.6.1; UK KS3 Writing)
-- **Hook:** Question: "Should rich countries give more money to help build wells, or should they fund local businesses instead?"
+- **Hook:** Question: "Should a town be allowed to build on land where a protected species lives, if the new building brings jobs?"
 - **Key activity:** Compare a persuasive text and a discussion text; identify features (both sides, neutral language, connectives such as "on the other hand", a reasoned conclusion).
 - **Check for understanding:** "Why does a balanced argument give both sides fairly before concluding?" → So the reader can weigh the evidence and trust that the conclusion is reasoned, not one-sided.
 - **Differentiation:** support: a sorting activity of for/against statements / stretch: identify weak evidence on both sides
@@ -1061,30 +1061,30 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - **Objective:** "By the end, I can spell and use academic vocabulary for argument and report writing (evidence, significant, consequently, perspective, therefore)." (CCSS L.6.6; UK KS3 Vocabulary)
 - **Hook:** "Some words turn up in every subject. Which ones help you sound like an expert?"
 - **Key activity:** Learn an academic word list; morphology (con-sequ-ent = following with); use them in sentences about the novel and the research.
-- **Check for understanding:** "Use 'consequently' correctly in a sentence about Nya." → e.g. "The village had no well; consequently, Nya spent most of her day fetching water."
+- **Check for understanding:** "Use 'consequently' correctly in a sentence about the owls." → e.g. "The bulldozers were due to flatten the site; consequently, the owls' burrows were in danger."
 - **Differentiation:** support: five words with picture cues / stretch: create a personal academic word bank for secondary school
 - **Materials:** academic word lists, dictionaries
 - **Joy:** "Word of the day" challenge — use it in three subjects
 
-### Lesson 97 — Oracy: a panel discussion on global water
+### Lesson 97 — Oracy: a town meeting
 - **Duration:** 45 min
 - **Objective:** "By the end, I can contribute to a panel discussion, representing a viewpoint with evidence and responding to others." (CCSS SL.6.1, SL.6.4; UK KS3 Spoken English)
-- **Hook:** "Welcome to the World Water Forum: you are the experts."
-- **Key activity:** Roles (a community leader, an engineer, a teacher, a charity worker, a government minister); each prepares a short statement; chaired discussion.
+- **Hook:** "Welcome to the Coconut Cove town meeting: should the building go ahead?"
+- **Key activity:** Roles (a company representative, a wildlife biologist, a local resident who wants the new jobs, a young campaigner, a town councillor); each prepares a short statement using their research; chaired discussion ending in a vote.
 - **Check for understanding:** "How did your role's perspective shape what you said?" → The child explains their role's priorities and how they argued from them.
 - **Differentiation:** support: a role card with key points / stretch: act as chair, summarising and questioning
 - **Materials:** role cards, name badges, research notes
-- **Joy:** The "World Water Forum" role play
+- **Joy:** The town-meeting role play, with a gavel and a final vote
 
 ### Lesson 98 — Taking action: from research to change
 - **Duration:** 40 min
 - **Objective:** "By the end, I can write a persuasive leaflet or letter that turns research into action." (CCSS W.6.1, W.6.4; UK KS3 Writing)
-- **Hook:** "Salva didn't just learn about the problem — he acted."
-- **Key activity:** Plan and write a leaflet or letter for a real audience (school, family, a local council) about water saving or supporting a project; combine research facts with persuasive devices.
+- **Hook:** "Roy didn't just learn about the problem — he acted, peacefully and with evidence."
+- **Key activity:** Plan and write a leaflet or letter for a real audience (school, family, a local council) about protecting a local habitat or species; combine research facts with persuasive devices.
 - **Check for understanding:** "How is your leaflet different from your balanced argument?" → It takes one side and uses persuasive devices and a call to action, instead of weighing both sides.
 - **Differentiation:** support: a leaflet template / stretch: design a campaign with three different texts for three audiences
 - **Materials:** leaflet templates, art materials or design software
-- **Joy:** A real campaign (e.g. a water-saving challenge at home or school)
+- **Joy:** A real campaign (e.g. a bird box, a wildlife patch or a litter pick for the school grounds)
 
 ### Lesson 99 — Independent reading: book recommendations
 - **Duration:** 40 min
@@ -1670,7 +1670,7 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - **Duration:** 40 min
 - **Objective:** "By the end, I can compare *The Giver* with another dystopian or speculative text and discuss the genre's features." (CCSS RL.6.9; UK KS3 Reading for pleasure)
 - **Hook:** "Why do so many writers imagine bad futures?"
-- **Key activity:** Book-tasting of age-appropriate speculative fiction (e.g. *City of Ember* by Jeanne DuPrau, *A Wrinkle in Time* by Madeleine L'Engle, *The Wild Robot* by Peter Brown); compare features.
+- **Key activity:** Book-tasting of age-appropriate speculative fiction (e.g. *City of Ember* by Jeanne DuPrau, *A Wrinkle in Time* by Madeleine L'Engle, *The Last Cuentista* by Donna Barba Higuera); compare features.
 - **Check for understanding:** "What feature does your chosen book share with *The Giver*, and how is it different?" → A shared genre feature and a difference, with evidence.
 - **Differentiation:** support: shorter book extracts / stretch: an extract from a classic such as *Fahrenheit 451*'s opening (teacher-selected)
 - **Materials:** a selection of books, book-tasting menus
@@ -1856,7 +1856,7 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - ***Holes* by Louis Sachar (1998, Newbery Medal)** — a perfectly engineered plot with three interwoven timelines; the ideal text for teaching structure and foreshadowing, and irresistibly funny.
 - ***Brown Girl Dreaming* by Jacqueline Woodson (2014, US National Book Award)** — a memoir in verse about growing up during the civil rights movement; teaches poetic form, voice and identity at once.
 - ***A Christmas Carol* by Charles Dickens (1843)** — the most accessible great Victorian novella; a first heritage text with a clear moral arc and rich language. Use a complete edition with notes.
-- ***A Long Walk to Water* by Linda Sue Park (2010)** — based on the true story of Salva Dut; a short, powerful dual narrative that launches research and argument about a global issue.
+- ***Hoot* by Carl Hiaasen (2002, Newbery Honor)** — a funny, fast environmental mystery by a Florida journalist; young people take a stand to save burrowing owls, launching research on real wildlife law and argument about development versus nature — and a welcome dose of comedy in a serious year. (*A Long Walk to Water* is studied in Year 5.)
 - ***A Midsummer Night's Dream* by William Shakespeare** — the most joyful first Shakespeare: comedy, magic and a play-within-a-play. Use a school edition with notes (e.g. Cambridge School Shakespeare).
 - ***The Giver* by Lois Lowry (1993, Newbery Medal)** — the classic dystopia for 11–12-year-olds; raises profound questions about freedom, memory and choice in a clear, gripping style.
 
@@ -1866,7 +1866,7 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 - **Shakespeare's Globe (London) education resources and Globe on Screen productions** — authentic performance to watch and discuss.
 
 **Poetry (all poems named in lessons)**
-- Grace Nichols, "Island Man"; Sujata Bhatt, "Search for My Tongue"; George Ella Lyon, "Where I'm From"; Emily Dickinson, "'Hope' is the thing with feathers"; William Blake, "The Tyger"; Langston Hughes, "Mother to Son" and "Dreams"; Matsuo Bashō and Kobayashi Issa, haiku in translation; Maya Angelou, "Still I Rise"; John Agard, "Half-Caste"; William Shakespeare, Sonnet 18; Robert Frost, "The Road Not Taken" — a spread of centuries, continents and forms.
+- Grace Nichols, "Island Man"; Sujata Bhatt, "Search for My Tongue"; George Ella Lyon, "Where I'm From"; Emily Dickinson, "'Hope' is the thing with feathers"; John Masefield, "Cargoes"; Langston Hughes, "Mother to Son" and "Harlem"; Kobayashi Issa and Yosa Buson, haiku and renga in translation; Maya Angelou, "Still I Rise"; John Agard, "Half-Caste"; William Shakespeare, Sonnet 18; Robert Frost, "The Road Not Taken" — a spread of centuries, continents and forms.
 - ***The Rattle Bag* edited by Seamus Heaney and Ted Hughes** — a rich anthology for the teacher's shelf and for browsing.
 
 **Short stories:** Ray Bradbury, "All Summer in a Day"; Langston Hughes, "Thank You, Ma'am"; Sandra Cisneros, "Eleven"; Ruskin Bond, "The Night Train at Deoli"; Guy de Maupassant, "The Necklace"; O. Henry, "The Gift of the Magi"; Marta Salinas, "The Scholarship Jacket" — short, classic, widely anthologised and ideal for teaching craft in one sitting.
@@ -1875,18 +1875,18 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 
 **Independent reading shelf (ages 11–12, a balanced, international selection)**
 - *I Am Malala* (Young Readers Edition) — Malala Yousafzai with Patricia McCormick: a true story of courage and education; pairs with Unit 4.
-- *The Boy Who Harnessed the Wind* (Young Readers Edition) — William Kamkwamba and Bryan Mealer: invention and resilience in Malawi; pairs with Unit 5.
-- *Wonder* — R. J. Palacio: kindness and difference; a modern classic.
+- *Flush* — Carl Hiaasen: another funny environmental mystery by the author of *Hoot*; pairs with Unit 5.
+- *Out of My Mind* — Sharon M. Draper: a brilliant girl who cannot speak finds her voice.
 - *The Crossover* — Kwame Alexander: a verse novel about basketball and brothers; pairs with Unit 2.
 - *New Kid* — Jerry Craft: an award-winning graphic novel about starting a new school.
 - *Refugee* — Alan Gratz: three refugee journeys across three eras.
-- *Esperanza Rising* — Pam Muñoz Ryan: Mexico to California in the Great Depression.
+- *The Night Diary* — Veera Hiranandani: a girl's letters to her late mother during the Partition of India in 1947.
 - *The Other Side of Truth* — Beverley Naidoo: two Nigerian children alone in London.
 - *Trash* — Andy Mulligan: a thriller set among children who live on a rubbish dump.
-- *Skellig* — David Almond: a strange, beautiful mystery about family and hope.
+- *When Hitler Stole Pink Rabbit* — Judith Kerr: the author's own escape from Nazi Germany as a child, told as a novel.
 - *Treasure Island* — Robert Louis Stevenson: the adventure classic.
 - *The Hobbit* — J. R. R. Tolkien: the gateway to epic fantasy.
-- *A Wrinkle in Time* — Madeleine L'Engle; *City of Ember* — Jeanne DuPrau; *The Wild Robot* — Peter Brown: speculative fiction that pairs with Unit 8.
+- *A Wrinkle in Time* — Madeleine L'Engle; *City of Ember* — Jeanne DuPrau; *The Last Cuentista* — Donna Barba Higuera: speculative fiction that pairs with Unit 8.
 - *The Wednesday Wars* — Gary D. Schmidt: a funny, moving novel in which a boy is made to read Shakespeare; pairs with Unit 7.
 
 **Teacher resources:** *The Reading Rope* model (Hollis Scarborough) for diagnosing reading difficulties; *Reading Reconsidered* (Doug Lemov, Colleen Driggs and Erica Woolway) for close-reading pedagogy; *The Writing Revolution* (Judith C. Hochman and Natalie Wexler) for sentence-level writing instruction in service of content.
@@ -1906,10 +1906,10 @@ focus drawn from the class text (Greek and Latin roots, commonly confused words,
 ## Teacher guidance
 
 - **Read the whole books.** Extracts don't build stamina or love of reading. Read aloud generously (especially Dickens and Shakespeare), use audiobooks for support, and give children their own copies to annotate where possible.
-- **Sensitive content.** *The Giver* (the truth about "release", a war memory), *A Long Walk to Water* (war and loss) and *Brown Girl Dreaming* (segregation) deal with serious themes. Prepare children beforehand, inform parents, read the hardest passages together, and leave time to talk. The treatment is age-appropriate and these books are widely taught at ages 11–12, but know your children.
+- **Sensitive content.** *The Giver* (the truth about "release", a war memory), *Hoot* (bullying, and children breaking the law for a cause) and *Brown Girl Dreaming* (segregation) deal with serious themes. Prepare children beforehand, inform parents, read the hardest passages together, and leave time to talk. The treatment is age-appropriate and these books are widely taught at ages 11–12, but know your children.
 - **Common misconceptions:** retelling instead of analysing (use What–How–Why and "zoom in on a word"); treating a quotation as self-explanatory; confusing theme (a full-sentence idea) with topic (one word); thinking a balanced argument has no conclusion; thinking a persuasive text should ignore the other side; confusing dramatic and situational irony; assuming "The Road Not Taken" simply praises the unusual path; believing Shakespeare's language is a different language rather than earlier English.
 - **Grammar in service of writing.** Teach each grammar point in the lesson where the writing needs it (sentence variety in narrative, embedding quotations in analysis, modal verbs in persuasion, cohesion in reports, formal style in essays) and look for it in the next piece of writing, not in isolated exercises.
 - **Differentiation.** Support means more scaffolding for the same rich text (audiobooks, glossaries, paraphrase alongside the original, sentence frames) — never an easier book in place of the class text. Stretch means deeper analysis (alternative interpretations, context, comparison, evaluation), not more of the same.
-- **International and inclusive.** The texts span the USA, Britain, India, France, Sudan/South Sudan, Japan and the Caribbean. Invite children's home languages into poetry (Unit 2) and memoir; accept both British and American spelling conventions if used consistently.
+- **International and inclusive.** The texts span the USA, Britain, India, France, Japan, South Africa, Pakistan and the Caribbean; the Unit 5 research deliberately includes a wildlife-and-development conflict from another continent and from the child's own country. Invite children's home languages into poetry (Unit 2) and memoir; accept both British and American spelling conventions if used consistently.
 - **Vertical alignment.** Year 5 secured the full KS2 grammar toolkit, précis and "point–evidence–explain" responses; Year 6 moves to extended analytical writing, argument with rebuttal and research with citation. Secondary English (UK Year 8 / US Grade 7 / MYP 2) assumes a child can write a thesis-driven essay, read heritage texts and a Shakespeare play with support, and speak formally — all mastery checks this year.
 - **Handwriting and typing.** Handwriting should be fluent, joined and legible for timed writing; typing (Computing link) is used for publishing and research reports.

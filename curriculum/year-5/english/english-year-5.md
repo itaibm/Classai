@@ -18,9 +18,9 @@ tasks, and then used in the pupils' own writing where it earns its place.
 
 | Term | Whole books | Poetry | Main writing outcomes |
 |---|---|---|---|
-| 1 | *Holes* — Louis Sachar (USA); *Journey to Jo'burg* — Beverley Naidoo (South Africa) | *The Highwayman* — Alfred Noyes | interwoven narrative chapter; narrative poem performance; diary in role; news report and explanation |
-| 2 | *A Long Walk to Water* — Linda Sue Park (South Sudan/USA); *Boy: Tales of Childhood* — Roald Dahl (Wales/Norway/England); *The Arrival* — Shaun Tan (wordless, Australia) | Poems from around the world — Langston Hughes, Rabindranath Tagore, Benjamin Zephaniah, Grace Nichols, Maya Angelou | balanced argument and persuasive speech; memoir; migration story from images |
-| 3 | *Skellig* — David Almond (England); *The Tempest* — William Shakespeare (in a quality retelling plus key scenes) | *The Road Not Taken* — Robert Frost; *Jabberwocky* — Lewis Carroll | literary analysis essay; scripted scene and performance; independent research report; personal poetry anthology |
+| 1 | *Wonder* — R. J. Palacio (USA); *The Breadwinner* — Deborah Ellis (Canada; set in Afghanistan) | *The Lady of Shalott* — Alfred, Lord Tennyson | story told by two narrators; narrative poem performance; diary in role; news report and explanation |
+| 2 | *A Long Walk to Water* — Linda Sue Park (South Sudan/USA); *Boy: Tales of Childhood* — Roald Dahl (Wales/Norway/England); *The Arrival* — Shaun Tan (wordless, Australia) | Poems from around the world — Langston Hughes, Rabindranath Tagore, John Agard, Maya Angelou, Kit Wright | balanced argument and persuasive speech; memoir; migration story from images |
+| 3 | *Skellig* — David Almond (England); *The Tempest* — William Shakespeare (in a quality retelling plus key scenes) | "The Door" — Miroslav Holub; *Jabberwocky* — Lewis Carroll | literary analysis essay; scripted scene and performance; independent research report; personal poetry anthology |
 
 **What this year assumes (from Year 4):** fluent, expressive reading of age-appropriate novels; a
 joined, legible handwriting style; paragraphs organised around a topic; relative clauses, modal verbs
@@ -31,7 +31,7 @@ persuasive writing with rhetorical devices.
 **What this year adds:** summarising and **analysing** whole texts with evidence (Point–Evidence–
 Explain); comparing texts and perspectives; the **passive voice** and **formal register**; **semicolons,
 colons and dashes** between independent clauses; hyphens to avoid ambiguity; bullet-point layout;
-précis; the Y5/6 statutory word list and Greek and Latin roots; **balanced argument**; memoir; dual
+précis; the Y5/6 statutory word list and Greek and Latin roots; **balanced argument**; memoir; multiple and dual
 narratives; drama and Shakespeare; and an **independent research project** with notes, sources and a
 bibliography.
 
@@ -52,9 +52,9 @@ conferences, author visits, World Book Day and catch-up.
 
 | Unit | Title | Term | Weeks | Lessons |
 |---|---|---|---|---|
-| 1 | *Holes*: character, structure and interwoven plots | 1 | 3.5 | 18 (1–18) |
-| 2 | Narrative poetry: *The Highwayman* | 1 | 1.5 | 8 (19–26) |
-| 3 | *Journey to Jo'burg*: point of view and justice | 1 | 3 | 14 (27–40) |
+| 1 | *Wonder*: character, voice and multiple narrators | 1 | 3.5 | 18 (1–18) |
+| 2 | Narrative poetry: *The Lady of Shalott* | 1 | 1.5 | 8 (19–26) |
+| 3 | *The Breadwinner*: point of view and justice | 1 | 3 | 14 (27–40) |
 | 4 | Non-fiction: news reports and explanations | 1 | 2.5 | 12 (41–52) |
 | 5 | Speaking and listening: debate, and Term 1 review | 1 | 1 | 5 (53–57) |
 | 6 | *A Long Walk to Water*: dual narratives | 2 | 3 | 16 (58–73) |
@@ -65,174 +65,174 @@ conferences, author visits, World Book Day and catch-up.
 | 11 | *Skellig*: literary fiction and analysis | 3 | 3 | 16 (116–131) |
 | 12 | *The Tempest*: Shakespeare, drama and performance | 3 | 3 | 14 (132–145) |
 | 13 | Independent research project | 3 | 3 | 14 (146–159) |
-| 14 | Poetry of choices: Frost, Carroll and our own anthology | 3 | 1 | 6 (160–165) |
+| 14 | Poetry of choices: Holub, Carroll and our own anthology | 3 | 1 | 6 (160–165) |
 | 15 | Year-end portfolio and bridge to Year 6 | 3 | 1 | 5 (166–170) |
 | | **Total** | | **34 (+2 flex)** | **170** |
 
 ---
 
-## Unit 1 — *Holes*: character, structure and interwoven plots
+## Unit 1 — *Wonder*: character, voice and multiple narrators
 
-**Essential question:** How can a writer weave separate stories across a hundred years into one satisfying ending?
+**Essential question:** How does telling one story through several narrators change what we understand — and what does it really mean to "choose kind"?
 
-**Key vocabulary:** protagonist, antagonist, narrator, third person, flashback, subplot, interwoven, foreshadowing, irony, motif, theme, inference, evidence, curse, justice, semicolon, colon, independent clause
+**Key vocabulary:** protagonist, narrator, first person, multiple narrators, perspective, voice, precept, empathy, inference, evidence, motif, theme, turning point, semicolon, colon, independent clause
 
-### Lesson 1 — Entering Camp Green Lake
+### Lesson 1 — "I know I'm not an ordinary ten-year-old kid"
 - **Duration:** 40 min
-- **Objective:** "By the end, I can make inferences about a setting and character from the opening chapters, citing the words that gave me the clue." (UK NC Y6 reading — inference / CCSS RL.5.1)
-- **Hook:** Read the first line: "There is no lake at Camp Green Lake." — "Why would a writer begin with a contradiction?"
-- **Key activity:** I do: read chapters 1–2 aloud, thinking aloud about what the narrator's dry tone suggests. We do: annotate a photocopied extract for clues about the camp (heat, dryness, rattlesnakes, the Warden). You do: complete an inference grid — "I think… because the text says…".
-- **Check for understanding:** "What does 'If you get bitten by a yellow-spotted lizard, you might as well go into the shade of the oak trees and lie in the hammock' tell us about the narrator's voice?" → It's darkly humorous/ironic: the calm tone describes certain death, so we sense the narrator is wry and the place is deadly.
-- **Differentiation:** support: inference grid with the quotations pre-selected and sentence starters / stretch: explain how the narrator's tone makes a frightening place seem funny, with two quotations.
-- **Materials:** class copies of *Holes* by Louis Sachar, extract photocopies, highlighters, inference grids.
-- **Joy:** sketch a "Welcome to Camp Green Lake" sign that is honest about the camp.
+- **Objective:** "By the end, I can make inferences about a narrator and his situation from the opening chapters, citing the words that gave me the clue." (UK NC Y6 reading — inference / CCSS RL.5.1)
+- **Hook:** Read the first line aloud: "I know I'm not an ordinary ten-year-old kid." — "What does a narrator reveal about himself by starting like that?"
+- **Key activity:** I do: read the opening chapters of *Wonder* by R. J. Palacio aloud, thinking aloud about what August (Auggie) tells us and what he holds back about his face, his home-schooling and starting school. We do: annotate an extract for clues about how he feels and how others treat him. You do: complete an inference grid — "I think… because the text says…".
+- **Check for understanding:** "Auggie says he won't describe what he looks like — 'whatever you're thinking, it's probably worse.' What does that tell us about him?" → He is used to people staring and has learned to protect himself with humour; he is funny and honest but also expects to be judged.
+- **Differentiation:** support: inference grid with the quotations pre-selected and sentence starters / stretch: explain how Auggie's humour makes a painful situation readable, with two quotations.
+- **Materials:** class copies of *Wonder* by R. J. Palacio, extract photocopies, highlighters, inference grids.
+- **Joy:** "Precept jar" — begin a class collection of wise sayings, as Auggie's English teacher does.
 
-### Lesson 2 — Meeting Stanley Yelnats
+### Lesson 2 — Meeting Auggie and Beecher Prep
 - **Duration:** 40 min
 - **Objective:** "By the end, I can describe a character using evidence of what he says, does and thinks, and how others treat him." (UK NC Y6 reading / CCSS RL.5.3)
-- **Hook:** "Stanley's name is a palindrome. What else about him seems to go round in circles?"
-- **Key activity:** Build a character "role on the wall" (outline of Stanley): inside — thoughts and feelings; outside — how others see him. Pupils find evidence in chapters 3–7 and add quotations.
-- **Check for understanding:** "Is Stanley a victim or does he make his own luck? Give one piece of evidence." → A reasoned answer with a quotation (e.g. he was wrongly accused and blames his "no-good-dirty-rotten-pig-stealing-great-great-grandfather", suggesting he believes in bad luck rather than choice).
-- **Differentiation:** support: choose from six provided quotations and match each to a trait / stretch: explain how Sachar makes us sympathise with Stanley without Stanley complaining much.
-- **Materials:** *Holes*, large paper for role on the wall, sticky notes.
-- **Joy:** "Palindrome challenge" — invent palindromic names for other characters.
+- **Hook:** "Three pupils are asked to show Auggie round his new school before term starts. What would you do in their place?"
+- **Key activity:** Build a character "role on the wall" (outline of Auggie): inside — thoughts and feelings; outside — how others see and treat him (the tour with Jack, Julian and Charlotte; the first days in class). Pupils find evidence and add quotations. Discuss respectful language for talking about facial difference.
+- **Check for understanding:** "How does Auggie cope with being stared at in his first days? Give one piece of evidence." → A reasoned answer with evidence (e.g. he keeps his head down and makes jokes, but tells us privately how much it hurts), showing both courage and hurt.
+- **Differentiation:** support: choose from six provided quotations and match each to a trait / stretch: explain how Palacio makes us sympathise with Auggie without him ever asking for pity.
+- **Materials:** *Wonder*, large paper for role on the wall, sticky notes.
+- **Joy:** Mr Browne's first precept — "When given the choice between being right or being kind, choose kind" — becomes the class motto for the week.
 
-### Lesson 3 — Stories inside the story: the Yelnats curse
+### Lesson 3 — Another narrator: Via's story
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how a flashback adds meaning to the main story." (UK NC Y6 reading — structure / CCSS RL.5.5)
-- **Hook:** "Why does the book suddenly jump to a village in Latvia and a boy called Elya carrying a pig up a mountain?"
-- **Key activity:** Read the Elya Yelnats and Madame Zeroni chapters. Create a two-row timeline (the past, the present) and connect events with string or arrows. Discuss what the flashback makes us expect.
-- **Check for understanding:** "What promise did Elya break, and how might it connect to Stanley's bad luck?" → He promised to carry Madame Zeroni up the mountain and sing to her but left without doing it, so the family was cursed — which is why Stanley's life goes wrong.
-- **Differentiation:** support: timeline template with events printed to sort / stretch: predict how the curse might be broken and give textual reasons.
-- **Materials:** *Holes*, two-row timeline strips, string or wool, event cards.
-- **Joy:** a class "curse-tracker" wall timeline that grows through the book.
+- **Objective:** "By the end, I can explain how a change of narrator adds meaning to the main story." (UK NC Y6 reading — structure / CCSS RL.5.5)
+- **Hook:** "Suddenly the book stops being Auggie's story. His sister Via says Auggie is the Sun and the family are planets orbiting him. What does she mean?"
+- **Key activity:** Read the opening of Via's section. Create a two-column chart: what we knew from Auggie / what Via's section adds (her feelings about being the 'easy' child, her grandmother, starting high school). Discuss what the change of narrator makes us expect.
+- **Check for understanding:** "What does Via's section tell us that Auggie could never have told us himself?" → Her private feelings — her love for Auggie mixed with loneliness and the wish to be seen for herself — which Auggie doesn't know about.
+- **Differentiation:** support: chart template with events printed to sort / stretch: predict whose voice we might hear next and what they might reveal, with reasons.
+- **Materials:** *Wonder*, two-column charts, a simple 'Sun and planets' diagram.
+- **Joy:** a class "narrator map" that grows as each new voice appears.
 
 ### Lesson 4 — Sentence studio: the semicolon
 - **Duration:** 35 min
 - **Objective:** "By the end, I can use a semicolon to join two closely linked independent clauses." (UK NC Y6 grammar / CCSS L.5.2)
-- **Hook:** "Stanley dug; the sun burned. How is that different from 'Stanley dug. The sun burned.'?"
-- **Key activity:** Teach: a semicolon joins two complete sentences (independent clauses) that are closely related, without a conjunction. Test: each side must stand alone. Practise by rewriting pairs of sentences about the camp; spot incorrect semicolons.
-- **Check for understanding:** "Is this correct: 'Stanley was exhausted; because he had dug all day.' Why or why not?" → No: "because he had dug all day" is not an independent clause, so a semicolon can't be used; write "Stanley was exhausted because he had dug all day."
+- **Hook:** "Auggie walked into the classroom; everyone went quiet. How is that different from 'Auggie walked into the classroom. Everyone went quiet.'?"
+- **Key activity:** Teach: a semicolon joins two complete sentences (independent clauses) that are closely related, without a conjunction. Test: each side must stand alone. Practise by rewriting pairs of sentences about the book; spot incorrect semicolons.
+- **Check for understanding:** "Is this correct: 'Auggie felt nervous; because it was his first day.' Why or why not?" → No: "because it was his first day" is not an independent clause, so a semicolon can't be used; write "Auggie felt nervous because it was his first day."
 - **Differentiation:** support: cut-up sentence strips to test each half aloud ("Does it make sense alone?") / stretch: use a semicolon to separate items in a complex list that already contains commas.
-- **Materials:** sentence strips, *Holes* extracts, mini-whiteboards.
+- **Materials:** sentence strips, *Wonder* extracts, mini-whiteboards.
 - **Joy:** "Semicolon surgery" — join and separate sentence strips with a giant cardboard semicolon.
 
-### Lesson 5 — Kissin' Kate Barlow: a story of injustice
+### Lesson 5 — Halloween: a friendship broken
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how a writer uses a subplot to explore a theme such as injustice." (UK NC Y6 reading — themes / CCSS RL.5.2)
-- **Hook:** "How did a kind schoolteacher who made spiced peaches become a feared outlaw?"
-- **Key activity:** Read the Katherine Barlow and Sam chapters. In groups, discuss why the town turns against Sam and what that says about fairness. Record on a "theme web" connecting injustice to Stanley's story and Zero's.
-- **Check for understanding:** "Why does Katherine become 'Kissin' Kate'? What does Sachar want us to think about the townspeople?" → After Sam is killed for being with her (because he was Black), she turns outlaw; Sachar wants us to see the town's prejudice and cruelty as the real crime.
-- **Differentiation:** support: guided reading group with key passages marked and question prompts / stretch: find a detail in the Kate Barlow story that later explains something in Stanley's time (e.g. the lake drying up, the peaches, the treasure).
-- **Materials:** *Holes*, theme-web templates, sticky notes.
-- **Joy:** "Onion wisdom" — a class display of Sam's claims about onions, to check against the ending.
+- **Objective:** "By the end, I can explain how a key event changes a relationship and develops a theme." (UK NC Y6 reading — themes / CCSS RL.5.2)
+- **Hook:** "Auggie loves Halloween: for one day, nobody can see his face. So why does this Halloween become the worst day of his year?"
+- **Key activity:** Read the Halloween chapters, in which Auggie, in an unexpected costume, overhears his friend Jack saying cruel things about him to fit in with Julian. In groups, discuss why Jack said it and how Auggie responds. Record on a "theme web" connecting friendship, belonging and kindness.
+- **Check for understanding:** "Why is the Halloween moment so painful for Auggie, and what does it tell us about Jack?" → Auggie trusted Jack as his real friend; hearing him mock Auggie to impress others shows how much pressure there is to fit in — and that Jack made a weak choice, not that he is simply cruel.
+- **Differentiation:** support: guided reading group with key passages marked and question prompts / stretch: predict how Jack's own section might change our view of this moment, with reasons.
+- **Materials:** *Wonder*, theme-web templates, sticky notes.
+- **Joy:** "Precept jar": pupils add a precept that Jack should have remembered.
 
 ### Lesson 6 — Vocabulary: word families and roots
 - **Duration:** 35 min
 - **Objective:** "By the end, I can use Greek and Latin roots to work out the meanings of unfamiliar words." (UK NC Y6 spelling & vocabulary / CCSS L.5.4b)
-- **Hook:** "'Photograph', 'autograph', 'graphic'. What do you think 'graph' means?"
-- **Key activity:** Teach roots: *graph* (write), *tele* (far), *aqua* (water), *port* (carry), *dict* (say), *spect* (look), *bio* (life). Build word-family trees; use the roots to decode new words from the book (e.g. "inspect", "predict", "export").
-- **Check for understanding:** "Using roots, what might 'aqueduct' mean? Explain your reasoning." → Something that carries water ('aqua' = water, 'duct' from 'lead/carry').
+- **Hook:** "Mr Browne teaches 'precepts'. 'Pre' means before — so what might 'cept' mean?"
+- **Key activity:** Teach roots: *cept/cap* (take), *spect* (look), *dict* (say), *port* (carry), *vis/vid* (see), *bene* (good), *aqua* (water). Build word-family trees; use the roots to decode words from the book and beyond (precept, spectator, predict, visible, benefit).
+- **Check for understanding:** "Using roots, what might 'benefactor' mean? Explain your reasoning." → Someone who does good for others ('bene' = good, 'fact' = do/make, '-or' = a person who).
 - **Differentiation:** support: 4 roots with picture cues and example words / stretch: invent a plausible new word from two roots and define it.
 - **Materials:** root cards, word-family tree templates, a children's dictionary with etymologies.
-- **Joy:** "Root inventor" — invent and illustrate a new word (e.g. 'aquagraph').
+- **Joy:** "Root inventor" — invent and illustrate a new word (e.g. 'benevision': seeing the good in people).
 
-### Lesson 7 — Zero: friendship and literacy
+### Lesson 7 — Jack's side: understanding a mistake
 - **Duration:** 40 min
 - **Objective:** "By the end, I can track how a relationship changes and explain what causes the change." (UK NC Y6 reading / CCSS RL.5.3)
-- **Hook:** "Zero says, 'I'm not stupid… I just don't like answering questions.' What does that tell us?"
-- **Key activity:** Map the Stanley–Zero relationship on a "relationship graph" (closeness over time) with key events: digging, teaching Zero to read, Zero running away. Discuss why learning to read matters to Zero.
-- **Check for understanding:** "Why is Stanley teaching Zero to read such an important turning point?" → It's the first time Stanley chooses to help someone at cost to himself; it builds trust and shows Zero's intelligence and dignity, changing both boys.
-- **Differentiation:** support: pre-plotted key events to place on the graph / stretch: argue whether Stanley's motive for teaching Zero is completely unselfish, with evidence.
-- **Materials:** *Holes*, relationship-graph templates, coloured pencils.
-- **Joy:** write a short "lesson plan" Stanley might use to teach Zero, including a joke.
+- **Hook:** "Now we hear from Jack. Will his side of the story change what we think of him?"
+- **Key activity:** Read Jack's section. Map the Auggie–Jack friendship on a "relationship graph" (closeness over time) with key events: the tour, becoming friends, Halloween, the punch, the "war" with Julian's group, making up. Discuss what Jack learns.
+- **Check for understanding:** "What do we learn in Jack's section about the Halloween moment that Auggie couldn't know, and how does it change your judgement?" → Jack felt pressured by Julian, regretted it at once and really does like Auggie; we still think it was wrong, but we understand him and believe his apology.
+- **Differentiation:** support: pre-plotted key events to place on the graph / stretch: argue whether Jack deserves forgiveness, with evidence from both narrators.
+- **Materials:** *Wonder*, relationship-graph templates, coloured pencils.
+- **Joy:** write the apology message Jack might have sent — then compare with what he does in the book.
 
-### Lesson 8 — Spelling: -cious and -tious; -cial and -tial
+### Lesson 8 — Spelling: when suffixes break the rule (argument, truly, awful)
 - **Duration:** 35 min
-- **Objective:** "By the end, I can choose between -cious/-tious and -cial/-tial using the root word, and know the exceptions." (UK NC Y5–6 spelling / CCSS L.5.2e)
-- **Hook:** "Vicious lizards, nutritious onions and a suspicious Warden. Why is one spelled -tious and the others -cious?"
-- **Key activity:** Teach the guide: if the root ends in -ce, use -cious (grace → gracious, space → spacious); many others use -tious (ambition → ambitious). -cial is common after a vowel (official, special), -tial after a consonant (partial, essential) — with exceptions (initial, financial, commercial). Sort words; write sentences about the camp.
-- **Check for understanding:** "Why is 'spacious' spelled with -cious?" → It comes from 'space', which ends in -ce.
-- **Differentiation:** support: 10 high-frequency words with a sorting mat / stretch: find three exceptions to the -cial/-tial guide and explain them.
+- **Objective:** "By the end, I can add consonant suffixes such as -ness, -ment, -ful and -ly correctly, including the common exceptions." (UK NC Y5–6 spelling / CCSS L.5.2e)
+- **Hook:** "The rule says keep the e before a consonant suffix: hope → hopeful, amaze → amazement. So why is it 'argument', 'truly' and 'awful'?"
+- **Key activity:** Retrieve the rules (keep the final e before a consonant suffix; y → i after a consonant: kind → kindness, happy → happiness). Then teach the exceptions that trip up even adults: argue → argument, true → truly, due → duly, whole → wholly, awe → awful, and judge → judgement (British) or judgment (American). Sort words about the novel's themes (kindness, loneliness, courageous, argument, truly, thoughtful).
+- **Check for understanding:** "Which of these is spelled wrongly — hopeful, arguement, loneliness, truly — and what is the rule it breaks?" → 'arguement' is wrong: 'argument' is an exception that drops the e even though -ment starts with a consonant.
+- **Differentiation:** support: 10 high-frequency words with a sorting mat / stretch: find two more exceptions in a dictionary and explain them.
 - **Materials:** word-sort cards, spelling journals, dictionaries.
-- **Joy:** "Camp Green Lake wanted poster" using as many -cious/-tious words as possible.
+- **Joy:** "Rule-breakers wanted" poster for the classroom wall.
 
-### Lesson 9 — Foreshadowing: the clues Sachar planted
+### Lesson 9 — Same event, different eyes
 - **Duration:** 40 min
-- **Objective:** "By the end, I can identify foreshadowing and explain how it prepares the reader for later events." (UK NC Y6 reading — structure / CCSS RL.5.5)
-- **Hook:** "Sachar mentions onions, peaches and a lullaby early on. Coincidence?"
-- **Key activity:** Detective hunt through Part 1 for planted clues (the song "If only, if only", Sam's onions, the gold tube with "KB", Stanley's great-grandfather robbed by Kissin' Kate). Record each on a "clue card" with a prediction.
-- **Check for understanding:** "Explain how the gold tube marked 'KB' links the past and present stories." → It belonged to Katherine Barlow; finding it suggests the Warden is searching for Kate's buried treasure — the real reason the boys dig.
-- **Differentiation:** support: clue cards with page references / stretch: rank the clues by how obvious they are and argue which is the cleverest piece of foreshadowing.
-- **Materials:** *Holes*, detective clue cards, magnifying glasses (for fun).
-- **Joy:** "Case board" — pin clues and connections with string, detective-style.
+- **Objective:** "By the end, I can compare how two narrators present the same event and explain the effect on the reader." (UK NC Y6 reading — structure / CCSS RL.5.6)
+- **Hook:** "Summer sits with Auggie at lunch on the first day. Auggie thinks one thing; Summer tells us why. Who knows the truth?"
+- **Key activity:** Read Summer's section. Detective hunt: find moments told by more than one narrator (the lunch table, Halloween, the science fair). Record each on a "two lenses" card: narrator A saw… / narrator B reveals… Discuss why Palacio lets us see events twice.
+- **Check for understanding:** "Why does Palacio tell some events twice, through different narrators?" → Each narrator knows only part of the truth; seeing the same moment from another side builds empathy and shows how easily we misjudge other people.
+- **Differentiation:** support: 'two lenses' cards with page references / stretch: rank the retold moments by how much the second narrator changes our understanding and justify the top choice.
+- **Materials:** *Wonder*, 'two lenses' cards, coloured glasses (for fun).
+- **Joy:** "Case board" — pin each event and its two versions with string, detective-style.
 
 ### Lesson 10 — Sentence studio: colons and dashes between clauses
 - **Duration:** 35 min
 - **Objective:** "By the end, I can use a colon to introduce an explanation and a dash to add a dramatic afterthought." (UK NC Y6 grammar / CCSS L.5.2)
-- **Hook:** Compare: "Stanley knew one thing for sure: the Warden was lying." / "Stanley opened the jar — it was empty."
+- **Hook:** Compare: "Auggie knew one thing for sure: he never wanted to go back." / "Auggie opened the door — the room went silent."
 - **Key activity:** Teach: a colon after a complete clause introduces an explanation or a list; a dash (informal) adds a pause for emphasis or an afterthought. Practise with sentences about the book, choosing which punctuation fits the effect.
-- **Check for understanding:** "Why is 'The boys had: shovels and water.' incorrect?" → A colon should follow a complete clause; "The boys had" is not complete. Write "The boys had two things: shovels and water."
+- **Check for understanding:** "Why is 'Auggie had: courage and humour.' incorrect?" → A colon should follow a complete clause; "Auggie had" is not complete. Write "Auggie had two great strengths: courage and humour."
 - **Differentiation:** support: choose between two versions and explain which is correct / stretch: write a suspenseful paragraph that uses a semicolon, a colon and a dash, each for a clear reason.
-- **Materials:** punctuation cards, mini-whiteboards, *Holes* extracts.
+- **Materials:** punctuation cards, mini-whiteboards, *Wonder* extracts.
 - **Joy:** "Punctuation stage" — pupils read sentences aloud, performing the pause each mark creates.
 
-### Lesson 11 — Big Thumb: survival and hope
+### Lesson 11 — The nature retreat: a turning point
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how the setting changes the mood and reflects a character's feelings." (UK NC Y6 reading / CCSS RL.5.3)
-- **Hook:** "Two boys climbing a mountain in the desert, living on 'sploosh'. Why does the mood turn hopeful here?"
-- **Key activity:** Compare two setting descriptions — the camp and the mountain near Big Thumb. Collect words for each and discuss how the setting mirrors Stanley's growing strength and the curse lifting (he carries Zero up the mountain, as Elya failed to carry Madame Zeroni).
-- **Check for understanding:** "Why is it significant that Stanley carries Zero up the mountain?" → It echoes Elya's broken promise; by carrying a Zeroni up a mountain, Stanley unknowingly fulfils the promise and breaks the curse.
-- **Differentiation:** support: setting word banks sorted into "hopeless" and "hopeful" / stretch: write the mountain scene as a short prose poem using a colon and a semicolon.
-- **Materials:** *Holes*, setting comparison chart, word banks.
-- **Joy:** "Taste of sploosh" — describe an imaginary 110-year-old peach preserve in five sensory words.
+- **Objective:** "By the end, I can explain how a change of setting creates a turning point and changes relationships." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "A night-time film in the woods, older boys from another school, and Auggie far from home. Why does the mood change here?"
+- **Key activity:** Read the chapters of the fifth-grade nature retreat. Compare the setting with school (collect words for each) and discuss how the danger in the dark woods — older boys bullying Auggie — becomes the moment classmates who once kept their distance stand up for him.
+- **Check for understanding:** "Why is the nature retreat a turning point for Auggie?" → When classmates who had avoided him protect him from the older boys, Auggie realises he truly belongs; the others show they have changed too.
+- **Differentiation:** support: setting word banks sorted into "school" and "woods" / stretch: write the woods scene as a short prose poem using a colon and a semicolon.
+- **Materials:** *Wonder*, setting comparison chart, word banks.
+- **Joy:** "Night sounds" — create the soundscape of the woods before reading the scene.
 
-### Lesson 12 — Reading response: theme of fate versus choice
+### Lesson 12 — Reading response: the theme of kindness
 - **Duration:** 45 min
 - **Objective:** "By the end, I can write a Point–Evidence–Explain paragraph about a theme." (UK NC Y6 reading & writing / CCSS RL.5.2, W.5.9a)
-- **Hook:** "Is Stanley's life controlled by a curse, or by his choices?"
-- **Key activity:** I do: model a PEE paragraph with a quotation, showing how to explain the effect of specific words. We do: co-write a second paragraph. You do: each pupil writes one paragraph taking a side on fate versus choice.
+- **Hook:** At the graduation, Mr Tushman quotes J. M. Barrie: "Shall we make a new rule of life from tonight: always to try to be a little kinder than is necessary?" — "Does the book prove him right?"
+- **Key activity:** I do: model a PEE paragraph with a quotation, showing how to explain the effect of specific words. We do: co-write a second paragraph. You do: each pupil writes one paragraph on "Is being kind always easy?" using evidence from two narrators.
 - **Check for understanding:** "What is the difference between retelling and explaining? Point to the sentence in your paragraph that explains." → Retelling repeats what happens; explaining says why it matters or how it shows the theme — pupils identify their own explanatory sentence.
 - **Differentiation:** support: PEE frame with sentence starters and a choice of three quotations / stretch: add a counter-argument sentence ("However, it could be argued…").
-- **Materials:** *Holes*, PEE frames, highlighters (three colours for P, E, E).
-- **Joy:** "Fate or choice?" — a quick 'human continuum' across the room before and after writing.
+- **Materials:** *Wonder*, PEE frames, highlighters (three colours for P, E, E).
+- **Joy:** "Kinder than necessary" — a secret kindness challenge for the week.
 
-### Lesson 13 — Plan an interwoven narrative
+### Lesson 13 — Plan a story told by two narrators
 - **Duration:** 40 min
-- **Objective:** "By the end, I can plan a short story that interweaves a past and a present strand that meet at the end." (UK NC Y6 writing — composition / CCSS W.5.3a)
-- **Hook:** "What if an object in your house had its own story from 100 years ago?"
-- **Key activity:** Analyse how *Holes* alternates chapters. Pupils choose an object (a key, a ring, a map), plan a present-day strand and a past strand on a two-column planner, and decide the moment where they connect.
-- **Check for understanding:** "How will your reader know when you switch from past to present? Name two techniques." → e.g. a new chapter/section heading, a change of tense or place name, a time adverbial ("A hundred years earlier…").
-- **Differentiation:** support: a choice of three ready-made object prompts with a partly filled planner / stretch: include a piece of foreshadowing in the first strand that pays off in the last.
-- **Materials:** two-column story planners, object bag (old key, locket, map), *Holes*.
-- **Joy:** the mystery-object bag — each pupil draws the object that inspires their story.
+- **Objective:** "By the end, I can plan a short story in which two narrators tell the same event in different ways." (UK NC Y6 writing — composition / CCSS W.5.3a)
+- **Hook:** "One event — a new pupil's first day, a broken window, a lost dog — seen by two people who don't understand each other yet."
+- **Key activity:** Analyse how *Wonder* hands the story from narrator to narrator, each with a heading and a different voice (Justin's section is even written without capital letters). Pupils choose an event, plan two sections on a two-column planner (what each narrator sees, knows, feels and misunderstands), and decide the moment the truth comes out.
+- **Check for understanding:** "How will your reader know when the narrator changes? Name two techniques." → e.g. a new section heading with the narrator's name, a change of voice (vocabulary, sentence length, humour), a different view of the same detail.
+- **Differentiation:** support: a choice of three ready-made event prompts with a partly filled planner / stretch: plant a detail in the first section that the second narrator reveals in a new light.
+- **Materials:** two-column story planners, event prompt cards, *Wonder*.
+- **Joy:** the mystery-event bag — each pupil draws the event that starts their story.
 
-### Lesson 14 — Draft: opening and first switch
+### Lesson 14 — Draft: the first narrator
 - **Duration:** 45 min
-- **Objective:** "By the end, I can draft an opening that hooks the reader and a clear switch between time strands." (UK NC Y6 writing / CCSS W.5.3a–b)
-- **Hook:** Share three first lines from famous novels. "Which would make you keep reading, and why?"
-- **Key activity:** Model an opening using a contradiction or bold statement (like Sachar's). Pupils draft their first section and the first switch, using a time adverbial and a new setting.
-- **Check for understanding:** "Read your first sentence aloud. What question does it plant in the reader's mind?" → Pupil names a specific question (e.g. "Why is the key warm?").
-- **Differentiation:** support: opening sentence frames and a word bank of time adverbials / stretch: open with a line of dialogue or a one-sentence paragraph for impact.
+- **Objective:** "By the end, I can draft an opening section that hooks the reader in a distinctive first-person voice." (UK NC Y6 writing / CCSS W.5.3a–b)
+- **Hook:** Share three first lines from famous novels, including *Wonder*'s. "Which would make you keep reading, and why?"
+- **Key activity:** Model an opening in a first-person voice that reveals character at once (like Auggie's). Pupils draft the first narrator's section, showing what this narrator notices, feels and gets wrong.
+- **Check for understanding:** "Read your first sentence aloud. What does it reveal about your narrator?" → Pupil names a specific trait or situation the sentence reveals (e.g. "that she's nervous but hides it with jokes").
+- **Differentiation:** support: opening sentence frames and a word bank for voice / stretch: open with a line of dialogue or a one-sentence paragraph for impact.
 - **Materials:** planners, writing books, first-line cards.
 - **Joy:** "First-line gallery" — pupils post their best first lines and vote on which they'd read on.
 
-### Lesson 15 — Draft: the moment the strands meet
+### Lesson 15 — Draft: the second narrator and the reveal
 - **Duration:** 45 min
-- **Objective:** "By the end, I can write the climax where two story strands connect, using varied sentence structures for pace." (UK NC Y6 writing / CCSS W.5.3b, W.5.3e)
-- **Hook:** "In *Holes*, the suitcase says 'Stanley Yelnats'. How did that one detail make you feel?"
-- **Key activity:** Model varying sentence length for pace (short sentences for tension, a longer one for revelation). Pupils draft the connection scene and ending.
-- **Check for understanding:** "Where did you use a short sentence to build tension, and why there?" → Pupil identifies a short sentence at a tense moment and explains its effect (sudden, dramatic).
-- **Differentiation:** support: a model ending to magpie from and a checklist / stretch: end with a line that echoes the opening (a circular structure).
-- **Materials:** writing books, pace checklist, *Holes* final chapters.
+- **Objective:** "By the end, I can write a second section in a contrasting voice that changes the reader's understanding, using varied sentence structures." (UK NC Y6 writing / CCSS W.5.3b, W.5.3e)
+- **Hook:** "In *Wonder*, Jack's section changed how we saw Halloween. Now your second narrator gets to tell their side."
+- **Key activity:** Model varying sentence length for pace and choosing vocabulary that gives a second narrator a different voice. Pupils draft the second section and the moment the truth comes out.
+- **Check for understanding:** "What does your second narrator reveal that the first couldn't know, and how does their voice sound different?" → Pupil identifies the new information and one clear voice difference (vocabulary, sentence length, tone).
+- **Differentiation:** support: a model second section to magpie from and a checklist / stretch: end with a line that echoes the first narrator's opening but means something new.
+- **Materials:** writing books, voice checklist, *Wonder*.
 - **Joy:** pupils read their "reveal" line to a partner, who must react honestly.
 
 ### Lesson 16 — Revise and edit with a partner
 - **Duration:** 40 min
 - **Objective:** "By the end, I can revise my story for effect and edit it for accuracy using a checklist." (UK NC Y6 writing — evaluate and edit / CCSS W.5.5)
-- **Hook:** "Professional writers rewrite. Louis Sachar has said he rewrote *Holes* many times. What might he have changed?"
-- **Key activity:** Revising (content: clarity of switches, suspense, vocabulary) is separated from editing (spelling, punctuation). Partners use "two stars and a wish"; pupils make at least three visible revisions in a different colour, then edit.
-- **Check for understanding:** "Show one revision you made and explain how it improved the reader's experience." → A specific change (e.g. replaced "went" with "stumbled"; moved a clue earlier) with a reason.
+- **Hook:** "Can your partner tell which narrator is speaking without looking at the headings?"
+- **Key activity:** Revising (content: distinct voices, clarity of the switch, suspense, vocabulary) is separated from editing (spelling, punctuation). Partners use "two stars and a wish"; pupils make at least three visible revisions in a different colour, then edit.
+- **Check for understanding:** "Show one revision you made and explain how it improved the reader's experience." → A specific change (e.g. made the second voice more formal; moved a clue earlier) with a reason.
 - **Differentiation:** support: a short checklist of three items and a partner who reads aloud to them / stretch: cut 10% of the words without losing meaning.
 - **Materials:** drafts, coloured editing pens, revision and editing checklists.
 - **Joy:** "Before and after" — read one sentence in both versions and feel the difference.
@@ -241,87 +241,87 @@ conferences, author visits, World Book Day and catch-up.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can present a polished final version and read it aloud with expression." (UK NC Y6 writing & spoken language / CCSS W.5.4, SL.5.4)
 - **Hook:** "An audience changes everything. Who will read our stories?"
-- **Key activity:** Pupils publish (handwritten or typed), adding a title and a one-sentence blurb. Small-group readings with listeners giving specific praise about the structure.
-- **Check for understanding:** "Listeners: where exactly did the story switch time, and how did the writer signal it?" → Listener identifies the switch and the technique used.
-- **Differentiation:** support: publish an extract (opening and meeting point) / stretch: add a cover with a tagline that hints at the connection without giving it away.
+- **Key activity:** Pupils publish (handwritten or typed), adding a title and a one-sentence blurb. Small-group readings in two voices (a partner reads the second narrator), with listeners giving specific praise about the structure.
+- **Check for understanding:** "Listeners: how did the second narrator change what you thought about the event, and how did the writer make the two voices different?" → Listener identifies the change in understanding and one voice technique.
+- **Differentiation:** support: publish an extract (the opening and the reveal) / stretch: add a cover with a tagline that hints at the two sides without giving the reveal away.
 - **Materials:** publishing paper, laptops (optional), binding materials.
 - **Joy:** "Author's chair" readings to a younger class.
 
-### Lesson 18 — *Holes* unit review and book talk
+### Lesson 18 — *Wonder* unit review and book talk
 - **Duration:** 40 min
 - **Objective:** "By the end, I can discuss the whole novel, supporting my opinions with evidence and responding to others." (UK NC Y6 reading & spoken language / CCSS SL.5.1)
-- **Hook:** "Would *Holes* be better or worse if it were told in order, from 1890s Latvia to the present?"
-- **Key activity:** Structured book talk (Aidan Chambers' "Tell me" approach: likes, dislikes, puzzles, patterns). Then a short independent mastery task: explain one connection between the three strands with evidence.
-- **Check for understanding:** "Explain how the three strands (Elya, Kate Barlow, Stanley) are linked by one object or motif." → e.g. the peaches/onions, the treasure, or the song, with the link explained.
-- **Differentiation:** support: talk roles and sentence stems ("I agree with… because…") / stretch: compare *Holes*' structure with another book they know that uses flashbacks.
-- **Materials:** *Holes*, "Tell me" talk prompt cards, mastery task sheet.
-- **Joy:** vote on the book's best line and make it the class motto for a week.
+- **Hook:** "Would *Wonder* be better or worse if Auggie told the whole story himself?"
+- **Key activity:** Structured book talk (Aidan Chambers' "Tell me" approach: likes, dislikes, puzzles, patterns). Then a short independent mastery task: explain how one other narrator changes our understanding of Auggie's story, with evidence.
+- **Check for understanding:** "Choose one narrator other than Auggie and explain what their section adds to the whole book." → e.g. Via shows the family's hidden struggles; Jack explains Halloween; Summer shows that kindness can be a free choice — with the link explained.
+- **Differentiation:** support: talk roles and sentence stems ("I agree with… because…") / stretch: compare *Wonder*'s structure with another book they know that uses more than one narrator.
+- **Materials:** *Wonder*, "Tell me" talk prompt cards, mastery task sheet.
+- **Joy:** vote on the class's favourite precept and make it the class motto for the term.
 
-**End-of-unit check:** Pupil writes a PEE paragraph explaining how Sachar links the past and present strands, using at least one quotation; and correctly uses a semicolon and a colon in their own narrative.
+**End-of-unit check:** Pupil writes a PEE paragraph explaining how Palacio uses more than one narrator to change the reader's understanding, using at least one quotation; and correctly uses a semicolon and a colon in their own narrative.
 
 ---
 
-## Unit 2 — Narrative poetry: *The Highwayman*
+## Unit 2 — Narrative poetry: *The Lady of Shalott*
 
 **Essential question:** How does a poem tell a story through rhythm, repetition and imagery?
 
-**Key vocabulary:** narrative poem, ballad, stanza, rhythm, rhyme scheme, refrain, repetition, metaphor, simile, personification, imagery, alliteration, onomatopoeia, performance
+**Key vocabulary:** narrative poem, ballad, stanza, rhythm, rhyme scheme, refrain, repetition, metaphor, simile, personification, imagery, alliteration, contrast, performance
 
 ### Lesson 19 — Hearing the poem
 - **Duration:** 40 min
 - **Objective:** "By the end, I can describe the rhythm and mood of a narrative poem and explain how they are created." (UK NC Y6 reading — poetry / CCSS RL.5.5)
-- **Hook:** Listen in the dark (lights off, curtains drawn) to the opening stanzas of *The Highwayman* read dramatically.
-- **Key activity:** Read the whole poem by Alfred Noyes (1906). Clap the galloping rhythm; mark the repeated lines and rhyme scheme. Discuss the mood of each part.
-- **Check for understanding:** "Why does the poem's rhythm sound like a galloping horse? Show where." → The regular strong beats (e.g. "The HIGH-way-man came RID-ing — RID-ing — RID-ing") and repetition imitate hoofbeats.
-- **Differentiation:** support: listen with the text and a glossary (ostler, galleon, casement) / stretch: find where the rhythm changes and explain why.
-- **Materials:** copies of *The Highwayman* by Alfred Noyes, audio recording or teacher reading, glossary.
-- **Joy:** lights-off dramatic listening.
+- **Hook:** Lights low, a single candle (LED) by a window: "Four grey walls, and four grey towers, / Overlook a space of flowers, / And the silent isle imbowers / The Lady of Shalott."
+- **Key activity:** Read the whole poem by Alfred, Lord Tennyson (published 1832, revised 1842) in its four parts. Tap the steady beat; mark the rhyme scheme of one stanza (AAAABCCCB) and notice that every stanza ends with "Camelot" in line 5 and "Shalott" in line 9. Discuss the mood of each part. (Alfred Noyes's "The Highwayman" was studied in Year 4.)
+- **Check for understanding:** "How do the steady rhythm and the fixed rhyme words 'Camelot' and 'Shalott' help create the mood?" → The regular beat is like the steady weaving and the flowing river; ending every stanza on the same two words makes each one feel closed in — just as the Lady is trapped in her tower.
+- **Differentiation:** support: listen with the text and a glossary (wold, shallop, greaves, reapers) / stretch: find where the rhythm or mood changes and explain why.
+- **Materials:** copies of "The Lady of Shalott" by Alfred, Lord Tennyson (the Charles Keeping illustrated edition is excellent), audio recording or teacher reading, glossary.
+- **Joy:** candlelit dramatic listening.
 
-### Lesson 20 — Imagery: the moon was a ghostly galleon
+### Lesson 20 — Imagery: shadows and sunlight
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the effect of metaphors in a poem." (UK NC Y6 reading — figurative language / CCSS RL.5.4, L.5.5a)
-- **Hook:** "The road was a ribbon of moonlight." — "Is the road really a ribbon?"
-- **Key activity:** Analyse the three metaphors in the opening stanza (wind as a torrent of darkness, moon as a ghostly galleon, road as a ribbon of moonlight). Pupils draw each literally and then explain what it suggests.
-- **Check for understanding:** "What does 'the moon was a ghostly galleon tossed upon cloudy seas' suggest about the night?" → The moon moves in and out of clouds like a ship on stormy waves — the night is wild, eerie and unsettled.
-- **Differentiation:** support: match each metaphor to one of three possible meanings / stretch: write your own set of three metaphors for a calm morning.
-- **Materials:** poem copies, drawing paper, metaphor analysis grid.
-- **Joy:** "Literal drawing" — sketch what the metaphor would look like if it were literally true.
+- **Objective:** "By the end, I can explain the effect of imagery and contrast in a poem." (UK NC Y6 reading — figurative language / CCSS RL.5.4, L.5.5a)
+- **Hook:** "For years the Lady sees the world only as shadows in a mirror. Then Sir Lancelot rides by, flashing in the sun."
+- **Key activity:** Compare the grey, shadowy images of Parts I–II (the tower, the mirror, "shadows of the world") with the dazzling light and colour of Lancelot's arrival in Part III (sunlight on his armour and helmet, jewels, the song "Tirra lirra"). Pupils sort images into 'shadow' and 'light' and explain what the contrast suggests.
+- **Check for understanding:** "Why does Tennyson make Lancelot so bright and dazzling, and what does it show about the Lady's life?" → His light, colour and song contrast with her grey, shadowy world; it shows how much real life she has been missing, which is why she can no longer resist looking.
+- **Differentiation:** support: match each image to 'shadow' or 'light' with a picture / stretch: explain what the line "I am half sick of shadows" reveals about her feelings.
+- **Materials:** poem copies, drawing paper, image-sorting grid.
+- **Joy:** "Mirror and window" — pupils sketch the same scene as a dim reflection and as dazzling reality.
 
-### Lesson 21 — Characters in a ballad
+### Lesson 21 — Characters and the curse
 - **Duration:** 40 min
-- **Objective:** "By the end, I can infer characters' motives from a poem and discuss who is to blame." (UK NC Y6 reading / CCSS RL.5.3)
-- **Hook:** "Bess, the highwayman, Tim the ostler, the redcoats: who is the villain?"
-- **Key activity:** Hot-seat each character (pupils in role answer questions using evidence from the poem). Build a "blame ladder" and justify placings.
-- **Check for understanding:** "Why does Tim the ostler betray the highwayman? Use a line to support your answer." → He loves Bess and is jealous ("he loved the landlord's daughter"), so he tells the redcoats.
-- **Differentiation:** support: hot-seat with a question bank and evidence cards / stretch: argue that the highwayman is not a hero, using his profession and choices.
-- **Materials:** poem copies, simple costume props (hat, cloak, red ribbon), blame-ladder template.
+- **Objective:** "By the end, I can infer a character's motives from a poem and discuss who or what is to blame." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "A curse, a mirror and a knight who never knew she existed: who is to blame for what happens?"
+- **Key activity:** Hot-seat the Lady, Sir Lancelot and a townsperson of Camelot (pupils in role answer questions using evidence from the poem). Build a "blame ladder" (the curse, the Lady's choice, Lancelot, the people of Camelot) and justify placings.
+- **Check for understanding:** "Why does the Lady leave the loom and look out at Camelot, even though she knows about the curse? Use a line to support your answer." → She is weary of living through reflections ("I am half sick of shadows") and Lancelot's brightness draws her to real life; she chooses to see the world for herself whatever it costs.
+- **Differentiation:** support: hot-seat with a question bank and evidence cards / stretch: argue that the Lady's choice is brave rather than foolish, using the poem.
+- **Materials:** poem copies, simple costume props (a shawl, a helmet), blame-ladder template.
 - **Joy:** hot-seating in costume.
 
 ### Lesson 22 — Performing a narrative poem
 - **Duration:** 40 min
 - **Objective:** "By the end, I can perform part of a narrative poem, using volume, pace and pause to create mood." (UK NC Y6 spoken language / CCSS SL.5.4)
 - **Hook:** Watch or listen to two readings of the same stanza — one flat, one dramatic.
-- **Key activity:** Groups take a section; annotate for pace, volume, emphasis and sound effects; rehearse with choral and solo voices.
-- **Check for understanding:** "Where did your group choose to slow down or pause, and why?" → A specific moment (e.g. Bess's sacrifice) justified by the mood.
+- **Key activity:** Groups take a section (the tower, Lancelot's ride, the curse falling — "The mirror crack'd from side to side" — or the boat drifting down to Camelot); annotate for pace, volume, emphasis and sound effects; rehearse with choral and solo voices.
+- **Check for understanding:** "Where did your group choose to slow down or pause, and why?" → A specific moment (e.g. the mirror cracking, or the final stanza) justified by the mood.
 - **Differentiation:** support: shorter section with performance annotations suggested / stretch: direct the group, planning an ending that echoes the opening.
-- **Materials:** poem copies, annotation symbols sheet, percussion (for hoofbeats).
-- **Joy:** whole-poem performance with hoofbeat percussion.
+- **Materials:** poem copies, annotation symbols sheet, percussion (a bell, a rain-stick).
+- **Joy:** whole-poem performance in four parts, with a paper boat drifting across the room for Part IV.
 
 ### Lesson 23 — Spelling: homophones and near-homophones
 - **Duration:** 35 min
 - **Objective:** "By the end, I can choose correctly between tricky homophones such as affect/effect, practice/practise and stationary/stationery." (UK NC Y5–6 spelling / CCSS L.5.2e)
-- **Hook:** "The redcoats' guns were stationary (or stationery?) at Bess's side."
+- **Hook:** "The Lady's loom was stationary (or stationery?) when she walked to the window."
 - **Key activity:** Teach with memory hooks: stationEry (envelopes), stationAry (stAy); affect (verb, action) / effect (noun, end result — usually); advice/advise and practice/practise (noun with c, verb with s, in British spelling; note American English uses 'practice' for both). Sort and write sentences.
-- **Check for understanding:** "Which is correct: 'The storm will effect the harvest' or 'affect the harvest'? Why?" → 'Affect': it's the verb (the action of changing something).
+- **Check for understanding:** "Which is correct: 'The curse will effect her life' or 'affect her life'? Why?" → 'Affect': it's the verb (the action of changing something).
 - **Differentiation:** support: three pairs only, with picture mnemonics / stretch: explain the one common use of 'effect' as a verb ('to effect change' = to bring about).
 - **Materials:** homophone cards, mnemonic posters, spelling journals.
-- **Joy:** "Homophone hunt" — find mistakes planted in a fake 'wanted poster'.
+- **Joy:** "Homophone hunt" — find mistakes planted in a fake 'Camelot Gazette'.
 
 ### Lesson 24 — Plan a ballad
 - **Duration:** 40 min
 - **Objective:** "By the end, I can plan a narrative poem with a clear story arc, a refrain and a chosen rhyme scheme." (UK NC Y6 writing / CCSS W.5.3)
 - **Hook:** "What story from history, the news or a legend deserves to be a ballad?"
-- **Key activity:** Pupils choose a story (a legend from their heritage, a historical event, an invented tale), plan 5–6 stanzas on a storyboard, write a refrain and choose a rhyme scheme (e.g. AABB or ABCB).
+- **Key activity:** Pupils choose a story (a legend from their heritage, a historical event, an invented tale), plan 5–6 stanzas on a storyboard, write a refrain (like Tennyson's "The Lady of Shalott") and choose a rhyme scheme (e.g. AABB or ABCB).
 - **Check for understanding:** "Where will your refrain appear and what will its repetition add?" → A location (e.g. end of each stanza) and effect (tension, memorability, echo at the end).
 - **Differentiation:** support: 4 stanzas with a given refrain / stretch: use a changing refrain whose meaning shifts by the final stanza.
 - **Materials:** storyboard templates, rhyming dictionaries, legend books from several cultures.
@@ -331,7 +331,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Duration:** 45 min
 - **Objective:** "By the end, I can write a narrative poem using rhythm, rhyme, a refrain and at least two kinds of imagery." (UK NC Y6 writing / CCSS W.5.3d)
 - **Hook:** "Can you make a reader's heart race in eight lines?"
-- **Key activity:** Draft stanzas; reading aloud after each stanza to check rhythm; add a metaphor and a simile; a partner checks the story is clear.
+- **Key activity:** Draft stanzas; reading aloud after each stanza to check rhythm; add a metaphor and a contrast of light and shadow; a partner checks the story is clear.
 - **Check for understanding:** "Read one line aloud and clap the beat. Does it fit the rhythm of the others? If not, how will you fix it?" → Pupil identifies stressed beats and adjusts wording.
 - **Differentiation:** support: stanza frames with some lines given / stretch: use internal rhyme or alliteration to mimic a sound in the story.
 - **Materials:** draft books, rhyming dictionaries, thesauruses.
@@ -347,84 +347,84 @@ conferences, author visits, World Book Day and catch-up.
 - **Materials:** ballads, feedback cards, a simple stage area, optional recording device.
 - **Joy:** a recorded "ballad podcast" for families.
 
-**End-of-unit check:** Pupil explains the effect of one metaphor from *The Highwayman* in a PEE paragraph and performs an original ballad with a clear story, consistent rhythm and a refrain.
+**End-of-unit check:** Pupil explains the effect of one image or contrast from *The Lady of Shalott* in a PEE paragraph and performs an original ballad with a clear story, consistent rhythm and a refrain.
 
 ---
 
-## Unit 3 — *Journey to Jo'burg*: point of view and justice
+## Unit 3 — *The Breadwinner*: point of view and justice
 
-**Essential question:** How can a story told through children's eyes help us understand injustice — and why were some governments afraid of books like this?
+**Essential question:** How can a story told through one girl's eyes help us understand injustice — and what does courage look like when the rules themselves are unfair?
 
-**Key vocabulary:** apartheid, pass laws, segregation, justice, injustice, protest, perspective, point of view, first person, third person, empathy, diary, recount, formal, informal, passive voice
+**Key vocabulary:** Taliban, regime, oppression, justice, injustice, disguise, perspective, point of view, third person, empathy, resilience, diary, recount, formal, informal, passive voice
 
-### Lesson 27 — Setting the scene: South Africa under apartheid
+### Lesson 27 — Setting the scene: Kabul under the Taliban
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use background knowledge to understand the setting of a historical novel." (UK NC Y6 reading — context / CCSS RI.5.7, RL.5.1)
-- **Hook:** "This book was banned in South Africa when it was published in 1985. Why would a government ban a children's book?"
-- **Key activity:** Short, age-appropriate non-fiction reading and photographs about apartheid (separate areas, pass laws, unequal schooling) and its end in the early 1990s, with Nelson Mandela's release in 1990. Pupils build a "context board" to refer to while reading.
-- **Check for understanding:** "What were pass laws, and why might they matter to two children walking to Johannesburg?" → Laws requiring Black South Africans to carry passes to be in certain areas; the children could be stopped and questioned or sent away.
-- **Differentiation:** support: picture-supported fact cards with key vocabulary / stretch: research one real person who resisted apartheid (e.g. Nelson Mandela, Albertina Sisulu) and share one fact.
-- **Materials:** *Journey to Jo'burg* by Beverley Naidoo, context fact cards, map of South Africa, photographs from a reputable archive.
-- **Joy:** a class map tracing Naledi and Tiro's route, with a 300 km string for scale.
+- **Objective:** "By the end, I can use background knowledge to understand the setting of a novel based on real events." (UK NC Y6 reading — context / CCSS RI.5.7, RL.5.1)
+- **Hook:** "Imagine a law that says girls may not go to school and women may not go out without a man from their family. Deborah Ellis met girls in refugee camps who had lived with rules like that — and wrote their story."
+- **Key activity:** Short, age-appropriate non-fiction reading, a map and photographs about Afghanistan: decades of war; Taliban rule in Kabul from 1996 to 2001, when girls were banned from school and women from most work and from going out alone. Pupils build a "context board" to refer to while reading, and note that Afghanistan is also a country of mountains, poetry, markets and families like any other.
+- **Check for understanding:** "Why is it a disaster for Parvana's family when her father is arrested?" → Under the rules at that time, the women and girls could not go out alone to earn money or buy food, so without a man the family could starve.
+- **Differentiation:** support: picture-supported fact cards with key vocabulary / stretch: find out what has happened to girls' education in Afghanistan since the book was written, from a reliable source, and share one fact.
+- **Materials:** *The Breadwinner* by Deborah Ellis, context fact cards, map of Afghanistan and its neighbours, photographs from a reputable archive.
+- **Joy:** a class map of Kabul's market, the family's room and the places Parvana goes, added to as we read.
 
-### Lesson 28 — Naledi and Tiro set out
+### Lesson 28 — Parvana becomes a boy
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain the characters' motivation and predict what challenges they will face." (UK NC Y6 reading / CCSS RL.5.3)
-- **Hook:** "Would you walk 300 km to find your mother? What would make you do it?"
-- **Key activity:** Read the opening chapters. Pupils complete a "motivation and obstacles" chart and make evidence-based predictions.
-- **Check for understanding:** "Why do Naledi and Tiro decide to walk to Johannesburg instead of writing to their mother?" → Their baby sister Dineo is very ill, it's urgent, and they fear a letter would be too slow; only their mother can help.
-- **Differentiation:** support: chart with sentence starters and page references / stretch: compare Naledi's reasons with Stanley's lack of choice in *Holes*.
-- **Materials:** *Journey to Jo'burg*, motivation chart, map.
-- **Joy:** "Pack the bag" — decide what to carry for the journey and justify each item.
+- **Objective:** "By the end, I can explain a character's motivation and predict what challenges she will face." (UK NC Y6 reading / CCSS RL.5.3)
+- **Hook:** "Would you cut off your hair and wear your dead brother's clothes to feed your family?"
+- **Key activity:** Read the opening chapters (Parvana at the market with her father, who reads and writes letters for people; the night he is taken away; the family trapped in one room). Pupils complete a "motivation and obstacles" chart and make evidence-based predictions about her disguise.
+- **Check for understanding:** "Why does the family decide that Parvana must become a boy?" → As a 'boy' she can go out, work in the market and buy food; without that the family would starve — her disguise is the only way to survive.
+- **Differentiation:** support: chart with sentence starters and page references / stretch: explain what the title *The Breadwinner* means and why it fits.
+- **Materials:** *The Breadwinner*, motivation chart, map.
+- **Joy:** "Market stall" — pupils design the letter-reading stall Parvana takes over from her father.
 
 ### Lesson 29 — Point of view: whose eyes?
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how the narrator's point of view shapes what the reader knows and feels." (UK NC Y6 reading / CCSS RL.5.6)
-- **Hook:** "Retell the moment the children meet the policeman — but from the policeman's point of view."
-- **Key activity:** Compare the same event told from Naledi's perspective and rewritten from others' (a farmer, a truck driver). Discuss whose perspective the author wants us to share and why.
-- **Check for understanding:** "Why does Naidoo tell the story through children's eyes rather than an adult narrator's?" → Children notice injustice freshly and ask "why?"; the reader discovers the unfairness as they do, which makes it more powerful.
+- **Hook:** "A Taliban soldier asks Parvana to read him a letter — and it makes him cry. Why would the author include this?"
+- **Key activity:** Notice that the story is told in the third person but stays close to Parvana, so we see only what she sees. Read the episode of the soldier and the letter, then retell it from the soldier's point of view and from her older sister Nooria's point of view at home. Discuss why the author lets us glimpse the humanity of someone on the other side.
+- **Check for understanding:** "Why does Ellis show a Taliban soldier weeping over a letter?" → It shows that even the people enforcing cruel rules are human, with their own losses; the story is about unfair rules and fear, not about one group of people being monsters.
 - **Differentiation:** support: retell with a partner using a story map / stretch: write the same paragraph from two viewpoints and explain what changes.
-- **Materials:** *Journey to Jo'burg*, perspective cards, drama space.
+- **Materials:** *The Breadwinner*, perspective cards, drama space.
 - **Joy:** "Freeze frame and thought-track" — pupils in freeze frames speak characters' thoughts aloud.
 
 ### Lesson 30 — Sentence studio: the passive voice
 - **Duration:** 35 min
 - **Objective:** "By the end, I can change sentences between active and passive voice and explain why a writer might hide who did something." (UK NC Y6 grammar / CCSS L.5.1)
-- **Hook:** "'The police arrested the protesters.' / 'The protesters were arrested.' What information has disappeared in the second?"
+- **Hook:** "'The soldiers arrested Parvana's father.' / 'Parvana's father was arrested.' What information has disappeared in the second?"
 - **Key activity:** Teach: active (subject does the action) vs passive (subject receives the action, using a form of 'be' + past participle, 'by…' optional). Transform sentences; discuss why news reports or officials might use the passive (to sound formal, or to hide who is responsible).
 - **Check for understanding:** "Rewrite 'The storm damaged the school' in the passive, and explain one reason a writer might choose it." → "The school was damaged (by the storm)." It focuses on the school, or the cause may be unknown or unimportant.
 - **Differentiation:** support: sentence-transformation cards with the verb forms given / stretch: find passive sentences in a real newspaper report and explain each choice.
 - **Materials:** transformation cards, newspaper cuttings, mini-whiteboards.
 - **Joy:** "Mystery culprit" — rewrite classroom 'crimes' in the passive to hide the culprit, then reveal with 'by…'.
 
-### Lesson 31 — Grace and the students of Soweto
+### Lesson 31 — Shauzia: a friend who changes everything
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how a secondary character changes the protagonist's understanding." (UK NC Y6 reading / CCSS RL.5.3)
-- **Hook:** "Grace tells Naledi about the students' march in Soweto in 1976. Why does this change Naledi?"
-- **Key activity:** Read the Grace chapters. Discuss what Naledi learns about protest and education. Pupils complete a "before and after" chart of Naledi's thinking.
-- **Check for understanding:** "How is Naledi different after meeting Grace? Use evidence." → She begins to understand that the unfairness is organised and can be challenged; she starts asking questions and imagining a different future.
-- **Differentiation:** support: before/after chart with prompting questions / stretch: link the Soweto uprising to the idea that education can be a form of resistance, with evidence.
-- **Materials:** *Journey to Jo'burg*, before/after charts, timeline of South African history (teacher reference).
-- **Joy:** "Conscience alley" — pupils voice the arguments inside Naledi's head.
+- **Hook:** "In the market, Parvana meets another 'boy' — and discovers it is her old classmate Shauzia, in disguise too."
+- **Key activity:** Read the Shauzia chapters (working together, their hardest and bravest jobs, Shauzia's dream of escaping to see the sea). Discuss what Parvana learns from her friend. Pupils complete a "before and after" chart of Parvana's thinking.
+- **Check for understanding:** "How is Parvana different after she meets Shauzia? Use evidence." → She is no longer alone; working together makes her braver and more resourceful, and Shauzia's dreams make Parvana imagine a future beyond just surviving.
+- **Differentiation:** support: before/after chart with prompting questions / stretch: compare the two girls' dreams and explain what each dream shows about her.
+- **Materials:** *The Breadwinner*, before/after charts.
+- **Joy:** "Conscience alley" — pupils voice the arguments inside Parvana's head when a job frightens her.
 
 ### Lesson 32 — Vocabulary: words for justice and fairness
 - **Duration:** 35 min
 - **Objective:** "By the end, I can use precise vocabulary to discuss justice and explain shades of meaning." (UK NC Y6 vocabulary / CCSS L.5.5c)
-- **Hook:** "Is 'unfair' the same as 'unjust'? Is 'protest' the same as 'riot'?"
-- **Key activity:** Word clines and Frayer models for: equality, equity, discrimination, prejudice, segregation, protest, resistance, dignity, justice. Pupils use each in a sentence about the novel.
+- **Hook:** "Is 'unfair' the same as 'unjust'? Is 'rule' the same as 'law'?"
+- **Key activity:** Word clines and Frayer models for: equality, equity, discrimination, prejudice, oppression, rights, resistance, dignity, justice. Pupils use each in a sentence about the novel.
 - **Check for understanding:** "What is the difference between 'prejudice' and 'discrimination'?" → Prejudice is an unfair belief or feeling about a group; discrimination is unfair action or treatment.
 - **Differentiation:** support: 5 words with picture cues and example sentences / stretch: explain 'equity' vs 'equality' with an example from school life.
 - **Materials:** Frayer model templates, word cards, dictionaries.
 - **Joy:** "Word ladder race" — order words on a cline from mild to strong.
 
-### Lesson 33 — The return journey and the ending
+### Lesson 33 — The ending: hopeful, sad or both?
 - **Duration:** 40 min
 - **Objective:** "By the end, I can evaluate an ending and explain whether it is hopeful, sad or both." (UK NC Y6 reading / CCSS RL.5.2)
-- **Hook:** "Is it a happy ending if the family is still living under apartheid?"
-- **Key activity:** Read the final chapters. Groups argue for "hopeful", "sad" or "both" using evidence; conclude with a class vote and individual written justification.
-- **Check for understanding:** "Give one reason the ending is hopeful and one reason it is not." → e.g. Dineo gets help and Naledi has new understanding and courage (hopeful); the unjust laws and poverty remain (not hopeful).
-- **Differentiation:** support: evidence cards to sort into 'hopeful' and 'sad' / stretch: explain why an author might choose an open ending for a story about an ongoing injustice.
-- **Materials:** *Journey to Jo'burg*, evidence cards, voting counters.
+- **Hook:** "Parvana's father comes home — but the family is split up and the war goes on. Is that a happy ending?"
+- **Key activity:** Read the final chapters (her father's return, the journey north to find the rest of the family, Parvana and Shauzia's promise to meet again in twenty years at the top of the Eiffel Tower). Groups argue for "hopeful", "sad" or "both" using evidence; conclude with a class vote and individual written justification.
+- **Check for understanding:** "Give one reason the ending is hopeful and one reason it is not." → e.g. her father is free and the girls promise to meet again, showing they still have dreams (hopeful); the family is separated, the war continues and the unjust rules remain (not hopeful).
+- **Differentiation:** support: evidence cards to sort into 'hopeful' and 'sad' / stretch: explain why an author might choose an open ending for a story about an injustice that was still going on when she wrote it.
+- **Materials:** *The Breadwinner*, evidence cards, voting counters.
 - **Joy:** "Hope-o-meter" — each pupil places a marker on a scale and defends it.
 
 ### Lesson 34 — Spelling: the Y5/6 word list (1)
@@ -440,11 +440,11 @@ conferences, author visits, World Book Day and catch-up.
 ### Lesson 35 — Diary in role: planning
 - **Duration:** 40 min
 - **Objective:** "By the end, I can plan a diary in role that shows a character's thoughts and feelings about real events." (UK NC Y6 writing / CCSS W.5.3)
-- **Hook:** Read a short diary extract written by a real young person in a difficult time (e.g. from *I Am Malala*, Young Readers Edition).
-- **Key activity:** Identify diary features (first person, past tense for events, present for feelings, informal register, dates). Pupils plan three entries as Naledi at key points.
+- **Hook:** Read a short extract written by a real young person in a difficult time (e.g. from *I Am Malala*, Young Readers Edition, where Malala describes the ban on girls' schooling in Pakistan's Swat Valley).
+- **Key activity:** Identify diary features (first person, past tense for events, present for feelings, informal register, dates). Pupils plan three entries as Parvana at key points (the night her father is taken; her first day as a 'boy'; meeting Shauzia).
 - **Check for understanding:** "Why is a diary usually written in an informal register? When might a character's diary become more formal?" → It's private, written to oneself; it might become formal if the writer imagines others reading it or is recording something serious for history.
-- **Differentiation:** support: plan two entries with a structured planner / stretch: plan entries that show Naledi's changing understanding across the journey.
-- **Materials:** diary extracts, planners, *Journey to Jo'burg*.
+- **Differentiation:** support: plan two entries with a structured planner / stretch: plan entries that show Parvana's changing understanding across the novel.
+- **Materials:** diary extracts, planners, *The Breadwinner*.
 - **Joy:** pupils design an "aged" diary cover (tea-stained paper).
 
 ### Lesson 36 — Diary in role: writing
@@ -453,48 +453,48 @@ conferences, author visits, World Book Day and catch-up.
 - **Hook:** "'I was scared.' vs 'My hands wouldn't stop shaking.' Which is stronger?"
 - **Key activity:** Model "show, not tell". Pupils write entries, including reflective questions and a detail from the setting in each.
 - **Check for understanding:** "Underline one place where you showed a feeling without naming it. What does it reveal?" → Pupil identifies a detail (action, body language, thought) and names the feeling it implies.
-- **Differentiation:** support: a bank of 'showing' phrases / stretch: include a moment where Naledi's feelings are mixed (e.g. fear and pride) and show both.
+- **Differentiation:** support: a bank of 'showing' phrases / stretch: include a moment where Parvana's feelings are mixed (e.g. fear and pride) and show both.
 - **Materials:** planners, diary paper, "show, don't tell" cards.
-- **Joy:** swap diaries anonymously — can a partner identify which journey moment each entry is from?
+- **Joy:** swap diaries anonymously — can a partner identify which moment each entry is from?
 
-### Lesson 37 — Formal and informal register
+### Lesson 37 — Formal and informal register: writing letters for others
 - **Duration:** 35 min
 - **Objective:** "By the end, I can recognise and switch between formal and informal language for different audiences." (UK NC Y6 grammar / CCSS L.5.3a)
-- **Hook:** "Naledi writes to her mother. A hospital writes to her mother. How would the letters sound different?"
-- **Key activity:** Compare formal and informal versions of the same message (vocabulary, contractions, sentence length, passive voice, question tags). Pupils rewrite a diary paragraph as a formal letter to a newspaper about conditions in the village.
+- **Hook:** "Parvana earns money by reading and writing letters for people who can't. Would a letter to a government office sound like a letter to a cousin?"
+- **Key activity:** Compare formal and informal versions of the same message (vocabulary, contractions, sentence length, passive voice, question tags). In role as Parvana's customers' letter-writer, pupils rewrite an informal message as a formal letter to an official asking for news of a missing family member.
 - **Check for understanding:** "Name three changes you made to turn informal into formal writing." → e.g. removed contractions, chose formal vocabulary ('request' for 'ask'), used full sentences and possibly the passive.
-- **Differentiation:** support: a formal/informal word-swap bank / stretch: use one subjunctive form correctly ("It is essential that every child be given a place at school.").
+- **Differentiation:** support: a formal/informal word-swap bank / stretch: use one subjunctive form correctly ("I request that my brother be allowed to return home.").
 - **Materials:** formal/informal sorting cards, sample letters.
 - **Joy:** "Register roulette" — say the same message as a text to a friend, a school announcement and a royal proclamation.
 
 ### Lesson 38 — Paired reading: comparing texts on the same theme
 - **Duration:** 40 min
 - **Objective:** "By the end, I can compare how a novel and a non-fiction text treat the same theme." (UK NC Y6 reading — comparing / CCSS RL.5.9, RI.5.9)
-- **Hook:** "Can a story teach us history better than a textbook?"
-- **Key activity:** Read a short non-fiction account of the 1976 Soweto uprising and the corresponding part of the novel. Compare purpose, language, facts and feelings on a Venn diagram.
+- **Hook:** "Can a story teach us about the world better than a report?"
+- **Key activity:** Read a short, recent non-fiction article from a reputable source (e.g. UNICEF or a children's news service) about girls' right to education around the world, and the corresponding part of the novel. Compare purpose, language, facts and feelings on a Venn diagram.
 - **Check for understanding:** "What can the novel do that the non-fiction text cannot, and vice versa?" → The novel lets us feel through a character; the non-fiction gives verified facts, dates and numbers.
 - **Differentiation:** support: Venn diagram with statements to sort / stretch: evaluate the reliability of the non-fiction source (who wrote it, when, why).
-- **Materials:** non-fiction extract (from a reputable encyclopedia or museum site), *Journey to Jo'burg*, Venn diagrams.
+- **Materials:** non-fiction extract (from a reputable organisation or children's news site), *The Breadwinner*, Venn diagrams.
 - **Joy:** "Which one would you give a friend?" — a quick persuasive pitch for one text.
 
 ### Lesson 39 — Speaking: a reasoned response
 - **Duration:** 40 min
 - **Objective:** "By the end, I can give a short, structured spoken response to a question about the novel, using evidence." (UK NC Y6 spoken language / CCSS SL.5.4)
-- **Hook:** "Question for the class: 'Is it ever right to break an unjust law?'"
+- **Hook:** "Question for the class: 'Is it ever right to break an unjust law?' Parvana breaks the rules every day she goes to market."
 - **Key activity:** Pupils prepare a 1-minute response (point, evidence from the novel, explanation, link to today) and deliver it in small groups; listeners build on or challenge using stems.
 - **Check for understanding:** "What evidence from the novel did you use, and how did it support your point?" → A specific event or quotation linked logically to the point.
 - **Differentiation:** support: a speaking frame and time to rehearse with a partner / stretch: respond to a counter-argument in your talk.
-- **Materials:** speaking frames, timers, *Journey to Jo'burg*.
+- **Materials:** speaking frames, timers, *The Breadwinner*.
 - **Joy:** "Talking stick" circle where only the holder may speak — and everyone must build on the last speaker.
 
 ### Lesson 40 — Unit 3 mastery check
 - **Duration:** 40 min
 - **Objective:** "By the end, I can show my understanding of point of view and theme in a written response." (UK NC Y6 reading — assessment / CCSS RL.5.2, RL.5.6)
 - **Hook:** "Your turn to be the literary critic."
-- **Key activity:** Independent task: answer three questions on an unseen extract from the novel (inference, vocabulary in context, point of view) and write one PEE paragraph on the theme of justice.
-- **Check for understanding:** "How does the author make us feel that the pass laws are unfair? Use a quotation." → A PEE response linking specific language to the reader's reaction.
-- **Differentiation:** support: questions read aloud and a PEE frame / stretch: an extra question comparing Naledi's journey to Stanley's in *Holes*.
-- **Materials:** extract, mastery task sheet, *Journey to Jo'burg*.
+- **Key activity:** Independent task: answer three questions on an unseen extract from the novel (inference, vocabulary in context, point of view) and write one PEE paragraph on the theme of courage under injustice.
+- **Check for understanding:** "How does the author make us feel that the rules Parvana lives under are unfair? Use a quotation." → A PEE response linking specific language to the reader's reaction.
+- **Differentiation:** support: questions read aloud and a PEE frame / stretch: an extra question comparing Parvana's courage with Auggie's in *Wonder*.
+- **Materials:** extract, mastery task sheet, *The Breadwinner*.
 - **Joy:** pupils design an alternative front cover for the book with a new tagline.
 
 **End-of-unit check:** Pupil writes a diary entry in role showing (not telling) feelings, rewrites a paragraph formally using the passive voice once, and explains in a PEE paragraph how point of view shapes the reader's response.
@@ -567,12 +567,12 @@ conferences, author visits, World Book Day and catch-up.
 - **Materials:** explanation texts, flow diagrams, highlighters.
 - **Joy:** "Explain it to an alien" — a partner (the 'alien') asks "why?" after every sentence.
 
-### Lesson 47 — Sentence studio: hyphens and bullet points
+### Lesson 47 — Sentence studio: hyphenated adjectives and bullet points
 - **Duration:** 35 min
 - **Objective:** "By the end, I can use hyphens to avoid ambiguity and lay out bullet points consistently." (UK NC Y6 grammar & punctuation / CCSS L.5.2)
-- **Hook:** "A man-eating shark vs a man eating shark. Which one should you swim away from?"
-- **Key activity:** Teach: hyphens join words to make one idea (man-eating, well-known author, re-cover vs recover). Bullet points: introduced by a colon, parallel structure, consistent punctuation. Practise by formatting a safety explanation.
-- **Check for understanding:** "What's the difference between 'recover the sofa' and 're-cover the sofa'?" → Recover = get it back; re-cover = put a new cover on it.
+- **Hook:** "A well-known author — but 'the author is well known'. Why does the hyphen disappear?"
+- **Key activity:** Retrieve hyphens from Year 4 (man-eating shark; re-cover vs recover). Then go further: compound adjectives take a hyphen before a noun (a well-known author, a ten-year-old girl, a fast-moving river) but usually not after the verb (the author is well known; the girl is ten years old). Bullet points: introduced by a colon, parallel structure, consistent punctuation. Practise by formatting a safety explanation.
+- **Check for understanding:** "Why does 'well-known' have a hyphen in 'a well-known author' but not in 'the author is well known'?" → Before a noun the two words work together as one adjective describing it, so the hyphen joins them; after the verb they don't need joining.
 - **Differentiation:** support: hyphenated compound matching cards / stretch: write a list of bullet points where each starts with the same grammatical form (e.g. an imperative verb).
 - **Materials:** hyphen cards, sample bulleted texts, mini-whiteboards.
 - **Joy:** "Hyphen howlers" — illustrate a funny ambiguous phrase with and without the hyphen.
@@ -670,10 +670,10 @@ conferences, author visits, World Book Day and catch-up.
 ### Lesson 56 — Term 1 reading review
 - **Duration:** 40 min
 - **Objective:** "By the end, I can compare the three Term 1 texts and explain which techniques I found most powerful." (UK NC Y6 reading — retrieval / CCSS RL.5.9)
-- **Hook:** "*Holes*, *The Highwayman* and *Journey to Jo'burg* all involve a dangerous journey. What else do they share?"
+- **Hook:** "*Wonder*, *The Lady of Shalott* and *The Breadwinner* all have a character who must face the world outside. What else do they share?"
 - **Key activity:** Retrieval quiz on characters, vocabulary and techniques; then a comparison grid (theme, structure, narrator, setting). Pupils review their reading journals and set a reading goal for Term 2.
-- **Check for understanding:** "Compare how injustice is shown in *Holes* and *Journey to Jo'burg*." → e.g. *Holes* uses irony and a fantasy-like curse; *Journey to Jo'burg* shows real laws through a child's eyes.
-- **Differentiation:** support: comparison grid partly filled / stretch: add *The Highwayman* to the comparison and write a comparative paragraph.
+- **Check for understanding:** "Compare how unfairness is shown in *Wonder* and *The Breadwinner*." → e.g. *Wonder* shows everyday unkindness at school through several narrators; *The Breadwinner* shows unjust laws through one girl's eyes — both show courage in the face of it.
+- **Differentiation:** support: comparison grid partly filled / stretch: add *The Lady of Shalott* to the comparison and write a comparative paragraph.
 - **Materials:** Term 1 texts, comparison grids, reading journals.
 - **Joy:** "Book awards" — the class votes for best character, best line and best twist.
 
@@ -767,15 +767,15 @@ conferences, author visits, World Book Day and catch-up.
 - **Materials:** non-fiction extract, novel, fact-and-question grid.
 - **Joy:** "Ask an expert" — pupils write questions to a charity worker (sent via the teacher if possible).
 
-### Lesson 65 — Spelling: the many sounds of 'ough'
+### Lesson 65 — Spelling: unstressed vowels — the letters we can't hear
 - **Duration:** 35 min
-- **Objective:** "By the end, I can spell words with the 'ough' letter string and group them by sound." (UK NC Y5–6 spelling / CCSS L.5.2e)
-- **Hook:** "Though the rough cough and hiccough ploughed me through…" — "How many ways can 'ough' be said?"
-- **Key activity:** Sort words by sound: /ɔː/ bought, thought, ought; /ʌf/ rough, tough, enough; /ɒf/ cough, trough; /əʊ/ though, although, dough; /uː/ through; /aʊ/ bough, plough; /ə/ thorough, borough. Write a class "ough" poem.
-- **Check for understanding:** "Why can't you rely on sound alone to spell 'ough' words?" → The same letters make several sounds, so you need to learn word families and use visual memory.
-- **Differentiation:** support: three sound groups only / stretch: explain why English has so many spellings for the same letters (words from Old English changed pronunciation over centuries while spelling stayed).
-- **Materials:** word-sort cards, spelling journals.
-- **Joy:** the tongue-twister "ough" poem performed at speed.
+- **Objective:** "By the end, I can spell words with unstressed vowels by using related words, syllables and mnemonics." (UK NC Y5–6 spelling — unstressed vowels / CCSS L.5.2e)
+- **Hook:** "Say 'desperate', 'definite' and 'separate' at normal speed. Which vowels can you actually hear?"
+- **Key activity:** Teach that in many long words one vowel is unstressed and sounds like a quick 'uh' (the schwa), so you can't spell it by listening. Strategies: find a related word where the vowel is stressed (definite — define, finite; competition — compete; medicine — medicinal); say it in 'spelling voice' (des-PER-ate, SEP-A-rate); use a mnemonic. Sort words from the novel and the Y5/6 list (desperate, separate, definite, category, library, vegetable, relevant) by strategy. (The 'ough' letter string was taught in Year 4.)
+- **Check for understanding:** "Why is 'definite' spelled with an i in the middle, not an a? Which strategy proves it?" → The middle vowel is unstressed, so you can't hear it; the related words 'define' and 'finite' say the i clearly.
+- **Differentiation:** support: five words with the related word given beside each / stretch: find three more words where a related word reveals the hidden vowel.
+- **Materials:** word-sort cards, spelling journals, dictionaries.
+- **Joy:** "Vowel detectives" — race to find the related word that unmasks each hidden vowel.
 
 ### Lesson 66 — Summarising a chapter
 - **Duration:** 40 min
@@ -853,7 +853,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Hook:** "Explain the book to someone who has never read it."
 - **Key activity:** Independent reading task: an unseen extract with inference and vocabulary questions, a 50-word summary, and a PEE paragraph on how the dual structure creates hope.
 - **Check for understanding:** "Why does the author alternate between Salva and Nya instead of telling Salva's story first and Nya's second?" → Alternating builds suspense about the connection and keeps both stories present, so the ending has more impact.
-- **Differentiation:** support: questions read aloud, PEE frame / stretch: compare the structure with *Holes*.
+- **Differentiation:** support: questions read aloud, PEE frame / stretch: compare the structure with *Wonder*'s multiple narrators.
 - **Materials:** extract, task sheet, novel.
 - **Joy:** pupils nominate the book for a class "Books That Change Minds" shelf with a recommendation card.
 
@@ -927,15 +927,15 @@ conferences, author visits, World Book Day and catch-up.
 - **Materials:** drafts, sceptic question cards, editing pens.
 - **Joy:** "Sceptic's badge" awarded to the toughest (but kindest) critic.
 
-### Lesson 80 — The power of a speech: Malala at the UN
+### Lesson 80 — The power of a speech: a young water protector at the UN
 - **Duration:** 40 min
 - **Objective:** "By the end, I can identify rhetorical techniques in a real speech and explain their effect." (UK NC Y6 reading & spoken language / CCSS RI.5.8, SL.5.3)
-- **Hook:** Watch the part of Malala Yousafzai's 2013 speech to the United Nations ending "One child, one teacher, one pen and one book can change the world."
-- **Key activity:** Read the extract; identify repetition, tricolon, direct address and inclusive pronouns ('we'). Discuss why the final line is so memorable.
-- **Check for understanding:** "Why is 'one child, one teacher, one pen and one book' more powerful than 'education can change the world'?" → The repetition of 'one' and the list of small, concrete things shows that even small things together can make huge change.
+- **Hook:** Watch a teacher-chosen clip of Autumn Peltier, an Anishinaabe water protector from Canada, speaking at the United Nations in 2018, aged 13, about every person's right to clean water.
+- **Key activity:** Read a transcript extract; identify personal story, repetition, direct address, inclusive pronouns ('we') and the call to action. Discuss why a young speaker with lived experience of her community's water problems can move world leaders. (Malala Yousafzai's UN speech is analysed in Year 6.)
+- **Check for understanding:** "Why might a 13-year-old speaking about her own community's water be especially persuasive to adults in power?" → Her personal experience gives her credibility and emotional force, and as a young person she speaks for the future generations who will live with their decisions.
 - **Differentiation:** support: technique cards with examples to match to the text / stretch: compare with an extract from another famous speech (e.g. Martin Luther King Jr.'s "I Have a Dream").
-- **Materials:** speech extract, video (from the UN or a reputable source), technique cards.
-- **Joy:** pupils perform the final lines with emphasis, trying different ways to stress the words.
+- **Materials:** speech extract and video (from the UN or another reputable source), technique cards.
+- **Joy:** pupils perform a key line with emphasis, trying different ways to stress the words.
 
 ### Lesson 81 — Write a campaign speech
 - **Duration:** 45 min
@@ -944,7 +944,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Key activity:** Plan a speech: hook, three points with evidence, emotional appeal, call to action. Draft using tricolon, rhetorical question, repetition and direct address.
 - **Check for understanding:** "Label your three rhetorical techniques. Which is most powerful and why?" → Labelled examples and a reasoned choice.
 - **Differentiation:** support: a speech frame with technique prompts / stretch: include a personal story or anecdote that makes the issue real.
-- **Materials:** speech frames, the Malala extract, timers.
+- **Materials:** speech frames, the Lesson 80 speech extract, timers.
 - **Joy:** "Speech lab" — test your opening line on three classmates and choose the best version.
 
 ### Lesson 82 — Delivering a speech
@@ -1147,15 +1147,15 @@ conferences, author visits, World Book Day and catch-up.
 
 **Key vocabulary:** free verse, rhyme, refrain, metaphor, imagery, tone, voice, dialect, Standard English, performance poetry, structure, enjambment, stanza, compare, contrast
 
-### Lesson 100 — Langston Hughes: "Dreams"
+### Lesson 100 — Langston Hughes: "I, Too"
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how an extended metaphor carries the meaning of a short poem." (UK NC Y6 reading — poetry / CCSS RL.5.4)
-- **Hook:** "What happens to a dream when you give up on it?"
-- **Key activity:** Read "Dreams" by Langston Hughes (Harlem Renaissance, USA). Unpick the two metaphors (a broken-winged bird; a barren field frozen with snow). Discuss why the poem is so short and why it has lasted.
-- **Check for understanding:** "What is Hughes saying about dreams through the image of a 'broken-winged bird that cannot fly'?" → Without dreams, life loses its freedom and purpose; it becomes trapped and unable to rise.
-- **Differentiation:** support: picture prompts for each metaphor / stretch: explain what the change from bird to frozen field adds to the meaning.
+- **Objective:** "By the end, I can explain how a poet uses one everyday situation as a metaphor for injustice and hope." (UK NC Y6 reading — poetry / CCSS RL.5.4)
+- **Hook:** "'They send me to eat in the kitchen / When company comes.' Who is 'they', and why does it matter?"
+- **Key activity:** Read "I, Too" by Langston Hughes (Harlem Renaissance, USA, 1926), recalling his "Dreams" (Year 3) and "April Rain Song" (Year 4). Unpick the central image of the "darker brother" sent to the kitchen, the speaker's response (he laughs, eats well and grows strong) and the prediction that tomorrow he will sit at the table. Link to segregation in the USA at the time.
+- **Check for understanding:** "What does being sent to eat in the kitchen stand for, and how does the speaker's attitude change by 'Tomorrow'?" → It stands for Black Americans being shut out and treated as second-class; instead of giving up, the speaker grows strong and confident that he will take his place at the table, and that others will see he is beautiful and be ashamed — ending "I, too, am America."
+- **Differentiation:** support: picture prompts for the kitchen and the table / stretch: explain why the last line changes the first line's "I, too, sing America".
 - **Materials:** poem copies, picture cards, brief biography of Langston Hughes.
-- **Joy:** "Dream wall" — pupils add their own dreams on paper birds.
+- **Joy:** "A seat at the table" — pupils write who they would invite and why.
 
 ### Lesson 101 — Rabindranath Tagore: "Where the Mind is Without Fear"
 - **Duration:** 40 min
@@ -1167,21 +1167,21 @@ conferences, author visits, World Book Day and catch-up.
 - **Materials:** poem copies, map of India, glossary.
 - **Joy:** "Class 'Where' poem" — every pupil contributes one line.
 
-### Lesson 102 — Benjamin Zephaniah: performance poetry
+### Lesson 102 — John Agard: "Checking Out Me History"
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how a performance poet uses rhythm, dialect and humour to make a serious point." (UK NC Y6 reading & spoken language / CCSS RL.5.4, SL.5.4)
-- **Hook:** Watch a recording of Benjamin Zephaniah performing "Talking Turkeys!!"
-- **Key activity:** Read the poem; identify the Jamaican-influenced dialect, spelling choices and rhythm; discuss the serious message beneath the humour (kindness to animals). Discuss when poets choose non-standard English and why that is a deliberate choice.
-- **Check for understanding:** "Why does Zephaniah write in a spoken, non-standard style rather than Standard English?" → It captures his own voice and the rhythm of performance; it makes the poem lively and personal, and is a deliberate artistic choice.
-- **Differentiation:** support: perform a verse with a partner using the recording as a guide / stretch: compare the poem's tone with its message and explain how humour makes the message stronger.
-- **Materials:** poem copies, recording of Zephaniah's performance, percussion.
+- **Objective:** "By the end, I can explain how a performance poet uses rhythm, dialect and contrast to make a serious point." (UK NC Y6 reading & spoken language / CCSS RL.5.4, SL.5.4)
+- **Hook:** Watch a recording of John Agard (born in Guyana) performing "Checking Out Me History": "Whose history do we learn at school — and whose is left out?"
+- **Key activity:** Read the poem; identify the Caribbean-English spellings and rhythm, and the contrast between the nursery-rhyme and European figures the speaker was taught and the Caribbean and African heroes he had to find for himself (e.g. Toussaint L'Ouverture, Nanny de Maroon, Mary Seacole). Discuss when poets choose non-standard English and why that is a deliberate choice.
+- **Check for understanding:** "Why does Agard write in a spoken Caribbean voice rather than Standard English?" → The poem is about claiming his own identity and history, so writing in his own voice is part of the message; it also creates the rhythm for performance and is a deliberate artistic choice.
+- **Differentiation:** support: perform a verse with a partner using the recording as a guide / stretch: explain how the changes of rhythm between the 'taught' history and the heroes' stanzas carry the meaning.
+- **Materials:** poem copies, recording of Agard's performance, short fact cards on the heroes named, percussion.
 - **Joy:** group performances with rhythm accompaniment.
 
-### Lesson 103 — Grace Nichols and Maya Angelou: voice and refrain
+### Lesson 103 — Maya Angelou: voice and refrain
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how refrains and a confident voice create a poem's tone." (UK NC Y6 reading — poetry / CCSS RL.5.4)
 - **Hook:** "What would you say to yourself if you needed courage?"
-- **Key activity:** Read Grace Nichols's "Give Yourself a Hug" (Guyana/UK) and Maya Angelou's "Life Doesn't Frighten Me" (USA). Identify refrains, rhythm and tone. Discuss what each speaker wants the reader to feel.
+- **Key activity:** Read Maya Angelou's "Life Doesn't Frighten Me" (USA). Identify the refrain, rhythm and tone; recall Grace Nichols's refrain poem "Give Yourself a Hug" from Year 4 and compare what each speaker wants the reader to feel.
 - **Check for understanding:** "How does the refrain 'Life doesn't frighten me at all' change in meaning as the poem goes on?" → At first it sounds like bravado against small fears; after the list of fears, it feels like determined courage — or perhaps the speaker convincing herself.
 - **Differentiation:** support: listen to recordings with the text and a tone-word bank / stretch: argue whether the speaker in Angelou's poem is truly unafraid, with evidence.
 - **Materials:** poem copies, recordings, tone-word banks.
@@ -1190,22 +1190,22 @@ conferences, author visits, World Book Day and catch-up.
 ### Lesson 104 — Comparing two poems
 - **Duration:** 40 min
 - **Objective:** "By the end, I can write a comparative paragraph about two poems using connectives of comparison." (UK NC Y6 reading & writing / CCSS RL.5.9, W.5.9a)
-- **Hook:** "Hughes and Angelou: both African American poets, writing decades apart. What do their poems share?"
+- **Hook:** "Hughes and Angelou: both African American poets, writing decades apart. What do 'I, Too' and 'Life Doesn't Frighten Me' share?"
 - **Key activity:** Venn diagram (theme, imagery, structure, tone); model a comparative paragraph with "Similarly…", "In contrast…", "Whereas…", "Both poets…". Pupils write their own.
-- **Check for understanding:** "Give one similarity and one difference between 'Dreams' and 'Life Doesn't Frighten Me', with evidence." → e.g. both are about resilience; Hughes uses metaphor and a sombre tone, Angelou uses a defiant refrain and playful rhythm.
+- **Check for understanding:** "Give one similarity and one difference between 'I, Too' and 'Life Doesn't Frighten Me', with evidence." → e.g. both speakers refuse to be defeated; Hughes uses a single extended image (the kitchen and the table) and a calm, confident tone, Angelou uses a defiant refrain and a playful rhythm.
 - **Differentiation:** support: comparison frame with connectives / stretch: compare three poems in one paragraph.
 - **Materials:** poem copies, Venn diagrams, comparison frames.
 - **Joy:** "Poem face-off" — pairs argue which poem would be better for a school assembly.
 
-### Lesson 105 — "Where I'm From": identity poems
+### Lesson 105 — "The Magic Box": poems of treasured things
 - **Duration:** 40 min
-- **Objective:** "By the end, I can use a model poem to write about my own identity and heritage using specific, concrete details." (UK NC Y6 writing — poetry / CCSS W.5.3d)
-- **Hook:** Read George Ella Lyon's "Where I'm From". "What specific things would you list for where you're from?"
-- **Key activity:** Brainstorm concrete details: foods, sayings, objects, places, languages, family names. Draft a "Where I'm From" poem, choosing specific nouns over general ones.
-- **Check for understanding:** "Why is 'I am from my grandmother's cardamom tea' stronger than 'I am from a nice family'?" → Specific details create images and show who you are; general words don't.
+- **Objective:** "By the end, I can use a model poem to write about my own memories, heritage and hopes using specific, concrete details." (UK NC Y6 writing — poetry / CCSS W.5.3d)
+- **Hook:** Read Kit Wright's "The Magic Box" ("I will put in the box / the swish of a silk sari on a summer night…"). "What would you put in yours?"
+- **Key activity:** Notice the pattern ("I will put in the box…"), the sensory detail, the impossible images and the final stanza describing the box itself. Brainstorm concrete details: sounds, tastes, memories, sayings, places, family and heritage languages, a wish. Draft a "Magic Box" poem, choosing specific nouns over general ones. (George Ella Lyon's "Where I'm From" is studied in Year 6.)
+- **Check for understanding:** "Why is 'the swish of a silk sari on a summer night' stronger than 'a nice sound'?" → It is specific and sensory — we can hear and picture it — and the repeated s sounds imitate the swish itself; general words create no image.
 - **Differentiation:** support: a brainstorming grid with categories / stretch: include a line in a family or heritage language and explain why you placed it there.
-- **Materials:** "Where I'm From" by George Ella Lyon, brainstorming grids, family photos (optional).
-- **Joy:** poems displayed with a self-portrait and a map pin to places pupils are 'from'.
+- **Materials:** "The Magic Box" by Kit Wright, brainstorming grids, family photos (optional), small decorated boxes.
+- **Joy:** poems folded inside hand-decorated boxes for a class 'treasure' display.
 
 ### Lesson 106 — Revise poems for performance
 - **Duration:** 40 min
@@ -1333,7 +1333,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Hook:** Read only the first sentence of David Almond's *Skellig*. "Found who? Why a garage? What questions do you have?"
 - **Key activity:** Read chapter 1 aloud. Pupils list every question the opening raises; discuss how Almond withholds information and how the narrator's plain voice makes strange things feel real.
 - **Check for understanding:** "Why doesn't Almond describe Skellig fully at the start?" → To create mystery and suspense; the reader, like Michael, has to work out what he is.
-- **Differentiation:** support: question stems ("I wonder who…", "Why would…") / stretch: compare Almond's opening with Sachar's in *Holes* — how does each hook the reader?
+- **Differentiation:** support: question stems ("I wonder who…", "Why would…") / stretch: compare Almond's opening with Palacio's in *Wonder* — how does each hook the reader?
 - **Materials:** class copies of *Skellig* by David Almond, question wall.
 - **Joy:** a "question wall" that the class returns to as mysteries are solved.
 
@@ -1450,7 +1450,7 @@ conferences, author visits, World Book Day and catch-up.
 ### Lesson 128 — Drafting: embedding quotations
 - **Duration:** 45 min
 - **Objective:** "By the end, I can embed short quotations smoothly in my own sentences and explain their effect." (UK NC Y6 writing / CCSS W.5.9a)
-- **Hook:** Compare two ways of using the same quotation from *Holes*: 'Sachar says, "There is no lake at Camp Green Lake." This shows it is strange.' and 'Sachar's blunt opening, that there is "no lake" at Camp Green Lake, immediately suggests a place built on lies.' Which is stronger?
+- **Hook:** Compare two ways of using the same quotation from *Wonder*: 'Auggie says, "I know I'm not an ordinary ten-year-old kid." This shows he is different.' and 'Auggie's confident claim that he is "not an ordinary" child immediately suggests someone who has learned to name his difference before others can.' Which is stronger?
 - **Key activity:** Model embedding short quotations; pupils draft the introduction and body paragraphs, zooming in on single words.
 - **Check for understanding:** "Show one embedded quotation and the word you zoomed in on. What does that word suggest?" → An embedded quotation with a focused explanation of one word's connotation.
 - **Differentiation:** support: paragraph frames and a quotation bank / stretch: include two quotations in one paragraph and link them.
@@ -1483,7 +1483,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Hook:** "An unseen passage from *Skellig*. What can you find?"
 - **Key activity:** Independent task: questions on an unseen extract (inference, a word's effect, symbolism, structure), then one analytical paragraph with an embedded quotation.
 - **Check for understanding:** "How does the writer create an atmosphere of mystery in this passage? Refer to two words or phrases." → A developed answer quoting two phrases and explaining their effect.
-- **Differentiation:** support: questions read aloud and a paragraph frame / stretch: compare the passage's atmosphere with the opening of *Holes*.
+- **Differentiation:** support: questions read aloud and a paragraph frame / stretch: compare the passage's atmosphere with the opening of *The Breadwinner*.
 - **Materials:** unseen extract, task sheet.
 - **Joy:** pupils write a "blurb for a future reader" to go inside the class copies.
 
@@ -1591,7 +1591,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Duration:** 40 min
 - **Objective:** "By the end, I can explain how the play's ending develops its theme of forgiveness." (UK NC Y6 reading — themes / CCSS RL.5.2)
 - **Hook:** "Prospero has his enemies in his power. What would you do?"
-- **Key activity:** Read the key lines from Act 5 in which Prospero chooses forgiveness, frees Ariel and gives up his magic. Discuss: is forgiveness strength or weakness? Link to *A Long Walk to Water* and *Journey to Jo'burg*.
+- **Key activity:** Read the key lines from Act 5 in which Prospero chooses forgiveness, frees Ariel and gives up his magic. Discuss: is forgiveness strength or weakness? Link to *A Long Walk to Water* and *The Breadwinner*.
 - **Check for understanding:** "What does Prospero mean by 'the rarer action is in virtue than in vengeance'?" → It is nobler, and less common, to forgive than to take revenge.
 - **Differentiation:** support: a modern-English version of the lines and a discussion frame / stretch: evaluate whether Antonio deserves forgiveness, using the fact that he never says sorry.
 - **Materials:** Act 5 extract, parallel text, discussion cards.
@@ -1791,21 +1791,21 @@ conferences, author visits, World Book Day and catch-up.
 
 ---
 
-## Unit 14 — Poetry of choices: Frost, Carroll and our own anthology
+## Unit 14 — Poetry of choices: Holub, Carroll and our own anthology
 
 **Essential question:** How can poems help us think about the choices ahead — and play with language on the way?
 
 **Key vocabulary:** metaphor, extended metaphor, ambiguity, nonsense verse, portmanteau, neologism, rhyme scheme, anthology, recitation, introduction, theme
 
-### Lesson 160 — "The Road Not Taken"
+### Lesson 160 — "The Door"
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain an extended metaphor and discuss how a famous poem is often misread." (UK NC Y6 reading — poetry / CCSS RL.5.4)
-- **Hook:** "Two roads in a wood. You can only take one. Does it matter which?"
-- **Key activity:** Read Robert Frost's poem. Trace the extended metaphor of choice. Notice the speaker says the roads were worn "really about the same" — so is the famous last stanza a proud boast, or a story the speaker will tell later with a "sigh"? Discuss.
-- **Check for understanding:** "Why might the speaker say 'I took the one less traveled by' if the roads were really about the same?" → Looking back, people tell their choices as stories that make them meaningful; the poem may be gently questioning that.
-- **Differentiation:** support: a glossary and a picture of the two roads with key lines placed on it / stretch: argue for one reading of the final stanza with evidence.
-- **Materials:** "The Road Not Taken" by Robert Frost, picture prompt.
-- **Joy:** "Crossroads walk" — a chalk fork on the playground; pupils choose a path and explain.
+- **Objective:** "By the end, I can explain an extended metaphor and discuss how a short poem can mean more than one thing." (UK NC Y6 reading — poetry / CCSS RL.5.4)
+- **Hook:** A closed door at the front of the room: "What might be on the other side? Should you open it?"
+- **Key activity:** Read "The Door" by the Czech poet and scientist Miroslav Holub (in English translation). Trace the repeated command "Go and open the door" and the list of what might be outside, from a magic city to fog, darkness or nothing at all. Discuss what the door could stand for (a new school, a risk, a new idea, a choice) and the surprise of the last lines. (Robert Frost's "The Road Not Taken" is studied in Year 6.)
+- **Check for understanding:** "Why does Holub end by saying that even if nothing is there, at least there'll be a draught?" → Even when a choice seems to lead nowhere, opening the door changes something — fresh air comes in; the gentle, funny ending says that trying is always worth it.
+- **Differentiation:** support: a glossary and a picture of the door with the possibilities placed around it / stretch: argue for one meaning of the door with evidence, and explain how the short lines slow the reader down.
+- **Materials:** "The Door" by Miroslav Holub (in translation), picture prompt, a real or cardboard door.
+- **Joy:** "Door of possibilities" — pupils post what they hope is behind next year's door.
 
 ### Lesson 161 — "Jabberwocky": playing with words
 - **Duration:** 40 min
@@ -1840,7 +1840,7 @@ conferences, author visits, World Book Day and catch-up.
 ### Lesson 164 — A poem for the road ahead
 - **Duration:** 40 min
 - **Objective:** "By the end, I can write a reflective poem about change and the future using an extended metaphor." (UK NC Y6 writing — poetry / CCSS W.5.3d)
-- **Hook:** "Next year you'll be in the final year of primary school. What metaphor fits that feeling — a road, a bridge, a door, a river?"
+- **Hook:** "Next year you'll be in the final year of primary school. What metaphor fits that feeling — a door, a bridge, a road, a river?"
 - **Key activity:** Brainstorm metaphors for change; draft a poem sustaining one metaphor; revise for imagery and line breaks.
 - **Check for understanding:** "How does your metaphor stay consistent through the poem? Point to two lines." → Two lines extending the same image.
 - **Differentiation:** support: metaphor starters and a line-by-line frame / stretch: end with a line that shifts the metaphor's meaning.
@@ -1853,7 +1853,7 @@ conferences, author visits, World Book Day and catch-up.
 - **Hook:** "Poems learned by heart stay with you for life. Which one will you carry?"
 - **Key activity:** Each pupil recites one memorised poem (their own or a published one from this year) and presents their anthology in small groups.
 - **Check for understanding:** "Why did you choose this poem to learn by heart, and what did learning it teach you about it?" → A personal reason and a new insight gained through memorisation.
-- **Differentiation:** support: recite a shorter poem or a single stanza, with a prompt card / stretch: recite a longer poem (e.g. a section of *The Highwayman*).
+- **Differentiation:** support: recite a shorter poem or a single stanza, with a prompt card / stretch: recite a longer poem (e.g. a section of *The Lady of Shalott*).
 - **Materials:** anthologies, recitation space.
 - **Joy:** the recitation celebration.
 
@@ -1922,9 +1922,9 @@ conferences, author visits, World Book Day and catch-up.
 ## Books & resources
 
 **Class texts (the spine)**
-- ***Holes*** — Louis Sachar (1998) — a perfectly engineered novel whose three interwoven stories teach structure, foreshadowing and theme better than any worksheet; humour and justice in one book.
-- ***The Highwayman*** — Alfred Noyes (1906) — the best narrative poem for performance at this age: galloping rhythm, unforgettable metaphors, tragic story.
-- ***Journey to Jo'burg*** — Beverley Naidoo (1985) — a short, powerful novel of apartheid South Africa told through children's eyes; opens discussion of justice and why books can be banned.
+- ***Wonder*** — R. J. Palacio (2012) — a modern classic told by several narrators; the ideal text for teaching voice, perspective and structure, and for honest talk about kindness, difference and belonging. (*Holes* is studied in Year 6.)
+- ***The Lady of Shalott*** — Alfred, Lord Tennyson (1832, revised 1842) — a hypnotic narrative poem of light and shadow, rhythm and refrain; a step up in language from Year 4's "The Highwayman".
+- ***The Breadwinner*** — Deborah Ellis (2000) — a short, gripping novel, based on interviews with Afghan girls in refugee camps, about a girl who disguises herself as a boy to feed her family under the Taliban; opens discussion of justice, courage and girls' education. (*Journey to Jo'burg* is studied in Year 4.)
 - ***A Long Walk to Water*** — Linda Sue Park (2010) — a dual narrative based on the true story of Salva Dut; teaches structure and perseverance and links to geography (water) and global citizenship.
 - ***Boy: Tales of Childhood*** — Roald Dahl (1984) — the model for memoir voice: funny, vivid and honest about the cruelty of some schools; shows how life becomes fiction.
 - ***The Arrival*** — Shaun Tan (2006) — a wordless masterpiece about migration; builds visual literacy and empathy and is accessible to every reader regardless of reading level.
@@ -1932,23 +1932,19 @@ conferences, author visits, World Book Day and catch-up.
 - ***The Tempest*** — William Shakespeare, via a quality retelling (e.g. Leon Garfield's *Shakespeare Stories* or Marcia Williams's *Mr William Shakespeare's Plays*) with key scenes in the original — a first, joyful encounter with Shakespeare through performance.
 
 **Poems**
-- "Dreams" — Langston Hughes; "Where the Mind is Without Fear" — Rabindranath Tagore; "Talking Turkeys!!" — Benjamin Zephaniah; "Give Yourself a Hug" — Grace Nichols; "Life Doesn't Frighten Me" — Maya Angelou; "Where I'm From" — George Ella Lyon; "The Tyger" — William Blake; "The Road Not Taken" — Robert Frost; "Jabberwocky" — Lewis Carroll. Chosen for range of continents, centuries and forms, and because each teaches one clear craft lesson.
+- "I, Too" — Langston Hughes; "Where the Mind is Without Fear" — Rabindranath Tagore; "Checking Out Me History" — John Agard; "Life Doesn't Frighten Me" — Maya Angelou; "The Magic Box" — Kit Wright; "The Tyger" — William Blake; "The Door" — Miroslav Holub; "Jabberwocky" — Lewis Carroll; "The Lady of Shalott" — Alfred, Lord Tennyson. Chosen for range of continents, centuries and forms, and because each teaches one clear craft lesson.
 
 **Wider reading list (independent reading and read-alouds)**
-- *Wonder* — R. J. Palacio — multiple narrators and kindness; a favourite for reluctant readers.
-- *Brown Girl Dreaming* — Jacqueline Woodson — a memoir in verse that pairs beautifully with *Boy*.
+- *Ghost* — Jason Reynolds — a boy who runs from his past joins a track team; a funny, raw first-person voice to set beside *Boy*.
 - *Inside Out & Back Again* — Thanhha Lai — a verse novel of a Vietnamese refugee girl in the USA; pairs with *The Arrival*.
-- *Esperanza Rising* — Pam Muñoz Ryan — Mexico to California in the 1930s; strong historical fiction.
-- *The Breadwinner* — Deborah Ellis — a girl in Taliban-era Afghanistan; courage and family.
-- *Kensuke's Kingdom* — Michael Morpurgo — a shipwreck survival story with a Japanese co-protagonist.
-- *Pax* — Sara Pennypacker — a boy and his fox in a time of war; alternating viewpoints.
-- *The Wild Robot* — Peter Brown — accessible, thoughtful science fiction about nature and belonging.
+- *Amal Unbound* — Aisha Saeed — a girl in Pakistan fights for her education and freedom; pairs with *The Breadwinner*.
+- *Pax* — Sara Pennypacker — a boy and his fox in a time of war; alternating viewpoints (optional re-read for those who met it in the Year 4 book club).
+- *The London Eye Mystery* — Siobhan Dowd — a clever mystery solved by a boy whose brain works differently.
 - *Tom's Midnight Garden* — Philippa Pearce — a classic time-slip story; pairs with dual narratives.
 - *Goodnight Mister Tom* — Michelle Magorian — a Second World War evacuee story of healing and friendship.
-- *Front Desk* — Kelly Yang — a Chinese-American girl runs a motel front desk; injustice and activism through writing letters.
 - *The Girl Who Drank the Moon* — Kelly Barnhill — Newbery-winning fantasy with rich language.
 - *Northern Lights* — Philip Pullman — a stretch text for confident readers.
-- *I Am Malala* (Young Readers Edition) — Malala Yousafzai — non-fiction memoir; pairs with the water campaign speech unit.
+- *I Am Malala* (Young Readers Edition) — Malala Yousafzai — non-fiction memoir; pairs with *The Breadwinner*.
 
 ## End-of-year mastery checks
 
@@ -1983,9 +1979,9 @@ Assessed through the writing portfolio, reading conferences and observed perform
 - Write in front of the class: think aloud as you plan, draft and revise. Show that professional writers revise.
 - Use talk before writing: drama, hot-seating, debate and enquiry lead to better writing.
 - Protect independent reading time and conference with each pupil every week; celebrate reading volume and range.
-- Sensitive topics (apartheid, war, refugees, a baby's illness) need preparation: pre-read chapters, allow pupils to opt for a quieter role, and be alert to pupils' own experiences.
+- Sensitive topics (life under the Taliban, including a public punishment Parvana witnesses; war; refugees; facial difference; a baby's illness) need preparation: pre-read chapters, allow pupils to opt for a quieter role, and be alert to pupils' own experiences.
 
 **Vertical connections**
 - *From Year 4:* relative clauses, parenthesis, modal verbs, fronted adverbials, persuasive techniques, fact vs opinion, and paragraph cohesion are assumed and used; the -able/-ible and -ant/-ent patterns and the first part of the Y5/6 list are revisited in editing.
 - *Into Year 6:* the literary essay grows into multi-paragraph analysis of longer novels and poems; balanced argument grows into discursive and persuasive essays; the research project becomes independent inquiry with more complex sources; Shakespeare continues with a second play; précis and summary skills support note-taking across all subjects.
-- *Across subjects:* history (apartheid, Shakespeare's England, oral history), geography (water scarcity, South Sudan, migration), science (explanations, scientific roots), life skills (empathy, justice, courage), languages (idioms, borrowed words, formal 'you').
+- *Across subjects:* history (Afghanistan's recent history, Shakespeare's England, oral history), geography (water scarcity, South Sudan, Afghanistan, migration), science (explanations, scientific roots), life skills (empathy, justice, courage), languages (idioms, borrowed words, formal 'you').

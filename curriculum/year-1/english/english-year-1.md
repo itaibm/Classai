@@ -45,9 +45,9 @@ Year 2 can write fully joined.
 
 | Term | Class texts | Poetry |
 |---|---|---|
-| 1 | *The Owl Who Was Afraid of the Dark* (Jill Tomlinson); *Traction Man Is Here!* (Mini Grey); *The Emperor's Egg* (Martin Jenkins) | *Out and About* (Shirley Hughes); *Under the Moon & Over the Sea* (ed. John Agard & Grace Nichols) |
-| 2 | *Flat Stanley* (Jeff Brown); *Lon Po Po* (Ed Young) and *Mufaro's Beautiful Daughters* (John Steptoe); *The Hodgeheg* (Dick King-Smith) | *Poems to Perform* (chosen by Julia Donaldson) |
-| 3 | *How to Wash a Woolly Mammoth* (Michelle Robinson & Kate Hindley); *Meerkat Mail* (Emily Gravett) and *The Great Kapok Tree* (Lynne Cherry); *Fantastic Mr Fox* (Roald Dahl) | *Please Mrs Butler* (Allan Ahlberg); *The Owl and the Pussy-cat* (Edward Lear) |
+| 1 | *Frog and Toad Are Friends* (Arnold Lobel); *Traction Man Is Here!* (Mini Grey); *The Emperor's Egg* (Martin Jenkins) | *Out and About* (Shirley Hughes); *Under the Moon & Over the Sea* (ed. John Agard & Grace Nichols) |
+| 2 | *Flat Stanley* (Jeff Brown); *Lon Po Po* (Ed Young) and *Why Mosquitoes Buzz in People's Ears* (Verna Aardema, ill. Leo and Diane Dillon); *The Hodgeheg* (Dick King-Smith) | *Poems to Perform* (chosen by Julia Donaldson) |
+| 3 | *How to Wash a Woolly Mammoth* (Michelle Robinson & Kate Hindley); *Meerkat Mail* (Emily Gravett) and *The Great Kapok Tree* (Lynne Cherry); *Fantastic Mr Fox* (Roald Dahl) | *Honey, I Love and Other Love Poems* (Eloise Greenfield); *The Owl and the Pussy-cat* (Edward Lear) |
 
 **Reading volume.** Beyond the class texts, every child takes home a decodable book matched to their phonics
 stage *and* a "reading for pleasure" book chosen from the class library (see Books & resources) every week.
@@ -68,11 +68,11 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 
 | Term | Unit (class text) | Weeks | Lessons |
 |---|---|---|---|
-| 1 | 1 — The sound code: vowel spellings (*The Owl Who Was Afraid of the Dark*) | 4 | 19 (1–19) |
+| 1 | 1 — The sound code: vowel spellings (*Frog and Toad Are Friends*) | 4 | 19 (1–19) |
 | 1 | 2 — Longer words and lively descriptions (*Traction Man Is Here!*) | 4 | 19 (20–38) |
 | 1 | 3 — Information texts (*The Emperor's Egg*) | 4 | 20 (39–58) |
 | 2 | 4 — Suffixes and letters home (*Flat Stanley*) | 4 | 19 (59–77) |
-| 2 | 5 — Traditional tales from around the world (*Lon Po Po*, *Mufaro's Beautiful Daughters*) | 4 | 19 (78–96) |
+| 2 | 5 — Traditional tales from around the world (*Lon Po Po*, *Why Mosquitoes Buzz in People's Ears*) | 4 | 19 (78–96) |
 | 2 | 6 — Apostrophes, homophones and diaries (*The Hodgeheg*) | 4 | 20 (97–116) |
 | 3 | 7 — Instructions (*How to Wash a Woolly Mammoth*) | 3.5 | 18 (117–134) |
 | 3 | 8 — Letters that persuade (*Meerkat Mail*, *The Great Kapok Tree*) | 3.5 | 18 (135–152) |
@@ -97,15 +97,15 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Materials:** grapheme flashcards, real/nonsense word list, tracker sheet, sticker chart
 - **Joy:** "Alien words" read to a puppet alien who cheers every correct blend.
 
-### Lesson 2 — Meet Plop: listening, predicting and asking questions
+### Lesson 2 — Meet Frog and Toad: listening, predicting and asking questions
 - **Duration:** 25 min
 - **Objective:** "By the end, I can predict what a story will be about from its title and cover and ask a good question about it." (UK NC Y2 RC — predict, ask questions; CCSS RL.2.1)
-- **Hook:** Show the cover of *The Owl Who Was Afraid of the Dark*: "An owl who is scared of the dark? Is that even possible?"
-- **Key activity:** I do: model a prediction with "I think… because…". We do: read chapter 1 aloud ("Dark is nasty!"), pausing to check predictions. You do: each child writes or says one question they want answered by the end of the book, posted on a "Wonder Wall".
-- **Check for understanding:** "Why is it funny that Plop is afraid of the dark?" → Owls are night birds that hunt in the dark, so being afraid of it is the opposite of what we expect.
-- **Differentiation:** support: sentence starters "I think… because…" and picture prompts / stretch: predict how Plop will change by the end and give a reason from chapter 1
-- **Materials:** *The Owl Who Was Afraid of the Dark* by Jill Tomlinson, sticky notes, Wonder Wall, a toy owl
-- **Joy:** Reading in a darkened room by torchlight.
+- **Hook:** Show the cover of *Frog and Toad Are Friends*: "Two best friends — but look how different they are! Who do you think is the worrier?"
+- **Key activity:** I do: model a prediction with "I think… because…" from the cover. We do: read the first story, "Spring", aloud, pausing to check predictions (Toad wants to sleep until May, so Frog tears pages off the calendar). You do: each child writes or says one question they want answered by the end of the book, posted on a "Wonder Wall".
+- **Check for understanding:** "Why does Frog tear the pages off Toad's calendar, and what does it show about him?" → He is lonely and wants his friend to wake up and play; it shows he is clever and a little impatient — he tricks Toad so the calendar says May.
+- **Differentiation:** support: sentence starters "I think… because…" and picture prompts / stretch: predict how the friends will help each other in later stories and give a reason from "Spring"
+- **Materials:** *Frog and Toad Are Friends* by Arnold Lobel, sticky notes, Wonder Wall, frog and toad puppets
+- **Joy:** Frog and toad puppets act out the calendar trick.
 
 ### Lesson 3 — One sound, many spellings: /ai/ as ai, ay and a-e
 - **Duration:** 25 min
@@ -159,7 +159,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 
 ### Lesson 8 — The /igh/ sound: igh, ie, i-e, y, i
 - **Duration:** 25 min
-- **Objective:** "By the end, I can read and spell /igh/ as igh, ie, i-e, y and i, and use y for /igh/ at the end of short words." (UK NC Y2 SP — /ai/ spelled -y at end of words; CCSS RF.1.3c)
+- **Objective:** "By the end, I can read and spell /igh/ as igh, ie, i-e, y and i, and use y for /igh/ at the end of short words." (UK NC Y2 SP — /igh/ spelled -y at end of words; CCSS RF.1.3c)
 - **Hook:** "Why is 'fly' spelled with a y but 'high' with igh? Let's crack the code."
 - **Key activity:** I do: sort night, pie, bike, fly, find. We do: notice y at the end of short words (my, by, try, cry, sky). You do: decodable passage; spell 6 words.
 - **Check for understanding:** "Kai spelled 'try' as 'trigh'. What tip would you give him?" → At the end of a short word, /igh/ is usually spelled y — try.
@@ -167,15 +167,15 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Materials:** word cards, sound houses, decodable passage
 - **Joy:** Night-sky sort — words written on paper stars.
 
-### Lesson 9 — Plop's feelings: character and evidence
+### Lesson 9 — Toad's feelings: character and evidence
 - **Duration:** 25 min
-- **Objective:** "By the end, I can say how Plop feels at different points in the story and point to the words that show it." (UK NC Y2 RC — discuss characters, infer feelings; CCSS RL.2.3)
-- **Hook:** "Plop says 'Dark is nasty!' — how do you know how he's feeling without him saying 'I'm scared'?"
-- **Key activity:** Read the next chapters. I do: model finding evidence ("He wobbled… so I think he's nervous"). We do: plot Plop's feelings on a "feelings graph" across chapters. You do: pick one moment and give a feeling + evidence.
-- **Check for understanding:** "Find one sentence that shows Plop is starting to change. What does it show?" → A sentence where he listens to someone describe the dark and becomes curious — it shows he is less scared.
-- **Differentiation:** support: feelings picture cards to choose from / stretch: explain what causes each change in Plop's feelings
-- **Materials:** *The Owl Who Was Afraid of the Dark*, feelings graph poster, feelings word cards
-- **Joy:** Hot-seating: a child plays Plop and the class interviews him.
+- **Objective:** "By the end, I can say how Toad feels at different points in a story and point to the words that show it." (UK NC Y2 RC — discuss characters, infer feelings; CCSS RL.2.3)
+- **Hook:** "In 'A Lost Button', Toad shouts and stamps. How do you know how he's feeling without him saying 'I'm cross'?"
+- **Key activity:** Read "A Lost Button" and "A Swim". I do: model finding evidence ("Toad shouted… so I think he is cross"). We do: plot Toad's feelings on a "feelings graph" across the story. You do: pick one moment and give a feeling + evidence.
+- **Check for understanding:** "Toad sews all the buttons onto his jacket and gives it to Frog. What does this show about how his feelings have changed?" → He was cross and grumpy while searching, but now he feels sorry and grateful, so he makes a present for Frog to say thank you.
+- **Differentiation:** support: feelings picture cards to choose from / stretch: explain what causes each change in Toad's feelings
+- **Materials:** *Frog and Toad Are Friends*, feelings graph poster, feelings word cards, a jacket covered in buttons
+- **Joy:** Hot-seating: a child plays Toad and the class interviews him.
 
 ### Lesson 10 — The /oa/ sound: oa, ow, o-e, oe, o
 - **Duration:** 25 min
@@ -197,7 +197,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Materials:** sentence cards, decodable passage, "try it both ways" bookmark
 - **Joy:** "Switcheroo" — a flip card that swaps the sound and makes silly non-words.
 
-### Lesson 12 — Poetry: "Dark is…" — listening and performing
+### Lesson 12 — Poetry: night poems — listening and performing
 - **Duration:** 25 min
 - **Objective:** "By the end, I can listen to a poem, say what I notice about its words and rhythm, and perform part of it with expression." (UK NC Y2 RC — recite poems; SL — perform; CCSS RL.2.4)
 - **Hook:** Turn out the lights and read a night poem from *Out and About* (Shirley Hughes) by torchlight.
@@ -210,7 +210,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 ### Lesson 13 — The /oo/ and /yoo/ sounds: oo, ue, ew, u-e
 - **Duration:** 25 min
 - **Objective:** "By the end, I can read and spell words with oo, ue, ew and u-e and hear the difference between /oo/ (moon) and /yoo/ (cube)." (UK NC Y2 SP — Phase 5; CCSS RF.1.3c)
-- **Hook:** "Blue, grew, moon and flute all rhyme — but look at the spellings!"
+- **Hook:** "Blue, grew, moon and flute all have the same /oo/ sound in the middle or at the end — but look at the spellings!"
 - **Key activity:** I do: sort moon, blue, grew, flute; then few, cube, rescue (/yoo/). We do: sound-house sort. You do: decodable passage; dictation.
 - **Check for understanding:** "Say 'moon' and 'music'. Which one has a /y/ sound hiding at the start of the u?" → Music — /myoo/.
 - **Differentiation:** support: oo and ew only / stretch: short oo (book, foot) vs long oo (moon, food) — sort them
@@ -220,49 +220,49 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 ### Lesson 14 — Sentences: capital letters, full stops and I (review)
 - **Duration:** 22 min
 - **Objective:** "By the end, I can write sentences that start with a capital letter, end with a full stop and use a capital I." (UK NC Y2 VGP — demarcate sentences; CCSS L.1.2)
-- **Hook:** A letter from Plop with no capitals or full stops: "Help! I can't tell where my sentences stop!"
-- **Key activity:** I do: read the letter without punctuation — out of breath. We do: fix it together. You do: write three sentences about the dark, then swap and check a partner's with a "capital and full stop" checklist.
+- **Hook:** A letter from Toad with no capitals or full stops: "Help! I can't tell where my sentences stop!"
+- **Key activity:** I do: read the letter without punctuation — out of breath. We do: fix it together. You do: write three sentences about a good friend, then swap and check a partner's with a "capital and full stop" checklist.
 - **Check for understanding:** "How do you know where a sentence ends when you read it aloud?" → Where the idea is complete and you'd pause; that's where the full stop goes.
 - **Differentiation:** support: sentence frames and a word bank / stretch: include one sentence with a name (a proper noun) needing a capital
-- **Materials:** Plop's letter, sentence strips, checklist cards
+- **Materials:** Toad's letter, sentence strips, checklist cards
 - **Joy:** Reading the unpunctuated letter aloud in one breath — then the fixed one.
 
-### Lesson 15 — Vocabulary: owl and night words
+### Lesson 15 — Vocabulary: words from Frog and Toad's world
 - **Duration:** 22 min
 - **Objective:** "By the end, I can explain and use five new words from the book in my own sentences." (UK NC Y2 VGP — vocabulary; CCSS L.2.4)
-- **Hook:** "Plop meets the word 'nocturnal'. What could it mean? Let's be word detectives."
-- **Key activity:** Teach 5 Tier 2/3 words from the text (nocturnal, feathers, fireworks, beautiful, exciting) with pictures, actions and "say it in a sentence". Sort them on a "how I feel about the dark" line (scary → wonderful).
-- **Check for understanding:** "Is an owl nocturnal? Is a person? Explain." → An owl is — it's active at night; people are mostly active in the day.
-- **Differentiation:** support: picture cards and gesture for each word / stretch: find synonyms for scary (spooky, frightening, eerie) and rank them
+- **Hook:** "Toad won't come out because he looks funny in his bathing suit. What is a 'bathing suit'? Let's be word detectives."
+- **Key activity:** Teach 5 Tier 2 words from and about the text (bathing suit, meadow, porch, calendar — plus lonely, to describe Toad in "The Letter") with pictures, actions and "say it in a sentence". Sort them on a "how Toad feels" line (miserable → delighted), placing the feeling words and discussing where each fits.
+- **Check for understanding:** "Toad is lonely at the start of 'The Letter'. Is lonely the same as alone? Explain." → Not quite: alone means nobody is with you; lonely is the sad feeling of wanting a friend — Toad feels lonely because no one ever sends him post.
+- **Differentiation:** support: picture cards and gesture for each word / stretch: find synonyms for sad (glum, miserable, unhappy) and rank them
 - **Materials:** word cards with pictures, the class text, feelings line
 - **Joy:** Word "charades" — act the word, the class guesses.
 
-### Lesson 16 — Planning my "Dark is…" poem
+### Lesson 16 — Planning my "A friend is…" poem
 - **Duration:** 25 min
-- **Objective:** "By the end, I can plan a poem by collecting ideas and describing words about the dark." (UK NC Y2 WC — plan by noting ideas; CCSS W.2.5)
-- **Hook:** "Each person Plop meets says 'Dark is…' something different: kind, fun, exciting. What is dark to you?"
-- **Key activity:** Re-read the "Dark is…" pattern from the book. Senses web: what can you see, hear, feel in the dark? Talk before you write: say each line aloud to a partner before noting it.
+- **Objective:** "By the end, I can plan a poem by collecting ideas and describing words about friendship." (UK NC Y2 WC — plan by noting ideas; CCSS W.2.5)
+- **Hook:** "Frog waits four days with Toad for a letter. What is a friend to you?"
+- **Key activity:** Read "The Letter" (Frog's letter, delivered by the snail, says he is glad Toad is his best friend). Collect "A friend is…" ideas from all five stories. Senses web: what does a good friend do, say and make you feel? Talk before you write: say each line aloud to a partner before noting it.
 - **Check for understanding:** "Why do we say our lines aloud before writing them?" → To hear if they make sense and sound good, and fix them before writing.
-- **Differentiation:** support: picture prompts and a word bank / stretch: include a line with a surprising comparison ("Dark is a warm blanket")
-- **Materials:** senses web template, word bank, torches
-- **Joy:** "Dark den" — ideas collected under a blanket fort.
+- **Differentiation:** support: picture prompts and a word bank / stretch: include a line with a surprising comparison ("A friend is a warm blanket")
+- **Materials:** senses web template, word bank, *Frog and Toad Are Friends*
+- **Joy:** "Friendship den" — ideas collected with a partner under a blanket fort.
 
-### Lesson 17 — Writing my "Dark is…" poem
+### Lesson 17 — Writing my "A friend is…" poem
 - **Duration:** 25 min
 - **Objective:** "By the end, I can write a pattern poem of at least five lines using descriptive words." (UK NC Y2 WC — write poetry; CCSS W.2.3)
 - **Hook:** "Poets pick every word on purpose. Today you are the poet."
 - **Key activity:** I do: model writing two lines from the plan, thinking aloud about word choice. We do: one line together. You do: write the poem from your plan; re-read each line aloud before moving on.
-- **Check for understanding:** "Which word in your poem did you choose most carefully, and why?" → A specific word and reason ("glittering, because the stars sparkle").
-- **Differentiation:** support: poem frame "Dark is ___. Dark is ___." with word bank / stretch: add rhyme or repetition on purpose
+- **Check for understanding:** "Which word in your poem did you choose most carefully, and why?" → A specific word and reason ("patient, because Frog waits four whole days").
+- **Differentiation:** support: poem frame "A friend is ___. A friend is ___." with word bank / stretch: add rhyme or repetition on purpose
 - **Materials:** plans, poem paper, word bank
-- **Joy:** Poems written on black paper with white pencil.
+- **Joy:** Poems written inside a folded "letter" and posted to a friend in class.
 
 ### Lesson 18 — Editing and performing my poem
 - **Duration:** 25 min
 - **Objective:** "By the end, I can re-read my poem to improve one word and fix one mistake, then perform it clearly." (UK NC Y2 WC — evaluate and edit, read aloud; SL — perform)
 - **Hook:** "Every real poet redrafts. Let's make it even better."
 - **Key activity:** Model an edit (swap a plain word for a stronger one; fix a capital). Pairs give one "star and wish". Children edit, then perform to the class with expression.
-- **Check for understanding:** "What did you change and why is it better now?" → A named change and reason ("I changed 'nice' to 'silver' so you can see it").
+- **Check for understanding:** "What did you change and why is it better now?" → A named change and reason ("I changed 'nice' to 'kind' so you know what the friend does").
 - **Differentiation:** support: one edit with the teacher / stretch: two improvements and a performance with a pause for effect
 - **Materials:** poems, editing pens, microphone (real or toy)
 - **Joy:** Poetry café performance.
@@ -277,7 +277,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Materials:** word lists, dictation sheet, short passage, tracker
 - **Joy:** "Sound code champion" sticker for each spelling mastered.
 
-**End-of-unit check:** Read aloud a short passage containing every vowel spelling taught (at least 95% accuracy), spell eight dictated words choosing the correct alternative spelling, and explain how Plop changed from the start to the end of the book, using one clue.
+**End-of-unit check:** Read aloud a short passage containing every vowel spelling taught (at least 95% accuracy), spell eight dictated words choosing the correct alternative spelling, and explain how Toad feels at the start and at the end of "The Letter", using one clue for each.
 
 ---
 
@@ -700,7 +700,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 ### Lesson 59 — Meet Flat Stanley: predicting from a strange event
 - **Duration:** 25 min
 - **Objective:** "By the end, I can predict what might happen to a character after a strange event and give a reason." (UK NC Y2 RC — predict; CCSS RL.2.1)
-- **Hook:** "One morning a noticeboard falls on Stanley in the night and he is… flat! What could a flat boy do that you can't?"
+- **Hook:** "In the night a big noticeboard falls on Stanley, and in the morning he is… flat! What could a flat boy do that you can't?"
 - **Key activity:** Read chapter 1 of *Flat Stanley* by Jeff Brown. We do: list ideas for "things a flat boy could do". You do: predict one adventure and justify it with a detail from the chapter.
 - **Check for understanding:** "Why is sliding under a door a good prediction for Stanley?" → He is now only about half an inch thick, so he could fit through a small gap.
 - **Differentiation:** support: picture prompts and "I think… because…" starter / stretch: predict a problem being flat might cause, too
@@ -947,22 +947,22 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Materials:** word cards, sorting mats, decodable sentences
 - **Joy:** "Wolf walk" — move like the wolf to each word.
 
-### Lesson 83 — *Mufaro's Beautiful Daughters*: characters and choices
+### Lesson 83 — *Why Mosquitoes Buzz in People's Ears*: one action, a chain of events
 - **Duration:** 25 min
-- **Objective:** "By the end, I can describe two characters and explain how their choices lead to different endings." (UK NC Y2 RC — discuss characters; CCSS RL.2.3)
-- **Hook:** "Two sisters are both beautiful. So why does only one become queen?"
-- **Key activity:** Read *Mufaro's Beautiful Daughters* by John Steptoe (set in Zimbabwe). We do: a character chart for Nyasha and Manyara (actions → what they show). You do: explain how kindness decides the ending.
-- **Check for understanding:** "What is the message of the story? Use one event as evidence." → Kindness matters more than beauty or pride — Nyasha is kind to the small snake and the hungry boy, and is chosen.
-- **Differentiation:** support: action picture cards to sort / stretch: compare the message with *Lon Po Po*'s
-- **Materials:** *Mufaro's Beautiful Daughters* by John Steptoe, character chart, map of Africa
-- **Joy:** Find Zimbabwe on a map and look at photographs of Great Zimbabwe.
+- **Objective:** "By the end, I can explain how one small action causes a chain of events in a story, and what the tale teaches." (UK NC Y2 RC — discuss sequence and characters; CCSS RL.2.3)
+- **Hook:** "A mosquito tells one silly fib — and by the end the sun won't come up! How could that happen?"
+- **Key activity:** Read *Why Mosquitoes Buzz in People's Ears* by Verna Aardema, illustrated by Leo and Diane Dillon (a West African tale; Caldecott Medal). We do: build a "cause → effect" chain on a paper-chain garland (the mosquito's tall tale → the iguana puts sticks in his ears → the python is alarmed → the rabbit runs → … → Mother Owl will not wake the sun). You do: retell one link of the chain in your own words with "so" or "because".
+- **Check for understanding:** "The lion's council finds the mosquito to blame, not the iguana. Why?" → The mosquito's nonsense started the whole chain; each animal only reacted to the one before, so the first action caused everything.
+- **Differentiation:** support: picture cards of the animals to put in order / stretch: explain why the tale ends with the mosquito still buzzing in people's ears (it explains something in nature, like a "why" story) and compare its message with *Lon Po Po*'s
+- **Materials:** *Why Mosquitoes Buzz in People's Ears* by Verna Aardema, paper-chain strips, animal picture cards, map of Africa
+- **Joy:** Everyone joins in the animals' sound words as the chain is read aloud.
 
 ### Lesson 84 — Joining clauses: and / but / or, and because / when / if / that
 - **Duration:** 25 min
 - **Objective:** "By the end, I can join two ideas with the right conjunction, including because for a reason." (UK NC Y2 VGP — co-ordination and subordination; CCSS L.2.1f)
 - **Hook:** "The girls were scared. They were brave. — how can one small word join them and change the meaning?"
 - **Key activity:** I do: and (adds), but (contrasts), or (choice); because (reason), when (time), if (condition), that (more information). We do: join sentence cards about the tales. You do: write four joined sentences.
-- **Check for understanding:** "Which conjunction fits: 'Nyasha was chosen ___ she was kind'? Why?" → because — it gives the reason.
+- **Check for understanding:** "Which conjunction fits: 'The iguana put sticks in his ears ___ he didn't want to hear the mosquito's nonsense'? Why?" → because — it gives the reason.
 - **Differentiation:** support: and/but/because only / stretch: start a sentence with the conjunction ("When the wolf knocked, …")
 - **Materials:** sentence cards, conjunction cards, glue sticks
 - **Joy:** "Conjunction glue" — physically glue two sentences with a conjunction card.
@@ -991,7 +991,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Duration:** 25 min
 - **Objective:** "By the end, I can retell a traditional tale from a story map, using story language and conjunctions." (UK NC Y2 SL — retell; CCSS SL.2.4)
 - **Hook:** "Storytellers told these tales for centuries without any books. Can you?"
-- **Key activity:** Build a story map with symbols for *Mufaro's Beautiful Daughters*. Rehearse with actions; retell to a partner; partner gives one "star" for story language.
+- **Key activity:** Build a story map with symbols for *Why Mosquitoes Buzz in People's Ears* — a chain of animals that runs forwards to the owlet and then backwards at the lion's council. Rehearse with actions; retell to a partner; partner gives one "star" for story language.
 - **Check for understanding:** "Which story-language phrase did you use to open, and why does it work?" → e.g. "Long ago, in a village…" — it signals a traditional tale.
 - **Differentiation:** support: retell with the teacher using picture cards / stretch: add a character's thoughts in the retelling
 - **Materials:** story-map paper, symbols, the class text
@@ -1657,14 +1657,14 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - **Materials:** talking object, sentence-stem cards
 - **Joy:** A real class vote.
 
-### Lesson 151 — Performance poetry: *Please Mrs Butler*
+### Lesson 151 — Performance poetry: "Honey, I Love"
 - **Duration:** 25 min
-- **Objective:** "By the end, I can perform a poem with a partner, using voice and timing to show character." (UK NC Y2 RC — recite poems; SL — perform)
-- **Hook:** "A teacher and a pupil talking in a poem — who will win?"
-- **Key activity:** Read "Please Mrs Butler" from Allan Ahlberg's *Please Mrs Butler*. Discuss the two voices; perform in pairs; film.
-- **Check for understanding:** "How does the teacher's voice change across the poem, and how will you show it?" → She gets more and more fed up — show it with a firmer, more tired voice.
-- **Differentiation:** support: the pupil's lines / stretch: add a new verse in the same pattern
-- **Materials:** *Please Mrs Butler* by Allan Ahlberg
+- **Objective:** "By the end, I can perform a poem with a partner, using voice and timing to show the speaker's feelings." (UK NC Y2 RC — recite poems; SL — perform)
+- **Hook:** "A poem that lists all the things one girl loves — can you guess what's on her list?"
+- **Key activity:** Read the title poem from Eloise Greenfield's *Honey, I Love and Other Love Poems*. Notice the pattern: each verse describes something she loves, then comes back to "honey, let me tell you that I LOVE…". Pairs split the parts (one reads the verse, both say the returning line), practise and film.
+- **Check for understanding:** "Why does the poet keep coming back to the same line, and how will you say it?" → The repeated line ties the verses together and builds up how much she loves her everyday life — say it louder and more joyfully each time.
+- **Differentiation:** support: say only the returning line / stretch: add a new verse in the same pattern about something you love
+- **Materials:** *Honey, I Love and Other Love Poems* by Eloise Greenfield
 - **Joy:** Filmed performance.
 
 ### Lesson 152 — Unit check: persuasion
@@ -1872,12 +1872,12 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 ## Books & resources
 
 **Class texts (the spine — read whole, studied closely)**
-- *The Owl Who Was Afraid of the Dark* by Jill Tomlinson — a short, gentle chapter book; the perfect first "long read", with a clear character change and a repeated "Dark is…" pattern children can borrow for poetry.
+- *Frog and Toad Are Friends* by Arnold Lobel — five short, perfectly written stories about friendship; simple enough for children to read themselves by the end of term, rich enough for inference about feelings, and a gentle model for a pattern poem. (*The Owl Who Was Afraid of the Dark* is studied in Year 2.)
 - *Traction Man Is Here!* by Mini Grey — witty, comic-style picture book that rewards close looking; rich in dramatic noun phrases and ideal for teaching expression.
 - *The Emperor's Egg* by Martin Jenkins, illustrated by Jane Chapman — the best narrative non-fiction for this age: real science, humour and all the features of an information text.
 - *Flat Stanley* by Jeff Brown — a classic early chapter book with a brilliant premise; natural springboard for letters and postcards from around the world.
 - *Lon Po Po: A Red-Riding Hood Story from China* by Ed Young — Caldecott Medal winner; brave, clever sisters; the ideal partner for comparing versions of a tale.
-- *Mufaro's Beautiful Daughters: An African Tale* by John Steptoe — Caldecott Honor book set in Zimbabwe; a clear moral about kindness and stunning illustrations.
+- *Why Mosquitoes Buzz in People's Ears: A West African Tale* retold by Verna Aardema, illustrated by Leo and Diane Dillon — Caldecott Medal winner; a cumulative cause-and-effect tale full of sound words, perfect for retelling from a story map. (*Mufaro's Beautiful Daughters* is studied with the world Cinderella tales in Year 2.)
 - *The Hodgeheg* by Dick King-Smith — funny, short and warm animal chapter book; full of dialogue (contractions) and a real-world message about road safety.
 - *How to Wash a Woolly Mammoth* by Michelle Robinson, illustrated by Kate Hindley — hilarious "instructions" that make the genre's features memorable.
 - *Meerkat Mail* by Emily Gravett — a story told through postcards, with a hidden visual subplot; superb for inference from pictures.
@@ -1888,11 +1888,11 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - *Out and About* by Shirley Hughes — seasonal poems of childhood, beautifully illustrated; easy to learn and perform.
 - *Under the Moon & Over the Sea*, edited by John Agard and Grace Nichols — Caribbean poetry with rhythm and joy; widens the class's poetic world.
 - *Poems to Perform*, chosen by Julia Donaldson — poems picked to be spoken and acted, organised for solo, pair and group performance.
-- *Please Mrs Butler* by Allan Ahlberg — funny, true-to-life school poems; perfect for two-voice performance.
+- *Honey, I Love and Other Love Poems* by Eloise Greenfield — joyful, rhythmic poems about everyday life by a great African American poet; made for reading aloud. (*Please Mrs Butler* is studied in Year 2.)
 - *The Owl and the Pussy-cat* by Edward Lear — the classic nonsense poem, for sound and play.
 
 **Reading for pleasure (class library — diverse, excellent, re-readable)**
-- *Frog and Toad Are Friends* by Arnold Lobel — gentle early chapters, ideal for independent fluency practice.
+- *Frog and Toad Together* by Arnold Lobel — more Frog and Toad stories for children to read independently after the class text.
 - *Last Stop on Market Street* by Matt de la Peña, illustrated by Christian Robinson — a city bus ride that teaches seeing beauty everywhere.
 - *The Proudest Blue* by Ibtihaj Muhammad with S. K. Ali — a first day of wearing hijab; courage and family pride.
 - *Julián Is a Mermaid* by Jessamyn Love — joyful self-expression and a loving grandmother.
@@ -1935,7 +1935,7 @@ lessons: 10 minutes of home reading and 5 minutes of phonics/spelling retrieval.
 - *Tense slips* → "When did it happen?" check on every verb.
 - *Robot reading* → echo-reading and repeated reading; model phrasing.
 
-**Making it international.** The spine deliberately includes tales and settings from China, Zimbabwe, Kenya, the Caribbean, the Amazon and the Kalahari, and letters that "travel" the world. Invite families to share traditional tales and rhymes from their own cultures and languages — they fit directly into Unit 5.
+**Making it international.** The spine deliberately includes tales and settings from China, West Africa, Kenya, the Caribbean, the Amazon and the Kalahari, and letters that "travel" the world. Invite families to share traditional tales and rhymes from their own cultures and languages — they fit directly into Unit 5.
 
 **Vertical alignment.** Foundation gives Phase 2–5 phonics, first tricky words, letter formation, simple sentences with *and*, and retelling. Year 2 (ages 7–8) adds prefixes (*un-, dis-, mis-, re-, pre-*), *-ly/-ous/-tion* families, the Year 3/4 statutory word list, *a/an*, inverted commas for speech, paragraphs, recounts, and fully joined handwriting — so secure Year 1 suffix rules, apostrophes and sentence punctuation are its launchpad.
 
