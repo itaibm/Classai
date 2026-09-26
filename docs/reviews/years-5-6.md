@@ -379,3 +379,110 @@ Verified: Liukas *Hello Ruby*; DK *Coding Projects in Python* and *Coding Games 
 Stanley *Ada Lovelace, Poet of Science*; Wallmark *Grace Hopper: Queen of Computer Code*; Briggs
 *Python for Kids*; Raspberry Pi Foundation, NCCE, CS Unplugged, Thonny, Teachable Machine,
 submarinecablemap.com, BBC Bitesize, *Hello World*. No removals.
+
+
+## Life skills
+
+### Repeats found (the worst of any subject)
+- **Year 5 was largely a copy of Year 4**, lesson by lesson. Repeated lessons: identity map, strengths and values, the comparison trap and self-talk, growth mindset and the brain, SMART goals (same "read more" check), conflict steps, peer pressure and assertiveness, earning and pay, budget, saving and interest, borrowing, two enterprise lessons, the SDGs, a waste audit, planning and reviewing a project, UNCRC rights, stereotypes, changemakers, and planning and running service. Y5 L7's check ("You always ruin the game!" → I-statement) was word for word Y4 L10's, and Y6 L12 used it a third time.
+- **Year 5 also repeated other Year 5 subjects:** advertising and in-app purchases (now Computing L32); fair trade (Geography L22); body image, mental health, five ways to wellbeing and sleep (PE & Health Unit 4).
+- **Year 6 repeated Year 5 (and Year 4):**
+  - an identity map and values card sort (the third year running);
+  - growth mindset, and a metacognition check identical to Y4 L13 ("Why is testing yourself better than re-reading?"), taught again in Y6 L29;
+  - gratitude letters and "three good things" (Y4 L3/L6);
+  - the assertive "I" statement check;
+  - the UNCRC rights-with-responsibilities pairing (Y4 L30, Y5 L30);
+  - a class election as its Joy (Y5 L33);
+  - in-app purchases, loot boxes and influencers (Y5 Computing L32).
+- **Y6's "What we assume from Year 5" described a different Year 5**: online reputation, first aid, spotting scams and so on, none of which the Y5 file taught.
+
+### Changes: Year 5 (rewritten, 6 units, 35 lessons)
+Year 4 is retrieved briefly and applied to harder situations; nothing is taught again at the same depth.
+
+**Unit 1 — Who I am becoming: identity, values and influence**
+- L1 Many groups, one me (code-switching vs losing yourself).
+- L2 Values under pressure: dilemmas, with a three-question test.
+- L3 Who influences me? (recommendation algorithms).
+- L4 Feelings with more than one name (mixed emotions; envy vs jealousy).
+- L5 Belonging: welcoming newcomers (kept, with a stronger check).
+
+**Unit 2 — Friendship, safety and speaking up**
+- L6 When friendships change.
+- L7 Group chats and online friendships (minimum age of 13; parent note).
+- L8 Dares, risk and pressure (risk-weighing questions and exit lines; no dangerous challenges named).
+- L9 Bullying, bystanders and upstanders (the check now requires applying the three criteria).
+- L10 Disagreeing well (steelmanning).
+- L11 Staying safe and getting help (independence, safe vs unsafe secrets, grooming warning signs taught age-appropriately; parent note and safeguarding).
+
+**Unit 3 — Resilience, change and helping each other**
+- L12 Nerves and performance (the stress curve).
+- L13 Solving problems step by step (circle of control).
+- L14 Coping with change and loss (stronger parent/sensitivity note).
+- L15 Asking for help and helping a friend, including when a promise must be broken to keep someone safe.
+- L16 Leadership and being a role model (sealed letters now opened in Y6 L1).
+
+**Unit 4 — Money in the real world**
+- L17 Banks, accounts and ways to pay (statement check: 40 − 12.50 + 15 = 42.50).
+- L18 Scams and phishing.
+- L19 Value for money (unit prices: 0.48 vs 0.44 per 100 g).
+- L20 Taxes and public services (council budget simulation).
+- L21 Careers, skills and job stereotypes.
+- L22 Planning a real class event on a budget (10% contingency: 138 > 135).
+- L23 "Money month" simulation.
+- There is no enterprise lesson in Y5; Y4 and Y6 each do one, at increasing depth.
+
+**Unit 5 — Sustainability: changing habits**
+- L24 Food waste, with a baseline measurement.
+- L25 Climate fairness (hopeful framing).
+- L26 Why habits are hard: nudges (easy, normal, visible, timely).
+- L27–29 A **pupil-led group behaviour-change campaign** with a baseline, a target and a re-measure. The check asks for a percentage decrease (12 → 9 kg = 25%) plus alternative explanations. This builds on Y4's teacher-led class project.
+
+**Unit 6 — Fairness, justice and having a voice**
+- L30 Rules, laws and restorative justice.
+- L31 From stereotype to prejudice to discrimination (the check labels each step; safeguarding note on prejudice incidents).
+- L32 Inclusion and the social model of disability (the check applies the model).
+- L33 Democracy in action (links to Y5 History L30, votes for women).
+- L34 Writing to a real decision-maker.
+- L35 Reflection.
+
+Overview, assumptions, mastery checks, misconceptions and vertical notes were rewritten. An explicit note now says which topics PE & Health, Computing and Geography own.
+
+### Changes: Year 6
+- **Overview:** the "assumes" paragraph was rewritten to match what Years 4–5 actually teach; "adds" was updated; duration range corrected to 35–45 min.
+- **L1** → *My values and my purpose*. It opens the Y5 sealed letters, and the issue list it starts seeds the capstone in L27. The new check asks for a time the pupil acted with their values and a time they acted against them.
+- **L3** → *Growth mindset done right* (false growth mindset, the learning pit, changing strategy). The new check is applied to a scenario rather than recalled.
+- **L4:** retrieves SMART; the dubious "most resolutions fail by February" statistic was softened.
+- **L6:** the hand model is flagged as a simplification and retrieves Y5.
+- **L9** gratitude → *Self-compassion, perfectionism and realistic optimism*.
+- **L12** → *Assertiveness in hard situations* (the DESC script, with adults and older pupils).
+- **L15:** bullying deepened with banter vs bullying, prejudice-based bullying and the bystander effect / diffusion of responsibility, plus a new check.
+- **L18:** muddled answer fixed ("Cash: 12 × 30 = 360" → "Cash is cheaper: on credit you pay 360, 60 more").
+- **L19** in-app/advertising → *Work, pay and tax: reading a payslip* (2,000 − 360 = 1,640).
+- **L22** UNCRC recap → *Human rights in tension* (UDHR/UNCRC, rights clashes, who upholds rights; "rights court").
+- **L23:** retrieves the Y5 election; its Joy is now a mock council meeting; the Soweto link now points to History Unit 5.
+- **L24:** the water figure is labelled as an estimate.
+- **L29:** now clearly builds on L3 and Y4.
+- Vocabulary, end-of-unit checks, mastery check 4 and the vertical note were updated; Oettingen's *Rethinking Positive Thinking* was added.
+
+**Facts checked:**
+- Penny doubling: 2²⁹ = 536,870,912 cents on day 30.
+- Compound interest: 110 / 121 / 133.10.
+- Break-even: 20 ÷ 1.20 → 17.
+- UNCRC 1989: Arts 12, 19, 28 and 31; the most widely ratified treaty.
+- WOOP comes from Oettingen; the hand model from Siegel; *The Story of Stuff* is by Leonard (2007).
+
+**Capstone vs README:** checked and consistent. L27 is the launch, L31–35 run the project, L33 is the action and L35 is the exhibition. Every cross-subject unit the capstone cites exists, including:
+- English Units 4, 5 and 9;
+- Maths Units 12 and 13;
+- Geography Units 5 and 7;
+- Computing Units 4 and 7;
+- Art Units 6 and 7;
+- Science Unit 9;
+- History Unit 6 (oral history).
+
+### Books
+- **Y5 removed:** *The Colour Monster* (real, but written for ages 3–6, so too young here).
+- **Y5 added (all certain):** Draper's *Out of My Mind*, which supports L32.
+- **Y5 kept:** *Wonder*, *The Boy at the Back of the Class*, *I Am Malala* (YRE), *If the World Were a Village*, *Mindset*, UNICEF, and the World's Largest Lesson.
+- **Y6 kept:** Covey; Siegel & Bryson; Mackesy; *I Am Malala*; *The Boy Who Harnessed the Wind* (YRE); *Factfulness*; CASEL; VIA; the SDGs; *The Story of Stuff*.
+- **Y6 added:** Oettingen.
