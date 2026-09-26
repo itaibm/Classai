@@ -486,3 +486,36 @@ Overview, assumptions, mastery checks, misconceptions and vertical notes were re
 - **Y5 kept:** *Wonder*, *The Boy at the Back of the Class*, *I Am Malala* (YRE), *If the World Were a Village*, *Mindset*, UNICEF, and the World's Largest Lesson.
 - **Y6 kept:** Covey; Siegel & Bryson; Mackesy; *I Am Malala*; *The Boy Who Harnessed the Wind* (YRE); *Factfulness*; CASEL; VIA; the SDGs; *The Story of Stuff*.
 - **Y6 added:** Oettingen.
+
+
+## READMEs
+
+**Year 5 README**
+- The year paragraph, term-by-term highlights and cross-curricular threads were rewritten. They described the old medieval/Maya/Vikings history, tectonics/rivers/cities geography, printmaking, enterprise and SDG projects.
+- They now match the reviewed files: Ottoman, Renaissance, slave trade, flight and WWII history; Kenya, water, trade and polar geography; collage and portraits; *Tempest* songs; binary and Python; the sustainability campaign.
+- Term placement was checked against each file's time budget. The "for Year 6" line now adds Python, binary and the life-skills outcomes.
+
+**Year 6 README**
+- The subject table's abbreviated unit lists still match: no Year 6 units were renamed.
+- The "Builds on Year 5" paragraph was rewritten to list what Year 5 actually teaches in every subject. It notes that networks and the first enterprise and service projects sit in Year 4, and links to this review.
+- In the capstone table, stage references were refined to the exact life-skills lessons: L1 and L27 choose; L31 research; L20–21 and L32 plan and budget; L33 act; L34–35 impact and exhibition.
+- All cross-subject units cited in the README and in life-skills Unit 7 were verified to exist.
+
+## Final check
+All 18 owned files parse with `parseScopeFile`:
+- 0 incomplete lessons;
+- continuous numbering;
+- no durations outside 30–45 minutes;
+- lesson counts unchanged: 70 each for science, languages and PE; 35 each for the rest.
+
+## Left / not done
+- **English and maths** (files and README rows) were outside scope and not reviewed. The capstone references into them (English Units 4, 5 and 9; Maths Units 12–13) were only checked for existence.
+- **Year 6 English Unit 5 uses *A Long Walk to Water*, which the Year 5 README also lists as a Year 5 class text.** This is a possible cross-year duplicate for the English reviewer.
+- **Deliberate spirals kept:**
+  - PE athletics and invasion games each year, with increasing technique demands.
+  - Networks taught in Year 4 and again in Year 6, where Year 6 adds IP, TCP and security.
+  - Year 6 geography tectonics revisits Year 4 at KS3 depth (hazard management, risk reduction).
+  - Enterprise and service projects in Years 4 and 6, with Year 6 adding break-even and social enterprise.
+  - Stress and calm strategies in Life Skills Year 5 and PE & Health Year 6 (performance nerves vs anxiety).
+- **Year 4 was read only.** Several Year 4 files contain the same content that Year 5 repeated. The fixes were made on the Year 5/6 side.
+- **Books:** titles I could not verify with certainty were removed rather than guessed. Resource links (UNICEF, VIA, World's Largest Lesson, etc.) are named but URLs were not live-checked from this environment.

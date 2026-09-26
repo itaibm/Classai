@@ -13,10 +13,12 @@ Year 5 is the year pupils become **independent thinkers who can explain, argue, 
 make**. In maths they master fractions, decimals and percentages, meet ratio and algebra, and divide by
 two-digit numbers; in English they read eight whole texts (from *Holes* to *The Tempest*), write a
 literary essay, a balanced argument and a researched report; in science they design their own
-investigation for a science fair; in the humanities they study how connected the medieval world was
-and how people changed unfair laws; they write their first Python programs, strum ukulele chords and
-play keyboard, compose a film soundtrack, run a mini-enterprise, carry out a sustainability project,
-learn to float to live and navigate with a map and compass. Everything prepares them for Year 6 —
+investigation for a science fair; in history they follow the world from Ottoman Istanbul and
+Renaissance Florence through the transatlantic slave trade and resistance to the home fronts of the
+Second World War, and in geography they study Kenya, water and the polar regions; they write their first
+Python programs and learn how computers store everything in binary, sing in harmony, strum ukulele and
+play keyboard, stage scenes from *The Tempest*, run a data-led sustainability campaign, learn to float
+to live and navigate with a map and compass. Everything prepares them for Year 6 —
 the final primary year — which relies on fluent number, early algebra and ratio, and the habits of
 independent research and extended writing.
 
@@ -62,23 +64,27 @@ slots in every subject for trips, assessment conferences and events.
 
 | Term | Maths | English (class texts) | Science | Humanities | Projects and performances |
 |---|---|---|---|---|---|
-| 1 | Place value to 10 million, long division, order of operations, adding and subtracting fractions | *Holes*; *The Highwayman*; *Journey to Jo'burg*; news reports; debate | Classification, the heart and circulation, fossils | The world in AD 800; Baghdad; the Maya · Maps and GIS; plate tectonics | Choir concert; ukulele band; Scratch games arcade; mini-interview in Spanish |
-| 2 | Multiplying and dividing fractions, decimals, percentages, ratio, algebra | *A Long Walk to Water*; *Boy*; world poetry; *The Arrival* | Evolution, light, electricity | Mali and Benin; the Vikings · Rivers and water; trade and fair trade | Printmaking exhibition; world music day; micro:bit invention fair; enterprise fair; dance festival |
-| 3 | Measures and conversion, area and volume, angles and circles, coordinates, pie charts and the mean, investigations | *Skellig*; *The Tempest*; research project; Frost and Carroll | Acids, alkalis and reactions; atmosphere and climate; **science fair** | Freedom movements; local history · Cities; fieldwork enquiry | Shakespeare performance; research expo; film-soundtrack premiere; sustainability and service projects; sports day |
+| 1 | Place value to 10 million, long division, order of operations, adding and subtracting fractions | *Holes*; *The Highwayman*; *Journey to Jo'burg*; news reports; debate | Classification, the heart and circulation, evolution begins | Historian's toolkit; the Ottoman Empire; the Renaissance and printing · Maps, projections and GIS; Kenya and East Africa | Choir concert; ukulele band; illustrated story books; binary "secret messages"; Scratch games arcade; mini-interview in Spanish |
+| 2 | Multiplying and dividing fractions, decimals, percentages, ratio, algebra | *A Long Walk to Water*; *Boy*; world poetry; *The Arrival* | Evolution and inheritance, light, electricity | The transatlantic slave trade and resistance; the history of flight · Water; trade and fair trade | Collage and portrait exhibition; world music day; micro:bit invention fair; dance festival |
+| 3 | Measures and conversion, area and volume, angles and circles, coordinates, pie charts and the mean, investigations | *Skellig*; *The Tempest*; research project; Frost and Carroll | Particles, properties and reactions; atmosphere and climate; **science fair** | Second World War home fronts and votes for women; local history · The polar regions; fieldwork enquiry | *Tempest* songs and storm performance; research expo; first Python programs; sustainability campaign; sports day |
 
 ## Cross-curricular threads
 
 - **Journeys and belonging** — *Journey to Jo'burg*, *A Long Walk to Water* and *The Arrival* (English)
-  link to apartheid and freedom movements (history), water scarcity and migration (geography), and
-  belonging and rights (life skills).
+  link to apartheid (history Lesson 4) and to refugees and the Kindertransport (history Unit 6), water
+  scarcity in South Sudan and the Nile basin (geography), and belonging, prejudice and fairness (life
+  skills).
 - **Maths everywhere** — ratio and map scale (geography), means and line graphs (science, PE), angles
-  in turtle graphics (computing), time signatures as fractions (music), budgets and interest (life
-  skills), Maya and Babylonian numerals (history).
-- **Sustainability** — climate and the carbon cycle (science), fair trade and sustainable cities
-  (geography), art for a cause (art), the SDGs action project (life skills).
-- **A connected world** — Baghdad, the Maya, Mali, Benin and the Vikings on one timeline (history);
-  Islamic geometric art and Benin plaques (art); griots and the kora (music); the Spanish-speaking
-  world (languages).
+  in turtle graphics and binary place value (computing), time signatures as fractions (music), bank
+  statements, unit prices, percentages and budgets (life skills), timelines and population data
+  (history).
+- **Sustainability** — climate and the carbon cycle (science), water, fair trade and the polar regions
+  (geography), design for a cause (art), food waste, climate fairness and a behaviour-change campaign
+  (life skills).
+- **A connected world** — Ottoman Istanbul, Renaissance Florence and the Atlantic world on one
+  timeline (history); Kenya, the Nile and global supply chains (geography); Chinese paper-cutting, Ife
+  heads and Romuald Hazoumè (art); taiko, kora, siku panpipes, Cuban son and maqam (music); the
+  Spanish-speaking world (languages).
 
 ## How Year 5 builds on Year 4 and prepares for Year 6
 
@@ -93,7 +99,7 @@ slots in every subject for trips, assessment conferences and events.
   analysis with embedded quotations, balanced argument, précis, independent research with a
   bibliography, and control of register and punctuation. In science and the humanities it secures
   the particle model, fair testing with repeats, source evaluation and fieldwork; in computing, first
-  Python programs.
+  Python programs and binary; in life skills, banks, scams, risk and a data-led campaign.
 
 ## Assessment in Year 5
 

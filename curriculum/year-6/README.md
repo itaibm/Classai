@@ -55,13 +55,13 @@ every subject:
 
 | Stage | What children do | Subjects feeding it |
 |---|---|---|
-| 1. Choose & question | Pick an issue; write a "How might we…?" question and a measurable goal | Life Skills L27; Geography (SDGs) |
-| 2. Research | Reliable sources with citations; interviews; stakeholder map | English Unit 5 (research skills); History Unit 6 (interviewing) |
+| 1. Choose & question | Pick an issue (first listed in Life Skills L1); write a "How might we…?" question and a measurable goal | Life Skills L1 and L27; Geography (SDGs) |
+| 2. Research | Reliable sources with citations; interviews; stakeholder map | Life Skills L31; English Unit 5 (research skills); History Unit 6 (interviewing) |
 | 3. Gather data | Design a survey or fieldwork; analyse with averages, spread and charts | Maths Unit 12; Geography Unit 7; Computing Unit 4 |
-| 4. Plan & budget | Action plan with roles, timeline, risks and a budget (enterprise profits can fund it) | Life Skills Units 4 and 7; Maths Unit 13 |
+| 4. Plan & budget | Action plan with roles, timeline, risks and a budget (enterprise profits can fund it) | Life Skills L20–21 and L32; Maths Unit 13 |
 | 5. Act | Carry out the action and log its impact; adapt when things go wrong | Life Skills L33; Science Unit 9 if an investigation is needed |
 | 6. Communicate | A persuasive pitch, a poster and exhibition board, a small program or data tool | English Units 4 and 9; Art Unit 6–7; Computing Unit 7 |
-| 7. Celebrate & reflect | Present at the graduation exhibition; reflect against the vision of the graduate; hand the project on | Life Skills L35 |
+| 7. Celebrate & reflect | Measure impact and rehearse the pitch; present at the graduation exhibition; reflect against the vision of the graduate; hand the project on | Life Skills L34–35 |
 
 **Graduation week** brings everything together: the **graduation exhibition** (Change-Maker Projects,
 the art exhibition, science-fair posters, geography fieldwork, oral histories, computing programs),
@@ -98,8 +98,16 @@ Art & Design 1 · Music 1 · Computing 1 · Life Skills 1 = **22 lessons**.
 - **Builds on Year 5 (ages 10–11, UK Year 6 / US Grade 5)** — see [`../year-5/`](../year-5/) and
   `knowledge-base/subjects/*/year-6.md`: the full KS2 toolkit (long multiplication and division, four
   operations with fractions, first ratio and algebra, the mean, pie charts; KS2 grammar and spelling;
-  classification, circulation, evolution, light and electricity; map mastery; block programming; A1
-  Spanish). Each Year 6 file starts with brief retrieval and then goes deeper — no repeats, no gaps.
+  classification, circulation, evolution, light, electricity, the particle model and first chemical
+  reactions, atmosphere and climate; source evaluation, the Ottoman Empire, the Renaissance, the
+  transatlantic slave trade and the Second World War home fronts; map projections and GIS, Kenya,
+  water, trade and the polar regions; Scratch, the micro:bit, **first Python** and binary; A1 Spanish
+  with the present tense and *ir a* + infinitive; choral harmony, ukulele, keyboard and compound time;
+  illustration, collage and sculpture; changing friendships, risk, banks, scams and a data-led
+  sustainability campaign). Year 4 taught networks and the web, and a first class enterprise and service
+  project. Each Year 6 file starts with brief retrieval and then goes deeper. The review in
+  [`../../docs/reviews/years-5-6.md`](../../docs/reviews/years-5-6.md) records where Year 5–6 repeats were
+  removed.
 - **Hands on to secondary (UK Year 8 / US Grade 7 / MYP 2):** proportional reasoning and multi-step
   equations; thesis-driven analytical and argument essays, heritage texts and Shakespeare; the cell,
   particle, energy and force models; source evaluation and interpretation; case-study geography and
