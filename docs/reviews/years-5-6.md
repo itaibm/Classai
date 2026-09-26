@@ -260,3 +260,41 @@ Tan *The Arrival*, Winter *Henri's Scissors*, Greenberg *Romare Bearden: Collage
 Beckett, Wenzel *13 Artists*, Brown & Parra *Frida Kahlo and Her Animalitos*, Kogan Ray *Hokusai*.
 Y6 list (Gombrich, Edwards, Dickins *Usborne Introduction to Art*, DK Eyewitness) verified; museum and
 artist lists updated.
+
+---
+
+## Music
+
+### Repeats found
+- Year 5 Unit 1 re-taught Year 4 Unit 1 **song for song**: "Kookaburra" round, "Dona nobis pacem", "Siyahamba" call and response, partner songs.
+- Year 5 Unit 2 re-taught Year 4 Units 2 and 5: ukulele C, Am, F, G and **"La Bamba"** (Y4 L29 had the same song).
+- Rhythm notation (note values, time signatures, dotted notes, syncopation) appeared in Y4 Unit 3, Y5 Unit 3 and Y6 Lessons 1–2; treble-stave reading in Y5 L16 and Y6 L4; keyboard geography in Y5 L24 and Y6 L6.
+- The same four world traditions (samba, djembe, gamelan, raga) in **all three years**.
+- Film music — Grieg's "Mountain King", Holst's "Mars", the *Jaws* leitmotif and a silent-film soundtrack — in both Y5 Unit 6 and Y6 Unit 5; Holst's "Mars" 5/4 also Y4 L18.
+- Y6's "What we assume from Year 5" described a music-history/genres year that Year 5 did not teach.
+
+### Resolution
+**Year 5 rewritten** (35 lessons, 6 units; the keyboard-basics unit kept intact):
+| Unit | Now |
+|---|---|
+| 1 Choral singing | "The Water Is Wide" (breath/phrasing), harmony in thirds, **isicathamiya and "Shosholoza"** (Ladysmith Black Mambazo), a **descant from a two-part score**, three-part **"Tue Tue"** (Ghana), concert |
+| 2 Ukulele II | G and Em, **the key of G** with "Jambo Bwana" (Kenya — geography link), **TAB**, **fingerpicking**, **reggae off-beat strum** ("Three Little Birds") |
+| 3 Reading music | **6/8 compound time**, ties and syncopation, treble stave, **reading melodic shape**, dictation |
+| 4 World music II | **Japanese taiko**, kora and griots (kept), **Andean siku hocket**, **Cuban son clave**, **Arabic maqam and oud** (maqam Hijaz on D), comparison with Year 4 |
+| 5 Keyboard basics | unchanged |
+| 6 Stories in song | **Mozart's *Magic Flute***, **Peking opera**, **musical theatre** (*The Lion King*), **setting Ariel's songs from *The Tempest*** (Robert Johnson's c. 1611 setting), storm-scene composition and performance (English link) |
+
+**Year 6:** L1 → **irregular metre 5/4 and 7/8** ("Take Five", *lesnoto*); L2 → **triplets and swing** (Ellington; prepares the blues); L4 → **bass clef and grand staff**; L6 retitled to scales and keys, retrieving Y5 keyboard geography; L19 adds **3-against-2 cross-rhythm and the timeline bell pattern**; L20 adds **colotomic structure and kotekan**; L21 Rio samba (done in Y4) → **samba-reggae (Olodum, Salvador) and Afro-Brazilian identity**; L24 Holst "Mars" (done in Y4) → **Britten's *Young Person's Guide to the Orchestra***. Overview, Unit 1/4 vocabulary, end-of-unit checks, mastery check 1, listening list and vertical note updated. Y6 L23 (Grieg), L25–26 (leitmotif, silent-film soundtrack) now stand alone because Y5 no longer teaches them.
+
+### Facts checked
+Teentaal 16 beats (sam 1, khali 9); 12-bar blues V first in bar 9; C blues scale C–E♭–F–F♯–G–B♭; Pachelbel
+ground bass D–A–B–F♯–G–D–G–A; *Clapping Music* 1972 (12-quaver pattern); *The Planets* 1914–16;
+"Homeless" (*Graceland*, 1986); *Jaws* 1975; Ode to Joy notes in C position; ukulele chord shapes
+(C, Am, F, G); "Take Five" (Paul Desmond, 1959, 5/4 as 3+2); Britten 1946 on Purcell's *Abdelazer*;
+*The Magic Flute* 1791; Peking opera on UNESCO's list (2010); "Three Little Birds" 1977 (A, D, E).
+
+### Books & resources
+Y5: kept Levine *The Story of the Orchestra*, Chrome Music Lab, BandLab/GarageBand; Britten moved to Y6
+where it is taught; a retelling I could not verify for *The Magic Flute* was **not** added (replaced by
+a subtitled opera-house recording). Y6 (Goodall *The Story of Music*, Levitin, Taylor *Music Theory in
+Practice Grade 1*, BBC Ten Pieces) verified.
