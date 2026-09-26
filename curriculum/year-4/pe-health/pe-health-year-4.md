@@ -6,7 +6,7 @@
 
 ## Year overview
 
-Year 4 PE & Health turns **fundamental movement into real sport, dance and adventure** — and teaches children how to look after their bodies and minds. Children learn the *principles* behind games (space, width, support, marking) so they can play any invasion or net game well; they build gymnastic sequences with balance, flight and partner work; they choreograph dance from several cultures; they become safer, stronger swimmers who know how to self-rescue; they run, jump and throw with better technique and measure their improvement; and they navigate outdoors with a map and compass. A dedicated **health unit** retrieves the Year 3 basics and goes further — food labels and sugar, the immune system and medicines, sun, heat and cold, puberty, resilience, consent and peer pressure, and the first-aid primary survey and defibrillators — and every lesson includes a warm-up and cool-down that children increasingly lead themselves.
+Year 4 PE & Health turns **fundamental movement into real sport, dance and adventure** — and teaches children how to look after their bodies and minds. Children learn the *principles* behind games (space, width, support, marking) so they can play any invasion or net game well; they build gymnastic sequences with balance, flight and partner work; they choreograph dance from several cultures; they become safer, stronger swimmers who know how to self-rescue; they run, jump and throw with better technique and measure their improvement; and they navigate outdoors with a map and compass. A dedicated **health unit** retrieves the Year 3 basics and goes further — food labels and sugar, the immune system and medicines, sun, heat and cold, puberty, mental wellbeing, staying safe when out and about, and the first-aid primary survey and defibrillators — and every lesson includes a warm-up and cool-down that children increasingly lead themselves.
 
 **Delivery.** PE is **human-delivered and active**: a teacher, coach or parent leads every session in a hall, playground, field or pool. An app or tutor can support with explanations, rules, videos, reflection questions and progress tracking, but the doing is physical. Every lesson follows: warm-up (raise heart rate, mobilise) → skill teaching (demonstrate, practise, feedback) → apply in a game or performance → cool-down and reflection.
 
@@ -487,7 +487,7 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 
 **Essential question:** What choices help me grow up healthy, safe and happy?
 
-**Key vocabulary:** food label, per 100 g, free sugars, portion, immune system, white blood cells, vaccine, bacteria, virus, antibiotic, UV index, heat exhaustion, layers, puberty, resilience, setback, consent, peer pressure, trusted adult, primary survey, recovery position, defibrillator (AED), emergency
+**Key vocabulary:** food label, per 100 g, free sugars, portion, immune system, white blood cells, vaccine, bacteria, virus, antibiotic, UV index, heat exhaustion, layers, puberty, mental health, wellbeing, meeting point, code word, trusted adult, primary survey, recovery position, defibrillator (AED), emergency
 
 ### Lesson 41 — Reading food labels: sugar and portions
 - **Duration:** 35 min
@@ -529,25 +529,25 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** agreed health-education resources, question box.
 - **Joy:** A calm, respectful space where questions are welcomed.
 
-### Lesson 45 — Resilience: bouncing back from setbacks
+### Lesson 45 — Mental wellbeing: looking after my mind
 - **Duration:** 35 min
-- **Objective:** "By the end, I can use a plan to bounce back from a setback and support a friend who is worried." (Health education — mental wellbeing; NHES Standard 7)
-- **Hook:** "Wilma Rudolph wore a leg brace after polio as a child — and won three Olympic gold medals in Rome in 1960. What helps people bounce back?"
-- **Key activity:** Retrieve the body's alarm and slow breathing (Year 3), and add box breathing (in for 4, hold for 4, out for 4, hold for 4). New: helpful and unhelpful thoughts ("I can't do it" → "I can't do it *yet*"); breaking a big worry into small steps; asking for help as a strength; supporting a worried friend (listen, don't laugh, suggest telling an adult); write a personal "bounce-back plan".
-- **Check for understanding:** "Your friend misses a penalty in the final and says, 'I'm useless at everything.' What could you say, and why would it help?" → something kind that challenges the all-or-nothing thought (e.g. "You missed one penalty — you set up our first goal, and we can practise"), because it helps them see that one setback doesn't define them and they can improve
-- **Differentiation:** support: thought-swap cards. / stretch: design a bounce-back plan for a real upcoming challenge (a test or performance).
-- **Materials:** thought-swap cards, *Wilma Unlimited* (Kathleen Krull, illustrated by David Diaz), planning sheets.
+- **Objective:** "By the end, I can explain that everyone has mental health, name everyday habits that protect it, and know when and how to ask for help." (Health education — mental wellbeing; NHES Standards 7 and 8)
+- **Hook:** "You look after your body with food, sleep and exercise. What keeps your mind healthy?"
+- **Key activity:** Retrieve the body's alarm and slow breathing (Year 3), and add box breathing (in for 4, hold for 4, out for 4, hold for 4). New: everyone has mental health, which can be better or worse at different times, like physical health; everyday habits that help (connecting with people, being active, noticing the world around you, learning something new, helping others, sleep); signs that someone may need more help (feeling low or worried for weeks, not enjoying things, changes in sleep or eating); who can help (trusted adults, school staff, doctors, children's helplines). Life skills (Unit 1) builds resilience and bounce-back plans on this.
+- **Check for understanding:** "Why is talking to someone a strength, not a weakness, when you're struggling?" → it takes courage, it lets others help, and problems often feel smaller and easier to solve once shared; adults can find the right support
+- **Differentiation:** support: picture cards of wellbeing habits. / stretch: plan a week that includes all five everyday habits and review it.
+- **Materials:** wellbeing-habit cards, a list of local helplines.
 - **Joy:** Breathing with a "breathing buddy" (a soft toy on the tummy).
 
-### Lesson 46 — Consent, peer pressure and getting help
+### Lesson 46 — Staying safe when out and about
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain consent in everyday situations, resist unkind or unsafe pressure, and know how to get help." (Health education — being safe; respectful relationships; NHES Standard 5)
-- **Hook:** "'Everyone's doing it — don't be boring.' What does pressure from friends feel like, and how can you say no?"
-- **Key activity:** Age-appropriate teaching following safeguarding policy. Retrieve PANTS, trusted adults and 'stop, block, tell' (Year 3). New: consent in everyday life — asking before borrowing, hugging, or taking or sharing a photo of someone; nobody should pressure you into something unsafe or unkind; refusal skills (say no clearly, suggest something else, walk away, tell); when a secret means someone could be hurt, telling is helping, not 'snitching'. (Resources such as the NSPCC's "PANTS" rule can support this.)
-- **Check for understanding:** "A friend takes a funny photo of you and wants to post it in the class group chat. You don't want them to. What does consent mean here, and what can you do?" → they need your permission to share a photo of you, and you can say no; ask them to delete it, and if they share it anyway, tell a trusted adult
-- **Differentiation:** support: scenario picture cards. / stretch: role-play resisting pressure using three different refusal strategies.
+- **Objective:** "By the end, I can explain what to do if I get lost or feel unsafe away from home, and who safe adults to ask are." (Health education — being safe; NHES Standard 5)
+- **Hook:** "You look up in a busy market and can't see your family. What do you do first?"
+- **Key activity:** Age-appropriate teaching following safeguarding policy. Retrieve PANTS, trusted adults and 'stop, block, tell' (Year 3). New: growing independence — stay where you are or go to an agreed meeting point; who to ask for help (a police officer, a staff member at a shop till, a parent with children); know a family phone number by heart; a family code word for pick-ups; trust your 'uh-oh' feeling and move towards people; never go anywhere with someone without checking with a trusted adult first. (Everyday consent and peer pressure are taught in life skills, Unit 2.)
+- **Check for understanding:** "You're separated from your family at a busy market. What should you do, and who could you ask for help?" → stay where you are or go to the agreed meeting point; ask a safe adult such as a police officer, a shop worker at the till or a parent with children; give your family's phone number
+- **Differentiation:** support: scenario picture cards. / stretch: help plan a family 'if we get separated' plan for a day out.
 - **Materials:** scenario cards, "helping hand" templates. Safeguarding: follow school procedures for any disclosure.
-- **Joy:** Refusal-skills "freeze-frame" role-plays.
+- **Joy:** "Phone number challenge" — learn it by heart with a rhythm.
 
 ### Lesson 47 — First aid: the primary survey and defibrillators
 - **Duration:** 40 min
@@ -569,7 +569,7 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 - **Materials:** goal planners.
 - **Joy:** Habit-tracker bookmarks.
 
-**End-of-unit check:** Calculate the sugar in a drink from its label; explain how the immune system and vaccines protect us and why antibiotics don't cure colds; use the UV index; describe puberty as normal and different for everyone; use a bounce-back strategy; explain consent and one refusal skill; describe the primary survey and when to fetch a defibrillator.
+**End-of-unit check:** Calculate the sugar in a drink from its label; explain how the immune system and vaccines protect us and why antibiotics don't cure colds; use the UV index; describe puberty as normal and different for everyone; name everyday habits that protect mental health and who can help; explain what to do if lost when out and about; describe the primary survey and when to fetch a defibrillator.
 
 ---
 
@@ -850,7 +850,7 @@ Year 4 PE & Health turns **fundamental movement into real sport, dance and adven
 5. **Swimming and water safety** — swims 25 m, floats and treads water; explains self-rescue, "reach or throw, don't go", and lifejackets, tides and ice. *See it:* swim passport.
 6. **Athletics** — shows improved sprint, jump and throw technique and measures personal bests. *See it:* retest records.
 7. **Outdoor and adventurous** — plans routes with handrails and attack points, uses a compass and works as a team. *See it:* orienteering course.
-8. **Health knowledge** — reads a food label for sugar; explains the immune system and why antibiotics don't cure colds; uses the UV index; explains puberty, resilience strategies, consent and refusal skills; describes the primary survey and when to fetch a defibrillator. *See it:* healthy-habits plan and discussion.
+8. **Health knowledge** — reads a food label for sugar; explains the immune system and why antibiotics don't cure colds; uses the UV index; explains puberty, mental-wellbeing habits and asking for help, and what to do if lost; describes the primary survey and when to fetch a defibrillator. *See it:* healthy-habits plan and discussion.
 9. **Fitness and leadership** — leads a warm-up, explains components of fitness and heart-rate recovery, and plans a progressive three-week challenge. *See it:* warm-up leadership.
 
 ## Teacher guidance

@@ -6,7 +6,7 @@ Year 3 life skills help children **understand and manage their feelings, build g
 
 **Approach.** Lessons are safe and discussion-based: class agreements at the start, 'ask-it baskets' for private questions, no one forced to share personal experiences, and scenarios about characters rather than children in the room. Every lesson ends with a practical strategy children can use that week. Picture books are used as starting points because stories let children explore feelings at a safe distance.
 
-**What this year assumes (from Years 1–2):** naming basic feelings, simple calming strategies, taking turns and sharing, knowing some trusted adults, recognising coins and notes, and caring for their classroom and school grounds. **What Year 4 (ages 9–10) relies on:** a growing emotional vocabulary and toolkit, upstander habits, a growth mindset, budgeting and value-for-money reasoning, and experience of planning a real project — for Year 4's work on managing change, peer influence, online and offline relationships, earning and saving, and wider community responsibility.
+**What this year assumes (from Years 1–2):** feelings have causes and body clues; a calm-down toolkit and helpful thoughts; fair-fix steps, apologies and upstanding; 'yet', mistakes, goals in steps and feedback; needs and wants, spend–save–give and simple saving sums; rubbish, recycling, electricity sources and food waste; children's rights and a first service project. Year 3 opens each topic with a brief retrieval of this and then goes further — so the same books and activities are not repeated. **What Year 4 (ages 9–10) relies on:** a growing emotional vocabulary and toolkit, upstander habits, a growth mindset, budgeting and value-for-money reasoning, and experience of planning a real project — for Year 4's work on managing change, peer influence, online and offline relationships, earning and saving, and wider community responsibility.
 
 **Horizontal links:** PE & Health (Units 4 and 8: health, body safety, calm strategies), Computing (online kindness and safety), Geography (water, trade and Fairtrade), Science (environments and human impact), English (*The Boy at the Back of the Class* — kindness to a refugee child).
 
@@ -33,26 +33,26 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 **Essential question:** What can I do when big feelings and worries show up?
 
-**Key vocabulary:** emotion, feeling, intensity, worry, anxiety, stress, calm, strategy, control, circle of control, resilience, bounce back, support network, trusted adult
+**Key vocabulary:** emotion, feeling, intensity, disappointed, jealous, embarrassed, worry, 'what if…' thinking, worry time, circle of control, problem-solving, option, consequence, resilience, support network, trusted adult
 
 ### Lesson 1 — Naming feelings precisely
 - **Duration:** 35 min
-- **Objective:** "By the end, I can name feelings precisely and describe their intensity." (PSHE Assoc. KS2 Health & Wellbeing (mental health); CASEL self-awareness)
-- **Hook:** "Is 'annoyed' the same as 'furious'? Is 'nervous' the same as 'terrified'?"
-- **Key activity:** Build a class 'feelings thermometer' with words at different intensities (content → happy → overjoyed; uneasy → worried → panicked); read *The Colour Monster* by Anna Llenas as a quick warm-up and discuss why precise words help.
-- **Check for understanding:** "Why is it useful to know if you're 'a bit worried' or 'really scared'?" → the level tells you what kind of help or strategy you need
-- **Differentiation:** support: picture faces with the words / stretch: find three words for one feeling and place them in order of intensity
-- **Materials:** feelings word cards, thermometer poster, the book
-- **Joy:** daily 'feelings thermometer' check-in begins
+- **Objective:** "By the end, I can name feelings precisely, tell similar feelings apart and describe their intensity." (PSHE Assoc. KS2 Health & Wellbeing (mental health); CASEL self-awareness)
+- **Hook:** "Is 'annoyed' the same as 'furious'? Is 'disappointed' the same as 'jealous'?"
+- **Key activity:** Retrieve Year 2's 1–5 feelings thermometer in one minute; then build word ladders at different intensities (content → happy → overjoyed; uneasy → worried → panicked; irritated → frustrated → furious) and pin down look-alike feelings (disappointed vs jealous, embarrassed vs ashamed, nervous vs excited); read *The Boy with Big, Big Feelings* by Britney Winn Lee and discuss why precise words help.
+- **Check for understanding:** "What is the difference between feeling disappointed and feeling jealous? Give an example of each." → disappointed: something you hoped for didn't happen (e.g. the trip was cancelled); jealous: you want something someone else has (e.g. a friend was picked as captain)
+- **Differentiation:** support: picture faces with the words / stretch: find three words for one feeling, order them by intensity and use one in a sentence about a book character
+- **Materials:** feelings word cards, thermometer poster, *The Boy with Big, Big Feelings*
+- **Joy:** daily 'feelings thermometer' check-in begins, now with precise words
 
-### Lesson 2 — What worry feels like and does
+### Lesson 2 — Worry: 'what if…' thinking and worry time
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe how worry feels in the body and mind and why it happens." (PSHE Assoc. KS2 Health & Wellbeing)
-- **Hook:** "Why does your tummy flip before a test? Your body thinks it's meeting a tiger!"
-- **Key activity:** Read *Ruby's Worry* by Tom Percival: the worry grows when Ruby hides it and shrinks when she talks about it. Explain the 'fight, flight or freeze' alarm simply; children map worry signs on a body outline.
-- **Check for understanding:** "In the story, what made Ruby's worry shrink, and why might that work in real life?" → talking to someone about it; sharing a worry makes it feel smaller and you get help
-- **Differentiation:** support: body outline with picture prompts / stretch: explain why the body's alarm is useful sometimes and unhelpful at other times
-- **Materials:** *Ruby's Worry*, body outlines
+- **Objective:** "By the end, I can explain how 'what if…' thoughts make worries grow and use strategies to shrink them." (PSHE Assoc. KS2 Health & Wellbeing)
+- **Hook:** "One 'what if…?' leads to another… and another. How does a small worry become a giant one?"
+- **Key activity:** Read *Ruby's Worry* by Tom Percival: the worry grows when Ruby hides it and shrinks when she talks about it. Retrieve Year 2's body clues briefly (PE Unit 8 explains the body's alarm). New: draw a 'what if…' chain for a character and then answer each link with a realistic thought; try 'worry time' (write worries down and save them for a set ten minutes) and talking to someone.
+- **Check for understanding:** "In the story, what made Ruby's worry shrink, and why might talking work in real life?" → talking to someone about it; sharing a worry lets someone help, and saying it out loud often makes it feel smaller and more realistic
+- **Differentiation:** support: a 'what if…' chain with picture prompts / stretch: rewrite a 'what if…' chain with a realistic answer to each link
+- **Materials:** *Ruby's Worry*, chain templates
 - **Joy:** make a 'worry monster' puppet to 'eat' written worries
 
 ### Lesson 3 — Circle of control
@@ -65,15 +65,15 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** hoops, scenario cards
 - **Joy:** 'Circle of control' hoop sort
 
-### Lesson 4 — My resilience toolkit
+### Lesson 4 — From worry to plan: problem-solving steps
 - **Duration:** 35 min
-- **Objective:** "By the end, I can choose and practise strategies that help me bounce back." (PSHE Assoc. KS2 Health & Wellbeing)
-- **Hook:** "What's in your emotional first-aid kit?"
-- **Key activity:** Practise strategies: square breathing, 5-4-3-2-1 grounding, positive self-talk, movement break, talking to a trusted adult; children make a personal toolkit card.
-- **Check for understanding:** "Which strategy works best for you, and when would you use it?" → names a strategy and a realistic situation
-- **Differentiation:** support: picture strategy cards / stretch: teach a strategy to a partner and explain why it works
-- **Materials:** strategy cards, card for toolkit
-- **Joy:** decorate a pocket-sized 'toolkit' card
+- **Objective:** "By the end, I can use problem-solving steps to turn a worry I can control into a plan." (PSHE Assoc. KS2 Health & Wellbeing; CASEL responsible decision-making)
+- **Hook:** "Calming down is step one. But what if the problem is still there tomorrow?"
+- **Key activity:** Retrieve the Year 2 calm-down toolkit in one minute (breathing, counting, grounding). New: problem-solving steps — calm down, say what the problem is, think of at least three options, consider what might happen with each, choose one, try it, review; practise on character scenarios (forgotten homework, a friend who won't talk to you, being stuck on a project).
+- **Check for understanding:** "Mo keeps forgetting his PE kit and gets upset every week. Use the steps to suggest a plan." → names the problem, gives at least two options (e.g. pack it the night before, a checklist on the door) and chooses one with a reason
+- **Differentiation:** support: a step card with picture prompts / stretch: predict what could go wrong with the chosen plan and add a back-up
+- **Materials:** problem-solving step cards, scenario cards
+- **Joy:** 'Problem-solvers' panel: groups solve a problem posted by another group
 
 ### Lesson 5 — Unit review: my support network
 - **Duration:** 35 min
@@ -85,7 +85,7 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** *The Invisible String*, paper
 - **Joy:** 'Invisible string' web connecting the class
 
-**End-of-unit check:** I can use it: name a feeling and its intensity, sort a worry using the circle of control, and choose a toolkit strategy and a trusted adult for a given scenario.
+**End-of-unit check:** I can use it: name a feeling precisely and its intensity, answer a 'what if…' chain realistically, sort a worry using the circle of control, turn a controllable worry into a plan, and name a trusted adult for a given scenario.
 
 ---
 
@@ -95,21 +95,21 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 **Key vocabulary:** friendship, trust, loyalty, kindness, conflict, compromise, apology, peer pressure, assertive, bystander, upstander, bullying, inclusion, empathy
 
-### Lesson 6 — What makes a good friend?
+### Lesson 6 — Making and keeping friends: joining in
 - **Duration:** 35 min
-- **Objective:** "By the end, I can describe the qualities of a good friendship and how friends solve problems." (PSHE Assoc. KS2 Relationships (families and friendships))
-- **Hook:** "If you could build the perfect friend, what 'ingredients' would you need?"
-- **Key activity:** Groups write a 'friendship recipe' (trust, kindness, fun, listening, forgiving); discuss 'healthy' and 'unhealthy' friendship signs through character scenarios.
-- **Check for understanding:** "Which ingredient is most important in a friendship, and why?" → a reasoned choice (e.g. trust, because without it you can't share worries)
-- **Differentiation:** support: picture ingredient cards / stretch: explain the difference between a friend who disagrees with you and a friend who puts you down
-- **Materials:** recipe templates
-- **Joy:** 'Friendship recipe' book
+- **Objective:** "By the end, I can use skills for joining a group, starting a conversation and keeping a friendship going." (PSHE Assoc. KS2 Relationships (families and friendships); CASEL relationship skills)
+- **Hook:** "A game is already going and you want to join. What do you do — run straight in, stand and wait, or something else?"
+- **Key activity:** Retrieve Year 2's qualities of a good friend in one minute. New: joining skills (watch first, wait for a pause, ask or offer a role, 'Can I be on the team that's short?'); conversation starters and follow-up questions; reading body language (open or closed groups); what to do if the answer is no (try another group, ask an adult to help set up a game). Role-play with character scenarios.
+- **Check for understanding:** "You want to join a game that's already going. What are two good ways to join, and why do they work?" → e.g. watch first to learn the rules, then ask at a pause or offer to fill a gap — they respect the game that's happening, so players are more likely to say yes
+- **Differentiation:** support: joining-in script cards / stretch: coach a character who always barges in and gets turned away
+- **Materials:** scenario cards, conversation-starter cards
+- **Joy:** 'Conversation catch': ask a follow-up question when you catch the ball
 
 ### Lesson 7 — Solving friendship problems
 - **Duration:** 35 min
 - **Objective:** "By the end, I can use a step-by-step approach to resolve conflict fairly." (PSHE Assoc. KS2 Relationships; CASEL relationship skills)
 - **Hook:** "Two friends both want to be captain. How can both feel heard?"
-- **Key activity:** Teach 'stop, calm, talk (I feel… when… I would like…), listen, find a solution both accept'; role-play character scenarios.
+- **Key activity:** Retrieve Year 2's fair-fix steps; add the 'I feel… when… I would like…' statement as the way to talk, and practise listening back ('So you feel…'); role-play character scenarios.
 - **Check for understanding:** "What does an 'I feel' statement do that blaming doesn't?" → it explains your feelings without attacking, so the other person is more likely to listen
 - **Differentiation:** support: sentence frames / stretch: help two other people solve a conflict as a mediator
 - **Materials:** scenario cards
@@ -125,24 +125,24 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** scenario cards
 - **Joy:** 'Say no like a pro' drama
 
-### Lesson 9 — Upstander, not bystander
+### Lesson 9 — Upstander, not bystander: the power of one
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain the difference between a bystander and an upstander and choose safe upstander actions." (PSHE Assoc. KS2 Relationships (bullying))
+- **Objective:** "By the end, I can explain why people often stand by, and choose safe upstander actions in person and online." (PSHE Assoc. KS2 Relationships (bullying); links to Computing)
 - **Hook:** "In the book *One*, a single number changes everything. How?"
-- **Key activity:** Read *One* by Kathryn Otoshi; discuss bystanders; list safe upstander actions (don't laugh, stand with the target, tell an adult, invite them to join).
-- **Check for understanding:** "Name two safe ways to be an upstander when someone is being left out." → e.g. invite them to join; tell an adult; don't join in with the unkindness
-- **Differentiation:** support: picture cards / stretch: explain why being an upstander can take courage and how to stay safe
-- **Materials:** *One* by Kathryn Otoshi
+- **Key activity:** Retrieve Year 2's definition of bullying (repeated, on purpose, hard to defend against). Read *One* by Kathryn Otoshi; discuss why bystanders often do nothing (everyone thinks someone else will act; fear of standing out) and how one person acting makes it easier for others to follow; list safe upstander actions in person and online (don't laugh or share, stand with or message the target, report, tell an adult, invite them to join).
+- **Check for understanding:** "Why do people in a group often do nothing when someone is being picked on, and how can one person change that?" → each person waits for someone else or is afraid to stand out; when one person safely speaks up or tells an adult, others often join in — like One in the story
+- **Differentiation:** support: picture cards of upstander actions / stretch: explain which upstander actions are safest online and why
+- **Materials:** *One* by Kathryn Otoshi, scenario cards
 - **Joy:** 'Be the One' pledge
 
 ### Lesson 10 — Unit review: kindness in action
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan and carry out a kindness mission and reflect on its effect." (PSHE Assoc. KS2 Relationships)
+- **Objective:** "By the end, I can plan and carry out a kindness mission and reflect on how kindness spreads." (PSHE Assoc. KS2 Relationships)
 - **Hook:** "Can one small kindness spread across the whole school?"
-- **Key activity:** Read *Each Kindness* by Jacqueline Woodson; plan a week of kindness missions; reflect on how it felt.
+- **Key activity:** Read *Ordinary Mary's Extraordinary Deed* by Emily Pearson, in which one girl's small gift of blueberries sets off a chain of kindness that spreads around the world; plan a week of kindness missions; track how they spread on a class chart; reflect on how it felt.
 - **Check for understanding:** "What kindness did you do, and how did it affect the other person and you?" → describes the act and effects on both
-- **Differentiation:** support: mission cards / stretch: design a kindness mission for the whole school
-- **Materials:** *Each Kindness*, mission cards
+- **Differentiation:** support: mission cards / stretch: design a kindness mission for the whole school and predict how it could spread
+- **Materials:** *Ordinary Mary's Extraordinary Deed*, mission cards
 - **Joy:** kindness ripple chart
 
 **End-of-unit check:** I can use it: respond to three friendship scenarios with an 'I feel' statement, an assertive 'no' and a safe upstander action.
@@ -153,49 +153,49 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 **Essential question:** How does my brain grow when things are hard, and how can mistakes help me learn?
 
-**Key vocabulary:** growth mindset, fixed mindset, brain, neurons, practice, effort, strategy, mistake, feedback, perseverance, 'yet', goal, reflect
+**Key vocabulary:** growth mindset, neurons, deliberate practice, strategy, slip, stretch mistake, 'aha' mistake, learning pit, perseverance, 'yet', goal, obstacle, plan, reflect
 
-### Lesson 11 — My brain can grow
+### Lesson 11 — Practising the hard part
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain in simple terms how practice strengthens connections in the brain." (PSHE Assoc. KS2 Health & Wellbeing (self-concept); CASEL self-awareness)
-- **Hook:** "Was anyone born knowing how to ride a bike?"
-- **Key activity:** Simple model: brain cells (neurons) connect when we practise, like a path in grass that gets clearer the more it's walked; make a model with pipe cleaners; compare 'I can't do it' with 'I can't do it yet'.
-- **Check for understanding:** "Why does practising something hard make it easier over time?" → practice strengthens the connections in the brain, like a path worn clearer by walking on it
-- **Differentiation:** support: picture of the path model / stretch: explain the difference between effort alone and effort plus a new strategy
-- **Materials:** pipe cleaners, pictures
-- **Joy:** 'Power of yet' poster
+- **Objective:** "By the end, I can explain why focused practice on the hardest part helps my brain learn faster." (PSHE Assoc. KS2 Health & Wellbeing (self-concept); CASEL self-awareness)
+- **Hook:** "Two children practise piano for 20 minutes. One plays the pieces she already knows. The other slows down and repeats the tricky bar. Who improves more?"
+- **Key activity:** Retrieve Year 2's neurons, practice and sleep in one minute (connections strengthen when we practise, like a path worn through grass). New: *deliberate practice* — find the exact hard part, slow it down, repeat with full attention, check and adjust; try it with a skill (e.g. a tricky times-table, a spelling pattern or a juggling-scarf throw), timing before and after.
+- **Check for understanding:** "Which child in the hook will improve faster, and why?" → the one repeating the tricky bar — focused practice on the part just beyond what you can do builds new connections, while replaying what you already know doesn't stretch the brain
+- **Differentiation:** support: a 'find the hard part' checklist / stretch: plan a week of deliberate practice for a real skill and predict the result
+- **Materials:** timers, practice cards, juggling scarves
+- **Joy:** before-and-after timing challenge
 
-### Lesson 12 — Mistakes are for learning
+### Lesson 12 — Different kinds of mistakes
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how mistakes help learning and use a 'mistake to method' process." (PSHE Assoc. KS2 Health & Wellbeing)
-- **Hook:** "In *Beautiful Oops!*, a torn page becomes an alligator's mouth. What might your mistakes become?"
-- **Key activity:** Read *Beautiful Oops!* by Barney Saltzberg; children turn a deliberate 'mistake' on paper into art; discuss a maths or writing mistake that taught them something (e.g. the missing exchange in subtraction).
-- **Check for understanding:** "Describe a mistake that helped you learn something. What did you learn?" → a real example and the lesson (e.g. 'I forgot to exchange, now I say it aloud')
-- **Differentiation:** support: sentence starters / stretch: create a 'mistake museum' exhibit explaining what a mistake taught
-- **Materials:** *Beautiful Oops!*, torn and splattered paper
-- **Joy:** 'Beautiful oops' art gallery
+- **Objective:** "By the end, I can tell apart slips, stretch mistakes and 'aha' mistakes and say what to do with each." (PSHE Assoc. KS2 Health & Wellbeing)
+- **Hook:** "In *Rosie Revere, Engineer*, Rosie's flying machine crashes — and her great-great-aunt cheers. Why?"
+- **Key activity:** Read *Rosie Revere, Engineer* by Andrea Beaty; retrieve Year 2's 'mistakes help me learn'; sort real classroom mistakes into slips (knew it but rushed — check your work), stretch mistakes (trying something new and hard — keep going) and 'aha' mistakes (discovering you'd misunderstood — fix the idea); children analyse one of their own recent mistakes.
+- **Check for understanding:** "You wrote 6 × 7 = 48 in a hurry although you know it's 42. What kind of mistake is that, and what will help next time?" → a slip — you knew the fact but rushed, so slowing down and checking your answers will help
+- **Differentiation:** support: sorting cards with examples / stretch: create a 'mistake museum' exhibit explaining what an 'aha' mistake taught you
+- **Materials:** *Rosie Revere, Engineer*, sorting cards
+- **Joy:** 'Mistake museum' gallery
 
 ### Lesson 13 — Perseverance through the hard middle
 - **Duration:** 35 min
 - **Objective:** "By the end, I can recognise the 'learning pit' and choose strategies to climb out." (PSHE Assoc. KS2 Health & Wellbeing)
-- **Hook:** "Why does the middle of learning something new feel the hardest?"
-- **Key activity:** Read *The Most Magnificent Thing* by Ashley Spires (a girl whose invention fails many times before it works); draw the 'learning pit' and list climbing-out strategies (break it down, ask, try another way, take a break, look at an example).
-- **Check for understanding:** "What did the girl in the story do when she wanted to give up, and what could you do?" → she took a walk and came back with fresh eyes; child names a strategy from the pit
+- **Hook:** "Mae Jemison dreamed of space as a child — and became the first African American woman in space in 1992. What hard middles did she climb through?"
+- **Key activity:** Read *Mae Among the Stars* by Roda Ahmed; draw the 'learning pit' (the confusing middle of learning something new) and list climbing-out strategies (break it down, ask, try another way, take a break, look at an example); retrieve Year 2's 'yet'.
+- **Check for understanding:** "You're stuck in the pit on a hard maths problem. Which strategy would you try first, and why?" → names a strategy that fits the problem (e.g. look at a worked example because I don't know how to start) with a reason
 - **Differentiation:** support: strategy picture cards / stretch: plan how to tackle a real challenge this week using two strategies
-- **Materials:** *The Most Magnificent Thing*, pit diagram
+- **Materials:** *Mae Among the Stars*, pit diagram
 - **Joy:** build-a-contraption challenge with limited materials
 
-### Lesson 14 — Unit review: goal setting
+### Lesson 14 — Unit review: goals and obstacle plans
 - **Duration:** 35 min
-- **Objective:** "By the end, I can set a SMART learning goal and plan the steps to reach it." (PSHE Assoc. KS2 Living in the Wider World (setting goals))
-- **Hook:** "What's something you can't do yet that you'd love to be able to do by summer?"
-- **Key activity:** Teach small, specific, measurable goals with steps and a check-in date; children set a goal (e.g. tables to 12 × 12, a cartwheel, reading a longer book) and a plan.
-- **Check for understanding:** "What is your goal, and how will you know you've achieved it?" → a specific goal with a measurable success sign
-- **Differentiation:** support: goal template / stretch: plan how to keep going when progress stalls
+- **Objective:** "By the end, I can set a specific goal, predict an obstacle and make an 'if…, then I will…' plan for it." (PSHE Assoc. KS2 Living in the Wider World (setting goals))
+- **Hook:** "What's something you can't do yet that you'd love to be able to do by summer — and what's most likely to get in the way?"
+- **Key activity:** Retrieve Year 2's 'goals in small steps'. New: a four-part goal plan — wish (the goal), best outcome (how it will feel), obstacle (what inside me might stop me, e.g. getting bored), plan ('If I feel bored, then I will…'); children set a goal (e.g. tables to 12 × 12, a cartwheel, reading a longer book) with a check-in date.
+- **Check for understanding:** "What is your goal, what obstacle might get in the way, and what is your 'if…, then…' plan?" → a specific goal, a realistic obstacle and a matching plan
+- **Differentiation:** support: goal template with example obstacles / stretch: plan for two different obstacles
 - **Materials:** goal templates
 - **Joy:** 'Goal rocket' wall that climbs as goals are met
 
-**End-of-unit check:** I can use it: describe a challenge using 'yet', name two learning-pit strategies, and set a specific goal with steps.
+**End-of-unit check:** I can use it: explain deliberate practice, sort a mistake as a slip, stretch or 'aha' mistake, name two learning-pit strategies, and set a goal with an 'if…, then…' obstacle plan.
 
 ---
 
@@ -215,15 +215,15 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** templates, coloured pens
 - **Joy:** class identity-map gallery
 
-### Lesson 16 — Families and cultures
+### Lesson 16 — Names, families and cultures
 - **Duration:** 35 min
-- **Objective:** "By the end, I can recognise that families and cultures are diverse and all deserve respect." (PSHE Assoc. KS2 Relationships (families))
-- **Hook:** "Is there one 'normal' kind of family?"
-- **Key activity:** Read *The Day You Begin* by Jacqueline Woodson; discuss different family structures and cultural traditions respectfully; share (optionally) a tradition from home.
-- **Check for understanding:** "How did the girl in *The Day You Begin* start to feel she belonged?" → she shared her own story, and others found connections with her
-- **Differentiation:** support: picture prompts / stretch: explain why sharing stories helps people feel they belong
-- **Materials:** *The Day You Begin*
-- **Joy:** 'Traditions table' with objects from home (optional)
+- **Objective:** "By the end, I can explain how names, families and cultures are part of identity and why they all deserve respect." (PSHE Assoc. KS2 Relationships (families))
+- **Hook:** "Does your name have a story? Who chose it — and what does it mean?"
+- **Key activity:** Read *The Name Jar* by Yangsook Choi, in which Unhei, newly arrived from Korea, thinks about choosing an American name; discuss different family structures and cultural traditions respectfully; children (optionally) find out the story or meaning of their name and share a tradition from home.
+- **Check for understanding:** "Why did Unhei decide to keep her own name, and what helped her feel she belonged?" → classmates (especially Joey) took an interest in her name and its meaning, and she realised her name was part of who she is and her family's culture
+- **Differentiation:** support: picture prompts / stretch: explain why mispronouncing or changing someone's name can make them feel they don't belong
+- **Materials:** *The Name Jar*
+- **Joy:** 'Name stories' wall and a traditions table (optional)
 
 ### Lesson 17 — Stereotypes and fairness
 - **Duration:** 35 min
@@ -253,17 +253,17 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 **Essential question:** How can I make smart choices with money — spending, saving and giving?
 
-**Key vocabulary:** money, currency, income, spend, save, give, budget, need, want, price, value for money, compare, offer, advert, saving goal, interest, bank, charity
+**Key vocabulary:** money, income, spend, save, give, budget, need, want, choice, opportunity cost, price, unit price, value for money, offer, advert, in-app purchase, saving goal, temptation, bank
 
-### Lesson 19 — Needs and wants
+### Lesson 19 — Choices and opportunity cost
 - **Duration:** 35 min
-- **Objective:** "By the end, I can sort spending into needs and wants and explain the difference." (PSHE Assoc. KS2 Living in the Wider World (economic wellbeing))
-- **Hook:** "A new game, a winter coat, a phone, food for the week — which are needs?"
-- **Key activity:** Sort picture cards into needs and wants; discuss items that depend on the situation (a phone for a parent's work); link to children's rights (food, shelter, education).
-- **Check for understanding:** "Why might a phone be a 'need' for one person and a 'want' for another?" → it depends on their situation — e.g. a parent may need it for work or safety, while a child may simply want it
-- **Differentiation:** support: picture sorting cards / stretch: explain how needs differ for families in different places or times
-- **Materials:** picture cards
-- **Joy:** 'Desert island' needs challenge
+- **Objective:** "By the end, I can explain that every choice to spend means giving something else up (opportunity cost)." (PSHE Assoc. KS2 Living in the Wider World (economic wellbeing))
+- **Hook:** "You have 10. A book, a cinema trip, or saving it — you can only choose one. What do you lose by choosing?"
+- **Key activity:** Retrieve Year 2's needs and wants in one minute (including items that depend on the situation, like a phone for a parent's work). New: *opportunity cost* — the next-best thing you give up; children rank options for a set amount and name the opportunity cost of their choice; discuss how families and governments make the same kind of choice.
+- **Check for understanding:** "Priya has 10 and chooses a book instead of the cinema. What is her opportunity cost, and why is it worth thinking about?" → the cinema trip; thinking about what you give up helps you choose what you value most
+- **Differentiation:** support: picture option cards with prices / stretch: explain the opportunity cost of a school spending its money on new computers
+- **Materials:** option cards, play money
+- **Joy:** 'Would you rather?' spending choices
 
 ### Lesson 20 — Where money comes from and goes
 - **Duration:** 35 min
@@ -295,27 +295,27 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** adverts, screenshots of offers (age-appropriate)
 - **Joy:** 'Trick spotter' game
 
-### Lesson 23 — Saving towards a goal
+### Lesson 23 — Saving: beating temptation
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan how to save for something and explain why saving helps." (PSHE Assoc. KS2 Living in the Wider World)
-- **Hook:** "In *A Chair for My Mother*, a family saves coins in a jar for a very special chair. Why does it take so long — and why is it worth it?"
-- **Key activity:** Read *A Chair for My Mother* by Vera B. Williams; children choose a saving goal, calculate weeks needed at a set amount per week, and discuss banks and interest in simple terms.
-- **Check for understanding:** "If you save 2 a week, how many weeks to reach 30, and what might tempt you to stop?" → 15 weeks; spending on small things along the way
-- **Differentiation:** support: a saving chart with weeks marked / stretch: show how saving a little more per week shortens the time
-- **Materials:** *A Chair for My Mother*, saving charts
+- **Objective:** "By the end, I can plan how to save for something, calculate how long it will take, and use strategies to resist spending on the way." (PSHE Assoc. KS2 Living in the Wider World)
+- **Hook:** "In *Alexander, Who Used to Be Rich Last Sunday*, Alexander gets a dollar on Sunday. Where has it gone by the end of the week?"
+- **Key activity:** Read *Alexander, Who Used to Be Rich Last Sunday* by Judith Viorst; track where Alexander's money went; retrieve Year 2's saving sums, then plan a saving goal with money already saved and a surprise gift; strategies to beat temptation (save first when money arrives, keep the savings out of sight, track progress on a chart); banks keep savings safe.
+- **Check for understanding:** "You have 6 and save 3 a week for a 30 game. How many weeks will it take? If you are given 5 for your birthday in week 2, how does that change it?" → (30 − 6) ÷ 3 = 8 weeks; with the extra 5 you need 19 more after the birthday, so it takes 7 weeks instead of 8
+- **Differentiation:** support: a saving chart with weeks marked / stretch: show how saving a little more each week shortens the time
+- **Materials:** *Alexander, Who Used to Be Rich Last Sunday*, saving charts
 - **Joy:** decorate a class 'saving jar' goal
 
-### Lesson 24 — Unit review: spend, save, give
+### Lesson 24 — Unit review: my money plan
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan how to use money by spending, saving and giving, and explain my choices." (PSHE Assoc. KS2 Living in the Wider World)
-- **Hook:** "You've been given 20. What will you spend, save and give — and why?"
-- **Key activity:** Children split a pretend amount into spend/save/give jars and justify; learn how charities use donations (link to Fairtrade in geography).
-- **Check for understanding:** "Explain your split and one reason for each part." → reasoned choices for each jar
-- **Differentiation:** support: jar template / stretch: research a charity and explain how a donation helps
-- **Materials:** three jars, play money
+- **Objective:** "By the end, I can plan how to use a month's pocket money, explaining my choices with opportunity cost, value and saving." (PSHE Assoc. KS2 Living in the Wider World)
+- **Hook:** "You get 20 for the month. There's a game you want, a friend's birthday and a sale on your favourite snack. What's your plan?"
+- **Key activity:** Retrieve spend–save–give from Year 2; children plan the month's money across spending, saving and giving, compare two value options, spot an advertising trick in the scenario, and justify each choice to a partner.
+- **Check for understanding:** "Explain one choice in your plan using the words 'opportunity cost', and one using 'value for money'." → uses both terms correctly with a reason from the plan
+- **Differentiation:** support: plan template with prices / stretch: adapt the plan when an unexpected cost appears halfway through the month
+- **Materials:** plan templates, play money, scenario cards
 - **Joy:** class vote to 'give' to a real cause
 
-**End-of-unit check:** I can use it: sort needs and wants, find the best-value option with a reason, spot an advertising trick, and plan a saving goal.
+**End-of-unit check:** I can use it: name the opportunity cost of a choice, find the best-value option with a reason, spot an advertising trick, and calculate and protect a saving plan.
 
 ---
 
@@ -323,47 +323,47 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 **Essential question:** How do our everyday choices affect the planet, and what can we do about it?
 
-**Key vocabulary:** sustainability, resource, waste, reduce, reuse, recycle, compost, plastic, pollution, energy, climate, habitat, Sustainable Development Goals, action
+**Key vocabulary:** sustainability, resource, raw material, life cycle, waste hierarchy, refuse, reduce, reuse, repair, recycle, pollution, energy, climate, Sustainable Development Goals, action
 
-### Lesson 25 — Where does our rubbish go?
+### Lesson 25 — The life cycle of a T-shirt
 - **Duration:** 35 min
-- **Objective:** "By the end, I can track the class's waste and explain what happens to different kinds of rubbish." (PSHE Assoc. KS2 Living in the Wider World; UN SDG 12)
-- **Hook:** "What's in our bin — and where will it be in 100 years?"
-- **Key activity:** Wearing gloves, audit one day's classroom waste (paper, plastic, food, other); weigh and sort; learn what happens in landfill, recycling and composting locally.
-- **Check for understanding:** "Which part of our waste could we most easily reduce, and how?" → an evidence-based answer from the audit (e.g. paper — use both sides)
-- **Differentiation:** support: picture sorting labels / stretch: calculate a year's waste from one day's result
-- **Materials:** gloves, scales, sorting trays
-- **Joy:** waste-audit detective day
+- **Objective:** "By the end, I can trace a product's life from raw materials to rubbish and explain where it uses resources." (PSHE Assoc. KS2 Living in the Wider World; UN SDG 12)
+- **Hook:** "Growing the cotton for one T-shirt can take around 2,700 litres of water — about what one person drinks in two and a half years. Where else does a T-shirt use resources?"
+- **Key activity:** Retrieve Year 2's landfill-and-recycling journey in one minute. New: sequence the life cycle of a cotton T-shirt (growing cotton, making fabric and dyeing, sewing, transport, washing and wearing, disposal) and mark the resources used at each stage (water, energy, land, fuel) on a world map (links to geography trade routes); compare with a second product (a phone or a plastic bottle).
+- **Check for understanding:** "At which stage of a T-shirt's life could you make the biggest difference, and how?" → e.g. the use and disposal stages — wear it for longer, repair it or pass it on, buy second-hand — so fewer new T-shirts need to be made with all those resources
+- **Differentiation:** support: picture sequencing cards / stretch: estimate the water saved if the class each bought one fewer new T-shirt a year
+- **Materials:** life-cycle picture cards, world map, labels from clothes
+- **Joy:** 'Where was my T-shirt made?' label hunt
 
-### Lesson 26 — One plastic bag
+### Lesson 26 — Repair and reuse: the waste hierarchy
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how one person's idea can solve a community's waste problem." (PSHE Assoc. KS2 Living in the Wider World; global citizenship)
-- **Hook:** "In the Gambia, plastic bags piled up, killing goats and breeding mosquitoes. Then Isatou Ceesay had an idea."
-- **Key activity:** Read *One Plastic Bag* by Miranda Paul (Isatou Ceesay and the women of Njau crocheting purses from plastic bags); children plan an upcycling make.
-- **Check for understanding:** "How did Isatou Ceesay turn a problem into a solution?" → she and other women collected plastic bags and crocheted them into purses to sell, cleaning the village and earning money
-- **Differentiation:** support: picture sequence / stretch: explain how the solution helped the environment and the community's income
-- **Materials:** *One Plastic Bag*, clean plastic bags, scissors
-- **Joy:** upcycle plastic into a woven coaster (link to art weaving)
+- **Objective:** "By the end, I can use the waste hierarchy to explain why refusing, reducing, reusing and repairing come before recycling." (PSHE Assoc. KS2 Living in the Wider World; global citizenship)
+- **Hook:** "Joseph's overcoat gets old and worn — so he makes it into a jacket. Then a vest… What next?"
+- **Key activity:** Read *Joseph Had a Little Overcoat* by Simms Taback as a quick hook; retrieve Year 2's reduce–reuse–recycle and the plastic-to-sea journey. New: the waste hierarchy as an upside-down pyramid (refuse, reduce, reuse, repair, recycle, and only then dispose); repair-café style station (sew on a button, mend a book spine, fix a toy with a trained adult); rank everyday choices on the hierarchy.
+- **Check for understanding:** "Why is repairing something better for the planet than recycling it?" → repairing keeps the object in use without needing new materials; recycling still uses energy to break it down and remake it, and some material is lost
+- **Differentiation:** support: a picture pyramid with example actions / stretch: plan a class 'repair and swap' morning and predict what it would save
+- **Materials:** *Joseph Had a Little Overcoat*, needles and thread (adult-supervised), glue, tape, broken items to mend
+- **Joy:** repair-café stations
 
 ### Lesson 27 — Energy and water at school
 - **Duration:** 35 min
 - **Objective:** "By the end, I can find ways to save energy and water at school." (PSHE Assoc. KS2 Living in the Wider World; links to Geography)
 - **Hook:** "Lights on in an empty room — how much energy is wasted?"
-- **Key activity:** Energy and water audit of the school (lights, screens, taps, radiators); create 'switch-off' reminders.
+- **Key activity:** Retrieve Year 2's sources of electricity (burning coal and gas vs sun and wind); energy and water audit of the school (lights, screens on standby, taps, radiators) with tallies; create 'switch-off' reminders.
 - **Check for understanding:** "Which change would save the most energy, and how do you know?" → an evidence-based choice (e.g. turning off lights and screens in empty rooms)
 - **Differentiation:** support: audit checklist with pictures / stretch: estimate savings over a term
 - **Materials:** audit sheets, clipboards
 - **Joy:** 'Energy monitors' rota
 
-### Lesson 28 — Inventors for the planet
+### Lesson 28 — Inventors for the planet: the Recycled Orchestra
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain how inventions can help solve environmental problems." (PSHE Assoc. KS2 Living in the Wider World; global citizenship)
-- **Hook:** "A 14-year-old in Malawi built a windmill from scrap to power his family's home. How?"
-- **Key activity:** Read the picture-book edition of *The Boy Who Harnessed the Wind* by William Kamkwamba and Bryan Mealer; discuss innovation; children sketch an invention to solve a local environmental problem.
-- **Check for understanding:** "What problem did William solve, and what qualities helped him?" → he brought electricity and water pumping to his home during a drought; curiosity, perseverance and learning from library books
-- **Differentiation:** support: picture story sequence / stretch: explain how your invention would work and who it would help
-- **Materials:** the book, sketch paper
-- **Joy:** 'Planet inventors' gallery
+- **Objective:** "By the end, I can explain how people have turned waste problems into inventions, and design my own." (PSHE Assoc. KS2 Living in the Wider World; global citizenship)
+- **Hook:** "In Cateura, Paraguay, a town built beside a huge rubbish dump, children play violins made from oil cans and cellos made from old barrels. How?"
+- **Key activity:** Read *Ada's Violin* by Susan Hood (the true story of Ada Ríos and the Recycled Orchestra of Cateura, where music teacher Favio Chávez and a local carpenter made instruments from landfill scraps); discuss creativity and community; children sketch an invention that turns a local waste problem into something useful (links to music and design technology).
+- **Check for understanding:** "How did the people of Cateura turn rubbish into something valuable, and who benefited?" → they made instruments from items found in the landfill, so children who couldn't afford instruments could learn music; the children, their families and the town benefited, and less waste was left in the dump
+- **Differentiation:** support: picture story sequence / stretch: explain how your invention would work, who it would help and what waste it would save
+- **Materials:** *Ada's Violin*, sketch paper, clean recycled materials
+- **Joy:** 'Planet inventors' gallery (and a junk-instrument jam)
 
 ### Lesson 29 — Unit review: our green pledge
 - **Duration:** 35 min
@@ -375,7 +375,7 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** pledge cards, SDG icons
 - **Joy:** green pledge wall
 
-**End-of-unit check:** I can use it: explain what happens to three kinds of waste, suggest two evidence-based ways to reduce waste or save energy, and describe one inventor or activist who helped the planet.
+**End-of-unit check:** I can use it: trace a product's life cycle, rank actions on the waste hierarchy, suggest two evidence-based ways to save energy or water at school, and describe one inventor or community who turned waste into something useful.
 
 ---
 
@@ -383,27 +383,27 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 **Essential question:** What rights does every child have, what responsibilities come with them, and how can we make our community better?
 
-**Key vocabulary:** right, responsibility, UN Convention on the Rights of the Child (UNCRC), fairness, rule, law, democracy, vote, community, citizen, volunteer, charity, campaign, action plan
+**Key vocabulary:** right, responsibility, UN Convention on the Rights of the Child (UNCRC), barrier, public service, tax, local government, rule, law, democracy, vote, community, citizen, volunteer, campaign, action plan
 
-### Lesson 30 — Every child's rights
+### Lesson 30 — When rights aren't met
 - **Duration:** 35 min
-- **Objective:** "By the end, I can explain that every child in the world has rights under the UN Convention on the Rights of the Child." (PSHE Assoc. KS2 Living in the Wider World; global citizenship)
-- **Hook:** "In 1989, almost every country in the world agreed on a list of rights for every child. What would you put on it?"
-- **Key activity:** Children brainstorm their own list, then compare with child-friendly articles of the UNCRC (e.g. the right to education, play, health care, safety, to be heard, a name and nationality); read excerpts from *For Every Child* (UNICEF).
-- **Check for understanding:** "Choose one right. Why do you think it matters for every child?" → names a right and explains its importance with a reason
-- **Differentiation:** support: picture cards of the rights / stretch: explain the difference between a right and a want
-- **Materials:** UNCRC child-friendly cards, *For Every Child*
-- **Joy:** 'Rights tree' display
+- **Objective:** "By the end, I can explain what can stop children around the world getting their rights and who is responsible for helping." (PSHE Assoc. KS2 Living in the Wider World; global citizenship)
+- **Hook:** "Every child has the right to go to school — yet around 250 million children and young people in the world are not in school. Why?"
+- **Key activity:** Retrieve Year 2's UNCRC (1989) and 'a right goes with a responsibility' in one minute. New: read excerpts from *For Every Child* (UNICEF); in groups, take one right (education, health care, clean water, play, safety) and research barriers that stop some children getting it (no school nearby, cost, conflict, having to work, disability access) and who is responsible for removing them (governments first, then communities, families and organisations such as UNICEF).
+- **Check for understanding:** "Choose one right. What might stop some children getting it, and who has the main responsibility to help?" → names a right, a realistic barrier and that governments have the main duty (with communities and organisations helping)
+- **Differentiation:** support: fact cards with pictures / stretch: compare two barriers and suggest which would be easier to remove, with reasons
+- **Materials:** UNCRC child-friendly cards, *For Every Child*, fact cards
+- **Joy:** 'Rights tree' display with barriers and solutions
 
-### Lesson 31 — Rights and responsibilities
+### Lesson 31 — Who looks after our community? Services and taxes
 - **Duration:** 35 min
-- **Objective:** "By the end, I can link rights to the responsibilities that protect them." (PSHE Assoc. KS2 Living in the Wider World)
-- **Hook:** "If I have the right to learn, what's my responsibility in class?"
-- **Key activity:** Pair rights with responsibilities (right to be safe → responsibility not to hurt others); rewrite class rules as rights and responsibilities.
-- **Check for understanding:** "What responsibility goes with the right to be heard?" → to listen to others and let them speak too
-- **Differentiation:** support: matching cards / stretch: explain what happens when some people's rights aren't respected, using an example
-- **Materials:** matching cards
-- **Joy:** class 'rights charter' signed by all
+- **Objective:** "By the end, I can explain what public services are, how they are paid for, and how they protect our rights." (PSHE Assoc. KS2 Living in the Wider World)
+- **Hook:** "Who empties the bins, runs the library and lights the streets — and who pays for it?"
+- **Key activity:** Map local public services (schools, libraries, parks, bin collection, roads, fire service, hospitals and clinics) and match each to a right it protects; learn that most are paid for by taxes collected from people and businesses and run by local or national government; a simple 'town budget' game where groups share a fixed amount of tax between services and explain their choices (links to opportunity cost in Unit 5).
+- **Check for understanding:** "Why do people pay taxes, and which right does one service protect?" → taxes pay for services everyone shares that people couldn't easily buy alone; e.g. schools protect the right to education
+- **Differentiation:** support: picture matching cards / stretch: argue which service should get extra money if taxes rise, and what the opportunity cost would be
+- **Materials:** local services picture cards, town-budget counters
+- **Joy:** 'Town council' budget game
 
 ### Lesson 32 — Rules, laws and democracy
 - **Duration:** 35 min
@@ -419,10 +419,10 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Duration:** 35 min
 - **Objective:** "By the end, I can identify a need in our school or local community and choose a project to help." (PSHE Assoc. KS2 Living in the Wider World (community); global citizenship)
 - **Hook:** "What would make our community a better place — and what could Year 3 actually do?"
-- **Key activity:** Read *Last Stop on Market Street* by Matt de la Peña (finding beauty and helping in your community); survey the school/community; shortlist projects (litter pick, planting, collecting for a food bank, a reading buddy scheme); vote.
+- **Key activity:** Read *Maybe Something Beautiful* by F. Isabel Campoy and Theresa Howell (a girl's drawings grow into a community mural that transforms a grey neighbourhood); survey the school/community; shortlist projects (litter pick, planting, collecting for a food bank, a reading buddy scheme); vote.
 - **Check for understanding:** "Why did the class choose this project, and who will it help?" → reason linked to the survey evidence and named beneficiaries
 - **Differentiation:** support: project option cards / stretch: plan how to measure the project's success
-- **Materials:** *Last Stop on Market Street*, survey sheets
+- **Materials:** *Maybe Something Beautiful*, survey sheets
 - **Joy:** class vote with real ballot box
 
 ### Lesson 34 — Community action: planning and doing
@@ -445,39 +445,40 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 - **Materials:** photos, presentation materials
 - **Joy:** assembly presentation to the whole school
 
-**End-of-unit check:** I can use it: explain three children's rights and a matching responsibility, describe how people have a say in decisions, and evaluate our community project with evidence.
+**End-of-unit check:** I can use it: explain a barrier to one child's right and who should remove it, explain how taxes pay for public services, describe how people have a say in decisions, and evaluate our community project with evidence.
 
 ---
 
 ## Books & resources
 
-- ***The Colour Monster* by Anna Llenas** — a quick, visual way into naming feelings (warm-up for Unit 1).
+- ***The Boy with Big, Big Feelings* by Britney Winn Lee** — a boy whose feelings are enormous learns to share them; a way into precise feelings words (Unit 1).
 - ***Ruby's Worry* by Tom Percival** — shows how worries grow when hidden and shrink when shared.
 - ***The Invisible String* by Patrice Karst** — about connection and support networks.
 - ***One* by Kathryn Otoshi** — colours and numbers teach bystander and upstander behaviour in a few powerful pages.
-- ***Each Kindness* by Jacqueline Woodson** — a moving story about a missed chance to be kind; sparks deep discussion.
-- ***Beautiful Oops!* by Barney Saltzberg** and ***The Most Magnificent Thing* by Ashley Spires** — mistakes and perseverance made joyful.
-- ***The Day You Begin* by Jacqueline Woodson** and ***We're All Wonders* by R. J. Palacio** — belonging, difference and kindness.
-- ***A Chair for My Mother* by Vera B. Williams** — a family saving together; the classic picture book on saving for a goal.
+- ***Ordinary Mary's Extraordinary Deed* by Emily Pearson** — one small kindness multiplies around the world.
+- ***Rosie Revere, Engineer* by Andrea Beaty** — a crash is a first step, not a failure.
+- ***Mae Among the Stars* by Roda Ahmed** — the childhood of Mae Jemison, the first African American woman in space.
+- ***The Name Jar* by Yangsook Choi** and ***We're All Wonders* by R. J. Palacio** — names, belonging, difference and kindness.
 - ***Alexander, Who Used to Be Rich Last Sunday* by Judith Viorst** — a funny story about how money disappears on small spends.
-- ***One Plastic Bag* by Miranda Paul** — the true story of Isatou Ceesay's recycling project in the Gambia.
-- ***The Boy Who Harnessed the Wind* (picture-book edition) by William Kamkwamba and Bryan Mealer** — a true story of invention and perseverance in Malawi.
-- ***Last Stop on Market Street* by Matt de la Peña** — seeing beauty and service in your own community.
+- ***Joseph Had a Little Overcoat* by Simms Taback** — reuse and repair, one garment at a time.
+- ***Ada's Violin* by Susan Hood** — the true story of the Recycled Orchestra of Cateura, Paraguay.
+- ***Maybe Something Beautiful* by F. Isabel Campoy and Theresa Howell** — how art and neighbours transformed a community.
 - ***For Every Child* (UNICEF, with Caroline Castle)** — the UN Convention on the Rights of the Child in words and pictures by illustrators from around the world.
 - **PSHE Association programme of study** and **CASEL's SEL framework** — the planning frameworks behind this sequence; **UN Sustainable Development Goals** child-friendly resources (e.g. from the World's Largest Lesson).
+- *Books used in Years 1–2 and not repeated here:* *Each Kindness*, *The Most Magnificent Thing*, *The Day You Begin*, *A Chair for My Mother*, *One Plastic Bag*, *Last Stop on Market Street*; *The Boy Who Harnessed the Wind* is a Year 4 English text, and *The Colour Monster* is read in Year 3 Spanish (*El monstruo de colores*).
 
 ## End-of-year mastery checks
 
 Assessed through discussion, role-play and projects, not tests:
-1. **Emotional literacy** — names feelings precisely, including intensity, and describes how they show in the body.
-2. **Coping** — uses at least two calming or problem-solving strategies and names trusted adults and a support network.
+1. **Emotional literacy** — names feelings precisely, including intensity, and tells similar feelings apart.
+2. **Coping** — answers 'what if…' thoughts realistically, uses the circle of control and problem-solving steps, and names trusted adults and a support network.
 3. **Friendship skills** — resolves a conflict with 'I feel' statements and responds assertively to peer pressure.
 4. **Upstander** — describes safe upstander actions for bullying and exclusion, online and offline.
-5. **Growth mindset** — explains how practice and strategies grow the brain and sets a specific learning goal.
+5. **Growth mindset** — uses deliberate practice, sorts mistakes by kind, and sets a goal with an obstacle plan.
 6. **Respect for difference** — describes their own identity, respects others' families and cultures, and challenges a stereotype.
-7. **Money sense** — distinguishes needs and wants, compares value, spots advertising tricks and plans a saving goal.
-8. **Sustainability** — explains the impact of waste and energy use and takes evidence-based action.
-9. **Citizenship** — explains children's rights and responsibilities and has contributed to a community project, evaluating its impact.
+7. **Money sense** — explains opportunity cost, compares value, spots advertising tricks and plans and protects a saving goal.
+8. **Sustainability** — traces a product's life cycle, uses the waste hierarchy, and takes evidence-based action on energy or water.
+9. **Citizenship** — explains barriers to children's rights, how public services are paid for, and has contributed to a community project, evaluating its impact.
 
 ## Teacher guidance
 
@@ -496,4 +497,4 @@ Assessed through discussion, role-play and projects, not tests:
 
 **Differentiation.** Support = picture cards, sentence starters, role-play with a script, working with a supportive partner. Stretch = explain reasons, consider different viewpoints, lead a group, design and evaluate actions.
 
-**Vertical connections.** Builds on Years 1–2 (naming feelings, sharing, trusted adults, coins, caring for the classroom). Year 4 develops managing change and loss, influence and peer pressure online, earning and saving, the wider community and global issues.
+**Vertical connections.** Builds on Years 1–2 (feelings with causes and body clues, calm-down toolkit, fair-fix steps, upstanding, 'yet', needs and wants, spend–save–give, recycling, rights and a service project): every Year 3 lesson retrieves the Year 2 idea briefly and then adds something new (precise feelings words, 'what if…' thinking, problem-solving, joining in, the bystander effect, deliberate practice, kinds of mistakes, obstacle plans, opportunity cost, life cycles and the waste hierarchy, barriers to rights, public services). Year 4 develops values, the stretch zone, changing friendships, peer mediation, habits, interest, borrowing and enterprise, a data-led sustainability project, how rights are protected, prejudice and equity, and service.
