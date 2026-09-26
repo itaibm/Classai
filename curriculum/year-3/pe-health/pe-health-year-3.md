@@ -712,13 +712,13 @@ Lessons are **40 minutes**, two a week. **Safety:** check the space for hazards,
 
 ### Lesson 60 — Unit review: striking and fielding festival
 - **Duration:** 40 min
-- **Objective:** "By the end, I can play striking and fielding games applying skills and tactics, and reflect." (UK NC KS2 PE (evaluate))
-- **Hook:** "Tactics time: where should your fielders stand?"
-- **Key activity:** Adult-led: teams plan fielding positions before innings; play; review.
-- **Check for understanding:** "Where did you place fielders, and why?" → spread to cover gaps, a backstop, strong throwers deep
-- **Differentiation:** support: fielding map with positions / stretch: change field placings for a batter who hits to one side
-- **Materials:** equipment
-- **Joy:** festival
+- **Objective:** "By the end, I can plan fielding positions, apply batting and fielding skills in games and evaluate our tactics." (UK NC KS2 PE (apply tactics; evaluate))
+- **Hook:** "Tactics time: where should your fielders stand to stop the runs?"
+- **Key activity:** Adult-led: teams draw fielding positions on a mini-pitch map before each innings (spread out, backstop, strong throwers deep), play short rounders and kwik cricket games, then review — did the placings work? Batters aim for gaps.
+- **Check for understanding:** "Where did you place your fielders, and why? Did it work?" → spread to cover gaps with a backstop and strong throwers deep; judged by runs saved or batters out
+- **Differentiation:** support: a pre-drawn fielding map with suggested positions / stretch: change field placings for a batter who always hits to one side and explain
+- **Materials:** bats, balls, posts, stumps, fielding maps
+- **Joy:** festival with a 'best fielding team' award
 
 **End-of-unit check:** Throw, catch and field with good technique; bat into space; explain two ways to get out in rounders and one fielding tactic.
 

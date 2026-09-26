@@ -625,13 +625,13 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 
 ### Lesson 56 — Fluency: 7 and 8 tables
 - **Duration:** 40 min
-- **Objective:** "By the end, I can recall 7 and 8 facts and inverses." (UK NC Y4 Nmd)
-- **Hook:** "56 = 7 × 8 — and 5, 6, 7, 8 are in order!"
-- **Key activity:** Retrieval games; spot patterns; divide into fact families.
-- **Check for understanding:** "What's 8 × 7, and what are two division facts from it?" → 56; 56 ÷ 7 = 8, 56 ÷ 8 = 7
-- **Differentiation:** support: derivation cards / stretch: derive 8 × 12 and 7 × 12
-- **Materials:** fact cards, timer
-- **Joy:** "Beat the teacher" speed challenge
+- **Objective:** "By the end, I can recall 7 and 8 table facts and their division facts, and rebuild any I forget." (UK NC Y4 Nmd; CCSS 3.OA.7)
+- **Hook:** "5, 6, 7, 8: 56 = 7 × 8 — the numbers even come in order!"
+- **Key activity:** Warm-up chant of the 8 table (double the 4 table) and 7 table (5 × + 2 ×). Pairs play 'fact family dominoes' (each domino shows a multiplication on one end and a matching division on the other); then a 2-minute mixed quiz of 7s and 8s; any miss is rebuilt aloud with a derivation and moved onto the fact-target card.
+- **Check for understanding:** "What is 8 × 7, and what two division facts come from it?" → 56; 56 ÷ 7 = 8 and 56 ÷ 8 = 7
+- **Differentiation:** support: derivation cards showing 7 × n = 5 × n + 2 × n and 8 × n = double 4 × n / stretch: derive 8 × 12 and 7 × 12 and explain which strategy is quickest for each
+- **Materials:** fact-family dominoes, fact cards, timer
+- **Joy:** "Beat the teacher": the class races the teacher, who must answer with their eyes closed
 
 ### Lesson 57 — Perimeter of regular polygons
 - **Duration:** 40 min
@@ -653,15 +653,15 @@ Lessons run **35–40 minutes**: 5-minute retrieval/fluency warm-up, explicit te
 - **Materials:** bar strips, maps
 - **Joy:** "Plan a sports day": design events of given lengths
 
-### Lesson 59 — Unit review
+### Lesson 59 — Unit review: length and perimeter
 - **Duration:** 40 min
-- **Objective:** "By the end, I can show mastery of length and perimeter." (UK NC Y4 Mm)
-- **Hook:** "Which is longer: 2 km or 2,050 m?"
-- **Key activity:** Mixed review: convert, measure, calculate perimeter, solve a problem.
-- **Check for understanding:** "A rectangle has perimeter 20 cm and one side 7 cm. Find the other sides." → 3 cm each: 20 − 14 = 6, and 6 ÷ 2 = 3
-- **Differentiation:** support: fewer items with squared paper / stretch: find all whole-number rectangles with perimeter 20 cm
-- **Materials:** squared paper, rulers
-- **Joy:** "Perimeter puzzle trail"
+- **Objective:** "By the end, I can show mastery of converting lengths and calculating perimeter, and explain my methods." (UK NC Y4 Mm)
+- **Hook:** "The school is building a new vegetable garden — the planning team needs your measurements."
+- **Key activity:** Mixed mastery stations: convert between km, m, cm and mm; measure classroom objects accurately; calculate the perimeter of rectangles, regular polygons and an L-shaped bed with missing sides; a two-step length problem with a bar model. Each station has an 'explain' card.
+- **Check for understanding:** "A rectangle has a perimeter of 20 cm and one side of 7 cm. Find the other sides and explain how." → 7 cm and 3 cm — the two 7 cm sides make 14 cm, 20 − 14 = 6, and 6 ÷ 2 = 3 cm for each short side
+- **Differentiation:** support: fewer stations with squared paper and rulers / stretch: find every whole-number rectangle with a perimeter of 20 cm and say which has the largest space inside (a preview of area)
+- **Materials:** squared paper, rulers, tape measures, station cards
+- **Joy:** 'Garden planners' trail with a real plan for a school bed
 
 ### Lesson 60 — Term 1 retrieval and assessment
 - **Duration:** 40 min

@@ -139,13 +139,13 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 
 ### Lesson 10 — Making a classification key
 - **Duration:** 40 min
-- **Objective:** "By the end, I can design a branching key for a set of living things." (UK NC Y4 Sc)
-- **Hook:** "Can you design a key that a younger child could use?"
-- **Key activity:** Groups create keys for 6–8 animals or leaves; test with another group.
-- **Check for understanding:** "Which question did you ask first, and why does it split the group well?" → a question splitting roughly in half using an observable characteristic
-- **Differentiation:** support: sorting in hoops first / stretch: key for 10+ organisms
-- **Materials:** leaves, photo cards
-- **Joy:** swap-and-test challenge
+- **Objective:** "By the end, I can design a branching key for a set of living things and test it with another group." (UK NC Y4 Sc (use and construct classification keys))
+- **Hook:** "Could a younger child use your key to name every leaf in the playground — without your help?"
+- **Key activity:** Groups first sort 6–8 leaves or animal cards physically in hoops, one yes/no question at a time, then draw the branching key on A3. Rules: questions must be about observable features (not 'Is it pretty?') and each must split the group. Another group tests the key with a mystery specimen and reports where it went wrong; the designers improve it.
+- **Check for understanding:** "Which question did you ask first, and why does it split the group well?" → a question about an observable characteristic (e.g. 'Does it have more than 6 legs?') that splits the group roughly in half
+- **Differentiation:** support: sort in hoops before drawing, with a question-stem card / stretch: build a key for 10 or more organisms that uses no more than four levels of questions
+- **Materials:** leaves or animal picture cards, hoops, A3 paper
+- **Joy:** swap-and-test challenge with a 'key-breaker' prize
 
 ### Lesson 11 — Investigation: local habitat survey
 - **Duration:** 40 min
@@ -169,13 +169,13 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 
 ### Lesson 13 — Unit review: classification
 - **Duration:** 40 min
-- **Objective:** "By the end, I can show mastery of grouping living things and using keys." (UK NC Y4 Sc)
-- **Hook:** "A museum needs help labelling its collection!"
-- **Key activity:** Mixed tasks: classify, use a key, correct a mis-labelled display.
-- **Check for understanding:** "The museum has labelled a bat as a bird. Explain the error." → bats are mammals: fur, feed young milk, live birth
-- **Differentiation:** support: picture support / stretch: create a key for the museum
-- **Materials:** specimen/photo cards
-- **Joy:** "Museum curator" task
+- **Objective:** "By the end, I can show mastery of grouping living things and using and making keys." (UK NC Y4 Sc)
+- **Hook:** "A natural history museum has muddled its labels — can you put its collection right?"
+- **Key activity:** Stations: classify 10 animals into vertebrate groups and invertebrate groups with reasons; use a key to identify four mystery organisms; spot and correct three mislabelled museum cards (e.g. a bat labelled 'bird', a spider labelled 'insect', a whale labelled 'fish'); finally write a key for four new specimens.
+- **Check for understanding:** "The museum has labelled a bat as a bird. Explain the error using characteristics." → bats are mammals: they have fur, give birth to live young and feed them milk — wings alone don't make a bird
+- **Differentiation:** support: picture cards with characteristics shown / stretch: design a key the museum could put beside the display
+- **Materials:** specimen and photo cards, keys, label cards
+- **Joy:** "Museum curator" badges for corrected labels
 
 **End-of-unit check:** Classify ten animals into vertebrate and invertebrate groups with reasons; use a branching key to identify four organisms; design a key for six leaves.
 
@@ -199,13 +199,13 @@ Lessons are **40 minutes**, two a week. Safety notes are given in *Materials*; a
 
 ### Lesson 15 — Predators and prey
 - **Duration:** 40 min
-- **Objective:** "By the end, I can explain how predators and prey affect each other's populations." (UK NC Y4 Sc)
-- **Hook:** "If all the foxes disappeared, would the rabbits be happy?"
-- **Key activity:** Simulation game with counters; discuss the effects of removing one species.
-- **Check for understanding:** "What might happen to the grass if the foxes disappeared?" → rabbits would increase and eat more grass, so grass would decrease
-- **Differentiation:** support: simplified three-link chain / stretch: predict effects across a food web
-- **Materials:** counters, chain cards
-- **Joy:** "Predator-prey tag" in the playground
+- **Objective:** "By the end, I can explain how predator and prey populations affect each other." (UK NC Y4 Sc (food chains))
+- **Hook:** "If all the foxes disappeared, would the rabbits be happy for ever?"
+- **Key activity:** Playground simulation: some children are 'foxes', more are 'rabbits', and bean bags are 'grass'; each round, rabbits must collect grass and foxes must tag rabbits to 'survive'; survivors 'reproduce' (bring in a friend). Record numbers each round on a class table and draw a simple line graph; discuss what happens when foxes are removed.
+- **Check for understanding:** "What might happen to the grass if all the foxes disappeared? Explain the chain of effects." → rabbits would increase with no predators, eat more grass, and the grass would decrease — and then rabbits might go hungry
+- **Differentiation:** support: a three-link chain with picture arrows to reason along / stretch: predict effects across a larger food web with two predators
+- **Materials:** bean bags, bibs, cones, results table
+- **Joy:** "Predator–prey tag" in the playground
 
 ### Lesson 16 — How environments change
 - **Duration:** 40 min

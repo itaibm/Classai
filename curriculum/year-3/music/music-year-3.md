@@ -94,13 +94,13 @@ Lessons are **35 minutes**, one a week, plus daily singing where possible.
 
 ### Lesson 7 — Unit review: recorder concert
 - **Duration:** 35 min
-- **Objective:** "By the end, I can perform a melody from notation to an audience with good tone and steady beat." (UK NC KS2 Music (perform))
-- **Hook:** "Our first recorder concert!"
-- **Key activity:** Groups perform; audience gives feedback on tone, rhythm and beat.
-- **Check for understanding:** "What did you do to keep a steady beat as a group?" → watched a leader, counted in, listened to each other
-- **Differentiation:** support: play the melody's first phrase only / stretch: play a harmony or ostinato part
-- **Materials:** recorders
-- **Joy:** concert with invited guests
+- **Objective:** "By the end, I can perform a melody from notation to an audience with good tone and a steady shared beat." (UK NC KS2 Music (play and perform in ensemble contexts))
+- **Hook:** "Our first recorder concert — the audience is waiting!"
+- **Key activity:** Groups rehearse an 8-bar tune (notes D–D') from notation with a counted-in start and an agreed ending; some groups add a simple ostinato on glockenspiel; perform to another class; the audience gives feedback on tone, rhythm and keeping together.
+- **Check for understanding:** "What did your group do to keep a steady beat together?" → watched a leader, counted in aloud, and listened to each other rather than rushing
+- **Differentiation:** support: play the first phrase only, with note names written under / stretch: play an ostinato or harmony part against the tune
+- **Materials:** recorders, glockenspiels, notation
+- **Joy:** concert with invited guests and printed programmes
 
 **End-of-unit check:** Performance and conversation: play an 8-bar melody from notation using notes D–D'; name notes on the stave; explain note values.
 

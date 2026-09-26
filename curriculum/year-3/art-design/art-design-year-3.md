@@ -427,13 +427,13 @@ Lessons are **40 minutes**, one a week (combine two into a double session for pa
 
 ### Lesson 34 — Curating the exhibition
 - **Duration:** 40 min
-- **Objective:** "By the end, I can arrange an exhibition so it tells a story to visitors." (UK NC KS2 Art)
-- **Hook:** "How should we hang our work so visitors understand our year?"
-- **Key activity:** Groups plan the layout by theme; mount work; place labels.
-- **Check for understanding:** "Why did your group put these pieces together?" → they share a theme or technique that visitors can follow
-- **Differentiation:** support: layout plan template / stretch: design an interactive station for visitors
-- **Materials:** mounting card, tape, labels
-- **Joy:** installation day
+- **Objective:** "By the end, I can select and arrange artworks so an exhibition tells a clear story to visitors." (UK NC KS2 Art (evaluate and analyse creative works))
+- **Hook:** "How do real galleries decide what goes next to what?"
+- **Key activity:** Look at photos of real gallery rooms; groups choose a theme for their wall (colour, paint, tone, textiles or depth), select pieces, plan a layout on paper at small scale, then mount work at eye height with labels and a wall title.
+- **Check for understanding:** "Why did your group put these pieces together, and what will visitors notice?" → explains the shared theme or technique and how the layout guides the eye
+- **Differentiation:** support: a layout plan template with rectangles to arrange / stretch: design an interactive visitor station (e.g. 'mix your own tertiary colour')
+- **Materials:** mounting card, tape, labels, spirit level
+- **Joy:** installation day with 'curator' lanyards
 
 ### Lesson 35 — Exhibition opening
 - **Duration:** 40 min

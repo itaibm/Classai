@@ -427,13 +427,13 @@ Lessons are **35 minutes**, one a week, plus short daily check-ins (a 'feelings 
 
 ### Lesson 34 — Community action: planning and doing
 - **Duration:** 35 min
-- **Objective:** "By the end, I can plan and carry out our community project in teams." (PSHE Assoc. KS2 Living in the Wider World)
-- **Hook:** "Action day!"
-- **Key activity:** Teams take roles (organisers, publicity, materials, recorders); carry out the project with adult supervision; record with photos.
-- **Check for understanding:** "What was your role, and how did your team work together?" → describes the role and one example of teamwork
-- **Differentiation:** support: clear role cards / stretch: lead a team and solve a problem that arose
-- **Materials:** project materials, safety equipment (gloves, hi-vis for litter picks)
-- **Joy:** the action day itself
+- **Objective:** "By the end, I can plan and carry out our community project in teams with clear roles." (PSHE Assoc. KS2 Living in the Wider World (community; working together))
+- **Hook:** "Today we stop talking and start doing — every team has a job that matters."
+- **Key activity:** Teams take roles (organisers, publicity, materials, recorders, safety checkers) and write a simple action plan (what, who, when, what we need); after a check by the teacher, the class carries out the project with adult supervision (e.g. a litter pick, a planting day, a food-bank collection, a reading-buddy session) and records it with photos and tallies.
+- **Check for understanding:** "What was your role, and how did your team work together when something went wrong?" → describes their role and a specific example of problem-solving or teamwork
+- **Differentiation:** support: clear role cards with a checklist of tasks / stretch: lead a team and adapt the plan when a problem arises
+- **Materials:** project materials, gloves and hi-vis for litter picks, cameras, tally sheets
+- **Joy:** the action day itself, with a class photo of the result
 
 ### Lesson 35 — Unit review: reflecting on our impact
 - **Duration:** 35 min

@@ -356,13 +356,13 @@ Lessons are **40 minutes**, one a week. Unplugged activities (no computer) are u
 
 ### Lesson 29 — Unit review: research mission
 - **Duration:** 40 min
-- **Objective:** "By the end, I can research a question using reliable sources and credit them." (UK NC KS2 Computing)
-- **Hook:** "Research mission: find three true facts about an animal from your science unit."
-- **Key activity:** Research, check, credit.
-- **Check for understanding:** "How do you know your facts are reliable?" → checked in two trusted sources
-- **Differentiation:** support: guided websites / stretch: note a fact sources disagreed on
-- **Materials:** devices
-- **Joy:** 'Fact file' cards
+- **Objective:** "By the end, I can research a question using reliable sources, check facts in two places and credit my sources." (UK NC KS2 Computing (use search technologies effectively; be discerning in evaluating digital content))
+- **Hook:** "Research mission: find three true, surprising facts about an animal from our science unit — and prove they're true."
+- **Key activity:** Children write a research question, choose keywords, search on a child-safe engine, record each fact with its source, cross-check it in a second trusted source, and make a fact card with a 'sources' line. They also note one site they rejected and why.
+- **Check for understanding:** "How do you know your facts are reliable, and why did you reject one website?" → each fact was confirmed in two trusted sources (e.g. a museum and an encyclopedia); a site was rejected for no author, adverts or claims no one else supports
+- **Differentiation:** support: a list of three pre-checked websites to start from / stretch: record a fact that two sources disagreed on and explain which you trust
+- **Materials:** devices, child-safe search engine, fact-card templates
+- **Joy:** 'Fact file' cards pinned to a class 'Wall of True'
 
 **End-of-unit check:** Show and tell: present three facts checked in two reliable sources, credit the sources, and explain one clue that a different website was unreliable.
 
